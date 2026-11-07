@@ -1,0 +1,45 @@
+{
+  "ticker": "NVDA",
+  "asOf": "2026-01-25",
+  "source": {
+    "name": "NVIDIA CORP Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+    "date": "2026-02-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Compute & Networking",
+      "revenue": 193479000000,
+      "share": 0.8959932943715325
+    },
+    {
+      "name": "Graphics",
+      "revenue": 22459000000,
+      "share": 0.10400670562846744
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 149617000000,
+      "share": 0.6928701756985801
+    },
+    {
+      "name": "Taiwan",
+      "revenue": 42345000000,
+      "share": 0.19609795404236402
+    },
+    {
+      "name": "China incl. Hong Kong",
+      "revenue": 19677000000,
+      "share": 0.09112337800665006
+    },
+    {
+      "name": "Other countries",
+      "revenue": 4299000000,
+      "share": 0.019908492252405784
+    }
+  ]
+}

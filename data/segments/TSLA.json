@@ -1,0 +1,40 @@
+{
+  "ticker": "TSLA",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Tesla, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+    "date": "2026-01-29"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Automotive",
+      "revenue": 82056000000,
+      "share": 0.8653231674523079
+    },
+    {
+      "name": "Energy Generation & Storage",
+      "revenue": 12771000000,
+      "share": 0.1346768325476921
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 47627000000,
+      "share": 0.5022514684636232
+    },
+    {
+      "name": "Other countries",
+      "revenue": 26238000000,
+      "share": 0.2766933468315986
+    },
+    {
+      "name": "China",
+      "revenue": 20962000000,
+      "share": 0.22105518470477817
+    }
+  ]
+}

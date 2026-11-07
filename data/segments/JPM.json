@@ -1,0 +1,45 @@
+{
+  "ticker": "JPM",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "JPMORGAN CHASE & CO Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Commercial & Investment Bank",
+      "revenue": 78454000000,
+      "share": 0.43000981106841984
+    },
+    {
+      "name": "Consumer & Community Banking",
+      "revenue": 76029000000,
+      "share": 0.41671827982921067
+    },
+    {
+      "name": "Asset & Wealth Management",
+      "revenue": 24073000000,
+      "share": 0.13194516763772493
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 3891000000,
+      "share": 0.021326741464644527
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 139689000000,
+      "share": 0.7656415287727395
+    },
+    {
+      "name": "International",
+      "revenue": 42758000000,
+      "share": 0.23435847122726053
+    }
+  ]
+}

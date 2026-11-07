@@ -1,0 +1,82 @@
+[
+  {
+    "ticker": "NVDA",
+    "quarterly": 24,
+    "annual": 8,
+    "latestQuarter": "2026-07-26",
+    "latest10K": "2026-02-25",
+    "earningsReleaseUrl": null
+  },
+  {
+    "ticker": "MSFT",
+    "quarterly": 24,
+    "annual": 8,
+    "latestQuarter": "2026-09-30",
+    "latest10K": "2026-07-29",
+    "earningsReleaseUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm"
+  },
+  {
+    "ticker": "AAPL",
+    "quarterly": 24,
+    "annual": 8,
+    "latestQuarter": "2026-09-26",
+    "latest10K": "2026-11-03",
+    "earningsReleaseUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/a8-kex991q4202609262026.htm"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarterly": 24,
+    "annual": 8,
+    "latestQuarter": "2026-09-30",
+    "latest10K": "2026-02-05",
+    "earningsReleaseUrl": null
+  },
+  {
+    "ticker": "AMZN",
+    "quarterly": 24,
+    "annual": 8,
+    "latestQuarter": "2026-09-30",
+    "latest10K": "2026-02-06",
+    "earningsReleaseUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm"
+  },
+  {
+    "ticker": "META",
+    "quarterly": 24,
+    "annual": 8,
+    "latestQuarter": "2026-09-30",
+    "latest10K": "2026-01-29",
+    "earningsReleaseUrl": null
+  },
+  {
+    "ticker": "AVGO",
+    "quarterly": 24,
+    "annual": 8,
+    "latestQuarter": "2026-08-02",
+    "latest10K": "2025-12-18",
+    "earningsReleaseUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm"
+  },
+  {
+    "ticker": "TSLA",
+    "quarterly": 24,
+    "annual": 8,
+    "latestQuarter": "2026-09-30",
+    "latest10K": "2026-01-29",
+    "earningsReleaseUrl": null
+  },
+  {
+    "ticker": "LLY",
+    "quarterly": 24,
+    "annual": 8,
+    "latestQuarter": "2026-09-30",
+    "latest10K": "2026-02-12",
+    "earningsReleaseUrl": null
+  },
+  {
+    "ticker": "JPM",
+    "quarterly": 24,
+    "annual": 8,
+    "latestQuarter": "2026-09-30",
+    "latest10K": "2026-02-13",
+    "earningsReleaseUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfex992supplement.htm"
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "ticker": "LLY",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ELI LILLY AND COMPANY Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+    "date": "2026-02-12"
+  },
+  "segmentLabel": "Therapeutic area",
+  "segments": [
+    {
+      "name": "Cardiometabolic Health",
+      "revenue": 48221000000,
+      "share": 0.7398241764985655
+    },
+    {
+      "name": "Oncology",
+      "revenue": 9376000000,
+      "share": 0.14385001304101014
+    },
+    {
+      "name": "Immunology",
+      "revenue": 5247000000,
+      "share": 0.08050138848402093
+    },
+    {
+      "name": "Neuroscience",
+      "revenue": 1391000000,
+      "share": 0.02134122953712085
+    },
+    {
+      "name": "Other",
+      "revenue": 943000000,
+      "share": 0.01446785007441047
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 43481000000,
+      "share": 0.6671013670047101
+    },
+    {
+      "name": "Non-US",
+      "revenue": 21698000000,
+      "share": 0.3328986329952899
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "ticker": "AAPL",
+  "asOf": "2026-09-26",
+  "source": {
+    "name": "Apple Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+    "date": "2026-11-03"
+  },
+  "segmentLabel": "Product category",
+  "segments": [
+    {
+      "name": "iPhone",
+      "revenue": 254098000000,
+      "share": 0.5306598946607801
+    },
+    {
+      "name": "Services",
+      "revenue": 123301000000,
+      "share": 0.2575026000659936
+    },
+    {
+      "name": "Mac",
+      "revenue": 37929000000,
+      "share": 0.07921116712681221
+    },
+    {
+      "name": "Wearables, Home & Accessories",
+      "revenue": 35577000000,
+      "share": 0.07429923522556878
+    },
+    {
+      "name": "iPad",
+      "revenue": 27929000000,
+      "share": 0.05832710292084522
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Other countries",
+      "revenue": 228710000000,
+      "share": 0.47763943245467116
+    },
+    {
+      "name": "United States",
+      "revenue": 167746000000,
+      "share": 0.3503218234294139
+    },
+    {
+      "name": "China",
+      "revenue": 82378000000,
+      "share": 0.1720387441159149
+    }
+  ]
+}

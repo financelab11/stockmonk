@@ -32,6 +32,16 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
+
+# generated QA artifacts
+.lighthouseci/
+test-results/
+playwright-report/
+public/screenshots/
+
+# ingestion cache (re-downloadable)
+/data/raw/
 
 # vercel
 .vercel

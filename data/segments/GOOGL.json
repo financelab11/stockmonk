@@ -1,0 +1,50 @@
+{
+  "ticker": "GOOGL",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Alphabet Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+    "date": "2026-02-05"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Google Services",
+      "revenue": 342721000000,
+      "share": 0.8507705368934256
+    },
+    {
+      "name": "Google Cloud",
+      "revenue": 58705000000,
+      "share": 0.14572927940899025
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 1537000000,
+      "share": 0.0038154484703452523
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 194229000000,
+      "share": 0.482154027941892
+    },
+    {
+      "name": "EMEA",
+      "revenue": 117152000000,
+      "share": 0.2908180996733162
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 67680000000,
+      "share": 0.16800881748403818
+    },
+    {
+      "name": "Americas ex-US",
+      "revenue": 23902000000,
+      "share": 0.05933431967351478
+    }
+  ]
+}

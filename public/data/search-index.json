@@ -1,0 +1,478 @@
+[
+  {
+    "ticker": "AAPL",
+    "name": "APPLE INC",
+    "sector": "Computer Hardware",
+    "industry": "Technology",
+    "research": true
+  },
+  {
+    "ticker": "ABBV",
+    "name": "AbbVie Inc.",
+    "sector": "Drug Manufacturers",
+    "industry": "Healthcare",
+    "research": false
+  },
+  {
+    "ticker": "ABNB",
+    "name": "Airbnb, Inc.",
+    "sector": "Travel & Leisure",
+    "industry": "Consumer Cyclical",
+    "research": false
+  },
+  {
+    "ticker": "ADBE",
+    "name": "Adobe Systems",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "AIG",
+    "name": "AMERICAN INTERNATIONAL GROUP INC",
+    "sector": "Insurance",
+    "industry": "Financial Services",
+    "research": false
+  },
+  {
+    "ticker": "AMAT",
+    "name": "APPLIED MATERIALS INC /DE",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "AMD",
+    "name": "ADVANCED MICRO DEVICES INC",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "AMZN",
+    "name": "AMAZON COM INC",
+    "sector": "Retail - Apparel & Specialty",
+    "industry": "Consumer Cyclical",
+    "research": true
+  },
+  {
+    "ticker": "AVGO",
+    "name": "Broadcom Inc.",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "research": true
+  },
+  {
+    "ticker": "AXP",
+    "name": "AMERICAN EXPRESS CO",
+    "sector": "Credit Services",
+    "industry": "Financial Services",
+    "research": false
+  },
+  {
+    "ticker": "BA",
+    "name": "BOEING CO",
+    "sector": "Aerospace & Defense",
+    "industry": "Industrials",
+    "research": false
+  },
+  {
+    "ticker": "BAC",
+    "name": "BANK OF AMERICA CORP /DE/",
+    "sector": "Banks",
+    "industry": "Financial Services",
+    "research": false
+  },
+  {
+    "ticker": "BKNG",
+    "name": "Booking Holdings Inc.",
+    "sector": "Travel & Leisure",
+    "industry": "Consumer Cyclical",
+    "research": false
+  },
+  {
+    "ticker": "C",
+    "name": "CITIGROUP INC",
+    "sector": "Banks",
+    "industry": "Financial Services",
+    "research": false
+  },
+  {
+    "ticker": "CAT",
+    "name": "CATERPILLAR INC",
+    "sector": "Farm & Construction Machinery",
+    "industry": "Industrials",
+    "research": false
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "sector": "Oil & Gas - E&P",
+    "industry": "Energy",
+    "research": false
+  },
+  {
+    "ticker": "COST",
+    "name": "COSTCO WHOLESALE CORP /NEW",
+    "sector": "Retail - Defensive",
+    "industry": "Consumer Defensive",
+    "research": false
+  },
+  {
+    "ticker": "CRM",
+    "name": "SALESFORCE COM INC",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "CRWD",
+    "name": "CrowdStrike Holdings, Inc.",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "CSCO",
+    "name": "CISCO SYSTEMS, INC.",
+    "sector": "Communication Equipment",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "CVX",
+    "name": "CHEVRON CORP",
+    "sector": "Oil & Gas - Integrated",
+    "industry": "Energy",
+    "research": false
+  },
+  {
+    "ticker": "DDOG",
+    "name": "Datadog, Inc.",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "DE",
+    "name": "DEERE & CO",
+    "sector": "Farm & Construction Machinery",
+    "industry": "Industrials",
+    "research": false
+  },
+  {
+    "ticker": "DELL",
+    "name": "Dell Technologies Inc.",
+    "sector": "Computer Hardware",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Alphabet (Google)",
+    "sector": "Online Media",
+    "industry": "Technology",
+    "research": true
+  },
+  {
+    "ticker": "GS",
+    "name": "GOLDMAN SACHS GROUP INC",
+    "sector": "Banks",
+    "industry": "Financial Services",
+    "research": false
+  },
+  {
+    "ticker": "HON",
+    "name": "HONEYWELL INTERNATIONAL INC",
+    "sector": "Industrial Products",
+    "industry": "Industrials",
+    "research": false
+  },
+  {
+    "ticker": "HPQ",
+    "name": "HP INC",
+    "sector": "Computer Hardware",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "IBM",
+    "name": "INTERNATIONAL BUSINESS MACHINES CORP",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "INTC",
+    "name": "INTEL CORP",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "INTU",
+    "name": "INTUIT INC",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "JNJ",
+    "name": "JOHNSON & JOHNSON",
+    "sector": "Drug Manufacturers",
+    "industry": "Healthcare",
+    "research": false
+  },
+  {
+    "ticker": "JPM",
+    "name": "JPMORGAN CHASE & CO",
+    "sector": "Banks",
+    "industry": "Financial Services",
+    "research": true
+  },
+  {
+    "ticker": "KLAC",
+    "name": "KLA TENCOR CORP",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "KO",
+    "name": "COCA COLA CO",
+    "sector": "Beverages - Non-Alcoholic",
+    "industry": "Consumer Defensive",
+    "research": false
+  },
+  {
+    "ticker": "LLY",
+    "name": "Lilly (Eli) & Co.",
+    "sector": "Drug Manufacturers",
+    "industry": "Healthcare",
+    "research": true
+  },
+  {
+    "ticker": "LMT",
+    "name": "LOCKHEED MARTIN CORP",
+    "sector": "Aerospace & Defense",
+    "industry": "Industrials",
+    "research": false
+  },
+  {
+    "ticker": "LRCX",
+    "name": "LAM RESEARCH CORP",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "MA",
+    "name": "Mastercard Inc",
+    "sector": "Credit Services",
+    "industry": "Financial Services",
+    "research": false
+  },
+  {
+    "ticker": "META",
+    "name": "Meta Platforms, Inc.",
+    "sector": "Online Media",
+    "industry": "Technology",
+    "research": true
+  },
+  {
+    "ticker": "MRK",
+    "name": "Merck & Co., Inc.",
+    "sector": "Drug Manufacturers",
+    "industry": "Healthcare",
+    "research": false
+  },
+  {
+    "ticker": "MS",
+    "name": "MORGAN STANLEY",
+    "sector": "Banks",
+    "industry": "Financial Services",
+    "research": false
+  },
+  {
+    "ticker": "MSFT",
+    "name": "MICROSOFT CORP",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "research": true
+  },
+  {
+    "ticker": "MU",
+    "name": "MICRON TECHNOLOGY INC",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "NFLX",
+    "name": "NETFLIX INC",
+    "sector": "Entertainment",
+    "industry": "Consumer Cyclical",
+    "research": false
+  },
+  {
+    "ticker": "NOW",
+    "name": "ServiceNow, Inc.",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "NVDA",
+    "name": "NVIDIA CORP",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "research": true
+  },
+  {
+    "ticker": "ORCL",
+    "name": "ORACLE CORP",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "PANW",
+    "name": "Palo Alto Networks Inc",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "PEP",
+    "name": "PEPSICO INC",
+    "sector": "Beverages - Non-Alcoholic",
+    "industry": "Consumer Defensive",
+    "research": false
+  },
+  {
+    "ticker": "PFE",
+    "name": "PFIZER INC",
+    "sector": "Drug Manufacturers",
+    "industry": "Healthcare",
+    "research": false
+  },
+  {
+    "ticker": "PG",
+    "name": "PROCTER & GAMBLE Co",
+    "sector": "Consumer Packaged Goods",
+    "industry": "Consumer Defensive",
+    "research": false
+  },
+  {
+    "ticker": "PGR",
+    "name": "Progressive Corp.",
+    "sector": "Insurance - Property & Casualty",
+    "industry": "Financial Services",
+    "research": false
+  },
+  {
+    "ticker": "PINS",
+    "name": "PINTEREST, INC.",
+    "sector": "Online Media",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "PYPL",
+    "name": "PayPal Holdings, Inc.",
+    "sector": "Credit Services",
+    "industry": "Financial Services",
+    "research": false
+  },
+  {
+    "ticker": "QCOM",
+    "name": "QUALCOMM INC/DE",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "SHOP",
+    "name": "SHOPIFY INC.",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "SNOW",
+    "name": "Snowflake Inc.",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "SPOT",
+    "name": "Spotify Technology S.A.",
+    "sector": "Online Media",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "TMO",
+    "name": "THERMO FISHER SCIENTIFIC INC.",
+    "sector": "Medical Diagnostics & Research",
+    "industry": "Healthcare",
+    "research": false
+  },
+  {
+    "ticker": "TSLA",
+    "name": "Tesla",
+    "sector": "Autos",
+    "industry": "Consumer Cyclical",
+    "research": true
+  },
+  {
+    "ticker": "TXN",
+    "name": "TEXAS INSTRUMENTS INC",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "research": false
+  },
+  {
+    "ticker": "UBER",
+    "name": "Uber Technologies, Inc",
+    "sector": "Travel & Leisure",
+    "industry": "Consumer Cyclical",
+    "research": false
+  },
+  {
+    "ticker": "UNH",
+    "name": "UNITEDHEALTH GROUP INC",
+    "sector": "Health Care Plans",
+    "industry": "Healthcare",
+    "research": false
+  },
+  {
+    "ticker": "V",
+    "name": "VISA INC.",
+    "sector": "Credit Services",
+    "industry": "Financial Services",
+    "research": false
+  },
+  {
+    "ticker": "WFC",
+    "name": "WELLS FARGO & COMPANY/MN",
+    "sector": "Banks",
+    "industry": "Financial Services",
+    "research": false
+  },
+  {
+    "ticker": "WMT",
+    "name": "Walmart Inc",
+    "sector": "Retail - Defensive",
+    "industry": "Consumer Defensive",
+    "research": false
+  },
+  {
+    "ticker": "XOM",
+    "name": "EXXON MOBIL CORP",
+    "sector": "Oil & Gas - Integrated",
+    "industry": "Energy",
+    "research": false
+  }
+]

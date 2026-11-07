@@ -1,0 +1,2706 @@
+[
+  {
+    "ticker": "AAPL",
+    "name": "APPLE INC",
+    "sector": "Computer Hardware",
+    "industry": "Technology",
+    "description": "Apple Inc is an American multinational technology company. It designs, manufactures, and markets mobile communication and media devices, personal computers, and portable digital music players.",
+    "isResearch": true,
+    "price": 342.37,
+    "changePct": -0.005229973559578105,
+    "marketCap": 4975383151340,
+    "return1y": 0.2738400863191577,
+    "revenueTtm": 478834000000,
+    "revenueGrowthTtm": 0.1505979656911629,
+    "operatingMargin": 0.3300997840587761,
+    "pe": 37.64239191480991,
+    "evEbitda": 28.6819865839777,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "caution",
+        "detail": "25th percentile revenue/EPS growth in the covered universe."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "positive",
+        "detail": "95th percentile operating margin and ROIC."
+      },
+      {
+        "key": "cash",
+        "label": "Cash generation: High",
+        "tone": "positive",
+        "detail": "72th percentile free-cash-flow margin."
+      },
+      {
+        "key": "balance",
+        "label": "Balance sheet: Net cash",
+        "tone": "positive",
+        "detail": "Net cash of $56.8B."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: In line",
+        "tone": "info",
+        "detail": "35th percentile cheapness on EV/EBITDA within the covered universe."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "ABBV",
+    "name": "AbbVie Inc.",
+    "sector": "Drug Manufacturers",
+    "industry": "Healthcare",
+    "description": "AbbVie Inc is a biopharmaceutical company that discovers, develops, manufactures and sells a range of pharmaceutical products for treating chronic autoimmune diseases, virology and neurological disorders.",
+    "isResearch": false,
+    "price": 291.31,
+    "changePct": 0.010650846516791601,
+    "marketCap": 514924306101,
+    "return1y": 0.3697103629866465,
+    "revenueTtm": 66014000000,
+    "revenueGrowthTtm": 0.10680034873583266,
+    "operatingMargin": 0.4088981125215863,
+    "pe": 93.48662057026144,
+    "evEbitda": 77.2000458922039,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "ABNB",
+    "name": "Airbnb, Inc.",
+    "sector": "Travel & Leisure",
+    "industry": "Consumer Cyclical",
+    "description": "Airbnb is a community based on connection and belonging-a community that was born in 2008 when two hosts welcomed three guests to their San Francisco home, and has since grown to 4 million hosts who have welcomed over 800 million guest arrivals to about 100,000 cities in almost every country and region across the globe. Hosts on Airbnb are everyday people who share their worlds to provide guests with the feeling of connection and being at home.",
+    "isResearch": false,
+    "price": 189.99,
+    "changePct": 0.11673426203491455,
+    "marketCap": 120643650000,
+    "return1y": 0.5762880610636356,
+    "revenueTtm": 13933000000,
+    "revenueGrowthTtm": 0.16662480113874234,
+    "operatingMargin": 0.22493361085193425,
+    "pe": 30.27444165621079,
+    "evEbitda": null,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: n/a",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "ADBE",
+    "name": "Adobe Systems",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "description": "Adobe Systems Inc offers a line of software and services for content creation and the measurement of digital advertising and marketing. It software applications includes Photoshop and Lightroom, Adobe Analytics, Media Optimizer and Campaign Manager.",
+    "isResearch": false,
+    "price": 239.3,
+    "changePct": -0.028972569388086344,
+    "marketCap": 96725060000,
+    "return1y": -0.26897815793493207,
+    "revenueTtm": 24453000000,
+    "revenueGrowthTtm": 0.10963379770386172,
+    "operatingMargin": 0.36645810330020856,
+    "pe": 13.419125971143174,
+    "evEbitda": 9.93478430566968,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Below peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "AIG",
+    "name": "AMERICAN INTERNATIONAL GROUP INC",
+    "sector": "Insurance",
+    "industry": "Financial Services",
+    "description": "American International Group Inc is an insurance company. The company through its subsidiaries provides property casualty insurance, life insurance, retirement products, mortgage insurance and other financial services in the United States and abroad.",
+    "isResearch": false,
+    "price": 77.75,
+    "changePct": -0.039293216359817196,
+    "marketCap": 40308622765,
+    "return1y": 0.04446534121440093,
+    "revenueTtm": 27906000000,
+    "revenueGrowthTtm": 0.02174868189806678,
+    "operatingMargin": 0.16913925320719558,
+    "pe": 10.941537124049946,
+    "evEbitda": 18.388970239507298,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: In line",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "AMAT",
+    "name": "APPLIED MATERIALS INC /DE",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "description": "Applied Materials Inc is a supplier of semiconductor manufacturing equipment. It provides manufacturing equipment, services and software to the semiconductor, flat panel display, solar photovoltaic and related industries.",
+    "isResearch": false,
+    "price": 332.71,
+    "changePct": 0.04216131558339842,
+    "marketCap": 264158241955,
+    "return1y": 0.43273619843252087,
+    "revenueTtm": 29024000000,
+    "revenueGrowthTtm": 0.033287051870839024,
+    "operatingMargin": 0.30130237045203967,
+    "pe": 31.048218377409498,
+    "evEbitda": 28.607130382824344,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "AMD",
+    "name": "ADVANCED MICRO DEVICES INC",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "description": "Advanced Micro Devices Inc designs and produces microprocessors and low-power processor solutions for the computer, communications, and consumer electronics industries.",
+    "isResearch": false,
+    "price": 449.04,
+    "changePct": 0.11038575667655803,
+    "marketCap": 736464779189,
+    "return1y": 0.8891039124947415,
+    "revenueTtm": 45436000000,
+    "revenueGrowthTtm": 0.41867799044556153,
+    "operatingMargin": 0.20565190597763888,
+    "pe": 79.3006115202972,
+    "evEbitda": 329.80957420017916,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "AMAZON COM INC",
+    "sector": "Retail - Apparel & Specialty",
+    "industry": "Consumer Cyclical",
+    "description": "Amazon.com Inc is an online retailer. The Company sells its products through the website which provides services, such as advertising services and co-branded credit card agreements. It also offers electronic devices like Kindle e-readers and Fire tablets.",
+    "isResearch": true,
+    "price": 259.3,
+    "changePct": -0.003497175358364246,
+    "marketCap": 2803846762746,
+    "return1y": 0.06690256747860435,
+    "revenueTtm": 797455000000,
+    "revenueGrowthTtm": 0.15350845471771812,
+    "operatingMargin": 0.13087384241117053,
+    "pe": 20.803291037520683,
+    "evEbitda": 15.582197610187297,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "55th percentile revenue/EPS growth in the covered universe."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "caution",
+        "detail": "15th percentile operating margin and ROIC."
+      },
+      {
+        "key": "cash",
+        "label": "Cash generation: Low",
+        "tone": "caution",
+        "detail": "6th percentile free-cash-flow margin."
+      },
+      {
+        "key": "balance",
+        "label": "Balance sheet: Low leverage",
+        "tone": "positive",
+        "detail": "Net debt of $58.9B, 0.3× EBITDA."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "75th percentile cheapness on EV/EBITDA within the covered universe."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "AVGO",
+    "name": "Broadcom Inc.",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "description": "Broadcom Inc is engaged in designing, developing and supplying analog and digital semiconductor connectivity solutions. Its product portfolio serves wired infrastructure, wireless communications, enterprise storage and industrial and other end markets.",
+    "isResearch": true,
+    "price": 293.69,
+    "changePct": 0.00740918601859164,
+    "marketCap": 1401967355052,
+    "return1y": -0.16796985664910202,
+    "revenueTtm": 89104000000,
+    "revenueGrowthTtm": 0.4869005106297768,
+    "operatingMargin": 0.4804947028191776,
+    "pe": 36.63837331901215,
+    "evEbitda": 33.085010243796894,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "positive",
+        "detail": "85th percentile revenue/EPS growth in the covered universe."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "55th percentile operating margin and ROIC."
+      },
+      {
+        "key": "cash",
+        "label": "Cash generation: High",
+        "tone": "positive",
+        "detail": "94th percentile free-cash-flow margin."
+      },
+      {
+        "key": "balance",
+        "label": "Balance sheet: Low leverage",
+        "tone": "positive",
+        "detail": "Net debt of $35.4B, 0.8× EBITDA."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Below peers",
+        "tone": "info",
+        "detail": "25th percentile cheapness on EV/EBITDA within the covered universe."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "AXP",
+    "name": "AMERICAN EXPRESS CO",
+    "sector": "Credit Services",
+    "industry": "Financial Services",
+    "description": "American Express Co is a payments, network and travel company. It provides charge and credit card products, travel services, network services, stored value products, loans, and other products and services to businesses and individuals.",
+    "isResearch": false,
+    "price": 320.99,
+    "changePct": -0.012247284364710675,
+    "marketCap": 215240492258,
+    "return1y": -0.11250276487502764,
+    "revenueTtm": 77023000000,
+    "revenueGrowthTtm": -0.09415611144433078,
+    "operatingMargin": 0.1937992547680563,
+    "pe": 18.377774270662567,
+    "evEbitda": 50.69253232642487,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "BA",
+    "name": "BOEING CO",
+    "sector": "Aerospace & Defense",
+    "industry": "Industrials",
+    "description": "Boeing Co designs, develops, manufactures, sells, services and supports commercial jetliners, military aircraft, satellites, missile defense, human space flight and launch systems and services.",
+    "isResearch": false,
+    "price": 173.4,
+    "changePct": 0.00521739130434784,
+    "marketCap": 136179186446,
+    "return1y": -0.11755725190839694,
+    "revenueTtm": 178926000000,
+    "revenueGrowthTtm": 0.3449644451794278,
+    "operatingMargin": 0.4697305031130188,
+    "pe": 1.4849863304326965,
+    "evEbitda": null,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: n/a",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "BAC",
+    "name": "BANK OF AMERICA CORP /DE/",
+    "sector": "Banks",
+    "industry": "Financial Services",
+    "description": "Bank of America Corporation is a bank holding and a financial holding company. The company provides financial products and services to people, companies and institutional investors.",
+    "isResearch": false,
+    "price": 49.42,
+    "changePct": -0.006832797427652637,
+    "marketCap": 341008329077,
+    "return1y": -0.052712286754839965,
+    "revenueTtm": 61452000000,
+    "revenueGrowthTtm": -0.4518793371033055,
+    "operatingMargin": 0.37165592657684043,
+    "pe": 21.1648665017999,
+    "evEbitda": 14.186218865005408,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: In line",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "BKNG",
+    "name": "Booking Holdings Inc.",
+    "sector": "Travel & Leisure",
+    "industry": "Consumer Cyclical",
+    "description": "The Priceline Group Inc is one of the largest online travel agency. The firm through its branded sites offers booking services for hotel and vacation rooms, airline tickets, rental cars, restaurant reservations, cruises, and other vacation packages.",
+    "isResearch": false,
+    "price": 160.66,
+    "changePct": -0.047771455666192564,
+    "marketCap": 119483043950,
+    "return1y": -0.17266594572326077,
+    "revenueTtm": 24703000000,
+    "revenueGrowthTtm": -0.40965467797825306,
+    "operatingMargin": 0.2754321337489374,
+    "pe": 31.92173228693561,
+    "evEbitda": 83.73023402242467,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "C",
+    "name": "CITIGROUP INC",
+    "sector": "Banks",
+    "industry": "Financial Services",
+    "description": "Citigroup Inc is a financial-services company with business spanning more than 100 countries. Its core business is providing banking services, investment banking, cash management, and various other products and services.",
+    "isResearch": false,
+    "price": 119.05,
+    "changePct": 0.0050654284508231395,
+    "marketCap": 197052097987,
+    "return1y": 0.20471564460635494,
+    "revenueTtm": 4022000000,
+    "revenueGrowthTtm": -0.800762867191757,
+    "operatingMargin": -11.830432620586773,
+    "pe": null,
+    "evEbitda": null,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: n/a",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "CAT",
+    "name": "CATERPILLAR INC",
+    "sector": "Farm & Construction Machinery",
+    "industry": "Industrials",
+    "description": "Caterpillar Inc caters to the farming industry in the United States. It manufactures construction & mining equipment, diesel & natural gas engines, industrial gas turbines and diesel-electric locomotives.",
+    "isResearch": false,
+    "price": 558.63,
+    "changePct": 0.009013077089805588,
+    "marketCap": 255625833422,
+    "return1y": -0.011169327716217703,
+    "revenueTtm": 84791000000,
+    "revenueGrowthTtm": -0.14246849653107874,
+    "operatingMargin": 0.267882204479249,
+    "pe": 13.562491162033107,
+    "evEbitda": 63.5095238315528,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "sector": "Oil & Gas - E&P",
+    "industry": "Energy",
+    "description": "ConocoPhillips operates in the oil & gas sector. Its primary business involves exploration and production of crude oil and natural gas.",
+    "isResearch": false,
+    "price": 136.27,
+    "changePct": 0.0059796249815444735,
+    "marketCap": 161116798217,
+    "return1y": 0.6406212376595233,
+    "revenueTtm": 42711000000,
+    "revenueGrowthTtm": -0.4446842536372265,
+    "operatingMargin": -0.2072299875910187,
+    "pe": -10.98893,
+    "evEbitda": 10.266139812476105,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: In line",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "COST",
+    "name": "COSTCO WHOLESALE CORP /NEW",
+    "sector": "Retail - Defensive",
+    "industry": "Consumer Defensive",
+    "description": "Costco Wholesale Corp and its subsidiaries operate membership warehouses. The company offers its members low prices on a limited selection of nationally branded and select private-label products in merchandise categories.",
+    "isResearch": false,
+    "price": 1053.56,
+    "changePct": -0.011289520359612948,
+    "marketCap": 466863356932,
+    "return1y": 0.14743135952253872,
+    "revenueTtm": 303154000000,
+    "revenueGrowthTtm": 0.10143695387577889,
+    "operatingMargin": 0.03854476602650798,
+    "pe": 50.60300855538695,
+    "evEbitda": 32.51364001197855,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "CRM",
+    "name": "SALESFORCE COM INC",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "description": "Salesforce.com Inc is a software-as-a-service company that provides enterprise cloud computing solutions, offering social and mobile cloud apps and platform services, as well as professional services to facilitate the adoption of its solutions.",
+    "isResearch": false,
+    "price": 213.65,
+    "changePct": -0.03938671822310147,
+    "marketCap": 197198950000,
+    "return1y": -0.0993212765060495,
+    "revenueTtm": 41525000000,
+    "revenueGrowthTtm": 0.09579100145137875,
+    "operatingMargin": 0.21473810957254666,
+    "pe": 26.444810245407,
+    "evEbitda": 15.715568218042716,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: In line",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "CRWD",
+    "name": "CrowdStrike Holdings, Inc.",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "description": "CrowdStrike Holdings, Inc. is a holding company, which engages in the provision of cloud-delivered solution for next-generation endpoint protection that offers cloud modules on its Falcon platform through SaaS subscription-based model. It operates through Domestic and International geographical segments. The firm\\'s services include incident response services; proactive services, tabletop exercises, adversary emulation, clod security assessment, and blue team exercises. The company was founded by George P. Kurtz, Marston Gregg, and Dmitri Alperovitch on November 7, 2011 and is headquartered in Sunnyvale, CA.",
+    "isResearch": false,
+    "price": 216.9,
+    "changePct": -0.0013812154696132284,
+    "marketCap": 220860437832,
+    "return1y": 0.6292345827386765,
+    "revenueTtm": 6768292000,
+    "revenueGrowthTtm": 0.23490589722406297,
+    "operatingMargin": 0.20995577613968192,
+    "pe": 144.645827888441,
+    "evEbitda": 2357.1269472673134,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "CSCO",
+    "name": "CISCO SYSTEMS, INC.",
+    "sector": "Communication Equipment",
+    "industry": "Technology",
+    "description": "Cisco Systems Inc is a supplier of data networking equipment and software. Its products include routers, switches, access equipment, and security and network management software which allow data communication among dispersed computer networks.",
+    "isResearch": false,
+    "price": 93.85,
+    "changePct": -0.019536147095695844,
+    "marketCap": 370011778031,
+    "return1y": 0.3451340117529025,
+    "revenueTtm": 63325000000,
+    "revenueGrowthTtm": 0.1177498499664631,
+    "operatingMargin": 0.2536281089617055,
+    "pe": 27.88963428288234,
+    "evEbitda": 19.892036881404227,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: In line",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "CVX",
+    "name": "CHEVRON CORP",
+    "sector": "Oil & Gas - Integrated",
+    "industry": "Energy",
+    "description": "Chevron Corp engages in the exploration, production, and refining operations worldwide. Its oil refineries are spread across the United States, South Africa, and Asia with an approximate capacity of 2 million barrels of oil a day.",
+    "isResearch": false,
+    "price": 212.61,
+    "changePct": -0.0015028413093504112,
+    "marketCap": 417868304660,
+    "return1y": 0.4446558401848204,
+    "revenueTtm": 221474000000,
+    "revenueGrowthTtm": -0.2133116894649536,
+    "operatingMargin": 0.10694709085490847,
+    "pe": 23.533921190583463,
+    "evEbitda": 46.27555976301218,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "DDOG",
+    "name": "Datadog, Inc.",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "description": "Datadog, Inc. engages in the development of monitoring and analytics platform for developers, information technology operations teams and business users. Its platform integrates and automates infrastructure monitoring, application performance monitoring and log management to provide real-time observability of its customers\\' entire technology stack. The company was founded by Olivier Pomel and Alexis Lê-Quôc on June 4, 2010 and is headquartered in New York, NY.",
+    "isResearch": false,
+    "price": 179.04,
+    "changePct": 0.02542955326460472,
+    "marketCap": 64641057257,
+    "return1y": -0.061733570904517365,
+    "revenueTtm": 4278164000,
+    "revenueGrowthTtm": 0.332059653310359,
+    "operatingMargin": 0.022636813361993604,
+    "pe": 226.97877114986886,
+    "evEbitda": 5678.736471668277,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "DE",
+    "name": "DEERE & CO",
+    "sector": "Farm & Construction Machinery",
+    "industry": "Industrials",
+    "description": "Deere & Co is engaged in manufacturing agricultural, construction, turf, and forestry machinery. It also provides secured and lease-based financing to support dealer inventory and customer purchases.",
+    "isResearch": false,
+    "price": 671.65,
+    "changePct": 0.012573306598724576,
+    "marketCap": 181093907970,
+    "return1y": 0.4289209428984766,
+    "revenueTtm": 47982000000,
+    "revenueGrowthTtm": 0.07987306731483357,
+    "operatingMargin": 0.19463548830811556,
+    "pe": 37.16271454340242,
+    "evEbitda": 15.495328824334731,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: In line",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "DELL",
+    "name": "Dell Technologies Inc.",
+    "sector": "Computer Hardware",
+    "industry": "Technology",
+    "description": "Dell Technologies helps organizations and individuals build their digital future and transform how they work, live and play. The company provides customers with the industry\\'s broadest and most innovative technology and services portfolio for the data era.",
+    "isResearch": false,
+    "price": 328.53,
+    "changePct": 0.036666561484332894,
+    "marketCap": 238512780000,
+    "return1y": 1.2256622180069097,
+    "revenueTtm": 113538000000,
+    "revenueGrowthTtm": 0.1880460828528676,
+    "operatingMargin": 0.07177332699184415,
+    "pe": 40.180724393530994,
+    "evEbitda": 21.33769726247987,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Alphabet (Google)",
+    "sector": "Online Media",
+    "industry": "Technology",
+    "description": "Alphabet (formerly known as Google) offers a variety of IT services to individuals and corporations alike. Their main revenues come from online advertising.",
+    "isResearch": true,
+    "price": 283.93,
+    "changePct": 0.007773124157024247,
+    "marketCap": 3572123330000,
+    "return1y": -0.002319125759864926,
+    "revenueTtm": 471098000000,
+    "revenueGrowthTtm": 0.22211701346643253,
+    "operatingMargin": 0.33321304696687315,
+    "pe": 15.15576692660823,
+    "evEbitda": 18.55494823512875,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "positive",
+        "detail": "75th percentile revenue/EPS growth in the covered universe."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "35th percentile operating margin and ROIC."
+      },
+      {
+        "key": "cash",
+        "label": "Cash generation: Low",
+        "tone": "caution",
+        "detail": "28th percentile free-cash-flow margin."
+      },
+      {
+        "key": "balance",
+        "label": "Balance sheet: Net cash",
+        "tone": "positive",
+        "detail": "Net cash of $140.0B."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: In line",
+        "tone": "info",
+        "detail": "65th percentile cheapness on EV/EBITDA within the covered universe."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "GS",
+    "name": "GOLDMAN SACHS GROUP INC",
+    "sector": "Banks",
+    "industry": "Financial Services",
+    "description": "Goldman Sachs Group Inc is engaged in capital market activities. Its services primarily include investment banking operations.",
+    "isResearch": false,
+    "price": 865.82,
+    "changePct": -0.003602048449277806,
+    "marketCap": 249732430653,
+    "return1y": 0.12083160729080378,
+    "revenueTtm": 69698000000,
+    "revenueGrowthTtm": 0.18739991141095103,
+    "operatingMargin": 0.5555252661482395,
+    "pe": 11.264938908069828,
+    "evEbitda": 11.550991242044404,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: In line",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "HON",
+    "name": "HONEYWELL INTERNATIONAL INC",
+    "sector": "Industrial Products",
+    "industry": "Industrials",
+    "description": "Honeywell International Inc is a diversified technology and manufacturing company serving customers with aerospace products and services, energy efficient products and solutions, specialty chemicals, electronic, refining and petrochemicals.",
+    "isResearch": false,
+    "price": 220.05,
+    "changePct": 0.019788673649087096,
+    "marketCap": 69834741886,
+    "return1y": 0.09195117109964279,
+    "revenueTtm": 46605000000,
+    "revenueGrowthTtm": 0.065646865139251,
+    "operatingMargin": 0.1951721918249115,
+    "pe": 4.319852894098726,
+    "evEbitda": 33.349924491881566,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "HPQ",
+    "name": "HP INC",
+    "sector": "Computer Hardware",
+    "industry": "Technology",
+    "description": "HP Inc provides products, technologies, software, solutions and services to individual consumers, small- and medium-sized businesses including customers in the government, health and education sectors.",
+    "isResearch": false,
+    "price": 28.46,
+    "changePct": -0.033288043478260865,
+    "marketCap": 26027315757,
+    "return1y": 0.14251304696908873,
+    "revenueTtm": 57417000000,
+    "revenueGrowthTtm": 0.057442263066779686,
+    "operatingMargin": 0.06572966194681018,
+    "pe": 10.194796614571093,
+    "evEbitda": 5.461039814729332,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Below peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "IBM",
+    "name": "INTERNATIONAL BUSINESS MACHINES CORP",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "description": "International Business Machines Corp offers a variety of IT services along with software, and hardware. It has operations in over 170 countries and provides planning, build, manage, and maintain IT infrastructure, platforms, applications, and services.",
+    "isResearch": false,
+    "price": 245,
+    "changePct": -0.008538707458217054,
+    "marketCap": 231554597225,
+    "return1y": -0.19545514251937468,
+    "revenueTtm": 55220000000,
+    "revenueGrowthTtm": -0.45955997494519263,
+    "operatingMargin": 0.02573342991669685,
+    "pe": 105.39581120846609,
+    "evEbitda": 78.1750834655638,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "INTC",
+    "name": "INTEL CORP",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "description": "Intel Corporation is the world\\'s largest chipmaker. It engaged in making a semiconductor chip. It designs and manufactures integrated digital technology products like integrated circuits, for industries such as computing and communications.",
+    "isResearch": false,
+    "price": 56.28,
+    "changePct": 0.07712918660287094,
+    "marketCap": 299128200000,
+    "return1y": 0.5112781954887218,
+    "revenueTtm": 59892000000,
+    "revenueGrowthTtm": 0.12075450513669783,
+    "operatingMargin": 0.10061443932411675,
+    "pe": -23.76768,
+    "evEbitda": 16.043346741753822,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: In line",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "INTU",
+    "name": "INTUIT INC",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "description": "Intuit Inc creates business and financial management solutions for small businesses, consumers, and accounting professionals. The company\\'s products and services include QuickBooks and TurboTax.",
+    "isResearch": false,
+    "price": 341.5,
+    "changePct": -0.037594408747604446,
+    "marketCap": 93412885500,
+    "return1y": -0.47013188518231186,
+    "revenueTtm": 20925000000,
+    "revenueGrowthTtm": 0.15073691157061142,
+    "operatingMargin": 0.2747431302270012,
+    "pe": 20.37802912303665,
+    "evEbitda": 72.35699883810999,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "JNJ",
+    "name": "JOHNSON & JOHNSON",
+    "sector": "Drug Manufacturers",
+    "industry": "Healthcare",
+    "description": "Johnson & Johnson is a holding company, which is engaged in the research and development, manufacture and sale of products in the health care field within its Consumer, Pharmaceutical and Medical Devices segments.",
+    "isResearch": false,
+    "price": 276.22,
+    "changePct": 0.014321386603995512,
+    "marketCap": 664947241675,
+    "return1y": 0.5105545225855845,
+    "revenueTtm": 99335000000,
+    "revenueGrowthTtm": 0.07798239807268659,
+    "operatingMargin": 0.25695877585946547,
+    "pe": 41.31390131562597,
+    "evEbitda": 19.780677108371012,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: In line",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "JPM",
+    "name": "JPMORGAN CHASE & CO",
+    "sector": "Banks",
+    "industry": "Financial Services",
+    "description": "JPMorgan Chase & Co is a financial services firm and a banking institution. It is engaged in investment banking, commercial banking, treasury and securities services, asset management, retail financial services, and credit card businesses.",
+    "isResearch": true,
+    "price": 334.49,
+    "changePct": -0.008448449635382604,
+    "marketCap": 888274824665,
+    "return1y": 0.08763087728425556,
+    "revenueTtm": 203153000000,
+    "revenueGrowthTtm": 0.1322951559774157,
+    "operatingMargin": 0.4198264362327901,
+    "pe": 13.462993144258022,
+    "evEbitda": 9.33208829820875,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "caution",
+        "detail": "15th percentile revenue/EPS growth in the covered universe."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "positive",
+        "detail": "75th percentile operating margin and ROIC."
+      },
+      {
+        "key": "cash",
+        "label": "Cash generation: n/a",
+        "tone": "neutral",
+        "detail": "Not enough comparable data."
+      },
+      {
+        "key": "balance",
+        "label": "Balance sheet: Not rated",
+        "tone": "neutral",
+        "detail": "Debt data unavailable."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "95th percentile cheapness on EV/EBITDA within the covered universe."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "KLAC",
+    "name": "KLA TENCOR CORP",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "description": "KLA-Tencor Corp designs and manufactures yield-management and process-monitoring systems for the semiconductor industry. The company also provides systems for optical metrology and e-beam metrology.",
+    "isResearch": false,
+    "price": 138.49,
+    "changePct": 0.06694915254237288,
+    "marketCap": 180447267623,
+    "return1y": 0.15417951495958016,
+    "revenueTtm": 18641810000,
+    "revenueGrowthTtm": 0.1848096223131377,
+    "operatingMargin": 0.5536634050019821,
+    "pe": 19.332967448446784,
+    "evEbitda": 39.05307416365748,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "KO",
+    "name": "COCA COLA CO",
+    "sector": "Beverages - Non-Alcoholic",
+    "industry": "Consumer Defensive",
+    "description": "Coca-Cola Co is nonalcoholic beverage company which manufactures a variety of carbonated and noncarbonated brands, including Coca-Cola, Diet Coke, Fanta, Sprite, Minute Maid, Powerade, and Dasani.",
+    "isResearch": false,
+    "price": 95.67,
+    "changePct": -0.0006267627702915002,
+    "marketCap": 411562996389,
+    "return1y": 0.42239072256913457,
+    "revenueTtm": 51054000000,
+    "revenueGrowthTtm": 0.07114533285777225,
+    "operatingMargin": 0.30040741176009716,
+    "pe": 28.487782680764173,
+    "evEbitda": 89.02509115055159,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "LLY",
+    "name": "Lilly (Eli) & Co.",
+    "sector": "Drug Manufacturers",
+    "industry": "Healthcare",
+    "description": "Eli Lilly and Co is a pharmaceutical company with a focus on neuroscience, endocrinology, oncology, and immunology. It discovers, develops, manufactures, and sells human pharmaceutical products and animal health products.",
+    "isResearch": true,
+    "price": 1354,
+    "changePct": -0.007862361053102118,
+    "marketCap": 1273768771974,
+    "return1y": 0.45350709577688564,
+    "revenueTtm": 86462000000,
+    "revenueGrowthTtm": 0.4550723564525059,
+    "operatingMargin": 0.4021304156739377,
+    "pe": 46.18450949869471,
+    "evEbitda": 35.687052269009016,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "65th percentile revenue/EPS growth in the covered universe."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "45th percentile operating margin and ROIC."
+      },
+      {
+        "key": "cash",
+        "label": "Cash generation: Average",
+        "tone": "neutral",
+        "detail": "39th percentile free-cash-flow margin."
+      },
+      {
+        "key": "balance",
+        "label": "Balance sheet: Low leverage",
+        "tone": "positive",
+        "detail": "Net debt of $44.6B, 1.2× EBITDA."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Below peers",
+        "tone": "info",
+        "detail": "15th percentile cheapness on EV/EBITDA within the covered universe."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "LMT",
+    "name": "LOCKHEED MARTIN CORP",
+    "sector": "Aerospace & Defense",
+    "industry": "Industrials",
+    "description": "Lockheed Martin Corp is a global security company engaged in the research, design, development, manufacture, integration, and sustainment of advanced technology systems and products.",
+    "isResearch": false,
+    "price": 567.08,
+    "changePct": -0.01575951124687569,
+    "marketCap": 130998111251,
+    "return1y": 0.24103821070600095,
+    "revenueTtm": 85165000000,
+    "revenueGrowthTtm": 0.21575709126208054,
+    "operatingMargin": 0.11511771267539482,
+    "pe": 19.207934201026394,
+    "evEbitda": 24.614451569146937,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "LRCX",
+    "name": "LAM RESEARCH CORP",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "description": "Lam Research Corp functions in the semiconductor industry. It develops and sells semiconductor processing systems that are used in the fabrication of integrated circuits.",
+    "isResearch": false,
+    "price": 200.44,
+    "changePct": 0.08228941684665236,
+    "marketCap": 250383835240,
+    "return1y": 0.24149891607308782,
+    "revenueTtm": 26127935000,
+    "revenueGrowthTtm": 0.3336166663297908,
+    "operatingMargin": 0.36950620093015385,
+    "pe": 26.16877516999828,
+    "evEbitda": 37.31171348118706,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "MA",
+    "name": "Mastercard Inc",
+    "sector": "Credit Services",
+    "industry": "Financial Services",
+    "description": "Mastercard Inc is a technology company that generates revenue by charging fees to its customers based on both the dollar volume of card activity and the number of transactions processed through the network.",
+    "isResearch": false,
+    "price": 652.7,
+    "changePct": -0.00490913526039749,
+    "marketCap": 568616649608,
+    "return1y": 0.18724534342258448,
+    "revenueTtm": 36288000000,
+    "revenueGrowthTtm": 0.1529516426256592,
+    "operatingMargin": 0.5951278659611993,
+    "pe": 33.81804743713572,
+    "evEbitda": 109.22332877602766,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "META",
+    "name": "Meta Platforms, Inc.",
+    "sector": "Online Media",
+    "industry": "Technology",
+    "description": "Facebook Inc is the world\\'s largest online social network. Its products are Facebook, Instagram, Messenger, WhatsApp, and Oculus. Its products enable people to connect and share through mobile devices and personal computers.",
+    "isResearch": true,
+    "price": 610.15,
+    "changePct": 0.008379057314735094,
+    "marketCap": 1559690600518,
+    "return1y": -0.01100593250559223,
+    "revenueTtm": 241606000000,
+    "revenueGrowthTtm": 0.275255071071536,
+    "operatingMargin": 0.3285514432588595,
+    "pe": 20.72706083161238,
+    "evEbitda": 14.939248327114093,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "45th percentile revenue/EPS growth in the covered universe."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "caution",
+        "detail": "25th percentile operating margin and ROIC."
+      },
+      {
+        "key": "cash",
+        "label": "Cash generation: Average",
+        "tone": "neutral",
+        "detail": "50th percentile free-cash-flow margin."
+      },
+      {
+        "key": "balance",
+        "label": "Balance sheet: Net cash",
+        "tone": "positive",
+        "detail": "Net cash of $1.5B."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "85th percentile cheapness on EV/EBITDA within the covered universe."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "MRK",
+    "name": "Merck & Co., Inc.",
+    "sector": "Drug Manufacturers",
+    "industry": "Healthcare",
+    "description": "Merck & Co Inc is a health care company that delivers health solutions through its prescription medicines, vaccines, biologic therapies and animal health products.",
+    "isResearch": false,
+    "price": 146.73,
+    "changePct": -0.001429154757043749,
+    "marketCap": 361725499800,
+    "return1y": 0.7610417666826692,
+    "revenueTtm": 67378000000,
+    "revenueGrowthTtm": 0.04892971121662648,
+    "operatingMargin": 0.09203300780670248,
+    "pe": 110.72099779614325,
+    "evEbitda": null,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: n/a",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "MS",
+    "name": "MORGAN STANLEY",
+    "sector": "Banks",
+    "industry": "Financial Services",
+    "description": "Morgan Stanley is a global investment bank. The company has institutional securities, wealth-management, and asset-management segments.",
+    "isResearch": false,
+    "price": 181.44,
+    "changePct": -0.005481254110940581,
+    "marketCap": 284963548020,
+    "return1y": 0.1353482260183969,
+    "revenueTtm": -41302000000,
+    "revenueGrowthTtm": -0.04934861667357182,
+    "operatingMargin": 2.2205220086194375,
+    "pe": null,
+    "evEbitda": null,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: n/a",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "MICROSOFT CORP",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "description": "Microsoft Corp is a technology company. It develops, licenses, and supports a wide range of software products and services. Its business is organized into three segments: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing.",
+    "isResearch": true,
+    "price": 530.61,
+    "changePct": -0.009926669527736687,
+    "marketCap": 3940413091237,
+    "return1y": 0.07624437142509444,
+    "revenueTtm": 346445000000,
+    "revenueGrowthTtm": 0.1791383605843193,
+    "operatingMargin": 0.4710444659325434,
+    "pe": 27.62662458537765,
+    "evEbitda": 19.412207449647877,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "35th percentile revenue/EPS growth in the covered universe."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "65th percentile operating margin and ROIC."
+      },
+      {
+        "key": "cash",
+        "label": "Cash generation: Average",
+        "tone": "neutral",
+        "detail": "61th percentile free-cash-flow margin."
+      },
+      {
+        "key": "balance",
+        "label": "Balance sheet: Net cash",
+        "tone": "positive",
+        "detail": "Net cash of $29.0B."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: In line",
+        "tone": "info",
+        "detail": "55th percentile cheapness on EV/EBITDA within the covered universe."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "MU",
+    "name": "MICRON TECHNOLOGY INC",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "description": "Micron Technology Inc along with its subsidiaries manufactures semiconductor systems. Its product portfolio consists of memory and storage technologies such as DRAM, NAND, NOR and 3D XPoint memory.",
+    "isResearch": false,
+    "price": 690,
+    "changePct": 0.05120431450814311,
+    "marketCap": 780682016280,
+    "return1y": 1.8985507246376812,
+    "revenueTtm": 133188000000,
+    "revenueGrowthTtm": 2.563272513243084,
+    "operatingMargin": 0.7458629906598192,
+    "pe": 9.187845170356248,
+    "evEbitda": 7.17255143904523,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Below peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "NFLX",
+    "name": "NETFLIX INC",
+    "sector": "Entertainment",
+    "industry": "Consumer Cyclical",
+    "description": "Netflix Inc provides multimedia content through the internet. It provides a subscription based platform for television shows, movies and original series.",
+    "isResearch": false,
+    "price": 63.41,
+    "changePct": -0.03279438682123259,
+    "marketCap": 260382125509,
+    "return1y": -0.4219690063810393,
+    "revenueTtm": 49734633000,
+    "revenueGrowthTtm": 0.14651968022987827,
+    "operatingMargin": 0.31295837650998654,
+    "pe": 17.63311736986032,
+    "evEbitda": 7.7758603557007495,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Below peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "NOW",
+    "name": "ServiceNow, Inc.",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "description": "ServiceNow Inc provides cloud-based solutions that define, structure, manage, and automate services for enterprise operations in North America, Europe, the Middle East, Africa, the Asia Pacific, and other countries.",
+    "isResearch": false,
+    "price": 101.97,
+    "changePct": -0.0038100820633060195,
+    "marketCap": 105844860000,
+    "return1y": -0.40628820960698686,
+    "revenueTtm": 15431000000,
+    "revenueGrowthTtm": 0.2182047840846293,
+    "operatingMargin": 0.096753288834165,
+    "pe": 73.24903806228373,
+    "evEbitda": 38.34958695652174,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "NVIDIA CORP",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "description": "NVIDIA Corp is a developer of semiconductor equipment. It caters to areas like gaming, professional visualization, datacenter and automobiles.",
+    "isResearch": true,
+    "price": 186.64,
+    "changePct": 0.027753303964757725,
+    "marketCap": 4498024000000,
+    "return1y": -0.0052763417363961285,
+    "revenueTtm": 302969000000,
+    "revenueGrowthTtm": 0.8337529809100703,
+    "operatingMargin": 0.6521426284537362,
+    "pe": 23.320444423706054,
+    "evEbitda": 22.020713881132433,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "positive",
+        "detail": "95th percentile revenue/EPS growth in the covered universe."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "positive",
+        "detail": "85th percentile operating margin and ROIC."
+      },
+      {
+        "key": "cash",
+        "label": "Cash generation: High",
+        "tone": "positive",
+        "detail": "83th percentile free-cash-flow margin."
+      },
+      {
+        "key": "balance",
+        "label": "Balance sheet: Net cash",
+        "tone": "positive",
+        "detail": "Net cash of $66.0B."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: In line",
+        "tone": "info",
+        "detail": "45th percentile cheapness on EV/EBITDA within the covered universe."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "ORCL",
+    "name": "ORACLE CORP",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "description": "Oracle Corp is a computer software company. It sells enterprise information technology solutions, including databases, middleware, applications, and hardware. The Company primarily offers software licenses, support, and maintenance services worldwide.",
+    "isResearch": false,
+    "price": 116.1,
+    "changePct": 0.008162556443209512,
+    "marketCap": 351055749600,
+    "return1y": -0.5174563591022444,
+    "revenueTtm": 71777000000,
+    "revenueGrowthTtm": 0.2161882815412246,
+    "operatingMargin": 0.34233807487078033,
+    "pe": 18.554743636363636,
+    "evEbitda": 9.902004050432968,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Below peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "PANW",
+    "name": "Palo Alto Networks Inc",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "description": "Palo Alto Networks Inc develops and sells network and endpoint cybersecurity solutions to enterprise customers.",
+    "isResearch": false,
+    "price": 313.84,
+    "changePct": -0.0026376839228399174,
+    "marketCap": 256093440000,
+    "return1y": 0.4847897052561856,
+    "revenueTtm": 9893300000,
+    "revenueGrowthTtm": 0.154370325426181,
+    "operatingMargin": 0.1437336379165698,
+    "pe": 199.776456821905,
+    "evEbitda": 144.326780883679,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "PEP",
+    "name": "PEPSICO INC",
+    "sector": "Beverages - Non-Alcoholic",
+    "industry": "Consumer Defensive",
+    "description": "PepsiCo Inc is a food, snack and beverage company. It manufactures, markets, distributes and sells convenient and enjoyable beverages, foods and snacks, serving customers and consumers in more than 200 countries and territories.",
+    "isResearch": false,
+    "price": 141.34,
+    "changePct": -0.009599887884521041,
+    "marketCap": 192609825943,
+    "return1y": 0.038730065407510894,
+    "revenueTtm": 98241000000,
+    "revenueGrowthTtm": 0.06360565576077781,
+    "operatingMargin": 0.15322523182785192,
+    "pe": 18.857433517035442,
+    "evEbitda": 21.702515599211267,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "PFE",
+    "name": "PFIZER INC",
+    "sector": "Drug Manufacturers",
+    "industry": "Healthcare",
+    "description": "Pfizer Inc is a biopharmaceutical company that discovers, develops, manufactures, and markets healthcare products including medicines, and vaccines as well as many of the consumer healthcare products.",
+    "isResearch": false,
+    "price": 29.39,
+    "changePct": -0.0020373514431238915,
+    "marketCap": 167518701213,
+    "return1y": 0.2845279720279721,
+    "revenueTtm": 50219000000,
+    "revenueGrowthTtm": -0.46628335795436426,
+    "operatingMargin": 0.02837571437105478,
+    "pe": null,
+    "evEbitda": 28.484730694269683,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "PG",
+    "name": "PROCTER & GAMBLE Co",
+    "sector": "Consumer Packaged Goods",
+    "industry": "Consumer Defensive",
+    "description": "Procter & Gamble Co is a consumer goods company. The firm markets its products internationally through various channels which include mass merchandisers, grocery stores, membership club stores, drug stores, and department stores.",
+    "isResearch": false,
+    "price": 165.4,
+    "changePct": -0.010173548773189656,
+    "marketCap": 383361331852,
+    "return1y": 0.16454270224600442,
+    "revenueTtm": 87923000000,
+    "revenueGrowthTtm": 0.03520421979678101,
+    "operatingMargin": 0.22553825506409017,
+    "pe": 22.336498971741538,
+    "evEbitda": 71.49595894293174,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "PGR",
+    "name": "Progressive Corp.",
+    "sector": "Insurance - Property & Casualty",
+    "industry": "Financial Services",
+    "description": "Progressive Corp is an insurance holding company which provides personal and commercial auto insurance, residential property insurance, and other specialty property-casualty insurance and related services.",
+    "isResearch": false,
+    "price": 227.77,
+    "changePct": -0.023200960631271972,
+    "marketCap": 131961322600,
+    "return1y": 0.15795627859684802,
+    "revenueTtm": 91501000000,
+    "revenueGrowthTtm": 0.13997209279146827,
+    "operatingMargin": 0.16009661096600036,
+    "pe": 11.69247940811625,
+    "evEbitda": 8.80681544313935,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Below peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "PINS",
+    "name": "PINTEREST, INC.",
+    "sector": "Online Media",
+    "industry": "Technology",
+    "description": "Pinterest, Inc. engages in the operation of a pinboard-style photo-sharing website. It allows users to create and manage theme-based image collections such as events, interests, and hobbies. The company was founded by Benjamin Silbermann, Paul C. Sciarra, and Evan Sharp in October 2008 and is headquartered in San Francisco, CA.",
+    "isResearch": false,
+    "price": 18.96,
+    "changePct": -0.041940373926225294,
+    "marketCap": 10873708646,
+    "return1y": -0.27853881278538817,
+    "revenueTtm": 4680444000,
+    "revenueGrowthTtm": 0.1537991643145038,
+    "operatingMargin": 0.05588380076761948,
+    "pe": 60.975548822681674,
+    "evEbitda": 36.719127436413494,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "PYPL",
+    "name": "PayPal Holdings, Inc.",
+    "sector": "Credit Services",
+    "industry": "Financial Services",
+    "description": "PayPal Holdings Inc is a technology platform company that enables digital and mobile payments on behalf of consumers and merchants. The company\\'s payments platform includes PayPal, PayPal Credit, Venmo, Xoom and Braintree products.",
+    "isResearch": false,
+    "price": 59.24,
+    "changePct": 0.004748982360922582,
+    "marketCap": 49208197574,
+    "return1y": -0.09598657103616659,
+    "revenueTtm": 34295000000,
+    "revenueGrowthTtm": 0.043606597285618554,
+    "operatingMargin": 0.23038343781892404,
+    "pe": 10.410026988364713,
+    "evEbitda": 22.59329548852158,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "QCOM",
+    "name": "QUALCOMM INC/DE",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "description": "Qualcomm Inc develops and licenses wireless technology. It also engages in designing chips for mobile phones. The company is also the world\\'s largest wireless chip vendor, supplying many premier handset makers with leading-edge processors.",
+    "isResearch": false,
+    "price": 165.41,
+    "changePct": 0.055247208931419545,
+    "marketCap": 176988700000,
+    "return1y": -0.0249351568026408,
+    "revenueTtm": 43120000000,
+    "revenueGrowthTtm": -0.026284888447294708,
+    "operatingMargin": 0.20076530612244897,
+    "pe": 12.988089821677551,
+    "evEbitda": 17.205084086711384,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: In line",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "SHOP",
+    "name": "SHOPIFY INC.",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "description": "Shopify is a leading global commerce company, providing trusted tools to start, grow, market, and manage a retail business of any size. Shopify makes commerce better for everyone with a platform and services that are engineered for reliability, while delivering a better shopping experience for consumers everywhere. Headquartered in Ottawa, Canada, Shopify powers over one million businesses in more than 175 countries and is trusted by brands such as Allbirds, Gymshark, PepsiCo, Staples and many more.",
+    "isResearch": false,
+    "price": 148.91,
+    "changePct": 0.035895652173913106,
+    "marketCap": 194195224553,
+    "return1y": -0.045754565844280726,
+    "revenueTtm": 14167000000,
+    "revenueGrowthTtm": 0.324513836948392,
+    "operatingMargin": 0.1807016305498694,
+    "pe": 121.67620586027569,
+    "evEbitda": 170.1973922462752,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "SNOW",
+    "name": "Snowflake Inc.",
+    "sector": "Application Software",
+    "industry": "Technology",
+    "description": "Snowflake Inc. is a cloud-based data-warehousing startup that was founded in 2012. It has raised more than $1.4 billion in venture capital and is based in San Mateo, California. It was publicly launched by Bob Muglia in 2014 after two years in stealth mode",
+    "isResearch": false,
+    "price": 275.88,
+    "changePct": 0.023521555242264514,
+    "marketCap": 95620008000,
+    "return1y": 0.04215775158658186,
+    "revenueTtm": 5032823000,
+    "revenueGrowthTtm": 0.3107125677874223,
+    "operatingMargin": -0.261098393486121,
+    "pe": null,
+    "evEbitda": null,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: n/a",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "SPOT",
+    "name": "Spotify Technology S.A.",
+    "sector": "Online Media",
+    "industry": "Technology",
+    "description": "Spotify Technology S.A., together with its subsidiaries, provides audio streaming services worldwide. It operates through Premium and Ad-Supported segments. The Premium segment offers unlimited online and offline streaming access to its catalog of music and podcasts without commercial breaks to its subscribers. The Ad-Supported segment provides on-demand online access to its catalog of music and unlimited online access to the catalog of podcasts to its subscribers on their computers, tablets, and compatible mobile devices. The company also offers sales, marketing, contract research and development, and customer support services. As of December 31, 2021, its platform included 406 million monthly active users and 180 million premium subscribers in 184 countries and territories. The company was incorporated in 2006 and is based in Luxembourg, Luxembourg.",
+    "isResearch": false,
+    "price": 603.01,
+    "changePct": -0.018554385508048332,
+    "marketCap": 124119072106,
+    "return1y": -0.02457133613717255,
+    "revenueTtm": 19385383517,
+    "revenueGrowthTtm": 0.14294288288372603,
+    "operatingMargin": 0.12789,
+    "pe": 49.745500826984056,
+    "evEbitda": 47.84219473523085,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "TMO",
+    "name": "THERMO FISHER SCIENTIFIC INC.",
+    "sector": "Medical Diagnostics & Research",
+    "industry": "Healthcare",
+    "description": "Thermo Fisher Scientific Inc is a healthcare company. It offers analytical instruments, laboratory equipment, software, services, consumables, reagents and chemicals.",
+    "isResearch": false,
+    "price": 694.76,
+    "changePct": 0.02632434189145272,
+    "marketCap": 257419604452,
+    "return1y": 0.2318221308132835,
+    "revenueTtm": 47351000000,
+    "revenueGrowthTtm": 0.08267977592317366,
+    "operatingMargin": 0.1871766171780955,
+    "pe": 36.38953978682499,
+    "evEbitda": 21.507193955384743,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "TSLA",
+    "name": "Tesla",
+    "sector": "Autos",
+    "industry": "Consumer Cyclical",
+    "description": "Tesla Motors, Inc., incorporated on July 1, 2003, designs, develops, manufactures and sells electric vehicles and energy storage products. The Company produces and sells two electric vehicles: the Model S sedan and the Model X sport utility vehicle (SUV). The Company has delivered over 107,000 Model S vehicles across the world. In addition to developing its own vehicles, it sells energy storage products. The Company delivers energy storage products products under the Tesla Energy brand. It manufactures its products primarily at its facilities in Fremont, California, Lathrop, California, Tilburg, Netherlands and at its Gigafactory near Reno, Nevada. It is using battery packs manufactured at the Gigafactory for its energy storage products. The Company competes with Audi, BMW, Lexus, Mercedes, Daimler, Nissan, Fiat, Ford, Mitsubishi, Porsche, Volkswagen, Volvo, General Motors, Toyota and Honda. Tesla commands 0.1 % of the entire auto industry.",
+    "isResearch": true,
+    "price": 358.22,
+    "changePct": 0.04227647007477686,
+    "marketCap": 1415956951416,
+    "return1y": -0.19665403332511044,
+    "revenueTtm": 103570000000,
+    "revenueGrowthTtm": 0.0829943638702122,
+    "operatingMargin": 0.03346528917640244,
+    "pe": 437.8345551688312,
+    "evEbitda": 151.05439485726794,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "caution",
+        "detail": "5th percentile revenue/EPS growth in the covered universe."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "caution",
+        "detail": "5th percentile operating margin and ROIC."
+      },
+      {
+        "key": "cash",
+        "label": "Cash generation: Low",
+        "tone": "caution",
+        "detail": "17th percentile free-cash-flow margin."
+      },
+      {
+        "key": "balance",
+        "label": "Balance sheet: Net cash",
+        "tone": "positive",
+        "detail": "Net cash of $35.9B."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Below peers",
+        "tone": "info",
+        "detail": "5th percentile cheapness on EV/EBITDA within the covered universe."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "TXN",
+    "name": "TEXAS INSTRUMENTS INC",
+    "sector": "Semiconductors",
+    "industry": "Technology",
+    "description": "Texas Instruments Inc designs and makes semiconductors that it sells to electronics designers and manufacturers. It also manufactures digital signal processors used in wireless communications, and microcontrollers used in various electronics applications.",
+    "isResearch": false,
+    "price": 277.36,
+    "changePct": -0.002840194139852481,
+    "marketCap": 253443334846,
+    "return1y": 0.7565547815072831,
+    "revenueTtm": 20766000000,
+    "revenueGrowthTtm": 0.20271052936406808,
+    "operatingMargin": 0.4111528459982664,
+    "pe": 35.631004477154505,
+    "evEbitda": 23.469148518010925,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "UBER",
+    "name": "Uber Technologies, Inc",
+    "sector": "Travel & Leisure",
+    "industry": "Consumer Cyclical",
+    "description": "Uber Technologies, Inc. operates as a technology platform for people and things mobility. The firm offers multi-modal people transportation, restaurant food delivery, and connecting freight carriers and shippers. It operates through following segments: Core Platform and Other Bets. Core Platform primarily includes the ridesharing and Uber Eats products; while Other Bets primarily includes the Company\\'s Freight and New Mobility products. The company was founded by Oscar Salazar Gaitan, Travis Kalanick and Garrett Camp in 2009 and is headquartered in San Francisco, CA.",
+    "isResearch": false,
+    "price": 68.59,
+    "changePct": -0.0027624309392264568,
+    "marketCap": 140053788621,
+    "return1y": -0.2554277029960921,
+    "revenueTtm": 56526000000,
+    "revenueGrowthTtm": 0.1394073775448499,
+    "operatingMargin": 0.12443831157343524,
+    "pe": 36.34928331715546,
+    "evEbitda": 33.35408159585616,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "UNH",
+    "name": "UNITEDHEALTH GROUP INC",
+    "sector": "Health Care Plans",
+    "industry": "Healthcare",
+    "description": "UnitedHealth Group Inc is a diversified health care company in the United States. It designs products, provides services and applies technologies that improve access to health and well-being services, and make health care more affordable.",
+    "isResearch": false,
+    "price": 394.15,
+    "changePct": -0.0039674517335490656,
+    "marketCap": 353167312126,
+    "return1y": 0.25826017557861136,
+    "revenueTtm": 449662000000,
+    "revenueGrowthTtm": 0.033328047908925296,
+    "operatingMargin": -0.00956718601972148,
+    "pe": -21.67861,
+    "evEbitda": 35.249756674917656,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "V",
+    "name": "VISA INC.",
+    "sector": "Credit Services",
+    "industry": "Financial Services",
+    "description": "Visa Inc is a payments technology company working to enable consumers, businesses, banks and governments to use fast, secure and reliable digital currency. The Company operates processing networks - VisaNet.",
+    "isResearch": false,
+    "price": 422.65,
+    "changePct": 0.0001419815897205634,
+    "marketCap": 871552709063,
+    "return1y": 0.26424575992342425,
+    "revenueTtm": 33764000000,
+    "revenueGrowthTtm": 0.1532996310971444,
+    "operatingMargin": -0.030031986731429924,
+    "pe": null,
+    "evEbitda": 36.410273178050716,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "WFC",
+    "name": "WELLS FARGO & COMPANY/MN",
+    "sector": "Banks",
+    "industry": "Financial Services",
+    "description": "Wells Fargo & Co operates as one of the largest banks in the United States. Its business operations are split into three segments: community banking; wholesale banking; and wealth, brokerage, and retirement.",
+    "isResearch": false,
+    "price": 83.94,
+    "changePct": -0.004270462633451988,
+    "marketCap": 251975315609,
+    "return1y": 0.0028673835125447855,
+    "revenueTtm": 140908000000,
+    "revenueGrowthTtm": 0.896295100057868,
+    "operatingMargin": 0.61190989865728,
+    "pe": 3.097993675650089,
+    "evEbitda": null,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Strong",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: High",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: n/a",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "WMT",
+    "name": "Walmart Inc",
+    "sector": "Retail - Defensive",
+    "industry": "Consumer Defensive",
+    "description": "Wal-Mart Stores Inc operates retail stores in various formats under various banners. Its operations comprise of three reportable business segments, Walmart U.S., Walmart International and Sam\\'s Club in three categories retail, wholesale and others.",
+    "isResearch": false,
+    "price": 125.52,
+    "changePct": -0.01722518008142815,
+    "marketCap": 998898095536,
+    "return1y": 0.2448675989288902,
+    "revenueTtm": 725305000000,
+    "revenueGrowthTtm": 0.05870649816227447,
+    "operatingMargin": 0.041614217467134514,
+    "pe": 43.93464529978888,
+    "evEbitda": 22.277936026049332,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Moderate",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Low",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: Above peers",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  },
+  {
+    "ticker": "XOM",
+    "name": "EXXON MOBIL CORP",
+    "sector": "Oil & Gas - Integrated",
+    "industry": "Energy",
+    "description": "Exxon Mobil Corp is an integrated oil and gas company. It is engaged in exploration for, and production of, crude oil and natural gas. It is also engaged in manufacturing, transportation and sale of crude oil, natural gas and petroleum products.",
+    "isResearch": false,
+    "price": 165.87,
+    "changePct": 0.0034482758620688614,
+    "marketCap": 682042836805,
+    "return1y": 0.4902964959568734,
+    "revenueTtm": 250507000000,
+    "revenueGrowthTtm": -0.24999700605973507,
+    "operatingMargin": 0.1713245538048837,
+    "pe": 37.40910688926064,
+    "evEbitda": 10.677105728095306,
+    "factorChips": [
+      {
+        "key": "growth",
+        "label": "Growth: Slow",
+        "tone": "neutral",
+        "detail": "Revenue growth over the trailing twelve months."
+      },
+      {
+        "key": "profitability",
+        "label": "Profitability: Average",
+        "tone": "neutral",
+        "detail": "Operating margin over the trailing twelve months."
+      },
+      {
+        "key": "valuation",
+        "label": "Valuation: In line",
+        "tone": "info",
+        "detail": "EV/EBITDA based descriptive band."
+      }
+    ],
+    "asOf": "2026-11-06"
+  }
+]

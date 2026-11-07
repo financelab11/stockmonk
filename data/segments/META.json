@@ -1,0 +1,45 @@
+{
+  "ticker": "META",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Meta Platforms, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+    "date": "2026-01-29"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Family of Apps",
+      "revenue": 198759000000,
+      "share": 0.9890180428530199
+    },
+    {
+      "name": "Reality Labs",
+      "revenue": 2207000000,
+      "share": 0.010981957146980087
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "US & Canada",
+      "revenue": 78866000000,
+      "share": 0.39243454116616744
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 53817000000,
+      "share": 0.2677915667326812
+    },
+    {
+      "name": "Europe",
+      "revenue": 46569000000,
+      "share": 0.23172576455718877
+    },
+    {
+      "name": "Rest of World",
+      "revenue": 21714000000,
+      "share": 0.10804812754396266
+    }
+  ]
+}

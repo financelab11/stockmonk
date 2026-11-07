@@ -1,0 +1,55 @@
+{
+  "ticker": "AMZN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "AMAZON.COM, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+    "date": "2026-02-06"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "North America",
+      "revenue": 426305000000,
+      "share": 0.5946306721493492
+    },
+    {
+      "name": "International",
+      "revenue": 161894000000,
+      "share": 0.2258175204066261
+    },
+    {
+      "name": "AWS",
+      "revenue": 128725000000,
+      "share": 0.17955180744402474
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 489657000000,
+      "share": 0.682997081978006
+    },
+    {
+      "name": "Non-US",
+      "revenue": 107467000000,
+      "share": 0.14990012888395424
+    },
+    {
+      "name": "Germany",
+      "revenue": 45900000000,
+      "share": 0.06402352271649436
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 43212000000,
+      "share": 0.06027417132080946
+    },
+    {
+      "name": "Japan",
+      "revenue": 30688000000,
+      "share": 0.04280509510073592
+    }
+  ]
+}

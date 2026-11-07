@@ -1,0 +1,40 @@
+{
+  "ticker": "MSFT",
+  "asOf": "2026-06-30",
+  "source": {
+    "name": "MICROSOFT CORP Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+    "date": "2026-07-29"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Productivity & Business Processes",
+      "revenue": 139996000000,
+      "share": 0.4218792848339104
+    },
+    {
+      "name": "Intelligent Cloud",
+      "revenue": 137791000000,
+      "share": 0.41523449624667386
+    },
+    {
+      "name": "More Personal Computing",
+      "revenue": 54052000000,
+      "share": 0.16288621891941574
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 170794000000,
+      "share": 0.5146893523666597
+    },
+    {
+      "name": "Non-US",
+      "revenue": 161045000000,
+      "share": 0.48531064763334025
+    }
+  ]
+}

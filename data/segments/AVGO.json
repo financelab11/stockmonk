@@ -1,0 +1,40 @@
+{
+  "ticker": "AVGO",
+  "asOf": "2025-11-02",
+  "source": {
+    "name": "Broadcom Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+    "date": "2025-12-18"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Semiconductor Solutions",
+      "revenue": 36858000000,
+      "share": 0.5769248829965408
+    },
+    {
+      "name": "Infrastructure Software",
+      "revenue": 27029000000,
+      "share": 0.42307511700345923
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Asia Pacific",
+      "revenue": 35896000000,
+      "share": 0.5618670465039836
+    },
+    {
+      "name": "Americas",
+      "revenue": 18939000000,
+      "share": 0.29644528620846183
+    },
+    {
+      "name": "EMEA",
+      "revenue": 9052000000,
+      "share": 0.14168766728755458
+    }
+  ]
+}

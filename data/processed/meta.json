@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-11-07T13:16:38.818Z",
+  "priceAsOf": "2026-11-06",
+  "companies": 69,
+  "researchCompanies": 10,
+  "priceRanges": [
+    "1M",
+    "3M",
+    "6M",
+    "YTD",
+    "1Y",
+    "5Y",
+    "MAX"
+  ],
+  "missingStatements": [],
+  "notes": [
+    "SimFin free-tier income statement data can lag the latest reported quarter for some issuers; SEC/Yahoo are used to cross-check headline figures.",
+    "Supporting companies receive PL + DERIVED statements only; no segment or cash-flow detail."
+  ]
+}

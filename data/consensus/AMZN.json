@@ -1,7 +1,7 @@
 {
   "ticker": "AMZN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-07",
+  "asOf": "2026-11-08",
   "sourceUrl": "https://finance.yahoo.com/quote/AMZN/analysis",
   "targetMean": 326.99017,
   "targetHigh": 405,
@@ -28,11 +28,11 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 209414226520,
-      "revenueGrowth": 0.1537,
-      "epsAvg": 2.2938,
-      "epsGrowth": -0.1749,
-      "analystCount": 27
+      "revenueAvg": 210245179650,
+      "revenueGrowth": 0.1583,
+      "epsAvg": 2.29664,
+      "epsGrowth": -0.1739,
+      "analystCount": 29
     },
     {
       "period": "Current fiscal year",

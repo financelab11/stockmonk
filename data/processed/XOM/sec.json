@@ -1,0 +1,94 @@
+{
+  "ticker": "XOM",
+  "cik": "0002115436",
+  "entityName": "ExxonMobil Holdings Corporation",
+  "quarterly": [
+    {
+      "end": "2025-06-30",
+      "fyear": 2026,
+      "period": "Q2",
+      "revenue": 81506000000,
+      "grossProfit": null,
+      "operatingIncome": 10705000000,
+      "netIncome": 7082000000,
+      "epsDiluted": 1.64,
+      "cfo": null,
+      "capex": null,
+      "freeCashFlow": null,
+      "da": 6101000000,
+      "sbc": null
+    },
+    {
+      "end": "2025-09-30",
+      "fyear": 2026,
+      "period": "Q3",
+      "revenue": 85294000000,
+      "grossProfit": null,
+      "operatingIncome": 10932000000,
+      "netIncome": 7548000000,
+      "epsDiluted": 1.76,
+      "cfo": 14788000000,
+      "capex": 8727000000,
+      "freeCashFlow": 6061000000,
+      "da": 6475000000,
+      "sbc": null
+    },
+    {
+      "end": "2026-06-30",
+      "fyear": 2026,
+      "period": "Q2",
+      "revenue": 116017000000,
+      "grossProfit": null,
+      "operatingIncome": 19424000000,
+      "netIncome": 14525000000,
+      "epsDiluted": 3.48,
+      "cfo": null,
+      "capex": null,
+      "freeCashFlow": null,
+      "da": 8689000000,
+      "sbc": null
+    },
+    {
+      "end": "2026-09-30",
+      "fyear": 2026,
+      "period": "Q3",
+      "revenue": 113164000000,
+      "grossProfit": null,
+      "operatingIncome": 21236000000,
+      "netIncome": 15413000000,
+      "epsDiluted": 3.72,
+      "cfo": 25650000000,
+      "capex": 7178000000,
+      "freeCashFlow": 18472000000,
+      "da": 6803000000,
+      "sbc": null
+    }
+  ],
+  "annual": [],
+  "filings": {
+    "latest10Q": {
+      "form": "10-Q",
+      "filed": "2026-11-02",
+      "reportDate": "2026-09-30",
+      "accession": "0002115436-26-000020",
+      "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000020/xom-20260930.htm",
+      "items": ""
+    },
+    "latest8K": {
+      "form": "8-K",
+      "filed": "2026-10-30",
+      "reportDate": "2026-10-30",
+      "accession": "0002115436-26-000018",
+      "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000018/xom-20261030.htm",
+      "items": "2.02,7.01"
+    },
+    "earningsReleaseUrl": null
+  },
+  "sources": [
+    {
+      "name": "SEC 10-Q (2026-11-02)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000020/xom-20260930.htm",
+      "date": "2026-11-02"
+    }
+  ]
+}

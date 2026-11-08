@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  const bundles = getResearchBundles();
+  const bundles = getResearchBundles(10);
   const snapshot = getMarketSnapshot();
   const news = getNewsfeed().slice(0, 3);
   const dayIndex = new Date().getUTCDate() % bundles.length;

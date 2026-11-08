@@ -17,9 +17,11 @@ imported into a React component or exposed through `NEXT_PUBLIC_*`.
 ## Refresh pipeline
 
 ```bash
-pnpm ingest:edgar      # SEC XBRL facts for the 10 research names
+pnpm ingest:edgar      # SEC XBRL facts for the 229 research names
 pnpm ingest:simfin     # SimFin statements + prices, merged with SEC flows
-pnpm ingest:consensus  # Yahoo / Nasdaq consensus snapshots
+pnpm ingest:fallback   # SEC + market fallback for thin-coverage names
+pnpm backfill:filings  # copy latest 10-K URLs into processed records
+pnpm ingest:consensus  # third-party consensus snapshots
 pnpm ingest:segments   # 10-K segment and geography mixes
 pnpm build:data        # regenerate public/data/stocks.json + search-index.json
 ```
@@ -61,18 +63,21 @@ data without any client-side API keys.
   estimates belong to the named providers. They are shown with attribution and
   are not Stockmonk ratings or price targets. Consensus snapshots can lag the
   market and are refreshed independently of prices.
-- **Supporting companies.** Supporting tickers have lighter data: no segment
-  mix, no consensus snapshot and no ten-section article. Their pages say so.
+- **Data-thin companies.** A small number of names with limited filings or
+  price history show a lighter profile: no segment mix, no consensus snapshot
+  and no full narrative. Their pages say so.
 
 ## Universe
 
-The coverage universe lives in `config/universe.ts` (68 companies + SPY as a
-benchmark). Research tickers receive a full report:
+The coverage universe lives in `config/coverage.ts` (229 companies plus SPY as a
+benchmark). The research ticker list in `config/universe.ts` derives from those
+coverage groups, so every name receives a full report. The original ten core
+names keep hand-written narratives:
 
 `NVDA, MSFT, AAPL, GOOGL, AMZN, META, AVGO, TSLA, LLY, JPM`
 
-All other tickers receive a lightweight profile. `GOOGL` maps to SimFin ticker
-`GOOG`; processed files always use the app ticker `GOOGL`.
+All other names use the generated ten-section template. `GOOGL` maps to SimFin
+ticker `GOOG`; processed files always use the app ticker `GOOGL`.
 
 ## Attribution and licensing
 

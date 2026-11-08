@@ -1,0 +1,90 @@
+{
+  "ticker": "WMB",
+  "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://finance.yahoo.com/quote/WMB/analysis",
+  "targetMean": 85.41667,
+  "targetHigh": 103,
+  "targetLow": 69,
+  "recommendationKey": "strong_buy",
+  "analystCount": 24,
+  "distribution": {
+    "strongBuy": 6,
+    "buy": 17,
+    "hold": 2,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 3319580280,
+      "revenueGrowth": 0.038,
+      "epsAvg": 0.62,
+      "epsGrowth": null,
+      "analystCount": 8
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 3517994680,
+      "revenueGrowth": 0.1611,
+      "epsAvg": 0.69,
+      "epsGrowth": null,
+      "analystCount": 6
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 12379962140,
+      "revenueGrowth": 0.036,
+      "epsAvg": 2.41944,
+      "epsGrowth": 0.1521,
+      "analystCount": 15
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": 14109640890,
+      "revenueGrowth": 0.1397,
+      "epsAvg": 2.60232,
+      "epsGrowth": 0.0756,
+      "analystCount": 16
+    }
+  ],
+  "history": [
+    {
+      "quarter": "2025-12-31",
+      "endDate": "2025-12-31",
+      "epsActual": 0.55,
+      "epsEstimate": 0.56753,
+      "revenueActual": 3843000000,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-03-31",
+      "endDate": "2026-03-31",
+      "epsActual": 0.73,
+      "epsEstimate": 0.62697,
+      "revenueActual": 4718000000,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-09-30",
+      "endDate": "2026-09-30",
+      "epsActual": 0.54,
+      "epsEstimate": 0.53773,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 3319580280,
+    "revenueGrowth": 0.038,
+    "epsAvg": 0.62,
+    "epsGrowth": null,
+    "analystCount": 8
+  }
+}

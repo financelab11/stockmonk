@@ -118,9 +118,11 @@ Every section carries at least one chart or data visual. Sources are
 consolidated into four links after section 10, before the Pro CTA and
 disclaimer.
 
-### Stock page (supporting)
-Compact profile: price chart, snapshot metrics, factor chips, latest quarters,
-"research coverage" upsell. No fabricated ten-section article.
+### Stock page (data-thin fallback)
+All 229 coverage names get the ten-section report. If a company has too few
+filings or price points, the page falls back to a compact profile with price,
+snapshot metrics, factor chips and latest quarters rather than inventing a
+narrative.
 
 ### Newsfeed
 A transparent "what changed in the data" feed built from earnings dates, 52-week

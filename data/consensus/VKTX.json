@@ -1,0 +1,98 @@
+{
+  "ticker": "VKTX",
+  "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://finance.yahoo.com/quote/VKTX/analysis",
+  "targetMean": 95.31579,
+  "targetHigh": 125,
+  "targetLow": 34,
+  "recommendationKey": "strong_buy",
+  "analystCount": 19,
+  "distribution": {
+    "strongBuy": 5,
+    "buy": 14,
+    "hold": 2,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 0,
+      "revenueGrowth": 0,
+      "epsAvg": -1.3472,
+      "epsGrowth": 0.0238,
+      "analystCount": 17
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 0,
+      "revenueGrowth": 0,
+      "epsAvg": -1.35571,
+      "epsGrowth": 0.0104,
+      "analystCount": 7
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 0,
+      "revenueGrowth": 0,
+      "epsAvg": -5.31141,
+      "epsGrowth": -0.665,
+      "analystCount": 17
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": 0,
+      "revenueGrowth": 0,
+      "epsAvg": -5.12636,
+      "epsGrowth": 0.0348,
+      "analystCount": 18
+    }
+  ],
+  "history": [
+    {
+      "quarter": "2025-12-31",
+      "endDate": "2025-12-31",
+      "epsActual": -1.38,
+      "epsEstimate": -0.90137,
+      "revenueActual": 0,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-03-31",
+      "endDate": "2026-03-31",
+      "epsActual": -1.37,
+      "epsEstimate": -0.91026,
+      "revenueActual": 0,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-06-30",
+      "endDate": "2026-06-30",
+      "epsActual": -1.1,
+      "epsEstimate": -1.20685,
+      "revenueActual": 0,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-09-30",
+      "endDate": "2026-09-30",
+      "epsActual": -1.55,
+      "epsEstimate": -1.07017,
+      "revenueActual": 0,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 0,
+    "revenueGrowth": 0,
+    "epsAvg": -1.3472,
+    "epsGrowth": 0.0238,
+    "analystCount": 17
+  }
+}

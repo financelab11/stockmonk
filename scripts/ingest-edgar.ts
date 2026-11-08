@@ -9,7 +9,7 @@
  */
 import fs from "node:fs/promises";
 import path from "node:path";
-import { RESEARCH_TICKERS } from "../config/universe";
+import { RESEARCH_TICKERS, TICKER_ALIASES } from "../config/universe";
 import {
   extractFlowSeries,
   filingsFrom,
@@ -179,7 +179,8 @@ async function main() {
   const summary: Array<Record<string, unknown>> = [];
 
   for (const ticker of RESEARCH_TICKERS) {
-    const cik = cikMap[ticker];
+    const lookup = TICKER_ALIASES[ticker]?.sec ?? ticker;
+    const cik = cikMap[lookup];
     if (!cik) {
       console.warn(`[edgar] no CIK for ${ticker}`);
       continue;

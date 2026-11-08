@@ -87,7 +87,7 @@ export function buildFactorScores(
   };
 }
 
-/** Richer factor scores using the full processed dataset (all 68 names). */
+/** Richer factor scores using the full processed dataset (all 229 names). */
 export function buildFullFactorScores(
   companies: TickerData[],
   ticker: string,

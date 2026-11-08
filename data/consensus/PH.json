@@ -1,0 +1,98 @@
+{
+  "ticker": "PH",
+  "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://finance.yahoo.com/quote/PH/analysis",
+  "targetMean": 1140.4137,
+  "targetHigh": 1280,
+  "targetLow": 740,
+  "recommendationKey": "buy",
+  "analystCount": 24,
+  "distribution": {
+    "strongBuy": 3,
+    "buy": 16,
+    "hold": 6,
+    "sell": 0,
+    "strongSell": 1
+  },
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 6195800520,
+      "revenueGrowth": 0.1975,
+      "epsAvg": 8.86841,
+      "epsGrowth": 0.1593,
+      "analystCount": 16
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 6474000570,
+      "revenueGrowth": 0.18010001,
+      "epsAvg": 9.24489,
+      "epsGrowth": 0.13159999,
+      "analystCount": 16
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-06-30",
+      "revenueAvg": 25304164340,
+      "revenueGrowth": 0.177,
+      "epsAvg": 36.80544,
+      "epsGrowth": 0.1391,
+      "analystCount": 21
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-06-30",
+      "revenueAvg": 27065024170,
+      "revenueGrowth": 0.0696,
+      "epsAvg": 40.67536,
+      "epsGrowth": 0.105100006,
+      "analystCount": 21
+    }
+  ],
+  "history": [
+    {
+      "quarter": "2025-12-31",
+      "endDate": "2025-12-31",
+      "epsActual": 7.65,
+      "epsEstimate": 7.16615,
+      "revenueActual": 5174000000,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-03-31",
+      "endDate": "2026-03-31",
+      "epsActual": 8.17,
+      "epsEstimate": 7.82849,
+      "revenueActual": 5486000000,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-06-30",
+      "endDate": "2026-06-30",
+      "epsActual": 9.27,
+      "epsEstimate": 8.26555,
+      "revenueActual": 5755000000,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-09-30",
+      "endDate": "2026-09-30",
+      "epsActual": 8.9,
+      "epsEstimate": 8.17141,
+      "revenueActual": 5992000000,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 6195800520,
+    "revenueGrowth": 0.1975,
+    "epsAvg": 8.86841,
+    "epsGrowth": 0.1593,
+    "analystCount": 16
+  }
+}

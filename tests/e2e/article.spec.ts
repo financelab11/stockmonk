@@ -34,6 +34,35 @@ test.describe("research article", () => {
     await expect(page).toHaveURL(/#valuation/);
   });
 
+  test("generated report for an expanded name has ten sections and four sources", async ({ page }) => {
+    await page.goto("/stocks/CAVA", { waitUntil: "networkidle" });
+
+    for (const title of [
+      "The big picture",
+      "What the company does",
+      "How it makes money",
+      "Growth drivers and catalysts",
+      "Financial performance",
+      "Cash flow and balance sheet",
+      "Valuation",
+      "What analysts expect",
+      "Risks and what to watch",
+      "The bottom line for learners",
+    ]) {
+      await expect(
+        page.getByRole("heading", { name: title, exact: true, level: 2 }),
+      ).toBeAttached();
+    }
+
+    const sourceSection = page.locator('section[aria-labelledby="article-sources"]');
+    const sources = sourceSection.locator("li");
+    await expect(sources).toHaveCount(4);
+    await expect(sourceSection).toContainText(/annual report/i);
+    await expect(sourceSection).toContainText(/filing history/i);
+    await expect(sourceSection).toContainText(/methodology/i);
+    await expect(page.locator("article").getByText(/SimFin|Yahoo Finance|Nasdaq/)).toHaveCount(0);
+  });
+
   test("search finds a ticker and navigates to its report", async ({ page }) => {
     await page.goto("/discover", { waitUntil: "networkidle" });
     const input = page.getByPlaceholder(/Search ticker, name or sector/i);

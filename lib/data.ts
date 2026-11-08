@@ -24,6 +24,31 @@ import {
   rangePosition,
   type FactorScores,
 } from "./analytics";
+import type { TickerData as TickerDataType } from "./schemas";
+
+function fallbackSegments(data: TickerDataType): SegmentMix {
+  const annual = [...data.annual].filter((row) => !row.ttm && row.revenue).at(-1);
+  const revenue = annual?.revenue ?? data.metrics.revenueTtm ?? 0;
+  const reportDate =
+    [...data.quarterly].filter((row) => !row.ttm).at(-1)?.reportDate ??
+    data.updatedAt.slice(0, 10);
+  const cik = data.cik?.padStart(10, "0");
+  return {
+    ticker: data.ticker,
+    asOf: annual?.reportDate ?? reportDate,
+    source: {
+      name: `${data.name} latest annual report`,
+      url: cik
+        ? `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${cik}&type=10-K&dateb=&owner=include&count=40`
+        : "https://www.sec.gov/edgar/search/",
+      date: annual?.reportDate ?? reportDate,
+    },
+    segmentLabel: "Reported revenue",
+    segments: [{ name: "Consolidated revenue", revenue, share: 1 }],
+    geographyLabel: null,
+    geography: [],
+  };
+}
 
 const ROOT = process.cwd();
 const PROCESSED_DIR = path.join(ROOT, "data", "processed");
@@ -77,7 +102,13 @@ export const getConsensus = cache((rawTicker: string): Consensus | null => {
   const raw = readJson<unknown>(path.join(CONSENSUS_DIR, `${ticker}.json`));
   if (!raw) return null;
   const parsed = consensusSchema.safeParse(raw);
-  return parsed.success ? parsed.data : null;
+  if (!parsed.success) return null;
+  const consensus = parsed.data;
+  const hasContent =
+    consensus.targetMean != null ||
+    consensus.analystCount != null ||
+    consensus.estimates.length > 0;
+  return hasContent ? consensus : null;
 });
 
 export const getSegments = cache((rawTicker: string): SegmentMix | null => {
@@ -132,26 +163,28 @@ export type ResearchBundle = {
   rangePosition: number | null;
 };
 
-export const getResearchBundles = cache((): ResearchBundle[] => {
-  return getResearchCompanies().map((data) => {
-    const prices = getPrices(data.ticker, "1Y");
-    const pricesMax = getPrices(data.ticker, "MAX");
-    return {
-      data,
-      consensus: getConsensus(data.ticker),
-      segments: getSegments(data.ticker),
-      prices,
-      pricesMax,
-      factors: getFactorScores(data.ticker),
-      cagr: computeCagr(data.annual),
-      latestQYoY: latestQuarterYoY(data),
-      rangePosition: rangePosition(
-        data.latestPrice.close,
-        data.latestPrice.low52,
-        data.latestPrice.high52,
-      ),
-    };
-  });
+function buildResearchBundle(data: TickerData): ResearchBundle {
+  return {
+    data,
+    consensus: getConsensus(data.ticker),
+    segments: getSegments(data.ticker) ?? fallbackSegments(data),
+    prices: getPrices(data.ticker, "1Y"),
+    pricesMax: getPrices(data.ticker, "MAX"),
+    factors: getFactorScores(data.ticker),
+    cagr: computeCagr(data.annual),
+    latestQYoY: latestQuarterYoY(data),
+    rangePosition: rangePosition(
+      data.latestPrice.close,
+      data.latestPrice.low52,
+      data.latestPrice.high52,
+    ),
+  };
+}
+
+export const getResearchBundles = cache((limit?: number): ResearchBundle[] => {
+  const companies =
+    limit == null ? getResearchCompanies() : getResearchCompanies().slice(0, limit);
+  return companies.map(buildResearchBundle);
 });
 
 export const getResearchBundle = cache((ticker: string): ResearchBundle | null => {
@@ -159,7 +192,8 @@ export const getResearchBundle = cache((ticker: string): ResearchBundle | null =
   if (!RESEARCH_TICKERS.includes(normalized as (typeof RESEARCH_TICKERS)[number])) {
     return null;
   }
-  return getResearchBundles().find((bundle) => bundle.data.ticker === normalized) ?? null;
+  const data = getTicker(normalized);
+  return data ? buildResearchBundle(data) : null;
 });
 
 export type MarketSnapshot = {
@@ -281,8 +315,15 @@ export type NewsItem = {
 export const getNewsfeed = cache((): NewsItem[] => {
   const items: NewsItem[] = [];
 
-  for (const bundle of getResearchBundles()) {
-    const { data, consensus, segments } = bundle;
+  for (const data of getResearchCompanies()) {
+    const consensus = getConsensus(data.ticker);
+    const segments = getSegments(data.ticker) ?? fallbackSegments(data);
+    const latestQYoY = latestQuarterYoY(data);
+    const position = rangePosition(
+      data.latestPrice.close,
+      data.latestPrice.low52,
+      data.latestPrice.high52,
+    );
     const base = {
       ticker: data.ticker,
       name: data.name,
@@ -292,7 +333,7 @@ export const getNewsfeed = cache((): NewsItem[] => {
     const latest = [...data.quarterly].filter((row) => !row.ttm).pop();
 
     if (latest) {
-      const yoy = bundle.latestQYoY;
+      const yoy = latestQYoY;
       items.push({
         ...base,
         id: `${data.ticker}-earnings-${latest.reportDate}`,
@@ -333,7 +374,7 @@ export const getNewsfeed = cache((): NewsItem[] => {
     }
 
     if (data.latestPrice.high52 && data.latestPrice.low52) {
-      const position = bundle.rangePosition ?? 0;
+      const rangePct = position ?? 0;
       const moved = data.latestPrice.changePct;
       items.push({
         ...base,
@@ -343,7 +384,7 @@ export const getNewsfeed = cache((): NewsItem[] => {
         title:
           moved != null && Math.abs(moved) >= 0.03
             ? `${data.ticker} moved ${(moved * 100).toFixed(1)}% in the latest session`
-            : `${data.ticker} sits ${Math.round(position * 100)}% of the way up its 52-week range`,
+            : `${data.ticker} sits ${Math.round(rangePct * 100)}% of the way up its 52-week range`,
         summary: `The 52-week range is $${data.latestPrice.low52.toFixed(2)} to $${data.latestPrice.high52.toFixed(2)}. The latest close was $${data.latestPrice.close.toFixed(2)}. Price moves are not explanations; use the filings and results for context.`,
         href: `/stocks/${data.ticker}#big-picture`,
       });

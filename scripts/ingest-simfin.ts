@@ -265,8 +265,12 @@ type SecRow = {
 
 type SecFile = {
   ticker: string;
+  cik?: string;
   quarterly: SecRow[];
   annual: SecRow[];
+  filings?: {
+    latest10K?: { url?: string; filed?: string };
+  };
 };
 
 async function loadSecFile(ticker: string): Promise<SecFile | null> {
@@ -448,6 +452,7 @@ async function main() {
   // Statements
   const quarterly = new Map<string, FinancialRow[]>();
   const annual = new Map<string, FinancialRow[]>();
+  const secFiles = new Map<string, SecFile>();
 
   for (const batch of chunk([...RESEARCH_TICKERS], BATCH)) {
     const payload = await simfinStatements(batch.map(toSimfin), {
@@ -499,6 +504,7 @@ async function main() {
       console.warn(`[ingest] no SEC file for ${ticker}; run pnpm ingest:edgar first`);
       continue;
     }
+    secFiles.set(ticker, sec);
     quarterly.set(ticker, mergeSecRows(quarterly.get(ticker) ?? [], sec.quarterly, "quarterly"));
     annual.set(ticker, mergeSecRows(annual.get(ticker) ?? [], sec.annual, "annual"));
     console.log(`[ingest] merged SEC flows for ${ticker}`);
@@ -538,7 +544,8 @@ async function main() {
       industry: g?.industryName ?? sector?.name ?? "�",
       employees: g?.numEmployees ?? null,
       isin: g?.isin ?? null,
-      cik: null,
+      cik: secFiles.get(ticker)?.cik ?? null,
+      latest10KUrl: secFiles.get(ticker)?.filings?.latest10K?.url ?? null,
       hq: null,
       founded: null,
       website: null,

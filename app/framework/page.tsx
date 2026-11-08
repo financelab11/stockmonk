@@ -20,7 +20,7 @@ import { DataSourcesRow } from "@/components/ui/data-sources-row";
 import { ProCTA } from "@/components/ui/pro-cta";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { JsonLd } from "@/components/seo/json-ld";
-import { getAllCompanies, getResearchBundles } from "@/lib/data";
+import { getAllCompanies, getResearchBundle } from "@/lib/data";
 import { median } from "@/lib/article";
 import { formatMultiple, formatPercent } from "@/lib/format";
 import { breadcrumbJsonLd } from "@/lib/seo";
@@ -58,9 +58,8 @@ function buildQualitySeries(): QualityPoint[] {
 
 export default function FrameworkPage() {
   const quality = buildQualitySeries();
-  const bundles = getResearchBundles();
   const examples = ["NVDA", "MSFT", "JPM"]
-    .map((ticker) => bundles.find((bundle) => bundle.data.ticker === ticker))
+    .map((ticker) => getResearchBundle(ticker))
     .filter((bundle): bundle is NonNullable<typeof bundle> => Boolean(bundle));
 
   return (

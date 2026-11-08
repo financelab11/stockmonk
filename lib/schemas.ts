@@ -93,6 +93,7 @@ export const tickerDataSchema = z.object({
   employees: z.number().nullable(),
   isin: z.string().nullable(),
   cik: z.string().nullable().optional(),
+  latest10KUrl: z.string().nullable().optional(),
   hq: z.string().nullable().optional(),
   founded: z.string().nullable().optional(),
   website: z.string().nullable().optional(),

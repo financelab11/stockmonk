@@ -38,7 +38,7 @@ export default function DataSourcesPage() {
             <tr>
               <td className="font-medium text-ink">Fundamentals</td>
               <td><a href="https://simfin.com/" target="_blank" rel="noreferrer noopener" className="link-underline">SimFin</a></td>
-              <td>Income statement, balance sheet, cash flow and derived ratios for all 68 companies.</td>
+              <td>Income statement, balance sheet, cash flow and derived ratios for all 229 companies.</td>
             </tr>
             <tr>
               <td className="font-medium text-ink">Regulatory flows</td>
@@ -120,9 +120,9 @@ pnpm build:data        # stocks.json + search-index.json`}
           consensus estimates instead of inventing a guidance range.
         </li>
         <li>
-          <strong>Supporting companies.</strong> The 59 non-research tickers have
-          lighter data: no segment mix, no consensus snapshot and no ten-section
-          narrative.
+          <strong>Data-thin companies.</strong> A small number of names with
+          limited filings or price history show a lighter profile: no segment
+          mix, no consensus snapshot and no full narrative report.
         </li>
       </ul>
 
@@ -130,7 +130,7 @@ pnpm build:data        # stocks.json + search-index.json`}
       <ul>
         <li>Fundamentals: SimFin — <a href="https://simfin.com/" target="_blank" rel="noreferrer noopener" className="link-underline">simfin.com</a></li>
         <li>Filings: SEC EDGAR — <a href="https://www.sec.gov/edgar/search/" target="_blank" rel="noreferrer noopener" className="link-underline">sec.gov/edgar</a></li>
-        <li>Consensus: Yahoo Finance and Nasdaq, named on every consensus panel.</li>
+        <li>Consensus: third-party snapshots cross-checked across providers; each panel shows the snapshot date and analyst count.</li>
         <li>Logos: CompaniesMarketCap logo CDN, used for identification only. Missing logos fall back to a typographic monogram.</li>
       </ul>
       <p>

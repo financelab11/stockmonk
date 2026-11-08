@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T13:29:02.086Z",
+  "generatedAt": "2026-11-08T09:18:17.697Z",
   "providers": [
     "Yahoo Finance",
     "Nasdaq"
@@ -7,10 +7,1834 @@
   "note": "Third-party analyst consensus, shown with attribution. Not a Stockmonk rating or price target.",
   "tickers": [
     {
+      "ticker": "NVDA",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 327.1431,
+      "analysts": 58,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "MSFT",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 634.14276,
+      "analysts": 54,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "AAPL",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 339.04153,
+      "analysts": 39,
+      "estimates": 4,
+      "history": 5
+    },
+    {
+      "ticker": "GOOGL",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 400.37357,
+      "analysts": 53,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "AMZN",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 326.99017,
+      "analysts": 59,
+      "estimates": 4,
+      "history": 4
+    },
+    {
       "ticker": "META",
       "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
       "targetMean": 850.1025,
       "analysts": 57,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "AVGO",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 533.4238,
+      "analysts": 47,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "TSLA",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 413.10126,
+      "analysts": 40,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "LLY",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 1453.4014,
+      "analysts": 29,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "JPM",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 373.47827,
+      "analysts": 23,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ORCL",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 235.7735,
+      "analysts": 40,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "AMD",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 659.7745,
+      "analysts": 47,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "MU",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 1561.9111,
+      "analysts": 45,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "AMAT",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 626.86487,
+      "analysts": 37,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "LRCX",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 364.03333,
+      "analysts": 30,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "KLAC",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 219.61539,
+      "analysts": 26,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ANET",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 250.00394,
+      "analysts": 28,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CDNS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 411.7604,
+      "analysts": 24,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "SNPS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 589.546,
+      "analysts": 25,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "NOW",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 155.8187,
+      "analysts": 46,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "PANW",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 399.9994,
+      "analysts": 50,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CRWD",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 249.6834,
+      "analysts": 50,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "INTU",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 407.75934,
+      "analysts": 31,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "APH",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 106.97368,
+      "analysts": 19,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "PLTR",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 222.25357,
+      "analysts": 28,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ADI",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 472.4375,
+      "analysts": 32,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "FICO",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 821.7879,
+      "analysts": 19,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ADBE",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 267.00122,
+      "analysts": 33,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CRM",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 287.0836,
+      "analysts": 53,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CSCO",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 135.56,
+      "analysts": 25,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "DELL",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 590,
+      "analysts": 25,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "HPQ",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 27.43529,
+      "analysts": 17,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "IBM",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 259.30347,
+      "analysts": 23,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "INTC",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 91.11628,
+      "analysts": 43,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "QCOM",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 185.7857,
+      "analysts": 28,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "TXN",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 336.86206,
+      "analysts": 29,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "DDOG",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 271.71106,
+      "analysts": 47,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "SNOW",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 426.5002,
+      "analysts": 48,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "NFLX",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 84.76326,
+      "analysts": 43,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "TMUS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 225.64,
+      "analysts": 25,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "DIS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 126.83281,
+      "analysts": 32,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CMCSA",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 27.97727,
+      "analysts": 22,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "SPOT",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 643.4777,
+      "analysts": 38,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "PINS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 25.25,
+      "analysts": 36,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "HD",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 379,
+      "analysts": 32,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "LOW",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 251.9697,
+      "analysts": 33,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "MCD",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 299.51724,
+      "analysts": 29,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "BKNG",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 215.8,
+      "analysts": 35,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "TJX",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 171.15788,
+      "analysts": 19,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ORLY",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 106.46154,
+      "analysts": 26,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "RCL",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 353.5,
+      "analysts": 26,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CMG",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 40.56667,
+      "analysts": 30,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "DHI",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 146.5,
+      "analysts": 14,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ABNB",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 200.4045,
+      "analysts": 40,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "UBER",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 99.15617,
+      "analysts": 47,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "SHOP",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 177.49796,
+      "analysts": 49,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "COST",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 1071.3243,
+      "analysts": 37,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "WMT",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 127.475,
+      "analysts": 40,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "PG",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 174.04349,
+      "analysts": 23,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "KO",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 97.75,
+      "analysts": 24,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "PM",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 213.26666,
+      "analysts": 15,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CL",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 101.7,
+      "analysts": 20,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "PEP",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 141.59091,
+      "analysts": 22,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "JNJ",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 279.4091,
+      "analysts": 22,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ABBV",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 310.65384,
+      "analysts": 26,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ISRG",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 485.56668,
+      "analysts": 30,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "TMO",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 752.12,
+      "analysts": 25,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "VRTX",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 592.3571,
+      "analysts": 28,
+      "estimates": 4,
+      "history": 5
+    },
+    {
+      "ticker": "ABT",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 118.52269,
+      "analysts": 26,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "BSX",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 49.59857,
+      "analysts": 28,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "SYK",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 340.48407,
+      "analysts": 27,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "MRK",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 161.525,
+      "analysts": 26,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "REGN",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 977.9259,
+      "analysts": 27,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ZTS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 89.69231,
+      "analysts": 13,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "IDXX",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 717.1667,
+      "analysts": 12,
+      "estimates": 4,
+      "history": 5
+    },
+    {
+      "ticker": "PFE",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 30.25962,
+      "analysts": 26,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "UNH",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 476.64,
+      "analysts": 25,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "BAC",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 62.47727,
+      "analysts": 22,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "GS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 1030.6666,
+      "analysts": 21,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "MS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 211.5,
+      "analysts": 22,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "V",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 446.3346,
+      "analysts": 37,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "MA",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 716.38947,
+      "analysts": 37,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "BRK.B",
+      "provider": "Nasdaq analyst consensus",
+      "targetMean": 550,
+      "analysts": null,
+      "estimates": 0,
+      "history": 0
+    },
+    {
+      "ticker": "SPGI",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 526.7,
+      "analysts": 20,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "BLK",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 1361.0588,
+      "analysts": 17,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "AXP",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 365.78708,
+      "analysts": 24,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "SCHW",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 116.86364,
+      "analysts": 22,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CB",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 373.21738,
+      "analysts": 23,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "PGR",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 232.38095,
+      "analysts": 21,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ICE",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 192.2,
+      "analysts": 15,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CME",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 317.0625,
+      "analysts": 16,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "AIG",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 88.4,
+      "analysts": 20,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "C",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 150.59525,
+      "analysts": 21,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "WFC",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 97.375,
+      "analysts": 24,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "GE",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 378.42856,
+      "analysts": 21,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "GEV",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 1182.8318,
+      "analysts": 33,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CAT",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 823.4139,
+      "analysts": 26,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "RTX",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 227.91304,
+      "analysts": 23,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ETN",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 476.97192,
+      "analysts": 26,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "VRT",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 337.53723,
+      "analysts": 29,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "PH",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 1140.4137,
+      "analysts": 24,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "URI",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 1293.4286,
+      "analysts": 21,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "UNP",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 331.375,
+      "analysts": 24,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "WM",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 255.6,
+      "analysts": 25,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "TT",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 519.5574,
+      "analysts": 23,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "HWM",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 296.2857,
+      "analysts": 21,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "AXON",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 561.3158,
+      "analysts": 19,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "BA",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 233.34615,
+      "analysts": 26,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "DE",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 694.0078,
+      "analysts": 23,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "HON",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 253.91304,
+      "analysts": 23,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "LMT",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 660.86365,
+      "analysts": 22,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "XOM",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 185.04546,
+      "analysts": 22,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CVX",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 243.45833,
+      "analysts": 24,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "COP",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 152,
+      "analysts": 27,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "EOG",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 167.44827,
+      "analysts": 29,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "WMB",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 85.41667,
+      "analysts": 24,
+      "estimates": 4,
+      "history": 3
+    },
+    {
+      "ticker": "NEE",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 94,
+      "analysts": 19,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CEG",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 337.76697,
+      "analysts": 23,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "VST",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 202.66667,
+      "analysts": 21,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "SO",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 96.1,
+      "analysts": 20,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "DUK",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 132.26315,
+      "analysts": 19,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "LIN",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 550.85187,
+      "analysts": 27,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "SHW",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 374.25,
+      "analysts": 24,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "FCX",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 78.08636,
+      "analysts": 22,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ECL",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 330.57144,
+      "analysts": 21,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "PLD",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 152.07143,
+      "analysts": 14,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "EQIX",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 1234.875,
+      "analysts": 32,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "WELL",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 261.63635,
+      "analysts": 22,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CRDO",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 284.04538,
+      "analysts": 19,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ALAB",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 347.17773,
+      "analysts": 22,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CLS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 464.78125,
+      "analysts": 18,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CIEN",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 512.9907,
+      "analysts": 20,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "LITE",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 1100.1481,
+      "analysts": 26,
+      "estimates": 4,
+      "history": 3
+    },
+    {
+      "ticker": "COHR",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 368.1984,
+      "analysts": 25,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "POWL",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 267.5,
+      "analysts": 4,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "NVT",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 199.77779,
+      "analysts": 18,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "FIX",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 1820.5555,
+      "analysts": 9,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "STRL",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 693.4286,
+      "analysts": 7,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "BE",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 283.84616,
+      "analysts": 26,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "NBIS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 281,
+      "analysts": 20,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "IREN",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 64.07895,
+      "analysts": 19,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "APLD",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 60.9375,
+      "analysts": 16,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CRWV",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 131.52632,
+      "analysts": 38,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "AMSC",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 61.75,
+      "analysts": 4,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "PSTG",
+      "provider": "Nasdaq analyst consensus",
+      "targetMean": null,
+      "analysts": null,
+      "estimates": 0,
+      "history": 0
+    },
+    {
+      "ticker": "ONTO",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 383.33334,
+      "analysts": 12,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CAMT",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 155.6,
+      "analysts": 10,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "FORM",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 152.22221,
+      "analysts": 9,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "RMBS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 140.57143,
+      "analysts": 7,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "SITM",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 713.75,
+      "analysts": 12,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "LSCC",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 156.18768,
+      "analysts": 13,
+      "estimates": 4,
+      "history": 5
+    },
+    {
+      "ticker": "MTSI",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 327,
+      "analysts": 16,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "AEIS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 388.16666,
+      "analysts": 12,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "POWI",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 60.66667,
+      "analysts": 3,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "AMKR",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 66,
+      "analysts": 10,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "S",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 24.91667,
+      "analysts": 30,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "RBRK",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 122.46429,
+      "analysts": 28,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "TENB",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 48.35,
+      "analysts": 20,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "GTLB",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 56.125,
+      "analysts": 24,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "IOT",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 52.06667,
+      "analysts": 24,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "PEGA",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 41,
+      "analysts": 7,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ESTC",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 111.74074,
+      "analysts": 27,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "MNDY",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 108.76333,
+      "analysts": 24,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "IONQ",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 56.29615,
+      "analysts": 13,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "RGTI",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 26.69167,
+      "analysts": 12,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "QBTS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 33.21,
+      "analysts": 16,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "SOFI",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 20.83913,
+      "analysts": 23,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "AFRM",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 97.04824,
+      "analysts": 34,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "UPST",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 31.1875,
+      "analysts": 16,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "TOST",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 38.96296,
+      "analysts": 27,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "FOUR",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 50.18182,
+      "analysts": 22,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "HOOD",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 128.87132,
+      "analysts": 30,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CRCL",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 105.43417,
+      "analysts": 24,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "PYPL",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 57.13182,
+      "analysts": 33,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "PODD",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 178.34782,
+      "analysts": 23,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "TMDX",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 102.54545,
+      "analysts": 11,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "INSP",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 69.625,
+      "analysts": 16,
+      "estimates": 4,
+      "history": 3
+    },
+    {
+      "ticker": "PEN",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 362.53845,
+      "analysts": 13,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "GMED",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 96.53846,
+      "analysts": 13,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "TEM",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 89.55556,
+      "analysts": 18,
+      "estimates": 4,
+      "history": 5
+    },
+    {
+      "ticker": "HIMS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 31.15385,
+      "analysts": 13,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "VKTX",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 95.31579,
+      "analysts": 19,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CRNX",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 85,
+      "analysts": 8,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "RYTM",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 139.4706,
+      "analysts": 17,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "INSM",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 194.18182,
+      "analysts": 22,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "MDGL",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 688.94446,
+      "analysts": 18,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "KRYS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 388.22223,
+      "analysts": 9,
+      "estimates": 4,
+      "history": 3
+    },
+    {
+      "ticker": "BBIO",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 106.85,
+      "analysts": 20,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ACLX",
+      "provider": "Nasdaq analyst consensus",
+      "targetMean": null,
+      "analysts": null,
+      "estimates": 0,
+      "history": 0
+    },
+    {
+      "ticker": "RKLB",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 102.15,
+      "analysts": 20,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ASTS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 74.68333,
+      "analysts": 12,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "LUNR",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 27.11111,
+      "analysts": 9,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "KTOS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 88.16,
+      "analysts": 25,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "AVAV",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 212.1987,
+      "analysts": 23,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "PL",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 30.27273,
+      "analysts": 11,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "JOBY",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 9.39778,
+      "analysts": 9,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ACHR",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 10.88889,
+      "analysts": 9,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "SYM",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 61.49733,
+      "analysts": 15,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "RDW",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 13.38889,
+      "analysts": 9,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "OKLO",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 62.61905,
+      "analysts": 21,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "SMR",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 8.90625,
+      "analysts": 16,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "UEC",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 16.02727,
+      "analysts": 11,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "LEU",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 194.09315,
+      "analysts": 19,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "FLNC",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 7.95,
+      "analysts": 20,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "MP",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 68.23529,
+      "analysts": 17,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "USAR",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 35.125,
+      "analysts": 8,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ATI",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 242.6,
+      "analysts": 10,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CDE",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 21.77273,
+      "analysts": 11,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "IDR",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 45,
+      "analysts": 1,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "TPL",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 443,
+      "analysts": 2,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CAVA",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 79.45833,
+      "analysts": 24,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "BROS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 62.36,
+      "analysts": 25,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ELF",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 123.75,
+      "analysts": 16,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ONON",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 44.18056,
+      "analysts": 30,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "CELH",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 41.47619,
+      "analysts": 21,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "DUOL",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 150.87167,
+      "analysts": 18,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "RDDT",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 151.04828,
+      "analysts": 29,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "WING",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 185.5,
+      "analysts": 26,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "AAON",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 128.5,
+      "analysts": 4,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "MLI",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 78,
+      "analysts": 2,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "ROAD",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 138.14285,
+      "analysts": 7,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "WTS",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 395.14285,
+      "analysts": 7,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "DY",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 513.1818,
+      "analysts": 11,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "BWXT",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 206.56938,
+      "analysts": 16,
+      "estimates": 4,
+      "history": 3
+    },
+    {
+      "ticker": "KNF",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 69.8,
+      "analysts": 10,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "KNSL",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 349,
+      "analysts": 9,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "RYAN",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 49.65625,
+      "analysts": 16,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "PLMR",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 162.33333,
+      "analysts": 6,
+      "estimates": 4,
+      "history": 4
+    },
+    {
+      "ticker": "EVR",
+      "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+      "targetMean": 346.8,
+      "analysts": 10,
       "estimates": 4,
       "history": 4
     }

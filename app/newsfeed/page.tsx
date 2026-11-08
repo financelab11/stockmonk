@@ -4,7 +4,7 @@ import { Filter, Rss } from "lucide-react";
 import { NewsCard } from "@/components/cards/news-card";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { JsonLd } from "@/components/seo/json-ld";
-import { getNewsfeed, getResearchBundles, type NewsTag } from "@/lib/data";
+import { getNewsfeed, getResearchCompanies, type NewsTag } from "@/lib/data";
 import { breadcrumbJsonLd } from "@/lib/seo";
 import { formatPercent } from "@/lib/format";
 
@@ -56,7 +56,7 @@ export default async function NewsfeedPage({
   const limit = Math.max(12, Math.min(60, Number(params.limit) || 12));
 
   const allItems = getNewsfeed();
-  const bundles = getResearchBundles();
+  const companies = getResearchCompanies();
   const filtered = allItems.filter(
     (item) =>
       (activeTag === "All" || item.tag === activeTag) &&
@@ -202,16 +202,16 @@ export default async function NewsfeedPage({
             <div className="card p-4">
               <h2 className="text-[12px] font-semibold text-ink">Covered reports</h2>
               <ul className="mt-2 divide-y divide-line">
-                {bundles.map((bundle) => (
-                  <li key={bundle.data.ticker}>
+                {companies.map((company) => (
+                  <li key={company.ticker}>
                     <Link
                       prefetch={false}
-                      href={`/stocks/${bundle.data.ticker}`}
+                      href={`/stocks/${company.ticker}`}
                       className="flex items-center justify-between gap-2 py-1.5 text-[11px] hover:text-brand"
                     >
-                      <span className="font-mono font-semibold">{bundle.data.ticker}</span>
+                      <span className="font-mono font-semibold">{company.ticker}</span>
                       <span className="tabular text-muted">
-                        {formatPercent(bundle.data.metrics.revenueGrowthTtm)} rev
+                        {formatPercent(company.metrics.revenueGrowthTtm)} rev
                       </span>
                     </Link>
                   </li>

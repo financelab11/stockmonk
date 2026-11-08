@@ -4,12 +4,13 @@ import { ResearchArticle } from "@/components/article/research-article";
 import { SupportingProfile } from "@/components/article/supporting-profile";
 import { JsonLd } from "@/components/seo/json-ld";
 import { getStockStory } from "@/content/stocks";
+import { generateStockStory } from "@/lib/generated-story";
 import { ALL_TICKERS, BENCHMARK_TICKER, RESEARCH_TICKERS } from "@/config/universe";
 import {
   getNewsfeed,
   getPrices,
   getResearchBundle,
-  getResearchBundles,
+  getResearchCompanies,
   getTicker,
 } from "@/lib/data";
 import {
@@ -39,7 +40,8 @@ export async function generateMetadata({
     return { title: "Company not found" };
   }
 
-  const story = getStockStory(data.ticker);
+  const bundle = getResearchBundle(data.ticker);
+  const story = getStockStory(data.ticker) ?? (bundle ? generateStockStory(bundle) : null);
   const title = story
     ? story.title
     : `${data.name} (${data.ticker}) — company profile`;
@@ -81,10 +83,22 @@ export default async function StockPage({
   const data = getTicker(ticker);
   if (!data) notFound();
 
-  const story = getStockStory(data.ticker);
   const bundle = getResearchBundle(data.ticker);
+  const story = getStockStory(data.ticker) ?? (bundle ? generateStockStory(bundle) : null);
   const news = getNewsfeed();
-  const related = getResearchBundles();
+  // Load only a handful of neighbouring names for the related cards instead of
+  // every research bundle on each of the 229 statically generated pages.
+  const researchCompanies = getResearchCompanies();
+  const index = researchCompanies.findIndex((company) => company.ticker === data.ticker);
+  const related = [1, 2, 3]
+    .map((offset) =>
+      index >= 0
+        ? researchCompanies[(index + offset) % researchCompanies.length]
+        : null,
+    )
+    .filter((company): company is NonNullable<typeof company> => company != null)
+    .map((company) => getResearchBundle(company.ticker))
+    .filter((bundle): bundle is NonNullable<typeof bundle> => bundle != null);
 
   if (story && bundle) {
     const jsonLd = [

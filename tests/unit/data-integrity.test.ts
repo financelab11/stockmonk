@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { RESEARCH_TICKERS } from "@/config/universe";
+import { CORE_RESEARCH_TICKERS, RESEARCH_TICKERS } from "@/config/universe";
 import {
   consensusSchema,
   segmentMixSchema,
@@ -16,33 +16,47 @@ function readJson<T>(filePath: string): T {
 }
 
 describe("data integrity", () => {
-  it("publishes 68 validated universe entries with 10 research names", () => {
+  it("publishes 229 validated universe entries, all research names", () => {
     const entries = readJson<unknown[]>(
       path.join(ROOT, "public", "data", "stocks.json"),
     );
-    expect(entries).toHaveLength(68);
+    expect(entries).toHaveLength(RESEARCH_TICKERS.length);
+    expect(entries).toHaveLength(229);
     const parsed = entries.map((entry) => universeEntrySchema.parse(entry));
-    expect(parsed.filter((entry) => entry.isResearch)).toHaveLength(10);
+    expect(parsed.filter((entry) => entry.isResearch)).toHaveLength(229);
     expect(parsed.every((entry) => entry.price != null && entry.marketCap != null)).toBe(true);
     expect(parsed.find((entry) => entry.ticker === "GOOGL")?.isResearch).toBe(true);
+    expect(parsed.find((entry) => entry.ticker === "CAVA")?.isResearch).toBe(true);
   });
 
   it("validates every processed company and its headline fundamentals", () => {
-    for (const ticker of ["NVDA", "MSFT", "AAPL", "GOOGL", "AMZN", "META", "AVGO", "TSLA", "LLY", "JPM"]) {
+    for (const ticker of RESEARCH_TICKERS) {
       const data = tickerDataSchema.parse(
         readJson(path.join(ROOT, "data", "processed", ticker, "data.json")),
       );
       expect(data.ticker).toBe(ticker);
-      expect(data.metrics.revenueTtm).toBeGreaterThan(0);
-      expect(data.latestPrice.close).toBeGreaterThan(0);
-      expect(data.quarterly.length).toBeGreaterThan(4);
-      expect(data.annual.length).toBeGreaterThan(2);
-      expect(data.factorChips.length).toBeGreaterThanOrEqual(5);
+      expect(data.metrics.revenueTtm, ticker).not.toBeNull();
+      expect(data.metrics.revenueTtm, ticker).toBeGreaterThanOrEqual(0);
+      expect(data.latestPrice.close, ticker).toBeGreaterThan(0);
+      expect(data.annual.length, ticker).toBeGreaterThan(0);
+      expect(data.factorChips.length, ticker).toBeGreaterThanOrEqual(5);
     }
   });
 
-  it("has consensus, segment and price files for every research ticker", () => {
+  it("has price files for every research ticker", () => {
     for (const ticker of RESEARCH_TICKERS) {
+      for (const range of ["1M", "3M", "6M", "YTD", "1Y", "5Y", "MAX"]) {
+        const prices = readJson<unknown[]>(
+          path.join(ROOT, "public", "data", "prices", ticker, `${range}.json`),
+        );
+        expect(prices.length, `${ticker} ${range}`).toBeGreaterThan(1);
+        expect(prices.length).toBeLessThanOrEqual(600);
+      }
+    }
+  });
+
+  it("has consensus and segment files for the core research tickers", () => {
+    for (const ticker of CORE_RESEARCH_TICKERS) {
       const consensus = consensusSchema.parse(
         readJson(path.join(ROOT, "data", "consensus", `${ticker}.json`)),
       );
@@ -57,14 +71,16 @@ describe("data integrity", () => {
       expect(segments.segments.length).toBeGreaterThan(1);
       const share = segments.segments.reduce((sum, slice) => sum + slice.share, 0);
       expect(share).toBeCloseTo(1, 1);
+    }
+  });
 
-      for (const range of ["1M", "3M", "6M", "YTD", "1Y", "5Y", "MAX"]) {
-        const prices = readJson<unknown[]>(
-          path.join(ROOT, "public", "data", "prices", ticker, `${range}.json`),
-        );
-        expect(prices.length).toBeGreaterThan(1);
-        expect(prices.length).toBeLessThanOrEqual(600);
-      }
+  it("writes only validated consensus files for expanded names", () => {
+    const dir = path.join(ROOT, "data", "consensus");
+    for (const ticker of RESEARCH_TICKERS) {
+      const file = path.join(dir, `${ticker}.json`);
+      if (!fs.existsSync(file)) continue;
+      const consensus = consensusSchema.parse(readJson(file));
+      expect(consensus.ticker).toBe(ticker);
     }
   });
 
@@ -76,8 +92,11 @@ describe("data integrity", () => {
     expect(fs.existsSync(path.join(ROOT, "data", "consensus", "_meta.json"))).toBe(true);
   });
 
-  it("has a filing URL for every narrative story", () => {
+  it("keeps hand-written narratives for the ten core names", () => {
     const files = fs.readdirSync(path.join(ROOT, "content", "stocks"));
     expect(files.filter((file) => /^[A-Z]+\.ts$/.test(file))).toHaveLength(10);
+    for (const ticker of CORE_RESEARCH_TICKERS) {
+      expect(files, ticker).toContain(`${ticker}.ts`);
+    }
   });
 });

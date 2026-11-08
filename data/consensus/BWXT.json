@@ -1,0 +1,90 @@
+{
+  "ticker": "BWXT",
+  "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://finance.yahoo.com/quote/BWXT/analysis",
+  "targetMean": 206.56938,
+  "targetHigh": 290,
+  "targetLow": 140,
+  "recommendationKey": "buy",
+  "analystCount": 16,
+  "distribution": {
+    "strongBuy": 3,
+    "buy": 11,
+    "hold": 4,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 1081349610,
+      "revenueGrowth": 0.2207,
+      "epsAvg": 1.33,
+      "epsGrowth": null,
+      "analystCount": 7
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 938275030,
+      "revenueGrowth": 0.0907,
+      "epsAvg": 1.17,
+      "epsGrowth": null,
+      "analystCount": 6
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 3795924370,
+      "revenueGrowth": 0.1868,
+      "epsAvg": 4.75249,
+      "epsGrowth": 0.1852,
+      "analystCount": 17
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": 4097344980,
+      "revenueGrowth": 0.0794,
+      "epsAvg": 5.21933,
+      "epsGrowth": 0.09819999,
+      "analystCount": 16
+    }
+  ],
+  "history": [
+    {
+      "quarter": "2025-12-31",
+      "endDate": "2025-12-31",
+      "epsActual": 1.08,
+      "epsEstimate": 0.88396,
+      "revenueActual": 885842000,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-03-31",
+      "endDate": "2026-03-31",
+      "epsActual": 1.12,
+      "epsEstimate": 0.92569,
+      "revenueActual": 860217000,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-09-30",
+      "endDate": "2026-09-30",
+      "epsActual": 1.26,
+      "epsEstimate": 1.19803,
+      "revenueActual": 952972000,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 1081349610,
+    "revenueGrowth": 0.2207,
+    "epsAvg": 1.33,
+    "epsGrowth": null,
+    "analystCount": 7
+  }
+}

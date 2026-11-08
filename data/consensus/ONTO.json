@@ -1,0 +1,98 @@
+{
+  "ticker": "ONTO",
+  "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://finance.yahoo.com/quote/ONTO/analysis",
+  "targetMean": 383.33334,
+  "targetHigh": 450,
+  "targetLow": 330,
+  "recommendationKey": "none",
+  "analystCount": 12,
+  "distribution": {
+    "strongBuy": 3,
+    "buy": 9,
+    "hold": 0,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-09-30",
+      "revenueAvg": 392041370,
+      "revenueGrowth": 0.7968,
+      "epsAvg": 2.30202,
+      "epsGrowth": 1.5022,
+      "analystCount": 11
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 412566840,
+      "revenueGrowth": 0.546,
+      "epsAvg": 2.47992,
+      "epsGrowth": 0.96819997,
+      "analystCount": 11
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 1439031020,
+      "revenueGrowth": 0.43150002,
+      "epsAvg": 8.10624,
+      "epsGrowth": 0.64089996,
+      "analystCount": 12
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": 1882127670,
+      "revenueGrowth": 0.3079,
+      "epsAvg": 11.6969,
+      "epsGrowth": 0.443,
+      "analystCount": 12
+    }
+  ],
+  "history": [
+    {
+      "quarter": "2025-09-30",
+      "endDate": "2025-09-30",
+      "epsActual": 0.92,
+      "epsEstimate": 0.86857,
+      "revenueActual": 218193000,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2025-12-31",
+      "endDate": "2025-12-31",
+      "epsActual": 1.26,
+      "epsEstimate": 1.26286,
+      "revenueActual": 266866000,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-03-31",
+      "endDate": "2026-03-31",
+      "epsActual": 1.42,
+      "epsEstimate": 1.41571,
+      "revenueActual": 291949000,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-06-30",
+      "endDate": "2026-06-30",
+      "epsActual": 1.93,
+      "epsEstimate": 1.69079,
+      "revenueActual": 343129000,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-09-30",
+    "revenueAvg": 392041370,
+    "revenueGrowth": 0.7968,
+    "epsAvg": 2.30202,
+    "epsGrowth": 1.5022,
+    "analystCount": 11
+  }
+}

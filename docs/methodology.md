@@ -53,7 +53,7 @@ fundamentals. The own-history range uses the last five years of samples.
 
 ## Factor screens
 
-Factor chips are percentile ranks within the 68-company coverage universe:
+Factor chips are percentile ranks within the 229-company coverage universe:
 
 - Growth: revenue growth and EPS growth percentiles.
 - Profitability: operating margin and ROIC percentiles.

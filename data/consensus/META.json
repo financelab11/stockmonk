@@ -1,7 +1,7 @@
 {
   "ticker": "META",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-07",
+  "asOf": "2026-11-08",
   "sourceUrl": "https://finance.yahoo.com/quote/META/analysis",
   "targetMean": 850.1025,
   "targetHigh": 1050,

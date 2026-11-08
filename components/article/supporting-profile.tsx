@@ -201,10 +201,11 @@ export function SupportingProfile({
             This is a profile, not a full report.
           </h2>
           <p className="mt-1 max-w-xl text-[12px] leading-relaxed text-ink-soft">
-            {data.ticker} is part of the expanded US universe. Stockmonk has
-            full ten-section research for a smaller set of companies, including
-            {group ? ` names in ${group.name}` : " other large caps"}. Profiles
-            show the same sourced financials without a full narrative report.
+            {data.ticker} is part of the 229-company coverage universe. Every
+            name is assigned the ten-section research template
+            {group ? `, including other names in ${group.name}` : ""}. This page
+            shows the same sourced financials when a company has too few filings
+            or price points for the full narrative.
           </p>
           <div className="mt-3 flex flex-wrap gap-2">
             {researchInSector.slice(0, 3).map((item) => (

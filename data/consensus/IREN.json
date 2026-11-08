@@ -1,0 +1,98 @@
+{
+  "ticker": "IREN",
+  "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://finance.yahoo.com/quote/IREN/analysis",
+  "targetMean": 64.07895,
+  "targetHigh": 139,
+  "targetLow": 23,
+  "recommendationKey": "strong_buy",
+  "analystCount": 19,
+  "distribution": {
+    "strongBuy": 2,
+    "buy": 14,
+    "hold": 4,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 303845770,
+      "revenueGrowth": 0.6451,
+      "epsAvg": -2.2,
+      "epsGrowth": -75.1246,
+      "analystCount": 1
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 868522640,
+      "revenueGrowth": 4.9981,
+      "epsAvg": -1.6,
+      "epsGrowth": -8.9938,
+      "analystCount": 1
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-06-30",
+      "revenueAvg": 2534291690,
+      "revenueGrowth": 2.5846,
+      "epsAvg": -4.16667,
+      "epsGrowth": -7.8165,
+      "analystCount": 3
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-06-30",
+      "revenueAvg": 7523553150,
+      "revenueGrowth": 1.9686999,
+      "epsAvg": -5.53,
+      "epsGrowth": -0.32720003,
+      "analystCount": 3
+    }
+  ],
+  "history": [
+    {
+      "quarter": "2025-12-31",
+      "endDate": "2025-12-31",
+      "epsActual": -0.0289,
+      "epsEstimate": -0.25,
+      "revenueActual": 184692000,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-03-31",
+      "endDate": "2026-03-31",
+      "epsActual": -0.1601,
+      "epsEstimate": -0.26,
+      "revenueActual": 144795000,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-06-30",
+      "endDate": "2026-06-30",
+      "epsActual": -0.2544,
+      "epsEstimate": -0.455,
+      "revenueActual": 137225000,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-09-30",
+      "endDate": "2026-09-30",
+      "epsActual": null,
+      "epsEstimate": -0.665,
+      "revenueActual": 200000000,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 303845770,
+    "revenueGrowth": 0.6451,
+    "epsAvg": -2.2,
+    "epsGrowth": -75.1246,
+    "analystCount": 1
+  }
+}

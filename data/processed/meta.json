@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-07T13:16:38.818Z",
+  "generatedAt": "2026-11-08T09:10:23.871Z",
   "priceAsOf": "2026-11-06",
-  "companies": 69,
-  "researchCompanies": 10,
+  "companies": 229,
+  "researchCompanies": 229,
   "priceRanges": [
     "1M",
     "3M",
@@ -12,7 +12,20 @@
     "5Y",
     "MAX"
   ],
-  "missingStatements": [],
+  "missingStatements": [
+    "VKTX",
+    "BRK.B",
+    "GEV",
+    "ALAB",
+    "NBIS",
+    "CRWV",
+    "ONTO",
+    "RBRK",
+    "CRCL",
+    "TEM",
+    "OKLO",
+    "USAR"
+  ],
   "notes": [
     "SimFin free-tier income statement data can lag the latest reported quarter for some issuers; SEC/Yahoo are used to cross-check headline figures.",
     "Supporting companies receive PL + DERIVED statements only; no segment or cash-flow detail."

@@ -336,11 +336,13 @@ export function ResearchArticle({
                       total={segments.segments.reduce((sum, slice) => sum + slice.revenue, 0)}
                     />
                   </div>
-                  <LazyMixDonut
-                    data={segments.geography}
-                    title={segments.geographyLabel ?? "Geography"}
-                    description="Revenue by billing location from the latest 10-K."
-                  />
+                  {segments.geography.length > 0 && (
+                    <LazyMixDonut
+                      data={segments.geography}
+                      title={segments.geographyLabel ?? "Geography"}
+                      description="Revenue by billing location from the latest 10-K."
+                    />
+                  )}
                 </div>
               )}
               <div className="mt-4 rounded-xl border border-line bg-surface p-4">
@@ -604,7 +606,7 @@ export function ResearchArticle({
                 <LazyScorecardChart
                   scores={factors}
                   compare={{ growth: 50, profitability: 50, cash: 50, balance: 50, valuation: 50 }}
-                  description="Percentile ranks within the 68-company coverage universe. 50 is the middle of the universe."
+                  description="Percentile ranks within the 229-company coverage universe. 50 is the middle of the universe."
                 />
                 <div className="rounded-xl border border-line bg-surface p-4">
                   <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">

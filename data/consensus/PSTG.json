@@ -1,0 +1,15 @@
+{
+  "ticker": "PSTG",
+  "provider": "Nasdaq analyst consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nasdaq.com/market-activity/stocks/pstg/analyst-research",
+  "targetMean": null,
+  "targetHigh": null,
+  "targetLow": null,
+  "recommendationKey": null,
+  "analystCount": null,
+  "distribution": null,
+  "estimates": [],
+  "history": [],
+  "currentQuarter": null
+}

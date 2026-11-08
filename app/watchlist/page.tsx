@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { WatchlistView, type WatchlistItem } from "@/components/watchlist/watchlist-view";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { JsonLd } from "@/components/seo/json-ld";
-import { getResearchBundles, getUniverse } from "@/lib/data";
+import { getPrices, getUniverse } from "@/lib/data";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -14,8 +14,9 @@ export const metadata: Metadata = {
 
 export default function WatchlistPage() {
   const universe = getUniverse();
-  const bundles = getResearchBundles();
-  const priceMap = new Map(bundles.map((bundle) => [bundle.data.ticker, bundle.prices]));
+  const priceMap = new Map(
+    universe.map((entry) => [entry.ticker, getPrices(entry.ticker, "1Y")]),
+  );
   const items: WatchlistItem[] = universe.map((entry) => ({
     entry,
     prices: priceMap.get(entry.ticker),

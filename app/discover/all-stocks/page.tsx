@@ -7,14 +7,14 @@ import { SectorIcon } from "@/components/sectors/sector-icon";
 import { TabNav } from "@/components/ui/tab-nav";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { JsonLd } from "@/components/seo/json-ld";
-import { getResearchBundles, getUniverse } from "@/lib/data";
+import { getUniverse } from "@/lib/data";
 import { filterUniverse, groupUniverse, parseSort } from "@/lib/discover";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "All stocks",
   description:
-    "The full Stockmonk US coverage universe, grouped by sector, with sourced price, growth, margin and valuation context for 68 companies.",
+    "The full Stockmonk US coverage universe, grouped by sector, with sourced price, growth, margin and valuation context for 229 companies.",
   alternates: { canonical: "/discover/all-stocks" },
   openGraph: {
     title: "All stocks · Stockmonk",
@@ -35,8 +35,6 @@ export default async function AllStocksPage({
   const sort = parseSort(typeof params.sort === "string" ? params.sort : undefined);
 
   const universe = getUniverse();
-  const bundles = getResearchBundles();
-  const priceMap = new Map(bundles.map((bundle) => [bundle.data.ticker, bundle.prices]));
   const filtered = filterUniverse(universe, { q, sector, sort });
   const groups = groupUniverse(filtered);
   const expanded = Boolean(sector || q.trim());
@@ -67,9 +65,9 @@ export default async function AllStocksPage({
                 All Stocks ({universe.length})
               </h1>
               <p className="mt-1 max-w-2xl text-[12.5px] leading-relaxed text-muted">
-                Grouped by editorial sector. Research reports cover ten companies;
-                the rest have sourced profiles with price, key ratios and recent
-                quarters. No ratings, no price targets.
+                Grouped by editorial sector. Every company gets a sourced
+                research report with price, financials, valuation context and
+                risks. No ratings, no price targets.
               </p>
             </div>
             <Link prefetch={false} href="/discover?tab=screens" className="text-[11.5px] font-semibold text-brand hover:text-brand-deep">
@@ -134,11 +132,7 @@ export default async function AllStocksPage({
                   </div>
                   <div className="mt-3 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
                     {visible.map((entry) => (
-                      <StockCardStatic
-                        key={entry.ticker}
-                        entry={entry}
-                        prices={priceMap.get(entry.ticker)}
-                      />
+                      <StockCardStatic key={entry.ticker} entry={entry} />
                     ))}
                   </div>
                   {!expanded && group.entries.length > 3 && (

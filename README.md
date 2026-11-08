@@ -5,8 +5,10 @@ production-style Next.js PWA that explains how a business makes money, charts th
 reported financials, and shows attributed analyst consensus — with **no buy /
 sell / hold ratings and no Stockmonk price targets**.
 
-- **68 companies** in the coverage universe, **10 full research reports**:
-  NVDA, MSFT, AAPL, GOOGL, AMZN, META, AVGO, TSLA, LLY and JPM.
+- **229 companies** in the coverage universe, each with a full ten-section
+  research report. Hand-written narratives cover the original ten core names
+  (NVDA, MSFT, AAPL, GOOGL, AMZN, META, AVGO, TSLA, LLY and JPM); the rest use
+  a consistent generated template driven by the same validated data.
 - Ten sourced article sections, a chart in every analytical section, peer
   comparison, consensus and risk sections.
 - Works offline for visited pages; installable on desktop and mobile.
@@ -61,7 +63,7 @@ Lighthouse difference.
 | `/discover/all-stocks` | Full universe grouped by sector, filters and sort |
 | `/newsfeed` | Data-change feed with category and ticker filters, load more, RSS |
 | `/framework` | Methodology, formulas, peer/valuation approach |
-| `/stocks/[ticker]` | Ten-section research report (research names) or sourced profile (supporting names) |
+| `/stocks/[ticker]` | Ten-section research report for all 229 coverage names |
 | `/watchlist` | Local-first watchlist backed by `localStorage` |
 | `/about`, `/privacy`, `/terms`, `/editorial-guidelines`, `/data-sources` | Editorial and legal pages |
 | `/offline` | Serwist offline fallback |
@@ -72,12 +74,15 @@ Lighthouse difference.
 The data layer is deterministic and idempotent:
 
 ```bash
-pnpm ingest:edgar      # SEC XBRL facts for the research universe
-pnpm ingest:simfin     # SimFin statements + prices, merged with SEC flows
-pnpm ingest:consensus  # Yahoo Finance consensus, cross-checked with Nasdaq
-pnpm ingest:segments   # 10-K segment and geography mixes
-pnpm build:data        # public/data/stocks.json + search-index.json
-pnpm refresh           # run all of the above in order
+pnpm ingest:edgar       # SEC XBRL facts for the research universe
+pnpm ingest:simfin      # SimFin statements + prices, merged with SEC flows
+pnpm ingest:fallback    # SEC + market fallback for names with thin coverage
+pnpm backfill:filings   # copy latest 10-K URLs into processed records
+pnpm ingest:consensus   # Third-party consensus snapshots, cross-checked across providers
+pnpm ingest:segments    # 10-K segment and geography mixes for the core names
+pnpm build:data         # public/data/stocks.json + search-index.json
+pnpm audit:generated    # scan all 229 generated reports for text defects
+pnpm refresh            # run all of the above in order
 ```
 
 Outputs:
@@ -90,10 +95,12 @@ Outputs:
 
 ### How to add a company
 
-1. Add the ticker to `config/universe.ts` (research or supporting) and to the
-   relevant group in `config/sectors.ts`.
-2. Run `pnpm ingest:edgar` if it is a research name, then `pnpm ingest:simfin`,
-   `pnpm ingest:consensus` and `pnpm ingest:segments`.
+1. Add the ticker to the relevant group in `config/coverage.ts`. The research
+   universe in `config/universe.ts` derives from those groups, so one edit is
+   enough.
+2. Run `pnpm ingest:edgar`, `pnpm ingest:simfin`, `pnpm ingest:consensus` and
+   `pnpm ingest:segments` (segments are optional; companies without a segment
+   file use a single consolidated-revenue slice).
 3. Run `pnpm build:data` to regenerate the directory and search index.
 4. If it is a research name, add a story in `content/stocks/{TICKER}.ts` and
    export it from `content/stocks/index.ts`. The article template needs no

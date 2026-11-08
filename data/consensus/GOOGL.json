@@ -1,7 +1,7 @@
 {
   "ticker": "GOOGL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-07",
+  "asOf": "2026-11-08",
   "sourceUrl": "https://finance.yahoo.com/quote/GOOGL/analysis",
   "targetMean": 400.37357,
   "targetHigh": 500,

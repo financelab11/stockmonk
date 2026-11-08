@@ -1,4 +1,5 @@
 import { PEER_BASIS, peersFor } from "@/config/peers";
+import { getCoverageGroup } from "@/config/coverage";
 import { getConsensus, getTicker, type ResearchBundle } from "./data";
 import { formatDate, formatFiscalQuarter } from "./format";
 import type { Consensus, FinancialRow, RangePricePoint } from "./schemas";
@@ -23,9 +24,8 @@ export function buildArticleSources(
     ? `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${cik}&type=10-K&dateb=&owner=include&count=40`
     : "https://www.sec.gov/edgar/search/";
 
-  return [
+  const candidates: Array<Omit<ArticleSource, "id">> = [
     {
-      id: 1,
       name: `${data.name} annual report (Form 10-K)`,
       publisher: "SEC EDGAR",
       url: story.filingUrl,
@@ -33,7 +33,6 @@ export function buildArticleSources(
       note: "Business description, segment mix and risk factors.",
     },
     {
-      id: 2,
       name: "SEC EDGAR filing history",
       publisher: "SEC EDGAR",
       url: filingHistory,
@@ -41,15 +40,13 @@ export function buildArticleSources(
       note: "Annual and quarterly filings behind the financial statements.",
     },
     {
-      id: 3,
-      name: `${data.name} investor relations`,
-      publisher: "Company",
+      name: `${data.name} company filings and investor materials`,
+      publisher: "Company / SEC",
       url: story.irUrl,
       date: "n/a",
-      note: "Company releases and presentations.",
+      note: "Company releases, presentations and filing history.",
     },
     {
-      id: 4,
       name: "Stockmonk methodology",
       publisher: "Stockmonk",
       url: "/framework#methodology",
@@ -57,6 +54,15 @@ export function buildArticleSources(
       note: "Definitions for growth, margins, returns and valuation multiples.",
     },
   ];
+
+  const seen = new Set<string>();
+  const unique = candidates.filter((source) => {
+    if (!source.url || seen.has(source.url)) return false;
+    seen.add(source.url);
+    return true;
+  });
+
+  return unique.map((source, index) => ({ ...source, id: index + 1 }));
 }
 
 export function latestQuarter(data: ResearchBundle["data"]): FinancialRow | null {
@@ -96,7 +102,13 @@ export function buildPeerRows(bundle: ResearchBundle): {
   basis: string;
 } {
   const subject = bundle.data;
-  const peers = peersFor(subject.ticker);
+  const group = getCoverageGroup(subject.ticker);
+  const configured = peersFor(subject.ticker);
+  const peers = (
+    configured.length
+      ? configured
+      : (group?.tickers ?? []).filter((ticker) => ticker !== subject.ticker)
+  ).slice(0, 6);
   const tickers = [subject.ticker, ...peers];
 
   const rows = tickers
@@ -126,7 +138,9 @@ export function buildPeerRows(bundle: ResearchBundle): {
     rows,
     basis:
       PEER_BASIS[subject.ticker] ??
-      "Companies with similar business characteristics in the coverage universe",
+      (group
+        ? `${group.name} companies in the coverage universe`
+        : "Companies with similar business characteristics in the coverage universe"),
   };
 }
 

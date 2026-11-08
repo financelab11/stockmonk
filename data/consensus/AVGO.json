@@ -1,13 +1,13 @@
 {
   "ticker": "AVGO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-07",
+  "asOf": "2026-11-08",
   "sourceUrl": "https://finance.yahoo.com/quote/AVGO/analysis",
-  "targetMean": 526.80835,
+  "targetMean": 533.4238,
   "targetHigh": 660,
-  "targetLow": 215.88,
+  "targetLow": 400,
   "recommendationKey": "strong_buy",
-  "analystCount": 48,
+  "analystCount": 47,
   "distribution": {
     "strongBuy": 8,
     "buy": 41,

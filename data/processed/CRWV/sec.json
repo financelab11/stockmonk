@@ -1,0 +1,240 @@
+{
+  "ticker": "CRWV",
+  "cik": "0001769628",
+  "entityName": "CoreWeave, Inc.",
+  "quarterly": [
+    {
+      "end": "2024-03-31",
+      "fyear": 2024,
+      "period": "Q1",
+      "revenue": 188684000,
+      "grossProfit": 129464000,
+      "operatingIncome": 16847000,
+      "netIncome": -129248000,
+      "epsDiluted": -0.62,
+      "cfo": 2039038000,
+      "capex": 1741935000,
+      "freeCashFlow": 297103000,
+      "da": 79510000,
+      "sbc": 8189000
+    },
+    {
+      "end": "2024-06-30",
+      "fyear": 2024,
+      "period": "Q2",
+      "revenue": 395371000,
+      "grossProfit": 286533000,
+      "operatingIncome": 77721000,
+      "netIncome": -323021000,
+      "epsDiluted": -1.62,
+      "cfo": -117824000,
+      "capex": 2247161000,
+      "freeCashFlow": -2364985000,
+      "da": 164460000,
+      "sbc": 7660000
+    },
+    {
+      "end": "2024-09-30",
+      "fyear": 2024,
+      "period": "Q3",
+      "revenue": 583941000,
+      "grossProfit": 440807000,
+      "operatingIncome": 117116000,
+      "netIncome": -359807000,
+      "epsDiluted": -1.82,
+      "cfo": 641222000,
+      "capex": 1215155000,
+      "freeCashFlow": -573933000,
+      "da": 254024000,
+      "sbc": 7617000
+    },
+    {
+      "end": "2024-12-31",
+      "fyear": 2024,
+      "period": "Q4",
+      "revenue": 747004000,
+      "grossProfit": 565196000,
+      "operatingIncome": 112316000,
+      "netIncome": -50924000,
+      "epsDiluted": -0.24,
+      "cfo": 186564000,
+      "capex": 3497749000,
+      "freeCashFlow": -3311185000,
+      "da": 365006000,
+      "sbc": 7534000
+    },
+    {
+      "end": "2025-03-31",
+      "fyear": 2025,
+      "period": "Q1",
+      "revenue": 982000000,
+      "grossProfit": 720000000,
+      "operatingIncome": -27000000,
+      "netIncome": -315000000,
+      "epsDiluted": -1.49,
+      "cfo": 61000000,
+      "capex": 1407000000,
+      "freeCashFlow": -1346000000,
+      "da": 443000000,
+      "sbc": 184000000
+    },
+    {
+      "end": "2025-06-30",
+      "fyear": 2025,
+      "period": "Q2",
+      "revenue": 1212000000,
+      "grossProfit": 899000000,
+      "operatingIncome": 19000000,
+      "netIncome": -290000000,
+      "epsDiluted": -0.6,
+      "cfo": -251000000,
+      "capex": 2453000000,
+      "freeCashFlow": -2704000000,
+      "da": 560000000,
+      "sbc": 145000000
+    },
+    {
+      "end": "2025-09-30",
+      "fyear": 2025,
+      "period": "Q3",
+      "revenue": 1364676000,
+      "grossProfit": 995852000,
+      "operatingIncome": 51850000,
+      "netIncome": -110124000,
+      "epsDiluted": -0.22,
+      "cfo": 1689051000,
+      "capex": 2389239000,
+      "freeCashFlow": -700188000,
+      "da": 630457000,
+      "sbc": 144409000
+    },
+    {
+      "end": "2025-12-31",
+      "fyear": 2025,
+      "period": "Q4",
+      "revenue": 1571904000,
+      "grossProfit": 1062789000,
+      "operatingIncome": -89589000,
+      "netIncome": null,
+      "epsDiluted": -0.94,
+      "cfo": 1558949000,
+      "capex": 4059761000,
+      "freeCashFlow": -2500812000,
+      "da": 820543000,
+      "sbc": 156591000
+    },
+    {
+      "end": "2026-03-31",
+      "fyear": 2026,
+      "period": "Q1",
+      "revenue": 2078000000,
+      "grossProfit": 1362000000,
+      "operatingIncome": -144000000,
+      "netIncome": -740000000,
+      "epsDiluted": -1.4,
+      "cfo": 2984000000,
+      "capex": 7695000000,
+      "freeCashFlow": -4711000000,
+      "da": 1147000000,
+      "sbc": 153000000
+    },
+    {
+      "end": "2026-06-30",
+      "fyear": 2026,
+      "period": "Q2",
+      "revenue": 2575000000,
+      "grossProfit": 1696000000,
+      "operatingIncome": -49000000,
+      "netIncome": -626000000,
+      "epsDiluted": -1.14,
+      "cfo": 679000000,
+      "capex": 6422000000,
+      "freeCashFlow": -5743000000,
+      "da": 1393000000,
+      "sbc": 165000000
+    }
+  ],
+  "annual": [
+    {
+      "end": "2023-12-31",
+      "fyear": 2023,
+      "revenue": 229000000,
+      "grossProfit": null,
+      "operatingIncome": -14000000,
+      "netIncome": -594000000,
+      "epsDiluted": -3.09,
+      "cfo": 1833000000,
+      "capex": 2943000000,
+      "freeCashFlow": -1110000000,
+      "da": 103000000,
+      "sbc": 15000000
+    },
+    {
+      "end": "2024-12-31",
+      "fyear": 2024,
+      "revenue": 1915000000,
+      "grossProfit": null,
+      "operatingIncome": 324000000,
+      "netIncome": -863000000,
+      "epsDiluted": -4.3,
+      "cfo": 2749000000,
+      "capex": 8702000000,
+      "freeCashFlow": -5953000000,
+      "da": 863000000,
+      "sbc": 31000000
+    },
+    {
+      "end": "2025-12-31",
+      "fyear": 2025,
+      "revenue": 5131000000,
+      "grossProfit": null,
+      "operatingIncome": -46000000,
+      "netIncome": null,
+      "epsDiluted": -2.81,
+      "cfo": 3058000000,
+      "capex": 10309000000,
+      "freeCashFlow": -7251000000,
+      "da": 2454000000,
+      "sbc": 630000000
+    }
+  ],
+  "filings": {
+    "latest10K": {
+      "form": "10-K",
+      "filed": "2026-03-02",
+      "reportDate": "2025-12-31",
+      "accession": "0001769628-26-000104",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+      "items": ""
+    },
+    "latest10Q": {
+      "form": "10-Q",
+      "filed": "2026-08-12",
+      "reportDate": "2026-06-30",
+      "accession": "0001769628-26-000366",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+      "items": ""
+    },
+    "latest8K": {
+      "form": "8-K",
+      "filed": "2026-08-11",
+      "reportDate": "2026-08-11",
+      "accession": "0001769628-26-000362",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/crwv-20260811.htm",
+      "items": "2.02,9.01"
+    },
+    "earningsReleaseUrl": null
+  },
+  "sources": [
+    {
+      "name": "SEC 10-K (2026-03-02)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+      "date": "2026-03-02"
+    },
+    {
+      "name": "SEC 10-Q (2026-08-12)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+      "date": "2026-08-12"
+    }
+  ]
+}

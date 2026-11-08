@@ -15,6 +15,7 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { PRICING, formatPrice } from "@/config/pricing";
 import {
   getAllCompanies,
+  getPrices,
   getResearchBundles,
   getUniverse,
 } from "@/lib/data";
@@ -24,7 +25,7 @@ import { breadcrumbJsonLd } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Discover US companies",
   description:
-    "Browse the Stockmonk coverage universe: featured research, data-quality screens and all 68 US-listed companies with sourced fundamentals.",
+    "Browse the Stockmonk coverage universe: featured research, data-quality screens and all 229 US-listed companies with sourced fundamentals.",
   alternates: { canonical: "/discover" },
   openGraph: {
     title: "Discover US companies · Stockmonk",
@@ -46,16 +47,32 @@ export default async function DiscoverPage({
   const tab = params.tab === "screens" ? "screens" : "featured";
 
   const universe = getUniverse();
-  const bundles = getResearchBundles();
+  const carouselBundles = getResearchBundles(10);
   const companies = getAllCompanies();
-  const priceMap = new Map(bundles.map((bundle) => [bundle.data.ticker, bundle.prices]));
 
-  const filtered = filterUniverse(universe, {
+  const allFiltered = filterUniverse(universe, {
     q,
     sector,
     sort,
     researchOnly: !q.trim(),
   });
+  const pageSize = 24;
+  const requestedPage = Math.max(1, Number(params.page) || 1);
+  const pageCount = Math.max(1, Math.ceil(allFiltered.length / pageSize));
+  const page = Math.min(requestedPage, pageCount);
+  const filtered = allFiltered.slice((page - 1) * pageSize, page * pageSize);
+  const priceMap = new Map(
+    filtered.map((entry) => [entry.ticker, getPrices(entry.ticker, "1Y")]),
+  );
+  const pageHref = (nextPage: number) => {
+    const search = new URLSearchParams();
+    if (q) search.set("q", q);
+    if (sector) search.set("sector", sector);
+    if (sort !== "marketCap") search.set("sort", sort);
+    if (nextPage > 1) search.set("page", String(nextPage));
+    const query = search.toString();
+    return query ? `/discover?${query}` : "/discover";
+  };
 
   const details: Record<string, ScreenDetail> = Object.fromEntries(
     companies.map((company) => [
@@ -82,7 +99,7 @@ export default async function DiscoverPage({
     {
       question: "What is the difference between a report and a profile?",
       answer:
-        "Research reports cover a company in ten sourced sections with charts. Profiles cover a larger universe with price, key ratios, description and recent quarters, but no full narrative report.",
+        "All 229 coverage names receive the full ten-section research template. A small number with insufficient filings or price history may show a lighter data profile.",
     },
     {
       question: "How often is the data updated?",
@@ -151,7 +168,7 @@ export default async function DiscoverPage({
           <div>
             <p className="kicker">Recently researched</p>
             <h2 className="display mt-1 text-[24px] tracking-[-0.02em] text-ink">
-              Ten full reports, one process
+              {universe.length} full reports, one process
             </h2>
           </div>
           <Link prefetch={false} href="/discover/all-stocks" className="text-[11px] font-semibold text-brand hover:text-brand-deep">
@@ -159,7 +176,7 @@ export default async function DiscoverPage({
           </Link>
         </div>
         <div className="mt-3">
-          <RecentlyCarousel bundles={bundles} />
+          <RecentlyCarousel bundles={carouselBundles} />
         </div>
       </section>
 
@@ -184,33 +201,56 @@ export default async function DiscoverPage({
               q={q}
               sector={sector}
               sort={sort}
-              count={filtered.length}
+              count={allFiltered.length}
             />
             <div className="mt-2 flex flex-wrap items-center justify-between gap-2">
               <p className="text-[10.5px] text-muted">
                 {q.trim()
                   ? `Search results across all ${universe.length} companies`
-                  : `Featured research · ${filtered.length} companies`}
+                  : `Featured research · ${allFiltered.length} companies`}
               </p>
               <p className="text-[10.5px] text-muted">
                 Sorted by {sort === "marketCap" ? "market cap" : sort}
               </p>
             </div>
-            {filtered.length === 0 ? (
+            {allFiltered.length === 0 ? (
               <div className="mt-3 rounded-xl border border-dashed border-line bg-surface p-6 text-center">
                 <p className="text-[13px] font-semibold text-ink">No companies match those filters.</p>
                 <p className="mt-1 text-[11.5px] text-muted">Try a broader search or reset the filters.</p>
               </div>
             ) : (
-              <div className="mt-3 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-                {filtered.map((entry) => (
-                  <StockCardStatic
-                    key={entry.ticker}
-                    entry={entry}
-                    prices={priceMap.get(entry.ticker)}
-                  />
-                ))}
-              </div>
+              <>
+                <div className="mt-3 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+                  {filtered.map((entry) => (
+                    <StockCardStatic
+                      key={entry.ticker}
+                      entry={entry}
+                      prices={priceMap.get(entry.ticker)}
+                    />
+                  ))}
+                </div>
+                {pageCount > 1 && (
+                  <nav aria-label="Research pagination" className="mt-5 flex items-center justify-between gap-3">
+                    {page > 1 ? (
+                      <a href={pageHref(page - 1)} className="btn btn-ghost h-9 min-h-0 text-[11px]">
+                        Previous
+                      </a>
+                    ) : (
+                      <span />
+                    )}
+                    <span className="text-[10.5px] text-muted">
+                      Page {page} of {pageCount} · {allFiltered.length} companies
+                    </span>
+                    {page < pageCount ? (
+                      <a href={pageHref(page + 1)} className="btn btn-ghost h-9 min-h-0 text-[11px]">
+                        Next
+                      </a>
+                    ) : (
+                      <span />
+                    )}
+                  </nav>
+                )}
+              </>
             )}
           </div>
         )}

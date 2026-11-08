@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { StockLogo } from "@/components/stock-logo";
+import { StockLogoStatic } from "@/components/stock-logo-static";
 import { formatCompactCurrency, formatMultiple, formatPercent } from "@/lib/format";
 import type { UniverseEntry } from "@/lib/schemas";
 
@@ -117,7 +117,7 @@ export function ScreensPanel({
                     }
                     className="flex items-center gap-2 py-2 hover:text-brand"
                   >
-                    <StockLogo ticker={entry.ticker} size={24} />
+                    <StockLogoStatic ticker={entry.ticker} size={24} />
                     <span className="min-w-0 flex-1">
                       <span className="block truncate text-[11.5px] font-medium text-ink">
                         {entry.name}{" "}

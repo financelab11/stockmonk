@@ -32,8 +32,13 @@ export function StockLogoStatic({
   className?: string;
   priority?: boolean;
 }) {
-  const logoPath = path.join(process.cwd(), "public", "logos", `${ticker}.png`);
-  const exists = fs.existsSync(logoPath);
+  const pngPath = path.join(process.cwd(), "public", "logos", `${ticker}.png`);
+  const svgPath = path.join(process.cwd(), "public", "logos", `${ticker}.svg`);
+  const logoFile = fs.existsSync(pngPath)
+    ? `${ticker}.png`
+    : fs.existsSync(svgPath)
+      ? `${ticker}.svg`
+      : null;
   const color = PALETTE[hash(ticker) % PALETTE.length];
   const initials = ticker.replace(/[^A-Z0-9]/g, "").slice(0, 2);
 
@@ -43,9 +48,9 @@ export function StockLogoStatic({
       style={{ width: size, height: size }}
       aria-hidden="true"
     >
-      {exists ? (
+      {logoFile ? (
         <img
-          src={`/logos/${ticker}.png`}
+          src={`/logos/${logoFile}`}
           alt=""
           width={size}
           height={size}

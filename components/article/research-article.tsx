@@ -528,9 +528,14 @@ export function ResearchArticle({
             <section id="valuation" className="scroll-mt-28 border-b border-line py-9">
               <SectionHeading number="07" id="valuation" title="Valuation" subtitle="What the market is paying, how that compares with history and with peers" />
               <Paragraphs paragraphs={story.valuation.paragraphs} />
-              <div className="mt-5">
-                <LazyValuationChart points={multipleSeries} description="Monthly samples of EV/EBITDA and P/E from the multiple history." />
-              </div>
+              {data.market !== "IN" && (
+                <div className="mt-5">
+                  <LazyValuationChart
+                    points={multipleSeries}
+                    description="Monthly samples of EV/EBITDA and P/E from the multiple history."
+                  />
+                </div>
+              )}
 
               <div className="mt-4 grid gap-3 md:grid-cols-2">
                 <div className="rounded-xl border border-line bg-surface p-4">

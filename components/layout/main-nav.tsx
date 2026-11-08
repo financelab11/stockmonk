@@ -23,6 +23,7 @@ export function MainNav() {
         <div className="invisible absolute left-0 top-full z-50 w-52 translate-y-1 rounded-xl border border-line bg-surface p-1.5 opacity-0 shadow-float transition-all group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100">
           {[
             { href: "/framework", label: "Framework" },
+            { href: "/watchlist", label: "Watchlist" },
             { href: "/about", label: "About" },
             { href: "/editorial-guidelines", label: "Editorial guidelines" },
             { href: "/data-sources", label: "Data sources" },

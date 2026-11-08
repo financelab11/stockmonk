@@ -19,8 +19,6 @@ export const NAV_LINKS = [
   { href: "/discover", label: "Discover" },
   { href: "/india", label: "India Stocks" },
   { href: "/newsfeed", label: "Newsfeed" },
-  { href: "/framework", label: "Framework" },
-  { href: "/watchlist", label: "Watchlist" },
 ] as const;
 
 export const FOOTER_COLUMNS = [

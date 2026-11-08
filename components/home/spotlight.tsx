@@ -14,7 +14,7 @@ export function Spotlight({ bundle, story }: { bundle: ResearchBundle; story: St
       <div className="grid gap-4 lg:grid-cols-[1.05fr_0.95fr]">
         <div className="card p-5 lg:p-6">
           <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-brand">
-            Stock spotlight · rotates daily
+Stock spotlight
           </p>
           <div className="mt-3 flex items-center gap-3">
             <StockLogoStatic ticker={data.ticker} size={48} />

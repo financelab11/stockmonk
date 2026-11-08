@@ -58,13 +58,12 @@ export function ProFeatures() {
   return (
     <section className="container-page py-12" aria-labelledby="pro-features-title">
       <div className="mx-auto max-w-2xl text-center">
-        <p className="kicker">Stockmonk Pro · demo</p>
-        <h2 id="pro-features-title" className="display mt-2 text-[30px] leading-[1.08] tracking-[-0.025em] text-ink sm:text-[38px]">
+        <h2 id="pro-features-title" className="display text-[30px] leading-[1.08] tracking-[-0.025em] text-ink sm:text-[38px]">
           What you get when you go deeper
         </h2>
         <p className="mt-2 text-[13px] leading-relaxed text-muted">
-          A demo of the paid layer. No payment is processed and no account is
-          created.
+          Longer reports, comparison screens and alerts when a filing or estimate
+          changes. The checkout is a mock.
         </p>
       </div>
 

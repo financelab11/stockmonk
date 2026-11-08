@@ -8,7 +8,7 @@ export function SiteHeader() {
       <div className="bg-brand-deep text-white">
         <div className="container-page flex h-7 items-center justify-between text-[10px] font-medium tracking-wide">
           <p className="truncate">
-            Independent research. No ratings. No price targets.
+            Filings, financials and sourced estimates. No recommendations.
           </p>
           <a
             href="/editorial-guidelines"

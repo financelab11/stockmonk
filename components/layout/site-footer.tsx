@@ -22,8 +22,8 @@ export function SiteFooter() {
               <span className="display text-2xl tracking-[-0.03em]">Stockmonk</span>
             </a>
             <p className="mt-4 max-w-xs text-[13px] leading-relaxed text-white/65">
-              Data-first equity research for learners. Plain-language business
-              breakdowns, sourced financials and attributed analyst consensus.
+              Equity research built from filings and financial statements, with
+              the sources shown next to the numbers.
             </p>
             <p className="mt-5 text-[11px] text-white/65">
               Installable PWA · Works offline for visited pages
@@ -58,10 +58,9 @@ export function SiteFooter() {
           </p>
           <p className="mt-2 text-[12px] leading-relaxed text-white/70">{DISCLAIMER}</p>
           <p className="mt-2 text-[11px] leading-relaxed text-white/65">
-            Prices and fundamentals are sourced from SimFin and SEC EDGAR.
-            Analyst consensus is attributed to Yahoo Finance and Nasdaq. Market
-            data is delayed and may not reflect the current price. Nothing on
-            this site is a solicitation or an offer to buy or sell any security.
+            Market data is delayed and may not reflect the current price. Nothing
+            on this site is a solicitation or an offer to buy or sell any
+            security.
           </p>
         </div>
 

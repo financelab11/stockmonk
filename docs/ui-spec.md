@@ -45,7 +45,7 @@ a **multiple the market is currently paying**, with the source named next to it.
 
 ## Layout shell
 
-1. **Utility strip** — "Independent research. No ratings. No price targets."
+1. **Utility strip** — "Filings, financials and sourced estimates. No recommendations."
    links to editorial guidelines and data sources.
 2. **Header** — brand lockup, primary nav (Discover, Newsfeed, Framework,
    Watchlist), search trigger, Pro call-to-action. Sticky with a hairline
@@ -88,8 +88,9 @@ a **multiple the market is currently paying**, with the source named next to it.
 ## Page templates
 
 ### Home
-Hero with editorial thesis, "Start with the research" CTA, recently researched
-cards, market snapshot strip, framework explainer, latest data updates, Pro CTA.
+Hero with an editorial thesis, "Browse the research" CTA, recently researched
+cards, stock spotlight, recent data updates, framework explainer, Pro feature
+rows and a closing Pro CTA.
 
 ### Discover
 Filter rail (sector, research-only, sort), search field, research cards, full

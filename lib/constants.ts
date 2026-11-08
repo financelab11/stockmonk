@@ -3,7 +3,7 @@ export const SITE = {
   legalName: "Stockmonk Research",
   tagline: "Independent equity research for learners.",
   description:
-    "Data-first equity research for US-listed companies. Plain-language business breakdowns, financials, valuation context and attributed analyst consensus — with no ratings and no price targets.",
+    "Equity research built from SEC filings and financial statements: business breakdowns, sourced fundamentals and third-party analyst estimates.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://stockmonk.app",
   email: "hello@stockmonk.app",
   twitter: "@stockmonk",

@@ -18,7 +18,7 @@ export function ProCTA({ context = "article" }: { context?: "article" | "page" }
       <div className="pointer-events-none absolute -bottom-20 left-1/3 size-56 rounded-full bg-[#8b3dff]/30 blur-2xl" />
       <div className="relative">
         <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-white/55">
-          Stockmonk Pro · demo
+          Stockmonk Pro
         </p>
         <h2
           id="pro-cta-title"
@@ -29,9 +29,8 @@ export function ProCTA({ context = "article" }: { context?: "article" | "page" }
             : "Go deeper with Stockmonk Pro."}
         </h2>
         <p className="mt-3 max-w-lg text-[13px] leading-relaxed text-white/70">
-          More reports, comparable-company screens and a watchlist that tells
-          you when the numbers change. This is a product demo — no payment is
-          processed.
+          Longer reports, peer screens and watchlist alerts for new filings and
+          estimate changes. The checkout is a demo: no payment is taken.
         </p>
         <ul className="mt-5 grid gap-2 text-[12px] text-white/80 sm:grid-cols-2">
           {BENEFITS.map((benefit) => {

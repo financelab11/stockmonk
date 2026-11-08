@@ -1,28 +1,15 @@
 import type { Metadata } from "next";
-import {
-  ArrowRight,
-  BookOpenCheck,
-  Database,
-  FileCheck2,
-  LineChart,
-} from "lucide-react";
+import { ArrowRight, BookOpenCheck, Database, FileCheck2 } from "lucide-react";
 import { HeroSearch } from "@/components/home/hero-search";
 import { ProFeatures } from "@/components/home/pro-features";
 import { RecentlyResearched } from "@/components/home/recently-researched";
 import { Spotlight } from "@/components/home/spotlight";
-import { UniverseHistogram } from "@/components/home/universe-histogram";
 import { NewsCard } from "@/components/cards/news-card";
 import { SectionHeader } from "@/components/ui/section-header";
-import { DataSourcesRow } from "@/components/ui/data-sources-row";
 import { ProCTA } from "@/components/ui/pro-cta";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Disclaimer } from "@/components/ui/disclaimer";
-import {
-  getMarketSnapshot,
-  getNewsfeed,
-  getResearchBundles,
-  getUniverse,
-} from "@/lib/data";
+import { getMarketSnapshot, getNewsfeed, getResearchBundles } from "@/lib/data";
 import { getStockStory } from "@/content/stocks";
 import { formatCompactCurrency, formatPercent } from "@/lib/format";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo";
@@ -32,13 +19,12 @@ export const revalidate = 3600;
 export const metadata: Metadata = {
   title: "Stockmonk — Independent equity research for learners",
   description:
-    "Data-first equity research for US-listed companies. Plain-language business breakdowns, sourced financials, attributed analyst consensus, and no ratings or price targets.",
+    "Equity research built from SEC filings and financial statements: business breakdowns, sourced fundamentals and third-party analyst estimates.",
   alternates: { canonical: "/" },
 };
 
 export default function HomePage() {
   const bundles = getResearchBundles();
-  const universe = getUniverse();
   const snapshot = getMarketSnapshot();
   const news = getNewsfeed().slice(0, 3);
   const dayIndex = new Date().getUTCDate() % bundles.length;
@@ -54,22 +40,18 @@ export default function HomePage() {
         <div className="pointer-events-none absolute -right-20 bottom-0 size-[360px] rounded-full bg-[#8b3dff]/30 blur-[110px]" />
         <div className="container-page relative grid items-center gap-8 py-12 lg:grid-cols-[1.1fr_0.9fr] lg:py-16">
           <div className="animate-rise">
-            <p className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/8 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-white/70">
-              <span className="size-1.5 rounded-full bg-[#7ef0c6]" />
-              Independent research · no ratings
-            </p>
             <h1 className="display mt-4 max-w-xl text-[42px] leading-[1.02] tracking-[-0.03em] sm:text-[52px] lg:text-[58px]">
-              Research the business,{" "}
-              <span className="display-italic text-[#c9b8ff]">not the noise.</span>
+              Understand the business.{" "}
+              <span className="display-italic text-[#c9b8ff]">Then the stock.</span>
             </h1>
             <p className="mt-4 max-w-lg text-[14px] leading-relaxed text-white/70 sm:text-[15px]">
-              Stockmonk turns filings and financial statements into plain-language
-              research for US-listed companies. Every number is sourced. Every
-              report explains the business before the valuation.
+              Stockmonk reads annual reports, quarterly filings and financial
+              statements, then lays out what a company sells, how the money moves,
+              and what the market is paying for it.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <a href="/discover" className="btn btn-brand">
-                Get started, it&apos;s free
+                Browse the research
                 <ArrowRight aria-hidden="true" className="size-4" />
               </a>
               <a
@@ -80,12 +62,6 @@ export default function HomePage() {
               </a>
             </div>
             <HeroSearch />
-            <div className="mt-4 flex flex-wrap gap-x-5 gap-y-1.5 text-[10.5px] text-white/55">
-              <span>{snapshot.companyCount} US companies</span>
-              <span>· {snapshot.researchCount} full reports</span>
-              <span>· SimFin + SEC EDGAR</span>
-              <span>· No price targets</span>
-            </div>
           </div>
 
           <div className="relative mx-auto hidden w-full max-w-[400px] sm:block">
@@ -126,54 +102,12 @@ export default function HomePage() {
       <div className="cv-auto">
       <RecentlyResearched bundles={bundles} />
 
-      <section className="container-page py-12" aria-labelledby="data-title">
-        <SectionHeader
-          eyebrow="How our data works"
-          title="The numbers come first"
-          description="We ingest statements and filings, compute the ratios ourselves, and show the source next to every analytical claim. No black-box scores, no invented performance."
-          href="/data-sources"
-          linkLabel="Sources & methodology"
-        />
-        <div className="mt-6 grid gap-4 lg:grid-cols-[0.85fr_1.15fr]">
-          <div className="grid grid-cols-2 gap-2">
-            {[
-              ["Companies covered", String(snapshot.companyCount), "US-listed, 69 names"],
-              ["Full research reports", String(snapshot.researchCount), "Ten sections each"],
-              ["Median revenue growth", formatPercent(snapshot.medianRevenueGrowth), "Trailing twelve months"],
-              ["Median operating margin", formatPercent(snapshot.medianOperatingMargin), "Trailing twelve months"],
-            ].map(([label, value, hint]) => (
-              <div key={label} className="card p-4">
-                <p className="stat-label">{label}</p>
-                <p className="display mt-1 text-[30px] leading-none tracking-[-0.03em] text-ink">{value}</p>
-                <p className="mt-1.5 text-[10.5px] text-muted">{hint}</p>
-              </div>
-            ))}
-            <div className="col-span-2 rounded-xl border border-line bg-surface p-4">
-              <div className="flex items-center gap-2">
-                <LineChart aria-hidden="true" className="size-4 text-brand" />
-                <p className="text-[11.5px] font-semibold text-ink">What the distribution says</p>
-              </div>
-              <p className="mt-1 text-[11px] leading-relaxed text-muted">
-                The universe is not all high-growth software. It includes banks,
-                energy, staples and insurers, so the median is a more honest
-                reference point than the average.
-              </p>
-            </div>
-          </div>
-          <UniverseHistogram entries={universe} />
-        </div>
-        <div className="mt-4">
-          <DataSourcesRow />
-        </div>
-      </section>
-
       {spotlightStory && <Spotlight bundle={spotlight} story={spotlightStory} />}
 
       <section className="container-page py-10" aria-labelledby="latest-title">
         <SectionHeader
-          eyebrow="Latest from the data"
-          title="What changed recently"
-          description="Earnings results, estimate updates and price-range observations generated from the current dataset — not a newsroom."
+          title="Recent updates"
+          description="Earnings, filing changes and estimate revisions from the companies we cover."
           href="/newsfeed"
           linkLabel="Open the newsfeed"
         />
@@ -188,20 +122,14 @@ export default function HomePage() {
         <div className="rounded-2xl bg-coral-soft p-6 sm:p-8">
           <div className="grid gap-5 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
             <div>
-              <p className="kicker">Why Stockmonk exists</p>
-              <h2 className="display mt-2 text-[30px] leading-[1.08] tracking-[-0.025em] text-ink sm:text-[37px]">
-                Investing is changing. Can you keep up?
+              <h2 className="display text-[30px] leading-[1.08] tracking-[-0.025em] text-ink sm:text-[37px]">
+                The business comes before the stock price.
               </h2>
               <p className="mt-3 max-w-xl text-[13px] leading-relaxed text-ink-soft">
                 Most market content tells you what to think. We want to show you
                 how to read the numbers: how a company makes money, what the
                 margins say, how the balance sheet is financed, and what the
                 market is already paying for.
-              </p>
-              <p className="mt-2 max-w-xl text-[13px] leading-relaxed text-ink-soft">
-                That is why Stockmonk publishes no buy, sell or hold ratings and
-                no price targets. A research library should make you a better
-                reader, not a follower.
               </p>
               <a href="/framework" className="btn btn-primary mt-4">
                 See how we analyse a business
@@ -223,27 +151,25 @@ export default function HomePage() {
 
       <section className="container-page py-10" aria-labelledby="different-title">
         <SectionHeader
-          eyebrow="What makes Stockmonk different"
-          title="Built for understanding, not predictions"
-          description="No invented analyst personas, no performance claims, no press-logo wall. Just a repeatable process and visible sources."
+          title="How the research is made"
           align="center"
         />
         <div className="mt-6 grid gap-3 md:grid-cols-3">
           {[
             {
-              icon: Database,
-              title: "Data-first research",
-              body: "Statements, prices and consensus are ingested into typed, validated files. Charts are generated from those fields, not drawn by hand.",
+              icon: FileCheck2,
+              title: "Start with the filing",
+              body: "Business descriptions, segment splits and risk factors come from the latest annual report. The source is linked under each section.",
             },
             {
-              icon: FileCheck2,
-              title: "Filings-based sourcing",
-              body: "Segment mixes, business descriptions and risk factors come from SEC filings. Each section names the filing and the date.",
+              icon: Database,
+              title: "Rebuild the statements",
+              body: "Revenue, margins, cash flow and balance-sheet items are normalised into consistent periods before any ratio is calculated.",
             },
             {
               icon: BookOpenCheck,
-              title: "Transparent methodology",
-              body: "Every formula — growth, margins, ROIC, leverage, percentile screens — is documented in the framework, including caveats.",
+              title: "Show the limits",
+              body: "The framework documents each formula and flags where a metric does not apply, such as free cash flow for a bank.",
             },
           ].map((item, index) => {
             const Icon = item.icon;

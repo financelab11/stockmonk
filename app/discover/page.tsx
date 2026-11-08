@@ -110,7 +110,7 @@ export default async function DiscoverPage({
         <div className="container-page relative grid gap-6 py-9 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
           <div>
             <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-white/55">
-              Stockmonk Pro · demo
+              Stockmonk Pro
             </p>
             <h1 className="display mt-2 max-w-xl text-[34px] leading-[1.04] tracking-[-0.03em] sm:text-[44px]">
               Unlock the full research library.
@@ -248,7 +248,7 @@ export default async function DiscoverPage({
       <section id="pro" className="container-page scroll-mt-24 py-10">
         <div className="grid gap-5 lg:grid-cols-[1fr_420px] lg:items-start">
           <div>
-            <p className="kicker">Stockmonk Pro · demo</p>
+            <p className="kicker">Stockmonk Pro</p>
             <h2 className="display mt-2 text-[30px] leading-[1.08] tracking-[-0.025em] text-ink sm:text-[37px]">
               What Pro gives you
             </h2>

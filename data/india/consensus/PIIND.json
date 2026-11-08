@@ -1,0 +1,92 @@
+{
+  "ticker": "PIIND",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=PIIND",
+  "targetMean": 2359.72,
+  "targetHigh": 5300,
+  "targetLow": 1470,
+  "recommendationKey": "hold",
+  "analystCount": 25,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 14331000000,
+      "revenueGrowth": 0.0417,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 16388000000,
+      "revenueGrowth": 0.047,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 74660000000,
+      "revenueGrowth": 0.1121,
+      "epsAvg": 88.7,
+      "epsGrowth": 0.0848,
+      "analystCount": 14
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 85780000000,
+      "revenueGrowth": 0.1489,
+      "epsAvg": 106.2,
+      "epsGrowth": 0.1973,
+      "analystCount": 24
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 26.41158,
+      "epsEstimate": 22.48485,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 13.2879,
+      "epsEstimate": 20.73343,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 16.1,
+      "epsEstimate": 20.93333,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 8.05,
+      "epsEstimate": 17.75,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 14331000000,
+    "revenueGrowth": 0.0417,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 1
+  }
+}

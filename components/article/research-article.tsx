@@ -109,6 +109,11 @@ export function ResearchArticle({
   related: ResearchBundle[];
 }) {
   const { data, consensus, segments, prices, factors } = bundle;
+  const currency = data.currency ?? "USD";
+  const money = (value: number | null | undefined, digits = 2): string =>
+    formatCurrency(value, digits, currency);
+  const compact = (value: number | null | undefined): string =>
+    formatCompactCurrency(value, currency);
   const sources = buildArticleSources(story, bundle);
   const latest = latestQuarter(data);
   const cagr = computeCagr(data.annual);
@@ -133,6 +138,8 @@ export function ResearchArticle({
       ? data.metrics.evEbitda / peerEv - 1
       : null;
 
+  const stockHref = (ticker: string) =>
+    data.market === "IN" ? `/india/stocks/${ticker}` : `/stocks/${ticker}`;
   const relatedStories = related.filter((item) => item.data.ticker !== data.ticker).slice(0, 3);
 
   const quarters = data.quarterly.filter((row) => !row.ttm).slice(-6);
@@ -144,9 +151,19 @@ export function ResearchArticle({
           <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-1.5 text-[10.5px] text-muted">
             <Link href="/" className="hover:text-ink">Home</Link>
             <span aria-hidden="true">›</span>
-            <Link href="/discover" className="hover:text-ink">Discover</Link>
+            <Link
+              href={data.market === "IN" ? "/india" : "/discover"}
+              className="hover:text-ink"
+            >
+              {data.market === "IN" ? "India Stocks" : "Discover"}
+            </Link>
             <span aria-hidden="true">›</span>
-            <Link href={`/discover?tab=all-stocks`} className="hover:text-ink">{data.sector}</Link>
+            <Link
+              href={data.market === "IN" ? "/india/all-stocks" : "/discover?tab=all-stocks"}
+              className="hover:text-ink"
+            >
+              {data.sector}
+            </Link>
             <span aria-hidden="true">›</span>
             <span className="text-ink">{data.ticker}</span>
           </nav>
@@ -189,9 +206,9 @@ export function ResearchArticle({
           </div>
 
           <div className="mt-6 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-7">
-            <StatTile label="Last close" value={formatCurrency(data.latestPrice.close)} hint={<PriceChange value={data.latestPrice.changePct} />} />
-            <StatTile label="Market cap" value={formatCompactCurrency(data.latestPrice.marketCap)} />
-            <StatTile label="Revenue TTM" value={formatCompactCurrency(data.metrics.revenueTtm)} hint={`${formatPercent(data.metrics.revenueGrowthTtm)} YoY`} />
+            <StatTile label="Last close" value={money(data.latestPrice.close)} hint={<PriceChange value={data.latestPrice.changePct} />} />
+            <StatTile label="Market cap" value={compact(data.latestPrice.marketCap)} />
+            <StatTile label="Revenue TTM" value={compact(data.metrics.revenueTtm)} hint={`${formatPercent(data.metrics.revenueGrowthTtm)} YoY`} />
             <StatTile label="Operating margin" value={formatPercent(data.metrics.operatingMargin)} />
             <StatTile label="P/E (TTM)" value={formatMultiple(data.metrics.pe)} />
             <StatTile label="EV/EBITDA" value={formatMultiple(data.metrics.evEbitda)} />
@@ -222,7 +239,12 @@ export function ResearchArticle({
                 </blockquote>
               )}
               <div className="mt-5">
-                <LazyPriceChart ticker={data.ticker} initialData={prices} />
+                <LazyPriceChart
+                  ticker={data.ticker}
+                  initialData={prices}
+                  currency={currency}
+                  priceBasePath={data.market === "IN" ? "/data/india/prices" : "/data/prices"}
+                />
               </div>
               <div className="mt-4 rounded-xl border border-line bg-surface p-4">
                 <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
@@ -233,6 +255,7 @@ export function ResearchArticle({
                   high={data.latestPrice.high52}
                   current={data.latestPrice.close}
                   position={bundle.rangePosition}
+                  currency={currency}
                 />
                 <p className="mt-2 text-[10.5px] leading-relaxed text-muted">
                   Trades at {Math.round(cyclePosition * 100)}% of the 52-week range.
@@ -283,13 +306,15 @@ export function ResearchArticle({
                   <LazyMixDonut
                     data={segments.segments}
                     title={`Revenue mix by ${segments.segmentLabel.toLowerCase()}`}
-                    description={`Latest 10-K disclosure dated ${formatDate(segments.asOf)}.`}
+                    description={`Latest annual disclosure dated ${formatDate(segments.asOf)}.`}
+                    currency={currency}
                   />
                   <div className="rounded-xl border border-line bg-surface p-4">
                     <SegmentBars
                       slices={segments.segments}
                       label={segments.segmentLabel}
                       total={segments.segments.reduce((sum, slice) => sum + slice.revenue, 0)}
+                      currency={currency}
                     />
                   </div>
                 </div>
@@ -306,14 +331,14 @@ export function ResearchArticle({
                       return (
                         <Link
                           key={row.ticker}
-                          href={`/stocks/${row.ticker}`}
+                          href={stockHref(row.ticker)}
                           className="card-flat flex items-center gap-2.5 p-3 hover:border-brand/40"
                         >
                           <StockLogoStatic ticker={row.ticker} size={30} />
                           <span className="min-w-0 flex-1">
                             <span className="block truncate text-[11.5px] font-semibold text-ink">{row.name}</span>
                             <span className="block text-[10px] text-muted">
-                              {row.ticker} · {formatCompactCurrency(row.marketCap)}
+                              {row.ticker} · {compact(row.marketCap)}
                             </span>
                           </span>
                           <ArrowUpRight aria-hidden="true" className="size-3.5 text-faint" />
@@ -334,13 +359,15 @@ export function ResearchArticle({
                       slices={segments.segments}
                       label={`${segments.segmentLabel} · revenue`}
                       total={segments.segments.reduce((sum, slice) => sum + slice.revenue, 0)}
+                      currency={currency}
                     />
                   </div>
                   {segments.geography.length > 0 && (
                     <LazyMixDonut
                       data={segments.geography}
                       title={segments.geographyLabel ?? "Geography"}
-                      description="Revenue by billing location from the latest 10-K."
+                      description="Revenue by billing location from the latest annual report."
+                      currency={currency}
                     />
                   )}
                 </div>
@@ -350,7 +377,7 @@ export function ResearchArticle({
                   Revenue quality
                 </p>
                 <div className="mt-1">
-                  <DataRow label="Revenue TTM" value={formatCompactCurrency(data.metrics.revenueTtm)} />
+                  <DataRow label="Revenue TTM" value={compact(data.metrics.revenueTtm)} />
                   <DataRow label="Gross margin" value={formatPercent(data.metrics.grossMargin)} />
                   <DataRow label="Operating margin" value={formatPercent(data.metrics.operatingMargin)} />
                   <DataRow label="Net margin" value={formatPercent(data.metrics.netMargin)} />
@@ -377,6 +404,7 @@ export function ResearchArticle({
                   points={quarterSeries}
                   title="Quarterly revenue and year-over-year growth"
                   description="Discrete quarterly revenue from reported statements; bars are revenue, line is YoY growth."
+                  currency={currency}
                 />
               </div>
               <div className="mt-4 rounded-xl border border-line bg-surface p-4">
@@ -388,7 +416,7 @@ export function ResearchArticle({
                     <DataRow
                       key={estimate.period}
                       label={estimate.period}
-                      value={`${formatCompactCurrency(estimate.revenue)} rev · ${formatCurrency(estimate.eps)} EPS`}
+                      value={`${compact(estimate.revenue)} rev · ${money(estimate.eps)} EPS`}
                       hint={estimate.endDate ? formatDate(estimate.endDate) : undefined}
                     />
                   ))}
@@ -415,13 +443,13 @@ export function ResearchArticle({
                   </p>
                   <p className="mt-1 text-[12.5px] leading-relaxed text-ink-soft">
                     {formatFiscalQuarter(latest.period, latest.fyear)} revenue was{" "}
-                    <strong>{formatCompactCurrency(latest.revenue)}</strong>
+                    <strong>{compact(latest.revenue)}</strong>
                     {bundle.latestQYoY != null ? `, ${formatSignedPercent(bundle.latestQYoY)} year over year` : ""}.
                     Operating margin was <strong>{formatPercent(latest.operatingMargin)}</strong>
-                    {latest.epsDiluted != null ? ` and diluted EPS was ${formatCurrency(latest.epsDiluted)}` : ""}.
+                    {latest.epsDiluted != null ? ` and diluted EPS was ${money(latest.epsDiluted)}` : ""}.
                   </p>
                   <ul className="mt-2 space-y-1 text-[11.5px] leading-relaxed text-ink-soft">
-                    <li>• Revenue base: {formatCompactCurrency(data.metrics.revenueTtm)} on a trailing basis.</li>
+                    <li>• Revenue base: {compact(data.metrics.revenueTtm)} on a trailing basis.</li>
                     <li>• Growth: {formatPercent(data.metrics.revenueGrowthTtm)} trailing revenue growth; {formatPercent(bundle.latestQYoY)} in the latest quarter.</li>
                     <li>• Profitability: {formatPercent(data.metrics.operatingMargin)} operating margin and {formatPercent(data.metrics.netMargin)} net margin.</li>
                     <li>• Cash conversion: {formatPercent(data.metrics.fcfMargin)} free-cash-flow margin.</li>
@@ -453,10 +481,10 @@ export function ResearchArticle({
                     {quarters.map((row) => (
                       <tr key={`${row.period}-${row.fyear}`}>
                         <td className="font-medium text-ink">{formatFiscalQuarter(row.period, row.fyear)}</td>
-                        <td className="text-right">{formatCompactCurrency(row.revenue)}</td>
+                        <td className="text-right">{compact(row.revenue)}</td>
                         <td className="text-right">{formatPercent(row.operatingMargin)}</td>
                         <td className="text-right">{formatPercent(row.netMargin)}</td>
-                        <td className="text-right">{row.epsDiluted != null ? formatCurrency(row.epsDiluted) : "n/a"}</td>
+                        <td className="text-right">{row.epsDiluted != null ? money(row.epsDiluted) : "n/a"}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -468,16 +496,20 @@ export function ResearchArticle({
               <SectionHeading number="06" id="cash-and-balance-sheet" title="Cash flow and balance sheet" subtitle="How much cash the business generates and how it is financed" />
               <Paragraphs paragraphs={story.cash.paragraphs} />
               <div className="mt-5">
-                <LazyCashFlowChart points={cashSeries} description="Annual free cash flow and capital expenditure. Capex is shown as a positive outflow." />
+                <LazyCashFlowChart
+                  points={cashSeries}
+                  description="Annual free cash flow and capital expenditure. Capex is shown as a positive outflow."
+                  currency={currency}
+                />
               </div>
               <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-4">
-                <StatTile label="Cash & investments" value={formatCompactCurrency(data.ttm?.cashAndInvestments)} />
-                <StatTile label="Total debt" value={formatCompactCurrency(data.ttm?.totalDebt)} />
+                <StatTile label="Cash & investments" value={compact(data.ttm?.cashAndInvestments)} />
+                <StatTile label="Total debt" value={compact(data.ttm?.totalDebt)} />
                 <StatTile
                   label={data.metrics.netDebt != null && data.metrics.netDebt < 0 ? "Net cash" : "Net debt"}
                   value={
                     data.metrics.netDebt != null
-                      ? formatCompactCurrency(Math.abs(data.metrics.netDebt))
+                      ? compact(Math.abs(data.metrics.netDebt))
                       : "n/a"
                   }
                   tone={data.metrics.netDebt != null && data.metrics.netDebt < 0 ? "positive" : "default"}
@@ -533,7 +565,7 @@ export function ResearchArticle({
                 </p>
                 <p className="mt-1 text-[12px] leading-relaxed text-ink-soft">{basis}.</p>
                 <div className="mt-3">
-                  <PeerTable rows={peerRows} />
+                  <PeerTable rows={peerRows} currency={currency} />
                 </div>
                 <div className="mt-3">
                   <LazyPeerBarChart
@@ -562,10 +594,18 @@ export function ResearchArticle({
               <SectionHeading number="08" id="analysts" title="What analysts expect" subtitle="Third-party consensus, shown with the date it was collected" />
               <Paragraphs paragraphs={story.analysts.paragraphs} />
               <div className="mt-5">
-                <ConsensusPanel consensus={consensus} price={data.latestPrice.close} />
+                <ConsensusPanel
+                  consensus={consensus}
+                  price={data.latestPrice.close}
+                  currency={currency}
+                />
               </div>
               <div className="mt-4">
-                <LazySurpriseChart points={surprise} description="Reported EPS versus the consensus estimate for the last reported quarters. Estimates can be adjusted and may not match the company's own adjusted figure." />
+                <LazySurpriseChart
+                  points={surprise}
+                  description="Reported EPS versus the consensus estimate for the last reported quarters. Estimates can be adjusted and may not match the company's own adjusted figure."
+                  currency={currency}
+                />
               </div>
               <p className="mt-3 text-[10.5px] leading-relaxed text-muted">
                 Guidance is not machine-readable from the filings used here, so
@@ -668,7 +708,7 @@ export function ResearchArticle({
                 {relatedStories.map((item) => (
                   <Link
                     key={item.data.ticker}
-                    href={`/stocks/${item.data.ticker}`}
+                    href={stockHref(item.data.ticker)}
                     className="card-flat p-3 transition-shadow hover:shadow-md"
                   >
                     <div className="flex items-center gap-2">

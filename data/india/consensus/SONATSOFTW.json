@@ -1,0 +1,92 @@
+{
+  "ticker": "SONATSOFTW",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=SONATSOFTW",
+  "targetMean": 310.57144,
+  "targetHigh": 340,
+  "targetLow": 260,
+  "recommendationKey": "none",
+  "analystCount": 7,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": null,
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 0
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 0
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 116443000000,
+      "revenueGrowth": 0.0881,
+      "epsAvg": 17.52857,
+      "epsGrowth": -0.048299998,
+      "analystCount": 7
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 128688857140,
+      "revenueGrowth": 0.10520001,
+      "epsAvg": 20.72857,
+      "epsGrowth": 0.1826,
+      "analystCount": 7
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 4.5954,
+      "epsEstimate": 4.325,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 5.5838,
+      "epsEstimate": 4.525,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 3.91,
+      "epsEstimate": 5.075,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 4.21,
+      "epsEstimate": 4.38,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": null,
+    "revenueAvg": 0,
+    "revenueGrowth": null,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 0
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "ticker": "KFINTECH",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=KFINTECH",
+  "targetMean": 1090.8823,
+  "targetHigh": 1250,
+  "targetLow": 897,
+  "recommendationKey": "strong_buy",
+  "analystCount": 17,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 4224000000,
+      "revenueGrowth": 0.1389,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 4354000000,
+      "revenueGrowth": 0.2536,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 15839695810,
+      "revenueGrowth": 0.21700001,
+      "epsAvg": 22.70531,
+      "epsGrowth": 0.1161,
+      "analystCount": 17
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 18453176720,
+      "revenueGrowth": 0.165,
+      "epsAvg": 27.48134,
+      "epsGrowth": 0.21030001,
+      "analystCount": 17
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 5.6621,
+      "epsEstimate": 5.4,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 4.67,
+      "epsEstimate": 4.3,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 4.34,
+      "epsEstimate": 4.3,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 5.78,
+      "epsEstimate": 5.7,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 4224000000,
+    "revenueGrowth": 0.1389,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 1
+  }
+}

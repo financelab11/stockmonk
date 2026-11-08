@@ -1,0 +1,84 @@
+{
+  "ticker": "MOIL",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=MOIL",
+  "targetMean": 299,
+  "targetHigh": 320,
+  "targetLow": 270,
+  "recommendationKey": "buy",
+  "analystCount": 3,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-09-30",
+      "revenueAvg": 4277000000,
+      "revenueGrowth": 0.2289,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Following quarter",
+      "endDate": null,
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 0
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 17690000000,
+      "revenueGrowth": 0.2011,
+      "epsAvg": 18.46667,
+      "epsGrowth": 0.4054,
+      "analystCount": 3
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 19878333330,
+      "revenueGrowth": 0.1237,
+      "epsAvg": 23.06667,
+      "epsGrowth": 0.2491,
+      "analystCount": 3
+    }
+  ],
+  "history": [
+    {
+      "quarter": "2Q2026",
+      "endDate": "2025-09-30",
+      "epsActual": 3.46,
+      "epsEstimate": 2.6,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 4.55,
+      "epsEstimate": 5,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 4.31,
+      "epsEstimate": 2,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-09-30",
+    "revenueAvg": 4277000000,
+    "revenueGrowth": 0.2289,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 1
+  }
+}

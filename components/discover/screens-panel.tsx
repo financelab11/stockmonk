@@ -24,9 +24,11 @@ function screen(
 export function ScreensPanel({
   entries,
   details,
+  currency = "USD",
 }: {
   entries: UniverseEntry[];
   details: Record<string, ScreenDetail>;
+  currency?: string;
 }) {
   const detail = (ticker: string): ScreenDetail =>
     details[ticker] ?? { fcfMargin: null, netDebt: null, roic: null };
@@ -69,7 +71,7 @@ export function ScreensPanel({
       "Net cash balance sheets",
       "Companies whose cash and investments exceed total debt.",
       (entry) =>
-        `Net cash ${formatCompactCurrency(Math.abs(detail(entry.ticker).netDebt ?? 0))}`,
+        `Net cash ${formatCompactCurrency(Math.abs(detail(entry.ticker).netDebt ?? 0), currency)}`,
       (entry) => {
         const value = detail(entry.ticker).netDebt;
         return value != null && value < 0;
@@ -108,7 +110,11 @@ export function ScreensPanel({
               {item.entries.map((entry) => (
                 <li key={entry.ticker}>
                   <Link
-                    href={`/stocks/${entry.ticker}`}
+                    href={
+                      entry.market === "IN"
+                        ? `/india/stocks/${entry.ticker}`
+                        : `/stocks/${entry.ticker}`
+                    }
                     className="flex items-center gap-2 py-2 hover:text-brand"
                   >
                     <StockLogo ticker={entry.ticker} size={24} />

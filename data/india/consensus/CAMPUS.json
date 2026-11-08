@@ -1,0 +1,92 @@
+{
+  "ticker": "CAMPUS",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=CAMPUS",
+  "targetMean": 287.57144,
+  "targetHigh": 321,
+  "targetLow": 237,
+  "recommendationKey": "none",
+  "analystCount": 7,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 7059000000,
+      "revenueGrowth": 0.1993,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 5173000000,
+      "revenueGrowth": 0.1354,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 20464166670,
+      "revenueGrowth": 0.1535,
+      "epsAvg": 5.78,
+      "epsGrowth": 0.17719999,
+      "analystCount": 6
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 22853498520,
+      "revenueGrowth": 0.1168,
+      "epsAvg": 6.85877,
+      "epsGrowth": 0.1866,
+      "analystCount": 7
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 2.07,
+      "epsEstimate": 1.8,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 1.44,
+      "epsEstimate": 1.3,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 0.86,
+      "epsEstimate": 0.8,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 0.79,
+      "epsEstimate": 0.8,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 7059000000,
+    "revenueGrowth": 0.1993,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 1
+  }
+}

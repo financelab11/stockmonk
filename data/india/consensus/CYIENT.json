@@ -1,0 +1,92 @@
+{
+  "ticker": "CYIENT",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=CYIENT",
+  "targetMean": 1220.5714,
+  "targetHigh": 1435,
+  "targetLow": 982,
+  "recommendationKey": "buy",
+  "analystCount": 21,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 18563000000,
+      "revenueGrowth": 0.0042,
+      "epsAvg": 17.30344,
+      "epsGrowth": 0.5852,
+      "analystCount": 1
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 18934000000,
+      "revenueGrowth": -0.0174,
+      "epsAvg": 19.44252,
+      "epsGrowth": 1.0802,
+      "analystCount": 1
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 91771170570,
+      "revenueGrowth": 2.8832002,
+      "epsAvg": 54.24327,
+      "epsGrowth": 0.2177,
+      "analystCount": 16
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 104283534640,
+      "revenueGrowth": 0.5832,
+      "epsAvg": 72.15022,
+      "epsGrowth": 0.33009997,
+      "analystCount": 16
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 10.9158,
+      "epsEstimate": 13.55102,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 9.3464,
+      "epsEstimate": 14.40537,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 9.37,
+      "epsEstimate": 12.7335,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 11.47,
+      "epsEstimate": 12.63158,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 18563000000,
+    "revenueGrowth": 0.0042,
+    "epsAvg": 17.30344,
+    "epsGrowth": 0.5852,
+    "analystCount": 1
+  }
+}

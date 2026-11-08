@@ -36,11 +36,15 @@ export default function PriceChart({
   initialRange = "1Y",
   initialData,
   height = 340,
+  currency = "USD",
+  priceBasePath = "/data/prices",
 }: {
   ticker: string;
   initialRange?: PriceRange;
   initialData: RangePricePoint[];
   height?: number;
+  currency?: string;
+  priceBasePath?: string;
 }) {
   const [range, setRange] = useState<PriceRange>(initialRange);
   const [mode, setMode] = useState<Mode>("area");
@@ -62,7 +66,7 @@ export default function PriceChart({
     let cancelled = false;
     setLoading(true);
     setFailed(false);
-    fetch(`/data/prices/${ticker}/${range}.json`)
+    fetch(`${priceBasePath}/${ticker}/${range}.json`)
       .then((response) => {
         if (!response.ok) throw new Error("Price data unavailable");
         return response.json() as Promise<RangePricePoint[]>;
@@ -224,7 +228,7 @@ export default function PriceChart({
           {summary && (
             <div className="flex items-baseline gap-2 text-[11px]">
               <span className="tabular font-semibold text-white">
-                {formatCurrency(summary.last)}
+                {formatCurrency(summary.last, 2, currency)}
               </span>
               <span
                 className={`tabular font-semibold ${

@@ -1,0 +1,92 @@
+{
+  "ticker": "FIVESTAR",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=FIVESTAR",
+  "targetMean": 647.7,
+  "targetHigh": 747,
+  "targetLow": 570,
+  "recommendationKey": "strong_buy",
+  "analystCount": 10,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 7459000000,
+      "revenueGrowth": 0.17709999,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 7796000000,
+      "revenueGrowth": 0.2093,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 29215888890,
+      "revenueGrowth": 0.16450001,
+      "epsAvg": 41.24565,
+      "epsGrowth": 0.1073,
+      "analystCount": 9
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 35311777780,
+      "revenueGrowth": 0.2086,
+      "epsAvg": 51.3,
+      "epsGrowth": 0.2299,
+      "analystCount": 9
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 9.38,
+      "epsEstimate": 9.6,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 9.16,
+      "epsEstimate": 9.9,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 9.18,
+      "epsEstimate": 9.1,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 10.13,
+      "epsEstimate": 9.4,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 7459000000,
+    "revenueGrowth": 0.17709999,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 1
+  }
+}

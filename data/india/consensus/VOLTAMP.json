@@ -1,0 +1,92 @@
+{
+  "ticker": "VOLTAMP",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=VOLTAMP",
+  "targetMean": 11342.875,
+  "targetHigh": 12600,
+  "targetLow": 10398,
+  "recommendationKey": "buy",
+  "analystCount": 8,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 7078000000,
+      "revenueGrowth": 0.1229,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 7228000000,
+      "revenueGrowth": 0.171,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 26636000000,
+      "revenueGrowth": 0.2368,
+      "epsAvg": 350.4,
+      "epsGrowth": 0.1608,
+      "analystCount": 5
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 30502285710,
+      "revenueGrowth": 0.1452,
+      "epsAvg": 408.67142,
+      "epsGrowth": 0.1663,
+      "analystCount": 7
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 97.94,
+      "epsEstimate": 77.9,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 47.35,
+      "epsEstimate": 93.6,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 90.17,
+      "epsEstimate": 64.4,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 84.1,
+      "epsEstimate": 93.9,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 7078000000,
+    "revenueGrowth": 0.1229,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 1
+  }
+}

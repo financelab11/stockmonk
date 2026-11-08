@@ -13,9 +13,11 @@ import { Info } from "lucide-react";
 export function ConsensusPanel({
   consensus,
   price,
+  currency = "USD",
 }: {
   consensus: Consensus | null;
   price: number | null;
+  currency?: string;
 }) {
   if (!consensus) {
     return (
@@ -52,10 +54,11 @@ export function ConsensusPanel({
         <div>
           <p className="stat-label">Mean target</p>
           <p className="tabular mt-1 text-[20px] font-semibold text-ink">
-            {formatCurrency(consensus.targetMean)}
+            {formatCurrency(consensus.targetMean, 2, currency)}
           </p>
           <p className="mt-0.5 text-[10px] text-muted">
-            Range {formatCurrency(consensus.targetLow)} – {formatCurrency(consensus.targetHigh)}
+            Range {formatCurrency(consensus.targetLow, 2, currency)} –{" "}
+            {formatCurrency(consensus.targetHigh, 2, currency)}
           </p>
         </div>
         <div>
@@ -131,9 +134,11 @@ export function ConsensusPanel({
             {estimates.map((estimate) => (
               <tr key={estimate.period}>
                 <td className="font-medium text-ink">{estimate.period}</td>
-                <td>{formatCompactCurrency(estimate.revenue)}</td>
+                <td>{formatCompactCurrency(estimate.revenue, currency)}</td>
                 <td>{formatPercent(estimate.revenueGrowth)}</td>
-                <td>{estimate.eps != null ? formatCurrency(estimate.eps) : "n/a"}</td>
+                <td>
+                  {estimate.eps != null ? formatCurrency(estimate.eps, 2, currency) : "n/a"}
+                </td>
                 <td>{formatPercent(estimate.epsGrowth)}</td>
                 <td>{estimate.analysts ?? "n/a"}</td>
               </tr>

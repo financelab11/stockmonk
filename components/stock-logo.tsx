@@ -26,11 +26,13 @@ export function StockLogo({
   size = 40,
   className = "",
   priority = false,
+  hideLogo = false,
 }: {
   ticker: string;
   size?: number;
   className?: string;
   priority?: boolean;
+  hideLogo?: boolean;
 }) {
   const color = PALETTE[hash(ticker) % PALETTE.length];
   const initials = ticker.replace(/[^A-Z0-9]/g, "").slice(0, 2);
@@ -47,15 +49,17 @@ export function StockLogo({
       >
         {initials}
       </span>
-      <img
-        src={`/logos/${ticker}.png`}
-        alt=""
-        width={size}
-        height={size}
-        loading={priority ? "eager" : "lazy"}
-        decoding="async"
-        className="relative size-full bg-white object-contain p-[16%]"
-      />
+      {!hideLogo && (
+        <img
+          src={`/logos/${ticker}.png`}
+          alt=""
+          width={size}
+          height={size}
+          loading={priority ? "eager" : "lazy"}
+          decoding="async"
+          className="relative size-full bg-white object-contain p-[16%]"
+        />
+      )}
     </span>
   );
 }

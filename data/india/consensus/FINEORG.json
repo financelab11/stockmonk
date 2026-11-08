@@ -1,0 +1,92 @@
+{
+  "ticker": "FINEORG",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=FINEORG",
+  "targetMean": 5459.273,
+  "targetHigh": 6629,
+  "targetLow": 4007,
+  "recommendationKey": "buy",
+  "analystCount": 11,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 6026000000,
+      "revenueGrowth": 0.0861,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 2
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 6613500000,
+      "revenueGrowth": 0.057600003,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 2
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 27235000000,
+      "revenueGrowth": 0.1512,
+      "epsAvg": 162.625,
+      "epsGrowth": 0.21110001,
+      "analystCount": 7
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 29206555560,
+      "revenueGrowth": 0.072399996,
+      "epsAvg": 160.07,
+      "epsGrowth": -0.015700001,
+      "analystCount": 9
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 24.11,
+      "epsEstimate": 30.5,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 38.32,
+      "epsEstimate": 27.8,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 45.06,
+      "epsEstimate": 38.7,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 49.62,
+      "epsEstimate": 44.6,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 6026000000,
+    "revenueGrowth": 0.0861,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 2
+  }
+}

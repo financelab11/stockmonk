@@ -1,0 +1,92 @@
+{
+  "ticker": "INTELLECT",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=INTELLECT",
+  "targetMean": 734.25,
+  "targetHigh": 860,
+  "targetLow": 667,
+  "recommendationKey": "strong_buy",
+  "analystCount": 4,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 8497000000,
+      "revenueGrowth": 0.1618,
+      "epsAvg": 6.8,
+      "epsGrowth": 0.8847,
+      "analystCount": 1
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 0
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 34547250000,
+      "revenueGrowth": 0.1371,
+      "epsAvg": 29.975,
+      "epsGrowth": 0.156,
+      "analystCount": 4
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 38751500000,
+      "revenueGrowth": 0.121700004,
+      "epsAvg": 37.025,
+      "epsGrowth": 0.2352,
+      "analystCount": 4
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 3.608,
+      "epsEstimate": 7.7,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 8.48,
+      "epsEstimate": 6.95,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 7.19,
+      "epsEstimate": 8.36667,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 7.32,
+      "epsEstimate": 7.85,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 8497000000,
+    "revenueGrowth": 0.1618,
+    "epsAvg": 6.8,
+    "epsGrowth": 0.8847,
+    "analystCount": 1
+  }
+}

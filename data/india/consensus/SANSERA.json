@@ -1,0 +1,92 @@
+{
+  "ticker": "SANSERA",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=SANSERA",
+  "targetMean": 4219.154,
+  "targetHigh": 5350,
+  "targetLow": 2500,
+  "recommendationKey": "buy",
+  "analystCount": 13,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 10761063000,
+      "revenueGrowth": 0.1856,
+      "epsAvg": 17.4,
+      "epsGrowth": 0.5775,
+      "analystCount": 1
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 11529397000,
+      "revenueGrowth": 0.15439999,
+      "epsAvg": 19.9,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 43101373000,
+      "revenueGrowth": 0.2322,
+      "epsAvg": 71.01,
+      "epsGrowth": 0.3158,
+      "analystCount": 7
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 51122420830,
+      "revenueGrowth": 0.1861,
+      "epsAvg": 90.18909,
+      "epsGrowth": 0.2701,
+      "analystCount": 12
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 12.9334,
+      "epsEstimate": 12.55,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 19.45,
+      "epsEstimate": 14,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 15.8391,
+      "epsEstimate": 15.45,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 17.24,
+      "epsEstimate": 17.35,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 10761063000,
+    "revenueGrowth": 0.1856,
+    "epsAvg": 17.4,
+    "epsGrowth": 0.5775,
+    "analystCount": 1
+  }
+}

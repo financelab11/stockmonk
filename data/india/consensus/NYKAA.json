@@ -1,0 +1,92 @@
+{
+  "ticker": "NYKAA",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=NYKAA",
+  "targetMean": 357.8846,
+  "targetHigh": 431,
+  "targetLow": 220,
+  "recommendationKey": "buy",
+  "analystCount": 26,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 37628554000,
+      "revenueGrowth": 0.3096,
+      "epsAvg": 0.54925,
+      "epsGrowth": 1.1531,
+      "analystCount": 3
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 34573959330,
+      "revenueGrowth": 0.3056,
+      "epsAvg": 0.54067,
+      "epsGrowth": 1.0025,
+      "analystCount": 3
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 128086373570,
+      "revenueGrowth": 0.278,
+      "epsAvg": 1.64209,
+      "epsGrowth": 1.226,
+      "analystCount": 23
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 161137528420,
+      "revenueGrowth": 0.258,
+      "epsAvg": 2.92693,
+      "epsGrowth": 0.78239995,
+      "analystCount": 25
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 0.2551,
+      "epsEstimate": 0.23,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 0.27,
+      "epsEstimate": 0.22518,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 0.28,
+      "epsEstimate": 0.29663,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 0.35,
+      "epsEstimate": 0.34695,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 37628554000,
+    "revenueGrowth": 0.3096,
+    "epsAvg": 0.54925,
+    "epsGrowth": 1.1531,
+    "analystCount": 3
+  }
+}

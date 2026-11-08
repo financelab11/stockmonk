@@ -1,0 +1,92 @@
+{
+  "ticker": "MEDANTA",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=MEDANTA",
+  "targetMean": 1630.8422,
+  "targetHigh": 1799,
+  "targetLow": 1550,
+  "recommendationKey": "strong_buy",
+  "analystCount": 19,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 12954000000,
+      "revenueGrowth": 0.1555,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 14972000000,
+      "revenueGrowth": 0.2918,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 55371073300,
+      "revenueGrowth": 0.2555,
+      "epsAvg": 28.24629,
+      "epsGrowth": 0.3653,
+      "analystCount": 15
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 62806672120,
+      "revenueGrowth": 0.13430001,
+      "epsAvg": 34.53652,
+      "epsGrowth": 0.2227,
+      "analystCount": 18
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 4.6217,
+      "epsEstimate": 5.33333,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 5.35,
+      "epsEstimate": 4.36667,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 5.9,
+      "epsEstimate": 5.348,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 8.2,
+      "epsEstimate": 6.8975,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 12954000000,
+    "revenueGrowth": 0.1555,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 1
+  }
+}

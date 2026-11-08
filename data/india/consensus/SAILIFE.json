@@ -1,0 +1,92 @@
+{
+  "ticker": "SAILIFE",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=SAILIFE",
+  "targetMean": 1579.4286,
+  "targetHigh": 1620,
+  "targetLow": 1500,
+  "recommendationKey": "strong_buy",
+  "analystCount": 7,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": null,
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 0
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 0
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 26186086060,
+      "revenueGrowth": 0.19440001,
+      "epsAvg": 19.83685,
+      "epsGrowth": 0.18370001,
+      "analystCount": 7
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 31712481350,
+      "revenueGrowth": 0.21100001,
+      "epsAvg": 24.952,
+      "epsGrowth": 0.2495,
+      "analystCount": 7
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 5.0011,
+      "epsEstimate": 3.9,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 4.8598,
+      "epsEstimate": 5.2,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 3.42,
+      "epsEstimate": 3.6,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 4.58,
+      "epsEstimate": 4.1,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": null,
+    "revenueAvg": 0,
+    "revenueGrowth": null,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 0
+  }
+}

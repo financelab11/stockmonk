@@ -1,0 +1,92 @@
+{
+  "ticker": "HGINFRA",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=HGINFRA",
+  "targetMean": 755.2,
+  "targetHigh": 1300,
+  "targetLow": 535,
+  "recommendationKey": "buy",
+  "analystCount": 10,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": 3.8,
+      "epsGrowth": -0.7443,
+      "analystCount": 0
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": 7.3,
+      "epsGrowth": 0.1725,
+      "analystCount": 0
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 54435285710,
+      "revenueGrowth": -0.0394,
+      "epsAvg": 39.5,
+      "epsGrowth": -0.2333,
+      "analystCount": 7
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 62028555560,
+      "revenueGrowth": 0.13949999,
+      "epsAvg": 56.54444,
+      "epsGrowth": 0.43150002,
+      "analystCount": 9
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 14.86,
+      "epsEstimate": 19.335,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 6.22598,
+      "epsEstimate": 25.10333,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 0.76807,
+      "epsEstimate": 7.42,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 5.1683,
+      "epsEstimate": 4.91,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 0,
+    "revenueGrowth": null,
+    "epsAvg": 3.8,
+    "epsGrowth": -0.7443,
+    "analystCount": 0
+  }
+}

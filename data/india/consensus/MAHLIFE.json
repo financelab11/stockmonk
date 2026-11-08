@@ -1,0 +1,92 @@
+{
+  "ticker": "MAHLIFE",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=MAHLIFE",
+  "targetMean": 485.44443,
+  "targetHigh": 612,
+  "targetLow": 420,
+  "recommendationKey": "strong_buy",
+  "analystCount": 9,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 1256000000,
+      "revenueGrowth": -0.72650003,
+      "epsAvg": 5,
+      "epsGrowth": 0.089499995,
+      "analystCount": 1
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 2291000000,
+      "revenueGrowth": -0.65790004,
+      "epsAvg": 5.8,
+      "epsGrowth": 0.3152,
+      "analystCount": 1
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 15206875000,
+      "revenueGrowth": 0.2906,
+      "epsAvg": 12.51667,
+      "epsGrowth": -0.0643,
+      "analystCount": 8
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 17481666670,
+      "revenueGrowth": 0.1496,
+      "epsAvg": 18.31429,
+      "epsGrowth": 0.4632,
+      "analystCount": 9
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 4.5892,
+      "epsEstimate": 4.2,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 4.41,
+      "epsEstimate": 3.9,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 4,
+      "epsEstimate": 5.5,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 0.76,
+      "epsEstimate": 4.3,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 1256000000,
+    "revenueGrowth": -0.72650003,
+    "epsAvg": 5,
+    "epsGrowth": 0.089499995,
+    "analystCount": 1
+  }
+}

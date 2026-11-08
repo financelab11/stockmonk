@@ -9,6 +9,8 @@ export function FilterForm({
   sort,
   count,
   showSector = true,
+  sectors = SECTOR_GROUPS,
+  searchIndexPath = "/data/search-index.json",
 }: {
   action: string;
   q: string;
@@ -16,13 +18,19 @@ export function FilterForm({
   sort: SortOption;
   count: number;
   showSector?: boolean;
+  sectors?: Array<{ id: string; shortName: string }>;
+  searchIndexPath?: string;
 }) {
   const hasFilters = Boolean(q || sector || sort !== "marketCap");
 
   return (
     <form id="filter-form" action={action} method="get" className="rounded-xl border border-line bg-surface p-3">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
-        <FuseSearchInput defaultValue={q} formId="filter-form" />
+        <FuseSearchInput
+          defaultValue={q}
+          formId="filter-form"
+          indexPath={searchIndexPath}
+        />
 
         {showSector && (
           <label className="flex h-10 items-center gap-1.5 rounded-lg border border-line bg-paper px-2.5 text-[11.5px] text-muted">
@@ -33,7 +41,7 @@ export function FilterForm({
               className="max-w-[160px] bg-transparent text-[11.5px] font-medium text-ink outline-none"
             >
               <option value="">All sectors</option>
-              {SECTOR_GROUPS.map((group) => (
+              {sectors.map((group) => (
                 <option key={group.id} value={group.id}>
                   {group.shortName}
                 </option>

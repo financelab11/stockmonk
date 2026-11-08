@@ -26,10 +26,15 @@ export function StockCard({
   showWhy?: boolean;
   showWatchlist?: boolean;
 }) {
+  const href = entry.market === "IN" ? `/india/stocks/${entry.ticker}` : `/stocks/${entry.ticker}`;
   return (
     <article className="card group flex h-full flex-col p-4 transition-shadow hover:shadow-md">
       <div className="flex items-start gap-2.5">
-        <StockLogo ticker={entry.ticker} size={38} />
+        <StockLogo
+          ticker={entry.ticker}
+          size={38}
+          hideLogo={entry.market === "IN"}
+        />
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-start justify-between gap-1.5">
             <FactorChips chips={entry.factorChips} limit={2} />
@@ -45,7 +50,7 @@ export function StockCard({
       <div className="mt-3 flex items-start justify-between gap-3">
         <div className="min-w-0">
           <h3 className="text-[15px] font-semibold leading-snug text-ink">
-            <Link prefetch={false} href={`/stocks/${entry.ticker}`} className="hover:text-brand">
+            <Link prefetch={false} href={href} className="hover:text-brand">
               {entry.name}
             </Link>{" "}
             <span className="font-mono text-[11px] font-medium text-muted">
@@ -57,7 +62,9 @@ export function StockCard({
           </p>
           <div className="mt-1.5 flex items-baseline gap-2">
             <span className="tabular text-[15px] font-semibold text-ink">
-              {entry.price != null ? formatCurrency(entry.price) : "n/a"}
+              {entry.price != null
+                ? formatCurrency(entry.price, 2, entry.currency ?? "USD")
+                : "n/a"}
             </span>
             <PriceChange value={entry.changePct} className="text-[11.5px]" />
           </div>
@@ -85,7 +92,7 @@ export function StockCard({
       <div className="mt-auto flex items-center justify-between gap-2 pt-3">
         <div className="flex items-center gap-2 text-[10.5px] text-muted">
           <span className="tabular">
-            {formatCompactCurrency(entry.marketCap)} mkt cap
+            {formatCompactCurrency(entry.marketCap, entry.currency ?? "USD")} mkt cap
           </span>
           {entry.revenueGrowthTtm != null && (
             <span className="tabular">
@@ -97,7 +104,7 @@ export function StockCard({
           {showWatchlist && <WatchlistButton ticker={entry.ticker} compact />}
           <Link
             prefetch={false}
-            href={`/stocks/${entry.ticker}`}
+            href={href}
             className="inline-flex size-8 items-center justify-center rounded-full text-muted transition-colors hover:bg-paper-deep hover:text-ink"
             aria-label={`Open ${entry.ticker} research`}
           >

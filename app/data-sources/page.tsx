@@ -38,7 +38,12 @@ export default function DataSourcesPage() {
             <tr>
               <td className="font-medium text-ink">Fundamentals</td>
               <td><a href="https://simfin.com/" target="_blank" rel="noreferrer noopener" className="link-underline">SimFin</a></td>
-              <td>Income statement, balance sheet, cash flow and derived ratios for all 229 companies.</td>
+              <td>Income statement, balance sheet, cash flow and derived ratios for all 229 US companies.</td>
+            </tr>
+            <tr>
+              <td className="font-medium text-ink">India fundamentals</td>
+              <td><a href="https://www.nseindia.com/" target="_blank" rel="noreferrer noopener" className="link-underline">NSE</a> / <a href="https://www.bseindia.com/" target="_blank" rel="noreferrer noopener" className="link-underline">BSE</a> filings · Screener</td>
+              <td>Annual and quarterly statements, balance sheet, cash flow and ratios for the 100 India names.</td>
             </tr>
             <tr>
               <td className="font-medium text-ink">Regulatory flows</td>
@@ -48,7 +53,7 @@ export default function DataSourcesPage() {
             <tr>
               <td className="font-medium text-ink">Prices</td>
               <td>SimFin daily prices</td>
-              <td>Price charts, 52-week range, returns, market cap, multiple history.</td>
+              <td>Price charts, 52-week range, returns, market cap and multiple history for US and India names.</td>
             </tr>
             <tr>
               <td className="font-medium text-ink">Consensus</td>

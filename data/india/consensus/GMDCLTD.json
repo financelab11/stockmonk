@@ -1,0 +1,59 @@
+{
+  "ticker": "GMDCLTD",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=GMDCLTD",
+  "targetMean": 267,
+  "targetHigh": 267,
+  "targetLow": 267,
+  "recommendationKey": "underperform",
+  "analystCount": 1,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": null,
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 0
+    },
+    {
+      "period": "Following quarter",
+      "endDate": null,
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 0
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 41048000000,
+      "revenueGrowth": 0.547,
+      "epsAvg": 29.4,
+      "epsGrowth": 0.5765,
+      "analystCount": 1
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 50729000000,
+      "revenueGrowth": 0.2358,
+      "epsAvg": 34.1,
+      "epsGrowth": 0.1599,
+      "analystCount": 1
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": null,
+    "revenueAvg": 0,
+    "revenueGrowth": null,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 0
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "ticker": "WAAREEENER",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=WAAREEENER",
+  "targetMean": 3076.5,
+  "targetHigh": 4375,
+  "targetLow": 2000,
+  "recommendationKey": "buy",
+  "analystCount": 14,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": 29.12353,
+      "epsGrowth": -0.347,
+      "analystCount": 0
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": 42.06732,
+      "epsGrowth": 0.1419,
+      "analystCount": 0
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 342559926280,
+      "revenueGrowth": 0.2909,
+      "epsAvg": 141.94666,
+      "epsGrowth": 0.0383,
+      "analystCount": 13
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 408493171440,
+      "revenueGrowth": 0.1925,
+      "epsAvg": 154.67636,
+      "epsGrowth": 0.089700006,
+      "analystCount": 14
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 44.6014,
+      "epsEstimate": 43.56528,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 36.84,
+      "epsEstimate": 42.193,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 29.5,
+      "epsEstimate": 34.275,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 24.94,
+      "epsEstimate": 30.325,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 0,
+    "revenueGrowth": null,
+    "epsAvg": 29.12353,
+    "epsGrowth": -0.347,
+    "analystCount": 0
+  }
+}

@@ -3,7 +3,7 @@ export const SITE = {
   legalName: "Stockmonk Research",
   tagline: "Independent equity research for learners.",
   description:
-    "Equity research built from SEC filings and financial statements: business breakdowns, sourced fundamentals and third-party analyst estimates.",
+    "Equity research built from SEC, NSE and BSE filings: business breakdowns, sourced fundamentals and third-party analyst estimates for US and Indian companies.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://stockmonk.app",
   email: "hello@stockmonk.app",
   twitter: "@stockmonk",
@@ -17,6 +17,7 @@ export const DISCLAIMER_SHORT =
 
 export const NAV_LINKS = [
   { href: "/discover", label: "Discover" },
+  { href: "/india", label: "India Stocks" },
   { href: "/newsfeed", label: "Newsfeed" },
   { href: "/framework", label: "Framework" },
   { href: "/watchlist", label: "Watchlist" },
@@ -28,6 +29,8 @@ export const FOOTER_COLUMNS = [
     links: [
       { href: "/discover", label: "Discover" },
       { href: "/discover/all-stocks", label: "All stocks" },
+      { href: "/india", label: "India Stocks" },
+      { href: "/india/all-stocks", label: "All India stocks" },
       { href: "/newsfeed", label: "Newsfeed" },
       { href: "/framework", label: "Framework" },
       { href: "/watchlist", label: "Watchlist" },

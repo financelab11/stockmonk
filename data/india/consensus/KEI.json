@@ -1,0 +1,92 @@
+{
+  "ticker": "KEI",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=KEI",
+  "targetMean": 5097.609,
+  "targetHigh": 6600,
+  "targetLow": 4000,
+  "recommendationKey": "buy",
+  "analystCount": 23,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 37491000000,
+      "revenueGrowth": 0.2689,
+      "epsAvg": 32.2,
+      "epsGrowth": 0.3116,
+      "analystCount": 2
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 43863000000,
+      "revenueGrowth": 0.2617,
+      "epsAvg": 37.9,
+      "epsGrowth": 0.2752,
+      "analystCount": 2
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 147707664120,
+      "revenueGrowth": 0.2573,
+      "epsAvg": 117.54548,
+      "epsGrowth": 0.2242,
+      "analystCount": 14
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 174939239920,
+      "revenueGrowth": 0.1844,
+      "epsAvg": 141.00922,
+      "epsGrowth": 0.1996,
+      "analystCount": 14
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 24.55,
+      "epsEstimate": 24.565,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 29.72,
+      "epsEstimate": 26.27301,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 28.66,
+      "epsEstimate": 25.75,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 27.44,
+      "epsEstimate": 28.5057,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 37491000000,
+    "revenueGrowth": 0.2689,
+    "epsAvg": 32.2,
+    "epsGrowth": 0.3116,
+    "analystCount": 2
+  }
+}

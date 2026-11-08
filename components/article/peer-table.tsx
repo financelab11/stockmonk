@@ -37,8 +37,8 @@ const COLUMNS: Array<{ key: SortKey; label: string; numeric: boolean }> = [
   { key: "fcfYield", label: "FCF yield", numeric: true },
 ];
 
-function formatMetric(key: SortKey, row: PeerRow): string {
-  if (key === "marketCap") return formatCompactCurrency(row.marketCap);
+function formatMetric(key: SortKey, row: PeerRow, currency: string): string {
+  if (key === "marketCap") return formatCompactCurrency(row.marketCap, currency);
   if (key === "revenueGrowth" || key === "fcfYield") return formatPercent(row[key]);
   if (key === "grossMargin" || key === "operatingMargin" || key === "roic") {
     return formatPercent(row[key]);
@@ -50,7 +50,13 @@ function formatMetric(key: SortKey, row: PeerRow): string {
   return "";
 }
 
-export function PeerTable({ rows }: { rows: PeerRow[] }) {
+export function PeerTable({
+  rows,
+  currency = "USD",
+}: {
+  rows: PeerRow[];
+  currency?: string;
+}) {
   const [sort, setSort] = useState<SortKey>("marketCap");
   const [direction, setDirection] = useState<"asc" | "desc">("desc");
 
@@ -135,7 +141,7 @@ export function PeerTable({ rows }: { rows: PeerRow[] }) {
                 }`}
               >
                 <span className="flex items-center gap-2">
-                  <StockLogo ticker={row.ticker} size={26} />
+                  <StockLogo ticker={row.ticker} size={26} hideLogo={currency === "INR"} />
                   <span className="min-w-0">
                     <span className="block max-w-[150px] truncate text-[11.5px] font-semibold text-ink">
                       {row.name}
@@ -154,7 +160,7 @@ export function PeerTable({ rows }: { rows: PeerRow[] }) {
                     row.isSubject ? "font-semibold text-ink" : ""
                   }`}
                 >
-                  {formatMetric(column.key, row)}
+                  {formatMetric(column.key, row, currency)}
                 </td>
               ))}
             </tr>

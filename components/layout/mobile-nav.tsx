@@ -39,7 +39,9 @@ export function MobileNav() {
               {[
                 { href: "/", label: "Home" },
                 { href: "/framework", label: "Framework" },
-                { href: "/discover/all-stocks", label: "All stocks" },
+                { href: "/discover/all-stocks", label: "All US stocks" },
+                { href: "/india", label: "India Stocks" },
+                { href: "/india/all-stocks", label: "All India stocks" },
                 { href: "/about", label: "About" },
                 { href: "/editorial-guidelines", label: "Guidelines" },
                 { href: "/data-sources", label: "Data sources" },

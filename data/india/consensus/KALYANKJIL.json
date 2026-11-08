@@ -1,0 +1,84 @@
+{
+  "ticker": "KALYANKJIL",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=KALYANKJIL",
+  "targetMean": 768.2,
+  "targetHigh": 900,
+  "targetLow": 600,
+  "recommendationKey": "strong_buy",
+  "analystCount": 10,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-09-30",
+      "revenueAvg": 100327666670,
+      "revenueGrowth": 0.2771,
+      "epsAvg": 3.57208,
+      "epsGrowth": 0.4063,
+      "analystCount": 6
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 138617000000,
+      "revenueGrowth": 0.3401,
+      "epsAvg": 3.94416,
+      "epsGrowth": -0.0888,
+      "analystCount": 1
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 450202909940,
+      "revenueGrowth": 0.45099998,
+      "epsAvg": 15.85087,
+      "epsGrowth": 0.1873,
+      "analystCount": 10
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 541265965140,
+      "revenueGrowth": 0.3107,
+      "epsAvg": 19.41705,
+      "epsGrowth": 0.2298,
+      "analystCount": 10
+    }
+  ],
+  "history": [
+    {
+      "quarter": "2Q2026",
+      "endDate": "2025-09-30",
+      "epsActual": 2.54,
+      "epsEstimate": 2.5,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 4.3287,
+      "epsEstimate": 3.9,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 3.53,
+      "epsEstimate": 3.5,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-09-30",
+    "revenueAvg": 100327666670,
+    "revenueGrowth": 0.2771,
+    "epsAvg": 3.57208,
+    "epsGrowth": 0.4063,
+    "analystCount": 6
+  }
+}

@@ -14,23 +14,26 @@ type FuseLike = {
   search: (query: string) => Array<{ item: SearchEntry }>;
 };
 
-let indexPromise: Promise<SearchEntry[]> | null = null;
+const indexPromises = new Map<string, Promise<SearchEntry[]>>();
 
-function loadIndex(): Promise<SearchEntry[]> {
-  if (!indexPromise) {
-    indexPromise = fetch("/data/search-index.json")
-      .then((response) => response.json() as Promise<SearchEntry[]>)
-      .catch(() => []);
-  }
-  return indexPromise;
+function loadIndex(indexPath: string): Promise<SearchEntry[]> {
+  const existing = indexPromises.get(indexPath);
+  if (existing) return existing;
+  const promise = fetch(indexPath)
+    .then((response) => response.json() as Promise<SearchEntry[]>)
+    .catch(() => []);
+  indexPromises.set(indexPath, promise);
+  return promise;
 }
 
 export function FuseSearchInput({
   defaultValue = "",
   formId,
+  indexPath = "/data/search-index.json",
 }: {
   defaultValue?: string;
   formId?: string;
+  indexPath?: string;
 }) {
   const [value, setValue] = useState(defaultValue);
   const [matches, setMatches] = useState<SearchEntry[]>([]);
@@ -42,7 +45,7 @@ export function FuseSearchInput({
     let cancelled = false;
     const enhance = async () => {
       const [entries, module] = await Promise.all([
-        loadIndex(),
+        loadIndex(indexPath),
         import("fuse.js"),
       ]);
       if (cancelled) return;
@@ -66,7 +69,7 @@ export function FuseSearchInput({
       cancelled = true;
       input?.removeEventListener("focus", onFocus);
     };
-  }, []);
+  }, [indexPath]);
 
   const runSearch = (query: string) => {
     setValue(query);

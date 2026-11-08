@@ -1,0 +1,92 @@
+{
+  "ticker": "PREMIERENE",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=PREMIERENE",
+  "targetMean": 1064.7648,
+  "targetHigh": 1335,
+  "targetLow": 814,
+  "recommendationKey": "buy",
+  "analystCount": 17,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 36400000000,
+      "revenueGrowth": 0.8797,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 41900000000,
+      "revenueGrowth": 0.8787,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 127768214800,
+      "revenueGrowth": 0.633,
+      "epsAvg": 44.12723,
+      "epsGrowth": 0.3121,
+      "analystCount": 16
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 171352555810,
+      "revenueGrowth": 0.3411,
+      "epsAvg": 48.29338,
+      "epsGrowth": 0.103199996,
+      "analystCount": 16
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 8.72,
+      "epsEstimate": 7.38542,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 10.14,
+      "epsEstimate": 8.44045,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 10.45,
+      "epsEstimate": 9.95,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 10.24,
+      "epsEstimate": 11.06667,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 36400000000,
+    "revenueGrowth": 0.8797,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 1
+  }
+}

@@ -18,7 +18,14 @@ export type SurprisePoint = {
   estimate: number | null;
 };
 
-export default function SurpriseChart({ points }: { points: SurprisePoint[] }) {
+export default function SurpriseChart({
+  points,
+  currency = "USD",
+}: {
+  points: SurprisePoint[];
+  currency?: string;
+}) {
+  const prefix = currency === "INR" ? "₹" : "$";
   const data = points.filter((point) => point.actual != null || point.estimate != null);
   if (!data.length) {
     return <p className="p-4 text-[12px] text-white/50">No EPS surprise history available.</p>;
@@ -33,11 +40,11 @@ export default function SurpriseChart({ points }: { points: SurprisePoint[] }) {
           <YAxis
             {...axisProps}
             width={38}
-            tickFormatter={(value: number) => `$${value.toFixed(1)}`}
+            tickFormatter={(value: number) => `${prefix}${value.toFixed(1)}`}
           />
           <Tooltip
             contentStyle={tooltipStyle}
-            formatter={(value, name) => [`$${Number(value).toFixed(2)}`, name]}
+            formatter={(value, name) => [`${prefix}${Number(value).toFixed(2)}`, name]}
           />
           <Legend wrapperStyle={{ fontSize: 10, color: CHART.axis }} />
           <Bar dataKey="actual" name="EPS actual" fill={CHART.green} radius={[3, 3, 0, 0]} maxBarSize={22} />

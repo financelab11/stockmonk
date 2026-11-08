@@ -1,8 +1,10 @@
 import { describe, expect, it } from "vitest";
 import { STOCK_STORIES } from "@/content/stocks";
+import { INDIA_STOCK_STORIES } from "@/content/india-stocks";
 import { ARTICLE_SECTIONS } from "@/lib/constants";
-import { validateContent } from "@/lib/validate-content";
+import { validateContent, validateStories } from "@/lib/validate-content";
 import { RESEARCH_TICKERS } from "@/config/universe";
+import { INDIA_TICKERS } from "@/config/india-coverage";
 
 describe("research content", () => {
   it("has a story for every research ticker", () => {
@@ -33,7 +35,7 @@ describe("research content", () => {
   });
 
   it("writes a substantial story for every ticker", () => {
-    for (const story of Object.values(STOCK_STORIES)) {
+    for (const story of [...Object.values(STOCK_STORIES), ...Object.values(INDIA_STOCK_STORIES)]) {
       const words = JSON.stringify(story)
         .replace(/[{}[\]",:]/g, " ")
         .split(/\s+/)
@@ -44,8 +46,13 @@ describe("research content", () => {
     }
   });
 
+  it("has a validated story for every India research ticker", () => {
+    expect(Object.keys(INDIA_STOCK_STORIES).sort()).toEqual([...INDIA_TICKERS].sort());
+    expect(validateStories(INDIA_STOCK_STORIES, "IN")).toEqual([]);
+  });
+
   it("does not leave placeholder text in a story", () => {
-    for (const story of Object.values(STOCK_STORIES)) {
+    for (const story of [...Object.values(STOCK_STORIES), ...Object.values(INDIA_STOCK_STORIES)]) {
       const text = JSON.stringify(story).toLowerCase();
       expect(text, story.ticker).not.toContain("lorem ipsum");
       expect(text, story.ticker).not.toContain("tbd");

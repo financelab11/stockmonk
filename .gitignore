@@ -42,6 +42,7 @@ public/screenshots/
 
 # ingestion cache (re-downloadable)
 /data/raw/
+/data/india/raw/
 
 # vercel
 .vercel

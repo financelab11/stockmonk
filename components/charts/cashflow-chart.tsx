@@ -23,10 +23,12 @@ export default function CashFlowChart({
   points,
   primaryLabel = "Free cash flow",
   secondaryLabel = "Capital expenditure",
+  currency = "USD",
 }: {
   points: CashPoint[];
   primaryLabel?: string;
   secondaryLabel?: string;
+  currency?: string;
 }) {
   const data = points.filter((point) => point.value != null);
   if (!data.length) {
@@ -42,11 +44,11 @@ export default function CashFlowChart({
           <YAxis
             {...axisProps}
             width={54}
-            tickFormatter={(value: number) => formatCompactCurrency(value)}
+            tickFormatter={(value: number) => formatCompactCurrency(value, currency)}
           />
           <Tooltip
             contentStyle={tooltipStyle}
-            formatter={(value, name) => [formatCompactCurrency(Number(value)), name]}
+            formatter={(value, name) => [formatCompactCurrency(Number(value), currency), name]}
           />
           <Bar
             dataKey="value"

@@ -45,7 +45,7 @@ function allowsNegativeGuarantee(text: string, matchIndex: number): boolean {
   return /\b(not|never|no|without)\s+$/.test(prefix);
 }
 
-export function validateStory(story: StockStory): string[] {
+export function validateStory(story: StockStory, market: "US" | "IN" = "US"): string[] {
   const errors: string[] = [];
 
   if (!story.title || story.title.length < 20) errors.push(`${story.ticker}: title is too short`);
@@ -91,14 +91,27 @@ export function validateStory(story: StockStory): string[] {
     }
   }
 
-  if (!/^https:\/\/www\.sec\.gov\//.test(story.filingUrl)) {
-    errors.push(`${story.ticker}: filingUrl should point to SEC EDGAR`);
+  const allowedFiling = market === "IN"
+    ? /^https:\/\/(www\.)?(nseindia\.com|bseindia\.com)\//.test(story.filingUrl)
+    : /^https:\/\/www\.sec\.gov\//.test(story.filingUrl);
+  if (!allowedFiling) {
+    errors.push(
+      `${story.ticker}: filingUrl should point to ${
+        market === "IN" ? "NSE/BSE" : "SEC EDGAR"
+      }`,
+    );
   }
 
   return errors;
 }
 
+export function validateStories(
+  stories: Record<string, StockStory>,
+  market: "US" | "IN" = "US",
+): string[] {
+  return Object.values(stories).flatMap((story) => validateStory(story, market));
+}
+
 export function validateContent(): string[] {
-  const stories = Object.values(STOCK_STORIES);
-  return stories.flatMap(validateStory);
+  return validateStories(STOCK_STORIES, "US");
 }

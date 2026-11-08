@@ -1,0 +1,92 @@
+{
+  "ticker": "SYRMA",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=SYRMA",
+  "targetMean": 1783.36,
+  "targetHigh": 2156,
+  "targetLow": 1300,
+  "recommendationKey": "buy",
+  "analystCount": 25,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": null,
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 0
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 19338000000,
+      "revenueGrowth": 0.32,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 71420001900,
+      "revenueGrowth": 0.482,
+      "epsAvg": 23.15165,
+      "epsGrowth": 0.3532,
+      "analystCount": 23
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 95610068980,
+      "revenueGrowth": 0.3387,
+      "epsAvg": 33.06533,
+      "epsGrowth": 0.4282,
+      "analystCount": 23
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 5.4699,
+      "epsEstimate": 3.64,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 5.3292,
+      "epsEstimate": 4.85,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 5.19,
+      "epsEstimate": 4.06667,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 6.08,
+      "epsEstimate": 5.36667,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": null,
+    "revenueAvg": 0,
+    "revenueGrowth": null,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 0
+  }
+}

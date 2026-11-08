@@ -1,0 +1,92 @@
+{
+  "ticker": "KEC",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=KEC",
+  "targetMean": 474.08334,
+  "targetHigh": 635,
+  "targetLow": 308,
+  "recommendationKey": "buy",
+  "analystCount": 24,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-09-30",
+      "revenueAvg": 64082000000,
+      "revenueGrowth": 0.0678,
+      "epsAvg": 4.48333,
+      "epsGrowth": -0.2577,
+      "analystCount": 1
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 72998000000,
+      "revenueGrowth": 0.1424,
+      "epsAvg": 13.2,
+      "epsGrowth": 0.8232,
+      "analystCount": 1
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 250691293200,
+      "revenueGrowth": 0.0665,
+      "epsAvg": 17.75293,
+      "epsGrowth": -0.2737,
+      "analystCount": 17
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 286766714930,
+      "revenueGrowth": 0.1439,
+      "epsAvg": 31.92773,
+      "epsGrowth": 0.7984,
+      "analystCount": 24
+    }
+  ],
+  "history": [
+    {
+      "quarter": "2Q2026",
+      "endDate": "2025-09-30",
+      "epsActual": 6.04,
+      "epsEstimate": 7.02,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 4.79,
+      "epsEstimate": 8.12857,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 7.24,
+      "epsEstimate": 9.92857,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 1.12,
+      "epsEstimate": 4.48333,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-09-30",
+    "revenueAvg": 64082000000,
+    "revenueGrowth": 0.0678,
+    "epsAvg": 4.48333,
+    "epsGrowth": -0.2577,
+    "analystCount": 1
+  }
+}

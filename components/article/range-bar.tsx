@@ -5,11 +5,13 @@ export function RangeBar({
   high,
   current,
   position,
+  currency = "USD",
 }: {
   low: number | null;
   high: number | null;
   current: number | null;
   position: number | null;
+  currency?: string;
 }) {
   if (low == null || high == null || current == null || position == null) {
     return <p className="text-[11px] text-muted">52-week range unavailable.</p>;
@@ -24,11 +26,11 @@ export function RangeBar({
         />
       </div>
       <div className="mt-2 flex justify-between text-[10.5px] text-muted">
-        <span className="tabular">52w low {formatCurrency(low)}</span>
+        <span className="tabular">52w low {formatCurrency(low, 2, currency)}</span>
         <span className="tabular font-semibold text-ink">
-          Now {formatCurrency(current)}
+          Now {formatCurrency(current, 2, currency)}
         </span>
-        <span className="tabular">52w high {formatCurrency(high)}</span>
+        <span className="tabular">52w high {formatCurrency(high, 2, currency)}</span>
       </div>
     </div>
   );

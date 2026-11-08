@@ -1,0 +1,92 @@
+{
+  "ticker": "VMART",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=VMART",
+  "targetMean": 905.6429,
+  "targetHigh": 1052,
+  "targetLow": 790,
+  "recommendationKey": "strong_buy",
+  "analystCount": 14,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 13781500000,
+      "revenueGrowth": 0.22389999,
+      "epsAvg": 14.6,
+      "epsGrowth": 0.2994,
+      "analystCount": 2
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 11454500000,
+      "revenueGrowth": 0.17979999,
+      "epsAvg": 2,
+      "epsGrowth": 0.259,
+      "analystCount": 2
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 45485300000,
+      "revenueGrowth": 0.20030001,
+      "epsAvg": 18.37143,
+      "epsGrowth": 0.56490004,
+      "analystCount": 10
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 52642454550,
+      "revenueGrowth": 0.1574,
+      "epsAvg": 25.66667,
+      "epsGrowth": 0.3419,
+      "analystCount": 11
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 11.2361,
+      "epsEstimate": 9.43333,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 1.5886,
+      "epsEstimate": 1.43333,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 5.91,
+      "epsEstimate": 5.86667,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": -2.06,
+      "epsEstimate": -1.925,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 13781500000,
+    "revenueGrowth": 0.22389999,
+    "epsAvg": 14.6,
+    "epsGrowth": 0.2994,
+    "analystCount": 2
+  }
+}

@@ -22,7 +22,13 @@ const COLORS = [
 
 export type MixDatum = { name: string; revenue: number; share: number };
 
-export default function MixDonut({ data }: { data: MixDatum[] }) {
+export default function MixDonut({
+  data,
+  currency = "USD",
+}: {
+  data: MixDatum[];
+  currency?: string;
+}) {
   if (!data.length) {
     return <p className="p-4 text-[12px] text-white/50">No segment mix available.</p>;
   }
@@ -48,7 +54,7 @@ export default function MixDonut({ data }: { data: MixDatum[] }) {
             <Tooltip
               contentStyle={tooltipStyle}
               formatter={(value, name) => [
-                `${formatCompactCurrency(Number(value))} · ${formatPercent(
+                `${formatCompactCurrency(Number(value), currency)} · ${formatPercent(
                   data.find((item) => item.name === name)?.share ?? 0,
                 )}`,
                 name,

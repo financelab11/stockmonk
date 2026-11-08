@@ -44,15 +44,22 @@ export function LazyPriceChart({
   ticker,
   initialData,
   height = 340,
+  currency = "USD",
+  priceBasePath = "/data/prices",
 }: {
   ticker: string;
   initialData: RangePricePoint[];
   height?: number;
+  currency?: string;
+  priceBasePath?: string;
 }) {
   const rows = initialData
     .slice(-8)
     .reverse()
-    .map((point) => [formatDate(new Date(point.t * 1000).toISOString()), formatCurrency(point.c)]);
+    .map((point) => [
+      formatDate(new Date(point.t * 1000).toISOString()),
+      formatCurrency(point.c, 2, currency),
+    ]);
 
   return (
     <ChartFrame
@@ -61,7 +68,13 @@ export function LazyPriceChart({
       description="Daily adjusted close. Price-only; not a recommendation."
       table={<MiniTable columns={["Date", "Close"]} rows={rows} />}
     >
-      <PriceChart ticker={ticker} initialData={initialData} height={height} />
+      <PriceChart
+        ticker={ticker}
+        initialData={initialData}
+        height={height}
+        currency={currency}
+        priceBasePath={priceBasePath}
+      />
     </ChartFrame>
   );
 }
@@ -73,6 +86,7 @@ export function LazyGrowthChart({
   valueLabel,
   secondaryLabel,
   height = 300,
+  currency = "USD",
 }: {
   points: GrowthPoint[];
   title?: string;
@@ -80,6 +94,7 @@ export function LazyGrowthChart({
   valueLabel?: string;
   secondaryLabel?: string;
   height?: number;
+  currency?: string;
 }) {
   return (
     <ChartFrame
@@ -91,7 +106,7 @@ export function LazyGrowthChart({
           columns={["Period", "Revenue", "YoY"]}
           rows={points.map((point) => [
             point.label,
-            formatCompactCurrency(point.value),
+            formatCompactCurrency(point.value, currency),
             formatPercent(point.secondary),
           ])}
         />
@@ -101,6 +116,7 @@ export function LazyGrowthChart({
         points={points}
         valueLabel={valueLabel}
         secondaryLabel={secondaryLabel}
+        currency={currency}
       />
     </ChartFrame>
   );
@@ -143,11 +159,13 @@ export function LazyCashFlowChart({
   title = "Free cash flow and capital expenditure",
   description,
   height = 280,
+  currency = "USD",
 }: {
   points: CashPoint[];
   title?: string;
   description?: string;
   height?: number;
+  currency?: string;
 }) {
   return (
     <ChartFrame
@@ -159,13 +177,13 @@ export function LazyCashFlowChart({
           columns={["Period", "Free cash flow", "Capex"]}
           rows={points.map((point) => [
             point.label,
-            formatCompactCurrency(point.value),
-            formatCompactCurrency(point.secondary),
+            formatCompactCurrency(point.value, currency),
+            formatCompactCurrency(point.secondary, currency),
           ])}
         />
       }
     >
-      <CashFlowChart points={points} />
+      <CashFlowChart points={points} currency={currency} />
     </ChartFrame>
   );
 }
@@ -207,11 +225,13 @@ export function LazySurpriseChart({
   title = "EPS actual vs consensus estimate",
   description,
   height = 270,
+  currency = "USD",
 }: {
   points: SurprisePoint[];
   title?: string;
   description?: string;
   height?: number;
+  currency?: string;
 }) {
   return (
     <ChartFrame
@@ -223,13 +243,13 @@ export function LazySurpriseChart({
           columns={["Quarter", "EPS actual", "EPS estimate"]}
           rows={points.map((point) => [
             point.label,
-            point.actual != null ? `$${point.actual.toFixed(2)}` : "n/a",
-            point.estimate != null ? `$${point.estimate.toFixed(2)}` : "n/a",
+            point.actual != null ? formatCurrency(point.actual, 2, currency) : "n/a",
+            point.estimate != null ? formatCurrency(point.estimate, 2, currency) : "n/a",
           ])}
         />
       }
     >
-      <SurpriseChart points={points} />
+      <SurpriseChart points={points} currency={currency} />
     </ChartFrame>
   );
 }
@@ -300,11 +320,13 @@ export function LazyMixDonut({
   title = "Revenue mix",
   description,
   height = 230,
+  currency = "USD",
 }: {
   data: MixDatum[];
   title?: string;
   description?: string;
   height?: number;
+  currency?: string;
 }) {
   return (
     <ChartFrame
@@ -316,13 +338,13 @@ export function LazyMixDonut({
           columns={["Segment", "Revenue", "Share"]}
           rows={data.map((item) => [
             item.name,
-            formatCompactCurrency(item.revenue),
+            formatCompactCurrency(item.revenue, currency),
             formatPercent(item.share),
           ])}
         />
       }
     >
-      <MixDonut data={data} />
+      <MixDonut data={data} currency={currency} />
     </ChartFrame>
   );
 }

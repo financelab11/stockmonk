@@ -1,6 +1,8 @@
 import { PEER_BASIS, peersFor } from "@/config/peers";
 import { getCoverageGroup } from "@/config/coverage";
+import { getIndiaCoverageGroup } from "@/config/india-coverage";
 import { getConsensus, getTicker, type ResearchBundle } from "./data";
+import { getIndiaConsensus, getIndiaTicker } from "./india-data";
 import { formatDate, formatFiscalQuarter } from "./format";
 import type { Consensus, FinancialRow, RangePricePoint } from "./schemas";
 import type { StockStory } from "@/content/stocks/types";
@@ -19,29 +21,36 @@ export function buildArticleSources(
   bundle: ResearchBundle,
 ): ArticleSource[] {
   const { data, segments } = bundle;
+  const isIndia = data.market === "IN";
   const cik = data.cik?.padStart(10, "0");
-  const filingHistory = cik
-    ? `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${cik}&type=10-K&dateb=&owner=include&count=40`
-    : "https://www.sec.gov/edgar/search/";
+  const filingHistory = isIndia
+    ? `https://www.nseindia.com/companies-listing/corporate-filings-announcements?symbol=${data.ticker}`
+    : cik
+      ? `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${cik}&type=10-K&dateb=&owner=include&count=40`
+      : "https://www.sec.gov/edgar/search/";
 
   const candidates: Array<Omit<ArticleSource, "id">> = [
     {
-      name: `${data.name} annual report (Form 10-K)`,
-      publisher: "SEC EDGAR",
+      name: isIndia
+        ? `${data.name} annual report`
+        : `${data.name} annual report (Form 10-K)`,
+      publisher: isIndia ? "NSE / BSE" : "SEC EDGAR",
       url: story.filingUrl,
       date: segments?.source.date ?? data.updatedAt.slice(0, 10),
-      note: "Business description, segment mix and risk factors.",
+      note: isIndia
+        ? "Annual report, business description and risk factors."
+        : "Business description, segment mix and risk factors.",
     },
     {
-      name: "SEC EDGAR filing history",
-      publisher: "SEC EDGAR",
+      name: isIndia ? "NSE corporate filings" : "SEC EDGAR filing history",
+      publisher: isIndia ? "NSE / BSE" : "SEC EDGAR",
       url: filingHistory,
       date: data.latestPrice.asOf,
       note: "Annual and quarterly filings behind the financial statements.",
     },
     {
       name: `${data.name} company filings and investor materials`,
-      publisher: "Company / SEC",
+      publisher: isIndia ? "Company" : "Company / SEC",
       url: story.irUrl,
       date: "n/a",
       note: "Company releases, presentations and filing history.",
@@ -86,9 +95,13 @@ export type PeerRow = {
   fcfYield: number | null;
 };
 
-function consensusNtmPe(ticker: string, price: number | null): number | null {
+function consensusNtmPe(
+  ticker: string,
+  price: number | null,
+  market: "US" | "IN",
+): number | null {
   if (!price) return null;
-  const consensus = getConsensus(ticker);
+  const consensus = market === "IN" ? getIndiaConsensus(ticker) : getConsensus(ticker);
   if (!consensus) return null;
   const estimate =
     consensus.estimates.find((item) => item.period === "Current fiscal year") ??
@@ -102,8 +115,11 @@ export function buildPeerRows(bundle: ResearchBundle): {
   basis: string;
 } {
   const subject = bundle.data;
-  const group = getCoverageGroup(subject.ticker);
-  const configured = peersFor(subject.ticker);
+  const isIndia = subject.market === "IN";
+  const group = isIndia
+    ? getIndiaCoverageGroup(subject.ticker)
+    : getCoverageGroup(subject.ticker);
+  const configured = isIndia ? [] : peersFor(subject.ticker);
   const peers = (
     configured.length
       ? configured
@@ -113,7 +129,12 @@ export function buildPeerRows(bundle: ResearchBundle): {
 
   const rows = tickers
     .map((ticker) => {
-      const data = ticker === subject.ticker ? subject : getTicker(ticker);
+      const data =
+        ticker === subject.ticker
+          ? subject
+          : isIndia
+            ? getIndiaTicker(ticker)
+            : getTicker(ticker);
       if (!data) return null;
       return {
         ticker: data.ticker,
@@ -126,7 +147,7 @@ export function buildPeerRows(bundle: ResearchBundle): {
         roic: data.metrics.roic,
         netDebtToEbitda: data.metrics.netDebtToEbitda,
         pe: data.metrics.pe,
-        peNtm: consensusNtmPe(data.ticker, data.latestPrice.close),
+        peNtm: consensusNtmPe(data.ticker, data.latestPrice.close, isIndia ? "IN" : "US"),
         evEbitda: data.metrics.evEbitda,
         evSales: data.metrics.evSales,
         fcfYield: data.metrics.fcfYield,
@@ -136,11 +157,12 @@ export function buildPeerRows(bundle: ResearchBundle): {
 
   return {
     rows,
-    basis:
-      PEER_BASIS[subject.ticker] ??
-      (group
-        ? `${group.name} companies in the coverage universe`
-        : "Companies with similar business characteristics in the coverage universe"),
+    basis: isIndia
+      ? `${group?.name ?? "India"} companies in the India coverage universe`
+      : PEER_BASIS[subject.ticker] ??
+        (group
+          ? `${group.name} companies in the coverage universe`
+          : "Companies with similar business characteristics in the coverage universe"),
   };
 }
 

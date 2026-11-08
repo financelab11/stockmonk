@@ -52,12 +52,16 @@ export function articleJsonLd({
   title,
   description,
   date,
+  path = `/stocks/${ticker}`,
+  language = "en-US",
 }: {
   ticker: string;
   name: string;
   title: string;
   description: string;
   date: string;
+  path?: string;
+  language?: string;
 }) {
   return {
     "@context": "https://schema.org",
@@ -66,11 +70,11 @@ export function articleJsonLd({
     description,
     datePublished: date,
     dateModified: date,
-    inLanguage: "en-US",
+    inLanguage: language,
     isAccessibleForFree: true,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `${SITE.url}/stocks/${ticker}`,
+      "@id": `${SITE.url}${path}`,
     },
     author: {
       "@type": "Organization",
@@ -90,7 +94,7 @@ export function articleJsonLd({
       "@type": "Corporation",
       name,
       tickerSymbol: ticker,
-      url: `${SITE.url}/stocks/${ticker}`,
+      url: `${SITE.url}${path}`,
     },
     image: [`${SITE.url}/og.png`],
   };
@@ -101,11 +105,13 @@ export function profilePageJsonLd({
   name,
   description,
   date,
+  path = `/stocks/${ticker}`,
 }: {
   ticker: string;
   name: string;
   description: string;
   date: string;
+  path?: string;
 }) {
   return {
     "@context": "https://schema.org",
@@ -116,7 +122,7 @@ export function profilePageJsonLd({
       name,
       tickerSymbol: ticker,
       description,
-      url: `${SITE.url}/stocks/${ticker}`,
+      url: `${SITE.url}${path}`,
     },
     isPartOf: {
       "@type": "WebSite",

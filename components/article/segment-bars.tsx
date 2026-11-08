@@ -7,10 +7,12 @@ export function SegmentBars({
   slices,
   label,
   total,
+  currency = "USD",
 }: {
   slices: MixSlice[];
   label: string;
   total?: number;
+  currency?: string;
 }) {
   if (!slices.length) {
     return <p className="text-[12px] text-muted">No segment disclosure available.</p>;
@@ -25,7 +27,8 @@ export function SegmentBars({
             <div className="flex items-baseline justify-between gap-2">
               <span className="truncate text-[11.5px] font-medium text-ink">{slice.name}</span>
               <span className="tabular shrink-0 text-[10.5px] text-muted">
-                {formatCompactCurrency(slice.revenue)} · {formatPercent(slice.share, 1)}
+                {formatCompactCurrency(slice.revenue, currency)} ·{" "}
+                {formatPercent(slice.share, 1)}
               </span>
             </div>
             <div className="mt-1 h-2 overflow-hidden rounded-full bg-paper-deep">
@@ -43,7 +46,7 @@ export function SegmentBars({
       {total != null && (
         <p className="mt-3 text-[10.5px] text-muted">
           Revenue shown on a reported annual basis; consolidated total{" "}
-          {formatCompactCurrency(total)}.
+          {formatCompactCurrency(total, currency)}.
         </p>
       )}
     </div>

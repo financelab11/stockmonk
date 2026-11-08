@@ -1,0 +1,61 @@
+{
+  "groups": [
+    {
+      "id": "defence-electronics",
+      "name": "Defence & Electronics",
+      "count": 12
+    },
+    {
+      "id": "power-renewables",
+      "name": "Power & Renewables",
+      "count": 10
+    },
+    {
+      "id": "infra-rail-cables",
+      "name": "Infrastructure, Rail & Cables",
+      "count": 8
+    },
+    {
+      "id": "financials-capital-markets",
+      "name": "Financials & Capital Markets",
+      "count": 10
+    },
+    {
+      "id": "healthcare-pharma",
+      "name": "Healthcare & Pharma",
+      "count": 13
+    },
+    {
+      "id": "specialty-chemicals",
+      "name": "Specialty Chemicals",
+      "count": 8
+    },
+    {
+      "id": "consumer-new-age",
+      "name": "Consumer & New-Age",
+      "count": 9
+    },
+    {
+      "id": "auto-ancillaries",
+      "name": "Auto & Ancillaries",
+      "count": 7
+    },
+    {
+      "id": "real-estate-building",
+      "name": "Real Estate & Building Materials",
+      "count": 7
+    },
+    {
+      "id": "it-erd",
+      "name": "IT & ER&D",
+      "count": 8
+    },
+    {
+      "id": "metals-commodities",
+      "name": "Metals & Commodities",
+      "count": 8
+    }
+  ],
+  "count": 100,
+  "updatedAt": "2026-11-08T14:29:58.959Z"
+}

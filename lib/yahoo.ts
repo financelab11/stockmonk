@@ -71,12 +71,60 @@ export type YahooQuoteSummary = {
     freeCashflow?: { raw?: number };
     totalCash?: { raw?: number };
     totalDebt?: { raw?: number };
+    targetMeanPrice?: { raw?: number };
+    targetHighPrice?: { raw?: number };
+    targetLowPrice?: { raw?: number };
+    numberOfAnalystOpinions?: { raw?: number };
+    recommendationKey?: string;
   };
   defaultKeyStatistics?: {
     trailingEps?: { raw?: number };
     forwardEps?: { raw?: number };
     sharesOutstanding?: { raw?: number };
   };
+  earnings?: {
+    earningsChart?: {
+      quarterly?: Array<{
+        date: string;
+        actual?: { raw?: number };
+        estimate?: { raw?: number };
+        fiscalQuarter?: string;
+        calendarQuarter?: string;
+        periodEndDate?: { fmt?: string };
+      }>;
+    };
+  };
+  earningsTrend?: {
+    trend?: Array<{
+      period: string;
+      endDate?: string;
+      growth?: { raw?: number };
+      earningsEstimate?: {
+        avg?: { raw?: number };
+        growth?: { raw?: number };
+        numberOfAnalysts?: { raw?: number };
+      };
+      revenueEstimate?: {
+        avg?: { raw?: number };
+        growth?: { raw?: number };
+        numberOfAnalysts?: { raw?: number };
+      };
+    }>;
+  };
+  incomeStatementHistory?: { incomeStatementHistory?: YahooStatement[] };
+  incomeStatementHistoryQuarterly?: { incomeStatementHistory?: YahooStatement[] };
+};
+
+export type YahooStatement = {
+  endDate?: { fmt?: string };
+  totalRevenue?: { raw?: number };
+  operatingIncome?: { raw?: number };
+  netIncome?: { raw?: number };
+  grossProfit?: { raw?: number };
+  interestExpense?: { raw?: number };
+  incomeBeforeTax?: { raw?: number };
+  incomeTaxExpense?: { raw?: number };
+  totalOperatingExpenses?: { raw?: number };
 };
 
 export async function yahooQuoteSummary(

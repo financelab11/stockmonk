@@ -1,5 +1,6 @@
 import type { RiskItem, StockStory, StoryBlock } from "@/content/stocks/types";
 import { getCoverageGroup } from "@/config/coverage";
+import { getIndiaCoverageGroup } from "@/config/india-coverage";
 import type { ResearchBundle } from "./data";
 import {
   formatCompactCurrency,
@@ -567,6 +568,17 @@ const BUCKETS: Record<string, Bucket> = {
 };
 
 const GROUP_BUCKET: Record<string, string> = {
+  "defence-electronics": "industrial",
+  "power-renewables": "utilities",
+  "infra-rail-cables": "industrial",
+  "financials-capital-markets": "financial",
+  "healthcare-pharma": "healthcare",
+  "specialty-chemicals": "materials",
+  "consumer-new-age": "brands",
+  "auto-ancillaries": "cyclical",
+  "real-estate-building": "realestate",
+  "it-erd": "software",
+  "metals-commodities": "materials",
   technology: "tech",
   communication: "communication",
   "consumer-discretionary": "consumer",
@@ -596,8 +608,8 @@ function displayName(name: string): string {
   return trimmed.replace(/\b(Inc|Corp|Co|Ltd|Plc|Llc)$/i, "$1.");
 }
 
-function money(value: number | null | undefined): string {
-  return formatCompactCurrency(value);
+function money(value: number | null | undefined, currency = "USD"): string {
+  return formatCompactCurrency(value, currency);
 }
 
 function growth(value: number | null | undefined): string {
@@ -626,7 +638,15 @@ function filingHistoryUrl(bundle: ResearchBundle): string {
 
 export function generateStockStory(bundle: ResearchBundle): StockStory {
   const { data, consensus, segments, factors } = bundle;
-  const group = getCoverageGroup(data.ticker);
+  const currency = data.currency ?? "USD";
+  const price = (value: number | null | undefined) =>
+    formatCurrency(value, 2, currency);
+  const money = (value: number | null | undefined) =>
+    formatCompactCurrency(value, currency);
+  const group =
+    data.market === "IN"
+      ? getIndiaCoverageGroup(data.ticker)
+      : getCoverageGroup(data.ticker);
   const bucket =
     BUCKETS[GROUP_BUCKET[group?.id ?? ""] ?? "tech"] ?? BUCKETS.tech;
   const quarter = latestQuarter(bundle);
@@ -666,8 +686,8 @@ export function generateStockStory(bundle: ResearchBundle): StockStory {
   const bigPicture: StoryBlock = {
     paragraphs: [
       `${name} ${revenueSentence}. ${bucket.lens}`,
-      `The latest reported quarter was ${quarter ? `${quarter.period} FY${String(quarter.fyear).slice(-2)}` : "not available"}, with ${quarter ? money(quarter.revenue) : "n/a"} of revenue and an operating margin of ${quarter ? formatPercent(quarter.operatingMargin) : "n/a"}. The stock closed at ${formatCurrency(data.latestPrice.close)} on ${data.latestPrice.asOf}, giving a market capitalization of ${money(data.latestPrice.marketCap)}.`,
-      `The shares sit ${rangePosition == null ? "at an unknown position" : `${Math.round(rangePosition * 100)}% of the way up`} their 52-week range${data.latestPrice.low52 != null && data.latestPrice.high52 != null ? ` (${formatCurrency(data.latestPrice.low52)} to ${formatCurrency(data.latestPrice.high52)})` : ""}. The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock.`,
+      `The latest reported quarter was ${quarter ? `${quarter.period} FY${String(quarter.fyear).slice(-2)}` : "not available"}, with ${quarter ? money(quarter.revenue) : "n/a"} of revenue and an operating margin of ${quarter ? formatPercent(quarter.operatingMargin) : "n/a"}. The stock closed at ${price(data.latestPrice.close)} on ${data.latestPrice.asOf}, giving a market capitalization of ${money(data.latestPrice.marketCap)}.`,
+      `The shares sit ${rangePosition == null ? "at an unknown position" : `${Math.round(rangePosition * 100)}% of the way up`} their 52-week range${data.latestPrice.low52 != null && data.latestPrice.high52 != null ? ` (${price(data.latestPrice.low52)} to ${price(data.latestPrice.high52)})` : ""}. The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock.`,
     ],
     quote: `${data.ticker} is a ${group?.name ?? "US-listed"} business with ${money(revenue)} of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast.`,
   };
@@ -700,7 +720,7 @@ export function generateStockStory(bundle: ResearchBundle): StockStory {
 
   const growthBlock: StoryBlock = {
     paragraphs: [
-      `Revenue compounded at ${formatPercent(cagr)} a year across the fiscal years in the dataset, and the latest quarter changed ${growth(latestQ)} year over year. ${estimate ? `Third-party estimates for the current fiscal year point to ${money(estimate.revenueAvg)} of revenue and ${formatCurrency(estimate.epsAvg)} of EPS.` : "A current-year consensus estimate is not available in the dataset."}`,
+      `Revenue compounded at ${formatPercent(cagr)} a year across the fiscal years in the dataset, and the latest quarter changed ${growth(latestQ)} year over year. ${estimate ? `Third-party estimates for the current fiscal year point to ${money(estimate.revenueAvg)} of revenue and ${price(estimate.epsAvg)} of EPS.` : "A current-year consensus estimate is not available in the dataset."}`,
       `Growth is only useful if it earns a return. The operating margin of ${formatPercent(opMargin)} and return on invested capital of ${formatPercent(data.metrics.roic)} are the filters to watch as revenue scales.`,
     ],
     bullets: bucket.drivers,
@@ -708,7 +728,7 @@ export function generateStockStory(bundle: ResearchBundle): StockStory {
 
   const performanceBlock: StoryBlock = {
     paragraphs: [
-      `The trailing operating margin is ${formatPercent(opMargin)}, the net margin is ${formatPercent(data.metrics.netMargin)} and diluted EPS is ${data.metrics.epsTtm == null ? "not available" : formatCurrency(data.metrics.epsTtm)}. The latest quarter's operating margin was ${quarter ? formatPercent(quarter.operatingMargin) : "not available"}.`,
+      `The trailing operating margin is ${formatPercent(opMargin)}, the net margin is ${formatPercent(data.metrics.netMargin)} and diluted EPS is ${data.metrics.epsTtm == null ? "not available" : price(data.metrics.epsTtm)}. The latest quarter's operating margin was ${quarter ? formatPercent(quarter.operatingMargin) : "not available"}.`,
       `Return on equity is ${formatPercent(data.metrics.roe)}. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.`,
     ],
   };
@@ -723,17 +743,17 @@ export function generateStockStory(bundle: ResearchBundle): StockStory {
   const valuationBlock: StoryBlock = {
     paragraphs: [
       `At the latest close the shares trade at ${formatMultiple(pe)} trailing earnings and ${formatMultiple(ev)} EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.`,
-      `${target != null ? `The attributed third-party mean target is ${formatCurrency(target)}; that is a consensus figure, not a Stockmonk price target.` : "A third-party consensus target is not available in the dataset."} The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict.`,
+      `${target != null ? `The attributed third-party mean target is ${price(target)}; that is a consensus figure, not a Stockmonk price target.` : "A third-party consensus target is not available in the dataset."} The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict.`,
     ],
   };
 
   const analystsBlock: StoryBlock = {
     paragraphs: [
       consensus
-        ? `${analystCount ?? "A group of"} analysts contribute to the third-party consensus. The mean target is ${formatCurrency(consensus.targetMean)}, with a range of ${formatCurrency(consensus.targetLow)} to ${formatCurrency(consensus.targetHigh)}.`
+        ? `${analystCount ?? "A group of"} analysts contribute to the third-party consensus. The mean target is ${price(consensus.targetMean)}, with a range of ${price(consensus.targetLow)} to ${price(consensus.targetHigh)}.`
         : "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings.",
       consensus
-        ? `Current-year estimates call for ${money(estimate?.revenueAvg)} of revenue and ${formatCurrency(estimate?.epsAvg)} of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.`
+        ? `Current-year estimates call for ${money(estimate?.revenueAvg)} of revenue and ${price(estimate?.epsAvg)} of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.`
         : "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence.",
     ],
   };
@@ -756,8 +776,10 @@ export function generateStockStory(bundle: ResearchBundle): StockStory {
   const bottomLine = {
     paragraphs: [
       `${name} is a ${sectorLabel} company with ${money(revenue)} of trailing revenue, a ${formatPercent(opMargin)} operating margin and ${formatPercent(fcfMargin)} free-cash-flow margin. Those are the facts; the interpretation depends on whether the current growth and margin are durable.`,
-      `${target != null ? `The third-party consensus mean target is ${formatCurrency(target)} as of ${consensus?.asOf ?? "the latest snapshot"}. ` : ""}Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with the peer set below, then decide which risk matters most.`,
-      `The percentile scorecard below places the company within the 229-name coverage universe. A high growth score with a low balance-sheet score is a different proposition from the reverse, and neither is automatically good or bad.`,
+      `${target != null ? `The third-party consensus mean target is ${price(target)} as of ${consensus?.asOf ?? "the latest snapshot"}. ` : ""}Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with the peer set below, then decide which risk matters most.`,
+      `The percentile scorecard below places the company within the ${
+        data.market === "IN" ? "100-name India coverage universe" : "229-name coverage universe"
+      }. A high growth score with a low balance-sheet score is a different proposition from the reverse, and neither is automatically good or bad.`,
     ],
     questions: bucket.questions,
   };

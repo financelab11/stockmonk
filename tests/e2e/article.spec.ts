@@ -63,6 +63,33 @@ test.describe("research article", () => {
     await expect(page.locator("article").getByText(/SimFin|Yahoo Finance|Nasdaq/)).toHaveCount(0);
   });
 
+  test("India report has ten sections, INR figures and NSE/BSE sources", async ({ page }) => {
+    await page.goto("/india/stocks/KAYNES", { waitUntil: "networkidle" });
+
+    for (const title of [
+      "The big picture",
+      "What the company does",
+      "How it makes money",
+      "Growth drivers and catalysts",
+      "Financial performance",
+      "Cash flow and balance sheet",
+      "Valuation",
+      "What analysts expect",
+      "Risks and what to watch",
+      "The bottom line for learners",
+    ]) {
+      await expect(
+        page.getByRole("heading", { name: title, exact: true, level: 2 }),
+      ).toBeAttached();
+    }
+
+    const sourceSection = page.locator('section[aria-labelledby="article-sources"]');
+    await expect(sourceSection.locator("li")).toHaveCount(4);
+    await expect(sourceSection).toContainText(/NSE|BSE/i);
+    await expect(page.locator("article").getByText(/₹/).first()).toBeAttached();
+    await expect(page.locator("article").getByText(/SimFin|Yahoo Finance|Screener/i)).toHaveCount(0);
+  });
+
   test("search finds a ticker and navigates to its report", async ({ page }) => {
     await page.goto("/discover", { waitUntil: "networkidle" });
     const input = page.getByPlaceholder(/Search ticker, name or sector/i);

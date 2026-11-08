@@ -1,14 +1,14 @@
 # Stockmonk
 
-Independent, data-first equity research for US-listed companies. Stockmonk is a
-production-style Next.js PWA that explains how a business makes money, charts the
-reported financials, and shows attributed analyst consensus — with **no buy /
-sell / hold ratings and no Stockmonk price targets**.
+Independent, data-first equity research for US-listed and Indian companies.
+Stockmonk is a production-style Next.js PWA that explains how a business makes
+money, charts the reported financials, and shows attributed analyst consensus —
+with **no buy / sell / hold ratings and no Stockmonk price targets**.
 
-- **229 companies** in the coverage universe, each with a hand-written
-  ten-section research report. Every report is authored against a per-company
-  factual brief, with quantitative claims tied to the processed dataset and
-  the latest SEC filing.
+- **229 US-listed companies** and **100 NSE-listed Indian companies**, each with
+  a hand-written ten-section research report. Every report is authored against a
+  per-company factual brief, with quantitative claims tied to the processed
+  dataset and the latest SEC, NSE or BSE filing.
 - Ten sourced article sections, a chart in every analytical section, peer
   comparison, consensus and risk sections.
 - Works offline for visited pages; installable on desktop and mobile.
@@ -63,7 +63,10 @@ Lighthouse difference.
 | `/discover/all-stocks` | Full universe grouped by sector, filters and sort |
 | `/newsfeed` | Data-change feed with category and ticker filters, load more, RSS |
 | `/framework` | Methodology, formulas, peer/valuation approach |
-| `/stocks/[ticker]` | Ten-section research report for all 229 coverage names |
+| `/stocks/[ticker]` | Ten-section research report for all 229 US coverage names |
+| `/india` | Featured India research, data-quality screens and search |
+| `/india/all-stocks` | Full India universe grouped by sector |
+| `/india/stocks/[ticker]` | Ten-section research report for all 100 India names |
 | `/watchlist` | Local-first watchlist backed by `localStorage` |
 | `/about`, `/privacy`, `/terms`, `/editorial-guidelines`, `/data-sources` | Editorial and legal pages |
 | `/offline` | Serwist offline fallback |
@@ -81,7 +84,9 @@ pnpm backfill:filings   # copy latest 10-K URLs into processed records
 pnpm ingest:consensus   # Third-party consensus snapshots, cross-checked across providers
 pnpm ingest:segments    # 10-K segment and geography mixes for the core names
 pnpm build:data         # public/data/stocks.json + search-index.json
-pnpm audit:generated    # scan all 229 generated reports for text defects
+pnpm audit:generated    # scan generated reports for text defects
+pnpm ingest:india       # India statements, prices and consensus
+pnpm build:india        # public/data/india/stocks.json + search-index.json
 pnpm refresh            # run all of the above in order
 ```
 
@@ -92,6 +97,10 @@ Outputs:
 - `data/segments/{ticker}.json` — segment and geography mix with the 10-K source URL.
 - `public/data/prices/{ticker}/{range}.json` — downsampled price series (≤ 600 points).
 - `public/data/stocks.json` and `public/data/search-index.json` — lightweight directory files.
+- `data/india/processed/{ticker}/data.json` — India statements, ratios and factors in INR.
+- `data/india/consensus/{ticker}.json` — attributed India consensus snapshot.
+- `public/data/india/prices/{ticker}/{range}.json` — India price series.
+- `public/data/india/stocks.json` and `public/data/india/search-index.json` — India directory files.
 
 ### Story authoring
 
@@ -108,6 +117,16 @@ pnpm audit:stories       # length, duplicate-text and vendor-leak checks
 The brief is the only approved source of quantitative claims. Briefs are
 written under `data/raw/` and are not committed; the narrative files are.
 
+India uses the same workflow under `content/india-stocks/`:
+
+```bash
+pnpm india:stories:briefs      # data/india/raw/story-briefs/{ticker}.md
+pnpm india:stories:materialize # skeleton for a new NSE ticker
+pnpm india:stories:index       # regenerate content/india-stocks/index.ts
+pnpm validate:india-content    # editorial checks for all 100 India reports
+pnpm audit:india-stories       # length, duplicate-text and vendor-leak checks
+```
+
 ### How to add a company
 
 1. Add the ticker to the relevant group in `config/coverage.ts`. The research
@@ -120,6 +139,13 @@ written under `data/raw/` and are not committed; the narrative files are.
    `pnpm stories:materialize`.
 4. Write the report in `content/stocks/{ticker}.ts`, run `pnpm stories:index`,
    `pnpm audit:stories` and `pnpm validate:content`.
+
+For India, add the ticker to `config/india-coverage.ts`, run
+`pnpm ingest:india` and `pnpm build:india`, then
+`pnpm india:stories:briefs` and `pnpm india:stories:materialize`. Write the
+report in `content/india-stocks/{ticker}.ts`, then run
+`pnpm india:stories:index`, `pnpm validate:india-content` and
+`pnpm audit:india-stories`.
 4. If it is a research name, add a story in `content/stocks/{TICKER}.ts` and
    export it from `content/stocks/index.ts`. The article template needs no
    changes.

@@ -1,0 +1,92 @@
+{
+  "ticker": "JBCHEPHARM",
+  "provider": "Third-party consensus",
+  "asOf": "2026-07-16",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=JBCHEPHARM",
+  "targetMean": 2328.1428,
+  "targetHigh": 2744,
+  "targetLow": 1900,
+  "recommendationKey": "none",
+  "analystCount": 7,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-06-30",
+      "revenueAvg": 11222250000,
+      "revenueGrowth": 0.025899999,
+      "epsAvg": 13.55,
+      "epsGrowth": 0.0627,
+      "analystCount": 4
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2026-09-30",
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 0
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 47604150000,
+      "revenueGrowth": 0.14770001,
+      "epsAvg": 58.29,
+      "epsGrowth": 0.275,
+      "analystCount": 6
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 54408333330,
+      "revenueGrowth": 0.1429,
+      "epsAvg": 73.70286,
+      "epsGrowth": 0.2644,
+      "analystCount": 6
+    }
+  ],
+  "history": [
+    {
+      "quarter": "1Q2026",
+      "endDate": "2025-06-30",
+      "epsActual": 12.75,
+      "epsEstimate": 13.6,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2026",
+      "endDate": "2025-09-30",
+      "epsActual": 13.08,
+      "epsEstimate": 12.9,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 12.45,
+      "epsEstimate": 12.5,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 7.5954,
+      "epsEstimate": 8.4,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-06-30",
+    "revenueAvg": 11222250000,
+    "revenueGrowth": 0.025899999,
+    "epsAvg": 13.55,
+    "epsGrowth": 0.0627,
+    "analystCount": 4
+  }
+}

@@ -16,10 +16,21 @@ const integer = new Intl.NumberFormat("en-US", {
   maximumFractionDigits: 0,
 });
 
-export function formatCompactCurrency(value: number | null | undefined): string {
+export function formatCompactCurrency(
+  value: number | null | undefined,
+  currency = "USD",
+): string {
   if (value == null || !Number.isFinite(value)) return "n/a";
   const sign = value < 0 ? "-" : "";
   const abs = Math.abs(value);
+  if (currency === "INR") {
+    if (abs >= 1_000_000_000_000) return `${sign}₹${compactTwo.format(abs / 1_000_000_000_000)}T`;
+    if (abs >= 1_000_000_000) return `${sign}₹${compact.format(abs / 1_000_000_000)}B`;
+    if (abs >= 10_000_000) return `${sign}₹${compact.format(abs / 10_000_000)} Cr`;
+    if (abs >= 100_000) return `${sign}₹${compact.format(abs / 100_000)} L`;
+    if (abs >= 1_000) return `${sign}₹${compact.format(abs / 1_000)}K`;
+    return `${sign}₹${decimal.format(abs)}`;
+  }
   if (abs >= 1_000_000_000_000) return `${sign}$${compactTwo.format(abs / 1_000_000_000_000)}T`;
   if (abs >= 1_000_000_000) return `${sign}$${compact.format(abs / 1_000_000_000)}B`;
   if (abs >= 1_000_000) return `${sign}$${compact.format(abs / 1_000_000)}M`;
@@ -27,11 +38,15 @@ export function formatCompactCurrency(value: number | null | undefined): string 
   return `${sign}$${decimal.format(abs)}`;
 }
 
-export function formatCurrency(value: number | null | undefined, digits = 2): string {
+export function formatCurrency(
+  value: number | null | undefined,
+  digits = 2,
+  currency = "USD",
+): string {
   if (value == null || !Number.isFinite(value)) return "n/a";
-  return new Intl.NumberFormat("en-US", {
+  return new Intl.NumberFormat(currency === "INR" ? "en-IN" : "en-US", {
     style: "currency",
-    currency: "USD",
+    currency,
     minimumFractionDigits: digits,
     maximumFractionDigits: digits,
   }).format(value);

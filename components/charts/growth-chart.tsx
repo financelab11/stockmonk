@@ -23,10 +23,12 @@ export default function GrowthChart({
   points,
   valueLabel = "Revenue",
   secondaryLabel = "YoY growth",
+  currency = "USD",
 }: {
   points: GrowthPoint[];
   valueLabel?: string;
   secondaryLabel?: string;
+  currency?: string;
 }) {
   const data = points.filter((point) => point.value != null);
   if (!data.length) {
@@ -43,7 +45,7 @@ export default function GrowthChart({
             yAxisId="left"
             {...axisProps}
             width={52}
-            tickFormatter={(value: number) => formatCompactCurrency(value)}
+            tickFormatter={(value: number) => formatCompactCurrency(value, currency)}
           />
           <YAxis
             yAxisId="right"
@@ -57,7 +59,7 @@ export default function GrowthChart({
             formatter={(value, name) => {
               const numeric = Number(value);
               if (name === secondaryLabel) return [formatPercent(numeric), name];
-              return [formatCompactCurrency(numeric), name];
+              return [formatCompactCurrency(numeric, currency), name];
             }}
           />
           <Bar

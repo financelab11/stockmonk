@@ -1,0 +1,59 @@
+{
+  "ticker": "ANANDRATHI",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=ANANDRATHI",
+  "targetMean": 1580,
+  "targetHigh": 1630,
+  "targetLow": 1530,
+  "recommendationKey": "none",
+  "analystCount": 2,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 3650000000,
+      "revenueGrowth": 0.2603,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 3710000000,
+      "revenueGrowth": 0.289,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 14019000000,
+      "revenueGrowth": 0.2203,
+      "epsAvg": 27.9,
+      "epsGrowth": 0.183,
+      "analystCount": 1
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 17133000000,
+      "revenueGrowth": 0.22209999,
+      "epsAvg": 33.255,
+      "epsGrowth": 0.1919,
+      "analystCount": 2
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 3650000000,
+    "revenueGrowth": 0.2603,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 1
+  }
+}

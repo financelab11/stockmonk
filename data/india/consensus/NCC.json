@@ -1,0 +1,84 @@
+{
+  "ticker": "NCC",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=NCC",
+  "targetMean": 188.7,
+  "targetHigh": 239,
+  "targetLow": 156,
+  "recommendationKey": "none",
+  "analystCount": 10,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": null,
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 0
+    },
+    {
+      "period": "Following quarter",
+      "endDate": null,
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 0
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 208826000000,
+      "revenueGrowth": 0.1958,
+      "epsAvg": 10.48369,
+      "epsGrowth": 0.060900003,
+      "analystCount": 1
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 220172858670,
+      "revenueGrowth": 0.0543,
+      "epsAvg": 13.54108,
+      "epsGrowth": 0.2916,
+      "analystCount": 10
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 1.6973,
+      "epsEstimate": 1.79,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 2.98,
+      "epsEstimate": 2.875,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 2.6,
+      "epsEstimate": 1.6,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": null,
+    "revenueAvg": 0,
+    "revenueGrowth": null,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 0
+  }
+}

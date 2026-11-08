@@ -15,7 +15,7 @@ export function whyInteresting(entry: UniverseEntry): string {
   const sentences: string[] = [];
   if (entry.operatingMargin != null) {
     sentences.push(
-      `Operating margin is ${formatPercent(entry.operatingMargin)} and revenue is ${formatCompactCurrency(entry.revenueTtm)} on a trailing basis.`,
+      `Operating margin is ${formatPercent(entry.operatingMargin)} and revenue is ${formatCompactCurrency(entry.revenueTtm, entry.currency ?? "USD")} on a trailing basis.`,
     );
   }
   if (growth) sentences.push(growth.detail);
@@ -33,7 +33,7 @@ export function whyInterestingFromData(data: TickerData): string {
   const parts: string[] = [];
   if (metrics.revenueGrowthTtm != null) {
     parts.push(
-      `Revenue grew ${formatPercent(metrics.revenueGrowthTtm)} over the trailing year to ${formatCompactCurrency(metrics.revenueTtm)}.`,
+      `Revenue grew ${formatPercent(metrics.revenueGrowthTtm)} over the trailing year to ${formatCompactCurrency(metrics.revenueTtm, data.currency ?? "USD")}.`,
     );
   }
   if (metrics.operatingMargin != null) {

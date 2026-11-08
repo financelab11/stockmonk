@@ -1,0 +1,100 @@
+{
+  "ticker": "NATIONALUM",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=NATIONALUM",
+  "targetMean": 399.64285,
+  "targetHigh": 480,
+  "targetLow": 315,
+  "recommendationKey": "buy",
+  "analystCount": 14,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-09-30",
+      "revenueAvg": 51272285710,
+      "revenueGrowth": 0.19450001,
+      "epsAvg": 13.08243,
+      "epsGrowth": 0.6772,
+      "analystCount": 7
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 57474000000,
+      "revenueGrowth": 0.14649999,
+      "epsAvg": 9.67364,
+      "epsGrowth": 0.0346,
+      "analystCount": 1
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 209491740000,
+      "revenueGrowth": 0.1741,
+      "epsAvg": 38.74941,
+      "epsGrowth": 0.2235,
+      "analystCount": 13
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 216513246730,
+      "revenueGrowth": 0.0335,
+      "epsAvg": 39.73211,
+      "epsGrowth": 0.0254,
+      "analystCount": 14
+    }
+  ],
+  "history": [
+    {
+      "quarter": "2Q2026",
+      "endDate": "2025-09-30",
+      "epsActual": 7.8,
+      "epsEstimate": 6.2,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 9.35,
+      "epsEstimate": 9.78,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 8.72,
+      "epsEstimate": 8.05,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 10.9,
+      "epsEstimate": 10.21473,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 9.99,
+      "epsEstimate": 13.08243,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-09-30",
+    "revenueAvg": 51272285710,
+    "revenueGrowth": 0.19450001,
+    "epsAvg": 13.08243,
+    "epsGrowth": 0.6772,
+    "analystCount": 7
+  }
+}

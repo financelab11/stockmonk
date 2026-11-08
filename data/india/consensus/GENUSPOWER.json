@@ -1,0 +1,59 @@
+{
+  "ticker": "GENUSPOWER",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=GENUSPOWER",
+  "targetMean": 395,
+  "targetHigh": 450,
+  "targetLow": 340,
+  "recommendationKey": "none",
+  "analystCount": 2,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": null,
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 0
+    },
+    {
+      "period": "Following quarter",
+      "endDate": null,
+      "revenueAvg": 0,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 0
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 60586500000,
+      "revenueGrowth": 0.2789,
+      "epsAvg": 22.9,
+      "epsGrowth": 0.15720001,
+      "analystCount": 2
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 66824000000,
+      "revenueGrowth": 0.103,
+      "epsAvg": 25.9,
+      "epsGrowth": 0.131,
+      "analystCount": 2
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": null,
+    "revenueAvg": 0,
+    "revenueGrowth": null,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 0
+  }
+}

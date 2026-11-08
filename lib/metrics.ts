@@ -299,7 +299,10 @@ export type ChipInput = {
 };
 
 /** Percentile scores across the covered research universe. */
-export function buildFactorChips(all: ChipInput[]): Record<string, FactorChip[]> {
+export function buildFactorChips(
+  all: ChipInput[],
+  currency = "USD",
+): Record<string, FactorChip[]> {
   const growthPop = all.map((x) => {
     const vals = [x.metrics.revenueGrowthTtm, x.metrics.epsGrowthTtm].filter((v): v is number => v !== null);
     return vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : null;
@@ -366,8 +369,8 @@ export function buildFactorChips(all: ChipInput[]): Record<string, FactorChip[]>
         nd === null
           ? "Debt data unavailable."
           : nd < 0
-            ? `Net cash of ${formatCompact(-nd)}.`
-            : `Net debt of ${formatCompact(nd)}${ndEbitda !== null ? `, ${ndEbitda.toFixed(1)}× EBITDA` : ""}.`,
+            ? `Net cash of ${formatCompact(-nd, currency)}.`
+            : `Net debt of ${formatCompact(nd, currency)}${ndEbitda !== null ? `, ${ndEbitda.toFixed(1)}× EBITDA` : ""}.`,
     });
 
     chips.push({
@@ -400,13 +403,23 @@ function toneFor(value: number | null): FactorChip["tone"] {
   return "caution";
 }
 
-export function formatCompact(value: number | null | undefined): string {
+export function formatCompact(
+  value: number | null | undefined,
+  currency = "USD",
+): string {
   if (value === null || value === undefined) return "—";
   const abs = Math.abs(value);
-  if (abs >= 1e12) return `$${(value / 1e12).toFixed(1)}T`;
-  if (abs >= 1e9) return `$${(value / 1e9).toFixed(1)}B`;
-  if (abs >= 1e6) return `$${(value / 1e6).toFixed(1)}M`;
-  return `$${value.toFixed(0)}`;
+  const symbol = currency === "INR" ? "₹" : "$";
+  if (currency === "INR") {
+    if (abs >= 1e9) return `${symbol}${(value / 1e9).toFixed(1)}B`;
+    if (abs >= 1e7) return `${symbol}${(value / 1e7).toFixed(1)} Cr`;
+    if (abs >= 1e5) return `${symbol}${(value / 1e5).toFixed(1)} L`;
+    return `${symbol}${value.toFixed(0)}`;
+  }
+  if (abs >= 1e12) return `${symbol}${(value / 1e12).toFixed(1)}T`;
+  if (abs >= 1e9) return `${symbol}${(value / 1e9).toFixed(1)}B`;
+  if (abs >= 1e6) return `${symbol}${(value / 1e6).toFixed(1)}M`;
+  return `${symbol}${value.toFixed(0)}`;
 }
 
 /** Keep at most `maxPoints` samples while always retaining the latest point. */

@@ -1,0 +1,92 @@
+{
+  "ticker": "JKCEMENT",
+  "provider": "Third-party consensus",
+  "asOf": "2026-11-08",
+  "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=JKCEMENT",
+  "targetMean": 5955.75,
+  "targetHigh": 7400,
+  "targetLow": 4250,
+  "recommendationKey": "buy",
+  "analystCount": 28,
+  "distribution": null,
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 43071500000,
+      "revenueGrowth": 0.24370001,
+      "epsAvg": 36.7,
+      "epsGrowth": 0.3607,
+      "analystCount": 2
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 46905500000,
+      "revenueGrowth": 0.2066,
+      "epsAvg": 57,
+      "epsGrowth": 0.3231,
+      "analystCount": 2
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2027-03-31",
+      "revenueAvg": 162660523800,
+      "revenueGrowth": 0.2565,
+      "epsAvg": 149.45,
+      "epsGrowth": 0.0842,
+      "analystCount": 27
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2028-03-31",
+      "revenueAvg": 182023770760,
+      "revenueGrowth": 0.1718,
+      "epsAvg": 204.16667,
+      "epsGrowth": 0.3661,
+      "analystCount": 28
+    }
+  ],
+  "history": [
+    {
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 27.2708,
+      "epsEstimate": 29.8,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "4Q2026",
+      "endDate": "2026-03-31",
+      "epsActual": 44.59,
+      "epsEstimate": 53.36667,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 37.66,
+      "epsEstimate": 37.35,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 24.59,
+      "epsEstimate": 24.1,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 43071500000,
+    "revenueGrowth": 0.24370001,
+    "epsAvg": 36.7,
+    "epsGrowth": 0.3607,
+    "analystCount": 2
+  }
+}

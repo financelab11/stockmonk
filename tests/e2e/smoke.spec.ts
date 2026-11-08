@@ -7,6 +7,7 @@ const ROUTES = [
   "/india",
   "/india/all-stocks",
   "/india/stocks/KAYNES",
+  "/screener",
   "/newsfeed",
   "/framework",
   "/stocks/NVDA",

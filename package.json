@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "pnpm validate:content && pnpm validate:india-content && next build",
+    "build": "pnpm validate:content && pnpm validate:india-content && pnpm build:screener && next build",
     "validate:content": "tsx scripts/validate-content.ts",
     "validate:india-content": "tsx scripts/validate-india-content.ts",
     "start": "next start",
@@ -23,6 +23,7 @@
     "ingest:fallback": "tsx scripts/ingest-fallback.ts",
     "ingest:consensus": "tsx scripts/ingest-consensus.ts",
     "ingest:segments": "tsx scripts/ingest-segments.ts",
+    "ingest:benchmark": "tsx scripts/ingest-benchmark.ts",
     "ingest:india": "tsx scripts/ingest-india.ts",
     "build:india": "tsx scripts/build-india-data.ts",
     "india:stories:briefs": "tsx scripts/build-india-story-briefs.ts",
@@ -36,8 +37,9 @@
     "stories:materialize": "tsx scripts/materialize-stories.ts",
     "stories:index": "tsx scripts/build-stories-index.ts",
     "build:data": "tsx scripts/build-public-data.ts",
+    "build:screener": "tsx scripts/build-screener-data.ts",
     "assets": "node scripts/generate-brand-assets.cjs",
-    "refresh": "pnpm ingest:edgar && pnpm ingest:simfin && pnpm ingest:fallback && pnpm backfill:filings && pnpm ingest:consensus && pnpm ingest:segments && pnpm build:data"
+    "refresh": "pnpm ingest:edgar && pnpm ingest:simfin && pnpm ingest:fallback && pnpm backfill:filings && pnpm ingest:consensus && pnpm ingest:segments && pnpm ingest:benchmark && pnpm build:data && pnpm build:screener"
   },
   "dependencies": {
     "@serwist/next": "^9.5.13",

@@ -261,6 +261,16 @@ export const consensusSchema = z.object({
       analystCount: z.number().nullable(),
     })
     .nullable(),
+  revisions: z
+    .object({
+      eps7d: z.number().nullable(),
+      eps30d: z.number().nullable(),
+      eps60d: z.number().nullable(),
+      eps90d: z.number().nullable(),
+      revenue30d: z.number().nullable(),
+    })
+    .nullable()
+    .optional(),
 });
 
 export type Consensus = z.infer<typeof consensusSchema>;

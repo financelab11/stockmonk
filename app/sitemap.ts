@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/`, lastModified: now, changeFrequency: "daily", priority: 1 },
     { url: `${SITE.url}/discover`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE.url}/discover/all-stocks`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
+    { url: `${SITE.url}/screener`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE.url}/india`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE.url}/india/all-stocks`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
     { url: `${SITE.url}/newsfeed`, lastModified: now, changeFrequency: "hourly", priority: 0.8 },

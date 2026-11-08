@@ -29,19 +29,23 @@ describe("data integrity", () => {
     expect(parsed.find((entry) => entry.ticker === "CAVA")?.isResearch).toBe(true);
   });
 
-  it("validates every processed company and its headline fundamentals", () => {
-    for (const ticker of RESEARCH_TICKERS) {
-      const data = tickerDataSchema.parse(
-        readJson(path.join(ROOT, "data", "processed", ticker, "data.json")),
-      );
-      expect(data.ticker).toBe(ticker);
-      expect(data.metrics.revenueTtm, ticker).not.toBeNull();
-      expect(data.metrics.revenueTtm, ticker).toBeGreaterThanOrEqual(0);
-      expect(data.latestPrice.close, ticker).toBeGreaterThan(0);
-      expect(data.annual.length, ticker).toBeGreaterThan(0);
-      expect(data.factorChips.length, ticker).toBeGreaterThanOrEqual(5);
-    }
-  });
+  it(
+    "validates every processed company and its headline fundamentals",
+    () => {
+      for (const ticker of RESEARCH_TICKERS) {
+        const data = tickerDataSchema.parse(
+          readJson(path.join(ROOT, "data", "processed", ticker, "data.json")),
+        );
+        expect(data.ticker).toBe(ticker);
+        expect(data.metrics.revenueTtm, ticker).not.toBeNull();
+        expect(data.metrics.revenueTtm, ticker).toBeGreaterThanOrEqual(0);
+        expect(data.latestPrice.close, ticker).toBeGreaterThan(0);
+        expect(data.annual.length, ticker).toBeGreaterThan(0);
+        expect(data.factorChips.length, ticker).toBeGreaterThanOrEqual(5);
+      }
+    },
+    60_000,
+  );
 
   it(
     "has price files for every research ticker",

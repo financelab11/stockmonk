@@ -23,6 +23,13 @@ type YahooTrend = {
     numberOfAnalysts?: YahooValue;
     yearAgoRevenue?: YahooValue;
   };
+  epsTrend?: {
+    current?: YahooValue;
+    "7daysAgo"?: YahooValue;
+    "30daysAgo"?: YahooValue;
+    "60daysAgo"?: YahooValue;
+    "90daysAgo"?: YahooValue;
+  };
 };
 
 type YahooHistoryRow = {
@@ -262,6 +269,13 @@ function yahooConsensus(
     : null;
 
   const currentQuarter = estimates.find((estimate) => estimate.period === "Next quarter") ?? null;
+  const revisionTrend = y0 ?? q0;
+  const currentEps = ynum(revisionTrend?.epsTrend?.current);
+  const revision = (previous: YahooValue): number | null => {
+    const oldValue = ynum(previous);
+    if (currentEps == null || oldValue == null || oldValue === 0) return null;
+    return currentEps / oldValue - 1;
+  };
 
   return {
     ticker,
@@ -284,6 +298,13 @@ function yahooConsensus(
       revenueEstimate: null,
     })),
     currentQuarter,
+    revisions: {
+      eps7d: revision(revisionTrend?.epsTrend?.["7daysAgo"]),
+      eps30d: revision(revisionTrend?.epsTrend?.["30daysAgo"]),
+      eps60d: revision(revisionTrend?.epsTrend?.["60daysAgo"]),
+      eps90d: revision(revisionTrend?.epsTrend?.["90daysAgo"]),
+      revenue30d: null,
+    },
   };
 }
 

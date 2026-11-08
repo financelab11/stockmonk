@@ -90,6 +90,22 @@ test.describe("research article", () => {
     await expect(page.locator("article").getByText(/SimFin|Yahoo Finance|Screener/i)).toHaveCount(0);
   });
 
+  test("screener shows factor tabs, parameters and expandable detail", async ({ page }) => {
+    await page.goto("/screener", { waitUntil: "networkidle" });
+    await expect(page.getByRole("heading", { name: "US equity screener" })).toBeVisible();
+    await expect(page.getByText(/229 US-listed companies/).first()).toBeVisible();
+
+    await page.getByRole("link", { name: /Q · Quality/i }).click();
+    await expect(page.getByText("ROE", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("ROIC", { exact: true }).first()).toBeVisible();
+
+    await page.getByPlaceholder(/Search ticker, name or sector/i).fill("NVDA");
+    await expect(page.getByText("NVDA", { exact: true }).first()).toBeVisible();
+
+    await page.getByRole("link", { name: "Details" }).first().click();
+    await expect(page.getByText(/Parameter coverage:/i).first()).toBeVisible();
+  });
+
   test("search finds a ticker and navigates to its report", async ({ page }) => {
     await page.goto("/discover", { waitUntil: "networkidle" });
     const input = page.getByPlaceholder(/Search ticker, name or sector/i);

@@ -61,6 +61,7 @@ Lighthouse difference.
 | `/` | Hero, recently researched, data distribution, spotlight, latest updates, Pro demo |
 | `/discover` | Featured research, data-quality screens, search, pricing demo |
 | `/discover/all-stocks` | Full universe grouped by sector, filters and sort |
+| `/screener` | Five-factor quantitative screener for all 229 US names |
 | `/newsfeed` | Data-change feed with category and ticker filters, load more, RSS |
 | `/framework` | Methodology, formulas, peer/valuation approach |
 | `/stocks/[ticker]` | Ten-section research report for all 229 US coverage names |
@@ -101,6 +102,28 @@ Outputs:
 - `data/india/consensus/{ticker}.json` — attributed India consensus snapshot.
 - `public/data/india/prices/{ticker}/{range}.json` — India price series.
 - `public/data/india/stocks.json` and `public/data/india/search-index.json` — India directory files.
+
+### Screener model
+
+`/screener` scores every US coverage name on five factors:
+
+| Factor | Weight | Main inputs |
+| --- | --- | --- |
+| Growth | 20% | Revenue, EBITDA, EBIT, EPS, PAT and FCF CAGR; growth acceleration; forward estimates |
+| Quality | 25% | ROE, ROCE, ROIC, margins, CFO/PAT, accruals, leverage, interest cover, ROIC stability |
+| Valuation | 20% | P/E, forward P/E, EV/EBITDA, EV/EBIT, EV/Sales, P/B, P/FCF, yields, PEG, history |
+| Momentum | 20% | 1M/3M/6M/12M returns, 12M-1M, relative strength, moving averages, EPS revisions and surprises |
+| Low Volatility | 15% | 30D/90D/252D volatility, beta, downside deviation, drawdown, Sortino, Sharpe, VaR |
+
+Raw values are winsorized at the 2nd/98th percentile and converted to 0–100
+percentiles within the company's coverage group where enough peers exist. The
+composite is the weighted factor average, re-normalised for available factors.
+Missing parameters render as n/a; they are not filled with estimates. Score
+bands are descriptive, not ratings.
+
+The daily refresh workflow lives in `.github/workflows/daily-refresh.yml`. It
+runs the US and India ingestion, rebuilds the public data files, and commits the
+refreshed data. Set the `SIMFIN_API_KEY` repository secret for it to run.
 
 ### Story authoring
 

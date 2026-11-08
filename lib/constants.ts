@@ -18,6 +18,7 @@ export const DISCLAIMER_SHORT =
 export const NAV_LINKS = [
   { href: "/discover", label: "Discover" },
   { href: "/india", label: "India Stocks" },
+  { href: "/screener", label: "Screener" },
   { href: "/newsfeed", label: "Newsfeed" },
 ] as const;
 
@@ -27,6 +28,7 @@ export const FOOTER_COLUMNS = [
     links: [
       { href: "/discover", label: "Discover" },
       { href: "/discover/all-stocks", label: "All stocks" },
+      { href: "/screener", label: "US screener" },
       { href: "/india", label: "India Stocks" },
       { href: "/india/all-stocks", label: "All India stocks" },
       { href: "/newsfeed", label: "Newsfeed" },

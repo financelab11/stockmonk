@@ -94,5 +94,12 @@
     "epsAvg": 0.57833,
     "epsGrowth": 0.56310004,
     "analystCount": 6
+  },
+  "revisions": {
+    "eps7d": 0,
+    "eps30d": 0.012021199404244065,
+    "eps60d": 0.007179054054053946,
+    "eps90d": 0.05811889973380646,
+    "revenue30d": null
   }
 }

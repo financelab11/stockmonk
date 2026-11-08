@@ -3,9 +3,9 @@ import { COVERAGE_GROUPS } from "./coverage";
 /**
  * The Stockmonk coverage universe.
  *
- * Every company now receives the full research treatment: generated reports
- * for the expanded 229-name universe, with hand-written reports retained for
- * the original ten core names.
+ * Every company now receives the full research treatment: a hand-written
+ * ten-section report for all 229 names, with the original ten retained as the
+ * home-page feature set.
  */
 export const CORE_RESEARCH_TICKERS = [
   "NVDA",

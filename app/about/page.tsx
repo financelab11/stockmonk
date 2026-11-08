@@ -27,13 +27,12 @@ export default function AboutPage() {
         things are clear, the valuation question becomes easier to ask.
       </p>
       <p>
-        The library currently covers 229 US-listed companies. Every name gets
-        the full ten-section research report, with hand-written narratives for
-        the original ten core companies and a consistent generated template for
-        the rest. The coverage universe is deliberately broad — banks, energy,
-        staples and insurers sit alongside software, semiconductors and
-        early-stage biotech — because a research process should work across
-        business models.
+        The library currently covers 229 US-listed companies. Every name gets a
+        hand-written ten-section research report, authored against its own
+        financial brief and the latest SEC filing. The coverage universe is
+        deliberately broad — banks, energy, staples and insurers sit alongside
+        software, semiconductors and early-stage biotech — because a research
+        process should work across business models.
       </p>
 
       <h2>What we publish</h2>

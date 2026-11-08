@@ -1,3 +1,4 @@
+import { STOCK_STORIES } from "../content/stocks";
 import { validateContent } from "../lib/validate-content";
 
 const errors = validateContent();
@@ -8,4 +9,6 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-console.log("[validate:content] all ten stories pass the editorial checks");
+console.log(
+  `[validate:content] all ${Object.keys(STOCK_STORIES).length} stories pass the editorial checks`,
+);

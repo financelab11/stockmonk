@@ -1,0 +1,181 @@
+import type { StockStory } from "./types";
+
+export const PLD: StockStory = {
+  ticker: "PLD",
+  kicker: "Real estate · Industrial logistics",
+  title: "Prologis is a landlord with a development business bolted on",
+  dek: "The rent roll is the annuity. Building new warehouses is the growth engine, and it consumes cash years before it produces any. A large one-off quarter makes the trailing figures a poor guide to either.",
+  readingMinutes: 9,
+  takeaways: [
+    "Trailing revenue is $12.3B, up 40.5%, but the third-party estimate for the current fiscal year is $8.75B, which is closer to the underlying run-rate.",
+    "Operating margin is 66.6% and net margin 59.6%, both inflated by a single quarter with $5.30B of revenue against a $2.3B run-rate.",
+    "Free cash flow is $372.3M, a 3.0% margin, because development spending absorbs most of the rent collected.",
+    "At $126.96 the shares trade at 16.5x earnings and 20.1x EV/EBITDA, and the five-year return is negative 0.6%.",
+  ],
+  filingUrl:
+    "https://www.sec.gov/Archives/edgar/data/1045609/000119312526051453/pld-20251231.htm",
+  irUrl:
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045609&type=&dateb=&owner=include&count=40",
+  bigPicture: {
+    paragraphs: [
+      "Prologis owns, develops and operates industrial and logistics buildings in more than eighteen countries, organised into Americas, Europe and Asia divisions. Its tenants are the companies that move and store physical goods: retailers, e-commerce operators, logistics providers, manufacturers and distributors.",
+      "The business has two engines. The first is the standing portfolio, which collects rent under leases that typically run for several years and reset toward market when they expire. The second is development, where the company buys land, builds a warehouse and leases it, earning a return on the cost of construction that is usually higher than the yield on an existing building.",
+      "The company is valued at $120.7B at $126.96 a share, The shares have traded between $121.40 and $153.35 over the past year and sit near the bottom of that band. Revenue is $12.3B on a trailing basis, operating margin 66.6% and net margin 59.6%, and net cash on the balance sheet is $2.27B.",
+    ],
+    quote:
+      "A REIT's net income is not its cash flow. Buildings depreciate on the income statement while often holding or gaining value, which is why the sector is measured on funds from operations instead.",
+  },
+  whatItDoes: {
+    paragraphs: [
+      "The standing portfolio is the core. A warehouse is a simple asset: a large box, a loading dock, a clear height and a location near a highway, a port or a population centre. The tenant signs a lease, pays base rent plus a share of property taxes, insurance and maintenance, and usually renews because moving a distribution network is expensive.",
+      "Development is the growth engine. The company acquires land, builds to a specification, and leases the finished building. The return depends on the cost of construction, the rent achieved and the time between spending the money and collecting it. A building completed without a tenant is a cost with no revenue.",
+      "The third activity is acquisition and disposition. Buying a portfolio adds rent immediately; selling a mature building recycles capital into development. Both create gains and losses that flow through net income but are not part of the recurring rent roll.",
+    ],
+    bullets: [
+      {
+        title: "Same-store rental",
+        detail:
+          "Rent from the standing portfolio. Growth comes from occupancy and from leases resetting to market.",
+      },
+      {
+        title: "Development",
+        detail:
+          "New buildings leased at a yield above their cost. The highest-return activity and the most capital-hungry.",
+      },
+      {
+        title: "Strategic capital",
+        detail:
+          "Co-investment vehicles that hold assets with partners, earning fees and a share of the returns.",
+      },
+    ],
+  },
+  howItMakesMoney: {
+    paragraphs: [
+      "The unit economics are per square foot. Revenue is rent per square foot multiplied by leased area. The costs are property operating expenses, property taxes and maintenance, most of which are recoverable from tenants under the lease. What remains is net operating income, which is the number that matters for a landlord.",
+      "Leasing spreads are the mechanism that turns inflation into rent growth. When a lease signed five years ago expires, the new rent is set at the current market. If market rents have risen, the spread is positive and the same building earns more without any new capital. If the market has softened, the spread is negative and the rent rolls down.",
+      "Depreciation is the accounting wrinkle. A building is depreciated over decades on the income statement, but the cash is not spent again unless the building needs capital work. Net income therefore understates the cash generated by a stable portfolio, and gains on sales can push net income above operating income, which is why a REIT can report a 59.6% net margin alongside a 66.6% operating margin.",
+    ],
+  },
+  growth: {
+    paragraphs: [
+      "Revenue grew at a 17.6% compound rate from $4.76B in FY2021 to $8.79B in FY2025. That is fast for a landlord, and it came from a combination of portfolio acquisitions and development rather than from rent increases alone.",
+      "The relationship between revenue and operating income over the same period is worth examining. Revenue rose 85% from FY2021 to FY2023, while operating income rose only 16%. Acquired and newly developed buildings bring their operating costs with them, so the incremental revenue carries a thinner margin than the existing portfolio. Growth by acquisition is not the same as growth by rent.",
+      "The trailing figure of $12.3B is not the run-rate. Q3 FY26 reported $5.30B of revenue and $3.88B of net income against $2.30B and $982M in the quarter before, and the third-party estimate for the current fiscal year is $8.75B. That estimate, below the FY2025 figure, is the clearest signal that the trailing number contains a transaction rather than a step change in rent.",
+    ],
+    bullets: [
+      {
+        title: "Occupancy",
+        detail:
+          "Leased area is the base for rent. A one-point change in occupancy moves revenue without any change in rate.",
+      },
+      {
+        title: "Leasing spreads",
+        detail:
+          "Expiring leases reset to market. Positive spreads raise revenue on the same square footage.",
+      },
+      {
+        title: "Development yield",
+        detail:
+          "The return on cost of a new building, measured against the cap rate at which it would trade.",
+      },
+    ],
+  },
+  performance: {
+    paragraphs: [
+      "Operating margin has ranged from 41.8% to 72.2% across the last six quarters, and net income from $622M to $3.88B. A landlord's quarterly earnings are not usually that volatile. The swings come from gains on property sales, from the timing of development completions and, in Q3 FY26, from an event large enough to move the whole year.",
+      "Return on equity is 12.1% and return on invested capital is 11.1%. Those are respectable numbers for a leveraged real estate business and they are internally consistent, which makes them more useful here than the trailing net margin. The five-year return of negative 0.6% tells you that the market has not rewarded the growth in asset value over that period.",
+      "The reported gross margin of 7.3% should be ignored. For a REIT, the gross line depends on whether property operating costs are classified above or below it, and it does not correspond to the economics in the way it would for a manufacturer.",
+    ],
+  },
+  cash: {
+    paragraphs: [
+      "Free cash flow was $372.3M, a 3.0% margin, and the price-to-free-cash-flow ratio of 324.2x is a sign that the measure is being distorted rather than a statement about value. The annual record is negative $1.91B, negative $1.56B, negative $1.97B and negative $221.9M before turning positive at $1.14B in FY2025.",
+      "That pattern is what a developer looks like. Rent collected is reinvested in new buildings, and the accounting charge for depreciation is much smaller than the cash cost of construction. A REIT that stops developing converts to strong free cash flow; one that keeps growing does not.",
+      "Net cash on the balance sheet is $2.27B, which is rare for a leveraged landlord and gives the company capacity to keep building without new equity. The more relevant disclosure, which is not in this dataset, is what the debt costs and when it comes due.",
+    ],
+  },
+  valuation: {
+    paragraphs: [
+      "At $126.96 the shares trade at 16.5x trailing earnings, 20.1x EV/EBITDA and 9.6x sales. Neither multiple is the standard lens for a REIT. The sector is valued on price to funds from operations and on the spread between the cap rate at which assets trade and the cost of debt.",
+      "The trailing earnings multiple is also distorted by the Q3 event, so a comparison with Equinix at 60.9x or Welltower at 102.8x is not meaningful without adjusting for it. What can be said is that 20.1x EV/EBITDA is a full multiple for a landlord whose rent growth depends on the industrial leasing cycle.",
+    ],
+  },
+  analysts: {
+    paragraphs: [
+      "Fourteen analysts cover the stock. The attributed mean target is $152.07 and the range runs from $136.00 to $170.00. The low end is above the current price, which is unusual and reflects a view that the shares have fallen further than the fundamentals justify.",
+      "Estimates call for $8.75B of revenue and $3.96 of EPS this fiscal year, then $9.68B and $3.60. Revenue rising while EPS falls is a forecast about transaction gains rather than about rent: the gains that flatter one year are not expected to repeat.",
+      "The quarterly estimates come from only three analysts each, so the near-term consensus is thin. For a company of this size that is a limitation worth knowing.",
+    ],
+  },
+  risks: {
+    intro:
+      "Prologis is exposed to the industrial leasing cycle, the cost of capital and the risk that development outruns demand. The buildings are good; the question is what the market will pay to occupy them.",
+    items: [
+      {
+        title: "Interest rates and cap rates",
+        severity: "High",
+        detail:
+          "Higher rates raise the cost of development debt and lower the price at which buildings trade, which affects both earnings and asset values.",
+        watch: "Weighted average cost of debt, maturity schedule and cap-rate disclosure.",
+      },
+      {
+        title: "Tenant concentration and credit",
+        severity: "High",
+        detail:
+          "A large tenant or a retail or logistics customer in distress can vacate space and reset the rent for a building.",
+        watch: "Top-tenant disclosure, lease expiration schedule and bad-debt expense.",
+      },
+      {
+        title: "Development risk",
+        severity: "Medium",
+        detail:
+          "Buildings are constructed before they are leased. A slower leasing market leaves capital invested in empty space.",
+        watch: "Development pipeline, pre-leasing percentage and yield on cost.",
+      },
+      {
+        title: "Occupancy and leasing spreads",
+        severity: "Medium",
+        detail:
+          "Vacancy reduces cash flow directly and weakens pricing on renewals at the same time.",
+        watch: "Same-store occupancy, cash leasing spreads and net effective rent.",
+      },
+      {
+        title: "Valuation and reporting quality",
+        severity: "Medium",
+        detail:
+          "Net income includes gains that do not repeat, and the trailing figures can flatter the multiple in a year with a large transaction.",
+        watch: "Funds from operations, gains on sale and the gap between trailing and forecast revenue.",
+      },
+    ],
+    watchlist: [
+      {
+        title: "Leasing spreads",
+        detail:
+          "The clearest evidence of whether rents are rising or rolling down on the same buildings.",
+      },
+      {
+        title: "Occupancy",
+        detail:
+          "The leading indicator for cash flow, and the first thing to weaken in a logistics slowdown.",
+      },
+      {
+        title: "Development yield",
+        detail:
+          "The spread between the return on new construction and the cap rate at which the finished building would trade.",
+      },
+    ],
+  },
+  bottomLine: {
+    paragraphs: [
+      "Prologis is the largest industrial landlord in the world, with a portfolio in eighteen countries and a development machine that has added a great deal of rent over five years. Revenue of $8.79B in FY2025 and a 66.6% operating margin describe a high-quality asset base.",
+      "The trailing figures are the trap. A single quarter with more than twice the normal revenue makes the trailing margin, the trailing P/E and the free-cash-flow yield all misleading. The third-party estimate of $8.75B for the current fiscal year is the better guide to the run-rate.",
+      "The question that decides the next few years is whether market rents keep rising faster than the cost of capital. Development only creates value when the yield on the new building exceeds the cap rate the market would pay for it, and that spread compresses when rates rise.",
+    ],
+    questions: [
+      "What did the Q3 FY26 revenue and earnings include, and will it recur?",
+      "What are cash leasing spreads on renewals, and are they positive?",
+      "What yield on cost is the development pipeline underwritten at, versus the market cap rate?",
+      "How much of the rent roll expires in the next two years?",
+    ],
+  },
+};

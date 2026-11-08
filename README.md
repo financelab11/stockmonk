@@ -5,10 +5,10 @@ production-style Next.js PWA that explains how a business makes money, charts th
 reported financials, and shows attributed analyst consensus — with **no buy /
 sell / hold ratings and no Stockmonk price targets**.
 
-- **229 companies** in the coverage universe, each with a full ten-section
-  research report. Hand-written narratives cover the original ten core names
-  (NVDA, MSFT, AAPL, GOOGL, AMZN, META, AVGO, TSLA, LLY and JPM); the rest use
-  a consistent generated template driven by the same validated data.
+- **229 companies** in the coverage universe, each with a hand-written
+  ten-section research report. Every report is authored against a per-company
+  factual brief, with quantitative claims tied to the processed dataset and
+  the latest SEC filing.
 - Ten sourced article sections, a chart in every analytical section, peer
   comparison, consensus and risk sections.
 - Works offline for visited pages; installable on desktop and mobile.
@@ -93,6 +93,21 @@ Outputs:
 - `public/data/prices/{ticker}/{range}.json` — downsampled price series (≤ 600 points).
 - `public/data/stocks.json` and `public/data/search-index.json` — lightweight directory files.
 
+### Story authoring
+
+Every research name has a hand-written `content/stocks/{ticker}.ts` report. The
+supporting workflow is:
+
+```bash
+pnpm stories:briefs      # per-company factual brief in data/raw/story-briefs
+pnpm stories:materialize # create a valid skeleton for a new ticker
+pnpm stories:index       # regenerate content/stocks/index.ts
+pnpm audit:stories       # length, duplicate-text and vendor-leak checks
+```
+
+The brief is the only approved source of quantitative claims. Briefs are
+written under `data/raw/` and are not committed; the narrative files are.
+
 ### How to add a company
 
 1. Add the ticker to the relevant group in `config/coverage.ts`. The research
@@ -101,7 +116,10 @@ Outputs:
 2. Run `pnpm ingest:edgar`, `pnpm ingest:simfin`, `pnpm ingest:consensus` and
    `pnpm ingest:segments` (segments are optional; companies without a segment
    file use a single consolidated-revenue slice).
-3. Run `pnpm build:data` to regenerate the directory and search index.
+3. Run `pnpm build:data`, then `pnpm stories:briefs` and
+   `pnpm stories:materialize`.
+4. Write the report in `content/stocks/{ticker}.ts`, run `pnpm stories:index`,
+   `pnpm audit:stories` and `pnpm validate:content`.
 4. If it is a research name, add a story in `content/stocks/{TICKER}.ts` and
    export it from `content/stocks/index.ts`. The article template needs no
    changes.

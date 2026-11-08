@@ -99,7 +99,7 @@ export default async function DiscoverPage({
     {
       question: "What is the difference between a report and a profile?",
       answer:
-        "All 229 coverage names receive the full ten-section research template. A small number with insufficient filings or price history may show a lighter data profile.",
+        "All 229 coverage names have a full ten-section research report. Where a segment split or consensus snapshot is unavailable, the report says so rather than filling the gap with an invented number.",
     },
     {
       question: "How often is the data updated?",

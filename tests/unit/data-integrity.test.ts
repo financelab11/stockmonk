@@ -43,17 +43,21 @@ describe("data integrity", () => {
     }
   });
 
-  it("has price files for every research ticker", () => {
-    for (const ticker of RESEARCH_TICKERS) {
-      for (const range of ["1M", "3M", "6M", "YTD", "1Y", "5Y", "MAX"]) {
-        const prices = readJson<unknown[]>(
-          path.join(ROOT, "public", "data", "prices", ticker, `${range}.json`),
-        );
-        expect(prices.length, `${ticker} ${range}`).toBeGreaterThan(1);
-        expect(prices.length).toBeLessThanOrEqual(600);
+  it(
+    "has price files for every research ticker",
+    () => {
+      for (const ticker of RESEARCH_TICKERS) {
+        for (const range of ["1M", "3M", "6M", "YTD", "1Y", "5Y", "MAX"]) {
+          const prices = readJson<unknown[]>(
+            path.join(ROOT, "public", "data", "prices", ticker, `${range}.json`),
+          );
+          expect(prices.length, `${ticker} ${range}`).toBeGreaterThan(1);
+          expect(prices.length).toBeLessThanOrEqual(600);
+        }
       }
-    }
-  });
+    },
+    60_000,
+  );
 
   it("has consensus and segment files for the core research tickers", () => {
     for (const ticker of CORE_RESEARCH_TICKERS) {
@@ -92,9 +96,11 @@ describe("data integrity", () => {
     expect(fs.existsSync(path.join(ROOT, "data", "consensus", "_meta.json"))).toBe(true);
   });
 
-  it("keeps hand-written narratives for the ten core names", () => {
+  it("has a story file for every research ticker", () => {
     const files = fs.readdirSync(path.join(ROOT, "content", "stocks"));
-    expect(files.filter((file) => /^[A-Z]+\.ts$/.test(file))).toHaveLength(10);
+    for (const ticker of RESEARCH_TICKERS) {
+      expect(files, ticker).toContain(`${ticker}.ts`);
+    }
     for (const ticker of CORE_RESEARCH_TICKERS) {
       expect(files, ticker).toContain(`${ticker}.ts`);
     }

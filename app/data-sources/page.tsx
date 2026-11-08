@@ -120,9 +120,9 @@ pnpm build:data        # stocks.json + search-index.json`}
           consensus estimates instead of inventing a guidance range.
         </li>
         <li>
-          <strong>Data-thin companies.</strong> A small number of names with
-          limited filings or price history show a lighter profile: no segment
-          mix, no consensus snapshot and no full narrative report.
+          <strong>Coverage gaps.</strong> Some names lack a segment split or a
+          consensus snapshot. The report says so rather than filling the gap
+          with an estimated figure.
         </li>
       </ul>
 

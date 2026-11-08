@@ -24,6 +24,10 @@
     "ingest:segments": "tsx scripts/ingest-segments.ts",
     "backfill:filings": "tsx scripts/backfill-filings.ts",
     "audit:generated": "tsx scripts/audit-generated.ts",
+    "audit:stories": "tsx scripts/audit-stories.ts",
+    "stories:briefs": "tsx scripts/build-story-briefs.ts",
+    "stories:materialize": "tsx scripts/materialize-stories.ts",
+    "stories:index": "tsx scripts/build-stories-index.ts",
     "build:data": "tsx scripts/build-public-data.ts",
     "assets": "node scripts/generate-brand-assets.cjs",
     "refresh": "pnpm ingest:edgar && pnpm ingest:simfin && pnpm ingest:fallback && pnpm backfill:filings && pnpm ingest:consensus && pnpm ingest:segments && pnpm build:data"

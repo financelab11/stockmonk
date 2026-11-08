@@ -1,17 +1,13 @@
-import fs from "node:fs";
-import path from "node:path";
 import { describe, expect, it } from "vitest";
 import { STOCK_STORIES } from "@/content/stocks";
 import { ARTICLE_SECTIONS } from "@/lib/constants";
-import { generateStockStory } from "@/lib/generated-story";
-import { tickerDataSchema } from "@/lib/schemas";
-import { validateContent, validateStory } from "@/lib/validate-content";
-import { CORE_RESEARCH_TICKERS } from "@/config/universe";
+import { validateContent } from "@/lib/validate-content";
+import { RESEARCH_TICKERS } from "@/config/universe";
 
 describe("research content", () => {
-  it("has a hand-written story for every core research ticker", () => {
+  it("has a story for every research ticker", () => {
     expect(Object.keys(STOCK_STORIES).sort()).toEqual(
-      [...CORE_RESEARCH_TICKERS].sort(),
+      [...RESEARCH_TICKERS].sort(),
     );
   });
 
@@ -36,7 +32,7 @@ describe("research content", () => {
     ]);
   });
 
-  it("writes a substantial story for every core ticker", () => {
+  it("writes a substantial story for every ticker", () => {
     for (const story of Object.values(STOCK_STORIES)) {
       const words = JSON.stringify(story)
         .replace(/[{}[\]",:]/g, " ")
@@ -48,37 +44,13 @@ describe("research content", () => {
     }
   });
 
-  it("generates compliant reports for expanded names across sector types", () => {
-    const samples = ["CAVA", "JPM", "XOM", "VKTX", "OKLO", "LIN", "PLD", "KNSL"];
-    for (const ticker of samples) {
-      const data = tickerDataSchema.parse(
-        JSON.parse(
-          fs.readFileSync(
-            path.join(process.cwd(), "data", "processed", ticker, "data.json"),
-            "utf8",
-          ),
-        ),
-      );
-      const story = generateStockStory({
-        data,
-        consensus: null,
-        segments: null,
-        prices: [],
-        pricesMax: [],
-        factors: {
-          growth: 50,
-          profitability: 50,
-          cash: 50,
-          balance: 50,
-          valuation: 50,
-        },
-        cagr: null,
-        latestQYoY: null,
-        rangePosition: null,
-      });
-      expect(story.ticker, ticker).toBe(ticker);
-      expect(story.irUrl, ticker).not.toBe(story.filingUrl);
-      expect(validateStory(story), ticker).toEqual([]);
+  it("does not leave placeholder text in a story", () => {
+    for (const story of Object.values(STOCK_STORIES)) {
+      const text = JSON.stringify(story).toLowerCase();
+      expect(text, story.ticker).not.toContain("lorem ipsum");
+      expect(text, story.ticker).not.toContain("tbd");
+      expect(text, story.ticker).not.toContain("placeholder");
+      expect(text, story.ticker).not.toContain("[insert");
     }
   });
 });

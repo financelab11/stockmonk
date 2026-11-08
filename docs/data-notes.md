@@ -71,13 +71,27 @@ data without any client-side API keys.
 
 The coverage universe lives in `config/coverage.ts` (229 companies plus SPY as a
 benchmark). The research ticker list in `config/universe.ts` derives from those
-coverage groups, so every name receives a full report. The original ten core
-names keep hand-written narratives:
+coverage groups, so every name receives a full report. All 229 names have a
+hand-written `content/stocks/{ticker}.ts` narrative, authored against a
+per-company brief that draws on the processed dataset and the latest SEC
+filing. The original ten core names are:
 
 `NVDA, MSFT, AAPL, GOOGL, AMZN, META, AVGO, TSLA, LLY, JPM`
 
-All other names use the generated ten-section template. `GOOGL` maps to SimFin
-ticker `GOOG`; processed files always use the app ticker `GOOGL`.
+`GOOGL` maps to SimFin ticker `GOOG`; processed files always use the app ticker
+`GOOGL`.
+
+Story authoring uses a factual brief per company:
+
+```bash
+pnpm stories:briefs      # data/raw/story-briefs/{ticker}.md (not committed)
+pnpm stories:materialize # valid skeleton for a ticker without a story
+pnpm stories:index       # regenerate content/stocks/index.ts
+pnpm audit:stories       # duplicate text, length and vendor-leak checks
+```
+
+Quantitative claims in `content/stocks/{ticker}.ts` must trace to the brief, a
+processed field or the cited SEC filing.
 
 ## Attribution and licensing
 

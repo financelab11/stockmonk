@@ -99,11 +99,52 @@ test.describe("research article", () => {
     await expect(page.getByText("ROE", { exact: true }).first()).toBeVisible();
     await expect(page.getByText("ROIC", { exact: true }).first()).toBeVisible();
 
-    await page.getByPlaceholder(/Search ticker, name or sector/i).fill("NVDA");
+    await page.getByPlaceholder("Search stocks…").fill("NVDA");
+    await page.keyboard.press("Enter");
+    await expect(page).toHaveURL(/q=NVDA/);
     await expect(page.getByText("NVDA", { exact: true }).first()).toBeVisible();
 
     await page.getByRole("link", { name: "Details" }).first().click();
     await expect(page.getByText(/Parameter coverage:/i).first()).toBeVisible();
+  });
+
+  test("screener quick screens and filter chips stay in sync", async ({ page }) => {
+    const isMobile = (page.viewportSize()?.width ?? 1280) < 1024;
+    await page.goto("/screener", { waitUntil: "networkidle" });
+
+    await page.getByRole("button", { name: "Quick Screens", exact: true }).first().click();
+    await page.getByRole("button", { name: /High Quality Businesses/ }).click();
+    await expect(page).toHaveURL(/qualityScoreMin=70/);
+    if (!isMobile) {
+      await expect(page.getByRole("button", { name: /High Quality Businesses/ })).toBeVisible();
+    }
+
+    await page.getByRole("button", { name: /^Filters/ }).first().click();
+    const chip = page.getByRole("button", { name: /Quality score\s*≥\s*70/ });
+    await expect(chip).toBeVisible();
+    await chip.click();
+    await expect(chip).toHaveCount(0);
+  });
+
+  test("screener sidebar filters apply a range and update the table", async ({ page }) => {
+    const isMobile = (page.viewportSize()?.width ?? 1280) < 1024;
+    await page.goto("/screener", { waitUntil: "networkidle" });
+
+    if (isMobile) {
+      await page.getByRole("button", { name: /^Filters/ }).first().click();
+    }
+    const scope = isMobile ? page.getByRole("dialog") : page;
+    await scope.getByPlaceholder("Search for a filter").fill("market cap");
+    const card = scope.locator("div.rounded-lg", { hasText: "Market cap ($B)" }).last();
+    await card.locator('input[inputmode="decimal"]').nth(0).fill("100");
+    await scope.getByRole("button", { name: /(Apply filters|Done ·)/ }).click();
+    await expect(page).toHaveURL(/marketCapBMin=100/);
+
+    if (isMobile) {
+      await expect(page.getByRole("button", { name: /^Filters 1/ })).toBeVisible();
+    } else {
+      await expect(page.getByRole("button", { name: /Market cap.*≥.*100/ })).toBeVisible();
+    }
   });
 
   test("search finds a ticker and navigates to its report", async ({ page }) => {

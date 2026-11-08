@@ -1,8 +1,25 @@
 import type { Metadata } from "next";
+import { Download, Search, ShieldCheck } from "lucide-react";
+import { ColumnsMenu } from "@/components/screener/columns-menu";
+import { ScreenerControls } from "@/components/screener/screener-controls";
 import { ScreenerTable } from "@/components/screener/screener-table";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { JsonLd } from "@/components/seo/json-ld";
-import { getScreenerFactorConfig, getScreenerRows, getScreenerSummary } from "@/lib/screener-data";
+import {
+  applyScreenerFilters,
+  buildScreenerUrl,
+  parseScreenerParams,
+  SCREENER_COLUMNS,
+} from "@/lib/screener-filters";
+import {
+  getScreenerDistributions,
+  getScreenerFactorConfig,
+  getScreenerFilterRows,
+  getScreenerGroups,
+  getScreenerResearchScreens,
+  getScreenerRows,
+  getScreenerSummary,
+} from "@/lib/screener-data";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -23,25 +40,33 @@ export default async function ScreenerPage({
 }: {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
-  const params = await searchParams;
+  const raw = await searchParams;
+  const params = parseScreenerParams(raw);
   const rows = getScreenerRows();
   const summary = getScreenerSummary();
   const factors = getScreenerFactorConfig();
-  const factorKeys = new Set(factors.map((factor) => factor.key));
-  const requestedView = typeof params.view === "string" ? params.view : "";
-  const view = factorKeys.has(requestedView as (typeof factors)[number]["key"])
-    ? (requestedView as (typeof factors)[number]["key"])
-    : "overview";
-  const requestedMin = Number(params.min);
-  const min = [0, 50, 65, 80].includes(requestedMin) ? requestedMin : 0;
-  const sort =
-    typeof params.sort === "string"
-      ? params.sort
-      : view === "overview"
-        ? "composite"
-        : view;
-  const dir = params.dir === "asc" ? "asc" : "desc";
-  const page = Math.max(1, Number(params.page) || 1);
+  const filteredRows = applyScreenerFilters(rows, params);
+  const distributions = getScreenerDistributions();
+  const filterRows = getScreenerFilterRows();
+  const researchScreens = getScreenerResearchScreens();
+  const groups = getScreenerGroups();
+  const selectedColumns = SCREENER_COLUMNS.filter((column) => params.cols.includes(column.key));
+  const columnChoices = SCREENER_COLUMNS.map(({ key, label, group }) => ({ key, label, group }));
+  const baseSearch = buildScreenerUrl(params, {}).split("?")[1] ?? "";
+  const activeCount =
+    Object.values(params.ranges).filter((value) => value != null).length +
+    (params.q ? 1 : 0) +
+    (params.group ? 1 : 0) +
+    (params.min ? 1 : 0);
+
+  const sidebarProps = {
+    params,
+    filterRows,
+    distributions,
+    researchScreens,
+    groups,
+    activeCount,
+  };
 
   return (
     <>
@@ -53,7 +78,7 @@ export default async function ScreenerPage({
       />
 
       <section className="border-b border-line bg-paper-deep">
-        <div className="container-page py-7">
+        <div className="mx-auto w-full max-w-[1536px] px-4 py-6 sm:px-6">
           <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-[10.5px] text-muted">
             <a href="/" className="hover:text-ink">Home</a>
             <span aria-hidden="true">›</span>
@@ -62,116 +87,153 @@ export default async function ScreenerPage({
           <div className="mt-3 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
             <div>
               <p className="kicker">Quantitative screening</p>
-              <h1 className="display mt-1 text-[32px] leading-tight tracking-[-0.025em] text-ink sm:text-[42px]">
+              <h1 className="display mt-1 text-[30px] leading-tight tracking-[-0.025em] text-ink sm:text-[38px]">
                 US equity screener
               </h1>
-              <p className="mt-2 max-w-2xl text-[12.5px] leading-relaxed text-muted">
-                Five independent factor scores on {summary.count} US-listed companies.
-                Every parameter is visible, ranked within its coverage group and
-                combined into a composite score. The output is a screening tool,
-                not a recommendation.
+              <p className="mt-2 max-w-2xl text-[13px] leading-relaxed text-muted">
+                Filter, compare and rank {summary.count} US-listed companies across
+                five independent factors. Every parameter is visible and ranked
+                within its coverage group.
               </p>
             </div>
-            <div className="grid grid-cols-3 gap-2 lg:min-w-[360px]">
-              <div className="rounded-xl border border-line bg-surface px-3 py-2.5">
-                <p className="stat-label">Companies</p>
-                <p className="tabular mt-1 text-[18px] font-semibold text-ink">{summary.count}</p>
-              </div>
-              <div className="rounded-xl border border-line bg-surface px-3 py-2.5">
-                <p className="stat-label">Median score</p>
-                <p className="tabular mt-1 text-[18px] font-semibold text-ink">{summary.median ?? "n/a"}</p>
-              </div>
-              <div className="rounded-xl border border-line bg-surface px-3 py-2.5">
-                <p className="stat-label">Average score</p>
-                <p className="tabular mt-1 text-[18px] font-semibold text-ink">{summary.average ?? "n/a"}</p>
-              </div>
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1.5 text-[10.5px] font-semibold text-ink-soft">
+                <ShieldCheck className="size-3.5 text-positive" />
+                Sourced fundamentals
+              </span>
+              <span className="rounded-full border border-line bg-surface px-3 py-1.5 text-[10.5px] font-semibold text-ink-soft">
+                Daily refresh
+              </span>
+              <span className="rounded-full border border-line bg-surface px-3 py-1.5 text-[10.5px] font-semibold text-ink-soft">
+                {summary.count} stocks
+              </span>
             </div>
           </div>
           <p className="mt-3 text-[10.5px] text-muted">
-            Prices as of {summary.asOf ?? "the latest dataset"}. Fundamentals and
-            consensus refresh through the daily ingestion job. Factor scores are
-            percentile ranks, not ratings.
+            Prices as of {summary.asOf ?? "the latest dataset"} · median score{" "}
+            <span className="tabular font-semibold text-ink">{summary.median ?? "n/a"}</span> ·
+            average score{" "}
+            <span className="tabular font-semibold text-ink">{summary.average ?? "n/a"}</span> ·
+            score bands are quantitative, not recommendations.
           </p>
         </div>
       </section>
 
-      <div className="container-page py-6">
-        <ScreenerTable
-          rows={rows}
-          factors={factors}
-          params={{
-            q: typeof params.q === "string" ? params.q : "",
-            group: typeof params.group === "string" ? params.group : "",
-            min,
-            view,
-            sort,
-            dir,
-            page,
-            open: typeof params.open === "string" ? params.open : "",
-          }}
-        />
-      </div>
+      <main className="mx-auto w-full max-w-[1536px] px-4 pb-40 pt-5 sm:px-6 lg:pb-14">
+        <div className="grid gap-4 lg:grid-cols-[290px_minmax(0,1fr)] lg:items-start">
+          <ScreenerControls {...sidebarProps} />
 
-      <section className="container-page py-8">
-        <div className="max-w-3xl">
-          <p className="kicker">Model architecture</p>
-          <h2 className="display mt-2 text-[28px] leading-tight tracking-[-0.02em] text-ink">
-            Five factors, explicit weights, visible parameters
-          </h2>
-          <p className="mt-2 text-[12.5px] leading-relaxed text-muted">
-            Each raw parameter is winsorized at the 2nd and 98th percentile, then
-            converted to a 0–100 percentile score within the company's coverage
-            group where enough peers exist, otherwise across the full universe.
-            Lower-is-better metrics are reversed. A factor score is the
-            weighted average of its available parameters; the composite
-            re-normalises across the factors that are available. Missing data is
-            shown as n/a rather than estimated.
-          </p>
+          <section className="min-w-0">
+            <div className="rounded-xl border border-line bg-surface p-3">
+              <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
+                <form action="/screener" method="get" className="flex min-w-0 flex-1 items-center gap-2">
+                  {Object.entries(params.ranges).map(([key, value]) =>
+                    value == null ? null : (
+                      <input key={key} type="hidden" name={key} value={String(value)} />
+                    ),
+                  )}
+                  {params.group && <input type="hidden" name="group" value={params.group} />}
+                  {params.min > 0 && <input type="hidden" name="min" value={String(params.min)} />}
+                  {params.view !== "overview" && <input type="hidden" name="view" value={params.view} />}
+                  <input type="hidden" name="sort" value={params.sort} />
+                  <input type="hidden" name="dir" value={params.dir} />
+                  <input type="hidden" name="cols" value={params.cols.join(",")} />
+                  <label className="flex h-9 min-w-0 flex-1 items-center gap-2 rounded-lg border border-line bg-paper px-3">
+                    <Search aria-hidden="true" className="size-3.5 shrink-0 text-muted" />
+                    <span className="sr-only">Search stocks</span>
+                    <input
+                      name="q"
+                      defaultValue={params.q}
+                      placeholder="Search stocks…"
+                      className="min-w-0 flex-1 bg-transparent text-[12px] text-ink outline-none placeholder:text-faint"
+                    />
+                  </label>
+                  <button type="submit" className="btn btn-ghost h-9 min-h-0 px-3 text-[11px]">Search</button>
+                </form>
+                <div className="flex items-center gap-2">
+                  <span className="hidden text-[10.5px] text-muted sm:inline">
+                    {filteredRows.length} stocks
+                    {activeCount > 0 ? ` · ${activeCount} active` : ""}
+                  </span>
+                  <ColumnsMenu
+                    columns={columnChoices}
+                    selected={params.cols}
+                    baseSearch={baseSearch}
+                  />
+                  <a
+                    href={`/screener/export?${baseSearch}`}
+                    className="inline-flex h-9 items-center gap-1.5 rounded-lg border border-line bg-surface px-3 text-[11px] font-semibold text-ink-soft hover:border-line-strong hover:text-ink"
+                  >
+                    <Download aria-hidden="true" className="size-3.5" />
+                    Download
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-3">
+              <ScreenerTable
+                rows={filteredRows}
+                factors={factors}
+                params={params}
+                columns={selectedColumns}
+              />
+            </div>
+          </section>
         </div>
-        <div className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
-          {factors.map((factor) => {
-            const totalWeight = factor.parameters.reduce(
-              (sum, parameter) => sum + parameter.weight,
-              0,
-            );
-            return (
+
+        <section id="methodology" className="mt-10 scroll-mt-24 border-t border-line pt-8">
+          <div className="max-w-3xl">
+            <p className="kicker">Model architecture</p>
+            <h2 className="display mt-2 text-[28px] leading-tight tracking-[-0.02em] text-ink">
+              Five factors, explicit weights, visible parameters
+            </h2>
+            <p className="mt-2 text-[12.5px] leading-relaxed text-muted">
+              Raw parameters are winsorized at the 2nd and 98th percentile and
+              converted to 0–100 percentiles within the company&apos;s coverage group
+              where enough peers exist, otherwise across the full universe.
+              Lower-is-better metrics are reversed. Factor scores are weighted
+              averages of available parameters; the composite re-normalises across
+              the factors that are available. Missing data is shown as n/a.
+            </p>
+          </div>
+          <div className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+            {factors.map((factor) => (
               <div key={factor.key} className="card p-4">
                 <div className="flex items-baseline justify-between gap-2">
                   <div>
-                    <p className="text-[12px] font-semibold text-ink">
-                      {factor.label}
-                    </p>
+                    <p className="text-[12px] font-semibold text-ink">{factor.label}</p>
                     <p className="mt-0.5 text-[10.5px] text-muted">{factor.description}</p>
                   </div>
                   <span className="rounded-full bg-brand-soft px-2 py-0.5 text-[10px] font-bold text-brand">
                     {Math.round(factor.weight * 100)}%
                   </span>
                 </div>
-                <ul className="mt-2 grid gap-1 text-[10px] text-muted">
+                <div className="mt-2 grid gap-1 text-[10px] text-muted">
                   {factor.parameters.map((parameter) => (
-                    <li key={parameter.key} className="flex items-baseline justify-between gap-2">
+                    <div key={parameter.key} className="flex items-baseline justify-between gap-2">
                       <span>{parameter.label}</span>
-                      <span className="tabular shrink-0 text-[9px] text-faint">
-                        {Math.round((parameter.weight / totalWeight) * 1000) / 10}%
+                      <span className="tabular text-[9px] text-faint">
+                        {Math.round((parameter.weight / factor.parameters.reduce((sum, item) => sum + item.weight, 0)) * 1000) / 10}%
                       </span>
-                    </li>
+                    </div>
                   ))}
-                </ul>
+                </div>
               </div>
-            );
-          })}
-        </div>
-        <p className="mt-3 max-w-3xl text-[10.5px] leading-relaxed text-muted">
-          Composite weights: Growth 20%, Quality 25%, Valuation 20%, Momentum 20%,
-          Low Volatility 15%. Score bands are descriptive ranges, not investment
-          recommendations. The model does not use Stockmonk ratings or price
-          targets.
-        </p>
-      </section>
+            ))}
+          </div>
+          <p className="mt-3 max-w-3xl text-[10.5px] leading-relaxed text-muted">
+            Composite weights: Growth 20%, Quality 25%, Valuation 20%, Momentum
+            20%, Low Volatility 15%. Score bands are descriptive ranges, not
+            investment recommendations. The model does not use Stockmonk ratings
+            or price targets.
+          </p>
+        </section>
 
-      <div className="container-page pb-14">
-        <Disclaimer variant="boxed" />
-      </div>
+        <div className="mt-8">
+          <Disclaimer variant="boxed" />
+        </div>
+      </main>
     </>
   );
 }

@@ -12,6 +12,21 @@ const PALETTE = [
   "bg-[#065f46] text-white",
 ];
 
+const logoFiles = new Map<string, string | null>();
+
+function resolveLogoFile(ticker: string): string | null {
+  if (logoFiles.has(ticker)) return logoFiles.get(ticker) ?? null;
+  const pngPath = path.join(process.cwd(), "public", "logos", `${ticker}.png`);
+  const svgPath = path.join(process.cwd(), "public", "logos", `${ticker}.svg`);
+  const file = fs.existsSync(pngPath)
+    ? `${ticker}.png`
+    : fs.existsSync(svgPath)
+      ? `${ticker}.svg`
+      : null;
+  logoFiles.set(ticker, file);
+  return file;
+}
+
 function hash(value: string): number {
   let result = 0;
   for (let index = 0; index < value.length; index += 1) {
@@ -32,13 +47,7 @@ export function StockLogoStatic({
   className?: string;
   priority?: boolean;
 }) {
-  const pngPath = path.join(process.cwd(), "public", "logos", `${ticker}.png`);
-  const svgPath = path.join(process.cwd(), "public", "logos", `${ticker}.svg`);
-  const logoFile = fs.existsSync(pngPath)
-    ? `${ticker}.png`
-    : fs.existsSync(svgPath)
-      ? `${ticker}.svg`
-      : null;
+  const logoFile = resolveLogoFile(ticker);
   const color = PALETTE[hash(ticker) % PALETTE.length];
   const initials = ticker.replace(/[^A-Z0-9]/g, "").slice(0, 2);
 

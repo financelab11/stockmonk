@@ -54,12 +54,30 @@ export type ScreenerRow = {
   marketCap: number | null;
   price: number;
   asOf: string;
+  return1d: number | null;
+  return1w: number | null;
+  return1m: number | null;
+  return3m: number | null;
+  return6m: number | null;
   return1y: number | null;
+  return3y: number | null;
+  return5y: number | null;
   pe: number | null;
   pb: number | null;
+  evEbitda: number | null;
+  peg: number | null;
+  dividendYield: number | null;
   roce: number | null;
   roe: number | null;
-  dividendYield: number | null;
+  operatingMargin: number | null;
+  netMargin: number | null;
+  revenueGrowth: number | null;
+  netDebtEbitda: number | null;
+  priceVs50dma: number | null;
+  priceVs200dma: number | null;
+  historicalValuation: number | null;
+  roicTrend: number | null;
+  assetTurnover: number | null;
   composite: number | null;
   band: string;
   coverage: number;
@@ -367,7 +385,6 @@ export function computeRawParameters(
   const netIncome = ttmOrAnnual(data, "netIncome");
   const operatingIncome = ttmOrAnnual(data, "operatingIncome");
   const ebitda = ttmOrAnnual(data, "ebitda") ?? operatingIncome;
-  const fcf = ttmOrAnnual(data, "freeCashFlow");
   const cfo = ttmOrAnnual(data, "cfo");
   const interest = ttmOrAnnual(data, "interestExpense");
   const equity = ttmOrAnnual(data, "totalEquity");
@@ -413,6 +430,10 @@ export function computeRawParameters(
       ? (latest.totalAssets + prior.totalAssets) / 2
       : assets;
   const buybacks = ttmOrAnnual(data, "buybacks");
+
+  const sortedPrices = [...prices].sort((a, b) => a.t - b.t);
+  const lastPrice = sortedPrices.at(-1)?.c ?? null;
+  const previousPrice = sortedPrices.at(-2)?.c ?? null;
 
   const roicHistory = annual
     .slice(-5)
@@ -505,10 +526,17 @@ export function computeRawParameters(
     buybackYield:
       finite(buybacks) && marketCap != null && marketCap > 0 ? buybacks / marketCap : null,
 
+    return1d:
+      lastPrice != null && previousPrice != null && previousPrice > 0
+        ? lastPrice / previousPrice - 1
+        : null,
+    return1w: returnOverCalendarDays(prices, 7),
     return1m: returnOverCalendarDays(prices, 30),
     return3m: returnOverCalendarDays(prices, 91),
     return6m: returnOverCalendarDays(prices, 182),
     return12m: returnOverCalendarDays(prices, 365),
+    return3y: returnOverCalendarDays(pricesMax, 1095),
+    return5y: returnOverCalendarDays(pricesMax, 1825),
     momentum12m1m:
       returnOverCalendarDays(prices, 365) != null &&
       returnOverCalendarDays(prices, 30) != null
@@ -803,12 +831,30 @@ export function buildScreenerRows(
       marketCap: bundle.data.latestPrice.marketCap,
       price: bundle.data.latestPrice.close,
       asOf: bundle.data.latestPrice.asOf,
+      return1d: values.return1d ?? null,
+      return1w: values.return1w ?? null,
+      return1m: values.return1m ?? null,
+      return3m: values.return3m ?? null,
+      return6m: values.return6m ?? null,
       return1y: bundle.data.metrics.return1y,
+      return3y: values.return3y ?? null,
+      return5y: values.return5y ?? null,
       pe: bundle.data.metrics.pe,
       pb: safeDiv(bundle.data.latestPrice.marketCap, ttmOrAnnual(bundle.data, "totalEquity")),
+      evEbitda: bundle.data.metrics.evEbitda,
+      peg: values.peg ?? null,
+      dividendYield: bundle.data.latestPrice.dividendYield,
       roce: values.roce,
       roe: bundle.data.metrics.roe,
-      dividendYield: bundle.data.latestPrice.dividendYield,
+      operatingMargin: bundle.data.metrics.operatingMargin,
+      netMargin: bundle.data.metrics.netMargin,
+      revenueGrowth: bundle.data.metrics.revenueGrowthTtm,
+      netDebtEbitda: bundle.data.metrics.netDebtToEbitda,
+      priceVs50dma: values.priceVs50dma ?? null,
+      priceVs200dma: values.priceVs200dma ?? null,
+      historicalValuation: values.historicalValuation ?? null,
+      roicTrend: values.roicTrend ?? null,
+      assetTurnover: values.assetTurnover ?? null,
       composite,
       band: band(composite),
       coverage: Math.round((availableCount / parameterCount) * 100),

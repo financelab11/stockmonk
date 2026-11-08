@@ -2,11 +2,23 @@ import "server-only";
 
 import fs from "node:fs";
 import path from "node:path";
+import {
+  buildFilterDistributions,
+  buildFilterRows,
+  buildResearchScreens,
+  type FilterDistribution,
+  type FilterRow,
+  type ResearchScreen,
+} from "./screener-filters";
 import { FACTOR_CONFIG, type ScreenerRow } from "./screener-model";
 
 const FILE = path.join(process.cwd(), "public", "data", "screener.json");
 
 let rowsCache: ScreenerRow[] | null = null;
+let distributionsCache: FilterDistribution[] | null = null;
+let filterRowsCache: FilterRow[] | null = null;
+let researchScreensCache: ResearchScreen[] | null = null;
+let groupsCache: string[] | null = null;
 
 export function getScreenerRows(): ScreenerRow[] {
   if (rowsCache) return rowsCache;
@@ -16,6 +28,26 @@ export function getScreenerRows(): ScreenerRow[] {
     rowsCache = [];
   }
   return rowsCache;
+}
+
+export function getScreenerDistributions(): FilterDistribution[] {
+  distributionsCache ??= buildFilterDistributions(getScreenerRows());
+  return distributionsCache;
+}
+
+export function getScreenerFilterRows(): FilterRow[] {
+  filterRowsCache ??= buildFilterRows(getScreenerRows());
+  return filterRowsCache;
+}
+
+export function getScreenerResearchScreens(): ResearchScreen[] {
+  researchScreensCache ??= buildResearchScreens(getScreenerRows());
+  return researchScreensCache;
+}
+
+export function getScreenerGroups(): string[] {
+  groupsCache ??= [...new Set(getScreenerRows().map((row) => row.group))].sort();
+  return groupsCache;
 }
 
 export const getScreenerFactorConfig = () => FACTOR_CONFIG;

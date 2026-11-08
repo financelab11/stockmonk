@@ -45,7 +45,7 @@ export async function generateMetadata({
     : `${data.name} (${data.ticker}) — company profile`;
   const description = story
     ? story.dek
-    : `${data.name} (${data.ticker}) profile: price, revenue, margins and key ratios from SimFin and SEC filings.`;
+    : `${data.name} (${data.ticker}) profile: price, revenue, margins and key ratios from company filings.`;
 
   return {
     title,

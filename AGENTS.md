@@ -26,7 +26,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
   Avoid ad-hoc hex colours outside the chart theme (`components/charts/chart-theme.ts`).
 - **Content:** stories live in `content/stocks/{TICKER}.ts` and follow
   `StockStory`. Quantitative claims must trace to a processed field or a cited
-  filing. Use `SourceNote` in every article section.
+  filing. Article sources are consolidated into the block after section 10.
 - **Performance:** keep charts lazy, reserve dimensions, use self-hosted fonts,
   and avoid client components above the fold. The LHCI gate is the source of
   truth (`lighthouserc.json`).

@@ -21,7 +21,8 @@ export function Toc({ ticker }: { ticker: string }) {
         ))}
       </ol>
       <p className="mt-4 text-[10px] leading-relaxed text-faint">
-        Ticker {ticker}. Sections link to sources and data tables.
+        Ticker {ticker}. Data tables sit under each chart; sources are listed at
+        the end.
       </p>
     </nav>
   );

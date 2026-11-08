@@ -39,20 +39,13 @@ export function ConsensusPanel({
       <div className="flex flex-wrap items-start justify-between gap-2 border-b border-line bg-paper-deep px-4 py-3">
         <div>
           <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-brand">
-            Attributed third-party consensus
+            Third-party analyst consensus
           </p>
           <p className="mt-0.5 text-[11px] text-muted">
-            {consensus.provider} · as of {formatDate(consensus.asOf)}
+            As of {formatDate(consensus.asOf)} · shown for context, not a
+            recommendation
           </p>
         </div>
-        <a
-          href={consensus.sourceUrl}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="text-[10.5px] font-semibold text-brand underline underline-offset-2"
-        >
-          View source
-        </a>
       </div>
 
       <div className="grid gap-3 border-b border-line p-4 sm:grid-cols-3">

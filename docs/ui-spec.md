@@ -81,7 +81,7 @@ a **multiple the market is currently paying**, with the source named next to it.
 | `SurpriseChart` | EPS actual vs estimate (lazy) |
 | `RiskList` | Severity-tagged qualitative risks |
 | `ScorecardChart` | Radar of universe percentile ranks |
-| `SourceNote` | Numbered citation row under every section |
+| `Sources` block | Four consolidated filing, IR and methodology links after section 10 |
 | `ProCTA` | Stockmonk Pro end-of-article conversion block |
 | `WatchlistButton` | localStorage toggle, accessible pressed state |
 
@@ -114,8 +114,9 @@ of contents, watchlist, sources). Ten numbered sections in this order:
 9. Risks and what to watch
 10. The bottom line for learners
 
-Every section carries at least one chart or data visual and a numbered source
-note. The report ends with the Stockmonk Pro CTA and disclaimer.
+Every section carries at least one chart or data visual. Sources are
+consolidated into four links after section 10, before the Pro CTA and
+disclaimer.
 
 ### Stock page (supporting)
 Compact profile: price chart, snapshot metrics, factor chips, latest quarters,

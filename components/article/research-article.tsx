@@ -10,7 +10,7 @@ import {
 import { MobileToc, Toc } from "@/components/article/toc";
 import { ShareButtons } from "@/components/article/share-buttons";
 import { SectionHeading } from "@/components/article/section-heading";
-import { SourceNote } from "@/components/article/source-note";
+
 import { RangeBar } from "@/components/article/range-bar";
 import { SegmentBars } from "@/components/article/segment-bars";
 import { ConsensusPanel } from "@/components/article/consensus-panel";
@@ -23,11 +23,11 @@ import {
   LazyMarginChart,
   LazyMixDonut,
   LazyPeerBarChart,
+  LazyPriceChart,
   LazyScorecardChart,
   LazySurpriseChart,
   LazyValuationChart,
 } from "@/components/charts/lazy-charts";
-import { PriceChartPoster } from "@/components/charts/price-chart-poster";
 import { StockLogoStatic } from "@/components/stock-logo-static";
 import { FactorChips } from "@/components/ui/factor-chips";
 import { PriceChange } from "@/components/ui/price-change";
@@ -45,10 +45,8 @@ import {
   buildSurprisePoints,
   estimateRows,
   latestQuarter,
-  latestReportDate,
   peerMedian,
   quarterLabel,
-  sectionSourceIds,
   valuationRange,
 } from "@/lib/article";
 import {
@@ -113,7 +111,6 @@ export function ResearchArticle({
   const { data, consensus, segments, prices, factors } = bundle;
   const sources = buildArticleSources(story, bundle);
   const latest = latestQuarter(data);
-  const reportDate = latestReportDate(data);
   const cagr = computeCagr(data.annual);
   const quarterSeries = quarterlyRevenueSeries(data, 10);
   const marginSeries = annualMarginSeries(data, 7);
@@ -225,7 +222,7 @@ export function ResearchArticle({
                 </blockquote>
               )}
               <div className="mt-5">
-                <PriceChartPoster ticker={data.ticker} points={prices} />
+                <LazyPriceChart ticker={data.ticker} initialData={prices} />
               </div>
               <div className="mt-4 rounded-xl border border-line bg-surface p-4">
                 <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
@@ -266,7 +263,6 @@ export function ResearchArticle({
                   </ul>
                 </div>
               )}
-              <SourceNote sources={sources} ids={sectionSourceIds("big-picture")} asOf={data.latestPrice.asOf} />
             </section>
 
             <section id="what-it-does" className="scroll-mt-28 border-b border-line py-9">
@@ -326,7 +322,6 @@ export function ResearchArticle({
                     })}
                 </div>
               </div>
-              <SourceNote sources={sources} ids={sectionSourceIds("what-it-does")} />
             </section>
 
             <section id="how-it-makes-money" className="scroll-mt-28 border-b border-line py-9">
@@ -360,7 +355,6 @@ export function ResearchArticle({
                   <DataRow label="Free-cash-flow margin" value={formatPercent(data.metrics.fcfMargin)} />
                 </div>
               </div>
-              <SourceNote sources={sources} ids={sectionSourceIds("how-it-makes-money")} />
             </section>
 
             <section id="growth-drivers" className="scroll-mt-28 border-b border-line py-9">
@@ -405,7 +399,6 @@ export function ResearchArticle({
                   issue recommendations.
                 </p>
               </div>
-              <SourceNote sources={sources} ids={sectionSourceIds("growth-drivers")} />
             </section>
 
             <section id="financial-performance" className="scroll-mt-28 border-b border-line py-9">
@@ -467,7 +460,6 @@ export function ResearchArticle({
                   </tbody>
                 </table>
               </div>
-              <SourceNote sources={sources} ids={sectionSourceIds("financial-performance")} asOf={reportDate} />
             </section>
 
             <section id="cash-and-balance-sheet" className="scroll-mt-28 border-b border-line py-9">
@@ -497,7 +489,6 @@ export function ResearchArticle({
                 meaningful; the report flags that instead of substituting a
                 misleading proxy.
               </p>
-              <SourceNote sources={sources} ids={sectionSourceIds("cash-and-balance-sheet")} />
             </section>
 
             <section id="valuation" className="scroll-mt-28 border-b border-line py-9">
@@ -563,11 +554,10 @@ export function ResearchArticle({
                 Multiples are a starting point for questions, not a verdict.{" "}
                 <strong className="text-ink">Stockmonk does not provide buy, sell or hold ratings.</strong>
               </p>
-              <SourceNote sources={sources} ids={sectionSourceIds("valuation")} />
             </section>
 
             <section id="analysts" className="scroll-mt-28 border-b border-line py-9">
-              <SectionHeading number="08" id="analysts" title="What analysts expect" subtitle="Third-party consensus, attributed to the provider and dated" />
+              <SectionHeading number="08" id="analysts" title="What analysts expect" subtitle="Third-party consensus, shown with the date it was collected" />
               <Paragraphs paragraphs={story.analysts.paragraphs} />
               <div className="mt-5">
                 <ConsensusPanel consensus={consensus} price={data.latestPrice.close} />
@@ -581,7 +571,6 @@ export function ResearchArticle({
                 company guidance range. The latest-quarter figures are reported
                 results, not management forecasts.
               </p>
-              <SourceNote sources={sources} ids={sectionSourceIds("analysts")} asOf={consensus?.asOf} />
             </section>
 
             <section id="risks" className="scroll-mt-28 border-b border-line py-9">
@@ -606,7 +595,6 @@ export function ResearchArticle({
                   ))}
                 </div>
               </div>
-              <SourceNote sources={sources} ids={sectionSourceIds("risks")} />
             </section>
 
             <section id="bottom-line" className="scroll-mt-28 py-9">
@@ -632,7 +620,38 @@ export function ResearchArticle({
                   </ul>
                 </div>
               </div>
-              <SourceNote sources={sources} ids={sectionSourceIds("bottom-line")} />
+            </section>
+
+            <section aria-labelledby="article-sources" className="border-t border-line pt-6">
+              <h2 id="article-sources" className="display text-[22px] tracking-[-0.02em] text-ink">
+                Sources
+              </h2>
+              <p className="mt-1 text-[10.5px] leading-relaxed text-muted">
+                Data as of {formatDate(data.latestPrice.asOf)}. Figures are rounded.
+                Third-party analyst estimates can change.
+              </p>
+              <ul className="mt-3 grid gap-2 sm:grid-cols-2">
+                {sources.map((source) => (
+                  <li key={source.id} className="rounded-lg border border-line bg-surface px-3 py-2">
+                    <a
+                      href={source.url}
+                      target={source.url.startsWith("http") ? "_blank" : undefined}
+                      rel={source.url.startsWith("http") ? "noreferrer noopener" : undefined}
+                      className="text-[11.5px] font-semibold text-ink underline decoration-line-strong underline-offset-2 hover:text-brand"
+                    >
+                      {source.name}
+                    </a>
+                    <p className="mt-0.5 text-[10px] text-muted">
+                      {source.publisher}
+                      {source.date && source.date !== "n/a" ? ` · ${formatDate(source.date)}` : ""}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-3 text-[10.5px] leading-relaxed text-muted">
+                Stockmonk does not issue buy, sell or hold recommendations and does
+                not publish its own price targets.
+              </p>
             </section>
 
             <div className="my-8">

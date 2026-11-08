@@ -86,7 +86,7 @@ Stock spotlight
               </div>
             </div>
             <p className="mt-3 text-[10px] leading-relaxed text-faint">
-              Price history from SimFin, adjusted for splits. Past performance
+              Price history adjusted for splits. Past performance
               does not predict future results.
             </p>
           </div>

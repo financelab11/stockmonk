@@ -38,9 +38,10 @@ export default function EditorialGuidelinesPage() {
       <h2>3. Primary sources first</h2>
       <p>
         Business descriptions, segment mixes, geography and risk factors come from
-        SEC filings. Financial statements and prices come from SimFin. Analyst
-        estimates come from Yahoo Finance and are cross-checked with Nasdaq. The
-        source note under each section names the publisher and the date.
+        SEC filings. Financial statements are built from company reports and
+        normalised across periods. Analyst estimates are third-party and shown
+        with the date they were collected. The sources list at the end of each
+        report names the filing, company materials and methodology used.
       </p>
 
       <h2>4. Original wording</h2>

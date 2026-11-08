@@ -182,7 +182,8 @@ export default function FrameworkPage() {
           </h2>
           <p className="mt-2 text-[12.5px] leading-relaxed text-muted">
             Data flows in from four primary sources, is normalised into typed
-            files, and is rendered with a source note and as-of date.
+            files, and is rendered with a consolidated source list and as-of
+            date.
           </p>
           <div className="mt-4 rounded-xl border border-line bg-surface p-4">
             <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">

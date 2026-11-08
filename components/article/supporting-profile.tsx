@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
-import { PriceChartPoster } from "@/components/charts/price-chart-poster";
+import { LazyPriceChart } from "@/components/charts/lazy-charts";
 import { RangeBar } from "@/components/article/range-bar";
 import { StockLogoStatic } from "@/components/stock-logo-static";
 import { FactorChips } from "@/components/ui/factor-chips";
@@ -88,7 +88,7 @@ export function SupportingProfile({
       </header>
 
       <div className="container-page max-w-[980px] py-8">
-        <PriceChartPoster ticker={data.ticker} points={prices} />
+        <LazyPriceChart ticker={data.ticker} initialData={prices} />
 
         <div className="mt-4 rounded-xl border border-line bg-surface p-4">
           <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.12em] text-muted">

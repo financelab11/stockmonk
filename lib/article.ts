@@ -17,100 +17,46 @@ export function buildArticleSources(
   story: StockStory,
   bundle: ResearchBundle,
 ): ArticleSource[] {
-  const { data, consensus, segments } = bundle;
-  const sources: ArticleSource[] = [
+  const { data, segments } = bundle;
+  const cik = data.cik?.padStart(10, "0");
+  const filingHistory = cik
+    ? `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${cik}&type=10-K&dateb=&owner=include&count=40`
+    : "https://www.sec.gov/edgar/search/";
+
+  return [
     {
       id: 1,
-      name: `${data.name} Form 10-K`,
+      name: `${data.name} annual report (Form 10-K)`,
       publisher: "SEC EDGAR",
       url: story.filingUrl,
       date: segments?.source.date ?? data.updatedAt.slice(0, 10),
-      note: "Primary filing for business description, segment mix and risk factors.",
+      note: "Business description, segment mix and risk factors.",
     },
     {
       id: 2,
-      name: "SEC XBRL company facts",
+      name: "SEC EDGAR filing history",
       publisher: "SEC EDGAR",
-      url: data.cik
-        ? `https://data.sec.gov/api/xbrl/companyfacts/CIK${data.cik.padStart(10, "0")}.json`
-        : "https://www.sec.gov/edgar/search/",
-      date: latestReportDate(data),
-      note: "Revenue, income and EPS facts used to cross-check the processed financials.",
+      url: filingHistory,
+      date: data.latestPrice.asOf,
+      note: "Annual and quarterly filings behind the financial statements.",
     },
     {
       id: 3,
-      name: "SimFin fundamentals and adjusted prices",
-      publisher: "SimFin",
-      url: "https://simfin.com/",
-      date: data.latestPrice.asOf,
-      note: "Statement data, daily prices, market cap and multiple history.",
-    },
-    {
-      id: 4,
-      name: "Analyst consensus",
-      publisher: "Yahoo Finance",
-      url:
-        consensus?.sourceUrl ??
-        `https://finance.yahoo.com/quote/${data.ticker}/analysis`,
-      date: consensus?.asOf ?? "n/a",
-      note: "Third-party target range, recommendation distribution and forward estimates.",
-    },
-    {
-      id: 5,
-      name: "Analyst forecasts cross-check",
-      publisher: "Nasdaq",
-      url: `https://www.nasdaq.com/market-activity/stocks/${data.ticker.toLowerCase()}/earnings`,
-      date: consensus?.asOf ?? "n/a",
-      note: "Used to validate stale or missing Yahoo estimate periods.",
-    },
-    {
-      id: 6,
       name: `${data.name} investor relations`,
       publisher: "Company",
       url: story.irUrl,
       date: "n/a",
-      note: "Company disclosures, presentations and earnings materials.",
+      note: "Company releases and presentations.",
     },
     {
-      id: 7,
+      id: 4,
       name: "Stockmonk methodology",
       publisher: "Stockmonk",
       url: "/framework#methodology",
       date: "n/a",
-      note: "Definitions for growth, margins, ROIC, leverage and percentile screens.",
+      note: "Definitions for growth, margins, returns and valuation multiples.",
     },
   ];
-
-  if (story.earningsReleaseUrl) {
-    sources.push({
-      id: 8,
-      name: "Latest earnings release (8-K exhibit)",
-      publisher: "SEC EDGAR",
-      url: story.earningsReleaseUrl,
-      date: latestReportDate(data),
-      note: "Headline results used for the latest-quarter discussion.",
-    });
-  }
-
-  return sources;
-}
-
-export const SECTION_SOURCES: Record<string, number[]> = {
-  "big-picture": [3, 4],
-  "what-it-does": [1, 6],
-  "how-it-makes-money": [1, 3],
-  "growth-drivers": [1, 3, 5],
-  "financial-performance": [2, 3, 8],
-  "cash-and-balance-sheet": [1, 3],
-  valuation: [3, 4, 5],
-  analysts: [4, 5],
-  risks: [1, 7],
-  "bottom-line": [3, 4, 5, 7],
-};
-
-export function latestReportDate(data: ResearchBundle["data"]): string {
-  const quarters = data.quarterly.filter((row) => !row.ttm);
-  return quarters.at(-1)?.reportDate ?? data.updatedAt.slice(0, 10);
 }
 
 export function latestQuarter(data: ResearchBundle["data"]): FinancialRow | null {
@@ -294,6 +240,4 @@ function summarize(values: number[]) {
   };
 }
 
-export function sectionSourceIds(section: string): number[] {
-  return SECTION_SOURCES[section] ?? [3];
-}
+

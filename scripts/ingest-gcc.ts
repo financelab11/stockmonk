@@ -279,8 +279,8 @@ function buildTickerData(
       operatingMargin: ttm?.operatingMargin ?? computed.metrics.operatingMargin,
       netMargin: ttm?.netMargin ?? computed.metrics.netMargin,
       fcfMargin: ttm?.fcfMargin ?? computed.metrics.fcfMargin,
-      roe: company.roe ?? ttm?.roe ?? computed.metrics.roe,
-      roic: company.roic ?? ttm?.roic ?? computed.metrics.roic,
+      roe: ttm?.roe ?? company.roe ?? computed.metrics.roe,
+      roic: ttm?.roic ?? company.roic ?? computed.metrics.roic,
       pe: company.pe ?? (marketCap != null && netIncome != null && netIncome > 0 ? marketCap / netIncome : computed.metrics.pe),
       evEbitda: company.evEbitda ?? computed.metrics.evEbitda,
       evSales:

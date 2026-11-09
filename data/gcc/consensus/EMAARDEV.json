@@ -1,0 +1,48 @@
+{
+  "ticker": "EMAARDEV",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/dfm/EMAARDEV/forecast/",
+  "targetMean": 17.17,
+  "targetHigh": 22,
+  "targetLow": 13.5,
+  "recommendationKey": "buy",
+  "analystCount": 11,
+  "distribution": {
+    "strongBuy": 6,
+    "buy": 2,
+    "hold": 3,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 33000000000,
+      "revenueGrowth": 0.201,
+      "epsAvg": 3.34,
+      "epsGrowth": 0.182,
+      "analystCount": 11
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 11
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 33000000000,
+    "revenueGrowth": 0.201,
+    "epsAvg": 3.34,
+    "epsGrowth": 0.182,
+    "analystCount": 11
+  },
+  "revisions": null
+}

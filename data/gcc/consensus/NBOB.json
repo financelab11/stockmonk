@@ -1,0 +1,48 @@
+{
+  "ticker": "NBOB",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/msm/NBOB/forecast/",
+  "targetMean": 0.49,
+  "targetHigh": 0.56,
+  "targetLow": 0.42,
+  "recommendationKey": "buy",
+  "analystCount": 2,
+  "distribution": {
+    "strongBuy": 1,
+    "buy": 0,
+    "hold": 1,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 178200000,
+      "revenueGrowth": 0.09,
+      "epsAvg": 0.04,
+      "epsGrowth": 0.182,
+      "analystCount": 2
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 2
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 178200000,
+    "revenueGrowth": 0.09,
+    "epsAvg": 0.04,
+    "epsGrowth": 0.182,
+    "analystCount": 2
+  },
+  "revisions": null
+}

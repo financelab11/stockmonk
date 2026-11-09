@@ -1,0 +1,48 @@
+{
+  "ticker": "MEZZAN",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/kwse/MEZZAN/forecast/",
+  "targetMean": 1.2,
+  "targetHigh": 1.3,
+  "targetLow": 1.1,
+  "recommendationKey": "hold",
+  "analystCount": 2,
+  "distribution": {
+    "strongBuy": 0,
+    "buy": 0,
+    "hold": 2,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 322000000,
+      "revenueGrowth": 0.084,
+      "epsAvg": 0.06,
+      "epsGrowth": 0.34299999999999997,
+      "analystCount": 2
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 2
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 322000000,
+    "revenueGrowth": 0.084,
+    "epsAvg": 0.06,
+    "epsGrowth": 0.34299999999999997,
+    "analystCount": 2
+  },
+  "revisions": null
+}

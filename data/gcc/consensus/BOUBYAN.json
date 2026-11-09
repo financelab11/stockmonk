@@ -1,0 +1,48 @@
+{
+  "ticker": "BOUBYAN",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/kwse/BOUBYAN/forecast/",
+  "targetMean": 0.61,
+  "targetHigh": 0.77,
+  "targetLow": 0.32,
+  "recommendationKey": "hold",
+  "analystCount": 3,
+  "distribution": {
+    "strongBuy": 1,
+    "buy": 0,
+    "hold": 1,
+    "sell": 0,
+    "strongSell": 1
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 281000000,
+      "revenueGrowth": 0.05,
+      "epsAvg": 0.02,
+      "epsGrowth": -0.001,
+      "analystCount": 3
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 3
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 281000000,
+    "revenueGrowth": 0.05,
+    "epsAvg": 0.02,
+    "epsGrowth": -0.001,
+    "analystCount": 3
+  },
+  "revisions": null
+}

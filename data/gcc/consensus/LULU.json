@@ -1,0 +1,48 @@
+{
+  "ticker": "LULU",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/adx/LULU/forecast/",
+  "targetMean": 1.15,
+  "targetHigh": 1.5,
+  "targetLow": 1,
+  "recommendationKey": "buy",
+  "analystCount": 7,
+  "distribution": {
+    "strongBuy": 2,
+    "buy": 0,
+    "hold": 5,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 7900000000,
+      "revenueGrowth": -0.01,
+      "epsAvg": 0.02,
+      "epsGrowth": -0.231,
+      "analystCount": 7
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 7
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 7900000000,
+    "revenueGrowth": -0.01,
+    "epsAvg": 0.02,
+    "epsGrowth": -0.231,
+    "analystCount": 7
+  },
+  "revisions": null
+}

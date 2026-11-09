@@ -1102,8 +1102,8 @@
     "operatingMargin": 0.1445360824742268,
     "netMargin": 0.12101903251387787,
     "fcfMargin": 0.07467486122125297,
-    "roic": 0.0761,
-    "roe": 0.1036,
+    "roic": 0.060795916126907455,
+    "roe": 0.10076262793000991,
     "netDebt": 1707680000,
     "netDebtToEbitda": 2.002744320780607,
     "interestCover": 3.358794803280199,
@@ -1116,26 +1116,26 @@
     "fcfYield": null,
     "return1y": -0.46064003909091245,
     "returnYtd": -0.3822826827674545,
-    "return5y": -0.12737453234737384
+    "return5y": -0.12737458500867238
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "41th percentile revenue/EPS growth in the covered universe."
+      "detail": "37th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
-      "label": "Profitability: Average",
-      "tone": "neutral",
-      "detail": "40th percentile operating margin and ROIC."
+      "label": "Profitability: Low",
+      "tone": "caution",
+      "detail": "29th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: Average",
       "tone": "neutral",
-      "detail": "59th percentile free-cash-flow margin."
+      "detail": "54th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1147,7 +1147,7 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "94th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "90th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1591,5 +1591,5 @@
       "date": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-11-09T16:15:19.747Z"
+  "updatedAt": "2026-11-09T20:16:01.039Z"
 }

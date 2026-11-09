@@ -1,0 +1,48 @@
+{
+  "ticker": "TABREED",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/dfm/TABREED/forecast/",
+  "targetMean": 3.31,
+  "targetHigh": 4.3,
+  "targetLow": 2.85,
+  "recommendationKey": "buy",
+  "analystCount": 8,
+  "distribution": {
+    "strongBuy": 5,
+    "buy": 1,
+    "hold": 2,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 2500000000,
+      "revenueGrowth": 0.023,
+      "epsAvg": 0.16,
+      "epsGrowth": 0.013000000000000001,
+      "analystCount": 8
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 8
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 2500000000,
+    "revenueGrowth": 0.023,
+    "epsAvg": 0.16,
+    "epsGrowth": 0.013000000000000001,
+    "analystCount": 8
+  },
+  "revisions": null
+}

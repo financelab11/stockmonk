@@ -1,0 +1,48 @@
+{
+  "ticker": "EMPOWER",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/dfm/EMPOWER/forecast/",
+  "targetMean": 2.14,
+  "targetHigh": 2.3,
+  "targetLow": 1.9,
+  "recommendationKey": "buy",
+  "analystCount": 13,
+  "distribution": {
+    "strongBuy": 9,
+    "buy": 3,
+    "hold": 1,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 3600000000,
+      "revenueGrowth": 0.045,
+      "epsAvg": 0.11,
+      "epsGrowth": 0.09699999999999999,
+      "analystCount": 13
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 13
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 3600000000,
+    "revenueGrowth": 0.045,
+    "epsAvg": 0.11,
+    "epsGrowth": 0.09699999999999999,
+    "analystCount": 13
+  },
+  "revisions": null
+}

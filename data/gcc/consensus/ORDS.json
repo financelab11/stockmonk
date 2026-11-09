@@ -1,0 +1,48 @@
+{
+  "ticker": "ORDS",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/qse/ORDS/forecast/",
+  "targetMean": 16.7,
+  "targetHigh": 19,
+  "targetLow": 13.7,
+  "recommendationKey": "buy",
+  "analystCount": 8,
+  "distribution": {
+    "strongBuy": 7,
+    "buy": 1,
+    "hold": 0,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 25400000000,
+      "revenueGrowth": 0.028999999999999998,
+      "epsAvg": 1.29,
+      "epsGrowth": 0.02,
+      "analystCount": 8
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 8
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 25400000000,
+    "revenueGrowth": 0.028999999999999998,
+    "epsAvg": 1.29,
+    "epsGrowth": 0.02,
+    "analystCount": 8
+  },
+  "revisions": null
+}

@@ -1,0 +1,48 @@
+{
+  "ticker": "ZAIN",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/kwse/ZAIN/forecast/",
+  "targetMean": 0.63,
+  "targetHigh": 0.68,
+  "targetLow": 0.57,
+  "recommendationKey": "buy",
+  "analystCount": 7,
+  "distribution": {
+    "strongBuy": 0,
+    "buy": 1,
+    "hold": 6,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 2400000000,
+      "revenueGrowth": 0.057,
+      "epsAvg": 0.07,
+      "epsGrowth": 0.218,
+      "analystCount": 7
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 7
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 2400000000,
+    "revenueGrowth": 0.057,
+    "epsAvg": 0.07,
+    "epsGrowth": 0.218,
+    "analystCount": 7
+  },
+  "revisions": null
+}

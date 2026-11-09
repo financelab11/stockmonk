@@ -340,7 +340,7 @@ export function buildFactorChips(
       key: "profitability",
       label: `Profitability: ${tier(profit, "High", "Average", "Low")}`,
       tone: toneFor(profit),
-      detail: profit === null ? "Not enough comparable data." : `${Math.round(profit * 100)}th percentile operating margin and ROIC.`,
+      detail: profit === null ? "Not enough comparable data." : `${Math.round(profit * 100)}th percentile profitability metrics in the covered universe.`,
     });
     chips.push({
       key: "cash",

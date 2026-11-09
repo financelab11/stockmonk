@@ -1,0 +1,48 @@
+{
+  "ticker": "QNBK",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/qse/QNBK/forecast/",
+  "targetMean": 20.23,
+  "targetHigh": 22.3,
+  "targetLow": 17.1,
+  "recommendationKey": "buy",
+  "analystCount": 11,
+  "distribution": {
+    "strongBuy": 8,
+    "buy": 2,
+    "hold": 1,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2023-12-31",
+      "revenueAvg": 37800000000,
+      "revenueGrowth": -0.14400000000000002,
+      "epsAvg": 1.53,
+      "epsGrowth": -0.12,
+      "analystCount": 11
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 11
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2023-12-31",
+    "revenueAvg": 37800000000,
+    "revenueGrowth": -0.14400000000000002,
+    "epsAvg": 1.53,
+    "epsGrowth": -0.12,
+    "analystCount": 11
+  },
+  "revisions": null
+}

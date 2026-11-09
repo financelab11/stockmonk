@@ -1,5 +1,5 @@
 {
-  "count": 89,
+  "count": 187,
   "asOf": "2026-11-09",
   "groups": [
     {
@@ -30,37 +30,37 @@
     {
       "id": "ae-financials",
       "name": "UAE Banks & Financials",
-      "count": 0
+      "count": 15
     },
     {
       "id": "ae-energy",
       "name": "UAE Energy & Utilities",
-      "count": 0
+      "count": 11
     },
     {
       "id": "ae-realestate",
       "name": "UAE Real Estate & Construction",
-      "count": 0
+      "count": 9
     },
     {
       "id": "ae-consumer",
       "name": "UAE Consumer, Logistics & Tech",
-      "count": 0
+      "count": 14
     },
     {
       "id": "qa",
       "name": "Qatar",
-      "count": 0
+      "count": 22
     },
     {
       "id": "kw",
       "name": "Kuwait",
-      "count": 0
+      "count": 17
     },
     {
       "id": "om",
       "name": "Oman",
-      "count": 0
+      "count": 10
     },
     {
       "id": "bh",

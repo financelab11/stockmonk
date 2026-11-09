@@ -1,0 +1,48 @@
+{
+  "ticker": "FERTIGLB",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/adx/FERTIGLB/forecast/",
+  "targetMean": 3.48,
+  "targetHigh": 4.1,
+  "targetLow": 2.82,
+  "recommendationKey": "buy",
+  "analystCount": 15,
+  "distribution": {
+    "strongBuy": 9,
+    "buy": 3,
+    "hold": 3,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 3600000000,
+      "revenueGrowth": 0.273,
+      "epsAvg": 0.06,
+      "epsGrowth": 0.45899999999999996,
+      "analystCount": 15
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 15
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 3600000000,
+    "revenueGrowth": 0.273,
+    "epsAvg": 0.06,
+    "epsGrowth": 0.45899999999999996,
+    "analystCount": 15
+  },
+  "revisions": null
+}

@@ -83,6 +83,7 @@ export default async function GccDiscoverPage({
         fcfMargin: company.metrics.fcfMargin,
         netDebt: company.metrics.netDebt,
         roic: company.metrics.roic,
+        currency: company.currency,
       },
     ]),
   );

@@ -1103,7 +1103,7 @@
     "netMargin": 0.6820036548426666,
     "fcfMargin": -0.0354720004005307,
     "roic": null,
-    "roe": 0.1868,
+    "roe": 0.17614389438090375,
     "netDebt": 29094000000,
     "netDebtToEbitda": null,
     "interestCover": null,
@@ -1116,26 +1116,26 @@
     "fcfYield": null,
     "return1y": -0.056801718169639304,
     "returnYtd": -0.009496977406757368,
-    "return5y": 0.12961964992200947
+    "return5y": 0.12961972811813394
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "70th percentile revenue/EPS growth in the covered universe."
+      "detail": "68th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "96th percentile operating margin and ROIC."
+      "detail": "95th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: Low",
       "tone": "caution",
-      "detail": "25th percentile free-cash-flow margin."
+      "detail": "31th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1591,5 +1591,5 @@
       "date": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-11-09T16:14:20.863Z"
+  "updatedAt": "2026-11-09T20:14:56.199Z"
 }

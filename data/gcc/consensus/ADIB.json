@@ -1,0 +1,48 @@
+{
+  "ticker": "ADIB",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/adx/ADIB/forecast/",
+  "targetMean": 25.76,
+  "targetHigh": 32.49,
+  "targetLow": 21.5,
+  "recommendationKey": "buy",
+  "analystCount": 16,
+  "distribution": {
+    "strongBuy": 8,
+    "buy": 4,
+    "hold": 4,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 13000000000,
+      "revenueGrowth": 0.055999999999999994,
+      "epsAvg": 1.8,
+      "epsGrowth": 0.032,
+      "analystCount": 16
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 16
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 13000000000,
+    "revenueGrowth": 0.055999999999999994,
+    "epsAvg": 1.8,
+    "epsGrowth": 0.032,
+    "analystCount": 16
+  },
+  "revisions": null
+}

@@ -1,0 +1,48 @@
+{
+  "ticker": "FAB",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/adx/FAB/forecast/",
+  "targetMean": 21.88,
+  "targetHigh": 25.12,
+  "targetLow": 17.1,
+  "recommendationKey": "buy",
+  "analystCount": 17,
+  "distribution": {
+    "strongBuy": 11,
+    "buy": 2,
+    "hold": 3,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 39600000000,
+      "revenueGrowth": 0.079,
+      "epsAvg": 1.93,
+      "epsGrowth": 0.040999999999999995,
+      "analystCount": 17
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 17
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 39600000000,
+    "revenueGrowth": 0.079,
+    "epsAvg": 1.93,
+    "epsGrowth": 0.040999999999999995,
+    "analystCount": 17
+  },
+  "revisions": null
+}

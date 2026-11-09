@@ -325,6 +325,16 @@ export const GCC_PUBLISHED_TICKERS = [
   "1050",
   "1140",
   "1020",
+  "1211",
+  "7010",
+  "2010",
+  "2082",
+  "4013",
+  "5110",
+  "2020",
+  "7203",
+  "7020",
+  "2280",
 ];
 
 export function getGccEntry(ticker: string): GccEntry | undefined {

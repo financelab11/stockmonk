@@ -7,6 +7,7 @@ export type ScreenDetail = {
   fcfMargin: number | null;
   netDebt: number | null;
   roic: number | null;
+  currency?: string;
 };
 
 function screen(
@@ -71,7 +72,10 @@ export function ScreensPanel({
       "Net cash balance sheets",
       "Companies whose cash and investments exceed total debt.",
       (entry) =>
-        `Net cash ${formatCompactCurrency(Math.abs(detail(entry.ticker).netDebt ?? 0), currency)}`,
+        `Net cash ${formatCompactCurrency(
+          Math.abs(detail(entry.ticker).netDebt ?? 0),
+          detail(entry.ticker).currency ?? currency,
+        )}`,
       (entry) => {
         const value = detail(entry.ticker).netDebt;
         return value != null && value < 0;

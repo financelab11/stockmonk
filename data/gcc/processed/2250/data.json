@@ -1103,7 +1103,7 @@
     "netMargin": null,
     "fcfMargin": null,
     "roic": 0.004,
-    "roe": 0.005699999999999999,
+    "roe": 0.015168067226890757,
     "netDebt": null,
     "netDebtToEbitda": null,
     "interestCover": null,
@@ -1129,7 +1129,7 @@
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "11th percentile operating margin and ROIC."
+      "detail": "7th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1591,5 +1591,5 @@
       "date": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-11-09T16:15:02.283Z"
+  "updatedAt": "2026-11-09T20:15:42.567Z"
 }

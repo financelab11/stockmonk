@@ -1,0 +1,48 @@
+{
+  "ticker": "QNNS",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/qse/QNNS/forecast/",
+  "targetMean": 12.37,
+  "targetHigh": 13.2,
+  "targetLow": 11.54,
+  "recommendationKey": "buy",
+  "analystCount": 3,
+  "distribution": {
+    "strongBuy": 3,
+    "buy": 0,
+    "hold": 0,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 3300000000,
+      "revenueGrowth": -0.023,
+      "epsAvg": 1.36,
+      "epsGrowth": 0.214,
+      "analystCount": 3
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 3
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 3300000000,
+    "revenueGrowth": -0.023,
+    "epsAvg": 1.36,
+    "epsGrowth": 0.214,
+    "analystCount": 3
+  },
+  "revisions": null
+}

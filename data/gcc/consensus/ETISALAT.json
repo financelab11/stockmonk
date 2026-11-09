@@ -1,0 +1,48 @@
+{
+  "ticker": "ETISALAT",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/adx/ETISALAT/forecast/",
+  "targetMean": 23.05,
+  "targetHigh": 28,
+  "targetLow": 19.3,
+  "recommendationKey": "buy",
+  "analystCount": 16,
+  "distribution": {
+    "strongBuy": 7,
+    "buy": 2,
+    "hold": 7,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 77900000000,
+      "revenueGrowth": 0.069,
+      "epsAvg": 1.4,
+      "epsGrowth": -0.21,
+      "analystCount": 16
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 16
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 77900000000,
+    "revenueGrowth": 0.069,
+    "epsAvg": 1.4,
+    "epsGrowth": -0.21,
+    "analystCount": 16
+  },
+  "revisions": null
+}

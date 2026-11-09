@@ -1,0 +1,48 @@
+{
+  "ticker": "ADNOCDRILL",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/adx/ADNOCDRILL/forecast/",
+  "targetMean": 6.81,
+  "targetHigh": 7.5,
+  "targetLow": 6.02,
+  "recommendationKey": "buy",
+  "analystCount": 20,
+  "distribution": {
+    "strongBuy": 13,
+    "buy": 4,
+    "hold": 3,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 5000000000,
+      "revenueGrowth": 0.022000000000000002,
+      "epsAvg": 0.09,
+      "epsGrowth": -0.006999999999999999,
+      "analystCount": 20
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 20
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 5000000000,
+    "revenueGrowth": 0.022000000000000002,
+    "epsAvg": 0.09,
+    "epsGrowth": -0.006999999999999999,
+    "analystCount": 20
+  },
+  "revisions": null
+}

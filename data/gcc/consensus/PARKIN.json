@@ -1,0 +1,48 @@
+{
+  "ticker": "PARKIN",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/dfm/PARKIN/forecast/",
+  "targetMean": 6.59,
+  "targetHigh": 7.3,
+  "targetLow": 5.55,
+  "recommendationKey": "buy",
+  "analystCount": 10,
+  "distribution": {
+    "strongBuy": 6,
+    "buy": 1,
+    "hold": 2,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 1500000000,
+      "revenueGrowth": 0.146,
+      "epsAvg": 0.23,
+      "epsGrowth": 0.095,
+      "analystCount": 10
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 10
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 1500000000,
+    "revenueGrowth": 0.146,
+    "epsAvg": 0.23,
+    "epsGrowth": 0.095,
+    "analystCount": 10
+  },
+  "revisions": null
+}

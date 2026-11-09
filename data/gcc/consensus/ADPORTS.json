@@ -1,0 +1,48 @@
+{
+  "ticker": "ADPORTS",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/adx/ADPORTS/forecast/",
+  "targetMean": 6.89,
+  "targetHigh": 8.5,
+  "targetLow": 6.25,
+  "recommendationKey": "buy",
+  "analystCount": 6,
+  "distribution": {
+    "strongBuy": 3,
+    "buy": 1,
+    "hold": 2,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 22900000000,
+      "revenueGrowth": 0.102,
+      "epsAvg": 0.47,
+      "epsGrowth": 0.33299999999999996,
+      "analystCount": 6
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 6
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 22900000000,
+    "revenueGrowth": 0.102,
+    "epsAvg": 0.47,
+    "epsGrowth": 0.33299999999999996,
+    "analystCount": 6
+  },
+  "revisions": null
+}

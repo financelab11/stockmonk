@@ -1,0 +1,48 @@
+{
+  "ticker": "MABANEE",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/kwse/MABANEE/forecast/",
+  "targetMean": 1.14,
+  "targetHigh": 1.25,
+  "targetLow": 1.08,
+  "recommendationKey": "buy",
+  "analystCount": 4,
+  "distribution": {
+    "strongBuy": 2,
+    "buy": 1,
+    "hold": 1,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 137200000,
+      "revenueGrowth": -0.017,
+      "epsAvg": 0.04,
+      "epsGrowth": -0.07200000000000001,
+      "analystCount": 4
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 4
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 137200000,
+    "revenueGrowth": -0.017,
+    "epsAvg": 0.04,
+    "epsGrowth": -0.07200000000000001,
+    "analystCount": 4
+  },
+  "revisions": null
+}

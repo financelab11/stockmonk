@@ -1,0 +1,48 @@
+{
+  "ticker": "BKSB",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/msm/BKSB/forecast/",
+  "targetMean": 0.23,
+  "targetHigh": 0.24,
+  "targetLow": 0.22,
+  "recommendationKey": "buy",
+  "analystCount": 2,
+  "distribution": {
+    "strongBuy": 1,
+    "buy": 0,
+    "hold": 1,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2022-12-31",
+      "revenueAvg": 101000000,
+      "revenueGrowth": -0.6,
+      "epsAvg": 0,
+      "epsGrowth": -0.677,
+      "analystCount": 2
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2023-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 2
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2022-12-31",
+    "revenueAvg": 101000000,
+    "revenueGrowth": -0.6,
+    "epsAvg": 0,
+    "epsGrowth": -0.677,
+    "analystCount": 2
+  },
+  "revisions": null
+}

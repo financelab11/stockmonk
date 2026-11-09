@@ -1,0 +1,48 @@
+{
+  "ticker": "QGTS",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/qse/QGTS/forecast/",
+  "targetMean": 5.04,
+  "targetHigh": 6.2,
+  "targetLow": 3.65,
+  "recommendationKey": "buy",
+  "analystCount": 5,
+  "distribution": {
+    "strongBuy": 2,
+    "buy": 1,
+    "hold": 1,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 4000000000,
+      "revenueGrowth": -0.004,
+      "epsAvg": 0.26,
+      "epsGrowth": -0.161,
+      "analystCount": 5
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 5
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 4000000000,
+    "revenueGrowth": -0.004,
+    "epsAvg": 0.26,
+    "epsGrowth": -0.161,
+    "analystCount": 5
+  },
+  "revisions": null
+}

@@ -1,0 +1,48 @@
+{
+  "ticker": "DIB",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/dfm/DIB/forecast/",
+  "targetMean": 8.04,
+  "targetHigh": 9.2,
+  "targetLow": 6.2,
+  "recommendationKey": "hold",
+  "analystCount": 13,
+  "distribution": {
+    "strongBuy": 1,
+    "buy": 2,
+    "hold": 7,
+    "sell": 1,
+    "strongSell": 2
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 13200000000,
+      "revenueGrowth": 0.023,
+      "epsAvg": 0.92,
+      "epsGrowth": -0.06,
+      "analystCount": 13
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 13
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 13200000000,
+    "revenueGrowth": 0.023,
+    "epsAvg": 0.92,
+    "epsGrowth": -0.06,
+    "analystCount": 13
+  },
+  "revisions": null
+}

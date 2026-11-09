@@ -1,0 +1,48 @@
+{
+  "ticker": "ADCB",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/adx/ADCB/forecast/",
+  "targetMean": 18.53,
+  "targetHigh": 23.04,
+  "targetLow": 11.25,
+  "recommendationKey": "buy",
+  "analystCount": 17,
+  "distribution": {
+    "strongBuy": 8,
+    "buy": 6,
+    "hold": 2,
+    "sell": 0,
+    "strongSell": 1
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 24200000000,
+      "revenueGrowth": 0.09300000000000001,
+      "epsAvg": 1.63,
+      "epsGrowth": 0.129,
+      "analystCount": 17
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 17
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 24200000000,
+    "revenueGrowth": 0.09300000000000001,
+    "epsAvg": 1.63,
+    "epsGrowth": 0.129,
+    "analystCount": 17
+  },
+  "revisions": null
+}

@@ -1,0 +1,48 @@
+{
+  "ticker": "MARK",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/qse/MARK/forecast/",
+  "targetMean": 2.12,
+  "targetHigh": 2.41,
+  "targetLow": 1.6,
+  "recommendationKey": "sell",
+  "analystCount": 4,
+  "distribution": {
+    "strongBuy": 0,
+    "buy": 0,
+    "hold": 3,
+    "sell": 0,
+    "strongSell": 1
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 3200000000,
+      "revenueGrowth": -0.026000000000000002,
+      "epsAvg": 0.13,
+      "epsGrowth": -0.214,
+      "analystCount": 4
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 4
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 3200000000,
+    "revenueGrowth": -0.026000000000000002,
+    "epsAvg": 0.13,
+    "epsGrowth": -0.214,
+    "analystCount": 4
+  },
+  "revisions": null
+}

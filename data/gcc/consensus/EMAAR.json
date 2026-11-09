@@ -1,0 +1,48 @@
+{
+  "ticker": "EMAAR",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/dfm/EMAAR/forecast/",
+  "targetMean": 16.36,
+  "targetHigh": 19.9,
+  "targetLow": 12.5,
+  "recommendationKey": "buy",
+  "analystCount": 15,
+  "distribution": {
+    "strongBuy": 12,
+    "buy": 1,
+    "hold": 2,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 55200000000,
+      "revenueGrowth": 0.114,
+      "epsAvg": 2.17,
+      "epsGrowth": 0.091,
+      "analystCount": 15
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 15
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 55200000000,
+    "revenueGrowth": 0.114,
+    "epsAvg": 2.17,
+    "epsGrowth": 0.091,
+    "analystCount": 15
+  },
+  "revisions": null
+}

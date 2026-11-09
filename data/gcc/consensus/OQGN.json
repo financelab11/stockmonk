@@ -1,0 +1,48 @@
+{
+  "ticker": "OQGN",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/msm/OQGN/forecast/",
+  "targetMean": 0.25,
+  "targetHigh": 0.29,
+  "targetLow": 0.22,
+  "recommendationKey": "buy",
+  "analystCount": 5,
+  "distribution": {
+    "strongBuy": 1,
+    "buy": 0,
+    "hold": 4,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 194000000,
+      "revenueGrowth": -0.063,
+      "epsAvg": 0.01,
+      "epsGrowth": 0.25,
+      "analystCount": 5
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 5
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 194000000,
+    "revenueGrowth": -0.063,
+    "epsAvg": 0.01,
+    "epsGrowth": 0.25,
+    "analystCount": 5
+  },
+  "revisions": null
+}

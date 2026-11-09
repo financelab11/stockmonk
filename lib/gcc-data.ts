@@ -3,7 +3,7 @@ import "server-only";
 import fs from "node:fs";
 import path from "node:path";
 import { cache } from "react";
-import { GCC_TICKERS, getGccGroup } from "@/config/gcc-coverage";
+import { GCC_PUBLISHED_TICKERS, GCC_TICKERS, getGccGroup } from "@/config/gcc-coverage";
 import {
   buildFullFactorScores,
   computeCagr,
@@ -157,7 +157,9 @@ function buildGccBundle(data: TickerData): GccResearchBundle {
 }
 
 export const getGccResearchBundles = cache((limit?: number): GccResearchBundle[] => {
-  const companies = getGccCompanies();
+  const companies = getGccCompanies().filter((company) =>
+    GCC_PUBLISHED_TICKERS.includes(company.ticker),
+  );
   const selected = limit == null ? companies : companies.slice(0, limit);
   return selected.map(buildGccBundle);
 });

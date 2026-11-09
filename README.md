@@ -61,7 +61,7 @@ Lighthouse difference.
 | `/` | Hero, recently researched, data distribution, spotlight, latest updates, Pro demo |
 | `/discover` | Featured research, data-quality screens, search, pricing demo |
 | `/discover/all-stocks` | Full universe grouped by sector, filters and sort |
-| `/screener` | Five-factor quantitative screener for all 229 US names |
+| `/screener` | Five-factor quantitative screener for the US listed universe |
 | `/newsfeed` | Data-change feed with category and ticker filters, load more, RSS |
 | `/framework` | Methodology, formulas, peer/valuation approach |
 | `/stocks/[ticker]` | Ten-section research report for all 229 US coverage names |
@@ -117,13 +117,22 @@ Outputs:
 
 Raw values are winsorized at the 2nd/98th percentile and converted to 0–100
 percentiles within the company's coverage group where enough peers exist. The
-composite is the weighted factor average, re-normalised for available factors.
-Missing parameters render as n/a; they are not filled with estimates. Score
-bands are descriptive, not ratings.
+composite is the weighted factor average, re-normalised for available factors
+and requires at least three of them. Missing parameters render as n/a; they are
+not filled with estimates. Score bands are descriptive, not ratings.
+
+The screener covers the US listed universe from SimFin's bulk export
+(`pnpm ingest:bulk`), plus the 229 full research reports from the daily Web API
+pipeline. SimFin's free bulk feed is delayed by about a year, so expanded rows
+carry the bulk snapshot date while the research rows refresh daily. CI builds
+that do not have the gitignored bulk files keep the committed snapshot instead
+of shrinking the universe.
 
 The daily refresh workflow lives in `.github/workflows/daily-refresh.yml`. It
 runs the US and India ingestion, rebuilds the public data files, and commits the
-refreshed data. Set the `SIMFIN_API_KEY` repository secret for it to run.
+refreshed data. The screener universe is refreshed weekly by
+`.github/workflows/weekly-screener-refresh.yml`. Set the `SIMFIN_API_KEY`
+repository secret for both to run.
 
 ### Story authoring
 

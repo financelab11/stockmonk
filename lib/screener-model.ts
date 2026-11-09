@@ -71,6 +71,7 @@ export type ScreenerRow = {
   roe: number | null;
   operatingMargin: number | null;
   netMargin: number | null;
+  fcfMargin: number | null;
   revenueGrowth: number | null;
   netDebtEbitda: number | null;
   priceVs50dma: number | null;
@@ -79,6 +80,7 @@ export type ScreenerRow = {
   roicTrend: number | null;
   assetTurnover: number | null;
   composite: number | null;
+  factorScores: Record<FactorKey, number | null>;
   band: string;
   coverage: number;
   factors: Record<FactorKey, FactorResult>;
@@ -374,6 +376,70 @@ function epsSurprise(consensus: Consensus | null): number | null {
   return average(surprises);
 }
 
+export function computePriceParameters(
+  prices: RangePricePoint[],
+  pricesMax: RangePricePoint[],
+  benchmark: RangePricePoint[],
+): Record<string, number | null> {
+  const beta1y = beta(prices, benchmark, 252);
+  const beta2y = beta(pricesMax, benchmark, 504);
+  const vol30 = annualizedVolatility(prices, 30);
+  const vol90 = annualizedVolatility(prices, 90);
+  const vol252 = annualizedVolatility(prices, 252);
+  const down = downsideDeviation(prices);
+  const annualReturn = annualizedReturn(prices, 365);
+  const sortino =
+    annualReturn != null && down != null && down > 0
+      ? (annualReturn - RISK_FREE) / down
+      : null;
+  const sharpe =
+    annualReturn != null && vol252 != null && vol252 > 0
+      ? (annualReturn - RISK_FREE) / vol252
+      : null;
+  const sortedPrices = [...prices].sort((a, b) => a.t - b.t);
+  const lastPrice = sortedPrices.at(-1)?.c ?? null;
+  const previousPrice = sortedPrices.at(-2)?.c ?? null;
+  const price = lastPrice ?? 0;
+  const dma50 = movingAverage(prices, 50);
+  const dma200 = movingAverage(prices, 200);
+  const stockReturn = returnOverCalendarDays(prices, 365);
+  const benchReturn = returnOverCalendarDays(benchmark, 365);
+
+  return {
+    return1d:
+      lastPrice != null && previousPrice != null && previousPrice > 0
+        ? lastPrice / previousPrice - 1
+        : null,
+    return1w: returnOverCalendarDays(prices, 7),
+    return1m: returnOverCalendarDays(prices, 30),
+    return3m: returnOverCalendarDays(prices, 91),
+    return6m: returnOverCalendarDays(prices, 182),
+    return12m: returnOverCalendarDays(prices, 365),
+    return3y: returnOverCalendarDays(pricesMax, 1095),
+    return5y: returnOverCalendarDays(pricesMax, 1825),
+    momentum12m1m:
+      stockReturn != null && returnOverCalendarDays(prices, 30) != null
+        ? stockReturn - (returnOverCalendarDays(prices, 30) as number)
+        : null,
+    relativeStrength:
+      stockReturn != null && benchReturn != null ? stockReturn - benchReturn : null,
+    priceVs50dma: dma50 && dma50 > 0 ? price / dma50 - 1 : null,
+    priceVs200dma: dma200 && dma200 > 0 ? price / dma200 - 1 : null,
+    vol30d: vol30,
+    vol90d: vol90,
+    vol252d: vol252,
+    beta1y,
+    beta2y,
+    downsideDeviation: down,
+    maxDrawdown: maxDrawdown(prices),
+    sortino,
+    sharpe,
+    var95: valueAtRisk(prices),
+    negativeFrequency: negativeFrequency(prices),
+    recoveryPeriod: recoveryPeriod(prices),
+  };
+}
+
 export function computeRawParameters(
   bundle: ScreenerBundle,
   benchmark: RangePricePoint[],
@@ -393,21 +459,8 @@ export function computeRawParameters(
   const assets = ttmOrAnnual(data, "totalAssets");
   const marketCap = data.latestPrice.marketCap;
   const ev = marketCap != null && debt != null ? marketCap + debt - (cash ?? 0) : marketCap;
-  const beta1y = beta(prices, benchmark, 252);
-  const beta2y = beta(pricesMax, benchmark, 504);
-  const vol30 = annualizedVolatility(prices, 30);
-  const vol90 = annualizedVolatility(prices, 90);
-  const vol252 = annualizedVolatility(prices, 252);
-  const down = downsideDeviation(prices);
-  const annualReturn = annualizedReturn(prices, 365);
-  const sortino =
-    annualReturn != null && down != null && down > 0
-      ? (annualReturn - RISK_FREE) / down
-      : null;
-  const sharpe =
-    annualReturn != null && vol252 != null && vol252 > 0
-      ? (annualReturn - RISK_FREE) / vol252
-      : null;
+  const priceParameters = computePriceParameters(prices, pricesMax, benchmark);
+  const beta1y = priceParameters.beta1y;
   const currentFy = consensus?.estimates.find(
     (estimate) => estimate.period === "Current fiscal year",
   );
@@ -419,7 +472,12 @@ export function computeRawParameters(
   const forwardPeValue = finite(forwardEps) && forwardEps > 0 ? price / forwardEps : null;
   const forwardGrowth = currentFy?.epsGrowth ?? nextFy?.epsGrowth ?? null;
   const roic = data.metrics.roic;
-  const roce = safeDiv(operatingIncome, (equity ?? 0) + (debt ?? 0) - (cash ?? 0));
+  const investedCapital =
+    equity != null && debt != null && cash != null ? equity + debt - cash : null;
+  const roce =
+    investedCapital != null && investedCapital > 0
+      ? safeDiv(operatingIncome, investedCapital)
+      : null;
   const estimatedWacc = wacc(data, beta1y);
   const roicWacc =
     roic != null && estimatedWacc != null ? roic - estimatedWacc : null;
@@ -430,10 +488,6 @@ export function computeRawParameters(
       ? (latest.totalAssets + prior.totalAssets) / 2
       : assets;
   const buybacks = ttmOrAnnual(data, "buybacks");
-
-  const sortedPrices = [...prices].sort((a, b) => a.t - b.t);
-  const lastPrice = sortedPrices.at(-1)?.c ?? null;
-  const previousPrice = sortedPrices.at(-2)?.c ?? null;
 
   const roicHistory = annual
     .slice(-5)
@@ -484,7 +538,7 @@ export function computeRawParameters(
     forwardEpsGrowth1: currentFy?.epsGrowth ?? null,
     forwardEpsGrowth2: nextFy?.epsGrowth ?? null,
 
-    roe: data.metrics.roe,
+    roe: equity != null && equity > 0 ? data.metrics.roe : null,
     roce,
     roic,
     grossMargin: data.metrics.grossMargin,
@@ -496,7 +550,7 @@ export function computeRawParameters(
       averageAssets != null && averageAssets > 0 && netIncome != null && cfo != null
         ? (netIncome - cfo) / averageAssets
         : null,
-    debtEquity: safeDiv(debt, equity),
+    debtEquity: equity != null && equity > 0 ? safeDiv(debt, equity) : null,
     interestCoverage:
       interest != null && Math.abs(interest) > 0 ? safeDiv(operatingIncome, Math.abs(interest)) : null,
     netDebtEbitda: data.metrics.netDebtToEbitda,
@@ -514,7 +568,7 @@ export function computeRawParameters(
       ? ev / operatingIncome
       : null,
     evSales: data.metrics.evSales,
-    pb: safeDiv(marketCap, equity),
+    pb: equity != null && equity > 0 ? safeDiv(marketCap, equity) : null,
     pfcf: data.metrics.pfcf,
     fcfYield: data.metrics.fcfYield,
     earningsYield: data.metrics.pe != null && data.metrics.pe > 0 ? 1 / data.metrics.pe : null,
@@ -525,55 +579,16 @@ export function computeRawParameters(
     historicalValuation: historicalValuationPercentile(data, pricesMax),
     buybackYield:
       finite(buybacks) && marketCap != null && marketCap > 0 ? buybacks / marketCap : null,
+    netMargin: data.metrics.netMargin,
+    revenueGrowthTtm: data.metrics.revenueGrowthTtm,
+    return1y: data.metrics.return1y,
 
-    return1d:
-      lastPrice != null && previousPrice != null && previousPrice > 0
-        ? lastPrice / previousPrice - 1
-        : null,
-    return1w: returnOverCalendarDays(prices, 7),
-    return1m: returnOverCalendarDays(prices, 30),
-    return3m: returnOverCalendarDays(prices, 91),
-    return6m: returnOverCalendarDays(prices, 182),
-    return12m: returnOverCalendarDays(prices, 365),
-    return3y: returnOverCalendarDays(pricesMax, 1095),
-    return5y: returnOverCalendarDays(pricesMax, 1825),
-    momentum12m1m:
-      returnOverCalendarDays(prices, 365) != null &&
-      returnOverCalendarDays(prices, 30) != null
-        ? (returnOverCalendarDays(prices, 365) as number) -
-          (returnOverCalendarDays(prices, 30) as number)
-        : null,
-    relativeStrength: (() => {
-      const stock = returnOverCalendarDays(prices, 365);
-      const bench = returnOverCalendarDays(benchmark, 365);
-      return stock != null && bench != null ? stock - bench : null;
-    })(),
-    priceVs50dma: (() => {
-      const average = movingAverage(prices, 50);
-      return average && average > 0 ? price / average - 1 : null;
-    })(),
-    priceVs200dma: (() => {
-      const average = movingAverage(prices, 200);
-      return average && average > 0 ? price / average - 1 : null;
-    })(),
+    ...priceParameters,
     epsRevision30d: consensus?.revisions?.eps30d ?? null,
     epsRevision90d: consensus?.revisions?.eps90d ?? null,
     epsSurprise: epsSurprise(consensus),
     revenueSurprise: null,
     earningsMomentum: forwardGrowth,
-
-    vol30d: vol30,
-    vol90d: vol90,
-    vol252d: vol252,
-    beta1y,
-    beta2y,
-    downsideDeviation: down,
-    maxDrawdown: maxDrawdown(prices),
-    sortino,
-    sharpe,
-    var95: valueAtRisk(prices),
-    negativeFrequency: negativeFrequency(prices),
-    recoveryPeriod: recoveryPeriod(prices),
   };
 }
 
@@ -701,30 +716,6 @@ function quantile(values: number[], q: number): number {
   return sorted[index];
 }
 
-function winsorized(values: number[]): number[] {
-  if (values.length < 5) return values;
-  const low = quantile(values, 0.02);
-  const high = quantile(values, 0.98);
-  return values.map((value) => Math.min(high, Math.max(low, value)));
-}
-
-function percentileScore(
-  population: number[],
-  value: number,
-  direction: "higher" | "lower",
-): number {
-  const sorted = [...population].sort((a, b) => a - b);
-  let low = 0;
-  let high = sorted.length;
-  while (low < high) {
-    const mid = (low + high) >> 1;
-    if (sorted[mid] <= value) low = mid + 1;
-    else high = mid;
-  }
-  const percentile = sorted.length ? Math.round((low / sorted.length) * 100) : 50;
-  return direction === "higher" ? percentile : 100 - percentile;
-}
-
 function factorScore(
   factor: FactorConfig,
   scores: Record<string, ParameterResult>,
@@ -750,43 +741,90 @@ function band(score: number | null): string {
   return "Bottom band";
 }
 
-export function buildScreenerRows(
-  bundles: ScreenerBundle[],
-  benchmark: RangePricePoint[],
-): ScreenerRow[] {
-  const raw = bundles.map((bundle) => ({
-    bundle,
-    group: getCoverageGroup(bundle.data.ticker)?.id ?? "other",
-    values: computeRawParameters(bundle, benchmark),
-  }));
+export type ScreenerRawEntry = {
+  ticker: string;
+  name: string;
+  sector: string;
+  groupId: string;
+  groupName: string;
+  marketCap: number | null;
+  price: number;
+  asOf: string;
+  raw: Record<string, number | null>;
+};
 
-  const rows: ScreenerRow[] = raw.map(({ bundle, group, values }) => {
+type Population = { sorted: number[]; low: number; high: number };
+
+function buildPopulation(values: number[]): Population {
+  const sorted = [...values].sort((a, b) => a - b);
+  if (sorted.length < 5) {
+    return { sorted, low: sorted[0] ?? 0, high: sorted.at(-1) ?? 0 };
+  }
+  const low = quantile(sorted, 0.02);
+  const high = quantile(sorted, 0.98);
+  return { sorted: sorted.map((value) => Math.min(high, Math.max(low, value))), low, high };
+}
+
+function percentileScoreSorted(
+  sorted: number[],
+  value: number,
+  direction: "higher" | "lower",
+): number {
+  let low = 0;
+  let high = sorted.length;
+  while (low < high) {
+    const mid = (low + high) >> 1;
+    if (sorted[mid] <= value) low = mid + 1;
+    else high = mid;
+  }
+  const percentile = sorted.length ? Math.round((low / sorted.length) * 100) : 50;
+  return direction === "higher" ? percentile : 100 - percentile;
+}
+
+/** Scores pre-computed raw entries so thousands of rows share one percentile pass. */
+export function scoreScreenerEntries(entries: ScreenerRawEntry[]): ScreenerRow[] {
+  const parameterKeys = [
+    ...new Set(FACTOR_CONFIG.flatMap((factor) => factor.parameters.map((parameter) => parameter.key))),
+  ];
+  const globalPopulations = new Map<string, Population>();
+  const groupPopulations = new Map<string, Population>();
+  const groupIds = [...new Set(entries.map((entry) => entry.groupId))];
+
+  for (const key of parameterKeys) {
+    globalPopulations.set(
+      key,
+      buildPopulation(entries.map((entry) => entry.raw[key]).filter(finite)),
+    );
+    for (const groupId of groupIds) {
+      const values = entries
+        .filter((entry) => entry.groupId === groupId)
+        .map((entry) => entry.raw[key])
+        .filter(finite);
+      if (values.length >= 8) {
+        groupPopulations.set(`${groupId}|${key}`, buildPopulation(values));
+      }
+    }
+  }
+
+  const rows: ScreenerRow[] = entries.map((entry) => {
     const factors = {} as Record<FactorKey, FactorResult>;
     for (const factor of FACTOR_CONFIG) {
       const parameters: Record<string, ParameterResult> = {};
       for (const parameter of factor.parameters) {
-        const value = values[parameter.key] ?? null;
-        let population = raw
-          .filter((item) => item.group === group)
-          .map((item) => item.values[parameter.key])
-          .filter(finite);
-        if (population.length < 8) {
-          population = raw
-            .map((item) => item.values[parameter.key])
-            .filter(finite);
-        }
-        if (!finite(value) || population.length < 3) {
-          parameters[parameter.key] = { value, score: null };
-          continue;
-        }
-        const clipped = winsorized(population);
-        const clippedValue = Math.min(
-          quantile(population, 0.98),
-          Math.max(quantile(population, 0.02), value),
-        );
+        const value = entry.raw[parameter.key] ?? null;
+        const population =
+          groupPopulations.get(`${entry.groupId}|${parameter.key}`) ??
+          globalPopulations.get(parameter.key);
         parameters[parameter.key] = {
           value,
-          score: percentileScore(clipped, clippedValue, parameter.direction),
+          score:
+            finite(value) && population
+              ? percentileScoreSorted(
+                  population.sorted,
+                  Math.min(population.high, Math.max(population.low, value)),
+                  parameter.direction,
+                )
+              : null,
         };
       }
       factors[factor.key] = {
@@ -799,9 +837,11 @@ export function buildScreenerRows(
       weight: factor.weight,
       score: factors[factor.key].score,
     })).filter((part) => part.score != null);
+    // A composite needs at least three factors so price-only names cannot
+    // outrank fully-covered companies on momentum alone.
     const totalWeight = compositeParts.reduce((sum, part) => sum + part.weight, 0);
     const composite =
-      totalWeight > 0
+      compositeParts.length >= 3 && totalWeight > 0
         ? Math.round(
             compositeParts.reduce(
               (sum, part) => sum + (part.score as number) * part.weight,
@@ -821,53 +861,60 @@ export function buildScreenerRows(
         ).length,
       0,
     );
+    const raw = entry.raw;
 
     return {
       rank: 0,
-      ticker: bundle.data.ticker,
-      name: bundle.data.name,
-      sector: bundle.data.sector,
-      group: getCoverageGroup(bundle.data.ticker)?.name ?? bundle.data.sector,
-      marketCap: bundle.data.latestPrice.marketCap,
-      price: bundle.data.latestPrice.close,
-      asOf: bundle.data.latestPrice.asOf,
-      return1d: values.return1d ?? null,
-      return1w: values.return1w ?? null,
-      return1m: values.return1m ?? null,
-      return3m: values.return3m ?? null,
-      return6m: values.return6m ?? null,
-      return1y: bundle.data.metrics.return1y,
-      return3y: values.return3y ?? null,
-      return5y: values.return5y ?? null,
-      pe: bundle.data.metrics.pe,
-      pb: safeDiv(bundle.data.latestPrice.marketCap, ttmOrAnnual(bundle.data, "totalEquity")),
-      evEbitda: bundle.data.metrics.evEbitda,
-      peg: values.peg ?? null,
-      dividendYield: bundle.data.latestPrice.dividendYield,
-      roce: values.roce,
-      roe: bundle.data.metrics.roe,
-      operatingMargin: bundle.data.metrics.operatingMargin,
-      netMargin: bundle.data.metrics.netMargin,
-      revenueGrowth: bundle.data.metrics.revenueGrowthTtm,
-      netDebtEbitda: bundle.data.metrics.netDebtToEbitda,
-      priceVs50dma: values.priceVs50dma ?? null,
-      priceVs200dma: values.priceVs200dma ?? null,
-      historicalValuation: values.historicalValuation ?? null,
-      roicTrend: values.roicTrend ?? null,
-      assetTurnover: values.assetTurnover ?? null,
+      ticker: entry.ticker,
+      name: entry.name,
+      sector: entry.sector,
+      group: entry.groupName,
+      marketCap: entry.marketCap,
+      price: entry.price,
+      asOf: entry.asOf,
+      return1d: raw.return1d ?? null,
+      return1w: raw.return1w ?? null,
+      return1m: raw.return1m ?? null,
+      return3m: raw.return3m ?? null,
+      return6m: raw.return6m ?? null,
+      return1y: raw.return1y ?? null,
+      return3y: raw.return3y ?? null,
+      return5y: raw.return5y ?? null,
+      pe: raw.pe ?? null,
+      pb: raw.pb ?? null,
+      evEbitda: raw.evEbitda ?? null,
+      peg: raw.peg ?? null,
+      dividendYield: raw.dividendYield ?? null,
+      roce: raw.roce ?? null,
+      roe: raw.roe ?? null,
+      operatingMargin: raw.ebitMargin ?? null,
+      netMargin: raw.netMargin ?? null,
+      fcfMargin: raw.fcfMargin ?? null,
+      revenueGrowth: raw.revenueGrowthTtm ?? null,
+      netDebtEbitda: raw.netDebtEbitda ?? null,
+      priceVs50dma: raw.priceVs50dma ?? null,
+      priceVs200dma: raw.priceVs200dma ?? null,
+      historicalValuation: raw.historicalValuation ?? null,
+      roicTrend: raw.roicTrend ?? null,
+      assetTurnover: raw.assetTurnover ?? null,
       composite,
+      factorScores: Object.fromEntries(
+        FACTOR_CONFIG.map((factor) => [factor.key, factors[factor.key].score]),
+      ) as Record<FactorKey, number | null>,
       band: band(composite),
       coverage: Math.round((availableCount / parameterCount) * 100),
       factors,
     } satisfies ScreenerRow;
   });
 
-  const rawComposites = rows
-    .map((row) => row.composite)
-    .filter(finite);
+  const composites = buildPopulation(rows.map((row) => row.composite).filter(finite));
   for (const row of rows) {
     if (row.composite != null) {
-      row.composite = percentileScore(rawComposites, row.composite, "higher");
+      row.composite = percentileScoreSorted(
+        composites.sorted,
+        Math.min(composites.high, Math.max(composites.low, row.composite)),
+        "higher",
+      );
       row.band = band(row.composite);
     }
   }
@@ -875,6 +922,33 @@ export function buildScreenerRows(
   return rows
     .sort((a, b) => (b.composite ?? -1) - (a.composite ?? -1))
     .map((row, index) => ({ ...row, rank: index + 1 }));
+}
+
+export function screenerEntriesFromBundles(
+  bundles: ScreenerBundle[],
+  benchmark: RangePricePoint[],
+): ScreenerRawEntry[] {
+  return bundles.map((bundle) => {
+    const coverage = getCoverageGroup(bundle.data.ticker);
+    return {
+      ticker: bundle.data.ticker,
+      name: bundle.data.name,
+      sector: bundle.data.sector,
+      groupId: coverage?.id ?? "other",
+      groupName: coverage?.name ?? bundle.data.sector,
+      marketCap: bundle.data.latestPrice.marketCap,
+      price: bundle.data.latestPrice.close,
+      asOf: bundle.data.latestPrice.asOf,
+      raw: computeRawParameters(bundle, benchmark),
+    };
+  });
+}
+
+export function buildScreenerRows(
+  bundles: ScreenerBundle[],
+  benchmark: RangePricePoint[],
+): ScreenerRow[] {
+  return scoreScreenerEntries(screenerEntriesFromBundles(bundles, benchmark));
 }
 
 export function formatParameterValue(

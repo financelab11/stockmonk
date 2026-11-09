@@ -4,10 +4,8 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { ChevronDown, Plus, RotateCcw, Search, Trash2, X } from "lucide-react";
 import {
-  countFilterRows,
   formatFilterValue,
   type FilterDistribution,
-  type FilterRow,
   type RangeParams,
   type ResearchScreen,
   type ScreenerUiParams,
@@ -46,6 +44,22 @@ function buildQuery(
   }
   const query = search.toString();
   return query ? `/screener?${query}` : "/screener";
+}
+
+function countQuery(state: {
+  q: string;
+  group: string;
+  min: number;
+  ranges: RangeParams;
+}): string {
+  const search = new URLSearchParams();
+  if (state.q.trim()) search.set("q", state.q.trim());
+  if (state.group) search.set("group", state.group);
+  if (state.min) search.set("min", String(state.min));
+  for (const [key, value] of Object.entries(state.ranges)) {
+    if (value != null) search.set(key, String(value));
+  }
+  return search.toString();
 }
 
 function displayValue(value: number | null, unit: FilterDistribution["unit"]): string {
@@ -198,19 +212,19 @@ function RangeFilter({
 
 export function ScreenerSidebar({
   params,
-  filterRows,
   distributions,
   researchScreens,
   groups,
+  initialCount,
   variant = "sidebar",
   initialTab = "filters",
   onClose,
 }: {
   params: ScreenerUiParams;
-  filterRows: FilterRow[];
   distributions: FilterDistribution[];
   researchScreens: ResearchScreen[];
   groups: string[];
+  initialCount: number;
   variant?: "sidebar" | "sheet";
   initialTab?: "filters" | "screens";
   onClose?: () => void;
@@ -274,24 +288,45 @@ export function ScreenerSidebar({
     () => Object.entries(ranges).filter(([, value]) => value != null),
     [ranges],
   );
-  const matched = useMemo(
-    () =>
-      countFilterRows(filterRows, {
-        ...params,
-        q: query,
-        group,
-        min,
-        ranges,
-      }),
-    [filterRows, params, query, group, min, ranges],
-  );
+  const [matched, setMatched] = useState(initialCount);
+  const [counting, setCounting] = useState(false);
+  const firstCount = useRef(true);
+  const countSignature = JSON.stringify({ query, group, min, ranges });
+  useEffect(() => {
+    if (firstCount.current) {
+      firstCount.current = false;
+      return;
+    }
+    const controller = new AbortController();
+    const timer = setTimeout(async () => {
+      setCounting(true);
+      try {
+        const search = countQuery({ q: query, group, min, ranges });
+        const response = await fetch(`/screener/count?${search}`, {
+          signal: controller.signal,
+        });
+        if (!response.ok) return;
+        const json = (await response.json()) as { count?: unknown };
+        if (typeof json.count === "number") setMatched(json.count);
+      } catch {
+        // aborted or offline; keep the previous count
+      } finally {
+        setCounting(false);
+      }
+    }, 180);
+    return () => {
+      clearTimeout(timer);
+      controller.abort();
+    };
+  }, [countSignature, query, group, min, ranges]);
 
+  const normalizedFilterSearch = filterSearch.trim().toLowerCase().replace(/[^a-z0-9]+/g, "");
   const visibleDistributions = distributions.filter((distribution) => {
-    if (!filterSearch.trim()) return true;
-    const term = filterSearch.toLowerCase();
-    return `${distribution.label} ${distribution.category} ${distribution.description}`
+    if (!normalizedFilterSearch) return true;
+    const haystack = `${distribution.label} ${distribution.category} ${distribution.description}`
       .toLowerCase()
-      .includes(term);
+      .replace(/[^a-z0-9]+/g, "");
+    return haystack.includes(normalizedFilterSearch);
   });
 
   const activeChips = [
@@ -575,7 +610,10 @@ export function ScreenerSidebar({
               Reset
             </button>
             <button type="button" onClick={apply} className="btn btn-primary h-9 min-h-0 flex-1 px-3 text-[11px]">
-              {variant === "sheet" ? `Done · ${matched} stocks` : `Apply filters · ${matched}`}
+              <span aria-live="polite">
+                {variant === "sheet" ? `Done · ${matched} stocks` : `Apply filters · ${matched}`}
+              </span>
+              {counting && <span className="ml-1 text-[9px] opacity-70">updating…</span>}
             </button>
           </div>
         </div>

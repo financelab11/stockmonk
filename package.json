@@ -20,6 +20,7 @@
     "lhci:desktop": "lhci autorun --config=lighthouserc.desktop.json",
     "ingest:edgar": "tsx scripts/ingest-edgar.ts",
     "ingest:simfin": "tsx scripts/ingest-simfin.ts",
+    "ingest:bulk": "tsx scripts/ingest-simfin-bulk.ts",
     "ingest:fallback": "tsx scripts/ingest-fallback.ts",
     "ingest:consensus": "tsx scripts/ingest-consensus.ts",
     "ingest:segments": "tsx scripts/ingest-segments.ts",

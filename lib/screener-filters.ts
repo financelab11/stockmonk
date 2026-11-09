@@ -31,17 +31,6 @@ export type FilterDistribution = {
   logScale: boolean;
 };
 
-export type FilterRow = {
-  /** ticker */
-  t: string;
-  /** name */
-  n: string;
-  /** coverage group */
-  g: string;
-  /** values aligned with FILTER_DEFS order */
-  v: (number | null)[];
-};
-
 export type RangeParams = Record<string, number | null>;
 
 export type ScreenerUiParams = {
@@ -102,17 +91,17 @@ export const FILTER_DEFS: FilterDef[] = [
   { key: "roe", label: "ROE", category: "Profitability", unit: "pct", description: "Net income divided by shareholders' equity.", get: (row) => row.roe },
   { key: "operatingMargin", label: "Operating margin", category: "Profitability", unit: "pct", description: "Operating income divided by revenue.", get: (row) => row.operatingMargin },
   { key: "netMargin", label: "Net margin", category: "Profitability", unit: "pct", description: "Net income divided by revenue.", get: (row) => row.netMargin },
-  { key: "fcfMargin", label: "FCF margin", category: "Profitability", unit: "pct", description: "Free cash flow divided by revenue.", get: (row) => row.factors.quality.parameters.fcfMargin?.value ?? null },
+  { key: "fcfMargin", label: "FCF margin", category: "Profitability", unit: "pct", description: "Free cash flow divided by revenue.", get: (row) => row.fcfMargin },
   { key: "revenueGrowth", label: "Revenue growth", category: "Growth", unit: "pct", description: "Trailing revenue growth.", get: (row) => row.revenueGrowth },
-  { key: "growthScore", label: "Growth score", category: "Growth", unit: "score", description: "Composite growth factor score.", get: (row) => row.factors.growth.score },
-  { key: "qualityScore", label: "Quality score", category: "Profitability", unit: "score", description: "Composite quality factor score.", get: (row) => row.factors.quality.score },
+  { key: "growthScore", label: "Growth score", category: "Growth", unit: "score", description: "Composite growth factor score.", get: (row) => row.factorScores.growth },
+  { key: "qualityScore", label: "Quality score", category: "Profitability", unit: "score", description: "Composite quality factor score.", get: (row) => row.factorScores.quality },
   { key: "netDebtEbitda", label: "Net debt / EBITDA", category: "Financial Health", unit: "x", description: "Net debt divided by EBITDA.", get: (row) => row.netDebtEbitda },
   { key: "assetTurnover", label: "Asset turnover", category: "Financial Health", unit: "x", description: "Revenue divided by average total assets.", get: (row) => row.assetTurnover },
-  { key: "momentumScore", label: "Momentum score", category: "Momentum", unit: "score", description: "Composite momentum factor score.", get: (row) => row.factors.momentum.score },
+  { key: "momentumScore", label: "Momentum score", category: "Momentum", unit: "score", description: "Composite momentum factor score.", get: (row) => row.factorScores.momentum },
   { key: "priceVs50dma", label: "Price vs 50 DMA", category: "Momentum", unit: "pct", description: "Latest price relative to the 50-day moving average.", get: (row) => row.priceVs50dma },
   { key: "priceVs200dma", label: "Price vs 200 DMA", category: "Momentum", unit: "pct", description: "Latest price relative to the 200-day moving average.", get: (row) => row.priceVs200dma },
-  { key: "lowVolatilityScore", label: "Low volatility score", category: "Scores", unit: "score", description: "Composite low-volatility factor score.", get: (row) => row.factors.lowVolatility.score },
-  { key: "valuationScore", label: "Valuation score", category: "Scores", unit: "score", description: "Composite valuation factor score.", get: (row) => row.factors.valuation.score },
+  { key: "lowVolatilityScore", label: "Low volatility score", category: "Scores", unit: "score", description: "Composite low-volatility factor score.", get: (row) => row.factorScores.lowVolatility },
+  { key: "valuationScore", label: "Valuation score", category: "Scores", unit: "score", description: "Composite valuation factor score.", get: (row) => row.factorScores.valuation },
   { key: "composite", label: "Composite score", category: "Scores", unit: "score", description: "Weighted five-factor composite score.", get: (row) => row.composite },
   { key: "historicalValuation", label: "Cheap vs own history", category: "Valuation", unit: "score", description: "Cheapness percentile versus the company's own five-year P/E history.", get: (row) => row.historicalValuation },
   { key: "roicTrend", label: "ROIC trend", category: "Profitability", unit: "pct", description: "Change in ROIC over three years.", get: (row) => row.roicTrend },
@@ -126,7 +115,9 @@ export function formatFilterValue(value: number | null, unit: FilterUnit): strin
   if (unit === "currencyB")
     return value >= 1000
       ? `$${(value / 1000).toFixed(2)}T`
-      : `$${value.toFixed(1)}B`;
+      : value >= 1
+        ? `$${value.toFixed(1)}B`
+        : `$${(value * 1000).toFixed(0)}M`;
   if (unit === "score") return `${Math.round(value)}`;
   return value.toFixed(2);
 }
@@ -176,11 +167,11 @@ export const SCREENER_COLUMNS: ColumnDef[] = [
   { key: "operatingMargin", label: "Op margin", group: "Profitability", unit: "pct", get: (row) => row.operatingMargin, default: true },
   { key: "netMargin", label: "Net margin", group: "Profitability", unit: "pct", get: (row) => row.netMargin, default: false },
   { key: "revenueGrowth", label: "Rev growth", group: "Growth", unit: "pct", get: (row) => row.revenueGrowth, default: false },
-  { key: "growthScore", label: "Growth", group: "Scores", unit: "score", get: (row) => row.factors.growth.score, default: false },
-  { key: "qualityScore", label: "Quality", group: "Scores", unit: "score", get: (row) => row.factors.quality.score, default: false },
-  { key: "valuationScore", label: "Valuation", group: "Scores", unit: "score", get: (row) => row.factors.valuation.score, default: false },
-  { key: "momentumScore", label: "Momentum", group: "Scores", unit: "score", get: (row) => row.factors.momentum.score, default: false },
-  { key: "lowVolatilityScore", label: "Low vol", group: "Scores", unit: "score", get: (row) => row.factors.lowVolatility.score, default: false },
+  { key: "growthScore", label: "Growth", group: "Scores", unit: "score", get: (row) => row.factorScores.growth, default: false },
+  { key: "qualityScore", label: "Quality", group: "Scores", unit: "score", get: (row) => row.factorScores.quality, default: false },
+  { key: "valuationScore", label: "Valuation", group: "Scores", unit: "score", get: (row) => row.factorScores.valuation, default: false },
+  { key: "momentumScore", label: "Momentum", group: "Scores", unit: "score", get: (row) => row.factorScores.momentum, default: false },
+  { key: "lowVolatilityScore", label: "Low vol", group: "Scores", unit: "score", get: (row) => row.factorScores.lowVolatility, default: false },
   { key: "composite", label: "Composite", group: "Scores", unit: "score", get: (row) => row.composite, default: true },
   { key: "netDebtEbitda", label: "Net debt/EBITDA", group: "Financial Health", unit: "x", get: (row) => row.netDebtEbitda, default: false },
   { key: "priceVs50dma", label: "vs 50 DMA", group: "Momentum", unit: "pct", get: (row) => row.priceVs50dma, default: false },
@@ -197,20 +188,6 @@ export function parseColumns(raw: string | undefined): string[] {
     .map((key) => key.trim())
     .filter((key) => valid.has(key));
   return selected.length ? selected : DEFAULT_COLUMNS;
-}
-
-export function buildFilterRows(rows: ScreenerRow[]): FilterRow[] {
-  return rows.map((row) => ({
-    t: row.ticker,
-    n: row.name,
-    g: row.group,
-    v: FILTER_DEFS.map((filter) => {
-      const value = filter.get(row);
-      return value == null || !Number.isFinite(value)
-        ? null
-        : Math.round(value * 10000) / 10000;
-    }),
-  }));
 }
 
 export function buildFilterDistributions(rows: ScreenerRow[]): FilterDistribution[] {
@@ -338,33 +315,6 @@ export function applyScreenerFilters(
   params: ScreenerUiParams,
 ): ScreenerRow[] {
   return rows.filter((row) => matchesFilters(row, params));
-}
-
-const FILTER_INDEX = new Map(FILTER_DEFS.map((filter, index) => [filter.key, index]));
-const COMPOSITE_INDEX = FILTER_INDEX.get("composite") ?? -1;
-
-export function countFilterRows(
-  rows: FilterRow[],
-  params: ScreenerUiParams,
-): number {
-  const term = params.q.trim().toLowerCase();
-  return rows.filter((row) => {
-    if (params.group && row.g !== params.group) return false;
-    if (term && !`${row.t} ${row.n} ${row.g}`.toLowerCase().includes(term)) return false;
-    const composite = COMPOSITE_INDEX >= 0 ? row.v[COMPOSITE_INDEX] : null;
-    if (params.min && (composite ?? 0) < params.min) return false;
-    for (let index = 0; index < FILTER_DEFS.length; index += 1) {
-      const filter = FILTER_DEFS[index];
-      const min = params.ranges[`${filter.key}Min`];
-      const max = params.ranges[`${filter.key}Max`];
-      if (min == null && max == null) continue;
-      const value = row.v[index];
-      if (value == null || !Number.isFinite(value)) return false;
-      if (min != null && value < min) return false;
-      if (max != null && value > max) return false;
-    }
-    return true;
-  }).length;
 }
 
 export type ResearchScreen = {

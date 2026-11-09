@@ -93,7 +93,7 @@ test.describe("research article", () => {
   test("screener shows factor tabs, parameters and expandable detail", async ({ page }) => {
     await page.goto("/screener", { waitUntil: "networkidle" });
     await expect(page.getByRole("heading", { name: "US equity screener" })).toBeVisible();
-    await expect(page.getByText(/229 US-listed companies/).first()).toBeVisible();
+    await expect(page.getByText(/\d[\d,]* US-listed companies/).first()).toBeVisible();
 
     await page.getByRole("link", { name: /Q · Quality/i }).click();
     await expect(page.getByText("ROE", { exact: true }).first()).toBeVisible();

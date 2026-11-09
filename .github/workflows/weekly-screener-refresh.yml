@@ -1,0 +1,55 @@
+name: Weekly screener universe refresh
+
+on:
+  schedule:
+    # Mondays after the US close. SimFin's free bulk export is delayed by
+    # roughly a year, so a weekly cadence is sufficient.
+    - cron: "30 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-screener-refresh
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.34.9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Download SimFin bulk export
+        run: pnpm ingest:bulk
+        env:
+          SIMFIN_API_KEY: ${{ secrets.SIMFIN_API_KEY }}
+
+      - name: Rebuild screener rows
+        run: pnpm build:screener
+        env:
+          SIMFIN_API_KEY: ${{ secrets.SIMFIN_API_KEY }}
+
+      - name: Commit refreshed screener
+        run: |
+          git config user.name "stockmonk-data-bot"
+          git config user.email "data-bot@stockmonk.app"
+          git add public/data/screener.json public/data/screener-factors.json
+          if git diff --cached --quiet; then
+            echo "No screener changes to commit."
+          else
+            git commit -m "chore: weekly screener universe refresh"
+            git push
+          fi

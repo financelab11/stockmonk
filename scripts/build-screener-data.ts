@@ -10,7 +10,13 @@ import {
   type RangePricePoint,
   type TickerData,
 } from "../lib/schemas";
-import { buildScreenerRows } from "../lib/screener-model";
+import {
+  FACTOR_CONFIG,
+  scoreScreenerEntries,
+  screenerEntriesFromBundles,
+  type ScreenerRawEntry,
+} from "../lib/screener-model";
+import { buildUniverseEntries } from "./lib/universe";
 
 const ROOT = process.cwd();
 const PROCESSED = path.join(ROOT, "data", "processed");
@@ -33,7 +39,25 @@ function prices(ticker: string, range: string): RangePricePoint[] {
     .map((result) => result.data);
 }
 
-function main() {
+function normalizeTicker(ticker: string): string {
+  return ticker.replace(/-/g, ".").toUpperCase();
+}
+
+function roundDeep(value: unknown): unknown {
+  if (typeof value === "number") {
+    if (!Number.isFinite(value)) return null;
+    return Math.round(value * 10_000) / 10_000;
+  }
+  if (Array.isArray(value)) return value.map(roundDeep);
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.entries(value).map(([key, item]) => [key, roundDeep(item)]),
+    );
+  }
+  return value;
+}
+
+async function main() {
   const benchmark = prices("SPY", "MAX");
   if (benchmark.length < 30) {
     throw new Error("SPY benchmark prices are missing; run pnpm ingest:benchmark");
@@ -58,13 +82,90 @@ function main() {
     };
   }).filter((bundle): bundle is NonNullable<typeof bundle> => bundle != null);
 
-  const rows = buildScreenerRows(bundles, benchmark);
+  const curatedEntries = screenerEntriesFromBundles(bundles, benchmark);
+  const curatedTickers = new Set<string>();
+  for (const ticker of RESEARCH_TICKERS) {
+    curatedTickers.add(ticker.toUpperCase());
+    curatedTickers.add(normalizeTicker(ticker));
+  }
+
+  let universeEntries: ScreenerRawEntry[] = [];
+  try {
+    universeEntries = await buildUniverseEntries();
+  } catch (error) {
+    console.warn("[screener:data] universe build skipped:", error);
+  }
+  const expanded = universeEntries.filter(
+    (entry) =>
+      !curatedTickers.has(entry.ticker.toUpperCase()) &&
+      !curatedTickers.has(normalizeTicker(entry.ticker)),
+  );
+
+  // CI builds do not have the gitignored bulk export. Keep the committed
+  // expanded snapshot instead of silently shrinking the screener to 229 names.
+  const existingFile = path.join(PUBLIC, "screener.json");
+  if (expanded.length === 0 && fs.existsSync(existingFile)) {
+    try {
+      const existing = JSON.parse(fs.readFileSync(existingFile, "utf8")) as unknown[];
+      if (existing.length > curatedEntries.length + 100) {
+        console.warn(
+          "[screener:data] bulk export missing; keeping the committed expanded snapshot",
+        );
+        return;
+      }
+    } catch {
+      // fall through and rebuild the curated set
+    }
+  }
+
+  const rows = scoreScreenerEntries([...curatedEntries, ...expanded]);
+  const factorKeys: string[] = [];
+  for (const factor of FACTOR_CONFIG) {
+    for (const parameter of factor.parameters) {
+      factorKeys.push(`${factor.key}.${parameter.key}`);
+    }
+  }
+  const factorRows = rows.map((row) => {
+    const values: Array<number | null> = [];
+    const scores: Array<number | null> = [];
+    for (const factor of FACTOR_CONFIG) {
+      for (const parameter of factor.parameters) {
+        const result = row.factors[factor.key].parameters[parameter.key];
+        values.push(
+          result?.value == null || !Number.isFinite(result.value)
+            ? null
+            : Math.round(result.value * 10_000) / 10_000,
+        );
+        scores.push(result?.score ?? null);
+      }
+    }
+    return [values, scores];
+  });
+  const coreRows = rows.map((row) => {
+    const { factors, ...rest } = row;
+    void factors;
+    const factorScores = Object.fromEntries(
+      FACTOR_CONFIG.map((factor) => [factor.key, row.factors[factor.key].score]),
+    );
+    return roundDeep({ ...rest, factorScores });
+  });
+
   fs.writeFileSync(
     path.join(PUBLIC, "screener.json"),
-    JSON.stringify(rows, null, 0),
+    JSON.stringify(coreRows, null, 0),
     "utf8",
   );
-  console.log(`[screener:data] wrote ${rows.length} rows`);
+  fs.writeFileSync(
+    path.join(PUBLIC, "screener-factors.json"),
+    JSON.stringify({ keys: factorKeys, rows: factorRows }, null, 0),
+    "utf8",
+  );
+  console.log(
+    `[screener:data] wrote ${rows.length} rows (${curatedEntries.length} curated, ${expanded.length} expanded)`,
+  );
 }
 
-main();
+main().catch((error) => {
+  console.error(error);
+  process.exit(1);
+});

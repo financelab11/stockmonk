@@ -5,7 +5,6 @@ import { SlidersHorizontal, Sparkles, X } from "lucide-react";
 import { ScreenerSidebar } from "./screener-sidebar";
 import type {
   FilterDistribution,
-  FilterRow,
   ResearchScreen,
   ScreenerUiParams,
 } from "@/lib/screener-filters";
@@ -14,18 +13,18 @@ type Sheet = "filters" | "screens" | null;
 
 export function ScreenerControls({
   params,
-  filterRows,
   distributions,
   researchScreens,
   groups,
   activeCount,
+  initialCount,
 }: {
   params: ScreenerUiParams;
-  filterRows: FilterRow[];
   distributions: FilterDistribution[];
   researchScreens: ResearchScreen[];
   groups: string[];
   activeCount: number;
+  initialCount: number;
 }) {
   const [sheet, setSheet] = useState<Sheet>(null);
   const [sidebarReady, setSidebarReady] = useState(false);
@@ -48,7 +47,7 @@ export function ScreenerControls({
     };
   }, [sheet]);
 
-  const sidebarProps = { params, filterRows, distributions, researchScreens, groups };
+  const sidebarProps = { params, distributions, researchScreens, groups, initialCount };
   const close = () => setSheet(null);
 
   return (

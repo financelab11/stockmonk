@@ -5,9 +5,11 @@ import {
   formatColumnValue,
   type ColumnDef,
 } from "@/lib/screener-filters";
+import { getScreenerParameter } from "@/lib/screener-data";
 import {
   formatParameterValue,
   type FactorConfig,
+  type FactorKey,
   type ScreenerRow,
 } from "@/lib/screener-model";
 
@@ -103,12 +105,14 @@ export function ScreenerTable({
     if (params.sort.startsWith("factor:")) {
       const [, factorKey, parameterKey] = params.sort.split(":");
       if (!factorKey) return null;
-      const factor = row.factors[factorKey as FactorConfig["key"]];
-      return parameterKey ? factor?.parameters[parameterKey]?.score ?? null : factor?.score ?? null;
+      if (parameterKey) {
+        return getScreenerParameter(row.ticker, `${factorKey}.${parameterKey}`).score;
+      }
+      return row.factorScores[factorKey as FactorKey] ?? null;
     }
     const column = columns.find((item) => item.key === params.sort);
     if (column) return column.get(row);
-    return row.factors[params.sort as FactorConfig["key"]]?.score ?? null;
+    return row.factorScores[params.sort as FactorKey] ?? null;
   };
 
   const sorted = [...rows].sort((a, b) => {
@@ -302,7 +306,7 @@ export function ScreenerTable({
                   ))
                 ) : (
                   <>
-                    <td className="px-1.5 py-2.5 text-right"><Score score={row.factors[view].score} /></td>
+                    <td className="px-1.5 py-2.5 text-right"><Score score={row.factorScores[view]} /></td>
                     {activeFactor?.parameters.map((parameter) => {
                       const result = row.factors[view].parameters[parameter.key] ?? { value: null, score: null };
                       return (
@@ -336,12 +340,42 @@ export function ScreenerTable({
 
       <div className="mt-3 flex flex-wrap items-center justify-between gap-2">
         <p className="text-[10.5px] text-muted">Page {currentPage} of {pageCount} · showing {visible.length} of {sorted.length}</p>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5">
           {currentPage > 1 ? (
             <a href={href({ page: currentPage - 1 })} className="btn btn-ghost h-8 min-h-0 px-3 text-[11px]">Previous</a>
           ) : (
             <span aria-disabled="true" className="px-3 py-1.5 text-[11px] font-semibold text-muted">Previous</span>
           )}
+          <span className="hidden items-center gap-1 sm:flex">
+            {(() => {
+              const targets = [...new Set([1, currentPage - 1, currentPage, currentPage + 1, pageCount])]
+                .filter((page) => page >= 1 && page <= pageCount)
+                .sort((a, b) => a - b);
+              const items: Array<number | "gap"> = [];
+              targets.forEach((page, index) => {
+                if (index > 0 && page - targets[index - 1] > 1) items.push("gap");
+                items.push(page);
+              });
+              return items.map((item, index) =>
+                item === "gap" ? (
+                  <span key={`gap-${index}`} className="px-1 text-[10px] text-faint">…</span>
+                ) : (
+                  <a
+                    key={item}
+                    href={href({ page: item })}
+                    aria-current={item === currentPage ? "page" : undefined}
+                    className={`inline-flex h-8 min-w-8 items-center justify-center rounded-lg px-2 text-[11px] font-semibold ${
+                      item === currentPage
+                        ? "bg-ink text-white"
+                        : "border border-line bg-surface text-muted hover:text-ink"
+                    }`}
+                  >
+                    {item}
+                  </a>
+                ),
+              );
+            })()}
+          </span>
           {currentPage < pageCount ? (
             <a href={href({ page: currentPage + 1 })} className="btn btn-ghost h-8 min-h-0 px-3 text-[11px]">Next</a>
           ) : (

@@ -14,7 +14,6 @@ import {
 import {
   getScreenerDistributions,
   getScreenerFactorConfig,
-  getScreenerFilterRows,
   getScreenerGroups,
   getScreenerResearchScreens,
   getScreenerRows,
@@ -25,12 +24,12 @@ import { breadcrumbJsonLd } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "US equity screener",
   description:
-    "A five-factor quantitative screener for 229 US-listed companies, covering Growth, Quality, Valuation, Momentum and Low Volatility.",
+    "A five-factor quantitative screener for thousands of US-listed companies, covering Growth, Quality, Valuation, Momentum and Low Volatility.",
   alternates: { canonical: "/screener" },
   openGraph: {
     title: "US equity screener · Stockmonk",
     description:
-      "Multi-factor scores and every underlying parameter for 229 US-listed companies.",
+      "Multi-factor scores and every underlying parameter for thousands of US-listed companies.",
     url: "/screener",
   },
 };
@@ -47,7 +46,6 @@ export default async function ScreenerPage({
   const factors = getScreenerFactorConfig();
   const filteredRows = applyScreenerFilters(rows, params);
   const distributions = getScreenerDistributions();
-  const filterRows = getScreenerFilterRows();
   const researchScreens = getScreenerResearchScreens();
   const groups = getScreenerGroups();
   const selectedColumns = SCREENER_COLUMNS.filter((column) => params.cols.includes(column.key));
@@ -61,11 +59,11 @@ export default async function ScreenerPage({
 
   const sidebarProps = {
     params,
-    filterRows,
     distributions,
     researchScreens,
     groups,
     activeCount,
+    initialCount: filteredRows.length,
   };
 
   return (
@@ -91,9 +89,9 @@ export default async function ScreenerPage({
                 US equity screener
               </h1>
               <p className="mt-2 max-w-2xl text-[13px] leading-relaxed text-muted">
-                Filter, compare and rank {summary.count} US-listed companies across
-                five independent factors. Every parameter is visible and ranked
-                within its coverage group.
+                Filter, compare and rank {summary.count.toLocaleString("en-US")} US-listed
+                companies across five independent factors. Every parameter is visible
+                and ranked within its coverage group.
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-2">
@@ -102,15 +100,17 @@ export default async function ScreenerPage({
                 Sourced fundamentals
               </span>
               <span className="rounded-full border border-line bg-surface px-3 py-1.5 text-[10.5px] font-semibold text-ink-soft">
-                Daily refresh
+                Daily reports
               </span>
               <span className="rounded-full border border-line bg-surface px-3 py-1.5 text-[10.5px] font-semibold text-ink-soft">
-                {summary.count} stocks
+                {summary.count.toLocaleString("en-US")} stocks
               </span>
             </div>
           </div>
           <p className="mt-3 text-[10.5px] text-muted">
-            Prices as of {summary.asOf ?? "the latest dataset"} · median score{" "}
+            Full reports as of {summary.asOfCurated ?? summary.asOf ?? "the latest dataset"}
+            {" · "}expanded universe snapshot as of {summary.asOfBulk ?? "the latest bulk export"}
+            {" · "}median score{" "}
             <span className="tabular font-semibold text-ink">{summary.median ?? "n/a"}</span> ·
             average score{" "}
             <span className="tabular font-semibold text-ink">{summary.average ?? "n/a"}</span> ·
@@ -194,7 +194,16 @@ export default async function ScreenerPage({
               where enough peers exist, otherwise across the full universe.
               Lower-is-better metrics are reversed. Factor scores are weighted
               averages of available parameters; the composite re-normalises across
-              the factors that are available. Missing data is shown as n/a.
+              the available factors and requires at least three of them. Missing
+              data is shown as n/a.
+            </p>
+            <p className="mt-2 text-[12.5px] leading-relaxed text-muted">
+              Coverage comes from two SimFin feeds. The 229 full research reports
+              refresh daily from the Web API. The expanded universe is built from
+              SimFin&apos;s free bulk export, which runs about a year behind; the
+              snapshot date is shown above and each row&apos;s price date appears in
+              its detail panel. Companies without usable fundamentals remain
+              searchable with n/a scores and no composite.
             </p>
           </div>
           <div className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-3">

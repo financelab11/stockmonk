@@ -1,0 +1,48 @@
+{
+  "ticker": "3003",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/tadawul/3003/forecast/",
+  "targetMean": 14.3,
+  "targetHigh": 16.1,
+  "targetLow": 12.5,
+  "recommendationKey": "buy",
+  "analystCount": 3,
+  "distribution": {
+    "strongBuy": 0,
+    "buy": 1,
+    "hold": 2,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 459000000,
+      "revenueGrowth": -0.11699999999999999,
+      "epsAvg": 0.76,
+      "epsGrowth": -0.174,
+      "analystCount": 3
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 3
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 459000000,
+    "revenueGrowth": -0.11699999999999999,
+    "epsAvg": 0.76,
+    "epsGrowth": -0.174,
+    "analystCount": 3
+  },
+  "revisions": null
+}

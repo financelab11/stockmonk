@@ -50,3 +50,6 @@ public/screenshots/
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# GCC scrape cache (re-downloadable)
+/data/gcc/raw/

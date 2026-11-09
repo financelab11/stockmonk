@@ -24,6 +24,7 @@ export type GccGroup = {
   id: string;
   name: string;
   shortName: string;
+  icon?: string;
   blurb: string;
   market: GccMarket;
   tickers: string[];
@@ -308,6 +309,23 @@ export const GCC_ENTRIES: GccEntry[] = [
 ];
 
 export const GCC_TICKERS = GCC_ENTRIES.map((entry) => entry.ticker);
+
+/**
+ * Names with a hand-written research report. The directory lists the full
+ * universe, but only published names link to a report.
+ */
+export const GCC_PUBLISHED_TICKERS = [
+  "2222",
+  "1120",
+  "1180",
+  "1010",
+  "1060",
+  "1150",
+  "1080",
+  "1050",
+  "1140",
+  "1020",
+];
 
 export function getGccEntry(ticker: string): GccEntry | undefined {
   return GCC_ENTRIES.find((entry) => entry.ticker.toUpperCase() === ticker.toUpperCase());

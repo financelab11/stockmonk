@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { ALL_TICKERS, BENCHMARK_TICKER } from "@/config/universe";
 import { INDIA_TICKERS } from "@/config/india-coverage";
+import { GCC_PUBLISHED_TICKERS } from "@/config/gcc-coverage";
 import { SITE } from "@/lib/constants";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -12,6 +13,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/screener`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE.url}/india`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE.url}/india/all-stocks`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
+    { url: `${SITE.url}/gcc`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
+    { url: `${SITE.url}/gcc/all-stocks`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
     { url: `${SITE.url}/newsfeed`, lastModified: now, changeFrequency: "hourly", priority: 0.8 },
     { url: `${SITE.url}/framework`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE.url}/watchlist`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
@@ -38,5 +41,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...stockRoutes, ...indiaRoutes];
+  const gccRoutes: MetadataRoute.Sitemap = GCC_PUBLISHED_TICKERS.map((ticker) => ({
+    url: `${SITE.url}/gcc/stocks/${ticker}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.8,
+  }));
+
+  return [...staticRoutes, ...stockRoutes, ...indiaRoutes, ...gccRoutes];
 }

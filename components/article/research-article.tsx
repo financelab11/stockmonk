@@ -138,8 +138,28 @@ export function ResearchArticle({
       ? data.metrics.evEbitda / peerEv - 1
       : null;
 
+  const marketHref =
+    data.market === "IN" ? "/india" : data.market === "GCC" ? "/gcc" : "/discover";
+  const marketLabel =
+    data.market === "IN" ? "India Stocks" : data.market === "GCC" ? "GCC Stocks" : "Discover";
+  const allStocksHref =
+    data.market === "IN"
+      ? "/india/all-stocks"
+      : data.market === "GCC"
+        ? "/gcc/all-stocks"
+        : "/discover?tab=all-stocks";
+  const priceBasePath =
+    data.market === "IN"
+      ? "/data/india/prices"
+      : data.market === "GCC"
+        ? "/data/gcc/prices"
+        : "/data/prices";
   const stockHref = (ticker: string) =>
-    data.market === "IN" ? `/india/stocks/${ticker}` : `/stocks/${ticker}`;
+    data.market === "IN"
+      ? `/india/stocks/${ticker}`
+      : data.market === "GCC"
+        ? `/gcc/stocks/${ticker}`
+        : `/stocks/${ticker}`;
   const relatedStories = related.filter((item) => item.data.ticker !== data.ticker).slice(0, 3);
 
   const quarters = data.quarterly.filter((row) => !row.ttm).slice(-6);
@@ -152,14 +172,14 @@ export function ResearchArticle({
             <Link href="/" className="hover:text-ink">Home</Link>
             <span aria-hidden="true">›</span>
             <Link
-              href={data.market === "IN" ? "/india" : "/discover"}
+              href={marketHref}
               className="hover:text-ink"
             >
-              {data.market === "IN" ? "India Stocks" : "Discover"}
+              {marketLabel}
             </Link>
             <span aria-hidden="true">›</span>
             <Link
-              href={data.market === "IN" ? "/india/all-stocks" : "/discover?tab=all-stocks"}
+              href={allStocksHref}
               className="hover:text-ink"
             >
               {data.sector}
@@ -175,7 +195,10 @@ export function ResearchArticle({
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="font-mono text-[11px] font-semibold text-brand">{data.ticker}</span>
                   <span className="text-[10px] text-muted">·</span>
-                  <span className="text-[10px] text-muted">{data.sector} · {data.industry}</span>
+                  <span className="text-[10px] text-muted">
+                    {data.sector}
+                    {data.industry && data.industry !== data.sector ? ` · ${data.industry}` : ""}
+                  </span>
                 </div>
                 <h1 className="display mt-1 text-[32px] leading-[1.06] tracking-[-0.028em] text-ink sm:text-[42px]">
                   {story.title}
@@ -243,7 +266,7 @@ export function ResearchArticle({
                   ticker={data.ticker}
                   initialData={prices}
                   currency={currency}
-                  priceBasePath={data.market === "IN" ? "/data/india/prices" : "/data/prices"}
+                  priceBasePath={priceBasePath}
                 />
               </div>
               <div className="mt-4 rounded-xl border border-line bg-surface p-4">

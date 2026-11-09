@@ -1,0 +1,48 @@
+{
+  "ticker": "5110",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/tadawul/5110/forecast/",
+  "targetMean": 16.4,
+  "targetHigh": 17.5,
+  "targetLow": 13.8,
+  "recommendationKey": "sell",
+  "analystCount": 6,
+  "distribution": {
+    "strongBuy": 0,
+    "buy": 0,
+    "hold": 5,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 109500000000,
+      "revenueGrowth": 0.07200000000000001,
+      "epsAvg": 1.17,
+      "epsGrowth": 0.217,
+      "analystCount": 6
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 6
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 109500000000,
+    "revenueGrowth": 0.07200000000000001,
+    "epsAvg": 1.17,
+    "epsGrowth": 0.217,
+    "analystCount": 6
+  },
+  "revisions": null
+}

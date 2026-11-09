@@ -1,0 +1,48 @@
+{
+  "ticker": "4164",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/tadawul/4164/forecast/",
+  "targetMean": 115.52,
+  "targetHigh": 142,
+  "targetLow": 100,
+  "recommendationKey": "buy",
+  "analystCount": 9,
+  "distribution": {
+    "strongBuy": 5,
+    "buy": 1,
+    "hold": 3,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 10900000000,
+      "revenueGrowth": 0.064,
+      "epsAvg": 6.36,
+      "epsGrowth": -0.005,
+      "analystCount": 9
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 9
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 10900000000,
+    "revenueGrowth": 0.064,
+    "epsAvg": 6.36,
+    "epsGrowth": -0.005,
+    "analystCount": 9
+  },
+  "revisions": null
+}

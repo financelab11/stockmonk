@@ -1,0 +1,48 @@
+{
+  "ticker": "2040",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/tadawul/2040/forecast/",
+  "targetMean": 25.35,
+  "targetHigh": 26.6,
+  "targetLow": 24.1,
+  "recommendationKey": "buy",
+  "analystCount": 2,
+  "distribution": {
+    "strongBuy": 0,
+    "buy": 1,
+    "hold": 1,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 1600000000,
+      "revenueGrowth": 0.059000000000000004,
+      "epsAvg": 1,
+      "epsGrowth": -0.469,
+      "analystCount": 2
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 2
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 1600000000,
+    "revenueGrowth": 0.059000000000000004,
+    "epsAvg": 1,
+    "epsGrowth": -0.469,
+    "analystCount": 2
+  },
+  "revisions": null
+}

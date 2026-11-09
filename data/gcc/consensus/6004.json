@@ -1,0 +1,48 @@
+{
+  "ticker": "6004",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/tadawul/6004/forecast/",
+  "targetMean": 86.18,
+  "targetHigh": 98.1,
+  "targetLow": 77,
+  "recommendationKey": "buy",
+  "analystCount": 6,
+  "distribution": {
+    "strongBuy": 3,
+    "buy": 0,
+    "hold": 3,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 2800000000,
+      "revenueGrowth": 0.127,
+      "epsAvg": 2.34,
+      "epsGrowth": -0.387,
+      "analystCount": 6
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 6
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 2800000000,
+    "revenueGrowth": 0.127,
+    "epsAvg": 2.34,
+    "epsGrowth": -0.387,
+    "analystCount": 6
+  },
+  "revisions": null
+}

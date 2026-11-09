@@ -113,7 +113,9 @@ export function computeTtm(quarterly: FinancialRow[]): FinancialRow | null {
     operatingMargin: safeDiv(operatingIncome, revenue),
     netMargin: safeDiv(netIncome, revenue),
     fcfMargin: safeDiv(freeCashFlow, revenue),
-    roic: investedCapital && investedCapital > 0 ? safeDiv((operatingIncome ?? 0) * (1 - DEFAULT_TAX_RATE), investedCapital) : null,
+    roic: investedCapital && investedCapital > 0 && operatingIncome != null
+      ? safeDiv(operatingIncome * (1 - DEFAULT_TAX_RATE), investedCapital)
+      : null,
     netDebt,
     netDebtToEbitda: netDebt !== null && ebitda !== null && ebitda > 0 ? netDebt / ebitda : null,
     roe: safeDiv(netIncome, equity),
@@ -296,6 +298,7 @@ function emptySnapshot(): PriceSnapshot {
 export type ChipInput = {
   ticker: string;
   metrics: Metrics;
+  currency?: string;
 };
 
 /** Percentile scores across the covered research universe. */
@@ -308,8 +311,12 @@ export function buildFactorChips(
     return vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : null;
   });
   const profitPop = all.map((x) => {
-    const vals = [x.metrics.operatingMargin, x.metrics.roic].filter((v): v is number => v !== null);
-    return vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : null;
+    const direct = [x.metrics.operatingMargin, x.metrics.roic].filter((v): v is number => v !== null);
+    if (direct.length) return direct.reduce((a, b) => a + b, 0) / direct.length;
+    // Banks and insurers do not report an operating margin or ROIC; use the
+    // return and margin measures that are meaningful for financials.
+    const fallback = [x.metrics.roe, x.metrics.netMargin].filter((v): v is number => v !== null);
+    return fallback.length ? fallback.reduce((a, b) => a + b, 0) / fallback.length : null;
   });
   const cashPop = all.map((x) => x.metrics.fcfMargin);
   const valuationPop = all.map((x) => (x.metrics.evEbitda !== null ? -x.metrics.evEbitda : null));
@@ -369,7 +376,7 @@ export function buildFactorChips(
         nd === null
           ? "Debt data unavailable."
           : nd < 0
-            ? `Net cash of ${formatCompact(-nd, currency)}.`
+            ? `Net cash of ${formatCompact(-nd, item.currency ?? currency)}.`
             : `Net debt of ${formatCompact(nd, currency)}${ndEbitda !== null ? `, ${ndEbitda.toFixed(1)}× EBITDA` : ""}.`,
     });
 

@@ -18,6 +18,7 @@ export const DISCLAIMER_SHORT =
 export const NAV_LINKS = [
   { href: "/discover", label: "Discover" },
   { href: "/india", label: "India Stocks" },
+  { href: "/gcc", label: "GCC Stocks" },
   { href: "/screener", label: "Screener" },
   { href: "/newsfeed", label: "Newsfeed" },
 ] as const;
@@ -31,6 +32,8 @@ export const FOOTER_COLUMNS = [
       { href: "/screener", label: "US screener" },
       { href: "/india", label: "India Stocks" },
       { href: "/india/all-stocks", label: "All India stocks" },
+      { href: "/gcc", label: "GCC Stocks" },
+      { href: "/gcc/all-stocks", label: "All GCC stocks" },
       { href: "/newsfeed", label: "Newsfeed" },
       { href: "/framework", label: "Framework" },
       { href: "/watchlist", label: "Watchlist" },

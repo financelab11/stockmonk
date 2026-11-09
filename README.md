@@ -1,14 +1,15 @@
 # Stockmonk
 
-Independent, data-first equity research for US-listed and Indian companies.
+Independent, data-first equity research for US-listed, Indian and GCC companies.
 Stockmonk is a production-style Next.js PWA that explains how a business makes
 money, charts the reported financials, and shows attributed analyst consensus —
 with **no buy / sell / hold ratings and no Stockmonk price targets**.
 
-- **229 US-listed companies** and **100 NSE-listed Indian companies**, each with
-  a hand-written ten-section research report. Every report is authored against a
-  per-company factual brief, with quantitative claims tied to the processed
-  dataset and the latest SEC, NSE or BSE filing.
+- **229 US-listed companies**, **100 NSE-listed Indian companies** and a growing
+  **GCC coverage universe** across Saudi Arabia, the UAE, Qatar, Kuwait, Oman and
+  Bahrain. US and India names carry a hand-written ten-section research report;
+  GCC reports are being published in editorial batches, with the data directory
+  live ahead of the reports.
 - Ten sourced article sections, a chart in every analytical section, peer
   comparison, consensus and risk sections.
 - Works offline for visited pages; installable on desktop and mobile.
@@ -68,6 +69,9 @@ Lighthouse difference.
 | `/india` | Featured India research, data-quality screens and search |
 | `/india/all-stocks` | Full India universe grouped by sector |
 | `/india/stocks/[ticker]` | Ten-section research report for all 100 India names |
+| `/gcc` | GCC Stocks: featured research, data-quality screens and the GCC universe |
+| `/gcc/all-stocks` | Full GCC directory grouped by market and sector |
+| `/gcc/stocks/[ticker]` | Ten-section GCC research reports (published in batches) |
 | `/watchlist` | Local-first watchlist backed by `localStorage` |
 | `/about`, `/privacy`, `/terms`, `/editorial-guidelines`, `/data-sources` | Editorial and legal pages |
 | `/offline` | Serwist offline fallback |
@@ -88,6 +92,8 @@ pnpm build:data         # public/data/stocks.json + search-index.json
 pnpm audit:generated    # scan generated reports for text defects
 pnpm ingest:india       # India statements, prices and consensus
 pnpm build:india        # public/data/india/stocks.json + search-index.json
+pnpm ingest:gcc         # GCC statements, prices and consensus (StockAnalysis/Yahoo)
+pnpm build:gcc          # public/data/gcc/stocks.json + search-index.json
 pnpm refresh            # run all of the above in order
 ```
 
@@ -102,6 +108,10 @@ Outputs:
 - `data/india/consensus/{ticker}.json` — attributed India consensus snapshot.
 - `public/data/india/prices/{ticker}/{range}.json` — India price series.
 - `public/data/india/stocks.json` and `public/data/india/search-index.json` — India directory files.
+- `data/gcc/processed/{ticker}/data.json` — GCC statements, ratios, market data and sources.
+- `data/gcc/consensus/{ticker}.json` — attributed third-party GCC consensus.
+- `public/data/gcc/prices/{ticker}/{range}.json` — GCC price series.
+- `public/data/gcc/stocks.json` and `public/data/gcc/search-index.json` — GCC directory files.
 
 ### Screener model
 
@@ -130,9 +140,20 @@ of shrinking the universe.
 
 The daily refresh workflow lives in `.github/workflows/daily-refresh.yml`. It
 runs the US and India ingestion, rebuilds the public data files, and commits the
-refreshed data. The screener universe is refreshed weekly by
+refreshed data. The screener universe and GCC coverage are refreshed weekly by
 `.github/workflows/weekly-screener-refresh.yml`. Set the `SIMFIN_API_KEY`
 repository secret for both to run.
+
+### GCC coverage
+
+`/gcc` mirrors the Discover experience for Gulf equities: featured companies, a
+data-quality screens tab and an all-stocks directory grouped by market and
+sector. Statements, statistics and consensus are read from StockAnalysis.com's
+Tadawul, ADX, DFM, QSE, KWSE and MSM pages; price history comes from Yahoo
+Finance where the exchange is covered and MarketScreener supplies the Bahrain
+names. Every report carries the source URL and the reporting period used.
+Reports are hand-written and published in editorial batches, so the directory
+lists data-only cards for companies whose report is still in preparation.
 
 ### Story authoring
 

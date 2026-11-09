@@ -42,14 +42,19 @@ jobs:
         env:
           SIMFIN_API_KEY: ${{ secrets.SIMFIN_API_KEY }}
 
+      - name: Refresh GCC coverage
+        run: |
+          pnpm ingest:gcc
+          pnpm build:gcc
+
       - name: Commit refreshed screener
         run: |
           git config user.name "stockmonk-data-bot"
           git config user.email "data-bot@stockmonk.app"
-          git add public/data/screener.json public/data/screener-factors.json
+          git add public/data/screener.json public/data/screener-factors.json data/gcc public/data/gcc
           if git diff --cached --quiet; then
             echo "No screener changes to commit."
           else
-            git commit -m "chore: weekly screener universe refresh"
+            git commit -m "chore: weekly screener and GCC refresh"
             git push
           fi

@@ -7,7 +7,7 @@ export function MainNav() {
         <a
           key={link.href}
           href={link.href}
-          className="rounded-full px-3.5 py-2 text-[13px] font-semibold text-ink-soft transition-colors hover:bg-paper-deep hover:text-ink"
+          className="whitespace-nowrap rounded-full px-3.5 py-2 text-[13px] font-semibold text-ink-soft transition-colors hover:bg-paper-deep hover:text-ink"
         >
           {link.label}
         </a>
@@ -15,7 +15,7 @@ export function MainNav() {
       <div className="group relative">
         <button
           type="button"
-          className="rounded-full px-3.5 py-2 text-[13px] font-semibold text-ink-soft transition-colors hover:bg-paper-deep hover:text-ink"
+          className="whitespace-nowrap rounded-full px-3.5 py-2 text-[13px] font-semibold text-ink-soft transition-colors hover:bg-paper-deep hover:text-ink"
           aria-haspopup="true"
         >
           More

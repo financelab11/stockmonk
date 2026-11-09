@@ -1,0 +1,71 @@
+{
+  "count": 89,
+  "asOf": "2026-11-09",
+  "groups": [
+    {
+      "id": "sa-banks",
+      "name": "Saudi Banks & Financials",
+      "count": 22
+    },
+    {
+      "id": "sa-energy",
+      "name": "Saudi Energy & Petrochemicals",
+      "count": 16
+    },
+    {
+      "id": "sa-industrials",
+      "name": "Saudi Industrials & Utilities",
+      "count": 23
+    },
+    {
+      "id": "sa-consumer",
+      "name": "Saudi Consumer & Healthcare",
+      "count": 21
+    },
+    {
+      "id": "sa-tech",
+      "name": "Saudi Telecom & Technology",
+      "count": 7
+    },
+    {
+      "id": "ae-financials",
+      "name": "UAE Banks & Financials",
+      "count": 0
+    },
+    {
+      "id": "ae-energy",
+      "name": "UAE Energy & Utilities",
+      "count": 0
+    },
+    {
+      "id": "ae-realestate",
+      "name": "UAE Real Estate & Construction",
+      "count": 0
+    },
+    {
+      "id": "ae-consumer",
+      "name": "UAE Consumer, Logistics & Tech",
+      "count": 0
+    },
+    {
+      "id": "qa",
+      "name": "Qatar",
+      "count": 0
+    },
+    {
+      "id": "kw",
+      "name": "Kuwait",
+      "count": 0
+    },
+    {
+      "id": "om",
+      "name": "Oman",
+      "count": 0
+    },
+    {
+      "id": "bh",
+      "name": "Bahrain",
+      "count": 0
+    }
+  ]
+}

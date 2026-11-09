@@ -41,6 +41,7 @@ export function MobileNav() {
                 { href: "/framework", label: "Framework" },
                 { href: "/discover/all-stocks", label: "All US stocks" },
                 { href: "/india", label: "India Stocks" },
+                { href: "/gcc", label: "GCC Stocks" },
                 { href: "/screener", label: "US screener" },
                 { href: "/india/all-stocks", label: "All India stocks" },
                 { href: "/about", label: "About" },

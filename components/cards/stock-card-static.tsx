@@ -16,7 +16,12 @@ export function StockCardStatic({
   prices?: RangePricePoint[];
   showWhy?: boolean;
 }) {
-  const href = entry.market === "IN" ? `/india/stocks/${entry.ticker}` : `/stocks/${entry.ticker}`;
+  const href =
+    entry.market === "IN"
+      ? `/india/stocks/${entry.ticker}`
+      : entry.market === "GCC"
+        ? `/gcc/stocks/${entry.ticker}`
+        : `/stocks/${entry.ticker}`;
   return (
     <article className="card group flex h-full flex-col p-4 transition-shadow hover:shadow-md">
       <div className="flex items-start gap-2.5">
@@ -36,15 +41,20 @@ export function StockCardStatic({
       <div className="mt-3 flex items-start justify-between gap-3">
         <div className="min-w-0">
           <h3 className="text-[15px] font-semibold leading-snug text-ink">
-            <a href={href} className="hover:text-brand">
-              {entry.name}
-            </a>{" "}
+            {entry.isResearch ? (
+              <a href={href} className="hover:text-brand">
+                {entry.name}
+              </a>
+            ) : (
+              entry.name
+            )}{" "}
             <span className="font-mono text-[11px] font-medium text-muted">
               ({entry.ticker})
             </span>
           </h3>
           <p className="mt-0.5 text-[10.5px] text-muted">
-            {entry.sector} · {entry.industry}
+            {entry.sector}
+            {entry.industry && entry.industry !== entry.sector ? ` · ${entry.industry}` : ""}
           </p>
           <div className="mt-1.5 flex items-baseline gap-2">
             <span className="tabular text-[15px] font-semibold text-ink">
@@ -86,13 +96,19 @@ export function StockCardStatic({
             </span>
           )}
         </div>
-        <a
-          href={href}
-          className="inline-flex size-8 items-center justify-center rounded-full text-muted transition-colors hover:bg-paper-deep hover:text-ink"
-          aria-label={`Open ${entry.ticker} research`}
-        >
-          <ArrowUpRight aria-hidden="true" className="size-4" />
-        </a>
+        {entry.isResearch ? (
+          <a
+            href={href}
+            className="inline-flex size-8 items-center justify-center rounded-full text-muted transition-colors hover:bg-paper-deep hover:text-ink"
+            aria-label={`Open ${entry.ticker} research`}
+          >
+            <ArrowUpRight aria-hidden="true" className="size-4" />
+          </a>
+        ) : (
+          <span className="text-[9px] font-semibold uppercase tracking-[0.1em] text-faint">
+            Data only
+          </span>
+        )}
       </div>
     </article>
   );

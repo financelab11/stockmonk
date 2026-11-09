@@ -12,7 +12,9 @@ export function RecentlyCarousel({ bundles }: { bundles: ResearchBundle[] }) {
           href={
             bundle.data.market === "IN"
               ? `/india/stocks/${bundle.data.ticker}`
-              : `/stocks/${bundle.data.ticker}`
+              : bundle.data.market === "GCC"
+                ? `/gcc/stocks/${bundle.data.ticker}`
+                : `/stocks/${bundle.data.ticker}`
           }
           className="card flex w-[168px] shrink-0 snap-start items-center gap-2 p-2.5 hover:border-brand/40"
         >

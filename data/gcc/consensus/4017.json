@@ -1,0 +1,48 @@
+{
+  "ticker": "4017",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/tadawul/4017/forecast/",
+  "targetMean": 36.98,
+  "targetHigh": 40,
+  "targetLow": 33,
+  "recommendationKey": "hold",
+  "analystCount": 4,
+  "distribution": {
+    "strongBuy": 0,
+    "buy": 0,
+    "hold": 4,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 3700000000,
+      "revenueGrowth": 0.212,
+      "epsAvg": 1.25,
+      "epsGrowth": -0.01,
+      "analystCount": 4
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 4
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 3700000000,
+    "revenueGrowth": 0.212,
+    "epsAvg": 1.25,
+    "epsGrowth": -0.01,
+    "analystCount": 4
+  },
+  "revisions": null
+}

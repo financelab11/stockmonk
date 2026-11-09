@@ -1,0 +1,48 @@
+{
+  "ticker": "2382",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/tadawul/2382/forecast/",
+  "targetMean": 10.84,
+  "targetHigh": 13.5,
+  "targetLow": 6.9,
+  "recommendationKey": "buy",
+  "analystCount": 13,
+  "distribution": {
+    "strongBuy": 6,
+    "buy": 3,
+    "hold": 2,
+    "sell": 1,
+    "strongSell": 1
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 9300000000,
+      "revenueGrowth": 0.38799999999999996,
+      "epsAvg": 0.43,
+      "epsGrowth": 0.18100000000000002,
+      "analystCount": 13
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 13
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 9300000000,
+    "revenueGrowth": 0.38799999999999996,
+    "epsAvg": 0.43,
+    "epsGrowth": 0.18100000000000002,
+    "analystCount": 13
+  },
+  "revisions": null
+}

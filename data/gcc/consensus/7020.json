@@ -1,0 +1,48 @@
+{
+  "ticker": "7020",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/tadawul/7020/forecast/",
+  "targetMean": 75.59,
+  "targetHigh": 85,
+  "targetLow": 63.2,
+  "recommendationKey": "buy",
+  "analystCount": 13,
+  "distribution": {
+    "strongBuy": 8,
+    "buy": 2,
+    "hold": 3,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 20700000000,
+      "revenueGrowth": 0.055999999999999994,
+      "epsAvg": 4.82,
+      "epsGrowth": 0.071,
+      "analystCount": 13
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 13
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 20700000000,
+    "revenueGrowth": 0.055999999999999994,
+    "epsAvg": 4.82,
+    "epsGrowth": 0.071,
+    "analystCount": 13
+  },
+  "revisions": null
+}

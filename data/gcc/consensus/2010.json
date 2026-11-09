@@ -1,0 +1,48 @@
+{
+  "ticker": "2010",
+  "provider": "StockAnalysis.com consensus",
+  "asOf": "2026-11-09",
+  "sourceUrl": "https://stockanalysis.com/quote/tadawul/2010/forecast/",
+  "targetMean": 55.85,
+  "targetHigh": 65,
+  "targetLow": 48,
+  "recommendationKey": "buy",
+  "analystCount": 14,
+  "distribution": {
+    "strongBuy": 2,
+    "buy": 2,
+    "hold": 10,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 108900000000,
+      "revenueGrowth": -0.066,
+      "epsAvg": 0.59,
+      "epsGrowth": -0.14400000000000002,
+      "analystCount": 14
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": null,
+      "revenueGrowth": null,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 14
+    }
+  ],
+  "history": [],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 108900000000,
+    "revenueGrowth": -0.066,
+    "epsAvg": 0.59,
+    "epsGrowth": -0.14400000000000002,
+    "analystCount": 14
+  },
+  "revisions": null
+}

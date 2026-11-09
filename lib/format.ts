@@ -31,11 +31,12 @@ export function formatCompactCurrency(
     if (abs >= 1_000) return `${sign}₹${compact.format(abs / 1_000)}K`;
     return `${sign}₹${decimal.format(abs)}`;
   }
-  if (abs >= 1_000_000_000_000) return `${sign}$${compactTwo.format(abs / 1_000_000_000_000)}T`;
-  if (abs >= 1_000_000_000) return `${sign}$${compact.format(abs / 1_000_000_000)}B`;
-  if (abs >= 1_000_000) return `${sign}$${compact.format(abs / 1_000_000)}M`;
-  if (abs >= 1_000) return `${sign}$${compact.format(abs / 1_000)}K`;
-  return `${sign}$${decimal.format(abs)}`;
+  const prefix = currency === "USD" ? "$" : `${currency} `;
+  if (abs >= 1_000_000_000_000) return `${sign}${prefix}${compactTwo.format(abs / 1_000_000_000_000)}T`;
+  if (abs >= 1_000_000_000) return `${sign}${prefix}${compact.format(abs / 1_000_000_000)}B`;
+  if (abs >= 1_000_000) return `${sign}${prefix}${compact.format(abs / 1_000_000)}M`;
+  if (abs >= 1_000) return `${sign}${prefix}${compact.format(abs / 1_000)}K`;
+  return `${sign}${prefix}${decimal.format(abs)}`;
 }
 
 export function formatCurrency(

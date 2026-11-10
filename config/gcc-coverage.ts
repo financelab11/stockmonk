@@ -385,6 +385,16 @@ export const GCC_PUBLISHED_TICKERS = [
   "DUBK",
   "CBQK",
   "2290",
+  "1030",
+  "QIIK",
+  "TECOM",
+  "QEWS",
+  "DIC",
+  "EMPOWER",
+  "4142",
+  "KFH",
+  "QFLS",
+  "1111",
 ];
 
 export function getGccEntry(ticker: string): GccEntry | undefined {

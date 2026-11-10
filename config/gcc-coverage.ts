@@ -365,6 +365,16 @@ export const GCC_PUBLISHED_TICKERS = [
   "CBD",
   "TALABAT",
   "8210",
+  "2380",
+  "AIRARABIA",
+  "QGTS",
+  "MULTIPLY",
+  "ERES",
+  "7202",
+  "4190",
+  "4300",
+  "8010",
+  "NMDC",
 ];
 
 export function getGccEntry(ticker: string): GccEntry | undefined {

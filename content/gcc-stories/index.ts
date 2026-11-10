@@ -49,6 +49,16 @@ import { abuDhabiPorts } from "./ADPORTS";
 import { commercialBankOfDubai } from "./CBD";
 import { talabat } from "./TALABAT";
 import { bupaArabia } from "./8210";
+import { rabigh } from "./2380";
+import { airArabia } from "./AIRARABIA";
+import { nakilat } from "./QGTS";
+import { multiplyGroup } from "./MULTIPLY";
+import { ezdan } from "./ERES";
+import { solutionsByStc } from "./7202";
+import { jarirMarketing } from "./4190";
+import { darAlArkan } from "./4300";
+import { tawuniya } from "./8010";
+import { nmdc } from "./NMDC";
 
 const STORIES: Record<string, StockStory> = {
   "2222": saudiAramco,
@@ -101,6 +111,16 @@ const STORIES: Record<string, StockStory> = {
   CBD: commercialBankOfDubai,
   TALABAT: talabat,
   "8210": bupaArabia,
+  "2380": rabigh,
+  AIRARABIA: airArabia,
+  QGTS: nakilat,
+  MULTIPLY: multiplyGroup,
+  ERES: ezdan,
+  "7202": solutionsByStc,
+  "4190": jarirMarketing,
+  "4300": darAlArkan,
+  "8010": tawuniya,
+  NMDC: nmdc,
 };
 
 export function getGccStockStory(ticker: string): StockStory | null {

@@ -79,6 +79,16 @@ import { riyadhCables } from "./4142";
 import { kuwaitFinanceHouse } from "./KFH";
 import { qatarFuel } from "./QFLS";
 import { saudiTadawulGroup } from "./1111";
+import { mesaieed } from "./MPHC";
+import { nahdiMedical } from "./4164";
+import { milaha } from "./QNNS";
+import { ahliBank } from "./ABQK";
+import { electricalIndustries } from "./1303";
+import { vodafoneQatar } from "./VFQS";
+import { mouwasat } from "./4002";
+import { dubaiFinancialMarket } from "./DFM";
+import { luluRetail } from "./LULU";
+import { alRajhiTakaful } from "./8230";
 
 const STORIES: Record<string, StockStory> = {
   "2222": saudiAramco,
@@ -161,6 +171,16 @@ const STORIES: Record<string, StockStory> = {
   KFH: kuwaitFinanceHouse,
   QFLS: qatarFuel,
   "1111": saudiTadawulGroup,
+  MPHC: mesaieed,
+  "4164": nahdiMedical,
+  QNNS: milaha,
+  ABQK: ahliBank,
+  "1303": electricalIndustries,
+  VFQS: vodafoneQatar,
+  "4002": mouwasat,
+  DFM: dubaiFinancialMarket,
+  LULU: luluRetail,
+  "8230": alRajhiTakaful,
 };
 
 export function getGccStockStory(ticker: string): StockStory | null {

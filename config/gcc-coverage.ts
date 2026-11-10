@@ -355,6 +355,16 @@ export const GCC_PUBLISHED_TICKERS = [
   "IQCD",
   "DIB",
   "QIBK",
+  "EMAARDEV",
+  "ADNOCLS",
+  "ADNOCDIST",
+  "SALIK",
+  "ORDS",
+  "4030",
+  "ADPORTS",
+  "CBD",
+  "TALABAT",
+  "8210",
 ];
 
 export function getGccEntry(ticker: string): GccEntry | undefined {

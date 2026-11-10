@@ -375,6 +375,16 @@ export const GCC_PUBLISHED_TICKERS = [
   "4300",
   "8010",
   "NMDC",
+  "PARKIN",
+  "PRESIGHT",
+  "2382",
+  "MARK",
+  "FERTIGLB",
+  "2223",
+  "IGRD",
+  "DUBK",
+  "CBQK",
+  "2290",
 ];
 
 export function getGccEntry(ticker: string): GccEntry | undefined {

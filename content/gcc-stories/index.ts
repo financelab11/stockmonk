@@ -19,6 +19,16 @@ import { sabicAgriNutrients } from "./2020";
 import { elmCompany } from "./7203";
 import { mobily } from "./7020";
 import { almarai } from "./2280";
+import { internationalHolding } from "./IHC";
+import { firstAbuDhabiBank } from "./FAB";
+import { emiratesNbd } from "./EMIRATESNBD";
+import { etisalat } from "./ETISALAT";
+import { qatarNationalBank } from "./QNBK";
+import { abuDhabiCommercialBank } from "./ADCB";
+import { abuDhabiIslamicBank } from "./ADIB";
+import { alphaDhabi } from "./ALPHADHABI";
+import { mashreq } from "./MASQ";
+import { du } from "./DU";
 
 const STORIES: Record<string, StockStory> = {
   "2222": saudiAramco,
@@ -41,6 +51,16 @@ const STORIES: Record<string, StockStory> = {
   "7203": elmCompany,
   "7020": mobily,
   "2280": almarai,
+  IHC: internationalHolding,
+  FAB: firstAbuDhabiBank,
+  EMIRATESNBD: emiratesNbd,
+  ETISALAT: etisalat,
+  QNBK: qatarNationalBank,
+  ADCB: abuDhabiCommercialBank,
+  ADIB: abuDhabiIslamicBank,
+  ALPHADHABI: alphaDhabi,
+  MASQ: mashreq,
+  DU: du,
 };
 
 export function getGccStockStory(ticker: string): StockStory | null {

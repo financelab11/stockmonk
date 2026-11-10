@@ -14,11 +14,14 @@ export function ConsensusPanel({
   consensus,
   price,
   currency = "USD",
+  estimateCurrency,
 }: {
   consensus: Consensus | null;
   price: number | null;
   currency?: string;
+  estimateCurrency?: string;
 }) {
+  const financialCurrency = estimateCurrency ?? currency;
   if (!consensus) {
     return (
       <div className="rounded-xl border border-dashed border-line bg-paper-deep p-4 text-[11.5px] leading-relaxed text-muted">
@@ -134,10 +137,10 @@ export function ConsensusPanel({
             {estimates.map((estimate) => (
               <tr key={estimate.period}>
                 <td className="font-medium text-ink">{estimate.period}</td>
-                <td>{formatCompactCurrency(estimate.revenue, currency)}</td>
+                <td>{formatCompactCurrency(estimate.revenue, financialCurrency)}</td>
                 <td>{formatPercent(estimate.revenueGrowth)}</td>
                 <td>
-                  {estimate.eps != null ? formatCurrency(estimate.eps, 2, currency) : "n/a"}
+                  {estimate.eps != null ? formatCurrency(estimate.eps, 2, financialCurrency) : "n/a"}
                 </td>
                 <td>{formatPercent(estimate.epsGrowth)}</td>
                 <td>{estimate.analysts ?? "n/a"}</td>

@@ -10,6 +10,7 @@
   "hq": null,
   "website": null,
   "currency": "SAR",
+  "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
     "close": 26.100000381469727,

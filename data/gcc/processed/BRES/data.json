@@ -10,6 +10,7 @@
   "hq": null,
   "website": null,
   "currency": "QAR",
+  "quoteCurrency": "QAR",
   "isResearch": true,
   "latestPrice": {
     "close": 2.315999984741211,

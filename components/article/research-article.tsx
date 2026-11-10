@@ -110,10 +110,17 @@ export function ResearchArticle({
 }) {
   const { data, consensus, segments, prices, factors } = bundle;
   const currency = data.currency ?? "USD";
+  // Price and market cap are quoted in the local trading currency, which can
+  // differ from the reporting currency (for example USD-reporting ADX names).
+  const quoteCurrency = data.quoteCurrency ?? currency;
   const money = (value: number | null | undefined, digits = 2): string =>
     formatCurrency(value, digits, currency);
   const compact = (value: number | null | undefined): string =>
     formatCompactCurrency(value, currency);
+  const quoteMoney = (value: number | null | undefined, digits = 2): string =>
+    formatCurrency(value, digits, quoteCurrency);
+  const quoteCompact = (value: number | null | undefined): string =>
+    formatCompactCurrency(value, quoteCurrency);
   const sources = buildArticleSources(story, bundle);
   const latest = latestQuarter(data);
   const cagr = computeCagr(data.annual);
@@ -229,8 +236,8 @@ export function ResearchArticle({
           </div>
 
           <div className="mt-6 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-7">
-            <StatTile label="Last close" value={money(data.latestPrice.close)} hint={<PriceChange value={data.latestPrice.changePct} />} />
-            <StatTile label="Market cap" value={compact(data.latestPrice.marketCap)} />
+            <StatTile label="Last close" value={quoteMoney(data.latestPrice.close)} hint={<PriceChange value={data.latestPrice.changePct} />} />
+            <StatTile label="Market cap" value={quoteCompact(data.latestPrice.marketCap)} />
             <StatTile label="Revenue TTM" value={compact(data.metrics.revenueTtm)} hint={`${formatPercent(data.metrics.revenueGrowthTtm)} YoY`} />
             <StatTile label="Operating margin" value={formatPercent(data.metrics.operatingMargin)} />
             <StatTile label="P/E (TTM)" value={formatMultiple(data.metrics.pe)} />
@@ -265,7 +272,7 @@ export function ResearchArticle({
                 <LazyPriceChart
                   ticker={data.ticker}
                   initialData={prices}
-                  currency={currency}
+                  currency={quoteCurrency}
                   priceBasePath={priceBasePath}
                 />
               </div>
@@ -278,7 +285,7 @@ export function ResearchArticle({
                   high={data.latestPrice.high52}
                   current={data.latestPrice.close}
                   position={bundle.rangePosition}
-                  currency={currency}
+                  currency={quoteCurrency}
                 />
                 <p className="mt-2 text-[10.5px] leading-relaxed text-muted">
                   Trades at {Math.round(cyclePosition * 100)}% of the 52-week range.
@@ -361,7 +368,7 @@ export function ResearchArticle({
                           <span className="min-w-0 flex-1">
                             <span className="block truncate text-[11.5px] font-semibold text-ink">{row.name}</span>
                             <span className="block text-[10px] text-muted">
-                              {row.ticker} · {compact(row.marketCap)}
+                              {row.ticker} · {quoteCompact(row.marketCap)}
                             </span>
                           </span>
                           <ArrowUpRight aria-hidden="true" className="size-3.5 text-faint" />
@@ -625,7 +632,8 @@ export function ResearchArticle({
                 <ConsensusPanel
                   consensus={consensus}
                   price={data.latestPrice.close}
-                  currency={currency}
+                  currency={quoteCurrency}
+                  estimateCurrency={currency}
                 />
               </div>
               <div className="mt-4">

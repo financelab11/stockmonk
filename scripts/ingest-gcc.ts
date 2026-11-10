@@ -14,7 +14,7 @@ loadEnv({ path: ".env.local" });
 loadEnv();
 import fs from "node:fs/promises";
 import path from "node:path";
-import { GCC_ENTRIES, getGccGroup } from "../config/gcc-coverage";
+import { GCC_ENTRIES, getGccCurrency, getGccGroup } from "../config/gcc-coverage";
 import { buildMultipleHistory, buildRangeFiles, computeMetrics, latestPriceSnapshot } from "../lib/metrics";
 import type { Consensus, FinancialRow, PricePoint, TickerData } from "../lib/schemas";
 import { fetchStockAnalysis, type SaStatement, type StockAnalysisCompany } from "../lib/stockanalysis";
@@ -253,6 +253,7 @@ function buildTickerData(
     hq: null,
     website: company.website,
     currency: company.currency,
+    quoteCurrency: getGccCurrency(entry.ticker),
     market: "GCC",
     isResearch: true,
     latestPrice: {

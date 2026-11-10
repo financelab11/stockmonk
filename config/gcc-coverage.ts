@@ -345,6 +345,16 @@ export const GCC_PUBLISHED_TICKERS = [
   "ALPHADHABI",
   "MASQ",
   "DU",
+  "TAQA",
+  "ADNOCGAS",
+  "DEWA",
+  "EMAAR",
+  "ADNOCDRILL",
+  "BOROUGE",
+  "ALDAR",
+  "IQCD",
+  "DIB",
+  "QIBK",
 ];
 
 export function getGccEntry(ticker: string): GccEntry | undefined {

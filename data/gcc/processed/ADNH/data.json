@@ -10,6 +10,7 @@
   "hq": null,
   "website": null,
   "currency": "AED",
+  "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
     "close": 0.46,

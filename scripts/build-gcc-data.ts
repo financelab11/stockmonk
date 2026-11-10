@@ -1,7 +1,7 @@
 /** Builds the GCC directory, search index and factor chips from processed records. */
 import fs from "node:fs/promises";
 import path from "node:path";
-import { GCC_GROUPS, GCC_PUBLISHED_TICKERS, GCC_TICKERS } from "../config/gcc-coverage";
+import { GCC_GROUPS, GCC_PUBLISHED_TICKERS, GCC_TICKERS, getGccCurrency } from "../config/gcc-coverage";
 import { buildFactorChips } from "../lib/metrics";
 import { tickerDataSchema, universeEntrySchema, type TickerData, type UniverseEntry } from "../lib/schemas";
 
@@ -22,7 +22,10 @@ async function main() {
   for (const ticker of GCC_TICKERS) {
     const raw = await readJson<unknown>(path.join(PROCESSED, ticker, "data.json"));
     if (!raw) continue;
-    const parsed = tickerDataSchema.safeParse(raw);
+    const parsed = tickerDataSchema.safeParse({
+      ...(raw as Record<string, unknown>),
+      quoteCurrency: getGccCurrency(ticker),
+    });
     if (parsed.success) companies.push(parsed.data);
   }
 
@@ -53,7 +56,7 @@ async function main() {
         description: data.description,
         isResearch: GCC_PUBLISHED_TICKERS.includes(data.ticker),
         market: "GCC",
-        currency: data.currency,
+        currency: data.quoteCurrency ?? data.currency,
         price: data.latestPrice.close,
         changePct: data.latestPrice.changePct,
         marketCap: data.latestPrice.marketCap,

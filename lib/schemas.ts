@@ -99,6 +99,8 @@ export const tickerDataSchema = z.object({
   founded: z.string().nullable().optional(),
   website: z.string().nullable().optional(),
   currency: z.string().default("USD"),
+  /** Currency the shares trade in, when it differs from the reporting currency. */
+  quoteCurrency: z.string().nullable().optional(),
   isResearch: z.boolean(),
   latestPrice: z.object({
     close: z.number(),

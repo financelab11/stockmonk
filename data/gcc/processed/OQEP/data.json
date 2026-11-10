@@ -10,6 +10,7 @@
   "hq": null,
   "website": null,
   "currency": "OMR",
+  "quoteCurrency": "OMR",
   "isResearch": true,
   "latestPrice": {
     "close": 0.44,

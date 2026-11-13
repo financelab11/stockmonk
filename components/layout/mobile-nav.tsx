@@ -44,6 +44,7 @@ export function MobileNav() {
                 { href: "/gcc", label: "GCC Stocks" },
                 { href: "/screener", label: "US screener" },
                 { href: "/india/all-stocks", label: "All India stocks" },
+                { href: "/tools/growth-ranker", label: "Forward growth ranker" },
                 { href: "/about", label: "About" },
                 { href: "/editorial-guidelines", label: "Guidelines" },
                 { href: "/data-sources", label: "Data sources" },

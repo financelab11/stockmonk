@@ -194,6 +194,7 @@ export default async function IndiaDiscoverPage({
             { href: "/india", label: "Featured Companies" },
             { href: "/india?tab=screens", label: "Data-Quality Screens" },
             { href: "/india/all-stocks", label: "All Stocks", count: universe.length },
+            { href: "/tools/growth-ranker", label: "Forward Growth Ranker" },
           ]}
         />
 

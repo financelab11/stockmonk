@@ -24,6 +24,7 @@ const ROUTES = [
   "/editorial-guidelines",
   "/data-sources",
   "/offline",
+  "/tools/growth-ranker",
 ];
 
 test.describe("route smoke tests", () => {

@@ -20,6 +20,7 @@ export const NAV_LINKS = [
   { href: "/india", label: "India Stocks" },
   { href: "/gcc", label: "GCC Stocks" },
   { href: "/screener", label: "Screener" },
+  { href: "/tools/growth-ranker", label: "Growth ranker" },
   { href: "/newsfeed", label: "Newsfeed" },
 ] as const;
 
@@ -30,6 +31,7 @@ export const FOOTER_COLUMNS = [
       { href: "/discover", label: "Discover" },
       { href: "/discover/all-stocks", label: "All stocks" },
       { href: "/screener", label: "US screener" },
+      { href: "/tools/growth-ranker", label: "Forward growth ranker" },
       { href: "/india", label: "India Stocks" },
       { href: "/india/all-stocks", label: "All India stocks" },
       { href: "/gcc", label: "GCC Stocks" },

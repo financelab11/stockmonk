@@ -26,6 +26,10 @@ export function methodLabel(method: string): string {
       return "Consensus + extension";
     case "ANALYST_MODEL":
       return "Bespoke model";
+    case "BESPOKE_FORWARD":
+      return "Bespoke forward";
+    case "BESPOKE_PEER":
+      return "Bespoke peer";
     default:
       return method;
   }
@@ -40,6 +44,21 @@ export function methodTone(method: string): string {
     default:
       return "chip-caution";
   }
+}
+
+export function numberOrDash(value: number | null | undefined, digits = 1): string {
+  if (value == null || !Number.isFinite(value)) return "n/a";
+  return value.toFixed(digits);
+}
+
+export function multiple(value: number | null | undefined, digits = 1): string {
+  if (value == null || !Number.isFinite(value)) return "n/a";
+  return `${value.toFixed(digits)}x`;
+}
+
+export function score(value: number | null | undefined): string {
+  if (value == null || !Number.isFinite(value)) return "n/a";
+  return value.toFixed(1);
 }
 
 export function confidenceTone(confidence: string): string {

@@ -17,13 +17,31 @@ export type RankedRow = {
   confidence: ForecastResult["confidence"];
   analystCount: number | null;
   flagged: boolean;
+  pe: number | null;
+  forwardPe: number | null;
+  evEbitda: number | null;
+  peg: number | null;
+  pFcf: number | null;
+  roce: number | null;
+  roe: number | null;
+  ebitMargin: number | null;
+  ebitGrowth: number | null;
+  operatingLeverage: number | null;
+  growthScore: number | null;
+  valuationScore: number | null;
+  qualityScore: number | null;
+  compositeScore: number | null;
 };
 
 export function rankResults(results: ForecastResult[]): RankedRow[] {
   return [...results]
     .sort((a, b) => {
-      const diff = b.cagr_3y.base - a.cagr_3y.base;
-      return Math.abs(diff) > 1e-12 ? diff : a.ticker.localeCompare(b.ticker);
+      const scoreDiff = (b.scores.composite ?? -1) - (a.scores.composite ?? -1);
+      if (Math.abs(scoreDiff) > 1e-12) return scoreDiff;
+      const growthDiff = b.cagr_3y.base - a.cagr_3y.base;
+      return Math.abs(growthDiff) > 1e-12
+        ? growthDiff
+        : a.ticker.localeCompare(b.ticker);
     })
     .map((result, index) => ({
       rank: index + 1,
@@ -42,6 +60,20 @@ export function rankResults(results: ForecastResult[]): RankedRow[] {
       confidence: result.confidence,
       analystCount: result.consensus.analystCount,
       flagged: result.consensus.flagged,
+      pe: result.valuation.pe,
+      forwardPe: result.valuation.forwardPe,
+      evEbitda: result.valuation.evEbitda,
+      peg: result.valuation.peg,
+      pFcf: result.valuation.pFcf,
+      roce: result.quality.roce,
+      roe: result.quality.roe,
+      ebitMargin: result.quality.ebitMargin,
+      ebitGrowth: result.quality.ebitGrowth,
+      operatingLeverage: result.quality.operatingLeverage,
+      growthScore: result.scores.growth,
+      valuationScore: result.scores.valuation,
+      qualityScore: result.scores.quality,
+      compositeScore: result.scores.composite,
     }));
 }
 
@@ -51,15 +83,29 @@ export function resultsToCsv(rows: RankedRow[], fxRate: number): string {
     "ticker",
     "name",
     "sector",
+    "composite_score",
+    "growth_score",
+    "valuation_score",
+    "quality_score",
+    "forward_cagr_base",
+    "forward_cagr_bear",
+    "forward_cagr_bull",
     "market_cap_inr",
     "market_cap_usd_m",
     "market_cap_as_of",
     "base_year",
     "base_revenue_inr",
     "fy3_revenue_inr",
-    "cagr_base",
-    "cagr_bear",
-    "cagr_bull",
+    "pe",
+    "forward_pe",
+    "ev_ebitda",
+    "peg",
+    "p_fcf",
+    "roce",
+    "roe",
+    "ebit_margin",
+    "ebit_growth",
+    "operating_leverage",
     "method",
     "confidence",
     "analyst_count",
@@ -77,15 +123,29 @@ export function resultsToCsv(rows: RankedRow[], fxRate: number): string {
       row.ticker,
       row.name,
       row.sector,
+      row.compositeScore,
+      row.growthScore,
+      row.valuationScore,
+      row.qualityScore,
+      row.cagrBase,
+      row.cagrBear,
+      row.cagrBull,
       row.marketCapInr,
       row.marketCapInr / fxRate / 1_000_000,
       row.marketCapAsOf,
       row.baseYear,
       row.baseRevenue,
       row.fy3Revenue,
-      row.cagrBase,
-      row.cagrBear,
-      row.cagrBull,
+      row.pe,
+      row.forwardPe,
+      row.evEbitda,
+      row.peg,
+      row.pFcf,
+      row.roce,
+      row.roe,
+      row.ebitMargin,
+      row.ebitGrowth,
+      row.operatingLeverage,
       row.method,
       row.confidence,
       row.analystCount,

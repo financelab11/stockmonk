@@ -2,47 +2,79 @@
 
 Route: `/tools/growth-ranker` (linked from the India Stocks tabs, primary nav and footer).
 
-This is a **display module**. Upload, column mapping, name resolution, market-cap
-filtering and batch runs have been removed. The page reads a completed snapshot of
-forward estimates and shows every company that produced one.
+A display module for a completed, committed snapshot of **385 Indian companies**
+with forward revenue estimates, valuation metrics and quality metrics.
 
-## Dataset
+## Data sources
 
-`data/growth-ranker/estimates.json` contains:
+- **Universe:** top Indian companies by market cap from the Refinitiv India
+  Multifactor workbook.
+- **Consensus:** Yahoo Finance revenue estimates (`0y` and `+1y` revenue mean and
+  analyst count).
+- **Forward fallback:** LSEG SmartEstimate revenue growth from the Refinitiv
+  workbook where Yahoo consensus is missing.
+- **Peer fallback:** median forward growth of consensus-covered companies in the
+  same GICS sector.
+- **Reported fundamentals:** Screener.in annual statements, balance sheet, cash
+  flow and ROCE.
+- **Valuation:** Yahoo Finance trailing/forward P/E, EV/EBITDA, PEG and free cash
+  flow, with computed fallbacks.
 
-- provenance: source workbook, job id, generation date;
-- the FX rate used for the market-cap threshold;
-- processed / estimated / skipped counts;
-- full forecast results validated by `forecastResultSchema`.
+Raw ingestion is cached under `data/growth-ranker/raw/` (gitignored). The committed
+snapshot is `data/growth-ranker/estimates.json`.
 
-Current snapshot: 89 names processed, 83 estimates, 6 skipped for lack of consensus.
-The universe was the Refinitiv India Multifactor SectorNeutral 1000Cr workbook,
-resolved to the Stockmonk India directory.
+## Forecast rules
 
-Regenerating the snapshot is an offline data task; the web app no longer exposes a
-run button or job API.
+- FY0 is the last completed fiscal year from Screener.in.
+- FY+1/FY+2 use Yahoo consensus means when usable.
+- FY+3 extends consensus-implied growth, faded 15%.
+- If consensus is missing, FY+1 uses LSEG forward growth, otherwise the sector
+  peer median; later years fade that forward growth.
+- Historical growth is displayed only as context. It is never an input to the
+  projection, CAGR or ranking.
 
-## Ranking rules
+## Ranking
 
-- Rank by base-case three-year forward revenue CAGR:
-  `(FY+3 / FY0)^(1/3) − 1`.
-- FY0 is the last completed fiscal year and is shown explicitly.
-- Bear and bull cases are a sensitivity band; they do not enter the rank.
-- Historical revenue is displayed on each detail page as context only. It is not
-  an input to the projection, the CAGR or the ranking.
-- No consensus means no estimate. Skipped names are not filled with invented
-  numbers.
+Composite score:
+
+- 50% growth percentile — base-case 3Y forward revenue CAGR.
+- 30% valuation percentile — forward P/E and PEG (lower is better).
+- 20% quality percentile — ROCE, ROE, EBIT margin and operating leverage.
+
+Missing components are reweighted transparently. Banks and other financials
+naturally show fewer EBIT/EV metrics; valuation still uses P/E and PEG.
+
+## Columns
+
+- Growth: 3Y forward CAGR.
+- Valuation: P/E, forward P/E, EV/EBITDA, PEG, P/FCF.
+- Quality: ROCE, ROE, EBIT %, EBIT growth, operating leverage.
+- Composite score and method (consensus + extension, bespoke forward, bespoke
+  peer).
 
 ## Routes
 
-- `/tools/growth-ranker` — full ranked table (all estimates, no filtering UI).
-- `/tools/growth-ranker/[ticker]` — projection, assumptions, risks, consensus
-  check, sourced evidence and historical reference.
+- `/tools/growth-ranker` — full ranked table.
+- `/tools/growth-ranker/[ticker]` — projections, consensus check, valuation,
+  quality, score breakdown, evidence and historical reference.
+- `/api/tools/growth-ranker/export` — CSV of all ranked estimates.
 
-Both are server-rendered; there is no client-side wizard or polling.
+## Regenerating
+
+```bash
+# 1. Extract the universe from the Refinitiv workbook
+python scripts/extract-refinitiv.py
+
+# 2. Ingest Yahoo consensus + Screener fundamentals (cached, resumable)
+npx tsx scripts/ingest-growth-ranker.ts
+
+# 3. Build the committed estimates snapshot
+npx tsx scripts/build-growth-ranker-estimates.ts
+```
 
 ## Verification
 
-- `tests/unit/growth-ranker.test.ts` — dataset integrity, CAGR recomputation,
+- `tests/unit/growth-ranker.test.ts` — dataset size, CAGR formula, scores,
   ranking order and CSV export.
-- `tests/e2e/growth-ranker.spec.ts` — full table renders and a detail page opens.
+- `tests/e2e/growth-ranker.spec.ts` — 200+ rows, valuation/quality columns and a
+  detail page.

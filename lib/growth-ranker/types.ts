@@ -41,6 +41,8 @@ export const projectionMethodSchema = z.enum([
   "CONSENSUS",
   "CONSENSUS_PLUS_ANALYST_EXTENSION",
   "ANALYST_MODEL",
+  "BESPOKE_FORWARD",
+  "BESPOKE_PEER",
 ]);
 export type ProjectionMethod = z.infer<typeof projectionMethodSchema>;
 
@@ -105,6 +107,32 @@ export const baseYearSchema = z.object({
 });
 export type BaseYear = z.infer<typeof baseYearSchema>;
 
+export const valuationMetricsSchema = z.object({
+  pe: z.number().nullable(),
+  forwardPe: z.number().nullable(),
+  evEbitda: z.number().nullable(),
+  peg: z.number().nullable(),
+  pFcf: z.number().nullable(),
+});
+export type ValuationMetrics = z.infer<typeof valuationMetricsSchema>;
+
+export const qualityMetricsSchema = z.object({
+  roce: z.number().nullable(),
+  roe: z.number().nullable(),
+  ebitMargin: z.number().nullable(),
+  ebitGrowth: z.number().nullable(),
+  operatingLeverage: z.number().nullable(),
+});
+export type QualityMetrics = z.infer<typeof qualityMetricsSchema>;
+
+export const scoreBreakdownSchema = z.object({
+  growth: z.number().nullable(),
+  valuation: z.number().nullable(),
+  quality: z.number().nullable(),
+  composite: z.number().nullable(),
+});
+export type ScoreBreakdown = z.infer<typeof scoreBreakdownSchema>;
+
 export const forecastResultSchema = z.object({
   company_id: z.string(),
   ticker: z.string(),
@@ -121,6 +149,9 @@ export const forecastResultSchema = z.object({
   cagr_3y: cagrSchema,
   method: projectionMethodSchema,
   consensus: consensusCheckSchema,
+  valuation: valuationMetricsSchema,
+  quality: qualityMetricsSchema,
+  scores: scoreBreakdownSchema,
   evidence: z.array(evidenceItemSchema),
   historical_reference: z.array(historyPointSchema),
   segment_context: z.array(segmentPointSchema),

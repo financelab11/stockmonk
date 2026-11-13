@@ -9,7 +9,7 @@ import { forecastResultSchema, type ForecastResult } from "./types";
 const datasetSchema = z.object({
   generatedAt: z.string(),
   generatedFrom: z.string(),
-  jobId: z.string(),
+  jobId: z.string().optional(),
   fx: z.object({ pair: z.string(), rate: z.number(), asOf: z.string() }),
   threshold: z.object({
     value: z.number(),

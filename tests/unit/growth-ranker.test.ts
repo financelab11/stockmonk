@@ -20,7 +20,7 @@ describe("forward estimates dataset", () => {
     expect(dataset.processed).toBe(dataset.estimated + dataset.skipped);
     const tickers = dataset.results.map((result) => result.ticker);
     expect(new Set(tickers).size).toBe(tickers.length);
-    expect(dataset.results.length).toBeGreaterThan(0);
+    expect(dataset.results.length).toBeGreaterThanOrEqual(200);
   });
 
   it("stores a positive base, forward path and sourced evidence", () => {
@@ -31,10 +31,15 @@ describe("forward estimates dataset", () => {
       expect(result.projections.FY3.base).toBeGreaterThan(0);
       expect(result.evidence.length).toBeGreaterThan(0);
       expect(result.historical_reference.length).toBeGreaterThan(0);
+      expect(result.valuation).toBeDefined();
+      expect(result.quality).toBeDefined();
+      expect(result.scores.composite).not.toBeNull();
       expect([
         "CONSENSUS",
         "CONSENSUS_PLUS_ANALYST_EXTENSION",
         "ANALYST_MODEL",
+        "BESPOKE_FORWARD",
+        "BESPOKE_PEER",
       ]).toContain(result.method);
     }
   });
@@ -50,11 +55,13 @@ describe("forward estimates dataset", () => {
     }
   });
 
-  it("ranks by base-case CAGR, not by bear, bull or history", () => {
+  it("ranks by the composite score, then growth", () => {
     const rows = rankResults(dataset.results);
     expect(rows).toHaveLength(dataset.results.length);
     for (let index = 1; index < rows.length; index += 1) {
-      expect(rows[index - 1].cagrBase).toBeGreaterThanOrEqual(rows[index].cagrBase);
+      const previous = rows[index - 1].compositeScore ?? -1;
+      const current = rows[index].compositeScore ?? -1;
+      expect(previous).toBeGreaterThanOrEqual(current);
     }
     expect(rows[0].rank).toBe(1);
   });
@@ -62,7 +69,7 @@ describe("forward estimates dataset", () => {
   it("exports the ranked table as CSV", () => {
     const rows = rankResults(dataset.results);
     const csv = resultsToCsv(rows, 88);
-    expect(csv.split("\n")[0]).toContain("cagr_base");
+    expect(csv.split("\n")[0]).toContain("forward_cagr_base");
     expect(csv).toContain(rows[0].ticker);
   });
 });

@@ -13,7 +13,9 @@ import {
   inrCrore,
   methodLabel,
   methodTone,
+  multiple,
   pct,
+  score,
 } from "@/components/tools/growth-ranker/format";
 
 export const dynamicParams = false;
@@ -183,6 +185,50 @@ export default async function GrowthRankerDetailPage({
               Bear and bull bands widen with the horizon. The ranking uses the
               base bar only.
             </p>
+          </div>
+        </div>
+
+        <div className="mt-4 grid gap-3 lg:grid-cols-[1.15fr_0.85fr]">
+          <div className="rounded-xl border border-line bg-surface p-4">
+            <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+              Valuation metrics
+            </p>
+            <div className="mt-2 grid grid-cols-2 gap-x-4 gap-y-2 text-[11.5px] sm:grid-cols-3">
+              <MetricRow label="P/E" value={multiple(result.valuation.pe)} />
+              <MetricRow label="Forward P/E" value={multiple(result.valuation.forwardPe)} />
+              <MetricRow label="EV/EBITDA" value={multiple(result.valuation.evEbitda)} />
+              <MetricRow label="PEG" value={multiple(result.valuation.peg)} />
+              <MetricRow label="P/FCF" value={multiple(result.valuation.pFcf)} />
+            </div>
+          </div>
+          <div className="rounded-xl border border-line bg-surface p-4">
+            <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+              Composite score
+            </p>
+            <p className="tabular mt-1 text-[28px] font-semibold text-brand-deep">
+              {score(result.scores.composite)}
+            </p>
+            <div className="mt-2 space-y-1 text-[10.5px] text-muted">
+              <MetricRow label="Growth (50%)" value={score(result.scores.growth)} />
+              <MetricRow label="Valuation (30%)" value={score(result.scores.valuation)} />
+              <MetricRow label="Quality (20%)" value={score(result.scores.quality)} />
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-3 rounded-xl border border-line bg-surface p-4">
+          <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+            Quality metrics
+          </p>
+          <div className="mt-2 grid grid-cols-2 gap-x-4 gap-y-2 text-[11.5px] sm:grid-cols-5">
+            <MetricRow label="ROCE" value={pct(result.quality.roce)} />
+            <MetricRow label="ROE" value={pct(result.quality.roe)} />
+            <MetricRow label="EBIT margin" value={pct(result.quality.ebitMargin)} />
+            <MetricRow label="EBIT growth" value={pct(result.quality.ebitGrowth)} />
+            <MetricRow
+              label="Operating leverage"
+              value={multiple(result.quality.operatingLeverage)}
+            />
           </div>
         </div>
 
@@ -397,6 +443,15 @@ function Metric({
       <p className="stat-label">{label}</p>
       <p className="tabular mt-0.5 text-[16px] font-semibold text-ink">{value}</p>
       {hint && <p className="text-[9.5px] text-faint">{hint}</p>}
+    </div>
+  );
+}
+
+function MetricRow({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="flex items-baseline justify-between gap-2 border-b border-line/60 py-1 last:border-0">
+      <span className="text-muted">{label}</span>
+      <span className="tabular font-semibold text-ink">{value}</span>
     </div>
   );
 }

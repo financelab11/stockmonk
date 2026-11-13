@@ -60,6 +60,9 @@ export type YahooQuoteSummary = {
     fiftyTwoWeekHigh?: { raw?: number };
     fiftyTwoWeekLow?: { raw?: number };
     dividendYield?: { raw?: number };
+    marketCap?: { raw?: number };
+    trailingPE?: { raw?: number };
+    forwardPE?: { raw?: number };
   };
   financialData?: {
     totalRevenue?: { raw?: number };
@@ -68,6 +71,7 @@ export type YahooQuoteSummary = {
     operatingMargins?: { raw?: number };
     profitMargins?: { raw?: number };
     returnOnEquity?: { raw?: number };
+    ebitda?: { raw?: number };
     freeCashflow?: { raw?: number };
     totalCash?: { raw?: number };
     totalDebt?: { raw?: number };
@@ -81,6 +85,9 @@ export type YahooQuoteSummary = {
     trailingEps?: { raw?: number };
     forwardEps?: { raw?: number };
     sharesOutstanding?: { raw?: number };
+    pegRatio?: { raw?: number };
+    enterpriseValue?: { raw?: number };
+    enterpriseToEbitda?: { raw?: number };
   };
   earnings?: {
     earningsChart?: {

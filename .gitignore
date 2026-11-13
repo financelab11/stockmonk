@@ -53,3 +53,7 @@ next-env.d.ts
 
 # GCC scrape cache (re-downloadable)
 /data/gcc/raw/
+
+# Forward growth ranker raw ingestion
+/data/growth-ranker/raw/
+/data/growth-ranker/refinitiv-top.json

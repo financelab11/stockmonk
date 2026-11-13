@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { ALL_TICKERS, BENCHMARK_TICKER } from "@/config/universe";
 import { INDIA_TICKERS } from "@/config/india-coverage";
 import { GCC_PUBLISHED_TICKERS } from "@/config/gcc-coverage";
+import { getGrowthRankerDataset } from "@/lib/growth-ranker/dataset";
 import { SITE } from "@/lib/constants";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -49,5 +50,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...stockRoutes, ...indiaRoutes, ...gccRoutes];
+  const growthRankerRoutes: MetadataRoute.Sitemap = getGrowthRankerDataset().results.map(
+    (result) => ({
+      url: `${SITE.url}/tools/growth-ranker/${result.ticker}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.5,
+    }),
+  );
+
+  return [...staticRoutes, ...stockRoutes, ...indiaRoutes, ...gccRoutes, ...growthRankerRoutes];
 }

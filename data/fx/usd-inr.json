@@ -1,6 +1,0 @@
-{
-  "pair": "USD/INR",
-  "rate": 88.0,
-  "asOf": "2026-11-12",
-  "source": "Manually maintained reference rate. Override with GROWTH_RANKER_USD_INR and update this file when the rate changes."
-}

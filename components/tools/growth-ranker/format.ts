@@ -47,11 +47,3 @@ export function confidenceTone(confidence: string): string {
   if (confidence === "medium") return "text-ink-soft";
   return "text-amber";
 }
-
-export function statusTone(status: string): string {
-  if (status === "done") return "text-positive";
-  if (status === "failed") return "text-danger";
-  if (status === "skipped") return "text-amber";
-  if (status === "analyzing" || status === "fetching") return "text-brand";
-  return "text-muted";
-}

@@ -45,22 +45,6 @@ export function rankResults(results: ForecastResult[]): RankedRow[] {
     }));
 }
 
-export function filterRankedRows(
-  rows: RankedRow[],
-  options: { q?: string; method?: string },
-): RankedRow[] {
-  const query = (options.q ?? "").trim().toLowerCase();
-  return rows.filter((row) => {
-    if (options.method && row.method !== options.method) return false;
-    if (!query) return true;
-    return (
-      row.ticker.toLowerCase().includes(query) ||
-      row.name.toLowerCase().includes(query) ||
-      row.sector.toLowerCase().includes(query)
-    );
-  });
-}
-
 export function resultsToCsv(rows: RankedRow[], fxRate: number): string {
   const header = [
     "rank",

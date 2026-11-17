@@ -126,8 +126,8 @@ Client helpers:
 
 ## Deployment
 
-- GitHub: `financelab11/stockmonk`, remote `origin`. `main` is the working
-  branch; `master` is still the repository default and mirrors `main`.
+- GitHub: `financelab11/stockmonk`, remote `origin`, working branch `main`
+  (the repository default is still `master`; switch it in repo settings).
 - Vercel: project `stockmonk` under team `financelabin-5299`, production domain
   **https://stockmonk.vercel.app**.
 - Build `pnpm build`, install `pnpm install`, Node 24.x, framework preset
@@ -150,15 +150,15 @@ Client helpers:
 - Vercel production is deployed from the CLI (`vercel --prod --yes
   --archive=tgz`) and healthy: site returns 200 and `/api/health/db` returns
   200 with live freshness rows.
-- GitHub-linked auto-deploy is **not** active yet. `vercel git connect
-  https://github.com/financelab11/stockmonk.git` fails with "You need to add a
-  Login Connection to your GitHub account first"; the GitHub login connection
-  can only be added in the Vercel dashboard.
+- GitHub-linked auto-deploy **is** active: the project is linked to
+  `financelab11/stockmonk` with production branch `main`, so every push to
+  `main` builds a production deployment. Pushing is automated by
+  `.githooks/post-commit`, which makes "commit" the only manual step.
 - The supplied GitHub token can read and push commits but cannot change
-  repository settings (`PATCH /repos` returns 403), so the default branch
+  repository settings (`PATCH /repos` returns 403), so the default-branch
   switch and Actions secrets must be done in the GitHub UI.
-- Until `main` becomes the repository default, `.githooks/post-commit` mirrors
-  `main` to `master` so a Git-linked Vercel project builds the right commit.
+- `master` is still the repository default and is now stale; delete it or
+  switch the default to `main` in GitHub settings.
 
 ## Change protocol
 

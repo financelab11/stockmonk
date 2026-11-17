@@ -127,9 +127,13 @@ Client helpers live in `utils/supabase/`; the service-role helper is
 ## Deployment
 
 The production target is Vercel, connected to the GitHub repository under the
-`financelabin-5299` team. Build with `pnpm build`; static and dynamic routes use
-the same Next.js output. Required environment variables are the Supabase values
-above plus `NEXT_PUBLIC_SITE_URL` and `SIMFIN_API_KEY` for refresh jobs.
+`financelabin-5299` team. The current CLI deployment is live at
+**https://stockmonk.vercel.app**; the GitHub auto-deploy link is added once the
+repository exists.
+
+Build with `pnpm build`; static and dynamic routes use the same Next.js output.
+Required environment variables are the Supabase values above plus
+`NEXT_PUBLIC_SITE_URL` and `SIMFIN_API_KEY` for refresh jobs.
 
 The daily data workflow is `.github/workflows/daily-data-refresh.yml`. It
 refreshes the file datasets, syncs Supabase, and commits updated data. Configure

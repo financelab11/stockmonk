@@ -141,14 +141,19 @@ Client helpers:
 - Supabase schema is applied to project `fqzfmvnmmiisvtgnsyqa` (Tokyo pooler,
   `aws-0-ap-northeast-1.pooler.supabase.com:6543`).
 - Data is loaded through the direct Postgres fallback: 852 companies, 290,637
-  prices, 14,839 statements, 1,636 consensus estimates, 385 forward estimates
+  prices, 14,839 statements, 1,676 consensus estimates, 385 forward estimates
   and 852 snapshots. `pnpm sync:supabase:direct` refreshes it with
   `SUPABASE_DB_PASSWORD`.
-- GitHub CLI is not installed, no Git credential is configured and the supplied
-  token cannot create repositories (Administration permission is missing). A
-  repository must be created or the token scope extended before push.
-- Vercel CLI is installed but the stored token is invalid. Sign in with
-  `vercel login` (team `financelabin-5299`) or provide a token before linking.
+- Vercel project `stockmonk` is linked under `financelabin-5299` and deployed
+  in production at **https://stockmonk.vercel.app**. Supabase public env vars
+  and `NEXT_PUBLIC_SITE_URL` are configured for production, preview and
+  development. The deployment was made from the CLI; GitHub auto-deploy still
+  needs the repository link.
+- GitHub repo creation is blocked by token permissions. The supplied token
+  authenticates as `financelab11` but returns 403 for repository creation
+  (Administration write missing). Create an empty `financelab11/stockmonk`
+  repository or supply a token with repository-creation rights, then add
+  `origin` and push.
 
 ## Change protocol
 

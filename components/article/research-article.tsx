@@ -109,6 +109,7 @@ export function ResearchArticle({
   related: ResearchBundle[];
 }) {
   const { data, consensus, segments, prices, factors } = bundle;
+  const segmentSlices = segments?.segments ?? [];
   const currency = data.currency ?? "USD";
   // Price and market cap are quoted in the local trading currency, which can
   // differ from the reporting currency (for example USD-reporting ADX names).
@@ -236,7 +237,18 @@ export function ResearchArticle({
           </div>
 
           <div className="mt-6 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-7">
-            <StatTile label="Last close" value={quoteMoney(data.latestPrice.close)} hint={<PriceChange value={data.latestPrice.changePct} />} />
+            <StatTile
+              label="Last close"
+              value={quoteMoney(data.latestPrice.close)}
+              hint={
+                <>
+                  <PriceChange value={data.latestPrice.changePct} />
+                  <span className="ml-1 text-faint">
+                    · {formatDate(data.latestPrice.asOf)}
+                  </span>
+                </>
+              }
+            />
             <StatTile label="Market cap" value={quoteCompact(data.latestPrice.marketCap)} />
             <StatTile label="Revenue TTM" value={compact(data.metrics.revenueTtm)} hint={`${formatPercent(data.metrics.revenueGrowthTtm)} YoY`} />
             <StatTile label="Operating margin" value={formatPercent(data.metrics.operatingMargin)} />
@@ -331,22 +343,37 @@ export function ResearchArticle({
                   ))}
                 </div>
               )}
-              {segments && (
+              {segments && segmentSlices.length > 1 && (
                 <div className="mt-5 grid gap-3 md:grid-cols-[1.1fr_0.9fr]">
                   <LazyMixDonut
-                    data={segments.segments}
+                    data={segmentSlices}
                     title={`Revenue mix by ${segments.segmentLabel.toLowerCase()}`}
                     description={`Latest annual disclosure dated ${formatDate(segments.asOf)}.`}
                     currency={currency}
                   />
                   <div className="rounded-xl border border-line bg-surface p-4">
                     <SegmentBars
-                      slices={segments.segments}
+                      slices={segmentSlices}
                       label={segments.segmentLabel}
-                      total={segments.segments.reduce((sum, slice) => sum + slice.revenue, 0)}
+                      total={segmentSlices.reduce((sum, slice) => sum + slice.revenue, 0)}
                       currency={currency}
                     />
                   </div>
+                </div>
+              )}
+              {segments && segmentSlices.length === 1 && (
+                <div className="mt-5 rounded-xl border border-line bg-surface p-4">
+                  <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+                    Reported revenue
+                  </p>
+                  <p className="tabular mt-2 text-[20px] font-semibold text-ink">
+                    {compact(segmentSlices[0].revenue)}
+                  </p>
+                  <p className="mt-1 text-[10.5px] leading-relaxed text-muted">
+                    Consolidated total from the latest annual disclosure dated{" "}
+                    {formatDate(segments.asOf)}. This company does not disclose a
+                    revenue split, so no segment mix is shown.
+                  </p>
                 </div>
               )}
               <div className="mt-4">
@@ -676,7 +703,7 @@ export function ResearchArticle({
             </section>
 
             <section id="bottom-line" className="scroll-mt-28 py-9">
-              <SectionHeading number="10" id="bottom-line" title="The bottom line for learners" subtitle="What the data says, what it does not say, and the questions to ask next" />
+              <SectionHeading number="10" id="bottom-line" title="Key takeaways and what to monitor" subtitle="What the data says, what it does not say, and the questions to ask next" />
               <Paragraphs paragraphs={story.bottomLine.paragraphs} />
               <div className="mt-5 grid gap-3 md:grid-cols-[1.1fr_0.9fr]">
                 <LazyScorecardChart

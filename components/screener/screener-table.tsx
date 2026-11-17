@@ -1,5 +1,5 @@
 import { StockLogoStatic } from "@/components/stock-logo-static";
-import { formatPercent } from "@/lib/format";
+import { formatOrdinal, formatPercent } from "@/lib/format";
 import {
   buildScreenerUrl,
   formatColumnValue,
@@ -312,7 +312,7 @@ export function ScreenerTable({
                       return (
                         <td key={parameter.key} className="px-1.5 py-2.5 text-right" title={parameter.description}>
                           <span className="tabular block text-[11px] text-ink">{formatParameterValue(result.value, parameter.unit)}</span>
-                          <span className={`tabular block text-[9px] ${scoreClass(result.score)}`}>{result.score == null ? "—" : `${result.score}th`}</span>
+                          <span className={`tabular block text-[9px] ${scoreClass(result.score)}`}>{result.score == null ? "—" : formatOrdinal(result.score)}</span>
                         </td>
                       );
                     })}
@@ -411,7 +411,7 @@ export function ScreenerTable({
                         <span className="text-muted" title={parameter.description}>{parameter.label}</span>
                         <span className="tabular text-right text-ink">
                           {formatParameterValue(result.value, parameter.unit)}
-                          <span className={`ml-1.5 text-[9px] ${scoreClass(result.score)}`}>{result.score == null ? "—" : `${result.score}th`}</span>
+                          <span className={`ml-1.5 text-[9px] ${scoreClass(result.score)}`}>{result.score == null ? "—" : formatOrdinal(result.score)}</span>
                         </span>
                       </div>
                     );

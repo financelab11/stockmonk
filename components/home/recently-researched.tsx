@@ -61,7 +61,10 @@ export function RecentlyResearched({ bundles }: { bundles: ResearchBundle[] }) {
               </div>
               <div className="mt-1 flex items-end justify-between">
                 <span className="tabular text-[9.5px] text-muted">
-                  {formatCompactCurrency(bundle.data.latestPrice.marketCap)}
+                  {formatCompactCurrency(
+                    bundle.data.latestPrice.marketCap,
+                    bundle.data.quoteCurrency ?? bundle.data.currency ?? "USD",
+                  )}
                 </span>
                 <Sparkline points={bundle.prices} width={62} height={22} />
               </div>

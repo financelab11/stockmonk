@@ -45,6 +45,7 @@
     "stories:materialize": "tsx scripts/materialize-stories.ts",
     "stories:index": "tsx scripts/build-stories-index.ts",
     "build:data": "tsx scripts/build-public-data.ts",
+    "chips:rebuild": "tsx scripts/recompute-us-factor-chips.ts",
     "build:screener": "tsx scripts/build-screener-data.ts",
     "assets": "node scripts/generate-brand-assets.cjs",
     "refresh": "pnpm ingest:edgar && pnpm ingest:simfin && pnpm ingest:fallback && pnpm backfill:filings && pnpm ingest:consensus && pnpm ingest:segments && pnpm ingest:benchmark && pnpm build:data && pnpm build:screener"

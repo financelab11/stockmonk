@@ -69,7 +69,7 @@ export function SiteFooter() {
             © {new Date().getFullYear()} {SITE.legalName}. Built for education.
           </p>
           <p>
-            Market data as of {asOf ? formatDate(asOf) : "the latest ingestion"} ·{" "}
+            Market prices as of {asOf ? formatDate(asOf) : "the latest ingestion"} ·{" "}
             <a href="/data-sources" className="text-white underline underline-offset-2 hover:text-white/80" style={{ color: "#ffffff" }}>
               Sources &amp; methodology
             </a>

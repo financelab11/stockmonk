@@ -93,7 +93,7 @@ export const ARTICLE_SECTIONS = [
   { id: "valuation", number: "07", title: "Valuation" },
   { id: "analysts", number: "08", title: "What analysts expect" },
   { id: "risks", number: "09", title: "Risks and what to watch" },
-  { id: "bottom-line", number: "10", title: "The bottom line for learners" },
+  { id: "bottom-line", number: "10", title: "Key takeaways and what to monitor" },
 ] as const;
 
 export type ArticleSectionId = (typeof ARTICLE_SECTIONS)[number]["id"];

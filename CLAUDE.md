@@ -74,6 +74,25 @@ pnpm build:growth-ranker # rebuild the 385-name forward-estimate snapshot
   upload or run UI.
 - `/api/tools/growth-ranker/export` — CSV of all forward estimates.
 
+## Copy and number conventions
+
+- Position the product as independent equity research. Lead with understanding
+  the business, never with stock picks.
+- Percentile labels always go through `formatOrdinal` (`72nd`, `51st`, `93rd`);
+  never concatenate `th`. Ordinals are baked into `factorChips` detail strings,
+  so after changing chip copy run `pnpm chips:rebuild && pnpm build:data &&
+  pnpm build:india && pnpm build:gcc && pnpm build:screener`.
+- INR figures render in crore (`₹7,822 Cr`) through `formatCompactCurrency`;
+  USD stays `$4.5B`/`$303B`. Never hard-code `₹…B`/`₹…T`.
+- A segment chart is only a "revenue mix" when more than one segment is
+  disclosed. A single consolidated line renders as "Reported revenue" with a
+  note that no split is disclosed.
+- Show the price date next to "Last close"; some India series are weekly, so the
+  date can land on a weekend. The footer says "Market prices as of" and refers
+  to market data only, not filing periods.
+- Report section 10 is "Key takeaways and what to monitor" (not "the bottom
+  line for learners").
+
 ## Product rules (non-negotiable)
 
 1. No buy, sell or hold ratings. No Stockmonk price targets.

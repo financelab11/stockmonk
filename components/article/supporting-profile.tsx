@@ -31,6 +31,8 @@ export function SupportingProfile({
   researchInSector: ResearchBundle[];
 }) {
   const group = getSectorGroup(data.ticker);
+  const currency = data.currency ?? "USD";
+  const quoteCurrency = data.quoteCurrency ?? currency;
   const quarters = data.quarterly.filter((row) => !row.ttm).slice(-6);
   const annual = data.annual.filter((row) => !row.ttm).slice(-5);
   const position =
@@ -77,9 +79,9 @@ export function SupportingProfile({
           </div>
 
           <div className="mt-6 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
-            <StatTile label="Last close" value={formatCurrency(data.latestPrice.close)} hint={<PriceChange value={data.latestPrice.changePct} />} />
-            <StatTile label="Market cap" value={formatCompactCurrency(data.latestPrice.marketCap)} />
-            <StatTile label="Revenue TTM" value={formatCompactCurrency(data.metrics.revenueTtm)} hint={`${formatPercent(data.metrics.revenueGrowthTtm)} YoY`} />
+            <StatTile label="Last close" value={formatCurrency(data.latestPrice.close, 2, quoteCurrency)} hint={<PriceChange value={data.latestPrice.changePct} />} />
+            <StatTile label="Market cap" value={formatCompactCurrency(data.latestPrice.marketCap, quoteCurrency)} />
+            <StatTile label="Revenue TTM" value={formatCompactCurrency(data.metrics.revenueTtm, currency)} hint={`${formatPercent(data.metrics.revenueGrowthTtm)} YoY`} />
             <StatTile label="Operating margin" value={formatPercent(data.metrics.operatingMargin)} />
             <StatTile label="P/E (TTM)" value={formatMultiple(data.metrics.pe)} />
             <StatTile label="1Y return" value={formatSignedPercent(data.metrics.return1y)} tone={data.metrics.return1y != null && data.metrics.return1y >= 0 ? "positive" : "caution"} />
@@ -110,7 +112,7 @@ export function SupportingProfile({
                 ["Sector", data.sector],
                 ["Industry", data.industry],
                 ["Employees", data.employees ? data.employees.toLocaleString("en-US") : "n/a"],
-                ["Market cap", formatCompactCurrency(data.latestPrice.marketCap)],
+                ["Market cap", formatCompactCurrency(data.latestPrice.marketCap, quoteCurrency)],
                 ["Dividend yield", data.latestPrice.dividendYield != null ? formatPercent(data.latestPrice.dividendYield) : "n/a"],
                 ["Data as of", formatDate(data.latestPrice.asOf)],
               ].map(([label, value]) => (
@@ -152,7 +154,7 @@ export function SupportingProfile({
                 {quarters.map((row) => (
                   <tr key={`${row.period}-${row.fyear}`}>
                     <td className="font-medium text-ink">{formatFiscalQuarter(row.period, row.fyear)}</td>
-                    <td className="text-right">{formatCompactCurrency(row.revenue)}</td>
+                    <td className="text-right">{formatCompactCurrency(row.revenue, currency)}</td>
                     <td className="text-right">{formatPercent(row.operatingMargin)}</td>
                     <td className="text-right">{formatPercent(row.netMargin)}</td>
                     <td className="text-right">{row.epsDiluted != null ? formatCurrency(row.epsDiluted) : "n/a"}</td>
@@ -182,9 +184,9 @@ export function SupportingProfile({
                   <tr key={row.fyear}>
                     <td className="font-medium text-ink">FY{row.fyear}</td>
                     <td>{formatDate(row.reportDate)}</td>
-                    <td className="text-right">{formatCompactCurrency(row.revenue)}</td>
+                    <td className="text-right">{formatCompactCurrency(row.revenue, currency)}</td>
                     <td className="text-right">{formatPercent(row.operatingMargin)}</td>
-                    <td className="text-right">{formatCompactCurrency(row.freeCashFlow)}</td>
+                    <td className="text-right">{formatCompactCurrency(row.freeCashFlow, currency)}</td>
                     <td className="text-right">{row.epsDiluted != null ? formatCurrency(row.epsDiluted) : "n/a"}</td>
                   </tr>
                 ))}

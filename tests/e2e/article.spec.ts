@@ -16,7 +16,7 @@ test.describe("research article", () => {
       "Valuation",
       "What analysts expect",
       "Risks and what to watch",
-      "The bottom line for learners",
+      "Key takeaways and what to monitor",
     ]) {
       await expect(page.getByRole("heading", { name: title, exact: true })).toBeAttached();
     }
@@ -47,7 +47,7 @@ test.describe("research article", () => {
       "Valuation",
       "What analysts expect",
       "Risks and what to watch",
-      "The bottom line for learners",
+      "Key takeaways and what to monitor",
     ]) {
       await expect(
         page.getByRole("heading", { name: title, exact: true, level: 2 }),
@@ -76,7 +76,7 @@ test.describe("research article", () => {
       "Valuation",
       "What analysts expect",
       "Risks and what to watch",
-      "The bottom line for learners",
+      "Key takeaways and what to monitor",
     ]) {
       await expect(
         page.getByRole("heading", { name: title, exact: true, level: 2 }),

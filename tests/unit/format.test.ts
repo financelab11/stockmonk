@@ -4,6 +4,7 @@ import {
   formatCurrency,
   formatDate,
   formatMultiple,
+  formatOrdinal,
   formatPercent,
   formatSignedPercent,
 } from "@/lib/format";
@@ -34,5 +35,26 @@ describe("format helpers", () => {
   it("formats dates without timezone drift", () => {
     expect(formatDate("2026-11-06")).toBe("Nov 6, 2026");
     expect(formatDate(null)).toBe("n/a");
+  });
+
+  it("formats percentile ordinals", () => {
+    expect(formatOrdinal(1)).toBe("1st");
+    expect(formatOrdinal(2)).toBe("2nd");
+    expect(formatOrdinal(3)).toBe("3rd");
+    expect(formatOrdinal(11)).toBe("11th");
+    expect(formatOrdinal(12)).toBe("12th");
+    expect(formatOrdinal(13)).toBe("13th");
+    expect(formatOrdinal(21)).toBe("21st");
+    expect(formatOrdinal(43)).toBe("43rd");
+    expect(formatOrdinal(51)).toBe("51st");
+    expect(formatOrdinal(62)).toBe("62nd");
+    expect(formatOrdinal(72)).toBe("72nd");
+    expect(formatOrdinal(82)).toBe("82nd");
+    expect(formatOrdinal(93)).toBe("93rd");
+    expect(formatOrdinal(100)).toBe("100th");
+    expect(formatOrdinal(101)).toBe("101st");
+    expect(formatOrdinal(111)).toBe("111th");
+    expect(formatOrdinal(72.4)).toBe("72nd");
+    expect(formatOrdinal(null)).toBe("n/a");
   });
 });

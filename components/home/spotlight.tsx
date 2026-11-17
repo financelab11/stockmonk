@@ -38,7 +38,10 @@ Stock spotlight
             <div className="rounded-lg bg-paper-deep p-2.5">
               <p className="stat-label">Revenue TTM</p>
               <p className="tabular mt-1 text-[13px] font-semibold text-ink">
-                {formatCompactCurrency(data.metrics.revenueTtm)}
+                {formatCompactCurrency(
+                  data.metrics.revenueTtm,
+                  data.currency ?? "USD",
+                )}
               </p>
             </div>
             <div className="rounded-lg bg-paper-deep p-2.5">

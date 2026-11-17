@@ -1,4 +1,5 @@
 import type { FactorChip, FinancialRow, PricePoint } from "./schemas";
+import { formatOrdinal } from "./format";
 
 export const DEFAULT_TAX_RATE = 0.21;
 
@@ -334,19 +335,19 @@ export function buildFactorChips(
       key: "growth",
       label: `Growth: ${tier(growth, "Strong", "Moderate", "Slow")}`,
       tone: toneFor(growth),
-      detail: growth === null ? "Not enough comparable data." : `${Math.round(growth * 100)}th percentile revenue/EPS growth in the covered universe.`,
+      detail: growth === null ? "Not enough comparable data." : `${formatOrdinal(growth * 100)} percentile revenue/EPS growth in the covered universe.`,
     });
     chips.push({
       key: "profitability",
       label: `Profitability: ${tier(profit, "High", "Average", "Low")}`,
       tone: toneFor(profit),
-      detail: profit === null ? "Not enough comparable data." : `${Math.round(profit * 100)}th percentile profitability metrics in the covered universe.`,
+      detail: profit === null ? "Not enough comparable data." : `${formatOrdinal(profit * 100)} percentile profitability metrics in the covered universe.`,
     });
     chips.push({
       key: "cash",
       label: `Cash generation: ${tier(cash, "High", "Average", "Low")}`,
       tone: toneFor(cash),
-      detail: cash === null ? "Not enough comparable data." : `${Math.round(cash * 100)}th percentile free-cash-flow margin.`,
+      detail: cash === null ? "Not enough comparable data." : `${formatOrdinal(cash * 100)} percentile free-cash-flow margin.`,
     });
 
     const nd = item.metrics.netDebt;
@@ -387,7 +388,7 @@ export function buildFactorChips(
       detail:
         valuation === null
           ? "Valuation multiple unavailable."
-          : `${Math.round(valuation * 100)}th percentile cheapness on EV/EBITDA within the covered universe.`,
+          : `${formatOrdinal(valuation * 100)} percentile cheapness on EV/EBITDA within the covered universe.`,
     });
 
     out[item.ticker] = chips;

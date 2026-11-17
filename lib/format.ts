@@ -16,6 +16,9 @@ const integer = new Intl.NumberFormat("en-US", {
   maximumFractionDigits: 0,
 });
 
+const croreWhole = new Intl.NumberFormat("en-IN", { maximumFractionDigits: 0 });
+const croreDecimal = new Intl.NumberFormat("en-IN", { maximumFractionDigits: 1 });
+
 export function formatCompactCurrency(
   value: number | null | undefined,
   currency = "USD",
@@ -24,10 +27,12 @@ export function formatCompactCurrency(
   const sign = value < 0 ? "-" : "";
   const abs = Math.abs(value);
   if (currency === "INR") {
-    if (abs >= 1_000_000_000_000) return `${sign}₹${compactTwo.format(abs / 1_000_000_000_000)}T`;
-    if (abs >= 1_000_000_000) return `${sign}₹${compact.format(abs / 1_000_000_000)}B`;
-    if (abs >= 10_000_000) return `${sign}₹${compact.format(abs / 10_000_000)} Cr`;
-    if (abs >= 100_000) return `${sign}₹${compact.format(abs / 100_000)} L`;
+    // Indian readers expect crore, not billions: ₹7,822 Cr rather than ₹78.2B.
+    const crore = abs / 10_000_000;
+    if (crore >= 100) return `${sign}₹${croreWhole.format(crore)} Cr`;
+    if (crore >= 1) return `${sign}₹${croreDecimal.format(crore)} Cr`;
+    const lakh = abs / 100_000;
+    if (lakh >= 1) return `${sign}₹${croreDecimal.format(lakh)} L`;
     if (abs >= 1_000) return `${sign}₹${compact.format(abs / 1_000)}K`;
     return `${sign}₹${decimal.format(abs)}`;
   }
@@ -83,6 +88,24 @@ export function formatSignedPercent(
 export function formatMultiple(value: number | null | undefined, suffix = "x"): string {
   if (value == null || !Number.isFinite(value)) return "n/a";
   return `${value.toFixed(1)}${suffix}`;
+}
+
+/** 72 -> "72nd", 51 -> "51st", 93 -> "93rd", 11 -> "11th". */
+export function formatOrdinal(value: number | null | undefined): string {
+  if (value == null || !Number.isFinite(value)) return "n/a";
+  const rounded = Math.round(value);
+  const mod100 = Math.abs(rounded) % 100;
+  if (mod100 >= 11 && mod100 <= 13) return `${rounded}th`;
+  switch (Math.abs(rounded) % 10) {
+    case 1:
+      return `${rounded}st`;
+    case 2:
+      return `${rounded}nd`;
+    case 3:
+      return `${rounded}rd`;
+    default:
+      return `${rounded}th`;
+  }
 }
 
 export function formatDate(value: string | null | undefined): string {

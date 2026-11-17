@@ -138,13 +138,17 @@ Client helpers:
 
 - Local repository is committed on `master`; see `git log -1` for the latest
   commit. No `origin` remote is configured yet.
-- Supabase schema is written but not applied: the publishable key cannot run
-  DDL. Apply `supabase/migrations/202611170001_initial_schema.sql` in the
-  Supabase SQL editor or provide a database password/access token.
-- `SUPABASE_SERVICE_ROLE_KEY` is required to run `pnpm sync:supabase`.
+- Supabase schema is applied to project `fqzfmvnmmiisvtgnsyqa` (Tokyo pooler,
+  `aws-0-ap-northeast-1.pooler.supabase.com:6543`).
+- Data is loaded through the direct Postgres fallback: 852 companies, 290,637
+  prices, 14,839 statements, 1,636 consensus estimates, 385 forward estimates
+  and 852 snapshots. `pnpm sync:supabase:direct` refreshes it with
+  `SUPABASE_DB_PASSWORD`.
+- GitHub CLI is not installed, no Git credential is configured and the supplied
+  token cannot create repositories (Administration permission is missing). A
+  repository must be created or the token scope extended before push.
 - Vercel CLI is installed but the stored token is invalid. Sign in with
   `vercel login` (team `financelabin-5299`) or provide a token before linking.
-- GitHub CLI is not installed and no Git credential is configured.
 
 ## Change protocol
 

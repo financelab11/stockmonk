@@ -31,12 +31,23 @@ A database password or a Supabase access token is required for the CLI path.
 ## Push the current datasets
 
 ```bash
+# REST path (service-role key)
 pnpm sync:supabase
+
+# Direct Postgres fallback (database password; Tokyo pooler)
+pnpm sync:supabase:direct
 ```
+
+The direct path uses `aws-0-ap-northeast-1.pooler.supabase.com:6543` with user
+`postgres.fqzfmvnmmiisvtgnsyqa`. Override with `SUPABASE_DB_HOST`,
+`SUPABASE_DB_PORT` and `SUPABASE_DB_USER` if the project moves.
 
 This upserts companies, prices, financial periods, metrics, segments, consensus,
 targets and forward estimates, then calls `refresh_company_snapshots()` and
 `refresh_data_freshness()`. It records an `ingestion_runs` row.
+
+Current load: 852 companies, 290,637 daily prices, 14,839 statements, 1,636
+consensus estimates, 385 forward estimates and 852 snapshots.
 
 ## Realtime, RLS and daily jobs
 

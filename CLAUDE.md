@@ -136,8 +136,8 @@ Client helpers:
 
 ## Current deployment state
 
-- Local repository is committed on `master` (latest commit at the time of
-  writing: `c26f91b`). No `origin` remote is configured yet.
+- Local repository is committed on `master`; see `git log -1` for the latest
+  commit. No `origin` remote is configured yet.
 - Supabase schema is written but not applied: the publishable key cannot run
   DDL. Apply `supabase/migrations/202611170001_initial_schema.sql` in the
   Supabase SQL editor or provide a database password/access token.

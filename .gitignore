@@ -57,4 +57,3 @@ next-env.d.ts
 # Forward growth ranker raw ingestion
 /data/growth-ranker/raw/
 /data/growth-ranker/refinitiv-top.json
-.vercel

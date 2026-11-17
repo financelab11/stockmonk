@@ -149,11 +149,14 @@ Client helpers:
   and `NEXT_PUBLIC_SITE_URL` are configured for production, preview and
   development. The deployment was made from the CLI; GitHub auto-deploy still
   needs the repository link.
-- GitHub repo creation is blocked by token permissions. The supplied token
-  authenticates as `financelab11` but returns 403 for repository creation
-  (Administration write missing). Create an empty `financelab11/stockmonk`
-  repository or supply a token with repository-creation rights, then add
-  `origin` and push.
+- GitHub repository `financelab11/stockmonk` now exists and `origin` is
+  configured. The supplied token can read but not push (403: Contents write
+  missing), so the initial push and GitHub auto-deploy are pending a token with
+  `Contents: Read and write` plus `Workflows: Read and write` (or classic
+  `repo` + `workflow` scopes).
+- Vercel account is not linked to GitHub (Login Connection missing), so
+  `vercel git connect` fails until the GitHub login connection is added in the
+  Vercel dashboard.
 
 ## Change protocol
 

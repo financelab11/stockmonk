@@ -1,0 +1,10 @@
+Refinitiv/
+data/growth-ranker/raw/
+data/growth-ranker/refinitiv-top.json
+data/raw/
+data/india/raw/
+data/gcc/raw/
+.next/
+test-results/
+.lighthouseci/
+node_modules/

@@ -47,6 +47,12 @@ jobs:
           pnpm ingest:gcc
           pnpm build:gcc
 
+      - name: Sync Supabase
+        run: pnpm sync:supabase
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+
       - name: Commit refreshed screener
         run: |
           git config user.name "stockmonk-data-bot"

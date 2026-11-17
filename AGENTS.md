@@ -34,3 +34,8 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
   pnpm e2e && pnpm lhci` before shipping. Generated artifacts (`data/`,
   `.next/`, `.lighthouseci/`, screenshots) are not edited by hand.
 
+
+## Full project context
+
+See `CLAUDE.md` for architecture, routes, data flow, Supabase schema, deployment
+and the change/commit protocol. Read it before making structural changes.

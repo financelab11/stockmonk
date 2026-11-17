@@ -72,10 +72,69 @@ Lighthouse difference.
 | `/gcc` | GCC Stocks: featured research, data-quality screens and the GCC universe |
 | `/gcc/all-stocks` | Full GCC directory grouped by market and sector |
 | `/gcc/stocks/[ticker]` | Ten-section GCC research reports (published in batches) |
+| `/tools/growth-ranker` | 385-name forward revenue ranking with valuation, quality and composite scores |
+| `/tools/growth-ranker/[ticker]` | Forward estimate note with projections, consensus, valuation, quality and evidence |
 | `/watchlist` | Local-first watchlist backed by `localStorage` |
 | `/about`, `/privacy`, `/terms`, `/editorial-guidelines`, `/data-sources` | Editorial and legal pages |
 | `/offline` | Serwist offline fallback |
 | `/rss.xml`, `/sitemap.xml`, `/robots.txt`, `/manifest.webmanifest` | Feeds and PWA/SEO endpoints |
+
+## Project context
+
+`CLAUDE.md` is the single-page project brief for coding agents: architecture,
+routes, data flow, Supabase schema, conventions and the change protocol. Read it
+before starting a task and update it in the same commit when structure changes.
+`AGENTS.md` contains the Next.js-specific working rules.
+
+## Database (Supabase)
+
+Supabase is the shared database, auth and realtime layer. The app continues to
+run from committed JSON files; the database mirrors them for API access,
+realtime and user data.
+
+```bash
+# Apply the schema (Supabase CLI, or run the SQL in the dashboard)
+supabase db push
+
+# Push file datasets to Supabase (server-only service role)
+pnpm sync:supabase
+```
+
+Schema and daily jobs: `supabase/migrations/202611170001_initial_schema.sql`.
+
+Core tables: companies, prices_daily, financial_periods, financial_metrics,
+segments, consensus_estimates, consensus_targets, forward_estimates, stories,
+news_items, profiles, watchlists, watchlist_items, company_snapshots,
+ingestion_runs and data_freshness.
+
+- Public read access is enabled for market/research tables.
+- Watchlists are owner-only via RLS.
+- Realtime is enabled for snapshots, forward estimates, news, freshness,
+  consensus targets and watchlists.
+- `pg_cron` refreshes `company_snapshots` and `data_freshness` daily.
+
+Environment:
+
+```bash
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=
+SUPABASE_SERVICE_ROLE_KEY=   # server-only: sync and admin scripts
+```
+
+Client helpers live in `utils/supabase/`; the service-role helper is
+`lib/supabase/admin.ts`. Never expose the service-role key to the browser.
+
+## Deployment
+
+The production target is Vercel, connected to the GitHub repository under the
+`financelabin-5299` team. Build with `pnpm build`; static and dynamic routes use
+the same Next.js output. Required environment variables are the Supabase values
+above plus `NEXT_PUBLIC_SITE_URL` and `SIMFIN_API_KEY` for refresh jobs.
+
+The daily data workflow is `.github/workflows/daily-data-refresh.yml`. It
+refreshes the file datasets, syncs Supabase, and commits updated data. Configure
+`SIMFIN_API_KEY`, `NEXT_PUBLIC_SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` as
+GitHub Actions secrets.
 
 ## Data pipeline
 

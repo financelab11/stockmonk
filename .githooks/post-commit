@@ -1,0 +1,8 @@
+#!/bin/sh
+# Auto-push when a remote exists. Authentication is handled by the developer's
+# Git credential helper (or GitHub Actions' GITHUB_TOKEN in CI).
+if git remote get-url origin >/dev/null 2>&1; then
+  git push origin HEAD || echo "auto-push skipped: push failed"
+else
+  echo "auto-push skipped: no origin remote configured"
+fi

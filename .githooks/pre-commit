@@ -1,0 +1,8 @@
+#!/bin/sh
+# Keep the project context snapshot in sync with the tree.
+if command -v cmd.exe >/dev/null 2>&1; then
+  cmd.exe /c "pnpm context:update" || exit 1
+else
+  pnpm context:update || exit 1
+fi
+git add CLAUDE.md

@@ -63,11 +63,17 @@ The direct path uses `aws-0-ap-northeast-1.pooler.supabase.com:6543` with user
 `postgres.fqzfmvnmmiisvtgnsyqa`. Override with `SUPABASE_DB_HOST`,
 `SUPABASE_DB_PORT` and `SUPABASE_DB_USER` if the project moves.
 
+Both paths dedupe rows on the conflict key, retry transient network failures,
+and add forward-only Indian tickers so the `companies` table always holds the
+852-name universe. Set `SKIP_PRICES=1` for a fast run that leaves
+`prices_daily` untouched (the REST path re-upserts ~290k price rows otherwise,
+which takes tens of minutes).
+
 This upserts companies, prices, financial periods, metrics, segments, consensus,
 targets and forward estimates, then calls `refresh_company_snapshots()` and
 `refresh_data_freshness()`. It records an `ingestion_runs` row.
 
-Current load: 852 companies, 290,637 daily prices, 14,839 statements, 1,636
+Current load: 852 companies, 290,637 daily prices, 14,839 statements, 1,716
 consensus estimates, 385 forward estimates and 852 snapshots.
 
 ## Realtime, RLS and daily jobs

@@ -144,9 +144,17 @@ Client helpers:
 - Supabase schema is applied to project `fqzfmvnmmiisvtgnsyqa` (Tokyo pooler,
   `aws-0-ap-northeast-1.pooler.supabase.com:6543`).
 - Data is loaded through the direct Postgres fallback: 852 companies, 290,637
-  prices, 14,839 statements, 1,676 consensus estimates, 385 forward estimates
+  prices, 14,839 statements, 1,716 consensus estimates, 385 forward estimates
   and 852 snapshots. `pnpm sync:supabase:direct` refreshes it with
-  `SUPABASE_DB_PASSWORD`.
+  `SUPABASE_DB_PASSWORD`; `pnpm sync:supabase` does the same over PostgREST with
+  `SUPABASE_SERVICE_ROLE_KEY`. Both paths are verified.
+- Vercel production env also holds `SUPABASE_SERVICE_ROLE_KEY` (Secret, server
+  only) alongside the three public Supabase values.
+- GitHub Actions secrets are still missing: the repository token cannot write
+  them (`403` on `/actions/secrets`), so `SIMFIN_API_KEY`,
+  `NEXT_PUBLIC_SUPABASE_URL` and `SUPABASE_DB_PASSWORD` must be added by hand in
+  Settings → Secrets and variables → Actions. Until then the scheduled refresh
+  jobs fail at the sync step; `pg_cron` still refreshes snapshots and freshness.
 - Vercel production is deployed from the CLI (`vercel --prod --yes
   --archive=tgz`) and healthy: site returns 200 and `/api/health/db` returns
   200 with live freshness rows.

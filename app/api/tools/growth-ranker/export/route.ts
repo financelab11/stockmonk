@@ -1,7 +1,7 @@
 import { getGrowthRankerDataset } from "@/lib/growth-ranker/dataset";
 import { rankResults, resultsToCsv } from "@/lib/growth-ranker/rank";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 
 export async function GET() {
   const dataset = getGrowthRankerDataset();

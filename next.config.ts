@@ -23,6 +23,16 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     "/*": ["./data/**/*.json", "./public/data/**/*.json"],
   },
+  outputFileTracingExcludes: {
+    "/*": [
+      "./data/growth-ranker/raw/**",
+      "./data/raw/**",
+      "./data/india/raw/**",
+      "./data/gcc/raw/**",
+      "./Refinitiv/**",
+      "./test-results/**",
+    ],
+  },
   async headers() {
     return [
       {

@@ -9,13 +9,13 @@ import { Client } from "pg";
 loadEnv({ path: ".env.local" });
 loadEnv();
 
-const password = process.env.SUPABASE_DB_PASSWORD;
-const connectionString = process.env.SUPABASE_DB_URL;
+const password = process.env.SUPABASE_DB_PASSWORD || undefined;
+const connectionString = process.env.SUPABASE_DB_URL || undefined;
 const host =
-  process.env.SUPABASE_DB_HOST ?? "aws-0-ap-northeast-1.pooler.supabase.com";
-const port = Number(process.env.SUPABASE_DB_PORT ?? 6543);
+  process.env.SUPABASE_DB_HOST || "aws-0-ap-northeast-1.pooler.supabase.com";
+const port = Number(process.env.SUPABASE_DB_PORT || 6543);
 const user =
-  process.env.SUPABASE_DB_USER ?? "postgres.fqzfmvnmmiisvtgnsyqa";
+  process.env.SUPABASE_DB_USER || "postgres.fqzfmvnmmiisvtgnsyqa";
 
 async function main() {
   const client = connectionString

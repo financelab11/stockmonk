@@ -132,10 +132,10 @@ async function upsert(
 async function main() {
   const client = new Client({
     host:
-      process.env.SUPABASE_DB_HOST ??
+      process.env.SUPABASE_DB_HOST ||
       "aws-0-ap-northeast-1.pooler.supabase.com",
-    port: Number(process.env.SUPABASE_DB_PORT ?? 6543),
-    user: process.env.SUPABASE_DB_USER ?? "postgres.fqzfmvnmmiisvtgnsyqa",
+    port: Number(process.env.SUPABASE_DB_PORT || 6543),
+    user: process.env.SUPABASE_DB_USER || "postgres.fqzfmvnmmiisvtgnsyqa",
     password: process.env.SUPABASE_DB_PASSWORD,
     database: "postgres",
     ssl: { rejectUnauthorized: false },

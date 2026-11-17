@@ -28,6 +28,27 @@ A database password or a Supabase access token is required for the CLI path.
 - `SUPABASE_SERVICE_ROLE_KEY` — server-only; used by `pnpm sync:supabase` and
   GitHub Actions. Never expose it to the browser.
 
+## GitHub Actions secrets
+
+Add these in **GitHub → repository → Settings → Secrets and variables →
+Actions → New repository secret**. Values live in `.env.local` locally (never
+committed) or in the Supabase dashboard under **Project Settings → API** /
+**Database**.
+
+Required for the daily refresh and database sync:
+
+| Secret | Where to get it |
+| --- | --- |
+| `SIMFIN_API_KEY` | SimFin account → API key (`.env.local`) |
+| `NEXT_PUBLIC_SUPABASE_URL` | Supabase → Project Settings → API → Project URL |
+| `SUPABASE_DB_PASSWORD` | Supabase → Project Settings → Database (`.env.local`) |
+
+Optional overrides: `SUPABASE_SERVICE_ROLE_KEY` (enables the REST sync path
+instead of direct Postgres), `SUPABASE_DB_HOST`, `SUPABASE_DB_USER`. When they
+are absent or empty the scripts fall back to the Tokyo pooler
+(`aws-0-ap-northeast-1.pooler.supabase.com:6543`, user
+`postgres.fqzfmvnmmiisvtgnsyqa`).
+
 ## Push the current datasets
 
 ```bash

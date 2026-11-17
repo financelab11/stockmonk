@@ -5,7 +5,7 @@
 -- Idempotent: safe to run against a fresh Supabase project or an existing one.
 
 create extension if not exists pgcrypto;
-create extension if not exists pg_cron with schema extensions;
+create extension if not exists pg_cron;
 
 -- ---------------------------------------------------------------------------
 -- Core reference data
@@ -628,6 +628,21 @@ create policy "watchlist items are owner only" on public.watchlist_items
       where w.id = watchlist_id and w.user_id = auth.uid()
     )
   );
+
+-- ---------------------------------------------------------------------------
+-- API grants (RLS still applies)
+-- ---------------------------------------------------------------------------
+
+grant usage on schema public to anon, authenticated, service_role;
+grant select on all tables in schema public to anon, authenticated;
+grant all privileges on all tables in schema public to service_role;
+grant usage, select on all sequences in schema public to anon, authenticated, service_role;
+grant select on public.forward_growth_ranking to anon, authenticated;
+
+revoke execute on function public.refresh_company_snapshots() from public, anon, authenticated;
+revoke execute on function public.refresh_data_freshness() from public, anon, authenticated;
+grant execute on function public.refresh_company_snapshots() to service_role;
+grant execute on function public.refresh_data_freshness() to service_role;
 
 -- ---------------------------------------------------------------------------
 -- Realtime

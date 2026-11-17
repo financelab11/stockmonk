@@ -2,10 +2,13 @@
  * Direct Postgres sync used when only the database password is available.
  * Prefer `pnpm sync:supabase` (REST + service role) for CI.
  */
+import { config as loadEnv } from "dotenv";
 import fs from "node:fs";
 import path from "node:path";
 import { Client } from "pg";
 import { getGccEntry } from "../config/gcc-coverage";
+loadEnv({ path: ".env.local" });
+loadEnv();
 
 type Json = Record<string, unknown>;
 type UniverseEntry = {

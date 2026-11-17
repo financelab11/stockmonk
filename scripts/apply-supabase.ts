@@ -2,9 +2,12 @@
  * Applies Supabase SQL migrations through a direct Postgres connection.
  * Requires SUPABASE_DB_PASSWORD or SUPABASE_DB_URL.
  */
+import { config as loadEnv } from "dotenv";
 import fs from "node:fs";
 import path from "node:path";
 import { Client } from "pg";
+loadEnv({ path: ".env.local" });
+loadEnv();
 
 const password = process.env.SUPABASE_DB_PASSWORD;
 const connectionString = process.env.SUPABASE_DB_URL;

@@ -126,8 +126,8 @@ Client helpers:
 
 ## Deployment
 
-- GitHub: `financelab11/stockmonk`, remote `origin`, working branch `main`
-  (the repository default is still `master`; switch it in repo settings).
+- GitHub: `financelab11/stockmonk`, remote `origin`, single branch `main`
+  (repository default).
 - Vercel: project `stockmonk` under team `financelabin-5299`, production domain
   **https://stockmonk.vercel.app**.
 - Build `pnpm build`, install `pnpm install`, Node 24.x, framework preset
@@ -150,11 +150,11 @@ Client helpers:
   `SUPABASE_SERVICE_ROLE_KEY`. Both paths are verified.
 - Vercel production env also holds `SUPABASE_SERVICE_ROLE_KEY` (Secret, server
   only) alongside the three public Supabase values.
-- GitHub Actions secrets are still missing: the repository token cannot write
-  them (`403` on `/actions/secrets`), so `SIMFIN_API_KEY`,
-  `NEXT_PUBLIC_SUPABASE_URL` and `SUPABASE_DB_PASSWORD` must be added by hand in
-  Settings → Secrets and variables → Actions. Until then the scheduled refresh
-  jobs fail at the sync step; `pg_cron` still refreshes snapshots and freshness.
+- GitHub Actions secrets are configured by hand in the repository
+  (`SIMFIN_API_KEY`, `NEXT_PUBLIC_SUPABASE_URL`, `SUPABASE_DB_PASSWORD`, plus
+  `SUPABASE_SERVICE_ROLE_KEY`). The repository token cannot read or write them
+  (`403` on `/actions/secrets`), so the token cannot trigger or inspect runs
+  either; verify the daily refresh from the Actions tab.
 - Vercel production is deployed from the CLI (`vercel --prod --yes
   --archive=tgz`) and healthy: site returns 200 and `/api/health/db` returns
   200 with live freshness rows.

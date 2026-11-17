@@ -865,7 +865,7 @@
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "72th percentile operating margin and ROIC."
+      "detail": "72nd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",

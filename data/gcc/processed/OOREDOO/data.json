@@ -1130,13 +1130,13 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "51th percentile profitability metrics in the covered universe."
+      "detail": "51st percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: High",
       "tone": "positive",
-      "detail": "72th percentile free-cash-flow margin."
+      "detail": "72nd percentile free-cash-flow margin."
     },
     {
       "key": "balance",

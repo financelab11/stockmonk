@@ -1500,7 +1500,7 @@
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "71th percentile operating margin and ROIC."
+      "detail": "71st percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1518,7 +1518,7 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "23th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "23rd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [

@@ -865,7 +865,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "36th percentile operating margin and ROIC."
+      "detail": "36th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",

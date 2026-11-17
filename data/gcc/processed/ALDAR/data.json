@@ -1130,13 +1130,13 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "61th percentile profitability metrics in the covered universe."
+      "detail": "61st percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: Average",
       "tone": "neutral",
-      "detail": "51th percentile free-cash-flow margin."
+      "detail": "51st percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1148,7 +1148,7 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "73th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "73rd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [

@@ -1083,13 +1083,13 @@
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "53th percentile revenue/EPS growth in the covered universe."
+      "detail": "53rd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "43th percentile profitability metrics in the covered universe."
+      "detail": "43rd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1107,7 +1107,7 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "43th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "43rd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [

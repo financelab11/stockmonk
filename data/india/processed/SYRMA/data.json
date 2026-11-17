@@ -921,13 +921,13 @@
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "81th percentile revenue/EPS growth in the covered universe."
+      "detail": "81st percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "32th percentile operating margin and ROIC."
+      "detail": "32nd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",

@@ -1148,7 +1148,7 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "41th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "41st percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [

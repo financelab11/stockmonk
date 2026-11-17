@@ -927,13 +927,13 @@
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "96th percentile operating margin and ROIC."
+      "detail": "96th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: Low",
       "tone": "caution",
-      "detail": "3th percentile free-cash-flow margin."
+      "detail": "3rd percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -945,7 +945,7 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "32th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "32nd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [

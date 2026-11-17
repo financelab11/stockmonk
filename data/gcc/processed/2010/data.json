@@ -1054,7 +1054,7 @@
       "key": "cash",
       "label": "Cash generation: Average",
       "tone": "neutral",
-      "detail": "53th percentile free-cash-flow margin."
+      "detail": "53rd percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1066,7 +1066,7 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "21th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "21st percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [

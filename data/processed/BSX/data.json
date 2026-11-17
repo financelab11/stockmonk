@@ -1541,13 +1541,13 @@
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "93th percentile operating margin and ROIC."
+      "detail": "93rd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: Average",
       "tone": "neutral",
-      "detail": "53th percentile free-cash-flow margin."
+      "detail": "53rd percentile free-cash-flow margin."
     },
     {
       "key": "balance",

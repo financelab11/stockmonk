@@ -1136,7 +1136,7 @@
       "key": "cash",
       "label": "Cash generation: Low",
       "tone": "caution",
-      "detail": "31th percentile free-cash-flow margin."
+      "detail": "31st percentile free-cash-flow margin."
     },
     {
       "key": "balance",

@@ -1500,13 +1500,13 @@
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "16th percentile operating margin and ROIC."
+      "detail": "16th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: Average",
       "tone": "neutral",
-      "detail": "63th percentile free-cash-flow margin."
+      "detail": "63rd percentile free-cash-flow margin."
     },
     {
       "key": "balance",

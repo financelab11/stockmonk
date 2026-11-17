@@ -1044,13 +1044,13 @@
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "1th percentile revenue/EPS growth in the covered universe."
+      "detail": "1st percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "4th percentile operating margin and ROIC."
+      "detail": "4th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1068,7 +1068,7 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "3th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "3rd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [

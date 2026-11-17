@@ -1009,7 +1009,7 @@
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "9th percentile operating margin and ROIC."
+      "detail": "9th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",

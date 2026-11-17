@@ -1136,7 +1136,7 @@
       "key": "cash",
       "label": "Cash generation: High",
       "tone": "positive",
-      "detail": "71th percentile free-cash-flow margin."
+      "detail": "71st percentile free-cash-flow margin."
     },
     {
       "key": "balance",

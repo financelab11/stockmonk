@@ -1576,19 +1576,19 @@
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "82th percentile revenue/EPS growth in the covered universe."
+      "detail": "82nd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "81th percentile operating margin and ROIC."
+      "detail": "81st percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: High",
       "tone": "positive",
-      "detail": "93th percentile free-cash-flow margin."
+      "detail": "93rd percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1600,7 +1600,7 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "21th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "21st percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [

@@ -927,7 +927,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "50th percentile operating margin and ROIC."
+      "detail": "50th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",

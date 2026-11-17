@@ -1083,13 +1083,13 @@
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "83th percentile revenue/EPS growth in the covered universe."
+      "detail": "83rd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "31th percentile profitability metrics in the covered universe."
+      "detail": "31st percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",

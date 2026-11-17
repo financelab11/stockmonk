@@ -1124,7 +1124,7 @@
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "23th percentile revenue/EPS growth in the covered universe."
+      "detail": "23rd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",

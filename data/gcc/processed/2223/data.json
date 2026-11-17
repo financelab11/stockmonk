@@ -1130,7 +1130,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "62th percentile profitability metrics in the covered universe."
+      "detail": "62nd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",

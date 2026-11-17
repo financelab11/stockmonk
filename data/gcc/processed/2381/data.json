@@ -1124,7 +1124,7 @@
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "3th percentile revenue/EPS growth in the covered universe."
+      "detail": "3rd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1148,7 +1148,7 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "52th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "52nd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [

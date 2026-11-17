@@ -1126,13 +1126,13 @@
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "63th percentile revenue/EPS growth in the covered universe."
+      "detail": "63rd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "28th percentile operating margin and ROIC."
+      "detail": "28th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",

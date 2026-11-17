@@ -20,13 +20,13 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "71th percentile revenue/EPS growth in the covered universe."
+        "detail": "71st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "34th percentile operating margin and ROIC."
+        "detail": "34th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -76,7 +76,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "99th percentile operating margin and ROIC."
+        "detail": "99th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -120,13 +120,13 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "93th percentile revenue/EPS growth in the covered universe."
+        "detail": "93rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "71th percentile operating margin and ROIC."
+        "detail": "71st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -176,7 +176,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "60th percentile operating margin and ROIC."
+        "detail": "60th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -226,7 +226,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "35th percentile operating margin and ROIC."
+        "detail": "35th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -244,7 +244,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "43th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "43rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -276,13 +276,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "0th percentile operating margin and ROIC."
+        "detail": "0th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "1th percentile free-cash-flow margin."
+        "detail": "1st percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -326,7 +326,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "3th percentile operating margin and ROIC."
+        "detail": "3rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -376,13 +376,13 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "90th percentile operating margin and ROIC."
+        "detail": "90th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "92th percentile free-cash-flow margin."
+        "detail": "92nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -394,7 +394,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "81th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "81st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -420,13 +420,13 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "82th percentile revenue/EPS growth in the covered universe."
+        "detail": "82nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "58th percentile operating margin and ROIC."
+        "detail": "58th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -444,7 +444,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "21th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "21st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -476,7 +476,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "97th percentile operating margin and ROIC."
+        "detail": "97th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -526,7 +526,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "78th percentile operating margin and ROIC."
+        "detail": "78th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -544,7 +544,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "41th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "41st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -570,13 +570,13 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "32th percentile revenue/EPS growth in the covered universe."
+        "detail": "32nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "27th percentile operating margin and ROIC."
+        "detail": "27th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -594,7 +594,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "91th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "91st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -626,7 +626,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "72th percentile operating margin and ROIC."
+        "detail": "72nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -676,7 +676,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "73th percentile operating margin and ROIC."
+        "detail": "73rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -726,13 +726,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "39th percentile operating margin and ROIC."
+        "detail": "39th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "53th percentile free-cash-flow margin."
+        "detail": "53rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -776,7 +776,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "30th percentile operating margin and ROIC."
+        "detail": "30th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -794,7 +794,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "91th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "91st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -826,7 +826,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "21th percentile operating margin and ROIC."
+        "detail": "21st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -870,13 +870,13 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "72th percentile revenue/EPS growth in the covered universe."
+        "detail": "72nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "36th percentile operating margin and ROIC."
+        "detail": "36th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -894,7 +894,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "63th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "63rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -926,7 +926,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "98th percentile operating margin and ROIC."
+        "detail": "98th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -976,13 +976,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "67th percentile operating margin and ROIC."
+        "detail": "67th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "53th percentile free-cash-flow margin."
+        "detail": "53rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -994,7 +994,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "51th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "51st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -1026,7 +1026,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "9th percentile operating margin and ROIC."
+        "detail": "9th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -1076,13 +1076,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "5th percentile operating margin and ROIC."
+        "detail": "5th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "2th percentile free-cash-flow margin."
+        "detail": "2nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -1120,13 +1120,13 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "52th percentile revenue/EPS growth in the covered universe."
+        "detail": "52nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "68th percentile operating margin and ROIC."
+        "detail": "68th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -1176,7 +1176,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "14th percentile operating margin and ROIC."
+        "detail": "14th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -1220,19 +1220,19 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "82th percentile revenue/EPS growth in the covered universe."
+        "detail": "82nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "81th percentile operating margin and ROIC."
+        "detail": "81st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "93th percentile free-cash-flow margin."
+        "detail": "93rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -1244,7 +1244,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "21th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "21st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -1276,13 +1276,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "19th percentile operating margin and ROIC."
+        "detail": "19th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "22th percentile free-cash-flow margin."
+        "detail": "22nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -1326,7 +1326,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "78th percentile operating margin and ROIC."
+        "detail": "78th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -1376,7 +1376,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "31th percentile operating margin and ROIC."
+        "detail": "31st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -1426,7 +1426,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "77th percentile operating margin and ROIC."
+        "detail": "77th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -1476,7 +1476,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "7th percentile operating margin and ROIC."
+        "detail": "7th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -1526,13 +1526,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "40th percentile operating margin and ROIC."
+        "detail": "40th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "42th percentile free-cash-flow margin."
+        "detail": "42nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -1570,13 +1570,13 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "93th percentile revenue/EPS growth in the covered universe."
+        "detail": "93rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "75th percentile operating margin and ROIC."
+        "detail": "75th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -1620,13 +1620,13 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "51th percentile revenue/EPS growth in the covered universe."
+        "detail": "51st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "63th percentile operating margin and ROIC."
+        "detail": "63rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -1676,7 +1676,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "74th percentile operating margin and ROIC."
+        "detail": "74th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -1720,13 +1720,13 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "72th percentile revenue/EPS growth in the covered universe."
+        "detail": "72nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "37th percentile operating margin and ROIC."
+        "detail": "37th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -1744,7 +1744,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "92th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "92nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -1776,13 +1776,13 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "93th percentile operating margin and ROIC."
+        "detail": "93rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "53th percentile free-cash-flow margin."
+        "detail": "53rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -1820,13 +1820,13 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "53th percentile revenue/EPS growth in the covered universe."
+        "detail": "53rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "39th percentile operating margin and ROIC."
+        "detail": "39th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -1844,7 +1844,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "52th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "52nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -1870,13 +1870,13 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "3th percentile revenue/EPS growth in the covered universe."
+        "detail": "3rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "6th percentile operating margin and ROIC."
+        "detail": "6th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -1926,7 +1926,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "66th percentile operating margin and ROIC."
+        "detail": "66th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -1944,7 +1944,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "23th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "23rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -1976,13 +1976,13 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "98th percentile operating margin and ROIC."
+        "detail": "98th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "51th percentile free-cash-flow margin."
+        "detail": "51st percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -2020,13 +2020,13 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "73th percentile revenue/EPS growth in the covered universe."
+        "detail": "73rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "35th percentile operating margin and ROIC."
+        "detail": "35th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -2070,13 +2070,13 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "41th percentile revenue/EPS growth in the covered universe."
+        "detail": "41st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "57th percentile operating margin and ROIC."
+        "detail": "57th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -2094,7 +2094,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "72th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "72nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -2120,13 +2120,13 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "81th percentile revenue/EPS growth in the covered universe."
+        "detail": "81st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "50th percentile operating margin and ROIC."
+        "detail": "50th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -2176,13 +2176,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "60th percentile operating margin and ROIC."
+        "detail": "60th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "81th percentile free-cash-flow margin."
+        "detail": "81st percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -2220,19 +2220,19 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "43th percentile revenue/EPS growth in the covered universe."
+        "detail": "43rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "36th percentile operating margin and ROIC."
+        "detail": "36th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "21th percentile free-cash-flow margin."
+        "detail": "21st percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -2276,7 +2276,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "33th percentile operating margin and ROIC."
+        "detail": "33rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -2326,7 +2326,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "43th percentile operating margin and ROIC."
+        "detail": "43rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -2376,7 +2376,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "65th percentile operating margin and ROIC."
+        "detail": "65th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -2426,13 +2426,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "60th percentile operating margin and ROIC."
+        "detail": "60th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "23th percentile free-cash-flow margin."
+        "detail": "23rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -2444,7 +2444,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "71th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "71st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -2476,7 +2476,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "32th percentile operating margin and ROIC."
+        "detail": "32nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -2494,7 +2494,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "93th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "93rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -2520,13 +2520,13 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "42th percentile revenue/EPS growth in the covered universe."
+        "detail": "42nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "84th percentile operating margin and ROIC."
+        "detail": "84th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -2570,19 +2570,19 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "22th percentile revenue/EPS growth in the covered universe."
+        "detail": "22nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "88th percentile operating margin and ROIC."
+        "detail": "88th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "43th percentile free-cash-flow margin."
+        "detail": "43rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -2626,7 +2626,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "88th percentile operating margin and ROIC."
+        "detail": "88th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -2676,7 +2676,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "67th percentile operating margin and ROIC."
+        "detail": "67th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -2694,7 +2694,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "92th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "92nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -2726,7 +2726,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "64th percentile operating margin and ROIC."
+        "detail": "64th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -2776,7 +2776,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "61th percentile operating margin and ROIC."
+        "detail": "61st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -2826,7 +2826,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "91th percentile operating margin and ROIC."
+        "detail": "91st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -2876,7 +2876,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "42th percentile operating margin and ROIC."
+        "detail": "42nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -2894,7 +2894,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "61th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "61st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -2926,7 +2926,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "2th percentile operating margin and ROIC."
+        "detail": "2nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -2976,13 +2976,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "15th percentile operating margin and ROIC."
+        "detail": "15th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "82th percentile free-cash-flow margin."
+        "detail": "82nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -3026,7 +3026,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "16th percentile operating margin and ROIC."
+        "detail": "16th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -3076,7 +3076,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "56th percentile operating margin and ROIC."
+        "detail": "56th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -3126,13 +3126,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "46th percentile operating margin and ROIC."
+        "detail": "46th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "51th percentile free-cash-flow margin."
+        "detail": "51st percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -3176,7 +3176,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "29th percentile operating margin and ROIC."
+        "detail": "29th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -3194,7 +3194,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "1th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "1st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -3220,13 +3220,13 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "21th percentile revenue/EPS growth in the covered universe."
+        "detail": "21st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "30th percentile operating margin and ROIC."
+        "detail": "30th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -3244,7 +3244,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "32th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "32nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -3276,7 +3276,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "81th percentile operating margin and ROIC."
+        "detail": "81st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -3326,7 +3326,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "33th percentile operating margin and ROIC."
+        "detail": "33rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -3376,13 +3376,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "38th percentile operating margin and ROIC."
+        "detail": "38th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "33th percentile free-cash-flow margin."
+        "detail": "33rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -3426,7 +3426,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "91th percentile operating margin and ROIC."
+        "detail": "91st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -3476,7 +3476,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "79th percentile operating margin and ROIC."
+        "detail": "79th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -3520,19 +3520,19 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "63th percentile revenue/EPS growth in the covered universe."
+        "detail": "63rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "25th percentile operating margin and ROIC."
+        "detail": "25th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "32th percentile free-cash-flow margin."
+        "detail": "32nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -3570,13 +3570,13 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "31th percentile revenue/EPS growth in the covered universe."
+        "detail": "31st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "37th percentile operating margin and ROIC."
+        "detail": "37th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -3594,7 +3594,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "33th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "33rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -3626,7 +3626,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "26th percentile operating margin and ROIC."
+        "detail": "26th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -3670,13 +3670,13 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "71th percentile revenue/EPS growth in the covered universe."
+        "detail": "71st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "83th percentile operating margin and ROIC."
+        "detail": "83rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -3726,7 +3726,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "38th percentile operating margin and ROIC."
+        "detail": "38th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -3744,7 +3744,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "31th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "31st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -3770,19 +3770,19 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "1th percentile revenue/EPS growth in the covered universe."
+        "detail": "1st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "15th percentile operating margin and ROIC."
+        "detail": "15th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "62th percentile free-cash-flow margin."
+        "detail": "62nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -3826,13 +3826,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "47th percentile operating margin and ROIC."
+        "detail": "47th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "43th percentile free-cash-flow margin."
+        "detail": "43rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -3876,7 +3876,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "80th percentile operating margin and ROIC."
+        "detail": "80th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -3894,7 +3894,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "83th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "83rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -3926,13 +3926,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "55th percentile operating margin and ROIC."
+        "detail": "55th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "31th percentile free-cash-flow margin."
+        "detail": "31st percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -3976,13 +3976,13 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "95th percentile operating margin and ROIC."
+        "detail": "95th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "93th percentile free-cash-flow margin."
+        "detail": "93rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -3994,7 +3994,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "62th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "62nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -4020,19 +4020,19 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "81th percentile revenue/EPS growth in the covered universe."
+        "detail": "81st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "98th percentile operating margin and ROIC."
+        "detail": "98th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "63th percentile free-cash-flow margin."
+        "detail": "63rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -4076,7 +4076,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "13th percentile operating margin and ROIC."
+        "detail": "13th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -4120,19 +4120,19 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "92th percentile revenue/EPS growth in the covered universe."
+        "detail": "92nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "48th percentile operating margin and ROIC."
+        "detail": "48th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "61th percentile free-cash-flow margin."
+        "detail": "61st percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -4176,7 +4176,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "90th percentile operating margin and ROIC."
+        "detail": "90th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -4220,19 +4220,19 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "52th percentile revenue/EPS growth in the covered universe."
+        "detail": "52nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "52th percentile operating margin and ROIC."
+        "detail": "52nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "52th percentile free-cash-flow margin."
+        "detail": "52nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -4276,7 +4276,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "36th percentile operating margin and ROIC."
+        "detail": "36th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -4326,13 +4326,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "47th percentile operating margin and ROIC."
+        "detail": "47th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "73th percentile free-cash-flow margin."
+        "detail": "73rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -4344,7 +4344,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "82th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "82nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -4376,7 +4376,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "70th percentile operating margin and ROIC."
+        "detail": "70th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -4394,7 +4394,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "51th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "51st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -4420,13 +4420,13 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "63th percentile revenue/EPS growth in the covered universe."
+        "detail": "63rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "53th percentile operating margin and ROIC."
+        "detail": "53rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -4476,7 +4476,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "14th percentile operating margin and ROIC."
+        "detail": "14th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -4526,7 +4526,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "49th percentile operating margin and ROIC."
+        "detail": "49th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -4544,7 +4544,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "61th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "61st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -4576,13 +4576,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "13th percentile operating margin and ROIC."
+        "detail": "13th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "23th percentile free-cash-flow margin."
+        "detail": "23rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -4626,13 +4626,13 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "87th percentile operating margin and ROIC."
+        "detail": "87th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "22th percentile free-cash-flow margin."
+        "detail": "22nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -4644,7 +4644,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "93th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "93rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -4676,7 +4676,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "71th percentile operating margin and ROIC."
+        "detail": "71st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -4694,7 +4694,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "23th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "23rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -4720,19 +4720,19 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "22th percentile revenue/EPS growth in the covered universe."
+        "detail": "22nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "62th percentile operating margin and ROIC."
+        "detail": "62nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "31th percentile free-cash-flow margin."
+        "detail": "31st percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -4776,7 +4776,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "78th percentile operating margin and ROIC."
+        "detail": "78th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -4794,7 +4794,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "33th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "33rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -4826,7 +4826,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "41th percentile operating margin and ROIC."
+        "detail": "41st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -4844,7 +4844,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "62th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "62nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -4876,7 +4876,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "62th percentile operating margin and ROIC."
+        "detail": "62nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -4926,7 +4926,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "68th percentile operating margin and ROIC."
+        "detail": "68th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -4976,7 +4976,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "85th percentile operating margin and ROIC."
+        "detail": "85th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -4994,7 +4994,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "22th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "22nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -5026,7 +5026,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "5th percentile operating margin and ROIC."
+        "detail": "5th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -5076,13 +5076,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "20th percentile operating margin and ROIC."
+        "detail": "20th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "41th percentile free-cash-flow margin."
+        "detail": "41st percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -5126,7 +5126,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "19th percentile operating margin and ROIC."
+        "detail": "19th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -5176,13 +5176,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "64th percentile operating margin and ROIC."
+        "detail": "64th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "91th percentile free-cash-flow margin."
+        "detail": "91st percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -5226,7 +5226,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "6th percentile operating margin and ROIC."
+        "detail": "6th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -5270,13 +5270,13 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "3th percentile revenue/EPS growth in the covered universe."
+        "detail": "3rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "19th percentile operating margin and ROIC."
+        "detail": "19th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -5320,13 +5320,13 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "2th percentile revenue/EPS growth in the covered universe."
+        "detail": "2nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "7th percentile operating margin and ROIC."
+        "detail": "7th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -5376,13 +5376,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "63th percentile operating margin and ROIC."
+        "detail": "63rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "83th percentile free-cash-flow margin."
+        "detail": "83rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -5426,7 +5426,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "43th percentile operating margin and ROIC."
+        "detail": "43rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -5444,7 +5444,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "31th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "31st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -5476,7 +5476,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "4th percentile operating margin and ROIC."
+        "detail": "4th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -5526,7 +5526,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "86th percentile operating margin and ROIC."
+        "detail": "86th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -5544,7 +5544,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "83th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "83rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -5576,7 +5576,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "92th percentile operating margin and ROIC."
+        "detail": "92nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -5626,7 +5626,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "25th percentile operating margin and ROIC."
+        "detail": "25th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -5644,7 +5644,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "82th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "82nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -5676,7 +5676,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "77th percentile operating margin and ROIC."
+        "detail": "77th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -5726,7 +5726,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "86th percentile operating margin and ROIC."
+        "detail": "86th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -5776,7 +5776,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "85th percentile operating margin and ROIC."
+        "detail": "85th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -5826,7 +5826,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "17th percentile operating margin and ROIC."
+        "detail": "17th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -5876,7 +5876,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "16th percentile operating margin and ROIC."
+        "detail": "16th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -5926,7 +5926,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "64th percentile operating margin and ROIC."
+        "detail": "64th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -5970,13 +5970,13 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "1th percentile revenue/EPS growth in the covered universe."
+        "detail": "1st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "53th percentile operating margin and ROIC."
+        "detail": "53rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -6020,13 +6020,13 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "73th percentile revenue/EPS growth in the covered universe."
+        "detail": "73rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "80th percentile operating margin and ROIC."
+        "detail": "80th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -6076,7 +6076,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "53th percentile operating margin and ROIC."
+        "detail": "53rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -6094,7 +6094,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "72th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "72nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -6120,19 +6120,19 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "23th percentile revenue/EPS growth in the covered universe."
+        "detail": "23rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "51th percentile operating margin and ROIC."
+        "detail": "51st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "32th percentile free-cash-flow margin."
+        "detail": "32nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -6144,7 +6144,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "73th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "73rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -6176,13 +6176,13 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "82th percentile operating margin and ROIC."
+        "detail": "82nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "73th percentile free-cash-flow margin."
+        "detail": "73rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -6226,13 +6226,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "24th percentile operating margin and ROIC."
+        "detail": "24th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "82th percentile free-cash-flow margin."
+        "detail": "82nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -6244,7 +6244,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "1th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "1st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -6276,7 +6276,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "11th percentile operating margin and ROIC."
+        "detail": "11th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -6320,13 +6320,13 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "51th percentile revenue/EPS growth in the covered universe."
+        "detail": "51st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "94th percentile operating margin and ROIC."
+        "detail": "94th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -6376,7 +6376,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "81th percentile operating margin and ROIC."
+        "detail": "81st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -6426,7 +6426,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "2th percentile operating margin and ROIC."
+        "detail": "2nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -6470,19 +6470,19 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "62th percentile revenue/EPS growth in the covered universe."
+        "detail": "62nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "69th percentile operating margin and ROIC."
+        "detail": "69th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "42th percentile free-cash-flow margin."
+        "detail": "42nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -6520,13 +6520,13 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "73th percentile revenue/EPS growth in the covered universe."
+        "detail": "73rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "55th percentile operating margin and ROIC."
+        "detail": "55th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -6576,7 +6576,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "20th percentile operating margin and ROIC."
+        "detail": "20th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -6594,7 +6594,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "2th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "2nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -6626,7 +6626,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "12th percentile operating margin and ROIC."
+        "detail": "12th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -6676,7 +6676,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "23th percentile operating margin and ROIC."
+        "detail": "23rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -6726,7 +6726,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "76th percentile operating margin and ROIC."
+        "detail": "76th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -6776,7 +6776,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "84th percentile operating margin and ROIC."
+        "detail": "84th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -6820,13 +6820,13 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "2th percentile revenue/EPS growth in the covered universe."
+        "detail": "2nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "43th percentile operating margin and ROIC."
+        "detail": "43rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -6876,7 +6876,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "96th percentile operating margin and ROIC."
+        "detail": "96th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -6926,13 +6926,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "17th percentile operating margin and ROIC."
+        "detail": "17th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "3th percentile free-cash-flow margin."
+        "detail": "3rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -6970,13 +6970,13 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "31th percentile revenue/EPS growth in the covered universe."
+        "detail": "31st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "47th percentile operating margin and ROIC."
+        "detail": "47th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -7026,13 +7026,13 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "75th percentile operating margin and ROIC."
+        "detail": "75th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "71th percentile free-cash-flow margin."
+        "detail": "71st percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -7076,13 +7076,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "27th percentile operating margin and ROIC."
+        "detail": "27th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "83th percentile free-cash-flow margin."
+        "detail": "83rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -7126,13 +7126,13 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "96th percentile operating margin and ROIC."
+        "detail": "96th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "92th percentile free-cash-flow margin."
+        "detail": "92nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -7176,7 +7176,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "46th percentile operating margin and ROIC."
+        "detail": "46th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -7226,13 +7226,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "1th percentile operating margin and ROIC."
+        "detail": "1st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "1th percentile free-cash-flow margin."
+        "detail": "1st percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -7276,7 +7276,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "23th percentile operating margin and ROIC."
+        "detail": "23rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -7326,7 +7326,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "59th percentile operating margin and ROIC."
+        "detail": "59th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -7376,7 +7376,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "56th percentile operating margin and ROIC."
+        "detail": "56th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -7394,7 +7394,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "71th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "71st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -7426,13 +7426,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "50th percentile operating margin and ROIC."
+        "detail": "50th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "41th percentile free-cash-flow margin."
+        "detail": "41st percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -7476,7 +7476,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "28th percentile operating margin and ROIC."
+        "detail": "28th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -7494,7 +7494,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "2th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "2nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -7520,13 +7520,13 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "23th percentile revenue/EPS growth in the covered universe."
+        "detail": "23rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "76th percentile operating margin and ROIC."
+        "detail": "76th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -7544,7 +7544,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "32th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "32nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -7576,7 +7576,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "40th percentile operating margin and ROIC."
+        "detail": "40th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -7620,13 +7620,13 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "43th percentile revenue/EPS growth in the covered universe."
+        "detail": "43rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "95th percentile operating margin and ROIC."
+        "detail": "95th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -7676,13 +7676,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "22th percentile operating margin and ROIC."
+        "detail": "22nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "61th percentile free-cash-flow margin."
+        "detail": "61st percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -7726,7 +7726,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "58th percentile operating margin and ROIC."
+        "detail": "58th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -7770,13 +7770,13 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "33th percentile revenue/EPS growth in the covered universe."
+        "detail": "33rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "45th percentile operating margin and ROIC."
+        "detail": "45th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -7820,13 +7820,13 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "32th percentile revenue/EPS growth in the covered universe."
+        "detail": "32nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "67th percentile operating margin and ROIC."
+        "detail": "67th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -7876,7 +7876,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "22th percentile operating margin and ROIC."
+        "detail": "22nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -7920,13 +7920,13 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "91th percentile revenue/EPS growth in the covered universe."
+        "detail": "91st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "10th percentile operating margin and ROIC."
+        "detail": "10th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -7976,13 +7976,13 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "84th percentile operating margin and ROIC."
+        "detail": "84th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "23th percentile free-cash-flow margin."
+        "detail": "23rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -8026,7 +8026,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "59th percentile operating margin and ROIC."
+        "detail": "59th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -8070,13 +8070,13 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "92th percentile revenue/EPS growth in the covered universe."
+        "detail": "92nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "100th percentile operating margin and ROIC."
+        "detail": "100th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -8126,13 +8126,13 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "72th percentile operating margin and ROIC."
+        "detail": "72nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "83th percentile free-cash-flow margin."
+        "detail": "83rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -8176,13 +8176,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "54th percentile operating margin and ROIC."
+        "detail": "54th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "33th percentile free-cash-flow margin."
+        "detail": "33rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -8220,13 +8220,13 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "83th percentile revenue/EPS growth in the covered universe."
+        "detail": "83rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "26th percentile operating margin and ROIC."
+        "detail": "26th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -8276,7 +8276,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "94th percentile operating margin and ROIC."
+        "detail": "94th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -8294,7 +8294,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "53th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "53rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -8326,7 +8326,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "88th percentile operating margin and ROIC."
+        "detail": "88th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -8344,7 +8344,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "3th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "3rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-04-16"
@@ -8376,7 +8376,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "49th percentile operating margin and ROIC."
+        "detail": "49th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -8426,13 +8426,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "3th percentile operating margin and ROIC."
+        "detail": "3rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "3th percentile free-cash-flow margin."
+        "detail": "3rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -8470,13 +8470,13 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "83th percentile revenue/EPS growth in the covered universe."
+        "detail": "83rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "50th percentile operating margin and ROIC."
+        "detail": "50th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -8526,13 +8526,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "12th percentile operating margin and ROIC."
+        "detail": "12th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "63th percentile free-cash-flow margin."
+        "detail": "63rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -8576,13 +8576,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "51th percentile operating margin and ROIC."
+        "detail": "51st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "33th percentile free-cash-flow margin."
+        "detail": "33rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -8626,7 +8626,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "99th percentile operating margin and ROIC."
+        "detail": "99th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -8676,7 +8676,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "10th percentile operating margin and ROIC."
+        "detail": "10th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -8720,13 +8720,13 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "42th percentile revenue/EPS growth in the covered universe."
+        "detail": "42nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "66th percentile operating margin and ROIC."
+        "detail": "66th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -8776,7 +8776,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "4th percentile operating margin and ROIC."
+        "detail": "4th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -8826,7 +8826,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "11th percentile operating margin and ROIC."
+        "detail": "11th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -8876,13 +8876,13 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "79th percentile operating margin and ROIC."
+        "detail": "79th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "91th percentile free-cash-flow margin."
+        "detail": "91st percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -8926,7 +8926,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "28th percentile operating margin and ROIC."
+        "detail": "28th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -8944,7 +8944,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "73th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "73rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -8970,13 +8970,13 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "52th percentile revenue/EPS growth in the covered universe."
+        "detail": "52nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "32th percentile operating margin and ROIC."
+        "detail": "32nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -8994,7 +8994,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "53th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "53rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -9026,7 +9026,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "44th percentile operating margin and ROIC."
+        "detail": "44th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -9044,7 +9044,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "42th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "42nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -9070,13 +9070,13 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "61th percentile revenue/EPS growth in the covered universe."
+        "detail": "61st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "8th percentile operating margin and ROIC."
+        "detail": "8th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -9126,7 +9126,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "9th percentile operating margin and ROIC."
+        "detail": "9th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -9170,19 +9170,19 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "61th percentile revenue/EPS growth in the covered universe."
+        "detail": "61st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "89th percentile operating margin and ROIC."
+        "detail": "89th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "93th percentile free-cash-flow margin."
+        "detail": "93rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -9226,13 +9226,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "48th percentile operating margin and ROIC."
+        "detail": "48th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "62th percentile free-cash-flow margin."
+        "detail": "62nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -9276,7 +9276,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "45th percentile operating margin and ROIC."
+        "detail": "45th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -9326,7 +9326,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "18th percentile operating margin and ROIC."
+        "detail": "18th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -9376,7 +9376,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "1th percentile operating margin and ROIC."
+        "detail": "1st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -9426,7 +9426,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "9th percentile operating margin and ROIC."
+        "detail": "9th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -9476,13 +9476,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "22th percentile operating margin and ROIC."
+        "detail": "22nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "81th percentile free-cash-flow margin."
+        "detail": "81st percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -9520,13 +9520,13 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "21th percentile revenue/EPS growth in the covered universe."
+        "detail": "21st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "61th percentile operating margin and ROIC."
+        "detail": "61st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -9570,19 +9570,19 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "23th percentile revenue/EPS growth in the covered universe."
+        "detail": "23rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "95th percentile operating margin and ROIC."
+        "detail": "95th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "3th percentile free-cash-flow margin."
+        "detail": "3rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -9620,19 +9620,19 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "53th percentile revenue/EPS growth in the covered universe."
+        "detail": "53rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "73th percentile operating margin and ROIC."
+        "detail": "73rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "72th percentile free-cash-flow margin."
+        "detail": "72nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -9644,7 +9644,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "52th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "52nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -9676,13 +9676,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "24th percentile operating margin and ROIC."
+        "detail": "24th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "52th percentile free-cash-flow margin."
+        "detail": "52nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -9726,7 +9726,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "71th percentile operating margin and ROIC."
+        "detail": "71st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -9776,7 +9776,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "54th percentile operating margin and ROIC."
+        "detail": "54th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -9826,13 +9826,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "16th percentile operating margin and ROIC."
+        "detail": "16th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "63th percentile free-cash-flow margin."
+        "detail": "63rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -9870,13 +9870,13 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "91th percentile revenue/EPS growth in the covered universe."
+        "detail": "91st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "12th percentile operating margin and ROIC."
+        "detail": "12th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -9926,7 +9926,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "29th percentile operating margin and ROIC."
+        "detail": "29th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -9976,7 +9976,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "91th percentile operating margin and ROIC."
+        "detail": "91st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -9994,7 +9994,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "63th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "63rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -10026,7 +10026,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "33th percentile operating margin and ROIC."
+        "detail": "33rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -10076,7 +10076,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "52th percentile operating margin and ROIC."
+        "detail": "52nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -10126,7 +10126,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "44th percentile operating margin and ROIC."
+        "detail": "44th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -10176,7 +10176,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "92th percentile operating margin and ROIC."
+        "detail": "92nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -10194,7 +10194,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "22th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "22nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -10220,13 +10220,13 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "2th percentile revenue/EPS growth in the covered universe."
+        "detail": "2nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "93th percentile operating margin and ROIC."
+        "detail": "93rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -10244,7 +10244,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "42th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "42nd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -10276,7 +10276,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "21th percentile operating margin and ROIC."
+        "detail": "21st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -10294,7 +10294,7 @@
         "key": "valuation",
         "label": "Valuation: Below peers",
         "tone": "info",
-        "detail": "3th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "3rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -10326,7 +10326,7 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "57th percentile operating margin and ROIC."
+        "detail": "57th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -10376,7 +10376,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "89th percentile operating margin and ROIC."
+        "detail": "89th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -10394,7 +10394,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "41th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "41st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -10426,7 +10426,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "34th percentile operating margin and ROIC."
+        "detail": "34th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -10476,7 +10476,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "5th percentile operating margin and ROIC."
+        "detail": "5th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -10526,7 +10526,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "29th percentile operating margin and ROIC."
+        "detail": "29th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -10570,13 +10570,13 @@
         "key": "growth",
         "label": "Growth: Slow",
         "tone": "caution",
-        "detail": "33th percentile revenue/EPS growth in the covered universe."
+        "detail": "33rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "70th percentile operating margin and ROIC."
+        "detail": "70th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -10626,7 +10626,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "26th percentile operating margin and ROIC."
+        "detail": "26th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -10670,13 +10670,13 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "41th percentile revenue/EPS growth in the covered universe."
+        "detail": "41st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "82th percentile operating margin and ROIC."
+        "detail": "82nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -10726,13 +10726,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "2th percentile operating margin and ROIC."
+        "detail": "2nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "2th percentile free-cash-flow margin."
+        "detail": "2nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -10776,7 +10776,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "97th percentile operating margin and ROIC."
+        "detail": "97th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -10820,13 +10820,13 @@
         "key": "growth",
         "label": "Growth: Strong",
         "tone": "positive",
-        "detail": "91th percentile revenue/EPS growth in the covered universe."
+        "detail": "91st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "8th percentile operating margin and ROIC."
+        "detail": "8th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -10876,13 +10876,13 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "74th percentile operating margin and ROIC."
+        "detail": "74th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "72th percentile free-cash-flow margin."
+        "detail": "72nd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -10894,7 +10894,7 @@
         "key": "valuation",
         "label": "Valuation: In line",
         "tone": "info",
-        "detail": "43th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "43rd percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -10926,13 +10926,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "65th percentile operating margin and ROIC."
+        "detail": "65th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "73th percentile free-cash-flow margin."
+        "detail": "73rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -10976,13 +10976,13 @@
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "42th percentile operating margin and ROIC."
+        "detail": "42nd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Average",
         "tone": "neutral",
-        "detail": "43th percentile free-cash-flow margin."
+        "detail": "43rd percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -11026,7 +11026,7 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "18th percentile operating margin and ROIC."
+        "detail": "18th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -11076,7 +11076,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "74th percentile operating margin and ROIC."
+        "detail": "74th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -11094,7 +11094,7 @@
         "key": "valuation",
         "label": "Valuation: Above peers",
         "tone": "info",
-        "detail": "81th percentile cheapness on EV/EBITDA within the covered universe."
+        "detail": "81st percentile cheapness on EV/EBITDA within the covered universe."
       }
     ],
     "asOf": "2026-11-06"
@@ -11126,7 +11126,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "83th percentile operating margin and ROIC."
+        "detail": "83rd percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -11170,13 +11170,13 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "41th percentile revenue/EPS growth in the covered universe."
+        "detail": "41st percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "41th percentile operating margin and ROIC."
+        "detail": "41st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -11226,7 +11226,7 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "87th percentile operating margin and ROIC."
+        "detail": "87th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -11276,13 +11276,13 @@
         "key": "profitability",
         "label": "Profitability: Low",
         "tone": "caution",
-        "detail": "31th percentile operating margin and ROIC."
+        "detail": "31st percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: Low",
         "tone": "caution",
-        "detail": "21th percentile free-cash-flow margin."
+        "detail": "21st percentile free-cash-flow margin."
       },
       {
         "key": "balance",
@@ -11320,13 +11320,13 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "62th percentile revenue/EPS growth in the covered universe."
+        "detail": "62nd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "57th percentile operating margin and ROIC."
+        "detail": "57th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -11370,13 +11370,13 @@
         "key": "growth",
         "label": "Growth: Moderate",
         "tone": "neutral",
-        "detail": "63th percentile revenue/EPS growth in the covered universe."
+        "detail": "63rd percentile revenue/EPS growth in the covered universe."
       },
       {
         "key": "profitability",
         "label": "Profitability: Average",
         "tone": "neutral",
-        "detail": "40th percentile operating margin and ROIC."
+        "detail": "40th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
@@ -11426,13 +11426,13 @@
         "key": "profitability",
         "label": "Profitability: High",
         "tone": "positive",
-        "detail": "69th percentile operating margin and ROIC."
+        "detail": "69th percentile profitability metrics in the covered universe."
       },
       {
         "key": "cash",
         "label": "Cash generation: High",
         "tone": "positive",
-        "detail": "71th percentile free-cash-flow margin."
+        "detail": "71st percentile free-cash-flow margin."
       },
       {
         "key": "balance",

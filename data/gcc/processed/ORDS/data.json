@@ -1148,7 +1148,7 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "91th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "91st percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [

@@ -968,7 +968,7 @@
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "94th percentile operating margin and ROIC."
+      "detail": "94th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",

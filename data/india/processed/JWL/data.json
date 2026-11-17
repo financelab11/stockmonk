@@ -880,13 +880,13 @@
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "3th percentile revenue/EPS growth in the covered universe."
+      "detail": "3rd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "14th percentile operating margin and ROIC."
+      "detail": "14th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",

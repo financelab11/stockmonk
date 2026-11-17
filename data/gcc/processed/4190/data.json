@@ -1130,7 +1130,7 @@
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "73th percentile profitability metrics in the covered universe."
+      "detail": "73rd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",

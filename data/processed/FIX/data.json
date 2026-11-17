@@ -1535,19 +1535,19 @@
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "81th percentile revenue/EPS growth in the covered universe."
+      "detail": "81st percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "98th percentile operating margin and ROIC."
+      "detail": "98th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: Average",
       "tone": "neutral",
-      "detail": "63th percentile free-cash-flow margin."
+      "detail": "63rd percentile free-cash-flow margin."
     },
     {
       "key": "balance",

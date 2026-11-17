@@ -1130,7 +1130,7 @@
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "3th percentile profitability metrics in the covered universe."
+      "detail": "3rd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",

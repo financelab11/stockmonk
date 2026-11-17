@@ -71,12 +71,38 @@ async function upsert(
   batchSize = 500,
 ): Promise<number> {
   let written = 0;
-  for (let index = 0; index < rows.length; index += batchSize) {
-    const batch = rows.slice(index, index + batchSize);
-    const { error } = await supabase
-      .from(table)
-      .upsert(batch, { onConflict, ignoreDuplicates: false });
-    if (error) throw new Error(`${table}: ${error.message}`);
+  const conflictColumns = onConflict.split(",");
+  const deduped = new Map<string, Json>();
+  for (const row of rows) {
+    const key = conflictColumns
+      .map((column) => String(row[column] ?? ""))
+      .join("|");
+    deduped.set(key, row);
+  }
+  const uniqueRows = [...deduped.values()];
+  for (let index = 0; index < uniqueRows.length; index += batchSize) {
+    const batch = uniqueRows.slice(index, index + batchSize);
+    let lastError: { message: string; cause?: unknown } | null = null;
+    for (let attempt = 0; attempt < 3; attempt += 1) {
+      const { error } = await supabase
+        .from(table)
+        .upsert(batch, { onConflict, ignoreDuplicates: false });
+      if (!error) {
+        lastError = null;
+        break;
+      }
+      lastError = error;
+      if (attempt < 2) {
+        await new Promise((resolve) => setTimeout(resolve, 1000 * (attempt + 1)));
+      }
+    }
+    if (lastError) {
+      const cause = (lastError as { cause?: unknown }).cause;
+      const detail = cause instanceof Error ? `: ${cause.message}` : "";
+      throw new Error(
+        `${table}: ${lastError.message}${detail} (rows ${index}-${index + batch.length - 1})`,
+      );
+    }
     written += batch.length;
   }
   return written;
@@ -152,6 +178,33 @@ function companyRows(): Json[] {
       });
     }
   }
+
+  // The forward-growth ranker covers more Indian names than the stock universe
+  // files, so add any ticker that only exists in the forward dataset.
+  const seen = new Set(rows.map((row) => `${String(row.market)}:${String(row.ticker)}`));
+  const forward =
+    readJson<{ results?: Array<Record<string, unknown>> }>(
+      path.join(ROOT, "data/growth-ranker/estimates.json"),
+    ) ?? {};
+  for (const result of forward.results ?? []) {
+    const ticker = str(result.ticker);
+    if (!ticker || seen.has(`IN:${ticker}`)) continue;
+    seen.add(`IN:${ticker}`);
+    rows.push({
+      market: "IN",
+      ticker,
+      name: str(result.name) ?? ticker,
+      description: "",
+      sector: str(result.sector) ?? "India",
+      industry: str(result.sector) ?? "India",
+      currency: "INR",
+      quote_currency: "INR",
+      exchange: "NSE",
+      is_research: false,
+      is_active: true,
+      metadata: { source: "forward-growth dataset" },
+    });
+  }
   return rows;
 }
 
@@ -173,6 +226,10 @@ async function syncCompanies(): Promise<Map<string, CompanyRow>> {
 
 async function syncPrices(companies: Map<string, CompanyRow>): Promise<number> {
   let written = 0;
+  if (process.env.SKIP_PRICES === "1") {
+    console.log("[sync] prices skipped (SKIP_PRICES=1)");
+    return 0;
+  }
   for (const market of MARKETS) {
     const entries =
       readJson<UniverseEntry[]>(path.join(ROOT, market.stockFile)) ?? [];

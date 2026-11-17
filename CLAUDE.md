@@ -134,6 +134,18 @@ Client helpers:
   `SIMFIN_API_KEY` (only for refresh jobs), `SUPABASE_SERVICE_ROLE_KEY` (server
   jobs only).
 
+## Current deployment state
+
+- Local repository is committed on `master` (latest commit at the time of
+  writing: `c26f91b`). No `origin` remote is configured yet.
+- Supabase schema is written but not applied: the publishable key cannot run
+  DDL. Apply `supabase/migrations/202611170001_initial_schema.sql` in the
+  Supabase SQL editor or provide a database password/access token.
+- `SUPABASE_SERVICE_ROLE_KEY` is required to run `pnpm sync:supabase`.
+- Vercel CLI is installed but the stored token is invalid. Sign in with
+  `vercel login` (team `financelabin-5299`) or provide a token before linking.
+- GitHub CLI is not installed and no Git credential is configured.
+
 ## Change protocol
 
 Every change should:

@@ -3,6 +3,12 @@
 # Git credential helper (or GitHub Actions' GITHUB_TOKEN in CI).
 if git remote get-url origin >/dev/null 2>&1; then
   git push origin HEAD || echo "auto-push skipped: push failed"
+  # The GitHub repository default branch is still `master`, and Vercel follows
+  # it. Mirror `main` until the default branch is switched.
+  if [ "$(git rev-parse --abbrev-ref HEAD)" = "main" ]; then
+    git push origin main:master 2>/dev/null ||
+      echo "auto-push: master mirror skipped"
+  fi
 else
   echo "auto-push skipped: no origin remote configured"
 fi

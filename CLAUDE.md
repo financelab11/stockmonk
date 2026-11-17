@@ -126,37 +126,39 @@ Client helpers:
 
 ## Deployment
 
-- GitHub: `financelab11` account; repository to be created/connected.
-- Vercel: team `financelabin-5299`; deploy from the GitHub repository.
-- Build command: `pnpm build`; install: `pnpm install`.
-- Required Vercel env: `NEXT_PUBLIC_SUPABASE_URL`,
-  `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`, `NEXT_PUBLIC_SITE_URL`,
-  `SIMFIN_API_KEY` (only for refresh jobs), `SUPABASE_SERVICE_ROLE_KEY` (server
-  jobs only).
+- GitHub: `financelab11/stockmonk`, remote `origin`. `main` is the working
+  branch; `master` is still the repository default and mirrors `main`.
+- Vercel: project `stockmonk` under team `financelabin-5299`, production domain
+  **https://stockmonk.vercel.app**.
+- Build `pnpm build`, install `pnpm install`, Node 24.x, framework preset
+  Next.js.
+- Vercel env (production, preview, development): `NEXT_PUBLIC_SUPABASE_URL`,
+  `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`, `NEXT_PUBLIC_SITE_URL`. Server-side
+  jobs additionally need `SIMFIN_API_KEY` and `SUPABASE_SERVICE_ROLE_KEY` (or
+  `SUPABASE_DB_PASSWORD` when using `pnpm sync:supabase:direct`).
 
 ## Current deployment state
 
-- Local repository is committed on `master`; see `git log -1` for the latest
-  commit. No `origin` remote is configured yet.
+- Everything is committed and pushed to `origin/main` (and mirrored to
+  `origin/master`).
 - Supabase schema is applied to project `fqzfmvnmmiisvtgnsyqa` (Tokyo pooler,
   `aws-0-ap-northeast-1.pooler.supabase.com:6543`).
 - Data is loaded through the direct Postgres fallback: 852 companies, 290,637
   prices, 14,839 statements, 1,676 consensus estimates, 385 forward estimates
   and 852 snapshots. `pnpm sync:supabase:direct` refreshes it with
   `SUPABASE_DB_PASSWORD`.
-- Vercel project `stockmonk` is linked under `financelabin-5299` and deployed
-  in production at **https://stockmonk.vercel.app**. Supabase public env vars
-  and `NEXT_PUBLIC_SITE_URL` are configured for production, preview and
-  development. The deployment was made from the CLI; GitHub auto-deploy still
-  needs the repository link.
-- GitHub repository `financelab11/stockmonk` now exists and `origin` is
-  configured. The supplied token can read but not push (403: Contents write
-  missing), so the initial push and GitHub auto-deploy are pending a token with
-  `Contents: Read and write` plus `Workflows: Read and write` (or classic
-  `repo` + `workflow` scopes).
-- Vercel account is not linked to GitHub (Login Connection missing), so
-  `vercel git connect` fails until the GitHub login connection is added in the
-  Vercel dashboard.
+- Vercel production is deployed from the CLI (`vercel --prod --yes
+  --archive=tgz`) and healthy: site returns 200 and `/api/health/db` returns
+  200 with live freshness rows.
+- GitHub-linked auto-deploy is **not** active yet. `vercel git connect
+  https://github.com/financelab11/stockmonk.git` fails with "You need to add a
+  Login Connection to your GitHub account first"; the GitHub login connection
+  can only be added in the Vercel dashboard.
+- The supplied GitHub token can read and push commits but cannot change
+  repository settings (`PATCH /repos` returns 403), so the default branch
+  switch and Actions secrets must be done in the GitHub UI.
+- Until `main` becomes the repository default, `.githooks/post-commit` mirrors
+  `main` to `master` so a Git-linked Vercel project builds the right commit.
 
 ## Change protocol
 

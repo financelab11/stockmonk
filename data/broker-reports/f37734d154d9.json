@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Q1FY27 margin declined to 4.3%, as steep minimum wage hikes in Haryana and UP coincided with a one-off hit from AIIMS Jammu, prompting management to rule out double-digit margins for the year.",
-  "fetchedAt": "2026-11-18T15:49:33.732Z"
+  "fetchedAt": "2026-11-18T15:49:33.732Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Ahluwalia Contracts India. Rating: HOLD. Target ₹575 (+4% vs ₹555). Q1FY27 margin declined to 4.3%, as steep minimum wage hikes in Haryana and UP coincided with a one-off hit from AIIMS Jammu, prompting management to rule out double-digit margins for the year.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Q1FY27 margin declined to 4.3%, as steep minimum wage hikes in Haryana and UP coincided with a one-off hit from AIIMS Jammu, prompting management to rule out double-digit margins for the year.",
+        "Q1FY27 margin declined to 4.3%, as steep minimum wage hikes in Haryana and UP coincided with a one-off hit from AIIMS Jammu, prompting management to rule out double-digit margins for the year."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Revenue grew 24% YoY to INR 14.6bn as slow-moving projects gathered pace.",
+        "EBITDA margin climbed to 7.6%, partly due to cost pass-throughs taking effect, but stayed well short of the YoY base, pulling PAT down 29% YoY.",
+        "Management reiterated its guidance of 15% revenue growth in FY27 and 15–20% in FY28."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "Target price ₹575 against a market price of ₹555 at the report date.",
+        "We have also reduced the multiple given the uncertainties, valuing the stock at 14x FY28E earnings (16x FY28E earlier).",
+        "Upside risks: 1) Better-than-expected project execution; and 2) better-than-expected profitability.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Some of the key projects, including the Central Vista and CSMT, are expected to see an execution ramp-up through FY27–28.",
+        "Uncertainties cloud near-term outlook Ahluwalia has highlighted that construction restrictions in the NCR are expected to impact execution in Q3FY27."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management reiterated its guidance of 15% revenue growth in FY27 and 15–20% in FY28."
+      ]
+    }
+  ]
 }

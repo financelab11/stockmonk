@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Business performance: Alkem’s revenue rose 13.8% YoY to Rs45.5bn in Q2FY27, helped by the consolidation of Occlutech from 16 July.",
-  "fetchedAt": "2026-11-18T15:50:55.116Z"
+  "fetchedAt": "2026-11-18T15:50:55.116Z",
+  "brokerId": "nirmal-bang",
+  "brokerDisplay": "Nirmal Bang",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 46,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+6 weak operating result"
+    ]
+  },
+  "execSummary": "Nirmal Bang published a stock note on Alkem Laboratories. Rating: HOLD. Business performance: Alkem’s revenue rose 13.8% YoY to Rs45.5bn in Q2FY27, helped by the consolidation of Occlutech from 16 July.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Business performance: Alkem’s revenue rose 13.8% YoY to Rs45.5bn in Q2FY27, helped by the consolidation of Occlutech from 16 July.",
+        "Business performance: Alkem’s revenue rose 13.8% YoY to Rs45.5bn in Q2FY27, helped by the consolidation of Occlutech from 16 July."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "US sales grew just 2.4% to Rs7.8bn, as volume growth of over 10% was largely absorbed by ~16% price erosion on a single product.",
+        "Gross margin expanded 218 bps to 67.2%, but EBITDA margin slipped 49 bps to 22.5% on Enzene’s CDMO operating costs and the Occlutech acquisition.",
+        "EBITDA grew 11.3% to Rs10.3bn while net profit fell 11.7% to Rs6.8bn."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "Valuation offers reasonable upside, with key monitorables being US pricing and launches, Daman resolution, non- US growth sustainability, Enzene’s commercial traction and Occlutech’s US progress.",
+        "Valuation: We maintain HOLD with a revised target price of ₹5,681/share (earlier ₹5,952), valuing Alkem at 26x Sep’28E EPS.",
+        "The target price reduction reflects near- term earnings pressure from US pricing erosion, delayed launches and continued investments in Enzene and Occlutech."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Outlook: We expect healthy H2 revenue growth, supported by non-US markets and Occlutech consolidation, but margins to soften due to MIP-related costs, higher R&D and continued Enzene/Occlutech losses.",
+        "India remains the key earnings anchor, led by chronic therapies, while non-US is the fastest-growing business, albeit with some moderation ahead."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "EBITDA grew 11.3% to Rs10.3bn while net profit fell 11.7% to Rs6.8bn."
+      ]
+    }
+  ]
 }

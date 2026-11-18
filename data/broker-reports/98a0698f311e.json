@@ -30,5 +30,47 @@
     ]
   },
   "blurb": "The company has demonstrated strong execution through sustained market-share gains, improving distribution reach and disciplined cost-management initiatives despite a challenging input-cost environment.",
-  "fetchedAt": "2026-11-18T15:51:06.780Z"
+  "fetchedAt": "2026-11-18T15:51:06.780Z",
+  "brokerId": "geojit",
+  "brokerDisplay": "Geojit",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Geojit published a stock note on Voltas. The company has demonstrated strong execution through sustained market-share gains, improving distribution reach and disciplined cost-management initiatives despite a challenging input-cost environment.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "The company has demonstrated strong execution through sustained market-share gains, improving distribution reach and disciplined cost-management initiatives despite a challenging input-cost environment.",
+        "The company has demonstrated strong execution through sustained market-share gains, improving distribution reach and disciplined cost-management initiatives despite a challenging input-cost environment."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Beyond its core cooling business, Voltbek continues to gain traction across key appliance categories, while the Projects and Engineering businesses provide diversification and revenue visibility.",
+        "Old estimates New estimates Change (%) Year / Rs. cr FY27E FY28E FY27E FY28E FY27E FY28E Revenue 16,972 19,661 16,498 19,303 -2.8 -1.8 EBITDA 1,137 1,475 949 1,303 -16.6 -11.6 Margins (%) 6.7 7.5 5.7 6.8 -100bps -70bps Adj."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Beyond its core cooling business, Voltbek continues to gain traction across key appliance categories, while the Projects and Engineering businesses provide diversification and revenue visibility.",
+        "Please note that the stock always carries the risk of being upgraded to BUY or downgraded to a HOLD, REDUCE or SELL."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Old estimates New estimates Change (%) Year / Rs. cr FY27E FY28E FY27E FY28E FY27E FY28E Revenue 16,972 19,661 16,498 19,303 -2.8 -1.8 EBITDA 1,137 1,475 949 1,303 -16.6 -11.6 Margins (%) 6.7 7.5 5.7 6.8 -100bps -70bps Adj."
+      ]
+    }
+  ]
 }

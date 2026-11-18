@@ -30,5 +30,56 @@
     ]
   },
   "blurb": "Founded in 2011 and headquartered in Gurgaon, the company serves over 52,000 businesses by seamlessly integrating express parcel delivery, part-truckload (PTL) and full-truckload (FTL) freight, end-to-end warehousing, an",
-  "fetchedAt": "2026-11-18T15:53:05.197Z"
+  "fetchedAt": "2026-11-18T15:53:05.197Z",
+  "brokerId": "ventura",
+  "brokerDisplay": "Ventura Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Ventura Securities published a result update on Delhivery. Rating: HOLD. Founded in 2011 and headquartered in Gurgaon, the company serves over 52,000 businesses by seamlessly integrating express parcel delivery, part-truckload (PTL) and full-truckload (FTL) freight, end-to-end warehousing, an",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Founded in 2011 and headquartered in Gurgaon, the company serves over 52,000 businesses by seamlessly integrating express parcel delivery, part-truckload (PTL) and full-truckload (FTL) freight, end-to-end warehousing, an",
+        "Founded in 2011 and headquartered in Gurgaon, the company serves over 52,000 businesses by seamlessly integrating express parcel delivery, part-truckload (PTL) and full-truckload (FTL) freight, end-to-end warehousing, and cross-border logistics."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The company achieved a significant financial milestone in Q2 FY27, crossing the INR 3,000 crore quarterly revenue mark for the first time by generating INR 3,066.3 crore from services, which represents a robust 19.8% year-on-year growth.",
+        "Operationally, the firm delivered a strong turnaround, posting a net profit (PAT) of INR 40.6 crore compared to a net loss of INR 50.5 crore in the same period last year, alongside a substantial 180.5% surge in reported EBITDA to INR 204.7 crore.",
+        "This growth was primarily anchored by its core express parcel segment, which handled 325 million shipments, and a 23.1% revenue increase in its PTL freight business, which benefited from enhanced yields and rising volumes."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "Valuation call – At the CMP of INR 412, the stock is trading at 42.1X FY29 P/E.",
+        "We maintain our HOLD rating with a price target of INR 440, representing an upside of 6.% over the next 18–24 months."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Looking forward, Delhivery maintains a highly positive outlook as its core express parcel volumes continue to track ahead of management's initial 20– 30% growth guidance range for the full fiscal year.",
+        "And such person shall be responsible for conducting his/her/their own investigation and analysis of the information contained or referred to in this document and of evaluating the merits and risks involved in the securities forming the subject matter of this document."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "This growth was primarily anchored by its core express parcel segment, which handled 325 million shipments, and a 23.1% revenue increase in its PTL freight business, which benefited from enhanced yields and rising volumes."
+      ]
+    }
+  ]
 }

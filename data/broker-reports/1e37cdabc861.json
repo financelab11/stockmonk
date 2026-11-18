@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Q 2F Y2 7 performance : Amber reported mixed result with strong revenue growth (60% YoY, -32% QoQ) but profitability remaining under pressure.",
-  "fetchedAt": "2026-11-18T15:49:55.708Z"
+  "fetchedAt": "2026-11-18T15:49:55.708Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": "AMBER",
+  "market": "IN",
+  "sector": "Defence & Electronics",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Amber Enterprises India. Q 2F Y2 7 performance : Amber reported mixed result with strong revenue growth (60% YoY, -32% QoQ) but profitability remaining under pressure.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Q 2F Y2 7 performance : Amber reported mixed result with strong revenue growth (60% YoY, -32% QoQ) but profitability remaining under pressure.",
+        "Q 2F Y2 7 performance : Amber reported mixed result with strong revenue growth (60% YoY, -32% QoQ) but profitability remaining under pressure."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA came at ₹98.3 crore with EBITDA margins at 3.7% down 180 bps YoY and 428 bps QoQ owing to select one-offs as well as commodity inflation.",
+        "Investment Rationale: • Diversification from RAC business shall be key growth driver : Amber’s strong revenue growth was driven by both Consumer Durables (+41% YoY) and Electronics divisions (+94% YoY).",
+        "Electronics division is expected to sustain strong growth momentum, while the Consumer durables segment is likely to grow in high teens, broadly in line with the industry."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Investment Rationale: • Diversification from RAC business shall be key growth driver : Amber’s strong revenue growth was driven by both Consumer Durables (+41% YoY) and Electronics divisions (+94% YoY).",
+        "Investments in securities market are subject to market risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Electronics division is expected to sustain strong growth momentum, while the Consumer durables segment is likely to grow in high teens, broadly in line with the industry."
+      ]
+    }
+  ]
 }

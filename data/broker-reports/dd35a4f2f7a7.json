@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "(LEMTRE) CMP: ₹123 Target ₹ 150 (22%) Target Period: 12 months November 13, 2026 Steady Q2; Improved pricing power to aid growth ahead… About the stock : Lemon Tree Hotels (LTHL) is India’s largest hotel chain in the mid",
-  "fetchedAt": "2026-11-18T15:50:40.670Z"
+  "fetchedAt": "2026-11-18T15:50:40.670Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Lemon Tree Hotels. (LEMTRE) CMP: ₹123 Target ₹ 150 (22%) Target Period: 12 months November 13, 2026 Steady Q2; Improved pricing power to aid growth ahead… About the stock : Lemon Tree Hotels (LTHL) is India’s largest hotel chain in the mid",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(LEMTRE) CMP: ₹123 Target ₹ 150 (22%) Target Period: 12 months November 13, 2026 Steady Q2; Improved pricing power to aid growth ahead… About the stock : Lemon Tree Hotels (LTHL) is India’s largest hotel chain in the mid",
+        "(LEMTRE) CMP: ₹123 Target ₹ 150 (22%) Target Period: 12 months November 13, 2026 Steady Q2; Improved pricing power to aid growth ahead… About the stock : Lemon Tree Hotels (LTHL) is India’s largest hotel chain in the mid-priced hotel sector."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Q 2F Y2 7 performance : LTHL’s consolidated revenues reported 18% YoY growth to Rs.361.4cr in Q2FY27.",
+        "RevPAR growth was largely balanced between occupancy (+633bps YoY) and ADR (+8% YoY).",
+        "EBITDA grew by 22.2% YoY to Rs.159.7cr and PAT grew by 51% YoY to Rs.63.5cr."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Further, renovation-led improvements are driving stronger performance across the portfolio, particularly at Keys, where RevPAR grew 29% YoY, while renovated properties in Delhi reported over 30% growth.",
+        "With ~80% of the Keys renovation programme completed and the share of revenue from rooms priced above Rs.7,500 increasing from ~48% to 50%, the company is witnessing improving pricing power and a favourable portfolio mix."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "EBITDA grew by 22.2% YoY to Rs.159.7cr and PAT grew by 51% YoY to Rs.63.5cr."
+      ]
+    }
+  ]
 }

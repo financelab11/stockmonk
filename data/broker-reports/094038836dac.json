@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Important Data • Strong quarter all round: Revenue grew 13%, driven by 10% volume growth in India and 13% constant currency growth in international.",
-  "fetchedAt": "2026-11-18T15:49:40.233Z"
+  "fetchedAt": "2026-11-18T15:49:40.233Z",
+  "brokerId": "way2wealth",
+  "brokerDisplay": "Way2Wealth",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Way2Wealth published a result update on Marico. Important Data • Strong quarter all round: Revenue grew 13%, driven by 10% volume growth in India and 13% constant currency growth in international.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Important Data • Strong quarter all round: Revenue grew 13%, driven by 10% volume growth in India and 13% constant currency growth in international.",
+        "Important Data • Strong quarter all round: Revenue grew 13%, driven by 10% volume growth in India and 13% constant currency growth in international."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA rose 27% and profit after tax 31%, the fastest profit growth in 50 quarters. • Gross margin up about 600 bps YoY: Three things drove it: o a better product mix; o higher profits from the new growth businesses; o cheaper copra. • Ad spend up 44%: The extra spend went into building the core brands for the long term and scaling up the new businesses faster.",
+        "Even so, EBITDA margin widened 200 bps to 18.2%. • Two-year view: Revenue grew 22% a year and EBITDA 17% a year over two years.",
+        "This was supported by 8% volume growth in India and 16% constant currency growth in international."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Strong execution, new launches and market share gains in key categories drove growth. • South Africa (+15% CC): Growth sped up, led by hair care.",
+        "Consumer inflation rose, led by food, edible oil and fuel. • Management said this makes it important to stay quick on pricing, sourcing and execution. • Marico sees protein as a big bet and is going after it hard through four brands: Saffola, Cosmix, Plix and True Elements H1 FY27 and outlook: • Strong first half: Revenue grew 18%, EBITDA 26% and profit after tax 28%."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "This was supported by 8% volume growth in India and 16% constant currency growth in international."
+      ]
+    }
+  ]
 }

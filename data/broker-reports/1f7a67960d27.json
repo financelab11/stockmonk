@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Result Update 06th November, 2026 BUY Target Price 1,525 UNO Minda Ltd Auto Ancillary 1 Capacity Expansion & Technology-Led Growth Drive Outlook Est.",
-  "fetchedAt": "2026-11-18T15:52:34.737Z"
+  "fetchedAt": "2026-11-18T15:52:34.737Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": "UNOMINDA",
+  "market": "IN",
+  "sector": "Auto & Ancillaries",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on Uno Minda. Rating: BUY. Target ₹1,525. Result Update 06th November, 2026 BUY Target Price 1,525 UNO Minda Ltd Auto Ancillary 1 Capacity Expansion & Technology-Led Growth Drive Outlook Est.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Result Update 06th November, 2026 BUY Target Price 1,525 UNO Minda Ltd Auto Ancillary 1 Capacity Expansion & Technology-Led Growth Drive Outlook Est.",
+        "Result Update 06th November, 2026 BUY Target Price 1,525 UNO Minda Ltd Auto Ancillary 1 Capacity Expansion & Technology-Led Growth Drive Outlook Est."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Switches, Lighting, Casting, Seating, Green Mobility and Other Products registered strong YoY growth of 37%, 25%, 57%, 34%, 102% and 17%, respectively.",
+        "The Green Mobility segment contributed Rs 649 Cr (10% of consolidated revenue), led by EV Systems (Rs 247 Cr), Alternate Fuel Systems (Rs 187 Cr), Auto Innovation (Rs 156 Cr) and EV Controllers (Rs 44 Cr), reflecting rising EV penetration and increasing share of business with existing and new customers.",
+        "Management retained FY27 EBITDA margin guidance of 11.0% (±50 bps), with commodity costs passed on to customers on a back-to-back basis."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹1,525.",
+        "Result Update 06th November, 2026 BUY Target Price 1,525 UNO Minda Ltd Auto Ancillary 1 Capacity Expansion & Technology-Led Growth Drive Outlook Est.",
+        "(target: 9 Mn), while 2W capacity has reached 9 Mn (target: 11.8 Mn).",
+        "Management expects initial asset turns of 1.8–2.0x and targets 18–20% pre-tax ROCE by the third full year of production."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Result Update 06th November, 2026 BUY Target Price 1,525 UNO Minda Ltd Auto Ancillary 1 Capacity Expansion & Technology-Led Growth Drive Outlook Est.",
+        "Company Outlook & Guidance: UNO Minda remains optimistic on H2FY27 demand, driven by festive demand, new launches and premiumisation."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management retained FY27 EBITDA margin guidance of 11.0% (±50 bps), with commodity costs passed on to customers on a back-to-back basis."
+      ]
+    }
+  ]
 }

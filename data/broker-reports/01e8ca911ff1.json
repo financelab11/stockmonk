@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Positives: • Oil India’s Q2 revenue was up 48% yoy & up 1.4% qoq; it was 3.1% ahead of Kotak. • Crude sales of 979 kt (up 18% yoy) were 3.9% ahead of our estimates. • Oil India’s Q2 EBITDA was up 94% yoy, was 15% ahead o",
-  "fetchedAt": "2026-11-18T15:50:07.715Z"
+  "fetchedAt": "2026-11-18T15:50:07.715Z",
+  "brokerId": "kotak",
+  "brokerDisplay": "Kotak Institutional Equities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Kotak Institutional Equities published a result update on Oil India. Rating: SELL. Positives: • Oil India’s Q2 revenue was up 48% yoy & up 1.4% qoq; it was 3.1% ahead of Kotak. • Crude sales of 979 kt (up 18% yoy) were 3.9% ahead of our estimates. • Oil India’s Q2 EBITDA was up 94% yoy, was 15% ahead o",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Positives: • Oil India’s Q2 revenue was up 48% yoy & up 1.4% qoq; it was 3.1% ahead of Kotak. • Crude sales of 979 kt (up 18% yoy) were 3.9% ahead of our estimates. • Oil India’s Q2 EBITDA was up 94% yoy, was 15% ahead o",
+        "Positives: • Oil India’s Q2 revenue was up 48% yoy & up 1.4% qoq; it was 3.1% ahead of Kotak. • Crude sales of 979 kt (up 18% yoy) were 3.9% ahead of our estimates. • Oil India’s Q2 EBITDA was up 94% yoy, was 15% ahead of our estimate, driven by higher crude volumes and lower opex."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "(EBITDA: Earnings Before Interest, Tax, Depreciation and Amortization; MCM: Million Cubic Meter, Kt: Kilo Tonnes) ` ` ` The content of this document has been derived from KIE research report.",
+        "Reports based on technical analysis centers on studying charts of a stock's price movement and trading volume, as opposed to focusing on a company's fundamentals and as such, may not match with a report on a company's fundamentals.",
+        "Portfolio Management Team (PMS) takes its investment decisions independent of the PCG research and accordingly PMS may have positions contrary to the PCG research recommendation."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: SELL.",
+        "Kotak Securities is not assigning any rating or price target to the stock.",
+        "Kotak Securities has suspended the investment rating and price target for this stock, either because there is not a sufficient fundamental basis for determining, or there are legal, regulatory or policy constraints around publishing, an investment rating or target.",
+        "The previous investment rating and price target, if any, are no longer in effect for this stock and should not be relied upon."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Certain transactions -including those involving futures, options and other derivatives as well as non-investment grade securities - involve substantial risk and are not suitable for all investors.",
+        "The views provided herein are general in nature and does not consider risk appetite or investment objective of particular investor; readers are requested to take independent professional advice before investing."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Portfolio Management Team (PMS) takes its investment decisions independent of the PCG research and accordingly PMS may have positions contrary to the PCG research recommendation."
+      ]
+    }
+  ]
 }

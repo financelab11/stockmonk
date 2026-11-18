@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "EBITDA margin remained impacted by lower revenue booking from exports and higher execution from low-margin strategic NTPC order for CO2-based energy storage.",
-  "fetchedAt": "2026-11-18T15:51:06.455Z"
+  "fetchedAt": "2026-11-18T15:51:06.455Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 54,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+6 weak operating result",
+      "+8 target implies 20% change"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on Triveni Turbine. Target ₹610 (+20% vs ₹507). EBITDA margin remained impacted by lower revenue booking from exports and higher execution from low-margin strategic NTPC order for CO2-based energy storage.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "EBITDA margin remained impacted by lower revenue booking from exports and higher execution from low-margin strategic NTPC order for CO2-based energy storage.",
+        "EBITDA margin remained impacted by lower revenue booking from exports and higher execution from low-margin strategic NTPC order for CO2-based energy storage."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Going ahead, we expect TRIV to benefit from: 1) completion of NTPC order in 1-2 quarters, 2) execution ramp up from export orders, 3) qualification to bid for combined cycle data center orders post recent non-DC-led combined cycle order.",
+        "We expect the company to return to healthy growth and margin from FY28 onwards.",
+        "Results below our estimates TRIV reported revenue, EBITDA, and PAT below our estimates."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹610 against a market price of ₹507 at the report date.",
+        "Financial outlook and valuation We cut our estimates by 17%/12%/9% for FY27/28/29E and expect TRIV’s revenue/EBITDA/PAT to clock a CAGR of 17%/15%/15% over FY26-29.",
+        "It follows average export pricing, with margins that are multiples of domestic margins, in a market dominated by gas turbine OEMs.",
+        "Each recipient of this document should make such investigations as it deems necessary to arrive at an independent evaluation of an investment in the securities of companies referred to in this document (including the merits and risks involved), and should consult its own advisors to determine the merits and risks of such an investment."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Exports remain a key growth driver Export revenue was down 47% YoY to INR1.5b in 2QFY27, led by the deferral of dispatches to 3Q and 4Q.",
+        "Financial outlook and valuation We cut our estimates by 17%/12%/9% for FY27/28/29E and expect TRIV’s revenue/EBITDA/PAT to clock a CAGR of 17%/15%/15% over FY26-29."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Results below our estimates TRIV reported revenue, EBITDA, and PAT below our estimates."
+      ]
+    }
+  ]
 }

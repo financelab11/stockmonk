@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Despite this, the absolute EBITDA grew ~35% YoY to ~₹70 crore with margins of 14.1% up 46 bps YoY.",
-  "fetchedAt": "2026-11-18T15:49:38.081Z"
+  "fetchedAt": "2026-11-18T15:49:38.081Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Innova Captab. Despite this, the absolute EBITDA grew ~35% YoY to ~₹70 crore with margins of 14.1% up 46 bps YoY.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Despite this, the absolute EBITDA grew ~35% YoY to ~₹70 crore with margins of 14.1% up 46 bps YoY.",
+        "Despite this, the absolute EBITDA grew ~35% YoY to ~₹70 crore with margins of 14.1% up 46 bps YoY."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "PAT grew ~44% to ₹42.4 crore with 8.5% PAT margins up 79 bps YoY. • Long term prospects remain robust : For the quarter, the strong performance in the CDMO business was supported by client traction & continued business momentum while strength in Branded generics was due to expanding market reach, deeper penetration across existing markets and continued traction across the portfolio.",
+        "The plant’s capacity utilisation was ~5–10% in FY26 and it generated revenues of ~₹300 crore.",
+        "At the peak utilization of 55-60%, the Jammu facility can generate annualized revenues of ₹1,230-1,500 crore and an asset turnover ratio of approximately 2.5-3x. • The government’s Schedule M manufacturing norms which are in sync with the WHO standards in terms of quality, safety, hygiene and documentation, have become mandatory from 1st January 2026 (no further extensions)."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "BUY Particulars Particular Market Capitalisation ₹ 5892 crore Debt (FY26) ₹ 344 crore Cash (FY26) ₹ 3.2 crore EV ₹ 6232 crore 52-week H/L 1354/608 Equity capital ₹ 57 crore Face value ₹ 10 Shareholding pattern (in %) Dec - 25 Mar - 26 Jun - 26 Sep - 26 Promoters 50.9 50.9 50.9 50.9 FII 0.1 0.2 0.3 0.9 DIIs 20.2 20.1 19.9 19.2 Others 28.8 28.7 28.8 29.1 Price Chart Key risks (i) Pricing pressure in APIs.",
+        "Investments in securities market are subject to market risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "At the peak utilization of 55-60%, the Jammu facility can generate annualized revenues of ₹1,230-1,500 crore and an asset turnover ratio of approximately 2.5-3x. • The government’s Schedule M manufacturing norms which are in sync with the WHO standards in terms of quality, safety, hygiene and documentation, have become mandatory from 1st January 2026 (no further extensions)."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "Fluorochemicals growth was led by R-32, with initial capacity expected to reach full utilisation by Q3FY27, while R-134a production is on track for commissioning in Q4FY27.",
-  "fetchedAt": "2026-11-18T15:53:09.519Z"
+  "fetchedAt": "2026-11-18T15:53:09.519Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 21% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Gujarat Fluorochemicals. Rating: BUY. Target ₹5,380 (+21% vs ₹4,464). Fluorochemicals growth was led by R-32, with initial capacity expected to reach full utilisation by Q3FY27, while R-134a production is on track for commissioning in Q4FY27.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Fluorochemicals growth was led by R-32, with initial capacity expected to reach full utilisation by Q3FY27, while R-134a production is on track for commissioning in Q4FY27.",
+        "Fluorochemicals growth was led by R-32, with initial capacity expected to reach full utilisation by Q3FY27, while R-134a production is on track for commissioning in Q4FY27."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Fluoropolymers continued to benefit from volume growth and improving realisations, with the company confident of sustaining 17–20% growth over the next couple of years.",
+        "Fluorochemicals revenue up 135% YoY to INR 6.1bn GFL’s revenue rose 45.5% YoY to INR 17.6bn, aided by 135% YoY/32.5% QoQ increase in fluorochemicals’ revenue to INR 6.1bn, driven by a ramp-up in R- 32.",
+        "The fluoropolymers segment’s revenue rose 21.9% YoY, supported by volume growth and a favourable product mix."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹5,380 against a market price of ₹4,464 at the report date.",
+        "We retain our estimates for FY27/28E and TP of INR 5,380, valuing GFL at an unchanged FY29E P/E multiple of 35x.",
+        "Upside risk: 1) Upcycle in fluoropolymers with higher-than-expected pricing; and 2) better-than-expected offtake in battery materials.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Capex outlook GFL reiterated its long-term battery materials investment commitment of INR 60bn, expected to be funded through INR 30–35bn of equity, INR 15bn of debt, and the balance through internal accruals.",
+        "Risks Downside risks: 1) Safety and environmental issues; and 2) execution in fluoropolymer and battery materials businesses."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The fluoropolymers segment’s revenue rose 21.9% YoY, supported by volume growth and a favourable product mix."
+      ]
+    }
+  ]
 }

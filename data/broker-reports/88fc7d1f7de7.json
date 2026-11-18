@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Management continues to evaluate options for deploying surplus cash. • Key order wins included a 400kV generator transformer and 420kV GIS package for a 1,500MW pumped-storage project in Maharashtra, 800kV/420kV GIS for ",
-  "fetchedAt": "2026-11-18T15:51:02.121Z"
+  "fetchedAt": "2026-11-18T15:51:02.121Z",
+  "brokerId": "way2wealth",
+  "brokerDisplay": "Way2Wealth",
+  "ticker": "GEV",
+  "market": "US",
+  "sector": "Industrials",
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Way2Wealth published a result update on GE Vernova T&D India. Management continues to evaluate options for deploying surplus cash. • Key order wins included a 400kV generator transformer and 420kV GIS package for a 1,500MW pumped-storage project in Maharashtra, 800kV/420kV GIS for ",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Management continues to evaluate options for deploying surplus cash. • Key order wins included a 400kV generator transformer and 420kV GIS package for a 1,500MW pumped-storage project in Maharashtra, 800kV/420kV GIS for ",
+        "Management continues to evaluate options for deploying surplus cash. • Key order wins included a 400kV generator transformer and 420kV GIS package for a 1,500MW pumped-storage project in Maharashtra, 800kV/420kV GIS for Andhra Pradesh transmission projects, 400kV reactors and 420kV/220kV GIS for a Himachal Pradesh TBCB project, and a 765kV shunt reactor for an Andhra Pradesh TBCB project."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA margin came in at 27.1%, at the higher end of the guided mid-20s band, while gross margin stood at 44.5%, with management reiterating that it does not provide gross-margin guidance given mix variability; the ₹214.4bn backlog (over 3x FY26 revenue) remains broadly stable and supports multi-year visibility, while significant HVDC execution is expected from FY28 onwards.",
+        "Overall, Q2 reflects a strong recovery in order intake and healthy execution, with the investment thesis hinging on domestic TBCB order conversion, resolution of pending RPT opportunities and the gradual ramp-up of HVDC execution from FY28.",
+        "Macro & Sector Context • Grid expansion and modernization: Management highlighted that India’s transmission sector is at an important inflection point, driven by rising electricity demand, renewable energy integration and the need for long-distance transmission infrastructure."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Management continues to evaluate options for deploying surplus cash. • Key order wins included a 400kV generator transformer and 420kV GIS package for a 1,500MW pumped-storage project in Maharashtra, 800kV/420kV GIS for Andhra Pradesh transmission projects, 400kV reactors and 420kV/220kV GIS for a Himachal Pradesh TBCB project, and a 765kV shunt reactor for an Andhra Pradesh TBCB project.",
+        "HVDC corridors are becoming increasingly important to transmit renewable power from generation centres to consumption centres. • Digitalization of the grid: Increasing grid complexity is driving demand for grid automation, real-time monitoring, predictive maintenance and software-led solutions to improve reliability and reduce AT&C losses."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Macro & Sector Context • Grid expansion and modernization: Management highlighted that India’s transmission sector is at an important inflection point, driven by rising electricity demand, renewable energy integration and the need for long-distance transmission infrastructure."
+      ]
+    }
+  ]
 }

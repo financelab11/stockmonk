@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Gross Profit stood at INR 948mn (+20% YoY/+9.4% QoQ), below our estimates of INR 1,355mn; Gross margins contracted by 417bps YoY (+120bps QoQ) to 48.5% in Q2FY27, due to the mix shift toward lower-margin manufacturing-le",
-  "fetchedAt": "2026-11-18T15:49:35.800Z"
+  "fetchedAt": "2026-11-18T15:49:35.800Z",
+  "brokerId": "arihant",
+  "brokerDisplay": "Arihant Capital",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Arihant Capital published a stock note on AXISCADES Technologies. Gross Profit stood at INR 948mn (+20% YoY/+9.4% QoQ), below our estimates of INR 1,355mn; Gross margins contracted by 417bps YoY (+120bps QoQ) to 48.5% in Q2FY27, due to the mix shift toward lower-margin manufacturing-le",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Gross Profit stood at INR 948mn (+20% YoY/+9.4% QoQ), below our estimates of INR 1,355mn; Gross margins contracted by 417bps YoY (+120bps QoQ) to 48.5% in Q2FY27, due to the mix shift toward lower-margin manufacturing-le",
+        "Gross Profit stood at INR 948mn (+20% YoY/+9.4% QoQ), below our estimates of INR 1,355mn; Gross margins contracted by 417bps YoY (+120bps QoQ) to 48.5% in Q2FY27, due to the mix shift toward lower-margin manufacturing-led defense programs and the loss of high-margin services revenue post the Accordis Phase 1 transfer."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA stood at INR 63mn (-68.5% YoY/-27.8% QoQ); below our estimates of INR 323mn.",
+        "EBITDA margin contracted by 1006bps YoY (- 153bps QoQ) to 3.2% in Q2FY27, due to a ~INR 120mn ESOP charge absorbing ~50% of EBITDA, ~INR 145mn of largely one-time legal and transaction costs, ~INR 150mn/quarter of unabsorbed corporate overhead, and EBITDA losses at AddSolutions.",
+        "PAT stood at INR - 482.6mn vs INR -24mn in Q2FY26; below our estimates of INR 305mn, and PAT margin stood at -24.7% vs -1.6% in Q2FY26, due to a ~INR 384mn one-time non-cash impairment of goodwill and intangibles (mainly AddSolutions) in continuing operations, with total exceptional write-offs at ~INR 583mn, none of which touch cash, customers, or orders."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Highlights Structural reset creates a cleaner, manufacturing-led growth platform: AXISCADES has completed the difficult part of its transformation.",
+        "Outlook & Valuation: AXISCADES enters H2FY27 (INR 6-7.2bn execution) with a cleaner, manufacturing-led portfolio anchored in defense, aerospace, and XIDA after completing Phase 1 of its ~INR 22.75bn divestment; Phase 2 closure by Q4FY27E should add ~INR 11bn in one-time gain and ~INR 12.74bn of guaranteed proceeds to cut net debt from ~INR 5.56bn and fund growth without dilution."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "PAT stood at INR - 482.6mn vs INR -24mn in Q2FY26; below our estimates of INR 305mn, and PAT margin stood at -24.7% vs -1.6% in Q2FY26, due to a ~INR 384mn one-time non-cash impairment of goodwill and intangibles (mainly AddSolutions) in continuing operations, with total exceptional write-offs at ~INR 583mn, none of which touch cash, customers, or orders."
+      ]
+    }
+  ]
 }

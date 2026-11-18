@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Gross Profit stood at INR 1,438mn (+16.8% YoY/-0.5% QoQ); below our estimates of INR 1,493mn; Gross margins contracted by 701 bps YoY (-314 bps QoQ) to 48.7% in Q2FY27.",
-  "fetchedAt": "2026-11-18T15:52:18.378Z"
+  "fetchedAt": "2026-11-18T15:52:18.378Z",
+  "brokerId": "arihant",
+  "brokerDisplay": "Arihant Capital",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Arihant Capital published a stock note on Deep Industries. Gross Profit stood at INR 1,438mn (+16.8% YoY/-0.5% QoQ); below our estimates of INR 1,493mn; Gross margins contracted by 701 bps YoY (-314 bps QoQ) to 48.7% in Q2FY27.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Gross Profit stood at INR 1,438mn (+16.8% YoY/-0.5% QoQ); below our estimates of INR 1,493mn; Gross margins contracted by 701 bps YoY (-314 bps QoQ) to 48.7% in Q2FY27.",
+        "Gross Profit stood at INR 1,438mn (+16.8% YoY/-0.5% QoQ); below our estimates of INR 1,493mn; Gross margins contracted by 701 bps YoY (-314 bps QoQ) to 48.7% in Q2FY27."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA stood at INR 1,064mn (+16.2% YoY/-1.6% QoQ); below our estimates of INR 1,127mn.",
+        "EBITDA margin contracted by 543 bps YoY (-276 bps QoQ) to 36% in Q2FY27.",
+        "Project-based operations and equipment transition caused ~300-400 bps margin impact."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Highlights Structural Growth Runway Backed by Policy and Order Book Visibility: Deep Industries is positioned at the centre of India's aggressive pivot from revenue-sharing to an exploration- first agenda.",
+        "PEC and Dolphin to Drive Margin Mix Upgrade from H2FY27: The 15-year, ~INR 14.02bn ONGC production enhancement contract is the key near-term catalyst."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Project-based operations and equipment transition caused ~300-400 bps margin impact."
+      ]
+    }
+  ]
 }

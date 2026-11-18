@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Anand Rathi Research India Equities Manish Valecha Research Analyst Vibha Jain Research Associate Cement Result Update India I Equities 14 November 2026 Star Cement Volume growth to outstrip the industry growth; maintain",
-  "fetchedAt": "2026-11-18T15:50:31.930Z"
+  "fetchedAt": "2026-11-18T15:50:31.930Z",
+  "brokerId": "anand-rathi",
+  "brokerDisplay": "Anand Rathi",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Anand Rathi published a stock note on Star Cement. Rating: BUY. Anand Rathi Research India Equities Manish Valecha Research Analyst Vibha Jain Research Associate Cement Result Update India I Equities 14 November 2026 Star Cement Volume growth to outstrip the industry growth; maintain",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Anand Rathi Research India Equities Manish Valecha Research Analyst Vibha Jain Research Associate Cement Result Update India I Equities 14 November 2026 Star Cement Volume growth to outstrip the industry growth; maintain",
+        "Anand Rathi Research India Equities Manish Valecha Research Analyst Vibha Jain Research Associate Cement Result Update India I Equities 14 November 2026 Star Cement Volume growth to outstrip the industry growth; maintain BUY Star Cement’s quarterly performance was impacted owing to floods in assam along with elevated cost environment."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Further, volume growth would continue to outstrip the industry demand growth.",
+        "The company’s capacity expansion remains a key long-term growth driver, targeting ~18-20 MTPA by FY31 with peak net debt/EBITDA capped at 1.5-1.6x.",
+        "Thus, we maintain BUY rating on the stock with a revised TP of Rs223 (from Rs265 earlier), valuing it at 10x Sep-28e EV/EBITDA."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "The company’s capacity expansion remains a key long-term growth driver, targeting ~18-20 MTPA by FY31 with peak net debt/EBITDA capped at 1.5-1.6x.",
+        "Thus, we maintain BUY rating on the stock with a revised TP of Rs223 (from Rs265 earlier), valuing it at 10x Sep-28e EV/EBITDA.",
+        "Expansion Updates: Targeting ~20m tonne cement capacity by FY31e (from current level of 9.7m tonne), the announced expansion will expand cement capacity to 18m tonne by FY29e."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The company’s capacity expansion remains a key long-term growth driver, targeting ~18-20 MTPA by FY31 with peak net debt/EBITDA capped at 1.5-1.6x.",
+        "Floods and High Cost Impacted Performance: The company’s cement sales volume (including clinker~74k tonne) grew by just 2% y/y to 1.2m tonne in Q2FY27, as the demand was impacted mainly due to floods in its key operating region."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Thus, we maintain BUY rating on the stock with a revised TP of Rs223 (from Rs265 earlier), valuing it at 10x Sep-28e EV/EBITDA."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Result Update 04th November, 2026 BUY Target Price 415 Happiest Minds Technologies Ltd IT Services Sector 1 Steady Quarter; Proposed Merger to Create Synergy Benefits Est.",
-  "fetchedAt": "2026-11-18T15:53:08.743Z"
+  "fetchedAt": "2026-11-18T15:53:08.743Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on Happiest Minds. Rating: BUY. Target ₹415. Result Update 04th November, 2026 BUY Target Price 415 Happiest Minds Technologies Ltd IT Services Sector 1 Steady Quarter; Proposed Merger to Create Synergy Benefits Est.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Result Update 04th November, 2026 BUY Target Price 415 Happiest Minds Technologies Ltd IT Services Sector 1 Steady Quarter; Proposed Merger to Create Synergy Benefits Est.",
+        "Result Update 04th November, 2026 BUY Target Price 415 Happiest Minds Technologies Ltd IT Services Sector 1 Steady Quarter; Proposed Merger to Create Synergy Benefits Est."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Actual for Q2FY27: Revenue – INLINE; EBIT Margin – INLINE ; PAT – MISS Change in Estimates YoY post Q2FY27 FY27E/FY28E: Revenue: 0.1%/0.2%; EBIT: 1.6%/0.5%, PAT: 0.3%/1.6% Recommendation Rationale • AI Adoption Enhancing Productivity and Client Outcomes: Happiest Minds is increasingly embedding AI across its delivery model through its internal programme such as Project Reimagine.",
+        "Its Generative AI Business Services unit delivered 135% YoY CC growth in H1FY27, indicating rising customer demand.",
+        "Platforms such as RelaiBuild, Ellipse and SecGenie are also gaining traction, with RelaiBuild deployed across ~15 existing clients and Ellipse serving 21 customers. • IP-Led Revenue and Annuity Services Supporting Growth: The contribution of IP-led revenue increased to 10.5% of total revenue in Q2 vs 9.3% in Q1."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹415.",
+        "Result Update 04th November, 2026 BUY Target Price 415 Happiest Minds Technologies Ltd IT Services Sector 1 Steady Quarter; Proposed Merger to Create Synergy Benefits Est.",
+        "The combined entity is targeting US$1 Bn in annual revenue by FY28.",
+        "Current Valuation: 22x Sep’27E EPS (Earlier Valuation: 22x Jun’27E EPS) Current TP: Rs 415/share (Unchanged) Recommendation: We maintain our BUY rating on the stock."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Sector Outlook: Positive Company Outlook & Guidance: Happiest Minds aims to deliver double-digit growth in constant currency for the year while maintaining EBITDA margins in the 20%-22% range (including other income).",
+        "Amid global headwinds, the company aims for above-industry growth, with resilient demand across its key verticals and integration of AI."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Platforms such as RelaiBuild, Ellipse and SecGenie are also gaining traction, with RelaiBuild deployed across ~15 existing clients and Ellipse serving 21 customers. • IP-Led Revenue and Annuity Services Supporting Growth: The contribution of IP-led revenue increased to 10.5% of total revenue in Q2 vs 9.3% in Q1."
+      ]
+    }
+  ]
 }

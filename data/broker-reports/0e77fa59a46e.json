@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Gross margins improved by 403bps YoY (+698 bps QoQ) at 28.9% in Q2FY27, supported by calibrated pricing and cost optimisation, though the full benefit was masked by ~18% cost inflation and seasonal price lock-ins coverin",
-  "fetchedAt": "2026-11-18T15:51:27.257Z"
+  "fetchedAt": "2026-11-18T15:51:27.257Z",
+  "brokerId": "arihant",
+  "brokerDisplay": "Arihant Capital",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Arihant Capital published a stock note on Voltas. Gross margins improved by 403bps YoY (+698 bps QoQ) at 28.9% in Q2FY27, supported by calibrated pricing and cost optimisation, though the full benefit was masked by ~18% cost inflation and seasonal price lock-ins coverin",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Gross margins improved by 403bps YoY (+698 bps QoQ) at 28.9% in Q2FY27, supported by calibrated pricing and cost optimisation, though the full benefit was masked by ~18% cost inflation and seasonal price lock-ins coverin",
+        "Gross margins improved by 403bps YoY (+698 bps QoQ) at 28.9% in Q2FY27, supported by calibrated pricing and cost optimisation, though the full benefit was masked by ~18% cost inflation and seasonal price lock-ins covering ~35% of volumes."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA stood at INR 128cr (+81.6% YoY/-51.8% QoQ), below our estimates of INR 135cr.",
+        "EBITDA margin improved 172 bps YoY (-96 bps QoQ) to 4.7% in Q2FY27.",
+        "PAT stood at INR 48cr (+51.5% YoY/-77.6% YoY), below our estimates of INR 93cr, and PAT margin improved 42 bps YoY (-279 bps QoQ) to 1.8% in Q2FY27."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Highlights Market leadership anchors structural growth: Voltas enters H2FY27 with a strengthened competitive moat in room air conditioners, holding 17.4% YTD market share and a 420bps lead over the nearest competitor (+120 bps YoY).",
+        "Q2 is seasonally the softest quarter, so sequential EBIT improvement into Q3 and a stronger Q4 is the key inflection to track, with downside risk limited if commodity and freight prices continue to soften."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "PAT stood at INR 48cr (+51.5% YoY/-77.6% YoY), below our estimates of INR 93cr, and PAT margin improved 42 bps YoY (-279 bps QoQ) to 1.8% in Q2FY27."
+      ]
+    }
+  ]
 }

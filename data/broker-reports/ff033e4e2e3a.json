@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "x ICICI Securities – Retail Equity Research Gokaldas Exports (GOKEXP) CMP: ₹ 683 Target ₹ 860 (26%) Target Period: 12 months November 18, 2026 Steady order book to aid growth momentum in H2FY27 ; … About the stock : Goka",
-  "fetchedAt": "2026-11-18T15:51:41.387Z"
+  "fetchedAt": "2026-11-18T15:51:41.387Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Gokaldas Exports. x ICICI Securities – Retail Equity Research Gokaldas Exports (GOKEXP) CMP: ₹ 683 Target ₹ 860 (26%) Target Period: 12 months November 18, 2026 Steady order book to aid growth momentum in H2FY27 ; … About the stock : Goka",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "x ICICI Securities – Retail Equity Research Gokaldas Exports (GOKEXP) CMP: ₹ 683 Target ₹ 860 (26%) Target Period: 12 months November 18, 2026 Steady order book to aid growth momentum in H2FY27 ; … About the stock : Goka",
+        "x ICICI Securities – Retail Equity Research Gokaldas Exports (GOKEXP) CMP: ₹ 683 Target ₹ 860 (26%) Target Period: 12 months November 18, 2026 Steady order book to aid growth momentum in H2FY27 ; … About the stock : Gokaldas Exports (Gokex), incorporated in 1979, is one of India’s largest manufacturers and exporters of apparel, exporting it to 50+ countries."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Q 1F Y2 7 performance : Gokex reported 13% YoY growth in consolidated revenues to Rs.1112.8cr.",
+        "India business revenues grew by 10% YoY to Rs.942cr while Africa business reported strong growth of 32% YoY to Rs.193cr.",
+        "Consolidated volumes grew by 9% YoY to 14.2mn pieces while realisation improved to Rs.726/piece (+4% YoY)."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Particulars Particuar Amount Market Capitalisation (₹ crore) 4,881 Debt (FY26) -₹ crore 1,273 Cash (FY26) - ₹ crore 424 EV (Rs crore) 5,730 52-week H/L (₹) 955 / 531 Equity capital (₹ crore) 36.6 Face value (₹) 5.0 Shareholding pattern Dec - 25 Mar - 26 Jun - 26 Sep - 26 Promoters 9.2 9.2 9.2 9.2 FII 23.7 19.9 14.5 13.4 DII 39.0 37.6 43.4 44.8 Others 28.8 28.8 28.8 28.8 Price Chart Key risks I.",
+        "Q 2FY2 7 – Key P erformance highlights • Gokex consolidated revenues grew by 13% YoY to Rs.1112.8cr in Q2FY27."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Consolidated volumes grew by 9% YoY to 14.2mn pieces while realisation improved to Rs.726/piece (+4% YoY)."
+      ]
+    }
+  ]
 }

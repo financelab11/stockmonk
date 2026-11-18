@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating HOLD HOLD Target Price 114 136 Sales (INR mn) 100,326 113,782 100,326 117,337 % Chng. - (3.0) EBITDA (INR mn) 5,048 5,699 4,573 5,412 % Chng. 10.4 5.3 E",
-  "fetchedAt": "2026-11-18T15:51:45.156Z"
+  "fetchedAt": "2026-11-18T15:51:45.156Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": "IRCON",
+  "market": "IN",
+  "sector": "Infrastructure, Rail & Cables",
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+12 negative corporate or estimate event"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on IRCON International. Rating: HOLD. Target ₹114. Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating HOLD HOLD Target Price 114 136 Sales (INR mn) 100,326 113,782 100,326 117,337 % Chng. - (3.0) EBITDA (INR mn) 5,048 5,699 4,573 5,412 % Chng. 10.4 5.3 E",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating HOLD HOLD Target Price 114 136 Sales (INR mn) 100,326 113,782 100,326 117,337 % Chng. - (3.0) EBITDA (INR mn) 5,048 5,699 4,573 5,412 % Chng. 10.4 5.3 E",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating HOLD HOLD Target Price 114 136 Sales (INR mn) 100,326 113,782 100,326 117,337 % Chng. - (3.0) EBITDA (INR mn) 5,048 5,699 4,573 5,412 % Chng. 10.4 5.3 EPS (INR) 7.3 7.9 7.7 8.5 % Chng."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA rose 61% YoY to INR 1.0bn, with margin at 4.9% vs 3.4% YoY.",
+        "However, PAT fell 34% YoY to INR 1.22bn (41% below our estimate), dragged by a 45% fall in other income to INR 976mn and a one-off tax of INR 127mn on the completed Sri Lanka project (tax rate 32.7% vs 18.4% YoY).",
+        "Order book stood at INR 213bn as on 1HFY27 (~2.4x TTM standalone revenue) vs INR 234bn in Q1FY27 and INR 250bn at FY26-end, implying inflows lagged execution during the quarter (implied H1 inflow of only ~INR 2bn); mix at ~76% railways, 91% domestic orders, 55% competitively bid."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "Target price ₹114.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating HOLD HOLD Target Price 114 136 Sales (INR mn) 100,326 113,782 100,326 117,337 % Chng. - (3.0) EBITDA (INR mn) 5,048 5,699 4,573 5,412 % Chng. 10.4 5.3 EPS (INR) 7.3 7.9 7.7 8.5 % Chng.",
+        "Management now guides FY27E standalone revenue at INR 90-95bn (vs “broadly stable” earlier) and targets order inflows of INR 90-100bn; only ~INR 10bn has been secured so far.",
+        "We retain HOLD rating with revised TP of INR 114 (earlier INR 136) as we lower EPS for FY28E/29E by 5%/7% factoring lower execution and value EPC at lower multiple of 20x 1HFY29."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(5.2) (7.1) Key Data IRCN.BO | IRCON IN BSE Code 541956 NSE Code IRCON 52-W High / Low INR 186 / INR 95 Face Value 2 Sensex / Nifty 79,310 / 24,537 Market Cap INR 100 bn / $ 1,060 mn Shares Outstanding 940.52 mn 3M Avg.",
+        "PAT 1,635 9% 1,219 -34.0% 1,272 39% 2,432 27% Source: Company, PL Earnings Call Highlights Overall: Management described the operating environment as challenging, with sectoral headwinds and rising competition."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Order book stood at INR 213bn as on 1HFY27 (~2.4x TTM standalone revenue) vs INR 234bn in Q1FY27 and INR 250bn at FY26-end, implying inflows lagged execution during the quarter (implied H1 inflow of only ~INR 2bn); mix at ~76% railways, 91% domestic orders, 55% competitively bid."
+      ]
+    }
+  ]
 }

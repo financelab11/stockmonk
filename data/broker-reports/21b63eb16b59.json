@@ -31,5 +31,49 @@
     ]
   },
   "blurb": "x ICICI Securities – Retail Equity Research ABB India (ABB ) CMP: ₹6935 Target ₹ 8275 (19%) Target Period: 12 months November 17, 2026 Record order inflows drive healthy growth; margin recovery remains key … About the st",
-  "fetchedAt": "2026-11-18T15:49:33.923Z"
+  "fetchedAt": "2026-11-18T15:49:33.923Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+12 positive corporate or estimate event"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on ABB India. x ICICI Securities – Retail Equity Research ABB India (ABB ) CMP: ₹6935 Target ₹ 8275 (19%) Target Period: 12 months November 17, 2026 Record order inflows drive healthy growth; margin recovery remains key … About the st",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "x ICICI Securities – Retail Equity Research ABB India (ABB ) CMP: ₹6935 Target ₹ 8275 (19%) Target Period: 12 months November 17, 2026 Record order inflows drive healthy growth; margin recovery remains key … About the st",
+        "x ICICI Securities – Retail Equity Research ABB India (ABB ) CMP: ₹6935 Target ₹ 8275 (19%) Target Period: 12 months November 17, 2026 Record order inflows drive healthy growth; margin recovery remains key … About the stock : ABB is a technology leader in electrification and automation, enabling a more sustainable and resource-efficient future."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Q 3C Y2 6 performance : ABB India reported Q3CY26 revenue of ₹3,738 crore, up 19.4% YoY and 5.0% QoQ.",
+        "EBITDA grew 13.7% YoY to ₹552 crore, while EBITDA margin contracted 75 bps YoY to 14.8%.",
+        "Gross margin declined 79 bps YoY to 40.9%, as COGS increased 21.0% YoY to ₹2,211 crore, outpacing revenue growth."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "x ICICI Securities – Retail Equity Research ABB India (ABB ) CMP: ₹6935 Target ₹ 8275 (19%) Target Period: 12 months November 17, 2026 Record order inflows drive healthy growth; margin recovery remains key … About the stock : ABB is a technology leader in electrification and automation, enabling a more sustainable and resource-efficient future.",
+        "It operates in mainly three key segments including motion (36%), electrification (45%), industrial/process automation (19%)."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Gross margin declined 79 bps YoY to 40.9%, as COGS increased 21.0% YoY to ₹2,211 crore, outpacing revenue growth."
+      ]
+    }
+  ]
 }

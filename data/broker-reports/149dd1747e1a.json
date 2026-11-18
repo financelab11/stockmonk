@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Bector Foods delivered a record revenue in Q2FY27 with sequentially stable margin.",
-  "fetchedAt": "2026-11-18T15:51:48.710Z"
+  "fetchedAt": "2026-11-18T15:51:48.710Z",
+  "brokerId": "anand-rathi",
+  "brokerDisplay": "Anand Rathi",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Anand Rathi published a stock note on Mrs. Bectors Food Specialities. Rating: BUY. Bector Foods delivered a record revenue in Q2FY27 with sequentially stable margin.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Bector Foods delivered a record revenue in Q2FY27 with sequentially stable margin.",
+        "Bector Foods delivered a record revenue in Q2FY27 with sequentially stable margin."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "While its revenue grew 14% y/y, EBITDA margin stood at 13.1%, in line with street estimate of 13%.",
+        "It expects FY27 revenue growth in mid-teens (H2 at mid-to-high teens), aided by price hikes in Oct-Nov, distribution expansion, premiumisation and recovery of deferred export orders.",
+        "With inflation peaking in Q3FY27, the management aims to sustain EBITDA margin at ~13.1% before improving to 13.5-14% in Q4FY27 and reiterated its 14-15% medium-term target."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "With inflation peaking in Q3FY27, the management aims to sustain EBITDA margin at ~13.1% before improving to 13.5-14% in Q4FY27 and reiterated its 14-15% medium-term target.",
+        "Considering healthy earnings visibility and reasonable valuation, we retain BUY rating on the stock with a higher TP of Rs275 (from Rs250 earlier), valuing it at 35x Sep-28 EPS (vs. 35x FY28e EPS earlier).",
+        "Management Commentary: On distribution, the company added ~30k of its targeted 40k direct outlets in H1, taking the total to ~345k."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Introducing our estimates for FY29e, we tweak our FY27/28e earnings estimate to factor in strong Q2 performance and growth outlook.",
+        "Outlook and Valuation: At CMP, the stock trades at 37/29/25x FY27/28/ 29e EPS of Rs5.7/7.2/8.5."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "With inflation peaking in Q3FY27, the management aims to sustain EBITDA margin at ~13.1% before improving to 13.5-14% in Q4FY27 and reiterated its 14-15% medium-term target."
+      ]
+    }
+  ]
 }

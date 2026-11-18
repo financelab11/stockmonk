@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "PAT 3,068 3,360 4,366 7,212 Growth YoY % 12.1 9.5 29.9 65.2 Adj.",
-  "fetchedAt": "2026-11-18T15:50:26.837Z"
+  "fetchedAt": "2026-11-18T15:50:26.837Z",
+  "brokerId": "nirmal-bang",
+  "brokerDisplay": "Nirmal Bang",
+  "ticker": "AMBER",
+  "market": "IN",
+  "sector": "Defence & Electronics",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Nirmal Bang published a stock note on Amber Enterprises. Rating: HOLD. PAT 3,068 3,360 4,366 7,212 Growth YoY % 12.1 9.5 29.9 65.2 Adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "PAT 3,068 3,360 4,366 7,212 Growth YoY % 12.1 9.5 29.9 65.2 Adj.",
+        "PAT 3,068 3,360 4,366 7,212 Growth YoY % 12.1 9.5 29.9 65.2 Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Key Points  Revenue was Rs 26.3 bn (+59.5% YoY), 28% above our estimate, but EBITDA margin contracted 179 bps to 3.7% on partial commodity pass-through (~50%, balance from Q3), rupee depreciation, minimum-wage revisions, Sri City Unit 2 under-absorption, fixed-price railway contracts and a Rs 135 mn PPA inventory unwind.",
+        "EBITDA of Rs 985 mn missed our estimate by 19%, and the adjusted loss was Rs 706 mn (vs our estimated profit of Rs 82 mn)  Consumer durables: Revenue increased 41% YoY to Rs 12.5 bn, supported by commercial ACs, ~8% higher blended prices and volume growth, albeit on a weak base.",
+        "Segment EBITDA turned negative at Rs 139 mn (–1.1% margin) vs 3.7% a year ago.  Electronics division: A 94% YoY increase in revenue to Rs 12.5 bn reflected acquisitions and ~35% organic growth."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "We value Amber on an SOTP basis, averaging the P/E and EV/EBITDA methods on Q2FY29E.",
+        "With limited upside of ~11%, we downgrade Amber to HOLD (from BUY) with a TP of Rs 7,530. 2QFY27 performance update: Consolidated revenue grew 59.5% YoY to Rs 26.3 bn, led by Electronics (+94%, now 47% of revenue) and Consumer Durables (+41%), with Mobility up 15%.",
+        "Higher depreciation (+61%) and interest (+24%) led to an adjusted loss of Rs 706 mn) CMP: Rs6,772 | Target Price (TP): Rs7,530 | Upside: 11.2% November 15, 2026 Institutional Equities Amber Enterprises 2 Consumer durables — The management expects room-AC industry growth of 20–22% in FY27 and says Amber will grow in line with it, though it declined to commit to a specific 20% for Amber."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Points  Revenue was Rs 26.3 bn (+59.5% YoY), 28% above our estimate, but EBITDA margin contracted 179 bps to 3.7% on partial commodity pass-through (~50%, balance from Q3), rupee depreciation, minimum-wage revisions, Sri City Unit 2 under-absorption, fixed-price railway contracts and a Rs 135 mn PPA inventory unwind.",
+        "Our near-term concerns are a shrinking stake in a fast-growing PCB business and muted profit growth in Consumer Durables and Mobility."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Segment EBITDA turned negative at Rs 139 mn (–1.1% margin) vs 3.7% a year ago.  Electronics division: A 94% YoY increase in revenue to Rs 12.5 bn reflected acquisitions and ~35% organic growth."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Consolidated revenue increased 16% YoY to INR 78,750 cr, supported by accelerated project execution.",
-  "fetchedAt": "2026-11-18T15:53:15.092Z"
+  "fetchedAt": "2026-11-18T15:53:15.092Z",
+  "brokerId": "ventura",
+  "brokerDisplay": "Ventura Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Ventura Securities published a result update on Larsen & Toubro. Rating: BUY. Consolidated revenue increased 16% YoY to INR 78,750 cr, supported by accelerated project execution.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Consolidated revenue increased 16% YoY to INR 78,750 cr, supported by accelerated project execution.",
+        "Consolidated revenue increased 16% YoY to INR 78,750 cr, supported by accelerated project execution."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Infrastructure & Utilities revenue grew 6% YoY to INR 25,133 cr, while Energy–Conventional increased 29% YoY to INR 17,285 cr.",
+        "Energy–Green revenue surged 43% YoY to INR 11,493 cr, driven by solar and offshore wind execution.",
+        "EBITDA increased marginally by 3.5% YoY to INR 8,814 cr, while margins contracted 130 bps YoY to 11.2%, reflecting higher project costs and an increased contribution from lower-margin businesses."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Valuation call – At CMP of INR 3,948, we recommend BUY for L&T with a price target of INR 4,743 (13.2X FY29 EV/EBITDA), representing an upside of 20.1%.",
+        "Management expects year-end working capital to remain below its earlier 10% guidance. • AI Data Centre Expansion: L&T reorganised its data centre operations under Vyoma AI, targeting deployment of over 10,000 NVIDIA B300 GPUs at Chennai by January 2027.",
+        "Management indicated approximately USD 750 mn in GPU investments and plans to expand data centre capacity beyond 100 MW over the next 18–24 months. • Semiconductor and Defence Opportunities: L&T unveiled 40 semiconductor products, including a 1,200V silicon carbide MOSFET, targeting EVs, renewables and industrial applications."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Defence opportunities include marine platforms, armoured systems and the AMCA programme. • Hyderabad Metro Exit and FY27 Outlook: Hyderabad Metro divestment completion has been extended to December 31, 2026.",
+        "And such person shall be responsible for conducting his/her/their own investigation and analysis of the information contained or referred to in this document and of evaluating the merits and risks involved in the securities forming the subject matter of this document."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "EBITDA increased marginally by 3.5% YoY to INR 8,814 cr, while margins contracted 130 bps YoY to 11.2%, reflecting higher project costs and an increased contribution from lower-margin businesses."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Management attributed the growth mainly to the 6 MTPA Central India expansion (March’26), noting market share gains in Central India while share was maintained in the North; the Bihar grinding unit is at ~50% utilisation",
-  "fetchedAt": "2026-11-18T15:51:45.773Z"
+  "fetchedAt": "2026-11-18T15:51:45.773Z",
+  "brokerId": "way2wealth",
+  "brokerDisplay": "Way2Wealth",
+  "ticker": "JKCEMENT",
+  "market": "IN",
+  "sector": "Real Estate & Building Materials",
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Way2Wealth published a result update on J K Cement. Management attributed the growth mainly to the 6 MTPA Central India expansion (March’26), noting market share gains in Central India while share was maintained in the North; the Bihar grinding unit is at ~50% utilisation",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Management attributed the growth mainly to the 6 MTPA Central India expansion (March’26), noting market share gains in Central India while share was maintained in the North; the Bihar grinding unit is at ~50% utilisation",
+        "Management attributed the growth mainly to the 6 MTPA Central India expansion (March’26), noting market share gains in Central India while share was maintained in the North; the Bihar grinding unit is at ~50% utilisation."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Capex is guided at ~₹3,500crs in FY27 and ~₹2,500crs annually thereafter. • Pricing – Q2FY27 realisation gains were only marginal, but prices rose by ~₹20/bag (trade and non- trade combined) from mid-September.",
+        "Management said a further ₹10-15/bag is needed to fully cover cost increases (fuel, packaging and rupee-linked imports), and that this could come after Diwali once labour returns around the 20th of November.",
+        "For white cement, further price hikes are seen as challenging given customer resistance. • Cost outlook (Q3/Q4FY27 guidance) – Fuel cost of ₹1.71/kcal in Q2FY27 was held down by a lower pet coke share (~30-35%) and consumption of older-priced inventory."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "For white cement, further price hikes are seen as challenging given customer resistance. • Cost outlook (Q3/Q4FY27 guidance) – Fuel cost of ₹1.71/kcal in Q2FY27 was held down by a lower pet coke share (~30-35%) and consumption of older-priced inventory.",
+        "Packaging costs are seen to have peaked, though rupee depreciation remains a risk, and Q2 maintenance was routine with no one-offs."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "For white cement, further price hikes are seen as challenging given customer resistance. • Cost outlook (Q3/Q4FY27 guidance) – Fuel cost of ₹1.71/kcal in Q2FY27 was held down by a lower pet coke share (~30-35%) and consumption of older-priced inventory."
+      ]
+    }
+  ]
 }

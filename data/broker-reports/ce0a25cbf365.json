@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Per (%) -18/-41/-54 12M Avg Val (INR M) 1197 Financial Snapshot (INR b) Y/E March FY26 FY27E FY28E Sales 44.0 52.4 66.0 Sales Gr. % 23.6 19.1 26.1 EBITDA 8.9 9.2 12.6 EBITDA margin % 20.3 17.6 19.1 Adj.",
-  "fetchedAt": "2026-11-18T15:50:29.911Z"
+  "fetchedAt": "2026-11-18T15:50:29.911Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": "INOXWIND",
+  "market": "IN",
+  "sector": "Power & Renewables",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on Inox Wind. Rating: BUY. Target ₹74 (+14% vs ₹65). Per (%) -18/-41/-54 12M Avg Val (INR M) 1197 Financial Snapshot (INR b) Y/E March FY26 FY27E FY28E Sales 44.0 52.4 66.0 Sales Gr. % 23.6 19.1 26.1 EBITDA 8.9 9.2 12.6 EBITDA margin % 20.3 17.6 19.1 Adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Per (%) -18/-41/-54 12M Avg Val (INR M) 1197 Financial Snapshot (INR b) Y/E March FY26 FY27E FY28E Sales 44.0 52.4 66.0 Sales Gr. % 23.6 19.1 26.1 EBITDA 8.9 9.2 12.6 EBITDA margin % 20.3 17.6 19.1 Adj.",
+        "Per (%) -18/-41/-54 12M Avg Val (INR M) 1197 Financial Snapshot (INR b) Y/E March FY26 FY27E FY28E Sales 44.0 52.4 66.0 Sales Gr. % 23.6 19.1 26.1 EBITDA 8.9 9.2 12.6 EBITDA margin % 20.3 17.6 19.1 Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA margin stood at 15% vs. our estimate of 17%, impacted by commodity/raw material inflation and supply chain cost headwinds.",
+        "Margin pressure and lower other income weigh on earnings Financial Highlights  Consolidated revenue stood at INR13.5b (+21% YoY, +66% QoQ), 7% above our estimate.  EBITDA came in at INR2.1b (-10% YoY, +35% QoQ), 5% below our estimate.",
+        "EBITDA margin contracted 400bp QoQ to 15%.  APAT stood at INR0.5b (-45% YoY, +14% QoQ), 46% below our estimate, largely attributable to lower-than-expected other income, as WindWorld’s income was not consolidated in 2QFY27, unlike in 1QFY27."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹74 against a market price of ₹65 at the report date.",
+        "The business generated ~INR5.8b revenue in FY26, with Inox Green holding a 75% stake.  The 4X turbine prototype installation is complete, with commissioning expected shortly and commercial launch targeted by end-FY27.",
+        "Valuation and view  Based on a valuation multiple of 20x FY28E EPS, we arrive at a TP of INR74 per share.",
+        "FY28 guidance  Management has provided an initial FY28 revenue target of ~INR75b.  The company will review and reaffirm the FY28 outlook at the end of 4QFY27.  Long-term EBITDA margin objective remains at ~20%, supported by greater equipment-supply contribution, operating leverage, and higher manufacturing value addition."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "EBITDA margin stood at 15% vs. our estimate of 17%, impacted by commodity/raw material inflation and supply chain cost headwinds.",
+        "Turnkey orders currently account for ~39%.  The strategy involves consciously giving up certain turnkey orders/revenue opportunities to reduce working-capital intensity, improve collections, and strengthen the balance sheet."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "EBITDA margin contracted 400bp QoQ to 15%.  APAT stood at INR0.5b (-45% YoY, +14% QoQ), 46% below our estimate, largely attributable to lower-than-expected other income, as WindWorld’s income was not consolidated in 2QFY27, unlike in 1QFY27."
+      ]
+    }
+  ]
 }

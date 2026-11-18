@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Result Update 6th November, 2026 BUY Target Price 935 Pricol Ltd Auto Ancillary 1 Premium Product Growth; Capacity Expansion & New OEM Wins Drive Growth Est.",
-  "fetchedAt": "2026-11-18T15:52:30.430Z"
+  "fetchedAt": "2026-11-18T15:52:30.430Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on Pricol Ltd. Rating: BUY. Target ₹935. Result Update 6th November, 2026 BUY Target Price 935 Pricol Ltd Auto Ancillary 1 Premium Product Growth; Capacity Expansion & New OEM Wins Drive Growth Est.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Result Update 6th November, 2026 BUY Target Price 935 Pricol Ltd Auto Ancillary 1 Premium Product Growth; Capacity Expansion & New OEM Wins Drive Growth Est.",
+        "Result Update 6th November, 2026 BUY Target Price 935 Pricol Ltd Auto Ancillary 1 Premium Product Growth; Capacity Expansion & New OEM Wins Drive Growth Est."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Margin headwinds stem from rupee depreciation against the US dollar, bare PCB price spikes linked to the West Asia crisis, memory chip inflation driven by AI demand, and surging labor, power, and casting expenses.",
+        "Simultaneously, corporate restructuring into two standalone operating divisions- Driver Information & Connected Vehicle Solutions (DICVS) and Asset Management & Control Fuel Management Systems (ACFMS) commenced internal divisionalization in Oct’26 and targets full operational separation by April 1, 2027, sharpening capital allocation and facilitating standalone equity valuation.",
+        "Company Outlook & Guidance: Pricol Ltd maintains strong growth visibility driven by market share gains, product premiumization, two-wheeler demand, and exports to Caterpillar."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹935.",
+        "Result Update 6th November, 2026 BUY Target Price 935 Pricol Ltd Auto Ancillary 1 Premium Product Growth; Capacity Expansion & New OEM Wins Drive Growth Est.",
+        "Simultaneously, corporate restructuring into two standalone operating divisions- Driver Information & Connected Vehicle Solutions (DICVS) and Asset Management & Control Fuel Management Systems (ACFMS) commenced internal divisionalization in Oct’26 and targets full operational separation by April 1, 2027, sharpening capital allocation and facilitating standalone equity valuation.",
+        "To resolve plastics capacity constraints, Pricol is executing a Rs 350 Cr CapEx over 6 quarters (target asset turn 3.0x to 3.25x), with commercialization starting in H2 FY27 and revenue acceleration in FY28."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Margin headwinds stem from rupee depreciation against the US dollar, bare PCB price spikes linked to the West Asia crisis, memory chip inflation driven by AI demand, and surging labor, power, and casting expenses.",
+        "Company Outlook & Guidance: Pricol Ltd maintains strong growth visibility driven by market share gains, product premiumization, two-wheeler demand, and exports to Caterpillar."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Company Outlook & Guidance: Pricol Ltd maintains strong growth visibility driven by market share gains, product premiumization, two-wheeler demand, and exports to Caterpillar."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Aarti Industries surpassed Rs 3,600 Cr in quarterly revenue, driven by fuel additives and Zone 4 commercialisation.",
-  "fetchedAt": "2026-11-18T15:49:29.746Z"
+  "fetchedAt": "2026-11-18T15:49:29.746Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on Daily Fundamental View:November 18, 2026. Aarti Industries surpassed Rs 3,600 Cr in quarterly revenue, driven by fuel additives and Zone 4 commercialisation.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Aarti Industries surpassed Rs 3,600 Cr in quarterly revenue, driven by fuel additives and Zone 4 commercialisation.",
+        "Aarti Industries surpassed Rs 3,600 Cr in quarterly revenue, driven by fuel additives and Zone 4 commercialisation."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Conversely, Apcotex Industries and NOCIL faced margin pressure from raw material inflation and elevated conversion costs.",
+        "Camlin Fine Sciences remained under severe financial stress due to liquidity constraints and continued suspension of its Dahej diphenol facility. • Outlook and Guidance: Sectoral recovery is expected to remain uneven, with high-barrier specialty chemicals, fluorochemicals, and CDMO platforms offering superior earnings visibility.",
+        "Commercialisation of recently commissioned capacities is expected to drive operating leverage, while semiconductor chemicals and advanced CDMO platforms remain key growth opportunities."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Adding to market anxiety, reports of a National Security Agency network outage heightened concerns over the resilience of the nation’s technology infrastructure, further weighing on investor sentiment.",
+        "Capacity commercialisation emerged as a key operating theme. • Chemistry Plays: Companies leveraging advanced fluorination chemistry, specialty ingredients, and integrated CDMO platforms outperformed."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Commercialisation of recently commissioned capacities is expected to drive operating leverage, while semiconductor chemicals and advanced CDMO platforms remain key growth opportunities."
+      ]
+    }
+  ]
 }

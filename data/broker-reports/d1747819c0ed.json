@@ -30,5 +30,48 @@
     ]
   },
   "blurb": "Important Data • Consolidated revenue grew by 36% to ₹1,088crs.",
-  "fetchedAt": "2026-11-18T15:49:25.707Z"
+  "fetchedAt": "2026-11-18T15:49:25.707Z",
+  "brokerId": "way2wealth",
+  "brokerDisplay": "Way2Wealth",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Way2Wealth published a result update on Emami. Important Data • Consolidated revenue grew by 36% to ₹1,088crs.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Important Data • Consolidated revenue grew by 36% to ₹1,088crs.",
+        "Important Data • Consolidated revenue grew by 36% to ₹1,088crs."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "On a like-to-like basis, considering the previous period revenue of Axiom and IncNut Digital, consolidated sales grew by 24%, and domestic business grew 32% with a volume growth of 26%. • The sharp Q2 gross-margin contraction was primarily driven by an unfavorable mix shift toward lower-margin strategic investments.",
+        "Management believes the margin pressure is transitional rather than structural and expects these investments to achieve high single-digit EBITDA margins over the medium to long term.",
+        "Despite these pressures, EBITDA grew by 25% to ₹222crs, and profit before tax grew by 29% to ₹194crs. • Profit after tax stood at ₹ 144crs, lower by 3%, and that is largely due to the normalization of the effective tax rate following the phasing out of fiscal benefits."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Outlook and other points • Second-half growth guidance is 18–20% for the total business. • Rural demand is mixed.",
+        "At 20x estimated FY28 earnings, the stock trades at a significant discount to most FMCG peers, partly reflecting the high seasonality risk in its portfolio and near-term margin pressure."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Despite these pressures, EBITDA grew by 25% to ₹222crs, and profit before tax grew by 29% to ₹194crs. • Profit after tax stood at ₹ 144crs, lower by 3%, and that is largely due to the normalization of the effective tax rate following the phasing out of fiscal benefits."
+      ]
+    }
+  ]
 }

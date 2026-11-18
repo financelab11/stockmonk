@@ -29,5 +29,57 @@
     ]
   },
   "blurb": "BFL aims for retail credit market share expansion to 3.5–4% by FY30, from 2.8% currently, implying 23–25% AUM/PAT CAGRs each and RoE of 19–21%.",
-  "fetchedAt": "2026-11-18T15:50:56.210Z"
+  "fetchedAt": "2026-11-18T15:50:56.210Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 21% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Bajaj Finance. Rating: BUY. Target ₹1,350 (+21% vs ₹1,115). BFL aims for retail credit market share expansion to 3.5–4% by FY30, from 2.8% currently, implying 23–25% AUM/PAT CAGRs each and RoE of 19–21%.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "BFL aims for retail credit market share expansion to 3.5–4% by FY30, from 2.8% currently, implying 23–25% AUM/PAT CAGRs each and RoE of 19–21%.",
+        "BFL aims for retail credit market share expansion to 3.5–4% by FY30, from 2.8% currently, implying 23–25% AUM/PAT CAGRs each and RoE of 19–21%."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "AUM/PAT likely to grow at >20% with RoE at 19-21% driven by AI-enabled business process and customer-centric approach BFL’s FY26–30 business roadmap revolves around its increased focus on leveraging its strong ecosystem – product offerings, customer franchise and revamped AI-enabled tech stack.",
+        "It aims to sustain >20% AUM and PAT growth in the medium term, despite being one of the largest NBFCs in terms of AUM as on Sep’26.",
+        "Source: SES ESG, I-sec research Previous Reports 20-10-2026: Q2FY27 results review 31-07-2026: Q1FY27 results review Bajaj Finance | Company Update | 12 November 2026 India | Institutional Equity Research 2 Key risks: 1) Credit cost above company guidance; and 2) AUM growth below company guidance."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹1,350 against a market price of ₹1,115 at the report date.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "In the rest of its key lending products, BFL currently has 1–9% market share vs. industry market share of 18–62% (on BFL’s customer franchise).",
+        "Source: SES ESG, I-sec research Previous Reports 20-10-2026: Q2FY27 results review 31-07-2026: Q1FY27 results review Bajaj Finance | Company Update | 12 November 2026 India | Institutional Equity Research 2 Key risks: 1) Credit cost above company guidance; and 2) AUM growth below company guidance."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Source: SES ESG, I-sec research Previous Reports 20-10-2026: Q2FY27 results review 31-07-2026: Q1FY27 results review Bajaj Finance | Company Update | 12 November 2026 India | Institutional Equity Research 2 Key risks: 1) Credit cost above company guidance; and 2) AUM growth below company guidance."
+      ]
+    }
+  ]
 }

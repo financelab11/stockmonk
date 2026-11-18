@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Management expects the installed capacity is to support an annual revenue run rate of over ₹1,300 crore by FY28-end, with revenue ramp-up expected from Q4FY27E and full utilisation by H1FY28E.",
-  "fetchedAt": "2026-11-18T15:52:04.248Z"
+  "fetchedAt": "2026-11-18T15:52:04.248Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Azad Engineering. Management expects the installed capacity is to support an annual revenue run rate of over ₹1,300 crore by FY28-end, with revenue ramp-up expected from Q4FY27E and full utilisation by H1FY28E.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Management expects the installed capacity is to support an annual revenue run rate of over ₹1,300 crore by FY28-end, with revenue ramp-up expected from Q4FY27E and full utilisation by H1FY28E.",
+        "Management expects the installed capacity is to support an annual revenue run rate of over ₹1,300 crore by FY28-end, with revenue ramp-up expected from Q4FY27E and full utilisation by H1FY28E."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The existing business continues to benefit from strong global demand, with H1FY27 Energy & Oil and Gas and Aerospace & Defence revenues growing 28.5% and 28.3%, respectively.",
+        "Despite carrying costs associated with newly commissioned facilities, EBITDA margin improved 150 bps YoY to 37.5% in Q2FY27, supported by operating leverage, local sourcing and backward integration.",
+        "Management expects the largely established cost base to be absorbed as revenue ramps up, supporting further profitability improvement."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The company currently caters to less than 2% of the wallet share of its customers, providing scope to increase participation through additional product qualifications and higher production volumes. • The company is evaluating further growth opportunities through selective acquisitions, manufacturing of larger components, full-stack production and co-location with key OEMs.",
+        "Investments in securities market are subject to market risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management expects the largely established cost base to be absorbed as revenue ramps up, supporting further profitability improvement."
+      ]
+    }
+  ]
 }

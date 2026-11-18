@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Positives: • Blended realizations at Rs4,981/ton (+1.2% yoy, +1.1% qoq) saw qoq improvement on better trade prices in south region. • EBITDA for the quarter was flat qoq at Rs660/ton (7.2% above our estimate) in contrast",
-  "fetchedAt": "2026-11-18T15:52:31.424Z"
+  "fetchedAt": "2026-11-18T15:52:31.424Z",
+  "brokerId": "kotak",
+  "brokerDisplay": "Kotak Institutional Equities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Kotak Institutional Equities published a result update on The Ramco Cements. Rating: SELL. Positives: • Blended realizations at Rs4,981/ton (+1.2% yoy, +1.1% qoq) saw qoq improvement on better trade prices in south region. • EBITDA for the quarter was flat qoq at Rs660/ton (7.2% above our estimate) in contrast",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Positives: • Blended realizations at Rs4,981/ton (+1.2% yoy, +1.1% qoq) saw qoq improvement on better trade prices in south region. • EBITDA for the quarter was flat qoq at Rs660/ton (7.2% above our estimate) in contrast",
+        "Positives: • Blended realizations at Rs4,981/ton (+1.2% yoy, +1.1% qoq) saw qoq improvement on better trade prices in south region. • EBITDA for the quarter was flat qoq at Rs660/ton (7.2% above our estimate) in contrast to peers, which saw a qoq decline of ~Rs180/ton in our coverage universe."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Negatives: • Costs at Rs4,321/ton (+6.2% yoy, +1.4% qoq) were marginally higher than estimates on operating deleverage and higher raw material-energy costs. • We expect cost impact to outpace price hikes in the near term.",
+        "(EV: Enterprise Value; EBITDA: Earnings Before Interest, Tax, Depreciation and Amortization) ` ` ` The content of this document has been derived from KIE research report.",
+        "Reports based on technical analysis centers on studying charts of a stock's price movement and trading volume, as opposed to focusing on a company's fundamentals and as such, may not match with a report on a company's fundamentals."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: SELL.",
+        "Kotak Securities is not assigning any rating or price target to the stock.",
+        "Kotak Securities has suspended the investment rating and price target for this stock, either because there is not a sufficient fundamental basis for determining, or there are legal, regulatory or policy constraints around publishing, an investment rating or target.",
+        "The previous investment rating and price target, if any, are no longer in effect for this stock and should not be relied upon."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Certain transactions -including those involving futures, options and other derivatives as well as non-investment grade securities - involve substantial risk and are not suitable for all investors.",
+        "The views provided herein are general in nature and does not consider risk appetite or investment objective of particular investor; readers are requested to take independent professional advice before investing."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Reports based on technical analysis centers on studying charts of a stock's price movement and trading volume, as opposed to focusing on a company's fundamentals and as such, may not match with a report on a company's fundamentals."
+      ]
+    }
+  ]
 }

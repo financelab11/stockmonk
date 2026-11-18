@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "The earnings upside was largely driven by NPC's significant contribution of 40% to consolidated revenue and improved margin.",
-  "fetchedAt": "2026-11-18T15:50:06.864Z"
+  "fetchedAt": "2026-11-18T15:50:06.864Z",
+  "brokerId": "choice",
+  "brokerDisplay": "Choice Broking",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 25% change"
+    ]
+  },
+  "execSummary": "Choice Broking published a stock note on MAN Industries (I). Rating: BUY. Target ₹1,030 (+25% vs ₹821). The earnings upside was largely driven by NPC's significant contribution of 40% to consolidated revenue and improved margin.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "The earnings upside was largely driven by NPC's significant contribution of 40% to consolidated revenue and improved margin.",
+        "The earnings upside was largely driven by NPC's significant contribution of 40% to consolidated revenue and improved margin."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "MAN subsidiary National Pipe Company (NPC) reported revenue of INR 4.8 Bn this quarter as compared to INR 430 Mn in Q1FY27, with 45% capacity utilisation and an EBITDA margin of 18%.",
+        "The current order book stands at INR 35 Bn, with a bid book of INR 190 Bn.",
+        "Our positive stance is underpinned by: 1) Strong Earnings Trajectory: We forecast Revenue / EBITDA / PAT CAGR of 31% / 42% / 61% over FY26–29E, respectively, supported by a strong order book and a healthy bid pipeline 2) Balance Sheet Upside from Non-core Asset Monetisation: Monetisation of Navi Mumbai land parcel is likely to generate INR 7–8 Bn/year cash inflow for the next 3–5 years."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹1,030 against a market price of ₹821 at the report date.",
+        "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Change in Estimates Target Price Change Recommendation Man Industries: Value-added Products to Boost Profitability Institutional Equities | Building Materials Actual vs CIE Estimate INR Bn Q2FY27A CIE Est.",
+        "The earnings upside was largely driven by NPC's significant contribution of 40% to consolidated revenue and improved margin.",
+        "Our positive stance is underpinned by: 1) Strong Earnings Trajectory: We forecast Revenue / EBITDA / PAT CAGR of 31% / 42% / 61% over FY26–29E, respectively, supported by a strong order book and a healthy bid pipeline 2) Balance Sheet Upside from Non-core Asset Monetisation: Monetisation of Navi Mumbai land parcel is likely to generate INR 7–8 Bn/year cash inflow for the next 3–5 years."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "View & Valuation We believe MAN is poised for a strong growth trajectory over the next 3–5 years, driven by an improving business outlook, strong earnings visibility, a healthy order book, capacity expansion and higher operating leverage.",
+        "This Report does not take into account the specific investment objectives, financial situation, risk profile, or particular needs of any individual or class of investors and does not constitute a personal recommendation or investment advice."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Our positive stance is underpinned by: 1) Strong Earnings Trajectory: We forecast Revenue / EBITDA / PAT CAGR of 31% / 42% / 61% over FY26–29E, respectively, supported by a strong order book and a healthy bid pipeline 2) Balance Sheet Upside from Non-core Asset Monetisation: Monetisation of Navi Mumbai land parcel is likely to generate INR 7–8 Bn/year cash inflow for the next 3–5 years."
+      ]
+    }
+  ]
 }

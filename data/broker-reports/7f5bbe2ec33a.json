@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "Management stated that retail segment’s demand improved, while the project segment remained healthy.",
-  "fetchedAt": "2026-11-18T15:52:16.170Z"
+  "fetchedAt": "2026-11-18T15:52:16.170Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 58% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Cera Sanitaryware. Rating: BUY. Target ₹7,578 (+58% vs ₹4,802). Management stated that retail segment’s demand improved, while the project segment remained healthy.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Management stated that retail segment’s demand improved, while the project segment remained healthy.",
+        "Management stated that retail segment’s demand improved, while the project segment remained healthy."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "CRS has maintained its revenue growth guidance of 18–20% and 13–14% OPM for FY27.",
+        "We expect CRS to continue reporting strong revenue growth due to volume traction and partly due to price hikes.",
+        "OPM is expected to improve as RM inflation is passed on and price hikes in OEMs (~40% of revenues) possibly start from Q3."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹7,578 against a market price of ₹4,802 at the report date.",
+        "Source: SES ESG, I-sec research Earnings Revisions (%) FY27E FY28E Revenue 3.2 3.2 EBITDA 0.0 0.1 EPS 0.0 0.0 Previous Reports 25-09-2026: Company Update 08-08-2026: Q1FY27 results review Cera Sanitaryware | Results Update | 06 November 2026 India | Institutional Equity Research 2 Valuation and view CRS’ Q2FY27 revenue and profitability has been higher our estimates.",
+        "Maintain BUY due to reasonable valuations and an improving outlook on operational performance, with an unchanged Sep’27E TP of INR 7,578, set at an unchanged one-year forward PER of 32x (a ~15% discount to its 10-year average 1-year forward PER).",
+        "Exhibit 6: 1-year forward P/E band Source: I-Sec research, Bloomberg Key downside risks • Any unexpected slowdown in the housing market would adversely affect business. • Higher raw material prices may adversely affect profitability and demand."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "OPM dipped 203bps YoY to 12.2% (+202bps QoQ) due to RM headwinds.",
+        "Maintain BUY due to reasonable valuations and an improving outlook on operational performance, with an unchanged Sep’27E TP of INR 7,578, set at an unchanged one-year forward PER of 32x (a ~15% discount to its 10-year average 1-year forward PER)."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "OPM is expected to improve as RM inflation is passed on and price hikes in OEMs (~40% of revenues) possibly start from Q3."
+      ]
+    }
+  ]
 }

@@ -29,5 +29,55 @@
     ]
   },
   "blurb": "Yield (%) 2.69 Shareholding (%) Promoters 32.50 FII’s DII’s 23.46 22.26 Public Government 11.78 10.00 TOTAL 100.0 Price chart 0 5000 10000 15000 20000 25000 30000 0 500 1000 1500 2000 2500 Apr-2023 Oct-2023 Apr-2024 Oct-",
-  "fetchedAt": "2026-11-18T15:52:29.320Z"
+  "fetchedAt": "2026-11-18T15:52:29.320Z",
+  "brokerId": "ventura",
+  "brokerDisplay": "Ventura Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Ventura Securities published a result update on Mahanagar Gas. Rating: BUY. Yield (%) 2.69 Shareholding (%) Promoters 32.50 FII’s DII’s 23.46 22.26 Public Government 11.78 10.00 TOTAL 100.0 Price chart 0 5000 10000 15000 20000 25000 30000 0 500 1000 1500 2000 2500 Apr-2023 Oct-2023 Apr-2024 Oct-",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Yield (%) 2.69 Shareholding (%) Promoters 32.50 FII’s DII’s 23.46 22.26 Public Government 11.78 10.00 TOTAL 100.0 Price chart 0 5000 10000 15000 20000 25000 30000 0 500 1000 1500 2000 2500 Apr-2023 Oct-2023 Apr-2024 Oct-",
+        "Yield (%) 2.69 Shareholding (%) Promoters 32.50 FII’s DII’s 23.46 22.26 Public Government 11.78 10.00 TOTAL 100.0 Price chart 0 5000 10000 15000 20000 25000 30000 0 500 1000 1500 2000 2500 Apr-2023 Oct-2023 Apr-2024 Oct-2024 Apr-2025 Oct-2025 Apr-2026 Oct-2026 MGL Nifty MGL reported net revenue of ₹2,537 crore in Q2 FY27, up 7.0% QoQ and ~23.7% YoY, supported by higher realizations and healthy volume growth."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA declined 11.1% QoQ to ₹305 crore, with EBITDA margin contracting to 12.0% from 14.5% in Q1 FY27 due to elevated gas procurement costs.",
+        "EBITDA/scm declined to ₹6.77 from ₹7.91, while PAT fell 29.3% QoQ to ₹137 crore, with PAT margin at 5.4%.",
+        "MGL continued expanding its distribution network, adding 70,501 domestic PNG conversions during the quarter under PNG Drive 3.0."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Valuation call: We recommend a Buy with a price target of INR 1,430 (10.8X P/E FY29) from the CMP of INR 1,108 representing an upside of 29% over the next 24 months."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Management maintained its medium-term volume growth outlook of 8–9%, supported by healthy CNG and domestic PNG demand.",
+        "Management highlighted continued RLNG supply restrictions and elevated gas prices as key challenges."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "MGL continued expanding its distribution network, adding 70,501 domestic PNG conversions during the quarter under PNG Drive 3.0."
+      ]
+    }
+  ]
 }

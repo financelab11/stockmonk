@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "While an ARC sale of INR 0.88bn optically compressed the GNPL ratio to 1.68% in Q2FY27, credit cost remained elevated for the second consecutive quarter at 69bps, prompting management to revise its credit cost guidance u",
-  "fetchedAt": "2026-11-18T15:52:40.055Z"
+  "fetchedAt": "2026-11-18T15:52:40.055Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": "APTUS",
+  "market": "IN",
+  "sector": "Financials & Capital Markets",
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 39% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Aptus Value Housing Finance India. Rating: BUY. Target ₹250 (+39% vs ₹180). While an ARC sale of INR 0.88bn optically compressed the GNPL ratio to 1.68% in Q2FY27, credit cost remained elevated for the second consecutive quarter at 69bps, prompting management to revise its credit cost guidance u",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "While an ARC sale of INR 0.88bn optically compressed the GNPL ratio to 1.68% in Q2FY27, credit cost remained elevated for the second consecutive quarter at 69bps, prompting management to revise its credit cost guidance u",
+        "While an ARC sale of INR 0.88bn optically compressed the GNPL ratio to 1.68% in Q2FY27, credit cost remained elevated for the second consecutive quarter at 69bps, prompting management to revise its credit cost guidance upward to 55-60bps vs. 50bps earlier."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Considering likely ~20% RoE/AUM growth in FY27E and inexpensive valuation, we maintain BUY, with a revised TP of INR 250 (earlier INR 305), valuing the stock at 2x (earlier 2.5x) Sep’27E BVPS.",
+        "Core-operating performance remains strong despite transitory AQ challenges in NBFC Aptus’s core operating performance during Q2FY27 remains strong, despite asset quality challenges in NBFC – especially in less than INR0.7mn ticket-size segment – with RoE sustaining at 20% driven by robust 21% YoY AUM growth and sustainable ~20% RoE, with a 23% YoY NII growth offsetting the earnings impact of higher provisioning.",
+        "However, AQ stress persisted for the second consecutive quarter, as the 30+ DPD bucket increasing to 7.1% in Q2FY27, from 6.9% in Q1FY27 and 6.2% in Q4FY26."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹250 against a market price of ₹180 at the report date.",
+        "Considering likely ~20% RoE/AUM growth in FY27E and inexpensive valuation, we maintain BUY, with a revised TP of INR 250 (earlier INR 305), valuing the stock at 2x (earlier 2.5x) Sep’27E BVPS.",
+        "New branches addition, high pricing on home loans are targeted to support su 24% over the medium-term vs current AUM grow Change in provision policy impacted cre strengthened collection vertical to improve AQ Aptus’s credit cost during Q2FY26 stood at mu guidance range of 40-50bps.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The same poses risk to its FY26 AUM g Strengthen management team to ensur Aptus’s total AUM stands at INR112bn as on Jun INR250bn by FY28.",
+        "Growth guidance trimmed to ~22% for FY27 vs. 22–24% guided earlier; Q3 to see some moderation Management has recalibrated its growth outlook and now guides for ~22% AUM growth for FY27, the lower end of the earlier 22-24% range."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "However, AQ stress persisted for the second consecutive quarter, as the 30+ DPD bucket increasing to 7.1% in Q2FY27, from 6.9% in Q1FY27 and 6.2% in Q4FY26."
+      ]
+    }
+  ]
 }

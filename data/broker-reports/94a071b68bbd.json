@@ -29,5 +29,56 @@
     ]
   },
   "blurb": "(%) 1.6 30.3 3.0 17.9 DPS (INR) 11.0 11.0 11.0 11.0 Yield (%) 0.2 0.2 0.2 0.2 RoE (%) 16.8 18.6 16.3 16.4 RoCE (%) 17.0 21.4 18.1 18.0 EV/Sales (x) 6.5 5.4 4.9 4.1 EV/EBITDA (x) 31.9 21.9 21.1 17.3 PE (x) 37.3 28.6 27.8 ",
-  "fetchedAt": "2026-11-18T15:51:38.473Z"
+  "fetchedAt": "2026-11-18T15:51:38.473Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": "FINEORG",
+  "market": "IN",
+  "sector": "Specialty Chemicals",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Fine Organic Industries. Rating: BUY. Target ₹6,761. (%) 1.6 30.3 3.0 17.9 DPS (INR) 11.0 11.0 11.0 11.0 Yield (%) 0.2 0.2 0.2 0.2 RoE (%) 16.8 18.6 16.3 16.4 RoCE (%) 17.0 21.4 18.1 18.0 EV/Sales (x) 6.5 5.4 4.9 4.1 EV/EBITDA (x) 31.9 21.9 21.1 17.3 PE (x) 37.3 28.6 27.8 ",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(%) 1.6 30.3 3.0 17.9 DPS (INR) 11.0 11.0 11.0 11.0 Yield (%) 0.2 0.2 0.2 0.2 RoE (%) 16.8 18.6 16.3 16.4 RoCE (%) 17.0 21.4 18.1 18.0 EV/Sales (x) 6.5 5.4 4.9 4.1 EV/EBITDA (x) 31.9 21.9 21.1 17.3 PE (x) 37.3 28.6 27.8 ",
+        "(%) 1.6 30.3 3.0 17.9 DPS (INR) 11.0 11.0 11.0 11.0 Yield (%) 0.2 0.2 0.2 0.2 RoE (%) 16.8 18.6 16.3 16.4 RoCE (%) 17.0 21.4 18.1 18.0 EV/Sales (x) 6.5 5.4 4.9 4.1 EV/EBITDA (x) 31.9 21.9 21.1 17.3 PE (x) 37.3 28.6 27.8 23.6 P/BV (x) 5.8 4.9 4.2 3.6 SEZ and upcoming US facility to unlock growth Result Report FINEORG reported consolidated revenue of INR7.3bn in Q2FY27, registering growth of 22% YoY and 5% QoQ."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Exports contributed 56% of revenue, while domestic markets accounted for the remaining 44%.",
+        "EBITDA margin expanded by 280bps YoY, which we believe was primarily driven by higher realizations.",
+        "During Q2FY27, raw material prices remained elevated YoY, although the sequential increase was marginal."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹6,761.",
+        "(%) 1.6 30.3 3.0 17.9 DPS (INR) 11.0 11.0 11.0 11.0 Yield (%) 0.2 0.2 0.2 0.2 RoE (%) 16.8 18.6 16.3 16.4 RoCE (%) 17.0 21.4 18.1 18.0 EV/Sales (x) 6.5 5.4 4.9 4.1 EV/EBITDA (x) 31.9 21.9 21.1 17.3 PE (x) 37.3 28.6 27.8 23.6 P/BV (x) 5.8 4.9 4.2 3.6 SEZ and upcoming US facility to unlock growth Result Report FINEORG reported consolidated revenue of INR7.3bn in Q2FY27, registering growth of 22% YoY and 5% QoQ.",
+        "We maintain our ‘BUY’ rating with a target price of INR6,761, valuing the stock at 34x Sep’28E EPS."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "We believe the ongoing SEZ project and the proposed U.S. manufacturing facility will act as key long-term growth catalysts for the company."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "During Q2FY27, raw material prices remained elevated YoY, although the sequential increase was marginal."
+      ]
+    }
+  ]
 }

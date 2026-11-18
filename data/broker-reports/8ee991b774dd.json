@@ -30,5 +30,58 @@
     ]
   },
   "blurb": "EBITDA margin came in at 16.7% (vs CIE est. of 15.6%), up 120 bps on a YoY basis. ▪ Adj.",
-  "fetchedAt": "2026-11-18T15:52:55.483Z"
+  "fetchedAt": "2026-11-18T15:52:55.483Z",
+  "brokerId": "choice",
+  "brokerDisplay": "Choice Broking",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 30% change"
+    ]
+  },
+  "execSummary": "Choice Broking published a stock note on TBO Tek. Rating: BUY. Target ₹2,075 (+30% vs ₹1,593). EBITDA margin came in at 16.7% (vs CIE est. of 15.6%), up 120 bps on a YoY basis. ▪ Adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "EBITDA margin came in at 16.7% (vs CIE est. of 15.6%), up 120 bps on a YoY basis. ▪ Adj.",
+        "EBITDA margin came in at 16.7% (vs CIE est. of 15.6%), up 120 bps on a YoY basis. ▪ Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "PAT for the full quarter came in at INR 841 Mn (vs CIE est. of INR 960 Mn), up 24.6% YoY.",
+        "Reported EPS for the quarter came in at INR 7.0 Organic Momentum Sustains; Classic Vacation Offers Incremental Upside TBOTEK reported a resilient quarter despite continued macro headwinds, with reported revenue growing 52.5% YoY, including the contribution from the Classic Vacation (CV) acquisition, while organic revenue grew 14% YoY.",
+        "Strong growth across Europe and APAC (30% and 25%, respectively), alongside continued growth in the Middle East despite disruption, indicates underlying business resilience."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹2,075 against a market price of ₹1,593 at the report date.",
+        "Reported EPS for the quarter came in at INR 7.0 Organic Momentum Sustains; Classic Vacation Offers Incremental Upside TBOTEK reported a resilient quarter despite continued macro headwinds, with reported revenue growing 52.5% YoY, including the contribution from the Classic Vacation (CV) acquisition, while organic revenue grew 14% YoY.",
+        "Cancellations and reduced demand have affected both, new bookings and previously booked, revenue. ▪ Seasonality: Q3 is seasonally the weakest quarter for travel, with additional risk from geopolitical uncertainty. ▪ Q3FY27 Outlook: The management's internal objective is to deliver YoY growth in both, revenue and profitability, with CC growth being the key target."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Reported EPS for the quarter came in at INR 7.0 Organic Momentum Sustains; Classic Vacation Offers Incremental Upside TBOTEK reported a resilient quarter despite continued macro headwinds, with reported revenue growing 52.5% YoY, including the contribution from the Classic Vacation (CV) acquisition, while organic revenue grew 14% YoY.",
+        "Classic Vacation provides TBOTEK with an entry point to deepen its presence in the North America–Europe corridor, which the management believes could face relatively lower geopolitical headwinds if the ongoing conflict persists."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Strong growth across Europe and APAC (30% and 25%, respectively), alongside continued growth in the Middle East despite disruption, indicates underlying business resilience."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 265 267 Sales (INR mn) 32,368 37,221 32,305 38,071 % Chng. 0.2 (2.2) EBITDA (INR mn) 7,007 8,220 6,997 8,352 % Chng. 0.1 (1.6) EPS ",
-  "fetchedAt": "2026-11-18T15:51:53.138Z"
+  "fetchedAt": "2026-11-18T15:51:53.138Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on RITES. Rating: BUY. Target ₹265. Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 265 267 Sales (INR mn) 32,368 37,221 32,305 38,071 % Chng. 0.2 (2.2) EBITDA (INR mn) 7,007 8,220 6,997 8,352 % Chng. 0.1 (1.6) EPS ",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 265 267 Sales (INR mn) 32,368 37,221 32,305 38,071 % Chng. 0.2 (2.2) EBITDA (INR mn) 7,007 8,220 6,997 8,352 % Chng. 0.1 (1.6) EPS ",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 265 267 Sales (INR mn) 32,368 37,221 32,305 38,071 % Chng. 0.2 (2.2) EBITDA (INR mn) 7,007 8,220 6,997 8,352 % Chng. 0.1 (1.6) EPS (INR) 10.6 12.4 10.7 12.8 % Chng."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA margin moderated to 21.9% (23.6% YoY) on a higher share of low-margin turnkey work (turnkey revenue up 66% YoY), and PAT fell 11.0% YoY to INR 971mn, 14% below our estimate.",
+        "Company highlighted export shipment is expected in Q3FY27 and FY27E revenue growth is retained.",
+        "The order book was broadly flat QoQ at INR 93.9bn (~3.8x TTM revenue), as ~INR 5bn of inflows offset execution, and RITES was declared L1 in a US$41mn (~INR 4bn) Sri Lanka order for five seven-coach train sets."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹265.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 265 267 Sales (INR mn) 32,368 37,221 32,305 38,071 % Chng. 0.2 (2.2) EBITDA (INR mn) 7,007 8,220 6,997 8,352 % Chng. 0.1 (1.6) EPS (INR) 10.6 12.4 10.7 12.8 % Chng.",
+        "(%) Net Sales (INR mn) 6,036 5,568 (7.8) 5,487 1.5 EBITDA (INR mn) 1,328 1,221 (8.1) 1,296 (5.8) Margin (%) 22.0 21.9 (10) bps 23.6 (170) bps PAT (INR mn) 1,126 971 (13.8) 1,091 (11.0) Source: Company, PL Quick Pointers • First Bangladesh rake slipped to Q3; double-digit FY27 revenue growth guidance retained. • Order book steady at INR 93.9bn (~3.8x TTM revenue); INR 100bn target on track.",
+        "Management continues to win about one order a day and remains on track for its INR 100bn target; the Sri Lanka L1 and the South Africa order together would take the book close to it."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(0.9) (3.1) Key Data RITS.BO | RITE IN BSE Code 541556 NSE Code RITES 52-W High / Low INR 259 / INR 175 Face Value 10 Sensex / Nifty 77,301 / 23,961 Market Cap INR 95 bn / $ 1,002 mn Shares Outstanding 480.6 mn 3M Avg.",
+        "EBITDA margin moderated to 21.9% (23.6% YoY) on a higher share of low-margin turnkey work (turnkey revenue up 66% YoY), and PAT fell 11.0% YoY to INR 971mn, 14% below our estimate."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The order book was broadly flat QoQ at INR 93.9bn (~3.8x TTM revenue), as ~INR 5bn of inflows offset execution, and RITES was declared L1 in a US$41mn (~INR 4bn) Sri Lanka order for five seven-coach train sets."
+      ]
+    }
+  ]
 }

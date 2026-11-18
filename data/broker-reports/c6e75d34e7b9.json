@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Result Update| Sector: Auto Ancillary SBICAP Securities Limited | 2 Key highlights of the 2QFY27 Result Strong operational performance driven by robust growth in the PV business and exports During 2QFY27, the company rep",
-  "fetchedAt": "2026-11-18T15:52:32.437Z"
+  "fetchedAt": "2026-11-18T15:52:32.437Z",
+  "brokerId": "sbi-securities",
+  "brokerDisplay": "SBI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "SBI Securities published a result update on SJS Enterprises. Result Update| Sector: Auto Ancillary SBICAP Securities Limited | 2 Key highlights of the 2QFY27 Result Strong operational performance driven by robust growth in the PV business and exports During 2QFY27, the company rep",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Result Update| Sector: Auto Ancillary SBICAP Securities Limited | 2 Key highlights of the 2QFY27 Result Strong operational performance driven by robust growth in the PV business and exports During 2QFY27, the company rep",
+        "Result Update| Sector: Auto Ancillary SBICAP Securities Limited | 2 Key highlights of the 2QFY27 Result Strong operational performance driven by robust growth in the PV business and exports During 2QFY27, the company reported a 16.9%/22.0%/34.8% YoY increase in Revenue/EBITDA/Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The company witnessed a steady 21.7% YoY growth in the automotive business compared to 17.8% YoY growth in the automotive industry (2W+PV) production volumes.",
+        "This performance was primarily driven by 33.4% YoY growth in the passenger vehicle (PV) segment and 23.1% YoY growth in exports.",
+        "FY27 Outlook: During 2QFY27, the management explicitly characterized the sales moderation as a deliberate strategic recalibration rather than a demand slowdown."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Result Update| Sector: Auto Ancillary SBICAP Securities Limited | 2 Key highlights of the 2QFY27 Result Strong operational performance driven by robust growth in the PV business and exports During 2QFY27, the company reported a 16.9%/22.0%/34.8% YoY increase in Revenue/EBITDA/Adj.",
+        "FY27 Outlook: During 2QFY27, the management explicitly characterized the sales moderation as a deliberate strategic recalibration rather than a demand slowdown."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "FY27 Outlook: During 2QFY27, the management explicitly characterized the sales moderation as a deliberate strategic recalibration rather than a demand slowdown."
+      ]
+    }
+  ]
 }

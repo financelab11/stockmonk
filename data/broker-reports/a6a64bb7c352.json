@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "EBITDA declined 0.7% YoY to Rs1,439mn, missing NBIE/consensus estimates by 2.8%/6.2%.",
-  "fetchedAt": "2026-11-18T15:53:03.859Z"
+  "fetchedAt": "2026-11-18T15:53:03.859Z",
+  "brokerId": "nirmal-bang",
+  "brokerDisplay": "Nirmal Bang",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Nirmal Bang published a stock note on Bata India. Rating: BUY. EBITDA declined 0.7% YoY to Rs1,439mn, missing NBIE/consensus estimates by 2.8%/6.2%.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "EBITDA declined 0.7% YoY to Rs1,439mn, missing NBIE/consensus estimates by 2.8%/6.2%.",
+        "EBITDA declined 0.7% YoY to Rs1,439mn, missing NBIE/consensus estimates by 2.8%/6.2%."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Adjusted PAT declined 8.6% YoY to Rs181mn, adjusted for the Rs83mn VRS expense in the base quarter.",
+        "Franchise and I&D channels grew double-digit, with KRO reach expanding 2.6x YoY to 3,895 outlets (target: 5,000+ by 3QFY27) and MBO presence exceeding 17,000 outlets, supported by mid-20s secondary sales growth.",
+        "Bata.com grew 26%, although overall e-commerce growth was limited to 5.4% by deferred B2B orders."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Franchise and I&D channels grew double-digit, with KRO reach expanding 2.6x YoY to 3,895 outlets (target: 5,000+ by 3QFY27) and MBO presence exceeding 17,000 outlets, supported by mid-20s secondary sales growth.",
+        "Valuation: We upgrade Bata to Buy from Hold, retaining our TP of Rs772 valuing at 34x Sept’28 EPS, as the implied upside now is at 22%.",
+        "At Cmp of Rs663 the stock trades at 39x FY27E and ~30x FY28E P/E."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Franchise-led expansion should support profitability, with execution under the new CEO remaining key.",
+        "With volumes yet to recover and margins under pressure, FY27E earnings face a downside risk unless new launches and pricing benefits drive a sharp H2 recovery."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Bata.com grew 26%, although overall e-commerce growth was limited to 5.4% by deferred B2B orders."
+      ]
+    }
+  ]
 }

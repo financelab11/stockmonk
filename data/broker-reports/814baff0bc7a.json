@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "Its diversified business model also supported healthy growth in the commodities segment, while non-transaction revenues remained a key growth driver.",
-  "fetchedAt": "2026-11-18T15:53:18.719Z"
+  "fetchedAt": "2026-11-18T15:53:18.719Z",
+  "brokerId": "centrum",
+  "brokerDisplay": "Centrum",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 46,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+6 strong operating result"
+    ]
+  },
+  "execSummary": "Centrum published a stock note on National Stock Exchange Of India. Rating: BUY. Target ₹2,125. Its diversified business model also supported healthy growth in the commodities segment, while non-transaction revenues remained a key growth driver.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Its diversified business model also supported healthy growth in the commodities segment, while non-transaction revenues remained a key growth driver.",
+        "Its diversified business model also supported healthy growth in the commodities segment, while non-transaction revenues remained a key growth driver."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Equity options revenue grew 11% YoY in H1FY27, contributing 57% of operating revenue, while market share remained stable at 68% over the past two quarters.",
+        "Higher Q2 volumes prompt us to raise FY29E options revenue to Rs129bn (vs.",
+        "Operating revenue grew 12% YoY in H1FY27, led by cash and non-transaction businesses, including listing and data feed services."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹2,125.",
+        "We assign a target multiple of 39x Sep’28E EPS, implying a target price of Rs2,125, and assign a BUY rating with an upside potential of 18%.",
+        "Attractive valuation: We believe NSE’s diversified business model and dominant market position across the cash and derivatives segments provide strong investment positives.",
+        "We assign a target multiple of 39x Sep’28E EPS, in line with BSE’s valuation multiple, implying a target price of Rs.2,125."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Its diversified business model also supported healthy growth in the commodities segment, while non-transaction revenues remained a key growth driver.",
+        "Key risks include regulatory changes, lower volumes and cybersecurity threats."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Operating revenue grew 12% YoY in H1FY27, led by cash and non-transaction businesses, including listing and data feed services."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "Revised land compensation guidelines have prompted PWGR to widen FY27 commissioning guidance to INR 250–300bn (INR 300bn earlier), even as capex guidance moves up to INR 370–400bn (INR 370bn earlier).",
-  "fetchedAt": "2026-11-18T15:53:26.932Z"
+  "fetchedAt": "2026-11-18T15:53:26.932Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 35% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Power Grid Corporation of India. Rating: BUY. Target ₹350 (+35% vs ₹260). Revised land compensation guidelines have prompted PWGR to widen FY27 commissioning guidance to INR 250–300bn (INR 300bn earlier), even as capex guidance moves up to INR 370–400bn (INR 370bn earlier).",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Revised land compensation guidelines have prompted PWGR to widen FY27 commissioning guidance to INR 250–300bn (INR 300bn earlier), even as capex guidance moves up to INR 370–400bn (INR 370bn earlier).",
+        "Revised land compensation guidelines have prompted PWGR to widen FY27 commissioning guidance to INR 250–300bn (INR 300bn earlier), even as capex guidance moves up to INR 370–400bn (INR 370bn earlier)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Management has, however, revised its FY27 commissioning guidance to INR 250–300bn (vs.",
+        "INR 300bn), with the mid-point of the guidance being 8% lower.",
+        "Capex, meanwhile, keeps its foot on the pedal – FY27 guidance is now INR 370–400bn (vs."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹350 against a market price of ₹260 at the report date.",
+        "We maintain BUY on the stock with a revised target price of INR 350 (INR 360 earlier).",
+        "Upside risks: 1) Higher-than-expected commissioning; and 2) higher-than-expected margins.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Downside risks: 1) Delays in project execution; and 2) delays in awarding new projects.",
+        "Upside risks: 1) Higher-than-expected commissioning; and 2) higher-than-expected margins."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Capex, meanwhile, keeps its foot on the pedal – FY27 guidance is now INR 370–400bn (vs."
+      ]
+    }
+  ]
 }

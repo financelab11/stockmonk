@@ -31,5 +31,49 @@
     ]
   },
   "blurb": "Investment rationale: EV- led growth engine: DTL is a key beneficiary of India's EV transition, with ~70% market share in electric 2W/3W wiring harnesses.",
-  "fetchedAt": "2026-11-18T15:53:05.079Z"
+  "fetchedAt": "2026-11-18T15:53:05.079Z",
+  "brokerId": "sbi-securities",
+  "brokerDisplay": "SBI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+12 negative corporate or estimate event"
+    ]
+  },
+  "execSummary": "SBI Securities published a stock note on Dhoot Transmission. Investment rationale: EV- led growth engine: DTL is a key beneficiary of India's EV transition, with ~70% market share in electric 2W/3W wiring harnesses.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Investment rationale: EV- led growth engine: DTL is a key beneficiary of India's EV transition, with ~70% market share in electric 2W/3W wiring harnesses.",
+        "Investment rationale: EV- led growth engine: DTL is a key beneficiary of India's EV transition, with ~70% market share in electric 2W/3W wiring harnesses."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EV revenues surged 108% YoY to Rs 570 cr in 2QFY27, raising EV contribution to 31% of total sales.",
+        "Growth was supported by strong EV demand, commencement of supplies for a leading South India-based OEM's powertrain battery program, and entry into Hero MotoCorp's EV ecosystem through the Multilink acquisition, further strengthening growth visibility.",
+        "Reflecting sustained demand momentum, management has raised FY27 revenue growth guidance from ~30% to 40-45%+."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Investment rationale: EV- led growth engine: DTL is a key beneficiary of India's EV transition, with ~70% market share in electric 2W/3W wiring harnesses.",
+        "Key Risks: Commodity inflation; Supply-chain disruptions; Delay in capex plans Retail Research 04th November, 2026 Equity Fundamental Pick of the Day (Short Term Delivery Call) Short Term Call 2 Stock Performance Source: BSE, SSL Research Shareholding Pattern (Sep’26) Source: BSE, SSL Research Why Now?"
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Reflecting sustained demand momentum, management has raised FY27 revenue growth guidance from ~30% to 40-45%+."
+      ]
+    }
+  ]
 }

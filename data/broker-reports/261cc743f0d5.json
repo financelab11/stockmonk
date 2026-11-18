@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "CDMO revenue grew at its fastest pace of 38.6% YoY, supported by a 20% jump in volumes, surge in API prices, and mix improvement.",
-  "fetchedAt": "2026-11-18T15:52:59.592Z"
+  "fetchedAt": "2026-11-18T15:52:59.592Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 26% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Akums Drugs Pharmaceuticals. Rating: BUY. Target ₹925 (+26% vs ₹733). CDMO revenue grew at its fastest pace of 38.6% YoY, supported by a 20% jump in volumes, surge in API prices, and mix improvement.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "CDMO revenue grew at its fastest pace of 38.6% YoY, supported by a 20% jump in volumes, surge in API prices, and mix improvement.",
+        "CDMO revenue grew at its fastest pace of 38.6% YoY, supported by a 20% jump in volumes, surge in API prices, and mix improvement."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "It recorded margin improvement across its branded and trade generics segments, and the API business is on track to break even in 3-4 quarters.",
+        "While better order inflow from domestic customers will likely continue to boost growth in H2FY27, FY28E growth could be further boosted by exports, with the Zambia (USD 25mn sales) project expected to begin in Q1FY28, while supplies to Europe (Euro 35mn p.a.) will begin in Q4FY28.",
+        "We raise FY27/28E EPS by 1-12% to factor in better growth in the CDMO division."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹925 against a market price of ₹733 at the report date.",
+        "Multiple boosters for margin improvement CDMO revenue grew 38.6% YoY/15.6% QoQ to INR 11.1bn, led by double-digit volume growth along with improvement in API prices.",
+        "The European project awaits dossier approval and commercial supplies are targeted for FY28.",
+        "Besides, the Oriflame acquisition (targeting annual sales of INR 1.7bn) will also boost growth in the near term."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key downside risks: Location concentration of manufacturing plants; and fluctuations in API prices.",
+        "Domestic branded formulations • The company continues to focus on key therapies of gynaecology and cardiology."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "We raise FY27/28E EPS by 1-12% to factor in better growth in the CDMO division."
+      ]
+    }
+  ]
 }

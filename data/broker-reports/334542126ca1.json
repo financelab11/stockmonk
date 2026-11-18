@@ -30,5 +30,56 @@
     ]
   },
   "blurb": "Gross margin contracted by 105bps YoY to 56.5%, while employee, advertising, and other expenses declined 2.9%, 3.7%, and 2.6% YoY, respectively.",
-  "fetchedAt": "2026-11-18T15:50:01.919Z"
+  "fetchedAt": "2026-11-18T15:50:01.919Z",
+  "brokerId": "nirmal-bang",
+  "brokerDisplay": "Nirmal Bang",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Nirmal Bang published a stock note on Gillette India. Rating: BUY. Gross margin contracted by 105bps YoY to 56.5%, while employee, advertising, and other expenses declined 2.9%, 3.7%, and 2.6% YoY, respectively.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Gross margin contracted by 105bps YoY to 56.5%, while employee, advertising, and other expenses declined 2.9%, 3.7%, and 2.6% YoY, respectively.",
+        "Gross margin contracted by 105bps YoY to 56.5%, while employee, advertising, and other expenses declined 2.9%, 3.7%, and 2.6% YoY, respectively."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA grew 9.4% YoY to Rs2.27bn, 16.5% below our estimate, with EBITDA margin at 26.9% (+125bps YoY, -222bps QoQ).",
+        "Adjusted PAT rose 10.8% YoY to Rs1.59bn, 16.7% below our estimate, with PAT margin at 18.8% against 20.4% in 1QFY27. 2QFY27 segmental performance: The grooming business contributed 80.3% of revenue, with segment revenue up 2.0% YoY to Rs6.79bn.",
+        "Segment EBIT rose 18.5% YoY to Rs1.92bn, with EBIT margin expanding by 396bps YoY to 28.3%."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "View and valuation: We maintain our positive stance on Gillette given its strong market leadership and diversified portfolio.",
+        "We continue to value the stock at 42x Sep-28E blended EPS of Rs213.3, representing a ~21.2% discount to its 5-year average P/E of 53.3x.",
+        "We revise our target price to Rs8,960 (from Rs9,170) based on the current market price of Rs7,247; the stock offers an upside potential of ~23.6%."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "International investors are reminded of the additional risks inherent in inter national investments, such as currency fluctuations and international stock market or economic conditions, which may adversely affect the value of the investment."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Segment EBIT rose 18.5% YoY to Rs1.92bn, with EBIT margin expanding by 396bps YoY to 28.3%."
+      ]
+    }
+  ]
 }

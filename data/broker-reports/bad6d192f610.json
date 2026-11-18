@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Gross margins contracted by 231bps YoY (+240bps QoQ) to 32.1% in Q2FY27.",
-  "fetchedAt": "2026-11-18T15:52:38.576Z"
+  "fetchedAt": "2026-11-18T15:52:38.576Z",
+  "brokerId": "arihant",
+  "brokerDisplay": "Arihant Capital",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Arihant Capital published a stock note on Afcons Infrastructure. Gross margins contracted by 231bps YoY (+240bps QoQ) to 32.1% in Q2FY27.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Gross margins contracted by 231bps YoY (+240bps QoQ) to 32.1% in Q2FY27.",
+        "Gross margins contracted by 231bps YoY (+240bps QoQ) to 32.1% in Q2FY27."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA stood at INR 917mn (- 72.1% YoY/-63.5% QoQ), below our estimates of INR 2,826mn.",
+        "EBITDA margin contracted by 752bps YoY (-594bps QoQ) to 3.5% in Q2FY27, due to fixed-cost under-absorption, partially offset by lower manpower costs but pressured by higher energy, transport, logistics and provisioning costs.",
+        "PAT stood at INR 411mn (-60.9% YoY/+35.5% QoQ) in Q2FY27; in line with our estimates of INR 413mn."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Highlights Order Book visibility underpins FY28E growth: Afcons Infrastructure enters H2FY27 with an order book of ~INR 438.36bn (excluding L1) and YTD FY27 intake of ~INR 194.37bn, tracking firmly toward the INR 300bn inflow guidance backed by an ~INR 800bn pipeline for the year.",
+        "Key risks are stretched government payments, UP Jal Jeevan Mission execution (INR 3.72bn outstanding), Vadhvan Port approval delays, and West Asia geopolitical disruption."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "PAT stood at INR 411mn (-60.9% YoY/+35.5% QoQ) in Q2FY27; in line with our estimates of INR 413mn."
+      ]
+    }
+  ]
 }

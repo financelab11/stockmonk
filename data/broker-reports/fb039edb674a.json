@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "(STL) Result Update| Sector: Auto Ancillary SBICAP Securities Limited | 2 Key Highlights of the 2QFY27 Result Sandhar Technologies Ltd (STL) reported record 2Q/1HFY27 revenues of Rs 1,618 cr/Rs 3,000 cr, driven by strong",
-  "fetchedAt": "2026-11-18T15:49:42.316Z"
+  "fetchedAt": "2026-11-18T15:49:42.316Z",
+  "brokerId": "sbi-securities",
+  "brokerDisplay": "SBI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "SBI Securities published a result update on Sandhar Technologies. Target ₹876. (STL) Result Update| Sector: Auto Ancillary SBICAP Securities Limited | 2 Key Highlights of the 2QFY27 Result Sandhar Technologies Ltd (STL) reported record 2Q/1HFY27 revenues of Rs 1,618 cr/Rs 3,000 cr, driven by strong",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(STL) Result Update| Sector: Auto Ancillary SBICAP Securities Limited | 2 Key Highlights of the 2QFY27 Result Sandhar Technologies Ltd (STL) reported record 2Q/1HFY27 revenues of Rs 1,618 cr/Rs 3,000 cr, driven by strong",
+        "(STL) Result Update| Sector: Auto Ancillary SBICAP Securities Limited | 2 Key Highlights of the 2QFY27 Result Sandhar Technologies Ltd (STL) reported record 2Q/1HFY27 revenues of Rs 1,618 cr/Rs 3,000 cr, driven by strong market share gains and industry outperformance."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The core business (excluding new facilities) remained healthy, delivering Rs 1,454 cr revenue (+27% YoY) and Rs 149 cr EBITDA (+24% YoY) with EBITDA margins of 10.2%.",
+        "Consolidated EBITDA margins moderated to 8.5% due to wage inflation (Rs 13 cr in 1H), commodity cost pressures, and start-up losses from new facilities, which generated Rs 164 cr revenue but reported Rs 17 cr PBT loss.",
+        "Management expects 30-40 bps margin improvement in 2H, aided by commodity cost pass-through and operating leverage."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹876.",
+        "Separately, the Sanaswadi (Pune) Cabin Fabrication facility is targeted to turn around in 3QFY27, while the Oragadam Sheet Metal and Romania Die- casting operations are expected to achieve meaningful profitability from FY28.",
+        "Maintain BUY – Target Price unchanged at Rs 876 Our thesis remains unchanged.",
+        "We retain our estimates for FY27E and FY28E and keep the Target Price unchanged at Rs 876."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(STL) Result Update| Sector: Auto Ancillary SBICAP Securities Limited | 2 Key Highlights of the 2QFY27 Result Sandhar Technologies Ltd (STL) reported record 2Q/1HFY27 revenues of Rs 1,618 cr/Rs 3,000 cr, driven by strong market share gains and industry outperformance.",
+        "Key growth drivers: ADC (Aluminium Die Casting) revenue rose 33% YoY to Rs 526 cr (Domestic ~Rs 397 cr, Overseas ~Rs 129 cr) accounting for ~33% of consolidated revenue in 2QFY27."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management expects 30-40 bps margin improvement in 2H, aided by commodity cost pass-through and operating leverage."
+      ]
+    }
+  ]
 }

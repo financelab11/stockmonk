@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "HSIE Research is also available on Bloomberg ERH HDF <GO> & Thomson Reuters 17 November 2026 HSIE Results Daily HSIE Results Daily Contents Results Reviews ■ ABB India: ABB India’s (ABB) revenue/EBITDA/APAT was a beat by",
-  "fetchedAt": "2026-11-18T15:49:44.314Z"
+  "fetchedAt": "2026-11-18T15:49:44.314Z",
+  "brokerId": "hdfc-securities",
+  "brokerDisplay": "HDFC Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "HDFC Securities published a stock note on HSIE Results Daily: ABB India, Cummins, Indo. HSIE Research is also available on Bloomberg ERH HDF <GO> & Thomson Reuters 17 November 2026 HSIE Results Daily HSIE Results Daily Contents Results Reviews ■ ABB India: ABB India’s (ABB) revenue/EBITDA/APAT was a beat by",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "HSIE Research is also available on Bloomberg ERH HDF <GO> & Thomson Reuters 17 November 2026 HSIE Results Daily HSIE Results Daily Contents Results Reviews ■ ABB India: ABB India’s (ABB) revenue/EBITDA/APAT was a beat by",
+        "HSIE Research is also available on Bloomberg ERH HDF <GO> & Thomson Reuters 17 November 2026 HSIE Results Daily HSIE Results Daily Contents Results Reviews ■ ABB India: ABB India’s (ABB) revenue/EBITDA/APAT was a beat by +2/+14.1/+9.6% vs. our estimates, supported by industrial end-markets, with growth coming from data centers, railways, metals & mining, food & beverage, and cement."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Structural themes such as grid modernization, renewable energy, digitalization, and India’s energy transition continue to underpin the order pipeline.",
+        "ABB’s Q3CY26 order inflow (OI) stood at INR 47bn (+56/+8% YoY/QoQ) and the backlog (OB) stood at INR 129bn (+36/+8% YoY/QoQ) as of Sep’26 (1.01x CY25 revenue).",
+        "The company continues to anticipate margin volatility for the next two quarters, led by a combination of rising costs, increased competitive pressure, foreign exchange volatility, and logistical disruptions."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The company will be a key beneficiary of the ex-China supply chain for US manufacturing, including large capex outlays by the US Department of Defence to strengthen national HSIE Research Team hdfcsec-research@hdfcsec.com Page | 2 HSIE Results Daily security including drone programs.",
+        "Key wins included data centers, renewables, buildings & infra, and power distribution. ▪ Strong OB visibility, cost inflation a watch point: The healthy backlog supports near-term revenue, and demand should stay supported by grid modernization, renewable energy, digitalization and India’s energy transition."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The company continues to anticipate margin volatility for the next two quarters, led by a combination of rising costs, increased competitive pressure, foreign exchange volatility, and logistical disruptions."
+      ]
+    }
+  ]
 }

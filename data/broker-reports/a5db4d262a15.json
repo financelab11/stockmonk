@@ -30,5 +30,58 @@
     ]
   },
   "blurb": "Given WEWORK’s plans for a phased ramp-up to 10.3msf by Mar’27 (28,000+ new desks in FY27) and 13msf beyond Mar’27, we model 22% revenue and EBITDA CAGR over FY26–29E.",
-  "fetchedAt": "2026-11-18T15:51:07.071Z"
+  "fetchedAt": "2026-11-18T15:51:07.071Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 37% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on WeWork India Management. Rating: BUY. Target ₹933 (+37% vs ₹683). Given WEWORK’s plans for a phased ramp-up to 10.3msf by Mar’27 (28,000+ new desks in FY27) and 13msf beyond Mar’27, we model 22% revenue and EBITDA CAGR over FY26–29E.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Given WEWORK’s plans for a phased ramp-up to 10.3msf by Mar’27 (28,000+ new desks in FY27) and 13msf beyond Mar’27, we model 22% revenue and EBITDA CAGR over FY26–29E.",
+        "Given WEWORK’s plans for a phased ramp-up to 10.3msf by Mar’27 (28,000+ new desks in FY27) and 13msf beyond Mar’27, we model 22% revenue and EBITDA CAGR over FY26–29E."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "We reiterate BUY with an unchanged TP of INR 933, based on 15x Mar’28E EV/EBITDA.",
+        "WEWORK has added 4,500 more desks to its portfolio in Oct’26, taking the figure past its 22,000- seat expansion guidance for H1FY27.",
+        "Expect 22% revenue and EBITDA CAGR over FY26–29E We estimate a 22% revenue and IGAAP EBITDA CAGR (post all lease rental payments and brokerage) over FY26–29E, with the IGAAP EBITDA margin expanding 210bps to 21.8% in FY28E vs. 19.7% in FY26, as corporate overheads drop as a percentage of operating revenue."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹933 against a market price of ₹683 at the report date.",
+        "We reiterate BUY with an unchanged TP of INR 933, based on 15x Mar’28E EV/EBITDA.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The recipient should independently evaluate the investment risks.",
+        "None of the research recommendations promise or guarantee any assured, minimum or risk free return to the investors."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Expect 22% revenue and EBITDA CAGR over FY26–29E We estimate a 22% revenue and IGAAP EBITDA CAGR (post all lease rental payments and brokerage) over FY26–29E, with the IGAAP EBITDA margin expanding 210bps to 21.8% in FY28E vs. 19.7% in FY26, as corporate overheads drop as a percentage of operating revenue."
+      ]
+    }
+  ]
 }

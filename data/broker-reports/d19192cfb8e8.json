@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Positives: • Revenue from operations grew 7% yoy and 2% qoq to Rs 650 crore in Q2FY27, in line with our estimate of Rs.649.6 crore. • In H1FY27, order wins stood at Rs.700 crore, including marquee wins in Tech & Payments",
-  "fetchedAt": "2026-11-18T15:49:59.125Z"
+  "fetchedAt": "2026-11-18T15:49:59.125Z",
+  "brokerId": "kotak",
+  "brokerDisplay": "Kotak Institutional Equities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Kotak Institutional Equities published a result update on CMS Infosystems. Rating: BUY. Positives: • Revenue from operations grew 7% yoy and 2% qoq to Rs 650 crore in Q2FY27, in line with our estimate of Rs.649.6 crore. • In H1FY27, order wins stood at Rs.700 crore, including marquee wins in Tech & Payments",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Positives: • Revenue from operations grew 7% yoy and 2% qoq to Rs 650 crore in Q2FY27, in line with our estimate of Rs.649.6 crore. • In H1FY27, order wins stood at Rs.700 crore, including marquee wins in Tech & Payments",
+        "Positives: • Revenue from operations grew 7% yoy and 2% qoq to Rs 650 crore in Q2FY27, in line with our estimate of Rs.649.6 crore. • In H1FY27, order wins stood at Rs.700 crore, including marquee wins in Tech & Payments solutions."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Negatives: • In Q2FY27, PAT has de-grown by 3% qoq to Rs. 81 crores, marginally lower than our estimate.",
+        "(EBITDA: Earnings before Interest, Tax, Depreciation & Amortization, PE: Price-to-Earnings, PAT: Profit After Tax, ATM: Automatic Teller Machine) ` ` ` The content of this document has been derived from Kotak Securities PCG research report.",
+        "Reports based on technical analysis centers on studying charts of a stock's price movement and trading volume, as opposed to focusing on a company's fundamentals and as such, may not match with a report on a company's fundamentals."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Kotak Securities is not assigning any rating or price target to the stock.",
+        "Kotak Securities has suspended the investment rating and price target for this stock, either because there is not a sufficient fundamental basis for determining, or there are legal, regulatory or policy constraints around publishing, an investment rating or target.",
+        "The previous investment rating and price target, if any, are no longer in effect for this stock and should not be relied upon."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Certain transactions -including those involving futures, options and other derivatives as well as non-investment grade securities - involve substantial risk and are not suitable for all investors.",
+        "The views provided herein are general in nature and does not consider risk appetite or investment objective of particular investor; readers are requested to take independent professional advice before investing."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Reports based on technical analysis centers on studying charts of a stock's price movement and trading volume, as opposed to focusing on a company's fundamentals and as such, may not match with a report on a company's fundamentals."
+      ]
+    }
+  ]
 }

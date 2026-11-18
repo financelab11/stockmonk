@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "The current reactor capability stands at ~9000 KL. • Q2FY27 Revenue Segmentation: Generic API (includes ARV API, Oncology API and Other APIs)– 28%; Generic FDF – 31%; CDMO – 39%; Laurus bio - 2%. • The company has also i",
-  "fetchedAt": "2026-11-18T15:49:39.345Z"
+  "fetchedAt": "2026-11-18T15:49:39.345Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": "LAURUSLABS",
+  "market": "IN",
+  "sector": "Healthcare & Pharma",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Laurus Labs. The current reactor capability stands at ~9000 KL. • Q2FY27 Revenue Segmentation: Generic API (includes ARV API, Oncology API and Other APIs)– 28%; Generic FDF – 31%; CDMO – 39%; Laurus bio - 2%. • The company has also i",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "The current reactor capability stands at ~9000 KL. • Q2FY27 Revenue Segmentation: Generic API (includes ARV API, Oncology API and Other APIs)– 28%; Generic FDF – 31%; CDMO – 39%; Laurus bio - 2%. • The company has also i",
+        "The current reactor capability stands at ~9000 KL. • Q2FY27 Revenue Segmentation: Generic API (includes ARV API, Oncology API and Other APIs)– 28%; Generic FDF – 31%; CDMO – 39%; Laurus bio - 2%. • The company has also invested in new edge technologies such as Cell therapies, Gene therapies and other advanced technologies."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Result Performance & Investment Rationale: • Q 2FY2 7 – Significant traction in CDMO continue to boost numbers : Revenues stood at ₹2206 crore, reflecting a ~33% YoY growth.",
+        "EBITDA stood at ₹750 crore with a margin of 34%, marking a significant improvement of 962 basis points YoY mainly due to 314 bps YoY improvement in GPM to 63%.",
+        "PAT stood ₹437 crore, driven by a favourable product mix and improving operational leverage. • Long term prospects remain robust : The CDMO growth for the quarter was phenomenal due to higher contribution from late-stage clinical projects and commercial API supplies and strong recurring business from existing relationships."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Investments in securities market are subject to market risks.",
+        "None of the research recommendations promise or guarantee any assured, minimum or risk - free retur n to the investors."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "PAT stood ₹437 crore, driven by a favourable product mix and improving operational leverage. • Long term prospects remain robust : The CDMO growth for the quarter was phenomenal due to higher contribution from late-stage clinical projects and commercial API supplies and strong recurring business from existing relationships."
+      ]
+    }
+  ]
 }

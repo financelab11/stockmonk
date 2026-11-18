@@ -30,5 +30,57 @@
     ]
   },
   "blurb": "(%) NA 681.4 93.4 58.7 DPS (INR) - - - - Yield (%) - - - - RoE (%) 1.4 6.9 12.1 16.6 RoCE (%) NA 4.6 10.4 15.6 EV/Sales (x) 8.8 6.9 5.3 4.2 EV/EBITDA (x) 89.8 47.4 28.7 19.3 PE (x) 1 114.1 59.0 37.2 P/BV (x) 8.1 7.6 6.7 ",
-  "fetchedAt": "2026-11-18T15:51:51.792Z"
+  "fetchedAt": "2026-11-18T15:51:51.792Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Physicswallah. Rating: ACCUMULATE. Target ₹140. (%) NA 681.4 93.4 58.7 DPS (INR) - - - - Yield (%) - - - - RoE (%) 1.4 6.9 12.1 16.6 RoCE (%) NA 4.6 10.4 15.6 EV/Sales (x) 8.8 6.9 5.3 4.2 EV/EBITDA (x) 89.8 47.4 28.7 19.3 PE (x) 1 114.1 59.0 37.2 P/BV (x) 8.1 7.6 6.7 ",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(%) NA 681.4 93.4 58.7 DPS (INR) - - - - Yield (%) - - - - RoE (%) 1.4 6.9 12.1 16.6 RoCE (%) NA 4.6 10.4 15.6 EV/Sales (x) 8.8 6.9 5.3 4.2 EV/EBITDA (x) 89.8 47.4 28.7 19.3 PE (x) 1 114.1 59.0 37.2 P/BV (x) 8.1 7.6 6.7 ",
+        "(%) NA 681.4 93.4 58.7 DPS (INR) - - - - Yield (%) - - - - RoE (%) 1.4 6.9 12.1 16.6 RoCE (%) NA 4.6 10.4 15.6 EV/Sales (x) 8.8 6.9 5.3 4.2 EV/EBITDA (x) 89.8 47.4 28.7 19.3 PE (x) 1 114.1 59.0 37.2 P/BV (x) 8.1 7.6 6.7 5.7 Revenue guidance under scanner Result Report We cut our pre-IND AS EBITDA estimates by 2%/3% for FY28E/FY29E as we fine-tune our growth assumptions for the offline business."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "However, pre-IND AS EBITDA increased 45.2% YoY to INR2,334mn (PLe INR2,311mn) with a margin of 18.8% (PLe 18.3%) due to healthy operating leverage in the online business (content, faculty & platform cost is fixed).",
+        "While top-line increased 20.8% YoY in 1HFY27; full year growth guidance of ~30% remains intact with a built-in cushion of buy-outs (US$20mn has been earmarked).",
+        "Driven by expansion into new categories like online K-12, early learning and upskilling, we expect revenue/pre-Ind AS EBITDA to log 25%/66% CAGR over FY26-29E."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: ACCUMULATE.",
+        "Target price ₹140.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating ACCUMULATE ACCUMULATE Target Price 140 141 Sales (INR mn) 62,035 75,415 62,854 76,402 % Chng.",
+        "(%) NA 681.4 93.4 58.7 DPS (INR) - - - - Yield (%) - - - - RoE (%) 1.4 6.9 12.1 16.6 RoCE (%) NA 4.6 10.4 15.6 EV/Sales (x) 8.8 6.9 5.3 4.2 EV/EBITDA (x) 89.8 47.4 28.7 19.3 PE (x) 1 114.1 59.0 37.2 P/BV (x) 8.1 7.6 6.7 5.7 Revenue guidance under scanner Result Report We cut our pre-IND AS EBITDA estimates by 2%/3% for FY28E/FY29E as we fine-tune our growth assumptions for the offline business.",
+        "Retain ACCUMULATE with a SoTP based TP of INR140 (online/offline business valued at 35x/15x Sep-28E pre-IND AS EBITDA; no change in target multiple)."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(2.0) (2.7) EPS (INR) 2.2 3.4 2.2 3.6 % Chng. - (5.6) Key Data PHYS.BO | PWL IN BSE Code 544609 NSE Code PWL 52-W High / Low INR 162 / INR 77 Face Value 1 Sensex / Nifty 77,301 / 23,961 Market Cap INR 371 bn / $ 3,916 mn Shares Outstanding 2908.67 mn 3M Avg."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Driven by expansion into new categories like online K-12, early learning and upskilling, we expect revenue/pre-Ind AS EBITDA to log 25%/66% CAGR over FY26-29E."
+      ]
+    }
+  ]
 }

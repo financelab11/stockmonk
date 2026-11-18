@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Result Update 16th November, 2026 BUY Target Price 2,170 Automotive Axles Ltd Auto Ancillary 1 Record Margin Expansion Driven by Product Mix & Operational Efficiency Est.",
-  "fetchedAt": "2026-11-18T15:49:58.410Z"
+  "fetchedAt": "2026-11-18T15:49:58.410Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on Automotive Axles. Rating: BUY. Target ₹2,170. Result Update 16th November, 2026 BUY Target Price 2,170 Automotive Axles Ltd Auto Ancillary 1 Record Margin Expansion Driven by Product Mix & Operational Efficiency Est.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Result Update 16th November, 2026 BUY Target Price 2,170 Automotive Axles Ltd Auto Ancillary 1 Record Margin Expansion Driven by Product Mix & Operational Efficiency Est.",
+        "Result Update 16th November, 2026 BUY Target Price 2,170 Automotive Axles Ltd Auto Ancillary 1 Record Margin Expansion Driven by Product Mix & Operational Efficiency Est."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Actual for Q2FY27: Revenue - BEAT; EBITDA - BEAT ; PAT – BEAT Change in Estimates post Q2FY27 FY27E/FY28E: Revenue: 8%/2%; EBITDA: 11%/2%; PAT: 12%/2% Recommendation Rationale • Record Revenue Growth and Sustained Margin Expansion Driven by Operating Leverage: Automotive Axles Ltd.",
+        "(AAL) delivered its strongest-ever Q2 performance, with revenue increasing 43% YoY and 28% QoQ to Rs 662.5 Cr, while EBITDA grew 71% YoY and 38% QoQ to Rs 91 Cr.",
+        "EBITDA margin improved to 13.7% from 12% in Q2FY26 and 13.6% in Q1FY27, supported by higher volumes, favourable product mix, improved capacity utilisation and operating leverage."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹2,170.",
+        "Result Update 16th November, 2026 BUY Target Price 2,170 Automotive Axles Ltd Auto Ancillary 1 Record Margin Expansion Driven by Product Mix & Operational Efficiency Est.",
+        "Phase-I capacity expansion, expected to be completed by early Q3FY27, will enhance capacity by 20-30%, supporting the current market opportunity of 5 Lc MHCV units and the long-term Rs 5,000 Cr revenue target by 2030. • Current Valuation: 14x FY28E (Unchanged) • Current TP: Rs 2,170/ share (Earlier TP: Rs 2,125/share) Recommendation: We maintain our BUY rating on the stock with a 20% upside potential from the CMP.",
+        "Variance Net Sales 662.6 28% 43% 528.9 25% EBITDA 82.6 38% 71% 58.2 42% EBITDA Margin 12.5% 88 201 11.0% 147 Net Profit 60.1 32% 67% 41.1 46% EPS (Rs) 39.8 32% 67% 27.2 46% Source: Company, Axis Securities Research (CMP as of 13th November, 2026) CMP (Rs) 1,815 Upside /Downside (%) 20% High/Low (Rs) 2,126/1,536 Market cap (Cr) 2,799 Avg. daily vol."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Back-to-back commodity price pass-through arrangements with customers and suppliers further protect margins against raw material price volatility. • Company Outlook & Guidance: Management remains confident of sustaining strong growth over the next couple of quarters, supported by the M&HCV replacement cycle, higher-tonnage vehicles and infrastructure demand.",
+        "Financial Performance: Automotive Axles reported a strong Q2FY27 performance, surpassing our estimates across all key financial parameters."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "EBITDA margin improved to 13.7% from 12% in Q2FY26 and 13.6% in Q1FY27, supported by higher volumes, favourable product mix, improved capacity utilisation and operating leverage."
+      ]
+    }
+  ]
 }

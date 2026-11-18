@@ -30,5 +30,50 @@
     ]
   },
   "blurb": "PAT 2,218 2,736 3,898 5,165 6,793 EPS (INR) 39.6 48.9 69.6 92.3 121.3 ROE % 15.7 16.7 20.5 22.7 24.3 ROCE % 14.8 15.8 18.7 20.3 21.4 P/E (x) 101.6 82.4 57.8 43.6 33.2 P/BV (x) 14.9 13.0 10.9 9.0 7.3 Shareholding Pattern ",
-  "fetchedAt": "2026-11-18T15:51:37.215Z"
+  "fetchedAt": "2026-11-18T15:51:37.215Z",
+  "brokerId": "choice",
+  "brokerDisplay": "Choice Broking",
+  "ticker": "DATAPATTNS",
+  "market": "IN",
+  "sector": "Defence & Electronics",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Choice Broking published a stock note on Data Patterns (India). Rating: BUY. PAT 2,218 2,736 3,898 5,165 6,793 EPS (INR) 39.6 48.9 69.6 92.3 121.3 ROE % 15.7 16.7 20.5 22.7 24.3 ROCE % 14.8 15.8 18.7 20.3 21.4 P/E (x) 101.6 82.4 57.8 43.6 33.2 P/BV (x) 14.9 13.0 10.9 9.0 7.3 Shareholding Pattern ",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "PAT 2,218 2,736 3,898 5,165 6,793 EPS (INR) 39.6 48.9 69.6 92.3 121.3 ROE % 15.7 16.7 20.5 22.7 24.3 ROCE % 14.8 15.8 18.7 20.3 21.4 P/E (x) 101.6 82.4 57.8 43.6 33.2 P/BV (x) 14.9 13.0 10.9 9.0 7.3 Shareholding Pattern ",
+        "PAT 2,218 2,736 3,898 5,165 6,793 EPS (INR) 39.6 48.9 69.6 92.3 121.3 ROE % 15.7 16.7 20.5 22.7 24.3 ROCE % 14.8 15.8 18.7 20.3 21.4 P/E (x) 101.6 82.4 57.8 43.6 33.2 P/BV (x) 14.9 13.0 10.9 9.0 7.3 Shareholding Pattern (%) Sep-26 Jun-26 Mar-26 Promoters 42.41 42.41 42.41 FIIs 11.34 12.50 12.47 DIIs 13.00 11.98 11.68 Public 33.25 33.11 33.43 BUY Sector View: Positive Relative Performance (%) YTD 3Yr. 2Yr. 1Yr."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "BSE200 34.7 3.6 -0.6 DATAPATT 113.8 73.3 53.7 Putta Ravi Kumar Email: ravi.putta@choiceindia.com Ph: +91 22 6707 9908 Data Patterns: Strong Order Book & New Product Pipeline Drive Growth Company Info BB Code DATAPATT IN EQUITY Face Value (INR) 2.0 52-wk High/Low (INR) 5,000/2,131 Mkt Cap (Bn) INR 225.1 / $2.4 Shares o/s (Mn) 56.0 3M Avg.",
+        "Daily Volume (NSE) 5,83,325 Change in CIE Estimates FY27E FY28E INR Mn New Old Dev.",
+        "(%) Revenue 12,113 12,113 0.0 16,027 15,868 1.0 EBITDA 4,906 4,906 0.0 6,491 6,427 1.0 EBITDAM % 40.5 40.5 0bps 40.5 40.5 0bps PAT 3,898 3,882 0.4 5,165 5,044 2.4 EPS 69.6 69.3 0.5 92.3 90.1 2.4 Strong Order Book & New Product Pipeline Drive Growth Q2 performance remained weak and materially below our estimates, with Revenue/EBITDA/PAT declining 56.7%/54.2%/55.6% YoY, respectively."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Institutional Equities | Defence & Aerospace Change in Estimates Change in Target Price Change in Recommendation Actual vs CIE Estimates INR Mn Q2FY27A CIE Est.",
+        "PAT 2,218 2,736 3,898 5,165 6,793 EPS (INR) 39.6 48.9 69.6 92.3 121.3 ROE % 15.7 16.7 20.5 22.7 24.3 ROCE % 14.8 15.8 18.7 20.3 21.4 P/E (x) 101.6 82.4 57.8 43.6 33.2 P/BV (x) 14.9 13.0 10.9 9.0 7.3 Shareholding Pattern (%) Sep-26 Jun-26 Mar-26 Promoters 42.41 42.41 42.41 FIIs 11.34 12.50 12.47 DIIs 13.00 11.98 11.68 Public 33.25 33.11 33.43 BUY Sector View: Positive Relative Performance (%) YTD 3Yr. 2Yr. 1Yr.",
+        "PAT margin stood at 16.4% (vs CIE est. of 25.0%), expanding 38 bps YoY but contracting 264 bps QoQ View & Valuation: We remain positive on DATAPATTs’ medium-term growth prospects, supported by its strong order pipeline, indigenous product development capabilities and increasing focus on complete- system solutions."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "This Report does not take into account the specific investment objectives, financial situation, risk profile, or particular needs of any individual or class of investors and does not constitute a personal recommendation or investment advice."
+      ]
+    }
+  ]
 }

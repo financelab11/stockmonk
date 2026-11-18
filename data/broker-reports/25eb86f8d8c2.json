@@ -30,5 +30,57 @@
     ]
   },
   "blurb": "Refer to Important Disclosures at the end of this report BUY Petronet LNG Earnings beat on better volumes; demand resilient Oil & Gas  Result Update  November 04, 2026 CMP (Rs): 303 | TP (Rs): 370 PLNG reported 2QFY27",
-  "fetchedAt": "2026-11-18T15:53:23.707Z"
+  "fetchedAt": "2026-11-18T15:53:23.707Z",
+  "brokerId": "emkay",
+  "brokerDisplay": "Emkay Global",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+12 positive corporate or estimate event"
+    ]
+  },
+  "execSummary": "Emkay Global published a stock note on Petronet LNG. Rating: BUY. Refer to Important Disclosures at the end of this report BUY Petronet LNG Earnings beat on better volumes; demand resilient Oil & Gas  Result Update  November 04, 2026 CMP (Rs): 303 | TP (Rs): 370 PLNG reported 2QFY27",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Refer to Important Disclosures at the end of this report BUY Petronet LNG Earnings beat on better volumes; demand resilient Oil & Gas  Result Update  November 04, 2026 CMP (Rs): 303 | TP (Rs): 370 PLNG reported 2QFY27",
+        "Refer to Important Disclosures at the end of this report BUY Petronet LNG Earnings beat on better volumes; demand resilient Oil & Gas  Result Update  November 04, 2026 CMP (Rs): 303 | TP (Rs): 370 PLNG reported 2QFY27 SA EBITDA/APAT of Rs18.0/13.4bn, up 10%/11% qoq and 5%/6% above our estimates, driven by better-than-expected volumes and lower opex, while implied spot margins at $7.6/mmbtu missed estimates by 9%."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Dahej utilization improved to 75% from 67% qoq, supported by higher supplies from QatarEnergy (QE) and 7% rise in tolling volumes.",
+        "Kochi utilization was lower at ~23%, but volumes are expected to improve following completion of the Kochi-Bengaluru pipeline, targeted for FY27-end.",
+        "We raise FY27E earnings by 20%, factoring in the higher unit margins and volumes; we raise FY28/29E earnings by 2% each."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Kochi utilization was lower at ~23%, but volumes are expected to improve following completion of the Kochi-Bengaluru pipeline, targeted for FY27-end.",
+        "Source: Company, Bloomberg, Emkay Research 230 264 298 332 366 400 05-Nov-24 06-Mar-25 05-Jul-25 03-Nov-25 04-Mar-26 03-Jul-26 01-Nov-26 BUY Hold Sell Reduce Add Price Target Price This report is intended for Team White Marque Solutions (team.emkay@whitemarquesolutions Emkay Research is also available on www.emkayglobal.com and Bloomberg EMKAY<GO>.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the research published by any other analyst or by associate entities of EGFSL; our proprietary trading, investment businesses or other associate entities may make investment decisions that are inconsistent with the recommendations expressed herein."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key risks: adverse petroleum/gas prices, competition, project delays, and capital misallocation."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "We raise FY27E earnings by 20%, factoring in the higher unit margins and volumes; we raise FY28/29E earnings by 2% each."
+      ]
+    }
+  ]
 }

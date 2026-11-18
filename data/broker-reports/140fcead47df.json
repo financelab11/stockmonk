@@ -30,5 +30,48 @@
     ]
   },
   "blurb": "17 November 2026 CMP*: ₹1,010/- Sector – Healthcare Max Healthcare Institute Ltd – Q2FY27 1 Result Update Q2FY27 Max Healthcare Institute Ltd Important Data • During Q2FY27, Max Healthcare reported healthy revenue growth",
-  "fetchedAt": "2026-11-18T15:49:40.375Z"
+  "fetchedAt": "2026-11-18T15:49:40.375Z",
+  "brokerId": "way2wealth",
+  "brokerDisplay": "Way2Wealth",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Way2Wealth published a result update on Max Healthcare Institute. 17 November 2026 CMP*: ₹1,010/- Sector – Healthcare Max Healthcare Institute Ltd – Q2FY27 1 Result Update Q2FY27 Max Healthcare Institute Ltd Important Data • During Q2FY27, Max Healthcare reported healthy revenue growth",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "17 November 2026 CMP*: ₹1,010/- Sector – Healthcare Max Healthcare Institute Ltd – Q2FY27 1 Result Update Q2FY27 Max Healthcare Institute Ltd Important Data • During Q2FY27, Max Healthcare reported healthy revenue growth",
+        "17 November 2026 CMP*: ₹1,010/- Sector – Healthcare Max Healthcare Institute Ltd – Q2FY27 1 Result Update Q2FY27 Max Healthcare Institute Ltd Important Data • During Q2FY27, Max Healthcare reported healthy revenue growth, with gross revenue increasing 20% YoY and 8% QoQ to ₹3,219crs."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Net revenue grew 18% YoY to ₹3,055crs, supported by higher patient volumes and improved realisations.",
+        "Gross profit increased 19% YoY to ₹1,814crs, while gross margin remained stable at 59%.",
+        "Operating EBITDA grew 18% YoY to ₹820crs, with margins remaining stable at 27%, despite a 20% increase in indirect overheads."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Overall performance was supported by higher patient volumes, improved ARPP and healthy growth across key specialties.",
+        "This material contains statements that are forward-looking; such statements are based upon the current beliefs and expectations and are subject to significant risks and uncertainties."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Operating EBITDA grew 18% YoY to ₹820crs, with margins remaining stable at 27%, despite a 20% increase in indirect overheads."
+      ]
+    }
+  ]
 }

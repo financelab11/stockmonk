@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "(LGEIL) Important Data LG Electronics India’s revenue grew by 19.5% YoY to ₹7,380crs in Q2FY27, driven by balanced volume and value growth across mass and premium segments.",
-  "fetchedAt": "2026-11-18T15:50:06.038Z"
+  "fetchedAt": "2026-11-18T15:50:06.038Z",
+  "brokerId": "way2wealth",
+  "brokerDisplay": "Way2Wealth",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Way2Wealth published a result update on LG Electronics India. (LGEIL) Important Data LG Electronics India’s revenue grew by 19.5% YoY to ₹7,380crs in Q2FY27, driven by balanced volume and value growth across mass and premium segments.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(LGEIL) Important Data LG Electronics India’s revenue grew by 19.5% YoY to ₹7,380crs in Q2FY27, driven by balanced volume and value growth across mass and premium segments.",
+        "(LGEIL) Important Data LG Electronics India’s revenue grew by 19.5% YoY to ₹7,380crs in Q2FY27, driven by balanced volume and value growth across mass and premium segments."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA grew by 28% to ₹701crs, with margins expanded by 63 bps to 9.5%, while PAT grew by 25.7% to ₹489crs.",
+        "Gross margin remained flat at 29% YoY, impacted by commodity inflation and currency headwinds.",
+        "Home Appliances & Air Solutions revenue grew by 20.9% to ₹4,772crs, while Home Entertainment revenue grew by 17.2% to ₹2,608crs."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Gross margin remained flat at 29% YoY, impacted by commodity inflation and currency headwinds.",
+        "Washing machines, refrigerators and room air conditioners were the key growth drivers, while dishwashers also delivered strong growth."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Home Appliances & Air Solutions revenue grew by 20.9% to ₹4,772crs, while Home Entertainment revenue grew by 17.2% to ₹2,608crs."
+      ]
+    }
+  ]
 }

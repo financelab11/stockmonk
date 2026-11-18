@@ -30,5 +30,57 @@
     ]
   },
   "blurb": "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating HOLD SELL Target Price 260 266 Sales (INR mn) 22,630 25,347 22,042 24,598 % Chng. 2.7 3.0 EBITDA (INR mn) 1,833 2,535 1,785 2,534 % Chng. 2.7 - EPS (INR",
-  "fetchedAt": "2026-11-18T15:50:27.508Z"
+  "fetchedAt": "2026-11-18T15:50:27.508Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on VIP Industries. Rating: HOLD. Target ₹260. Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating HOLD SELL Target Price 260 266 Sales (INR mn) 22,630 25,347 22,042 24,598 % Chng. 2.7 3.0 EBITDA (INR mn) 1,833 2,535 1,785 2,534 % Chng. 2.7 - EPS (INR",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating HOLD SELL Target Price 260 266 Sales (INR mn) 22,630 25,347 22,042 24,598 % Chng. 2.7 3.0 EBITDA (INR mn) 1,833 2,535 1,785 2,534 % Chng. 2.7 - EPS (INR",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating HOLD SELL Target Price 260 266 Sales (INR mn) 22,630 25,347 22,042 24,598 % Chng. 2.7 3.0 EBITDA (INR mn) 1,833 2,535 1,785 2,534 % Chng. 2.7 - EPS (INR) (0.7) 3.0 (0.5) 3.5 % Chng."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "After 9 quarters, VIP IN reported double-digit top-line growth of 15.2% YoY to INR4,681mn (PLe INR4,389mn).",
+        "Post COVID, this is the first instance wherein VIP IN’s top-line growth has surpassed SII IN with GM performance of both players being broadly in sync (VIP IN/SII IN reported GM of 44.4%/44.3% respectively) indicating gain in market share was not discounting led.",
+        "VIP IN is aiming for a double-digit top- line growth in 2HFY27E, and we expect GM performance to sustain led by portfolio rejig (50+ new ranges launched in 1HFY27), price hike and shift towards premiumization."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "Target price ₹260.",
+        "Industries (VIP IN) Q2FY27 Result Update November 15, 2026 ☑ Estimate Change | ☑ Target | ☑ Reco.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating HOLD SELL Target Price 260 266 Sales (INR mn) 22,630 25,347 22,042 24,598 % Chng. 2.7 3.0 EBITDA (INR mn) 1,833 2,535 1,785 2,534 % Chng. 2.7 - EPS (INR) (0.7) 3.0 (0.5) 3.5 % Chng.",
+        "(%) Net Sales (INR mn) 4,388 4,681 6.7 4,063 15.2 EBITDA (INR mn) -382 -331 (13.4) -1,064 (68.9) Margin (%) -8.7 -7.1 160 bps -26.2 1910 bps PAT (INR mn) -799 -900 12.6 -925 (2.7) Source: Company, PL Quick Pointers • Adjusted GM for the quarter stood at 44.4% • Target is to sustain double digit top-line growth in 2HFY27E V.I.P."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "NA (13.0) Key Data VIPI.BO | VIP IN BSE Code 507880 NSE Code VIPIND 52-W High / Low INR 436 / INR 232 Face Value 2 Sensex / Nifty 81,592 / 25,144 Market Cap INR 34 bn / $ 359 mn Shares Outstanding 142.06 mn 3M Avg."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "VIP IN is aiming for a double-digit top- line growth in 2HFY27E, and we expect GM performance to sustain led by portfolio rejig (50+ new ranges launched in 1HFY27), price hike and shift towards premiumization."
+      ]
+    }
+  ]
 }

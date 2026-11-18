@@ -29,5 +29,56 @@
     ]
   },
   "blurb": "Siemens (SIEM) reported a mixed quarter, with revenue growing 17.0% YoY to INR 57.3bn, while EBITDA margin contracted 193bps YoY to 10.9%, impacted by adverse forex movements and elevated commodity prices.",
-  "fetchedAt": "2026-11-18T15:51:24.603Z"
+  "fetchedAt": "2026-11-18T15:51:24.603Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Siemens. Rating: ACCUMULATE. Target ₹3,850. Siemens (SIEM) reported a mixed quarter, with revenue growing 17.0% YoY to INR 57.3bn, while EBITDA margin contracted 193bps YoY to 10.9%, impacted by adverse forex movements and elevated commodity prices.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Siemens (SIEM) reported a mixed quarter, with revenue growing 17.0% YoY to INR 57.3bn, while EBITDA margin contracted 193bps YoY to 10.9%, impacted by adverse forex movements and elevated commodity prices.",
+        "Siemens (SIEM) reported a mixed quarter, with revenue growing 17.0% YoY to INR 57.3bn, while EBITDA margin contracted 193bps YoY to 10.9%, impacted by adverse forex movements and elevated commodity prices."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Smart Infrastructure (SI) delivered robust revenue growth of 20.4% YoY, supported by demand across power T&D capex, grid modernisation, data centre investments and commercial infrastructure.",
+        "Mobility reported healthy revenue growth of 13.8% YoY, supported by demand across railway electrification and modernisation, high-speed mobility and rail automation.",
+        "However, margins across all three segments remained under pressure from elevated material costs, commodity volatility and adverse forex movements, with Mobility (-364bps YoY) and Digital Industries (-200bps YoY) witnessing sharper contractions."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: ACCUMULATE.",
+        "Target price ₹3,850.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate HOLD Target Price 3,850 3,831 Sales (INR mn) 245,950 286,359 247,607 290,083 % Chng."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(6.6) (4.5) Key Data SIEM.BO | SIEM IN BSE Code 500550 NSE Code SIEMENS 52-W High / Low INR 4,149 / INR 2,826 Face Value 2 Sensex / Nifty 81,028 / 25,030 Market Cap INR 1,266 bn / $ 13,481 mn Shares Outstanding 356.12 mn 3M Avg.",
+        "While demand remains buoyant across public and private sectors, supported by sustained capex momentum, margin recovery remains a key monitorable amid persistent input-cost and currency pressures."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "However, margins across all three segments remained under pressure from elevated material costs, commodity volatility and adverse forex movements, with Mobility (-364bps YoY) and Digital Industries (-200bps YoY) witnessing sharper contractions."
+      ]
+    }
+  ]
 }

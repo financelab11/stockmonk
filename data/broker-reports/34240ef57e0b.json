@@ -30,5 +30,57 @@
     ]
   },
   "blurb": "Current demand momentum remains healthy in India biz., though we expect growth to moderate during H2 given a high base and steep price hike(s).",
-  "fetchedAt": "2026-11-18T15:52:39.210Z"
+  "fetchedAt": "2026-11-18T15:52:39.210Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Apollo Tyres. Rating: BUY. Target ₹500 (+19% vs ₹419). Current demand momentum remains healthy in India biz., though we expect growth to moderate during H2 given a high base and steep price hike(s).",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Current demand momentum remains healthy in India biz., though we expect growth to moderate during H2 given a high base and steep price hike(s).",
+        "Current demand momentum remains healthy in India biz., though we expect growth to moderate during H2 given a high base and steep price hike(s)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "We cut our FY27E margin by 40bps but maintain it for FY28–29.",
+        "Q2FY27: Revenue in line, margins below estimate APTY reported standalone revenue of INR 59.2bn (+26% YoY/+8% QoQ), 4% above our estimate.",
+        "Standalone EBITDAM stood at 11.1% (-420bps YoY/ -90bps QoQ), broadly in line with our estimate."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹500 against a market price of ₹419 at the report date.",
+        "The company took 11–13% price hike in H1 to partially mitigate the impact of RM inflation and it intends to take multiple price hikes in the near term.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Demand outlook for India and the EU India business: Segment-wise growth — OE/ replacement/exports grew by 25%/ low double-digit/ flattish YoY, respectively.",
+        "The recipient should independently evaluate the investment risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Standalone EBITDAM stood at 11.1% (-420bps YoY/ -90bps QoQ), broadly in line with our estimate."
+      ]
+    }
+  ]
 }

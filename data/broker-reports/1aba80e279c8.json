@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Strong India momentum and pipeline opportunities are offset by limited near-term US earnings visibility and margin recovery.",
-  "fetchedAt": "2026-11-18T15:52:50.693Z"
+  "fetchedAt": "2026-11-18T15:52:50.693Z",
+  "brokerId": "nirmal-bang",
+  "brokerDisplay": "Nirmal Bang",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Nirmal Bang published a stock note on Lupin. Rating: HOLD. Strong India momentum and pipeline opportunities are offset by limited near-term US earnings visibility and margin recovery.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Strong India momentum and pipeline opportunities are offset by limited near-term US earnings visibility and margin recovery.",
+        "Strong India momentum and pipeline opportunities are offset by limited near-term US earnings visibility and margin recovery."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Business performance: Lupin’s revenue grew 11.1% YoY to Rs78.3bn, led by India (+14.7% to Rs23.8bn), other developed markets (+45.7% to Rs11.8bn; Europe, Australia, and Canada, with Europe delivering double-digit growth even ex-VISUfarma), and API (+20.2% to Rs3.1bn).",
+        "US revenue grew 9.3% to Rs30.2bn, but was nearly flat in dollar terms at US$317mn (+0.2%), as higher base volumes and seasonal demand were offset by tolvaptan pricing pressure following two additional generic entrants.",
+        "EBITDA fell 8.4% to Rs19.6bn, with margins contracting by 532bps to 25.0%, owing to US price erosion, higher employee and field costs, settlement-linked licence fees, and increased R&D."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "Valuation: We maintain our HOLD rating with a revised target price of Rs2,144 (earlier: Rs2,669), derived by rolling forward our valuation to Sep-28E and applying 25x FY28E EPS.",
+        "The lower target price reflects the moderation in our earnings estimates, with FY28 expected to be a transition year as intensifying competition and erosion in key US products weigh on profitability, while elevated R&D and commercialisation investments constrain operating leverage.",
+        "Launch is planned for Q1FY28, targeting select channels rather than a direct-to-consumer play."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Outlook: We estimate revenue of Rs306.2bn, Rs313.3bn, and Rs336.3bn in FY27E, FY28E, and FY29E, respectively.",
+        "India will remain the key growth driver, supported by the management's guidance of 1.2-1.3x IPM growth and increasing chronic contribution."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "EBITDA fell 8.4% to Rs19.6bn, with margins contracting by 532bps to 25.0%, owing to US price erosion, higher employee and field costs, settlement-linked licence fees, and increased R&D."
+      ]
+    }
+  ]
 }

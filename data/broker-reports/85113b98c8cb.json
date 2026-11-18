@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "KEC International (KECI) reported a weak Q2FY27 performance, with revenue declining 10.2% YoY and EBITDA margin contracting 210bps, impacted by Middle East- related supply-chain disruptions, labour shortages and elevated",
-  "fetchedAt": "2026-11-18T15:51:46.013Z"
+  "fetchedAt": "2026-11-18T15:51:46.013Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": "KEC",
+  "market": "IN",
+  "sector": "Power & Renewables",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on KEC International. Rating: BUY. Target ₹406. KEC International (KECI) reported a weak Q2FY27 performance, with revenue declining 10.2% YoY and EBITDA margin contracting 210bps, impacted by Middle East- related supply-chain disruptions, labour shortages and elevated",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "KEC International (KECI) reported a weak Q2FY27 performance, with revenue declining 10.2% YoY and EBITDA margin contracting 210bps, impacted by Middle East- related supply-chain disruptions, labour shortages and elevated",
+        "KEC International (KECI) reported a weak Q2FY27 performance, with revenue declining 10.2% YoY and EBITDA margin contracting 210bps, impacted by Middle East- related supply-chain disruptions, labour shortages and elevated execution costs."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "India T&D execution remained subdued due to land acquisition and right-of-way challenges, while SAE Towers continued to deliver healthy growth.",
+        "T&D order inflows remained geographically diversified, with the company securing a substantial INR 30bn PGCIL order in October 2026 after a 15-month gap.",
+        "Cables revenue grew 17% YoY, while aluminium conductor capacity expansion and upcoming elastomeric cable and EVM production are expected to support growth and margin improvement."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹406.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 406 451 Sales (INR mn) 288,059 324,383 298,262 334,551 % Chng.",
+        "The FY27-end working capital target has been revised upwards to ~125 days from ~110 days, while the net debt target has increased to ~INR 60bn from ~INR 55bn by March 2027.",
+        "We maintain our BUY rating, given the recent stock price correction, and value the business at an unchanged 11x Sep’28E P/E, arriving at a revised target price of INR 406 (from INR 451 earlier)."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(10.2) (9.7) Key Data KECL.BO | KECI IN BSE Code 532714 NSE Code KEC 52-W High / Low INR 821 / INR 311 Face Value 2 Sensex / Nifty 76,918 / 23,811 Market Cap INR 84 bn / $ 889 mn Shares Outstanding 266.2 mn 3M Avg.",
+        "In the near term, normalization in supply chain disruptions and labour shortages, along with turnaround in Civil business execution will remain key monitorable, however we remain constructive on KEC in the long term given its 1) strong order book, 2) healthy execution momentum, 3) robust T&D outlook, especially in renewable energy, and 4) expansion of Cables business and commercialization of value added products."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Cables revenue grew 17% YoY, while aluminium conductor capacity expansion and upcoming elastomeric cable and EVM production are expected to support growth and margin improvement."
+      ]
+    }
+  ]
 }

@@ -30,5 +30,56 @@
     ]
   },
   "blurb": "(EBITDA: Earnings Before Interest, Taxes, Depreciation and Amortization; EV: Enterprise Value) Positives: • Manganese ore sales increased ~16% YoY to 4.09 lakh tonnes during the quarter. • MOIL’s strategic positioning an",
-  "fetchedAt": "2026-11-18T15:51:21.464Z"
+  "fetchedAt": "2026-11-18T15:51:21.464Z",
+  "brokerId": "kotak",
+  "brokerDisplay": "Kotak Institutional Equities",
+  "ticker": "MOIL",
+  "market": "IN",
+  "sector": "Metals & Commodities",
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Kotak Institutional Equities published a result update on MOIL. Rating: BUY. (EBITDA: Earnings Before Interest, Taxes, Depreciation and Amortization; EV: Enterprise Value) Positives: • Manganese ore sales increased ~16% YoY to 4.09 lakh tonnes during the quarter. • MOIL’s strategic positioning an",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(EBITDA: Earnings Before Interest, Taxes, Depreciation and Amortization; EV: Enterprise Value) Positives: • Manganese ore sales increased ~16% YoY to 4.09 lakh tonnes during the quarter. • MOIL’s strategic positioning an",
+        "(EBITDA: Earnings Before Interest, Taxes, Depreciation and Amortization; EV: Enterprise Value) Positives: • Manganese ore sales increased ~16% YoY to 4.09 lakh tonnes during the quarter. • MOIL’s strategic positioning and leadership in the domestic manganese ore segment."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Reports based on technical analysis centers on studying charts of a stock's price movement and trading volume, as opposed to focusing on a company's fundamentals and as such, may not match with a report on a company's fundamentals.",
+        "Portfolio Management Team (PMS) takes its investment decisions independent of the PCG research and accordingly PMS may have positions contrary to the PCG research recommendation."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Kotak Securities is not assigning any rating or price target to the stock.",
+        "Kotak Securities has suspended the investment rating and price target for this stock, either because there is not a sufficient fundamental basis for determining, or there are legal, regulatory or policy constraints around publishing, an investment rating or target.",
+        "The previous investment rating and price target, if any, are no longer in effect for this stock and should not be relied upon."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Certain transactions -including those involving futures, options and other derivatives as well as non-investment grade securities - involve substantial risk and are not suitable for all investors.",
+        "The views provided herein are general in nature and does not consider risk appetite or investment objective of particular investor; readers are requested to take independent professional advice before investing."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Portfolio Management Team (PMS) takes its investment decisions independent of the PCG research and accordingly PMS may have positions contrary to the PCG research recommendation."
+      ]
+    }
+  ]
 }

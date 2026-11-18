@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Result Update 09th November, 2026 BUY Target Price 4,880 Sansera Engineering Ltd Auto Ancillary 1 Strong Order Pipeline, ADS Expansion & Diversification Support Growth Est.",
-  "fetchedAt": "2026-11-18T15:51:53.320Z"
+  "fetchedAt": "2026-11-18T15:51:53.320Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": "SANSERA",
+  "market": "IN",
+  "sector": "Auto & Ancillaries",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on Sansera Enginee.. Rating: BUY. Target ₹4,880. Result Update 09th November, 2026 BUY Target Price 4,880 Sansera Engineering Ltd Auto Ancillary 1 Strong Order Pipeline, ADS Expansion & Diversification Support Growth Est.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Result Update 09th November, 2026 BUY Target Price 4,880 Sansera Engineering Ltd Auto Ancillary 1 Strong Order Pipeline, ADS Expansion & Diversification Support Growth Est.",
+        "Result Update 09th November, 2026 BUY Target Price 4,880 Sansera Engineering Ltd Auto Ancillary 1 Strong Order Pipeline, ADS Expansion & Diversification Support Growth Est."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Recommendation Rationale • ADS Growth & Order Visibility Strengthen Long-Term Outlook: Sansera’s ADS business continues to witness strong traction, supported by rising demand across aerospace, semiconductors and defence.",
+        "The 5-year executable ADS order backlog increased to Rs 5,870 Cr from Rs 4,440 Cr in Q1FY27, providing strong revenue visibility.",
+        "Capacity expansion, including a new 1.2 Lc sq. ft. facility and a dedicated defence unit, will support the next phase of growth."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹4,880.",
+        "Result Update 09th November, 2026 BUY Target Price 4,880 Sansera Engineering Ltd Auto Ancillary 1 Strong Order Pipeline, ADS Expansion & Diversification Support Growth Est.",
+        "Current Valuation: 53x PE FY28E EPS (Earlier Valuation: 50x on FY28E EPS) Current TP: Rs 4,880/share (Earlier TP: Rs 4,370/share).",
+        "Variance Net Sales 1,091 6.9% 32.3% 1,092 -0.1% EBITDA 211 7.7% 47.6% 208 1.8% EBITDA Margin 19.4% 15 bps 201 bps 19.0% 35 bps Net Profit 109 24.4% 52.2% 104 4.1% EPS (Rs) 17.3 24.6% 49.8% 16.6 4.2% Source: Company, Axis Securities Research (CMP as of 8th November, 2026) CMP (Rs) 4,414 Upside /Downside (%) 11% High/Low (Rs) 3,744/1,488 Market cap (Cr) 26,984 Avg. daily vol."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Recommendation Rationale • ADS Growth & Order Visibility Strengthen Long-Term Outlook: Sansera’s ADS business continues to witness strong traction, supported by rising demand across aerospace, semiconductors and defence.",
+        "Sector Outlook: Positive Company Outlook & Guidance: Management remains positive on growth, supported by healthy domestic demand, strong exports, premiumisation and scaling of ADS, xEV and tech-agnostic businesses."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Capacity expansion, including a new 1.2 Lc sq. ft. facility and a dedicated defence unit, will support the next phase of growth."
+      ]
+    }
+  ]
 }

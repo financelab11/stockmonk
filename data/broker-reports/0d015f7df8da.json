@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "The emerging Keralam cluster revenues grew 96% YoY to ₹83 crore and lastly the Karnataka revenues grew 36% QoQ to ₹110 crore (YoY caparison not scalable).",
-  "fetchedAt": "2026-11-18T15:52:27.128Z"
+  "fetchedAt": "2026-11-18T15:52:27.128Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": "KIMS",
+  "market": "IN",
+  "sector": "Healthcare & Pharma",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Krishna Institute of Medical Sciences. The emerging Keralam cluster revenues grew 96% YoY to ₹83 crore and lastly the Karnataka revenues grew 36% QoQ to ₹110 crore (YoY caparison not scalable).",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "The emerging Keralam cluster revenues grew 96% YoY to ₹83 crore and lastly the Karnataka revenues grew 36% QoQ to ₹110 crore (YoY caparison not scalable).",
+        "The emerging Keralam cluster revenues grew 96% YoY to ₹83 crore and lastly the Karnataka revenues grew 36% QoQ to ₹110 crore (YoY caparison not scalable)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Consolidated EBITDA grew 28% YoY to ₹ 260 crore and EBITDA margins stood at 19.4% (down 187 bps YoY) mainly due to higher initial fixed costs at Thane and Nashik Facilities (in Maharashtra Cluster), Mahadevpura and Electronic city facility (in Bengaluru Cluster) and Kollam facility (in Kerala cluster).",
+        "Consolidated ARPOB for the quarter stood at ₹ 48,277 growing ~15% YoY owing to addition of high ARPOB fetching facilities in Thane and Bengaluru.",
+        "IP volume grew 27% YoY with an OP to IP conversion of ~11%. • Long term prospects remain robust : Dent in EBITDA margins was attributable to the commissioning of new hospitals (~1280+ beds addition in FY26)."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "KIMS continues to perform better in its’ key markets of Andhra Pradesh and Telangana with its’ strategy of shifting its payor mix more toward cash and insured patients (in Andhra) to improve ARPOB and margins.",
+        "Investments in securities market are subject to market risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "IP volume grew 27% YoY with an OP to IP conversion of ~11%. • Long term prospects remain robust : Dent in EBITDA margins was attributable to the commissioning of new hospitals (~1280+ beds addition in FY26)."
+      ]
+    }
+  ]
 }

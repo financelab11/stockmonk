@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate BUY Target Price 5,330 5,388 Sales (INR mn) 1,020,570 1,165,479 1,020,570 1,165,479 % Chng. - - EBITDA (INR mn) 111,828 128,430 111,828 122,4",
-  "fetchedAt": "2026-11-18T15:51:26.418Z"
+  "fetchedAt": "2026-11-18T15:51:26.418Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 46,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+6 strong operating result"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Titan Company. Rating: ACCUMULATE. Target ₹5,330. Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate BUY Target Price 5,330 5,388 Sales (INR mn) 1,020,570 1,165,479 1,020,570 1,165,479 % Chng. - - EBITDA (INR mn) 111,828 128,430 111,828 122,4",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate BUY Target Price 5,330 5,388 Sales (INR mn) 1,020,570 1,165,479 1,020,570 1,165,479 % Chng. - - EBITDA (INR mn) 111,828 128,430 111,828 122,4",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate BUY Target Price 5,330 5,388 Sales (INR mn) 1,020,570 1,165,479 1,020,570 1,165,479 % Chng. - - EBITDA (INR mn) 111,828 128,430 111,828 122,476 % Chng. - 4.9 EPS (INR) 80.9 94.7 83.5 91.3 % Chng."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "While the high gold price base and higher interest cost is likely to weigh on growth in 2H27, strong festive and wedding demand should provide an offset, given that we are heading towards a long wedding season till May2027.",
+        "We expect 22% YoY growth in net jewellery sales in Q3, driven by strong festive demand. 2QFY27 performance was largely in line with our estimates (ex- custom duty gains), with healthy performance across segments.",
+        "Cut to Accumulate. 2Q27 Results missed our estimates • Revenues (ex of Bullion) grew by 7.8% YoY to Rs178.3bn (PLe: Rs196.5bn) • Gross margins expanded by 256bps YoY to 22.6%."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: ACCUMULATE.",
+        "Target price ₹5,330.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate BUY Target Price 5,330 5,388 Sales (INR mn) 1,020,570 1,165,479 1,020,570 1,165,479 % Chng. - - EBITDA (INR mn) 111,828 128,430 111,828 122,476 % Chng. - 4.9 EPS (INR) 80.9 94.7 83.5 91.3 % Chng.",
+        "We value Caratlane/TEAL at Rs278/183 per share and arrive at SOTP based target price of Rs5330.",
+        "The stock trades at premium valuations of 51.1xFY29 and ~44.7xFY29 consol EPS."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(3.1) 3.7 Key Data TITN.BO | TTAN IN BSE Code 500114 NSE Code TITAN 52-W High / Low INR 5,187 / INR 3,734 Face Value 1 Sensex / Nifty 79,310 / 24,537 Market Cap INR 4,292 bn / $ 45,432 mn Shares Outstanding 887.79 mn 3M Avg.",
+        "Watches and Wearables revenues grew by 27.1% YoY to Rs18.7bn; EBIT increased by 72.8% YoY to Rs4.1bn."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Cut to Accumulate. 2Q27 Results missed our estimates • Revenues (ex of Bullion) grew by 7.8% YoY to Rs178.3bn (PLe: Rs196.5bn) • Gross margins expanded by 256bps YoY to 22.6%."
+      ]
+    }
+  ]
 }

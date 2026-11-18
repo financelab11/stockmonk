@@ -29,5 +29,57 @@
     ]
   },
   "blurb": "While Revenue grew by 4% YoY, EBITDA and PAT registered declines of 27% and 19% respectively on YoY basis.",
-  "fetchedAt": "2026-11-18T15:49:38.574Z"
+  "fetchedAt": "2026-11-18T15:49:38.574Z",
+  "brokerId": "idbi-capital",
+  "brokerDisplay": "IDBI Capital",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 60,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52",
+      "+8 target implies 25% change"
+    ]
+  },
+  "execSummary": "IDBI Capital published a result update on Cummins India. Rating: BUY. Target ₹5,271 (+25% vs ₹4,228). While Revenue grew by 4% YoY, EBITDA and PAT registered declines of 27% and 19% respectively on YoY basis.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "While Revenue grew by 4% YoY, EBITDA and PAT registered declines of 27% and 19% respectively on YoY basis.",
+        "While Revenue grew by 4% YoY, EBITDA and PAT registered declines of 27% and 19% respectively on YoY basis."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "This was primarily attributable to the 440 bps YoY decline in gross margins owing to higher costs of key raw materials like Pig iron, Aluminium, Steel and Copper.",
+        "The management stated that the compression in gross margins was more impacted by RM led inflation as compared to product mix.  Power Gen (PG) Segment: The domestic PG segment is benefitting from healthy demand from sectors such as manufacturing, data centres and residential and commercial realty.",
+        "Data centres vertical contributed to 30-40% of the revenue of the PG segment."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹5,271 against a market price of ₹4,228 at the report date.",
+        "Slow execution was seen in the marine and the rail segment in Q2FY27 and some supply side shortages also impacted the compressor segment.  Valuation: The steep correction post the soft Q2FY27 performance makes valuations more reasonable."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "This was primarily attributable to the 440 bps YoY decline in gross margins owing to higher costs of key raw materials like Pig iron, Aluminium, Steel and Copper.",
+        "Management Outlook & Priorities  Management expects demand across key end markets to remain resilient."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Data centres vertical contributed to 30-40% of the revenue of the PG segment."
+      ]
+    }
+  ]
 }

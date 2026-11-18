@@ -30,5 +30,57 @@
     ]
   },
   "blurb": "Management was a bit conservative in terms of domestic NIM guidance as it may surprise positively led by full impact of loan repricing while SBI may not compete aggressively on deposit pricing given adequate liquidity bu",
-  "fetchedAt": "2026-11-18T15:51:55.376Z"
+  "fetchedAt": "2026-11-18T15:51:55.376Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on State Bank of India. Rating: BUY. Target ₹1,200. Management was a bit conservative in terms of domestic NIM guidance as it may surprise positively led by full impact of loan repricing while SBI may not compete aggressively on deposit pricing given adequate liquidity bu",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Management was a bit conservative in terms of domestic NIM guidance as it may surprise positively led by full impact of loan repricing while SBI may not compete aggressively on deposit pricing given adequate liquidity bu",
+        "Management was a bit conservative in terms of domestic NIM guidance as it may surprise positively led by full impact of loan repricing while SBI may not compete aggressively on deposit pricing given adequate liquidity buffer."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Despite achieving only 38-41% of targeted credit accretion in H1FY27, bank sounded confident of achieving loan growth guidance of 14-15% YoY in FY27 due to decent corporate pipeline and healthy RAM growth.",
+        "Steady quarter; lower loan growth offset by better NIM: NII at INR491.4bn was 1.5% higher due to NIM (calc.) that was a beat at 2.84% (PLe 2.77%); reported NIM was up 8bps QoQ to 2.94%.",
+        "Core PAT was 7.6% above PLe at INR180.3bn; PAT was INR230.4bn."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹1,200.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 1,200 1,200 NII (INR. mn) 2,303,647 2,607,553 2,330,339 2,642,124 % Chng.",
+        "Despite achieving only 38-41% of targeted credit accretion in H1FY27, bank sounded confident of achieving loan growth guidance of 14-15% YoY in FY27 due to decent corporate pipeline and healthy RAM growth.",
+        "We tweak multiple to 1.3x from 1.4x but keep TP at INR1,200 as we roll forward to Sep’28 core ABV."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(2.6) (2.2) Key Data SBI.BO | SBIN IN BSE Code 501112 NSE Code SBIN IN 52-W High / Low INR 1,234 / INR 933 Face Value 1 Sensex / Nifty 76,918 / 23,811 Market Cap INR 8,956 bn / $ 94,528 mn Shares Outstanding 9230.77 mn 3M Avg."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Core PAT was 7.6% above PLe at INR180.3bn; PAT was INR230.4bn."
+      ]
+    }
+  ]
 }

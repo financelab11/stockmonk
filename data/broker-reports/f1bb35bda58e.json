@@ -30,5 +30,57 @@
     ]
   },
   "blurb": "Daily Volume 7,31,713 Q2FY27: Strong revenue performance, EBITDA margin lower than estimate ▪ Revenue was up 47.6% YoY and 14.5% QoQ to INR 15,552 Mn (vs CIE est. of INR 13,308 Mn) ▪ EBITDA was up 30.2% YoY and 11.2% QoQ",
-  "fetchedAt": "2026-11-18T15:53:02.293Z"
+  "fetchedAt": "2026-11-18T15:53:02.293Z",
+  "brokerId": "choice",
+  "brokerDisplay": "Choice Broking",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 26% change"
+    ]
+  },
+  "execSummary": "Choice Broking published a stock note on ASK Automotive. Target ₹730 (+26% vs ₹580). Daily Volume 7,31,713 Q2FY27: Strong revenue performance, EBITDA margin lower than estimate ▪ Revenue was up 47.6% YoY and 14.5% QoQ to INR 15,552 Mn (vs CIE est. of INR 13,308 Mn) ▪ EBITDA was up 30.2% YoY and 11.2% QoQ",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Daily Volume 7,31,713 Q2FY27: Strong revenue performance, EBITDA margin lower than estimate ▪ Revenue was up 47.6% YoY and 14.5% QoQ to INR 15,552 Mn (vs CIE est. of INR 13,308 Mn) ▪ EBITDA was up 30.2% YoY and 11.2% QoQ",
+        "Daily Volume 7,31,713 Q2FY27: Strong revenue performance, EBITDA margin lower than estimate ▪ Revenue was up 47.6% YoY and 14.5% QoQ to INR 15,552 Mn (vs CIE est. of INR 13,308 Mn) ▪ EBITDA was up 30.2% YoY and 11.2% QoQ to INR 1,786 Mn (vs CIE est. of INR 1,647 Mn)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Excluding the pass-through impact of higher aluminium price and strategic reduction in wheel assembly business, net revenue grew 29.5% YoY, outperforming 2W average industry growth.",
+        "EBITDA margin stood at 11.5%, down by 153 bps YoY, while PAT increased 27.3% YoY.",
+        "HPDC alloy wheels and capacity expansion boost growth visibility: Commercial supplies of HPDC alloy wheels commenced in August 2026 to a leading Japanese OEM, with expected revenue of INR 800 Mn in FY27E and orders worth INR 2,400 Mn for FY28E."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹730 against a market price of ₹580 at the report date.",
+        "View and Valuation: We raise our FY27/28E EPS estimate by ~8%/3%, respectively, factoring in better-than-expected Q2FY27 performance, premiumisation and rising content per vehicle.",
+        "We retain our target price of INR 730 and maintain our ‘BUY’ rating, backed by a strong growth visibility, EV opportunities and new product ramp-up. 1 Choice Equity Broking Pvt."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The second captive solar plant of 11.55 MW became operational in October 2026 Margin & long-term outlook ▪ The management expects EBITDA margins to remain stable or improve marginally in H2FY27.",
+        "This Report does not take into account the specific investment objectives, financial situation, risk profile, or particular needs of any individual or class of investors and does not constitute a personal recommendation or investment advice."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "HPDC alloy wheels and capacity expansion boost growth visibility: Commercial supplies of HPDC alloy wheels commenced in August 2026 to a leading Japanese OEM, with expected revenue of INR 800 Mn in FY27E and orders worth INR 2,400 Mn for FY28E."
+      ]
+    }
+  ]
 }

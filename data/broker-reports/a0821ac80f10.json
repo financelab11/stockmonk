@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Aurobindo Pharma delivered another strong quarter, supported by broad-based momentum across its core formulations businesses, continued growth in key geographies and steady progress in differentiated segments.",
-  "fetchedAt": "2026-11-18T15:49:57.132Z"
+  "fetchedAt": "2026-11-18T15:49:57.132Z",
+  "brokerId": "geojit",
+  "brokerDisplay": "Geojit",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Geojit published a stock note on Aurobindo Pharma. Aurobindo Pharma delivered another strong quarter, supported by broad-based momentum across its core formulations businesses, continued growth in key geographies and steady progress in differentiated segments.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Aurobindo Pharma delivered another strong quarter, supported by broad-based momentum across its core formulations businesses, continued growth in key geographies and steady progress in differentiated segments.",
+        "Aurobindo Pharma delivered another strong quarter, supported by broad-based momentum across its core formulations businesses, continued growth in key geographies and steady progress in differentiated segments."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Additionally, advancements in biosimilars, biologics contract manufacturing and Contract Development and Manufacturing Organisation (CDMO) initiatives provide multiple medium-term growth avenues beyond the traditional generics portfolio.",
+        "Management remains focused on sustaining profitability through an improved product mix, operating leverage and better utilisation of recently established capacities.",
+        "Old estimates New estimates Change (%) Year / Rs. cr FY27E FY28E FY27E FY28E FY27E FY28E Revenue 37,652 40,710 40,028 44,826 6.3 10.1 EBITDA 7,810 8,646 8,582 9,764 9.9 12.9 Margins (%) 20.7 21.2 21.4 21.8 70bps 60bps Adj."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Aurobindo Pharma delivered another strong quarter, supported by broad-based momentum across its core formulations businesses, continued growth in key geographies and steady progress in differentiated segments.",
+        "Key monitorable remains further regulatory action at the Lannett facility."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Old estimates New estimates Change (%) Year / Rs. cr FY27E FY28E FY27E FY28E FY27E FY28E Revenue 37,652 40,710 40,028 44,826 6.3 10.1 EBITDA 7,810 8,646 8,582 9,764 9.9 12.9 Margins (%) 20.7 21.2 21.4 21.8 70bps 60bps Adj."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "The management expects stronger ARR growth and improved PBT and PAT in H2FY27, as seasonal demand offsets higher interest and depreciation expenses.",
-  "fetchedAt": "2026-11-18T15:49:26.516Z"
+  "fetchedAt": "2026-11-18T15:49:26.516Z",
+  "brokerId": "idbi-capital",
+  "brokerDisplay": "IDBI Capital",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 60,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52",
+      "+8 target implies 29% change"
+    ]
+  },
+  "execSummary": "IDBI Capital published a result update on Apeejay Surrendra Park Hotels. Rating: BUY. Target ₹134 (+29% vs ₹104). The management expects stronger ARR growth and improved PBT and PAT in H2FY27, as seasonal demand offsets higher interest and depreciation expenses.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "The management expects stronger ARR growth and improved PBT and PAT in H2FY27, as seasonal demand offsets higher interest and depreciation expenses.",
+        "The management expects stronger ARR growth and improved PBT and PAT in H2FY27, as seasonal demand offsets higher interest and depreciation expenses."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "We have broadly maintained our earnings estimates for FY27E/FY28 and reiterate BUY with a TP of Rs134, assigning 11x EV/EBITDA on FY28E.  Good show on key operating metrics: Net sales increased by 7.4% YoY to Rs1,797Mn in Q2 FY27.",
+        "Consolidated EBITDA grew 10.8% YoY to Rs543Mn at a 30.2% margin.",
+        "PAT declined 9.7% YoY to Rs146Mn at an 8.1% margin due to higher depreciation of Rs229Mn and interest of Rs108Mn.Owned hotels recorded 94% occupancy in Q2 FY27 compared to 93% in Q2 FY26."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹134 against a market price of ₹104 at the report date.",
+        "We have broadly maintained our earnings estimates for FY27E/FY28 and reiterate BUY with a TP of Rs134, assigning 11x EV/EBITDA on FY28E.  Good show on key operating metrics: Net sales increased by 7.4% YoY to Rs1,797Mn in Q2 FY27.",
+        "Further, at current price, the stock is available at attractive valuation, which further strengthens our investment rationale.",
+        "Driven by an asset-light strategy, the FY31 target mix comprises 4,905 managed keys, 2,112 owned keys, and 483 leased keys."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Further, it identified strong structural tailwinds across key demand segments, noting the Indian wedding industry is expanding at a 14.3% CAGR and MICE is growing at 10% to 13%.",
+        "The company outlined a roadmap to scale the portfolio to 100 hotels and 7,500 keys by FY31 by adding 57 hotels and 4,771 keys."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "PAT declined 9.7% YoY to Rs146Mn at an 8.1% margin due to higher depreciation of Rs229Mn and interest of Rs108Mn.Owned hotels recorded 94% occupancy in Q2 FY27 compared to 93% in Q2 FY26."
+      ]
+    }
+  ]
 }

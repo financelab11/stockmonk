@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowUpRight, FileText } from "lucide-react";
+import { BrokerLogo } from "@/components/brokers/broker-logo";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { getBrokerReport, getBrokerReportIndex } from "@/lib/broker-reports";
 import { formatDate } from "@/lib/format";
@@ -71,11 +72,13 @@ export default async function BrokerReportPage({
       ? ((displayTarget - metrics.cmp) / metrics.cmp) * 100
       : null);
   const max = Math.max(displayTarget ?? 0, metrics.cmp ?? 0);
-  const sections = [
-    { title: "What the report says", items: report.summary.highlights },
-    { title: "Valuation", items: report.summary.valuation },
-    { title: "What to watch", items: report.summary.watch },
-  ].filter((section) => section.items.length > 0);
+  const sections = report.detailedSummary?.length
+    ? report.detailedSummary
+    : [
+        { heading: "What the report says", bullets: report.summary.highlights },
+        { heading: "Valuation", bullets: report.summary.valuation },
+        { heading: "What to watch", bullets: report.summary.watch },
+      ].filter((section) => section.bullets.length > 0);
 
   return (
     <div className="container-page max-w-[900px] py-8">
@@ -91,9 +94,29 @@ export default async function BrokerReportPage({
 
       <header className="mt-4">
         <div className="flex flex-wrap items-center gap-2">
+          <span className="inline-flex items-center gap-2">
+            <BrokerLogo
+              id={report.brokerId ?? report.broker}
+              name={report.brokerDisplay ?? report.broker}
+              size={30}
+            />
+            <span className="text-[11px] font-semibold text-ink-soft">
+              {report.brokerDisplay ?? report.broker}
+            </span>
+          </span>
           <span className="chip chip-info">{report.reportType}</span>
           {report.deepDive && <span className="chip chip-positive">Deep-Dive</span>}
+          {report.materiality && (
+            <span className={`chip ${report.materiality.label === "High" ? "chip-caution" : "chip-info"}`}>
+              {report.materiality.label} materiality
+            </span>
+          )}
           <span className="text-[10.5px] text-faint">{formatDate(report.date)}</span>
+          {report.market && (
+            <span className="text-[10px] font-semibold uppercase tracking-[0.08em] text-faint">
+              {report.market === "IN" ? "India" : report.market === "GCC" ? "GCC" : "US"}
+            </span>
+          )}
         </div>
         <h1 className="display mt-3 text-[30px] leading-[1.08] tracking-[-0.025em] text-ink sm:text-[38px]">
           {report.company}: {report.headline}
@@ -103,6 +126,11 @@ export default async function BrokerReportPage({
           <span className="font-semibold text-ink-soft">{report.broker}</span>. Figures and views
           are the broker&apos;s; the original report is linked below.
         </p>
+        {report.execSummary && (
+          <p className="mt-2 max-w-3xl text-[13px] leading-relaxed text-ink-soft">
+            {report.execSummary}
+          </p>
+        )}
         <a
           href={report.link}
           target="_blank"
@@ -154,10 +182,10 @@ export default async function BrokerReportPage({
 
       <div className="mt-6 space-y-7">
         {sections.map((section) => (
-          <section key={section.title}>
-            <h2 className="display text-[22px] tracking-[-0.02em] text-ink">{section.title}</h2>
+          <section key={section.heading}>
+            <h2 className="display text-[22px] tracking-[-0.02em] text-ink">{section.heading}</h2>
             <ul className="mt-2 space-y-2">
-              {section.items.map((item) => (
+              {section.bullets.map((item) => (
                 <li key={item} className="text-[13px] leading-relaxed text-ink-soft">
                   {item}
                 </li>

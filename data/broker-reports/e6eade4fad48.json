@@ -29,5 +29,48 @@
     ]
   },
   "blurb": "(HUL) Important Data • The company reported 15% YoY growth in revenue to 18,071crs, the highest in the last 14 quarters.",
-  "fetchedAt": "2026-11-18T15:50:04.306Z"
+  "fetchedAt": "2026-11-18T15:50:04.306Z",
+  "brokerId": "way2wealth",
+  "brokerDisplay": "Way2Wealth",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Way2Wealth published a result update on Hindustan Unilever. (HUL) Important Data • The company reported 15% YoY growth in revenue to 18,071crs, the highest in the last 14 quarters.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(HUL) Important Data • The company reported 15% YoY growth in revenue to 18,071crs, the highest in the last 14 quarters.",
+        "(HUL) Important Data • The company reported 15% YoY growth in revenue to 18,071crs, the highest in the last 14 quarters."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Underlying Volume Growth remained strong at 7%, underpinned by disciplined execution and ongoing portfolio transformation. • Performance was broad-based across segments, with Home Care and Beauty & Wellbeing delivering strong double-digit USG driven by strong double-digit UVG.",
+        "Personal Care and Foods also saw a sequential step up, delivering 9% USG each. • EBITDA grew 8% YoY to ₹ 4,089crs.",
+        "High raw material costs and ongoing commodity inflation squeezed the EBITDA margin by 130 basis points year on year to 22.5% (within guided range), despite reduced ad spending."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The B&W segment remains a key growth driver from its accelerating investments, as company will also continue to focus on scaling up new categories within this segment.",
+        "HUL’s leadership in its key categories, wide distribution and recovering volumes leave it well placed to benefit as consumer demand improves."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "High raw material costs and ongoing commodity inflation squeezed the EBITDA margin by 130 basis points year on year to 22.5% (within guided range), despite reduced ad spending."
+      ]
+    }
+  ]
 }

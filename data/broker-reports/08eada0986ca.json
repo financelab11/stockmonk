@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Per (%) -12/-13/-17 12M Avg Val (INR M) 266 Financial Snapshot (INR b) Y/E Mar FY26 FY27E FY28E Sales 90.1 102.0 110.2 EBITDA 14.4 14.2 17.5 Adj.",
-  "fetchedAt": "2026-11-18T15:52:53.196Z"
+  "fetchedAt": "2026-11-18T15:52:53.196Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+12 positive corporate or estimate event"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on The Ramco Cements. Target ₹850 (+5% vs ₹812). Per (%) -12/-13/-17 12M Avg Val (INR M) 266 Financial Snapshot (INR b) Y/E Mar FY26 FY27E FY28E Sales 90.1 102.0 110.2 EBITDA 14.4 14.2 17.5 Adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Per (%) -12/-13/-17 12M Avg Val (INR M) 266 Financial Snapshot (INR b) Y/E Mar FY26 FY27E FY28E Sales 90.1 102.0 110.2 EBITDA 14.4 14.2 17.5 Adj.",
+        "Per (%) -12/-13/-17 12M Avg Val (INR M) 266 Financial Snapshot (INR b) Y/E Mar FY26 FY27E FY28E Sales 90.1 102.0 110.2 EBITDA 14.4 14.2 17.5 Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "(INR) 345 352 369 Ratios Net D:E 0.4 0.4 0.3 RoE (%) 3.2 2.8 5.5 RoCE (%) 4.9 4.2 6.0 Payout (%) 8.5 0.0 0.0 Valuations P/E (x) 76.5 83.6 41.0 P/BV (x) 2.4 2.3 2.2 EV/EBITDA(x) 15.2 15.5 12.5 EV/ton (USD) 87 74 74 Div.",
+        "PAT was down 53% YoY at INR347m (vs. our estimated net loss of INR279m). ◼ Management indicated that sales volumes were significantly higher in the south region vs. east, which supported higher blended realization.",
+        "Capacity is targeted to reach 31mtpa by Mar’27, with Kolimigundala Line- 2 and clinker unit expected by Dec’26. ◼ We increase our EBITDA estimates by ~13%/10% for FY27/FY28E, considering improvement in profitability."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹850 against a market price of ₹812 at the report date.",
+        "(INR) 345 352 369 Ratios Net D:E 0.4 0.4 0.3 RoE (%) 3.2 2.8 5.5 RoCE (%) 4.9 4.2 6.0 Payout (%) 8.5 0.0 0.0 Valuations P/E (x) 76.5 83.6 41.0 P/BV (x) 2.4 2.3 2.2 EV/EBITDA(x) 15.2 15.5 12.5 EV/ton (USD) 87 74 74 Div.",
+        "Capacity is targeted to reach 31mtpa by Mar’27, with Kolimigundala Line- 2 and clinker unit expected by Dec’26. ◼ We increase our EBITDA estimates by ~13%/10% for FY27/FY28E, considering improvement in profitability.",
+        "We value the stock at 13x FY28E EV/EBITDA to arrive at a TP of INR850."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Capacity expansion to 31mtpa by Mar’27, Kolimigundala commissioning and further non- core asset monetization remain key monitorables. ◼ We estimate a CAGR of ~11%/10%/37% in revenue/EBITDA/PAT over FY26-28.",
+        "Each recipient of this document should make such investigations as it deems necessary to arrive at an independent evaluation of an investment in the securities of companies referred to in this document (including the merits and risks involved), and should consult its own advisors to determine the merits and risks of such an investment."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Capacity is targeted to reach 31mtpa by Mar’27, with Kolimigundala Line- 2 and clinker unit expected by Dec’26. ◼ We increase our EBITDA estimates by ~13%/10% for FY27/FY28E, considering improvement in profitability."
+      ]
+    }
+  ]
 }

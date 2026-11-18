@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Result Update 05th November, 2026 BUY Target Price 1,615 Global Health Ltd Hospital 1 Capacity Scaling, High-Acuity Care, & Margin Expansion Power Long-Term Compounding Est.",
-  "fetchedAt": "2026-11-18T15:52:46.256Z"
+  "fetchedAt": "2026-11-18T15:52:46.256Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": "MEDANTA",
+  "market": "IN",
+  "sector": "Healthcare & Pharma",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on Global Health. Rating: BUY. Target ₹1,615. Result Update 05th November, 2026 BUY Target Price 1,615 Global Health Ltd Hospital 1 Capacity Scaling, High-Acuity Care, & Margin Expansion Power Long-Term Compounding Est.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Result Update 05th November, 2026 BUY Target Price 1,615 Global Health Ltd Hospital 1 Capacity Scaling, High-Acuity Care, & Margin Expansion Power Long-Term Compounding Est.",
+        "Result Update 05th November, 2026 BUY Target Price 1,615 Global Health Ltd Hospital 1 Capacity Scaling, High-Acuity Care, & Margin Expansion Power Long-Term Compounding Est."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The Noida hospital achieving operating EBITDA breakeven within its first year, alongside 110% YoY growth in Cluster 2 operating EBITDA, demonstrates the company's ability to ramp up new facilities and improve profitability as occupancy scales up.",
+        "The planned addition of approximately 3,450 beds over the next 4–5 years provides significant long-term growth visibility. • Strong Operating Leverage and Improving Profitability: The company's growth is increasingly translating into operating leverage, supported by higher patient volumes, improved occupancy and better utilisation of existing infrastructure.",
+        "The Noida hospital's turnaround from an operating EBITDA loss of Rs 199 Mn in Q2FY26 to a profit of Rs 86 Mn in Q2FY27 highlights the earnings potential of maturing hospitals."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹1,615.",
+        "Result Update 05th November, 2026 BUY Target Price 1,615 Global Health Ltd Hospital 1 Capacity Scaling, High-Acuity Care, & Margin Expansion Power Long-Term Compounding Est.",
+        "The planned capex of over Rs 6,000 Cr over the next 4–5 years, targeting more than 7,600 beds, positions the company to capitalise on rising demand for organised tertiary and quaternary healthcare services.",
+        "Current Valuation: EV/EBITDA 25x for FY29E EBITDA (Earlier 25xFY28E) Current TP: Rs 1,615/share (Earlier TP: Rs 1,495/share) Recommendation: BUY Financial Performance Global Health Ltd (Medanta) delivered an all-around operational beat in Q2FY27, with net sales surging 33.6% YoY and 12.6% QoQ to Rs 1,469 Cr, topping our estimate of Rs 1,328 Cr by 11%."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Sector Outlook: Positive Company Outlook & Guidance: Management remains focused on building large-scale hospitals with advanced clinical infrastructure upfront rather than following an incremental expansion model.",
+        "Key Financials (Consolidated) (Rs Cr) Q2FY27 QoQ (%) YoY (%) Axis Est."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The Noida hospital's turnaround from an operating EBITDA loss of Rs 199 Mn in Q2FY26 to a profit of Rs 86 Mn in Q2FY27 highlights the earnings potential of maturing hospitals."
+      ]
+    }
+  ]
 }

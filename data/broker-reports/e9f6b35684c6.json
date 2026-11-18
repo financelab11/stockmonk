@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Chemicals and Pharmaceuticals Limited is progressing smoothly, with the targeted benefits of Rs. 450cr in cost synergies now expected within two years versus three earlier, and JB’s improving margins supporting profitabi",
-  "fetchedAt": "2026-11-18T15:52:56.606Z"
+  "fetchedAt": "2026-11-18T15:52:56.606Z",
+  "brokerId": "geojit",
+  "brokerDisplay": "Geojit",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Geojit published a stock note on Torrent Pharmaceuticals. Chemicals and Pharmaceuticals Limited is progressing smoothly, with the targeted benefits of Rs. 450cr in cost synergies now expected within two years versus three earlier, and JB’s improving margins supporting profitabi",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Chemicals and Pharmaceuticals Limited is progressing smoothly, with the targeted benefits of Rs. 450cr in cost synergies now expected within two years versus three earlier, and JB’s improving margins supporting profitabi",
+        "Chemicals and Pharmaceuticals Limited is progressing smoothly, with the targeted benefits of Rs. 450cr in cost synergies now expected within two years versus three earlier, and JB’s improving margins supporting profitability."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Strength in Brazil and the US, along with ongoing synergy benefits, is expected to support growth visibility and reinforce long-term earnings prospects.",
+        "Therefore, we upgrade our rating to BUY on the stock with a target price of Rs. 5,581, based on 29x FY28E EV/EBITDA.",
+        "The disruption lasted nearly two months, while Torrent's overall semaglutide market share stood at 32% in Q2FY27. • The Indian pharmaceutical market’s growth is expected to remain above 10%, with management expecting sustained healthy demand over the next financial year."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The company expects sustained momentum from its chronic therapy portfolio, supported by continued expansion of the Curatio business, increasing contribution from the semaglutide portfolio and deeper penetration across key therapeutic segments.",
+        "Please note that the stock always carries the risk of being upgraded to BUY or downgraded to a HOLD, REDUCE or SELL."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The disruption lasted nearly two months, while Torrent's overall semaglutide market share stood at 32% in Q2FY27. • The Indian pharmaceutical market’s growth is expected to remain above 10%, with management expecting sustained healthy demand over the next financial year."
+      ]
+    }
+  ]
 }

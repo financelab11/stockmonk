@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "Nevertheless, the outlook for its global CV volume remains healthy.",
-  "fetchedAt": "2026-11-18T15:52:53.509Z"
+  "fetchedAt": "2026-11-18T15:52:53.509Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 22% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Samvardhana Motherson International. Rating: BUY. Target ₹205 (+22% vs ₹168). Nevertheless, the outlook for its global CV volume remains healthy.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Nevertheless, the outlook for its global CV volume remains healthy.",
+        "Nevertheless, the outlook for its global CV volume remains healthy."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Furthermore, new platform/model launches from global LV OEMs bode well for SAMIL’s content growth and profitability.",
+        "Non-auto segments (led by consumer electronics and aerospace) are expected to see a strong ramp-up from FY28 onwards, backed by a rising order backlog.",
+        "Q2FY27: Revenue/margin below our estimates SAMIL reported consol. net sales of INR 382.8bn (+27% YoY/+9% QoQ), 3% below our estimate."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹205 against a market price of ₹168 at the report date.",
+        "SAMIL’s customers are planning multiple new models/platforms launches during CY27, which could accelerate its content and profitability, as these new businesses are at better margins.",
+        "Further, SAMIL is evaluating acquisition opportunities at the behest of its customers. • SAMIL has also started focusing on gradually building capabilities in humanoid robotics, semiconductors and multiple other high-growth segments.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Nevertheless, the outlook for its global CV volume remains healthy.",
+        "Demand outlook During Q2, emerging markets continued to demonstrate volume growth (led by South Asia) across PVs and CVs."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Q2FY27: Revenue/margin below our estimates SAMIL reported consol. net sales of INR 382.8bn (+27% YoY/+9% QoQ), 3% below our estimate."
+      ]
+    }
+  ]
 }

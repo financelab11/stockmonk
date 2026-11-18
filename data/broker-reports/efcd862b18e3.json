@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "PAT increased 16% YoY/9% QoQ to Rs3.08bn (20% YoY excluding ESOP costs).",
-  "fetchedAt": "2026-11-18T15:52:09.548Z"
+  "fetchedAt": "2026-11-18T15:52:09.548Z",
+  "brokerId": "idbi-capital",
+  "brokerDisplay": "IDBI Capital",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "IDBI Capital published a result update on Aadhar Housing Finance. Rating: BUY. Target ₹520 (+19% vs ₹438). PAT increased 16% YoY/9% QoQ to Rs3.08bn (20% YoY excluding ESOP costs).",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "PAT increased 16% YoY/9% QoQ to Rs3.08bn (20% YoY excluding ESOP costs).",
+        "PAT increased 16% YoY/9% QoQ to Rs3.08bn (20% YoY excluding ESOP costs)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Other mortgages contributed 26% of disbursements, with management targeting ~28% by Q4FY27.",
+        "Stage 2 assets stood at Rs9.56bn, with Stage 3 PCR at 34.5% and total ECL coverage at 1.2%; management targets GNPA of 1.10–1.15% and credit cost of 25bps by year-end.  Outlook: Management retained guidance of 18–20% disbursement growth and 20% AUM/PAT growth (excluding ESOP costs), with at least 20% disbursement growth in H2.",
+        "Management sees opportunity in Tier 2, Tier 3 and smaller emerging markets.  Competition is increasing, making new catchments, productivity and customer retention more important.  RBI raised the repo rate by 25 bps to 5.5% and shifted to calibrated tightening."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹520 against a market price of ₹438 at the report date.",
+        "Other mortgages contributed 26% of disbursements, with management targeting ~28% by Q4FY27.",
+        "Stage 2 assets stood at Rs9.56bn, with Stage 3 PCR at 34.5% and total ECL coverage at 1.2%; management targets GNPA of 1.10–1.15% and credit cost of 25bps by year-end.  Outlook: Management retained guidance of 18–20% disbursement growth and 20% AUM/PAT growth (excluding ESOP costs), with at least 20% disbursement growth in H2.",
+        "Aadhar Housing Finance BUY Ajay Yadav Ajay.yadav@idbicapital.com +91-22-4069 1819 Sweta Padhi Sweta.padhi@idbicapital.com +91-22-4069 1819 TP Rs 520 CMP Rs 438 Potential upside/downside 19% Previous Rating BUY Key Stock Data Bloomberg / Reuters AADHARHF IN / AADA.BO Sector Housing Finance Shares o/s (mn) 438 Market cap."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Highlights and Investment Rationale:  Disbursement mix favours home loans: Home loan disbursements grew 31% YoY to Rs19.0bn, while other mortgage loans increased 3% to Rs6.8bn.",
+        "Stage 2 assets stood at Rs9.56bn, with Stage 3 PCR at 34.5% and total ECL coverage at 1.2%; management targets GNPA of 1.10–1.15% and credit cost of 25bps by year-end.  Outlook: Management retained guidance of 18–20% disbursement growth and 20% AUM/PAT growth (excluding ESOP costs), with at least 20% disbursement growth in H2."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management sees opportunity in Tier 2, Tier 3 and smaller emerging markets.  Competition is increasing, making new catchments, productivity and customer retention more important.  RBI raised the repo rate by 25 bps to 5.5% and shifted to calibrated tightening."
+      ]
+    }
+  ]
 }

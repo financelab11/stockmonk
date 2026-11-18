@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "(TITIND) CMP: ₹ 4995 Target ₹ 5800 (16%) Target Period: 12 months November 6, 2026 Aiming 20% jewellery growth by acquiring more buyers … About the stock : Titan, is a leading organised jeweller in India with its trusted",
-  "fetchedAt": "2026-11-18T15:52:35.229Z"
+  "fetchedAt": "2026-11-18T15:52:35.229Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Titan Company. (TITIND) CMP: ₹ 4995 Target ₹ 5800 (16%) Target Period: 12 months November 6, 2026 Aiming 20% jewellery growth by acquiring more buyers … About the stock : Titan, is a leading organised jeweller in India with its trusted",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(TITIND) CMP: ₹ 4995 Target ₹ 5800 (16%) Target Period: 12 months November 6, 2026 Aiming 20% jewellery growth by acquiring more buyers … About the stock : Titan, is a leading organised jeweller in India with its trusted",
+        "(TITIND) CMP: ₹ 4995 Target ₹ 5800 (16%) Target Period: 12 months November 6, 2026 Aiming 20% jewellery growth by acquiring more buyers … About the stock : Titan, is a leading organised jeweller in India with its trusted brand, Tanishq It also is a leader in watches and further diversified into eyewear and other lifestyle businesses."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Q 2F Y2 7 performance : Titan reported 10.1% YoY growth in consolidated net revenues to Rs.20,614cr driven by broad-base growth across business (jewellery business grew by 20%).",
+        "Adjusted for inventory and MTM gain of ~Rs.626cr, Gross margins improved by 354bps YoY to 25.0% driven by better product mix.",
+        "Investment Rationale: • Domestic j ewellery business (ex - Caratlane) grew by 20% in Q 2FY27; Buyer’s growth flat ; studded mix improved, aiming 20% revenue growth : Titan’s domestic jewellery business (excluding bullions) grew by 20% YoY to Rs14,495cr, with buyers’ growth remaining flat while growth was driven by high ticket price purchases."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(TITIND) CMP: ₹ 4995 Target ₹ 5800 (16%) Target Period: 12 months November 6, 2026 Aiming 20% jewellery growth by acquiring more buyers … About the stock : Titan, is a leading organised jeweller in India with its trusted brand, Tanishq It also is a leader in watches and further diversified into eyewear and other lifestyle businesses.",
+        "However, MTM gain/losses of around 40-60bps could fluctuate Q-o-Q due to movement in the gold prices. • Non - jewellery business registered strong performance: Titan’s non-jewellery businesses (watches, eyecare and emerging businesses) registered high growth performance that accelerated compared with earlier quarters."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Investment Rationale: • Domestic j ewellery business (ex - Caratlane) grew by 20% in Q 2FY27; Buyer’s growth flat ; studded mix improved, aiming 20% revenue growth : Titan’s domestic jewellery business (excluding bullions) grew by 20% YoY to Rs14,495cr, with buyers’ growth remaining flat while growth was driven by high ticket price purchases."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Revenue growth of 20.8% YoY was on the back of last year’s favourable base (operations impacted to supply disruption at a CMO and GST impact).",
-  "fetchedAt": "2026-11-18T15:52:20.433Z"
+  "fetchedAt": "2026-11-18T15:52:20.433Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on GlaxoSmithKline Pharmaceuticals. Rating: BUY. Target ₹2,900 (+16% vs ₹2,500). Revenue growth of 20.8% YoY was on the back of last year’s favourable base (operations impacted to supply disruption at a CMO and GST impact).",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Revenue growth of 20.8% YoY was on the back of last year’s favourable base (operations impacted to supply disruption at a CMO and GST impact).",
+        "Revenue growth of 20.8% YoY was on the back of last year’s favourable base (operations impacted to supply disruption at a CMO and GST impact)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Management is confident of delivering double-digit revenue growth with EBITDA margin of ~34% in FY27.",
+        "Healthy revenue growth aided by favourable base Revenue grew 20.8% YoY (+26.1% QoQ) to INR 11.8bn (I-Sec: INR 10.7bn).",
+        "Gross margin contracted 127bps YoY (-261bps QoQ) to 62.4%, despite cost pressure."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹2,900 against a market price of ₹2,500 at the report date.",
+        "The next important launch is Blenrep, an ADC for relapsed or refractory multiple myeloma expected in Q3FY27.",
+        "Valuation and risks Benefit of a low base due to supply-led issues in the past, traction in existing mature brands and new launches helped GSK to report strong revenue in H1FY27.",
+        "The stock currently trades at attractive valuations of 32.5x FY28E earnings and 22.8x EV/EBITDA."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Valuation and risks Benefit of a low base due to supply-led issues in the past, traction in existing mature brands and new launches helped GSK to report strong revenue in H1FY27.",
+        "Key downside risks: More products under price control; and delay in launching new products."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Gross margin contracted 127bps YoY (-261bps QoQ) to 62.4%, despite cost pressure."
+      ]
+    }
+  ]
 }

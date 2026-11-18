@@ -29,5 +29,56 @@
     ]
   },
   "blurb": "(%) (11.0) 7.3 21.6 17.4 DPS (INR) 75.0 75.0 75.0 75.0 Yield (%) 2.0 2.0 2.0 2.0 RoE (%) 23.7 23.6 25.7 26.3 RoCE (%) 18.2 19.1 20.6 20.9 EV/Sales (x) 5.8 5.0 4.4 3.9 EV/EBITDA (x) 25.5 22.0 18.9 15.9 PE (x) 33.1 30.8 25",
-  "fetchedAt": "2026-11-18T15:49:27.376Z"
+  "fetchedAt": "2026-11-18T15:49:27.376Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Tata Elxsi. Rating: ACCUMULATE. Target ₹3,790. (%) (11.0) 7.3 21.6 17.4 DPS (INR) 75.0 75.0 75.0 75.0 Yield (%) 2.0 2.0 2.0 2.0 RoE (%) 23.7 23.6 25.7 26.3 RoCE (%) 18.2 19.1 20.6 20.9 EV/Sales (x) 5.8 5.0 4.4 3.9 EV/EBITDA (x) 25.5 22.0 18.9 15.9 PE (x) 33.1 30.8 25",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(%) (11.0) 7.3 21.6 17.4 DPS (INR) 75.0 75.0 75.0 75.0 Yield (%) 2.0 2.0 2.0 2.0 RoE (%) 23.7 23.6 25.7 26.3 RoCE (%) 18.2 19.1 20.6 20.9 EV/Sales (x) 5.8 5.0 4.4 3.9 EV/EBITDA (x) 25.5 22.0 18.9 15.9 PE (x) 33.1 30.8 25",
+        "(%) (11.0) 7.3 21.6 17.4 DPS (INR) 75.0 75.0 75.0 75.0 Yield (%) 2.0 2.0 2.0 2.0 RoE (%) 23.7 23.6 25.7 26.3 RoCE (%) 18.2 19.1 20.6 20.9 EV/Sales (x) 5.8 5.0 4.4 3.9 EV/EBITDA (x) 25.5 22.0 18.9 15.9 PE (x) 33.1 30.8 25.4 21.6 P/BV (x) 7.6 7.0 6.1 5.3 Broadening avenues to address key market concerns Company R eport We interacted with the management of TELX to gauge the underlying progress in the automotive space."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Although these adjacencies contribute only 10-12% to revenue, they are growing at a much faster rate sequentially, given the significant after-market support and fleet management required vs. the one-time sell for PVs.",
+        "Secondly, these adjacencies fall beyond the ambit of Chinese competitions (concentrated on PV), thus providing TELX an opportunity to recoup some of the revenue leakages from the European PV market.",
+        "The European market remains under pressure due to a weak revenue profile for both classic and luxury OEMs, resulting in execution delays and program deferrals on new PV launches."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: ACCUMULATE.",
+        "Target price ₹3,790.",
+        "(%) (11.0) 7.3 21.6 17.4 DPS (INR) 75.0 75.0 75.0 75.0 Yield (%) 2.0 2.0 2.0 2.0 RoE (%) 23.7 23.6 25.7 26.3 RoCE (%) 18.2 19.1 20.6 20.9 EV/Sales (x) 5.8 5.0 4.4 3.9 EV/EBITDA (x) 25.5 22.0 18.9 15.9 PE (x) 33.1 30.8 25.4 21.6 P/BV (x) 7.6 7.0 6.1 5.3 Broadening avenues to address key market concerns Company R eport We interacted with the management of TELX to gauge the underlying progress in the automotive space."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(%) (11.0) 7.3 21.6 17.4 DPS (INR) 75.0 75.0 75.0 75.0 Yield (%) 2.0 2.0 2.0 2.0 RoE (%) 23.7 23.6 25.7 26.3 RoCE (%) 18.2 19.1 20.6 20.9 EV/Sales (x) 5.8 5.0 4.4 3.9 EV/EBITDA (x) 25.5 22.0 18.9 15.9 PE (x) 33.1 30.8 25.4 21.6 P/BV (x) 7.6 7.0 6.1 5.3 Broadening avenues to address key market concerns Company R eport We interacted with the management of TELX to gauge the underlying progress in the automotive space.",
+        "Diversifying within & across Transportation to mitigate headwinds facing the European PV market: TELX is pursuing diversification across its business to mitigate headwinds in Europe’s PV market."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The European market remains under pressure due to a weak revenue profile for both classic and luxury OEMs, resulting in execution delays and program deferrals on new PV launches."
+      ]
+    }
+  ]
 }

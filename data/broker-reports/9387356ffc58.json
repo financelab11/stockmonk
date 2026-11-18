@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "However, incremental wage costs of ~INR 60mn and North Bangalore losses of INR 61mn weighed on margins.",
-  "fetchedAt": "2026-11-18T15:52:05.812Z"
+  "fetchedAt": "2026-11-18T15:52:05.812Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Healthcare Global Enterprises. Rating: BUY. Target ₹700 (+16% vs ₹601). However, incremental wage costs of ~INR 60mn and North Bangalore losses of INR 61mn weighed on margins.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "However, incremental wage costs of ~INR 60mn and North Bangalore losses of INR 61mn weighed on margins.",
+        "However, incremental wage costs of ~INR 60mn and North Bangalore losses of INR 61mn weighed on margins."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "HCG added 146 beds in H1FY27; it plans to add another 42 beds in H2FY27, which could boost growth.",
+        "Besides, the North Bangalore hospital is expected to achieve monthly EBITDA break-even in Q4FY27, which will likely aid profitability.",
+        "Management is articulating a plan to absorb the impact (7–9% hit to EBITDA ahead) from drug margin curb, It guides for 14–16% revenue growth and 17–19% EBITDA growth for FY28."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹700 against a market price of ₹601 at the report date.",
+        "Maintain BUY, revise TP to INR 700, based on 17x FY28E EV/EBITDA.",
+        "Revenue is ramping up, in-line with management’s expectations with monthly EBITDA break-even targeted in Q4FY27.",
+        "The stock currently trades at a multiple of 17.8x FY27E and 14.6x FY28E EV/EBITDA."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The recent trade-margin cap on oncology drugs presents a near-term headwind.",
+        "Key downside risks: Higher competition in oncology, and delay in operational turnaround of new centres."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management is articulating a plan to absorb the impact (7–9% hit to EBITDA ahead) from drug margin curb, It guides for 14–16% revenue growth and 17–19% EBITDA growth for FY28."
+      ]
+    }
+  ]
 }

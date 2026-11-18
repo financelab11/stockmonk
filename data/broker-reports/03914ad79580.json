@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Per (%) -16/-29/-29 12M Avg Val (INR M) 2140 Financials Snapshot (INR b) Y/E March 2027E 2028E 2029E Sales 45.7 60.7 70.0 EBITDA 5.3 8.8 10.4 Adj.",
-  "fetchedAt": "2026-11-18T15:50:57.241Z"
+  "fetchedAt": "2026-11-18T15:50:57.241Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on Bharat Dynamics. Target ₹1,130 (+7% vs ₹1,055). Per (%) -16/-29/-29 12M Avg Val (INR M) 2140 Financials Snapshot (INR b) Y/E March 2027E 2028E 2029E Sales 45.7 60.7 70.0 EBITDA 5.3 8.8 10.4 Adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Per (%) -16/-29/-29 12M Avg Val (INR M) 2140 Financials Snapshot (INR b) Y/E March 2027E 2028E 2029E Sales 45.7 60.7 70.0 EBITDA 5.3 8.8 10.4 Adj.",
+        "Per (%) -16/-29/-29 12M Avg Val (INR M) 2140 Financials Snapshot (INR b) Y/E March 2027E 2028E 2029E Sales 45.7 60.7 70.0 EBITDA 5.3 8.8 10.4 Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "(%) 58.1 35.9 19.3 BV/Sh.(INR) 126.9 143.5 163.7 Ratios RoE (%) 14.3 17.2 17.9 RoCE (%) 14.6 17.5 18.3 Payout (%) 38.3 32.5 31.3 Valuations P/E (x) 58.3 42.9 36.0 P/BV (x) 8.3 7.4 6.5 EV/EBITDA (x) 62.4 36.1 29.3 Div.",
+        "This execution has led to a sharp revenue beat vs. our estimate.",
+        "However, due to a spike in import content, EBITDA margin contracted both YoY and QoQ."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹1,130 against a market price of ₹1,055 at the report date.",
+        "(%) 58.1 35.9 19.3 BV/Sh.(INR) 126.9 143.5 163.7 Ratios RoE (%) 14.3 17.2 17.9 RoCE (%) 14.6 17.5 18.3 Payout (%) 38.3 32.5 31.3 Valuations P/E (x) 58.3 42.9 36.0 P/BV (x) 8.3 7.4 6.5 EV/EBITDA (x) 62.4 36.1 29.3 Div.",
+        "However, we now bake in lower margins in our estimates and arrive at our revised TP of INR1,130 based on a slightly lower multiple of 40x two-year forward earnings (vs. 42x earlier), as margin performance continues to disappoint.",
+        "Valuation and view The stock currently trades at 58.3x/42.9x/36x P/E on FY27/FY28/FY29 estimates."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key developments that could support future growth ◼ DAC approvals of INR2.1t: On 26th Oct’26, the DAC accorded an AoN for ~INR2.1t worth of procurements, including the VSHORADS and strike systems, along with other ISR and naval platforms.",
+        "Financial outlook We marginally reduce our estimates for FY27 and FY28 and expect revenue/EBITDA/PAT to clock a CAGR of 42%/67%/37% over FY26-29 on a low base."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "However, due to a spike in import content, EBITDA margin contracted both YoY and QoQ."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Evos reported CY25 EBITDA of EUR219mn with a margin of 56%, supported by 99% commercial occupancy, long-term contracted revenues and strong cash conversion.",
-  "fetchedAt": "2026-11-18T15:51:09.079Z"
+  "fetchedAt": "2026-11-18T15:51:09.079Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Adani Port & SEZ. Rating: BUY. Target ₹2,248. Evos reported CY25 EBITDA of EUR219mn with a margin of 56%, supported by 99% commercial occupancy, long-term contracted revenues and strong cash conversion.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Evos reported CY25 EBITDA of EUR219mn with a margin of 56%, supported by 99% commercial occupancy, long-term contracted revenues and strong cash conversion.",
+        "Evos reported CY25 EBITDA of EUR219mn with a margin of 56%, supported by 99% commercial occupancy, long-term contracted revenues and strong cash conversion."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "We view the acquisition positively, given Evos' high-margin operations and strategic presence across key European energy hubs.",
+        "The addition of Evos should strengthen ADSEZ's international earnings contribution and improve its international ports EBITDA margin profile, while providing opportunities for growth through higher-value products, operating efficiencies and capacity addition in future.",
+        "While the debt-funded acquisition will increase leverage in the near term, Evos' contracted revenues and strong cash generation should support gradual deleveraging."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹2,248.",
+        "Overall, we believe the transaction strengthens ADSEZ's long-term growth prospects, with relatively lower valuation and execution pedigree.",
+        "Evos adds high-margin liquid storage platform ADSEZ has entered into an agreement to acquire a 100% stake in Netherlands-based Evos B.V. from Igneo Infrastructure Partners for an EV of EUR2.56bn (11.7x CY25 EV/EBITDA).",
+        "Exhibit 7: ADSEZ and EVO’s consolidated debt profile (Target net debt to EBITDA 2.5x by FY27) Source: Company Consolidated net debt/EBITDA to increase to ~2.76x following the acquisition, before moderating towards ~2.5x."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "We view the acquisition positively, given Evos' high-margin operations and strategic presence across key European energy hubs.",
+        "The key monitorables will be financing costs, integration, cash flow generation and the pace of deleveraging."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "While the debt-funded acquisition will increase leverage in the near term, Evos' contracted revenues and strong cash generation should support gradual deleveraging."
+      ]
+    }
+  ]
 }

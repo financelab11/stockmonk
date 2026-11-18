@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Elara Securities (India) Private Limited Global Markets Research India operations: Guided to lift NSR by INR 3.6K Tata Steel ’s (TATA IN) consolidated EBITDA was ~INR 105.3bn, up ~18% YoY and ~14% QoQ, largely in line wi",
-  "fetchedAt": "2026-11-18T15:51:57.047Z"
+  "fetchedAt": "2026-11-18T15:51:57.047Z",
+  "brokerId": "elara",
+  "brokerDisplay": "Elara Capital",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 26% change"
+    ]
+  },
+  "execSummary": "Elara Capital published a stock note on Tata Steel. Target ₹235 (+26% vs ₹186). Elara Securities (India) Private Limited Global Markets Research India operations: Guided to lift NSR by INR 3.6K Tata Steel ’s (TATA IN) consolidated EBITDA was ~INR 105.3bn, up ~18% YoY and ~14% QoQ, largely in line wi",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Elara Securities (India) Private Limited Global Markets Research India operations: Guided to lift NSR by INR 3.6K Tata Steel ’s (TATA IN) consolidated EBITDA was ~INR 105.3bn, up ~18% YoY and ~14% QoQ, largely in line wi",
+        "Elara Securities (India) Private Limited Global Markets Research India operations: Guided to lift NSR by INR 3.6K Tata Steel ’s (TATA IN) consolidated EBITDA was ~INR 105.3bn, up ~18% YoY and ~14% QoQ, largely in line with our estimate of ~INR 103bn , but slightly ahead of ~INR 100bn consensus ."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The strong performance was led by robust domestic realization and healthy volume growth.",
+        "Among overseas operations, EBITDA for Tata Steel Netherlands surged ~20x , following the restart of the Direct Sheet Plant (DSP) in Augus t.",
+        "TATA expect s a stronger operational and financial performance in H2 versus H1, led by higher domestic delivery volumes, favorable seasonal demand , and firming price realization across key geographies."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹235 against a market price of ₹186 at the report date.",
+        "Long -term volume growth is anchored by the 4.8mn tonne s expansion project targeted for commissioning in FY30.",
+        "In Europe, operational metrics in the Netherlands are set to rebound in H2 (targeting ~1.7MT quarterly deliveries, 30% higher than Q2FY27) following the full restart of the Direct Sheet Plant .",
+        "In the UK, management target s to reach break -even by Q4 as excess import inventories flush out and Q3 realizations rise by GBP 28-30/ton ne ."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "TATA expect s a stronger operational and financial performance in H2 versus H1, led by higher domestic delivery volumes, favorable seasonal demand , and firming price realization across key geographies.",
+        "Each recipient of this document should make such investigations as it deems necessary to arrive at an independent evaluation of an investment in the securities of companies referred to in this document (including the merits and risks involved) and should consult its own advisors to determine the merits and risks of such an investment."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "TATA expect s a stronger operational and financial performance in H2 versus H1, led by higher domestic delivery volumes, favorable seasonal demand , and firming price realization across key geographies."
+      ]
+    }
+  ]
 }

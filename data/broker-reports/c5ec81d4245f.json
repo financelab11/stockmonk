@@ -30,5 +30,56 @@
     ]
   },
   "blurb": "Key Points  LOG’s 2QFY27 operating performance came broadly better than our estimates on account of the much awaited beat in revenue performance.",
-  "fetchedAt": "2026-11-18T15:50:05.851Z"
+  "fetchedAt": "2026-11-18T15:50:05.851Z",
+  "brokerId": "nirmal-bang",
+  "brokerDisplay": "Nirmal Bang",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Nirmal Bang published a stock note on La Opala RG. Rating: BUY. Key Points  LOG’s 2QFY27 operating performance came broadly better than our estimates on account of the much awaited beat in revenue performance.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Key Points  LOG’s 2QFY27 operating performance came broadly better than our estimates on account of the much awaited beat in revenue performance.",
+        "Key Points  LOG’s 2QFY27 operating performance came broadly better than our estimates on account of the much awaited beat in revenue performance."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Revenue growth of ~12%/~42% YoY/QoQ was largely volume and mix led.",
+        "Aggressive hiring and elevated costs amid the West Asia Crisis led to lower EBITDA and earnings growth.  The management sounded optimistic on coming quarters on account of early signs of demand recovery, festive led push as well as normalisation of distribution led issues.",
+        "The management is not exploring any expansion plan during FY27.  Taking cognisance of 2QFY27 performance and the management commentary, we have revised our estimates upwards wherein we are building in Revenue/EBITDA/APAT CAGR of 14%/13%/17% over FY26-29E."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Despite assigning a significant valuation discount to peers after acknowledging the growth and competitive challenges, we believe the risk-reward is favourable.",
+        "Outlook and valuation: While the peak revenue from the current capacity at current pricing stands at Rs4.5bn, the management is not exploring any expansion plan during FY27, not even a brownfield expansion."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Points  LOG’s 2QFY27 operating performance came broadly better than our estimates on account of the much awaited beat in revenue performance.",
+        "Despite assigning a significant valuation discount to peers after acknowledging the growth and competitive challenges, we believe the risk-reward is favourable."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The management is not exploring any expansion plan during FY27.  Taking cognisance of 2QFY27 performance and the management commentary, we have revised our estimates upwards wherein we are building in Revenue/EBITDA/APAT CAGR of 14%/13%/17% over FY26-29E."
+      ]
+    }
+  ]
 }

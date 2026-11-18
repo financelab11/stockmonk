@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "The company delivered a strong quarter, driven by growth across its consumer electricals, lighting and kitchen appliance businesses, supported by market share gains, premiumisation and export traction.",
-  "fetchedAt": "2026-11-18T15:52:44.190Z"
+  "fetchedAt": "2026-11-18T15:52:44.190Z",
+  "brokerId": "geojit",
+  "brokerDisplay": "Geojit",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Geojit published a stock note on Crompton Greaves Consumer Electrical. The company delivered a strong quarter, driven by growth across its consumer electricals, lighting and kitchen appliance businesses, supported by market share gains, premiumisation and export traction.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "The company delivered a strong quarter, driven by growth across its consumer electricals, lighting and kitchen appliance businesses, supported by market share gains, premiumisation and export traction.",
+        "The company delivered a strong quarter, driven by growth across its consumer electricals, lighting and kitchen appliance businesses, supported by market share gains, premiumisation and export traction."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Management expects the growth momentum to be underpinned by expansion in solar solutions and wires, scaling of rooftop solar operations, deeper distribution penetration, growing contribution from newer categories, increasing adoption of smart and connected products, strengthening international presence, increased brand investments, and continued innovation-led product launches.",
+        "Additionally, the company’s strong growth outlook, improving business mix, market share gains, and execution across emerging categories support a positive long-term growth trajectory.",
+        "Management stated that solar pumps continue to support agri expansion through wider distribution and portfolio expansion. • According to management, cumulative increase in fan prices was 17%-18% over the last nine months, with a large part of the increase implemented between March and June. • Management stated that approximately 80% of increase in commodity costs has been passed on through increase in prices."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Additionally, the company’s strong growth outlook, improving business mix, market share gains, and execution across emerging categories support a positive long-term growth trajectory.",
+        "Please note that the stock always carries the risk of being upgraded to BUY or downgraded to a HOLD, REDUCE or SELL."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management stated that solar pumps continue to support agri expansion through wider distribution and portfolio expansion. • According to management, cumulative increase in fan prices was 17%-18% over the last nine months, with a large part of the increase implemented between March and June. • Management stated that approximately 80% of increase in commodity costs has been passed on through increase in prices."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "On consolidated basis, total Op. income for the quarter came in at ₹7,422 crore (up ~20% YoY) amid healthy Royal Enfield sales volume at ~3.8 lakh units (up ~16% YoY).",
-  "fetchedAt": "2026-11-18T15:49:59.986Z"
+  "fetchedAt": "2026-11-18T15:49:59.986Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "ICICI Securities published a result update on Eicher Motors. On consolidated basis, total Op. income for the quarter came in at ₹7,422 crore (up ~20% YoY) amid healthy Royal Enfield sales volume at ~3.8 lakh units (up ~16% YoY).",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "On consolidated basis, total Op. income for the quarter came in at ₹7,422 crore (up ~20% YoY) amid healthy Royal Enfield sales volume at ~3.8 lakh units (up ~16% YoY).",
+        "On consolidated basis, total Op. income for the quarter came in at ₹7,422 crore (up ~20% YoY) amid healthy Royal Enfield sales volume at ~3.8 lakh units (up ~16% YoY)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA in Q2FY27 came in at ₹1,760 crore with corresponding EBITDA margins at 23.7% (down ~30 bps QoQ).",
+        "Resultant PAT for the quarter stood at ₹1,573 crore (up ~15% YoY).",
+        "Share of profits from the VECV arm stood at ₹186 crore with EBITDA margins at 7.8%."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Investment Rationale: • Structural premiumization trend support demand outlook : Royal Enfield remains well positioned to benefit from the structural premiumisation of the Indian 2W industry.",
+        "Rating and Target Price • With demand visibility, manufacturing expansion, premiumisation and international opportunities supporting its medium- to long-term business prospects along with a strong growth outlook for VECV arm, we maintain BUY rating on the stock."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Share of profits from the VECV arm stood at ₹186 crore with EBITDA margins at 7.8%."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Negatives: • Management cited ROW issues as the key reason for relatively lower capitalization.",
-  "fetchedAt": "2026-11-18T15:53:29.650Z"
+  "fetchedAt": "2026-11-18T15:53:29.650Z",
+  "brokerId": "kotak",
+  "brokerDisplay": "Kotak Institutional Equities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Kotak Institutional Equities published a result update on Power Grid. Rating: REDUCE. Negatives: • Management cited ROW issues as the key reason for relatively lower capitalization.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Negatives: • Management cited ROW issues as the key reason for relatively lower capitalization.",
+        "Negatives: • Management cited ROW issues as the key reason for relatively lower capitalization."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "(PAT: Profit After Tax , HVDC: High Voltage Direct Current, ROW, Right Of Way) ` ` ` The content of this document has been derived from KIE research report.",
+        "Reports based on technical analysis centers on studying charts of a stock's price movement and trading volume, as opposed to focusing on a company's fundamentals and as such, may not match with a report on a company's fundamentals.",
+        "Portfolio Management Team (PMS) takes its investment decisions independent of the PCG research and accordingly PMS may have positions contrary to the PCG research recommendation."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: REDUCE.",
+        "Kotak Securities is not assigning any rating or price target to the stock.",
+        "Kotak Securities has suspended the investment rating and price target for this stock, either because there is not a sufficient fundamental basis for determining, or there are legal, regulatory or policy constraints around publishing, an investment rating or target.",
+        "The previous investment rating and price target, if any, are no longer in effect for this stock and should not be relied upon."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Negatives: • Management cited ROW issues as the key reason for relatively lower capitalization.",
+        "Certain transactions -including those involving futures, options and other derivatives as well as non-investment grade securities - involve substantial risk and are not suitable for all investors."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Portfolio Management Team (PMS) takes its investment decisions independent of the PCG research and accordingly PMS may have positions contrary to the PCG research recommendation."
+      ]
+    }
+  ]
 }

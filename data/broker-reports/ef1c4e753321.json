@@ -30,5 +30,57 @@
     ]
   },
   "blurb": "VA Tech Wabag (Wabag)’s long-term story remains intact, with strong order inflows (OI) of INR 18bn (2x YoY), lifting its order book (OB) of INR 202bn, with a book-to-bill of 4.7x.",
-  "fetchedAt": "2026-11-18T15:51:29.831Z"
+  "fetchedAt": "2026-11-18T15:51:29.831Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Va Tech Wabag. Rating: BUY. Target ₹2,312 (+15% vs ₹2,010). VA Tech Wabag (Wabag)’s long-term story remains intact, with strong order inflows (OI) of INR 18bn (2x YoY), lifting its order book (OB) of INR 202bn, with a book-to-bill of 4.7x.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "VA Tech Wabag (Wabag)’s long-term story remains intact, with strong order inflows (OI) of INR 18bn (2x YoY), lifting its order book (OB) of INR 202bn, with a book-to-bill of 4.7x.",
+        "VA Tech Wabag (Wabag)’s long-term story remains intact, with strong order inflows (OI) of INR 18bn (2x YoY), lifting its order book (OB) of INR 202bn, with a book-to-bill of 4.7x."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "More importantly, execution on key projects has gathered pace, while projects in the Middle East have witnessed minimal on-site disruptions, thus boosting revenue visibility.",
+        "Wabag reported another good quarter, with revenue growth of 20% to INR 10bn, and EBITDA of INR 1.4bn, with margin of 14.4%, translating into PAT of INR 1bn.",
+        "Given the healthy OB, minimal impact of the ongoing conflict in the Middle East and improved execution, we expect Wabag to sail smoothly over the medium term; we envisage the company delivering revenue/PAT growth of 17%/24% over FY26–28E."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹2,312 against a market price of ₹2,010 at the report date.",
+        "Source: I-Sec research, Company data Valuation and outlook Wabag’s strong FY26 execution, improving profitability profile and record order backlog strengthen confidence in its medium-term growth visibility.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "More importantly, execution on key projects has gathered pace, while projects in the Middle East have witnessed minimal on-site disruptions, thus boosting revenue visibility.",
+        "Growth visibility intact The growth outlook remains strong, backed by a healthy OB of INR 202bn, implying >4x book-to-bill, providing healthy revenue visibility."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Given the healthy OB, minimal impact of the ongoing conflict in the Middle East and improved execution, we expect Wabag to sail smoothly over the medium term; we envisage the company delivering revenue/PAT growth of 17%/24% over FY26–28E."
+      ]
+    }
+  ]
 }

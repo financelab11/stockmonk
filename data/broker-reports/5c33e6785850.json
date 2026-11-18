@@ -30,5 +30,57 @@
     ]
   },
   "blurb": "For FY27, PEPL remains confident of achieving 15–20% sales bookings growth on the back of INR 465bn of new launches in H2FY27.",
-  "fetchedAt": "2026-11-18T15:51:29.656Z"
+  "fetchedAt": "2026-11-18T15:51:29.656Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Prestige Estates Projects. Rating: BUY. Target ₹1,864 (+17% vs ₹1,598). For FY27, PEPL remains confident of achieving 15–20% sales bookings growth on the back of INR 465bn of new launches in H2FY27.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "For FY27, PEPL remains confident of achieving 15–20% sales bookings growth on the back of INR 465bn of new launches in H2FY27.",
+        "For FY27, PEPL remains confident of achieving 15–20% sales bookings growth on the back of INR 465bn of new launches in H2FY27."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "With an INR 465bn in GDV across the several launches planned for the rest of FY27 – across Bengaluru, Hyderabad, Mumbai and Chennai, PEPL is targeting 15–20% YoY growth in sales bookings and collections.",
+        "However, with the company continuing to incur annual land/stake buyout spend of INR 40–50bn and annual annuity capex of INR 40– 50bn, its ability to keep debt levels in check while chasing growth would be crucial.",
+        "ICICI Securities is one of the leading merchant bankers/ underwriters of securities and participate in virtually all securiti es trading markets in India."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹1,864 against a market price of ₹1,598 at the report date.",
+        "With an INR 465bn in GDV across the several launches planned for the rest of FY27 – across Bengaluru, Hyderabad, Mumbai and Chennai, PEPL is targeting 15–20% YoY growth in sales bookings and collections.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "While robust demand supports this outlook, any approval delays remain the primary risk.",
+        "While key upcoming annuity projects have achieved significant pre-leasing, PEPL’s ability to manage debt levels with annual land/annuity capex of INR 40–50bn/INR 40–50bn is crucial."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "ICICI Securities is one of the leading merchant bankers/ underwriters of securities and participate in virtually all securiti es trading markets in India."
+      ]
+    }
+  ]
 }

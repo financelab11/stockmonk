@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Notably, the awarding has improved recently, on the back of which, KNR is targeting INR 50bn order inflow (OI) in H2FY27.",
-  "fetchedAt": "2026-11-18T15:49:39.544Z"
+  "fetchedAt": "2026-11-18T15:49:39.544Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on KNR Constructions. Rating: HOLD. Target ₹112 (+5% vs ₹107). Notably, the awarding has improved recently, on the back of which, KNR is targeting INR 50bn order inflow (OI) in H2FY27.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Notably, the awarding has improved recently, on the back of which, KNR is targeting INR 50bn order inflow (OI) in H2FY27.",
+        "Notably, the awarding has improved recently, on the back of which, KNR is targeting INR 50bn order inflow (OI) in H2FY27."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "However, the quarter was marred by weak execution, with revenue at INR 4.8bn (-3% YoY), and EBITDA of INR 0.4bn (-18% YoY), with margin of 9.2% (-166bps YoY), while HAM sales lifted the reported PAT.",
+        "Management has maintained its revenue guidance of INR 22bn/INR 30bn for FY27/FY28.",
+        "A weak print KNR reported a muted quarter with revenue of INR 4.8bn, flat YoY and EBITDA of INR 439mn (-18% YoY) with margin of 9.2% (-166bps YoY)."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "Target price ₹112 against a market price of ₹107 at the report date.",
+        "Notably, the awarding has improved recently, on the back of which, KNR is targeting INR 50bn order inflow (OI) in H2FY27.",
+        "The company is targeting INR 50bn OI in H2FY27, supported by improving order awarding.",
+        "We have trimmed our EPC multiple to 8x, from 10x earlier, on account of lower executable OB, multiple projects waiting for AD and higher composition of mining orders in the OB."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "While the OB appears robust, its high mining share and pending AD on new awards remain key risks to near-term execution.",
+        "The recipient should independently evaluate the investment risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "A weak print KNR reported a muted quarter with revenue of INR 4.8bn, flat YoY and EBITDA of INR 439mn (-18% YoY) with margin of 9.2% (-166bps YoY)."
+      ]
+    }
+  ]
 }

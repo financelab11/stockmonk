@@ -30,5 +30,57 @@
     ]
   },
   "blurb": "(%) 7.4 39.9 24.8 17.9 DPS (INR) 4.0 4.0 4.0 4.0 Yield (%) 0.3 0.3 0.3 0.3 RoE (%) 14.5 17.7 18.8 18.6 RoCE (%) 20.0 23.5 25.0 24.7 EV/Sales (x) 5.6 4.5 3.8 3.2 EV/EBITDA (x) 34.5 26.9 22.2 18.5 PE (x) 67.0 47.9 38.4 32.",
-  "fetchedAt": "2026-11-18T15:52:12.517Z"
+  "fetchedAt": "2026-11-18T15:52:12.517Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Astral. Rating: BUY. Target ₹1,595. (%) 7.4 39.9 24.8 17.9 DPS (INR) 4.0 4.0 4.0 4.0 Yield (%) 0.3 0.3 0.3 0.3 RoE (%) 14.5 17.7 18.8 18.6 RoCE (%) 20.0 23.5 25.0 24.7 EV/Sales (x) 5.6 4.5 3.8 3.2 EV/EBITDA (x) 34.5 26.9 22.2 18.5 PE (x) 67.0 47.9 38.4 32.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(%) 7.4 39.9 24.8 17.9 DPS (INR) 4.0 4.0 4.0 4.0 Yield (%) 0.3 0.3 0.3 0.3 RoE (%) 14.5 17.7 18.8 18.6 RoCE (%) 20.0 23.5 25.0 24.7 EV/Sales (x) 5.6 4.5 3.8 3.2 EV/EBITDA (x) 34.5 26.9 22.2 18.5 PE (x) 67.0 47.9 38.4 32.",
+        "(%) 7.4 39.9 24.8 17.9 DPS (INR) 4.0 4.0 4.0 4.0 Yield (%) 0.3 0.3 0.3 0.3 RoE (%) 14.5 17.7 18.8 18.6 RoCE (%) 20.0 23.5 25.0 24.7 EV/Sales (x) 5.6 4.5 3.8 3.2 EV/EBITDA (x) 34.5 26.9 22.2 18.5 PE (x) 67.0 47.9 38.4 32.5 P/BV (x) 9.2 7.9 6.7 5.5 Elevated RM Cost & Pass-through Lag Impact Margins Result Report Astral Ltd."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "(ASTRA) reported a decent Q2FY27 performance, supported by robust demand recovery in the plumbing segment, with double-digit volume growth expected to sustain through H2FY27.",
+        "Management guided pipe & fittings volume growth of 10– 13% in FY27, with EBITDA margins to be in the range of 16–18%.",
+        "ASTRA is evaluating an upgrade to its FY27 domestic adhesives revenue growth guidance of 15–20%, supported by robust H1FY27 revenue growth of ~25%."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹1,595.",
+        "Praveen Sahay Rahul Shah praveensahay@plindia.com | +91-22-66322369 rahulshah@plindia.com | +91-22-66322534 PL Research is also available on www.plindia.com, Bloomberg, Thomson Reuters and Factset Institutional Equities | 1 R A T I N G BUY | C M P INR 1,388 | T P INR 1,595 Astral (ASTRA IN) Q2FY27 Result Update November 06, 2026 ☑ Estimate Change | ☑ Target | ◼ Reco.",
+        "(%) 7.4 39.9 24.8 17.9 DPS (INR) 4.0 4.0 4.0 4.0 Yield (%) 0.3 0.3 0.3 0.3 RoE (%) 14.5 17.7 18.8 18.6 RoCE (%) 20.0 23.5 25.0 24.7 EV/Sales (x) 5.6 4.5 3.8 3.2 EV/EBITDA (x) 34.5 26.9 22.2 18.5 PE (x) 67.0 47.9 38.4 32.5 P/BV (x) 9.2 7.9 6.7 5.5 Elevated RM Cost & Pass-through Lag Impact Margins Result Report Astral Ltd.",
+        "UK Adhesives has returned to a growth trajectory, with management targeting 9–10% EBITDA margins by FY27-end."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Management indicated that PVC prices have increased after Sep'26-end, and there is currently no concern regarding inventory losses. • Adhesive Segment: Management indicated scope to upgrade FY27 revenue growth guidance of 15–20%, following ~25% growth in H1FY27."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "ASTRA is evaluating an upgrade to its FY27 domestic adhesives revenue growth guidance of 15–20%, supported by robust H1FY27 revenue growth of ~25%."
+      ]
+    }
+  ]
 }

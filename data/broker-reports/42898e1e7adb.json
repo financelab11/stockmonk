@@ -30,5 +30,58 @@
     ]
   },
   "blurb": "Chhattisgarh sector dispatch was impacted for ~1 month due to a damaged railway line during monsoon.",
-  "fetchedAt": "2026-11-18T15:50:30.493Z"
+  "fetchedAt": "2026-11-18T15:50:30.493Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 30% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on NMDC. Rating: BUY. Target ₹91 (+30% vs ₹70). Chhattisgarh sector dispatch was impacted for ~1 month due to a damaged railway line during monsoon.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Chhattisgarh sector dispatch was impacted for ~1 month due to a damaged railway line during monsoon.",
+        "Chhattisgarh sector dispatch was impacted for ~1 month due to a damaged railway line during monsoon."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "We build in volume CAGR of 7% over FY26–29E to 60mntpa, baking in moderate steel capacity additions in FY28/29.",
+        "Upgrade to BUY (from ADD), with a TP of INR 91, keeping the multiple intact at 6x FY28E EV/EBITDA.",
+        "Higher realisations nullified by weak volumes NMDC’s reported EBITDA, at INR 19.4bn (-3% YoY/-21% QoQ), marginally missed our estimate."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹91 against a market price of ₹70 at the report date.",
+        "Upgrade to BUY (from ADD), with a TP of INR 91, keeping the multiple intact at 6x FY28E EV/EBITDA.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Source: SES ESG, I-sec research Previous Reports 15-08-2026: Q1FY27 results review 01-06-2026: Q4FY26 results review NMDC | Results Update | 14 November 2026 India | Institutional Equity Research 2 Growth outlook intact NMDC is a structural growth play backed by aggressive steel capacity additions in India.",
+        "The recipient should independently evaluate the investment risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Higher realisations nullified by weak volumes NMDC’s reported EBITDA, at INR 19.4bn (-3% YoY/-21% QoQ), marginally missed our estimate."
+      ]
+    }
+  ]
 }

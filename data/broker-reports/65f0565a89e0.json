@@ -30,5 +30,58 @@
     ]
   },
   "blurb": "EBITDAM was down 130 bps QoQ but up 236 bps YoY to 20.5% (vs CIE est. of 21.6%) ▪ PAT for Q2FY27 stood at INR 747 Mn, down 21.3% QoQ but up 45.8% YoY (vs CIE est. of INR 913 Mn), due to low other income Steady MarTech Ex",
-  "fetchedAt": "2026-11-18T15:51:52.510Z"
+  "fetchedAt": "2026-11-18T15:51:52.510Z",
+  "brokerId": "choice",
+  "brokerDisplay": "Choice Broking",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 45% change"
+    ]
+  },
+  "execSummary": "Choice Broking published a stock note on Rategain Travel Techn. Rating: BUY. Target ₹1,185 (+45% vs ₹820). EBITDAM was down 130 bps QoQ but up 236 bps YoY to 20.5% (vs CIE est. of 21.6%) ▪ PAT for Q2FY27 stood at INR 747 Mn, down 21.3% QoQ but up 45.8% YoY (vs CIE est. of INR 913 Mn), due to low other income Steady MarTech Ex",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "EBITDAM was down 130 bps QoQ but up 236 bps YoY to 20.5% (vs CIE est. of 21.6%) ▪ PAT for Q2FY27 stood at INR 747 Mn, down 21.3% QoQ but up 45.8% YoY (vs CIE est. of INR 913 Mn), due to low other income Steady MarTech Ex",
+        "EBITDAM was down 130 bps QoQ but up 236 bps YoY to 20.5% (vs CIE est. of 21.6%) ▪ PAT for Q2FY27 stood at INR 747 Mn, down 21.3% QoQ but up 45.8% YoY (vs CIE est. of INR 913 Mn), due to low other income Steady MarTech Expansion; Diversified Growth Drives H2 Outlook: RATEGAIN reported Q2FY27 revenue of INR 7,454 Mn, up 153% YoY, largely reflecting Sojern consolidation, while organic growth stood at 14%."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Properties and Destinations sustained over 20% organic growth in H1FY27, together contributing to over 80% of MarTech revenue, while Corporate (~15% of MarTech) remained subdued, declining ~14%.",
+        "DAAS grew 7% YoY in Q2, taking H1 growth to 14%, led by traction across Air, OTA and Car.",
+        "We expect H2 growth to strengthen, driven by Corporate stabilisation, seasonal recovery in Destinations and sustained cross-selling, supporting the management's revenue guidance of INR 30,000–31,000 Mn."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹1,185 against a market price of ₹820 at the report date.",
+        "The management retained FY27 guidance, targeting revenue at the upper end of INR 30,000– 31,000 Mn and Adjusted EBITDAM of 22.5–23.5%.",
+        "View & Valuation: We remain constructive on RATEGAIN’s medium-term outlook, supported by core Martech growth, cross-selling synergies & expanding platform monetisation."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "EBITDAM was down 130 bps QoQ but up 236 bps YoY to 20.5% (vs CIE est. of 21.6%) ▪ PAT for Q2FY27 stood at INR 747 Mn, down 21.3% QoQ but up 45.8% YoY (vs CIE est. of INR 913 Mn), due to low other income Steady MarTech Expansion; Diversified Growth Drives H2 Outlook: RATEGAIN reported Q2FY27 revenue of INR 7,454 Mn, up 153% YoY, largely reflecting Sojern consolidation, while organic growth stood at 14%.",
+        "View & Valuation: We remain constructive on RATEGAIN’s medium-term outlook, supported by core Martech growth, cross-selling synergies & expanding platform monetisation."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "We expect H2 growth to strengthen, driven by Corporate stabilisation, seasonal recovery in Destinations and sustained cross-selling, supporting the management's revenue guidance of INR 30,000–31,000 Mn."
+      ]
+    }
+  ]
 }

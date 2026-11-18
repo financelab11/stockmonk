@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Per (%) 0/-5/-9 12M Avg Val (INR M) 9009 Financials & Valuations (INR b) Y/E MARCH 2026 2027E 2028E Sales 1,456 1,794 2,077 EBITDA 209.8 216.1 268.2 Adj.",
-  "fetchedAt": "2026-11-18T15:52:28.904Z"
+  "fetchedAt": "2026-11-18T15:52:28.904Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 23% change"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on Mahindra & Mahindra. Target ₹3,850 (+23% vs ₹3,128). Per (%) 0/-5/-9 12M Avg Val (INR M) 9009 Financials & Valuations (INR b) Y/E MARCH 2026 2027E 2028E Sales 1,456 1,794 2,077 EBITDA 209.8 216.1 268.2 Adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Per (%) 0/-5/-9 12M Avg Val (INR M) 9009 Financials & Valuations (INR b) Y/E MARCH 2026 2027E 2028E Sales 1,456 1,794 2,077 EBITDA 209.8 216.1 268.2 Adj.",
+        "Per (%) 0/-5/-9 12M Avg Val (INR M) 9009 Financials & Valuations (INR b) Y/E MARCH 2026 2027E 2028E Sales 1,456 1,794 2,077 EBITDA 209.8 216.1 268.2 Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "On the back of its healthy launch pipeline and positive consumer sentiment, management provided a strong outlook for FY27E across segments: MM UV at mid-to-high teens, and the LCV industry at double digits.",
+        "While MM did cut tractor guidance from mid-single digits to flat for FY27, we were already factoring the same into our nos.",
+        "We estimate MM to post a CAGR of ~20%/ 13%/14% in revenue/EBITDA/PAT over FY26-28."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹3,850 against a market price of ₹3,128 at the report date.",
+        "Per (%) 0/-5/-9 12M Avg Val (INR M) 9009 Financials & Valuations (INR b) Y/E MARCH 2026 2027E 2028E Sales 1,456 1,794 2,077 EBITDA 209.8 216.1 268.2 Adj.",
+        "(INR) 618 717 846 Ratios RoE (%) 23.1 20.5 21.8 RoCE (%) 22.4 19.9 21.3 Payout (%) 25.2 27.6 24.5 Valuations P/E (x) 19.6 18.7 15.0 P/BV (x) 4.1 3.6 3.0 Div.",
+        "Weakness is concentrated in Maharashtra and Karnataka, while northern markets remain relatively resilient. 5 November 2026 2QFY27 Results Update | Sector: Automobile Mahindra & Mahindra Mahindra and Mahindra 5 November 2026 2 Valuation and view ◼ On account of better-than-expected segmental margins and higher other income, we increase our earnings estimates for FY27/FY28 by 7.5% each."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "On the back of its healthy launch pipeline and positive consumer sentiment, management provided a strong outlook for FY27E across segments: MM UV at mid-to-high teens, and the LCV industry at double digits.",
+        "Key highlights from the management commentary ◼ Standalone auto PBIT margin improved QoQ to 9.8% from 8.9%, supported by ~5% price hikes, mix improvement, hedging and cost actions despite sharp steel, copper and rubber inflation. ◼ M&M retained mid-to-high teens FY27 SUV growth guidance, with Scorpio at full capacity and waiting periods across the portfolio."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "We estimate MM to post a CAGR of ~20%/ 13%/14% in revenue/EBITDA/PAT over FY26-28."
+      ]
+    }
+  ]
 }

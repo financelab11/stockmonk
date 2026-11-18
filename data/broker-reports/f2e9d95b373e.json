@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "Demand environment remains strong, particularly across data center, while we expect industrial and export segment to recover further in coming quarters.",
-  "fetchedAt": "2026-11-18T15:49:59.017Z"
+  "fetchedAt": "2026-11-18T15:49:59.017Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 32% change"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on Cummins India. Rating: BUY. Target ₹5,600 (+32% vs ₹4,228). Demand environment remains strong, particularly across data center, while we expect industrial and export segment to recover further in coming quarters.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Demand environment remains strong, particularly across data center, while we expect industrial and export segment to recover further in coming quarters.",
+        "Demand environment remains strong, particularly across data center, while we expect industrial and export segment to recover further in coming quarters."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Due to product mix as well as continued high RM prices, we cut our estimates by 13%/9%/8% for FY27/28/29 to factor in lower gross margin for FY27, while we expect margin to improve subsequently as projects taken at lower commodity prices get completed over time.",
+        "Overall demand thesis remains intact and we expect that in a few quarters, full impact of price hikes, completion of older orders, as well as operational efficiencies will start playing out.",
+        "In-line revenue; miss on profitability KKC’s 2QFY27 revenue was in-line with our estimates, while lower-than- expected margin led to miss on profitability."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹5,600 against a market price of ₹4,228 at the report date.",
+        "We reiterate a BUY rating on KKC with a revised TP of INR5,600 based on 45x P/E for Dec’28 estimates (INR6,200 earlier).",
+        "Valuation and outlook We cut our estimates by 13%/9%/8% for FY27/28/29 to factor in lower gross margin for FY27, while we expect it to improve subsequently as projects taken at lower commodity prices get completed over time.",
+        "The stock is currently trading at 39.2x/32.8x P/E on FY28/FY29 estimates."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "However, going ahead, we expect the company to benefit from opportunities across construction, rail, mining, marine, and compressors, with government infrastructure spending and tender-led projects, thereby providing a key growth avenue.",
+        "However, we expect a sequential improvement in exports, supported by a gradual recovery in global demand and continued opportunities across key markets."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "In-line revenue; miss on profitability KKC’s 2QFY27 revenue was in-line with our estimates, while lower-than- expected margin led to miss on profitability."
+      ]
+    }
+  ]
 }

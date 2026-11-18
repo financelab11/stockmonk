@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Result Update 09th November, 2026 BUY Target Price 1,060 Hindalco Industries Ltd Metals & Mining 1 Indian Operations Outshine; Structural Growth Remains Intact Est.",
-  "fetchedAt": "2026-11-18T15:51:43.236Z"
+  "fetchedAt": "2026-11-18T15:51:43.236Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on Hindalco Inds.. Rating: BUY. Target ₹1,060. Result Update 09th November, 2026 BUY Target Price 1,060 Hindalco Industries Ltd Metals & Mining 1 Indian Operations Outshine; Structural Growth Remains Intact Est.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Result Update 09th November, 2026 BUY Target Price 1,060 Hindalco Industries Ltd Metals & Mining 1 Indian Operations Outshine; Structural Growth Remains Intact Est.",
+        "Result Update 09th November, 2026 BUY Target Price 1,060 Hindalco Industries Ltd Metals & Mining 1 Indian Operations Outshine; Structural Growth Remains Intact Est."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Actual for Q2FY27: Revenue - BEAT; EBITDA - BEAT; PAT - BEAT Change in Estimates post Q2FY27Results FY27E/FY28E: Revenue: 7.2%/7.2%; EBITDA: 6.9%/-3.5%; PAT: 2.3%/-5.5%.",
+        "Recommendation Rationale • Upstream Aluminium Operating Resilience Buffers Cost Headwinds: Upstream Aluminium EBITDA/ton stood at robust $2,125/t (up 40% YoY), supported by steady third-party upstream dispatches of 233 kt (up 3%/ 6% YoY/QoQ), higher net export premiums, and value-added upstream pricing.",
+        "While Q2FY27 CoP rose ~5% QoQ due to heavy northern monsoon disruptions and low coal linkage materialization, management expects an additional ~5% QoQ rise in Q3FY27 before coal costs soften in Q4FY27."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹1,060.",
+        "Result Update 09th November, 2026 BUY Target Price 1,060 Hindalco Industries Ltd Metals & Mining 1 Indian Operations Outshine; Structural Growth Remains Intact Est.",
+        "Current Valuation: SoTP with a 12MF EV/EBITDA target of 7.0x/6.0x/6.0x on FY28E for Indian Aluminium, Copper, and Novelis.",
+        "(Earlier: 7.5x/6.0x/6.0x on FY28 EV/EBITDA ) Current TP: Rs 1,060/share (Previous TP: Rs 1,155/share) Recommendation: We maintain our BUY rating."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Recommendation Rationale • Upstream Aluminium Operating Resilience Buffers Cost Headwinds: Upstream Aluminium EBITDA/ton stood at robust $2,125/t (up 40% YoY), supported by steady third-party upstream dispatches of 233 kt (up 3%/ 6% YoY/QoQ), higher net export premiums, and value-added upstream pricing.",
+        "While underlying aluminium demand and backward integration offer structural advantages, ongoing coal cost inflation and high project execution costs remain key near-term monitorables."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "While Q2FY27 CoP rose ~5% QoQ due to heavy northern monsoon disruptions and low coal linkage materialization, management expects an additional ~5% QoQ rise in Q3FY27 before coal costs soften in Q4FY27."
+      ]
+    }
+  ]
 }

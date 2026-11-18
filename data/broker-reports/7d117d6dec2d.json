@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "H1 Adjusted PAT reached Rs 29 Cr, up 30% YoY, as operational losses narrowed to Rs 6.1 Cr at the ramping North Bangalore facility. • Patient Volumes Grew 9% YoY (Excluding Fertility): This was supported by healthy demand",
-  "fetchedAt": "2026-11-18T15:51:42.150Z"
+  "fetchedAt": "2026-11-18T15:51:42.150Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on Health.Global. Rating: BUY. Target ₹820. H1 Adjusted PAT reached Rs 29 Cr, up 30% YoY, as operational losses narrowed to Rs 6.1 Cr at the ramping North Bangalore facility. • Patient Volumes Grew 9% YoY (Excluding Fertility): This was supported by healthy demand",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "H1 Adjusted PAT reached Rs 29 Cr, up 30% YoY, as operational losses narrowed to Rs 6.1 Cr at the ramping North Bangalore facility. • Patient Volumes Grew 9% YoY (Excluding Fertility): This was supported by healthy demand",
+        "H1 Adjusted PAT reached Rs 29 Cr, up 30% YoY, as operational losses narrowed to Rs 6.1 Cr at the ramping North Bangalore facility. • Patient Volumes Grew 9% YoY (Excluding Fertility): This was supported by healthy demand across network clusters and ongoing bed additions."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Average Revenue Per Patient (ARPP) registered a 7% YoY increase, as positive payor-mix gains (non-institutional mix rising over 300 bps to 69%) were further aided by high-complexity oncology adoption.",
+        "Sector Outlook: Positive Company Outlook & Guidance: Outlook remains strong, with management guiding for mid-teens revenue growth and high-teens EBITDA expansion going forward.",
+        "The North Bangalore facility's EBITDA loss narrowed to Rs 6.1 Cr with monthly breakeven slated for Q4FY27, alongside 146 operational beds added across the network in H1FY27."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹820.",
+        "Result Update 09th November, 2026 BUY Target Price 820 Healthcare Global Enterprises Ltd Hospital 1 Non-Institutional Shift & Advanced Oncology Adoption Propel Quality Earnings Est.",
+        "Current Valuation: EV/EBITDA 15.5x for FY29E (Earlier 17.5x/FY28E) Current TP: Rs 820/share (Earlier TP: Rs 785/share) Recommendation: We maintain our BUY recommendation on the stock.",
+        "Variance % Sales 732 5.3% 13.1% 725 0.9% EBITDA 133 9.1% 8.2% 129 3.4% EBITDA % 18.2% -97 -77 17.8% 43 Net Profit 21 -54% 175% 22 -5% EPS 1.4 1.5 Source: Company, Axis Securities Research (CMP as of 08th November, 2026) CMP (Rs) 600 Upside /Downside (%) 37% High/Low (Rs) 775/513 Market cap (Cr) 8,957 Avg daily vol."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Sector Outlook: Positive Company Outlook & Guidance: Outlook remains strong, with management guiding for mid-teens revenue growth and high-teens EBITDA expansion going forward.",
+        "Key Financials (Consolidated) (Rs Cr) Q2FY27 QoQ (%) YoY (%) Axis Est."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The North Bangalore facility's EBITDA loss narrowed to Rs 6.1 Cr with monthly breakeven slated for Q4FY27, alongside 146 operational beds added across the network in H1FY27."
+      ]
+    }
+  ]
 }

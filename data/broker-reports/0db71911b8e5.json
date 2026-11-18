@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "(ASTPOL) CMP: ₹1249 Target ₹ 1650 (32%) Target Period: 12 months November 6, 2026 Focus on margin recovery in H2 ; retain Buy About the stock : Astral, established in 1996 by Sandeep Engineer, introduced CPVC piping in I",
-  "fetchedAt": "2026-11-18T15:52:12.719Z"
+  "fetchedAt": "2026-11-18T15:52:12.719Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Astral. Rating: BUY. (ASTPOL) CMP: ₹1249 Target ₹ 1650 (32%) Target Period: 12 months November 6, 2026 Focus on margin recovery in H2 ; retain Buy About the stock : Astral, established in 1996 by Sandeep Engineer, introduced CPVC piping in I",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(ASTPOL) CMP: ₹1249 Target ₹ 1650 (32%) Target Period: 12 months November 6, 2026 Focus on margin recovery in H2 ; retain Buy About the stock : Astral, established in 1996 by Sandeep Engineer, introduced CPVC piping in I",
+        "(ASTPOL) CMP: ₹1249 Target ₹ 1650 (32%) Target Period: 12 months November 6, 2026 Focus on margin recovery in H2 ; retain Buy About the stock : Astral, established in 1996 by Sandeep Engineer, introduced CPVC piping in India."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Q 2F Y2 7 performance : Astral reported broadly in-line Q2FY27 consolidated revenues at ₹ 1988 crore (up 26% YoY and QoQ) led by both plumbing (revenues up 25% YoY at ₹ 1398 crore) and Paints & adhesives (up 29% YoY at ₹ 590 crore).",
+        "Bathware (included in Plumbing) & Paints revenues grew by 27% YoY and 43% YoY at ₹ 42 crore and ₹ 82 crore respectively.",
+        "Consolidated EBITDA margins were lower 318 bps YoY (down 155 bps QoQ) at 13.1%."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "(ASTPOL) CMP: ₹1249 Target ₹ 1650 (32%) Target Period: 12 months November 6, 2026 Focus on margin recovery in H2 ; retain Buy About the stock : Astral, established in 1996 by Sandeep Engineer, introduced CPVC piping in India.",
+        "Rating and Target Price : • We have lowered our PAT estimates for FY27/FY28 by 15%/6% considering lower EBITDA margins during H1FY27. • We retain Buy with a revised SOTP based price target of ₹ 1650, implied ~55x P/E on FY28E EPS.",
+        "For FY27, it targets 290,000 to 300,000 tons in plumbing volume and expects ₹ 1,050 crores EBITDA for the plumbing business, contributing to a consolidated full-year EBITDA estimation of ₹ 1,250 crores."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The paint business is guided to achieve positive EBITDA of 3-4% by year-end FY27 (H1 – negative 2.5%) and 8-10% by FY28. • Demand and Future Outlook: Management indicated that demand during October 2026 was unprecedented across segments.",
+        "Investments in securities market are subject to market risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Consolidated EBITDA margins were lower 318 bps YoY (down 155 bps QoQ) at 13.1%."
+      ]
+    }
+  ]
 }

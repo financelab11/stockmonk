@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Reported EBITDA stood at ₹12,831 crore (up 43% YoY) with corresponding EBITDA margins at 14% (down ~248 bps QoQ).",
-  "fetchedAt": "2026-11-18T15:51:15.439Z"
+  "fetchedAt": "2026-11-18T15:51:15.439Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Hindalco Industries. Reported EBITDA stood at ₹12,831 crore (up 43% YoY) with corresponding EBITDA margins at 14% (down ~248 bps QoQ).",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Reported EBITDA stood at ₹12,831 crore (up 43% YoY) with corresponding EBITDA margins at 14% (down ~248 bps QoQ).",
+        "Reported EBITDA stood at ₹12,831 crore (up 43% YoY) with corresponding EBITDA margins at 14% (down ~248 bps QoQ)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Additionally, ~170 KT of downstream FRP capacity has been added across battery foils, extrusions & enclosures, enhancing its overall margin profile.",
+        "Excluding this, adjusted EBITDA/tonne came in at ~$510/tonne (down from $525/tonne in Q1FY27).",
+        "Going ahead, while the tariff impact continues to decline gradually along with tad impact from labour strike, the eventual ramp up of the Oswego plant is expected to drive volume recovery from H2CY26 and support positive free cash flow generation by FY27-end."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Investments in securities market are subject to market risks.",
+        "None of the research recommendations promise or guarantee any assured, minimum or risk - free retur n to the investors."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Going ahead, while the tariff impact continues to decline gradually along with tad impact from labour strike, the eventual ramp up of the Oswego plant is expected to drive volume recovery from H2CY26 and support positive free cash flow generation by FY27-end."
+      ]
+    }
+  ]
 }

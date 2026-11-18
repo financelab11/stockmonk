@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "We note: (1) Domestic growth remained robust, with the company continuing to outperform the industry and gain market share across key segments.",
-  "fetchedAt": "2026-11-18T15:52:02.549Z"
+  "fetchedAt": "2026-11-18T15:52:02.549Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on TTK Prestige. Rating: BUY. Target ₹725 (+19% vs ₹609). We note: (1) Domestic growth remained robust, with the company continuing to outperform the industry and gain market share across key segments.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "We note: (1) Domestic growth remained robust, with the company continuing to outperform the industry and gain market share across key segments.",
+        "We note: (1) Domestic growth remained robust, with the company continuing to outperform the industry and gain market share across key segments."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Management's continued focus on brand investments, innovation and go-to- market capabilities is likely to strengthen its competitive positioning, while operating efficiencies are beginning to deliver benefits.",
+        "PAT grew by 21.0%/72.1%/76.1% YoY, driven by strong demand across categories and channels.",
+        "However, exports revenue declined 30.5% YoY due to global disruptions."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹725 against a market price of ₹609 at the report date.",
+        "Upgrade to BUY (from Hold) with a DCF-based revised TP of INR 725 (earlier INR 700; implied target P/E at 37x FY28E EPS).",
+        "Strategic expenditure during H1FY27 stood at INR 300mn. • The company continues to target steady-state EBITDA margins of ~13-14%, • Inventory has increased in value, primarily due to anticipated demand and preparations to support business growth.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "We note: (1) Domestic growth remained robust, with the company continuing to outperform the industry and gain market share across key segments.",
+        "(3) Widespread commodity inflation across ~ 95% of input-cost line-items remains a key concern, with the company indicating that the industry is yet to fully pass on the cost increases to consumers."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "However, exports revenue declined 30.5% YoY due to global disruptions."
+      ]
+    }
+  ]
 }

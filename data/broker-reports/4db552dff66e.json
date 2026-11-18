@@ -31,5 +31,60 @@
     ]
   },
   "blurb": "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Hindware Home Innovation: Recovery Continues despite Margin Pressure Institutional Equities | Building Materials T",
-  "fetchedAt": "2026-11-18T15:50:04.024Z"
+  "fetchedAt": "2026-11-18T15:50:04.024Z",
+  "brokerId": "choice",
+  "brokerDisplay": "Choice Broking",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 60,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+12 positive corporate or estimate event",
+      "+8 target implies 28% change"
+    ]
+  },
+  "execSummary": "Choice Broking published a stock note on Hindware Home Innovation. Rating: BUY. Target ₹220 (+28% vs ₹172). Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Hindware Home Innovation: Recovery Continues despite Margin Pressure Institutional Equities | Building Materials T",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Hindware Home Innovation: Recovery Continues despite Margin Pressure Institutional Equities | Building Materials T",
+        "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Hindware Home Innovation: Recovery Continues despite Margin Pressure Institutional Equities | Building Materials Topline Beat but Margin Headwinds Persist across Segments HINDWARE’s consolidated revenue grew ~14.0% YoY, supported by performance of Plastic Pipes and Bathware segments."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "However, EBITDA margin contracted ~121 bps YoY, missing estimate by ~204 bps, although the company reported a second consecutive quarter of profits.",
+        "Bathware segment revenue grew ~10.8% YoY; however, margin remained flat YoY and declined 120 bps QoQ.",
+        "Volume growth for Pipes segment stood out at ~19.3% YoY and realisation improved QoQ supporting a margin recovery to ~3.5%."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹220 against a market price of ₹172 at the report date.",
+        "View & Valuation We believe HINDWARE is poised for a gradual turnaround over the next 2–3 years, driven by improving profitability across segments, operating efficiency and a significant recovery in return ratios.",
+        "We value the company at 8.0x FY28E EV/EBITDA, which we believe is conservative, considering the expected improvement in ROCE from 6.5% in FY26 to 19.0% in FY29E.",
+        "Our revised TP implies an upside of 27.9%, while our estimate indicates consolidated Revenue / EBITDA CAGR of ~14% / ~30% over FY26–FY29E, respectively."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Hindware Home Innovation: Recovery Continues despite Margin Pressure Institutional Equities | Building Materials Topline Beat but Margin Headwinds Persist across Segments HINDWARE’s consolidated revenue grew ~14.0% YoY, supported by performance of Plastic Pipes and Bathware segments.",
+        "Key Risks: Possible slowdown in real estate and home improvement activities, inflationary pressures for raw material prices and poor realisation growth Company Info BB Code HINDWARE IN EQUITY Face Value (INR) 2.0 52-wk High/Low (INR) 388/157 Mkt Cap (Bn) INR 14.39/$ 0.16 Shares o/s (Mn) 83.7 3M Avg."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Volume growth for Pipes segment stood out at ~19.3% YoY and realisation improved QoQ supporting a margin recovery to ~3.5%."
+      ]
+    }
+  ]
 }

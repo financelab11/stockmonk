@@ -56,7 +56,9 @@
     "refresh": "pnpm ingest:edgar && pnpm ingest:simfin && pnpm ingest:fallback && pnpm backfill:filings && pnpm ingest:consensus && pnpm ingest:segments && pnpm ingest:benchmark && pnpm build:data && pnpm build:screener",
     "story:brief": "tsx scripts/story-brief.ts",
     "stories:apply": "tsx scripts/apply-handwritten.ts",
-    "ingest:brokers": "tsx scripts/ingest-broker-reports.ts"
+    "ingest:brokers": "tsx scripts/ingest-broker-reports.ts",
+    "fetch:broker-logos": "tsx scripts/fetch-broker-logos.ts",
+    "enrich:brokers": "tsx scripts/enrich-broker-reports.ts"
   },
   "dependencies": {
     "@serwist/next": "^9.5.13",

@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "09 November 2026 CMP*: ₹1,370/- Sector – Pharmaceutical Dr Reddy's Laboratories Ltd. – Q2FY27 1 Result Update Q2FY27 Dr Reddy's Laboratories Ltd • The company reported a 1.5% YoY decline in revenue to ₹8,671crs in Q2FY27",
-  "fetchedAt": "2026-11-18T15:51:38.266Z"
+  "fetchedAt": "2026-11-18T15:51:38.266Z",
+  "brokerId": "way2wealth",
+  "brokerDisplay": "Way2Wealth",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Way2Wealth published a result update on Dr. Reddy's Laboratories. 09 November 2026 CMP*: ₹1,370/- Sector – Pharmaceutical Dr Reddy's Laboratories Ltd. – Q2FY27 1 Result Update Q2FY27 Dr Reddy's Laboratories Ltd • The company reported a 1.5% YoY decline in revenue to ₹8,671crs in Q2FY27",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "09 November 2026 CMP*: ₹1,370/- Sector – Pharmaceutical Dr Reddy's Laboratories Ltd. – Q2FY27 1 Result Update Q2FY27 Dr Reddy's Laboratories Ltd • The company reported a 1.5% YoY decline in revenue to ₹8,671crs in Q2FY27",
+        "09 November 2026 CMP*: ₹1,370/- Sector – Pharmaceutical Dr Reddy's Laboratories Ltd. – Q2FY27 1 Result Update Q2FY27 Dr Reddy's Laboratories Ltd • The company reported a 1.5% YoY decline in revenue to ₹8,671crs in Q2FY27, while revenue grew 7% QoQ, supported by recovery in the underlying base business."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The decline in reported revenue was mainly due to lower lenalidomide sales in North America.",
+        "However, excluding lenalidomide, the company continued to deliver double-digit growth in its underlying business. • Gross margin declined to 52.1% from 54.7% in Q2FY26, primarily due to lower lenalidomide sales and an unfavourable product mix.",
+        "EBITDA declined 24% YoY to ₹1,783crs, with the margin contracting to 20.6% from 26.7% in Q2FY26."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Management highlighted complex generics and the planned semaglutide relaunch as key growth drivers going forward. • India: Revenue grew 17% YoY & 8% QoQ to ₹1,851crs, continuing to outperform the Indian Pharmaceutical Market (IPM).",
+        "Key Business & Pipeline Updates • Semaglutide: The company expects to relaunch semaglutide in November 2026, subject to successful validation, following the resolution of API scale-up issues."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "EBITDA declined 24% YoY to ₹1,783crs, with the margin contracting to 20.6% from 26.7% in Q2FY26."
+      ]
+    }
+  ]
 }

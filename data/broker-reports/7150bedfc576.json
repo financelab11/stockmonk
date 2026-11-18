@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "Additionally, 10 new products under development across fluoropolymers, next-gen refrigerants and energy storage materials are likely to support topline growth over the medium term.",
-  "fetchedAt": "2026-11-18T15:52:55.029Z"
+  "fetchedAt": "2026-11-18T15:52:55.029Z",
+  "brokerId": "choice",
+  "brokerDisplay": "Choice Broking",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 20% change"
+    ]
+  },
+  "execSummary": "Choice Broking published a stock note on Tanfac Industries. Rating: BUY. Target ₹4,120 (+20% vs ₹3,429). Additionally, 10 new products under development across fluoropolymers, next-gen refrigerants and energy storage materials are likely to support topline growth over the medium term.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Additionally, 10 new products under development across fluoropolymers, next-gen refrigerants and energy storage materials are likely to support topline growth over the medium term.",
+        "Additionally, 10 new products under development across fluoropolymers, next-gen refrigerants and energy storage materials are likely to support topline growth over the medium term."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Daily Volume 20,845 Change in Estimates FY27E FY28E INR Bn New Old Dev.",
+        "EPS (INR) 8.79 7.94 10.8% 7.79 12.9% Strong Topline Growth; Margin Expected to Catch up TANF’s revenue grew 37% YoY in Q2FY27, supported by higher realisation and ongoing commercialisation of new products.",
+        "However, elevated sulphur cost and an unfavourable product mix weighed on profitability, with gross margin contracting ~379 bps QoQ."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹4,120 against a market price of ₹3,429 at the report date.",
+        "View and Valuation On the strength of strong realisation and an improving product mix, we have raised our revenue estimate for FY27E and FY28E by 9.0% and 8.2%, respectively.",
+        "Key Risks to our Valuation Raw material import dependence, feedstock price volatility, HF demand cyclicality, environmental and safety risk, customer and segment concentration and non-allocation of production quota. - 100 200 300 400 Nov-23 Nov-24 Nov-25 Nov-26 TANF BSE Commodities 1 Choice Equity Broking Pvt.",
+        "Target commissioning: Q3FY27E ▪ Commercial qualification under way: • Some customers already qualified; others in 2–3 month evaluation process • Trade market sales (no qualification needed) to begin in December 2026E • OEM/industrial sales to begin in January 2027E ▪ R-32 pricing: Contracted at ~USD 5.5/Kg earlier, because of feedstock inflation; currently ~USD 7.0/Kg."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Risks to our Valuation Raw material import dependence, feedstock price volatility, HF demand cyclicality, environmental and safety risk, customer and segment concentration and non-allocation of production quota. - 100 200 300 400 Nov-23 Nov-24 Nov-25 Nov-26 TANF BSE Commodities 1 Choice Equity Broking Pvt.",
+        "This Report does not take into account the specific investment objectives, financial situation, risk profile, or particular needs of any individual or class of investors and does not constitute a personal recommendation or investment advice."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "However, elevated sulphur cost and an unfavourable product mix weighed on profitability, with gross margin contracting ~379 bps QoQ."
+      ]
+    }
+  ]
 }

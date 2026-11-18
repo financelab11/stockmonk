@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Per (%) -18/-16/-51 12M Avg Val (INR M) 6713 Financials & Valuations (INR b) Y/E Mar FY26 FY27E FY28E Sales 36.8 44.9 65.6 EBITDA 5.2 6.5 9.3 Adj.",
-  "fetchedAt": "2026-11-18T15:50:04.801Z"
+  "fetchedAt": "2026-11-18T15:50:04.801Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": "KAYNES",
+  "market": "IN",
+  "sector": "Defence & Electronics",
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 28% change"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on Kaynes Technology India. Target ₹3,820 (+28% vs ₹2,975). Per (%) -18/-16/-51 12M Avg Val (INR M) 6713 Financials & Valuations (INR b) Y/E Mar FY26 FY27E FY28E Sales 36.8 44.9 65.6 EBITDA 5.2 6.5 9.3 Adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Per (%) -18/-16/-51 12M Avg Val (INR M) 6713 Financials & Valuations (INR b) Y/E Mar FY26 FY27E FY28E Sales 36.8 44.9 65.6 EBITDA 5.2 6.5 9.3 Adj.",
+        "Per (%) -18/-16/-51 12M Avg Val (INR M) 6713 Financials & Valuations (INR b) Y/E Mar FY26 FY27E FY28E Sales 36.8 44.9 65.6 EBITDA 5.2 6.5 9.3 Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Muted performance due to the smart-metering phase-out  Consolidated revenue grew 4% YoY to INR9.5b (est.",
+        "INR799m).  For 1HFY27, revenue/EBITDA grew 20%/2%, while adj.",
+        "INR4.0b as of Sep’25.  Automotive/Aerospace/ Railways/IoT or IT, Cons and Others surged 42%/3x/64%/18% to INR2.9b/INR380m/INR1.0b/INR568m, while Industrials/Medical declined 21%/32% YoY to INR4.3b/INR191m.  Order inflows increased 62% YoY to INR26.1b in 2Q, with the order book growing 30%/19% YoY/QoQ.  Net working capital days rose to 169 in 2QFY27 from 137 in Mar’26."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹3,820 against a market price of ₹2,975 at the report date.",
+        "Per (%) -18/-16/-51 12M Avg Val (INR M) 6713 Financials & Valuations (INR b) Y/E Mar FY26 FY27E FY28E Sales 36.8 44.9 65.6 EBITDA 5.2 6.5 9.3 Adj.",
+        "Valuation and view  KAYNES reported a muted operating performance in 2QFY27, impacted by the scale-down of its smart-metering business.",
+        "Each recipient of this document should make such investigations as it deems necessary to arrive at an independent evaluation of an investment in the securities of companies referred to in this document (including the merits and risks involved), and should consult its own advisors to determine the merits and risks of such an investment."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key highlights from the management commentary  Smart meter: The company plans to retain manufacturing while transferring installation and O&M to a third party (smart meter revenue stood at INR2.9b in 1HFY27 vs.",
+        "We expect 3Q to be muted, with 4Q likely to deliver a healthy performance, led by the ramp-up of OSAT and PCB operations, coupled with healthy growth in the core EMS business  Going forward, key monitorables include growth in the core EMS business, ramp-up of OSAT and PCB operations and improvement in operating cash flow.  We estimate a revenue/EBITDA/adj."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "INR4.0b as of Sep’25.  Automotive/Aerospace/ Railways/IoT or IT, Cons and Others surged 42%/3x/64%/18% to INR2.9b/INR380m/INR1.0b/INR568m, while Industrials/Medical declined 21%/32% YoY to INR4.3b/INR191m.  Order inflows increased 62% YoY to INR26.1b in 2Q, with the order book growing 30%/19% YoY/QoQ.  Net working capital days rose to 169 in 2QFY27 from 137 in Mar’26."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "The lower end of the guidance requires a CQGR of 2.6% over the next two quarters – achievable, in our view.",
-  "fetchedAt": "2026-11-18T15:52:07.415Z"
+  "fetchedAt": "2026-11-18T15:52:07.415Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 20% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on MphasiS. Rating: BUY. Target ₹3,020 (+20% vs ₹2,510). The lower end of the guidance requires a CQGR of 2.6% over the next two quarters – achievable, in our view.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "The lower end of the guidance requires a CQGR of 2.6% over the next two quarters – achievable, in our view.",
+        "The lower end of the guidance requires a CQGR of 2.6% over the next two quarters – achievable, in our view."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBIT margin remains at ~14.8% for H1FY27 (near lower end of guidance of 14.75–15.75%), as the company continues to invest for growth.",
+        "Management expects DSO to improve with OCF/PAT at 80% for FY27 (vs. 51% normalised for H1FY27).",
+        "In-line revenue led by BFSI, TMT and Insurance Revenue (CC) grew 3.3% QoQ/9.7% YoY, in line with our and consensus estimates."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹3,020 against a market price of ₹2,510 at the report date.",
+        "Mphasis Tria: Traction beginning to scale Mphasis Tria's early traction began to scale in Q2, with the first deployments going live across multiple clients and verticals.",
+        "Tria is a proof point in large-deal evaluations and is opening business budgets, such as lending origination, payment exception processing and client onboarding in BFS, AI-led operations transformation at large insurers and on-demand intelligence for technology clients, which has significantly increased the addressable market.",
+        "The company has retained its target of 80% OCF/net income for FY27 and expects historical conversion levels in FY28, as none of the USD 900mn+ of H1 TCV required material cash investment and short-cycle deals rise."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Insurance returned to growth (+1.8%), supported by Tria-led optimisation in underwriting, claims and risk.",
+        "Others declined 6.4% as build-work moved to run, while the healthcare sub-segment within Others grew on the back of recent wins, including a large deal, and is expected to become a key growth driver."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "In-line revenue led by BFSI, TMT and Insurance Revenue (CC) grew 3.3% QoQ/9.7% YoY, in line with our and consensus estimates."
+      ]
+    }
+  ]
 }

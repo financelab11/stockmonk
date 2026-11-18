@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Reported EBITDA stood at ~₹52 crore with corresponding EBITDA margins at ~14.3% (down 176 bps QoQ).",
-  "fetchedAt": "2026-11-18T15:52:36.064Z"
+  "fetchedAt": "2026-11-18T15:52:36.064Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Venus Pipes & Tubes. Reported EBITDA stood at ~₹52 crore with corresponding EBITDA margins at ~14.3% (down 176 bps QoQ).",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Reported EBITDA stood at ~₹52 crore with corresponding EBITDA margins at ~14.3% (down 176 bps QoQ).",
+        "Reported EBITDA stood at ~₹52 crore with corresponding EBITDA margins at ~14.3% (down 176 bps QoQ)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Consolidated PAT for the quarter stood at ₹26 crore (flat YoY).",
+        "Investment Rationale: • Robust volume growth guidance to support long - term earnings growth : VPT reported muted performance in H1FY27 with near 8% volume growth.",
+        "Encouragingly however, the company has maintained its guidance of 15% volume growth for FY27, implying ~20% volume growth in H2FY27."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Furthermore, spooling and fittings operations are expected to contribute ₹70/~₹45 crores to the revenue in FY27, respectively, highlighting topline growth visibility in H2FY27. • Equity Raise : The company recently executed an equity raise (preferential allotment) worth ₹372 crores, primarily earmarked for debt repayment resulting in notable derisking of balance sheet.",
+        "Investments in securities market are subject to market risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Encouragingly however, the company has maintained its guidance of 15% volume growth for FY27, implying ~20% volume growth in H2FY27."
+      ]
+    }
+  ]
 }

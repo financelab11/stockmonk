@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Nephrocare Health: Multi-market Expansion Strengthens Growth Outlook November 04, 2026 | CMP: INR 625 | Target Pri",
-  "fetchedAt": "2026-11-18T15:52:30.119Z"
+  "fetchedAt": "2026-11-18T15:52:30.119Z",
+  "brokerId": "choice",
+  "brokerDisplay": "Choice Broking",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 31% change"
+    ]
+  },
+  "execSummary": "Choice Broking published a stock note on Nephrocare Health Serv L. Target ₹820 (+31% vs ₹625). Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Nephrocare Health: Multi-market Expansion Strengthens Growth Outlook November 04, 2026 | CMP: INR 625 | Target Pri",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Nephrocare Health: Multi-market Expansion Strengthens Growth Outlook November 04, 2026 | CMP: INR 625 | Target Pri",
+        "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Nephrocare Health: Multi-market Expansion Strengthens Growth Outlook November 04, 2026 | CMP: INR 625 | Target Price: INR 820 Institutional Equities | Healthcare Change in Estimates Change in Target Price Change in Recommendation Change in CIE Estimates FY27E FY28E INR Bn New Old Dev."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "(%) Revenue 12.7 12.7 0.0 15.2 15.2 0.0 EBITDA 2.7 2.7 0.0 3.3 3.3 0.0 EBITDAM % 21.6 21.6 0bps 22.0 22.0 0bps APAT 1.4 1.4 0.0 1.8 1.8 0.0 EPS (INR) 14.4 14.4 0.0 18.0 18.0 0.0 Actual vs CIE Estimates INR Bn Q2FY27A CIE Estimate Dev.% Revenue 3.0 3.0 1.6 EBITDA 0.9 0.9 2.3 EBITDAM % 30.2 30.0 18 bps Adj.",
+        "Daily Volume 3,38,530 Revenue and EBITDA beat estimate amid margin compression ▪ Revenue grew significantly by 23.5% YoY and 7.7% QoQ at INR 3,034 Mn (vs CIE estimate of INR 2,985 Mn). ▪ EBITDA grew 9.2% YoY and 7.1% QoQ at INR 916 Mn, with margin contracting 396 bps YoY and flat on QoQ at 30.2% (vs CIE estimate of 30.0%) ▪ PAT grew by 4.9% QoQ to INR 335 Mn (vs CIE of INR 328 Mn).",
+        "India platform offers sustained clinic-led growth: NEPHROPL is targeting 15– 20% medium-term revenue growth, supported by its established India network of 500 clinics across 314 cities."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹820 against a market price of ₹625 at the report date.",
+        "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Nephrocare Health: Multi-market Expansion Strengthens Growth Outlook November 04, 2026 | CMP: INR 625 | Target Price: INR 820 Institutional Equities | Healthcare Change in Estimates Change in Target Price Change in Recommendation Change in CIE Estimates FY27E FY28E INR Bn New Old Dev.",
+        "India platform offers sustained clinic-led growth: NEPHROPL is targeting 15– 20% medium-term revenue growth, supported by its established India network of 500 clinics across 314 cities.",
+        "International expansion unlocks multi-year growth opportunities: International markets are expected to remain a key growth driver, with the company targeting entry into a new geography every 12–18 months."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Nephrocare Health: Multi-market Expansion Strengthens Growth Outlook November 04, 2026 | CMP: INR 625 | Target Price: INR 820 Institutional Equities | Healthcare Change in Estimates Change in Target Price Change in Recommendation Change in CIE Estimates FY27E FY28E INR Bn New Old Dev.",
+        "International expansion unlocks multi-year growth opportunities: International markets are expected to remain a key growth driver, with the company targeting entry into a new geography every 12–18 months."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "India platform offers sustained clinic-led growth: NEPHROPL is targeting 15– 20% medium-term revenue growth, supported by its established India network of 500 clinics across 314 cities."
+      ]
+    }
+  ]
 }

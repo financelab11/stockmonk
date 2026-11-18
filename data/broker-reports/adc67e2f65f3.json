@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "FMCG 1 Steady Volume Growth; Margins Pinched by Input Costs Est.",
-  "fetchedAt": "2026-11-18T15:51:33.986Z"
+  "fetchedAt": "2026-11-18T15:51:33.986Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on Britannia Inds.. Rating: BUY. FMCG 1 Steady Volume Growth; Margins Pinched by Input Costs Est.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "FMCG 1 Steady Volume Growth; Margins Pinched by Input Costs Est.",
+        "FMCG 1 Steady Volume Growth; Margins Pinched by Input Costs Est."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Actual for Q2FY27: Revenue – BEAT; EBITDA – MISS; PAT – INLINE Changes in Estimates post Q2FY27 FY27E/FY28E: Revenue: 0%/0%; EBITDA: -7%/-7%; PAT: -8%/-7% Recommendation Rationale • Healthy Growth: Britannia delivered a steady performance in Q2FY27, reporting a 17% YoY increase in revenue to Rs 5,542 Cr, supported by 13% volume growth.",
+        "However, elevated input costs arising from the West Asia conflict weighed on margins.",
+        "General Trade witnessed healthy traction, with growth accelerating to 2.6x the FY26 rate, while alternate channels expanded at 1.8x the pace of General Trade."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Result Update 09th November, 2026 BUY Target Price 5,575 Britannia Industries Ltd.",
+        "With sugar prices expected to remain elevated through the festive season, management is partially mitigating margin pressures through targeted grammage reductions. • Demand Outlook: Management indicated that planned grammage reductions could weigh on volumes in the near term.",
+        "Current Valuation: 42xSep’28 EPS (Earlier Valuation: 46xJun’28 EPS )."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "With sugar prices expected to remain elevated through the festive season, management is partially mitigating margin pressures through targeted grammage reductions. • Demand Outlook: Management indicated that planned grammage reductions could weigh on volumes in the near term.",
+        "However, it remains confident about the underlying volume growth trajectory and reiterated that sustained volume growth remains a key priority for long-term business performance."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "General Trade witnessed healthy traction, with growth accelerating to 2.6x the FY26 rate, while alternate channels expanded at 1.8x the pace of General Trade."
+      ]
+    }
+  ]
 }

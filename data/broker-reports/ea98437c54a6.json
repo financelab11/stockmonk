@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "INR 148bn in FY26), positioning the company well to achieve its FY27 guidance of INR 250bn.",
-  "fetchedAt": "2026-11-18T15:51:34.975Z"
+  "fetchedAt": "2026-11-18T15:51:34.975Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Cemindia Projects. Rating: BUY. Target ₹1,550 (+16% vs ₹1,335). INR 148bn in FY26), positioning the company well to achieve its FY27 guidance of INR 250bn.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "INR 148bn in FY26), positioning the company well to achieve its FY27 guidance of INR 250bn.",
+        "INR 148bn in FY26), positioning the company well to achieve its FY27 guidance of INR 250bn."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "A robust external bid pipeline of INR 1.3trn, complemented by opportunities from group entities, provides strong order visibility.",
+        "The strong OI secured over the past few quarters are now translating into execution, with Q2 revenue growing 26% YoY to INR 27.5bn (flat QoQ).",
+        "EBITDA margin improved 40bps YoY to 9.7%, while PAT grew 22% YoY to INR 1.3bn."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹1,550 against a market price of ₹1,335 at the report date.",
+        "Besides, its order book at 3.1x, return on equity of 28% and low working capital intensity warrant a higher multiple than its peers.",
+        "The target price takes into account proceeds from QIP, which would be deployed for growth; hence, we also add the value derived from the cash.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Further, its acquisition by the Adani group – which is running a multi-trillion capex programme across infrastructure segments, where Cemindia has a strong track record – has improved the growth outlook.",
+        "We expect Cemindia’s to deliver an earnings CAGR of 27% over the next three years, aided by: 1) a healthy book to bill ratio of 3x; b) strong OI outlook for FY27E; 3) group capex outlook; and 4) a 100bps improvement in margins on the back of higher scale and larger projects."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "EBITDA margin improved 40bps YoY to 9.7%, while PAT grew 22% YoY to INR 1.3bn."
+      ]
+    }
+  ]
 }

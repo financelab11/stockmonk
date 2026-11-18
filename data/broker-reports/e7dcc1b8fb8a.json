@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Result Update| Sector: Iron & Steel Products SBICAP Securities Limited | 2 Key Highlights of the 2QFY27 Result Growth momentum continues as NPC integration begins to bear fruit.",
-  "fetchedAt": "2026-11-18T15:49:26.223Z"
+  "fetchedAt": "2026-11-18T15:49:26.223Z",
+  "brokerId": "sbi-securities",
+  "brokerDisplay": "SBI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "SBI Securities published a result update on Man Industries (India). Result Update| Sector: Iron & Steel Products SBICAP Securities Limited | 2 Key Highlights of the 2QFY27 Result Growth momentum continues as NPC integration begins to bear fruit.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Result Update| Sector: Iron & Steel Products SBICAP Securities Limited | 2 Key Highlights of the 2QFY27 Result Growth momentum continues as NPC integration begins to bear fruit.",
+        "Result Update| Sector: Iron & Steel Products SBICAP Securities Limited | 2 Key Highlights of the 2QFY27 Result Growth momentum continues as NPC integration begins to bear fruit."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Man Industries (India) Ltd. during 2QFY27 reported Revenue/EBITDA/PAT growth of 45.1%/79.7%/121.7% YoY to Rs 1,210 cr/Rs 184 cr/Rs 82 cr, respectively.",
+        "EBITDA margin expanded ~290 bps YoY to 15.2% during the quarter, resulting in highest-ever quarterly EBITDA.",
+        "This expansion was driven by the first full quarter contribution from NPC operations."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Result Update| Sector: Iron & Steel Products SBICAP Securities Limited | 2 Key Highlights of the 2QFY27 Result Growth momentum continues as NPC integration begins to bear fruit.",
+        "Revenue deferred due to geopolitical disruptions; expected to be realized in the coming quarters: The company had to register revenue deferment of ~Rs 320 cr during the quarter on account of disruptions in key maritime routes such as the Strait of Hormuz."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "This expansion was driven by the first full quarter contribution from NPC operations."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "We note: (1) It has stepped up investments in ad-spends to strengthen its competitive positioning and accelerate growth across key categories.",
-  "fetchedAt": "2026-11-18T15:53:06.181Z"
+  "fetchedAt": "2026-11-18T15:53:06.181Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 30% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Eureka Forbes. Rating: BUY. Target ₹444 (+30% vs ₹342). We note: (1) It has stepped up investments in ad-spends to strengthen its competitive positioning and accelerate growth across key categories.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "We note: (1) It has stepped up investments in ad-spends to strengthen its competitive positioning and accelerate growth across key categories.",
+        "We note: (1) It has stepped up investments in ad-spends to strengthen its competitive positioning and accelerate growth across key categories."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Despite these investments, EBITDA margin expanded 29bps YoY to 12.9%, marking its highest-ever quarterly margin.",
+        "(2) Water purifier growth remains volume-led, supported by market share gains, while robotic vacuum cleaners, water softeners and air purifiers continued to scale up.",
+        "(3) Despite higher competitive intensity in water purifiers, management remains confident of its ability to sustain market share gains, supported by a comprehensive product portfolio."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹444 against a market price of ₹342 at the report date.",
+        "Maintain BUY with a DCF-based revised TP of INR 444 (earlier 600) implied P/E at 31x FY28E EPS.",
+        "Maintain BUY with a DCF-based revised TP of INR 444 (earlier 600) (implied target P/E at 31x FY28E EPS).",
+        "The full impact of the price increase is expected to be visible in Q4FY27. • Management expects margins to recover in Q4FY27 and target broadly flat adjusted EBITDA margins for FY27. • A&SP investments increased during H1FY27."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "We note: (1) It has stepped up investments in ad-spends to strengthen its competitive positioning and accelerate growth across key categories.",
+        "It launched an industry-first four-year filter-life product, along with earlier two-year filter life product, to address concerns related to maintenance costs and ownership costs."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "(3) Despite higher competitive intensity in water purifiers, management remains confident of its ability to sustain market share gains, supported by a comprehensive product portfolio."
+      ]
+    }
+  ]
 }

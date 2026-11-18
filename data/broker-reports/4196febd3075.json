@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "(%) 31.2 (30.0) 57.0 17.5 DPS (INR) 0.8 0.6 0.9 1.0 Yield (%) 0.1 0.1 0.2 0.2 RoE (%) 13.7 8.6 12.2 12.7 RoCE (%) 17.4 11.5 16.8 17.5 EV/Sales (x) 0.6 0.6 0.5 0.4 EV/EBITDA (x) 6.7 8.0 5.3 4.3 PE (x) 14.1 20.1 12.8 10.9 ",
-  "fetchedAt": "2026-11-18T15:49:33.430Z"
+  "fetchedAt": "2026-11-18T15:49:33.430Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Ahluwalia Contracts (India). Rating: BUY. Target ₹708. (%) 31.2 (30.0) 57.0 17.5 DPS (INR) 0.8 0.6 0.9 1.0 Yield (%) 0.1 0.1 0.2 0.2 RoE (%) 13.7 8.6 12.2 12.7 RoCE (%) 17.4 11.5 16.8 17.5 EV/Sales (x) 0.6 0.6 0.5 0.4 EV/EBITDA (x) 6.7 8.0 5.3 4.3 PE (x) 14.1 20.1 12.8 10.9 ",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(%) 31.2 (30.0) 57.0 17.5 DPS (INR) 0.8 0.6 0.9 1.0 Yield (%) 0.1 0.1 0.2 0.2 RoE (%) 13.7 8.6 12.2 12.7 RoCE (%) 17.4 11.5 16.8 17.5 EV/Sales (x) 0.6 0.6 0.5 0.4 EV/EBITDA (x) 6.7 8.0 5.3 4.3 PE (x) 14.1 20.1 12.8 10.9 ",
+        "(%) 31.2 (30.0) 57.0 17.5 DPS (INR) 0.8 0.6 0.9 1.0 Yield (%) 0.1 0.1 0.2 0.2 RoE (%) 13.7 8.6 12.2 12.7 RoCE (%) 17.4 11.5 16.8 17.5 EV/Sales (x) 0.6 0.6 0.5 0.4 EV/EBITDA (x) 6.7 8.0 5.3 4.3 PE (x) 14.1 20.1 12.8 10.9 P/BV (x) 1.8 1.7 1.5 1.3 Margin improves QoQ Result Report Ahluwalia reported a sharp sequential margin recovery in Q2FY27."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Revenue grew 24.3% YoY, as large projects that started slowly in Q1 picked up.",
+        "EBITDA margin recovering to 7.6% from 4.3% in Q1, though still well below 10.9% a year ago.",
+        "Margin remained under pressure from a higher material share on early-stage EPC projects (Central Vista, CSMT), annual increments and higher PF outgo."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹708.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 708 930 Sales (INR mn) 62,227 71,440 63,201 67,163 % Chng.",
+        "(%) 31.2 (30.0) 57.0 17.5 DPS (INR) 0.8 0.6 0.9 1.0 Yield (%) 0.1 0.1 0.2 0.2 RoE (%) 13.7 8.6 12.2 12.7 RoCE (%) 17.4 11.5 16.8 17.5 EV/Sales (x) 0.6 0.6 0.5 0.4 EV/EBITDA (x) 6.7 8.0 5.3 4.3 PE (x) 14.1 20.1 12.8 10.9 P/BV (x) 1.8 1.7 1.5 1.3 Margin improves QoQ Result Report Ahluwalia reported a sharp sequential margin recovery in Q2FY27.",
+        "That gives ~INR 1.5 bn in Q3 and over INR 2 bn in Q4, and management retained its FY27 target of ~INR 7 bn."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(16.1) (4.9) Key Data AHLU.BO | AHLU IN BSE Code 532811 NSE Code AHLUCONT 52-W High / Low INR 1,077 / INR 500 Face Value 2 Sensex / Nifty 82,105 / 25,291 Market Cap INR 37 bn / $ 396 mn Shares Outstanding 66.99 mn 3M Avg.",
+        "Key projects: Central Vista billed INR 430 mn in October and is expected at ~INR 600 mn in November and INR 600–700 mn in December, rising to over INR 2 bn in Q4."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Margin remained under pressure from a higher material share on early-stage EPC projects (Central Vista, CSMT), annual increments and higher PF outgo."
+      ]
+    }
+  ]
 }

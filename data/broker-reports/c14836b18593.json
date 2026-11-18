@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Result Update 6th November, 2026 BUY Target Price 1,000 Chalet Hotels Ltd Hotels 1 Slow Quarter due to Renovations; Leisure Shines Est.",
-  "fetchedAt": "2026-11-18T15:52:16.559Z"
+  "fetchedAt": "2026-11-18T15:52:16.559Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on Chalet Hotels. Rating: BUY. Target ₹1,000. Result Update 6th November, 2026 BUY Target Price 1,000 Chalet Hotels Ltd Hotels 1 Slow Quarter due to Renovations; Leisure Shines Est.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Result Update 6th November, 2026 BUY Target Price 1,000 Chalet Hotels Ltd Hotels 1 Slow Quarter due to Renovations; Leisure Shines Est.",
+        "Result Update 6th November, 2026 BUY Target Price 1,000 Chalet Hotels Ltd Hotels 1 Slow Quarter due to Renovations; Leisure Shines Est."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Actual for Q2FY27: Revenue – INLINE; EBITDA – MISS; PAT – BEAT Changes in Estimates post Q2FY27: FY27E/FY28E: Revenue: 0%/0%; EBITDA : 0%/0%; PAT: 0%/0% Recommendation Rationale: • Growing Revenue with Higher Margins: Chalet remains well-positioned to benefit from India's structural hospitality upcycle, with core business revenue increasing 11% YoY to Rs. 511 Cr.",
+        "EBITDA margin expanded by 110 bps to 45%, supported by operational efficiencies, higher annuity income and strong performance in the leisure segment.",
+        "Hyderabad witnessed strong RevPAR growth, supported by GCC demand, whereas Bangalore reported moderate growth."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹1,000.",
+        "Result Update 6th November, 2026 BUY Target Price 1,000 Chalet Hotels Ltd Hotels 1 Slow Quarter due to Renovations; Leisure Shines Est.",
+        "The company is also advancing its 380-key Taj hotel project at Delhi International Airport, with a partial launch of 70 keys targeted in Q4FY27 and full completion expected in early FY28.",
+        "Current TP: Rs 1,000/share (Earlier TP: Rs 1,000/share) Recommendation: We maintain our BUY rating on the stock with a target price of Rs 1,000/share, implying an upside of 22% from CMP."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The company is also advancing its 380-key Taj hotel project at Delhi International Airport, with a partial launch of 70 keys targeted in Q4FY27 and full completion expected in early FY28.",
+        "In addition, Chalet is scaling up its Athiva brand through a robust development pipeline and evaluating the expansion potential of a premium 144-key resort in Udaipur. • Commercial Real Estate Growth: The commercial real estate business delivered a strong performance in Q2FY27, with revenue increasing 22% YoY to Rs. 90 Cr."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Hyderabad witnessed strong RevPAR growth, supported by GCC demand, whereas Bangalore reported moderate growth."
+      ]
+    }
+  ]
 }

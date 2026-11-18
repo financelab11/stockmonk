@@ -30,5 +30,58 @@
     ]
   },
   "blurb": "We believe its core brands continue to grow by 15–17% led by price hikes, dominance in therapeutic category and a rapid rise in market growth rate.",
-  "fetchedAt": "2026-11-18T15:52:09.984Z"
+  "fetchedAt": "2026-11-18T15:52:09.984Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 26% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Abbott India. Rating: BUY. Target ₹33,500 (+26% vs ₹26,605). We believe its core brands continue to grow by 15–17% led by price hikes, dominance in therapeutic category and a rapid rise in market growth rate.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "We believe its core brands continue to grow by 15–17% led by price hikes, dominance in therapeutic category and a rapid rise in market growth rate.",
+        "We believe its core brands continue to grow by 15–17% led by price hikes, dominance in therapeutic category and a rapid rise in market growth rate."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Owing to better product mix, its gross margin in Q2 expanded by 155bps YoY to 48.2%, while a rise in opex restricted its EBITDA margin improvement to 53bps YoY to 29.1%.",
+        "As the dip in the Novo portfolio seems to have been arrested, we anticipate the revenue growth trajectory to sustain ahead.",
+        "Revenue growth rebounds; margin remains healthy Abbott’s Q2 sales grew 11% YoY (+7.6% QoQ) to INR 19.5bn (I-Sec: INR 18.6bn)."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹33,500 against a market price of ₹26,605 at the report date.",
+        "The stock currently trades at valuations of 31.6x FY27E and 27.7x FY28E earnings, and EV/EBITDA multiples of 24.7x FY27E and 21.5x FY28E.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key growth drivers, as per IQVIA Based on IQVIA data, Abbott’s Q2FY27 revenue growth was driven by pain, gastrointestinal, VMN and cardiac therapies.",
+        "Among its key brands, Cremaffin Plus grew 26% YoY, followed by Vertin at 24% and Duphalac at 12.1%."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Revenue growth rebounds; margin remains healthy Abbott’s Q2 sales grew 11% YoY (+7.6% QoQ) to INR 19.5bn (I-Sec: INR 18.6bn)."
+      ]
+    }
+  ]
 }

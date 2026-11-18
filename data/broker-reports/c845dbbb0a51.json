@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "The company is proceeding with a demerger scheme that will split Lemon Tree Hotels into a pure-play, asset-light brand targeting 70-75% steady-state EBITDA margins, and Fleur Hotels, which will now be a separate, growth-",
-  "fetchedAt": "2026-11-18T15:51:19.444Z"
+  "fetchedAt": "2026-11-18T15:51:19.444Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 30% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Lemon Tree Hotels. Rating: BUY. Target ₹151 (+30% vs ₹116). The company is proceeding with a demerger scheme that will split Lemon Tree Hotels into a pure-play, asset-light brand targeting 70-75% steady-state EBITDA margins, and Fleur Hotels, which will now be a separate, growth-",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "The company is proceeding with a demerger scheme that will split Lemon Tree Hotels into a pure-play, asset-light brand targeting 70-75% steady-state EBITDA margins, and Fleur Hotels, which will now be a separate, growth-",
+        "The company is proceeding with a demerger scheme that will split Lemon Tree Hotels into a pure-play, asset-light brand targeting 70-75% steady-state EBITDA margins, and Fleur Hotels, which will now be a separate, growth-oriented listed hotel ownership platform."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Retain BUY with an unchanged TP of INR 151, based on 22x Sep’27E EV/EBITDA.",
+        "Stable quarter; demand outlook improves LEMONTRE reported Q2FY27 consolidated revenue of INR 3.6bn (up 18% YoY), in line with I-Sec estimate, as portfolio ARRs grew 8% YoY (including Aurika) amid a pickup in demand following reduced geopolitical tensions.",
+        "Occupancy for the quarter was up 633bps YoY at 76.1%, translating into a RevPAR of INR 5,137, which was up 18% YoY."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹151 against a market price of ₹116 at the report date.",
+        "The company is proceeding with a demerger scheme that will split Lemon Tree Hotels into a pure-play, asset-light brand targeting 70-75% steady-state EBITDA margins, and Fleur Hotels, which will now be a separate, growth-oriented listed hotel ownership platform.",
+        "Retain BUY with an unchanged TP of INR 151, based on 22x Sep’27E EV/EBITDA.",
+        "Focus remains on Fleur Hotels restructuring plans The company is proceeding with a demerger scheme that will split Lemon Tree Hotels into a pure-play, asset-light brand targeting 70-75% steady-state EBITDA margins, and Fleur Hotels SPV, which will be a separate, growth- oriented listed hotel ownership platform."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Stable quarter; demand outlook improves LEMONTRE reported Q2FY27 consolidated revenue of INR 3.6bn (up 18% YoY), in line with I-Sec estimate, as portfolio ARRs grew 8% YoY (including Aurika) amid a pickup in demand following reduced geopolitical tensions.",
+        "Fleur Hotels, backed by Warburg Pincus (invested in May’26), has up to INR 30bn in capital available for deployment and is targeting an addition of ~2,500 keys focused on upscale/upper-upscale segments."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Occupancy for the quarter was up 633bps YoY at 76.1%, translating into a RevPAR of INR 5,137, which was up 18% YoY."
+      ]
+    }
+  ]
 }

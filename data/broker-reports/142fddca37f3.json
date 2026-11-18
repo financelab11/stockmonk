@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Apart from structural tailwinds, traction in asset and wealth management, as well as distribution, led to operating PAT (ex- treasury) rising to more than INR 7.5bn in Q2FY27 from INR 3.8bn in Q2FY24.",
-  "fetchedAt": "2026-11-18T15:51:21.345Z"
+  "fetchedAt": "2026-11-18T15:51:21.345Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Motilal Oswal Financial Services. Rating: BUY. Target ₹1,326 (+16% vs ₹1,147). Apart from structural tailwinds, traction in asset and wealth management, as well as distribution, led to operating PAT (ex- treasury) rising to more than INR 7.5bn in Q2FY27 from INR 3.8bn in Q2FY24.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Apart from structural tailwinds, traction in asset and wealth management, as well as distribution, led to operating PAT (ex- treasury) rising to more than INR 7.5bn in Q2FY27 from INR 3.8bn in Q2FY24.",
+        "Apart from structural tailwinds, traction in asset and wealth management, as well as distribution, led to operating PAT (ex- treasury) rising to more than INR 7.5bn in Q2FY27 from INR 3.8bn in Q2FY24."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Over the years, it has successfully transitioned from a transaction-heavy business model to a more sustainable recurring revenue model.",
+        "This is evident from the share of recurring revenue rising to ~66% in Q2FY27 from 55% in FY24.",
+        "The strong execution in Q2FY27 is illustrated by 1) MF with alternates/PE/RE ending AUM growing ~26% YoY; 2) Private Wealth Management (PWM) recurring AUM growing ~31% YoY, and (3) loan book in WM (Broking) increasing 42% YoY."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹1,326 against a market price of ₹1,147 at the report date.",
+        "Based on our valuation multiples, holding company discount, and distributed business model, we believe the risk-reward ratio continues to be favourable.",
+        "Our revised TP of INR 1,326 (earlier INR 1,024) is based on FY28E SoTP-based P/E multiples of 15x/30x/27x/15x for the capital markets business (IB+IE)/(AMC+PE)/PWM/WM (broking), and a multiple of 1.2x FY28E book value for the HFC segment.",
+        "We have raised the AMC/PWM multiples from 25x each to 30x/27x, respectively, reflecting strong execution and optionalities ahead."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Based on our valuation multiples, holding company discount, and distributed business model, we believe the risk-reward ratio continues to be favourable.",
+        "Risks: A broader market downturn and deterioration in MF performance."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The strong execution in Q2FY27 is illustrated by 1) MF with alternates/PE/RE ending AUM growing ~26% YoY; 2) Private Wealth Management (PWM) recurring AUM growing ~31% YoY, and (3) loan book in WM (Broking) increasing 42% YoY."
+      ]
+    }
+  ]
 }

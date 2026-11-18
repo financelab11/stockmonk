@@ -31,5 +31,60 @@
     ]
   },
   "blurb": "Going ahead, we expect higher alumina realisations of ~INR 35,000/t in H2FY27, normalisation of input costs despite the rise in caustic soda and CPC prices, and volume growth supported by the commissioning of the 1mtpa r",
-  "fetchedAt": "2026-11-18T15:53:16.378Z"
+  "fetchedAt": "2026-11-18T15:53:16.378Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": "NATIONALUM",
+  "market": "IN",
+  "sector": "Metals & Commodities",
+  "materiality": {
+    "score": 60,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+12 negative corporate or estimate event",
+      "+8 target implies 26% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on National Aluminium Company. Rating: BUY. Target ₹400 (+26% vs ₹318). Going ahead, we expect higher alumina realisations of ~INR 35,000/t in H2FY27, normalisation of input costs despite the rise in caustic soda and CPC prices, and volume growth supported by the commissioning of the 1mtpa r",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Going ahead, we expect higher alumina realisations of ~INR 35,000/t in H2FY27, normalisation of input costs despite the rise in caustic soda and CPC prices, and volume growth supported by the commissioning of the 1mtpa r",
+        "Going ahead, we expect higher alumina realisations of ~INR 35,000/t in H2FY27, normalisation of input costs despite the rise in caustic soda and CPC prices, and volume growth supported by the commissioning of the 1mtpa refinery (by late Dec’26/early Jan’27) to support earnings."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "There is no material change in estimates and we keep our TP intact at INR 400 (6.0x FY28E EV/EBITDA).",
+        "EBITDA grows on higher aluminium profitability NALCO reported Q2FY27 revenue of INR 54.2bn (+26% YoY/+2% QoQ) and EBITDA of INR 24.1bn (+25% YoY/-11% QoQ).",
+        "Management expects FY27 alumina production of ~2.45mt and captive coal production of 4.8mt."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹400 against a market price of ₹318 at the report date.",
+        "There is no material change in estimates and we keep our TP intact at INR 400 (6.0x FY28E EV/EBITDA).",
+        "Refinery commissioning to drive FY28 earrings NALCO is progressing with the commissioning of its 1mtpa alumina refinery, with integrated trials targeted by late December 2026/early January 2027.",
+        "Meanwhile, the proposed brownfield smelter expansion at Angul entails an investment of INR 170-180bn, with commissioning targeted by FY31-32."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key risks • Moderation in alumina or aluminium realisations amid potential increase in global supplies. • Delays in commissioning and ramp-up of the fifth alumina refinery.",
+        "The recipient should independently evaluate the investment risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management expects FY27 alumina production of ~2.45mt and captive coal production of 4.8mt."
+      ]
+    }
+  ]
 }

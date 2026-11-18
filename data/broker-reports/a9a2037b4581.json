@@ -27,5 +27,54 @@
     ]
   },
   "blurb": "Despite lower headroom for volume growth (due to capacity constraints), gross profit and EBITDA grew by 27%/37% YoY.  FINEORG’s revenue performance has been lumpy since the IPO.",
-  "fetchedAt": "2026-11-18T15:51:39.002Z"
+  "fetchedAt": "2026-11-18T15:51:39.002Z",
+  "brokerId": "nirmal-bang",
+  "brokerDisplay": "Nirmal Bang",
+  "ticker": "FINEORG",
+  "market": "IN",
+  "sector": "Specialty Chemicals",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Nirmal Bang published a stock note on Fine Organic Industries. Rating: BUY. Despite lower headroom for volume growth (due to capacity constraints), gross profit and EBITDA grew by 27%/37% YoY.  FINEORG’s revenue performance has been lumpy since the IPO.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Despite lower headroom for volume growth (due to capacity constraints), gross profit and EBITDA grew by 27%/37% YoY.  FINEORG’s revenue performance has been lumpy since the IPO.",
+        "Despite lower headroom for volume growth (due to capacity constraints), gross profit and EBITDA grew by 27%/37% YoY.  FINEORG’s revenue performance has been lumpy since the IPO."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Post earnings revision, maintain BUY with a revised TP of Rs6,700 (earlier Rs6,300) valued at 35x PE on Sep’28E. 2QFY27 performance update: FINEORG’s 2QFY27 revenue growth of 22% YoY was largely pricing-led.",
+        "Domestic/Export revenue grew by ~24%/19% YoY, The share of exports revenue stood at 56% vis-à-vis 55% in 2QFY26 and 60% in 1QFY27.",
+        "EBITDA growth of ~37% YoY reflects operating leverage and FINEORG’s ability to pass on the RM inflation."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Points  FINEORG’s 2QFY27 came ~25% ahead of our and consensus estimates on account of continued contractual re-pricing benefits.",
+        "While geopolitical issues, Covid-19 etc. also led to some of the fluctuations, the key reason was supply constraints."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "EBITDA growth of ~37% YoY reflects operating leverage and FINEORG’s ability to pass on the RM inflation."
+      ]
+    }
+  ]
 }

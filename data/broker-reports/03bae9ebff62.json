@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Triveni Turbine (TRIV) reported another weak quarter, with revenue declining 3% YoY to INR4.9bn and EBITDA margin contracting sharply to 13.0%, impacted by an adverse order mix, execution of the strategic NTPC order and ",
-  "fetchedAt": "2026-11-18T15:50:44.037Z"
+  "fetchedAt": "2026-11-18T15:50:44.037Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Triveni Turbine. Rating: ACCUMULATE. Target ₹573. Triveni Turbine (TRIV) reported another weak quarter, with revenue declining 3% YoY to INR4.9bn and EBITDA margin contracting sharply to 13.0%, impacted by an adverse order mix, execution of the strategic NTPC order and ",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Triveni Turbine (TRIV) reported another weak quarter, with revenue declining 3% YoY to INR4.9bn and EBITDA margin contracting sharply to 13.0%, impacted by an adverse order mix, execution of the strategic NTPC order and ",
+        "Triveni Turbine (TRIV) reported another weak quarter, with revenue declining 3% YoY to INR4.9bn and EBITDA margin contracting sharply to 13.0%, impacted by an adverse order mix, execution of the strategic NTPC order and higher raw material costs."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The company reported its highest- ever quarterly order inflow, up 17.2% YoY to INR7.6bn, driven by exports (+49.8%) and product (+32.5%), while domestic and aftermarket inflows declined 2.5% and 17.8%, respectively.",
+        "Order book stood at INR24.5bn, up 10.5% YoY, with a higher aftermarket contribution led by refurbishment, utility, geothermal and performance-optimisation opportunities.",
+        "Domestic and product order books remain subdued, although upcoming thermal capacity additions could drive large turbine order finalisations in Q4."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: ACCUMULATE.",
+        "Target price ₹573.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate Hold Target Price 573 615 Sales (INR mn) 27,034 31,506 28,729 33,773 % Chng.",
+        "The stock is trading at a P/E of 33.8x/28.6x on FY28/29E EPS.",
+        "Gas Turbine Development & International Contracts: Gas turbine product development is targeted at thrust applications rather than power generation and involves a multi-year development cycle."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(7.4) (7.3) Key Data TRVT.BO | TRIV IN BSE Code 533655 NSE Code TRITURBINE 52-W High / Low INR 787 / INR 428 Face Value 1 Sensex / Nifty 81,911 / 25,299 Market Cap INR 161 bn / $ 1,715 mn Shares Outstanding 317.91 mn 3M Avg.",
+        "While healthy inflows and a growing aftermarket franchise provide medium-term comfort, enquiry conversion, domestic demand recovery, export execution and scaling of higher-margin aftermarket opportunities remain key monitorables."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Domestic and product order books remain subdued, although upcoming thermal capacity additions could drive large turbine order finalisations in Q4."
+      ]
+    }
+  ]
 }

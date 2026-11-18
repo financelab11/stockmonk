@@ -26,5 +26,47 @@
     ]
   },
   "blurb": "The company achieved an AUM addition of INR 37,680 crore during the quarter.",
-  "fetchedAt": "2026-11-18T15:50:56.970Z"
+  "fetchedAt": "2026-11-18T15:50:56.970Z",
+  "brokerId": "ventura",
+  "brokerDisplay": "Ventura Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Ventura Securities published a result update on Bajaj Finance. The company achieved an AUM addition of INR 37,680 crore during the quarter.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "The company achieved an AUM addition of INR 37,680 crore during the quarter.",
+        "The company achieved an AUM addition of INR 37,680 crore during the quarter."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The year-on-year volume growth is not directly comparable because the festive season started earlier last year.",
+        "On the profitability front, the company reported a consolidated Profit After Tax (PAT) of INR 6,367 crore, a 29% increase over Q2 FY26.",
+        "Profit Before Tax (PBT) also rose 29% to INR 8,537 crore, and PBT before the prudent management and macro-economic provision grew 34% to INR 8,874 crore."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "And such person shall be responsible for conducting his/her/their own investigation and analysis of the information contained or referred to in this document and of evaluating the merits and risks involved in the securities forming the subject matter of this document."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Profit Before Tax (PBT) also rose 29% to INR 8,537 crore, and PBT before the prudent management and macro-economic provision grew 34% to INR 8,874 crore."
+      ]
+    }
+  ]
 }

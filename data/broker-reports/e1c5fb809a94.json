@@ -31,5 +31,51 @@
     ]
   },
   "blurb": "(3.2) (3.2) EBITDA (INR mn) 12,403 15,055 12,400 15,176 % Chng. - (0.8) EPS (INR) 15.5 19.1 15.5 19.1 % Chng. - - Key Data ANTH.BO | ANTHEM IN BSE Code 544449 NSE Code ANTHEM 52-W High / Low INR 977 / INR 579 Face Value ",
-  "fetchedAt": "2026-11-18T15:51:31.333Z"
+  "fetchedAt": "2026-11-18T15:51:31.333Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": "ANTHEM",
+  "market": "IN",
+  "sector": "Healthcare & Pharma",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Anthem Biosciences. Rating: BUY. (3.2) (3.2) EBITDA (INR mn) 12,403 15,055 12,400 15,176 % Chng. - (0.8) EPS (INR) 15.5 19.1 15.5 19.1 % Chng. - - Key Data ANTH.BO | ANTHEM IN BSE Code 544449 NSE Code ANTHEM 52-W High / Low INR 977 / INR 579 Face Value ",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(3.2) (3.2) EBITDA (INR mn) 12,403 15,055 12,400 15,176 % Chng. - (0.8) EPS (INR) 15.5 19.1 15.5 19.1 % Chng. - - Key Data ANTH.BO | ANTHEM IN BSE Code 544449 NSE Code ANTHEM 52-W High / Low INR 977 / INR 579 Face Value ",
+        "(3.2) (3.2) EBITDA (INR mn) 12,403 15,055 12,400 15,176 % Chng. - (0.8) EPS (INR) 15.5 19.1 15.5 19.1 % Chng. - - Key Data ANTH.BO | ANTHEM IN BSE Code 544449 NSE Code ANTHEM 52-W High / Low INR 977 / INR 579 Face Value 2 Sensex / Nifty 77,301 / 23,961 Market Cap INR 501 bn / $ 5,289 mn Shares Outstanding 563.53 mn 3M Avg."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "(%) 30.5 24.9 17.9 22.8 DPS (INR) 2.0 2.0 2.0 2.0 Yield (%) 0.2 0.2 0.2 0.2 RoE (%) 21.7 22.0 21.5 21.8 RoCE (%) 24.9 25.0 25.2 25.4 EV/Sales (x) 23.4 20.2 16.5 13.5 EV/EBITDA (x) 59.6 49.2 39.8 32.4 PE (x) 84.3 67.5 57.2 46.6 P/BV (x) 16.4 13.6 11.3 9.3 Margin surprise Result Report ANTHEM delivered 25% YoY EBITDA growth in Q2FY27, 8% above our estimates.",
+        "There was spillover effect sequentially as differed shipment got delivered to key customers during the quarter upto some extent.",
+        "We believe growth visibility remains robust, driven by a deep CRDMO pipeline, ramp-up of recently commercialized molecules, and potential commercialization of late-stage assets over the next 18–24 months."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Param Desai Kushal Shah paramdesai@plindia.com | +91-22-66322259 kushalshah@plindia.com | +91-22-66322490 PL Research is also available on www.plindia.com, Bloomberg, Thomson Reuters and Factset Institutional Equities | 1 R A T I N G BUY | C M P INR 888 | T P INR 1,050 Anthem Biosciences (ANTHEM IN) Q2FY27 Result Update November 04, 2026 ◼ Estimate Change | ☑ Target | ◼ Reco.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 1,050 850 Sales (INR mn) 29,986 36,249 30,962 37,428 % Chng.",
+        "(%) 30.5 24.9 17.9 22.8 DPS (INR) 2.0 2.0 2.0 2.0 Yield (%) 0.2 0.2 0.2 0.2 RoE (%) 21.7 22.0 21.5 21.8 RoCE (%) 24.9 25.0 25.2 25.4 EV/Sales (x) 23.4 20.2 16.5 13.5 EV/EBITDA (x) 59.6 49.2 39.8 32.4 PE (x) 84.3 67.5 57.2 46.6 P/BV (x) 16.4 13.6 11.3 9.3 Margin surprise Result Report ANTHEM delivered 25% YoY EBITDA growth in Q2FY27, 8% above our estimates."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(3.2) (3.2) EBITDA (INR mn) 12,403 15,055 12,400 15,176 % Chng. - (0.8) EPS (INR) 15.5 19.1 15.5 19.1 % Chng. - - Key Data ANTH.BO | ANTHEM IN BSE Code 544449 NSE Code ANTHEM 52-W High / Low INR 977 / INR 579 Face Value 2 Sensex / Nifty 77,301 / 23,961 Market Cap INR 501 bn / $ 5,289 mn Shares Outstanding 563.53 mn 3M Avg.",
+        "There was spillover effect sequentially as differed shipment got delivered to key customers during the quarter upto some extent."
+      ]
+    }
+  ]
 }

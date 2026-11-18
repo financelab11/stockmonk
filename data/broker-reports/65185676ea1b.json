@@ -30,5 +30,47 @@
     ]
   },
   "blurb": "BUY 520 590 13.6 Jubilant Ingrevia Ltd BUY 600 915 52.5 K E C International Ltd BUY 344 540 57.0 Kalpataru Projects International Ltd.",
-  "fetchedAt": "2026-11-18T15:51:07.411Z"
+  "fetchedAt": "2026-11-18T15:51:07.411Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on Daily Fundamental View:November 12, 2026. BUY 520 590 13.6 Jubilant Ingrevia Ltd BUY 600 915 52.5 K E C International Ltd BUY 344 540 57.0 Kalpataru Projects International Ltd.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "BUY 520 590 13.6 Jubilant Ingrevia Ltd BUY 600 915 52.5 K E C International Ltd BUY 344 540 57.0 Kalpataru Projects International Ltd.",
+        "BUY 520 590 13.6 Jubilant Ingrevia Ltd BUY 600 915 52.5 K E C International Ltd BUY 344 540 57.0 Kalpataru Projects International Ltd."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Reports based on technical analysis centre on studying charts of a stock's price movement and trading volume, as opposed to focusing on a company's fundamentals and as such, may not match with a report on a company's fundamentals.",
+        "Portfolio Management Team (PMS) takes its investment decisions independently of the PCG research, and accordingly, PMS may have positions contrary to the PCG research recommendation."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Investments in the securities market are subject to market risks.",
+        "None of the research recommendations promise or guarantee any assured, minimum or risk-free return to the investors."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Portfolio Management Team (PMS) takes its investment decisions independently of the PCG research, and accordingly, PMS may have positions contrary to the PCG research recommendation."
+      ]
+    }
+  ]
 }

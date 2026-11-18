@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "EBITDA grew 8% YoY to ~₹ 133 crore, and EBITDA margins de-grew 84 bps YoY at 18.2%.",
-  "fetchedAt": "2026-11-18T15:51:42.788Z"
+  "fetchedAt": "2026-11-18T15:51:42.788Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Healthcare Global Enterprises. EBITDA grew 8% YoY to ~₹ 133 crore, and EBITDA margins de-grew 84 bps YoY at 18.2%.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "EBITDA grew 8% YoY to ~₹ 133 crore, and EBITDA margins de-grew 84 bps YoY at 18.2%.",
+        "EBITDA grew 8% YoY to ~₹ 133 crore, and EBITDA margins de-grew 84 bps YoY at 18.2%."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The South cluster continued to lead growth, while North Bangalore is expected to achieve monthly EBITDA break-even by Q4FY27 and Gujarat to return to mid-teens growth.",
+        "Rising cancer incidence and improving diagnosis present structural growth opportunities, while KKR’s proposed acquisition of a 54% stake is positive given its healthcare investment pedigree and long-term investment horizon.",
+        "The oncology drug trade-margin cap remains a near-term headwind, with management expecting a mid-to-high-single-digit annualised impact on absolute EBITDA from November 2026, though the impact on FY27 will be proportionately lower and recovery is expected from FY28 onwards."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The oncology drug trade-margin cap remains a near-term headwind, with management expecting a mid-to-high-single-digit annualised impact on absolute EBITDA from November 2026, though the impact on FY27 will be proportionately lower and recovery is expected from FY28 onwards.",
+        "We continue to monitor ARPP and cluster-wise volume growth, while expecting ROCE at newer centres to improve with ramp-up."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The oncology drug trade-margin cap remains a near-term headwind, with management expecting a mid-to-high-single-digit annualised impact on absolute EBITDA from November 2026, though the impact on FY27 will be proportionately lower and recovery is expected from FY28 onwards."
+      ]
+    }
+  ]
 }

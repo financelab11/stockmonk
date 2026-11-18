@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Per (%) -7/34/- 12M Avg Val (INR M) 4026 Financials & Valuations (INR b) Y/E March FY27E FY28E FY29E Sales 118.3 149.4 183.7 EBITDA (reported) 26.5 35.2 45.6 EBITDA (pre-IND AS) 16.8 23.2 31.0 Adj.",
-  "fetchedAt": "2026-11-18T15:52:49.610Z"
+  "fetchedAt": "2026-11-18T15:52:49.610Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 46,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+6 strong operating result"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on Lenskart Solutions. Target ₹815 (+18% vs ₹690). Per (%) -7/34/- 12M Avg Val (INR M) 4026 Financials & Valuations (INR b) Y/E March FY27E FY28E FY29E Sales 118.3 149.4 183.7 EBITDA (reported) 26.5 35.2 45.6 EBITDA (pre-IND AS) 16.8 23.2 31.0 Adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Per (%) -7/34/- 12M Avg Val (INR M) 4026 Financials & Valuations (INR b) Y/E March FY27E FY28E FY29E Sales 118.3 149.4 183.7 EBITDA (reported) 26.5 35.2 45.6 EBITDA (pre-IND AS) 16.8 23.2 31.0 Adj.",
+        "Per (%) -7/34/- 12M Avg Val (INR M) 4026 Financials & Valuations (INR b) Y/E March FY27E FY28E FY29E Sales 118.3 149.4 183.7 EBITDA (reported) 26.5 35.2 45.6 EBITDA (pre-IND AS) 16.8 23.2 31.0 Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Net Profit 9.7 14.2 20.8 EBITDA Margin (%) 22.4 23.6 24.8 Adj.",
+        "However, its utmost focus would remain on driving volume-led growth.  We fine tune our FY27-29 estimates and model 27%/45%/57% CAGR in revenue/pre-Ind AS EBITDA/adj.",
+        "PAT over FY26-29, driven by ~28%/25% revenue CAGR in India/International."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹815 against a market price of ₹690 at the report date.",
+        "Per (%) -7/34/- 12M Avg Val (INR M) 4026 Financials & Valuations (INR b) Y/E March FY27E FY28E FY29E Sales 118.3 149.4 183.7 EBITDA (reported) 26.5 35.2 45.6 EBITDA (pre-IND AS) 16.8 23.2 31.0 Adj.",
+        "We expect the pre-IND AS EBITDA margin to expand to ~19.3%/13.0% in India/International by FY29.  We reiterate our BUY rating with a revised TP of INR815, based on a 48x Dec’28 blended pre-Ind AS EBITDA multiple.",
+        "Each recipient of this document should make such investigations as it deems necessary to arrive at an independent evaluation of an investment in the securities of companies referred to in this document (including the merits and risks involved), and should consult its own advisors to determine the merits and risks of such an investment."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key highlights from the management commentary  Margin expansion should continue driven by the operating leverage, although better-than-planned profitability is likely to be reinvested in brand marketing, Bharat market development and international expansion.",
+        "Incremental volumes should improve factory utilization and drive manufacturing efficiencies across the portfolio.  Manufacturing integration remains the key margin lever, with in-sourcing gains (frames +72% YoY, lenses +52% YoY) largely offset by ~20-25% INR depreciation against the RMB."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "PAT over FY26-29, driven by ~28%/25% revenue CAGR in India/International."
+      ]
+    }
+  ]
 }

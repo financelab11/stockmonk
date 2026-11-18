@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Key Points  Sundaram Finance’s 2QFY27 results beat total income and PPOP consensus estimates by 6.2% and 3.8%, respectively, while PAT lagged the estimate by 2.8% due to higher provisioning.  AUM rose 19% YoY to Rs659.",
-  "fetchedAt": "2026-11-18T15:52:54.792Z"
+  "fetchedAt": "2026-11-18T15:52:54.792Z",
+  "brokerId": "nirmal-bang",
+  "brokerDisplay": "Nirmal Bang",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Nirmal Bang published a stock note on Sundaram Finance. Rating: HOLD. Key Points  Sundaram Finance’s 2QFY27 results beat total income and PPOP consensus estimates by 6.2% and 3.8%, respectively, while PAT lagged the estimate by 2.8% due to higher provisioning.  AUM rose 19% YoY to Rs659.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Key Points  Sundaram Finance’s 2QFY27 results beat total income and PPOP consensus estimates by 6.2% and 3.8%, respectively, while PAT lagged the estimate by 2.8% due to higher provisioning.  AUM rose 19% YoY to Rs659.",
+        "Key Points  Sundaram Finance’s 2QFY27 results beat total income and PPOP consensus estimates by 6.2% and 3.8%, respectively, while PAT lagged the estimate by 2.8% due to higher provisioning.  AUM rose 19% YoY to Rs659.9bn and disbursements rose 28% to Rs103.6bn."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "NII rose 17% YoY to Rs9.63bn and PAT rose 21% to Rs4.75bn, though profit from operations grew at a slower 11% to Rs5.57bn.  We value SUF’s standalone business using our RI-based fair value framework to derive a fair value and arrive at a TP of Rs4,610 (previously Rs4,650); we maintain our HOLD rating on the stock.",
+        "Growth was backed by a wider network, with branches rising to 811 (728).",
+        "NII rose 17% YoY to Rs9.63bn and profit from operations rose 11% to Rs5.57bn, while PAT rose 20.5% to Rs4.75bn (Rs3.94bn)."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "NII rose 17% YoY to Rs9.63bn and PAT rose 21% to Rs4.75bn, though profit from operations grew at a slower 11% to Rs5.57bn.  We value SUF’s standalone business using our RI-based fair value framework to derive a fair value and arrive at a TP of Rs4,610 (previously Rs4,650); we maintain our HOLD rating on the stock.",
+        "CMP: Rs4,106| Target Price (TP): Rs4,610 | Upside: 12% November 05, 2026 Institutional Equities Sundaram Finance (SUF) 2 Valuation and view: SUF remains a key lender in vehicle finance segment.",
+        "We value SUF’s standalone business using our RI-based fair value framework to derive a fair value and arrive at a TP of Rs4,610 (previously Rs4,650)."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Points  Sundaram Finance’s 2QFY27 results beat total income and PPOP consensus estimates by 6.2% and 3.8%, respectively, while PAT lagged the estimate by 2.8% due to higher provisioning.  AUM rose 19% YoY to Rs659.9bn and disbursements rose 28% to Rs103.6bn.",
+        "CMP: Rs4,106| Target Price (TP): Rs4,610 | Upside: 12% November 05, 2026 Institutional Equities Sundaram Finance (SUF) 2 Valuation and view: SUF remains a key lender in vehicle finance segment."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "NII rose 17% YoY to Rs9.63bn and profit from operations rose 11% to Rs5.57bn, while PAT rose 20.5% to Rs4.75bn (Rs3.94bn)."
+      ]
+    }
+  ]
 }

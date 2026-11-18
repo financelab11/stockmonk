@@ -17,12 +17,20 @@ export type BrokerReportIndexEntry = {
   id: string;
   date: string;
   broker: string;
+  brokerId?: string;
+  brokerDisplay?: string;
   company: string;
+  ticker?: string | null;
+  market?: "IN" | "US" | "GCC";
+  sector?: string | null;
   headline: string;
   reportType: string;
   deepDive: boolean;
   blurb: string;
+  execSummary?: string;
   metrics: BrokerMetrics;
+  materiality?: { score: number; label: "High" | "Medium" | "Low"; reasons: string[] };
+  detailedSummary?: Array<{ heading: string; bullets: string[] }>;
   link: string;
 };
 
@@ -32,6 +40,7 @@ export type BrokerReport = BrokerReportIndexEntry & {
     valuation: string[];
     watch: string[];
   };
+  detailedSummary?: Array<{ heading: string; bullets: string[] }>;
   deepDiveText?: string;
   fetchedAt: string;
 };
@@ -52,3 +61,7 @@ export const getBrokerReport = cache((id: string): BrokerReport | null => {
     return null;
   }
 });
+
+export const getBrokerReportsForTicker = cache((ticker: string): BrokerReportIndexEntry[] =>
+  getBrokerReportIndex().filter((report) => report.ticker === ticker),
+);

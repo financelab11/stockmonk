@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Gross margin expanded 596bps YoY and 141bps QoQ to 53.81% on a better mix.",
-  "fetchedAt": "2026-11-18T15:52:20.754Z"
+  "fetchedAt": "2026-11-18T15:52:20.754Z",
+  "brokerId": "arihant",
+  "brokerDisplay": "Arihant Capital",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 60,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52",
+      "+8 target implies 72% change"
+    ]
+  },
+  "execSummary": "Arihant Capital published a result update on Gokaldas Exports. Target ₹1,174 (+72% vs ₹684). Gross margin expanded 596bps YoY and 141bps QoQ to 53.81% on a better mix.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Gross margin expanded 596bps YoY and 141bps QoQ to 53.81% on a better mix.",
+        "Gross margin expanded 596bps YoY and 141bps QoQ to 53.81% on a better mix."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA rose 86.26% YoY to INR 998.60 Mn off a tariff-hit base but fell 6.82% QoQ; EBITDA margin was 8.97%, up 353bps YoY but down 32bps QoQ, as wage hikes and oil- linked costs absorbed part of the gross-margin gain.",
+        "PBT rose 164.37% YoY to INR 494.99 Mn (-21.22% QoQ), and PAT jumped 409.97% YoY to INR 412.24 Mn (-6.94% QoQ), aided by a lower 16.72% effective tax rate.",
+        "H2 Margin Levers in Place; Q2 Marks the Trough: Hedged USD/INR improves from INR 91 in Q2 to INR 93 in Q3 and INR 94.5–95 in Q4 (worth 130–140bps of EBITDA margin), the 0.5% tariff-related customer discount ends from Q3, and input-cost increases are being passed through."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹1,174 against a market price of ₹684 at the report date.",
+        "Valuation & Outlook: We raise FY27E/FY28E/FY29E revenue by 4.4%/9.9%/9.8% to factor in BTPL consolidation but cut EPS by 5.7%/9.3%/2.4% for higher depreciation, interest and the loss of OCD interest income, partly offset by a lower tax rate.",
+        "A two-shift, 1,000-machine Ranchi unit (INR 4 bn revenue potential) starts ramping around Q3FY28, with at least two more 1,000- machine units under evaluation.",
+        "BTPL: Q2 revenue was ~INR 1.7 bn with slightly negative EBITDA; captive consumption is 33% and targeted at 50%+ by FY29."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "H2 Africa revenue is guided at USD 50– 60 Mn as one weaker customer (20–25% of Africa revenue) is de-risked.",
+        "Valuation & Outlook: We raise FY27E/FY28E/FY29E revenue by 4.4%/9.9%/9.8% to factor in BTPL consolidation but cut EPS by 5.7%/9.3%/2.4% for higher depreciation, interest and the loss of OCD interest income, partly offset by a lower tax rate."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "H2 Margin Levers in Place; Q2 Marks the Trough: Hedged USD/INR improves from INR 91 in Q2 to INR 93 in Q3 and INR 94.5–95 in Q4 (worth 130–140bps of EBITDA margin), the 0.5% tariff-related customer discount ends from Q3, and input-cost increases are being passed through."
+      ]
+    }
+  ]
 }

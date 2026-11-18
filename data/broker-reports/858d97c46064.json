@@ -30,5 +30,57 @@
     ]
   },
   "blurb": "Expected softening of some RM, calibrated price increases, cost reductions and operating leverage are expected to improve overall margins in the near term.",
-  "fetchedAt": "2026-11-18T15:52:28.238Z"
+  "fetchedAt": "2026-11-18T15:52:28.238Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Mahindra and Mahindra. Rating: BUY. Target ₹3,860. Expected softening of some RM, calibrated price increases, cost reductions and operating leverage are expected to improve overall margins in the near term.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Expected softening of some RM, calibrated price increases, cost reductions and operating leverage are expected to improve overall margins in the near term.",
+        "Expected softening of some RM, calibrated price increases, cost reductions and operating leverage are expected to improve overall margins in the near term."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Core tractor margin is expected to be under pressure in Q3FY27, improve in Q4, normalize in FY28, whereas consol farm margins will be cushioned by international business restructuring benefits, pricing and accelerated exports.",
+        "FY27 volume guidance for its SUVs was maintained at mid-to-high teens.",
+        "All of its businesses, including the Growth Gems are also on track to scale up and deliver market leading returns."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹3,860.",
+        "Aditya Jakhotia Arsh Kusumgar adityajakhotia@plindia.com | +91-22-66322532 arshkusumgar@plindia.com | +91-22-66322222 PL Research is also available on www.plindia.com, Bloomberg, Thomson Reuters and Factset Institutional Equities | 1 R A T I N G BUY | C M P INR 3,128 | T P INR 3,860 Mahindra & Mahindra (MM IN) Q2FY27 Result Update November 06, 2026 ☑ Estimate Change | ☑ Target | ◼ Reco.",
+        "We reiterate ‘BUY’ rating with TP of INR3,860 (previous INR3,750), valuing the core business at 22x P/E on Sep’28E standalone EPS, and its share of subsidiaries’ value."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Price increase (+4% from Apr’26-Aug’26), accelerating exports and exits in less profitable international businesses (expecting exit from MAM Japan as well by Q4FY27) was undertaken. • Guidance lowering was driven by adverse impact in key tractor markets of Maharashtra (where subsidies also went away compared to last year) and Karnataka.",
+        "Scaling up volumes to spread depreciation over a larger base, getting better rates from suppliers on committing higher volume with confidence, pricing power and localization will be key drivers to support margins without PLI benefits."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "All of its businesses, including the Growth Gems are also on track to scale up and deliver market leading returns."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "HSIE Research is also available on Bloomberg ERH HDF <GO> & Thomson Reuters 09 November 2026 HSIE Results Daily HSIE Results Daily Contents Results Reviews ■ Divi’s Laboratories: EBITDA (+76% YoY) beat ours/consensus est",
-  "fetchedAt": "2026-11-18T15:51:59.391Z"
+  "fetchedAt": "2026-11-18T15:51:59.391Z",
+  "brokerId": "hdfc-securities",
+  "brokerDisplay": "HDFC Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "HDFC Securities published a stock note on HSIE Results Daily: Divi’s Laboratories, Tata Steel. HSIE Research is also available on Bloomberg ERH HDF <GO> & Thomson Reuters 09 November 2026 HSIE Results Daily HSIE Results Daily Contents Results Reviews ■ Divi’s Laboratories: EBITDA (+76% YoY) beat ours/consensus est",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "HSIE Research is also available on Bloomberg ERH HDF <GO> & Thomson Reuters 09 November 2026 HSIE Results Daily HSIE Results Daily Contents Results Reviews ■ Divi’s Laboratories: EBITDA (+76% YoY) beat ours/consensus est",
+        "HSIE Research is also available on Bloomberg ERH HDF <GO> & Thomson Reuters 09 November 2026 HSIE Results Daily HSIE Results Daily Contents Results Reviews ■ Divi’s Laboratories: EBITDA (+76% YoY) beat ours/consensus estimates, as strong sales growth of 35% YoY (CS grew 54% YoY, generic API +12% and nutraceutical +13%) and higher gross margin (+739 bps YoY) of 67.9% were partly offset by higher costs."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Divi’s reiterates its expectation of double-digit revenue growth and sustaining higher EBITDA margin in FY27.",
+        "Peptides to stay as a strategic area of investment; customer programs progressing across multiple stages of development; qualification and validation activities for several peptide fragments are expected to advance over the coming quarters, alongside capacity expansion in both solid-phase and liquid-phase peptide synthesis by adding a few more 3KL SPPS capacities.",
+        "It continues to see pricing pressure in the generic API business, which it expects will be offset by volume growth; it expects to sustain base business growth and incremental growth from new launches."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Tata spent INR 33/69bn in capex in Q2/H12FY27 on the ongoing expansion, which led to net debt increase of ~INR 70/113bn in Q2/H1FY27 to INR 921bn (as of Sep’26). ▪ Con call KTAs and outlook: Tata guided for higher volume offtake in H2FY27 compared to H1.",
+        "The views herein are of a general nature and do not consider the risk appetite or the particular circumstances of an individual investor; readers are requested to take professional advice before investing. “This report may have been refined using AI tools to enhance clarity and readability.” Nothing in this document should be construed as investment advice."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "It continues to see pricing pressure in the generic API business, which it expects will be offset by volume growth; it expects to sustain base business growth and incremental growth from new launches."
+      ]
+    }
+  ]
 }

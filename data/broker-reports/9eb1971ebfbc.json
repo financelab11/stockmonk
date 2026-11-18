@@ -30,5 +30,58 @@
     ]
   },
   "blurb": "We believe the story is balanced between strong growth prospects ahead and strong share price performance currently, with shares up ~132% YTD.",
-  "fetchedAt": "2026-11-18T15:50:27.051Z"
+  "fetchedAt": "2026-11-18T15:50:27.051Z",
+  "brokerId": "emkay",
+  "brokerDisplay": "Emkay Global",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 46,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+6 strong operating result"
+    ]
+  },
+  "execSummary": "Emkay Global published a stock note on Avalon Technologies. Rating: BUY. Target ₹12. We believe the story is balanced between strong growth prospects ahead and strong share price performance currently, with shares up ~132% YTD.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "We believe the story is balanced between strong growth prospects ahead and strong share price performance currently, with shares up ~132% YTD.",
+        "We believe the story is balanced between strong growth prospects ahead and strong share price performance currently, with shares up ~132% YTD."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Avalon has conservatively (as is its usual practice) given guidance “around 30%” topline growth for FY27, implying ~20% yoy growth in 2HFY27 – to not exceed that, Avalon will need deceleration in growth in several verticals which we see as a lower probability scenario.",
+        "We await more details to emerge on the progress of Avalon’s key new programs and potential revenue from the Zollner JV accruing to Avalon during the JV facility construction phase.",
+        "EPS (Rs) 9.5 16.9 25.4 39.9 59.0 EBITDA margin (%) 10.5 10.8 12.7 13.4 13.7 EBITDA growth (%) 83.7 50.9 62.1 54.8 45.1 Adj."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹12.",
+        "Source: Company, Bloomberg, Emkay Research 610 998 1386 1774 2162 2550 17-Nov-24 17-Mar-25 15-Jul-25 12-Nov-25 12-Mar-26 10-Jul-26 07-Nov-26 BUY Hold Sell Reduce Add Price Target Price This report is intended for Mansoor (mansoor@whitemarquesolutions.com) use and downloaded at 11/ Emkay Research is also available on www.emkayglobal.com and Bloomberg EMKAY<GO>.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the research published by any other analyst or by associate entities of EGFSL; our proprietary trading, investment businesses or other associate entities may make investment decisions that are inconsistent with the recommendations expressed herein.",
+        "Please contact the primary analyst for valuation methodologies and assumptions associated with the covered companies or price targets."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "We await more details to emerge on the progress of Avalon’s key new programs and potential revenue from the Zollner JV accruing to Avalon during the JV facility construction phase."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "EPS (Rs) 9.5 16.9 25.4 39.9 59.0 EBITDA margin (%) 10.5 10.8 12.7 13.4 13.7 EBITDA growth (%) 83.7 50.9 62.1 54.8 45.1 Adj."
+      ]
+    }
+  ]
 }

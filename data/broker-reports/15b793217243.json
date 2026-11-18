@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Per (%) -7/-23/-7 12M Avg Val (INR M) 2260 Financials & Valuations (INR b) Y/E March FY26 FY27E FY28E Sales 624.3 781.9 869.6 EBITDA 131.0 172.4 210.4 Adj.",
-  "fetchedAt": "2026-11-18T15:51:24.385Z"
+  "fetchedAt": "2026-11-18T15:51:24.385Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 22% change"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on The Tata Power Company. Target ₹440 (+22% vs ₹361). Per (%) -7/-23/-7 12M Avg Val (INR M) 2260 Financials & Valuations (INR b) Y/E March FY26 FY27E FY28E Sales 624.3 781.9 869.6 EBITDA 131.0 172.4 210.4 Adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Per (%) -7/-23/-7 12M Avg Val (INR M) 2260 Financials & Valuations (INR b) Y/E March FY26 FY27E FY28E Sales 624.3 781.9 869.6 EBITDA 131.0 172.4 210.4 Adj.",
+        "Per (%) -7/-23/-7 12M Avg Val (INR M) 2260 Financials & Valuations (INR b) Y/E March FY26 FY27E FY28E Sales 624.3 781.9 869.6 EBITDA 131.0 172.4 210.4 Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Adjusted PAT stood at INR12.8b, in line with estimates, supported by a net exceptional gain of INR1.2b and strong Indonesia coal profitability.",
+        "No provision has been recognized. ◼ Valuation and view: We value the regulated business at 2.5x regulated equity, coal segment at 1x book value, renewables segment at 12x FY28E EBITDA, and pumped storage and other segments at 1x PB, and cash and investments add INR70/share.",
+        "Revenue in line; EBITDA misses estimates Financial Highlights ◼ Consolidated revenue stood at INR196.4b (+26% YoY, +3% QoQ), in line with our estimate. ◼ EBITDA came in at INR36.7b (+11% YoY, -9% QoQ), 15% below our estimate."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹440 against a market price of ₹361 at the report date.",
+        "Per (%) -7/-23/-7 12M Avg Val (INR M) 2260 Financials & Valuations (INR b) Y/E March FY26 FY27E FY28E Sales 624.3 781.9 869.6 EBITDA 131.0 172.4 210.4 Adj.",
+        "No provision has been recognized. ◼ Valuation and view: We value the regulated business at 2.5x regulated equity, coal segment at 1x book value, renewables segment at 12x FY28E EBITDA, and pumped storage and other segments at 1x PB, and cash and investments add INR70/share.",
+        "Cash and investments add INR70/share. ◼ The sum of these contributions results in a TP of INR440/share, reflecting the comprehensive valuation of TPWR’s diverse business segments."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Operational capacity increased to 17.4GW, while module/cell production stood at 1,000MW/906MW. ◼ Key things we liked: 1) Power demand grew 10–11% YoY in 2QFY27, driven by higher agricultural and cooling demand.",
+        "Each recipient of this document should make such investigations as it deems necessary to arrive at an independent evaluation of an investment in the securities of companies referred to in this document (including the merits and risks involved), and should consult its own advisors to determine the merits and risks of such an investment."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Revenue in line; EBITDA misses estimates Financial Highlights ◼ Consolidated revenue stood at INR196.4b (+26% YoY, +3% QoQ), in line with our estimate. ◼ EBITDA came in at INR36.7b (+11% YoY, -9% QoQ), 15% below our estimate."
+      ]
+    }
+  ]
 }

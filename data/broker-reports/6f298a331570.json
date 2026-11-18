@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "Although bromine volumes increased, they were affected by production downtime on power outages.",
-  "fetchedAt": "2026-11-18T15:53:01.539Z"
+  "fetchedAt": "2026-11-18T15:53:01.539Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 41% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Archean Chemical Industries. Rating: BUY. Target ₹620 (+41% vs ₹440). Although bromine volumes increased, they were affected by production downtime on power outages.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Although bromine volumes increased, they were affected by production downtime on power outages.",
+        "Although bromine volumes increased, they were affected by production downtime on power outages."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "ACI expects bromine volumes to be at the lower end of its FY27 guidance of 18–20kte, with blended realisations of INR 300/kg.",
+        "Its subsidiary Acume Chemicals witnessed strong revenue growth, while new product development is likely to ramp-up utilisation.",
+        "We cut FY27E/FY28E EBITDA by 8%/5% factoring in higher costs."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹620 against a market price of ₹440 at the report date.",
+        "We reduce our TP to INR 620 (from INR 655), based on an unchanged 16x FY28E EBITDA multiple.",
+        "Upside risks: Higher-than-expected bromine volumes and prices; and success in bromine derivative business.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Archean Chemical Industries | Results Update | 04 November 2026 India | Institutional Equity Research 3 Risks Downside risks: Continued weakness in demand for bromine; and a sharp drop in salt prices.",
+        "Upside risks: Higher-than-expected bromine volumes and prices; and success in bromine derivative business."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "We cut FY27E/FY28E EBITDA by 8%/5% factoring in higher costs."
+      ]
+    }
+  ]
 }

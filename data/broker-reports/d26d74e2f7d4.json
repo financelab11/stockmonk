@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "In H1FY27, the company has restated its H1FY26 cash EBITDA calculations (IGAAP equivalent) to reflect the entire cash rental payments to landlords.",
-  "fetchedAt": "2026-11-18T15:52:40.602Z"
+  "fetchedAt": "2026-11-18T15:52:40.602Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 59% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Awfis Space Solutions. Rating: BUY. Target ₹384 (+59% vs ₹241). In H1FY27, the company has restated its H1FY26 cash EBITDA calculations (IGAAP equivalent) to reflect the entire cash rental payments to landlords.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "In H1FY27, the company has restated its H1FY26 cash EBITDA calculations (IGAAP equivalent) to reflect the entire cash rental payments to landlords.",
+        "In H1FY27, the company has restated its H1FY26 cash EBITDA calculations (IGAAP equivalent) to reflect the entire cash rental payments to landlords."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "We retain our BUY rating with a revised TP of INR 384, post the new accounting calculation for IGAAP EBITDA valuing the company on 12x Sep’27E EV/IGAAP EBITDA.",
+        "Stable revenue traction; EBITDA margin improves QoQ Awfis reported Q2FY27 consolidated revenue of INR 4.4bn, which increased 20% YoY/3% QoQ, in-line with I-Sec estimates.",
+        "Under the revised cash EBITDA (IGAAP EBITDA) calculation, which the company introduced from FY27, Q2FY27 cash EBITDA grew 50% YoY to INR 0.5bn at an EBITDA margin of 10.8%."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹384 against a market price of ₹241 at the report date.",
+        "While Q2FY27 cash EBITDA margin stood at 10.8%, the company is targeting exit margins of ~12% by Mar’27 and expects to clock 12%+ margins going forward.",
+        "Retain BUY with a revised TP of INR 384, based on 12x Sep’27E EV/EBITDA.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key risks: Office leasing slowdown and competition within flexspaces.",
+        "Key risks: Slowdown in overall office leasing across India and pricing competition among co-working flexible workspace operators."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Under the revised cash EBITDA (IGAAP EBITDA) calculation, which the company introduced from FY27, Q2FY27 cash EBITDA grew 50% YoY to INR 0.5bn at an EBITDA margin of 10.8%."
+      ]
+    }
+  ]
 }

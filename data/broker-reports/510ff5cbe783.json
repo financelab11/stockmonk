@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Yield (%) 0.24 Shareholding (%) Sept 2026 Promoter 28.02 FIIs 43.19 DIIs Government 22.07 0.23 Public Others 6.49 0.00 TOTAL 100.0 Price chart 2000 7000 12000 17000 22000 27000 32000 500 2500 4500 6500 8500 10500 Close (",
-  "fetchedAt": "2026-11-18T15:52:12.280Z"
+  "fetchedAt": "2026-11-18T15:52:12.280Z",
+  "brokerId": "ventura",
+  "brokerDisplay": "Ventura Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Ventura Securities published a result update on Apollo Hospitals Enterprise. Yield (%) 0.24 Shareholding (%) Sept 2026 Promoter 28.02 FIIs 43.19 DIIs Government 22.07 0.23 Public Others 6.49 0.00 TOTAL 100.0 Price chart 2000 7000 12000 17000 22000 27000 32000 500 2500 4500 6500 8500 10500 Close (",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Yield (%) 0.24 Shareholding (%) Sept 2026 Promoter 28.02 FIIs 43.19 DIIs Government 22.07 0.23 Public Others 6.49 0.00 TOTAL 100.0 Price chart 2000 7000 12000 17000 22000 27000 32000 500 2500 4500 6500 8500 10500 Close (",
+        "Yield (%) 0.24 Shareholding (%) Sept 2026 Promoter 28.02 FIIs 43.19 DIIs Government 22.07 0.23 Public Others 6.49 0.00 TOTAL 100.0 Price chart 2000 7000 12000 17000 22000 27000 32000 500 2500 4500 6500 8500 10500 Close (Unit Curr) Index Apollo Hospitals Enterprise Ltd reported 23% YoY growth in consolidated revenue to INR 7,615 cr in Q2 FY27."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Healthcare services revenue increased 23% to INR 3,900 cr, supported by 14% inpatient volume growth and occupancy of 73%.",
+        "Average revenue per patient increased 8% to INR 1,86,880, reflecting higher clinical complexity and improved utilisation.",
+        "Consolidated EBITDA increased 29% to INR 1,191 cr, with margin expanding to 15.6% from 14.9%."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(%) (%) INR Cr. 4 | P a g e ( 6 t h N o v 2 0 2 6 ) For any further query, please email us on research@venturasecurities.com Source: Ventura Research & Company updates Key Takeaways from the Conference Call: 1.",
+        "Expansion, Restructuring and Outlook: Apollo commissioned 520 beds against its planned addition of 1,395 census beds across FY26–FY27, with Gurugram scheduled for launch in Q3 FY27 and remaining capacity being operationalised progressively."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Consolidated EBITDA increased 29% to INR 1,191 cr, with margin expanding to 15.6% from 14.9%."
+      ]
+    }
+  ]
 }

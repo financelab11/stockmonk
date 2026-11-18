@@ -29,5 +29,46 @@
     ]
   },
   "blurb": "Reports based on technical analysis centre on studying charts of a stock's price movement and trading volume, as opposed to focusing on a company's fundamentals and as such, may not match with a report on a company's fun",
-  "fetchedAt": "2026-11-18T15:51:26.857Z"
+  "fetchedAt": "2026-11-18T15:51:26.857Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on Daily Fundamental View:November 11, 2026. Reports based on technical analysis centre on studying charts of a stock's price movement and trading volume, as opposed to focusing on a company's fundamentals and as such, may not match with a report on a company's fun",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Reports based on technical analysis centre on studying charts of a stock's price movement and trading volume, as opposed to focusing on a company's fundamentals and as such, may not match with a report on a company's fun",
+        "Reports based on technical analysis centre on studying charts of a stock's price movement and trading volume, as opposed to focusing on a company's fundamentals and as such, may not match with a report on a company's fundamentals."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Portfolio Management Team (PMS) takes its investment decisions independently of the PCG research, and accordingly, PMS may have positions contrary to the PCG research recommendation."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The Hang Seng and Shanghai fell 0.65% and 0.16%, respectively, while the Nikkei gained 0.72%. ⚫ Indian indices are expected to open in the green, with GIFT Nifty trading at 25,320, compared to Monday’s Nifty Futures close of 25,033. ⚫ U.S. markets closed lower yesterday after hotter-than-expected October inflation data heightened concerns over further monetary tightening.",
+        "Sentiment was further dampened after a key Federal Reserve official signalled the possibility of a 50-bps rate hike next month."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Portfolio Management Team (PMS) takes its investment decisions independently of the PCG research, and accordingly, PMS may have positions contrary to the PCG research recommendation."
+      ]
+    }
+  ]
 }

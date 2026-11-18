@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Yatharth Hospitals: Advent Partnership Powers Next Phase of Growth November 04, 2026 | CMP: INR 1,029 | Target Pri",
-  "fetchedAt": "2026-11-18T15:52:36.984Z"
+  "fetchedAt": "2026-11-18T15:52:36.984Z",
+  "brokerId": "choice",
+  "brokerDisplay": "Choice Broking",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 31% change"
+    ]
+  },
+  "execSummary": "Choice Broking published a stock note on Yatharth Hosp & TRA C S L. Target ₹1,350 (+31% vs ₹1,029). Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Yatharth Hospitals: Advent Partnership Powers Next Phase of Growth November 04, 2026 | CMP: INR 1,029 | Target Pri",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Yatharth Hospitals: Advent Partnership Powers Next Phase of Growth November 04, 2026 | CMP: INR 1,029 | Target Pri",
+        "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Yatharth Hospitals: Advent Partnership Powers Next Phase of Growth November 04, 2026 | CMP: INR 1,029 | Target Price: INR 1,350 Institutional Equities | Healthcare Change in Estimates Change in Target Price Change in Recommendation Change in CIE Estimates FY27E FY28E INR Bn New Old Dev."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Advent-funded acquisitions to scale the network to 7,000-8,000 beds: YATHARTH intends to deploy Advent's capital towards acquiring operational, EBITDA-positive established hospital chains with a focus on North India, particularly Uttar Pradesh, Haryana, Punjab and Delhi-NCR, while also evaluating opportunities in other attractive regions.",
+        "The company is specifically targeting assets with higher ARPOBs and a greater share of cash and private insurance patients than its current platform.",
+        "The management expects the investment to support an incremental addition of 2,000–3,000 beds, taking the total network towards 7000–8000 beds in the next 3–4 years."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹1,350 against a market price of ₹1,029 at the report date.",
+        "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Yatharth Hospitals: Advent Partnership Powers Next Phase of Growth November 04, 2026 | CMP: INR 1,029 | Target Price: INR 1,350 Institutional Equities | Healthcare Change in Estimates Change in Target Price Change in Recommendation Change in CIE Estimates FY27E FY28E INR Bn New Old Dev.",
+        "The company is specifically targeting assets with higher ARPOBs and a greater share of cash and private insurance patients than its current platform.",
+        "The company now aspires to build a 7,000–8,000-bed hospital network in the next 3–5 years as compared to its earlier target of 5,000 beds."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "We believe this acquisition-led approach will accelerate capacity expansion, deepen YATHARTH's presence across key markets and provide immediate revenue and EBITDA contribution, while enhancing capital deployment efficiency.",
+        "This Report does not take into account the specific investment objectives, financial situation, risk profile, or particular needs of any individual or class of investors and does not constitute a personal recommendation or investment advice."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The management expects the investment to support an incremental addition of 2,000–3,000 beds, taking the total network towards 7000–8000 beds in the next 3–4 years."
+      ]
+    }
+  ]
 }

@@ -30,5 +30,58 @@
     ]
   },
   "blurb": "Yet, EBITDA (up 28% YoY) matched our expectations, tracking strong margins, which were up 300bps YoY at 13.5% and were among the highest in over a decade.",
-  "fetchedAt": "2026-11-18T15:50:09.753Z"
+  "fetchedAt": "2026-11-18T15:50:09.753Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": "TITAGARH",
+  "market": "IN",
+  "sector": "Infrastructure, Rail & Cables",
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 31% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on TITAGARH RAIL SYSTEMS. Rating: BUY. Target ₹966 (+31% vs ₹737). Yet, EBITDA (up 28% YoY) matched our expectations, tracking strong margins, which were up 300bps YoY at 13.5% and were among the highest in over a decade.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Yet, EBITDA (up 28% YoY) matched our expectations, tracking strong margins, which were up 300bps YoY at 13.5% and were among the highest in over a decade.",
+        "Yet, EBITDA (up 28% YoY) matched our expectations, tracking strong margins, which were up 300bps YoY at 13.5% and were among the highest in over a decade."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Increased traction in sale of metro coaches (51 units vs. 30 in Q1FY27) and an unchanged guidance to deliver >200/275 such coaches in FY27/FY28 inspire confidence.",
+        "Also, the recent win of a large freight wagon order (4,955 units) from Indian Railways has increased visibility on the Freight segment (FRS).",
+        "While the prototype approval for the Vande Bharat (VB) train set has been pushed by a quarter (to Q4FY27), we continue to expect strong execution thereafter."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹966 against a market price of ₹737 at the report date.",
+        "Factoring in attractive valuations at CMP (post the recent correction in the stock price), we update TRSL to BUY (from ADD) (valuing it at an unchanged 35x H1FY29E EPS).",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The recipient should independently evaluate the investment risks.",
+        "None of the research recommendations promise or guarantee any assured, minimum or risk free return to the investors."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "While the prototype approval for the Vande Bharat (VB) train set has been pushed by a quarter (to Q4FY27), we continue to expect strong execution thereafter."
+      ]
+    }
+  ]
 }

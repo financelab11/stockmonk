@@ -28,5 +28,55 @@
     ]
   },
   "blurb": "HMN delivered a strong quarter, with revenue and EBITDA growing 36.2% and 24.5% YoY, respectively, while gross margins contracted 520bps, driven by elevated input costs and changing mix from acquired businesses.",
-  "fetchedAt": "2026-11-18T15:51:14.729Z"
+  "fetchedAt": "2026-11-18T15:51:14.729Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Emami. Rating: HOLD. Target ₹440. HMN delivered a strong quarter, with revenue and EBITDA growing 36.2% and 24.5% YoY, respectively, while gross margins contracted 520bps, driven by elevated input costs and changing mix from acquired businesses.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "HMN delivered a strong quarter, with revenue and EBITDA growing 36.2% and 24.5% YoY, respectively, while gross margins contracted 520bps, driven by elevated input costs and changing mix from acquired businesses.",
+        "HMN delivered a strong quarter, with revenue and EBITDA growing 36.2% and 24.5% YoY, respectively, while gross margins contracted 520bps, driven by elevated input costs and changing mix from acquired businesses."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Hair & Scalp Care and Skincare performed well, growing 30% and 31%, respectively, while OTC witnessed soft growth led by international supply chain issues.",
+        "Revenue grew by 36.2% and LTL volumes grew by 26%: Revenues grew by 36.2% YoY to Rs10.9bn (PLe: Rs9.902bn).",
+        "Gross margins contracted by 520bps YoY to 65.8% (Ple: 67.5%)."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "Target price ₹440.",
+        "Valuations remain comforting at 17.4x FY29E EPS, however, sustained execution remains key to driving further upside."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Valuations remain comforting at 17.4x FY29E EPS, however, sustained execution remains key to driving further upside."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Gross margins contracted by 520bps YoY to 65.8% (Ple: 67.5%)."
+      ]
+    }
+  ]
 }

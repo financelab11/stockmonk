@@ -31,5 +31,60 @@
     ]
   },
   "blurb": "Daily Volume (NSE) 89,710 Actual vs CIE Estimates INR Mn Q2FY27A CIE Est.",
-  "fetchedAt": "2026-11-18T15:52:43.151Z"
+  "fetchedAt": "2026-11-18T15:52:43.151Z",
+  "brokerId": "choice",
+  "brokerDisplay": "Choice Broking",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 60,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+12 positive corporate or estimate event",
+      "+8 target implies 25% change"
+    ]
+  },
+  "execSummary": "Choice Broking published a stock note on Centum Electronics. Rating: BUY. Target ₹5,150 (+25% vs ₹4,115). Daily Volume (NSE) 89,710 Actual vs CIE Estimates INR Mn Q2FY27A CIE Est.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Daily Volume (NSE) 89,710 Actual vs CIE Estimates INR Mn Q2FY27A CIE Est.",
+        "Daily Volume (NSE) 89,710 Actual vs CIE Estimates INR Mn Q2FY27A CIE Est."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "BSE200 34.2 1.9 -2.7 CTE 193.9 129.6 67.1 Accelerating Growth and Margin Upside Support Valuation Upgrade Centum Electronics (CTE) delivered a strong Q2FY27 performance, with revenue growing 59% YoY to INR 3,118 Mn and PAT increasing 52% YoY to INR 229 Mn.",
+        "Growth was driven by strong execution across both BTS and EMS businesses, while the order book grew 38% YoY to ~INR 2,000 Cr (2.1x of FY26 revenue), providing healthy revenue visibility.",
+        "We believe the BTS business is gaining traction, supported by repeat orders for tactical air navigation systems, satellite payload electronics and a ~INR 300 Mn export order for advanced electronic warfare subsystems."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹5,150 against a market price of ₹4,115 at the report date.",
+        "BSE200 34.2 1.9 -2.7 CTE 193.9 129.6 67.1 Accelerating Growth and Margin Upside Support Valuation Upgrade Centum Electronics (CTE) delivered a strong Q2FY27 performance, with revenue growing 59% YoY to INR 3,118 Mn and PAT increasing 52% YoY to INR 229 Mn.",
+        "View & Valuation: We remain constructive on Centum’s medium-term growth outlook, supported by a rising order book, a strong order pipeline and increasing traction across defence, space and semiconductor applications.",
+        "The management remains confident of sustaining 25–30% medium-term revenue growth, with EBITDA margin targeted at 12.5–13% and potential for further improvement over the coming years."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "View & Valuation: We remain constructive on Centum’s medium-term growth outlook, supported by a rising order book, a strong order pipeline and increasing traction across defence, space and semiconductor applications.",
+        "This Report does not take into account the specific investment objectives, financial situation, risk profile, or particular needs of any individual or class of investors and does not constitute a personal recommendation or investment advice."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "We believe the BTS business is gaining traction, supported by repeat orders for tactical air navigation systems, satellite payload electronics and a ~INR 300 Mn export order for advanced electronic warfare subsystems."
+      ]
+    }
+  ]
 }

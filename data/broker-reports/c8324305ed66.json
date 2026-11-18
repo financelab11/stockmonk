@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Per (%) -12/-26/-6 12M Avg Val (INR M) 2006 Financials & Valuations (INR b) Y/E MARCH 2026 2027E 2028E Sales 284 326 349 Adj EBITDA 90 109 121 Adj.",
-  "fetchedAt": "2026-11-18T15:51:04.434Z"
+  "fetchedAt": "2026-11-18T15:51:04.434Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on NMDC. Target ₹85 (+20% vs ₹71). Per (%) -12/-26/-6 12M Avg Val (INR M) 2006 Financials & Valuations (INR b) Y/E MARCH 2026 2027E 2028E Sales 284 326 349 Adj EBITDA 90 109 121 Adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Per (%) -12/-26/-6 12M Avg Val (INR M) 2006 Financials & Valuations (INR b) Y/E MARCH 2026 2027E 2028E Sales 284 326 349 Adj EBITDA 90 109 121 Adj.",
+        "Per (%) -12/-26/-6 12M Avg Val (INR M) 2006 Financials & Valuations (INR b) Y/E MARCH 2026 2027E 2028E Sales 284 326 349 Adj EBITDA 90 109 121 Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "(INR) 39 46 54 Ratios Net D:E -0.2 -0.2 -0.2 RoE (%) 22.6 23.1 21.4 RoCE (%) 26.0 26.4 25.1 Payout (%) 41.5 29.0 26.6 Valuations P/E (x) 8.7 7.3 6.7 P/BV (x) 1.8 1.6 1.3 EV/EBITDA(x) 6.3 4.9 4.4 Div.",
+        "NSR stood at INR6,042/t (+2% YoY), while blended iron ore ASP grew by 11% YoY to INR5,740/t in 1H.  In 1H, revenue stood INR134b (+2% YoY), while EBITDA saw a marginal dip of 1% YoY to INR44b, translating into EBITDA/t of INR1,640 (flat YoY). 1H PAT was flat YoY at INR36.5b.",
+        "Valuation and view  NMDC reported decent earnings during the quarter, as healthy ASP offset muted QoQ volume during the quarter."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹85 against a market price of ₹71 at the report date.",
+        "Per (%) -12/-26/-6 12M Avg Val (INR M) 2006 Financials & Valuations (INR b) Y/E MARCH 2026 2027E 2028E Sales 284 326 349 Adj EBITDA 90 109 121 Adj.",
+        "(INR) 39 46 54 Ratios Net D:E -0.2 -0.2 -0.2 RoE (%) 22.6 23.1 21.4 RoCE (%) 26.0 26.4 25.1 Payout (%) 41.5 29.0 26.6 Valuations P/E (x) 8.7 7.3 6.7 P/BV (x) 1.8 1.6 1.3 EV/EBITDA(x) 6.3 4.9 4.4 Div.",
+        "Valuation and view  NMDC reported decent earnings during the quarter, as healthy ASP offset muted QoQ volume during the quarter."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Each recipient of this document should make such investigations as it deems necessary to arrive at an independent evaluation of an investment in the securities of companies referred to in this document (including the merits and risks involved), and should consult its own advisors to determine the merits and risks of such an investment.",
+        "Certain transactions -including those involving futures, options, another derivative products as well as non-investment grade securities - involve substantial risk and are not suitable for all investors."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Valuation and view  NMDC reported decent earnings during the quarter, as healthy ASP offset muted QoQ volume during the quarter."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "EBITDA margin remained higher than guidance, at 37.9% (+180bps YoY).",
-  "fetchedAt": "2026-11-18T15:52:00.090Z"
+  "fetchedAt": "2026-11-18T15:52:00.090Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 28% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Azad Engineering. Rating: BUY. Target ₹3,100 (+28% vs ₹2,423). EBITDA margin remained higher than guidance, at 37.9% (+180bps YoY).",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "EBITDA margin remained higher than guidance, at 37.9% (+180bps YoY).",
+        "EBITDA margin remained higher than guidance, at 37.9% (+180bps YoY)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "However, PAT underperformed on higher interest and depreciations, as 6 out of 7 units were completed.",
+        "With majority of the capacity commissioned, Azad could see meaningful ramp-up over the next 12–15 months, with FY28-exit revenue run-rate likely at INR 13bn (almost 70% higher vs. 2Q revenue rate).",
+        "If successful, this would be an added revenue stream (not factored in)."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹3,100 against a market price of ₹2,423 at the report date.",
+        "We maintain BUY while upgrading our multiple to 60x FY29E EPS (from 55x); thus, deriving at a target price of INR 3,100 (previously at INR 3,200).",
+        "Azad Engineering | Results Update | 08 August 2026 India | Institutional Equity Research 3 • Management is targeting annual revenue run-rate of INR 13,000mn+ by end-FY28. • Management has reiterated its long-term growth guidance of 25%+ • Management expects FY24-level cost structure ratios to be restored by FY28.",
+        "Capacity and expansion • All six customer-dedicated facilities have now been commissioned – across MHI, GE Vernova, Siemens Energy and Baker Hughes. • Setup phase described as fully complete (vs. 80% stabilised in Q1FY27) with capital deployed, manpower hired, raw material/tooling in place, lines production- ready. • Multiple delta qualifications running concurrently across new facilities."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The recipient should independently evaluate the investment risks.",
+        "None of the research recommendations promise or guarantee any assured, minimum or risk free return to the investors."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "If successful, this would be an added revenue stream (not factored in)."
+      ]
+    }
+  ]
 }

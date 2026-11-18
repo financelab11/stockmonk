@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Gross margins improved by 256 bps YoY (+227 bps QoQ) to 28.7% in Q2FY27, supported by a richer mix from higher passenger rail system contribution and price variation clauses protecting project-level realizations.",
-  "fetchedAt": "2026-11-18T15:50:10.364Z"
+  "fetchedAt": "2026-11-18T15:50:10.364Z",
+  "brokerId": "arihant",
+  "brokerDisplay": "Arihant Capital",
+  "ticker": "TITAGARH",
+  "market": "IN",
+  "sector": "Infrastructure, Rail & Cables",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Arihant Capital published a stock note on Titagarh Rail Systems. Gross margins improved by 256 bps YoY (+227 bps QoQ) to 28.7% in Q2FY27, supported by a richer mix from higher passenger rail system contribution and price variation clauses protecting project-level realizations.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Gross margins improved by 256 bps YoY (+227 bps QoQ) to 28.7% in Q2FY27, supported by a richer mix from higher passenger rail system contribution and price variation clauses protecting project-level realizations.",
+        "Gross margins improved by 256 bps YoY (+227 bps QoQ) to 28.7% in Q2FY27, supported by a richer mix from higher passenger rail system contribution and price variation clauses protecting project-level realizations."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA stood at INR 1,069mn (+27.9% YoY/+12.7% QoQ), above our estimates of INR 936mn.",
+        "EBITDA margin improved by 303bps YoY (+109 bps QoQ) to 13.5% in Q2FY27, supported by operating leverage from the passenger ramp and lower drag from freight volumes.",
+        "PAT stood at INR 632mn (+70.7% YoY/+20.2% QoQ), above our estimates of INR 560mn."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Highlights Structural mix shift toward Passenger Rail with visible growth runway: Titagarh is transitioning from a freight-led franchise to a balanced passenger-plus-freight platform.",
+        "Freight stabilization and de-risked execution: The Indian Railways option quantity order restores wagon visibility for 3-4 quarters and into FY28E, underpinning a return to ~1,000 wagons per month by Q4FY27E and supporting a ~INR 286.95bn order book."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "PAT stood at INR 632mn (+70.7% YoY/+20.2% QoQ), above our estimates of INR 560mn."
+      ]
+    }
+  ]
 }

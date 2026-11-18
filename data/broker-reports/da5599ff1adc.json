@@ -28,5 +28,47 @@
     ]
   },
   "blurb": "PAT attributable to owners was INR 2,758 crore (+22.9%), with growth at 22% after adjusting for MTM.",
-  "fetchedAt": "2026-11-18T15:53:03.551Z"
+  "fetchedAt": "2026-11-18T15:53:03.551Z",
+  "brokerId": "ventura",
+  "brokerDisplay": "Ventura Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Ventura Securities published a result update on Bajaj Finserv. PAT attributable to owners was INR 2,758 crore (+22.9%), with growth at 22% after adjusting for MTM.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "PAT attributable to owners was INR 2,758 crore (+22.9%), with growth at 22% after adjusting for MTM.",
+        "PAT attributable to owners was INR 2,758 crore (+22.9%), with growth at 22% after adjusting for MTM."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Unlike Q1, the headline growth was not flattered by MTM, as both insurers booked unrealized losses on equity.",
+        "Bajaj Finance (BFL): PAT rose 28.5% to INR 6,267 crore, and net total income grew 23.0% to INR 15,974 crore.",
+        "PAT growth before the INR 337 crore prudent management and macro-economic provision was 33.8%."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "And such person shall be responsible for conducting his/her/their own investigation and analysis of the information contained or referred to in this document and of evaluating the merits and risks involved in the securities forming the subject matter of this document."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "PAT growth before the INR 337 crore prudent management and macro-economic provision was 33.8%."
+      ]
+    }
+  ]
 }

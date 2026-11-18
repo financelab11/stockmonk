@@ -30,5 +30,57 @@
     ]
   },
   "blurb": "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate Accumulate Target Price 1,554 1,472 Sales (INR mn) 317,996 366,604 312,123 360,621 % Chng. 1.9 1.7 EBITDA (INR mn) 28,779 33,911 29,183 34,07",
-  "fetchedAt": "2026-11-18T15:51:17.511Z"
+  "fetchedAt": "2026-11-18T15:51:17.511Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": "KPIL",
+  "market": "IN",
+  "sector": "Power & Renewables",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Kalpataru Projects International. Rating: ACCUMULATE. Target ₹1,554. Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate Accumulate Target Price 1,554 1,472 Sales (INR mn) 317,996 366,604 312,123 360,621 % Chng. 1.9 1.7 EBITDA (INR mn) 28,779 33,911 29,183 34,07",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate Accumulate Target Price 1,554 1,472 Sales (INR mn) 317,996 366,604 312,123 360,621 % Chng. 1.9 1.7 EBITDA (INR mn) 28,779 33,911 29,183 34,07",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate Accumulate Target Price 1,554 1,472 Sales (INR mn) 317,996 366,604 312,123 360,621 % Chng. 1.9 1.7 EBITDA (INR mn) 28,779 33,911 29,183 34,079 % Chng."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "YTD order inflows surged ~60% YoY to ~INR240bn, with an additional ~INR50bn of projects where the company is favorably placed, prompting management to upgrade FY27 order inflow guidance to INR350-360bn from INR300bn.",
+        "The order book stood at a INR718.5bn, providing healthy growth visibility, while FY27 revenue growth guidance of ~15% was reiterated.",
+        "T&D, B&F and Oil & Gas remain key growth engines, supported by a robust transmission pipeline, strong traction in residential and industrial EPC, and international gas infrastructure opportunities."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: ACCUMULATE.",
+        "Target price ₹1,554.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate Accumulate Target Price 1,554 1,472 Sales (INR mn) 317,996 366,604 312,123 360,621 % Chng. 1.9 1.7 EBITDA (INR mn) 28,779 33,911 29,183 34,079 % Chng.",
+        "Management targets consolidated NWC of ~65–68 days by FY27-end."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(1.4) (0.5) EPS (INR) 87.7 107.0 87.7 107.3 % Chng. - (0.3) Key Data KAPT.BO | KPIL IN BSE Code 522287 NSE Code KPIL 52-W High / Low INR 1,499 / INR 1,007 Face Value 2 Sensex / Nifty 81,028 / 25,030 Market Cap INR 233 bn / $ 2,485 mn Shares Outstanding 170.77 mn 3M Avg.",
+        "T&D, B&F and Oil & Gas remain key growth engines, supported by a robust transmission pipeline, strong traction in residential and industrial EPC, and international gas infrastructure opportunities."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "T&D, B&F and Oil & Gas remain key growth engines, supported by a robust transmission pipeline, strong traction in residential and industrial EPC, and international gas infrastructure opportunities."
+      ]
+    }
+  ]
 }

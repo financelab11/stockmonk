@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Data centres are emerging as a key growth area, with the newly launched Grid-to-Rack offering providing an integrated portfolio of transformers, GIS, automation and substations.",
-  "fetchedAt": "2026-11-18T15:49:38.669Z"
+  "fetchedAt": "2026-11-18T15:49:38.669Z",
+  "brokerId": "way2wealth",
+  "brokerDisplay": "Way2Wealth",
+  "ticker": "POWERINDIA",
+  "market": "IN",
+  "sector": "Power & Renewables",
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Way2Wealth published a result update on Hitachi Energy India. Data centres are emerging as a key growth area, with the newly launched Grid-to-Rack offering providing an integrated portfolio of transformers, GIS, automation and substations.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Data centres are emerging as a key growth area, with the newly launched Grid-to-Rack offering providing an integrated portfolio of transformers, GIS, automation and substations.",
+        "Data centres are emerging as a key growth area, with the newly launched Grid-to-Rack offering providing an integrated portfolio of transformers, GIS, automation and substations."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Management also expects continued traction in services and exports, with service order intake growing 77% YoY and export order intake increasing 41% YoY in Q2FY27.",
+        "Ongoing capacity expansion across transformers, high-voltage equipment, automation and HVDC is expected to support future growth, with most projects targeted for completion by the end of next year and the large power transformer facility planned for 2028.",
+        "Management remains focused on profitable growth, execution, productivity and quality, while monitoring working capital requirements, West Asia-related uncertainty and elevated commodity prices."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Data centres are emerging as a key growth area, with the newly launched Grid-to-Rack offering providing an integrated portfolio of transformers, GIS, automation and substations.",
+        "Management remains focused on profitable growth, execution, productivity and quality, while monitoring working capital requirements, West Asia-related uncertainty and elevated commodity prices."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management remains focused on profitable growth, execution, productivity and quality, while monitoring working capital requirements, West Asia-related uncertainty and elevated commodity prices."
+      ]
+    }
+  ]
 }

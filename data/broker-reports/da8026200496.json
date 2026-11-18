@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Result Update | Sector: Real Estate Ancillary SBICAP Securities Limited | 2 Key highlights of 2QFY27 result Healthy 2QFY27 volume-led growth despite temporary margin headwinds: Carysil delivered a decent 2QFY27 performan",
-  "fetchedAt": "2026-11-18T15:51:35.359Z"
+  "fetchedAt": "2026-11-18T15:51:35.359Z",
+  "brokerId": "sbi-securities",
+  "brokerDisplay": "SBI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "SBI Securities published a result update on Carysil. Result Update | Sector: Real Estate Ancillary SBICAP Securities Limited | 2 Key highlights of 2QFY27 result Healthy 2QFY27 volume-led growth despite temporary margin headwinds: Carysil delivered a decent 2QFY27 performan",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Result Update | Sector: Real Estate Ancillary SBICAP Securities Limited | 2 Key highlights of 2QFY27 result Healthy 2QFY27 volume-led growth despite temporary margin headwinds: Carysil delivered a decent 2QFY27 performan",
+        "Result Update | Sector: Real Estate Ancillary SBICAP Securities Limited | 2 Key highlights of 2QFY27 result Healthy 2QFY27 volume-led growth despite temporary margin headwinds: Carysil delivered a decent 2QFY27 performance with revenue growth of 14.6% YoY at Rs 276 cr driven by robust demand across quartz and stainless-steel sinks."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA/PAT grew 12.3%/5.8% YoY to Rs 52 cr/Rs 29 cr respectively.",
+        "EBITDA margin declined 38 bps YoY to 18.8% due to elevated employee and freight costs.",
+        "Quartz sink/stainless-steel sink/faucet volumes grew 9.9%/7.8%/8.0% YoY to 2,17,000/47,000/10,000 units respectively while kitchen appliances & others volumes remained broadly flat YoY at 11,000 units."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Result Update | Sector: Real Estate Ancillary SBICAP Securities Limited | 2 Key highlights of 2QFY27 result Healthy 2QFY27 volume-led growth despite temporary margin headwinds: Carysil delivered a decent 2QFY27 performance with revenue growth of 14.6% YoY at Rs 276 cr driven by robust demand across quartz and stainless-steel sinks.",
+        "Export revenue grew 13.1% YoY to Rs 218 cr driven by healthy demand across key international markets and continued traction from strategic customers including IKEA, Home Depot, Lowe's and Hafele."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Quartz sink/stainless-steel sink/faucet volumes grew 9.9%/7.8%/8.0% YoY to 2,17,000/47,000/10,000 units respectively while kitchen appliances & others volumes remained broadly flat YoY at 11,000 units."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,53 @@
     ]
   },
   "blurb": "Per (%) -8/-11/23 12M Avg Val (INR M) 5572 Free float (%) 65.3 Financials & Valuations (INR b) Y/E MARCH 2026 2027E 2028E Sales 2,749 3,522 3,336 EBITDA 349 509 442 Adj.",
-  "fetchedAt": "2026-11-18T15:52:05.632Z"
+  "fetchedAt": "2026-11-18T15:52:05.632Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 60,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+12 positive corporate or estimate event",
+      "+8 target implies 23% change"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on Hindalco Industries. Target ₹1,180 (+23% vs ₹958). Per (%) -8/-11/23 12M Avg Val (INR M) 5572 Free float (%) 65.3 Financials & Valuations (INR b) Y/E MARCH 2026 2027E 2028E Sales 2,749 3,522 3,336 EBITDA 349 509 442 Adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Per (%) -8/-11/23 12M Avg Val (INR M) 5572 Free float (%) 65.3 Financials & Valuations (INR b) Y/E MARCH 2026 2027E 2028E Sales 2,749 3,522 3,336 EBITDA 349 509 442 Adj.",
+        "Per (%) -8/-11/23 12M Avg Val (INR M) 5572 Free float (%) 65.3 Financials & Valuations (INR b) Y/E MARCH 2026 2027E 2028E Sales 2,749 3,522 3,336 EBITDA 349 509 442 Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "(INR) 482 603 705 Ratios Net D:E 0.7 0.5 0.3 RoE (%) 18.2 24.9 16.7 RoCE (%) 13.4 18.0 13.3 Payout (%) 6.0 5.9 6.4 Valuations P/E (x) 11.5 7.1 8.8 P/BV (x) 2.0 1.6 1.4 EV/EBITDA(x) 8.2 5.4 5.7 Div.",
+        "The growth was supported by favorable aluminum macros, higher premiums, and value-added products.  Consolidated EBITDA stood at INR128b (against our estimate of INR113b), up 43% YoY but down 8% QoQ due to higher coal and CP Coke costs, which were partially offset by a rise in sulfuric-acid prices.  APAT came in at INR73b against our estimate of INR65b (+50% YoY and - 16% QoQ) in 2QFY27.",
+        "Aluminum business  Upstream revenue stood at INR134b in 2QFY27 (+33% YoY) and EBITDA stood at INR70b (+55% YoY; USD2,125/t) supported by favorable aluminum macros, higher premiums, and value-added upstream products.  Downstream revenue stood at INR55b (+45% YoY), whereas downstream EBITDA stood at INR3.3b (+26% YoY), supported by favorable product mix, premiumization and higher shipments."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹1,180 against a market price of ₹958 at the report date.",
+        "Per (%) -8/-11/23 12M Avg Val (INR M) 5572 Free float (%) 65.3 Financials & Valuations (INR b) Y/E MARCH 2026 2027E 2028E Sales 2,749 3,522 3,336 EBITDA 349 509 442 Adj.",
+        "(INR) 482 603 705 Ratios Net D:E 0.7 0.5 0.3 RoE (%) 18.2 24.9 16.7 RoCE (%) 13.4 18.0 13.3 Payout (%) 6.0 5.9 6.4 Valuations P/E (x) 11.5 7.1 8.8 P/BV (x) 2.0 1.6 1.4 EV/EBITDA(x) 8.2 5.4 5.7 Div.",
+        "However, the strong volume outlook in 2H will support earnings against price moderation.  We increase our FY27 revenue/EBITDA/PAT estimates by +5%, factoring in the strong 2Q earnings beat, led by high premiums and by-product realization.  At CMP, the stock trades at 5.7x EV/EBITDA and 1.4x P/B on FY28E."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "However, the strong volume outlook in 2H will support earnings against price moderation.  We increase our FY27 revenue/EBITDA/PAT estimates by +5%, factoring in the strong 2Q earnings beat, led by high premiums and by-product realization.  At CMP, the stock trades at 5.7x EV/EBITDA and 1.4x P/B on FY28E.",
+        "The outlook remains dependent on Middle East supply normalization and incremental capacity of ~1.5mt from Indonesia.  Industry consensus indicates LME aluminum prices of USD2,600-2,800/t for next year, although geopolitical developments could materially alter the supply- demand balance.  Management is evaluating new upstream capex over LME assumption of ~USD2,600/t, targeting project IRRs in mid-teens."
+      ]
+    }
+  ]
 }

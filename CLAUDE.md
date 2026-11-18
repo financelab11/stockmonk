@@ -116,8 +116,24 @@ JBCHEPHARM has no current Yahoo quote, and ten MSM (Oman) names plus TAQA only
 get weekly/irregular history from StockAnalysis. These dates are last-traded,
 not failed refreshes.
 
-## Research report freshness
+## Newsfeed and broker research
 
+- `pnpm ingest:brokers` discovers Indian broker stock notes, downloads the
+  original PDFs, extracts text and stores summaries under `data/broker-reports/`.
+  `pnpm enrich:brokers` adds company matching, materiality and both summary
+  levels without refetching. `pnpm fetch:broker-logos` downloads brand icons
+  into `public/brokers/`; missing icons fall back to initials.
+- `lib/news-feed.ts` unifies broker notes and dataset items for the Newsfeed;
+  `lib/materiality.ts` scores significance (never price direction);
+  `lib/estimate-revisions.ts` compares each broker with its own prior note.
+- The Newsfeed defaults to India, supports category and market views, search,
+  broker/sector/ticker/materiality filters, server-side pagination and a
+  dedicated `/newsfeed/revisions` view. Cards use native `<details>` for
+  independent expand/collapse.
+- Broker ratings and targets remain the institutions'; Stockmonk never
+  republishes them as its own recommendation.
+
+## Research report freshness
 - `pnpm audit:stories` compares every story's newest quarter and explicit price
   with the dataset; it exits non-zero when a report is behind.
 - `pnpm refresh:stories` regenerates the data-driven sections (takeaways,

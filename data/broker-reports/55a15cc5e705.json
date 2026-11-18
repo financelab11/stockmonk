@@ -30,5 +30,58 @@
     ]
   },
   "blurb": "Revenue stood at INR 8.2 Bn, Growing 34.7% QoQ and 38.1% YoY (6.2% above our estimates).",
-  "fetchedAt": "2026-11-18T15:53:30.005Z"
+  "fetchedAt": "2026-11-18T15:53:30.005Z",
+  "brokerId": "arihant",
+  "brokerDisplay": "Arihant Capital",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 39% change"
+    ]
+  },
+  "execSummary": "Arihant Capital published a stock note on Prince Pipes & Fittings. Rating: BUY. Target ₹415 (+39% vs ₹298). Revenue stood at INR 8.2 Bn, Growing 34.7% QoQ and 38.1% YoY (6.2% above our estimates).",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Revenue stood at INR 8.2 Bn, Growing 34.7% QoQ and 38.1% YoY (6.2% above our estimates).",
+        "Revenue stood at INR 8.2 Bn, Growing 34.7% QoQ and 38.1% YoY (6.2% above our estimates)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Gross margin expanded to 29.3%, compared with 33.9% in Q1FY27 and 28.26% in Q2FY26 (vs. our estimate of 28.5%).",
+        "EBITDA came in at INR 1,005 Mn, up 30.3% QoQ and 82.4% YoY (8.3% above our estimates).",
+        "EBITDA margin stood at 12.24%, compared with 12.7% in Q1FY27 and 9.27% in Q2FY26 (vs. our estimate of 12%)."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹415 against a market price of ₹298 at the report date.",
+        "We maintain our BUY rating and revise our target price to INR 415.",
+        "CapEx, Working Capital & Other Updates • Working capital efficiency has improved through tighter credit controls, with receivable days targeted at 35-40 days and inventory days at 70-80 days. • Installed manufacturing capacity currently stands at approximately 435,000 MTPA, with focus on improving utilisation before major expansion. • FY27 CapEx is estimated at INR 2 Bn, while FY28 CapEx is expected at INR 1-1.2 Bn."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Outlook: Prince Pipes is well-positioned to sustain healthy growth, supported by market share gains, distribution expansion and increasing contribution from value-added products.",
+        "Analyst Outlook Prince Pipes is expected to sustain healthy volume growth, supported by improving channel restocking, distribution expansion and market share gains amid industry consolidation."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "EBITDA margin stood at 12.24%, compared with 12.7% in Q1FY27 and 9.27% in Q2FY26 (vs. our estimate of 12%)."
+      ]
+    }
+  ]
 }

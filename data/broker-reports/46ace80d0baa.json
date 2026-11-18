@@ -30,5 +30,56 @@
     ]
   },
   "blurb": "The 13% tonnage growth in Q2 and 16% revenue growth are particularly encouraging.",
-  "fetchedAt": "2026-11-18T15:52:04.008Z"
+  "fetchedAt": "2026-11-18T15:52:04.008Z",
+  "brokerId": "hdfc-securities",
+  "brokerDisplay": "HDFC Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "HDFC Securities published a stock note on Britannia Industries. Rating: BUY. The 13% tonnage growth in Q2 and 16% revenue growth are particularly encouraging.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "The 13% tonnage growth in Q2 and 16% revenue growth are particularly encouraging.",
+        "The 13% tonnage growth in Q2 and 16% revenue growth are particularly encouraging."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Growth trends across channels and states continue to improve, translating into sequential market share gains.",
+        "EBITDA margin, at 18.3%, saw 150bps contraction, driven by GM pressure of 200bps.",
+        "Management noted that inflationary pressures remain elevated in the near term."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "07 November 2026 Q2FY27 Results Review Britannia Industries HSIE Research is also available on Bloomberg ERH HDF <GO> & Thomson Reuters Holding on to topline acceleration key We maintain BUY on Britannia, with a Sep‑27 TP of INR6,000, based on 45x P/E (~10%/5% discount to its 5‑/10Y avg fwd P/E).",
+        "PAT of INR7.2bn grew 10% YoY, in line with expectations, led by higher non‑operating income (+23% YoY). ▪ Addressing business needs with improved execution; stability in performance key: Britannia appears to have moved past its rough patch, with the new leadership strengthening the execution engine and sharpening focus on reigniting growth across multiple levers."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "07 November 2026 Q2FY27 Results Review Britannia Industries HSIE Research is also available on Bloomberg ERH HDF <GO> & Thomson Reuters Holding on to topline acceleration key We maintain BUY on Britannia, with a Sep‑27 TP of INR6,000, based on 45x P/E (~10%/5% discount to its 5‑/10Y avg fwd P/E).",
+        "Looking ahead, management highlighted three key priorities: strengthening the core franchise, building high‑margin and agile adjacencies, and diversifying into future‑ready portfolios."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management noted that inflationary pressures remain elevated in the near term."
+      ]
+    }
+  ]
 }

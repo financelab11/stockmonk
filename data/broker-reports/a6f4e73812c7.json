@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Result Update | Sector: Cement SBICAP Securities Limited | 2 Key highlights of 2QFY27 result Muted 2QFY27 performance impacted by monsoon disruptions and weak realizations: Star Cement (SCL) reported muted revenue growth",
-  "fetchedAt": "2026-11-18T15:50:42.874Z"
+  "fetchedAt": "2026-11-18T15:50:42.874Z",
+  "brokerId": "sbi-securities",
+  "brokerDisplay": "SBI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "SBI Securities published a result update on Star Cement. Result Update | Sector: Cement SBICAP Securities Limited | 2 Key highlights of 2QFY27 result Muted 2QFY27 performance impacted by monsoon disruptions and weak realizations: Star Cement (SCL) reported muted revenue growth",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Result Update | Sector: Cement SBICAP Securities Limited | 2 Key highlights of 2QFY27 result Muted 2QFY27 performance impacted by monsoon disruptions and weak realizations: Star Cement (SCL) reported muted revenue growth",
+        "Result Update | Sector: Cement SBICAP Securities Limited | 2 Key highlights of 2QFY27 result Muted 2QFY27 performance impacted by monsoon disruptions and weak realizations: Star Cement (SCL) reported muted revenue growth of 2.5% YoY during the quarter due to soft pricing environment and a mere 2.0% volume growth (cement+clinker), although cement sales volume grew 4.8% YoY to 1.1 mn tonnes."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Northeast (NE) cement volumes grew 4.2% YoY to 0.8 mn tonnes while sales outside NE grew better by 5.8% YoY to 0.3 mn tonnes.",
+        "On the profitability front, EBITDA dropped 19.3% YoY due to lower government subsidy accruals following the GST rate cut, softer monsoon realizations and elevated fuel costs.",
+        "PAT decline was steeper at 44.3% YoY, dragged by higher interest cost (up 37.5% YoY)."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Result Update | Sector: Cement SBICAP Securities Limited | 2 Key highlights of 2QFY27 result Muted 2QFY27 performance impacted by monsoon disruptions and weak realizations: Star Cement (SCL) reported muted revenue growth of 2.5% YoY during the quarter due to soft pricing environment and a mere 2.0% volume growth (cement+clinker), although cement sales volume grew 4.8% YoY to 1.1 mn tonnes.",
+        "Near-term Outlook: Management expects a strong pent-up demand in 2HFY27, targeting 12%-13% YoY volume growth across 3Q and 4Q."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "PAT decline was steeper at 44.3% YoY, dragged by higher interest cost (up 37.5% YoY)."
+      ]
+    }
+  ]
 }

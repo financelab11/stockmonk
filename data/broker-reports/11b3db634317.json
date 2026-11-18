@@ -30,5 +30,56 @@
     ]
   },
   "blurb": "Key Points  2QFY27 operating performance came better than our estimates on account of strong RevPAR growth of the Oberoi brand (RevPAR 21% YoY).",
-  "fetchedAt": "2026-11-18T15:50:01.233Z"
+  "fetchedAt": "2026-11-18T15:50:01.233Z",
+  "brokerId": "nirmal-bang",
+  "brokerDisplay": "Nirmal Bang",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Nirmal Bang published a stock note on EIH. Rating: HOLD. Key Points  2QFY27 operating performance came better than our estimates on account of strong RevPAR growth of the Oberoi brand (RevPAR 21% YoY).",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Key Points  2QFY27 operating performance came better than our estimates on account of strong RevPAR growth of the Oberoi brand (RevPAR 21% YoY).",
+        "Key Points  2QFY27 operating performance came better than our estimates on account of strong RevPAR growth of the Oberoi brand (RevPAR 21% YoY)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Ongoing renovations in Mumbai properties impacted occupancy (71% from owned properties vis-à-vis 74% in CPLY) during the quarter.",
+        "Trident Tirupati commissioning timeline has been shifted to CY2030 as the State Government has allotted an alternative parcel of land where EIH is planning to increase the key count further.",
+        "After earnings revision, we downgrade EIH to HOLD on account of continued delays in upcoming projects and growth being largely back-ended."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "The valuation discount compared to peers in the luxury category is on account of the patchy growth trajectory, project delays and back ended growth based on the pipeline. 2QFY27 performance update: EIH’s consolidated revenue grew ~16% YoY supported by ~22% RevPAR growth of the Owned hotels portfolio.",
+        "Groundbreaking is expected in early CY27.  Oberoi Grand, Kolkata: The heritage restoration is underway, with reopening targeted for Sep’28."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Points  2QFY27 operating performance came better than our estimates on account of strong RevPAR growth of the Oberoi brand (RevPAR 21% YoY).",
+        "Trident Tirupati commissioning timeline has been shifted to CY2030 as the State Government has allotted an alternative parcel of land where EIH is planning to increase the key count further."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "After earnings revision, we downgrade EIH to HOLD on account of continued delays in upcoming projects and growth being largely back-ended."
+      ]
+    }
+  ]
 }

@@ -30,5 +30,58 @@
     ]
   },
   "blurb": "Inox Green’s O&M portfolio stood at 12.5GWp, as it discontinued some solar contracts because of lower margins.",
-  "fetchedAt": "2026-11-18T15:50:04.612Z"
+  "fetchedAt": "2026-11-18T15:50:04.612Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": "INOXWIND",
+  "market": "IN",
+  "sector": "Power & Renewables",
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 33% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Inox Wind. Rating: BUY. Target ₹85 (+33% vs ₹64). Inox Green’s O&M portfolio stood at 12.5GWp, as it discontinued some solar contracts because of lower margins.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Inox Green’s O&M portfolio stood at 12.5GWp, as it discontinued some solar contracts because of lower margins.",
+        "Inox Green’s O&M portfolio stood at 12.5GWp, as it discontinued some solar contracts because of lower margins."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Management highlighted a strong pipeline of 5GW over the next 4-5 months.",
+        "INXW also stands to benefit from orders from Inox Clean (group company).",
+        "However, it reported a soft quarter, with EBITDA margin contracting 520bps YoY to 15.1% because of raw material inflation, resulting in EBITDA of INR 2bn (-10% YoY) and PAT of INR 0.7bn (-43% YoY)."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹85 against a market price of ₹64 at the report date.",
+        "We maintain our BUY rating on the stock with an SoTP-based revised target price of INR 85/share (vs.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key risks: 1) slowdown in order inflow; 2) slowdown in RE project bidding; and 3) further increase in receivables.",
+        "The recipient should independently evaluate the investment risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "However, it reported a soft quarter, with EBITDA margin contracting 520bps YoY to 15.1% because of raw material inflation, resulting in EBITDA of INR 2bn (-10% YoY) and PAT of INR 0.7bn (-43% YoY)."
+      ]
+    }
+  ]
 }

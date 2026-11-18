@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "(%) 13.0 18.5 54.4 30.8 DPS (INR) 3.5 2.3 2.9 3.5 Yield (%) 0.5 0.3 0.4 0.5 RoE (%) 9.7 11.3 15.1 17.4 RoCE (%) 13.8 19.0 18.8 21.7 EV/Sales (x) 8.2 7.0 5.1 4.2 EV/EBITDA (x) 42.1 31.3 22.1 17.7 PE (x) 90.5 76.4 49.4 37.",
-  "fetchedAt": "2026-11-18T15:51:10.137Z"
+  "fetchedAt": "2026-11-18T15:51:10.137Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+12 positive corporate or estimate event"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Aster DM Quality Care. Rating: BUY. (%) 13.0 18.5 54.4 30.8 DPS (INR) 3.5 2.3 2.9 3.5 Yield (%) 0.5 0.3 0.4 0.5 RoE (%) 9.7 11.3 15.1 17.4 RoCE (%) 13.8 19.0 18.8 21.7 EV/Sales (x) 8.2 7.0 5.1 4.2 EV/EBITDA (x) 42.1 31.3 22.1 17.7 PE (x) 90.5 76.4 49.4 37.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(%) 13.0 18.5 54.4 30.8 DPS (INR) 3.5 2.3 2.9 3.5 Yield (%) 0.5 0.3 0.4 0.5 RoE (%) 9.7 11.3 15.1 17.4 RoCE (%) 13.8 19.0 18.8 21.7 EV/Sales (x) 8.2 7.0 5.1 4.2 EV/EBITDA (x) 42.1 31.3 22.1 17.7 PE (x) 90.5 76.4 49.4 37.",
+        "(%) 13.0 18.5 54.4 30.8 DPS (INR) 3.5 2.3 2.9 3.5 Yield (%) 0.5 0.3 0.4 0.5 RoE (%) 9.7 11.3 15.1 17.4 RoCE (%) 13.8 19.0 18.8 21.7 EV/Sales (x) 8.2 7.0 5.1 4.2 EV/EBITDA (x) 42.1 31.3 22.1 17.7 PE (x) 90.5 76.4 49.4 37.8 P/BV (x) 8.5 8.0 7.1 6.2 Merger synergies on track Result Report 6.6bn, 5% above our estimates; aided by strong performance across clusters."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The QCIL ASTER DM Healthcare’s (ASTERDM) Q2 consolidated EBITDA grew 27% YoY to INR 6.6bn, 5% above our estimates; aided by strong performance across clusters.",
+        "The QCIL ramp up has been on track with strong YoY EBITDA growth for H1.",
+        "ASTERDM completed its merger with Quality Care (QCIL), effective from Q2FY27, making it the third largest healthcare chain by revenue and bed capacity in India."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "(%) 13.0 18.5 54.4 30.8 DPS (INR) 3.5 2.3 2.9 3.5 Yield (%) 0.5 0.3 0.4 0.5 RoE (%) 9.7 11.3 15.1 17.4 RoCE (%) 13.8 19.0 18.8 21.7 EV/Sales (x) 8.2 7.0 5.1 4.2 EV/EBITDA (x) 42.1 31.3 22.1 17.7 PE (x) 90.5 76.4 49.4 37.8 P/BV (x) 8.5 8.0 7.1 6.2 Merger synergies on track Result Report 6.6bn, 5% above our estimates; aided by strong performance across clusters.",
+        "The combined entity is trading at 23x EV/EBITDA on Sept 2028E (adjusted for minority stake and rental).",
+        "We maintain our ‘BUY’ rating with revised TP of Rs875/share, valuing 26x EV/EBITDA for the combined entity on Sept 2028E."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Data ATRD.BO | ASTERDM IN BSE Code 540975 NSE Code ASTERDM 52-W High / Low INR 891 / INR 519 Face Value 10 Sensex / Nifty 80,999 / 24,986 Market Cap INR 653 bn / $ 6,955 mn Shares Outstanding 871.67 mn 3M Avg.",
+        "Occupancy improved by 335 bps YOY to 68% led by patient volume growth in key specialties."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "ASTERDM completed its merger with Quality Care (QCIL), effective from Q2FY27, making it the third largest healthcare chain by revenue and bed capacity in India."
+      ]
+    }
+  ]
 }

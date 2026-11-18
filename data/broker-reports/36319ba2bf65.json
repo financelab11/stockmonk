@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "EBITDA grew 9.8% to Rs17.6bn, but margins declined by 393bps to 22.2% as Saroglitazar launch, R&D, and acquisition costs increased; adjusted PAT fell 15.7% to Rs8.3bn and reported PAT declined 26.5% to Rs9.3bn, impacted ",
-  "fetchedAt": "2026-11-18T15:52:58.092Z"
+  "fetchedAt": "2026-11-18T15:52:58.092Z",
+  "brokerId": "nirmal-bang",
+  "brokerDisplay": "Nirmal Bang",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Nirmal Bang published a stock note on Zydus Lifesciences. Rating: BUY. EBITDA grew 9.8% to Rs17.6bn, but margins declined by 393bps to 22.2% as Saroglitazar launch, R&D, and acquisition costs increased; adjusted PAT fell 15.7% to Rs8.3bn and reported PAT declined 26.5% to Rs9.3bn, impacted ",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "EBITDA grew 9.8% to Rs17.6bn, but margins declined by 393bps to 22.2% as Saroglitazar launch, R&D, and acquisition costs increased; adjusted PAT fell 15.7% to Rs8.3bn and reported PAT declined 26.5% to Rs9.3bn, impacted ",
+        "EBITDA grew 9.8% to Rs17.6bn, but margins declined by 393bps to 22.2% as Saroglitazar launch, R&D, and acquisition costs increased; adjusted PAT fell 15.7% to Rs8.3bn and reported PAT declined 26.5% to Rs9.3bn, impacted by lower other income and doubled depreciation and amortisation."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Outlook: We expect Zydus Lifesciences to deliver 12.2% revenue CAGR over FY27- 29E to Rs411.6bn, driven by market-share gains in India chronic therapies (cardiology, diabetology, and oncology), growth in consumer wellness (Sugar Free, Complan, and Nycil), and US expansion through high-barrier specialty products, complex injectables, first-to-market launches, and specialty assets.",
+        "Saroglitazar (MASH/PBC), Sentynl's rare disease portfolio, and expansion across Latin America and emerging markets provide additional growth levers.",
+        "We have also raised our valuation multiple from 21x to 26x Sep-28E EPS in line with peer average (Sun, Cipla, DRL, Zydus, and Lupin) and +1SD above 10-year average, reflecting improving growth prospects, a stronger earnings trajectory, and the increasing contribution of differentiated businesses across specialty and biologics."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Valuation: We upgrade Zydus Lifesciences to BUY from Hold, with a revised target price of Rs1,458/share (earlier Rs1,274), rolling forward our valuation to Sep-28E.",
+        "We have also raised our valuation multiple from 21x to 26x Sep-28E EPS in line with peer average (Sun, Cipla, DRL, Zydus, and Lupin) and +1SD above 10-year average, reflecting improving growth prospects, a stronger earnings trajectory, and the increasing contribution of differentiated businesses across specialty and biologics.",
+        "We believe the higher multiple is justified by the company's diversified growth drivers and potential for sustained earnings compounding."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Outlook: We expect Zydus Lifesciences to deliver 12.2% revenue CAGR over FY27- 29E to Rs411.6bn, driven by market-share gains in India chronic therapies (cardiology, diabetology, and oncology), growth in consumer wellness (Sugar Free, Complan, and Nycil), and US expansion through high-barrier specialty products, complex injectables, first-to-market launches, and specialty assets.",
+        "Key monitorables remain employee and SG&A cost moderation and successful commercialisation of the NCE and biosimilar pipeline."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "We have also raised our valuation multiple from 21x to 26x Sep-28E EPS in line with peer average (Sun, Cipla, DRL, Zydus, and Lupin) and +1SD above 10-year average, reflecting improving growth prospects, a stronger earnings trajectory, and the increasing contribution of differentiated businesses across specialty and biologics."
+      ]
+    }
+  ]
 }

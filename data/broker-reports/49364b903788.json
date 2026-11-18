@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "The board expects to appoint a permanent MD & CEO within four months, while near-term priorities remain sustaining growth, improving cost efficiencies, and ensuring organisational stability.  Improved return profile; ma",
-  "fetchedAt": "2026-11-18T15:50:36.922Z"
+  "fetchedAt": "2026-11-18T15:50:36.922Z",
+  "brokerId": "nirmal-bang",
+  "brokerDisplay": "Nirmal Bang",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Nirmal Bang published a stock note on Equitas Small Finance Bank. Rating: BUY. The board expects to appoint a permanent MD & CEO within four months, while near-term priorities remain sustaining growth, improving cost efficiencies, and ensuring organisational stability.  Improved return profile; ma",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "The board expects to appoint a permanent MD & CEO within four months, while near-term priorities remain sustaining growth, improving cost efficiencies, and ensuring organisational stability.  Improved return profile; ma",
+        "The board expects to appoint a permanent MD & CEO within four months, while near-term priorities remain sustaining growth, improving cost efficiencies, and ensuring organisational stability.  Improved return profile; maintain BUY."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "We expect loan growth to remain healthy at ~25% in FY27, with NIM recovering by ~20bps over the next two quarters as surplus liquidity is deployed.",
+        "Sustained fee income growth and operating leverage should further support profitability, partly offset by a normalisation in credit costs in 2HFY27.",
+        "Management highlighted that the experienced leadership team and institutionalised processes across business, collections, and governance provide continuity."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "We maintain BUY with a target price of Rs75, based on 1.0x Sep-28E adjusted book value.",
+        "Despite the improving return profile, our valuation multiple remains conservative, reflecting uncertainty around the CEO succession.",
+        "Management indicated potential for disbursements to exceed internal targets in the current quarter."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Points  Equitas Bank organised an analyst call on the evening of 12-Nov following the appointment of the interim MD & CEO.",
+        "(Head – Assets) and Mr Suresh (Head – Strategy and Business Intelligence).  The key focus remains on maintaining continuity and execution momentum following the founder CEO's exit."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management highlighted that the experienced leadership team and institutionalised processes across business, collections, and governance provide continuity."
+      ]
+    }
+  ]
 }

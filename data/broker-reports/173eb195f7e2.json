@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "Per (%) -4/6/11 12M Avg Val (INR M) 3459 Financials & Valuations (INRb) Y/E March FY26 FY27E FY28E Sales 251.1 299.0 342.3 EBITDA 37.5 46.7 53.8 Adj.",
-  "fetchedAt": "2026-11-18T15:52:39.444Z"
+  "fetchedAt": "2026-11-18T15:52:39.444Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 60,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+12 positive corporate or estimate event",
+      "+8 target implies 24% change"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on Apollo Hospitals Enterprises. Target ₹10,400 (+24% vs ₹8,371). Per (%) -4/6/11 12M Avg Val (INR M) 3459 Financials & Valuations (INRb) Y/E March FY26 FY27E FY28E Sales 251.1 299.0 342.3 EBITDA 37.5 46.7 53.8 Adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Per (%) -4/6/11 12M Avg Val (INR M) 3459 Financials & Valuations (INRb) Y/E March FY26 FY27E FY28E Sales 251.1 299.0 342.3 EBITDA 37.5 46.7 53.8 Adj.",
+        "Per (%) -4/6/11 12M Avg Val (INR M) 3459 Financials & Valuations (INRb) Y/E March FY26 FY27E FY28E Sales 251.1 299.0 342.3 EBITDA 37.5 46.7 53.8 Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "(INR) 681.4 855.8 1,067.4 Ratios Net D:E 0.2 0.0 -0.1 RoE (%) 22.1 23.5 22.6 RoCE (%) 16.1 18.0 18.3 Payout (%) 4.3 3.4 2.8 Valuations P/E (x) 61.4 47.9 39.7 EV/EBITDA (x) 33.2 26.3 22.3 Div.",
+        "The company delivered better-than-expected EBITDA/PAT, with a 6%/5% beat on our estimate for the quarter.",
+        "Apollo Health and Lifestyle’s (AHLL) revenue was lower compared to estimates."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹10,400 against a market price of ₹8,371 at the report date.",
+        "Per (%) -4/6/11 12M Avg Val (INR M) 3459 Financials & Valuations (INRb) Y/E March FY26 FY27E FY28E Sales 251.1 299.0 342.3 EBITDA 37.5 46.7 53.8 Adj.",
+        "(INR) 681.4 855.8 1,067.4 Ratios Net D:E 0.2 0.0 -0.1 RoE (%) 22.1 23.5 22.6 RoCE (%) 16.1 18.0 18.3 Payout (%) 4.3 3.4 2.8 Valuations P/E (x) 61.4 47.9 39.7 EV/EBITDA (x) 33.2 26.3 22.3 Div.",
+        "Each recipient of this document should make such investigations as it deems necessary to arrive at an independent evaluation of an investment in the securities of companies referred to in this document (including the merits and risks involved), and should consult its own advisors to determine the merits and risks of such an investment."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Each recipient of this document should make such investigations as it deems necessary to arrive at an independent evaluation of an investment in the securities of companies referred to in this document (including the merits and risks involved), and should consult its own advisors to determine the merits and risks of such an investment.",
+        "Certain transactions -including those involving futures, options, another derivative products as well as non-investment grade securities - involve substantial risk and are not suitable for all investors."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Apollo Health and Lifestyle’s (AHLL) revenue was lower compared to estimates."
+      ]
+    }
+  ]
 }

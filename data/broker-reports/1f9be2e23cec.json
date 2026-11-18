@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Consequently, consolidated EBITDA declined 2% YoY and 7% QoQ to Rs 1,368 Cr, 4% below our estimates, with margins contracting 460bps YoY and 230bps QoQ to 28.9%.",
-  "fetchedAt": "2026-11-18T15:52:52.429Z"
+  "fetchedAt": "2026-11-18T15:52:52.429Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on NLC India. Rating: BUY. Target ₹305. Consequently, consolidated EBITDA declined 2% YoY and 7% QoQ to Rs 1,368 Cr, 4% below our estimates, with margins contracting 460bps YoY and 230bps QoQ to 28.9%.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Consequently, consolidated EBITDA declined 2% YoY and 7% QoQ to Rs 1,368 Cr, 4% below our estimates, with margins contracting 460bps YoY and 230bps QoQ to 28.9%.",
+        "Consequently, consolidated EBITDA declined 2% YoY and 7% QoQ to Rs 1,368 Cr, 4% below our estimates, with margins contracting 460bps YoY and 230bps QoQ to 28.9%."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Within thermal, growth was led by Ghatampur (Neyveli UP Power Ltd JV – 51:49), where generation more than doubled to 1,780 MU (Q2FY26: 815 MU) and rose 16% QoQ in its first full quarter at the full 1,980 MW (3x660 MW) capacity, although its PLF of 41.0% (Q1FY27: 35.3%) remains well below normative levels as the new units stabilise.",
+        "Sector Outlook: Cautiously Positive Company Outlook & Guidance: NLCIL has ambitious capacity expansion plans, aiming to increase its current mining capacity from 50 MTPA to 104 MTPA by 2030, thermal power capacity from 5,960 MW to 10,020 MW, and RE capacity from 1,734 MW to 10,110 MW.",
+        "These capacity additions will require a substantial capex of over Rs 1.0 Lc Cr, which is expected to drive growth in both regulated and non-regulated equity."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹305.",
+        "Result Update 05th November, 2026 BUY Target Price 305 NLC India Limited Utilities 1 Soft Q1; Capacity Gains Offset by Seasonal Headwinds Est.",
+        "Current Valuation: SOTP - Thermal business based on our consolidated regulated equity projections for FY33, discounted to FY26; Regulated Mining business at 2.5x Sep’28E regulated equity (roll forward from Jun’27E); RE business at EV/EBITDA of 3.8x on Sep’28E EBITDA (roll forward from Jun’27E) and the merchant coal business at 6.0x EV/EBITDA (vs. 7.0x) on Sep’28E EBITDA (roll forward from Jun’27E).",
+        "RATING SCALE: Definitions of ratings Ratings Expected absolute returns over 12 – 18 months BUY More than 10% HOLD Between 10% and -10% SELL Less than -10% NOT RATED We have forward-looking estimates for the stock, but we refrain from assigning a valuation and recommendation."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Result Update 05th November, 2026 BUY Target Price 305 NLC India Limited Utilities 1 Soft Q1; Capacity Gains Offset by Seasonal Headwinds Est.",
+        "Sector Outlook: Cautiously Positive Company Outlook & Guidance: NLCIL has ambitious capacity expansion plans, aiming to increase its current mining capacity from 50 MTPA to 104 MTPA by 2030, thermal power capacity from 5,960 MW to 10,020 MW, and RE capacity from 1,734 MW to 10,110 MW."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "These capacity additions will require a substantial capex of over Rs 1.0 Lc Cr, which is expected to drive growth in both regulated and non-regulated equity."
+      ]
+    }
+  ]
 }

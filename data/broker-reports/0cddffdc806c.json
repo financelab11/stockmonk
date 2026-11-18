@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "(%) 9.7 7.9 13.8 BV/Sh.INR 1347.2 1624.4 1940.1 Ratios RoE (%) 53.2 47.6 45.3 RoCE (%) 48.5 46.5 44.9 Payout (%) 100.0 75.0 75.0 Valuations P/E (x) 44.5 41.2 36.2 P/BV (x) 23.6 19.6 16.4 EV/EBITDA (x) 30.7 27.7 24.4 Div.",
-  "fetchedAt": "2026-11-18T15:51:05.035Z"
+  "fetchedAt": "2026-11-18T15:51:05.035Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 26% change"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on Page Industries. Target ₹40,000 (+26% vs ₹31,850). (%) 9.7 7.9 13.8 BV/Sh.INR 1347.2 1624.4 1940.1 Ratios RoE (%) 53.2 47.6 45.3 RoCE (%) 48.5 46.5 44.9 Payout (%) 100.0 75.0 75.0 Valuations P/E (x) 44.5 41.2 36.2 P/BV (x) 23.6 19.6 16.4 EV/EBITDA (x) 30.7 27.7 24.4 Div.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(%) 9.7 7.9 13.8 BV/Sh.INR 1347.2 1624.4 1940.1 Ratios RoE (%) 53.2 47.6 45.3 RoCE (%) 48.5 46.5 44.9 Payout (%) 100.0 75.0 75.0 Valuations P/E (x) 44.5 41.2 36.2 P/BV (x) 23.6 19.6 16.4 EV/EBITDA (x) 30.7 27.7 24.4 Div.",
+        "(%) 9.7 7.9 13.8 BV/Sh.INR 1347.2 1624.4 1940.1 Ratios RoE (%) 53.2 47.6 45.3 RoCE (%) 48.5 46.5 44.9 Payout (%) 100.0 75.0 75.0 Valuations P/E (x) 44.5 41.2 36.2 P/BV (x) 23.6 19.6 16.4 EV/EBITDA (x) 30.7 27.7 24.4 Div."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Primary volumes in Jul-Aug’26 grew 11-12% (excluding the recovery of the 1QFY27 billing loss), while Sep’26 saw a sharper decline as distributors deferred festive inventory build-up.",
+        "Management retained its double-digit volume growth guidance for FY27 (5.6% in 1HFY27), aided by festive stocking, new launches, and marketing initiatives. ◼ GM contracted 270bp YoY to 57.2% (est. 58.5%, 57.2% in 1QFY27) due to inflation in cotton and synthetic products.",
+        "PAGE absorbed part of the cost pressure through strategic sourcing and supply-chain initiatives and implemented a calibrated 2.5% price hike in May to partly offset RM inflation. ◼ EBITDA margin contracted 80bp YoY to 20.8%."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹40,000 against a market price of ₹31,850 at the report date.",
+        "Per (%) -27/-18/-20 12M Avg Val (INR M) 1071 Financials & Valuations (INR b) Y/E March 2026 2027E 2028E Sales 52.5 59.3 65.8 Sales Gr.",
+        "(%) 9.7 7.9 13.8 BV/Sh.INR 1347.2 1624.4 1940.1 Ratios RoE (%) 53.2 47.6 45.3 RoCE (%) 48.5 46.5 44.9 Payout (%) 100.0 75.0 75.0 Valuations P/E (x) 44.5 41.2 36.2 P/BV (x) 23.6 19.6 16.4 EV/EBITDA (x) 30.7 27.7 24.4 Div.",
+        "Management clarified that the company is now fully compliant and expects no operational impact. ◼ PAGE’s performance in 1HFY27 was below our expectation; however, management continues to target double-digit volume growth in FY27 (implied mid-teen growth in 2HFY27)."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "While RM inflation remains a near-term margin headwind, calibrated pricing and expected normalization in input costs should support profitability going forward.",
+        "The company restricted online sales of imported goods to Jockey products, while Speedo is now operated through a third-party franchisee and is no longer sold directly by the company to consumers. ▪ The total amount involved in the contravention is estimated at approximately INR480mn, cumulatively over the last 12 years (2014-15 to 2026)."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "PAGE absorbed part of the cost pressure through strategic sourcing and supply-chain initiatives and implemented a calibrated 2.5% price hike in May to partly offset RM inflation. ◼ EBITDA margin contracted 80bp YoY to 20.8%."
+      ]
+    }
+  ]
 }

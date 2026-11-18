@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate Hold Target Price 1,178 1,072 Sales (INR mn) 61,949 69,270 61,273 68,483 % Chng. 1.1 1.1 EBITDA (INR mn) 9,354 10,806 9,375 10,820 % Chng.",
-  "fetchedAt": "2026-11-18T15:51:34.373Z"
+  "fetchedAt": "2026-11-18T15:51:34.373Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Carborundum Universal. Rating: ACCUMULATE. Target ₹1,178. Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate Hold Target Price 1,178 1,072 Sales (INR mn) 61,949 69,270 61,273 68,483 % Chng. 1.1 1.1 EBITDA (INR mn) 9,354 10,806 9,375 10,820 % Chng.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate Hold Target Price 1,178 1,072 Sales (INR mn) 61,949 69,270 61,273 68,483 % Chng. 1.1 1.1 EBITDA (INR mn) 9,354 10,806 9,375 10,820 % Chng.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate Hold Target Price 1,178 1,072 Sales (INR mn) 61,949 69,270 61,273 68,483 % Chng. 1.1 1.1 EBITDA (INR mn) 9,354 10,806 9,375 10,820 % Chng."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Ceramics remains the key growth driver, supported by strong traction in industrial engineered ceramics, metallized cylinders and Bloom Energy-related products, alongside improving product mix.",
+        "However, Abrasives profitability remains under pressure from elevated phenolic resin and fuel costs, with limited pricing pass-through; management expects margins to have bottomed out, with gradual recovery towards the normalised 15-16% range as cost pressures ease and price increases are implemented.",
+        "Electro Minerals margins are expected to remain relatively stable, supported by favourable product mix and geographic diversification."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: ACCUMULATE.",
+        "Target price ₹1,178.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate Hold Target Price 1,178 1,072 Sales (INR mn) 61,949 69,270 61,273 68,483 % Chng. 1.1 1.1 EBITDA (INR mn) 9,354 10,806 9,375 10,820 % Chng.",
+        "The stock is trading at a P/E of 40.6x/34.9x on FY28E/29E earnings.",
+        "The business is targeting breakeven by Q1FY28, followed by a gradual improvement in profitability, supported by a restructuring and operational improvement programme."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(0.4) - Key Data CRBR.BO | CU IN BSE Code 513375 NSE Code CARBORUNIV 52-W High / Low INR 1,369 / INR 734 Face Value 1 Sensex / Nifty 76,918 / 23,811 Market Cap INR 212 bn / $ 2,240 mn Shares Outstanding 190.51 mn 3M Avg.",
+        "Ceramics remains the key growth driver, supported by strong traction in industrial engineered ceramics, metallized cylinders and Bloom Energy-related products, alongside improving product mix."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Electro Minerals margins are expected to remain relatively stable, supported by favourable product mix and geographic diversification."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Per (%) -9/-14/-8 12M Avg Val (INR M) 243 Free float (%) 26.1 Financials & Valuations (INR b) Y/E MARCH FY26 FY27E FY28E Sales 29.9 34.4 39.4 EBITDA 3.6 4.0 5.1 EBITDA (%) 12.2 11.9 12.9 Adj.",
-  "fetchedAt": "2026-11-18T15:52:03.521Z"
+  "fetchedAt": "2026-11-18T15:52:03.521Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 34% change"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on Bikaji Foods International. Target ₹640 (+34% vs ₹477). Per (%) -9/-14/-8 12M Avg Val (INR M) 243 Free float (%) 26.1 Financials & Valuations (INR b) Y/E MARCH FY26 FY27E FY28E Sales 29.9 34.4 39.4 EBITDA 3.6 4.0 5.1 EBITDA (%) 12.2 11.9 12.9 Adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Per (%) -9/-14/-8 12M Avg Val (INR M) 243 Free float (%) 26.1 Financials & Valuations (INR b) Y/E MARCH FY26 FY27E FY28E Sales 29.9 34.4 39.4 EBITDA 3.6 4.0 5.1 EBITDA (%) 12.2 11.9 12.9 Adj.",
+        "Per (%) -9/-14/-8 12M Avg Val (INR M) 243 Free float (%) 26.1 Financials & Valuations (INR b) Y/E MARCH FY26 FY27E FY28E Sales 29.9 34.4 39.4 EBITDA 3.6 4.0 5.1 EBITDA (%) 12.2 11.9 12.9 Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA fell 7.4% YoY to INR1,187m and PAT fell 11.2% YoY to INR690m.",
+        "Retail revenue rose 58.1% YoY to INR447m, and the store count went from 21 to 34.",
+        "For 1HFY27, revenue grew 12.8% YoY to INR16.7b, driven by 6.2% volume growth. 1H EBITDA fell 3.0% YoY to INR2,177m and 1H PAT fell 6.0% YoY to INR1,284m."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹640 against a market price of ₹477 at the report date.",
+        "Per (%) -9/-14/-8 12M Avg Val (INR M) 243 Free float (%) 26.1 Financials & Valuations (INR b) Y/E MARCH FY26 FY27E FY28E Sales 29.9 34.4 39.4 EBITDA 3.6 4.0 5.1 EBITDA (%) 12.2 11.9 12.9 Adj.",
+        "Valuation and view: Reiterate BUY We expect BFL to benefit from accelerating demand for branded snacks, shifting consumer preferences, and increasing traction within modern trade and ecommerce channels.",
+        "We trim our earnings and reiterate our BUY rating with a DCF-based TP of INR640 (based on an implied P/E of 50x on FY28E)."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Commodity and cost pressure weigh on margins Gross margin contracted 60bp YoY to 34.4% due to inflation in key commodities, but gross profit still grew 11.2% YoY to INR3,231m.",
+        "Distribution expansion, marketing investments, and THF's strong growth outlook remain key drivers of medium-term growth."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "For 1HFY27, revenue grew 12.8% YoY to INR16.7b, driven by 6.2% volume growth. 1H EBITDA fell 3.0% YoY to INR2,177m and 1H PAT fell 6.0% YoY to INR1,284m."
+      ]
+    }
+  ]
 }

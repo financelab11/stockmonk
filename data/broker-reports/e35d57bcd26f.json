@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "EBITDA for Q2FY27 came in at ₹606 crore, with EBITDA margins at 12.1% (down 30 bps QoQ).",
-  "fetchedAt": "2026-11-18T15:52:19.984Z"
+  "fetchedAt": "2026-11-18T15:52:19.984Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Exide Industries. EBITDA for Q2FY27 came in at ₹606 crore, with EBITDA margins at 12.1% (down 30 bps QoQ).",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "EBITDA for Q2FY27 came in at ₹606 crore, with EBITDA margins at 12.1% (down 30 bps QoQ).",
+        "EBITDA for Q2FY27 came in at ₹606 crore, with EBITDA margins at 12.1% (down 30 bps QoQ)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Investment Rationale: • Base Lead - Acid business: Strong Franchise with Sustained Growt h: EIL continues to demonstrate the strength of its core lead-acid franchise, led by dominant market share in the OEM segment, and aptly supported by high-margin aftermarket domain.",
+        "The company has demonstrated the ability to grow across both OEM and replacement channels simultaneously, with automotive OEM growth exceeding 25% for the quarter and the replacement business delivering double-digit growth for the fourth consecutive quarter.",
+        "EIL has moved beyond the initial capex phase and has entered the customer validation and commercialisation stage, with LFP cell revenues already commencing from October and NMC cell validations progressing with leading two-wheeler OEMs."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Exide continued to strengthen its position across key OEM platforms and secured high market share in several upcoming launches, including MG Hector Tomahawk and Tata Aeris.",
+        "Investments in securities market are subject to market risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "EIL has moved beyond the initial capex phase and has entered the customer validation and commercialisation stage, with LFP cell revenues already commencing from October and NMC cell validations progressing with leading two-wheeler OEMs."
+      ]
+    }
+  ]
 }

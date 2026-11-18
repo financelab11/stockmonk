@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Management attributed strong execution to faster deliveries and efforts to distribute production more evenly across quarters, reducing the historical concentration of business in Q4.",
-  "fetchedAt": "2026-11-18T15:50:59.157Z"
+  "fetchedAt": "2026-11-18T15:50:59.157Z",
+  "brokerId": "ventura",
+  "brokerDisplay": "Ventura Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Ventura Securities published a result update on Bharat Electronics. Management attributed strong execution to faster deliveries and efforts to distribute production more evenly across quarters, reducing the historical concentration of business in Q4.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Management attributed strong execution to faster deliveries and efforts to distribute production more evenly across quarters, reducing the historical concentration of business in Q4.",
+        "Management attributed strong execution to faster deliveries and efforts to distribute production more evenly across quarters, reducing the historical concentration of business in Q4."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "H1 EBITDA margin stood at 27.43%, while profit before tax increased approximately 14.7% to INR 3,467 cr.",
+        "The order book stood at INR 68,717 cr as of 1 October 2026, with H1 order inflows of INR 7,334 cr.",
+        "Management expected approximately INR 20,000 cr of Next Generation Corvette orders from GRSE and Goa Shipyard, covering radars, electronic warfare and communication equipment, excluding missiles."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(50) 0 50 100 150 200 (1,000) 0 1,000 2,000 3,000 4,000 5,000 FY22 FY23 FY24 FY25 FY26 Cashflow CFO FCFF CFO to EBITDA (%) FCFF to Net Profit (%) (%) INR Cr. 4 | P a g e ( 4 t h N o v 2 0 2 6 ) For any further query, please email us on research@venturasecurities.com Source: Ventura Research & Company updates Key Takeaways from the Conference Call: 1.",
+        "Order Book and Inflow Outlook: The order book stood at INR 68,717 cr as of 1 October 2026, with H1 order inflows of INR 7,334 cr."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management expected approximately INR 20,000 cr of Next Generation Corvette orders from GRSE and Goa Shipyard, covering radars, electronic warfare and communication equipment, excluding missiles."
+      ]
+    }
+  ]
 }

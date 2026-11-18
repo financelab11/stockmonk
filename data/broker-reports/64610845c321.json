@@ -24,5 +24,48 @@
     "watch": []
   },
   "blurb": "We tweak our FY28/ FY29E estimates upward factoring in pick up in growth and normalization of credit costs.",
-  "fetchedAt": "2026-11-18T15:51:56.189Z"
+  "fetchedAt": "2026-11-18T15:51:56.189Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Sundaram Finance. Rating: BUY. Target ₹4,850. We tweak our FY28/ FY29E estimates upward factoring in pick up in growth and normalization of credit costs.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "We tweak our FY28/ FY29E estimates upward factoring in pick up in growth and normalization of credit costs.",
+        "We tweak our FY28/ FY29E estimates upward factoring in pick up in growth and normalization of credit costs."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Expect 19/18% AUM growth in FY27/28E: Q2 saw a pick-up in disbursement growth (28% YoY) to INR103.5bn.",
+        "Auto sector volumes showed strong growth in H1FY27 in a sharp contrast to the flat to declining sector environment in H1FY26 and supported stronger origination opportunities across most of asset classes and geographies for the company.",
+        "AUM mix during the quarter stood at 42.3% / 24.0% / 10.6% / 6.7% for CV / Car / CE and tractor segments respectively."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹4,850."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "AUM mix during the quarter stood at 42.3% / 24.0% / 10.6% / 6.7% for CV / Car / CE and tractor segments respectively."
+      ]
+    }
+  ]
 }

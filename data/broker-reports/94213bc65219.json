@@ -31,5 +31,60 @@
     ]
   },
   "blurb": "With Oswego operations gradually ramping up, tariff-related costs expected to moderate and Bay Minette potentially starting H1FY28, we expect a gradual improvement in volumes and profitability through FY27.",
-  "fetchedAt": "2026-11-18T15:52:21.427Z"
+  "fetchedAt": "2026-11-18T15:52:21.427Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 60,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+12 negative corporate or estimate event",
+      "+8 target implies 28% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Hindalco Industries. Rating: BUY. Target ₹1,200 (+28% vs ₹938). With Oswego operations gradually ramping up, tariff-related costs expected to moderate and Bay Minette potentially starting H1FY28, we expect a gradual improvement in volumes and profitability through FY27.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "With Oswego operations gradually ramping up, tariff-related costs expected to moderate and Bay Minette potentially starting H1FY28, we expect a gradual improvement in volumes and profitability through FY27.",
+        "With Oswego operations gradually ramping up, tariff-related costs expected to moderate and Bay Minette potentially starting H1FY28, we expect a gradual improvement in volumes and profitability through FY27."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Thus, we retain BUY, with a TP of INR 1,200, based on 7x FY28E EV/EBITDA.",
+        "In-line performance; core EBITDA/t remain above USD 500 mark Novelis’ Q2FY27 adjusted EBITDA came at USD 508mn (+20%/-2%, YoY/QoQ) with EBITDA/t rising 23% YoY to USD 553 (-2% QoQ).",
+        "Management expects positive FCF in Q4FY27, supported by ~USD 300mn WC release, insurance recoveries and lower capex."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹1,200 against a market price of ₹938 at the report date.",
+        "Thus, we retain BUY, with a TP of INR 1,200, based on 7x FY28E EV/EBITDA.",
+        "Novelis has achieved over USD 240mn in annualised cost savings and targets USD 300mn by FY27-end and USD 350–400mn by FY28-end, driven by SG&A efficiencies, operational improvements and technology-led productivity gains.",
+        "Positive FCF is targeted in Q4FY27, supported by ~USD 300mn working capital release and insurance recoveries of ~USD 900mn by FY27-end (USD 1.3bn total)."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key monitorable include Bay Minette ramp-up, customer qualification, tariff mitigation, scrap spreads, working capital normalisation and timely insurance collections Maintain BUY with a TP of INR 1,200 valuing it at 7x FY28E EV/EBITDA.",
+        "Key risk • Scrap spreads to remain very high due to tariff impact. • LME aluminium improving sharply."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management expects positive FCF in Q4FY27, supported by ~USD 300mn WC release, insurance recoveries and lower capex."
+      ]
+    }
+  ]
 }

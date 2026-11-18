@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating ACCUMULATE HOLD Target Price 121 126 Sales (INR mn) 26,245 33,786 25,106 33,274 % Chng. 4.5 1.5 EBITDA (INR mn) 2,887 3,716 2,887 3,660 % Chng. - 1.5 EP",
-  "fetchedAt": "2026-11-18T15:49:40.038Z"
+  "fetchedAt": "2026-11-18T15:49:40.038Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on KNR Constructions. Rating: ACCUMULATE. Target ₹121. Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating ACCUMULATE HOLD Target Price 121 126 Sales (INR mn) 26,245 33,786 25,106 33,274 % Chng. 4.5 1.5 EBITDA (INR mn) 2,887 3,716 2,887 3,660 % Chng. - 1.5 EP",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating ACCUMULATE HOLD Target Price 121 126 Sales (INR mn) 26,245 33,786 25,106 33,274 % Chng. 4.5 1.5 EBITDA (INR mn) 2,887 3,716 2,887 3,660 % Chng. - 1.5 EP",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating ACCUMULATE HOLD Target Price 121 126 Sales (INR mn) 26,245 33,786 25,106 33,274 % Chng. 4.5 1.5 EBITDA (INR mn) 2,887 3,716 2,887 3,660 % Chng. - 1.5 EPS (INR) 6.6 8.5 7.2 9.2 % Chng."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "However, order inflow remains healthy with FY27 (till date) order inflow INR80 bn (incl INR14bn inflow post Q2FY27).",
+        "INR87 bn as on FY26), with mining accounting for 42%, followed by roads at 43%, providing improved revenue visibility and diversification.",
+        "The company is further targeting H2FY27 order inflows of INR 40–50bn, with Gevra mine and large highway HAM projects forming key opportunities; current L1 position stands at approximately INR 4bn."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: ACCUMULATE.",
+        "Target price ₹121.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating ACCUMULATE HOLD Target Price 121 126 Sales (INR mn) 26,245 33,786 25,106 33,274 % Chng. 4.5 1.5 EBITDA (INR mn) 2,887 3,716 2,887 3,660 % Chng. - 1.5 EPS (INR) 6.6 8.5 7.2 9.2 % Chng.",
+        "The company is further targeting H2FY27 order inflows of INR 40–50bn, with Gevra mine and large highway HAM projects forming key opportunities; current L1 position stands at approximately INR 4bn.",
+        "Stock is down ~20% in the last 3 months and valuation has corrected, we see risk reward better and upgrade the stock to ACCUMULATE with revised TP of INR121, valuing EPC at 10x 1HFY29E PER and investment at BV."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(8.3) (7.6) Key Data KNRL.BO | KNRC IN BSE Code 532942 NSE Code KNRCON 52-W High / Low INR 186 / INR 96 Face Value 2 Sensex / Nifty 82,105 / 25,291 Market Cap INR 30 bn / $ 319 mn Shares Outstanding 281.23 mn 3M Avg.",
+        "The company is further targeting H2FY27 order inflows of INR 40–50bn, with Gevra mine and large highway HAM projects forming key opportunities; current L1 position stands at approximately INR 4bn."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The company is further targeting H2FY27 order inflows of INR 40–50bn, with Gevra mine and large highway HAM projects forming key opportunities; current L1 position stands at approximately INR 4bn."
+      ]
+    }
+  ]
 }

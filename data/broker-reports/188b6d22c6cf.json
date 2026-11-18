@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "EBITDA for Q2FY27 stood at ₹ 32 crore with margins at 4.5%, down 150 bps QoQ.",
-  "fetchedAt": "2026-11-18T15:50:08.768Z"
+  "fetchedAt": "2026-11-18T15:50:08.768Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "ICICI Securities published a result update on Pondy Oxides & Chemicals. EBITDA for Q2FY27 stood at ₹ 32 crore with margins at 4.5%, down 150 bps QoQ.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "EBITDA for Q2FY27 stood at ₹ 32 crore with margins at 4.5%, down 150 bps QoQ.",
+        "EBITDA for Q2FY27 stood at ₹ 32 crore with margins at 4.5%, down 150 bps QoQ."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA/tonne moderated sharply with Lead segment reported EBITDA/tonne of ₹ 16k vs. ₹ 22k reported in Q1FY27 and ₹ 20k reported in Q2FY26.",
+        "Investment Rationale: • Sourcing issue to keep lead volumes muted in FY27E, eyeing recovery in FY28E : POCL has aggressively expanded its Lead smelting capacity with recently commissioned 72 KTPA facility, taking the total to 204 KTPA.",
+        "H1FY27 volumes however have been muted at ~31KT vs. 50KT clocked in H1FY26."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Investments in securities market are subject to market risks.",
+        "None of the research recommendations promise or guarantee any assured, minimum or risk - free retur n to the investors."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "H1FY27 volumes however have been muted at ~31KT vs. 50KT clocked in H1FY26."
+      ]
+    }
+  ]
 }

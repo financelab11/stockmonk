@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "This growth was supported by a sharp realisation improvement (+20.1% YoY) for the Tiles segment coupled with 5.4% volume growth, while the Bathware segment posted double-digit revenue growth.",
-  "fetchedAt": "2026-11-18T15:51:55.586Z"
+  "fetchedAt": "2026-11-18T15:51:55.586Z",
+  "brokerId": "choice",
+  "brokerDisplay": "Choice Broking",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 33% change"
+    ]
+  },
+  "execSummary": "Choice Broking published a stock note on Somany Ceramics. Target ₹720 (+33% vs ₹540). This growth was supported by a sharp realisation improvement (+20.1% YoY) for the Tiles segment coupled with 5.4% volume growth, while the Bathware segment posted double-digit revenue growth.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "This growth was supported by a sharp realisation improvement (+20.1% YoY) for the Tiles segment coupled with 5.4% volume growth, while the Bathware segment posted double-digit revenue growth.",
+        "This growth was supported by a sharp realisation improvement (+20.1% YoY) for the Tiles segment coupled with 5.4% volume growth, while the Bathware segment posted double-digit revenue growth."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA margin came in ahead of expectation at 11.6%, expanding ~378 bps YoY, driven by higher own-plant utilisation, operating leverage and a meaningful JV turnaround from loss to profit.",
+        "Valuation & View We now project Revenue / EBITDA / PAT to expand at 11.7% / 23.7% / 41.9% CAGR, respectively, over FY26–29E factoring in a margin expansion of ~330 bps over the same period.",
+        "We believe the company's sustained growth momentum in both the segments coupled with heightened realisation offer an attractive opportunity."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹720 against a market price of ₹540 at the report date.",
+        "Valuation & View We now project Revenue / EBITDA / PAT to expand at 11.7% / 23.7% / 41.9% CAGR, respectively, over FY26–29E factoring in a margin expansion of ~330 bps over the same period.",
+        "We value SOMC on a PE-based framework and assign a multiple of 15.0x (maintained) on FY28E core EPS of INR 48.2.",
+        "We, therefore, reiterate our 'BUY' rating on SOMC with a revised target price of INR 720/share (from INR 690/share earlier), implying an upside of 33.6% from CMP of INR 540."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Risks: Possible slowdown in real estate and home improvement activities and probable higher gas cost Company Info BB Code SOMC IN EQUITY Face Value (INR) 2.0 52-wk High/Low (INR) 633/332 Mkt Cap (Bn) INR 22.1/ $0.23 Shares o/s (Mn) 41.0 3M Avg.",
+        "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update Key Highlights from Conference Call Institutional Equities GVT Premiumisation, Channel Mix & Distribution Expansion ▪ GVT share expanded to 45% (from 41% YoY)."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "We believe the company's sustained growth momentum in both the segments coupled with heightened realisation offer an attractive opportunity."
+      ]
+    }
+  ]
 }

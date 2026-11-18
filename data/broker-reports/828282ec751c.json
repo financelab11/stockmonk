@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Key Points  Revenue beat; RM inflation weighs on margins: Revenue grew 16.6% YoY (+7.7% QoQ) to Rs79.7bn, 1.0%/0.6% ahead of NBIE/consensus, led by 25.6% YoY growth in India.",
-  "fetchedAt": "2026-11-18T15:52:11.077Z"
+  "fetchedAt": "2026-11-18T15:52:11.077Z",
+  "brokerId": "nirmal-bang",
+  "brokerDisplay": "Nirmal Bang",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Nirmal Bang published a stock note on Apollo Tyres. Rating: HOLD. Key Points  Revenue beat; RM inflation weighs on margins: Revenue grew 16.6% YoY (+7.7% QoQ) to Rs79.7bn, 1.0%/0.6% ahead of NBIE/consensus, led by 25.6% YoY growth in India.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Key Points  Revenue beat; RM inflation weighs on margins: Revenue grew 16.6% YoY (+7.7% QoQ) to Rs79.7bn, 1.0%/0.6% ahead of NBIE/consensus, led by 25.6% YoY growth in India.",
+        "Key Points  Revenue beat; RM inflation weighs on margins: Revenue grew 16.6% YoY (+7.7% QoQ) to Rs79.7bn, 1.0%/0.6% ahead of NBIE/consensus, led by 25.6% YoY growth in India."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA fell 16.2% YoY to Rs8.55bn, with margin down by 421bps YoY to 10.7% (-100bps QoQ), as a steep rise in the RM basket outpaced price hikes; EBITDA was 4.9%/7.1% below NBIE/consensus.",
+        "PAT declined 27.2% YoY to Rs3.19bn, 3.6% above NBIE but 7.7% below consensus.  Outlook: Management expects 3QFY27 volume growth to moderate to mid-to-high single digits on a higher base, with pricing contributing more towards revenue growth.",
+        "The RM basket should rise by a further mid-to- high single digit QoQ in 3Q, tentatively peaking towards the end of FY27; cumulative price hikes of 13-15% by October remain short of the 16-17% required, and no firm margin-recovery timeline was given."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "FY27 capex is guided at >Rs30bn (H1: ~Rs15bn), with Europe operational stability expected in FY28.  Valuation: We maintain HOLD with a revised TP of Rs469 (Rs458 earlier), valuing the stock at 14x Sep-28E EPS.",
+        "Management acknowledged possible near-term RoCE pressure but retained its mid-teens steady-state target.",
+        "H1 capex was approximately Rs15,000 million; the management acknowledged possible near-term ROCE pressure while retaining a mid-teens steady-state target."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Points  Revenue beat; RM inflation weighs on margins: Revenue grew 16.6% YoY (+7.7% QoQ) to Rs79.7bn, 1.0%/0.6% ahead of NBIE/consensus, led by 25.6% YoY growth in India.",
+        "PAT declined 27.2% YoY to Rs3.19bn, 3.6% above NBIE but 7.7% below consensus.  Outlook: Management expects 3QFY27 volume growth to moderate to mid-to-high single digits on a higher base, with pricing contributing more towards revenue growth."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The RM basket should rise by a further mid-to- high single digit QoQ in 3Q, tentatively peaking towards the end of FY27; cumulative price hikes of 13-15% by October remain short of the 16-17% required, and no firm margin-recovery timeline was given."
+      ]
+    }
+  ]
 }

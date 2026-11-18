@@ -27,5 +27,55 @@
     ]
   },
   "blurb": "Key points  GALSURF reported second consecutive quarter of strong broad-based profitable growth.",
-  "fetchedAt": "2026-11-18T15:52:46.016Z"
+  "fetchedAt": "2026-11-18T15:52:46.016Z",
+  "brokerId": "nirmal-bang",
+  "brokerDisplay": "Nirmal Bang",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+12 positive corporate or estimate event"
+    ]
+  },
+  "execSummary": "Nirmal Bang published a stock note on Galaxy Surfactants. Rating: BUY. Key points  GALSURF reported second consecutive quarter of strong broad-based profitable growth.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Key points  GALSURF reported second consecutive quarter of strong broad-based profitable growth.",
+        "Key points  GALSURF reported second consecutive quarter of strong broad-based profitable growth."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Continued strong growth in India (15% volume growth YoY) along with recovery in AMET (volume up 16%/15% YoY/QoQ) after many quarters were the key highlights of 2QFY27.",
+        "Despite significantly elevated freight & power costs, GALSURF reported Rs26.1 EBITDA/kg during the quarter.  The management remains confident of sustaining the growth momentum, backed by recovery in underlying demand and continued traction in the value-added Specialty portfolio.",
+        "New launches in the Leave-on category, deeper customer relationships and opportunities in developed markets are expected to support profitable growth.  We maintain structurally positive stance on GALSURF led by market leadership in India and AMET regions and strengthening presence in developed markets backed by portfolio innovation and distribution expansion."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key points  GALSURF reported second consecutive quarter of strong broad-based profitable growth.",
+        "Continued strong growth in India (15% volume growth YoY) along with recovery in AMET (volume up 16%/15% YoY/QoQ) after many quarters were the key highlights of 2QFY27."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "New launches in the Leave-on category, deeper customer relationships and opportunities in developed markets are expected to support profitable growth.  We maintain structurally positive stance on GALSURF led by market leadership in India and AMET regions and strengthening presence in developed markets backed by portfolio innovation and distribution expansion."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "As per IQVIA MAT September 2026, Acute: Chronic ratio was 73:27 Result Performance & Investment Rationale: • Q 2FY2 7 – S teady revenue growth and flat margins : Revenues grew ~13% to ~Rs 726 crore, driven by growth in p",
-  "fetchedAt": "2026-11-18T15:50:08.219Z"
+  "fetchedAt": "2026-11-18T15:50:08.219Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": "PFE",
+  "market": "US",
+  "sector": "Drug Manufacturers",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Pfizer. As per IQVIA MAT September 2026, Acute: Chronic ratio was 73:27 Result Performance & Investment Rationale: • Q 2FY2 7 – S teady revenue growth and flat margins : Revenues grew ~13% to ~Rs 726 crore, driven by growth in p",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "As per IQVIA MAT September 2026, Acute: Chronic ratio was 73:27 Result Performance & Investment Rationale: • Q 2FY2 7 – S teady revenue growth and flat margins : Revenues grew ~13% to ~Rs 726 crore, driven by growth in p",
+        "As per IQVIA MAT September 2026, Acute: Chronic ratio was 73:27 Result Performance & Investment Rationale: • Q 2FY2 7 – S teady revenue growth and flat margins : Revenues grew ~13% to ~Rs 726 crore, driven by growth in power brands such as Eliquis (CVS), Gelusil-MPS(Gastrointestinal) and Magnex (Anti-infective) among others."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "There was a de-growth in other power brands such as Becosules (VMS), Mucaine (Antacid), Zavicefta (anti-infective), Meronem (anti- infective).",
+        "EBITDA grew ~14% with a margin increased by 14 bps YoY to 35.9% due despite GPM de-growth by 541 bps to 59.1%.",
+        "Most of the growth has been through recent launches (over the past 5 years) and the new SKUs."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Investments in securities market are subject to market risks.",
+        "None of the research recommendations promise or guarantee any assured, minimum or risk - free retur n to the investors."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Most of the growth has been through recent launches (over the past 5 years) and the new SKUs."
+      ]
+    }
+  ]
 }

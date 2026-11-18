@@ -31,5 +31,52 @@
     ]
   },
   "blurb": "Per (%) -7/32/21 12M Avg Val (INR M) 1401 Financials &Valuations (INR b) Y/E March FY26 FY27E FY28E NII 60.4 90.9 112.5 Total Income 76.6 101.7 123.8 PPoP 41.5 60.4 74.7 PAT (pre-NCI) 18.2 36.3 45.1 PAT (post-NCI) 16.6 3",
-  "fetchedAt": "2026-11-18T15:51:29.484Z"
+  "fetchedAt": "2026-11-18T15:51:29.484Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 36% change"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on IIFL Finance. Target ₹850 (+36% vs ₹627). Per (%) -7/32/21 12M Avg Val (INR M) 1401 Financials &Valuations (INR b) Y/E March FY26 FY27E FY28E NII 60.4 90.9 112.5 Total Income 76.6 101.7 123.8 PPoP 41.5 60.4 74.7 PAT (pre-NCI) 18.2 36.3 45.1 PAT (post-NCI) 16.6 3",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Per (%) -7/32/21 12M Avg Val (INR M) 1401 Financials &Valuations (INR b) Y/E March FY26 FY27E FY28E NII 60.4 90.9 112.5 Total Income 76.6 101.7 123.8 PPoP 41.5 60.4 74.7 PAT (pre-NCI) 18.2 36.3 45.1 PAT (post-NCI) 16.6 3",
+        "Per (%) -7/32/21 12M Avg Val (INR M) 1401 Financials &Valuations (INR b) Y/E March FY26 FY27E FY28E NII 60.4 90.9 112.5 Total Income 76.6 101.7 123.8 PPoP 41.5 60.4 74.7 PAT (pre-NCI) 18.2 36.3 45.1 PAT (post-NCI) 16.6 34.5 42.7 EPS (INR) 39.1 81.1 80.2 EPS Gr."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The company intends to utilise the capital to accelerate growth in its gold finance business and expand its secured lending franchises. ◼ We view the event as a positive development, since it addresses a key balance-sheet constraint and will provide the company with substantial growth capital at a time when it is looking to scale its secured lending franchises.",
+        "The participation of Blackstone, a large global private equity investor, also provides a strong institutional endorsement of the franchise and could improve the company's access to funding over time.",
+        "Importantly, the promoters' participation through warrants, along with Blackstone, demonstrates continued confidence in the business and aligns their interests with the new investor. ◼ We raise our FY27/FY28 EPS estimates by 7%/11% to factor in this equity infusion into the company."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹850 against a market price of ₹627 at the report date.",
+        "Per (%) -7/32/21 12M Avg Val (INR M) 1401 Financials &Valuations (INR b) Y/E March FY26 FY27E FY28E NII 60.4 90.9 112.5 Total Income 76.6 101.7 123.8 PPoP 41.5 60.4 74.7 PAT (pre-NCI) 18.2 36.3 45.1 PAT (post-NCI) 16.6 34.5 42.7 EPS (INR) 39.1 81.1 80.2 EPS Gr.",
+        "IIFL Finance 10 November 2026 3 Valuation and view ◼ We view the transaction positively, as it addresses a key balance-sheet constraint and provides the company with substantial growth capital at a time when it is looking to scale its secured lending franchises.",
+        "We reiterate our BUY rating with a TP of INR850 (based on an SoTP valuation; refer to the table below)."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The company intends to utilise the capital to accelerate growth in its gold finance business and expand its secured lending franchises. ◼ We view the event as a positive development, since it addresses a key balance-sheet constraint and will provide the company with substantial growth capital at a time when it is looking to scale its secured lending franchises.",
+        "IIFL Finance 10 November 2026 3 Valuation and view ◼ We view the transaction positively, as it addresses a key balance-sheet constraint and provides the company with substantial growth capital at a time when it is looking to scale its secured lending franchises."
+      ]
+    }
+  ]
 }

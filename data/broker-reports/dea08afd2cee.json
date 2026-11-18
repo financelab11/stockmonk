@@ -30,5 +30,57 @@
     ]
   },
   "blurb": "Within domestic business, power generation revenue declined 2% YoY, impacted by project execution and data center product mix, although data centers continued to contribute 30-40% of power generation sales.",
-  "fetchedAt": "2026-11-18T15:49:36.427Z"
+  "fetchedAt": "2026-11-18T15:49:36.427Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Cummins India. Rating: BUY. Target ₹5,236. Within domestic business, power generation revenue declined 2% YoY, impacted by project execution and data center product mix, although data centers continued to contribute 30-40% of power generation sales.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Within domestic business, power generation revenue declined 2% YoY, impacted by project execution and data center product mix, although data centers continued to contribute 30-40% of power generation sales.",
+        "Within domestic business, power generation revenue declined 2% YoY, impacted by project execution and data center product mix, although data centers continued to contribute 30-40% of power generation sales."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Non-data center power generation demand remained healthy, with growth across realty, manufacturing and residential segments.",
+        "Distribution business grew ~13% YoY to INR9bn, while industrial revenue increased ~5% to INR4.1bn, with rail, marine and compressor businesses witnessing temporary execution and supply-chain-related challenges.",
+        "Management highlighted robust demand and a healthy inquiry pipeline in data centers, supported by the ongoing AI- led infrastructure investment cycle, while acknowledging capacity and supplier constraints in ramping up QSK60 production."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹5,236.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Buy Buy Target Price 5,236 5,334 Sales (INR mn) 158,995 185,117 161,062 187,541 % Chng.",
+        "The stock is currently trading at a P/E of 38.0x/32.0x for FY28/29E."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(2.0) (1.6) Key Data CUMM.BO | KKC IN BSE Code 500480 NSE Code CUMMINSIND 52-W High / Low INR 6,142 / INR 3,883 Face Value 2 Sensex / Nifty 82,105 / 25,291 Market Cap INR 1,173 bn / $ 12,492 mn Shares Outstanding 277.2 mn 3M Avg.",
+        "Margin recovery remains a key focus, with phased pricing actions, supplier cost negotiations and operational efficiencies being pursued; however, realization of price hikes is expected to lag due to execution of the existing order book at contracted prices and continued cost input."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management highlighted robust demand and a healthy inquiry pipeline in data centers, supported by the ongoing AI- led infrastructure investment cycle, while acknowledging capacity and supplier constraints in ramping up QSK60 production."
+      ]
+    }
+  ]
 }

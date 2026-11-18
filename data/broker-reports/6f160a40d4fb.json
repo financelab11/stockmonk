@@ -30,5 +30,47 @@
     ]
   },
   "blurb": "(IMFA) Result Update| Sector: Metals & Mining SBICAP Securities Limited | 2 Key highlights of the 2QFY27 Result Volume growth drives robust performance Indian Metals & Ferro Alloys Ltd.",
-  "fetchedAt": "2026-11-18T15:52:47.531Z"
+  "fetchedAt": "2026-11-18T15:52:47.531Z",
+  "brokerId": "sbi-securities",
+  "brokerDisplay": "SBI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "SBI Securities published a result update on Indian Metals & Ferro Alloys. (IMFA) Result Update| Sector: Metals & Mining SBICAP Securities Limited | 2 Key highlights of the 2QFY27 Result Volume growth drives robust performance Indian Metals & Ferro Alloys Ltd.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(IMFA) Result Update| Sector: Metals & Mining SBICAP Securities Limited | 2 Key highlights of the 2QFY27 Result Volume growth drives robust performance Indian Metals & Ferro Alloys Ltd.",
+        "(IMFA) Result Update| Sector: Metals & Mining SBICAP Securities Limited | 2 Key highlights of the 2QFY27 Result Volume growth drives robust performance Indian Metals & Ferro Alloys Ltd."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "(IMFA) during 2QFY27 reported 34.7%/69.8%/51.5% YoY increase in Revenue/EBITDA/PAT to Rs 968 cr/235 cr/Rs 148 cr respectively.",
+        "The company achieved its highest-ever quarterly Ferro chrome (FeCr) sales volume of 81,998 metric tonnes (MT), up 17.5% YoY led by volume contribution from the recently commissioned KNR-2 facility.",
+        "However, profitability registered a dip sequentially, with EBITDA/t reaching Rs 28,643, down from Rs 35,483 in 1QFY27, also resulting in EBITDA margin moderating to 24.3% sequentially from 29.3%."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(IMFA) Result Update| Sector: Metals & Mining SBICAP Securities Limited | 2 Key highlights of the 2QFY27 Result Volume growth drives robust performance Indian Metals & Ferro Alloys Ltd."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "However, profitability registered a dip sequentially, with EBITDA/t reaching Rs 28,643, down from Rs 35,483 in 1QFY27, also resulting in EBITDA margin moderating to 24.3% sequentially from 29.3%."
+      ]
+    }
+  ]
 }

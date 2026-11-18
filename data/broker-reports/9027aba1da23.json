@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Positives: • Company’s strategy is to build, own, and operate India’s leading network of tank terminals and distribution facilities. • Proposed integration of Tristar Holdings Limited into Aegis Logistics marks the most ",
-  "fetchedAt": "2026-11-18T15:52:38.306Z"
+  "fetchedAt": "2026-11-18T15:52:38.306Z",
+  "brokerId": "kotak",
+  "brokerDisplay": "Kotak Institutional Equities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Kotak Institutional Equities published a result update on Aegis Logistics. Rating: BUY. Positives: • Company’s strategy is to build, own, and operate India’s leading network of tank terminals and distribution facilities. • Proposed integration of Tristar Holdings Limited into Aegis Logistics marks the most ",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Positives: • Company’s strategy is to build, own, and operate India’s leading network of tank terminals and distribution facilities. • Proposed integration of Tristar Holdings Limited into Aegis Logistics marks the most ",
+        "Positives: • Company’s strategy is to build, own, and operate India’s leading network of tank terminals and distribution facilities. • Proposed integration of Tristar Holdings Limited into Aegis Logistics marks the most significant milestone in the company’s corporate history. • Gas distribution volumes grew significantly. • LPG Distribution Volumes: Reached 2.41 lakh MT, growing 25% yoy."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Negatives: • Sourcing Volumes: Reported at 0.9 lakh MT for the quarter, seeing lower normalized volumes due to the expiration of specific contracts. ` ` ` The content of this document has been derived from Kotak Securities PCG research report.",
+        "Reports based on technical analysis centers on studying charts of a stock's price movement and trading volume, as opposed to focusing on a company's fundamentals and as such, may not match with a report on a company's fundamentals.",
+        "Portfolio Management Team (PMS) takes its investment decisions independent of the PCG research and accordingly PMS may have positions contrary to the PCG research recommendation."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Kotak Securities is not assigning any rating or price target to the stock.",
+        "Kotak Securities has suspended the investment rating and price target for this stock, either because there is not a sufficient fundamental basis for determining, or there are legal, regulatory or policy constraints around publishing, an investment rating or target.",
+        "The previous investment rating and price target, if any, are no longer in effect for this stock and should not be relied upon."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Certain transactions -including those involving futures, options and other derivatives as well as non-investment grade securities - involve substantial risk and are not suitable for all investors.",
+        "The views provided herein are general in nature and does not consider risk appetite or investment objective of particular investor; readers are requested to take independent professional advice before investing."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Portfolio Management Team (PMS) takes its investment decisions independent of the PCG research and accordingly PMS may have positions contrary to the PCG research recommendation."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Per (%) 3/3/16 12M Avg Val (INR M) 3629 Financials & Valuations (INR b) Y/E March 2026 2027E 2028E Sales 440.1 500.8 557.0 EBITDA 57.3 53.0 71.4 Adj.",
-  "fetchedAt": "2026-11-18T15:49:56.751Z"
+  "fetchedAt": "2026-11-18T15:49:56.751Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on Ashok Leyland. Target ₹195 (+16% vs ₹168). Per (%) 3/3/16 12M Avg Val (INR M) 3629 Financials & Valuations (INR b) Y/E March 2026 2027E 2028E Sales 440.1 500.8 557.0 EBITDA 57.3 53.0 71.4 Adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Per (%) 3/3/16 12M Avg Val (INR M) 3629 Financials & Valuations (INR b) Y/E March 2026 2027E 2028E Sales 440.1 500.8 557.0 EBITDA 57.3 53.0 71.4 Adj.",
+        "Per (%) 3/3/16 12M Avg Val (INR M) 3629 Financials & Valuations (INR b) Y/E March 2026 2027E 2028E Sales 440.1 500.8 557.0 EBITDA 57.3 53.0 71.4 Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "(INR) 22.3 24.4 27.7 Ratios RoE (%) 31.0 25.1 31.5 ROCE (%) 26.2 21.6 27.1 Payout (%) 53.8 63.9 60.9 Valuations P/E (x) 25.7 28.5 20.4 P/BV (x) 7.5 6.8 6.1 EV/EBITDA (x) 16.3 17.5 12.8 Div.",
+        "Yield (%) 2.1 2.2 3.0 Shareholding Pattern (%) As of Sep-26 Jun-26 Sep-25 Promoter 51.1 51.1 51.1 DII 16.6 15.7 13.6 FII 20.5 21.3 24.9 Others 11.8 11.9 10.4 FII includes depository receipts CMP: INR168 TP: INR195 (+16%) Buy Resilient margins in tough RM environment MHCV industry to see mid-teen growth in FY27E  Ashok Leyland’s (AL) 2QFY27 PAT at INR8.7b was 6% ahead of estimates.",
+        "EBITDA margin contracted 200bp YoY to 10.1% due to high commodity costs, though still 90bp ahead of our estimates.  CV demand trends have been better than expected so far, with the industry posting strong double-digit growth on a YTD basis."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹195 against a market price of ₹168 at the report date.",
+        "Per (%) 3/3/16 12M Avg Val (INR M) 3629 Financials & Valuations (INR b) Y/E March 2026 2027E 2028E Sales 440.1 500.8 557.0 EBITDA 57.3 53.0 71.4 Adj.",
+        "(INR) 22.3 24.4 27.7 Ratios RoE (%) 31.0 25.1 31.5 ROCE (%) 26.2 21.6 27.1 Payout (%) 53.8 63.9 60.9 Valuations P/E (x) 25.7 28.5 20.4 P/BV (x) 7.5 6.8 6.1 EV/EBITDA (x) 16.3 17.5 12.8 Div.",
+        "We reiterate our BUY rating with a TP of INR195 (based on 14x FY28E EV/EBITDA + ~INR10/sh for NBFC)."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Given sustained demand momentum and resilient margins despite a challenging operating environment, we raise our FY28 earnings estimate by 6%, while maintaining our FY27 estimate unchanged to factor in near-term headwinds from raw material inflation.",
+        "Each recipient of this document should make such investigations as it deems necessary to arrive at an independent evaluation of an investment in the securities of companies referred to in this document (including the merits and risks involved), and should consult its own advisors to determine the merits and risks of such an investment."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "EBITDA margin contracted 200bp YoY to 10.1% due to high commodity costs, though still 90bp ahead of our estimates.  CV demand trends have been better than expected so far, with the industry posting strong double-digit growth on a YTD basis."
+      ]
+    }
+  ]
 }

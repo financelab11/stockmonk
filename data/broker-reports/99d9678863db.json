@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Volumes recovered to 619k MT (+4.21% QoQ / -8.02% YoY) as deliveries to Middle East smelters resumed vs nil in Q2.",
-  "fetchedAt": "2026-11-18T15:51:05.530Z"
+  "fetchedAt": "2026-11-18T15:51:05.530Z",
+  "brokerId": "arihant",
+  "brokerDisplay": "Arihant Capital",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Arihant Capital published a stock note on Rain Industries. Volumes recovered to 619k MT (+4.21% QoQ / -8.02% YoY) as deliveries to Middle East smelters resumed vs nil in Q2.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Volumes recovered to 619k MT (+4.21% QoQ / -8.02% YoY) as deliveries to Middle East smelters resumed vs nil in Q2.",
+        "Volumes recovered to 619k MT (+4.21% QoQ / -8.02% YoY) as deliveries to Middle East smelters resumed vs nil in Q2."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Adj EBITDA rose 37.7% YoY to INR 7,420 Mn (-8.5% QoQ); OP margin stood at 18.65% (+216 bps YoY / -286 bps QoQ).",
+        "Calcination margins improved sequentially while Distillation eased on higher coal tar and energy costs; the CPC-GPC spread held steady QoQ and well above last year.",
+        "Some margin moderation is expected in Q4 as higher-cost GPC flows through."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Valuation & Outlook: Q3CY26 marked a normalisation from Q2’s peak margins, though 9MCY26 adj EBITDA of INR 25.65 Bn (+51% YoY) is already ~80% of our CY26E EBITDA of INR 31,346 Mn.",
+        "Key update to maintain watch on Lake Charles kiln restart expected by Dec-26, working capital release, refinancing of the 12.25% USD 445 Mn notes from Mar-27 and CY26 FCF guidance of USD 60-65 Mn."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Some margin moderation is expected in Q4 as higher-cost GPC flows through."
+      ]
+    }
+  ]
 }

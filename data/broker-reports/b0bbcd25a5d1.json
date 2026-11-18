@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "In USD terms it reported growth of 1.8% QoQ and 3.5% YoY in revenues at USD 67.4 Mn (vs CIE estimate of USD 67.9 Mn). ▪ EBIT came in at INR 978.1 Mn, up 3.0% QoQ and 27.9% YoY (vs CIE estimate of INR 968.9 Mn).",
-  "fetchedAt": "2026-11-18T15:52:47.305Z"
+  "fetchedAt": "2026-11-18T15:52:47.305Z",
+  "brokerId": "choice",
+  "brokerDisplay": "Choice Broking",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 23% change"
+    ]
+  },
+  "execSummary": "Choice Broking published a stock note on Happiest Minds Techno. Rating: BUY. Target ₹375 (+23% vs ₹306). In USD terms it reported growth of 1.8% QoQ and 3.5% YoY in revenues at USD 67.4 Mn (vs CIE estimate of USD 67.9 Mn). ▪ EBIT came in at INR 978.1 Mn, up 3.0% QoQ and 27.9% YoY (vs CIE estimate of INR 968.9 Mn).",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "In USD terms it reported growth of 1.8% QoQ and 3.5% YoY in revenues at USD 67.4 Mn (vs CIE estimate of USD 67.9 Mn). ▪ EBIT came in at INR 978.1 Mn, up 3.0% QoQ and 27.9% YoY (vs CIE estimate of INR 968.9 Mn).",
+        "In USD terms it reported growth of 1.8% QoQ and 3.5% YoY in revenues at USD 67.4 Mn (vs CIE estimate of USD 67.9 Mn). ▪ EBIT came in at INR 978.1 Mn, up 3.0% QoQ and 27.9% YoY (vs CIE estimate of INR 968.9 Mn)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBIT margin came in at 15.2% for Q2FY27, up 4 bps QoQ and 182 bps YoY (vs CIE estimate of 14.9%). ▪ PAT for the quarter came in at INR 621.9 Mn, down by 8.0% QoQ and up 15.1% YoY (vs CIE estimate of INR 677 Mn).",
+        "Revenue Grows and Margin Expands Driven by AI-led Transformation: HAPPSTMN reported Q2FY27 revenue increased 2.7% QoQ/12.5% YoY to INR 6,450 Mn (2.4% QoQ/6.0% YoY CC), with EBIT margin came in at 15.2% up 4 bps QoQ, supported by higher utilisation (81.8%), IP-led revenues (10.5%) and operational efficiencies.",
+        "BFSI (+5.2% QoQ) remained the largest vertical (~28% of revenue), a strong growth in Retail & CPG (+11.0%), High-Tech (+4.3%) and Industrial (+5.3%)."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹375 against a market price of ₹306 at the report date.",
+        "The management reiterated FY27 revenue growth guidance of 12.5% and USD-1 Bn FY28 revenue target.",
+        "The proposed ITC Infotech merger, targeting a USD 1 Bn revenue business by FY28, is another key strategic development.",
+        "At the current valuation of 18x average FY28–29E earnings, we believe the risk- reward remains constructive."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Risk-reward remains constructive, supported by medium-term growth visibility, IP scale-up and AI-led transformation; the US demand recovery and EdTech stabilisation remain key monitorables.",
+        "The proposed ITC Infotech merger, targeting a USD 1 Bn revenue business by FY28, is another key strategic development."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "BFSI (+5.2% QoQ) remained the largest vertical (~28% of revenue), a strong growth in Retail & CPG (+11.0%), High-Tech (+4.3%) and Industrial (+5.3%)."
+      ]
+    }
+  ]
 }

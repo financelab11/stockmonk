@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Q 2F Y2 7 performance : ICIL’s consolidated revenues reported 57.5% YoY growth to Rs.1672.7cr in Q2FY27.",
-  "fetchedAt": "2026-11-18T15:52:22.251Z"
+  "fetchedAt": "2026-11-18T15:52:22.251Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Indo Count Industries. Q 2F Y2 7 performance : ICIL’s consolidated revenues reported 57.5% YoY growth to Rs.1672.7cr in Q2FY27.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Q 2F Y2 7 performance : ICIL’s consolidated revenues reported 57.5% YoY growth to Rs.1672.7cr in Q2FY27.",
+        "Q 2F Y2 7 performance : ICIL’s consolidated revenues reported 57.5% YoY growth to Rs.1672.7cr in Q2FY27."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Core business (standalone) reported 38% YoY revenue growth while new business grew by more than 3x in Q2FY27.",
+        "Consolidated gross margins declined by 260bps YoY to 50.4% and EBITDA margins improved 417bps YoY to 13.9%.",
+        "EBITDA more than doubled to Rs.233cr while PAT grew ~3x YoY to Rs.176.3cr in Q2FY27."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Particulars Particuar Amount Market Capitalisation (Rs crore) 9705 Debt (FY26) - Rs crore 1591 Cash (FY26) - Rs crore 314 EV (Rs crore) 10982 52-week H/L (Rs) 536 / 217 Equity capital (Rs crore) 39.6 Face value (Rs) 2 Shareholding pattern Dec - 25 Mar - 26 Jun - 26 Sep - 26 Promoters 58.7 58.7 58.7 58.7 FII 9.9 9.9 10.1 10.7 DII 6.0 5.7 5.8 6.1 Others 25.4 25.7 25.3 24.5 Price Chart Key risks I.",
+        "Q 2FY2 7 – Key P erformance highlights • ICIL’s consolidated revenues grew by 57.5% YoY to Rs.1672.2cr in Q2FY27."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "EBITDA more than doubled to Rs.233cr while PAT grew ~3x YoY to Rs.176.3cr in Q2FY27."
+      ]
+    }
+  ]
 }

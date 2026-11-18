@@ -30,5 +30,57 @@
     ]
   },
   "blurb": "(0.2) (0.2) EBITDA (INR mn) 8,668 10,660 8,442 10,341 % Chng. 2.7 3.1 EPS (INR) 29.9 37.8 29.1 36.4 % Chng. 2.7 3.8 Key Data FRAL.BO | FRACTAL IN BSE Code 544700 NSE Code FRACTAL 52-W High / Low INR 1,119 / INR 696 Face ",
-  "fetchedAt": "2026-11-18T15:51:39.497Z"
+  "fetchedAt": "2026-11-18T15:51:39.497Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Fractal Analytics. Rating: BUY. Target ₹1,060. (0.2) (0.2) EBITDA (INR mn) 8,668 10,660 8,442 10,341 % Chng. 2.7 3.1 EPS (INR) 29.9 37.8 29.1 36.4 % Chng. 2.7 3.8 Key Data FRAL.BO | FRACTAL IN BSE Code 544700 NSE Code FRACTAL 52-W High / Low INR 1,119 / INR 696 Face ",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(0.2) (0.2) EBITDA (INR mn) 8,668 10,660 8,442 10,341 % Chng. 2.7 3.1 EPS (INR) 29.9 37.8 29.1 36.4 % Chng. 2.7 3.8 Key Data FRAL.BO | FRACTAL IN BSE Code 544700 NSE Code FRACTAL 52-W High / Low INR 1,119 / INR 696 Face ",
+        "(0.2) (0.2) EBITDA (INR mn) 8,668 10,660 8,442 10,341 % Chng. 2.7 3.1 EPS (INR) 29.9 37.8 29.1 36.4 % Chng. 2.7 3.8 Key Data FRAL.BO | FRACTAL IN BSE Code 544700 NSE Code FRACTAL 52-W High / Low INR 1,119 / INR 696 Face Value 1 Sensex / Nifty 77,301 / 23,961 Market Cap INR 145 bn / $ 1,537 mn Shares Outstanding 174.1 mn 3M Avg."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Growth was led by HLS (+79% YoY) and BFSI (+30% YoY), while TMT returned to sequential growth (+5.6%) after five qtrs. of degrowth, with management expecting a gradual recovery through H2FY27.",
+        "In contrast, CPG declined 7.1% QoQ amid vendor consolidation and macro-related challenges, although management expects sequential growth to resume from Q3.",
+        "The products business continued to gain traction, with license revenues growing 39% YoY to INR380mn (~4% of rev.), taking the annualized run rate to over INR1.5bn, while product RPO exceeded INR2.0bn."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹1,060.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 1,060 1,020 Sales (INR mn) 46,834 55,267 46,944 55,383 % Chng.",
+        "Management is targeting an annualized product rev. run rate of ~USD100mn over the next 12 quarters.",
+        "We continue to value the company at 17x EV/EBITDA to arrive at a target price of INR 1,060 and maintain our BUY rating."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(0.2) (0.2) EBITDA (INR mn) 8,668 10,660 8,442 10,341 % Chng. 2.7 3.1 EPS (INR) 29.9 37.8 29.1 36.4 % Chng. 2.7 3.8 Key Data FRAL.BO | FRACTAL IN BSE Code 544700 NSE Code FRACTAL 52-W High / Low INR 1,119 / INR 696 Face Value 1 Sensex / Nifty 77,301 / 23,961 Market Cap INR 145 bn / $ 1,537 mn Shares Outstanding 174.1 mn 3M Avg."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The products business continued to gain traction, with license revenues growing 39% YoY to INR380mn (~4% of rev.), taking the annualized run rate to over INR1.5bn, while product RPO exceeded INR2.0bn."
+      ]
+    }
+  ]
 }

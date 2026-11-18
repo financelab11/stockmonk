@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "EBITDA remained broadly flat at INR 41.7 cr, while EBITDA margins moderated to 8.3% from 8.5%, amid steel price volatility, supply disruptions and ramp-up costs.",
-  "fetchedAt": "2026-11-18T15:51:44.185Z"
+  "fetchedAt": "2026-11-18T15:51:44.185Z",
+  "brokerId": "ventura",
+  "brokerDisplay": "Ventura Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Ventura Securities published a result update on Interarch Building Solutions. Rating: BUY. EBITDA remained broadly flat at INR 41.7 cr, while EBITDA margins moderated to 8.3% from 8.5%, amid steel price volatility, supply disruptions and ramp-up costs.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "EBITDA remained broadly flat at INR 41.7 cr, while EBITDA margins moderated to 8.3% from 8.5%, amid steel price volatility, supply disruptions and ramp-up costs.",
+        "EBITDA remained broadly flat at INR 41.7 cr, while EBITDA margins moderated to 8.3% from 8.5%, amid steel price volatility, supply disruptions and ramp-up costs."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "PAT declined 4.9% YoY to INR 30.7 cr, impacted by higher depreciation following capacity additions and lower interest income as funds were deployed towards capex.",
+        "H1FY27 revenue and EBITDA increased 10.7% YoY to INR 965 cr and INR 81.1 cr, respectively.",
+        "Order book increased to INR 2,011 cr as of October 2026, providing healthy execution visibility over approximately 10–11 months."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "HSS capacity stands at approximately 25,000 tonnes annually, targeted to reach 75,000–80,000 tonnes by December 2027.",
+        "Near-term margin improvement will remain limited by HSS and export development costs, while management targets 11–12% EBITDA margins within two years.",
+        "Valuation: We assign a BUY rating on Interarch Building Solutions with a target price of INR 2,382 based on 17x P/E, implying an upside of 50% from the current market price of INR 1,583 over the next 24 months."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Interarch operates primarily in the B2B segment, offering design, manufacturing, and turnkey construction services to corporate, industrial, and institutional clients.",
+        "Steel pass-through provisions, stricter payment terms and better overhead absorption are expected to improve profitability and reduce execution risk. • Capacity Expansion Progressing: Gujarat PEB Phase 1 and Andhra Pradesh HSS Phase 1 were commissioned during H1FY27, with management indicating that both Gujarat phases are now operational."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Order book increased to INR 2,011 cr as of October 2026, providing healthy execution visibility over approximately 10–11 months."
+      ]
+    }
+  ]
 }

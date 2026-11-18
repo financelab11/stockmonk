@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update AZAD: Capacity Expansion Complete; Growth Acceleration Ahead November 09 2026 | CMP: INR 2,500 | Target Price: INR",
-  "fetchedAt": "2026-11-18T15:51:32.724Z"
+  "fetchedAt": "2026-11-18T15:51:32.724Z",
+  "brokerId": "choice",
+  "brokerDisplay": "Choice Broking",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Choice Broking published a stock note on Azad Engineering. Target ₹2,870 (+15% vs ₹2,500). Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update AZAD: Capacity Expansion Complete; Growth Acceleration Ahead November 09 2026 | CMP: INR 2,500 | Target Price: INR",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update AZAD: Capacity Expansion Complete; Growth Acceleration Ahead November 09 2026 | CMP: INR 2,500 | Target Price: INR",
+        "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update AZAD: Capacity Expansion Complete; Growth Acceleration Ahead November 09 2026 | CMP: INR 2,500 | Target Price: INR 2,870 Expected Share Price Return: 14.7% I Div."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "(%) Revenue 8,200 8,200 0.0 11,317 11,317 0.0 EBITDA 3,157 2,993 5.4 4,380 4,142 5.7 EBITDAM% 38.5 36.5 200bps 38.7 36.6 210bps PAT 1,835 1,947 -5.7 2,588 2,765 -6.4 EPS 28.4 30.2 -5.7 40.1 42.8 -6.4 Actual vs CIE Estimates INR Mn Q2FY27A CIE Estimates Dev.",
+        "Daily Volume 7,30,133 Putta Ravi Kumar Email: ravi.putta@choiceindia.com Ph: +91 22 6707 9908 Capacity Expansion Complete; Growth Acceleration Ahead Azad Engineering reported a strong Q2FY27 performance, with revenue growing 31.6% YoY to INR 187.8 Cr, marking its highest-ever quarterly revenue.",
+        "We believe AZAD is entering into a key growth phase, with its capacity expansion largely complete and all six customer-dedicated facilities commissioned."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹2,870 against a market price of ₹2,500 at the report date.",
+        "Ltd.—Research Analyst - INH000000222 | Email: institutional.equities@choiceindia.com Q2FY27 Result Update AZAD: Capacity Expansion Complete; Growth Acceleration Ahead November 09 2026 | CMP: INR 2,500 | Target Price: INR 2,870 Expected Share Price Return: 14.7% I Div.",
+        "Yield: 0.0% I Potential Upside: 14.7% Institutional Equities | Defence & Aerospace Change in Estimates Change in Target Price Change in Recommendation Change in CIE Estimates FY27E FY28E INR Mn New Old Dev.",
+        "We expect the gradual completion of customer qualifications and ramp-up of these facilities to drive revenue growth from Q4FY27, with full utilisation targeted by H1FY28."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "We believe AZAD is entering into a key growth phase, with its capacity expansion largely complete and all six customer-dedicated facilities commissioned.",
+        "This Report does not take into account the specific investment objectives, financial situation, risk profile, or particular needs of any individual or class of investors and does not constitute a personal recommendation or investment advice."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "We believe AZAD is entering into a key growth phase, with its capacity expansion largely complete and all six customer-dedicated facilities commissioned."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "AUM stood at INR 150.19 bn, flat QoQ and up 23% YoY, while H1FY27 PAT rose 53% YoY to INR 1.19 bn.",
-  "fetchedAt": "2026-11-18T15:51:57.753Z"
+  "fetchedAt": "2026-11-18T15:51:57.753Z",
+  "brokerId": "arihant",
+  "brokerDisplay": "Arihant Capital",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+12 positive corporate or estimate event"
+    ]
+  },
+  "execSummary": "Arihant Capital published a stock note on Ugro Capital. Rating: BUY. AUM stood at INR 150.19 bn, flat QoQ and up 23% YoY, while H1FY27 PAT rose 53% YoY to INR 1.19 bn.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "AUM stood at INR 150.19 bn, flat QoQ and up 23% YoY, while H1FY27 PAT rose 53% YoY to INR 1.19 bn.",
+        "AUM stood at INR 150.19 bn, flat QoQ and up 23% YoY, while H1FY27 PAT rose 53% YoY to INR 1.19 bn."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Pivot Gains Traction as Focus Book Crosses Half of AUM: Net disbursements hit a record INR 31.59 bn, up 77% YoY and 24% QoQ, with disbursements above INR 10 bn in every month of the quarter.",
+        "Portfolio yield rose 53 bps QoQ and 108 bps YoY to 18.7%, and quarterly operating cost has come down to INR 1.27 bn from INR 2.05 bn in Q4FY26, in line with FY27 guidance.",
+        "Stock Performance (%) 1m 6m 12m Ugro Capital Ltd (11.92) (30.11) (61.41) Nifty 50 11.21 5.16 (4.21) Both Growth Engines Compounding on Built Infrastructure: Emerging Market LAP AUM grew 10% QoQ and 42% YoY to INR 42.68 bn on disbursements of INR 6.92 bn, with yield of about 18.4% and GNPA of 2.0%."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Valuation and View: UGRO delivered a steady Q2FY27, with PPOP up 22% QoQ, record disbursements and the focus book crossing 53% of AUM, though higher credit costs from book seasoning kept earnings growth modest.",
+        "Management targets a steady state ROA of 3.0% to 3.5% by FY29 without fresh equity and expects profits to improve every quarter, while restated financials post merger should reduce volatility from income reversals.",
+        "At the CMP of INR 71 per share, we maintain our “BUY” rating and value the stock at 0.65x its FY29E ABV of INR 241, arriving at a target price of INR 157, an upside of 122%."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The credit cost trajectory and the merger restatement remain key monitorables, and we will revisit our estimates once restated financials are published.",
+        "ACML confirms that neither it nor its associates have a financial interest or material conflict concerning the companies covered in the research report at the time of publication."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Stock Performance (%) 1m 6m 12m Ugro Capital Ltd (11.92) (30.11) (61.41) Nifty 50 11.21 5.16 (4.21) Both Growth Engines Compounding on Built Infrastructure: Emerging Market LAP AUM grew 10% QoQ and 42% YoY to INR 42.68 bn on disbursements of INR 6.92 bn, with yield of about 18.4% and GNPA of 2.0%."
+      ]
+    }
+  ]
 }

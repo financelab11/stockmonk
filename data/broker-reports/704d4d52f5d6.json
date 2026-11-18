@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Retail 1 Premiumisation and Retail Expansion to Drive Growth Est.",
-  "fetchedAt": "2026-11-18T15:49:41.383Z"
+  "fetchedAt": "2026-11-18T15:49:41.383Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on Relaxo Footwear. Rating: HOLD. Retail 1 Premiumisation and Retail Expansion to Drive Growth Est.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Retail 1 Premiumisation and Retail Expansion to Drive Growth Est.",
+        "Retail 1 Premiumisation and Retail Expansion to Drive Growth Est."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Actual for Q2FY27: Revenue – BEAT; EBITDA – MISS; PAT – MISS Changes in Estimates Post Q2FY27 FY27E/FY28E: Revenue: -2%/-3%; EBITDA: -15%/-20%; PAT: -25%/-29% Recommendation Rationale • Revenue Growth Driven by Pricing and Product Mix: Relaxo reported ~12% YoY revenue growth, driven by higher realisations and a favourable product mix, with average realisation increasing to Rs 186 from Rs 151 YoY.",
+        "Growth remained broad-based across channels, supported by its diversified brand portfolio and extensive distribution network.",
+        "Going forward, premiumisation and sports footwear are expected to be key growth drivers."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "Result Update 17th November, 2026 HOLD Target Price 300 Relaxo Footwears Ltd.",
+        "The company remains focused on expanding its retail footprint, targeting 500 EBOs by FY27-end. • Margins Remain Under Pressure: Relaxo’s profitability continues to face pressure from elevated and volatile raw material prices, particularly rubber, which has reached a record high of Rs 300/kg, along with rising labour costs amid the ongoing West Asia conflict.",
+        "Current Valuation: 47x Sep’28E EPS (Earlier Valuation: 52x Jun’28E EPS ) Current TP: Rs 300/share (Earlier TP: Rs 450) Recommendation: With a 6% upside from the CMP, we maintain our HOLD rating on the stock."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Going forward, premiumisation and sports footwear are expected to be key growth drivers.",
+        "The company will continue to make selective investments in brand building, distribution and retail expansion. • Demand Outlook: Relaxo remains cautiously optimistic about demand in H2FY27, while closely monitoring raw material price volatility and evolving consumer preferences."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Going forward, premiumisation and sports footwear are expected to be key growth drivers."
+      ]
+    }
+  ]
 }

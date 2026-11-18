@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Key Points  Indiqube’s reported revenue from operations came to Rs4,719mn (+34.8% YoY/+11.6% QoQ), 3.7% ahead of our estimate.",
-  "fetchedAt": "2026-11-18T15:53:09.915Z"
+  "fetchedAt": "2026-11-18T15:53:09.915Z",
+  "brokerId": "nirmal-bang",
+  "brokerDisplay": "Nirmal Bang",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Nirmal Bang published a stock note on Indiqube Spaces. Rating: BUY. Key Points  Indiqube’s reported revenue from operations came to Rs4,719mn (+34.8% YoY/+11.6% QoQ), 3.7% ahead of our estimate.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Key Points  Indiqube’s reported revenue from operations came to Rs4,719mn (+34.8% YoY/+11.6% QoQ), 3.7% ahead of our estimate.",
+        "Key Points  Indiqube’s reported revenue from operations came to Rs4,719mn (+34.8% YoY/+11.6% QoQ), 3.7% ahead of our estimate."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Adj EBITDA (our normalised, pre Ind AS 116 metric) of Rs1,024mn (+63% YoY and +37% QoQ) was a ~26% beat with Adj EBITDA margin at 21% (up 375bps YoY and 400bps QoQ).",
+        "Reported Ind-AS loss narrowed to just -Rs59mn vs - Rs299mn YoY — the smallest quarterly loss yet, nearing Ind-AS breakeven.  Operating leverage kicks in: The margin beat reflects operating leverage finally kicking in, with revenue growth (+11.6% QoQ) significantly outpacing cash lease payments (+4% QoQ).",
+        "VAS margins stepped up from ~15% to ~20% with the management indicating an 18–20% sustainable range.  Growth visibility strong, but H2 loaded: AUM reached 10.86msf across 138 centres/17 cities, of which 2.67msf is signed future supply and total unmonetised headroom is ~3.81msf (~85k seats, incl. 1.14msf of vacant operational space)."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Client retention remained ~90%, with blended renewal escalations of ~5%.  We maintain BUY and roll forward our valuation to 10x Sep-28E EV/Adj EBITDA with revised TP of Rs270 (from Rs235 earlier).",
+        "Solar remains the key investment priority, with ~30MW operational, another ~30MW planned and ~Rs1,000mn annual capex targeting a ~3- year payback.",
+        "EBITDA by ~11% and ~8% on the margin step up, and roll our valuation forward to 10x Sep'28E EV/Adj."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Points  Indiqube’s reported revenue from operations came to Rs4,719mn (+34.8% YoY/+11.6% QoQ), 3.7% ahead of our estimate.",
+        "Outlook: IndiQube remains marginally net cash (D/E: ~-0.01x), with H1 operating cash flow of Rs5,134mn."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "VAS margins stepped up from ~15% to ~20% with the management indicating an 18–20% sustainable range.  Growth visibility strong, but H2 loaded: AUM reached 10.86msf across 138 centres/17 cities, of which 2.67msf is signed future supply and total unmonetised headroom is ~3.81msf (~85k seats, incl. 1.14msf of vacant operational space)."
+      ]
+    }
+  ]
 }

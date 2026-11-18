@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "(%) 9.4 10.0 25.6 23.2 DPS (INR) 2.2 3.4 3.4 3.4 Yield (%) 0.3 0.4 0.4 0.4 RoE (%) 14.4 14.0 15.5 16.6 RoCE (%) 15.3 16.4 18.2 19.4 EV/Sales (x) 8.8 7.4 6.3 5.2 EV/EBITDA (x) 33.7 28.2 23.7 19.6 PE (x) 53.4 48.6 38.7 31.",
-  "fetchedAt": "2026-11-18T15:51:47.841Z"
+  "fetchedAt": "2026-11-18T15:51:47.841Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Max Healthcare Institute. Rating: BUY. (%) 9.4 10.0 25.6 23.2 DPS (INR) 2.2 3.4 3.4 3.4 Yield (%) 0.3 0.4 0.4 0.4 RoE (%) 14.4 14.0 15.5 16.6 RoCE (%) 15.3 16.4 18.2 19.4 EV/Sales (x) 8.8 7.4 6.3 5.2 EV/EBITDA (x) 33.7 28.2 23.7 19.6 PE (x) 53.4 48.6 38.7 31.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(%) 9.4 10.0 25.6 23.2 DPS (INR) 2.2 3.4 3.4 3.4 Yield (%) 0.3 0.4 0.4 0.4 RoE (%) 14.4 14.0 15.5 16.6 RoCE (%) 15.3 16.4 18.2 19.4 EV/Sales (x) 8.8 7.4 6.3 5.2 EV/EBITDA (x) 33.7 28.2 23.7 19.6 PE (x) 53.4 48.6 38.7 31.",
+        "(%) 9.4 10.0 25.6 23.2 DPS (INR) 2.2 3.4 3.4 3.4 Yield (%) 0.3 0.4 0.4 0.4 RoE (%) 14.4 14.0 15.5 16.6 RoCE (%) 15.3 16.4 18.2 19.4 EV/Sales (x) 8.8 7.4 6.3 5.2 EV/EBITDA (x) 33.7 28.2 23.7 19.6 PE (x) 53.4 48.6 38.7 31.4 P/BV (x) 7.2 6.4 5.6 4.9 Improving growth visibility Result Report Max Healthcare Institute (MAXHEALT) reported strong quarter with EBITDA growth of 18% YoY to INR 8.2bn."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Sequentially growth rebound with new bed addition and seasonality.",
+        "The YoY growth was impacted due to ongoing discontinuation of chemo drugs for institutional patients which will be in base from Q3FY27.",
+        "We expect growth to further pick-up with benefits of new bed addition (including new brownfield beds at Nanavati, Mohali and Max Smart), CGHS price revision benefit and further ramp up at Noida, Dwarka and turnaround of Kalinga unit at Bhubaneswar."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 1,080 1,150 Sales (INR mn) 140,628 167,578 141,028 166,826 % Chng.",
+        "(%) 9.4 10.0 25.6 23.2 DPS (INR) 2.2 3.4 3.4 3.4 Yield (%) 0.3 0.4 0.4 0.4 RoE (%) 14.4 14.0 15.5 16.6 RoCE (%) 15.3 16.4 18.2 19.4 EV/Sales (x) 8.8 7.4 6.3 5.2 EV/EBITDA (x) 33.7 28.2 23.7 19.6 PE (x) 53.4 48.6 38.7 31.4 P/BV (x) 7.2 6.4 5.6 4.9 Improving growth visibility Result Report Max Healthcare Institute (MAXHEALT) reported strong quarter with EBITDA growth of 18% YoY to INR 8.2bn.",
+        "Nanavati Phase II: 270 beds, project work commenced and commissioning targeted for FY30."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(2.1) (1.0) Key Data MAXI.BO | MAXHEALT IN BSE Code 543220 NSE Code MAXHEALTH 52-W High / Low INR 1,187 / INR 797 Face Value 10 Sensex / Nifty 76,918 / 23,811 Market Cap INR 872 bn / $ 9,199 mn Shares Outstanding 973.33 mn 3M Avg.",
+        "Outlook: Revenue growth of ~20% should accelerate in Q3/Q4FY27 as Oncology growth is expected to accelerate on a lower base, aided by incremental brownfield and greenfield capacity additions."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "We expect growth to further pick-up with benefits of new bed addition (including new brownfield beds at Nanavati, Mohali and Max Smart), CGHS price revision benefit and further ramp up at Noida, Dwarka and turnaround of Kalinga unit at Bhubaneswar."
+      ]
+    }
+  ]
 }

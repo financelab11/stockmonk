@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Revenue included a) gain on InvITs & Related Assets as per fair value measurement, and b) dividend/interest income from InvITs & Related Assets.  EBITDA margins came in at 55.6% (v/s our estimate of 53%) in 2QFY27 (+280",
-  "fetchedAt": "2026-11-18T15:51:43.837Z"
+  "fetchedAt": "2026-11-18T15:51:43.837Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 29% change"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on IRB Infrastructure Developers. Target ₹22 (+29% vs ₹17). Revenue included a) gain on InvITs & Related Assets as per fair value measurement, and b) dividend/interest income from InvITs & Related Assets.  EBITDA margins came in at 55.6% (v/s our estimate of 53%) in 2QFY27 (+280",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Revenue included a) gain on InvITs & Related Assets as per fair value measurement, and b) dividend/interest income from InvITs & Related Assets.  EBITDA margins came in at 55.6% (v/s our estimate of 53%) in 2QFY27 (+280",
+        "Revenue included a) gain on InvITs & Related Assets as per fair value measurement, and b) dividend/interest income from InvITs & Related Assets.  EBITDA margins came in at 55.6% (v/s our estimate of 53%) in 2QFY27 (+280bp YoY and +165bp QoQ)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA grew ~14% YoY to INR10.5b (in line).  APAT grew 85% to INR2.6b (31% above estimate), led by low interest cost.  Construction revenue stood at INR8.2b (flat YoY); BOT revenue stood at INR7.2b (+15% YoY); and InvIT & related assets revenue stood at INR3.5b.  IRB declared an interim dividend of INR0.05 per equity share.  Order book stands at ~INR433b (excl.",
+        "GST) as at the end of Sep’26.  During 1HFY27, revenue/EBITDA/APAT grew by 5%/18%/65%.  IRB delivered a steady performance, supported by rising toll collections.",
+        "The company is strategically focusing on bidding for toll-operate-transfer (ToT) projects and building a sustainable O&M order book."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹22 against a market price of ₹17 at the report date.",
+        "Revenue included a) gain on InvITs & Related Assets as per fair value measurement, and b) dividend/interest income from InvITs & Related Assets.  EBITDA margins came in at 55.6% (v/s our estimate of 53%) in 2QFY27 (+280bp YoY and +165bp QoQ).",
+        "However, management expects road project awarding to pick up in 2HFY27, as delays arising from NHAI's evaluation of compensation mechanisms for MLFF-based tolling have now been resolved.  Management indicated that 2QFY27 interest expense level should be considered the new quarterly run rate, with further reductions expected as the wholly owned SPVs continue to deleverage.",
+        "Valuation and view  IRB reported a steady performance, supported by rising toll collections."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Each recipient of this document should make such investigations as it deems necessary to arrive at an independent evaluation of an investment in the securities of companies referred to in this document (including the merits and risks involved), and should consult its own advisors to determine the merits and risks of such an investment.",
+        "Certain transactions -including those involving futures, options, another derivative products as well as non-investment grade securities - involve substantial risk and are not suitable for all investors."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The company is strategically focusing on bidding for toll-operate-transfer (ToT) projects and building a sustainable O&M order book."
+      ]
+    }
+  ]
 }

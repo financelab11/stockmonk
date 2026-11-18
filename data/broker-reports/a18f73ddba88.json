@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "(PRICOL) Result Update| Sector: Auto Ancillary SBICAP Securities Limited | 2 Key Highlights of the 2QFY27 Result Robust 2QFY27 performance: Pricol delivered strong Revenue/EBITDA/PAT growth of 35%/29%/33% YoY, driven by ",
-  "fetchedAt": "2026-11-18T15:52:30.644Z"
+  "fetchedAt": "2026-11-18T15:52:30.644Z",
+  "brokerId": "sbi-securities",
+  "brokerDisplay": "SBI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "SBI Securities published a result update on Pricol. Target ₹826. (PRICOL) Result Update| Sector: Auto Ancillary SBICAP Securities Limited | 2 Key Highlights of the 2QFY27 Result Robust 2QFY27 performance: Pricol delivered strong Revenue/EBITDA/PAT growth of 35%/29%/33% YoY, driven by ",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "(PRICOL) Result Update| Sector: Auto Ancillary SBICAP Securities Limited | 2 Key Highlights of the 2QFY27 Result Robust 2QFY27 performance: Pricol delivered strong Revenue/EBITDA/PAT growth of 35%/29%/33% YoY, driven by ",
+        "(PRICOL) Result Update| Sector: Auto Ancillary SBICAP Securities Limited | 2 Key Highlights of the 2QFY27 Result Robust 2QFY27 performance: Pricol delivered strong Revenue/EBITDA/PAT growth of 35%/29%/33% YoY, driven by broad-based growth across DIS (Driver Information System), ACFMS (Actuation, Control and Fluid Management Systems) and 3PL (Pricol Precision Products)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The company outperformed industry growth of ~20%, supported by its higher 2W exposure (2W industry growth 15% YoY), premium product mix, export traction and new product launches.",
+        "Segment performance: DIS growth was driven by higher TFT cluster adoption, premiumization and new launches, supporting market share gains.",
+        "ACFMS continued to benefit from strong 2W fuel pump demand and healthy export traction, led by heavy-duty water pump supplies to Caterpillar. 3PL saw strong Revenue and EBITDA YoY growth of 33% and 45% respectively."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹826.",
+        "The company has been operating as two independent divisions since Oct'26 and targets full separation of DICVS and ACFMS by Apr'27.",
+        "Maintain BUY – Target Price cut to Rs 826 Considering the near-term headwinds in form of difficulty in passing through abnormal cost increases to OEMs as well as capacity constraints in the plastic moulding division, we cut our FY27E EPS estimate by 14.3% to factor in the cost pressure.",
+        "We also roll over our estimate to FY28E, valuing at 22x FY28E EPS to arrive at Target Price of Rs 826."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(PRICOL) Result Update| Sector: Auto Ancillary SBICAP Securities Limited | 2 Key Highlights of the 2QFY27 Result Robust 2QFY27 performance: Pricol delivered strong Revenue/EBITDA/PAT growth of 35%/29%/33% YoY, driven by broad-based growth across DIS (Driver Information System), ACFMS (Actuation, Control and Fluid Management Systems) and 3PL (Pricol Precision Products).",
+        "Management indicated a ~100-200 bps margin impact from these exceptional cost headwinds."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "ACFMS continued to benefit from strong 2W fuel pump demand and healthy export traction, led by heavy-duty water pump supplies to Caterpillar. 3PL saw strong Revenue and EBITDA YoY growth of 33% and 45% respectively."
+      ]
+    }
+  ]
 }

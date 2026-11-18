@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Results Update 5th November 2026 HOLD Target Price 2,180 Lupin Ltd Pharma 1 Building a Durable Growth Engine Est. vs.",
-  "fetchedAt": "2026-11-18T15:52:50.084Z"
+  "fetchedAt": "2026-11-18T15:52:50.084Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on Lupin. Rating: HOLD. Target ₹2,180. Results Update 5th November 2026 HOLD Target Price 2,180 Lupin Ltd Pharma 1 Building a Durable Growth Engine Est. vs.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Results Update 5th November 2026 HOLD Target Price 2,180 Lupin Ltd Pharma 1 Building a Durable Growth Engine Est. vs.",
+        "Results Update 5th November 2026 HOLD Target Price 2,180 Lupin Ltd Pharma 1 Building a Durable Growth Engine Est. vs."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Actual for Q2FY27: Revenue – MISS; EBITDA Margin – INLINE; PAT – MISS Changes in Estimates (%) post Q2FY27 FY27E/FY28E: Revenue: 0%/0%; EBITDA Abs: 0%/0%; PAT: 0%/0% Recommendation Rationale • Steady Quarter Executed; Surging US Competition Curbs Margins: Lupin delivered stable Q2FY27 financial results, with sales rising 14% YoY to Rs 77,855 Mn and EBITDA reaching Rs 21,712 Mn (27.9% margin).",
+        "Management's full-year EBITDA margin guidance remains around 24% to 25%, implying continued caution. • US Revenues Drop While Base Holds Steady: US sales reached US$317 Mn (down 13% QoQ), supported by seasonal demand and base volume expansion.",
+        "However, management confirmed US quarterly revenues faced declines stemming from loss of exclusivity, matching the full-year US sales guidance of US$1.1–1.2 Bn."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "Target price ₹2,180.",
+        "Results Update 5th November 2026 HOLD Target Price 2,180 Lupin Ltd Pharma 1 Building a Durable Growth Engine Est. vs.",
+        "According to management, over the next three years, Lupin targets launching 60+ products in the US, including 25 injectables and respiratory items, alongside five biosimilars.",
+        "In domestic formulations, anti-diabetes grew over 25% aided by the Semaglutide rollout across dedicated divisions, advancing Lupin’s 70% chronic portfolio target."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key milestones include a tentative approval for 505(b)(2) Apixaban and the rollout of Pegfilgrastim.",
+        "Sector Outlook: Positive Company Outlook & Guidance: Lupin’s long-term guidance highlights an accelerating structural shift toward high-barrier complex platforms, though near-term margin normalization continues to support a cautious Hold stance."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "However, management confirmed US quarterly revenues faced declines stemming from loss of exclusivity, matching the full-year US sales guidance of US$1.1–1.2 Bn."
+      ]
+    }
+  ]
 }

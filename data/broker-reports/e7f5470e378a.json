@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Investment Rationale: • Diversified retail franchise to sustain healthy growth : LTF’s diversified retail franchise continues to support healthy business momentum, with moderation in rural disbursement amid uneven monsoo",
-  "fetchedAt": "2026-11-18T15:50:06.123Z"
+  "fetchedAt": "2026-11-18T15:50:06.123Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "ICICI Securities published a result update on L&T Finance. Investment Rationale: • Diversified retail franchise to sustain healthy growth : LTF’s diversified retail franchise continues to support healthy business momentum, with moderation in rural disbursement amid uneven monsoo",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Investment Rationale: • Diversified retail franchise to sustain healthy growth : LTF’s diversified retail franchise continues to support healthy business momentum, with moderation in rural disbursement amid uneven monsoo",
+        "Investment Rationale: • Diversified retail franchise to sustain healthy growth : LTF’s diversified retail franchise continues to support healthy business momentum, with moderation in rural disbursement amid uneven monsoons being offset by traction across Urban, SME and Gold Finance."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Accelerated expansion in Gold Finance through branch additions, normalisation in PL post implementation of Cyclops and calibrated pick-up in rural businesses should provide incremental growth levers.",
+        "Focus on prime customers, coupled with disciplined guardrails across businesses, should enable risk-calibrated growth while maintaining portfolio quality.",
+        "We expect ~24% CAGR in AUM over FY26-28E. • Resilient margins to support earnings trajectory : Despite shift towards prime customers, NIM + fee income remained resilient at 10.48%, aided by liability management resulting in cost of borrowing declining below 7%."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Focus on prime customers, coupled with disciplined guardrails across businesses, should enable risk-calibrated growth while maintaining portfolio quality.",
+        "However, exposure to drought-affected regions at ~3% of the rural book remains a monitorable, as potential El Niño-led stress could delay credit cost normalisation and moderate the pace of RoA improvement."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "We expect ~24% CAGR in AUM over FY26-28E. • Resilient margins to support earnings trajectory : Despite shift towards prime customers, NIM + fee income remained resilient at 10.48%, aided by liability management resulting in cost of borrowing declining below 7%."
+      ]
+    }
+  ]
 }

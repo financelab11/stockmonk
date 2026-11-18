@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "PAT 4,261 2,444 3,009 3,798 Growth YoY (%) 41.3 (42.6) 23.1 26.2 Adj.",
-  "fetchedAt": "2026-11-18T15:52:24.870Z"
+  "fetchedAt": "2026-11-18T15:52:24.870Z",
+  "brokerId": "nirmal-bang",
+  "brokerDisplay": "Nirmal Bang",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Nirmal Bang published a stock note on JK Lakshmi Cement. Rating: ACCUMULATE. PAT 4,261 2,444 3,009 3,798 Growth YoY (%) 41.3 (42.6) 23.1 26.2 Adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "PAT 4,261 2,444 3,009 3,798 Growth YoY (%) 41.3 (42.6) 23.1 26.2 Adj.",
+        "PAT 4,261 2,444 3,009 3,798 Growth YoY (%) 41.3 (42.6) 23.1 26.2 Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The upcoming 6.8mtpa eastern expansion by Mar-28 and the 1.1mtpa entry into Central India are expected to drive the next phase of growth.",
+        "Despite seasonal disruptions, particularly in the east, volume growth stood at 4.9% YoY in 2QFY27 and 6.7% in 1HFY27.",
+        "The upcoming expansions are expected to translate into meaningful volume growth as new capacities ramp up."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: ACCUMULATE.",
+        "Outlook and valuation: We roll forward our estimates to FY29E and project revenue, EBITDA, and Adj.",
+        "We maintain our valuation multiple at 9.5x Sep-28E forward EV/EBITDA and revise our target price to Rs576 (from Rs693), implying 22% upside, while retaining our BUY rating.",
+        "The unchanged multiple reflects the potential for limited impact of incremental cost pressure, volume growth from capacity additions in FY29E, and the stock’s current valuation near its 52-week low."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "With 18mtpa of installed capacity and 74% capacity utilisation, the company has sufficient headroom to cater to incremental demand across its key markets.",
+        "The limited increase in other expenses, despite operating deleverage and industry-wide packing-cost concerns, is also encouraging."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The upcoming expansions are expected to translate into meaningful volume growth as new capacities ramp up."
+      ]
+    }
+  ]
 }

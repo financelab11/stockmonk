@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Business performance: Gland reported revenue of Rs18.3bn in Q2 FY27, up 23.3% YoY, driven by strong CDMO growth and steady demand in critical injectables, with new US launches and volume gains in existing products.",
-  "fetchedAt": "2026-11-18T15:51:39.735Z"
+  "fetchedAt": "2026-11-18T15:51:39.735Z",
+  "brokerId": "nirmal-bang",
+  "brokerDisplay": "Nirmal Bang",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Nirmal Bang published a stock note on Gland Pharma. Rating: HOLD. Business performance: Gland reported revenue of Rs18.3bn in Q2 FY27, up 23.3% YoY, driven by strong CDMO growth and steady demand in critical injectables, with new US launches and volume gains in existing products.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Business performance: Gland reported revenue of Rs18.3bn in Q2 FY27, up 23.3% YoY, driven by strong CDMO growth and steady demand in critical injectables, with new US launches and volume gains in existing products.",
+        "Business performance: Gland reported revenue of Rs18.3bn in Q2 FY27, up 23.3% YoY, driven by strong CDMO growth and steady demand in critical injectables, with new US launches and volume gains in existing products."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "ROW and India were weak due to tender delays and low volume uptake.",
+        "EBITDA rose 54.2% YoY to Rs4.8bn, with margin up 529bps to 26.4%, on a better business mix, operating leverage and lower other expenses, even after R&D spend rose 75.4% YoY.",
+        "Cenexi reported an EBITDA loss of €6mn on its planned annual shutdown, which also kept the tax rate high at 32.5%."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "Valuation: We roll forward our valuation to Sep-28E and raise our target multiple to 34x from 25x, arriving at a revised TP of ₹3,553 (from ₹2,885).",
+        "Our revised multiple sits about 0.2 standard deviations below Gland’s five-year mean forward P/E of 37x, compared with roughly 0.9 standard deviations below for our earlier 25x.",
+        "We stop short of the historical average because part of the five-year mean was set during the FY24-25 earnings trough, when depressed EPS inflated the multiple."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Outlook: We forecast net sales growing at a 13% CAGR over FY26-29E and EBITDA growing at a 16% CAGR over FY27-29E.",
+        "Demand in key emerging markets remains healthy.  The management expects ROW to improve."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Cenexi reported an EBITDA loss of €6mn on its planned annual shutdown, which also kept the tax rate high at 32.5%."
+      ]
+    }
+  ]
 }

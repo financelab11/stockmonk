@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "x ICICI Securities – Retail Equity Research Data Patterns (DATPAT) CMP: ₹ 4025 Target ₹ 4920 (22%) Target Period: 12 months November 10, 2026 Execution to pick-up in H2; large order pipeline supports long-term growth… Ab",
-  "fetchedAt": "2026-11-18T15:51:28.974Z"
+  "fetchedAt": "2026-11-18T15:51:28.974Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": "DATAPATTNS",
+  "market": "IN",
+  "sector": "Defence & Electronics",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Data Patterns (India). x ICICI Securities – Retail Equity Research Data Patterns (DATPAT) CMP: ₹ 4025 Target ₹ 4920 (22%) Target Period: 12 months November 10, 2026 Execution to pick-up in H2; large order pipeline supports long-term growth… Ab",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "x ICICI Securities – Retail Equity Research Data Patterns (DATPAT) CMP: ₹ 4025 Target ₹ 4920 (22%) Target Period: 12 months November 10, 2026 Execution to pick-up in H2; large order pipeline supports long-term growth… Ab",
+        "x ICICI Securities – Retail Equity Research Data Patterns (DATPAT) CMP: ₹ 4025 Target ₹ 4920 (22%) Target Period: 12 months November 10, 2026 Execution to pick-up in H2; large order pipeline supports long-term growth… About the stock : Data Patterns (India) (DPIL) is a vertically integrated defence and aerospace electronics solutions provider."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Customers include MoD, DRDO, DPSUs, private sector players and exports • Company’s order backlog stands at ₹ 2,698 crore as of Sep’26 Investment Rationale: • Strong order inflows and growing order visibility support near - term revenue growth: The company secured fresh orders worth ₹1,046 crore during H1FY27, taking its order book to ₹2,698 crore (3.5x TTM evenue) as of Sep-26 including negotiated orders.",
+        "Management also indicated an additional order pipeline of ₹1,500-2,000 crore, with opportunities across HAL, radar, electronic warfare and other defence programmes.",
+        "Management believes that developing complete products in-house will enable direct participation in larger MoD programmes, increase value addition and reduce dependence on ToT through defence PSUs."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Company’s domain expertise is in development & manufacturing of key electronic systems like radars, electronic warfare, communication systems, avionics, satellite and test equipment’s.",
+        "Investments in securities market are subject to market risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management believes that developing complete products in-house will enable direct participation in larger MoD programmes, increase value addition and reduce dependence on ToT through defence PSUs."
+      ]
+    }
+  ]
 }

@@ -28,5 +28,54 @@
     ]
   },
   "blurb": "Wanbury’s Q2 FY27 (quarter ended 30 September 2026) standalone revenue stood at INR 182.91 crore, up 14.3% YoY from INR 160.06 crore and 10.5% QoQ from INR 165.58 crore.",
-  "fetchedAt": "2026-11-18T15:52:37.241Z"
+  "fetchedAt": "2026-11-18T15:52:37.241Z",
+  "brokerId": "ventura",
+  "brokerDisplay": "Ventura Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Ventura Securities published a result update on Wanbury. Rating: BUY. Wanbury’s Q2 FY27 (quarter ended 30 September 2026) standalone revenue stood at INR 182.91 crore, up 14.3% YoY from INR 160.06 crore and 10.5% QoQ from INR 165.58 crore.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Wanbury’s Q2 FY27 (quarter ended 30 September 2026) standalone revenue stood at INR 182.91 crore, up 14.3% YoY from INR 160.06 crore and 10.5% QoQ from INR 165.58 crore.",
+        "Wanbury’s Q2 FY27 (quarter ended 30 September 2026) standalone revenue stood at INR 182.91 crore, up 14.3% YoY from INR 160.06 crore and 10.5% QoQ from INR 165.58 crore."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Profitability recovered sequentially, although margins remained below the year- ago level.",
+        "Gross margin improved to 54.1% from 52.3% in Q1 FY27 but declined from 58.1% in Q2 FY26.",
+        "EBITDA, calculated as PBT before exceptional items plus finance costs and depreciation ,stood at INR 26.21 crore, up 0.9% YoY and 57.9% QoQ."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Valuation call: We maintain a Buy rating with a price target of INR 240, representing an upside of 27.7% from the current CMP of INR 188 over the next 24 months."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "And such person shall be responsible for conducting his/her/their own investigation and analysis of the information contained or referred to in this document and of evaluating the merits and risks involved in the securities forming the subject matter of this document."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "EBITDA, calculated as PBT before exceptional items plus finance costs and depreciation ,stood at INR 26.21 crore, up 0.9% YoY and 57.9% QoQ."
+      ]
+    }
+  ]
 }

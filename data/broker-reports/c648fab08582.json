@@ -30,5 +30,57 @@
     ]
   },
   "blurb": "Revenue declined 12% YoY to INR 26.4bn, while EBITDA margin contracted 750bps YoY to 3.5%, including the impact of a one-time provision.",
-  "fetchedAt": "2026-11-18T15:52:10.171Z"
+  "fetchedAt": "2026-11-18T15:52:10.171Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Afcons Infrastructure. Rating: HOLD. Target ₹230 (+5% vs ₹219). Revenue declined 12% YoY to INR 26.4bn, while EBITDA margin contracted 750bps YoY to 3.5%, including the impact of a one-time provision.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Revenue declined 12% YoY to INR 26.4bn, while EBITDA margin contracted 750bps YoY to 3.5%, including the impact of a one-time provision.",
+        "Revenue declined 12% YoY to INR 26.4bn, while EBITDA margin contracted 750bps YoY to 3.5%, including the impact of a one-time provision."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "With the execution uncertainty persisting alongside elevated working capital requirements, management has refrained from providing a FY27 guidance.",
+        "While order inflows (OI) have picked up, with YTD inflows of INR 194bn, timely execution and cash conversion remain key monitorable.",
+        "Its order book (OB; including L1) stands at INR 472bn (4.3x TTM revenue), providing healthy revenue visibility."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "Target price ₹230 against a market price of ₹219 at the report date.",
+        "Moreover, the management still remains uncertain on execution front and refrains from giving guidance for FY27, as a result we trim our multiple to 12x (vs. 17x earlier).",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "While order inflows (OI) have picked up, with YTD inflows of INR 194bn, timely execution and cash conversion remain key monitorable.",
+        "Key downside risks: 1) Delays in execution of projects; 2) delays in payments from customers; thereby, increasing the receivables position; and 3) lower-than-expected OI."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Its order book (OB; including L1) stands at INR 472bn (4.3x TTM revenue), providing healthy revenue visibility."
+      ]
+    }
+  ]
 }

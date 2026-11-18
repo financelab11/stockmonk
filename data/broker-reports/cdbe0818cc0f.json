@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Order momentum (+85.9% YoY) was broad-based across domestic transmission, industries, data centres, exports (+41% YoY) and services (+77% YoY).",
-  "fetchedAt": "2026-11-18T15:50:39.526Z"
+  "fetchedAt": "2026-11-18T15:50:39.526Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": "POWERINDIA",
+  "market": "IN",
+  "sector": "Power & Renewables",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Hitachi Energy India. Rating: BUY. Target ₹37,725. Order momentum (+85.9% YoY) was broad-based across domestic transmission, industries, data centres, exports (+41% YoY) and services (+77% YoY).",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Order momentum (+85.9% YoY) was broad-based across domestic transmission, industries, data centres, exports (+41% YoY) and services (+77% YoY).",
+        "Order momentum (+85.9% YoY) was broad-based across domestic transmission, industries, data centres, exports (+41% YoY) and services (+77% YoY)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The data centre opportunity continues to gain traction across India and APAC, with the recently launched grid-to-rack solution expected to be manufactured locally upon securing orders.",
+        "Execution of the Khavda– Nagpur and Bhadla–Fatehpur HVDC projects are progressing, with ~5% and ~10% of project cumulative revenues recognised, respectively, while 4–5 new HVDC opportunities are expected over the next 12–24 months, including an approved 800kV VSC project.",
+        "Structural growth drivers remain intact across grid modernisation, renewable integration, HVDC, BESS, data centres and industrial electrification, supported by a strong pipeline and management's confidence in sustained growth in base orders."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹37,725.",
+        "Ongoing capacity expansion projects are largely targeted for completion by end-2027, alongside a new large power transformer facility planned for 2028.",
+        "The stock is currently trading at P/E of 54.0x/45.2x on the earnings of FY28E/29E.",
+        "The company has secured multiple orders from global hyperscalers and domestic players across India and Asia-Pacific excluding US."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The company is also well-positioned for the emerging 1,150kV AC opportunity, having completed design, testing and localisation of key equipment.",
+        "Key wins included transformer and STATCOM orders, grid automation projects, data centre orders from global hyperscalers and domestic players, and service contracts."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Structural growth drivers remain intact across grid modernisation, renewable integration, HVDC, BESS, data centres and industrial electrification, supported by a strong pipeline and management's confidence in sustained growth in base orders."
+      ]
+    }
+  ]
 }

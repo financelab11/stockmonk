@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "The company is further optimising its payor mix by reducing exposure scheme-based patient at mature hospitals.",
-  "fetchedAt": "2026-11-18T15:53:14.493Z"
+  "fetchedAt": "2026-11-18T15:53:14.493Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 45% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Max Healthcare Institute. Rating: BUY. Target ₹1,300 (+45% vs ₹896). The company is further optimising its payor mix by reducing exposure scheme-based patient at mature hospitals.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "The company is further optimising its payor mix by reducing exposure scheme-based patient at mature hospitals.",
+        "The company is further optimising its payor mix by reducing exposure scheme-based patient at mature hospitals."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Concurrently, international patient flows remain strong (+33%).",
+        "While the ramp up of newly added beds could drive growth in the next few quarters, Max plans to add another 500 brownfield beds and 300–400 greenfield beds over the next 3–4 quarters to sustain this upward momentum.",
+        "We raise our FY27E/FY28E EBITDA by ~1%/4% to factor in better margins with the newly operationalised brownfield beds."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹1,300 against a market price of ₹896 at the report date.",
+        "A 500-bed greenfield facility at Gurgaon is expected to be operationalised in phases, with 150–200 beds targeted to be commissioned in Q4FY27.",
+        "Valuation and risks Backed by a 16% increase in operational bed capacity (M&A and brownfield), Max has been able to overcome the impact of CGHS’ drug discontinuation effected in Oct’25.",
+        "The stock currently trades at an EV/EBITDA of 28.5x FY27E and 22.7x FY28E."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Valuation and risks Backed by a 16% increase in operational bed capacity (M&A and brownfield), Max has been able to overcome the impact of CGHS’ drug discontinuation effected in Oct’25.",
+        "Downside risks: Trade margin curb on pharmaceuticals and medical supplies, execution risk on capacity expansion; and CGHS/institutional pricing pressure."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "We raise our FY27E/FY28E EBITDA by ~1%/4% to factor in better margins with the newly operationalised brownfield beds."
+      ]
+    }
+  ]
 }

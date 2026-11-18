@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Average realisations softened ~3% YoY to Rs 6,199/t, offsetting healthy volume growth.",
-  "fetchedAt": "2026-11-18T15:50:46.400Z"
+  "fetchedAt": "2026-11-18T15:50:46.400Z",
+  "brokerId": "baroda-etrade",
+  "brokerDisplay": "Baroda eTrade",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Baroda eTrade published a stock note on First Light | CPI, Star Cement. Rating: BUY. Average realisations softened ~3% YoY to Rs 6,199/t, offsetting healthy volume growth.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Average realisations softened ~3% YoY to Rs 6,199/t, offsetting healthy volume growth.",
+        "Average realisations softened ~3% YoY to Rs 6,199/t, offsetting healthy volume growth."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Cement volumes (excluding clinker) increased ~12% YoY to ~1.2mt, while overall sales volumes grew ~8.6% YoY to ~1.27mnt.",
+        "Northeast (core) growth was muted at 1.5% YoY due to flooding, while eastern markets grew 13.5% YoY.",
+        "Lower realisations weigh on operating profitability: EBITDA declined ~19.3% YoY to ~Rs 1.5bn, with EBITDA margin contracting ~500bps YoY to 18.5%."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Going forward, we expect upside risks to CPI to continue from weather related shocks, especially on food inflation front.",
+        "We see food inflation risks tilted to the upside primarily from weather related shocks.",
+        "Further there has been news reports of fear of adverse weather conditions in States such as Karnataka, Maharashtra, parts of Andhra Pradesh, Telangana, and Rajasthan, which are also major Tomato Onion and Potato (TOP) producing States, hence for food inflation considerable upside risks remain."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Going forward, we expect upside risks to CPI to continue from weather related shocks, especially on food inflation front.",
+        "We see food inflation risks tilted to the upside primarily from weather related shocks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Lower realisations weigh on operating profitability: EBITDA declined ~19.3% YoY to ~Rs 1.5bn, with EBITDA margin contracting ~500bps YoY to 18.5%."
+      ]
+    }
+  ]
 }

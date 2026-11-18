@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Negatives: • Under-recoveries due to the Max Smart expansion impacted margins by ~150 bps. • Several of Max’s new projects have faced delays since the initial announcement. • Despite the correction, the stock is still tr",
-  "fetchedAt": "2026-11-18T15:53:13.955Z"
+  "fetchedAt": "2026-11-18T15:53:13.955Z",
+  "brokerId": "kotak",
+  "brokerDisplay": "Kotak Institutional Equities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Kotak Institutional Equities published a result update on Max Healthcare. Rating: REDUCE. Negatives: • Under-recoveries due to the Max Smart expansion impacted margins by ~150 bps. • Several of Max’s new projects have faced delays since the initial announcement. • Despite the correction, the stock is still tr",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Negatives: • Under-recoveries due to the Max Smart expansion impacted margins by ~150 bps. • Several of Max’s new projects have faced delays since the initial announcement. • Despite the correction, the stock is still tr",
+        "Negatives: • Under-recoveries due to the Max Smart expansion impacted margins by ~150 bps. • Several of Max’s new projects have faced delays since the initial announcement. • Despite the correction, the stock is still trading at a punchy ~28X FY28E pre-Ind AS-116 EV/EBITDA after baking in the hit from the trade margin caps on onco drugs."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "(EV = Enterprise Value; EBITDA = Earnings Before Interest, Taxes, Depreciation and Amortisation; OBD = Occupied Bed Days; SC = Supreme Court; CAGR = Compound Annual Growth Rate) ` ` ` The content of this document has been derived from KIE research report.",
+        "Reports based on technical analysis centers on studying charts of a stock's price movement and trading volume, as opposed to focusing on a company's fundamentals and as such, may not match with a report on a company's fundamentals.",
+        "Portfolio Management Team (PMS) takes its investment decisions independent of the PCG research and accordingly PMS may have positions contrary to the PCG research recommendation."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: REDUCE.",
+        "Negatives: • Under-recoveries due to the Max Smart expansion impacted margins by ~150 bps. • Several of Max’s new projects have faced delays since the initial announcement. • Despite the correction, the stock is still trading at a punchy ~28X FY28E pre-Ind AS-116 EV/EBITDA after baking in the hit from the trade margin caps on onco drugs.",
+        "Kotak Securities is not assigning any rating or price target to the stock.",
+        "Kotak Securities has suspended the investment rating and price target for this stock, either because there is not a sufficient fundamental basis for determining, or there are legal, regulatory or policy constraints around publishing, an investment rating or target."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Certain transactions -including those involving futures, options and other derivatives as well as non-investment grade securities - involve substantial risk and are not suitable for all investors.",
+        "The views provided herein are general in nature and does not consider risk appetite or investment objective of particular investor; readers are requested to take independent professional advice before investing."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Portfolio Management Team (PMS) takes its investment decisions independent of the PCG research and accordingly PMS may have positions contrary to the PCG research recommendation."
+      ]
+    }
+  ]
 }

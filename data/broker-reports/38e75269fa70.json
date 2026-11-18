@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Praveen Sahay Shivam Patel praveensahay@plindia.com | +91-22-66322369 shivampatel@plindia.com | +91-22-66322274 PL Research is also available on www.plindia.com, Bloomberg, Thomson Reuters and Factset Institutional Equit",
-  "fetchedAt": "2026-11-18T15:50:10.947Z"
+  "fetchedAt": "2026-11-18T15:50:10.947Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Vikram Solar. Rating: BUY. Target ₹171. Praveen Sahay Shivam Patel praveensahay@plindia.com | +91-22-66322369 shivampatel@plindia.com | +91-22-66322274 PL Research is also available on www.plindia.com, Bloomberg, Thomson Reuters and Factset Institutional Equit",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Praveen Sahay Shivam Patel praveensahay@plindia.com | +91-22-66322369 shivampatel@plindia.com | +91-22-66322274 PL Research is also available on www.plindia.com, Bloomberg, Thomson Reuters and Factset Institutional Equit",
+        "Praveen Sahay Shivam Patel praveensahay@plindia.com | +91-22-66322369 shivampatel@plindia.com | +91-22-66322274 PL Research is also available on www.plindia.com, Bloomberg, Thomson Reuters and Factset Institutional Equities | 1 R A T I N G BUY | C M P INR 140 | T P INR 171 Vikram Solar (VIKRAMSO IN) Q2FY27 Result Update November 16, 2026 ☑ Estimate Change | ☑ Target | ☑ Reco."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY Accumulate Target Price 171 162 Sales (INR mn) 133,311 160,020 126,824 150,284 % Chng. 5.1 6.5 EBITDA (INR mn) 19,759 23,700 18,791 22,257 % Chng. 5.2 6.5 EPS (INR) 19.3 25.0 20.5 26.3 % Chng.",
+        "EBITDA/Wp improved 36.6% QoQ to INR1.71, supported by a favourable sales mix, higher distribution contribution and cost optimization.",
+        "Distribution volumes grew 78.6% QoQ to 259MW, with their share increasing to 44.0% from 14.0%, while DCR volumes grew 71.1% QoQ to 130MW."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹171.",
+        "Praveen Sahay Shivam Patel praveensahay@plindia.com | +91-22-66322369 shivampatel@plindia.com | +91-22-66322274 PL Research is also available on www.plindia.com, Bloomberg, Thomson Reuters and Factset Institutional Equities | 1 R A T I N G BUY | C M P INR 140 | T P INR 171 Vikram Solar (VIKRAMSO IN) Q2FY27 Result Update November 16, 2026 ☑ Estimate Change | ☑ Target | ☑ Reco.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY Accumulate Target Price 171 162 Sales (INR mn) 133,311 160,020 126,824 150,284 % Chng. 5.1 6.5 EBITDA (INR mn) 19,759 23,700 18,791 22,257 % Chng. 5.2 6.5 EPS (INR) 19.3 25.0 20.5 26.3 % Chng.",
+        "However, following the recent stock price correction, we upgrade our rating to ‘BUY’ from ‘Accumulate’, with a revised TP of INR171 (earlier INR162), valuing the stock at 5x Mar’28E EV/EBITDA, implying a P/E of 8x Sep’28E earnings."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(5.9) (4.9) Key Data VIKO.BO | VIKRAMSO IN BSE Code 544488 NSE Code VIKRAMSOLR 52-W High / Low INR 319 / INR 124 Face Value 10 Sensex / Nifty 82,105 / 25,291 Market Cap INR 51 bn / $ 540 mn Shares Outstanding 362.35 mn 3M Avg.",
+        "While improving sales mix and anticipated volume recovery provide near-term support, continued pricing pressure in non-DCR modules, dependence on procured cells and significant capex commitments remain key concerns."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Distribution volumes grew 78.6% QoQ to 259MW, with their share increasing to 44.0% from 14.0%, while DCR volumes grew 71.1% QoQ to 130MW."
+      ]
+    }
+  ]
 }

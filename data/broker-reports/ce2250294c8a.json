@@ -30,5 +30,56 @@
     ]
   },
   "blurb": "Key Risks- Any regulatory changes affecting derivatives volumes.",
-  "fetchedAt": "2026-11-18T15:51:34.114Z"
+  "fetchedAt": "2026-11-18T15:51:34.114Z",
+  "brokerId": "ventura",
+  "brokerDisplay": "Ventura Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Ventura Securities published a result update on BSE. Rating: HOLD. Key Risks- Any regulatory changes affecting derivatives volumes.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Key Risks- Any regulatory changes affecting derivatives volumes.",
+        "Key Risks- Any regulatory changes affecting derivatives volumes."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "BSE Limited delivered consolidated total income reaching INR 1,551 cr, representing a 36.0% YoY increase (-9.2% sequential growth), with revenue from operations standing at INR 1,433 cr (+34.1% YoY).",
+        "Operating EBITDA (including Core SGF) climbed to INR 973 cr, up 43.0% YoY, with margins expanding to 67.9% (vs 66.8% in Q1 FY27).",
+        "Net profit attributable to shareholders reached INR 809 cr (+44.9% YoY), reflecting a robust 52.2% net margin as the exchange continues to realize significant operating leverage despite inflationary technology spending."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "The current valuations based on our DCF-based target we maintain a HOLD rating with target price of INR 4,468 (27X FY29 P/E), reflecting a 17.6% upside from CMP of INR 3,800.",
+        "Management targets reaching a \"double-digit market share\" in the cash segment by early CY2027, noting that institutional volumes are rising as legacy structural barriers are addressed."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key Risks- Any regulatory changes affecting derivatives volumes.",
+        "Key Performance Drivers Equity Cash Market Share: The exchange recorded quarterly Average Daily Turnover (ADTV) of INR 10,494 cr."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Net profit attributable to shareholders reached INR 809 cr (+44.9% YoY), reflecting a robust 52.2% net margin as the exchange continues to realize significant operating leverage despite inflationary technology spending."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Q 2F Y2 7 performance : KPR reported 19% YoY growth in consolidated revenues to Rs.1939.7cr.",
-  "fetchedAt": "2026-11-18T15:51:03.691Z"
+  "fetchedAt": "2026-11-18T15:51:03.691Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on K P R Mill. Q 2F Y2 7 performance : KPR reported 19% YoY growth in consolidated revenues to Rs.1939.7cr.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Q 2F Y2 7 performance : KPR reported 19% YoY growth in consolidated revenues to Rs.1939.7cr.",
+        "Q 2F Y2 7 performance : KPR reported 19% YoY growth in consolidated revenues to Rs.1939.7cr."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Textile business revenues grew by 16.6% YoY growth to Rs.1478.7cr and sugar business revenues grew by 27% YoY to Rs.436.1cr.",
+        "Consolidated gross margins improved by 490bps YoY to 44.4% while EBITDA margins improved by 640bps YoY to 25.7%.",
+        "Textile business EBIT margins improved by 606bps YoY to 24.9% while Sugar business margins improved to 16.8% witnessing ~3x expansion on YoY basis."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Investment Rationale: Textile business registered strong all - round performance in Q2FY27; near term outlook remain buoyant: KPR’s textile business recovered to double digit revenue growth after four consecutive quarters driven by broad base performance across key business verticals.",
+        "Sugar business outperforms on strong ethanol sales in H1FY27; bleak outlook for H2 : KPR’s sugar business (~20% of revenues) registered strong performance with revenues growing by 42% YoY to Rs856cr in H1FY27."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Textile business EBIT margins improved by 606bps YoY to 24.9% while Sugar business margins improved to 16.8% witnessing ~3x expansion on YoY basis."
+      ]
+    }
+  ]
 }

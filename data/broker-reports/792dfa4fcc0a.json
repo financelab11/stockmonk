@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "EBITDA increased 37.3% YoY and 8.6% QoQ to INR 151 Cr, with EBITDA margin at 28.0% vs 30.0% in Q1FY27, impacted by a change in business mix.",
-  "fetchedAt": "2026-11-18T15:51:24.715Z"
+  "fetchedAt": "2026-11-18T15:51:24.715Z",
+  "brokerId": "ventura",
+  "brokerDisplay": "Ventura Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Ventura Securities published a result update on Shilpa Medicare. EBITDA increased 37.3% YoY and 8.6% QoQ to INR 151 Cr, with EBITDA margin at 28.0% vs 30.0% in Q1FY27, impacted by a change in business mix.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "EBITDA increased 37.3% YoY and 8.6% QoQ to INR 151 Cr, with EBITDA margin at 28.0% vs 30.0% in Q1FY27, impacted by a change in business mix.",
+        "EBITDA increased 37.3% YoY and 8.6% QoQ to INR 151 Cr, with EBITDA margin at 28.0% vs 30.0% in Q1FY27, impacted by a change in business mix."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "PAT stood at INR 79 Cr, up 79.5% YoY but declining 21.5% QoQ, with PAT margin at 14.7%.",
+        "The company delivered its highest-ever quarterly revenue and EBITDA, reflecting strong performance across its API, formulations and biologics businesses.",
+        "The API business recorded revenue of INR 298 Cr including captive sales, while non-captive API revenue stood at INR 255 Cr, growing 24% YoY."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Growth was supported by improved uptake of key products from expanded capacities and increasing traction in Specialty CDMO, which reported 36% YoY growth.",
+        "The Formulations business remained a key growth driver with revenue of INR 210 Cr, contributing 39% of Q2FY27 revenue and growing over 50% YoY, led by complex finished dosage formulations across regulated markets."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The API business recorded revenue of INR 298 Cr including captive sales, while non-captive API revenue stood at INR 255 Cr, growing 24% YoY."
+      ]
+    }
+  ]
 }

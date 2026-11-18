@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "H1FY27 revenue grew 26% vs. its guidance of 15%+ FY27, indicating a strong possibility of BEL meeting its target.",
-  "fetchedAt": "2026-11-18T15:53:04.156Z"
+  "fetchedAt": "2026-11-18T15:53:04.156Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Bharat Electronics. Rating: BUY. Target ₹446 (+17% vs ₹380). H1FY27 revenue grew 26% vs. its guidance of 15%+ FY27, indicating a strong possibility of BEL meeting its target.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "H1FY27 revenue grew 26% vs. its guidance of 15%+ FY27, indicating a strong possibility of BEL meeting its target.",
+        "H1FY27 revenue grew 26% vs. its guidance of 15%+ FY27, indicating a strong possibility of BEL meeting its target."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "OB additions of INR 550bn largely depend upon QRSAM orders (INR 300bn) – likely to arrive by Dec’26.",
+        "We expect the company to marginally surpass its guidance given a sizeable TAM.",
+        "Given consecutive quarters of outperformance, we upgrade BEL to BUY; TP of INR 446 (based on 40x FY28E EPS)."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹446 against a market price of ₹380 at the report date.",
+        "H1FY27 revenue grew 26% vs. its guidance of 15%+ FY27, indicating a strong possibility of BEL meeting its target.",
+        "BEL is also investing significantly in its R&D capabilities and is expected to increase the expenditure here to INR 22bn in FY27 to target non-defence revenues over the next 4– 5 years through data centres, cyber security, rail and space; all while increasing its potential TAM size.",
+        "AMCA • BEL has submitted a bid in consortium with L&T on 50:50 basis. • 2-3 months of technical evaluation is expected before the price bid is opened."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Management is maintaining its guidance of +15% growth for FY27; thus, with stronger execution, the key monitorable remains timely order bookings to steer away from the top-line outpacing its OB and shortening the ramp for revenue visibility.",
+        "The recipient should independently evaluate the investment risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Given consecutive quarters of outperformance, we upgrade BEL to BUY; TP of INR 446 (based on 40x FY28E EPS)."
+      ]
+    }
+  ]
 }

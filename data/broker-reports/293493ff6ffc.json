@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Growth was led by positive EBITDA at Noida unit, improved in- patient volume, aided by better realisation.",
-  "fetchedAt": "2026-11-18T15:51:14.044Z"
+  "fetchedAt": "2026-11-18T15:51:14.044Z",
+  "brokerId": "anand-rathi",
+  "brokerDisplay": "Anand Rathi",
+  "ticker": "MEDANTA",
+  "market": "IN",
+  "sector": "Healthcare & Pharma",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Anand Rathi published a stock note on Global Health. Rating: BUY. Growth was led by positive EBITDA at Noida unit, improved in- patient volume, aided by better realisation.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Growth was led by positive EBITDA at Noida unit, improved in- patient volume, aided by better realisation.",
+        "Growth was led by positive EBITDA at Noida unit, improved in- patient volume, aided by better realisation."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Looking ahead, we expect revenue/ EBITDA/PAT to clock 17/25/19% CAGR over FY26-29e.",
+        "Considering improved performance of existing units and faster turnaround of Noida unit, we have increased our EBITDA estimate by 7/5% each for FY27/ 28e.",
+        "Hence, we maintain BUY rating on the stock with a revised TP of Rs.1,710 (from Rs1,550 earlier), valuing it at 28x 1HFY29e EV/EBITDA."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Hence, we maintain BUY rating on the stock with a revised TP of Rs.1,710 (from Rs1,550 earlier), valuing it at 28x 1HFY29e EV/EBITDA.",
+        "Outlook and Valuation: Looking ahead, we expect steady momentum to continue led by: (a) strong EBITDA breakeven trajectory at Noida unit; (b) steady growth in matured and new hospitals; and (c) better ARPOB on superior payor-mix.",
+        "Introducing our estimates for FY29e and rolling forward our valuation to 1HFY29e, we maintain BUY rating on the stock with an upwardly revised TP of Rs.1,710 (from Rs1,550 earlier), valuing it at 28x 1HFY29e EV/EBITDA."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Outlook and Valuation: Looking ahead, we expect steady momentum to continue led by: (a) strong EBITDA breakeven trajectory at Noida unit; (b) steady growth in matured and new hospitals; and (c) better ARPOB on superior payor-mix.",
+        "Key Risks: (a) Delay in project execution; (b) price control; and (c) decline international business."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Hence, we maintain BUY rating on the stock with a revised TP of Rs.1,710 (from Rs1,550 earlier), valuing it at 28x 1HFY29e EV/EBITDA."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "While reported AUM growth (18.5% YoY) appeared soft due to an accounting shift in the recognition policy, the underlying momentum remains intact, supported by geographically diversified branch network that mitigates sing",
-  "fetchedAt": "2026-11-18T15:52:09.173Z"
+  "fetchedAt": "2026-11-18T15:52:09.173Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 43% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Aadhar Housing Finance. Rating: BUY. Target ₹625 (+43% vs ₹438). While reported AUM growth (18.5% YoY) appeared soft due to an accounting shift in the recognition policy, the underlying momentum remains intact, supported by geographically diversified branch network that mitigates sing",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "While reported AUM growth (18.5% YoY) appeared soft due to an accounting shift in the recognition policy, the underlying momentum remains intact, supported by geographically diversified branch network that mitigates sing",
+        "While reported AUM growth (18.5% YoY) appeared soft due to an accounting shift in the recognition policy, the underlying momentum remains intact, supported by geographically diversified branch network that mitigates single-state concentration risk."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Backed by industry- first market segmentation across urban (focused on scale) and emerging (focus on yields), alongside a strong underwriting policy (~25bps credit cost cross-cycle), management reaffirmed its guidance of 20% YoY AUM growth and >20% YoY disbursements growth for FY27.",
+        "Outperforming spread pressure with resilient growth; thus, successfully defying concern growth/spread in AHFC space By sustaining ~20% AUM growth trajectory at scale, Aadhar has effectively addressed prevailing market concerns about the long-term viability of high growth and mid-teen RoE amid intensifying competition in the affordable housing finance (AHF) space.",
+        "Notably, Aadhar maintains its 20% AUM and PAT growth targets for FY27."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹625 against a market price of ₹438 at the report date.",
+        "Notably, Aadhar maintains its 20% AUM and PAT growth targets for FY27.",
+        "Leveraging its core competencies in deep distribution, competitive pricing, and granular demographic expertise, management has set a strategic target to reach INR 500bn in AUM by FY29, implying a 20% growth rate over the next three years.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "While reported AUM growth (18.5% YoY) appeared soft due to an accounting shift in the recognition policy, the underlying momentum remains intact, supported by geographically diversified branch network that mitigates single-state concentration risk.",
+        "Outperforming spread pressure with resilient growth; thus, successfully defying concern growth/spread in AHFC space By sustaining ~20% AUM growth trajectory at scale, Aadhar has effectively addressed prevailing market concerns about the long-term viability of high growth and mid-teen RoE amid intensifying competition in the affordable housing finance (AHF) space."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Notably, Aadhar maintains its 20% AUM and PAT growth targets for FY27."
+      ]
+    }
+  ]
 }

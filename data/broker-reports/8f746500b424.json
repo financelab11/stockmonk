@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "We believe execution across LCA Tejas, helicopters, engines and other manufacturing programmes should support growth as company is entering a stronger execution phase.",
-  "fetchedAt": "2026-11-18T15:50:39.702Z"
+  "fetchedAt": "2026-11-18T15:50:39.702Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Hindustan Aeronautics. We believe execution across LCA Tejas, helicopters, engines and other manufacturing programmes should support growth as company is entering a stronger execution phase.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "We believe execution across LCA Tejas, helicopters, engines and other manufacturing programmes should support growth as company is entering a stronger execution phase.",
+        "We believe execution across LCA Tejas, helicopters, engines and other manufacturing programmes should support growth as company is entering a stronger execution phase."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "On the Tejas Mk1A programme, HAL has prepared 27 aircraft airframes, while GE engine supplies have improved to 14 units (GE targets to deliver 28 by FY27E), with management aiming to deliver 10 jets by Mar-27 and 24+ jets annually post engines supply stabilisation.",
+        "Further, GE has been placed an order for 113 additional F404 engines for the second batch of 97 Tejas Mk1A aircraft, with deliveries scheduled in 2027-32.",
+        "These initiatives are expected to strengthen HAL’s manufacturing capabilities and support its long-term growth."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Investments in securities market are subject to market risks.",
+        "None of the research recommendations promise or guarantee any assured, minimum or risk - free retur n to the investors."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "These initiatives are expected to strengthen HAL’s manufacturing capabilities and support its long-term growth."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Revenue growth was supported by festive demand, healthy SSSG and elevated gold prices.",
-  "fetchedAt": "2026-11-18T15:49:30.050Z"
+  "fetchedAt": "2026-11-18T15:49:30.050Z",
+  "brokerId": "baroda-etrade",
+  "brokerDisplay": "Baroda eTrade",
+  "ticker": "SENCO",
+  "market": "IN",
+  "sector": "Consumer & New-Age",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Baroda eTrade published a stock note on First Light | Senco Gold. Rating: BUY. Target ₹374. Revenue growth was supported by festive demand, healthy SSSG and elevated gold prices.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Revenue growth was supported by festive demand, healthy SSSG and elevated gold prices.",
+        "Revenue growth was supported by festive demand, healthy SSSG and elevated gold prices."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Gross margin declined 480bps YoY to 12.2% which led to EBITDA margin contracted 260bps YoY to 4.4%, primarily due to discounting, higher customer acquisition and promotional spends, along with increased old-gold exchange.",
+        "However, PAT growth was supported by a sharp increase in other income to Rs 1.19bn (vs Rs 0.17bn in Q2FY26), led by gains on gold hedging positions linked to customer schemes, including FlexiGold.",
+        "Management expects H2FY27 revenue growth of >25%, EBITDA margin of 7.5- 7.8% and PAT margin of 4–4.5%, with Q3 and Q4 revenue growth guidance of at least 25% and 20%, respectively."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹374.",
+        "Senco added 24 stores during FY27 so far, exceeding its initial annual target, and remains focused on franchise- led expansion across Tier 2/3/4 markets.",
+        "Over the long term, Senco is targeting Rs 200bn revenue, 8% EBITDA margin and 15% stud ratio by FY30.",
+        "We roll forward our valuation to Sept'28E and revise our target multiple to 16x P/E (from 20x earlier) to factor in the moderation in margin expectations with a revised TP of Rs 374."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Lightweight jewellery, 9K/14K offerings and product innovation remain key priorities, while diamond jewellery demand is expected to improve during the upcoming wedding and Valentine's Day season.",
+        "Nilesh Mehta Email ID: head-customercare@bobcaps.in; Phone no: 92288 60945 Brand Name: BOBCAPS Website: https://www.bobcaps.in/ CIN: U65999MH1996GOI098009 Logo: Investments in securities market are subject to market risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management expects H2FY27 revenue growth of >25%, EBITDA margin of 7.5- 7.8% and PAT margin of 4–4.5%, with Q3 and Q4 revenue growth guidance of at least 25% and 20%, respectively."
+      ]
+    }
+  ]
 }

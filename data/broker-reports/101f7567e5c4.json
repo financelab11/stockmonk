@@ -30,5 +30,58 @@
     ]
   },
   "blurb": "Soft quarter: CESC reported revenue (including regulatory income) of INR 57 bn in Q2FY27, up 7% YoY in line with our and consensus estimates.",
-  "fetchedAt": "2026-11-18T15:51:12.993Z"
+  "fetchedAt": "2026-11-18T15:51:12.993Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+12 negative corporate or estimate event"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on CESC. Rating: BUY. Target ₹195. Soft quarter: CESC reported revenue (including regulatory income) of INR 57 bn in Q2FY27, up 7% YoY in line with our and consensus estimates.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Soft quarter: CESC reported revenue (including regulatory income) of INR 57 bn in Q2FY27, up 7% YoY in line with our and consensus estimates.",
+        "Soft quarter: CESC reported revenue (including regulatory income) of INR 57 bn in Q2FY27, up 7% YoY in line with our and consensus estimates."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA was flat YoY to INR 11.4 bn, impacted by increased personnel costs, power purchase costs and other expenses.",
+        "PAT stood at INR 4.4 bn, down 2% YoY,was lower than 6% by our and consensus estimates, Distribution volumes witnessed healthy growth; generation performance remained mixed: CESC's distribution business reported a 7% YoY increase in sales volumes during Q2FY27.",
+        "Standalone CESC volumes grew 7% YoY to 3.5 BU, while Noida Power registered 11% growth to 1.3 BU, supported by an improvement in T&D losses to 13.9% from 15.0% in the previous year."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹195.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 195 204 Sales (INR mn) 245,431 270,306 246,097 270,018 % Chng.",
+        "For FY29E capacity target of 4.5GW till Date PPA is signed for 4.3GW (incl 1.4GW to be acquired capacity).",
+        "Reflecting the hurdles in renewables and the weak Malegaon performance, we cut our FY27E/FY28E EPS estimates by 3% each and lower our target price to INR 195 (from INR 204), while retaining our BUY rating."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(3.0) 2.1 Key Data CESC.BO | CESC IN BSE Code 500084 NSE Code CESC 52-W High / Low INR 204 / INR 122 Face Value 1 Sensex / Nifty 79,310 / 24,537 Market Cap INR 173 bn / $ 1,828 mn Shares Outstanding 1325.57 mn 3M Avg."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Standalone CESC volumes grew 7% YoY to 3.5 BU, while Noida Power registered 11% growth to 1.3 BU, supported by an improvement in T&D losses to 13.9% from 15.0% in the previous year."
+      ]
+    }
+  ]
 }

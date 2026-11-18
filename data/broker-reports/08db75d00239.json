@@ -26,5 +26,54 @@
     ]
   },
   "blurb": "Although, calibrated price actions are likely to partly offset the pressure; however, we expect YoY EBIDTA margin to decline in 3Q27 on a high base.",
-  "fetchedAt": "2026-11-18T15:51:11.961Z"
+  "fetchedAt": "2026-11-18T15:51:11.961Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Britannia Industries. Rating: BUY. Target ₹6,046. Although, calibrated price actions are likely to partly offset the pressure; however, we expect YoY EBIDTA margin to decline in 3Q27 on a high base.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Although, calibrated price actions are likely to partly offset the pressure; however, we expect YoY EBIDTA margin to decline in 3Q27 on a high base.",
+        "Although, calibrated price actions are likely to partly offset the pressure; however, we expect YoY EBIDTA margin to decline in 3Q27 on a high base."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Consolidated Financials: volumes increased ~13%: Consolidated Revenues grew by 15.6% YoY to Rs56bn (PLe: Rs54.21bn).",
+        "Gross margins contracted by 203bps YoY to 39.6% (Ple: 41.5%).",
+        "EBITDA grew by 7% YoY to Rs10.2bn (PLe: Rs9.65bn); Margins contracted by 147bps YoY to 18.3% (PLe:17.8%)."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹6,046."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "However, sustained RM cost inflation and the ability to maintain momentum in an inflationary environment remains key monitorable."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "EBITDA grew by 7% YoY to Rs10.2bn (PLe: Rs9.65bn); Margins contracted by 147bps YoY to 18.3% (PLe:17.8%)."
+      ]
+    }
+  ]
 }

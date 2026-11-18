@@ -27,5 +27,54 @@
     ]
   },
   "blurb": "Revenue came in at INR 13.5bn (+21% YoY/+66% QoQ; +12% JMFe/+2% consensus).",
-  "fetchedAt": "2026-11-18T15:50:04.205Z"
+  "fetchedAt": "2026-11-18T15:50:04.205Z",
+  "brokerId": "jm-financial",
+  "brokerDisplay": "JM Financial",
+  "ticker": "INOXWIND",
+  "market": "IN",
+  "sector": "Power & Renewables",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "JM Financial published a stock note on Inox Wind. Rating: ADD. Revenue came in at INR 13.5bn (+21% YoY/+66% QoQ; +12% JMFe/+2% consensus).",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Revenue came in at INR 13.5bn (+21% YoY/+66% QoQ; +12% JMFe/+2% consensus).",
+        "Revenue came in at INR 13.5bn (+21% YoY/+66% QoQ; +12% JMFe/+2% consensus)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "EBITDA margin contracted to 15% (-520bps YoY/-358bps QoQ; -184bps JMFe/-276bps consensus) due to commodity and raw material price inflation.",
+        "With order inflows of 350MW, the total OB stands at 3.8GW as of Oct’26 (4.4GW at end-Jul’26).",
+        "O&M portfolio expansion through acquisitions has led to 4x growth in assets, including 4.5GW of Wind World."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: ADD."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The split of third-party OB (excluding group entities) is 61%/39% for equipment/turnkey.",
+        "The user assumes the entire risk of any use made of this information."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "O&M portfolio expansion through acquisitions has led to 4x growth in assets, including 4.5GW of Wind World."
+      ]
+    }
+  ]
 }

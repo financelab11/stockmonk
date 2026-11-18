@@ -29,5 +29,57 @@
     ]
   },
   "blurb": "Auto/architectural segment EBIT growth remained strong at 69%/247% YoY, supported by strong underlying demand in the PV segment, capacity ramp-up, and improved realisation for its float glass business.",
-  "fetchedAt": "2026-11-18T15:53:01.853Z"
+  "fetchedAt": "2026-11-18T15:53:01.853Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 41% change"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Asahi India Glass. Rating: BUY. Target ₹1,400 (+41% vs ₹991). Auto/architectural segment EBIT growth remained strong at 69%/247% YoY, supported by strong underlying demand in the PV segment, capacity ramp-up, and improved realisation for its float glass business.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Auto/architectural segment EBIT growth remained strong at 69%/247% YoY, supported by strong underlying demand in the PV segment, capacity ramp-up, and improved realisation for its float glass business.",
+        "Auto/architectural segment EBIT growth remained strong at 69%/247% YoY, supported by strong underlying demand in the PV segment, capacity ramp-up, and improved realisation for its float glass business."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "We believe the growing content for value-added products in the automotive segment, continued focus on integrated value-added products, ramp-up of float-glass capacity, and improved realisation supported by MIP regulation could drive a healthy 24% EBITDA CAGR over FY26–29E.",
+        "Takeaways from Q2FY27 result, and our views • Against the PV industry’s production growth of 25% YoY, AIS’ auto segment revenue was up 31% YoY at INR 10.7bn, led by healthy volume growth and a favourable model mix.",
+        "QoQ margin declined was due to higher logistics and manpower cost partially offset by higher operating leverage on ramp- up of recent car launches."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹1,400 against a market price of ₹991 at the report date.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The recipient should independently evaluate the investment risks.",
+        "None of the research recommendations promise or guarantee any assured, minimum or risk free return to the investors."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "QoQ margin declined was due to higher logistics and manpower cost partially offset by higher operating leverage on ramp- up of recent car launches."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "x ICICI Securities – Retail Equity Research Rossell Techsys (ROSTEC) CMP: ₹ 1383 Target ₹ 1625 (18%) Target Period: 12 months November 7, 2026 New capacities and customer wins to drive growth… About the stock : Rossell T",
-  "fetchedAt": "2026-11-18T15:52:07.212Z"
+  "fetchedAt": "2026-11-18T15:52:07.212Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Rossell Techsys. x ICICI Securities – Retail Equity Research Rossell Techsys (ROSTEC) CMP: ₹ 1383 Target ₹ 1625 (18%) Target Period: 12 months November 7, 2026 New capacities and customer wins to drive growth… About the stock : Rossell T",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "x ICICI Securities – Retail Equity Research Rossell Techsys (ROSTEC) CMP: ₹ 1383 Target ₹ 1625 (18%) Target Period: 12 months November 7, 2026 New capacities and customer wins to drive growth… About the stock : Rossell T",
+        "x ICICI Securities – Retail Equity Research Rossell Techsys (ROSTEC) CMP: ₹ 1383 Target ₹ 1625 (18%) Target Period: 12 months November 7, 2026 New capacities and customer wins to drive growth… About the stock : Rossell Techsys (RTL) is an aerospace and defence engineering and manufacturing company ."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Space and semiconductor revenues have already crossed ₹140 crore in H1FY27 compared with ~₹100 crore in FY26, with management expecting these businesses to scale meaningfully over the coming quarters.",
+        "The company is targeting a 50:50 revenue mix between aerospace and defence and non-aerospace businesses by FY27E • Increasing value addition and operating leverage to support margin expansion : The company is gradually moving towards higher-value opportunities through system integration, MRO and advanced manufacturing, while expanding its presence across aerospace, defence, semiconductor and space customers.",
+        "Management remains confident of achieving its long-term EBITDA margin target of 18-23%, supported by operating leverage, scale benefits and execution efficiencies."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Investments in securities market are subject to market risks.",
+        "None of the research recommendations promise or guarantee any assured, minimum or risk - free retur n to the investors."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management remains confident of achieving its long-term EBITDA margin target of 18-23%, supported by operating leverage, scale benefits and execution efficiencies."
+      ]
+    }
+  ]
 }

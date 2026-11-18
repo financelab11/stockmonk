@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "EBITDA grew 45% yoy (~14% above our estimates), while EBITDAM improved ~30bps qoq to 11.8%, despite commodity headwinds.",
-  "fetchedAt": "2026-11-18T15:53:16.057Z"
+  "fetchedAt": "2026-11-18T15:53:16.057Z",
+  "brokerId": "emkay",
+  "brokerDisplay": "Emkay Global",
+  "ticker": "UNOMINDA",
+  "market": "IN",
+  "sector": "Auto & Ancillaries",
+  "materiality": {
+    "score": 46,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+6 strong operating result"
+    ]
+  },
+  "execSummary": "Emkay Global published a stock note on Minda Corporation. Rating: BUY. EBITDA grew 45% yoy (~14% above our estimates), while EBITDAM improved ~30bps qoq to 11.8%, despite commodity headwinds.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "EBITDA grew 45% yoy (~14% above our estimates), while EBITDAM improved ~30bps qoq to 11.8%, despite commodity headwinds.",
+        "EBITDA grew 45% yoy (~14% above our estimates), while EBITDAM improved ~30bps qoq to 11.8%, despite commodity headwinds."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The management remains committed to its Vision 2030 (targeting Rs175bn revenue; implying ~30% FY26-30E CAGR; refer to our report—Vision 2030 – Targets 3.5x revenue; >25% ROCEs), transitioning from component to system solution offerings, with MDA consistently delivering robust growth over recent quarters.",
+        "PVs are expected to contribute over 25% of the revenue mix (vs ~18% currently), supported by multiple product developments targeting the segment.",
+        "Key growth drivers include TFT cluster (multiple orders secured; lifetime value of >Rs10bn; SOP from FY28), sunroofs (SOP commenced in 2Q), and power footstep (first order secured)."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "The management remains committed to its Vision 2030 (targeting Rs175bn revenue; implying ~30% FY26-30E CAGR; refer to our report—Vision 2030 – Targets 3.5x revenue; >25% ROCEs), transitioning from component to system solution offerings, with MDA consistently delivering robust growth over recent quarters.",
+        "PVs are expected to contribute over 25% of the revenue mix (vs ~18% currently), supported by multiple product developments targeting the segment.",
+        "Key growth drivers include TFT cluster (multiple orders secured; lifetime value of >Rs10bn; SOP from FY28), sunroofs (SOP commenced in 2Q), and power footstep (first order secured)."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "EBITDA grew 45% yoy (~14% above our estimates), while EBITDAM improved ~30bps qoq to 11.8%, despite commodity headwinds.",
+        "Key growth drivers include TFT cluster (multiple orders secured; lifetime value of >Rs10bn; SOP from FY28), sunroofs (SOP commenced in 2Q), and power footstep (first order secured)."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Key growth drivers include TFT cluster (multiple orders secured; lifetime value of >Rs10bn; SOP from FY28), sunroofs (SOP commenced in 2Q), and power footstep (first order secured)."
+      ]
+    }
+  ]
 }

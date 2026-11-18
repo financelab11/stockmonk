@@ -14,6 +14,10 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { createHash } from "node:crypto";
 import { PDFParse } from "pdf-parse";
+import { findBroker } from "../config/brokers";
+import { resolveCompany } from "../lib/company-resolver";
+import { scoreMateriality } from "../lib/materiality";
+import { detailedSummary, executiveSummary } from "../lib/broker-summary";
 
 const OUT = path.join(process.cwd(), "data", "broker-reports");
 const LIMIT = Number(process.env.BROKER_LIMIT ?? 200);
@@ -217,17 +221,48 @@ async function main() {
         note.company?.trim() ||
         note.headline.split(/[—–-]/)[0]?.trim() ||
         "Untitled company";
+      const broker = findBroker(note.broker);
+      const companyRef = resolveCompany(company) ?? resolveCompany(note.headline);
+      const materiality = scoreMateriality({
+        reportType: type,
+        headline: `${note.headline} ${company}`,
+        target: metrics.target,
+        cmp: metrics.cmp,
+        recommendation: metrics.recommendation,
+      });
+      const execSummary = executiveSummary({
+        broker: broker?.displayName ?? note.broker,
+        reportType: type,
+        company,
+        blurb,
+        metrics,
+      });
+      const detailed = detailedSummary({
+        blurb,
+        highlights: summary.highlights,
+        valuation: summary.valuation,
+        watch: summary.watch,
+        metrics,
+      });
       const record = {
         id,
         date: note.date.slice(0, 10),
         broker: note.broker,
+        brokerId: broker?.id ?? note.broker.toLowerCase().replace(/\s+/g, "-"),
+        brokerDisplay: broker?.displayName ?? note.broker,
         company,
+        ticker: companyRef?.ticker ?? null,
+        market: companyRef?.market ?? "IN",
+        sector: companyRef?.sector ?? null,
         headline: note.headline,
         link: note.link,
         reportType: type,
         deepDive,
         metrics,
+        materiality,
+        execSummary,
         summary,
+        detailedSummary: detailed,
         blurb,
         deepDiveText: deepDive ? deepDiveText : undefined,
         fetchedAt: new Date().toISOString(),
@@ -237,12 +272,19 @@ async function main() {
         id,
         date: record.date,
         broker: record.broker,
+        brokerId: record.brokerId,
+        brokerDisplay: record.brokerDisplay,
         company: record.company,
+        ticker: record.ticker,
+        market: record.market,
+        sector: record.sector,
         headline: record.headline,
         reportType: type,
         deepDive,
         blurb: record.blurb,
+        execSummary,
         metrics,
+        materiality,
         link: record.link,
       });
       if (added.length % 10 === 0) console.log(`[brokers] ${added.length} summaries stored`);

@@ -30,5 +30,56 @@
     ]
   },
   "blurb": "Positives: • NALCO’s 2QFY27 standalone EBITDA at Rs24.1 bn (+25% yoy, -11% qoq). • Beat estimates on strong volumes across divisions India volumes grew 22.5% yoy. • Board approvals for capex expected by Jan/Feb 2027. • S",
-  "fetchedAt": "2026-11-18T15:53:17.384Z"
+  "fetchedAt": "2026-11-18T15:53:17.384Z",
+  "brokerId": "kotak",
+  "brokerDisplay": "Kotak Institutional Equities",
+  "ticker": "NATIONALUM",
+  "market": "IN",
+  "sector": "Metals & Commodities",
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Kotak Institutional Equities published a result update on National Aluminium Co.. Rating: BUY. Positives: • NALCO’s 2QFY27 standalone EBITDA at Rs24.1 bn (+25% yoy, -11% qoq). • Beat estimates on strong volumes across divisions India volumes grew 22.5% yoy. • Board approvals for capex expected by Jan/Feb 2027. • S",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Positives: • NALCO’s 2QFY27 standalone EBITDA at Rs24.1 bn (+25% yoy, -11% qoq). • Beat estimates on strong volumes across divisions India volumes grew 22.5% yoy. • Board approvals for capex expected by Jan/Feb 2027. • S",
+        "Positives: • NALCO’s 2QFY27 standalone EBITDA at Rs24.1 bn (+25% yoy, -11% qoq). • Beat estimates on strong volumes across divisions India volumes grew 22.5% yoy. • Board approvals for capex expected by Jan/Feb 2027. • Strong dividend yield of around 5%."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Reports based on technical analysis centers on studying charts of a stock's price movement and trading volume, as opposed to focusing on a company's fundamentals and as such, may not match with a report on a company's fundamentals.",
+        "Portfolio Management Team (PMS) takes its investment decisions independent of the PCG research and accordingly PMS may have positions contrary to the PCG research recommendation."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Holding Period: 12 months Result Update Current Market Price (CMP) Rs.318 Fair Value (FV) Rs.390 National Aluminium Co.",
+        "Kotak Securities is not assigning any rating or price target to the stock.",
+        "Kotak Securities has suspended the investment rating and price target for this stock, either because there is not a sufficient fundamental basis for determining, or there are legal, regulatory or policy constraints around publishing, an investment rating or target."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "UNDER REVIEW – Kotak Securities is reassessing the stock due to material developments or changes that may affect its investment case, valuation or financial outlook.",
+        "Certain transactions -including those involving futures, options and other derivatives as well as non-investment grade securities - involve substantial risk and are not suitable for all investors."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Portfolio Management Team (PMS) takes its investment decisions independent of the PCG research and accordingly PMS may have positions contrary to the PCG research recommendation."
+      ]
+    }
+  ]
 }

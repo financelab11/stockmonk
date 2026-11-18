@@ -30,5 +30,57 @@
     ]
   },
   "blurb": "Consequently, standalone revenues grew 55% YoY to ~INR 44bn, with an EBITDA of ~INR 29bn (+78% YoY), which led to adj.",
-  "fetchedAt": "2026-11-18T15:51:29.235Z"
+  "fetchedAt": "2026-11-18T15:51:29.235Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on NHPC. Rating: REDUCE. Target ₹72 (-10% vs ₹80). Consequently, standalone revenues grew 55% YoY to ~INR 44bn, with an EBITDA of ~INR 29bn (+78% YoY), which led to adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Consequently, standalone revenues grew 55% YoY to ~INR 44bn, with an EBITDA of ~INR 29bn (+78% YoY), which led to adj.",
+        "Consequently, standalone revenues grew 55% YoY to ~INR 44bn, with an EBITDA of ~INR 29bn (+78% YoY), which led to adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Revenue at Subansiri and Parbati II is being recognised at 80% of the cost, with a final tariff order expected soon.",
+        "Operating parameters improve, aided by new capacity… NHPC’s PAF availability was healthy during the quarter at 92.24% vs. 78.58% YoY, as consolidated generation grew 17% YoY to ~14BU, anchored by 1) commissioning of a unit at lower Subansiri, 2) improved performance at Parbati II, and 3) resumption of operations at Teesta-V.",
+        "INR 12bn in the year-ago quarter and INR 14bn in the preceding quarter, despite revenue from Subansiri and Parbati being booked at 80% of the capex."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: REDUCE.",
+        "Target price ₹72 against a market price of ₹80 at the report date.",
+        "We maintain REDUCE with an unchanged target price of INR 72, valuing the stock at 10x FY28E standalone EPS of INR 6.2/share, its subsidiaries at 2.5x regulated equity, and its RE portfolio at 11x FY28E EV/EBITDA.",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Risks: 1) Delay in execution of hydro and RE projects; and 2) better-than-expected incentive income.",
+        "The recipient should independently evaluate the investment risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "INR 12bn in the year-ago quarter and INR 14bn in the preceding quarter, despite revenue from Subansiri and Parbati being booked at 80% of the capex."
+      ]
+    }
+  ]
 }

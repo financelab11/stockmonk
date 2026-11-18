@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Hold Hold Target Price 228 239 Sales (INR bn) 286 298 283 288 % Chng. 1.1 3.5 EBITDA (INR bn) 28 31 29 32 % Chng.",
-  "fetchedAt": "2026-11-18T15:51:15.673Z"
+  "fetchedAt": "2026-11-18T15:51:15.673Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Gujarat Energy. Rating: HOLD. Target ₹228. Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Hold Hold Target Price 228 239 Sales (INR bn) 286 298 283 288 % Chng. 1.1 3.5 EBITDA (INR bn) 28 31 29 32 % Chng.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Hold Hold Target Price 228 239 Sales (INR bn) 286 298 283 288 % Chng. 1.1 3.5 EBITDA (INR bn) 28 31 29 32 % Chng.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Hold Hold Target Price 228 239 Sales (INR bn) 286 298 283 288 % Chng. 1.1 3.5 EBITDA (INR bn) 28 31 29 32 % Chng."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "(%) 65.6 11.0 (11.0) 8.3 DPS (INR) 6.5 7.3 6.5 7.0 Yield (%) 2.9 3.2 2.9 3.1 RoE (%) 11.0 13.1 10.7 10.7 RoCE (%) 12.3 13.6 10.5 10.7 EV/Sales (x) 0.9 0.6 0.7 0.6 EV/EBITDA (x) 6.3 6.5 6.7 5.7 PE (x) 9.1 8.2 9.3 8.5 P/BV (x) 1.1 1.0 1.0 0.9 Morbi volumes remain under pressure.",
+        "Result Report GUJENERG reported standalone EBITDA of INR8.0bn, down by 38.5% QoQ due to weaker Trading business margins and lower Morbi volumes but improved 24.0% YoY.",
+        "EBITDA from the Trading business stood at INR3.3bn, down 54.9% QoQ, while CGD EBITDA declined 20.4% QoQ to INR4.6bn."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: HOLD.",
+        "Target price ₹228.",
+        "Swarnendu Bhushan Indrakumar Gupta swarnendubhushan@plindia.com | +91-22-66322260 indrakumargupta@plindia.com | +91-22-66322528 PL Research is also available on www.plindia.com, Bloomberg, Thomson Reuters and Factset Institutional Equities | 1 R A T I N G HOLD | C M P INR 224 | T P INR 228 Gujarat Energy (GUJENERG IN) Q2FY27 Result Update November 09, 2026 ☑ Estimate Change | ☑ Target | ◼ Reco.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Hold Hold Target Price 228 239 Sales (INR bn) 286 298 283 288 % Chng. 1.1 3.5 EBITDA (INR bn) 28 31 29 32 % Chng.",
+        "(%) 65.6 11.0 (11.0) 8.3 DPS (INR) 6.5 7.3 6.5 7.0 Yield (%) 2.9 3.2 2.9 3.1 RoE (%) 11.0 13.1 10.7 10.7 RoCE (%) 12.3 13.6 10.5 10.7 EV/Sales (x) 0.9 0.6 0.7 0.6 EV/EBITDA (x) 6.3 6.5 6.7 5.7 PE (x) 9.1 8.2 9.3 8.5 P/BV (x) 1.1 1.0 1.0 0.9 Morbi volumes remain under pressure."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(2.0) (3.7) Key Data GGAS.BO | GUJENERG IN BSE Code 539336 NSE Code GUJENERGY 52-W High / Low INR 379 / INR 206 Face Value 2 Sensex / Nifty 80,999 / 24,986 Market Cap INR 210 bn / $ 2,238 mn Shares Outstanding 938.23 mn 3M Avg.",
+        "Management highlighted its focus on diversifying industrial demand beyond Morbi into other industrial clusters to reduce volume concentration risk."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "EBITDA from the Trading business stood at INR3.3bn, down 54.9% QoQ, while CGD EBITDA declined 20.4% QoQ to INR4.6bn."
+      ]
+    }
+  ]
 }

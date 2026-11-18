@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "We note: (1) More than 80% of growth was volume-led, reflecting healthy underlying demand and the company's continued focus on market share gains.",
-  "fetchedAt": "2026-11-18T15:53:05.837Z"
+  "fetchedAt": "2026-11-18T15:53:05.837Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": "DOMS",
+  "market": "IN",
+  "sector": "Consumer & New-Age",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on DOMS Industries. Rating: BUY. Target ₹2,200 (+16% vs ₹1,895). We note: (1) More than 80% of growth was volume-led, reflecting healthy underlying demand and the company's continued focus on market share gains.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "We note: (1) More than 80% of growth was volume-led, reflecting healthy underlying demand and the company's continued focus on market share gains.",
+        "We note: (1) More than 80% of growth was volume-led, reflecting healthy underlying demand and the company's continued focus on market share gains."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "(2) However, margins were impacted due to elevated RM costs and incremental employee expenses and under-absorption of fixed overheads, following the integration of the Reynolds.",
+        "(3) Raw material inflation remained elevated at ~15%, while management continued to follow a calibrated pricing approach to protect volumes.",
+        "(6) Management has retained its FY27 revenue growth guidance of 18–20%, while its targeted EBITDA margin range remains at 16–17%."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹2,200 against a market price of ₹1,895 at the report date.",
+        "(6) Management has retained its FY27 revenue growth guidance of 18–20%, while its targeted EBITDA margin range remains at 16–17%.",
+        "Maintain BUY with a DCF-based revised TP of INR 2,200 (earlier INR 2,600; implied P/E of 41x FY28E EPS).",
+        "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "However, persistent input cost inflation and near-term margin pressure remain key monitorable.",
+        "The recipient should independently evaluate the investment risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "(6) Management has retained its FY27 revenue growth guidance of 18–20%, while its targeted EBITDA margin range remains at 16–17%."
+      ]
+    }
+  ]
 }

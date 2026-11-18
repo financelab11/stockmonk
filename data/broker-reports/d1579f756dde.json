@@ -31,5 +31,59 @@
     ]
   },
   "blurb": "Order inflows (ex-HVDC) jumped 86% YoY to INR41b, taking the order book to INR333b, up 13% YoY.",
-  "fetchedAt": "2026-11-18T15:51:02.869Z"
+  "fetchedAt": "2026-11-18T15:51:02.869Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": "POWERINDIA",
+  "market": "IN",
+  "sector": "Power & Renewables",
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 25% change"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on Hitachi Energy India. Rating: BUY. Target ₹35,800 (+25% vs ₹28,545). Order inflows (ex-HVDC) jumped 86% YoY to INR41b, taking the order book to INR333b, up 13% YoY.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Order inflows (ex-HVDC) jumped 86% YoY to INR41b, taking the order book to INR333b, up 13% YoY.",
+        "Order inflows (ex-HVDC) jumped 86% YoY to INR41b, taking the order book to INR333b, up 13% YoY."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Going forward, we expect 1) revenue growth to remain strong as HVDC project execution is also ramping up, 2) strong base and export orders to offset weakness in new HVDC ordering, 3) operating leverage and a higher share of export and services to offset lower gross margin in HVDC projects.",
+        "We revise our estimates by +3%/2%/-1% for FY27/FY28/FY29 to factor in improved execution but lower margin expectations.",
+        "Beat on revenue, while a miss on margin led to an in-line PAT Revenue grew 64% YoY to INR30b, 12% above our estimate."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹35,800 against a market price of ₹28,545 at the report date.",
+        "The stock has corrected 26% from its YTD high and offers a decent upside from current levels.",
+        "Financial outlook and valuation We revise our estimates by +3%/+2%/-1% for FY27/FY28/FY29 to factor in improved execution but lower margin expectations.",
+        "The stock is currently trading at 76x/57x/46x P/E on FY27/ FY28/FY29 earnings."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Financial outlook and valuation We revise our estimates by +3%/+2%/-1% for FY27/FY28/FY29 to factor in improved execution but lower margin expectations.",
+        "Each recipient of this document should make such investigations as it deems necessary to arrive at an independent evaluation of an investment in the securities of companies referred to in this document (including the merits and risks involved), and should consult its own advisors to determine the merits and risks of such an investment."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Beat on revenue, while a miss on margin led to an in-line PAT Revenue grew 64% YoY to INR30b, 12% above our estimate."
+      ]
+    }
+  ]
 }

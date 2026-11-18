@@ -30,5 +30,48 @@
     ]
   },
   "blurb": "Rising retail participation, increasing financial savings, digital adoption and deeper capital markets provide a long runway for trading, listing and data-related revenue growth.  Diversified revenue streams beyond trad",
-  "fetchedAt": "2026-11-18T15:52:29.435Z"
+  "fetchedAt": "2026-11-18T15:52:29.435Z",
+  "brokerId": "sbi-securities",
+  "brokerDisplay": "SBI Securities",
+  "ticker": "KTOS",
+  "market": "US",
+  "sector": "Consulting & Outsourcing",
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "SBI Securities published a stock note on NSE. Rising retail participation, increasing financial savings, digital adoption and deeper capital markets provide a long runway for trading, listing and data-related revenue growth.  Diversified revenue streams beyond trad",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Rising retail participation, increasing financial savings, digital adoption and deeper capital markets provide a long runway for trading, listing and data-related revenue growth.  Diversified revenue streams beyond trad",
+        "Rising retail participation, increasing financial savings, digital adoption and deeper capital markets provide a long runway for trading, listing and data-related revenue growth.  Diversified revenue streams beyond trading volumes: Apart from transaction charges, NSE earns revenues from listings, clearing & settlement, connectivity, colocation services, market data feeds and index licensing."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Non- transaction technology and data businesses provide recurring revenue streams and enhance earnings stability.  Highly scalable business with superior profitability; Resilient performance during 2QFY27: NSE operates a technology-led platform business with significant operating leverage.",
+        "Despite regulatory-related charges, it generated EBITDA margins of 67.6% and PAT margins of 62.1% in FY26, while delivering RoE of 33%, highlighting the strength of its franchise and cash-generating ability.",
+        "Despite moderation in trading volumes during Q2FY27, NSE reported a resilient performance with revenue from operations growing 11% YoY to Rs 4,067 cr, while PAT increased 23% YoY to Rs 2,578 cr."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "With over 137 million registered investors, 3,099+ listed entities, and dominant market shares across key trading segments, NSE is a critical pillar of India's capital market infrastructure.",
+        "Key risk: Regulatory risks; Dependence on market activity; Technology and cybersecurity risk National Stock Exchange Of India Ltd."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Despite moderation in trading volumes during Q2FY27, NSE reported a resilient performance with revenue from operations growing 11% YoY to Rs 4,067 cr, while PAT increased 23% YoY to Rs 2,578 cr."
+      ]
+    }
+  ]
 }

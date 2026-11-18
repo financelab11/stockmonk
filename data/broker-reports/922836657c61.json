@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "Q 2F Y2 7 performance : IKS revenue came at ₹1,592.5 crore, up 103.9% YoY/ 78.2% QoQ (US$169mn, up 74.2% QoQ/87.3% YoY).",
-  "fetchedAt": "2026-11-18T15:52:23.706Z"
+  "fetchedAt": "2026-11-18T15:52:23.706Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Inventurus Knowledge Solutions. Rating: SELL. Q 2F Y2 7 performance : IKS revenue came at ₹1,592.5 crore, up 103.9% YoY/ 78.2% QoQ (US$169mn, up 74.2% QoQ/87.3% YoY).",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Q 2F Y2 7 performance : IKS revenue came at ₹1,592.5 crore, up 103.9% YoY/ 78.2% QoQ (US$169mn, up 74.2% QoQ/87.3% YoY).",
+        "Q 2F Y2 7 performance : IKS revenue came at ₹1,592.5 crore, up 103.9% YoY/ 78.2% QoQ (US$169mn, up 74.2% QoQ/87.3% YoY)."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Investment Rationale: • Healthy core growth, customer traction and cross-sell opportunities: The legacy IKS business (IKS+Aquity) delivered 12% + US$ YoY growth to US$101mn, with management expecting it to sustain above - industry growth .",
+        "While for TruBridge, FY27 will remain a year of integration & stabilisation, with no significant growth expected till FY28.",
+        "It’s US$200 mn System of Action (SOA) component is expected to edge toward 10-12% growth by end of FY28/early FY29 while ~US$100mn System of Record (EHR) business is intended to stay relatively flat through FY28 & FY29."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: SELL.",
+        "Rating and Target Price : We maintain our BUY rating for IKS and value it at 32x FY28E EPS, for a target price of ₹ 2,050 .",
+        "The 3 features (denial prediction, coding, clinical productivity tools) are targeted to go live by Q1 FY28. • Management Outlook : − Legacy IKS (IKS+Aquity) : expected to sustain growth above the industry benchmark of 12%.",
+        "On the margins front, it aspires to restore margins of both businesses to early-to-mid-30s by FY30 and achieve near-zero net leverage by FY30 and remains optimistic about the true north target of ₹3,000 crore EBITDA by FY30. • TruBridge integration: Q2 saw 82 days of integration with TruBridge."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Management identified operating-model optimisation, greater global delivery and technology-led productivity, and SG&A rationalisation as key synergy levers, with benefits expected from the second half of Q3 onwards.",
+        "Management sees access to 3.5 –4x the initially envisaged 5 mn patient records from TruBridge as a key strategic asset to build proprietary context layers, knowledge graphs and AI models."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "It’s US$200 mn System of Action (SOA) component is expected to edge toward 10-12% growth by end of FY28/early FY29 while ~US$100mn System of Record (EHR) business is intended to stay relatively flat through FY28 & FY29."
+      ]
+    }
+  ]
 }

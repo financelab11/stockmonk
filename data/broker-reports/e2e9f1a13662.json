@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "HSIE Research is also available on Bloomberg ERH HDF <GO> & Thomson Reuters 11 November 2026 HSIE Results Daily HSIE Results Daily Contents Results Reviews ■ Go Digit General Insurance: Go Digit reported a weak set of nu",
-  "fetchedAt": "2026-11-18T15:51:26.991Z"
+  "fetchedAt": "2026-11-18T15:51:26.991Z",
+  "brokerId": "hdfc-securities",
+  "brokerDisplay": "HDFC Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "HDFC Securities published a stock note on HSIE Results Daily: Go Digit General Insurance, Data Patterns. HSIE Research is also available on Bloomberg ERH HDF <GO> & Thomson Reuters 11 November 2026 HSIE Results Daily HSIE Results Daily Contents Results Reviews ■ Go Digit General Insurance: Go Digit reported a weak set of nu",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "HSIE Research is also available on Bloomberg ERH HDF <GO> & Thomson Reuters 11 November 2026 HSIE Results Daily HSIE Results Daily Contents Results Reviews ■ Go Digit General Insurance: Go Digit reported a weak set of nu",
+        "HSIE Research is also available on Bloomberg ERH HDF <GO> & Thomson Reuters 11 November 2026 HSIE Results Daily HSIE Results Daily Contents Results Reviews ■ Go Digit General Insurance: Go Digit reported a weak set of numbers under the new Ind‑AS regime, delivering 1.7% YoY insurance‑revenue growth alongside a 31.4% YoY decline in PAT."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The PAT miss reflected elevated loss ratios, led by Gujarat flood losses (~INR630mn) and softer momentum across key business lines as the company consciously prioritized profitability over growth.",
+        "Given the management commentary on softness in motor and commercial lines of business, we build in 6/9% CAGR of insurance revenue/PAT over FY27-29E, with CISR assumptions of 100/101% over FY27/28E as we expect Go Digit to adapt its operating model to the IRDAI’s proposals around distribution commission.",
+        "Relative valuations appear elevated, driven largely by Go Digit’s thin profitability and the shift to new accounting standards (none of the other comparable multi-line players have yet migrated). ■ Data Patterns: Data Patterns Ltd (DPL) recorded a weak Q2FY27 execution, reflected in 57% YoY revenue degrowth, due to a high base created by an exceptionally strong execution in Q2FY26."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "The PAT miss reflected elevated loss ratios, led by Gujarat flood losses (~INR630mn) and softer momentum across key business lines as the company consciously prioritized profitability over growth.",
+        "Large platform system orders such as the INR 10bn from HAL, QRSAM, Brahmos seekers orders and progress in counter drone’s domain will remain the key monitorable."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Relative valuations appear elevated, driven largely by Go Digit’s thin profitability and the shift to new accounting standards (none of the other comparable multi-line players have yet migrated). ■ Data Patterns: Data Patterns Ltd (DPL) recorded a weak Q2FY27 execution, reflected in 57% YoY revenue degrowth, due to a high base created by an exceptionally strong execution in Q2FY26."
+      ]
+    }
+  ]
 }

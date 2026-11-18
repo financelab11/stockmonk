@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "OIL INDIA ▪ Consolidated revenue rose 37.4% YoY, as standalone crude volumes grew 20%, realisation grew 35% and NRL’s revenue rose 24% ▪ Crude output is at a 4mmt run-rate, and NRL’s expansion to 9mmtpa is due by Mar-27;",
-  "fetchedAt": "2026-11-18T15:50:12.262Z"
+  "fetchedAt": "2026-11-18T15:50:12.262Z",
+  "brokerId": "baroda-etrade",
+  "brokerDisplay": "Baroda eTrade",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Baroda eTrade published a stock note on First Light | Alkem Labs, Oil India, Eicher Motors. Rating: SELL. Target ₹4,589. OIL INDIA ▪ Consolidated revenue rose 37.4% YoY, as standalone crude volumes grew 20%, realisation grew 35% and NRL’s revenue rose 24% ▪ Crude output is at a 4mmt run-rate, and NRL’s expansion to 9mmtpa is due by Mar-27;",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "OIL INDIA ▪ Consolidated revenue rose 37.4% YoY, as standalone crude volumes grew 20%, realisation grew 35% and NRL’s revenue rose 24% ▪ Crude output is at a 4mmt run-rate, and NRL’s expansion to 9mmtpa is due by Mar-27;",
+        "OIL INDIA ▪ Consolidated revenue rose 37.4% YoY, as standalone crude volumes grew 20%, realisation grew 35% and NRL’s revenue rose 24% ▪ Crude output is at a 4mmt run-rate, and NRL’s expansion to 9mmtpa is due by Mar-27; gas growth depends on pipeline connectivity ▪ Maintain BUY; TP raised to Rs604; we roll forward to Sep’28E and value the stock at 6.5x Sep’28E EPS Click here for the full report."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Healthy product sales led to 17.6% YoY growth in gross profit to Rs 30.5bn.",
+        "Due to 2.5 months inclusion of Occlutech’s business, employee cost grew 26.2% and SG&A (ex-R&D) grew 13.4%, leading to EBITDA growth of 11% YoY to Rs 10.2bn.",
+        "Higher integration costs led to 49bps YoY decline in EBITDA margin to 22.5%."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: SELL.",
+        "Target price ₹4,589.",
+        "Valuation: Factoring in higher depreciation and finance cost due to integration, we cut our EPS by 2.5%, 4.1%, 2.7% for FY27E, FY28E and FY29E to Rs 176.7, Rs 202.4 and Rs 234.6, respectively.",
+        "At CMP, on Sep’28E EPS of Rs 219, the stock is trading at a P/E of 24x.",
+        "We continue to ascribe a P/E of 21x as ALKEM 1) reported industry-low margin (amid pharma margin of 26%) and 2) will focus on international markets going forward."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Outlook on growth: Management guides for crude production of about 4.0mmt in FY27E, against about 3.5mmt in FY26, rising to 4.2–4.3mmt thereafter.",
+        "Nilesh Mehta Email ID: head-customercare@bobcaps.in; Phone no: 92288 60945 Brand Name: BOBCAPS Website: https://www.bobcaps.in/ CIN: U65999MH1996GOI098009 Logo: Investments in securities market are subject to market risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Higher integration costs led to 49bps YoY decline in EBITDA margin to 22.5%."
+      ]
+    }
+  ]
 }

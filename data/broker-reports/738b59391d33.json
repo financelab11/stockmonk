@@ -26,5 +26,47 @@
     ]
   },
   "blurb": "PBT increased 15% YoY to INR 20,448 cr, while PAT grew 19% YoY to INR 15,397 cr, translating into H1FY27 EPS of INR 24.94.",
-  "fetchedAt": "2026-11-18T15:50:57.992Z"
+  "fetchedAt": "2026-11-18T15:50:57.992Z",
+  "brokerId": "ventura",
+  "brokerDisplay": "Ventura Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 52,
+    "label": "Medium",
+    "reasons": [
+      "Result Update base 52"
+    ]
+  },
+  "execSummary": "Ventura Securities published a result update on Coal India. PBT increased 15% YoY to INR 20,448 cr, while PAT grew 19% YoY to INR 15,397 cr, translating into H1FY27 EPS of INR 24.94.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "PBT increased 15% YoY to INR 20,448 cr, while PAT grew 19% YoY to INR 15,397 cr, translating into H1FY27 EPS of INR 24.94.",
+        "PBT increased 15% YoY to INR 20,448 cr, while PAT grew 19% YoY to INR 15,397 cr, translating into H1FY27 EPS of INR 24.94."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "On a quarterly basis, Q2FY27 revenue rose 20.9% YoY to INR 44,179 cr from INR 36,553 cr, while declining 4.5% QoQ from INR 46,255 cr.",
+        "EBITDA grew 28% YoY to INR 11,447 cr, with margin improving to 26% from 24% in Q2FY26.",
+        "Profit margin improved to 14.8% from 11.4% in Q2FY26 but moderated from 19.1% in Q1FY27."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "And such person shall be responsible for conducting his/her/their own investigation and analysis of the information contained or referred to in this document and of evaluating the merits and risks involved in the securities forming the subject matter of this document."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Profit margin improved to 14.8% from 11.4% in Q2FY26 but moderated from 19.1% in Q1FY27."
+      ]
+    }
+  ]
 }

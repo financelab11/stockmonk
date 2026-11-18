@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Per (%) 7/66/32 12M Avg Val (INR M) 5470 Financials & Valuations (INR b) Y/E March FY27E FY28E FY29E Sales 460.6 545.0 638.6 EBITDA 29.8 34.6 40.0 Margins (%) 6.5 6.4 6.3 Adj.",
-  "fetchedAt": "2026-11-18T15:51:18.615Z"
+  "fetchedAt": "2026-11-18T15:51:18.615Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": "KALYANKJIL",
+  "market": "IN",
+  "sector": "Consumer & New-Age",
+  "materiality": {
+    "score": 48,
+    "label": "Medium",
+    "reasons": [
+      "Stock Note base 40",
+      "+8 target implies 21% change"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on Kalyan Jewellers India. Target ₹800 (+21% vs ₹663). Per (%) 7/66/32 12M Avg Val (INR M) 5470 Financials & Valuations (INR b) Y/E March FY27E FY28E FY29E Sales 460.6 545.0 638.6 EBITDA 29.8 34.6 40.0 Margins (%) 6.5 6.4 6.3 Adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Per (%) 7/66/32 12M Avg Val (INR M) 5470 Financials & Valuations (INR b) Y/E March FY27E FY28E FY29E Sales 460.6 545.0 638.6 EBITDA 29.8 34.6 40.0 Margins (%) 6.5 6.4 6.3 Adj.",
+        "Per (%) 7/66/32 12M Avg Val (INR M) 5470 Financials & Valuations (INR b) Y/E March FY27E FY28E FY29E Sales 460.6 545.0 638.6 EBITDA 29.8 34.6 40.0 Margins (%) 6.5 6.4 6.3 Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "India’s revenue grew 32% YoY, supported by healthy SSSG of 20% (South: 19%; non-South: 21%).",
+        "Importantly, management indicated that 2Q witnessed volume growth, as SSSG of ~20% came against single-digit gold price inflation.",
+        "This reinforces the underlying demand strength and management's confidence in achieving its FY27 growth aspiration of minimum 25% revenue growth.  Post adjustment of inventory gains/losses, GM contracted 80bp YoY to 11.9% and EBITDA margin contracted 20bp to 5.8%."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Target price ₹800 against a market price of ₹663 at the report date.",
+        "Per (%) 7/66/32 12M Avg Val (INR M) 5470 Financials & Valuations (INR b) Y/E March FY27E FY28E FY29E Sales 460.6 545.0 638.6 EBITDA 29.8 34.6 40.0 Margins (%) 6.5 6.4 6.3 Adj.",
+        "We reiterate our BUY rating with a TP of INR800 (based on 35x Sept'28 P/E).",
+        "Kalyan Jewellers 11 November 2026 3 Valuation and view  We maintain our EPS estimates for FY27 and FY28.  Kalyan has fully repaid its non-GML debt in India during 2QFY27, in line with management's earlier guidance."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Sustained customer acquisition, volume-led demand growth, and the ongoing shift from unorganized to organized retail remain key growth drivers.",
+        "Key takeaways from the management commentary  3Q has started on a strong note."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "This reinforces the underlying demand strength and management's confidence in achieving its FY27 growth aspiration of minimum 25% revenue growth.  Post adjustment of inventory gains/losses, GM contracted 80bp YoY to 11.9% and EBITDA margin contracted 20bp to 5.8%."
+      ]
+    }
+  ]
 }

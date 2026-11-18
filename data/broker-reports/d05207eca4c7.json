@@ -31,5 +31,48 @@
     ]
   },
   "blurb": "Q 2F Y2 7 performance : GEE Limited reported consolidated revenue growth of 18.6% YoY to ₹101.3 crore in Q2FY27 compared to ₹85.5 crore in Q2FY26.",
-  "fetchedAt": "2026-11-18T15:49:37.440Z"
+  "fetchedAt": "2026-11-18T15:49:37.440Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on GEE. Q 2F Y2 7 performance : GEE Limited reported consolidated revenue growth of 18.6% YoY to ₹101.3 crore in Q2FY27 compared to ₹85.5 crore in Q2FY26.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Q 2F Y2 7 performance : GEE Limited reported consolidated revenue growth of 18.6% YoY to ₹101.3 crore in Q2FY27 compared to ₹85.5 crore in Q2FY26.",
+        "Q 2F Y2 7 performance : GEE Limited reported consolidated revenue growth of 18.6% YoY to ₹101.3 crore in Q2FY27 compared to ₹85.5 crore in Q2FY26."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Gross margin contracted marginally by 39 bps YoY to 26.3% from 26.7%.",
+        "However, operating EBITDA declined 11.9% YoY to ₹7.9 crore from ₹9.0 crore, with operating EBITDA margin contracting sharply by 271 bps to 7.8% from 10.5%.",
+        "The disproportionate increase in employee expenses (+30.7% YoY) and other expenses (+37.9% YoY), both outpacing revenue growth, weighed on operating profitability."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "ICICI Securities | Retail Research 3 ICICI Direct Research Result Update | GEE Limited o Key growth drivers include defence, shipbuilding, power and energy, nuclear power, solar, railways, steel and infrastructure.",
+        "Investments in securities market are subject to market risks."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The disproportionate increase in employee expenses (+30.7% YoY) and other expenses (+37.9% YoY), both outpacing revenue growth, weighed on operating profitability."
+      ]
+    }
+  ]
 }

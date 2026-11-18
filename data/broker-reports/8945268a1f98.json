@@ -31,5 +31,57 @@
     ]
   },
   "blurb": "PAT 2,247 2,997 5,331 6,635 Growth YoY (%) 40.3 33.4 77.9 24.5 Adj.",
-  "fetchedAt": "2026-11-18T15:52:31.678Z"
+  "fetchedAt": "2026-11-18T15:52:31.678Z",
+  "brokerId": "nirmal-bang",
+  "brokerDisplay": "Nirmal Bang",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Nirmal Bang published a stock note on The Ramco Cements. Rating: ACCUMULATE. PAT 2,247 2,997 5,331 6,635 Growth YoY (%) 40.3 33.4 77.9 24.5 Adj.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "PAT 2,247 2,997 5,331 6,635 Growth YoY (%) 40.3 33.4 77.9 24.5 Adj.",
+        "PAT 2,247 2,997 5,331 6,635 Growth YoY (%) 40.3 33.4 77.9 24.5 Adj."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Volume growth remained robust at 12.4% YoY and 7.1% QoQ, with no material benefit from a low base, despite seasonal disruptions in the east, while many players have reported sequential volume decline in 2QFY27.",
+        "We believe TRCL has adequate headroom to cater to incremental demand across its key markets, while the upcoming 4.7mtpa capacity expansion in the south by FY27E should further support volume growth from FY28E.",
+        "We are factoring in 8% volume CAGR over FY26-FY29E supported by higher CUR and volume addition from the upcoming plants."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: ACCUMULATE.",
+        "Outlook and valuation: We roll forward our estimates to FY29 and factor in EBITDA/tn of Rs735/Rs821/Rs834 for FY27E/FY28E/FY29E.",
+        "We maintain our valuation multiple at 14x Sep-28E forward EV/EBITDA and revise our TP to Rs1,021 (earlier Rs1,084), implying a 26% upside, while retaining our BUY rating.",
+        "The unchanged multiple reflects the potential for limited impact of incremental cost pressure and volume growth from the upcoming capacity (4mtpa) additions in FY27E."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "We believe TRCL has adequate headroom to cater to incremental demand across its key markets, while the upcoming 4.7mtpa capacity expansion in the south by FY27E should further support volume growth from FY28E.",
+        "Outlook and valuation: We roll forward our estimates to FY29 and factor in EBITDA/tn of Rs735/Rs821/Rs834 for FY27E/FY28E/FY29E."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "We are factoring in 8% volume CAGR over FY26-FY29E supported by higher CUR and volume addition from the upcoming plants."
+      ]
+    }
+  ]
 }

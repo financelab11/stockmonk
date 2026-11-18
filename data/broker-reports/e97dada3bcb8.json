@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "We note: (1) Elica sustained healthy revenue growth, even as the company continued to strengthen its premium portfolio through new product launches.",
-  "fetchedAt": "2026-11-18T15:51:26.157Z"
+  "fetchedAt": "2026-11-18T15:51:26.157Z",
+  "brokerId": "icici-securities",
+  "brokerDisplay": "ICICI Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "ICICI Securities published a stock note on Whirlpool of India. Rating: REDUCE. Target ₹758 (-10% vs ₹838). We note: (1) Elica sustained healthy revenue growth, even as the company continued to strengthen its premium portfolio through new product launches.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "We note: (1) Elica sustained healthy revenue growth, even as the company continued to strengthen its premium portfolio through new product launches.",
+        "We note: (1) Elica sustained healthy revenue growth, even as the company continued to strengthen its premium portfolio through new product launches."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "(2) Margins, however, were under pressure because of elevated commodity costs, INR depreciation, and BEE-transition related costs.",
+        "Gross/EBITDA/PAT margins contracted 435bps/138bps/57bps YoY, impacted by higher RM inflation, increased freight costs, as well as INR depreciation.",
+        "We note that the price increases implemented during the quarter were not sufficient to offset the inflationary pressures, hurting margins further."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: REDUCE.",
+        "Target price ₹758 against a market price of ₹838 at the report date.",
+        "Maintain REDUCE with a DCF-based revised TP of INR 758 (earlier: 730), implying target P/E at 22x FY28E EPS.",
+        "We maintain our REDUCE rating on the stock with a DCF- based revised TP of INR 758 (earlier: 730), implying target P/E at 22x FY28E EPS.",
+        "Key upside risks: A steep decline in competitive pressures and input prices."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Key upside risks: A steep decline in competitive pressures and input prices.",
+        "Better-than-expected performance of new plants/products Higher-than-expected market offtake for new products will pose an upside risk to estimates."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "We note that the price increases implemented during the quarter were not sufficient to offset the inflationary pressures, hurting margins further."
+      ]
+    }
+  ]
 }

@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Key Takeaways ✓ Priorities on Interim MD CEO: Management highlighted that business operations remain stable, supported by an experienced leadership team, robust operational controls and governance processes.",
-  "fetchedAt": "2026-11-18T15:50:37.035Z"
+  "fetchedAt": "2026-11-18T15:50:37.035Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on Equitas Sma. Fin. Rating: BUY. Target ₹74. Key Takeaways ✓ Priorities on Interim MD CEO: Management highlighted that business operations remain stable, supported by an experienced leadership team, robust operational controls and governance processes.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Key Takeaways ✓ Priorities on Interim MD CEO: Management highlighted that business operations remain stable, supported by an experienced leadership team, robust operational controls and governance processes.",
+        "Key Takeaways ✓ Priorities on Interim MD CEO: Management highlighted that business operations remain stable, supported by an experienced leadership team, robust operational controls and governance processes."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Key selection criteria include a proven track record, quality and depth of experience, growth leadership, alignment with EQSFB’s existing strategy and the ability to build a robust leadership pipeline.",
+        "Subject to timely RBI approval, management expects the selection process to be completed within approximately 4 months. ✓ Business Continuity Ensured: Management reiterated that lending and deposit growth, including CASA and disbursement momentum, remain on track, with any potential deviations largely attributable to macroeconomic factors.",
+        "Management has also identified cost-saving initiatives to improve operational efficiency."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹74.",
+        "Company Update 13th November, 2026 BUY Target Price 74 Equitas Small Finance Bank Ltd.",
+        "Outlook and Valuation The interim MD & CEO’s focus on maintaining business continuity and delivering on the existing business plan should help mitigate near-term execution risks.",
+        "We continue to maintain our BUY recommendation on the stock with a target price of Rs 74/share, implying an upside of 28% from the CMP."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "BFSI – Banks 1 Interim MD CEO Assures Smooth Transition EQSFB’s stock has remained under pressure, declining ~11% since the announcement of the sudden resignation of its erstwhile MD & CEO, Mr PN Vasudevan, citing investor concerns over a perceived conflict of interest linked to his daughter’s NBFC.",
+        "Key Takeaways ✓ Priorities on Interim MD CEO: Management highlighted that business operations remain stable, supported by an experienced leadership team, robust operational controls and governance processes."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Management has also identified cost-saving initiatives to improve operational efficiency."
+      ]
+    }
+  ]
 }

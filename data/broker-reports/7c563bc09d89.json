@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 212 214 Sales (INR mn) 16,714 18,472 16,428 18,025 % Chng. 1.7 2.5 EBITDA (INR mn) 6,186 6,975 6,205 6,945 % Chng.",
-  "fetchedAt": "2026-11-18T15:51:52.833Z"
+  "fetchedAt": "2026-11-18T15:51:52.833Z",
+  "brokerId": "prabhudas-lilladher",
+  "brokerDisplay": "Prabhudas Lilladher",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Prabhudas Lilladher published a stock note on Samhi Hotels. Rating: BUY. Target ₹212. Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 212 214 Sales (INR mn) 16,714 18,472 16,428 18,025 % Chng. 1.7 2.5 EBITDA (INR mn) 6,186 6,975 6,205 6,945 % Chng.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 212 214 Sales (INR mn) 16,714 18,472 16,428 18,025 % Chng. 1.7 2.5 EBITDA (INR mn) 6,186 6,975 6,205 6,945 % Chng.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 212 214 Sales (INR mn) 16,714 18,472 16,428 18,025 % Chng. 1.7 2.5 EBITDA (INR mn) 6,186 6,975 6,205 6,945 % Chng."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Led by same-store revenue growth of ~9-11%, addition of ~170 keys at Hyderabad and incremental contribution from the asset-light RARE India platform, we expect revenue CAGR of 14% over FY26-FY29E with EBITDA margin of 35.8%/37.0%/37.8% in FY27E/FY28E/FY29E, respectively.",
+        "SAMHI IN trades at an attractive valuation of 9.0x/8.3x our FY28E/FY29E EBITDA estimates (adjusted for minority interest in the JV platform with GIC).",
+        "We maintain BUY with a TP of INR212 (10.5x Sep-28E EBITDA; no change in target multiple)."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹212.",
+        "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 212 214 Sales (INR mn) 16,714 18,472 16,428 18,025 % Chng. 1.7 2.5 EBITDA (INR mn) 6,186 6,975 6,205 6,945 % Chng.",
+        "SAMHI IN trades at an attractive valuation of 9.0x/8.3x our FY28E/FY29E EBITDA estimates (adjusted for minority interest in the JV platform with GIC).",
+        "We maintain BUY with a TP of INR212 (10.5x Sep-28E EBITDA; no change in target multiple)."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "(2.0) - Key Data SAMH.BO | SAMHI IN BSE Code 543984 NSE Code SAMHI 52-W High / Low INR 203 / INR 127 Face Value 1 Sensex / Nifty 77,301 / 23,961 Market Cap INR 35 bn / $ 372 mn Shares Outstanding 222.36 mn 3M Avg.",
+        "Led by same-store revenue growth of ~9-11%, addition of ~170 keys at Hyderabad and incremental contribution from the asset-light RARE India platform, we expect revenue CAGR of 14% over FY26-FY29E with EBITDA margin of 35.8%/37.0%/37.8% in FY27E/FY28E/FY29E, respectively."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "We maintain BUY with a TP of INR212 (10.5x Sep-28E EBITDA; no change in target multiple)."
+      ]
+    }
+  ]
 }

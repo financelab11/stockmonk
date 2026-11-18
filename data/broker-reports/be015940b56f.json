@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "This could, however, increase the mining premiums, resulting in margin erosion.",
-  "fetchedAt": "2026-11-18T15:50:03.843Z"
+  "fetchedAt": "2026-11-18T15:50:03.843Z",
+  "brokerId": "motilal-oswal",
+  "brokerDisplay": "Motilal Oswal",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Motilal Oswal published a stock note on Hindustan Zinc. Rating: NEUTRAL. Target ₹600 (+9% vs ₹549). This could, however, increase the mining premiums, resulting in margin erosion.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "This could, however, increase the mining premiums, resulting in margin erosion.",
+        "This could, however, increase the mining premiums, resulting in margin erosion."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "Ranked 3rd and 4th in the Onshore Broker and Local Broker categories, respectively Hindustan Zinc 16 November 2026 2 ◼ At CMP, HZ trades at 6.2x FY28E EV/EBITDA, and we believe the current valuation has priced in all the positive factors.",
+        "We reiterate our Neutral rating with a TP of INR600 (premised on 7x EV/EBITDA on FY28E).",
+        "Assets 186.2 79.7 67.5 60.9 102.6 172.3 231.7 Appl. of Funds 390.3 280.9 272.4 279.0 346.2 437.7 512.1 Hindustan Zinc 16 November 2026 6 Financials and Valuation Cash Flow Statement INR b FY22 FY23 FY24 FY25 FY26 FY27E FY28E EBITDA 162.3 175.1 136.6 173.9 220.6 357.0 328.4 Non cash exp."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: NEUTRAL.",
+        "Target price ₹600 against a market price of ₹549 at the report date.",
+        "Ranked 3rd and 4th in the Onshore Broker and Local Broker categories, respectively Hindustan Zinc 16 November 2026 2 ◼ At CMP, HZ trades at 6.2x FY28E EV/EBITDA, and we believe the current valuation has priced in all the positive factors.",
+        "We reiterate our Neutral rating with a TP of INR600 (premised on 7x EV/EBITDA on FY28E).",
+        "Assets 186.2 79.7 67.5 60.9 102.6 172.3 231.7 Appl. of Funds 390.3 280.9 272.4 279.0 346.2 437.7 512.1 Hindustan Zinc 16 November 2026 6 Financials and Valuation Cash Flow Statement INR b FY22 FY23 FY24 FY25 FY26 FY27E FY28E EBITDA 162.3 175.1 136.6 173.9 220.6 357.0 328.4 Non cash exp."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Each recipient of this document should make such investigations as it deems necessary to arrive at an independent evaluation of an investment in the securities of companies referred to in this document (including the merits and risks involved), and should consult its own advisors to determine the merits and risks of such an investment.",
+        "Certain transactions -including those involving futures, options, another derivative products as well as non-investment grade securities - involve substantial risk and are not suitable for all investors."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "Assets 186.2 79.7 67.5 60.9 102.6 172.3 231.7 Appl. of Funds 390.3 280.9 272.4 279.0 346.2 437.7 512.1 Hindustan Zinc 16 November 2026 6 Financials and Valuation Cash Flow Statement INR b FY22 FY23 FY24 FY25 FY26 FY27E FY28E EBITDA 162.3 175.1 136.6 173.9 220.6 357.0 328.4 Non cash exp."
+      ]
+    }
+  ]
 }

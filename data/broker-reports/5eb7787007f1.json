@@ -31,5 +31,58 @@
     ]
   },
   "blurb": "Telecom 1 Strong QoQ Growth; Key Initiatives to Sustain Growth Momentum Est.",
-  "fetchedAt": "2026-11-18T15:51:33.177Z"
+  "fetchedAt": "2026-11-18T15:51:33.177Z",
+  "brokerId": "axis-securities",
+  "brokerDisplay": "Axis Securities",
+  "ticker": null,
+  "market": "IN",
+  "sector": null,
+  "materiality": {
+    "score": 40,
+    "label": "Low",
+    "reasons": [
+      "Stock Note base 40"
+    ]
+  },
+  "execSummary": "Axis Securities published a stock note on Bharti Airtel. Rating: BUY. Target ₹2,530. Telecom 1 Strong QoQ Growth; Key Initiatives to Sustain Growth Momentum Est.",
+  "detailedSummary": [
+    {
+      "heading": "Investment thesis",
+      "bullets": [
+        "Telecom 1 Strong QoQ Growth; Key Initiatives to Sustain Growth Momentum Est.",
+        "Telecom 1 Strong QoQ Growth; Key Initiatives to Sustain Growth Momentum Est."
+      ]
+    },
+    {
+      "heading": "Financial performance",
+      "bullets": [
+        "The company added 6.7 Lc Homes customers during Q2, while management stated that fibre offers better customer retention and lifetime value compared with FWA.",
+        "Its One Airtel proposition further strengthens this strategy by encouraging households to bundle mobile, broadband and other services under a single relationship. • Sustained ARPU Growth Through Premiumisation and Postpaid Expansion: Airtel's continued focus on improving customer mix is supporting steady ARPU growth, which increased to Rs 271 in Q2FY27 from Rs 264 in the previous quarter.",
+        "The shift towards higher-value prepaid plans and strong postpaid additions of 1.2 Mn customers reflect improving monetisation rather than dependence solely on subscriber growth."
+      ]
+    },
+    {
+      "heading": "Valuation",
+      "bullets": [
+        "Broker rating: BUY.",
+        "Target price ₹2,530.",
+        "Result Update 09th November, 2026 BUY Target Price 2,530 Bharti Airtel Ltd.",
+        "Current Valuation: SOTP-based Current TP: Rs 2,530/share (Unchanged) Recommendation: From a long-term perspective, we believe Bharti Airtel is well-positioned to continue gaining market share, backed by the highest penetration and minimal Capex requirements.",
+        "Variance Net Sales 60,878 4.0 16.7 60,061 1.4 EBIT 20,329 6.6 24.1 19,667 3.4 EBIT Margin 33.4 82bps 198bps 32.7 69bps Reported PAT 10,710 7.0 23.8 10,618 0.9 EPS (Rs) 17.2 7.0 27.8 17.0 1.0 Source: Company, Axis Securities Research (CMP as of 08th November, 2026) CMP (Rs) 2,086 Upside /Downside (%) 21% High/Low (Rs) 2,175/1,726 Market cap (Cr) 12,98,100 Avg. daily vol."
+      ]
+    },
+    {
+      "heading": "Risks and concerns",
+      "bullets": [
+        "Telecom 1 Strong QoQ Growth; Key Initiatives to Sustain Growth Momentum Est.",
+        "Moreover, the Airtel Money Africa listing also highlights the value being created in its financial services business Sector Outlook: Positive Company Outlook & Guidance: The company has a strong focus on quality customers with increasing ARPU and revenue."
+      ]
+    },
+    {
+      "heading": "Key takeaways",
+      "bullets": [
+        "The shift towards higher-value prepaid plans and strong postpaid additions of 1.2 Mn customers reflect improving monetisation rather than dependence solely on subscriber growth."
+      ]
+    }
+  ]
 }

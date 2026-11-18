@@ -188,3 +188,6 @@ export function getGccStockStory(ticker: string): StockStory | null {
 }
 
 export const GCC_STORY_TICKERS = Object.keys(STORIES);
+
+/** Story map for audits and tooling. */
+export const GCC_STORIES = STORIES;

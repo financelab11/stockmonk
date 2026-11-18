@@ -99,7 +99,6 @@ pnpm build:growth-ranker # rebuild the 385-name forward-estimate snapshot
   overlay that queries the US, India and GCC search indexes (`/` or Cmd/Ctrl+K).
 
 ## Refreshing every dataset
-
 ```bash
 FORCE_REFRESH=1 pnpm refresh      # EDGAR, SimFin, fallback, filings, consensus, segments, benchmark
 pnpm refresh:prices               # Yahoo closes for all 229 US names (SimFin prices lag ~1 week)
@@ -116,6 +115,19 @@ PSTG and ACLX have no Yahoo history (delisted), CRNX last traded 2026-08-31,
 JBCHEPHARM has no current Yahoo quote, and ten MSM (Oman) names plus TAQA only
 get weekly/irregular history from StockAnalysis. These dates are last-traded,
 not failed refreshes.
+
+## Research report freshness
+
+- `pnpm audit:stories` compares every story's newest quarter and explicit price
+  with the dataset; it exits non-zero when a report is behind.
+- `pnpm refresh:stories` regenerates the data-driven sections (takeaways,
+  big-picture data paragraphs, growth, performance, cash, valuation, analysts)
+  from current filings and prices, while keeping each report's bespoke title,
+  dek, business description, economics, risks and bottom line.
+- The daily workflow runs the ingest, price refresh, story refresh, freshness
+  audits and commits `data`, `public/data` and `content`.
+- Never hand-edit a generated section to a specific number; change the data or
+  the generator instead.
 - Report section 10 is "Key takeaways and what to monitor" (not "the bottom
   line for learners").
 

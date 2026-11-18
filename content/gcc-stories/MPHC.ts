@@ -1,124 +1,141 @@
 import type { StockStory } from "@/content/stocks/types";
 
 export const mesaieed: StockStory = {
-  ticker: "MPHC",
-  kicker: "Qatar · Petrochemical holdings",
-  title: "Mesaieed Petrochemical: a holding company at a data inflection",
-  dek:
-    "Mesaieed Petrochemical holds stakes in Qatari petrochemical joint ventures and receives dividends from them. The reported revenue and earnings in the data feed have turned negative, which appears to be an accounting artefact rather than an operating collapse.",
-  readingMinutes: 7,
-  takeaways: [
-    "2025 revenue was QAR 0.55bn and net income QAR 0.53bn; the trailing figures in the feed are negative and should not be read as operating revenue.",
-    "The company holds minority stakes in QAPCO, QVC and other Qatari petrochemical ventures, and its income is largely equity-accounted.",
-    "The balance sheet is net cash, with QAR 15.55bn of equity and QAR 0.32bn of cash, and the dividend yield is 4.3%.",
-    "At QAR 0.98 the shares trade at a discount to book and no meaningful earnings multiple because of the accounting distortion.",
-    "No reliable third-party consensus is available in the current feed, so the report relies on the reported annual results and the portfolio.",
+  "ticker": "MPHC",
+  "kicker": "Qatar · Petrochemical holdings",
+  "title": "Mesaieed Petrochemical: a holding company at a data inflection",
+  "dek": "Mesaieed Petrochemical holds stakes in Qatari petrochemical joint ventures and receives dividends from them. The reported revenue and earnings in the data feed have turned negative, which appears to be an accounting artefact rather than an operating collapse.",
+  "readingMinutes": 7,
+  "takeaways": [
+    "Revenue: no revenue reported over the trailing twelve months.",
+    "Profitability: 104.2% operating margin and 104.2% net margin.",
+    "Cash: n/a free cash flow, a n/a margin.",
+    "Scorecard: 54/100 average percentile across the factor screens."
   ],
-  filingUrl: "https://stockanalysis.com/quote/qse/MPHC/financials/",
-  irUrl: "https://www.mphc.com.qa",
-  bigPicture: {
-    paragraphs: [
-      "Mesaieed Petrochemical Holding is a Qatari holding company with stakes in petrochemical joint ventures at Mesaieed Industrial City. Its main holdings include interests in Qatar Petrochemical Company, Qatar Vinyl Company and other ventures that produce polyethylene, caustic soda, ethylene dichloride and other chemicals.",
-      "The equity is a leveraged play on petrochemical spreads through a portfolio of associates rather than a direct operator. The company's reported revenue is not comparable to an operating producer because much of its income is the share of profits from the joint ventures. That accounting structure explains the unusual margins and the recent negative trailing figures.",
-    ],
+  "filingUrl": "https://stockanalysis.com/quote/qse/MPHC/financials/",
+  "irUrl": "https://www.mphc.com.qa",
+  "bigPicture": {
+    "paragraphs": [
+      "Mesaieed Petrochemical Holding reported no revenue over the last twelve months. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
+      "The latest reported quarter was Q3 FY26, with -QAR 240.8M of revenue and an operating margin of 101.7%. The stock closed at QAR 0.98 on 2026-11-18, giving a market capitalization of QAR 12.4B.",
+      "The shares sit 36% of the way up their 52-week range (QAR 0.83 to QAR 1.26). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+    ]
   },
-  whatItDoes: {
-    paragraphs: [
+  "whatItDoes": {
+    "paragraphs": [
       "The company holds minority stakes in petrochemical ventures and receives dividends and share of profits. It does not operate the plants directly; the operating partners manage production and sales, while MPHC participates through its equity interests.",
-      "The portfolio gives exposure to polyethylene, vinyl and other chemical chains, with feedstock from Qatar's gas fields. The value of the holding depends on the cash flows of the ventures, which are cyclical and driven by global petrochemical prices.",
-    ],
+      "The portfolio gives exposure to polyethylene, vinyl and other chemical chains, with feedstock from Qatar's gas fields. The value of the holding depends on the cash flows of the ventures, which are cyclical and driven by global petrochemical prices."
+    ]
   },
-  howItMakesMoney: {
-    paragraphs: [
+  "howItMakesMoney": {
+    "paragraphs": [
       "Income is the share of profits from associates and dividends from the ventures. That is why the reported operating margin is close to 100% in normal years and why the trailing figures can turn negative when the ventures report losses or one-off charges.",
-      "The balance sheet holds the stakes at cost or fair value and carries a net cash position. The dividend received from the ventures funds the dividend paid to MPHC shareholders, so the payout depends on the cash generation of the underlying plants rather than on the holding company's own operations.",
-    ],
+      "The balance sheet holds the stakes at cost or fair value and carries a net cash position. The dividend received from the ventures funds the dividend paid to MPHC shareholders, so the payout depends on the cash generation of the underlying plants rather than on the holding company's own operations."
+    ]
   },
-  growth: {
-    paragraphs: [
-      "Reported revenue was QAR 1.88bn in 2021, QAR 1.78bn in 2022, QAR 1.10bn in 2023, QAR 0.73bn in 2024 and QAR 0.55bn in 2025, tracking the share of venture profits as petrochemical spreads narrowed. Net income followed the same path, from QAR 1.86bn to QAR 0.53bn.",
-      "The trailing twelve months show negative revenue and net income, which is not consistent with the annual results and likely reflects a reversal or accounting adjustment in the latest period. Until the filing explains it, the annual 2025 result is the better anchor.",
-    ],
+  "growth": {
+    "paragraphs": [
+      "Revenue compounded at -26.5% a year across the fiscal years in the dataset, and the latest quarter changed -266.1% year over year. A current-year consensus estimate is not available in the dataset.",
+      "Growth is only useful if it earns a return. The operating margin of 104.2% and return on invested capital of -3.1% are the filters to watch as revenue scales."
+    ]
   },
-  performance: {
-    paragraphs: [
-      "The earnings history is one of steady decline from the 2021 peak as petrochemical spreads compressed. The company remained profitable through 2025, but the profit was a fraction of the 2021 level.",
-      "Return on equity was about 3.4% on the 2025 result, low relative to the cost of equity. The company has no debt and a large equity base, which supports the dividend but also dilutes returns.",
-    ],
+  "performance": {
+    "paragraphs": [
+      "The trailing operating margin is 104.2%, the net margin is 104.2% and diluted EPS is -QAR 0.03. The latest quarter's operating margin was 101.7%.",
+      "Return on equity is -2.7%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
+      "The latest reported period was Q3 FY26: revenue of -QAR 240.8M, an operating margin of 101.7% and a net margin of 101.7%."
+    ]
   },
-  cash: {
-    paragraphs: [
-      "The company holds QAR 0.32bn of cash and no debt, a net cash position that supports the 4.3% dividend yield. The dividend is funded by distributions from the joint ventures rather than by operating cash flow at the holding level.",
-      "The main risk is that the ventures reduce their distributions if spreads stay weak. The net cash balance provides a buffer, but it is small relative to the equity base.",
-    ],
+  "cash": {
+    "paragraphs": [
+      "Free cash flow over the trailing period was n/a, a n/a margin. Net debt is not a meaningful measure for this business in the current dataset.",
+      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit."
+    ]
   },
-  valuation: {
-    paragraphs: [
-      "At QAR 0.98 the shares trade below book value, with a market capitalisation of QAR 12.3bn against QAR 15.55bn of equity. An earnings multiple is not meaningful given the accounting distortion in the trailing figures.",
-      "No reliable third-party consensus target is available in the current feed. The valuation should be assessed on the dividend yield, the net cash and the market value of the stakes in the joint ventures, adjusted for the cyclicality of petrochemical spreads.",
-    ],
+  "valuation": {
+    "paragraphs": [
+      "At the latest close the shares trade at n/a trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
+      "A third-party consensus target is not available in the dataset. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+    ]
   },
-  analysts: {
-    paragraphs: [
-      "Sell-side coverage is absent from the current data feed, which is common for Qatari holding companies with limited free float. Without a target price, investors should value the stakes directly and treat the reported revenue as an accounting measure rather than an operating top line.",
-      "The key debate is the cash distribution from the ventures and the timing of a petrochemical recovery. A recovery in spreads would lift the share of profits and support the dividend; a prolonged downturn would keep returns low.",
+  "analysts": {
+    "paragraphs": [
+      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings.",
+      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence.",
+      "No attributed third-party consensus snapshot is available for this company in the current dataset, so no target or estimate range is shown."
     ],
-    bullets: [
-      { title: "Coverage", detail: "No reliable consensus target in the current feed." },
-      { title: "Valuation", detail: "Trades below book value; earnings multiple not meaningful." },
-      { title: "Income", detail: "Dividend depends on distributions from the joint ventures." },
-    ],
-  },
-  risks: {
-    intro:
-      "The risks are petrochemical spreads, the accounting distortion and the dependence on venture distributions.",
-    items: [
+    "bullets": [
       {
-        title: "Petrochemical spreads",
-        severity: "High",
-        detail:
-          "The value of the stakes depends on the profitability of the ventures, which is driven by global chemical prices.",
-        watch: "Polyethylene and vinyl spreads, global capacity.",
+        "title": "Coverage",
+        "detail": "No reliable consensus target in the current feed."
       },
       {
-        title: "Data quality",
-        severity: "High",
-        detail:
-          "The trailing revenue and earnings are negative and do not reconcile with the annual results, making the headline metrics unreliable.",
-        watch: "Annual report, venture disclosures, restatements.",
+        "title": "Valuation",
+        "detail": "Trades below book value; earnings multiple not meaningful."
       },
       {
-        title: "Distribution risk",
-        severity: "Medium",
-        detail:
-          "The dividend depends on cash distributions from the ventures, which can be cut in a downturn.",
-        watch: "Dividends received, venture cash flow.",
-      },
-      {
-        title: "Concentration",
-        severity: "Medium",
-        detail:
-          "The portfolio is concentrated in a few Qatari petrochemical ventures.",
-        watch: "Stake concentration, partner decisions.",
-      },
-    ],
-    watchlist: [
-      { title: "Spreads", detail: "Petrochemical margins." },
-      { title: "Distributions", detail: "Cash from the ventures." },
-      { title: "Filings", detail: "Reconcile the trailing figures." },
-      { title: "Net cash", detail: "Buffer and dividend support." },
-    ],
+        "title": "Income",
+        "detail": "Dividend depends on distributions from the joint ventures."
+      }
+    ]
   },
-  bottomLine: {
-    paragraphs: [
+  "risks": {
+    "intro": "The risks are petrochemical spreads, the accounting distortion and the dependence on venture distributions.",
+    "items": [
+      {
+        "title": "Petrochemical spreads",
+        "severity": "High",
+        "detail": "The value of the stakes depends on the profitability of the ventures, which is driven by global chemical prices.",
+        "watch": "Polyethylene and vinyl spreads, global capacity."
+      },
+      {
+        "title": "Data quality",
+        "severity": "High",
+        "detail": "The trailing revenue and earnings are negative and do not reconcile with the annual results, making the headline metrics unreliable.",
+        "watch": "Annual report, venture disclosures, restatements."
+      },
+      {
+        "title": "Distribution risk",
+        "severity": "Medium",
+        "detail": "The dividend depends on cash distributions from the ventures, which can be cut in a downturn.",
+        "watch": "Dividends received, venture cash flow."
+      },
+      {
+        "title": "Concentration",
+        "severity": "Medium",
+        "detail": "The portfolio is concentrated in a few Qatari petrochemical ventures.",
+        "watch": "Stake concentration, partner decisions."
+      }
+    ],
+    "watchlist": [
+      {
+        "title": "Spreads",
+        "detail": "Petrochemical margins."
+      },
+      {
+        "title": "Distributions",
+        "detail": "Cash from the ventures."
+      },
+      {
+        "title": "Filings",
+        "detail": "Reconcile the trailing figures."
+      },
+      {
+        "title": "Net cash",
+        "detail": "Buffer and dividend support."
+      }
+    ]
+  },
+  "bottomLine": {
+    "paragraphs": [
       "Mesaieed Petrochemical is a holding company with stakes in Qatari petrochemical ventures, a net cash balance and a 4.3% dividend yield. The reported trailing figures are distorted by an accounting effect and should not be used to judge the business.",
-      "The investment case is a cyclical recovery play on petrochemical spreads, with the dividend providing income while investors wait. The main risks are spreads and the reliability of the reported figures.",
+      "The investment case is a cyclical recovery play on petrochemical spreads, with the dividend providing income while investors wait. The main risks are spreads and the reliability of the reported figures."
     ],
-    questions: [
+    "questions": [
       "What caused the negative trailing revenue and earnings?",
       "How much cash did the ventures distribute in 2025?",
       "What is the market value of the stakes versus book value?",
-      "When is the next petrochemical capacity addition?",
-    ],
-  },
+      "When is the next petrochemical capacity addition?"
+    ]
+  }
 };

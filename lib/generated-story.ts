@@ -617,7 +617,12 @@ function growth(value: number | null | undefined): string {
 }
 
 function latestQuarter(bundle: ResearchBundle) {
-  return [...bundle.data.quarterly].filter((row) => !row.ttm).at(-1) ?? null;
+  return (
+    [...bundle.data.quarterly]
+      .filter((row) => !row.ttm)
+      .sort((a, b) => (a.reportDate ?? "").localeCompare(b.reportDate ?? ""))
+      .at(-1) ?? null
+  );
 }
 
 function sourceUrl(bundle: ResearchBundle): string {

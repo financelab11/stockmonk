@@ -39,6 +39,9 @@ jobs:
       - name: Refresh US prices from Yahoo
         run: pnpm refresh:prices
 
+      - name: Refresh report prose
+        run: pnpm refresh:stories
+
       - name: Refresh India coverage
         run: pnpm ingest:india
         env:
@@ -60,7 +63,9 @@ jobs:
           pnpm build:screener
 
       - name: Check freshness
-        run: pnpm audit:freshness
+        run: |
+          pnpm audit:freshness
+          pnpm audit:stories
 
       - name: Sync Supabase
         run: |
@@ -83,7 +88,7 @@ jobs:
         run: |
           git config user.name "stockmonk-data-bot"
           git config user.email "data-bot@stockmonk.app"
-          git add data public/data
+          git add data public/data content
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else

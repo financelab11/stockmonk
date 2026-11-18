@@ -1,125 +1,142 @@
 import type { StockStory } from "@/content/stocks/types";
 
 export const bankAljazira: StockStory = {
-  ticker: "1020",
-  kicker: "Saudi Arabia · Islamic banking",
-  title: "Bank Aljazira: the smallest large bank, priced below book",
-  dek:
-    "Aljazira is the smallest of the Saudi Islamic banks, with a 7.5% return on equity and a valuation below book. Consensus expects a sharp EPS recovery in 2026, but coverage is thin and the franchise is still sub-scale.",
-  readingMinutes: 7,
-  takeaways: [
-    "TTM revenue of SAR 4.4bn and net income of SAR 1.7bn, with a 38% net margin and 7.5% return on equity.",
-    "Revenue grew from SAR 3.0bn in 2021 to SAR 4.1bn in 2025; net income rose from SAR 1.0bn to SAR 1.5bn.",
-    "The bank is small, retail-weighted and Islamic, with a lower return on equity than every large peer.",
-    "At 11.2x earnings and 0.6x book, the market is pricing a recovery that has not yet been delivered.",
-    "Consensus has a mean target of SAR 12.70 from just 4 analysts and expects FY2026 EPS of SAR 1.30.",
+  "ticker": "1020",
+  "kicker": "Saudi Arabia · Islamic banking",
+  "title": "Bank Aljazira: the smallest large bank, priced below book",
+  "dek": "Aljazira is the smallest of the Saudi Islamic banks, with a 7.5% return on equity and a valuation below book. Consensus expects a sharp EPS recovery in 2026, but coverage is thin and the franchise is still sub-scale.",
+  "readingMinutes": 7,
+  "takeaways": [
+    "Revenue: SAR 4.4B trailing twelve months, +13.5% year over year.",
+    "Profitability: n/a operating margin and 38.0% net margin.",
+    "Cash: -SAR 10.5B free cash flow, a -237.3% margin.",
+    "Scorecard: 48/100 average percentile across the factor screens."
   ],
-  filingUrl: "https://stockanalysis.com/quote/tadawul/1020/financials/",
-  irUrl: "https://www.bankaljazira.com",
-  bigPicture: {
-    paragraphs: [
-      "Bank Aljazira is the smallest of the Saudi banks in this coverage group, with a retail-focused Islamic franchise and a limited corporate and treasury book. It has been investing in digital banking and SME lending to grow beyond its historical niche.",
-      "The equity trades below book value because the return on equity is in the high single digits and the bank lacks the scale of the larger lenders. The investment case depends on a recovery in profitability that consensus expects but the bank has not yet demonstrated.",
-    ],
+  "filingUrl": "https://stockanalysis.com/quote/tadawul/1020/financials/",
+  "irUrl": "https://www.bankaljazira.com",
+  "bigPicture": {
+    "paragraphs": [
+      "Bank Aljazira generated SAR 4.4B of revenue over the last twelve months, +13.5% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
+      "The latest reported quarter was Q3 FY26, with SAR 1.1B of revenue and an operating margin of n/a. The stock closed at SAR 10.89 on 2026-11-18, giving a market capitalization of SAR 13.9B.",
+      "The shares sit 28% of the way up their 52-week range (SAR 10.17 to SAR 12.77). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+    ]
   },
-  whatItDoes: {
-    paragraphs: [
+  "whatItDoes": {
+    "paragraphs": [
       "Aljazira offers current and savings accounts, personal and home finance, cards, SME lending and wealth products. It is fully Sharia-compliant and has a smaller branch network than the large banks, with a growing digital channel.",
-      "The bank has a niche in auto leasing and consumer finance, which gives it higher yields than a mortgage-heavy lender but also higher credit risk.",
-    ],
+      "The bank has a niche in auto leasing and consumer finance, which gives it higher yields than a mortgage-heavy lender but also higher credit risk."
+    ]
   },
-  howItMakesMoney: {
-    paragraphs: [
+  "howItMakesMoney": {
+    "paragraphs": [
       "Net interest income is the core, supported by fees from cards, auto leasing and SME services. The cost of funds is higher than at the large banks because the deposit base is smaller and less weighted toward current accounts.",
-      "Provisioning has been a drag on returns. The bank has been working through legacy credit issues and building coverage, which explains the low return on equity relative to peers.",
-    ],
+      "Provisioning has been a drag on returns. The bank has been working through legacy credit issues and building coverage, which explains the low return on equity relative to peers."
+    ]
   },
-  growth: {
-    paragraphs: [
-      "Revenue rose from SAR 3.0bn in 2021 to SAR 4.1bn in 2025, and net income from SAR 1.0bn to SAR 1.5bn. The trailing twelve months show SAR 4.4bn of revenue and SAR 1.7bn of net income. Growth has been slower and more volatile than the larger banks.",
-      "Consensus for FY2026 assumes revenue of SAR 4.8bn, up 7.6%, and EPS of SAR 1.30, up 30%. That is a sharp recovery, driven by lower provisions and operating leverage. It is a high bar for a bank with a limited track record.",
-    ],
+  "growth": {
+    "paragraphs": [
+      "Revenue compounded at 8.5% a year across the fiscal years in the dataset, and the latest quarter changed +9.9% year over year. Third-party estimates for the current fiscal year point to SAR 4.8B of revenue and SAR 1.30 of EPS.",
+      "Growth is only useful if it earns a return. The operating margin of n/a and return on invested capital of n/a are the filters to watch as revenue scales."
+    ]
   },
-  performance: {
-    paragraphs: [
-      "The bank's return on equity was 7.5% on a trailing basis, the lowest in the coverage group. The net margin of 38% is also below peers, reflecting higher funding costs and a smaller fee pool.",
-      "Revenue and profit have grown, but the returns are not yet at a level that would justify a premium to book. The market is valuing the bank on the expectation of improvement, not on current profitability.",
-    ],
+  "performance": {
+    "paragraphs": [
+      "The trailing operating margin is n/a, the net margin is 38.0% and diluted EPS is SAR 0.98. The latest quarter's operating margin was n/a.",
+      "Return on equity is 7.2%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
+      "The latest reported period was Q3 FY26: revenue of SAR 1.1B, an operating margin of n/a and a net margin of 41.1%."
+    ]
   },
-  cash: {
-    paragraphs: [
-      "The trailing dividend yield is 4.6%, lower than the large banks and less certain because the payout depends on a recovery in earnings. The bank retains most of its profit to support capital and growth.",
-      "A higher dividend would require a sustained improvement in return on equity. Until then, the shares are a capital-appreciation story rather than an income story.",
-    ],
+  "cash": {
+    "paragraphs": [
+      "Free cash flow over the trailing period was -SAR 10.5B, a -237.3% margin. Net debt is SAR 21.5B.",
+      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
+      "Free cash flow was -SAR 10.5B over the last twelve months and net debt was SAR 21.5B; interest cover was n/a."
+    ]
   },
-  valuation: {
-    paragraphs: [
-      "At SAR 10.89 the shares trade at 11.2x trailing earnings and 0.6x book. The low price-to-book reflects the weak return on equity; the earnings multiple looks high because the profit base is depressed.",
-      "Third-party consensus, attributed and dated November 2026, has a mean target of SAR 12.70 and a range of SAR 10.40–14.20 from just 4 analysts. One carries a strong buy and three a hold. FY2026 revenue is expected at SAR 4.8bn and EPS at SAR 1.30. These are third-party estimates, not Stockmonk forecasts, and the small coverage set makes them less robust than for larger peers.",
-    ],
+  "valuation": {
+    "paragraphs": [
+      "At the latest close the shares trade at 11.2x trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
+      "The attributed third-party mean target is SAR 12.70; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+    ]
   },
-  analysts: {
-    paragraphs: [
-      "Coverage is thin, which means the consensus is less reliable and the shares are less liquid than the large-cap banks. The single strong buy and three holds reflect a wait-and-see approach to the recovery.",
-      "The key debate is whether the improvement in provisions is structural or one-off. A return to previous credit costs would undermine the EPS recovery story.",
-      "The low number of estimates also means a single analyst change can move the consensus materially, so the target should be read with caution.",
+  "analysts": {
+    "paragraphs": [
+      "4 analysts contribute to the third-party consensus. The mean target is SAR 12.70, with a range of SAR 10.40 to SAR 14.20.",
+      "Current-year estimates call for SAR 4.8B of revenue and SAR 1.30 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
+      "The attributed consensus covers 4 analysts with a mean target of SAR 12.7; third-party estimates can change without notice."
     ],
-    bullets: [
-      { title: "Consensus mean target", detail: "SAR 12.70 (range SAR 10.40–14.20), 4 analysts, November 2026." },
-      { title: "FY2026 estimates", detail: "Revenue SAR 4.8bn, +7.6%; EPS SAR 1.30, +30%." },
-      { title: "Ratings mix", detail: "1 strong buy, 0 buy, 3 hold, 0 sell." },
-    ],
-  },
-  risks: {
-    intro:
-      "The risks are sub-scale economics, credit quality and a recovery that may not materialise as consensus expects.",
-    items: [
+    "bullets": [
       {
-        title: "Sub-scale returns",
-        severity: "High",
-        detail:
-          "The bank's return on equity is in the high single digits, well below the cost of equity. Without scale, it is hard to improve sustainably.",
-        watch: "ROE, cost-income ratio.",
+        "title": "Consensus mean target",
+        "detail": "SAR 12.70 (range SAR 10.40–14.20), 4 analysts, November 2026."
       },
       {
-        title: "Credit quality",
-        severity: "Medium",
-        detail:
-          "Auto leasing and SME lending carry higher default risk. A rise in provisions would hit the already-thin profit base.",
-        watch: "Cost of risk, NPLs, coverage.",
+        "title": "FY2026 estimates",
+        "detail": "Revenue SAR 4.8bn, +7.6%; EPS SAR 1.30, +30%."
       },
       {
-        title: "Thin coverage and liquidity",
-        severity: "Medium",
-        detail:
-          "Only four analysts cover the stock, and the free float is smaller than the large banks. That increases price volatility.",
-        watch: "Trading volumes, estimate revisions.",
-      },
-      {
-        title: "Execution of the recovery",
-        severity: "Medium",
-        detail:
-          "Consensus expects a 30% EPS increase in 2026. Missing that bar would put the valuation under pressure.",
-        watch: "Quarterly EPS, provisions, revenue growth.",
-      },
-    ],
-    watchlist: [
-      { title: "Cost of risk", detail: "The main swing factor in the recovery." },
-      { title: "Return on equity", detail: "Progress toward the cost of equity." },
-      { title: "Loan growth", detail: "Retail and SME volumes." },
-      { title: "Dividend", detail: "Whether the payout can grow with earnings." },
-    ],
+        "title": "Ratings mix",
+        "detail": "1 strong buy, 0 buy, 3 hold, 0 sell."
+      }
+    ]
   },
-  bottomLine: {
-    paragraphs: [
+  "risks": {
+    "intro": "The risks are sub-scale economics, credit quality and a recovery that may not materialise as consensus expects.",
+    "items": [
+      {
+        "title": "Sub-scale returns",
+        "severity": "High",
+        "detail": "The bank's return on equity is in the high single digits, well below the cost of equity. Without scale, it is hard to improve sustainably.",
+        "watch": "ROE, cost-income ratio."
+      },
+      {
+        "title": "Credit quality",
+        "severity": "Medium",
+        "detail": "Auto leasing and SME lending carry higher default risk. A rise in provisions would hit the already-thin profit base.",
+        "watch": "Cost of risk, NPLs, coverage."
+      },
+      {
+        "title": "Thin coverage and liquidity",
+        "severity": "Medium",
+        "detail": "Only four analysts cover the stock, and the free float is smaller than the large banks. That increases price volatility.",
+        "watch": "Trading volumes, estimate revisions."
+      },
+      {
+        "title": "Execution of the recovery",
+        "severity": "Medium",
+        "detail": "Consensus expects a 30% EPS increase in 2026. Missing that bar would put the valuation under pressure.",
+        "watch": "Quarterly EPS, provisions, revenue growth."
+      }
+    ],
+    "watchlist": [
+      {
+        "title": "Cost of risk",
+        "detail": "The main swing factor in the recovery."
+      },
+      {
+        "title": "Return on equity",
+        "detail": "Progress toward the cost of equity."
+      },
+      {
+        "title": "Loan growth",
+        "detail": "Retail and SME volumes."
+      },
+      {
+        "title": "Dividend",
+        "detail": "Whether the payout can grow with earnings."
+      }
+    ]
+  },
+  "bottomLine": {
+    "paragraphs": [
       "Aljazira is the most speculative of the Saudi banks in this coverage group. It trades below book because the returns are weak, and the consensus recovery depends on a sustained fall in provisions that the bank has not yet proven.",
-      "The shares are a turnaround bet rather than a core holding. If the recovery is delivered, the low price-to-book provides leverage; if not, the stock can stay cheap for a long time.",
+      "The shares are a turnaround bet rather than a core holding. If the recovery is delivered, the low price-to-book provides leverage; if not, the stock can stay cheap for a long time."
     ],
-    questions: [
+    "questions": [
       "Is the improvement in credit costs structural or cyclical?",
       "What scale does the bank need to earn its cost of equity?",
       "Can it grow fee income without taking more credit risk?",
-      "Why is analyst coverage so thin, and what does that imply for liquidity?",
-    ],
-  },
+      "Why is analyst coverage so thin, and what does that imply for liquidity?"
+    ]
+  }
 };

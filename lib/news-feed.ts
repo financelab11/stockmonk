@@ -42,23 +42,49 @@ const DATASET_MATERIALITY: Record<NewsTag, number> = {
   "Deep-Dive": 70,
 };
 
-const MARKET_FILES: Array<{ file: string; market: FeedMarket }> = [
-  { file: "public/data/india/stocks.json", market: "IN" },
-  { file: "public/data/stocks.json", market: "US" },
-  { file: "public/data/gcc/stocks.json", market: "GCC" },
-];
-
 const universe = cache((): Map<string, { market: FeedMarket; sector: string }> => {
   const map = new Map<string, { market: FeedMarket; sector: string }>();
-  for (const source of MARKET_FILES) {
-    try {
-      const rows = JSON.parse(
-        fs.readFileSync(path.join(process.cwd(), source.file), "utf8"),
-      ) as Array<{ ticker: string; sector: string }>;
-      for (const row of rows) map.set(row.ticker.toUpperCase(), { market: source.market, sector: row.sector });
-    } catch {
-      // dataset not present
+  const add = (rows: Array<{ ticker: string; sector: string }>, market: FeedMarket) => {
+    for (const row of rows) {
+      map.set(row.ticker.toUpperCase(), { market, sector: row.sector });
     }
+  };
+
+  try {
+    add(
+      JSON.parse(
+        fs.readFileSync(
+          path.join(process.cwd(), "public", "data", "india", "stocks.json"),
+          "utf8",
+        ),
+      ) as Array<{ ticker: string; sector: string }>,
+      "IN",
+    );
+  } catch {
+    // dataset not present
+  }
+  try {
+    add(
+      JSON.parse(
+        fs.readFileSync(path.join(process.cwd(), "public", "data", "stocks.json"), "utf8"),
+      ) as Array<{ ticker: string; sector: string }>,
+      "US",
+    );
+  } catch {
+    // dataset not present
+  }
+  try {
+    add(
+      JSON.parse(
+        fs.readFileSync(
+          path.join(process.cwd(), "public", "data", "gcc", "stocks.json"),
+          "utf8",
+        ),
+      ) as Array<{ ticker: string; sector: string }>,
+      "GCC",
+    );
+  } catch {
+    // dataset not present
   }
   return map;
 });

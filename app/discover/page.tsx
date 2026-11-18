@@ -1,17 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import { StockCardStatic } from "@/components/cards/stock-card-static";
 import { FilterForm } from "@/components/discover/filter-form";
 import { RecentlyCarousel } from "@/components/discover/recently-carousel";
 import { ScreensPanel, type ScreenDetail } from "@/components/discover/screens-panel";
+import { CardGuide } from "@/components/market/card-guide";
+import { MarketIntro } from "@/components/market/market-intro";
+import { MarketPagination } from "@/components/market/market-pagination";
+import { MarketProBanner } from "@/components/market/market-pro-banner";
 import { Accordion } from "@/components/ui/accordion";
 import { SectionHeader } from "@/components/ui/section-header";
 import { TabNav } from "@/components/ui/tab-nav";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { JsonLd } from "@/components/seo/json-ld";
-import { INDIA_TICKERS } from "@/config/india-coverage";
-import { getGccUniverse } from "@/lib/gcc-data";
 import {
   getAllCompanies,
   getPrices,
@@ -19,7 +20,7 @@ import {
   getUniverse,
 } from "@/lib/data";
 import { filterUniverse, parseSort } from "@/lib/discover";
-import { paginationWindow } from "@/lib/pagination";
+import { getMarketCounts } from "@/lib/market-counts";
 import { SORT_OPTIONS } from "@/lib/constants";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
@@ -48,7 +49,7 @@ export default async function DiscoverPage({
   const tab = params.tab === "screens" ? "screens" : "featured";
 
   const universe = getUniverse();
-  const gccCount = getGccUniverse().length;
+  const counts = getMarketCounts();
   const carouselBundles = getResearchBundles(10);
   const companies = getAllCompanies();
 
@@ -65,7 +66,6 @@ export default async function DiscoverPage({
   const filtered = allFiltered.slice((page - 1) * pageSize, page * pageSize);
   const firstShown = allFiltered.length === 0 ? 0 : (page - 1) * pageSize + 1;
   const lastShown = Math.min(page * pageSize, allFiltered.length);
-  const pages = paginationWindow(page, pageCount);
   const priceMap = new Map(
     filtered.map((entry) => [entry.ticker, getPrices(entry.ticker, "1Y")]),
   );
@@ -127,54 +127,14 @@ export default async function DiscoverPage({
         ])}
       />
 
-      <section className="hero-indigo relative overflow-hidden text-white">
-        <div className="pointer-events-none absolute -right-16 -top-20 size-72 rounded-full bg-[#8b3dff]/30 blur-3xl" />
-        <div className="container-page relative py-9 lg:py-12">
-          <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-white/55">
-            Independent equity research
-          </p>
-          <h1 className="display mt-2 max-w-2xl text-[34px] leading-[1.04] tracking-[-0.03em] sm:text-[46px]">
-            Discover companies. Understand businesses.
-          </h1>
-          <p className="mt-3 max-w-xl text-[13px] leading-relaxed text-white/70">
-            Explore {universe.length} US-listed companies through structured
-            financial research. Compare growth, profitability, cash generation and
-            valuation, with the source and reporting period shown next to the
-            numbers.
-          </p>
-          <div className="mt-5 flex flex-wrap items-center gap-3">
-            <a href="#directory" className="btn btn-brand">
-              Browse company research
-              <ArrowRight aria-hidden="true" className="size-4" />
-            </a>
-            <Link prefetch={false} href="/framework" className="btn border border-white/25 text-white hover:bg-white/10">
-              Read the methodology
-            </Link>
-          </div>
-          <p className="mt-3 text-[10.5px] text-white/50">
-            Filings-based · third-party estimates attributed and dated · no buy or
-            sell ratings
-          </p>
-        </div>
-      </section>
-
-      <nav aria-label="Markets" className="border-b border-line bg-surface">
-        <div className="container-page flex flex-wrap items-center gap-2 py-2 text-[11px]">
-          <span className="text-faint">Markets</span>
-          <span
-            aria-current="page"
-            className="rounded-full bg-brand-soft px-2 py-0.5 font-semibold text-brand-deep"
-          >
-            US stocks · {universe.length}
-          </span>
-          <Link prefetch={false} href="/india" className="rounded-full px-2 py-0.5 text-muted hover:text-ink">
-            India stocks · {INDIA_TICKERS.length}
-          </Link>
-          <Link prefetch={false} href="/gcc" className="rounded-full px-2 py-0.5 text-muted hover:text-ink">
-            GCC stocks · {gccCount}
-          </Link>
-        </div>
-      </nav>
+      <MarketIntro
+        eyebrow="Independent equity research"
+        title="Discover companies. Understand businesses."
+        description={`Explore ${universe.length} US-listed companies through structured financial research. Compare growth, profitability, cash generation and valuation, with the source and reporting period shown next to the numbers.`}
+        meta="Filings-based · third-party estimates attributed and dated · no buy or sell ratings"
+        active="US"
+        counts={counts}
+      />
 
       <section className="container-page py-6">
         <div className="flex items-end justify-between gap-3">
@@ -220,44 +180,7 @@ export default async function DiscoverPage({
               sort={sort}
               count={allFiltered.length}
             />
-            <details className="mt-3 rounded-xl border border-line bg-surface">
-              <summary className="cursor-pointer px-3.5 py-2.5 text-[11.5px] font-semibold text-ink">
-                How to read these cards
-              </summary>
-              <div className="grid gap-2.5 border-t border-line px-3.5 py-3 sm:grid-cols-2 lg:grid-cols-3">
-                {[
-                  {
-                    title: "Growth and profitability",
-                    body: "How fast revenue is growing over the trailing twelve months, and how much of it reaches operating profit.",
-                  },
-                  {
-                    title: "Relative comparisons",
-                    body: "Percentile chips rank a company against the covered universe. They describe the numbers and are not ratings.",
-                  },
-                  {
-                    title: "Price and returns",
-                    body: "The latest close, the change versus the prior close, and the one-year return, each labelled with its period.",
-                  },
-                  {
-                    title: "Research insight",
-                    body: "A short data-derived note on what stands out. It changes when the metrics change, not when a narrative does.",
-                  },
-                  {
-                    title: "Reporting periods",
-                    body: "TTM means trailing twelve months. Where a figure is an annual or quarterly value, the label says so.",
-                  },
-                  {
-                    title: "A starting point",
-                    body: "A card summarises a business. The report behind it carries the sources, the caveats and the full statements.",
-                  },
-                ].map((item) => (
-                  <div key={item.title} className="rounded-lg bg-paper-deep p-2.5">
-                    <h3 className="text-[11.5px] font-semibold text-ink">{item.title}</h3>
-                    <p className="mt-1 text-[10.5px] leading-relaxed text-muted">{item.body}</p>
-                  </div>
-                ))}
-              </div>
-            </details>
+            <CardGuide scope="the covered universe" />
 
             <div className="mt-2 flex flex-wrap items-center justify-end gap-2">
               <p className="text-[10.5px] text-muted">
@@ -285,81 +208,22 @@ export default async function DiscoverPage({
                     />
                   ))}
                 </div>
-                {pageCount > 1 && (
-                  <nav aria-label="Research pagination" className="mt-5 flex flex-col items-center gap-2">
-                    <p className="text-[10.5px] text-muted">
-                      Showing {firstShown}–{lastShown} of {allFiltered.length} companies
-                    </p>
-                    <div className="flex flex-wrap items-center justify-center gap-1">
-                      {page > 1 ? (
-                        <a href={pageHref(page - 1)} className="btn btn-ghost h-9 min-h-0 px-3 text-[11px]">
-                          Previous
-                        </a>
-                      ) : (
-                        <span className="btn btn-ghost pointer-events-none h-9 min-h-0 px-3 text-[11px] opacity-40">
-                          Previous
-                        </span>
-                      )}
-                      {pages.map((item, index) =>
-                        item === "gap" ? (
-                          <span key={`gap-${index}`} className="px-1 text-[10.5px] text-faint">
-                            …
-                          </span>
-                        ) : (
-                          <a
-                            key={item}
-                            href={pageHref(item)}
-                            aria-current={item === page ? "page" : undefined}
-                            className={`inline-flex h-9 min-w-9 items-center justify-center rounded-lg px-2 text-[11px] font-semibold ${
-                              item === page
-                                ? "bg-brand text-white"
-                                : "text-muted hover:bg-paper-deep hover:text-ink"
-                            }`}
-                          >
-                            {item}
-                          </a>
-                        ),
-                      )}
-                      {page < pageCount ? (
-                        <a href={pageHref(page + 1)} className="btn btn-ghost h-9 min-h-0 px-3 text-[11px]">
-                          Next
-                        </a>
-                      ) : (
-                        <span className="btn btn-ghost pointer-events-none h-9 min-h-0 px-3 text-[11px] opacity-40">
-                          Next
-                        </span>
-                      )}
-                    </div>
-                  </nav>
-                )}
+                <MarketPagination
+                  page={page}
+                  pageCount={pageCount}
+                  total={allFiltered.length}
+                  first={firstShown}
+                  last={lastShown}
+                  hrefFor={pageHref}
+                  label="Research pagination"
+                />
               </>
             )}
           </div>
         )}
       </div>
 
-      <section id="pro" className="container-page scroll-mt-24 py-8">
-        <div className="card flex flex-col gap-4 p-5 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <p className="kicker">Stockmonk Pro</p>
-            <h2 className="display mt-1 text-[22px] leading-snug tracking-[-0.02em] text-ink sm:text-[26px]">
-              A deeper layer when a snapshot is not enough
-            </h2>
-            <p className="mt-1 max-w-2xl text-[12px] leading-relaxed text-muted">
-              Longer reports, multi-factor comparisons, earnings summaries and
-              watchlist alerts. Pro is a demo: no payment is taken and the
-              checkout is disabled.
-            </p>
-          </div>
-          <Link
-            prefetch={false}
-            href="/framework"
-            className="btn btn-primary h-10 min-h-0 shrink-0 px-4 text-[12px]"
-          >
-            See how the research is built
-          </Link>
-        </div>
-      </section>
+      <MarketProBanner />
 
       <section className="container-page py-8">
         <SectionHeader

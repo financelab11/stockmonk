@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { StockLogoStatic } from "@/components/stock-logo-static";
-import { formatCompactCurrency, formatMultiple, formatPercent } from "@/lib/format";
+import {
+  formatCompactCurrency,
+  formatMultiple,
+  formatPercent,
+  formatSignedPercent,
+} from "@/lib/format";
 import type { UniverseEntry } from "@/lib/schemas";
 
 export type ScreenDetail = {
@@ -18,8 +23,14 @@ function screen(
   filter: (entry: UniverseEntry) => boolean,
   sort?: (a: UniverseEntry, b: UniverseEntry) => number,
 ) {
-  const selected = entries.filter(filter).sort(sort).slice(0, 6);
-  return { title, description, metric, entries: selected };
+  const matched = entries.filter(filter);
+  return {
+    title,
+    description,
+    metric,
+    matched: matched.length,
+    entries: matched.sort(sort).slice(0, 6),
+  };
 }
 
 export function ScreensPanel({
@@ -86,7 +97,8 @@ export function ScreensPanel({
       entries,
       "Lowest EV/EBITDA",
       "A valuation screen, not a recommendation. Lower multiples can reflect lower growth or higher risk.",
-      (entry) => `${formatMultiple(entry.evEbitda)} EV/EBITDA · ${formatPercent(entry.return1y)} 1Y`,
+      (entry) =>
+        `${formatMultiple(entry.evEbitda)} EV/EBITDA · ${formatSignedPercent(entry.return1y)} 1Y`,
       (entry) => entry.evEbitda != null && entry.evEbitda > 0,
       (a, b) => (a.evEbitda ?? Infinity) - (b.evEbitda ?? Infinity),
     ),
@@ -99,9 +111,10 @@ export function ScreensPanel({
           Descriptive screens, not recommendations
         </p>
         <p className="mt-1 text-[12px] leading-relaxed text-ink-soft">
-          Each list is computed from the current coverage universe. A company can
-          appear in a screen and still be a poor fit for your goals. Stockmonk
-          does not rank companies as buys or sells.
+          Each list is computed from the {entries.length} companies in the current
+          coverage universe and sorted by the screen metric. A company can appear
+          here and still be a poor fit for your goals. Stockmonk does not rank
+          companies as buys or sells.
         </p>
       </div>
 
@@ -110,6 +123,12 @@ export function ScreensPanel({
           <section key={item.title} className="card p-4">
             <h2 className="text-[14px] font-semibold text-ink">{item.title}</h2>
             <p className="mt-1 text-[11px] leading-relaxed text-muted">{item.description}</p>
+            <p className="mt-1 text-[10px] text-faint">
+              {item.matched} of {entries.length} qualify
+              {item.matched > item.entries.length
+                ? ` · top ${item.entries.length} shown`
+                : " · all shown"}
+            </p>
             <ul className="mt-3 divide-y divide-line">
               {item.entries.map((entry) => (
                 <li key={entry.ticker}>

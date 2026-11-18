@@ -10,6 +10,7 @@ import {
   getGccTicker,
 } from "@/lib/gcc-data";
 import { articleJsonLd, breadcrumbJsonLd } from "@/lib/seo";
+import { resolveStory } from "@/lib/story-tokens";
 
 export const revalidate = 3600;
 export const dynamicParams = false;
@@ -28,13 +29,16 @@ export async function generateMetadata({
   if (!data) return { title: "GCC company not found" };
   const story = getGccStockStory(data.ticker);
   const title = story ? story.title : `${data.name} (${data.ticker}) — GCC research`;
+  const description = story
+    ? resolveStory(story, data).dek
+    : data.description.slice(0, 160);
   return {
     title,
-    description: story?.dek ?? data.description.slice(0, 160),
+    description,
     alternates: { canonical: `/gcc/stocks/${data.ticker}` },
     openGraph: {
       title: `${title} · Stockmonk`,
-      description: story?.dek ?? data.description.slice(0, 160),
+      description,
       url: `/gcc/stocks/${data.ticker}`,
     },
   };
@@ -54,12 +58,13 @@ export default async function GccStockPage({
   if (!story || !bundle) notFound();
 
   const related = getGccPeerBundles(data.ticker);
+  const resolved = resolveStory(story, data);
   const jsonLd = [
     articleJsonLd({
       ticker: data.ticker,
       name: data.name,
-      title: story.title,
-      description: story.dek,
+      title: resolved.title,
+      description: resolved.dek,
       date: data.updatedAt.slice(0, 10),
       path: `/gcc/stocks/${data.ticker}`,
       language: "en",

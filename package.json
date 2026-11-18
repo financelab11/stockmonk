@@ -46,7 +46,6 @@
     "stories:index": "tsx scripts/build-stories-index.ts",
     "build:data": "tsx scripts/build-public-data.ts",
     "audit:freshness": "tsx scripts/audit-freshness.ts",
-    "audit:stories": "tsx scripts/audit-stories.ts",
     "ingest:earnings": "tsx scripts/ingest-earnings-releases.ts",
     "refresh:prices": "tsx scripts/refresh-us-prices.ts",
     "refresh:stories": "tsx scripts/refresh-stories.ts",
@@ -54,7 +53,9 @@
     "chips:rebuild": "tsx scripts/recompute-us-factor-chips.ts",
     "build:screener": "tsx scripts/build-screener-data.ts",
     "assets": "node scripts/generate-brand-assets.cjs",
-    "refresh": "pnpm ingest:edgar && pnpm ingest:simfin && pnpm ingest:fallback && pnpm backfill:filings && pnpm ingest:consensus && pnpm ingest:segments && pnpm ingest:benchmark && pnpm build:data && pnpm build:screener"
+    "refresh": "pnpm ingest:edgar && pnpm ingest:simfin && pnpm ingest:fallback && pnpm backfill:filings && pnpm ingest:consensus && pnpm ingest:segments && pnpm ingest:benchmark && pnpm build:data && pnpm build:screener",
+    "story:brief": "tsx scripts/story-brief.ts",
+    "stories:apply": "tsx scripts/apply-handwritten.ts"
   },
   "dependencies": {
     "@serwist/next": "^9.5.13",

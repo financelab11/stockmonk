@@ -11,6 +11,7 @@ import {
   getIndiaTicker,
 } from "@/lib/india-data";
 import { articleJsonLd, breadcrumbJsonLd } from "@/lib/seo";
+import { resolveStory } from "@/lib/story-tokens";
 
 export const revalidate = 3600;
 export const dynamicParams = false;
@@ -33,13 +34,16 @@ export async function generateMetadata({
   const title = story
     ? story.title
     : `${data.name} (${data.ticker}) — India research`;
+  const description = story
+    ? resolveStory(story, data).dek
+    : data.description.slice(0, 160);
   return {
     title,
-    description: story?.dek ?? data.description.slice(0, 160),
+    description,
     alternates: { canonical: `/india/stocks/${data.ticker}` },
     openGraph: {
       title: `${title} · Stockmonk`,
-      description: story?.dek ?? data.description.slice(0, 160),
+      description,
       url: `/india/stocks/${data.ticker}`,
     },
   };
@@ -60,12 +64,13 @@ export default async function IndiaStockPage({
   if (!story || !bundle) notFound();
 
   const related = getIndiaPeerBundles(data.ticker);
+  const resolved = resolveStory(story, data);
   const jsonLd = [
     articleJsonLd({
       ticker: data.ticker,
       name: data.name,
-      title: story.title,
-      description: story.dek,
+      title: resolved.title,
+      description: resolved.dek,
       date: data.updatedAt.slice(0, 10),
       path: `/india/stocks/${data.ticker}`,
       language: "en-IN",

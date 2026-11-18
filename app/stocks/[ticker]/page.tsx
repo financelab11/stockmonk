@@ -13,11 +13,8 @@ import {
   getResearchCompanies,
   getTicker,
 } from "@/lib/data";
-import {
-  articleJsonLd,
-  breadcrumbJsonLd,
-  profilePageJsonLd,
-} from "@/lib/seo";
+import { articleJsonLd, breadcrumbJsonLd, profilePageJsonLd } from "@/lib/seo";
+import { resolveStory } from "@/lib/story-tokens";
 
 export const revalidate = 3600;
 export const dynamicParams = false;
@@ -46,7 +43,7 @@ export async function generateMetadata({
     ? story.title
     : `${data.name} (${data.ticker}) — company profile`;
   const description = story
-    ? story.dek
+    ? resolveStory(story, data).dek
     : `${data.name} (${data.ticker}) profile: price, revenue, margins and key ratios from company filings.`;
 
   return {
@@ -101,12 +98,13 @@ export default async function StockPage({
     .filter((bundle): bundle is NonNullable<typeof bundle> => bundle != null);
 
   if (story && bundle) {
+    const resolved = resolveStory(story, data);
     const jsonLd = [
       articleJsonLd({
         ticker: data.ticker,
         name: data.name,
-        title: story.title,
-        description: story.dek,
+        title: resolved.title,
+        description: resolved.dek,
         date: data.updatedAt.slice(0, 10),
       }),
       breadcrumbJsonLd([

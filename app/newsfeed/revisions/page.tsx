@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getEstimateRevisions } from "@/lib/estimate-revisions";
 
-export const revalidate = 600;
+export const dynamic = "force-static";
 
 export const metadata: Metadata = {
   title: "Estimate revisions",

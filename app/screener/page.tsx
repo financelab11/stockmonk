@@ -161,7 +161,7 @@ export default async function ScreenerPage({
                     baseSearch={baseSearch}
                   />
                   <a
-                    href={`/screener/export?${baseSearch}`}
+                    href={`/api/screener/export?${baseSearch}`}
                     className="inline-flex h-9 items-center gap-1.5 rounded-lg border border-line bg-surface px-3 text-[11px] font-semibold text-ink-soft hover:border-line-strong hover:text-ink"
                   >
                     <Download aria-hidden="true" className="size-3.5" />

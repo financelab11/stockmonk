@@ -302,7 +302,7 @@ export function ScreenerSidebar({
       setCounting(true);
       try {
         const search = countQuery({ q: query, group, min, ranges });
-        const response = await fetch(`/screener/count?${search}`, {
+        const response = await fetch(`/api/screener/count?${search}`, {
           signal: controller.signal,
         });
         if (!response.ok) return;

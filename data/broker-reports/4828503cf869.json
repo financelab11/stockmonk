@@ -1,0 +1,35 @@
+{
+  "id": "4828503cf869",
+  "date": "2026-11-05",
+  "broker": "Axis Direct",
+  "company": "Daily Fundamental View:November 05, 2026",
+  "headline": "Daily Fundamental View:November 05, 2026",
+  "link": "https://simplehai.axisdirect.in/app/index.php/insights/reports/downloadReport/file/Morning+note+and+CA+05+November+2026_05-11-2026_09.pdf/type/fundamental",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 2180,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Actual for Q2FY27: Revenue – MISS; EBITDA Margin – INLINE; PAT – MISS Changes in Estimates (%) post Q2FY27 FY27E/FY28E: Revenue: 0%/0%; EBITDA Abs: 0%/0%; PAT: 0%/0% Recommendation Rationale • Steady Quarter Executed; Surging US Competition Curbs Margins: Lupin delivered stable Q2FY27 financial results, with sales rising 14% YoY to Rs 77,855 Mn and EBITDA reaching Rs 21,712 Mn (27.9% margin).",
+      "Management's full-year EBITDA margin guidance remains around 24% to 25%, implying continued caution. • US Revenues Drop While Base Holds Steady: US sales reached US$317 Mn (down 13% QoQ), supported by seasonal demand and base volume expansion.",
+      "However, management confirmed US quarterly revenues faced declines stemming from loss of exclusivity, matching the full-year US sales guidance of US$1.1–1.2 Bn.",
+      "According to the management, over the next three years, Lupin targets launching 60+ products in the US, including 25 injectables and respiratory items, alongside five biosimilars."
+    ],
+    "valuation": [
+      "According to the management, over the next three years, Lupin targets launching 60+ products in the US, including 25 injectables and respiratory items, alongside five biosimilars.",
+      "In domestic formulations, anti-diabetes grew over 25% aided by the Semaglutide rollout across dedicated divisions, advancing Lupin’s 70% chronic portfolio target.",
+      "R&D investments stood at 7.9% of sales in Q2, with FY27 spend guided at ~8% to anchor complex assets targeted to deliver >70% of new revenue by FY32."
+    ],
+    "watch": [
+      "Key milestones include a tentative approval for 505(b)(2) Apixaban and the rollout of Pegfilgrastim.",
+      "Sector Outlook: Positive Company Outlook & Guidance: Lupin’s long-term guidance highlights an accelerating structural shift toward high-barrier complex platforms, though near-term margin normalization continues to support a cautious Hold stance."
+    ]
+  },
+  "blurb": "Actual for Q2FY27: Revenue – MISS; EBITDA Margin – INLINE; PAT – MISS Changes in Estimates (%) post Q2FY27 FY27E/FY28E: Revenue: 0%/0%; EBITDA Abs: 0%/0%; PAT: 0%/0% Recommendation Rationale • Steady Quarter Executed; Su",
+  "fetchedAt": "2026-11-18T15:52:58.794Z"
+}

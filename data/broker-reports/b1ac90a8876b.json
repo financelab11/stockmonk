@@ -1,0 +1,35 @@
+{
+  "id": "b1ac90a8876b",
+  "date": "2026-11-09",
+  "broker": "Way2Wealth",
+  "company": "J K Cement",
+  "headline": "Result Update",
+  "link": "https://www.way2wealth.com/Reports/RR09112026d4ce1.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "Management attributed the growth mainly to the 6 MTPA Central India expansion (March’26), noting market share gains in Central India while share was maintained in the North; the Bihar grinding unit is at ~50% utilisation.",
+      "Capex is guided at ~₹3,500crs in FY27 and ~₹2,500crs annually thereafter. • Pricing – Q2FY27 realisation gains were only marginal, but prices rose by ~₹20/bag (trade and non- trade combined) from mid-September.",
+      "Management said a further ₹10-15/bag is needed to fully cover cost increases (fuel, packaging and rupee-linked imports), and that this could come after Diwali once labour returns around the 20th of November.",
+      "For white cement, further price hikes are seen as challenging given customer resistance. • Cost outlook (Q3/Q4FY27 guidance) – Fuel cost of ₹1.71/kcal in Q2FY27 was held down by a lower pet coke share (~30-35%) and consumption of older-priced inventory."
+    ],
+    "valuation": [
+      "The next leg of 11 MTPA brownfield expansion at Muddapur and Panna (~5-6 MTPA each) keeps the 40 MTPA (FY28) / 50 MTPA (FY30) targets intact.",
+      "Work has started on the Mahan captive coal block with all approvals in place, targeting operations in H1FY29 at an expected landed coal cost of ~₹1-1.25/kcal; a definite schedule for the second block is 6-8 months away.",
+      "The stock trades near its 3-5-year median EV/EBITDA multiples, supporting a Hold rating at ~15x FY28E EV/EBITDA."
+    ],
+    "watch": [
+      "For white cement, further price hikes are seen as challenging given customer resistance. • Cost outlook (Q3/Q4FY27 guidance) – Fuel cost of ₹1.71/kcal in Q2FY27 was held down by a lower pet coke share (~30-35%) and consumption of older-priced inventory.",
+      "Packaging costs are seen to have peaked, though rupee depreciation remains a risk, and Q2 maintenance was routine with no one-offs."
+    ]
+  },
+  "blurb": "Management attributed the growth mainly to the 6 MTPA Central India expansion (March’26), noting market share gains in Central India while share was maintained in the North; the Bihar grinding unit is at ~50% utilisation",
+  "fetchedAt": "2026-11-18T15:51:45.773Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "8f7698e46247",
+  "date": "2026-11-16",
+  "broker": "Nirmal Bang",
+  "company": "Natco Pharma",
+  "headline": "Post-Lenalidomide Reset; Earnings Recovery Remains Lumpy",
+  "link": "https://www.nirmalbang.com/Upload/Natco-Pharma--2QFY27-Result-Update---16-November-2026.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "SELL"
+  },
+  "summary": {
+    "highlights": [
+      "Business performance: Consolidated revenue fell 29% YoY to Rs9.7bn in Q2FY27.",
+      "The decline came mainly from lower lenalidomide revenue, which the growth in the base business including subsidiaries offset partly.",
+      "Brazil was the bright spot, with revenue up 66% YoY to Rs1.2bn, and MENA also did well.",
+      "EBITDA declined 55.5% YoY to Rs2.6bn, and margin contracted 1,583bps YoY to 26.7% on the lower high-margin lenalidomide contribution and higher R&D spend while reported PAT of Rs2bn includes Rs292mn share from associate Adcock Ingram; additionally Natco raised its stake to 49% during the quarter."
+    ],
+    "valuation": [
+      "Outlook: We expect a post-lenalidomide revenue reset, followed by a gradual recovery led by Brazil, India and ROW, with selective upside from US launches.",
+      "Valuation: We maintain SELL on Natco Pharma with a revised target price of Rs720 (vs Rs802 earlier), based on 16x Sep’28E EPS of Rs47.",
+      "Under its contract it is not targeting RoW semaglutide and is focused on the US and regulated markets.  Ibrutinib litigation is settled and the product was approved within 30 months with exclusivity intact.  Natco has sole FTF on Carfilzomib 10mg, which the management expects to do well."
+    ],
+    "watch": [
+      "Outlook: We expect a post-lenalidomide revenue reset, followed by a gradual recovery led by Brazil, India and ROW, with selective upside from US launches.",
+      "We treat the Para IV/FTF pipeline as optionality, not assured earnings, given the risk of diluted exclusivity economics."
+    ]
+  },
+  "blurb": "Business performance: Consolidated revenue fell 29% YoY to Rs9.7bn in Q2FY27.",
+  "fetchedAt": "2026-11-18T15:50:07.329Z"
+}

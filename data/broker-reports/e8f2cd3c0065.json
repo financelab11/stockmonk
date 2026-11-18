@@ -1,0 +1,35 @@
+{
+  "id": "e8f2cd3c0065",
+  "date": "2026-11-11",
+  "broker": "Prabhudas Lilladher",
+  "company": "Adani Port & SEZ",
+  "headline": "Strategic European bet adds to earnings muscles",
+  "link": "https://plindia.com/ResReport/ADSEZ-9-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 2248,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Evos reported CY25 EBITDA of EUR219mn with a margin of 56%, supported by 99% commercial occupancy, long-term contracted revenues and strong cash conversion.",
+      "We view the acquisition positively, given Evos' high-margin operations and strategic presence across key European energy hubs.",
+      "The addition of Evos should strengthen ADSEZ's international earnings contribution and improve its international ports EBITDA margin profile, while providing opportunities for growth through higher-value products, operating efficiencies and capacity addition in future.",
+      "While the debt-funded acquisition will increase leverage in the near term, Evos' contracted revenues and strong cash generation should support gradual deleveraging."
+    ],
+    "valuation": [
+      "Overall, we believe the transaction strengthens ADSEZ's long-term growth prospects, with relatively lower valuation and execution pedigree.",
+      "Evos adds high-margin liquid storage platform ADSEZ has entered into an agreement to acquire a 100% stake in Netherlands-based Evos B.V. from Igneo Infrastructure Partners for an EV of EUR2.56bn (11.7x CY25 EV/EBITDA).",
+      "Exhibit 7: ADSEZ and EVO’s consolidated debt profile (Target net debt to EBITDA 2.5x by FY27) Source: Company Consolidated net debt/EBITDA to increase to ~2.76x following the acquisition, before moderating towards ~2.5x."
+    ],
+    "watch": [
+      "We view the acquisition positively, given Evos' high-margin operations and strategic presence across key European energy hubs.",
+      "The key monitorables will be financing costs, integration, cash flow generation and the pace of deleveraging."
+    ]
+  },
+  "blurb": "Evos reported CY25 EBITDA of EUR219mn with a margin of 56%, supported by 99% commercial occupancy, long-term contracted revenues and strong cash conversion.",
+  "fetchedAt": "2026-11-18T15:51:09.079Z"
+}

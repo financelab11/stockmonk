@@ -1,0 +1,35 @@
+{
+  "id": "5e6b68f5716d",
+  "date": "2026-11-10",
+  "broker": "ICICI Securities",
+  "company": "Whirlpool of India",
+  "headline": "Top-line recovery sustains; persistent cost inflation impacts margins",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261111060003_Whirlpool-of-India-1111026-icici.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 758,
+    "cmp": 838,
+    "upside": null,
+    "recommendation": "REDUCE"
+  },
+  "summary": {
+    "highlights": [
+      "We note: (1) Elica sustained healthy revenue growth, even as the company continued to strengthen its premium portfolio through new product launches.",
+      "(2) Margins, however, were under pressure because of elevated commodity costs, INR depreciation, and BEE-transition related costs.",
+      "Gross/EBITDA/PAT margins contracted 435bps/138bps/57bps YoY, impacted by higher RM inflation, increased freight costs, as well as INR depreciation.",
+      "We note that the price increases implemented during the quarter were not sufficient to offset the inflationary pressures, hurting margins further."
+    ],
+    "valuation": [
+      "Maintain REDUCE with a DCF-based revised TP of INR 758 (earlier: 730), implying target P/E at 22x FY28E EPS.",
+      "We maintain our REDUCE rating on the stock with a DCF- based revised TP of INR 758 (earlier: 730), implying target P/E at 22x FY28E EPS.",
+      "Key upside risks: A steep decline in competitive pressures and input prices."
+    ],
+    "watch": [
+      "Key upside risks: A steep decline in competitive pressures and input prices.",
+      "Better-than-expected performance of new plants/products Higher-than-expected market offtake for new products will pose an upside risk to estimates."
+    ]
+  },
+  "blurb": "We note: (1) Elica sustained healthy revenue growth, even as the company continued to strengthen its premium portfolio through new product launches.",
+  "fetchedAt": "2026-11-18T15:51:30.150Z"
+}

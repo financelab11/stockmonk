@@ -1,0 +1,32 @@
+{
+  "id": "da5599ff1adc",
+  "date": "2026-11-04",
+  "broker": "Ventura Securities",
+  "company": "Bajaj Finserv",
+  "headline": "Q2FY27 Result Update",
+  "link": "https://ventura1.com/calltracking/TechnicalCalls/quaterly/639293880373257678_Bajaj%20finserv%20Q2FY27%20result%20update.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 1718,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "PAT attributable to owners was INR 2,758 crore (+22.9%), with growth at 22% after adjusting for MTM.",
+      "Unlike Q1, the headline growth was not flattered by MTM, as both insurers booked unrealized losses on equity.",
+      "Bajaj Finance (BFL): PAT rose 28.5% to INR 6,267 crore, and net total income grew 23.0% to INR 15,974 crore.",
+      "PAT growth before the INR 337 crore prudent management and macro-economic provision was 33.8%."
+    ],
+    "valuation": [
+      "Management Guidance for the Future • Breakeven & Capital Plan: Bajaj Markets targets quarterly breakeven in Q4 FY27, Bajaj Health in FY28, and Bajaj AMC in FY29 (at INR 90,000–1,00,000 cr AUM)."
+    ],
+    "watch": [
+      "And such person shall be responsible for conducting his/her/their own investigation and analysis of the information contained or referred to in this document and of evaluating the merits and risks involved in the securities forming the subject matter of this document."
+    ]
+  },
+  "blurb": "PAT attributable to owners was INR 2,758 crore (+22.9%), with growth at 22% after adjusting for MTM.",
+  "fetchedAt": "2026-11-18T15:53:03.551Z"
+}

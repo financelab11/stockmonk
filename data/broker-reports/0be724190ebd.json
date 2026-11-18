@@ -1,0 +1,33 @@
+{
+  "id": "0be724190ebd",
+  "date": "2026-11-09",
+  "broker": "IDBI Capital",
+  "company": "Sonata Software",
+  "headline": "Q2FY27 Result Review",
+  "link": "https://www.idbidirect.in/IDBIAdmin/Pdf/SSOF-RR-06112026-09-November-2026-2007899214.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": 270,
+    "cmp": 238,
+    "upside": null,
+    "recommendation": "HOLD"
+  },
+  "summary": {
+    "highlights": [
+      "EBITDA margin edged up to 15.5% despite roughly 150 bps of non-recurring drag (50 bps severance, 100 bps AI proof- of-concept investment), implying an underlying margin near 17%, still below management’s 18–20% aspiration.",
+      "Order book of USD 98.5mn (book-to-bill 1.18x), AI-led pipeline of USD 358mn and Harmony.ai monetisation at QSR and healthcare clients support the pivot toward AI-native engineering.",
+      "However, we see execution risk as data revenue is down roughly 50% YoY, top-account ramp-downs persist, and management flagged further TMT and BFSI softness in Q3.",
+      "Absent sustained double-digit CC growth and margin recovery toward 18%, we stay on the sidelines at this moment."
+    ],
+    "valuation": [
+      "TP Rs 270 CMP Rs 238 Potential upside/downside 14% Previous Rating HOLD Key Stock Data Bloomberg / Reuters SSOF IN / SOFT.BO Sector IT Services Shares o/s (mn) 280 Market cap."
+    ],
+    "watch": [
+      "Domestic gross contribution rose 19.3% YoY to INR 82cr as OEM headwinds fade, and the AWS five-year agreement should add from Q1 FY28.",
+      "However, we see execution risk as data revenue is down roughly 50% YoY, top-account ramp-downs persist, and management flagged further TMT and BFSI softness in Q3."
+    ]
+  },
+  "blurb": "EBITDA margin edged up to 15.5% despite roughly 150 bps of non-recurring drag (50 bps severance, 100 bps AI proof- of-concept investment), implying an underlying margin near 17%, still below management’s 18–20% aspiratio",
+  "fetchedAt": "2026-11-18T15:51:55.968Z"
+}

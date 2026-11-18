@@ -1,0 +1,33 @@
+{
+  "id": "e342331736e4",
+  "date": "2026-11-11",
+  "broker": "Prabhudas Lilladher",
+  "company": "Safari Industries (India)",
+  "headline": "Capacity expansion to drive growth",
+  "link": "https://plindia.com/ResReport/SII-6-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 1610,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "SII IN reported a modest top-line growth of 9.1% due to capacity constraints and festive shift while operational performance was weak with EBITDA margin of 10.3% (PLe 11.5%) amid stiff competition and persistent RM inflation.",
+      "Led by capacity expansion we expect topline CAGR of 13% over the next 3 years with EBITDA margin of 12.0%/13.2%/13.4% in FY27E/FY28E/FY29E respectively.",
+      "We have realigned our target multiple amid growth and margin reset the business is witnessing amid excessive price wars.",
+      "Revenue increased 9.1% YoY: Top line increased 9.1% YoY to INR5,822mn (PLe INR5,922mn) as against INR5,336mn in 2QFY26."
+    ],
+    "valuation": [
+      "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 1,610 1,833 Sales (INR mn) 25,777 29,322 26,526 30,171 % Chng.",
+      "We have realigned our target multiple amid growth and margin reset the business is witnessing amid excessive price wars."
+    ],
+    "watch": [
+      "(7.1) (6.0) Key Data SAFA.BO | SII IN BSE Code 523025 NSE Code SAFARI 52-W High / Low INR 2,507 / INR 1,155 Face Value 2 Sensex / Nifty 79,310 / 24,537 Market Cap INR 61 bn / $ 649 mn Shares Outstanding 49 mn 3M Avg."
+    ]
+  },
+  "blurb": "SII IN reported a modest top-line growth of 9.1% due to capacity constraints and festive shift while operational performance was weak with EBITDA margin of 10.3% (PLe 11.5%) amid stiff competition and persistent RM infla",
+  "fetchedAt": "2026-11-18T15:51:23.874Z"
+}

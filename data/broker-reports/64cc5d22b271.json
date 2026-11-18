@@ -1,0 +1,35 @@
+{
+  "id": "64cc5d22b271",
+  "date": "2026-11-06",
+  "broker": "Axis Direct",
+  "company": "Pricol Ltd",
+  "headline": "",
+  "link": "https://simplehai.axisdirect.in/app/index.php/insights/reports/downloadReport/file/Pricol+Ltd+-+Q2FY27+Result+Update+-+06112026_06-11-2026_11.pdf/type/fundamental",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 935,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Result Update 6th November, 2026 BUY Target Price 935 Pricol Ltd Auto Ancillary 1 Premium Product Growth; Capacity Expansion & New OEM Wins Drive Growth Est.",
+      "Margin headwinds stem from rupee depreciation against the US dollar, bare PCB price spikes linked to the West Asia crisis, memory chip inflation driven by AI demand, and surging labor, power, and casting expenses.",
+      "Simultaneously, corporate restructuring into two standalone operating divisions- Driver Information & Connected Vehicle Solutions (DICVS) and Asset Management & Control Fuel Management Systems (ACFMS) commenced internal divisionalization in Oct’26 and targets full operational separation by April 1, 2027, sharpening capital allocation and facilitating standalone equity valuation.",
+      "Company Outlook & Guidance: Pricol Ltd maintains strong growth visibility driven by market share gains, product premiumization, two-wheeler demand, and exports to Caterpillar."
+    ],
+    "valuation": [
+      "Result Update 6th November, 2026 BUY Target Price 935 Pricol Ltd Auto Ancillary 1 Premium Product Growth; Capacity Expansion & New OEM Wins Drive Growth Est.",
+      "Simultaneously, corporate restructuring into two standalone operating divisions- Driver Information & Connected Vehicle Solutions (DICVS) and Asset Management & Control Fuel Management Systems (ACFMS) commenced internal divisionalization in Oct’26 and targets full operational separation by April 1, 2027, sharpening capital allocation and facilitating standalone equity valuation.",
+      "To resolve plastics capacity constraints, Pricol is executing a Rs 350 Cr CapEx over 6 quarters (target asset turn 3.0x to 3.25x), with commercialization starting in H2 FY27 and revenue acceleration in FY28."
+    ],
+    "watch": [
+      "Margin headwinds stem from rupee depreciation against the US dollar, bare PCB price spikes linked to the West Asia crisis, memory chip inflation driven by AI demand, and surging labor, power, and casting expenses.",
+      "Company Outlook & Guidance: Pricol Ltd maintains strong growth visibility driven by market share gains, product premiumization, two-wheeler demand, and exports to Caterpillar."
+    ]
+  },
+  "blurb": "Result Update 6th November, 2026 BUY Target Price 935 Pricol Ltd Auto Ancillary 1 Premium Product Growth; Capacity Expansion & New OEM Wins Drive Growth Est.",
+  "fetchedAt": "2026-11-18T15:52:30.430Z"
+}

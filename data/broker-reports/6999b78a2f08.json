@@ -1,0 +1,35 @@
+{
+  "id": "6999b78a2f08",
+  "date": "2026-11-05",
+  "broker": "Baroda eTrade",
+  "company": "First Light | Anthem Biosciences, Itc, Mahanagar Gas, Prince Pipes & Fittings, Shanti Gold, Thangamayil Jewellery",
+  "headline": "First Light | Anthem Biosciences, Itc, Mahanagar Gas, Prince Pipes & Fittings, Shanti Gold, Thangamayil Jewellery",
+  "link": "https://www.barodaetrade.com/Reports/FirstLight05Nov26-Research.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 1063,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "EBITDA Margin reported 570 bps above our estimate of 45.7% ▪ Commercialized molecules increased ▪ We revise EPS upwards.",
+      "MAHANAGAR GAS ▪ Revenue rose 23.8% YoY, driven by 7% volume growth and 16% higher realisation.",
+      "Higher gas costs more than offset this, so EBITDA fell YoY ▪ We expect volume growth to stay healthy, led by CNG and PNG.",
+      "The recovery in EBITDA spread depends on LNG prices normalizing ▪ Maintain BUY; considering subdued EBITDA performance, we revise TP downwards to Rs1,234 from Rs1,314 Click here for the full report."
+    ],
+    "valuation": [
+      "SHANTI GOLD ▪ Revenue grew sharply by 73.5% YoY to Rs 746 crore in Q2FY27, aided by volume expansion of 25.4% YoY to 535.5 kg ▪ Q2 EBITDA margin fell to 5.7% (from 8.55% YoY and 9.97% QoQ) on upfront expansion costs, new product launches and mix. ▪ Management targets 75-80% utilisation over the coming years and sees long- term potential of a Rs 10,000-20,000cr business.",
+      "Valuation - On our revised numbers, we arrive at a Sales/EBITDA/PAT CAGR of 19%/23%/23%, respectively.",
+      "FMCG growth was led by strong performance across multiple categories, while digital-first and organic products continued to scale, with annualised revenue exceeding Rs18bn."
+    ],
+    "watch": [
+      "FMCG- Others remained the key growth driver, with revenue/PBIT rising 16%/28% YoY, led by broad-based growth across Foods, Homecare and Personal Care, alongside 50bps margin expansion.",
+      "The Paper business benefited from improved demand and pricing actions, although elevated wood costs and import competition remain key monitorables."
+    ]
+  },
+  "blurb": "EBITDA Margin reported 570 bps above our estimate of 45.7% ▪ Commercialized molecules increased ▪ We revise EPS upwards.",
+  "fetchedAt": "2026-11-18T15:53:02.937Z"
+}

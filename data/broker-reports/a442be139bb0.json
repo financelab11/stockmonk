@@ -1,0 +1,35 @@
+{
+  "id": "a442be139bb0",
+  "date": "2026-11-05",
+  "broker": "Axis Direct",
+  "company": "Jyothy Labs",
+  "headline": "",
+  "link": "https://simplehai.axisdirect.in/app/index.php/insights/reports/downloadReport/file/Jyothy+Labs+Ltd+-+Q2FY27+Result+Update+-+05112026_05-11-2026_11.pdf/type/fundamental",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 200,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "HOLD"
+  },
+  "summary": {
+    "highlights": [
+      "Actual for Q2FY27: Revenue – BEAT ; EBITDA – MISS ; PAT – MISS Changes in Estimates post Q2FY27 FY27E/FY28E: Revenue: 0%/0%; EBITDA: -4%/-4%; PAT: -5%/-5% Recommendation Rationale • Revenue Performance: Jyothy Labs reported 3.3% YoY revenue growth to Rs 760 Cr in Q2FY27.",
+      "Reported volumes declined marginally due to the discontinuation of Pril and Fa brands following the expiry of its licensing agreement with Henkel on 31st May, 2026.",
+      "Excluding these brands, revenue and volume growth stood at 12.4% and 8.1%, respectively.",
+      "Growth was broad-based across segments, led by Fabric Care at 10.4% value growth, while detergent powders and bars also maintained healthy momentum. • Margin Pressure Persists: Jyothy Labs continued to face significant margin pressure, with HDPE and polypropylene prices rising 55–60% from pre-West Asia conflict levels."
+    ],
+    "valuation": [
+      "Result Update 05th November, 2026 HOLD Target Price 200 Jyothy Labs Ltd.",
+      "Current Valuation: 27x Sep’28E EPS (Earlier Valuation: 27x Jun’28E EPS) Current TP: Rs 200/share (Earlier TP: Rs 205/share).",
+      "Variance Net Sales 760 (1.7) 3.3 743 2.2 EBITDA 19 (70.4) (83.8) 62 (69.2) EBITDA Margin 2.5 -584 bps -1355 bps 8.4 -586 bps Net Profit 11 (77.7) (87.9) 47 (77.4) EPS (Rs) 0.3 (77.7) (87.9) 1.3 (77.4) Source: Company, Axis Securities Research (CMP as of 04th November, 2026) CMP (Rs) 188 Upside /Downside (%) 6% High/Low (Rs) 319/171 Market cap (Cr) 6915 Avg. daily vol."
+    ],
+    "watch": [
+      "The company’s ~4–4.5% price hikes since the onset of the conflict were insufficient to offset the sharp input cost inflation. • Management Outlook: Despite the impact of the Pril and Fa brand exits on reported performance, Jyothy Labs sustained underlying growth through a favourable portfolio mix, new launches and improved product positioning.",
+      "Continued investments in brand building and omnichannel distribution are expected to support sustained growth Sector Outlook: Cautious Company Outlook & Guidance: Though the company’s long-term outlook remains strong, we remain cautious over the short term due to cost inflation pressure, and hence cut our margins for FY27/FY28 estimates and maintain our HOLD stance."
+    ]
+  },
+  "blurb": "Actual for Q2FY27: Revenue – BEAT ; EBITDA – MISS ; PAT – MISS Changes in Estimates post Q2FY27 FY27E/FY28E: Revenue: 0%/0%; EBITDA: -4%/-4%; PAT: -5%/-5% Recommendation Rationale • Revenue Performance: Jyothy Labs repor",
+  "fetchedAt": "2026-11-18T15:52:48.318Z"
+}

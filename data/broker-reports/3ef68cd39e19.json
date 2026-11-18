@@ -1,0 +1,33 @@
+{
+  "id": "3ef68cd39e19",
+  "date": "2026-11-04",
+  "broker": "Arihant Capital",
+  "company": "Parag Milk Foods",
+  "headline": "Q2FY27 Result Update",
+  "link": "https://arihantresearch.arihantcapital.com/Mumbai_Research/Parag_Milk_Foods_Q2FY27_Result_Update.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": 435,
+    "cmp": 292,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Gross margin held at 26.0% (+18 bps YoY) even as landed milk cost rose 18% YoY to INR 45/L, as calibrated price hikes and a richer mix absorbed the inflation.",
+      "EBITDA (ex-other income) grew 38.6% YoY to INR 987 Mn and margin expanded 89 bps to 7.95%, despite ~INR 200 Mn of incremental A&P.",
+      "Reported PAT fell 8.0% YoY to INR 420 Mn as the effective tax rate normalised to 23.9% (9.6% in Q2FY26) and the base carried a INR 160 Mn one-off FCCB MTM gain; excluding it, PAT grew 42% YoY.",
+      "New- age brands (Avvatar and Pride of Cows) grew 71% YoY to INR 1,540 Mn (12.4% of sales), flagship categories grew 20% in value and 7% in volume, and ingredients rose 52%."
+    ],
+    "valuation": [
+      "Valuation and Outlook: Parag Milk Foods is moving steadily from a commodity dairy processor to a branded health and nutrition company."
+    ],
+    "watch": [
+      "Valuation and Outlook: Parag Milk Foods is moving steadily from a commodity dairy processor to a branded health and nutrition company.",
+      "Key risks include persistent milk inflation, rising competition in protein and premium dairy, and delays in normalizing inventory and debt."
+    ]
+  },
+  "blurb": "Gross margin held at 26.0% (+18 bps YoY) even as landed milk cost rose 18% YoY to INR 45/L, as calibrated price hikes and a richer mix absorbed the inflation.",
+  "fetchedAt": "2026-11-18T15:53:29.432Z"
+}

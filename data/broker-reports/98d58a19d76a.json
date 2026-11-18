@@ -1,0 +1,35 @@
+{
+  "id": "98d58a19d76a",
+  "date": "2026-11-04",
+  "broker": "Motilal Oswal",
+  "company": "Bharat Electronics",
+  "headline": "A strong performance, QRSAM awaited",
+  "link": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-11/17937814600.99032000.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 540,
+    "cmp": 380,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Per (%) -7/-11/-2 12M Avg Val (INR M) 6418 Financials Snapshot (INR b) Y/E March 2027E 2028E 2029E Sales 319.2 375.8 414.8 EBITDA 92.9 107.3 118.6 EBITDA Margin 29.1 28.6 28.6 Adj.",
+      "(%) 15.8 16.6 12.6 BV/Sh.(INR) 41.4 51.9 63.6 Ratios RoE (%) 23.1 21.5 19.8 RoCE (%) 25.9 24.0 21.8 Payout (%) 6.6 6.6 6.6 Valuations P/E (x) 39.5 33.9 30.1 P/BV (x) 9.1 7.3 6.0 EV/EBITDA (x) 28.3 24.0 21.1 Div.",
+      "Yield (%) 0.2 0.2 0.2 Shareholding pattern (%) As of Sep-26 Jun-26 Sep-25 Promoter 51.1 51.1 51.1 DII 21.9 21.0 20.9 FII 17.0 18.0 18.2 Others 10.0 9.8 9.8 FII includes depository receipts CMP: INR380 TP: INR540 (+42%) Buy A strong performance, QRSAM awaited Bharat Electronics (BHE)’s 2QFY27 revenue/EBITDA/PAT came in above our estimates.",
+      "Base order inflows fell 31% YoY as ordering is yet to ramp up meaningfully from the Ministry of Defence (MoD)."
+    ],
+    "valuation": [
+      "(%) 15.8 16.6 12.6 BV/Sh.(INR) 41.4 51.9 63.6 Ratios RoE (%) 23.1 21.5 19.8 RoCE (%) 25.9 24.0 21.8 Payout (%) 6.6 6.6 6.6 Valuations P/E (x) 39.5 33.9 30.1 P/BV (x) 9.1 7.3 6.0 EV/EBITDA (x) 28.3 24.0 21.1 Div.",
+      "Targeting to grow in drones and counter drones too Drones and counter drones are the second-most-focused area after missiles.",
+      "Financial outlook and valuation We maintain our estimates for FY27/FY28/FY29 and expect a CAGR of 15%/14%/ 15% in sales/ EBITDA/PAT over FY26-29."
+    ],
+    "watch": [
+      "Excluding QRSAM and NGC, key expected inflows include Project Shatrughat and Samaghat EW orders, the HAMMER weapon integration program, the P75I- related orders (expected in FY28) and the AMCA project for which BHE has submitted a bid in consortium with L&T.",
+      "Financial outlook and valuation We maintain our estimates for FY27/FY28/FY29 and expect a CAGR of 15%/14%/ 15% in sales/ EBITDA/PAT over FY26-29."
+    ]
+  },
+  "blurb": "Per (%) -7/-11/-2 12M Avg Val (INR M) 6418 Financials Snapshot (INR b) Y/E March 2027E 2028E 2029E Sales 319.2 375.8 414.8 EBITDA 92.9 107.3 118.6 EBITDA Margin 29.1 28.6 28.6 Adj.",
+  "fetchedAt": "2026-11-18T15:53:04.974Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "bb81a7d2316c",
+  "date": "2026-11-17",
+  "broker": "SBI Securities",
+  "company": "Crystal Crop Protection",
+  "headline": "IPO note",
+  "link": "https://www.sbisecurities.in/fileserver/research/reports/Crystal%20Crop%20Protection%20Ltd_IPO%20Note.pdf",
+  "reportType": "IPO Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "R&D & innovation-led competitive advantage: CCPL has built a strong innovation-led moat with 28 patent filings, including 20 granted patents (18 in India and 2 overseas), supported by 139 technical registrations and 601 formulation registrations in the crop protection segment.",
+      "Its differentiated portfolio includes 24 Section 9(3) products (first-time original approvals), which helped drive a superior 53% gross margin in the branded formulations business in 1QFY27.",
+      "PAT CAGR of 18.9%/47.7%/29.6% respectively over FY24- 26 period. 1QFY27 revenue stood at Rs 1,197 cr (~38% of FY26 revenue) and EBITDA margin expanded to 20.2% vs. 14.5% in FY26, indicating strong momentum.",
+      "Given the above factors we maintain a NEUTRAL view and would prefer to track the company’s performance for a few quarters post listing."
+    ],
+    "valuation": [
+      "Its manufacturing footprint includes four formulation plants, two technical manufacturing facilities, and three seed processing units, supported by multiple R&D centers across India.",
+      "View & Valuation: At the upper price band of Rs 272, CCPL is valued at 29.6x FY26 P/E (post-issue), broadly in line with peers.",
+      "Bid Lot 55 shares and in multiple thereof QIB 50% Retail 35% NII 15% Employee Reservation (Rs cr) 2.5 Employee Discount (Rs) 25 Objects of Issue Particulars Estimated utilization (Rs cr) Repayment/pre-payment, in full or part, of borrowings of the company 248 Investment in Subsidiary Saffire Crop Science Pvt."
+    ],
+    "watch": [
+      "Flagship brands Bavistin achieving 100% awareness, Amora 85% awareness, and Proclaim 95-100% awareness across key crops.",
+      "Agrochemicals SBI Securities 2 Key Financials Particulars (Rs cr) FY24 FY25 FY26 1QFY27 Revenue from operations 2,230 2,691 3,152 1,197 EBITDA 209 315 456 242 EBITDA Margin (%) 9.4% 11.7% 14.5% 20.2% PAT 87 118 145 136 PAT Margin (%) 3.9% 4.4% 4.6% 11.3% EPS (Rs) 5.9 8.0 9.7 9.1 Adj."
+    ]
+  },
+  "blurb": "R&D & innovation-led competitive advantage: CCPL has built a strong innovation-led moat with 28 patent filings, including 20 granted patents (18 in India and 2 overseas), supported by 139 technical registrations and 601 ",
+  "fetchedAt": "2026-11-18T15:49:36.061Z"
+}

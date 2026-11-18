@@ -1,0 +1,35 @@
+{
+  "id": "b6cc9ee84440",
+  "date": "2026-11-13",
+  "broker": "Axis Direct",
+  "company": "Manappuram Fin.",
+  "headline": "",
+  "link": "https://simplehai.axisdirect.in/app/index.php/insights/reports/downloadReport/file/Manappuram+Finance+Ltd+-+Q2FY27+Result+Update+-+131126_13-11-2026_09.pdf/type/fundamental",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 400,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "BFSI – NBFC 1 Gold Franchise Anchors Growth; Non-Gold Recovery Work in Progress Est.",
+      "Actual for Q2FY27: NII – BEAT; PPOP – BEAT; PAT – BEAT Changes in Estimates post Q2FY27 FY27E/FY28E/FY29E (in %): NII: 3.4/3.1/3.0; PPOP: 4.9/3.3/2.4; PAT: 1.2/-1.1/-2.6 Recommendation Rationale • Gold Loans Remain Core Growth Engine; Portfolio Increasingly Gold-Centric: Manappuram’s Q2 AUM growth was robust, with gold loans (GL) being the primary growth driver (+6% QoQ), with its mix improving to 83% in the consol.",
+      "Customer acquisition momentum remained healthy, with the company adding 3.15 Lc new customers during the quarter, taking its outstanding customer base to 27.2 Lc, up 12/3% YoY/QoQ.",
+      "Importantly, growth remained resilient despite some moderation in gold prices from recent peaks, indicating that demand is being supported by both elevated collateral values and underlying customer requirements."
+    ],
+    "valuation": [
+      "Result Update 13th November, 2026 BUY Target Price 400 Manappuram Finance Ltd.",
+      "While the pace of additions in H1 has been modest, management remains confident of achieving its branch addition target.",
+      "Current Valuation: 1.7x Sep’28E ABV; Earlier Valuation: 1.9x FY28E ABV Current TP: Rs 400/share; Earlier TP: Rs 415/share Recommendation: We maintain our BUY recommendation on the stock."
+    ],
+    "watch": [
+      "Sector Outlook: Positive Company Outlook: Manappuram’s near-term growth trajectory is expected to remain anchored by the gold loan franchise, with customer additions, digital sourcing and the planned branch expansion providing support to the guided 25-30% FY27 AUM growth.",
+      "Key Financials (Consolidated) Rs Cr Q2FY27 QoQ (%) YoY (%) Axis Est."
+    ]
+  },
+  "blurb": "BFSI – NBFC 1 Gold Franchise Anchors Growth; Non-Gold Recovery Work in Progress Est.",
+  "fetchedAt": "2026-11-18T15:50:41.019Z"
+}

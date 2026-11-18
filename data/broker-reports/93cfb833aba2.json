@@ -1,0 +1,35 @@
+{
+  "id": "93cfb833aba2",
+  "date": "2026-11-09",
+  "broker": "Prabhudas Lilladher",
+  "company": "Carborundum Universal",
+  "headline": "Healthy Q2, Ceramics leads the charge",
+  "link": "https://plindia.com/ResReport/CU-3-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 1178,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "ACCUMULATE"
+  },
+  "summary": {
+    "highlights": [
+      "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate Hold Target Price 1,178 1,072 Sales (INR mn) 61,949 69,270 61,273 68,483 % Chng. 1.1 1.1 EBITDA (INR mn) 9,354 10,806 9,375 10,820 % Chng.",
+      "Ceramics remains the key growth driver, supported by strong traction in industrial engineered ceramics, metallized cylinders and Bloom Energy-related products, alongside improving product mix.",
+      "However, Abrasives profitability remains under pressure from elevated phenolic resin and fuel costs, with limited pricing pass-through; management expects margins to have bottomed out, with gradual recovery towards the normalised 15-16% range as cost pressures ease and price increases are implemented.",
+      "Electro Minerals margins are expected to remain relatively stable, supported by favourable product mix and geographic diversification."
+    ],
+    "valuation": [
+      "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate Hold Target Price 1,178 1,072 Sales (INR mn) 61,949 69,270 61,273 68,483 % Chng. 1.1 1.1 EBITDA (INR mn) 9,354 10,806 9,375 10,820 % Chng.",
+      "The stock is trading at a P/E of 40.6x/34.9x on FY28E/29E earnings.",
+      "The business is targeting breakeven by Q1FY28, followed by a gradual improvement in profitability, supported by a restructuring and operational improvement programme."
+    ],
+    "watch": [
+      "(0.4) - Key Data CRBR.BO | CU IN BSE Code 513375 NSE Code CARBORUNIV 52-W High / Low INR 1,369 / INR 734 Face Value 1 Sensex / Nifty 76,918 / 23,811 Market Cap INR 212 bn / $ 2,240 mn Shares Outstanding 190.51 mn 3M Avg.",
+      "Ceramics remains the key growth driver, supported by strong traction in industrial engineered ceramics, metallized cylinders and Bloom Energy-related products, alongside improving product mix."
+    ]
+  },
+  "blurb": "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Accumulate Hold Target Price 1,178 1,072 Sales (INR mn) 61,949 69,270 61,273 68,483 % Chng. 1.1 1.1 EBITDA (INR mn) 9,354 10,806 9,375 10,820 % Chng.",
+  "fetchedAt": "2026-11-18T15:51:34.373Z"
+}

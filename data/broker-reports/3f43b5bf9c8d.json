@@ -1,0 +1,32 @@
+{
+  "id": "3f43b5bf9c8d",
+  "date": "2026-11-09",
+  "broker": "Prabhudas Lilladher",
+  "company": "Global Health",
+  "headline": "Strong beat; Ramp-up across units",
+  "link": "https://plindia.com/ResReport/MEDANTA-5-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 1700,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "MEDANTA reported EBITDA growth of 7% CAGR over FY24-26, due to issues at Lucknow unit and start-up losses related to Noida unit in FY26.",
+      "With Lucknow unit issues largely resolved and Noida turned EBITDA positive within 9 months of its commissioning, we expect consol EBITDA to clock ~26% CAGR over FY26-29E.",
+      "Maintain ‘BUY’ rating on MEDANTA with revised TP of Rs1,700/share, valuing at 26x EV/EBITDA on Sept FY28E.",
+      "Strong EBITDA beat aided by ramp up across units and seasonality: MEDANTA reported EBITDA adjusted for ESOPs at INR 3.8bn, up 56% YoY; 23% above our estimates."
+    ],
+    "valuation": [
+      "Maintain ‘BUY’ rating on MEDANTA with revised TP of Rs1,700/share, valuing at 26x EV/EBITDA on Sept FY28E."
+    ],
+    "watch": [
+      "International business: International patient revenue grew 30% YoY to INR 93mn, demonstrating resilience in demand despite geopolitical headwinds."
+    ]
+  },
+  "blurb": "MEDANTA reported EBITDA growth of 7% CAGR over FY24-26, due to issues at Lucknow unit and start-up losses related to Noida unit in FY26.",
+  "fetchedAt": "2026-11-18T15:51:41.083Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "c9b22899b142",
+  "date": "2026-11-17",
+  "broker": "Prabhudas Lilladher",
+  "company": "ABB India",
+  "headline": "Decent Q2; Strong Order Inflow but Cautious on Margins",
+  "link": "https://plindia.com/ResReport/ABB-16-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 7016,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "HOLD"
+  },
+  "summary": {
+    "highlights": [
+      "Change in Estimates Current Previous CY27E CY28E CY27E CY28E Rating Hold Hold Target Price 7,016 6,944 Sales (INR mn) 173,501 207,661 172,567 205,489 % Chng. 0.5 1.1 EBITDA (INR mn) 26,736 33,278 27,956 33,906 % Chng.",
+      "ABB India (ABB) reported a decent quarterly performance with revenue growing ~19% YoY to Rs37.4bn, while EBITDA margin contracted 75bps YoY to 13.7% due to elevated raw material costs and currency volatility.",
+      "ABB reported strong order inflows of INR47bn (+56% YoY), with broad-based growth across business segments and end- markets, led by Electrification (+117% YoY) and supported by large data-centre orders.",
+      "The order backlog remains healthy, with data centres accounting for 15–20%."
+    ],
+    "valuation": [
+      "Change in Estimates Current Previous CY27E CY28E CY27E CY28E Rating Hold Hold Target Price 7,016 6,944 Sales (INR mn) 173,501 207,661 172,567 205,489 % Chng. 0.5 1.1 EBITDA (INR mn) 26,736 33,278 27,956 33,906 % Chng.",
+      "The stock currently trades at P/E of 67.6x/54.2x on CY27E/28E.",
+      "We maintain our ‘Hold’ rating, valuing the stock at a P/E of 58x Sep’28E (58x Jun’28E earlier), as visibility of growth momentum remains intact across diverse end user segments, resulting in revised TP of INR7,016 (INR6,944 earlier)."
+    ],
+    "watch": [
+      "(5.7) (3.0) Key Data ABB.BO | ABB IN BSE Code 500002 NSE Code ABB 52-W High / Low INR 7,832 / INR 4,583 Face Value 2 Sensex / Nifty 82,105 / 25,291 Market Cap INR 1,461 bn / $ 15,555 mn Shares Outstanding 211.91 mn 3M Avg.",
+      "While continued demand strength evidenced by inflow momentum and a healthy backlog support revenue visibility, we continue to remain watchful on the gradual margin recovery."
+    ]
+  },
+  "blurb": "Change in Estimates Current Previous CY27E CY28E CY27E CY28E Rating Hold Hold Target Price 7,016 6,944 Sales (INR mn) 173,501 207,661 172,567 205,489 % Chng. 0.5 1.1 EBITDA (INR mn) 26,736 33,278 27,956 33,906 % Chng.",
+  "fetchedAt": "2026-11-18T15:49:32.447Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "98f198dd7671",
+  "date": "2026-11-11",
+  "broker": "Prabhudas Lilladher",
+  "company": "Ingersoll-Rand (India)",
+  "headline": "Strong execution; input costs weigh on profitability",
+  "link": "https://plindia.com/ResReport/INGR-7-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 4998,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Buy Accumulate Target Price 4,998 5,029 Sales (INR mn) 19,232 22,044 19,051 22,041 % Chng. 1.0 - EBITDA (INR mn) 4,654 5,390 4,820 5,621 % Chng.",
+      "Ingersoll-Rand India (INGR) reported strong execution in Q2FY27, with revenue growing 23.5% YoY to Rs4.0bn, while EBITDA margin contracted by 235bps YoY to 21.2%, likely due to input cost pressures which weighed on profitability.",
+      "The ongoing ramp-up of the Sanand facility is expected to support incremental volumes over the medium term, while enabling the introduction of new air-treatment and compression solutions.",
+      "Ingersoll-Rand (India) PL Research is also available on www.plindia.com, Bloomberg, Thomson Reuters and Factset Institutional Equities | 2 Exhibit 1: Quarterly Estimates (INR mn) Q1FY27 YoY gr."
+    ],
+    "valuation": [
+      "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Buy Accumulate Target Price 4,998 5,029 Sales (INR mn) 19,232 22,044 19,051 22,041 % Chng. 1.0 - EBITDA (INR mn) 4,654 5,390 4,820 5,621 % Chng."
+    ],
+    "watch": [
+      "(3.3) (4.7) Key Data INGR.BO | INGR IN BSE Code 500210 NSE Code INGERRAND 52-W High / Low INR 4,955 / INR 3,063 Face Value 10 Sensex / Nifty 81,028 / 25,030 Market Cap INR 124 bn / $ 1,324 mn Shares Outstanding 31.57 mn 3M Avg.",
+      "Sustaining execution momentum and managing input cost pressures remain key monitorablew.The stock is currently trading at a PE of 34.0x/29.4x on FY28/29E."
+    ]
+  },
+  "blurb": "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating Buy Accumulate Target Price 4,998 5,029 Sales (INR mn) 19,232 22,044 19,051 22,041 % Chng. 1.0 - EBITDA (INR mn) 4,654 5,390 4,820 5,621 % Chng.",
+  "fetchedAt": "2026-11-18T15:51:16.317Z"
+}

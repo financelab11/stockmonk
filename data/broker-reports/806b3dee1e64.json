@@ -1,0 +1,35 @@
+{
+  "id": "806b3dee1e64",
+  "date": "2026-11-04",
+  "broker": "Ventura Securities",
+  "company": "Northern Arc Capital",
+  "headline": "Result Update",
+  "link": "https://ventura1.com/calltracking/TechnicalCalls/quaterly/639293962227777831_Northen%20ArcQ2FY27%20result%20update.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": 43.6,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Northern Arc Capital reported its highest-ever quarterly PAT of INR 129 Cr.",
+      "PAT (ex-NCI) rose 41% YoY to INR 129 Cr in Q2 FY27, up from INR 92 Cr in Q2 FY26.",
+      "Gross transaction volume for the quarter was INR 13,708 Cr, up about 57% YoY from INR 8,757 Cr.",
+      "For H1 FY27, PAT rose 41% YoY to INR 244 Cr, RoE was 12.0% and book value per share was INR 260 (+15%)."
+    ],
+    "valuation": [
+      "It achieved a first close of INR 400 Cr for its Diversified Debt Fund (target size INR 2,000 Cr) and launched its first open-ended private credit fund, the Savings Plus fund.",
+      "Valuation call: Given its strong earnings growth trajectory, robust AUM outlook on a low base, and ROE recovery to ~15.7 % by FY29E, we maintain with a BUY rating and a price target of INR 393.6 (1.1x FY29E P/ABV), implying 43.6 % from INR 274 over the next 24 months.",
+      "Management Guidance on Future Performance: • AUM Growth & Channel Mix: Full-year FY27 AUM growth is guided at 23% to 25% (with management aiming for upward of 25% given strong festive demand), while the Direct- to-Customer (D2C) mix is projected to reach ~70% of total AUM by year-end. • Profitability & Margins (ROA & NIM): Exit ROA is targeted at ~3.0% by the end of FY27 and 3.4% to 3.5% for FY28."
+    ],
+    "watch": [
+      "We anticipate growth across key financial metrics over the next few years.",
+      "Valuation call: Given its strong earnings growth trajectory, robust AUM outlook on a low base, and ROE recovery to ~15.7 % by FY29E, we maintain with a BUY rating and a price target of INR 393.6 (1.1x FY29E P/ABV), implying 43.6 % from INR 274 over the next 24 months."
+    ]
+  },
+  "blurb": "Northern Arc Capital reported its highest-ever quarterly PAT of INR 129 Cr.",
+  "fetchedAt": "2026-11-18T15:53:25.425Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "029d245121d5",
+  "date": "2026-11-09",
+  "broker": "Prabhudas Lilladher",
+  "company": "DOMS Industries",
+  "headline": "Focusing on volume led growth",
+  "link": "https://plindia.com/ResReport/DOMS-4-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 2604,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "(%) 13.8 (24.9) 78.4 27.8 DPS (INR) 3.6 3.5 4.0 4.0 Yield (%) 0.2 0.2 0.2 0.2 RoE (%) 20.7 13.3 20.3 21.2 RoCE (%) 24.4 16.1 23.9 25.4 EV/Sales (x) 5.0 4.2 3.5 2.9 EV/EBITDA (x) 29.0 33.4 21.0 16.7 PE (x) 50.0 66.6 37.3 29.2 P/BV (x) 9.4 8.4 6.9 5.6 Focusing on volume led growth Result Report Given persistent volatility in RM prices, we cut our EPS estimates by ~6% for FY28E/FY29E.",
+      "While DOMS IN’s revenue performance was broadly in line with our estimates, EBITDA margin contracted 510bps YoY to 12.4% (PLe 11.9%) amid sharp RM inflation.",
+      "Going forward, commissioning of 1st building at Umbergaon should support incremental volumes.",
+      "Additionally, there are 2 more buildings where machinery installation is underway, providing further headroom for capacity-led growth in FY28E and beyond."
+    ],
+    "valuation": [
+      "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 2,604 2,783 Sales (INR mn) 33,700 39,686 34,094 40,261 % Chng.",
+      "(%) 13.8 (24.9) 78.4 27.8 DPS (INR) 3.6 3.5 4.0 4.0 Yield (%) 0.2 0.2 0.2 0.2 RoE (%) 20.7 13.3 20.3 21.2 RoCE (%) 24.4 16.1 23.9 25.4 EV/Sales (x) 5.0 4.2 3.5 2.9 EV/EBITDA (x) 29.0 33.4 21.0 16.7 PE (x) 50.0 66.6 37.3 29.2 P/BV (x) 9.4 8.4 6.9 5.6 Focusing on volume led growth Result Report Given persistent volatility in RM prices, we cut our EPS estimates by ~6% for FY28E/FY29E.",
+      "We maintain BUY on the stock with TP of INR2,604 (45x Sep-28E EPS; no change in target multiple)."
+    ],
+    "watch": [
+      "(6.1) (15.3) Key Data DOMS.BO | DOMS IN BSE Code 544045 NSE Code DOMS 52-W High / Low INR 2,755 / INR 1,775 Face Value 10 Sensex / Nifty 76,918 / 23,811 Market Cap INR 115 bn / $ 1,214 mn Shares Outstanding 60.69 mn 3M Avg.",
+      "Production of key fast-moving products, including Brite and 045, has already commenced."
+    ]
+  },
+  "blurb": "(%) 13.8 (24.9) 78.4 27.8 DPS (INR) 3.6 3.5 4.0 4.0 Yield (%) 0.2 0.2 0.2 0.2 RoE (%) 20.7 13.3 20.3 21.2 RoCE (%) 24.4 16.1 23.9 25.4 EV/Sales (x) 5.0 4.2 3.5 2.9 EV/EBITDA (x) 29.0 33.4 21.0 16.7 PE (x) 50.0 66.6 37.3 ",
+  "fetchedAt": "2026-11-18T15:51:37.558Z"
+}

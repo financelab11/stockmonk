@@ -1,0 +1,35 @@
+{
+  "id": "5ed265804fca",
+  "date": "2026-11-10",
+  "broker": "ICICI Securities",
+  "company": "CESC",
+  "headline": "In pursuit of growth",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261111061644_CESC-1111026-icici.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 176,
+    "cmp": 129,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "For the quarter, it reported revenue of INR 57.6bn (+7% YoY) and EBITDA of INR 11.4bn (flat YoY), which led to adj.",
+      "Standalone generation grew 16% YoY and power sales were up 8% YoY during the quarter.",
+      "In-line print CESC reported consolidated revenues of INR 57bn (+7% YoY), aided by better- than-expected performance at Noida power.",
+      "As a result, profit for the quarter was flat YoY at INR 4.4bn."
+    ],
+    "valuation": [
+      "We estimate the transaction at ~9x EV/EBITDA, which we believe is on a higher side.",
+      "CESC is looking to scale up its RE platform and is targeting 10GW RE capacity in the medium-term; it is progressing well in terms of PPAs, equipment orders for wind capacity and acquiring assets with land and transmission connectivity.",
+      "We maintain BUY and revise our SoTP-based target price to INR 176 (from INR 220)."
+    ],
+    "watch": [
+      "Key risks: 1) Delay in RE capacity addition; and 2) higher build-up of regulatory assets.",
+      "The recipient should independently evaluate the investment risks."
+    ]
+  },
+  "blurb": "For the quarter, it reported revenue of INR 57.6bn (+7% YoY) and EBITDA of INR 11.4bn (flat YoY), which led to adj.",
+  "fetchedAt": "2026-11-18T15:51:27.604Z"
+}

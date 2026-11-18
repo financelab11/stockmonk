@@ -1,0 +1,30 @@
+{
+  "id": "738b59391d33",
+  "date": "2026-11-12",
+  "broker": "Ventura Securities",
+  "company": "Coal India",
+  "headline": "Q2FY27 Result Update",
+  "link": "https://ventura1.com/calltracking/TechnicalCalls/quaterly/639300757585888776_Coal%20India%20Q2FY27%20Result%20Updates.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 396,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "PBT increased 15% YoY to INR 20,448 cr, while PAT grew 19% YoY to INR 15,397 cr, translating into H1FY27 EPS of INR 24.94.",
+      "On a quarterly basis, Q2FY27 revenue rose 20.9% YoY to INR 44,179 cr from INR 36,553 cr, while declining 4.5% QoQ from INR 46,255 cr.",
+      "EBITDA grew 28% YoY to INR 11,447 cr, with margin improving to 26% from 24% in Q2FY26.",
+      "Profit margin improved to 14.8% from 11.4% in Q2FY26 but moderated from 19.1% in Q1FY27."
+    ],
+    "valuation": [],
+    "watch": [
+      "And such person shall be responsible for conducting his/her/their own investigation and analysis of the information contained or referred to in this document and of evaluating the merits and risks involved in the securities forming the subject matter of this document."
+    ]
+  },
+  "blurb": "PBT increased 15% YoY to INR 20,448 cr, while PAT grew 19% YoY to INR 15,397 cr, translating into H1FY27 EPS of INR 24.94.",
+  "fetchedAt": "2026-11-18T15:50:57.992Z"
+}

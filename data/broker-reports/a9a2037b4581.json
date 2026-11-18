@@ -1,0 +1,31 @@
+{
+  "id": "a9a2037b4581",
+  "date": "2026-11-09",
+  "broker": "Nirmal Bang",
+  "company": "Fine Organic Industries",
+  "headline": "Expansion plans to fructify from FY29",
+  "link": "https://www.nirmalbang.com/Upload/Fine-Organic-2QFY27-Result-Update-09-November-2026.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Despite lower headroom for volume growth (due to capacity constraints), gross profit and EBITDA grew by 27%/37% YoY.  FINEORG’s revenue performance has been lumpy since the IPO.",
+      "Post earnings revision, maintain BUY with a revised TP of Rs6,700 (earlier Rs6,300) valued at 35x PE on Sep’28E. 2QFY27 performance update: FINEORG’s 2QFY27 revenue growth of 22% YoY was largely pricing-led.",
+      "Domestic/Export revenue grew by ~24%/19% YoY, The share of exports revenue stood at 56% vis-à-vis 55% in 2QFY26 and 60% in 1QFY27.",
+      "EBITDA growth of ~37% YoY reflects operating leverage and FINEORG’s ability to pass on the RM inflation."
+    ],
+    "valuation": [],
+    "watch": [
+      "Key Points  FINEORG’s 2QFY27 came ~25% ahead of our and consensus estimates on account of continued contractual re-pricing benefits.",
+      "While geopolitical issues, Covid-19 etc. also led to some of the fluctuations, the key reason was supply constraints."
+    ]
+  },
+  "blurb": "Despite lower headroom for volume growth (due to capacity constraints), gross profit and EBITDA grew by 27%/37% YoY.  FINEORG’s revenue performance has been lumpy since the IPO.",
+  "fetchedAt": "2026-11-18T15:51:39.002Z"
+}

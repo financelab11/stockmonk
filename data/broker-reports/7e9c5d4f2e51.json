@@ -1,0 +1,34 @@
+{
+  "id": "7e9c5d4f2e51",
+  "date": "2026-11-11",
+  "broker": "Prabhudas Lilladher",
+  "company": "Gokaldas Exports",
+  "headline": "Multiple levers for earnings recovery",
+  "link": "https://plindia.com/ResReport/GEXP-6-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 1000,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "EBITDA grew 62.2% YoY to INR1,048mn, with margins expanding to 9.4% on gross margin improvement and better performance in Africa.",
+      "Volumes grew 9% YoY to 14.2mn pieces, while realizations increased by 4% to INR726/pc.",
+      "Management expects stronger growth from H2FY27, supported by a healthy order book, currency benefits and withdrawal of customer discounts.",
+      "Despite cautious US retailer inventory trends, management expects holiday-season sales to drive higher orders for next year."
+    ],
+    "valuation": [
+      "Sani Vishe Akshay Deshpande sanivishe@plindia.com | +91-22-66322222 akshaydeshpande@plindia.com | +91-22-66322222 PL Research is also available on www.plindia.com, Bloomberg, Thomson Reuters and Factset Institutional Equities | 1 R A T I N G BUY | C M P INR 685 | T P INR 1,000 Gokaldas Exports (GEXP IN) Q2FY27 Result Update November 06, 2026 ☑ Estimate Change | ☑ Target | ◼ Reco.",
+      "Management is targeting the addition of 2-3 factories in FY28, each with a capacity of ~3.5mn pieces."
+    ],
+    "watch": [
+      "Realization per piece stood at INR727 (vs INR697 in Q2FY26) Key Conference Call Takeaways: Macro demand outlook • US apparel imports have remained subdued despite resilient retail sales, largely due to retailer inventory destocking and shorter ordering lead times.",
+      "Management expects a recovery in imports if the holiday season delivers the projected ~4% growth in retail sales. • Retailers continue to maintain tight inventories amid concerns over inflation and higher oil prices, although management has not witnessed a meaningful deterioration in consumer demand."
+    ]
+  },
+  "blurb": "EBITDA grew 62.2% YoY to INR1,048mn, with margins expanding to 9.4% on gross margin improvement and better performance in Africa.",
+  "fetchedAt": "2026-11-18T15:51:15.217Z"
+}

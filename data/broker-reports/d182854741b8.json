@@ -1,0 +1,35 @@
+{
+  "id": "d182854741b8",
+  "date": "2026-11-11",
+  "broker": "ICICI Securities",
+  "company": "Kalyan Jewellers India",
+  "headline": "Kalyan’s Q2FY27 revenue/EBITDA/PAT grew ~31%/30%/64% YoY. Gross margin contracted 61bps YoY to 12.3%, impacted by",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261112052021_Kalyan-Jewellers-India-1211026-icici.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": 800,
+    "cmp": 611,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Gross margin contracted 61bps YoY to 12.3%, impacted by a higher recycled gold mix (42% vs. 29% in Q2FY26), open-position losses in platinum/silver (-INR 83mn vs. +INR 212mn in Q2FY26), and a higher share of Franchise-Owned, Company-Operated (FOCO) revenues (~59% of India revenue).",
+      "This margin pressure was partly offset by ~INR 520mn in customs duty benefit.",
+      "Management maintains its focus on a leaner balance sheet, which was reflected in non-GML debt turning zero in Sep'26 (ahead of its FY27 target) and the company divesting non-core real estate assets.",
+      "We maintain a constructive view on Kalyan, driven by healthy SSSG, aggressive retail expansion, leaner balance sheet, ATM (as a material new growth driver), and strong H2FY27 growth expectations."
+    ],
+    "valuation": [
+      "Management maintains its focus on a leaner balance sheet, which was reflected in non-GML debt turning zero in Sep'26 (ahead of its FY27 target) and the company divesting non-core real estate assets.",
+      "Valuation and risks We raise our EPS estimates for FY27/28E by 0.6%/3.1%, modelling revenue/EBITDA/Adj.",
+      "We reiterate BUY with a DCF-based revised target price of INR 800 (INR 700 earlier)."
+    ],
+    "watch": [
+      "Valuation and risks We raise our EPS estimates for FY27/28E by 0.6%/3.1%, modelling revenue/EBITDA/Adj.",
+      "Key risks include weaker discretionary demand, delays in FOCO store additions, and higher competitive intensity in core South Indian markets."
+    ]
+  },
+  "blurb": "Gross margin contracted 61bps YoY to 12.3%, impacted by a higher recycled gold mix (42% vs. 29% in Q2FY26), open-position losses in platinum/silver (-INR 83mn vs. +INR 212mn in Q2FY26), and a higher share of Franchise-Ow",
+  "fetchedAt": "2026-11-18T15:51:18.213Z"
+}

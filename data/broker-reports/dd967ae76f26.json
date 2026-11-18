@@ -1,0 +1,35 @@
+{
+  "id": "dd967ae76f26",
+  "date": "2026-11-09",
+  "broker": "Axis Direct",
+  "company": "Daily Fundamental View:November 09, 2026",
+  "headline": "Daily Fundamental View:November 09, 2026",
+  "link": "https://simplehai.axisdirect.in/app/index.php/insights/reports/downloadReport/file/Morning+note+and+CA+09+November+2026+%281%29_09-11-2026_09.pdf/type/fundamental",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 595,
+    "cmp": 540,
+    "upside": 10,
+    "recommendation": "SELL"
+  },
+  "summary": {
+    "highlights": [
+      "Aluminium Expansion and Premiumisation to Drive Growth: • Aluminium wheels remain a key growth driver, supported by premiumisation, EV penetration and OEM demand.",
+      "EBITDA per wheel rose to Rs 404 in Q2FY27, which management expects to sustain, with further upside from volume growth and efficiencies C.",
+      "Export Recovery and OEM Demand to Enhance Growth Visibility:: • Exports grew 69% YoY to Rs 187 Cr in Q2FY27 and Rs 314 Cr in H1FY27.",
+      "Management expects FY27 exports to exceed Rs 600 Cr, with potential upside to Rs 700–750 Cr depending on the US-India trade deal, and targets Rs 1,500 Cr over the next three years."
+    ],
+    "valuation": [
+      "The 1.1 Mn-unit aluminium knuckle facility at Bhuj is targeted for commercial production in Q4FY27, while the proposed Sambhaji Nagar hot stamping facility targets ~Rs 400 Cr turnover. 7th November, 2026 B.",
+      "Capacity Expansion and Efficiencies to Support Profitability: • SSWL is undertaking a Rs 1,400 Cr greenfield expansion at Sambhaji Nagar for aluminium and steel wheels and hot- stamped components, targeting at least 25% higher productivity.",
+      "EBITDA per wheel rose to Rs 404 in Q2FY27, which management expects to sustain, with further upside from volume growth and efficiencies C."
+    ],
+    "watch": [
+      "Aluminium Expansion and Premiumisation to Drive Growth: • Aluminium wheels remain a key growth driver, supported by premiumisation, EV penetration and OEM demand.",
+      "Recommendation Rationale • ADS Growth & Order Visibility Strengthen Long-Term Outlook: Sansera’s ADS business continues to witness strong traction, supported by rising demand across aerospace, semiconductors and defence."
+    ]
+  },
+  "blurb": "Aluminium Expansion and Premiumisation to Drive Growth: • Aluminium wheels remain a key growth driver, supported by premiumisation, EV penetration and OEM demand.",
+  "fetchedAt": "2026-11-18T15:51:58.647Z"
+}

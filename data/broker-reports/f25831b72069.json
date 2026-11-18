@@ -1,0 +1,33 @@
+{
+  "id": "f25831b72069",
+  "date": "2026-11-04",
+  "broker": "Nirmal Bang",
+  "company": "Pfizer",
+  "headline": "Underlying Growth Steady; Correction Creates Opportunity",
+  "link": "https://www.nirmalbang.com/Upload/Pfizer--2QFY27-Result-Update--04-November-2026.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Business performance: Revenue grew 13.2% YoY to Rs7.3bn, reflecting steady business momentum.",
+      "EBITDA rose 13.6% YoY to Rs2.6bn, in line with revenue growth.",
+      "Gross profit grew only 3.7% YoY to Rs4.3bn, and gross margin contracted by 541bps YoY to 59.1%, mainly due to raw material costs jumping 30.4% to Rs3bn.",
+      "Reported PAT surged 65.7% YoY to Rs3.1bn on an exceptional gain of Rs1.3bn, partly offset by a higher tax rate (up by 1,170bps to 37.7%)."
+    ],
+    "valuation": [
+      "Valuation: We roll forward our valuation to Sep-28E and revise our target price to Rs4,792 (from Rs5,212), based on valuation multiple of 26x Sep-28E EPS."
+    ],
+    "watch": [
+      "Outlook: We project Pfizer’s revenue to grow at a steady yet modest pace, moving from Rs26.8bn in FY27E to Rs28.1bn in FY28E and Rs29.8bn in FY29E (FY27-29E CAGR of 5.5%).",
+      "Growth is expected to be led by key core focus areas in chronic therapies, oncology, and adult vaccines, partially offset by price cap constraints under NLEM in the domestic formulations business."
+    ]
+  },
+  "blurb": "Business performance: Revenue grew 13.2% YoY to Rs7.3bn, reflecting steady business momentum.",
+  "fetchedAt": "2026-11-18T15:53:28.988Z"
+}

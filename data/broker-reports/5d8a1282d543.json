@@ -1,0 +1,35 @@
+{
+  "id": "5d8a1282d543",
+  "date": "2026-11-11",
+  "broker": "Prabhudas Lilladher",
+  "company": "Tata Steel",
+  "headline": "Strong India, recovering TSN; UK struggles",
+  "link": "https://plindia.com/ResReport/TATA-9-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 215,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "ACCUMULATE"
+  },
+  "summary": {
+    "highlights": [
+      "TSI volumes grew 8% YoY to 5.98mt on drawdown of inventory in seasonally weak monsoon quarter, while benefit of Auto contracts negated longs weakness driving EBITDA to INR100bn (up 23% YoY).",
+      "Europe remained mixed: TSN saw EBITDA improve to EUR72mn from EUR4mn in Q1FY27 as the DSP restarted, while TSUK continued to report losses of GBP147/t on low volumes absorbing entire costs amid weak market impacted by imports.",
+      "Going forward, India is expected to lead the H2 recovery, supported by higher volumes and improved steel realizations.",
+      "Mgmt. reiterated its preference for value-led growth, with near-term capex focused on downstream capacities and a richer product mix, while major upstream additions planned remain on track."
+    ],
+    "valuation": [
+      "In Europe, TSUK is targeting near breakeven by Q4FY27 as excess inventory gradually normalizes, while sustaining the DSP ramp-up remains key to TSN's recovery.",
+      "Other important points: • FY27 cost efficiency program target: INR71.4bn of which INR18bn achieved in H1. • Capex: Q2 INR32.80bn; H1FY27 INR68bn.",
+      "DRI-EAF remains the reference case, while multiple alternatives are being evaluated."
+    ],
+    "watch": [
+      "In Europe, TSUK is targeting near breakeven by Q4FY27 as excess inventory gradually normalizes, while sustaining the DSP ramp-up remains key to TSN's recovery.",
+      "Key monitorables include: (a) sustainability of the domestic steel spreads, (b) timely execution of capex at NINL/ Meramandali debottlenecking, (c) rising debt levels, (d) resolution of TSN's regulatory and decarbonization-related uncertainties, and (e) progress on the Port Talbot EAF project for early breakeven."
+    ]
+  },
+  "blurb": "TSI volumes grew 8% YoY to 5.98mt on drawdown of inventory in seasonally weak monsoon quarter, while benefit of Auto contracts negated longs weakness driving EBITDA to INR100bn (up 23% YoY).",
+  "fetchedAt": "2026-11-18T15:51:25.751Z"
+}

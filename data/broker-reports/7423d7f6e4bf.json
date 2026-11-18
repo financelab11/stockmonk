@@ -1,0 +1,35 @@
+{
+  "id": "7423d7f6e4bf",
+  "date": "2026-11-08",
+  "broker": "ICICI Securities",
+  "company": "Gujarat Energy",
+  "headline": "Morbi normalises in Q2, but a rise again in propane prices could drive volumes",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261109080841_Gujarat-Energy-0911026-icici.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 345,
+    "cmp": 216,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Morbi volumes moderated to ~3.9mmscmd (vs. ~5.6mmscmd in Q1) as propane availability improved and prices of propane fell in Q2.",
+      "Trading EBITDA rose 91% YoY to INR 3.3bn, but Q2 trading margin was ~4% (Qatar force majeure); H2 guidance of 5–6% is intact.",
+      "Valuations of 6.1x FY28E PER/4.2x EV/EBITDA are attractive; TP is retained at INR 345.",
+      "Volume uptick in non-Morbi industrial and domestic/CNG, and an easing of LNG costs could aid GEL’s long-term prospects."
+    ],
+    "valuation": [
+      "Valuations of 6.1x FY28E PER/4.2x EV/EBITDA are attractive; TP is retained at INR 345.",
+      "GEL added 18 CNG stations in H1 (total 857) and targets 75+ in FY27, with double- digit CNG growth as the goal.",
+      "Valuations are unchallenging at ~6.1x FY28E EPS and 4.2x EV/EBITDA."
+    ],
+    "watch": [
+      "With strong growth in domestic/CNG segment, steady improvement in I/C volumes from areas other than Morbi and synergies in gas sourcing/tax benefits and efficiencies post the GSPC merger, we see risk-reward as favourable at current prices (stock has fallen 39% in last 12M).",
+      "Key upside risks: 1) Sharper recovery in LPG (propane) prices; 2) faster execution of expansion plans in new areas; and 3) sharp drop in LNG prices."
+    ]
+  },
+  "blurb": "Morbi volumes moderated to ~3.9mmscmd (vs. ~5.6mmscmd in Q1) as propane availability improved and prices of propane fell in Q2.",
+  "fetchedAt": "2026-11-18T15:52:00.289Z"
+}

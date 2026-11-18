@@ -1,0 +1,35 @@
+{
+  "id": "a565079ac012",
+  "date": "2026-11-08",
+  "broker": "ICICI Securities",
+  "company": "TTK Prestige",
+  "headline": "Transformation-led growth and premiumisation drive market share gains",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261109080922_TTK-Prestige-0911026-icici.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 725,
+    "cmp": 609,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "We note: (1) Domestic growth remained robust, with the company continuing to outperform the industry and gain market share across key segments.",
+      "Management's continued focus on brand investments, innovation and go-to- market capabilities is likely to strengthen its competitive positioning, while operating efficiencies are beginning to deliver benefits.",
+      "PAT grew by 21.0%/72.1%/76.1% YoY, driven by strong demand across categories and channels.",
+      "However, exports revenue declined 30.5% YoY due to global disruptions."
+    ],
+    "valuation": [
+      "Upgrade to BUY (from Hold) with a DCF-based revised TP of INR 725 (earlier INR 700; implied target P/E at 37x FY28E EPS).",
+      "Strategic expenditure during H1FY27 stood at INR 300mn. • The company continues to target steady-state EBITDA margins of ~13-14%, • Inventory has increased in value, primarily due to anticipated demand and preparations to support business growth.",
+      "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+    ],
+    "watch": [
+      "We note: (1) Domestic growth remained robust, with the company continuing to outperform the industry and gain market share across key segments.",
+      "(3) Widespread commodity inflation across ~ 95% of input-cost line-items remains a key concern, with the company indicating that the industry is yet to fully pass on the cost increases to consumers."
+    ]
+  },
+  "blurb": "We note: (1) Domestic growth remained robust, with the company continuing to outperform the industry and gain market share across key segments.",
+  "fetchedAt": "2026-11-18T15:52:02.549Z"
+}

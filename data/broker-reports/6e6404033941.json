@@ -1,0 +1,35 @@
+{
+  "id": "6e6404033941",
+  "date": "2026-11-13",
+  "broker": "Axis Direct",
+  "company": "V I P Inds.",
+  "headline": "",
+  "link": "https://simplehai.axisdirect.in/app/index.php/insights/reports/downloadReport/file/VIP+Industries+Ltd+-+Q2FY27+Result+Update_131126_13-11-2026_10.pdf/type/fundamental",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": 7,
+    "recommendation": "HOLD"
+  },
+  "summary": {
+    "highlights": [
+      "Actual for Q2FY27: Revenue – BEAT; EBITDA - BEAT Changes in Estimates post Q2FY27 FY27E/FY28E: Revenue: -3%/-5%; EBITDA: -4%/-7%; PAT: -11%/-17% Recommendation Rationale • Gradual Recovery Gains Traction: VIP Industries reported ~15.2% YoY revenue growth in Q2FY27, sustaining the momentum for the second consecutive quarter.",
+      "Growth was supported by over 50 product launches in H1FY27 across VIP, Skybags and Aristocrat, contributing 45% of hard luggage and backpack sales.",
+      "Gross margin expanded 1,606 bps YoY to 46.7%, supported by portfolio premiumisation and price hikes, which helped offset raw material inflation.",
+      "Going ahead, the company remains focused on sustaining double-digit growth and achieving break- even through higher ASPs, continued pricing actions, cost-control initiatives and fixed-cost optimisation."
+    ],
+    "valuation": [
+      "Result Update 13th November, 2026 HOLD Target Price 265 VIP Industries Ltd Consumer Discretionary - Luggage 1 Recovery Gains Momentum; Maintain HOLD Est.",
+      "Sector Outlook: Cautious Company Outlook & Guidance: VIP Industries continues to target double-digit growth, driven by a dual strategy of price hikes and premiumisation, alongside cost-control initiatives to improve profitability.",
+      "However, given the gradual pace of recovery, we maintain our HOLD rating on the stock with a revised TP of Rs 265/share, indicating an upside of 7% from the CMP."
+    ],
+    "watch": [
+      "Sector Outlook: Cautious Company Outlook & Guidance: VIP Industries continues to target double-digit growth, driven by a dual strategy of price hikes and premiumisation, alongside cost-control initiatives to improve profitability.",
+      "Key Financials (Consolidated) (Rs Cr) Q2FY27 QoQ (%) YoY (%) Axis Est."
+    ]
+  },
+  "blurb": "Actual for Q2FY27: Revenue – BEAT; EBITDA - BEAT Changes in Estimates post Q2FY27 FY27E/FY28E: Revenue: -3%/-5%; EBITDA: -4%/-7%; PAT: -11%/-17% Recommendation Rationale • Gradual Recovery Gains Traction: VIP Industries ",
+  "fetchedAt": "2026-11-18T15:50:44.287Z"
+}

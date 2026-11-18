@@ -1,0 +1,35 @@
+{
+  "id": "a7dcbe824184",
+  "date": "2026-11-06",
+  "broker": "Axis Direct",
+  "company": "P I Industries",
+  "headline": "",
+  "link": "https://simplehai.axisdirect.in/app/index.php/insights/reports/downloadReport/file/PI+Industries+Ltd+-+Q2FY27+Result+Update+-+06112026_06-11-2026_12.pdf/type/fundamental",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 2750,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Capital Goods 1 Export Weakness Persists; Domestic Agri & Emerging Businesses Support Growth Est.",
+      "Domestic biologicals witnessed robust growth of 45% YoY, while global biologicals revenue increased to ~Rs 60 Cr.",
+      "However, PI Industries’ CSM order book of ~US$1.25 Bn provides revenue visibility over the medium term, supported by its strong customer relationships, differentiated chemistry capabilities and innovation-led pipeline.",
+      "The company is strategically reallocating capital towards high-growth opportunities, including Pharma CRDMO and specialty electronic chemicals, with the latter targeting US$100 Mn revenue over the next 3–4 years."
+    ],
+    "valuation": [
+      "Result Update 06th November, 2026 BUY Target Price 2,750 PI Industries Ltd.",
+      "The company is strategically reallocating capital towards high-growth opportunities, including Pharma CRDMO and specialty electronic chemicals, with the latter targeting US$100 Mn revenue over the next 3–4 years.",
+      "Domestic Agri, Biologicals and Pharma CRDMO are expected to provide growth support, while Specialty Electronic Chemicals is targeted to achieve US$100 Mn revenue over the next 3–4 years, with a meaningful ramp-up expected from FY28."
+    ],
+    "watch": [
+      "Sector Outlook: Cautious • Company Outlook: Management has revised its FY27 outlook to flattish revenue growth, reflecting continued weakness in agrochemical exports and near-term pricing pressures, which are expected to persist over the next couple of quarters.",
+      "Despite near-term profitability pressures from elevated input costs and investments in new businesses, PI Industries’ strong CSM order book, robust net cash position and innovation-led pipeline underpin its long-term growth outlook. • Current Valuation: 28x Sep’28E (Earlier Valuation: 28x FY28E) Current TP: Rs. 2,750/share (Earlier TP: Rs 3,045/share) Recommendation: We maintain our BUY rating on the stock."
+    ]
+  },
+  "blurb": "Capital Goods 1 Export Weakness Persists; Domestic Agri & Emerging Businesses Support Growth Est.",
+  "fetchedAt": "2026-11-18T15:52:29.895Z"
+}

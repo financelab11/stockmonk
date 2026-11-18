@@ -1,0 +1,35 @@
+{
+  "id": "b0664329af29",
+  "date": "2026-11-05",
+  "broker": "Motilal Oswal",
+  "company": "BSE",
+  "headline": "Sequential dip; momentum to recover in 2HFY27",
+  "link": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-11/17938561530.82465900.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 4200,
+    "cmp": 3602,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "Per (%) 11/-2/51 12M Avg Val (INR M) 14262 Financials & Valuations (INR b) Y/E Mar FY26 FY27E FY28E Net Sales 48.3 64.0 74.7 EBITDA 31.6 44.7 52.4 PAT 24.6 36.6 42.4 Adj.",
+      "This was driven by 42% YoY growth in transaction charges and 20% YoY growth in revenue from services to corporates.",
+      "For 1HFY27, revenue grew ~50% YoY. ◼ Opex came in at INR4.5b, rising 19% YoY/declining 9% QoQ (in line), with employee costs growing 20% YoY, while regulatory expenses/technology costs/other expenses/clearing house expenses grew 13%/21%/23%/26% YoY.",
+      "Operational leverage resulted in a 6% EBITDA beat, which stood at INR9.8b, growing 42% YoY (down 8% QoQ)."
+    ],
+    "valuation": [
+      "Per (%) 11/-2/51 12M Avg Val (INR M) 14262 Financials & Valuations (INR b) Y/E Mar FY26 FY27E FY28E Net Sales 48.3 64.0 74.7 EBITDA 31.6 44.7 52.4 PAT 24.6 36.6 42.4 Adj.",
+      "Valuation and view ◼ BSE witnessed a sequential dip in financial performance during the quarter due to CAS-related impact on volumes.",
+      "Listing ◼ 100+ companies are targeting mainboard listings, with potential fundraising of INR1.5t, providing visibility for the listing business."
+    ],
+    "watch": [
+      "Research Analyst: Prayesh Jain (Prayesh.Jain@MotilalOswal.com) | Nitin Aggarwal (Nitin.Aggarwal@MotilalOswal.com) Research Analyst: Kartikeya Mohata (Kartikeya.Mohata@MotilalOswal.com) | Shubh Chandak (Shubh.Chandak@MotilalOswal.com) Estimate change TP change Rating change Bloomberg BSE IN Equity Shares (m) 408 M.Cap.(INRb)/(USDb) 1469 / 15.5 52-Week Range (INR) 4447 / 2377 1, 6, 12 Rel.",
+      "Key takeaways from the management commentary ◼ BSE does not intend to revise transaction, colocation, or docket charges at present, unless market participants indicate a need. ◼ 175–190 colocation racks are under construction, with execution timelines to be accelerated depending on demand. ◼ Expiry of existing bank guarantees is yet to play out, making the impact of BG regulations difficult to assess."
+    ]
+  },
+  "blurb": "Per (%) 11/-2/51 12M Avg Val (INR M) 14262 Financials & Valuations (INR b) Y/E Mar FY26 FY27E FY28E Net Sales 48.3 64.0 74.7 EBITDA 31.6 44.7 52.4 PAT 24.6 36.6 42.4 Adj.",
+  "fetchedAt": "2026-11-18T15:52:42.256Z"
+}

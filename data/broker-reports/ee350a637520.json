@@ -1,0 +1,35 @@
+{
+  "id": "ee350a637520",
+  "date": "2026-11-06",
+  "broker": "Arihant Capital",
+  "company": "Somany Ceramics",
+  "headline": "Margins improve; volume recovery expected ahead",
+  "link": "https://arihantresearch.arihantcapital.com/Mumbai_Research/Somany_Ceramics_Ltd_Q2FY27_Result%20Update.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 681,
+    "cmp": 547,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "EBITDA for Q2FY27 was INR 749 Mn, down -21% YoY & - 7.4% QoQ, below our estimate of INR 989 Mn.",
+      "EBITDA margin in Q2FY27 stood at INR 8.8% Mn, below our estimate of 12%.",
+      "PAT stood at INR 416 Mn, up by 465% YoY & 44% QoQ, below our estimate of INR 433 Mn.",
+      "The PAT margin increased by 379 bps YoY and 99 bps QoQ to 4.9% in Q2FY27, in line with our estimate of 5%."
+    ],
+    "valuation": [
+      "Outlook and Valuation: Q2 combined strong growth in realisations with further margin expansion, despite volumes being lost to plant upgrades.",
+      "We maintain our FY27E-29E estimates and value SOMC at 15x FY29E EPS of INR 45.4, for a target price of INR 681.",
+      "Sanitaryware growth: The sanitaryware business is expected to grow approximately 20% in FY27, with management targeting a similar growth rate in FY28."
+    ],
+    "watch": [
+      "Outlook and Valuation: Q2 combined strong growth in realisations with further margin expansion, despite volumes being lost to plant upgrades.",
+      "Risks to watch are gas price volatility, faucet margins under pressure from high brass prices and lower realizations in the project business."
+    ]
+  },
+  "blurb": "EBITDA for Q2FY27 was INR 749 Mn, down -21% YoY & - 7.4% QoQ, below our estimate of INR 989 Mn.",
+  "fetchedAt": "2026-11-18T15:52:35.828Z"
+}

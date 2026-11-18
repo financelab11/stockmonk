@@ -1,0 +1,35 @@
+{
+  "id": "14731e109a04",
+  "date": "2026-11-04",
+  "broker": "ICICI Securities",
+  "company": "Max Healthcare Institute",
+  "headline": "Well placed to ride the tide",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261104151007_Max-Healthcare-Institute_04112026_ICICI-Securities.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 1300,
+    "cmp": 896,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "The company is further optimising its payor mix by reducing exposure scheme-based patient at mature hospitals.",
+      "Concurrently, international patient flows remain strong (+33%).",
+      "While the ramp up of newly added beds could drive growth in the next few quarters, Max plans to add another 500 brownfield beds and 300–400 greenfield beds over the next 3–4 quarters to sustain this upward momentum.",
+      "We raise our FY27E/FY28E EBITDA by ~1%/4% to factor in better margins with the newly operationalised brownfield beds."
+    ],
+    "valuation": [
+      "A 500-bed greenfield facility at Gurgaon is expected to be operationalised in phases, with 150–200 beds targeted to be commissioned in Q4FY27.",
+      "Valuation and risks Backed by a 16% increase in operational bed capacity (M&A and brownfield), Max has been able to overcome the impact of CGHS’ drug discontinuation effected in Oct’25.",
+      "The stock currently trades at an EV/EBITDA of 28.5x FY27E and 22.7x FY28E."
+    ],
+    "watch": [
+      "Valuation and risks Backed by a 16% increase in operational bed capacity (M&A and brownfield), Max has been able to overcome the impact of CGHS’ drug discontinuation effected in Oct’25.",
+      "Downside risks: Trade margin curb on pharmaceuticals and medical supplies, execution risk on capacity expansion; and CGHS/institutional pricing pressure."
+    ]
+  },
+  "blurb": "The company is further optimising its payor mix by reducing exposure scheme-based patient at mature hospitals.",
+  "fetchedAt": "2026-11-18T15:53:14.493Z"
+}

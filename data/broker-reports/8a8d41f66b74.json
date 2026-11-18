@@ -1,0 +1,32 @@
+{
+  "id": "8a8d41f66b74",
+  "date": "2026-11-11",
+  "broker": "Prabhudas Lilladher",
+  "company": "Emami",
+  "headline": "Core & D2C business to lead the way",
+  "link": "https://plindia.com/ResReport/HMN-5-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 440,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "HOLD"
+  },
+  "summary": {
+    "highlights": [
+      "HMN delivered a strong quarter, with revenue and EBITDA growing 36.2% and 24.5% YoY, respectively, while gross margins contracted 520bps, driven by elevated input costs and changing mix from acquired businesses.",
+      "Hair & Scalp Care and Skincare performed well, growing 30% and 31%, respectively, while OTC witnessed soft growth led by international supply chain issues.",
+      "Revenue grew by 36.2% and LTL volumes grew by 26%: Revenues grew by 36.2% YoY to Rs10.9bn (PLe: Rs9.902bn).",
+      "Gross margins contracted by 520bps YoY to 65.8% (Ple: 67.5%)."
+    ],
+    "valuation": [
+      "Valuations remain comforting at 17.4x FY29E EPS, however, sustained execution remains key to driving further upside."
+    ],
+    "watch": [
+      "Valuations remain comforting at 17.4x FY29E EPS, however, sustained execution remains key to driving further upside."
+    ]
+  },
+  "blurb": "HMN delivered a strong quarter, with revenue and EBITDA growing 36.2% and 24.5% YoY, respectively, while gross margins contracted 520bps, driven by elevated input costs and changing mix from acquired businesses.",
+  "fetchedAt": "2026-11-18T15:51:14.729Z"
+}

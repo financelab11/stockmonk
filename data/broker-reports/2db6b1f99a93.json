@@ -1,0 +1,35 @@
+{
+  "id": "2db6b1f99a93",
+  "date": "2026-11-17",
+  "broker": "Baroda eTrade",
+  "company": "First Light | Amber Enterprises, Ashok Leyland, WPI",
+  "headline": "First Light | Amber Enterprises, Ashok Leyland, WPI",
+  "link": "https://www.barodaetrade.com/Reports/FirstLight17Nov26-Research.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 8600,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Margin fell 180bps YoY to 3.7%, as gross margin contracted 170bps.",
+      "On the company’s definition, which excludes ESOP cost and non-operating items, operating EBITDA grew 30% YoY to Rs 1.3bn.",
+      "Cost inflation pushes CD EBITDA into loss: CD revenue rose 43% YoY to Rs 12.5bn.",
+      "CD posted an EBITDA loss of Rs 139mn, against a Rs 335mn profit in Q2FY26."
+    ],
+    "valuation": [
+      "Food inflation remains a major driver, with, food grains (both cereals and pulses), vegetables, fruits, milk, eggs and meat product all exhibiting upside pressures.",
+      "We lower our multiple to 38x from 40x and assign it to Sep’28E EPS.",
+      "Input PPI has also begun showing upside pressure (MoM) in 11 of the 21 manufactured product indices (electronics, chemicals, pharmaceuticals, textiles, machinery, textiles etc)."
+    ],
+    "watch": [
+      "The cuts factor in lower CD and Railway margin guidance and a lower Railway growth outlook.",
+      "Nilesh Mehta Email ID: head-customercare@bobcaps.in; Phone no: 92288 60945 Brand Name: BOBCAPS Website: https://www.bobcaps.in/ CIN: U65999MH1996GOI098009 Logo: Investments in securities market are subject to market risks."
+    ]
+  },
+  "blurb": "Margin fell 180bps YoY to 3.7%, as gross margin contracted 170bps.",
+  "fetchedAt": "2026-11-18T15:49:45.156Z"
+}

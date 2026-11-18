@@ -1,0 +1,34 @@
+{
+  "id": "69567ed5665d",
+  "date": "2026-11-11",
+  "broker": "Ventura Securities",
+  "company": "KSH International",
+  "headline": "Q2FY27 Result Update",
+  "link": "https://ventura1.com/calltracking/TechnicalCalls/quaterly/639299983037403355_KSH%20International%20Ltd%20Result%20Update%20Q2FY27.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 992,
+    "upside": 11.4,
+    "recommendation": "HOLD"
+  },
+  "summary": {
+    "highlights": [
+      "EBITDA grew 94.6% YoY to INR 89.7 cr, with margins expanding 30 bps YoY to 6.8%, while PAT increased 62.2% YoY to INR 48 cr, with PAT margin at 3.6%.",
+      "Sales volumes grew 25.6% YoY to 8,842 MT, while capacity utilization improved to 76% from 73% QoQ.",
+      "Specialized winding wires contributed ~74% of revenue, growing 87% YoY, while standard wires grew 119% YoY.",
+      "EBITDA per ton improved to INR 1,01,454 from INR 65,515 YoY, supported by higher CTC contribution, exports and operating efficiencies."
+    ],
+    "valuation": [
+      "The company continued capacity expansion at Supa, with installed capacity reaching 43,445 MT as of June 2026 and targeted to increase to 59,045 MT by FY27 end.",
+      "Valuation call: We recommend HOLD at the CMP of INR 992, with a price target of INR 1,105 (22.6× FY29 earnings), representing an upside of 11.4% over the next 24 months.",
+      "Management targets a gradual increase in export contribution to its historical level of ~40% over the next few years, supported by new customer qualifications and higher wallet share. • Specialized winding wires continued to dominate the product mix, contributing ~75% of revenue, with segment growth of 87% YoY, while standard winding wires grew 119% YoY."
+    ],
+    "watch": [
+      "And such person shall be responsible for conducting his/her/their own investigation and analysis of the information contained or referred to in this document and of evaluating the merits and risks involved in the securities forming the subject matter of this document."
+    ]
+  },
+  "blurb": "EBITDA grew 94.6% YoY to INR 89.7 cr, with margins expanding 30 bps YoY to 6.8%, while PAT increased 62.2% YoY to INR 48 cr, with PAT margin at 3.6%.",
+  "fetchedAt": "2026-11-18T15:51:19.881Z"
+}

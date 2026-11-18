@@ -4,7 +4,8 @@ import { Filter, Rss } from "lucide-react";
 import { NewsCard } from "@/components/cards/news-card";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { JsonLd } from "@/components/seo/json-ld";
-import { getNewsfeed, getResearchCompanies, type NewsTag } from "@/lib/data";
+import { getNewsfeed, getResearchCompanies, type NewsTag, type NewsItem } from "@/lib/data";
+import { getBrokerReportIndex } from "@/lib/broker-reports";
 import { breadcrumbJsonLd } from "@/lib/seo";
 import { formatPercent } from "@/lib/format";
 
@@ -13,18 +14,20 @@ export const revalidate = 900;
 export const metadata: Metadata = {
   title: "Newsfeed",
   description:
-    "Earnings results, estimate updates, filing changes and price-range observations generated from the Stockmonk dataset. No invented headlines.",
+    "Earnings results, estimate updates, filing changes and summaries of the latest Indian broker research, each attributed and linked to its source.",
   alternates: { canonical: "/newsfeed" },
   openGraph: {
     title: "Newsfeed · Stockmonk",
     description:
-      "Data-change updates for the Stockmonk coverage universe, generated from sourced financials.",
+      "Data-change updates and attributed broker-note summaries for the Stockmonk coverage universe.",
     url: "/newsfeed",
   },
 };
 
 const TAGS: Array<NewsTag | "All"> = [
   "All",
+  "Broker Note",
+  "Deep-Dive",
   "Earnings Results",
   "Earnings Preview",
   "Earnings Call",
@@ -55,7 +58,22 @@ export default async function NewsfeedPage({
   const ticker = typeof params.ticker === "string" ? params.ticker : "";
   const limit = Math.max(12, Math.min(60, Number(params.limit) || 12));
 
-  const allItems = getNewsfeed();
+  const allItems = [
+    ...getBrokerReportIndex().map<NewsItem>((report) => ({
+      id: `broker-${report.id}`,
+      ticker: "",
+      name: report.company,
+      date: report.date,
+      tag: report.deepDive ? "Deep-Dive" : "Broker Note",
+      title: `${report.company} — ${report.headline}`,
+      summary: `${report.broker} · ${report.reportType}. ${report.blurb}`,
+      href: `/newsfeed/broker/${report.id}`,
+      price: null,
+      changePct: null,
+      source: report.broker,
+    })),
+    ...getNewsfeed(),
+  ].sort((a, b) => b.date.localeCompare(a.date));
   const companies = getResearchCompanies();
   const filtered = allItems.filter(
     (item) =>
@@ -63,7 +81,7 @@ export default async function NewsfeedPage({
       (ticker ? item.ticker === ticker : true),
   );
   const shown = filtered.slice(0, limit);
-  const tickers = [...new Set(allItems.map((item) => item.ticker))].sort();
+  const tickers = [...new Set(allItems.map((item) => item.ticker).filter(Boolean))].sort();
   const currentParams = { tag: activeTag === "All" ? undefined : activeTag, ticker };
 
   return (
@@ -84,9 +102,9 @@ export default async function NewsfeedPage({
                 Newsfeed
               </h1>
               <p className="mt-1 max-w-2xl text-[12.5px] leading-relaxed text-muted">
-                What changed in the numbers: reported quarters, estimate updates,
-                filing changes and price-range observations. Every item links to
-                the sourced research section behind it.
+                What changed in the numbers, plus summaries of the latest broker
+                notes: reported quarters, estimate updates, filing changes and
+                third-party research, each linked to its source.
               </p>
             </div>
             <a
@@ -187,15 +205,17 @@ export default async function NewsfeedPage({
             <div className="card p-4">
               <h2 className="text-[12px] font-semibold text-ink">How this feed works</h2>
               <p className="mt-1.5 text-[11px] leading-relaxed text-muted">
-                Items are generated from the processed dataset. A new quarter,
-                estimate snapshot or price-range change creates an entry. We do
-                not invent news, quotes or explanations for price moves.
+                Dataset items are generated from the processed financials. Broker
+                notes are summaries of third-party reports, attributed to the
+                publishing broker and linked to the original PDF. We do not invent
+                quotes or explanations for price moves.
               </p>
               <ul className="mt-3 space-y-1.5 text-[10.5px] text-muted">
+                <li>• Broker notes: Indian broker research, updated daily.</li>
+                <li>• Deep-Dive: initiating coverage, written up in full.</li>
                 <li>• Results: reported revenue, margin and EPS.</li>
                 <li>• Previews: attributed consensus for the next quarter.</li>
                 <li>• Analysis: factor screens and range position.</li>
-                <li>• Filings: segment disclosures from the latest 10-K.</li>
               </ul>
             </div>
 

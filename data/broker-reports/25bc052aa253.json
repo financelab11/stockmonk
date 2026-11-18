@@ -1,0 +1,35 @@
+{
+  "id": "25bc052aa253",
+  "date": "2026-11-09",
+  "broker": "Way2Wealth",
+  "company": "Dr. Reddy's Laboratories",
+  "headline": "Result Update",
+  "link": "https://www.way2wealth.com/Reports/RR09112026ba19b.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "09 November 2026 CMP*: ₹1,370/- Sector – Pharmaceutical Dr Reddy's Laboratories Ltd. – Q2FY27 1 Result Update Q2FY27 Dr Reddy's Laboratories Ltd • The company reported a 1.5% YoY decline in revenue to ₹8,671crs in Q2FY27, while revenue grew 7% QoQ, supported by recovery in the underlying base business.",
+      "The decline in reported revenue was mainly due to lower lenalidomide sales in North America.",
+      "However, excluding lenalidomide, the company continued to deliver double-digit growth in its underlying business. • Gross margin declined to 52.1% from 54.7% in Q2FY26, primarily due to lower lenalidomide sales and an unfavourable product mix.",
+      "EBITDA declined 24% YoY to ₹1,783crs, with the margin contracting to 20.6% from 26.7% in Q2FY26."
+    ],
+    "valuation": [
+      "Management expects gross margins to remain in the 50–55% range over the coming quarters and EBITDA margins to stay above 20%, with a long-term target of 25%.",
+      "Validation of the finished product remains pending. o Management expressed confidence in the relaunch, supported by orders already received. o The company continues to target 6–7 million pens in the current year (FY27).",
+      "The company remains confident of maintaining EBITDA margins above 20%, with a long-term target of 25%. • North America: Management expects the business to sustain its current growth trajectory, supported by new product launches, semaglutide and complex generics."
+    ],
+    "watch": [
+      "Management highlighted complex generics and the planned semaglutide relaunch as key growth drivers going forward. • India: Revenue grew 17% YoY & 8% QoQ to ₹1,851crs, continuing to outperform the Indian Pharmaceutical Market (IPM).",
+      "Key Business & Pipeline Updates • Semaglutide: The company expects to relaunch semaglutide in November 2026, subject to successful validation, following the resolution of API scale-up issues."
+    ]
+  },
+  "blurb": "09 November 2026 CMP*: ₹1,370/- Sector – Pharmaceutical Dr Reddy's Laboratories Ltd. – Q2FY27 1 Result Update Q2FY27 Dr Reddy's Laboratories Ltd • The company reported a 1.5% YoY decline in revenue to ₹8,671crs in Q2FY27",
+  "fetchedAt": "2026-11-18T15:51:38.266Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "0418da075cc8",
+  "date": "2026-11-06",
+  "broker": "Nirmal Bang",
+  "company": "Britannia Industries",
+  "headline": "Strong Volume-Led Topline; Input Inflation Caps Margins",
+  "link": "https://www.nirmalbang.com/Upload/Britannia-Industries---2QFY27-Result-Update---06-Nov-2026.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Consolidated revenue for the quarter ended 30-Sep-26 stood at Rs56.0bn (up 15.6% YoY) and APAT at Rs7.2bn (up 10.2% YoY).",
+      "On a 1HFY27 basis, revenue from operations crossed Rs100bn for the first time at Rs105.1bn (up 13.1% YoY).  Growth was volume-led, with volume growth of ~13% YoY (on a weak base; ~5% on a 2-year basis) and a 3.5% price increase taken during the quarter.",
+      "General trade growth in 2QFY27 was 2.6x that of FY26, while other channels grew at 1.8x of general trade; e-commerce contribution has risen to ~7% of sales (~6% in FY26).  Input cost inflation remained elevated – refined palm oil (+17% YoY), laminates (+18%), milk (+16%), and sugar (+6%), with industrial fuel down 21% QoQ but up 45% YoY.",
+      "Management indicated that the 3.5% price hike covers only part of the inflation, with further hikes (largely via grammage reduction) in the works; it refrained from calling a bottom on gross margin.  On competition, the management remains watchful of Reliance’s entry into biscuits (starting with Tamil Nadu), but believes the Rs5/Rs10 price-point structure makes the category harder to disrupt."
+    ],
+    "valuation": [
+      "We roll forward our valuation to Sep-28E EPS and continue to value BRIT at 50x (in line with its 5-year average 1-year forward P/E of ~49x), resulting in a revised TP of Rs6,585 (from Rs6,630), implying a ~32% upside from the CMP of Rs4,980."
+    ],
+    "watch": [
+      "Management indicated that the 3.5% price hike covers only part of the inflation, with further hikes (largely via grammage reduction) in the works; it refrained from calling a bottom on gross margin.  On competition, the management remains watchful of Reliance’s entry into biscuits (starting with Tamil Nadu), but believes the Rs5/Rs10 price-point structure makes the category harder to disrupt.",
+      "International investors are reminded of the additional risks inherent in inter national investments, such as currency fluctuations and international stock market or economic conditions, which may adversely affect the value of the investment."
+    ]
+  },
+  "blurb": "Consolidated revenue for the quarter ended 30-Sep-26 stood at Rs56.0bn (up 15.6% YoY) and APAT at Rs7.2bn (up 10.2% YoY).",
+  "fetchedAt": "2026-11-18T15:52:14.466Z"
+}

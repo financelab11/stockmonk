@@ -1,0 +1,35 @@
+{
+  "id": "0226e8567c25",
+  "date": "2026-11-17",
+  "broker": "Choice Broking",
+  "company": "Ashok Leyland",
+  "headline": "Record CV volumes drive strong Q2FY27 performance",
+  "link": "https://resrepo.choiceindia.com/researchfiles/research/2026/11/17/6afbcc244675a_ashok-leyland_strong-cv-upcycle-supports-growth-amid-headwinds_q2fy27-result-update_nov-16,-2026.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": 195,
+    "cmp": 169,
+    "upside": 17.2,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "Daily Volume 1,49,99,057 Q2FY27: Revenue & EBITDA ahead of estimate; PAT misses estimate ▪ Revenue was up 39.4% YoY and 38.7% QoQ to INR 1,33,643 Mn (vs CIE est. of INR 1,27,522 Mn).",
+      "This was driven by a 31.7% YoY volume increase and a 5.8% YoY ASP increase. ▪ EBITDA was up 16.2% YoY and 39.2% QoQ to INR 13,500 Mn (vs CIE est. of INR 13,390 Mn).",
+      "EBITDA margin was down 202 bps YoY and up 4 bps QoQ to 10.1% (vs CIE est. of 10.5%). ▪ APAT was up 12.7% YoY and 42.7% QoQ to INR 8,690 Mn (vs CIE est. of INR 9,029 Mn).",
+      "EBITDA grew 16.2%, supported by higher volumes, operating leverage, improved price realisation and favourable product mix, partly offsetting commodity inflation."
+    ],
+    "valuation": [
+      "Price realisation is targeted to improve 100– 150 bps in Q3FY27E, while the medium-term mid-teens margin target remains the same.",
+      "View and Valuation: We lower our FY27/28E EPS estimate by 2.5/1.5%, respectively, factoring in sustained commodity inflation and near-term margin pressures, partly offset by a strong volume growth and improved price realisation.",
+      "We value AL’s core business at 21x (maintained) the average of FY28/29E EPS, while assigning INR 13/share to Hinduja Leyland Finance and INR 5/share to Switch Mobility, arriving at a target price of INR 195 (maintained)."
+    ],
+    "watch": [
+      "Demand outlook remains strong, while margins warrant caution: The management expects double-digit, potentially mid-teens, FY27 MHCV growth, with LCV growth remaining strong.",
+      "However, elevated commodity cost and West Asia-related export disruptions remain near-term risks to margin recovery."
+    ]
+  },
+  "blurb": "Daily Volume 1,49,99,057 Q2FY27: Revenue & EBITDA ahead of estimate; PAT misses estimate ▪ Revenue was up 39.4% YoY and 38.7% QoQ to INR 1,33,643 Mn (vs CIE est. of INR 1,27,522 Mn).",
+  "fetchedAt": "2026-11-18T15:49:35.547Z"
+}

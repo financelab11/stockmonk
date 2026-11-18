@@ -1,0 +1,35 @@
+{
+  "id": "49ae4160067e",
+  "date": "2026-11-09",
+  "broker": "Prabhudas Lilladher",
+  "company": "Bharat Electronics",
+  "headline": "Strong execution; Order pipeline remains intact",
+  "link": "https://plindia.com/ResReport/BHE-4-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 490,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Order book stood at INR687.2bn providing healthy execution visibility, with key programs including Electronic Fuses, LCA MK1A, LR-SAM, BMP-2 upgrades, Ashwini Radar and EW Suites for Mi-17 accounting for ~INR176bn.",
+      "Management reiterated FY27 revenue growth guidance of 15%+, EBITDA margin of ~28% and minimum order inflows of INR250bn, excluding QRSAM (INR300bn).",
+      "The ~INR200bn NGC opportunity is expected to translate into staggered orders from GSL and GRSE, largely by FY27-end.",
+      "Management has proactively initiated QRSAM-related activities to accelerate execution and mitigate potential delays."
+    ],
+    "valuation": [
+      "Management aims to ensure a more evenly distributed execution schedule across the year, avoiding quarterly concentration of deliveries, while targeting on-time execution or delivery 1-2 months ahead of committed timelines.",
+      "Bharat Electronics PL Research is also available on www.plindia.com, Bloomberg, Thomson Reuters and Factset Institutional Equities | 4 Other programs: BEL and L&T have formed a 50:50 consortium for AMCA, with technical evaluation of the submitted bid expected over the next 2-3 months and price bid potentially opening before FY27-end.",
+      "Cyber security: BEL has established a separate Network and Cyber Security SBU at Bengaluru, targeting civilian and critical infrastructure applications."
+    ],
+    "watch": [
+      "Order book stood at INR687.2bn providing healthy execution visibility, with key programs including Electronic Fuses, LCA MK1A, LR-SAM, BMP-2 upgrades, Ashwini Radar and EW Suites for Mi-17 accounting for ~INR176bn.",
+      "Other key order prospects, including Shatrughat, Samaghat and HAMMER, along with P-75I (potentially deferred to FY28), provide additional order pipeline visibility."
+    ]
+  },
+  "blurb": "Order book stood at INR687.2bn providing healthy execution visibility, with key programs including Electronic Fuses, LCA MK1A, LR-SAM, BMP-2 upgrades, Ashwini Radar and EW Suites for Mi-17 accounting for ~INR176bn.",
+  "fetchedAt": "2026-11-18T15:51:32.518Z"
+}

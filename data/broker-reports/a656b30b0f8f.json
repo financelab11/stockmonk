@@ -1,0 +1,34 @@
+{
+  "id": "a656b30b0f8f",
+  "date": "2026-11-11",
+  "broker": "Prabhudas Lilladher",
+  "company": "TCI Express",
+  "headline": "Guidance trajectory eyed",
+  "link": "https://plindia.com/ResReport/TCIEXP-6-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 504,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "HOLD"
+  },
+  "summary": {
+    "highlights": [
+      "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating HOLD HOLD Target Price 504 567 Sales (INR mn) 14,804 16,378 14,732 16,297 % Chng. 0.5 0.5 EBITDA (INR mn) 1,724 2,169 1,781 2,231 % Chng.",
+      "While TCIEXP IN’s volumes have started registering mid-single digit growth from 3QFY26 onwards with price hike ranging from ~0.5-3.4%; the operating leverage benefit has failed to materialize fully as EBITDA margins have remained range bound at ~10% odd levels amid cost inflation (fuel, wage etc).",
+      "We expect volume/realization CAGR of 8%/2% over the next 3 years with EBITDA margin of 10.7%/11.6%/13.3% in FY27E/FY28E/FY29E respectively.",
+      "Given persistent growth and margin headwinds, we cut our target multiple to 15x Sep-28E EPS (earlier 16.5x) and retain HOLD on the stock with a TP of INR504."
+    ],
+    "valuation": [
+      "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating HOLD HOLD Target Price 504 567 Sales (INR mn) 14,804 16,378 14,732 16,297 % Chng. 0.5 0.5 EBITDA (INR mn) 1,724 2,169 1,781 2,231 % Chng.",
+      "Given persistent growth and margin headwinds, we cut our target multiple to 15x Sep-28E EPS (earlier 16.5x) and retain HOLD on the stock with a TP of INR504."
+    ],
+    "watch": [
+      "(2.3) (2.1) Key Data TCIE.BO | TCIEXP IN BSE Code 540212 NSE Code TCIEXP 52-W High / Low INR 686 / INR 447 Face Value 2 Sensex / Nifty 81,028 / 25,030 Market Cap INR 19 bn / $ 203 mn Shares Outstanding 38.44 mn 3M Avg.",
+      "Given persistent growth and margin headwinds, we cut our target multiple to 15x Sep-28E EPS (earlier 16.5x) and retain HOLD on the stock with a TP of INR504."
+    ]
+  },
+  "blurb": "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating HOLD HOLD Target Price 504 567 Sales (INR mn) 14,804 16,378 14,732 16,297 % Chng. 0.5 0.5 EBITDA (INR mn) 1,724 2,169 1,781 2,231 % Chng.",
+  "fetchedAt": "2026-11-18T15:51:25.249Z"
+}

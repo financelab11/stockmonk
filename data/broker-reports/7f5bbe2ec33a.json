@@ -1,0 +1,35 @@
+{
+  "id": "7f5bbe2ec33a",
+  "date": "2026-11-06",
+  "broker": "ICICI Securities",
+  "company": "Cera Sanitaryware",
+  "headline": "Healthy operational performance; outlook strong",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261107101956_Cera-Sanitaryware-_06112026_ICICI-Secruties.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 7578,
+    "cmp": 4802,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Management stated that retail segment’s demand improved, while the project segment remained healthy.",
+      "CRS has maintained its revenue growth guidance of 18–20% and 13–14% OPM for FY27.",
+      "We expect CRS to continue reporting strong revenue growth due to volume traction and partly due to price hikes.",
+      "OPM is expected to improve as RM inflation is passed on and price hikes in OEMs (~40% of revenues) possibly start from Q3."
+    ],
+    "valuation": [
+      "Source: SES ESG, I-sec research Earnings Revisions (%) FY27E FY28E Revenue 3.2 3.2 EBITDA 0.0 0.1 EPS 0.0 0.0 Previous Reports 25-09-2026: Company Update 08-08-2026: Q1FY27 results review Cera Sanitaryware | Results Update | 06 November 2026 India | Institutional Equity Research 2 Valuation and view CRS’ Q2FY27 revenue and profitability has been higher our estimates.",
+      "Maintain BUY due to reasonable valuations and an improving outlook on operational performance, with an unchanged Sep’27E TP of INR 7,578, set at an unchanged one-year forward PER of 32x (a ~15% discount to its 10-year average 1-year forward PER).",
+      "Exhibit 6: 1-year forward P/E band Source: I-Sec research, Bloomberg Key downside risks • Any unexpected slowdown in the housing market would adversely affect business. • Higher raw material prices may adversely affect profitability and demand."
+    ],
+    "watch": [
+      "OPM dipped 203bps YoY to 12.2% (+202bps QoQ) due to RM headwinds.",
+      "Maintain BUY due to reasonable valuations and an improving outlook on operational performance, with an unchanged Sep’27E TP of INR 7,578, set at an unchanged one-year forward PER of 32x (a ~15% discount to its 10-year average 1-year forward PER)."
+    ]
+  },
+  "blurb": "Management stated that retail segment’s demand improved, while the project segment remained healthy.",
+  "fetchedAt": "2026-11-18T15:52:16.170Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "34240ef57e0b",
+  "date": "2026-11-05",
+  "broker": "ICICI Securities",
+  "company": "Apollo Tyres",
+  "headline": "Commodity inflation persists; EU restructuring to drive profitability ahead",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261107101814_Apollo-Tyres-_06112026_ICICI-Seurities.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 500,
+    "cmp": 419,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Current demand momentum remains healthy in India biz., though we expect growth to moderate during H2 given a high base and steep price hike(s).",
+      "We cut our FY27E margin by 40bps but maintain it for FY28–29.",
+      "Q2FY27: Revenue in line, margins below estimate APTY reported standalone revenue of INR 59.2bn (+26% YoY/+8% QoQ), 4% above our estimate.",
+      "Standalone EBITDAM stood at 11.1% (-420bps YoY/ -90bps QoQ), broadly in line with our estimate."
+    ],
+    "valuation": [
+      "The company took 11–13% price hike in H1 to partially mitigate the impact of RM inflation and it intends to take multiple price hikes in the near term.",
+      "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+    ],
+    "watch": [
+      "Demand outlook for India and the EU India business: Segment-wise growth — OE/ replacement/exports grew by 25%/ low double-digit/ flattish YoY, respectively.",
+      "The recipient should independently evaluate the investment risks."
+    ]
+  },
+  "blurb": "Current demand momentum remains healthy in India biz., though we expect growth to moderate during H2 given a high base and steep price hike(s).",
+  "fetchedAt": "2026-11-18T15:52:39.210Z"
+}

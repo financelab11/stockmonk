@@ -1,0 +1,34 @@
+{
+  "id": "cde7629af745",
+  "date": "2026-11-11",
+  "broker": "Prabhudas Lilladher",
+  "company": "Laxmi Organic Industries",
+  "headline": "Higher volumes and realizations drive growth",
+  "link": "https://plindia.com/ResReport/LXCHEM-6-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "REDUCE"
+  },
+  "summary": {
+    "highlights": [
+      "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating REDUCE REDUCE Target Price 150 177 Sales (INR mn) 41,127 43,748 39,625 42,650 % Chng. 3.8 2.6 EBITDA (INR mn) 3,777 4,095 3,722 4,058 % Chng. 1.5 0.9 EPS (INR) 6.7 7.4 6.8 7.5 % Chng.",
+      "The Essentials segment contributed 77% to revenue and grew 61% YoY, with EBITDAM expanding 800bps YoY, supported by strong double-digit volume growth and improved spreads.",
+      "The Specialty Chemicals segment reported 36% YoY revenue growth, while EBITDAM expanded to 220bps YoY but declined 280bps QoQ due to delayed cost pass-through under long-term customer contracts.",
+      "Management indicated that higher input costs could not be immediately passed on to contract customers."
+    ],
+    "valuation": [
+      "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating REDUCE REDUCE Target Price 150 177 Sales (INR mn) 41,127 43,748 39,625 42,650 % Chng. 3.8 2.6 EBITDA (INR mn) 3,777 4,095 3,722 4,058 % Chng. 1.5 0.9 EPS (INR) 6.7 7.4 6.8 7.5 % Chng.",
+      "We value the company at INR150/share based on our SOTP valuation and maintain our 'Reduce' rating.",
+      "(10) Hitachi project commissioning is targeted for Q3FY27, followed by sampling and customer qualification, with revenue expected from FY28."
+    ],
+    "watch": [
+      "(1.5) (1.3) Key Data LAXR.BO | LXCHEM IN BSE Code 543277 NSE Code LXCHEM 52-W High / Low INR 203 / INR 107 Face Value 2 Sensex / Nifty 81,028 / 25,030 Market Cap INR 45 bn / $ 483 mn Shares Outstanding 277.91 mn 3M Avg."
+    ]
+  },
+  "blurb": "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating REDUCE REDUCE Target Price 150 177 Sales (INR mn) 41,127 43,748 39,625 42,650 % Chng. 3.8 2.6 EBITDA (INR mn) 3,777 4,095 3,722 4,058 % Chng. 1.5 0.9 EP",
+  "fetchedAt": "2026-11-18T15:51:19.098Z"
+}

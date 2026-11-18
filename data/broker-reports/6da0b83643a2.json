@@ -1,0 +1,35 @@
+{
+  "id": "6da0b83643a2",
+  "date": "2026-11-16",
+  "broker": "ICICI Securities",
+  "company": "Eicher Motors",
+  "headline": "Q2FY27 Result Update",
+  "link": "https://mailcontent.icicidirect.com/mailcontent/idirect_eichermotors_q2fy27.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 7650,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "On consolidated basis, total Op. income for the quarter came in at ₹7,422 crore (up ~20% YoY) amid healthy Royal Enfield sales volume at ~3.8 lakh units (up ~16% YoY).",
+      "EBITDA in Q2FY27 came in at ₹1,760 crore with corresponding EBITDA margins at 23.7% (down ~30 bps QoQ).",
+      "Resultant PAT for the quarter stood at ₹1,573 crore (up ~15% YoY).",
+      "Share of profits from the VECV arm stood at ₹186 crore with EBITDA margins at 7.8%."
+    ],
+    "valuation": [
+      "Rating and Target Price • With demand visibility, manufacturing expansion, premiumisation and international opportunities supporting its medium- to long-term business prospects along with a strong growth outlook for VECV arm, we maintain BUY rating on the stock.",
+      "ICICI Direct assigns ratings to its stocks according to their notional target price vs. current market price and then categorizes them as Buy, Hold, Reduce and Sell.",
+      "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Institutional Research."
+    ],
+    "watch": [
+      "Investment Rationale: • Structural premiumization trend support demand outlook : Royal Enfield remains well positioned to benefit from the structural premiumisation of the Indian 2W industry.",
+      "Rating and Target Price • With demand visibility, manufacturing expansion, premiumisation and international opportunities supporting its medium- to long-term business prospects along with a strong growth outlook for VECV arm, we maintain BUY rating on the stock."
+    ]
+  },
+  "blurb": "On consolidated basis, total Op. income for the quarter came in at ₹7,422 crore (up ~20% YoY) amid healthy Royal Enfield sales volume at ~3.8 lakh units (up ~16% YoY).",
+  "fetchedAt": "2026-11-18T15:49:59.986Z"
+}

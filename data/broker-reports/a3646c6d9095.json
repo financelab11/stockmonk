@@ -1,0 +1,34 @@
+{
+  "id": "a3646c6d9095",
+  "date": "2026-11-05",
+  "broker": "Arihant Capital",
+  "company": "Campus Activewear",
+  "headline": "Q2FY27 Result Update",
+  "link": "https://arihantresearch.arihantcapital.com/Mumbai_Research/Campus_Activewear_Q2FY27_Result_Update.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": 252,
+    "cmp": 200,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Gross margin contracted 246bps YoY to 50.9% as raw-material inflation ran ahead of calibrated price hikes.",
+      "Operating leverage on employee and other costs cushioned the hit, taking EBITDA up 13.9% YoY to INR 568 Mn at a 12.6% margin (–34bps YoY); incl. other income, EBITDA grew 12.5% at a 13.5% margin.",
+      "Lower finance cost lifted PAT 21.3% YoY to INR 243 Mn (margin 5.4%).",
+      "Demand Outlook & Guidance: The company reiterated mid-teens revenue growth for FY27 (H1: +14.7%), with trade distribution sustaining 15%."
+    ],
+    "valuation": [
+      "Outlook and Valuation: Campus delivered H1FY27 revenue growth of 14.7%, driven by 11% volume growth and a 6% ASP uplift.",
+      "We value Campus at 35x FY28E EPS, arriving at a revised target price of INR 252, implying 26% upside; we maintain our BUY rating."
+    ],
+    "watch": [
+      "Demand Outlook & Guidance: The company reiterated mid-teens revenue growth for FY27 (H1: +14.7%), with trade distribution sustaining 15%.",
+      "Outlook and Valuation: Campus delivered H1FY27 revenue growth of 14.7%, driven by 11% volume growth and a 6% ASP uplift."
+    ]
+  },
+  "blurb": "Gross margin contracted 246bps YoY to 50.9% as raw-material inflation ran ahead of calibrated price hikes.",
+  "fetchedAt": "2026-11-18T15:52:42.403Z"
+}

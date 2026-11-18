@@ -1,0 +1,35 @@
+{
+  "id": "e7f5470e378a",
+  "date": "2026-11-16",
+  "broker": "ICICI Securities",
+  "company": "L&T Finance",
+  "headline": "Result Update",
+  "link": "https://mailcontent.icicidirect.com/mailcontent/idirect_ltf_shubhnivesh_nov26.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 276,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "Investment Rationale: • Diversified retail franchise to sustain healthy growth : LTF’s diversified retail franchise continues to support healthy business momentum, with moderation in rural disbursement amid uneven monsoons being offset by traction across Urban, SME and Gold Finance.",
+      "Accelerated expansion in Gold Finance through branch additions, normalisation in PL post implementation of Cyclops and calibrated pick-up in rural businesses should provide incremental growth levers.",
+      "Focus on prime customers, coupled with disciplined guardrails across businesses, should enable risk-calibrated growth while maintaining portfolio quality.",
+      "We expect ~24% CAGR in AUM over FY26-28E. • Resilient margins to support earnings trajectory : Despite shift towards prime customers, NIM + fee income remained resilient at 10.48%, aided by liability management resulting in cost of borrowing declining below 7%."
+    ],
+    "valuation": [
+      "Rating and Target Price : Diversified growth opportunities across retail businesses, coupled with calibrated recovery in rural lending and continued focus on prime customers, should support healthy AUM growth.",
+      "We assign a target price of ₹325, valuing LTF at ~2.3x FY28E BV, and recommend BUY rating.",
+      "ICICI Direct assigns ratings to its stocks according to their notional target price vs. current market price and then categorizes them as Buy, Hold, Reduce and Sell."
+    ],
+    "watch": [
+      "Focus on prime customers, coupled with disciplined guardrails across businesses, should enable risk-calibrated growth while maintaining portfolio quality.",
+      "However, exposure to drought-affected regions at ~3% of the rural book remains a monitorable, as potential El Niño-led stress could delay credit cost normalisation and moderate the pace of RoA improvement."
+    ]
+  },
+  "blurb": "Investment Rationale: • Diversified retail franchise to sustain healthy growth : LTF’s diversified retail franchise continues to support healthy business momentum, with moderation in rural disbursement amid uneven monsoo",
+  "fetchedAt": "2026-11-18T15:50:06.123Z"
+}

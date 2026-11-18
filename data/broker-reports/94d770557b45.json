@@ -1,0 +1,35 @@
+{
+  "id": "94d770557b45",
+  "date": "2026-11-08",
+  "broker": "Nirmal Bang",
+  "company": "MphasiS",
+  "headline": "Strong Pipeline Drives Growth Outlook",
+  "link": "https://www.nirmalbang.com/Upload/Mphasis--2QFY27-Result-Update--08-November-2026.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "HOLD"
+  },
+  "summary": {
+    "highlights": [
+      "Revenue grew 3.3% QoQ and 9.7% YoY in CC terms, reflecting broad-based growth across verticals and geographies.",
+      "Management highlighted healthy deal ramp-ups, improving revenue conversion, and a record-high pipeline; it also upgraded FY27 revenue growth guidance to the low double-digit range from high-single- digit to low double-digit earlier.  EBIT margin stood at 14.8%, flat QoQ and down by 50bps YoY, missing Consensus and NBIE estimates by 40bps and 20bps, respectively.",
+      "Margins were impacted by amortisation costs related to the TAP acquisition; higher onsite mix in initial phases of AI-led engagements; and continued investments in Tria, IP development, and delivery capabilities.",
+      "Management reiterated its preference to prioritise growth over margin optimisation, while maintaining FY27 EBIT margin guidance of 14.75–15.75%."
+    ],
+    "valuation": [
+      "Valuation and outlook: Mphasis delivered a strong sequential CC revenue growth in Q2FY27, supported by healthy deal conversion, ramp-up of large deal wins, and broad-based demand across key verticals.",
+      "We reiterate our ‘HOLD’ rating on Mphasis, the valuation is based on an unchanged multiple of 18x on blended EPS of Rs134, translating into a TP of Rs2,412.",
+      "CMP: Rs2,520 | Target Price (TP): Rs2,412 | Downside: 4.3% November 08, 2026 Institutional Equities Mphasis Ltd."
+    ],
+    "watch": [
+      "Valuation and outlook: Mphasis delivered a strong sequential CC revenue growth in Q2FY27, supported by healthy deal conversion, ramp-up of large deal wins, and broad-based demand across key verticals.",
+      "Growth was supported by Tria-led optimisation programmes across underwriting, claims, and risk operations.  TMT grew strongly by 10.9% QoQ and 14.5% YoY in direct business, driven by ramp-ups in new deal wins."
+    ]
+  },
+  "blurb": "Revenue grew 3.3% QoQ and 9.7% YoY in CC terms, reflecting broad-based growth across verticals and geographies.",
+  "fetchedAt": "2026-11-18T15:52:02.132Z"
+}

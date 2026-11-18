@@ -1,0 +1,35 @@
+{
+  "id": "fda0f224f151",
+  "date": "2026-11-04",
+  "broker": "ICICI Securities",
+  "company": "Eureka Forbes",
+  "headline": "Continues to gain market share in water purifiers",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261104150921_Eureka-Forbes_04112026_ICICI-Securities.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 444,
+    "cmp": 342,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "We note: (1) It has stepped up investments in ad-spends to strengthen its competitive positioning and accelerate growth across key categories.",
+      "Despite these investments, EBITDA margin expanded 29bps YoY to 12.9%, marking its highest-ever quarterly margin.",
+      "(2) Water purifier growth remains volume-led, supported by market share gains, while robotic vacuum cleaners, water softeners and air purifiers continued to scale up.",
+      "(3) Despite higher competitive intensity in water purifiers, management remains confident of its ability to sustain market share gains, supported by a comprehensive product portfolio."
+    ],
+    "valuation": [
+      "Maintain BUY with a DCF-based revised TP of INR 444 (earlier 600) implied P/E at 31x FY28E EPS.",
+      "Maintain BUY with a DCF-based revised TP of INR 444 (earlier 600) (implied target P/E at 31x FY28E EPS).",
+      "The full impact of the price increase is expected to be visible in Q4FY27. • Management expects margins to recover in Q4FY27 and target broadly flat adjusted EBITDA margins for FY27. • A&SP investments increased during H1FY27."
+    ],
+    "watch": [
+      "We note: (1) It has stepped up investments in ad-spends to strengthen its competitive positioning and accelerate growth across key categories.",
+      "It launched an industry-first four-year filter-life product, along with earlier two-year filter life product, to address concerns related to maintenance costs and ownership costs."
+    ]
+  },
+  "blurb": "We note: (1) It has stepped up investments in ad-spends to strengthen its competitive positioning and accelerate growth across key categories.",
+  "fetchedAt": "2026-11-18T15:53:06.181Z"
+}

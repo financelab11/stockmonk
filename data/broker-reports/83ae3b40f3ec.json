@@ -1,0 +1,35 @@
+{
+  "id": "83ae3b40f3ec",
+  "date": "2026-11-06",
+  "broker": "ICICI Securities",
+  "company": "Apollo Hospitals Enterprises",
+  "headline": "Steady traction in hospitals; Healthco profitability may peak out",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261107101702_Apollo-Hospitals-Enterprise_06112026_ICICI-Seurities.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 8500,
+    "cmp": 8371,
+    "upside": null,
+    "recommendation": "HOLD"
+  },
+  "summary": {
+    "highlights": [
+      "Hospital business grew 23% YoY, led by 19% growth in established hospitals.",
+      "An INR 348mn EBITDA loss at its new hospitals dragged overall hospital margins by 60bps YoY to 24%, while EBITDA margins of established hospitals stood at 25.8%.",
+      "Online pharmacy, 24/7, turned cash EBITDA-positive; the focus ahead is on boosting order inflow, efficiencies and cost discipline.",
+      "Keimed) to touch ~6% by Q4FY27 (earlier guidance of 6.5– 7%)."
+    ],
+    "valuation": [
+      "The stock currently trades at an EV/EBITDA of 27.4x FY27E and 23.1x FY28E.",
+      "We value the hospital business at 25x FY28E EV/EBITDA, offline pharmacy at 21x FY28E EV/EBITDA, online pharmacy at 2x FY28E EV/sales, Keimed at 15x FY28E EV/EBITDA and AHLL at 12x FY28E EV/EBITDA (maintained for all segments).",
+      "Upside risks: Faster turnaround in profitability of 24/7; and higher-than-anticipated improvement in occupancy of hospitals."
+    ],
+    "watch": [
+      "Downside risks: Higher competition in pharmacy business; and slower occupancy ramp-up at new hospitals.",
+      "Upside risks: Faster turnaround in profitability of 24/7; and higher-than-anticipated improvement in occupancy of hospitals."
+    ]
+  },
+  "blurb": "Hospital business grew 23% YoY, led by 19% growth in established hospitals.",
+  "fetchedAt": "2026-11-18T15:52:10.423Z"
+}

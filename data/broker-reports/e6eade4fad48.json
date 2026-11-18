@@ -1,0 +1,33 @@
+{
+  "id": "e6eade4fad48",
+  "date": "2026-11-16",
+  "broker": "Way2Wealth",
+  "company": "Hindustan Unilever",
+  "headline": "Result Update",
+  "link": "https://www.way2wealth.com/Reports/RR161120265f01a.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "(HUL) Important Data • The company reported 15% YoY growth in revenue to 18,071crs, the highest in the last 14 quarters.",
+      "Underlying Volume Growth remained strong at 7%, underpinned by disciplined execution and ongoing portfolio transformation. • Performance was broad-based across segments, with Home Care and Beauty & Wellbeing delivering strong double-digit USG driven by strong double-digit UVG.",
+      "Personal Care and Foods also saw a sequential step up, delivering 9% USG each. • EBITDA grew 8% YoY to ₹ 4,089crs.",
+      "High raw material costs and ongoing commodity inflation squeezed the EBITDA margin by 130 basis points year on year to 22.5% (within guided range), despite reduced ad spending."
+    ],
+    "valuation": [
+      "Valuation & Outlook Concall highlights 16 November 2026 CMP*: ₹1,998/- Sector – FMCG Hindustan Unilever Ltd."
+    ],
+    "watch": [
+      "The B&W segment remains a key growth driver from its accelerating investments, as company will also continue to focus on scaling up new categories within this segment.",
+      "HUL’s leadership in its key categories, wide distribution and recovering volumes leave it well placed to benefit as consumer demand improves."
+    ]
+  },
+  "blurb": "(HUL) Important Data • The company reported 15% YoY growth in revenue to 18,071crs, the highest in the last 14 quarters.",
+  "fetchedAt": "2026-11-18T15:50:04.306Z"
+}

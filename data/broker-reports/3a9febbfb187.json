@@ -1,0 +1,35 @@
+{
+  "id": "3a9febbfb187",
+  "date": "2026-11-11",
+  "broker": "ICICI Securities",
+  "company": "Abbott India",
+  "headline": "Q2FY27 Result Update",
+  "link": "https://mailcontent.icicidirect.com/mailcontent/idirect_abbott_q2fy27.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 26520,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "Result Performance & Investment Rationale : • Q 2FY27 – Steady growth driven by legacy and new power brands ; Margins firm : Abbott Q2FY27 revenues grew 11% YoY to ₹ 1951 crore.",
+      "As per IQVIA, some of the power brands such as Udiliv (GI), Ryzodeg (Insulin), Influvac (vaccine), Cremaffin Plus (GI) showed a decent growth while growth of Thyronorm (Hormonal) moderated and marketed brand of Novo Nordisk Rybelsus (Semaglutide); and other brands such as Mixtard (Insulin) and Novomix (Anti-Diabetic) registered de-growth during the quarter.",
+      "EBITDA grew ~13% YoY to ₹ 568 crore with EBITDA margins expanding ~53 bps YoY to 29.1%.",
+      "PAT grew 9% YoY to ~₹ 453.5 crore. • Calibrated approach to target market linked growth - Given the IQVIA growth of ~12% for September quarter, the reported growth was in line with the IQVIA compilation."
+    ],
+    "valuation": [
+      "PAT grew 9% YoY to ~₹ 453.5 crore. • Calibrated approach to target market linked growth - Given the IQVIA growth of ~12% for September quarter, the reported growth was in line with the IQVIA compilation.",
+      "The company continues to focus on emerging therapeutic areas with significant unmet needs and is evolving its go-to-market approach to reflect changing healthcare delivery models and strengthening its presence across institutional channels, corporate hospitals, and specialty networks, supported by targeted capability building and more precise, market specific execution.",
+      "Rating and Target Price : • Our target price is ₹ 32810 based on 36x FY28E EPS of ₹ 911.3."
+    ],
+    "watch": [
+      "Investments in securities market are subject to market risks.",
+      "None of the research recommendations promise or guarantee any assured, minimum or risk - free retur n to the investors."
+    ]
+  },
+  "blurb": "Result Performance & Investment Rationale : • Q 2FY27 – Steady growth driven by legacy and new power brands ; Margins firm : Abbott Q2FY27 revenues grew 11% YoY to ₹ 1951 crore.",
+  "fetchedAt": "2026-11-18T15:51:08.625Z"
+}

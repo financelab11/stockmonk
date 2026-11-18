@@ -12,6 +12,8 @@ const TAG_CLASS: Record<NewsItem["tag"], string> = {
   "Analysis": "chip",
   "Why It Moves": "chip chip-caution",
   "Macro News": "chip chip-info",
+  "Broker Note": "chip chip-info",
+  "Deep-Dive": "chip chip-positive",
 };
 
 export function NewsCard({
@@ -49,14 +51,20 @@ export function NewsCard({
             {item.summary}
           </p>
           <div className="mt-3 flex flex-wrap items-center gap-3 text-[11px] text-muted">
-            <a
-              href={`/stocks/${item.ticker}`}
-              className="font-mono font-semibold text-ink hover:text-brand"
-            >
-              {item.ticker}
-            </a>
-            <span className="tabular">{formatCurrency(item.price)}</span>
-            <PriceChange value={item.changePct} className="text-[11px]" />
+            {item.ticker ? (
+              <>
+                <a
+                  href={`/stocks/${item.ticker}`}
+                  className="font-mono font-semibold text-ink hover:text-brand"
+                >
+                  {item.ticker}
+                </a>
+                <span className="tabular">{formatCurrency(item.price)}</span>
+                <PriceChange value={item.changePct} className="text-[11px]" />
+              </>
+            ) : (
+              <span className="font-semibold text-ink-soft">{item.source ?? item.name}</span>
+            )}
             <a
               href={item.href}
               className="ml-auto inline-flex items-center gap-1 font-semibold text-brand hover:text-brand-deep"

@@ -1,0 +1,35 @@
+{
+  "id": "3dbeddddee0f",
+  "date": "2026-11-12",
+  "broker": "Motilal Oswal",
+  "company": "GNG Electronics",
+  "headline": "Correction overlooks structural earnings drivers",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261113065649_GNG-Electronics-1311026-moti.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 840,
+    "cmp": 572,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "Per (%) -31/24/71 12M Avg Val (INR M) 326 Financials & Valuations Consol (INR b) Y/E March FY27E FY28E FY29E Sales 26.2 35.0 45.4 EBITDA 3.3 4.7 6.2 Adj.",
+      "Volume-led distribution build-out extends growth beyond the memory cycle  The memory shortage has lifted mainstream laptop prices in India by ~80% YoY to INR65-72k.",
+      "GNG has prioritized volume over pricing, raising ASPs only ~10% and maintaining refurbished laptop prices at ~30-35% of new- device prices, maintaining the affordability advantage.  GNG has expanded to 55 countries (vs. 38 as of FY25 end), 5,542 channel touchpoints (vs. 4,154) and 820 procurement partners (vs. 557).",
+      "Ranked 3rd and 4th in the Onshore Broker and Local Broker categories, respectively GNG Electronics 12 November 2026 2 Brand-led pricing power supports structurally higher gross margins  GNG’s gross margin expanded 440bp YoY to 24.9% in 1HFY27, with 125–150bp attributable to lower-cost inventory."
+    ],
+    "valuation": [
+      "Per (%) -31/24/71 12M Avg Val (INR M) 326 Financials & Valuations Consol (INR b) Y/E March FY27E FY28E FY29E Sales 26.2 35.0 45.4 EBITDA 3.3 4.7 6.2 Adj.",
+      "With the price peg at ~30-35% vs. the 40-45% target, further pricing gains should sustain margins.  GNG is the only scaled player selling refurbished devices under its own brand, backed by 1-3-year warranties.",
+      "Valuation and view  GNG’s sourcing relationships with enterprises, leasing companies and ITAD firms provide access to large device lots, while its integrated procurement-to- distribution model ensures quality control, faster turnaround and consistent supply."
+    ],
+    "watch": [
+      "Memory prices to remain high in 2028, sustaining refurbished PC demand  The post-election selloff in the US reflects concerns over future AI infrastructure spending, not easing memory supply.",
+      "Each recipient of this document should make such investigations as it deems necessary to arrive at an independent evaluation of an investment in the securities of companies referred to in this document (including the merits and risks involved), and should consult its own advisors to determine the merits and risks of such an investment."
+    ]
+  },
+  "blurb": "Per (%) -31/24/71 12M Avg Val (INR M) 326 Financials & Valuations Consol (INR b) Y/E March FY27E FY28E FY29E Sales 26.2 35.0 45.4 EBITDA 3.3 4.7 6.2 Adj.",
+  "fetchedAt": "2026-11-18T15:51:01.988Z"
+}

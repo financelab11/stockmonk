@@ -1,0 +1,35 @@
+{
+  "id": "3ceba0566d4b",
+  "date": "2026-11-10",
+  "broker": "Ventura Securities",
+  "company": "Va Tech Wabag",
+  "headline": "Q2FY27 Result Update",
+  "link": "https://ventura1.com/calltracking/TechnicalCalls/quaterly/639299159493047536_Va%20Tech%20wabag%20Q2FY27%20Result%20update.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 2021,
+    "upside": 39,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "H1 FY27 revenue increased 20.3% YoY to INR 1,887 cr, with international operations contributing approximately 54% of revenue.",
+      "Profitability remained healthy, with Q2 EBITDA increasing 20% YoY to INR 145 cr, translating into a margin of 14.5%.",
+      "For H1 FY27, EBITDA rose 20.7% YoY to INR 261 cr, with a margin of 13.8%, while PAT increased 29.3% YoY to INR 195 cr.",
+      "The order book reached INR 20,207 cr, providing visibility of over four times annual revenue, while H1 order intake stood at approximately INR 5,200 cr."
+    ],
+    "valuation": [
+      "O&M contributed approximately 18% of revenue against a medium-term target of 20%.",
+      "Management continues to target a 20% revenue contribution, with completed EPC projects progressively moving into their operating phase. 5.",
+      "Key projects advance towards commissioning: Al Haer STP commissioning is targeted for Q4FY27, while Perur desalination construction and mechanical erection continue to progress."
+    ],
+    "watch": [
+      "Key wins included the Kuwait desalination project and Reliance Industries’ desalination and remineralisation plants at Jamnagar, alongside projects in the UAE, Europe and domestic municipal markets.",
+      "Management reiterated its medium-term outlook of 15–20% revenue CAGR and 13–15% EBITDA margins, supported by technology-led projects, international execution and recurring O&M revenues."
+    ]
+  },
+  "blurb": "H1 FY27 revenue increased 20.3% YoY to INR 1,887 cr, with international operations contributing approximately 54% of revenue.",
+  "fetchedAt": "2026-11-18T15:51:31.480Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "63bc0e07c5d9",
+  "date": "2026-11-09",
+  "broker": "Prabhudas Lilladher",
+  "company": "Paradeep Phosphates",
+  "headline": "Full backward integration by FY29",
+  "link": "https://plindia.com/ResReport/PARADEEP-3-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "ACCUMULATE"
+  },
+  "summary": {
+    "highlights": [
+      "(%) 50.6 (6.8) 17.9 33.7 DPS (INR) 1.0 0.9 1.1 1.4 Yield (%) 0.7 0.7 0.8 1.1 RoE (%) 15.9 12.2 12.7 14.8 RoCE (%) 13.9 12.3 13.1 15.2 EV/Sales (x) 0.9 0.7 0.7 0.7 EV/EBITDA (x) 9.5 9.4 8.5 6.7 PE (x) 13.9 15.0 12.7 9.5 P/BV (x) 2.0 1.8 1.6 1.4 Full backward integration by FY29 Result Report Paradeep Phosphates (PPL) reported consolidated revenue of INR73.6bn and EBITDA of INR4.1bn in Q2FY27.",
+      "Sales volumes declined 25% YoY to 1mn tn, impacted by below- normal monsoon conditions.",
+      "EBITDA/tn stood at ~INR4,075, compared with INR7,311 in Q1FY27 and INR4,846 in Q2FY26, reflecting elevated sulphur and other raw material costs, along with supply-side constraints.",
+      "Management indicated that raw material prices, particularly Sulphur, have started softening, while phosphoric acid prices remained unchanged for Q3FY27."
+    ],
+    "valuation": [
+      "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating ACCUMULATE ACCUMULATE Target Price 148 173 Sales (INR mn) 272,532 275,680 275,452 280,252 % Chng.",
+      "(%) 50.6 (6.8) 17.9 33.7 DPS (INR) 1.0 0.9 1.1 1.4 Yield (%) 0.7 0.7 0.8 1.1 RoE (%) 15.9 12.2 12.7 14.8 RoCE (%) 13.9 12.3 13.1 15.2 EV/Sales (x) 0.9 0.7 0.7 0.7 EV/EBITDA (x) 9.5 9.4 8.5 6.7 PE (x) 13.9 15.0 12.7 9.5 P/BV (x) 2.0 1.8 1.6 1.4 Full backward integration by FY29 Result Report Paradeep Phosphates (PPL) reported consolidated revenue of INR73.6bn and EBITDA of INR4.1bn in Q2FY27.",
+      "We value the company at 12x Sep'28 EPS, implying a target price of INR148, and maintain our 'Accumulate' rating."
+    ],
+    "watch": [
+      "(7.1) (19.9) Key Data PRAO.BO | PARADEEP IN BSE Code 543530 NSE Code PARADEEP 52-W High / Low INR 180 / INR 99 Face Value 10 Sensex / Nifty 76,918 / 23,811 Market Cap INR 139 bn / $ 1,467 mn Shares Outstanding 1038.52 mn 3M Avg.",
+      "However, the delay in the Rabi NBS subsidy notification and continued raw material price volatility remain key near-term monitorable."
+    ]
+  },
+  "blurb": "(%) 50.6 (6.8) 17.9 33.7 DPS (INR) 1.0 0.9 1.1 1.4 Yield (%) 0.7 0.7 0.8 1.1 RoE (%) 15.9 12.2 12.7 14.8 RoCE (%) 13.9 12.3 13.1 15.2 EV/Sales (x) 0.9 0.7 0.7 0.7 EV/EBITDA (x) 9.5 9.4 8.5 6.7 PE (x) 13.9 15.0 12.7 9.5 P",
+  "fetchedAt": "2026-11-18T15:51:49.873Z"
+}

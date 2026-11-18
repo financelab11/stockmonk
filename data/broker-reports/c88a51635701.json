@@ -1,0 +1,35 @@
+{
+  "id": "c88a51635701",
+  "date": "2026-11-13",
+  "broker": "Axis Direct",
+  "company": "Daily Fundamental View:November 13, 2026",
+  "headline": "Daily Fundamental View:November 13, 2026",
+  "link": "https://simplehai.axisdirect.in/app/index.php/insights/reports/downloadReport/file/Morning+note+and+CA+13+November+2026_13-11-2026_08.pdf/type/fundamental",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 74,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Key Takeaways • Priorities on Interim MD CEO: Management highlighted that business operations remain stable, supported by an experienced leadership team, robust operational controls and governance processes.",
+      "Key selection criteria include a proven track record, quality and depth of experience, growth leadership, alignment with EQSFB’s existing strategy and the ability to build a robust leadership pipeline.",
+      "Subject to timely RBI approval, management expects the selection process to be completed within approximately 4 months. • Business Continuity Ensured: Management reiterated that lending and deposit growth, including CASA and disbursement momentum, remain on track, with any potential deviations largely attributable to macroeconomic factors.",
+      "Management has also identified cost-saving initiatives to improve operational efficiency."
+    ],
+    "valuation": [
+      "Outlook and Valuation The interim MD & CEO’s focus on maintaining business continuity and delivering on the existing business plan should help mitigate near-term execution risks.",
+      "We continue to maintain our BUY recommendation on the stock with a target price of Rs 74/share, implying an upside of 28% from the CMP.",
+      "We value EQSFB at 1.0x Sep’28E ABV vs its current valuation of 0.8x Sep’28E ABV."
+    ],
+    "watch": [
+      "Key Takeaways • Priorities on Interim MD CEO: Management highlighted that business operations remain stable, supported by an experienced leadership team, robust operational controls and governance processes.",
+      "Key selection criteria include a proven track record, quality and depth of experience, growth leadership, alignment with EQSFB’s existing strategy and the ability to build a robust leadership pipeline."
+    ]
+  },
+  "blurb": "Key Takeaways • Priorities on Interim MD CEO: Management highlighted that business operations remain stable, supported by an experienced leadership team, robust operational controls and governance processes.",
+  "fetchedAt": "2026-11-18T15:50:45.331Z"
+}

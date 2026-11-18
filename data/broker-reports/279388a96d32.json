@@ -1,0 +1,31 @@
+{
+  "id": "279388a96d32",
+  "date": "2026-11-05",
+  "broker": "Ventura Securities",
+  "company": "ITC",
+  "headline": "Q2FY27 Result Update",
+  "link": "https://ventura1.com/calltracking/TechnicalCalls/quaterly/639294771499012630_ITC%20ltd%20Q2FY27%20result%20update.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 280,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "Revenue after deducting excise increased 3.9% to INR 20,269 cr.",
+      "Consolidated profit before exceptional items and tax declined 17% to INR 5,720 cr, while total PAT fell 18.5% to INR 4,229 cr.",
+      "Strong non-cigarette growth partly offset pressure on cigarette profitability.",
+      "Management focused on new variants, portfolio interventions and protecting its consumer franchise against illicit trade.  FMCG–Others: Revenue increased 19.1% YoY to INR 7,218 cr, while segment profit rose 31.4% to INR 577 cr."
+    ],
+    "valuation": [],
+    "watch": [
+      "Operational performance across key business segments was as follows, with financial figures on a consolidated basis:  Cigarettes: Segment profit declined 26% YoY to INR 4,044 cr, although performance improved sequentially.",
+      "Outlook and Strategy for FY27: Management prioritised protecting the cigarette consumer franchise through calibrated portfolio actions and new variants amid higher taxes and illicit-trade risks."
+    ]
+  },
+  "blurb": "Revenue after deducting excise increased 3.9% to INR 20,269 cr.",
+  "fetchedAt": "2026-11-18T15:52:49.850Z"
+}

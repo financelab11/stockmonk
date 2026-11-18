@@ -1,0 +1,34 @@
+{
+  "id": "6964c4061b04",
+  "date": "2026-11-06",
+  "broker": "ICICI Securities",
+  "company": "Blue Jet Healthcare",
+  "headline": "Contrast media and pharma intermediate segment recovering",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261107101940_Blue-Jet-Healthcare-_06112026_ICICI-Secruties.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 665,
+    "cmp": 576,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "This is in line with the company’s guidance of a strong outlook for FY27 for its two critical segments – contrast media and pharma intermediate.",
+      "We note the PI segment, particularly, could experience volatile quarters, depending upon supplies to innovators.",
+      "Even so, we believe revenue momentum could sustain for H2FY27 as well.",
+      "BlueJet has seen margin pressure from sharp rises in prices for ancillary chemicals such as reagents and solvents, which are not part of its pass-through mechanism; the company is making efforts to raise prices for select products and customers."
+    ],
+    "valuation": [
+      "Upside risks: Faster-than-expected ramp-up of new products with higher margins, and more long-term contracts that improve the outlook and re-rate valuations.",
+      "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+    ],
+    "watch": [
+      "This is in line with the company’s guidance of a strong outlook for FY27 for its two critical segments – contrast media and pharma intermediate.",
+      "Contrast media segment saw volume offtake in key molecules, and ramp-up in newer NCE molecule."
+    ]
+  },
+  "blurb": "This is in line with the company’s guidance of a strong outlook for FY27 for its two critical segments – contrast media and pharma intermediate.",
+  "fetchedAt": "2026-11-18T15:52:14.211Z"
+}

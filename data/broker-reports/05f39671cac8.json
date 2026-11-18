@@ -1,0 +1,33 @@
+{
+  "id": "05f39671cac8",
+  "date": "2026-11-13",
+  "broker": "IDBI Capital",
+  "company": "IRCTC",
+  "headline": "Q2FY27 Result Review",
+  "link": "https://www.idbidirect.in/IDBIAdmin/Pdf/IRCTC_RR_13112026-13-November-2026-783213339.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": 550,
+    "cmp": 471,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Catering segment profit therefore slipped ~4% despite the sales boom, while internet ticketing that earns ~80% of segment profit at a ~84% margin, grew just 1%YoY (revenue INR ~3.9bn, profit INR ~3.3bn).",
+      "Tourism was the bright spot, with revenue up 28% and profit up ~32%.",
+      "The headline damage came from a one- off INR 1.16bn Rail Neer provision (GSTAT anti-profiteering order) that pulled PAT down 23% to INR 2.64bn and EPS to INR 3.29 from INR 4.28.",
+      "Sequentially it is better than it looks as EBITDA rose 5.5% QoQ and margin recovered 237bps from 28.2%."
+    ],
+    "valuation": [
+      "TP Rs 550 CMP Rs 471 Potential upside/downside 17% Previous Rating BUY Key Stock Data Bloomberg / Reuters IRCTC IN /INIR.BO Sector MISC."
+    ],
+    "watch": [
+      "The risks are a material rise in receivables since March, a fall in H1 operating cash flow and INR 204mn of disputed ITC claims.",
+      "TP Rs 550 CMP Rs 471 Potential upside/downside 17% Previous Rating BUY Key Stock Data Bloomberg / Reuters IRCTC IN /INIR.BO Sector MISC."
+    ]
+  },
+  "blurb": "Catering segment profit therefore slipped ~4% despite the sales boom, while internet ticketing that earns ~80% of segment profit at a ~84% margin, grew just 1%YoY (revenue INR ~3.9bn, profit INR ~3.3bn).",
+  "fetchedAt": "2026-11-18T15:50:41.193Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "b7893728893a",
+  "date": "2026-11-06",
+  "broker": "Axis Direct",
+  "company": "Juniper Hotels",
+  "headline": "",
+  "link": "https://simplehai.axisdirect.in/app/index.php/insights/reports/downloadReport/file/Juniper+Hotel+Ltd+-+Q2FY27+Result+Update+-+06112026+%281%29_06-11-2026_11.pdf/type/fundamental",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 225,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "HOLD"
+  },
+  "summary": {
+    "highlights": [
+      "Result Update 06th November 2026 HOLD Target Price 225 Juniper Hotel Ltd Hotels 1 Pipeline Delays Hamper Growth Est.",
+      "EBITDA – INLINE; PAT – BEAT Changes in Estimates Post Q2FY27 FY27E/FY28E: Revenue: -4%/7%; EBITDA Abs: -4%/7%; PAT: -9%/9% Recommendation Rationale • Operational Performance: Juniper Hotels delivered a par Q2FY27 performance, with total income growing 10% YoY to Rs 258 Cr.",
+      "However, reported EBITDA on total income grew by 5% YoY to Rs 91.4 Cr, translating to a 35% margin due to near-term gas price inflation and a one-time GST 2.0 impact.",
+      "Consolidated PAT for the quarter stood at Rs 37.2 Cr, marking a substantial 121% YoY growth largely driven by a 50% reduction in finance costs. • Growth Pipeline & Expansion: Juniper’s long-term roadmap aims to double its room inventory from 2,133 keys to over 3,900 keys by FY31."
+    ],
+    "valuation": [
+      "Result Update 06th November 2026 HOLD Target Price 225 Juniper Hotel Ltd Hotels 1 Pipeline Delays Hamper Growth Est.",
+      "Current Valuation: 10xFY28E EV/EBITDA( Earlier 11xFY28E EV/EBITDA) Current TP: Rs 225/share (Earlier TP: Rs 240/share) Recommendation: We cut our Revenue estimates for FY27 to account for delays in pipeline execution.",
+      "Consequently, we downgrade the stock from BUY to HOLD with a target price of Rs 225/share, implying an upside potential of 8% from the CMP."
+    ],
+    "watch": [
+      "Consolidated PAT for the quarter stood at Rs 37.2 Cr, marking a substantial 121% YoY growth largely driven by a 50% reduction in finance costs. • Growth Pipeline & Expansion: Juniper’s long-term roadmap aims to double its room inventory from 2,133 keys to over 3,900 keys by FY31.",
+      "A major near-term milestone was achieved with the opening of Phase 1 (238 keys) of the 513-key Westin Bengaluru in Oct’26, although online bookings will commence on 15th December."
+    ]
+  },
+  "blurb": "Result Update 06th November 2026 HOLD Target Price 225 Juniper Hotel Ltd Hotels 1 Pipeline Delays Hamper Growth Est.",
+  "fetchedAt": "2026-11-18T15:52:25.995Z"
+}

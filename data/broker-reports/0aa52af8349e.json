@@ -1,0 +1,33 @@
+{
+  "id": "0aa52af8349e",
+  "date": "2026-11-04",
+  "broker": "Ventura Securities",
+  "company": "Indraprastha Gas",
+  "headline": "Q2FY27 Result Update",
+  "link": "https://ventura1.com/calltracking/TechnicalCalls/quaterly/639293967636389247_Indraprastha%20Gas%20result%20update%20Q2FY27.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 133,
+    "upside": 20,
+    "recommendation": "HOLD"
+  },
+  "summary": {
+    "highlights": [
+      "Total sales volume increased 8% YoY to 925.59 MMSCM, with average daily sales reaching a record 10.06 MMSCMD.",
+      "CNG volumes grew 9% YoY to 696.63 MMSCM, while PNG volumes increased 6% to 228.66 MMSCM, driven by 16% growth in domestic PNG.",
+      "However, elevated gas procurement costs pushed consolidated EBITDA into a loss of ~INR 32 crore, with margins at -0.6%.",
+      "Net profit declined ~94% YoY to INR 23.75 crore, reflecting significant profitability pressure despite robust operational growth."
+    ],
+    "valuation": [
+      "Management remains focused on restoring EBITDA/SCM while targeting double-digit volume growth, although near-term margins remain vulnerable to elevated LNG prices and geopolitical disruptions.",
+      "Return on Equity is expected to reach 11.8% and RoIC is expected to reach 15.1% Valuation call: We recommend a BUY with a price target of INR 159 (11.1X P/E FY29) from the CMP of INR 133 representing an upside of 20%."
+    ],
+    "watch": [
+      "And such person shall be responsible for conducting his/her/their own investigation and analysis of the information contained or referred to in this document and of evaluating the merits and risks involved in the securities forming the subject matter of this document."
+    ]
+  },
+  "blurb": "Total sales volume increased 8% YoY to 925.59 MMSCM, with average daily sales reaching a record 10.06 MMSCMD.",
+  "fetchedAt": "2026-11-18T15:53:12.113Z"
+}

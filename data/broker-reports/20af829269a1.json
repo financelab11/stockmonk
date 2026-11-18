@@ -1,0 +1,34 @@
+{
+  "id": "20af829269a1",
+  "date": "2026-11-10",
+  "broker": "ICICI Securities",
+  "company": "NHPC",
+  "headline": "Improved performance aided by Subansiri and Teesta V",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261111060052_NHPC-1111026-icici.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 72,
+    "cmp": 80,
+    "upside": null,
+    "recommendation": "REDUCE"
+  },
+  "summary": {
+    "highlights": [
+      "Consequently, standalone revenues grew 55% YoY to ~INR 44bn, with an EBITDA of ~INR 29bn (+78% YoY), which led to adj.",
+      "Revenue at Subansiri and Parbati II is being recognised at 80% of the cost, with a final tariff order expected soon.",
+      "Operating parameters improve, aided by new capacity… NHPC’s PAF availability was healthy during the quarter at 92.24% vs. 78.58% YoY, as consolidated generation grew 17% YoY to ~14BU, anchored by 1) commissioning of a unit at lower Subansiri, 2) improved performance at Parbati II, and 3) resumption of operations at Teesta-V.",
+      "INR 12bn in the year-ago quarter and INR 14bn in the preceding quarter, despite revenue from Subansiri and Parbati being booked at 80% of the capex."
+    ],
+    "valuation": [
+      "We maintain REDUCE with an unchanged target price of INR 72, valuing the stock at 10x FY28E standalone EPS of INR 6.2/share, its subsidiaries at 2.5x regulated equity, and its RE portfolio at 11x FY28E EV/EBITDA.",
+      "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+    ],
+    "watch": [
+      "Risks: 1) Delay in execution of hydro and RE projects; and 2) better-than-expected incentive income.",
+      "The recipient should independently evaluate the investment risks."
+    ]
+  },
+  "blurb": "Consequently, standalone revenues grew 55% YoY to ~INR 44bn, with an EBITDA of ~INR 29bn (+78% YoY), which led to adj.",
+  "fetchedAt": "2026-11-18T15:51:29.235Z"
+}

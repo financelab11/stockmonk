@@ -1,0 +1,35 @@
+{
+  "id": "05d99dea8d18",
+  "date": "2026-11-08",
+  "broker": "Anand Rathi",
+  "company": "MphasiS",
+  "headline": "Strong deal momentum and guidance upgrade making it a midcap outlier",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261109071632_Mphasis-0911026-anand.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Revenue grew 3.3% q/q and 9.7% y/y in CC, with Direct business growing 3.5% q/q and 11.3% y/y CC.",
+      "Growth is being supported by a favourable shift in deal composition, with shorter-cycle engagements improving revenue conversion.",
+      "However, monetisation remains at an early stage, with management indicating that FY27 will be a foundational year for Tria.",
+      "Operating margin declined 40 q/q at 15.9%; higher onsite deployment requirements, acquisition-related amortisation and continued investments in AI capabilities and client coverage are weighing on near-term profitability."
+    ],
+    "valuation": [
+      "Mphasis Tria is emerging as a differentiator in large deal evaluations, enabling the company to move beyond traditional IT budgets into business process transformation and outcome-linked engagements.",
+      "Management is targeting ~80% OCF/PAT conversion for FY27, making improvement in working capital and collections a key monitorable.",
+      "Outlook & Valuation: At CMP, Mphasis trades at 18.8x/16.9x FY28/29e P/E."
+    ],
+    "watch": [
+      "Cash conversion also remains a monitorable, with delayed collections and elevated receivable days affecting quarterly cash generation.",
+      "Cash conversion remains a concern for us: OCF/PAT at ~(10%) and +57% after normalising for delayed collections in Oct’26."
+    ]
+  },
+  "blurb": "Revenue grew 3.3% q/q and 9.7% y/y in CC, with Direct business growing 3.5% q/q and 11.3% y/y CC.",
+  "fetchedAt": "2026-11-18T15:52:01.153Z"
+}

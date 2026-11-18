@@ -1,0 +1,35 @@
+{
+  "id": "9387356ffc58",
+  "date": "2026-11-07",
+  "broker": "ICICI Securities",
+  "company": "Healthcare Global Enterprises",
+  "headline": "Near-term regulatory hurdles may dampen growth run-rate",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261109080912_HealthCare-Global-Enterprises-0911026-icici.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 700,
+    "cmp": 601,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "However, incremental wage costs of ~INR 60mn and North Bangalore losses of INR 61mn weighed on margins.",
+      "HCG added 146 beds in H1FY27; it plans to add another 42 beds in H2FY27, which could boost growth.",
+      "Besides, the North Bangalore hospital is expected to achieve monthly EBITDA break-even in Q4FY27, which will likely aid profitability.",
+      "Management is articulating a plan to absorb the impact (7–9% hit to EBITDA ahead) from drug margin curb, It guides for 14–16% revenue growth and 17–19% EBITDA growth for FY28."
+    ],
+    "valuation": [
+      "Maintain BUY, revise TP to INR 700, based on 17x FY28E EV/EBITDA.",
+      "Revenue is ramping up, in-line with management’s expectations with monthly EBITDA break-even targeted in Q4FY27.",
+      "The stock currently trades at a multiple of 17.8x FY27E and 14.6x FY28E EV/EBITDA."
+    ],
+    "watch": [
+      "The recent trade-margin cap on oncology drugs presents a near-term headwind.",
+      "Key downside risks: Higher competition in oncology, and delay in operational turnaround of new centres."
+    ]
+  },
+  "blurb": "However, incremental wage costs of ~INR 60mn and North Bangalore losses of INR 61mn weighed on margins.",
+  "fetchedAt": "2026-11-18T15:52:05.812Z"
+}

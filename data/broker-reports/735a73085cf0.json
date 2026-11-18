@@ -1,0 +1,35 @@
+{
+  "id": "735a73085cf0",
+  "date": "2026-11-06",
+  "broker": "ICICI Securities",
+  "company": "Astral",
+  "headline": "Temporary blip in margins, outlook remains healthy",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261107101845_Astral_06112026_ICICI-Seurities.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 1810,
+    "cmp": 1388,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Pipe EBITDA/kg dipped 10.3% YoY to INR 31.2 due to adverse product mix and higher RM cost.",
+      "India adhesives business revenue grew 25.3% YoY with margin of 10.9% (-610bps YoY) due to RM inflation.",
+      "For FY27, management guides for double-digit pipe volume and OPM of ~16–18%; for India adhesive ~20% revenue growth and ~13% OPM.",
+      "Pipe volume robust growth of 19.1% YoY on a high base In Q2FY27, Astral reported robust pipe volumes growth of 19.1% YoY on a high base (10- year CAGR of 13.5%; +29.9% QoQ) as demand improved, partly aided by an uptrend in PVC resins prices."
+    ],
+    "valuation": [
+      "Valuation and views Astral’s Q2FY27 pipes and consol. revenue (pipes and adhesives) is in line with our estimates, while profitability was lower than our estimates.",
+      "We maintain BUY, with a revised SoTP-based Sep’27E target price of INR 1,810.",
+      "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+    ],
+    "watch": [
+      "Payable days fell as management chose to pay USD-linked suppliers early to avoid currency risk.",
+      "The recipient should independently evaluate the investment risks."
+    ]
+  },
+  "blurb": "Pipe EBITDA/kg dipped 10.3% YoY to INR 31.2 due to adverse product mix and higher RM cost.",
+  "fetchedAt": "2026-11-18T15:52:11.903Z"
+}

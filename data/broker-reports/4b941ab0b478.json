@@ -1,0 +1,35 @@
+{
+  "id": "4b941ab0b478",
+  "date": "2026-11-09",
+  "broker": "Ventura Securities",
+  "company": "HCC",
+  "headline": "Q2FY27 Result Update",
+  "link": "https://ventura1.com/calltracking/TechnicalCalls/quaterly/639298433316872389_HCC%20Result%20Update%20Q2FY27.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 18.6,
+    "upside": 126,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "HCC reported a subdued Q2FY27 performance, as a stagnant order book weighed on revenue and a lower-margin execution mix put pressure on margins.",
+      "Consolidated revenue stood at INR 897 cr (-6.7% YoY; -9.7% QoQ).",
+      "EBITDA came in at INR 103 cr (-30.4% YoY; -1.8% QoQ), with EBITDA margin at 11.5% (-390 bps YoY; +100 bps QoQ).",
+      "PAT stood at INR 23 cr (-52.8% YoY; - 55.8% QoQ), with PAT margin at 2.5% (-250 bps YoY; -260 bps QoQ)."
+    ],
+    "valuation": [
+      "HCC holds L1 bids worth INR 2,010 cr (HCC share INR 1,557 cr), while 16 bids worth ~INR 34,805 cr (HCC share ~INR 32,386 cr) are under evaluation.",
+      "The company targets roughly doubling its order book by FY27 end, supported by a pipeline of INR 85,907 cr across hydro, metro, nuclear, industrial and urban infrastructure segments.",
+      "HCC prepaid INR 100 cr of debt in Q2FY27 and targets a further INR 108 cr by December 2026, with ~INR 350 cr of repayment due in March 2027."
+    ],
+    "watch": [
+      "HCC remains focused on profitable growth through disciplined bidding, client selection and risk pricing.",
+      "This should support liquidity and further debt reduction.  Steady progress across key projects: At Indore Metro, both TBMs have started tunnelling (12 km of tunnelling across 7 underground stations)."
+    ]
+  },
+  "blurb": "HCC reported a subdued Q2FY27 performance, as a stagnant order book weighed on revenue and a lower-margin execution mix put pressure on margins.",
+  "fetchedAt": "2026-11-18T15:51:42.573Z"
+}

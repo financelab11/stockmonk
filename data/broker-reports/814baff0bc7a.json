@@ -1,0 +1,35 @@
+{
+  "id": "814baff0bc7a",
+  "date": "2026-11-04",
+  "broker": "Centrum Broking",
+  "company": "National Stock Exchange Of India",
+  "headline": "Strong quarter",
+  "link": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-11/17937884880.59227800.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 2125,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Its diversified business model also supported healthy growth in the commodities segment, while non-transaction revenues remained a key growth driver.",
+      "Equity options revenue grew 11% YoY in H1FY27, contributing 57% of operating revenue, while market share remained stable at 68% over the past two quarters.",
+      "Higher Q2 volumes prompt us to raise FY29E options revenue to Rs129bn (vs.",
+      "Operating revenue grew 12% YoY in H1FY27, led by cash and non-transaction businesses, including listing and data feed services."
+    ],
+    "valuation": [
+      "We assign a target multiple of 39x Sep’28E EPS, implying a target price of Rs2,125, and assign a BUY rating with an upside potential of 18%.",
+      "Attractive valuation: We believe NSE’s diversified business model and dominant market position across the cash and derivatives segments provide strong investment positives.",
+      "We assign a target multiple of 39x Sep’28E EPS, in line with BSE’s valuation multiple, implying a target price of Rs.2,125."
+    ],
+    "watch": [
+      "Its diversified business model also supported healthy growth in the commodities segment, while non-transaction revenues remained a key growth driver.",
+      "Key risks include regulatory changes, lower volumes and cybersecurity threats."
+    ]
+  },
+  "blurb": "Its diversified business model also supported healthy growth in the commodities segment, while non-transaction revenues remained a key growth driver.",
+  "fetchedAt": "2026-11-18T15:53:18.719Z"
+}

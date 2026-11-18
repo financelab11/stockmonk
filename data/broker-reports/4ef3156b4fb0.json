@@ -1,0 +1,35 @@
+{
+  "id": "4ef3156b4fb0",
+  "date": "2026-11-05",
+  "broker": "HDFC Securities",
+  "company": "HSIE Results Daily: Zydus Lifesciences, BSE, FSN E",
+  "headline": "HSIE Results Daily: Zydus Lifesciences, BSE, FSN E-commerce Ventures (Nykaa), Lupin, MCX, Anthem Biosciences, Sundaram Finance,",
+  "link": "https://www.hdfcsec.com/hsl.docs/HSIE%20Results%20Daily%20-%2005%20Nov%2026%20-%20HSIE-202611050716147170759.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "HSIE Research is also available on Bloomberg ERH HDF <GO> & Thomson Reuters 05 November 2026 HSIE Results Daily HSIE Results Daily Contents Results Reviews ■ Zydus Lifesciences: EBITDA grew only 8% YoY despite 29% YoY sales growth, as higher operating costs offset revenue growth and GM expansion.",
+      "Sales growth was led by 6% QoQ growth in the US, 18% YoY growth in India, Amplitude sales, and 76% growth in consumer (largely M&A-led).",
+      "GM improved to 72.8% (+37bps YoY), but higher staff costs, SG&A and R&D expenses (up 31%/36%/51% YoY) weighed on profitability, causing the EBITDA margin decline of 441bps YoY to 22.3%.",
+      "Zydus expects: (1) strong double-digit revenue growth in FY27; (2) single-digit growth in the US in FY27, driven by launches, meaningful traction from gMyrbetriq despite competitive entry and scale-up of specialty portfolio."
+    ],
+    "valuation": [
+      "Moreover, it is targeting 27-28% EBITDA margin over the next 2-3 years, supported by steady growth and cost optimization.",
+      "The company is evaluating price increase in early CY27 considering multiple factors like cost escalation (raw material and logistics), competitive price dynamics, micro-market focus, and insulating volume growth.",
+      "APTUS continues to take multiple initiatives to drive loan growth, including customer diversification (floor of INR 0.7mn ticket size), accelerated branch additions (58 in H1), diversification of sourcing mix and geographical diversification (10% of branches in non-core states), with LIG, self-employed, and rural-based customers remaining the core customer segment."
+    ],
+    "watch": [
+      "SEBI has decoupled expiry settlement from the auction, restoring last 30-minute VWAP for index and stock derivatives, removing a key overhang.",
+      "LPC expects: (1) single-digit FY27 revenue growth, 24-25% EBITDA margin (factoring in competition from Tolvaptan and Mirabegron and visible cost headwinds across raw materials and logistics), R&D at ~8% of sales, and 27-28% ETR; (2) the US business to sustain revenues of USD 1.1-1.2bn in FY27 (quarterly sales run rate of USD 210-260mn)."
+    ]
+  },
+  "blurb": "HSIE Research is also available on Bloomberg ERH HDF <GO> & Thomson Reuters 05 November 2026 HSIE Results Daily HSIE Results Daily Contents Results Reviews ■ Zydus Lifesciences: EBITDA grew only 8% YoY despite 29% YoY sa",
+  "fetchedAt": "2026-11-18T15:53:00.693Z"
+}

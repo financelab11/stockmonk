@@ -1,0 +1,34 @@
+{
+  "id": "3b7f4275d824",
+  "date": "2026-11-04",
+  "broker": "Emkay Global",
+  "company": "Nexus Select Trust",
+  "headline": "Steady 2Q",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261104084903_Nexus-Select-Trust-0411026-emkay.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 12,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Consumption growth was seen across categories, with six major retail assets witnessing double-digit growth.",
+      "Consolidated EBITDA grew 7% yoy (4% below our estimates, primarily due to renovation in the hospitality segment).",
+      "The acquisition pipeline remains strong, with the management guiding for 2-3 acquisitions in FY27 (two assets already acquired in FY27).",
+      "We maintain our revenue and EBITDA estimates and reiterate BUY on the stock with an unchanged TP of Rs190, based on the NOI capitalization methodology, using a cap rate of 7% for retail assets and 8% for commercial and hospitality assets. 2QFY27 snapshot Retail: Consumption stood at Rs39bn (+13% yoy)."
+    ],
+    "valuation": [
+      "Leasing renewals ⏹ Re-leased 0.5msf during the quarter, with a 25% re-leasing spread. ⏹ ~50% of the area will come up for renewal over the next 3.5 years, with an MTM opportunity of 20%. ⏹ 30% of the expiring area pertains to anchor tenants, supporting higher re-leasing spreads. ⏹ Discussions have already started, and company is planning to resize large stores and renovate multiplexes, etc.",
+      "Pipeline ⏹ Construction is progressing well for the Dombivli and Guwahati malls. ⏹ The majority of new mall additions will be through the acquisition of existing operating malls. ⏹ Densification opportunities are available in existing operational malls and are currently under evaluation.",
+      "Rent to consumption ⏹ The company is targeting rent to consumption of 13% over the next 2-3 years, supported by lease renewals (11.2% in 2QFY27; lower due to the addition of high-value category brands)."
+    ],
+    "watch": [
+      "November 04, 2026 | 2 Nexus Select Trust (NXST IN) India Equity Research | Result Update Earnings call highlights Consumption ⏹ 2QFY27 witnessed broad-based consumption growth across categories. ⏹ Excluding jewelry and electronics, consumption grew 10% yoy. ⏹ 3Q outlook remains positive and the management expects mid-teen consumption growth during the quarter."
+    ]
+  },
+  "blurb": "Consumption growth was seen across categories, with six major retail assets witnessing double-digit growth.",
+  "fetchedAt": "2026-11-18T15:53:20.871Z"
+}

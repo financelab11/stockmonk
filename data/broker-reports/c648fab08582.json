@@ -1,0 +1,34 @@
+{
+  "id": "c648fab08582",
+  "date": "2026-11-06",
+  "broker": "ICICI Securities",
+  "company": "Afcons Infrastructure",
+  "headline": "Uncertainty clouds near-term outlook",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261107101639_Afcons-Infrastructure_06112026_ICICI-Seurities.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 230,
+    "cmp": 219,
+    "upside": null,
+    "recommendation": "HOLD"
+  },
+  "summary": {
+    "highlights": [
+      "Revenue declined 12% YoY to INR 26.4bn, while EBITDA margin contracted 750bps YoY to 3.5%, including the impact of a one-time provision.",
+      "With the execution uncertainty persisting alongside elevated working capital requirements, management has refrained from providing a FY27 guidance.",
+      "While order inflows (OI) have picked up, with YTD inflows of INR 194bn, timely execution and cash conversion remain key monitorable.",
+      "Its order book (OB; including L1) stands at INR 472bn (4.3x TTM revenue), providing healthy revenue visibility."
+    ],
+    "valuation": [
+      "Moreover, the management still remains uncertain on execution front and refrains from giving guidance for FY27, as a result we trim our multiple to 12x (vs. 17x earlier).",
+      "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+    ],
+    "watch": [
+      "While order inflows (OI) have picked up, with YTD inflows of INR 194bn, timely execution and cash conversion remain key monitorable.",
+      "Key downside risks: 1) Delays in execution of projects; 2) delays in payments from customers; thereby, increasing the receivables position; and 3) lower-than-expected OI."
+    ]
+  },
+  "blurb": "Revenue declined 12% YoY to INR 26.4bn, while EBITDA margin contracted 750bps YoY to 3.5%, including the impact of a one-time provision.",
+  "fetchedAt": "2026-11-18T15:52:10.171Z"
+}

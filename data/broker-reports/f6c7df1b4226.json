@@ -1,0 +1,35 @@
+{
+  "id": "f6c7df1b4226",
+  "date": "2026-11-08",
+  "broker": "Nirmal Bang",
+  "company": "Linc",
+  "headline": "Market-share Gains Take Priority",
+  "link": "https://www.nirmalbang.com/Upload/Linc--2QFY27-Result-Update---08-November-2026.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Key Points  2QFY27 sales grew 10.8% YoY / 10.9% QoQ to Rs1,541mn, the fastest in eight quarters and 7.6% above our estimates.",
+      "Growth was driven by higher promotional activity and traction in newer categories, including Tritonic drinkware and Deli stationery.",
+      "H1FY27 revenue grew 6.2% YoY.  EBITDA fell 27.8% YoY to Rs113mn, with margins declining by 393bps YoY to 7.3%, below our 8.5% estimate.",
+      "Excluding these impacts, core PAT stood at ~Rs64mn (down 23.9% YoY and up 6.2% QoQ), broadly in line with our estimates.  Premiumisation gaining traction: Pentonic grew 14.8% YoY, increasing its revenue share to 59.9% (vs. 55.1%), while mass own-brand sales declined 24.5%, indicating an improving product mix."
+    ],
+    "valuation": [
+      "Licensed writing instruments (Uni-ball/Mitsubishi) grew 7.2%, while Deli-led other products grew 30.5%, supporting diversification beyond core pens.  We maintain BUY and cut our TP to Rs111 (from Rs116 earlier) and roll forward our valuation at 13.5x Sep-28E EPS.",
+      "Valuation: We raise FY27E/FY28E revenue ~2% each on the stronger topline trajectory, but cut FY27E EBITDA ~10% and FY28E by ~6% to build in the elevated promotion spend and slower margin normalization; we cut PAT by ~12%/~7%.",
+      "We roll forward to 13.5x Sep-28E EPS keeping the multiple unchanged, with a revised target price of Rs111 (from Rs116) and maintain our BUY rating."
+    ],
+    "watch": [
+      "Key Points  2QFY27 sales grew 10.8% YoY / 10.9% QoQ to Rs1,541mn, the fastest in eight quarters and 7.6% above our estimates.",
+      "Outlook: Linc continues to prioritise market-share gains through higher promotional spends and expansion into adjacent categories, including Tritonic drinkware and Stackoo retail."
+    ]
+  },
+  "blurb": "Key Points  2QFY27 sales grew 10.8% YoY / 10.9% QoQ to Rs1,541mn, the fastest in eight quarters and 7.6% above our estimates.",
+  "fetchedAt": "2026-11-18T15:52:01.367Z"
+}

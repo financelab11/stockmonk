@@ -1,0 +1,35 @@
+{
+  "id": "f6a41ce5badb",
+  "date": "2026-11-12",
+  "broker": "ICICI Securities",
+  "company": "K P R Mill",
+  "headline": "St rong Q2; Textile to lead H2FY27",
+  "link": "https://mailcontent.icicidirect.com/mailcontent/idirect_kprmills_q2fy27.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 1140,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "Q 2F Y2 7 performance : KPR reported 19% YoY growth in consolidated revenues to Rs.1939.7cr.",
+      "Textile business revenues grew by 16.6% YoY growth to Rs.1478.7cr and sugar business revenues grew by 27% YoY to Rs.436.1cr.",
+      "Consolidated gross margins improved by 490bps YoY to 44.4% while EBITDA margins improved by 640bps YoY to 25.7%.",
+      "Textile business EBIT margins improved by 606bps YoY to 24.9% while Sugar business margins improved to 16.8% witnessing ~3x expansion on YoY basis."
+    ],
+    "valuation": [
+      "x ICICI Securities – Retail Equity Research KPR Mill (KPRMILL) CMP: ₹ 1140 Target ₹ 1400 (23%) Target Period: 12 months November 12, 2026 St rong Q2; Textile to lead H2FY27 … About the stock : KPR Mills (KPR), established in 1984, is one of the largest vertically integrated textile manufacturing companies in India.",
+      "Rating and Target Price : We recommend Buy on the stock with revised price target of Rs1,400 (rolling it over to FY28E/FY29E average EPS of Rs37.7; valuing 37x).",
+      "ICICI Direct assigns ratings to its stocks according to their notional target price vs. current market price and then categorizes them as Buy, Hold, Reduce and Sell."
+    ],
+    "watch": [
+      "Investment Rationale: Textile business registered strong all - round performance in Q2FY27; near term outlook remain buoyant: KPR’s textile business recovered to double digit revenue growth after four consecutive quarters driven by broad base performance across key business verticals.",
+      "Sugar business outperforms on strong ethanol sales in H1FY27; bleak outlook for H2 : KPR’s sugar business (~20% of revenues) registered strong performance with revenues growing by 42% YoY to Rs856cr in H1FY27."
+    ]
+  },
+  "blurb": "Q 2F Y2 7 performance : KPR reported 19% YoY growth in consolidated revenues to Rs.1939.7cr.",
+  "fetchedAt": "2026-11-18T15:51:03.691Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "d1579f756dde",
+  "date": "2026-11-12",
+  "broker": "Motilal Oswal",
+  "company": "Hitachi Energy India",
+  "headline": "Strong execution in 2Q",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261113050957_Hitachi-Energy-1311026-moti.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 35800,
+    "cmp": 28545,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Order inflows (ex-HVDC) jumped 86% YoY to INR41b, taking the order book to INR333b, up 13% YoY.",
+      "Going forward, we expect 1) revenue growth to remain strong as HVDC project execution is also ramping up, 2) strong base and export orders to offset weakness in new HVDC ordering, 3) operating leverage and a higher share of export and services to offset lower gross margin in HVDC projects.",
+      "We revise our estimates by +3%/2%/-1% for FY27/FY28/FY29 to factor in improved execution but lower margin expectations.",
+      "Beat on revenue, while a miss on margin led to an in-line PAT Revenue grew 64% YoY to INR30b, 12% above our estimate."
+    ],
+    "valuation": [
+      "The stock has corrected 26% from its YTD high and offers a decent upside from current levels.",
+      "Financial outlook and valuation We revise our estimates by +3%/+2%/-1% for FY27/FY28/FY29 to factor in improved execution but lower margin expectations.",
+      "The stock is currently trading at 76x/57x/46x P/E on FY27/ FY28/FY29 earnings."
+    ],
+    "watch": [
+      "Financial outlook and valuation We revise our estimates by +3%/+2%/-1% for FY27/FY28/FY29 to factor in improved execution but lower margin expectations.",
+      "Each recipient of this document should make such investigations as it deems necessary to arrive at an independent evaluation of an investment in the securities of companies referred to in this document (including the merits and risks involved), and should consult its own advisors to determine the merits and risks of such an investment."
+    ]
+  },
+  "blurb": "Order inflows (ex-HVDC) jumped 86% YoY to INR41b, taking the order book to INR333b, up 13% YoY.",
+  "fetchedAt": "2026-11-18T15:51:02.869Z"
+}

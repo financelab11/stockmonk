@@ -1,0 +1,34 @@
+{
+  "id": "cd6f886738d4",
+  "date": "2026-11-11",
+  "broker": "Prabhudas Lilladher",
+  "company": "JK Lakshmi Cement",
+  "headline": "Cost inflation clouds near term outlook",
+  "link": "https://plindia.com/ResReport/JKLC-6-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 665,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 665 699 Sales (INR mn) 86,130 97,991 85,568 98,128 % Chng. 0.7 (0.1) EBITDA (INR mn) 11,504 15,611 12,230 16,601 % Chng.",
+      "However, volumes grew below the industry’s 9-10% growth, with performance impacted by heavy monsoon in key markets and planned shutdowns.",
+      "Consequently, EBITDA/t declined to INR517 (PLe: INR523), as higher fuel and packing costs more than offset benefits from lower lead distance and higher renewable energy usage.",
+      "JKLC’s volume growth is lagging the industry over last few quarters while capacity expansion plans also seem fragile in terms of planned timeline."
+    ],
+    "valuation": [
+      "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 665 699 Sales (INR mn) 86,130 97,991 85,568 98,128 % Chng. 0.7 (0.1) EBITDA (INR mn) 11,504 15,611 12,230 16,601 % Chng.",
+      "Land and clearances are already available at Mejia, enabling faster execution and potential clinker sourcing synergies from the Northeast. • Northeast expansion: The project is targeted for commissioning by March 2029, with estimated capex of ~INR18bn."
+    ],
+    "watch": [
+      "(10.3) (8.8) Key Data JKLC.BO | JKLC IN BSE Code 500380 NSE Code JKLAKSHMI 52-W High / Low INR 883 / INR 452 Face Value 5 Sensex / Nifty 79,310 / 24,537 Market Cap INR 58 bn / $ 618 mn Shares Outstanding 124.14 mn 3M Avg.",
+      "However, volumes grew below the industry’s 9-10% growth, with performance impacted by heavy monsoon in key markets and planned shutdowns."
+    ]
+  },
+  "blurb": "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 665 699 Sales (INR mn) 86,130 97,991 85,568 98,128 % Chng. 0.7 (0.1) EBITDA (INR mn) 11,504 15,611 12,230 16,601 % Chng.",
+  "fetchedAt": "2026-11-18T15:51:18.002Z"
+}

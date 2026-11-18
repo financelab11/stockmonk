@@ -1,0 +1,35 @@
+{
+  "id": "b9dfddee7812",
+  "date": "2026-11-09",
+  "broker": "ICICI Securities",
+  "company": "Healthcare Global Enterprises",
+  "headline": "Regulatory overhang to weigh but long-term prospects firm",
+  "link": "https://mailcontent.icicidirect.com/mailcontent/idirect_hcg_q2fy27.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 595,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "EBITDA grew 8% YoY to ~₹ 133 crore, and EBITDA margins de-grew 84 bps YoY at 18.2%.",
+      "The South cluster continued to lead growth, while North Bangalore is expected to achieve monthly EBITDA break-even by Q4FY27 and Gujarat to return to mid-teens growth.",
+      "Rising cancer incidence and improving diagnosis present structural growth opportunities, while KKR’s proposed acquisition of a 54% stake is positive given its healthcare investment pedigree and long-term investment horizon.",
+      "The oncology drug trade-margin cap remains a near-term headwind, with management expecting a mid-to-high-single-digit annualised impact on absolute EBITDA from November 2026, though the impact on FY27 will be proportionately lower and recovery is expected from FY28 onwards."
+    ],
+    "valuation": [
+      "x ICICI Securities – Retail Equity Research Healthcare Global Enterprises (HEAGLO) CMP: ₹595 Target ₹ 705 (18%) Target Period: 12 months November 9, 2026 Regulatory overhang to weigh but long-term prospects firm… About the stock : HCG operates one of the largest private cancer care networks in India with end-to-end solutions available under a single corporate entity.",
+      "Rating and Target Price : Our target price is ₹ 705 based on 20 x FY28E EBITDA of ₹ 603.8 crore.",
+      "Management reiterated its target of monthly EBITDA breakeven by Q4FY27. • Trade margin cap on non-scheduled anti-cancer drugs: Management estimates an annualized mid- to high-single-digit EBITDA impact."
+    ],
+    "watch": [
+      "The oncology drug trade-margin cap remains a near-term headwind, with management expecting a mid-to-high-single-digit annualised impact on absolute EBITDA from November 2026, though the impact on FY27 will be proportionately lower and recovery is expected from FY28 onwards.",
+      "We continue to monitor ARPP and cluster-wise volume growth, while expecting ROCE at newer centres to improve with ramp-up."
+    ]
+  },
+  "blurb": "EBITDA grew 8% YoY to ~₹ 133 crore, and EBITDA margins de-grew 84 bps YoY at 18.2%.",
+  "fetchedAt": "2026-11-18T15:51:42.788Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "63907953ed2f",
+  "date": "2026-11-09",
+  "broker": "IDBI Capital",
+  "company": "Clean Science and Technology",
+  "headline": "Q2FY27 Result Review",
+  "link": "https://www.idbidirect.in/IDBIAdmin/Pdf/CLEAN_RR_06112026-09-November-2026-1134923465.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": 750,
+    "cmp": 668,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "While Revenue and EBITDA grew by 22% and 6% respectively, PAT remained flat.",
+      "Consolidated Revenue growth was majorly led by growth in realisations and improved HALS volumes on YoY basis.  Pressure on Gross margins: Gross margins declined sharply by 360 bps QoQ to 57.3% owing the sharp rise in raw material prices brought about by the Middle East Crisis.",
+      "Sharp rise in coal and freight costs further exacerbated margin pressures.  Market Share Retention Strategy: Phenol prices in China were around 16% lower than Indian prices which gave Chinese producers a cost advantage to source at a lower cost.",
+      "Although demand remained resilient, pass through of costs to customers was difficult leading to margin compression on sequential basis  HALS: HALS Revenue doubled in Q2FY27 on YoY basis on the back of robust HALS volume growth."
+    ],
+    "valuation": [
+      "CFCL has completed trials of advanced grades of HALS and commercial launch is expected in H2FY27  Valuation: We revise our rating to HOLD on the stock with revised TP of Rs 750 at 30xFY28 expected earnings in light of the macro induced margin pressures along with growth moderation in principal products.",
+      "Utilization is ~30%–40%, targeted at 55%–60% in coming quarters.  Backward Integration: An epoxidation facility is already running.",
+      "HALS capacity of ~11,500 tons is planned to reach ~12,500 tons through advanced grades.  Product Launches: Performance Chemical 2 (ATBS) is expected to start commercial production in Jan–Feb (Q4FY27), targeting 20%–25% utilization in year one."
+    ],
+    "watch": [
+      "Strong volume recovery for principal products and better ramp up for HALS will be key monitorables.",
+      "Management won’t be first to raise prices and risk losing market share.  HALS Ramp-Up: HALS revenue doubled YoY and was ~22% of sales (~Rs660Mn)."
+    ]
+  },
+  "blurb": "While Revenue and EBITDA grew by 22% and 6% respectively, PAT remained flat.",
+  "fetchedAt": "2026-11-18T15:51:36.936Z"
+}

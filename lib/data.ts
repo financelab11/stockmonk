@@ -297,7 +297,9 @@ export type NewsTag =
   | "Earnings Call"
   | "Analysis"
   | "Why It Moves"
-  | "Macro News";
+  | "Macro News"
+  | "Broker Note"
+  | "Deep-Dive";
 
 export type NewsItem = {
   id: string;
@@ -310,6 +312,8 @@ export type NewsItem = {
   href: string;
   price: number | null;
   changePct: number | null;
+  /** Broker or publisher for third-party items. */
+  source?: string;
 };
 
 export const getNewsfeed = cache((): NewsItem[] => {

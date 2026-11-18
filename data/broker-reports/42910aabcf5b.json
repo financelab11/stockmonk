@@ -1,0 +1,35 @@
+{
+  "id": "42910aabcf5b",
+  "date": "2026-11-05",
+  "broker": "Axis Direct",
+  "company": "Aptus Value Hou.",
+  "headline": "",
+  "link": "https://simplehai.axisdirect.in/app/index.php/insights/reports/downloadReport/file/Aptus+Value+Housing+Finance+Ltd+-+Q2FY27+Result+Update+-+05112026_05-11-2026_09.pdf/type/fundamental",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 250,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "BFSI - NBFCs 1 d Growth Outlook Intact; Asset Quality Recovery Remains Key Est.",
+      "Management attributed the deterioration in asset quality mainly to the legacy portfolio, originated before Apr’24, where resolution and recoveries have taken longer than initially anticipated.",
+      "Management expects the NBFC asset quality metrics to take another 1-2 quarters to normalise, with gradual improvement expected by the end of FY27.",
+      "Considering elevated stress levels in the NBFC business, management has revised consolidated FY27 credit cost guidance upwards by 5-10bps. • Home Loans Asset Quality Remains Resilient: In contrast to the NBFC business, the housing finance franchise continues to demonstrate healthy asset quality, with no meaningful deterioration in underlying portfolio trends."
+    ],
+    "valuation": [
+      "Result Update 05th November, 2026 BUY Target Price 250 Aptus Value Housing Finance India Ltd.",
+      "The sharp correction in stock has resulted in valuations appearing reasonable given Aptus’ ability to deliver best-in-class RoA of 7.4-7.5% over FY27-FY29E; however, a decisive and sustained recovery in asset quality and consistent execution on growth remain key for stock performance.",
+      "Current Valuation: 1.7x Sep’28E ABV; Earlier Valuation: 2.4x FY28E ABV Current TP: Rs 250/share; Earlier TP: Rs 325/share Recommendation: We maintain our BUY recommendation on the stock."
+    ],
+    "watch": [
+      "BFSI - NBFCs 1 d Growth Outlook Intact; Asset Quality Recovery Remains Key Est.",
+      "Sector Outlook: Positive Company Outlook: Aptus has retained its FY27 AUM growth guidance of 22%, supported by branch expansion, improving traction in alternate sourcing channels and a seasonally stronger H2."
+    ]
+  },
+  "blurb": "BFSI - NBFCs 1 d Growth Outlook Intact; Asset Quality Recovery Remains Key Est.",
+  "fetchedAt": "2026-11-18T15:52:38.991Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "098d220e5e9c",
+  "date": "2026-11-13",
+  "broker": "IDBI Capital",
+  "company": "Hitachi Energy India",
+  "headline": "Q2FY27 Result Review",
+  "link": "https://www.idbidirect.in/IDBIAdmin/Pdf/POWERIND_RR_13112026-13-November-2026-1108403851.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": 37909,
+    "cmp": 28550,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Revenue, EBITDA and PAT rose by 64%, 36% and 21% respectively.  Order book and Order Intake: Order intake registered robust growth of 86% YoY to stand at Rs ~41bn.",
+      "Key order wins in the quarter were the Fatehgarh III STATCOM project, grid automation for a leading utility in Southern India, 33/220 KV AIS substation in Karnataka and 220 KV switchyard in Odisha.",
+      "Semiconductor and precision manufacturing industries are generating healthy demand for the company’s offerings.  HVDC Update: Management mentioned that revenue execution in the Bhadla-Fatehpur HVDC and the Khavda to Nagpur HVDC stands at 5% and 10% respectively.",
+      "The management stated that the company is fully ready for such a complex and massive project from an engineering standpoint.  Data Centres: The management asserted that no part of the order backlog comprises of US Data Centre orders."
+    ],
+    "valuation": [
+      "The company envisages strong growth outlook for data centres in the near term.  Valuation: We remain structurally positive on Hitachi Energy and its solid growth prospects owing to the robust momentum in electrification not only in India but also globally.",
+      "Data Centres  The company has secured multiple orders from global hyperscalers and domestic colocation operators.",
+      "Its data centre-related order wins are primarily across India and Asia-Pacific markets, including Southeast Asia, with no US data centre orders in the existing backlog.  The grid-to-rack solution (grid connection to rack) will be manufactured in India and confirmed that the solutions will be manufactured upon receipt of orders.  Management sees no slowdown in its target geographies."
+    ],
+    "watch": [
+      "Key order wins in the quarter were the Fatehgarh III STATCOM project, grid automation for a leading utility in Southern India, 33/220 KV AIS substation in Karnataka and 220 KV switchyard in Odisha.",
+      "The company envisages strong growth outlook for data centres in the near term.  Valuation: We remain structurally positive on Hitachi Energy and its solid growth prospects owing to the robust momentum in electrification not only in India but also globally."
+    ]
+  },
+  "blurb": "Revenue, EBITDA and PAT rose by 64%, 36% and 21% respectively.  Order book and Order Intake: Order intake registered robust growth of 86% YoY to stand at Rs ~41bn.",
+  "fetchedAt": "2026-11-18T15:50:40.053Z"
+}

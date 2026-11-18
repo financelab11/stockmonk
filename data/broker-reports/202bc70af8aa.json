@@ -1,0 +1,34 @@
+{
+  "id": "202bc70af8aa",
+  "date": "2026-11-13",
+  "broker": "Arihant Capital",
+  "company": "Suprajit Engineering",
+  "headline": "New Product Wins and Global Expansion Drive Long-Term Growth",
+  "link": "https://arihantresearch.arihantcapital.com/Mumbai_Research/Suprajit_Engineering_Q2FY27_Result_Update.pdf.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 609,
+    "cmp": 464,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "EBITDA reported at INR 1,384 Mn (+39% YoY/ 7.55% QoQ), beating our estimate of INR 1,294 Mn.",
+      "EBITDA Margin came in at 12.20% (+161 bps YoY/ +16 bps QoQ), slightly above our estimate of 11.98%.",
+      "PAT reported at INR 534 Mn (+4.75% YoY / +2.2% QoQ), Slightly above our estimate of INR 507 Mn.",
+      "PAT Margin came in at 4.70% (-71 bps YoY/ -18 bps QoQ), inline with our estimate of 4.70%."
+    ],
+    "valuation": [
+      "Outlook and Valuation: The company enters H2FY27 with improving operating momentum, supported by new customer programme ramp-ups, expansion into higher-value products and improving business mix across its divisions.",
+      "We used DCF model to arrive at a target price of INR 609 per share."
+    ],
+    "watch": [
+      "Outlook and Valuation: The company enters H2FY27 with improving operating momentum, supported by new customer programme ramp-ups, expansion into higher-value products and improving business mix across its divisions.",
+      "GCM is expected to remain a key growth driver, with projects secured from global OEMs, particularly in China and the US, providing incremental revenue opportunities."
+    ]
+  },
+  "blurb": "EBITDA reported at INR 1,384 Mn (+39% YoY/ 7.55% QoQ), beating our estimate of INR 1,294 Mn.",
+  "fetchedAt": "2026-11-18T15:50:43.611Z"
+}

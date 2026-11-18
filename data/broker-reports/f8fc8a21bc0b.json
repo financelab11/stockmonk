@@ -1,0 +1,32 @@
+{
+  "id": "f8fc8a21bc0b",
+  "date": "2026-11-09",
+  "broker": "Prabhudas Lilladher",
+  "company": "Solar Industries India",
+  "headline": "Strong Q2; poised to outperform FY27 guidance",
+  "link": "https://plindia.com/ResReport/SOIL-4-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 23124,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Defence revenue rose to ~INR10bn in Q2FY27, contributing 29% of revenue, while the defence order book stood at ~INR175.7bn within the overall order book of INR201.8bn, providing robust medium-term growth visibility.",
+      "Management expects to surpass FY27 revenue guidance of ~INR140bn and defence revenue guidance of ~INR45bn, with EBITDA margin likely to exceed 29% versus the earlier ~28% guidance.",
+      "Domestic explosives are poised for sustained growth, supported by healthy mining and infrastructure demand, capacity expansion and management’s volume growth target of 10-15% (vs industry growth of 6-7%).",
+      "In defence, the ~INR3bn Guided Pinaka order is expected to be concluded before FY27-end, taking the total Pinaka-family opportunity to ~INR9bn."
+    ],
+    "valuation": [
+      "Domestic explosives are poised for sustained growth, supported by healthy mining and infrastructure demand, capacity expansion and management’s volume growth target of 10-15% (vs industry growth of 6-7%).",
+      "Bhargavastra trials are targeted for completion by CY26-end, paving the way for commercialisation, while increasing traction across 155mm ammunition and missile programs provides additional growth avenues.",
+      "Explosive Domestic: • Domestic explosives business delivered healthy growth despite the monsoon season, supported by mining and infrastructure demand. • Lower-than-average monsoon conditions across mining regions supported demand during Q2FY27, while management expects stronger momentum in H2FY27. • Management targets annual domestic volume growth of ~10–15%, against industry growth of ~6–7%."
+    ],
+    "watch": []
+  },
+  "blurb": "Defence revenue rose to ~INR10bn in Q2FY27, contributing 29% of revenue, while the defence order book stood at ~INR175.7bn within the overall order book of INR201.8bn, providing robust medium-term growth visibility.",
+  "fetchedAt": "2026-11-18T15:51:54.311Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "120e3dcb2e36",
+  "date": "2026-11-11",
+  "broker": "IDBI Capital",
+  "company": "Tata Steel",
+  "headline": "Q2FY27 Result Review",
+  "link": "https://www.idbidirect.in/IDBIAdmin/Pdf/TATA_RR_11112026-11-November-2026-1890400660.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": 209,
+    "cmp": 185,
+    "upside": null,
+    "recommendation": "HOLD"
+  },
+  "summary": {
+    "highlights": [
+      "Revenue increased 8% QoQ to Rs654bn, as volumes jumped 9% QoQ, driven by strong 16% QoQ volume growth in Indian operations.",
+      "Consolidated EBITDA increased 14% QoQ to Rs105bn, though EBITDA/t improved 5% QoQ to Rs13,299.",
+      "The UK operations EBITDA loss widened to Rs19,027/t in Q2FY27 from Rs7,071/t in Q1FY27 driven by drop in volumes and negative operating leverage.",
+      "Netherland business posted EBITDA of Rs6,069/t, jumped from Rs279/t in Q1FY27, as realisations improved."
+    ],
+    "valuation": [
+      "We assign an EV/EBITDA multiple of 7x to FY28E EBITDA to derive target price of Rs209 and maintain HOLD rating on the stock.",
+      "Downstream projects, including the 0.7 Mtpa HRPGL plant and doubling of tinplate capacity, are progressing.  Merchant iron ore sales are targeted at over 10 Mt in FY27, compared with approximately 2 Mt in the previous year, scaling up to 14–15 Mt by FY28.",
+      "Full-year production and delivery targets stand at approximately 6.5 Mt and 6.0 Mt, respectively.  The Joint Letter of Intent with the Dutch government was extended by five months to March 2027 to finalize the DRI-EAF pathway, energy affordability, coke plant closure timelines and slag management."
+    ],
+    "watch": [
+      "Key Highlights and Investment Rationale  Strong volumes growth in Indian operations: Revenue from Indian operations increased 15% QoQ to Rs425bn as sales volumes increased 16% QoQ to 5.98mn tonnes despite a seasonally soft quarter, showcasing resiliency.",
+      "Trading in stocks, stock derivatives, and other securities is inherently risky and the recipient agrees to assume complete and full responsibility for the outcomes of all trading decisions that the recipient makes, including but not limited to loss of capital."
+    ]
+  },
+  "blurb": "Revenue increased 8% QoQ to Rs654bn, as volumes jumped 9% QoQ, driven by strong 16% QoQ volume growth in Indian operations.",
+  "fetchedAt": "2026-11-18T15:51:28.323Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "1838b8c575f0",
+  "date": "2026-11-11",
+  "broker": "Ventura Securities",
+  "company": "Bharti Airtel",
+  "headline": "Q2FY27 Result Update",
+  "link": "https://ventura1.com/calltracking/TechnicalCalls/quaterly/639300199812993411_Bharti%20Airtel%20Q2FY27%20Result%20Update.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 2109,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "Revenue increased 4.0% QoQ from INR 58,539 cr, supported by healthy business momentum.",
+      "EBITDA increased 18.2% YoY to INR 34,946 cr, while EBITDA margin expanded 70 bps YoY to 57.4%, reflecting operating leverage and improved business mix.",
+      "Sequentially, EBITDA increased 4.9%, indicating sustained profitability improvement.",
+      "Overall, strong India and Africa profitability, enterprise growth and infrastructure investments supported performance, while Homes Services margin pressure remains a key monitorable."
+    ],
+    "valuation": [
+      "Airtel Money Africa listed on the London Stock Exchange in October 2026 at approximately USD 7 bn valuation, strengthening visibility for its financial services business. • India Mobility and Subscriber Premiumisation: India mobile added 0.7 mn revenue-earning customers and 2.9 mn smartphone data customers."
+    ],
+    "watch": [
+      "Overall, strong India and Africa profitability, enterprise growth and infrastructure investments supported performance, while Homes Services margin pressure remains a key monitorable.",
+      "ARPU increased to INR 271 from INR 264, partly benefiting from an additional calendar day. • Tariff Structure and ARPU Outlook: Management reiterated the need for structural pricing reforms, particularly monetising higher data consumption."
+    ]
+  },
+  "blurb": "Revenue increased 4.0% QoQ from INR 58,539 cr, supported by healthy business momentum.",
+  "fetchedAt": "2026-11-18T15:51:12.582Z"
+}

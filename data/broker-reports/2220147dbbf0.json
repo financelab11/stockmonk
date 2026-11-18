@@ -1,0 +1,35 @@
+{
+  "id": "2220147dbbf0",
+  "date": "2026-11-09",
+  "broker": "Axis Direct",
+  "company": "Tata Steel",
+  "headline": "Operating Resilience in India Outweighs Persistent European Drag",
+  "link": "https://simplehai.axisdirect.in/app/index.php/insights/reports/downloadReport/file/Tata+Steel+Ltd+-+Q2FY27+Result+Update+-+09112026_09-11-2026_11.pdf/type/fundamental",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 210,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Sector Outlook: Cautiously Positive Company Outlook & Guidance: Near-term profitability across all operating regions is guided to strengthen materially in H2FY27.",
+      "In India, steel realisations are anticipated to increase by Rs 3,500– 3,600/t QoQ in Q3FY27, comfortably offsetting a guided ~$15/t QoQ rise in coking coal consumption costs.",
+      "Capital allocation continues to heavily prioritise high-return domestic assets (>70% of capex deployed in India, generating 27% ROIC) alongside high-margin downstream expansions in cold rolling, colour- coated lines, tubes, and tinplate.",
+      "Consolidated leverage remains under check at 2.4x Net Debt/EBITDA, with management comfortable maintaining net leverage within the 2.3x–3.0x band during its peak annual capex cycle of ~Rs 20,000 Cr."
+    ],
+    "valuation": [
+      "Result Update 09th November, 2026 BUY Target Price 210 Tata Steel Ltd Steel 1 Operating Resilience in India Outweighs Persistent European Drag Est.",
+      "Influxes under pre-March transitional safeguard exemptions caused UK flat steel inventories to swell 60% above normal levels (~865 KT, or ~3 months of consumption), delaying the operational breakeven target toward Q4FY27 as excess channel stocks flush out.",
+      "Upstream long-term capacity expansion is anchored by the 4.8 MTPA NINL project (targeting full commissioning by FY30), supported by strategic optionalities at Meramandali and a proposed greenfield facility in Maharashtra."
+    ],
+    "watch": [
+      "Sector Outlook: Cautiously Positive Company Outlook & Guidance: Near-term profitability across all operating regions is guided to strengthen materially in H2FY27.",
+      "Key Financials (Consolidated) (Rs Cr) Q2FY27 QoQ (%) YoY (%) Axis Est."
+    ]
+  },
+  "blurb": "Sector Outlook: Cautiously Positive Company Outlook & Guidance: Near-term profitability across all operating regions is guided to strengthen materially in H2FY27.",
+  "fetchedAt": "2026-11-18T15:51:56.595Z"
+}

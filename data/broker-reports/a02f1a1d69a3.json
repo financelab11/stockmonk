@@ -1,0 +1,35 @@
+{
+  "id": "a02f1a1d69a3",
+  "date": "2026-11-11",
+  "broker": "Prabhudas Lilladher",
+  "company": "Krishna Institute of Medical Sciences",
+  "headline": "Growth momentum intact",
+  "link": "https://plindia.com/ResReport/KIMS-6-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 800,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 800 850 Sales (INR mn) 62,456 72,525 61,522 71,441 % Chng. 1.5 1.5 EBITDA (INR mn) 13,824 16,711 13,942 16,797 % Chng.",
+      "Our FY27E and FY28E EBITDA broadly remain unchanged however PAT stands reduced by 5-15% due to higher depreciation and interest charges.",
+      "Maintain ‘Buy’ rating with TP of INR800/share based on 26x Sept 2028E EV/EBITDA.",
+      "In line EBITDA; Bengaluru & Thane unit ramping up well: KIMS reported EBITDA of INR 2.6bn; up 28% YoY; in line with our estimates."
+    ],
+    "valuation": [
+      "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 800 850 Sales (INR mn) 62,456 72,525 61,522 71,441 % Chng. 1.5 1.5 EBITDA (INR mn) 13,824 16,711 13,942 16,797 % Chng.",
+      "Maintain ‘Buy’ rating with TP of INR800/share based on 26x Sept 2028E EV/EBITDA.",
+      "Management will prioritise stabilising existing operations before embarking on the next expansion phase, with a 300-bed Chennai hospital targeted for FY29– 30, followed by further expansion across existing southern markets."
+    ],
+    "watch": [
+      "(4.6) (4.0) Key Data KRII.BO | KIMS IN BSE Code 543308 NSE Code KIMS 52-W High / Low INR 858 / INR 575 Face Value 2 Sensex / Nifty 79,310 / 24,537 Market Cap INR 307 bn / $ 3,248 mn Shares Outstanding 420.01 mn 3M Avg.",
+      "Nashik recently secured GIPSA empanelment, which typically accounts for 40–50% of insurance volumes, providing a key volume and payer-mix catalyst for H2."
+    ]
+  },
+  "blurb": "Change in Estimates Current Previous FY28E FY29E FY28E FY29E Rating BUY BUY Target Price 800 850 Sales (INR mn) 62,456 72,525 61,522 71,441 % Chng. 1.5 1.5 EBITDA (INR mn) 13,824 16,711 13,942 16,797 % Chng.",
+  "fetchedAt": "2026-11-18T15:51:18.864Z"
+}

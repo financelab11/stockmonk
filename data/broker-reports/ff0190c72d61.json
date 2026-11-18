@@ -1,0 +1,35 @@
+{
+  "id": "ff0190c72d61",
+  "date": "2026-11-09",
+  "broker": "Prabhudas Lilladher",
+  "company": "Power Grid Corporation of India",
+  "headline": "Capex guidance raised, capitalisation trimmed",
+  "link": "https://plindia.com/ResReport/PWGR-3-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 321,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Underlying PAT growth was ~9% YoY before regulatory and one-off items, as per management’s earnings bridge.",
+      "Capitalisation stood at INR 40bn in Q2FY27 and INR 93bn in H1FY27, against the revised FY27 guidance of INR 250–300bn (earlier INR 300bn).",
+      "While this is below our/Street estimates, capex guidance was raised to INR 370–400bn, with H1 execution at INR 169bn.",
+      "Management expects annual capex of ~INR 400bn in FY28/29, with potential upside."
+    ],
+    "valuation": [
+      "Management expects annual capex of ~INR 400bn in FY28/29, with potential upside.",
+      "Management expects capex of ~INR400bn a year in FY28/29 with upside, and called the capitalisation outlook for those years encouraging given the HVDC and SynCon projects in hand.",
+      "Management expects ~INR 400bn of capex a year in FY28–29 with potential upside, and called the capitalisation outlook encouraging given the HVDC and synchronous condenser (SynCon) projects in hand, without giving a number."
+    ],
+    "watch": [
+      "The resumption of quarterly YoY PAT growth, strong capex visibility and sustained T&D bidding opportunities remain key positives.",
+      "Management expects capex of ~INR400bn a year in FY28/29 with upside, and called the capitalisation outlook for those years encouraging given the HVDC and SynCon projects in hand."
+    ]
+  },
+  "blurb": "Underlying PAT growth was ~9% YoY before regulatory and one-off items, as per management’s earnings bridge.",
+  "fetchedAt": "2026-11-18T15:51:51.555Z"
+}

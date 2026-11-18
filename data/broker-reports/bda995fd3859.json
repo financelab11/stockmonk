@@ -1,0 +1,35 @@
+{
+  "id": "bda995fd3859",
+  "date": "2026-11-18",
+  "broker": "Axis Direct",
+  "company": "Daily Fundamental View:November 18, 2026",
+  "headline": "Daily Fundamental View:November 18, 2026",
+  "link": "https://simplehai.axisdirect.in/app/index.php/insights/reports/downloadReport/file/Morning+note+and+CA+18+November+2026+%281%29_18-11-2026_09.pdf/type/fundamental",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "Aarti Industries surpassed Rs 3,600 Cr in quarterly revenue, driven by fuel additives and Zone 4 commercialisation.",
+      "Conversely, Apcotex Industries and NOCIL faced margin pressure from raw material inflation and elevated conversion costs.",
+      "Camlin Fine Sciences remained under severe financial stress due to liquidity constraints and continued suspension of its Dahej diphenol facility. • Outlook and Guidance: Sectoral recovery is expected to remain uneven, with high-barrier specialty chemicals, fluorochemicals, and CDMO platforms offering superior earnings visibility.",
+      "Commercialisation of recently commissioned capacities is expected to drive operating leverage, while semiconductor chemicals and advanced CDMO platforms remain key growth opportunities."
+    ],
+    "valuation": [
+      "Management reaffirmed its FY28 EBITDA target of Rs 1,800–2,200 Cr while maintaining Net Debt/EBITDA below 2.5x. • Apcotex Industries’ performance missed our estimates on all fronts.",
+      "Apcotex Industries targets 10–12% volume CAGR over the next 3–5 years, driven by structural demand across automotive and industrial applications.",
+      "NOCIL expects FY27 revenue to reach the upper end of its Rs 1,400–1,600 Cr guidance range, with operating EBITDA margins targeted at ~10%."
+    ],
+    "watch": [
+      "Adding to market anxiety, reports of a National Security Agency network outage heightened concerns over the resilience of the nation’s technology infrastructure, further weighing on investor sentiment.",
+      "Capacity commercialisation emerged as a key operating theme. • Chemistry Plays: Companies leveraging advanced fluorination chemistry, specialty ingredients, and integrated CDMO platforms outperformed."
+    ]
+  },
+  "blurb": "Aarti Industries surpassed Rs 3,600 Cr in quarterly revenue, driven by fuel additives and Zone 4 commercialisation.",
+  "fetchedAt": "2026-11-18T15:49:29.746Z"
+}

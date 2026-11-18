@@ -1,0 +1,34 @@
+{
+  "id": "827155c7305b",
+  "date": "2026-11-10",
+  "broker": "ICICI Securities",
+  "company": "Ajax Engineering",
+  "headline": "A strategic course correction",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261111061336_Ajax-Engineering-1111026-icici.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 770,
+    "cmp": 555,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Management struck an upbeat tone on exports and the non-SLCM segment, while it evaluates opportunities in the South American market.",
+      "In Q2FY27, SLCM volumes grew 6% YoY to 1,186 (nos.), which led to revenue of INR 4.9bn (+10% YoY), EBITDA of INR 515mn (+14% YoY) and PAT of INR 509mn.",
+      "Raw materials (RM) cost rose 5% YoY, which remains a key margin headwind.",
+      "In-line print Ajax reported revenues of INR 4.9bn (+10% YoY)."
+    ],
+    "valuation": [
+      "Vahan Source: I-Sec research, Company data 1,196 1,116 1,042 1,914 1,184 1,186 1,582 639 977 1,421 1,364 1,263 0 500 1000 1500 2000 2500 Q1FY26 Q2FY26 Q3FY26 Q4FY26 Q1FY27 Q2FY27 Reported volumes Volumes as per Vahan Ajax Engineering | Results Update | 10 November 2026 India | Institutional Equity Research 3 Valuation and outlook Ajax is a market leader in SLCM with a 75% market share (10-year average).",
+      "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+    ],
+    "watch": [
+      "Raw materials (RM) cost rose 5% YoY, which remains a key margin headwind.",
+      "Vahan Source: I-Sec research, Company data 1,196 1,116 1,042 1,914 1,184 1,186 1,582 639 977 1,421 1,364 1,263 0 500 1000 1500 2000 2500 Q1FY26 Q2FY26 Q3FY26 Q4FY26 Q1FY27 Q2FY27 Reported volumes Volumes as per Vahan Ajax Engineering | Results Update | 10 November 2026 India | Institutional Equity Research 3 Valuation and outlook Ajax is a market leader in SLCM with a 75% market share (10-year average)."
+    ]
+  },
+  "blurb": "Management struck an upbeat tone on exports and the non-SLCM segment, while it evaluates opportunities in the South American market.",
+  "fetchedAt": "2026-11-18T15:51:27.975Z"
+}

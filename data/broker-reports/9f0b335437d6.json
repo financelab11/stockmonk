@@ -1,0 +1,35 @@
+{
+  "id": "9f0b335437d6",
+  "date": "2026-11-08",
+  "broker": "ICICI Securities",
+  "company": "Godrej Agrovet",
+  "headline": "Animal feed and palm oil drive growth; crop protection/dairy muted due to weak monsoon",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261109080930_Godrej-Agrovet-0911026-icici.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 855,
+    "cmp": 602,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Revenue grew 17% YoY to INR 30bn, driven by animal feed, vegetable oil and B2C foods, while EBITDA margin contracted to 6.7% on weakness in crop protection and dairy.",
+      "Animal feed EBIT rose 32% YoY, and vegetable oil volumes (FFB +14% YoY) stayed strong, with the PKO derivatives plant commissioned on 1 Sep’26.",
+      "Management retains double-digit FFB volume growth guidance for FY27/FY28.",
+      "Crop protection, Astec and dairy are likely to stay under pressure in the near term, while Godrej Foods (B2C +50% YoY) and the ACI Godrej Bangladesh JV are emerging as growth drivers."
+    ],
+    "valuation": [
+      "Initial commercialisation has started, with meaningful contribution over the next 2–3 years and a medium-term target of 50–55% CDMO share.",
+      "The innovation-led diversification continues to progress: Ashitaka (maize herbicide) delivered first-year revenue of over INR 1bn, TAKAI insecticide has been launched for multiple crops, and Ghassnash (soybean herbicide) was launched in Nov’26.",
+      "Management targets annual OER of at least 19.7%, aiming to recover the weather- related shortfall, and retains double-digit FFB growth guidance for FY27/FY28, supported by maturing and younger plantations."
+    ],
+    "watch": [
+      "A 40% rainfall deficit in Jun’26 affected cotton sowing, and Aug–Oct’26 remained challenging across key agricultural markets.",
+      "Over the medium term, the company plans to introduce 1– 2 new products annually and expand into seven crop segments by FY29–30, reducing dependence on cotton and chilli, with field activation, distribution expansion and brand building as key priorities."
+    ]
+  },
+  "blurb": "Revenue grew 17% YoY to INR 30bn, driven by animal feed, vegetable oil and B2C foods, while EBITDA margin contracted to 6.7% on weakness in crop protection and dairy.",
+  "fetchedAt": "2026-11-18T15:51:59.698Z"
+}

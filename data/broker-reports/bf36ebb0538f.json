@@ -1,0 +1,35 @@
+{
+  "id": "bf36ebb0538f",
+  "date": "2026-11-11",
+  "broker": "Ventura Securities",
+  "company": "LG Electronics India",
+  "headline": "Q2FY27 Result Update",
+  "link": "https://ventura1.com/calltracking/TechnicalCalls/quaterly/639300199458773959_LG%20Electronics%20India%20Ltd%20Q2FY27%20Result%20Update.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 1793,
+    "upside": 22.9,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Home Appliances & Air Solution (H&A) revenue grew 20.9% YoY to INR 4,772 cr, driven by strong demand for washing machines, refrigerators and room air conditioners, alongside improved traction in dishwashers.",
+      "Home Entertainment (HE) revenue increased 17.2% YoY to INR 2,608 cr, supported by television demand, larger-screen premiumization and growth in B2B information displays.",
+      "EBITDA increased 28.0% YoY to INR 701 cr, with margins expanding 63 bps YoY to 9.5%, supported by operating leverage and a favorable premium product mix, despite higher commodity costs, rupee depreciation and festive-season investments.",
+      "H&A EBIT margin improved by 50 bps YoY to 8.7%, while HE margin expanded 30 bps to 12.9%."
+    ],
+    "valuation": [
+      "Valuation call: We recommend BUY at the current market price of INR 1,793, with a price target of INR 2,204 (47× FY29 earnings), representing an upside of 22.9% over the next 24 months.",
+      "Its growth is driven by premiumization, broad- based demand recovery, localization and exports. 3 | P a g e ( 1 1 t h N o v 2 0 2 6 ) For any further query, please email us on research@venturasecurities.com Valuation Our DCF based valuation model values LG Electronics India at a FY29 price target of INR 2,204 per share, representing an upside of 22.9% from the CMP of INR 1,793.",
+      "The Mini LED range targets consumers seeking premium display technology below OLED price points, broadening the addressable market. • LG Essential Series Expansion: The LG Essential range continues to gain traction among value-conscious consumers through India-specific features, including washing machines designed for low water pressure and refrigerators with adaptive cooling."
+    ],
+    "watch": [
+      "Risks: Volatility in input costs despite price hikes, execution risks in Sri City ramp- up, working capital intensity, and dependence on consumer demand growth.",
+      "Source: Company Reports & Ventura Research Key consolidated financial data (INR Cr, unless specified) Business Model – LG Electronics India is a leading consumer electronics and home appliances player, with strong leadership across home appliances, air solutions and entertainment categories."
+    ]
+  },
+  "blurb": "Home Appliances & Air Solution (H&A) revenue grew 20.9% YoY to INR 4,772 cr, driven by strong demand for washing machines, refrigerators and room air conditioners, alongside improved traction in dishwashers.",
+  "fetchedAt": "2026-11-18T15:51:20.731Z"
+}

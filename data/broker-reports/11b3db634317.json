@@ -1,0 +1,34 @@
+{
+  "id": "11b3db634317",
+  "date": "2026-11-16",
+  "broker": "Nirmal Bang",
+  "company": "EIH",
+  "headline": "Growth is largely back-ended",
+  "link": "https://www.nirmalbang.com/Upload/EIH-Ltd--2QFY27-Result-Update---16-November-2026.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "HOLD"
+  },
+  "summary": {
+    "highlights": [
+      "Key Points  2QFY27 operating performance came better than our estimates on account of strong RevPAR growth of the Oberoi brand (RevPAR 21% YoY).",
+      "Ongoing renovations in Mumbai properties impacted occupancy (71% from owned properties vis-à-vis 74% in CPLY) during the quarter.",
+      "Trident Tirupati commissioning timeline has been shifted to CY2030 as the State Government has allotted an alternative parcel of land where EIH is planning to increase the key count further.",
+      "After earnings revision, we downgrade EIH to HOLD on account of continued delays in upcoming projects and growth being largely back-ended."
+    ],
+    "valuation": [
+      "The valuation discount compared to peers in the luxury category is on account of the patchy growth trajectory, project delays and back ended growth based on the pipeline. 2QFY27 performance update: EIH’s consolidated revenue grew ~16% YoY supported by ~22% RevPAR growth of the Owned hotels portfolio.",
+      "Groundbreaking is expected in early CY27.  Oberoi Grand, Kolkata: The heritage restoration is underway, with reopening targeted for Sep’28."
+    ],
+    "watch": [
+      "Key Points  2QFY27 operating performance came better than our estimates on account of strong RevPAR growth of the Oberoi brand (RevPAR 21% YoY).",
+      "Trident Tirupati commissioning timeline has been shifted to CY2030 as the State Government has allotted an alternative parcel of land where EIH is planning to increase the key count further."
+    ]
+  },
+  "blurb": "Key Points  2QFY27 operating performance came better than our estimates on account of strong RevPAR growth of the Oberoi brand (RevPAR 21% YoY).",
+  "fetchedAt": "2026-11-18T15:50:01.233Z"
+}

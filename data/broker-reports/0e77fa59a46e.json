@@ -1,0 +1,35 @@
+{
+  "id": "0e77fa59a46e",
+  "date": "2026-11-11",
+  "broker": "Arihant Capital",
+  "company": "Voltas",
+  "headline": "Durable Leadership, Margin Normalisation Ahead",
+  "link": "https://arihantresearch.arihantcapital.com/Mumbai_Research/Voltas_Q2FY27_Result_update.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "Gross margins improved by 403bps YoY (+698 bps QoQ) at 28.9% in Q2FY27, supported by calibrated pricing and cost optimisation, though the full benefit was masked by ~18% cost inflation and seasonal price lock-ins covering ~35% of volumes.",
+      "EBITDA stood at INR 128cr (+81.6% YoY/-51.8% QoQ), below our estimates of INR 135cr.",
+      "EBITDA margin improved 172 bps YoY (-96 bps QoQ) to 4.7% in Q2FY27.",
+      "PAT stood at INR 48cr (+51.5% YoY/-77.6% YoY), below our estimates of INR 93cr, and PAT margin improved 42 bps YoY (-279 bps QoQ) to 1.8% in Q2FY27."
+    ],
+    "valuation": [
+      "Outlook & Valuation: Voltas enters H2FY27 with momentum built on dominant RAC leadership of 17.4% market share and a widened 420bps lead, 32% YoY volume growth, and a long runway from sub-10% penetration, a ~26mn unit installed base entering replacement, and expected El Niño-led summer stocking in Q4.",
+      "Voltbek targets EBITDA break-even by FY28E, the projects business carries ~INR 6,800cr of order book at a guided 4-6% sustainable margin, and the ~INR 438cr Sidra guarantee cancellation removes a key contingent overhang.",
+      "At CMP INR 1,123, we are upgrading to a “BUY” (earlier “HOLD”) rating at a TP of INR 1,350 per share; valued based on SOTP; upside of 20.2%."
+    ],
+    "watch": [
+      "Key Highlights Market leadership anchors structural growth: Voltas enters H2FY27 with a strengthened competitive moat in room air conditioners, holding 17.4% YTD market share and a 420bps lead over the nearest competitor (+120 bps YoY).",
+      "Q2 is seasonally the softest quarter, so sequential EBIT improvement into Q3 and a stronger Q4 is the key inflection to track, with downside risk limited if commodity and freight prices continue to soften."
+    ]
+  },
+  "blurb": "Gross margins improved by 403bps YoY (+698 bps QoQ) at 28.9% in Q2FY27, supported by calibrated pricing and cost optimisation, though the full benefit was masked by ~18% cost inflation and seasonal price lock-ins coverin",
+  "fetchedAt": "2026-11-18T15:51:27.257Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "c2d7f0cc2ded",
+  "date": "2026-11-16",
+  "broker": "Nirmal Bang",
+  "company": "Jubilant Pharmova",
+  "headline": "Revenue up, while margins lag; H2 recovery to follow",
+  "link": "https://www.nirmalbang.com/Upload/Jubilant-Pharmova--2QFY27-Result-Update---16-November-2026.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Business Update: Jubilant Pharmova’s Q2FY27 revenue rose 20.5% YoY to Rs23.7bn, with growth primarily coming from CDMO Sterile Injectables (up 32.8% YoY to Rs5.2bn), Generics (up 64.1% YoY to Rs2.7bn), and supported by Radiopharmaceuticals (up 17.5% YoY to Rs3.4bn), and Allergy (up 18.6% YoY to Rs2.3bn).",
+      "Sterile Injectables grew on tech transfer revenue from the new Line 3 at Spokane, now working with 13+ products across 5+ customers while generics grew on new launches and share gains in existing products.",
+      "EBITDA fell 29.6% YoY to Rs2.4bn, and margin contracted by 721bps YoY to 10.1%; the main drags being the unavailability of high margin SPECT products from the Montreal facility, higher remediation and operating costs, and negligible third-party revenue at Montreal.",
+      "Montreal lost over Rs800mn in the quarter with reported PAT down 74.1% YoY to Rs312mn."
+    ],
+    "valuation": [
+      "We maintain BUY with a revised target price of Rs1,266 (earlier: Rs1,261), rolling forward our valuation to Sep-28E at 25x P/E.",
+      "Valuation: We maintain BUY with a revised target price of Rs1,266 (earlier: Rs1,261), rolling forward our valuation to Sep-28E at 25x P/E, reflecting the improving earnings trajectory from SPECT normalisation, continued CDMO ramp-up, and the upcoming contribution from Line 4."
+    ],
+    "watch": [
+      "Outlook: Revenue growth remains healthy during the quarter, but earnings are being held back by the SPECT supply gap and Montreal remediation costs.",
+      "Key monitorables would be Montreal’s regulatory progress, SPECT supply, and Line 4 commencement, with a slip in SPECT supply to push the margin recovery into FY28."
+    ]
+  },
+  "blurb": "Business Update: Jubilant Pharmova’s Q2FY27 revenue rose 20.5% YoY to Rs23.7bn, with growth primarily coming from CDMO Sterile Injectables (up 32.8% YoY to Rs5.2bn), Generics (up 64.1% YoY to Rs2.7bn), and supported by R",
+  "fetchedAt": "2026-11-18T15:50:05.551Z"
+}

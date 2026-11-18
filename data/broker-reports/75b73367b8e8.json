@@ -1,0 +1,35 @@
+{
+  "id": "75b73367b8e8",
+  "date": "2026-11-04",
+  "broker": "ICICI Securities",
+  "company": "Bharat Electronics",
+  "headline": "Strong order book addition as well as sales execution guidance intact",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261104150854_Bharat-Electronics_04112026_ICICI-Securities.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 446,
+    "cmp": 380,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "H1FY27 revenue grew 26% vs. its guidance of 15%+ FY27, indicating a strong possibility of BEL meeting its target.",
+      "OB additions of INR 550bn largely depend upon QRSAM orders (INR 300bn) – likely to arrive by Dec’26.",
+      "We expect the company to marginally surpass its guidance given a sizeable TAM.",
+      "Given consecutive quarters of outperformance, we upgrade BEL to BUY; TP of INR 446 (based on 40x FY28E EPS)."
+    ],
+    "valuation": [
+      "H1FY27 revenue grew 26% vs. its guidance of 15%+ FY27, indicating a strong possibility of BEL meeting its target.",
+      "BEL is also investing significantly in its R&D capabilities and is expected to increase the expenditure here to INR 22bn in FY27 to target non-defence revenues over the next 4– 5 years through data centres, cyber security, rail and space; all while increasing its potential TAM size.",
+      "AMCA • BEL has submitted a bid in consortium with L&T on 50:50 basis. • 2-3 months of technical evaluation is expected before the price bid is opened."
+    ],
+    "watch": [
+      "Management is maintaining its guidance of +15% growth for FY27; thus, with stronger execution, the key monitorable remains timely order bookings to steer away from the top-line outpacing its OB and shortening the ramp for revenue visibility.",
+      "The recipient should independently evaluate the investment risks."
+    ]
+  },
+  "blurb": "H1FY27 revenue grew 26% vs. its guidance of 15%+ FY27, indicating a strong possibility of BEL meeting its target.",
+  "fetchedAt": "2026-11-18T15:53:04.156Z"
+}

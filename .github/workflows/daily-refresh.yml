@@ -45,6 +45,13 @@ jobs:
       - name: Refresh report prose
         run: pnpm refresh:stories
 
+      - name: Ingest broker notes
+        run: pnpm ingest:brokers
+        env:
+          BROKER_LIMIT: "400"
+          BROKER_WORKERS: "3"
+          BROKER_DELAY_MS: "150"
+
       - name: Refresh India coverage
         run: pnpm ingest:india
         env:

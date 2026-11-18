@@ -1,0 +1,34 @@
+{
+  "id": "a5db4d262a15",
+  "date": "2026-11-12",
+  "broker": "ICICI Securities",
+  "company": "WeWork India Management",
+  "headline": "Well set for self-funded portfolio expansion",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261116071358_WeWork-India-Management-1611026-icici.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 933,
+    "cmp": 683,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Given WEWORK’s plans for a phased ramp-up to 10.3msf by Mar’27 (28,000+ new desks in FY27) and 13msf beyond Mar’27, we model 22% revenue and EBITDA CAGR over FY26–29E.",
+      "We reiterate BUY with an unchanged TP of INR 933, based on 15x Mar’28E EV/EBITDA.",
+      "WEWORK has added 4,500 more desks to its portfolio in Oct’26, taking the figure past its 22,000- seat expansion guidance for H1FY27.",
+      "Expect 22% revenue and EBITDA CAGR over FY26–29E We estimate a 22% revenue and IGAAP EBITDA CAGR (post all lease rental payments and brokerage) over FY26–29E, with the IGAAP EBITDA margin expanding 210bps to 21.8% in FY28E vs. 19.7% in FY26, as corporate overheads drop as a percentage of operating revenue."
+    ],
+    "valuation": [
+      "We reiterate BUY with an unchanged TP of INR 933, based on 15x Mar’28E EV/EBITDA.",
+      "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+    ],
+    "watch": [
+      "The recipient should independently evaluate the investment risks.",
+      "None of the research recommendations promise or guarantee any assured, minimum or risk free return to the investors."
+    ]
+  },
+  "blurb": "Given WEWORK’s plans for a phased ramp-up to 10.3msf by Mar’27 (28,000+ new desks in FY27) and 13msf beyond Mar’27, we model 22% revenue and EBITDA CAGR over FY26–29E.",
+  "fetchedAt": "2026-11-18T15:51:07.071Z"
+}

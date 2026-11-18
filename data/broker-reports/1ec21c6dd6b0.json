@@ -1,0 +1,35 @@
+{
+  "id": "1ec21c6dd6b0",
+  "date": "2026-11-12",
+  "broker": "Motilal Oswal",
+  "company": "Hindustan Aeronautics",
+  "headline": "In-line revenue, beat on PAT",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261113050433_Hindustan-Aeronautics-1311026-moti.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 5900,
+    "cmp": 4843,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Per (%) -11/-2/4 12M Avg Val (INR M) 5450 Financials Snapshot (INR b) Y/E March 2027E 2028E 2029E Sales 376.5 472.9 608.6 EBITDA 110.9 136.8 165.6 Adj.",
+      "(%) 10.9 19.3 21.4 BV/Sh.(INR) 719.8 855.0 1,028.8 Ratios RoE (%) 21.0 21.1 21.3 RoCE (%) 21.2 21.3 21.4 Payout (%) 29.8 25.0 20.6 Valuations P/E (x) 32.0 26.9 22.1 P/BV (x) 6.7 5.7 4.7 EV/EBITDA (x) 24.6 19.2 15.0 Div.",
+      "Yield (%) 0.9 0.9 0.9 Shareholding pattern (%) As of Sep-26 Jun-26 Sep-25 Promoter 71.6 71.6 71.6 DII 12.6 12.0 8.7 FII 9.4 9.3 12.0 Others 6.4 7.0 7.7 FII includes depository receipts CMP: INR4,843 TP: INR5,900 (+22%) Buy Decent performance HNAL’s 2QFY27 revenue came in line with our estimates.",
+      "Lower-than-expected margin performance was offset by higher income from JVs and lower depreciation, resulting in slight outperformance at PAT level."
+    ],
+    "valuation": [
+      "(%) 10.9 19.3 21.4 BV/Sh.(INR) 719.8 855.0 1,028.8 Ratios RoE (%) 21.0 21.1 21.3 RoCE (%) 21.2 21.3 21.4 Payout (%) 29.8 25.0 20.6 Valuations P/E (x) 32.0 26.9 22.1 P/BV (x) 6.7 5.7 4.7 EV/EBITDA (x) 24.6 19.2 15.0 Div.",
+      "The stock is currently trading at 32.0x/26.9x/22.1x P/E on FY27E/FY28E/FY29E EPS.",
+      "We roll forward our TP to Dec’28, and reiterate our BUY rating with a revised TP of INR5,900 (INR5,800 earlier), based on average of DCF and 30x P/E Dec’28E earnings."
+    ],
+    "watch": [
+      "HAL is a key potential beneficiary for approvals covering advanced light helicopters (ALH), light multi-role helicopters (LMRH), and special utility helicopters for the Army and IAF.",
+      "Financial outlook We broadly maintain our estimates for FY27-29, and expect overall revenue/EBITDA/ PAT to clock a CAGR of 23%/19%/17% over FY26-29."
+    ]
+  },
+  "blurb": "Per (%) -11/-2/4 12M Avg Val (INR M) 5450 Financials Snapshot (INR b) Y/E March 2027E 2028E 2029E Sales 376.5 472.9 608.6 EBITDA 110.9 136.8 165.6 Adj.",
+  "fetchedAt": "2026-11-18T15:51:03.054Z"
+}

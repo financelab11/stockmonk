@@ -1,0 +1,34 @@
+{
+  "id": "b211e3d18462",
+  "date": "2026-11-16",
+  "broker": "ICICI Securities",
+  "company": "Inox Wind",
+  "headline": "A soft quarter, margin recovery ahead",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261116071847_Inox-Wind-1611026-icici.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 85,
+    "cmp": 64,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Inox Green’s O&M portfolio stood at 12.5GWp, as it discontinued some solar contracts because of lower margins.",
+      "Management highlighted a strong pipeline of 5GW over the next 4-5 months.",
+      "INXW also stands to benefit from orders from Inox Clean (group company).",
+      "However, it reported a soft quarter, with EBITDA margin contracting 520bps YoY to 15.1% because of raw material inflation, resulting in EBITDA of INR 2bn (-10% YoY) and PAT of INR 0.7bn (-43% YoY)."
+    ],
+    "valuation": [
+      "We maintain our BUY rating on the stock with an SoTP-based revised target price of INR 85/share (vs.",
+      "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+    ],
+    "watch": [
+      "Key risks: 1) slowdown in order inflow; 2) slowdown in RE project bidding; and 3) further increase in receivables.",
+      "The recipient should independently evaluate the investment risks."
+    ]
+  },
+  "blurb": "Inox Green’s O&M portfolio stood at 12.5GWp, as it discontinued some solar contracts because of lower margins.",
+  "fetchedAt": "2026-11-18T15:50:04.612Z"
+}

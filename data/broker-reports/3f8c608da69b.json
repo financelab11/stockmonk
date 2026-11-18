@@ -1,0 +1,33 @@
+{
+  "id": "3f8c608da69b",
+  "date": "2026-11-09",
+  "broker": "Ventura Securities",
+  "company": "Titan",
+  "headline": "Q2FY27 Result Update",
+  "link": "https://ventura1.com/calltracking/TechnicalCalls/quaterly/639298169346188009_Titan%20Q2FY27%20Result%20Update.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 4990,
+    "upside": 8.5,
+    "recommendation": "HOLD"
+  },
+  "summary": {
+    "highlights": [
+      "Gross profit for the quarter reached INR 5,592 cr with a gross margin of 27.1%.",
+      "EBITDA grew to INR 2,984 cr, with consolidated EBITDA margin expanding to 14.5% (vs 12.1% in Q2FY26), while PBIT stood at INR 2,721 cr with a margin of 13.2%.",
+      "PBT surged 97.1% YoY to INR 3,001 cr (14.6% margin), supported by operating leverage and a non-operational Ind-AS credit of INR 671 cr on Damas put-option liability.",
+      "PAT and Net Profit reached INR 2,394 cr and INR 2,393 cr respectively (+113.7% YoY growth; Net profit margin of 11.6%)."
+    ],
+    "valuation": [
+      "Rating Criteria Definition BUY >= 20% Target price is equal to or more than 20% of CMP HOLD >= 0% to < 20% Target price is more than CMP but less than 20% of CMP SELL <= 0% (negative return) Target price is less than CMP NOT RATED No recommendation No target"
+    ],
+    "watch": [
+      "Operational performance across key business segments is assessed below: • Jewelry Business: Domestic jewelry revenue grew 20.8% YoY to INR 16,343 cr (Tanishq/Mia/Zoya: INR 14,935 cr, +19.9%; CaratLane: INR 1,408 cr, +31.3%).",
+      "Segment domestic EBIT reached INR 2,281 cr (14.0% margin), aided by INR 490 cr customs duty gains (INR 46 cr in CaratLane). • Watch Business: Watches revenue rose 27.4% YoY to INR 1,881 cr (domestic: INR 1,838 cr, +27.2%), led by analog premiumisation in Helios and Vetra automatic movement."
+    ]
+  },
+  "blurb": "Gross profit for the quarter reached INR 5,592 cr with a gross margin of 27.1%.",
+  "fetchedAt": "2026-11-18T15:51:57.997Z"
+}

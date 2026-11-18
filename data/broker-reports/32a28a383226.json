@@ -1,0 +1,35 @@
+{
+  "id": "32a28a383226",
+  "date": "2026-11-09",
+  "broker": "ICICI Securities",
+  "company": "Tata Steel",
+  "headline": "On well charted growth trajectory, trades inexpensive",
+  "link": "https://mailcontent.icicidirect.com/mailcontent/idirect_tatasteel_q2fy27.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 185,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "Consolidated topline stood at ₹65,436 crore (up 12% YoY) with steel sales volume of 7.9 MT (flat YoY).",
+      "Reported EBITDA stood at ₹10,533 crore with EBITDA margins at 16.1% (up 86 bps QoQ).",
+      "Indian operation EBITDA/ton stood at ~₹17.4k vs ₹18.6k in Q1FY27.",
+      "PAT (post minority interest) stood at ₹3,666 crore (up 18% YoY)."
+    ],
+    "valuation": [
+      "Investment Rationale: • India: Capacity expansion to capitalise on rising domestic steel demand : Tata Steel, a century-old steel major, is targeting ~40 MTPA capacity going forward to meet India's growing steel demand, with recently commissioned 0.75 MTPA EAF facility at Ludhiana, taking India crude steel capacity to 27.4 MTPA.",
+      "In UK, it is undergoing a 3.2 MTPA Electric Arc Furnace (EAF) project, targeted for commissioning by 2027, supported by a £500 million government grant under £1.25 billion capex.",
+      "Additionally, TSL’s cost saving target of ₹7,000 crores in FY27 will act as tailwind going ahead."
+    ],
+    "watch": [
+      "Key growth capex projects include: (i) a 4.8 MTPA Neelachal expansion (capex of ~₹33,873 crore); (ii) a 2.5 MTPA thin slab caster & rolling facility; 3) a strategic partnership with Lloyds Metals & Energy to develop an iron ore hub in Gadchiroli, alongside a 6 MTPA greenfield steel plant in Maharashtra.",
+      "Investments in securities market are subject to market risks."
+    ]
+  },
+  "blurb": "Consolidated topline stood at ₹65,436 crore (up 12% YoY) with steel sales volume of 7.9 MT (flat YoY).",
+  "fetchedAt": "2026-11-18T15:51:56.416Z"
+}

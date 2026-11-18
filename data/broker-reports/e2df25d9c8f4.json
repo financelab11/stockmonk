@@ -1,0 +1,35 @@
+{
+  "id": "e2df25d9c8f4",
+  "date": "2026-11-04",
+  "broker": "Axis Direct",
+  "company": "Natl. Aluminium",
+  "headline": "",
+  "link": "https://simplehai.axisdirect.in/app/index.php/insights/reports/downloadReport/file/National+Aluminium+Company+Ltd+-+Q2FY27+Result+Update+-+04112026+%281%29_04-11-2026_12.pdf/type/fundamental",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 355,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Actual for Q2FY27: Revenue – BEAT; EBITDA – Marginally MISS; PAT – INLINE Change in Estimates Post Q2FY27 Results FY27E/FY28E: Revenue 1%/-2%; EBITDA: -2%/-7%; PAT: 0%/-6%.",
+      "However, Q2FY27 EBITDA stood at Rs 2,411 Cr (up 25% YoY, down 11% QoQ), weighed down by a surge in power & fuel expenses, driven by coal rake diversion to IPPs during the monsoon season. • Alumina Refinery Mechanical Completion Nearing Finish Line: Around 35 out of 50 packages have completed mechanical installation, with critical packages crossing 90-92% physical progress.",
+      "Current Valuation: 6.0x FY28E EV/EBITDA (Earlier Valuation: 7.0x FY28E EV/EBITDA) Current TP: Rs 355/share (Earlier TP: Rs 420/share) Recommendation: We maintain our BUY rating.",
+      "Financial Performance: NALCO’s consolidated revenue stood at Rs 5,419 Cr (up 26% YoY), beating our and consensus estimates by 13% and 9%, respectively, led by higher metal sales volumes (119 Kt, up 6% YoY)."
+    ],
+    "valuation": [
+      "Result Update 04th November, 2026 BUY Target Price 355 National Aluminium Co Ltd (NALCO) Metals & Mining 1 Steady Performance; Refinery Expansion Remains a Key Monitorable Est.",
+      "Current Valuation: 6.0x FY28E EV/EBITDA (Earlier Valuation: 7.0x FY28E EV/EBITDA) Current TP: Rs 355/share (Earlier TP: Rs 420/share) Recommendation: We maintain our BUY rating.",
+      "Variance Net Sales 5,419 2% 26% 4,807 13% EBITDA 2,411 -11% 25% 2,457 -2% EBITDA % 44% -7 bps 0 bps 51% -7 bps PAT (exl Exceptional) 1,835 -8% 28% 1,835 0% Source: Company, Axis Securities Research (CMP as of 03rd November, 2026) CMP (Rs) 318 Upside /Downside (%) 12% High/Low (Rs) 445/228 Market cap (Cr) 58,322 Avg. daily vol."
+    ],
+    "watch": [
+      "Result Update 04th November, 2026 BUY Target Price 355 National Aluminium Co Ltd (NALCO) Metals & Mining 1 Steady Performance; Refinery Expansion Remains a Key Monitorable Est.",
+      "Input cost headwinds in CP coke and caustic soda will be partially counterbalanced by seasonal techno- economic efficiencies, keeping alumina production costs stable at Rs 24,000-25,000 Cr ($250/t)."
+    ]
+  },
+  "blurb": "Actual for Q2FY27: Revenue – BEAT; EBITDA – Marginally MISS; PAT – INLINE Change in Estimates Post Q2FY27 Results FY27E/FY28E: Revenue 1%/-2%; EBITDA: -2%/-7%; PAT: 0%/-6%.",
+  "fetchedAt": "2026-11-18T15:53:19.488Z"
+}

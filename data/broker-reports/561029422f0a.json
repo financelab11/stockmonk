@@ -1,0 +1,35 @@
+{
+  "id": "561029422f0a",
+  "date": "2026-11-11",
+  "broker": "ICICI Securities",
+  "company": "Hindalco Industries",
+  "headline": "Capex execution picks up pace, trades inexpensive",
+  "link": "https://mailcontent.icicidirect.com/mailcontent/idirect_hindalco_q2fy27.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 950,
+    "upside": null,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "Reported EBITDA stood at ₹12,831 crore (up 43% YoY) with corresponding EBITDA margins at 14% (down ~248 bps QoQ).",
+      "Additionally, ~170 KT of downstream FRP capacity has been added across battery foils, extrusions & enclosures, enhancing its overall margin profile.",
+      "Excluding this, adjusted EBITDA/tonne came in at ~$510/tonne (down from $525/tonne in Q1FY27).",
+      "Going ahead, while the tariff impact continues to decline gradually along with tad impact from labour strike, the eventual ramp up of the Oswego plant is expected to drive volume recovery from H2CY26 and support positive free cash flow generation by FY27-end."
+    ],
+    "valuation": [
+      "x ICICI Securities – Retail Equity Research Hindalco (HINDAL) CMP: ₹ 950 Target ₹ 1,150 (21%) Target Period: 12 months November 11, 2026 Capex execution picks up pace, trades inexpensive ...",
+      "Rating and Target Price : • Novelis is expected to deliver healthy performance, supported by ramp up of Oswego plant and commissioning of Bay Minette facility.",
+      "Accordingly, we retain our BUY rating on the stock and value it at ₹1, 150 i.e. 7x EV/EBITDA on FY28E ."
+    ],
+    "watch": [
+      "Investments in securities market are subject to market risks.",
+      "None of the research recommendations promise or guarantee any assured, minimum or risk - free retur n to the investors."
+    ]
+  },
+  "blurb": "Reported EBITDA stood at ₹12,831 crore (up 43% YoY) with corresponding EBITDA margins at 14% (down ~248 bps QoQ).",
+  "fetchedAt": "2026-11-18T15:51:15.439Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "f37734d154d9",
+  "date": "2026-11-17",
+  "broker": "ICICI Securities",
+  "company": "Ahluwalia Contracts India",
+  "headline": "Navigating a foggy terrain",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261117061759_Ahluwalia-Contracts-India-1711026-icici.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 575,
+    "cmp": 555,
+    "upside": null,
+    "recommendation": "HOLD"
+  },
+  "summary": {
+    "highlights": [
+      "Q1FY27 margin declined to 4.3%, as steep minimum wage hikes in Haryana and UP coincided with a one-off hit from AIIMS Jammu, prompting management to rule out double-digit margins for the year.",
+      "Revenue grew 24% YoY to INR 14.6bn as slow-moving projects gathered pace.",
+      "EBITDA margin climbed to 7.6%, partly due to cost pass-throughs taking effect, but stayed well short of the YoY base, pulling PAT down 29% YoY.",
+      "Management reiterated its guidance of 15% revenue growth in FY27 and 15–20% in FY28."
+    ],
+    "valuation": [
+      "We have also reduced the multiple given the uncertainties, valuing the stock at 14x FY28E earnings (16x FY28E earlier).",
+      "Upside risks: 1) Better-than-expected project execution; and 2) better-than-expected profitability.",
+      "The views and opinions expressed in this document may or may not match or may be contrary with the views, estimates, rating, and target price of the Retail Research."
+    ],
+    "watch": [
+      "Some of the key projects, including the Central Vista and CSMT, are expected to see an execution ramp-up through FY27–28.",
+      "Uncertainties cloud near-term outlook Ahluwalia has highlighted that construction restrictions in the NCR are expected to impact execution in Q3FY27."
+    ]
+  },
+  "blurb": "Q1FY27 margin declined to 4.3%, as steep minimum wage hikes in Haryana and UP coincided with a one-off hit from AIIMS Jammu, prompting management to rule out double-digit margins for the year.",
+  "fetchedAt": "2026-11-18T15:49:33.732Z"
+}

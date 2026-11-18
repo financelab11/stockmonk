@@ -1,0 +1,35 @@
+{
+  "id": "792dfa4fcc0a",
+  "date": "2026-11-11",
+  "broker": "Ventura Securities",
+  "company": "Shilpa Medicare",
+  "headline": "Q2FY27 Result Update",
+  "link": "https://ventura1.com/calltracking/TechnicalCalls/quaterly/639300096511849107_Shilpa%20Medicare%20Ltd%20Result%20Update%20Q2FY27%20%281%29.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 948,
+    "upside": 8,
+    "recommendation": null
+  },
+  "summary": {
+    "highlights": [
+      "EBITDA increased 37.3% YoY and 8.6% QoQ to INR 151 Cr, with EBITDA margin at 28.0% vs 30.0% in Q1FY27, impacted by a change in business mix.",
+      "PAT stood at INR 79 Cr, up 79.5% YoY but declining 21.5% QoQ, with PAT margin at 14.7%.",
+      "The company delivered its highest-ever quarterly revenue and EBITDA, reflecting strong performance across its API, formulations and biologics businesses.",
+      "The API business recorded revenue of INR 298 Cr including captive sales, while non-captive API revenue stood at INR 255 Cr, growing 24% YoY."
+    ],
+    "valuation": [
+      "The company continues to strengthen its API pipeline with 25+ non-captive CDMO client programmes and 15+ new oncology generic products targeted for completion in FY27.",
+      "Key Consolidated Financial Data (INR Cr, unless specified Source: Ventura Research & Company update HOLD @ CMP INR 948 Target: INR 1,027 in 24 months Upside Potential: 8% Result Update Q2FY27 Industry Pharmaceutical Scrip Details Face Value (INR) 1.0 Market Cap (INR Cr) 18,542 Price (INR) 948 No of Sh O/S (Cr) 19.6 1M Avg Vol (000) 1,450 52W H/L (INR) 1096/260 Div.",
+      "Valuation call – We recommend a HOLD rating on SML with a revised target price of INR 1,027 (35X FY29E P/E) with an upside potential of 8% from the CMP of 948."
+    ],
+    "watch": [
+      "Growth was supported by improved uptake of key products from expanded capacities and increasing traction in Specialty CDMO, which reported 36% YoY growth.",
+      "The Formulations business remained a key growth driver with revenue of INR 210 Cr, contributing 39% of Q2FY27 revenue and growing over 50% YoY, led by complex finished dosage formulations across regulated markets."
+    ]
+  },
+  "blurb": "EBITDA increased 37.3% YoY and 8.6% QoQ to INR 151 Cr, with EBITDA margin at 28.0% vs 30.0% in Q1FY27, impacted by a change in business mix.",
+  "fetchedAt": "2026-11-18T15:51:24.715Z"
+}

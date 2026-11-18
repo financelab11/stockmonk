@@ -1,0 +1,35 @@
+{
+  "id": "c13a05a9874c",
+  "date": "2026-11-18",
+  "broker": "IDBI Capital",
+  "company": "Apeejay Surrendra Park Hotels",
+  "headline": "Q2FY27 Result Review",
+  "link": "https://www.idbidirect.in/IDBIAdmin/Pdf/PARKHOTE_RR_18112026-18-November-2026-1549563112.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": 134,
+    "cmp": 104,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "The management expects stronger ARR growth and improved PBT and PAT in H2FY27, as seasonal demand offsets higher interest and depreciation expenses.",
+      "We have broadly maintained our earnings estimates for FY27E/FY28 and reiterate BUY with a TP of Rs134, assigning 11x EV/EBITDA on FY28E.  Good show on key operating metrics: Net sales increased by 7.4% YoY to Rs1,797Mn in Q2 FY27.",
+      "Consolidated EBITDA grew 10.8% YoY to Rs543Mn at a 30.2% margin.",
+      "PAT declined 9.7% YoY to Rs146Mn at an 8.1% margin due to higher depreciation of Rs229Mn and interest of Rs108Mn.Owned hotels recorded 94% occupancy in Q2 FY27 compared to 93% in Q2 FY26."
+    ],
+    "valuation": [
+      "We have broadly maintained our earnings estimates for FY27E/FY28 and reiterate BUY with a TP of Rs134, assigning 11x EV/EBITDA on FY28E.  Good show on key operating metrics: Net sales increased by 7.4% YoY to Rs1,797Mn in Q2 FY27.",
+      "Further, at current price, the stock is available at attractive valuation, which further strengthens our investment rationale.",
+      "Driven by an asset-light strategy, the FY31 target mix comprises 4,905 managed keys, 2,112 owned keys, and 483 leased keys."
+    ],
+    "watch": [
+      "Further, it identified strong structural tailwinds across key demand segments, noting the Indian wedding industry is expanding at a 14.3% CAGR and MICE is growing at 10% to 13%.",
+      "The company outlined a roadmap to scale the portfolio to 100 hotels and 7,500 keys by FY31 by adding 57 hotels and 4,771 keys."
+    ]
+  },
+  "blurb": "The management expects stronger ARR growth and improved PBT and PAT in H2FY27, as seasonal demand offsets higher interest and depreciation expenses.",
+  "fetchedAt": "2026-11-18T15:49:26.516Z"
+}

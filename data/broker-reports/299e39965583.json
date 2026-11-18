@@ -1,0 +1,31 @@
+{
+  "id": "299e39965583",
+  "date": "2026-11-11",
+  "broker": "Prabhudas Lilladher",
+  "company": "Elgi Equipments",
+  "headline": "Healthy Q2, GTM momentum fuels growth",
+  "link": "https://plindia.com/ResReport/ELEQ-7-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 663,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "India witnessed strong growth, supported by improved customer conversion for Demand-Match, higher inquiry levels following the implementation of its go-to-market (GTM) strategy and buoyant domestic demand.",
+      "North America also sustained a strong growth trajectory, while Europe remained mixed, with industrials growing but the Italian portables business facing subdued demand.",
+      "Management remains confident of achieving marginal profitability in Europe in FY27, with breakeven considered the worst-case scenario, while Australia is expected to recover in H2FY27 following ongoing restructuring.",
+      "The oil-free compressor segment offers incremental growth opportunities, supported by healthy demand from pharma and food processing, while the MK2 campus consolidation and automated global parts warehouse are expected to strengthen operational efficiency."
+    ],
+    "valuation": [],
+    "watch": [
+      "Overall, improving demand, GTM-led market penetration and a rising aftermarket mix support ELGI’s growth outlook, although geopolitical uncertainty, commodity inflation and the pace of recovery in Europe and Australia remain key monitorables.",
+      "Performance in Europe (+13% YoY) and Australia (+8% YoY) remained subdued amid prevailing economic headwinds."
+    ]
+  },
+  "blurb": "India witnessed strong growth, supported by improved customer conversion for Demand-Match, higher inquiry levels following the implementation of its go-to-market (GTM) strategy and buoyant domestic demand.",
+  "fetchedAt": "2026-11-18T15:51:14.518Z"
+}

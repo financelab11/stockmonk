@@ -1,0 +1,35 @@
+{
+  "id": "c4f6475d99aa",
+  "date": "2026-11-07",
+  "broker": "Anand Rathi",
+  "company": "Cello World",
+  "headline": "Weak quarter",
+  "link": "https://images.moneycontrol.com/static-mcnews/2026/11/20261109071120_Cello-World-0911026-anand.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Consumerware revenue remained flat (down 1% y/y) due to shift in festive demand to Q3 and slower ramp-up of SS bottle plant.",
+      "Despite price hikes in the previous quarter, EBITDA margin contracted by 249bps y/y to 19.2% in Q2FY27, due to slow ramp-up of SS bottle plant, high gas prices offsetting the price hikes in glassware and higher contribution from low- margin Cello pens.",
+      "Margin is also expected to improve, going forward to be led by operational efficiency.",
+      "Management Commentaries and Outlook: (a) The management targets revenue to grow at 10% y/y in FY27e and 17-18% in FY28e."
+    ],
+    "valuation": [
+      "Thus, we maintain BUY rating on the stock with an unrevised TP of Rs460, valuing it at an unchanged multiple of 25x on Sep-28e EPS.",
+      "Management Commentaries and Outlook: (a) The management targets revenue to grow at 10% y/y in FY27e and 17-18% in FY28e.",
+      "It targets a combined revenue of ~Rs5.5bn from Opalware and Glassware in FY27e; (b) Looking ahead, the margin is expected to improve, due to expectation of some relief from cost pressure, ramp-up of SS bottle and resumption of glassware plant in Dec-26; (c) Cello has no major capex plans, apart from maintenance capex for FY27e; (d) It is actively exploring inorganic opportunities to utilise the surplus cash."
+    ],
+    "watch": [
+      "Management Commentaries and Outlook: (a) The management targets revenue to grow at 10% y/y in FY27e and 17-18% in FY28e.",
+      "Outlook and Valuation: We have marginally tweaked our EPS estimate by +0.6/-2.2% for FY27/28e based on Q2FY27 result."
+    ]
+  },
+  "blurb": "Consumerware revenue remained flat (down 1% y/y) due to shift in festive demand to Q3 and slower ramp-up of SS bottle plant.",
+  "fetchedAt": "2026-11-18T15:52:04.707Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "e456cbb146b2",
+  "date": "2026-11-11",
+  "broker": "Prabhudas Lilladher",
+  "company": "MphasiS",
+  "headline": "Growth outlook strengthens but weighs on margins",
+  "link": "https://plindia.com/ResReport/MPHL-6-11-26-PL.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 2960,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "Logistics 3.8% QoQ growth), marking its strongest sequential growth in three years.",
+      "Growth was led by BFS (+4.4% QoQ) and TMT (+9.9% QoQ), while Insurance also returned to sequential growth (+1.8%).",
+      "The pipeline reached a record high, up 23% YoY, with 71% AI-led, while shorter-cycle deals (below US$20mn) grew 26% on a TTM basis, supporting near-term revenue conversion.",
+      "Driven by strong deal wins and pipeline conversion, management expects H2FY27 momentum to sustain and raises its FY27 revenue growth outlook to low-double-digit."
+    ],
+    "valuation": [
+      "Net Income/OCF is targeted at 80%, to be normalised in FY28 • Net Headcount increased by 823 QoQ • TCV wins were steady at USD 466 mn compared to USD 461 mn in Q1."
+    ],
+    "watch": [
+      "Driven by strong deal wins and pipeline conversion, management expects H2FY27 momentum to sustain and raises its FY27 revenue growth outlook to low-double-digit."
+    ]
+  },
+  "blurb": "Logistics 3.8% QoQ growth), marking its strongest sequential growth in three years.",
+  "fetchedAt": "2026-11-18T15:51:22.467Z"
+}

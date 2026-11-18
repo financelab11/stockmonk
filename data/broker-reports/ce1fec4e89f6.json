@@ -1,0 +1,33 @@
+{
+  "id": "ce1fec4e89f6",
+  "date": "2026-11-09",
+  "broker": "Way2Wealth",
+  "company": "National Stock Exchange of India",
+  "headline": "Result Update",
+  "link": "https://www.way2wealth.com/Reports/RR091120260a68b.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": null,
+    "upside": null,
+    "recommendation": "HOLD"
+  },
+  "summary": {
+    "highlights": [
+      "(NSE Ltd.) Important Data • National Stock Exchange of India (NSE) reported its first results since listing: consolidated PAT of ₹2,578crs, up 22.9% YoY (−17.4% QoQ).",
+      "Options market share (68%) is the watch-point. • Capital & Corporate Actions: H1FY27 PAT was ₹5,698crs; board approved sale of up to 40% of National Coal Exchange; SEBI settlement behind. • We recommend to HOLD the stock at current price with an exit multiple of 40x FY28E EPS.",
+      "Q1 data connectivity was ₹258crs and rack/connectivity income rose again this quarter. ● Cost Base: Total expenses of ₹1,161crs (−51% YoY), broadly flat QoQ (₹1,129crs).",
+      "The YoY drop is almost entirely the ₹1,297crs SEBI settlement provision booked in Q2FY26. ● Reported vs Underlying: Reported EBITDA +107% YoY to ₹3,079crs; normalised Q2FY26 EBITDA was ₹2,782crs, so underlying growth is ~11%."
+    ],
+    "valuation": [
+      "Options market share (68%) is the watch-point. • Capital & Corporate Actions: H1FY27 PAT was ₹5,698crs; board approved sale of up to 40% of National Coal Exchange; SEBI settlement behind. • We recommend to HOLD the stock at current price with an exit multiple of 40x FY28E EPS."
+    ],
+    "watch": [
+      "Options market share (68%) is the watch-point. • Capital & Corporate Actions: H1FY27 PAT was ₹5,698crs; board approved sale of up to 40% of National Coal Exchange; SEBI settlement behind. • We recommend to HOLD the stock at current price with an exit multiple of 40x FY28E EPS.",
+      "Risks: derivatives regulation (expiry, lot size), options market-share loss, a falling volume cycle and regulatory/litigation."
+    ]
+  },
+  "blurb": "(NSE Ltd.) Important Data • National Stock Exchange of India (NSE) reported its first results since listing: consolidated PAT of ₹2,578crs, up 22.9% YoY (−17.4% QoQ).",
+  "fetchedAt": "2026-11-18T15:51:49.058Z"
+}

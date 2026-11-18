@@ -1,0 +1,34 @@
+{
+  "id": "57fa7bdf5f31",
+  "date": "2026-11-12",
+  "broker": "Ventura Securities",
+  "company": "NBCC (India)",
+  "headline": "Q2FY27 Result Update",
+  "link": "https://ventura1.com/calltracking/TechnicalCalls/quaterly/639300748976027934_Q2FY27%20Result%20Update%20NBCC.pdf",
+  "reportType": "Result Update",
+  "deepDive": false,
+  "metrics": {
+    "target": null,
+    "cmp": 78,
+    "upside": 101,
+    "recommendation": "BUY"
+  },
+  "summary": {
+    "highlights": [
+      "NBCC (India) Limited (NBCC) reported a strong Q2FY27, with growth in both revenue and profitability.",
+      "Revenue from operations was INR 3,396 cr, up 16.5% YoY and 50.3% QoQ, led by strong standalone execution, where revenue grew 37.8% YoY to INR 2,890 cr.",
+      "EBITDA margin rose to 6.6%, up 300 bps YoY and down 30 bps QoQ.",
+      "The margin gain came from marketing fee income on redevelopment asset sales and operating leverage on a largely fixed cost base."
+    ],
+    "valuation": [
+      "FY27 inflow guidance of INR 50,000-60,000 cr is maintained, led by 5 GPRA (INR 30,000-35,000 cr) and new state mandates from Bihar and West Bengal, with the order book targeted at INR 1.8 lakh cr by FY27 end.  Execution Ramp-Up in H2: Management expects INR 15,000-16,000 cr of works to be awarded over the next two quarters, including Supertech at INR 9,600 cr, which will contribute revenue from Q4.",
+      "The order book is targeted at INR 1.8 lakh cr by FY27 end.  Execution is the key watch point: Works awarded in H1 were INR 3,166 cr."
+    ],
+    "watch": [
+      "Risks: Arranging funds, statutory clearance, aged receivables & domestic slowdown.",
+      "The order book is targeted at INR 1.8 lakh cr by FY27 end.  Execution is the key watch point: Works awarded in H1 were INR 3,166 cr."
+    ]
+  },
+  "blurb": "NBCC (India) Limited (NBCC) reported a strong Q2FY27, with growth in both revenue and profitability.",
+  "fetchedAt": "2026-11-18T15:51:04.529Z"
+}

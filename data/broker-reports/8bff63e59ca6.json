@@ -1,0 +1,33 @@
+{
+  "id": "8bff63e59ca6",
+  "date": "2026-11-09",
+  "broker": "Choice Broking",
+  "company": "Sirca Paint India",
+  "headline": "Healthy Growth Momentum Continues",
+  "link": "https://resrepo.choiceindia.com/researchfiles/research/2026/11/09/6af15b42287c8_sirca_strong-execution-reinforces-long-term-growth-outlook_q2fy27-result-update_nov-09,-2026.pdf",
+  "reportType": "Stock Note",
+  "deepDive": false,
+  "metrics": {
+    "target": 560,
+    "cmp": 407,
+    "upside": null,
+    "recommendation": "REDUCE"
+  },
+  "summary": {
+    "highlights": [
+      "However, EBITDA margin declined by 269bps YoY to 18.2% due to higher input cost, despite calibrated price increases partly offsetting the impact.",
+      "The management remains focussed on expanding Wembley’s pan- India presence, strengthening distribution and driving margin recovery.",
+      "We anticipate a gradual improvement in earnings, as pricing actions flow through in H2FY27E.",
+      "We forecast SIRCA’s Revenue/EBITDA/PAT to respectively expand at 20.8% / 21.7% / 25.2% CAGR over FY26–29E."
+    ],
+    "valuation": [
+      "Valuation & View We retain our 'BUY' rating on SIRCA, valuing the company on a P/E-based framework: we apply a target multiple of 32.0x on FY28E core EPS of INR 17.5/share to arrive at a target price of INR 560/share (maintained)."
+    ],
+    "watch": [
+      "Key Risks A possible slowdown in the real estate market, furniture, renovation, interior fit- outs and probable predatory pricing could affect SIRCA’s business.",
+      "This Report does not take into account the specific investment objectives, financial situation, risk profile, or particular needs of any individual or class of investors and does not constitute a personal recommendation or investment advice."
+    ]
+  },
+  "blurb": "However, EBITDA margin declined by 269bps YoY to 18.2% due to higher input cost, despite calibrated price increases partly offsetting the impact.",
+  "fetchedAt": "2026-11-18T15:51:54.675Z"
+}

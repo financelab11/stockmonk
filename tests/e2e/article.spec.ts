@@ -152,7 +152,7 @@ test.describe("research article", () => {
     const input = page.getByPlaceholder(/Search ticker, name or sector/i);
     await expect(input).toBeVisible();
     await input.fill("MSFT");
-    await page.getByRole("button", { name: "Apply" }).click();
+    await page.getByRole("button", { name: "Search", exact: true }).click();
     await expect(page).toHaveURL(/\/discover\?.*q=MSFT/);
     await expect(page.getByText("MICROSOFT CORP").first()).toBeVisible();
     await page.getByRole("link", { name: /MICROSOFT CORP/ }).first().click();

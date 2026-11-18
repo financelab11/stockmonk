@@ -31,7 +31,8 @@ export function RecentlyCarousel({ bundles }: { bundles: ResearchBundle[] }) {
                 )}
               </span>
               <span className={`tabular text-[9px] font-semibold ${(bundle.data.metrics.return1y ?? 0) >= 0 ? "text-positive" : "text-danger"}`}>
-                {formatSignedPercent(bundle.data.metrics.return1y)}
+                {formatSignedPercent(bundle.data.metrics.return1y)}{" "}
+                <span className="font-normal text-muted">1Y</span>
               </span>
             </span>
           </span>

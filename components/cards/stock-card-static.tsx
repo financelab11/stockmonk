@@ -4,7 +4,14 @@ import { FactorChips } from "@/components/ui/factor-chips";
 import { PriceChange } from "@/components/ui/price-change";
 import { StockLogoStatic } from "@/components/stock-logo-static";
 import { whyInteresting } from "@/lib/insights";
-import { formatCompactCurrency, formatCurrency, truncate } from "@/lib/format";
+import {
+  formatCompactCurrency,
+  formatCurrency,
+  formatDate,
+  formatPercent,
+  formatSignedPercent,
+  truncate,
+} from "@/lib/format";
 import type { RangePricePoint, UniverseEntry } from "@/lib/schemas";
 
 export function StockCardStatic({
@@ -22,6 +29,8 @@ export function StockCardStatic({
       : entry.market === "GCC"
         ? `/gcc/stocks/${entry.ticker}`
         : `/stocks/${entry.ticker}`;
+  const currency = entry.currency ?? "USD";
+
   return (
     <article className="card group flex h-full flex-col p-4 transition-shadow hover:shadow-md">
       <div className="flex items-start gap-2.5">
@@ -56,14 +65,18 @@ export function StockCardStatic({
             {entry.sector}
             {entry.industry && entry.industry !== entry.sector ? ` · ${entry.industry}` : ""}
           </p>
-          <div className="mt-1.5 flex items-baseline gap-2">
+          <div className="mt-1.5 flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
             <span className="tabular text-[15px] font-semibold text-ink">
-              {entry.price != null
-                ? formatCurrency(entry.price, 2, entry.currency ?? "USD")
-                : "n/a"}
+              {entry.price != null ? formatCurrency(entry.price, 2, currency) : "n/a"}
             </span>
             <PriceChange value={entry.changePct} className="text-[11.5px]" />
+            <span className="text-[9.5px] text-faint">vs prior close</span>
           </div>
+          {entry.asOf && (
+            <p className="mt-0.5 text-[9.5px] text-faint">
+              Price as of {formatDate(entry.asOf)}
+            </p>
+          )}
         </div>
         {prices && prices.length > 1 && (
           <Sparkline points={prices} width={92} height={34} className="mt-1 shrink-0" />
@@ -74,10 +87,31 @@ export function StockCardStatic({
         {truncate(entry.description, 180)}
       </p>
 
+      <dl className="mt-3 grid grid-cols-3 gap-2 border-t border-line pt-2.5">
+        <div>
+          <dt className="stat-label">Revenue (TTM)</dt>
+          <dd className="tabular mt-0.5 text-[11.5px] font-semibold text-ink">
+            {formatCompactCurrency(entry.revenueTtm, currency)}
+          </dd>
+        </div>
+        <div>
+          <dt className="stat-label">Op margin (TTM)</dt>
+          <dd className="tabular mt-0.5 text-[11.5px] font-semibold text-ink">
+            {formatPercent(entry.operatingMargin)}
+          </dd>
+        </div>
+        <div>
+          <dt className="stat-label">1Y return</dt>
+          <dd className="tabular mt-0.5 text-[11.5px] font-semibold text-ink">
+            {formatSignedPercent(entry.return1y)}
+          </dd>
+        </div>
+      </dl>
+
       {showWhy && (
         <div className="why-box mt-3">
           <p className="text-[10px] font-bold uppercase tracking-[0.11em] text-brand-deep">
-            Why it&apos;s interesting
+            Research insight
           </p>
           <p className="mt-1 line-clamp-3 text-[11.5px] leading-relaxed">
             {whyInteresting(entry)}
@@ -86,23 +120,16 @@ export function StockCardStatic({
       )}
 
       <div className="mt-auto flex items-center justify-between gap-2 pt-3">
-        <div className="flex items-center gap-2 text-[10.5px] text-muted">
-          <span className="tabular">
-            {formatCompactCurrency(entry.marketCap, entry.currency ?? "USD")} mkt cap
-          </span>
-          {entry.revenueGrowthTtm != null && (
-            <span className="tabular">
-              · {(entry.revenueGrowthTtm * 100).toFixed(1)}% rev growth
-            </span>
-          )}
-        </div>
+        <span className="tabular text-[10.5px] text-muted">
+          {formatCompactCurrency(entry.marketCap, currency)} mkt cap
+        </span>
         {entry.isResearch ? (
           <a
             href={href}
-            className="inline-flex size-8 items-center justify-center rounded-full text-muted transition-colors hover:bg-paper-deep hover:text-ink"
-            aria-label={`Open ${entry.ticker} research`}
+            className="inline-flex items-center gap-1 text-[10.5px] font-semibold text-brand hover:text-brand-deep"
           >
-            <ArrowUpRight aria-hidden="true" className="size-4" />
+            Read research
+            <ArrowUpRight aria-hidden="true" className="size-3.5" />
           </a>
         ) : (
           <span className="text-[9px] font-semibold uppercase tracking-[0.1em] text-faint">

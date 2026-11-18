@@ -90,6 +90,9 @@ pnpm build:growth-ranker # rebuild the 385-name forward-estimate snapshot
 - Show the price date next to "Last close"; some India series are weekly, so the
   date can land on a weekend. The footer says "Market prices as of" and refers
   to market data only, not filing periods.
+- Discover leads with the research library, not a Pro upsell. Pro appears once,
+  after the results. Prices are labelled "vs prior close" and fundamentals say
+  "(TTM)" so a percentage never appears without a period.
 - Report section 10 is "Key takeaways and what to monitor" (not "the bottom
   line for learners").
 

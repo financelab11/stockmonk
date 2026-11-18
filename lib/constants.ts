@@ -17,10 +17,7 @@ export const DISCLAIMER_SHORT =
 
 export const NAV_LINKS = [
   { href: "/discover", label: "Discover" },
-  { href: "/india", label: "India Stocks" },
-  { href: "/gcc", label: "GCC Stocks" },
   { href: "/screener", label: "Screener" },
-  { href: "/tools/growth-ranker", label: "Growth ranker" },
   { href: "/newsfeed", label: "Newsfeed" },
 ] as const;
 

@@ -93,6 +93,10 @@ pnpm build:growth-ranker # rebuild the 385-name forward-estimate snapshot
 - Discover leads with the research library, not a Pro upsell. Pro appears once,
   after the results. Prices are labelled "vs prior close" and fundamentals say
   "(TTM)" so a percentage never appears without a period.
+- Navigation: primary nav is Discover, Screener and Newsfeed. India, GCC, the
+  growth ranker, watchlist, methodology and company pages live under More. The
+  mobile bar is Discover, Screener, Watchlist, More. Header search is a global
+  overlay that queries the US, India and GCC search indexes (`/` or Cmd/Ctrl+K).
 - Report section 10 is "Key takeaways and what to monitor" (not "the bottom
   line for learners").
 

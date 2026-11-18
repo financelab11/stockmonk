@@ -1,12 +1,17 @@
-import { Compass, Menu, Newspaper, Star } from "lucide-react";
+"use client";
+
+import { usePathname } from "next/navigation";
+import { Compass, Menu, SlidersHorizontal, Star } from "lucide-react";
 
 const ITEMS = [
-  { href: "/newsfeed", label: "Newsfeed", icon: Newspaper },
   { href: "/discover", label: "Discover", icon: Compass },
+  { href: "/screener", label: "Screener", icon: SlidersHorizontal },
   { href: "/watchlist", label: "Watchlist", icon: Star },
 ];
 
 export function MobileNav() {
+  const pathname = usePathname();
+
   return (
     <nav
       aria-label="Mobile"
@@ -15,11 +20,16 @@ export function MobileNav() {
       <div className="grid grid-cols-4">
         {ITEMS.map((item) => {
           const Icon = item.icon;
+          const active =
+            pathname === item.href || pathname.startsWith(`${item.href}/`);
           return (
             <a
               key={item.href}
               href={item.href}
-              className="flex min-h-14 flex-col items-center justify-center gap-1 text-[10px] font-semibold text-muted hover:text-brand"
+              aria-current={active ? "page" : undefined}
+              className={`flex min-h-14 flex-col items-center justify-center gap-1 text-[10px] font-semibold ${
+                active ? "text-brand" : "text-muted hover:text-brand"
+              }`}
             >
               <Icon aria-hidden="true" className="size-[19px]" />
               {item.label}
@@ -37,14 +47,13 @@ export function MobileNav() {
             </p>
             <div className="grid grid-cols-2 gap-1.5">
               {[
-                { href: "/", label: "Home" },
-                { href: "/framework", label: "Framework" },
+                { href: "/newsfeed", label: "Newsfeed" },
+                { href: "/india", label: "India stocks" },
+                { href: "/gcc", label: "GCC stocks" },
+                { href: "/tools/growth-ranker", label: "Growth ranker" },
                 { href: "/discover/all-stocks", label: "All US stocks" },
-                { href: "/india", label: "India Stocks" },
-                { href: "/gcc", label: "GCC Stocks" },
-                { href: "/screener", label: "US screener" },
                 { href: "/india/all-stocks", label: "All India stocks" },
-                { href: "/tools/growth-ranker", label: "Forward growth ranker" },
+                { href: "/framework", label: "Methodology" },
                 { href: "/about", label: "About" },
                 { href: "/editorial-guidelines", label: "Guidelines" },
                 { href: "/data-sources", label: "Data sources" },

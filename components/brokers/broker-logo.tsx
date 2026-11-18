@@ -1,5 +1,4 @@
-import fs from "node:fs";
-import path from "node:path";
+import { BROKER_LOGOS } from "@/config/broker-logos";
 
 const PALETTE = [
   "bg-[#0f3d5c] text-white",
@@ -18,22 +17,6 @@ function hash(value: string): number {
   return result;
 }
 
-function hasLogo(id: string): boolean {
-  return (
-    fs.existsSync(path.join(process.cwd(), "public", "brokers", `${id}.png`)) ||
-    fs.existsSync(path.join(process.cwd(), "public", "brokers", `${id}.svg`)) ||
-    fs.existsSync(path.join(process.cwd(), "public", "brokers", `${id}.webp`))
-  );
-}
-
-function logoFile(id: string): string | null {
-  for (const extension of ["png", "svg", "webp"]) {
-    const file = `${id}.${extension}`;
-    if (fs.existsSync(path.join(process.cwd(), "public", "brokers", file))) return file;
-  }
-  return null;
-}
-
 /** Broker logo with an initials fallback; never borrows another broker's mark. */
 export function BrokerLogo({
   id,
@@ -46,7 +29,7 @@ export function BrokerLogo({
   size?: number;
   className?: string;
 }) {
-  const file = hasLogo(id) ? logoFile(id) : null;
+  const file = BROKER_LOGOS[id as keyof typeof BROKER_LOGOS] ?? null;
   const color = PALETTE[hash(id) % PALETTE.length];
   const initials = name
     .replace(/[^A-Za-z0-9 ]+/g, " ")

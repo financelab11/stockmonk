@@ -5,6 +5,8 @@ import {
   SCREENER_COLUMNS,
 } from "@/lib/screener-filters";
 import { getScreenerRows } from "@/lib/screener-data";
+import { getGrowthRankerDataset } from "@/lib/growth-ranker/dataset";
+import { rankResults, resultsToCsv } from "@/lib/growth-ranker/rank";
 
 export const dynamic = "force-dynamic";
 
@@ -14,28 +16,41 @@ function escape(value: unknown): string {
 }
 
 /**
- * One route handler for the screener's count and CSV export so the deployment
- * stays within the Hobby function limit.
+ * Single route handler for data exports and the live screener count, keeping
+ * the deployment within Vercel Hobby's serverless-function budget.
+ *
+ * Actions: growth-ranker-export | screener-count | screener-export
  */
 export function GET(
   request: Request,
   { params }: { params: Promise<{ action: string }> },
 ) {
   return params.then(({ action }) => {
+    if (action === "growth-ranker-export") {
+      const dataset = getGrowthRankerDataset();
+      const csv = resultsToCsv(rankResults(dataset.results), dataset.fx.rate);
+      return new Response(csv, {
+        headers: {
+          "content-type": "text/csv; charset=utf-8",
+          "content-disposition": 'attachment; filename="stockmonk-forward-revenue-growth.csv"',
+        },
+      });
+    }
+
     const searchParams = Object.fromEntries(
       new URL(request.url).searchParams.entries(),
     );
     const filters = parseScreenerParams(searchParams);
     const rows = applyScreenerFilters(getScreenerRows(), filters);
 
-    if (action === "count") {
+    if (action === "screener-count") {
       return NextResponse.json(
         { count: rows.length },
         { headers: { "Cache-Control": "no-store" } },
       );
     }
 
-    if (action === "export") {
+    if (action === "screener-export") {
       const columns = SCREENER_COLUMNS.filter((column) => filters.cols.includes(column.key));
       const header = [
         "Rank",
@@ -63,6 +78,6 @@ export function GET(
       });
     }
 
-    return NextResponse.json({ error: "Unknown screener action" }, { status: 404 });
+    return NextResponse.json({ error: "Unknown data action" }, { status: 404 });
   });
 }

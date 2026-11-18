@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Filter, Rss, Search } from "lucide-react";
 import { NewsCard } from "@/components/cards/news-card";
+import { RevisionsPanel } from "@/components/newsfeed/revisions-panel";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { JsonLd } from "@/components/seo/json-ld";
 import { getResearchCompanies } from "@/lib/data";
@@ -141,30 +142,20 @@ export default async function NewsfeedPage({
           </div>
 
           <nav aria-label="News categories" className="scrollbar-none mt-4 flex gap-1.5 overflow-x-auto">
-            {CATEGORIES.map((entry) =>
-              entry.id === "revisions" ? (
-                <Link
-                  key={entry.id}
-                  href="/newsfeed/revisions"
-                  className="chip shrink-0 whitespace-nowrap"
-                >
-                  {entry.label}
-                </Link>
-              ) : (
-                <Link
-                  key={entry.id}
-                  href={buildHref(currentParams, {
-                    category: entry.id === "all" ? undefined : entry.id,
-                    page: undefined,
-                  })}
-                  className={`chip shrink-0 whitespace-nowrap ${
-                    category === entry.id ? "border-brand bg-brand-soft text-brand-deep" : ""
-                  }`}
-                >
-                  {entry.label}
-                </Link>
-              ),
-            )}
+            {CATEGORIES.map((entry) => (
+              <Link
+                key={entry.id}
+                href={buildHref(currentParams, {
+                  category: entry.id === "all" ? undefined : entry.id,
+                  page: undefined,
+                })}
+                className={`chip shrink-0 whitespace-nowrap ${
+                  category === entry.id ? "border-brand bg-brand-soft text-brand-deep" : ""
+                }`}
+              >
+                {entry.label}
+              </Link>
+            ))}
           </nav>
 
           <div className="mt-3 flex flex-wrap items-center gap-2">
@@ -285,22 +276,38 @@ export default async function NewsfeedPage({
             </form>
 
             <div className="mt-3 flex flex-wrap items-center justify-between gap-2 text-[10.5px] text-muted">
-              <p aria-live="polite">
-                Showing {shown.length} of {filtered.length} items · {market.label} · last {days} days
-              </p>
+              {category === "revisions" ? (
+                <p aria-live="polite">
+                  Broker target and rating changes · each broker versus its own prior note
+                </p>
+              ) : (
+                <p aria-live="polite">
+                  Showing {shown.length} of {filtered.length} items · {market.label} · last {days} days
+                </p>
+              )}
               <p className="flex items-center gap-1">
                 <Filter aria-hidden="true" className="size-3" />
-                {sort === "materiality" ? "Sorted by materiality" : "Newest first"}
+                {category === "revisions"
+                  ? "Not a consensus calculation"
+                  : sort === "materiality"
+                    ? "Sorted by materiality"
+                    : "Newest first"}
               </p>
             </div>
 
-            <div className="mt-2">
-              {shown.map((item) => (
-                <NewsCard key={item.id} item={item} />
-              ))}
-            </div>
+            {category === "revisions" ? (
+              <div className="mt-4">
+                <RevisionsPanel />
+              </div>
+            ) : (
+              <div className="mt-2">
+                {shown.map((item) => (
+                  <NewsCard key={item.id} item={item} />
+                ))}
+              </div>
+            )}
 
-            {filtered.length === 0 && (
+            {category !== "revisions" && filtered.length === 0 && (
               <div className="mt-4 rounded-xl border border-dashed border-line bg-surface p-6 text-center">
                 <p className="text-[13px] font-semibold text-ink">No items match those filters.</p>
                 <p className="mt-1 text-[11.5px] text-muted">

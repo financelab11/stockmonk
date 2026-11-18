@@ -68,7 +68,7 @@ export default function GrowthRankerPage() {
             <span className="chip">Historical growth excluded</span>
           </div>
           <a
-            href="/api/tools/growth-ranker/export"
+            href="/api/data/growth-ranker-export"
             className="btn btn-ghost mt-3 inline-flex"
           >
             <Download aria-hidden="true" className="size-3.5" />

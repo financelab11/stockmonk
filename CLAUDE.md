@@ -127,9 +127,9 @@ not failed refreshes.
   `lib/materiality.ts` scores significance (never price direction);
   `lib/estimate-revisions.ts` compares each broker with its own prior note.
 - The Newsfeed defaults to India, supports category and market views, search,
-  broker/sector/ticker/materiality filters, server-side pagination and a
-  dedicated `/newsfeed/revisions` view. Cards use native `<details>` for
-  independent expand/collapse.
+  broker/sector/ticker/materiality filters and server-side pagination; the
+  Estimate Revisions view renders inside `/newsfeed?category=revisions`.
+  Cards use native `<details>` for independent expand/collapse.
 - Broker ratings and targets remain the institutions'; Stockmonk never
   republishes them as its own recommendation.
 

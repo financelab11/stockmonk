@@ -21,9 +21,9 @@ test.describe("research intelligence feed", () => {
     await expect(page.locator("article").first()).toBeVisible();
   });
 
-  test("estimate revisions page renders tables", async ({ page }) => {
-    await page.goto("/newsfeed/revisions", { waitUntil: "networkidle" });
-    await expect(page.getByRole("heading", { name: "Estimate revisions" })).toBeVisible();
+  test("estimate revisions view renders tables", async ({ page }) => {
+    await page.goto("/newsfeed?category=revisions", { waitUntil: "networkidle" });
+    await expect(page.getByText("Largest average revisions")).toBeVisible();
     await expect(page.locator("table").first()).toBeVisible();
   });
 });

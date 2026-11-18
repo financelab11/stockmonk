@@ -39,6 +39,9 @@ jobs:
       - name: Refresh US prices from Yahoo
         run: pnpm refresh:prices
 
+      - name: Ingest earnings releases
+        run: pnpm ingest:earnings
+
       - name: Refresh report prose
         run: pnpm refresh:stories
 

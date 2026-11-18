@@ -57,3 +57,5 @@ next-env.d.ts
 # Forward growth ranker raw ingestion
 /data/growth-ranker/raw/
 /data/growth-ranker/refinitiv-top.json
+# Earnings press releases (regenerate with pnpm ingest:earnings)
+/data/earnings/

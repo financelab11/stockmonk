@@ -47,6 +47,7 @@
     "build:data": "tsx scripts/build-public-data.ts",
     "audit:freshness": "tsx scripts/audit-freshness.ts",
     "audit:stories": "tsx scripts/audit-stories.ts",
+    "ingest:earnings": "tsx scripts/ingest-earnings-releases.ts",
     "refresh:prices": "tsx scripts/refresh-us-prices.ts",
     "refresh:stories": "tsx scripts/refresh-stories.ts",
     "refresh:ranker": "tsx scripts/refresh-growth-ranker-raw.ts",

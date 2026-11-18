@@ -21,6 +21,9 @@ export type StockStory = {
   filingUrl: string;
   irUrl: string;
   earningsReleaseUrl?: string;
+  /** How the narrative was produced and when it was last written by hand. */
+  narrativeSource?: "handwritten" | "generated";
+  narrativeUpdatedAt?: string;
   bigPicture: StoryBlock;
   whatItDoes: StoryBlock;
   howItMakesMoney: StoryBlock;

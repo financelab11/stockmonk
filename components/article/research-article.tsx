@@ -6,6 +6,7 @@ import {
   CalendarDays,
   Clock3,
   MessageSquareText,
+  PenLine,
 } from "lucide-react";
 import { MobileToc, Toc } from "@/components/article/toc";
 import { ShareButtons } from "@/components/article/share-buttons";
@@ -36,6 +37,7 @@ import { StatTile } from "@/components/ui/stat-tile";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { WatchlistButton } from "@/components/watchlist/watchlist-button";
 import type { ResearchBundle } from "@/lib/data";
+import { resolveStory } from "@/lib/story-tokens";
 import type { StockStory } from "@/content/stocks/types";
 import type { NewsItem } from "@/lib/data";
 import {
@@ -99,7 +101,7 @@ function DataRow({
 
 export function ResearchArticle({
   bundle,
-  story,
+  story: sourceStory,
   news,
   related,
 }: {
@@ -109,6 +111,7 @@ export function ResearchArticle({
   related: ResearchBundle[];
 }) {
   const { data, consensus, segments, prices, factors } = bundle;
+  const story = resolveStory(sourceStory, data);
   const segmentSlices = segments?.segments ?? [];
   const currency = data.currency ?? "USD";
   // Price and market cap are quoted in the local trading currency, which can
@@ -228,6 +231,12 @@ export function ResearchArticle({
                   <CalendarDays aria-hidden="true" className="size-3.5" />
                   Updated {formatDate(data.updatedAt.slice(0, 10))}
                 </span>
+                {sourceStory.narrativeUpdatedAt && (
+                  <span className="inline-flex items-center gap-1">
+                    <PenLine aria-hidden="true" className="size-3.5" />
+                    Analysis {formatDate(sourceStory.narrativeUpdatedAt)}
+                  </span>
+                )}
                 <span className="inline-flex items-center gap-1">
                   <Clock3 aria-hidden="true" className="size-3.5" />
                   {story.readingMinutes} min read

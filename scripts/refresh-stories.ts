@@ -55,6 +55,7 @@ const CONTENT: Record<Market, string> = {
 const args = new Set(process.argv.slice(2));
 const ALL = process.argv.includes("--all");
 const DRY = process.argv.includes("--dry");
+const FORCE = process.argv.includes("--force");
 const ONLY = process.argv.find((arg) => arg.startsWith("--only="))?.split("=")[1]?.toUpperCase();
 
 function readJson<T>(file: string): T | null {
@@ -236,6 +237,10 @@ for (const market of ["US", "IN", "GCC"] as const) {
 
   for (const [ticker, story] of Object.entries(stories)) {
     if (ONLY && ticker !== ONLY) continue;
+    if (story.narrativeSource === "handwritten" && !ONLY && !FORCE) {
+      skipped += 1;
+      continue;
+    }
     const dataQuarter = latestQuarterScore(
       tickerDataSchema.parse(readJson(path.join(ROOTS[market].processed, ticker, "data.json"))),
     );

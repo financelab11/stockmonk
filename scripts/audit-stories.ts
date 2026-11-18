@@ -146,6 +146,13 @@ console.log(
   `\n${behind.length} of ${rows.length} stories reference an older quarter than the data; ${noQuarter.length} reference no quarter; ${stalePrice.length} quote a stale price.`,
 );
 
+const handwritten = [
+  ...Object.values(STOCK_STORIES),
+  ...Object.values(INDIA_STOCK_STORIES),
+  ...Object.values(GCC_STORIES),
+].filter((story) => story.narrativeSource === "handwritten").length;
+console.log(`hand-written narratives: ${handwritten} of ${rows.length}`);
+
 console.log("\nWorst offenders");
 for (const row of behind
   .sort((a, b) => (b.quartersBehind ?? 0) - (a.quartersBehind ?? 0))

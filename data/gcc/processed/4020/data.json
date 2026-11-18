@@ -13,13 +13,13 @@
   "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 13.300000190734863,
-    "prevClose": 13.149999618530273,
-    "changePct": 0.011406887951024514,
-    "asOf": "2026-11-09",
+    "close": 14.350000381469727,
+    "prevClose": 14.300000190734863,
+    "changePct": 0.0034965167879690284,
+    "asOf": "2026-11-18",
     "high52": 18.420000076293945,
     "low52": 12.300000190734863,
-    "marketCap": 4990000000,
+    "marketCap": 5370000000,
     "sharesOutstanding": 375000000,
     "dividendYield": null
   },
@@ -1110,14 +1110,14 @@
     "interestCover": 1.8278887622069102,
     "freeCashFlowTtm": null,
     "ebitdaTtm": 465910000,
-    "pe": 7.73,
-    "evEbitda": 15.46,
-    "evSales": 4.451080050825921,
+    "pe": 8.32,
+    "evEbitda": 16.35,
+    "evSales": 4.692503176620076,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.00746264407777486,
-    "returnYtd": 0.031007797211870303,
-    "return5y": -0.2658208956166762
+    "return1y": 0.05128210860820692,
+    "returnYtd": 0.11240316324169441,
+    "return5y": -0.24386580217059362
   },
   "factorChips": [
     {
@@ -1130,7 +1130,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "41st percentile profitability metrics in the covered universe."
+      "detail": "40th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "25th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "23rd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/4020/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/4020.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:15:37.555Z"
+  "updatedAt": "2026-11-18T09:25:12.853Z"
 }

@@ -1,0 +1,29 @@
+{
+  "ticker": "APLD",
+  "asOf": "2026-05-31",
+  "source": {
+    "name": "APPLIED DIGITAL CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000048/apld-20260531.htm",
+    "date": "2026-07-29"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "HPC Hosting Business",
+      "revenue": 270602000,
+      "share": 0.4426584831615986
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 186306000,
+      "share": 0.3047646778808168
+    },
+    {
+      "name": "Data Center Hosting Business",
+      "revenue": 154403000,
+      "share": 0.2525768389575846
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

@@ -1,0 +1,40 @@
+{
+  "ticker": "RDW",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Redwire Corporation Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819810/000181981026000029/rdw-20251231.htm",
+    "date": "2026-02-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Space",
+      "revenue": 209817000,
+      "share": 0.6256078907272624
+    },
+    {
+      "name": "Defense Tech",
+      "revenue": 125564000,
+      "share": 0.3743921092727376
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 195944000,
+      "share": 0.584242995279995
+    },
+    {
+      "name": "Europe",
+      "revenue": 125316000,
+      "share": 0.3736526517602369
+    },
+    {
+      "name": "Other Geographical Areas",
+      "revenue": 14121000,
+      "share": 0.042104352959768145
+    }
+  ]
+}

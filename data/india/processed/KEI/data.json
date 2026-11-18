@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 4010,
-    "prevClose": 3988,
-    "changePct": 0.005516549648946878,
-    "asOf": "2026-11-08",
+    "close": 3730.199951171875,
+    "prevClose": 3851,
+    "changePct": -0.03136848839992856,
+    "asOf": "2026-11-18",
     "high52": 5899,
     "low52": 3666.1,
-    "marketCap": 383538823168,
+    "marketCap": 356777197568,
     "sharesOutstanding": null,
     "dividendYield": 0.0011
   },
@@ -1112,27 +1112,27 @@
     "interestCover": 20.774647887323944,
     "freeCashFlowTtm": -4120000000,
     "ebitdaTtm": 14750000000,
-    "pe": 36.354390821611375,
-    "evEbitda": 25.148653116745763,
-    "evSales": 2.769882269056153,
+    "pe": 33.81774384530806,
+    "evEbitda": 23.334305618440677,
+    "evSales": 2.570049341935484,
     "pfcf": null,
-    "fcfYield": -0.01074206768944309,
-    "return1y": -0.004377536835544649,
-    "returnYtd": -0.11069933366988771,
-    "return5y": 3.111954846244746
+    "fcfYield": -0.011547823201943135,
+    "return1y": -0.09483586793604148,
+    "returnYtd": -0.17275079747588518,
+    "return5y": 2.6389000727237044
   },
   "factorChips": [
     {
       "key": "growth",
-      "label": "Growth: Moderate",
-      "tone": "neutral",
-      "detail": "67th percentile revenue/EPS growth in the covered universe."
+      "label": "Growth: Strong",
+      "tone": "positive",
+      "detail": "68th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "44th percentile profitability metrics in the covered universe."
+      "detail": "43rd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1150,12 +1150,12 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "52nd percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "55th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=KEI",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.kei-ind.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:39.966Z"
+  "updatedAt": "2026-11-18T09:09:15.404Z"
 }

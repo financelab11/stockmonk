@@ -1,12 +1,12 @@
 {
   "ticker": "NETWEB",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=NETWEB",
   "targetMean": 5582,
   "targetHigh": 5990,
   "targetLow": 5250,
-  "recommendationKey": "strong_buy",
+  "recommendationKey": "none",
   "analystCount": 4,
   "distribution": null,
   "estimates": [

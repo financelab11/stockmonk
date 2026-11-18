@@ -1,15 +1,15 @@
 {
   "ticker": "ALDAR",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/adx/ALDAR/forecast/",
-  "targetMean": 10.49,
+  "targetMean": 10.38,
   "targetHigh": 14,
   "targetLow": 8.41,
   "recommendationKey": "buy",
-  "analystCount": 16,
+  "analystCount": 17,
   "distribution": {
-    "strongBuy": 10,
+    "strongBuy": 11,
     "buy": 3,
     "hold": 2,
     "sell": 1,
@@ -19,11 +19,11 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 37100000000,
-      "revenueGrowth": 0.09699999999999999,
+      "revenueAvg": 37300000000,
+      "revenueGrowth": 0.102,
       "epsAvg": 1.06,
-      "epsGrowth": 0.217,
-      "analystCount": 16
+      "epsGrowth": 0.218,
+      "analystCount": 17
     },
     {
       "period": "Next fiscal year",
@@ -32,17 +32,17 @@
       "revenueGrowth": null,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 16
+      "analystCount": 17
     }
   ],
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 37100000000,
-    "revenueGrowth": 0.09699999999999999,
+    "revenueAvg": 37300000000,
+    "revenueGrowth": 0.102,
     "epsAvg": 1.06,
-    "epsGrowth": 0.217,
-    "analystCount": 16
+    "epsGrowth": 0.218,
+    "analystCount": 17
   },
   "revisions": null
 }

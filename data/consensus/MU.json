@@ -1,7 +1,7 @@
 {
   "ticker": "MU",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/MU/analysis",
   "targetMean": 1561.9111,
   "targetHigh": 3000,

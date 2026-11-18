@@ -1,0 +1,65 @@
+{
+  "ticker": "ETN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "EATON CORPORATION plc Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000007/etn-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Electrical Americas",
+      "revenue": 13276000000,
+      "share": 0.48367822792188864
+    },
+    {
+      "name": "Electrical Global",
+      "revenue": 6815000000,
+      "share": 0.2482876712328767
+    },
+    {
+      "name": "Aerospace",
+      "revenue": 4249000000,
+      "share": 0.1548018070533372
+    },
+    {
+      "name": "Vehicle",
+      "revenue": 2505000000,
+      "share": 0.09126348003497523
+    },
+    {
+      "name": "E Mobility",
+      "revenue": 604000000,
+      "share": 0.02200524628388225
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 17122000000,
+      "share": 0.6237977266103177
+    },
+    {
+      "name": "Europe",
+      "revenue": 5078000000,
+      "share": 0.1850043719032352
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 2704000000,
+      "share": 0.09851355290002915
+    },
+    {
+      "name": "Latin America",
+      "revenue": 1461000000,
+      "share": 0.0532279218886622
+    },
+    {
+      "name": "CA",
+      "revenue": 1083000000,
+      "share": 0.03945642669775576
+    }
+  ]
+}

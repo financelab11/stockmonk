@@ -1,0 +1,55 @@
+{
+  "ticker": "C",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Citigroup Inc Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/c-20251231.htm",
+    "date": "2026-02-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Markets",
+      "revenue": 21970000000,
+      "share": 0.2577882076855383
+    },
+    {
+      "name": "Services",
+      "revenue": 21256000000,
+      "share": 0.24941038427691406
+    },
+    {
+      "name": "US Personal Banking",
+      "revenue": 20971000000,
+      "share": 0.2460662951012027
+    },
+    {
+      "name": "Wealth",
+      "revenue": 8559000000,
+      "share": 0.10042827808741567
+    },
+    {
+      "name": "Banking",
+      "revenue": 8215000000,
+      "share": 0.09639190378410091
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 4254000000,
+      "share": 0.049914931064828395
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 44012000000,
+      "share": 0.5164212378996773
+    },
+    {
+      "name": "International",
+      "revenue": 42295000000,
+      "share": 0.49627456732179526
+    }
+  ]
+}

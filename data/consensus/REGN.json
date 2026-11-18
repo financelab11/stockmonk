@@ -1,9 +1,9 @@
 {
   "ticker": "REGN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/REGN/analysis",
-  "targetMean": 977.9259,
+  "targetMean": 990.8148,
   "targetHigh": 1175,
   "targetLow": 812,
   "recommendationKey": "buy",
@@ -19,17 +19,17 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 5850231350,
-      "revenueGrowth": 0.5061,
-      "epsAvg": 25.39075,
-      "epsGrowth": 1.2195,
+      "revenueAvg": 5852031350,
+      "revenueGrowth": 0.5066,
+      "epsAvg": 25.8027,
+      "epsGrowth": 1.2555001,
       "analystCount": 22
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 4595664620,
-      "revenueGrowth": 0.2747,
+      "revenueAvg": 4600664620,
+      "revenueGrowth": 0.276,
       "epsAvg": 15.88889,
       "epsGrowth": 0.6778,
       "analystCount": 9
@@ -37,17 +37,17 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 18783231890,
-      "revenueGrowth": 0.3096,
-      "epsAvg": 68.74984,
-      "epsGrowth": 0.5516,
-      "analystCount": 25
+      "revenueAvg": 18814831890,
+      "revenueGrowth": 0.3118,
+      "epsAvg": 69.08861,
+      "epsGrowth": 0.5592,
+      "analystCount": 26
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 20149878500,
-      "revenueGrowth": 0.0728,
+      "revenueAvg": 20167123360,
+      "revenueGrowth": 0.0719,
       "epsAvg": 62.12389,
       "epsGrowth": 0.0481,
       "analystCount": 10
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 5850231350,
-    "revenueGrowth": 0.5061,
-    "epsAvg": 25.39075,
-    "epsGrowth": 1.2195,
+    "revenueAvg": 5852031350,
+    "revenueGrowth": 0.5066,
+    "epsAvg": 25.8027,
+    "epsGrowth": 1.2555001,
     "analystCount": 22
   },
   "revisions": {
-    "eps7d": 0.16334324814313073,
-    "eps30d": 0.24861498762823997,
-    "eps60d": 0.28390502255476235,
-    "eps90d": 0.29704565328332544,
+    "eps7d": 0.004927575104174631,
+    "eps30d": 0.19445408771193384,
+    "eps60d": 0.2841467417629131,
+    "eps90d": 0.2902315609800281,
     "revenue30d": null
   }
 }

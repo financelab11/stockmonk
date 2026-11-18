@@ -1,12 +1,12 @@
 {
   "ticker": "TPL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/TPL/analysis",
-  "targetMean": 443,
+  "targetMean": 444.5,
   "targetHigh": 639,
-  "targetLow": 247,
-  "recommendationKey": "none",
+  "targetLow": 250,
+  "recommendationKey": "hold",
   "analystCount": 2,
   "distribution": {
     "strongBuy": 0,
@@ -21,17 +21,17 @@
       "endDate": "2026-12-31",
       "revenueAvg": 281000000,
       "revenueGrowth": 0.32810003,
-      "epsAvg": 2.61072,
-      "epsGrowth": 0.4585,
-      "analystCount": 2
+      "epsAvg": 2.55116,
+      "epsGrowth": 0.42520002,
+      "analystCount": 1
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
       "revenueAvg": 286000000,
       "revenueGrowth": 0.2077,
-      "epsAvg": 2.56531,
-      "epsGrowth": 0.2393,
+      "epsAvg": 2.53208,
+      "epsGrowth": 0.2232,
       "analystCount": 2
     },
     {
@@ -39,17 +39,17 @@
       "endDate": "2026-12-31",
       "revenueAvg": 1020000000,
       "revenueGrowth": 0.2779,
-      "epsAvg": 9.24252,
-      "epsGrowth": 0.32599998,
-      "analystCount": 2
+      "epsAvg": 9.276,
+      "epsGrowth": 0.33080003,
+      "analystCount": 1
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 1136000000,
       "revenueGrowth": 0.1137,
-      "epsAvg": 10.20444,
-      "epsGrowth": 0.1041,
+      "epsAvg": 10.21066,
+      "epsGrowth": 0.1008,
       "analystCount": 2
     }
   ],
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 281000000,
     "revenueGrowth": 0.32810003,
-    "epsAvg": 2.61072,
-    "epsGrowth": 0.4585,
-    "analystCount": 2
+    "epsAvg": 2.55116,
+    "epsGrowth": 0.42520002,
+    "analystCount": 1
   },
   "revisions": {
-    "eps7d": -0.006449865197817206,
-    "eps30d": 0.012599260259084533,
-    "eps60d": 0.06102319494429431,
-    "eps90d": 0.06749609904217202,
+    "eps7d": 0.0036223886991857412,
+    "eps30d": -0.0028508404174352187,
+    "eps60d": 0.05403341635910763,
+    "eps90d": 0.07136298484776726,
     "revenue30d": null
   }
 }

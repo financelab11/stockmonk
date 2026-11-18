@@ -1,0 +1,30 @@
+{
+  "ticker": "ELF",
+  "asOf": "2026-03-31",
+  "source": {
+    "name": "e.l.f. Beauty, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1600033/000160003326000020/elf-20260331.htm",
+    "date": "2026-05-21"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 1636472000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1292373000,
+      "share": 0.7897312022448291
+    },
+    {
+      "name": "Non-US",
+      "revenue": 344099000,
+      "share": 0.21026879775517088
+    }
+  ]
+}

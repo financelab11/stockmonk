@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 1.350000023841858,
-    "prevClose": 1.3450000286102295,
-    "changePct": 0.0037174684946250647,
-    "asOf": "2026-11-05",
+    "close": 1.3700000047683716,
+    "prevClose": 1.3849999904632568,
+    "changePct": -0.010830314655719264,
+    "asOf": "2026-11-18",
     "high52": 1.659999966621399,
     "low52": 1.2799999713897705,
-    "marketCap": 3670000000,
+    "marketCap": 3730000000,
     "sharesOutstanding": 2720000000,
-    "dividendYield": 0.068
+    "dividendYield": 0.067
   },
   "ttm": {
     "period": "TTM",
@@ -1110,27 +1110,27 @@
     "interestCover": null,
     "freeCashFlowTtm": -1894310000,
     "ebitdaTtm": null,
-    "pe": 8.25,
+    "pe": 8.37,
     "evEbitda": null,
-    "evSales": 4.599958539273128,
+    "evSales": 4.665422844860506,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.027949052353798187,
-    "returnYtd": 0.0736084928354972,
-    "return5y": 1.3350482680424083
+    "return1y": 0.04282041517024959,
+    "returnYtd": 0.08951378839108348,
+    "return5y": 1.078634522005018
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "27th percentile revenue/EPS growth in the covered universe."
+      "detail": "28th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "79th percentile profitability metrics in the covered universe."
+      "detail": "80th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-07",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/dfm/AJMANBANK/financials/",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/AJMANBANK.AE",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:24.073Z"
+  "updatedAt": "2026-11-18T09:28:30.964Z"
 }

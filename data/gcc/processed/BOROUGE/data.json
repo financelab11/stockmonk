@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 2.27,
-    "prevClose": 2.27,
-    "changePct": 0,
-    "asOf": "2026-11-09",
-    "high52": 2.41,
+    "close": 2.31,
+    "prevClose": 2.3,
+    "changePct": 0.004347826086956719,
+    "asOf": "2026-11-17",
+    "high52": 2.4,
     "low52": 2.22,
-    "marketCap": 67480000000.00001,
+    "marketCap": 68670000000,
     "sharesOutstanding": 29730000000,
-    "dividendYield": 0.07139999999999999
+    "dividendYield": 0.0701
   },
   "ttm": {
     "period": "TTM",
@@ -1110,33 +1110,33 @@
     "interestCover": 7.078418926716676,
     "freeCashFlowTtm": 1194010000,
     "ebitdaTtm": 1597510000,
-    "pe": 23.66,
-    "evEbitda": 13.54,
-    "evSales": 12.423506402385547,
+    "pe": 24.07,
+    "evEbitda": 13.74,
+    "evSales": 12.632241711980354,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.03813559322033888,
-    "returnYtd": -0.03813559322033888,
-    "return5y": -0.03813559322033888
+    "return1y": -0.025316455696202556,
+    "returnYtd": -0.025316455696202556,
+    "return5y": -0.025316455696202556
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "19th percentile revenue/EPS growth in the covered universe."
+      "detail": "18th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "54th percentile profitability metrics in the covered universe."
+      "detail": "55th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: High",
       "tone": "positive",
-      "detail": "81st percentile free-cash-flow margin."
+      "detail": "82nd percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2026-09-01",
+      "date": "2026-09-09",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1178,8 +1178,8 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/adx/BOROUGE/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-17"
     }
   ],
-  "updatedAt": "2026-11-09T20:16:52.482Z"
+  "updatedAt": "2026-11-18T09:27:12.951Z"
 }

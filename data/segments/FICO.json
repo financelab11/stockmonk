@@ -1,0 +1,40 @@
+{
+  "ticker": "FICO",
+  "asOf": "2026-09-30",
+  "source": {
+    "name": "Fair Isaac Corp Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/814547/000081454726000042/fico-20260930.htm",
+    "date": "2026-11-06"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Scores",
+      "revenue": 1652222000,
+      "share": 0.6517967566816957
+    },
+    {
+      "name": "Software",
+      "revenue": 882651000,
+      "share": 0.3482032433183043
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 2273229000,
+      "share": 0.8967822056568514
+    },
+    {
+      "name": "EMEA",
+      "revenue": 169788000,
+      "share": 0.06698087044203004
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 91856000,
+      "share": 0.03623692390111852
+    }
+  ]
+}

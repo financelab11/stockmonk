@@ -13,15 +13,15 @@
   "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 26.100000381469727,
-    "prevClose": 26.079999923706055,
-    "changePct": 0.000766888720175718,
-    "asOf": "2026-11-09",
+    "close": 26.360000610351562,
+    "prevClose": 26.3799991607666,
+    "changePct": -0.0007580951876898778,
+    "asOf": "2026-11-18",
     "high52": 27.959999084472656,
     "low52": 23.290000915527344,
-    "marketCap": 6310000000000,
+    "marketCap": 6380000000000,
     "sharesOutstanding": 241910000000,
-    "dividendYield": 0.052000000000000005
+    "dividendYield": 0.051500000000000004
   },
   "ttm": {
     "period": "TTM",
@@ -1110,14 +1110,14 @@
     "interestCover": 47.150092614031024,
     "freeCashFlowTtm": 324639000000,
     "ebitdaTtm": 908664000000,
-    "pe": 14.04,
-    "evEbitda": 7.35,
-    "evSales": 3.3779031522637535,
+    "pe": 14.19,
+    "evEbitda": 7.41,
+    "evSales": 3.414131904747364,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.0685041499269401,
-    "returnYtd": 0.1352006075234955,
-    "return5y": 0.06106890235850426
+    "return1y": 0.07316193625292144,
+    "returnYtd": 0.16124390829822555,
+    "return5y": 0.12449871347952701
   },
   "factorChips": [
     {
@@ -1136,7 +1136,7 @@
       "key": "cash",
       "label": "Cash generation: High",
       "tone": "positive",
-      "detail": "76th percentile free-cash-flow margin."
+      "detail": "77th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/2222/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/2222.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:14:55.117Z"
+  "updatedAt": "2026-11-18T09:24:00.283Z"
 }

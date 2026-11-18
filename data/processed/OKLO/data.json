@@ -14,15 +14,19 @@
   "currency": "USD",
   "isResearch": true,
   "latestPrice": {
-    "close": 23.549999237060547,
-    "prevClose": 19.200000762939453,
-    "changePct": 0.22656241152435896,
-    "asOf": "2026-11-06",
-    "high52": 117.44,
-    "low52": 18.535,
-    "marketCap": 4380715520,
+    "close": 22.3700008392334,
+    "prevClose": 23.030000686645508,
+    "changePct": -0.0286582643392983,
+    "asOf": "2026-11-17",
+    "high52": 115.72000122070312,
+    "low52": 18.53499984741211,
+    "marketCap": 4368628736,
     "sharesOutstanding": null,
-    "dividendYield": 0
+    "dividendYield": 0,
+    "pe": null,
+    "evEbitda": null,
+    "evSales": null,
+    "pfcf": null
   },
   "ttm": {
     "period": "TTM",
@@ -1074,12 +1078,12 @@
     "revenueGrowthLatestQ": null,
     "epsTtm": -0.96,
     "epsGrowthTtm": 0.714285714285714,
-    "grossMargin": 0.41062,
-    "operatingMargin": -44.30253,
-    "netMargin": 0,
+    "grossMargin": null,
+    "operatingMargin": -82.23770758710518,
+    "netMargin": -53.66102246825138,
     "fcfMargin": -147.24649951155976,
     "roic": null,
-    "roe": -0.0679,
+    "roe": null,
     "netDebt": null,
     "netDebtToEbitda": null,
     "interestCover": null,
@@ -1087,12 +1091,12 @@
     "ebitdaTtm": null,
     "pe": null,
     "evEbitda": null,
-    "evSales": null,
+    "evSales": 1422.5427339628786,
     "pfcf": null,
-    "fcfYield": null,
-    "return1y": -0.7793911078495499,
-    "returnYtd": -0.6973007928882278,
-    "return5y": 1.3836031340363175
+    "fcfYield": -0.1035093681167417,
+    "return1y": -0.7654152611571494,
+    "returnYtd": -0.7124678668154889,
+    "return5y": 1.2561776021482345
   },
   "factorChips": [
     {
@@ -1105,7 +1109,7 @@
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "1st percentile profitability metrics in the covered universe."
+      "detail": "0th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1128,7 +1132,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-08",
+      "date": "2021-11-18",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1562,10 +1566,10 @@
       "date": "2025-12-31"
     },
     {
-      "name": "Yahoo Finance market data",
+      "name": "Market price history",
       "url": "https://finance.yahoo.com/quote/OKLO",
-      "date": "2026-11-06"
+      "date": "2026-11-17"
     }
   ],
-  "updatedAt": "2026-11-08T09:10:56.654Z"
+  "updatedAt": "2026-11-18T09:07:18.195Z"
 }

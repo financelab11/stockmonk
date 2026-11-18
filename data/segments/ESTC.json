@@ -1,0 +1,30 @@
+{
+  "ticker": "ESTC",
+  "asOf": "2026-04-30",
+  "source": {
+    "name": "ELASTIC N.V. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1707753/000170775326000018/estc-20260430.htm",
+    "date": "2026-06-08"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 1739331000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 947307000,
+      "share": 0.5446387145402456
+    },
+    {
+      "name": "Non-US",
+      "revenue": 792024000,
+      "share": 0.45536128545975435
+    }
+  ]
+}

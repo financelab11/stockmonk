@@ -1,0 +1,35 @@
+{
+  "ticker": "BLK",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "BlackRock, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
+    "date": "2026-02-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 24216000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 15956000000,
+      "share": 0.6589032044928973
+    },
+    {
+      "name": "Europe",
+      "revenue": 7166000000,
+      "share": 0.2959200528576148
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 1094000000,
+      "share": 0.04517674264948794
+    }
+  ]
+}

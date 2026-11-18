@@ -1,0 +1,35 @@
+{
+  "ticker": "SOFI",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "SoFi Technologies, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000013/sofi-20251231.htm",
+    "date": "2026-02-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Financial Services",
+      "revenue": 1542016000,
+      "share": 2.4897207246917348
+    },
+    {
+      "name": "Technology Platform",
+      "revenue": 450211000,
+      "share": 0.7269053350835468
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 3364662000,
+      "share": 5.432543315362968
+    },
+    {
+      "name": "Non-US",
+      "revenue": 248692000,
+      "share": 0.40153515039081106
+    }
+  ]
+}

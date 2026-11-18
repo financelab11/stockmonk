@@ -1,7 +1,7 @@
 {
   "ticker": "ALEC",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/dfm/ALEC/forecast/",
   "targetMean": 1.68,
   "targetHigh": 1.7,
@@ -21,8 +21,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 18800000000,
       "revenueGrowth": 0.49200000000000005,
-      "epsAvg": 0.21,
-      "epsGrowth": 0.5329999999999999,
+      "epsAvg": 0.17,
+      "epsGrowth": 0.21,
       "analystCount": 2
     },
     {
@@ -40,8 +40,8 @@
     "endDate": "2026-12-31",
     "revenueAvg": 18800000000,
     "revenueGrowth": 0.49200000000000005,
-    "epsAvg": 0.21,
-    "epsGrowth": 0.5329999999999999,
+    "epsAvg": 0.17,
+    "epsGrowth": 0.21,
     "analystCount": 2
   },
   "revisions": null

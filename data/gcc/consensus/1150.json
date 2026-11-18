@@ -1,19 +1,19 @@
 {
   "ticker": "1150",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/1150/forecast/",
-  "targetMean": 27.2,
+  "targetMean": 27.1,
   "targetHigh": 34.2,
-  "targetLow": 23,
+  "targetLow": 21.4,
   "recommendationKey": "buy",
   "analystCount": 16,
   "distribution": {
     "strongBuy": 5,
     "buy": 2,
-    "hold": 7,
+    "hold": 8,
     "sell": 0,
-    "strongSell": 2
+    "strongSell": 1
   },
   "estimates": [
     {
@@ -22,7 +22,7 @@
       "revenueAvg": 12600000000,
       "revenueGrowth": 0.055,
       "epsAvg": 1.94,
-      "epsGrowth": -0.015,
+      "epsGrowth": -0.017,
       "analystCount": 16
     },
     {
@@ -41,7 +41,7 @@
     "revenueAvg": 12600000000,
     "revenueGrowth": 0.055,
     "epsAvg": 1.94,
-    "epsGrowth": -0.015,
+    "epsGrowth": -0.017,
     "analystCount": 16
   },
   "revisions": null

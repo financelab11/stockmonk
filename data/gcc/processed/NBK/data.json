@@ -13,15 +13,15 @@
   "quoteCurrency": "KWD",
   "isResearch": true,
   "latestPrice": {
-    "close": 870,
-    "prevClose": 866,
-    "changePct": 0.004618937644341736,
-    "asOf": "2026-11-09",
+    "close": 877,
+    "prevClose": 878,
+    "changePct": -0.001138952164009166,
+    "asOf": "2026-11-18",
     "high52": 998.094970703125,
     "low52": 801,
-    "marketCap": 7990000000,
+    "marketCap": 8060000000.000001,
     "sharesOutstanding": 9180000000,
-    "dividendYield": 0.0383
+    "dividendYield": 0.0379
   },
   "ttm": {
     "period": "TTM",
@@ -1110,14 +1110,14 @@
     "interestCover": null,
     "freeCashFlowTtm": -4709850000,
     "ebitdaTtm": null,
-    "pe": 14.19,
+    "pe": 14.32,
     "evEbitda": null,
-    "evSales": 8.227958697378872,
+    "evSales": 8.283558379666403,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.10261621098914386,
-    "returnYtd": -0.09100822526442176,
-    "return5y": 0.06784429038758999
+    "return1y": -0.08095115959113208,
+    "returnYtd": -0.08369449834126197,
+    "return5y": 0.07851018926737052
   },
   "factorChips": [
     {
@@ -1130,7 +1130,7 @@
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "78th percentile profitability metrics in the covered universe."
+      "detail": "79th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/kwse/NBK/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/NBK.KW",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:00.597Z"
+  "updatedAt": "2026-11-18T09:29:37.840Z"
 }

@@ -1013,7 +1013,7 @@
       "key": "cash",
       "label": "Cash generation: Low",
       "tone": "caution",
-      "detail": "22nd percentile free-cash-flow margin."
+      "detail": "20th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1025,7 +1025,7 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "24th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "26th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1058,5 +1058,5 @@
       "date": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:25.194Z"
+  "updatedAt": "2026-11-18T09:30:33.285Z"
 }

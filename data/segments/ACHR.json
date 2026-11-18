@@ -1,0 +1,19 @@
+{
+  "ticker": "ACHR",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Archer Aviation Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000019/achr-20251231.htm",
+    "date": "2026-03-02"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 300000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

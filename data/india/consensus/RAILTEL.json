@@ -1,12 +1,12 @@
 {
   "ticker": "RAILTEL",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=RAILTEL",
   "targetMean": 223,
   "targetHigh": 240,
   "targetLow": 206,
-  "recommendationKey": "underperform",
+  "recommendationKey": "none",
   "analystCount": 2,
   "distribution": null,
   "estimates": [

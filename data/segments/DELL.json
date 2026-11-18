@@ -1,0 +1,40 @@
+{
+  "ticker": "DELL",
+  "asOf": "2026-01-30",
+  "source": {
+    "name": "Dell Technologies Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+    "date": "2026-03-16"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Infrastructure Solutions Group",
+      "revenue": 60826000000,
+      "share": 0.5357325300780356
+    },
+    {
+      "name": "Client Solutions",
+      "revenue": 50984000000,
+      "share": 0.44904789585865523
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 1728000000,
+      "share": 0.015219574063309201
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 63140000000,
+      "share": 0.5561133717345734
+    },
+    {
+      "name": "Non-US",
+      "revenue": 50398000000,
+      "share": 0.4438866282654266
+    }
+  ]
+}

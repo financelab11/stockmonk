@@ -1,0 +1,29 @@
+{
+  "ticker": "ICE",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "INTERCONTINENTAL EXCHANGE, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1571949/000157194926000004/ice-20251231.htm",
+    "date": "2026-02-05"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Exchanges",
+      "revenue": 8120000000,
+      "share": 0.6424050632911392
+    },
+    {
+      "name": "Fixed Income & Data Services",
+      "revenue": 2419000000,
+      "share": 0.191376582278481
+    },
+    {
+      "name": "Mortgage Technology",
+      "revenue": 2101000000,
+      "share": 0.16621835443037974
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

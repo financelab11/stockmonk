@@ -1,0 +1,30 @@
+{
+  "ticker": "MA",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Mastercard Incorporated Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+    "date": "2026-02-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Payment Solutions",
+      "revenue": 32791000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "International Markets",
+      "revenue": 18747000000,
+      "share": 0.571711750175353
+    },
+    {
+      "name": "Americas",
+      "revenue": 14044000000,
+      "share": 0.428288249824647
+    }
+  ]
+}

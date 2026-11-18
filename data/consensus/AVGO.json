@@ -1,17 +1,17 @@
 {
   "ticker": "AVGO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/AVGO/analysis",
-  "targetMean": 533.4238,
+  "targetMean": 528.17426,
   "targetHigh": 660,
-  "targetLow": 400,
+  "targetLow": 398.4699,
   "recommendationKey": "strong_buy",
   "analystCount": 47,
   "distribution": {
     "strongBuy": 8,
-    "buy": 41,
-    "hold": 2,
+    "buy": 40,
+    "hold": 3,
     "sell": 0,
     "strongSell": 0
   },
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-10-31",
-      "revenueAvg": 105985008460,
+      "revenueAvg": 105982873730,
       "revenueGrowth": 0.6589,
-      "epsAvg": 11.66568,
-      "epsGrowth": 0.7105,
+      "epsAvg": 11.66441,
+      "epsGrowth": 0.71029997,
       "analystCount": 48
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-10-31",
-      "revenueAvg": 174226851580,
-      "revenueGrowth": 0.6439,
-      "epsAvg": 19.46507,
-      "epsGrowth": 0.6686,
+      "revenueAvg": 174984617760,
+      "revenueGrowth": 0.6511,
+      "epsAvg": 19.41404,
+      "epsGrowth": 0.66440004,
       "analystCount": 48
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 40
   },
   "revisions": {
-    "eps7d": 0.0006613501321413029,
-    "eps30d": 0.0008296149368436367,
-    "eps60d": 0.0031550461390026374,
-    "eps90d": 0.003324150707446405,
+    "eps7d": -0.00010886634983986454,
+    "eps30d": 0.0005524117835264963,
+    "eps60d": 0.0007756081531518078,
+    "eps90d": 0.0033529942548362612,
     "revenue30d": null
   }
 }

@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 1.5700000524520874,
-    "prevClose": 1.5149999856948853,
-    "changePct": 0.03630367476998697,
-    "asOf": "2026-11-05",
+    "close": 1.5800000429153442,
+    "prevClose": 1.5800000429153442,
+    "changePct": 0,
+    "asOf": "2026-11-18",
     "high52": 1.9600000381469727,
     "low52": 1.4800000190734863,
-    "marketCap": 15600000000,
+    "marketCap": 15750000000,
     "sharesOutstanding": 10000000000,
-    "dividendYield": 0.056100000000000004
+    "dividendYield": 0.0556
   },
   "ttm": {
     "period": "TTM",
@@ -1110,27 +1110,27 @@
     "interestCover": 30.020351008215087,
     "freeCashFlowTtm": 1496230000,
     "ebitdaTtm": 1989370000,
-    "pe": 14.63,
-    "evEbitda": 11.23,
-    "evSales": 5.326080813789206,
+    "pe": 14.77,
+    "evEbitda": 11.35,
+    "evSales": 5.368465668267873,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.03747456161371332,
-    "returnYtd": 0.0709414883988857,
-    "return5y": 0.4101678963144828
+    "return1y": 0.07085411476106929,
+    "returnYtd": 0.07776276503130908,
+    "return5y": 0.41914969661849644
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "55th percentile revenue/EPS growth in the covered universe."
+      "detail": "54th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "72nd percentile profitability metrics in the covered universe."
+      "detail": "73rd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1148,7 +1148,7 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "45th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "47th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1500,13 +1500,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/dfm/EMPOWER/financials/",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/EMPOWER.AE",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:14.590Z"
+  "updatedAt": "2026-11-18T09:28:05.931Z"
 }

@@ -1,11 +1,11 @@
 {
   "ticker": "4009",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/4009/forecast/",
-  "targetMean": 43.75,
+  "targetMean": 43.98,
   "targetHigh": 70,
-  "targetLow": 29,
+  "targetLow": 29.9,
   "recommendationKey": "buy",
   "analystCount": 4,
   "distribution": {

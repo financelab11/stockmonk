@@ -13,15 +13,15 @@
   "quoteCurrency": "KWD",
   "isResearch": true,
   "latestPrice": {
-    "close": 755,
-    "prevClose": 753,
-    "changePct": 0.0026560424966799445,
-    "asOf": "2026-11-09",
+    "close": 763,
+    "prevClose": 767,
+    "changePct": -0.0052151238591916504,
+    "asOf": "2026-11-18",
     "high52": 807,
     "low52": 719.6259765625,
-    "marketCap": 14500000000,
+    "marketCap": 14730000000,
     "sharesOutstanding": 19200000000,
-    "dividendYield": 0.0297
+    "dividendYield": 0.0292
   },
   "ttm": {
     "period": "TTM",
@@ -1110,14 +1110,14 @@
     "interestCover": null,
     "freeCashFlowTtm": -2463710000,
     "ebitdaTtm": null,
-    "pe": 21.74,
+    "pe": 22.09,
     "evEbitda": null,
-    "evSales": 13.168709865732632,
+    "evSales": 13.302977232924693,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.011108120362369744,
-    "returnYtd": 0.0035712602267372606,
-    "return5y": 0.35875327813705704
+    "return1y": 0.03215553366091628,
+    "returnYtd": 0.014205127884768798,
+    "return5y": 0.3764027321077714
   },
   "factorChips": [
     {
@@ -1130,7 +1130,7 @@
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "69th percentile profitability metrics in the covered universe."
+      "detail": "68th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/kwse/KFH/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/KFH.KW",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:59.603Z"
+  "updatedAt": "2026-11-18T09:29:35.262Z"
 }

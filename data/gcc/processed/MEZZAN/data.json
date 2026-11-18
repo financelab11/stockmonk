@@ -13,12 +13,12 @@
   "quoteCurrency": "KWD",
   "isResearch": true,
   "latestPrice": {
-    "close": 1079,
-    "prevClose": 1080,
-    "changePct": -0.0009259259259258856,
-    "asOf": "2026-11-09",
+    "close": 1039,
+    "prevClose": 1036,
+    "changePct": 0.0028957528957529455,
+    "asOf": "2026-11-18",
     "high52": 1800,
-    "low52": 1017,
+    "low52": 1000,
     "marketCap": 335390000,
     "sharesOutstanding": 310840000,
     "dividendYield": 0.0417
@@ -1115,28 +1115,28 @@
     "evSales": 1.4010217961052318,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.1917322889726636,
-    "returnYtd": -0.15303192804846422,
-    "return5y": 0.7753848443585101
+    "return1y": -0.3356547269854363,
+    "returnYtd": -0.18443018836177416,
+    "return5y": 0.737594752278842
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "64th percentile revenue/EPS growth in the covered universe."
+      "detail": "65th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "25th percentile profitability metrics in the covered universe."
+      "detail": "26th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: Average",
       "tone": "neutral",
-      "detail": "40th percentile free-cash-flow margin."
+      "detail": "44th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "41st percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "44th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/kwse/MEZZAN/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/MEZZAN.KW",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:14.080Z"
+  "updatedAt": "2026-11-18T09:30:15.031Z"
 }

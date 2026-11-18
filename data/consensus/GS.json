@@ -1,12 +1,12 @@
 {
   "ticker": "GS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/GS/analysis",
   "targetMean": 1030.6666,
   "targetHigh": 1250,
   "targetLow": 730,
-  "recommendationKey": "buy",
+  "recommendationKey": "none",
   "analystCount": 21,
   "distribution": {
     "strongBuy": 1,

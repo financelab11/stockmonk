@@ -1,9 +1,9 @@
 {
   "ticker": "ADNOCGAS",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/adx/ADNOCGAS/forecast/",
-  "targetMean": 4.15,
+  "targetMean": 4.17,
   "targetHigh": 5,
   "targetLow": 3.6,
   "recommendationKey": "buy",
@@ -19,10 +19,10 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 17200000000,
-      "revenueGrowth": -0.07,
+      "revenueAvg": 17500000000,
+      "revenueGrowth": -0.055999999999999994,
       "epsAvg": 0.05,
-      "epsGrowth": -0.231,
+      "epsGrowth": -0.22699999999999998,
       "analystCount": 19
     },
     {
@@ -38,10 +38,10 @@
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 17200000000,
-    "revenueGrowth": -0.07,
+    "revenueAvg": 17500000000,
+    "revenueGrowth": -0.055999999999999994,
     "epsAvg": 0.05,
-    "epsGrowth": -0.231,
+    "epsGrowth": -0.22699999999999998,
     "analystCount": 19
   },
   "revisions": null

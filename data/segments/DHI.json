@@ -1,0 +1,65 @@
+{
+  "ticker": "DHI",
+  "asOf": "2025-09-30",
+  "source": {
+    "name": "D.R. Horton, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/882184/000088218425000081/dhi-20250930.htm",
+    "date": "2025-11-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Home Building Ops",
+      "revenue": 31515500000,
+      "share": 0.9201498376661295
+    },
+    {
+      "name": "Forestar Group",
+      "revenue": 1662400000,
+      "share": 0.04853665942587532
+    },
+    {
+      "name": "Financial Services",
+      "revenue": 841200000,
+      "share": 0.0245602971060192
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 231300000,
+      "share": 0.006753205801976035
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Southeast",
+      "revenue": 6971200000,
+      "share": 0.2035363090650036
+    },
+    {
+      "name": "South Central",
+      "revenue": 6899300000,
+      "share": 0.20143706350874735
+    },
+    {
+      "name": "East",
+      "revenue": 6138000000,
+      "share": 0.17920958587344965
+    },
+    {
+      "name": "Southwest",
+      "revenue": 4595300000,
+      "share": 0.13416777614276038
+    },
+    {
+      "name": "North",
+      "revenue": 4225500000,
+      "share": 0.12337082194660501
+    },
+    {
+      "name": "Northwest",
+      "revenue": 2686200000,
+      "share": 0.07842828112956345
+    }
+  ]
+}

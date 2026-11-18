@@ -1,12 +1,12 @@
 {
   "ticker": "LAURUSLABS",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=LAURUSLABS",
   "targetMean": 2156.2856,
   "targetHigh": 2830,
   "targetLow": 900,
-  "recommendationKey": "hold",
+  "recommendationKey": "none",
   "analystCount": 14,
   "distribution": null,
   "estimates": [

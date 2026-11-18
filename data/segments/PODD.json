@@ -1,0 +1,30 @@
+{
+  "ticker": "PODD",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "INSULET CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000028/podd-20251231.htm",
+    "date": "2026-02-18"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 2708100000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1953900000,
+      "share": 0.7215021601861084
+    },
+    {
+      "name": "Non-US",
+      "revenue": 754300000,
+      "share": 0.2785347660721539
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "ticker": "ADNOCLS",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/adx/ADNOCLS/forecast/",
-  "targetMean": 8.01,
-  "targetHigh": 8.9,
+  "targetMean": 8.18,
+  "targetHigh": 9.5,
   "targetLow": 6.3,
   "recommendationKey": "buy",
   "analystCount": 16,
@@ -19,10 +19,10 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 7200000000,
-      "revenueGrowth": 0.43200000000000005,
-      "epsAvg": 0.33,
-      "epsGrowth": 2.003,
+      "revenueAvg": 10600000000,
+      "revenueGrowth": 1.121,
+      "epsAvg": 0.53,
+      "epsGrowth": 3.8339999999999996,
       "analystCount": 16
     },
     {
@@ -38,10 +38,10 @@
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 7200000000,
-    "revenueGrowth": 0.43200000000000005,
-    "epsAvg": 0.33,
-    "epsGrowth": 2.003,
+    "revenueAvg": 10600000000,
+    "revenueGrowth": 1.121,
+    "epsAvg": 0.53,
+    "epsGrowth": 3.8339999999999996,
     "analystCount": 16
   },
   "revisions": null

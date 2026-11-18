@@ -1,0 +1,40 @@
+{
+  "ticker": "CRWD",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "CrowdStrike Holdings, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000010/crwd-20260131.htm",
+    "date": "2026-03-05"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 4812005000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 3216654000,
+      "share": 0.6684643927011713
+    },
+    {
+      "name": "EMEA",
+      "revenue": 782666000,
+      "share": 0.16264862567682287
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 495701000,
+      "share": 0.10301340085889354
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 316984000,
+      "share": 0.06587358076311225
+    }
+  ]
+}

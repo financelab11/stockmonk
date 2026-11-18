@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 1252.699951171875,
-    "prevClose": 1234.0999755859375,
-    "changePct": 0.015071692694189176,
-    "asOf": "2026-11-08",
+    "close": 1343.199951171875,
+    "prevClose": 1361.300048828125,
+    "changePct": -0.013296185269244254,
+    "asOf": "2026-11-18",
     "high52": 1740,
     "low52": 1069,
-    "marketCap": 173797801984,
+    "marketCap": 186353647616,
     "sharesOutstanding": null,
-    "dividendYield": 0.0117
+    "dividendYield": 0.0106
   },
   "ttm": {
     "period": "TTM",
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 1180000000,
       "netIncome": 890000000,
-      "epsDiluted": 6.37,
-      "epsBasic": 6.37,
+      "epsDiluted": 6.49,
+      "epsBasic": 6.49,
       "interestExpense": 0,
       "pretaxIncome": 1090000000,
       "incomeTax": 196200000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 1720000000,
       "netIncome": 1350000000,
-      "epsDiluted": 9.54,
-      "epsBasic": 9.54,
+      "epsDiluted": 9.71,
+      "epsBasic": 9.71,
       "interestExpense": 0,
       "pretaxIncome": 1540000000,
       "incomeTax": 200200000,
@@ -1102,7 +1102,7 @@
     "epsTtm": 51.18,
     "epsGrowthTtm": 0.6769331585845348,
     "grossMargin": 0.72875,
-    "operatingMargin": 0.26524,
+    "operatingMargin": 0.26433,
     "netMargin": 0.21365,
     "fcfMargin": 0.07702141259188239,
     "roic": 0.14,
@@ -1112,14 +1112,14 @@
     "interestCover": 6.159574468085107,
     "freeCashFlowTtm": 2410000000,
     "ebitdaTtm": 11580000000,
-    "pe": 24.205822003342618,
-    "evEbitda": 16.887003633851467,
-    "evSales": 5.874181498347852,
-    "pfcf": 72.11527053278009,
-    "fcfYield": 0.013866688603011603,
-    "return1y": -0.20880628112080224,
-    "returnYtd": -0.1611680702485463,
-    "return5y": 0.613213484467261
+    "pe": 25.95454702172702,
+    "evEbitda": 17.971273550259067,
+    "evSales": 6.251347182697507,
+    "pfcf": 77.32516498589212,
+    "fcfYield": 0.012932400469917508,
+    "return1y": -0.14297906822493178,
+    "returnYtd": -0.1005675333270829,
+    "return5y": 0.8439757838849484
   },
   "factorChips": [
     {
@@ -1132,7 +1132,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "66th percentile profitability metrics in the covered universe."
+      "detail": "62nd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1150,12 +1150,12 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "71st percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "69th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=ERIS",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.eris.co.in",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:43.980Z"
+  "updatedAt": "2026-11-18T09:09:45.596Z"
 }

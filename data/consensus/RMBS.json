@@ -1,12 +1,12 @@
 {
   "ticker": "RMBS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/RMBS/analysis",
   "targetMean": 140.57143,
   "targetHigh": 165,
   "targetLow": 103,
-  "recommendationKey": "strong_buy",
+  "recommendationKey": "none",
   "analystCount": 7,
   "distribution": {
     "strongBuy": 0,

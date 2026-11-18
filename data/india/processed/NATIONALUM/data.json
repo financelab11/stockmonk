@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 325.8999938964844,
-    "prevClose": 325.75,
-    "changePct": 0.00046045708820985354,
-    "asOf": "2026-11-08",
+    "close": 304.6499938964844,
+    "prevClose": 320.8999938964844,
+    "changePct": -0.05063882925856933,
+    "asOf": "2026-11-18",
     "high52": 445.15,
-    "low52": 241.15,
-    "marketCap": 598558310400,
+    "low52": 249.4,
+    "marketCap": 559529852928,
     "sharesOutstanding": null,
-    "dividendYield": 0.0368
+    "dividendYield": 0.0374
   },
   "ttm": {
     "period": "TTM",
@@ -1102,7 +1102,7 @@
     "epsTtm": 38.97,
     "epsGrowthTtm": 0.17062180835085616,
     "grossMargin": 0.70965,
-    "operatingMargin": 0.412,
+    "operatingMargin": 0.43479002,
     "netMargin": 0.34965,
     "fcfMargin": 0.2473238805133666,
     "roic": 0.4,
@@ -1112,14 +1112,14 @@
     "interestCover": 92.70192307692308,
     "freeCashFlowTtm": 44130000000,
     "ebitdaTtm": 96410000000,
-    "pe": 8.365594834381552,
-    "evEbitda": 4.940718944839747,
-    "evSales": 2.3275578474077694,
-    "pfcf": 13.563523915703604,
-    "fcfYield": 0.07372715278233985,
-    "return1y": 0.32943676443319503,
-    "returnYtd": 0.07136027284692181,
-    "return5y": 3.1016867029800546
+    "pe": 7.820123730649895,
+    "evEbitda": 4.535901421014418,
+    "evSales": 2.13684952846323,
+    "pfcf": 12.679126510944936,
+    "fcfYield": 0.07886978642706777,
+    "return1y": 0.22453527955047248,
+    "returnYtd": 0.0015033428687172279,
+    "return5y": 3.069642089128144
   },
   "factorChips": [
     {
@@ -1132,7 +1132,7 @@
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "91st percentile profitability metrics in the covered universe."
+      "detail": "92nd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1155,7 +1155,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=NATIONALUM",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://nalcoindia.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:59.509Z"
+  "updatedAt": "2026-11-18T09:14:10.741Z"
 }

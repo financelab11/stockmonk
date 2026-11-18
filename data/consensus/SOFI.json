@@ -1,7 +1,7 @@
 {
   "ticker": "SOFI",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/SOFI/analysis",
   "targetMean": 20.83913,
   "targetHigh": 30,

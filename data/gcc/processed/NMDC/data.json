@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 23.12,
-    "prevClose": 22.82,
-    "changePct": 0.013146362839614456,
-    "asOf": "2026-11-09",
+    "close": 22.6,
+    "prevClose": 22.5,
+    "changePct": 0.004444444444444473,
+    "asOf": "2026-11-17",
     "high52": 27.96,
-    "low52": 22.8,
-    "marketCap": 19520000000,
+    "low52": 22.38,
+    "marketCap": 19080000000,
     "sharesOutstanding": 844380000,
-    "dividendYield": 0.0433
+    "dividendYield": 0.0443
   },
   "ttm": {
     "period": "TTM",
@@ -586,7 +586,7 @@
       "freeCashFlow": 2137000000,
       "da": 208200000,
       "sbc": null,
-      "dividendsPaid": null,
+      "dividendsPaid": 2000000000,
       "buybacks": null,
       "ebitda": 1132000000,
       "grossMargin": 0.1399431964885102,
@@ -1039,7 +1039,7 @@
       "freeCashFlow": 1713000000,
       "da": 634170000,
       "sbc": null,
-      "dividendsPaid": 618750000,
+      "dividendsPaid": 2619000000,
       "buybacks": null,
       "ebitda": 3861000000,
       "grossMargin": 0.13771702710935121,
@@ -1110,14 +1110,14 @@
     "interestCover": 39.64805089880832,
     "freeCashFlowTtm": 3649960000,
     "ebitdaTtm": 4884760000,
-    "pe": 5.83,
-    "evEbitda": 3.03,
-    "evSales": 0.5434387005459325,
+    "pe": 5.7,
+    "evEbitda": 2.99,
+    "evSales": 0.5286109051695087,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.03263598326359818,
-    "returnYtd": -0.03263598326359818,
-    "return5y": -0.03263598326359818
+    "return1y": -0.08130081300813008,
+    "returnYtd": -0.08130081300813008,
+    "return5y": -0.08130081300813008
   },
   "factorChips": [
     {
@@ -1130,13 +1130,13 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "53rd percentile profitability metrics in the covered universe."
+      "detail": "54th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: Average",
       "tone": "neutral",
-      "detail": "65th percentile free-cash-flow margin."
+      "detail": "67th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "97th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "98th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2026-09-01",
+      "date": "2026-09-09",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1178,8 +1178,8 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/adx/NMDC/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-17"
     }
   ],
-  "updatedAt": "2026-11-09T20:16:57.694Z"
+  "updatedAt": "2026-11-18T09:27:27.023Z"
 }

@@ -13,10 +13,10 @@
   "quoteCurrency": "KWD",
   "isResearch": true,
   "latestPrice": {
-    "close": 210,
-    "prevClose": 211,
-    "changePct": -0.004739336492891044,
-    "asOf": "2026-11-09",
+    "close": 204,
+    "prevClose": 205,
+    "changePct": -0.004878048780487809,
+    "asOf": "2026-11-18",
     "high52": 310,
     "low52": 200,
     "marketCap": 525400000,
@@ -1074,16 +1074,16 @@
     "evSales": 8.275615901455767,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.24998389618220174,
-    "returnYtd": -0.29528685809041466,
-    "return5y": 0.0717992980553186
+    "return1y": -0.26880152823056824,
+    "returnYtd": -0.31542151928783135,
+    "return5y": 0.07071399865869865
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "12th percentile revenue/EPS growth in the covered universe."
+      "detail": "11th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1095,7 +1095,7 @@
       "key": "cash",
       "label": "Cash generation: Low",
       "tone": "caution",
-      "detail": "29th percentile free-cash-flow margin."
+      "detail": "30th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1107,12 +1107,12 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "11th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "12th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1543,13 +1543,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/kwse/NIND/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/NIND.KW",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:07.049Z"
+  "updatedAt": "2026-11-18T09:29:56.841Z"
 }

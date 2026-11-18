@@ -1,11 +1,11 @@
 {
   "ticker": "ALAB",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/ALAB/analysis",
-  "targetMean": 347.17773,
+  "targetMean": 344.1467,
   "targetHigh": 500,
-  "targetLow": 190,
+  "targetLow": 225,
   "recommendationKey": "buy",
   "analystCount": 22,
   "distribution": {
@@ -19,11 +19,11 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 741439340,
-      "revenueGrowth": 1.7402,
-      "epsAvg": 1.64479,
-      "epsGrowth": 1.8358,
-      "analystCount": 21
+      "revenueAvg": 741867380,
+      "revenueGrowth": 1.7416999,
+      "epsAvg": 1.64548,
+      "epsGrowth": 1.837,
+      "analystCount": 22
     },
     {
       "period": "Following quarter",
@@ -37,20 +37,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 2027269560,
-      "revenueGrowth": 1.378,
-      "epsAvg": 4.38106,
+      "revenueAvg": 2027700030,
+      "revenueGrowth": 1.3785001,
+      "epsAvg": 4.381,
       "epsGrowth": 1.381,
-      "analystCount": 21
+      "analystCount": 23
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 3353934060,
-      "revenueGrowth": 0.65440005,
-      "epsAvg": 7.11244,
-      "epsGrowth": 0.6235,
-      "analystCount": 23
+      "revenueAvg": 3387596390,
+      "revenueGrowth": 0.6707,
+      "epsAvg": 7.15194,
+      "epsGrowth": 0.6325,
+      "analystCount": 24
     }
   ],
   "history": [
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 741439340,
-    "revenueGrowth": 1.7402,
-    "epsAvg": 1.64479,
-    "epsGrowth": 1.8358,
-    "analystCount": 21
+    "revenueAvg": 741867380,
+    "revenueGrowth": 1.7416999,
+    "epsAvg": 1.64548,
+    "epsGrowth": 1.837,
+    "analystCount": 22
   },
   "revisions": {
-    "eps7d": 0.08406122721671516,
-    "eps30d": 0.08474030716968617,
-    "eps60d": 0.08474030716968617,
-    "eps90d": 0.08752724366134945,
+    "eps7d": 0.07977147589307276,
+    "eps30d": 0.0847254513086777,
+    "eps60d": 0.0847254513086777,
+    "eps90d": 0.08466636791506876,
     "revenue30d": null
   }
 }

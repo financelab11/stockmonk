@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 108.66000366210938,
-    "prevClose": 108.16999816894531,
-    "changePct": 0.004529957487830805,
-    "asOf": "2026-11-08",
+    "close": 106.08000183105469,
+    "prevClose": 108.83999633789062,
+    "changePct": -0.025358274528672453,
+    "asOf": "2026-11-18",
     "high52": 186.44,
     "low52": 95.76,
-    "marketCap": 102196436992,
+    "marketCap": 99769909248,
     "sharesOutstanding": null,
-    "dividendYield": 0.0176
+    "dividendYield": 0.0175
   },
   "ttm": {
     "period": "TTM",
@@ -43,8 +43,8 @@
     "incomeTax": 1856300000,
     "rnd": null,
     "sga": null,
-    "cashAndInvestments": 51762200576,
-    "totalDebt": 57256300544,
+    "cashAndInvestments": 52791398400,
+    "totalDebt": 59002400768,
     "totalEquity": null,
     "totalAssets": null,
     "inventory": null,
@@ -62,8 +62,8 @@
     "netMargin": 0.0506501677852349,
     "fcfMargin": null,
     "roic": null,
-    "netDebt": 5494099968,
-    "netDebtToEbitda": 0.6509597118483412,
+    "netDebt": 6211002368,
+    "netDebtToEbitda": 0.7359007545023697,
     "roe": null
   },
   "quarterly": [
@@ -577,8 +577,8 @@
       "incomeTax": 592000000,
       "rnd": null,
       "sga": null,
-      "cashAndInvestments": 51762200576,
-      "totalDebt": 57256300544,
+      "cashAndInvestments": 52791398400,
+      "totalDebt": 59002400768,
       "totalEquity": null,
       "totalAssets": null,
       "inventory": null,
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 6870000000,
       "netIncome": 5830000000,
-      "epsDiluted": 5.88,
-      "epsBasic": 5.88,
+      "epsDiluted": 6.19,
+      "epsBasic": 6.19,
       "interestExpense": 330000000,
       "pretaxIncome": 8610000000,
       "incomeTax": 2755200000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 2640000000,
       "netIncome": 3930000000,
-      "epsDiluted": 3.97,
-      "epsBasic": 3.97,
+      "epsDiluted": 4.18,
+      "epsBasic": 4.18,
       "interestExpense": 430000000,
       "pretaxIncome": 6120000000,
       "incomeTax": 2203200000,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 3280000000,
       "netIncome": 3840000000,
-      "epsDiluted": 3.88,
-      "epsBasic": 3.88,
+      "epsDiluted": 4.08,
+      "epsBasic": 4.08,
       "interestExpense": 590000000,
       "pretaxIncome": 5560000000,
       "incomeTax": 1723600000,
@@ -1071,8 +1071,8 @@
       "incomeTax": 1761800000,
       "rnd": null,
       "sga": null,
-      "cashAndInvestments": 51762200576,
-      "totalDebt": 57256300544,
+      "cashAndInvestments": 52791398400,
+      "totalDebt": 59002400768,
       "totalEquity": 66390000000,
       "totalAssets": 213070000000,
       "inventory": null,
@@ -1090,7 +1090,7 @@
       "netMargin": 0.06526292580751847,
       "fcfMargin": -0.12655716018079594,
       "roic": 0.09,
-      "netDebt": 5494099968,
+      "netDebt": 6211002368,
       "netDebtToEbitda": 7.455729166666667,
       "roe": 0.08917005573128484
     }
@@ -1101,38 +1101,38 @@
     "revenueGrowthLatestQ": 0.14921598381385937,
     "epsTtm": 5.19,
     "epsGrowthTtm": -0.1865203761755485,
-    "grossMargin": 0.120349996,
-    "operatingMargin": 0.08193,
-    "netMargin": 0.05667,
+    "grossMargin": 0.1283,
+    "operatingMargin": 0.07284,
+    "netMargin": 0.05116,
     "fcfMargin": -0.12655716018079594,
     "roic": 0.09,
-    "roe": 0.08917005573128484,
-    "netDebt": 5494099968,
-    "netDebtToEbitda": 0.6509597118483412,
+    "roe": 0.07277,
+    "netDebt": 6211002368,
+    "netDebtToEbitda": 0.7359007545023697,
     "interestCover": 2.05352798053528,
     "freeCashFlowTtm": -11480000000,
     "ebitdaTtm": 8440000000,
-    "pe": 21.15868260703934,
-    "evEbitda": 12.759542293838862,
-    "evSales": 1.1293051275167785,
+    "pe": 20.656295910559006,
+    "evEbitda": 12.5569800492891,
+    "evSales": 1.1113770093959732,
     "pfcf": null,
-    "fcfYield": -0.1123326833879606,
-    "return1y": -0.3234963436186249,
-    "returnYtd": -0.38066357343817225,
-    "return5y": 1.4983057572678251
+    "fcfYield": -0.11506475335628442,
+    "return1y": -0.35906944532411844,
+    "returnYtd": -0.39536892358317755,
+    "return5y": 1.5432122927712952
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "11th percentile revenue/EPS growth in the covered universe."
+      "detail": "12th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "14th percentile profitability metrics in the covered universe."
+      "detail": "11th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1144,18 +1144,18 @@
       "key": "balance",
       "label": "Balance sheet: Low leverage",
       "tone": "positive",
-      "detail": "Net debt of ₹5.5B, 0.7× EBITDA."
+      "detail": "Net debt of ₹6.2B, 0.7× EBITDA."
     },
     {
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "80th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "82nd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=IRCON",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.ircon.org",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:38.504Z"
+  "updatedAt": "2026-11-18T09:09:08.145Z"
 }

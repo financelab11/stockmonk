@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 3.1500000953674316,
-    "prevClose": 3.180000066757202,
-    "changePct": -0.009433953069178047,
-    "asOf": "2026-11-05",
+    "close": 3.2699999809265137,
+    "prevClose": 3.2699999809265137,
+    "changePct": 0,
+    "asOf": "2026-11-18",
     "high52": 4.400000095367432,
     "low52": 2.7100000381469727,
-    "marketCap": 3230000000,
+    "marketCap": 3260000000,
     "sharesOutstanding": 998920000,
-    "dividendYield": 0.037200000000000004
+    "dividendYield": 0.0368
   },
   "ttm": {
     "period": "TTM",
@@ -1069,21 +1069,21 @@
     "interestCover": 2.632310218517115,
     "freeCashFlowTtm": -164750000,
     "ebitdaTtm": 314710000,
-    "pe": 25.38,
-    "evEbitda": 14.43,
-    "evSales": 3.6550113895216403,
+    "pe": 25.61,
+    "evEbitda": 14.55,
+    "evSales": 3.6777904328018223,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.24857686930470457,
-    "returnYtd": -0.24278841083924263,
-    "return5y": 0.30948109908313937
+    "return1y": -0.19394955008154902,
+    "returnYtd": -0.2139422834448551,
+    "return5y": 0.3593660442496023
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "30th percentile revenue/EPS growth in the covered universe."
+      "detail": "32nd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1095,7 +1095,7 @@
       "key": "cash",
       "label": "Cash generation: Low",
       "tone": "caution",
-      "detail": "24th percentile free-cash-flow margin."
+      "detail": "23rd percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1107,7 +1107,7 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "28th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "30th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1452,13 +1452,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/dfm/TAALEEM/financials/",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/TAALEEM.AE",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:17.199Z"
+  "updatedAt": "2026-11-18T09:28:12.212Z"
 }

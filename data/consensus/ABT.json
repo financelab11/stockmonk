@@ -1,9 +1,9 @@
 {
   "ticker": "ABT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/ABT/analysis",
-  "targetMean": 118.52269,
+  "targetMean": 118.90731,
   "targetHigh": 130,
   "targetLow": 100,
   "recommendationKey": "buy",
@@ -97,9 +97,9 @@
   },
   "revisions": {
     "eps7d": 0,
-    "eps30d": -0.00006341740064741419,
-    "eps60d": -0.00003986330510274971,
-    "eps90d": 0.00025918897413723663,
+    "eps30d": 0.000043490866918016735,
+    "eps60d": -0.00018660535865355765,
+    "eps90d": 0.00010510940439223404,
     "revenue30d": null
   }
 }

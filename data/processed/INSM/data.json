@@ -14,15 +14,19 @@
   "currency": "USD",
   "isResearch": true,
   "latestPrice": {
-    "close": 114.41,
-    "prevClose": 108.76,
-    "changePct": 0.051949246046340436,
-    "asOf": "2026-11-06",
+    "close": 121.86000061035156,
+    "prevClose": 122.87999725341797,
+    "changePct": -0.008300754116740805,
+    "asOf": "2026-11-17",
     "high52": 212.75,
-    "low52": 90.39,
-    "marketCap": 25099301153,
+    "low52": 90.38999938964844,
+    "marketCap": 26733684736,
     "sharesOutstanding": null,
-    "dividendYield": null
+    "dividendYield": 0,
+    "pe": null,
+    "evEbitda": null,
+    "evSales": null,
+    "pfcf": null
   },
   "ttm": {
     "period": "TTM",
@@ -1521,14 +1525,14 @@
     "interestCover": null,
     "freeCashFlowTtm": -627575000,
     "ebitdaTtm": -550902000,
-    "pe": -35.82624,
+    "pe": null,
     "evEbitda": null,
-    "evSales": 16.12649239761772,
+    "evSales": 17.201942156487934,
     "pfcf": null,
-    "fcfYield": -0.02500368421313551,
-    "return1y": -0.3838323998276605,
-    "returnYtd": -0.3540537488708221,
-    "return5y": 2.4849223271398113
+    "fcfYield": -0.02347506549124886,
+    "return1y": -0.38267474985711314,
+    "returnYtd": -0.31199184750583575,
+    "return5y": 2.981051884368191
   },
   "factorChips": [
     {
@@ -1564,340 +1568,340 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-08",
-      "pe": -8.36658,
-      "evEbitda": -10.21964,
-      "evSales": 20.46122,
-      "pfcf": -8.82043
+      "date": "2021-11-18",
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2021-12-01",
-      "pe": -6.80183,
-      "evEbitda": -8.15298,
-      "evSales": 16.32346,
-      "pfcf": -7.1708
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2022-01-03",
-      "pe": -7.16881,
-      "evEbitda": -8.75168,
-      "evSales": 17.52215,
-      "pfcf": -7.55768
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2022-02-01",
-      "pe": -6.04239,
-      "evEbitda": -7.24604,
-      "evSales": 14.50763,
-      "pfcf": -6.37016
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2022-03-01",
-      "pe": -6.18778,
-      "evEbitda": -7.61549,
-      "evSales": 14.28767,
-      "pfcf": -6.38535
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2022-04-01",
-      "pe": -6.31159,
-      "evEbitda": -7.80591,
-      "evSales": 14.64493,
-      "pfcf": -6.51311
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2022-05-02",
-      "pe": -5.79056,
-      "evEbitda": -7.12647,
-      "evSales": 13.3702,
-      "pfcf": -5.97546
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2022-06-01",
-      "pe": -4.75597,
-      "evEbitda": -6.12529,
-      "evSales": 11.3255,
-      "pfcf": -5.24339
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2022-07-01",
-      "pe": -5.54111,
-      "evEbitda": -7.10861,
-      "evSales": 13.14363,
-      "pfcf": -6.109
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2022-08-01",
-      "pe": -5.53846,
-      "evEbitda": -7.1054,
-      "evSales": 13.13769,
-      "pfcf": -6.10607
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2022-09-01",
-      "pe": -7.18162,
-      "evEbitda": -8.39655,
-      "evSales": 14.6553,
-      "pfcf": -7.01376
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2022-10-03",
-      "pe": -6.31777,
-      "evEbitda": -7.52607,
-      "evSales": 13.13596,
-      "pfcf": -6.1701
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2022-11-01",
-      "pe": -4.81476,
-      "evEbitda": -5.75291,
-      "evSales": 9.84925,
-      "pfcf": -4.77834
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2022-12-01",
-      "pe": -5.26047,
-      "evEbitda": -6.22485,
-      "evSales": 10.65723,
-      "pfcf": -5.22067
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2023-01-03",
-      "pe": -5.27697,
-      "evEbitda": -6.79303,
-      "evSales": 11.62999,
-      "pfcf": -5.23706
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2023-02-01",
-      "pe": -5.94829,
-      "evEbitda": -7.57391,
-      "evSales": 12.96689,
-      "pfcf": -5.90329
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2023-03-01",
-      "pe": -5.17145,
-      "evEbitda": -5.69205,
-      "evSales": 10.85229,
-      "pfcf": -5.30161
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2023-04-03",
-      "pe": -4.43815,
-      "evEbitda": -5.01389,
-      "evSales": 9.55932,
-      "pfcf": -4.54985
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2023-05-01",
-      "pe": -5.15356,
-      "evEbitda": -5.83005,
-      "evSales": 11.11539,
-      "pfcf": -5.28327
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2023-06-01",
-      "pe": -4.48347,
-      "evEbitda": -5.5476,
-      "evSales": 11.29144,
-      "pfcf": -4.62384
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2023-07-03",
-      "pe": -4.83535,
-      "evEbitda": -5.98795,
-      "evSales": 12.18769,
-      "pfcf": -4.98673
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2023-08-01",
-      "pe": -5.15693,
-      "evEbitda": -6.35018,
-      "evSales": 12.92497,
-      "pfcf": -5.31837
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2023-09-01",
-      "pe": -4.29085,
-      "evEbitda": -5.41005,
-      "evSales": 12.94474,
-      "pfcf": -4.69766
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2023-10-02",
-      "pe": -4.80825,
-      "evEbitda": -5.99245,
-      "evSales": 14.33827,
-      "pfcf": -5.26412
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2023-11-01",
-      "pe": -4.74524,
-      "evEbitda": -5.98544,
-      "evSales": 14.07492,
-      "pfcf": -4.95817
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2023-12-01",
-      "pe": -5.03577,
-      "evEbitda": -6.30414,
-      "evSales": 14.82436,
-      "pfcf": -5.26173
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2024-01-02",
-      "pe": -5.68518,
-      "evEbitda": -7.01655,
-      "evSales": 16.4996,
-      "pfcf": -5.94028
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2024-02-01",
-      "pe": -5.41744,
-      "evEbitda": -6.72284,
-      "evSales": 15.80893,
-      "pfcf": -5.66053
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2024-03-01",
-      "pe": -5.2571,
-      "evEbitda": -6.77488,
-      "evSales": 14.88015,
-      "pfcf": -5.4707
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2024-04-01",
-      "pe": -5.00605,
-      "evEbitda": -6.47805,
-      "evSales": 14.2282,
-      "pfcf": -5.20945
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2024-05-01",
-      "pe": -4.79434,
-      "evEbitda": -6.22774,
-      "evSales": 13.67843,
-      "pfcf": -4.98914
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2024-06-03",
-      "pe": -10.74457,
-      "evEbitda": -13.25926,
-      "evSales": 28.14787,
-      "pfcf": -10.62538
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2024-07-01",
-      "pe": -12.74213,
-      "evEbitda": -15.5668,
-      "evSales": 33.0465,
-      "pfcf": -12.60079
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2024-08-01",
-      "pe": -14.46887,
-      "evEbitda": -17.56148,
-      "evSales": 37.28098,
-      "pfcf": -14.30837
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2024-09-03",
-      "pe": -13.49359,
-      "evEbitda": -19.78915,
-      "evSales": 38.10877,
-      "pfcf": -15.97113
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2024-10-01",
-      "pe": -13.41444,
-      "evEbitda": -19.67238,
-      "evSales": 37.88389,
-      "pfcf": -15.87745
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2024-11-01",
-      "pe": -12.28809,
-      "evEbitda": -16.89891,
-      "evSales": 34.14283,
-      "pfcf": -14.5403
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2024-12-02",
-      "pe": -13.02552,
-      "evEbitda": -17.95748,
-      "evSales": 36.28158,
-      "pfcf": -15.41289
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2025-01-02",
-      "pe": -12.58126,
-      "evEbitda": -17.31975,
-      "evSales": 34.99311,
-      "pfcf": -14.88721
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2025-02-03",
-      "pe": -14.00756,
-      "evEbitda": -19.36718,
-      "evSales": 39.12977,
-      "pfcf": -16.57492
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2025-03-03",
-      "pe": -13.6958,
-      "evEbitda": -17.58615,
-      "evSales": 37.50014,
-      "pfcf": -15.70342
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2025-04-01",
-      "pe": -12.92565,
-      "evEbitda": -16.58495,
-      "evSales": 35.36521,
-      "pfcf": -14.82037
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2025-05-01",
-      "pe": -13.04054,
-      "evEbitda": -16.73432,
-      "evSales": 35.68371,
-      "pfcf": -14.95211
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2025-06-02",
-      "pe": -12.17776,
-      "evEbitda": -15.29006,
-      "evSales": 34.01657,
-      "pfcf": -13.94082
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2025-07-01",
-      "pe": -16.58472,
-      "evEbitda": -20.86361,
-      "evSales": 46.41634,
-      "pfcf": -18.98581
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2025-08-01",
-      "pe": -18.46541,
-      "evEbitda": -26.99071,
-      "evSales": 60.04761,
-      "pfcf": -21.13877
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2025-09-02",
-      "pe": -25.3972,
-      "evEbitda": -32.29253,
-      "evSales": 74.24683,
-      "pfcf": -26.83116
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2025-10-01",
-      "pe": -25.74329,
-      "evEbitda": -32.74977,
-      "evSales": 75.29811,
-      "pfcf": -27.19679
+      "pe": null,
+      "evEbitda": null,
+      "evSales": null,
+      "pfcf": null
     },
     {
       "date": "2025-11-03",
@@ -1985,9 +1989,9 @@
     },
     {
       "date": "2026-11-02",
-      "pe": -34.22923,
+      "pe": null,
       "evEbitda": null,
-      "evSales": 15.39028,
+      "evSales": null,
       "pfcf": null
     }
   ],
@@ -2003,5 +2007,5 @@
       "date": "2026-10-29"
     }
   ],
-  "updatedAt": "2026-11-08T09:10:23.871Z"
+  "updatedAt": "2026-11-18T09:07:08.854Z"
 }

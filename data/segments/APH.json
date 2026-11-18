@@ -1,0 +1,45 @@
+{
+  "ticker": "APH",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "AMPHENOL CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/820313/000110465926013549/aph-20251231x10k.htm",
+    "date": "2026-02-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Communications Solutions",
+      "revenue": 12160600000,
+      "share": 0.5265537114576072
+    },
+    {
+      "name": "Harsh Environment Solutions",
+      "revenue": 6001900000,
+      "share": 0.2598821374601099
+    },
+    {
+      "name": "Interconnect & Sensor Systems",
+      "revenue": 5216100000,
+      "share": 0.22585701481292245
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Other Foreign Locations",
+      "revenue": 11433900000,
+      "share": 0.49508761750531505
+    },
+    {
+      "name": "United States",
+      "revenue": 7987700000,
+      "share": 0.3458672336077109
+    },
+    {
+      "name": "China",
+      "revenue": 3673100000,
+      "share": 0.15904514888697407
+    }
+  ]
+}

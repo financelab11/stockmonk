@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 0.5699999928474426,
-    "prevClose": 0.5740000009536743,
-    "changePct": -0.00696865522575929,
-    "asOf": "2026-11-05",
+    "close": 0.6060000061988831,
+    "prevClose": 0.6119999885559082,
+    "changePct": -0.009803892923564983,
+    "asOf": "2026-11-18",
     "high52": 0.9369999766349792,
     "low52": 0.531000018119812,
-    "marketCap": 2430000000,
+    "marketCap": 2600000000,
     "sharesOutstanding": 4290000000,
-    "dividendYield": 0.053
+    "dividendYield": 0.0495
   },
   "ttm": {
     "period": "TTM",
@@ -32,7 +32,7 @@
     "restated": true,
     "revenue": 1034000000,
     "grossProfit": 173240000,
-    "operatingIncome": -27850000,
+    "operatingIncome": -25150000,
     "netIncome": 351280000,
     "epsDiluted": 0.08,
     "epsBasic": 0.08,
@@ -46,22 +46,22 @@
     "totalEquity": 3553000000,
     "totalAssets": 4524000000,
     "inventory": 11970000,
-    "receivables": 546190000,
-    "cfo": -266390000,
+    "receivables": 284300000,
+    "cfo": -272040000,
     "capex": 72100000,
-    "freeCashFlow": -338480000,
+    "freeCashFlow": -344130000,
     "da": 39150000,
     "sbc": null,
     "dividendsPaid": 128560000,
     "buybacks": null,
-    "ebitda": 6210000,
+    "ebitda": 8910000,
     "grossMargin": 0.16754352030947775,
-    "operatingMargin": -0.026934235976789168,
+    "operatingMargin": -0.02432301740812379,
     "netMargin": 0.33972920696324954,
-    "fcfMargin": -0.3273500967117988,
-    "roic": -0.006539462968357101,
+    "fcfMargin": -0.33281431334622824,
+    "roic": -0.005905475535159107,
     "netDebt": -188580000,
-    "netDebtToEbitda": -30.367149758454108,
+    "netDebtToEbitda": -21.164983164983166,
     "roe": 0.0988685617787785
   },
   "quarterly": [
@@ -689,7 +689,7 @@
       "restated": true,
       "revenue": 197200000,
       "grossProfit": 21820000,
-      "operatingIncome": -7780000,
+      "operatingIncome": -10480000,
       "netIncome": 124670000,
       "epsDiluted": 0.03,
       "epsBasic": 0.03,
@@ -704,19 +704,19 @@
       "totalAssets": 4452000000,
       "inventory": 5540000,
       "receivables": 645190000,
-      "cfo": 158560000,
+      "cfo": 164210000,
       "capex": 18310000,
-      "freeCashFlow": 140250000,
+      "freeCashFlow": 145900000,
       "da": 7670000,
       "sbc": null,
       "dividendsPaid": null,
       "buybacks": null,
-      "ebitda": -680000,
+      "ebitda": -3380000,
       "grossMargin": 0.11064908722109533,
-      "operatingMargin": -0.039452332657200814,
+      "operatingMargin": -0.05314401622718053,
       "netMargin": 0.6322008113590264,
-      "fcfMargin": 0.7112068965517241,
-      "roic": -0.0019074663736973105,
+      "fcfMargin": 0.7398580121703854,
+      "roic": -0.0025694405650832667,
       "netDebt": -107820000,
       "netDebtToEbitda": null,
       "roe": 0.037438438438438436
@@ -867,7 +867,7 @@
       "totalEquity": 3553000000,
       "totalAssets": 4524000000,
       "inventory": 11970000,
-      "receivables": 546190000,
+      "receivables": 284300000,
       "cfo": -78050000,
       "capex": 700000,
       "freeCashFlow": -77360000,
@@ -1100,31 +1100,31 @@
     "epsTtm": 0.08,
     "epsGrowthTtm": 0,
     "grossMargin": 0.16754352030947775,
-    "operatingMargin": -0.026934235976789168,
+    "operatingMargin": -0.02432301740812379,
     "netMargin": 0.33972920696324954,
-    "fcfMargin": -0.3273500967117988,
-    "roic": -0.006539462968357101,
+    "fcfMargin": -0.33281431334622824,
+    "roic": -0.005905475535159107,
     "roe": 0.0988685617787785,
     "netDebt": -188580000,
-    "netDebtToEbitda": -30.367149758454108,
+    "netDebtToEbitda": -21.164983164983166,
     "interestCover": -1.4550679205851624,
     "freeCashFlowTtm": -351880000,
     "ebitdaTtm": 6210000,
-    "pe": 6.91,
-    "evEbitda": 183.2,
-    "evSales": 2.167717601547389,
+    "pe": 7.4,
+    "evEbitda": 199.35,
+    "evSales": 2.332127659574468,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.2633356820591014,
-    "returnYtd": -0.29820737470545555,
-    "return5y": 0.7289061487994442
+    "return1y": -0.21583538501491006,
+    "returnYtd": -0.25388361295532524,
+    "return5y": 1.2678718271214415
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "84th percentile revenue/EPS growth in the covered universe."
+      "detail": "83rd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-07",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/dfm/UPP/financials/",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/UPP.AE",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:21.119Z"
+  "updatedAt": "2026-11-18T09:28:22.306Z"
 }

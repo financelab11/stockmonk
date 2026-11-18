@@ -1,10 +1,10 @@
 {
   "ticker": "SALIK",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/dfm/SALIK/forecast/",
-  "targetMean": 6.18,
-  "targetHigh": 6.9,
+  "targetMean": 6.13,
+  "targetHigh": 6.8,
   "targetLow": 5.1,
   "recommendationKey": "buy",
   "analystCount": 12,
@@ -19,10 +19,10 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 3000000000,
-      "revenueGrowth": -0.032,
-      "epsAvg": 0.2,
-      "epsGrowth": -0.057,
+      "revenueAvg": 2900000000,
+      "revenueGrowth": -0.07,
+      "epsAvg": 0.19,
+      "epsGrowth": -0.10400000000000001,
       "analystCount": 12
     },
     {
@@ -38,10 +38,10 @@
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 3000000000,
-    "revenueGrowth": -0.032,
-    "epsAvg": 0.2,
-    "epsGrowth": -0.057,
+    "revenueAvg": 2900000000,
+    "revenueGrowth": -0.07,
+    "epsAvg": 0.19,
+    "epsGrowth": -0.10400000000000001,
     "analystCount": 12
   },
   "revisions": null

@@ -13,15 +13,15 @@
   "quoteCurrency": "QAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 10.4399995803833,
-    "prevClose": 10.25,
-    "changePct": 0.01853654442763908,
-    "asOf": "2026-11-09",
-    "high52": 12.930000305175781,
+    "close": 10.300000190734863,
+    "prevClose": 10.369999885559082,
+    "changePct": -0.0067502117258166905,
+    "asOf": "2026-11-18",
+    "high52": 12.779999732971191,
     "low52": 8.001999855041504,
-    "marketCap": 63160000000,
+    "marketCap": 62250000000,
     "sharesOutstanding": 6050000000,
-    "dividendYield": 0.068
+    "dividendYield": 0.069
   },
   "ttm": {
     "period": "TTM",
@@ -1069,21 +1069,21 @@
     "interestCover": 1.8300809138505474,
     "freeCashFlowTtm": 1127820000,
     "ebitdaTtm": 1993710000,
-    "pe": 525.94,
-    "evEbitda": 34.34,
-    "evSales": 5.349911576288009,
+    "pe": 518.39,
+    "evEbitda": 34.08,
+    "evSales": 5.267803843724623,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.14448467765430817,
-    "returnYtd": -0.09150719341292213,
-    "return5y": -0.1047259216357237
+    "return1y": -0.11553224891103264,
+    "returnYtd": -0.10368999451773953,
+    "return5y": -0.11115532336941736
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "6th percentile revenue/EPS growth in the covered universe."
+      "detail": "5th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1112,7 +1112,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1543,13 +1543,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/qse/IQCD/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/IQCD.QA",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:42.140Z"
+  "updatedAt": "2026-11-18T09:29:02.447Z"
 }

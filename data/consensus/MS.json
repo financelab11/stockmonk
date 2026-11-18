@@ -1,7 +1,7 @@
 {
   "ticker": "MS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/MS/analysis",
   "targetMean": 211.5,
   "targetHigh": 262,
@@ -37,17 +37,17 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 82466229180,
-      "revenueGrowth": 0.1673,
-      "epsAvg": 12.90946,
+      "revenueAvg": 82487066190,
+      "revenueGrowth": 0.1676,
+      "epsAvg": 12.90989,
       "epsGrowth": 0.2644,
-      "analystCount": 23
+      "analystCount": 22
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 86641390100,
-      "revenueGrowth": 0.0506,
+      "revenueGrowth": 0.0504,
       "epsAvg": 13.69295,
       "epsGrowth": 0.060700003,
       "analystCount": 22
@@ -82,7 +82,7 @@
       "quarter": "2026-09-30",
       "endDate": "2026-09-30",
       "epsActual": 3.03,
-      "epsEstimate": 2.9159,
+      "epsEstimate": 2.92085,
       "revenueActual": 20338000000,
       "revenueEstimate": null
     }
@@ -96,10 +96,10 @@
     "analystCount": 16
   },
   "revisions": {
-    "eps7d": 0.004832895759988132,
-    "eps30d": 0.005261686558598377,
-    "eps60d": -0.005298107136417873,
-    "eps90d": -0.005298107136417873,
+    "eps7d": -0.00004415024716386551,
+    "eps30d": 0.016487552842449515,
+    "eps60d": -0.005520142047752308,
+    "eps90d": -0.005264974703772851,
     "revenue30d": null
   }
 }

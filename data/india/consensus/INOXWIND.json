@@ -1,26 +1,17 @@
 {
   "ticker": "INOXWIND",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=INOXWIND",
-  "targetMean": 109,
+  "targetMean": 103.16667,
   "targetHigh": 138,
   "targetLow": 72,
-  "recommendationKey": "none",
+  "recommendationKey": "strong_buy",
   "analystCount": 6,
   "distribution": null,
   "estimates": [
     {
       "period": "Next quarter",
-      "endDate": "2026-09-30",
-      "revenueAvg": 12665500000,
-      "revenueGrowth": 0.1317,
-      "epsAvg": null,
-      "epsGrowth": null,
-      "analystCount": 2
-    },
-    {
-      "period": "Following quarter",
       "endDate": "2026-12-31",
       "revenueAvg": 17680000000,
       "revenueGrowth": 0.4642,
@@ -29,33 +20,34 @@
       "analystCount": 1
     },
     {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 21931000000,
+      "revenueGrowth": 0.7626,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 55508000000,
-      "revenueGrowth": 0.2624,
-      "epsAvg": 3.15,
-      "epsGrowth": 0.1887,
+      "revenueAvg": 54110000000,
+      "revenueGrowth": 0.2306,
+      "epsAvg": 2.3,
+      "epsGrowth": -0.1321,
       "analystCount": 2
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 73381750000,
-      "revenueGrowth": 0.322,
-      "epsAvg": 4.475,
-      "epsGrowth": 0.42060003,
+      "revenueAvg": 73610000000,
+      "revenueGrowth": 0.36040002,
+      "epsAvg": 4.3,
+      "epsGrowth": 0.8696,
       "analystCount": 4
     }
   ],
   "history": [
-    {
-      "quarter": "2Q2026",
-      "endDate": "2025-09-30",
-      "epsActual": 0.7,
-      "epsEstimate": 0.8,
-      "revenueActual": null,
-      "revenueEstimate": null
-    },
     {
       "quarter": "3Q2026",
       "endDate": "2025-12-31",
@@ -82,11 +74,11 @@
     }
   ],
   "currentQuarter": {
-    "endDate": "2026-09-30",
-    "revenueAvg": 12665500000,
-    "revenueGrowth": 0.1317,
+    "endDate": "2026-12-31",
+    "revenueAvg": 17680000000,
+    "revenueGrowth": 0.4642,
     "epsAvg": null,
     "epsGrowth": null,
-    "analystCount": 2
+    "analystCount": 1
   }
 }

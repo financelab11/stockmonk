@@ -1,0 +1,30 @@
+{
+  "ticker": "PYPL",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "PayPal Holdings, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+    "date": "2026-02-03"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 33172000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 18868000000,
+      "share": 0.568792957916315
+    },
+    {
+      "name": "Non-US",
+      "revenue": 14304000000,
+      "share": 0.43120704208368504
+    }
+  ]
+}

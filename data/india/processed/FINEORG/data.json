@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 5205.5,
-    "prevClose": 5075.5,
-    "changePct": 0.025613240074869426,
-    "asOf": "2026-11-08",
+    "close": 5486,
+    "prevClose": 5299,
+    "changePct": 0.03528967729760324,
+    "asOf": "2026-11-18",
     "high52": 5666,
     "low52": 3856,
-    "marketCap": 159600508928,
+    "marketCap": 168200634368,
     "sharesOutstanding": null,
-    "dividendYield": 0.0022
+    "dividendYield": 0.0021
   },
   "ttm": {
     "period": "TTM",
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 1460000000,
       "netIncome": 760000000,
-      "epsDiluted": 26.27,
-      "epsBasic": 26.27,
+      "epsDiluted": 24.85,
+      "epsBasic": 24.85,
       "interestExpense": 70000000,
       "pretaxIncome": 1170000000,
       "incomeTax": 409500000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 1450000000,
       "netIncome": 780000000,
-      "epsDiluted": 26.85,
-      "epsBasic": 26.85,
+      "epsDiluted": 25.4,
+      "epsBasic": 25.4,
       "interestExpense": 40000000,
       "pretaxIncome": 1210000000,
       "incomeTax": 435600000,
@@ -1061,7 +1061,7 @@
     "epsTtm": 157.11,
     "epsGrowthTtm": 0.18806715063520874,
     "grossMargin": 0.41046003,
-    "operatingMargin": 0.23376,
+    "operatingMargin": 0.2021,
     "netMargin": 0.18504,
     "fcfMargin": 0.12172442941673711,
     "roic": 0.21,
@@ -1071,14 +1071,14 @@
     "interestCover": 96.5,
     "freeCashFlowTtm": 2880000000,
     "ebitdaTtm": 5790000000,
-    "pe": 33.18097898711019,
-    "evEbitda": 25.24045065284974,
-    "evSales": 5.6143760768344215,
-    "pfcf": 55.41684337777778,
-    "fcfYield": 0.018045055240389265,
-    "return1y": 0.2270438811037896,
-    "returnYtd": 0.27049008698814925,
-    "return5y": 0.5658822785500841
+    "pe": 34.96894685405405,
+    "evEbitda": 26.72579183419689,
+    "evSales": 5.944768909719555,
+    "pfcf": 58.402998044444445,
+    "fcfYield": 0.017122408668798203,
+    "return1y": 0.17069458246289226,
+    "returnYtd": 0.33895084376466955,
+    "return5y": 0.573168838024348
   },
   "factorChips": [
     {
@@ -1089,9 +1089,9 @@
     },
     {
       "key": "profitability",
-      "label": "Profitability: High",
-      "tone": "positive",
-      "detail": "72nd percentile profitability metrics in the covered universe."
+      "label": "Profitability: Average",
+      "tone": "neutral",
+      "detail": "63rd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1109,12 +1109,12 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "51st percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "47th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1545,13 +1545,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=FINEORG",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.fineorganics.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:51.544Z"
+  "updatedAt": "2026-11-18T09:10:41.806Z"
 }

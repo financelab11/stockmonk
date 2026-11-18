@@ -1,0 +1,30 @@
+{
+  "ticker": "AIG",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "American International Group, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/5272/000000527226000023/aig-20251231.htm",
+    "date": "2026-02-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 26775000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "International",
+      "revenue": 14076000000,
+      "share": 0.5257142857142857
+    },
+    {
+      "name": "North America",
+      "revenue": 12699000000,
+      "share": 0.4742857142857143
+    }
+  ]
+}

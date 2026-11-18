@@ -1,12 +1,12 @@
 {
   "ticker": "UEC",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/UEC/analysis",
-  "targetMean": 16.02727,
+  "targetMean": 15.84545,
   "targetHigh": 26.75,
   "targetLow": 10,
-  "recommendationKey": "none",
+  "recommendationKey": "buy",
   "analystCount": 11,
   "distribution": {
     "strongBuy": 2,

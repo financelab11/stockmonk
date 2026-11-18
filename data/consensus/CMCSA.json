@@ -1,7 +1,7 @@
 {
   "ticker": "CMCSA",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/CMCSA/analysis",
   "targetMean": 27.97727,
   "targetHigh": 42,
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 119783146240,
-      "revenueGrowth": -0.0317,
-      "epsAvg": 3.49865,
-      "epsGrowth": -0.1882,
+      "revenueAvg": 119754896240,
+      "revenueGrowth": -0.0319,
+      "epsAvg": 3.49915,
+      "epsGrowth": -0.1881,
       "analystCount": 22
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 116430472120,
-      "revenueGrowth": -0.027999999,
+      "revenueGrowth": -0.0278,
       "epsAvg": 3.52187,
-      "epsGrowth": 0.0066000004,
+      "epsGrowth": 0.0064999997,
       "analystCount": 21
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 20
   },
   "revisions": {
-    "eps7d": 0.005567243797567345,
-    "eps30d": 0.005110805950253816,
-    "eps60d": -0.002995018750926115,
-    "eps90d": -0.001056433537481971,
+    "eps7d": 0.00014291226615981145,
+    "eps30d": 0.004798359770735505,
+    "eps60d": -0.003922651461884974,
+    "eps90d": -0.0028525345096831467,
     "revenue30d": null
   }
 }

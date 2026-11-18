@@ -13,15 +13,15 @@
   "quoteCurrency": "KWD",
   "isResearch": true,
   "latestPrice": {
-    "close": 330,
+    "close": 332,
     "prevClose": 332,
-    "changePct": -0.0060240963855421326,
-    "asOf": "2026-11-09",
+    "changePct": 0,
+    "asOf": "2026-11-18",
     "high52": 370,
     "low52": 304,
-    "marketCap": 1380000000,
+    "marketCap": 1390000000,
     "sharesOutstanding": 4179999999.9999995,
-    "dividendYield": 0.026099999999999998
+    "dividendYield": 0.0259
   },
   "ttm": {
     "period": "TTM",
@@ -1110,27 +1110,27 @@
     "interestCover": null,
     "freeCashFlowTtm": -567320000,
     "ebitdaTtm": null,
-    "pe": 24.7,
+    "pe": 24.85,
     "evEbitda": null,
-    "evSales": 8.906935798277054,
+    "evSales": 8.969817015657423,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.004280141238583446,
-    "returnYtd": -0.02115594850546565,
-    "return5y": 0.6519245061652483
+    "return1y": 0.001754524572091798,
+    "returnYtd": -0.015223560314589601,
+    "return5y": 0.6299808054691003
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "36th percentile revenue/EPS growth in the covered universe."
+      "detail": "37th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "63rd percentile profitability metrics in the covered universe."
+      "detail": "62nd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/kwse/GBK/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/GBK.KW",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:02.476Z"
+  "updatedAt": "2026-11-18T09:29:43.057Z"
 }

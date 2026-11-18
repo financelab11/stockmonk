@@ -13,15 +13,15 @@
   "quoteCurrency": "QAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 3.390000104904175,
-    "prevClose": 3.3320000171661377,
-    "changePct": 0.017406989027378916,
-    "asOf": "2026-11-09",
+    "close": 3.384000062942505,
+    "prevClose": 3.380000114440918,
+    "changePct": 0.0011834166763773357,
+    "asOf": "2026-11-18",
     "high52": 3.6500000953674316,
     "low52": 2.799999952316284,
-    "marketCap": 17610000000,
+    "marketCap": 17580000000,
     "sharesOutstanding": 5200000000,
-    "dividendYield": 0.0472
+    "dividendYield": 0.0473
   },
   "ttm": {
     "period": "TTM",
@@ -1110,21 +1110,21 @@
     "interestCover": null,
     "freeCashFlowTtm": -4405110000,
     "ebitdaTtm": null,
-    "pe": 13.2,
+    "pe": 13.17,
     "evEbitda": null,
-    "evSales": 6.142410350448248,
+    "evSales": 6.136297881010595,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.015737671463968206,
-    "returnYtd": -0.0024330386427910966,
-    "return5y": 0.35302708206455535
+    "return1y": 0.026505023960661456,
+    "returnYtd": -0.00419865617745141,
+    "return5y": 0.35063258424036703
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "31st percentile revenue/EPS growth in the covered universe."
+      "detail": "33rd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1479,13 +1479,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/qse/DUBK/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/DUBK.QA",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:37.397Z"
+  "updatedAt": "2026-11-18T09:28:52.350Z"
 }

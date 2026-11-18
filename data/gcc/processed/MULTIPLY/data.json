@@ -13,13 +13,13 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 2,
-    "prevClose": 1.99,
-    "changePct": 0.005025125628140614,
-    "asOf": "2026-11-09",
+    "close": 2.07,
+    "prevClose": 2.04,
+    "changePct": 0.014705882352941124,
+    "asOf": "2026-11-17",
     "high52": 2.38,
     "low52": 1.88,
-    "marketCap": 22400000000,
+    "marketCap": 23180000000,
     "sharesOutstanding": 11200000000,
     "dividendYield": null
   },
@@ -36,7 +36,7 @@
     "netIncome": 9390000000,
     "epsDiluted": 0.3,
     "epsBasic": 0.3,
-    "interestExpense": -1616000000,
+    "interestExpense": -1335000000,
     "pretaxIncome": 11995000000,
     "incomeTax": 1469000000,
     "rnd": null,
@@ -46,10 +46,10 @@
     "totalEquity": 97458000000,
     "totalAssets": 154984000000,
     "inventory": 3157000000,
-    "receivables": 13795000000,
-    "cfo": 10103000000,
+    "receivables": 3495000000,
+    "cfo": 10124000000,
     "capex": 1771000000,
-    "freeCashFlow": 8332000000,
+    "freeCashFlow": 8353000000,
     "da": 2263000000,
     "sbc": null,
     "dividendsPaid": null,
@@ -58,7 +58,7 @@
     "grossMargin": 0.2997919916796672,
     "operatingMargin": 0.12329693187727508,
     "netMargin": 0.24414976599063962,
-    "fcfMargin": 0.21664066562662507,
+    "fcfMargin": 0.2171866874674987,
     "roic": 0.03077652355367148,
     "netDebt": 24264000000,
     "netDebtToEbitda": 3.937682570593963,
@@ -704,9 +704,9 @@
       "totalAssets": 53255000000,
       "inventory": 976210000,
       "receivables": 210970000,
-      "cfo": 458470000,
+      "cfo": 438150000,
       "capex": 91650000,
-      "freeCashFlow": 366830000,
+      "freeCashFlow": 346500000,
       "da": 213250000,
       "sbc": null,
       "dividendsPaid": null,
@@ -715,7 +715,7 @@
       "grossMargin": 0.5775655737704918,
       "operatingMargin": 0.04492622950819672,
       "netMargin": 1.6467213114754098,
-      "fcfMargin": 0.30068032786885246,
+      "fcfMargin": 0.28401639344262297,
       "roic": 0.0009249150913168856,
       "netDebt": 12937000000,
       "netDebtToEbitda": 94.54797924431777,
@@ -857,7 +857,7 @@
       "netIncome": 1514000000,
       "epsDiluted": 0.04,
       "epsBasic": 0.04,
-      "interestExpense": -547740000,
+      "interestExpense": -447670000,
       "pretaxIncome": 2258000000,
       "incomeTax": 440730000,
       "rnd": null,
@@ -867,7 +867,7 @@
       "totalEquity": 97458000000,
       "totalAssets": 154984000000,
       "inventory": 3157000000,
-      "receivables": 13795000000,
+      "receivables": 3495000000,
       "cfo": 5159000000,
       "capex": 670270000,
       "freeCashFlow": 4489000000,
@@ -1102,35 +1102,35 @@
     "grossMargin": 0.2997919916796672,
     "operatingMargin": 0.12329693187727508,
     "netMargin": 0.24414976599063962,
-    "fcfMargin": 0.21664066562662507,
+    "fcfMargin": 0.2171866874674987,
     "roic": 0.03077652355367148,
     "roe": 0.09634919657698701,
     "netDebt": 24264000000,
     "netDebtToEbitda": 3.937682570593963,
-    "interestCover": 3.2313045730605903,
+    "interestCover": 3.467849305047549,
     "freeCashFlowTtm": 8352560000,
     "ebitdaTtm": 6162000000,
-    "pe": 6.69,
-    "evEbitda": 0.66,
-    "evSales": 1.2133125325013001,
+    "pe": 6.93,
+    "evEbitda": 0.77,
+    "evSales": 1.2335933437337494,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.033816425120772875,
-    "returnYtd": -0.033816425120772875,
-    "return5y": -0.033816425120772875
+    "return1y": -0.07174887892376691,
+    "returnYtd": -0.07174887892376691,
+    "return5y": -0.07174887892376691
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "100th percentile revenue/EPS growth in the covered universe."
+      "detail": "99th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "21st percentile profitability metrics in the covered universe."
+      "detail": "22nd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2026-09-01",
+      "date": "2026-09-09",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1178,8 +1178,8 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/adx/MULTIPLY/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-17"
     }
   ],
-  "updatedAt": "2026-11-09T20:16:54.420Z"
+  "updatedAt": "2026-11-18T09:27:18.238Z"
 }

@@ -1,0 +1,35 @@
+{
+  "ticker": "EQIX",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "EQUINIX INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000032/eqix-20251231.htm",
+    "date": "2026-02-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Americas",
+      "revenue": 4111000000,
+      "share": 0.44602365194748833
+    },
+    {
+      "name": "EMEA",
+      "revenue": 3130000000,
+      "share": 0.3395898882499729
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 1976000000,
+      "share": 0.2143864598025388
+    }
+  ],
+  "geographyLabel": null,
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 3600000000,
+      "share": 0.3905826190734512
+    }
+  ]
+}

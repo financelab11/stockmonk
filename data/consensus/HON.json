@@ -1,9 +1,9 @@
 {
   "ticker": "HON",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/HON/analysis",
-  "targetMean": 253.91304,
+  "targetMean": 253.86957,
   "targetHigh": 290,
   "targetLow": 186,
   "recommendationKey": "buy",
@@ -21,17 +21,17 @@
       "endDate": "2026-12-31",
       "revenueAvg": 5158018440,
       "revenueGrowth": -0.4714,
-      "epsAvg": 2.45287,
-      "epsGrowth": -0.5265,
-      "analystCount": 17
+      "epsAvg": 2.45048,
+      "epsGrowth": -0.5269,
+      "analystCount": 18
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 4708574210,
-      "revenueGrowth": -0.485,
-      "epsAvg": 2.11493,
-      "epsGrowth": -0.5684,
+      "revenueAvg": 4709793540,
+      "revenueGrowth": -0.48490003,
+      "epsAvg": 2.11108,
+      "epsGrowth": -0.5692,
       "analystCount": 13
     },
     {
@@ -39,17 +39,17 @@
       "endDate": "2026-12-31",
       "revenueAvg": 20155203730,
       "revenueGrowth": -0.4617,
-      "epsAvg": 8.44175,
-      "epsGrowth": -0.5684,
-      "analystCount": 20
+      "epsAvg": 8.41766,
+      "epsGrowth": -0.5696,
+      "analystCount": 24
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 20507033490,
-      "revenueGrowth": 0.0175,
-      "epsAvg": 9.85358,
-      "epsGrowth": 0.1672,
+      "revenueAvg": 20509140220,
+      "revenueGrowth": 0.0176,
+      "epsAvg": 9.87567,
+      "epsGrowth": 0.1732,
       "analystCount": 24
     }
   ],
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 5158018440,
     "revenueGrowth": -0.4714,
-    "epsAvg": 2.45287,
-    "epsGrowth": -0.5265,
-    "analystCount": 17
+    "epsAvg": 2.45048,
+    "epsGrowth": -0.5269,
+    "analystCount": 18
   },
   "revisions": {
-    "eps7d": 0.017224156234448174,
-    "eps30d": 0.0168920872322178,
-    "eps60d": 0.015573307026935934,
-    "eps90d": 0.018238860194872863,
+    "eps7d": -0.0028536737050968153,
+    "eps30d": 0.014309108063589093,
+    "eps60d": 0.012899406290385773,
+    "eps90d": 0.011406113138357155,
     "revenue30d": null
   }
 }

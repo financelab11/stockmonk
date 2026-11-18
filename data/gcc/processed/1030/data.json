@@ -13,15 +13,15 @@
   "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 11.430000305175781,
-    "prevClose": 11.430000305175781,
-    "changePct": 0,
-    "asOf": "2026-11-09",
+    "close": 11.539999961853027,
+    "prevClose": 11.5,
+    "changePct": 0.003478257552437247,
+    "asOf": "2026-11-18",
     "high52": 12.483332633972168,
     "low52": 10.216666221618652,
-    "marketCap": 17120000000.000002,
+    "marketCap": 17250000000,
     "sharesOutstanding": 1500000000,
-    "dividendYield": 0.051
+    "dividendYield": 0.0506
   },
   "ttm": {
     "period": "TTM",
@@ -1110,14 +1110,14 @@
     "interestCover": null,
     "freeCashFlowTtm": -13575660000,
     "ebitdaTtm": null,
-    "pe": 8.09,
+    "pe": 8.16,
     "evEbitda": null,
-    "evSales": 9.266206282022722,
+    "evSales": 9.295165961238583,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.06879876665513618,
-    "returnYtd": 0.09389925033934432,
-    "return5y": 0.6462777682275154
+    "return1y": 0.12574776151825562,
+    "returnYtd": 0.10442678235405833,
+    "return5y": 0.7077629501817377
   },
   "factorChips": [
     {
@@ -1130,7 +1130,7 @@
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "84th percentile profitability metrics in the covered universe."
+      "detail": "85th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/1030/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/1030.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:15:07.158Z"
+  "updatedAt": "2026-11-18T09:24:20.224Z"
 }

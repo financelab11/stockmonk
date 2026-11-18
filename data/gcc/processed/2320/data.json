@@ -13,15 +13,15 @@
   "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 52,
-    "prevClose": 48.400001525878906,
-    "changePct": 0.0743801314178929,
-    "asOf": "2026-11-09",
+    "close": 51.45000076293945,
+    "prevClose": 51.400001525878906,
+    "changePct": 0.00097274777385703,
+    "asOf": "2026-11-18",
     "high52": 74.5999984741211,
     "low52": 41,
-    "marketCap": 3330000000,
+    "marketCap": 3290000000,
     "sharesOutstanding": 63950000,
-    "dividendYield": 0.0385
+    "dividendYield": 0.0388
   },
   "ttm": {
     "period": "TTM",
@@ -1110,21 +1110,21 @@
     "interestCover": 9.093026386645127,
     "freeCashFlowTtm": 402630000,
     "ebitdaTtm": 705390000,
-    "pe": 5.92,
-    "evEbitda": 5.37,
-    "evSales": 1.32945108169196,
+    "pe": 5.86,
+    "evEbitda": 5.71,
+    "evSales": 1.3165353567969003,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.16414990631897464,
-    "returnYtd": -0.18338397137950446,
-    "return5y": 1.6281807782768998
+    "return1y": -0.19920523222219344,
+    "returnYtd": -0.19202124431628698,
+    "return5y": 1.795411625657216
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "91st percentile revenue/EPS growth in the covered universe."
+      "detail": "89th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1134,9 +1134,9 @@
     },
     {
       "key": "cash",
-      "label": "Cash generation: Average",
-      "tone": "neutral",
-      "detail": "67th percentile free-cash-flow margin."
+      "label": "Cash generation: High",
+      "tone": "positive",
+      "detail": "69th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "86th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "84th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/2320/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/2320.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:16:21.275Z"
+  "updatedAt": "2026-11-18T09:26:26.865Z"
 }

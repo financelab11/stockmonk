@@ -1,9 +1,9 @@
 {
   "ticker": "DU",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/dfm/DU/forecast/",
-  "targetMean": 12.08,
+  "targetMean": 12.14,
   "targetHigh": 14,
   "targetLow": 10.8,
   "recommendationKey": "buy",
@@ -22,7 +22,7 @@
       "revenueAvg": 16700000000,
       "revenueGrowth": 0.052000000000000005,
       "epsAvg": 0.7,
-      "epsGrowth": 0.094,
+      "epsGrowth": 0.091,
       "analystCount": 12
     },
     {
@@ -41,7 +41,7 @@
     "revenueAvg": 16700000000,
     "revenueGrowth": 0.052000000000000005,
     "epsAvg": 0.7,
-    "epsGrowth": 0.094,
+    "epsGrowth": 0.091,
     "analystCount": 12
   },
   "revisions": null

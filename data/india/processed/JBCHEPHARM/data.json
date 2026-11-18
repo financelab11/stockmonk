@@ -1102,7 +1102,7 @@
     "epsTtm": 45.17,
     "epsGrowthTtm": 0.06432610744580591,
     "grossMargin": 0.67767,
-    "operatingMargin": 0.16476,
+    "operatingMargin": 0.22248,
     "netMargin": 0.17105,
     "fcfMargin": 0.15019286403085824,
     "roic": 0.25,
@@ -1124,15 +1124,15 @@
   "factorChips": [
     {
       "key": "growth",
-      "label": "Growth: Slow",
-      "tone": "caution",
-      "detail": "34th percentile revenue/EPS growth in the covered universe."
+      "label": "Growth: Moderate",
+      "tone": "neutral",
+      "detail": "35th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "68th percentile profitability metrics in the covered universe."
+      "detail": "74th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1150,7 +1150,7 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "36th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "39th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1594,5 +1594,5 @@
       "date": "2026-07-16"
     }
   ],
-  "updatedAt": "2026-11-08T14:16:01.624Z"
+  "updatedAt": "2026-11-18T09:09:51.760Z"
 }

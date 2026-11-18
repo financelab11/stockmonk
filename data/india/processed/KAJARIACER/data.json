@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 1214.699951171875,
-    "prevClose": 1180.699951171875,
-    "changePct": 0.028796477857269354,
-    "asOf": "2026-11-08",
+    "close": 1179.800048828125,
+    "prevClose": 1168.699951171875,
+    "changePct": 0.009497816479858479,
+    "asOf": "2026-11-18",
     "high52": 1275,
     "low52": 869.6,
-    "marketCap": 190881660928,
+    "marketCap": 185397379072,
     "sharesOutstanding": null,
-    "dividendYield": 0.0152
+    "dividendYield": 0.0154
   },
   "ttm": {
     "period": "TTM",
@@ -1102,7 +1102,7 @@
     "epsTtm": 37.99,
     "epsGrowthTtm": 0.6706244503078276,
     "grossMargin": 0.54568,
-    "operatingMargin": 0.16584998,
+    "operatingMargin": 0.15783,
     "netMargin": 0.11286,
     "fcfMargin": 0.1165631469979296,
     "roic": 0.23,
@@ -1112,14 +1112,14 @@
     "interestCover": 45.90909090909091,
     "freeCashFlowTtm": 5630000000,
     "ebitdaTtm": 10100000000,
-    "pe": 31.550687756694217,
-    "evEbitda": 18.52369909861386,
-    "evSales": 3.505515474910999,
-    "pfcf": 33.9043802714032,
-    "fcfYield": 0.029494714016154853,
-    "return1y": 0.10115405798187194,
-    "returnYtd": 0.28167761991905094,
-    "return5y": 0.0377327027637806
+    "pe": 30.644194887933885,
+    "evEbitda": 17.980700895049505,
+    "evSales": 3.4027558373618136,
+    "pfcf": 32.93026271261101,
+    "fcfYield": 0.03036720383093205,
+    "return1y": 0.08530157422214457,
+    "returnYtd": 0.2448533624320961,
+    "return5y": 0.11059756491618677
   },
   "factorChips": [
     {
@@ -1132,7 +1132,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "62nd percentile profitability metrics in the covered universe."
+      "detail": "56th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1155,7 +1155,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=KAJARIACER",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.kajariaceramics.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:23.630Z"
+  "updatedAt": "2026-11-18T09:12:50.163Z"
 }

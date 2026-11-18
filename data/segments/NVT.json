@@ -1,0 +1,40 @@
+{
+  "ticker": "NVT",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "nVent Electric plc Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026008608/nvt-20251231.htm",
+    "date": "2026-02-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Enclosures",
+      "revenue": 2592900000,
+      "share": 0.6660245048932727
+    },
+    {
+      "name": "Electricaland Fastening Solutions",
+      "revenue": 1300200000,
+      "share": 0.3339754951067273
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 3158300000,
+      "share": 0.8112558115640492
+    },
+    {
+      "name": "EMEA",
+      "revenue": 587300000,
+      "share": 0.15085664380570754
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 147500000,
+      "share": 0.03788754463024325
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "ticker": "MS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "MORGAN STANLEY Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000086/ms-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Institutional Securities",
+      "revenue": 33080000000,
+      "share": 0.46825677684195627
+    },
+    {
+      "name": "Wealth Management",
+      "revenue": 31754000000,
+      "share": 0.4494868709745913
+    },
+    {
+      "name": "Investment Management",
+      "revenue": 6525000000,
+      "share": 0.09236322457357209
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 52897000000,
+      "share": 0.748772029159884
+    },
+    {
+      "name": "Asia",
+      "revenue": 9420000000,
+      "share": 0.13334277018897303
+    },
+    {
+      "name": "EMEA",
+      "revenue": 8328000000,
+      "share": 0.11788520065114304
+    }
+  ]
+}

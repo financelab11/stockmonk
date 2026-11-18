@@ -1,10 +1,10 @@
 {
   "ticker": "INSP",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/INSP/analysis",
-  "targetMean": 69.625,
-  "targetHigh": 97,
+  "targetMean": 69.375,
+  "targetHigh": 93,
   "targetLow": 45,
   "recommendationKey": "hold",
   "analystCount": 16,
@@ -21,26 +21,26 @@
       "endDate": "2026-12-31",
       "revenueAvg": 243650210,
       "revenueGrowth": -0.0945,
-      "epsAvg": 0.91,
-      "epsGrowth": null,
-      "analystCount": 5
+      "epsAvg": 0.91623,
+      "epsGrowth": -0.4447,
+      "analystCount": 14
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
       "revenueAvg": 192401640,
       "revenueGrowth": -0.059499998,
-      "epsAvg": 0.11,
-      "epsGrowth": null,
-      "analystCount": 2
+      "epsAvg": 0.1271,
+      "epsGrowth": 0.271,
+      "analystCount": 10
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
       "revenueAvg": 855424170,
       "revenueGrowth": -0.062,
-      "epsAvg": 1.30064,
-      "epsGrowth": -0.4625,
+      "epsAvg": 1.30131,
+      "epsGrowth": -0.4623,
       "analystCount": 15
     },
     {
@@ -48,18 +48,18 @@
       "endDate": "2027-12-31",
       "revenueAvg": 877755890,
       "revenueGrowth": 0.026099999,
-      "epsAvg": 1.49606,
-      "epsGrowth": 0.15020001,
+      "epsAvg": 1.49539,
+      "epsGrowth": 0.1491,
       "analystCount": 15
     }
   ],
   "history": [
     {
-      "quarter": "2025-09-30",
-      "endDate": "2025-09-30",
-      "epsActual": 0.38,
-      "epsEstimate": -0.16992,
-      "revenueActual": 224501000,
+      "quarter": "2025-12-31",
+      "endDate": "2025-12-31",
+      "epsActual": 1.65,
+      "epsEstimate": 0.68167,
+      "revenueActual": 269077000,
       "revenueEstimate": null
     },
     {
@@ -68,6 +68,14 @@
       "epsActual": 0.1,
       "epsEstimate": -0.26072,
       "revenueActual": 204583000,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-06-30",
+      "endDate": "2026-06-30",
+      "epsActual": 0.14,
+      "epsEstimate": -0.2452,
+      "revenueActual": 200581000,
       "revenueEstimate": null
     },
     {
@@ -83,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 243650210,
     "revenueGrowth": -0.0945,
-    "epsAvg": 0.91,
-    "epsGrowth": null,
-    "analystCount": 5
+    "epsAvg": 0.91623,
+    "epsGrowth": -0.4447,
+    "analystCount": 14
   },
   "revisions": {
-    "eps7d": 0.04084507042253516,
-    "eps30d": 0.04257212251408782,
-    "eps60d": 0.04317418050865807,
-    "eps90d": 0.04317418050865807,
+    "eps7d": 0.0005151310124245079,
+    "eps30d": 0.04138124199743909,
+    "eps60d": 0.04371155188039877,
+    "eps90d": 0.04371155188039877,
     "revenue30d": null
   }
 }

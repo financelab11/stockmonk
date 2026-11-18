@@ -1,12 +1,12 @@
 {
   "ticker": "VOLTAMP",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=VOLTAMP",
   "targetMean": 11342.875,
   "targetHigh": 12600,
   "targetLow": 10398,
-  "recommendationKey": "buy",
+  "recommendationKey": "none",
   "analystCount": 8,
   "distribution": null,
   "estimates": [

@@ -14,15 +14,19 @@
   "currency": "USD",
   "isResearch": true,
   "latestPrice": {
-    "close": 40.97999954223633,
-    "prevClose": 41.09000015258789,
-    "changePct": -0.002677065221296515,
-    "asOf": "2026-11-06",
-    "high52": 47.47,
-    "low52": 23.38,
-    "marketCap": 23998099456,
+    "close": 39.27000045776367,
+    "prevClose": 40.849998474121094,
+    "changePct": -0.038678043460842915,
+    "asOf": "2026-11-17",
+    "high52": 47.470001220703125,
+    "low52": 23.3799991607666,
+    "marketCap": 22996715520,
     "sharesOutstanding": null,
-    "dividendYield": 0
+    "dividendYield": 0,
+    "pe": null,
+    "evEbitda": null,
+    "evSales": null,
+    "pfcf": null
   },
   "ttm": {
     "period": "TTM",
@@ -1194,25 +1198,25 @@
     "revenueGrowthLatestQ": 0.29875600286093795,
     "epsTtm": 0.15,
     "epsGrowthTtm": -1.9375,
-    "grossMargin": 0.76432,
-    "operatingMargin": 0.00959,
-    "netMargin": 0.04901,
+    "grossMargin": 0.7637760669253152,
+    "operatingMargin": 0.010483060828599141,
+    "netMargin": 0.037084747817652766,
     "fcfMargin": 0.13827919322433144,
     "roic": null,
-    "roe": 0.0643,
+    "roe": null,
     "netDebt": null,
     "netDebtToEbitda": null,
     "interestCover": null,
     "freeCashFlowTtm": 255478000,
     "ebitdaTtm": null,
-    "pe": null,
+    "pe": 335.640077062292,
     "evEbitda": null,
-    "evSales": null,
-    "pfcf": null,
-    "fcfYield": null,
-    "return1y": 0.0755905822429741,
-    "returnYtd": 0.20813684417455658,
-    "return5y": 0.6591092419609892
+    "evSales": 12.44712761535264,
+    "pfcf": 90.01446512028433,
+    "fcfYield": 0.01110932558076885,
+    "return1y": 0.07736624515222101,
+    "returnYtd": 0.15772413259492546,
+    "return5y": 0.5898785119345193
   },
   "factorChips": [
     {
@@ -1675,10 +1679,10 @@
       "date": "2026-01-31"
     },
     {
-      "name": "Yahoo Finance market data",
+      "name": "Market price history",
       "url": "https://finance.yahoo.com/quote/IOT",
-      "date": "2026-11-06"
+      "date": "2026-11-17"
     }
   ],
-  "updatedAt": "2026-11-08T09:10:56.017Z"
+  "updatedAt": "2026-11-18T09:06:52.144Z"
 }

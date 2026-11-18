@@ -1,12 +1,12 @@
 {
   "ticker": "ERIS",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=ERIS",
   "targetMean": 1514.4,
   "targetHigh": 1780,
   "targetLow": 1140,
-  "recommendationKey": "strong_buy",
+  "recommendationKey": "none",
   "analystCount": 10,
   "distribution": null,
   "estimates": [

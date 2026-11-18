@@ -1,7 +1,7 @@
 {
   "ticker": "1111",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/1111/forecast/",
   "targetMean": 145.57,
   "targetHigh": 178,
@@ -9,9 +9,9 @@
   "recommendationKey": "buy",
   "analystCount": 6,
   "distribution": {
-    "strongBuy": 1,
+    "strongBuy": 2,
     "buy": 0,
-    "hold": 5,
+    "hold": 4,
     "sell": 0,
     "strongSell": 0
   },

@@ -1,12 +1,12 @@
 {
   "ticker": "LLOYDSME",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=LLOYDSME",
-  "targetMean": 2132.5715,
+  "targetMean": 2141.1428,
   "targetHigh": 2390,
   "targetLow": 1880,
-  "recommendationKey": "none",
+  "recommendationKey": "buy",
   "analystCount": 7,
   "distribution": null,
   "estimates": [
@@ -31,20 +31,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 263193599999,
-      "revenueGrowth": 0.9238,
-      "epsAvg": 114.01,
-      "epsGrowth": 0.70489997,
+      "revenueAvg": 283210800000,
+      "revenueGrowth": 1.0702,
+      "epsAvg": 117.9875,
+      "epsGrowth": 0.7644,
       "analystCount": 5
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 340947428570,
-      "revenueGrowth": 0.588,
-      "epsAvg": 139.73167,
-      "epsGrowth": 0.22559999,
-      "analystCount": 7
+      "revenueAvg": 366876666670,
+      "revenueGrowth": 0.78419995,
+      "epsAvg": 146.178,
+      "epsGrowth": 0.23889999,
+      "analystCount": 6
     }
   ],
   "history": [

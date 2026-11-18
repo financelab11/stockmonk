@@ -1,23 +1,23 @@
 {
   "ticker": "CLEAN",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=CLEAN",
-  "targetMean": 928.2143,
+  "targetMean": 913.8571,
   "targetHigh": 1150,
-  "targetLow": 769,
-  "recommendationKey": "strong_buy",
+  "targetLow": 750,
+  "recommendationKey": "buy",
   "analystCount": 14,
   "distribution": null,
   "estimates": [
     {
       "period": "Next quarter",
-      "endDate": "2026-09-30",
-      "revenueAvg": 2833090910,
-      "revenueGrowth": 0.1583,
-      "epsAvg": 5.92,
-      "epsGrowth": 0.1363,
-      "analystCount": 11
+      "endDate": "2026-12-31",
+      "revenueAvg": 2896000000,
+      "revenueGrowth": 0.3183,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 2
     },
     {
       "period": "Following quarter",
@@ -31,28 +31,28 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 11797853610,
-      "revenueGrowth": 0.2334,
+      "revenueAvg": 11726249480,
+      "revenueGrowth": 0.2259,
       "epsAvg": 23.89167,
       "epsGrowth": 0.10609999,
-      "analystCount": 12
+      "analystCount": 13
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
       "revenueAvg": 14749815070,
-      "revenueGrowth": 0.2502,
-      "epsAvg": 31.98462,
-      "epsGrowth": 0.3406,
+      "revenueGrowth": 0.2578,
+      "epsAvg": 31.04353,
+      "epsGrowth": 0.3012,
       "analystCount": 13
     }
   ],
   "history": [
     {
-      "quarter": "2Q2026",
-      "endDate": "2025-09-30",
-      "epsActual": 5.21,
-      "epsEstimate": 6.1,
+      "quarter": "3Q2026",
+      "endDate": "2025-12-31",
+      "epsActual": 4.32,
+      "epsEstimate": 4.675,
       "revenueActual": null,
       "revenueEstimate": null
     },
@@ -65,10 +65,10 @@
       "revenueEstimate": null
     },
     {
-      "quarter": "3Q2026",
-      "endDate": "2025-12-31",
-      "epsActual": 4.32,
-      "epsEstimate": 4.73333,
+      "quarter": "1Q2027",
+      "endDate": "2026-06-30",
+      "epsActual": 6.9,
+      "epsEstimate": 5.26667,
       "revenueActual": null,
       "revenueEstimate": null
     },
@@ -82,11 +82,11 @@
     }
   ],
   "currentQuarter": {
-    "endDate": "2026-09-30",
-    "revenueAvg": 2833090910,
-    "revenueGrowth": 0.1583,
-    "epsAvg": 5.92,
-    "epsGrowth": 0.1363,
-    "analystCount": 11
+    "endDate": "2026-12-31",
+    "revenueAvg": 2896000000,
+    "revenueGrowth": 0.3183,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 2
   }
 }

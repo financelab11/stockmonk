@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 12.84000015258789,
-    "prevClose": 12.979999542236328,
-    "changePct": -0.010785777703064325,
-    "asOf": "2026-11-05",
-    "high52": 12.979999542236328,
+    "close": 12.899999618530273,
+    "prevClose": 12.960000038146973,
+    "changePct": -0.004629661993834189,
+    "asOf": "2026-11-18",
+    "high52": 13,
     "low52": 9.300000190734863,
-    "marketCap": 58380000000,
+    "marketCap": 58470000000,
     "sharesOutstanding": 4530000000,
-    "dividendYield": 0.049699999999999994
+    "dividendYield": 0.0496
   },
   "ttm": {
     "period": "TTM",
@@ -1110,14 +1110,14 @@
     "interestCover": 36.43555137057962,
     "freeCashFlowTtm": 3397100000,
     "ebitdaTtm": 5122000000,
-    "pe": 18.58,
-    "evEbitda": 10.87,
-    "evSales": 3.5791874172982077,
+    "pe": 18.61,
+    "evEbitda": 10.94,
+    "evSales": 3.584600625526284,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.41020199600580987,
-    "returnYtd": 0.38868325110973756,
-    "return5y": 1.6433884934390006
+    "return1y": 0.4271118578440811,
+    "returnYtd": 0.3951723673433478,
+    "return5y": 1.7454036774233943
   },
   "factorChips": [
     {
@@ -1130,7 +1130,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "67th percentile profitability metrics in the covered universe."
+      "detail": "66th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-07",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/dfm/DU/financials/",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/DU.AE",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:06.647Z"
+  "updatedAt": "2026-11-18T09:27:47.149Z"
 }

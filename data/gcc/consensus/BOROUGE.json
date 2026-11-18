@@ -1,11 +1,11 @@
 {
   "ticker": "BOROUGE",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/adx/BOROUGE/forecast/",
-  "targetMean": 2.77,
+  "targetMean": 2.76,
   "targetHigh": 3.15,
-  "targetLow": 2.4,
+  "targetLow": 2.39,
   "recommendationKey": "buy",
   "analystCount": 13,
   "distribution": {

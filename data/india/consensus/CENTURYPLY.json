@@ -1,11 +1,11 @@
 {
   "ticker": "CENTURYPLY",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=CENTURYPLY",
-  "targetMean": 860.1053,
-  "targetHigh": 1070,
-  "targetLow": 716,
+  "targetMean": 842.9474,
+  "targetHigh": 1080,
+  "targetLow": 700,
   "recommendationKey": "strong_buy",
   "analystCount": 19,
   "distribution": null,
@@ -13,38 +13,38 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 15414000000,
-      "revenueGrowth": 0.1417,
+      "revenueAvg": 16327000000,
+      "revenueGrowth": 0.2093,
       "epsAvg": 4.1,
       "epsGrowth": 0.3089,
-      "analystCount": 1
+      "analystCount": 2
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 17463000000,
-      "revenueGrowth": 0.1703,
+      "revenueAvg": 18068500000,
+      "revenueGrowth": 0.21090001,
       "epsAvg": 6,
       "epsGrowth": 0.7082,
-      "analystCount": 1
+      "analystCount": 2
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 67209363639,
-      "revenueGrowth": 0.24530001,
-      "epsAvg": 17.91538,
-      "epsGrowth": 0.5157,
-      "analystCount": 11
+      "revenueAvg": 67529307690,
+      "revenueGrowth": 0.25120002,
+      "epsAvg": 17.94,
+      "epsGrowth": 0.5178,
+      "analystCount": 13
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 74885941180,
-      "revenueGrowth": 0.1142,
-      "epsAvg": 24.95706,
-      "epsGrowth": 0.4143,
-      "analystCount": 17
+      "revenueAvg": 75451444440,
+      "revenueGrowth": 0.1173,
+      "epsAvg": 24.68647,
+      "epsGrowth": 0.38950002,
+      "analystCount": 18
     }
   ],
   "history": [
@@ -83,10 +83,10 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 15414000000,
-    "revenueGrowth": 0.1417,
+    "revenueAvg": 16327000000,
+    "revenueGrowth": 0.2093,
     "epsAvg": 4.1,
     "epsGrowth": 0.3089,
-    "analystCount": 1
+    "analystCount": 2
   }
 }

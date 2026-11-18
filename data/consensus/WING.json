@@ -1,16 +1,16 @@
 {
   "ticker": "WING",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/WING/analysis",
-  "targetMean": 185.5,
+  "targetMean": 184.92,
   "targetHigh": 265,
   "targetLow": 120,
   "recommendationKey": "buy",
-  "analystCount": 26,
+  "analystCount": 25,
   "distribution": {
     "strongBuy": 3,
-    "buy": 19,
+    "buy": 18,
     "hold": 5,
     "sell": 0,
     "strongSell": 1
@@ -28,29 +28,29 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 209574050,
-      "revenueGrowth": 0.1407,
-      "epsAvg": 1.22174,
-      "epsGrowth": 0.0354,
-      "analystCount": 19
+      "revenueAvg": 209125060,
+      "revenueGrowth": 0.1383,
+      "epsAvg": 1.21628,
+      "epsGrowth": 0.0307,
+      "analystCount": 18
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
       "revenueAvg": 746722330,
       "revenueGrowth": 0.0716,
-      "epsAvg": 4.15218,
-      "epsGrowth": 0.0177,
-      "analystCount": 26
+      "epsAvg": 4.14147,
+      "epsGrowth": 0.0150999995,
+      "analystCount": 25
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 857293010,
-      "revenueGrowth": 0.1481,
-      "epsAvg": 5.03437,
-      "epsGrowth": 0.2125,
-      "analystCount": 27
+      "revenueAvg": 855963700,
+      "revenueGrowth": 0.1463,
+      "epsAvg": 5.01531,
+      "epsGrowth": 0.21100001,
+      "analystCount": 26
     }
   ],
   "history": [
@@ -96,10 +96,10 @@
     "analystCount": 23
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": -0.06267100094812406,
-    "eps60d": -0.06651259096723716,
-    "eps90d": -0.06696148686454662,
+    "eps7d": -0.0025793679464763963,
+    "eps30d": -0.06508871732358124,
+    "eps60d": -0.0685455575947318,
+    "eps90d": -0.06936813649815621,
     "revenue30d": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "3020",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/3020/forecast/",
   "targetMean": 31.08,
   "targetHigh": 36.8,

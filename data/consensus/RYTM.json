@@ -1,10 +1,10 @@
 {
   "ticker": "RYTM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/RYTM/analysis",
-  "targetMean": 139.4706,
-  "targetHigh": 166,
+  "targetMean": 140.11765,
+  "targetHigh": 168,
   "targetLow": 112,
   "recommendationKey": "strong_buy",
   "analystCount": 17,
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 108169880,
-      "revenueGrowth": 0.8893,
+      "revenueAvg": 108034010,
+      "revenueGrowth": 0.88699996,
       "epsAvg": -3.20057,
       "epsGrowth": -3.3843,
       "analystCount": 12
@@ -28,8 +28,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 110991200,
-      "revenueGrowth": 0.8464,
+      "revenueAvg": 112149600,
+      "revenueGrowth": 0.8657,
       "epsAvg": -0.68871,
       "epsGrowth": 0.1702,
       "analystCount": 4
@@ -37,7 +37,7 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 330562400,
+      "revenueAvg": 330562460,
       "revenueGrowth": 0.742,
       "epsAvg": -4.93598,
       "epsGrowth": -0.58709997,
@@ -89,8 +89,8 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 108169880,
-    "revenueGrowth": 0.8893,
+    "revenueAvg": 108034010,
+    "revenueGrowth": 0.88699996,
     "epsAvg": -3.20057,
     "epsGrowth": -3.3843,
     "analystCount": 12

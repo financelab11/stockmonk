@@ -13,15 +13,15 @@
   "quoteCurrency": "QAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 4.263999938964844,
-    "prevClose": 4.26200008392334,
-    "changePct": 0.0004692292355994443,
-    "asOf": "2026-11-09",
+    "close": 4.190000057220459,
+    "prevClose": 4.238999843597412,
+    "changePct": -0.011559280062480415,
+    "asOf": "2026-11-18",
     "high52": 5,
     "low52": 3.505000114440918,
-    "marketCap": 23620000000,
+    "marketCap": 23220000000,
     "sharesOutstanding": 5540000000,
-    "dividendYield": 0.0338
+    "dividendYield": 0.0344
   },
   "ttm": {
     "period": "TTM",
@@ -1110,14 +1110,14 @@
     "interestCover": 2.044445884220415,
     "freeCashFlowTtm": -2038680000,
     "ebitdaTtm": 2830400000,
-    "pe": 14.17,
-    "evEbitda": 12.54,
-    "evSales": 10.593562334854672,
+    "pe": 13.93,
+    "evEbitda": 12.38,
+    "evSales": 10.497477780446793,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.07167189575948296,
-    "returnYtd": -0.03545762083697057,
-    "return5y": 0.5353549921732104
+    "return1y": -0.08582133961993266,
+    "returnYtd": -0.05219683824250354,
+    "return5y": 0.5073307917440346
   },
   "factorChips": [
     {
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "36th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "40th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/qse/QGTS/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/QGTS.QA",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:45.326Z"
+  "updatedAt": "2026-11-18T09:29:10.016Z"
 }

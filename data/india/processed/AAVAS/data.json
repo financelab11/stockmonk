@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 1143.800048828125,
-    "prevClose": 1137.699951171875,
-    "changePct": 0.005361780713769582,
-    "asOf": "2026-11-08",
-    "high52": 1771.9,
+    "close": 1122.5999755859375,
+    "prevClose": 1125.800048828125,
+    "changePct": -0.0028424881003679126,
+    "asOf": "2026-11-18",
+    "high52": 1705.2,
     "low52": 1055.3,
-    "marketCap": 90698612736,
+    "marketCap": 89017532416,
     "sharesOutstanding": null,
     "dividendYield": 0
   },
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 1390000000,
       "netIncome": 930000000,
-      "epsDiluted": 13.45,
-      "epsBasic": 13.45,
+      "epsDiluted": 12.62,
+      "epsBasic": 12.62,
       "interestExpense": 1930000000,
       "pretaxIncome": 1340000000,
       "incomeTax": 415400000,
@@ -897,7 +897,7 @@
     "epsTtm": 62.02,
     "epsGrowthTtm": 0.14091243561442246,
     "grossMargin": 0.99366,
-    "operatingMargin": 0.56363,
+    "operatingMargin": 0.5493,
     "netMargin": 0.42742002,
     "fcfMargin": -1,
     "roic": null,
@@ -907,14 +907,14 @@
     "interestCover": 0.7891566265060241,
     "freeCashFlowTtm": -20180000000,
     "ebitdaTtm": 6550000000,
-    "pe": 18.472222553156822,
-    "evEbitda": 36.11447108396946,
-    "evSales": 11.72199135777998,
+    "pe": 18.129843669246437,
+    "evEbitda": 35.8578176,
+    "evSales": 11.638687080277503,
     "pfcf": null,
-    "fcfYield": -0.22249513406273055,
-    "return1y": -0.3084642993784008,
-    "returnYtd": -0.2161457736415453,
-    "return5y": -0.5888717124909679
+    "fcfYield": -0.22669691522894708,
+    "return1y": -0.32834751753729097,
+    "returnYtd": -0.23067433309301855,
+    "return5y": -0.5957581045182608
   },
   "factorChips": [
     {
@@ -945,12 +945,12 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "32nd percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "33rd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1381,13 +1381,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=AAVAS",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.aavas.in",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:41.328Z"
+  "updatedAt": "2026-11-18T09:09:23.864Z"
 }

@@ -1,0 +1,39 @@
+{
+  "ticker": "SO",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "SOUTHERN CO Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000006/so-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Traditional Electric Operating Companies & Southern Power",
+      "revenue": 23777000000,
+      "share": 0.8045545291510168
+    },
+    {
+      "name": "Southern Company Gas",
+      "revenue": 5044000000,
+      "share": 0.1706764118701993
+    },
+    {
+      "name": "Gas Marketing Services",
+      "revenue": 582000000,
+      "share": 0.01969343213886915
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 118000000,
+      "share": 0.0039928264473995875
+    },
+    {
+      "name": "Gas Pipeline Investments",
+      "revenue": 32000000,
+      "share": 0.0010828003925151422
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

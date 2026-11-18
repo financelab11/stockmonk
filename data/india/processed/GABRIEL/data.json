@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 1395.5,
-    "prevClose": 1374.800048828125,
-    "changePct": 0.01505669947387589,
-    "asOf": "2026-11-08",
-    "high52": 1600,
+    "close": 1496,
+    "prevClose": 1498.9000244140625,
+    "changePct": -0.0019347684080505134,
+    "asOf": "2026-11-18",
+    "high52": 1690,
     "low52": 795.7,
-    "marketCap": 267425562624,
+    "marketCap": 286684807168,
     "sharesOutstanding": null,
-    "dividendYield": 0.0038
+    "dividendYield": 0.0034999999
   },
   "ttm": {
     "period": "TTM",
@@ -36,8 +36,8 @@
     "grossProfit": null,
     "operatingIncome": 5050000000,
     "netIncome": 4060000000,
-    "epsDiluted": 25.05,
-    "epsBasic": 25.05,
+    "epsDiluted": 24.520000000000003,
+    "epsBasic": 24.520000000000003,
     "interestExpense": 320000000,
     "pretaxIncome": 5000000000,
     "incomeTax": 941600000,
@@ -570,8 +570,8 @@
       "grossProfit": null,
       "operatingIncome": 1410000000,
       "netIncome": 1240000000,
-      "epsDiluted": 6.95,
-      "epsBasic": 6.95,
+      "epsDiluted": 6.42,
+      "epsBasic": 6.42,
       "interestExpense": 150000000,
       "pretaxIncome": 1480000000,
       "incomeTax": 236800000,
@@ -730,10 +730,10 @@
     "revenueTtm": 55940000000,
     "revenueGrowthTtm": 0.20768566493955087,
     "revenueGrowthLatestQ": 0.22935779816513757,
-    "epsTtm": 25.05,
-    "epsGrowthTtm": 0.06959863364645602,
+    "epsTtm": 24.520000000000003,
+    "epsGrowthTtm": 0.04696840307429562,
     "grossMargin": 0.24394,
-    "operatingMargin": 0.06716,
+    "operatingMargin": 0.069910005,
     "netMargin": 0.0525,
     "fcfMargin": 0.023141204199700022,
     "roic": 0.26,
@@ -743,14 +743,14 @@
     "interestCover": 15.78125,
     "freeCashFlowTtm": 1080000000,
     "ebitdaTtm": 5050000000,
-    "pe": 65.86836517832512,
-    "evEbitda": 55.11001442851485,
-    "evSales": 4.97507280772256,
-    "pfcf": 247.6162616888889,
-    "fcfYield": 0.004038506975185759,
-    "return1y": 0.10546678238418372,
-    "returnYtd": 0.348088332355162,
-    "return5y": 8.432925711684172
+    "pe": 70.61202146995073,
+    "evEbitda": 58.92372621940594,
+    "evSales": 5.3193567645334285,
+    "pfcf": 265.44889552592593,
+    "fcfYield": 0.0037672034687457638,
+    "return1y": 0.5313609411262532,
+    "returnYtd": 0.4451738768923843,
+    "return5y": 10.432467336051156
   },
   "factorChips": [
     {
@@ -763,7 +763,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "48th percentile profitability metrics in the covered universe."
+      "detail": "46th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -786,7 +786,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1217,13 +1217,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=GABRIEL",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.anandgroupindia.com/gabrielindia",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:16.427Z"
+  "updatedAt": "2026-11-18T09:12:16.769Z"
 }

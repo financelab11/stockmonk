@@ -1,12 +1,12 @@
 {
   "ticker": "PEGA",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/PEGA/analysis",
   "targetMean": 41,
   "targetHigh": 50,
   "targetLow": 35,
-  "recommendationKey": "none",
+  "recommendationKey": "buy",
   "analystCount": 7,
   "distribution": {
     "strongBuy": 2,

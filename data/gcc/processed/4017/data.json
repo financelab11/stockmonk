@@ -13,56 +13,56 @@
   "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 29.940000534057617,
-    "prevClose": 30.280000686645508,
-    "changePct": -0.011228538470206884,
-    "asOf": "2026-11-09",
+    "close": 29.639999389648438,
+    "prevClose": 30,
+    "changePct": -0.012000020345052098,
+    "asOf": "2026-11-18",
     "high52": 40,
     "low52": 27.200000762939453,
-    "marketCap": 6890000000,
+    "marketCap": 6810000000,
     "sharesOutstanding": 230000000,
-    "dividendYield": 0.011000000000000001
+    "dividendYield": 0.011200000000000002
   },
   "ttm": {
     "period": "TTM",
     "fyear": 2026,
-    "reportDate": "2026-06-30",
+    "reportDate": "2026-09-30",
     "publishDate": null,
     "ttm": true,
     "restated": true,
-    "revenue": 3100000000,
-    "grossProfit": 662010000,
-    "operatingIncome": 263720000.00000003,
-    "netIncome": 232200000,
-    "epsDiluted": 1.01,
-    "epsBasic": 1.01,
-    "interestExpense": -62570000,
-    "pretaxIncome": 222750000,
-    "incomeTax": 29840000,
+    "revenue": 3253000000,
+    "grossProfit": 686660000,
+    "operatingIncome": 260040000.00000003,
+    "netIncome": 199310000,
+    "epsDiluted": 0.87,
+    "epsBasic": 0.87,
+    "interestExpense": -83930000,
+    "pretaxIncome": 200280000,
+    "incomeTax": 26550000,
     "rnd": null,
     "sga": null,
-    "cashAndInvestments": 356580000,
-    "totalDebt": 1370000000,
-    "totalEquity": 3606000000,
-    "totalAssets": 6084000000,
-    "inventory": 215480000,
-    "receivables": 1145000000,
-    "cfo": 490230000,
-    "capex": 297820000,
-    "freeCashFlow": 192400000,
-    "da": 193070000,
+    "cashAndInvestments": 436370000,
+    "totalDebt": 3632000000,
+    "totalEquity": 3649000000,
+    "totalAssets": 8479000000,
+    "inventory": 224630000,
+    "receivables": 1273000000,
+    "cfo": 331970000,
+    "capex": 264709999.99999997,
+    "freeCashFlow": 67260000,
+    "da": 209950000,
     "sbc": null,
-    "dividendsPaid": 69000000,
+    "dividendsPaid": 75900000,
     "buybacks": null,
-    "ebitda": 390630000,
-    "grossMargin": 0.2135516129032258,
-    "operatingMargin": 0.0850709677419355,
-    "netMargin": 0.07490322580645162,
-    "fcfMargin": 0.06206451612903226,
-    "roic": 0.04510064034012929,
-    "netDebt": 1013420000,
-    "netDebtToEbitda": 2.5943219926784935,
-    "roe": 0.06439267886855242
+    "ebitda": 401520000,
+    "grossMargin": 0.21108515216723026,
+    "operatingMargin": 0.07993851829080849,
+    "netMargin": 0.061269597294804794,
+    "fcfMargin": 0.02067629880110667,
+    "roic": 0.030013543464000248,
+    "netDebt": 3195630000,
+    "netDebtToEbitda": 7.958831440526001,
+    "roe": 0.05462044395724856
   },
   "quarterly": [
     {
@@ -720,6 +720,47 @@
       "netDebt": 1013420000,
       "netDebtToEbitda": 9.724786488820651,
       "roe": 0.016064891846921798
+    },
+    {
+      "period": "Q3",
+      "fyear": 2026,
+      "reportDate": "2026-09-30",
+      "publishDate": null,
+      "ttm": false,
+      "restated": true,
+      "revenue": 931260000,
+      "grossProfit": 201900000,
+      "operatingIncome": 70450000,
+      "netIncome": 38750000,
+      "epsDiluted": 0.17,
+      "epsBasic": 0.17,
+      "interestExpense": -35460000,
+      "pretaxIncome": 42290000,
+      "incomeTax": 4360000,
+      "rnd": null,
+      "sga": null,
+      "cashAndInvestments": 436370000,
+      "totalDebt": 3632000000,
+      "totalEquity": 3649000000,
+      "totalAssets": 8479000000,
+      "inventory": 224630000,
+      "receivables": 1273000000,
+      "cfo": 161990000,
+      "capex": 109790000,
+      "freeCashFlow": 52200000,
+      "da": 65910000,
+      "sbc": null,
+      "dividendsPaid": 75900000,
+      "buybacks": null,
+      "ebitda": 118730000,
+      "grossMargin": 0.21680304104117004,
+      "operatingMargin": 0.07565019436032902,
+      "netMargin": 0.04161029143311213,
+      "fcfMargin": 0.05605308936279879,
+      "roic": 0.008131264947849628,
+      "netDebt": 3195630000,
+      "netDebtToEbitda": 26.915101490777396,
+      "roe": 0.010619347766511373
     }
   ],
   "annual": [
@@ -930,61 +971,61 @@
     }
   ],
   "metrics": {
-    "revenueTtm": 3100000000,
-    "revenueGrowthTtm": 0.04414419268798664,
-    "revenueGrowthLatestQ": -0.015926783602680294,
-    "epsTtm": 1.01,
-    "epsGrowthTtm": -0.29370629370629364,
-    "grossMargin": 0.2135516129032258,
-    "operatingMargin": 0.0850709677419355,
-    "netMargin": 0.07490322580645162,
-    "fcfMargin": 0.06206451612903226,
-    "roic": 0.04510064034012929,
-    "roe": 0.06439267886855242,
-    "netDebt": 1013420000,
-    "netDebtToEbitda": 2.5943219926784935,
-    "interestCover": 4.214285714285714,
-    "freeCashFlowTtm": 192410000,
-    "ebitdaTtm": 390630000,
-    "pe": 29.66,
-    "evEbitda": 18.19,
-    "evSales": 2.5494903225806453,
+    "revenueTtm": 3253000000,
+    "revenueGrowthTtm": 0.07239765310831303,
+    "revenueGrowthLatestQ": 0.19659239842726084,
+    "epsTtm": 0.87,
+    "epsGrowthTtm": -0.3307692307692307,
+    "grossMargin": 0.21108515216723026,
+    "operatingMargin": 0.07993851829080849,
+    "netMargin": 0.061269597294804794,
+    "fcfMargin": 0.02067629880110667,
+    "roic": 0.030013543464000248,
+    "roe": 0.05462044395724856,
+    "netDebt": 3195630000,
+    "netDebtToEbitda": 7.958831440526001,
+    "interestCover": 3.0980462234929713,
+    "freeCashFlowTtm": 67270000,
+    "ebitdaTtm": 401520000,
+    "pe": 34.16,
+    "evEbitda": 17.71,
+    "evSales": 3.075816169689517,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.22811674778796087,
-    "returnYtd": -0.12175848343328066,
-    "return5y": -0.48849623622080907
+    "return1y": -0.21001620748509064,
+    "returnYtd": -0.13055853204176215,
+    "return5y": -0.4936215438950292
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "20th percentile revenue/EPS growth in the covered universe."
+      "detail": "18th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "18th percentile profitability metrics in the covered universe."
+      "detail": "16th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: Average",
       "tone": "neutral",
-      "detail": "48th percentile free-cash-flow margin."
+      "detail": "39th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
-      "label": "Balance sheet: Moderate leverage",
-      "tone": "neutral",
-      "detail": "Net debt of $1.0B, 2.6× EBITDA."
+      "label": "Balance sheet: High leverage",
+      "tone": "caution",
+      "detail": "Net debt of $3.2B, 8.0× EBITDA."
     },
     {
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "18th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "19th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1203,13 +1244,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/4017/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/4017.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:15:20.351Z"
+  "updatedAt": "2026-11-18T09:24:44.182Z"
 }

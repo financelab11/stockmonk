@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 125.4000015258789,
-    "prevClose": 122.83999633789062,
-    "changePct": 0.02084016008065137,
-    "asOf": "2026-11-08",
-    "high52": 195.94,
+    "close": 133.5,
+    "prevClose": 134.08999633789062,
+    "changePct": -0.00440000264004714,
+    "asOf": "2026-11-18",
+    "high52": 185.12,
     "low52": 113.5,
-    "marketCap": 78731960320,
+    "marketCap": 83817521152,
     "sharesOutstanding": null,
-    "dividendYield": 0.018
+    "dividendYield": 0.0164
   },
   "ttm": {
     "period": "TTM",
@@ -43,8 +43,8 @@
     "incomeTax": 2782000000,
     "rnd": null,
     "sga": null,
-    "cashAndInvestments": 7049200128,
-    "totalDebt": 46078599168,
+    "cashAndInvestments": 9815900160,
+    "totalDebt": 55242301440,
     "totalEquity": null,
     "totalAssets": null,
     "inventory": null,
@@ -62,8 +62,8 @@
     "netMargin": 0.0340195394277739,
     "fcfMargin": null,
     "roic": null,
-    "netDebt": 39029399040,
-    "netDebtToEbitda": 1.8955511918406993,
+    "netDebt": 45426401280,
+    "netDebtToEbitda": 2.206236099077222,
     "roe": null
   },
   "quarterly": [
@@ -577,8 +577,8 @@
       "incomeTax": 702000000,
       "rnd": null,
       "sga": null,
-      "cashAndInvestments": 7049200128,
-      "totalDebt": 46078599168,
+      "cashAndInvestments": 9815900160,
+      "totalDebt": 55242301440,
       "totalEquity": null,
       "totalAssets": null,
       "inventory": null,
@@ -1071,8 +1071,8 @@
       "incomeTax": 2284800000,
       "rnd": null,
       "sga": null,
-      "cashAndInvestments": 7049200128,
-      "totalDebt": 46078599168,
+      "cashAndInvestments": 9815900160,
+      "totalDebt": 55242301440,
       "totalEquity": 78690000000,
       "totalAssets": 259650000000,
       "inventory": null,
@@ -1090,7 +1090,7 @@
       "netMargin": 0.034769245545790715,
       "fcfMargin": -0.0672813715602939,
       "roic": 0.17,
-      "netDebt": 39029399040,
+      "netDebt": 45426401280,
       "netDebtToEbitda": 1.8828976034858387,
       "roe": 0.09200660820942941
     }
@@ -1101,38 +1101,38 @@
     "revenueGrowthLatestQ": 0.32401496808276464,
     "epsTtm": 11.62,
     "epsGrowthTtm": -0.08069620253164567,
-    "grossMargin": 0.16212,
-    "operatingMargin": 0.081870005,
-    "netMargin": 0.03261,
+    "grossMargin": 0.15999,
+    "operatingMargin": 0.07819,
+    "netMargin": 0.0318,
     "fcfMargin": -0.0672813715602939,
     "roic": 0.17,
-    "roe": 0.09200660820942941,
-    "netDebt": 39029399040,
-    "netDebtToEbitda": 1.8955511918406993,
+    "roe": 0.09739,
+    "netDebt": 45426401280,
+    "netDebtToEbitda": 2.206236099077222,
     "interestCover": 2.5171149144254277,
     "freeCashFlowTtm": -14010000000,
     "ebitdaTtm": 20590000000,
-    "pe": 10.093841066666666,
-    "evEbitda": 5.71934722486644,
-    "evSales": 0.5136137445917656,
+    "pe": 10.745836045128206,
+    "evEbitda": 6.277023916075765,
+    "evSales": 0.5636947070481507,
     "pfcf": null,
-    "fcfYield": -0.17794552482952833,
-    "return1y": -0.32279036871198474,
-    "returnYtd": -0.21212886274948917,
-    "return5y": 0.6742551485618191
+    "fcfYield": -0.16714882291249558,
+    "return1y": -0.2545463096827757,
+    "returnYtd": -0.16123767509494857,
+    "return5y": 0.9329255488195345
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "23rd percentile revenue/EPS growth in the covered universe."
+      "detail": "24th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "31st percentile profitability metrics in the covered universe."
+      "detail": "26th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1144,7 +1144,7 @@
       "key": "balance",
       "label": "Balance sheet: Moderate leverage",
       "tone": "neutral",
-      "detail": "Net debt of ₹39.0B, 1.9× EBITDA."
+      "detail": "Net debt of ₹45.4B, 2.2× EBITDA."
     },
     {
       "key": "valuation",
@@ -1155,7 +1155,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=NCC",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://ncclimited.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:39.786Z"
+  "updatedAt": "2026-11-18T09:09:14.196Z"
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "DEYAAR",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/dfm/DEYAAR/forecast/",
   "targetMean": 0.97,
   "targetHigh": 0.97,

@@ -1,7 +1,7 @@
 {
   "ticker": "DHBK",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/qse/DHBK/forecast/",
   "targetMean": 2.7,
   "targetHigh": 3.1,

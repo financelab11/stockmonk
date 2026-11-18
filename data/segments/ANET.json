@@ -1,0 +1,35 @@
+{
+  "ticker": "ANET",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Arista Networks, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/anet-20251231.htm",
+    "date": "2026-02-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 9005700000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 7122100000,
+      "share": 0.7908435768457754
+    },
+    {
+      "name": "EMEA",
+      "revenue": 1070300000,
+      "share": 0.11884695248564797
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 813300000,
+      "share": 0.09030947066857657
+    }
+  ]
+}

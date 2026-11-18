@@ -1,0 +1,24 @@
+{
+  "ticker": "CLS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "CELESTICA INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000011/cls-20251231.htm",
+    "date": "2026-02-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "CCS",
+      "revenue": 9188500000,
+      "share": 0.7415522681968219
+    },
+    {
+      "name": "ATS",
+      "revenue": 3202400000,
+      "share": 0.25844773180317815
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

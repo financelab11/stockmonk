@@ -1,0 +1,19 @@
+{
+  "ticker": "ORLY",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "O Reilly Automotive Inc Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/898173/000089817326000009/orly-20251231x10k.htm",
+    "date": "2026-02-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Automotive Aftermarket Parts",
+      "revenue": 17781992000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

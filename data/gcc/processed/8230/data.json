@@ -13,13 +13,13 @@
   "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 48.65999984741211,
-    "prevClose": 47.02000045776367,
-    "changePct": 0.03487876166912396,
-    "asOf": "2026-11-09",
+    "close": 48.41999816894531,
+    "prevClose": 49.20000076293945,
+    "changePct": -0.015853711014201632,
+    "asOf": "2026-11-18",
     "high52": 61.95000076293945,
     "low52": 33.75,
-    "marketCap": 9700000000,
+    "marketCap": 9650000000,
     "sharesOutstanding": 199400000,
     "dividendYield": null
   },
@@ -30,39 +30,39 @@
     "publishDate": null,
     "ttm": true,
     "restated": true,
-    "revenue": 5891000000,
+    "revenue": 5836000000,
     "grossProfit": null,
-    "operatingIncome": 552960000,
+    "operatingIncome": 550110000,
     "netIncome": 462180000,
-    "epsDiluted": 2.32,
-    "epsBasic": 2.32,
+    "epsDiluted": 2.31,
+    "epsBasic": 2.31,
     "interestExpense": -94750000,
     "pretaxIncome": 466930000,
     "incomeTax": 4760000,
     "rnd": null,
     "sga": null,
-    "cashAndInvestments": 552560000,
+    "cashAndInvestments": 684940000,
     "totalDebt": 34390000,
-    "totalEquity": 2780000000,
-    "totalAssets": 14184000000,
+    "totalEquity": 2843000000,
+    "totalAssets": 14826000000,
     "inventory": null,
     "receivables": null,
     "cfo": -226050000,
-    "capex": 13680000,
-    "freeCashFlow": -239730000,
-    "da": 13080000,
+    "capex": 11970000,
+    "freeCashFlow": -238020000,
+    "da": 38900000,
     "sbc": null,
     "dividendsPaid": null,
     "buybacks": null,
-    "ebitda": 585810000,
+    "ebitda": 583520000,
     "grossMargin": null,
-    "operatingMargin": 0.09386521812934985,
-    "netMargin": 0.07845527075199457,
-    "fcfMargin": -0.040694279409268376,
-    "roic": 0.22020951010075943,
-    "netDebt": -521300000,
-    "netDebtToEbitda": -0.9184122901287856,
-    "roe": 0.16625179856115108
+    "operatingMargin": 0.09426148046607265,
+    "netMargin": 0.07919465387251542,
+    "fcfMargin": -0.040784784098697735,
+    "roic": 0.19821975415630916,
+    "netDebt": -650550000,
+    "netDebtToEbitda": -1.114871812448588,
+    "roe": 0.16256771016531832
   },
   "quarterly": [
     {
@@ -851,9 +851,9 @@
       "publishDate": null,
       "ttm": false,
       "restated": true,
-      "revenue": 1561000000,
+      "revenue": 1507000000,
       "grossProfit": null,
-      "operatingIncome": 90430000,
+      "operatingIncome": 87580000,
       "netIncome": 87350000,
       "epsDiluted": 0.44,
       "epsBasic": 0.44,
@@ -862,28 +862,28 @@
       "incomeTax": 3070000,
       "rnd": null,
       "sga": null,
-      "cashAndInvestments": null,
+      "cashAndInvestments": 684940000,
       "totalDebt": 34390000,
-      "totalEquity": 2780000000,
-      "totalAssets": null,
+      "totalEquity": 2843000000,
+      "totalAssets": 14826000000,
       "inventory": null,
       "receivables": null,
       "cfo": 143210000,
-      "capex": 6220000,
-      "freeCashFlow": 149430000,
-      "da": -40500000,
+      "capex": 770000,
+      "freeCashFlow": 143980000,
+      "da": 17920000,
       "sbc": null,
       "dividendsPaid": null,
       "buybacks": null,
-      "ebitda": 108380000,
+      "ebitda": 105500000,
       "grossMargin": null,
-      "operatingMargin": 0.0579308135810378,
-      "netMargin": 0.05595771941063421,
-      "fcfMargin": 0.09572709801409353,
-      "roic": null,
-      "netDebt": null,
-      "netDebtToEbitda": null,
-      "roe": 0.031420863309352516
+      "operatingMargin": 0.05811546118115461,
+      "netMargin": 0.0579628400796284,
+      "fcfMargin": 0.0955408095554081,
+      "roic": 0.03155748135647335,
+      "netDebt": -650550000,
+      "netDebtToEbitda": -6.166350710900474,
+      "roe": 0.03072458670418572
     }
   ],
   "annual": [
@@ -1094,55 +1094,55 @@
     }
   ],
   "metrics": {
-    "revenueTtm": 5891000000,
-    "revenueGrowthTtm": 0.1587645091481409,
-    "revenueGrowthLatestQ": 0.2110162916989915,
-    "epsTtm": 2.32,
+    "revenueTtm": 5836000000,
+    "revenueGrowthTtm": 0.14814086169584884,
+    "revenueGrowthLatestQ": 0.16912335143522106,
+    "epsTtm": 2.31,
     "epsGrowthTtm": 0.375,
     "grossMargin": null,
-    "operatingMargin": 0.09386521812934985,
-    "netMargin": 0.07845527075199457,
-    "fcfMargin": -0.040694279409268376,
-    "roic": 0.22020951010075943,
-    "roe": 0.16625179856115108,
-    "netDebt": -521300000,
-    "netDebtToEbitda": -0.9184122901287856,
-    "interestCover": 5.835989445910291,
-    "freeCashFlowTtm": -232570000,
-    "ebitdaTtm": 608910000,
-    "pe": 21.02,
-    "evEbitda": 15.07,
-    "evSales": 1.5580886097436768,
+    "operatingMargin": 0.09426148046607265,
+    "netMargin": 0.07919465387251542,
+    "fcfMargin": -0.040784784098697735,
+    "roic": 0.19821975415630916,
+    "roe": 0.16256771016531832,
+    "netDebt": -650550000,
+    "netDebtToEbitda": -1.114871812448588,
+    "interestCover": 5.805910290237467,
+    "freeCashFlowTtm": -238020000,
+    "ebitdaTtm": 606030000,
+    "pe": 20.95,
+    "evEbitda": 15.55,
+    "evSales": 1.542057916381083,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.08188679533184695,
-    "returnYtd": 0.2074441878069211,
-    "return5y": 1.8964286938816568
+    "return1y": -0.0561403725330788,
+    "returnYtd": 0.20148881105728367,
+    "return5y": 1.8650887137212973
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "82nd percentile revenue/EPS growth in the covered universe."
+      "detail": "81st percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "47th percentile profitability metrics in the covered universe."
+      "detail": "45th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: Low",
       "tone": "caution",
-      "detail": "31st percentile free-cash-flow margin."
+      "detail": "32nd percentile free-cash-flow margin."
     },
     {
       "key": "balance",
       "label": "Balance sheet: Net cash",
       "tone": "positive",
-      "detail": "Net cash of $521.3M."
+      "detail": "Net cash of $650.5M."
     },
     {
       "key": "valuation",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/8230/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/8230.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:16:15.383Z"
+  "updatedAt": "2026-11-18T09:26:17.262Z"
 }

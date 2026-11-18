@@ -1,0 +1,29 @@
+{
+  "ticker": "UNH",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "UnitedHealth Group Incorporated Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+    "date": "2026-03-02"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Unitedhealthcare",
+      "revenue": 344903000000,
+      "share": 0.7706175835126361
+    },
+    {
+      "name": "Optumhealth",
+      "revenue": 101957000000,
+      "share": 0.22780276472572822
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 707000000,
+      "share": 0.0015796517616356882
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

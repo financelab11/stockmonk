@@ -1,0 +1,24 @@
+{
+  "ticker": "FORM",
+  "asOf": "2025-12-27",
+  "source": {
+    "name": "FormFactor, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000009/form-20251227.htm",
+    "date": "2026-02-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Probe Cards",
+      "revenue": 637898000,
+      "share": 0.8126161634562347
+    },
+    {
+      "name": "Systems",
+      "revenue": 147095000,
+      "share": 0.18738383654376536
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

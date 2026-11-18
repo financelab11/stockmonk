@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 5227.7001953125,
-    "prevClose": 5239.7998046875,
-    "changePct": -0.0023091739810700007,
-    "asOf": "2026-11-08",
+    "close": 5150.60009765625,
+    "prevClose": 5237.5,
+    "changePct": -0.01659186679594271,
+    "asOf": "2026-11-18",
     "high52": 6105,
     "low52": 4671.5,
-    "marketCap": 403935232000,
+    "marketCap": 397977845760,
     "sharesOutstanding": null,
     "dividendYield": 0.0038
   },
@@ -1102,7 +1102,7 @@
     "epsTtm": 123.98,
     "epsGrowthTtm": -0.07443075774542751,
     "grossMargin": 0.62784,
-    "operatingMargin": 0.09038,
+    "operatingMargin": 0.11371,
     "netMargin": 0.063319996,
     "fcfMargin": -0.02740125346159452,
     "roic": 0.15,
@@ -1112,27 +1112,27 @@
     "interestCover": 5.379775280898876,
     "freeCashFlowTtm": -3760000000,
     "ebitdaTtm": 23940000000,
-    "pe": 42.56430263435195,
-    "evEbitda": 19.753819343024226,
-    "evSales": 3.1285157123048424,
+    "pe": 41.93654855216017,
+    "evEbitda": 19.5049728,
+    "evSales": 3.089104583434771,
     "pfcf": null,
-    "fcfYield": -0.009308422989951022,
-    "return1y": -0.06484447688282247,
-    "returnYtd": -0.04562427851294559,
-    "return5y": 0.46123180528355645
+    "fcfYield": -0.009447762080373345,
+    "return1y": -0.05781475504983791,
+    "returnYtd": -0.059699772244086624,
+    "return5y": 0.5582457065045101
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "32nd percentile revenue/EPS growth in the covered universe."
+      "detail": "33rd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "27th percentile profitability metrics in the covered universe."
+      "detail": "32nd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1155,7 +1155,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=JKCEMENT",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.jkcement.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:24.853Z"
+  "updatedAt": "2026-11-18T09:12:56.589Z"
 }

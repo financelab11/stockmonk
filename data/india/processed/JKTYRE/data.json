@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 359.8999938964844,
-    "prevClose": 359.25,
-    "changePct": 0.0018093079929974998,
-    "asOf": "2026-11-08",
+    "close": 360.1499938964844,
+    "prevClose": 364.5,
+    "changePct": -0.011934173123499647,
+    "asOf": "2026-11-18",
     "high52": 611.9,
     "low52": 296.75,
-    "marketCap": 103755390976,
+    "marketCap": 103827464192,
     "sharesOutstanding": null,
-    "dividendYield": 0.0111
+    "dividendYield": 0.011
   },
   "ttm": {
     "period": "TTM",
@@ -1102,7 +1102,7 @@
     "epsTtm": 17.169999999999998,
     "epsGrowthTtm": -0.12886859462201938,
     "grossMargin": 0.33436,
-    "operatingMargin": 0.04251,
+    "operatingMargin": 0.07014,
     "netMargin": 0.028719999,
     "fcfMargin": 0.0023274330862987688,
     "roic": 0.16,
@@ -1112,27 +1112,27 @@
     "interestCover": 4.096385542168675,
     "freeCashFlowTtm": 380000000,
     "ebitdaTtm": 17000000000,
-    "pe": 20.960685045656565,
-    "evEbitda": 9.52824643764706,
-    "evSales": 0.939941910520513,
-    "pfcf": 273.04050256842106,
-    "fcfYield": 0.0036624602965247277,
-    "return1y": -0.20227961603476274,
-    "returnYtd": -0.2963879423266409,
-    "return5y": 1.6004195483003687
+    "pe": 20.975245291313133,
+    "evEbitda": 9.532486038588235,
+    "evSales": 0.940360138432078,
+    "pfcf": 273.2301689263158,
+    "fcfYield": 0.0036599179509700414,
+    "return1y": -0.20190061807519288,
+    "returnYtd": -0.2958991870685096,
+    "return5y": 1.8592965944230442
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "22nd percentile revenue/EPS growth in the covered universe."
+      "detail": "23rd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "16th percentile profitability metrics in the covered universe."
+      "detail": "22nd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1155,7 +1155,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=JKTYRE",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.jktyre.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:17.615Z"
+  "updatedAt": "2026-11-18T09:12:26.313Z"
 }

@@ -1,10 +1,10 @@
 {
   "ticker": "QATI",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/qse/QATI/forecast/",
-  "targetMean": 2.47,
-  "targetHigh": 2.74,
+  "targetMean": 2.37,
+  "targetHigh": 2.53,
   "targetLow": 2.2,
   "recommendationKey": "buy",
   "analystCount": 2,

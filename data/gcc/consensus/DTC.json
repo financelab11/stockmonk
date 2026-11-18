@@ -1,9 +1,9 @@
 {
   "ticker": "DTC",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/dfm/DTC/forecast/",
-  "targetMean": 2.72,
+  "targetMean": 2.74,
   "targetHigh": 3.3,
   "targetLow": 2.15,
   "recommendationKey": "buy",
@@ -20,9 +20,9 @@
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
       "revenueAvg": 2400000000,
-      "revenueGrowth": -0.019,
-      "epsAvg": 0.06,
-      "epsGrowth": -0.556,
+      "revenueGrowth": -0.017,
+      "epsAvg": 0.07,
+      "epsGrowth": -0.54,
       "analystCount": 9
     },
     {
@@ -39,9 +39,9 @@
   "currentQuarter": {
     "endDate": "2026-12-31",
     "revenueAvg": 2400000000,
-    "revenueGrowth": -0.019,
-    "epsAvg": 0.06,
-    "epsGrowth": -0.556,
+    "revenueGrowth": -0.017,
+    "epsAvg": 0.07,
+    "epsGrowth": -0.54,
     "analystCount": 9
   },
   "revisions": null

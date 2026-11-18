@@ -1,0 +1,30 @@
+{
+  "ticker": "S",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "SENTINELONE, INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1583708/000158370826000020/s-20260131.htm",
+    "date": "2026-03-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 1001278000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 610006000,
+      "share": 0.6092274073733768
+    },
+    {
+      "name": "Non-US",
+      "revenue": 391272000,
+      "share": 0.39077259262662317
+    }
+  ]
+}

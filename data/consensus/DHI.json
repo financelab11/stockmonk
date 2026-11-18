@@ -1,7 +1,7 @@
 {
   "ticker": "DHI",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/DHI/analysis",
   "targetMean": 146.5,
   "targetHigh": 186,
@@ -96,9 +96,9 @@
     "analystCount": 15
   },
   "revisions": {
-    "eps7d": -0.114133760012881,
-    "eps30d": -0.231253629548124,
-    "eps60d": -0.246911045466639,
+    "eps7d": -0.023235660930891133,
+    "eps30d": -0.2291290668053757,
+    "eps60d": -0.24460334731480282,
     "eps90d": -0.246911045466639,
     "revenue30d": null
   }

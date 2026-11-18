@@ -1,0 +1,45 @@
+{
+  "ticker": "UBER",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "UBER TECHNOLOGIES, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Mobility",
+      "revenue": 29670000000,
+      "share": 0.5703904492761982
+    },
+    {
+      "name": "Delivery",
+      "revenue": 17248000000,
+      "share": 0.33158390526174136
+    },
+    {
+      "name": "Freight",
+      "revenue": 5099000000,
+      "share": 0.09802564546206048
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 23771000000,
+      "share": 0.45698521637157086
+    },
+    {
+      "name": "All Other Countries",
+      "revenue": 17637000000,
+      "share": 0.3390622296556895
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 10609000000,
+      "share": 0.20395255397273968
+    }
+  ]
+}

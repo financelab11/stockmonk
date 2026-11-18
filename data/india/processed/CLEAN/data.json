@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 683.9000244140625,
-    "prevClose": 668.9500122070312,
-    "changePct": 0.022348474376594263,
-    "asOf": "2026-11-08",
+    "close": 699.4500122070312,
+    "prevClose": 715.9500122070312,
+    "changePct": -0.023046301723127383,
+    "asOf": "2026-11-18",
     "high52": 963,
     "low52": 645.05,
-    "marketCap": 72687714304,
+    "marketCap": 74340425728,
     "sharesOutstanding": null,
-    "dividendYield": 0.009
+    "dividendYield": 0.0084
   },
   "ttm": {
     "period": "TTM",
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 740000000,
       "netIncome": 490000000,
-      "epsDiluted": 4.33,
-      "epsBasic": 4.33,
+      "epsDiluted": 4.6,
+      "epsBasic": 4.6,
       "interestExpense": 10000000,
       "pretaxIncome": 700000000,
       "incomeTax": 210000000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 1370000000,
       "netIncome": 980000000,
-      "epsDiluted": 8.64,
-      "epsBasic": 8.64,
+      "epsDiluted": 9.19,
+      "epsBasic": 9.19,
       "interestExpense": 0,
       "pretaxIncome": 1370000000,
       "incomeTax": 383600000.00000006,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 1860000000,
       "netIncome": 1400000000,
-      "epsDiluted": 13.17,
-      "epsBasic": 13.17,
+      "epsDiluted": 13.15,
+      "epsBasic": 13.15,
       "interestExpense": 0,
       "pretaxIncome": 1820000000,
       "incomeTax": 418600000,
@@ -979,7 +979,7 @@
     "epsTtm": 21.940000000000005,
     "epsGrowthTtm": -0.12099358974358942,
     "grossMargin": 0.59681,
-    "operatingMargin": 0.23611,
+    "operatingMargin": 0.26455998,
     "netMargin": 0.22493,
     "fcfMargin": 0.07732497387669801,
     "roic": 0.21,
@@ -989,27 +989,27 @@
     "interestCover": 178,
     "freeCashFlowTtm": 740000000,
     "ebitdaTtm": 3560000000,
-    "pe": 31.19644390729614,
-    "evEbitda": 19.384015235955058,
-    "evSales": 6.660916432432432,
-    "pfcf": 98.22664095135136,
-    "fcfYield": 0.010180537482649635,
-    "return1y": -0.2674423941290881,
-    "returnYtd": -0.19810955974245936,
-    "return5y": -0.6712222484735406
+    "pe": 31.90576211502146,
+    "evEbitda": 19.848260017977527,
+    "evSales": 6.820444562162162,
+    "pfcf": 100.46003476756756,
+    "fcfYield": 0.009954207186108193,
+    "return1y": -0.24411389025664,
+    "returnYtd": -0.17987679747872598,
+    "return5y": -0.6578184431252727
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "20th percentile revenue/EPS growth in the covered universe."
+      "detail": "21st percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "73rd percentile profitability metrics in the covered universe."
+      "detail": "75th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1027,12 +1027,12 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "66th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "63rd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1463,13 +1463,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=CLEAN",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://cleanscience.co.in",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:52.182Z"
+  "updatedAt": "2026-11-18T09:10:46.547Z"
 }

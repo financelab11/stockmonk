@@ -1,10 +1,10 @@
 {
   "ticker": "OKLO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/OKLO/analysis",
-  "targetMean": 62.61905,
-  "targetHigh": 122,
+  "targetMean": 55.42857,
+  "targetHigh": 100,
   "targetLow": 14,
   "recommendationKey": "buy",
   "analystCount": 21,
@@ -19,37 +19,37 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 1280960,
+      "revenueAvg": 1204990,
       "revenueGrowth": 0,
-      "epsAvg": -0.26593,
-      "epsGrowth": 0.0150999995,
-      "analystCount": 13
+      "epsAvg": -0.2661,
+      "epsGrowth": 0.014400001,
+      "analystCount": 11
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 2497220,
+      "revenueAvg": 2616590,
       "revenueGrowth": null,
-      "epsAvg": -0.24833,
+      "epsAvg": -0.28,
       "epsGrowth": null,
       "analystCount": 6
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 3076350,
+      "revenueAvg": 4440590,
       "revenueGrowth": 0,
-      "epsAvg": -0.95975,
-      "epsGrowth": -0.333,
-      "analystCount": 18
+      "epsAvg": -0.94533,
+      "epsGrowth": -0.313,
+      "analystCount": 14
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 9454300,
-      "revenueGrowth": 2.0732,
-      "epsAvg": -1.03045,
-      "epsGrowth": -0.073699996,
+      "revenueAvg": 9452300,
+      "revenueGrowth": 1.1286,
+      "epsAvg": -1.11986,
+      "epsGrowth": -0.1846,
       "analystCount": 19
     }
   ],
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 1280960,
+    "revenueAvg": 1204990,
     "revenueGrowth": 0,
-    "epsAvg": -0.26593,
-    "epsGrowth": 0.0150999995,
-    "analystCount": 13
+    "epsAvg": -0.2661,
+    "epsGrowth": 0.014400001,
+    "analystCount": 11
   },
   "revisions": {
-    "eps7d": 0.000020839194356803148,
-    "eps30d": 0.006808216016616742,
-    "eps60d": 0.021499654089723874,
-    "eps90d": 0.08121352770204804,
+    "eps7d": -0.016162604333617825,
+    "eps30d": -0.0083188217275455,
+    "eps60d": -0.030022881416800873,
+    "eps90d": 0.006151881219732758,
     "revenue30d": null
   }
 }

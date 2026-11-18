@@ -1,10 +1,10 @@
 {
   "ticker": "4321",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/4321/forecast/",
-  "targetMean": 17.42,
-  "targetHigh": 22.15,
+  "targetMean": 17.79,
+  "targetHigh": 24,
   "targetLow": 13,
   "recommendationKey": "buy",
   "analystCount": 5,

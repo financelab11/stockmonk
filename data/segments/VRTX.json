@@ -1,0 +1,30 @@
+{
+  "ticker": "VRTX",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "VERTEX PHARMACEUTICALS INC / MA Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000056/vrtx-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Pharmaceuticals",
+      "revenue": 12001300000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 7548600000,
+      "share": 0.6289818602984677
+    },
+    {
+      "name": "Outsidethe United States",
+      "revenue": 4452700000,
+      "share": 0.37101813970153236
+    }
+  ]
+}

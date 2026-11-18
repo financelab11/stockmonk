@@ -1,0 +1,35 @@
+{
+  "ticker": "FOUR",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "SHIFT4 PAYMENTS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000010/four-20251231.htm",
+    "date": "2026-02-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 3471000000,
+      "share": 0.8303827751196172
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 709000000,
+      "share": 0.16961722488038278
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 3312000000,
+      "share": 0.7923444976076555
+    },
+    {
+      "name": "Non-US",
+      "revenue": 868000000,
+      "share": 0.2076555023923445
+    }
+  ]
+}

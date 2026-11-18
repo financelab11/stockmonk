@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 2186,
-    "prevClose": 2185.300048828125,
-    "changePct": 0.00032029980150793946,
-    "asOf": "2026-11-08",
-    "high52": 2301.4,
+    "close": 2163.10009765625,
+    "prevClose": 2188.5,
+    "changePct": -0.011606078292780486,
+    "asOf": "2026-11-18",
+    "high52": 2312.3,
     "low52": 1690,
-    "marketCap": 606961270784,
+    "marketCap": 600602902528,
     "sharesOutstanding": null,
     "dividendYield": 0.0039
   },
@@ -1102,7 +1102,7 @@
     "epsTtm": 47.17999999999999,
     "epsGrowthTtm": 0.2484784334480017,
     "grossMargin": 0.15585,
-    "operatingMargin": 0.07312,
+    "operatingMargin": 0.06983,
     "netMargin": 0.052399997,
     "fcfMargin": 0.06295766714329044,
     "roic": 0.32,
@@ -1112,14 +1112,14 @@
     "interestCover": 12.64102564102564,
     "freeCashFlowTtm": 14530000000,
     "ebitdaTtm": 19720000000,
-    "pe": 46.36831709579832,
-    "evEbitda": 29.88322879350913,
-    "evSales": 2.370463683861625,
-    "pfcf": 41.77297114824501,
-    "fcfYield": 0.02393892444114578,
-    "return1y": 0.21973263259561082,
-    "returnYtd": 0.11391930113315807,
-    "return5y": 1.5175151326770648
+    "pe": 45.882574677463715,
+    "evEbitda": 29.56079632616633,
+    "evSales": 2.3448869813032984,
+    "pfcf": 41.33536837770131,
+    "fcfYield": 0.024192357277731627,
+    "return1y": 0.2311106003903678,
+    "returnYtd": 0.10225020542649399,
+    "return5y": 1.4588657487516343
   },
   "factorChips": [
     {
@@ -1132,7 +1132,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "61st percentile profitability metrics in the covered universe."
+      "detail": "56th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1150,12 +1150,12 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "42nd percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "41st percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=APLAPOLLO",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.aplapollo.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:54.639Z"
+  "updatedAt": "2026-11-18T09:14:05.978Z"
 }

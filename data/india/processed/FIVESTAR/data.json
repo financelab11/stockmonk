@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 427.6499938964844,
-    "prevClose": 425.29998779296875,
-    "changePct": 0.005525525913392615,
-    "asOf": "2026-11-08",
-    "high52": 652.5,
+    "close": 433,
+    "prevClose": 438.70001220703125,
+    "changePct": -0.012992961131583658,
+    "asOf": "2026-11-18",
+    "high52": 636.35,
     "low52": 338.15,
-    "marketCap": 126241677312,
+    "marketCap": 127829483520,
     "sharesOutstanding": null,
-    "dividendYield": 0.0047
+    "dividendYield": 0.0046
   },
   "ttm": {
     "period": "TTM",
@@ -244,8 +244,8 @@
       "grossProfit": null,
       "operatingIncome": 160000000,
       "netIncome": 100000000,
-      "epsDiluted": 0.97,
-      "epsBasic": 0.97,
+      "epsDiluted": 0.34,
+      "epsBasic": 0.34,
       "interestExpense": 100000000,
       "pretaxIncome": 150000000,
       "incomeTax": 52500000,
@@ -285,8 +285,8 @@
       "grossProfit": null,
       "operatingIncome": 210000000,
       "netIncome": 140000000,
-      "epsDiluted": 1.28,
-      "epsBasic": 1.28,
+      "epsDiluted": 0.47,
+      "epsBasic": 0.47,
       "interestExpense": 140000000,
       "pretaxIncome": 210000000,
       "incomeTax": 71400000,
@@ -326,8 +326,8 @@
       "grossProfit": null,
       "operatingIncome": 320000000,
       "netIncome": 200000000,
-      "epsDiluted": 1.37,
-      "epsBasic": 1.37,
+      "epsDiluted": 0.67,
+      "epsBasic": 0.67,
       "interestExpense": 240000000,
       "pretaxIncome": 310000000,
       "incomeTax": 114700000,
@@ -367,8 +367,8 @@
       "grossProfit": null,
       "operatingIncome": 770000000,
       "netIncome": 530000000,
-      "epsDiluted": 2.79,
-      "epsBasic": 2.79,
+      "epsDiluted": 1.83,
+      "epsBasic": 1.83,
       "interestExpense": 570000000,
       "pretaxIncome": 750000000,
       "incomeTax": 210000000.00000003,
@@ -408,8 +408,8 @@
       "grossProfit": null,
       "operatingIncome": 2230000000,
       "netIncome": 1570000000,
-      "epsDiluted": 6.55,
-      "epsBasic": 6.55,
+      "epsDiluted": 5.38,
+      "epsBasic": 5.38,
       "interestExpense": 760000000,
       "pretaxIncome": 2180000000,
       "incomeTax": 610400000,
@@ -444,9 +444,9 @@
     "revenueGrowthTtm": 1.0348258706467663,
     "revenueGrowthLatestQ": null,
     "epsTtm": 37.85,
-    "epsGrowthTtm": 1.3476702508960572,
+    "epsGrowthTtm": 1.9398907103825134,
     "grossMargin": 0.99621004,
-    "operatingMargin": 0.57181,
+    "operatingMargin": 0.59985,
     "netMargin": 0.47182,
     "fcfMargin": -2.3398533007334965,
     "roic": null,
@@ -456,21 +456,21 @@
     "interestCover": null,
     "freeCashFlowTtm": -9570000000,
     "ebitdaTtm": 2230000000,
-    "pe": 11.301631589789169,
-    "evEbitda": 87.12237781524664,
-    "evSales": 7.323305008081222,
+    "pe": 11.443777996434626,
+    "evEbitda": 87.83439853632287,
+    "evSales": 7.383155818438727,
     "pfcf": null,
-    "fcfYield": -0.07580697756691099,
-    "return1y": -0.3233450213263702,
-    "returnYtd": -0.19677685536390788,
-    "return5y": -0.12104113700608166
+    "fcfYield": -0.07486535763482681,
+    "return1y": -0.30351522827066046,
+    "returnYtd": -0.1867283372121029,
+    "return5y": -0.11004520230014514
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "90th percentile revenue/EPS growth in the covered universe."
+      "detail": "92nd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -494,7 +494,7 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "6th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "5th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -846,13 +846,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=FIVESTAR",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.fivestargroup.in",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T14:16:00.039Z"
+  "updatedAt": "2026-11-18T09:09:29.921Z"
 }

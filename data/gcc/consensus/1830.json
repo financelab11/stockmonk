@@ -1,9 +1,9 @@
 {
   "ticker": "1830",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/1830/forecast/",
-  "targetMean": 92.23,
+  "targetMean": 87.74,
   "targetHigh": 117,
   "targetLow": 72.4,
   "recommendationKey": "buy",
@@ -20,7 +20,7 @@
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
       "revenueAvg": 1700000000,
-      "revenueGrowth": 0.032,
+      "revenueGrowth": 0.039,
       "epsAvg": 5.1,
       "epsGrowth": -0.13,
       "analystCount": 8
@@ -39,7 +39,7 @@
   "currentQuarter": {
     "endDate": "2026-12-31",
     "revenueAvg": 1700000000,
-    "revenueGrowth": 0.032,
+    "revenueGrowth": 0.039,
     "epsAvg": 5.1,
     "epsGrowth": -0.13,
     "analystCount": 8

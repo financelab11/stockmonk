@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 180.82000732421875,
-    "prevClose": 174.8800048828125,
-    "changePct": 0.03396616122801843,
-    "asOf": "2026-11-08",
+    "close": 189.10000610351562,
+    "prevClose": 188.5800018310547,
+    "changePct": 0.0027574730481061405,
+    "asOf": "2026-11-18",
     "high52": 309,
-    "low52": 172,
-    "marketCap": 90560126976,
+    "low52": 171.32,
+    "marketCap": 94706999296,
     "sharesOutstanding": null,
-    "dividendYield": 0.0257
+    "dividendYield": 0.0239
   },
   "ttm": {
     "period": "TTM",
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 580000000,
       "netIncome": 370000000,
-      "epsDiluted": 0.95,
-      "epsBasic": 0.95,
+      "epsDiluted": 0.77,
+      "epsBasic": 0.77,
       "interestExpense": 360000000,
       "pretaxIncome": 560000000,
       "incomeTax": 190400000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 1010000000,
       "netIncome": 670000000,
-      "epsDiluted": 1.7,
-      "epsBasic": 1.7,
+      "epsDiluted": 1.39,
+      "epsBasic": 1.39,
       "interestExpense": 530000000,
       "pretaxIncome": 1010000000,
       "incomeTax": 343400000,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 1430000000,
       "netIncome": 1120000000,
-      "epsDiluted": 2.84,
-      "epsBasic": 2.84,
+      "epsDiluted": 2.32,
+      "epsBasic": 2.32,
       "interestExpense": 1150000000,
       "pretaxIncome": 1530000000,
       "incomeTax": 413100000,
@@ -736,8 +736,8 @@
       "grossProfit": null,
       "operatingIncome": 2300000000,
       "netIncome": 2110000000,
-      "epsDiluted": 4.55,
-      "epsBasic": 4.55,
+      "epsDiluted": 4.38,
+      "epsBasic": 4.38,
       "interestExpense": 1850000000,
       "pretaxIncome": 2470000000,
       "incomeTax": 370500000,
@@ -777,8 +777,8 @@
       "grossProfit": null,
       "operatingIncome": 3320000000,
       "netIncome": 2670000000,
-      "epsDiluted": 5.75,
-      "epsBasic": 5.75,
+      "epsDiluted": 5.54,
+      "epsBasic": 5.54,
       "interestExpense": 2070000000,
       "pretaxIncome": 3450000000,
       "incomeTax": 793500000,
@@ -1019,9 +1019,9 @@
     "revenueGrowthLatestQ": 0.1470588235294117,
     "epsTtm": 20.48,
     "epsGrowthTtm": 0.2139893301719027,
-    "grossMargin": 0.99828005,
-    "operatingMargin": 0.73463,
-    "netMargin": 0.61051,
+    "grossMargin": 0.99827003,
+    "operatingMargin": 0.78116995,
+    "netMargin": 0.61664003,
     "fcfMargin": -0.22627737226277372,
     "roic": null,
     "roe": 0.20257,
@@ -1030,14 +1030,14 @@
     "interestCover": 1.8960843373493976,
     "freeCashFlowTtm": -4960000000,
     "ebitdaTtm": 12590000000,
-    "pe": 8.835134339121952,
-    "evEbitda": 13.587357687053217,
-    "evSales": 7.273164680272109,
+    "pe": 9.239707248390244,
+    "evEbitda": 13.916735949166005,
+    "evSales": 7.449477278911565,
     "pfcf": null,
-    "fcfYield": -0.054770241226743045,
-    "return1y": -0.3667204240681958,
-    "returnYtd": -0.35291190788170335,
-    "return5y": -0.46552824944222027
+    "fcfYield": -0.052372053141477665,
+    "return1y": -0.33104429430329085,
+    "returnYtd": -0.3155091939772956,
+    "return5y": -0.4108828530006339
   },
   "factorChips": [
     {
@@ -1068,12 +1068,12 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "79th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "76th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1504,13 +1504,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=APTUS",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.aptusindia.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:43.032Z"
+  "updatedAt": "2026-11-18T09:09:28.764Z"
 }

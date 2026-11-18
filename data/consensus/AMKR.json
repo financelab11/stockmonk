@@ -1,11 +1,11 @@
 {
   "ticker": "AMKR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/AMKR/analysis",
-  "targetMean": 66,
+  "targetMean": 65.7,
   "targetHigh": 92,
-  "targetLow": 41,
+  "targetLow": 38,
   "recommendationKey": "buy",
   "analystCount": 10,
   "distribution": {
@@ -96,7 +96,7 @@
     "analystCount": 8
   },
   "revisions": {
-    "eps7d": -0.017569879310074366,
+    "eps7d": 0,
     "eps30d": -0.020452393806382974,
     "eps60d": -0.020452393806382974,
     "eps90d": -0.02024541797749302,

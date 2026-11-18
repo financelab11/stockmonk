@@ -1,0 +1,40 @@
+{
+  "ticker": "MRK",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Merck & Co., Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000063/mrk-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Pharmaceuticalsegment",
+      "revenue": 58142000000,
+      "share": 0.8943409576840843
+    },
+    {
+      "name": "Animal Healthsegment",
+      "revenue": 6354000000,
+      "share": 0.09773730599437018
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 515000000,
+      "share": 0.007921736321545584
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 36510000000,
+      "share": 0.56159726815462
+    },
+    {
+      "name": "Non-US",
+      "revenue": 28501000000,
+      "share": 0.43840273184538003
+    }
+  ]
+}

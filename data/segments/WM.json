@@ -1,0 +1,45 @@
+{
+  "ticker": "WM",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Waste Management, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/823768/000110465926012049/wm-20251231x10k.htm",
+    "date": "2026-02-09"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "East Tier Region Areas",
+      "revenue": 11482000000,
+      "share": 0.4555626091096651
+    },
+    {
+      "name": "West Tier Region Areas",
+      "revenue": 10900000000,
+      "share": 0.43247103634343753
+    },
+    {
+      "name": "Healthcare Solutions",
+      "revenue": 2951000000,
+      "share": 0.1170845897476591
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 23911000000,
+      "share": 0.948698619266783
+    },
+    {
+      "name": "CA",
+      "revenue": 967000000,
+      "share": 0.0383669258847802
+    },
+    {
+      "name": "Western Europe & Other Countries",
+      "revenue": 326000000,
+      "share": 0.012934454848436756
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ticker": "DY",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "DYCOM INDUSTRIES, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000008/dy-20260131.htm",
+    "date": "2026-03-09"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Communications",
+      "revenue": 5450072000,
+      "share": 0.9827188026063162
+    },
+    {
+      "name": "Building Systems",
+      "revenue": 95840000,
+      "share": 0.01728119739368385
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

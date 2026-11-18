@@ -1,0 +1,75 @@
+{
+  "ticker": "ABBV",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "AbbVie Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000008/abbv-20251231.htm",
+    "date": "2026-02-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 61160000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 46603000000,
+      "share": 0.7619849574885547
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 5759000000,
+      "share": 0.09416285153695225
+    },
+    {
+      "name": "Non-US",
+      "revenue": 2364000000,
+      "share": 0.038652714192282535
+    },
+    {
+      "name": "Japan",
+      "revenue": 1274000000,
+      "share": 0.020830608240680185
+    },
+    {
+      "name": "CA",
+      "revenue": 1222000000,
+      "share": 0.019980379332897317
+    },
+    {
+      "name": "China",
+      "revenue": 1006000000,
+      "share": 0.01644865925441465
+    },
+    {
+      "name": "FR",
+      "revenue": 806000000,
+      "share": 0.013178548070634401
+    },
+    {
+      "name": "ES",
+      "revenue": 609000000,
+      "share": 0.009957488554610856
+    },
+    {
+      "name": "IT",
+      "revenue": 580000000,
+      "share": 0.00948332243296272
+    },
+    {
+      "name": "BR",
+      "revenue": 478000000,
+      "share": 0.007815565729234794
+    },
+    {
+      "name": "AU",
+      "revenue": 459000000,
+      "share": 0.007504905166775671
+    }
+  ]
+}

@@ -1,17 +1,17 @@
 {
   "ticker": "GMED",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/GMED/analysis",
-  "targetMean": 96.53846,
-  "targetHigh": 117,
-  "targetLow": 78,
+  "targetMean": 93.42857,
+  "targetHigh": 110,
+  "targetLow": 75,
   "recommendationKey": "buy",
-  "analystCount": 13,
+  "analystCount": 14,
   "distribution": {
-    "strongBuy": 3,
-    "buy": 7,
-    "hold": 4,
+    "strongBuy": 4,
+    "buy": 6,
+    "hold": 5,
     "sell": 0,
     "strongSell": 0
   },
@@ -19,38 +19,38 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 857706870,
-      "revenueGrowth": 0.0379,
-      "epsAvg": 1.33888,
-      "epsGrowth": 0.046,
-      "analystCount": 13
+      "revenueAvg": 783397540,
+      "revenueGrowth": -0.0521,
+      "epsAvg": 1.28856,
+      "epsGrowth": 0.0067000003,
+      "analystCount": 14
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 772485080,
-      "revenueGrowth": 0.0166,
-      "epsAvg": 1.21689,
-      "epsGrowth": 0.0865,
-      "analystCount": 9
+      "revenueAvg": 768476950,
+      "revenueGrowth": 0.0113,
+      "epsAvg": 1.188,
+      "epsGrowth": 0.060700003,
+      "analystCount": 10
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 3199477940,
-      "revenueGrowth": 0.0887,
-      "epsAvg": 5.00043,
-      "epsGrowth": 0.2564,
-      "analystCount": 14
+      "revenueAvg": 3108271770,
+      "revenueGrowth": 0.057600003,
+      "epsAvg": 4.97994,
+      "epsGrowth": 0.25120002,
+      "analystCount": 15
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 3392839820,
-      "revenueGrowth": 0.060399998,
-      "epsAvg": 5.33039,
-      "epsGrowth": 0.066,
-      "analystCount": 13
+      "revenueAvg": 3280196480,
+      "revenueGrowth": 0.0553,
+      "epsAvg": 5.337,
+      "epsGrowth": 0.0717,
+      "analystCount": 15
     }
   ],
   "history": [
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 857706870,
-    "revenueGrowth": 0.0379,
-    "epsAvg": 1.33888,
-    "epsGrowth": 0.046,
-    "analystCount": 13
+    "revenueAvg": 783397540,
+    "revenueGrowth": -0.0521,
+    "epsAvg": 1.28856,
+    "epsGrowth": 0.0067000003,
+    "analystCount": 14
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": 0.000005999520038324491,
-    "eps60d": 0.000005999520038324491,
-    "eps90d": 0.05517009989491406,
+    "eps7d": -0.0040976476023061315,
+    "eps30d": -0.0040916726661867076,
+    "eps60d": -0.0040916726661867076,
+    "eps90d": 0.0031302876480541197,
     "revenue30d": null
   }
 }

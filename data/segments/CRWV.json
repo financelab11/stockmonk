@@ -1,0 +1,30 @@
+{
+  "ticker": "CRWV",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "CoreWeave, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+    "date": "2026-03-02"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 5131000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 4801000000,
+      "share": 0.9356850516468525
+    },
+    {
+      "name": "Non-US",
+      "revenue": 330000000,
+      "share": 0.06431494835314754
+    }
+  ]
+}

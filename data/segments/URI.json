@@ -1,0 +1,35 @@
+{
+  "ticker": "URI",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "United Rentals, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1067701/000106770126000007/uri-20251231.htm",
+    "date": "2026-01-28"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "General Rentals",
+      "revenue": 11001000000,
+      "share": 2.9772665764546686
+    },
+    {
+      "name": "Specialty",
+      "revenue": 5098000000,
+      "share": 1.379702300405954
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 14671000000,
+      "share": 3.9705006765899866
+    },
+    {
+      "name": "Non-US",
+      "revenue": 1428000000,
+      "share": 0.386468200270636
+    }
+  ]
+}

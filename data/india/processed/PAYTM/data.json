@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 1801,
-    "prevClose": 1794.4000244140625,
-    "changePct": 0.0036780960188029788,
-    "asOf": "2026-11-08",
-    "high52": 1855.5,
+    "close": 1890,
+    "prevClose": 1903.4000244140625,
+    "changePct": -0.007040046360295427,
+    "asOf": "2026-11-18",
+    "high52": 1960,
     "low52": 930.6,
-    "marketCap": 1152959250432,
+    "marketCap": 1209935069184,
     "sharesOutstanding": null,
     "dividendYield": 0
   },
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": -3600000000,
       "netIncome": -3720000000,
-      "epsDiluted": -12.3,
-      "epsBasic": -12.3,
+      "epsDiluted": -6.1,
+      "epsBasic": -6.1,
       "interestExpense": 20000000,
       "pretaxIncome": -3670000000,
       "incomeTax": -36700000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": -16680000000,
       "netIncome": -15350000000,
-      "epsDiluted": -33.2,
-      "epsBasic": -33.2,
+      "epsDiluted": -25.18,
+      "epsBasic": -25.18,
       "interestExpense": 10000000,
       "pretaxIncome": -15340000000,
       "incomeTax": 0,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": -43680000000,
       "netIncome": -42310000000,
-      "epsDiluted": -72.67,
-      "epsBasic": -72.67,
+      "epsDiluted": -68.59,
+      "epsBasic": -68.59,
       "interestExpense": 380000000,
       "pretaxIncome": -42370000000,
       "incomeTax": 0,
@@ -736,8 +736,8 @@
       "grossProfit": null,
       "operatingIncome": -26850000000,
       "netIncome": -29420000000,
-      "epsDiluted": -47.03,
-      "epsBasic": -47.03,
+      "epsDiluted": -46.62,
+      "epsBasic": -46.62,
       "interestExpense": 540000000,
       "pretaxIncome": -29580000000,
       "incomeTax": 295800000,
@@ -777,8 +777,8 @@
       "grossProfit": null,
       "operatingIncome": -18380000000,
       "netIncome": -17010000000,
-      "epsDiluted": -28.04,
-      "epsBasic": -28.04,
+      "epsDiluted": -27.82,
+      "epsBasic": -27.82,
       "interestExpense": 380000000,
       "pretaxIncome": -16980000000,
       "incomeTax": 0,
@@ -1020,7 +1020,7 @@
     "epsTtm": 13.35,
     "epsGrowthTtm": -2.409714889123548,
     "grossMargin": 0.36969003,
-    "operatingMargin": 0.046830002,
+    "operatingMargin": 0.03339,
     "netMargin": 0.089490004,
     "fcfMargin": -0.1435344316700249,
     "roic": 0.05,
@@ -1030,14 +1030,14 @@
     "interestCover": 32.91304347826087,
     "freeCashFlowTtm": -12110000000,
     "ebitdaTtm": 7570000000,
-    "pe": 135.16521107057443,
-    "evEbitda": 131.24957012206076,
-    "evSales": 10.399405964245343,
+    "pe": 141.8446739957796,
+    "evEbitda": 138.77609835878468,
+    "evSales": 10.995761613732467,
     "pfcf": null,
-    "fcfYield": -0.010503406773016937,
-    "return1y": 0.3534230601075452,
-    "returnYtd": 0.39428665176155686,
-    "return5y": 0.15389540213829522
+    "fcfYield": -0.010008801553431442,
+    "return1y": 0.45889617908143565,
+    "returnYtd": 0.4631881020707065,
+    "return5y": 0.3901147645913128
   },
   "factorChips": [
     {
@@ -1073,7 +1073,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-18",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1504,13 +1504,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=PAYTM",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.paytm.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:10.406Z"
+  "updatedAt": "2026-11-18T09:11:52.880Z"
 }

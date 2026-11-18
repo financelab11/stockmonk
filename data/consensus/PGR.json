@@ -1,9 +1,9 @@
 {
   "ticker": "PGR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/PGR/analysis",
-  "targetMean": 232.38095,
+  "targetMean": 233.57143,
   "targetHigh": 262,
   "targetLow": 196,
   "recommendationKey": "hold",
@@ -19,17 +19,17 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 20125440000,
-      "revenueGrowth": 0.0317,
-      "epsAvg": 4.09093,
-      "epsGrowth": -0.1237,
+      "revenueAvg": 20138600000,
+      "revenueGrowth": 0.0323,
+      "epsAvg": 4.09143,
+      "epsGrowth": -0.1236,
       "analystCount": 20
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 24714980000,
-      "revenueGrowth": 0.0454,
+      "revenueAvg": 24652480000,
+      "revenueGrowth": 0.0428,
       "epsAvg": 4.41559,
       "epsGrowth": -0.1103,
       "analystCount": 19
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 87116614290,
-      "revenueGrowth": 0.047399998,
-      "epsAvg": 18.43617,
+      "revenueAvg": 87137533330,
+      "revenueGrowth": 0.0477,
+      "epsAvg": 18.43708,
       "epsGrowth": 0.0105,
       "analystCount": 22
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 91393828570,
-      "revenueGrowth": 0.049099997,
+      "revenueAvg": 91387850000,
+      "revenueGrowth": 0.048800003,
       "epsAvg": 16.20137,
-      "epsGrowth": -0.121199995,
+      "epsGrowth": -0.121300004,
       "analystCount": 24
     }
   ],
@@ -82,24 +82,24 @@
       "quarter": "2026-09-30",
       "endDate": "2026-09-30",
       "epsActual": 4.5956,
-      "epsEstimate": 4.41103,
+      "epsEstimate": 4.40348,
       "revenueActual": 23192000000,
       "revenueEstimate": null
     }
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 20125440000,
-    "revenueGrowth": 0.0317,
-    "epsAvg": 4.09093,
-    "epsGrowth": -0.1237,
+    "revenueAvg": 20138600000,
+    "revenueGrowth": 0.0323,
+    "epsAvg": 4.09143,
+    "epsGrowth": -0.1236,
     "analystCount": 20
   },
   "revisions": {
-    "eps7d": -0.001157792425209525,
-    "eps30d": 0.013717724335764236,
-    "eps60d": 0.03042566985993589,
-    "eps90d": 0.046938601671815405,
+    "eps7d": 0.000049359492779732506,
+    "eps30d": 0.006380392343092511,
+    "eps60d": 0.027533223169974086,
+    "eps90d": 0.05059375925968146,
     "revenue30d": null
   }
 }

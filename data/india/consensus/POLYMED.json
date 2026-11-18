@@ -1,13 +1,13 @@
 {
   "ticker": "POLYMED",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=POLYMED",
-  "targetMean": 1858.1666,
-  "targetHigh": 2240,
+  "targetMean": 1836,
+  "targetHigh": 2150,
   "targetLow": 1528,
-  "recommendationKey": "none",
-  "analystCount": 6,
+  "recommendationKey": "buy",
+  "analystCount": 5,
   "distribution": null,
   "estimates": [
     {
@@ -31,19 +31,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 23748600000,
-      "revenueGrowth": 0.26639998,
-      "epsAvg": 40.6,
-      "epsGrowth": 0.2994,
+      "revenueAvg": 22957000000,
+      "revenueGrowth": 0.2242,
+      "epsAvg": 37.625,
+      "epsGrowth": 0.2042,
       "analystCount": 5
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 28181600000,
-      "revenueGrowth": 0.1867,
-      "epsAvg": 48.93333,
-      "epsGrowth": 0.2053,
+      "revenueAvg": 26973000000,
+      "revenueGrowth": 0.1749,
+      "epsAvg": 46.84,
+      "epsGrowth": 0.2449,
       "analystCount": 5
     }
   ],

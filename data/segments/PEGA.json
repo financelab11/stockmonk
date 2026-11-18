@@ -1,0 +1,45 @@
+{
+  "ticker": "PEGA",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "PEGASYSTEMS INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1013857/000101385726000017/pega-20251231.htm",
+    "date": "2026-02-10"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 1745812000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 956296000,
+      "share": 0.5477657388080732
+    },
+    {
+      "name": "EMEA",
+      "revenue": 270627000,
+      "share": 0.1550149729753261
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 213630000,
+      "share": 0.12236712773196656
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 189993000,
+      "share": 0.10882786920928485
+    },
+    {
+      "name": "Other Americas",
+      "revenue": 115266000,
+      "share": 0.06602429127534924
+    }
+  ]
+}

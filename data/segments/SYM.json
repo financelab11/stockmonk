@@ -1,0 +1,30 @@
+{
+  "ticker": "SYM",
+  "asOf": "2025-09-27",
+  "source": {
+    "name": "SYMBOTIC INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724025000278/sym-20250927.htm",
+    "date": "2025-11-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 2246922000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 2199063000,
+      "share": 0.9787001952003674
+    },
+    {
+      "name": "Non-US",
+      "revenue": 47859000,
+      "share": 0.021299804799632564
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
   "ticker": "DIC",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/dfm/DIC/forecast/",
-  "targetMean": 3.22,
+  "targetMean": 3.23,
   "targetHigh": 4,
-  "targetLow": 2.44,
+  "targetLow": 2.46,
   "recommendationKey": "sell",
   "analystCount": 2,
   "distribution": {

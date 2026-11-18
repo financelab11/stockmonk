@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 1397.5,
-    "prevClose": 1387.5999755859375,
-    "changePct": 0.0071346386482040725,
-    "asOf": "2026-11-08",
+    "close": 1434.4000244140625,
+    "prevClose": 1444.199951171875,
+    "changePct": -0.006785713259345072,
+    "asOf": "2026-11-18",
     "high52": 1544,
     "low52": 956,
-    "marketCap": 375301636096,
+    "marketCap": 385677950976,
     "sharesOutstanding": null,
-    "dividendYield": 0.0004
+    "dividendYield": 0.00029999999
   },
   "ttm": {
     "period": "TTM",
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 3010000000,
       "netIncome": 1700000000,
-      "epsDiluted": 7.02,
-      "epsBasic": 7.02,
+      "epsDiluted": 6.72,
+      "epsBasic": 6.72,
       "interestExpense": 140000000,
       "pretaxIncome": 2620000000,
       "incomeTax": 917000000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 1250000000,
       "netIncome": 330000000,
-      "epsDiluted": 1.36,
-      "epsBasic": 1.36,
+      "epsDiluted": 1.3,
+      "epsBasic": 1.3,
       "interestExpense": 280000000,
       "pretaxIncome": 600000000,
       "incomeTax": 270000000,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 1720000000,
       "netIncome": 510000000,
-      "epsDiluted": 2.09,
-      "epsBasic": 2.09,
+      "epsDiluted": 2.03,
+      "epsBasic": 2.03,
       "interestExpense": 380000000,
       "pretaxIncome": 830000000,
       "incomeTax": 315400000,
@@ -736,8 +736,8 @@
       "grossProfit": null,
       "operatingIncome": 1920000000,
       "netIncome": 360000000,
-      "epsDiluted": 1.47,
-      "epsBasic": 1.47,
+      "epsDiluted": 1.43,
+      "epsBasic": 1.43,
       "interestExpense": 570000000,
       "pretaxIncome": 640000000,
       "incomeTax": 275200000,
@@ -777,8 +777,8 @@
       "grossProfit": null,
       "operatingIncome": 1970000000,
       "netIncome": 290000000,
-      "epsDiluted": 1.16,
-      "epsBasic": 1.16,
+      "epsDiluted": 1.14,
+      "epsBasic": 1.14,
       "interestExpense": 730000000,
       "pretaxIncome": 320000000,
       "incomeTax": 35200000,
@@ -1020,7 +1020,7 @@
     "epsTtm": 23.01,
     "epsGrowthTtm": 0.10043041606886671,
     "grossMargin": 0.51796,
-    "operatingMargin": 0.20374,
+    "operatingMargin": 0.16927,
     "netMargin": 0.122379996,
     "fcfMargin": -0.027891156462585033,
     "roic": 0.17,
@@ -1030,14 +1030,14 @@
     "interestCover": 10.75,
     "freeCashFlowTtm": -1230000000,
     "ebitdaTtm": 11180000000,
-    "pe": 61.22375792756933,
-    "evEbitda": 33.52598449230769,
-    "evSales": 7.417781647021571,
+    "pe": 62.916468348450245,
+    "evEbitda": 34.45409852450805,
+    "evSales": 7.62313123894716,
     "pfcf": null,
-    "fcfYield": -0.0032773638100670925,
-    "return1y": 0.1808392120078337,
-    "returnYtd": 0.17291354420120197,
-    "return5y": 2.3767931891442435
+    "fcfYield": -0.0031891893142642746,
+    "return1y": 0.20610974499841772,
+    "returnYtd": 0.20388351802346238,
+    "return5y": 2.4659550861894406
   },
   "factorChips": [
     {
@@ -1050,7 +1050,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "53rd percentile profitability metrics in the covered universe."
+      "detail": "48th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1068,7 +1068,7 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "37th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "35th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1420,13 +1420,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=MEDANTA",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.medanta.org",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:48.886Z"
+  "updatedAt": "2026-11-18T09:10:22.696Z"
 }

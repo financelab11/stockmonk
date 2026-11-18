@@ -13,15 +13,15 @@
   "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 112,
-    "prevClose": 109.5,
-    "changePct": 0.022831050228310446,
-    "asOf": "2026-11-09",
+    "close": 109.5,
+    "prevClose": 111,
+    "changePct": -0.013513513513513487,
+    "asOf": "2026-11-18",
     "high52": 194.10000610351562,
     "low52": 101.0999984741211,
-    "marketCap": 13440000000,
+    "marketCap": 13140000000,
     "sharesOutstanding": 120000000,
-    "dividendYield": 0.020499999999999997
+    "dividendYield": 0.021
   },
   "ttm": {
     "period": "TTM",
@@ -1110,21 +1110,21 @@
     "interestCover": 4.997109826589595,
     "freeCashFlowTtm": 234700000,
     "ebitdaTtm": 288900000,
-    "pe": 45.97,
-    "evEbitda": 38.75,
-    "evSales": 11.42776119402985,
+    "pe": 44.94,
+    "evEbitda": 38.09,
+    "evSales": 11.179004975124379,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.39853921052469854,
-    "returnYtd": -0.19178709518647452,
-    "return5y": -0.05202237036640012
+    "return1y": -0.420238234023107,
+    "returnYtd": -0.20982756181177642,
+    "return5y": -0.0731826451635984
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "16th percentile revenue/EPS growth in the covered universe."
+      "detail": "14th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1136,7 +1136,7 @@
       "key": "cash",
       "label": "Cash generation: High",
       "tone": "positive",
-      "detail": "79th percentile free-cash-flow margin."
+      "detail": "80th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1577,13 +1577,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/1111/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/1111.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:16:10.776Z"
+  "updatedAt": "2026-11-18T09:26:09.620Z"
 }

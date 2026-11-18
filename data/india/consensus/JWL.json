@@ -1,7 +1,7 @@
 {
   "ticker": "JWL",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=JWL",
   "targetMean": 249.25,
   "targetHigh": 303,
@@ -12,12 +12,12 @@
   "estimates": [
     {
       "period": "Next quarter",
-      "endDate": "2026-09-30",
-      "revenueAvg": 7704500000,
-      "revenueGrowth": -0.0196,
+      "endDate": null,
+      "revenueAvg": 0,
+      "revenueGrowth": null,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 2
+      "analystCount": 0
     },
     {
       "period": "Following quarter",
@@ -31,11 +31,11 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 34524500000,
-      "revenueGrowth": 0.1841,
-      "epsAvg": 5.8,
-      "epsGrowth": 0.3462,
-      "analystCount": 2
+      "revenueAvg": 34187000000,
+      "revenueGrowth": 0.1725,
+      "epsAvg": 5.7,
+      "epsGrowth": 0.32299998,
+      "analystCount": 1
     },
     {
       "period": "Next fiscal year",
@@ -43,7 +43,7 @@
       "revenueAvg": 43304300000,
       "revenueGrowth": 0.4699,
       "epsAvg": 8.8,
-      "epsGrowth": 0.5172,
+      "epsGrowth": 0.5439,
       "analystCount": 3
     }
   ],
@@ -58,11 +58,11 @@
     }
   ],
   "currentQuarter": {
-    "endDate": "2026-09-30",
-    "revenueAvg": 7704500000,
-    "revenueGrowth": -0.0196,
+    "endDate": null,
+    "revenueAvg": 0,
+    "revenueGrowth": null,
     "epsAvg": null,
     "epsGrowth": null,
-    "analystCount": 2
+    "analystCount": 0
   }
 }

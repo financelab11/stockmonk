@@ -1,0 +1,19 @@
+{
+  "ticker": "CRCL",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "CIRCLE INTERNET GROUP, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+    "date": "2026-03-09"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 109820000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

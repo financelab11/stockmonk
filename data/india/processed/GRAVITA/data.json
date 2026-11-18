@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 1505.800048828125,
-    "prevClose": 1493.9000244140625,
-    "changePct": 0.007965743503304257,
-    "asOf": "2026-11-08",
+    "close": 1480.800048828125,
+    "prevClose": 1490.0999755859375,
+    "changePct": -0.0062411428160419335,
+    "asOf": "2026-11-18",
     "high52": 1913.6,
     "low52": 1266.9,
-    "marketCap": 109698531328,
+    "marketCap": 107877269504,
     "sharesOutstanding": null,
     "dividendYield": 0.0052
   },
@@ -1102,7 +1102,7 @@
     "epsTtm": 53.910000000000004,
     "epsGrowthTtm": 0.09796334012219954,
     "grossMargin": 0.18642001,
-    "operatingMargin": 0.09675,
+    "operatingMargin": 0.08889,
     "netMargin": 0.078150004,
     "fcfMargin": -0.01078546307151231,
     "roic": 0.16,
@@ -1112,14 +1112,14 @@
     "interestCover": 13.25,
     "freeCashFlowTtm": -460000000,
     "ebitdaTtm": 4770000000,
-    "pe": 27.631871871032747,
-    "evEbitda": 23.60644255932914,
-    "evSales": 2.2113654950510604,
+    "pe": 27.173115744080604,
+    "evEbitda": 23.224626663312367,
+    "evSales": 2.175598373605656,
     "pfcf": null,
-    "fcfYield": -0.004193310470352553,
-    "return1y": -0.12485248685488848,
-    "returnYtd": -0.18536174210017076,
-    "return5y": 5.841763021409639
+    "fcfYield": -0.0042641049603405435,
+    "return1y": -0.1389341341839283,
+    "returnYtd": -0.19888674926386785,
+    "return5y": 6.8541620400195535
   },
   "factorChips": [
     {
@@ -1132,7 +1132,7 @@
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "33rd percentile profitability metrics in the covered universe."
+      "detail": "27th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1150,12 +1150,12 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "56th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "57th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=GRAVITA",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.gravitaindia.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:42.872Z"
+  "updatedAt": "2026-11-18T09:13:46.774Z"
 }

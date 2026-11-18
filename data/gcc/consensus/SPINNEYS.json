@@ -1,7 +1,7 @@
 {
   "ticker": "SPINNEYS",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/dfm/SPINNEYS/forecast/",
   "targetMean": 1.79,
   "targetHigh": 2.1,
@@ -19,10 +19,10 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 3900000000,
-      "revenueGrowth": 0.067,
+      "revenueAvg": 3800000000,
+      "revenueGrowth": 0.033,
       "epsAvg": 0.1,
-      "epsGrowth": 0.022000000000000002,
+      "epsGrowth": 0.054000000000000006,
       "analystCount": 8
     },
     {
@@ -38,10 +38,10 @@
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 3900000000,
-    "revenueGrowth": 0.067,
+    "revenueAvg": 3800000000,
+    "revenueGrowth": 0.033,
     "epsAvg": 0.1,
-    "epsGrowth": 0.022000000000000002,
+    "epsGrowth": 0.054000000000000006,
     "analystCount": 8
   },
   "revisions": null

@@ -13,12 +13,12 @@
   "quoteCurrency": "KWD",
   "isResearch": true,
   "latestPrice": {
-    "close": 2706,
-    "prevClose": 2749,
-    "changePct": -0.015642051655147315,
-    "asOf": "2026-11-09",
-    "high52": 4098,
-    "low52": 2627,
+    "close": 2634,
+    "prevClose": 2676,
+    "changePct": -0.015695067264574036,
+    "asOf": "2026-11-18",
+    "high52": 3985,
+    "low52": 2602,
     "marketCap": 543300000,
     "sharesOutstanding": 200780000,
     "dividendYield": 0.046900000000000004
@@ -1115,9 +1115,9 @@
     "evSales": 12.287758346581876,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.30612426573924334,
-    "returnYtd": -0.26861747300514416,
-    "return5y": 0.3049638843593079
+    "return1y": -0.3288886027501048,
+    "returnYtd": -0.28807776197174795,
+    "return5y": 0.3664325143352787
   },
   "factorChips": [
     {
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "16th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "18th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/kwse/BOURSA/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/BOURSA.KW",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:16.232Z"
+  "updatedAt": "2026-11-18T09:30:21.512Z"
 }

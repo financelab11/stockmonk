@@ -1,9 +1,9 @@
 {
   "ticker": "CIEN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/CIEN/analysis",
-  "targetMean": 512.9907,
+  "targetMean": 511.74072,
   "targetHigh": 660,
   "targetLow": 347,
   "recommendationKey": "buy",

@@ -1,0 +1,55 @@
+{
+  "ticker": "PG",
+  "asOf": "2026-06-30",
+  "source": {
+    "name": "PROCTER & GAMBLE Co Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000103/pg-20260630.htm",
+    "date": "2026-08-04"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Fabric Home Care",
+      "revenue": 30314000000,
+      "share": 0.34830866807610994
+    },
+    {
+      "name": "Baby Feminine Family Care",
+      "revenue": 20401000000,
+      "share": 0.23440803382663847
+    },
+    {
+      "name": "Beauty",
+      "revenue": 16023000000,
+      "share": 0.18410469712289732
+    },
+    {
+      "name": "Health Care",
+      "revenue": 12456000000,
+      "share": 0.14311977203787113
+    },
+    {
+      "name": "Grooming",
+      "revenue": 6918000000,
+      "share": 0.07948800441217023
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 920000000,
+      "share": 0.010570824524312896
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 45300000000,
+      "share": 0.5204982075558415
+    },
+    {
+      "name": "United States",
+      "revenue": 41700000000,
+      "share": 0.4791341115911389
+    }
+  ]
+}

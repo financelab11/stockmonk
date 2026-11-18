@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 351,
-    "prevClose": 353,
-    "changePct": -0.005665722379603388,
-    "asOf": "2026-11-08",
-    "high52": 363.4,
+    "close": 353.54998779296875,
+    "prevClose": 358,
+    "changePct": -0.012430201695618037,
+    "asOf": "2026-11-18",
+    "high52": 368.3,
     "low52": 232,
-    "marketCap": 1005737082880,
+    "marketCap": 1013043691520,
     "sharesOutstanding": null,
     "dividendYield": 0
   },
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": -270000000,
       "netIncome": -280000000,
-      "epsDiluted": -0.12,
-      "epsBasic": -0.12,
+      "epsDiluted": -0.1,
+      "epsBasic": -0.1,
       "interestExpense": 70000000,
       "pretaxIncome": -370000000,
       "incomeTax": 92500000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 210000000,
       "netIncome": -250000000,
-      "epsDiluted": -0.1,
-      "epsBasic": -0.1,
+      "epsDiluted": -0.09,
+      "epsBasic": -0.09,
       "interestExpense": 270000000,
       "pretaxIncome": -320000000,
       "incomeTax": 73600000,
@@ -736,8 +736,8 @@
       "grossProfit": null,
       "operatingIncome": 1580000000,
       "netIncome": 620000000,
-      "epsDiluted": 0.23,
-      "epsBasic": 0.23,
+      "epsDiluted": 0.22,
+      "epsBasic": 0.22,
       "interestExpense": 320000000,
       "pretaxIncome": 660000000,
       "incomeTax": 46200000.00000001,
@@ -979,7 +979,7 @@
     "epsTtm": 1.12,
     "epsGrowthTtm": 2.1111111111111116,
     "grossMargin": 0.45608002,
-    "operatingMargin": 0.05639,
+    "operatingMargin": 0.053379998,
     "netMargin": 0.02852,
     "fcfMargin": 0.04919177808820595,
     "roic": 0.17,
@@ -989,27 +989,27 @@
     "interestCover": 8.424778761061948,
     "freeCashFlowTtm": 4930000000,
     "ebitdaTtm": 9520000000,
-    "pe": 306.62715941463415,
-    "evEbitda": 106.88892676302521,
-    "evSales": 8.997989059899195,
-    "pfcf": 204.0034650872211,
-    "fcfYield": 0.004901877522386459,
-    "return1y": 0.34575565579093315,
-    "returnYtd": 0.3207902163687677,
-    "return5y": -0.045244350505607045
+    "pe": 308.854784,
+    "evEbitda": 107.65642767058823,
+    "evSales": 9.062597855018128,
+    "pfcf": 205.48553580527383,
+    "fcfYield": 0.004866522580682464,
+    "return1y": 0.31431222227869426,
+    "returnYtd": 0.33038565491239424,
+    "return5y": 0.011250376323329148
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "91st percentile revenue/EPS growth in the covered universe."
+      "detail": "90th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "24th percentile profitability metrics in the covered universe."
+      "detail": "21st percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1032,7 +1032,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1463,13 +1463,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=NYKAA",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.nykaa.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:09.168Z"
+  "updatedAt": "2026-11-18T09:11:48.118Z"
 }

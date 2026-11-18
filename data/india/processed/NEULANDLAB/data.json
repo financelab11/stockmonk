@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 19836,
-    "prevClose": 19700,
-    "changePct": 0.0069035532994923265,
-    "asOf": "2026-11-08",
+    "close": 21446,
+    "prevClose": 21445,
+    "changePct": 0.00004663091629741878,
+    "asOf": "2026-11-18",
     "high52": 24225,
     "low52": 11500,
-    "marketCap": 254493671424,
+    "marketCap": 275149815808,
     "sharesOutstanding": null,
-    "dividendYield": 0.0017
+    "dividendYield": 0.0016
   },
   "ttm": {
     "period": "TTM",
@@ -1102,7 +1102,7 @@
     "epsTtm": 352.72,
     "epsGrowthTtm": 0.8843893578373758,
     "grossMargin": 0.54817003,
-    "operatingMargin": 0.15298,
+    "operatingMargin": 0.26259002,
     "netMargin": 0.19614,
     "fcfMargin": -0.024715768660405337,
     "roic": 0.26,
@@ -1112,27 +1112,27 @@
     "interestCover": 25.178571428571427,
     "freeCashFlowTtm": -500000000,
     "ebitdaTtm": 7050000000,
-    "pe": 56.05587476299559,
-    "evEbitda": 35.94501581163121,
-    "evSales": 10.979738365337955,
+    "pe": 60.60568630132158,
+    "evEbitda": 38.87496536964539,
+    "evSales": 11.874718624610052,
     "pfcf": null,
-    "fcfYield": -0.0019646853974886213,
-    "return1y": 0.09714902036870843,
-    "returnYtd": 0.31956568287698706,
-    "return5y": 11.12735292488925
+    "fcfYield": -0.001817191839768124,
+    "return1y": 0.2455439767288119,
+    "returnYtd": 0.4266689672806949,
+    "return5y": 12.027866936114183
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "83rd percentile revenue/EPS growth in the covered universe."
+      "detail": "84th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
-      "label": "Profitability: Average",
-      "tone": "neutral",
-      "detail": "67th percentile profitability metrics in the covered universe."
+      "label": "Profitability: High",
+      "tone": "positive",
+      "detail": "81st percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1150,12 +1150,12 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "33rd percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "30th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=NEULANDLAB",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.neulandlabs.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:43.373Z"
+  "updatedAt": "2026-11-18T09:09:35.870Z"
 }

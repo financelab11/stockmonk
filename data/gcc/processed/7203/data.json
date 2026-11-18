@@ -13,15 +13,15 @@
   "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 590,
-    "prevClose": 595.5,
-    "changePct": -0.009235936188077276,
-    "asOf": "2026-11-09",
-    "high52": 834,
+    "close": 617.5,
+    "prevClose": 620,
+    "changePct": -0.0040322580645161255,
+    "asOf": "2026-11-18",
+    "high52": 826,
     "low52": 504.5,
-    "marketCap": 45940000000,
+    "marketCap": 48080000000,
     "sharesOutstanding": 77860000,
-    "dividendYield": 0.017
+    "dividendYield": 0.016200000000000003
   },
   "ttm": {
     "period": "TTM",
@@ -1110,21 +1110,21 @@
     "interestCover": 18.089033903390337,
     "freeCashFlowTtm": 2891690000,
     "ebitdaTtm": 2631350000,
-    "pe": 19.23,
-    "evEbitda": 15.86,
-    "evSales": 4.415345413363533,
+    "pe": 20.13,
+    "evEbitda": 16.71,
+    "evSales": 4.617308418271046,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.2768093774419642,
-    "returnYtd": -0.20592709130923337,
-    "return5y": 2.7715500129632207
+    "return1y": -0.23758319830243135,
+    "returnYtd": -0.16891528671712863,
+    "return5y": 2.947342598313201
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "72nd percentile revenue/EPS growth in the covered universe."
+      "detail": "71st percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1148,7 +1148,7 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "23rd percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "21st percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1563,13 +1563,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/7203/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/7203.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:16:06.430Z"
+  "updatedAt": "2026-11-18T09:26:02.194Z"
 }

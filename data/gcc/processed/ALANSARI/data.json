@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 0.9419999718666077,
-    "prevClose": 0.9340000152587891,
-    "changePct": 0.008565263894136033,
-    "asOf": "2026-11-05",
+    "close": 0.9300000071525574,
+    "prevClose": 0.9399999976158142,
+    "changePct": -0.01063828775385156,
+    "asOf": "2026-11-18",
     "high52": 1.0099999904632568,
     "low52": 0.8930000066757202,
-    "marketCap": 7070000000,
+    "marketCap": 6980000000,
     "sharesOutstanding": 7500000000,
-    "dividendYield": 0.042
+    "dividendYield": 0.0426
   },
   "ttm": {
     "period": "TTM",
@@ -52,7 +52,7 @@
     "freeCashFlow": 925600000,
     "da": 136730000,
     "sbc": null,
-    "dividendsPaid": 314320000,
+    "dividendsPaid": 297000000,
     "buybacks": null,
     "ebitda": -258000000,
     "grossMargin": 1,
@@ -709,7 +709,7 @@
       "freeCashFlow": 197380000,
       "da": 33820000,
       "sbc": null,
-      "dividendsPaid": 156550000,
+      "dividendsPaid": 139230000,
       "buybacks": null,
       "ebitda": -45370000,
       "grossMargin": 1,
@@ -998,7 +998,7 @@
       "freeCashFlow": 755180000,
       "da": 124890000,
       "sbc": null,
-      "dividendsPaid": 323320000,
+      "dividendsPaid": 306000000,
       "buybacks": null,
       "ebitda": -158680000,
       "grossMargin": 1,
@@ -1028,21 +1028,21 @@
     "interestCover": -6.57843638221768,
     "freeCashFlowTtm": 457070000,
     "ebitdaTtm": -218080000,
-    "pe": 20.76,
+    "pe": 20.49,
     "evEbitda": null,
-    "evSales": 10.55158117859759,
+    "evSales": 10.41130905066941,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.0025083503856599965,
-    "returnYtd": -0.017470704045394414,
-    "return5y": -0.06221116395770043
+    "return1y": -0.00511482891663706,
+    "returnYtd": -0.029986964378834746,
+    "return5y": -0.07415759366116337
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "33rd percentile revenue/EPS growth in the covered universe."
+      "detail": "34th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1383,13 +1383,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/dfm/ALANSARI/financials/",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/ALANSARI.AE",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:25.047Z"
+  "updatedAt": "2026-11-18T09:28:33.213Z"
 }

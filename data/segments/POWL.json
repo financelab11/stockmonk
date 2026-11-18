@@ -1,0 +1,50 @@
+{
+  "ticker": "POWL",
+  "asOf": "2025-09-30",
+  "source": {
+    "name": "Powell Industries, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042025000152/powl-20250930.htm",
+    "date": "2025-11-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 1104318000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 880222000,
+      "share": 0.7970729445685029
+    },
+    {
+      "name": "CA",
+      "revenue": 157191000,
+      "share": 0.14234215144550755
+    },
+    {
+      "name": "Middle East & Africa",
+      "revenue": 27440000,
+      "share": 0.02484791518385103
+    },
+    {
+      "name": "Europe",
+      "revenue": 25072000,
+      "share": 0.022703605302095954
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 9283000,
+      "share": 0.008406093172437649
+    },
+    {
+      "name": "Mexico Central America & South America",
+      "revenue": 5110000,
+      "share": 0.004627290327604911
+    }
+  ]
+}

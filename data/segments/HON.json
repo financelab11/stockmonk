@@ -1,0 +1,50 @@
+{
+  "ticker": "HON",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Honeywell International Inc Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000013/hon-20251231.htm",
+    "date": "2026-02-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Aerospace Technologies",
+      "revenue": 17510000000,
+      "share": 0.4676566422733828
+    },
+    {
+      "name": "Industrial Automation",
+      "revenue": 9401000000,
+      "share": 0.25108167298755407
+    },
+    {
+      "name": "Building Automation",
+      "revenue": 7367000000,
+      "share": 0.19675765183483787
+    },
+    {
+      "name": "Energy & Sustainability Solutions",
+      "revenue": 3134000000,
+      "share": 0.08370279365418513
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 21784000000,
+      "share": 0.5818065274290903
+    },
+    {
+      "name": "Europe",
+      "revenue": 8112000000,
+      "share": 0.21665509321083276
+    },
+    {
+      "name": "Other International",
+      "revenue": 7546000000,
+      "share": 0.20153837936007693
+    }
+  ]
+}

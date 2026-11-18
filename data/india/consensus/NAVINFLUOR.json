@@ -1,10 +1,10 @@
 {
   "ticker": "NAVINFLUOR",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=NAVINFLUOR",
-  "targetMean": 8911.931,
-  "targetHigh": 10617,
+  "targetMean": 8957.655,
+  "targetHigh": 11100,
   "targetLow": 4700,
   "recommendationKey": "buy",
   "analystCount": 29,
@@ -42,8 +42,8 @@
       "endDate": "2028-03-31",
       "revenueAvg": 52514620170,
       "revenueGrowth": 0.16459998,
-      "epsAvg": 216.91232,
-      "epsGrowth": 0.1246,
+      "epsAvg": 217.20055,
+      "epsGrowth": 0.1261,
       "analystCount": 28
     }
   ],

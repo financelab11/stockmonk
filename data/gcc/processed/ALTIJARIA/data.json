@@ -13,10 +13,10 @@
   "quoteCurrency": "KWD",
   "isResearch": true,
   "latestPrice": {
-    "close": 159,
-    "prevClose": 159,
-    "changePct": 0,
-    "asOf": "2026-11-09",
+    "close": 160,
+    "prevClose": 161,
+    "changePct": -0.006211180124223614,
+    "asOf": "2026-11-18",
     "high52": 226.21299743652344,
     "low52": 154,
     "marketCap": 298740000,
@@ -1115,22 +1115,22 @@
     "evSales": 14.632278649295401,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.16866558935914833,
-    "returnYtd": -0.21262802642430034,
-    "return5y": 0.2683767190197581
+    "return1y": -0.159168357897443,
+    "returnYtd": -0.20767600143325826,
+    "return5y": 0.3147454217951815
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "49th percentile revenue/EPS growth in the covered universe."
+      "detail": "48th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "85th percentile profitability metrics in the covered universe."
+      "detail": "86th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "14th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "15th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/kwse/ALTIJARIA/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/ALTIJARIA.KW",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:15.278Z"
+  "updatedAt": "2026-11-18T09:30:19.185Z"
 }

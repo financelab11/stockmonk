@@ -1,0 +1,35 @@
+{
+  "ticker": "LOW",
+  "asOf": "2026-01-30",
+  "source": {
+    "name": "LOWES COMPANIES INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/60667/000006066726000029/low-20260130.htm",
+    "date": "2026-03-23"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 84078000000,
+      "share": 0.9744106807593352
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 2208000000,
+      "share": 0.025589319240664765
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 86225000000,
+      "share": 0.9992930486985142
+    },
+    {
+      "name": "CA",
+      "revenue": 61000000,
+      "share": 0.0007069513014857566
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "ticker": "2040",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/2040/forecast/",
   "targetMean": 25.35,
   "targetHigh": 26.6,

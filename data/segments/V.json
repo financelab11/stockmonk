@@ -1,0 +1,30 @@
+{
+  "ticker": "V",
+  "asOf": "2026-09-30",
+  "source": {
+    "name": "VISA INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+    "date": "2026-11-05"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 45903000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 28480000000,
+      "share": 0.6204387512798728
+    },
+    {
+      "name": "United States",
+      "revenue": 17423000000,
+      "share": 0.3795612487201272
+    }
+  ]
+}

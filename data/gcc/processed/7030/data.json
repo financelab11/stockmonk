@@ -13,15 +13,15 @@
   "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 8.760000228881836,
-    "prevClose": 8.699999809265137,
-    "changePct": 0.006896600107140438,
-    "asOf": "2026-11-09",
+    "close": 8.84000015258789,
+    "prevClose": 8.899999618530273,
+    "changePct": -0.00674151331618722,
+    "asOf": "2026-11-18",
     "high52": 12.100000381469727,
     "low52": 8.329999923706055,
-    "marketCap": 7870000000,
+    "marketCap": 7950000000,
     "sharesOutstanding": 898730000,
-    "dividendYield": 0.0571
+    "dividendYield": 0.0565
   },
   "ttm": {
     "period": "TTM",
@@ -37,31 +37,31 @@
     "epsDiluted": 0.86,
     "epsBasic": 0.86,
     "interestExpense": -641620000,
-    "pretaxIncome": 843600000,
+    "pretaxIncome": 843610000,
     "incomeTax": 74840000,
     "rnd": null,
     "sga": null,
     "cashAndInvestments": 748700000,
-    "totalDebt": 10307000000,
+    "totalDebt": 10367000000,
     "totalEquity": 10965000000,
     "totalAssets": 27441000000,
     "inventory": 190420000,
-    "receivables": 7189000000,
-    "cfo": 1796000000,
-    "capex": 260980000.00000003,
-    "freeCashFlow": 1535000000,
+    "receivables": 5113000000,
+    "cfo": 1941000000,
+    "capex": 565060000,
+    "freeCashFlow": 1375000000,
     "da": 2104000000,
     "sbc": null,
     "dividendsPaid": 463310000,
     "buybacks": null,
-    "ebitda": 3363000000,
+    "ebitda": 3282000000,
     "grossMargin": 0.5026291931097008,
     "operatingMargin": 0.12048957388939256,
     "netMargin": 0.06997189483227562,
-    "fcfMargin": 0.13916591115140525,
-    "roic": 0.05115697767902823,
-    "netDebt": 9558300000,
-    "netDebtToEbitda": 2.8421944692239074,
+    "fcfMargin": 0.12466001813236627,
+    "roic": 0.05100785588316742,
+    "netDebt": 9618300000,
+    "netDebtToEbitda": 2.9306215722120657,
     "roe": 0.07038668490652075
   },
   "quarterly": [
@@ -704,9 +704,9 @@
       "totalAssets": 28127000000,
       "inventory": 180370000,
       "receivables": 4647000000,
-      "cfo": 584480000,
-      "capex": 220530000,
-      "freeCashFlow": 363950000,
+      "cfo": 439520000,
+      "capex": 83550000,
+      "freeCashFlow": 523070000.00000006,
       "da": 540390000,
       "sbc": null,
       "dividendsPaid": null,
@@ -715,7 +715,7 @@
       "grossMargin": 0.5957833515085423,
       "operatingMargin": 0.11564885496183207,
       "netMargin": 0.0555470737913486,
-      "fcfMargin": 0.13229734641948382,
+      "fcfMargin": 0.19013813158851328,
       "roic": 0.012454016882939272,
       "netDebt": 9579320000,
       "netDebtToEbitda": 12.3133837215281,
@@ -816,7 +816,7 @@
       "netIncome": 202590000,
       "epsDiluted": 0.23,
       "epsBasic": 0.23,
-      "interestExpense": -171680000,
+      "interestExpense": -163790000,
       "pretaxIncome": 217550000,
       "incomeTax": 16020000,
       "rnd": null,
@@ -863,11 +863,11 @@
       "rnd": null,
       "sga": null,
       "cashAndInvestments": 748700000,
-      "totalDebt": 10307000000,
+      "totalDebt": 10367000000,
       "totalEquity": 10965000000,
       "totalAssets": 27441000000,
       "inventory": 190420000,
-      "receivables": 7189000000,
+      "receivables": 5113000000,
       "cfo": 243110000,
       "capex": 59760000,
       "freeCashFlow": 183350000,
@@ -875,14 +875,14 @@
       "sbc": null,
       "dividendsPaid": 449370000,
       "buybacks": null,
-      "ebitda": 996120000,
+      "ebitda": 915530000,
       "grossMargin": 0.5878616796047988,
       "operatingMargin": 0.10398023994354269,
       "netMargin": 0.048648553281580804,
       "fcfMargin": 0.06469654199011997,
-      "roic": 0.011343068609823957,
-      "netDebt": 9558300000,
-      "netDebtToEbitda": 9.595530658956752,
+      "roic": 0.011310003740896746,
+      "netDebt": 9618300000,
+      "netDebtToEbitda": 10.505717999410178,
       "roe": 0.012573643410852714
     }
   ],
@@ -1102,22 +1102,22 @@
     "grossMargin": 0.5026291931097008,
     "operatingMargin": 0.12048957388939256,
     "netMargin": 0.06997189483227562,
-    "fcfMargin": 0.13916591115140525,
-    "roic": 0.05115697767902823,
+    "fcfMargin": 0.12466001813236627,
+    "roic": 0.05100785588316742,
     "roe": 0.07038668490652075,
-    "netDebt": 9558300000,
-    "netDebtToEbitda": 2.8421944692239074,
-    "interestCover": 2.0456798866855523,
+    "netDebt": 9618300000,
+    "netDebtToEbitda": 2.9306215722120657,
+    "interestCover": 2.070835216557829,
     "freeCashFlowTtm": 1879140000,
-    "ebitdaTtm": 3362940000,
-    "pe": 10.2,
-    "evEbitda": 5.1,
-    "evSales": 1.5800815956482321,
+    "ebitdaTtm": 3282350000,
+    "pe": 10.31,
+    "evEbitda": 5.13,
+    "evSales": 1.5927742520398913,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.17385843847410098,
-    "returnYtd": -0.12428993848167336,
-    "return5y": -0.23185990729828443
+    "return1y": -0.14715742972826085,
+    "returnYtd": -0.11629259415751314,
+    "return5y": -0.2072010892225622
   },
   "factorChips": [
     {
@@ -1136,13 +1136,13 @@
       "key": "cash",
       "label": "Cash generation: High",
       "tone": "positive",
-      "detail": "68th percentile free-cash-flow margin."
+      "detail": "67th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
       "label": "Balance sheet: Moderate leverage",
       "tone": "neutral",
-      "detail": "Net debt of $9.6B, 2.8× EBITDA."
+      "detail": "Net debt of $9.6B, 2.9× EBITDA."
     },
     {
       "key": "valuation",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/7030/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/7030.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:15:10.607Z"
+  "updatedAt": "2026-11-18T09:24:26.237Z"
 }

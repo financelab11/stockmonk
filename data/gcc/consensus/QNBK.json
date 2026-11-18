@@ -1,7 +1,7 @@
 {
   "ticker": "QNBK",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/qse/QNBK/forecast/",
   "targetMean": 20.23,
   "targetHigh": 22.3,

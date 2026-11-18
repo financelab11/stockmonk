@@ -1,7 +1,7 @@
 {
   "ticker": "KLAC",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/KLAC/analysis",
   "targetMean": 219.61539,
   "targetHigh": 275,
@@ -28,28 +28,28 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 4904061870,
-      "revenueGrowth": 0.436,
-      "epsAvg": 1.51658,
-      "epsGrowth": 0.6134,
+      "revenueAvg": 4905811870,
+      "revenueGrowth": 0.4365,
+      "epsAvg": 1.51703,
+      "epsGrowth": 0.6139,
       "analystCount": 22
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-06-30",
-      "revenueAvg": 18873844290,
-      "revenueGrowth": 0.38990003,
-      "epsAvg": 5.76775,
-      "epsGrowth": 0.53400004,
+      "revenueAvg": 18878302630,
+      "revenueGrowth": 0.39020002,
+      "epsAvg": 5.76935,
+      "epsGrowth": 0.5344,
       "analystCount": 25
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-06-30",
-      "revenueAvg": 22562801320,
-      "revenueGrowth": 0.19549999,
-      "epsAvg": 7.09884,
-      "epsGrowth": 0.2308,
+      "revenueAvg": 22577937690,
+      "revenueGrowth": 0.19600001,
+      "epsAvg": 7.10537,
+      "epsGrowth": 0.2316,
       "analystCount": 23
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 22
   },
   "revisions": {
-    "eps7d": 0.05466271455764593,
-    "eps30d": 0.05737148933049796,
-    "eps60d": 0.05777483531155103,
-    "eps90d": 0.05861353791938928,
+    "eps7d": 0.0002774045338302944,
+    "eps30d": 0.05580860809715271,
+    "eps60d": 0.05766480897558135,
+    "eps90d": 0.05873231424219627,
     "revenue30d": null
   }
 }

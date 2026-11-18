@@ -1,10 +1,10 @@
 {
   "ticker": "KO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/KO/analysis",
-  "targetMean": 97.75,
-  "targetHigh": 106,
+  "targetMean": 98.79167,
+  "targetHigh": 112,
   "targetLow": 80,
   "recommendationKey": "buy",
   "analystCount": 24,
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 50449188560,
-      "revenueGrowth": 0.0497,
-      "epsAvg": 3.34038,
-      "epsGrowth": 0.11350001,
-      "analystCount": 24
+      "revenueAvg": 50443627200,
+      "revenueGrowth": 0.0496,
+      "epsAvg": 3.34076,
+      "epsGrowth": 0.11359999,
+      "analystCount": 25
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 48892734390,
-      "revenueGrowth": -0.0309,
-      "epsAvg": 3.52779,
-      "epsGrowth": 0.0561,
+      "revenueAvg": 48896565050,
+      "revenueGrowth": -0.0307,
+      "epsAvg": 3.52939,
+      "epsGrowth": 0.056500003,
       "analystCount": 25
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 18
   },
   "revisions": {
-    "eps7d": 0.010671354357343565,
-    "eps30d": 0.011779529848644277,
-    "eps60d": 0.011782594472781849,
-    "eps90d": 0.011797917871952501,
+    "eps7d": 0.00011375951239078752,
+    "eps30d": 0.011361606669835211,
+    "eps60d": 0.011897694367374534,
+    "eps90d": 0.011897694367374534,
     "revenue30d": null
   }
 }

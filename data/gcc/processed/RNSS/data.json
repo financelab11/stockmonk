@@ -1124,19 +1124,19 @@
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "11th percentile revenue/EPS growth in the covered universe."
+      "detail": "10th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "14th percentile profitability metrics in the covered universe."
+      "detail": "15th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
-      "label": "Cash generation: Average",
-      "tone": "neutral",
-      "detail": "66th percentile free-cash-flow margin."
+      "label": "Cash generation: High",
+      "tone": "positive",
+      "detail": "68th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1148,7 +1148,7 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "68th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "70th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1181,5 +1181,5 @@
       "date": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:26.397Z"
+  "updatedAt": "2026-11-18T09:30:36.980Z"
 }

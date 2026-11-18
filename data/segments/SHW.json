@@ -1,0 +1,35 @@
+{
+  "ticker": "SHW",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "THE SHERWIN-WILLIAMS COMPANY Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/89800/000008980026000008/shw-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Paint Stores Group",
+      "revenue": 13605900000,
+      "share": 0.5771496926738016
+    },
+    {
+      "name": "Consumer Brands Group",
+      "revenue": 8554600000,
+      "share": 0.3628782190775548
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 1413800000,
+      "share": 0.05997208824864365
+    }
+  ],
+  "geographyLabel": null,
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 4615000000,
+      "share": 0.1957640311695363
+    }
+  ]
+}

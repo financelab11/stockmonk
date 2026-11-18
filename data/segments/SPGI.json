@@ -1,0 +1,60 @@
+{
+  "ticker": "SPGI",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "S&P Global Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/64040/000006404026000013/spgi-20251231.htm",
+    "date": "2026-02-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Market Intelligence",
+      "revenue": 4916000000,
+      "share": 0.3205529473135107
+    },
+    {
+      "name": "Ratings",
+      "revenue": 4724000000,
+      "share": 0.3080333854981742
+    },
+    {
+      "name": "Energy",
+      "revenue": 2299000000,
+      "share": 0.14990871152842983
+    },
+    {
+      "name": "Mobility",
+      "revenue": 1747000000,
+      "share": 0.1139149713093375
+    },
+    {
+      "name": "Mobility",
+      "revenue": 1747000000,
+      "share": 0.1139149713093375
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 9322000000,
+      "share": 0.6078508085550339
+    },
+    {
+      "name": "Europe",
+      "revenue": 3531000000,
+      "share": 0.23024256651017214
+    },
+    {
+      "name": "Asia",
+      "revenue": 1640000000,
+      "share": 0.10693792383933229
+    },
+    {
+      "name": "Rest Of World",
+      "revenue": 843000000,
+      "share": 0.05496870109546166
+    }
+  ]
+}

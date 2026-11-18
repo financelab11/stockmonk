@@ -1,0 +1,19 @@
+{
+  "ticker": "KNSL",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "KINSALE CAPITAL GROUP, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916226000015/knsl-20251231.htm",
+    "date": "2026-02-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Excess & Surplus Lines",
+      "revenue": 1873987000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

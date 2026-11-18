@@ -1,0 +1,65 @@
+{
+  "ticker": "KLAC",
+  "asOf": "2026-06-30",
+  "source": {
+    "name": "KLA CORP Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000027/klac-20260630.htm",
+    "date": "2026-08-06"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Semiconductor Process Control",
+      "revenue": 12244733000,
+      "share": 0.9017087993675161
+    },
+    {
+      "name": "PCB & Component Inspection",
+      "revenue": 750415000,
+      "share": 0.05526096883267072
+    },
+    {
+      "name": "Specialty Semiconductor Process",
+      "revenue": 584064000,
+      "share": 0.043010790696194755
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "China",
+      "revenue": 4048358000,
+      "share": 0.2981232854640341
+    },
+    {
+      "name": "Taiwan",
+      "revenue": 3643742000,
+      "share": 0.2683271431092039
+    },
+    {
+      "name": "KR",
+      "revenue": 1833836000,
+      "share": 0.13504468066367215
+    },
+    {
+      "name": "North America",
+      "revenue": 1757337000,
+      "share": 0.12941125268751166
+    },
+    {
+      "name": "Japan",
+      "revenue": 915111000,
+      "share": 0.06738927186881143
+    },
+    {
+      "name": "Europe & Israel",
+      "revenue": 726693000,
+      "share": 0.053514067847684255
+    },
+    {
+      "name": "Rest Of Asia",
+      "revenue": 654399000,
+      "share": 0.048190298359082485
+    }
+  ]
+}

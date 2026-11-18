@@ -1,11 +1,11 @@
 {
   "ticker": "2050",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/2050/forecast/",
-  "targetMean": 31.72,
+  "targetMean": 31.85,
   "targetHigh": 37.5,
-  "targetLow": 26.4,
+  "targetLow": 27.77,
   "recommendationKey": "buy",
   "analystCount": 11,
   "distribution": {
@@ -19,10 +19,10 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 27100000000,
-      "revenueGrowth": 0.04,
-      "epsAvg": 2.39,
-      "epsGrowth": -0.253,
+      "revenueAvg": 26700000000,
+      "revenueGrowth": 0.024,
+      "epsAvg": 2.3,
+      "epsGrowth": -0.282,
       "analystCount": 11
     },
     {
@@ -38,10 +38,10 @@
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 27100000000,
-    "revenueGrowth": 0.04,
-    "epsAvg": 2.39,
-    "epsGrowth": -0.253,
+    "revenueAvg": 26700000000,
+    "revenueGrowth": 0.024,
+    "epsAvg": 2.3,
+    "epsGrowth": -0.282,
     "analystCount": 11
   },
   "revisions": null

@@ -1,0 +1,35 @@
+{
+  "ticker": "IREN",
+  "asOf": "2026-06-30",
+  "source": {
+    "name": "IREN Limited Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm",
+    "date": "2026-08-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Bitcoin Mining",
+      "revenue": 578212000,
+      "share": 0.8178306579708546
+    },
+    {
+      "name": "AI Cloud Services",
+      "revenue": 128795000,
+      "share": 0.1821693420291454
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "AU",
+      "revenue": 578212000,
+      "share": 0.8178306579708546
+    },
+    {
+      "name": "CA",
+      "revenue": 128795000,
+      "share": 0.1821693420291454
+    }
+  ]
+}

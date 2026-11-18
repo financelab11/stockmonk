@@ -1,9 +1,9 @@
 {
   "ticker": "PINS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/PINS/analysis",
-  "targetMean": 25.25,
+  "targetMean": 25.02778,
   "targetHigh": 41,
   "targetLow": 20,
   "recommendationKey": "buy",
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 4827799360,
-      "revenueGrowth": 0.1435,
-      "epsAvg": 1.95068,
-      "epsGrowth": 0.2192,
-      "analystCount": 24
+      "revenueAvg": 4828445030,
+      "revenueGrowth": 0.1437,
+      "epsAvg": 1.95186,
+      "epsGrowth": 0.2199,
+      "analystCount": 25
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 5404516560,
-      "revenueGrowth": 0.1195,
-      "epsAvg": 2.2761,
-      "epsGrowth": 0.1668,
+      "revenueAvg": 5400437000,
+      "revenueGrowth": 0.1185,
+      "epsAvg": 2.26808,
+      "epsGrowth": 0.162,
       "analystCount": 25
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": 0.003952650540401503,
-    "eps30d": -0.03501907028053841,
-    "eps60d": -0.037205216035063216,
-    "eps90d": -0.03469435220878958,
+    "eps7d": 0.0006049172596223062,
+    "eps30d": -0.03356522169682863,
+    "eps60d": -0.029456516334344318,
+    "eps90d": -0.03432546357681432,
     "revenue30d": null
   }
 }

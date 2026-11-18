@@ -1,0 +1,55 @@
+{
+  "ticker": "CL",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "COLGATE-PALMOLIVE COMPANY Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/21665/000002166526000006/cl-20251231.htm",
+    "date": "2026-02-23"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Oral Personal & Home Care",
+      "revenue": 15769000000,
+      "share": 0.7736728485918948
+    },
+    {
+      "name": "Pet Nutrition",
+      "revenue": 4613000000,
+      "share": 0.2263271514081052
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Latin America",
+      "revenue": 4776000000,
+      "share": 0.23432440388578157
+    },
+    {
+      "name": "North America",
+      "revenue": 4045000000,
+      "share": 0.19845942498282798
+    },
+    {
+      "name": "United States",
+      "revenue": 3596000000,
+      "share": 0.1764301834952409
+    },
+    {
+      "name": "Europe",
+      "revenue": 2962000000,
+      "share": 0.1453243057599843
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 2814000000,
+      "share": 0.1380629967618487
+    },
+    {
+      "name": "Africa Eurasia",
+      "revenue": 1172000000,
+      "share": 0.05750171720145226
+    }
+  ]
+}

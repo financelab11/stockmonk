@@ -1,9 +1,9 @@
 {
   "ticker": "ANURAS",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=ANURAS",
-  "targetMean": 1282.5,
+  "targetMean": 1263.3334,
   "targetHigh": 1700,
   "targetLow": 1020,
   "recommendationKey": "hold",
@@ -31,20 +31,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 36755000000,
-      "revenueGrowth": 1.1936,
-      "epsAvg": 26.13333,
-      "epsGrowth": 0.7318,
+      "revenueAvg": 43517000000,
+      "revenueGrowth": 1.5972,
+      "epsAvg": 30.75,
+      "epsGrowth": 1.0378,
       "analystCount": 2
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 45539000000,
-      "revenueGrowth": 1.5749,
-      "epsAvg": 41.03333,
-      "epsGrowth": 0.5702,
-      "analystCount": 3
+      "revenueAvg": 60839000000,
+      "revenueGrowth": 2.44,
+      "epsAvg": 49.45,
+      "epsGrowth": 0.6081,
+      "analystCount": 2
     }
   ],
   "history": [

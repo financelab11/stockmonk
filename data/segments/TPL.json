@@ -1,0 +1,24 @@
+{
+  "ticker": "TPL",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Texas Pacific Land Corporation Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1811074/000181107426000018/tpl-20251231.htm",
+    "date": "2026-02-18"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Land & Resource Management",
+      "revenue": 490726000,
+      "share": 0.6147984815645398
+    },
+    {
+      "name": "Water Serviceand Operations",
+      "revenue": 307464000,
+      "share": 0.38520151843546024
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

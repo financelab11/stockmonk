@@ -1,0 +1,80 @@
+{
+  "ticker": "MU",
+  "asOf": "2026-09-03",
+  "source": {
+    "name": "Micron Technology, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
+    "date": "2026-10-09"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "CMBU",
+      "revenue": 43085000000,
+      "share": 0.3234901042135928
+    },
+    {
+      "name": "CDBU",
+      "revenue": 37592000000,
+      "share": 0.2822476499384329
+    },
+    {
+      "name": "MCBU",
+      "revenue": 36601000000,
+      "share": 0.2748070396732438
+    },
+    {
+      "name": "AEBU",
+      "revenue": 15886000000,
+      "share": 0.1192750097606391
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 24000000,
+      "share": 0.00018019641409135957
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 91323000000,
+      "share": 0.6856698801693847
+    },
+    {
+      "name": "Taiwan",
+      "revenue": 16950000000,
+      "share": 0.1272637174520227
+    },
+    {
+      "name": "China",
+      "revenue": 8338000000,
+      "share": 0.06260323752890651
+    },
+    {
+      "name": "HK",
+      "revenue": 6289000000,
+      "share": 0.04721896867585668
+    },
+    {
+      "name": "Other Asia Pacific",
+      "revenue": 5777000000,
+      "share": 0.043374778508574345
+    },
+    {
+      "name": "Japan",
+      "revenue": 2066000000,
+      "share": 0.01551190797969787
+    },
+    {
+      "name": "Europe",
+      "revenue": 1716000000,
+      "share": 0.01288404360753221
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 729000000,
+      "share": 0.005473466078025047
+    }
+  ]
+}

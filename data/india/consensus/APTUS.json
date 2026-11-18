@@ -1,9 +1,9 @@
 {
   "ticker": "APTUS",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=APTUS",
-  "targetMean": 313.66666,
+  "targetMean": 302.83334,
   "targetHigh": 458,
   "targetLow": 215,
   "recommendationKey": "buy",
@@ -31,20 +31,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 18804703180,
-      "revenueGrowth": 0.3204,
-      "epsAvg": 21.85239,
-      "epsGrowth": 0.1599,
-      "analystCount": 11
+      "revenueAvg": 18781902690,
+      "revenueGrowth": 0.3188,
+      "epsAvg": 21.74084,
+      "epsGrowth": 0.154,
+      "analystCount": 13
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 21972253660,
-      "revenueGrowth": 0.1684,
-      "epsAvg": 25.60736,
-      "epsGrowth": 0.1718,
-      "analystCount": 13
+      "revenueAvg": 22034886510,
+      "revenueGrowth": 0.1732,
+      "epsAvg": 25.55928,
+      "epsGrowth": 0.17559999,
+      "analystCount": 15
     }
   ],
   "history": [
@@ -76,7 +76,7 @@
       "quarter": "2Q2027",
       "endDate": "2026-09-30",
       "epsActual": 5.34,
-      "epsEstimate": 5.34667,
+      "epsEstimate": 5.31,
       "revenueActual": null,
       "revenueEstimate": null
     }

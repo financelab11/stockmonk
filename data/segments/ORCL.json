@@ -1,0 +1,45 @@
+{
+  "ticker": "ORCL",
+  "asOf": "2026-05-31",
+  "source": {
+    "name": "ORACLE CORP Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+    "date": "2026-06-22"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Cloud & Software Business",
+      "revenue": 58530000000,
+      "share": 0.8689520020190923
+    },
+    {
+      "name": "Services Business",
+      "revenue": 5743000000,
+      "share": 0.08526211084222872
+    },
+    {
+      "name": "Hardware Business",
+      "revenue": 3084000000,
+      "share": 0.04578588713867898
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 44478000000,
+      "share": 0.6603322594533605
+    },
+    {
+      "name": "EMEA",
+      "revenue": 15297000000,
+      "share": 0.22710334486393396
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 7582000000,
+      "share": 0.11256439568270558
+    }
+  ]
+}

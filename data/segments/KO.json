@@ -1,0 +1,50 @@
+{
+  "ticker": "KO",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "COCA COLA CO Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
+    "date": "2026-02-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "North America",
+      "revenue": 19586000000,
+      "share": 0.4085438351306815
+    },
+    {
+      "name": "Europe Middle East Africa",
+      "revenue": 11513000000,
+      "share": 0.24014935024300704
+    },
+    {
+      "name": "Latin America",
+      "revenue": 6334000000,
+      "share": 0.13212073173275485
+    },
+    {
+      "name": "Bottling Investments",
+      "revenue": 5735000000,
+      "share": 0.11962620721303269
+    },
+    {
+      "name": "A.Pacific",
+      "revenue": 5638000000,
+      "share": 0.1176028868817922
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 28814000000,
+      "share": 0.6010304332408586
+    },
+    {
+      "name": "United States",
+      "revenue": 19127000000,
+      "share": 0.39896956675914147
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "ticker": "IBM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/IBM/analysis",
-  "targetMean": 259.30347,
+  "targetMean": 259.84738,
   "targetHigh": 300,
   "targetLow": 174,
   "recommendationKey": "buy",
@@ -39,8 +39,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 70566875410,
       "revenueGrowth": 0.044899996,
-      "epsAvg": 12.419,
-      "epsGrowth": 0.0715,
+      "epsAvg": 12.42378,
+      "epsGrowth": 0.0719,
       "analystCount": 23
     },
     {
@@ -48,7 +48,7 @@
       "endDate": "2027-12-31",
       "revenueAvg": 73238437120,
       "revenueGrowth": 0.0379,
-      "epsAvg": 13.23404,
+      "epsAvg": 13.23863,
       "epsGrowth": 0.0656,
       "analystCount": 24
     }
@@ -96,10 +96,10 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": -0.00021575181456934267,
-    "eps30d": 0.008825087162357637,
-    "eps60d": 0.00797271599096483,
-    "eps90d": 0.007495984294128233,
+    "eps7d": 0.00038489411385778105,
+    "eps30d": 0.009009287045647518,
+    "eps60d": 0.008360678756279105,
+    "eps90d": 0.007883763568218516,
     "revenue30d": null
   }
 }

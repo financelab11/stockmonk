@@ -14,15 +14,19 @@
   "currency": "USD",
   "isResearch": true,
   "latestPrice": {
-    "close": 105.75,
-    "prevClose": 105.73999786376953,
-    "changePct": 0.00009459179527659956,
-    "asOf": "2026-11-06",
-    "high52": 139.92,
+    "close": 100.68000030517578,
+    "prevClose": 106.02999877929688,
+    "changePct": -0.05045740390186371,
+    "asOf": "2026-11-17",
+    "high52": 139.9199981689453,
     "low52": 42.25,
-    "marketCap": 21766369280,
+    "marketCap": 20722819072,
     "sharesOutstanding": null,
-    "dividendYield": 0
+    "dividendYield": 0,
+    "pe": null,
+    "evEbitda": null,
+    "evSales": null,
+    "pfcf": null
   },
   "ttm": {
     "period": "TTM",
@@ -794,9 +798,9 @@
     "revenueGrowthLatestQ": 0.37888078487058663,
     "epsTtm": -1.27,
     "epsGrowthTtm": -0.34536082474226804,
-    "grossMargin": 0.80206,
-    "operatingMargin": -0.16829,
-    "netMargin": -0.16498,
+    "grossMargin": 0.8020611109742196,
+    "operatingMargin": -0.18311634584334624,
+    "netMargin": -0.1085860387062972,
     "fcfMargin": 0.1970622068269681,
     "roic": null,
     "roe": null,
@@ -807,12 +811,12 @@
     "ebitdaTtm": null,
     "pe": null,
     "evEbitda": null,
-    "evSales": null,
-    "pfcf": null,
-    "fcfYield": null,
-    "return1y": 0.4784006962769236,
-    "returnYtd": 0.40121900476384775,
-    "return5y": 1.858108108108108
+    "evSales": 13.437371737892773,
+    "pfcf": 68.18847689903095,
+    "fcfYield": 0.014665234442481166,
+    "return1y": 0.4446835525630124,
+    "returnYtd": 0.33403999836635734,
+    "return5y": 1.721081089329075
   },
   "factorChips": [
     {
@@ -1079,10 +1083,10 @@
       "date": "2026-01-31"
     },
     {
-      "name": "Yahoo Finance market data",
+      "name": "Market price history",
       "url": "https://finance.yahoo.com/quote/RBRK",
-      "date": "2026-11-06"
+      "date": "2026-11-17"
     }
   ],
-  "updatedAt": "2026-11-08T09:10:55.756Z"
+  "updatedAt": "2026-11-18T09:06:50.085Z"
 }

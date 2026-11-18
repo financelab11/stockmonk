@@ -1,0 +1,110 @@
+{
+  "ticker": "FCX",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Freeport-McMoRan Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/831259/000083125926000012/fcx-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Grasberg",
+      "revenue": 8622000000,
+      "share": 0.34233304216628285
+    },
+    {
+      "name": "Rod & Refining",
+      "revenue": 6890000000,
+      "share": 0.27356467878980384
+    },
+    {
+      "name": "Cerro Verde",
+      "revenue": 4706000000,
+      "share": 0.18684983721114906
+    },
+    {
+      "name": "Atlantic Copper Smelting & Refining",
+      "revenue": 3169000000,
+      "share": 0.1258238704041928
+    },
+    {
+      "name": "Morenci",
+      "revenue": 2648000000,
+      "share": 0.10513777495433971
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 9034000000,
+      "share": 0.3586913364567617
+    },
+    {
+      "name": "CH",
+      "revenue": 5334000000,
+      "share": 0.21178432462479155
+    },
+    {
+      "name": "Japan",
+      "revenue": 2850000000,
+      "share": 0.11315810370840944
+    },
+    {
+      "name": "ID",
+      "revenue": 2180000000,
+      "share": 0.0865560231874851
+    },
+    {
+      "name": "Singapore",
+      "revenue": 1246000000,
+      "share": 0.049471928849360754
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 1136000000,
+      "share": 0.045104423092194076
+    },
+    {
+      "name": "Others Individually Immaterial Countries",
+      "revenue": 1038000000,
+      "share": 0.04121337250853649
+    },
+    {
+      "name": "China",
+      "revenue": 636000000,
+      "share": 0.025252124195981895
+    },
+    {
+      "name": "CL",
+      "revenue": 471000000,
+      "share": 0.018700865560231875
+    },
+    {
+      "name": "Germany",
+      "revenue": 332000000,
+      "share": 0.013181926467084888
+    },
+    {
+      "name": "FR",
+      "revenue": 315000000,
+      "share": 0.012506948304613675
+    },
+    {
+      "name": "EG",
+      "revenue": 261000000,
+      "share": 0.01036290002382276
+    },
+    {
+      "name": "KR",
+      "revenue": 193000000,
+      "share": 0.007662987373937902
+    },
+    {
+      "name": "IN",
+      "revenue": 163000000,
+      "share": 0.006471849440165171
+    }
+  ]
+}

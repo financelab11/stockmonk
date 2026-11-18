@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 2372,
-    "prevClose": 2373.5,
-    "changePct": -0.0006319780914261219,
-    "asOf": "2026-11-08",
-    "high52": 2390,
+    "close": 2366.800048828125,
+    "prevClose": 2375.300048828125,
+    "changePct": -0.0035784952743943554,
+    "asOf": "2026-11-18",
+    "high52": 2410,
     "low52": 1353.85,
-    "marketCap": 393849864192,
+    "marketCap": 392986460160,
     "sharesOutstanding": null,
     "dividendYield": 0.0032
   },
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 1020000000,
       "netIncome": 580000000,
-      "epsDiluted": 3.67,
-      "epsBasic": 3.67,
+      "epsDiluted": 3.56,
+      "epsBasic": 3.56,
       "interestExpense": 60000000,
       "pretaxIncome": 830000000,
       "incomeTax": 249000000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 1100000000,
       "netIncome": 620000000,
-      "epsDiluted": 3.78,
-      "epsBasic": 3.78,
+      "epsDiluted": 3.69,
+      "epsBasic": 3.69,
       "interestExpense": 30000000,
       "pretaxIncome": 870000000,
       "incomeTax": 252299999.99999997,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 770000000,
       "netIncome": 450000000,
-      "epsDiluted": 2.7,
-      "epsBasic": 2.7,
+      "epsDiluted": 2.68,
+      "epsBasic": 2.68,
       "interestExpense": 30000000,
       "pretaxIncome": 630000000,
       "incomeTax": 182700000,
@@ -938,7 +938,7 @@
     "epsTtm": 27.39,
     "epsGrowthTtm": 0.32446808510638303,
     "grossMargin": 0.5493,
-    "operatingMargin": 0.33688998,
+    "operatingMargin": 0.42216,
     "netMargin": 0.31349,
     "fcfMargin": 0.21388667198723066,
     "roic": 0.59,
@@ -948,14 +948,14 @@
     "interestCover": 31.571428571428573,
     "freeCashFlowTtm": 2680000000,
     "ebitdaTtm": 4420000000,
-    "pe": 86.56040971252747,
-    "evEbitda": 87.19805389321267,
-    "evSales": 30.981945193569132,
-    "pfcf": 146.95890454925373,
-    "fcfYield": 0.00680462339500392,
-    "return1y": 0.5257437632432784,
-    "returnYtd": 0.5387587537711873,
-    "return5y": 16.079907210073507
+    "pe": 86.37065058461539,
+    "evEbitda": 87.00271361447963,
+    "evSales": 30.912539724758844,
+    "pfcf": 146.63673886567165,
+    "fcfYield": 0.006819573373873665,
+    "return1y": 0.6132074694613983,
+    "returnYtd": 0.5353854525971125,
+    "return5y": 16.04246800250994
   },
   "factorChips": [
     {
@@ -986,7 +986,7 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "5th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "6th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1415,13 +1415,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=ANANDRATHI",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.anandrathiwealth.in",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:41.057Z"
+  "updatedAt": "2026-11-18T09:09:22.649Z"
 }

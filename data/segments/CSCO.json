@@ -1,0 +1,35 @@
+{
+  "ticker": "CSCO",
+  "asOf": "2026-07-25",
+  "source": {
+    "name": "CISCO SYSTEMS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm",
+    "date": "2026-09-02"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Americas",
+      "revenue": 37799000000,
+      "share": 0.5969048559020924
+    },
+    {
+      "name": "Europe Middle East & Africa",
+      "revenue": 16613000000,
+      "share": 0.26234504540071063
+    },
+    {
+      "name": "Asia Pacific Japan & China",
+      "revenue": 8914000000,
+      "share": 0.14076589024871694
+    }
+  ],
+  "geographyLabel": null,
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 34400000000,
+      "share": 0.5432293722858271
+    }
+  ]
+}

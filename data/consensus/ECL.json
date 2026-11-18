@@ -1,17 +1,17 @@
 {
   "ticker": "ECL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/ECL/analysis",
-  "targetMean": 330.57144,
-  "targetHigh": 360,
+  "targetMean": 333.66666,
+  "targetHigh": 380,
   "targetLow": 300,
-  "recommendationKey": "buy",
+  "recommendationKey": "strong_buy",
   "analystCount": 21,
   "distribution": {
     "strongBuy": 5,
-    "buy": 15,
-    "hold": 4,
+    "buy": 16,
+    "hold": 3,
     "sell": 0,
     "strongSell": 0
   },

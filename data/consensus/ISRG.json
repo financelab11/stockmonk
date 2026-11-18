@@ -1,9 +1,9 @@
 {
   "ticker": "ISRG",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/ISRG/analysis",
-  "targetMean": 485.56668,
+  "targetMean": 486.56668,
   "targetHigh": 685,
   "targetLow": 324,
   "recommendationKey": "buy",
@@ -96,8 +96,8 @@
     "analystCount": 25
   },
   "revisions": {
-    "eps7d": -0.00018569970137005676,
-    "eps30d": 0.04241204801196119,
+    "eps7d": 0,
+    "eps30d": 0.04186769995694628,
     "eps60d": 0.04241204801196119,
     "eps90d": 0.04252311078911153,
     "revenue30d": null

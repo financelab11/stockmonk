@@ -1,0 +1,29 @@
+{
+  "ticker": "DUK",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Duke Energy CORP Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000014/duk-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Electric Utilitiesand Infrastructure",
+      "revenue": 28863000000,
+      "share": 0.9093286285876312
+    },
+    {
+      "name": "Gas Utilitiesand Infrastructure",
+      "revenue": 2850000000,
+      "share": 0.08978923159320752
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 28000000,
+      "share": 0.0008821398191613371
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

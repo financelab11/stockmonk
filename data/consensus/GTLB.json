@@ -1,9 +1,9 @@
 {
   "ticker": "GTLB",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/GTLB/analysis",
-  "targetMean": 56.125,
+  "targetMean": 56.29167,
   "targetHigh": 70,
   "targetLow": 45,
   "recommendationKey": "buy",
@@ -98,7 +98,7 @@
   "revisions": {
     "eps7d": 0,
     "eps30d": 0,
-    "eps60d": 0.06609149425853222,
+    "eps60d": 0,
     "eps90d": 0.06609149425853222,
     "revenue30d": null
   }

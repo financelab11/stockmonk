@@ -1,0 +1,40 @@
+{
+  "ticker": "PL",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "Planet Labs PBC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526119957/pl-20260131.htm",
+    "date": "2026-03-23"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 307727000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 132010000,
+      "share": 0.42898413203911256
+    },
+    {
+      "name": "EMEA",
+      "revenue": 103674000,
+      "share": 0.3369025142415193
+    },
+    {
+      "name": "Asia Pacific & Japan",
+      "revenue": 59813000,
+      "share": 0.19437033474475754
+    },
+    {
+      "name": "Latin America",
+      "revenue": 12230000,
+      "share": 0.03974301897461061
+    }
+  ]
+}

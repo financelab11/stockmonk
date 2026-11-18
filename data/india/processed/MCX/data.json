@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 3557,
-    "prevClose": 3528,
-    "changePct": 0.008219954648525984,
-    "asOf": "2026-11-08",
-    "high52": 3604.8,
-    "low52": 1865.5,
-    "marketCap": 905306636288,
+    "close": 3644.10009765625,
+    "prevClose": 3705.39990234375,
+    "changePct": -0.016543370837983407,
+    "asOf": "2026-11-18",
+    "high52": 3774,
+    "low52": 1921.4,
+    "marketCap": 927474843648,
     "sharesOutstanding": null,
-    "dividendYield": 0.0023
+    "dividendYield": 0.0022
   },
   "ttm": {
     "period": "TTM",
@@ -1102,7 +1102,7 @@
     "epsTtm": 70.55000000000001,
     "epsGrowthTtm": 1.5842490842490848,
     "grossMargin": 0.95255995,
-    "operatingMargin": 0.7522,
+    "operatingMargin": 0.73103994,
     "netMargin": 0.55929,
     "fcfMargin": 1.2867072111207645,
     "roic": 0.71,
@@ -1112,21 +1112,21 @@
     "interestCover": null,
     "freeCashFlowTtm": 29620000000,
     "ebitdaTtm": 22640000000,
-    "pe": 50.32277022167871,
-    "evEbitda": 37.99442742614841,
-    "evSales": 28.138496464769382,
-    "pfcf": 30.564032285212694,
-    "fcfYield": 0.0327181960373669,
-    "return1y": 0.8706865758415634,
-    "returnYtd": 0.622402211090306,
-    "return5y": 8.99115164710824
+    "pe": 51.555021881489715,
+    "evEbitda": 38.97358852862191,
+    "evSales": 28.863658628982662,
+    "pfcf": 31.312452520189062,
+    "fcfYield": 0.03193617617001538,
+    "return1y": 0.8898235936965762,
+    "returnYtd": 0.6621299004419174,
+    "return5y": 9.905717274296574
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "93rd percentile revenue/EPS growth in the covered universe."
+      "detail": "91st percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1155,7 +1155,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=MCX",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.mcxindia.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:40.571Z"
+  "updatedAt": "2026-11-18T09:09:19.041Z"
 }

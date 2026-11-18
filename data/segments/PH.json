@@ -1,0 +1,35 @@
+{
+  "ticker": "PH",
+  "asOf": "2026-06-30",
+  "source": {
+    "name": "PARKER-HANNIFIN CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633426000105/ph-20260630.htm",
+    "date": "2026-08-21"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Diversified Industrial",
+      "revenue": 14438000000,
+      "share": 0.6715661193543886
+    },
+    {
+      "name": "Aerospace Systems",
+      "revenue": 7061000000,
+      "share": 0.3284338806456114
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 13819000000,
+      "share": 0.6427740825154659
+    },
+    {
+      "name": "Non-US",
+      "revenue": 7680000000,
+      "share": 0.35722591748453414
+    }
+  ]
+}

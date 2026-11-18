@@ -1,12 +1,12 @@
 {
   "ticker": "APLAPOLLO",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=APLAPOLLO",
   "targetMean": 2381.4211,
   "targetHigh": 2810,
   "targetLow": 1605,
-  "recommendationKey": "buy",
+  "recommendationKey": "none",
   "analystCount": 19,
   "distribution": null,
   "estimates": [

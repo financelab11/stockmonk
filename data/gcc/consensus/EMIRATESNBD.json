@@ -1,17 +1,17 @@
 {
   "ticker": "EMIRATESNBD",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/dfm/EMIRATESNBD/forecast/",
-  "targetMean": 35.17,
-  "targetHigh": 40.2,
+  "targetMean": 36.15,
+  "targetHigh": 43,
   "targetLow": 27,
   "recommendationKey": "buy",
   "analystCount": 16,
   "distribution": {
-    "strongBuy": 8,
+    "strongBuy": 9,
     "buy": 4,
-    "hold": 4,
+    "hold": 3,
     "sell": 0,
     "strongSell": 0
   },
@@ -19,10 +19,10 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 56800000000,
-      "revenueGrowth": 0.153,
-      "epsAvg": 4,
-      "epsGrowth": -0.045,
+      "revenueAvg": 56700000000,
+      "revenueGrowth": 0.15,
+      "epsAvg": 4.01,
+      "epsGrowth": -0.042,
       "analystCount": 16
     },
     {
@@ -38,10 +38,10 @@
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 56800000000,
-    "revenueGrowth": 0.153,
-    "epsAvg": 4,
-    "epsGrowth": -0.045,
+    "revenueAvg": 56700000000,
+    "revenueGrowth": 0.15,
+    "epsAvg": 4.01,
+    "epsGrowth": -0.042,
     "analystCount": 16
   },
   "revisions": null

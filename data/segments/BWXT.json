@@ -1,0 +1,40 @@
+{
+  "ticker": "BWXT",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "BWX TECHNOLOGIES, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1486957/000148695726000007/bwxt-20251231.htm",
+    "date": "2026-02-23"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Government Operations",
+      "revenue": 2350090000,
+      "share": 0.7347647670337745
+    },
+    {
+      "name": "Commercial Operations",
+      "revenue": 853070000,
+      "share": 0.2667156491085456
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 2431324000,
+      "share": 0.7601628926737378
+    },
+    {
+      "name": "CA",
+      "revenue": 688609000,
+      "share": 0.2152962786371417
+    },
+    {
+      "name": "Other Geographic Location",
+      "revenue": 83227000,
+      "share": 0.026021244831440474
+    }
+  ]
+}

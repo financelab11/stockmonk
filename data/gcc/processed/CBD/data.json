@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 9.510000228881836,
-    "prevClose": 9.680000305175781,
-    "changePct": -0.01756199079901355,
-    "asOf": "2026-11-05",
+    "close": 9.800000190734863,
+    "prevClose": 9.800000190734863,
+    "changePct": 0,
+    "asOf": "2026-11-18",
     "high52": 10.199999809265137,
     "low52": 8.449999809265137,
-    "marketCap": 28930000000,
+    "marketCap": 29250000000,
     "sharesOutstanding": 2990000000,
-    "dividendYield": 0.0605
+    "dividendYield": 0.059800000000000006
   },
   "ttm": {
     "period": "TTM",
@@ -1110,21 +1110,21 @@
     "interestCover": null,
     "freeCashFlowTtm": 613270000,
     "ebitdaTtm": null,
-    "pe": 8.33,
+    "pe": 8.42,
     "evEbitda": null,
-    "evSales": 8.943218806509945,
+    "evSales": 9.00108499095841,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.07016741236357649,
-    "returnYtd": 0.08859868201715182,
-    "return5y": 2.334055124313353
+    "return1y": 0.15027281360692002,
+    "returnYtd": 0.12179464086681291,
+    "return5y": 2.3539212695234872
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "51st percentile revenue/EPS growth in the covered universe."
+      "detail": "50th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-07",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/dfm/CBD/financials/",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/CBD.AE",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:04.495Z"
+  "updatedAt": "2026-11-18T09:27:42.379Z"
 }

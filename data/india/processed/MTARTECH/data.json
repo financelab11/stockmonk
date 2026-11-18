@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 5720.5,
-    "prevClose": 5448.5,
-    "changePct": 0.0499219968798752,
-    "asOf": "2026-11-08",
+    "close": 5904.5,
+    "prevClose": 5709.5,
+    "changePct": 0.03415360364305098,
+    "asOf": "2026-11-18",
     "high52": 8714,
     "low52": 2238.2,
-    "marketCap": 175960244224,
+    "marketCap": 181620015104,
     "sharesOutstanding": null,
     "dividendYield": 0
   },
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 580000000,
       "netIncome": 310000000,
-      "epsDiluted": 11.7,
-      "epsBasic": 11.7,
+      "epsDiluted": 10.95,
+      "epsBasic": 10.95,
       "interestExpense": 50000000,
       "pretaxIncome": 460000000,
       "incomeTax": 142600000,
@@ -897,7 +897,7 @@
     "epsTtm": 43.39,
     "epsGrowthTtm": 1.2528556593977158,
     "grossMargin": 0.45051998,
-    "operatingMargin": 0.21636,
+    "operatingMargin": 0.20075001,
     "netMargin": 0.13987,
     "fcfMargin": 0.0730593607305936,
     "roic": 0.15,
@@ -907,14 +907,14 @@
     "interestCover": 5.7,
     "freeCashFlowTtm": 640000000,
     "ebitdaTtm": 2280000000,
-    "pe": 132.3009355067669,
-    "evEbitda": 78.13816847719298,
-    "evSales": 16.480575775023127,
-    "pfcf": 274.9378816,
-    "fcfYield": 0.003637185222278224,
-    "return1y": 1.3565396498455202,
-    "returnYtd": 1.3880192026716762,
-    "return5y": 2.0641707103944618
+    "pe": 136.5564023338346,
+    "evEbitda": 80.62052412631579,
+    "evSales": 17.004143849028676,
+    "pfcf": 283.7812736,
+    "fcfYield": 0.0035238406936235556,
+    "return1y": 1.285111739291553,
+    "returnYtd": 1.4648298893759133,
+    "return5y": 2.157157911535651
   },
   "factorChips": [
     {
@@ -927,7 +927,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "52nd percentile profitability metrics in the covered universe."
+      "detail": "51st percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -950,7 +950,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1381,13 +1381,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=MTARTECH",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://mtar.in",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:32.555Z"
+  "updatedAt": "2026-11-18T09:08:47.608Z"
 }

@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 522.2999877929688,
-    "prevClose": 514.9500122070312,
-    "changePct": 0.014273182661820094,
-    "asOf": "2026-11-08",
+    "close": 530.5,
+    "prevClose": 542.5,
+    "changePct": -0.022119815668202758,
+    "asOf": "2026-11-18",
     "high52": 1172.4,
     "low52": 478,
-    "marketCap": 73454108672,
+    "marketCap": 74607321088,
     "sharesOutstanding": null,
-    "dividendYield": 0.0078
+    "dividendYield": 0.0074
   },
   "ttm": {
     "period": "TTM",
@@ -1102,7 +1102,7 @@
     "epsTtm": 25.34,
     "epsGrowthTtm": -0.125,
     "grossMargin": 0.39494,
-    "operatingMargin": 0.12759,
+    "operatingMargin": 0.11906999,
     "netMargin": 0.108509995,
     "fcfMargin": 0.09578670177748519,
     "roic": 0.16,
@@ -1112,27 +1112,27 @@
     "interestCover": 123,
     "freeCashFlowTtm": 2910000000,
     "ebitdaTtm": 6150000000,
-    "pe": 20.808529368838528,
-    "evEbitda": 10.86497213398374,
-    "evSales": 2.0434121903363915,
-    "pfcf": 25.241961742955326,
-    "fcfYield": 0.039616572205569,
-    "return1y": -0.5202155232540668,
-    "returnYtd": -0.4435968529867347,
-    "return5y": -0.23260099473362605
+    "pe": 21.135218438526913,
+    "evEbitda": 11.052486347967479,
+    "evSales": 2.0786786250764524,
+    "pfcf": 25.638254669415808,
+    "fcfYield": 0.03900421510333589,
+    "return1y": -0.5078470198334257,
+    "returnYtd": -0.4348614275527447,
+    "return5y": -0.15033523377015157
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "27th percentile revenue/EPS growth in the covered universe."
+      "detail": "28th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "40th percentile profitability metrics in the covered universe."
+      "detail": "39th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1155,7 +1155,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=INTELLECT",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.intellectdesign.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:30.030Z"
+  "updatedAt": "2026-11-18T09:13:20.423Z"
 }

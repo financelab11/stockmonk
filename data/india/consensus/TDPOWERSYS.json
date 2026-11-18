@@ -1,23 +1,23 @@
 {
   "ticker": "TDPOWERSYS",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=TDPOWERSYS",
-  "targetMean": 887.75,
-  "targetHigh": 900,
-  "targetLow": 875.5,
-  "recommendationKey": "none",
+  "targetMean": 859.5,
+  "targetHigh": 940,
+  "targetLow": 779,
+  "recommendationKey": "strong_buy",
   "analystCount": 2,
   "distribution": null,
   "estimates": [
     {
       "period": "Next quarter",
-      "endDate": "2026-09-30",
-      "revenueAvg": 6499000000,
+      "endDate": null,
+      "revenueAvg": 0,
       "revenueGrowth": null,
-      "epsAvg": 6,
+      "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 2
+      "analystCount": 0
     },
     {
       "period": "Following quarter",
@@ -31,19 +31,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 26572000000,
-      "revenueGrowth": 0.43150002,
-      "epsAvg": 11.825,
-      "epsGrowth": 0.5478,
+      "revenueAvg": 29524500000,
+      "revenueGrowth": 0.5906,
+      "epsAvg": 13.4,
+      "epsGrowth": 0.7539,
       "analystCount": 2
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 32057500000,
-      "revenueGrowth": 0.20639999,
-      "epsAvg": 14.875,
-      "epsGrowth": 0.2579,
+      "revenueAvg": 35291500000,
+      "revenueGrowth": 0.19530001,
+      "epsAvg": 15.75,
+      "epsGrowth": 0.1754,
       "analystCount": 2
     }
   ],
@@ -63,14 +63,22 @@
       "epsEstimate": 3,
       "revenueActual": null,
       "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 3.96,
+      "epsEstimate": 6,
+      "revenueActual": null,
+      "revenueEstimate": null
     }
   ],
   "currentQuarter": {
-    "endDate": "2026-09-30",
-    "revenueAvg": 6499000000,
+    "endDate": null,
+    "revenueAvg": 0,
     "revenueGrowth": null,
-    "epsAvg": 6,
+    "epsAvg": null,
     "epsGrowth": null,
-    "analystCount": 2
+    "analystCount": 0
   }
 }

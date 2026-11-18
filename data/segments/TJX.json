@@ -1,0 +1,34 @@
+{
+  "ticker": "TJX",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "The TJX Companies, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/109198/000010919826000008/tjx-20260131.htm",
+    "date": "2026-03-31"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Marmaxx",
+      "revenue": 36585000000,
+      "share": 0.6059928443649374
+    },
+    {
+      "name": "Home Goods",
+      "revenue": 10172000000,
+      "share": 0.1684887033724243
+    },
+    {
+      "name": "TJX International",
+      "revenue": 7986000000,
+      "share": 0.13227986483800439
+    },
+    {
+      "name": "Tjx Canada",
+      "revenue": 5629000000,
+      "share": 0.09323858742463394
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

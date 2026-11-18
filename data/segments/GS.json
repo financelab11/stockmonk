@@ -1,0 +1,45 @@
+{
+  "ticker": "GS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "The Goldman Sachs Group, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm",
+    "date": "2026-02-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Global Banking & Markets",
+      "revenue": 41453000000,
+      "share": 0.7112365526826004
+    },
+    {
+      "name": "Asset & Wealth Management",
+      "revenue": 16679000000,
+      "share": 0.2861726403925673
+    },
+    {
+      "name": "Platform Solutions",
+      "revenue": 151000000,
+      "share": 0.002590806924832284
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 36548000000,
+      "share": 0.6270782217799359
+    },
+    {
+      "name": "EMEA",
+      "revenue": 14155000000,
+      "share": 0.2428667021258343
+    },
+    {
+      "name": "Asia",
+      "revenue": 7580000000,
+      "share": 0.13005507609422987
+    }
+  ]
+}

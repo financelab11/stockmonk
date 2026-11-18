@@ -1,0 +1,40 @@
+{
+  "ticker": "PFE",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "PFIZER INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Biopharma",
+      "revenue": 61199000000,
+      "share": 0.9779478738874063
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 1380000000,
+      "share": 0.022052126112593683
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 37078000000,
+      "share": 0.5924990811614119
+    },
+    {
+      "name": "International Developed Markets",
+      "revenue": 16188000000,
+      "share": 0.25868102718164243
+    },
+    {
+      "name": "International Emerging Markets",
+      "revenue": 9313000000,
+      "share": 0.14881989165694562
+    }
+  ]
+}

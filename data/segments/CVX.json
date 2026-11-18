@@ -1,0 +1,35 @@
+{
+  "ticker": "CVX",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Chevron Corp Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000078/cvx-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable Segment Aggregation Before Other Operating",
+      "revenue": 230789000000,
+      "share": 1.2513500910904831
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 581000000,
+      "share": 0.003150212544460831
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 72485000000,
+      "share": 0.3930174806974928
+    },
+    {
+      "name": "Non-US",
+      "revenue": 69925000000,
+      "share": 0.3791370261126052
+    }
+  ]
+}

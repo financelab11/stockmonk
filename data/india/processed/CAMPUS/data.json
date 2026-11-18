@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 200.55999755859375,
-    "prevClose": 197.99000549316406,
-    "changePct": 0.012980413122511969,
-    "asOf": "2026-11-08",
-    "high52": 286.55,
+    "close": 194.8699951171875,
+    "prevClose": 195.57000732421875,
+    "changePct": -0.0035793433594895063,
+    "asOf": "2026-11-18",
+    "high52": 284.75,
     "low52": 182.15,
-    "marketCap": 61307121664,
+    "marketCap": 59567804416,
     "sharesOutstanding": null,
-    "dividendYield": 0.0076
+    "dividendYield": 0.0077
   },
   "ttm": {
     "period": "TTM",
@@ -43,7 +43,7 @@
     "incomeTax": 498500000,
     "rnd": null,
     "sga": null,
-    "cashAndInvestments": 29400000,
+    "cashAndInvestments": 39300000,
     "totalDebt": 2731500032,
     "totalEquity": null,
     "totalAssets": null,
@@ -62,8 +62,8 @@
     "netMargin": 0.10007942811755362,
     "fcfMargin": null,
     "roic": null,
-    "netDebt": 2702100032,
-    "netDebtToEbitda": 1.089556464516129,
+    "netDebt": 2692200032,
+    "netDebtToEbitda": 1.085564529032258,
     "roe": null
   },
   "quarterly": [
@@ -249,7 +249,7 @@
       "incomeTax": 134400000,
       "rnd": null,
       "sga": null,
-      "cashAndInvestments": 29400000,
+      "cashAndInvestments": 39300000,
       "totalDebt": 2731500032,
       "totalEquity": null,
       "totalAssets": null,
@@ -285,8 +285,8 @@
       "grossProfit": null,
       "operatingIncome": -10000000,
       "netIncome": -10000000,
-      "epsDiluted": -0.05,
-      "epsBasic": -0.05,
+      "epsDiluted": -0.04,
+      "epsBasic": -0.04,
       "interestExpense": 0,
       "pretaxIncome": -10000000,
       "incomeTax": -300000,
@@ -367,8 +367,8 @@
       "grossProfit": null,
       "operatingIncome": 1000000000,
       "netIncome": 390000000,
-      "epsDiluted": 1.28,
-      "epsBasic": 1.28,
+      "epsDiluted": 1.26,
+      "epsBasic": 1.26,
       "interestExpense": 210000000,
       "pretaxIncome": 660000000,
       "incomeTax": 277200000,
@@ -408,8 +408,8 @@
       "grossProfit": null,
       "operatingIncome": 1360000000,
       "netIncome": 620000000,
-      "epsDiluted": 2.03,
-      "epsBasic": 2.03,
+      "epsDiluted": 2.02,
+      "epsBasic": 2.02,
       "interestExpense": 170000000,
       "pretaxIncome": 990000000,
       "incomeTax": 366300000,
@@ -497,7 +497,7 @@
       "incomeTax": 632700000,
       "rnd": null,
       "sga": null,
-      "cashAndInvestments": 29400000,
+      "cashAndInvestments": 39300000,
       "totalDebt": 2731500032,
       "totalEquity": 4270000000,
       "totalAssets": 9640000000,
@@ -516,7 +516,7 @@
       "netMargin": 0.09045226130653267,
       "fcfMargin": -0.01256281407035176,
       "roic": 0.32,
-      "netDebt": 2702100032,
+      "netDebt": 2692200032,
       "netDebtToEbitda": 1.1942148760330578,
       "roe": 0.2529274004683841
     }
@@ -527,38 +527,38 @@
     "revenueGrowthLatestQ": 0.229090909090909,
     "epsTtm": 4.109999999999999,
     "epsGrowthTtm": 3.0568181818181817,
-    "grossMargin": 0.51782,
-    "operatingMargin": 0.08329,
-    "netMargin": 0.08405,
+    "grossMargin": 0.51735,
+    "operatingMargin": 0.11256,
+    "netMargin": 0.084130004,
     "fcfMargin": -0.01256281407035176,
     "roic": 0.32,
     "roe": 0.18535,
-    "netDebt": 2702100032,
-    "netDebtToEbitda": 1.089556464516129,
+    "netDebt": 2692200032,
+    "netDebtToEbitda": 1.085564529032258,
     "interestCover": 11.80952380952381,
     "freeCashFlowTtm": -150000000,
     "ebitdaTtm": 2480000000,
-    "pe": 48.65644576507937,
-    "evEbitda": 25.81017003870968,
-    "evSales": 5.084131985385226,
+    "pe": 47.27603525079365,
+    "evEbitda": 25.104840503225805,
+    "evSales": 4.9451949521842735,
     "pfcf": null,
-    "fcfYield": -0.002446697804899249,
-    "return1y": -0.2795767667659175,
-    "returnYtd": -0.2291100669583762,
-    "return5y": -0.4650684256922134
+    "fcfYield": -0.0025181388078777296,
+    "return1y": -0.27679453319864755,
+    "returnYtd": -0.2509806575769309,
+    "return5y": -0.48024474201076217
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "97th percentile revenue/EPS growth in the covered universe."
+      "detail": "96th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "65th percentile profitability metrics in the covered universe."
+      "detail": "67th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -576,7 +576,7 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "48th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "52nd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -970,13 +970,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=CAMPUS",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.campusactivewear.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:01.892Z"
+  "updatedAt": "2026-11-18T09:11:26.463Z"
 }

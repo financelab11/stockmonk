@@ -1,7 +1,7 @@
 {
   "ticker": "CL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/CL/analysis",
   "targetMean": 101.7,
   "targetHigh": 112,
@@ -39,9 +39,9 @@
       "endDate": "2026-12-31",
       "revenueAvg": 21389364700,
       "revenueGrowth": 0.0494,
-      "epsAvg": 3.92506,
-      "epsGrowth": 0.0637,
-      "analystCount": 19
+      "epsAvg": 3.92131,
+      "epsGrowth": 0.0627,
+      "analystCount": 20
     },
     {
       "period": "Next fiscal year",
@@ -49,7 +49,7 @@
       "revenueAvg": 21887941950,
       "revenueGrowth": 0.0233,
       "epsAvg": 4.10019,
-      "epsGrowth": 0.0446,
+      "epsGrowth": 0.0456,
       "analystCount": 20
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 17
   },
   "revisions": {
-    "eps7d": 0.014835767178256853,
-    "eps30d": 0.013876332226050891,
-    "eps60d": 0.012500644895011126,
-    "eps90d": 0.01291348173686857,
+    "eps7d": -0.0008993997207529247,
+    "eps30d": 0.012907675378551087,
+    "eps60d": 0.0115333023783728,
+    "eps90d": 0.011945744796155955,
     "revenue30d": null
   }
 }

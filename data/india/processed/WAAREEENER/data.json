@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 2439,
-    "prevClose": 2438,
-    "changePct": 0.00041017227235440323,
-    "asOf": "2026-11-08",
+    "close": 2405.10009765625,
+    "prevClose": 2441.5,
+    "changePct": -0.014908827501023958,
+    "asOf": "2026-11-18",
     "high52": 3557,
     "low52": 2161.5,
-    "marketCap": 701581557760,
+    "marketCap": 691830259712,
     "sharesOutstanding": null,
     "dividendYield": 0.0016
   },
@@ -78,8 +78,8 @@
       "grossProfit": null,
       "operatingIncome": 5170000000,
       "netIncome": 3200000000,
-      "epsDiluted": 15.98,
-      "epsBasic": 15.98,
+      "epsDiluted": 11.97,
+      "epsBasic": 11.97,
       "interestExpense": 330000000,
       "pretaxIncome": 4350000000,
       "incomeTax": 1131000000,
@@ -119,8 +119,8 @@
       "grossProfit": null,
       "operatingIncome": 1710000000,
       "netIncome": 1410000000,
-      "epsDiluted": 6.32,
-      "epsBasic": 6.32,
+      "epsDiluted": 4.73,
+      "epsBasic": 4.73,
       "interestExpense": 180000000,
       "pretaxIncome": 1840000000,
       "incomeTax": 423200000,
@@ -160,8 +160,8 @@
       "grossProfit": null,
       "operatingIncome": 4180000000,
       "netIncome": 4750000000,
-      "epsDiluted": 23.41,
-      "epsBasic": 23.41,
+      "epsDiluted": 17.53,
+      "epsBasic": 17.53,
       "interestExpense": 480000000,
       "pretaxIncome": 6590000000,
       "incomeTax": 1845200000.0000002,
@@ -201,8 +201,8 @@
       "grossProfit": null,
       "operatingIncome": 5520000000,
       "netIncome": 4010000000,
-      "epsDiluted": 19.99,
-      "epsBasic": 19.99,
+      "epsDiluted": 14.97,
+      "epsBasic": 14.97,
       "interestExpense": 340000000,
       "pretaxIncome": 5310000000,
       "incomeTax": 1274400000,
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 930000000,
       "netIncome": 390000000,
-      "epsDiluted": 2.12,
-      "epsBasic": 2.12,
+      "epsDiluted": 1.58,
+      "epsBasic": 1.58,
       "interestExpense": 340000000,
       "pretaxIncome": 570000000,
       "incomeTax": 176700000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 850000000,
       "netIncome": 480000000,
-      "epsDiluted": 2.5,
-      "epsBasic": 2.5,
+      "epsDiluted": 1.87,
+      "epsBasic": 1.87,
       "interestExpense": 310000000,
       "pretaxIncome": 700000000,
       "incomeTax": 217000000,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 1060000000,
       "netIncome": 800000000,
-      "epsDiluted": 3.84,
-      "epsBasic": 3.84,
+      "epsDiluted": 2.87,
+      "epsBasic": 2.87,
       "interestExpense": 410000000,
       "pretaxIncome": 1180000000,
       "incomeTax": 389400000,
@@ -736,8 +736,8 @@
       "grossProfit": null,
       "operatingIncome": 8360000000,
       "netIncome": 5000000000,
-      "epsDiluted": 24.49,
-      "epsBasic": 24.49,
+      "epsDiluted": 18.33,
+      "epsBasic": 18.33,
       "interestExpense": 820000000,
       "pretaxIncome": 6770000000,
       "incomeTax": 1760200000,
@@ -777,8 +777,8 @@
       "grossProfit": null,
       "operatingIncome": 15740000000,
       "netIncome": 12740000000,
-      "epsDiluted": 62.76,
-      "epsBasic": 62.76,
+      "epsDiluted": 46.98,
+      "epsBasic": 46.98,
       "interestExpense": 1400000000,
       "pretaxIncome": 17340000000,
       "incomeTax": 4681800000,
@@ -897,7 +897,7 @@
     "epsTtm": 128.37,
     "epsGrowthTtm": 0.36680153321976183,
     "grossMargin": 0.28308,
-    "operatingMargin": 0.13141,
+    "operatingMargin": 0.16087,
     "netMargin": 0.11724,
     "fcfMargin": -0.12092550024494103,
     "roic": 0.38,
@@ -907,14 +907,14 @@
     "interestCover": 19.873417721518987,
     "freeCashFlowTtm": -32090000000,
     "ebitdaTtm": 62800000000,
-    "pe": 18.086660421758186,
-    "evEbitda": 10.783854487643312,
-    "evSales": 2.150265317745674,
+    "pe": 17.835273516679557,
+    "evEbitda": 10.628579041019108,
+    "evSales": 2.1193039014954755,
     "pfcf": null,
-    "fcfYield": -0.04573951473647128,
-    "return1y": -0.2636976790670278,
-    "returnYtd": -0.17405474656619657,
-    "return5y": 0.044202579906215345
+    "fcfYield": -0.04638420992651963,
+    "return1y": -0.26658656011602044,
+    "returnYtd": -0.1855346413725475,
+    "return5y": 0.029689104922241416
   },
   "factorChips": [
     {
@@ -927,7 +927,7 @@
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "80th percentile profitability metrics in the covered universe."
+      "detail": "84th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -945,7 +945,7 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "89th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "88th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1136,13 +1136,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=WAAREEENER",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://waaree.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:37.667Z"
+  "updatedAt": "2026-11-18T09:09:04.516Z"
 }

@@ -1,0 +1,35 @@
+{
+  "ticker": "TENB",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "TENABLE HOLDINGS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028026000005/tenb-20251231.htm",
+    "date": "2026-02-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 999405000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 610996000,
+      "share": 0.6113597590566388
+    },
+    {
+      "name": "EMEA",
+      "revenue": 273114000,
+      "share": 0.27327659957674816
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 115295000,
+      "share": 0.11536364136661313
+    }
+  ]
+}

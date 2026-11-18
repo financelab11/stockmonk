@@ -13,10 +13,10 @@
   "quoteCurrency": "KWD",
   "isResearch": true,
   "latestPrice": {
-    "close": 1642,
-    "prevClose": 1640,
-    "changePct": 0.0012195121951219523,
-    "asOf": "2026-11-09",
+    "close": 1711,
+    "prevClose": 1729,
+    "changePct": -0.010410641989589409,
+    "asOf": "2026-11-18",
     "high52": 2156,
     "low52": 1370,
     "marketCap": 822910000,
@@ -1115,22 +1115,22 @@
     "evSales": 1.1972667341547123,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.16878299329433588,
-    "returnYtd": 0.13329192642871512,
-    "return5y": 1.470111974620286
+    "return1y": 0.22137470565779238,
+    "returnYtd": 0.18091503417754673,
+    "return5y": 1.5623511930877543
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "26th percentile revenue/EPS growth in the covered universe."
+      "detail": "27th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "51st percentile profitability metrics in the covered universe."
+      "detail": "52nd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/kwse/OOREDOO/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/OOREDOO.KW",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:09.135Z"
+  "updatedAt": "2026-11-18T09:30:02.319Z"
 }

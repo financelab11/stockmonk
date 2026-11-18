@@ -1,11 +1,11 @@
 {
   "ticker": "HGINFRA",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=HGINFRA",
-  "targetMean": 755.2,
+  "targetMean": 695.1,
   "targetHigh": 1300,
-  "targetLow": 535,
+  "targetLow": 449,
   "recommendationKey": "buy",
   "analystCount": 10,
   "distribution": null,
@@ -13,37 +13,37 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 0,
-      "revenueGrowth": null,
+      "revenueAvg": 17397000000,
+      "revenueGrowth": 0.2,
       "epsAvg": 3.8,
       "epsGrowth": -0.7443,
-      "analystCount": 0
+      "analystCount": 1
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 0,
-      "revenueGrowth": null,
+      "revenueAvg": 22537000000,
+      "revenueGrowth": 0.6646,
       "epsAvg": 7.3,
       "epsGrowth": 0.1725,
-      "analystCount": 0
+      "analystCount": 1
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 54435285710,
-      "revenueGrowth": -0.0394,
-      "epsAvg": 39.5,
-      "epsGrowth": -0.2333,
-      "analystCount": 7
+      "revenueAvg": 54685875000,
+      "revenueGrowth": -0.035,
+      "epsAvg": 43.1,
+      "epsGrowth": -0.1634,
+      "analystCount": 8
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 62028555560,
-      "revenueGrowth": 0.13949999,
-      "epsAvg": 56.54444,
-      "epsGrowth": 0.43150002,
+      "revenueAvg": 61119555560,
+      "revenueGrowth": 0.1176,
+      "epsAvg": 53.7,
+      "epsGrowth": 0.2459,
       "analystCount": 9
     }
   ],
@@ -83,10 +83,10 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 0,
-    "revenueGrowth": null,
+    "revenueAvg": 17397000000,
+    "revenueGrowth": 0.2,
     "epsAvg": 3.8,
     "epsGrowth": -0.7443,
-    "analystCount": 0
+    "analystCount": 1
   }
 }

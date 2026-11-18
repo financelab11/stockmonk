@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 1803.5,
-    "prevClose": 1785.5,
-    "changePct": 0.010081209745169462,
-    "asOf": "2026-11-08",
+    "close": 1744.800048828125,
+    "prevClose": 1748,
+    "changePct": -0.001830635681850712,
+    "asOf": "2026-11-18",
     "high52": 2125,
     "low52": 1042.9,
-    "marketCap": 1014953607168,
+    "marketCap": 981919072256,
     "sharesOutstanding": null,
     "dividendYield": 0.00059999997
   },
@@ -1102,7 +1102,7 @@
     "epsTtm": 93.72999999999999,
     "epsGrowthTtm": 1.7470691676436103,
     "grossMargin": 0.54948,
-    "operatingMargin": 0.27811,
+    "operatingMargin": 0.33666,
     "netMargin": 0.21931,
     "fcfMargin": -0.41138315900192834,
     "roic": 0.27,
@@ -1112,27 +1112,27 @@
     "interestCover": 10.396248534583822,
     "freeCashFlowTtm": -70400000000,
     "ebitdaTtm": 88680000000,
-    "pe": 18.757228001626316,
-    "evEbitda": 13.81180086675688,
-    "evSales": 5.124599392761809,
+    "pe": 18.14672098052116,
+    "evEbitda": 13.43928694127199,
+    "evSales": 4.9863853644282665,
     "pfcf": null,
-    "fcfYield": -0.06936277629125866,
-    "return1y": 0.36751888657466236,
-    "returnYtd": 0.3343520970094229,
-    "return5y": 2.2102036271113152
+    "fcfYield": -0.07169633627571065,
+    "return1y": 0.3971213248399974,
+    "returnYtd": 0.2909218763603836,
+    "return5y": 2.10571789758394
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "95th percentile revenue/EPS growth in the covered universe."
+      "detail": "94th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "86th percentile profitability metrics in the covered universe."
+      "detail": "87th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1150,7 +1150,7 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "78th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "77th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1446,13 +1446,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=LLOYDSME",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://lloyds.in",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:47.726Z"
+  "updatedAt": "2026-11-18T09:13:51.546Z"
 }

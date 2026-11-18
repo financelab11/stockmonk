@@ -1,7 +1,7 @@
 {
   "ticker": "4015",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/4015/forecast/",
   "targetMean": 152.16,
   "targetHigh": 160.73,

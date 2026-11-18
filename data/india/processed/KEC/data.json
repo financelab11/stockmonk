@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 337,
-    "prevClose": 333.3500061035156,
-    "changePct": 0.010949434017262227,
-    "asOf": "2026-11-08",
-    "high52": 803.4,
+    "close": 315.20001220703125,
+    "prevClose": 322.1499938964844,
+    "changePct": -0.021573744594532984,
+    "asOf": "2026-11-18",
+    "high52": 800,
     "low52": 299,
-    "marketCap": 89709395968,
+    "marketCap": 83906240512,
     "sharesOutstanding": null,
-    "dividendYield": 0.0165
+    "dividendYield": 0.0171
   },
   "ttm": {
     "period": "TTM",
@@ -1102,7 +1102,7 @@
     "epsTtm": 15.880000000000003,
     "epsGrowthTtm": -0.38137904168289816,
     "grossMargin": 0.23561001,
-    "operatingMargin": 0.039920002,
+    "operatingMargin": 0.052449998,
     "netMargin": 0.01847,
     "fcfMargin": -0.029396749766017187,
     "roic": 0.17,
@@ -1112,14 +1112,14 @@
     "interestCover": 2.0689655172413794,
     "freeCashFlowTtm": -6910000000,
     "ebitdaTtm": 14400000000,
-    "pe": 21.20789502789598,
-    "evEbitda": 10.321499662222223,
-    "evSales": 0.6495197095485732,
+    "pe": 19.835990664775412,
+    "evEbitda": 9.918502755555556,
+    "evSales": 0.6241595930603505,
     "pfcf": null,
-    "fcfYield": -0.07702649121018325,
-    "return1y": -0.5279677868873481,
-    "returnYtd": -0.5382293739016927,
-    "return5y": -0.2511059815608817
+    "fcfYield": -0.08235382681710968,
+    "return1y": -0.5920796466642944,
+    "returnYtd": -0.5681005727506382,
+    "return5y": -0.3127085718635749
   },
   "factorChips": [
     {
@@ -1132,7 +1132,7 @@
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "19th percentile profitability metrics in the covered universe."
+      "detail": "20th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1155,7 +1155,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=KEC",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.kecrpg.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:34.527Z"
+  "updatedAt": "2026-11-18T09:08:53.662Z"
 }

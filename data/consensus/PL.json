@@ -1,12 +1,12 @@
 {
   "ticker": "PL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/PL/analysis",
   "targetMean": 30.27273,
   "targetHigh": 50,
   "targetLow": 17,
-  "recommendationKey": "buy",
+  "recommendationKey": "none",
   "analystCount": 11,
   "distribution": {
     "strongBuy": 1,

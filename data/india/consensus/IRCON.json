@@ -1,38 +1,38 @@
 {
   "ticker": "IRCON",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=IRCON",
   "targetMean": 136,
   "targetHigh": 136,
   "targetLow": 136,
-  "recommendationKey": "none",
+  "recommendationKey": "hold",
   "analystCount": 1,
   "distribution": null,
   "estimates": [
     {
       "period": "Next quarter",
-      "endDate": "2026-12-31",
-      "revenueAvg": 20243000000,
-      "revenueGrowth": 0.03,
+      "endDate": null,
+      "revenueAvg": 0,
+      "revenueGrowth": null,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 1
+      "analystCount": 0
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 30368000000,
-      "revenueGrowth": 0.012999999,
+      "revenueAvg": 0,
+      "revenueGrowth": null,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 1
+      "analystCount": 0
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 87444000000,
-      "revenueGrowth": 0.0313,
+      "revenueAvg": 89942000000,
+      "revenueGrowth": 0.0608,
       "epsAvg": 7,
       "epsGrowth": 0.0638,
       "analystCount": 1
@@ -41,9 +41,9 @@
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
       "revenueAvg": 100326000000,
-      "revenueGrowth": 0.14729999,
-      "epsAvg": 7.7,
-      "epsGrowth": 0.1,
+      "revenueGrowth": 0.1155,
+      "epsAvg": 7.3,
+      "epsGrowth": 0.0429,
       "analystCount": 1
     }
   ],
@@ -66,11 +66,11 @@
     }
   ],
   "currentQuarter": {
-    "endDate": "2026-12-31",
-    "revenueAvg": 20243000000,
-    "revenueGrowth": 0.03,
+    "endDate": null,
+    "revenueAvg": 0,
+    "revenueGrowth": null,
     "epsAvg": null,
     "epsGrowth": null,
-    "analystCount": 1
+    "analystCount": 0
   }
 }

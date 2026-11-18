@@ -14,15 +14,19 @@
   "currency": "USD",
   "isResearch": true,
   "latestPrice": {
-    "close": 67.87999725341797,
-    "prevClose": 69.4800033569336,
-    "changePct": -0.023028296289740458,
-    "asOf": "2026-11-06",
+    "close": 54.630001068115234,
+    "prevClose": 57.650001525878906,
+    "changePct": -0.05238508894762128,
+    "asOf": "2026-11-17",
     "high52": 140,
-    "low52": 49.9,
-    "marketCap": 17414823936,
+    "low52": 49.900001525878906,
+    "marketCap": 14015496192,
     "sharesOutstanding": null,
-    "dividendYield": 0
+    "dividendYield": 0,
+    "pe": null,
+    "evEbitda": null,
+    "evSales": null,
+    "pfcf": null
   },
   "ttm": {
     "period": "TTM",
@@ -634,25 +638,25 @@
     "revenueGrowthLatestQ": 6.267830843677677,
     "epsTtm": 2.32,
     "epsGrowthTtm": -1.6121372031662267,
-    "grossMargin": 0.26576,
-    "operatingMargin": 0.24088,
-    "netMargin": 0.15275,
+    "grossMargin": null,
+    "operatingMargin": 1.0738317669202366,
+    "netMargin": 1.449702010917393,
     "fcfMargin": 2.319670411234329,
     "roic": null,
-    "roe": 0.13442001,
+    "roe": null,
     "netDebt": null,
     "netDebtToEbitda": null,
     "interestCover": null,
     "freeCashFlowTtm": 740687000,
     "ebitdaTtm": null,
-    "pe": null,
+    "pe": 30.277589526895657,
     "evEbitda": null,
-    "evSales": null,
-    "pfcf": null,
-    "fcfYield": null,
-    "return1y": -0.32126791517358455,
-    "returnYtd": -0.1867737359445294,
-    "return5y": -0.18442875747207177
+    "evSales": 43.89348242287203,
+    "pfcf": 18.92229267153332,
+    "fcfYield": 0.05284771868603423,
+    "return1y": -0.28672145606189736,
+    "returnYtd": -0.3455133548678406,
+    "return5y": -0.34362610999985976
   },
   "factorChips": [
     {
@@ -663,9 +667,9 @@
     },
     {
       "key": "profitability",
-      "label": "Profitability: Average",
-      "tone": "neutral",
-      "detail": "61st percentile profitability metrics in the covered universe."
+      "label": "Profitability: Low",
+      "tone": "caution",
+      "detail": "32nd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -821,10 +825,10 @@
       "date": "2025-12-31"
     },
     {
-      "name": "Yahoo Finance market data",
+      "name": "Market price history",
       "url": "https://finance.yahoo.com/quote/CRCL",
-      "date": "2026-11-06"
+      "date": "2026-11-17"
     }
   ],
-  "updatedAt": "2026-11-08T09:10:56.244Z"
+  "updatedAt": "2026-11-18T09:07:00.524Z"
 }

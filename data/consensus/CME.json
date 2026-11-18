@@ -1,7 +1,7 @@
 {
   "ticker": "CME",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/CME/analysis",
   "targetMean": 317.0625,
   "targetHigh": 367,
@@ -39,17 +39,17 @@
       "endDate": "2026-12-31",
       "revenueAvg": 7087723100,
       "revenueGrowth": 0.087,
-      "epsAvg": 12.39967,
-      "epsGrowth": 0.1071,
-      "analystCount": 16
+      "epsAvg": 12.39616,
+      "epsGrowth": 0.106800005,
+      "analystCount": 17
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 7468631930,
       "revenueGrowth": 0.0537,
-      "epsAvg": 13.23324,
-      "epsGrowth": 0.0672,
+      "epsAvg": 13.245,
+      "epsGrowth": 0.0685,
       "analystCount": 17
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 14
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": 0.01216920980948677,
-    "eps60d": 0.011923055893098944,
-    "eps90d": 0.010950351233066202,
+    "eps7d": -0.00028307204949806763,
+    "eps30d": 0.008204774515098379,
+    "eps60d": 0.011881041025712191,
+    "eps90d": 0.010513410161577363,
     "revenue30d": null
   }
 }

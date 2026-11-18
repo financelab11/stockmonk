@@ -13,13 +13,13 @@
   "quoteCurrency": "QAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 4,
-    "prevClose": 3.9700000286102295,
-    "changePct": 0.007556667801907446,
-    "asOf": "2026-11-09",
+    "close": 3.941999912261963,
+    "prevClose": 3.941999912261963,
+    "changePct": 0,
+    "asOf": "2026-11-18",
     "high52": 4.46999979019165,
     "low52": 2.8991661071777344,
-    "marketCap": 17970000000,
+    "marketCap": 17620000000,
     "sharesOutstanding": 4490000000,
     "dividendYield": null
   },
@@ -1110,33 +1110,33 @@
     "interestCover": 4.463235838578305,
     "freeCashFlowTtm": -865000000,
     "ebitdaTtm": 1417460000,
-    "pe": 17.88,
-    "evEbitda": 15.91,
-    "evSales": 3.9963593264672226,
+    "pe": 17.53,
+    "evEbitda": 15.81,
+    "evSales": 3.939141736145169,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.20120122872203638,
-    "returnYtd": 0.18782477229521644,
-    "return5y": 2.9461897837173843
+    "return1y": 0.22232559033550858,
+    "returnYtd": 0.17060128704258237,
+    "return5y": 3.0026479440063216
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "62nd percentile revenue/EPS growth in the covered universe."
+      "detail": "61st percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "44th percentile profitability metrics in the covered universe."
+      "detail": "45th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: Low",
       "tone": "caution",
-      "detail": "26th percentile free-cash-flow margin."
+      "detail": "24th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "22nd percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "26th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/qse/IGRD/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/IGRD.QA",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:52.911Z"
+  "updatedAt": "2026-11-18T09:29:27.691Z"
 }

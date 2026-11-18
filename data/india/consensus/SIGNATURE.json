@@ -1,20 +1,20 @@
 {
   "ticker": "SIGNATURE",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=SIGNATURE",
-  "targetMean": 1087,
+  "targetMean": 1006,
   "targetHigh": 1246,
-  "targetLow": 940,
-  "recommendationKey": "none",
+  "targetLow": 900,
+  "recommendationKey": "strong_buy",
   "analystCount": 5,
   "distribution": null,
   "estimates": [
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 11326000000,
-      "revenueGrowth": 2.9819,
+      "revenueAvg": 10524000000,
+      "revenueGrowth": 2.6999,
       "epsAvg": null,
       "epsGrowth": null,
       "analystCount": 1
@@ -22,8 +22,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 14062000000,
-      "revenueGrowth": 0.27,
+      "revenueAvg": 15977000000,
+      "revenueGrowth": 0.4429,
       "epsAvg": null,
       "epsGrowth": null,
       "analystCount": 1
@@ -31,20 +31,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 41180440990,
-      "revenueGrowth": 0.5864,
-      "epsAvg": 31.78,
-      "epsGrowth": 5.8853,
+      "revenueAvg": 40637059170,
+      "revenueGrowth": 0.5655,
+      "epsAvg": 34.3518,
+      "epsGrowth": 6.4425,
       "analystCount": 5
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 53212137780,
-      "revenueGrowth": 0.2922,
-      "epsAvg": 55.16,
-      "epsGrowth": 0.7357,
-      "analystCount": 5
+      "revenueAvg": 48064535860,
+      "revenueGrowth": 0.18280001,
+      "epsAvg": 36.74958,
+      "epsGrowth": 0.0698,
+      "analystCount": 4
     }
   ],
   "history": [
@@ -83,8 +83,8 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 11326000000,
-    "revenueGrowth": 2.9819,
+    "revenueAvg": 10524000000,
+    "revenueGrowth": 2.6999,
     "epsAvg": null,
     "epsGrowth": null,
     "analystCount": 1

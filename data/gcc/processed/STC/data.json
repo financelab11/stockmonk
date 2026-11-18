@@ -13,10 +13,10 @@
   "quoteCurrency": "KWD",
   "isResearch": true,
   "latestPrice": {
-    "close": 587,
-    "prevClose": 584,
-    "changePct": 0.005136986301369939,
-    "asOf": "2026-11-09",
+    "close": 569,
+    "prevClose": 570,
+    "changePct": -0.0017543859649122862,
+    "asOf": "2026-11-18",
     "high52": 769,
     "low52": 555,
     "marketCap": 586220000,
@@ -1115,28 +1115,28 @@
     "evSales": 1.6693019049563873,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.05924085708844218,
-    "returnYtd": -0.15045773695499587,
-    "return5y": 0.3670607904735954
+    "return1y": -0.08072268983466713,
+    "returnYtd": -0.17650843667358207,
+    "return5y": 0.3235998125307651
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "35th percentile revenue/EPS growth in the covered universe."
+      "detail": "36th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "48th percentile profitability metrics in the covered universe."
+      "detail": "49th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: Average",
       "tone": "neutral",
-      "detail": "59th percentile free-cash-flow margin."
+      "detail": "60th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "85th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "86th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/kwse/STC/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/STC.KW",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:10.149Z"
+  "updatedAt": "2026-11-18T09:30:04.659Z"
 }

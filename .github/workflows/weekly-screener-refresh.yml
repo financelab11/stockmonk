@@ -47,6 +47,11 @@ jobs:
           pnpm ingest:gcc
           pnpm build:gcc
 
+      - name: Refresh forward-growth dataset
+        run: |
+          pnpm refresh:ranker
+          pnpm build:growth-ranker
+
       - name: Sync Supabase
         run: |
           if [ -n "$SUPABASE_SERVICE_ROLE_KEY" ]; then

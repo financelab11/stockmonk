@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 7.25,
-    "prevClose": 7.02,
-    "changePct": 0.03276353276353272,
-    "asOf": "2026-11-09",
+    "close": 7.09,
+    "prevClose": 7.1,
+    "changePct": -0.0014084507042253502,
+    "asOf": "2026-11-17",
     "high52": 8.02,
     "low52": 6.74,
-    "marketCap": 72410000000,
+    "marketCap": 70810000000,
     "sharesOutstanding": 9990000000,
-    "dividendYield": 0.0276
+    "dividendYield": 0.0282
   },
   "ttm": {
     "period": "TTM",
@@ -1069,21 +1069,21 @@
     "interestCover": 5.957075467814834,
     "freeCashFlowTtm": 6648020000,
     "ebitdaTtm": 17433000000,
-    "pe": 7.08,
-    "evEbitda": 6.57,
-    "evSales": 1.0540777550423852,
+    "pe": 6.92,
+    "evEbitda": 6.48,
+    "evSales": 1.034590275747832,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.03462050599201061,
-    "returnYtd": -0.03462050599201061,
-    "return5y": -0.03462050599201061
+    "return1y": -0.04576043068640645,
+    "returnYtd": -0.04576043068640645,
+    "return5y": -0.04576043068640645
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "86th percentile revenue/EPS growth in the covered universe."
+      "detail": "85th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1095,7 +1095,7 @@
       "key": "cash",
       "label": "Cash generation: Average",
       "tone": "neutral",
-      "detail": "55th percentile free-cash-flow margin."
+      "detail": "57th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1107,12 +1107,12 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "78th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "79th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2026-09-01",
+      "date": "2026-09-09",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1137,8 +1137,8 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/adx/ALPHADHABI/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-17"
     }
   ],
-  "updatedAt": "2026-11-09T20:16:46.894Z"
+  "updatedAt": "2026-11-18T09:27:00.790Z"
 }

@@ -14,15 +14,19 @@
   "currency": "USD",
   "isResearch": true,
   "latestPrice": {
-    "close": 95.1,
-    "prevClose": 93.81,
-    "changePct": 0.013751199232491018,
-    "asOf": "2026-11-06",
+    "close": 94.4800033569336,
+    "prevClose": 92.87000274658203,
+    "changePct": 0.01733606722016412,
+    "asOf": "2026-11-17",
     "high52": 263.5,
-    "low52": 89.28,
-    "marketCap": 16697493002,
+    "low52": 89.27999877929688,
+    "marketCap": 18243495936,
     "sharesOutstanding": null,
-    "dividendYield": null
+    "dividendYield": 0,
+    "pe": null,
+    "evEbitda": null,
+    "evSales": null,
+    "pfcf": null
   },
   "ttm": {
     "period": "TTM",
@@ -742,14 +746,14 @@
     "interestCover": null,
     "freeCashFlowTtm": 1198116000,
     "ebitdaTtm": 924921000,
-    "pe": 22.561344320240835,
-    "evEbitda": 16.166273662291157,
-    "evSales": 4.84075975822952,
-    "pfcf": 13.936457740318968,
-    "fcfYield": 0.07175424477533793,
-    "return1y": -0.48213896754519714,
-    "returnYtd": -0.6068460870643682,
-    "return5y": 0.8854084060269627
+    "pe": 24.65027494652699,
+    "evEbitda": 17.837770940437075,
+    "evSales": 5.341265745512937,
+    "pfcf": 15.226819386436706,
+    "fcfYield": 0.06567359700153469,
+    "return1y": -0.4962409926975041,
+    "returnYtd": -0.609409220739463,
+    "return5y": 0.8731166916984123
   },
   "factorChips": [
     {
@@ -1027,5 +1031,5 @@
       "url": "https://www.sec.gov/edgar/search/"
     }
   ],
-  "updatedAt": "2026-11-08T09:10:23.871Z"
+  "updatedAt": "2026-11-18T09:07:29.927Z"
 }

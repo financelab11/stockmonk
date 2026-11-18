@@ -1,12 +1,12 @@
 {
   "ticker": "TITAGARH",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=TITAGARH",
-  "targetMean": 1010.2222,
-  "targetHigh": 1087,
-  "targetLow": 966,
-  "recommendationKey": "none",
+  "targetMean": 995.44446,
+  "targetHigh": 1050,
+  "targetLow": 914,
+  "recommendationKey": "strong_buy",
   "analystCount": 9,
   "distribution": null,
   "estimates": [
@@ -31,20 +31,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 45859400000,
-      "revenueGrowth": 0.4395,
-      "epsAvg": 21.38,
-      "epsGrowth": 0.41529998,
-      "analystCount": 5
+      "revenueAvg": 43624250000,
+      "revenueGrowth": 0.3693,
+      "epsAvg": 20.45,
+      "epsGrowth": 0.35369998,
+      "analystCount": 6
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 65573700000,
-      "revenueGrowth": 0.42990002,
-      "epsAvg": 34,
-      "epsGrowth": 0.59029996,
-      "analystCount": 5
+      "revenueAvg": 64602033330,
+      "revenueGrowth": 0.4809,
+      "epsAvg": 33.475,
+      "epsGrowth": 0.6369,
+      "analystCount": 6
     }
   ],
   "history": [

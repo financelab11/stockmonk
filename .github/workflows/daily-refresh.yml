@@ -36,10 +36,18 @@ jobs:
         env:
           SIMFIN_API_KEY: ${{ secrets.SIMFIN_API_KEY }}
 
+      - name: Refresh US prices from Yahoo
+        run: pnpm refresh:prices
+
       - name: Refresh India coverage
         run: pnpm ingest:india
         env:
           SIMFIN_API_KEY: ${{ secrets.SIMFIN_API_KEY }}
+
+      - name: Refresh GCC coverage
+        run: pnpm ingest:gcc
+        env:
+          GCC_DELAY_MS: "750"
 
       - name: Refresh benchmark prices
         run: pnpm ingest:benchmark
@@ -48,7 +56,11 @@ jobs:
         run: |
           pnpm build:data
           pnpm build:india
+          pnpm build:gcc
           pnpm build:screener
+
+      - name: Check freshness
+        run: pnpm audit:freshness
 
       - name: Sync Supabase
         run: |

@@ -13,10 +13,10 @@
   "quoteCurrency": "KWD",
   "isResearch": true,
   "latestPrice": {
-    "close": 659,
-    "prevClose": 657,
-    "changePct": 0.003044140030441511,
-    "asOf": "2026-11-09",
+    "close": 660,
+    "prevClose": 658,
+    "changePct": 0.003039513677811634,
+    "asOf": "2026-11-18",
     "high52": 697.1959838867188,
     "low52": 616.822021484375,
     "marketCap": 3110000000,
@@ -1110,14 +1110,14 @@
     "interestCover": null,
     "freeCashFlowTtm": -936300000,
     "ebitdaTtm": null,
-    "pe": 31.91,
+    "pe": 31.86,
     "evEbitda": null,
     "evSales": 13.77136186770428,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.004042476256540084,
-    "returnYtd": -0.004042476256540084,
-    "return5y": 0.13623128863976652
+    "return1y": 0.0059950698665056645,
+    "returnYtd": -0.002531159832043106,
+    "return5y": 0.13516072111108324
   },
   "factorChips": [
     {
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/kwse/BOUBYAN/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/BOUBYAN.KW",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:01.605Z"
+  "updatedAt": "2026-11-18T09:29:40.366Z"
 }

@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 401.5,
-    "prevClose": 400.54998779296875,
-    "changePct": 0.0023717694070242157,
-    "asOf": "2026-11-08",
+    "close": 399.1000061035156,
+    "prevClose": 406.6499938964844,
+    "changePct": -0.018566304945994094,
+    "asOf": "2026-11-18",
     "high52": 916.3,
     "low52": 373.75,
-    "marketCap": 26166202368,
+    "marketCap": 26009790464,
     "sharesOutstanding": null,
-    "dividendYield": 0.005
+    "dividendYield": 0.0049
   },
   "ttm": {
     "period": "TTM",
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 440000000,
       "netIncome": 90000000,
-      "epsDiluted": 2.01,
-      "epsBasic": 2.01,
+      "epsDiluted": 1.71,
+      "epsBasic": 1.71,
       "interestExpense": 160000000,
       "pretaxIncome": 140000000,
       "incomeTax": 44800000,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 1240000000,
       "netIncome": 530000000,
-      "epsDiluted": 9.87,
-      "epsBasic": 9.87,
+      "epsDiluted": 9.88,
+      "epsBasic": 9.88,
       "interestExpense": 190000000,
       "pretaxIncome": 830000000,
       "incomeTax": 298800000,
@@ -1102,7 +1102,7 @@
     "epsTtm": 32.74,
     "epsGrowthTtm": -0.48351474996056154,
     "grossMargin": 0.33133,
-    "operatingMargin": 0.20224,
+    "operatingMargin": 0.18614,
     "netMargin": 0.04335,
     "fcfMargin": -0.1340974212034384,
     "roic": 0.11,
@@ -1112,27 +1112,27 @@
     "interestCover": 2.2,
     "freeCashFlowTtm": -7020000000,
     "ebitdaTtm": 11000000000,
-    "pe": 12.2271973682243,
-    "evEbitda": 6.690931223272727,
-    "evSales": 1.495028305017266,
+    "pe": 12.154107693457943,
+    "evEbitda": 6.676711959272727,
+    "evSales": 1.4918511385740403,
     "pfcf": null,
-    "fcfYield": -0.26828501519903863,
-    "return1y": -0.551406835223073,
-    "returnYtd": -0.45537069361712024,
-    "return5y": -0.44815441196209493
+    "fcfYield": -0.26989836806706846,
+    "return1y": -0.5389209381655174,
+    "returnYtd": -0.4586262527981052,
+    "return5y": -0.35360529503844695
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "6th percentile revenue/EPS growth in the covered universe."
+      "detail": "5th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "43rd percentile profitability metrics in the covered universe."
+      "detail": "41st percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1155,7 +1155,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=HGINFRA",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.hginfra.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:39.547Z"
+  "updatedAt": "2026-11-18T09:09:12.971Z"
 }

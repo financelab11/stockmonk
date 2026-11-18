@@ -1,9 +1,9 @@
 {
   "ticker": "TT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/TT/analysis",
-  "targetMean": 519.5574,
+  "targetMean": 516.5139,
   "targetHigh": 599,
   "targetLow": 414,
   "recommendationKey": "buy",
@@ -28,11 +28,11 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 5579078860,
-      "revenueGrowth": 0.122700006,
-      "epsAvg": 3.1514,
-      "epsGrowth": 0.1983,
-      "analystCount": 12
+      "revenueAvg": 5593533410,
+      "revenueGrowth": 0.12560001,
+      "epsAvg": 3.17668,
+      "epsGrowth": 0.2079,
+      "analystCount": 13
     },
     {
       "period": "Current fiscal year",
@@ -96,10 +96,10 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": -0.0015169752076928944,
-    "eps30d": 0.00012580355381941466,
+    "eps7d": 0.00001572371339086942,
+    "eps30d": -0.000169653618403931,
     "eps60d": -0.0003746022307169472,
-    "eps90d": 0.0006444219803618534,
+    "eps90d": 0.002759857572691704,
     "revenue30d": null
   }
 }

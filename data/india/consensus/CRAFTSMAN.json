@@ -1,12 +1,12 @@
 {
   "ticker": "CRAFTSMAN",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=CRAFTSMAN",
   "targetMean": 12007.777,
   "targetHigh": 13000,
   "targetLow": 11000,
-  "recommendationKey": "buy",
+  "recommendationKey": "none",
   "analystCount": 9,
   "distribution": null,
   "estimates": [

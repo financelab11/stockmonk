@@ -1,7 +1,7 @@
 {
   "ticker": "EVR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/EVR/analysis",
   "targetMean": 346.8,
   "targetHigh": 391,
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 5307394180,
+      "revenueAvg": 5307609630,
       "revenueGrowth": 0.0805,
-      "epsAvg": 21.37887,
-      "epsGrowth": 0.0705,
+      "epsAvg": 21.37987,
+      "epsGrowth": 0.0706,
       "analystCount": 10
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 10
   },
   "revisions": {
-    "eps7d": 0.102436099921555,
-    "eps30d": 0.02202945278214896,
+    "eps7d": 0,
+    "eps30d": 0.09671899232469139,
     "eps60d": 0.02202945278214896,
-    "eps90d": 0.019498413845844498,
+    "eps90d": 0.02202945278214896,
     "revenue30d": null
   }
 }

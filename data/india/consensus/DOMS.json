@@ -1,59 +1,59 @@
 {
   "ticker": "DOMS",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=DOMS",
-  "targetMean": 2534.923,
+  "targetMean": 2488.5386,
   "targetHigh": 2831,
-  "targetLow": 2135,
+  "targetLow": 2059,
   "recommendationKey": "buy",
   "analystCount": 13,
   "distribution": null,
   "estimates": [
     {
       "period": "Next quarter",
-      "endDate": null,
-      "revenueAvg": 0,
-      "revenueGrowth": null,
+      "endDate": "2026-12-31",
+      "revenueAvg": 7097000000,
+      "revenueGrowth": 0.1984,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 0
+      "analystCount": 1
     },
     {
       "period": "Following quarter",
-      "endDate": null,
-      "revenueAvg": 0,
-      "revenueGrowth": null,
+      "endDate": "2027-03-31",
+      "revenueAvg": 7351000000,
+      "revenueGrowth": 0.2171,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 0
+      "analystCount": 1
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 27794666670,
-      "revenueGrowth": 0.19479999,
-      "epsAvg": 32.34,
-      "epsGrowth": -0.1442,
-      "analystCount": 12
+      "revenueAvg": 27734000000,
+      "revenueGrowth": 0.19219999,
+      "epsAvg": 31.77333,
+      "epsGrowth": -0.1592,
+      "analystCount": 13
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 33245692310,
-      "revenueGrowth": 0.19610001,
-      "epsAvg": 48.76231,
-      "epsGrowth": 0.5078,
+      "revenueAvg": 33254153850,
+      "revenueGrowth": 0.199,
+      "epsAvg": 48.17769,
+      "epsGrowth": 0.5163,
       "analystCount": 13
     }
   ],
   "history": [],
   "currentQuarter": {
-    "endDate": null,
-    "revenueAvg": 0,
-    "revenueGrowth": null,
+    "endDate": "2026-12-31",
+    "revenueAvg": 7097000000,
+    "revenueGrowth": 0.1984,
     "epsAvg": null,
     "epsGrowth": null,
-    "analystCount": 0
+    "analystCount": 1
   }
 }

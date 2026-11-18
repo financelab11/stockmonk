@@ -1,0 +1,30 @@
+{
+  "ticker": "RYAN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "RYAN SPECIALTY HOLDINGS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1849253/000184925326000006/ryan-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reporting",
+      "revenue": 2994582000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 2864242000,
+      "share": 0.956474726689735
+    },
+    {
+      "name": "Non-US",
+      "revenue": 186884000,
+      "share": 0.062407374384805626
+    }
+  ]
+}

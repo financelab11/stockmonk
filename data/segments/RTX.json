@@ -1,0 +1,40 @@
+{
+  "ticker": "RTX",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "RTX CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/rtx-20251231.htm",
+    "date": "2026-02-06"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Pratt & Whitney",
+      "revenue": 32916000000,
+      "share": 0.37149983634865635
+    },
+    {
+      "name": "Collins Aerospace",
+      "revenue": 30196000000,
+      "share": 0.34080110154283716
+    },
+    {
+      "name": "Raytheon",
+      "revenue": 28043000000,
+      "share": 0.3165016985880839
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 74778000000,
+      "share": 0.8439669085696873
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 13782000000,
+      "share": 0.15554778054919133
+    }
+  ]
+}

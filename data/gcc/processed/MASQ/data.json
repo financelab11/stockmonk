@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 297,
-    "prevClose": 305,
-    "changePct": -0.02622950819672132,
-    "asOf": "2026-11-05",
+    "close": 302,
+    "prevClose": 302.6000061035156,
+    "changePct": -0.0019828357283984133,
+    "asOf": "2026-11-18",
     "high52": 339,
     "low52": 198.4499969482422,
-    "marketCap": 60930000000,
+    "marketCap": 60580000000,
     "sharesOutstanding": 200610000,
-    "dividendYield": 0.0336
+    "dividendYield": 0.0338
   },
   "ttm": {
     "period": "TTM",
@@ -1110,21 +1110,21 @@
     "interestCover": null,
     "freeCashFlowTtm": -27322000000,
     "ebitdaTtm": null,
-    "pe": 8.17,
+    "pe": 8.12,
     "evEbitda": null,
-    "evSales": 8.761855745901038,
+    "evSales": 8.736122343945299,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.32873949712921635,
-    "returnYtd": 0.20143823033301622,
-    "return5y": 5.373823309071794
+    "return1y": 0.3340780276224422,
+    "returnYtd": 0.22166446316690536,
+    "return5y": 5.265089515989266
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "28th percentile revenue/EPS growth in the covered universe."
+      "detail": "29th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-07",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/dfm/MASQ/financials/",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/MASQ.AE",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:03.299Z"
+  "updatedAt": "2026-11-18T09:27:40.102Z"
 }

@@ -1,17 +1,17 @@
 {
   "ticker": "INTC",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/INTC/analysis",
-  "targetMean": 91.11628,
+  "targetMean": 90.65116,
   "targetHigh": 160,
   "targetLow": 63,
   "recommendationKey": "hold",
   "analystCount": 43,
   "distribution": {
     "strongBuy": 2,
-    "buy": 11,
-    "hold": 35,
+    "buy": 12,
+    "hold": 34,
     "sell": 1,
     "strongSell": 0
   },
@@ -46,7 +46,7 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 69132449340,
+      "revenueAvg": 69132470610,
       "revenueGrowth": 0.1197,
       "epsAvg": 1.79046,
       "epsGrowth": 0.2044,
@@ -96,10 +96,10 @@
     "analystCount": 35
   },
   "revisions": {
-    "eps7d": -0.03208500442731388,
-    "eps30d": -0.02289233438713889,
-    "eps60d": -0.01821399796594947,
-    "eps90d": -0.02060069437581946,
+    "eps7d": 0,
+    "eps30d": -0.026679499014659047,
+    "eps60d": -0.022114638285556376,
+    "eps90d": -0.01735739308612594,
     "revenue30d": null
   }
 }

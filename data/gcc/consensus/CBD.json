@@ -1,15 +1,15 @@
 {
   "ticker": "CBD",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/dfm/CBD/forecast/",
-  "targetMean": 9.95,
-  "targetHigh": 11,
+  "targetMean": 10.33,
+  "targetHigh": 11.1,
   "targetLow": 8.9,
   "recommendationKey": "buy",
-  "analystCount": 2,
+  "analystCount": 3,
   "distribution": {
-    "strongBuy": 0,
+    "strongBuy": 1,
     "buy": 1,
     "hold": 1,
     "sell": 0,
@@ -20,10 +20,10 @@
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
       "revenueAvg": 6000000000,
-      "revenueGrowth": 0.009000000000000001,
-      "epsAvg": 1.11,
-      "epsGrowth": -0.015,
-      "analystCount": 2
+      "revenueGrowth": 0.017,
+      "epsAvg": 1.17,
+      "epsGrowth": 0.035,
+      "analystCount": 3
     },
     {
       "period": "Next fiscal year",
@@ -32,17 +32,17 @@
       "revenueGrowth": null,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 2
+      "analystCount": 3
     }
   ],
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
     "revenueAvg": 6000000000,
-    "revenueGrowth": 0.009000000000000001,
-    "epsAvg": 1.11,
-    "epsGrowth": -0.015,
-    "analystCount": 2
+    "revenueGrowth": 0.017,
+    "epsAvg": 1.17,
+    "epsGrowth": 0.035,
+    "analystCount": 3
   },
   "revisions": null
 }

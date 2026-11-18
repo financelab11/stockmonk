@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 648.1500244140625,
-    "prevClose": 651.5,
-    "changePct": -0.005141942572429059,
-    "asOf": "2026-11-08",
-    "high52": 681.55,
+    "close": 698.5999755859375,
+    "prevClose": 711,
+    "changePct": -0.017440259372802358,
+    "asOf": "2026-11-18",
+    "high52": 738.95,
     "low52": 365.9,
-    "marketCap": 85588680704,
+    "marketCap": 92250628096,
     "sharesOutstanding": null,
-    "dividendYield": 0.0184
+    "dividendYield": 0.016900001
   },
   "ttm": {
     "period": "TTM",
@@ -1102,7 +1102,7 @@
     "epsTtm": 41.8,
     "epsGrowthTtm": 0.16923076923076907,
     "grossMargin": 0.20027,
-    "operatingMargin": 0.13092,
+    "operatingMargin": 0.13763,
     "netMargin": 0.11366,
     "fcfMargin": 0.10796740606609326,
     "roic": 0.26,
@@ -1112,14 +1112,14 @@
     "interestCover": 159.6,
     "freeCashFlowTtm": 4770000000,
     "ebitdaTtm": 7980000000,
-    "pe": 15.477157450994575,
-    "evEbitda": 9.524416352882206,
-    "evSales": 1.5584343345499283,
-    "pfcf": 17.943119644444444,
-    "fcfYield": 0.055731668729613604,
-    "return1y": 0.08423773348532726,
-    "returnYtd": 0.2694502918705579,
-    "return5y": -0.41325954127530984
+    "pe": 16.681849565280288,
+    "evEbitda": 10.359246853132833,
+    "evSales": 1.6950336249333606,
+    "pfcf": 19.339754317819708,
+    "fcfYield": 0.05170696501964335,
+    "return1y": 0.1736307442052949,
+    "returnYtd": 0.36826037570114334,
+    "return5y": -0.4965295928570561
   },
   "factorChips": [
     {
@@ -1132,7 +1132,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "60th percentile profitability metrics in the covered universe."
+      "detail": "59th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1150,12 +1150,12 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "93rd percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "89th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=TANLA",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.tanla.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:35.797Z"
+  "updatedAt": "2026-11-18T09:13:37.181Z"
 }

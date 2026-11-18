@@ -13,13 +13,13 @@
   "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 4.920000076293945,
-    "prevClose": 4.840000152587891,
-    "changePct": 0.01652890933552542,
-    "asOf": "2026-11-09",
+    "close": 5,
+    "prevClose": 5.079999923706055,
+    "changePct": -0.015748016714081325,
+    "asOf": "2026-11-18",
     "high52": 6.199999809265137,
     "low52": 4.480000019073486,
-    "marketCap": 7380000000,
+    "marketCap": 7520000000,
     "sharesOutstanding": 1500000000,
     "dividendYield": null
   },
@@ -1111,13 +1111,13 @@
     "freeCashFlowTtm": 842960000,
     "ebitdaTtm": 724870000,
     "pe": null,
-    "evEbitda": 23.12,
-    "evSales": 1.980641808496817,
+    "evEbitda": 23.48,
+    "evSales": 1.9988307132649084,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.14878894503412476,
-    "returnYtd": 0.03144656099941878,
-    "return5y": -0.7442827372753128
+    "return1y": -0.10233395944247548,
+    "returnYtd": 0.048218033541545635,
+    "return5y": -0.7206703851086149
   },
   "factorChips": [
     {
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/2350/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/2350.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:16:34.022Z"
+  "updatedAt": "2026-11-18T09:26:44.506Z"
 }

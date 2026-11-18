@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 1750.699951171875,
-    "prevClose": 1735,
-    "changePct": 0.00904896321145543,
-    "asOf": "2026-11-08",
-    "high52": 3832.9,
-    "low52": 1716.4,
-    "marketCap": 265591930880,
+    "close": 1624,
+    "prevClose": 1672,
+    "changePct": -0.028708133971291905,
+    "asOf": "2026-11-18",
+    "high52": 3554.9,
+    "low52": 1619.7,
+    "marketCap": 246370779136,
     "sharesOutstanding": null,
-    "dividendYield": 0.0086
+    "dividendYield": 0.009
   },
   "ttm": {
     "period": "TTM",
@@ -1102,7 +1102,7 @@
     "epsTtm": 57.870000000000005,
     "epsGrowthTtm": -0.419500451399338,
     "grossMargin": 0.55551,
-    "operatingMargin": 0.075100005,
+    "operatingMargin": 0.12901,
     "netMargin": 0.13836001,
     "fcfMargin": -0.09413166517724159,
     "roic": 0.15,
@@ -1112,27 +1112,27 @@
     "interestCover": 47.65384615384615,
     "freeCashFlowTtm": -6320000000,
     "ebitdaTtm": 12390000000,
-    "pe": 30.284142631698973,
-    "evEbitda": 18.652940459079904,
-    "evSales": 3.6423945199054373,
+    "pe": 28.09244916031927,
+    "evEbitda": 17.101596492655368,
+    "evSales": 3.3394606862726555,
     "pfcf": null,
-    "fcfYield": -0.023795903659646605,
-    "return1y": -0.5393611358122301,
-    "returnYtd": -0.45330346611726113,
-    "return5y": -0.36008254561760855
+    "fcfYield": -0.025652392796595713,
+    "return1y": -0.5279452028158205,
+    "returnYtd": -0.4928684550249327,
+    "return5y": -0.4241794785407673
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "4th percentile revenue/EPS growth in the covered universe."
+      "detail": "3rd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
-      "label": "Profitability: Low",
-      "tone": "caution",
-      "detail": "22nd percentile profitability metrics in the covered universe."
+      "label": "Profitability: Average",
+      "tone": "neutral",
+      "detail": "38th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1148,14 +1148,14 @@
     },
     {
       "key": "valuation",
-      "label": "Valuation: In line",
+      "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "67th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "70th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=PIIND",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.piindustries.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:53.454Z"
+  "updatedAt": "2026-11-18T09:10:51.346Z"
 }

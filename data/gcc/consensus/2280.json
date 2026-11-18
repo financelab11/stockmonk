@@ -1,9 +1,9 @@
 {
   "ticker": "2280",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/2280/forecast/",
-  "targetMean": 55.17,
+  "targetMean": 55.33,
   "targetHigh": 67.5,
   "targetLow": 50,
   "recommendationKey": "buy",

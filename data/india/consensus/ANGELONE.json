@@ -1,7 +1,7 @@
 {
   "ticker": "ANGELONE",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=ANGELONE",
   "targetMean": 358.5,
   "targetHigh": 390,
@@ -33,8 +33,8 @@
       "endDate": "2027-03-31",
       "revenueAvg": 48211535790,
       "revenueGrowth": 0.2067,
-      "epsAvg": 14.25222,
-      "epsGrowth": 0.44689998,
+      "epsAvg": 14.045,
+      "epsGrowth": 0.4259,
       "analystCount": 5
     },
     {
@@ -42,8 +42,8 @@
       "endDate": "2028-03-31",
       "revenueAvg": 55615991840,
       "revenueGrowth": 0.15359999,
-      "epsAvg": 17.56924,
-      "epsGrowth": 0.2327,
+      "epsAvg": 17.46744,
+      "epsGrowth": 0.24370001,
       "analystCount": 5
     }
   ],

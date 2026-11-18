@@ -13,15 +13,15 @@
   "quoteCurrency": "QAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 2.315999984741211,
-    "prevClose": 2.3010001182556152,
-    "changePct": 0.0065188464644525546,
-    "asOf": "2026-11-09",
+    "close": 2.2950000762939453,
+    "prevClose": 2.2899999618530273,
+    "changePct": 0.0021834561241091954,
+    "asOf": "2026-11-18",
     "high52": 2.747999906539917,
     "low52": 1.9859999418258667,
-    "marketCap": 9010000000,
+    "marketCap": 8910000000,
     "sharesOutstanding": 3890000000,
-    "dividendYield": 0.07769999999999999
+    "dividendYield": 0.0786
   },
   "ttm": {
     "period": "TTM",
@@ -987,21 +987,21 @@
     "interestCover": 1.9565401702445144,
     "freeCashFlowTtm": null,
     "ebitdaTtm": 1189770000,
-    "pe": 8.64,
-    "evEbitda": 16.74,
-    "evSales": 10.02569074163839,
+    "pe": 8.55,
+    "evEbitda": 16.65,
+    "evSales": 9.977217644207466,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.05519324268227632,
-    "returnYtd": -0.050507040942915915,
-    "return5y": -0.025049600585812848
+    "return1y": -0.04416428938902217,
+    "returnYtd": -0.05911639558146964,
+    "return5y": -0.020282522263141867
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "36th percentile revenue/EPS growth in the covered universe."
+      "detail": "37th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1025,12 +1025,12 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "20th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "22nd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1461,13 +1461,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/qse/BRES/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/BRES.QA",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:50.694Z"
+  "updatedAt": "2026-11-18T09:29:22.575Z"
 }

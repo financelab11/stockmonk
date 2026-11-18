@@ -802,13 +802,13 @@
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "97th percentile profitability metrics in the covered universe."
+      "detail": "98th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: High",
       "tone": "positive",
-      "detail": "79th percentile free-cash-flow margin."
+      "detail": "81st percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -820,7 +820,7 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "94th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "95th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -853,5 +853,5 @@
       "date": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:23.938Z"
+  "updatedAt": "2026-11-18T09:30:28.855Z"
 }

@@ -1,0 +1,40 @@
+{
+  "ticker": "JOBY",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Joby Aviation, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000160/joby-20251231.htm",
+    "date": "2026-02-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Flight Services",
+      "revenue": 53425000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 35751000,
+      "share": 0.6691810949929808
+    },
+    {
+      "name": "Japan",
+      "revenue": 8134000,
+      "share": 0.15225081890500702
+    },
+    {
+      "name": "Europe",
+      "revenue": 6768000,
+      "share": 0.12668226485727654
+    },
+    {
+      "name": "Non-US",
+      "revenue": 2772000,
+      "share": 0.05188582124473561
+    }
+  ]
+}

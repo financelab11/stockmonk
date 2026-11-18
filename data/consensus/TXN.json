@@ -1,10 +1,10 @@
 {
   "ticker": "TXN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/TXN/analysis",
-  "targetMean": 336.86206,
-  "targetHigh": 400,
+  "targetMean": 338.7931,
+  "targetHigh": 422,
   "targetLow": 250,
   "recommendationKey": "buy",
   "analystCount": 29,
@@ -37,7 +37,7 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 22399155540,
+      "revenueAvg": 22398943280,
       "revenueGrowth": 0.26680002,
       "epsAvg": 9.05576,
       "epsGrowth": 0.66160005,
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 26278875530,
-      "revenueGrowth": 0.1732,
+      "revenueAvg": 26296423910,
+      "revenueGrowth": 0.174,
       "epsAvg": 11.57938,
       "epsGrowth": 0.2787,
       "analystCount": 27

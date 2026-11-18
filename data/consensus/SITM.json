@@ -1,7 +1,7 @@
 {
   "ticker": "SITM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/SITM/analysis",
   "targetMean": 713.75,
   "targetHigh": 900,
@@ -82,7 +82,7 @@
       "quarter": "2026-09-30",
       "endDate": "2026-09-30",
       "epsActual": 4.01,
-      "epsEstimate": 3.60799,
+      "epsEstimate": 3.55526,
       "revenueActual": 298671000,
       "revenueEstimate": null
     }

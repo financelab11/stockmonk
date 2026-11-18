@@ -1,0 +1,30 @@
+{
+  "ticker": "RYTM",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "RHYTHM PHARMACEUTICALS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026012399/rytm-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Single Reportable",
+      "revenue": 194771000,
+      "share": 1.0264232676528402
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 133551000,
+      "share": 0.7038001233156089
+    },
+    {
+      "name": "Non-US",
+      "revenue": 61220000,
+      "share": 0.3226231443372313
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "ticker": "JPM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/JPM/analysis",
   "targetMean": 373.47827,
   "targetHigh": 425,

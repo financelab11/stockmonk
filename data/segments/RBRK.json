@@ -1,0 +1,35 @@
+{
+  "ticker": "RBRK",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "RUBRIK, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000013/rbrk-20260131.htm",
+    "date": "2026-03-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 1316191000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 951737000,
+      "share": 0.723099458969101
+    },
+    {
+      "name": "EMEA",
+      "revenue": 312705000,
+      "share": 0.23758329908045261
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 51749000,
+      "share": 0.039317241950446405
+    }
+  ]
+}

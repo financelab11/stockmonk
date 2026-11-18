@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 16.54,
-    "prevClose": 16.4,
-    "changePct": 0.008536585365853666,
-    "asOf": "2026-11-09",
-    "high52": 17.04,
-    "low52": 14.94,
-    "marketCap": 130590000000,
+    "close": 17.8,
+    "prevClose": 17.76,
+    "changePct": 0.0022522522522521182,
+    "asOf": "2026-11-17",
+    "high52": 18.16,
+    "low52": 15.36,
+    "marketCap": 140530000000,
     "sharesOutstanding": 7900000000,
-    "dividendYield": 0.0381
+    "dividendYield": 0.0354
   },
   "ttm": {
     "period": "TTM",
@@ -1110,27 +1110,27 @@
     "interestCover": null,
     "freeCashFlowTtm": -63426000000,
     "ebitdaTtm": null,
-    "pe": 9.91,
+    "pe": 10.66,
     "evEbitda": null,
-    "evSales": 13.248185447287243,
+    "evSales": 13.699101796407186,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.09102902374670174,
-    "returnYtd": 0.09102902374670174,
-    "return5y": 0.09102902374670174
+    "return1y": 0.1280101394169837,
+    "returnYtd": 0.1280101394169837,
+    "return5y": 0.1280101394169837
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "78th percentile revenue/EPS growth in the covered universe."
+      "detail": "77th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "92nd percentile profitability metrics in the covered universe."
+      "detail": "93rd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2026-09-01",
+      "date": "2026-09-09",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1178,8 +1178,8 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/adx/ADCB/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-17"
     }
   ],
-  "updatedAt": "2026-11-09T20:16:44.973Z"
+  "updatedAt": "2026-11-18T09:26:55.534Z"
 }

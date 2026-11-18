@@ -1,11 +1,11 @@
 {
   "ticker": "ADNOCDIST",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/adx/ADNOCDIST/forecast/",
-  "targetMean": 4.65,
+  "targetMean": 4.63,
   "targetHigh": 5.2,
-  "targetLow": 4.04,
+  "targetLow": 3.84,
   "recommendationKey": "buy",
   "analystCount": 17,
   "distribution": {
@@ -19,10 +19,10 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 43200000000,
-      "revenueGrowth": 0.20199999999999999,
+      "revenueAvg": 46300000000,
+      "revenueGrowth": 0.29100000000000004,
       "epsAvg": 0.3,
-      "epsGrowth": 0.33899999999999997,
+      "epsGrowth": 0.33799999999999997,
       "analystCount": 17
     },
     {
@@ -38,10 +38,10 @@
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 43200000000,
-    "revenueGrowth": 0.20199999999999999,
+    "revenueAvg": 46300000000,
+    "revenueGrowth": 0.29100000000000004,
     "epsAvg": 0.3,
-    "epsGrowth": 0.33899999999999997,
+    "epsGrowth": 0.33799999999999997,
     "analystCount": 17
   },
   "revisions": null

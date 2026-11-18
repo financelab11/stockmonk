@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 543.0499877929688,
-    "prevClose": 546.1500244140625,
-    "changePct": -0.005676163109979981,
-    "asOf": "2026-11-08",
+    "close": 536.5,
+    "prevClose": 533,
+    "changePct": 0.0065666041275798115,
+    "asOf": "2026-11-18",
     "high52": 644.4,
     "low52": 436.55,
-    "marketCap": 155723382784,
+    "marketCap": 153845121024,
     "sharesOutstanding": null,
     "dividendYield": 0.0005
   },
@@ -979,7 +979,7 @@
     "epsTtm": 7.59,
     "epsGrowthTtm": -0.15572858731924344,
     "grossMargin": 0.16298,
-    "operatingMargin": 0.03387,
+    "operatingMargin": 0.06305,
     "netMargin": 0.03554,
     "fcfMargin": -0.1348335854765507,
     "roic": 0.1,
@@ -989,27 +989,27 @@
     "interestCover": 3.9642857142857144,
     "freeCashFlowTtm": -7130000000,
     "ebitdaTtm": 4440000000,
-    "pe": 71.76192755023041,
-    "evEbitda": 35.92004993153153,
-    "evSales": 2.615795008955224,
+    "pe": 70.89636913548387,
+    "evEbitda": 35.49701800360361,
+    "evSales": 2.5849886819091354,
     "pfcf": null,
-    "fcfYield": -0.04578631591820635,
-    "return1y": 0.020677442135466295,
-    "returnYtd": -0.06156562831681811,
-    "return5y": 8.915624761002855
+    "fcfYield": -0.04634531113201642,
+    "return1y": -0.07916717474756241,
+    "returnYtd": -0.07288453784116655,
+    "return5y": 9.87819330740176
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "28th percentile revenue/EPS growth in the covered universe."
+      "detail": "30th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "9th percentile profitability metrics in the covered universe."
+      "detail": "12th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1032,7 +1032,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1463,13 +1463,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=PGEL",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.pgel.in",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:29.836Z"
+  "updatedAt": "2026-11-18T09:08:37.969Z"
 }

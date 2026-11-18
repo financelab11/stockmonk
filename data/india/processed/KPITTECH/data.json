@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 543.9000244140625,
-    "prevClose": 540.4500122070312,
-    "changePct": 0.006383591690455326,
-    "asOf": "2026-11-08",
+    "close": 528.5,
+    "prevClose": 531.6500244140625,
+    "changePct": -0.0059249962746341645,
+    "asOf": "2026-11-18",
     "high52": 1284.9,
     "low52": 470.1,
-    "marketCap": 148064403456,
+    "marketCap": 143872098304,
     "sharesOutstanding": null,
-    "dividendYield": 0.0139
+    "dividendYield": 0.014099999
   },
   "ttm": {
     "period": "TTM",
@@ -938,7 +938,7 @@
     "epsTtm": 19.48,
     "epsGrowthTtm": -0.3089748137637459,
     "grossMargin": 0.35134,
-    "operatingMargin": 0.12697,
+    "operatingMargin": 0.14096,
     "netMargin": 0.07979,
     "fcfMargin": 0.1635941130906274,
     "roic": 0.26,
@@ -948,27 +948,27 @@
     "interestCover": 12.9438202247191,
     "freeCashFlowTtm": 10560000000,
     "ebitdaTtm": 11520000000,
-    "pe": 27.77943779662289,
-    "evEbitda": 12.649014177777778,
-    "evSales": 2.17682466877801,
-    "pfcf": 14.021250327272726,
-    "fcfYield": 0.07132031571071094,
-    "return1y": -0.5391547336142213,
-    "returnYtd": -0.5273879027958777,
-    "return5y": 0.5019859738359294
+    "pe": 26.99288898761726,
+    "evEbitda": 12.2850988,
+    "evSales": 2.114196865491485,
+    "pfcf": 13.624251733333333,
+    "fcfYield": 0.07339852636114924,
+    "return1y": -0.5530274725473263,
+    "returnYtd": -0.5407695244221078,
+    "return5y": 0.26428834662896117
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "10th percentile revenue/EPS growth in the covered universe."
+      "detail": "11th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "57th percentile profitability metrics in the covered universe."
+      "detail": "61st percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -986,12 +986,12 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "81st percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "83rd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1422,13 +1422,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=KPITTECH",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.kpit.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:26.075Z"
+  "updatedAt": "2026-11-18T09:13:01.358Z"
 }

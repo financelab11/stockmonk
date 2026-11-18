@@ -1,0 +1,60 @@
+{
+  "ticker": "TXN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "TEXAS INSTRUMENTS INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000059/txn-20251231.htm",
+    "date": "2026-02-06"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Analog",
+      "revenue": 14006000000,
+      "share": 0.7921049655016401
+    },
+    {
+      "name": "Embedded Processing",
+      "revenue": 2697000000,
+      "share": 0.15252799457074992
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 979000000,
+      "share": 0.055367039927609996
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 6763000000,
+      "share": 0.38247935753873996
+    },
+    {
+      "name": "China",
+      "revenue": 3781000000,
+      "share": 0.21383327677864494
+    },
+    {
+      "name": "EMEA",
+      "revenue": 3747000000,
+      "share": 0.21191041737360028
+    },
+    {
+      "name": "Rest Of Asia",
+      "revenue": 1887000000,
+      "share": 0.10671869697997964
+    },
+    {
+      "name": "Japan",
+      "revenue": 1173000000,
+      "share": 0.0663386494740414
+    },
+    {
+      "name": "Rest Of World",
+      "revenue": 331000000,
+      "share": 0.01871960185499378
+    }
+  ]
+}

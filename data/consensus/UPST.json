@@ -1,9 +1,9 @@
 {
   "ticker": "UPST",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/UPST/analysis",
-  "targetMean": 31.1875,
+  "targetMean": 30.5,
   "targetHigh": 46,
   "targetLow": 18,
   "recommendationKey": "buy",
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 1356860420,
-      "revenueGrowth": 0.2999,
-      "epsAvg": 1.966,
-      "epsGrowth": 0.0416,
+      "revenueAvg": 1352993750,
+      "revenueGrowth": 0.29610002,
+      "epsAvg": 1.844,
+      "epsGrowth": -0.023,
       "analystCount": 5
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 1752904220,
-      "revenueGrowth": 0.2919,
-      "epsAvg": 2.996,
-      "epsGrowth": 0.5239,
+      "revenueAvg": 1740570880,
+      "revenueGrowth": 0.2865,
+      "epsAvg": 2.94,
+      "epsGrowth": 0.5944,
       "analystCount": 5
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 3
   },
   "revisions": {
-    "eps7d": -0.14250322760738343,
-    "eps30d": -0.14341483818121614,
-    "eps60d": -0.14634569959705446,
-    "eps90d": -0.14541803228807149,
+    "eps7d": -0.013903743315508033,
+    "eps30d": -0.19525181111983936,
+    "eps60d": -0.1965701737569494,
+    "eps90d": -0.1962655113346613,
     "revenue30d": null
   }
 }

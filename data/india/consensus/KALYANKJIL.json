@@ -1,11 +1,11 @@
 {
   "ticker": "KALYANKJIL",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=KALYANKJIL",
-  "targetMean": 768.2,
-  "targetHigh": 900,
-  "targetLow": 600,
+  "targetMean": 827.7,
+  "targetHigh": 950,
+  "targetLow": 765,
   "recommendationKey": "strong_buy",
   "analystCount": 10,
   "distribution": null,
@@ -21,29 +21,29 @@
     },
     {
       "period": "Following quarter",
-      "endDate": "2026-12-31",
-      "revenueAvg": 138617000000,
-      "revenueGrowth": 0.3401,
-      "epsAvg": 3.94416,
-      "epsGrowth": -0.0888,
+      "endDate": "2027-03-31",
+      "revenueAvg": 119722000000,
+      "revenueGrowth": 0.16520001,
+      "epsAvg": 5.05855,
+      "epsGrowth": 0.433,
       "analystCount": 1
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 450202909940,
-      "revenueGrowth": 0.45099998,
-      "epsAvg": 15.85087,
-      "epsGrowth": 0.1873,
-      "analystCount": 10
+      "revenueAvg": 455873956660,
+      "revenueGrowth": 0.4693,
+      "epsAvg": 16.50615,
+      "epsGrowth": 0.2364,
+      "analystCount": 9
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 541265965140,
-      "revenueGrowth": 0.3107,
-      "epsAvg": 19.41705,
-      "epsGrowth": 0.2298,
+      "revenueAvg": 547175907710,
+      "revenueGrowth": 0.3453,
+      "epsAvg": 20.23295,
+      "epsGrowth": 0.2318,
       "analystCount": 10
     }
   ],
@@ -69,6 +69,14 @@
       "endDate": "2026-03-31",
       "epsActual": 3.53,
       "epsEstimate": 3.5,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 3.5883,
+      "epsEstimate": 3.57208,
       "revenueActual": null,
       "revenueEstimate": null
     }

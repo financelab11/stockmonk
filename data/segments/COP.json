@@ -1,0 +1,40 @@
+{
+  "ticker": "COP",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ConocoPhillips Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000009/cop-20251231.htm",
+    "date": "2026-02-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Lower Forty Eight",
+      "revenue": 41404000000,
+      "share": 0.798934856437172
+    },
+    {
+      "name": "Alaska",
+      "revenue": 5638000000,
+      "share": 0.10879129360913863
+    },
+    {
+      "name": "Canada Operating",
+      "revenue": 5600000000,
+      "share": 0.10805804260574252
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 46611000000,
+      "share": 0.8994095399814758
+    },
+    {
+      "name": "Non-US",
+      "revenue": 12333000000,
+      "share": 0.23797854276011116
+    }
+  ]
+}

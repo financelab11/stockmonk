@@ -1,9 +1,9 @@
 {
   "ticker": "RTX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/RTX/analysis",
-  "targetMean": 227.91304,
+  "targetMean": 228.13043,
   "targetHigh": 250,
   "targetLow": 200,
   "recommendationKey": "buy",
@@ -21,7 +21,7 @@
       "endDate": "2026-12-31",
       "revenueAvg": 25872550110,
       "revenueGrowth": 0.0674,
-      "epsAvg": 1.83552,
+      "epsAvg": 1.83547,
       "epsGrowth": 0.1842,
       "analystCount": 19
     },
@@ -37,20 +37,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 97399623540,
+      "revenueAvg": 97399627800,
       "revenueGrowth": 0.099300005,
-      "epsAvg": 7.70308,
+      "epsAvg": 7.70328,
       "epsGrowth": 0.22469999,
       "analystCount": 24
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 105024939210,
+      "revenueAvg": 105024924950,
       "revenueGrowth": 0.0783,
-      "epsAvg": 8.0583,
-      "epsGrowth": 0.0461,
-      "analystCount": 23
+      "epsAvg": 8.09163,
+      "epsGrowth": 0.0504,
+      "analystCount": 24
     }
   ],
   "history": [
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 25872550110,
     "revenueGrowth": 0.0674,
-    "epsAvg": 1.83552,
+    "epsAvg": 1.83547,
     "epsGrowth": 0.1842,
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": 0.007191347370843371,
-    "eps30d": 0.06331511236265253,
-    "eps60d": 0.06355588201182982,
-    "eps90d": 0.06360434274131754,
+    "eps7d": 0,
+    "eps30d": 0.06220198616140249,
+    "eps60d": 0.06357762191417682,
+    "eps90d": 0.06358349579442102,
     "revenue30d": null
   }
 }

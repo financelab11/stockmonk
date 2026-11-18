@@ -1,9 +1,9 @@
 {
   "ticker": "4003",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/4003/forecast/",
-  "targetMean": 90.58,
+  "targetMean": 89.97,
   "targetHigh": 129,
   "targetLow": 75,
   "recommendationKey": "buy",
@@ -20,9 +20,9 @@
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
       "revenueAvg": 7900000000,
-      "revenueGrowth": 0.057999999999999996,
-      "epsAvg": 6.08,
-      "epsGrowth": -0.02,
+      "revenueGrowth": 0.055999999999999994,
+      "epsAvg": 5.67,
+      "epsGrowth": -0.08800000000000001,
       "analystCount": 10
     },
     {
@@ -39,9 +39,9 @@
   "currentQuarter": {
     "endDate": "2026-12-31",
     "revenueAvg": 7900000000,
-    "revenueGrowth": 0.057999999999999996,
-    "epsAvg": 6.08,
-    "epsGrowth": -0.02,
+    "revenueGrowth": 0.055999999999999994,
+    "epsAvg": 5.67,
+    "epsGrowth": -0.08800000000000001,
     "analystCount": 10
   },
   "revisions": null

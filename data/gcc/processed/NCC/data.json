@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 4.940000057220459,
-    "prevClose": 4.940000057220459,
+    "close": 5.099999904632568,
+    "prevClose": 5.099999904632568,
     "changePct": 0,
-    "asOf": "2026-11-05",
-    "high52": 5,
+    "asOf": "2026-11-17",
+    "high52": 5.099999904632568,
     "low52": 3.6600000858306885,
-    "marketCap": 1770000000,
+    "marketCap": 1830000000,
     "sharesOutstanding": 358800000,
-    "dividendYield": 0.0506
+    "dividendYield": 0.049
   },
   "ttm": {
     "period": "TTM",
@@ -33,12 +33,12 @@
     "revenue": 312560000,
     "grossProfit": 89860000,
     "operatingIncome": 70110000,
-    "netIncome": 147740000,
+    "netIncome": 147800000,
     "epsDiluted": 0.41,
     "epsBasic": 0.41,
     "interestExpense": -1460000,
-    "pretaxIncome": 154340000,
-    "incomeTax": 6600000,
+    "pretaxIncome": 154360000,
+    "incomeTax": 6570000,
     "rnd": null,
     "sga": null,
     "cashAndInvestments": 46430000,
@@ -46,7 +46,7 @@
     "totalEquity": 3342000000,
     "totalAssets": 3507000000,
     "inventory": 74780000,
-    "receivables": 116380000,
+    "receivables": 113020000,
     "cfo": 59520000,
     "capex": 8510000,
     "freeCashFlow": 51010000,
@@ -57,12 +57,12 @@
     "ebitda": 89370000,
     "grossMargin": 0.28749680061428207,
     "operatingMargin": 0.2243089326849245,
-    "netMargin": 0.472677245968774,
+    "netMargin": 0.47286920911185054,
     "fcfMargin": 0.16320066547222933,
     "roic": null,
     "netDebt": null,
     "netDebtToEbitda": null,
-    "roe": 0.044207061639736686
+    "roe": 0.044225014961101136
   },
   "quarterly": [
     {
@@ -867,7 +867,7 @@
       "totalEquity": 3342000000,
       "totalAssets": 3507000000,
       "inventory": 74780000,
-      "receivables": 116380000,
+      "receivables": 113020000,
       "cfo": -4280000,
       "capex": 1430000,
       "freeCashFlow": -5710000,
@@ -1101,42 +1101,42 @@
     "epsGrowthTtm": -0.1960784313725491,
     "grossMargin": 0.28749680061428207,
     "operatingMargin": 0.2243089326849245,
-    "netMargin": 0.472677245968774,
+    "netMargin": 0.47286920911185054,
     "fcfMargin": 0.16320066547222933,
     "roic": 0.0231,
-    "roe": 0.044207061639736686,
+    "roe": 0.044225014961101136,
     "netDebt": null,
     "netDebtToEbitda": null,
     "interestCover": 47.07382550335571,
     "freeCashFlowTtm": 51010000,
     "ebitdaTtm": 89400000,
-    "pe": 12.05,
-    "evEbitda": 28.9,
-    "evSales": 5.662912720757615,
+    "pe": 12.38,
+    "evEbitda": 17.16,
+    "evSales": 5.854875863834144,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.2629444746908387,
-    "returnYtd": 0.15956193338764812,
-    "return5y": 1.5809410682028187
+    "return1y": 0.3007153069211277,
+    "returnYtd": 0.19711855894592878,
+    "return5y": 1.664534386444089
   },
   "factorChips": [
     {
       "key": "growth",
-      "label": "Growth: Moderate",
-      "tone": "neutral",
+      "label": "Growth: Strong",
+      "tone": "positive",
       "detail": "67th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "38th percentile profitability metrics in the covered universe."
+      "detail": "37th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: High",
       "tone": "positive",
-      "detail": "74th percentile free-cash-flow margin."
+      "detail": "76th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "6th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "20th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-07",
+      "date": "2021-11-18",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/dfm/NCC/financials/",
-      "date": "2026-11-05"
+      "date": "2026-11-17"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/NCC.AE",
-      "date": "2026-11-05"
+      "date": "2026-11-17"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:22.355Z"
+  "updatedAt": "2026-11-18T09:28:26.148Z"
 }

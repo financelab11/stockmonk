@@ -1,7 +1,7 @@
 {
   "ticker": "AVAV",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/AVAV/analysis",
   "targetMean": 212.1987,
   "targetHigh": 315,
@@ -37,7 +37,7 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-04-30",
-      "revenueAvg": 2203035280,
+      "revenueAvg": 2203028050,
       "revenueGrowth": 0.1144,
       "epsAvg": 3.26015,
       "epsGrowth": -0.0150999995,
@@ -46,7 +46,7 @@
     {
       "period": "Next fiscal year",
       "endDate": "2028-04-30",
-      "revenueAvg": 2540888470,
+      "revenueAvg": 2540904620,
       "revenueGrowth": 0.1534,
       "epsAvg": 4.40823,
       "epsGrowth": 0.3522,
@@ -96,10 +96,10 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": 0.0005309321695790015,
-    "eps30d": -0.001500742714506731,
-    "eps60d": 0.007294827192001252,
-    "eps90d": 0.006582623972236856,
+    "eps7d": 0,
+    "eps30d": -0.0008428085445463251,
+    "eps60d": 0.001080871944310502,
+    "eps90d": 0.00574109836682557,
     "revenue30d": null
   }
 }

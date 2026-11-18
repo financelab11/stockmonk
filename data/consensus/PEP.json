@@ -1,9 +1,9 @@
 {
   "ticker": "PEP",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/PEP/analysis",
-  "targetMean": 141.59091,
+  "targetMean": 141.45454,
   "targetHigh": 169,
   "targetLow": 106,
   "recommendationKey": "hold",
@@ -11,9 +11,9 @@
   "distribution": {
     "strongBuy": 3,
     "buy": 3,
-    "hold": 17,
+    "hold": 16,
     "sell": 1,
-    "strongSell": 0
+    "strongSell": 1
   },
   "estimates": [
     {
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 99223933750,
-      "revenueGrowth": 0.056399997,
-      "epsAvg": 8.42309,
-      "epsGrowth": 0.0348,
+      "revenueAvg": 99246314700,
+      "revenueGrowth": 0.056700002,
+      "epsAvg": 8.41613,
+      "epsGrowth": 0.0339,
       "analystCount": 23
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 101773076820,
-      "revenueGrowth": 0.0257,
-      "epsAvg": 8.63881,
-      "epsGrowth": 0.0256,
+      "revenueAvg": 101765362540,
+      "revenueGrowth": 0.0254,
+      "epsAvg": 8.61272,
+      "epsGrowth": 0.0234,
       "analystCount": 23
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 17
   },
   "revisions": {
-    "eps7d": 0.0033400634897946535,
-    "eps30d": -0.015107064891391575,
-    "eps60d": -0.015853895064483536,
-    "eps90d": -0.015853895064483536,
+    "eps7d": -0.0008263000870226689,
+    "eps30d": 0.002512197678629313,
+    "eps60d": -0.016667095076634775,
+    "eps90d": -0.016667095076634775,
     "revenue30d": null
   }
 }

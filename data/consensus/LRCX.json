@@ -1,9 +1,9 @@
 {
   "ticker": "LRCX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/LRCX/analysis",
-  "targetMean": 364.03333,
+  "targetMean": 362.1,
   "targetHigh": 500,
   "targetLow": 255,
   "recommendationKey": "strong_buy",
@@ -28,28 +28,28 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 9013988820,
-      "revenueGrowth": 0.5431,
-      "epsAvg": 2.47891,
-      "epsGrowth": 0.6863,
+      "revenueAvg": 9015155490,
+      "revenueGrowth": 0.54330003,
+      "epsAvg": 2.47929,
+      "epsGrowth": 0.6866,
       "analystCount": 26
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-06-30",
-      "revenueAvg": 35394647410,
-      "revenueGrowth": 0.52349997,
-      "epsAvg": 9.65024,
-      "epsGrowth": 0.65809995,
-      "analystCount": 30
+      "revenueAvg": 35393246530,
+      "revenueGrowth": 0.5234,
+      "epsAvg": 9.65443,
+      "epsGrowth": 0.65879995,
+      "analystCount": 31
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-06-30",
-      "revenueAvg": 42599859720,
-      "revenueGrowth": 0.2036,
-      "epsAvg": 12.23633,
-      "epsGrowth": 0.268,
+      "revenueAvg": 42684682940,
+      "revenueGrowth": 0.206,
+      "epsAvg": 12.2724,
+      "epsGrowth": 0.2712,
       "analystCount": 28
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 26
   },
   "revisions": {
-    "eps7d": 0.01715738458976368,
-    "eps30d": 0.019268447507924336,
-    "eps60d": 0.02014336622024615,
-    "eps90d": 0.17450237024505721,
+    "eps7d": 0.00010048210693347492,
+    "eps30d": 0.018663051104979456,
+    "eps60d": 0.019571005089179305,
+    "eps90d": 0.020586298282501803,
     "revenue30d": null
   }
 }

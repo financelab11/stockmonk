@@ -1,7 +1,7 @@
 {
   "ticker": "CRWV",
   "name": "CoreWeave, Inc.",
-  "description": "CoreWeave, Inc.  operates as a cloud infrastructure technology company in the United States.",
+  "description": "CoreWeave, Inc.  operates as a cloud infrastructure technology company in the United States, Denmark, Middle East and Asia Pacific.",
   "sector": "Technology",
   "industry": "Software - Infrastructure",
   "employees": 2189,
@@ -14,15 +14,19 @@
   "currency": "USD",
   "isResearch": true,
   "latestPrice": {
-    "close": 46.400001525878906,
-    "prevClose": 43.65999984741211,
-    "changePct": 0.06275771159053734,
-    "asOf": "2026-11-06",
+    "close": 49.88999938964844,
+    "prevClose": 49.880001068115234,
+    "changePct": 0.00020044750038294978,
+    "asOf": "2026-11-17",
     "high52": 138.25,
-    "low52": 40.58,
-    "marketCap": 25591298048,
+    "low52": 40.58000183105469,
+    "marketCap": 27745110016,
     "sharesOutstanding": null,
-    "dividendYield": 0
+    "dividendYield": 0,
+    "pe": null,
+    "evEbitda": null,
+    "evSales": null,
+    "pfcf": null
   },
   "ttm": {
     "period": "TTM",
@@ -594,12 +598,12 @@
     "revenueGrowthLatestQ": 1.1245874587458746,
     "epsTtm": -3.6999999999999993,
     "epsGrowthTtm": -0.10843373493975905,
-    "grossMargin": 0.67418,
-    "operatingMargin": -0.01903,
-    "netMargin": -0.25402,
+    "grossMargin": 0.6741665546710095,
+    "operatingMargin": -0.030402077585320927,
+    "netMargin": -0.19449350293428622,
     "fcfMargin": -1.7991772930781413,
     "roic": null,
-    "roe": -0.43596,
+    "roe": null,
     "netDebt": null,
     "netDebtToEbitda": null,
     "interestCover": null,
@@ -607,12 +611,12 @@
     "ebitdaTtm": null,
     "pe": null,
     "evEbitda": null,
-    "evSales": null,
+    "evSales": 3.6556845063890226,
     "pfcf": null,
-    "fcfYield": null,
-    "return1y": -0.5660712485415285,
-    "returnYtd": -0.41502771426628493,
-    "return5y": 0.1600000381469726
+    "fcfYield": -0.49215879814949226,
+    "return1y": -0.3377140823447935,
+    "returnYtd": -0.37102874960167387,
+    "return5y": 0.24724998474121085
   },
   "factorChips": [
     {
@@ -625,7 +629,7 @@
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "16th percentile profitability metrics in the covered universe."
+      "detail": "17th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -802,10 +806,10 @@
       "date": "2025-12-31"
     },
     {
-      "name": "Yahoo Finance market data",
+      "name": "Market price history",
       "url": "https://finance.yahoo.com/quote/CRWV",
-      "date": "2026-11-06"
+      "date": "2026-11-17"
     }
   ],
-  "updatedAt": "2026-11-08T09:10:55.292Z"
+  "updatedAt": "2026-11-18T09:06:40.159Z"
 }

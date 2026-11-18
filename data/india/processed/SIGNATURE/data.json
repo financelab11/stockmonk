@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 755.2999877929688,
-    "prevClose": 747.8499755859375,
-    "changePct": 0.009961907401540238,
-    "asOf": "2026-11-08",
+    "close": 842.5999755859375,
+    "prevClose": 835.5999755859375,
+    "changePct": 0.008377214222740292,
+    "asOf": "2026-11-18",
     "high52": 1153.9,
     "low52": 695,
-    "marketCap": 106260160512,
+    "marketCap": 118542049280,
     "sharesOutstanding": null,
     "dividendYield": 0
   },
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": -370000000,
       "netIncome": -570000000,
-      "epsDiluted": -5.07,
-      "epsBasic": -5.07,
+      "epsDiluted": -4.62,
+      "epsBasic": -4.62,
       "interestExpense": 550000000,
       "pretaxIncome": -740000000,
       "incomeTax": 177600000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": -810000000,
       "netIncome": -860000000,
-      "epsDiluted": -7.56,
-      "epsBasic": -7.56,
+      "epsDiluted": -6.89,
+      "epsBasic": -6.89,
       "interestExpense": 710000000,
       "pretaxIncome": -970000000,
       "incomeTax": 106700000,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": -840000000,
       "netIncome": -1160000000,
-      "epsDiluted": -10.23,
-      "epsBasic": -10.23,
+      "epsDiluted": -9.32,
+      "epsBasic": -9.32,
       "interestExpense": 700000000,
       "pretaxIncome": -1360000000,
       "incomeTax": 204000000,
@@ -896,9 +896,9 @@
     "revenueGrowthLatestQ": 1.4171597633136095,
     "epsTtm": 82.38,
     "epsGrowthTtm": 13.870036101083029,
-    "grossMargin": 0.2725,
-    "operatingMargin": 0.13809,
-    "netMargin": 0.41228,
+    "grossMargin": 0.2603,
+    "operatingMargin": -0.0022200001,
+    "netMargin": 0.41919997,
     "fcfMargin": 0.04352850539291217,
     "roic": 0.02,
     "roe": 0.87473,
@@ -907,27 +907,27 @@
     "interestCover": 0.24731182795698925,
     "freeCashFlowTtm": 1130000000,
     "ebitdaTtm": 230000000,
-    "pe": 9.184110675194468,
-    "evEbitda": 484.62996702608694,
-    "evSales": 4.038583058550724,
-    "pfcf": 94.03554027610619,
-    "fcfYield": 0.010634277179285728,
-    "return1y": -0.26052479955024965,
-    "returnYtd": -0.33082305265559986,
-    "return5y": 0.6471486378797593
+    "pe": 10.245639522904062,
+    "evEbitda": 538.0294834086957,
+    "evSales": 4.4835790284057975,
+    "pfcf": 104.90446838938053,
+    "fcfYield": 0.009532482413315675,
+    "return1y": -0.2410376394841952,
+    "returnYtd": -0.25347744127116656,
+    "return5y": 0.8375313444918548
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "100th percentile revenue/EPS growth in the covered universe."
+      "detail": "99th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "13th percentile profitability metrics in the covered universe."
+      "detail": "1st percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1227,13 +1227,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=SIGNATURE",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.signatureglobal.in",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:22.438Z"
+  "updatedAt": "2026-11-18T09:12:45.401Z"
 }

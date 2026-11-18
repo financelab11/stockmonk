@@ -1,9 +1,9 @@
 {
   "ticker": "2060",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/2060/forecast/",
-  "targetMean": 10.15,
+  "targetMean": 10.07,
   "targetHigh": 12,
   "targetLow": 7,
   "recommendationKey": "hold",

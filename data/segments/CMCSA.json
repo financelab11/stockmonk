@@ -1,0 +1,55 @@
+{
+  "ticker": "CMCSA",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "COMCAST CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+    "date": "2026-02-03"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Residential Connectivity & Platforms",
+      "revenue": 70704000000,
+      "share": 0.5715440516704794
+    },
+    {
+      "name": "Media",
+      "revenue": 27090000000,
+      "share": 0.2189851827301608
+    },
+    {
+      "name": "Studios",
+      "revenue": 11286000000,
+      "share": 0.09123170071216666
+    },
+    {
+      "name": "Business Services Connectivity",
+      "revenue": 10237000000,
+      "share": 0.08275198654886143
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 4390000000,
+      "share": 0.0354870783383317
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 95143000000,
+      "share": 0.7690995659097707
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 15182000000,
+      "share": 0.12272547228531934
+    },
+    {
+      "name": "Other Geographic Locations",
+      "revenue": 13382000000,
+      "share": 0.10817496180490999
+    }
+  ]
+}

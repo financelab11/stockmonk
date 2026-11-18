@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 32,
-    "prevClose": 31.360000610351562,
-    "changePct": 0.020408143405366452,
-    "asOf": "2026-11-05",
+    "close": 36.119998931884766,
+    "prevClose": 36.08000183105469,
+    "changePct": 0.001108567039917796,
+    "asOf": "2026-11-18",
     "high52": 37.400001525878906,
     "low52": 24.399999618530273,
-    "marketCap": 203650000000,
+    "marketCap": 228280000000,
     "sharesOutstanding": 6320000000,
-    "dividendYield": 0.031
+    "dividendYield": 0.0277
   },
   "ttm": {
     "period": "TTM",
@@ -1110,14 +1110,14 @@
     "interestCover": null,
     "freeCashFlowTtm": -118478000000,
     "ebitdaTtm": null,
-    "pe": 8.59,
+    "pe": 9.63,
     "evEbitda": null,
-    "evSales": 7.0645477347546635,
+    "evSales": 7.547186079322778,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.22556855034500223,
-    "returnYtd": 0.12693541125089824,
-    "return5y": 1.8118616900970093
+    "return1y": 0.4480791043010528,
+    "returnYtd": 0.27202830783392384,
+    "return5y": 2.1851041538945672
   },
   "factorChips": [
     {
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-07",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/dfm/EMIRATESNBD/financials/",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/EMIRATESNBD.AE",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:16:59.054Z"
+  "updatedAt": "2026-11-18T09:27:30.189Z"
 }

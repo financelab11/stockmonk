@@ -919,19 +919,19 @@
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "61st percentile revenue/EPS growth in the covered universe."
+      "detail": "60th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "64th percentile profitability metrics in the covered universe."
+      "detail": "63rd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: High",
       "tone": "positive",
-      "detail": "87th percentile free-cash-flow margin."
+      "detail": "88th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -976,5 +976,5 @@
       "date": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:24.545Z"
+  "updatedAt": "2026-11-18T09:30:30.791Z"
 }

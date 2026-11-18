@@ -1,9 +1,9 @@
 {
   "ticker": "CAMT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/CAMT/analysis",
-  "targetMean": 155.6,
+  "targetMean": 152.8,
   "targetHigh": 200,
   "targetLow": 120,
   "recommendationKey": "buy",
@@ -19,38 +19,38 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 180219600,
-      "revenueGrowth": 0.4066,
-      "epsAvg": 1.14644,
-      "epsGrowth": 0.4154,
-      "analystCount": 9
+      "revenueAvg": 180282340,
+      "revenueGrowth": 0.4071,
+      "epsAvg": 1.14475,
+      "epsGrowth": 0.4133,
+      "analystCount": 8
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 192174080,
-      "revenueGrowth": 0.5796,
-      "epsAvg": 1.22409,
-      "epsGrowth": 0.7487,
-      "analystCount": 11
+      "revenueAvg": 192083340,
+      "revenueGrowth": 0.5789,
+      "epsAvg": 1.23188,
+      "epsGrowth": 0.7598,
+      "analystCount": 8
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 596379100,
-      "revenueGrowth": 0.2022,
-      "epsAvg": 3.6018,
-      "epsGrowth": 0.10479999,
-      "analystCount": 10
+      "revenueAvg": 596481190,
+      "revenueGrowth": 0.2024,
+      "epsAvg": 3.606,
+      "epsGrowth": 0.10609999,
+      "analystCount": 8
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 804167680,
-      "revenueGrowth": 0.3484,
-      "epsAvg": 5.104,
-      "epsGrowth": 0.41709998,
-      "analystCount": 11
+      "revenueAvg": 807438560,
+      "revenueGrowth": 0.35369998,
+      "epsAvg": 5.13486,
+      "epsGrowth": 0.42400002,
+      "analystCount": 7
     }
   ],
   "history": [
@@ -82,24 +82,24 @@
       "quarter": "2026-09-30",
       "endDate": "2026-09-30",
       "epsActual": 0.99,
-      "epsEstimate": 0.98773,
+      "epsEstimate": 0.9875,
       "revenueActual": null,
       "revenueEstimate": null
     }
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 180219600,
-    "revenueGrowth": 0.4066,
-    "epsAvg": 1.14644,
-    "epsGrowth": 0.4154,
-    "analystCount": 9
+    "revenueAvg": 180282340,
+    "revenueGrowth": 0.4071,
+    "epsAvg": 1.14475,
+    "epsGrowth": 0.4133,
+    "analystCount": 8
   },
   "revisions": {
-    "eps7d": -0.008560654022956804,
-    "eps30d": -0.004692189080297893,
-    "eps60d": -0.004692189080297893,
-    "eps90d": 0.027705652409621306,
+    "eps7d": -0.007795109414940327,
+    "eps30d": -0.0035315769402948227,
+    "eps60d": -0.0035315769402948227,
+    "eps90d": 0.028904043142066183,
     "revenue30d": null
   }
 }

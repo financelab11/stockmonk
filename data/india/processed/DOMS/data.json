@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 2091.60009765625,
-    "prevClose": 2053.89990234375,
-    "changePct": 0.01835541998394352,
-    "asOf": "2026-11-08",
+    "close": 2046.800048828125,
+    "prevClose": 2043.800048828125,
+    "changePct": 0.0014678539623873554,
+    "asOf": "2026-11-18",
     "high52": 2755,
     "low52": 1775,
-    "marketCap": 126935728128,
+    "marketCap": 124216885248,
     "sharesOutstanding": null,
     "dividendYield": 0.0018000001
   },
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 700000000,
       "netIncome": 170000000,
-      "epsDiluted": 2.56,
-      "epsBasic": 2.56,
+      "epsDiluted": 2.55,
+      "epsBasic": 2.55,
       "interestExpense": 100000000,
       "pretaxIncome": 240000000,
       "incomeTax": 69600000,
@@ -736,8 +736,8 @@
       "grossProfit": null,
       "operatingIncome": 1870000000,
       "netIncome": 1030000000,
-      "epsDiluted": 17.05,
-      "epsBasic": 17.05,
+      "epsDiluted": 17.03,
+      "epsBasic": 17.03,
       "interestExpense": 120000000,
       "pretaxIncome": 1390000000,
       "incomeTax": 361400000,
@@ -897,7 +897,7 @@
     "epsTtm": 32.339999999999996,
     "epsGrowthTtm": -0.0859242509892596,
     "grossMargin": 0.41015,
-    "operatingMargin": 0.087790005,
+    "operatingMargin": 0.10908,
     "netMargin": 0.07745,
     "fcfMargin": -0.01633705932932072,
     "roic": 0.24,
@@ -907,27 +907,27 @@
     "interestCover": 41.111111111111114,
     "freeCashFlowTtm": -380000000,
     "ebitdaTtm": 3700000000,
-    "pe": 62.83946937029703,
-    "evEbitda": 34.87865164972973,
-    "evSales": 5.0907696687968444,
+    "pe": 61.49350754851485,
+    "evEbitda": 34.14382924972973,
+    "evSales": 4.983517484181459,
     "pfcf": null,
-    "fcfYield": -0.0029936409993001653,
-    "return1y": -0.16839216289243486,
-    "returnYtd": -0.19476143409111335,
-    "return5y": 0.5832595576712845
+    "fcfYield": -0.003059165420557173,
+    "return1y": -0.19719819186784848,
+    "returnYtd": -0.2120088644729684,
+    "return5y": 0.5493476709914404
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "31st percentile revenue/EPS growth in the covered universe."
+      "detail": "32nd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "49th percentile profitability metrics in the covered universe."
+      "detail": "50th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -945,7 +945,7 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "35th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "38th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1206,13 +1206,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=DOMS",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.domsindia.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:00.681Z"
+  "updatedAt": "2026-11-18T09:11:21.726Z"
 }

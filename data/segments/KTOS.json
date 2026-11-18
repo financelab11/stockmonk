@@ -1,0 +1,55 @@
+{
+  "ticker": "KTOS",
+  "asOf": "2025-12-28",
+  "source": {
+    "name": "KRATOS DEFENSE & SECURITY SOLUTIONS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000013/ktos-20251228.htm",
+    "date": "2026-02-23"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Government Solutions",
+      "revenue": 1054800000,
+      "share": 0.7831897831897832
+    },
+    {
+      "name": "Unmanned Systems",
+      "revenue": 292000000,
+      "share": 0.2168102168102168
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1065000000,
+      "share": 0.7907632907632908
+    },
+    {
+      "name": "Europe",
+      "revenue": 78100000,
+      "share": 0.05798930798930799
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 71200000,
+      "share": 0.052866052866052865
+    },
+    {
+      "name": "Middle East",
+      "revenue": 66200000,
+      "share": 0.04915354915354915
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 46900000,
+      "share": 0.034823284823284825
+    },
+    {
+      "name": "Other North America",
+      "revenue": 19400000,
+      "share": 0.014404514404514405
+    }
+  ]
+}

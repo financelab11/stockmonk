@@ -1,0 +1,55 @@
+{
+  "ticker": "MLI",
+  "asOf": "2025-12-27",
+  "source": {
+    "name": "MUELLER INDUSTRIES, INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/89439/000008943926000008/mli-20251227.htm",
+    "date": "2026-02-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Piping Systems",
+      "revenue": 2708726000,
+      "share": 0.6482459094034362
+    },
+    {
+      "name": "Industrial Metals",
+      "revenue": 1023630000,
+      "share": 0.24497271419945738
+    },
+    {
+      "name": "Climate",
+      "revenue": 497929000,
+      "share": 0.11916319237285114
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 3285448000,
+      "share": 0.7862656564590514
+    },
+    {
+      "name": "CA",
+      "revenue": 347742000,
+      "share": 0.08322079421387386
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 283279000,
+      "share": 0.06779366128943864
+    },
+    {
+      "name": "Asia & Middle East",
+      "revenue": 186619000,
+      "share": 0.04466121836131076
+    },
+    {
+      "name": "MX",
+      "revenue": 75459000,
+      "share": 0.018058669676325287
+    }
+  ]
+}

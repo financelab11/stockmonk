@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 31,
-    "prevClose": 31,
+    "close": 30,
+    "prevClose": 30,
     "changePct": 0,
-    "asOf": "2026-11-05",
+    "asOf": "2026-11-17",
     "high52": 37,
     "low52": 16.5,
-    "marketCap": 2570000000,
+    "marketCap": 2700000000,
     "sharesOutstanding": 90000000,
-    "dividendYield": 0.038599999999999995
+    "dividendYield": 0.036699999999999997
   },
   "ttm": {
     "period": "TTM",
@@ -340,7 +340,7 @@
       "freeCashFlow": 66080000,
       "da": 13900000,
       "sbc": null,
-      "dividendsPaid": 62930000,
+      "dividendsPaid": 63000000,
       "buybacks": null,
       "ebitda": 47590000,
       "grossMargin": 0.36780682195550074,
@@ -381,7 +381,7 @@
       "freeCashFlow": 20040000,
       "da": 13770000,
       "sbc": null,
-      "dividendsPaid": 70000,
+      "dividendsPaid": 0,
       "buybacks": null,
       "ebitda": 45890000,
       "grossMargin": 0.35964313350630434,
@@ -545,7 +545,7 @@
       "freeCashFlow": 78860000,
       "da": 13730000,
       "sbc": null,
-      "dividendsPaid": null,
+      "dividendsPaid": 108000000,
       "buybacks": null,
       "ebitda": 44440000,
       "grossMargin": 0.35496321859958224,
@@ -586,7 +586,7 @@
       "freeCashFlow": 72200000,
       "da": 13740000,
       "sbc": null,
-      "dividendsPaid": null,
+      "dividendsPaid": 108000000,
       "buybacks": null,
       "ebitda": 43740000,
       "grossMargin": 0.36769453932899726,
@@ -1110,14 +1110,14 @@
     "interestCover": 21.01851851851852,
     "freeCashFlowTtm": 206930000,
     "ebitdaTtm": 220420000,
-    "pe": 14.66,
-    "evEbitda": 9.34,
-    "evSales": 2.252642342163747,
+    "pe": 15.43,
+    "evEbitda": 9.92,
+    "evSales": 2.3882808342810637,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.650134753648806,
-    "returnYtd": 0.8784823533640562,
-    "return5y": 2.0000452233025157
+    "return1y": 0.7626592119794986,
+    "returnYtd": 0.8178861484168287,
+    "return5y": 2.2258553434617814
   },
   "factorChips": [
     {
@@ -1130,7 +1130,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "59th percentile profitability metrics in the covered universe."
+      "detail": "60th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "63rd percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "59th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-07",
+      "date": "2021-11-18",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/dfm/DRC/financials/",
-      "date": "2026-11-05"
+      "date": "2026-11-17"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/DRC.AE",
-      "date": "2026-11-05"
+      "date": "2026-11-17"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:23.223Z"
+  "updatedAt": "2026-11-18T09:28:28.462Z"
 }

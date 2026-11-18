@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 914,
-    "prevClose": 915.7999877929688,
-    "changePct": -0.0019654813463216847,
-    "asOf": "2026-11-08",
-    "high52": 1126.4,
+    "close": 933.0499877929688,
+    "prevClose": 965,
+    "changePct": -0.03310882093992873,
+    "asOf": "2026-11-18",
+    "high52": 1115.8,
     "low52": 784,
-    "marketCap": 158039048192,
+    "marketCap": 161332969472,
     "sharesOutstanding": null,
-    "dividendYield": 0.013099999
+    "dividendYield": 0.0124
   },
   "ttm": {
     "period": "TTM",
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 660000000,
       "netIncome": 90000000,
-      "epsDiluted": 0.54,
-      "epsBasic": 0.54,
+      "epsDiluted": 0.53,
+      "epsBasic": 0.53,
       "interestExpense": 200000000,
       "pretaxIncome": 140000000,
       "incomeTax": 49000000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 1590000000,
       "netIncome": 50000000,
-      "epsDiluted": 0.3,
-      "epsBasic": 0.3,
+      "epsDiluted": 0.27,
+      "epsBasic": 0.27,
       "interestExpense": 530000000,
       "pretaxIncome": 190000000,
       "incomeTax": 144400000,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 2120000000,
       "netIncome": -650000000,
-      "epsDiluted": -4.28,
-      "epsBasic": -4.28,
+      "epsDiluted": -3.85,
+      "epsBasic": -3.85,
       "interestExpense": 520000000,
       "pretaxIncome": 680000000,
       "incomeTax": 1332800000,
@@ -938,7 +938,7 @@
     "epsTtm": 20.18,
     "epsGrowthTtm": 0.003980099502487455,
     "grossMargin": 0.58145,
-    "operatingMargin": 0.33008,
+    "operatingMargin": 0.31705,
     "netMargin": 0.23358999,
     "fcfMargin": 0.19907763259031513,
     "roic": 0.29,
@@ -948,14 +948,14 @@
     "interestCover": 112.6,
     "freeCashFlowTtm": 2590000000,
     "ebitdaTtm": 5630000000,
-    "pe": 45.4135195954023,
-    "evEbitda": 27.35081496554174,
-    "evSales": 10.42553068761002,
-    "pfcf": 61.01893752586873,
-    "fcfYield": 0.016388354837808414,
-    "return1y": -0.14351350711391098,
-    "returnYtd": -0.13961573999542432,
-    "return5y": 1.5776734733994862
+    "pe": 46.360048698850576,
+    "evEbitda": 27.935880912255772,
+    "evSales": 10.648544992281652,
+    "pfcf": 62.290721803861004,
+    "fcfYield": 0.016053755214922173,
+    "return1y": -0.13160356822634367,
+    "returnYtd": -0.12168323490751443,
+    "return5y": 1.631398471432877
   },
   "factorChips": [
     {
@@ -986,7 +986,7 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "44th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "43rd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1331,13 +1331,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=KFINTECH",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.kfintech.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:40.720Z"
+  "updatedAt": "2026-11-18T09:09:20.242Z"
 }

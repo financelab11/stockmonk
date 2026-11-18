@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 2370,
-    "prevClose": 2340,
-    "changePct": 0.012820512820512775,
-    "asOf": "2026-11-08",
-    "high52": 2441.9,
+    "close": 2333,
+    "prevClose": 2338,
+    "changePct": -0.002138579982891353,
+    "asOf": "2026-11-18",
+    "high52": 2488,
     "low52": 917.95,
-    "marketCap": 1280539885568,
+    "marketCap": 1260548390912,
     "sharesOutstanding": null,
     "dividendYield": 0.00090000004
   },
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 2000000000,
       "netIncome": 680000000,
-      "epsDiluted": 2.2,
-      "epsBasic": 2.2,
+      "epsDiluted": 1.38,
+      "epsBasic": 1.38,
       "interestExpense": 1060000000,
       "pretaxIncome": 670000000,
       "incomeTax": -13400000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 3620000000,
       "netIncome": 1340000000,
-      "epsDiluted": 4.24,
-      "epsBasic": 4.24,
+      "epsDiluted": 2.71,
+      "epsBasic": 2.71,
       "interestExpense": 1110000000,
       "pretaxIncome": 1690000000,
       "incomeTax": 354900000,
@@ -1102,7 +1102,7 @@
     "epsTtm": 24.799999999999997,
     "epsGrowthTtm": 0.9573796369376477,
     "grossMargin": 0.6036,
-    "operatingMargin": 0.28232,
+    "operatingMargin": 0.24143,
     "netMargin": 0.17128,
     "fcfMargin": 0.08219580214296199,
     "roic": 0.18,
@@ -1112,27 +1112,27 @@
     "interestCover": 14.424242424242424,
     "freeCashFlowTtm": 5600000000,
     "ebitdaTtm": 23800000000,
-    "pe": 96.13662804564565,
-    "evEbitda": 54.89511707697479,
-    "evSales": 16.70293769409358,
-    "pfcf": 228.66783670857143,
-    "fcfYield": 0.004373155465997881,
-    "return1y": 1.3708818453348064,
-    "returnYtd": 1.1374017900854487,
-    "return5y": 3.9067377407153954
+    "pe": 94.63576508348348,
+    "evEbitda": 54.05513830991597,
+    "evSales": 16.447357348197393,
+    "pfcf": 225.09792694857143,
+    "fcfYield": 0.004442510926493215,
+    "return1y": 1.3203084058588956,
+    "returnYtd": 1.1040330701558445,
+    "return5y": 4.013896938651767
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "78th percentile revenue/EPS growth in the covered universe."
+      "detail": "80th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
-      "label": "Profitability: High",
-      "tone": "positive",
-      "detail": "77th percentile profitability metrics in the covered universe."
+      "label": "Profitability: Average",
+      "tone": "neutral",
+      "detail": "65th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1150,12 +1150,12 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "13th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "14th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=LAURUSLABS",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.lauruslabs.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:44.450Z"
+  "updatedAt": "2026-11-18T09:09:52.928Z"
 }

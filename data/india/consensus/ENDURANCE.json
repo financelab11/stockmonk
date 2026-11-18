@@ -1,13 +1,13 @@
 {
   "ticker": "ENDURANCE",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=ENDURANCE",
-  "targetMean": 3067.6428,
+  "targetMean": 3063.6667,
   "targetHigh": 3550,
   "targetLow": 2650,
   "recommendationKey": "buy",
-  "analystCount": 14,
+  "analystCount": 15,
   "distribution": null,
   "estimates": [
     {
@@ -15,8 +15,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 48403448500,
       "revenueGrowth": 0.3415,
-      "epsAvg": 22.055,
-      "epsGrowth": 0.3083,
+      "epsAvg": 16.45,
+      "epsGrowth": -0.0242,
       "analystCount": 2
     },
     {
@@ -24,27 +24,27 @@
       "endDate": "2027-03-31",
       "revenueAvg": 49531973500,
       "revenueGrowth": 0.2123,
-      "epsAvg": 22.81,
-      "epsGrowth": 0.1608,
+      "epsAvg": 17.3,
+      "epsGrowth": -0.1196,
       "analystCount": 2
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 187994017920,
-      "revenueGrowth": 0.288,
-      "epsAvg": 76.30499,
-      "epsGrowth": 0.1096,
-      "analystCount": 9
+      "revenueAvg": 187414287390,
+      "revenueGrowth": 0.284,
+      "epsAvg": 76.25799,
+      "epsGrowth": 0.1089,
+      "analystCount": 11
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 207939638410,
-      "revenueGrowth": 0.10609999,
-      "epsAvg": 98.56222,
-      "epsGrowth": 0.2917,
-      "analystCount": 14
+      "revenueAvg": 208396929180,
+      "revenueGrowth": 0.111999996,
+      "epsAvg": 97.98474,
+      "epsGrowth": 0.2849,
+      "analystCount": 15
     }
   ],
   "history": [
@@ -85,8 +85,8 @@
     "endDate": "2026-12-31",
     "revenueAvg": 48403448500,
     "revenueGrowth": 0.3415,
-    "epsAvg": 22.055,
-    "epsGrowth": 0.3083,
+    "epsAvg": 16.45,
+    "epsGrowth": -0.0242,
     "analystCount": 2
   }
 }

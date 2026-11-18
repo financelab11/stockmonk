@@ -1,11 +1,11 @@
 {
   "ticker": "KIMS",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=KIMS",
-  "targetMean": 866.4375,
+  "targetMean": 854.625,
   "targetHigh": 1000,
-  "targetLow": 680,
+  "targetLow": 720,
   "recommendationKey": "strong_buy",
   "analystCount": 16,
   "distribution": null,
@@ -13,38 +13,38 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 12749132500,
-      "revenueGrowth": 0.2779,
-      "epsAvg": 1.97,
-      "epsGrowth": 0.48119998,
+      "revenueAvg": 13127026000,
+      "revenueGrowth": 0.3157,
+      "epsAvg": 1.64,
+      "epsGrowth": 0.2331,
       "analystCount": 2
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 14805758000,
-      "revenueGrowth": 0.3778,
-      "epsAvg": 3.09,
-      "epsGrowth": 1.5241001,
+      "revenueAvg": 14071873500,
+      "revenueGrowth": 0.3095,
+      "epsAvg": 2.51,
+      "epsGrowth": 1.0503,
       "analystCount": 2
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 51817510970,
-      "revenueGrowth": 0.32709998,
-      "epsAvg": 10.29186,
-      "epsGrowth": 0.65120006,
-      "analystCount": 15
+      "revenueAvg": 53025274980,
+      "revenueGrowth": 0.35799998,
+      "epsAvg": 8.41237,
+      "epsGrowth": 0.3497,
+      "analystCount": 14
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 62138464420,
-      "revenueGrowth": 0.1992,
-      "epsAvg": 16.69623,
-      "epsGrowth": 0.62229997,
-      "analystCount": 16
+      "revenueAvg": 63410925580,
+      "revenueGrowth": 0.19590001,
+      "epsAvg": 15.44199,
+      "epsGrowth": 0.83559996,
+      "analystCount": 15
     }
   ],
   "history": [
@@ -83,10 +83,10 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 12749132500,
-    "revenueGrowth": 0.2779,
-    "epsAvg": 1.97,
-    "epsGrowth": 0.48119998,
+    "revenueAvg": 13127026000,
+    "revenueGrowth": 0.3157,
+    "epsAvg": 1.64,
+    "epsGrowth": 0.2331,
     "analystCount": 2
   }
 }

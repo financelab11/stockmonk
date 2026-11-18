@@ -1,0 +1,40 @@
+{
+  "ticker": "GE",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "GENERAL ELECTRIC COMPANY Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/ge-20251231.htm",
+    "date": "2026-01-29"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Commercial Engines & Services Reportable",
+      "revenue": 33314000000,
+      "share": 0.7265074691963799
+    },
+    {
+      "name": "Defense & Propulsion Technologies Reportable",
+      "revenue": 10554000000,
+      "share": 0.23016028786391887
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 1987000000,
+      "share": 0.043332242939701233
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 27661000000,
+      "share": 0.6032275651510195
+    },
+    {
+      "name": "United States",
+      "revenue": 18194000000,
+      "share": 0.3967724348489805
+    }
+  ]
+}

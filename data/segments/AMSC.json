@@ -1,0 +1,45 @@
+{
+  "ticker": "AMSC",
+  "asOf": "2026-03-31",
+  "source": {
+    "name": "AMERICAN SUPERCONDUCTOR CORP /DE/ Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/880807/000143774926018542/amsc20260331_10k.htm",
+    "date": "2026-05-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Grid",
+      "revenue": 251317000,
+      "share": 0.8400895856662934
+    },
+    {
+      "name": "Wind",
+      "revenue": 47838000,
+      "share": 0.15991041433370662
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 174103000,
+      "share": 0.5819825842790527
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 47668000,
+      "share": 0.15934214704751717
+    },
+    {
+      "name": "South America",
+      "revenue": 23819000,
+      "share": 0.07962093229262422
+    },
+    {
+      "name": "EMEA",
+      "revenue": 12345000,
+      "share": 0.04126623322357975
+    }
+  ]
+}

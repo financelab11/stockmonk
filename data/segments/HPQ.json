@@ -1,0 +1,40 @@
+{
+  "ticker": "HPQ",
+  "asOf": "2025-10-31",
+  "source": {
+    "name": "HP INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721725000071/hpq-20251031.htm",
+    "date": "2025-12-10"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Personal Systems",
+      "revenue": 38532000000,
+      "share": 0.6968441992946921
+    },
+    {
+      "name": "Printing",
+      "revenue": 16702000000,
+      "share": 0.3020526268197848
+    },
+    {
+      "name": "Corporate Investments",
+      "revenue": 62000000,
+      "share": 0.0011212587033185642
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 36083000000,
+      "share": 0.6525544805136089
+    },
+    {
+      "name": "United States",
+      "revenue": 19212000000,
+      "share": 0.3474455194863912
+    }
+  ]
+}

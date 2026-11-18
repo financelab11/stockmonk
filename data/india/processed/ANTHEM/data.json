@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 942.3499755859375,
-    "prevClose": 915.5499877929688,
-    "changePct": 0.02927200933896912,
-    "asOf": "2026-11-08",
-    "high52": 977.55,
+    "close": 915.7999877929688,
+    "prevClose": 924.25,
+    "changePct": -0.009142561219400824,
+    "asOf": "2026-11-18",
+    "high52": 989.1,
     "low52": 579.15,
-    "marketCap": 531040665600,
+    "marketCap": 516078993408,
     "sharesOutstanding": null,
     "dividendYield": 0.0022
   },
@@ -119,8 +119,8 @@
       "grossProfit": null,
       "operatingIncome": 1950000000,
       "netIncome": 1620000000,
-      "epsDiluted": 2.9,
-      "epsBasic": 2.9,
+      "epsDiluted": 2.88,
+      "epsBasic": 2.88,
       "interestExpense": 40000000,
       "pretaxIncome": 2000000000,
       "incomeTax": 380000000,
@@ -160,8 +160,8 @@
       "grossProfit": null,
       "operatingIncome": 1600000000,
       "netIncome": 1240000000,
-      "epsDiluted": 2.22,
-      "epsBasic": 2.22,
+      "epsDiluted": 2.21,
+      "epsBasic": 2.21,
       "interestExpense": 30000000,
       "pretaxIncome": 1610000000,
       "incomeTax": 370300000,
@@ -201,8 +201,8 @@
       "grossProfit": null,
       "operatingIncome": 1950000000,
       "netIncome": 830000000,
-      "epsDiluted": 1.48,
-      "epsBasic": 1.48,
+      "epsDiluted": 1.47,
+      "epsBasic": 1.47,
       "interestExpense": 10000000,
       "pretaxIncome": 1780000000,
       "incomeTax": 961200000.0000001,
@@ -490,8 +490,8 @@
       "grossProfit": null,
       "operatingIncome": 1820000000,
       "netIncome": 930000000,
-      "epsDiluted": 1.7,
-      "epsBasic": 1.7,
+      "epsDiluted": 1.65,
+      "epsBasic": 1.65,
       "interestExpense": 200000000,
       "pretaxIncome": 1210000000,
       "incomeTax": 278300000,
@@ -531,8 +531,8 @@
       "grossProfit": null,
       "operatingIncome": 4080000000,
       "netIncome": 2710000000,
-      "epsDiluted": 4.92,
-      "epsBasic": 4.92,
+      "epsDiluted": 4.83,
+      "epsBasic": 4.83,
       "interestExpense": 170000000,
       "pretaxIncome": 3660000000,
       "incomeTax": 951600000,
@@ -572,8 +572,8 @@
       "grossProfit": null,
       "operatingIncome": 5650000000,
       "netIncome": 4060000000,
-      "epsDiluted": 7.11,
-      "epsBasic": 7.11,
+      "epsDiluted": 7.22,
+      "epsBasic": 7.22,
       "interestExpense": 100000000,
       "pretaxIncome": 5460000000,
       "incomeTax": 1419600000,
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 4310000000,
       "netIncome": 3850000000,
-      "epsDiluted": 6.75,
-      "epsBasic": 6.75,
+      "epsDiluted": 6.86,
+      "epsBasic": 6.86,
       "interestExpense": 90000000,
       "pretaxIncome": 4970000000,
       "incomeTax": 1143100000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 5060000000,
       "netIncome": 3670000000,
-      "epsDiluted": 6.57,
-      "epsBasic": 6.57,
+      "epsDiluted": 6.54,
+      "epsBasic": 6.54,
       "interestExpense": 100000000,
       "pretaxIncome": 4770000000,
       "incomeTax": 1097100000,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 6720000000,
       "netIncome": 4510000000,
-      "epsDiluted": 8.07,
-      "epsBasic": 8.07,
+      "epsDiluted": 8.04,
+      "epsBasic": 8.04,
       "interestExpense": 110000000,
       "pretaxIncome": 6570000000,
       "incomeTax": 2036700000,
@@ -772,9 +772,9 @@
     "revenueGrowthTtm": -0.012071463061323007,
     "revenueGrowthLatestQ": 0.08000000000000007,
     "epsTtm": 10.91,
-    "epsGrowthTtm": 0.1845819761129206,
+    "epsGrowthTtm": 0.18715995647442885,
     "grossMargin": 0.64347,
-    "operatingMargin": 0.40534002,
+    "operatingMargin": 0.35077998,
     "netMargin": 0.29947,
     "fcfMargin": 0.2999058380414313,
     "roic": 0.3,
@@ -784,21 +784,21 @@
     "interestCover": 141,
     "freeCashFlowTtm": 6370000000,
     "ebitdaTtm": 8460000000,
-    "pe": 86.48870775244299,
-    "evEbitda": 61.98650184018913,
-    "evSales": 25.630782285826,
-    "pfcf": 83.36588156985871,
-    "fcfYield": 0.01199531488384757,
-    "return1y": 0.3402466660636503,
-    "returnYtd": 0.48065657131858686,
-    "return5y": 0.2936358189406445
+    "pe": 84.0519533237785,
+    "evEbitda": 60.21798266855792,
+    "evSales": 24.899517760312804,
+    "pfcf": 81.01711042511774,
+    "fcfYield": 0.012343071664155155,
+    "return1y": 0.3921425998056962,
+    "returnYtd": 0.43894020806443157,
+    "return5y": 0.2571886219424535
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "36th percentile revenue/EPS growth in the covered universe."
+      "detail": "37th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -822,7 +822,7 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "9th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "11th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -950,13 +950,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=ANTHEM",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://anthembio.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:44.769Z"
+  "updatedAt": "2026-11-18T09:10:03.542Z"
 }

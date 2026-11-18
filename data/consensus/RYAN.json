@@ -1,11 +1,11 @@
 {
   "ticker": "RYAN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/RYAN/analysis",
-  "targetMean": 49.65625,
-  "targetHigh": 76,
-  "targetLow": 40,
+  "targetMean": 49.59375,
+  "targetHigh": 68,
+  "targetLow": 41,
   "recommendationKey": "buy",
   "analystCount": 16,
   "distribution": {
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 795307480,
-      "revenueGrowth": 0.0587,
+      "revenueAvg": 785900200,
+      "revenueGrowth": 0.0462,
       "epsAvg": 0.46186,
       "epsGrowth": 0.026400002,
       "analystCount": 18
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 795307480,
-    "revenueGrowth": 0.0587,
+    "revenueAvg": 785900200,
+    "revenueGrowth": 0.0462,
     "epsAvg": 0.46186,
     "epsGrowth": 0.026400002,
     "analystCount": 18
   },
   "revisions": {
-    "eps7d": -0.0020057934992187,
-    "eps30d": 0.007746322918781301,
+    "eps7d": 0,
+    "eps30d": 0.008910013025524632,
     "eps60d": 0.008016059808943599,
-    "eps90d": 0.009744867533596269,
+    "eps90d": 0.007755621787714606,
     "revenue30d": null
   }
 }

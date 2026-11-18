@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 243.4600067138672,
-    "prevClose": 241.0500030517578,
-    "changePct": 0.009997940807293437,
-    "asOf": "2026-11-08",
+    "close": 242.6699981689453,
+    "prevClose": 246.7100067138672,
+    "changePct": -0.016375535790923323,
+    "asOf": "2026-11-18",
     "high52": 391,
     "low52": 220.06,
-    "marketCap": 78135664640,
+    "marketCap": 77882122240,
     "sharesOutstanding": null,
-    "dividendYield": 0.0135
+    "dividendYield": 0.013200001
   },
   "ttm": {
     "period": "TTM",
@@ -1020,7 +1020,7 @@
     "epsTtm": 6.69,
     "epsGrowthTtm": 0.0652866242038217,
     "grossMargin": 0.15567,
-    "operatingMargin": 0.10734,
+    "operatingMargin": 0.102139995,
     "netMargin": 0.07324,
     "fcfMargin": 0.026476578411405296,
     "roic": 0.16,
@@ -1030,14 +1030,14 @@
     "interestCover": 60.166666666666664,
     "freeCashFlowTtm": 520000000,
     "ebitdaTtm": 3610000000,
-    "pe": 36.5119928224299,
-    "evEbitda": 20.6769707966759,
-    "evSales": 3.3547804303820223,
-    "pfcf": 150.26089353846154,
-    "fcfYield": 0.0066550915308116075,
-    "return1y": -0.29433130535083096,
-    "returnYtd": -0.33561182369310727,
-    "return5y": 1.0954110059083084
+    "pe": 36.39351506542056,
+    "evEbitda": 20.606737444875346,
+    "evSales": 3.3433852663370787,
+    "pfcf": 149.773312,
+    "fcfYield": 0.0066767569378448416,
+    "return1y": -0.3099576644773152,
+    "returnYtd": -0.33776771099267666,
+    "return5y": 1.193964068429748
   },
   "factorChips": [
     {
@@ -1048,9 +1048,9 @@
     },
     {
       "key": "profitability",
-      "label": "Profitability: Average",
-      "tone": "neutral",
-      "detail": "35th percentile profitability metrics in the covered universe."
+      "label": "Profitability: Low",
+      "tone": "caution",
+      "detail": "31st percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1068,12 +1068,12 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "63rd percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "62nd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1504,13 +1504,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=RAILTEL",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.railtel.in",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:39.364Z"
+  "updatedAt": "2026-11-18T09:09:11.762Z"
 }

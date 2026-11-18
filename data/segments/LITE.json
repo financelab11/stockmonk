@@ -1,0 +1,40 @@
+{
+  "ticker": "LITE",
+  "asOf": "2026-06-27",
+  "source": {
+    "name": "Lumentum Holdings Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm",
+    "date": "2026-08-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Systems",
+      "revenue": 2005600000,
+      "share": 0.66542800265428
+    },
+    {
+      "name": "Components",
+      "revenue": 1008400000,
+      "share": 0.33457199734571996
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Asia Pacific",
+      "revenue": 1752200000,
+      "share": 0.5813536828135368
+    },
+    {
+      "name": "Americas",
+      "revenue": 1084800000,
+      "share": 0.3599203715992037
+    },
+    {
+      "name": "EMEA",
+      "revenue": 177000000,
+      "share": 0.05872594558725946
+    }
+  ]
+}

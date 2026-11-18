@@ -1,11 +1,11 @@
 {
   "ticker": "NMDC",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/adx/NMDC/forecast/",
-  "targetMean": 31.03,
+  "targetMean": 31.47,
   "targetHigh": 34,
-  "targetLow": 28.1,
+  "targetLow": 29.4,
   "recommendationKey": "buy",
   "analystCount": 3,
   "distribution": {
@@ -19,8 +19,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 30300000000,
-      "revenueGrowth": 0.05,
+      "revenueAvg": 30100000000,
+      "revenueGrowth": 0.046,
       "epsAvg": 3.64,
       "epsGrowth": -0.152,
       "analystCount": 3
@@ -38,8 +38,8 @@
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 30300000000,
-    "revenueGrowth": 0.05,
+    "revenueAvg": 30100000000,
+    "revenueGrowth": 0.046,
     "epsAvg": 3.64,
     "epsGrowth": -0.152,
     "analystCount": 3

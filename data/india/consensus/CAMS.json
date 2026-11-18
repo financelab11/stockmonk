@@ -1,12 +1,12 @@
 {
   "ticker": "CAMS",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=CAMS",
-  "targetMean": 878.0526,
-  "targetHigh": 1018,
+  "targetMean": 877.7895,
+  "targetHigh": 1013,
   "targetLow": 730,
-  "recommendationKey": "strong_buy",
+  "recommendationKey": "none",
   "analystCount": 19,
   "distribution": null,
   "estimates": [
@@ -31,19 +31,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 16841917560,
-      "revenueGrowth": 0.1108,
-      "epsAvg": 21.55253,
-      "epsGrowth": 0.1266,
+      "revenueAvg": 16840417560,
+      "revenueGrowth": 0.1107,
+      "epsAvg": 21.54586,
+      "epsGrowth": 0.1263,
       "analystCount": 18
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 19090515420,
+      "revenueAvg": 19088936480,
       "revenueGrowth": 0.13350001,
-      "epsAvg": 25.31112,
-      "epsGrowth": 0.1744,
+      "epsAvg": 25.29935,
+      "epsGrowth": 0.1742,
       "analystCount": 19
     }
   ],

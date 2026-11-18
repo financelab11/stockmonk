@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 9894,
-    "prevClose": 9731,
-    "changePct": 0.016750590895077577,
-    "asOf": "2026-11-08",
+    "close": 9548,
+    "prevClose": 9474,
+    "changePct": 0.007810850749419451,
+    "asOf": "2026-11-18",
     "high52": 12863,
     "low52": 6666,
-    "marketCap": 100098785280,
+    "marketCap": 96598261760,
     "sharesOutstanding": null,
-    "dividendYield": 0.010299999
+    "dividendYield": 0.0106
   },
   "ttm": {
     "period": "TTM",
@@ -1102,7 +1102,7 @@
     "epsTtm": 319.53999999999996,
     "epsGrowthTtm": -0.016285441615614404,
     "grossMargin": 0.24174999,
-    "operatingMargin": 0.14909,
+    "operatingMargin": 0.14671,
     "netMargin": 0.13041,
     "fcfMargin": 0.006963788300835654,
     "roic": 0.24,
@@ -1112,14 +1112,14 @@
     "interestCover": null,
     "freeCashFlowTtm": 150000000,
     "ebitdaTtm": 3750000000,
-    "pe": 30.990336,
-    "evEbitda": 26.548628866133335,
-    "evSales": 4.022519525171717,
-    "pfcf": 667.3252352,
-    "fcfYield": 0.0014985196831351598,
-    "return1y": 0.2575753682720232,
-    "returnYtd": 0.2838068005245238,
-    "return5y": 5.107157065803148
+    "pe": 29.906582588235295,
+    "evEbitda": 25.615155927466667,
+    "evSales": 3.8810842314343432,
+    "pfcf": 643.9884117333334,
+    "fcfYield": 0.00155282297286754,
+    "return1y": 0.11316969602298221,
+    "returnYtd": 0.23891119177361575,
+    "return5y": 4.427048799453418
   },
   "factorChips": [
     {
@@ -1132,7 +1132,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "59th percentile profitability metrics in the covered universe."
+      "detail": "55th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1150,12 +1150,12 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "47th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "50th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=VOLTAMP",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.voltamptransformers.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:36.687Z"
+  "updatedAt": "2026-11-18T09:08:59.643Z"
 }

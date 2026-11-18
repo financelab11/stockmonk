@@ -1,0 +1,35 @@
+{
+  "ticker": "NOW",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "SERVICENOW, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm",
+    "date": "2026-01-29"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 13278000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 8348000000,
+      "share": 0.6287091429432143
+    },
+    {
+      "name": "EMEA",
+      "revenue": 3402000000,
+      "share": 0.2562132851333032
+    },
+    {
+      "name": "Asia Pacific & Other",
+      "revenue": 1528000000,
+      "share": 0.11507757192348245
+    }
+  ]
+}

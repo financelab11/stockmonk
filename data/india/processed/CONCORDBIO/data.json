@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 612.2000122070312,
-    "prevClose": 632.5999755859375,
-    "changePct": -0.03224780930478388,
-    "asOf": "2026-11-08",
+    "close": 564.9000244140625,
+    "prevClose": 554.7999877929688,
+    "changePct": 0.018204824879813675,
+    "asOf": "2026-11-18",
     "high52": 807.5,
     "low52": 493.5,
-    "marketCap": 128092086272,
+    "marketCap": 118195396608,
     "sharesOutstanding": null,
-    "dividendYield": 0.006
+    "dividendYield": 0.0068
   },
   "ttm": {
     "period": "TTM",
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 2050000000,
       "netIncome": 1690000000,
-      "epsDiluted": 8.09,
-      "epsBasic": 8.09,
+      "epsDiluted": 8.08,
+      "epsBasic": 8.08,
       "interestExpense": 10000000,
       "pretaxIncome": 2140000000,
       "incomeTax": 449400000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 3270000000,
       "netIncome": 2350000000,
-      "epsDiluted": 11.26,
-      "epsBasic": 11.26,
+      "epsDiluted": 11.25,
+      "epsBasic": 11.25,
       "interestExpense": 10000000,
       "pretaxIncome": 3130000000,
       "incomeTax": 782500000,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 2700000000,
       "netIncome": 1750000000,
-      "epsDiluted": 8.37,
-      "epsBasic": 8.37,
+      "epsDiluted": 8.36,
+      "epsBasic": 8.36,
       "interestExpense": 60000000,
       "pretaxIncome": 2380000000,
       "incomeTax": 618800000,
@@ -897,7 +897,7 @@
     "epsTtm": 13.5,
     "epsGrowthTtm": -0.12846998063266613,
     "grossMargin": 0.63653,
-    "operatingMargin": 0.27826,
+    "operatingMargin": 0.29123,
     "netMargin": 0.24132,
     "fcfMargin": 0.16303317535545023,
     "roic": 0.17,
@@ -907,27 +907,27 @@
     "interestCover": null,
     "freeCashFlowTtm": 1720000000,
     "ebitdaTtm": 4020000000,
-    "pe": 45.74717366857143,
-    "evEbitda": 30.7592128159204,
-    "evSales": 10.568550044444445,
-    "pfcf": 74.47214318139535,
-    "fcfYield": 0.013427839689858962,
-    "return1y": -0.14415559781848641,
-    "returnYtd": -0.07825248621231717,
-    "return5y": 0.3221524768893522
+    "pe": 42.212641645714285,
+    "evEbitda": 28.297349715422886,
+    "evSales": 9.722679132991454,
+    "pfcf": 68.71825384186046,
+    "fcfYield": 0.014552174190882004,
+    "return1y": -0.24294625089025357,
+    "returnYtd": -0.1494688293698091,
+    "return5y": 0.21999992091037424
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "19th percentile revenue/EPS growth in the covered universe."
+      "detail": "20th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "74th percentile profitability metrics in the covered universe."
+      "detail": "72nd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -945,7 +945,7 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "41st percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "42nd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1234,13 +1234,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=CONCORDBIO",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.concordbiotech.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:45.164Z"
+  "updatedAt": "2026-11-18T09:10:08.344Z"
 }

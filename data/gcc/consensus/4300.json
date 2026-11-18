@@ -1,11 +1,11 @@
 {
   "ticker": "4300",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/4300/forecast/",
-  "targetMean": 18.73,
+  "targetMean": 18.9,
   "targetHigh": 22,
-  "targetLow": 15.1,
+  "targetLow": 15.8,
   "recommendationKey": "sell",
   "analystCount": 4,
   "distribution": {
@@ -19,10 +19,10 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 4800000000,
-      "revenueGrowth": 0.233,
-      "epsAvg": 0.99,
-      "epsGrowth": -0.057,
+      "revenueAvg": 4600000000,
+      "revenueGrowth": 0.182,
+      "epsAvg": 0.98,
+      "epsGrowth": -0.067,
       "analystCount": 4
     },
     {
@@ -38,10 +38,10 @@
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 4800000000,
-    "revenueGrowth": 0.233,
-    "epsAvg": 0.99,
-    "epsGrowth": -0.057,
+    "revenueAvg": 4600000000,
+    "revenueGrowth": 0.182,
+    "epsAvg": 0.98,
+    "epsGrowth": -0.067,
     "analystCount": 4
   },
   "revisions": null

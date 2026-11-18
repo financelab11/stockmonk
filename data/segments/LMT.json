@@ -1,0 +1,60 @@
+{
+  "ticker": "LMT",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "LOCKHEED MARTIN CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/lmt-20251231.htm",
+    "date": "2026-01-29"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Aeronautics",
+      "revenue": 30257000000,
+      "share": 0.40316863873787445
+    },
+    {
+      "name": "Rotary & Mission Systems",
+      "revenue": 17312000000,
+      "share": 0.23067903208613155
+    },
+    {
+      "name": "Missiles & Fire Control",
+      "revenue": 14450000000,
+      "share": 0.19254343886579256
+    },
+    {
+      "name": "Space",
+      "revenue": 13029000000,
+      "share": 0.17360889031020146
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 53705000000,
+      "share": 0.7156086771133141
+    },
+    {
+      "name": "Europe",
+      "revenue": 8805000000,
+      "share": 0.11732491205628398
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 7815000000,
+      "share": 0.10413335465302206
+    },
+    {
+      "name": "Middle East",
+      "revenue": 2864000000,
+      "share": 0.03816224283125466
+    },
+    {
+      "name": "Other Region",
+      "revenue": 1859000000,
+      "share": 0.024770813346125145
+    }
+  ]
+}

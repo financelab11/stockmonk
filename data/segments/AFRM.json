@@ -1,0 +1,30 @@
+{
+  "ticker": "AFRM",
+  "asOf": "2026-06-30",
+  "source": {
+    "name": "Affirm Holdings, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026059279/afrm-20260630.htm",
+    "date": "2026-08-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 1443922000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "CA",
+      "revenue": 142821000,
+      "share": 0.09891185257929445
+    },
+    {
+      "name": "Other Geographical",
+      "revenue": 6304000,
+      "share": 0.0043658867999795
+    }
+  ]
+}

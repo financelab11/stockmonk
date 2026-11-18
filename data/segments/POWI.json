@@ -1,0 +1,60 @@
+{
+  "ticker": "POWI",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "POWER INTEGRATIONS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/833640/000083364026000037/powi-20251231x10k.htm",
+    "date": "2026-02-06"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Single Reportable",
+      "revenue": 443504000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Hong Kong China Domain",
+      "revenue": 245909000,
+      "share": 0.5544685053573362
+    },
+    {
+      "name": "KR",
+      "revenue": 39537000,
+      "share": 0.08914688480825426
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 35788000,
+      "share": 0.08069374797070601
+    },
+    {
+      "name": "Germany",
+      "revenue": 27235000,
+      "share": 0.06140869078971103
+    },
+    {
+      "name": "Taiwan",
+      "revenue": 25518000,
+      "share": 0.05753724881849995
+    },
+    {
+      "name": "IN",
+      "revenue": 23649000,
+      "share": 0.05332308164075183
+    },
+    {
+      "name": "Emea Other Than Germany",
+      "revenue": 22994000,
+      "share": 0.0518462065731087
+    },
+    {
+      "name": "United States",
+      "revenue": 22874000,
+      "share": 0.051575634041632096
+    }
+  ]
+}

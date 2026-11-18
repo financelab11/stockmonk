@@ -1,17 +1,17 @@
 {
   "ticker": "QCOM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/QCOM/analysis",
-  "targetMean": 185.7857,
+  "targetMean": 185.9643,
   "targetHigh": 320,
   "targetLow": 100,
   "recommendationKey": "hold",
   "analystCount": 28,
   "distribution": {
     "strongBuy": 2,
-    "buy": 9,
-    "hold": 23,
+    "buy": 8,
+    "hold": 24,
     "sell": 1,
     "strongSell": 2
   },
@@ -19,38 +19,38 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 10822201520,
-      "revenueGrowth": -0.1167,
-      "epsAvg": 2.25354,
-      "epsGrowth": -0.3561,
-      "analystCount": 25
+      "revenueAvg": 10821305400,
+      "revenueGrowth": -0.1168,
+      "epsAvg": 2.25648,
+      "epsGrowth": -0.35529998,
+      "analystCount": 26
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 11075460820,
-      "revenueGrowth": 0.045,
-      "epsAvg": 2.26959,
-      "epsGrowth": -0.1436,
-      "analystCount": 25
+      "revenueAvg": 11070863960,
+      "revenueGrowth": 0.044499997,
+      "epsAvg": 2.26692,
+      "epsGrowth": -0.1446,
+      "analystCount": 26
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-09-30",
-      "revenueAvg": 45419016820,
-      "revenueGrowth": 0.0504,
-      "epsAvg": 9.60149,
-      "epsGrowth": -0.088999994,
-      "analystCount": 28
+      "revenueAvg": 45423741500,
+      "revenueGrowth": 0.0505,
+      "epsAvg": 9.59179,
+      "epsGrowth": -0.09,
+      "analystCount": 29
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-09-30",
-      "revenueAvg": 52466936880,
-      "revenueGrowth": 0.1552,
-      "epsAvg": 12.24831,
-      "epsGrowth": 0.2757,
-      "analystCount": 29
+      "revenueAvg": 52449105650,
+      "revenueGrowth": 0.1547,
+      "epsAvg": 12.2067,
+      "epsGrowth": 0.2726,
+      "analystCount": 30
     }
   ],
   "history": [
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 10822201520,
-    "revenueGrowth": -0.1167,
-    "epsAvg": 2.25354,
-    "epsGrowth": -0.3561,
-    "analystCount": 25
+    "revenueAvg": 10821305400,
+    "revenueGrowth": -0.1168,
+    "epsAvg": 2.25648,
+    "epsGrowth": -0.35529998,
+    "analystCount": 26
   },
   "revisions": {
-    "eps7d": -0.05394252607412586,
-    "eps30d": -0.05422768496090924,
-    "eps60d": -0.05615033978229944,
-    "eps90d": -0.0607318698024224,
+    "eps7d": -0.006803009891804157,
+    "eps30d": -0.05518316077308838,
+    "eps60d": -0.057826293233429915,
+    "eps90d": -0.055690103628269316,
     "revenue30d": null
   }
 }

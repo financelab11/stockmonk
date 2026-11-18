@@ -1,17 +1,17 @@
 {
   "ticker": "ORCL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/ORCL/analysis",
-  "targetMean": 235.7735,
+  "targetMean": 236.184,
   "targetHigh": 400,
   "targetLow": 110,
-  "recommendationKey": "buy",
+  "recommendationKey": "strong_buy",
   "analystCount": 40,
   "distribution": {
     "strongBuy": 7,
-    "buy": 28,
-    "hold": 6,
+    "buy": 29,
+    "hold": 5,
     "sell": 1,
     "strongSell": 0
   },
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-05-31",
-      "revenueAvg": 90446551360,
-      "revenueGrowth": 0.3428,
-      "epsAvg": 8.1518,
-      "epsGrowth": 0.0684,
-      "analystCount": 38
+      "revenueAvg": 90462327150,
+      "revenueGrowth": 0.343,
+      "epsAvg": 8.15047,
+      "epsGrowth": 0.0682,
+      "analystCount": 39
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-05-31",
-      "revenueAvg": 131818816050,
-      "revenueGrowth": 0.45740002,
-      "epsAvg": 11.06356,
-      "epsGrowth": 0.35720003,
+      "revenueAvg": 131818007890,
+      "revenueGrowth": 0.45720002,
+      "epsAvg": 11.05881,
+      "epsGrowth": 0.3568,
       "analystCount": 40
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 33
   },
   "revisions": {
-    "eps7d": 0.0013647491797379452,
-    "eps30d": 0.0012774215736850447,
-    "eps60d": 0.011019539994666872,
-    "eps90d": 0.012471138523907133,
+    "eps7d": 0,
+    "eps30d": 0.0012136712449590803,
+    "eps60d": 0.001143571677746369,
+    "eps90d": 0.012087225712238636,
     "revenue30d": null
   }
 }

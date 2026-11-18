@@ -1,7 +1,7 @@
 {
   "ticker": "VKTX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/VKTX/analysis",
   "targetMean": 95.31579,
   "targetHigh": 125,
@@ -21,9 +21,9 @@
       "endDate": "2026-12-31",
       "revenueAvg": 0,
       "revenueGrowth": 0,
-      "epsAvg": -1.3472,
-      "epsGrowth": 0.0238,
-      "analystCount": 17
+      "epsAvg": -1.35291,
+      "epsGrowth": 0.0196,
+      "analystCount": 18
     },
     {
       "period": "Following quarter",
@@ -39,17 +39,17 @@
       "endDate": "2026-12-31",
       "revenueAvg": 0,
       "revenueGrowth": 0,
-      "epsAvg": -5.31141,
-      "epsGrowth": -0.665,
-      "analystCount": 17
+      "epsAvg": -5.31411,
+      "epsGrowth": -0.6659,
+      "analystCount": 18
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 0,
       "revenueGrowth": 0,
-      "epsAvg": -5.12636,
-      "epsGrowth": 0.0348,
+      "epsAvg": -5.20858,
+      "epsGrowth": 0.0199,
       "analystCount": 18
     }
   ],
@@ -82,7 +82,7 @@
       "quarter": "2026-09-30",
       "endDate": "2026-09-30",
       "epsActual": -1.55,
-      "epsEstimate": -1.07017,
+      "epsEstimate": -1.06016,
       "revenueActual": 0,
       "revenueEstimate": null
     }
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 0,
     "revenueGrowth": 0,
-    "epsAvg": -1.3472,
-    "epsGrowth": 0.0238,
-    "analystCount": 17
+    "epsAvg": -1.35291,
+    "epsGrowth": 0.0196,
+    "analystCount": 18
   },
   "revisions": {
-    "eps7d": 0.15772735892444945,
-    "eps30d": 0.15325790293058184,
-    "eps60d": 0.15325790293058184,
-    "eps90d": 0.14784711536799167,
+    "eps7d": 0,
+    "eps30d": 0.1574253155955152,
+    "eps60d": 0.15384414958409054,
+    "eps90d": 0.15384414958409054,
     "revenue30d": null
   }
 }

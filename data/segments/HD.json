@@ -1,0 +1,35 @@
+{
+  "ticker": "HD",
+  "asOf": "2026-02-01",
+  "source": {
+    "name": "The Home Depot, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+    "date": "2026-03-18"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Primary",
+      "revenue": 151966000000,
+      "share": 0.92277891464207
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 12717000000,
+      "share": 0.07722108535793008
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 152170000000,
+      "share": 0.9240176581675097
+    },
+    {
+      "name": "Non-US",
+      "revenue": 12513000000,
+      "share": 0.0759823418324903
+    }
+  ]
+}

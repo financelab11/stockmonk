@@ -1,0 +1,40 @@
+{
+  "ticker": "AMAT",
+  "asOf": "2025-10-26",
+  "source": {
+    "name": "APPLIED MATERIALS INC /DE Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
+    "date": "2025-12-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Semiconductor Systems",
+      "revenue": 20798000000,
+      "share": 0.7331500282007897
+    },
+    {
+      "name": "Applied Global Services",
+      "revenue": 6385000000,
+      "share": 0.2250775521714608
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 1185000000,
+      "share": 0.04177241962774958
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Outside North America",
+      "revenue": 25305000000,
+      "share": 0.8920262267343486
+    },
+    {
+      "name": "United States",
+      "revenue": 3063000000,
+      "share": 0.10797377326565144
+    }
+  ]
+}

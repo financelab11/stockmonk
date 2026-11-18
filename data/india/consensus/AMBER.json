@@ -1,61 +1,53 @@
 {
   "ticker": "AMBER",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=AMBER",
-  "targetMean": 8327.348,
+  "targetMean": 8036.4585,
   "targetHigh": 10659,
-  "targetLow": 6381,
+  "targetLow": 6322,
   "recommendationKey": "buy",
-  "analystCount": 23,
+  "analystCount": 24,
   "distribution": null,
   "estimates": [
     {
       "period": "Next quarter",
-      "endDate": "2026-09-30",
-      "revenueAvg": 21664466670,
-      "revenueGrowth": 0.3154,
-      "epsAvg": -7.55506,
-      "epsGrowth": 0.1876,
-      "analystCount": 15
+      "endDate": "2026-12-31",
+      "revenueAvg": 38347000000,
+      "revenueGrowth": 0.3031,
+      "epsAvg": 16.83797,
+      "epsGrowth": -0.2193,
+      "analystCount": 2
     },
     {
       "period": "Following quarter",
-      "endDate": "2026-12-31",
-      "revenueAvg": 36082000000,
-      "revenueGrowth": 0.22610001,
-      "epsAvg": 24.57808,
-      "epsGrowth": 0.1396,
+      "endDate": "2027-03-31",
+      "revenueAvg": 55553000000,
+      "revenueGrowth": 0.3394,
+      "epsAvg": 30.50824,
+      "epsGrowth": 0.32740003,
       "analystCount": 2
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 148190694190,
-      "revenueGrowth": 0.216,
-      "epsAvg": 101.74631,
-      "epsGrowth": 0.7396,
-      "analystCount": 22
+      "revenueAvg": 153826509550,
+      "revenueGrowth": 0.26229998,
+      "epsAvg": 87.08366,
+      "epsGrowth": 0.4889,
+      "analystCount": 21
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 230102465340,
-      "revenueGrowth": 0.5527,
-      "epsAvg": 187.60612,
-      "epsGrowth": 0.84389997,
-      "analystCount": 23
+      "revenueAvg": 235553254360,
+      "revenueGrowth": 0.5313,
+      "epsAvg": 175.15787,
+      "epsGrowth": 1.0114,
+      "analystCount": 25
     }
   ],
   "history": [
-    {
-      "quarter": "2Q2026",
-      "endDate": "2025-09-30",
-      "epsActual": -9.3,
-      "epsEstimate": 2.43143,
-      "revenueActual": null,
-      "revenueEstimate": null
-    },
     {
       "quarter": "3Q2026",
       "endDate": "2025-12-31",
@@ -79,14 +71,22 @@
       "epsEstimate": 28.84,
       "revenueActual": null,
       "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": -20.6966,
+      "epsEstimate": -7.55506,
+      "revenueActual": null,
+      "revenueEstimate": null
     }
   ],
   "currentQuarter": {
-    "endDate": "2026-09-30",
-    "revenueAvg": 21664466670,
-    "revenueGrowth": 0.3154,
-    "epsAvg": -7.55506,
-    "epsGrowth": 0.1876,
-    "analystCount": 15
+    "endDate": "2026-12-31",
+    "revenueAvg": 38347000000,
+    "revenueGrowth": 0.3031,
+    "epsAvg": 16.83797,
+    "epsGrowth": -0.2193,
+    "analystCount": 2
   }
 }

@@ -1,17 +1,17 @@
 {
   "ticker": "2310",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/2310/forecast/",
-  "targetMean": 15.14,
+  "targetMean": 14.84,
   "targetHigh": 18.2,
   "targetLow": 11,
   "recommendationKey": "buy",
-  "analystCount": 8,
+  "analystCount": 7,
   "distribution": {
     "strongBuy": 1,
     "buy": 1,
-    "hold": 5,
+    "hold": 4,
     "sell": 0,
     "strongSell": 1
   },
@@ -23,7 +23,7 @@
       "revenueGrowth": -0.361,
       "epsAvg": -1.63,
       "epsGrowth": null,
-      "analystCount": 8
+      "analystCount": 7
     },
     {
       "period": "Next fiscal year",
@@ -32,7 +32,7 @@
       "revenueGrowth": null,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 8
+      "analystCount": 7
     }
   ],
   "history": [],
@@ -42,7 +42,7 @@
     "revenueGrowth": -0.361,
     "epsAvg": -1.63,
     "epsGrowth": null,
-    "analystCount": 8
+    "analystCount": 7
   },
   "revisions": null
 }

@@ -1,9 +1,9 @@
 {
   "ticker": "9526",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/9526/forecast/",
-  "targetMean": 13.83,
+  "targetMean": 14.01,
   "targetHigh": 18,
   "targetLow": 11,
   "recommendationKey": "buy",
@@ -20,7 +20,7 @@
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
       "revenueAvg": 3200000000,
-      "revenueGrowth": 0.368,
+      "revenueGrowth": 0.36200000000000004,
       "epsAvg": 0.11,
       "epsGrowth": -0.8109999999999999,
       "analystCount": 11
@@ -39,7 +39,7 @@
   "currentQuarter": {
     "endDate": "2026-12-31",
     "revenueAvg": 3200000000,
-    "revenueGrowth": 0.368,
+    "revenueGrowth": 0.36200000000000004,
     "epsAvg": 0.11,
     "epsGrowth": -0.8109999999999999,
     "analystCount": 11

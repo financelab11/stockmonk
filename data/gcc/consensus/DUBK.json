@@ -1,7 +1,7 @@
 {
   "ticker": "DUBK",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/qse/DUBK/forecast/",
   "targetMean": 3.55,
   "targetHigh": 3.66,

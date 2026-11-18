@@ -1,0 +1,35 @@
+{
+  "ticker": "PLD",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Prologis, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526051453/pld-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Real Estate Operations",
+      "revenue": 8197774000,
+      "share": 0.9326115538489944
+    },
+    {
+      "name": "Strategic Capital",
+      "revenue": 592353000,
+      "share": 0.06738844615100556
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 7802692000,
+      "share": 0.8876654455618218
+    },
+    {
+      "name": "Other Americas",
+      "revenue": 831000000,
+      "share": 0.09453788324104988
+    }
+  ]
+}

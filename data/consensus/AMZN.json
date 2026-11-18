@@ -1,16 +1,16 @@
 {
   "ticker": "AMZN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/AMZN/analysis",
-  "targetMean": 326.99017,
+  "targetMean": 326.09033,
   "targetHigh": 405,
   "targetLow": 230,
   "recommendationKey": "strong_buy",
-  "analystCount": 59,
+  "analystCount": 60,
   "distribution": {
     "strongBuy": 14,
-    "buy": 44,
+    "buy": 45,
     "hold": 3,
     "sell": 0,
     "strongSell": 0
@@ -19,38 +19,38 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 244838490660,
-      "revenueGrowth": 0.14739999,
-      "epsAvg": 2.39876,
-      "epsGrowth": 0.2301,
+      "revenueAvg": 244877417420,
+      "revenueGrowth": 0.1476,
+      "epsAvg": 2.3942,
+      "epsGrowth": 0.22780001,
       "analystCount": 43
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 210245179650,
-      "revenueGrowth": 0.1583,
-      "epsAvg": 2.29664,
-      "epsGrowth": -0.1739,
+      "revenueAvg": 210079549030,
+      "revenueGrowth": 0.1573,
+      "epsAvg": 2.29698,
+      "epsGrowth": -0.1737,
       "analystCount": 29
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 829032225880,
-      "revenueGrowth": 0.15640001,
-      "epsAvg": 12.80113,
-      "epsGrowth": 0.78540003,
+      "revenueAvg": 829167641140,
+      "revenueGrowth": 0.1566,
+      "epsAvg": 12.80045,
+      "epsGrowth": 0.7853,
       "analystCount": 53
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 959647733950,
-      "revenueGrowth": 0.1576,
-      "epsAvg": 10.67124,
-      "epsGrowth": -0.1664,
-      "analystCount": 57
+      "revenueAvg": 959428910760,
+      "revenueGrowth": 0.1571,
+      "epsAvg": 10.6575,
+      "epsGrowth": -0.1674,
+      "analystCount": 58
     }
   ],
   "history": [
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 244838490660,
-    "revenueGrowth": 0.14739999,
-    "epsAvg": 2.39876,
-    "epsGrowth": 0.2301,
+    "revenueAvg": 244877417420,
+    "revenueGrowth": 0.1476,
+    "epsAvg": 2.3942,
+    "epsGrowth": 0.22780001,
     "analystCount": 43
   },
   "revisions": {
-    "eps7d": -0.009356881730748445,
-    "eps30d": -0.006849033431320706,
-    "eps60d": -0.007811246551867157,
-    "eps90d": 0.010303395740368648,
+    "eps7d": -0.00005312031047266519,
+    "eps30d": -0.009482325684690651,
+    "eps60d": -0.00818912548600903,
+    "eps90d": -0.0018986650863951349,
     "revenue30d": null
   }
 }

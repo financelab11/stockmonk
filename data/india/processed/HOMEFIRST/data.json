@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 1073.699951171875,
-    "prevClose": 1090.9000244140625,
-    "changePct": -0.015766864843023476,
-    "asOf": "2026-11-08",
+    "close": 1070.0999755859375,
+    "prevClose": 1088.4000244140625,
+    "changePct": -0.016813715929468898,
+    "asOf": "2026-11-18",
     "high52": 1317.7,
     "low52": 893.7,
-    "marketCap": 112280731648,
+    "marketCap": 111904268288,
     "sharesOutstanding": null,
     "dividendYield": 0.0047999998
   },
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 50000000,
       "netIncome": 30000000,
-      "epsDiluted": 2.35,
-      "epsBasic": 2.35,
+      "epsDiluted": 0.41,
+      "epsBasic": 0.41,
       "interestExpense": 220000000,
       "pretaxIncome": 50000000,
       "incomeTax": 14499999.999999998,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 70000000,
       "netIncome": 60000000,
-      "epsDiluted": 3.2,
-      "epsBasic": 3.2,
+      "epsDiluted": 0.73,
+      "epsBasic": 0.73,
       "interestExpense": 370000000,
       "pretaxIncome": 90000000,
       "incomeTax": 29700000,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 140000000,
       "netIncome": 90000000,
-      "epsDiluted": 1.7,
-      "epsBasic": 1.7,
+      "epsDiluted": 1.07,
+      "epsBasic": 1.07,
       "interestExpense": 540000000,
       "pretaxIncome": 140000000,
       "incomeTax": 50400000,
@@ -736,8 +736,8 @@
       "grossProfit": null,
       "operatingIncome": 380000000,
       "netIncome": 250000000,
-      "epsDiluted": 4.88,
-      "epsBasic": 4.88,
+      "epsDiluted": 3.06,
+      "epsBasic": 3.06,
       "interestExpense": 670000000,
       "pretaxIncome": 380000000,
       "incomeTax": 129200000.00000001,
@@ -777,8 +777,8 @@
       "grossProfit": null,
       "operatingIncome": 630000000,
       "netIncome": 460000000,
-      "epsDiluted": 7.22,
-      "epsBasic": 7.22,
+      "epsDiluted": 5.56,
+      "epsBasic": 5.56,
       "interestExpense": 1270000000,
       "pretaxIncome": 650000000,
       "incomeTax": 195000000,
@@ -818,8 +818,8 @@
       "grossProfit": null,
       "operatingIncome": 1060000000,
       "netIncome": 800000000,
-      "epsDiluted": 10.16,
-      "epsBasic": 10.16,
+      "epsDiluted": 9.67,
+      "epsBasic": 9.67,
       "interestExpense": 1940000000,
       "pretaxIncome": 1070000000,
       "incomeTax": 278200000,
@@ -1102,7 +1102,7 @@
     "epsTtm": 59.39,
     "epsGrowthTtm": 0.2706461275139065,
     "grossMargin": 0.99944997,
-    "operatingMargin": 0.68431,
+    "operatingMargin": 0.6702,
     "netMargin": 0.51768,
     "fcfMargin": -1.0145757418011452,
     "roic": null,
@@ -1112,14 +1112,14 @@
     "interestCover": 1,
     "freeCashFlowTtm": -19490000000,
     "ebitdaTtm": 8220000000,
-    "pe": 18.139051962520195,
-    "evEbitda": 27.057387071532848,
-    "evSales": 10.651902381609196,
+    "pe": 18.078233972213248,
+    "evEbitda": 27.01158860924574,
+    "evSales": 10.633872527203065,
     "pfcf": null,
-    "fcfYield": -0.1735827662853243,
-    "return1y": -0.08256703704016621,
-    "returnYtd": -0.02006025753450358,
-    "return5y": 0.5031391054137018
+    "fcfYield": -0.17416672570379516,
+    "return1y": -0.10236201041212922,
+    "returnYtd": -0.02334586739665856,
+    "return5y": 0.414265167690981
   },
   "factorChips": [
     {
@@ -1150,12 +1150,12 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "45th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "46th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=HOMEFIRST",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://homefirstindia.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:42.718Z"
+  "updatedAt": "2026-11-18T09:09:27.463Z"
 }

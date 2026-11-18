@@ -1,11 +1,11 @@
 {
   "ticker": "4322",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/4322/forecast/",
-  "targetMean": 17.9,
+  "targetMean": 15.25,
   "targetHigh": 20,
-  "targetLow": 15.79,
+  "targetLow": 10.5,
   "recommendationKey": "buy",
   "analystCount": 2,
   "distribution": {
@@ -19,8 +19,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 3000000000,
-      "revenueGrowth": 0.249,
+      "revenueAvg": 2600000000,
+      "revenueGrowth": 0.077,
       "epsAvg": 0.74,
       "epsGrowth": 0.414,
       "analystCount": 2
@@ -38,8 +38,8 @@
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 3000000000,
-    "revenueGrowth": 0.249,
+    "revenueAvg": 2600000000,
+    "revenueGrowth": 0.077,
     "epsAvg": 0.74,
     "epsGrowth": 0.414,
     "analystCount": 2

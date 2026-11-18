@@ -1,11 +1,11 @@
 {
   "ticker": "2381",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/2381/forecast/",
-  "targetMean": 104.81,
+  "targetMean": 109.14,
   "targetHigh": 121,
-  "targetLow": 91,
+  "targetLow": 94,
   "recommendationKey": "buy",
   "analystCount": 12,
   "distribution": {
@@ -19,9 +19,9 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 3400000000,
-      "revenueGrowth": -0.009000000000000001,
-      "epsAvg": 0.74,
+      "revenueAvg": 3300000000,
+      "revenueGrowth": -0.04,
+      "epsAvg": 0.57,
       "epsGrowth": null,
       "analystCount": 12
     },
@@ -38,9 +38,9 @@
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 3400000000,
-    "revenueGrowth": -0.009000000000000001,
-    "epsAvg": 0.74,
+    "revenueAvg": 3300000000,
+    "revenueGrowth": -0.04,
+    "epsAvg": 0.57,
     "epsGrowth": null,
     "analystCount": 12
   },

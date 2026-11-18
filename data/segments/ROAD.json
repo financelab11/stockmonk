@@ -1,0 +1,19 @@
+{
+  "ticker": "ROAD",
+  "asOf": "2025-09-30",
+  "source": {
+    "name": "Construction Partners, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1718227/000162828025053871/road-20250930.htm",
+    "date": "2025-11-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 2812356000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

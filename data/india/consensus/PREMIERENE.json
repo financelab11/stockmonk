@@ -1,9 +1,9 @@
 {
   "ticker": "PREMIERENE",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=PREMIERENE",
-  "targetMean": 1064.7648,
+  "targetMean": 1050.8823,
   "targetHigh": 1335,
   "targetLow": 814,
   "recommendationKey": "buy",
@@ -13,38 +13,38 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 36400000000,
-      "revenueGrowth": 0.8797,
-      "epsAvg": null,
-      "epsGrowth": null,
-      "analystCount": 1
+      "revenueAvg": 37868000000,
+      "revenueGrowth": 0.9555,
+      "epsAvg": 8.13914,
+      "epsGrowth": -0.066599995,
+      "analystCount": 2
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 41900000000,
-      "revenueGrowth": 0.8787,
-      "epsAvg": null,
-      "epsGrowth": null,
-      "analystCount": 1
+      "revenueAvg": 40767500000,
+      "revenueGrowth": 0.8279,
+      "epsAvg": 8.13914,
+      "epsGrowth": -0.1973,
+      "analystCount": 2
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 127768214800,
-      "revenueGrowth": 0.633,
-      "epsAvg": 44.12723,
-      "epsGrowth": 0.3121,
-      "analystCount": 16
+      "revenueAvg": 127414731570,
+      "revenueGrowth": 0.6284,
+      "epsAvg": 44.60798,
+      "epsGrowth": 0.32639998,
+      "analystCount": 17
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 171352555810,
-      "revenueGrowth": 0.3411,
-      "epsAvg": 48.29338,
-      "epsGrowth": 0.103199996,
-      "analystCount": 16
+      "revenueAvg": 170074934880,
+      "revenueGrowth": 0.3348,
+      "epsAvg": 48.46715,
+      "epsGrowth": 0.0855,
+      "analystCount": 17
     }
   ],
   "history": [
@@ -83,10 +83,10 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 36400000000,
-    "revenueGrowth": 0.8797,
-    "epsAvg": null,
-    "epsGrowth": null,
-    "analystCount": 1
+    "revenueAvg": 37868000000,
+    "revenueGrowth": 0.9555,
+    "epsAvg": 8.13914,
+    "epsGrowth": -0.066599995,
+    "analystCount": 2
   }
 }

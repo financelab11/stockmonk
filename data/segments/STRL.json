@@ -1,0 +1,29 @@
+{
+  "ticker": "STRL",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "STERLING INFRASTRUCTURE, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000024/strl-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "E Infrastructure Solutions",
+      "revenue": 1466777000,
+      "share": 0.5890554764183356
+    },
+    {
+      "name": "Transportation Solutions",
+      "revenue": 640674000,
+      "share": 0.2572937319707363
+    },
+    {
+      "name": "Building Solutions",
+      "revenue": 382598000,
+      "share": 0.15365079161092815
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

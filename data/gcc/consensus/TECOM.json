@@ -1,7 +1,7 @@
 {
   "ticker": "TECOM",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/dfm/TECOM/forecast/",
   "targetMean": 4.42,
   "targetHigh": 5.3,
@@ -20,9 +20,9 @@
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
       "revenueAvg": 3100000000,
-      "revenueGrowth": 0.10099999999999999,
+      "revenueGrowth": 0.102,
       "epsAvg": 0.33,
-      "epsGrowth": 0.13,
+      "epsGrowth": 0.132,
       "analystCount": 9
     },
     {
@@ -39,9 +39,9 @@
   "currentQuarter": {
     "endDate": "2026-12-31",
     "revenueAvg": 3100000000,
-    "revenueGrowth": 0.10099999999999999,
+    "revenueGrowth": 0.102,
     "epsAvg": 0.33,
-    "epsGrowth": 0.13,
+    "epsGrowth": 0.132,
     "analystCount": 9
   },
   "revisions": null

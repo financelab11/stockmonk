@@ -1,0 +1,29 @@
+{
+  "ticker": "EOG",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "EOG RESOURCES, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000054/eog-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "United States Of America",
+      "revenue": 22269000000,
+      "share": 0.9839607635206787
+    },
+    {
+      "name": "Trinidad",
+      "revenue": 359000000,
+      "share": 0.015862495581477554
+    },
+    {
+      "name": "Other International",
+      "revenue": 5000000,
+      "share": 0.0002209261223047013
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

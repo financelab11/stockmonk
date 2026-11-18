@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 320.5,
-    "prevClose": 311.6499938964844,
-    "changePct": 0.028397260634810628,
-    "asOf": "2026-11-08",
+    "close": 312.79998779296875,
+    "prevClose": 315.70001220703125,
+    "changePct": -0.009186012993121828,
+    "asOf": "2026-11-18",
     "high52": 427.05,
     "low52": 286.8,
-    "marketCap": 68464263168,
+    "marketCap": 66819407872,
     "sharesOutstanding": null,
-    "dividendYield": 0.0112
+    "dividendYield": 0.0111
   },
   "ttm": {
     "period": "TTM",
@@ -1102,7 +1102,7 @@
     "epsTtm": 14.1,
     "epsGrowthTtm": 0.6866028708133971,
     "grossMargin": 0.14051,
-    "operatingMargin": -1.06601,
+    "operatingMargin": 0.00262,
     "netMargin": 0.14163,
     "fcfMargin": -0.4779286926994907,
     "roic": 0.08,
@@ -1112,27 +1112,27 @@
     "interestCover": 2.0833333333333335,
     "freeCashFlowTtm": -5630000000,
     "ebitdaTtm": 250000000,
-    "pe": 22.745602381395347,
-    "evEbitda": 275.343853568,
-    "evSales": 3.24239111596797,
+    "pe": 22.199138827906978,
+    "evEbitda": 268.764432384,
+    "evSales": 3.164913240508714,
     "pfcf": null,
-    "fcfYield": -0.08223268227082076,
-    "return1y": -0.18677284264293503,
-    "returnYtd": -0.17851355074240172,
-    "return5y": 0.16503578314745937
+    "fcfYield": -0.084256957361623,
+    "return1y": -0.19794429321639773,
+    "returnYtd": -0.19824976193489552,
+    "return5y": 0.352239940157443
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "99th percentile revenue/EPS growth in the covered universe."
+      "detail": "98th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "1st percentile profitability metrics in the covered universe."
+      "detail": "3rd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1155,7 +1155,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=MAHLIFE",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.mahindralifespaces.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:21.241Z"
+  "updatedAt": "2026-11-18T09:12:40.659Z"
 }

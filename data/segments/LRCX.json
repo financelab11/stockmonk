@@ -1,0 +1,55 @@
+{
+  "ticker": "LRCX",
+  "asOf": "2026-06-28",
+  "source": {
+    "name": "LAM RESEARCH CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm",
+    "date": "2026-08-07"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 23232690000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "China",
+      "revenue": 7859811000,
+      "share": 0.3383082630552037
+    },
+    {
+      "name": "Taiwan",
+      "revenue": 5222915000,
+      "share": 0.22480887921286774
+    },
+    {
+      "name": "KR",
+      "revenue": 4505327000,
+      "share": 0.1939218833462677
+    },
+    {
+      "name": "Japan",
+      "revenue": 2171088000,
+      "share": 0.09344970384402322
+    },
+    {
+      "name": "United States",
+      "revenue": 1528912000,
+      "share": 0.06580865151646237
+    },
+    {
+      "name": "South East Asia",
+      "revenue": 1245931000,
+      "share": 0.0536283572844987
+    },
+    {
+      "name": "Europe",
+      "revenue": 698706000,
+      "share": 0.03007426174067661
+    }
+  ]
+}

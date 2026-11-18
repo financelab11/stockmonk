@@ -1,7 +1,7 @@
 {
   "ticker": "HOMEFIRST",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=HOMEFIRST",
   "targetMean": 1383.3478,
   "targetHigh": 1674,

@@ -1,9 +1,9 @@
 {
   "ticker": "ADBE",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/ADBE/analysis",
-  "targetMean": 267.00122,
+  "targetMean": 266.9097,
   "targetHigh": 373,
   "targetLow": 140,
   "recommendationKey": "hold",
@@ -21,17 +21,17 @@
       "endDate": "2026-11-30",
       "revenueAvg": 6830578620,
       "revenueGrowth": 0.1028,
-      "epsAvg": 6.32965,
-      "epsGrowth": 0.1508,
+      "epsAvg": 6.32884,
+      "epsGrowth": 0.1507,
       "analystCount": 29
     },
     {
       "period": "Following quarter",
       "endDate": "2027-02-28",
-      "revenueAvg": 7043585340,
-      "revenueGrowth": 0.1009,
-      "epsAvg": 6.74951,
-      "epsGrowth": 0.113800004,
+      "revenueAvg": 7070108120,
+      "revenueGrowth": 0.105,
+      "epsAvg": 6.76551,
+      "epsGrowth": 0.1164,
       "analystCount": 26
     },
     {
@@ -39,16 +39,16 @@
       "endDate": "2026-11-30",
       "revenueAvg": 26607173550,
       "revenueGrowth": 0.119399995,
-      "epsAvg": 24.47725,
-      "epsGrowth": 0.1689,
+      "epsAvg": 24.47864,
+      "epsGrowth": 0.169,
       "analystCount": 36
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-11-30",
-      "revenueAvg": 29035140280,
+      "revenueAvg": 29036612500,
       "revenueGrowth": 0.0913,
-      "epsAvg": 27.40507,
+      "epsAvg": 27.40718,
       "epsGrowth": 0.1196,
       "analystCount": 38
     }
@@ -91,15 +91,15 @@
     "endDate": "2026-11-30",
     "revenueAvg": 6830578620,
     "revenueGrowth": 0.1028,
-    "epsAvg": 6.32965,
-    "epsGrowth": 0.1508,
+    "epsAvg": 6.32884,
+    "epsGrowth": 0.1507,
     "analystCount": 29
   },
   "revisions": {
-    "eps7d": 0.00005025326830110366,
-    "eps30d": 0.003370769935831186,
-    "eps60d": 0.006223831849657913,
-    "eps90d": 0.006379385982043573,
+    "eps7d": 0,
+    "eps30d": 0.00010704354711266184,
+    "eps60d": 0.003578727704698581,
+    "eps90d": 0.00628097271010053,
     "revenue30d": null
   }
 }

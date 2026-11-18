@@ -1,59 +1,59 @@
 {
   "ticker": "BEML",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=BEML",
-  "targetMean": 2225.75,
+  "targetMean": 2279.25,
   "targetHigh": 2600,
   "targetLow": 1960,
-  "recommendationKey": "none",
+  "recommendationKey": "strong_buy",
   "analystCount": 4,
   "distribution": null,
   "estimates": [
     {
       "period": "Next quarter",
-      "endDate": null,
-      "revenueAvg": 0,
-      "revenueGrowth": null,
+      "endDate": "2026-12-31",
+      "revenueAvg": 13688000000,
+      "revenueGrowth": 0.2636,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 0
+      "analystCount": 1
     },
     {
       "period": "Following quarter",
-      "endDate": null,
-      "revenueAvg": 0,
-      "revenueGrowth": null,
+      "endDate": "2027-03-31",
+      "revenueAvg": 23787000000,
+      "revenueGrowth": 0.32580003,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 0
+      "analystCount": 1
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 54212500000,
-      "revenueGrowth": 0.24610001,
-      "epsAvg": 52.55,
-      "epsGrowth": 2.0966,
+      "revenueAvg": 55936000000,
+      "revenueGrowth": 0.2857,
+      "epsAvg": 52.1,
+      "epsGrowth": 2.0700998,
       "analystCount": 2
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 64185500000,
-      "revenueGrowth": 0.2697,
-      "epsAvg": 72.45,
-      "epsGrowth": 0.3787,
+      "revenueAvg": 65964500000,
+      "revenueGrowth": 0.3049,
+      "epsAvg": 73.3,
+      "epsGrowth": 0.4069,
       "analystCount": 2
     }
   ],
   "history": [],
   "currentQuarter": {
-    "endDate": null,
-    "revenueAvg": 0,
-    "revenueGrowth": null,
+    "endDate": "2026-12-31",
+    "revenueAvg": 13688000000,
+    "revenueGrowth": 0.2636,
     "epsAvg": null,
     "epsGrowth": null,
-    "analystCount": 0
+    "analystCount": 1
   }
 }

@@ -1,0 +1,45 @@
+{
+  "ticker": "ABT",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ABBOTT LABORATORIES Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1800/000162828026010185/abt-20251231.htm",
+    "date": "2026-02-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Medical Devices",
+      "revenue": 21387000000,
+      "share": 0.48247157552788306
+    },
+    {
+      "name": "Diagnostic Products",
+      "revenue": 8937000000,
+      "share": 0.20161072008662695
+    },
+    {
+      "name": "Nutritional Products",
+      "revenue": 8451000000,
+      "share": 0.19064699512723335
+    },
+    {
+      "name": "Established Pharmaceutical Products",
+      "revenue": 5536000000,
+      "share": 0.1248872044757264
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 27202000000,
+      "share": 0.6136527702580762
+    },
+    {
+      "name": "United States",
+      "revenue": 17126000000,
+      "share": 0.3863472297419238
+    }
+  ]
+}

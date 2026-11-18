@@ -1,0 +1,30 @@
+{
+  "ticker": "BKNG",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Booking Holdings Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm",
+    "date": "2026-02-18"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 26917000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 24338000000,
+      "share": 0.904186945053312
+    },
+    {
+      "name": "United States",
+      "revenue": 2579000000,
+      "share": 0.09581305494668797
+    }
+  ]
+}

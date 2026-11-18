@@ -13,15 +13,15 @@
   "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 153.1999969482422,
-    "prevClose": 155.1999969482422,
-    "changePct": -0.012886598191538479,
-    "asOf": "2026-11-09",
+    "close": 156.89999389648438,
+    "prevClose": 157.89999389648438,
+    "changePct": -0.006333122474061481,
+    "asOf": "2026-11-18",
     "high52": 231.10000610351562,
     "low52": 126.19999694824219,
-    "marketCap": 4830000000,
+    "marketCap": 4940000000,
     "sharesOutstanding": 31500000,
-    "dividendYield": 0.0392
+    "dividendYield": 0.0382
   },
   "ttm": {
     "period": "TTM",
@@ -1110,33 +1110,33 @@
     "interestCover": 119.12418300653594,
     "freeCashFlowTtm": 863410000,
     "ebitdaTtm": 563800000,
-    "pe": 9.19,
-    "evEbitda": 6.67,
-    "evSales": 1.7470502945174444,
+    "pe": 9.41,
+    "evEbitda": 6.92,
+    "evSales": 1.7968917082011782,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.16120001013146967,
-    "returnYtd": 0.14688504905104915,
-    "return5y": 2.1837808518387156
+    "return1y": 0.21511724986814929,
+    "returnYtd": 0.17458408182726415,
+    "return5y": 2.260673669530187
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "74th percentile revenue/EPS growth in the covered universe."
+      "detail": "73rd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "96th percentile profitability metrics in the covered universe."
+      "detail": "97th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: High",
       "tone": "positive",
-      "detail": "94th percentile free-cash-flow margin."
+      "detail": "95th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1563,13 +1563,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/1321/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/1321.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:15:53.588Z"
+  "updatedAt": "2026-11-18T09:25:39.433Z"
 }

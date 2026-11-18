@@ -1,0 +1,29 @@
+{
+  "ticker": "COST",
+  "asOf": "2026-08-30",
+  "source": {
+    "name": "COSTCO WHOLESALE CORP /NEW Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+    "date": "2026-10-07"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "United States",
+      "revenue": 219823000000,
+      "share": 0.7251199060543486
+    },
+    {
+      "name": "Other International",
+      "revenue": 42770000000,
+      "share": 0.14108340975213918
+    },
+    {
+      "name": "Canada",
+      "revenue": 40561000000,
+      "share": 0.1337966841935122
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

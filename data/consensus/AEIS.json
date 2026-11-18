@@ -1,7 +1,7 @@
 {
   "ticker": "AEIS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/AEIS/analysis",
   "targetMean": 388.16666,
   "targetHigh": 535,
@@ -21,23 +21,23 @@
       "endDate": "2026-12-31",
       "revenueAvg": 740289000,
       "revenueGrowth": 0.5126,
-      "epsAvg": 2.98,
-      "epsGrowth": null,
-      "analystCount": 5
+      "epsAvg": 3.94364,
+      "epsGrowth": 1.0328,
+      "analystCount": 12
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
       "revenueAvg": 760853660,
       "revenueGrowth": 0.48900002,
-      "epsAvg": 2.84,
-      "epsGrowth": null,
-      "analystCount": 4
+      "epsAvg": 4.0052,
+      "epsGrowth": 0.9164,
+      "analystCount": 12
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 2521667420,
+      "revenueAvg": 2521684080,
       "revenueGrowth": 0.4019,
       "epsAvg": 12.41815,
       "epsGrowth": 0.9373,
@@ -46,7 +46,7 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 3304998180,
+      "revenueAvg": 3305023180,
       "revenueGrowth": 0.31059998,
       "epsAvg": 17.92847,
       "epsGrowth": 0.4437,
@@ -55,11 +55,11 @@
   ],
   "history": [
     {
-      "quarter": "2025-09-30",
-      "endDate": "2025-09-30",
-      "epsActual": 1.74,
-      "epsEstimate": 1.46803,
-      "revenueActual": 463300000,
+      "quarter": "2025-12-31",
+      "endDate": "2025-12-31",
+      "epsActual": 1.94,
+      "epsEstimate": 1.78319,
+      "revenueActual": 489400000,
       "revenueEstimate": null
     },
     {
@@ -71,18 +71,18 @@
       "revenueEstimate": null
     },
     {
-      "quarter": "2025-12-31",
-      "endDate": "2025-12-31",
-      "epsActual": 1.3,
-      "epsEstimate": 1.275,
-      "revenueActual": 489400000,
+      "quarter": "2026-06-30",
+      "endDate": "2026-06-30",
+      "epsActual": 2.74,
+      "epsEstimate": 2.21316,
+      "revenueActual": 574100000,
       "revenueEstimate": null
     },
     {
       "quarter": "2026-09-30",
       "endDate": "2026-09-30",
       "epsActual": 3.65,
-      "epsEstimate": 3.06268,
+      "epsEstimate": 3.04435,
       "revenueActual": 696400000,
       "revenueEstimate": null
     }
@@ -91,13 +91,13 @@
     "endDate": "2026-12-31",
     "revenueAvg": 740289000,
     "revenueGrowth": 0.5126,
-    "epsAvg": 2.98,
-    "epsGrowth": null,
-    "analystCount": 5
+    "epsAvg": 3.94364,
+    "epsGrowth": 1.0328,
+    "analystCount": 12
   },
   "revisions": {
-    "eps7d": 0.10095252786924203,
-    "eps30d": 0.10388854220558152,
+    "eps7d": 0,
+    "eps30d": 0.10362071738923717,
     "eps60d": 0.10388854220558152,
     "eps90d": 0.10388854220558152,
     "revenue30d": null

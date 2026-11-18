@@ -1,0 +1,55 @@
+{
+  "ticker": "INTC",
+  "asOf": "2025-12-27",
+  "source": {
+    "name": "Intel Corporation Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+    "date": "2026-01-23"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Client Computing Group Datacenter & AI & Network & Edge",
+      "revenue": 49147000000,
+      "share": 0.9298809906722418
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 3563000000,
+      "share": 0.06741339186044312
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 143000000,
+      "share": 0.0027056174673150057
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 15757000000,
+      "share": 0.2981287722551227
+    },
+    {
+      "name": "China Including Hong Kong",
+      "revenue": 12694000000,
+      "share": 0.24017558132934744
+    },
+    {
+      "name": "Singapore",
+      "revenue": 9535000000,
+      "share": 0.18040603182411594
+    },
+    {
+      "name": "Taiwan",
+      "revenue": 7672000000,
+      "share": 0.14515732314154353
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 7195000000,
+      "share": 0.1361322914498704
+    }
+  ]
+}

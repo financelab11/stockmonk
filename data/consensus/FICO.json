@@ -1,9 +1,9 @@
 {
   "ticker": "FICO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/FICO/analysis",
-  "targetMean": 821.7879,
+  "targetMean": 821.3668,
   "targetHigh": 1230.97,
   "targetLow": 481,
   "recommendationKey": "buy",
@@ -19,10 +19,10 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 603611440,
-      "revenueGrowth": 0.17899999,
-      "epsAvg": 9.41195,
-      "epsGrowth": 0.284,
+      "revenueAvg": 609567690,
+      "revenueGrowth": 0.1907,
+      "epsAvg": 9.57665,
+      "epsGrowth": 0.3065,
       "analystCount": 17
     },
     {
@@ -30,26 +30,26 @@
       "endDate": "2027-03-31",
       "revenueAvg": 661669090,
       "revenueGrowth": -0.0434,
-      "epsAvg": 11.82642,
-      "epsGrowth": -0.0539,
+      "epsAvg": 11.78892,
+      "epsGrowth": -0.056900002,
       "analystCount": 16
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-09-30",
-      "revenueAvg": 2595259070,
-      "revenueGrowth": 0.0238,
-      "epsAvg": 44.75162,
-      "epsGrowth": 0.040999997,
+      "revenueAvg": 2590613320,
+      "revenueGrowth": 0.022,
+      "epsAvg": 44.44144,
+      "epsGrowth": 0.033800002,
       "analystCount": 20
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-09-30",
-      "revenueAvg": 2769620010,
-      "revenueGrowth": 0.0672,
-      "epsAvg": 51.4017,
-      "epsGrowth": 0.1486,
+      "revenueAvg": 2758236040,
+      "revenueGrowth": 0.0647,
+      "epsAvg": 51.00621,
+      "epsGrowth": 0.14770001,
       "analystCount": 17
     }
   ],
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 603611440,
-    "revenueGrowth": 0.17899999,
-    "epsAvg": 9.41195,
-    "epsGrowth": 0.284,
+    "revenueAvg": 609567690,
+    "revenueGrowth": 0.1907,
+    "epsAvg": 9.57665,
+    "epsGrowth": 0.3065,
     "analystCount": 17
   },
   "revisions": {
-    "eps7d": -0.0526369715625673,
-    "eps30d": -0.10984777058255824,
-    "eps60d": -0.15655425968028625,
-    "eps90d": -0.15770091352734172,
+    "eps7d": -0.006931145732824939,
+    "eps30d": -0.10959000993965073,
+    "eps60d": -0.16326388058633645,
+    "eps90d": -0.16210688975067833,
     "revenue30d": null
   }
 }

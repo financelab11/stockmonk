@@ -1,0 +1,45 @@
+{
+  "ticker": "CRDO",
+  "asOf": "2026-05-02",
+  "source": {
+    "name": "Credo Technology Group Holding Ltd Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026043303/crdo-20260502.htm",
+    "date": "2026-06-15"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 1335116000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 768051000,
+      "share": 0.575269115192987
+    },
+    {
+      "name": "HK",
+      "revenue": 378230000,
+      "share": 0.28329373627460086
+    },
+    {
+      "name": "RESTOFTHEWORLD",
+      "revenue": 85184000,
+      "share": 0.06380269579572112
+    },
+    {
+      "name": "China",
+      "revenue": 80924000,
+      "share": 0.060611961807063956
+    },
+    {
+      "name": "Taiwan",
+      "revenue": 22727000,
+      "share": 0.01702249092962709
+    }
+  ]
+}

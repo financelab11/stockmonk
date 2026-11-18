@@ -1,9 +1,9 @@
 {
   "ticker": "SANSERA",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=SANSERA",
-  "targetMean": 4219.154,
+  "targetMean": 4311.077,
   "targetHigh": 5350,
   "targetLow": 2500,
   "recommendationKey": "buy",
@@ -31,20 +31,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 43101373000,
-      "revenueGrowth": 0.2322,
-      "epsAvg": 71.01,
-      "epsGrowth": 0.3158,
-      "analystCount": 7
+      "revenueAvg": 43228261100,
+      "revenueGrowth": 0.2358,
+      "epsAvg": 71.07556,
+      "epsGrowth": 0.3171,
+      "analystCount": 10
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 51122420830,
-      "revenueGrowth": 0.1861,
-      "epsAvg": 90.18909,
-      "epsGrowth": 0.2701,
-      "analystCount": 12
+      "revenueAvg": 51199234620,
+      "revenueGrowth": 0.1844,
+      "epsAvg": 90.30727,
+      "epsGrowth": 0.2706,
+      "analystCount": 13
     }
   ],
   "history": [

@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 0.7089999914169312,
-    "prevClose": 0.7139999866485596,
-    "changePct": -0.007002794573005344,
-    "asOf": "2026-11-05",
+    "close": 0.7580000162124634,
+    "prevClose": 0.7620000243186951,
+    "changePct": -0.005249354302590881,
+    "asOf": "2026-11-18",
     "high52": 1.1200000047683716,
     "low52": 0.6859999895095825,
-    "marketCap": 3120000000,
+    "marketCap": 3320000000,
     "sharesOutstanding": 4380000000,
-    "dividendYield": 0.07
+    "dividendYield": 0.066
   },
   "ttm": {
     "period": "TTM",
@@ -1110,14 +1110,14 @@
     "interestCover": 8.939030569160614,
     "freeCashFlowTtm": 731390000,
     "ebitdaTtm": 554160000,
-    "pe": 4.84,
-    "evEbitda": 0.78,
-    "evSales": 0.246689453125,
+    "pe": 5.14,
+    "evEbitda": 1.06,
+    "evSales": 0.344345703125,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.2740357177928061,
-    "returnYtd": -0.2740357177928061,
-    "return5y": 0.7688300487300013
+    "return1y": -0.20849425054781512,
+    "returnYtd": -0.22386326608694318,
+    "return5y": 0.3058304316887315
   },
   "factorChips": [
     {
@@ -1130,7 +1130,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "58th percentile profitability metrics in the covered universe."
+      "detail": "59th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "99th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "98th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-07",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/dfm/DEYAAR/financials/",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/DEYAAR.AE",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:20.112Z"
+  "updatedAt": "2026-11-18T09:28:19.777Z"
 }

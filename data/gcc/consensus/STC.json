@@ -1,7 +1,7 @@
 {
   "ticker": "STC",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/kwse/STC/forecast/",
   "targetMean": 0.64,
   "targetHigh": 0.7,

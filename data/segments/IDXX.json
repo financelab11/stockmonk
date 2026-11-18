@@ -1,0 +1,50 @@
+{
+  "ticker": "IDXX",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "IDEXX LABORATORIES INC /DE Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/874716/000087471626000038/idxx-20251231.htm",
+    "date": "2026-02-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Companion Animal Group",
+      "revenue": 3953285000,
+      "share": 0.9185777732751942
+    },
+    {
+      "name": "Water",
+      "revenue": 201149000,
+      "share": 0.0467385985367946
+    },
+    {
+      "name": "Livestock & Poultry Diagnostics",
+      "revenue": 131787000,
+      "share": 0.030621776321873587
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 17481000,
+      "share": 0.004061851866137571
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 3010521000,
+      "share": 0.6995189257992305
+    },
+    {
+      "name": "EMEA",
+      "revenue": 937252000,
+      "share": 0.21777808965397696
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 355929000,
+      "share": 0.08270298454679251
+    }
+  ]
+}

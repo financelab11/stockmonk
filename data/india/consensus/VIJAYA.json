@@ -1,11 +1,11 @@
 {
   "ticker": "VIJAYA",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=VIJAYA",
-  "targetMean": 1562.3,
-  "targetHigh": 1700,
-  "targetLow": 1400,
+  "targetMean": 1624.1,
+  "targetHigh": 1855,
+  "targetLow": 1445,
   "recommendationKey": "strong_buy",
   "analystCount": 10,
   "distribution": null,
@@ -31,20 +31,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 10014285710,
-      "revenueGrowth": 0.23,
-      "epsAvg": 22.82,
-      "epsGrowth": 0.35909998,
-      "analystCount": 7
+      "revenueAvg": 10002333330,
+      "revenueGrowth": 0.22850001,
+      "epsAvg": 22.51111,
+      "epsGrowth": 0.3407,
+      "analystCount": 9
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 12408857140,
-      "revenueGrowth": 0.2391,
-      "epsAvg": 28.14444,
-      "epsGrowth": 0.2333,
-      "analystCount": 7
+      "revenueAvg": 12113000000,
+      "revenueGrowth": 0.21100001,
+      "epsAvg": 28.21,
+      "epsGrowth": 0.2532,
+      "analystCount": 9
     }
   ],
   "history": [

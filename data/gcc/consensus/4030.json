@@ -1,16 +1,16 @@
 {
   "ticker": "4030",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/4030/forecast/",
-  "targetMean": 41.77,
-  "targetHigh": 44.8,
-  "targetLow": 40,
+  "targetMean": 46.67,
+  "targetHigh": 55.5,
+  "targetLow": 40.5,
   "recommendationKey": "buy",
   "analystCount": 3,
   "distribution": {
-    "strongBuy": 1,
-    "buy": 2,
+    "strongBuy": 2,
+    "buy": 1,
     "hold": 0,
     "sell": 0,
     "strongSell": 0
@@ -19,10 +19,10 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 19500000000,
-      "revenueGrowth": 0.8809999999999999,
-      "epsAvg": 8.74,
-      "epsGrowth": 2.3209999999999997,
+      "revenueAvg": 32000000000,
+      "revenueGrowth": 2.09,
+      "epsAvg": 14,
+      "epsGrowth": 4.323,
       "analystCount": 3
     },
     {
@@ -38,10 +38,10 @@
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 19500000000,
-    "revenueGrowth": 0.8809999999999999,
-    "epsAvg": 8.74,
-    "epsGrowth": 2.3209999999999997,
+    "revenueAvg": 32000000000,
+    "revenueGrowth": 2.09,
+    "epsAvg": 14,
+    "epsGrowth": 4.323,
     "analystCount": 3
   },
   "revisions": null

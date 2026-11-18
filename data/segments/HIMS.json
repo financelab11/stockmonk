@@ -1,0 +1,30 @@
+{
+  "ticker": "HIMS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "HIMS & HERS HEALTH, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000022/hims-20251231.htm",
+    "date": "2026-02-23"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 2347637000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 2213648000,
+      "share": 0.9429260145414304
+    },
+    {
+      "name": "Non-US",
+      "revenue": 133989000,
+      "share": 0.05707398545856962
+    }
+  ]
+}

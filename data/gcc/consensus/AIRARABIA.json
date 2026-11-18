@@ -1,9 +1,9 @@
 {
   "ticker": "AIRARABIA",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/dfm/AIRARABIA/forecast/",
-  "targetMean": 4.88,
+  "targetMean": 4.86,
   "targetHigh": 5.86,
   "targetLow": 4.4,
   "recommendationKey": "buy",
@@ -21,8 +21,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 7900000000,
       "revenueGrowth": 0.017,
-      "epsAvg": 0.21,
-      "epsGrowth": -0.39799999999999996,
+      "epsAvg": 0.22,
+      "epsGrowth": -0.359,
       "analystCount": 9
     },
     {
@@ -40,8 +40,8 @@
     "endDate": "2026-12-31",
     "revenueAvg": 7900000000,
     "revenueGrowth": 0.017,
-    "epsAvg": 0.21,
-    "epsGrowth": -0.39799999999999996,
+    "epsAvg": 0.22,
+    "epsGrowth": -0.359,
     "analystCount": 9
   },
   "revisions": null

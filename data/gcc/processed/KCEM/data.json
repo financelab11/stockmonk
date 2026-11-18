@@ -13,10 +13,10 @@
   "quoteCurrency": "KWD",
   "isResearch": true,
   "latestPrice": {
-    "close": 310,
-    "prevClose": 309,
-    "changePct": 0.003236245954692629,
-    "asOf": "2026-11-09",
+    "close": 311,
+    "prevClose": 303,
+    "changePct": 0.0264026402640265,
+    "asOf": "2026-11-18",
     "high52": 457,
     "low52": 285,
     "marketCap": 221020000,
@@ -1115,16 +1115,16 @@
     "evSales": 3.4922632794457273,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.1436331973313062,
-    "returnYtd": -0.2840536145034738,
-    "return5y": 0.22057296906362134
+    "return1y": -0.1189665360499873,
+    "returnYtd": -0.28174411003413014,
+    "return5y": 0.2694923580490236
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "75th percentile revenue/EPS growth in the covered universe."
+      "detail": "74th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1136,7 +1136,7 @@
       "key": "cash",
       "label": "Cash generation: Low",
       "tone": "caution",
-      "detail": "27th percentile free-cash-flow margin."
+      "detail": "26th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/kwse/KCEM/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/KCEM.KW",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:13.202Z"
+  "updatedAt": "2026-11-18T09:30:12.452Z"
 }

@@ -1,9 +1,9 @@
 {
   "ticker": "PAYTM",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=PAYTM",
-  "targetMean": 1973.7273,
+  "targetMean": 1987.8182,
   "targetHigh": 2300,
   "targetLow": 1302,
   "recommendationKey": "buy",
@@ -31,20 +31,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 108676530550,
-      "revenueGrowth": 0.2881,
-      "epsAvg": 18.81165,
-      "epsGrowth": 0.6681,
-      "analystCount": 20
+      "revenueAvg": 109243295320,
+      "revenueGrowth": 0.29479998,
+      "epsAvg": 18.86984,
+      "epsGrowth": 0.6732,
+      "analystCount": 19
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 143343224470,
-      "revenueGrowth": 0.319,
-      "epsAvg": 40.19525,
-      "epsGrowth": 1.1123999,
-      "analystCount": 19
+      "revenueAvg": 143007063250,
+      "revenueGrowth": 0.3091,
+      "epsAvg": 39.9335,
+      "epsGrowth": 1.1438,
+      "analystCount": 20
     }
   ],
   "history": [

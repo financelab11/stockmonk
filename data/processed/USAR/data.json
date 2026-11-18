@@ -14,15 +14,19 @@
   "currency": "USD",
   "isResearch": true,
   "latestPrice": {
-    "close": 8.225000381469727,
-    "prevClose": 7.420000076293945,
-    "changePct": 0.1084906060510249,
-    "asOf": "2026-11-06",
-    "high52": 32.8,
-    "low52": 6.84,
-    "marketCap": 3085005056,
+    "close": 6.635000228881836,
+    "prevClose": 7.130000114440918,
+    "changePct": -0.0694249477719533,
+    "asOf": "2026-11-17",
+    "high52": 32.79999923706055,
+    "low52": 6.525000095367432,
+    "marketCap": 2490247936,
     "sharesOutstanding": null,
-    "dividendYield": 0
+    "dividendYield": 0,
+    "pe": null,
+    "evEbitda": null,
+    "evSales": null,
+    "pfcf": null
   },
   "ttm": {
     "period": "TTM",
@@ -634,12 +638,12 @@
     "revenueGrowthLatestQ": null,
     "epsTtm": -2.51,
     "epsGrowthTtm": 1.024193548387096,
-    "grossMargin": -0.097399995,
-    "operatingMargin": -7.95636,
-    "netMargin": 0,
+    "grossMargin": -0.12822293601875162,
+    "operatingMargin": -10.849032034030731,
+    "netMargin": -24.67288827155135,
     "fcfMargin": -21.31443701710218,
     "roic": null,
-    "roe": -0.23561001,
+    "roe": null,
     "netDebt": null,
     "netDebtToEbitda": null,
     "interestCover": null,
@@ -647,12 +651,12 @@
     "ebitdaTtm": null,
     "pe": null,
     "evEbitda": null,
-    "evSales": null,
+    "evSales": 216.18612171195417,
     "pfcf": null,
-    "fcfYield": null,
-    "return1y": -0.48008846143273476,
-    "returnYtd": -0.4187278725648448,
-    "return5y": -0.18321741502164945
+    "fcfYield": -0.09859299407526946,
+    "return1y": -0.540830427926541,
+    "returnYtd": -0.5310953775438336,
+    "return5y": -0.34111217180154485
   },
   "factorChips": [
     {
@@ -982,10 +986,10 @@
       "date": "2025-12-31"
     },
     {
-      "name": "Yahoo Finance market data",
+      "name": "Market price history",
       "url": "https://finance.yahoo.com/quote/USAR",
-      "date": "2026-11-06"
+      "date": "2026-11-17"
     }
   ],
-  "updatedAt": "2026-11-08T09:10:56.896Z"
+  "updatedAt": "2026-11-18T09:07:22.307Z"
 }

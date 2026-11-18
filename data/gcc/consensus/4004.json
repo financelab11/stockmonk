@@ -1,15 +1,15 @@
 {
   "ticker": "4004",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/4004/forecast/",
-  "targetMean": 102.85,
+  "targetMean": 100.85,
   "targetHigh": 133.33,
-  "targetLow": 85,
+  "targetLow": 83,
   "recommendationKey": "buy",
-  "analystCount": 10,
+  "analystCount": 9,
   "distribution": {
-    "strongBuy": 4,
+    "strongBuy": 3,
     "buy": 1,
     "hold": 5,
     "sell": 0,
@@ -19,11 +19,11 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 4500000000,
-      "revenueGrowth": 0.10800000000000001,
-      "epsAvg": 4.98,
-      "epsGrowth": 0.124,
-      "analystCount": 10
+      "revenueAvg": 4400000000,
+      "revenueGrowth": 0.071,
+      "epsAvg": 3.68,
+      "epsGrowth": -0.17,
+      "analystCount": 9
     },
     {
       "period": "Next fiscal year",
@@ -32,17 +32,17 @@
       "revenueGrowth": null,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 10
+      "analystCount": 9
     }
   ],
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 4500000000,
-    "revenueGrowth": 0.10800000000000001,
-    "epsAvg": 4.98,
-    "epsGrowth": 0.124,
-    "analystCount": 10
+    "revenueAvg": 4400000000,
+    "revenueGrowth": 0.071,
+    "epsAvg": 3.68,
+    "epsGrowth": -0.17,
+    "analystCount": 9
   },
   "revisions": null
 }

@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 3704,
-    "prevClose": 3767.699951171875,
-    "changePct": -0.016906853517372644,
-    "asOf": "2026-11-08",
+    "close": 4140.5,
+    "prevClose": 4215.89990234375,
+    "changePct": -0.017884651934414464,
+    "asOf": "2026-11-18",
     "high52": 5000,
     "low52": 2131,
-    "marketCap": 207364620288,
+    "marketCap": 231801618432,
     "sharesOutstanding": null,
-    "dividendYield": 0.0027
+    "dividendYield": 0.0023999999
   },
   "ttm": {
     "period": "TTM",
@@ -43,8 +43,8 @@
     "incomeTax": 811800000,
     "rnd": null,
     "sga": null,
-    "cashAndInvestments": 4226500096,
-    "totalDebt": 52700000,
+    "cashAndInvestments": 4064300032,
+    "totalDebt": 75000000,
     "totalEquity": null,
     "totalAssets": null,
     "inventory": null,
@@ -62,8 +62,8 @@
     "netMargin": 0.31290743155149936,
     "fcfMargin": null,
     "roic": null,
-    "netDebt": -4173800096,
-    "netDebtToEbitda": -1.2422024095238096,
+    "netDebt": -3989300032,
+    "netDebtToEbitda": -1.1872916761904762,
     "roe": null
   },
   "quarterly": [
@@ -577,8 +577,8 @@
       "incomeTax": 78000000,
       "rnd": null,
       "sga": null,
-      "cashAndInvestments": 4226500096,
-      "totalDebt": 52700000,
+      "cashAndInvestments": 4064300032,
+      "totalDebt": 75000000,
       "totalEquity": null,
       "totalAssets": null,
       "inventory": null,
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 110000000,
       "netIncome": 30000000,
-      "epsDiluted": 0.56,
-      "epsBasic": 0.56,
+      "epsDiluted": 0.54,
+      "epsBasic": 0.54,
       "interestExpense": 50000000,
       "pretaxIncome": 40000000,
       "incomeTax": 14400000,
@@ -736,8 +736,8 @@
       "grossProfit": null,
       "operatingIncome": 90000000,
       "netIncome": 10000000,
-      "epsDiluted": 0.27,
-      "epsBasic": 0.27,
+      "epsDiluted": 0.26,
+      "epsBasic": 0.26,
       "interestExpense": 50000000,
       "pretaxIncome": 10000000,
       "incomeTax": -2300000,
@@ -777,8 +777,8 @@
       "grossProfit": null,
       "operatingIncome": 260000000,
       "netIncome": 80000000,
-      "epsDiluted": 1.65,
-      "epsBasic": 1.65,
+      "epsDiluted": 1.61,
+      "epsBasic": 1.61,
       "interestExpense": 110000000,
       "pretaxIncome": 100000000,
       "incomeTax": 26000000,
@@ -818,8 +818,8 @@
       "grossProfit": null,
       "operatingIncome": 430000000,
       "netIncome": 210000000,
-      "epsDiluted": 4.5,
-      "epsBasic": 4.5,
+      "epsDiluted": 4.41,
+      "epsBasic": 4.41,
       "interestExpense": 130000000,
       "pretaxIncome": 280000000,
       "incomeTax": 72800000,
@@ -859,8 +859,8 @@
       "grossProfit": null,
       "operatingIncome": 920000000,
       "netIncome": 560000000,
-      "epsDiluted": 11.87,
-      "epsBasic": 11.87,
+      "epsDiluted": 11.63,
+      "epsBasic": 11.63,
       "interestExpense": 140000000,
       "pretaxIncome": 750000000,
       "incomeTax": 187500000,
@@ -1071,8 +1071,8 @@
       "incomeTax": 910000000,
       "rnd": null,
       "sga": null,
-      "cashAndInvestments": 4226500096,
-      "totalDebt": 52700000,
+      "cashAndInvestments": 4064300032,
+      "totalDebt": 75000000,
       "totalEquity": 17360000000,
       "totalAssets": 19290000000,
       "inventory": null,
@@ -1090,7 +1090,7 @@
       "netMargin": 0.292972972972973,
       "fcfMargin": 0.008648648648648649,
       "roic": 0.22,
-      "netDebt": -4173800096,
+      "netDebt": -3989300032,
       "netDebtToEbitda": 0.013368983957219251,
       "roe": 0.15610599078341014
     }
@@ -1101,25 +1101,25 @@
     "revenueGrowthLatestQ": -0.5667752442996743,
     "epsTtm": 42.989999999999995,
     "epsGrowthTtm": 0.030935251798561048,
-    "grossMargin": 0.62248003,
-    "operatingMargin": 0.21934,
-    "netMargin": 0.28459,
+    "grossMargin": 0.72936994,
+    "operatingMargin": 0.40581,
+    "netMargin": 0.31353,
     "fcfMargin": 0.008648648648648649,
     "roic": 0.22,
-    "roe": 0.15610599078341014,
-    "netDebt": -4173800096,
-    "netDebtToEbitda": -1.2422024095238096,
+    "roe": 0.14752,
+    "netDebt": -3989300032,
+    "netDebtToEbitda": -1.1872916761904762,
     "interestCover": 25.846153846153847,
     "freeCashFlowTtm": 80000000,
     "ebitdaTtm": 3360000000,
-    "pe": 86.40192512,
-    "evEbitda": 60.47345839047619,
-    "evSales": 26.491632358800523,
-    "pfcf": 2592.0577536,
-    "fcfYield": 0.0003857938730767638,
-    "return1y": 0.4037490899020837,
-    "returnYtd": 0.4270622517951641,
-    "return5y": 3.970715809911103
+    "pe": 96.58400768,
+    "evEbitda": 67.80128523809523,
+    "evSales": 29.701736427640157,
+    "pfcf": 2897.5202304,
+    "fcfYield": 0.0003451226981983663,
+    "return1y": 0.3323676518707328,
+    "returnYtd": 0.5952352196430553,
+    "return5y": 4.556492659540206
   },
   "factorChips": [
     {
@@ -1132,7 +1132,7 @@
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "71st percentile profitability metrics in the covered universe."
+      "detail": "89th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1144,13 +1144,13 @@
       "key": "balance",
       "label": "Balance sheet: Net cash",
       "tone": "positive",
-      "detail": "Net cash of ₹4.2B."
+      "detail": "Net cash of ₹4.0B."
     },
     {
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "10th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "9th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1579,13 +1579,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=DATAPATTNS",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.datapatternsindia.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:31.332Z"
+  "updatedAt": "2026-11-18T09:08:41.553Z"
 }

@@ -13,15 +13,15 @@
   "quoteCurrency": "QAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 10.25,
-    "prevClose": 10.25,
-    "changePct": 0,
-    "asOf": "2026-11-09",
+    "close": 10.119999885559082,
+    "prevClose": 10.09000015258789,
+    "changePct": 0.0029732143228458074,
+    "asOf": "2026-11-18",
     "high52": 12.489999771118164,
     "low52": 8.66100025177002,
-    "marketCap": 11650000000,
+    "marketCap": 11500000000,
     "sharesOutstanding": 1140000000,
-    "dividendYield": 0.043899999999999995
+    "dividendYield": 0.044500000000000005
   },
   "ttm": {
     "period": "TTM",
@@ -1110,14 +1110,14 @@
     "interestCover": 16.4664626971052,
     "freeCashFlowTtm": 508040000,
     "ebitdaTtm": 1112710000,
-    "pe": 9.95,
-    "evEbitda": 5.6,
-    "evSales": 3.3559375,
+    "pe": 9.82,
+    "evEbitda": 5.45,
+    "evSales": 3.312932912844037,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.04004301445977154,
-    "returnYtd": -0.009681582326989013,
-    "return5y": 0.6223760685618507
+    "return1y": -0.0401003392705529,
+    "returnYtd": -0.022241729412885602,
+    "return5y": 0.6186271048630174
   },
   "factorChips": [
     {
@@ -1130,13 +1130,13 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "34th percentile profitability metrics in the covered universe."
+      "detail": "35th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: High",
       "tone": "positive",
-      "detail": "70th percentile free-cash-flow margin."
+      "detail": "71st percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "84th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "87th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/qse/QNNS/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/QNNS.QA",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:54.147Z"
+  "updatedAt": "2026-11-18T09:29:30.193Z"
 }

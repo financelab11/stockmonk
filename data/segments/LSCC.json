@@ -1,0 +1,35 @@
+{
+  "ticker": "LSCC",
+  "asOf": "2026-01-03",
+  "source": {
+    "name": "Lattice Semiconductor Corp Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/855658/000143774926004100/lscc20260103_10k.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 523262000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Asia",
+      "revenue": 353699000,
+      "share": 0.6759500976566233
+    },
+    {
+      "name": "Americas",
+      "revenue": 102758000,
+      "share": 0.19637963391188354
+    },
+    {
+      "name": "Europe",
+      "revenue": 66805000,
+      "share": 0.1276702684314932
+    }
+  ]
+}

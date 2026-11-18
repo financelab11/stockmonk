@@ -1,0 +1,50 @@
+{
+  "ticker": "QCOM",
+  "asOf": "2026-09-27",
+  "source": {
+    "name": "QUALCOMM INC/DE Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
+    "date": "2026-11-04"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Qct",
+      "revenue": 37208000000,
+      "share": 0.8628942486085344
+    },
+    {
+      "name": "Qtl",
+      "revenue": 5556000000,
+      "share": 0.12884972170686457
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 476000000,
+      "share": 0.01103896103896104
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "China",
+      "revenue": 18079000000,
+      "share": 0.4192717996289425
+    },
+    {
+      "name": "United States",
+      "revenue": 10792000000,
+      "share": 0.250278293135436
+    },
+    {
+      "name": "KR",
+      "revenue": 9467000000,
+      "share": 0.21955009276437848
+    },
+    {
+      "name": "Other Foreign",
+      "revenue": 4782000000,
+      "share": 0.11089981447124304
+    }
+  ]
+}

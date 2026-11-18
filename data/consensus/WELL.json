@@ -1,9 +1,9 @@
 {
   "ticker": "WELL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/WELL/analysis",
-  "targetMean": 261.63635,
+  "targetMean": 265.45456,
   "targetHigh": 292,
   "targetLow": 230,
   "recommendationKey": "buy",
@@ -19,26 +19,26 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 3925799460,
-      "revenueGrowth": 0.2341,
-      "epsAvg": 0.67,
-      "epsGrowth": 0.222,
-      "analystCount": 1
+      "revenueAvg": 3959173600,
+      "revenueGrowth": 0.2446,
+      "epsAvg": 0.71728,
+      "epsGrowth": 4.1233997,
+      "analystCount": 8
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 4152779650,
-      "revenueGrowth": 0.23889999,
-      "epsAvg": 0.82,
-      "epsGrowth": 0.4994,
+      "revenueAvg": 4155407650,
+      "revenueGrowth": 0.23969999,
+      "epsAvg": 0.8,
+      "epsGrowth": 0.4628,
       "analystCount": 1
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 14498454680,
-      "revenueGrowth": 0.3377,
+      "revenueAvg": 14488880940,
+      "revenueGrowth": 0.3369,
       "epsAvg": 2.74,
       "epsGrowth": null,
       "analystCount": 1
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 16951059430,
-      "revenueGrowth": 0.1692,
-      "epsAvg": 3.14,
-      "epsGrowth": 0.146,
+      "revenueAvg": 17029359919,
+      "revenueGrowth": 0.1753,
+      "epsAvg": 2.975,
+      "epsGrowth": 0.0858,
       "analystCount": 2
     }
   ],
@@ -89,11 +89,11 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 3925799460,
-    "revenueGrowth": 0.2341,
-    "epsAvg": 0.67,
-    "epsGrowth": 0.222,
-    "analystCount": 1
+    "revenueAvg": 3959173600,
+    "revenueGrowth": 0.2446,
+    "epsAvg": 0.71728,
+    "epsGrowth": 4.1233997,
+    "analystCount": 8
   },
   "revisions": {
     "eps7d": -0.04861111111111105,

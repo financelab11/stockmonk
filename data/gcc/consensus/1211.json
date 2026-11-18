@@ -1,7 +1,7 @@
 {
   "ticker": "1211",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/1211/forecast/",
   "targetMean": 66.25,
   "targetHigh": 79,
@@ -19,10 +19,10 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 41400000000,
-      "revenueGrowth": 0.07200000000000001,
-      "epsAvg": 2.15,
-      "epsGrowth": 0.12300000000000001,
+      "revenueAvg": 43200000000,
+      "revenueGrowth": 0.121,
+      "epsAvg": 2.24,
+      "epsGrowth": 0.175,
       "analystCount": 11
     },
     {
@@ -38,10 +38,10 @@
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 41400000000,
-    "revenueGrowth": 0.07200000000000001,
-    "epsAvg": 2.15,
-    "epsGrowth": 0.12300000000000001,
+    "revenueAvg": 43200000000,
+    "revenueGrowth": 0.121,
+    "epsAvg": 2.24,
+    "epsGrowth": 0.175,
     "analystCount": 11
   },
   "revisions": null

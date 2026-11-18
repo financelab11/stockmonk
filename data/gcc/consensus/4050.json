@@ -1,7 +1,7 @@
 {
   "ticker": "4050",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/4050/forecast/",
   "targetMean": 40.98,
   "targetHigh": 47,

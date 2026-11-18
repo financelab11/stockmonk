@@ -13,13 +13,13 @@
   "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 56.150001525878906,
-    "prevClose": 55,
-    "changePct": 0.020909118652343794,
-    "asOf": "2026-11-09",
-    "high52": 86.80000305175781,
+    "close": 54.29999923706055,
+    "prevClose": 54.29999923706055,
+    "changePct": 0,
+    "asOf": "2026-11-18",
+    "high52": 86.30000305175781,
     "low52": 18.251575469970703,
-    "marketCap": 376130000,
+    "marketCap": 363730000,
     "sharesOutstanding": 6700000,
     "dividendYield": null
   },
@@ -1112,25 +1112,25 @@
     "ebitdaTtm": -8290000,
     "pe": null,
     "evEbitda": null,
-    "evSales": 191.2284263959391,
+    "evSales": 184.93401015228426,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.3401879843399278,
-    "returnYtd": -0.05391738888818187,
-    "return5y": -0.8181212156019757
+    "return1y": -0.3300432178591647,
+    "returnYtd": -0.08508844763092194,
+    "return5y": -0.8059056003026441
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "7th percentile revenue/EPS growth in the covered universe."
+      "detail": "6th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "1st percentile profitability metrics in the covered universe."
+      "detail": "0th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/6050/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/6050.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:16:28.629Z"
+  "updatedAt": "2026-11-18T09:26:36.816Z"
 }

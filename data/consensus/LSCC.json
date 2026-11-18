@@ -1,7 +1,7 @@
 {
   "ticker": "LSCC",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/LSCC/analysis",
   "targetMean": 156.18768,
   "targetHigh": 200,
@@ -21,18 +21,18 @@
       "endDate": "2026-12-31",
       "revenueAvg": 335173230,
       "revenueGrowth": 1.2989999,
-      "epsAvg": 0.39,
-      "epsGrowth": null,
-      "analystCount": 5
+      "epsAvg": 0.84276,
+      "epsGrowth": 1.6336,
+      "analystCount": 14
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
       "revenueAvg": 364818130,
       "revenueGrowth": 1.1347001,
-      "epsAvg": 0.43,
-      "epsGrowth": null,
-      "analystCount": 5
+      "epsAvg": 0.95321,
+      "epsGrowth": 1.3249,
+      "analystCount": 14
     },
     {
       "period": "Current fiscal year",
@@ -55,18 +55,10 @@
   ],
   "history": [
     {
-      "quarter": "2025-09-30",
-      "endDate": "2025-09-30",
-      "epsActual": 0.28,
-      "epsEstimate": 0.27917,
-      "revenueActual": 133349000,
-      "revenueEstimate": null
-    },
-    {
       "quarter": "2025-12-31",
       "endDate": "2025-12-31",
-      "epsActual": -0.06,
-      "epsEstimate": 0.068,
+      "epsActual": 0.32,
+      "epsEstimate": 0.31769,
       "revenueActual": 145792000,
       "revenueEstimate": null
     },
@@ -81,8 +73,8 @@
     {
       "quarter": "2026-06-30",
       "endDate": "2026-06-30",
-      "epsActual": 0.14,
-      "epsEstimate": 0.235,
+      "epsActual": 0.53,
+      "epsEstimate": 0.44516,
       "revenueActual": 201079000,
       "revenueEstimate": null
     },
@@ -99,9 +91,9 @@
     "endDate": "2026-12-31",
     "revenueAvg": 335173230,
     "revenueGrowth": 1.2989999,
-    "epsAvg": 0.39,
-    "epsGrowth": null,
-    "analystCount": 5
+    "epsAvg": 0.84276,
+    "epsGrowth": 1.6336,
+    "analystCount": 14
   },
   "revisions": {
     "eps7d": 0.17423870735616398,

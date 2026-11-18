@@ -1,12 +1,12 @@
 {
   "ticker": "TENB",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/TENB/analysis",
   "targetMean": 48.35,
   "targetHigh": 60,
   "targetLow": 35,
-  "recommendationKey": "hold",
+  "recommendationKey": "none",
   "analystCount": 20,
   "distribution": {
     "strongBuy": 3,

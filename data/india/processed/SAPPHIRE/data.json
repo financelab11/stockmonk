@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 207.89999389648438,
-    "prevClose": 210.05999755859375,
-    "changePct": -0.010282793902760434,
-    "asOf": "2026-11-08",
-    "high52": 273.1,
+    "close": 199.91000366210938,
+    "prevClose": 208.55999755859375,
+    "changePct": -0.04147484655610534,
+    "asOf": "2026-11-18",
+    "high52": 265.4,
     "low52": 139.91,
-    "marketCap": 66893484032,
+    "marketCap": 64322637824,
     "sharesOutstanding": null,
     "dividendYield": 0
   },
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 150000000,
       "netIncome": -410000000,
-      "epsDiluted": -1.97,
-      "epsBasic": -1.97,
+      "epsDiluted": -1.32,
+      "epsBasic": -1.32,
       "interestExpense": 20000000,
       "pretaxIncome": -400000000,
       "incomeTax": -12000000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 390000000,
       "netIncome": -450000000,
-      "epsDiluted": -2.07,
-      "epsBasic": -2.07,
+      "epsDiluted": -1.44,
+      "epsBasic": -1.44,
       "interestExpense": 180000000,
       "pretaxIncome": -440000000,
       "incomeTax": -13200000,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 1860000000,
       "netIncome": -1590000000,
-      "epsDiluted": -6.27,
-      "epsBasic": -6.27,
+      "epsDiluted": -5.07,
+      "epsBasic": -5.07,
       "interestExpense": 720000000,
       "pretaxIncome": -1610000000,
       "incomeTax": 16100000,
@@ -736,8 +736,8 @@
       "grossProfit": null,
       "operatingIncome": 1250000000,
       "netIncome": -1000000000,
-      "epsDiluted": -3.73,
-      "epsBasic": -3.73,
+      "epsDiluted": -3.17,
+      "epsBasic": -3.17,
       "interestExpense": 760000000,
       "pretaxIncome": -990000000,
       "incomeTax": -9900000,
@@ -979,7 +979,7 @@
     "epsTtm": -0.15000000000000002,
     "epsGrowthTtm": 3.9999999999999964,
     "grossMargin": 0.53191,
-    "operatingMargin": 0.02881,
+    "operatingMargin": 0.03655,
     "netMargin": -0.0014300001,
     "fcfMargin": 0.06048,
     "roic": 0.04,
@@ -990,20 +990,20 @@
     "freeCashFlowTtm": 1890000000,
     "ebitdaTtm": 5253800000,
     "pe": null,
-    "evEbitda": 15.200076890631543,
-    "evSales": 2.3591497875357454,
-    "pfcf": 35.393377794709,
-    "fcfYield": 0.028253872964605582,
-    "return1y": -0.21606340751528696,
-    "returnYtd": -0.20860302917443163,
-    "return5y": -0.1420081878948828
+    "evEbitda": 14.710746080931896,
+    "evSales": 2.2832024956869046,
+    "pfcf": 34.03314170582011,
+    "fcfYield": 0.02938312332854616,
+    "return1y": -0.2374212919453731,
+    "returnYtd": -0.23901791255128568,
+    "return5y": -0.14717801911615547
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "98th percentile revenue/EPS growth in the covered universe."
+      "detail": "97th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1032,7 +1032,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-18",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1463,13 +1463,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=SAPPHIRE",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.sapphirefoods.in",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:04.317Z"
+  "updatedAt": "2026-11-18T09:11:36.003Z"
 }

@@ -1,11 +1,11 @@
 {
   "ticker": "PIIND",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=PIIND",
-  "targetMean": 2359.72,
+  "targetMean": 2249.44,
   "targetHigh": 5300,
-  "targetLow": 1470,
+  "targetLow": 1450,
   "recommendationKey": "hold",
   "analystCount": 25,
   "distribution": null,
@@ -13,20 +13,20 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 14331000000,
-      "revenueGrowth": 0.0417,
+      "revenueAvg": 15226000000,
+      "revenueGrowth": 0.106800005,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 1
+      "analystCount": 2
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 16388000000,
-      "revenueGrowth": 0.047,
+      "revenueAvg": 17052500000,
+      "revenueGrowth": 0.089499995,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 1
+      "analystCount": 2
     },
     {
       "period": "Current fiscal year",
@@ -35,7 +35,7 @@
       "revenueGrowth": 0.1121,
       "epsAvg": 88.7,
       "epsGrowth": 0.0848,
-      "analystCount": 14
+      "analystCount": 17
     },
     {
       "period": "Next fiscal year",
@@ -83,10 +83,10 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 14331000000,
-    "revenueGrowth": 0.0417,
+    "revenueAvg": 15226000000,
+    "revenueGrowth": 0.106800005,
     "epsAvg": null,
     "epsGrowth": null,
-    "analystCount": 1
+    "analystCount": 2
   }
 }

@@ -1,9 +1,9 @@
 {
   "ticker": "APLD",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/APLD/analysis",
-  "targetMean": 60.9375,
+  "targetMean": 59.9375,
   "targetHigh": 93,
   "targetLow": 22,
   "recommendationKey": "strong_buy",
@@ -97,9 +97,9 @@
   },
   "revisions": {
     "eps7d": 0,
-    "eps30d": -0.0226560417643219,
+    "eps30d": 0,
     "eps60d": 0.11541648747023592,
-    "eps90d": 0.47688888888888914,
+    "eps90d": 0.11541648747023592,
     "revenue30d": null
   }
 }

@@ -13,10 +13,10 @@
   "quoteCurrency": "KWD",
   "isResearch": true,
   "latestPrice": {
-    "close": 257,
-    "prevClose": 257,
-    "changePct": 0,
-    "asOf": "2026-11-09",
+    "close": 246,
+    "prevClose": 249,
+    "changePct": -0.012048192771084376,
+    "asOf": "2026-11-18",
     "high52": 305.7139892578125,
     "low52": 242,
     "marketCap": 1210000000,
@@ -1115,16 +1115,16 @@
     "evSales": 11.773750117691366,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.04980756105483919,
-    "returnYtd": -0.07266222153166546,
-    "return5y": 0.16280986166756684
+    "return1y": -0.09366735304653495,
+    "returnYtd": -0.11235372177739178,
+    "return5y": 0.04281950070479246
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "78th percentile revenue/EPS growth in the covered universe."
+      "detail": "77th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/kwse/WARBABANK/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/WARBABANK.KW",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:04.785Z"
+  "updatedAt": "2026-11-18T09:29:49.949Z"
 }

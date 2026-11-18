@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 1055,
-    "prevClose": 1066.5999755859375,
-    "changePct": -0.010875657089308488,
-    "asOf": "2026-11-08",
+    "close": 1139.5999755859375,
+    "prevClose": 1155.75,
+    "changePct": -0.013973631333820014,
+    "asOf": "2026-11-18",
     "high52": 1347,
     "low52": 726.4,
-    "marketCap": 84016201728,
+    "marketCap": 90753417216,
     "sharesOutstanding": null,
-    "dividendYield": 0.0047
+    "dividendYield": 0.0043
   },
   "ttm": {
     "period": "TTM",
@@ -43,8 +43,8 @@
     "incomeTax": 1869100000,
     "rnd": null,
     "sga": null,
-    "cashAndInvestments": 13642999808,
-    "totalDebt": 24732000256,
+    "cashAndInvestments": 13799999488,
+    "totalDebt": 23441999872,
     "totalEquity": null,
     "totalAssets": null,
     "inventory": null,
@@ -62,8 +62,8 @@
     "netMargin": 0.009632224168126095,
     "fcfMargin": null,
     "roic": null,
-    "netDebt": 11089000448,
-    "netDebtToEbitda": 1.401896390391909,
+    "netDebt": 9642000384,
+    "netDebtToEbitda": 1.2189633860935525,
     "roe": null
   },
   "quarterly": [
@@ -577,8 +577,8 @@
       "incomeTax": 404699999.99999994,
       "rnd": null,
       "sga": null,
-      "cashAndInvestments": 13642999808,
-      "totalDebt": 24732000256,
+      "cashAndInvestments": 13799999488,
+      "totalDebt": 23441999872,
       "totalEquity": null,
       "totalAssets": null,
       "inventory": null,
@@ -1071,8 +1071,8 @@
       "incomeTax": 1161800000,
       "rnd": null,
       "sga": null,
-      "cashAndInvestments": 13642999808,
-      "totalDebt": 24732000256,
+      "cashAndInvestments": 13799999488,
+      "totalDebt": 23441999872,
       "totalEquity": 34500000000,
       "totalAssets": 95530000000,
       "inventory": null,
@@ -1090,7 +1090,7 @@
       "netMargin": 0.004189230612036375,
       "fcfMargin": 0.006437110452641259,
       "roic": 0.05,
-      "netDebt": 11089000448,
+      "netDebt": 9642000384,
       "netDebtToEbitda": 4.1011608623548925,
       "roe": 0.011884057971014493
     }
@@ -1101,25 +1101,25 @@
     "revenueGrowthLatestQ": 0.14914118139924581,
     "epsTtm": 11.030000000000001,
     "epsGrowthTtm": 0.5645390070921987,
-    "grossMargin": 0.47987,
-    "operatingMargin": 0.06166,
-    "netMargin": 0.0073,
+    "grossMargin": 0.48594,
+    "operatingMargin": 0.03734,
+    "netMargin": 0.008590001,
     "fcfMargin": 0.006437110452641259,
     "roic": 0.05,
-    "roe": 0.011884057971014493,
-    "netDebt": 11089000448,
-    "netDebtToEbitda": 1.401896390391909,
+    "roe": 0.025150001,
+    "netDebt": 9642000384,
+    "netDebtToEbitda": 1.2189633860935525,
     "interestCover": 4.9748427672955975,
     "freeCashFlowTtm": 630000000,
     "ebitdaTtm": 7910000000,
-    "pe": 84.86485023030303,
-    "evEbitda": 12.02341367585335,
-    "evSales": 0.9253279059739249,
-    "pfcf": 133.35905036190476,
-    "fcfYield": 0.007498553696102647,
-    "return1y": -0.003748438918935393,
-    "returnYtd": 0.12448294310760821,
-    "return5y": 0.7930358287253445
+    "pe": 91.6701184,
+    "evEbitda": 12.692214614412137,
+    "evSales": 0.9767991593695271,
+    "pfcf": 144.0530432,
+    "fcfYield": 0.006941887361668733,
+    "return1y": 0.09739307515052475,
+    "returnYtd": 0.21465472465614543,
+    "return5y": 1.058560556029032
   },
   "factorChips": [
     {
@@ -1132,7 +1132,7 @@
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "6th percentile profitability metrics in the covered universe."
+      "detail": "5th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1144,18 +1144,18 @@
       "key": "balance",
       "label": "Balance sheet: Low leverage",
       "tone": "positive",
-      "detail": "Net debt of ₹11.1B, 1.4× EBITDA."
+      "detail": "Net debt of ₹9.6B, 1.2× EBITDA."
     },
     {
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "85th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "81st percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=SUDARSCHEM",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.sudarshan.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:57.060Z"
+  "updatedAt": "2026-11-18T09:11:05.707Z"
 }

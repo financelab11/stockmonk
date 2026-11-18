@@ -14,15 +14,19 @@
   "currency": "USD",
   "isResearch": true,
   "latestPrice": {
-    "close": 570.8900146484375,
-    "prevClose": 572.3300170898438,
-    "changePct": -0.0025160351517613533,
-    "asOf": "2026-11-06",
-    "high52": 586.3,
-    "low52": 464.01,
-    "marketCap": 1222109822976,
+    "close": 586.760009765625,
+    "prevClose": 592.8499755859375,
+    "changePct": -0.010272355690482349,
+    "asOf": "2026-11-17",
+    "high52": 596.9199829101562,
+    "low52": 464.010009765625,
+    "marketCap": 1246582931456,
     "sharesOutstanding": null,
-    "dividendYield": 0
+    "dividendYield": 0,
+    "pe": null,
+    "evEbitda": null,
+    "evSales": null,
+    "pfcf": null
   },
   "ttm": {
     "period": "TTM",
@@ -1354,25 +1358,25 @@
     "revenueGrowthLatestQ": 0.14182653160928904,
     "epsTtm": null,
     "epsGrowthTtm": null,
-    "grossMargin": 0.30332002,
-    "operatingMargin": 0.32561,
-    "netMargin": 0.22296,
+    "grossMargin": null,
+    "operatingMargin": 0.41174205819052645,
+    "netMargin": 0.3304970873935926,
     "fcfMargin": 0.09323035578844428,
     "roic": null,
-    "roe": 0.121199995,
+    "roe": null,
     "netDebt": null,
     "netDebtToEbitda": null,
     "interestCover": null,
     "freeCashFlowTtm": 24215000000,
     "ebitdaTtm": null,
-    "pe": null,
+    "pe": 14.52199917820156,
     "evEbitda": null,
-    "evSales": null,
-    "pfcf": null,
-    "fcfYield": null,
-    "return1y": 0.1576397074198712,
-    "returnYtd": 0.14901883392449045,
-    "return5y": 0.9767660622537486
+    "evSales": 4.799478431527761,
+    "pfcf": 51.4797824264299,
+    "fcfYield": 0.019425101522701785,
+    "return1y": 0.16591821003001428,
+    "returnYtd": 0.1809600534519813,
+    "return5y": 1.0908669762901813
   },
   "factorChips": [
     {
@@ -1385,7 +1389,7 @@
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "74th percentile profitability metrics in the covered universe."
+      "detail": "68th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1408,7 +1412,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-08",
+      "date": "2021-11-18",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1842,10 +1846,10 @@
       "date": "2025-12-31"
     },
     {
-      "name": "Yahoo Finance market data",
+      "name": "Market price history",
       "url": "https://finance.yahoo.com/quote/BRK-B",
-      "date": "2026-11-06"
+      "date": "2026-11-17"
     }
   ],
-  "updatedAt": "2026-11-08T09:10:54.209Z"
+  "updatedAt": "2026-11-18T09:05:54.580Z"
 }

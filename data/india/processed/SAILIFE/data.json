@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 1744,
-    "prevClose": 1785.0999755859375,
-    "changePct": -0.023023906866867172,
-    "asOf": "2026-11-08",
-    "high52": 1814.9,
+    "close": 1798.800048828125,
+    "prevClose": 1751.5,
+    "changePct": 0.02700545180024272,
+    "asOf": "2026-11-18",
+    "high52": 1954.8,
     "low52": 783.85,
-    "marketCap": 370552438784,
+    "marketCap": 382195924992,
     "sharesOutstanding": null,
     "dividendYield": 0
   },
@@ -43,8 +43,8 @@
     "incomeTax": 1255000000,
     "rnd": null,
     "sga": null,
-    "cashAndInvestments": 1578630016,
-    "totalDebt": 2884519936,
+    "cashAndInvestments": 1079559936,
+    "totalDebt": 6195700224,
     "totalEquity": null,
     "totalAssets": null,
     "inventory": null,
@@ -62,8 +62,8 @@
     "netMargin": 0.15816111345423872,
     "fcfMargin": null,
     "roic": null,
-    "netDebt": 1305889920,
-    "netDebtToEbitda": 0.18682259227467812,
+    "netDebt": 5116140288,
+    "netDebtToEbitda": 0.7319227879828326,
     "roe": null
   },
   "quarterly": [
@@ -536,8 +536,8 @@
       "incomeTax": 327500000,
       "rnd": null,
       "sga": null,
-      "cashAndInvestments": 1578630016,
-      "totalDebt": 2884519936,
+      "cashAndInvestments": 1079559936,
+      "totalDebt": 6195700224,
       "totalEquity": null,
       "totalAssets": null,
       "inventory": null,
@@ -866,8 +866,8 @@
       "incomeTax": 1165000000,
       "rnd": null,
       "sga": null,
-      "cashAndInvestments": 1578630016,
-      "totalDebt": 2884519936,
+      "cashAndInvestments": 1079559936,
+      "totalDebt": 6195700224,
       "totalEquity": 24840000000,
       "totalAssets": 36130000000,
       "inventory": null,
@@ -885,7 +885,7 @@
       "netMargin": 0.15921532846715328,
       "fcfMargin": -0.03786496350364964,
       "roic": 0.2,
-      "netDebt": 1305889920,
+      "netDebt": 5116140288,
       "netDebtToEbitda": 0.45425867507886436,
       "roe": 0.14049919484702095
     }
@@ -896,25 +896,25 @@
     "revenueGrowthLatestQ": 0.22718808193668538,
     "epsTtm": 17.75,
     "epsGrowthTtm": 0.29278951201747994,
-    "grossMargin": 0.74461997,
-    "operatingMargin": 0.18414,
-    "netMargin": 0.16075,
+    "grossMargin": 0.71546,
+    "operatingMargin": 0.21773,
+    "netMargin": 0.15864,
     "fcfMargin": -0.03786496350364964,
     "roic": 0.2,
-    "roe": 0.14049919484702095,
-    "netDebt": 1305889920,
-    "netDebtToEbitda": 0.18682259227467812,
+    "roe": 0.15177,
+    "netDebt": 5116140288,
+    "netDebtToEbitda": 0.7319227879828326,
     "interestCover": 18.89189189189189,
     "freeCashFlowTtm": -830000000,
     "ebitdaTtm": 6990000000,
-    "pe": 98.81398367573334,
-    "evEbitda": 53.19861640972818,
-    "evSales": 15.683607284015183,
+    "pe": 101.9189133312,
+    "evEbitda": 55.40945139914163,
+    "evSales": 16.33538866638549,
     "pfcf": null,
-    "fcfYield": -0.0022398988999336156,
-    "return1y": 0.9227165244150386,
-    "returnYtd": 0.9372396556512079,
-    "return5y": 1.2807819843285766
+    "fcfYield": -0.0021716610401258814,
+    "return1y": 1.0835120167893875,
+    "returnYtd": 0.9981116898951681,
+    "return5y": 1.3524488215461878
   },
   "factorChips": [
     {
@@ -927,7 +927,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "56th percentile profitability metrics in the covered universe."
+      "detail": "64th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -939,13 +939,13 @@
       "key": "balance",
       "label": "Balance sheet: Low leverage",
       "tone": "positive",
-      "detail": "Net debt of ₹1.3B, 0.2× EBITDA."
+      "detail": "Net debt of ₹5.1B, 0.7× EBITDA."
     },
     {
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "14th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "13th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1122,13 +1122,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=SAILIFE",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.sailife.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:44.558Z"
+  "updatedAt": "2026-11-18T09:09:58.772Z"
 }

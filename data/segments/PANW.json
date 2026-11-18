@@ -1,0 +1,35 @@
+{
+  "ticker": "PANW",
+  "asOf": "2026-07-31",
+  "source": {
+    "name": "Palo Alto Networks, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000023/panw-20260731.htm",
+    "date": "2026-09-10"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 11480000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 7679000000,
+      "share": 0.6689024390243903
+    },
+    {
+      "name": "EMEA",
+      "revenue": 2428000000,
+      "share": 0.21149825783972126
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 1373000000,
+      "share": 0.1195993031358885
+    }
+  ]
+}

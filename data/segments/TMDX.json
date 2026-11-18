@@ -1,0 +1,35 @@
+{
+  "ticker": "TMDX",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "TransMedics Group, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1756262/000119312526067032/tmdx-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Ocs Transplant Revenue",
+      "revenue": 601397000,
+      "share": 0.9932336241151852
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 4097000,
+      "share": 0.0067663758848147135
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 584697000,
+      "share": 0.9656528388390306
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 16700000,
+      "share": 0.027580785276154676
+    }
+  ]
+}

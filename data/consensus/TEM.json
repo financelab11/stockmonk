@@ -1,7 +1,7 @@
 {
   "ticker": "TEM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/TEM/analysis",
   "targetMean": 89.55556,
   "targetHigh": 120,
@@ -21,18 +21,18 @@
       "endDate": "2026-12-31",
       "revenueAvg": 459194030,
       "revenueGrowth": 0.2505,
-      "epsAvg": -0.27,
-      "epsGrowth": null,
-      "analystCount": 4
+      "epsAvg": 0.03095,
+      "epsGrowth": 1.7738,
+      "analystCount": 13
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
       "revenueAvg": 437396920,
       "revenueGrowth": 0.2565,
-      "epsAvg": -0.39,
-      "epsGrowth": null,
-      "analystCount": 2
+      "epsAvg": -0.10818,
+      "epsGrowth": 0.16780001,
+      "analystCount": 11
     },
     {
       "period": "Current fiscal year",
@@ -55,14 +55,6 @@
   ],
   "history": [
     {
-      "quarter": "2025-09-30",
-      "endDate": "2025-09-30",
-      "epsActual": -0.11,
-      "epsEstimate": -0.17534,
-      "revenueActual": 334206000,
-      "revenueEstimate": null
-    },
-    {
       "quarter": "2025-12-31",
       "endDate": "2025-12-31",
       "epsActual": -0.04,
@@ -81,8 +73,8 @@
     {
       "quarter": "2026-06-30",
       "endDate": "2026-06-30",
-      "epsActual": 0.03,
-      "epsEstimate": -0.51846,
+      "epsActual": -0.04,
+      "epsEstimate": -0.15167,
       "revenueActual": 382486000,
       "revenueEstimate": null
     },
@@ -99,9 +91,9 @@
     "endDate": "2026-12-31",
     "revenueAvg": 459194030,
     "revenueGrowth": 0.2505,
-    "epsAvg": -0.27,
-    "epsGrowth": null,
-    "analystCount": 4
+    "epsAvg": 0.03095,
+    "epsGrowth": 1.7738,
+    "analystCount": 13
   },
   "revisions": {
     "eps7d": -0.5989152489464649,

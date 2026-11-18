@@ -1,0 +1,70 @@
+{
+  "ticker": "ECL",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ECOLAB INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/31462/000110465926018357/ecl-20251231x10k.htm",
+    "date": "2026-02-23"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Water Services",
+      "revenue": 7982400000,
+      "share": 0.4963808670994702
+    },
+    {
+      "name": "Global Institutional",
+      "revenue": 6104600000,
+      "share": 0.3796109743054001
+    },
+    {
+      "name": "Global Pest Elimination",
+      "revenue": 1246300000,
+      "share": 0.07750043529089869
+    },
+    {
+      "name": "Global Healthcare & Life Sciences",
+      "revenue": 747900000,
+      "share": 0.04650772330423103
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 3996000000,
+      "share": 0.24848891873740767
+    },
+    {
+      "name": "Europe",
+      "revenue": 1661100000,
+      "share": 0.1032945302589359
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 945700000,
+      "share": 0.05880780041290451
+    },
+    {
+      "name": "Latin America",
+      "revenue": 816700000,
+      "share": 0.05078601099420441
+    },
+    {
+      "name": "India Middle East & Africa",
+      "revenue": 501100000,
+      "share": 0.031160609904733478
+    },
+    {
+      "name": "China",
+      "revenue": 410400000,
+      "share": 0.02552048354600403
+    },
+    {
+      "name": "CA",
+      "revenue": 250300000,
+      "share": 0.015564758848842127
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ticker": "GMED",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "GLOBUS MEDICAL, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1237831/000162828026011209/gmed-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 2938931000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 2367596000,
+      "share": 0.8055976816059989
+    },
+    {
+      "name": "Non-US",
+      "revenue": 571335000,
+      "share": 0.19440231839400107
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "ticker": "MCD",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "McDONALD’S CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "International Operated Markets",
+      "revenue": 13633000000,
+      "share": 0.507085735540264
+    },
+    {
+      "name": "US Market",
+      "revenue": 10825000000,
+      "share": 0.4026408778129068
+    },
+    {
+      "name": "International Developmental Licensed Marketsand Corporate",
+      "revenue": 2427000000,
+      "share": 0.09027338664682909
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

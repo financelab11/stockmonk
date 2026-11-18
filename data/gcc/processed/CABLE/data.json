@@ -13,12 +13,12 @@
   "quoteCurrency": "KWD",
   "isResearch": true,
   "latestPrice": {
-    "close": 1494,
-    "prevClose": 1491,
-    "changePct": 0.002012072434607548,
-    "asOf": "2026-11-09",
-    "high52": 2280,
-    "low52": 1461,
+    "close": 1408,
+    "prevClose": 1427,
+    "changePct": -0.01331464611072175,
+    "asOf": "2026-11-18",
+    "high52": 2200,
+    "low52": 1404,
     "marketCap": 309740000,
     "sharesOutstanding": 207330000,
     "dividendYield": 0.046900000000000004
@@ -1115,16 +1115,16 @@
     "evSales": 3.5535394028906,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.34211668723283073,
-    "returnYtd": -0.2817052232809981,
-    "return5y": 0.5048413976570956
+    "return1y": -0.3505304672519568,
+    "returnYtd": -0.3230528476436716,
+    "return5y": 0.43703048928814936
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "60th percentile revenue/EPS growth in the covered universe."
+      "detail": "59th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/kwse/CABLE/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/CABLE.KW",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:12.079Z"
+  "updatedAt": "2026-11-18T09:30:09.922Z"
 }

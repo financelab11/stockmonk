@@ -13,15 +13,15 @@
   "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 92.05000305175781,
-    "prevClose": 91,
-    "changePct": 0.011538495074261634,
-    "asOf": "2026-11-09",
-    "high52": 112,
+    "close": 94.8499984741211,
+    "prevClose": 95.25,
+    "changePct": -0.004199491085342899,
+    "asOf": "2026-11-18",
+    "high52": 110,
     "low52": 81.0999984741211,
-    "marketCap": 11970000000,
+    "marketCap": 12330000000,
     "sharesOutstanding": 130000000,
-    "dividendYield": 0.0608
+    "dividendYield": 0.059000000000000004
   },
   "ttm": {
     "period": "TTM",
@@ -36,7 +36,7 @@
     "netIncome": 798600000,
     "epsDiluted": 6.14,
     "epsBasic": 6.14,
-    "interestExpense": -87070000,
+    "interestExpense": -85960000,
     "pretaxIncome": 821770000,
     "incomeTax": 23160000,
     "rnd": null,
@@ -50,18 +50,18 @@
     "cfo": 1529000000,
     "capex": 290130000,
     "freeCashFlow": 1239000000,
-    "da": 817230000,
+    "da": 784940000,
     "sbc": null,
     "dividendsPaid": 728000000,
     "buybacks": null,
-    "ebitda": 1240000000,
+    "ebitda": 1208000000,
     "grossMargin": 0.35293023255813954,
     "operatingMargin": 0.08458790697674419,
     "netMargin": 0.07428837209302326,
     "fcfMargin": 0.11525581395348837,
     "roic": 0.1659450394093677,
     "netDebt": 1632920000,
-    "netDebtToEbitda": 1.3168709677419355,
+    "netDebtToEbitda": 1.3517549668874171,
     "roe": 0.2962166172106825
   },
   "quarterly": [
@@ -871,18 +871,18 @@
       "cfo": 493860000,
       "capex": 49390000,
       "freeCashFlow": 444470000,
-      "da": 222060000,
+      "da": 197720000,
       "sbc": null,
       "dividendsPaid": 338000000,
       "buybacks": null,
-      "ebitda": 293870000,
+      "ebitda": 269530000,
       "grossMargin": 0.35547176820208026,
       "operatingMargin": 0.07275631500742942,
       "netMargin": 0.0638075780089153,
       "fcfMargin": 0.16510772659732542,
       "roic": 0.03574318767729595,
       "netDebt": 1632920000,
-      "netDebtToEbitda": 5.556606662810086,
+      "netDebtToEbitda": 6.058397951990502,
       "roe": 0.06371290801186943
     }
   ],
@@ -1106,18 +1106,18 @@
     "roic": 0.1659450394093677,
     "roe": 0.2962166172106825,
     "netDebt": 1632920000,
-    "netDebtToEbitda": 1.3168709677419355,
+    "netDebtToEbitda": 1.3517549668874171,
     "interestCover": 8.294353735291434,
     "freeCashFlowTtm": 1239250000,
-    "ebitdaTtm": 1231970000,
-    "pe": 14.98,
-    "evEbitda": 7.89,
-    "evSales": 1.2653879069767442,
+    "ebitdaTtm": 1207630000,
+    "pe": 15.44,
+    "evEbitda": 8.06,
+    "evSales": 1.2988762790697674,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.13086827247760124,
-    "returnYtd": 0.009256160324228713,
-    "return5y": -0.33844660232503665
+    "return1y": -0.07809058044900907,
+    "returnYtd": 0.03995591627438144,
+    "return5y": -0.31832326386859355
   },
   "factorChips": [
     {
@@ -1130,7 +1130,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "39th percentile profitability metrics in the covered universe."
+      "detail": "38th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1142,13 +1142,13 @@
       "key": "balance",
       "label": "Balance sheet: Low leverage",
       "tone": "positive",
-      "detail": "Net debt of $1.6B, 1.3× EBITDA."
+      "detail": "Net debt of $1.6B, 1.4× EBITDA."
     },
     {
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "69th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "70th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1549,13 +1549,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/4164/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/4164.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:15:22.490Z"
+  "updatedAt": "2026-11-18T09:24:48.200Z"
 }

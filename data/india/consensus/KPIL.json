@@ -1,11 +1,11 @@
 {
   "ticker": "KPIL",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=KPIL",
-  "targetMean": 1653.65,
-  "targetHigh": 1865,
-  "targetLow": 1400,
+  "targetMean": 1707.95,
+  "targetHigh": 1952,
+  "targetLow": 1472,
   "recommendationKey": "strong_buy",
   "analystCount": 20,
   "distribution": null,
@@ -13,37 +13,37 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 66732000000,
-      "revenueGrowth": 0.153,
+      "revenueAvg": 66328000000,
+      "revenueGrowth": 0.146,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 2
+      "analystCount": 1
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 83716500000,
-      "revenueGrowth": 0.2021,
+      "revenueAvg": 82040000000,
+      "revenueGrowth": 0.17809999,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 2
+      "analystCount": 1
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 311477600000,
-      "revenueGrowth": 0.342,
-      "epsAvg": 73.64545,
-      "epsGrowth": 0.1528,
-      "analystCount": 5
+      "revenueAvg": 308654082660,
+      "revenueGrowth": 0.3298,
+      "epsAvg": 75.86976,
+      "epsGrowth": 0.1876,
+      "analystCount": 11
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 353436522570,
-      "revenueGrowth": 0.3071,
-      "epsAvg": 91.81818,
-      "epsGrowth": 0.2468,
+      "revenueAvg": 357126513860,
+      "revenueGrowth": 0.32479998,
+      "epsAvg": 93.66743,
+      "epsGrowth": 0.2346,
       "analystCount": 11
     }
   ],
@@ -83,10 +83,10 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 66732000000,
-    "revenueGrowth": 0.153,
+    "revenueAvg": 66328000000,
+    "revenueGrowth": 0.146,
     "epsAvg": null,
     "epsGrowth": null,
-    "analystCount": 2
+    "analystCount": 1
   }
 }

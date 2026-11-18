@@ -1,10 +1,10 @@
 {
   "ticker": "PRESIGHT",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/adx/PRESIGHT/forecast/",
-  "targetMean": 4.4,
-  "targetHigh": 5.1,
+  "targetMean": 4.44,
+  "targetHigh": 5.29,
   "targetLow": 3.2,
   "recommendationKey": "buy",
   "analystCount": 10,
@@ -20,9 +20,9 @@
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
       "revenueAvg": 3800000000,
-      "revenueGrowth": 0.247,
+      "revenueGrowth": 0.24100000000000002,
       "epsAvg": 0.13,
-      "epsGrowth": 0.318,
+      "epsGrowth": 0.324,
       "analystCount": 10
     },
     {
@@ -39,9 +39,9 @@
   "currentQuarter": {
     "endDate": "2026-12-31",
     "revenueAvg": 3800000000,
-    "revenueGrowth": 0.247,
+    "revenueGrowth": 0.24100000000000002,
     "epsAvg": 0.13,
-    "epsGrowth": 0.318,
+    "epsGrowth": 0.324,
     "analystCount": 10
   },
   "revisions": null

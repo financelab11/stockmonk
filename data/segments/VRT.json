@@ -1,0 +1,55 @@
+{
+  "ticker": "VRT",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Vertiv Holdings Co Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1674101/000167410126000008/vrt-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Americas",
+      "revenue": 6423900000,
+      "share": 0.6279533524276875
+    },
+    {
+      "name": "EMEA",
+      "revenue": 2382200000,
+      "share": 0.23286640143109905
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 2274700000,
+      "share": 0.22235798981417218
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 6013600000,
+      "share": 0.5878454334841983
+    },
+    {
+      "name": "Asia",
+      "revenue": 2020300000,
+      "share": 0.19748971153188202
+    },
+    {
+      "name": "Europe",
+      "revenue": 1474600000,
+      "share": 0.14414608158437522
+    },
+    {
+      "name": "Latin America & Canada",
+      "revenue": 436900000,
+      "share": 0.042708139864514806
+    },
+    {
+      "name": "Middle East & Africa",
+      "revenue": 284500000,
+      "share": 0.027810633535029668
+    }
+  ]
+}

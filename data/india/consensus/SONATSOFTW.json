@@ -1,12 +1,12 @@
 {
   "ticker": "SONATSOFTW",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=SONATSOFTW",
-  "targetMean": 310.57144,
+  "targetMean": 289.7143,
   "targetHigh": 340,
-  "targetLow": 260,
-  "recommendationKey": "none",
+  "targetLow": 210,
+  "recommendationKey": "hold",
   "analystCount": 7,
   "distribution": null,
   "estimates": [
@@ -31,19 +31,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 116443000000,
-      "revenueGrowth": 0.0881,
-      "epsAvg": 17.52857,
-      "epsGrowth": -0.048299998,
+      "revenueAvg": 117206285710,
+      "revenueGrowth": 0.0953,
+      "epsAvg": 17.26667,
+      "epsGrowth": -0.0625,
       "analystCount": 7
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 128688857140,
-      "revenueGrowth": 0.10520001,
-      "epsAvg": 20.72857,
-      "epsGrowth": 0.1826,
+      "revenueAvg": 130098000000,
+      "revenueGrowth": 0.11,
+      "epsAvg": 20.41429,
+      "epsGrowth": 0.1823,
       "analystCount": 7
     }
   ],

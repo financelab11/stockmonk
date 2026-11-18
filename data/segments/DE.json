@@ -1,0 +1,65 @@
+{
+  "ticker": "DE",
+  "asOf": "2025-11-02",
+  "source": {
+    "name": "DEERE & CO Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/315189/000110465925122321/de-20251102x10k.htm",
+    "date": "2025-12-18"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Production & Precision Agriculture",
+      "revenue": 17753000000,
+      "share": 0.38860432536555467
+    },
+    {
+      "name": "Construction & Forestry",
+      "revenue": 11650000000,
+      "share": 0.2550126959110411
+    },
+    {
+      "name": "Small Agriculture & Turf",
+      "revenue": 10464000000,
+      "share": 0.22905174678224324
+    },
+    {
+      "name": "Financial Services",
+      "revenue": 6289000000,
+      "share": 0.1376630767883723
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 23974000000,
+      "share": 0.5247789160318711
+    },
+    {
+      "name": "Western Europe",
+      "revenue": 6550000000,
+      "share": 0.1433762367568514
+    },
+    {
+      "name": "Latin America",
+      "revenue": 5607000000,
+      "share": 0.1227344365642238
+    },
+    {
+      "name": "Asia Africa Oceania & Middle East",
+      "revenue": 4243000000,
+      "share": 0.0928771561159268
+    },
+    {
+      "name": "CA",
+      "revenue": 3735000000,
+      "share": 0.08175728920409771
+    },
+    {
+      "name": "Central Europe & Commonwealth Of Independent States",
+      "revenue": 1575000000,
+      "share": 0.03447596532702916
+    }
+  ]
+}

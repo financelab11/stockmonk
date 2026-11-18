@@ -1,12 +1,12 @@
 {
   "ticker": "NEWGEN",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=NEWGEN",
-  "targetMean": 571,
+  "targetMean": 550.1667,
   "targetHigh": 620,
-  "targetLow": 511,
-  "recommendationKey": "strong_buy",
+  "targetLow": 490,
+  "recommendationKey": "none",
   "analystCount": 6,
   "distribution": null,
   "estimates": [
@@ -31,17 +31,17 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 17324460000,
-      "revenueGrowth": 0.1004,
+      "revenueAvg": 17333716670,
+      "revenueGrowth": 0.101,
       "epsAvg": 26.12,
       "epsGrowth": 0.1058,
-      "analystCount": 5
+      "analystCount": 6
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 19662150000,
-      "revenueGrowth": 0.1349,
+      "revenueAvg": 19532150000,
+      "revenueGrowth": 0.1268,
       "epsAvg": 29,
       "epsGrowth": 0.1103,
       "analystCount": 6

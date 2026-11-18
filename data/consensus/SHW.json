@@ -1,9 +1,9 @@
 {
   "ticker": "SHW",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/SHW/analysis",
-  "targetMean": 374.25,
+  "targetMean": 373.83334,
   "targetHigh": 420,
   "targetLow": 329,
   "recommendationKey": "buy",
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 25202614600,
-      "revenueGrowth": 0.0691,
-      "epsAvg": 12.03072,
-      "epsGrowth": 0.052600004,
+      "revenueAvg": 25206922290,
+      "revenueGrowth": 0.069299996,
+      "epsAvg": 12.0259,
+      "epsGrowth": 0.0521,
       "analystCount": 29
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 26249850930,
-      "revenueGrowth": 0.0416,
-      "epsAvg": 13.21201,
-      "epsGrowth": 0.09819999,
+      "revenueAvg": 26238735550,
+      "revenueGrowth": 0.040900003,
+      "epsAvg": 13.17925,
+      "epsGrowth": 0.0959,
       "analystCount": 29
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 24
   },
   "revisions": {
-    "eps7d": -0.0035532011111828465,
-    "eps30d": -0.005576867283453191,
-    "eps60d": -0.00580285498481925,
-    "eps90d": -0.003265910751656498,
+    "eps7d": -0.00040064102564107973,
+    "eps30d": -0.005725435401793266,
+    "eps60d": -0.006198707369941658,
+    "eps90d": -0.005231141338424394,
     "revenue30d": null
   }
 }

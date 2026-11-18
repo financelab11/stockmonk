@@ -13,15 +13,15 @@
   "quoteCurrency": "QAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 4.499000072479248,
-    "prevClose": 4.116000175476074,
-    "changePct": 0.09305147732625518,
-    "asOf": "2026-11-09",
-    "high52": 4.499000072479248,
+    "close": 5.800000190734863,
+    "prevClose": 6.050000190734863,
+    "changePct": -0.04132231274684206,
+    "asOf": "2026-11-18",
+    "high52": 6.298999786376953,
     "low52": 3.555000066757202,
-    "marketCap": 11480000000,
+    "marketCap": 15430000000,
     "sharesOutstanding": 2550000000,
-    "dividendYield": 0.0556
+    "dividendYield": 0.041299999999999996
   },
   "ttm": {
     "period": "TTM",
@@ -1110,14 +1110,14 @@
     "interestCover": null,
     "freeCashFlowTtm": 5159410000,
     "ebitdaTtm": null,
-    "pe": 12.61,
+    "pe": 16.95,
     "evEbitda": null,
-    "evSales": 4.3837638376383765,
+    "evSales": 7.2988929889298895,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.31619679966944036,
-    "returnYtd": 0.28106070033252273,
-    "return5y": 0.5734685464286513
+    "return1y": 0.6996054229558926,
+    "returnYtd": 0.6515119330009396,
+    "return5y": 1.0541541946157555
   },
   "factorChips": [
     {
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/qse/ABQK/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/ABQK.QA",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:39.982Z"
+  "updatedAt": "2026-11-18T09:28:57.385Z"
 }

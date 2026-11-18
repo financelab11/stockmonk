@@ -1,12 +1,12 @@
 {
   "ticker": "CRDO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/CRDO/analysis",
-  "targetMean": 284.04538,
+  "targetMean": 277.46643,
   "targetHigh": 315,
-  "targetLow": 235,
-  "recommendationKey": "none",
+  "targetLow": 175,
+  "recommendationKey": "strong_buy",
   "analystCount": 19,
   "distribution": {
     "strongBuy": 5,

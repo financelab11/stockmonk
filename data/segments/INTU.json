@@ -1,0 +1,24 @@
+{
+  "ticker": "INTU",
+  "asOf": "2026-07-31",
+  "source": {
+    "name": "INTUIT INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
+    "date": "2026-09-09"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Global Business Solutions",
+      "revenue": 12864000000,
+      "share": 0.5997762029093622
+    },
+    {
+      "name": "Consumer",
+      "revenue": 8584000000,
+      "share": 0.4002237970906378
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

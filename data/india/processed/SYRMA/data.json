@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 1505,
-    "prevClose": 1459.300048828125,
-    "changePct": 0.03131635006013589,
-    "asOf": "2026-11-08",
+    "close": 1468,
+    "prevClose": 1433.9000244140625,
+    "changePct": 0.02378127833554644,
+    "asOf": "2026-11-18",
     "high52": 1822.6,
     "low52": 634.5,
-    "marketCap": 289900593152,
+    "marketCap": 282773454848,
     "sharesOutstanding": null,
     "dividendYield": 0.001
   },
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 1350000000,
       "netIncome": 920000000,
-      "epsDiluted": 12.7,
-      "epsBasic": 12.7,
+      "epsDiluted": 6.47,
+      "epsBasic": 6.47,
       "interestExpense": 150000000,
       "pretaxIncome": 1130000000,
       "incomeTax": 214700000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 1020000000,
       "netIncome": 690000000,
-      "epsDiluted": 9.08,
-      "epsBasic": 9.08,
+      "epsDiluted": 4.85,
+      "epsBasic": 4.85,
       "interestExpense": 100000000,
       "pretaxIncome": 870000000,
       "incomeTax": 208800000,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 1290000000,
       "netIncome": 790000000,
-      "epsDiluted": 5.59,
-      "epsBasic": 5.59,
+      "epsDiluted": 5.44,
+      "epsBasic": 5.44,
       "interestExpense": 110000000,
       "pretaxIncome": 1110000000,
       "incomeTax": 344100000,
@@ -897,7 +897,7 @@
     "epsTtm": 21.85,
     "epsGrowthTtm": 0.7438148443735038,
     "grossMargin": 0.23879999,
-    "operatingMargin": 0.08574,
+    "operatingMargin": 0.10141,
     "netMargin": 0.0668,
     "fcfMargin": 0.023656360240713842,
     "roic": 0.17,
@@ -907,27 +907,27 @@
     "interestCover": 14.040816326530612,
     "freeCashFlowTtm": 1140000000,
     "ebitdaTtm": 6880000000,
-    "pe": 63.15917062135076,
-    "evEbitda": 41.85737696744186,
-    "evSales": 4.5652941270767275,
-    "pfcf": 254.298765922807,
-    "fcfYield": 0.00393238243359605,
-    "return1y": 0.8644137768965885,
-    "returnYtd": 1.0941609426251713,
-    "return5y": 3.891840729179851
+    "pe": 61.606417178213505,
+    "evEbitda": 40.82145570232558,
+    "evSales": 4.452308421559924,
+    "pfcf": 248.04689021754385,
+    "fcfYield": 0.004031495815662002,
+    "return1y": 0.678662983223359,
+    "returnYtd": 1.0426765872250843,
+    "return5y": 3.771576206269782
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "81st percentile revenue/EPS growth in the covered universe."
+      "detail": "83rd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "32nd percentile profitability metrics in the covered universe."
+      "detail": "34th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -945,7 +945,7 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "24th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "25th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1318,13 +1318,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=SYRMA",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.syrmasgs.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:29.021Z"
+  "updatedAt": "2026-11-18T09:08:34.367Z"
 }

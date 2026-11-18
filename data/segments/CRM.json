@@ -1,0 +1,35 @@
+{
+  "ticker": "CRM",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "Salesforce, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+    "date": "2026-03-02"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 41525000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 27193000000,
+      "share": 0.6548585189644792
+    },
+    {
+      "name": "Europe",
+      "revenue": 10017000000,
+      "share": 0.24122817579771222
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 4315000000,
+      "share": 0.10391330523780855
+    }
+  ]
+}

@@ -13,10 +13,10 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 14.520000457763672,
-    "prevClose": 14.579999923706055,
-    "changePct": -0.0041151897295163,
-    "asOf": "2026-11-05",
+    "close": 14.720000267028809,
+    "prevClose": 14.720000267028809,
+    "changePct": 0,
+    "asOf": "2026-11-18",
     "high52": 20.100000381469727,
     "low52": 12,
     "marketCap": 58880000000,
@@ -1115,16 +1115,16 @@
     "evSales": 0.597133125,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.05540542198577958,
-    "returnYtd": -0.0019168688192682248,
-    "return5y": 3.7222178412759117
+    "return1y": 0.08459938120019839,
+    "returnYtd": 0.011830819167901518,
+    "return5y": 3.35108992624449
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "86th percentile revenue/EPS growth in the covered universe."
+      "detail": "84th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1136,7 +1136,7 @@
       "key": "cash",
       "label": "Cash generation: High",
       "tone": "positive",
-      "detail": "95th percentile free-cash-flow margin."
+      "detail": "96th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "98th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "99th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-07",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/dfm/EMAARDEV/financials/",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/EMAARDEV.AE",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:01.144Z"
+  "updatedAt": "2026-11-18T09:27:35.213Z"
 }

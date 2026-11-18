@@ -1,0 +1,55 @@
+{
+  "ticker": "AMD",
+  "asOf": "2025-12-27",
+  "source": {
+    "name": "ADVANCED MICRO DEVICES, INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+    "date": "2026-02-04"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Datacenter",
+      "revenue": 16635000000,
+      "share": 0.48023903692369874
+    },
+    {
+      "name": "Client & Gaming",
+      "revenue": 14550000000,
+      "share": 0.4200467680937671
+    },
+    {
+      "name": "Embedded",
+      "revenue": 3454000000,
+      "share": 0.09971419498253414
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 11363000000,
+      "share": 0.32804064782470627
+    },
+    {
+      "name": "China",
+      "revenue": 7751000000,
+      "share": 0.22376512024019168
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 6055000000,
+      "share": 0.17480296775311066
+    },
+    {
+      "name": "Taiwan",
+      "revenue": 5186000000,
+      "share": 0.1497156384422183
+    },
+    {
+      "name": "Singapore",
+      "revenue": 4284000000,
+      "share": 0.12367562573977309
+    }
+  ]
+}

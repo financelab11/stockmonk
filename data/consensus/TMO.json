@@ -1,9 +1,9 @@
 {
   "ticker": "TMO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/TMO/analysis",
-  "targetMean": 752.12,
+  "targetMean": 756.52,
   "targetHigh": 830,
   "targetLow": 590,
   "recommendationKey": "strong_buy",
@@ -39,9 +39,9 @@
       "endDate": "2026-12-31",
       "revenueAvg": 48007607360,
       "revenueGrowth": 0.0775,
-      "epsAvg": 25.28326,
-      "epsGrowth": 0.105500005,
-      "analystCount": 26
+      "epsAvg": 25.28017,
+      "epsGrowth": 0.105399996,
+      "analystCount": 27
     },
     {
       "period": "Next fiscal year",
@@ -49,7 +49,7 @@
       "revenueAvg": 50537751720,
       "revenueGrowth": 0.052699998,
       "epsAvg": 27.78315,
-      "epsGrowth": 0.098900005,
+      "epsGrowth": 0.099,
       "analystCount": 27
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 21
   },
   "revisions": {
-    "eps7d": 0.0006934291257647551,
-    "eps30d": 0.006131116840614403,
-    "eps60d": 0.006126312262453526,
-    "eps90d": 0.006417071855202794,
+    "eps7d": 0.0007917603088181124,
+    "eps30d": 0.006008152272317435,
+    "eps60d": 0.006003348281349519,
+    "eps90d": 0.006294072338841605,
     "revenue30d": null
   }
 }

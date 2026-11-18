@@ -1,0 +1,40 @@
+{
+  "ticker": "CDNS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Cadence Design Systems, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/cdns-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 5296759000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 2479314000,
+      "share": 0.4680813304890783
+    },
+    {
+      "name": "Asia",
+      "revenue": 1685203000,
+      "share": 0.31815738643196717
+    },
+    {
+      "name": "EMEA",
+      "revenue": 790569000,
+      "share": 0.14925523324734993
+    },
+    {
+      "name": "Japan",
+      "revenue": 341673000,
+      "share": 0.06450604983160457
+    }
+  ]
+}

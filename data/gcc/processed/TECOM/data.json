@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 3.2699999809265137,
-    "prevClose": 3.200000047683716,
-    "changePct": 0.02187497881241174,
-    "asOf": "2026-11-05",
+    "close": 3.450000047683716,
+    "prevClose": 3.4800000190734863,
+    "changePct": -0.00862068138659311,
+    "asOf": "2026-11-18",
     "high52": 4.150000095367432,
     "low52": 3.059999942779541,
-    "marketCap": 16500000000,
+    "marketCap": 17350000000,
     "sharesOutstanding": 5000000000,
-    "dividendYield": 0.0546
+    "dividendYield": 0.0519
   },
   "ttm": {
     "period": "TTM",
@@ -1110,27 +1110,27 @@
     "interestCover": 6.432808801002646,
     "freeCashFlowTtm": null,
     "ebitdaTtm": 2377130000,
-    "pe": 7.51,
-    "evEbitda": 9.2,
-    "evSales": 7.0712217194570135,
+    "pe": 7.9,
+    "evEbitda": 9.56,
+    "evSales": 7.345946994182288,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.043180247732390376,
-    "returnYtd": 0.02157585342085988,
-    "return5y": 0.7122579909800235
+    "return1y": 0.14200492715494373,
+    "returnYtd": 0.07780940782020873,
+    "return5y": 0.8065108726984864
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "87th percentile revenue/EPS growth in the covered universe."
+      "detail": "85th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "86th percentile profitability metrics in the covered universe."
+      "detail": "87th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1148,7 +1148,7 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "64th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "62nd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1528,13 +1528,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/dfm/TECOM/financials/",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/TECOM.AE",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:11.769Z"
+  "updatedAt": "2026-11-18T09:27:58.630Z"
 }

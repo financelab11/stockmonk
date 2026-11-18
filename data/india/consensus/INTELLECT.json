@@ -1,12 +1,12 @@
 {
   "ticker": "INTELLECT",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=INTELLECT",
   "targetMean": 734.25,
   "targetHigh": 860,
   "targetLow": 667,
-  "recommendationKey": "strong_buy",
+  "recommendationKey": "none",
   "analystCount": 4,
   "distribution": null,
   "estimates": [

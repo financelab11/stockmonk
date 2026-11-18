@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 0.46,
-    "prevClose": 0.46,
-    "changePct": 0,
-    "asOf": "2026-11-09",
+    "close": 0.49,
+    "prevClose": 0.48,
+    "changePct": 0.02083333333333326,
+    "asOf": "2026-11-17",
     "high52": 0.51,
-    "low52": 0.4,
-    "marketCap": 5830000000,
+    "low52": 0.44,
+    "marketCap": 6120000000,
     "sharesOutstanding": 12600000000,
-    "dividendYield": 0.06480000000000001
+    "dividendYield": 0.0617
   },
   "ttm": {
     "period": "TTM",
@@ -1110,27 +1110,27 @@
     "interestCover": 4.5885193721874655,
     "freeCashFlowTtm": 493140000,
     "ebitdaTtm": 750250000,
-    "pe": 6.84,
-    "evEbitda": 8.62,
-    "evSales": 2.142075926483881,
+    "pe": 7.18,
+    "evEbitda": 9.09,
+    "evSales": 2.229451642060862,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.12195121951219523,
-    "returnYtd": 0.12195121951219523,
-    "return5y": 0.12195121951219523
+    "return1y": 0,
+    "returnYtd": 0,
+    "return5y": 0
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "92nd percentile revenue/EPS growth in the covered universe."
+      "detail": "91st percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "20th percentile profitability metrics in the covered universe."
+      "detail": "21st percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "66th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "65th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2026-09-01",
+      "date": "2026-09-09",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1178,8 +1178,8 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/adx/ADNH/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-17"
     }
   ],
-  "updatedAt": "2026-11-09T20:16:56.295Z"
+  "updatedAt": "2026-11-18T09:27:23.443Z"
 }

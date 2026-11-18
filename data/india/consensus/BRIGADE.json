@@ -1,12 +1,12 @@
 {
   "ticker": "BRIGADE",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=BRIGADE",
-  "targetMean": 786.2143,
+  "targetMean": 789,
   "targetHigh": 940,
   "targetLow": 500,
-  "recommendationKey": "strong_buy",
+  "recommendationKey": "none",
   "analystCount": 14,
   "distribution": null,
   "estimates": [
@@ -33,17 +33,17 @@
       "endDate": "2027-03-31",
       "revenueAvg": 69689956020,
       "revenueGrowth": 0.2232,
-      "epsAvg": 30.76731,
-      "epsGrowth": 0.53169996,
+      "epsAvg": 30.20897,
+      "epsGrowth": 0.5039,
       "analystCount": 9
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 77429483320,
-      "revenueGrowth": 0.111099996,
-      "epsAvg": 36.09159,
-      "epsGrowth": 0.173,
+      "revenueAvg": 77312252550,
+      "revenueGrowth": 0.1094,
+      "epsAvg": 36.55755,
+      "epsGrowth": 0.21020001,
       "analystCount": 13
     }
   ],

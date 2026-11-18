@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 422.6000061035156,
-    "prevClose": 413.6499938964844,
-    "changePct": 0.02163667917101675,
-    "asOf": "2026-11-08",
-    "high52": 466.5,
+    "close": 451.29998779296875,
+    "prevClose": 458.3500061035156,
+    "changePct": -0.015381298607323846,
+    "asOf": "2026-11-18",
+    "high52": 478,
     "low52": 179.5,
-    "marketCap": 157037953024,
+    "marketCap": 167702855680,
     "sharesOutstanding": null,
-    "dividendYield": 0.00059999997
+    "dividendYield": 0.0005
   },
   "ttm": {
     "period": "TTM",
@@ -897,7 +897,7 @@
     "epsTtm": 3.79,
     "epsGrowthTtm": 0.4921259842519685,
     "grossMargin": 0.335,
-    "operatingMargin": 0.26683,
+    "operatingMargin": 0.22102,
     "netMargin": 0.117,
     "fcfMargin": -0.39491150442477874,
     "roic": 0.15,
@@ -907,27 +907,27 @@
     "interestCover": 5.775510204081633,
     "freeCashFlowTtm": -3570000000,
     "ebitdaTtm": 2830000000,
-    "pe": 119.8763000183206,
-    "evEbitda": 57.04298099787986,
-    "evSales": 13.634428735135135,
+    "pe": 128.01744708396947,
+    "evEbitda": 60.81149783745583,
+    "evSales": 14.535180648648648,
     "pfcf": null,
-    "fcfYield": -0.0227333579638191,
-    "return1y": 0.6060005026378048,
-    "returnYtd": 0.5321011695753091,
-    "return5y": 33.188098947990184
+    "fcfYield": -0.021287651814421386,
+    "return1y": 0.6480933226478403,
+    "returnYtd": 0.6361505658794595,
+    "return5y": 39.873972109581295
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "80th percentile revenue/EPS growth in the covered universe."
+      "detail": "81st percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
-      "label": "Profitability: High",
-      "tone": "positive",
-      "detail": "69th percentile profitability metrics in the covered universe."
+      "label": "Profitability: Average",
+      "tone": "neutral",
+      "detail": "53rd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -945,12 +945,12 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "11th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "10th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1381,13 +1381,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=APOLLO",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://apollo-micro.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:32.907Z"
+  "updatedAt": "2026-11-18T09:08:48.808Z"
 }

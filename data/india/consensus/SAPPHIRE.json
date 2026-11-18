@@ -1,7 +1,7 @@
 {
   "ticker": "SAPPHIRE",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=SAPPHIRE",
   "targetMean": 254,
   "targetHigh": 314,

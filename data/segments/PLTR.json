@@ -1,0 +1,40 @@
+{
+  "ticker": "PLTR",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Palantir Technologies Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+    "date": "2026-02-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Government Operating",
+      "revenue": 2402287000,
+      "share": 0.5367704134962191
+    },
+    {
+      "name": "Commercial",
+      "revenue": 2073159000,
+      "share": 0.4632295865037809
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 3320043000,
+      "share": 0.741835115427602
+    },
+    {
+      "name": "Rest Of World",
+      "revenue": 728005000,
+      "share": 0.16266646944237512
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 427398000,
+      "share": 0.0954984151300228
+    }
+  ]
+}

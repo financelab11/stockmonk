@@ -1,11 +1,11 @@
 {
   "ticker": "RDDT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/RDDT/analysis",
-  "targetMean": 151.04828,
+  "targetMean": 148.46207,
   "targetHigh": 272,
-  "targetLow": 100,
+  "targetLow": 85,
   "recommendationKey": "buy",
   "analystCount": 29,
   "distribution": {
@@ -19,37 +19,37 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 1025094620,
-      "revenueGrowth": 0.4127,
-      "epsAvg": 1.82391,
-      "epsGrowth": 0.4709,
+      "revenueAvg": 1024902320,
+      "revenueGrowth": 0.4125,
+      "epsAvg": 1.82982,
+      "epsGrowth": 0.4757,
       "analystCount": 22
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 872465680,
-      "revenueGrowth": 0.3151,
-      "epsAvg": 1.23882,
-      "epsGrowth": 0.22659999,
+      "revenueAvg": 870283870,
+      "revenueGrowth": 0.3118,
+      "epsAvg": 1.22706,
+      "epsGrowth": 0.2149,
       "analystCount": 17
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 3384741610,
-      "revenueGrowth": 0.5368,
-      "epsAvg": 5.47956,
-      "epsGrowth": 1.0914,
-      "analystCount": 25
+      "revenueAvg": 3385622630,
+      "revenueGrowth": 0.53720003,
+      "epsAvg": 5.49602,
+      "epsGrowth": 1.0977,
+      "analystCount": 26
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 4357840420,
-      "revenueGrowth": 0.2875,
-      "epsAvg": 6.86162,
-      "epsGrowth": 0.2522,
+      "revenueAvg": 4346429070,
+      "revenueGrowth": 0.2838,
+      "epsAvg": 6.8155,
+      "epsGrowth": 0.2401,
       "analystCount": 27
     }
   ],
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 1025094620,
-    "revenueGrowth": 0.4127,
-    "epsAvg": 1.82391,
-    "epsGrowth": 0.4709,
+    "revenueAvg": 1024902320,
+    "revenueGrowth": 0.4125,
+    "epsAvg": 1.82982,
+    "epsGrowth": 0.4757,
     "analystCount": 22
   },
   "revisions": {
-    "eps7d": 0.015762262884811307,
-    "eps30d": 0.018806673347699476,
-    "eps60d": 0.017956863400769185,
-    "eps90d": 0.025163421926040153,
+    "eps7d": 0.00300389082335073,
+    "eps30d": 0.018991061612024573,
+    "eps60d": 0.022420239977676504,
+    "eps90d": 0.024763154901635387,
     "revenue30d": null
   }
 }

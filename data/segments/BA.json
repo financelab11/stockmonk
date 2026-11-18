@@ -1,0 +1,40 @@
+{
+  "ticker": "BA",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "THE BOEING COMPANY Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm",
+    "date": "2026-01-30"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Commercial Airplanes",
+      "revenue": 41494000000,
+      "share": 0.4638118551803539
+    },
+    {
+      "name": "Defense Space & Security",
+      "revenue": 27234000000,
+      "share": 0.30441635089366553
+    },
+    {
+      "name": "Global Services",
+      "revenue": 20923000000,
+      "share": 0.23387322133172372
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 48083000000,
+      "share": 0.5374624146295116
+    },
+    {
+      "name": "Non-US",
+      "revenue": 41380000000,
+      "share": 0.46253758537048834
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ticker": "RDDT",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Reddit, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000022/rddt-20251231.htm",
+    "date": "2026-02-06"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 2202506000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1785554000,
+      "share": 0.8106920026551574
+    },
+    {
+      "name": "Non-US",
+      "revenue": 416952000,
+      "share": 0.18930799734484266
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "ticker": "ADI",
+  "asOf": "2025-11-01",
+  "source": {
+    "name": "ANALOG DEVICES INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628125000153/adi-20251101.htm",
+    "date": "2025-11-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Industrial",
+      "revenue": 4929409000,
+      "share": 0.4473266848202044
+    },
+    {
+      "name": "Automotive",
+      "revenue": 3277865000,
+      "share": 0.2974548234358681
+    },
+    {
+      "name": "Consumer",
+      "revenue": 1434568000,
+      "share": 0.1301820456750801
+    },
+    {
+      "name": "Communications",
+      "revenue": 1377865000,
+      "share": 0.1250364460688474
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 7781562000,
+      "share": 0.7061496281162466
+    },
+    {
+      "name": "United States",
+      "revenue": 3238145000,
+      "share": 0.29385037188375335
+    }
+  ]
+}

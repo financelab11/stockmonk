@@ -1,7 +1,7 @@
 {
   "ticker": "2290",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/2290/forecast/",
   "targetMean": 32.39,
   "targetHigh": 37,
@@ -19,10 +19,10 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 6500000000,
-      "revenueGrowth": 0.16699999999999998,
-      "epsAvg": 1.07,
-      "epsGrowth": 6.6339999999999995,
+      "revenueAvg": 6600000000,
+      "revenueGrowth": 0.174,
+      "epsAvg": 1.11,
+      "epsGrowth": 6.899,
       "analystCount": 9
     },
     {
@@ -38,10 +38,10 @@
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 6500000000,
-    "revenueGrowth": 0.16699999999999998,
-    "epsAvg": 1.07,
-    "epsGrowth": 6.6339999999999995,
+    "revenueAvg": 6600000000,
+    "revenueGrowth": 0.174,
+    "epsAvg": 1.11,
+    "epsGrowth": 6.899,
     "analystCount": 9
   },
   "revisions": null

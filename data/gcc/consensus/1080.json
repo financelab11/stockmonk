@@ -1,9 +1,9 @@
 {
   "ticker": "1080",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/1080/forecast/",
-  "targetMean": 24.98,
+  "targetMean": 24.95,
   "targetHigh": 28.2,
   "targetLow": 21.5,
   "recommendationKey": "buy",
@@ -21,8 +21,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 10600000000,
       "revenueGrowth": 0.075,
-      "epsAvg": 2.41,
-      "epsGrowth": -0.03,
+      "epsAvg": 2.46,
+      "epsGrowth": -0.01,
       "analystCount": 10
     },
     {
@@ -40,8 +40,8 @@
     "endDate": "2026-12-31",
     "revenueAvg": 10600000000,
     "revenueGrowth": 0.075,
-    "epsAvg": 2.41,
-    "epsGrowth": -0.03,
+    "epsAvg": 2.46,
+    "epsGrowth": -0.01,
     "analystCount": 10
   },
   "revisions": null

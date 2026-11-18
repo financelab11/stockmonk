@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 716,
-    "prevClose": 712,
-    "changePct": 0.00561797752808979,
-    "asOf": "2026-11-08",
+    "close": 720.2999877929688,
+    "prevClose": 744,
+    "changePct": -0.0318548551169775,
+    "asOf": "2026-11-18",
     "high52": 844.9,
     "low52": 611.4,
-    "marketCap": 177937317888,
+    "marketCap": 179055640576,
     "sharesOutstanding": null,
-    "dividendYield": 0.018
+    "dividendYield": 0.0178
   },
   "ttm": {
     "period": "TTM",
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 2760000000,
       "netIncome": 1460000000,
-      "epsDiluted": 5.99,
-      "epsBasic": 5.99,
+      "epsDiluted": 5.98,
+      "epsBasic": 5.98,
       "interestExpense": 80000000,
       "pretaxIncome": 2270000000,
       "incomeTax": 794500000,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 2870000000,
       "netIncome": 1720000000,
-      "epsDiluted": 7.05,
-      "epsBasic": 7.05,
+      "epsDiluted": 7.04,
+      "epsBasic": 7.04,
       "interestExpense": 100000000,
       "pretaxIncome": 2470000000,
       "incomeTax": 741000000,
@@ -979,7 +979,7 @@
     "epsTtm": 20.62,
     "epsGrowthTtm": 0.10032017075773747,
     "grossMargin": 0.6672,
-    "operatingMargin": 0.39139,
+    "operatingMargin": 0.39446998,
     "netMargin": 0.32071,
     "fcfMargin": 0.2928759894459103,
     "roic": 0.47,
@@ -989,27 +989,27 @@
     "interestCover": 122.33333333333333,
     "freeCashFlowTtm": 4440000000,
     "ebitdaTtm": 7340000000,
-    "pe": 35.02703108031496,
-    "evEbitda": 23.130521390735694,
-    "evSales": 10.651068193726474,
-    "pfcf": 40.0759724972973,
-    "fcfYield": 0.024952607202917896,
-    "return1y": -0.049629567638934335,
-    "returnYtd": -0.012938551744825166,
-    "return5y": 0.2944822746891038
+    "pe": 35.247173341732285,
+    "evEbitda": 23.28288142997275,
+    "evSales": 10.721226455207026,
+    "pfcf": 40.32784697657657,
+    "fcfYield": 0.02479676141850134,
+    "return1y": -0.07096990298293626,
+    "returnYtd": -0.002648078900480133,
+    "return5y": 0.3176848468188205
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "37th percentile revenue/EPS growth in the covered universe."
+      "detail": "38th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "92nd percentile profitability metrics in the covered universe."
+      "detail": "94th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1027,12 +1027,12 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "59th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "56th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1463,13 +1463,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=CAMS",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.camsonline.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:40.914Z"
+  "updatedAt": "2026-11-18T09:09:21.468Z"
 }

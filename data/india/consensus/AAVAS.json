@@ -1,12 +1,12 @@
 {
   "ticker": "AAVAS",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=AAVAS",
   "targetMean": 1568.7142,
   "targetHigh": 2456,
   "targetLow": 1166,
-  "recommendationKey": "buy",
+  "recommendationKey": "none",
   "analystCount": 21,
   "distribution": null,
   "estimates": [

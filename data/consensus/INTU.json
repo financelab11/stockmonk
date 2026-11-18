@@ -1,9 +1,9 @@
 {
   "ticker": "INTU",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/INTU/analysis",
-  "targetMean": 407.75934,
+  "targetMean": 407.8884,
   "targetHigh": 732,
   "targetLow": 290,
   "recommendationKey": "buy",
@@ -19,37 +19,37 @@
     {
       "period": "Next quarter",
       "endDate": "2026-10-31",
-      "revenueAvg": 4306921550,
-      "revenueGrowth": 0.1086,
-      "epsAvg": 2.64013,
-      "epsGrowth": -0.20950001,
+      "revenueAvg": 4305825900,
+      "revenueGrowth": 0.1083,
+      "epsAvg": 2.6409,
+      "epsGrowth": -0.2093,
       "analystCount": 26
     },
     {
       "period": "Following quarter",
       "endDate": "2027-01-31",
-      "revenueAvg": 5111385350,
-      "revenueGrowth": 0.099,
-      "epsAvg": 3.97829,
-      "epsGrowth": -0.0414,
+      "revenueAvg": 5111181000,
+      "revenueGrowth": 0.098900005,
+      "epsAvg": 3.93521,
+      "epsGrowth": -0.051799998,
       "analystCount": 26
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-07-31",
-      "revenueAvg": 23411338420,
+      "revenueAvg": 23410766000,
       "revenueGrowth": 0.0915,
-      "epsAvg": 23.81046,
-      "epsGrowth": -0.0189,
+      "epsAvg": 23.8064,
+      "epsGrowth": -0.0191,
       "analystCount": 32
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-07-31",
-      "revenueAvg": 25534518770,
-      "revenueGrowth": 0.0907,
-      "epsAvg": 26.94382,
-      "epsGrowth": 0.13159999,
+      "revenueAvg": 25496146580,
+      "revenueGrowth": 0.089099996,
+      "epsAvg": 26.90124,
+      "epsGrowth": 0.13,
       "analystCount": 31
     }
   ],
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-10-31",
-    "revenueAvg": 4306921550,
-    "revenueGrowth": 0.1086,
-    "epsAvg": 2.64013,
-    "epsGrowth": -0.20950001,
+    "revenueAvg": 4305825900,
+    "revenueGrowth": 0.1083,
+    "epsAvg": 2.6409,
+    "epsGrowth": -0.2093,
     "analystCount": 26
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": -0.005572611634951596,
-    "eps60d": -0.016573371667369496,
-    "eps90d": -0.12768362161471036,
+    "eps7d": -0.00013104002096642198,
+    "eps30d": -0.00017051329541717397,
+    "eps60d": -0.015469108308571622,
+    "eps90d": -0.12671931353646693,
     "revenue30d": null
   }
 }

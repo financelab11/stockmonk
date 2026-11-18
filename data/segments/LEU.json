@@ -1,0 +1,35 @@
+{
+  "ticker": "LEU",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Centrus Energy Corp. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026007117/leu-20251231.htm",
+    "date": "2026-02-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "LEU & Technical Solutions",
+      "revenue": 448700000,
+      "share": 1
+    },
+    {
+      "name": "Low Enriched Uranium",
+      "revenue": 358600000,
+      "share": 0.799197682193002
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 335300000,
+      "share": 0.7472698907956318
+    },
+    {
+      "name": "Foreign",
+      "revenue": 113400000,
+      "share": 0.25273010920436817
+    }
+  ]
+}

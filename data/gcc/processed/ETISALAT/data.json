@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 21.32,
-    "prevClose": 21.22,
-    "changePct": 0.004712535344015167,
-    "asOf": "2026-11-09",
-    "high52": 22.22,
+    "close": 22.84,
+    "prevClose": 22.48,
+    "changePct": 0.016014234875444844,
+    "asOf": "2026-11-17",
+    "high52": 22.98,
     "low52": 20.5,
-    "marketCap": 185410000000,
+    "marketCap": 198630000000,
     "sharesOutstanding": 8700000000,
-    "dividendYield": 0.0446
+    "dividendYield": 0.0416
   },
   "ttm": {
     "period": "TTM",
@@ -916,7 +916,7 @@
       "freeCashFlow": 11665000000,
       "da": 8195000000,
       "sbc": null,
-      "dividendsPaid": 8097000000,
+      "dividendsPaid": 11574000000,
       "buybacks": null,
       "ebitda": 20430000000,
       "grossMargin": 0.2783735143039256,
@@ -1110,27 +1110,27 @@
     "interestCover": 2.5862841971047965,
     "freeCashFlowTtm": 22072000000,
     "ebitdaTtm": 34068000000,
-    "pe": 9.37,
-    "evEbitda": 6.16,
-    "evSales": 2.6724899778423863,
+    "pe": 10.04,
+    "evEbitda": 6.54,
+    "evSales": 2.8418100080689577,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.0037383177570092796,
-    "returnYtd": -0.0037383177570092796,
-    "return5y": -0.0037383177570092796
+    "return1y": 0.047706422018348515,
+    "returnYtd": 0.047706422018348515,
+    "return5y": 0.047706422018348515
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "81st percentile revenue/EPS growth in the covered universe."
+      "detail": "80th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "70th percentile profitability metrics in the covered universe."
+      "detail": "69th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "82nd percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "78th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2026-09-01",
+      "date": "2026-09-09",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1178,8 +1178,8 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/adx/ETISALAT/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-17"
     }
   ],
-  "updatedAt": "2026-11-09T20:16:51.713Z"
+  "updatedAt": "2026-11-18T09:27:11.217Z"
 }

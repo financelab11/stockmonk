@@ -1,9 +1,9 @@
 {
   "ticker": "LIN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/LIN/analysis",
-  "targetMean": 550.85187,
+  "targetMean": 551.03705,
   "targetHigh": 600,
   "targetLow": 400,
   "recommendationKey": "buy",
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 9407000000,
-      "revenueGrowth": 0.0734,
+      "revenueAvg": 9240113900,
+      "revenueGrowth": 0.0543,
       "epsAvg": 4.49247,
       "epsGrowth": 0.0696,
       "analystCount": 19
@@ -28,29 +28,29 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 9426000000,
-      "revenueGrowth": 0.0735,
-      "epsAvg": 4.67399,
+      "revenueAvg": 9289675830,
+      "revenueGrowth": 0.0579,
+      "epsAvg": null,
       "epsGrowth": 0.0794,
-      "analystCount": 9
+      "analystCount": null
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 36881000000,
-      "revenueGrowth": 0.085200004,
-      "epsAvg": 17.89598,
-      "epsGrowth": 0.0872,
+      "revenueAvg": 36568280300,
+      "revenueGrowth": 0.076,
+      "epsAvg": 17.89829,
+      "epsGrowth": 0.0874,
       "analystCount": 29
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 38742000000,
-      "revenueGrowth": 0.0505,
-      "epsAvg": 19.54233,
-      "epsGrowth": 0.092,
-      "analystCount": 29
+      "revenueAvg": 38289152240,
+      "revenueGrowth": 0.0471,
+      "epsAvg": 18.17404,
+      "epsGrowth": 0.132,
+      "analystCount": 10
     }
   ],
   "history": [
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 9407000000,
-    "revenueGrowth": 0.0734,
+    "revenueAvg": 9240113900,
+    "revenueGrowth": 0.0543,
     "epsAvg": 4.49247,
     "epsGrowth": 0.0696,
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": null,
-    "eps30d": null,
-    "eps60d": null,
-    "eps90d": null,
+    "eps7d": 0.0001290792680812558,
+    "eps30d": 0.0010833987735276995,
+    "eps60d": 0.0012452429314562252,
+    "eps90d": 0.0011153154513698915,
     "revenue30d": null
   }
 }

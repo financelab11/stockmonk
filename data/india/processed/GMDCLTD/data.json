@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 473.5,
-    "prevClose": 463.70001220703125,
-    "changePct": 0.021134327226614902,
-    "asOf": "2026-11-08",
+    "close": 459.3999938964844,
+    "prevClose": 469.79998779296875,
+    "changePct": -0.022137067191809856,
+    "asOf": "2026-11-18",
     "high52": 771.9,
     "low52": 394.55,
-    "marketCap": 150573006848,
+    "marketCap": 146089197568,
     "sharesOutstanding": null,
-    "dividendYield": 0.020499999
+    "dividendYield": 0.0202
   },
   "ttm": {
     "period": "TTM",
@@ -1102,7 +1102,7 @@
     "epsTtm": 20.79,
     "epsGrowthTtm": -0.34104595879556254,
     "grossMargin": 0.89612,
-    "operatingMargin": 0.1743,
+    "operatingMargin": 0.16209,
     "netMargin": 0.2065,
     "fcfMargin": -0.11454617518826793,
     "roic": 0.11,
@@ -1112,14 +1112,14 @@
     "interestCover": 29.3,
     "freeCashFlowTtm": -2890000000,
     "ebitdaTtm": 5860000000,
-    "pe": 22.779577435400906,
-    "evEbitda": 25.129557493515357,
-    "evSales": 4.59754002222916,
+    "pe": 22.101240176701967,
+    "evEbitda": 24.364402326279862,
+    "evSales": 4.457552220793007,
     "pfcf": null,
-    "fcfYield": -0.0191933472041067,
-    "return1y": -0.19670190917576102,
-    "returnYtd": -0.19663494452171404,
-    "return5y": 6.456929888141712
+    "fcfYield": -0.019782434622893964,
+    "return1y": -0.1402472477106662,
+    "returnYtd": -0.2205577580076592,
+    "return5y": 7.031948799965852
   },
   "factorChips": [
     {
@@ -1132,7 +1132,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "39th percentile profitability metrics in the covered universe."
+      "detail": "35th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1155,7 +1155,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=GMDCLTD",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.gmdcltd.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:48.064Z"
+  "updatedAt": "2026-11-18T09:13:56.309Z"
 }

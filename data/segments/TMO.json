@@ -1,0 +1,45 @@
+{
+  "ticker": "TMO",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "THERMO FISHER SCIENTIFIC INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000018/tmo-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Laboratory Products & Biopharma Services",
+      "revenue": 23984000000,
+      "share": 0.5382888948738666
+    },
+    {
+      "name": "Life Sciences Solutions",
+      "revenue": 10374000000,
+      "share": 0.23283059520603286
+    },
+    {
+      "name": "Analytical Instruments",
+      "revenue": 7554000000,
+      "share": 0.16953945596552653
+    },
+    {
+      "name": "Specialty Diagnostics",
+      "revenue": 4676000000,
+      "share": 0.10494658407397432
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 22316000000,
+      "share": 0.500852859323099
+    },
+    {
+      "name": "United States",
+      "revenue": 22240000000,
+      "share": 0.49914714067690097
+    }
+  ]
+}

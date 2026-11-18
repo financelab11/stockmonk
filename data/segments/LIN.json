@@ -1,0 +1,80 @@
+{
+  "ticker": "LIN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Linde plc Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1707925/000162828026011430/lin-20251231.htm",
+    "date": "2026-02-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Americas",
+      "revenue": 15208000000,
+      "share": 0.4474783734478903
+    },
+    {
+      "name": "EMEA",
+      "revenue": 8549000000,
+      "share": 0.2515447537221209
+    },
+    {
+      "name": "APAC",
+      "revenue": 6661000000,
+      "share": 0.19599246748661214
+    },
+    {
+      "name": "Engineering",
+      "revenue": 2702000000,
+      "share": 0.07950332489848762
+    },
+    {
+      "name": "Corporate & Other",
+      "revenue": 1318000000,
+      "share": 0.038780674395339255
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 12182000000,
+      "share": 0.3584417112928853
+    },
+    {
+      "name": "Other International",
+      "revenue": 11259000000,
+      "share": 0.3312834696639793
+    },
+    {
+      "name": "China",
+      "revenue": 2600000000,
+      "share": 0.07650208909550991
+    },
+    {
+      "name": "Germany",
+      "revenue": 2432000000,
+      "share": 0.07155887718472312
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 1510000000,
+      "share": 0.04443005943623845
+    },
+    {
+      "name": "MX",
+      "revenue": 1391000000,
+      "share": 0.0409286176660978
+    },
+    {
+      "name": "BR",
+      "revenue": 1325000000,
+      "share": 0.03898664155828871
+    },
+    {
+      "name": "AU",
+      "revenue": 1287000000,
+      "share": 0.03786853410227741
+    }
+  ]
+}

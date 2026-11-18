@@ -1,0 +1,45 @@
+{
+  "ticker": "AEIS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ADVANCED ENERGY INDUSTRIES, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/927003/000110465926014731/aeis-20251231x10k.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 1798800000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Other Countries",
+      "revenue": 656200000,
+      "share": 0.3647987547253725
+    },
+    {
+      "name": "United States",
+      "revenue": 541400000,
+      "share": 0.30097843006448743
+    },
+    {
+      "name": "MX",
+      "revenue": 252800000,
+      "share": 0.1405381365354681
+    },
+    {
+      "name": "Japan",
+      "revenue": 218200000,
+      "share": 0.12130309094952191
+    },
+    {
+      "name": "Taiwan",
+      "revenue": 130200000,
+      "share": 0.0723815877251501
+    }
+  ]
+}

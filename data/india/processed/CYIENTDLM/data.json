@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 771.75,
-    "prevClose": 772.2999877929688,
-    "changePct": -0.0007121426928161645,
-    "asOf": "2026-11-08",
+    "close": 826.3499755859375,
+    "prevClose": 849.5499877929688,
+    "changePct": -0.02730858988922147,
+    "asOf": "2026-11-18",
     "high52": 1061,
     "low52": 265.2,
-    "marketCap": 61264113664,
+    "marketCap": 65598443520,
     "sharesOutstanding": null,
     "dividendYield": 0
   },
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 880000000,
       "netIncome": 320000000,
-      "epsDiluted": 6,
-      "epsBasic": 6,
+      "epsDiluted": 5.57,
+      "epsBasic": 5.57,
       "interestExpense": 320000000,
       "pretaxIncome": 430000000,
       "incomeTax": 111800000,
@@ -774,7 +774,7 @@
     "epsTtm": 10.57,
     "epsGrowthTtm": 0.027210884353741527,
     "grossMargin": 0.37759998,
-    "operatingMargin": 0.058000002,
+    "operatingMargin": 0.06931,
     "netMargin": 0.05834,
     "fcfMargin": 0.007137192704203013,
     "roic": 0.1,
@@ -784,27 +784,27 @@
     "interestCover": 6,
     "freeCashFlowTtm": 90000000,
     "ebitdaTtm": 1440000000,
-    "pe": 73.8121851373494,
-    "evEbitda": 42.88485671111111,
-    "evSales": 4.291465855733148,
-    "pfcf": 680.7123740444445,
-    "fcfYield": 0.0014690492462455353,
-    "return1y": 0.7401352874859075,
-    "returnYtd": 0.8614326788198663,
-    "return5y": 0.8348787180237496
+    "pe": 79.03426930120482,
+    "evEbitda": 45.894808,
+    "evSales": 4.592670154273801,
+    "pfcf": 728.8715946666666,
+    "fcfYield": 0.0013719837723369201,
+    "return1y": 0.8167526975868067,
+    "returnYtd": 0.9931258162587142,
+    "return5y": 0.9646932087360955
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "24th percentile revenue/EPS growth in the covered universe."
+      "detail": "25th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "12th percentile profitability metrics in the covered universe."
+      "detail": "13th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -822,7 +822,7 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "22nd percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "20th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1118,13 +1118,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=CYIENTDLM",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.cyientdlm.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:29.289Z"
+  "updatedAt": "2026-11-18T09:08:35.557Z"
 }

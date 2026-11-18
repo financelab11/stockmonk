@@ -1,0 +1,24 @@
+{
+  "ticker": "CMG",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "CHIPOTLE MEXICAN GRILL, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000009/cmg-20251231.htm",
+    "date": "2026-02-04"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "U.S.",
+      "revenue": 11679417000,
+      "share": 0.9793566798017139
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 246184000,
+      "share": 0.020643320198286023
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

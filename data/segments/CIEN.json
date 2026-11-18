@@ -1,0 +1,50 @@
+{
+  "ticker": "CIEN",
+  "asOf": "2025-11-01",
+  "source": {
+    "name": "Ciena Corp Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828025056698/cien-20251101.htm",
+    "date": "2025-12-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Networking Platforms",
+      "revenue": 3676377000,
+      "share": 0.77080859719883
+    },
+    {
+      "name": "Global Services",
+      "revenue": 613753000,
+      "share": 0.12868269194279408
+    },
+    {
+      "name": "Platform Softwareand Services",
+      "revenue": 363830000,
+      "share": 0.07628251724968639
+    },
+    {
+      "name": "Blue Planet Automation Softwareand Services",
+      "revenue": 115547000,
+      "share": 0.024226193608689536
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 3606407000,
+      "share": 0.7561383178596865
+    },
+    {
+      "name": "EMEA",
+      "revenue": 731912000,
+      "share": 0.15345653125155284
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 431188000,
+      "share": 0.09040515088876062
+    }
+  ]
+}

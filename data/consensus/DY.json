@@ -1,7 +1,7 @@
 {
   "ticker": "DY",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/DY/analysis",
   "targetMean": 513.1818,
   "targetHigh": 625,
@@ -30,8 +30,8 @@
       "endDate": "2027-01-31",
       "revenueAvg": 1694137000,
       "revenueGrowth": 0.16229999,
-      "epsAvg": 2.75863,
-      "epsGrowth": 0.35889998,
+      "epsAvg": 2.81263,
+      "epsGrowth": 0.38549998,
       "analystCount": 5
     },
     {
@@ -39,8 +39,8 @@
       "endDate": "2027-01-31",
       "revenueAvg": 7587377990,
       "revenueGrowth": 0.36810002,
-      "epsAvg": 16.99816,
-      "epsGrowth": 0.42009997,
+      "epsAvg": 17.04316,
+      "epsGrowth": 0.42380002,
       "analystCount": 6
     },
     {
@@ -49,7 +49,7 @@
       "revenueAvg": 8570490500,
       "revenueGrowth": 0.1296,
       "epsAvg": 20.74472,
-      "epsGrowth": 0.2204,
+      "epsGrowth": 0.2172,
       "analystCount": 6
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 5
   },
   "revisions": {
-    "eps7d": -0.003759164942592874,
-    "eps30d": -0.0028240732592996753,
-    "eps60d": -0.0027907282351650187,
-    "eps90d": 0.026417409440560036,
+    "eps7d": 0.0026473453597331,
+    "eps30d": -0.00018420419680509337,
+    "eps60d": -0.00015077089687554057,
+    "eps90d": 0.029134690806591923,
     "revenue30d": null
   }
 }

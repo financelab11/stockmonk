@@ -1,0 +1,45 @@
+{
+  "ticker": "SHOP",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Shopify Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/shop-20251231.htm",
+    "date": "2026-02-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 11556000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 7331000000,
+      "share": 0.6343890619591555
+    },
+    {
+      "name": "EMEA",
+      "revenue": 2426000000,
+      "share": 0.20993423329871927
+    },
+    {
+      "name": "APAC",
+      "revenue": 1128000000,
+      "share": 0.0976116303219107
+    },
+    {
+      "name": "CA",
+      "revenue": 567000000,
+      "share": 0.04906542056074766
+    },
+    {
+      "name": "Latin America",
+      "revenue": 104000000,
+      "share": 0.008999653859466944
+    }
+  ]
+}

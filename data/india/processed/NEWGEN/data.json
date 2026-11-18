@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 447.79998779296875,
-    "prevClose": 440.70001220703125,
-    "changePct": 0.0161106770802677,
-    "asOf": "2026-11-08",
-    "high52": 995.5,
+    "close": 413.75,
+    "prevClose": 427.54998779296875,
+    "changePct": -0.03227689904566455,
+    "asOf": "2026-11-18",
+    "high52": 950.6,
     "low52": 401.05,
-    "marketCap": 63297302528,
+    "marketCap": 58484277248,
     "sharesOutstanding": null,
-    "dividendYield": 0.0136
+    "dividendYield": 0.0139999995
   },
   "ttm": {
     "period": "TTM",
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 580000000,
       "netIncome": 460000000,
-      "epsDiluted": 4.29,
-      "epsBasic": 4.29,
+      "epsDiluted": 3.55,
+      "epsBasic": 3.55,
       "interestExpense": 20000000,
       "pretaxIncome": 590000000,
       "incomeTax": 123900000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 390000000,
       "netIncome": 280000000,
-      "epsDiluted": 2.58,
-      "epsBasic": 2.58,
+      "epsDiluted": 2.13,
+      "epsBasic": 2.13,
       "interestExpense": 40000000,
       "pretaxIncome": 340000000,
       "incomeTax": 64600000,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 700000000,
       "netIncome": 510000000,
-      "epsDiluted": 3.99,
-      "epsBasic": 3.99,
+      "epsDiluted": 3.93,
+      "epsBasic": 3.93,
       "interestExpense": 50000000,
       "pretaxIncome": 680000000,
       "incomeTax": 170000000,
@@ -1102,7 +1102,7 @@
     "epsTtm": 22.39,
     "epsGrowthTtm": -0.03781693167168021,
     "grossMargin": 0.53375,
-    "operatingMargin": 0.13094,
+    "operatingMargin": 0.24166,
     "netMargin": 0.19478,
     "fcfMargin": 0.14167725540025414,
     "roic": 0.25,
@@ -1112,27 +1112,27 @@
     "interestCover": 84.6,
     "freeCashFlowTtm": 2230000000,
     "ebitdaTtm": 4230000000,
-    "pe": 19.842414585579938,
-    "evEbitda": 12.422275184869976,
-    "evSales": 3.219744119607843,
-    "pfcf": 28.384440595515695,
-    "fcfYield": 0.03523056924919579,
-    "return1y": -0.5193576538052822,
-    "returnYtd": -0.4576438766488561,
-    "return5y": 0.619368577461795
+    "pe": 18.333629231347963,
+    "evEbitda": 11.284444149408984,
+    "evSales": 2.924828354901961,
+    "pfcf": 26.226133295067264,
+    "fcfYield": 0.03812990610354614,
+    "return1y": -0.5449402148666682,
+    "returnYtd": -0.498883760264231,
+    "return5y": 0.5324391045866947
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "26th percentile revenue/EPS growth in the covered universe."
+      "detail": "27th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
-      "label": "Profitability: Average",
-      "tone": "neutral",
-      "detail": "56th percentile profitability metrics in the covered universe."
+      "label": "Profitability: High",
+      "tone": "positive",
+      "detail": "77th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1150,12 +1150,12 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "84th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "86th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=NEWGEN",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.newgensoft.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:29.657Z"
+  "updatedAt": "2026-11-18T09:13:15.664Z"
 }

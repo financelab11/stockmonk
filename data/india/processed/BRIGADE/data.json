@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 556.5,
-    "prevClose": 558.1500244140625,
-    "changePct": -0.0029562381830846585,
-    "asOf": "2026-11-08",
-    "high52": 745.425,
+    "close": 568.2999877929688,
+    "prevClose": 560.5,
+    "changePct": 0.013916124519123496,
+    "asOf": "2026-11-18",
+    "high52": 735,
     "low52": 450.75,
-    "marketCap": 181509357568,
+    "marketCap": 185358073856,
     "sharesOutstanding": null,
     "dividendYield": 0.0036000002
   },
@@ -1102,7 +1102,7 @@
     "epsTtm": 22.25,
     "epsGrowthTtm": -0.08848832445718968,
     "grossMargin": 0.56496,
-    "operatingMargin": 0.28802,
+    "operatingMargin": 0.23539,
     "netMargin": 0.13584,
     "fcfMargin": -0.32841846585922413,
     "roic": 0.11,
@@ -1112,14 +1112,14 @@
     "interestCover": 3.699052132701422,
     "freeCashFlowTtm": -18710000000,
     "ebitdaTtm": 15610000000,
-    "pe": 21.789838843697478,
-    "evEbitda": 14.306486627546445,
-    "evSales": 4.17819001414406,
+    "pe": 22.251869610564224,
+    "evEbitda": 14.553041162331839,
+    "evSales": 4.250195931599626,
     "pfcf": null,
-    "fcfYield": -0.10308008496471348,
-    "return1y": -0.23899570124235303,
-    "returnYtd": -0.16961290266760953,
-    "return5y": 0.5231218457083593
+    "fcfYield": -0.10093976275635733,
+    "return1y": -0.17888297012980503,
+    "returnYtd": -0.15200543166678127,
+    "return5y": 0.6502728986221209
   },
   "factorChips": [
     {
@@ -1132,7 +1132,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "63rd percentile profitability metrics in the covered universe."
+      "detail": "49th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1150,12 +1150,12 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "76th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "75th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=BRIGADE",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.brigadegroup.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:18.830Z"
+  "updatedAt": "2026-11-18T09:12:31.105Z"
 }

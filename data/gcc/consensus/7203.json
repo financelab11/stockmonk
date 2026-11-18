@@ -1,7 +1,7 @@
 {
   "ticker": "7203",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/7203/forecast/",
   "targetMean": 740.5,
   "targetHigh": 1154,

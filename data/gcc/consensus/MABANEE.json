@@ -1,7 +1,7 @@
 {
   "ticker": "MABANEE",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/kwse/MABANEE/forecast/",
   "targetMean": 1.14,
   "targetHigh": 1.25,

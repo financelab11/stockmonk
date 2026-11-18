@@ -1,0 +1,30 @@
+{
+  "ticker": "PEN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Penumbra, Inc Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1321732/000132173226000007/pen-20251231.htm",
+    "date": "2026-02-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 1403665000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1091761000,
+      "share": 0.7777931344017269
+    },
+    {
+      "name": "Non-US",
+      "revenue": 311904000,
+      "share": 0.2222068655982731
+    }
+  ]
+}

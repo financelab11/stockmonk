@@ -1,12 +1,12 @@
 {
   "ticker": "KFINTECH",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=KFINTECH",
   "targetMean": 1090.8823,
   "targetHigh": 1250,
   "targetLow": 897,
-  "recommendationKey": "strong_buy",
+  "recommendationKey": "none",
   "analystCount": 17,
   "distribution": null,
   "estimates": [
@@ -31,8 +31,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 15839695810,
-      "revenueGrowth": 0.21700001,
+      "revenueAvg": 15852931100,
+      "revenueGrowth": 0.2181,
       "epsAvg": 22.70531,
       "epsGrowth": 0.1161,
       "analystCount": 17
@@ -40,10 +40,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 18453176720,
+      "revenueAvg": 18467941430,
       "revenueGrowth": 0.165,
-      "epsAvg": 27.48134,
-      "epsGrowth": 0.21030001,
+      "epsAvg": 27.916,
+      "epsGrowth": 0.22950001,
       "analystCount": 17
     }
   ],

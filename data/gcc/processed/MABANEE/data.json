@@ -13,10 +13,10 @@
   "quoteCurrency": "KWD",
   "isResearch": true,
   "latestPrice": {
-    "close": 942,
-    "prevClose": 948,
-    "changePct": -0.006329113924050667,
-    "asOf": "2026-11-09",
+    "close": 950,
+    "prevClose": 951,
+    "changePct": -0.001051524710830698,
+    "asOf": "2026-11-18",
     "high52": 1117.9239501953125,
     "low52": 830.18798828125,
     "marketCap": 1480000000,
@@ -1115,16 +1115,16 @@
     "evSales": 19.649210064365125,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.0004569716149128711,
-    "returnYtd": -0.06678167331038642,
-    "return5y": 0.47623736295016994
+    "return1y": 0.005012795756176525,
+    "returnYtd": -0.05885625227692903,
+    "return5y": 0.5281419822666491
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "22nd percentile revenue/EPS growth in the covered universe."
+      "detail": "21st percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "5th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "6th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/kwse/MABANEE/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/MABANEE.KW",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:05.804Z"
+  "updatedAt": "2026-11-18T09:29:52.603Z"
 }

@@ -1,0 +1,90 @@
+{
+  "ticker": "HWM",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "HOWMET AEROSPACE INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/4281/000000428126000012/hwm-20251231.htm",
+    "date": "2026-02-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Engine Products",
+      "revenue": 4327000000,
+      "share": 0.5243577314590402
+    },
+    {
+      "name": "Fastening Systems",
+      "revenue": 1746000000,
+      "share": 0.21158507028599127
+    },
+    {
+      "name": "Engineered Structures",
+      "revenue": 1157000000,
+      "share": 0.14020843431895297
+    },
+    {
+      "name": "Forged Wheels",
+      "revenue": 1039000000,
+      "share": 0.12590887057682987
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 4377000000,
+      "share": 0.5304168686379059
+    },
+    {
+      "name": "Other Geographical Regions",
+      "revenue": 1025000000,
+      "share": 0.12421231216674745
+    },
+    {
+      "name": "FR",
+      "revenue": 625000000,
+      "share": 0.07573921473582163
+    },
+    {
+      "name": "Japan",
+      "revenue": 513000000,
+      "share": 0.06216674745516239
+    },
+    {
+      "name": "Germany",
+      "revenue": 439000000,
+      "share": 0.0531992244304411
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 376000000,
+      "share": 0.045564711585070285
+    },
+    {
+      "name": "IT",
+      "revenue": 264000000,
+      "share": 0.031992244304411055
+    },
+    {
+      "name": "CA",
+      "revenue": 187000000,
+      "share": 0.022661173048957827
+    },
+    {
+      "name": "MX",
+      "revenue": 166000000,
+      "share": 0.02011633543383422
+    },
+    {
+      "name": "PL",
+      "revenue": 150000000,
+      "share": 0.018177411536597188
+    },
+    {
+      "name": "China",
+      "revenue": 130000000,
+      "share": 0.015753756665050897
+    }
+  ]
+}

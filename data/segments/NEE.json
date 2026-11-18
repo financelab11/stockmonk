@@ -1,0 +1,19 @@
+{
+  "ticker": "NEE",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "NEXTERA ENERGY INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/753308/000075330826000015/nee-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 25800000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

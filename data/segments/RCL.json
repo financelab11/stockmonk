@@ -1,0 +1,40 @@
+{
+  "ticker": "RCL",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ROYAL CARIBBEAN CRUISES LTD Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000007/rcl-20251231.htm",
+    "date": "2026-02-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 17935000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 11542000000,
+      "share": 0.6435461388346808
+    },
+    {
+      "name": "Europe",
+      "revenue": 2951000000,
+      "share": 0.16453861165319209
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 1716000000,
+      "share": 0.09567884025648174
+    },
+    {
+      "name": "Other Region",
+      "revenue": 862000000,
+      "share": 0.04806244772790633
+    }
+  ]
+}

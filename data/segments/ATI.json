@@ -1,0 +1,60 @@
+{
+  "ticker": "ATI",
+  "asOf": "2025-12-28",
+  "source": {
+    "name": "ATI Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828026010140/ati-20251228.htm",
+    "date": "2026-02-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "High Performance Materials Components",
+      "revenue": 2664400000,
+      "share": 0.5808083009983869
+    },
+    {
+      "name": "Advanced Alloys Solutions",
+      "revenue": 2346200000,
+      "share": 0.5114443911583904
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 2639800000,
+      "share": 0.5754457862841696
+    },
+    {
+      "name": "Rest Of World",
+      "revenue": 703000000,
+      "share": 0.15324584732092253
+    },
+    {
+      "name": "China",
+      "revenue": 324300000,
+      "share": 0.07069363909839997
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 277200000,
+      "share": 0.06042638531630117
+    },
+    {
+      "name": "FR",
+      "revenue": 246200000,
+      "share": 0.05366874482277543
+    },
+    {
+      "name": "Germany",
+      "revenue": 227400000,
+      "share": 0.04957056284605659
+    },
+    {
+      "name": "CA",
+      "revenue": 169500000,
+      "share": 0.03694903431137463
+    }
+  ]
+}

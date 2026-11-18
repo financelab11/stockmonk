@@ -1,0 +1,19 @@
+{
+  "ticker": "PLMR",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Palomar Holdings, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526067364/plmr-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 875967000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

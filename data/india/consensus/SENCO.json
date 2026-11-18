@@ -1,29 +1,29 @@
 {
   "ticker": "SENCO",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=SENCO",
-  "targetMean": 485.5,
-  "targetHigh": 661,
-  "targetLow": 355,
-  "recommendationKey": "none",
+  "targetMean": 445.16666,
+  "targetHigh": 575,
+  "targetLow": 350,
+  "recommendationKey": "buy",
   "analystCount": 6,
   "distribution": null,
   "estimates": [
     {
       "period": "Next quarter",
-      "endDate": "2026-09-30",
-      "revenueAvg": 20199500000,
-      "revenueGrowth": 0.315,
-      "epsAvg": 2.2,
-      "epsGrowth": -0.2617,
-      "analystCount": 4
+      "endDate": "2026-12-31",
+      "revenueAvg": 38387000000,
+      "revenueGrowth": 0.25,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 1
     },
     {
       "period": "Following quarter",
-      "endDate": "2026-12-31",
-      "revenueAvg": 38080000000,
-      "revenueGrowth": 0.24,
+      "endDate": "2027-03-31",
+      "revenueAvg": 23941000000,
+      "revenueGrowth": 0.1991,
       "epsAvg": null,
       "epsGrowth": null,
       "analystCount": 1
@@ -31,31 +31,23 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 106182333330,
-      "revenueGrowth": 0.25959998,
-      "epsAvg": 22.91667,
-      "epsGrowth": -0.3464,
-      "analystCount": 6
+      "revenueAvg": 110751400000,
+      "revenueGrowth": 0.31379998,
+      "epsAvg": 22.35,
+      "epsGrowth": -0.3625,
+      "analystCount": 5
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 123814600000,
-      "revenueGrowth": 0.16610001,
-      "epsAvg": 27.15,
-      "epsGrowth": 0.1847,
-      "analystCount": 5
+      "revenueAvg": 126852000000,
+      "revenueGrowth": 0.1454,
+      "epsAvg": 26.73333,
+      "epsGrowth": 0.19610001,
+      "analystCount": 6
     }
   ],
   "history": [
-    {
-      "quarter": "2Q2026",
-      "endDate": "2025-09-30",
-      "epsActual": 2.98,
-      "epsEstimate": 1,
-      "revenueActual": null,
-      "revenueEstimate": null
-    },
     {
       "quarter": "3Q2026",
       "endDate": "2025-12-31",
@@ -79,14 +71,22 @@
       "epsEstimate": 2.4,
       "revenueActual": null,
       "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 5.29,
+      "epsEstimate": 2.2,
+      "revenueActual": null,
+      "revenueEstimate": null
     }
   ],
   "currentQuarter": {
-    "endDate": "2026-09-30",
-    "revenueAvg": 20199500000,
-    "revenueGrowth": 0.315,
-    "epsAvg": 2.2,
-    "epsGrowth": -0.2617,
-    "analystCount": 4
+    "endDate": "2026-12-31",
+    "revenueAvg": 38387000000,
+    "revenueGrowth": 0.25,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 1
   }
 }

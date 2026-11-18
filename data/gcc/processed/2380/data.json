@@ -13,13 +13,13 @@
   "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 13.920000076293945,
-    "prevClose": 14.329999923706055,
-    "changePct": -0.028611294458826042,
-    "asOf": "2026-11-09",
+    "close": 14.699999809265137,
+    "prevClose": 14.59000015258789,
+    "changePct": 0.007539386944950488,
+    "asOf": "2026-11-18",
     "high52": 18.770000457763672,
     "low52": 6.360000133514404,
-    "marketCap": 30590000000,
+    "marketCap": 32240000000.000004,
     "sharesOutstanding": 2200000000,
     "dividendYield": null
   },
@@ -54,14 +54,14 @@
     "sbc": null,
     "dividendsPaid": null,
     "buybacks": null,
-    "ebitda": 10289000000,
+    "ebitda": 9618000000,
     "grossMargin": 0.13338119167264895,
     "operatingMargin": 0.12063492063492064,
     "netMargin": 0.09724814548935153,
     "fcfMargin": 0.215857063093244,
     "roic": 0.17840764521427505,
     "netDebt": 13760000000,
-    "netDebtToEbitda": 1.337350568568374,
+    "netDebtToEbitda": 1.4306508629652734,
     "roe": 0.3090494296577947
   },
   "quarterly": [
@@ -711,7 +711,7 @@
       "sbc": null,
       "dividendsPaid": null,
       "buybacks": null,
-      "ebitda": -280780000,
+      "ebitda": -111730000,
       "grossMargin": -0.07908754758020664,
       "operatingMargin": -0.09886677542142469,
       "netMargin": -0.13442088091353996,
@@ -875,14 +875,14 @@
       "sbc": null,
       "dividendsPaid": null,
       "buybacks": null,
-      "ebitda": 4061000000,
+      "ebitda": 3558000000,
       "grossMargin": 0.1831697888789771,
       "operatingMargin": 0.17335712161760333,
       "netMargin": 0.15319655069878085,
       "fcfMargin": 0.0952126077906631,
       "roic": 0.06877258473943557,
       "netDebt": 13760000000,
-      "netDebtToEbitda": 3.388327998030042,
+      "netDebtToEbitda": 3.8673412029229906,
       "roe": 0.130595690747782
     }
   ],
@@ -1106,18 +1106,18 @@
     "roic": 0.17840764521427505,
     "roe": 0.3090494296577947,
     "netDebt": 13760000000,
-    "netDebtToEbitda": 1.337350568568374,
+    "netDebtToEbitda": 1.4306508629652734,
     "interestCover": 6.987654092816086,
     "freeCashFlowTtm": 13532000000,
-    "ebitdaTtm": 10625820000,
-    "pe": 3.82,
-    "evEbitda": 4.24,
-    "evSales": 0.7075057828826673,
+    "ebitdaTtm": 10122820000,
+    "pe": 4.02,
+    "evEbitda": 4.36,
+    "evSales": 0.7338278695062614,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.5981630327587675,
-    "returnYtd": 1.014471835553973,
-    "return5y": -0.26396052585133156
+    "return1y": 0.7818181586988044,
+    "returnYtd": 1.1273516836285444,
+    "return5y": -0.12555662271398493
   },
   "factorChips": [
     {
@@ -1130,19 +1130,19 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "45th percentile profitability metrics in the covered universe."
+      "detail": "46th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: High",
       "tone": "positive",
-      "detail": "82nd percentile free-cash-flow margin."
+      "detail": "83rd percentile free-cash-flow margin."
     },
     {
       "key": "balance",
       "label": "Balance sheet: Low leverage",
       "tone": "positive",
-      "detail": "Net debt of $13.8B, 1.3× EBITDA."
+      "detail": "Net debt of $13.8B, 1.4× EBITDA."
     },
     {
       "key": "valuation",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/2380/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/2380.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:16:35.675Z"
+  "updatedAt": "2026-11-18T09:26:46.404Z"
 }

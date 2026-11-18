@@ -13,10 +13,10 @@
   "quoteCurrency": "KWD",
   "isResearch": true,
   "latestPrice": {
-    "close": 580,
-    "prevClose": 578,
-    "changePct": 0.0034602076124568004,
-    "asOf": "2026-11-09",
+    "close": 569,
+    "prevClose": 570,
+    "changePct": -0.0017543859649122862,
+    "asOf": "2026-11-18",
     "high52": 642,
     "low52": 502,
     "marketCap": 2510000000,
@@ -1033,9 +1033,9 @@
     "evSales": 1.844831124412142,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.08217039008933669,
-    "returnYtd": 0.12624522623523515,
-    "return5y": -0.028150511736837136
+    "return1y": 0.07972665675715174,
+    "returnYtd": 0.10488540297904958,
+    "return5y": -0.04658213996251781
   },
   "factorChips": [
     {
@@ -1054,7 +1054,7 @@
       "key": "cash",
       "label": "Cash generation: High",
       "tone": "positive",
-      "detail": "73rd percentile free-cash-flow margin."
+      "detail": "74th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1071,7 +1071,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1502,13 +1502,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/kwse/ZAIN/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/ZAIN.KW",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:08.200Z"
+  "updatedAt": "2026-11-18T09:29:59.449Z"
 }

@@ -1,0 +1,40 @@
+{
+  "ticker": "PM",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Philip Morris International Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1413329/000162828026005939/pm-20251231.htm",
+    "date": "2026-02-06"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Europe",
+      "revenue": 17111000000,
+      "share": 0.42095552056681756
+    },
+    {
+      "name": "SSEACISMEA",
+      "revenue": 12051000000,
+      "share": 0.2964721511513482
+    },
+    {
+      "name": "EAAUPMIGTR",
+      "revenue": 6632000000,
+      "share": 0.16315685888604606
+    },
+    {
+      "name": "Americas",
+      "revenue": 4854000000,
+      "share": 0.11941546939578823
+    }
+  ],
+  "geographyLabel": null,
+  "geography": [
+    {
+      "name": "Japan",
+      "revenue": 4200000000,
+      "share": 0.10332611690612084
+    }
+  ]
+}

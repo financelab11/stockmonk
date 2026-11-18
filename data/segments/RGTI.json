@@ -1,0 +1,35 @@
+{
+  "ticker": "RGTI",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "RIGETTI COMPUTING, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926023454/rgti-20251231x10k.htm",
+    "date": "2026-03-04"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Single Reportable",
+      "revenue": 7088000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 3732000,
+      "share": 0.5265237020316027
+    },
+    {
+      "name": "Europe",
+      "revenue": 3167000,
+      "share": 0.4468115124153499
+    },
+    {
+      "name": "Asia",
+      "revenue": 189000,
+      "share": 0.026664785553047403
+    }
+  ]
+}

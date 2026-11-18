@@ -1,7 +1,7 @@
 {
   "ticker": "S",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/S/analysis",
   "targetMean": 24.91667,
   "targetHigh": 31,
@@ -98,8 +98,8 @@
   "revisions": {
     "eps7d": 0,
     "eps30d": 0,
-    "eps60d": -0.006285003111387799,
-    "eps90d": -0.08268949076600507,
+    "eps60d": 0,
+    "eps90d": -0.08195119146856755,
     "revenue30d": null
   }
 }

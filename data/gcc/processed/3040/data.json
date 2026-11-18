@@ -13,15 +13,15 @@
   "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 42.939998626708984,
-    "prevClose": 43.060001373291016,
-    "changePct": -0.002786872799694473,
-    "asOf": "2026-11-09",
+    "close": 42.97999954223633,
+    "prevClose": 42.900001525878906,
+    "changePct": 0.0018647555597210985,
+    "asOf": "2026-11-18",
     "high52": 46.70000076293945,
     "low52": 41.060001373291016,
-    "marketCap": 4710000000,
+    "marketCap": 4720000000,
     "sharesOutstanding": 109760000,
-    "dividendYield": 0.0745
+    "dividendYield": 0.07440000000000001
   },
   "ttm": {
     "period": "TTM",
@@ -34,8 +34,8 @@
     "grossProfit": 221070000,
     "operatingIncome": 233140000,
     "netIncome": 226580000,
-    "epsDiluted": 2.07,
-    "epsBasic": 2.07,
+    "epsDiluted": 2.06,
+    "epsBasic": 2.06,
     "interestExpense": -4080000,
     "pretaxIncome": 248100000,
     "incomeTax": 21520000,
@@ -47,9 +47,9 @@
     "totalAssets": 3268000000,
     "inventory": 834480000,
     "receivables": 170900000,
-    "cfo": 189410000,
+    "cfo": 190450000,
     "capex": 340550000,
-    "freeCashFlow": -151140000,
+    "freeCashFlow": -150100000,
     "da": 113310000,
     "sbc": null,
     "dividendsPaid": 263820000,
@@ -58,7 +58,7 @@
     "grossMargin": 0.21277189605389799,
     "operatingMargin": 0.2243888354186718,
     "netMargin": 0.21807507218479308,
-    "fcfMargin": -0.1454667949951877,
+    "fcfMargin": -0.14446583253128006,
     "roic": 0.06822135382905825,
     "netDebt": 147750000.00000003,
     "netDebtToEbitda": 0.4263700112544369,
@@ -704,9 +704,9 @@
       "totalAssets": 3026000000,
       "inventory": 774250000,
       "receivables": 142240000,
-      "cfo": 79590000,
+      "cfo": 78550000,
       "capex": 20670000,
-      "freeCashFlow": 58920000,
+      "freeCashFlow": 57880000,
       "da": 34320000,
       "sbc": null,
       "dividendsPaid": 87390000,
@@ -715,7 +715,7 @@
       "grossMargin": 0.1348296398330835,
       "operatingMargin": 0.14746991856743508,
       "netMargin": 0.16768626179961918,
-      "fcfMargin": 0.2387068022525625,
+      "fcfMargin": 0.23449337600777864,
       "roic": 0.010977835126323747,
       "netDebt": -58540000,
       "netDebtToEbitda": -0.8285916489738145,
@@ -1097,12 +1097,12 @@
     "revenueTtm": 1039000000,
     "revenueGrowthTtm": -0.09346748577611785,
     "revenueGrowthLatestQ": -0.26601304541587323,
-    "epsTtm": 2.07,
+    "epsTtm": 2.06,
     "epsGrowthTtm": -0.15163934426229508,
     "grossMargin": 0.21277189605389799,
     "operatingMargin": 0.2243888354186718,
     "netMargin": 0.21807507218479308,
-    "fcfMargin": -0.1454667949951877,
+    "fcfMargin": -0.14446583253128006,
     "roic": 0.06822135382905825,
     "roe": 0.08878526645768026,
     "netDebt": 147750000.00000003,
@@ -1110,33 +1110,33 @@
     "interestCover": 57.14705882352941,
     "freeCashFlowTtm": -151810000,
     "ebitdaTtm": 346540000,
-    "pe": 20.8,
-    "evEbitda": 13.81,
-    "evSales": 4.6754090471607315,
+    "pe": 20.83,
+    "evEbitda": 13.8,
+    "evSales": 4.685033686236766,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.1074840053065742,
-    "returnYtd": 0.07166992933705241,
-    "return5y": -0.31131801311427587
+    "return1y": 0.1117134495538128,
+    "returnYtd": 0.07266824744808154,
+    "return5y": -0.3141058690023334
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "21st percentile revenue/EPS growth in the covered universe."
+      "detail": "20th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "44th percentile profitability metrics in the covered universe."
+      "detail": "46th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
       "label": "Cash generation: Low",
       "tone": "caution",
-      "detail": "23rd percentile free-cash-flow margin."
+      "detail": "22nd percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "30th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "33rd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/3040/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/3040.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:15:50.461Z"
+  "updatedAt": "2026-11-18T09:25:33.789Z"
 }

@@ -1,0 +1,34 @@
+{
+  "ticker": "VST",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Vistra Operations Company LLC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000006/vistra-20251231.htm",
+    "date": "2026-02-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Retail",
+      "revenue": 13025000000,
+      "share": 0.7406459683839418
+    },
+    {
+      "name": "Texas",
+      "revenue": 4435000000,
+      "share": 0.2521892414420562
+    },
+    {
+      "name": "Asset Closure",
+      "revenue": 71000000,
+      "share": 0.004037302399636074
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 55000000,
+      "share": 0.003127487774365973
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

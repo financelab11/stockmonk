@@ -1,17 +1,17 @@
 {
   "ticker": "GE",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/GE/analysis",
   "targetMean": 378.42856,
   "targetHigh": 431,
   "targetLow": 280,
-  "recommendationKey": "strong_buy",
+  "recommendationKey": "buy",
   "analystCount": 21,
   "distribution": {
-    "strongBuy": 4,
+    "strongBuy": 3,
     "buy": 16,
-    "hold": 2,
+    "hold": 3,
     "sell": 0,
     "strongSell": 1
   },
@@ -96,9 +96,9 @@
     "analystCount": 7
   },
   "revisions": {
-    "eps7d": 0.005383684564635116,
-    "eps30d": 0.031617584768532714,
-    "eps60d": 0.031045280844352874,
+    "eps7d": 0,
+    "eps30d": 0.02969980892571855,
+    "eps60d": 0.030886347842567607,
     "eps90d": 0.031045280844352874,
     "revenue30d": null
   }

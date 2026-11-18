@@ -1,0 +1,35 @@
+{
+  "ticker": "GTLB",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "GITLAB INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1653482/000162828026018731/gtlb-20260131.htm",
+    "date": "2026-03-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 955224000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 787348000,
+      "share": 0.8242548344681457
+    },
+    {
+      "name": "Europe",
+      "revenue": 145639000,
+      "share": 0.15246580906677387
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 22237000,
+      "share": 0.02327935646508044
+    }
+  ]
+}

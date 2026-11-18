@@ -1,0 +1,45 @@
+{
+  "ticker": "RKLB",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Rocket Lab Corp Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Space Systems",
+      "revenue": 402757000,
+      "share": 0.6692550170405733
+    },
+    {
+      "name": "Launch Services",
+      "revenue": 199042000,
+      "share": 0.33074498295942667
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 475394000,
+      "share": 0.7899547855679387
+    },
+    {
+      "name": "Japan",
+      "revenue": 65638000,
+      "share": 0.1090696395308068
+    },
+    {
+      "name": "Rest Of World",
+      "revenue": 40601000,
+      "share": 0.06746604763384452
+    },
+    {
+      "name": "CA",
+      "revenue": 20166000,
+      "share": 0.03350952726740988
+    }
+  ]
+}

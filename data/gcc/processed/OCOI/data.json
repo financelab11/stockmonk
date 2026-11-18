@@ -1130,7 +1130,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "46th percentile profitability metrics in the covered universe."
+      "detail": "47th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1148,7 +1148,7 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "53rd percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "54th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1181,5 +1181,5 @@
       "date": "2026-11-09"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:27.109Z"
+  "updatedAt": "2026-11-18T09:30:39.056Z"
 }

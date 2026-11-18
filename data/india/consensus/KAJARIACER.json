@@ -1,9 +1,9 @@
 {
   "ticker": "KAJARIACER",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=KAJARIACER",
-  "targetMean": 1405.1923,
+  "targetMean": 1412.8077,
   "targetHigh": 1700,
   "targetLow": 1040,
   "recommendationKey": "strong_buy",
@@ -31,19 +31,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 58007902900,
+      "revenueAvg": 58007672130,
       "revenueGrowth": 0.2009,
-      "epsAvg": 44.73977,
-      "epsGrowth": 0.38,
+      "epsAvg": 44.88593,
+      "epsGrowth": 0.3845,
       "analystCount": 26
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 62085453360,
-      "revenueGrowth": 0.070300005,
-      "epsAvg": 45.75733,
-      "epsGrowth": 0.0227,
+      "revenueAvg": 62152799510,
+      "revenueGrowth": 0.0715,
+      "epsAvg": 45.96118,
+      "epsGrowth": 0.024,
       "analystCount": 26
     }
   ],

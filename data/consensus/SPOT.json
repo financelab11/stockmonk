@@ -1,11 +1,11 @@
 {
   "ticker": "SPOT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/SPOT/analysis",
-  "targetMean": 643.4777,
-  "targetHigh": 745.9884,
-  "targetLow": 456.7707,
+  "targetMean": 634.5761,
+  "targetHigh": 734.0461,
+  "targetLow": 449.45834,
   "recommendationKey": "buy",
   "analystCount": 38,
   "distribution": {
@@ -19,7 +19,7 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 5230170000,
+      "revenueAvg": 5230166300,
       "revenueGrowth": 0.1543,
       "epsAvg": 3.27759,
       "epsGrowth": -0.2601,
@@ -28,7 +28,7 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 5244295310,
+      "revenueAvg": 5244303010,
       "revenueGrowth": 0.15689999,
       "epsAvg": 3.49968,
       "epsGrowth": 0.014400001,
@@ -37,7 +37,7 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 19507790740,
+      "revenueAvg": 19507574330,
       "revenueGrowth": 0.1351,
       "epsAvg": 11.8587,
       "epsGrowth": 0.1283,
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 22413476900,
-      "revenueGrowth": 0.14899999,
+      "revenueAvg": 22418882310,
+      "revenueGrowth": 0.1492,
       "epsAvg": 15.23555,
       "epsGrowth": 0.2848,
       "analystCount": 28
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 5230170000,
+    "revenueAvg": 5230166300,
     "revenueGrowth": 0.1543,
     "epsAvg": 3.27759,
     "epsGrowth": -0.2601,
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": -0.0038439374822545336,
-    "eps30d": -0.03224937734007516,
-    "eps60d": -0.03558715677655622,
-    "eps90d": -0.04045655324310249,
+    "eps7d": 0,
+    "eps30d": -0.029843358975218948,
+    "eps60d": -0.034641919531106846,
+    "eps90d": -0.0348619074554104,
     "revenue30d": null
   }
 }

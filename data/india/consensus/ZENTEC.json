@@ -1,7 +1,7 @@
 {
   "ticker": "ZENTEC",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=ZENTEC",
   "targetMean": 1967.1666,
   "targetHigh": 2170,
@@ -12,16 +12,16 @@
   "estimates": [
     {
       "period": "Next quarter",
-      "endDate": "2026-09-30",
-      "revenueAvg": 2479000000,
-      "revenueGrowth": 0.98870003,
+      "endDate": "2026-12-31",
+      "revenueAvg": 3081000000,
+      "revenueGrowth": 1.6525,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 2
+      "analystCount": 1
     },
     {
       "period": "Following quarter",
-      "endDate": "2026-12-31",
+      "endDate": "2027-03-31",
       "revenueAvg": 3799000000,
       "revenueGrowth": 4.2837,
       "epsAvg": null,
@@ -49,11 +49,11 @@
   ],
   "history": [],
   "currentQuarter": {
-    "endDate": "2026-09-30",
-    "revenueAvg": 2479000000,
-    "revenueGrowth": 0.98870003,
+    "endDate": "2026-12-31",
+    "revenueAvg": 3081000000,
+    "revenueGrowth": 1.6525,
     "epsAvg": null,
     "epsGrowth": null,
-    "analystCount": 2
+    "analystCount": 1
   }
 }

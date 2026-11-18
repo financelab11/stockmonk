@@ -1,0 +1,35 @@
+{
+  "ticker": "SYK",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "STRYKER CORP Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/310764/000031076426000010/syk-20251231.htm",
+    "date": "2026-02-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Med Surg & Neurotechnology",
+      "revenue": 15647000000,
+      "share": 0.6229893295110687
+    },
+    {
+      "name": "Orthopaedics & Spine",
+      "revenue": 9469000000,
+      "share": 0.37701067048893133
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 19006000000,
+      "share": 0.7567287784679089
+    },
+    {
+      "name": "Non-US",
+      "revenue": 6110000000,
+      "share": 0.2432712215320911
+    }
+  ]
+}

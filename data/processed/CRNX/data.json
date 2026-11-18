@@ -15,14 +15,18 @@
   "isResearch": true,
   "latestPrice": {
     "close": 84.95,
-    "prevClose": 84.95,
-    "changePct": 0,
+    "prevClose": 84.94999694824219,
+    "changePct": 3.592416630837647e-8,
     "asOf": "2026-09-01",
-    "high52": 85.01,
+    "high52": 85.01000213623047,
     "low52": 31,
-    "marketCap": 8957145670,
+    "marketCap": 9012787200,
     "sharesOutstanding": null,
-    "dividendYield": null
+    "dividendYield": null,
+    "pe": -16.56706,
+    "evEbitda": -16.32667,
+    "evSales": 489.39093,
+    "pfcf": -14.72191
   },
   "ttm": {
     "period": "TTM",
@@ -1441,9 +1445,9 @@
     "ebitdaTtm": -541617000,
     "pe": -16.56706,
     "evEbitda": -16.32667,
-    "evSales": 489.39092755548177,
+    "evSales": 492.47031933145166,
     "pfcf": -14.72191,
-    "fcfYield": -0.013807746860055252,
+    "fcfYield": -0.013722503067641495,
     "return1y": 1.5510510510510516,
     "returnYtd": 0.8178900064198589,
     "return5y": 2.4958847736625516
@@ -1921,5 +1925,5 @@
       "date": "2026-05-07"
     }
   ],
-  "updatedAt": "2026-11-08T09:10:23.871Z"
+  "updatedAt": "2026-11-18T09:07:07.465Z"
 }

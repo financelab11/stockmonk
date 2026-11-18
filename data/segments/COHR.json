@@ -1,0 +1,50 @@
+{
+  "ticker": "COHR",
+  "asOf": "2026-06-30",
+  "source": {
+    "name": "Coherent Corp. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000020/iivi-20260630.htm",
+    "date": "2026-08-14"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Datacenter & Communications",
+      "revenue": 5274629000,
+      "share": 0.7410079906650309
+    },
+    {
+      "name": "Industrial",
+      "revenue": 1843552000,
+      "share": 0.25899200933496913
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 4633696000,
+      "share": 0.6509663072630494
+    },
+    {
+      "name": "Europe",
+      "revenue": 814176000,
+      "share": 0.11437978326204405
+    },
+    {
+      "name": "China",
+      "revenue": 813377000,
+      "share": 0.11426753548413562
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 466559000,
+      "share": 0.06554469463476695
+    },
+    {
+      "name": "Japan",
+      "revenue": 390373000,
+      "share": 0.054841679356004015
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "ticker": "KNSL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/KNSL/analysis",
-  "targetMean": 349,
+  "targetMean": 354.55557,
   "targetHigh": 405,
   "targetLow": 285,
   "recommendationKey": "hold",
@@ -21,8 +21,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 477238000,
       "revenueGrowth": -0.0125,
-      "epsAvg": 5.74121,
-      "epsGrowth": -0.0117999995,
+      "epsAvg": 5.73704,
+      "epsGrowth": -0.0126,
       "analystCount": 12
     },
     {
@@ -30,26 +30,26 @@
       "endDate": "2027-03-31",
       "revenueAvg": 480128800,
       "revenueGrowth": 0.028800001,
-      "epsAvg": 5.06818,
-      "epsGrowth": -0.0082,
-      "analystCount": 11
+      "epsAvg": 5.06167,
+      "epsGrowth": -0.0095,
+      "analystCount": 12
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 1944193530,
-      "revenueGrowth": 0.0375,
-      "epsAvg": 22.04694,
-      "epsGrowth": 0.13,
-      "analystCount": 11
+      "revenueAvg": 1944438700,
+      "revenueGrowth": 0.0376,
+      "epsAvg": 22.06136,
+      "epsGrowth": 0.1308,
+      "analystCount": 12
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 1943712500,
-      "revenueGrowth": -0.0002,
+      "revenueAvg": 1934756950,
+      "revenueGrowth": -0.005,
       "epsAvg": 21.87956,
-      "epsGrowth": -0.0076,
+      "epsGrowth": -0.0082,
       "analystCount": 12
     }
   ],
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 477238000,
     "revenueGrowth": -0.0125,
-    "epsAvg": 5.74121,
-    "epsGrowth": -0.0117999995,
+    "epsAvg": 5.73704,
+    "epsGrowth": -0.0126,
     "analystCount": 12
   },
   "revisions": {
-    "eps7d": 0.029533260174180898,
-    "eps30d": 0.043201146213695196,
-    "eps60d": 0.043201146213695196,
-    "eps90d": 0.043201146213695196,
+    "eps7d": 0,
+    "eps30d": 0.0302066356907702,
+    "eps60d": 0.043883461334451423,
+    "eps90d": 0.043883461334451423,
     "revenue30d": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "APH",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/APH/analysis",
   "targetMean": 106.97368,
   "targetHigh": 130,
@@ -96,9 +96,9 @@
     "analystCount": 13
   },
   "revisions": {
-    "eps7d": 0.004240094932785654,
-    "eps30d": 0.05836061657003988,
-    "eps60d": 0.06518030914432993,
+    "eps7d": -0.00024685088795783905,
+    "eps30d": 0.05568464483071933,
+    "eps60d": 0.061602465446674914,
     "eps90d": 0.06527236586493124,
     "revenue30d": null
   }

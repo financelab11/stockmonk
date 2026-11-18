@@ -1,0 +1,55 @@
+{
+  "ticker": "ONTO",
+  "asOf": "2026-01-03",
+  "source": {
+    "name": "ONTO INNOVATION INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/704532/000119312526066937/onto-20260103.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Single Reportable",
+      "revenue": 1005263000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Taiwan",
+      "revenue": 318770000,
+      "share": 0.3171010969268739
+    },
+    {
+      "name": "KR",
+      "revenue": 279416000,
+      "share": 0.2779531326627957
+    },
+    {
+      "name": "United States",
+      "revenue": 121072000,
+      "share": 0.12043813410023049
+    },
+    {
+      "name": "Japan",
+      "revenue": 95428000,
+      "share": 0.0949283918735694
+    },
+    {
+      "name": "China",
+      "revenue": 70658000,
+      "share": 0.07028807386723673
+    },
+    {
+      "name": "Southeast Asia",
+      "revenue": 64344000,
+      "share": 0.06400713047232416
+    },
+    {
+      "name": "Europe",
+      "revenue": 55575000,
+      "share": 0.05528404009696965
+    }
+  ]
+}

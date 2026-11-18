@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 1071.550048828125,
-    "prevClose": 1042.800048828125,
-    "changePct": 0.027570002544887284,
-    "asOf": "2026-11-08",
-    "high52": 1684.9,
+    "close": 1150.800048828125,
+    "prevClose": 1144.4000244140625,
+    "changePct": 0.005592471406437927,
+    "asOf": "2026-11-18",
+    "high52": 1680,
     "low52": 950.05,
-    "marketCap": 111163293696,
+    "marketCap": 119384743936,
     "sharesOutstanding": null,
-    "dividendYield": 0.0082
+    "dividendYield": 0.0074
   },
   "ttm": {
     "period": "TTM",
@@ -897,7 +897,7 @@
     "epsTtm": 39.74,
     "epsGrowthTtm": -0.05470980019029492,
     "grossMargin": 0.46508,
-    "operatingMargin": 0.13666001,
+    "operatingMargin": 0.19868,
     "netMargin": 0.16405001,
     "fcfMargin": 0.1293219577907499,
     "roic": 0.2,
@@ -907,27 +907,27 @@
     "interestCover": null,
     "freeCashFlowTtm": 2880000000,
     "ebitdaTtm": 6230000000,
-    "pe": 26.981381965048545,
-    "evEbitda": 17.513835269341893,
-    "evSales": 4.345328304579849,
-    "pfcf": 38.59836586666667,
-    "fcfYield": 0.025907832560952908,
-    "return1y": -0.34142007945449016,
-    "returnYtd": -0.3243017914188292,
-    "return5y": -0.4565462702591666
+    "pe": 28.976879596116504,
+    "evEbitda": 18.8334902035313,
+    "evSales": 4.672745677737953,
+    "pfcf": 41.45303608888889,
+    "fcfYield": 0.024123685364219702,
+    "return1y": -0.3048912011614451,
+    "returnYtd": -0.27432831319574447,
+    "return5y": -0.39892657558432865
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "30th percentile revenue/EPS growth in the covered universe."
+      "detail": "31st percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "51st percentile profitability metrics in the covered universe."
+      "detail": "60th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -943,14 +943,14 @@
     },
     {
       "key": "valuation",
-      "label": "Valuation: Above peers",
+      "label": "Valuation: In line",
       "tone": "info",
-      "detail": "70th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "66th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1381,13 +1381,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=VINATIORGA",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.vinatiorganics.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:57.310Z"
+  "updatedAt": "2026-11-18T09:11:10.563Z"
 }

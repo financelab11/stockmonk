@@ -1,0 +1,29 @@
+{
+  "ticker": "AAON",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "AAON, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000005/aaon-20251231.htm",
+    "date": "2026-03-02"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "AAON Oklahoma",
+      "revenue": 801209000,
+      "share": 0.5555941573120973
+    },
+    {
+      "name": "AAON Coil Products",
+      "revenue": 325353000,
+      "share": 0.2256143226847961
+    },
+    {
+      "name": "Bas X",
+      "revenue": 315514000,
+      "share": 0.21879152000310664
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 207.5800018310547,
-    "prevClose": 204.94000244140625,
-    "changePct": 0.012881815937341168,
-    "asOf": "2026-11-08",
+    "close": 190.5,
+    "prevClose": 199.25999450683594,
+    "changePct": -0.04396263549297352,
+    "asOf": "2026-11-18",
     "high52": 517.5,
     "low52": 183,
-    "marketCap": 42986336256,
+    "marketCap": 39449354240,
     "sharesOutstanding": null,
     "dividendYield": 0
   },
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 120000000,
       "netIncome": 80000000,
-      "epsDiluted": 0.46,
-      "epsBasic": 0.46,
+      "epsDiluted": 0.45,
+      "epsBasic": 0.45,
       "interestExpense": 0,
       "pretaxIncome": 120000000,
       "incomeTax": 40800000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 260000000,
       "netIncome": 170000000,
-      "epsDiluted": 1.02,
-      "epsBasic": 1.02,
+      "epsDiluted": 0.99,
+      "epsBasic": 0.99,
       "interestExpense": 10000000,
       "pretaxIncome": 240000000,
       "incomeTax": 69600000,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 730000000,
       "netIncome": 600000000,
-      "epsDiluted": 3.52,
-      "epsBasic": 3.52,
+      "epsDiluted": 3.43,
+      "epsBasic": 3.43,
       "interestExpense": 30000000,
       "pretaxIncome": 700000000,
       "incomeTax": 105000000,
@@ -736,8 +736,8 @@
       "grossProfit": null,
       "operatingIncome": 800000000,
       "netIncome": 730000000,
-      "epsDiluted": 4.28,
-      "epsBasic": 4.28,
+      "epsDiluted": 4.19,
+      "epsBasic": 4.19,
       "interestExpense": 30000000,
       "pretaxIncome": 900000000,
       "incomeTax": 171000000,
@@ -777,8 +777,8 @@
       "grossProfit": null,
       "operatingIncome": 1050000000,
       "netIncome": 910000000,
-      "epsDiluted": 5.35,
-      "epsBasic": 5.35,
+      "epsDiluted": 5.26,
+      "epsBasic": 5.26,
       "interestExpense": 30000000,
       "pretaxIncome": 1160000000,
       "incomeTax": 243600000,
@@ -1020,7 +1020,7 @@
     "epsTtm": 9.65,
     "epsGrowthTtm": 0.04550379198266552,
     "grossMargin": 0.32386002,
-    "operatingMargin": 0.16564,
+    "operatingMargin": 0.17918,
     "netMargin": 0.17346,
     "fcfMargin": 0.1339622641509434,
     "roic": 0.16,
@@ -1030,14 +1030,14 @@
     "interestCover": 35.285714285714285,
     "freeCashFlowTtm": 1420000000,
     "ebitdaTtm": 2470000000,
-    "pe": 21.38623694328358,
-    "evEbitda": 14.653318244534413,
-    "evSales": 3.152760981184669,
-    "pfcf": 30.272067785915493,
-    "fcfYield": 0.0330337526683679,
-    "return1y": -0.544281005859375,
-    "returnYtd": -0.5438303320524511,
-    "return5y": -0.5752838837216272
+    "pe": 19.62654439800995,
+    "evEbitda": 13.221341719838057,
+    "evSales": 2.8446615024390245,
+    "pfcf": 27.78123538028169,
+    "fcfYield": 0.03599551950485869,
+    "return1y": -0.594594589328797,
+    "returnYtd": -0.5813646739692462,
+    "return5y": -0.610230179028133
   },
   "factorChips": [
     {
@@ -1068,7 +1068,7 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "75th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "78th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1504,13 +1504,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=LATENTVIEW",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.latentview.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:34.501Z"
+  "updatedAt": "2026-11-18T09:13:32.403Z"
 }

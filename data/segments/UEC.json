@@ -1,0 +1,19 @@
+{
+  "ticker": "UEC",
+  "asOf": "2026-07-31",
+  "source": {
+    "name": "URANIUM ENERGY CORP Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1334933/000143774926031414/uec20260731_10k.htm",
+    "date": "2026-09-29"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 37250000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

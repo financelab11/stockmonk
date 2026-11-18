@@ -1,7 +1,7 @@
 {
   "ticker": "CDNS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/CDNS/analysis",
   "targetMean": 411.7604,
   "targetHigh": 470,

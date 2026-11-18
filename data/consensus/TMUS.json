@@ -1,11 +1,11 @@
 {
   "ticker": "TMUS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/TMUS/analysis",
-  "targetMean": 225.64,
+  "targetMean": 226.24,
   "targetHigh": 296,
-  "targetLow": 165,
+  "targetLow": 169,
   "recommendationKey": "buy",
   "analystCount": 25,
   "distribution": {
@@ -21,26 +21,26 @@
       "endDate": "2026-12-31",
       "revenueAvg": 25507065330,
       "revenueGrowth": 0.0482,
-      "epsAvg": 2.756,
-      "epsGrowth": 0.466,
+      "epsAvg": 2.75591,
+      "epsGrowth": 0.4659,
       "analystCount": 16
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 24196420500,
-      "revenueGrowth": 0.0471,
-      "epsAvg": 3.37541,
-      "epsGrowth": 0.48700002,
-      "analystCount": 10
+      "revenueAvg": 24202117940,
+      "revenueGrowth": 0.047399998,
+      "epsAvg": 3.393,
+      "epsGrowth": 0.4947,
+      "analystCount": 11
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
       "revenueAvg": 94804792840,
       "revenueGrowth": 0.0736,
-      "epsAvg": 11.18081,
-      "epsGrowth": 0.1503,
+      "epsAvg": 11.20027,
+      "epsGrowth": 0.1523,
       "analystCount": 21
     },
     {
@@ -48,8 +48,8 @@
       "endDate": "2027-12-31",
       "revenueAvg": 98945608240,
       "revenueGrowth": 0.0437,
-      "epsAvg": 13.9994,
-      "epsGrowth": 0.2521,
+      "epsAvg": 14.01283,
+      "epsGrowth": 0.2511,
       "analystCount": 21
     }
   ],
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 25507065330,
     "revenueGrowth": 0.0482,
-    "epsAvg": 2.756,
-    "epsGrowth": 0.466,
+    "epsAvg": 2.75591,
+    "epsGrowth": 0.4659,
     "analystCount": 16
   },
   "revisions": {
-    "eps7d": 0.0007330420259525905,
-    "eps30d": 0.02129119122520473,
-    "eps60d": 0.021475001712993436,
-    "eps90d": 0.021475001712993436,
+    "eps7d": -0.000006249810273750711,
+    "eps30d": 0.02252980556881856,
+    "eps60d": 0.023252860699358058,
+    "eps90d": 0.023252860699358058,
     "revenue30d": null
   }
 }

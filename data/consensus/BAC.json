@@ -1,7 +1,7 @@
 {
   "ticker": "BAC",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/BAC/analysis",
   "targetMean": 62.47727,
   "targetHigh": 71,

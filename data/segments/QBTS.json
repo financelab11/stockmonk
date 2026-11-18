@@ -1,0 +1,50 @@
+{
+  "ticker": "QBTS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "D-Wave Quantum Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000026/qbts-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 24587000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Germany",
+      "revenue": 16765000,
+      "share": 0.6818643998861187
+    },
+    {
+      "name": "United States",
+      "revenue": 2654000,
+      "share": 0.10794322202790092
+    },
+    {
+      "name": "Other Geographical Areas",
+      "revenue": 2014000,
+      "share": 0.08191320616586001
+    },
+    {
+      "name": "Japan",
+      "revenue": 1316000,
+      "share": 0.05352422011632163
+    },
+    {
+      "name": "CH",
+      "revenue": 960000,
+      "share": 0.03904502379306137
+    },
+    {
+      "name": "CA",
+      "revenue": 878000,
+      "share": 0.03570992801073738
+    }
+  ]
+}

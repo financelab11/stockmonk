@@ -13,15 +13,15 @@
   "quoteCurrency": "AED",
   "isResearch": true,
   "latestPrice": {
-    "close": 1.2649999856948853,
-    "prevClose": 1.284999966621399,
-    "changePct": -0.015564187895738879,
-    "asOf": "2026-11-05",
+    "close": 1.340000033378601,
+    "prevClose": 1.3300000429153442,
+    "changePct": 0.007518789579387564,
+    "asOf": "2026-11-18",
     "high52": 1.7799999713897705,
     "low52": 1.2300000190734863,
-    "marketCap": 10470000000,
+    "marketCap": 10710000000,
     "sharesOutstanding": 8000000000,
-    "dividendYield": 0.0496
+    "dividendYield": 0.048499999999999995
   },
   "ttm": {
     "period": "TTM",
@@ -1110,27 +1110,27 @@
     "interestCover": 1422.48,
     "freeCashFlowTtm": 678160000,
     "ebitdaTtm": 775880000,
-    "pe": 15.98,
-    "evEbitda": 7.26,
-    "evSales": 10.343525026624068,
+    "pe": 16.34,
+    "evEbitda": 7.46,
+    "evSales": 10.599116080937167,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.16038501620071843,
-    "returnYtd": -0.2008483294921809,
-    "return5y": -0.21502271839757825
+    "return1y": -0.10494053260200187,
+    "returnYtd": -0.15346776500807657,
+    "return5y": -0.43741202630337206
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "24th percentile revenue/EPS growth in the covered universe."
+      "detail": "23rd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "94th percentile profitability metrics in the covered universe."
+      "detail": "95th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "75th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "74th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-07",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/dfm/DFM/financials/",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/DFM.AE",
-      "date": "2026-11-05"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:19.167Z"
+  "updatedAt": "2026-11-18T09:28:17.256Z"
 }

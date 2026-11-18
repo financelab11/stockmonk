@@ -1,0 +1,35 @@
+{
+  "ticker": "JNJ",
+  "asOf": "2025-12-28",
+  "source": {
+    "name": "Johnson & Johnson Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm",
+    "date": "2026-02-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Innovative Medicine",
+      "revenue": 60401000000,
+      "share": 0.641247226439332
+    },
+    {
+      "name": "Med Tech",
+      "revenue": 33792000000,
+      "share": 0.358752773560668
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 53752000000,
+      "share": 0.5706581168452008
+    },
+    {
+      "name": "Non-US",
+      "revenue": 40441000000,
+      "share": 0.4293418831547992
+    }
+  ]
+}

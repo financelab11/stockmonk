@@ -1,0 +1,45 @@
+{
+  "ticker": "AXP",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "AMERICAN EXPRESS CO Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+    "date": "2026-02-06"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "US Consumer Services",
+      "revenue": 15626000000,
+      "share": 0.3783168700368003
+    },
+    {
+      "name": "Commercial Services",
+      "revenue": 11856000000,
+      "share": 0.28704241719930274
+    },
+    {
+      "name": "International Card Services",
+      "revenue": 7544000000,
+      "share": 0.18264574859577765
+    },
+    {
+      "name": "Global Merchant & Network Services",
+      "revenue": 6306000000,
+      "share": 0.15267286461359675
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 56015000000,
+      "share": 1.3561640519078055
+    },
+    {
+      "name": "Lacc Geographic Region",
+      "revenue": 4194000000,
+      "share": 0.1015398024404416
+    }
+  ]
+}

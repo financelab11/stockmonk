@@ -1,0 +1,40 @@
+{
+  "ticker": "MTSI",
+  "asOf": "2025-10-03",
+  "source": {
+    "name": "MACOM Technology Solutions Holdings, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1493594/000149359425000054/mtsi-20251003.htm",
+    "date": "2025-11-14"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 967258000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 422857000,
+      "share": 0.43717084790200755
+    },
+    {
+      "name": "China",
+      "revenue": 274627000,
+      "share": 0.28392321386848185
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 158276000,
+      "share": 0.16363369442279102
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 111498000,
+      "share": 0.11527224380671962
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "ticker": "NEULANDLAB",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=NEULANDLAB",
   "targetMean": 24675,
   "targetHigh": 27225,
@@ -31,19 +31,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 23366479750,
+      "revenueAvg": 23593183800,
       "revenueGrowth": null,
-      "epsAvg": 338.6025,
+      "epsAvg": 345.482,
       "epsGrowth": null,
-      "analystCount": 4
+      "analystCount": 5
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
       "revenueAvg": 28600325600,
-      "revenueGrowth": 0.22399999,
+      "revenueGrowth": 0.21219999,
       "epsAvg": 472.646,
-      "epsGrowth": 0.3959,
+      "epsGrowth": 0.36810002,
       "analystCount": 5
     }
   ],

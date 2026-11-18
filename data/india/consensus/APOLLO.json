@@ -1,12 +1,12 @@
 {
   "ticker": "APOLLO",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=APOLLO",
   "targetMean": 510,
   "targetHigh": 570,
   "targetLow": 460,
-  "recommendationKey": "strong_buy",
+  "recommendationKey": "none",
   "analystCount": 4,
   "distribution": null,
   "estimates": [
@@ -33,8 +33,8 @@
       "endDate": "2027-03-31",
       "revenueAvg": 15364500000,
       "revenueGrowth": 0.699,
-      "epsAvg": 4.46333,
-      "epsGrowth": 0.41689998,
+      "epsAvg": 4.1475,
+      "epsGrowth": 0.3167,
       "analystCount": 4
     },
     {
@@ -43,7 +43,7 @@
       "revenueAvg": 23301250000,
       "revenueGrowth": 0.5166,
       "epsAvg": 7.9075,
-      "epsGrowth": 0.77169997,
+      "epsGrowth": 0.90660006,
       "analystCount": 4
     }
   ],

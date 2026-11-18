@@ -1,17 +1,17 @@
 {
   "ticker": "UNP",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/UNP/analysis",
-  "targetMean": 331.375,
+  "targetMean": 329.95834,
   "targetHigh": 375,
   "targetLow": 245,
   "recommendationKey": "buy",
   "analystCount": 24,
   "distribution": {
     "strongBuy": 3,
-    "buy": 15,
-    "hold": 6,
+    "buy": 14,
+    "hold": 7,
     "sell": 0,
     "strongSell": 1
   },

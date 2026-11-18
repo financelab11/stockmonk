@@ -13,15 +13,15 @@
   "quoteCurrency": "QAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 21.940000534057617,
-    "prevClose": 21.940000534057617,
-    "changePct": 0,
-    "asOf": "2026-11-09",
+    "close": 21.75,
+    "prevClose": 21.950000762939453,
+    "changePct": -0.009111651753431205,
+    "asOf": "2026-11-18",
     "high52": 25.489999771118164,
     "low52": 18.09000015258789,
-    "marketCap": 51840000000,
+    "marketCap": 51300000000,
     "sharesOutstanding": 2360000000,
-    "dividendYield": 0.040999999999999995
+    "dividendYield": 0.0415
   },
   "ttm": {
     "period": "TTM",
@@ -1110,21 +1110,21 @@
     "interestCover": null,
     "freeCashFlowTtm": -11412000000,
     "ebitdaTtm": null,
-    "pe": 11.06,
+    "pe": 10.95,
     "evEbitda": null,
-    "evSales": 8.017409841890212,
+    "evSales": 7.9694439509682,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.09521622105682026,
-    "returnYtd": -0.06349593650821561,
-    "return5y": 0.43099717032043583
+    "return1y": -0.06062846726584714,
+    "returnYtd": -0.07160606722285967,
+    "return5y": 0.41549888849973815
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "37th percentile revenue/EPS growth in the covered universe."
+      "detail": "38th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/qse/QIBK/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/QIBK.QA",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:32.965Z"
+  "updatedAt": "2026-11-18T09:28:42.558Z"
 }

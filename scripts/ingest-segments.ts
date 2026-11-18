@@ -148,8 +148,14 @@ function contextDims(context: Record<string, unknown>): Dim[] {
 
 async function loadInstance(ticker: string): Promise<{ xml: string; sec: Record<string, unknown> }> {
   const sec = JSON.parse(await fs.readFile(path.join(PROCESSED, ticker, "sec.json"), "utf8")) as Record<string, unknown>;
-  const filings = sec.filings as { latest10K: { accession: string; url: string; filed: string } };
-  const accession = filings.latest10K.accession;
+  const filings = sec.filings as
+    | { latest10K?: { accession: string; url: string; filed: string } }
+    | undefined;
+  const latest10K = filings?.latest10K;
+  if (!latest10K?.accession) {
+    throw new Error("no 10-K filing in sec.json");
+  }
+  const accession = latest10K.accession;
   const file = path.join(CACHE, `instance-${ticker}-${accession.replace(/-/g, "")}.xml`);
   try {
     return { xml: await fs.readFile(file, "utf8"), sec };
@@ -281,7 +287,16 @@ async function main() {
   await fs.mkdir(OUT, { recursive: true });
 
   for (const ticker of RESEARCH_TICKERS) {
-    const { xml, sec } = await loadInstance(ticker);
+    let loaded: { xml: string; sec: Record<string, unknown> };
+    try {
+      loaded = await loadInstance(ticker);
+    } catch (error) {
+      console.warn(
+        `[segments] ${ticker}: skipped (${error instanceof Error ? error.message : String(error)})`,
+      );
+      continue;
+    }
+    const { xml, sec } = loaded;
     const annual = sec.annual as Array<{ end: string; revenue: number | null }>;
     const latestAnnual = annual[annual.length - 1];
     const target = latestAnnual?.revenue;

@@ -1,0 +1,34 @@
+{
+  "ticker": "KNF",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Knife River Corporation Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1955520/000195552026000003/knf-20251231.htm",
+    "date": "2026-02-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "West",
+      "revenue": 1210042000,
+      "share": 0.38462726779173123
+    },
+    {
+      "name": "Central",
+      "revenue": 1004828000,
+      "share": 0.31939738309961946
+    },
+    {
+      "name": "Mountain",
+      "revenue": 644040000,
+      "share": 0.20471632021746897
+    },
+    {
+      "name": "Energy Services",
+      "revenue": 338037000,
+      "share": 0.1074493676438615
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

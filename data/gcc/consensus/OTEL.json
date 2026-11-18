@@ -1,7 +1,7 @@
 {
   "ticker": "OTEL",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/msm/OTEL/forecast/",
   "targetMean": 1.33,
   "targetHigh": 1.68,

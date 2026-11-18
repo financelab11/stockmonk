@@ -1,7 +1,7 @@
 {
   "ticker": "SNPS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/SNPS/analysis",
   "targetMean": 589.546,
   "targetHigh": 700,
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-10-31",
-      "revenueAvg": 11003420900,
-      "revenueGrowth": 0.1318,
+      "revenueAvg": 11014419720,
+      "revenueGrowth": 0.133,
       "epsAvg": 18.6455,
       "epsGrowth": 0.2315,
       "analystCount": 20
@@ -97,8 +97,8 @@
   },
   "revisions": {
     "eps7d": 0,
-    "eps30d": 0.00008124839815137896,
-    "eps60d": 0.002256734123752935,
+    "eps30d": 0.00009446076773489409,
+    "eps60d": -0.00012614004847477656,
     "eps90d": 0.025088273429274555,
     "revenue30d": null
   }

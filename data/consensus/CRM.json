@@ -1,7 +1,7 @@
 {
   "ticker": "CRM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/CRM/analysis",
   "targetMean": 287.0836,
   "targetHigh": 475,
@@ -9,9 +9,9 @@
   "recommendationKey": "buy",
   "analystCount": 53,
   "distribution": {
-    "strongBuy": 6,
+    "strongBuy": 7,
     "buy": 34,
-    "hold": 15,
+    "hold": 14,
     "sell": 0,
     "strongSell": 1
   },
@@ -19,7 +19,7 @@
     {
       "period": "Next quarter",
       "endDate": "2026-10-31",
-      "revenueAvg": 11462302380,
+      "revenueAvg": 11462294880,
       "revenueGrowth": 0.1173,
       "epsAvg": 3.4463,
       "epsGrowth": 0.060399998,
@@ -28,7 +28,7 @@
     {
       "period": "Following quarter",
       "endDate": "2027-01-31",
-      "revenueAvg": 12344504450,
+      "revenueAvg": 12344501890,
       "revenueGrowth": 0.1021,
       "epsAvg": 3.55693,
       "epsGrowth": -0.0664,
@@ -37,7 +37,7 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-01-31",
-      "revenueAvg": 46295338330,
+      "revenueAvg": 46295329630,
       "revenueGrowth": 0.1149,
       "epsAvg": 16.75484,
       "epsGrowth": 0.3382,
@@ -46,7 +46,7 @@
     {
       "period": "Next fiscal year",
       "endDate": "2028-01-31",
-      "revenueAvg": 50780788530,
+      "revenueAvg": 50780790660,
       "revenueGrowth": 0.09689999,
       "epsAvg": 16.01523,
       "epsGrowth": -0.044099998,
@@ -89,7 +89,7 @@
   ],
   "currentQuarter": {
     "endDate": "2026-10-31",
-    "revenueAvg": 11462302380,
+    "revenueAvg": 11462294880,
     "revenueGrowth": 0.1173,
     "epsAvg": 3.4463,
     "epsGrowth": 0.060399998,
@@ -97,9 +97,9 @@
   },
   "revisions": {
     "eps7d": 0,
-    "eps30d": 0.00003461806131710432,
-    "eps60d": 0.0035957282532717016,
-    "eps90d": 0.18548508064630265,
+    "eps30d": -0.00005729359385997501,
+    "eps60d": -0.00002864761759246992,
+    "eps90d": 0.1852469128815748,
     "revenue30d": null
   }
 }

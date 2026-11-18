@@ -1,9 +1,9 @@
 {
   "ticker": "DUOL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/DUOL/analysis",
-  "targetMean": 150.87167,
+  "targetMean": 153.92722,
   "targetHigh": 210,
   "targetLow": 108,
   "recommendationKey": "hold",
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 322707910,
-      "revenueGrowth": 0.1408,
+      "revenueAvg": 322678810,
+      "revenueGrowth": 0.1407,
       "epsAvg": 1.71045,
       "epsGrowth": 0.0764,
       "analystCount": 4
@@ -28,8 +28,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 329266660,
-      "revenueGrowth": 0.1278,
+      "revenueAvg": 329849990,
+      "revenueGrowth": 0.12979999,
       "epsAvg": 1.80667,
       "epsGrowth": 0.2425,
       "analystCount": 3
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 1219087290,
-      "revenueGrowth": 0.1749,
-      "epsAvg": 6.6469,
-      "epsGrowth": -0.4351,
+      "revenueAvg": 1221886040,
+      "revenueGrowth": 0.1776,
+      "epsAvg": 6.67976,
+      "epsGrowth": -0.4323,
       "analystCount": 7
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 1388212560,
-      "revenueGrowth": 0.1387,
+      "revenueAvg": 1394576190,
+      "revenueGrowth": 0.14130001,
       "epsAvg": 7.81305,
-      "epsGrowth": 0.1754,
+      "epsGrowth": 0.1697,
       "analystCount": 7
     }
   ],
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 322707910,
-    "revenueGrowth": 0.1408,
+    "revenueAvg": 322678810,
+    "revenueGrowth": 0.1407,
     "epsAvg": 1.71045,
     "epsGrowth": 0.0764,
     "analystCount": 4
   },
   "revisions": {
-    "eps7d": 0.00514754584249455,
-    "eps30d": 0.00514754584249455,
-    "eps60d": 0.005180986716349256,
-    "eps90d": 0.0006759594785628043,
+    "eps7d": 0.010116651494209705,
+    "eps30d": 0.010116651494209705,
+    "eps60d": 0.01015025768830613,
+    "eps90d": 0.007572146567796478,
     "revenue30d": null
   }
 }

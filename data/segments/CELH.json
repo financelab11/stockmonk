@@ -1,0 +1,40 @@
+{
+  "ticker": "CELH",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "CELSIUS HOLDINGS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341766/000134176626000024/celh-20251231.htm",
+    "date": "2026-03-02"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 2515269000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 2422490000,
+      "share": 0.963113686846218
+    },
+    {
+      "name": "Europe",
+      "revenue": 72544000,
+      "share": 0.02884144797236399
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 12971000,
+      "share": 0.005156903694992464
+    },
+    {
+      "name": "Other",
+      "revenue": 7264000,
+      "share": 0.0028879614864255076
+    }
+  ]
+}

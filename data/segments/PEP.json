@@ -1,0 +1,90 @@
+{
+  "ticker": "PEP",
+  "asOf": "2025-12-27",
+  "source": {
+    "name": "PEPSICO INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm",
+    "date": "2026-02-03"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Pepsi Co Beverages North America",
+      "revenue": 28197000000,
+      "share": 0.30020761245674743
+    },
+    {
+      "name": "Pepsi Co Foods North America",
+      "revenue": 27528000000,
+      "share": 0.29308490817141336
+    },
+    {
+      "name": "Europe Middle East Africa",
+      "revenue": 18025000000,
+      "share": 0.19190843758317808
+    },
+    {
+      "name": "Latin America Foods",
+      "revenue": 10549000000,
+      "share": 0.11231301570401916
+    },
+    {
+      "name": "International Beverage Franchise",
+      "revenue": 4997000000,
+      "share": 0.0532020228906042
+    },
+    {
+      "name": "Asia Pacific Foods",
+      "revenue": 4629000000,
+      "share": 0.0492840031940378
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 52228000000,
+      "share": 0.5560606867181261
+    },
+    {
+      "name": "All Other Countries",
+      "revenue": 17941000000,
+      "share": 0.19101410700026616
+    },
+    {
+      "name": "MX",
+      "revenue": 6947000000,
+      "share": 0.07396326856534469
+    },
+    {
+      "name": "RU",
+      "revenue": 4768000000,
+      "share": 0.05076390737290391
+    },
+    {
+      "name": "CA",
+      "revenue": 3729000000,
+      "share": 0.039701889805696035
+    },
+    {
+      "name": "China",
+      "revenue": 2621000000,
+      "share": 0.027905243545381955
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 2142000000,
+      "share": 0.022805429864253393
+    },
+    {
+      "name": "BR",
+      "revenue": 1782000000,
+      "share": 0.018972584508916687
+    },
+    {
+      "name": "ZA",
+      "revenue": 1767000000,
+      "share": 0.01881288261911099
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "ticker": "1020",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/1020/forecast/",
   "targetMean": 12.7,
   "targetHigh": 14.2,

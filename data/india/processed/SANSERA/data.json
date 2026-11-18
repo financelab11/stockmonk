@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 4414.2998046875,
-    "prevClose": 4322.7001953125,
-    "changePct": 0.021190368342993038,
-    "asOf": "2026-11-08",
-    "high52": 4743.5,
-    "low52": 1515.9,
-    "marketCap": 275530678272,
+    "close": 4550,
+    "prevClose": 4614.60009765625,
+    "changePct": -0.013999067370769613,
+    "asOf": "2026-11-18",
+    "high52": 4844,
+    "low52": 1525,
+    "marketCap": 284000780288,
     "sharesOutstanding": null,
     "dividendYield": 0.00090000004
   },
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 2920000000,
       "netIncome": 980000000,
-      "epsDiluted": 20.5,
-      "epsBasic": 20.5,
+      "epsDiluted": 18.73,
+      "epsBasic": 18.73,
       "interestExpense": 540000000,
       "pretaxIncome": 1650000000,
       "incomeTax": 676500000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 2270000000,
       "netIncome": 800000000,
-      "epsDiluted": 17.11,
-      "epsBasic": 17.11,
+      "epsDiluted": 15.63,
+      "epsBasic": 15.63,
       "interestExpense": 610000000,
       "pretaxIncome": 890000000,
       "incomeTax": 89000000,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 2740000000,
       "netIncome": 1100000000,
-      "epsDiluted": 23.01,
-      "epsBasic": 23.01,
+      "epsDiluted": 21.02,
+      "epsBasic": 21.02,
       "interestExpense": 500000000,
       "pretaxIncome": 1460000000,
       "incomeTax": 365000000,
@@ -938,7 +938,7 @@
     "epsTtm": 61.7,
     "epsGrowthTtm": 0.5363545816733066,
     "grossMargin": 0.58574003,
-    "operatingMargin": 0.13137001,
+    "operatingMargin": 0.12681,
     "netMargin": 0.09284,
     "fcfMargin": -0.03516295025728988,
     "roic": 0.15,
@@ -948,14 +948,14 @@
     "interestCover": 16.543478260869566,
     "freeCashFlowTtm": -1230000000,
     "ebitdaTtm": 7610000000,
-    "pe": 71.01306141030928,
-    "evEbitda": 36.458959020236534,
-    "evSales": 6.903525208857925,
+    "pe": 73.19607739381443,
+    "evEbitda": 37.57198162417871,
+    "evSales": 7.114276689723812,
     "pfcf": null,
-    "fcfYield": -0.004464112699587526,
-    "return1y": 1.8901502245860078,
-    "returnYtd": 1.5028324227831882,
-    "return5y": 5.1570228853227595
+    "fcfYield": -0.004330974016172348,
+    "return1y": 1.9443322181445453,
+    "returnYtd": 1.5797721105328697,
+    "return5y": 4.78165793775445
   },
   "factorChips": [
     {
@@ -968,7 +968,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "38th percentile profitability metrics in the covered universe."
+      "detail": "37th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -986,12 +986,12 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "30th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "31st percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1422,13 +1422,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=SANSERA",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://sansera.in",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:15.171Z"
+  "updatedAt": "2026-11-18T09:12:11.962Z"
 }

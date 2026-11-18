@@ -1,0 +1,40 @@
+{
+  "ticker": "RMBS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "RAMBUS INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/917273/000119312526057101/rmbs-20251231.htm",
+    "date": "2026-02-18"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 707630000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "KR",
+      "revenue": 329256000,
+      "share": 0.46529400958127837
+    },
+    {
+      "name": "Singapore",
+      "revenue": 163821000,
+      "share": 0.23150657829656743
+    },
+    {
+      "name": "United States",
+      "revenue": 124101000,
+      "share": 0.17537554936902053
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 90452000,
+      "share": 0.1278238627531337
+    }
+  ]
+}

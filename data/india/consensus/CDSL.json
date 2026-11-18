@@ -1,7 +1,7 @@
 {
   "ticker": "CDSL",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=CDSL",
   "targetMean": 1362.4667,
   "targetHigh": 1570,
@@ -12,55 +12,47 @@
   "estimates": [
     {
       "period": "Next quarter",
-      "endDate": "2026-09-30",
-      "revenueAvg": 3441000000,
-      "revenueGrowth": 0.0791,
-      "epsAvg": 7.4,
-      "epsGrowth": 0.1028,
-      "analystCount": 8
+      "endDate": "2026-12-31",
+      "revenueAvg": 3687000000,
+      "revenueGrowth": 0.21139999,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": 2
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 3318000000,
-      "revenueGrowth": 0.26229998,
+      "revenueAvg": 3077500000,
+      "revenueGrowth": 0.1708,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 1
+      "analystCount": 2
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 13626044520,
-      "revenueGrowth": 0.1901,
-      "epsAvg": 26.17155,
-      "epsGrowth": 0.19940001,
-      "analystCount": 11
+      "revenueAvg": 13598124140,
+      "revenueGrowth": 0.1877,
+      "epsAvg": 26.19632,
+      "epsGrowth": 0.2006,
+      "analystCount": 12
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 15313831830,
-      "revenueGrowth": 0.123900004,
-      "epsAvg": 30.23763,
-      "epsGrowth": 0.1554,
+      "revenueAvg": 15341456830,
+      "revenueGrowth": 0.1282,
+      "epsAvg": 30.15347,
+      "epsGrowth": 0.1511,
       "analystCount": 16
     }
   ],
   "history": [
     {
-      "quarter": "2Q2026",
-      "endDate": "2025-09-30",
-      "epsActual": 6.71,
-      "epsEstimate": 8.46667,
-      "revenueActual": null,
-      "revenueEstimate": null
-    },
-    {
       "quarter": "3Q2026",
       "endDate": "2025-12-31",
       "epsActual": 6.38,
-      "epsEstimate": 6.73378,
+      "epsEstimate": 6.91689,
       "revenueActual": null,
       "revenueEstimate": null
     },
@@ -90,11 +82,11 @@
     }
   ],
   "currentQuarter": {
-    "endDate": "2026-09-30",
-    "revenueAvg": 3441000000,
-    "revenueGrowth": 0.0791,
-    "epsAvg": 7.4,
-    "epsGrowth": 0.1028,
-    "analystCount": 8
+    "endDate": "2026-12-31",
+    "revenueAvg": 3687000000,
+    "revenueGrowth": 0.21139999,
+    "epsAvg": null,
+    "epsGrowth": null,
+    "analystCount": 2
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "NFLX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/NFLX/analysis",
   "targetMean": 84.76326,
   "targetHigh": 126,

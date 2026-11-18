@@ -13,13 +13,13 @@
   "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 45.79999923706055,
-    "prevClose": 45.29999923706055,
-    "changePct": 0.011037527779712342,
-    "asOf": "2026-11-09",
-    "high52": 166.60000610351562,
+    "close": 48.84000015258789,
+    "prevClose": 49.86000061035156,
+    "changePct": -0.020457289315634397,
+    "asOf": "2026-11-18",
+    "high52": 165,
     "low52": 39.15999984741211,
-    "marketCap": 3660000000,
+    "marketCap": 3990000000,
     "sharesOutstanding": 80000000,
     "dividendYield": null
   },
@@ -1111,20 +1111,20 @@
     "freeCashFlowTtm": -735330000,
     "ebitdaTtm": 196610000,
     "pe": null,
-    "evEbitda": 18.35,
-    "evSales": 1.5844795281054822,
+    "evEbitda": 19.67,
+    "evSales": 1.6989833448993754,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.6990801566662612,
-    "returnYtd": -0.6365079425630116,
-    "return5y": -0.722087388416635
+    "return1y": -0.7001841498924579,
+    "returnYtd": -0.6123809511699374,
+    "return5y": -0.6889171964803319
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "1st percentile revenue/EPS growth in the covered universe."
+      "detail": "0th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1136,7 +1136,7 @@
       "key": "cash",
       "label": "Cash generation: Low",
       "tone": "caution",
-      "detail": "20th percentile free-cash-flow margin."
+      "detail": "19th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/4210/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/4210.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:16:04.432Z"
+  "updatedAt": "2026-11-18T09:25:58.520Z"
 }

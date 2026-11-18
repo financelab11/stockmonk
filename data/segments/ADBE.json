@@ -1,0 +1,45 @@
+{
+  "ticker": "ADBE",
+  "asOf": "2025-11-28",
+  "source": {
+    "name": "ADOBE INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+    "date": "2026-01-15"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Digital Media",
+      "revenue": 17649000000,
+      "share": 0.7425217720560394
+    },
+    {
+      "name": "Digital Experience",
+      "revenue": 5864000000,
+      "share": 0.2467078968404224
+    },
+    {
+      "name": "Publishing & Advertising",
+      "revenue": 256000000,
+      "share": 0.010770331103538222
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 14120000000,
+      "share": 0.59405107492953
+    },
+    {
+      "name": "EMEA",
+      "revenue": 6289000000,
+      "share": 0.26458832933653076
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 3360000000,
+      "share": 0.14136059573393916
+    }
+  ]
+}

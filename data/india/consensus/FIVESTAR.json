@@ -1,12 +1,12 @@
 {
   "ticker": "FIVESTAR",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=FIVESTAR",
   "targetMean": 647.7,
   "targetHigh": 747,
   "targetLow": 570,
-  "recommendationKey": "strong_buy",
+  "recommendationKey": "none",
   "analystCount": 10,
   "distribution": null,
   "estimates": [

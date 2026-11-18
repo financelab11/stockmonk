@@ -1,0 +1,35 @@
+{
+  "ticker": "AVAV",
+  "asOf": "2026-04-30",
+  "source": {
+    "name": "AEROVIRONMENT, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926078906/avav-20260430x10k.htm",
+    "date": "2026-06-29"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Autonomous Systems",
+      "revenue": 1358077000,
+      "share": 0.6869921516355607
+    },
+    {
+      "name": "Space Cyber & Directed Energy",
+      "revenue": 618768000,
+      "share": 0.3130078483644393
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Geographic Distribution Domestic",
+      "revenue": 1420437000,
+      "share": 0.7185373663590215
+    },
+    {
+      "name": "Geographic Distribution International",
+      "revenue": 556408000,
+      "share": 0.28146263364097845
+    }
+  ]
+}

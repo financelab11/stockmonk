@@ -1,7 +1,7 @@
 {
   "ticker": "OOREDOO",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/kwse/OOREDOO/forecast/",
   "targetMean": 1.83,
   "targetHigh": 2.25,

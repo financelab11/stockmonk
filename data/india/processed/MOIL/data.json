@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 219.05999755859375,
-    "prevClose": 215.7100067138672,
-    "changePct": 0.015530066943858722,
-    "asOf": "2026-11-08",
+    "close": 211.1999969482422,
+    "prevClose": 213.8000030517578,
+    "changePct": -0.012160926409744754,
+    "asOf": "2026-11-18",
     "high52": 389.4,
     "low52": 202,
-    "marketCap": 44575469568,
+    "marketCap": 42976075776,
     "sharesOutstanding": null,
-    "dividendYield": 0.0349
+    "dividendYield": 0.026800001
   },
   "ttm": {
     "period": "TTM",
@@ -868,8 +868,8 @@
       "sga": null,
       "cashAndInvestments": 7785986048,
       "totalDebt": 0,
-      "totalEquity": null,
-      "totalAssets": null,
+      "totalEquity": 27090000000,
+      "totalAssets": 32060000000,
       "inventory": null,
       "receivables": null,
       "cfo": null,
@@ -886,8 +886,8 @@
       "fcfMargin": null,
       "roic": null,
       "netDebt": -7785986048,
-      "netDebtToEbitda": null,
-      "roe": null
+      "netDebtToEbitda": 0,
+      "roe": 0.09856035437430787
     }
   ],
   "metrics": {
@@ -897,7 +897,7 @@
     "epsTtm": 12.969999999999999,
     "epsGrowthTtm": 3.170418006430868,
     "grossMargin": 0.80466,
-    "operatingMargin": 0.1659,
+    "operatingMargin": 0.26135,
     "netMargin": 0.1925,
     "fcfMargin": null,
     "roic": null,
@@ -907,27 +907,27 @@
     "interestCover": null,
     "freeCashFlowTtm": null,
     "ebitdaTtm": 4220000000,
-    "pe": 16.44851275571956,
-    "evEbitda": 8.717887090047393,
-    "evSales": 2.743436504101417,
+    "pe": 15.858330544649446,
+    "evEbitda": 8.338883821800948,
+    "evSales": 2.6241677649515287,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.38771291925452067,
-    "returnYtd": -0.3919828545988395,
-    "return5y": 0.42757380242956655
+    "return1y": -0.3722443172412354,
+    "returnYtd": -0.41379886476600414,
+    "return5y": 0.39575982029339074
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "96th percentile revenue/EPS growth in the covered universe."
+      "detail": "95th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
-      "label": "Profitability: Average",
-      "tone": "neutral",
-      "detail": "50th percentile profitability metrics in the covered universe."
+      "label": "Profitability: High",
+      "tone": "positive",
+      "detail": "82nd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -945,12 +945,12 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "95th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "96th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1381,13 +1381,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=MOIL",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.moil.nic.in",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:49.818Z"
+  "updatedAt": "2026-11-18T09:14:01.216Z"
 }

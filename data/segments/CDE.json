@@ -1,0 +1,50 @@
+{
+  "ticker": "CDE",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "COEUR MINING, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546626000004/cde-20251231.htm",
+    "date": "2026-02-18"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Palmarejo",
+      "revenue": 473764000,
+      "share": 0.22885756712393351
+    },
+    {
+      "name": "Rochester",
+      "revenue": 458042000,
+      "share": 0.22126286032830852
+    },
+    {
+      "name": "Las Chispas",
+      "revenue": 421400000,
+      "share": 0.2035624884668856
+    },
+    {
+      "name": "Kensington",
+      "revenue": 377710000,
+      "share": 0.18245749292555138
+    },
+    {
+      "name": "Wharf",
+      "revenue": 339179000,
+      "share": 0.16384461622142807
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1174931000,
+      "share": 0.567564969475288
+    },
+    {
+      "name": "MX",
+      "revenue": 895195000,
+      "share": 0.43243503052471205
+    }
+  ]
+}

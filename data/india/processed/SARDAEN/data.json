@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 445.6000061035156,
-    "prevClose": 436.1000061035156,
-    "changePct": 0.02178399419179322,
-    "asOf": "2026-11-08",
+    "close": 455.04998779296875,
+    "prevClose": 449,
+    "changePct": 0.013474360340687719,
+    "asOf": "2026-11-18",
     "high52": 624,
     "low52": 424.05,
-    "marketCap": 157021093888,
+    "marketCap": 160351092736,
     "sharesOutstanding": null,
-    "dividendYield": 0.0046
+    "dividendYield": 0.0045
   },
   "ttm": {
     "period": "TTM",
@@ -1102,7 +1102,7 @@
     "epsTtm": 31.560000000000002,
     "epsGrowthTtm": 0.04607225720914809,
     "grossMargin": 0.50571,
-    "operatingMargin": 0.28931,
+    "operatingMargin": 0.26929,
     "netMargin": 0.19722,
     "fcfMargin": 0.2460456942003515,
     "roic": 0.17,
@@ -1112,27 +1112,27 @@
     "interestCover": 7.832618025751073,
     "freeCashFlowTtm": 14000000000,
     "ebitdaTtm": 18250000000,
-    "pe": 13.737628511636046,
-    "evEbitda": 8.510010634520548,
-    "evSales": 2.77781602718655,
-    "pfcf": 11.215792420571429,
-    "fcfYield": 0.08915999534423012,
-    "return1y": -0.17577007758522778,
-    "returnYtd": -0.12249224728237962,
-    "return5y": 4.189000176977439
+    "pe": 14.02896699352581,
+    "evEbitda": 8.692476324821918,
+    "evSales": 2.837376013736362,
+    "pfcf": 11.453649481142858,
+    "fcfYield": 0.08730841655721937,
+    "return1y": -0.10282662586778402,
+    "returnYtd": -0.10388266002485991,
+    "return5y": 4.971247378882995
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "25th percentile revenue/EPS growth in the covered universe."
+      "detail": "26th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "76th percentile profitability metrics in the covered universe."
+      "detail": "68th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1150,12 +1150,12 @@
       "key": "valuation",
       "label": "Valuation: Above peers",
       "tone": "info",
-      "detail": "96th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "95th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=SARDAEN",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.seml.co.in",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T14:00:04.324Z"
+  "updatedAt": "2026-11-18T09:14:15.490Z"
 }

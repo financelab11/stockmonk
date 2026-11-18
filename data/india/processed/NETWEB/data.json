@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 3925.5,
-    "prevClose": 3771.39990234375,
-    "changePct": 0.04086018498342847,
-    "asOf": "2026-11-08",
+    "close": 4132,
+    "prevClose": 4053.39990234375,
+    "changePct": 0.019391152994996164,
+    "asOf": "2026-11-18",
     "high52": 5813,
     "low52": 2920,
-    "marketCap": 233361358848,
+    "marketCap": 245637283840,
     "sharesOutstanding": null,
-    "dividendYield": 0.0008
+    "dividendYield": 0.0007
   },
   "ttm": {
     "period": "TTM",
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 70000000,
       "netIncome": 30000000,
-      "epsDiluted": 0.53,
-      "epsBasic": 0.53,
+      "epsDiluted": 0.52,
+      "epsBasic": 0.52,
       "interestExpense": 20000000,
       "pretaxIncome": 40000000,
       "incomeTax": 12400000,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 80000000,
       "netIncome": 40000000,
-      "epsDiluted": 0.77,
-      "epsBasic": 0.77,
+      "epsDiluted": 0.75,
+      "epsBasic": 0.75,
       "interestExpense": 30000000,
       "pretaxIncome": 50000000,
       "incomeTax": 13500000,
@@ -695,8 +695,8 @@
       "grossProfit": null,
       "operatingIncome": 140000000,
       "netIncome": 80000000,
-      "epsDiluted": 1.62,
-      "epsBasic": 1.62,
+      "epsDiluted": 1.58,
+      "epsBasic": 1.58,
       "interestExpense": 30000000,
       "pretaxIncome": 110000000,
       "incomeTax": 28600000,
@@ -736,8 +736,8 @@
       "grossProfit": null,
       "operatingIncome": 350000000,
       "netIncome": 220000000,
-      "epsDiluted": 4.41,
-      "epsBasic": 4.41,
+      "epsDiluted": 4.32,
+      "epsBasic": 4.32,
       "interestExpense": 40000000,
       "pretaxIncome": 300000000,
       "incomeTax": 78000000,
@@ -777,8 +777,8 @@
       "grossProfit": null,
       "operatingIncome": 700000000,
       "netIncome": 470000000,
-      "epsDiluted": 9.22,
-      "epsBasic": 9.22,
+      "epsDiluted": 9.04,
+      "epsBasic": 9.04,
       "interestExpense": 40000000,
       "pretaxIncome": 630000000,
       "incomeTax": 157500000,
@@ -938,7 +938,7 @@
     "epsTtm": 63.31,
     "epsGrowthTtm": 1.6690556492411468,
     "grossMargin": 0.19638,
-    "operatingMargin": 0.14629,
+    "operatingMargin": 0.13519,
     "netMargin": 0.09831,
     "fcfMargin": 0.07371794871794872,
     "roic": 0.37,
@@ -948,27 +948,27 @@
     "interestCover": 10.914893617021276,
     "freeCashFlowTtm": 1610000000,
     "ebitdaTtm": 5130000000,
-    "pe": 63.75993411147541,
-    "evEbitda": 43.94639150409357,
-    "evSales": 6.057092649543256,
-    "pfcf": 144.94494338385093,
-    "fcfYield": 0.0068991713450240666,
-    "return1y": 0.16435362736624026,
-    "returnYtd": 0.277007344430221,
-    "return5y": 3.3235706540010312
+    "pe": 67.11401197814207,
+    "evEbitda": 46.339359338791425,
+    "evSales": 6.386913310263299,
+    "pfcf": 152.56974151552794,
+    "fcfYield": 0.006554379591042461,
+    "return1y": 0.2684303123621703,
+    "returnYtd": 0.3441840140582533,
+    "return5y": 3.55101106670036
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "94th percentile revenue/EPS growth in the covered universe."
+      "detail": "93rd percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "82nd percentile profitability metrics in the covered universe."
+      "detail": "78th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -986,7 +986,7 @@
       "key": "valuation",
       "label": "Valuation: Below peers",
       "tone": "info",
-      "detail": "21st percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "19th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
@@ -1282,13 +1282,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=NETWEB",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.netwebindia.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:33.258Z"
+  "updatedAt": "2026-11-18T09:13:26.479Z"
 }

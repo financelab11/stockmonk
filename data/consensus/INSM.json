@@ -1,7 +1,7 @@
 {
   "ticker": "INSM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/INSM/analysis",
   "targetMean": 194.18182,
   "targetHigh": 243,
@@ -19,7 +19,7 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 604538210,
+      "revenueAvg": 604539770,
       "revenueGrowth": 1.2913,
       "epsAvg": -0.34156,
       "epsGrowth": 0.7782,
@@ -37,7 +37,7 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 1861346420,
+      "revenueAvg": 1861347520,
       "revenueGrowth": 2.0694,
       "epsAvg": -1.66855,
       "epsGrowth": 0.7401,
@@ -46,7 +46,7 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 2992431400,
+      "revenueAvg": 2992433210,
       "revenueGrowth": 0.6077,
       "epsAvg": 0.65806,
       "epsGrowth": 1.3944,
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 604538210,
+    "revenueAvg": 604539770,
     "revenueGrowth": 1.2913,
     "epsAvg": -0.34156,
     "epsGrowth": 0.7782,
     "analystCount": 17
   },
   "revisions": {
-    "eps7d": 0.04866383428025545,
-    "eps30d": 0.08015640273704783,
-    "eps60d": 0.07339526266356167,
-    "eps90d": -0.3665001176979794,
+    "eps7d": 0,
+    "eps30d": 0.048630881678261906,
+    "eps60d": 0.08168993996914176,
+    "eps90d": 0.07339526266356167,
     "revenue30d": null
   }
 }

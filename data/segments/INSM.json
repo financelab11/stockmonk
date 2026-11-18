@@ -1,0 +1,30 @@
+{
+  "ticker": "INSM",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "INSMED INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104506/000110450626000009/insm-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 606423000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 452952000,
+      "share": 0.746924176688549
+    },
+    {
+      "name": "Non-US",
+      "revenue": 153471000,
+      "share": 0.2530758233114509
+    }
+  ]
+}

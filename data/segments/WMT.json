@@ -1,0 +1,55 @@
+{
+  "ticker": "WMT",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "Walmart Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+    "date": "2026-03-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Walmart US",
+      "revenue": 482975000000,
+      "share": 0.6837006113987143
+    },
+    {
+      "name": "Walmart International",
+      "revenue": 130423000000,
+      "share": 0.18462712322678093
+    },
+    {
+      "name": "Sams Club US",
+      "revenue": 93015000000,
+      "share": 0.13167226537450472
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 581175000000,
+      "share": 0.8227127756708894
+    },
+    {
+      "name": "Mexicoand Central America",
+      "revenue": 52492000000,
+      "share": 0.07430780577367631
+    },
+    {
+      "name": "Other",
+      "revenue": 29584000000,
+      "share": 0.041879183990102105
+    },
+    {
+      "name": "China",
+      "revenue": 24623000000,
+      "share": 0.03485638004963102
+    },
+    {
+      "name": "CA",
+      "revenue": 23724000000,
+      "share": 0.0335837534133715
+    }
+  ]
+}

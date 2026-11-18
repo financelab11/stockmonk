@@ -1,15 +1,15 @@
 {
   "ticker": "IQCD",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/qse/IQCD/forecast/",
-  "targetMean": 11.07,
+  "targetMean": 11.01,
   "targetHigh": 13.3,
   "targetLow": 7.52,
   "recommendationKey": "buy",
-  "analystCount": 11,
+  "analystCount": 10,
   "distribution": {
-    "strongBuy": 3,
+    "strongBuy": 2,
     "buy": 1,
     "hold": 6,
     "sell": 1,
@@ -23,7 +23,7 @@
       "revenueGrowth": -0.455,
       "epsAvg": 0.3,
       "epsGrowth": -0.578,
-      "analystCount": 11
+      "analystCount": 10
     },
     {
       "period": "Next fiscal year",
@@ -32,7 +32,7 @@
       "revenueGrowth": null,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 11
+      "analystCount": 10
     }
   ],
   "history": [],
@@ -42,7 +42,7 @@
     "revenueGrowth": -0.455,
     "epsAvg": 0.3,
     "epsGrowth": -0.578,
-    "analystCount": 11
+    "analystCount": 10
   },
   "revisions": null
 }

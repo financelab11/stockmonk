@@ -1,9 +1,9 @@
 {
   "ticker": "NVT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/NVT/analysis",
-  "targetMean": 199.77779,
+  "targetMean": 197.55556,
   "targetHigh": 233,
   "targetLow": 139,
   "recommendationKey": "strong_buy",
@@ -21,9 +21,9 @@
       "endDate": "2026-12-31",
       "revenueAvg": 1578974420,
       "revenueGrowth": 0.4802,
-      "epsAvg": 1.33977,
-      "epsGrowth": 0.48860002,
-      "analystCount": 16
+      "epsAvg": 1.33921,
+      "epsGrowth": 0.488,
+      "analystCount": 17
     },
     {
       "period": "Following quarter",
@@ -39,18 +39,18 @@
       "endDate": "2026-12-31",
       "revenueAvg": 5805357370,
       "revenueGrowth": 0.4912,
-      "epsAvg": 5.3829,
-      "epsGrowth": 0.6068,
-      "analystCount": 18
+      "epsAvg": 5.38343,
+      "epsGrowth": 0.607,
+      "analystCount": 19
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 7619948230,
+      "revenueAvg": 7619933230,
       "revenueGrowth": 0.31260002,
-      "epsAvg": 6.97265,
-      "epsGrowth": 0.2953,
-      "analystCount": 17
+      "epsAvg": 7.03176,
+      "epsGrowth": 0.3062,
+      "analystCount": 18
     }
   ],
   "history": [
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 1578974420,
     "revenueGrowth": 0.4802,
-    "epsAvg": 1.33977,
-    "epsGrowth": 0.48860002,
-    "analystCount": 16
+    "epsAvg": 1.33921,
+    "epsGrowth": 0.488,
+    "analystCount": 17
   },
   "revisions": {
-    "eps7d": 0.04144779991758041,
-    "eps30d": 0.046015429159946386,
-    "eps60d": 0.048811662425619184,
-    "eps90d": 0.05278495445931064,
+    "eps7d": 0,
+    "eps30d": 0.04437107034149346,
+    "eps60d": 0.04891492835682465,
+    "eps90d": 0.0528886116006031,
     "revenue30d": null
   }
 }

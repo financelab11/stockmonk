@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 243.60000610351562,
-    "prevClose": 239.61000061035156,
-    "changePct": 0.01665208247986505,
-    "asOf": "2026-11-08",
-    "high52": 400.5,
+    "close": 233.14999389648438,
+    "prevClose": 238.35000610351562,
+    "changePct": -0.02181670683395276,
+    "asOf": "2026-11-18",
+    "high52": 376.9,
     "low52": 207.15,
-    "marketCap": 67427131392,
+    "marketCap": 64534626304,
     "sharesOutstanding": null,
-    "dividendYield": 0.0209
+    "dividendYield": 0.021
   },
   "ttm": {
     "period": "TTM",
@@ -1101,9 +1101,9 @@
     "revenueGrowthLatestQ": 0.15384615384615374,
     "epsTtm": 16.380000000000003,
     "epsGrowthTtm": 0.03934010152284273,
-    "grossMargin": 0.116569996,
-    "operatingMargin": 0.06939,
-    "netMargin": 0.04063,
+    "grossMargin": 0.11927,
+    "operatingMargin": 0.04955,
+    "netMargin": 0.040510003,
     "fcfMargin": 0.039715914400523314,
     "roic": 0.31,
     "roe": 0.24341999,
@@ -1112,27 +1112,27 @@
     "interestCover": 13.086206896551724,
     "freeCashFlowTtm": 4250000000,
     "ebitdaTtm": 7590000000,
-    "pe": 14.722081089956331,
-    "evEbitda": 9.183363811330699,
-    "evSales": 0.6145995179261088,
-    "pfcf": 15.86520738635294,
-    "fcfYield": 0.0630310071370506,
-    "return1y": -0.33588368079359654,
-    "returnYtd": -0.3139935759021131,
-    "return5y": -0.1844752808898077
+    "pe": 14.09052976069869,
+    "evEbitda": 8.802269596837945,
+    "evSales": 0.5890946674896393,
+    "pfcf": 15.184617953882354,
+    "fcfYield": 0.06585611854293136,
+    "return1y": -0.34264316360364855,
+    "returnYtd": -0.3402012682360206,
+    "return5y": -0.17476365561819718
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "33rd percentile revenue/EPS growth in the covered universe."
+      "detail": "34th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "55th percentile profitability metrics in the covered universe."
+      "detail": "52nd percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1155,7 +1155,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=SONATSOFTW",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.sonata-software.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:28.478Z"
+  "updatedAt": "2026-11-18T09:13:10.893Z"
 }

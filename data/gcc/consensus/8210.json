@@ -1,17 +1,17 @@
 {
   "ticker": "8210",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/8210/forecast/",
-  "targetMean": 177.25,
+  "targetMean": 176.03,
   "targetHigh": 210,
   "targetLow": 150,
   "recommendationKey": "buy",
   "analystCount": 6,
   "distribution": {
-    "strongBuy": 2,
+    "strongBuy": 3,
     "buy": 0,
-    "hold": 4,
+    "hold": 3,
     "sell": 0,
     "strongSell": 0
   },

@@ -1,61 +1,53 @@
 {
   "ticker": "ASTRAMICRO",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=ASTRAMICRO",
-  "targetMean": 1895.5834,
+  "targetMean": 1953.0834,
   "targetHigh": 2600,
-  "targetLow": 1280,
-  "recommendationKey": "none",
+  "targetLow": 1500,
+  "recommendationKey": "buy",
   "analystCount": 12,
   "distribution": null,
   "estimates": [
     {
       "period": "Next quarter",
-      "endDate": "2026-09-30",
-      "revenueAvg": 2503803830,
-      "revenueGrowth": 0.1668,
-      "epsAvg": 2.96,
-      "epsGrowth": 0.17930001,
-      "analystCount": 6
+      "endDate": "2026-12-31",
+      "revenueAvg": 3096532000,
+      "revenueGrowth": 0.1899,
+      "epsAvg": 6.21,
+      "epsGrowth": 0.2622,
+      "analystCount": 2
     },
     {
       "period": "Following quarter",
-      "endDate": "2026-12-31",
-      "revenueAvg": 3119970500,
-      "revenueGrowth": 0.1989,
-      "epsAvg": 6.36,
-      "epsGrowth": 0.2927,
+      "endDate": "2027-03-31",
+      "revenueAvg": 5598193000,
+      "revenueGrowth": 0.1466,
+      "epsAvg": 12.58,
+      "epsGrowth": 0.1293,
       "analystCount": 2
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 13541450730,
-      "revenueGrowth": 0.16459998,
-      "epsAvg": 25.33079,
-      "epsGrowth": 0.2497,
+      "revenueAvg": 13419010440,
+      "revenueGrowth": 0.154,
+      "epsAvg": 24.81991,
+      "epsGrowth": 0.2245,
       "analystCount": 12
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 16656532439,
-      "revenueGrowth": 0.23,
-      "epsAvg": 32.98181,
-      "epsGrowth": 0.30200002,
+      "revenueAvg": 16586557160,
+      "revenueGrowth": 0.236,
+      "epsAvg": 32.67843,
+      "epsGrowth": 0.3166,
       "analystCount": 12
     }
   ],
   "history": [
-    {
-      "quarter": "2Q2026",
-      "endDate": "2025-09-30",
-      "epsActual": 2.51,
-      "epsEstimate": 3.77,
-      "revenueActual": null,
-      "revenueEstimate": null
-    },
     {
       "quarter": "3Q2026",
       "endDate": "2025-12-31",
@@ -79,14 +71,22 @@
       "epsEstimate": 2.83,
       "revenueActual": null,
       "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 5.32,
+      "epsEstimate": 5.38,
+      "revenueActual": null,
+      "revenueEstimate": null
     }
   ],
   "currentQuarter": {
-    "endDate": "2026-09-30",
-    "revenueAvg": 2503803830,
-    "revenueGrowth": 0.1668,
-    "epsAvg": 2.96,
-    "epsGrowth": 0.17930001,
-    "analystCount": 6
+    "endDate": "2026-12-31",
+    "revenueAvg": 3096532000,
+    "revenueGrowth": 0.1899,
+    "epsAvg": 6.21,
+    "epsGrowth": 0.2622,
+    "analystCount": 2
   }
 }

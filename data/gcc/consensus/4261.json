@@ -1,11 +1,11 @@
 {
   "ticker": "4261",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/4261/forecast/",
-  "targetMean": 28.88,
+  "targetMean": 27.5,
   "targetHigh": 33,
-  "targetLow": 26.5,
+  "targetLow": 22.5,
   "recommendationKey": "buy",
   "analystCount": 4,
   "distribution": {

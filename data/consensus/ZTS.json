@@ -1,7 +1,7 @@
 {
   "ticker": "ZTS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/ZTS/analysis",
   "targetMean": 89.69231,
   "targetHigh": 115,
@@ -19,10 +19,10 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 2183663910,
-      "revenueGrowth": -0.085200004,
-      "epsAvg": 1.21384,
-      "epsGrowth": -0.17979999,
+      "revenueAvg": 2184876280,
+      "revenueGrowth": -0.0847,
+      "epsAvg": 1.19101,
+      "epsGrowth": -0.19530001,
       "analystCount": 12
     },
     {
@@ -30,26 +30,26 @@
       "endDate": "2027-03-31",
       "revenueAvg": 2241677140,
       "revenueGrowth": -0.009,
-      "epsAvg": 1.49412,
-      "epsGrowth": -0.0235,
-      "analystCount": 8
+      "epsAvg": 1.47733,
+      "epsGrowth": -0.0344,
+      "analystCount": 9
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 9282546080,
-      "revenueGrowth": -0.0195,
-      "epsAvg": 6.275,
-      "epsGrowth": -0.0211,
-      "analystCount": 14
+      "revenueAvg": 9287633010,
+      "revenueGrowth": -0.0189,
+      "epsAvg": 6.3263,
+      "epsGrowth": -0.013099999,
+      "analystCount": 13
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 9344104950,
-      "revenueGrowth": 0.0066000004,
-      "epsAvg": 6.40412,
-      "epsGrowth": 0.020599999,
+      "revenueAvg": 9337753520,
+      "revenueGrowth": 0.0054,
+      "epsAvg": 6.37279,
+      "epsGrowth": 0.0073,
       "analystCount": 15
     }
   ],
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 2183663910,
-    "revenueGrowth": -0.085200004,
-    "epsAvg": 1.21384,
-    "epsGrowth": -0.17979999,
+    "revenueAvg": 2184876280,
+    "revenueGrowth": -0.0847,
+    "epsAvg": 1.19101,
+    "epsGrowth": -0.19530001,
     "analystCount": 12
   },
   "revisions": {
-    "eps7d": 0.009658936406772733,
-    "eps30d": 0.01057276526528561,
-    "eps60d": 0.011053106470739982,
-    "eps90d": -0.017575611451545736,
+    "eps7d": 0.0016720130974359204,
+    "eps30d": 0.018058988619393368,
+    "eps60d": 0.01931876772363994,
+    "eps90d": 0.012251729274704637,
     "revenue30d": null
   }
 }

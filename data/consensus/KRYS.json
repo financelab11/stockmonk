@@ -1,7 +1,7 @@
 {
   "ticker": "KRYS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/KRYS/analysis",
   "targetMean": 388.22223,
   "targetHigh": 474,
@@ -19,20 +19,20 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 126540390,
-      "revenueGrowth": 0.29389998,
-      "epsAvg": 2.13,
-      "epsGrowth": null,
-      "analystCount": 4
+      "revenueAvg": 134527710,
+      "revenueGrowth": 0.256,
+      "epsAvg": 2.22077,
+      "epsGrowth": 0.30629998,
+      "analystCount": 9
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
       "revenueAvg": 139415800,
       "revenueGrowth": 0.1982,
-      "epsAvg": 2.52,
-      "epsGrowth": null,
-      "analystCount": 1
+      "epsAvg": 2.0825,
+      "epsGrowth": 0.138,
+      "analystCount": 4
     },
     {
       "period": "Current fiscal year",
@@ -55,11 +55,11 @@
   ],
   "history": [
     {
-      "quarter": "2025-09-30",
-      "endDate": "2025-09-30",
-      "epsActual": 2.66,
-      "epsEstimate": 1.12216,
-      "revenueActual": 97800000,
+      "quarter": "2025-12-31",
+      "endDate": "2025-12-31",
+      "epsActual": 1.7,
+      "epsEstimate": 1.60667,
+      "revenueActual": 107105000,
       "revenueEstimate": null
     },
     {
@@ -68,6 +68,14 @@
       "epsActual": 1.83,
       "epsEstimate": 1.41892,
       "revenueActual": 116357000,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-06-30",
+      "endDate": "2026-06-30",
+      "epsActual": 1.79,
+      "epsEstimate": 1.91436,
+      "revenueActual": 119222000,
       "revenueEstimate": null
     },
     {
@@ -81,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 126540390,
-    "revenueGrowth": 0.29389998,
-    "epsAvg": 2.13,
-    "epsGrowth": null,
-    "analystCount": 4
+    "revenueAvg": 134527710,
+    "revenueGrowth": 0.256,
+    "epsAvg": 2.22077,
+    "epsGrowth": 0.30629998,
+    "analystCount": 9
   },
   "revisions": {
-    "eps7d": 0.05566969009726552,
-    "eps30d": 0.01854910382234376,
+    "eps7d": 0,
+    "eps30d": 0.051010541645073904,
     "eps60d": 0.01854910382234376,
-    "eps90d": 0.029477304095055334,
+    "eps90d": 0.01854910382234376,
     "revenue30d": null
   }
 }

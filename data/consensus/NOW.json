@@ -1,7 +1,7 @@
 {
   "ticker": "NOW",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/NOW/analysis",
   "targetMean": 155.8187,
   "targetHigh": 266,
@@ -96,7 +96,7 @@
     "analystCount": 38
   },
   "revisions": {
-    "eps7d": -0.002650653457955232,
+    "eps7d": 0,
     "eps30d": -0.027584816302041237,
     "eps60d": -0.027584816302041237,
     "eps90d": -0.02780236205760589,

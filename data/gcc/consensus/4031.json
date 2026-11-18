@@ -1,26 +1,26 @@
 {
   "ticker": "4031",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/4031/forecast/",
-  "targetMean": 28.1,
+  "targetMean": 27.43,
   "targetHigh": 33,
-  "targetLow": 24,
-  "recommendationKey": "hold",
+  "targetLow": 22,
+  "recommendationKey": "buy",
   "analystCount": 3,
   "distribution": {
     "strongBuy": 1,
     "buy": 0,
-    "hold": 1,
+    "hold": 2,
     "sell": 0,
-    "strongSell": 1
+    "strongSell": 0
   },
   "estimates": [
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
       "revenueAvg": 2700000000,
-      "revenueGrowth": -0.013000000000000001,
+      "revenueGrowth": null,
       "epsAvg": 0.75,
       "epsGrowth": -0.6509999999999999,
       "analystCount": 3
@@ -39,7 +39,7 @@
   "currentQuarter": {
     "endDate": "2026-12-31",
     "revenueAvg": 2700000000,
-    "revenueGrowth": -0.013000000000000001,
+    "revenueGrowth": null,
     "epsAvg": 0.75,
     "epsGrowth": -0.6509999999999999,
     "analystCount": 3

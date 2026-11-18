@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 1603.5,
-    "prevClose": 1561.800048828125,
-    "changePct": 0.02669992948403599,
-    "asOf": "2026-11-08",
+    "close": 1635,
+    "prevClose": 1662.699951171875,
+    "changePct": -0.016659621089392562,
+    "asOf": "2026-11-18",
     "high52": 1814.1,
-    "low52": 728,
-    "marketCap": 212841889792,
+    "low52": 800.45,
+    "marketCap": 217023070208,
     "sharesOutstanding": null,
     "dividendYield": 0
   },
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 1680000000,
       "netIncome": 1090000000,
-      "epsDiluted": 9.67,
-      "epsBasic": 9.67,
+      "epsDiluted": 9.5,
+      "epsBasic": 9.5,
       "interestExpense": 130000000,
       "pretaxIncome": 1460000000,
       "incomeTax": 379600000,
@@ -815,7 +815,7 @@
     "epsTtm": 18.78,
     "epsGrowthTtm": 0.27929155313351517,
     "grossMargin": 0.49016,
-    "operatingMargin": 0.25561002,
+    "operatingMargin": 0.25282,
     "netMargin": 0.19132,
     "fcfMargin": -0.4146551724137931,
     "roic": 0.12,
@@ -825,21 +825,21 @@
     "interestCover": 19.428571428571427,
     "freeCashFlowTtm": -4810000000,
     "ebitdaTtm": 4080000000,
-    "pe": 85.47867059919679,
-    "evEbitda": 53.808017125490196,
-    "evSales": 16.913459928505393,
+    "pe": 87.15785952128515,
+    "evEbitda": 54.83281624705882,
+    "evSales": 17.235584767950694,
     "pfcf": null,
-    "fcfYield": -0.022598934846427922,
-    "return1y": 1.171440142857556,
-    "returnYtd": 0.7837476814347142,
-    "return5y": 1.0706352652987876
+    "fcfYield": -0.022163542315524257,
+    "return1y": 0.8652672668636996,
+    "returnYtd": 0.8187885619867525,
+    "return5y": 1.1113119169089605
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "66th percentile revenue/EPS growth in the covered universe."
+      "detail": "67th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1250,13 +1250,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=AETHER",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.aether.co.in",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:55.877Z"
+  "updatedAt": "2026-11-18T09:11:00.939Z"
 }

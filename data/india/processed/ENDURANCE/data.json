@@ -15,13 +15,13 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 2528.800048828125,
-    "prevClose": 2501.89990234375,
-    "changePct": 0.010751887579185437,
-    "asOf": "2026-11-08",
+    "close": 2473,
+    "prevClose": 2506.10009765625,
+    "changePct": -0.013207811486542709,
+    "asOf": "2026-11-18",
     "high52": 3072,
     "low52": 2142.8,
-    "marketCap": 355708207104,
+    "marketCap": 347859222528,
     "sharesOutstanding": null,
     "dividendYield": 0.0046
   },
@@ -613,8 +613,8 @@
       "grossProfit": null,
       "operatingIncome": 5960000000,
       "netIncome": 2540000000,
-      "epsDiluted": 17.92,
-      "epsBasic": 17.92,
+      "epsDiluted": 17.94,
+      "epsBasic": 17.94,
       "interestExpense": 510000000,
       "pretaxIncome": 3590000000,
       "incomeTax": 1041099999.9999999,
@@ -654,8 +654,8 @@
       "grossProfit": null,
       "operatingIncome": 6800000000,
       "netIncome": 3000000000,
-      "epsDiluted": 21.26,
-      "epsBasic": 21.26,
+      "epsDiluted": 21.28,
+      "epsBasic": 21.28,
       "interestExpense": 490000000,
       "pretaxIncome": 4200000000,
       "incomeTax": 1218000000,
@@ -1102,7 +1102,7 @@
     "epsTtm": 72.28999999999999,
     "epsGrowthTtm": 0.1512979773849339,
     "grossMargin": 0.39833,
-    "operatingMargin": 0.06698,
+    "operatingMargin": 0.07679,
     "netMargin": 0.060549997,
     "fcfMargin": 0.04076459303918882,
     "roic": 0.18,
@@ -1112,14 +1112,14 @@
     "interestCover": 29.72222222222222,
     "freeCashFlowTtm": 5950000000,
     "ebitdaTtm": 21400000000,
-    "pe": 34.97622488731563,
-    "evEbitda": 16.41803297495327,
-    "evSales": 2.091967285882703,
-    "pfcf": 59.7828919502521,
-    "fcfYield": 0.016727193472542992,
-    "return1y": -0.10227573609868235,
-    "returnYtd": -0.0015677309610189205,
-    "return5y": 0.3912405944370201
+    "pe": 34.20444665958702,
+    "evEbitda": 16.051257994766356,
+    "evSales": 2.04523323065198,
+    "pfcf": 58.463734878655465,
+    "fcfYield": 0.017104620532293262,
+    "return1y": -0.05044432053773673,
+    "returnYtd": -0.023598958534653547,
+    "return5y": 0.519356882991433
   },
   "factorChips": [
     {
@@ -1132,7 +1132,7 @@
       "key": "profitability",
       "label": "Profitability: Low",
       "tone": "caution",
-      "detail": "30th percentile profitability metrics in the covered universe."
+      "detail": "28th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1155,7 +1155,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=ENDURANCE",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.endurancegroup.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:59:12.791Z"
+  "updatedAt": "2026-11-18T09:12:02.436Z"
 }

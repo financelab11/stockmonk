@@ -15,15 +15,15 @@
   "currency": "INR",
   "isResearch": true,
   "latestPrice": {
-    "close": 1598.4000244140625,
-    "prevClose": 1612.300048828125,
-    "changePct": -0.008621239219192223,
-    "asOf": "2026-11-08",
-    "high52": 2094.3,
+    "close": 1672.5,
+    "prevClose": 1649.5999755859375,
+    "changePct": 0.013882168254717886,
+    "asOf": "2026-11-18",
+    "high52": 2024,
     "low52": 1182,
-    "marketCap": 162016165888,
+    "marketCap": 169527050240,
     "sharesOutstanding": null,
-    "dividendYield": 0.0022
+    "dividendYield": 0.0021
   },
   "ttm": {
     "period": "TTM",
@@ -43,7 +43,7 @@
     "incomeTax": 1084500000,
     "rnd": null,
     "sga": null,
-    "cashAndInvestments": 8279017984,
+    "cashAndInvestments": 8176530944,
     "totalDebt": 4118567936,
     "totalEquity": null,
     "totalAssets": null,
@@ -62,8 +62,8 @@
     "netMargin": 0.14800936768149883,
     "fcfMargin": null,
     "roic": null,
-    "netDebt": -4160450048,
-    "netDebtToEbitda": -0.8595971173553719,
+    "netDebt": -4057963008,
+    "netDebtToEbitda": -0.8384221090909091,
     "roe": null
   },
   "quarterly": [
@@ -577,7 +577,7 @@
       "incomeTax": 300000000,
       "rnd": null,
       "sga": null,
-      "cashAndInvestments": 8279017984,
+      "cashAndInvestments": 8176530944,
       "totalDebt": 4118567936,
       "totalEquity": null,
       "totalAssets": null,
@@ -1071,7 +1071,7 @@
       "incomeTax": 1067500000,
       "rnd": null,
       "sga": null,
-      "cashAndInvestments": 8279017984,
+      "cashAndInvestments": 8176530944,
       "totalDebt": 4118567936,
       "totalEquity": 31060000000,
       "totalAssets": 38610000000,
@@ -1090,7 +1090,7 @@
       "netMargin": 0.1712,
       "fcfMargin": -0.031466666666666664,
       "roic": 0.12,
-      "netDebt": -4160450048,
+      "netDebt": -4057963008,
       "netDebtToEbitda": 0.7937219730941704,
       "roe": 0.10334835801674179
     }
@@ -1101,38 +1101,38 @@
     "revenueGrowthLatestQ": 0.3085585585585586,
     "epsTtm": 31.42,
     "epsGrowthTtm": -0.12038073908174685,
-    "grossMargin": 0.69036,
-    "operatingMargin": 0.2027,
-    "netMargin": 0.15086001,
+    "grossMargin": 0.69378996,
+    "operatingMargin": 0.16317,
+    "netMargin": 0.14919,
     "fcfMargin": -0.031466666666666664,
     "roic": 0.12,
     "roe": 0.10135999,
-    "netDebt": -4160450048,
-    "netDebtToEbitda": -0.8595971173553719,
+    "netDebt": -4057963008,
+    "netDebtToEbitda": -0.8384221090909091,
     "interestCover": 19.36,
     "freeCashFlowTtm": -590000000,
     "ebitdaTtm": 4840000000,
-    "pe": 51.2709385721519,
-    "evEbitda": 32.614817322314046,
-    "evSales": 7.393710343793911,
+    "pe": 53.64780070886076,
+    "evEbitda": 34.187827940495865,
+    "evSales": 7.750308535456674,
     "pfcf": null,
-    "fcfYield": -0.0036416119142571274,
-    "return1y": -0.13994884919221184,
-    "returnYtd": -0.08081878850895463,
-    "return5y": 0.7795407406813457
+    "fcfYield": -0.0034802705477664777,
+    "return1y": -0.11760909903789896,
+    "returnYtd": -0.03820661115021928,
+    "return5y": 0.8404300290105973
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "35th percentile revenue/EPS growth in the covered universe."
+      "detail": "36th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "46th percentile profitability metrics in the covered universe."
+      "detail": "40th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1144,18 +1144,18 @@
       "key": "balance",
       "label": "Balance sheet: Net cash",
       "tone": "positive",
-      "detail": "Net cash of ₹4.2B."
+      "detail": "Net cash of ₹4.1B."
     },
     {
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "39th percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "37th percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-09",
+      "date": "2021-11-22",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1586,13 +1586,13 @@
     {
       "name": "NSE annual reports",
       "url": "https://www.nseindia.com/companies-listing/corporate-filings-annual-reports?symbol=POLYMED",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     },
     {
       "name": "Company website",
       "url": "https://www.polymedicure.com",
-      "date": "2026-11-08"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-08T13:58:50.986Z"
+  "updatedAt": "2026-11-18T09:10:32.247Z"
 }

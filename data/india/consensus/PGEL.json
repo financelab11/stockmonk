@@ -1,12 +1,12 @@
 {
   "ticker": "PGEL",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=PGEL",
   "targetMean": 689.55554,
   "targetHigh": 780,
   "targetLow": 559,
-  "recommendationKey": "strong_buy",
+  "recommendationKey": "none",
   "analystCount": 9,
   "distribution": null,
   "estimates": [
@@ -31,19 +31,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 70283000000,
-      "revenueGrowth": 0.3291,
-      "epsAvg": 10.25556,
-      "epsGrowth": 0.5037,
+      "revenueAvg": 70378555560,
+      "revenueGrowth": 0.3309,
+      "epsAvg": 10.14444,
+      "epsGrowth": 0.4875,
       "analystCount": 9
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 89306888890,
-      "revenueGrowth": 0.2707,
-      "epsAvg": 16.26667,
-      "epsGrowth": 0.5861,
+      "revenueAvg": 89380222220,
+      "revenueGrowth": 0.27,
+      "epsAvg": 16.12222,
+      "epsGrowth": 0.5893,
       "analystCount": 9
     }
   ],

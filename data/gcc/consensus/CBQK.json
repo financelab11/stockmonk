@@ -1,9 +1,9 @@
 {
   "ticker": "CBQK",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/qse/CBQK/forecast/",
-  "targetMean": 4.73,
+  "targetMean": 4.75,
   "targetHigh": 5.5,
   "targetLow": 3.33,
   "recommendationKey": "buy",
@@ -20,7 +20,7 @@
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
       "revenueAvg": 5000000000,
-      "revenueGrowth": 0.047,
+      "revenueGrowth": 0.045,
       "epsAvg": 0.43,
       "epsGrowth": -0.136,
       "analystCount": 8
@@ -39,7 +39,7 @@
   "currentQuarter": {
     "endDate": "2026-12-31",
     "revenueAvg": 5000000000,
-    "revenueGrowth": 0.047,
+    "revenueGrowth": 0.045,
     "epsAvg": 0.43,
     "epsGrowth": -0.136,
     "analystCount": 8

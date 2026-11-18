@@ -1,9 +1,9 @@
 {
   "ticker": "POWERINDIA",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=POWERINDIA",
-  "targetMean": 37158.953,
+  "targetMean": 36801.57,
   "targetHigh": 49936,
   "targetLow": 30100,
   "recommendationKey": "buy",
@@ -12,50 +12,42 @@
   "estimates": [
     {
       "period": "Next quarter",
-      "endDate": "2026-09-30",
-      "revenueAvg": 27243606000,
-      "revenueGrowth": 0.48669997,
-      "epsAvg": 78.03333,
-      "epsGrowth": 0.3157,
-      "analystCount": 12
-    },
-    {
-      "period": "Following quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 30409259750,
-      "revenueGrowth": 0.46040002,
+      "revenueAvg": 33060670250,
+      "revenueGrowth": 0.58779997,
       "epsAvg": 93.5,
       "epsGrowth": 0.3791,
       "analystCount": 4
     },
     {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 38886709750,
+      "revenueGrowth": 0.412,
+      "epsAvg": 108.2,
+      "epsGrowth": 0.4594,
+      "analystCount": 4
+    },
+    {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 117437001330,
-      "revenueGrowth": 0.4413,
-      "epsAvg": 341.8105,
-      "epsGrowth": 0.48139998,
+      "revenueAvg": 121534206060,
+      "revenueGrowth": 0.4916,
+      "epsAvg": 343.4714,
+      "epsGrowth": 0.48860002,
       "analystCount": 21
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 162866502920,
-      "revenueGrowth": 0.3868,
-      "epsAvg": 504.37717,
-      "epsGrowth": 0.4756,
+      "revenueAvg": 166606616720,
+      "revenueGrowth": 0.3709,
+      "epsAvg": 502.88403,
+      "epsGrowth": 0.4641,
       "analystCount": 21
     }
   ],
   "history": [
-    {
-      "quarter": "2Q2026",
-      "endDate": "2025-09-30",
-      "epsActual": 59.31,
-      "epsEstimate": 47.5,
-      "revenueActual": null,
-      "revenueEstimate": null
-    },
     {
       "quarter": "3Q2026",
       "endDate": "2025-12-31",
@@ -79,14 +71,22 @@
       "epsEstimate": 51.4,
       "revenueActual": null,
       "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 71.46,
+      "epsEstimate": 78.1,
+      "revenueActual": null,
+      "revenueEstimate": null
     }
   ],
   "currentQuarter": {
-    "endDate": "2026-09-30",
-    "revenueAvg": 27243606000,
-    "revenueGrowth": 0.48669997,
-    "epsAvg": 78.03333,
-    "epsGrowth": 0.3157,
-    "analystCount": 12
+    "endDate": "2026-12-31",
+    "revenueAvg": 33060670250,
+    "revenueGrowth": 0.58779997,
+    "epsAvg": 93.5,
+    "epsGrowth": 0.3791,
+    "analystCount": 4
   }
 }

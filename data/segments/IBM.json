@@ -1,0 +1,45 @@
+{
+  "ticker": "IBM",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "INTERNATIONAL BUSINESS MACHINES CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Software",
+      "revenue": 29962000000,
+      "share": 0.44365143999407713
+    },
+    {
+      "name": "Consulting",
+      "revenue": 21055000000,
+      "share": 0.31176427037832233
+    },
+    {
+      "name": "Infrastructure",
+      "revenue": 15718000000,
+      "share": 0.23273857999555786
+    },
+    {
+      "name": "Financing",
+      "revenue": 737000000,
+      "share": 0.010912859998519287
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Other Countries",
+      "revenue": 40643000000,
+      "share": 0.6018064707188865
+    },
+    {
+      "name": "United States",
+      "revenue": 26892000000,
+      "share": 0.3981935292811135
+    }
+  ]
+}

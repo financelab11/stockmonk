@@ -14,12 +14,12 @@
   "isResearch": true,
   "latestPrice": {
     "close": 10.890000343322754,
-    "prevClose": 10.670000076293945,
-    "changePct": 0.02061858157973151,
-    "asOf": "2026-11-09",
+    "prevClose": 10.970000267028809,
+    "changePct": -0.007292609093775604,
+    "asOf": "2026-11-18",
     "high52": 12.770000457763672,
     "low52": 10.170000076293945,
-    "marketCap": 13890000000,
+    "marketCap": 13910000000,
     "sharesOutstanding": 1280000000,
     "dividendYield": 0.045899999999999996
   },
@@ -1110,12 +1110,12 @@
     "interestCover": null,
     "freeCashFlowTtm": -10477900000,
     "ebitdaTtm": null,
-    "pe": 11.15,
+    "pe": 11.16,
     "evEbitda": null,
-    "evSales": 7.980582524271845,
+    "evSales": 7.985098216301648,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.06342953793641715,
+    "return1y": -0.0452973613353973,
     "returnYtd": 0.0010474228864705282,
     "return5y": -0.05703695378569873
   },
@@ -1130,7 +1130,7 @@
       "key": "profitability",
       "label": "Profitability: Average",
       "tone": "neutral",
-      "detail": "65th percentile profitability metrics in the covered universe."
+      "detail": "64th percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/1020/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/1020.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:15:05.860Z"
+  "updatedAt": "2026-11-18T09:24:18.387Z"
 }

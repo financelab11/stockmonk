@@ -1,16 +1,16 @@
 {
   "ticker": "MERS",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/qse/MERS/forecast/",
-  "targetMean": 14.7,
-  "targetHigh": 14.8,
-  "targetLow": 14.6,
+  "targetMean": 14.2,
+  "targetHigh": 14.6,
+  "targetLow": 13.8,
   "recommendationKey": "buy",
   "analystCount": 2,
   "distribution": {
-    "strongBuy": 1,
-    "buy": 0,
+    "strongBuy": 0,
+    "buy": 1,
     "hold": 1,
     "sell": 0,
     "strongSell": 0
@@ -21,8 +21,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 3100000000,
       "revenueGrowth": 0.08,
-      "epsAvg": 0.87,
-      "epsGrowth": 0.261,
+      "epsAvg": 0.51,
+      "epsGrowth": -0.261,
       "analystCount": 2
     },
     {
@@ -40,8 +40,8 @@
     "endDate": "2026-12-31",
     "revenueAvg": 3100000000,
     "revenueGrowth": 0.08,
-    "epsAvg": 0.87,
-    "epsGrowth": 0.261,
+    "epsAvg": 0.51,
+    "epsGrowth": -0.261,
     "analystCount": 2
   },
   "revisions": null

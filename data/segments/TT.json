@@ -1,0 +1,35 @@
+{
+  "ticker": "TT",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "TRANE TECHNOLOGIES PLC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1466258/000162828026005731/tt-20251231.htm",
+    "date": "2026-02-05"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 21321900000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 17168800000,
+      "share": 0.805219047083046
+    },
+    {
+      "name": "EMEA",
+      "revenue": 2802100000,
+      "share": 0.13141886980053372
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 1351000000,
+      "share": 0.0633620831164202
+    }
+  ]
+}

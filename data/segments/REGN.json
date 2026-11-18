@@ -1,0 +1,30 @@
+{
+  "ticker": "REGN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "REGENERON PHARMACEUTICALS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000008/regn-20251231.htm",
+    "date": "2026-02-04"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 14342900000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 4384700000,
+      "share": 0.305705261836867
+    },
+    {
+      "name": "Non-US",
+      "revenue": 1282700000,
+      "share": 0.08943100767627188
+    }
+  ]
+}

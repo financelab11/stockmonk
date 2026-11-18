@@ -13,10 +13,10 @@
   "quoteCurrency": "KWD",
   "isResearch": true,
   "latestPrice": {
-    "close": 1492,
-    "prevClose": 1495,
-    "changePct": -0.0020066889632106566,
-    "asOf": "2026-11-09",
+    "close": 1435,
+    "prevClose": 1455,
+    "changePct": -0.013745704467353903,
+    "asOf": "2026-11-18",
     "high52": 1905,
     "low52": 1337,
     "marketCap": 327180000,
@@ -1115,16 +1115,16 @@
     "evSales": 1.9877480586712684,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.1360330791624349,
-    "returnYtd": -0.07324786842590736,
-    "return5y": 0.21918235091567873
+    "return1y": -0.16420025999296406,
+    "returnYtd": -0.10865327827826876,
+    "return5y": 0.17741455207993528
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Strong",
       "tone": "positive",
-      "detail": "76th percentile revenue/EPS growth in the covered universe."
+      "detail": "75th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1148,12 +1148,12 @@
       "key": "valuation",
       "label": "Valuation: In line",
       "tone": "info",
-      "detail": "51st percentile cheapness on EV/EBITDA within the covered universe."
+      "detail": "52nd percentile cheapness on EV/EBITDA within the covered universe."
     }
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/kwse/JAZEERA/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/JAZEERA.KW",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:18:11.053Z"
+  "updatedAt": "2026-11-18T09:30:07.317Z"
 }

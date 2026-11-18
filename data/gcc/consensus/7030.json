@@ -1,9 +1,9 @@
 {
   "ticker": "7030",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/7030/forecast/",
-  "targetMean": 10.91,
+  "targetMean": 10.56,
   "targetHigh": 14,
   "targetLow": 8.5,
   "recommendationKey": "sell",
@@ -20,9 +20,9 @@
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
       "revenueAvg": 11200000000,
-      "revenueGrowth": 0.018000000000000002,
-      "epsAvg": 0.69,
-      "epsGrowth": 0.025,
+      "revenueGrowth": 0.016,
+      "epsAvg": 0.68,
+      "epsGrowth": 0.012,
       "analystCount": 8
     },
     {
@@ -39,9 +39,9 @@
   "currentQuarter": {
     "endDate": "2026-12-31",
     "revenueAvg": 11200000000,
-    "revenueGrowth": 0.018000000000000002,
-    "epsAvg": 0.69,
-    "epsGrowth": 0.025,
+    "revenueGrowth": 0.016,
+    "epsAvg": 0.68,
+    "epsGrowth": 0.012,
     "analystCount": 8
   },
   "revisions": null

@@ -1,7 +1,7 @@
 {
   "ticker": "RVNL",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=RVNL",
   "targetMean": 165,
   "targetHigh": 165,
@@ -12,12 +12,12 @@
   "estimates": [
     {
       "period": "Next quarter",
-      "endDate": "2026-09-30",
-      "revenueAvg": 56353000000,
-      "revenueGrowth": 0.1,
+      "endDate": null,
+      "revenueAvg": 0,
+      "revenueGrowth": null,
       "epsAvg": null,
       "epsGrowth": null,
-      "analystCount": 1
+      "analystCount": 0
     },
     {
       "period": "Following quarter",
@@ -58,11 +58,11 @@
     }
   ],
   "currentQuarter": {
-    "endDate": "2026-09-30",
-    "revenueAvg": 56353000000,
-    "revenueGrowth": 0.1,
+    "endDate": null,
+    "revenueAvg": 0,
+    "revenueGrowth": null,
     "epsAvg": null,
     "epsGrowth": null,
-    "analystCount": 1
+    "analystCount": 0
   }
 }

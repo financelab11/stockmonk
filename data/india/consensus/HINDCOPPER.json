@@ -1,10 +1,10 @@
 {
   "ticker": "HINDCOPPER",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=HINDCOPPER",
-  "targetMean": 540,
-  "targetHigh": 715,
+  "targetMean": 495,
+  "targetHigh": 625,
   "targetLow": 365,
   "recommendationKey": "hold",
   "analystCount": 2,
@@ -31,19 +31,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 48914316580,
-      "revenueGrowth": 0.58919996,
-      "epsAvg": 19.54702,
-      "epsGrowth": 0.90900004,
-      "analystCount": 2
+      "revenueAvg": 49005000000,
+      "revenueGrowth": 0.59209996,
+      "epsAvg": 18.9,
+      "epsGrowth": 0.84580004,
+      "analystCount": 1
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 57185227220,
-      "revenueGrowth": 0.1691,
-      "epsAvg": 22.34593,
-      "epsGrowth": 0.1432,
+      "revenueAvg": 58499227220,
+      "revenueGrowth": 0.19370002,
+      "epsAvg": 23.04593,
+      "epsGrowth": 0.2194,
       "analystCount": 2
     }
   ],

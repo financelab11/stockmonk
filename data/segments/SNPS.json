@@ -1,0 +1,50 @@
+{
+  "ticker": "SNPS",
+  "asOf": "2025-10-31",
+  "source": {
+    "name": "SYNOPSYS INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324125000028/snps-20251031.htm",
+    "date": "2025-12-22"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Design Automation",
+      "revenue": 5302340000,
+      "share": 0.7516595129864883
+    },
+    {
+      "name": "Design IP",
+      "revenue": 1751838000,
+      "share": 0.24834048701351172
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 3100095000,
+      "share": 0.43946934710181684
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 1304236000,
+      "share": 0.1848884448336858
+    },
+    {
+      "name": "KR",
+      "revenue": 946999000,
+      "share": 0.13424654155310511
+    },
+    {
+      "name": "Europe",
+      "revenue": 888524000,
+      "share": 0.1259571278184361
+    },
+    {
+      "name": "China",
+      "revenue": 814324000,
+      "share": 0.11543853869295614
+    }
+  ]
+}

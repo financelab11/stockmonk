@@ -1,9 +1,9 @@
 {
   "ticker": "DEWA",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/dfm/DEWA/forecast/",
-  "targetMean": 3.13,
+  "targetMean": 3.14,
   "targetHigh": 3.45,
   "targetLow": 2.75,
   "recommendationKey": "buy",
@@ -19,10 +19,10 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 33600000000,
-      "revenueGrowth": 0.024,
-      "epsAvg": 0.17,
-      "epsGrowth": -0.001,
+      "revenueAvg": 34299999999.999996,
+      "revenueGrowth": 0.045,
+      "epsAvg": 0.18,
+      "epsGrowth": 0.051,
       "analystCount": 17
     },
     {
@@ -38,10 +38,10 @@
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 33600000000,
-    "revenueGrowth": 0.024,
-    "epsAvg": 0.17,
-    "epsGrowth": -0.001,
+    "revenueAvg": 34299999999.999996,
+    "revenueGrowth": 0.045,
+    "epsAvg": 0.18,
+    "epsGrowth": 0.051,
     "analystCount": 17
   },
   "revisions": null

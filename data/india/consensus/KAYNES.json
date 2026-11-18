@@ -1,61 +1,53 @@
 {
   "ticker": "KAYNES",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=KAYNES",
-  "targetMean": 3653.182,
-  "targetHigh": 4480,
-  "targetLow": 2790,
-  "recommendationKey": "none",
+  "targetMean": 3334.0908,
+  "targetHigh": 4351,
+  "targetLow": 2380,
+  "recommendationKey": "hold",
   "analystCount": 22,
   "distribution": null,
   "estimates": [
     {
       "period": "Next quarter",
-      "endDate": "2026-09-30",
-      "revenueAvg": 10285882350,
-      "revenueGrowth": 0.135,
-      "epsAvg": 11.08333,
-      "epsGrowth": -0.4009,
-      "analystCount": 17
-    },
-    {
-      "period": "Following quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 10751000000,
-      "revenueGrowth": 0.3371,
+      "revenueAvg": 10140000000,
+      "revenueGrowth": 0.2611,
       "epsAvg": 16.4,
       "epsGrowth": 0.433,
       "analystCount": 2
     },
     {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 17380000000,
+      "revenueGrowth": 0.3986,
+      "epsAvg": 26.2,
+      "epsGrowth": 0.97980005,
+      "analystCount": 2
+    },
+    {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 50025003470,
-      "revenueGrowth": 0.3795,
-      "epsAvg": 57.50035,
-      "epsGrowth": 0.0507,
+      "revenueAvg": 47445770820,
+      "revenueGrowth": 0.3084,
+      "epsAvg": 47.03671,
+      "epsGrowth": -0.14050001,
       "analystCount": 21
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 69137022580,
-      "revenueGrowth": 0.382,
-      "epsAvg": 87.45143,
-      "epsGrowth": 0.5209,
-      "analystCount": 19
+      "revenueAvg": 66410347490,
+      "revenueGrowth": 0.39970002,
+      "epsAvg": 75.9826,
+      "epsGrowth": 0.6154,
+      "analystCount": 21
     }
   ],
   "history": [
-    {
-      "quarter": "2Q2026",
-      "endDate": "2025-09-30",
-      "epsActual": 18.5,
-      "epsEstimate": 14.62,
-      "revenueActual": null,
-      "revenueEstimate": null
-    },
     {
       "quarter": "3Q2026",
       "endDate": "2025-12-31",
@@ -79,14 +71,22 @@
       "epsEstimate": 9.64,
       "revenueActual": null,
       "revenueEstimate": null
+    },
+    {
+      "quarter": "2Q2027",
+      "endDate": "2026-09-30",
+      "epsActual": 6.73,
+      "epsEstimate": 11.08333,
+      "revenueActual": null,
+      "revenueEstimate": null
     }
   ],
   "currentQuarter": {
-    "endDate": "2026-09-30",
-    "revenueAvg": 10285882350,
-    "revenueGrowth": 0.135,
-    "epsAvg": 11.08333,
-    "epsGrowth": -0.4009,
-    "analystCount": 17
+    "endDate": "2026-12-31",
+    "revenueAvg": 10140000000,
+    "revenueGrowth": 0.2611,
+    "epsAvg": 16.4,
+    "epsGrowth": 0.433,
+    "analystCount": 2
   }
 }

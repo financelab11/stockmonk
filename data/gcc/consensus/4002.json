@@ -1,9 +1,9 @@
 {
   "ticker": "4002",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/4002/forecast/",
-  "targetMean": 77.94,
+  "targetMean": 75.92,
   "targetHigh": 100,
   "targetLow": 57,
   "recommendationKey": "buy",
@@ -20,9 +20,9 @@
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
       "revenueAvg": 3600000000,
-      "revenueGrowth": 0.109,
-      "epsAvg": 4.38,
-      "epsGrowth": 0.064,
+      "revenueGrowth": 0.105,
+      "epsAvg": 4.22,
+      "epsGrowth": 0.027000000000000003,
       "analystCount": 13
     },
     {
@@ -39,9 +39,9 @@
   "currentQuarter": {
     "endDate": "2026-12-31",
     "revenueAvg": 3600000000,
-    "revenueGrowth": 0.109,
-    "epsAvg": 4.38,
-    "epsGrowth": 0.064,
+    "revenueGrowth": 0.105,
+    "epsAvg": 4.22,
+    "epsGrowth": 0.027000000000000003,
     "analystCount": 13
   },
   "revisions": null

@@ -1,15 +1,15 @@
 {
   "ticker": "VRT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/VRT/analysis",
-  "targetMean": 337.53723,
+  "targetMean": 334.286,
   "targetHigh": 427,
-  "targetLow": 250,
+  "targetLow": 240,
   "recommendationKey": "strong_buy",
-  "analystCount": 29,
+  "analystCount": 30,
   "distribution": {
-    "strongBuy": 3,
+    "strongBuy": 4,
     "buy": 23,
     "hold": 4,
     "sell": 0,
@@ -19,38 +19,38 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 4486082510,
-      "revenueGrowth": 0.5577,
-      "epsAvg": 2.28118,
-      "epsGrowth": 0.67730004,
-      "analystCount": 24
+      "revenueAvg": 4491638130,
+      "revenueGrowth": 0.5596,
+      "epsAvg": 2.28794,
+      "epsGrowth": 0.68230003,
+      "analystCount": 25
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 3928899420,
+      "revenueAvg": 3928870850,
       "revenueGrowth": 0.48290002,
-      "epsAvg": 1.85047,
-      "epsGrowth": 0.5816,
+      "epsAvg": 1.84994,
+      "epsGrowth": 0.5811,
       "analystCount": 19
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 14714695110,
-      "revenueGrowth": 0.4384,
-      "epsAvg": 7.18808,
-      "epsGrowth": 0.7114,
-      "analystCount": 26
+      "revenueAvg": 14720430510,
+      "revenueGrowth": 0.439,
+      "epsAvg": 7.1907,
+      "epsGrowth": 0.71209997,
+      "analystCount": 29
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 19449632530,
-      "revenueGrowth": 0.3218,
-      "epsAvg": 9.84233,
-      "epsGrowth": 0.3693,
-      "analystCount": 30
+      "revenueAvg": 19540525290,
+      "revenueGrowth": 0.32740003,
+      "epsAvg": 9.87387,
+      "epsGrowth": 0.3731,
+      "analystCount": 31
     }
   ],
   "history": [
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 4486082510,
-    "revenueGrowth": 0.5577,
-    "epsAvg": 2.28118,
-    "epsGrowth": 0.67730004,
-    "analystCount": 24
+    "revenueAvg": 4491638130,
+    "revenueGrowth": 0.5596,
+    "epsAvg": 2.28794,
+    "epsGrowth": 0.68230003,
+    "analystCount": 25
   },
   "revisions": {
-    "eps7d": 0.06741192613140257,
-    "eps30d": 0.06682735191404943,
-    "eps60d": 0.07005603291710583,
-    "eps90d": 0.0691679086606396,
+    "eps7d": 0.00036449232618429583,
+    "eps30d": 0.06763610664037678,
+    "eps60d": 0.0676789078960458,
+    "eps90d": 0.07202757481472433,
     "revenue30d": null
   }
 }

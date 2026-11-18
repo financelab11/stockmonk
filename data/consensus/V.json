@@ -1,9 +1,9 @@
 {
   "ticker": "V",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://finance.yahoo.com/quote/V/analysis",
-  "targetMean": 446.3346,
+  "targetMean": 449.06433,
   "targetHigh": 500,
   "targetLow": 330,
   "recommendationKey": "strong_buy",
@@ -37,20 +37,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-09-30",
-      "revenueAvg": 51064296440,
-      "revenueGrowth": 0.112399995,
-      "epsAvg": 15.03337,
-      "epsGrowth": 0.1329,
-      "analystCount": 39
+      "revenueAvg": 51068708200,
+      "revenueGrowth": 0.1125,
+      "epsAvg": 15.03266,
+      "epsGrowth": 0.1328,
+      "analystCount": 38
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-09-30",
-      "revenueAvg": 56616149510,
-      "revenueGrowth": 0.1087,
-      "epsAvg": 17.14258,
-      "epsGrowth": 0.14029999,
-      "analystCount": 32
+      "revenueAvg": 56638563310,
+      "revenueGrowth": 0.1091,
+      "epsAvg": 17.14041,
+      "epsGrowth": 0.1402,
+      "analystCount": 31
     }
   ],
   "history": [
@@ -96,10 +96,10 @@
     "analystCount": 26
   },
   "revisions": {
-    "eps7d": 0.0009088052240653344,
-    "eps30d": 0.0019374445992148548,
-    "eps60d": 0.0019374445992148548,
-    "eps90d": 0.003995044595302977,
+    "eps7d": -0.000047228266183863,
+    "eps30d": 0.0019228449307209239,
+    "eps60d": 0.0018901248308818008,
+    "eps90d": 0.0037632793146504806,
     "revenue30d": null
   }
 }

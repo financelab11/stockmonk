@@ -1,12 +1,12 @@
 {
   "ticker": "JKCEMENT",
   "provider": "Third-party consensus",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://www.nseindia.com/get-quotes/equity?symbol=JKCEMENT",
-  "targetMean": 5955.75,
+  "targetMean": 5928.9644,
   "targetHigh": 7400,
   "targetLow": 4250,
-  "recommendationKey": "buy",
+  "recommendationKey": "none",
   "analystCount": 28,
   "distribution": null,
   "estimates": [
@@ -31,8 +31,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-03-31",
-      "revenueAvg": 162660523800,
-      "revenueGrowth": 0.2565,
+      "revenueAvg": 162963560830,
+      "revenueGrowth": 0.2589,
       "epsAvg": 149.45,
       "epsGrowth": 0.0842,
       "analystCount": 27
@@ -40,8 +40,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2028-03-31",
-      "revenueAvg": 182023770760,
-      "revenueGrowth": 0.1718,
+      "revenueAvg": 182344592190,
+      "revenueGrowth": 0.1739,
       "epsAvg": 204.16667,
       "epsGrowth": 0.3661,
       "analystCount": 28

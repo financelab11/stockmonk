@@ -1,0 +1,40 @@
+{
+  "ticker": "SNOW",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "SNOWFLAKE INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000008/snow-20260131.htm",
+    "date": "2026-03-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 4683946000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 3523974000,
+      "share": 0.7523515429084793
+    },
+    {
+      "name": "EMEA",
+      "revenue": 763650000,
+      "share": 0.16303561142677564
+    },
+    {
+      "name": "Asia Pacific & Japan",
+      "revenue": 271044000,
+      "share": 0.05786659367977342
+    },
+    {
+      "name": "Other Americas",
+      "revenue": 125278000,
+      "share": 0.026746251984971645
+    }
+  ]
+}

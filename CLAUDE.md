@@ -97,6 +97,25 @@ pnpm build:growth-ranker # rebuild the 385-name forward-estimate snapshot
   growth ranker, watchlist, methodology and company pages live under More. The
   mobile bar is Discover, Screener, Watchlist, More. Header search is a global
   overlay that queries the US, India and GCC search indexes (`/` or Cmd/Ctrl+K).
+
+## Refreshing every dataset
+
+```bash
+FORCE_REFRESH=1 pnpm refresh      # EDGAR, SimFin, fallback, filings, consensus, segments, benchmark
+pnpm refresh:prices               # Yahoo closes for all 229 US names (SimFin prices lag ~1 week)
+FORCE_REFRESH=1 pnpm ingest:india # Screener + Yahoo, daily prices where available
+FORCE_REFRESH=1 pnpm ingest:gcc   # StockAnalysis + Yahoo; raise GCC_DELAY_MS on 429s
+pnpm refresh:ranker               # forward-growth raw cache (Screener + Yahoo)
+pnpm build:growth-ranker
+pnpm build:data && pnpm build:india && pnpm build:gcc && pnpm build:screener
+pnpm audit:freshness              # fails if a market's newest price is older than 3 days
+```
+
+`SKIP_PRICES=1` skips the price upsert when syncing Supabase. Known source gaps:
+PSTG and ACLX have no Yahoo history (delisted), CRNX last traded 2026-08-31,
+JBCHEPHARM has no current Yahoo quote, and ten MSM (Oman) names plus TAQA only
+get weekly/irregular history from StockAnalysis. These dates are last-traded,
+not failed refreshes.
 - Report section 10 is "Key takeaways and what to monitor" (not "the bottom
   line for learners").
 

@@ -13,13 +13,13 @@
   "quoteCurrency": "QAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 18.239999771118164,
-    "prevClose": 17.969999313354492,
-    "changePct": 0.015025067784116164,
-    "asOf": "2026-11-09",
+    "close": 18.219999313354492,
+    "prevClose": 18.190000534057617,
+    "changePct": 0.001649190677081469,
+    "asOf": "2026-11-18",
     "high52": 20.420000076293945,
     "low52": 15,
-    "marketCap": 165750000000,
+    "marketCap": 165570000000,
     "sharesOutstanding": 9090000000,
     "dividendYield": 0.0398
   },
@@ -1110,27 +1110,27 @@
     "interestCover": null,
     "freeCashFlowTtm": -64781760000,
     "ebitdaTtm": null,
-    "pe": 10.17,
+    "pe": 10.16,
     "evEbitda": null,
-    "evSales": 9.269194337736147,
+    "evSales": 9.264458243435246,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.0036690101892755678,
-    "returnYtd": -0.011092439929350495,
-    "return5y": 0.05164987177982838
+    "return1y": 0.028321304259740998,
+    "returnYtd": -0.012176793226256089,
+    "return5y": 0.060597736872357366
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "58th percentile revenue/EPS growth in the covered universe."
+      "detail": "57th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
       "label": "Profitability: High",
       "tone": "positive",
-      "detail": "80th percentile profitability metrics in the covered universe."
+      "detail": "81st percentile profitability metrics in the covered universe."
     },
     {
       "key": "cash",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/qse/QNBK/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/QNBK.QA",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:31.747Z"
+  "updatedAt": "2026-11-18T09:28:40.050Z"
 }

@@ -1,0 +1,35 @@
+{
+  "ticker": "WELL",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "WELLTOWER INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/766704/000076670426000010/well-20251231.htm",
+    "date": "2026-02-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Senior Housing Operating",
+      "revenue": 8452996000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 5897698000,
+      "share": 0.6977050503750386
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 1886954000,
+      "share": 0.22322901844505783
+    },
+    {
+      "name": "CA",
+      "revenue": 668344000,
+      "share": 0.07906593117990356
+    }
+  ]
+}

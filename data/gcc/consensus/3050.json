@@ -1,11 +1,11 @@
 {
   "ticker": "3050",
   "provider": "StockAnalysis.com consensus",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-18",
   "sourceUrl": "https://stockanalysis.com/quote/tadawul/3050/forecast/",
-  "targetMean": 20.15,
+  "targetMean": 20.1,
   "targetHigh": 23,
-  "targetLow": 16.9,
+  "targetLow": 16.7,
   "recommendationKey": "sell",
   "analystCount": 4,
   "distribution": {
@@ -19,8 +19,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 806000000,
-      "revenueGrowth": -0.071,
+      "revenueAvg": 870000000,
+      "revenueGrowth": 0.003,
       "epsAvg": 0.42,
       "epsGrowth": null,
       "analystCount": 4
@@ -38,8 +38,8 @@
   "history": [],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 806000000,
-    "revenueGrowth": -0.071,
+    "revenueAvg": 870000000,
+    "revenueGrowth": 0.003,
     "epsAvg": 0.42,
     "epsGrowth": null,
     "analystCount": 4

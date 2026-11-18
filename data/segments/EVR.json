@@ -1,0 +1,29 @@
+{
+  "ticker": "EVR",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "EVERCORE INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1360901/000162828026010273/evr-20251231.htm",
+    "date": "2026-02-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Investment Banking & Equities",
+      "revenue": 3689419000,
+      "share": 0.9508605999251563
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 103309000,
+      "share": 0.02662545450046958
+    },
+    {
+      "name": "Investment Management",
+      "revenue": 87356000,
+      "share": 0.022513945574374163
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

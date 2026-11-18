@@ -13,15 +13,15 @@
   "quoteCurrency": "QAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 4.3460001945495605,
-    "prevClose": 4.28000020980835,
-    "changePct": 0.01542055642660034,
-    "asOf": "2026-11-09",
+    "close": 4.300000190734863,
+    "prevClose": 4.300000190734863,
+    "changePct": 0,
+    "asOf": "2026-11-18",
     "high52": 4.939000129699707,
     "low52": 3.6449999809265137,
-    "marketCap": 17590000000,
+    "marketCap": 17400000000,
     "sharesOutstanding": 4050000000,
-    "dividendYield": 0.069
+    "dividendYield": 0.0698
   },
   "ttm": {
     "period": "TTM",
@@ -1110,21 +1110,21 @@
     "interestCover": null,
     "freeCashFlowTtm": 945000000,
     "ebitdaTtm": null,
-    "pe": 10.1,
+    "pe": 10,
     "evEbitda": null,
-    "evSales": 16.524789029535864,
+    "evSales": 16.474683544303797,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": 0.11880932826497537,
-    "returnYtd": 0.09378883791439718,
-    "return5y": -0.15211600674457815
+    "return1y": 0.14615684131503537,
+    "returnYtd": 0.08221168916515498,
+    "return5y": -0.16172626632008147
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Slow",
       "tone": "caution",
-      "detail": "18th percentile revenue/EPS growth in the covered universe."
+      "detail": "17th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1136,7 +1136,7 @@
       "key": "cash",
       "label": "Cash generation: High",
       "tone": "positive",
-      "detail": "88th percentile free-cash-flow margin."
+      "detail": "89th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1153,7 +1153,7 @@
   ],
   "multipleHistory": [
     {
-      "date": "2021-11-10",
+      "date": "2021-11-21",
       "pe": null,
       "evEbitda": null,
       "evSales": null,
@@ -1584,13 +1584,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/qse/CBQK/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/CBQK.QA",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:17:34.081Z"
+  "updatedAt": "2026-11-18T09:28:45.076Z"
 }

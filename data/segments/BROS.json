@@ -1,0 +1,24 @@
+{
+  "ticker": "BROS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "DUTCH BROS INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1866581/000186658126000006/bros-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Company Operated Shops",
+      "revenue": 1509329000,
+      "share": 0.9213568402090395
+    },
+    {
+      "name": "Franchising & Other",
+      "revenue": 128830000,
+      "share": 0.07864315979096047
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

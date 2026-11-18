@@ -13,13 +13,13 @@
   "quoteCurrency": "SAR",
   "isResearch": true,
   "latestPrice": {
-    "close": 161.89999389648438,
-    "prevClose": 157,
-    "changePct": 0.031210152206906816,
-    "asOf": "2026-11-09",
-    "high52": 224.5,
+    "close": 164.1999969482422,
+    "prevClose": 164.6999969482422,
+    "changePct": -0.0030358227642052205,
+    "asOf": "2026-11-18",
+    "high52": 216.6999969482422,
     "low52": 141,
-    "marketCap": 124050000000,
+    "marketCap": 125350000000,
     "sharesOutstanding": 766230000,
     "dividendYield": 0.0028000000000000004
   },
@@ -1110,21 +1110,21 @@
     "interestCover": 1.236671117044949,
     "freeCashFlowTtm": 2064030000,
     "ebitdaTtm": 2744920000,
-    "pe": 66.41,
-    "evEbitda": 43.42,
-    "evSales": 18.50422909618173,
+    "pe": 67.11,
+    "evEbitda": 44.03,
+    "evSales": 18.66130981150314,
     "pfcf": null,
     "fcfYield": null,
-    "return1y": -0.26901731494841785,
-    "returnYtd": -0.1180535444673898,
-    "return5y": 1.0580206975983661
+    "return1y": -0.22512464348101224,
+    "returnYtd": -0.10552433127601091,
+    "return5y": 1.087257597311182
   },
   "factorChips": [
     {
       "key": "growth",
       "label": "Growth: Moderate",
       "tone": "neutral",
-      "detail": "66th percentile revenue/EPS growth in the covered universe."
+      "detail": "67th percentile revenue/EPS growth in the covered universe."
     },
     {
       "key": "profitability",
@@ -1136,7 +1136,7 @@
       "key": "cash",
       "label": "Cash generation: High",
       "tone": "positive",
-      "detail": "86th percentile free-cash-flow margin."
+      "detail": "85th percentile free-cash-flow margin."
     },
     {
       "key": "balance",
@@ -1577,13 +1577,13 @@
     {
       "name": "StockAnalysis.com financial statements",
       "url": "https://stockanalysis.com/quote/tadawul/2082/financials/",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     },
     {
       "name": "Yahoo Finance price history",
       "url": "https://finance.yahoo.com/quote/2082.SR",
-      "date": "2026-11-09"
+      "date": "2026-11-18"
     }
   ],
-  "updatedAt": "2026-11-09T20:15:14.658Z"
+  "updatedAt": "2026-11-18T09:24:33.950Z"
 }

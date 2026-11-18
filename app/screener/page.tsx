@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Download, Search, ShieldCheck } from "lucide-react";
+import { ChevronDown, Download, Search, ShieldCheck } from "lucide-react";
 import { ColumnsMenu } from "@/components/screener/columns-menu";
 import { ScreenerControls } from "@/components/screener/screener-controls";
 import { ScreenerTable } from "@/components/screener/screener-table";
@@ -183,12 +183,23 @@ export default async function ScreenerPage({
         </div>
 
         <section id="methodology" className="mt-10 scroll-mt-24 border-t border-line pt-8">
-          <div className="max-w-3xl">
-            <p className="kicker">Model architecture</p>
-            <h2 className="display mt-2 text-[28px] leading-tight tracking-[-0.02em] text-ink">
-              Five factors, explicit weights, visible parameters
-            </h2>
-            <p className="mt-2 text-[12.5px] leading-relaxed text-muted">
+          <details className="group">
+          <summary className="flex cursor-pointer list-none items-start justify-between gap-3">
+            <div>
+              <p className="kicker">Model architecture</p>
+              <h2 className="display mt-2 text-[24px] leading-tight tracking-[-0.02em] text-ink sm:text-[28px]">
+                Five factors, explicit weights, visible parameters
+              </h2>
+              <p className="mt-1 text-[11.5px] leading-relaxed text-muted">
+                Expand to read how the scores are built.
+              </p>
+            </div>
+            <span className="mt-1 inline-flex size-8 shrink-0 items-center justify-center rounded-full border border-line text-muted transition-transform group-open:rotate-180">
+              <ChevronDown aria-hidden="true" className="size-4" />
+            </span>
+          </summary>
+          <div className="mt-5 max-w-3xl">
+            <p className="text-[12.5px] leading-relaxed text-muted">
               Raw parameters are winsorized at the 2nd and 98th percentile and
               converted to 0–100 percentiles within the company&apos;s coverage group
               where enough peers exist, otherwise across the full universe.
@@ -237,6 +248,7 @@ export default async function ScreenerPage({
             investment recommendations. The model does not use Stockmonk ratings
             or price targets.
           </p>
+          </details>
         </section>
 
         <div className="mt-8">

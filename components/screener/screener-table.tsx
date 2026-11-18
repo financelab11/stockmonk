@@ -96,7 +96,7 @@ export function ScreenerTable({
   const activeFactor =
     params.view === "overview" ? null : factors.find((factor) => factor.key === params.view) ?? factors[0];
   const view = activeFactor?.key ?? "overview";
-  const pageSize = 20;
+  const pageSize = 100;
 
   const sortValue = (row: ScreenerRow): number | string | null => {
     if (params.sort === "rank") return row.rank;
@@ -178,7 +178,7 @@ export function ScreenerTable({
         role="region"
         aria-label="Screener results table"
         tabIndex={0}
-        className="relative max-h-[calc(100vh-19rem)] min-h-[360px] overflow-auto rounded-xl border border-line bg-surface focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+        className="relative max-h-[calc(100vh-11rem)] min-h-[480px] overflow-auto rounded-xl border border-line bg-surface focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand sm:min-h-[560px]"
       >
         <table className="w-full min-w-max border-collapse text-left">
           <caption className="sr-only">US equity screener with factor and financial columns</caption>
@@ -213,7 +213,7 @@ export function ScreenerTable({
               </tr>
               <tr className="border-b border-line bg-paper-deep">
                 <th scope="col" className="sticky left-0 top-7 z-30 h-9 w-10 border-r border-line bg-paper-deep px-2 text-[10px] font-semibold text-muted">#</th>
-                <th scope="col" className="sticky left-10 top-7 z-30 h-9 min-w-[200px] border-r border-line bg-paper-deep px-2 text-[10px] font-semibold uppercase tracking-[0.06em] shadow-[6px_0_10px_-9px_rgb(18_18_43_/_0.45)]">
+                <th scope="col" className="sticky left-10 top-7 z-30 h-9 min-w-[124px] border-r border-line bg-paper-deep px-2 text-[10px] font-semibold uppercase tracking-[0.06em] shadow-[6px_0_10px_-9px_rgb(18_18_43_/_0.45)] sm:min-w-[200px]">
                   <a href={sortHref("name")} className={params.sort === "name" ? "text-ink" : "text-muted hover:text-ink"}>
                     Company
                     {params.sort === "name" ? (params.dir === "desc" ? " ↓" : " ↑") : ""}
@@ -236,7 +236,7 @@ export function ScreenerTable({
             <thead>
               <tr className="border-b border-line bg-paper-deep">
                 <th scope="col" className="sticky left-0 top-0 z-30 h-9 w-10 border-r border-line bg-paper-deep px-2 text-[10px] font-semibold text-muted">#</th>
-                <th scope="col" className="sticky left-10 top-0 z-30 h-9 min-w-[200px] border-r border-line bg-paper-deep px-2 text-[10px] font-semibold uppercase tracking-[0.06em] shadow-[6px_0_10px_-9px_rgb(18_18_43_/_0.45)]">
+                <th scope="col" className="sticky left-10 top-0 z-30 h-9 min-w-[124px] border-r border-line bg-paper-deep px-2 text-[10px] font-semibold uppercase tracking-[0.06em] shadow-[6px_0_10px_-9px_rgb(18_18_43_/_0.45)] sm:min-w-[200px]">
                   <a href={sortHref("name")} className={params.sort === "name" ? "text-ink" : "text-muted hover:text-ink"}>
                     Company
                     {params.sort === "name" ? (params.dir === "desc" ? " ↓" : " ↑") : ""}
@@ -273,21 +273,21 @@ export function ScreenerTable({
                 <td className="sticky left-0 z-10 w-10 border-r border-line bg-surface px-1.5 py-2.5 tabular text-[11px] text-muted group-hover:bg-paper-deep">
                   {row.rank}
                 </td>
-                <td className="sticky left-10 z-10 w-[236px] min-w-[236px] max-w-[236px] border-r border-line bg-surface px-2 py-2.5 shadow-[6px_0_10px_-9px_rgb(18_18_43_/_0.35)] group-hover:bg-paper-deep">
+                <td className="sticky left-10 z-10 w-[124px] min-w-[124px] max-w-[124px] border-r border-line bg-surface px-2 py-2.5 shadow-[6px_0_10px_-9px_rgb(18_18_43_/_0.35)] group-hover:bg-paper-deep sm:w-[236px] sm:min-w-[236px] sm:max-w-[236px]">
                   <div className="flex items-center gap-2">
                     <StockLogoStatic ticker={row.ticker} size={28} />
                     <div className="min-w-0">
                       <a
                         href={`/stocks/${row.ticker}`}
                         title={row.name}
-                        className="block truncate text-[14px] font-semibold leading-tight text-ink hover:text-brand"
+                        className="block truncate text-[13px] font-semibold leading-tight text-ink hover:text-brand sm:text-[14px]"
                       >
                         {row.name}
                       </a>
                       <span className="mt-0.5 flex items-center gap-1.5 text-[11px] leading-tight text-muted">
                         <span className="font-mono font-medium text-ink-soft">{row.ticker}</span>
-                        <span aria-hidden="true" className="text-line-strong">·</span>
-                        <span className="truncate">{row.group}</span>
+                        <span aria-hidden="true" className="hidden text-line-strong sm:inline">·</span>
+                        <span className="hidden truncate sm:inline">{row.group}</span>
                       </span>
                     </div>
                   </div>

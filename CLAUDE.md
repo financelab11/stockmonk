@@ -93,6 +93,11 @@ pnpm build:growth-ranker # rebuild the 385-name forward-estimate snapshot
 - Discover leads with the research library, not a Pro upsell. Pro appears once,
   after the results. Prices are labelled "vs prior close" and fundamentals say
   "(TTM)" so a percentage never appears without a period.
+- Every market page opens with the market selector (US, India, GCC) fed by live
+  dataset counts, then the segmented Featured Research / Data Quality / All
+  Companies views. The directory defaults to 1Y returns, highest first, with
+  market cap as the tie-breaker and missing returns last. The active sort is
+  stated above the results and always notes that it is historical performance.
 - Navigation: primary nav is Discover and Screener. India, GCC, the growth
   ranker, watchlist, methodology and company pages live under More. The
   mobile bar is Discover, Screener, Watchlist, More. Header search is a global

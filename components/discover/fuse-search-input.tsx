@@ -82,7 +82,7 @@ export function FuseSearchInput({
 
   return (
     <div className="relative flex min-w-0 flex-1">
-      <div className="flex h-10 min-w-0 flex-1 items-center gap-2 rounded-lg border border-line bg-paper px-3">
+      <div className="flex h-11 min-w-0 flex-1 items-center gap-2 rounded-lg border border-line bg-paper px-3">
         <Search aria-hidden="true" className="size-4 shrink-0 text-muted" />
         <label htmlFor="discover-search" className="sr-only">
           Search companies
@@ -100,11 +100,11 @@ export function FuseSearchInput({
           form={formId}
           placeholder="Search ticker, name or sector…"
           autoComplete="off"
-          className="min-w-0 flex-1 bg-transparent text-[12.5px] text-ink outline-none placeholder:text-faint"
+          className="min-w-0 flex-1 bg-transparent text-[13px] text-ink outline-none placeholder:text-faint"
         />
       </div>
       {open && matches.length > 0 && (
-        <ul className="absolute left-0 right-0 top-11 z-30 overflow-hidden rounded-xl border border-line bg-surface shadow-float">
+        <ul className="absolute left-0 right-0 top-12 z-30 overflow-hidden rounded-xl border border-line bg-surface shadow-float">
           {matches.map((entry) => (
             <li key={entry.ticker}>
               <button

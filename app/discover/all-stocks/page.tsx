@@ -2,17 +2,19 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { StockCardStatic } from "@/components/cards/stock-card-static";
+import { DiscoveryTabs } from "@/components/discover/discovery-tabs";
 import { FilterForm } from "@/components/discover/filter-form";
+import { SortSummary } from "@/components/discover/sort-summary";
 import { SectorIcon } from "@/components/sectors/sector-icon";
-import { TabNav } from "@/components/ui/tab-nav";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { JsonLd } from "@/components/seo/json-ld";
 import { getUniverse } from "@/lib/data";
 import { filterUniverse, groupUniverse, parseSort } from "@/lib/discover";
+import { DEFAULT_SORT } from "@/lib/constants";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "All stocks",
+  title: "All companies",
   description:
     "The full Stockmonk US coverage universe, grouped by sector, with sourced price, growth, margin and valuation context for 229 companies.",
   alternates: { canonical: "/discover/all-stocks" },
@@ -39,6 +41,15 @@ export default async function AllStocksPage({
   const groups = groupUniverse(filtered);
   const expanded = Boolean(sector || q.trim());
 
+  const featuredCount = universe.filter((entry) => entry.isResearch).length;
+  const carried = new URLSearchParams();
+  if (q) carried.set("q", q);
+  if (sector) carried.set("sector", sector);
+  if (sort !== DEFAULT_SORT) carried.set("sort", sort);
+  const carry = carried.toString();
+  const featuredHref = carry ? `/discover?${carry}` : "/discover";
+  const screensHref = carry ? `/discover?tab=screens&${carry}` : "/discover?tab=screens";
+
   return (
     <>
       <JsonLd
@@ -62,7 +73,7 @@ export default async function AllStocksPage({
             <div>
               <p className="kicker">Coverage universe</p>
               <h1 className="display mt-1 text-[32px] leading-tight tracking-[-0.025em] text-ink sm:text-[40px]">
-                All Stocks ({universe.length})
+                All Companies ({universe.length})
               </h1>
               <p className="mt-1 max-w-2xl text-[12.5px] leading-relaxed text-muted">
                 Grouped by editorial sector. Every company gets a sourced
@@ -75,12 +86,36 @@ export default async function AllStocksPage({
             </Link>
           </div>
           <div className="mt-4">
-            <TabNav
-              active="/discover/all-stocks"
+            <DiscoveryTabs
+              active="all"
               items={[
-                { href: "/discover", label: "Featured Companies" },
-                { href: "/discover?tab=screens", label: "Data-Quality Screens" },
-                { href: "/discover/all-stocks", label: "All Stocks", count: universe.length },
+                {
+                  id: "featured",
+                  href: featuredHref,
+                  label: "Featured Research",
+                  icon: "star",
+                  count: featuredCount,
+                  description:
+                    "Companies with published research reports, financial analysis and valuation context.",
+                },
+                {
+                  id: "screens",
+                  href: screensHref,
+                  label: "Data Quality",
+                  icon: "shield",
+                  count: universe.length,
+                  description:
+                    "Explore companies based on financial data availability, reporting consistency and coverage quality.",
+                },
+                {
+                  id: "all",
+                  href: "/discover/all-stocks",
+                  label: "All Companies",
+                  icon: "layers",
+                  count: universe.length,
+                  description:
+                    "Explore the complete coverage universe with advanced filters and sorting.",
+                },
               ]}
             />
           </div>
@@ -89,12 +124,15 @@ export default async function AllStocksPage({
 
       <div className="container-page py-6">
         <FilterForm
+            key={`${q}|${sector}|${sort}`}
           action="/discover/all-stocks"
           q={q}
           sector={sector}
           sort={sort}
           count={filtered.length}
         />
+
+        <SortSummary sort={sort} total={filtered.length} />
 
         {groups.length === 0 ? (
           <div className="mt-4 rounded-xl border border-dashed border-line bg-surface p-6 text-center">

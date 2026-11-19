@@ -1,16 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { StockCardStatic } from "@/components/cards/stock-card-static";
+import { DiscoveryTabs } from "@/components/discover/discovery-tabs";
 import { FilterForm } from "@/components/discover/filter-form";
 import { RecentlyCarousel } from "@/components/discover/recently-carousel";
 import { ScreensPanel, type ScreenDetail } from "@/components/discover/screens-panel";
+import { SortSummary } from "@/components/discover/sort-summary";
 import { CardGuide } from "@/components/market/card-guide";
 import { MarketIntro } from "@/components/market/market-intro";
 import { MarketPagination } from "@/components/market/market-pagination";
 import { MarketProBanner } from "@/components/market/market-pro-banner";
+import { MarketSelector } from "@/components/market/market-selector";
 import { Accordion } from "@/components/ui/accordion";
 import { SectionHeader } from "@/components/ui/section-header";
-import { TabNav } from "@/components/ui/tab-nav";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { JsonLd } from "@/components/seo/json-ld";
 import {
@@ -21,7 +23,7 @@ import {
 } from "@/lib/data";
 import { filterUniverse, parseSort } from "@/lib/discover";
 import { getMarketCounts } from "@/lib/market-counts";
-import { SORT_OPTIONS } from "@/lib/constants";
+import { DEFAULT_SORT } from "@/lib/constants";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -73,11 +75,21 @@ export default async function DiscoverPage({
     const search = new URLSearchParams();
     if (q) search.set("q", q);
     if (sector) search.set("sector", sector);
-    if (sort !== "marketCap") search.set("sort", sort);
+    if (sort !== DEFAULT_SORT) search.set("sort", sort);
     if (nextPage > 1) search.set("page", String(nextPage));
     const query = search.toString();
     return query ? `/discover?${query}` : "/discover";
   };
+
+  const carried = new URLSearchParams();
+  if (q) carried.set("q", q);
+  if (sector) carried.set("sector", sector);
+  if (sort !== DEFAULT_SORT) carried.set("sort", sort);
+  const carry = carried.toString();
+  const featuredHref = carry ? `/discover?${carry}` : "/discover";
+  const screensHref = carry ? `/discover?tab=screens&${carry}` : "/discover?tab=screens";
+  const allHref = carry ? `/discover/all-stocks?${carry}` : "/discover/all-stocks";
+  const featuredCount = universe.filter((entry) => entry.isResearch).length;
 
   const details: Record<string, ScreenDetail> = Object.fromEntries(
     companies.map((company) => [
@@ -132,9 +144,9 @@ export default async function DiscoverPage({
         title="Discover companies. Understand businesses."
         description={`Explore ${universe.length} US-listed companies through structured financial research. Compare growth, profitability, cash generation and valuation, with the source and reporting period shown next to the numbers.`}
         meta="Filings-based · third-party estimates attributed and dated · no buy or sell ratings"
-        active="US"
-        counts={counts}
       />
+
+      <MarketSelector active="US" counts={counts} />
 
       <section className="container-page py-6">
         <div className="flex items-end justify-between gap-3">
@@ -158,12 +170,36 @@ export default async function DiscoverPage({
       </section>
 
       <div className="container-page" id="directory">
-        <TabNav
-          active={tab === "screens" ? "/discover?tab=screens" : "/discover"}
+        <DiscoveryTabs
+          active={tab === "screens" ? "screens" : "featured"}
           items={[
-            { href: "/discover", label: "Featured Companies" },
-            { href: "/discover?tab=screens", label: "Data-Quality Screens" },
-            { href: "/discover/all-stocks", label: "All Stocks", count: universe.length },
+            {
+              id: "featured",
+              href: featuredHref,
+              label: "Featured Research",
+              icon: "star",
+              count: featuredCount,
+              description:
+                "Companies with published research reports, financial analysis and valuation context.",
+            },
+            {
+              id: "screens",
+              href: screensHref,
+              label: "Data Quality",
+              icon: "shield",
+              count: universe.length,
+              description:
+                "Explore companies based on financial data availability, reporting consistency and coverage quality.",
+            },
+            {
+              id: "all",
+              href: allHref,
+              label: "All Companies",
+              icon: "layers",
+              count: universe.length,
+              description:
+                "Explore the complete coverage universe with advanced filters and sorting.",
+            },
           ]}
         />
 
@@ -174,6 +210,7 @@ export default async function DiscoverPage({
         ) : (
           <div className="mt-4">
             <FilterForm
+            key={`${q}|${sector}|${sort}`}
               action="/discover"
               q={q}
               sector={sector}
@@ -182,11 +219,7 @@ export default async function DiscoverPage({
             />
             <CardGuide scope="the covered universe" />
 
-            <div className="mt-2 flex flex-wrap items-center justify-end gap-2">
-              <p className="text-[10.5px] text-muted">
-                Sorted by {SORT_OPTIONS.find((option) => option.value === sort)?.label ?? sort}
-              </p>
-            </div>
+            <SortSummary sort={sort} total={allFiltered.length} shown={filtered.length} />
             {allFiltered.length === 0 ? (
               <div className="mt-3 rounded-xl border border-dashed border-line bg-surface p-6 text-center">
                 <p className="text-[13px] font-semibold text-ink">No companies match those filters.</p>

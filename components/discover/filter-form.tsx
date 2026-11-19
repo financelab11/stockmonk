@@ -1,9 +1,9 @@
 "use client";
 
 import { useRef } from "react";
-import { X } from "lucide-react";
+import { ArrowDownWideNarrow, X } from "lucide-react";
 import { SECTOR_GROUPS } from "@/config/sectors";
-import { SORT_OPTIONS, type SortOption } from "@/lib/constants";
+import { DEFAULT_SORT, SORT_OPTIONS, type SortOption } from "@/lib/constants";
 import { FuseSearchInput } from "./fuse-search-input";
 
 export function FilterForm({
@@ -27,7 +27,7 @@ export function FilterForm({
 }) {
   const formRef = useRef<HTMLFormElement>(null);
   const submit = () => formRef.current?.requestSubmit();
-  const hasFilters = Boolean(q || sector || sort !== "marketCap");
+  const hasFilters = Boolean(q || sector || sort !== DEFAULT_SORT);
   const sectorLabel = sectors.find((group) => group.id === sector)?.shortName ?? sector;
   const sortLabel = SORT_OPTIONS.find((option) => option.value === sort)?.label ?? sort;
 
@@ -35,7 +35,7 @@ export function FilterForm({
     const params = new URLSearchParams();
     if (q && key !== "q") params.set("q", q);
     if (sector && key !== "sector") params.set("sector", sector);
-    if (sort !== "marketCap" && key !== "sort") params.set("sort", sort);
+    if (sort !== DEFAULT_SORT && key !== "sort") params.set("sort", sort);
     const query = params.toString();
     return query ? `${action}?${query}` : action;
   };
@@ -43,7 +43,7 @@ export function FilterForm({
   const chips: Array<{ key: "q" | "sector" | "sort"; label: string }> = [];
   if (q) chips.push({ key: "q", label: `“${q}”` });
   if (sector) chips.push({ key: "sector", label: sectorLabel });
-  if (sort !== "marketCap") chips.push({ key: "sort", label: sortLabel });
+  if (sort !== DEFAULT_SORT) chips.push({ key: "sort", label: sortLabel });
 
   return (
     <form
@@ -51,7 +51,7 @@ export function FilterForm({
       id="filter-form"
       action={action}
       method="get"
-      className="rounded-xl border border-line bg-surface p-3"
+      className="rounded-xl border border-line bg-surface p-3 shadow-sm"
     >
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
         <FuseSearchInput
@@ -62,19 +62,19 @@ export function FilterForm({
 
         <button
           type="submit"
-          className="btn btn-primary h-10 min-h-0 shrink-0 px-4 text-[12px]"
+          className="btn btn-primary h-11 min-h-0 shrink-0 px-4 text-[12px]"
         >
           Search
         </button>
 
         {showSector && (
-          <label className="flex h-10 items-center gap-1.5 rounded-lg border border-line bg-paper px-2.5 text-[11.5px] text-muted">
+          <label className="flex h-11 min-w-0 items-center gap-1.5 rounded-lg border border-line bg-paper px-3 text-[11.5px] text-muted">
             <span className="sr-only">Filter by sector</span>
             <select
               name="sector"
               defaultValue={sector}
               onChange={submit}
-              className="max-w-[160px] bg-transparent text-[11.5px] font-medium text-ink outline-none"
+              className="w-full max-w-[170px] bg-transparent text-[11.5px] font-medium text-ink outline-none"
             >
               <option value="">All sectors</option>
               {sectors.map((group) => (
@@ -86,13 +86,14 @@ export function FilterForm({
           </label>
         )}
 
-        <label className="flex h-10 items-center gap-1.5 rounded-lg border border-line bg-paper px-2.5 text-[11.5px] text-muted">
+        <label className="flex h-11 min-w-0 items-center gap-1.5 rounded-lg border border-line bg-paper px-3 text-[11.5px] text-muted">
+          <ArrowDownWideNarrow aria-hidden="true" className="size-3.5 shrink-0 text-faint" />
           <span className="sr-only">Sort companies</span>
           <select
             name="sort"
             defaultValue={sort}
             onChange={submit}
-            className="bg-transparent text-[11.5px] font-medium text-ink outline-none"
+            className="w-full max-w-[210px] bg-transparent text-[11.5px] font-medium text-ink outline-none"
           >
             {SORT_OPTIONS.map((option) => (
               <option key={option.value} value={option.value}>
@@ -103,9 +104,10 @@ export function FilterForm({
         </label>
       </div>
 
-      <div className="mt-2 flex flex-wrap items-center gap-2">
+      <div className="mt-2.5 flex flex-wrap items-center gap-2">
         <p className="text-[10.5px] text-muted">
-          {count} {count === 1 ? "company" : "companies"} match the current filters.
+          <span className="tabular font-semibold text-ink">{count}</span>{" "}
+          {count === 1 ? "company matches" : "companies match"} the current filters.
         </p>
         {chips.length > 0 && (
           <div className="flex flex-wrap items-center gap-1.5">
@@ -113,18 +115,18 @@ export function FilterForm({
               <a
                 key={chip.key}
                 href={hrefWithout(chip.key)}
-                className="inline-flex items-center gap-1 rounded-full border border-line bg-paper px-2 py-0.5 text-[10.5px] font-medium text-ink-soft hover:border-brand/40 hover:text-ink"
+                className="inline-flex items-center gap-1 rounded-full border border-brand/30 bg-brand-soft px-2 py-0.5 text-[10.5px] font-medium text-brand-deep hover:border-brand/60"
               >
                 {chip.label}
-                <X aria-hidden="true" className="size-3 text-muted" />
+                <X aria-hidden="true" className="size-3 text-brand" />
                 <span className="sr-only">Remove filter</span>
               </a>
             ))}
             <a
               href={action}
-              className="text-[10.5px] font-semibold text-brand hover:text-brand-deep"
+              className="inline-flex items-center gap-1 rounded-full border border-line bg-paper px-2 py-0.5 text-[10.5px] font-semibold text-muted hover:border-brand/40 hover:text-ink"
             >
-              Clear all
+              Clear all filters
             </a>
           </div>
         )}

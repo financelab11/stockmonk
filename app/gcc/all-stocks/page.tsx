@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { StockCardStatic } from "@/components/cards/stock-card-static";
+import { DiscoveryTabs } from "@/components/discover/discovery-tabs";
 import { FilterForm } from "@/components/discover/filter-form";
+import { SortSummary } from "@/components/discover/sort-summary";
 import { SectorIcon } from "@/components/sectors/sector-icon";
-import { TabNav } from "@/components/ui/tab-nav";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { JsonLd } from "@/components/seo/json-ld";
 import { getGccUniverse } from "@/lib/gcc-data";
@@ -80,12 +81,36 @@ export default async function GccAllStocksPage({
             </Link>
           </div>
           <div className="mt-4">
-            <TabNav
-              active="/gcc/all-stocks"
+            <DiscoveryTabs
+              active="all"
               items={[
-                { href: "/gcc", label: "Featured Companies" },
-                { href: "/gcc?tab=screens", label: "Data-Quality Screens" },
-                { href: "/gcc/all-stocks", label: "All Stocks", count: universe.length },
+                {
+                  id: "featured",
+                  href: "/gcc",
+                  label: "Featured Research",
+                  icon: "star",
+                  count: universe.filter((entry) => entry.isResearch).length,
+                  description:
+                    "Companies with published research reports, financial analysis and valuation context.",
+                },
+                {
+                  id: "screens",
+                  href: "/gcc?tab=screens",
+                  label: "Data Quality",
+                  icon: "shield",
+                  count: universe.length,
+                  description:
+                    "Explore companies based on financial data availability, reporting consistency and coverage quality.",
+                },
+                {
+                  id: "all",
+                  href: "/gcc/all-stocks",
+                  label: "All Companies",
+                  icon: "layers",
+                  count: universe.length,
+                  description:
+                    "Explore the complete coverage universe with advanced filters and sorting.",
+                },
               ]}
             />
           </div>
@@ -94,6 +119,7 @@ export default async function GccAllStocksPage({
 
       <div className="container-page py-6">
         <FilterForm
+            key={`${q}|${sector}|${sort}`}
           action="/gcc/all-stocks"
           q={q}
           sector={sector}
@@ -102,6 +128,8 @@ export default async function GccAllStocksPage({
           sectors={GCC_GROUPS}
           searchIndexPath="/data/gcc/search-index.json"
         />
+
+        <SortSummary sort={sort} total={filtered.length} />
 
         {groups.length === 0 ? (
           <div className="mt-4 rounded-xl border border-dashed border-line bg-surface p-6 text-center">

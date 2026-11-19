@@ -1,6 +1,6 @@
 import { INDIA_COVERAGE_GROUPS, getIndiaCoverageGroup } from "@/config/india-coverage";
 import { matchesQuery, parseSort, sortEntries } from "./discover";
-import type { SortOption } from "./constants";
+import { DEFAULT_SORT, type SortOption } from "./constants";
 import type { UniverseEntry } from "./schemas";
 
 export { parseSort };
@@ -10,7 +10,7 @@ export function filterIndiaUniverse(
   {
     q = "",
     sector = "",
-    sort = "marketCap",
+    sort = DEFAULT_SORT,
     researchOnly = false,
   }: {
     q?: string;

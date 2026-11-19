@@ -1,11 +1,11 @@
 import { getSectorGroup, getSectorGroupsWithTickers } from "@/config/sectors";
-import { SORT_OPTIONS, type SortOption } from "./constants";
+import { DEFAULT_SORT, SORT_OPTIONS, type SortOption } from "./constants";
 import type { UniverseEntry } from "./schemas";
 
 export function parseSort(value: string | undefined): SortOption {
   return SORT_OPTIONS.some((option) => option.value === value)
     ? (value as SortOption)
-    : "marketCap";
+    : DEFAULT_SORT;
 }
 
 export function matchesQuery(entry: UniverseEntry, query: string): boolean {
@@ -19,17 +19,37 @@ export function matchesQuery(entry: UniverseEntry, query: string): boolean {
     .every((token) => haystack.includes(token));
 }
 
+/**
+ * Descending sorts treat a missing value as the lowest rank, so companies
+ * without the metric (for example no 1Y return) sit at the bottom. Market cap
+ * breaks ties, then the company name keeps the order stable.
+ */
 export function sortEntries(
   entries: UniverseEntry[],
   sort: SortOption,
 ): UniverseEntry[] {
+  const metric = (entry: UniverseEntry): number | null => {
+    if (sort === "growth") return entry.revenueGrowthTtm;
+    if (sort === "margin") return entry.operatingMargin;
+    if (sort === "return1y") return entry.return1y;
+    if (sort === "revenue") return entry.revenueTtm;
+    return entry.marketCap;
+  };
+  const byMarketCap = (a: UniverseEntry, b: UniverseEntry) =>
+    (b.marketCap ?? -Infinity) - (a.marketCap ?? -Infinity);
+  const byName = (a: UniverseEntry, b: UniverseEntry) => a.name.localeCompare(b.name);
+
   return [...entries].sort((a, b) => {
-    if (sort === "name") return a.name.localeCompare(b.name);
-    if (sort === "growth") return (b.revenueGrowthTtm ?? -Infinity) - (a.revenueGrowthTtm ?? -Infinity);
-    if (sort === "margin") return (b.operatingMargin ?? -Infinity) - (a.operatingMargin ?? -Infinity);
-    if (sort === "return1y") return (b.return1y ?? -Infinity) - (a.return1y ?? -Infinity);
-    if (sort === "revenue") return (b.revenueTtm ?? -Infinity) - (a.revenueTtm ?? -Infinity);
-    return (b.marketCap ?? -Infinity) - (a.marketCap ?? -Infinity);
+    if (sort === "name") return byName(a, b);
+
+    const delta = (metric(b) ?? -Infinity) - (metric(a) ?? -Infinity);
+    if (delta !== 0) return delta;
+
+    if (sort !== "marketCap") {
+      const capDelta = byMarketCap(a, b);
+      if (capDelta !== 0) return capDelta;
+    }
+    return byName(a, b);
   });
 }
 
@@ -38,7 +58,7 @@ export function filterUniverse(
   {
     q = "",
     sector = "",
-    sort = "marketCap",
+    sort = DEFAULT_SORT,
     researchOnly = false,
   }: {
     q?: string;

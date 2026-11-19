@@ -68,15 +68,18 @@ export const RANGE_LABELS: Record<PriceRange, string> = {
 };
 
 export const SORT_OPTIONS = [
-  { value: "marketCap", label: "Market cap" },
-  { value: "revenue", label: "Revenue" },
-  { value: "growth", label: "Revenue growth" },
-  { value: "margin", label: "Operating margin" },
-  { value: "return1y", label: "1-year return" },
-  { value: "name", label: "Name" },
+  { value: "return1y", label: "1Y returns — highest to lowest" },
+  { value: "marketCap", label: "Market cap — highest to lowest" },
+  { value: "growth", label: "Revenue growth — highest to lowest" },
+  { value: "margin", label: "Profitability — highest to lowest" },
+  { value: "name", label: "Company name — A to Z" },
+  { value: "revenue", label: "Revenue — highest to lowest" },
 ] as const;
 
 export type SortOption = (typeof SORT_OPTIONS)[number]["value"];
+
+/** Historical 12-month returns lead the directory; market cap breaks ties. */
+export const DEFAULT_SORT: SortOption = "return1y";
 
 export const ARTICLE_SECTIONS = [
   { id: "big-picture", number: "01", title: "The big picture" },

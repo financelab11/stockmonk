@@ -5,7 +5,7 @@ import { SupportingProfile } from "@/components/article/supporting-profile";
 import { JsonLd } from "@/components/seo/json-ld";
 import { getStockStory } from "@/content/stocks";
 import { generateStockStory } from "@/lib/generated-story";
-import { RESEARCH_TICKERS } from "@/config/universe";
+import { ALL_TICKERS, BENCHMARK_TICKER, RESEARCH_TICKERS } from "@/config/universe";
 import {
   getNewsfeed,
   getPrices,
@@ -17,6 +17,13 @@ import { articleJsonLd, breadcrumbJsonLd, profilePageJsonLd } from "@/lib/seo";
 import { resolveStory } from "@/lib/story-tokens";
 
 export const revalidate = 3600;
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return ALL_TICKERS.filter((ticker) => ticker !== BENCHMARK_TICKER).map(
+    (ticker) => ({ ticker }),
+  );
+}
 
 export async function generateMetadata({
   params,

@@ -4,10 +4,15 @@ import { notFound } from "next/navigation";
 import { ArrowUpRight, FileText } from "lucide-react";
 import { BrokerLogo } from "@/components/brokers/broker-logo";
 import { Disclaimer } from "@/components/ui/disclaimer";
-import { getBrokerReport } from "@/lib/broker-reports";
+import { getBrokerReport, getBrokerReportIndex } from "@/lib/broker-reports";
 import { formatDate } from "@/lib/format";
 
-export const revalidate = 900;
+export const dynamic = "force-static";
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return getBrokerReportIndex().map((report) => ({ id: report.id }));
+}
 
 export async function generateMetadata({
   params,

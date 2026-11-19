@@ -15,6 +15,11 @@ import { resolveStory } from "@/lib/story-tokens";
 import { BrokerResearch } from "@/components/company/broker-research";
 
 export const revalidate = 3600;
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return INDIA_TICKERS.map((ticker) => ({ ticker }));
+}
 
 export async function generateMetadata({
   params,

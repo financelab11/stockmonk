@@ -13,6 +13,11 @@ import { articleJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 import { resolveStory } from "@/lib/story-tokens";
 
 export const revalidate = 3600;
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return GCC_PUBLISHED_TICKERS.map((ticker) => ({ ticker }));
+}
 
 export async function generateMetadata({
   params,

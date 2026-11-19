@@ -190,6 +190,34 @@ export const universeEntrySchema = z.object({
 
 export type UniverseEntry = z.infer<typeof universeEntrySchema>;
 
+export const earningsTrackerRowSchema = z.object({
+  ticker: z.string(),
+  name: z.string(),
+  industry: z.string(),
+  period: z.string().nullable(),
+  reportDate: z.string().nullable(),
+  salesGrowth: z.number().nullable(),
+  ebitdaGrowth: z.number().nullable(),
+  netProfitGrowth: z.number().nullable(),
+  epsGrowth: z.number().nullable(),
+  marketCap: z.number().nullable(),
+  pe: z.number().nullable(),
+  roce: z.number().nullable(),
+  peg: z.number().nullable(),
+  return1y: z.number().nullable(),
+  source: z.enum(["filings", "screener-export"]),
+});
+
+export type EarningsTrackerRow = z.infer<typeof earningsTrackerRowSchema>;
+
+export const earningsTrackerSchema = z.object({
+  generatedAt: z.string(),
+  asOf: z.string().nullable(),
+  source: z.enum(["filings", "screener-export", "mixed"]),
+  rows: z.array(earningsTrackerRowSchema),
+});
+
+
 export const mixSliceSchema = z.object({
   name: z.string(),
   revenue: z.number(),

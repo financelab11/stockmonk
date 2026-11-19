@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/screener`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE.url}/india`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE.url}/india/all-stocks`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
+    { url: `${SITE.url}/india/earnings-tracker`, lastModified: now, changeFrequency: "daily", priority: 0.7 },
     { url: `${SITE.url}/tools/growth-ranker`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
     { url: `${SITE.url}/gcc`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE.url}/gcc/all-stocks`, lastModified: now, changeFrequency: "daily", priority: 0.8 },

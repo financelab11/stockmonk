@@ -110,6 +110,12 @@ export default async function IndiaAllStocksPage({
                   description:
                     "Explore the complete coverage universe with advanced filters and sorting.",
                 },
+                {
+                  id: "earnings",
+                  href: "/india/earnings-tracker",
+                  label: "Earnings Tracker",
+                  icon: "chart",
+                },
               ]}
             />
           </div>

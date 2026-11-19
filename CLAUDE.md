@@ -121,6 +121,25 @@ JBCHEPHARM has no current Yahoo quote, and ten MSM (Oman) names plus TAQA only
 get weekly/irregular history from StockAnalysis. These dates are last-traded,
 not failed refreshes.
 
+## India earnings tracker
+
+- `pnpm build:earnings` writes `data/india/earnings-tracker.json` from the India
+  filings dataset: latest reported quarter vs the same quarter a year earlier
+  for sales, EBITDA, net profit and EPS, plus market cap, P/E, ROCE (where the
+  source reports it), PEG (calculated as P/E ÷ EPS growth) and 1Y return.
+- An authorised Screener export can be dropped into
+  `data/india/earnings-tracker-source/*.csv`; the builder maps columns by name,
+  converts percentages to fractions and market cap from ₹ crore to rupees, and
+  merges those rows over the filings data. The page labels the source it used.
+- `/india/earnings-tracker` filters and paginates server-side, defaults to
+  companies that reported in the last 12 months (with an opt-out), states the
+  active sort above the table and exports the filtered view as CSV.
+- Do not scrape or repackage Screener.in or Tijori Finance data. Both sites'
+  terms prohibit copying and public display of their material, even from pages
+  that are publicly viewable; robots.txt is not a redistribution licence.
+  Full-market coverage needs a licensed feed or exchange filings ingested as
+  Stockmonk's own data.
+
 ## Research report freshness
 - `pnpm audit:stories` compares every story's newest quarter and explicit price
   with the dataset; it exits non-zero when a report is behind.

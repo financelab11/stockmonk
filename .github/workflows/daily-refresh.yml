@@ -50,6 +50,9 @@ jobs:
         env:
           SIMFIN_API_KEY: ${{ secrets.SIMFIN_API_KEY }}
 
+      - name: Build India earnings tracker
+        run: pnpm build:earnings
+
       - name: Refresh GCC coverage
         run: pnpm ingest:gcc
         env:

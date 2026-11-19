@@ -67,6 +67,7 @@ Lighthouse difference.
 | `/stocks/[ticker]` | Ten-section research report for all 229 US coverage names |
 | `/india` | Featured India research, data-quality screens and search |
 | `/india/all-stocks` | Full India universe grouped by sector |
+| `/india/earnings-tracker` | Latest-quarter growth table with per-metric filters and CSV export |
 | `/india/stocks/[ticker]` | Ten-section research report for all 100 India names |
 | `/gcc` | GCC Stocks: featured research, data-quality screens and the GCC universe |
 | `/gcc/all-stocks` | Full GCC directory grouped by market and sector |

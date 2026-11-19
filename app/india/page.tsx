@@ -196,6 +196,12 @@ export default async function IndiaDiscoverPage({
                 "Explore the complete coverage universe with advanced filters and sorting.",
             },
             {
+              id: "earnings",
+              href: "/india/earnings-tracker",
+              label: "Earnings Tracker",
+              icon: "chart",
+            },
+            {
               id: "ranker",
               href: "/tools/growth-ranker",
               label: "Growth Ranker",

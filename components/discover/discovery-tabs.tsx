@@ -1,11 +1,12 @@
 import Link from "next/link";
-import { Layers, ShieldCheck, Star, TrendingUp } from "lucide-react";
+import { BarChart3, Layers, ShieldCheck, Star, TrendingUp } from "lucide-react";
 
 const ICONS = {
   star: Star,
   shield: ShieldCheck,
   layers: Layers,
   trending: TrendingUp,
+  chart: BarChart3,
 } as const;
 
 export type DiscoveryTab = {

@@ -133,12 +133,20 @@ not failed refreshes.
   currently ~1,614 companies). It is deliberately polite: one request at a
   time, `SCREENER_DELAY_MS` between requests (default 1.2s), retries with
   backoff on throttling, no retry on 404, consolidated pages with a standalone
-  fallback, and a resumable daily cache in `data/india/.screener-cache/`
-  (gitignored). The weekly `screener-earnings.yml` workflow runs the crawl and
-  commits the refreshed JSON; the daily refresh rebuilds the tracker from it.
-- The crawl is permitted under written authorisation from Screener.in/Mittal
-  Analytics. Do not extend it to Tijori Finance or any other source without an
-  equivalent licence; Tijori's terms forbid copying and public display.
+  fallback, and a resumable cache in `data/india/.screener-cache/` (gitignored).
+  Screen rows refresh daily; company pages have a 7-day TTL
+  (`SCREENER_COMPANY_TTL_DAYS`), so a daily run does a full refresh every week.
+- `pnpm refresh:earnings-prices` pulls two years of daily closes from Yahoo
+  Finance (`TICKER.NS`, falling back to `TICKER.BO`; numeric BSE codes use
+  `.BO`), takes the latest close and the close a year earlier, and writes
+  `data/india/earnings-prices.json` with the computed 1Y return. One request
+  per company with a daily cache in `data/india/.price-cache/`. Companies with
+  no Yahoo series (for example unlisted JPL) keep a blank 1Y return.
+- The daily `earnings-daily.yml` workflow (13:30 UTC, Monday–Friday) refreshes
+  prices, refreshes the screen, rebuilds the tracker and commits the three
+  JSON files. The crawl is permitted under written authorisation from
+  Screener.in/Mittal Analytics; do not extend it to Tijori Finance or any other
+  source without an equivalent licence.
 - Fields: sales, operating profit (EBITDA), net profit and EPS year-on-year,
   market cap, P/E, ROCE and industry from Screener; PEG is calculated as
   P/E ÷ EPS growth. 1Y return comes from Stockmonk prices and is blank where we

@@ -288,10 +288,34 @@ function fillMissing(
   };
 }
 
+function readPrices(): {
+  byTicker: Map<string, { return1y: number; price: number; asOf: string }>;
+  asOf: string | null;
+} {
+  const file = path.join(process.cwd(), "data", "india", "earnings-prices.json");
+  if (!fs.existsSync(file)) return { byTicker: new Map(), asOf: null };
+  try {
+    const parsed = JSON.parse(fs.readFileSync(file, "utf8")) as {
+      asOf?: string | null;
+      rows?: Array<{ ticker: string; return1y: number; price: number; asOf: string }>;
+    };
+    const byTicker = new Map(
+      (parsed.rows ?? []).map((row) => [
+        row.ticker,
+        { return1y: row.return1y, price: row.price, asOf: row.asOf },
+      ]),
+    );
+    return { byTicker, asOf: parsed.asOf ?? null };
+  } catch {
+    return { byTicker: new Map(), asOf: null };
+  }
+}
+
 function main() {
   const filings = buildFromFilings();
   const { rows: screener, minMarketCapCr } = readScreenerRows();
   const exported = readExports();
+  const prices = readPrices();
 
   const merged = new Map(filings.map((row) => [row.ticker, row]));
   for (const row of screener) {
@@ -300,7 +324,12 @@ function main() {
   for (const row of exported) {
     merged.set(row.ticker, fillMissing(row, merged.get(row.ticker)));
   }
-  const rows = [...merged.values()].sort((a, b) => a.name.localeCompare(b.name));
+  const rows = [...merged.values()]
+    .map((row) => {
+      const price = prices.byTicker.get(row.ticker);
+      return price ? { ...row, return1y: price.return1y } : row;
+    })
+    .sort((a, b) => a.name.localeCompare(b.name));
 
   const asOf =
     rows
@@ -317,6 +346,7 @@ function main() {
     asOf,
     source,
     minMarketCapCr,
+    pricesAsOf: prices.asOf,
     rows,
   });
 

@@ -215,6 +215,7 @@ export const earningsTrackerSchema = z.object({
   asOf: z.string().nullable(),
   source: z.enum(["filings", "screener", "screener-export", "mixed"]),
   minMarketCapCr: z.number().nullable(),
+  pricesAsOf: z.string().nullable(),
   rows: z.array(earningsTrackerRowSchema),
 });
 

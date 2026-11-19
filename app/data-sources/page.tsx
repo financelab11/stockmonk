@@ -48,7 +48,12 @@ export default function DataSourcesPage() {
             <tr>
               <td className="font-medium text-ink">India earnings tracker</td>
               <td><a href="https://www.screener.in/screens/599148/companies-by-market-cap/" target="_blank" rel="noreferrer noopener" className="link-underline">Screener.in</a> (authorised)</td>
-              <td>Latest-quarter sales, operating profit, net profit, EPS, market cap, P/E, ROCE and industry for companies above ₹1,000 Cr, crawled weekly with permission. PEG is calculated by Stockmonk.</td>
+              <td>Latest-quarter sales, operating profit, net profit, EPS, market cap, P/E, ROCE and industry for companies above ₹1,000 Cr. The screen refreshes daily and company pages weekly. PEG is calculated by Stockmonk.</td>
+            </tr>
+            <tr>
+              <td className="font-medium text-ink">1Y returns</td>
+              <td><a href="https://finance.yahoo.com/" target="_blank" rel="noreferrer noopener" className="link-underline">Yahoo Finance</a></td>
+              <td>Daily closes for the earnings tracker; the 1Y return compares the latest close with the close a year earlier (NSE symbols, BSE fallback).</td>
             </tr>
             <tr>
               <td className="font-medium text-ink">Regulatory flows</td>

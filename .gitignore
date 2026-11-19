@@ -62,3 +62,6 @@ next-env.d.ts
 
 # Screener crawl cache (resumable, regenerated on demand)
 /data/india/.screener-cache/
+
+# Yahoo price cache for the earnings tracker
+/data/india/.price-cache/

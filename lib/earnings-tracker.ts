@@ -175,6 +175,7 @@ export type EarningsTrackerData = {
   asOf: string | null;
   source: "filings" | "screener" | "screener-export" | "mixed";
   minMarketCapCr: number | null;
+  pricesAsOf: string | null;
   rows: EarningsTrackerRow[];
 };
 

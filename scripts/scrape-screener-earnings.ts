@@ -20,6 +20,7 @@ const SCREEN_URL =
 const BASE = "https://www.screener.in";
 const MIN_MCAP_CR = Number(process.env.SCREENER_MIN_MCAP ?? "1000");
 const DELAY_MS = Number(process.env.SCREENER_DELAY_MS ?? "1200");
+const COMPANY_TTL_DAYS = Number(process.env.SCREENER_COMPANY_TTL_DAYS ?? "7");
 const MAX_COMPANIES = Number(process.env.SCREENER_MAX_COMPANIES ?? "0");
 const USER_AGENT =
   process.env.SCREENER_USER_AGENT ??
@@ -40,8 +41,12 @@ function readCache<T>(kind: "screen" | "company", key: string): T | null {
       fetchedAt: string;
       data: T;
     };
-    if (parsed.fetchedAt === TODAY) return parsed.data;
-    return null;
+    // Screen rows (market cap, P/E, ROCE) change daily; company quarterly
+    // tables only change when results are published, so a weekly refresh is
+    // enough and keeps the crawl polite.
+    const ttlDays = kind === "screen" ? 1 : COMPANY_TTL_DAYS;
+    const ageDays = (Date.now() - Date.parse(parsed.fetchedAt)) / 86_400_000;
+    return ageDays < ttlDays ? parsed.data : null;
   } catch {
     return null;
   }

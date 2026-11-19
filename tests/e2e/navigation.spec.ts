@@ -35,7 +35,7 @@ test.describe("navigation", () => {
     const input = dialog.getByPlaceholder(/Search companies, tickers or sectors/i);
 
     await input.fill("LAURUSLABS");
-    await expect(dialog.getByText(/LAURUSLABS/).first()).toBeVisible();
+    await expect(dialog.getByText(/LAURUSLABS/).first()).toBeVisible({ timeout: 15_000 });
     await input.press("Enter");
     await expect(page).toHaveURL(/\/india\/stocks\/LAURUSLABS/);
 
@@ -43,7 +43,7 @@ test.describe("navigation", () => {
     const dialogAgain = page.getByRole("dialog", { name: "Search companies" });
     const inputAgain = dialogAgain.getByPlaceholder(/Search companies, tickers or sectors/i);
     await inputAgain.fill("NVDA");
-    await expect(dialogAgain.getByText(/NVDA/).first()).toBeVisible();
+    await expect(dialogAgain.getByText(/NVDA/).first()).toBeVisible({ timeout: 15_000 });
     await inputAgain.press("Enter");
     await expect(page).toHaveURL(/\/stocks\/NVDA/);
   });

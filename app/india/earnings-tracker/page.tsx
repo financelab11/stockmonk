@@ -121,6 +121,11 @@ export default async function EarningsTrackerPage({
                   ≥ ₹{data.minMarketCapCr.toLocaleString("en-IN")} Cr market cap
                 </span>
               )}
+              {data?.pricesAsOf && (
+                <span className="rounded-full border border-line bg-surface px-3 py-1.5 text-[10.5px] font-semibold text-ink-soft">
+                  Prices as of {formatDate(data.pricesAsOf)}
+                </span>
+              )}
               <span className="rounded-full border border-line bg-surface px-3 py-1.5 text-[10.5px] font-semibold text-ink-soft">
                 YoY, not sequential
               </span>
@@ -258,10 +263,11 @@ export default async function EarningsTrackerPage({
                 those rows; crawled Screener rows carry Screener&apos;s ROCE.
               </p>
               <p>
-                1Y return is filled from Stockmonk&apos;s own price history where a
-                company is in our research coverage, and shows “—” otherwise.
-                Historical price returns and valuation multiples are factual data,
-                not forecasts or recommendations.
+                1Y return is computed from daily closes: the latest close against
+                the close a year earlier (Yahoo Finance, NSE with a BSE fallback).
+                Rows where no usable price series exists show “—”. Historical price
+                returns and valuation multiples are factual data, not forecasts or
+                recommendations.
               </p>
             </div>
           </>

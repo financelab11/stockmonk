@@ -11,7 +11,6 @@ const ROUTES = [
   "/gcc/all-stocks",
   "/gcc/stocks/2222",
   "/screener",
-  "/newsfeed",
   "/framework",
   "/stocks/NVDA",
   "/stocks/MSFT",

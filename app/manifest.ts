@@ -43,17 +43,17 @@ export default function manifest(): MetadataRoute.Manifest {
     ],
     shortcuts: [
       {
-        name: "Newsfeed",
-        short_name: "Newsfeed",
-        description: "Data-change updates across the coverage universe",
-        url: "/newsfeed",
-        icons: [{ src: "/icons/icon-192.png", sizes: "192x192" }],
-      },
-      {
         name: "Discover",
         short_name: "Discover",
         description: "Featured research and data-quality screens",
         url: "/discover",
+        icons: [{ src: "/icons/icon-192.png", sizes: "192x192" }],
+      },
+      {
+        name: "Screener",
+        short_name: "Screener",
+        description: "Five-factor screens across the US universe",
+        url: "/screener",
         icons: [{ src: "/icons/icon-192.png", sizes: "192x192" }],
       },
       {

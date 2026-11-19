@@ -1,7 +1,7 @@
 # Reference material
 
 The task brief included screenshots of the reference site's home, discover,
-all-stocks, newsfeed, framework and two research-article layouts, plus the brand
+all-stocks, framework and two research-article layouts, plus the brand
 asset. The brand asset is stored here as `stockmonk-logo.png`; the derived app
 icons, header mark and hero image live in `public/brand/` and `public/icons/`.
 

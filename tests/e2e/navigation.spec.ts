@@ -9,8 +9,7 @@ test.describe("navigation", () => {
       const primary = page.getByRole("navigation", { name: "Primary" });
       await expect(primary.getByRole("link", { name: "Discover" })).toBeVisible();
       await expect(primary.getByRole("link", { name: "Screener" })).toBeVisible();
-      await expect(primary.getByRole("link", { name: "Newsfeed" })).toBeVisible();
-      await expect(primary.getByRole("link", { name: "India stocks" })).toHaveCount(0);
+        await expect(primary.getByRole("link", { name: "India stocks" })).toHaveCount(0);
       await expect(primary.getByRole("link", { name: "GCC stocks" })).toHaveCount(0);
       await primary.getByRole("button", { name: "More" }).click();
     } else {

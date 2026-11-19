@@ -214,8 +214,8 @@ export default function FrameworkPage() {
             <div className="my-3 flex justify-center">
               <ArrowDown aria-hidden="true" className="size-4 text-faint" />
             </div>
-            <div className="grid grid-cols-3 gap-2">
-              {["Research report", "Data screens", "Newsfeed item"].map((output) => (
+            <div className="grid grid-cols-2 gap-2">
+              {["Research report", "Data screens"].map((output) => (
                 <div key={output} className="rounded-lg border border-line bg-brand-soft/60 px-2 py-2 text-center text-[10.5px] font-semibold text-brand-deep">
                   {output}
                 </div>

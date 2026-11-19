@@ -80,7 +80,7 @@ export default async function GccStockPage({
   return (
     <>
       <JsonLd data={jsonLd} />
-      <ResearchArticle bundle={bundle} story={story} news={[]} related={related} />
+      <ResearchArticle bundle={bundle} story={story} related={related} />
     </>
   );
 }

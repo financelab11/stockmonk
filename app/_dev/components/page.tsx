@@ -9,8 +9,7 @@ import { SectionHeader } from "@/components/ui/section-header";
 import { StatTile } from "@/components/ui/stat-tile";
 import { TabNav } from "@/components/ui/tab-nav";
 import { StockCard } from "@/components/cards/stock-card";
-import { NewsCard } from "@/components/cards/news-card";
-import { getNewsfeed, getResearchBundle, getUniverse } from "@/lib/data";
+import { getResearchBundle, getUniverse } from "@/lib/data";
 import { formatCompactCurrency, formatCurrency, formatMultiple, formatPercent } from "@/lib/format";
 
 export const metadata: Metadata = {
@@ -21,7 +20,6 @@ export const metadata: Metadata = {
 export default function ComponentGalleryPage() {
   const bundle = getResearchBundle("NVDA");
   const universe = getUniverse();
-  const news = getNewsfeed().slice(0, 2);
   const entry = universe.find((item) => item.ticker === "NVDA") ?? universe[0];
 
   return (
@@ -75,12 +73,9 @@ export default function ComponentGalleryPage() {
       </section>
 
       <section>
-        <SectionHeader eyebrow="Cards" title="Stock and news cards" href="/discover" />
+        <SectionHeader eyebrow="Cards" title="Stock cards" href="/discover" />
         <div className="mt-3 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
           {entry && <StockCard entry={entry} prices={bundle?.prices} />}
-          {news.map((item) => (
-            <NewsCard key={item.id} item={item} boxed />
-          ))}
         </div>
       </section>
 

@@ -4,12 +4,11 @@ import { HeroSearch } from "@/components/home/hero-search";
 import { ProFeatures } from "@/components/home/pro-features";
 import { RecentlyResearched } from "@/components/home/recently-researched";
 import { Spotlight } from "@/components/home/spotlight";
-import { NewsCard } from "@/components/cards/news-card";
 import { SectionHeader } from "@/components/ui/section-header";
 import { ProCTA } from "@/components/ui/pro-cta";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Disclaimer } from "@/components/ui/disclaimer";
-import { getMarketSnapshot, getNewsfeed, getResearchBundles } from "@/lib/data";
+import { getMarketSnapshot, getResearchBundles } from "@/lib/data";
 import { getStockStory } from "@/content/stocks";
 import { formatCompactCurrency, formatPercent } from "@/lib/format";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo";
@@ -26,7 +25,6 @@ export const metadata: Metadata = {
 export default function HomePage() {
   const bundles = getResearchBundles(10);
   const snapshot = getMarketSnapshot();
-  const news = getNewsfeed().slice(0, 3);
   const dayIndex = new Date().getUTCDate() % bundles.length;
   const spotlight = bundles[dayIndex];
   const spotlightStory = getStockStory(spotlight.data.ticker);
@@ -103,20 +101,6 @@ export default function HomePage() {
       <RecentlyResearched bundles={bundles} />
 
       {spotlightStory && <Spotlight bundle={spotlight} story={spotlightStory} />}
-
-      <section className="container-page py-10" aria-labelledby="latest-title">
-        <SectionHeader
-          title="Recent updates"
-          description="Earnings, filing changes and estimate revisions from the companies we cover."
-          href="/newsfeed"
-          linkLabel="Open the newsfeed"
-        />
-        <div className="mt-5 grid gap-3 md:grid-cols-3">
-          {news.map((item) => (
-            <NewsCard key={item.id} item={item} boxed />
-          ))}
-        </div>
-      </section>
 
       <section className="container-page py-10">
         <div className="rounded-2xl bg-coral-soft p-6 sm:p-8">

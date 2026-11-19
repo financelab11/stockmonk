@@ -16,7 +16,6 @@ const routes = [
   "/",
   "/discover",
   "/discover/all-stocks",
-  "/newsfeed",
   "/framework",
   "/stocks/NVDA",
   "/stocks/MSFT",

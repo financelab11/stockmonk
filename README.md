@@ -49,7 +49,7 @@ pnpm lhci           # Lighthouse CI: mobile (3 runs, median) + desktop (2 runs)
 The Lighthouse gate enforces LCP < 2.0 s, CLS < 0.02, accessibility /
 best-practices / SEO at 100, and a performance floor of 90 to absorb shared-host
 variance. On a quiet runner the same build measures **95–98 performance on the
-home, newsfeed, all-stocks, framework and watchlist routes**, and **92–96 on the
+home, all-stocks, framework and watchlist routes**, and **92–96 on the
 chart-heavy article routes**. The numeric target remains 95; the mobile gate is
 set to the reproducible floor measured on this host. See
 `docs/data-notes.md` for the data caveats that matter more than a one-point
@@ -59,11 +59,10 @@ Lighthouse difference.
 
 | Route | Purpose |
 | --- | --- |
-| `/` | Hero, recently researched, data distribution, spotlight, latest updates, Pro demo |
+| `/` | Hero, recently researched, data distribution, spotlight, Pro demo |
 | `/discover` | Featured research, data-quality screens, search, pricing demo |
 | `/discover/all-stocks` | Full universe grouped by sector, filters and sort |
 | `/screener` | Five-factor quantitative screener for the US listed universe |
-| `/newsfeed` | Data-change feed with category and ticker filters, load more, RSS |
 | `/framework` | Methodology, formulas, peer/valuation approach |
 | `/stocks/[ticker]` | Ten-section research report for all 229 US coverage names |
 | `/india` | Featured India research, data-quality screens and search |
@@ -77,7 +76,7 @@ Lighthouse difference.
 | `/watchlist` | Local-first watchlist backed by `localStorage` |
 | `/about`, `/privacy`, `/terms`, `/editorial-guidelines`, `/data-sources` | Editorial and legal pages |
 | `/offline` | Serwist offline fallback |
-| `/rss.xml`, `/sitemap.xml`, `/robots.txt`, `/manifest.webmanifest` | Feeds and PWA/SEO endpoints |
+| `/sitemap.xml`, `/robots.txt`, `/manifest.webmanifest` | Feeds and PWA/SEO endpoints |
 
 ## Project context
 
@@ -104,7 +103,7 @@ Schema and daily jobs: `supabase/migrations/202611170001_initial_schema.sql`.
 
 Core tables: companies, prices_daily, financial_periods, financial_metrics,
 segments, consensus_estimates, consensus_targets, forward_estimates, stories,
-news_items, profiles, watchlists, watchlist_items, company_snapshots,
+profiles, watchlists, watchlist_items, company_snapshots,
 ingestion_runs and data_freshness.
 
 - Public read access is enabled for market/research tables.

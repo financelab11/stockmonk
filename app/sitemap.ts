@@ -17,7 +17,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/tools/growth-ranker`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
     { url: `${SITE.url}/gcc`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE.url}/gcc/all-stocks`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
-    { url: `${SITE.url}/newsfeed`, lastModified: now, changeFrequency: "hourly", priority: 0.8 },
     { url: `${SITE.url}/framework`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE.url}/watchlist`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
     { url: `${SITE.url}/about`, lastModified: now, changeFrequency: "yearly", priority: 0.4 },

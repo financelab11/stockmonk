@@ -47,7 +47,6 @@ export function MobileNav() {
             </p>
             <div className="grid grid-cols-2 gap-1.5">
               {[
-                { href: "/newsfeed", label: "Newsfeed" },
                 { href: "/india", label: "India stocks" },
                 { href: "/gcc", label: "GCC stocks" },
                 { href: "/tools/growth-ranker", label: "Growth ranker" },

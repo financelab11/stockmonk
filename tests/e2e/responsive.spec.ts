@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 
 test.describe("responsive layout", () => {
   test("no horizontal page overflow on key routes", async ({ page }) => {
-    for (const route of ["/", "/discover", "/discover/all-stocks", "/newsfeed", "/framework", "/stocks/NVDA", "/watchlist", "/gcc", "/gcc/all-stocks", "/gcc/stocks/2222"]) {
+    for (const route of ["/", "/discover", "/discover/all-stocks", "/framework", "/stocks/NVDA", "/watchlist", "/gcc", "/gcc/all-stocks", "/gcc/stocks/2222"]) {
       await page.goto(route, { waitUntil: "networkidle" });
       const overflow = await page.evaluate(
         () => document.documentElement.scrollWidth - window.innerWidth,

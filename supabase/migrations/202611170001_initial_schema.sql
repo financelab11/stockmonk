@@ -1,6 +1,6 @@
 -- Stockmonk database schema
 -- Covers US, India and GCC coverage, prices, statements, consensus, reports,
--- news, watchlists and the forward-growth ranker.
+-- watchlists and the forward-growth ranker.
 --
 -- Idempotent: safe to run against a fresh Supabase project or an existing one.
 
@@ -262,7 +262,7 @@ create table if not exists public.forward_estimates (
 );
 
 -- ---------------------------------------------------------------------------
--- Editorial, news and user data
+-- Editorial and user data
 -- ---------------------------------------------------------------------------
 
 create table if not exists public.stories (
@@ -283,18 +283,6 @@ create table if not exists public.stories (
   published_at timestamptz,
   updated_at timestamptz not null default now(),
   unique (market, slug)
-);
-
-create table if not exists public.news_items (
-  id uuid primary key default gen_random_uuid(),
-  company_id uuid references public.companies(id) on delete set null,
-  market text,
-  ticker text,
-  tag text,
-  title text not null,
-  href text not null unique,
-  published_at timestamptz not null default now(),
-  created_at timestamptz not null default now()
 );
 
 create table if not exists public.profiles (
@@ -376,7 +364,6 @@ create index if not exists financial_periods_company_date_idx on public.financia
 create index if not exists consensus_estimates_company_date_idx on public.consensus_estimates (company_id, end_date);
 create index if not exists forward_estimates_growth_idx on public.forward_estimates (cagr_base desc nulls last);
 create index if not exists forward_estimates_score_idx on public.forward_estimates ((((scores ->> 'composite')::numeric)) desc nulls last);
-create index if not exists news_items_published_idx on public.news_items (published_at desc);
 create index if not exists stories_market_ticker_idx on public.stories (market, ticker);
 
 -- ---------------------------------------------------------------------------
@@ -519,8 +506,7 @@ begin
     ('prices', (select max(price_date) from public.prices_daily), (select count(*) from public.prices_daily), now()),
     ('financials', (select max(report_date) from public.financial_periods), (select count(*) from public.financial_periods), now()),
     ('consensus', (select max(as_of) from public.consensus_estimates), (select count(*) from public.consensus_estimates), now()),
-    ('forward_estimates', (select max(generated_at)::date from public.forward_estimates), (select count(*) from public.forward_estimates), now()),
-    ('news', (select max(published_at)::date from public.news_items), (select count(*) from public.news_items), now())
+    ('forward_estimates', (select max(generated_at)::date from public.forward_estimates), (select count(*) from public.forward_estimates), now())
   on conflict (dataset) do update set
     as_of = excluded.as_of,
     row_count = excluded.row_count,
@@ -577,7 +563,7 @@ begin
     'companies', 'company_aliases', 'coverage_groups', 'coverage_group_members',
     'prices_daily', 'financial_periods', 'financial_metrics', 'segments', 'fx_rates',
     'consensus_estimates', 'consensus_targets', 'forward_estimates', 'stories',
-    'news_items', 'profiles', 'watchlists', 'watchlist_items', 'company_snapshots',
+    'profiles', 'watchlists', 'watchlist_items', 'company_snapshots',
     'ingestion_runs', 'data_freshness'
   ]
   loop
@@ -594,7 +580,7 @@ begin
     'companies', 'company_aliases', 'coverage_groups', 'coverage_group_members',
     'prices_daily', 'financial_periods', 'financial_metrics', 'segments', 'fx_rates',
     'consensus_estimates', 'consensus_targets', 'forward_estimates', 'stories',
-    'news_items', 'company_snapshots', 'data_freshness'
+    'company_snapshots', 'data_freshness'
   ]
   loop
     execute format('drop policy if exists "public read %s" on public.%I', target, target);
@@ -649,7 +635,6 @@ grant execute on function public.refresh_data_freshness() to service_role;
 -- ---------------------------------------------------------------------------
 
 alter table public.company_snapshots replica identity full;
-alter table public.news_items replica identity full;
 alter table public.forward_estimates replica identity full;
 alter table public.data_freshness replica identity full;
 alter table public.consensus_targets replica identity full;
@@ -665,7 +650,7 @@ begin
       'companies', 'company_aliases', 'coverage_groups', 'coverage_group_members',
       'prices_daily', 'financial_periods', 'financial_metrics', 'segments', 'fx_rates',
       'consensus_estimates', 'consensus_targets', 'forward_estimates', 'stories',
-      'news_items', 'profiles', 'watchlists', 'watchlist_items', 'company_snapshots',
+      'profiles', 'watchlists', 'watchlist_items', 'company_snapshots',
       'ingestion_runs', 'data_freshness'
     ]
     loop

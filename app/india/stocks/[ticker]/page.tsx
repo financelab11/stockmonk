@@ -12,7 +12,6 @@ import {
 } from "@/lib/india-data";
 import { articleJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 import { resolveStory } from "@/lib/story-tokens";
-import { BrokerResearch } from "@/components/company/broker-research";
 
 export const revalidate = 3600;
 export const dynamicParams = false;
@@ -87,8 +86,7 @@ export default async function IndiaStockPage({
   return (
     <>
       <JsonLd data={jsonLd} />
-      <ResearchArticle bundle={bundle} story={story} news={[]} related={related} />
-      <BrokerResearch ticker={data.ticker} />
+      <ResearchArticle bundle={bundle} story={story} related={related} />
     </>
   );
 }

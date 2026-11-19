@@ -5,7 +5,6 @@ const pages = [
   ["home", "/"],
   ["discover", "/discover"],
   ["all-stocks", "/discover/all-stocks"],
-  ["newsfeed", "/newsfeed"],
   ["framework", "/framework"],
   ["article-nvda", "/stocks/NVDA"],
   ["article-jpm", "/stocks/JPM"],

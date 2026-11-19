@@ -7,7 +7,6 @@ import { getStockStory } from "@/content/stocks";
 import { generateStockStory } from "@/lib/generated-story";
 import { ALL_TICKERS, BENCHMARK_TICKER, RESEARCH_TICKERS } from "@/config/universe";
 import {
-  getNewsfeed,
   getPrices,
   getResearchBundle,
   getResearchCompanies,
@@ -82,7 +81,6 @@ export default async function StockPage({
 
   const bundle = getResearchBundle(data.ticker);
   const story = getStockStory(data.ticker) ?? (bundle ? generateStockStory(bundle) : null);
-  const news = getNewsfeed();
   // Load only a handful of neighbouring names for the related cards instead of
   // every research bundle on each of the 229 statically generated pages.
   const researchCompanies = getResearchCompanies();
@@ -121,7 +119,6 @@ export default async function StockPage({
         <ResearchArticle
           bundle={bundle}
           story={story}
-          news={news}
           related={related}
         />
       </>

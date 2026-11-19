@@ -64,7 +64,7 @@ pnpm build:growth-ranker # rebuild the 385-name forward-estimate snapshot
 
 ## Routes
 
-- `/`, `/discover`, `/discover/all-stocks`, `/screener`, `/newsfeed`
+- `/`, `/discover`, `/discover/all-stocks`, `/screener`
 - `/stocks/[ticker]` — US report
 - `/india`, `/india/all-stocks`, `/india/stocks/[ticker]`
 - `/gcc`, `/gcc/all-stocks`, `/gcc/stocks/[ticker]`
@@ -93,8 +93,8 @@ pnpm build:growth-ranker # rebuild the 385-name forward-estimate snapshot
 - Discover leads with the research library, not a Pro upsell. Pro appears once,
   after the results. Prices are labelled "vs prior close" and fundamentals say
   "(TTM)" so a percentage never appears without a period.
-- Navigation: primary nav is Discover, Screener and Newsfeed. India, GCC, the
-  growth ranker, watchlist, methodology and company pages live under More. The
+- Navigation: primary nav is Discover and Screener. India, GCC, the growth
+  ranker, watchlist, methodology and company pages live under More. The
   mobile bar is Discover, Screener, Watchlist, More. Header search is a global
   overlay that queries the US, India and GCC search indexes (`/` or Cmd/Ctrl+K).
 
@@ -115,23 +115,6 @@ PSTG and ACLX have no Yahoo history (delisted), CRNX last traded 2026-08-31,
 JBCHEPHARM has no current Yahoo quote, and ten MSM (Oman) names plus TAQA only
 get weekly/irregular history from StockAnalysis. These dates are last-traded,
 not failed refreshes.
-
-## Newsfeed and broker research
-
-- `pnpm ingest:brokers` discovers Indian broker stock notes, downloads the
-  original PDFs, extracts text and stores summaries under `data/broker-reports/`.
-  `pnpm enrich:brokers` adds company matching, materiality and both summary
-  levels without refetching. `pnpm fetch:broker-logos` downloads brand icons
-  into `public/brokers/`; missing icons fall back to initials.
-- `lib/news-feed.ts` unifies broker notes and dataset items for the Newsfeed;
-  `lib/materiality.ts` scores significance (never price direction);
-  `lib/estimate-revisions.ts` compares each broker with its own prior note.
-- The Newsfeed defaults to India, supports category and market views, search,
-  broker/sector/ticker/materiality filters and server-side pagination; the
-  Estimate Revisions view renders inside `/newsfeed?category=revisions`.
-  Cards use native `<details>` for independent expand/collapse.
-- Broker ratings and targets remain the institutions'; Stockmonk never
-  republishes them as its own recommendation.
 
 ## Research report freshness
 - `pnpm audit:stories` compares every story's newest quarter and explicit price
@@ -179,7 +162,7 @@ Schema lives in `supabase/migrations/202611170001_initial_schema.sql`:
 - companies, aliases, coverage groups
 - prices_daily, financial_periods, financial_metrics, segments, fx_rates
 - consensus_estimates, consensus_targets, forward_estimates
-- stories, news_items
+- stories
 - profiles, watchlists, watchlist_items
 - company_snapshots, ingestion_runs, data_freshness
 

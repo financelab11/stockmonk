@@ -39,7 +39,6 @@ import { WatchlistButton } from "@/components/watchlist/watchlist-button";
 import type { ResearchBundle } from "@/lib/data";
 import { resolveStory } from "@/lib/story-tokens";
 import type { StockStory } from "@/content/stocks/types";
-import type { NewsItem } from "@/lib/data";
 import {
   buildArticleSources,
   buildDrawdown,
@@ -102,12 +101,10 @@ function DataRow({
 export function ResearchArticle({
   bundle,
   story: sourceStory,
-  news,
   related,
 }: {
   bundle: ResearchBundle;
   story: StockStory;
-  news: NewsItem[];
   related: ResearchBundle[];
 }) {
   const { data, consensus, segments, prices, factors } = bundle;
@@ -141,7 +138,6 @@ export function ResearchArticle({
   const peerPe = peerMedian(peerRows, "pe");
   const peerRoic = peerMedian(peerRows, "roic");
   const ranges = valuationRange(bundle);
-  const recentNews = news.filter((item) => item.ticker === data.ticker).slice(0, 2);
   const cyclePosition = bundle.rangePosition ?? 0;
 
   const premiumDiscount =
@@ -313,30 +309,6 @@ export function ResearchArticle({
                   This is a price observation, not a recommendation.
                 </p>
               </div>
-
-              {recentNews.length > 0 && (
-                <div className="mt-4">
-                  <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
-                    Latest data updates
-                  </p>
-                  <ul className="mt-2 divide-y divide-line rounded-xl border border-line bg-surface">
-                    {recentNews.map((item) => (
-                      <li key={item.id}>
-                        <Link href={item.href} className="flex items-start gap-2 px-3.5 py-2.5 hover:bg-paper-deep">
-                          <MessageSquareText aria-hidden="true" className="mt-0.5 size-3.5 shrink-0 text-brand" />
-                          <span className="min-w-0">
-                            <span className="block text-[11.5px] font-medium text-ink">{item.title}</span>
-                            <span className="mt-0.5 block text-[10px] text-muted">
-                              {item.tag} · {formatDate(item.date)}
-                            </span>
-                          </span>
-                          <ArrowUpRight aria-hidden="true" className="ml-auto size-3.5 shrink-0 text-faint" />
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
             </section>
 
             <section id="what-it-does" className="scroll-mt-28 border-b border-line py-9">

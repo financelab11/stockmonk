@@ -47,7 +47,7 @@ a **multiple the market is currently paying**, with the source named next to it.
 
 1. **Utility strip** — "Filings, financials and sourced estimates. No recommendations."
    links to editorial guidelines and data sources.
-2. **Header** — brand lockup, primary nav (Discover, Newsfeed, Framework,
+2. **Header** — brand lockup, primary nav (Discover, Screener, Framework,
    Watchlist), search trigger, Pro call-to-action. Sticky with a hairline
    border on scroll; collapses to a sheet on mobile.
 3. **Main** — max width 1200 px (`--container`), 24 px gutters.
@@ -123,10 +123,6 @@ All 229 coverage names get the ten-section report. If a company has too few
 filings or price points, the page falls back to a compact profile with price,
 snapshot metrics, factor chips and latest quarters rather than inventing a
 narrative.
-
-### Newsfeed
-A transparent "what changed in the data" feed built from earnings dates, 52-week
-range position, estimate revisions and factor changes. No invented headlines.
 
 ### Watchlist
 Client-only, localStorage-backed, empty state with suggested research names.

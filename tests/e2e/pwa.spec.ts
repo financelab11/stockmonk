@@ -24,8 +24,8 @@ test.describe("PWA and metadata", () => {
     await expect(page.getByRole("heading", { name: /You are offline/i })).toBeVisible();
   });
 
-  test("sitemap, robots and RSS are served", async ({ request }) => {
-    for (const path of ["/sitemap.xml", "/robots.txt", "/rss.xml"]) {
+  test("sitemap and robots are served", async ({ request }) => {
+    for (const path of ["/sitemap.xml", "/robots.txt"]) {
       const response = await request.get(path);
       expect(response.status(), path).toBe(200);
     }

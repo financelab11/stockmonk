@@ -3,8 +3,9 @@ import "server-only";
 import fs from "node:fs";
 import path from "node:path";
 import { cache } from "react";
-import { getBrokerReportIndex } from "@/lib/broker-reports";import { getNewsfeed, type NewsTag } from "@/lib/data";
-import { MATERIALITY_ORDER, scoreMateriality, type MaterialityLabel } from "@/lib/materiality";
+import { getBrokerReportIndex } from "@/lib/broker-reports";
+import { getNewsfeed, type NewsTag } from "@/lib/data";
+import { MATERIALITY_ORDER, type MaterialityLabel } from "@/lib/materiality";
 import type { SummarySection } from "@/lib/broker-summary";
 
 export type FeedMarket = "IN" | "US" | "GCC";

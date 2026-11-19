@@ -299,11 +299,11 @@ async function main() {
 
   await Promise.all(Array.from({ length: workers }, () => worker()));
 
-  const byId = new Map<string, any>();
+  const byId = new Map<string, { id: string; date: string }>();
   for (const entry of [...added, ...existing] as Array<{ id: string; date: string }>) {
     byId.set(entry.id, entry);
   }
-  const merged = [...byId.values()].sort((a: any, b: any) => b.date.localeCompare(a.date));
+  const merged = [...byId.values()].sort((a, b) => b.date.localeCompare(a.date));
   await fs.writeFile(indexFile, JSON.stringify(merged, null, 0), "utf8");
   console.log(`[brokers] added ${added.length}; index now ${merged.length} notes`);
 }

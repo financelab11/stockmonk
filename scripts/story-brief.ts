@@ -23,7 +23,42 @@ const read = <T>(file: string): T | null => {
   }
 };
 
-const data = read<Record<string, any>>(path.join(root, ticker, "data.json"))!;
+type StockFile = {
+  name: string;
+  sector: string;
+  industry: string;
+  currency?: string;
+  metrics: Record<string, number | null>;
+  latestPrice: Record<string, number | null> & { asOf?: string };
+  quarterly?: Array<{
+    period?: string;
+    fyear?: number;
+    reportDate?: string;
+    ttm?: boolean;
+    revenue?: number | null;
+    operatingMargin?: number | null;
+    netMargin?: number | null;
+    epsDiluted?: number | null;
+  }>;
+};
+
+type ConsensusFile = {
+  asOf?: string;
+  analystCount?: number;
+  targetMean?: number | null;
+  targetLow?: number | null;
+  targetHigh?: number | null;
+  estimates?: Array<{ period?: string; revenueAvg?: number | null; epsAvg?: number | null }>;
+};
+
+type EarningsFile = {
+  filed?: string;
+  releaseUrl?: string;
+  text?: string;
+  cfoCommentary?: { text?: string };
+};
+
+const data = read<StockFile>(path.join(root, ticker, "data.json"))!;
 const currency = data.currency ?? "USD";
 const m = data.metrics;
 const p = data.latestPrice;
@@ -32,10 +67,10 @@ const CONSENSUS_DIR: Record<string, string> = {
   "data/india/processed": "data/india/consensus",
   "data/gcc/processed": "data/gcc/consensus",
 };
-const consensus = read<Record<string, any>>(
+const consensus = read<ConsensusFile>(
   path.join(CONSENSUS_DIR[root], `${ticker}.json`),
 );
-const earnings = read<Record<string, any>>(path.join("data", "earnings", `${ticker}.json`));
+const earnings = read<EarningsFile>(path.join("data", "earnings", `${ticker}.json`));
 
 const money = (value: number | null | undefined) => formatCompactCurrency(value, currency);
 
@@ -50,7 +85,7 @@ console.log(
   `P/E ${formatMultiple(m.pe)} · EV/EBITDA ${formatMultiple(m.evEbitda)} · P/FCF ${formatMultiple(m.pfcf)} · FCF yield ${formatPercent(m.fcfYield)} · ROE ${formatPercent(m.roe)} · ROIC ${formatPercent(m.roic)} · net debt ${money(m.netDebt)}`,
 );
 
-const quarters = (data.quarterly as Array<Record<string, any>>)
+const quarters = (data.quarterly ?? [])
   .filter((row) => !row.ttm)
   .sort((a, b) => String(a.reportDate).localeCompare(String(b.reportDate)))
   .slice(-4);

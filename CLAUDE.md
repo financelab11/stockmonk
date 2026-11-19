@@ -205,6 +205,14 @@ Client helpers:
   **https://stockmonk.vercel.app**.
 - Build `pnpm build`, install `pnpm install`, Node 24.x, framework preset
   Next.js.
+- **Hobby plan function budget.** A deployment may contain at most 12 bundled
+  serverless functions. Keep the dynamic route count low and never add a
+  blanket `outputFileTracingIncludes` rule: a `"/*": ["./data/**/*.json"]`
+  entry pulls thousands of files into every function, which makes Vercel count
+  the output as way over the budget and fails the deploy with
+  `exceeded_serverless_functions_per_deployment` even though `next build`
+  succeeds. Import datasets through literal paths (or a directory-scoped
+  read) so Next's own tracing stays small.
 - Vercel env (production, preview, development): `NEXT_PUBLIC_SUPABASE_URL`,
   `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`, `NEXT_PUBLIC_SITE_URL`. Server-side
   jobs additionally need `SIMFIN_API_KEY` and `SUPABASE_SERVICE_ROLE_KEY` (or

@@ -133,8 +133,17 @@ export const getEstimateRevisions = cache((): {
     const averageTargetChange = entry.changes.length
       ? entry.changes.reduce((sum, value) => sum + value, 0) / entry.changes.length
       : null;
-    const { changes: _changes, ...rest } = entry;
-    return { ...rest, brokers, averageTargetChange };
+    return {
+      company: entry.company,
+      ticker: entry.ticker,
+      brokers,
+      revisions: entry.revisions,
+      upgrades: entry.upgrades,
+      downgrades: entry.downgrades,
+      averageTargetChange,
+      latestTarget: entry.latestTarget,
+      latestDate: entry.latestDate,
+    };
   });
 
   return {

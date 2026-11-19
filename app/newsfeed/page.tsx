@@ -65,7 +65,17 @@ export default async function NewsfeedPage({
   const page = Math.max(1, Number(params.page) || 1);
 
   const allItems = getFeedItems();
-  const cutoff = new Date(Date.now() - days * 86_400_000).toISOString().slice(0, 10);
+  // Anchor the window to the newest item rather than the wall clock so the
+  // page renders deterministically on the server.
+  const newestDate = allItems.reduce(
+    (latest, item) => (item.date > latest ? item.date : latest),
+    "1970-01-01",
+  );
+  const cutoff = new Date(
+    new Date(`${newestDate}T00:00:00Z`).getTime() - days * 86_400_000,
+  )
+    .toISOString()
+    .slice(0, 10);
   const query = q.toLowerCase();
   const filtered = sortFeed(
     allItems.filter((item) => {

@@ -31,6 +31,16 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
+      - name: Restore crawl caches
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/india/.screener-cache
+            data/india/.price-cache
+          key: earnings-cache-${{ github.run_id }}
+          restore-keys: |
+            earnings-cache-
+
       - name: Refresh 1Y returns from Yahoo Finance
         run: pnpm refresh:earnings-prices
         env:

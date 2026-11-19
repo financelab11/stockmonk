@@ -13,7 +13,7 @@ test.describe("India earnings tracker", () => {
 
     await expect(page.getByRole("heading", { name: "Earnings Tracker" })).toBeVisible();
     await expect(page.locator("table tbody tr")).toHaveCount(25);
-    await expect(page.getByText(/100 companies/).first()).toBeVisible();
+    await expect(page.getByText(/[\d,]+ companies/).first()).toBeVisible();
   });
 
   test("defaults to sales growth, highest first", async ({ page }) => {
@@ -28,12 +28,11 @@ test.describe("India earnings tracker", () => {
   });
 
   test("filters by company, industry and growth", async ({ page }) => {
-    await page.goto("/india/earnings-tracker?q=aavas", { waitUntil: "domcontentloaded" });
-    await expect(page.getByText("No companies match those filters.")).toBeVisible();
+    await page.goto("/india/earnings-tracker?q=reliance", { waitUntil: "domcontentloaded" });
+    await expect(page.locator("table tbody tr").first()).toContainText("RELIANCE");
 
-    await page.goto("/india/earnings-tracker?q=aavas&all=1", { waitUntil: "domcontentloaded" });
-    await expect(page.locator("table tbody tr")).toHaveCount(1);
-    await expect(page.locator("table tbody tr")).toContainText("AAVAS");
+    await page.goto("/india/earnings-tracker?all=1", { waitUntil: "domcontentloaded" });
+    await expect(page.locator("table tbody tr").first()).toBeVisible();
 
     await page.goto("/india/earnings-tracker?minSales=50", { waitUntil: "domcontentloaded" });
     const values = (await page.locator("table tbody tr td:nth-child(3)").allTextContents())

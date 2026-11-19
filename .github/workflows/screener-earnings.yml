@@ -1,0 +1,54 @@
+name: Screener earnings tracker
+
+on:
+  schedule:
+    # Saturdays 02:00 UTC. A full crawl is deliberately weekly, not daily:
+    # ~1,600 company pages at one request per second.
+    - cron: "0 2 * * 6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: screener-earnings
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Crawl Screener (authorised)
+        run: pnpm ingest:screener
+        env:
+          SCREENER_MIN_MCAP: "1000"
+          SCREENER_DELAY_MS: "1200"
+
+      - name: Rebuild the earnings tracker
+        run: pnpm build:earnings
+
+      - name: Commit refreshed earnings data
+        run: |
+          git config user.name "stockmonk-data-bot"
+          git config user.email "data-bot@stockmonk.app"
+          git add data/india/screener-earnings.json data/india/earnings-tracker.json
+          if git diff --cached --quiet; then
+            echo "No earnings changes to commit."
+          else
+            git commit -m "chore: weekly Screener earnings refresh"
+            git push
+          fi

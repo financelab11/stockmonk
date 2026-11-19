@@ -205,7 +205,7 @@ export const earningsTrackerRowSchema = z.object({
   roce: z.number().nullable(),
   peg: z.number().nullable(),
   return1y: z.number().nullable(),
-  source: z.enum(["filings", "screener-export"]),
+  source: z.enum(["filings", "screener", "screener-export"]),
 });
 
 export type EarningsTrackerRow = z.infer<typeof earningsTrackerRowSchema>;
@@ -213,7 +213,8 @@ export type EarningsTrackerRow = z.infer<typeof earningsTrackerRowSchema>;
 export const earningsTrackerSchema = z.object({
   generatedAt: z.string(),
   asOf: z.string().nullable(),
-  source: z.enum(["filings", "screener-export", "mixed"]),
+  source: z.enum(["filings", "screener", "screener-export", "mixed"]),
+  minMarketCapCr: z.number().nullable(),
   rows: z.array(earningsTrackerRowSchema),
 });
 

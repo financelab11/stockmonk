@@ -59,3 +59,6 @@ next-env.d.ts
 /data/growth-ranker/refinitiv-top.json
 # Earnings press releases (regenerate with pnpm ingest:earnings)
 /data/earnings/
+
+# Screener crawl cache (resumable, regenerated on demand)
+/data/india/.screener-cache/

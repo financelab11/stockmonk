@@ -36,8 +36,9 @@ export const metadata: Metadata = {
 
 const SOURCE_LABEL: Record<string, string> = {
   filings: "Stockmonk's India filings dataset",
+  screener: "an authorised crawl of Screener.in screen 599148 and company pages",
   "screener-export": "an authorised Screener export",
-  mixed: "Stockmonk filings and an authorised Screener export",
+  mixed: "Stockmonk filings plus an authorised Screener crawl",
 };
 
 export default async function EarningsTrackerPage({
@@ -115,6 +116,11 @@ export default async function EarningsTrackerPage({
               <span className="rounded-full border border-line bg-surface px-3 py-1.5 text-[10.5px] font-semibold text-ink-soft">
                 As of {data?.asOf ? formatDate(data.asOf) : "no data"}
               </span>
+              {data?.minMarketCapCr != null && (
+                <span className="rounded-full border border-line bg-surface px-3 py-1.5 text-[10.5px] font-semibold text-ink-soft">
+                  ≥ ₹{data.minMarketCapCr.toLocaleString("en-IN")} Cr market cap
+                </span>
+              )}
               <span className="rounded-full border border-line bg-surface px-3 py-1.5 text-[10.5px] font-semibold text-ink-soft">
                 YoY, not sequential
               </span>
@@ -248,12 +254,14 @@ export default async function EarningsTrackerPage({
               </p>
               <p>
                 ROCE is shown where the source reports capital employed. Stockmonk&apos;s
-                filings dataset does not include a ROCE line, so it shows as “—” until
-                the authorised export supplies it.
+                filings dataset does not include a ROCE line, so it shows as “—” for
+                those rows; crawled Screener rows carry Screener&apos;s ROCE.
               </p>
               <p>
-                Historical price returns and valuation multiples are factual data, not
-                forecasts or recommendations.
+                1Y return is filled from Stockmonk&apos;s own price history where a
+                company is in our research coverage, and shows “—” otherwise.
+                Historical price returns and valuation multiples are factual data,
+                not forecasts or recommendations.
               </p>
             </div>
           </>

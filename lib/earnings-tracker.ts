@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { cache } from "react";
 import {
   EARNINGS_PAGE_SIZES,
   EARNINGS_SORTS,
@@ -172,11 +173,12 @@ export function buildEarningsUrl(
 export type EarningsTrackerData = {
   generatedAt: string;
   asOf: string | null;
-  source: "filings" | "screener-export" | "mixed";
+  source: "filings" | "screener" | "screener-export" | "mixed";
+  minMarketCapCr: number | null;
   rows: EarningsTrackerRow[];
 };
 
-export function readEarningsTracker(): EarningsTrackerData | null {
+export const readEarningsTracker = cache((): EarningsTrackerData | null => {
   try {
     const parsed = earningsTrackerSchema.parse(
       JSON.parse(
@@ -191,7 +193,7 @@ export function readEarningsTracker(): EarningsTrackerData | null {
   } catch {
     return null;
   }
-}
+});
 
 function csvCell(value: string | number | null): string {
   const text = value == null ? "" : String(value);

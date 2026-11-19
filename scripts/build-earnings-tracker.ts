@@ -192,8 +192,7 @@ function mapHeader(header: string[]): Map<string, number> {
   return map;
 }
 
-function readExports(): EarningsTrackerRow[] {
-  if (!fs.existsSync(EXPORT_DIR)) return [];
+function readExports(): EarningsTrackerRow[] {  if (!fs.existsSync(EXPORT_DIR)) return [];
   const rows: EarningsTrackerRow[] = [];
 
   for (const file of fs.readdirSync(EXPORT_DIR)) {
@@ -245,12 +244,62 @@ function readExports(): EarningsTrackerRow[] {
   return rows;
 }
 
+function readScreenerRows(): { rows: EarningsTrackerRow[]; minMarketCapCr: number | null } {
+  const file = path.join(process.cwd(), "data", "india", "screener-earnings.json");
+  if (!fs.existsSync(file)) return { rows: [], minMarketCapCr: null };
+  try {
+    const parsed = JSON.parse(fs.readFileSync(file, "utf8")) as {
+      rows?: unknown;
+      minMarketCapCr?: unknown;
+    };
+    if (!Array.isArray(parsed.rows)) return { rows: [], minMarketCapCr: null };
+    return {
+      rows: parsed.rows as EarningsTrackerRow[],
+      minMarketCapCr:
+        typeof parsed.minMarketCapCr === "number" ? parsed.minMarketCapCr : null,
+    };
+  } catch {
+    return { rows: [], minMarketCapCr: null };
+  }
+}
+
+function fillMissing(
+  row: EarningsTrackerRow,
+  fallback: EarningsTrackerRow | undefined,
+): EarningsTrackerRow {
+  if (!fallback) return row;
+  return {
+    ...row,
+    period: row.period ?? fallback.period,
+    reportDate: row.reportDate ?? fallback.reportDate,
+    salesGrowth: row.salesGrowth ?? fallback.salesGrowth,
+    ebitdaGrowth: row.ebitdaGrowth ?? fallback.ebitdaGrowth,
+    netProfitGrowth: row.netProfitGrowth ?? fallback.netProfitGrowth,
+    epsGrowth: row.epsGrowth ?? fallback.epsGrowth,
+    marketCap: row.marketCap ?? fallback.marketCap,
+    pe: row.pe ?? fallback.pe,
+    roce: row.roce ?? fallback.roce,
+    peg: row.peg ?? fallback.peg,
+    return1y: row.return1y ?? fallback.return1y,
+    industry:
+      row.industry && row.industry !== "Unclassified"
+        ? row.industry
+        : fallback.industry,
+  };
+}
+
 function main() {
   const filings = buildFromFilings();
+  const { rows: screener, minMarketCapCr } = readScreenerRows();
   const exported = readExports();
 
   const merged = new Map(filings.map((row) => [row.ticker, row]));
-  for (const row of exported) merged.set(row.ticker, row);
+  for (const row of screener) {
+    merged.set(row.ticker, fillMissing(row, merged.get(row.ticker)));
+  }
+  for (const row of exported) {
+    merged.set(row.ticker, fillMissing(row, merged.get(row.ticker)));
+  }
   const rows = [...merged.values()].sort((a, b) => a.name.localeCompare(b.name));
 
   const asOf =
@@ -260,11 +309,14 @@ function main() {
       .sort()
       .at(-1) ?? null;
 
-  const source = exported.length === 0 ? "filings" : filings.length === 0 ? "screener-export" : "mixed";
+  const sources = [filings.length > 0, screener.length > 0, exported.length > 0].filter(Boolean).length;
+  const source =
+    sources > 1 ? "mixed" : exported.length > 0 ? "screener-export" : screener.length > 0 ? "screener" : "filings";
   const payload = earningsTrackerSchema.parse({
     generatedAt: new Date().toISOString(),
     asOf,
     source,
+    minMarketCapCr,
     rows,
   });
 

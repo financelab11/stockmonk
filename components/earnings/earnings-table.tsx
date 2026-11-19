@@ -8,6 +8,19 @@ import type { EarningsTrackerRow } from "@/lib/schemas";
 
 function Growth({ value }: { value: number | null }) {
   if (value == null) return <span className="text-[11px] text-faint">—</span>;
+  // Three-digit-plus growth is usually a tiny base, not an operating trend.
+  if (Math.abs(value) >= 10) {
+    return (
+      <span
+        className={`tabular text-[11.5px] font-semibold ${
+          value >= 0 ? "text-positive" : "text-danger"
+        }`}
+        title={`${formatSignedPercent(value)} year on year`}
+      >
+        {value >= 0 ? "> +999%" : "< −999%"}
+      </span>
+    );
+  }
   return (
     <span
       className={`tabular text-[11.5px] font-semibold ${
@@ -21,6 +34,14 @@ function Growth({ value }: { value: number | null }) {
 
 function Multiple({ value, digits = 1 }: { value: number | null; digits?: number }) {
   if (value == null) return <span className="text-[11px] text-faint">—</span>;
+  // A PEG above 100 is not a usable signal at this precision.
+  if (digits === 2 && value > 100) {
+    return (
+      <span className="tabular text-[11.5px] text-ink" title={value.toFixed(2)}>
+        n.m.
+      </span>
+    );
+  }
   return <span className="tabular text-[11.5px] text-ink">{value.toFixed(digits)}</span>;
 }
 

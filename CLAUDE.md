@@ -123,22 +123,29 @@ not failed refreshes.
 
 ## India earnings tracker
 
-- `pnpm build:earnings` writes `data/india/earnings-tracker.json` from the India
-  filings dataset: latest reported quarter vs the same quarter a year earlier
-  for sales, EBITDA, net profit and EPS, plus market cap, P/E, ROCE (where the
-  source reports it), PEG (calculated as P/E ÷ EPS growth) and 1Y return.
-- An authorised Screener export can be dropped into
-  `data/india/earnings-tracker-source/*.csv`; the builder maps columns by name,
-  converts percentages to fractions and market cap from ₹ crore to rupees, and
-  merges those rows over the filings data. The page labels the source it used.
+- `pnpm build:earnings` writes `data/india/earnings-tracker.json` by merging
+  three sources: Stockmonk's India filings, the authorised Screener crawl
+  (`data/india/screener-earnings.json`) and an optional authorised export in
+  `data/india/earnings-tracker-source/*.csv`. Later sources win, earlier ones
+  fill gaps (for example 1Y return from our price history).
+- `pnpm ingest:screener` crawls screen 599148 (companies by market cap) and one
+  company page per ticker at or above `SCREENER_MIN_MCAP` (default ₹1,000 Cr,
+  currently ~1,614 companies). It is deliberately polite: one request at a
+  time, `SCREENER_DELAY_MS` between requests (default 1.2s), retries with
+  backoff on throttling, no retry on 404, consolidated pages with a standalone
+  fallback, and a resumable daily cache in `data/india/.screener-cache/`
+  (gitignored). The weekly `screener-earnings.yml` workflow runs the crawl and
+  commits the refreshed JSON; the daily refresh rebuilds the tracker from it.
+- The crawl is permitted under written authorisation from Screener.in/Mittal
+  Analytics. Do not extend it to Tijori Finance or any other source without an
+  equivalent licence; Tijori's terms forbid copying and public display.
+- Fields: sales, operating profit (EBITDA), net profit and EPS year-on-year,
+  market cap, P/E, ROCE and industry from Screener; PEG is calculated as
+  P/E ÷ EPS growth. 1Y return comes from Stockmonk prices and is blank where we
+  have no history.
 - `/india/earnings-tracker` filters and paginates server-side, defaults to
   companies that reported in the last 12 months (with an opt-out), states the
   active sort above the table and exports the filtered view as CSV.
-- Do not scrape or repackage Screener.in or Tijori Finance data. Both sites'
-  terms prohibit copying and public display of their material, even from pages
-  that are publicly viewable; robots.txt is not a redistribution licence.
-  Full-market coverage needs a licensed feed or exchange filings ingested as
-  Stockmonk's own data.
 
 ## Research report freshness
 - `pnpm audit:stories` compares every story's newest quarter and explicit price

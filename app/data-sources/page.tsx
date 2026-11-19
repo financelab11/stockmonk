@@ -46,6 +46,11 @@ export default function DataSourcesPage() {
               <td>Annual and quarterly statements, balance sheet, cash flow and ratios for the 100 India names.</td>
             </tr>
             <tr>
+              <td className="font-medium text-ink">India earnings tracker</td>
+              <td><a href="https://www.screener.in/screens/599148/companies-by-market-cap/" target="_blank" rel="noreferrer noopener" className="link-underline">Screener.in</a> (authorised)</td>
+              <td>Latest-quarter sales, operating profit, net profit, EPS, market cap, P/E, ROCE and industry for companies above ₹1,000 Cr, crawled weekly with permission. PEG is calculated by Stockmonk.</td>
+            </tr>
+            <tr>
               <td className="font-medium text-ink">Regulatory flows</td>
               <td><a href="https://www.sec.gov/edgar/search/" target="_blank" rel="noreferrer noopener" className="link-underline">SEC EDGAR</a></td>
               <td>XBRL company facts, 10-K/10-Q flows, segment and geography facts.</td>

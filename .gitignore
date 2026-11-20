@@ -77,3 +77,6 @@ next-env.d.ts
 /.lighthouse-test.json
 /.lighthouse-external.json
 /.lighthouse-prod.json
+
+# MarketSmith ingest failure report
+/data/india/.marketsmith-failures.json

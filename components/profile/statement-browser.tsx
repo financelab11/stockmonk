@@ -35,7 +35,7 @@ export function StatementBrowser({
       label: "Income statement",
       unit: "₹ crore",
       annual: incomeAnnual,
-      quarter: incomeQuarter,
+      quarter: incomeQuarter.rows.length ? incomeQuarter : null,
       value: frequency.income,
       onFrequency: (next: Frequency) =>
         setFrequency((current) => ({ ...current, income: next })),
@@ -63,12 +63,12 @@ export function StatementBrowser({
       label: "Key ratios",
       unit: "Percentages and multiples",
       annual: ratiosAnnual,
-      quarter: ratiosQuarter,
+      quarter: ratiosQuarter.rows.length ? ratiosQuarter : null,
       value: frequency.ratios,
       onFrequency: (next: Frequency) =>
         setFrequency((current) => ({ ...current, ratios: next })),
     },
-  ];
+  ].filter((section) => section.annual.rows.length > 0);
 
   return (
     <div>
@@ -103,8 +103,13 @@ export function StatementBrowser({
         </div>
       </div>
 
-      <div className="divide-y divide-line">
-        {sections.map((section) => (
+      {sections.length === 0 ? (
+        <p className="mt-4 rounded-xl border border-dashed border-line bg-surface p-4 text-[13px] text-muted">
+          Financial statements are not available for this company yet.
+        </p>
+      ) : (
+        <div className="divide-y divide-line">
+          {sections.map((section) => (
           <section
             key={section.id}
             aria-labelledby={`statement-${section.id}`}
@@ -165,8 +170,9 @@ export function StatementBrowser({
               />
             </div>
           </section>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
 
       <p className="mt-4 border-t border-line pt-3 text-[10.5px] leading-relaxed text-muted">
         All figures in ₹ crore unless the metric name says otherwise. Negative values appear in

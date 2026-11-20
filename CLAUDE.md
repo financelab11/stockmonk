@@ -157,18 +157,27 @@ not failed refreshes.
 
 ## Company profiles
 
-- `/india/companies/[ticker]` is statically generated for every earnings-tracker
-  company (currently 1,615). Without an ingested profile it shows the tracker's
-  key statistics and a "profile in progress" note, so every company is
-  navigable while MarketSmith ingestion rolls out.
+- `/india/companies/[ticker]` covers every earnings-tracker company (currently
+  1,615). The 120 largest by market cap plus TIPSMUSIC are prerendered; the rest
+  render on first request and are cached (`revalidate = 86400`,
+  `dynamicParams = true`). Profile JSON is traced into the route bundle with
+  `outputFileTracingIncludes`. A company without an ingested profile falls back
+  to the tracker's key statistics and a short note, so every route stays
+  navigable.
+- Profiles currently cover 1,596 of 1,615 companies (98.8%). The remainder are
+  InvITs/REITs, unlisted names or symbols the source does not publish; they keep
+  the tracker fallback.
 - `pnpm ingest:marketsmith --ticker=TIPSMUSIC` writes
   `data/india/profiles/<TICKER>.json` from MarketSmith India (authorised). The
   evaluation page is a client-side template, so the script resolves the
-  instrument on the guest gateway, then fetches `symboldetails.json`,
+  instrument on the guest gateway by exact symbol, then fetches
+  `symboldetails.json`,
   `financeDetails.json` (consolidated first, standalone fallback),
   `getRedFlags.json`/`getGreenFlags.json` and one year of daily closes.
   Statements are transposed to metrics-as-rows, empty rows are dropped and a
-  Zod schema validates the profile.
+  Zod schema validates the profile. Batch runs use `MS_CONCURRENCY`,
+  `MS_RETRIES` and `MS_MAX_QUARTERS` (default 24); files are written compact and
+  failures go to `data/india/.marketsmith-failures.json`.
 - The page reuses the research-page design language: key statistics, dark
   chart panels (price, sales/EPS, margins), stacked annual statements,
   ownership bars/history/major shareholders, and a surveillance checklist.

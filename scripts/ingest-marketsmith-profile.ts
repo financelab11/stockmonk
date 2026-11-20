@@ -8,6 +8,11 @@
  *
  * Run: pnpm ingest:marketsmith --ticker=TIPSMUSIC
  *      MS_TICKERS=TIPSMUSIC,RELIANCE pnpm ingest:marketsmith
+ *      pnpm ingest:marketsmith --all --resume          (every tracker company)
+ *
+ * Batch options (env): MS_CONCURRENCY, MS_DELAY_MS, MS_RETRIES, MS_MAX_QUARTERS.
+ * Files are written compact and quarterly statements are capped to the latest
+ * MS_MAX_QUARTERS periods to keep the repository and page payloads bounded.
  *
  * Written permission from MarketSmith India is required before republishing
  * this data (see CLAUDE.md).
@@ -17,6 +22,7 @@ import path from "node:path";
 import {
   marketsmithProfileSchema,
   profileTableSchema,
+  type MarketsmithProfile,
   type ProfileTable,
 } from "../lib/schemas";
 
@@ -26,10 +32,22 @@ const BASE = "https://marketsmithindia.com";
 const GATEWAY = `${BASE}/gateway/simple-api/ms-india/`;
 const OUT_DIR = path.join(process.cwd(), "data", "india", "profiles");
 const DELAY_MS = Number(process.env.MS_DELAY_MS ?? "400");
+const CONCURRENCY = Math.max(1, Number(process.env.MS_CONCURRENCY ?? "1"));
+const RETRIES = Math.max(1, Number(process.env.MS_RETRIES ?? "3"));
+const MAX_QUARTERS = Math.max(4, Number(process.env.MS_MAX_QUARTERS ?? "24"));
+const RESUME = process.argv.includes("--resume") || process.env.MS_RESUME === "1";
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 function cliTickers(): string[] {
+  if (process.argv.includes("--all")) {
+    const tracker = JSON.parse(
+      fs.readFileSync(path.join(process.cwd(), "data", "india", "earnings-tracker.json"), "utf8"),
+    ) as { rows?: Array<{ ticker?: string }> };
+    return (tracker.rows ?? [])
+      .map((row) => String(row.ticker ?? "").toUpperCase())
+      .filter(Boolean);
+  }
   const arg = process.argv.find((value) => value.startsWith("--ticker="));
   if (arg) return [arg.split("=")[1].toUpperCase()];
   const env = process.env.MS_TICKERS;
@@ -39,10 +57,16 @@ function cliTickers(): string[] {
 
 type Session = { cookie: string; auth: string };
 
+/** Tracker symbols that MarketSmith lists under a different ticker. */
+const SYMBOL_ALIASES: Record<string, string> = {
+  DOLPHIN: "DOLPHINOFF",
+};
+
 async function openSession(symbol: string): Promise<Session> {
-  const response = await fetch(`${BASE}/mstool/eval/${symbol.toLowerCase()}/evaluation.jsp`, {
-    headers: { "User-Agent": UA },
-  });
+  const response = await fetch(
+    `${BASE}/mstool/eval/${encodeURIComponent(symbol.toLowerCase())}/evaluation.jsp`,
+    { headers: { "User-Agent": UA } },
+  );
   const cookies = response.headers.getSetCookie?.() ?? [];
   const cookie = cookies.map((value) => value.split(";")[0]).join("; ");
   const auth =
@@ -132,6 +156,15 @@ function topFlags(results: Record<string, unknown> | null | undefined): Record<s
   return red;
 }
 
+/** Quarterly sources can go back 90+ periods; keep a readable window. */
+function capQuarters(table: ProfileTable, periods: number): ProfileTable {
+  if (table.headers.length <= periods + 1) return table;
+  return {
+    headers: table.headers.slice(0, periods + 1),
+    rows: table.rows.map((row) => row.slice(0, periods + 1)),
+  };
+}
+
 async function buildProfile(ticker: string) {
   const session = await openSession(ticker);
   const search = await api(
@@ -139,12 +172,16 @@ async function buildProfile(ticker: string) {
     `instr/srch.json?text=${encodeURIComponent(ticker)}&lang=en&ver=2`,
   );
   const results = search.results as Array<Record<string, unknown>> | undefined;
+  const sourceSymbol = SYMBOL_ALIASES[ticker] ?? ticker;
   const instrument = results?.find(
-    (item) => String(item.symbol).toUpperCase() === ticker,
-  ) ?? results?.[0];
+    (item) => String(item.symbol).toUpperCase() === sourceSymbol,
+  );
   if (!instrument) throw new Error(`MarketSmith instrument not found for ${ticker}`);
 
   const instrumentId = Number(instrument.instrumentId);
+  if (!Number.isFinite(instrumentId) || instrumentId <= 0) {
+    throw new Error(`MarketSmith instrument id missing for ${ticker}`);
+  }
   const symbol = String(instrument.symbol);
   const today = new Date();
   const dateTo = today.toISOString().slice(0, 10).replaceAll("-", "");
@@ -178,7 +215,7 @@ async function buildProfile(ticker: string) {
   await sleep(DELAY_MS);
   const chart = await api(
     session,
-    `instr/0/${instrumentId}/details.json?symbol=${symbol}&p=0&s=${dateFrom1y}&e=${dateTo}`,
+    `instr/0/${instrumentId}/details.json?symbol=${encodeURIComponent(symbol)}&p=0&s=${dateFrom1y}&e=${dateTo}`,
   );
   await sleep(DELAY_MS);
   const quote = (await api(
@@ -406,32 +443,84 @@ async function buildProfile(ticker: string) {
     series,
   });
 
+  const stored: MarketsmithProfile = {
+    ...profile,
+    incomeQuarter: capQuarters(profile.incomeQuarter, MAX_QUARTERS),
+    ratiosQuarter: capQuarters(profile.ratiosQuarter, MAX_QUARTERS),
+  };
+
   fs.mkdirSync(OUT_DIR, { recursive: true });
-  fs.writeFileSync(
-    path.join(OUT_DIR, `${ticker}.json`),
-    JSON.stringify(profile, null, 2),
-  );
+  fs.writeFileSync(path.join(OUT_DIR, `${ticker}.json`), JSON.stringify(stored));
   console.log(
     `[marketsmith] ${ticker}: ${profile.name} · ${profile.industry} · ${profile.basis} · ` +
-      `${profile.earningsAnnual.rows.length} annual · ${profile.earningsQuarterly.rows.length} quarters · ` +
+      `${profile.earningsAnnual.rows.length} annual · ${stored.incomeQuarter.headers.length - 1} quarters · ` +
       `${profile.incomeAnnual.rows.length} income rows · ${profile.series.price.length} prices`,
   );
-  return profile;
+  return stored;
 }
 
 async function main() {
   const tickers = cliTickers();
   if (!tickers.length) {
-    console.error("Usage: pnpm ingest:marketsmith --ticker=TIPSMUSIC");
+    console.error(
+      "Usage: pnpm ingest:marketsmith --ticker=TIPSMUSIC | --all --resume | MS_TICKERS=A,B",
+    );
     process.exit(1);
   }
-  for (const ticker of tickers) {
-    try {
-      await buildProfile(ticker);
-    } catch (error) {
-      console.error(`[marketsmith] ${ticker} failed: ${String(error)}`);
+
+  const queue = [...tickers];
+  const failures: Array<{ ticker: string; error: string }> = [];
+  let written = 0;
+  let skipped = 0;
+
+  const startedAt = Date.now();
+  console.log(
+    `[marketsmith] ${tickers.length} tickers · concurrency ${CONCURRENCY} · ` +
+      `${MAX_QUARTERS} quarters · resume ${RESUME ? "on" : "off"}`,
+  );
+
+  async function worker(): Promise<void> {
+    for (;;) {
+      const ticker = queue.shift();
+      if (!ticker) return;
+
+      if (RESUME && fs.existsSync(path.join(OUT_DIR, `${ticker}.json`))) {
+        skipped += 1;
+        continue;
+      }
+
+      let saved = false;
+      for (let attempt = 1; attempt <= RETRIES && !saved; attempt += 1) {
+        try {
+          await buildProfile(ticker);
+          written += 1;
+          saved = true;
+        } catch (error) {
+          if (attempt === RETRIES) {
+            const message = String(error);
+            failures.push({ ticker, error: message });
+            console.error(`[marketsmith] ${ticker} failed after ${attempt} tries: ${message}`);
+          } else {
+            await sleep(1500 * attempt);
+          }
+        }
+      }
+      await sleep(DELAY_MS);
     }
-    await sleep(DELAY_MS);
+  }
+
+  await Promise.all(Array.from({ length: CONCURRENCY }, () => worker()));
+
+  const seconds = Math.round((Date.now() - startedAt) / 1000);
+  console.log(
+    `[marketsmith] done in ${seconds}s · written ${written} · skipped ${skipped} · failed ${failures.length}`,
+  );
+
+  if (failures.length) {
+    const report = path.join(process.cwd(), "data", "india", ".marketsmith-failures.json");
+    fs.writeFileSync(report, JSON.stringify(failures, null, 2));
+    console.log(`[marketsmith] failures written to ${path.relative(process.cwd(), report)}`);
+    process.exitCode = 1;
   }
 }
 

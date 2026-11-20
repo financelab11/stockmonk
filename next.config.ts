@@ -30,6 +30,10 @@ const nextConfig: NextConfig = {
       "./test-results/**",
     ],
   },
+  outputFileTracingIncludes: {
+    // Company profiles are read at request time for ISR pages.
+    "/india/companies/**": ["./data/india/profiles/**/*.json"],
+  },
   async headers() {
     return [
       {

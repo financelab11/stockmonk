@@ -22,12 +22,21 @@ import {
 } from "@/lib/format";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
+const PRERENDER_COUNT = 120;
+
 export function generateStaticParams() {
   const data = readEarningsTracker();
-  return (data?.rows ?? []).map((row) => ({ ticker: row.ticker }));
+  const featured = [...(data?.rows ?? [])]
+    .sort((a, b) => (b.marketCap ?? 0) - (a.marketCap ?? 0))
+    .slice(0, PRERENDER_COUNT)
+    .map((row) => row.ticker);
+  // Prerender the largest companies; every other tracker company renders on
+  // first request and is cached, which keeps the build inside Vercel's limit.
+  return [...new Set(["TIPSMUSIC", ...featured])].map((ticker) => ({ ticker }));
 }
 
-export const dynamicParams = false;
+export const dynamicParams = true;
+export const revalidate = 86400;
 
 export async function generateMetadata({
   params,
@@ -663,8 +672,8 @@ export default async function CompanyProfilePage({
               <h2 className="type-subhead text-ink">Full profile in progress</h2>
               <p className="type-body mt-1 max-w-2xl text-muted">
                 The earnings-tracker statistics are live. The full profile — statements,
-                ratios, ownership and surveillance — is being ingested company by company;
-                Tips Music is the first completed sample.
+                ratios, ownership and surveillance — has not been published for this company
+                yet.
               </p>
               <Link href="/india/earnings-tracker" className="mt-2 inline-block text-[12.5px] font-semibold text-brand">
                 Back to the earnings tracker

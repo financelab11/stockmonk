@@ -3,7 +3,7 @@ import { expect, test } from "@playwright/test";
 const STATEMENTS = ["Income statement", "Balance sheet", "Cash flow", "Key ratios"];
 
 test.describe("India company profiles", () => {
-  test("Tips Music renders the full MarketSmith profile", async ({ page }) => {
+  test("Tips Music renders the full company profile", async ({ page }) => {
     await page.goto("/india/companies/TIPSMUSIC", { waitUntil: "domcontentloaded" });
 
     await expect(
@@ -122,10 +122,21 @@ test.describe("India company profiles", () => {
   });
 
   test("a company without an ingested profile still has a page", async ({ page }) => {
-    await page.goto("/india/companies/RELIANCE", { waitUntil: "domcontentloaded" });
-    await expect(page.getByRole("heading", { name: /Reliance/i })).toBeVisible();
+    await page.goto("/india/companies/543225", { waitUntil: "domcontentloaded" });
+    await expect(page.getByRole("heading", { name: /Altius Telecom/i })).toBeVisible();
     await expect(page.getByRole("heading", { name: "Key statistics" })).toBeVisible();
     await expect(page.getByText("Full profile in progress")).toBeVisible();
+  });
+
+  test("a second ingested company renders its statements", async ({ page }) => {
+    await page.goto("/india/companies/RELIANCE", { waitUntil: "domcontentloaded" });
+    await expect(
+      page.getByRole("heading", { name: /Reliance Industries/i, level: 1 }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("heading", { name: "Financial statements", exact: true }),
+    ).toBeVisible();
+    await expect(page.getByRole("region", { name: "Income statement" })).toBeVisible();
   });
 
   test("tracker rows link to company profiles", async ({ page }) => {

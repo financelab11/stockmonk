@@ -129,7 +129,7 @@ export default async function CompanyProfilePage({
   const latestMargin = profile?.series.margins.at(-1);
   const derivedProfitability = [
     ratio("return on capital employed")
-      ? { label: "ROCE (MarketSmith)", value: ratio("return on capital employed") as string }
+      ? { label: "ROCE", value: ratio("return on capital employed") as string }
       : null,
     latestMargin?.ebit != null
       ? { label: "EBIT margin", value: `${(latestMargin.ebit * 100).toFixed(1)}%` }
@@ -427,7 +427,7 @@ export default async function CompanyProfilePage({
                 <div>
                   <h2 className="type-section text-ink">Key statistics</h2>
                   <p className="type-body mt-1 text-muted">
-                    Latest reported figures from MarketSmith India.
+                    Latest reported figures from company filings.
                   </p>
                 </div>
                 {profile && (
@@ -468,7 +468,7 @@ export default async function CompanyProfilePage({
                   items={pick(["No. of funds", "Shares held by funds", "Shares in float"])}
                 />
                 <Group
-                  title="MarketSmith ratings"
+                  title="Ratings"
                   items={pick(["Master score", "EPS rating", "Group rank", "Acc/Dis rating"])}
                 />
               </div>
@@ -617,7 +617,7 @@ export default async function CompanyProfilePage({
                     </ul>
                   ) : (
                     <p className="type-body mt-2 text-muted">
-                      No surveillance or caution flags on MarketSmith&apos;s list.
+                      No surveillance or caution flags reported.
                     </p>
                   )}
                 </div>
@@ -640,10 +640,10 @@ export default async function CompanyProfilePage({
             </section>
 
             <p className="mt-5 text-[11px] leading-relaxed text-muted">
-              Profile data: MarketSmith India (authorised). Statements are{" "}
+              Statements are{" "}
               {profile.basis === "consolidated" ? "consolidated" : "standalone"} because
-              consolidated figures were not available. MarketSmith ratings and flags are
-              third-party assessments, not Stockmonk recommendations.
+              consolidated figures were not available. Ratings and flags are third-party
+              assessments, not Stockmonk recommendations.
             </p>
           </>
         ) : (
@@ -662,9 +662,9 @@ export default async function CompanyProfilePage({
             <section className="mt-4 rounded-xl border border-dashed border-line bg-surface p-5">
               <h2 className="type-subhead text-ink">Full profile in progress</h2>
               <p className="type-body mt-1 max-w-2xl text-muted">
-                The earnings-tracker statistics are live. The MarketSmith profile — statements,
-                ratios, ownership and surveillance — is being ingested company by company; Tips
-                Music is the first completed sample.
+                The earnings-tracker statistics are live. The full profile — statements,
+                ratios, ownership and surveillance — is being ingested company by company;
+                Tips Music is the first completed sample.
               </p>
               <Link href="/india/earnings-tracker" className="mt-2 inline-block text-[12.5px] font-semibold text-brand">
                 Back to the earnings tracker

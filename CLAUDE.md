@@ -170,20 +170,23 @@ not failed refreshes.
   Statements are transposed to metrics-as-rows, empty rows are dropped and a
   Zod schema validates the profile.
 - The page reuses the research-page design language: key statistics, dark
-  chart panels (price, sales/EPS, margins), collapsible ratios and statements,
+  chart panels (price, sales/EPS, margins), stacked annual statements,
   ownership bars/history/major shareholders, and a surveillance checklist.
-  It states the statement basis and attributes MarketSmith.
+  It states the statement basis but does not name the data vendor anywhere in
+  the UI; licensed data is published without on-page attribution.
 - Typography tokens live in `globals.css`: `.type-company`, `.type-section`
   (Newsreader 400), `.type-subhead`, `.type-body`, `.kpi-label`, `.kpi-value`,
   `.type-table` and `.type-nav` (Inter). Uppercase is reserved for `.meta-caps`.
 - `components/profile/financial-table.tsx` renders a sticky-header desktop table
-  with the latest period highlighted, and on mobile a period selector with
-  YoY/QoQ cards plus an opt-in full-history table. `statement-browser.tsx`
-  switches statement and period; `profile-charts.tsx` dynamically imports the
-  three charts below the fold. The profile nav is sticky at `top-24` because the
-  site header is 96px tall.
-- Written permission from MarketSmith India is required before republishing
-  this data. Tijori Finance remains off-limits without an equivalent licence.
+  running oldest to newest with the latest period highlighted. The scrollport is
+  `dir="rtl"` with an `ltr` table so mobile opens on the latest period before
+  hydration; the table can be scrolled back to older years. `% Chg` rows are
+  tinted green/red in proportion to the move. `statement-browser.tsx` stacks the
+  four statements; `profile-charts.tsx` dynamically imports the three charts
+  below the fold. The profile nav is sticky at `top-24` because the site header
+  is 96px tall.
+- Written permission from the data vendor is required before republishing this
+  data. Tijori Finance remains off-limits without an equivalent licence.
 
 ## Research report freshness
 - `pnpm audit:stories` compares every story's newest quarter and explicit price

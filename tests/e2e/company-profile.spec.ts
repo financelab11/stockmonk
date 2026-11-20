@@ -104,6 +104,23 @@ test.describe("India company profiles", () => {
     await expect(income.locator("table")).toBeVisible();
   });
 
+  test("mobile table opens on the latest period", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/india/companies/TIPSMUSIC#financials", { waitUntil: "domcontentloaded" });
+    await page.waitForTimeout(600);
+    await page.evaluate(() => {
+      const section = document.querySelector("#financials");
+      if (section) {
+        window.scrollTo({ top: section.getBoundingClientRect().top + window.scrollY - 120 });
+      }
+    });
+
+    const income = page.getByRole("region", { name: "Income statement" });
+    const headers = income.locator("thead th");
+    await expect(headers.last()).toBeInViewport();
+    await expect(headers.nth(1)).not.toBeInViewport();
+  });
+
   test("a company without an ingested profile still has a page", async ({ page }) => {
     await page.goto("/india/companies/RELIANCE", { waitUntil: "domcontentloaded" });
     await expect(page.getByRole("heading", { name: /Reliance/i })).toBeVisible();

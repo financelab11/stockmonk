@@ -1,24 +1,19 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { ProfileTable } from "@/lib/schemas";
-import { formatMetricValue } from "@/lib/finance-format";
+import {
+  changeTint,
+  formatMetricValue,
+  isPercentageChangeMetric,
+  parseMetricValue,
+} from "@/lib/finance-format";
 
 type Column = { label: string; raw: number };
 
-function parseNumber(value: string): number | null {
-  const cleaned = value.replace(/[(),%\s]/g, "").trim();
-  if (!cleaned || cleaned === "—" || cleaned === "-") return null;
-  const parsed = Number(cleaned);
-  if (!Number.isFinite(parsed)) return null;
-  return value.trim().startsWith("-") || value.trim().startsWith("(")
-    ? -parsed
-    : parsed;
-}
-
 function growth(latest: string, previous: string): number | null {
-  const current = parseNumber(latest);
-  const base = parseNumber(previous);
+  const current = parseMetricValue(latest);
+  const base = parseMetricValue(previous);
   if (current == null || base == null || base === 0) return null;
   return ((current - base) / Math.abs(base)) * 100;
 }
@@ -48,20 +43,11 @@ export function FinancialTable({
 
   const [selected, setSelected] = useState(1);
   const [mode, setMode] = useState<"cards" | "table">(defaultMode);
-  const scrollRef = useRef<HTMLDivElement>(null);
 
   // Reset to the latest period when the statement changes.
   useEffect(() => {
     setSelected(1);
   }, [table]);
-
-  // Open on the latest period instead of the oldest year.
-  useEffect(() => {
-    const element = scrollRef.current;
-    if (element && element.scrollWidth > element.clientWidth) {
-      element.scrollLeft = element.scrollWidth;
-    }
-  }, [mode, table]);
 
   if (!table.rows.length || !table.headers.length) {
     return (
@@ -140,7 +126,7 @@ export function FinancialTable({
                 ? growth(value, row[previousRaw] ?? "—")
                 : null;
             if (value === "—" && delta == null) return null;
-            const numeric = parseNumber(value);
+            const numeric = parseMetricValue(value);
             const negative = numeric != null && numeric < 0;
             return (
               <div key={row[0]} className="flex items-baseline justify-between gap-3 px-3 py-2">
@@ -174,13 +160,13 @@ export function FinancialTable({
       <div className={mode === "table" ? "block" : "hidden lg:block"}>
         <div className="relative overflow-hidden rounded-xl border border-line bg-surface">
           <div
-            ref={scrollRef}
+            dir="rtl"
             className="max-h-[70vh] overflow-auto"
             tabIndex={0}
             role="region"
             aria-label="Financial table, scrollable"
           >
-            <table className="w-full border-collapse">
+            <table dir="ltr" className="w-full border-collapse">
               <caption className="sr-only">
                 Financial table: metric rows with reporting periods from oldest to newest.
               </caption>
@@ -218,15 +204,27 @@ export function FinancialTable({
                     </th>
                     {columns.map((column, index) => {
                       const cell = row[column.raw] ?? "—";
-                      const numeric = parseNumber(cell);
+                      const numeric = parseMetricValue(cell);
+                      const isLatest = index === latestDisplayIndex;
+                      const isChangeRow = isPercentageChangeMetric(row[0]);
+                      const tint =
+                        isChangeRow && numeric != null ? changeTint(numeric) : undefined;
+                      const trend = isChangeRow
+                        ? tint
+                          ? "text-ink"
+                          : "text-ink-soft"
+                        : numeric != null && numeric < 0
+                          ? "text-danger"
+                          : isLatest
+                            ? "text-ink"
+                            : "text-ink-soft";
                       return (
                         <td
                           key={column.raw}
-                          className={`px-2 py-2 text-right text-[12.5px] whitespace-nowrap sm:px-3 ${
-                            index === latestDisplayIndex
-                              ? "bg-brand-soft/50 font-semibold text-ink"
-                              : "text-ink-soft"
-                          } ${numeric != null && numeric < 0 ? "text-danger" : ""}`}
+                          style={tint ? { backgroundColor: tint } : undefined}
+                          className={`px-2 py-2 text-right text-[12.5px] whitespace-nowrap sm:px-3 ${trend} ${
+                            isLatest ? "font-semibold" : ""
+                          } ${isLatest && !tint ? "bg-brand-soft/50" : ""}`}
                         >
                           {formatMetricValue(cell, row[0])}
                         </td>

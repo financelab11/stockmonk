@@ -1,5 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { formatMetricValue, isRatioOrPerShareMetric } from "@/lib/finance-format";
+import {
+  changeTint,
+  formatMetricValue,
+  isPercentageChangeMetric,
+  isRatioOrPerShareMetric,
+  parseMetricValue,
+} from "@/lib/finance-format";
 
 describe("formatMetricValue", () => {
   it("rounds large monetary figures to whole crore", () => {
@@ -50,8 +56,7 @@ describe("formatMetricValue", () => {
   });
 });
 
-describe("isRatioOrPerShareMetric", () => {
-  it("classifies ratio and per-share labels", () => {
+describe("isRatioOrPerShareMetric", () => {  it("classifies ratio and per-share labels", () => {
     expect(isRatioOrPerShareMetric("EBIT Margin (%)")).toBe(true);
     expect(isRatioOrPerShareMetric("BasicEPS")).toBe(true);
     expect(isRatioOrPerShareMetric("Book Value/Share (INR)")).toBe(true);
@@ -64,5 +69,63 @@ describe("isRatioOrPerShareMetric", () => {
     expect(isRatioOrPerShareMetric("No. of Equity Shares")).toBe(false);
     expect(isRatioOrPerShareMetric("Net Income (Cr)")).toBe(false);
     expect(isRatioOrPerShareMetric("Trade Payables")).toBe(false);
+  });
+});
+
+describe("parseMetricValue", () => {
+  it("parses both negative conventions without double negation", () => {
+    expect(parseMetricValue("-25")).toBe(-25);
+    expect(parseMetricValue("-62.78")).toBe(-62.78);
+    expect(parseMetricValue("(25)")).toBe(-25);
+    expect(parseMetricValue("(0.6)")).toBe(-0.6);
+    expect(parseMetricValue("16.96")).toBe(16.96);
+    expect(parseMetricValue("1300")).toBe(1300);
+  });
+
+  it("returns null for empty and placeholder cells", () => {
+    expect(parseMetricValue("—")).toBeNull();
+    expect(parseMetricValue("")).toBeNull();
+    expect(parseMetricValue("-")).toBeNull();
+  });
+
+  it("keeps parentheses formatting for negative percentages", () => {
+    expect(formatMetricValue("(25)", "Sales % Chg")).toBe("(25)");
+    expect(formatMetricValue("-62.78", "Net Cash Used In Investing Activity")).toBe("(63)");
+  });
+});
+
+describe("isPercentageChangeMetric", () => {
+  it("matches change rows", () => {
+    expect(isPercentageChangeMetric("Sales % Chg")).toBe(true);
+    expect(isPercentageChangeMetric("NI % Chg")).toBe(true);
+    expect(isPercentageChangeMetric("EBIT % Chg")).toBe(true);
+    expect(isPercentageChangeMetric("BasicEPS % Chg")).toBe(true);
+    expect(isPercentageChangeMetric("Pretax Income % Chg")).toBe(true);
+  });
+
+  it("leaves levels and margins alone", () => {
+    expect(isPercentageChangeMetric("EBIT Margin (%)")).toBe(false);
+    expect(isPercentageChangeMetric("Sales (Cr)")).toBe(false);
+    expect(isPercentageChangeMetric("Return On Equity (%)")).toBe(false);
+  });
+});
+
+describe("changeTint", () => {
+  it("returns green for gains and red for losses", () => {
+    expect(changeTint(23)).toMatch(/^rgb\(13 107 77 \//);
+    expect(changeTint(-18)).toMatch(/^rgb\(198 47 62 \//);
+  });
+
+  it("scales with the size of the move and stays light", () => {
+    const small = Number(changeTint(5)?.match(/([0-9.]+)\)$/)?.[1]);
+    const large = Number(changeTint(300)?.match(/([0-9.]+)\)$/)?.[1]);
+    expect(small).toBeGreaterThanOrEqual(0.08);
+    expect(large).toBeGreaterThan(small);
+    expect(large).toBeLessThanOrEqual(0.28);
+  });
+
+  it("returns nothing for zero or missing values", () => {
+    expect(changeTint(0)).toBeUndefined();
+    expect(changeTint(Number.NaN)).toBeUndefined();
   });
 });

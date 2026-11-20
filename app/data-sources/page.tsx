@@ -56,6 +56,11 @@ export default function DataSourcesPage() {
               <td>Daily closes for the earnings tracker; the 1Y return compares the latest close with the close a year earlier (NSE symbols, BSE fallback).</td>
             </tr>
             <tr>
+              <td className="font-medium text-ink">Company profiles</td>
+              <td><a href="https://marketsmithindia.com/" target="_blank" rel="noreferrer noopener" className="link-underline">MarketSmith India</a> (authorised)</td>
+              <td>Company description, key statistics, annual and quarterly ratios, income statement, balance sheet, cash flow, ownership and surveillance checks. Consolidated statements are preferred, with standalone as the fallback.</td>
+            </tr>
+            <tr>
               <td className="font-medium text-ink">Regulatory flows</td>
               <td><a href="https://www.sec.gov/edgar/search/" target="_blank" rel="noreferrer noopener" className="link-underline">SEC EDGAR</a></td>
               <td>XBRL company facts, 10-K/10-Q flows, segment and geography facts.</td>

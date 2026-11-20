@@ -155,6 +155,27 @@ not failed refreshes.
   companies that reported in the last 12 months (with an opt-out), states the
   active sort above the table and exports the filtered view as CSV.
 
+## Company profiles
+
+- `/india/companies/[ticker]` is statically generated for every earnings-tracker
+  company (currently 1,615). Without an ingested profile it shows the tracker's
+  key statistics and a "profile in progress" note, so every company is
+  navigable while MarketSmith ingestion rolls out.
+- `pnpm ingest:marketsmith --ticker=TIPSMUSIC` writes
+  `data/india/profiles/<TICKER>.json` from MarketSmith India (authorised). The
+  evaluation page is a client-side template, so the script resolves the
+  instrument on the guest gateway, then fetches `symboldetails.json`,
+  `financeDetails.json` (consolidated first, standalone fallback),
+  `getRedFlags.json`/`getGreenFlags.json` and one year of daily closes.
+  Statements are transposed to metrics-as-rows, empty rows are dropped and a
+  Zod schema validates the profile.
+- The page reuses the research-page design language: key statistics, dark
+  chart panels (price, sales/EPS, margins), collapsible ratios and statements,
+  ownership bars/history/major shareholders, and a surveillance checklist.
+  It states the statement basis and attributes MarketSmith.
+- Written permission from MarketSmith India is required before republishing
+  this data. Tijori Finance remains off-limits without an equivalent licence.
+
 ## Research report freshness
 - `pnpm audit:stories` compares every story's newest quarter and explicit price
   with the dataset; it exits non-zero when a report is behind.

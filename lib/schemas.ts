@@ -210,6 +210,66 @@ export const earningsTrackerRowSchema = z.object({
 
 export type EarningsTrackerRow = z.infer<typeof earningsTrackerRowSchema>;
 
+export const profileTableSchema = z.object({
+  headers: z.array(z.string()),
+  rows: z.array(z.array(z.string())),
+});
+
+export const marketsmithProfileSchema = z.object({
+  ticker: z.string(),
+  symbol: z.string(),
+  instrumentId: z.number(),
+  name: z.string(),
+  industry: z.string(),
+  about: z.string(),
+  website: z.string().nullable(),
+  location: z.string().nullable(),
+  exchange: z.string().nullable(),
+  fetchedAt: z.string(),
+  basis: z.enum(["consolidated", "standalone"]),
+  price: z.object({
+    value: z.number().nullable(),
+    changePct: z.number().nullable(),
+    week52High: z.number().nullable(),
+    week52Low: z.number().nullable(),
+  }),
+  stats: z.array(z.object({ label: z.string(), value: z.string() })),
+  earningsAnnual: profileTableSchema,
+  earningsQuarterly: profileTableSchema,
+  incomeAnnual: profileTableSchema,
+  incomeQuarter: profileTableSchema,
+  balanceSheet: profileTableSchema,
+  cashFlow: profileTableSchema,
+  ratiosAnnual: profileTableSchema,
+  ratiosQuarter: profileTableSchema,
+  ownership: z.object({
+    current: z.array(z.object({ name: z.string(), percent: z.number() })),
+    history: z.array(z.object({ name: z.string(), value: z.number(), month: z.string() })),
+    top: z.array(
+      z.object({
+        name: z.string(),
+        holding: z.number(),
+        date: z.string().nullable(),
+      }),
+    ),
+  }),
+  surveillance: z.object({
+    red: z.record(z.string(), z.number()),
+    green: z.array(z.string()),
+  }),
+  series: z.object({
+    price: z.array(z.object({ d: z.string(), c: z.number() })),
+    sales: z.array(z.object({ label: z.string(), value: z.number() })),
+    eps: z.array(z.object({ label: z.string(), value: z.number() })),
+    margins: z.array(
+      z.object({ label: z.string(), ebit: z.number().nullable(), net: z.number().nullable() }),
+    ),
+  }),
+});
+
+export type MarketsmithProfile = z.infer<typeof marketsmithProfileSchema>;
+export type ProfileTable = z.infer<typeof profileTableSchema>;
+
 export const earningsTrackerSchema = z.object({
   generatedAt: z.string(),
   asOf: z.string().nullable(),

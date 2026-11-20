@@ -4,6 +4,7 @@ import { INDIA_TICKERS } from "@/config/india-coverage";
 import { GCC_PUBLISHED_TICKERS } from "@/config/gcc-coverage";
 import { getGrowthRankerDataset } from "@/lib/growth-ranker/dataset";
 import { SITE } from "@/lib/constants";
+import { readEarningsTracker } from "@/lib/earnings-tracker";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -59,5 +60,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }),
   );
 
-  return [...staticRoutes, ...stockRoutes, ...indiaRoutes, ...gccRoutes, ...growthRankerRoutes];
+  const companyProfileRoutes: MetadataRoute.Sitemap = (
+    readEarningsTracker()?.rows ?? []
+  ).map((row) => ({
+    url: `${SITE.url}/india/companies/${row.ticker}`,
+    lastModified: now,
+    changeFrequency: "daily",
+    priority: 0.6,
+  }));
+
+  return [
+    ...staticRoutes,
+    ...stockRoutes,
+    ...indiaRoutes,
+    ...gccRoutes,
+    ...growthRankerRoutes,
+    ...companyProfileRoutes,
+  ];
 }

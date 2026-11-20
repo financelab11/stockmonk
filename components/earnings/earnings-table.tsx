@@ -45,13 +45,7 @@ function Multiple({ value, digits = 1 }: { value: number | null; digits?: number
   return <span className="tabular text-[11.5px] text-ink">{value.toFixed(digits)}</span>;
 }
 
-export function EarningsTable({
-  rows,
-  linkedTickers,
-}: {
-  rows: EarningsTrackerRow[];
-  linkedTickers: Set<string>;
-}) {
+export function EarningsTable({ rows }: { rows: EarningsTrackerRow[] }) {
   return (
     <div className="overflow-x-auto rounded-xl border border-line bg-surface">
       <table className="data-table min-w-[1180px]">
@@ -78,9 +72,7 @@ export function EarningsTable({
         </thead>
         <tbody>
           {rows.map((row) => {
-            const href = linkedTickers.has(row.ticker)
-              ? `/india/stocks/${row.ticker}`
-              : null;
+            const href = `/india/companies/${row.ticker}`;
             return (
               <tr key={row.ticker}>
                 <th scope="row" className="sticky left-0 z-10 bg-surface text-left font-normal">
@@ -88,15 +80,9 @@ export function EarningsTable({
                     <StockLogoStatic ticker={row.ticker} size={28} />
                     <div className="min-w-0">
                       <div className="flex items-baseline gap-1.5">
-                        {href ? (
-                          <a href={href} className="truncate text-[12px] font-semibold text-ink hover:text-brand">
-                            {row.name}
-                          </a>
-                        ) : (
-                          <span className="truncate text-[12px] font-semibold text-ink">
-                            {row.name}
-                          </span>
-                        )}
+                        <a href={href} className="truncate text-[12px] font-semibold text-ink hover:text-brand">
+                          {row.name}
+                        </a>
                         <span className="font-mono text-[9.5px] text-muted">{row.ticker}</span>
                       </div>
                       <p className="truncate text-[9.5px] text-faint">{row.industry}</p>

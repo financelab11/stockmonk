@@ -58,7 +58,8 @@
     "stories:apply": "tsx scripts/apply-handwritten.ts",
     "build:earnings": "tsx scripts/build-earnings-tracker.ts",
     "ingest:screener": "tsx scripts/scrape-screener-earnings.ts",
-    "refresh:earnings-prices": "tsx scripts/refresh-earnings-prices.ts"
+    "refresh:earnings-prices": "tsx scripts/refresh-earnings-prices.ts",
+    "ingest:marketsmith": "tsx scripts/ingest-marketsmith-profile.ts"
   },
   "dependencies": {
     "@serwist/next": "^9.5.13",

@@ -7,9 +7,7 @@ import { EarningsTable } from "@/components/earnings/earnings-table";
 import { MarketPagination } from "@/components/market/market-pagination";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { JsonLd } from "@/components/seo/json-ld";
-import { getIndiaUniverse } from "@/lib/india-data";
-import { formatDate } from "@/lib/format";
-import {
+import { formatDate } from "@/lib/format";import {
   activeEarningsFilters,
   buildEarningsUrl,
   earningsSearch,
@@ -71,11 +69,6 @@ export default async function EarningsTrackerPage({
   const activeCount = activeEarningsFilters({ ...params, page: 1 });
   const search = earningsSearch({ ...params, page: 1 });
   const downloadHref = `/api/data/earnings-export${search ? `?${search}` : ""}`;
-  const linkedTickers = new Set(
-    getIndiaUniverse()
-      .filter((entry) => entry.isResearch)
-      .map((entry) => entry.ticker),
-  );
 
   return (
     <>
@@ -233,7 +226,7 @@ export default async function EarningsTrackerPage({
             ) : (
               <>
                 <div className="mt-3">
-                  <EarningsTable rows={rows} linkedTickers={linkedTickers} />
+                  <EarningsTable rows={rows} />
                 </div>
 
                 <MarketPagination

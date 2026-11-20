@@ -180,6 +180,12 @@ async function buildProfile(ticker: string) {
     session,
     `instr/0/${instrumentId}/details.json?symbol=${symbol}&p=0&s=${dateFrom1y}&e=${dateTo}`,
   );
+  await sleep(DELAY_MS);
+  const quote = (await api(
+    session,
+    `instr/0/${instrumentId}/eHeaderDetails.json?p=0&s=${dateFrom1y}&e=${dateTo}&b=0IBOMSEN&ie=0&iq=0`,
+  ).catch(() => ({}))) as Record<string, unknown>;
+  const quoteHeader = (quote.headerDetails ?? {}) as Record<string, unknown>;
 
   const header = (details.detailsGeneralInformationHeader ?? {}) as Record<string, unknown>;
   const block = (details.detailsGeneralInformationHeaderBlock ?? {}) as Record<string, unknown>;
@@ -247,6 +253,8 @@ async function buildProfile(ticker: string) {
     },
     { label: "Return on equity", value: percent(header.roe, 1) },
     { label: "Cash flow (INR)", value: formatNumber(block.cashFlow) },
+    { label: "Volume", value: formatNumber(quoteHeader.mTvVolume, 0) },
+    { label: "Avg volume (50d)", value: formatNumber(quoteHeader.mTvAvol, 0) },
     { label: "Master score", value: formatNumber(header.masterScore, 0) },
     { label: "EPS rating", value: formatNumber(header.epsRank, 0) },
     { label: "Price strength", value: formatNumber(header.rsNumericGrade, 0) },

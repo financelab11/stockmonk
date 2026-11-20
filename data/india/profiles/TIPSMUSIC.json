@@ -8,7 +8,7 @@
   "website": "www.tips.in",
   "location": "Mumbai, INDIA",
   "exchange": "NSE",
-  "fetchedAt": "2026-11-20T05:49:10.848Z",
+  "fetchedAt": "2026-11-20T06:24:53.885Z",
   "basis": "standalone",
   "price": {
     "value": 812.95,
@@ -80,6 +80,14 @@
     {
       "label": "Cash flow (INR)",
       "value": "15.41"
+    },
+    {
+      "label": "Volume",
+      "value": "110,475"
+    },
+    {
+      "label": "Avg volume (50d)",
+      "value": "587,675"
     },
     {
       "label": "Master score",
@@ -6780,7 +6788,7 @@
       },
       {
         "d": "2026-11-19",
-        "c": 816.6
+        "c": 811.4
       }
     ],
     "sales": [

@@ -1,5 +1,7 @@
 import { expect, test } from "@playwright/test";
 
+const STATEMENTS = ["Income statement", "Balance sheet", "Cash flow", "Key ratios"];
+
 test.describe("India company profiles", () => {
   test("Tips Music renders the full MarketSmith profile", async ({ page }) => {
     await page.goto("/india/companies/TIPSMUSIC", { waitUntil: "domcontentloaded" });
@@ -14,62 +16,92 @@ test.describe("India company profiles", () => {
     await expect(page.getByRole("heading", { name: "Ownership", exact: true })).toBeVisible();
     await expect(page.getByRole("heading", { name: "Surveillance checklist", exact: true })).toBeVisible();
 
+    for (const statement of STATEMENTS) {
+      await expect(page.getByRole("heading", { name: statement, exact: true })).toBeVisible();
+    }
+
     await expect(page.getByText("Market capitalization").first()).toBeVisible();
     await expect(page.getByText("5-year P/E range")).toBeVisible();
     await expect(page.locator("figure.dark-chart-card")).toHaveCount(3);
-    if ((page.viewportSize()?.width ?? 1280) < 1024) {
-      await expect(page.locator("#financials dl").first()).toBeVisible();
-    } else {
-      await expect(page.locator("#financials table").first()).toBeVisible();
-    }
+    await expect(page.locator("#financials table").first()).toBeVisible();
     await expect(page.locator('nav[aria-label="Company profile sections"]')).toBeVisible();
   });
 
-  test("statement tabs and period controls work", async ({ page }) => {
+  test("statements are listed separately and switch period independently", async ({ page }) => {
     await page.goto("/india/companies/TIPSMUSIC#financials", { waitUntil: "domcontentloaded" });
-    const section = page.locator("#financials");
-    const mobile = (page.viewportSize()?.width ?? 1280) < 1024;
+    const income = page.getByRole("region", { name: "Income statement" });
+    const balance = page.getByRole("region", { name: "Balance sheet" });
+    const ratios = page.getByRole("region", { name: "Key ratios" });
 
-    await section.getByRole("tab", { name: "Balance sheet" }).click();
-    await expect(section.getByRole("tab", { name: "Balance sheet" })).toHaveAttribute(
-      "aria-selected",
+    await expect(income.locator("table")).toBeVisible();
+    await expect(balance.locator("table")).toBeVisible();
+    await expect(ratios.locator("table")).toBeVisible();
+
+    await income.getByRole("button", { name: "Quarterly" }).click();
+    await expect(income.getByRole("button", { name: "Quarterly" })).toHaveAttribute(
+      "aria-pressed",
       "true",
     );
-    if (mobile) {
-      await expect(section.locator("dl").first()).toBeVisible();
-    } else {
-      await expect(section.locator("table")).toBeVisible();
-    }
+    await expect(income.locator("table")).toBeVisible();
+    await expect(balance.getByRole("button", { name: "Quarterly" })).toHaveCount(0);
+    await expect(ratios.getByRole("button", { name: "Quarterly" })).toHaveAttribute(
+      "aria-pressed",
+      "false",
+    );
 
-    await section.getByRole("tab").first().click();
-    await section.getByRole("button", { name: "Quarterly" }).click();
-    if (mobile) {
-      await expect(section.locator("dl").first()).toBeVisible();
-    } else {
-      await expect(section.locator("table")).toBeVisible();
-    }
+    await income.getByRole("button", { name: "Annual" }).click();
+    await expect(income.getByRole("button", { name: "Annual" })).toHaveAttribute(
+      "aria-pressed",
+      "true",
+    );
   });
 
-  test("mobile shows period cards and a full-history table without overflow", async ({ page }) => {
+  test("tables run oldest to newest and format large and per-share values differently", async ({
+    page,
+  }) => {
+    await page.goto("/india/companies/TIPSMUSIC#financials", { waitUntil: "domcontentloaded" });
+    const income = page.getByRole("region", { name: "Income statement" });
+
+    const headers = await income.locator("thead th").allTextContents();
+    expect(headers[0]).toBe("Metric");
+    expect(headers[1]).toBe("Mar-11");
+    expect(headers.at(-1)).toBe("Mar-26");
+
+    const revenue = income
+      .locator("tbody tr")
+      .filter({ hasText: /^Revenue From Operations \[Gross\]/ });
+    await expect(revenue.locator("td").last()).toHaveText("376");
+
+    const eps = income.locator("tbody tr").filter({ hasText: /^Basic EPS \(Rs\.\)/ });
+    await expect(eps.locator("td").last()).toHaveText("16.96");
+  });
+
+  test("mobile opens the full history and can switch to a single period", async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto("/india/companies/TIPSMUSIC#financials", { waitUntil: "domcontentloaded" });
-    const section = page.locator("#financials");
+    const income = page.getByRole("region", { name: "Income statement" });
 
-    await expect(section.locator("dl").first()).toBeVisible();
-    const periods = section.getByRole("group", { name: "Select financial period" }).getByRole("button");
-    await expect(periods.first()).toHaveAttribute("aria-pressed", "true");
-
-    await section.getByRole("button", { name: "Full history" }).click();
-    await expect(section.getByText("Scroll sideways for older periods")).toBeVisible();
-    await expect(section.locator("table")).toBeVisible();
+    await expect(income.locator("table")).toBeVisible();
+    await expect(income.locator("dl")).toBeHidden();
+    await expect(income.getByText("Older periods are to the left.")).toBeVisible();
+    await expect(income.getByRole("button", { name: "Single period" })).toBeVisible();
 
     const overflow = await page.evaluate(
       () => document.documentElement.scrollWidth - document.documentElement.clientWidth,
     );
     expect(overflow).toBe(0);
 
-    await section.getByRole("button", { name: "Cards" }).click();
-    await expect(section.locator("dl").first()).toBeVisible();
+    await income.getByRole("button", { name: "Single period" }).click();
+    await expect(income.locator("dl")).toBeVisible();
+
+    const periods = income
+      .getByRole("group", { name: "Select financial period" })
+      .getByRole("button");
+    await expect(periods.first()).toHaveText("Mar-26");
+    await expect(periods.first()).toHaveAttribute("aria-pressed", "true");
+
+    await income.getByRole("button", { name: "Full history" }).click();
+    await expect(income.locator("table")).toBeVisible();
   });
 
   test("a company without an ingested profile still has a page", async ({ page }) => {

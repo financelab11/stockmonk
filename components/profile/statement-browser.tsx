@@ -4,14 +4,8 @@ import { useState } from "react";
 import type { ProfileTable } from "@/lib/schemas";
 import { FinancialTable } from "./financial-table";
 
-type Statement = "income" | "balance" | "cash" | "ratios";
-
-const STATEMENTS: Array<{ id: Statement; label: string; short: string }> = [
-  { id: "income", label: "Income statement", short: "Income" },
-  { id: "balance", label: "Balance sheet", short: "Balance sheet" },
-  { id: "cash", label: "Cash flow", short: "Cash flow" },
-  { id: "ratios", label: "Key ratios", short: "Ratios" },
-];
+type Frequency = "annual" | "quarterly";
+type FrequencyState = { income: Frequency; ratios: Frequency };
 
 export function StatementBrowser({
   incomeAnnual,
@@ -30,115 +24,154 @@ export function StatementBrowser({
   ratiosQuarter: ProfileTable;
   basis: "consolidated" | "standalone";
 }) {
-  const [statement, setStatement] = useState<Statement>("income");
-  const [frequency, setFrequency] = useState<"annual" | "quarterly">("annual");
+  const [frequency, setFrequency] = useState<FrequencyState>({
+    income: "annual",
+    ratios: "annual",
+  });
 
-  const quarterlyAvailable = statement === "income" || statement === "ratios";
-  const effectiveFrequency = quarterlyAvailable ? frequency : "annual";
-  const table =
-    statement === "income"
-      ? effectiveFrequency === "annual"
-        ? incomeAnnual
-        : incomeQuarter
-      : statement === "balance"
-        ? balanceSheet
-        : statement === "cash"
-          ? cashFlow
-          : effectiveFrequency === "annual"
-            ? ratiosAnnual
-            : ratiosQuarter;
+  const sections = [
+    {
+      id: "income",
+      label: "Income statement",
+      unit: "₹ crore",
+      annual: incomeAnnual,
+      quarter: incomeQuarter,
+      value: frequency.income,
+      onFrequency: (next: Frequency) =>
+        setFrequency((current) => ({ ...current, income: next })),
+    },
+    {
+      id: "balance",
+      label: "Balance sheet",
+      unit: "₹ crore",
+      annual: balanceSheet,
+      quarter: null,
+      value: "annual" as Frequency,
+      onFrequency: null,
+    },
+    {
+      id: "cash",
+      label: "Cash flow",
+      unit: "₹ crore",
+      annual: cashFlow,
+      quarter: null,
+      value: "annual" as Frequency,
+      onFrequency: null,
+    },
+    {
+      id: "ratios",
+      label: "Key ratios",
+      unit: "Percentages and multiples",
+      annual: ratiosAnnual,
+      quarter: ratiosQuarter,
+      value: frequency.ratios,
+      onFrequency: (next: Frequency) =>
+        setFrequency((current) => ({ ...current, ratios: next })),
+    },
+  ];
 
   return (
     <div>
-      <div className="flex flex-wrap items-center justify-between gap-2">
-        <div className="scrollbar-none flex gap-1 overflow-x-auto" role="tablist" aria-label="Financial statements">
-          {STATEMENTS.map((item) => (
-            <button
-              key={item.id}
-              type="button"
-              role="tab"
-              aria-selected={statement === item.id}
-              onClick={() => setStatement(item.id)}
-              className={`inline-flex min-h-11 shrink-0 sm:min-h-10 items-center rounded-lg border px-3 text-[12.5px] font-semibold transition-colors ${
-                statement === item.id
-                  ? "border-brand-deep bg-brand-deep text-white"
-                  : "border-line bg-surface text-ink-soft hover:text-ink"
-              }`}
-            >
-              <span className="sm:hidden">{item.short}</span>
-              <span className="hidden sm:inline">{item.label}</span>
-            </button>          ))}
-        </div>
-
-        <div className="flex items-center gap-1.5">
-          <span className="meta-caps">Basis</span>
-          <div className="flex rounded-lg border border-line bg-surface p-0.5" role="group" aria-label="Statement basis">
-            <span
-              className={`inline-flex min-h-8 items-center rounded-md px-2 text-[11.5px] font-semibold ${
-                basis === "standalone" ? "bg-brand-soft text-brand-deep" : "text-muted"
-              }`}
-              aria-current={basis === "standalone" ? "true" : undefined}
-              title={
-                basis === "standalone"
-                  ? "Standalone statements are used for this company"
-                  : "Switch to standalone statements"
-              }
-            >
-              Standalone
-            </span>
-            <span
-              className={`inline-flex min-h-8 items-center rounded-md px-2 text-[11.5px] font-semibold ${
-                basis === "consolidated" ? "bg-brand-soft text-brand-deep" : "text-muted"
-              }`}
-              title="Consolidated statements were not available in the source"
-            >
-              Consolidated
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <div className="mt-2 flex items-center gap-1.5">
-        <span className="meta-caps">Period</span>
-        <div className="flex rounded-lg border border-line bg-surface p-0.5" role="group" aria-label="Reporting period">
-          <button
-            type="button"
-            onClick={() => setFrequency("annual")}
-            aria-pressed={effectiveFrequency === "annual"}
-            className={`inline-flex min-h-11 items-center rounded-md px-2.5 sm:min-h-8 text-[11.5px] font-semibold ${
-              effectiveFrequency === "annual" ? "bg-brand-soft text-brand-deep" : "text-muted"
+      <div className="flex items-center gap-1.5 pb-2">
+        <span className="meta-caps">Basis</span>
+        <div
+          className="flex rounded-lg border border-line bg-surface p-0.5"
+          role="group"
+          aria-label="Statement basis"
+        >
+          <span
+            className={`inline-flex min-h-8 items-center rounded-md px-2 text-[11.5px] font-semibold ${
+              basis === "standalone" ? "bg-brand-soft text-brand-deep" : "text-muted"
             }`}
+            aria-current={basis === "standalone" ? "true" : undefined}
+            title={
+              basis === "standalone"
+                ? "Standalone statements are used for this company"
+                : "Switch to standalone statements"
+            }
           >
-            Annual
-          </button>
-          <button
-            type="button"
-            onClick={() => quarterlyAvailable && setFrequency("quarterly")}
-            aria-pressed={effectiveFrequency === "quarterly"}
-            disabled={!quarterlyAvailable}
-            className={`inline-flex min-h-11 items-center rounded-md px-2.5 sm:min-h-8 text-[11.5px] font-semibold ${
-              effectiveFrequency === "quarterly"
-                ? "bg-brand-soft text-brand-deep"
-                : quarterlyAvailable
-                  ? "text-muted"
-                  : "cursor-not-allowed text-faint/60"
+            Standalone
+          </span>
+          <span
+            className={`inline-flex min-h-8 items-center rounded-md px-2 text-[11.5px] font-semibold ${
+              basis === "consolidated" ? "bg-brand-soft text-brand-deep" : "text-muted"
             }`}
+            title="Consolidated statements were not available in the source"
           >
-            Quarterly
-          </button>
+            Consolidated
+          </span>
         </div>
       </div>
 
-      <div className="mt-3">
-        <FinancialTable
-          table={table}
-          comparisonLabel={effectiveFrequency === "annual" ? "YoY" : "QoQ"}
-        />
+      <div className="divide-y divide-line">
+        {sections.map((section) => (
+          <section
+            key={section.id}
+            aria-labelledby={`statement-${section.id}`}
+            className="py-5 first:pt-4"
+          >
+            <div className="flex flex-wrap items-center justify-between gap-2">
+              <div className="flex flex-wrap items-baseline gap-x-2">
+                <h3 id={`statement-${section.id}`} className="type-subhead text-ink">
+                  {section.label}
+                </h3>
+                <span className="text-[10.5px] text-muted">{section.unit}</span>
+              </div>
+
+              {section.quarter && section.onFrequency ? (
+                <div
+                  className="ml-auto flex rounded-lg border border-line bg-surface p-0.5"
+                  role="group"
+                  aria-label={`${section.label} reporting period`}
+                >
+                  <button
+                    type="button"
+                    onClick={() => section.onFrequency?.("annual")}
+                    aria-pressed={section.value === "annual"}
+                    className={`inline-flex min-h-11 items-center rounded-md px-2.5 text-[11.5px] font-semibold sm:min-h-8 ${
+                      section.value === "annual"
+                        ? "bg-brand-soft text-brand-deep"
+                        : "text-muted"
+                    }`}
+                  >
+                    Annual
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => section.onFrequency?.("quarterly")}
+                    aria-pressed={section.value === "quarterly"}
+                    className={`inline-flex min-h-11 items-center rounded-md px-2.5 text-[11.5px] font-semibold sm:min-h-8 ${
+                      section.value === "quarterly"
+                        ? "bg-brand-soft text-brand-deep"
+                        : "text-muted"
+                    }`}
+                  >
+                    Quarterly
+                  </button>
+                </div>
+              ) : (
+                <span className="meta-caps">Annual</span>
+              )}
+            </div>
+
+            <div className="mt-2.5">
+              <FinancialTable
+                table={
+                  section.value === "quarterly" && section.quarter
+                    ? section.quarter
+                    : section.annual
+                }
+                comparisonLabel={section.value === "quarterly" ? "QoQ" : "YoY"}
+              />
+            </div>
+          </section>
+        ))}
       </div>
 
-      <p className="mt-2 text-[10.5px] leading-relaxed text-muted">
+      <p className="mt-4 border-t border-line pt-3 text-[10.5px] leading-relaxed text-muted">
         All figures in ₹ crore unless the metric name says otherwise. Negative values appear in
-        parentheses. Ratios are percentages or multiples as labelled.
+        parentheses. Per-share, ratio and percentage metrics keep decimals; whole-crore figures
+        are rounded for readability and are not recalculated.
       </p>
     </div>
   );

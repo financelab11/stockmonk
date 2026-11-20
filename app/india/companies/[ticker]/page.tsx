@@ -232,7 +232,7 @@ export default async function CompanyProfilePage({
       />
 
       <header className="border-b border-line bg-paper-deep">
-        <div className="container-page py-5">
+        <div className="container-profile py-5">
           <nav
             aria-label="Breadcrumb"
             className="flex flex-wrap items-center gap-1.5 text-[12px] text-muted"
@@ -366,7 +366,7 @@ export default async function CompanyProfilePage({
         aria-label="Company profile sections"
         className="sticky top-24 z-40 border-b border-line bg-surface/95 backdrop-blur"
       >
-        <div className="container-page scrollbar-none flex gap-1 overflow-x-auto py-1.5">
+        <div className="container-profile scrollbar-none flex gap-1 overflow-x-auto py-1.5">
           {NAV_ITEMS.map((item) => (
             <a
               key={item.id}
@@ -379,7 +379,7 @@ export default async function CompanyProfilePage({
         </div>
       </nav>
 
-      <main className="container-page py-6 pb-28 lg:pb-10">
+      <main className="container-profile py-6 pb-28 lg:pb-10">
         {profile ? (
           <>
             <section id="overview" className="scroll-mt-40 grid gap-4 lg:grid-cols-[1.2fr_1fr]">
@@ -495,8 +495,8 @@ export default async function CompanyProfilePage({
             <section id="financials" className="mt-8 scroll-mt-40">
               <h2 className="type-section text-ink">Financial statements</h2>
               <p className="type-body mt-1 max-w-3xl text-muted">
-                Switch between statements and reporting periods. Mobile shows one period at a
-                time, with the full history a tap away.
+                Income statement, balance sheet, cash flow and key ratios. Periods run oldest to
+                newest; on mobile each table opens as the full history.
               </p>
               <div className="mt-3">
                 <StatementBrowser
@@ -547,7 +547,12 @@ export default async function CompanyProfilePage({
                     <div className="mt-4">
                       <h4 className="meta-caps">Last four quarters</h4>
                       <div className="mt-1.5">
-                        <FinancialTable table={ownershipHistory} periodsToShow={3} comparisonLabel={null} />
+                        <FinancialTable
+                          table={ownershipHistory}
+                          periodsToShow={3}
+                          comparisonLabel={null}
+                          defaultMode="cards"
+                        />
                       </div>
                     </div>
                   )}

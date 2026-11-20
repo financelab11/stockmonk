@@ -129,6 +129,20 @@
     margin-inline: auto;
   }
 
+  /* Data-dense pages (company profiles) get more horizontal room for tables. */
+  .container-profile {
+    width: 100%;
+    max-width: 1320px;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+
+  @media (min-width: 768px) {
+    .container-profile {
+      padding-inline: 2rem;
+    }
+  }
+
   .display {
     font-family: var(--font-serif);
     font-weight: 500;
@@ -179,10 +193,11 @@
   .kpi-value {
     font-family: var(--font-sans);
     font-size: 1.0625rem;
-    line-height: 1.2;
-    font-weight: 600;
+    line-height: 1.25;
+    font-weight: 500;
+    letter-spacing: -0.01em;
     color: var(--color-ink);
-    font-variant-numeric: tabular-nums;
+    font-variant-numeric: proportional-nums;
   }
 
   @media (min-width: 640px) {

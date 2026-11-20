@@ -149,7 +149,12 @@ export function FinancialTable({
           </p>
         )}
         <div className="relative overflow-hidden rounded-xl border border-line bg-surface">
-          <div className="max-h-[70vh] overflow-auto">
+          <div
+            className="max-h-[70vh] overflow-auto"
+            tabIndex={0}
+            role="region"
+            aria-label="Financial table, scrollable"
+          >
             <table className="w-full min-w-[720px] border-collapse">
               <caption className="sr-only">
                 Financial table: metric rows and reporting periods as columns.

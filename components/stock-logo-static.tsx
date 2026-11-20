@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { logoUrl } from "@/lib/logos";
 
 const PALETTE = [
   "bg-[#0b6b53] text-white",
@@ -12,10 +13,11 @@ const PALETTE = [
   "bg-[#065f46] text-white",
 ];
 
-const logoFiles = new Map<string, string | null>();
+const legacyLogos = new Map<string, string | null>();
 
-function resolveLogoFile(ticker: string): string | null {
-  if (logoFiles.has(ticker)) return logoFiles.get(ticker) ?? null;
+/** US research pages keep their logos directly in public/logos. */
+function resolveLegacyLogo(ticker: string): string | null {
+  if (legacyLogos.has(ticker)) return legacyLogos.get(ticker) ?? null;
   const pngPath = path.join(process.cwd(), "public", "logos", `${ticker}.png`);
   const svgPath = path.join(process.cwd(), "public", "logos", `${ticker}.svg`);
   const file = fs.existsSync(pngPath)
@@ -23,7 +25,7 @@ function resolveLogoFile(ticker: string): string | null {
     : fs.existsSync(svgPath)
       ? `${ticker}.svg`
       : null;
-  logoFiles.set(ticker, file);
+  legacyLogos.set(ticker, file);
   return file;
 }
 
@@ -47,7 +49,9 @@ export function StockLogoStatic({
   className?: string;
   priority?: boolean;
 }) {
-  const logoFile = resolveLogoFile(ticker);
+  const indiaLogo = logoUrl(ticker);
+  const legacyLogo = indiaLogo ? null : resolveLegacyLogo(ticker);
+  const src = indiaLogo ?? (legacyLogo ? `/logos/${legacyLogo}` : null);
   const color = PALETTE[hash(ticker) % PALETTE.length];
   const initials = ticker.replace(/[^A-Z0-9]/g, "").slice(0, 2);
 
@@ -57,15 +61,15 @@ export function StockLogoStatic({
       style={{ width: size, height: size }}
       aria-hidden="true"
     >
-      {logoFile ? (
+      {src ? (
         <img
-          src={`/logos/${logoFile}`}
+          src={src}
           alt=""
           width={size}
           height={size}
           loading={priority ? "eager" : "lazy"}
           decoding="async"
-          className="size-full object-contain p-[16%]"
+          className="size-full object-contain p-[10%]"
         />
       ) : (
         <span

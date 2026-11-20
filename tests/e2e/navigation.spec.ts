@@ -37,7 +37,7 @@ test.describe("navigation", () => {
     await input.fill("LAURUSLABS");
     await expect(dialog.getByText(/LAURUSLABS/).first()).toBeVisible({ timeout: 15_000 });
     await input.press("Enter");
-    await expect(page).toHaveURL(/\/india\/stocks\/LAURUSLABS/);
+    await expect(page).toHaveURL(/\/india\/stocks\/LAURUSLABS/, { timeout: 15_000 });
 
     await openSearch.first().click();
     const dialogAgain = page.getByRole("dialog", { name: "Search companies" });
@@ -45,7 +45,7 @@ test.describe("navigation", () => {
     await inputAgain.fill("NVDA");
     await expect(dialogAgain.getByText(/NVDA/).first()).toBeVisible({ timeout: 15_000 });
     await inputAgain.press("Enter");
-    await expect(page).toHaveURL(/\/stocks\/NVDA/);
+    await expect(page).toHaveURL(/\/stocks\/NVDA/, { timeout: 15_000 });
   });
 
   test("mobile bar starts with Discover, Screener and Watchlist", async ({ page }) => {

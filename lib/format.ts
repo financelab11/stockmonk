@@ -17,7 +17,9 @@ const integer = new Intl.NumberFormat("en-US", {
 });
 
 const croreWhole = new Intl.NumberFormat("en-IN", { maximumFractionDigits: 0 });
-const croreDecimal = new Intl.NumberFormat("en-IN", { maximumFractionDigits: 1 });
+const croreDecimal = new Intl.NumberFormat("en-IN", {
+  maximumFractionDigits: 1,
+});
 
 export function formatCompactCurrency(
   value: number | null | undefined,
@@ -37,9 +39,12 @@ export function formatCompactCurrency(
     return `${sign}₹${decimal.format(abs)}`;
   }
   const prefix = currency === "USD" ? "$" : `${currency} `;
-  if (abs >= 1_000_000_000_000) return `${sign}${prefix}${compactTwo.format(abs / 1_000_000_000_000)}T`;
-  if (abs >= 1_000_000_000) return `${sign}${prefix}${compact.format(abs / 1_000_000_000)}B`;
-  if (abs >= 1_000_000) return `${sign}${prefix}${compact.format(abs / 1_000_000)}M`;
+  if (abs >= 1_000_000_000_000)
+    return `${sign}${prefix}${compactTwo.format(abs / 1_000_000_000_000)}T`;
+  if (abs >= 1_000_000_000)
+    return `${sign}${prefix}${compact.format(abs / 1_000_000_000)}B`;
+  if (abs >= 1_000_000)
+    return `${sign}${prefix}${compact.format(abs / 1_000_000)}M`;
   if (abs >= 1_000) return `${sign}${prefix}${compact.format(abs / 1_000)}K`;
   return `${sign}${prefix}${decimal.format(abs)}`;
 }
@@ -58,7 +63,10 @@ export function formatCurrency(
   }).format(value);
 }
 
-export function formatNumber(value: number | null | undefined, digits = 0): string {
+export function formatNumber(
+  value: number | null | undefined,
+  digits = 0,
+): string {
   if (value == null || !Number.isFinite(value)) return "n/a";
   return new Intl.NumberFormat("en-US", {
     maximumFractionDigits: digits,
@@ -85,7 +93,10 @@ export function formatSignedPercent(
   return `${pct >= 0 ? "+" : ""}${pct.toFixed(digits)}%`;
 }
 
-export function formatMultiple(value: number | null | undefined, suffix = "x"): string {
+export function formatMultiple(
+  value: number | null | undefined,
+  suffix = "x",
+): string {
   if (value == null || !Number.isFinite(value)) return "n/a";
   return `${value.toFixed(1)}${suffix}`;
 }
@@ -135,7 +146,11 @@ export function formatFiscalQuarter(period: string, fyear: number): string {
   return `${period} FY${String(fyear).slice(-2)}`;
 }
 
-export function pluralize(count: number, singular: string, plural = `${singular}s`): string {
+export function pluralize(
+  count: number,
+  singular: string,
+  plural = `${singular}s`,
+): string {
   return `${integer.format(count)} ${count === 1 ? singular : plural}`;
 }
 
@@ -152,12 +167,27 @@ export function titleCase(value: string): string {
     .join(" ");
 }
 
+/**
+ * Company names arrive mostly in sentence case, but some sources store
+ * acronyms with spaces between the letters ("A B B", "M & M"). Collapse those
+ * without touching multi-letter acronyms or ordinary words.
+ */
+export function formatCompanyName(value: string): string {
+  return value
+    .replace(/\b([A-Z0-9])\s*&\s*(?=[A-Z0-9]\b)/g, "$1&")
+    .replace(/\b([A-Z0-9])\s+(?=[A-Z0-9]\b)/g, "$1")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 export function humanizeKey(value: string): string {
   return value
     .replace(/_/g, " ")
     .replace(/\b\w/g, (letter) => letter.toUpperCase());
 }
 
-export function classNames(...values: Array<string | false | null | undefined>): string {
+export function classNames(
+  ...values: Array<string | false | null | undefined>
+): string {
   return values.filter(Boolean).join(" ");
 }

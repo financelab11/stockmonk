@@ -27,17 +27,23 @@ export function MarketPagination({
       </p>
       <div className="flex flex-wrap items-center justify-center gap-1">
         {page > 1 ? (
-          <a href={hrefFor(page - 1)} className="btn btn-ghost h-9 min-h-0 px-3 text-[11px]">
+          <a
+            href={hrefFor(page - 1)}
+            className="btn btn-ghost h-9 min-h-0 px-3 text-[11px]"
+          >
             Previous
           </a>
         ) : (
-          <span className="btn btn-ghost pointer-events-none h-9 min-h-0 px-3 text-[11px] opacity-40">
+          <span aria-disabled="true" className="btn btn-ghost pointer-events-none h-9 min-h-0 px-3 text-[11px] text-muted">
             Previous
           </span>
         )}
         {pages.map((item, index) =>
           item === "gap" ? (
-            <span key={`gap-${index}`} className="px-1 text-[10.5px] text-faint">
+            <span
+              key={`gap-${index}`}
+              className="px-1 text-[10.5px] text-faint"
+            >
               …
             </span>
           ) : (
@@ -56,11 +62,14 @@ export function MarketPagination({
           ),
         )}
         {page < pageCount ? (
-          <a href={hrefFor(page + 1)} className="btn btn-ghost h-9 min-h-0 px-3 text-[11px]">
+          <a
+            href={hrefFor(page + 1)}
+            className="btn btn-ghost h-9 min-h-0 px-3 text-[11px]"
+          >
             Next
           </a>
         ) : (
-          <span className="btn btn-ghost pointer-events-none h-9 min-h-0 px-3 text-[11px] opacity-40">
+          <span aria-disabled="true" className="btn btn-ghost pointer-events-none h-9 min-h-0 px-3 text-[11px] text-muted">
             Next
           </span>
         )}

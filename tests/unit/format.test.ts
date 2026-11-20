@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   formatCompactCurrency,
+  formatCompanyName,
   formatCurrency,
   formatDate,
   formatMultiple,
@@ -56,5 +57,24 @@ describe("format helpers", () => {
     expect(formatOrdinal(111)).toBe("111th");
     expect(formatOrdinal(72.4)).toBe("72nd");
     expect(formatOrdinal(null)).toBe("n/a");
+  });
+});
+
+describe("formatCompanyName", () => {
+  it("collapses spaced acronyms without changing normal names", () => {
+    expect(formatCompanyName("A B B")).toBe("ABB");
+    expect(formatCompanyName("B H E L")).toBe("BHEL");
+    expect(formatCompanyName("N S D L")).toBe("NSDL");
+    expect(formatCompanyName("M R P L")).toBe("MRPL");
+    expect(formatCompanyName("M & M")).toBe("M&M");
+    expect(formatCompanyName("E F C (I)")).toBe("EFC (I)");
+    expect(formatCompanyName("A B Lifestyle")).toBe("AB Lifestyle");
+  });
+
+  it("leaves sentence-case and multi-letter names alone", () => {
+    expect(formatCompanyName("Grand Oak Canyon")).toBe("Grand Oak Canyon");
+    expect(formatCompanyName("360 ONE")).toBe("360 ONE");
+    expect(formatCompanyName("HDFC AMC")).toBe("HDFC AMC");
+    expect(formatCompanyName("5paisa Capital")).toBe("5paisa Capital");
   });
 });

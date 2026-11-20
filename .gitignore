@@ -71,3 +71,9 @@ next-env.d.ts
 /.perf/
 /.lighthouse-*.json
 /.lighthouseci*/
+
+# One-off Lighthouse probe output
+/.lh-test-*.json
+/.lighthouse-test.json
+/.lighthouse-external.json
+/.lighthouse-prod.json

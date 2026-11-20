@@ -1,0 +1,51 @@
+name: Profile Lighthouse audit
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: Page to audit
+        required: false
+        default: https://stockmonk.vercel.app/india/companies/TIPSMUSIC
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      matrix:
+        form: [mobile, desktop]
+    steps:
+      - name: Run Lighthouse (${{ matrix.form }})
+        run: |
+          if [ "${{ matrix.form }}" = "desktop" ]; then
+            PRESET="--preset=desktop"
+          else
+            PRESET=""
+          fi
+          npx --yes lighthouse@latest "${{ inputs.url }}" \
+            --output=json --output-path="./lh-${{ matrix.form }}.json" \
+            --chrome-flags="--headless=new --no-sandbox --disable-gpu" \
+            --only-categories=performance,accessibility,best-practices,seo \
+            $PRESET --quiet
+      - name: Print scores
+        run: |
+          node -e '
+            const report = require(`./lh-${{ matrix.form }}.json`);
+            const scores = Object.fromEntries(
+              Object.entries(report.categories).map(([key, value]) => [key, Math.round(value.score * 100)]),
+            );
+            console.log("form", "${{ matrix.form }}");
+            console.log("scores", scores);
+            console.log("LCP", report.audits["largest-contentful-paint"].displayValue);
+            console.log("CLS", report.audits["cumulative-layout-shift"].displayValue);
+            console.log("TBT", report.audits["total-blocking-time"].displayValue);
+            console.log("FCP", report.audits["first-contentful-paint"].displayValue);
+          '
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-${{ matrix.form }}
+          path: lh-${{ matrix.form }}.json

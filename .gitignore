@@ -80,3 +80,6 @@ next-env.d.ts
 
 # MarketSmith ingest failure report
 /data/india/.marketsmith-failures.json
+
+# Logo fetch failure report
+/data/india/.logo-failures.json

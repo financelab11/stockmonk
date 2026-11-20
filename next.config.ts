@@ -31,8 +31,11 @@ const nextConfig: NextConfig = {
     ],
   },
   outputFileTracingIncludes: {
-    // Company profiles are read at request time for ISR pages.
-    "/india/companies/**": ["./data/india/profiles/**/*.json"],
+    // Company profiles and the logo manifest are read at request time for ISR pages.
+    "/india/companies/**": [
+      "./data/india/profiles/**/*.json",
+      "./data/india/logos.json",
+    ],
   },
   async headers() {
     return [

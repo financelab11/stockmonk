@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowUpRight, ShieldAlert, ShieldCheck } from "lucide-react";
+import { CompanyLogo } from "@/components/profile/company-logo";
 import { FinancialTable } from "@/components/profile/financial-table";
 import {
   ProfileFinancialSection,
@@ -109,7 +110,8 @@ export default async function CompanyProfilePage({
   const { ticker } = await params;
   const key = ticker.toUpperCase();
   const profile = readMarketsmithProfile(key);
-  const tracker = readEarningsTracker()?.rows.find((row) => row.ticker === key) ?? null;
+  const tracker =
+    readEarningsTracker()?.rows.find((row) => row.ticker === key) ?? null;
   if (!profile && !tracker) notFound();
 
   const name = profile?.name ?? tracker?.name ?? key;
@@ -119,7 +121,9 @@ export default async function CompanyProfilePage({
   );
   const research = getIndiaTicker(key);
 
-  const stats = new Map((profile?.stats ?? []).map((stat) => [stat.label, stat.value]));
+  const stats = new Map(
+    (profile?.stats ?? []).map((stat) => [stat.label, stat.value]),
+  );
   const pick = (labels: string[]) =>
     labels
       .map((label) => ({ label, value: stats.get(label) ?? "" }))
@@ -132,7 +136,9 @@ export default async function CompanyProfilePage({
     );
     const value = row?.[1];
     const parsed = value == null ? null : Number(value);
-    return parsed != null && Number.isFinite(parsed) ? `${parsed.toFixed(1)}%` : null;
+    return parsed != null && Number.isFinite(parsed)
+      ? `${parsed.toFixed(1)}%`
+      : null;
   };
 
   const latestMargin = profile?.series.margins.at(-1);
@@ -141,22 +147,41 @@ export default async function CompanyProfilePage({
       ? { label: "ROCE", value: ratio("return on capital employed") as string }
       : null,
     latestMargin?.ebit != null
-      ? { label: "EBIT margin", value: `${(latestMargin.ebit * 100).toFixed(1)}%` }
+      ? {
+          label: "EBIT margin",
+          value: `${(latestMargin.ebit * 100).toFixed(1)}%`,
+        }
       : null,
   ].filter((item): item is { label: string; value: string } => item != null);
 
   const growth = [
     ...pick(["EPS growth rate"]),
-    ...(tracker ? [{ label: "Sales growth", value: formatSignedPercent(tracker.salesGrowth) }] : []),
     ...(tracker
-      ? [{ label: "Net profit growth", value: formatSignedPercent(tracker.netProfitGrowth) }]
+      ? [
+          {
+            label: "Sales growth",
+            value: formatSignedPercent(tracker.salesGrowth),
+          },
+        ]
+      : []),
+    ...(tracker
+      ? [
+          {
+            label: "Net profit growth",
+            value: formatSignedPercent(tracker.netProfitGrowth),
+          },
+        ]
       : []),
   ];
 
   const financialPoints = (() => {
     if (!profile) return [];
-    const sales = new Map(profile.series.sales.map((point) => [point.label, point.value]));
-    const eps = new Map(profile.series.eps.map((point) => [point.label, point.value]));
+    const sales = new Map(
+      profile.series.sales.map((point) => [point.label, point.value]),
+    );
+    const eps = new Map(
+      profile.series.eps.map((point) => [point.label, point.value]),
+    );
     return [...new Set([...sales.keys(), ...eps.keys()])]
       .sort()
       .map((label) => ({
@@ -174,7 +199,10 @@ export default async function CompanyProfilePage({
     })) ?? [];
 
   const ownershipMonths = profile
-    ? [...new Set(profile.ownership.history.map((point) => point.month))].slice(0, 4)
+    ? [...new Set(profile.ownership.history.map((point) => point.month))].slice(
+        0,
+        4,
+      )
     : [];
   const ownershipNames = profile
     ? [...new Set(profile.ownership.history.map((point) => point.name))]
@@ -195,7 +223,9 @@ export default async function CompanyProfilePage({
     : null;
 
   const redFlags = profile
-    ? Object.entries(profile.surveillance.red).filter(([, value]) => value !== 0)
+    ? Object.entries(profile.surveillance.red).filter(
+        ([, value]) => value !== 0,
+      )
     : [];
   const greenFlags = profile?.surveillance.green ?? [];
 
@@ -217,12 +247,27 @@ export default async function CompanyProfilePage({
 
   const trackerStats = tracker
     ? [
-        { label: "Market cap", value: formatCompactCurrency(tracker.marketCap, "INR") },
-        { label: "P/E", value: tracker.pe == null ? "—" : tracker.pe.toFixed(1) },
-        { label: "PEG", value: tracker.peg == null ? "—" : tracker.peg.toFixed(2) },
+        {
+          label: "Market cap",
+          value: formatCompactCurrency(tracker.marketCap, "INR"),
+        },
+        {
+          label: "P/E",
+          value: tracker.pe == null ? "—" : tracker.pe.toFixed(1),
+        },
+        {
+          label: "PEG",
+          value: tracker.peg == null ? "—" : tracker.peg.toFixed(2),
+        },
         { label: "ROCE", value: formatPercent(tracker.roce) },
-        { label: "Sales growth", value: formatSignedPercent(tracker.salesGrowth) },
-        { label: "Net profit growth", value: formatSignedPercent(tracker.netProfitGrowth) },
+        {
+          label: "Sales growth",
+          value: formatSignedPercent(tracker.salesGrowth),
+        },
+        {
+          label: "Net profit growth",
+          value: formatSignedPercent(tracker.netProfitGrowth),
+        },
         { label: "EPS growth", value: formatSignedPercent(tracker.epsGrowth) },
         { label: "1Y return", value: formatSignedPercent(tracker.return1y) },
         { label: "Latest quarter", value: tracker.period ?? "—" },
@@ -246,11 +291,19 @@ export default async function CompanyProfilePage({
             aria-label="Breadcrumb"
             className="flex flex-wrap items-center gap-1.5 text-[12px] text-muted"
           >
-            <Link prefetch={false} href="/" className="hover:text-ink">Home</Link>
+            <Link prefetch={false} href="/" className="hover:text-ink">
+              Home
+            </Link>
             <span aria-hidden="true">/</span>
-            <Link prefetch={false} href="/india" className="hover:text-ink">India Stocks</Link>
+            <Link prefetch={false} href="/india" className="hover:text-ink">
+              India Stocks
+            </Link>
             <span aria-hidden="true">/</span>
-            <Link prefetch={false} href="/india/earnings-tracker" className="hover:text-ink">
+            <Link
+              prefetch={false}
+              href="/india/earnings-tracker"
+              className="hover:text-ink"
+            >
               Earnings Tracker
             </Link>
             <span aria-hidden="true">/</span>
@@ -258,35 +311,49 @@ export default async function CompanyProfilePage({
           </nav>
 
           <div className="mt-3 grid gap-5 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-end">
-            <div className="min-w-0">
-              <h1 className="type-company text-ink">{name}</h1>
-              <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-[13px] text-muted">
-                <span className="font-mono text-[12px] font-semibold text-ink-soft">{key}</span>
-                {profile?.exchange && (
-                  <>
-                    <span aria-hidden="true">·</span>
-                    <span>{profile.exchange}</span>
-                  </>
-                )}
-                <span aria-hidden="true">·</span>
-                <span>{industry}</span>
-                {profile && (
-                  <>
-                    <span aria-hidden="true">·</span>
-                    <span>{profile.basis === "consolidated" ? "Consolidated" : "Standalone"}</span>
-                  </>
+            <div className="flex min-w-0 items-start gap-3 sm:gap-4">
+              <CompanyLogo ticker={key} name={name} />
+              <div className="min-w-0">
+                <h1 className="type-company text-ink">{name}</h1>
+                <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-[13px] text-muted">
+                  <span className="font-mono text-[12px] font-semibold text-ink-soft">
+                    {key}
+                  </span>
+                  {profile?.exchange && (
+                    <>
+                      <span aria-hidden="true">·</span>
+                      <span>{profile.exchange}</span>
+                    </>
+                  )}
+                  <span aria-hidden="true">·</span>
+                  <span>{industry}</span>
+                  {profile && (
+                    <>
+                      <span aria-hidden="true">·</span>
+                      <span>
+                        {profile.basis === "consolidated"
+                          ? "Consolidated"
+                          : "Standalone"}
+                      </span>
+                    </>
+                  )}
+                </div>
+                {profile?.website && (
+                  <a
+                    href={
+                      profile.website.startsWith("http")
+                        ? profile.website
+                        : `https://${profile.website}`
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-1.5 inline-flex items-center gap-1 text-[12.5px] font-semibold text-brand hover:text-brand-deep"
+                  >
+                    Company website{" "}
+                    <ArrowUpRight aria-hidden="true" className="size-3" />
+                  </a>
                 )}
               </div>
-              {profile?.website && (
-                <a
-                  href={profile.website.startsWith("http") ? profile.website : `https://${profile.website}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-1.5 inline-flex items-center gap-1 text-[12.5px] font-semibold text-brand hover:text-brand-deep"
-                >
-                  Company website <ArrowUpRight aria-hidden="true" className="size-3" />
-                </a>
-              )}
             </div>
 
             <div className="flex flex-wrap items-end gap-6">
@@ -294,14 +361,21 @@ export default async function CompanyProfilePage({
                 <div className="min-w-[170px]">
                   <p className="kpi-label">Share price</p>
                   <p className="tabular mt-0.5 text-[28px] font-semibold leading-none text-ink">
-                    ₹{profile.price.value.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                    ₹
+                    {profile.price.value.toLocaleString("en-IN", {
+                      minimumFractionDigits: 2,
+                      maximumFractionDigits: 2,
+                    })}
                   </p>
                   <p
                     className={`tabular mt-1 text-[12px] font-semibold ${
-                      (profile.price.changePct ?? 0) >= 0 ? "text-positive" : "text-danger"
+                      (profile.price.changePct ?? 0) >= 0
+                        ? "text-positive"
+                        : "text-danger"
                     }`}
                   >
-                    {formatSignedPercent((profile.price.changePct ?? 0) / 100)} vs prior close
+                    {formatSignedPercent((profile.price.changePct ?? 0) / 100)}{" "}
+                    vs prior close
                   </p>
                   {rangePosition != null && (
                     <div className="mt-2 w-full max-w-[220px]">
@@ -313,9 +387,19 @@ export default async function CompanyProfilePage({
                         />
                       </div>
                       <div className="mt-1 flex justify-between text-[10.5px] text-muted">
-                        <span>₹{profile.price.week52Low?.toLocaleString("en-IN", { maximumFractionDigits: 0 })}</span>
+                        <span>
+                          ₹
+                          {profile.price.week52Low?.toLocaleString("en-IN", {
+                            maximumFractionDigits: 0,
+                          })}
+                        </span>
                         <span>52-week range</span>
-                        <span>₹{profile.price.week52High?.toLocaleString("en-IN", { maximumFractionDigits: 0 })}</span>
+                        <span>
+                          ₹
+                          {profile.price.week52High?.toLocaleString("en-IN", {
+                            maximumFractionDigits: 0,
+                          })}
+                        </span>
                       </div>
                     </div>
                   )}
@@ -343,26 +427,35 @@ export default async function CompanyProfilePage({
                 {profile ? (
                   <div>
                     <p className="kpi-label">P/E</p>
-                    <p className="kpi-value mt-0.5">{stats.get("P/E ratio") ?? "—"}</p>
+                    <p className="kpi-value mt-0.5">
+                      {stats.get("P/E ratio") ?? "—"}
+                    </p>
                   </div>
                 ) : (
                   tracker?.pe != null && (
                     <div>
                       <p className="kpi-label">P/E</p>
-                      <p className="kpi-value mt-0.5">{tracker.pe.toFixed(1)}</p>
+                      <p className="kpi-value mt-0.5">
+                        {tracker.pe.toFixed(1)}
+                      </p>
                     </div>
                   )
                 )}
                 {tracker?.return1y != null && (
                   <div>
                     <p className="kpi-label">1Y return</p>
-                    <p className="kpi-value mt-0.5">{formatSignedPercent(tracker.return1y)}</p>
+                    <p className="kpi-value mt-0.5">
+                      {formatSignedPercent(tracker.return1y)}
+                    </p>
                   </div>
                 )}
               </div>
 
               {research && (
-                <Link href={`/india/stocks/${key}`} className="btn btn-primary h-10 min-h-0 text-[12.5px]">
+                <Link
+                  href={`/india/stocks/${key}`}
+                  className="btn btn-primary h-10 min-h-0 text-[12.5px]"
+                >
                   Research note
                 </Link>
               )}
@@ -391,7 +484,10 @@ export default async function CompanyProfilePage({
       <main className="container-profile py-6 pb-28 lg:pb-10">
         {profile ? (
           <>
-            <section id="overview" className="scroll-mt-40 grid gap-4 lg:grid-cols-[1.2fr_1fr]">
+            <section
+              id="overview"
+              className="scroll-mt-40 grid gap-4 lg:grid-cols-[1.2fr_1fr]"
+            >
               <div className="card p-4 sm:p-5">
                 <h2 className="type-section text-ink">About {name}</h2>
                 <p className="type-body mt-2.5 text-muted">
@@ -400,12 +496,16 @@ export default async function CompanyProfilePage({
                 <dl className="mt-4 grid grid-cols-2 gap-4 border-t border-line pt-3">
                   <div>
                     <dt className="kpi-label">Industry</dt>
-                    <dd className="mt-0.5 text-[13.5px] font-medium text-ink">{industry}</dd>
+                    <dd className="mt-0.5 text-[13.5px] font-medium text-ink">
+                      {industry}
+                    </dd>
                   </div>
                   {profile.location && (
                     <div>
                       <dt className="kpi-label">Location</dt>
-                      <dd className="mt-0.5 text-[13.5px] font-medium text-ink">{profile.location}</dd>
+                      <dd className="mt-0.5 text-[13.5px] font-medium text-ink">
+                        {profile.location}
+                      </dd>
                     </div>
                   )}
                 </dl>
@@ -414,19 +514,27 @@ export default async function CompanyProfilePage({
               <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-2 lg:content-start lg:auto-rows-min">
                 <div className="card-flat p-4">
                   <p className="kpi-label">Market capitalisation</p>
-                  <p className="kpi-value mt-1">{stats.get("Market capitalization") ?? "—"}</p>
+                  <p className="kpi-value mt-1">
+                    {stats.get("Market capitalization") ?? "—"}
+                  </p>
                 </div>
                 <div className="card-flat p-4">
                   <p className="kpi-label">P/E ratio</p>
-                  <p className="kpi-value mt-1">{stats.get("P/E ratio") ?? "—"}</p>
+                  <p className="kpi-value mt-1">
+                    {stats.get("P/E ratio") ?? "—"}
+                  </p>
                 </div>
                 <div className="card-flat p-4">
                   <p className="kpi-label">Return on equity</p>
-                  <p className="kpi-value mt-1">{stats.get("Return on equity") ?? "—"}</p>
+                  <p className="kpi-value mt-1">
+                    {stats.get("Return on equity") ?? "—"}
+                  </p>
                 </div>
                 <div className="card-flat p-4">
                   <p className="kpi-label">EPS growth rate</p>
-                  <p className="kpi-value mt-1">{stats.get("EPS growth rate") ?? "—"}</p>
+                  <p className="kpi-value mt-1">
+                    {stats.get("EPS growth rate") ?? "—"}
+                  </p>
                 </div>
               </div>
             </section>
@@ -441,7 +549,10 @@ export default async function CompanyProfilePage({
                 </div>
                 {profile && (
                   <span className="chip chip-info">
-                    {profile.basis === "consolidated" ? "Consolidated" : "Standalone"} · {formatDate(profile.fetchedAt)}
+                    {profile.basis === "consolidated"
+                      ? "Consolidated"
+                      : "Standalone"}{" "}
+                    · {formatDate(profile.fetchedAt)}
                   </span>
                 )}
               </div>
@@ -458,7 +569,10 @@ export default async function CompanyProfilePage({
                 />
                 <Group
                   title="Profitability"
-                  items={[...pick(["Return on equity", "Cash flow (INR)"]), ...derivedProfitability]}
+                  items={[
+                    ...pick(["Return on equity", "Cash flow (INR)"]),
+                    ...derivedProfitability,
+                  ]}
                 />
                 <Group title="Growth" items={growth} />
                 <Group
@@ -474,11 +588,20 @@ export default async function CompanyProfilePage({
                 />
                 <Group
                   title="Institutional ownership"
-                  items={pick(["No. of funds", "Shares held by funds", "Shares in float"])}
+                  items={pick([
+                    "No. of funds",
+                    "Shares held by funds",
+                    "Shares in float",
+                  ])}
                 />
                 <Group
                   title="Ratings"
-                  items={pick(["Master score", "EPS rating", "Group rank", "Acc/Dis rating"])}
+                  items={pick([
+                    "Master score",
+                    "EPS rating",
+                    "Group rank",
+                    "Acc/Dis rating",
+                  ])}
                 />
               </div>
             </section>
@@ -486,7 +609,8 @@ export default async function CompanyProfilePage({
             <section id="charts" className="mt-8 scroll-mt-40">
               <h2 className="type-section text-ink">Financial charts</h2>
               <p className="type-body mt-1 text-muted">
-                Price, sales, earnings and margins over time. Charts load as they enter view.
+                Price, sales, earnings and margins over time. Charts load as
+                they enter view.
               </p>
               <div className="mt-3 space-y-4">
                 {profile.series.price.length > 1 && (
@@ -496,7 +620,9 @@ export default async function CompanyProfilePage({
                   {financialPoints.length > 1 && (
                     <ProfileFinancialSection points={financialPoints} />
                   )}
-                  {margins.length > 1 && <ProfileMarginsSection points={margins} />}
+                  {margins.length > 1 && (
+                    <ProfileMarginsSection points={margins} />
+                  )}
                 </div>
               </div>
             </section>
@@ -504,8 +630,9 @@ export default async function CompanyProfilePage({
             <section id="financials" className="mt-8 scroll-mt-40">
               <h2 className="type-section text-ink">Financial statements</h2>
               <p className="type-body mt-1 max-w-3xl text-muted">
-                Income statement, balance sheet, cash flow and key ratios. Periods run oldest to
-                newest; on mobile each table opens as the full history.
+                Income statement, balance sheet, cash flow and key ratios.
+                Periods run oldest to newest; on mobile each table opens as the
+                full history.
               </p>
               <div className="mt-3">
                 <StatementBrowser
@@ -524,7 +651,9 @@ export default async function CompanyProfilePage({
               <h2 className="type-section text-ink">Ownership</h2>
               <div className="mt-3 grid gap-4 lg:grid-cols-[1.1fr_1fr]">
                 <div className="card p-4">
-                  <h3 className="type-subhead text-ink">Shareholding pattern</h3>
+                  <h3 className="type-subhead text-ink">
+                    Shareholding pattern
+                  </h3>
                   <div className="mt-3 flex h-3 overflow-hidden rounded-full bg-paper-deep">
                     {profile.ownership.current.map((slice, index) => (
                       <span
@@ -532,23 +661,44 @@ export default async function CompanyProfilePage({
                         title={`${slice.name}: ${slice.percent}%`}
                         style={{
                           width: `${slice.percent}%`,
-                          backgroundColor: ["#1b1464", "#2456d8", "#8b3dff", "#ff7a45", "#2fbf8f", "#f5b544"][index % 6],
+                          backgroundColor: [
+                            "#1b1464",
+                            "#2456d8",
+                            "#8b3dff",
+                            "#ff7a45",
+                            "#2fbf8f",
+                            "#f5b544",
+                          ][index % 6],
                         }}
                       />
                     ))}
                   </div>
                   <ul className="mt-3 space-y-2">
                     {profile.ownership.current.map((slice, index) => (
-                      <li key={slice.name} className="flex items-center justify-between gap-2 text-[13px]">
+                      <li
+                        key={slice.name}
+                        className="flex items-center justify-between gap-2 text-[13px]"
+                      >
                         <span className="flex items-center gap-2 text-muted">
                           <span
                             aria-hidden="true"
                             className="inline-block size-2 rounded-sm"
-                            style={{ backgroundColor: ["#1b1464", "#2456d8", "#8b3dff", "#ff7a45", "#2fbf8f", "#f5b544"][index % 6] }}
+                            style={{
+                              backgroundColor: [
+                                "#1b1464",
+                                "#2456d8",
+                                "#8b3dff",
+                                "#ff7a45",
+                                "#2fbf8f",
+                                "#f5b544",
+                              ][index % 6],
+                            }}
                           />
                           {slice.name}
                         </span>
-                        <span className="tabular font-semibold text-ink">{slice.percent.toFixed(2)}%</span>
+                        <span className="tabular font-semibold text-ink">
+                          {slice.percent.toFixed(2)}%
+                        </span>
                       </li>
                     ))}
                   </ul>
@@ -574,21 +724,35 @@ export default async function CompanyProfilePage({
                       <table className="w-full border-collapse">
                         <thead>
                           <tr>
-                            <th scope="col" className="border-b border-line px-2 py-2 text-left text-[11px] font-semibold text-muted">
+                            <th
+                              scope="col"
+                              className="border-b border-line px-2 py-2 text-left text-[11px] font-semibold text-muted"
+                            >
                               Shareholder
                             </th>
-                            <th scope="col" className="border-b border-line px-2 py-2 text-right text-[11px] font-semibold text-muted">
+                            <th
+                              scope="col"
+                              className="border-b border-line px-2 py-2 text-right text-[11px] font-semibold text-muted"
+                            >
                               Holding
                             </th>
-                            <th scope="col" className="border-b border-line px-2 py-2 text-right text-[11px] font-semibold text-muted">
+                            <th
+                              scope="col"
+                              className="border-b border-line px-2 py-2 text-right text-[11px] font-semibold text-muted"
+                            >
                               As of
                             </th>
                           </tr>
                         </thead>
                         <tbody>
                           {profile.ownership.top.slice(0, 12).map((owner) => (
-                            <tr key={`${owner.name}-${owner.date}`} className="border-b border-line last:border-0">
-                              <td className="px-2 py-2 text-[12.5px] text-ink">{owner.name}</td>
+                            <tr
+                              key={`${owner.name}-${owner.date}`}
+                              className="border-b border-line last:border-0"
+                            >
+                              <td className="px-2 py-2 text-[12.5px] text-ink">
+                                {owner.name}
+                              </td>
                               <td className="tabular px-2 py-2 text-right text-[12.5px] font-medium text-ink">
                                 {owner.holding.toFixed(2)}%
                               </td>
@@ -601,7 +765,9 @@ export default async function CompanyProfilePage({
                       </table>
                     </div>
                   ) : (
-                    <p className="type-body mt-2 text-muted">No shareholder data available.</p>
+                    <p className="type-body mt-2 text-muted">
+                      No shareholder data available.
+                    </p>
                   )}
                 </div>
               </div>
@@ -612,15 +778,23 @@ export default async function CompanyProfilePage({
               <div className="mt-3 grid gap-3 lg:grid-cols-2">
                 <div className="card p-4">
                   <h3 className="type-subhead flex items-center gap-1.5 text-ink">
-                    <ShieldAlert aria-hidden="true" className="size-4 text-coral" />
+                    <ShieldAlert
+                      aria-hidden="true"
+                      className="size-4 text-coral"
+                    />
                     Caution flags
                   </h3>
                   {redFlags.length ? (
                     <ul className="mt-2 space-y-1.5">
                       {redFlags.map(([flag, value]) => (
-                        <li key={flag} className="text-[13px] leading-relaxed text-ink-soft">
+                        <li
+                          key={flag}
+                          className="text-[13px] leading-relaxed text-ink-soft"
+                        >
                           {FLAG_LABELS[flag] ?? flag}
-                          {value !== 1 && <span className="text-muted"> · {value}</span>}
+                          {value !== 1 && (
+                            <span className="text-muted"> · {value}</span>
+                          )}
                         </li>
                       ))}
                     </ul>
@@ -632,17 +806,27 @@ export default async function CompanyProfilePage({
                 </div>
                 <div className="card p-4">
                   <h3 className="type-subhead flex items-center gap-1.5 text-ink">
-                    <ShieldCheck aria-hidden="true" className="size-4 text-positive" />
+                    <ShieldCheck
+                      aria-hidden="true"
+                      className="size-4 text-positive"
+                    />
                     Positive flags
                   </h3>
                   {greenFlags.length ? (
                     <ul className="mt-2 space-y-1.5">
                       {greenFlags.map((flag) => (
-                        <li key={flag} className="text-[13px] leading-relaxed text-ink-soft">{flag}</li>
+                        <li
+                          key={flag}
+                          className="text-[13px] leading-relaxed text-ink-soft"
+                        >
+                          {flag}
+                        </li>
                       ))}
                     </ul>
                   ) : (
-                    <p className="type-body mt-2 text-muted">No positive flags reported.</p>
+                    <p className="type-body mt-2 text-muted">
+                      No positive flags reported.
+                    </p>
                   )}
                 </div>
               </div>
@@ -650,9 +834,9 @@ export default async function CompanyProfilePage({
 
             <p className="mt-5 text-[11px] leading-relaxed text-muted">
               Statements are{" "}
-              {profile.basis === "consolidated" ? "consolidated" : "standalone"} because
-              consolidated figures were not available. Ratings and flags are third-party
-              assessments, not Stockmonk recommendations.
+              {profile.basis === "consolidated" ? "consolidated" : "standalone"}{" "}
+              because consolidated figures were not available. Ratings and flags
+              are third-party assessments, not Stockmonk recommendations.
             </p>
           </>
         ) : (
@@ -669,13 +853,18 @@ export default async function CompanyProfilePage({
               </dl>
             </section>
             <section className="mt-4 rounded-xl border border-dashed border-line bg-surface p-5">
-              <h2 className="type-subhead text-ink">Full profile in progress</h2>
+              <h2 className="type-subhead text-ink">
+                Full profile in progress
+              </h2>
               <p className="type-body mt-1 max-w-2xl text-muted">
-                The earnings-tracker statistics are live. The full profile — statements,
-                ratios, ownership and surveillance — has not been published for this company
-                yet.
+                The earnings-tracker statistics are live. The full profile —
+                statements, ratios, ownership and surveillance — has not been
+                published for this company yet.
               </p>
-              <Link href="/india/earnings-tracker" className="mt-2 inline-block text-[12.5px] font-semibold text-brand">
+              <Link
+                href="/india/earnings-tracker"
+                className="mt-2 inline-block text-[12.5px] font-semibold text-brand"
+              >
                 Back to the earnings tracker
               </Link>
             </section>

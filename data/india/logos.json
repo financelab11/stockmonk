@@ -1,0 +1,6705 @@
+{
+  "generatedAt": "2026-11-20T16:05:32.123Z",
+  "logos": {
+    "501261": {
+      "file": "501261.png",
+      "source": "site-icon",
+      "domain": "lordsmark.com"
+    },
+    "504346": {
+      "file": "504346.ico",
+      "source": "site-icon",
+      "domain": "gdtal.com"
+    },
+    "505504": {
+      "file": "505504.png",
+      "source": "site-icon",
+      "domain": "ghvinfra.com"
+    },
+    "506528": {
+      "file": "506528.ico",
+      "source": "site-icon",
+      "domain": "keltechenergies.com"
+    },
+    "506854": {
+      "file": "506854.png",
+      "source": "site-icon",
+      "domain": "tanfac.com"
+    },
+    "511144": {
+      "file": "511144.png",
+      "source": "site-icon",
+      "domain": "axisindia.in"
+    },
+    "512014": {
+      "file": "512014.png",
+      "source": "google-favicon",
+      "domain": "sobhagyaltd.com"
+    },
+    "512025": {
+      "file": "512025.png",
+      "source": "site-icon",
+      "domain": "asgardalcobev.com"
+    },
+    "513361": {
+      "file": "513361.png",
+      "source": "apple-touch",
+      "domain": "indiasteel.in"
+    },
+    "515008": {
+      "file": "515008.ico",
+      "source": "site-icon",
+      "domain": "moderninsulators.com"
+    },
+    "516038": {
+      "file": "516038.png",
+      "source": "google-favicon",
+      "domain": "ksstech.co"
+    },
+    "517172": {
+      "file": "517172.ico",
+      "source": "site-icon",
+      "domain": "pervasiveindia.com"
+    },
+    "519477": {
+      "file": "519477.jpg",
+      "source": "site-icon",
+      "domain": "cianindustries.com"
+    },
+    "524717": {
+      "file": "524717.png",
+      "source": "site-icon",
+      "domain": "titanbiotechltd.com"
+    },
+    "526433": {
+      "file": "526433.webp",
+      "source": "site-icon",
+      "domain": "asmltd.com"
+    },
+    "526775": {
+      "file": "526775.ico",
+      "source": "site-icon",
+      "domain": "valiantcom.com"
+    },
+    "530477": {
+      "file": "530477.png",
+      "source": "site-icon",
+      "domain": "vikramthermo.com"
+    },
+    "531910": {
+      "file": "531910.png",
+      "source": "site-icon",
+      "domain": "jojolimited.com"
+    },
+    "533315": {
+      "file": "533315.png",
+      "source": "google-favicon",
+      "domain": "innovassynthinvestments.in"
+    },
+    "534535": {
+      "file": "534535.png",
+      "source": "site-icon",
+      "domain": "stringmetaverse.com"
+    },
+    "534733": {
+      "file": "534733.png",
+      "source": "apple-touch",
+      "domain": "aerpace.com"
+    },
+    "539682": {
+      "file": "539682.png",
+      "source": "site-icon",
+      "domain": "mobavenue.ai"
+    },
+    "539724": {
+      "file": "539724.ico",
+      "source": "site-icon",
+      "domain": "hypersoftindia.com"
+    },
+    "539895": {
+      "file": "539895.png",
+      "source": "google-favicon",
+      "domain": "espicelounge.com"
+    },
+    "539984": {
+      "file": "539984.jpg",
+      "source": "google-favicon",
+      "domain": "hindusthanurban.com"
+    },
+    "542543": {
+      "file": "542543.png",
+      "source": "google-favicon",
+      "domain": "pipelineinvit.com"
+    },
+    "542669": {
+      "file": "542669.png",
+      "source": "site-icon",
+      "domain": "bmwil.co.in"
+    },
+    "542866": {
+      "file": "542866.png",
+      "source": "site-icon",
+      "domain": "colabplatforms.com"
+    },
+    "543373": {
+      "file": "543373.png",
+      "source": "apple-touch",
+      "domain": "richsoya.in"
+    },
+    "543542": {
+      "file": "543542.png",
+      "source": "site-icon",
+      "domain": "kesarlands.com"
+    },
+    "543619": {
+      "file": "543619.png",
+      "source": "site-icon",
+      "domain": "concordgroup.in"
+    },
+    "543787": {
+      "file": "543787.png",
+      "source": "google-favicon",
+      "domain": "robu.in"
+    },
+    "543920": {
+      "file": "543920.png",
+      "source": "site-icon",
+      "domain": "cffdefensys.com"
+    },
+    "544150": {
+      "file": "544150.png",
+      "source": "site-icon",
+      "domain": "kpgreenengineering.com"
+    },
+    "544224": {
+      "file": "544224.png",
+      "source": "site-icon",
+      "domain": "afcomcargo.com"
+    },
+    "544291": {
+      "file": "544291.ico",
+      "source": "site-icon",
+      "domain": "rajeshpower.com"
+    },
+    "544310": {
+      "file": "544310.png",
+      "source": "site-icon",
+      "domain": "yashhv.com"
+    },
+    "544369": {
+      "file": "544369.png",
+      "source": "site-icon",
+      "domain": "beezaasan.com"
+    },
+    "544458": {
+      "file": "544458.png",
+      "source": "apple-touch",
+      "domain": "shreeref.com"
+    },
+    "544467": {
+      "file": "544467.png",
+      "source": "google-favicon",
+      "domain": "nsdl.co.in"
+    },
+    "544563": {
+      "file": "544563.webp",
+      "source": "site-icon",
+      "domain": "zelioebikes.com"
+    },
+    "544786": {
+      "file": "544786.ico",
+      "source": "site-icon",
+      "domain": "schneiderelectricpresident.com"
+    },
+    "544826": {
+      "file": "544826.png",
+      "source": "site-icon",
+      "domain": "millworksindia.com"
+    },
+    "544844": {
+      "file": "544844.png",
+      "source": "site-icon",
+      "domain": "poojacastings.in"
+    },
+    "3MINDIA": {
+      "file": "3MINDIA.jpg",
+      "source": "google-favicon",
+      "domain": "3m.com"
+    },
+    "63MOONS": {
+      "file": "63MOONS.ico",
+      "source": "site-icon",
+      "domain": "63moons.com"
+    },
+    "5PAISA": {
+      "file": "5PAISA.png",
+      "source": "site-icon",
+      "domain": "5paisa.com"
+    },
+    "ABLBL": {
+      "file": "ABLBL.png",
+      "source": "site-icon",
+      "domain": "ablbl.in"
+    },
+    "ABB": {
+      "file": "ABB.png",
+      "source": "site-icon",
+      "domain": "abb.com"
+    },
+    "360ONE": {
+      "file": "360ONE.png",
+      "source": "site-icon",
+      "domain": "360.one"
+    },
+    "AEROPLANE": {
+      "file": "AEROPLANE.png",
+      "source": "site-icon",
+      "domain": "aeroplanerice.com"
+    },
+    "AONESTEELS": {
+      "file": "AONESTEELS.png",
+      "source": "site-icon",
+      "domain": "aonesteelgroup.com"
+    },
+    "AADHARHFC": {
+      "file": "AADHARHFC.png",
+      "source": "google-favicon",
+      "domain": "aadharhousing.com"
+    },
+    "AARTIIND": {
+      "file": "AARTIIND.png",
+      "source": "site-icon",
+      "domain": "aarti-industries.com"
+    },
+    "ABREL": {
+      "file": "ABREL.ico",
+      "source": "site-icon",
+      "domain": "adityabirlarealestate.com"
+    },
+    "AAVAS": {
+      "file": "AAVAS.ico",
+      "source": "site-icon",
+      "domain": "aavas.in"
+    },
+    "AFSL": {
+      "file": "AFSL.ico",
+      "source": "site-icon",
+      "domain": "abansfinserv.com"
+    },
+    "AARTIPHARM": {
+      "file": "AARTIPHARM.png",
+      "source": "site-icon",
+      "domain": "aartipharmalabs.com"
+    },
+    "ACCELYA": {
+      "file": "ACCELYA.png",
+      "source": "site-icon",
+      "domain": "w3.accelya.com"
+    },
+    "ABBOTINDIA": {
+      "file": "ABBOTINDIA.png",
+      "source": "apple-touch",
+      "domain": "abbott.co.in"
+    },
+    "ACUTAAS": {
+      "file": "ACUTAAS.ico",
+      "source": "site-icon",
+      "domain": "acutaas.com"
+    },
+    "ACEVECTOR": {
+      "file": "ACEVECTOR.png",
+      "source": "site-icon",
+      "domain": "acevector.com"
+    },
+    "ADANIENT": {
+      "file": "ADANIENT.png",
+      "source": "site-icon",
+      "domain": "adanienterprises.com"
+    },
+    "ADANIENSOL": {
+      "file": "ADANIENSOL.png",
+      "source": "google-favicon",
+      "domain": "adanienergysolutions.com"
+    },
+    "ADANIGREEN": {
+      "file": "ADANIGREEN.png",
+      "source": "google-favicon",
+      "domain": "adanigreenenergy.com"
+    },
+    "ACE": {
+      "file": "ACE.ico",
+      "source": "site-icon",
+      "domain": "ace-cranes.com"
+    },
+    "AARTIDRUGS": {
+      "file": "AARTIDRUGS.png",
+      "source": "site-icon",
+      "domain": "aartidrugs.co.in"
+    },
+    "ARCIL": {
+      "file": "ARCIL.ico",
+      "source": "site-icon",
+      "domain": "arcil.co.in"
+    },
+    "ADANIPORTS": {
+      "file": "ADANIPORTS.png",
+      "source": "google-favicon",
+      "domain": "adaniports.com"
+    },
+    "ADANIPOWER": {
+      "file": "ADANIPOWER.png",
+      "source": "google-favicon",
+      "domain": "adanipower.com"
+    },
+    "ABFRL": {
+      "file": "ABFRL.png",
+      "source": "site-icon",
+      "domain": "abfrl.com"
+    },
+    "ABSLAMC": {
+      "file": "ABSLAMC.ico",
+      "source": "site-icon",
+      "domain": "mutualfund.adityabirlacapital.com"
+    },
+    "ADFFOODS": {
+      "file": "ADFFOODS.png",
+      "source": "site-icon",
+      "domain": "adf-foods.com"
+    },
+    "CPPLUS": {
+      "file": "CPPLUS.png",
+      "source": "google-favicon",
+      "domain": "adityagroup.com"
+    },
+    "ABCAPITAL": {
+      "file": "ABCAPITAL.ico",
+      "source": "site-icon",
+      "domain": "adityabirlacapital.com"
+    },
+    "RAMBHAJO": {
+      "file": "RAMBHAJO.png",
+      "source": "site-icon",
+      "domain": "rambhajo.com"
+    },
+    "ADVENZYMES": {
+      "file": "ADVENZYMES.png",
+      "source": "site-icon",
+      "domain": "advancedenzymes.com"
+    },
+    "ADVAIT": {
+      "file": "ADVAIT.png",
+      "source": "site-icon",
+      "domain": "advaitgroup.co.in"
+    },
+    "AEGISLOG": {
+      "file": "AEGISLOG.png",
+      "source": "site-icon",
+      "domain": "aegisindia.com"
+    },
+    "AEGISVOPAK": {
+      "file": "AEGISVOPAK.png",
+      "source": "apple-touch",
+      "domain": "aegisvopak.com"
+    },
+    "AEROENTER": {
+      "file": "AEROENTER.png",
+      "source": "site-icon",
+      "domain": "satgroup.in"
+    },
+    "AETHER": {
+      "file": "AETHER.ico",
+      "source": "site-icon",
+      "domain": "aether.co.in"
+    },
+    "AEQUS": {
+      "file": "AEQUS.jpg",
+      "source": "site-icon",
+      "domain": "aequs.com"
+    },
+    "AFCONS": {
+      "file": "AFCONS.jpg",
+      "source": "google-favicon",
+      "domain": "afcons.com"
+    },
+    "AGI": {
+      "file": "AGI.png",
+      "source": "site-icon",
+      "domain": "agigreenpac.com"
+    },
+    "AGIIL": {
+      "file": "AGIIL.png",
+      "source": "site-icon",
+      "domain": "agiinfra.com"
+    },
+    "AIAENG": {
+      "file": "AIAENG.png",
+      "source": "google-favicon",
+      "domain": "aiaengineering.com"
+    },
+    "AHLUCONT": {
+      "file": "AHLUCONT.ico",
+      "source": "site-icon",
+      "domain": "acilnet.com"
+    },
+    "AVL": {
+      "file": "AVL.jpg",
+      "source": "site-icon",
+      "domain": "adityavision.in"
+    },
+    "AJANTPHARM": {
+      "file": "AJANTPHARM.png",
+      "source": "site-icon",
+      "domain": "ajantapharma.com"
+    },
+    "AJMERA": {
+      "file": "AJMERA.png",
+      "source": "google-favicon",
+      "domain": "ajmera.com"
+    },
+    "AJAXENGG": {
+      "file": "AJAXENGG.png",
+      "source": "site-icon",
+      "domain": "ajax-engg.com"
+    },
+    "ALEMBICLTD": {
+      "file": "ALEMBICLTD.png",
+      "source": "site-icon",
+      "domain": "alembiclimited.com"
+    },
+    "ADOR": {
+      "file": "ADOR.png",
+      "source": "google-favicon",
+      "domain": "adorwelding.com"
+    },
+    "APLLTD": {
+      "file": "APLLTD.png",
+      "source": "site-icon",
+      "domain": "alembicpharmaceuticals.com"
+    },
+    "ALICON": {
+      "file": "ALICON.jpg",
+      "source": "site-icon",
+      "domain": "alicongroup.co.in"
+    },
+    "ALGOQUANT": {
+      "file": "ALGOQUANT.png",
+      "source": "site-icon",
+      "domain": "algoquantfintech.com"
+    },
+    "ALKEM": {
+      "file": "ALKEM.ico",
+      "source": "site-icon",
+      "domain": "alkemlabs.com"
+    },
+    "ALLTIME": {
+      "file": "ALLTIME.png",
+      "source": "site-icon",
+      "domain": "alltimeplastics.com"
+    },
+    "AKUMS": {
+      "file": "AKUMS.png",
+      "source": "site-icon",
+      "domain": "akums.in"
+    },
+    "ALLCARGO": {
+      "file": "ALLCARGO.png",
+      "source": "site-icon",
+      "domain": "allcargologistics.com"
+    },
+    "ALKYLAMINE": {
+      "file": "ALKYLAMINE.png",
+      "source": "site-icon",
+      "domain": "alkylamines.com"
+    },
+    "ABDL": {
+      "file": "ABDL.ico",
+      "source": "site-icon",
+      "domain": "abdindia.com"
+    },
+    "ALLDIGI": {
+      "file": "ALLDIGI.png",
+      "source": "site-icon",
+      "domain": "alldigitech.com"
+    },
+    "ALIVUS": {
+      "file": "ALIVUS.png",
+      "source": "site-icon",
+      "domain": "alivus.com"
+    },
+    "ALOKINDS": {
+      "file": "ALOKINDS.ico",
+      "source": "site-icon",
+      "domain": "alokind.com"
+    },
+    "ALPEXSOLAR": {
+      "file": "ALPEXSOLAR.png",
+      "source": "site-icon",
+      "domain": "alpexsolar.com"
+    },
+    "AMAGI": {
+      "file": "AMAGI.png",
+      "source": "site-icon",
+      "domain": "amagi.com"
+    },
+    "ARE&M": {
+      "file": "ARE&M.png",
+      "source": "site-icon",
+      "domain": "amararajaeandm.com"
+    },
+    "ARSSBL": {
+      "file": "ARSSBL.png",
+      "source": "site-icon",
+      "domain": "anandrathi.com"
+    },
+    "ANANDRATHI": {
+      "file": "ANANDRATHI.png",
+      "source": "google-favicon",
+      "domain": "anandrathiwealth.in"
+    },
+    "AEROFLEX": {
+      "file": "AEROFLEX.png",
+      "source": "google-favicon",
+      "domain": "aeroflexindia.com"
+    },
+    "ANANTRAJ": {
+      "file": "ANANTRAJ.png",
+      "source": "apple-touch",
+      "domain": "anantrajlimited.com"
+    },
+    "AMBER": {
+      "file": "AMBER.png",
+      "source": "site-icon",
+      "domain": "ambergroupindia.com"
+    },
+    "ANDHRAPAP": {
+      "file": "ANDHRAPAP.png",
+      "source": "apple-touch",
+      "domain": "andhrapaper.com"
+    },
+    "ANGELONE": {
+      "file": "ANGELONE.ico",
+      "source": "site-icon",
+      "domain": "angelone.in"
+    },
+    "ANONDITA": {
+      "file": "ANONDITA.png",
+      "source": "site-icon",
+      "domain": "anonditamedicare.com"
+    },
+    "AGL": {
+      "file": "AGL.ico",
+      "source": "site-icon",
+      "domain": "allcargo.global"
+    },
+    "ANAWIL": {
+      "file": "ANAWIL.png",
+      "source": "site-icon",
+      "domain": "anawilvapi.in"
+    },
+    "ANTHEM": {
+      "file": "ANTHEM.png",
+      "source": "site-icon",
+      "domain": "anthembio.com"
+    },
+    "ANDREWYU": {
+      "file": "ANDREWYU.png",
+      "source": "site-icon",
+      "domain": "andrewyule.com"
+    },
+    "APARINDS": {
+      "file": "APARINDS.png",
+      "source": "apple-touch",
+      "domain": "apar.com"
+    },
+    "ANURAS": {
+      "file": "ANURAS.jpg",
+      "source": "site-icon",
+      "domain": "anupamrasayan.com"
+    },
+    "APLAPOLLO": {
+      "file": "APLAPOLLO.png",
+      "source": "site-icon",
+      "domain": "aplapollo.com"
+    },
+    "APCOTEXIND": {
+      "file": "APCOTEXIND.webp",
+      "source": "site-icon",
+      "domain": "apcotex.com"
+    },
+    "AIMTRON": {
+      "file": "AIMTRON.webp",
+      "source": "site-icon",
+      "domain": "aimtron.in"
+    },
+    "APOLLOHOSP": {
+      "file": "APOLLOHOSP.png",
+      "source": "google-favicon",
+      "domain": "apollohospitals.com"
+    },
+    "APOLLOTYRE": {
+      "file": "APOLLOTYRE.ico",
+      "source": "site-icon",
+      "domain": "apollotyres.com"
+    },
+    "APTUS": {
+      "file": "APTUS.png",
+      "source": "site-icon",
+      "domain": "aptusindia.com"
+    },
+    "ACI": {
+      "file": "ACI.png",
+      "source": "site-icon",
+      "domain": "archeanchemicals.com"
+    },
+    "ARIHANTCAP": {
+      "file": "ARIHANTCAP.png",
+      "source": "site-icon",
+      "domain": "arihantcapital.com"
+    },
+    "ARIS": {
+      "file": "ARIS.png",
+      "source": "google-favicon",
+      "domain": "aris.in"
+    },
+    "ARFIN": {
+      "file": "ARFIN.ico",
+      "source": "site-icon",
+      "domain": "arfin.co.in"
+    },
+    "APOLLOPIPE": {
+      "file": "APOLLOPIPE.png",
+      "source": "site-icon",
+      "domain": "apollopipes.com"
+    },
+    "ARDEE": {
+      "file": "ARDEE.png",
+      "source": "site-icon",
+      "domain": "ardeeindustries.com"
+    },
+    "ARKADE": {
+      "file": "ARKADE.png",
+      "source": "site-icon",
+      "domain": "arkade.in"
+    },
+    "AHCL": {
+      "file": "AHCL.png",
+      "source": "site-icon",
+      "domain": "anlon.in"
+    },
+    "ARMANFIN": {
+      "file": "ARMANFIN.ico",
+      "source": "site-icon",
+      "domain": "armanindia.com"
+    },
+    "ARROWGREEN": {
+      "file": "ARROWGREEN.png",
+      "source": "site-icon",
+      "domain": "arrowgreentech.com"
+    },
+    "ARVINDFASN": {
+      "file": "ARVINDFASN.png",
+      "source": "site-icon",
+      "domain": "arvindfashions.com"
+    },
+    "ARVIND": {
+      "file": "ARVIND.png",
+      "source": "site-icon",
+      "domain": "arvind.com"
+    },
+    "ASAHIINDIA": {
+      "file": "ASAHIINDIA.png",
+      "source": "site-icon",
+      "domain": "aisglass.com"
+    },
+    "ASHAPURMIN": {
+      "file": "ASHAPURMIN.jpg",
+      "source": "site-icon",
+      "domain": "ashapura.com"
+    },
+    "ARTEMISMED": {
+      "file": "ARTEMISMED.ico",
+      "source": "site-icon",
+      "domain": "artemishospitals.com"
+    },
+    "ASHIKAG": {
+      "file": "ASHIKAG.png",
+      "source": "site-icon",
+      "domain": "ashikagroup.com"
+    },
+    "ASHIANA": {
+      "file": "ASHIANA.png",
+      "source": "site-icon",
+      "domain": "ashianahousing.com"
+    },
+    "ASHOKLEY": {
+      "file": "ASHOKLEY.ico",
+      "source": "site-icon",
+      "domain": "ashokleyland.com"
+    },
+    "ASIANHOTNR": {
+      "file": "ASIANHOTNR.ico",
+      "source": "site-icon",
+      "domain": "asianhotelsnorth.com"
+    },
+    "ASHOKA": {
+      "file": "ASHOKA.png",
+      "source": "site-icon",
+      "domain": "ashokabuildcon.com"
+    },
+    "ASKAUTOLTD": {
+      "file": "ASKAUTOLTD.png",
+      "source": "site-icon",
+      "domain": "askbrake.com"
+    },
+    "ASTEC": {
+      "file": "ASTEC.ico",
+      "source": "site-icon",
+      "domain": "godrejastec.com"
+    },
+    "ARVSMART": {
+      "file": "ARVSMART.ico",
+      "source": "site-icon",
+      "domain": "arvindsmartspaces.com"
+    },
+    "ASALCBR": {
+      "file": "ASALCBR.png",
+      "source": "site-icon",
+      "domain": "associatedalcohols.com"
+    },
+    "ASTRAL": {
+      "file": "ASTRAL.png",
+      "source": "site-icon",
+      "domain": "astralltd.com"
+    },
+    "ASTRAMICRO": {
+      "file": "ASTRAMICRO.png",
+      "source": "google-favicon",
+      "domain": "astramwp.com"
+    },
+    "ASTERDM": {
+      "file": "ASTERDM.png",
+      "source": "site-icon",
+      "domain": "asterdmhealthcare.in"
+    },
+    "ATUL": {
+      "file": "ATUL.png",
+      "source": "site-icon",
+      "domain": "atul.co.in"
+    },
+    "AUBANK": {
+      "file": "AUBANK.png",
+      "source": "google-favicon",
+      "domain": "au.bank.in"
+    },
+    "AUGMONT": {
+      "file": "AUGMONT.webp",
+      "source": "site-icon",
+      "domain": "augmont.com"
+    },
+    "ATLANTAELE": {
+      "file": "ATLANTAELE.png",
+      "source": "site-icon",
+      "domain": "aetrafo.com"
+    },
+    "ATULAUTO": {
+      "file": "ATULAUTO.png",
+      "source": "site-icon",
+      "domain": "atulauto.co.in"
+    },
+    "AUROPHARMA": {
+      "file": "AUROPHARMA.ico",
+      "source": "site-icon",
+      "domain": "aurobindo.com"
+    },
+    "ASTRAZEN": {
+      "file": "ASTRAZEN.png",
+      "source": "apple-touch",
+      "domain": "astrazeneca.com"
+    },
+    "AURUM": {
+      "file": "AURUM.png",
+      "source": "site-icon",
+      "domain": "aurumproptech.in"
+    },
+    "AIIL": {
+      "file": "AIIL.png",
+      "source": "site-icon",
+      "domain": "authum.com"
+    },
+    "AVANTEL": {
+      "file": "AVANTEL.png",
+      "source": "site-icon",
+      "domain": "avantel.in"
+    },
+    "DMART": {
+      "file": "DMART.png",
+      "source": "site-icon",
+      "domain": "dmartindia.com"
+    },
+    "CCAVENUE": {
+      "file": "CCAVENUE.png",
+      "source": "site-icon",
+      "domain": "avenuesai.com"
+    },
+    "AUTOAXLES": {
+      "file": "AUTOAXLES.ico",
+      "source": "site-icon",
+      "domain": "autoaxle.com"
+    },
+    "AVALON": {
+      "file": "AVALON.png",
+      "source": "site-icon",
+      "domain": "avalontec.com"
+    },
+    "ASIANPAINT": {
+      "file": "ASIANPAINT.png",
+      "source": "google-favicon",
+      "domain": "asianpaints.com"
+    },
+    "AXISBANK": {
+      "file": "AXISBANK.ico",
+      "source": "site-icon",
+      "domain": "axis.bank.in"
+    },
+    "ACGL": {
+      "file": "ACGL.jpg",
+      "source": "site-icon",
+      "domain": "acglgoa.com"
+    },
+    "AYE": {
+      "file": "AYE.ico",
+      "source": "site-icon",
+      "domain": "ayefin.com"
+    },
+    "AWFIS": {
+      "file": "AWFIS.png",
+      "source": "site-icon",
+      "domain": "awfis.com"
+    },
+    "AZAD": {
+      "file": "AZAD.png",
+      "source": "site-icon",
+      "domain": "azad.in"
+    },
+    "BHEL": {
+      "file": "BHEL.png",
+      "source": "site-icon",
+      "domain": "bhel.com"
+    },
+    "AYMSYNTEX": {
+      "file": "AYMSYNTEX.png",
+      "source": "site-icon",
+      "domain": "aymsyntex.com"
+    },
+    "STYLEBAAZA": {
+      "file": "STYLEBAAZA.png",
+      "source": "site-icon",
+      "domain": "stylebaazar.in"
+    },
+    "AVANTIFEED": {
+      "file": "AVANTIFEED.png",
+      "source": "google-favicon",
+      "domain": "avantifeeds.com"
+    },
+    "BPCL": {
+      "file": "BPCL.ico",
+      "source": "site-icon",
+      "domain": "bharatpetroleum.in"
+    },
+    "AVTNPL": {
+      "file": "AVTNPL.png",
+      "source": "site-icon",
+      "domain": "avtnatural.com"
+    },
+    "BAJAJCON": {
+      "file": "BAJAJCON.ico",
+      "source": "site-icon",
+      "domain": "bajajconsumercare.com"
+    },
+    "BAJAJ-AUTO": {
+      "file": "BAJAJ-AUTO.ico",
+      "source": "site-icon",
+      "domain": "bajajauto.com"
+    },
+    "AXISCADES": {
+      "file": "AXISCADES.png",
+      "source": "google-favicon",
+      "domain": "axiscades.com"
+    },
+    "BAJAJELEC": {
+      "file": "BAJAJELEC.jpg",
+      "source": "site-icon",
+      "domain": "bajajelectricals.com"
+    },
+    "BAJAJHIND": {
+      "file": "BAJAJHIND.ico",
+      "source": "site-icon",
+      "domain": "bajajhindusthan.com"
+    },
+    "BAFNAPH": {
+      "file": "BAFNAPH.png",
+      "source": "site-icon",
+      "domain": "bafnapharma.com"
+    },
+    "BLKASHYAP": {
+      "file": "BLKASHYAP.png",
+      "source": "site-icon",
+      "domain": "blkashyap.com"
+    },
+    "BAJEL": {
+      "file": "BAJEL.jpg",
+      "source": "google-favicon",
+      "domain": "bajelprojects.com"
+    },
+    "BAJAJHFL": {
+      "file": "BAJAJHFL.ico",
+      "source": "site-icon",
+      "domain": "bajajhousingfinance.in"
+    },
+    "BALAJITELE": {
+      "file": "BALAJITELE.png",
+      "source": "site-icon",
+      "domain": "balajitelefilms.com"
+    },
+    "BAJAJHLDNG": {
+      "file": "BAJAJHLDNG.png",
+      "source": "site-icon",
+      "domain": "bhil.in"
+    },
+    "BAJAJHCARE": {
+      "file": "BAJAJHCARE.jpg",
+      "source": "site-icon",
+      "domain": "bajajhealth.com"
+    },
+    "BALMLAWRIE": {
+      "file": "BALMLAWRIE.png",
+      "source": "site-icon",
+      "domain": "balmerlawrie.com"
+    },
+    "BALUFORGE": {
+      "file": "BALUFORGE.png",
+      "source": "site-icon",
+      "domain": "baluindustries.com"
+    },
+    "BANDHANBNK": {
+      "file": "BANDHANBNK.png",
+      "source": "site-icon",
+      "domain": "bandhan.bank.in"
+    },
+    "BANCOINDIA": {
+      "file": "BANCOINDIA.png",
+      "source": "apple-touch",
+      "domain": "bancoindia.com"
+    },
+    "BALKRISIND": {
+      "file": "BALKRISIND.png",
+      "source": "site-icon",
+      "domain": "bkt-tires.com"
+    },
+    "BANSALWIRE": {
+      "file": "BANSALWIRE.png",
+      "source": "site-icon",
+      "domain": "bansalwire.com"
+    },
+    "BANKBARODA": {
+      "file": "BANKBARODA.webp",
+      "source": "site-icon",
+      "domain": "bankofbaroda.in"
+    },
+    "BASF": {
+      "file": "BASF.png",
+      "source": "apple-touch",
+      "domain": "basf.com"
+    },
+    "BAYERCROP": {
+      "file": "BAYERCROP.png",
+      "source": "google-favicon",
+      "domain": "bayer.in"
+    },
+    "BATAINDIA": {
+      "file": "BATAINDIA.png",
+      "source": "site-icon",
+      "domain": "bata.in"
+    },
+    "BELRISE": {
+      "file": "BELRISE.png",
+      "source": "site-icon",
+      "domain": "belriseindustries.com"
+    },
+    "BELDING": {
+      "file": "BELDING.jpg",
+      "source": "site-icon",
+      "domain": "belding.ltd"
+    },
+    "BENARAS": {
+      "file": "BENARAS.png",
+      "source": "site-icon",
+      "domain": "benareshotelslimited.com"
+    },
+    "BENGALASM": {
+      "file": "BENGALASM.png",
+      "source": "site-icon",
+      "domain": "bengalassam.com"
+    },
+    "BERGEPAINT": {
+      "file": "BERGEPAINT.png",
+      "source": "google-favicon",
+      "domain": "bergerpaints.com"
+    },
+    "BEML": {
+      "file": "BEML.png",
+      "source": "site-icon",
+      "domain": "bemlindia.in"
+    },
+    "BFINVEST": {
+      "file": "BFINVEST.png",
+      "source": "site-icon",
+      "domain": "bfilpune.com"
+    },
+    "BLEL": {
+      "file": "BLEL.ico",
+      "source": "site-icon",
+      "domain": "beharilalengineering.com"
+    },
+    "BFUTILITIE": {
+      "file": "BFUTILITIE.png",
+      "source": "apple-touch",
+      "domain": "bfutilities.com"
+    },
+    "BALRAMCHIN": {
+      "file": "BALRAMCHIN.png",
+      "source": "site-icon",
+      "domain": "chini.com"
+    },
+    "BGRENERGY": {
+      "file": "BGRENERGY.png",
+      "source": "google-favicon",
+      "domain": "bgrcorp.com"
+    },
+    "BEPL": {
+      "file": "BEPL.png",
+      "source": "site-icon",
+      "domain": "bhansaliabs.com"
+    },
+    "BHAGERIA": {
+      "file": "BHAGERIA.png",
+      "source": "site-icon",
+      "domain": "bhageriagroup.com"
+    },
+    "BDL": {
+      "file": "BDL.png",
+      "source": "site-icon",
+      "domain": "bdl-india.in"
+    },
+    "BBL": {
+      "file": "BBL.png",
+      "source": "site-icon",
+      "domain": "bharatbijlee.com"
+    },
+    "BPLPHARMA": {
+      "file": "BPLPHARMA.png",
+      "source": "site-icon",
+      "domain": "bplindia.in"
+    },
+    "BHARATRAS": {
+      "file": "BHARATRAS.png",
+      "source": "site-icon",
+      "domain": "bharatgroup.co.in"
+    },
+    "BETA": {
+      "file": "BETA.png",
+      "source": "site-icon",
+      "domain": "betadrugslimited.com"
+    },
+    "BHAGCHEM": {
+      "file": "BHAGCHEM.png",
+      "source": "google-favicon",
+      "domain": "bhagirad.com"
+    },
+    "BHARATSE": {
+      "file": "BHARATSE.png",
+      "source": "site-icon",
+      "domain": "bharatseats.com"
+    },
+    "BHARTIARTL": {
+      "file": "BHARTIARTL.png",
+      "source": "google-favicon",
+      "domain": "airtel.in"
+    },
+    "BHARATFORG": {
+      "file": "BHARATFORG.ico",
+      "source": "site-icon",
+      "domain": "bharatforge.com"
+    },
+    "BIL": {
+      "file": "BIL.png",
+      "source": "google-favicon",
+      "domain": "bhartiyafashion.com"
+    },
+    "GROWW": {
+      "file": "GROWW.ico",
+      "source": "site-icon",
+      "domain": "groww.in"
+    },
+    "BIKAJI": {
+      "file": "BIKAJI.png",
+      "source": "site-icon",
+      "domain": "bikaji.com"
+    },
+    "BSOFT": {
+      "file": "BSOFT.ico",
+      "source": "site-icon",
+      "domain": "birlasoft.com"
+    },
+    "BLACKBUCK": {
+      "file": "BLACKBUCK.png",
+      "source": "google-favicon",
+      "domain": "blackbuck.com"
+    },
+    "BLSE": {
+      "file": "BLSE.ico",
+      "source": "site-icon",
+      "domain": "blseservices.com"
+    },
+    "BLISSGVS": {
+      "file": "BLISSGVS.ico",
+      "source": "site-icon",
+      "domain": "blissgvs.com"
+    },
+    "BLSPOLY": {
+      "file": "BLSPOLY.png",
+      "source": "site-icon",
+      "domain": "blspolymers.com"
+    },
+    "BBOX": {
+      "file": "BBOX.png",
+      "source": "site-icon",
+      "domain": "blackbox.com"
+    },
+    "BLS": {
+      "file": "BLS.ico",
+      "source": "site-icon",
+      "domain": "blsinternational.com"
+    },
+    "BLUECLOUDS": {
+      "file": "BLUECLOUDS.jpg",
+      "source": "site-icon",
+      "domain": "bluecloudsoftech.com"
+    },
+    "BLUEDART": {
+      "file": "BLUEDART.png",
+      "source": "site-icon",
+      "domain": "bluedart.com"
+    },
+    "BHARATWIRE": {
+      "file": "BHARATWIRE.png",
+      "source": "site-icon",
+      "domain": "bharatwireropes.com"
+    },
+    "BLUESTARCO": {
+      "file": "BLUESTARCO.png",
+      "source": "google-favicon",
+      "domain": "bluestarindia.com"
+    },
+    "BLUESTONE": {
+      "file": "BLUESTONE.png",
+      "source": "apple-touch",
+      "domain": "bluestone.com"
+    },
+    "BNAGROCHEM": {
+      "file": "BNAGROCHEM.png",
+      "source": "site-icon",
+      "domain": "bn-holdings.com"
+    },
+    "BLUSPRING": {
+      "file": "BLUSPRING.png",
+      "source": "google-favicon",
+      "domain": "bluspring.com"
+    },
+    "BLUEJET": {
+      "file": "BLUEJET.png",
+      "source": "site-icon",
+      "domain": "bluejethealthcare.com"
+    },
+    "BOMDYEING": {
+      "file": "BOMDYEING.ico",
+      "source": "site-icon",
+      "domain": "bombaydyeing.com"
+    },
+    "BORORENEW": {
+      "file": "BORORENEW.png",
+      "source": "site-icon",
+      "domain": "borosilrenewables.com"
+    },
+    "BOROLTD": {
+      "file": "BOROLTD.ico",
+      "source": "site-icon",
+      "domain": "borosil.com"
+    },
+    "BONDADA": {
+      "file": "BONDADA.png",
+      "source": "site-icon",
+      "domain": "bondada.net"
+    },
+    "FIRSTCRY": {
+      "file": "FIRSTCRY.ico",
+      "source": "site-icon",
+      "domain": "firstcry.com"
+    },
+    "BRIGADE": {
+      "file": "BRIGADE.ico",
+      "source": "site-icon",
+      "domain": "brigadegroup.com"
+    },
+    "BONFIG": {
+      "file": "BONFIG.ico",
+      "source": "site-icon",
+      "domain": "bonfiglioli.in"
+    },
+    "BRITANNIA": {
+      "file": "BRITANNIA.ico",
+      "source": "site-icon",
+      "domain": "britannia.co.in"
+    },
+    "BCG": {
+      "file": "BCG.png",
+      "source": "google-favicon",
+      "domain": "brightcomgroup.com"
+    },
+    "BUTTERFLY": {
+      "file": "BUTTERFLY.png",
+      "source": "site-icon",
+      "domain": "butterflyindia.com"
+    },
+    "BIRET": {
+      "file": "BIRET.png",
+      "source": "google-favicon",
+      "domain": "brookfieldindiareit.in"
+    },
+    "BOSCHLTD": {
+      "file": "BOSCHLTD.png",
+      "source": "apple-touch",
+      "domain": "boschindia.com"
+    },
+    "CMLL": {
+      "file": "CMLL.ico",
+      "source": "site-icon",
+      "domain": "cmll.in"
+    },
+    "CAMS": {
+      "file": "CAMS.ico",
+      "source": "site-icon",
+      "domain": "camsonline.com"
+    },
+    "CANBK": {
+      "file": "CANBK.png",
+      "source": "site-icon",
+      "domain": "canarabank.com"
+    },
+    "MAPMYINDIA": {
+      "file": "MAPMYINDIA.png",
+      "source": "site-icon",
+      "domain": "mapmyindia.com"
+    },
+    "CRAMC": {
+      "file": "CRAMC.png",
+      "source": "site-icon",
+      "domain": "canararobeco.com"
+    },
+    "CANHLIFE": {
+      "file": "CANHLIFE.png",
+      "source": "google-favicon",
+      "domain": "canarahsbclife.com"
+    },
+    "CANFINHOME": {
+      "file": "CANFINHOME.png",
+      "source": "site-icon",
+      "domain": "canfinhomes.com"
+    },
+    "CAPILLARY": {
+      "file": "CAPILLARY.png",
+      "source": "google-favicon",
+      "domain": "capillarytech.com"
+    },
+    "CAMLINFINE": {
+      "file": "CAMLINFINE.png",
+      "source": "site-icon",
+      "domain": "camlinfs.com"
+    },
+    "CAPACITE": {
+      "file": "CAPACITE.png",
+      "source": "site-icon",
+      "domain": "capacite.in"
+    },
+    "CANTABIL": {
+      "file": "CANTABIL.png",
+      "source": "site-icon",
+      "domain": "cantabilinternational.com"
+    },
+    "CGCL": {
+      "file": "CGCL.webp",
+      "source": "site-icon",
+      "domain": "capriloans.in"
+    },
+    "CARTRADE": {
+      "file": "CARTRADE.png",
+      "source": "site-icon",
+      "domain": "cartradetech.com"
+    },
+    "CARYSIL": {
+      "file": "CARYSIL.png",
+      "source": "site-icon",
+      "domain": "carysil.com"
+    },
+    "CARRARO": {
+      "file": "CARRARO.png",
+      "source": "google-favicon",
+      "domain": "carraroindia.com"
+    },
+    "CASTROLIND": {
+      "file": "CASTROLIND.png",
+      "source": "apple-touch",
+      "domain": "castrol.co.in"
+    },
+    "CEATLTD": {
+      "file": "CEATLTD.png",
+      "source": "site-icon",
+      "domain": "ceat.com"
+    },
+    "CCL": {
+      "file": "CCL.png",
+      "source": "site-icon",
+      "domain": "cclproducts.com"
+    },
+    "CELLO": {
+      "file": "CELLO.png",
+      "source": "apple-touch",
+      "domain": "celloworld.com"
+    },
+    "CARBORUNIV": {
+      "file": "CARBORUNIV.ico",
+      "source": "site-icon",
+      "domain": "cumi-murugappa.com"
+    },
+    "CEIGALL": {
+      "file": "CEIGALL.png",
+      "source": "site-icon",
+      "domain": "ceigall.com"
+    },
+    "CENTRALBK": {
+      "file": "CENTRALBK.ico",
+      "source": "site-icon",
+      "domain": "centralbank.bank.in"
+    },
+    "CAMPUS": {
+      "file": "CAMPUS.png",
+      "source": "google-favicon",
+      "domain": "campusactivewear.com"
+    },
+    "CENTENKA": {
+      "file": "CENTENKA.png",
+      "source": "site-icon",
+      "domain": "centuryenka.com"
+    },
+    "CENTURYPLY": {
+      "file": "CENTURYPLY.ico",
+      "source": "site-icon",
+      "domain": "centuryply.com"
+    },
+    "CENTUM": {
+      "file": "CENTUM.png",
+      "source": "google-favicon",
+      "domain": "centumelectronics.com"
+    },
+    "CGPOWER": {
+      "file": "CGPOWER.png",
+      "source": "site-icon",
+      "domain": "cgglobal.com"
+    },
+    "CLSEL": {
+      "file": "CLSEL.png",
+      "source": "google-favicon",
+      "domain": "maharanirice.in"
+    },
+    "CERA": {
+      "file": "CERA.png",
+      "source": "site-icon",
+      "domain": "cera-india.com"
+    },
+    "CHEMPLASTS": {
+      "file": "CHEMPLASTS.png",
+      "source": "site-icon",
+      "domain": "chemplastsanmar.com"
+    },
+    "CHOICEIN": {
+      "file": "CHOICEIN.ico",
+      "source": "site-icon",
+      "domain": "choiceindia.com"
+    },
+    "CHOLAFIN": {
+      "file": "CHOLAFIN.png",
+      "source": "apple-touch",
+      "domain": "cholamandalam.com"
+    },
+    "CHOLAHLDNG": {
+      "file": "CHOLAHLDNG.ico",
+      "source": "site-icon",
+      "domain": "cholafhl.com"
+    },
+    "CIEINDIA": {
+      "file": "CIEINDIA.png",
+      "source": "site-icon",
+      "domain": "cie-india.com"
+    },
+    "CUB": {
+      "file": "CUB.jpg",
+      "source": "site-icon",
+      "domain": "cityunionbank.bank.in"
+    },
+    "CLEAN": {
+      "file": "CLEAN.jpg",
+      "source": "site-icon",
+      "domain": "cleanscience.co.in"
+    },
+    "CMSINFO": {
+      "file": "CMSINFO.webp",
+      "source": "site-icon",
+      "domain": "cms.com"
+    },
+    "COCHINSHIP": {
+      "file": "COCHINSHIP.png",
+      "source": "site-icon",
+      "domain": "cochinshipyard.in"
+    },
+    "CMRGREEN": {
+      "file": "CMRGREEN.png",
+      "source": "site-icon",
+      "domain": "cmr.co.in"
+    },
+    "CLEANMAX": {
+      "file": "CLEANMAX.png",
+      "source": "site-icon",
+      "domain": "cleanmax.com"
+    },
+    "COMSYN": {
+      "file": "COMSYN.png",
+      "source": "site-icon",
+      "domain": "comsyn.com"
+    },
+    "COLPAL": {
+      "file": "COLPAL.png",
+      "source": "apple-touch",
+      "domain": "colgatepalmolive.co.in"
+    },
+    "COFORGE": {
+      "file": "COFORGE.png",
+      "source": "google-favicon",
+      "domain": "coforge.com"
+    },
+    "CONFIPET": {
+      "file": "CONFIPET.png",
+      "source": "google-favicon",
+      "domain": "confidencegroup.co"
+    },
+    "COHANCE": {
+      "file": "COHANCE.png",
+      "source": "site-icon",
+      "domain": "cohance.com"
+    },
+    "CONCOR": {
+      "file": "CONCOR.jpg",
+      "source": "google-favicon",
+      "domain": "concorindia.co.in"
+    },
+    "CONCORDBIO": {
+      "file": "CONCORDBIO.png",
+      "source": "google-favicon",
+      "domain": "concordbiotech.com"
+    },
+    "COSMOFIRST": {
+      "file": "COSMOFIRST.jpg",
+      "source": "site-icon",
+      "domain": "cosmofirst.com"
+    },
+    "COROMANDEL": {
+      "file": "COROMANDEL.png",
+      "source": "site-icon",
+      "domain": "coromandel.biz"
+    },
+    "CORONA": {
+      "file": "CORONA.png",
+      "source": "site-icon",
+      "domain": "coronaremedies.com"
+    },
+    "CREDITACC": {
+      "file": "CREDITACC.png",
+      "source": "site-icon",
+      "domain": "creditaccessgrameen.in"
+    },
+    "CNL": {
+      "file": "CNL.png",
+      "source": "google-favicon",
+      "domain": "creativenewtech.com"
+    },
+    "CRIZAC": {
+      "file": "CRIZAC.png",
+      "source": "site-icon",
+      "domain": "crizac.com"
+    },
+    "CRAFTSMAN": {
+      "file": "CRAFTSMAN.png",
+      "source": "site-icon",
+      "domain": "craftsmanautomation.com"
+    },
+    "CRISIL": {
+      "file": "CRISIL.png",
+      "source": "site-icon",
+      "domain": "crisil.com"
+    },
+    "CROMPTON": {
+      "file": "CROMPTON.png",
+      "source": "site-icon",
+      "domain": "crompton.co.in"
+    },
+    "CREST": {
+      "file": "CREST.png",
+      "source": "site-icon",
+      "domain": "crest.in"
+    },
+    "CUMMINSIND": {
+      "file": "CUMMINSIND.png",
+      "source": "google-favicon",
+      "domain": "cumminsindia.com"
+    },
+    "DBCORP": {
+      "file": "DBCORP.ico",
+      "source": "site-icon",
+      "domain": "dbcorpltd.com"
+    },
+    "CYIENTDLM": {
+      "file": "CYIENTDLM.png",
+      "source": "site-icon",
+      "domain": "cyientdlm.com"
+    },
+    "CHALET": {
+      "file": "CHALET.png",
+      "source": "site-icon",
+      "domain": "chalethotels.com"
+    },
+    "DPABHUSHAN": {
+      "file": "DPABHUSHAN.jpg",
+      "source": "google-favicon",
+      "domain": "dpjewellers.com"
+    },
+    "DABUR": {
+      "file": "DABUR.png",
+      "source": "google-favicon",
+      "domain": "dabur.com"
+    },
+    "DALMIASUG": {
+      "file": "DALMIASUG.ico",
+      "source": "site-icon",
+      "domain": "dalmiasugar.com"
+    },
+    "CUPID": {
+      "file": "CUPID.png",
+      "source": "site-icon",
+      "domain": "cupidlimited.com"
+    },
+    "DLINKINDIA": {
+      "file": "DLINKINDIA.png",
+      "source": "apple-touch",
+      "domain": "dlink.co.in"
+    },
+    "DAMCAPITAL": {
+      "file": "DAMCAPITAL.ico",
+      "source": "site-icon",
+      "domain": "damcapital.in"
+    },
+    "DANISH": {
+      "file": "DANISH.webp",
+      "source": "site-icon",
+      "domain": "danish.co.in"
+    },
+    "DATAPATTNS": {
+      "file": "DATAPATTNS.ico",
+      "source": "site-icon",
+      "domain": "datapatternsindia.com"
+    },
+    "DATAMATICS": {
+      "file": "DATAMATICS.png",
+      "source": "site-icon",
+      "domain": "datamatics.com"
+    },
+    "DCBBANK": {
+      "file": "DCBBANK.ico",
+      "source": "site-icon",
+      "domain": "dcb.bank.in"
+    },
+    "DALBHARAT": {
+      "file": "DALBHARAT.png",
+      "source": "site-icon",
+      "domain": "dalmiabharat.com"
+    },
+    "DDEVPLSTIK": {
+      "file": "DDEVPLSTIK.png",
+      "source": "site-icon",
+      "domain": "ddevgroup.in"
+    },
+    "DCW": {
+      "file": "DCW.png",
+      "source": "site-icon",
+      "domain": "dcwltd.com"
+    },
+    "DCXINDIA": {
+      "file": "DCXINDIA.png",
+      "source": "site-icon",
+      "domain": "dcxindia.com"
+    },
+    "DECNGOLD": {
+      "file": "DECNGOLD.jpg",
+      "source": "site-icon",
+      "domain": "deccangoldmines.com"
+    },
+    "DEEPA": {
+      "file": "DEEPA.png",
+      "source": "site-icon",
+      "domain": "deepajewel.com"
+    },
+    "DCMSHRIRAM": {
+      "file": "DCMSHRIRAM.png",
+      "source": "site-icon",
+      "domain": "dcmshriram.com"
+    },
+    "DEEPAKFERT": {
+      "file": "DEEPAKFERT.png",
+      "source": "google-favicon",
+      "domain": "dfpcl.com"
+    },
+    "DELHIVERY": {
+      "file": "DELHIVERY.png",
+      "source": "site-icon",
+      "domain": "delhivery.com"
+    },
+    "DEEPAKNTR": {
+      "file": "DEEPAKNTR.png",
+      "source": "google-favicon",
+      "domain": "godeepak.com"
+    },
+    "DELTACORP": {
+      "file": "DELTACORP.png",
+      "source": "google-favicon",
+      "domain": "deltacorp.in"
+    },
+    "DEEPINDS": {
+      "file": "DEEPINDS.png",
+      "source": "site-icon",
+      "domain": "deepindustries.com"
+    },
+    "DEN": {
+      "file": "DEN.png",
+      "source": "site-icon",
+      "domain": "dennetworks.com"
+    },
+    "DEEDEV": {
+      "file": "DEEDEV.ico",
+      "source": "site-icon",
+      "domain": "deepiping.com"
+    },
+    "DHANBANK": {
+      "file": "DHANBANK.png",
+      "source": "site-icon",
+      "domain": "dhan.bank.in"
+    },
+    "DHAMPURSUG": {
+      "file": "DHAMPURSUG.png",
+      "source": "site-icon",
+      "domain": "dhampursugar.com"
+    },
+    "DHANUKA": {
+      "file": "DHANUKA.ico",
+      "source": "site-icon",
+      "domain": "dhanuka.com"
+    },
+    "DHOOTTRANS": {
+      "file": "DHOOTTRANS.ico",
+      "source": "site-icon",
+      "domain": "dhoottransmission.com"
+    },
+    "DVL": {
+      "file": "DVL.ico",
+      "source": "site-icon",
+      "domain": "aspetindia.com"
+    },
+    "DIFFNKG": {
+      "file": "DIFFNKG.png",
+      "source": "site-icon",
+      "domain": "diffusionengineers.com"
+    },
+    "DIACABS": {
+      "file": "DIACABS.png",
+      "source": "site-icon",
+      "domain": "dicabs.com"
+    },
+    "DISAQ": {
+      "file": "DISAQ.png",
+      "source": "apple-touch",
+      "domain": "disagroup.com"
+    },
+    "DCAL": {
+      "file": "DCAL.png",
+      "source": "apple-touch",
+      "domain": "imdcal.com"
+    },
+    "DIVISLAB": {
+      "file": "DIVISLAB.png",
+      "source": "google-favicon",
+      "domain": "divislabs.com"
+    },
+    "DEVYANI": {
+      "file": "DEVYANI.png",
+      "source": "site-icon",
+      "domain": "dil-rjcorp.com"
+    },
+    "DIXON": {
+      "file": "DIXON.ico",
+      "source": "site-icon",
+      "domain": "dixoninfo.com"
+    },
+    "DLF": {
+      "file": "DLF.png",
+      "source": "site-icon",
+      "domain": "dlf.in"
+    },
+    "DODLA": {
+      "file": "DODLA.png",
+      "source": "site-icon",
+      "domain": "dodladairy.com"
+    },
+    "DIVGIITTS": {
+      "file": "DIVGIITTS.png",
+      "source": "site-icon",
+      "domain": "divgi-tts.com"
+    },
+    "DPEL": {
+      "file": "DPEL.png",
+      "source": "site-icon",
+      "domain": "dpel.in"
+    },
+    "DOMS": {
+      "file": "DOMS.png",
+      "source": "site-icon",
+      "domain": "domsindia.com"
+    },
+    "DBL": {
+      "file": "DBL.png",
+      "source": "site-icon",
+      "domain": "dilipbuildcon.com"
+    },
+    "LALPATHLAB": {
+      "file": "LALPATHLAB.ico",
+      "source": "site-icon",
+      "domain": "lalpathlabs.com"
+    },
+    "DRREDDY": {
+      "file": "DRREDDY.png",
+      "source": "google-favicon",
+      "domain": "drreddys.com"
+    },
+    "AGARWALEYE": {
+      "file": "AGARWALEYE.jpg",
+      "source": "site-icon",
+      "domain": "dragarwals.co.in"
+    },
+    "DRAGARWQ": {
+      "file": "DRAGARWQ.jpg",
+      "source": "site-icon",
+      "domain": "dragarwal.com"
+    },
+    "DYNAMATECH": {
+      "file": "DYNAMATECH.png",
+      "source": "site-icon",
+      "domain": "dynamatics.com"
+    },
+    "DOLLAR": {
+      "file": "DOLLAR.jpg",
+      "source": "site-icon",
+      "domain": "dollarglobal.in"
+    },
+    "DYCL": {
+      "file": "DYCL.ico",
+      "source": "site-icon",
+      "domain": "dynamiccables.co.in"
+    },
+    "EDELALTS": {
+      "file": "EDELALTS.png",
+      "source": "site-icon",
+      "domain": "eaaa.in"
+    },
+    "E2E": {
+      "file": "E2E.png",
+      "source": "site-icon",
+      "domain": "e2enetworks.com"
+    },
+    "EASEMYTRIP": {
+      "file": "EASEMYTRIP.png",
+      "source": "google-favicon",
+      "domain": "easemytrip.com"
+    },
+    "DREDGECORP": {
+      "file": "DREDGECORP.png",
+      "source": "site-icon",
+      "domain": "dredge-india.com"
+    },
+    "EFCIL": {
+      "file": "EFCIL.png",
+      "source": "site-icon",
+      "domain": "efclimited.in"
+    },
+    "EIDPARRY": {
+      "file": "EIDPARRY.jpg",
+      "source": "site-icon",
+      "domain": "eidparry.com"
+    },
+    "EIHAHOTELS": {
+      "file": "EIHAHOTELS.png",
+      "source": "site-icon",
+      "domain": "eihassociatedhotels.in"
+    },
+    "EDELWEISS": {
+      "file": "EDELWEISS.png",
+      "source": "google-favicon",
+      "domain": "edelweissfin.com"
+    },
+    "DSSL": {
+      "file": "DSSL.png",
+      "source": "site-icon",
+      "domain": "dynacons.com"
+    },
+    "EIMCOELECO": {
+      "file": "EIMCOELECO.png",
+      "source": "site-icon",
+      "domain": "eimcoelecon.in"
+    },
+    "EMIL": {
+      "file": "EMIL.png",
+      "source": "site-icon",
+      "domain": "electronicsmartindia.com"
+    },
+    "ELECTCAST": {
+      "file": "ELECTCAST.png",
+      "source": "site-icon",
+      "domain": "electrosteelcastings.com"
+    },
+    "ELEVATE": {
+      "file": "ELEVATE.ico",
+      "source": "site-icon",
+      "domain": "elevatecampuses.com"
+    },
+    "ELCIDIN": {
+      "file": "ELCIDIN.png",
+      "source": "google-favicon",
+      "domain": "elcidinvestments.com"
+    },
+    "ELECON": {
+      "file": "ELECON.png",
+      "source": "site-icon",
+      "domain": "elecon.com"
+    },
+    "ELGIEQUIP": {
+      "file": "ELGIEQUIP.jpg",
+      "source": "site-icon",
+      "domain": "elgi.com"
+    },
+    "EMBDL": {
+      "file": "EMBDL.png",
+      "source": "site-icon",
+      "domain": "embassyindia.com"
+    },
+    "EMAMILTD": {
+      "file": "EMAMILTD.png",
+      "source": "site-icon",
+      "domain": "emamiltd.in"
+    },
+    "EMBASSY": {
+      "file": "EMBASSY.png",
+      "source": "site-icon",
+      "domain": "embassyofficeparks.com"
+    },
+    "EIHOTEL": {
+      "file": "EIHOTEL.png",
+      "source": "site-icon",
+      "domain": "eihltd.com"
+    },
+    "ECLERX": {
+      "file": "ECLERX.png",
+      "source": "google-favicon",
+      "domain": "eclerx.com"
+    },
+    "EMMVEE": {
+      "file": "EMMVEE.png",
+      "source": "google-favicon",
+      "domain": "emmveepv.com"
+    },
+    "EMUDHRA": {
+      "file": "EMUDHRA.webp",
+      "source": "site-icon",
+      "domain": "emudhra.com"
+    },
+    "ETL": {
+      "file": "ETL.jpg",
+      "source": "site-icon",
+      "domain": "emkaytoolsltd.com"
+    },
+    "ENTERO": {
+      "file": "ENTERO.png",
+      "source": "site-icon",
+      "domain": "enterohealthcare.com"
+    },
+    "EIEL": {
+      "file": "EIEL.png",
+      "source": "site-icon",
+      "domain": "eiel.in"
+    },
+    "EPACKPEB": {
+      "file": "EPACKPEB.png",
+      "source": "site-icon",
+      "domain": "epackprefab.com"
+    },
+    "ENGINERSIN": {
+      "file": "ENGINERSIN.png",
+      "source": "site-icon",
+      "domain": "engineersindia.com"
+    },
+    "EPACK": {
+      "file": "EPACK.png",
+      "source": "site-icon",
+      "domain": "epackdurable.com"
+    },
+    "EPL": {
+      "file": "EPL.png",
+      "source": "site-icon",
+      "domain": "eplglobal.com"
+    },
+    "ERIS": {
+      "file": "ERIS.png",
+      "source": "site-icon",
+      "domain": "eris.co.in"
+    },
+    "ESABINDIA": {
+      "file": "ESABINDIA.png",
+      "source": "google-favicon",
+      "domain": "esabindia.com"
+    },
+    "EPIGRAL": {
+      "file": "EPIGRAL.png",
+      "source": "site-icon",
+      "domain": "epigral.com"
+    },
+    "ESAFSFB": {
+      "file": "ESAFSFB.png",
+      "source": "apple-touch",
+      "domain": "esaf.bank.in"
+    },
+    "ESCORTS": {
+      "file": "ESCORTS.ico",
+      "source": "site-icon",
+      "domain": "escortskubota.com"
+    },
+    "ETERNAL": {
+      "file": "ETERNAL.png",
+      "source": "apple-touch",
+      "domain": "eternal.com"
+    },
+    "ETHOSLTD": {
+      "file": "ETHOSLTD.png",
+      "source": "google-favicon",
+      "domain": "ethoswatches.com"
+    },
+    "EVEREADY": {
+      "file": "EVEREADY.ico",
+      "source": "site-icon",
+      "domain": "evereadyindia.com"
+    },
+    "EUROPRATIK": {
+      "file": "EUROPRATIK.png",
+      "source": "site-icon",
+      "domain": "europratik.com"
+    },
+    "EXICOM": {
+      "file": "EXICOM.png",
+      "source": "site-icon",
+      "domain": "exicom.com"
+    },
+    "EXCELINDUS": {
+      "file": "EXCELINDUS.jpg",
+      "source": "site-icon",
+      "domain": "excelind.co.in"
+    },
+    "EXIDEIND": {
+      "file": "EXIDEIND.ico",
+      "source": "site-icon",
+      "domain": "exideindustries.com"
+    },
+    "EVONILE": {
+      "file": "EVONILE.png",
+      "source": "site-icon",
+      "domain": "nilpharma.co.in"
+    },
+    "FACT": {
+      "file": "FACT.png",
+      "source": "google-favicon",
+      "domain": "fact.co.in"
+    },
+    "FAZE3Q": {
+      "file": "FAZE3Q.png",
+      "source": "site-icon",
+      "domain": "fazethree.com"
+    },
+    "EKC": {
+      "file": "EKC.png",
+      "source": "site-icon",
+      "domain": "everestkanto.com"
+    },
+    "FDC": {
+      "file": "FDC.png",
+      "source": "site-icon",
+      "domain": "fdcindia.com"
+    },
+    "EXPLEOSOL": {
+      "file": "EXPLEOSOL.png",
+      "source": "site-icon",
+      "domain": "investors.expleo.com"
+    },
+    "FIEMIND": {
+      "file": "FIEMIND.ico",
+      "source": "site-icon",
+      "domain": "fiemindustries.com"
+    },
+    "FERMENTA": {
+      "file": "FERMENTA.ico",
+      "source": "site-icon",
+      "domain": "fermentabiotech.com"
+    },
+    "FEDDERSHOL": {
+      "file": "FEDDERSHOL.jpg",
+      "source": "site-icon",
+      "domain": "feddersholding.com"
+    },
+    "FILATEX": {
+      "file": "FILATEX.jpg",
+      "source": "site-icon",
+      "domain": "filatex.com"
+    },
+    "FINEORG": {
+      "file": "FINEORG.jpg",
+      "source": "site-icon",
+      "domain": "fineorganics.com"
+    },
+    "FINPIPE": {
+      "file": "FINPIPE.ico",
+      "source": "site-icon",
+      "domain": "finolexpipes.com"
+    },
+    "FIVESTAR": {
+      "file": "FIVESTAR.png",
+      "source": "site-icon",
+      "domain": "fivestargroup.in"
+    },
+    "FISCHER": {
+      "file": "FISCHER.png",
+      "source": "site-icon",
+      "domain": "fischermv.com"
+    },
+    "FLAIR": {
+      "file": "FLAIR.ico",
+      "source": "site-icon",
+      "domain": "flairworld.in"
+    },
+    "FSL": {
+      "file": "FSL.png",
+      "source": "site-icon",
+      "domain": "firstsource.com"
+    },
+    "FINCABLES": {
+      "file": "FINCABLES.png",
+      "source": "google-favicon",
+      "domain": "finolex.com"
+    },
+    "FORCEMOT": {
+      "file": "FORCEMOT.png",
+      "source": "site-icon",
+      "domain": "forcemotors.com"
+    },
+    "FCL": {
+      "file": "FCL.png",
+      "source": "site-icon",
+      "domain": "fineotex.com"
+    },
+    "FREDUN": {
+      "file": "FREDUN.png",
+      "source": "google-favicon",
+      "domain": "fredungroup.com"
+    },
+    "FRACTAL": {
+      "file": "FRACTAL.png",
+      "source": "google-favicon",
+      "domain": "fractal.ai"
+    },
+    "NYKAA": {
+      "file": "NYKAA.png",
+      "source": "site-icon",
+      "domain": "nykaa.com"
+    },
+    "FUSION": {
+      "file": "FUSION.png",
+      "source": "site-icon",
+      "domain": "fusionfin.com"
+    },
+    "UTLSOLAR": {
+      "file": "UTLSOLAR.png",
+      "source": "site-icon",
+      "domain": "utlsolarfujiyama.com"
+    },
+    "GMDCLTD": {
+      "file": "GMDCLTD.png",
+      "source": "site-icon",
+      "domain": "gmdcltd.com"
+    },
+    "GNFC": {
+      "file": "GNFC.png",
+      "source": "site-icon",
+      "domain": "gnfc.in"
+    },
+    "GABRIEL": {
+      "file": "GABRIEL.png",
+      "source": "apple-touch",
+      "domain": "anandgroupindia.com"
+    },
+    "GSFC": {
+      "file": "GSFC.ico",
+      "source": "site-icon",
+      "domain": "gsfclimited.com"
+    },
+    "GRINFRA": {
+      "file": "GRINFRA.png",
+      "source": "site-icon",
+      "domain": "grinfra.com"
+    },
+    "GALAPREC": {
+      "file": "GALAPREC.png",
+      "source": "site-icon",
+      "domain": "galagroup.com"
+    },
+    "GALAXYSURF": {
+      "file": "GALAXYSURF.ico",
+      "source": "site-icon",
+      "domain": "galaxysurfactants.com"
+    },
+    "GANESHHOU": {
+      "file": "GANESHHOU.png",
+      "source": "site-icon",
+      "domain": "ganeshhousing.com"
+    },
+    "GAJA": {
+      "file": "GAJA.png",
+      "source": "google-favicon",
+      "domain": "gajacapital.com"
+    },
+    "GANDHITUBE": {
+      "file": "GANDHITUBE.png",
+      "source": "site-icon",
+      "domain": "gandhispecialtubes.com"
+    },
+    "GRSE": {
+      "file": "GRSE.png",
+      "source": "site-icon",
+      "domain": "grse.in"
+    },
+    "GARFIBRES": {
+      "file": "GARFIBRES.png",
+      "source": "google-favicon",
+      "domain": "garwarefibres.com"
+    },
+    "GRWRHITECH": {
+      "file": "GRWRHITECH.png",
+      "source": "site-icon",
+      "domain": "garwarehitechfilms.com"
+    },
+    "GVPIL": {
+      "file": "GVPIL.ico",
+      "source": "site-icon",
+      "domain": "gevernova.com"
+    },
+    "GATEWAY": {
+      "file": "GATEWAY.ico",
+      "source": "site-icon",
+      "domain": "gatewaydistriparks.com"
+    },
+    "GVT&D": {
+      "file": "GVT&D.ico",
+      "source": "site-icon",
+      "domain": "gevernova.com"
+    },
+    "GANDHAR": {
+      "file": "GANDHAR.png",
+      "source": "site-icon",
+      "domain": "gandharoil.com"
+    },
+    "GESHIP": {
+      "file": "GESHIP.jpg",
+      "source": "site-icon",
+      "domain": "greatship.com"
+    },
+    "GANECOS": {
+      "file": "GANECOS.png",
+      "source": "google-favicon",
+      "domain": "ganeshaecosphere.com"
+    },
+    "GEOJITFSL": {
+      "file": "GEOJITFSL.ico",
+      "source": "site-icon",
+      "domain": "geojit.com"
+    },
+    "GENESYS": {
+      "file": "GENESYS.webp",
+      "source": "site-icon",
+      "domain": "igenesys.com"
+    },
+    "GHCL": {
+      "file": "GHCL.png",
+      "source": "google-favicon",
+      "domain": "ghcl.co.in"
+    },
+    "FUSIONCX": {
+      "file": "FUSIONCX.png",
+      "source": "site-icon",
+      "domain": "fusioncx.com"
+    },
+    "GENUSPOWER": {
+      "file": "GENUSPOWER.webp",
+      "source": "site-icon",
+      "domain": "genuspower.com"
+    },
+    "GILLETTE": {
+      "file": "GILLETTE.ico",
+      "source": "site-icon",
+      "domain": "gillette.co.in"
+    },
+    "GHCLTEXTIL": {
+      "file": "GHCLTEXTIL.png",
+      "source": "apple-touch",
+      "domain": "ghcltextiles.co.in"
+    },
+    "GLAND": {
+      "file": "GLAND.jpg",
+      "source": "site-icon",
+      "domain": "glandpharma.com"
+    },
+    "GLENMARK": {
+      "file": "GLENMARK.jpg",
+      "source": "site-icon",
+      "domain": "glenmarkpharma.com"
+    },
+    "GLAXO": {
+      "file": "GLAXO.png",
+      "source": "apple-touch",
+      "domain": "gsk-india.com"
+    },
+    "GKWLIMITED": {
+      "file": "GKWLIMITED.png",
+      "source": "site-icon",
+      "domain": "gkwltd.com"
+    },
+    "GLOBUSSPR": {
+      "file": "GLOBUSSPR.jpg",
+      "source": "site-icon",
+      "domain": "globusspirits.com"
+    },
+    "GMRAIRPORT": {
+      "file": "GMRAIRPORT.ico",
+      "source": "site-icon",
+      "domain": "gmraero.com"
+    },
+    "MEDANTA": {
+      "file": "MEDANTA.ico",
+      "source": "site-icon",
+      "domain": "medanta.org"
+    },
+    "GKENERGY": {
+      "file": "GKENERGY.webp",
+      "source": "site-icon",
+      "domain": "gkenergy.in"
+    },
+    "GLASSWALL": {
+      "file": "GLASSWALL.png",
+      "source": "site-icon",
+      "domain": "glasswallsystems.in"
+    },
+    "EBGNG": {
+      "file": "EBGNG.png",
+      "source": "google-favicon",
+      "domain": "electronicsbazaar.com"
+    },
+    "GMRP&UI": {
+      "file": "GMRP&UI.ico",
+      "source": "site-icon",
+      "domain": "gmrpui.com"
+    },
+    "GODIGIT": {
+      "file": "GODIGIT.png",
+      "source": "apple-touch",
+      "domain": "godigit.com"
+    },
+    "GICRE": {
+      "file": "GICRE.ico",
+      "source": "site-icon",
+      "domain": "gicre.in"
+    },
+    "GOCLCORP": {
+      "file": "GOCLCORP.jpg",
+      "source": "site-icon",
+      "domain": "goclcorp.com"
+    },
+    "GODREJAGRO": {
+      "file": "GODREJAGRO.png",
+      "source": "site-icon",
+      "domain": "godrejagrovet.com"
+    },
+    "GODAVARIB": {
+      "file": "GODAVARIB.ico",
+      "source": "site-icon",
+      "domain": "godavaribiorefineries.com"
+    },
+    "GODREJCP": {
+      "file": "GODREJCP.png",
+      "source": "site-icon",
+      "domain": "godrejcp.com"
+    },
+    "GNA": {
+      "file": "GNA.png",
+      "source": "site-icon",
+      "domain": "gnaaxles.in"
+    },
+    "GMMPFAUDLR": {
+      "file": "GMMPFAUDLR.png",
+      "source": "site-icon",
+      "domain": "gmmpfaudler.com"
+    },
+    "GODREJPROP": {
+      "file": "GODREJPROP.png",
+      "source": "site-icon",
+      "domain": "godrejproperties.com"
+    },
+    "GODREJIND": {
+      "file": "GODREJIND.png",
+      "source": "site-icon",
+      "domain": "godrejindustries.com"
+    },
+    "GOCOLORS": {
+      "file": "GOCOLORS.png",
+      "source": "site-icon",
+      "domain": "gocolors.com"
+    },
+    "GOKEX": {
+      "file": "GOKEX.png",
+      "source": "site-icon",
+      "domain": "gokaldasexports.com"
+    },
+    "GOLDIAM": {
+      "file": "GOLDIAM.ico",
+      "source": "site-icon",
+      "domain": "goldiam.com"
+    },
+    "GPTHEALTH": {
+      "file": "GPTHEALTH.ico",
+      "source": "site-icon",
+      "domain": "ilshospitals.com"
+    },
+    "GOODYEAR": {
+      "file": "GOODYEAR.png",
+      "source": "site-icon",
+      "domain": "goodyear.co.in"
+    },
+    "GOPAL": {
+      "file": "GOPAL.png",
+      "source": "site-icon",
+      "domain": "gopalnamkeen.com"
+    },
+    "GRANULES": {
+      "file": "GRANULES.png",
+      "source": "site-icon",
+      "domain": "granulesindia.com"
+    },
+    "GPTINFRA": {
+      "file": "GPTINFRA.ico",
+      "source": "site-icon",
+      "domain": "gptinfra.in"
+    },
+    "GOODLUCK": {
+      "file": "GOODLUCK.jpg",
+      "source": "site-icon",
+      "domain": "goodluckindia.com"
+    },
+    "GRAUWEIL": {
+      "file": "GRAUWEIL.png",
+      "source": "site-icon",
+      "domain": "growel.com"
+    },
+    "GREAVESCOT": {
+      "file": "GREAVESCOT.png",
+      "source": "site-icon",
+      "domain": "greavescotton.com"
+    },
+    "GREENPANEL": {
+      "file": "GREENPANEL.png",
+      "source": "site-icon",
+      "domain": "greenpanel.com"
+    },
+    "GREENPLY": {
+      "file": "GREENPLY.ico",
+      "source": "site-icon",
+      "domain": "greenply.com"
+    },
+    "GCSL": {
+      "file": "GCSL.png",
+      "source": "site-icon",
+      "domain": "gretexcorporate.com"
+    },
+    "GRINDWELL": {
+      "file": "GRINDWELL.png",
+      "source": "google-favicon",
+      "domain": "grindwellnorton.co.in"
+    },
+    "GRMOVER": {
+      "file": "GRMOVER.png",
+      "source": "site-icon",
+      "domain": "grmrice.com"
+    },
+    "GRPLTD": {
+      "file": "GRPLTD.ico",
+      "source": "site-icon",
+      "domain": "grpweb.com"
+    },
+    "GSPLTRANS": {
+      "file": "GSPLTRANS.png",
+      "source": "apple-touch",
+      "domain": "gspltrans.com"
+    },
+    "GREENLAM": {
+      "file": "GREENLAM.jpg",
+      "source": "site-icon",
+      "domain": "greenlamindustries.com"
+    },
+    "GTLINFRA": {
+      "file": "GTLINFRA.png",
+      "source": "site-icon",
+      "domain": "gtlinfra.com"
+    },
+    "GIPCL": {
+      "file": "GIPCL.png",
+      "source": "site-icon",
+      "domain": "gipcl.com"
+    },
+    "GPPL": {
+      "file": "GPPL.png",
+      "source": "apple-touch",
+      "domain": "pipavav.com"
+    },
+    "GAEL": {
+      "file": "GAEL.png",
+      "source": "google-favicon",
+      "domain": "ambujagroup.com"
+    },
+    "GSPCROP": {
+      "file": "GSPCROP.png",
+      "source": "site-icon",
+      "domain": "gspcrop.in"
+    },
+    "GUJTHEM": {
+      "file": "GUJTHEM.png",
+      "source": "site-icon",
+      "domain": "gtbl.in"
+    },
+    "FLUOROCHEM": {
+      "file": "FLUOROCHEM.png",
+      "source": "site-icon",
+      "domain": "gfl.co.in"
+    },
+    "GUJENERGY": {
+      "file": "GUJENERGY.ico",
+      "source": "site-icon",
+      "domain": "gujaratgas.com"
+    },
+    "GKSL": {
+      "file": "GKSL.png",
+      "source": "site-icon",
+      "domain": "gujaratsuperspecialityhospital.com"
+    },
+    "GYFTR": {
+      "file": "GYFTR.png",
+      "source": "site-icon",
+      "domain": "lkpfinance.com"
+    },
+    "GUJALKALI": {
+      "file": "GUJALKALI.png",
+      "source": "site-icon",
+      "domain": "gacl.com"
+    },
+    "GUFICBIO": {
+      "file": "GUFICBIO.png",
+      "source": "site-icon",
+      "domain": "gufic.com"
+    },
+    "HUDCO": {
+      "file": "HUDCO.jpg",
+      "source": "site-icon",
+      "domain": "hudco.org.in"
+    },
+    "HAPPSTMNDS": {
+      "file": "HAPPSTMNDS.png",
+      "source": "site-icon",
+      "domain": "happiestminds.com"
+    },
+    "HINDPETRO": {
+      "file": "HINDPETRO.ico",
+      "source": "site-icon",
+      "domain": "hindustanpetroleum.com"
+    },
+    "GULFOILLUB": {
+      "file": "GULFOILLUB.png",
+      "source": "site-icon",
+      "domain": "gulfoilindia.com"
+    },
+    "HARSHA": {
+      "file": "HARSHA.png",
+      "source": "site-icon",
+      "domain": "harshaengineers.com"
+    },
+    "HGINFRA": {
+      "file": "HGINFRA.webp",
+      "source": "site-icon",
+      "domain": "hginfra.com"
+    },
+    "HBLENGINE": {
+      "file": "HBLENGINE.ico",
+      "source": "site-icon",
+      "domain": "hbl.in"
+    },
+    "HARIOMPIPE": {
+      "file": "HARIOMPIPE.jpg",
+      "source": "google-favicon",
+      "domain": "hariompipes.com"
+    },
+    "HDFIRE": {
+      "file": "HDFIRE.png",
+      "source": "google-favicon",
+      "domain": "hdfire.com"
+    },
+    "HDFCAMC": {
+      "file": "HDFCAMC.png",
+      "source": "site-icon",
+      "domain": "hdfcfund.com"
+    },
+    "HDFCBANK": {
+      "file": "HDFCBANK.ico",
+      "source": "site-icon",
+      "domain": "hdfcbank.com"
+    },
+    "HDBFS": {
+      "file": "HDBFS.ico",
+      "source": "site-icon",
+      "domain": "hdbfs.com"
+    },
+    "HDFCLIFE": {
+      "file": "HDFCLIFE.png",
+      "source": "site-icon",
+      "domain": "hdfclife.com"
+    },
+    "HCLTECH": {
+      "file": "HCLTECH.jpg",
+      "source": "apple-touch",
+      "domain": "hcltech.com"
+    },
+    "HEGAM": {
+      "file": "HEGAM.jpg",
+      "source": "google-favicon",
+      "domain": "hegltd.com"
+    },
+    "HCG": {
+      "file": "HCG.png",
+      "source": "site-icon",
+      "domain": "hcgoncology.com"
+    },
+    "HEMIPROP": {
+      "file": "HEMIPROP.png",
+      "source": "site-icon",
+      "domain": "hpil.co.in"
+    },
+    "HEROMOTOCO": {
+      "file": "HEROMOTOCO.ico",
+      "source": "site-icon",
+      "domain": "heromotocorp.com"
+    },
+    "HESTERBIO": {
+      "file": "HESTERBIO.png",
+      "source": "site-icon",
+      "domain": "hester.in"
+    },
+    "HEXT": {
+      "file": "HEXT.png",
+      "source": "site-icon",
+      "domain": "hexaware.com"
+    },
+    "HFCL": {
+      "file": "HFCL.jpg",
+      "source": "site-icon",
+      "domain": "hfcl.com"
+    },
+    "HEROMOTORS": {
+      "file": "HEROMOTORS.ico",
+      "source": "site-icon",
+      "domain": "heromotors.com"
+    },
+    "HITECH": {
+      "file": "HITECH.png",
+      "source": "site-icon",
+      "domain": "hitechpipes.in"
+    },
+    "HSCL": {
+      "file": "HSCL.png",
+      "source": "google-favicon",
+      "domain": "himadri.com"
+    },
+    "HERITGFOOD": {
+      "file": "HERITGFOOD.ico",
+      "source": "site-icon",
+      "domain": "heritagefoods.in"
+    },
+    "HAL": {
+      "file": "HAL.png",
+      "source": "site-icon",
+      "domain": "hal-india.co.in"
+    },
+    "HCC": {
+      "file": "HCC.ico",
+      "source": "site-icon",
+      "domain": "hccindia.com"
+    },
+    "HINDALCO": {
+      "file": "HINDALCO.ico",
+      "source": "site-icon",
+      "domain": "hindalco.com"
+    },
+    "HGS": {
+      "file": "HGS.png",
+      "source": "google-favicon",
+      "domain": "hgs.cx"
+    },
+    "HINDCOPPER": {
+      "file": "HINDCOPPER.ico",
+      "source": "site-icon",
+      "domain": "hindustancopper.com"
+    },
+    "HINDUNILVR": {
+      "file": "HINDUNILVR.png",
+      "source": "apple-touch",
+      "domain": "hul.co.in"
+    },
+    "HINDOILEXP": {
+      "file": "HINDOILEXP.png",
+      "source": "site-icon",
+      "domain": "hoec.com"
+    },
+    "HNDFDS": {
+      "file": "HNDFDS.ico",
+      "source": "site-icon",
+      "domain": "hindustanfoodslimited.com"
+    },
+    "HINDZINC": {
+      "file": "HINDZINC.png",
+      "source": "google-favicon",
+      "domain": "hzlindia.com"
+    },
+    "POWERINDIA": {
+      "file": "POWERINDIA.png",
+      "source": "apple-touch",
+      "domain": "hitachienergy.com"
+    },
+    "HMAAGRO": {
+      "file": "HMAAGRO.webp",
+      "source": "site-icon",
+      "domain": "hmagroup.co"
+    },
+    "HOMEFIRST": {
+      "file": "HOMEFIRST.png",
+      "source": "site-icon",
+      "domain": "homefirstindia.com"
+    },
+    "HONASA": {
+      "file": "HONASA.png",
+      "source": "site-icon",
+      "domain": "honasa.in"
+    },
+    "HONDAPOWER": {
+      "file": "HONDAPOWER.ico",
+      "source": "site-icon",
+      "domain": "hondaindiapower.com"
+    },
+    "HMT": {
+      "file": "HMT.gif",
+      "source": "site-icon",
+      "domain": "hmtindia.com"
+    },
+    "HLEGLAS": {
+      "file": "HLEGLAS.png",
+      "source": "site-icon",
+      "domain": "hleglascoat.com"
+    },
+    "HIRECT": {
+      "file": "HIRECT.png",
+      "source": "site-icon",
+      "domain": "hirect.com"
+    },
+    "HUBTOWN": {
+      "file": "HUBTOWN.png",
+      "source": "apple-touch",
+      "domain": "hubtown.co.in"
+    },
+    "HORIZONIND": {
+      "file": "HORIZONIND.ico",
+      "source": "site-icon",
+      "domain": "hiparks.com"
+    },
+    "HPL": {
+      "file": "HPL.png",
+      "source": "site-icon",
+      "domain": "hplindia.com"
+    },
+    "HIKAL": {
+      "file": "HIKAL.png",
+      "source": "site-icon",
+      "domain": "hikal.com"
+    },
+    "HAVELLS": {
+      "file": "HAVELLS.png",
+      "source": "google-favicon",
+      "domain": "havells.com"
+    },
+    "IGPL": {
+      "file": "IGPL.png",
+      "source": "site-icon",
+      "domain": "igpetro.com"
+    },
+    "IOB": {
+      "file": "IOB.png",
+      "source": "google-favicon",
+      "domain": "iob.in"
+    },
+    "IRCTC": {
+      "file": "IRCTC.png",
+      "source": "site-icon",
+      "domain": "irctc.com"
+    },
+    "IOC": {
+      "file": "IOC.png",
+      "source": "google-favicon",
+      "domain": "iocl.com"
+    },
+    "ICICIBANK": {
+      "file": "ICICIBANK.ico",
+      "source": "site-icon",
+      "domain": "icici.bank.in"
+    },
+    "HYUNDAI": {
+      "file": "HYUNDAI.ico",
+      "source": "site-icon",
+      "domain": "hyundai.co.in"
+    },
+    "ICICILIFE": {
+      "file": "ICICILIFE.ico",
+      "source": "site-icon",
+      "domain": "iciciprulife.com"
+    },
+    "ICICIGI": {
+      "file": "ICICIGI.png",
+      "source": "site-icon",
+      "domain": "icicilombard.com"
+    },
+    "IDBI": {
+      "file": "IDBI.ico",
+      "source": "site-icon",
+      "domain": "idbi.bank.in"
+    },
+    "IDFCFIRSTB": {
+      "file": "IDFCFIRSTB.ico",
+      "source": "site-icon",
+      "domain": "idfcfirst.bank.in"
+    },
+    "ICEMAKE": {
+      "file": "ICEMAKE.ico",
+      "source": "site-icon",
+      "domain": "icemakeindia.com"
+    },
+    "IFBIND": {
+      "file": "IFBIND.ico",
+      "source": "site-icon",
+      "domain": "ifbindustries.com"
+    },
+    "ITDC": {
+      "file": "ITDC.png",
+      "source": "site-icon",
+      "domain": "itdc.co.in"
+    },
+    "IFCI": {
+      "file": "IFCI.png",
+      "source": "apple-touch",
+      "domain": "ifciltd.com"
+    },
+    "ICRA": {
+      "file": "ICRA.png",
+      "source": "site-icon",
+      "domain": "icra.in"
+    },
+    "IGLSPIRITS": {
+      "file": "IGLSPIRITS.png",
+      "source": "site-icon",
+      "domain": "iglspirits.com"
+    },
+    "IIFL": {
+      "file": "IIFL.ico",
+      "source": "site-icon",
+      "domain": "iifl.com"
+    },
+    "IIFLCAPS": {
+      "file": "IIFLCAPS.png",
+      "source": "site-icon",
+      "domain": "iiflcapital.com"
+    },
+    "IKIO": {
+      "file": "IKIO.png",
+      "source": "site-icon",
+      "domain": "ikio.in"
+    },
+    "IMAGICAA": {
+      "file": "IMAGICAA.png",
+      "source": "site-icon",
+      "domain": "imagicaaworld.com"
+    },
+    "IFGLEXPOR": {
+      "file": "IFGLEXPOR.ico",
+      "source": "site-icon",
+      "domain": "ifglref.com"
+    },
+    "INDIACEM": {
+      "file": "INDIACEM.png",
+      "source": "site-icon",
+      "domain": "indiacements.co.in"
+    },
+    "INDGN": {
+      "file": "INDGN.png",
+      "source": "site-icon",
+      "domain": "indegene.com"
+    },
+    "INDNIPPON": {
+      "file": "INDNIPPON.png",
+      "source": "site-icon",
+      "domain": "indianippon.com"
+    },
+    "INDSWFTLAB": {
+      "file": "INDSWFTLAB.webp",
+      "source": "site-icon",
+      "domain": "indswiftlabs.com"
+    },
+    "IPL": {
+      "file": "IPL.png",
+      "source": "site-icon",
+      "domain": "indiapesticideslimited.com"
+    },
+    "IGARASHI": {
+      "file": "IGARASHI.ico",
+      "source": "site-icon",
+      "domain": "igarashimotors.com"
+    },
+    "IBULLSLTD": {
+      "file": "IBULLSLTD.png",
+      "source": "google-favicon",
+      "domain": "indiabulls.com"
+    },
+    "INDIAMART": {
+      "file": "INDIAMART.png",
+      "source": "site-icon",
+      "domain": "indiamart.com"
+    },
+    "INDIAGLYCO": {
+      "file": "INDIAGLYCO.png",
+      "source": "site-icon",
+      "domain": "indiaglycols.com"
+    },
+    "IEX": {
+      "file": "IEX.png",
+      "source": "google-favicon",
+      "domain": "iexindia.com"
+    },
+    "INDIANHUME": {
+      "file": "INDIANHUME.png",
+      "source": "site-icon",
+      "domain": "indianhumepipe.com"
+    },
+    "IMFA": {
+      "file": "IMFA.ico",
+      "source": "site-icon",
+      "domain": "imfa.in"
+    },
+    "INDIGRID": {
+      "file": "INDIGRID.png",
+      "source": "site-icon",
+      "domain": "indigrid.co.in"
+    },
+    "INDIGOPNTS": {
+      "file": "INDIGOPNTS.png",
+      "source": "site-icon",
+      "domain": "indigopaints.com"
+    },
+    "INDOBORAX": {
+      "file": "INDOBORAX.jpg",
+      "source": "site-icon",
+      "domain": "indoborax.com"
+    },
+    "INDOMIM": {
+      "file": "INDOMIM.png",
+      "source": "google-favicon",
+      "domain": "indo-mim.com"
+    },
+    "INDOKEM": {
+      "file": "INDOKEM.png",
+      "source": "google-favicon",
+      "domain": "indokem.co.in"
+    },
+    "INDRAMEDCO": {
+      "file": "INDRAMEDCO.png",
+      "source": "google-favicon",
+      "domain": "apollohospitals.com"
+    },
+    "INDOSTAR": {
+      "file": "INDOSTAR.png",
+      "source": "site-icon",
+      "domain": "indostarcapital.com"
+    },
+    "IGL": {
+      "file": "IGL.png",
+      "source": "google-favicon",
+      "domain": "iglonline.net"
+    },
+    "INDUSTOWER": {
+      "file": "INDUSTOWER.png",
+      "source": "site-icon",
+      "domain": "industowers.com"
+    },
+    "INDOTECH": {
+      "file": "INDOTECH.png",
+      "source": "site-icon",
+      "domain": "indo-tech.com"
+    },
+    "INDUSINDBK": {
+      "file": "INDUSINDBK.png",
+      "source": "site-icon",
+      "domain": "indusind.com"
+    },
+    "INFY": {
+      "file": "INFY.png",
+      "source": "apple-touch",
+      "domain": "infosys.com"
+    },
+    "INGERRAND": {
+      "file": "INGERRAND.jpg",
+      "source": "google-favicon",
+      "domain": "irco.com"
+    },
+    "INNOVACAP": {
+      "file": "INNOVACAP.png",
+      "source": "site-icon",
+      "domain": "innovacaptab.com"
+    },
+    "INOXGREEN": {
+      "file": "INOXGREEN.png",
+      "source": "site-icon",
+      "domain": "inoxgreen.com"
+    },
+    "INOXINDIA": {
+      "file": "INOXINDIA.png",
+      "source": "google-favicon",
+      "domain": "inoxcva.com"
+    },
+    "INOXWIND": {
+      "file": "INOXWIND.jpg",
+      "source": "site-icon",
+      "domain": "inoxwind.com"
+    },
+    "INSECTICID": {
+      "file": "INSECTICID.png",
+      "source": "site-icon",
+      "domain": "insecticidesindia.com"
+    },
+    "INA": {
+      "file": "INA.ico",
+      "source": "site-icon",
+      "domain": "insolationenergy.in"
+    },
+    "INFOBEAN": {
+      "file": "INFOBEAN.png",
+      "source": "site-icon",
+      "domain": "infobeans.com"
+    },
+    "INDIGO": {
+      "file": "INDIGO.jpg",
+      "source": "site-icon",
+      "domain": "goindigo.in"
+    },
+    "IGIL": {
+      "file": "IGIL.png",
+      "source": "google-favicon",
+      "domain": "igi.org"
+    },
+    "INTERARCH": {
+      "file": "INTERARCH.ico",
+      "source": "site-icon",
+      "domain": "interarchbuildings.com"
+    },
+    "IKS": {
+      "file": "IKS.webp",
+      "source": "site-icon",
+      "domain": "ikshealth.com"
+    },
+    "INVPRECQ": {
+      "file": "INVPRECQ.png",
+      "source": "site-icon",
+      "domain": "ipcl.in"
+    },
+    "IONEXCHANG": {
+      "file": "IONEXCHANG.png",
+      "source": "google-favicon",
+      "domain": "ionindia.com"
+    },
+    "IPCALAB": {
+      "file": "IPCALAB.ico",
+      "source": "site-icon",
+      "domain": "ipca.com"
+    },
+    "IRB": {
+      "file": "IRB.jpg",
+      "source": "site-icon",
+      "domain": "irb.co.in"
+    },
+    "ITC": {
+      "file": "ITC.png",
+      "source": "site-icon",
+      "domain": "itcportal.com"
+    },
+    "ITCHOTELS": {
+      "file": "ITCHOTELS.png",
+      "source": "apple-touch",
+      "domain": "itchotels.com"
+    },
+    "ITI": {
+      "file": "ITI.ico",
+      "source": "site-icon",
+      "domain": "itiltd.in"
+    },
+    "ISGEC": {
+      "file": "ISGEC.ico",
+      "source": "site-icon",
+      "domain": "isgec.com"
+    },
+    "IVALUE": {
+      "file": "IVALUE.jpg",
+      "source": "google-favicon",
+      "domain": "ivaluegroup.com"
+    },
+    "IRMENERGY": {
+      "file": "IRMENERGY.png",
+      "source": "site-icon",
+      "domain": "irmenergy.com"
+    },
+    "INDIQUBE": {
+      "file": "INDIQUBE.png",
+      "source": "google-favicon",
+      "domain": "indiqube.com"
+    },
+    "JKIL": {
+      "file": "JKIL.ico",
+      "source": "site-icon",
+      "domain": "jkumar.com"
+    },
+    "JKCEMENT": {
+      "file": "JKCEMENT.png",
+      "source": "site-icon",
+      "domain": "jkcement.com"
+    },
+    "J&KBANK": {
+      "file": "J&KBANK.ico",
+      "source": "site-icon",
+      "domain": "jkb.bank.in"
+    },
+    "JAGSNPHARM": {
+      "file": "JAGSNPHARM.webp",
+      "source": "site-icon",
+      "domain": "jagsonpal.com"
+    },
+    "JAIBALAJI": {
+      "file": "JAIBALAJI.png",
+      "source": "site-icon",
+      "domain": "jaibalajigroup.com"
+    },
+    "JAMNAAUTO": {
+      "file": "JAMNAAUTO.png",
+      "source": "site-icon",
+      "domain": "jaispring.com"
+    },
+    "JAINREC": {
+      "file": "JAINREC.png",
+      "source": "site-icon",
+      "domain": "jainmetalgroup.com"
+    },
+    "JISLJALEQS": {
+      "file": "JISLJALEQS.png",
+      "source": "apple-touch",
+      "domain": "jains.com"
+    },
+    "JASH": {
+      "file": "JASH.png",
+      "source": "site-icon",
+      "domain": "jashindia.com"
+    },
+    "JSFB": {
+      "file": "JSFB.png",
+      "source": "site-icon",
+      "domain": "jana.bank.in"
+    },
+    "JAYNECOIND": {
+      "file": "JAYNECOIND.ico",
+      "source": "site-icon",
+      "domain": "necoindia.com"
+    },
+    "JBMA": {
+      "file": "JBMA.png",
+      "source": "apple-touch",
+      "domain": "jbmgroup.com"
+    },
+    "JAYBARMARU": {
+      "file": "JAYBARMARU.png",
+      "source": "apple-touch",
+      "domain": "jbmgroup.com"
+    },
+    "JINDRILL": {
+      "file": "JINDRILL.png",
+      "source": "google-favicon",
+      "domain": "jindal.com"
+    },
+    "JSLL": {
+      "file": "JSLL.png",
+      "source": "site-icon",
+      "domain": "jeenasikho.com"
+    },
+    "JINDALPOLY": {
+      "file": "JINDALPOLY.ico",
+      "source": "site-icon",
+      "domain": "jindalpoly.com"
+    },
+    "JINDALSAW": {
+      "file": "JINDALSAW.jpg",
+      "source": "site-icon",
+      "domain": "jindalsaw.com"
+    },
+    "IRCON": {
+      "file": "IRCON.ico",
+      "source": "site-icon",
+      "domain": "ircon.org"
+    },
+    "JIOFIN": {
+      "file": "JIOFIN.png",
+      "source": "google-favicon",
+      "domain": "jfs.in"
+    },
+    "JAYKAY": {
+      "file": "JAYKAY.png",
+      "source": "site-icon",
+      "domain": "jaykayenterprises.com"
+    },
+    "JINDWORLD": {
+      "file": "JINDWORLD.png",
+      "source": "site-icon",
+      "domain": "jindaltextiles.com"
+    },
+    "JPL": {
+      "file": "JPL.ico",
+      "source": "site-icon",
+      "domain": "jio.com"
+    },
+    "JKTYRE": {
+      "file": "JKTYRE.png",
+      "source": "site-icon",
+      "domain": "jktyre.com"
+    },
+    "JNKINDIA": {
+      "file": "JNKINDIA.ico",
+      "source": "site-icon",
+      "domain": "jnkindia.com"
+    },
+    "JINDALSTEL": {
+      "file": "JINDALSTEL.ico",
+      "source": "site-icon",
+      "domain": "jindalsteelpower.com"
+    },
+    "JKLAKSHMI": {
+      "file": "JKLAKSHMI.png",
+      "source": "site-icon",
+      "domain": "jklakshmicement.com"
+    },
+    "COCKERILL": {
+      "file": "COCKERILL.png",
+      "source": "site-icon",
+      "domain": "johncockerillindia.com"
+    },
+    "JPPOWER": {
+      "file": "JPPOWER.jpg",
+      "source": "site-icon",
+      "domain": "jppowerventures.com"
+    },
+    "JSWCEMENT": {
+      "file": "JSWCEMENT.png",
+      "source": "site-icon",
+      "domain": "jswcement.in"
+    },
+    "JSWDULUX": {
+      "file": "JSWDULUX.png",
+      "source": "site-icon",
+      "domain": "akzonobel.co.in"
+    },
+    "JSWHL": {
+      "file": "JSWHL.png",
+      "source": "apple-touch",
+      "domain": "jswholdings.in"
+    },
+    "JSWENERGY": {
+      "file": "JSWENERGY.png",
+      "source": "site-icon",
+      "domain": "jsw.in"
+    },
+    "JSWINFRA": {
+      "file": "JSWINFRA.png",
+      "source": "site-icon",
+      "domain": "jsw.in"
+    },
+    "JSWSTEEL": {
+      "file": "JSWSTEEL.png",
+      "source": "site-icon",
+      "domain": "jsw.in"
+    },
+    "JTEKTINDIA": {
+      "file": "JTEKTINDIA.png",
+      "source": "google-favicon",
+      "domain": "jtekt.co.in"
+    },
+    "JGCHEM": {
+      "file": "JGCHEM.png",
+      "source": "google-favicon",
+      "domain": "jgchem.com"
+    },
+    "JUBLINGREA": {
+      "file": "JUBLINGREA.ico",
+      "source": "site-icon",
+      "domain": "jubilantingrevia.com"
+    },
+    "JNPR": {
+      "file": "JNPR.png",
+      "source": "site-icon",
+      "domain": "junipergreenenergy.com"
+    },
+    "JUBLPHARMA": {
+      "file": "JUBLPHARMA.ico",
+      "source": "site-icon",
+      "domain": "jubilantpharmova.com"
+    },
+    "JTLIND": {
+      "file": "JTLIND.png",
+      "source": "site-icon",
+      "domain": "jtl.one"
+    },
+    "JLHL": {
+      "file": "JLHL.png",
+      "source": "site-icon",
+      "domain": "jupiterhospital.com"
+    },
+    "JUNIPER": {
+      "file": "JUNIPER.jpg",
+      "source": "site-icon",
+      "domain": "juniperhotels.com"
+    },
+    "JYOTICNC": {
+      "file": "JYOTICNC.png",
+      "source": "site-icon",
+      "domain": "jyoti.co.in"
+    },
+    "JYOTIRES": {
+      "file": "JYOTIRES.png",
+      "source": "site-icon",
+      "domain": "euro7000.com"
+    },
+    "JWL": {
+      "file": "JWL.png",
+      "source": "site-icon",
+      "domain": "jupiterwagons.com"
+    },
+    "KCP": {
+      "file": "KCP.jpg",
+      "source": "site-icon",
+      "domain": "kcp.co.in"
+    },
+    "KPEL": {
+      "file": "KPEL.png",
+      "source": "site-icon",
+      "domain": "kpenergy.in"
+    },
+    "JYOTISTRUC": {
+      "file": "JYOTISTRUC.png",
+      "source": "site-icon",
+      "domain": "jyotistructures.in"
+    },
+    "KPRMILL": {
+      "file": "KPRMILL.ico",
+      "source": "site-icon",
+      "domain": "kprmilllimited.com"
+    },
+    "KABRAEXTRU": {
+      "file": "KABRAEXTRU.png",
+      "source": "site-icon",
+      "domain": "kolsite.com"
+    },
+    "KPIL": {
+      "file": "KPIL.ico",
+      "source": "site-icon",
+      "domain": "kalpataruprojects.com"
+    },
+    "KALPATARU": {
+      "file": "KALPATARU.png",
+      "source": "site-icon",
+      "domain": "kalpataru.com"
+    },
+    "KALYANKJIL": {
+      "file": "KALYANKJIL.png",
+      "source": "site-icon",
+      "domain": "kalyanjewellers.net"
+    },
+    "KSL": {
+      "file": "KSL.ico",
+      "source": "site-icon",
+      "domain": "kalyanisteels.com"
+    },
+    "KAMDHENU": {
+      "file": "KAMDHENU.png",
+      "source": "google-favicon",
+      "domain": "kamdhenulimited.com"
+    },
+    "KANOHAR": {
+      "file": "KANOHAR.png",
+      "source": "site-icon",
+      "domain": "kanohar.com"
+    },
+    "KAJARIACER": {
+      "file": "KAJARIACER.png",
+      "source": "site-icon",
+      "domain": "kajariaceramics.com"
+    },
+    "KAPSTON": {
+      "file": "KAPSTON.png",
+      "source": "site-icon",
+      "domain": "kapstonservices.com"
+    },
+    "KARAMTARA": {
+      "file": "KARAMTARA.png",
+      "source": "site-icon",
+      "domain": "karamtara.com"
+    },
+    "KSCL": {
+      "file": "KSCL.png",
+      "source": "site-icon",
+      "domain": "kaveriseeds.in"
+    },
+    "KDDL": {
+      "file": "KDDL.png",
+      "source": "site-icon",
+      "domain": "kddl.com"
+    },
+    "KEI": {
+      "file": "KEI.ico",
+      "source": "site-icon",
+      "domain": "kei-ind.com"
+    },
+    "KENNAMET": {
+      "file": "KENNAMET.ico",
+      "source": "site-icon",
+      "domain": "kennametal.com"
+    },
+    "KAYNES": {
+      "file": "KAYNES.png",
+      "source": "site-icon",
+      "domain": "kaynestechnology.co.in"
+    },
+    "KKCL": {
+      "file": "KKCL.jpg",
+      "source": "site-icon",
+      "domain": "kewalkiran.com"
+    },
+    "RUSTOMJEE": {
+      "file": "RUSTOMJEE.png",
+      "source": "site-icon",
+      "domain": "rustomjee.com"
+    },
+    "KERNEX": {
+      "file": "KERNEX.png",
+      "source": "site-icon",
+      "domain": "kernex.in"
+    },
+    "KFINTECH": {
+      "file": "KFINTECH.png",
+      "source": "apple-touch",
+      "domain": "kfintech.com"
+    },
+    "KHAZANCHI": {
+      "file": "KHAZANCHI.png",
+      "source": "site-icon",
+      "domain": "khazanchi.co.in"
+    },
+    "KIOCL": {
+      "file": "KIOCL.png",
+      "source": "apple-touch",
+      "domain": "kioclltd.in"
+    },
+    "KLBRENG-B": {
+      "file": "KLBRENG-B.jpg",
+      "source": "site-icon",
+      "domain": "kilburnengg.com"
+    },
+    "KIRLFER": {
+      "file": "KIRLFER.png",
+      "source": "site-icon",
+      "domain": "kirloskarferrous.com"
+    },
+    "KIRLPNU": {
+      "file": "KIRLPNU.png",
+      "source": "site-icon",
+      "domain": "kirloskarpneumatic.com"
+    },
+    "KIRLOSIND": {
+      "file": "KIRLOSIND.png",
+      "source": "site-icon",
+      "domain": "kirloskarindustries.com"
+    },
+    "KMCSHIL": {
+      "file": "KMCSHIL.ico",
+      "source": "site-icon",
+      "domain": "kauveryhospital.com"
+    },
+    "KIRIINDUS": {
+      "file": "KIRIINDUS.png",
+      "source": "site-icon",
+      "domain": "kiriindustries.com"
+    },
+    "KNACK": {
+      "file": "KNACK.png",
+      "source": "site-icon",
+      "domain": "knackpackaging.com"
+    },
+    "KITEX": {
+      "file": "KITEX.png",
+      "source": "google-favicon",
+      "domain": "kitexgarments.com"
+    },
+    "KNRCON": {
+      "file": "KNRCON.png",
+      "source": "site-icon",
+      "domain": "knrcl.com"
+    },
+    "KOLTEPATIL": {
+      "file": "KOLTEPATIL.gif",
+      "source": "site-icon",
+      "domain": "koltepatil.com"
+    },
+    "KMEW": {
+      "file": "KMEW.png",
+      "source": "apple-touch",
+      "domain": "kmew.in"
+    },
+    "KOTIC": {
+      "file": "KOTIC.png",
+      "source": "site-icon",
+      "domain": "kotharis.in"
+    },
+    "KODYTECH": {
+      "file": "KODYTECH.png",
+      "source": "site-icon",
+      "domain": "kodytechnolab.com"
+    },
+    "KOVAI": {
+      "file": "KOVAI.png",
+      "source": "site-icon",
+      "domain": "kmchhospitals.com"
+    },
+    "KOTAKBANK": {
+      "file": "KOTAKBANK.ico",
+      "source": "site-icon",
+      "domain": "kotak.bank.in"
+    },
+    "KRBL": {
+      "file": "KRBL.png",
+      "source": "site-icon",
+      "domain": "krblrice.com"
+    },
+    "KPIGREEN": {
+      "file": "KPIGREEN.png",
+      "source": "site-icon",
+      "domain": "kpigreenenergy.com"
+    },
+    "KRISHANA": {
+      "file": "KRISHANA.png",
+      "source": "site-icon",
+      "domain": "krishnaphoschem.com"
+    },
+    "KRISHIVAL": {
+      "file": "KRISHIVAL.png",
+      "source": "site-icon",
+      "domain": "krishival.com"
+    },
+    "KRISHNADEF": {
+      "file": "KRISHNADEF.jpg",
+      "source": "site-icon",
+      "domain": "krishnaallied.com"
+    },
+    "KIMS": {
+      "file": "KIMS.png",
+      "source": "site-icon",
+      "domain": "kimshospitals.com"
+    },
+    "KROSS": {
+      "file": "KROSS.png",
+      "source": "site-icon",
+      "domain": "krosslimited.com"
+    },
+    "KRSNAA": {
+      "file": "KRSNAA.png",
+      "source": "site-icon",
+      "domain": "krsnaadiagnostics.com"
+    },
+    "KRN": {
+      "file": "KRN.png",
+      "source": "site-icon",
+      "domain": "krnheatexchanger.com"
+    },
+    "KSHINTL": {
+      "file": "KSHINTL.png",
+      "source": "site-icon",
+      "domain": "kshinternational.com"
+    },
+    "KOPRAN": {
+      "file": "KOPRAN.png",
+      "source": "site-icon",
+      "domain": "kopran.com"
+    },
+    "KPITTECH": {
+      "file": "KPITTECH.png",
+      "source": "site-icon",
+      "domain": "kpit.com"
+    },
+    "KUSUMGAR": {
+      "file": "KUSUMGAR.png",
+      "source": "site-icon",
+      "domain": "kusumgar.com"
+    },
+    "KPL": {
+      "file": "KPL.png",
+      "source": "site-icon",
+      "domain": "kwalitypharma.com"
+    },
+    "LTFOODS": {
+      "file": "LTFOODS.png",
+      "source": "google-favicon",
+      "domain": "ltgroup.in"
+    },
+    "LTF": {
+      "file": "LTF.png",
+      "source": "google-favicon",
+      "domain": "ltfinance.com"
+    },
+    "LAOPALA": {
+      "file": "LAOPALA.png",
+      "source": "site-icon",
+      "domain": "laopala.in"
+    },
+    "LALITHAA": {
+      "file": "LALITHAA.png",
+      "source": "apple-touch",
+      "domain": "lalithaajewellery.com"
+    },
+    "KSB": {
+      "file": "KSB.png",
+      "source": "apple-touch",
+      "domain": "ksbindia.co.in"
+    },
+    "KWIL": {
+      "file": "KWIL.png",
+      "source": "google-favicon",
+      "domain": "kwalitywallsindia.com"
+    },
+    "LT": {
+      "file": "LT.ico",
+      "source": "site-icon",
+      "domain": "larsentoubro.com"
+    },
+    "LASERPOWER": {
+      "file": "LASERPOWER.png",
+      "source": "site-icon",
+      "domain": "laserpowerinfra.com"
+    },
+    "LAURUSLABS": {
+      "file": "LAURUSLABS.ico",
+      "source": "site-icon",
+      "domain": "lauruslabs.com"
+    },
+    "LAXMIDENTL": {
+      "file": "LAXMIDENTL.png",
+      "source": "site-icon",
+      "domain": "laxmidentallimited.com"
+    },
+    "LXCHEM": {
+      "file": "LXCHEM.ico",
+      "source": "site-icon",
+      "domain": "laxmi.com"
+    },
+    "LTTS": {
+      "file": "LTTS.png",
+      "source": "google-favicon",
+      "domain": "ltts.com"
+    },
+    "IXIGO": {
+      "file": "IXIGO.png",
+      "source": "site-icon",
+      "domain": "ixigo.com"
+    },
+    "THELEELA": {
+      "file": "THELEELA.jpg",
+      "source": "google-favicon",
+      "domain": "theleela.com"
+    },
+    "LGBBROSLTD": {
+      "file": "LGBBROSLTD.png",
+      "source": "site-icon",
+      "domain": "lgb.co.in"
+    },
+    "LENSKART": {
+      "file": "LENSKART.png",
+      "source": "site-icon",
+      "domain": "lenskart.com"
+    },
+    "LGEINDIA": {
+      "file": "LGEINDIA.png",
+      "source": "apple-touch",
+      "domain": "lg.com"
+    },
+    "LICI": {
+      "file": "LICI.png",
+      "source": "site-icon",
+      "domain": "licindia.in"
+    },
+    "LICHSGFIN": {
+      "file": "LICHSGFIN.png",
+      "source": "apple-touch",
+      "domain": "lichousing.com"
+    },
+    "LEAPIND": {
+      "file": "LEAPIND.jpg",
+      "source": "site-icon",
+      "domain": "leapindia.net"
+    },
+    "LLOYDSENGG": {
+      "file": "LLOYDSENGG.png",
+      "source": "site-icon",
+      "domain": "lloydsengg.in"
+    },
+    "LATENTVIEW": {
+      "file": "LATENTVIEW.png",
+      "source": "google-favicon",
+      "domain": "latentview.com"
+    },
+    "LLOYDSME": {
+      "file": "LLOYDSME.png",
+      "source": "site-icon",
+      "domain": "lloyds.in"
+    },
+    "LODHA": {
+      "file": "LODHA.png",
+      "source": "site-icon",
+      "domain": "lodhagroup.in"
+    },
+    "LMW": {
+      "file": "LMW.ico",
+      "source": "site-icon",
+      "domain": "lmwglobal.com"
+    },
+    "LCL": {
+      "file": "LCL.png",
+      "source": "site-icon",
+      "domain": "lohiagroup.com"
+    },
+    "LLOYDSENT": {
+      "file": "LLOYDSENT.png",
+      "source": "site-icon",
+      "domain": "lloydsenterprises.in"
+    },
+    "LUMAXTECH": {
+      "file": "LUMAXTECH.png",
+      "source": "site-icon",
+      "domain": "lumaxautotech.com"
+    },
+    "LUMAXIND": {
+      "file": "LUMAXIND.png",
+      "source": "site-icon",
+      "domain": "lumaxworld.in"
+    },
+    "LTM": {
+      "file": "LTM.png",
+      "source": "site-icon",
+      "domain": "ltimindtree.com"
+    },
+    "LUPIN": {
+      "file": "LUPIN.ico",
+      "source": "site-icon",
+      "domain": "lupin.com"
+    },
+    "LUMINO": {
+      "file": "LUMINO.jpg",
+      "source": "site-icon",
+      "domain": "luminoindustries.com"
+    },
+    "MBEL": {
+      "file": "MBEL.png",
+      "source": "site-icon",
+      "domain": "mbel.in"
+    },
+    "M&MFIN": {
+      "file": "M&MFIN.png",
+      "source": "google-favicon",
+      "domain": "mahindrafinance.com"
+    },
+    "MBAPL": {
+      "file": "MBAPL.png",
+      "source": "site-icon",
+      "domain": "mbapl.com"
+    },
+    "MMFL": {
+      "file": "MMFL.png",
+      "source": "site-icon",
+      "domain": "mmforgings.com"
+    },
+    "MCLOUD": {
+      "file": "MCLOUD.png",
+      "source": "site-icon",
+      "domain": "magellanic-cloud.com"
+    },
+    "MACPOWER": {
+      "file": "MACPOWER.png",
+      "source": "site-icon",
+      "domain": "macpowercnc.com"
+    },
+    "MAHSEAMLES": {
+      "file": "MAHSEAMLES.png",
+      "source": "google-favicon",
+      "domain": "jindal.com"
+    },
+    "MAHASTEEL": {
+      "file": "MAHASTEEL.png",
+      "source": "site-icon",
+      "domain": "mahamayagroup.in"
+    },
+    "MHRIL": {
+      "file": "MHRIL.png",
+      "source": "site-icon",
+      "domain": "clubmahindra.com"
+    },
+    "MAHSCOOTER": {
+      "file": "MAHSCOOTER.png",
+      "source": "site-icon",
+      "domain": "mahascooters.com"
+    },
+    "LINCOLN": {
+      "file": "LINCOLN.jpg",
+      "source": "site-icon",
+      "domain": "lincolnpharma.com"
+    },
+    "MAHLIFE": {
+      "file": "MAHLIFE.ico",
+      "source": "site-icon",
+      "domain": "mahindralifespaces.com"
+    },
+    "MANINDS": {
+      "file": "MANINDS.jpg",
+      "source": "site-icon",
+      "domain": "mangroup.com"
+    },
+    "MAHLOG": {
+      "file": "MAHLOG.png",
+      "source": "site-icon",
+      "domain": "mahindralogistics.com"
+    },
+    "MANAKCOAT": {
+      "file": "MANAKCOAT.ico",
+      "source": "site-icon",
+      "domain": "manaksiacoatedmetals.com"
+    },
+    "MGL": {
+      "file": "MGL.png",
+      "source": "site-icon",
+      "domain": "mahanagargas.com"
+    },
+    "MANINFRA": {
+      "file": "MANINFRA.png",
+      "source": "site-icon",
+      "domain": "maninfra.com"
+    },
+    "MANAPPURAM": {
+      "file": "MANAPPURAM.ico",
+      "source": "site-icon",
+      "domain": "manappuram.com"
+    },
+    "MANGLMCEM": {
+      "file": "MANGLMCEM.ico",
+      "source": "site-icon",
+      "domain": "mangalamcement.com"
+    },
+    "MAITHANALL": {
+      "file": "MAITHANALL.png",
+      "source": "google-favicon",
+      "domain": "maithanalloys.com"
+    },
+    "MPIMANIPAL": {
+      "file": "MPIMANIPAL.png",
+      "source": "site-icon",
+      "domain": "mpimanipal.com"
+    },
+    "LCCPROJECT": {
+      "file": "LCCPROJECT.png",
+      "source": "google-favicon",
+      "domain": "lccprojects.com"
+    },
+    "MANORAMA": {
+      "file": "MANORAMA.png",
+      "source": "site-icon",
+      "domain": "manoramagroup.co.in"
+    },
+    "MANKIND": {
+      "file": "MANKIND.png",
+      "source": "site-icon",
+      "domain": "mankindpharma.com"
+    },
+    "MWL": {
+      "file": "MWL.png",
+      "source": "site-icon",
+      "domain": "mangalamworldwide.com"
+    },
+    "MARICO": {
+      "file": "MARICO.png",
+      "source": "google-favicon",
+      "domain": "marico.com"
+    },
+    "MARSONS": {
+      "file": "MARSONS.png",
+      "source": "site-icon",
+      "domain": "marsonsonline.com"
+    },
+    "MARKSANS": {
+      "file": "MARKSANS.png",
+      "source": "apple-touch",
+      "domain": "marksanspharma.com"
+    },
+    "MASTEK": {
+      "file": "MASTEK.png",
+      "source": "google-favicon",
+      "domain": "mastek.com"
+    },
+    "MASTERTR": {
+      "file": "MASTERTR.webp",
+      "source": "site-icon",
+      "domain": "mastertrust.co.in"
+    },
+    "MATRIMONY": {
+      "file": "MATRIMONY.png",
+      "source": "site-icon",
+      "domain": "matrimony.com"
+    },
+    "MAXESTATES": {
+      "file": "MAXESTATES.png",
+      "source": "site-icon",
+      "domain": "maxestates.in"
+    },
+    "MANIPALHOS": {
+      "file": "MANIPALHOS.png",
+      "source": "site-icon",
+      "domain": "manipalhospitals.com"
+    },
+    "MAXHEALTH": {
+      "file": "MAXHEALTH.png",
+      "source": "site-icon",
+      "domain": "maxhealthcare.in"
+    },
+    "MASFIN": {
+      "file": "MASFIN.png",
+      "source": "site-icon",
+      "domain": "mas.co.in"
+    },
+    "MAZDOCK": {
+      "file": "MAZDOCK.ico",
+      "source": "site-icon",
+      "domain": "mazagondock.in"
+    },
+    "MEDIASSIST": {
+      "file": "MEDIASSIST.png",
+      "source": "site-icon",
+      "domain": "mediassist.in"
+    },
+    "MEDPLUS": {
+      "file": "MEDPLUS.ico",
+      "source": "site-icon",
+      "domain": "medplusindia.com"
+    },
+    "MFSL": {
+      "file": "MFSL.png",
+      "source": "site-icon",
+      "domain": "maxfinancialservices.com"
+    },
+    "MENONBE": {
+      "file": "MENONBE.jpg",
+      "source": "site-icon",
+      "domain": "menonbearings.in"
+    },
+    "METROBRAND": {
+      "file": "METROBRAND.png",
+      "source": "site-icon",
+      "domain": "metrobrands.com"
+    },
+    "MICEL": {
+      "file": "MICEL.png",
+      "source": "site-icon",
+      "domain": "mic.co.in"
+    },
+    "METROPOLIS": {
+      "file": "METROPOLIS.ico",
+      "source": "site-icon",
+      "domain": "metropolisindia.com"
+    },
+    "MIDWESTLTD": {
+      "file": "MIDWESTLTD.png",
+      "source": "site-icon",
+      "domain": "midwest.in"
+    },
+    "MIIL": {
+      "file": "MIIL.ico",
+      "source": "site-icon",
+      "domain": "meghnarealty.com"
+    },
+    "MOL": {
+      "file": "MOL.jpg",
+      "source": "site-icon",
+      "domain": "meghmani.com"
+    },
+    "MINDACORP": {
+      "file": "MINDACORP.ico",
+      "source": "site-icon",
+      "domain": "sparkminda.com"
+    },
+    "MINDSPACE": {
+      "file": "MINDSPACE.ico",
+      "source": "site-icon",
+      "domain": "mindspacereit.com"
+    },
+    "MMP": {
+      "file": "MMP.png",
+      "source": "site-icon",
+      "domain": "mmpil.com"
+    },
+    "MIDHANI": {
+      "file": "MIDHANI.png",
+      "source": "site-icon",
+      "domain": "midhani-india.in"
+    },
+    "MMTC": {
+      "file": "MMTC.ico",
+      "source": "site-icon",
+      "domain": "mmtclimited.com"
+    },
+    "MODISONLTD": {
+      "file": "MODISONLTD.ico",
+      "source": "site-icon",
+      "domain": "modison.com"
+    },
+    "MILKYMIST": {
+      "file": "MILKYMIST.png",
+      "source": "site-icon",
+      "domain": "milkymist.com"
+    },
+    "MOIL": {
+      "file": "MOIL.ico",
+      "source": "site-icon",
+      "domain": "moil.nic.in"
+    },
+    "MOLBIO": {
+      "file": "MOLBIO.png",
+      "source": "site-icon",
+      "domain": "molbiodiagnostics.com"
+    },
+    "MONEYVIEW": {
+      "file": "MONEYVIEW.png",
+      "source": "site-icon",
+      "domain": "moneyview.in"
+    },
+    "MONOLITH": {
+      "file": "MONOLITH.png",
+      "source": "site-icon",
+      "domain": "monolithisch.com"
+    },
+    "MOLDTKPAC": {
+      "file": "MOLDTKPAC.ico",
+      "source": "site-icon",
+      "domain": "moldtekpackaging.com"
+    },
+    "MOREPENLAB": {
+      "file": "MOREPENLAB.png",
+      "source": "site-icon",
+      "domain": "morepen.com"
+    },
+    "MOSCHIP": {
+      "file": "MOSCHIP.webp",
+      "source": "site-icon",
+      "domain": "moschip.com"
+    },
+    "MOTILALOFS": {
+      "file": "MOTILALOFS.png",
+      "source": "google-favicon",
+      "domain": "motilaloswal.com"
+    },
+    "MOTISONS": {
+      "file": "MOTISONS.png",
+      "source": "site-icon",
+      "domain": "motisonsjewellers.com"
+    },
+    "MPHASIS": {
+      "file": "MPHASIS.ico",
+      "source": "site-icon",
+      "domain": "mphasis.com"
+    },
+    "MRF": {
+      "file": "MRF.ico",
+      "source": "site-icon",
+      "domain": "mrftyres.com"
+    },
+    "MARINE": {
+      "file": "MARINE.png",
+      "source": "google-favicon",
+      "domain": "marineelectricals.com"
+    },
+    "MSPL": {
+      "file": "MSPL.png",
+      "source": "google-favicon",
+      "domain": "mspsteel.com"
+    },
+    "BECTORFOOD": {
+      "file": "BECTORFOOD.ico",
+      "source": "site-icon",
+      "domain": "bectorfoods.com"
+    },
+    "MTARTECH": {
+      "file": "MTARTECH.png",
+      "source": "site-icon",
+      "domain": "mtar.in"
+    },
+    "MSTCLTD": {
+      "file": "MSTCLTD.jpg",
+      "source": "site-icon",
+      "domain": "mstcindia.co.in"
+    },
+    "MCX": {
+      "file": "MCX.ico",
+      "source": "site-icon",
+      "domain": "mcxindia.com"
+    },
+    "MUFIN": {
+      "file": "MUFIN.png",
+      "source": "site-icon",
+      "domain": "mufingreenfinance.com"
+    },
+    "MPSLTD": {
+      "file": "MPSLTD.png",
+      "source": "google-favicon",
+      "domain": "mpslimited.com"
+    },
+    "MUTHOOTMF": {
+      "file": "MUTHOOTMF.png",
+      "source": "site-icon",
+      "domain": "muthootmicrofin.com"
+    },
+    "NRAIL": {
+      "file": "NRAIL.jpg",
+      "source": "site-icon",
+      "domain": "nrail.com"
+    },
+    "MVELECTRO": {
+      "file": "MVELECTRO.png",
+      "source": "site-icon",
+      "domain": "mvelectrosystems.com"
+    },
+    "NACLIND": {
+      "file": "NACLIND.png",
+      "source": "site-icon",
+      "domain": "naclind.com"
+    },
+    "MUKANDLTD": {
+      "file": "MUKANDLTD.png",
+      "source": "site-icon",
+      "domain": "mukand.com"
+    },
+    "MUTHOOTFIN": {
+      "file": "MUTHOOTFIN.ico",
+      "source": "site-icon",
+      "domain": "muthootfinance.com"
+    },
+    "NATCOPHARM": {
+      "file": "NATCOPHARM.ico",
+      "source": "site-icon",
+      "domain": "natcopharma.co.in"
+    },
+    "NATIONALUM": {
+      "file": "NATIONALUM.png",
+      "source": "google-favicon",
+      "domain": "nalcoindia.com"
+    },
+    "NHIT": {
+      "file": "NHIT.png",
+      "source": "site-icon",
+      "domain": "nhit.co.in"
+    },
+    "NFL": {
+      "file": "NFL.ico",
+      "source": "site-icon",
+      "domain": "nationalfertilizers.com"
+    },
+    "NAVINFLUOR": {
+      "file": "NAVINFLUOR.png",
+      "source": "google-favicon",
+      "domain": "nfil.in"
+    },
+    "NAVNETEDUL": {
+      "file": "NAVNETEDUL.png",
+      "source": "site-icon",
+      "domain": "navneet.com"
+    },
+    "NAVKARCORP": {
+      "file": "NAVKARCORP.png",
+      "source": "site-icon",
+      "domain": "navkarcorp.com"
+    },
+    "NH": {
+      "file": "NH.ico",
+      "source": "site-icon",
+      "domain": "narayanahealth.org"
+    },
+    "NCC": {
+      "file": "NCC.ico",
+      "source": "site-icon",
+      "domain": "ncclimited.com"
+    },
+    "NDRAUTO": {
+      "file": "NDRAUTO.png",
+      "source": "site-icon",
+      "domain": "ndrauto.com"
+    },
+    "NSIL": {
+      "file": "NSIL.png",
+      "source": "site-icon",
+      "domain": "nalwasons.com"
+    },
+    "NELCO": {
+      "file": "NELCO.ico",
+      "source": "site-icon",
+      "domain": "nelco.in"
+    },
+    "NBCC": {
+      "file": "NBCC.ico",
+      "source": "site-icon",
+      "domain": "nbccindia.in"
+    },
+    "NESCO": {
+      "file": "NESCO.png",
+      "source": "site-icon",
+      "domain": "nesco.in"
+    },
+    "NELCAST": {
+      "file": "NELCAST.png",
+      "source": "site-icon",
+      "domain": "nelcast.com"
+    },
+    "NAVA": {
+      "file": "NAVA.png",
+      "source": "site-icon",
+      "domain": "navalimited.com"
+    },
+    "NETWORK18": {
+      "file": "NETWORK18.jpg",
+      "source": "site-icon",
+      "domain": "nw18.com"
+    },
+    "NPST": {
+      "file": "NPST.png",
+      "source": "site-icon",
+      "domain": "npstx.com"
+    },
+    "NESTLEIND": {
+      "file": "NESTLEIND.jpg",
+      "source": "google-favicon",
+      "domain": "nestle.in"
+    },
+    "NEULANDLAB": {
+      "file": "NEULANDLAB.png",
+      "source": "site-icon",
+      "domain": "neulandlabs.com"
+    },
+    "NHPC": {
+      "file": "NHPC.png",
+      "source": "google-favicon",
+      "domain": "nhpcindia.com"
+    },
+    "NGLFINE": {
+      "file": "NGLFINE.png",
+      "source": "google-favicon",
+      "domain": "nglfinechem.com"
+    },
+    "NIITMTS": {
+      "file": "NIITMTS.ico",
+      "source": "site-icon",
+      "domain": "niitmts.com"
+    },
+    "NILKAMAL": {
+      "file": "NILKAMAL.ico",
+      "source": "site-icon",
+      "domain": "nilkamal.com"
+    },
+    "NINSYS": {
+      "file": "NINSYS.png",
+      "source": "site-icon",
+      "domain": "nintecsystems.com"
+    },
+    "NAM-INDIA": {
+      "file": "NAM-INDIA.ico",
+      "source": "site-icon",
+      "domain": "mf.nipponindiaim.com"
+    },
+    "NITTAGELA": {
+      "file": "NITTAGELA.png",
+      "source": "site-icon",
+      "domain": "gelatin.in"
+    },
+    "NEWGEN": {
+      "file": "NEWGEN.png",
+      "source": "site-icon",
+      "domain": "newgensoft.com"
+    },
+    "NETWEB": {
+      "file": "NETWEB.png",
+      "source": "site-icon",
+      "domain": "netwebindia.com"
+    },
+    "NIVABUPA": {
+      "file": "NIVABUPA.png",
+      "source": "google-favicon",
+      "domain": "nivabupa.com"
+    },
+    "NIACL": {
+      "file": "NIACL.ico",
+      "source": "site-icon",
+      "domain": "newindia.co.in"
+    },
+    "NMDC": {
+      "file": "NMDC.ico",
+      "source": "site-icon",
+      "domain": "nmdc.co.in"
+    },
+    "NORTHARC": {
+      "file": "NORTHARC.png",
+      "source": "site-icon",
+      "domain": "northernarc.com"
+    },
+    "NOCIL": {
+      "file": "NOCIL.png",
+      "source": "site-icon",
+      "domain": "nocil.com"
+    },
+    "NIBE": {
+      "file": "NIBE.png",
+      "source": "site-icon",
+      "domain": "nibelimited.com"
+    },
+    "NRBBEARING": {
+      "file": "NRBBEARING.png",
+      "source": "site-icon",
+      "domain": "nrbbearings.com"
+    },
+    "NTPCGREEN": {
+      "file": "NTPCGREEN.png",
+      "source": "site-icon",
+      "domain": "ngel.in"
+    },
+    "NRL": {
+      "file": "NRL.png",
+      "source": "site-icon",
+      "domain": "nupurrecyclers.com"
+    },
+    "NUVAMA": {
+      "file": "NUVAMA.png",
+      "source": "site-icon",
+      "domain": "nuvama.com"
+    },
+    "NUVOCO": {
+      "file": "NUVOCO.png",
+      "source": "apple-touch",
+      "domain": "nuvoco.com"
+    },
+    "ONGC": {
+      "file": "ONGC.ico",
+      "source": "site-icon",
+      "domain": "ongcindia.com"
+    },
+    "OBSCP": {
+      "file": "OBSCP.jpg",
+      "source": "site-icon",
+      "domain": "obscperfection.com"
+    },
+    "OBEROIRLTY": {
+      "file": "OBEROIRLTY.png",
+      "source": "site-icon",
+      "domain": "oberoirealty.com"
+    },
+    "OLECTRA": {
+      "file": "OLECTRA.png",
+      "source": "apple-touch",
+      "domain": "olectra.com"
+    },
+    "NITINSPIN": {
+      "file": "NITINSPIN.png",
+      "source": "site-icon",
+      "domain": "nitinspinners.com"
+    },
+    "PAYTM": {
+      "file": "PAYTM.png",
+      "source": "site-icon",
+      "domain": "paytm.com"
+    },
+    "MOBIKWIK": {
+      "file": "MOBIKWIK.png",
+      "source": "site-icon",
+      "domain": "mobikwik.com"
+    },
+    "OMAXE": {
+      "file": "OMAXE.ico",
+      "source": "site-icon",
+      "domain": "omaxe.com"
+    },
+    "KISSHT": {
+      "file": "KISSHT.ico",
+      "source": "site-icon",
+      "domain": "kissht.com"
+    },
+    "NUCLEUS": {
+      "file": "NUCLEUS.ico",
+      "source": "site-icon",
+      "domain": "nucleussoftware.com"
+    },
+    "OMNI": {
+      "file": "OMNI.png",
+      "source": "site-icon",
+      "domain": "omnitecheng.com"
+    },
+    "OPTIEMUS": {
+      "file": "OPTIEMUS.png",
+      "source": "site-icon",
+      "domain": "optiemus.com"
+    },
+    "ONESOURCE": {
+      "file": "ONESOURCE.png",
+      "source": "site-icon",
+      "domain": "onesourcecdmo.com"
+    },
+    "ORCHPHARMA": {
+      "file": "ORCHPHARMA.png",
+      "source": "site-icon",
+      "domain": "orchidpharma.com"
+    },
+    "OFSS": {
+      "file": "OFSS.png",
+      "source": "google-favicon",
+      "domain": "oracle.com"
+    },
+    "ONEPOINT": {
+      "file": "ONEPOINT.png",
+      "source": "site-icon",
+      "domain": "1point1.com"
+    },
+    "ORIENTCABL": {
+      "file": "ORIENTCABL.png",
+      "source": "site-icon",
+      "domain": "orientcables.in"
+    },
+    "OAL": {
+      "file": "OAL.ico",
+      "source": "site-icon",
+      "domain": "orientalaromatics.com"
+    },
+    "ORIENTELEC": {
+      "file": "ORIENTELEC.png",
+      "source": "site-icon",
+      "domain": "orientelectric.com"
+    },
+    "ORKLAINDIA": {
+      "file": "ORKLAINDIA.png",
+      "source": "apple-touch",
+      "domain": "orklaindia.com"
+    },
+    "ORIENTCEM": {
+      "file": "ORIENTCEM.png",
+      "source": "site-icon",
+      "domain": "orientcement.com"
+    },
+    "PGHH": {
+      "file": "PGHH.png",
+      "source": "apple-touch",
+      "domain": "in.pg.com"
+    },
+    "OSWALPUMPS": {
+      "file": "OSWALPUMPS.png",
+      "source": "site-icon",
+      "domain": "oswalpumps.com"
+    },
+    "PNGJL": {
+      "file": "PNGJL.png",
+      "source": "site-icon",
+      "domain": "pngjewellers.com"
+    },
+    "PIIND": {
+      "file": "PIIND.jpg",
+      "source": "site-icon",
+      "domain": "piindustries.com"
+    },
+    "ORIANA": {
+      "file": "ORIANA.gif",
+      "source": "site-icon",
+      "domain": "orianapower.com"
+    },
+    "PAISALO": {
+      "file": "PAISALO.png",
+      "source": "site-icon",
+      "domain": "paisalo.in"
+    },
+    "PAGEIND": {
+      "file": "PAGEIND.png",
+      "source": "site-icon",
+      "domain": "jockey.in"
+    },
+    "ORISSAMINE": {
+      "file": "ORISSAMINE.png",
+      "source": "google-favicon",
+      "domain": "birdgroup.co.in"
+    },
+    "PANACEABIO": {
+      "file": "PANACEABIO.png",
+      "source": "site-icon",
+      "domain": "panaceabiotec.com"
+    },
+    "PGHL": {
+      "file": "PGHL.ico",
+      "source": "site-icon",
+      "domain": "pghealthindia.com"
+    },
+    "PARADEEP": {
+      "file": "PARADEEP.png",
+      "source": "site-icon",
+      "domain": "paradeepphosphates.com"
+    },
+    "PARAGMILK": {
+      "file": "PARAGMILK.png",
+      "source": "google-favicon",
+      "domain": "paragmilkfoods.com"
+    },
+    "PANAMAPET": {
+      "file": "PANAMAPET.png",
+      "source": "google-favicon",
+      "domain": "panamapetro.com"
+    },
+    "PARAS": {
+      "file": "PARAS.png",
+      "source": "site-icon",
+      "domain": "parasdefence.com"
+    },
+    "PARACABLES": {
+      "file": "PARACABLES.png",
+      "source": "site-icon",
+      "domain": "paramountcables.com"
+    },
+    "PASHUPATI": {
+      "file": "PASHUPATI.png",
+      "source": "site-icon",
+      "domain": "pashupaticotspin.com"
+    },
+    "PARKHOSPS": {
+      "file": "PARKHOSPS.png",
+      "source": "site-icon",
+      "domain": "parkhospital.in"
+    },
+    "PATANJALI": {
+      "file": "PATANJALI.png",
+      "source": "site-icon",
+      "domain": "patanjalifoods.com"
+    },
+    "PANACHE": {
+      "file": "PANACHE.png",
+      "source": "apple-touch",
+      "domain": "panachedigilife.com"
+    },
+    "PARASHLTH": {
+      "file": "PARASHLTH.ico",
+      "source": "site-icon",
+      "domain": "parashospitals.com"
+    },
+    "PCBL": {
+      "file": "PCBL.png",
+      "source": "google-favicon",
+      "domain": "pcblltd.com"
+    },
+    "PCJEWELLER": {
+      "file": "PCJEWELLER.ico",
+      "source": "site-icon",
+      "domain": "pcjeweller.com"
+    },
+    "PAUSHAKLTD": {
+      "file": "PAUSHAKLTD.png",
+      "source": "google-favicon",
+      "domain": "paushak.com"
+    },
+    "PDSL": {
+      "file": "PDSL.png",
+      "source": "site-icon",
+      "domain": "pdsltd.com"
+    },
+    "PERMAGN": {
+      "file": "PERMAGN.png",
+      "source": "apple-touch",
+      "domain": "pmlindia.com"
+    },
+    "PENIND": {
+      "file": "PENIND.png",
+      "source": "site-icon",
+      "domain": "pennarindia.com"
+    },
+    "PETRONET": {
+      "file": "PETRONET.png",
+      "source": "site-icon",
+      "domain": "petronetlng.in"
+    },
+    "PFIZER": {
+      "file": "PFIZER.png",
+      "source": "google-favicon",
+      "domain": "pfizerltd.co.in"
+    },
+    "PGIL": {
+      "file": "PGIL.png",
+      "source": "site-icon",
+      "domain": "pearlglobal.com"
+    },
+    "PWL": {
+      "file": "PWL.webp",
+      "source": "site-icon",
+      "domain": "pw.live"
+    },
+    "PCCL": {
+      "file": "PCCL.png",
+      "source": "site-icon",
+      "domain": "pccl.in"
+    },
+    "PIRAMALFIN": {
+      "file": "PIRAMALFIN.png",
+      "source": "site-icon",
+      "domain": "piramalfinance.com"
+    },
+    "PIDILITIND": {
+      "file": "PIDILITIND.jpg",
+      "source": "site-icon",
+      "domain": "pidilite.com"
+    },
+    "PLATIND": {
+      "file": "PLATIND.png",
+      "source": "site-icon",
+      "domain": "platinumindustriesltd.com"
+    },
+    "PPLPHARMA": {
+      "file": "PPLPHARMA.ico",
+      "source": "site-icon",
+      "domain": "piramalpharma.com"
+    },
+    "PICCADIL": {
+      "file": "PICCADIL.png",
+      "source": "site-icon",
+      "domain": "picagro.com"
+    },
+    "PNGSREVA": {
+      "file": "PNGSREVA.png",
+      "source": "site-icon",
+      "domain": "revabypng.com"
+    },
+    "PIXTRANS": {
+      "file": "PIXTRANS.png",
+      "source": "site-icon",
+      "domain": "pixtrans.com"
+    },
+    "POKARNA": {
+      "file": "POKARNA.png",
+      "source": "site-icon",
+      "domain": "pokarna.com"
+    },
+    "POLYMED": {
+      "file": "POLYMED.webp",
+      "source": "site-icon",
+      "domain": "polymedicure.com"
+    },
+    "POONAWALLA": {
+      "file": "POONAWALLA.ico",
+      "source": "site-icon",
+      "domain": "poonawallafincorp.com"
+    },
+    "PFC": {
+      "file": "PFC.png",
+      "source": "site-icon",
+      "domain": "pfcindia.co.in"
+    },
+    "PNCINFRA": {
+      "file": "PNCINFRA.ico",
+      "source": "site-icon",
+      "domain": "pncinfratech.com"
+    },
+    "POCL": {
+      "file": "POCL.png",
+      "source": "site-icon",
+      "domain": "pocl.com"
+    },
+    "POWERMECH": {
+      "file": "POWERMECH.png",
+      "source": "site-icon",
+      "domain": "powermechprojects.com"
+    },
+    "POLYPLEX": {
+      "file": "POLYPLEX.ico",
+      "source": "site-icon",
+      "domain": "polyplex.com"
+    },
+    "POLYCAB": {
+      "file": "POLYCAB.png",
+      "source": "apple-touch",
+      "domain": "polycab.com"
+    },
+    "PRADPME": {
+      "file": "PRADPME.ico",
+      "source": "site-icon",
+      "domain": "pradeepmetals.com"
+    },
+    "PRABHA": {
+      "file": "PRABHA.png",
+      "source": "site-icon",
+      "domain": "prabhaenergy.com"
+    },
+    "POWERICA": {
+      "file": "POWERICA.png",
+      "source": "site-icon",
+      "domain": "powericaltd.com"
+    },
+    "PRAJIND": {
+      "file": "PRAJIND.png",
+      "source": "site-icon",
+      "domain": "praj.net"
+    },
+    "PRAKASH": {
+      "file": "PRAKASH.png",
+      "source": "site-icon",
+      "domain": "prakash.com"
+    },
+    "DIAMONDYD": {
+      "file": "DIAMONDYD.png",
+      "source": "site-icon",
+      "domain": "yellowdiamond.in"
+    },
+    "PRECWIRE": {
+      "file": "PRECWIRE.png",
+      "source": "google-favicon",
+      "domain": "precisionwires.in"
+    },
+    "PRESTIGE": {
+      "file": "PRESTIGE.png",
+      "source": "site-icon",
+      "domain": "prestigeconstructions.com"
+    },
+    "PRASOLCHEM": {
+      "file": "PRASOLCHEM.png",
+      "source": "site-icon",
+      "domain": "prasolchem.com"
+    },
+    "PRICOLLTD": {
+      "file": "PRICOLLTD.png",
+      "source": "site-icon",
+      "domain": "pricol.com"
+    },
+    "PFOCUS": {
+      "file": "PFOCUS.ico",
+      "source": "site-icon",
+      "domain": "primefocus.com"
+    },
+    "PRIMESECU": {
+      "file": "PRIMESECU.png",
+      "source": "site-icon",
+      "domain": "primesec.com"
+    },
+    "PRINCEPIPE": {
+      "file": "PRINCEPIPE.ico",
+      "source": "site-icon",
+      "domain": "princepipes.com"
+    },
+    "PREMIERENE": {
+      "file": "PREMIERENE.png",
+      "source": "site-icon",
+      "domain": "premierenergies.com"
+    },
+    "PRIVISCL": {
+      "file": "PRIVISCL.ico",
+      "source": "site-icon",
+      "domain": "privi.com"
+    },
+    "PRIZOR": {
+      "file": "PRIZOR.png",
+      "source": "site-icon",
+      "domain": "prizor.in"
+    },
+    "PROTEAN": {
+      "file": "PROTEAN.png",
+      "source": "apple-touch",
+      "domain": "proteantech.in"
+    },
+    "PTC": {
+      "file": "PTC.png",
+      "source": "google-favicon",
+      "domain": "ptcindia.com"
+    },
+    "PRSMJOHNSN": {
+      "file": "PRSMJOHNSN.png",
+      "source": "google-favicon",
+      "domain": "prismjohnson.in"
+    },
+    "PFS": {
+      "file": "PFS.png",
+      "source": "site-icon",
+      "domain": "ptcfinancial.com"
+    },
+    "PSPPROJECT": {
+      "file": "PSPPROJECT.png",
+      "source": "site-icon",
+      "domain": "pspprojects.com"
+    },
+    "PUNJABCHEM": {
+      "file": "PUNJABCHEM.jpg",
+      "source": "site-icon",
+      "domain": "punjabchemicals.com"
+    },
+    "PNB": {
+      "file": "PNB.ico",
+      "source": "site-icon",
+      "domain": "pnb.bank.in"
+    },
+    "PSB": {
+      "file": "PSB.png",
+      "source": "site-icon",
+      "domain": "psbindia.com"
+    },
+    "PVRINOX": {
+      "file": "PVRINOX.png",
+      "source": "site-icon",
+      "domain": "pvrcinemas.com"
+    },
+    "QUADFUTURE": {
+      "file": "QUADFUTURE.png",
+      "source": "site-icon",
+      "domain": "quadrantfuturetek.com"
+    },
+    "PVP": {
+      "file": "PVP.png",
+      "source": "google-favicon",
+      "domain": "pvpglobal.com"
+    },
+    "PERNIASPOP": {
+      "file": "PERNIASPOP.png",
+      "source": "site-icon",
+      "domain": "purplestylelabs.com"
+    },
+    "QUESS": {
+      "file": "QUESS.png",
+      "source": "google-favicon",
+      "domain": "quesscorp.com"
+    },
+    "RSYSTEMS": {
+      "file": "RSYSTEMS.png",
+      "source": "site-icon",
+      "domain": "rsystems.com"
+    },
+    "RACLGEAR": {
+      "file": "RACLGEAR.ico",
+      "source": "site-icon",
+      "domain": "raclgeartech.com"
+    },
+    "RRKABEL": {
+      "file": "RRKABEL.png",
+      "source": "apple-touch",
+      "domain": "rrkabel.com"
+    },
+    "RAILTEL": {
+      "file": "RAILTEL.ico",
+      "source": "site-icon",
+      "domain": "railtelindia.com"
+    },
+    "RADICO": {
+      "file": "RADICO.png",
+      "source": "site-icon",
+      "domain": "radicokhaitan.com"
+    },
+    "RAINBOW": {
+      "file": "RAINBOW.png",
+      "source": "site-icon",
+      "domain": "rainbowhospitals.in"
+    },
+    "POWERGRID": {
+      "file": "POWERGRID.jpg",
+      "source": "google-favicon",
+      "domain": "powergrid.in"
+    },
+    "RALLIS": {
+      "file": "RALLIS.png",
+      "source": "apple-touch",
+      "domain": "rallis.com"
+    },
+    "RAMRAT": {
+      "file": "RAMRAT.png",
+      "source": "site-icon",
+      "domain": "rrshramik.com"
+    },
+    "RAJESHEXPO": {
+      "file": "RAJESHEXPO.jpg",
+      "source": "site-icon",
+      "domain": "rajeshindia.com"
+    },
+    "RAMCOIND": {
+      "file": "RAMCOIND.png",
+      "source": "site-icon",
+      "domain": "ramcoindltd.com"
+    },
+    "QPOWER": {
+      "file": "QPOWER.png",
+      "source": "google-favicon",
+      "domain": "qualitypower.com"
+    },
+    "RAMKY": {
+      "file": "RAMKY.ico",
+      "source": "site-icon",
+      "domain": "ramkyinfrastructure.com"
+    },
+    "RAIN": {
+      "file": "RAIN.png",
+      "source": "site-icon",
+      "domain": "rain-industries.com"
+    },
+    "RKFORGE": {
+      "file": "RKFORGE.jpg",
+      "source": "site-icon",
+      "domain": "ramkrishnaforgings.com"
+    },
+    "RPTECH": {
+      "file": "RPTECH.png",
+      "source": "site-icon",
+      "domain": "rptechindia.com"
+    },
+    "RATNAMANI": {
+      "file": "RATNAMANI.png",
+      "source": "site-icon",
+      "domain": "ratnamani.com"
+    },
+    "RAJRATAN": {
+      "file": "RAJRATAN.png",
+      "source": "site-icon",
+      "domain": "rajratan.co.in"
+    },
+    "RATNAVEER": {
+      "file": "RATNAVEER.png",
+      "source": "site-icon",
+      "domain": "ratnaveer.com"
+    },
+    "RTNPOWER": {
+      "file": "RTNPOWER.png",
+      "source": "site-icon",
+      "domain": "rattanindiapower.com"
+    },
+    "RTNINDIA": {
+      "file": "RTNINDIA.png",
+      "source": "site-icon",
+      "domain": "rattanindia.com"
+    },
+    "RAYMOND": {
+      "file": "RAYMOND.ico",
+      "source": "site-icon",
+      "domain": "raymond.in"
+    },
+    "RANEHOLDIN": {
+      "file": "RANEHOLDIN.png",
+      "source": "site-icon",
+      "domain": "ranegroup.com"
+    },
+    "RML": {
+      "file": "RML.png",
+      "source": "site-icon",
+      "domain": "ranegroup.com"
+    },
+    "RAYMONDLSL": {
+      "file": "RAYMONDLSL.ico",
+      "source": "site-icon",
+      "domain": "raymondlifestyle.com"
+    },
+    "RAYMONDREL": {
+      "file": "RAYMONDREL.png",
+      "source": "site-icon",
+      "domain": "raymondrealty.in"
+    },
+    "RELTD": {
+      "file": "RELTD.png",
+      "source": "site-icon",
+      "domain": "ravindraenergy.com"
+    },
+    "RATEGAIN": {
+      "file": "RATEGAIN.png",
+      "source": "site-icon",
+      "domain": "rategain.com"
+    },
+    "RBLBANK": {
+      "file": "RBLBANK.ico",
+      "source": "site-icon",
+      "domain": "rbl.bank.in"
+    },
+    "REDTAPE": {
+      "file": "REDTAPE.png",
+      "source": "site-icon",
+      "domain": "redtape.com"
+    },
+    "REFEX": {
+      "file": "REFEX.png",
+      "source": "site-icon",
+      "domain": "refex.co.in"
+    },
+    "RIIL": {
+      "file": "RIIL.png",
+      "source": "site-icon",
+      "domain": "riil.in"
+    },
+    "RELIANCE": {
+      "file": "RELIANCE.ico",
+      "source": "site-icon",
+      "domain": "ril.com"
+    },
+    "RELAXO": {
+      "file": "RELAXO.png",
+      "source": "site-icon",
+      "domain": "relaxofootwear.com"
+    },
+    "RECLTD": {
+      "file": "RECLTD.png",
+      "source": "site-icon",
+      "domain": "recindia.com"
+    },
+    "RPOWER": {
+      "file": "RPOWER.ico",
+      "source": "site-icon",
+      "domain": "reliancepower.co.in"
+    },
+    "RELIGARE": {
+      "file": "RELIGARE.png",
+      "source": "site-icon",
+      "domain": "religare.com"
+    },
+    "RELINFRA": {
+      "file": "RELINFRA.ico",
+      "source": "site-icon",
+      "domain": "rinfra.com"
+    },
+    "RBA": {
+      "file": "RBA.ico",
+      "source": "site-icon",
+      "domain": "burgerking.in"
+    },
+    "RENTOMOJO": {
+      "file": "RENTOMOJO.ico",
+      "source": "site-icon",
+      "domain": "rentomojo.com"
+    },
+    "RGL": {
+      "file": "RGL.png",
+      "source": "site-icon",
+      "domain": "renaissanceglobal.com"
+    },
+    "REPCOHOME": {
+      "file": "REPCOHOME.ico",
+      "source": "site-icon",
+      "domain": "repcohome.com"
+    },
+    "RIR": {
+      "file": "RIR.png",
+      "source": "site-icon",
+      "domain": "ruttonsha.com"
+    },
+    "RHIM": {
+      "file": "RHIM.png",
+      "source": "site-icon",
+      "domain": "rhimagnesitaindia.com"
+    },
+    "REDINGTON": {
+      "file": "REDINGTON.png",
+      "source": "site-icon",
+      "domain": "redingtongroup.com"
+    },
+    "ROLEXRINGS": {
+      "file": "ROLEXRINGS.jpg",
+      "source": "google-favicon",
+      "domain": "rolexrings.com"
+    },
+    "RESPONIND": {
+      "file": "RESPONIND.png",
+      "source": "site-icon",
+      "domain": "responsiveindustries.com"
+    },
+    "ROUTE": {
+      "file": "ROUTE.png",
+      "source": "site-icon",
+      "domain": "routemobile.com"
+    },
+    "ROTO": {
+      "file": "ROTO.png",
+      "source": "site-icon",
+      "domain": "rotopumps.com"
+    },
+    "RUBICON": {
+      "file": "RUBICON.png",
+      "source": "site-icon",
+      "domain": "rubicon.co.in"
+    },
+    "RPGLIFE": {
+      "file": "RPGLIFE.png",
+      "source": "site-icon",
+      "domain": "rpglifesciences.com"
+    },
+    "ROSSARI": {
+      "file": "ROSSARI.png",
+      "source": "site-icon",
+      "domain": "rossari.com"
+    },
+    "RUNWALENTR": {
+      "file": "RUNWALENTR.png",
+      "source": "site-icon",
+      "domain": "runwalenterprises.com"
+    },
+    "SCI": {
+      "file": "SCI.png",
+      "source": "google-favicon",
+      "domain": "shipindia.com"
+    },
+    "ROSSTECH": {
+      "file": "ROSSTECH.png",
+      "source": "google-favicon",
+      "domain": "rosselltechsys.com"
+    },
+    "RUBYMILLS": {
+      "file": "RUBYMILLS.png",
+      "source": "site-icon",
+      "domain": "rubymills.com"
+    },
+    "SPAL": {
+      "file": "SPAL.png",
+      "source": "site-icon",
+      "domain": "s-p-apparels.com"
+    },
+    "SALSTEEL": {
+      "file": "SALSTEEL.png",
+      "source": "site-icon",
+      "domain": "salsteel.co.in"
+    },
+    "SAATVIKGL": {
+      "file": "SAATVIKGL.png",
+      "source": "site-icon",
+      "domain": "saatvikgroup.com"
+    },
+    "SAFARI": {
+      "file": "SAFARI.png",
+      "source": "site-icon",
+      "domain": "safaribags.com"
+    },
+    "SAGCEM": {
+      "file": "SAGCEM.png",
+      "source": "site-icon",
+      "domain": "sagarcements.in"
+    },
+    "SPIC": {
+      "file": "SPIC.ico",
+      "source": "site-icon",
+      "domain": "spic.in"
+    },
+    "SAGILITY": {
+      "file": "SAGILITY.png",
+      "source": "site-icon",
+      "domain": "sagilityhealth.com"
+    },
+    "SMT": {
+      "file": "SMT.ico",
+      "source": "site-icon",
+      "domain": "smtpl.com"
+    },
+    "SHK": {
+      "file": "SHK.jpg",
+      "source": "google-favicon",
+      "domain": "keva.co.in"
+    },
+    "KALAMANDIR": {
+      "file": "KALAMANDIR.png",
+      "source": "site-icon",
+      "domain": "sskl.co.in"
+    },
+    "SAHANA": {
+      "file": "SAHANA.png",
+      "source": "google-favicon",
+      "domain": "sahanasystem.com"
+    },
+    "SAKSOFT": {
+      "file": "SAKSOFT.png",
+      "source": "google-favicon",
+      "domain": "saksoft.com"
+    },
+    "SAKAR": {
+      "file": "SAKAR.png",
+      "source": "site-icon",
+      "domain": "sakarhealthcare.com"
+    },
+    "SAMBHV": {
+      "file": "SAMBHV.png",
+      "source": "site-icon",
+      "domain": "sambhv.com"
+    },
+    "MOTHERSON": {
+      "file": "MOTHERSON.png",
+      "source": "google-favicon",
+      "domain": "motherson.com"
+    },
+    "SANATHAN": {
+      "file": "SANATHAN.png",
+      "source": "apple-touch",
+      "domain": "sanathan.com"
+    },
+    "SAILIFE": {
+      "file": "SAILIFE.webp",
+      "source": "site-icon",
+      "domain": "sailife.com"
+    },
+    "SAMHI": {
+      "file": "SAMHI.png",
+      "source": "google-favicon",
+      "domain": "samhi.co.in"
+    },
+    "SANDUMA": {
+      "file": "SANDUMA.png",
+      "source": "site-icon",
+      "domain": "sandurgroup.com"
+    },
+    "SANGAMIND": {
+      "file": "SANGAMIND.png",
+      "source": "site-icon",
+      "domain": "sangamgroup.com"
+    },
+    "SANSERA": {
+      "file": "SANSERA.png",
+      "source": "apple-touch",
+      "domain": "sansera.in"
+    },
+    "SAPPHIRE": {
+      "file": "SAPPHIRE.png",
+      "source": "google-favicon",
+      "domain": "sapphirefoods.in"
+    },
+    "ZSARACOM": {
+      "file": "ZSARACOM.png",
+      "source": "site-icon",
+      "domain": "saraswaticommercial.com"
+    },
+    "SARDAEN": {
+      "file": "SARDAEN.ico",
+      "source": "site-icon",
+      "domain": "seml.co.in"
+    },
+    "SAREGAMA": {
+      "file": "SAREGAMA.png",
+      "source": "site-icon",
+      "domain": "saregama.com"
+    },
+    "SASKEN": {
+      "file": "SASKEN.png",
+      "source": "site-icon",
+      "domain": "sasken.com"
+    },
+    "SANSTAR": {
+      "file": "SANSTAR.png",
+      "source": "site-icon",
+      "domain": "sanstar.in"
+    },
+    "SATIN": {
+      "file": "SATIN.jpg",
+      "source": "site-icon",
+      "domain": "satincreditcare.com"
+    },
+    "SOTL": {
+      "file": "SOTL.png",
+      "source": "site-icon",
+      "domain": "savita.com"
+    },
+    "SANOFI": {
+      "file": "SANOFI.png",
+      "source": "site-icon",
+      "domain": "sanofiindialtd.com"
+    },
+    "SANOFICONR": {
+      "file": "SANOFICONR.png",
+      "source": "site-icon",
+      "domain": "sanofi.in"
+    },
+    "SBC": {
+      "file": "SBC.png",
+      "source": "site-icon",
+      "domain": "sbcexportslimited.com"
+    },
+    "SBICARD": {
+      "file": "SBICARD.jpg",
+      "source": "site-icon",
+      "domain": "sbicard.com"
+    },
+    "SBILIFE": {
+      "file": "SBILIFE.jpg",
+      "source": "site-icon",
+      "domain": "sbilife.co.in"
+    },
+    "SCHNEIDER": {
+      "file": "SCHNEIDER.png",
+      "source": "google-favicon",
+      "domain": "infra-in.se.com"
+    },
+    "SEAMECLTD": {
+      "file": "SEAMECLTD.png",
+      "source": "site-icon",
+      "domain": "seamec.in"
+    },
+    "SENCO": {
+      "file": "SENCO.ico",
+      "source": "site-icon",
+      "domain": "sencogoldanddiamonds.com"
+    },
+    "SERVOTECH": {
+      "file": "SERVOTECH.png",
+      "source": "google-favicon",
+      "domain": "servotech.in"
+    },
+    "SENORES": {
+      "file": "SENORES.png",
+      "source": "site-icon",
+      "domain": "senorespharma.com"
+    },
+    "SFCTECH": {
+      "file": "SFCTECH.png",
+      "source": "site-icon",
+      "domain": "sfcenvironment.com"
+    },
+    "SANGHVIMOV": {
+      "file": "SANGHVIMOV.png",
+      "source": "google-favicon",
+      "domain": "sanghvicranes.com"
+    },
+    "SGMART": {
+      "file": "SGMART.png",
+      "source": "site-icon",
+      "domain": "sgmart.co.in"
+    },
+    "STYL": {
+      "file": "STYL.png",
+      "source": "google-favicon",
+      "domain": "seshaasai.com"
+    },
+    "SGFIN": {
+      "file": "SGFIN.png",
+      "source": "site-icon",
+      "domain": "sgfinserve.com"
+    },
+    "SHADOWFAX": {
+      "file": "SHADOWFAX.png",
+      "source": "site-icon",
+      "domain": "shadowfax.in"
+    },
+    "SHAILY": {
+      "file": "SHAILY.png",
+      "source": "apple-touch",
+      "domain": "shaily.com"
+    },
+    "SCHAEFFLER": {
+      "file": "SCHAEFFLER.png",
+      "source": "apple-touch",
+      "domain": "schaeffler.co.in"
+    },
+    "SHALBY": {
+      "file": "SHALBY.ico",
+      "source": "site-icon",
+      "domain": "shalby.org"
+    },
+    "SHAKTIPUMP": {
+      "file": "SHAKTIPUMP.webp",
+      "source": "site-icon",
+      "domain": "shaktipumps.com"
+    },
+    "BUILDPRO": {
+      "file": "BUILDPRO.ico",
+      "source": "site-icon",
+      "domain": "shankarabuildpro.com"
+    },
+    "SHANKESH": {
+      "file": "SHANKESH.png",
+      "source": "site-icon",
+      "domain": "shankeshjewellers.com"
+    },
+    "SHANTIGEAR": {
+      "file": "SHANTIGEAR.png",
+      "source": "site-icon",
+      "domain": "shanthigears.com"
+    },
+    "SHARDACROP": {
+      "file": "SHARDACROP.jpg",
+      "source": "site-icon",
+      "domain": "shardacropchem.com"
+    },
+    "SHANTIGOLD": {
+      "file": "SHANTIGOLD.png",
+      "source": "site-icon",
+      "domain": "shantigold.in"
+    },
+    "SFL": {
+      "file": "SFL.ico",
+      "source": "site-icon",
+      "domain": "sheelafoam.com"
+    },
+    "SHAREINDIA": {
+      "file": "SHAREINDIA.png",
+      "source": "site-icon",
+      "domain": "shareindia.com"
+    },
+    "SHARDAMOTR": {
+      "file": "SHARDAMOTR.ico",
+      "source": "site-icon",
+      "domain": "shardamotor.com"
+    },
+    "SEIL": {
+      "file": "SEIL.png",
+      "source": "site-icon",
+      "domain": "seil.one"
+    },
+    "SHIPROCKET": {
+      "file": "SHIPROCKET.png",
+      "source": "site-icon",
+      "domain": "shiprocket.in"
+    },
+    "SBCL": {
+      "file": "SBCL.ico",
+      "source": "site-icon",
+      "domain": "shivalikbimetals.com"
+    },
+    "SHOPERSTOP": {
+      "file": "SHOPERSTOP.png",
+      "source": "apple-touch",
+      "domain": "shoppersstop.com"
+    },
+    "SHREECEM": {
+      "file": "SHREECEM.png",
+      "source": "apple-touch",
+      "domain": "shreecement.com"
+    },
+    "SHREMINVIT": {
+      "file": "SHREMINVIT.ico",
+      "source": "site-icon",
+      "domain": "shreminvit.com"
+    },
+    "SCILAL": {
+      "file": "SCILAL.ico",
+      "source": "site-icon",
+      "domain": "scilal.com"
+    },
+    "SHREEJISPG": {
+      "file": "SHREEJISPG.png",
+      "source": "google-favicon",
+      "domain": "shreejishipping.in"
+    },
+    "SHRINGARMS": {
+      "file": "SHRINGARMS.webp",
+      "source": "site-icon",
+      "domain": "shringar.ms"
+    },
+    "SHRIRAMFIN": {
+      "file": "SHRIRAMFIN.ico",
+      "source": "site-icon",
+      "domain": "shriramfinance.in"
+    },
+    "SHUKRAPHAR": {
+      "file": "SHUKRAPHAR.png",
+      "source": "site-icon",
+      "domain": "shukrapharmaceuticals.com"
+    },
+    "SHRIRAMPPS": {
+      "file": "SHRIRAMPPS.ico",
+      "source": "site-icon",
+      "domain": "shriramproperties.com"
+    },
+    "SHYAMMETL": {
+      "file": "SHYAMMETL.jpg",
+      "source": "google-favicon",
+      "domain": "shyammetalics.com"
+    },
+    "RENUKA": {
+      "file": "RENUKA.png",
+      "source": "google-favicon",
+      "domain": "renukasugars.com"
+    },
+    "SIGMAADV": {
+      "file": "SIGMAADV.png",
+      "source": "google-favicon",
+      "domain": "megasoft.com"
+    },
+    "SIGNPOST": {
+      "file": "SIGNPOST.png",
+      "source": "site-icon",
+      "domain": "signpostindia.com"
+    },
+    "SIGACHI": {
+      "file": "SIGACHI.png",
+      "source": "site-icon",
+      "domain": "sigachi.com"
+    },
+    "SHREEPUSHK": {
+      "file": "SHREEPUSHK.png",
+      "source": "google-favicon",
+      "domain": "shreepushkar.com"
+    },
+    "SIMPLEXINF": {
+      "file": "SIMPLEXINF.jpg",
+      "source": "site-icon",
+      "domain": "simplexinfra.com"
+    },
+    "ENRIN": {
+      "file": "ENRIN.ico",
+      "source": "site-icon",
+      "domain": "siemens-energy-india.com"
+    },
+    "SINDHUTRAD": {
+      "file": "SINDHUTRAD.jpg",
+      "source": "site-icon",
+      "domain": "sindhutrade.com"
+    },
+    "SIEMENS": {
+      "file": "SIEMENS.ico",
+      "source": "site-icon",
+      "domain": "siemens.co.in"
+    },
+    "SIYSIL": {
+      "file": "SIYSIL.png",
+      "source": "site-icon",
+      "domain": "siyaram.com"
+    },
+    "SJS": {
+      "file": "SJS.png",
+      "source": "site-icon",
+      "domain": "sjsindia.com"
+    },
+    "SIS": {
+      "file": "SIS.jpg",
+      "source": "site-icon",
+      "domain": "sisindia.com"
+    },
+    "SILVERTUC": {
+      "file": "SILVERTUC.ico",
+      "source": "site-icon",
+      "domain": "silvertouch.com"
+    },
+    "SIRCA": {
+      "file": "SIRCA.png",
+      "source": "site-icon",
+      "domain": "sircapaints.com"
+    },
+    "SKMEGGPROD": {
+      "file": "SKMEGGPROD.png",
+      "source": "site-icon",
+      "domain": "skmegg.com"
+    },
+    "SJVN": {
+      "file": "SJVN.ico",
+      "source": "site-icon",
+      "domain": "sjvn.nic.in"
+    },
+    "SKFINDIA": {
+      "file": "SKFINDIA.png",
+      "source": "google-favicon",
+      "domain": "skf.com"
+    },
+    "SKFINDUS": {
+      "file": "SKFINDUS.png",
+      "source": "google-favicon",
+      "domain": "skf.com"
+    },
+    "SKYGOLD": {
+      "file": "SKYGOLD.png",
+      "source": "site-icon",
+      "domain": "skygold.co.in"
+    },
+    "SMCGLOBAL": {
+      "file": "SMCGLOBAL.png",
+      "source": "site-icon",
+      "domain": "smcindiaonline.com"
+    },
+    "SKYWAYS": {
+      "file": "SKYWAYS.png",
+      "source": "site-icon",
+      "domain": "skyways-air.in"
+    },
+    "SOLARINDS": {
+      "file": "SOLARINDS.png",
+      "source": "site-icon",
+      "domain": "solargroup.com"
+    },
+    "SOBHA": {
+      "file": "SOBHA.png",
+      "source": "site-icon",
+      "domain": "sobha.com"
+    },
+    "SDBL": {
+      "file": "SDBL.png",
+      "source": "site-icon",
+      "domain": "somindia.com"
+    },
+    "SMARTWORKS": {
+      "file": "SMARTWORKS.png",
+      "source": "site-icon",
+      "domain": "smartworksoffice.com"
+    },
+    "SOMANYCERA": {
+      "file": "SOMANYCERA.png",
+      "source": "apple-touch",
+      "domain": "somanyceramics.com"
+    },
+    "SONACOMS": {
+      "file": "SONACOMS.png",
+      "source": "site-icon",
+      "domain": "sonacomstar.com"
+    },
+    "SPANDANA": {
+      "file": "SPANDANA.png",
+      "source": "google-favicon",
+      "domain": "spandanasphoorty.com"
+    },
+    "SPECTRUM": {
+      "file": "SPECTRUM.jpg",
+      "source": "site-icon",
+      "domain": "spectrum-india.com"
+    },
+    "SOLARA": {
+      "file": "SOLARA.png",
+      "source": "site-icon",
+      "domain": "solara.co.in"
+    },
+    "SPMLINFRA": {
+      "file": "SPMLINFRA.ico",
+      "source": "site-icon",
+      "domain": "spml.co.in"
+    },
+    "SPICEJET": {
+      "file": "SPICEJET.png",
+      "source": "site-icon",
+      "domain": "spicejet.com"
+    },
+    "SONATSOFTW": {
+      "file": "SONATSOFTW.ico",
+      "source": "site-icon",
+      "domain": "sonata-software.com"
+    },
+    "LOTUSDEV": {
+      "file": "LOTUSDEV.png",
+      "source": "apple-touch",
+      "domain": "lotusdevelopers.com"
+    },
+    "STALLION": {
+      "file": "STALLION.png",
+      "source": "site-icon",
+      "domain": "stallionfluorochemicals.com"
+    },
+    "SSRETAIL": {
+      "file": "SSRETAIL.jpg",
+      "source": "google-favicon",
+      "domain": "ssmobile.com"
+    },
+    "STARCEMENT": {
+      "file": "STARCEMENT.ico",
+      "source": "site-icon",
+      "domain": "starcement.co.in"
+    },
+    "STARHEALTH": {
+      "file": "STARHEALTH.ico",
+      "source": "site-icon",
+      "domain": "starhealth.in"
+    },
+    "SETL": {
+      "file": "SETL.jpg",
+      "source": "site-icon",
+      "domain": "standardengtech.com"
+    },
+    "SHRIPISTON": {
+      "file": "SHRIPISTON.png",
+      "source": "google-favicon",
+      "domain": "shrirampistons.com"
+    },
+    "STEELXIND": {
+      "file": "STEELXIND.png",
+      "source": "site-icon",
+      "domain": "seil.co.in"
+    },
+    "SSWL": {
+      "file": "SSWL.png",
+      "source": "site-icon",
+      "domain": "sswlindia.com"
+    },
+    "SWSOLAR": {
+      "file": "SWSOLAR.png",
+      "source": "site-icon",
+      "domain": "sterlingandwilsonre.com"
+    },
+    "STEAMHOUSE": {
+      "file": "STEAMHOUSE.png",
+      "source": "site-icon",
+      "domain": "steamhouse.in"
+    },
+    "STLTECH": {
+      "file": "STLTECH.png",
+      "source": "site-icon",
+      "domain": "stl.tech"
+    },
+    "STLNETWORK": {
+      "file": "STLNETWORK.png",
+      "source": "site-icon",
+      "domain": "inveniatech.com"
+    },
+    "STOVEKRAFT": {
+      "file": "STOVEKRAFT.png",
+      "source": "site-icon",
+      "domain": "stovekraft.com"
+    },
+    "STAR": {
+      "file": "STAR.ico",
+      "source": "site-icon",
+      "domain": "strides.com"
+    },
+    "STYLAMIND": {
+      "file": "STYLAMIND.png",
+      "source": "site-icon",
+      "domain": "stylam.com"
+    },
+    "STEL": {
+      "file": "STEL.png",
+      "source": "site-icon",
+      "domain": "stelholdings.com"
+    },
+    "SUDARSCHEM": {
+      "file": "SUDARSCHEM.jpg",
+      "source": "google-favicon",
+      "domain": "sudarshan.com"
+    },
+    "STUDDS": {
+      "file": "STUDDS.png",
+      "source": "site-icon",
+      "domain": "studds.com"
+    },
+    "SUBROS": {
+      "file": "SUBROS.png",
+      "source": "google-favicon",
+      "domain": "subros.com"
+    },
+    "SUMICHEM": {
+      "file": "SUMICHEM.png",
+      "source": "site-icon",
+      "domain": "sumichem.co.in"
+    },
+    "SULA": {
+      "file": "SULA.webp",
+      "source": "site-icon",
+      "domain": "sulavineyards.com"
+    },
+    "SUNPHARMA": {
+      "file": "SUNPHARMA.png",
+      "source": "google-favicon",
+      "domain": "sunpharma.com"
+    },
+    "SMSPHARMA": {
+      "file": "SMSPHARMA.png",
+      "source": "google-favicon",
+      "domain": "smspharma.com"
+    },
+    "SUNDRMFAST": {
+      "file": "SUNDRMFAST.png",
+      "source": "google-favicon",
+      "domain": "sundram.com"
+    },
+    "SUNDARMFIN": {
+      "file": "SUNDARMFIN.ico",
+      "source": "site-icon",
+      "domain": "sundaramfinance.in"
+    },
+    "SUNRAKSHAK": {
+      "file": "SUNRAKSHAK.png",
+      "source": "google-favicon",
+      "domain": "sunrakshakk.com"
+    },
+    "SUNSHINE": {
+      "file": "SUNSHINE.png",
+      "source": "site-icon",
+      "domain": "sunshinepictures.in"
+    },
+    "SUNDROP": {
+      "file": "SUNDROP.png",
+      "source": "site-icon",
+      "domain": "sundropbrands.com"
+    },
+    "SUNFLAG": {
+      "file": "SUNFLAG.png",
+      "source": "site-icon",
+      "domain": "sunflagsteel.com"
+    },
+    "SUPRAJIT": {
+      "file": "SUPRAJIT.png",
+      "source": "site-icon",
+      "domain": "suprajit.com"
+    },
+    "SUPRIYA": {
+      "file": "SUPRIYA.jpg",
+      "source": "site-icon",
+      "domain": "supriyalifescience.com"
+    },
+    "SURAKSHA": {
+      "file": "SURAKSHA.png",
+      "source": "site-icon",
+      "domain": "surakshanet.com"
+    },
+    "SURYAROSNI": {
+      "file": "SURYAROSNI.ico",
+      "source": "site-icon",
+      "domain": "surya.co.in"
+    },
+    "SURYODAY": {
+      "file": "SURYODAY.ico",
+      "source": "site-icon",
+      "domain": "suryodaybank.com"
+    },
+    "SPLPETRO": {
+      "file": "SPLPETRO.png",
+      "source": "site-icon",
+      "domain": "supremepetrochem.com"
+    },
+    "SWANDEF": {
+      "file": "SWANDEF.png",
+      "source": "site-icon",
+      "domain": "sdhi.co.in"
+    },
+    "SWANCORP": {
+      "file": "SWANCORP.png",
+      "source": "site-icon",
+      "domain": "swan.co.in"
+    },
+    "SWARAJENG": {
+      "file": "SWARAJENG.png",
+      "source": "google-favicon",
+      "domain": "swarajenterprise.com"
+    },
+    "SWIGGY": {
+      "file": "SWIGGY.png",
+      "source": "google-favicon",
+      "domain": "swiggy.com"
+    },
+    "SYMBIOTEC": {
+      "file": "SYMBIOTEC.webp",
+      "source": "site-icon",
+      "domain": "symbiotec.com"
+    },
+    "SYMPHONY": {
+      "file": "SYMPHONY.png",
+      "source": "site-icon",
+      "domain": "symphonylimited.com"
+    },
+    "SYRMA": {
+      "file": "SYRMA.png",
+      "source": "site-icon",
+      "domain": "syrmasgs.com"
+    },
+    "SYSTMTXC": {
+      "file": "SYSTMTXC.jpg",
+      "source": "site-icon",
+      "domain": "systematixgroup.in"
+    },
+    "TBZ": {
+      "file": "TBZ.jpg",
+      "source": "google-favicon",
+      "domain": "tbztheoriginal.com"
+    },
+    "SUDEEPPHRM": {
+      "file": "SUDEEPPHRM.png",
+      "source": "site-icon",
+      "domain": "sudeeppharma.com"
+    },
+    "TARIL": {
+      "file": "TARIL.png",
+      "source": "google-favicon",
+      "domain": "transformerindia.com"
+    },
+    "TMB": {
+      "file": "TMB.png",
+      "source": "site-icon",
+      "domain": "tmb.bank.in"
+    },
+    "TAALTECH": {
+      "file": "TAALTECH.webp",
+      "source": "site-icon",
+      "domain": "taalent.co.in"
+    },
+    "TALBROAUTO": {
+      "file": "TALBROAUTO.png",
+      "source": "site-icon",
+      "domain": "talbros.com"
+    },
+    "TANLA": {
+      "file": "TANLA.jpg",
+      "source": "site-icon",
+      "domain": "tanla.com"
+    },
+    "TARC": {
+      "file": "TARC.png",
+      "source": "site-icon",
+      "domain": "tarc.in"
+    },
+    "TATACHEM": {
+      "file": "TATACHEM.png",
+      "source": "site-icon",
+      "domain": "tatachemicals.com"
+    },
+    "TARSONS": {
+      "file": "TARSONS.png",
+      "source": "site-icon",
+      "domain": "tarsons.com"
+    },
+    "TNPETRO": {
+      "file": "TNPETRO.png",
+      "source": "google-favicon",
+      "domain": "tnpetro.com"
+    },
+    "TATACOMM": {
+      "file": "TATACOMM.png",
+      "source": "site-icon",
+      "domain": "tatacommunications.com"
+    },
+    "TATAELXSI": {
+      "file": "TATAELXSI.png",
+      "source": "site-icon",
+      "domain": "tataelxsi.com"
+    },
+    "TASTYBITE": {
+      "file": "TASTYBITE.png",
+      "source": "google-favicon",
+      "domain": "tastybite.co.in"
+    },
+    "TATAINVEST": {
+      "file": "TATAINVEST.png",
+      "source": "google-favicon",
+      "domain": "tatainvestment.com"
+    },
+    "TATACONSUM": {
+      "file": "TATACONSUM.png",
+      "source": "site-icon",
+      "domain": "tataconsumer.com"
+    },
+    "TATASTEEL": {
+      "file": "TATASTEEL.png",
+      "source": "site-icon",
+      "domain": "tatasteel.com"
+    },
+    "TATAPOWER": {
+      "file": "TATAPOWER.png",
+      "source": "google-favicon",
+      "domain": "tatapower.com"
+    },
+    "TMCV": {
+      "file": "TMCV.png",
+      "source": "site-icon",
+      "domain": "cv.tatamotors.com"
+    },
+    "TBOTEK": {
+      "file": "TBOTEK.ico",
+      "source": "site-icon",
+      "domain": "tbo.com"
+    },
+    "TTML": {
+      "file": "TTML.ico",
+      "source": "site-icon",
+      "domain": "tatatelebusiness.com"
+    },
+    "TCIEXP": {
+      "file": "TCIEXP.png",
+      "source": "site-icon",
+      "domain": "tciexpress.in"
+    },
+    "TMPV": {
+      "file": "TMPV.png",
+      "source": "site-icon",
+      "domain": "tatamotors.com"
+    },
+    "TCS": {
+      "file": "TCS.png",
+      "source": "site-icon",
+      "domain": "tcs.com"
+    },
+    "TECHM": {
+      "file": "TECHM.png",
+      "source": "apple-touch",
+      "domain": "techmahindra.com"
+    },
+    "TATVA": {
+      "file": "TATVA.png",
+      "source": "site-icon",
+      "domain": "tatvachintan.com"
+    },
+    "TDPOWERSYS": {
+      "file": "TDPOWERSYS.png",
+      "source": "site-icon",
+      "domain": "tdps.co.in"
+    },
+    "TIIL": {
+      "file": "TIIL.png",
+      "source": "site-icon",
+      "domain": "technocraftgroup.com"
+    },
+    "TECHNOE": {
+      "file": "TECHNOE.png",
+      "source": "google-favicon",
+      "domain": "techno.co.in"
+    },
+    "TECHNOCRAF": {
+      "file": "TECHNOCRAF.png",
+      "source": "site-icon",
+      "domain": "technocraftventures.com"
+    },
+    "TEMPSENS": {
+      "file": "TEMPSENS.jpg",
+      "source": "google-favicon",
+      "domain": "tempsens.com"
+    },
+    "TEXINFRA": {
+      "file": "TEXINFRA.ico",
+      "source": "site-icon",
+      "domain": "texinfra.in"
+    },
+    "TEAMLEASE": {
+      "file": "TEAMLEASE.png",
+      "source": "site-icon",
+      "domain": "group.teamlease.com"
+    },
+    "TEGA": {
+      "file": "TEGA.png",
+      "source": "apple-touch",
+      "domain": "tegaindustries.com"
+    },
+    "TGVSL": {
+      "file": "TGVSL.ico",
+      "source": "site-icon",
+      "domain": "tgvgroup.com"
+    },
+    "ANUP": {
+      "file": "ANUP.png",
+      "source": "site-icon",
+      "domain": "anupengg.com"
+    },
+    "BBTC": {
+      "file": "BBTC.png",
+      "source": "google-favicon",
+      "domain": "bbtcl.com"
+    },
+    "THERMAX": {
+      "file": "THERMAX.png",
+      "source": "google-favicon",
+      "domain": "thermaxglobal.com"
+    },
+    "THEJO": {
+      "file": "THEJO.ico",
+      "source": "site-icon",
+      "domain": "thejo-engg.com"
+    },
+    "RAMCOCEM": {
+      "file": "RAMCOCEM.jpg",
+      "source": "google-favicon",
+      "domain": "ramcocements.in"
+    },
+    "THOMASCOOK": {
+      "file": "THOMASCOOK.png",
+      "source": "site-icon",
+      "domain": "thomascook.in"
+    },
+    "THYROCARE": {
+      "file": "THYROCARE.png",
+      "source": "google-favicon",
+      "domain": "thyrocare.com"
+    },
+    "TI": {
+      "file": "TI.png",
+      "source": "site-icon",
+      "domain": "tilind.com"
+    },
+    "TIL": {
+      "file": "TIL.png",
+      "source": "site-icon",
+      "domain": "tilindia.in"
+    },
+    "THANGAMAYL": {
+      "file": "THANGAMAYL.jpg",
+      "source": "site-icon",
+      "domain": "thangamayil.com"
+    },
+    "TEXRAIL": {
+      "file": "TEXRAIL.png",
+      "source": "site-icon",
+      "domain": "texmaco.in"
+    },
+    "TEJASNET": {
+      "file": "TEJASNET.png",
+      "source": "site-icon",
+      "domain": "tejasnetworks.com"
+    },
+    "TINNARUBR": {
+      "file": "TINNARUBR.png",
+      "source": "site-icon",
+      "domain": "tinna.in"
+    },
+    "TIPSMUSIC": {
+      "file": "TIPSMUSIC.png",
+      "source": "site-icon",
+      "domain": "tips.in"
+    },
+    "TITAN": {
+      "file": "TITAN.png",
+      "source": "site-icon",
+      "domain": "titancompany.in"
+    },
+    "TITAGARH": {
+      "file": "TITAGARH.png",
+      "source": "site-icon",
+      "domain": "titagarh.in"
+    },
+    "TORNTPHARM": {
+      "file": "TORNTPHARM.png",
+      "source": "google-favicon",
+      "domain": "torrentpharma.com"
+    },
+    "TIMETECHNO": {
+      "file": "TIMETECHNO.ico",
+      "source": "site-icon",
+      "domain": "timetechnoplast.com"
+    },
+    "TRIVENI": {
+      "file": "TRIVENI.png",
+      "source": "site-icon",
+      "domain": "trivenigroup.com"
+    },
+    "TRIDENT": {
+      "file": "TRIDENT.png",
+      "source": "google-favicon",
+      "domain": "tridentindia.com"
+    },
+    "TRUALT": {
+      "file": "TRUALT.png",
+      "source": "site-icon",
+      "domain": "trualtbioenergy.com"
+    },
+    "TSFINV": {
+      "file": "TSFINV.png",
+      "source": "site-icon",
+      "domain": "tsfinvestments.com"
+    },
+    "TRIVENIPT": {
+      "file": "TRIVENIPT.png",
+      "source": "site-icon",
+      "domain": "trivenipowertransmission.com"
+    },
+    "TTKHLTCARE": {
+      "file": "TTKHLTCARE.ico",
+      "source": "site-icon",
+      "domain": "ttkhealthcare.com"
+    },
+    "TCI": {
+      "file": "TCI.jpg",
+      "source": "site-icon",
+      "domain": "tcil.com"
+    },
+    "TONBO": {
+      "file": "TONBO.png",
+      "source": "site-icon",
+      "domain": "tonboimaging.com"
+    },
+    "TURTLEMINT": {
+      "file": "TURTLEMINT.png",
+      "source": "site-icon",
+      "domain": "turtlemint.com"
+    },
+    "TVSMOTOR": {
+      "file": "TVSMOTOR.png",
+      "source": "google-favicon",
+      "domain": "tvsmotor.com"
+    },
+    "TIINDIA": {
+      "file": "TIINDIA.png",
+      "source": "google-favicon",
+      "domain": "tiindia.com"
+    },
+    "TVSSCS": {
+      "file": "TVSSCS.png",
+      "source": "google-favicon",
+      "domain": "tvsscs.com"
+    },
+    "TRANSRAILL": {
+      "file": "TRANSRAILL.png",
+      "source": "site-icon",
+      "domain": "transrail.in"
+    },
+    "UFLEX": {
+      "file": "UFLEX.ico",
+      "source": "site-icon",
+      "domain": "uflexltd.com"
+    },
+    "UGROCAP": {
+      "file": "UGROCAP.png",
+      "source": "site-icon",
+      "domain": "ugrocapital.com"
+    },
+    "TVSSRICHAK": {
+      "file": "TVSSRICHAK.ico",
+      "source": "site-icon",
+      "domain": "tvseurogrip.com"
+    },
+    "UJJIVANSFB": {
+      "file": "UJJIVANSFB.ico",
+      "source": "site-icon",
+      "domain": "ujjivansfb.bank.in"
+    },
+    "ULTRACEMCO": {
+      "file": "ULTRACEMCO.ico",
+      "source": "site-icon",
+      "domain": "ultratechcement.com"
+    },
+    "ULTRAMAR": {
+      "file": "ULTRAMAR.png",
+      "source": "site-icon",
+      "domain": "ultramarinepigments.net"
+    },
+    "UNICHEMLAB": {
+      "file": "UNICHEMLAB.png",
+      "source": "site-icon",
+      "domain": "unichemlabs.com"
+    },
+    "TTKPRESTIG": {
+      "file": "TTKPRESTIG.png",
+      "source": "site-icon",
+      "domain": "ttkprestige.com"
+    },
+    "UNIMECH": {
+      "file": "UNIMECH.jpg",
+      "source": "site-icon",
+      "domain": "unimechaerospace.com"
+    },
+    "UNIPARTS": {
+      "file": "UNIPARTS.ico",
+      "source": "site-icon",
+      "domain": "unipartsgroup.com"
+    },
+    "UFBL": {
+      "file": "UFBL.png",
+      "source": "site-icon",
+      "domain": "unitedfoodbrands.in"
+    },
+    "UNOMINDA": {
+      "file": "UNOMINDA.png",
+      "source": "site-icon",
+      "domain": "unominda.com"
+    },
+    "UNIVCABLES": {
+      "file": "UNIVCABLES.png",
+      "source": "site-icon",
+      "domain": "unistar.co.in"
+    },
+    "UDS": {
+      "file": "UDS.png",
+      "source": "site-icon",
+      "domain": "uds.in"
+    },
+    "UPL": {
+      "file": "UPL.png",
+      "source": "site-icon",
+      "domain": "upl-ltd.com"
+    },
+    "USHAMART": {
+      "file": "USHAMART.ico",
+      "source": "site-icon",
+      "domain": "ushamartin.com"
+    },
+    "UTIAMC": {
+      "file": "UTIAMC.ico",
+      "source": "site-icon",
+      "domain": "utimf.com"
+    },
+    "URBANCO": {
+      "file": "URBANCO.jpg",
+      "source": "site-icon",
+      "domain": "urbancompany.com"
+    },
+    "UNITDSPR": {
+      "file": "UNITDSPR.png",
+      "source": "apple-touch",
+      "domain": "diageoindia.com"
+    },
+    "UTKARSHBNK": {
+      "file": "UTKARSHBNK.png",
+      "source": "site-icon",
+      "domain": "utkarsh.bank.in"
+    },
+    "VIPIND": {
+      "file": "VIPIND.png",
+      "source": "site-icon",
+      "domain": "vipindustries.co.in"
+    },
+    "VGUARD": {
+      "file": "VGUARD.png",
+      "source": "site-icon",
+      "domain": "vguard.in"
+    },
+    "VMART": {
+      "file": "VMART.png",
+      "source": "site-icon",
+      "domain": "vmart.co.in"
+    },
+    "UTTAMSUGAR": {
+      "file": "UTTAMSUGAR.ico",
+      "source": "site-icon",
+      "domain": "uttamsugar.in"
+    },
+    "VMARCIND": {
+      "file": "VMARCIND.png",
+      "source": "site-icon",
+      "domain": "v-marc.com"
+    },
+    "VADILALIND": {
+      "file": "VADILALIND.png",
+      "source": "google-favicon",
+      "domain": "vadilalgroup.com"
+    },
+    "UCOBANK": {
+      "file": "UCOBANK.png",
+      "source": "google-favicon",
+      "domain": "ucobank.com"
+    },
+    "VAIBHAVGBL": {
+      "file": "VAIBHAVGBL.png",
+      "source": "google-favicon",
+      "domain": "vaibhavglobal.com"
+    },
+    "VHL": {
+      "file": "VHL.png",
+      "source": "site-icon",
+      "domain": "vardhman.com"
+    },
+    "DBREALTY": {
+      "file": "DBREALTY.png",
+      "source": "google-favicon",
+      "domain": "dbrealty.co.in"
+    },
+    "VTL": {
+      "file": "VTL.png",
+      "source": "site-icon",
+      "domain": "vardhman.com"
+    },
+    "V2RETAIL": {
+      "file": "V2RETAIL.png",
+      "source": "site-icon",
+      "domain": "v2retail.com"
+    },
+    "VARMORA": {
+      "file": "VARMORA.png",
+      "source": "site-icon",
+      "domain": "varmora.com"
+    },
+    "UTSSAV": {
+      "file": "UTSSAV.png",
+      "source": "site-icon",
+      "domain": "utssavjewels.com"
+    },
+    "MANYAVAR": {
+      "file": "MANYAVAR.png",
+      "source": "site-icon",
+      "domain": "vedantfashions.com"
+    },
+    "VSSL": {
+      "file": "VSSL.ico",
+      "source": "site-icon",
+      "domain": "vardhmansteel.com"
+    },
+    "VEDL": {
+      "file": "VEDL.png",
+      "source": "google-favicon",
+      "domain": "vedantalimited.com"
+    },
+    "VISL": {
+      "file": "VISL.png",
+      "source": "site-icon",
+      "domain": "vedantaironandsteel.com"
+    },
+    "VBL": {
+      "file": "VBL.png",
+      "source": "site-icon",
+      "domain": "varunbeverages.com"
+    },
+    "VAML": {
+      "file": "VAML.png",
+      "source": "site-icon",
+      "domain": "vedantaaluminium.com"
+    },
+    "VEDPOWER": {
+      "file": "VEDPOWER.png",
+      "source": "site-icon",
+      "domain": "vedantapower.com"
+    },
+    "VEEDOL": {
+      "file": "VEEDOL.png",
+      "source": "site-icon",
+      "domain": "veedolindia.com"
+    },
+    "VENUSREM": {
+      "file": "VENUSREM.png",
+      "source": "site-icon",
+      "domain": "venusremedies.com"
+    },
+    "WABAG": {
+      "file": "WABAG.png",
+      "source": "site-icon",
+      "domain": "wabag.com"
+    },
+    "VHLTD": {
+      "file": "VHLTD.png",
+      "source": "site-icon",
+      "domain": "viceroyhotels.in"
+    },
+    "VESUVIUS": {
+      "file": "VESUVIUS.png",
+      "source": "site-icon",
+      "domain": "vesuviusindia.in"
+    },
+    "VENUSPIPES": {
+      "file": "VENUSPIPES.ico",
+      "source": "site-icon",
+      "domain": "venuspipes.com"
+    },
+    "VIDHIING": {
+      "file": "VIDHIING.png",
+      "source": "site-icon",
+      "domain": "vidhifoodcolors.com"
+    },
+    "VIKRAMSOLR": {
+      "file": "VIKRAMSOLR.png",
+      "source": "google-favicon",
+      "domain": "vikramsolar.com"
+    },
+    "VIJAYA": {
+      "file": "VIJAYA.png",
+      "source": "site-icon",
+      "domain": "vijayadiagnostic.com"
+    },
+    "VIDYAWIRES": {
+      "file": "VIDYAWIRES.png",
+      "source": "site-icon",
+      "domain": "vidyawire.com"
+    },
+    "VIKRAN": {
+      "file": "VIKRAN.webp",
+      "source": "site-icon",
+      "domain": "vikrangroup.com"
+    },
+    "VENTIVE": {
+      "file": "VENTIVE.png",
+      "source": "site-icon",
+      "domain": "ventivehospitality.com"
+    },
+    "VINATIORGA": {
+      "file": "VINATIORGA.png",
+      "source": "site-icon",
+      "domain": "vinatiorganics.com"
+    },
+    "VIMTALABS": {
+      "file": "VIMTALABS.png",
+      "source": "site-icon",
+      "domain": "vimta.com"
+    },
+    "VOEPL": {
+      "file": "VOEPL.ico",
+      "source": "site-icon",
+      "domain": "voepl.com"
+    },
+    "VINYAS": {
+      "file": "VINYAS.jpg",
+      "source": "site-icon",
+      "domain": "vinyasit.com"
+    },
+    "VMM": {
+      "file": "VMM.ico",
+      "source": "site-icon",
+      "domain": "aboutvishal.com"
+    },
+    "VINCOFE": {
+      "file": "VINCOFE.png",
+      "source": "site-icon",
+      "domain": "vcbl.coffee"
+    },
+    "IDEA": {
+      "file": "IDEA.png",
+      "source": "site-icon",
+      "domain": "myvi.in"
+    },
+    "VIYASH": {
+      "file": "VIYASH.png",
+      "source": "site-icon",
+      "domain": "viyash.com"
+    },
+    "VRLLOG": {
+      "file": "VRLLOG.ico",
+      "source": "site-icon",
+      "domain": "vrlgroup.in"
+    },
+    "VINDHYATEL": {
+      "file": "VINDHYATEL.ico",
+      "source": "site-icon",
+      "domain": "vtlrewa.com"
+    },
+    "VOLTAS": {
+      "file": "VOLTAS.png",
+      "source": "site-icon",
+      "domain": "voltas.com"
+    },
+    "VSTIND": {
+      "file": "VSTIND.png",
+      "source": "site-icon",
+      "domain": "vsthyd.com"
+    },
+    "WAAREERTL": {
+      "file": "WAAREERTL.ico",
+      "source": "site-icon",
+      "domain": "waareertl.com"
+    },
+    "WAKEFIT": {
+      "file": "WAKEFIT.png",
+      "source": "google-favicon",
+      "domain": "wakefit.co"
+    },
+    "WALCHANNAG": {
+      "file": "WALCHANNAG.ico",
+      "source": "site-icon",
+      "domain": "walchand.com"
+    },
+    "CORDELIA": {
+      "file": "CORDELIA.png",
+      "source": "site-icon",
+      "domain": "cordeliacruises.com"
+    },
+    "VISHNU": {
+      "file": "VISHNU.png",
+      "source": "site-icon",
+      "domain": "vishnuchemicals.com"
+    },
+    "WELENT": {
+      "file": "WELENT.ico",
+      "source": "site-icon",
+      "domain": "welspunenterprises.com"
+    },
+    "WELSPUNLIV": {
+      "file": "WELSPUNLIV.ico",
+      "source": "site-icon",
+      "domain": "welspunliving.com"
+    },
+    "WSTCSTPAPR": {
+      "file": "WSTCSTPAPR.ico",
+      "source": "site-icon",
+      "domain": "westcoastpaper.com"
+    },
+    "WESTLIFE": {
+      "file": "WESTLIFE.png",
+      "source": "google-favicon",
+      "domain": "westlife.co.in"
+    },
+    "WEWORK": {
+      "file": "WEWORK.ico",
+      "source": "site-icon",
+      "domain": "wework.co.in"
+    },
+    "WELSPLSOL": {
+      "file": "WELSPLSOL.ico",
+      "source": "site-icon",
+      "domain": "welspunspecialty.com"
+    },
+    "WENDT": {
+      "file": "WENDT.png",
+      "source": "site-icon",
+      "domain": "wendtindia.com"
+    },
+    "WHIRLPOOL": {
+      "file": "WHIRLPOOL.png",
+      "source": "google-favicon",
+      "domain": "whirlpoolindia.com"
+    },
+    "WINDLAS": {
+      "file": "WINDLAS.png",
+      "source": "site-icon",
+      "domain": "windlas.com"
+    },
+    "WAAREEENER": {
+      "file": "WAAREEENER.png",
+      "source": "google-favicon",
+      "domain": "waaree.com"
+    },
+    "WELCORP": {
+      "file": "WELCORP.ico",
+      "source": "site-icon",
+      "domain": "welspuncorp.com"
+    },
+    "WONDERLA": {
+      "file": "WONDERLA.png",
+      "source": "apple-touch",
+      "domain": "wonderla.com"
+    },
+    "WEL": {
+      "file": "WEL.png",
+      "source": "site-icon",
+      "domain": "wonderelectricals.com"
+    },
+    "XPROINDIA": {
+      "file": "XPROINDIA.png",
+      "source": "site-icon",
+      "domain": "xproindia.com"
+    },
+    "XTRANET": {
+      "file": "XTRANET.png",
+      "source": "site-icon",
+      "domain": "xtranetindia.com"
+    },
+    "WOCKPHARMA": {
+      "file": "WOCKPHARMA.png",
+      "source": "site-icon",
+      "domain": "wockhardt.com"
+    },
+    "YASHO": {
+      "file": "YASHO.png",
+      "source": "google-favicon",
+      "domain": "yashoindustries.com"
+    },
+    "YATRA": {
+      "file": "YATRA.ico",
+      "source": "site-icon",
+      "domain": "yatra.com"
+    },
+    "WIPRO": {
+      "file": "WIPRO.png",
+      "source": "apple-touch",
+      "domain": "wipro.com"
+    },
+    "YATHARTH": {
+      "file": "YATHARTH.webp",
+      "source": "site-icon",
+      "domain": "yatharthhospitals.com"
+    },
+    "ZEEL": {
+      "file": "ZEEL.png",
+      "source": "site-icon",
+      "domain": "zee.com"
+    },
+    "ZAGGLE": {
+      "file": "ZAGGLE.ico",
+      "source": "site-icon",
+      "domain": "zaggle.in"
+    },
+    "WINDMACHIN": {
+      "file": "WINDMACHIN.png",
+      "source": "site-icon",
+      "domain": "windsormachines.com"
+    },
+    "ZENTEC": {
+      "file": "ZENTEC.png",
+      "source": "apple-touch",
+      "domain": "zentechnologies.com"
+    },
+    "ZETWERK": {
+      "file": "ZETWERK.jpg",
+      "source": "google-favicon",
+      "domain": "zetwerk.com"
+    },
+    "ZYDUSLIFE": {
+      "file": "ZYDUSLIFE.png",
+      "source": "google-favicon",
+      "domain": "zyduslife.com"
+    },
+    "ZYDUSWELL": {
+      "file": "ZYDUSWELL.png",
+      "source": "site-icon",
+      "domain": "zyduswellness.com"
+    },
+    "ZFCVINDIA": {
+      "file": "ZFCVINDIA.png",
+      "source": "site-icon",
+      "domain": "zf.com"
+    },
+    "ZOTA": {
+      "file": "ZOTA.png",
+      "source": "site-icon",
+      "domain": "zotahealthcare.com"
+    },
+    "WPIL": {
+      "file": "WPIL.png",
+      "source": "site-icon",
+      "domain": "wpil.co.in"
+    }
+  }
+}

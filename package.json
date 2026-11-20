@@ -59,7 +59,8 @@
     "build:earnings": "tsx scripts/build-earnings-tracker.ts",
     "ingest:screener": "tsx scripts/scrape-screener-earnings.ts",
     "refresh:earnings-prices": "tsx scripts/refresh-earnings-prices.ts",
-    "ingest:marketsmith": "tsx scripts/ingest-marketsmith-profile.ts"
+    "ingest:marketsmith": "tsx scripts/ingest-marketsmith-profile.ts",
+    "fetch:logos": "tsx scripts/fetch-company-logos.ts"
   },
   "dependencies": {
     "@serwist/next": "^9.5.13",

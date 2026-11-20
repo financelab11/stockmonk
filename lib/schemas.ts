@@ -244,7 +244,9 @@ export const marketsmithProfileSchema = z.object({
   ratiosQuarter: profileTableSchema,
   ownership: z.object({
     current: z.array(z.object({ name: z.string(), percent: z.number() })),
-    history: z.array(z.object({ name: z.string(), value: z.number(), month: z.string() })),
+    history: z.array(
+      z.object({ name: z.string(), value: z.number(), month: z.string() }),
+    ),
     top: z.array(
       z.object({
         name: z.string(),
@@ -262,13 +264,31 @@ export const marketsmithProfileSchema = z.object({
     sales: z.array(z.object({ label: z.string(), value: z.number() })),
     eps: z.array(z.object({ label: z.string(), value: z.number() })),
     margins: z.array(
-      z.object({ label: z.string(), ebit: z.number().nullable(), net: z.number().nullable() }),
+      z.object({
+        label: z.string(),
+        ebit: z.number().nullable(),
+        net: z.number().nullable(),
+      }),
     ),
   }),
 });
 
 export type MarketsmithProfile = z.infer<typeof marketsmithProfileSchema>;
 export type ProfileTable = z.infer<typeof profileTableSchema>;
+
+export const logoManifestSchema = z.object({
+  generatedAt: z.string(),
+  logos: z.record(
+    z.string(),
+    z.object({
+      file: z.string(),
+      source: z.string(),
+      domain: z.string(),
+    }),
+  ),
+});
+
+export type LogoManifest = z.infer<typeof logoManifestSchema>;
 
 export const earningsTrackerSchema = z.object({
   generatedAt: z.string(),
@@ -278,7 +298,6 @@ export const earningsTrackerSchema = z.object({
   pricesAsOf: z.string().nullable(),
   rows: z.array(earningsTrackerRowSchema),
 });
-
 
 export const mixSliceSchema = z.object({
   name: z.string(),

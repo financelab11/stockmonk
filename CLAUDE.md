@@ -11,6 +11,7 @@ business makes money, charts reported financials and shows attributed third-part
 consensus. It never publishes buy/sell/hold ratings or Stockmonk price targets.
 
 Coverage:
+
 - **US:** 229 hand-written ten-section reports plus an expanded screener universe.
 - **India:** 100 hand-written reports and a forward-growth ranker covering 385
   companies with consensus/valuation/quality metrics.
@@ -43,24 +44,24 @@ pnpm build:growth-ranker # rebuild the 385-name forward-estimate snapshot
 
 ## Important paths
 
-| Path | Purpose |
-| --- | --- |
-| `app/` | App Router pages and API routes |
-| `components/` | Server/client components; design tokens from `globals.css` |
-| `lib/data.ts` | US data access (server-only, cached) |
-| `lib/india-data.ts` | India data access |
-| `lib/gcc-data.ts` | GCC data access |
-| `lib/schemas.ts` | Zod schemas for processed company data |
-| `lib/growth-ranker/` | Forward-estimate types, dataset reader, ranking |
-| `data/{processed,consensus,prices,segments}` | US file datasets |
-| `data/india/`, `data/gcc/` | India/GCC processed datasets |
-| `data/growth-ranker/estimates.json` | Committed 385-name forward snapshot |
-| `public/data/` | Browser-served JSON and price history |
-| `content/stocks/`, `content/india-stocks/`, `content/gcc-stories/` | Editorial reports |
-| `scripts/` | Ingestion, build, validation and sync scripts |
-| `supabase/migrations/` | Database schema and daily jobs |
-| `utils/supabase/` | Browser/server/middleware clients |
-| `middleware.ts` | Supabase session refresh |
+| Path                                                               | Purpose                                                    |
+| ------------------------------------------------------------------ | ---------------------------------------------------------- |
+| `app/`                                                             | App Router pages and API routes                            |
+| `components/`                                                      | Server/client components; design tokens from `globals.css` |
+| `lib/data.ts`                                                      | US data access (server-only, cached)                       |
+| `lib/india-data.ts`                                                | India data access                                          |
+| `lib/gcc-data.ts`                                                  | GCC data access                                            |
+| `lib/schemas.ts`                                                   | Zod schemas for processed company data                     |
+| `lib/growth-ranker/`                                               | Forward-estimate types, dataset reader, ranking            |
+| `data/{processed,consensus,prices,segments}`                       | US file datasets                                           |
+| `data/india/`, `data/gcc/`                                         | India/GCC processed datasets                               |
+| `data/growth-ranker/estimates.json`                                | Committed 385-name forward snapshot                        |
+| `public/data/`                                                     | Browser-served JSON and price history                      |
+| `content/stocks/`, `content/india-stocks/`, `content/gcc-stories/` | Editorial reports                                          |
+| `scripts/`                                                         | Ingestion, build, validation and sync scripts              |
+| `supabase/migrations/`                                             | Database schema and daily jobs                             |
+| `utils/supabase/`                                                  | Browser/server/middleware clients                          |
+| `middleware.ts`                                                    | Supabase session refresh                                   |
 
 ## Routes
 
@@ -81,7 +82,7 @@ pnpm build:growth-ranker # rebuild the 385-name forward-estimate snapshot
 - Percentile labels always go through `formatOrdinal` (`72nd`, `51st`, `93rd`);
   never concatenate `th`. Ordinals are baked into `factorChips` detail strings,
   so after changing chip copy run `pnpm chips:rebuild && pnpm build:data &&
-  pnpm build:india && pnpm build:gcc && pnpm build:screener`.
+pnpm build:india && pnpm build:gcc && pnpm build:screener`.
 - INR figures render in crore (`₹7,822 Cr`) through `formatCompactCurrency`;
   USD stays `$4.5B`/`$303B`. Never hard-code `₹…B`/`₹…T`.
 - A segment chart is only a "revenue mix" when more than one segment is
@@ -104,6 +105,7 @@ pnpm build:growth-ranker # rebuild the 385-name forward-estimate snapshot
   overlay that queries the US, India and GCC search indexes (`/` or Cmd/Ctrl+K).
 
 ## Refreshing every dataset
+
 ```bash
 FORCE_REFRESH=1 pnpm refresh      # EDGAR, SimFin, fallback, filings, consensus, segments, benchmark
 pnpm refresh:prices               # Yahoo closes for all 229 US names (SimFin prices lag ~1 week)
@@ -186,6 +188,12 @@ not failed refreshes.
 - Typography tokens live in `globals.css`: `.type-company`, `.type-section`
   (Newsreader 400), `.type-subhead`, `.type-body`, `.kpi-label`, `.kpi-value`,
   `.type-table` and `.type-nav` (Inter). Uppercase is reserved for `.meta-caps`.
+- `pnpm fetch:logos` downloads one logo per company from its own website icon
+  (apple-touch-icon or icon link), falling back to Google's 128px favicon. Files
+  live in `public/logos/india/`, the manifest in `data/india/logos.json`
+  (validated by `logoManifestSchema`). Companies without a logo render an
+  initials monogram in `components/profile/company-logo.tsx`, so the header
+  never shows a broken image.
 - `components/profile/financial-table.tsx` renders a sticky-header desktop table
   running oldest to newest with the latest period highlighted. The scrollport is
   `dir="rtl"` with an `ltr` table so mobile opens on the latest period before
@@ -198,6 +206,7 @@ not failed refreshes.
   data. Tijori Finance remains off-limits without an equivalent licence.
 
 ## Research report freshness
+
 - `pnpm audit:stories` compares every story's newest quarter and explicit price
   with the dataset; it exits non-zero when a report is behind.
 - `pnpm refresh:stories` regenerates the data-driven sections (takeaways,
@@ -240,6 +249,7 @@ Project URL and publishable key are in `.env.local` / Vercel env. The service-ro
 key is server-only and must never be exposed with `NEXT_PUBLIC_`.
 
 Schema lives in `supabase/migrations/202611170001_initial_schema.sql`:
+
 - companies, aliases, coverage groups
 - prices_daily, financial_periods, financial_metrics, segments, fx_rates
 - consensus_estimates, consensus_targets, forward_estimates
@@ -256,6 +266,7 @@ store and the base for auth/watchlists. `pnpm sync:supabase` performs idempotent
 upserts and logs an `ingestion_runs` row.
 
 Client helpers:
+
 - `utils/supabase/client.ts` — browser
 - `utils/supabase/server.ts` — server components/route handlers
 - `utils/supabase/middleware.ts` — session refresh
@@ -301,7 +312,7 @@ Client helpers:
   (`403` on `/actions/secrets`), so the token cannot trigger or inspect runs
   either; verify the daily refresh from the Actions tab.
 - Vercel production is deployed from the CLI (`vercel --prod --yes
-  --archive=tgz`) and healthy: site returns 200 and `/api/health/db` returns
+--archive=tgz`) and healthy: site returns 200 and `/api/health/db` returns
   200 with live freshness rows.
 - GitHub-linked auto-deploy **is** active: the project is linked to
   `financelab11/stockmonk` with production branch `main`, so every push to
@@ -316,6 +327,7 @@ Client helpers:
 ## Change protocol
 
 Every change should:
+
 1. update this file if architecture, routes, data flow, schema or conventions change;
 2. run the relevant verification;
 3. be committed to GitHub with a descriptive message.
@@ -324,5 +336,6 @@ The intent is that a new agent can read `CLAUDE.md`, `README.md` and the latest
 commit and start without re-reading the whole repository.
 
 <!-- AUTO_CONTEXT_START -->
+
 _Context snapshot 2026-11-17: 229 US names, 100 India names, 187 GCC names, 385 forward estimates, 1 database migration(s)._
 <!-- AUTO_CONTEXT_END -->

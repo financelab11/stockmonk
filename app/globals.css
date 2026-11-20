@@ -136,6 +136,96 @@
     font-optical-sizing: auto;
   }
 
+  /* Profile typography tokens: Newsreader for headings, Inter for data. */
+  .type-company {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(1.875rem, 1.72rem + 0.6vw, 2.125rem);
+    line-height: 1.08;
+    letter-spacing: -0.022em;
+  }
+
+  .type-section {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(1.375rem, 1.3rem + 0.4vw, 1.625rem);
+    line-height: 1.2;
+    letter-spacing: -0.018em;
+  }
+
+  .type-subhead {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.35;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+  }
+
+  .type-body {
+    font-family: var(--font-sans);
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    font-weight: 400;
+  }
+
+  .kpi-label {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    line-height: 1.25;
+    font-weight: 500;
+    color: var(--color-muted);
+  }
+
+  .kpi-value {
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.2;
+    font-weight: 600;
+    color: var(--color-ink);
+    font-variant-numeric: tabular-nums;
+  }
+
+  @media (min-width: 640px) {
+    .kpi-value {
+      font-size: 1.25rem;
+    }
+  }
+
+  .type-table {
+    font-family: var(--font-sans);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+  }
+
+  @media (min-width: 640px) {
+    .type-table {
+      font-size: 0.875rem;
+    }
+  }
+
+  .type-nav {
+    font-family: var(--font-sans);
+    font-size: 0.8125rem;
+    font-weight: 550;
+    line-height: 1;
+  }
+
+  @media (min-width: 640px) {
+    .type-nav {
+      font-size: 0.875rem;
+    }
+  }
+
+  .meta-caps {
+    font-size: 0.625rem;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+
   .display-italic {
     font-family: var(--font-serif);
     font-style: italic;

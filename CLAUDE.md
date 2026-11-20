@@ -173,6 +173,15 @@ not failed refreshes.
   chart panels (price, sales/EPS, margins), collapsible ratios and statements,
   ownership bars/history/major shareholders, and a surveillance checklist.
   It states the statement basis and attributes MarketSmith.
+- Typography tokens live in `globals.css`: `.type-company`, `.type-section`
+  (Newsreader 400), `.type-subhead`, `.type-body`, `.kpi-label`, `.kpi-value`,
+  `.type-table` and `.type-nav` (Inter). Uppercase is reserved for `.meta-caps`.
+- `components/profile/financial-table.tsx` renders a sticky-header desktop table
+  with the latest period highlighted, and on mobile a period selector with
+  YoY/QoQ cards plus an opt-in full-history table. `statement-browser.tsx`
+  switches statement and period; `profile-charts.tsx` dynamically imports the
+  three charts below the fold. The profile nav is sticky at `top-24` because the
+  site header is 96px tall.
 - Written permission from MarketSmith India is required before republishing
   this data. Tijori Finance remains off-limits without an equivalent licence.
 

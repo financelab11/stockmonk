@@ -65,3 +65,9 @@ next-env.d.ts
 
 # Yahoo price cache for the earnings tracker
 /data/india/.price-cache/
+
+# Performance measurement artefacts
+/.chrome-test/
+/.perf/
+/.lighthouse-*.json
+/.lighthouseci*/

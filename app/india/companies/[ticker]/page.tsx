@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowUpRight, ShieldAlert, ShieldCheck } from "lucide-react";
-import { ChartFrame } from "@/components/charts/chart-frame";
-import MarginChart from "@/components/charts/margin-chart";
-import ProfileFinancialChart from "@/components/charts/profile-financial-chart";
-import ProfilePriceChart from "@/components/charts/profile-price-chart";
-import { StatementTable } from "@/components/profile/statement-table";
+import { FinancialTable } from "@/components/profile/financial-table";
+import {
+  ProfileFinancialSection,
+  ProfileMarginsSection,
+  ProfilePriceSection,
+} from "@/components/profile/profile-charts";
+import { StatementBrowser } from "@/components/profile/statement-browser";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { getIndiaTicker } from "@/lib/india-data";
@@ -58,6 +60,38 @@ const FLAG_LABELS: Record<string, string> = {
   isavgrupeevol: "Above-average group volume",
 };
 
+const NAV_ITEMS = [
+  { id: "overview", label: "Overview" },
+  { id: "statistics", label: "Statistics" },
+  { id: "charts", label: "Charts" },
+  { id: "financials", label: "Financials" },
+  { id: "ownership", label: "Ownership" },
+  { id: "surveillance", label: "Surveillance" },
+];
+
+function Group({
+  title,
+  items,
+}: {
+  title: string;
+  items: Array<{ label: string; value: string }>;
+}) {
+  if (!items.length) return null;
+  return (
+    <div className="card-flat p-4">
+      <h3 className="type-subhead text-ink">{title}</h3>
+      <dl className="mt-2.5 grid grid-cols-2 gap-x-4 gap-y-3">
+        {items.map((item) => (
+          <div key={item.label}>
+            <dt className="kpi-label">{item.label}</dt>
+            <dd className="kpi-value mt-0.5">{item.value}</dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  );
+}
+
 export default async function CompanyProfilePage({
   params,
 }: {
@@ -70,8 +104,45 @@ export default async function CompanyProfilePage({
   if (!profile && !tracker) notFound();
 
   const name = profile?.name ?? tracker?.name ?? key;
-  const industry = profile?.industry ?? tracker?.industry ?? "—";
+  const industry = (profile?.industry ?? tracker?.industry ?? "—").replace(
+    /^(NSE|BSE)-/i,
+    "",
+  );
   const research = getIndiaTicker(key);
+
+  const stats = new Map((profile?.stats ?? []).map((stat) => [stat.label, stat.value]));
+  const pick = (labels: string[]) =>
+    labels
+      .map((label) => ({ label, value: stats.get(label) ?? "" }))
+      .filter((item) => item.value);
+
+  const ratio = (needle: string): string | null => {
+    if (!profile) return null;
+    const row = profile.ratiosAnnual.rows.find((entry) =>
+      entry[0]?.toLowerCase().includes(needle.toLowerCase()),
+    );
+    const value = row?.[1];
+    const parsed = value == null ? null : Number(value);
+    return parsed != null && Number.isFinite(parsed) ? `${parsed.toFixed(1)}%` : null;
+  };
+
+  const latestMargin = profile?.series.margins.at(-1);
+  const derivedProfitability = [
+    ratio("return on capital employed")
+      ? { label: "ROCE (MarketSmith)", value: ratio("return on capital employed") as string }
+      : null,
+    latestMargin?.ebit != null
+      ? { label: "EBIT margin", value: `${(latestMargin.ebit * 100).toFixed(1)}%` }
+      : null,
+  ].filter((item): item is { label: string; value: string } => item != null);
+
+  const growth = [
+    ...pick(["EPS growth rate"]),
+    ...(tracker ? [{ label: "Sales growth", value: formatSignedPercent(tracker.salesGrowth) }] : []),
+    ...(tracker
+      ? [{ label: "Net profit growth", value: formatSignedPercent(tracker.netProfitGrowth) }]
+      : []),
+  ];
 
   const financialPoints = (() => {
     if (!profile) return [];
@@ -86,11 +157,12 @@ export default async function CompanyProfilePage({
       }));
   })();
 
-  const margins = profile?.series.margins.map((point) => ({
-    label: point.label,
-    value: point.ebit,
-    secondary: point.net,
-  })) ?? [];
+  const margins =
+    profile?.series.margins.map((point) => ({
+      label: point.label,
+      value: point.ebit,
+      secondary: point.net,
+    })) ?? [];
 
   const ownershipMonths = profile
     ? [...new Set(profile.ownership.history.map((point) => point.month))].slice(0, 4)
@@ -118,6 +190,22 @@ export default async function CompanyProfilePage({
     : [];
   const greenFlags = profile?.surveillance.green ?? [];
 
+  const rangePosition =
+    profile?.price.value != null &&
+    profile.price.week52High != null &&
+    profile.price.week52Low != null &&
+    profile.price.week52High > profile.price.week52Low
+      ? Math.max(
+          0,
+          Math.min(
+            100,
+            ((profile.price.value - profile.price.week52Low) /
+              (profile.price.week52High - profile.price.week52Low)) *
+              100,
+          ),
+        )
+      : null;
+
   const trackerStats = tracker
     ? [
         { label: "Market cap", value: formatCompactCurrency(tracker.marketCap, "INR") },
@@ -143,33 +231,40 @@ export default async function CompanyProfilePage({
         ])}
       />
 
-      <section className="border-b border-line bg-paper-deep">
-        <div className="container-page py-6">
-          <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-1.5 text-[10.5px] text-muted">
+      <header className="border-b border-line bg-paper-deep">
+        <div className="container-page py-5">
+          <nav
+            aria-label="Breadcrumb"
+            className="flex flex-wrap items-center gap-1.5 text-[12px] text-muted"
+          >
             <Link prefetch={false} href="/" className="hover:text-ink">Home</Link>
-            <span aria-hidden="true">›</span>
+            <span aria-hidden="true">/</span>
             <Link prefetch={false} href="/india" className="hover:text-ink">India Stocks</Link>
-            <span aria-hidden="true">›</span>
-            <Link prefetch={false} href="/india/earnings-tracker" className="hover:text-ink">Earnings Tracker</Link>
-            <span aria-hidden="true">›</span>
+            <span aria-hidden="true">/</span>
+            <Link prefetch={false} href="/india/earnings-tracker" className="hover:text-ink">
+              Earnings Tracker
+            </Link>
+            <span aria-hidden="true">/</span>
             <span className="text-ink">{name}</span>
           </nav>
 
-          <div className="mt-3 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+          <div className="mt-3 grid gap-5 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-end">
             <div className="min-w-0">
-              <p className="kicker">{industry}</p>
-              <h1 className="display mt-1 text-[30px] leading-tight tracking-[-0.025em] text-ink sm:text-[38px]">
-                {name}
-              </h1>
-              <div className="mt-1.5 flex flex-wrap items-center gap-x-2 gap-y-1 text-[11px] text-muted">
-                <span className="font-mono text-[11px] font-semibold text-ink-soft">{key}</span>
-                {profile?.exchange && <><span aria-hidden="true">·</span><span>{profile.exchange}</span></>}
+              <h1 className="type-company text-ink">{name}</h1>
+              <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-[13px] text-muted">
+                <span className="font-mono text-[12px] font-semibold text-ink-soft">{key}</span>
+                {profile?.exchange && (
+                  <>
+                    <span aria-hidden="true">·</span>
+                    <span>{profile.exchange}</span>
+                  </>
+                )}
+                <span aria-hidden="true">·</span>
+                <span>{industry}</span>
                 {profile && (
                   <>
                     <span aria-hidden="true">·</span>
-                    <span>{profile.basis === "consolidated" ? "Consolidated statements" : "Standalone statements"}</span>
-                    <span aria-hidden="true">·</span>
-                    <span>Profile as of {formatDate(profile.fetchedAt)}</span>
+                    <span>{profile.basis === "consolidated" ? "Consolidated" : "Standalone"}</span>
                   </>
                 )}
               </div>
@@ -178,191 +273,249 @@ export default async function CompanyProfilePage({
                   href={profile.website.startsWith("http") ? profile.website : `https://${profile.website}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-1 inline-flex items-center gap-1 text-[10.5px] font-semibold text-brand hover:text-brand-deep"
+                  className="mt-1.5 inline-flex items-center gap-1 text-[12.5px] font-semibold text-brand hover:text-brand-deep"
                 >
                   Company website <ArrowUpRight aria-hidden="true" className="size-3" />
                 </a>
               )}
             </div>
 
-            <div className="flex flex-wrap items-end gap-5">
+            <div className="flex flex-wrap items-end gap-6">
               {profile?.price.value != null && (
-                <div>
-                  <p className="stat-label">Share price</p>
-                  <p className="tabular mt-0.5 text-[24px] font-semibold leading-none text-ink">
+                <div className="min-w-[170px]">
+                  <p className="kpi-label">Share price</p>
+                  <p className="tabular mt-0.5 text-[28px] font-semibold leading-none text-ink">
                     ₹{profile.price.value.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
                   </p>
-                  <p className={`tabular mt-1 text-[11px] font-semibold ${(profile.price.changePct ?? 0) >= 0 ? "text-positive" : "text-danger"}`}>
+                  <p
+                    className={`tabular mt-1 text-[12px] font-semibold ${
+                      (profile.price.changePct ?? 0) >= 0 ? "text-positive" : "text-danger"
+                    }`}
+                  >
                     {formatSignedPercent((profile.price.changePct ?? 0) / 100)} vs prior close
                   </p>
+                  {rangePosition != null && (
+                    <div className="mt-2 w-full max-w-[220px]">
+                      <div className="relative h-1.5 rounded-full bg-line">
+                        <span
+                          className="absolute top-1/2 size-3 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-surface bg-brand-deep"
+                          style={{ left: `${rangePosition}%` }}
+                          aria-hidden="true"
+                        />
+                      </div>
+                      <div className="mt-1 flex justify-between text-[10.5px] text-muted">
+                        <span>₹{profile.price.week52Low?.toLocaleString("en-IN", { maximumFractionDigits: 0 })}</span>
+                        <span>52-week range</span>
+                        <span>₹{profile.price.week52High?.toLocaleString("en-IN", { maximumFractionDigits: 0 })}</span>
+                      </div>
+                    </div>
+                  )}
                 </div>
               )}
-              {profile?.price.week52High != null && profile.price.week52Low != null && (
-                <div>
-                  <p className="stat-label">52-week range</p>
-                  <p className="tabular mt-0.5 text-[12px] font-semibold text-ink">
-                    ₹{profile.price.week52Low.toLocaleString("en-IN", { maximumFractionDigits: 0 })}
-                    {" – "}
-                    ₹{profile.price.week52High.toLocaleString("en-IN", { maximumFractionDigits: 0 })}
-                  </p>
-                </div>
-              )}
-              {!profile && tracker && (
-                <div>
-                  <p className="stat-label">Market cap</p>
-                  <p className="tabular mt-0.5 text-[12px] font-semibold text-ink">
-                    {formatCompactCurrency(tracker.marketCap, "INR")}
-                  </p>
-                </div>
-              )}
+
+              <div className="flex flex-wrap gap-5">
+                {profile ? (
+                  <div>
+                    <p className="kpi-label">Market cap</p>
+                    <p className="kpi-value mt-0.5">
+                      {stats.get("Market capitalization") ?? "—"}
+                    </p>
+                  </div>
+                ) : (
+                  tracker && (
+                    <div>
+                      <p className="kpi-label">Market cap</p>
+                      <p className="kpi-value mt-0.5">
+                        {formatCompactCurrency(tracker.marketCap, "INR")}
+                      </p>
+                    </div>
+                  )
+                )}
+                {profile ? (
+                  <div>
+                    <p className="kpi-label">P/E</p>
+                    <p className="kpi-value mt-0.5">{stats.get("P/E ratio") ?? "—"}</p>
+                  </div>
+                ) : (
+                  tracker?.pe != null && (
+                    <div>
+                      <p className="kpi-label">P/E</p>
+                      <p className="kpi-value mt-0.5">{tracker.pe.toFixed(1)}</p>
+                    </div>
+                  )
+                )}
+                {tracker?.return1y != null && (
+                  <div>
+                    <p className="kpi-label">1Y return</p>
+                    <p className="kpi-value mt-0.5">{formatSignedPercent(tracker.return1y)}</p>
+                  </div>
+                )}
+              </div>
+
               {research && (
-                <Link
-                  href={`/india/stocks/${key}`}
-                  className="btn btn-primary h-9 min-h-0 text-[11px]"
-                >
-                  Read the research note
+                <Link href={`/india/stocks/${key}`} className="btn btn-primary h-10 min-h-0 text-[12.5px]">
+                  Research note
                 </Link>
               )}
             </div>
           </div>
         </div>
-      </section>
+      </header>
 
-      <main className="container-page py-6">
+      <nav
+        aria-label="Company profile sections"
+        className="sticky top-24 z-40 border-b border-line bg-surface/95 backdrop-blur"
+      >
+        <div className="container-page scrollbar-none flex gap-1 overflow-x-auto py-1.5">
+          {NAV_ITEMS.map((item) => (
+            <a
+              key={item.id}
+              href={`#${item.id}`}
+              className="type-nav inline-flex min-h-11 shrink-0 items-center rounded-lg px-3 text-ink-soft transition-colors hover:bg-paper-deep hover:text-ink"
+            >
+              {item.label}
+            </a>
+          ))}
+        </div>
+      </nav>
+
+      <main className="container-page py-6 pb-28 lg:pb-10">
         {profile ? (
           <>
-            <section className="grid gap-4 lg:grid-cols-[1.15fr_1fr]">
-              <div className="card p-4">
-                <h2 className="text-[12px] font-semibold text-ink">About the company</h2>
-                <p className="mt-2 text-[12px] leading-relaxed text-muted">
+            <section id="overview" className="scroll-mt-40 grid gap-4 lg:grid-cols-[1.2fr_1fr]">
+              <div className="card p-4 sm:p-5">
+                <h2 className="type-section text-ink">About {name}</h2>
+                <p className="type-body mt-2.5 text-muted">
                   {profile.about || "Company description not available."}
                 </p>
-                <dl className="mt-3 grid grid-cols-2 gap-x-4 gap-y-2 border-t border-line pt-3 text-[10.5px]">
+                <dl className="mt-4 grid grid-cols-2 gap-4 border-t border-line pt-3">
                   <div>
-                    <dt className="stat-label">Industry</dt>
-                    <dd className="mt-0.5 font-medium text-ink">{industry}</dd>
+                    <dt className="kpi-label">Industry</dt>
+                    <dd className="mt-0.5 text-[13.5px] font-medium text-ink">{industry}</dd>
                   </div>
                   {profile.location && (
                     <div>
-                      <dt className="stat-label">Location</dt>
-                      <dd className="mt-0.5 font-medium text-ink">{profile.location}</dd>
+                      <dt className="kpi-label">Location</dt>
+                      <dd className="mt-0.5 text-[13.5px] font-medium text-ink">{profile.location}</dd>
                     </div>
                   )}
                 </dl>
               </div>
 
-              <div className="card p-4">
-                <h2 className="text-[12px] font-semibold text-ink">Key statistics</h2>
-                <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-2 sm:grid-cols-3">
-                  {profile.stats.map((stat) => (
-                    <div key={stat.label}>
-                      <dt className="stat-label">{stat.label}</dt>
-                      <dd className="tabular mt-0.5 text-[11.5px] font-semibold text-ink">
-                        {stat.value}
-                      </dd>
-                    </div>
-                  ))}
-                </dl>
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-2 lg:content-start lg:auto-rows-min">
+                <div className="card-flat p-4">
+                  <p className="kpi-label">Market capitalisation</p>
+                  <p className="kpi-value mt-1">{stats.get("Market capitalization") ?? "—"}</p>
+                </div>
+                <div className="card-flat p-4">
+                  <p className="kpi-label">P/E ratio</p>
+                  <p className="kpi-value mt-1">{stats.get("P/E ratio") ?? "—"}</p>
+                </div>
+                <div className="card-flat p-4">
+                  <p className="kpi-label">Return on equity</p>
+                  <p className="kpi-value mt-1">{stats.get("Return on equity") ?? "—"}</p>
+                </div>
+                <div className="card-flat p-4">
+                  <p className="kpi-label">EPS growth rate</p>
+                  <p className="kpi-value mt-1">{stats.get("EPS growth rate") ?? "—"}</p>
+                </div>
               </div>
             </section>
 
-            {profile.series.price.length > 1 && (
-              <section className="mt-5">
-                <ChartFrame
-                  title="Share price"
-                  description="Daily closes over the last twelve months."
-                  height={300}
-                >
-                  <ProfilePriceChart points={profile.series.price} height={300} />
-                </ChartFrame>
-              </section>
-            )}
-
-            <section className="mt-4 grid gap-4 lg:grid-cols-2">
-              {financialPoints.length > 1 && (
-                <ChartFrame
-                  title="Sales and EPS"
-                  description="Annual sales (bars, ₹ Cr) and earnings per share (line, ₹)."
-                  height={280}
-                >
-                  <ProfileFinancialChart points={financialPoints} height={280} />
-                </ChartFrame>
-              )}
-              {margins.length > 1 && (
-                <ChartFrame
-                  title="Margins"
-                  description="EBIT margin and after-tax margin, annual."
-                  height={280}
-                >
-                  <MarginChart
-                    points={margins}
-                    primaryLabel="EBIT margin"
-                    secondaryLabel="After-tax margin"
-                  />
-                </ChartFrame>
-              )}
+            <section id="statistics" className="mt-8 scroll-mt-40">
+              <div className="flex flex-wrap items-end justify-between gap-2">
+                <div>
+                  <h2 className="type-section text-ink">Key statistics</h2>
+                  <p className="type-body mt-1 text-muted">
+                    Latest reported figures from MarketSmith India.
+                  </p>
+                </div>
+                {profile && (
+                  <span className="chip chip-info">
+                    {profile.basis === "consolidated" ? "Consolidated" : "Standalone"} · {formatDate(profile.fetchedAt)}
+                  </span>
+                )}
+              </div>
+              <div className="mt-3 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+                <Group
+                  title="Valuation"
+                  items={pick([
+                    "Market capitalization",
+                    "P/E ratio",
+                    "5-year P/E range",
+                    "Dividend yield",
+                    "Book value",
+                  ])}
+                />
+                <Group
+                  title="Profitability"
+                  items={[...pick(["Return on equity", "Cash flow (INR)"]), ...derivedProfitability]}
+                />
+                <Group title="Growth" items={growth} />
+                <Group
+                  title="Technical indicators"
+                  items={pick([
+                    "Alpha",
+                    "Beta",
+                    "U/D vol ratio",
+                    "Volume",
+                    "Avg volume (50d)",
+                    "Price strength",
+                  ])}
+                />
+                <Group
+                  title="Institutional ownership"
+                  items={pick(["No. of funds", "Shares held by funds", "Shares in float"])}
+                />
+                <Group
+                  title="MarketSmith ratings"
+                  items={pick(["Master score", "EPS rating", "Group rank", "Acc/Dis rating"])}
+                />
+              </div>
             </section>
 
-            <section className="mt-8">
-              <h2 className="display text-[22px] tracking-[-0.02em] text-ink">Key ratios</h2>
-              <p className="mt-1 text-[11px] text-muted">
-                Annual ratios from {profile.basis} statements. Expand the rows for the full history.
+            <section id="charts" className="mt-8 scroll-mt-40">
+              <h2 className="type-section text-ink">Financial charts</h2>
+              <p className="type-body mt-1 text-muted">
+                Price, sales, earnings and margins over time. Charts load as they enter view.
               </p>
-              <div className="mt-2">
-                <StatementTable table={profile.ratiosAnnual} collapsibleAfter={12} />
-              </div>
-              <details className="mt-3">
-                <summary className="cursor-pointer text-[11px] font-semibold text-brand hover:text-brand-deep">
-                  Quarterly ratios
-                </summary>
-                <div className="mt-2">
-                  <StatementTable table={profile.ratiosQuarter} collapsibleAfter={12} />
+              <div className="mt-3 space-y-4">
+                {profile.series.price.length > 1 && (
+                  <ProfilePriceSection points={profile.series.price} />
+                )}
+                <div className="grid gap-4 lg:grid-cols-2">
+                  {financialPoints.length > 1 && (
+                    <ProfileFinancialSection points={financialPoints} />
+                  )}
+                  {margins.length > 1 && <ProfileMarginsSection points={margins} />}
                 </div>
-              </details>
+              </div>
             </section>
 
-            <section className="mt-8">
-              <h2 className="display text-[22px] tracking-[-0.02em] text-ink">Financial statements</h2>
-              <p className="mt-1 text-[11px] text-muted">
-                Income statement, balance sheet and cash flow in ₹ crore. Figures are as reported by
-                MarketSmith India.
+            <section id="financials" className="mt-8 scroll-mt-40">
+              <h2 className="type-section text-ink">Financial statements</h2>
+              <p className="type-body mt-1 max-w-3xl text-muted">
+                Switch between statements and reporting periods. Mobile shows one period at a
+                time, with the full history a tap away.
               </p>
-
-              <div className="mt-3 space-y-5">
-                <div>
-                  <h3 className="text-[12px] font-semibold text-ink">Annual income statement</h3>
-                  <div className="mt-1.5">
-                    <StatementTable table={profile.incomeAnnual} collapsibleAfter={10} />
-                  </div>
-                </div>
-                <details>
-                  <summary className="cursor-pointer text-[11px] font-semibold text-brand hover:text-brand-deep">
-                    Quarterly income statement
-                  </summary>
-                  <div className="mt-2">
-                    <StatementTable table={profile.incomeQuarter} collapsibleAfter={10} />
-                  </div>
-                </details>
-                <div>
-                  <h3 className="text-[12px] font-semibold text-ink">Balance sheet</h3>
-                  <div className="mt-1.5">
-                    <StatementTable table={profile.balanceSheet} collapsibleAfter={10} />
-                  </div>
-                </div>
-                <div>
-                  <h3 className="text-[12px] font-semibold text-ink">Cash flow statement</h3>
-                  <div className="mt-1.5">
-                    <StatementTable table={profile.cashFlow} collapsibleAfter={10} />
-                  </div>
-                </div>
+              <div className="mt-3">
+                <StatementBrowser
+                  incomeAnnual={profile.incomeAnnual}
+                  incomeQuarter={profile.incomeQuarter}
+                  balanceSheet={profile.balanceSheet}
+                  cashFlow={profile.cashFlow}
+                  ratiosAnnual={profile.ratiosAnnual}
+                  ratiosQuarter={profile.ratiosQuarter}
+                  basis={profile.basis}
+                />
               </div>
             </section>
 
-            <section className="mt-8">
-              <h2 className="display text-[22px] tracking-[-0.02em] text-ink">Ownership</h2>
+            <section id="ownership" className="mt-8 scroll-mt-40">
+              <h2 className="type-section text-ink">Ownership</h2>
               <div className="mt-3 grid gap-4 lg:grid-cols-[1.1fr_1fr]">
                 <div className="card p-4">
-                  <h3 className="text-[12px] font-semibold text-ink">Shareholding pattern</h3>
+                  <h3 className="type-subhead text-ink">Shareholding pattern</h3>
                   <div className="mt-3 flex h-3 overflow-hidden rounded-full bg-paper-deep">
                     {profile.ownership.current.map((slice, index) => (
                       <span
@@ -375,10 +528,10 @@ export default async function CompanyProfilePage({
                       />
                     ))}
                   </div>
-                  <ul className="mt-3 space-y-1.5">
+                  <ul className="mt-3 space-y-2">
                     {profile.ownership.current.map((slice, index) => (
-                      <li key={slice.name} className="flex items-center justify-between gap-2 text-[11px]">
-                        <span className="flex items-center gap-1.5 text-muted">
+                      <li key={slice.name} className="flex items-center justify-between gap-2 text-[13px]">
+                        <span className="flex items-center gap-2 text-muted">
                           <span
                             aria-hidden="true"
                             className="inline-block size-2 rounded-sm"
@@ -391,118 +544,124 @@ export default async function CompanyProfilePage({
                     ))}
                   </ul>
                   {ownershipHistory && (
-                    <details className="mt-3">
-                      <summary className="cursor-pointer text-[10.5px] font-semibold text-brand hover:text-brand-deep">
-                        Last four quarters
-                      </summary>
-                      <div className="mt-2">
-                        <StatementTable table={ownershipHistory} />
+                    <div className="mt-4">
+                      <h4 className="meta-caps">Last four quarters</h4>
+                      <div className="mt-1.5">
+                        <FinancialTable table={ownershipHistory} periodsToShow={3} comparisonLabel={null} />
                       </div>
-                    </details>
+                    </div>
                   )}
                 </div>
 
                 <div className="card p-4">
-                  <h3 className="text-[12px] font-semibold text-ink">Major shareholders</h3>
+                  <h3 className="type-subhead text-ink">Major shareholders</h3>
                   {profile.ownership.top.length ? (
                     <div className="mt-2 overflow-x-auto">
-                      <table className="data-table">
+                      <table className="w-full border-collapse">
                         <thead>
                           <tr>
-                            <th scope="col">Shareholder</th>
-                            <th scope="col" className="text-right">Holding</th>
-                            <th scope="col" className="text-right">As of</th>
+                            <th scope="col" className="border-b border-line px-2 py-2 text-left text-[11px] font-semibold text-muted">
+                              Shareholder
+                            </th>
+                            <th scope="col" className="border-b border-line px-2 py-2 text-right text-[11px] font-semibold text-muted">
+                              Holding
+                            </th>
+                            <th scope="col" className="border-b border-line px-2 py-2 text-right text-[11px] font-semibold text-muted">
+                              As of
+                            </th>
                           </tr>
                         </thead>
                         <tbody>
                           {profile.ownership.top.slice(0, 12).map((owner) => (
-                            <tr key={`${owner.name}-${owner.date}`}>
-                              <td className="text-[11px] text-ink">{owner.name}</td>
-                              <td className="tabular text-right text-[11px]">{owner.holding.toFixed(2)}%</td>
-                              <td className="text-right text-[10.5px] text-muted">{owner.date ?? "—"}</td>
+                            <tr key={`${owner.name}-${owner.date}`} className="border-b border-line last:border-0">
+                              <td className="px-2 py-2 text-[12.5px] text-ink">{owner.name}</td>
+                              <td className="tabular px-2 py-2 text-right text-[12.5px] font-medium text-ink">
+                                {owner.holding.toFixed(2)}%
+                              </td>
+                              <td className="px-2 py-2 text-right text-[11.5px] text-muted">
+                                {owner.date ?? "—"}
+                              </td>
                             </tr>
                           ))}
                         </tbody>
                       </table>
                     </div>
                   ) : (
-                    <p className="mt-2 text-[11px] text-muted">No shareholder data available.</p>
+                    <p className="type-body mt-2 text-muted">No shareholder data available.</p>
                   )}
                 </div>
               </div>
             </section>
 
-            <section className="mt-8">
-              <h2 className="display text-[22px] tracking-[-0.02em] text-ink">Surveillance checklist</h2>
-              <div className="mt-2 grid gap-3 lg:grid-cols-2">
+            <section id="surveillance" className="mt-8 scroll-mt-40">
+              <h2 className="type-section text-ink">Surveillance checklist</h2>
+              <div className="mt-3 grid gap-3 lg:grid-cols-2">
                 <div className="card p-4">
-                  <h3 className="flex items-center gap-1.5 text-[12px] font-semibold text-ink">
+                  <h3 className="type-subhead flex items-center gap-1.5 text-ink">
                     <ShieldAlert aria-hidden="true" className="size-4 text-coral" />
                     Caution flags
                   </h3>
                   {redFlags.length ? (
                     <ul className="mt-2 space-y-1.5">
                       {redFlags.map(([flag, value]) => (
-                        <li key={flag} className="text-[11px] text-ink-soft">
+                        <li key={flag} className="text-[13px] leading-relaxed text-ink-soft">
                           {FLAG_LABELS[flag] ?? flag}
                           {value !== 1 && <span className="text-muted"> · {value}</span>}
                         </li>
                       ))}
                     </ul>
                   ) : (
-                    <p className="mt-2 text-[11px] text-muted">
+                    <p className="type-body mt-2 text-muted">
                       No surveillance or caution flags on MarketSmith&apos;s list.
                     </p>
                   )}
                 </div>
                 <div className="card p-4">
-                  <h3 className="flex items-center gap-1.5 text-[12px] font-semibold text-ink">
+                  <h3 className="type-subhead flex items-center gap-1.5 text-ink">
                     <ShieldCheck aria-hidden="true" className="size-4 text-positive" />
                     Positive flags
                   </h3>
                   {greenFlags.length ? (
                     <ul className="mt-2 space-y-1.5">
                       {greenFlags.map((flag) => (
-                        <li key={flag} className="text-[11px] text-ink-soft">{flag}</li>
+                        <li key={flag} className="text-[13px] leading-relaxed text-ink-soft">{flag}</li>
                       ))}
                     </ul>
                   ) : (
-                    <p className="mt-2 text-[11px] text-muted">No positive flags reported.</p>
+                    <p className="type-body mt-2 text-muted">No positive flags reported.</p>
                   )}
                 </div>
               </div>
             </section>
 
-            <p className="mt-4 text-[10px] leading-relaxed text-muted">
+            <p className="mt-5 text-[11px] leading-relaxed text-muted">
               Profile data: MarketSmith India (authorised). Statements are{" "}
-              {profile.basis === "consolidated" ? "consolidated" : "standalone"} because consolidated
-              figures were not available. MarketSmith ratings and flags are third-party assessments,
-              not Stockmonk recommendations.
+              {profile.basis === "consolidated" ? "consolidated" : "standalone"} because
+              consolidated figures were not available. MarketSmith ratings and flags are
+              third-party assessments, not Stockmonk recommendations.
             </p>
           </>
         ) : (
           <>
-            <section className="card p-4">
-              <h2 className="text-[12px] font-semibold text-ink">Key statistics</h2>
-              <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-2 sm:grid-cols-3 lg:grid-cols-5">
+            <section id="overview" className="scroll-mt-40">
+              <h2 className="type-section text-ink">Key statistics</h2>
+              <dl className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
                 {trackerStats.map((stat) => (
-                  <div key={stat.label}>
-                    <dt className="stat-label">{stat.label}</dt>
-                    <dd className="tabular mt-0.5 text-[11.5px] font-semibold text-ink">
-                      {stat.value}
-                    </dd>
+                  <div key={stat.label} className="card-flat p-3.5">
+                    <dt className="kpi-label">{stat.label}</dt>
+                    <dd className="kpi-value mt-1">{stat.value}</dd>
                   </div>
                 ))}
               </dl>
             </section>
             <section className="mt-4 rounded-xl border border-dashed border-line bg-surface p-5">
-              <p className="text-[12px] font-semibold text-ink">Full profile in progress</p>
-              <p className="mt-1 max-w-2xl text-[11.5px] leading-relaxed text-muted">
+              <h2 className="type-subhead text-ink">Full profile in progress</h2>
+              <p className="type-body mt-1 max-w-2xl text-muted">
                 The earnings-tracker statistics are live. The MarketSmith profile — statements,
-                ratios, ownership and surveillance — is being ingested company by company; Tips Music
-                is the first completed sample.
+                ratios, ownership and surveillance — is being ingested company by company; Tips
+                Music is the first completed sample.
               </p>
-              <Link href="/india/earnings-tracker" className="mt-2 inline-block text-[11px] font-semibold text-brand">
+              <Link href="/india/earnings-tracker" className="mt-2 inline-block text-[12.5px] font-semibold text-brand">
                 Back to the earnings tracker
               </Link>
             </section>

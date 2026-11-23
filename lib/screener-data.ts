@@ -162,16 +162,12 @@ export function getScreenerSummary() {
       ? null
       : Math.round(composites.reduce((sum, value) => sum + value, 0) / composites.length);
   const dates = rows.map((row) => row.asOf).filter(Boolean).sort();
-  const bulkDates = dates.filter((date) => date < "2026-01-01");
-  const curatedDates = dates.filter((date) => date >= "2026-01-01");
   return {
     count: rows.length,
     median,
     average,
     top: rows.slice(0, 5),
     asOf: dates.at(-1) ?? null,
-    asOfBulk: bulkDates.at(-1) ?? null,
-    asOfCurated: curatedDates.at(-1) ?? null,
     coverage: rows.filter((row) => row.composite != null).length,
   };
 }

@@ -10,15 +10,15 @@ export const NBIS: StockStory = {
     "Revenue: $529.8M trailing twelve months, +479.0% year over year.",
     "Profitability: -115.5% operating margin and 15.6% net margin.",
     "Cash: -$3.7B free cash flow, a -694.8% margin.",
-    "Scorecard: 33/100 average percentile across the factor screens."
+    "Scorecard: 36/100 average percentile across the factor screens."
   ],
-  "filingUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845&type=10-K&dateb=&owner=include&count=40",
+  "filingUrl": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm",
   "irUrl": "https://nebius.com",
   "bigPicture": {
     "paragraphs": [
       "Nebius Group N.V. generated $529.8M of revenue over the last twelve months, +479.0% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
-      "The latest reported quarter was not available, with n/a of revenue and an operating margin of n/a. The stock closed at $106.04 on 2026-11-17, giving a market capitalization of $31.1B.",
-      "The shares sit 14% of the way up their 52-week range ($73.52 to $299.86). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "The latest reported quarter was not available, with n/a of revenue and an operating margin of n/a. The stock closed at $98.81 on 2026-11-23, giving a market capitalization of $28.9B.",
+      "The shares sit 11% of the way up their 52-week range ($73.52 to $299.86). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "Renting compute is a straightforward business: buy the machine, rent it out, depreciate it faster than it becomes obsolete. The difficulty is that the buying happens years before the renting pays for it."
   },
@@ -53,25 +53,26 @@ export const NBIS: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at -16.3% a year across the fiscal years in the dataset, and the latest quarter changed not available year over year. Third-party estimates for the current fiscal year point to $3.2B of revenue and -$0.29 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -115.5% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Growth is only useful if it earns a return. The operating margin of -115.5% and return on invested capital of -7.3% are the filters to watch as revenue scales."
     ]
   },
   "performance": {
     "paragraphs": [
       "The trailing operating margin is -115.5%, the net margin is 15.6% and diluted EPS is $0.33. The latest quarter's operating margin was not available.",
-      "Return on equity is n/a. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
+      "Return on equity is 1.8%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
       "The latest reported period was the latest period: revenue of $529.8M, an operating margin of -115.5% and a net margin of 15.6%."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$3.7B, a -694.8% margin. Net debt is not a meaningful measure for this business in the current dataset.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "Free cash flow over the trailing period was -$3.7B, a -694.8% margin. Net debt is $425.1M.",
+      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
+      "Free cash flow was -$3.7B over the last twelve months and net debt was $425.1M; interest cover was n/a."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 376.5x trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
+      "At the latest close the shares trade at 350.8x trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
       "The attributed third-party mean target is $234.50; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },

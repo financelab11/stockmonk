@@ -11,9 +11,11 @@ market. It explains how a business makes money, charts reported financials and
 shows attributed third-party consensus. It never publishes buy/sell/hold ratings
 or Stockmonk price targets.
 
-Coverage: **229 hand-written ten-section US reports** plus an expanded,
-quantitative US screener universe. India and GCC coverage have been removed from
-the product, the codebase, the file datasets and the database.
+Coverage: **229 hand-written ten-section US reports** and a matching 229-row
+quantitative screener. India and GCC coverage have been removed from the product,
+the codebase, the file datasets and the database. SimFin has been removed
+completely; SEC EDGAR supplies fundamentals and Yahoo Finance supplies prices,
+market data and company profiles.
 
 ## Stack
 
@@ -37,7 +39,9 @@ pnpm test
 pnpm e2e
 pnpm lhci
 pnpm sync:supabase       # push file datasets to Supabase (service role required)
-pnpm refresh             # EDGAR, SimFin, fallback, filings, consensus, segments, benchmark
+pnpm ingest:edgar        # SEC XBRL fundamentals for the research names
+pnpm ingest:fundamentals # Yahoo prices, market data and profiles
+pnpm refresh             # EDGAR, Yahoo fundamentals, consensus, segments, benchmark
 pnpm refresh:prices      # Yahoo closes for the US research names
 pnpm refresh:stories     # regenerate data-driven report sections
 ```
@@ -55,7 +59,7 @@ pnpm refresh:stories     # regenerate data-driven report sections
 | `public/data/`                                         | Browser-served JSON, search index and price history        |
 | `content/stocks/`                                      | US editorial reports                                       |
 | `scripts/`                                             | Ingestion, build, validation and sync scripts              |
-| `supabase/migrations/`                                 | Database schema and market-removal migration               |
+| `supabase/migrations/`                                 | Database schema and removal migrations                     |
 | `utils/supabase/`                                      | Browser/server/middleware clients                          |
 | `middleware.ts`                                        | Supabase session refresh                                   |
 
@@ -100,26 +104,26 @@ pnpm refresh:stories     # regenerate data-driven report sections
 ## Refreshing the datasets
 
 ```bash
-FORCE_REFRESH=1 pnpm refresh      # EDGAR, SimFin, fallback, filings, consensus, segments, benchmark
-pnpm refresh:prices               # Yahoo closes for all 229 US names (SimFin prices lag ~1 week)
+FORCE_REFRESH=1 pnpm refresh      # EDGAR, Yahoo fundamentals, consensus, segments, benchmark
+pnpm refresh:prices               # Yahoo closes for all 229 US names
 pnpm build:data && pnpm build:screener
 pnpm audit:freshness              # fails if the US price snapshot is older than 3 days
 ```
 
 `SKIP_PRICES=1` skips the price upsert when syncing Supabase. Known source gaps:
-PSTG and ACLX have no Yahoo history (delisted) and CRNX last traded 2026-08-31;
-these dates are last-traded, not failed refreshes.
+PSTG and ACLX have no current Yahoo history (delisted) and CRNX last traded
+2026-08-31; those dates are last-traded, not failed refreshes. SPOT, MNDY, NBIS
+and CAMT file Form 20-F and therefore report annually, so their pages use annual
+periods.
 
 ## Screening data
 
-- `public/data/screener.json` (4,547 rows) and `public/data/screener-factors.json`
-  hold the US screener. The 229 research names use the fresh SimFin Web API and
-  SEC data; the expanded universe is built from SimFin's free bulk export, which
-  is delayed by roughly a year. The screener page states both snapshot dates.
-- `pnpm build:screener` rebuilds both files from `data/processed` and the bulk
-  CSVs. `pnpm ingest:bulk` re-downloads the free SimFin export.
-- The SimFin free bulk export cannot be made current; the Web API is used for
-  the research names. See "Supabase" for the database counts.
+- `public/data/screener.json` and `public/data/screener-factors.json` hold
+  exactly the 229 research names. There is no bulk or expanded universe feed.
+- `pnpm build:screener` rebuilds both files from `data/processed`. The build
+  fails if it cannot produce one row per research ticker.
+- Every row shares the same SEC fundamentals and Yahoo price snapshot. See
+  "Supabase" for the database counts.
 
 ## Research report freshness
 
@@ -149,9 +153,17 @@ these dates are last-traded, not failed refreshes.
 
 ## Data pipeline
 
-- US: SimFin/EDGAR ingestion, processed JSON, screener data, hand-written
-  stories. `data/raw/` is local ingestion input and is gitignored.
-- No India, GCC or forward-ranker pipelines remain. The `data/india`,
+- US: SEC EDGAR XBRL fundamentals + Yahoo Finance prices/market data, processed
+  JSON, screener data, hand-written stories. `data/raw/` is local ingestion input
+  and is gitignored.
+- `pnpm ingest:edgar` writes `data/processed/{ticker}/sec.json`. It handles
+  10-K/10-Q filers, 20-F/IFRS filers (converted to USD with Yahoo FX), bank and
+  insurer tag variants, and a predecessor-CIK merge for holding-company
+  reorganisations such as XOM.
+- `pnpm ingest:fundamentals` combines `sec.json` with Yahoo prices, market cap,
+  share count and profile, then writes `data.json`, `prices.json`, the public
+  price ranges, `stocks.json`, `search-index.json` and `meta.json`.
+- No India, GCC, forward-ranker or SimFin pipelines remain. The `data/india`,
   `data/gcc`, `data/growth-ranker`, `public/data/india`, `public/data/gcc`,
   `public/logos/india`, `content/india-stocks` and `content/gcc-stories`
   directories were deleted, along with their scripts and workflows.
@@ -165,6 +177,8 @@ Schema lives in `supabase/migrations/202611170001_initial_schema.sql`, with
 `202611230001_remove_india_gcc.sql` deleting the India/GCC companies, stories,
 aliases and coverage groups, dropping the India-only `forward_estimates` table
 and `forward_growth_ranking` view, and restricting `companies.market` to `US`.
+`202611230002_remove_simfin.sql` removes any remaining SimFin keys from company
+metadata, story sources, freshness rows and ingestion logs.
 
 Tables:
 
@@ -208,18 +222,18 @@ Client helpers:
   read) so Next's own tracing stays small.
 - Vercel env (production, preview, development): `NEXT_PUBLIC_SUPABASE_URL`,
   `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`, `NEXT_PUBLIC_SITE_URL`. Server-side
-  jobs additionally need `SIMFIN_API_KEY` and `SUPABASE_SERVICE_ROLE_KEY` (or
-  `SUPABASE_DB_PASSWORD` when using `pnpm sync:supabase:direct`).
+  jobs additionally need `SUPABASE_SERVICE_ROLE_KEY` (or
+  `SUPABASE_DB_PASSWORD` when using `pnpm sync:supabase:direct`). No vendor
+  fundamentals key is required.
 
 ## Current deployment state
 
 - Everything is committed and pushed to `origin/main`.
 - Supabase schema is applied to project `fqzfmvnmmiisvtgnsyqa` (Tokyo pooler,
   `aws-0-ap-northeast-1.pooler.supabase.com:6543`).
-- Migration `202611230001_remove_india_gcc.sql` removes the India/GCC data. After
-  it runs, the `companies` table contains the 229 US research names and their
-  prices, statements, consensus and snapshots. Run it with the direct Postgres
-  credentials before the next sync.
+- Migrations `202611230001_remove_india_gcc.sql` and
+  `202611230002_remove_simfin.sql` have been applied. The `companies` table
+  contains the 229 US research names; no SimFin provenance remains.
 - `pnpm sync:supabase:direct` refreshes the US data with `SUPABASE_DB_PASSWORD`;
   `pnpm sync:supabase` does the same over PostgREST with
   `SUPABASE_SERVICE_ROLE_KEY`.
@@ -238,5 +252,5 @@ The intent is that a new agent can read `CLAUDE.md`, `README.md` and the latest
 commit and start without re-reading the whole repository.
 
 <!-- AUTO_CONTEXT_START -->
-_Context snapshot 2026-11-23: 229 US names, 3 database migration(s)._
+_Context snapshot 2026-11-23: 229 US names, 4 database migration(s)._
 <!-- AUTO_CONTEXT_END -->

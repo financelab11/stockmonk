@@ -9,33 +9,59 @@ export function num(value: unknown): number | null {
   return Number.isFinite(n) ? n : null;
 }
 
-export function sumNullable(values: Array<number | null | undefined>): number | null {
-  const present = values.filter((v): v is number => typeof v === "number" && Number.isFinite(v));
+export function sumNullable(
+  values: Array<number | null | undefined>,
+): number | null {
+  const present = values.filter(
+    (v): v is number => typeof v === "number" && Number.isFinite(v),
+  );
   if (present.length === 0) return null;
   return present.reduce((a, b) => a + b, 0);
 }
 
-export function safeDiv(numerator: number | null | undefined, denominator: number | null | undefined): number | null {
+export function safeDiv(
+  numerator: number | null | undefined,
+  denominator: number | null | undefined,
+): number | null {
   if (numerator === null || numerator === undefined) return null;
-  if (denominator === null || denominator === undefined || denominator === 0) return null;
+  if (denominator === null || denominator === undefined || denominator === 0)
+    return null;
   return numerator / denominator;
 }
 
-export function pctChange(current: number | null | undefined, previous: number | null | undefined): number | null {
-  if (current === null || current === undefined || previous === null || previous === undefined) return null;
+export function pctChange(
+  current: number | null | undefined,
+  previous: number | null | undefined,
+): number | null {
+  if (
+    current === null ||
+    current === undefined ||
+    previous === null ||
+    previous === undefined
+  )
+    return null;
   if (previous === 0) return null;
   return current / previous - 1;
 }
 
-export function average(values: Array<number | null | undefined>): number | null {
-  const present = values.filter((v): v is number => typeof v === "number" && Number.isFinite(v));
+export function average(
+  values: Array<number | null | undefined>,
+): number | null {
+  const present = values.filter(
+    (v): v is number => typeof v === "number" && Number.isFinite(v),
+  );
   if (!present.length) return null;
   return present.reduce((a, b) => a + b, 0) / present.length;
 }
 
-export function percentileRank(value: number | null, population: Array<number | null>): number | null {
+export function percentileRank(
+  value: number | null,
+  population: Array<number | null>,
+): number | null {
   if (value === null) return null;
-  const values = population.filter((v): v is number => typeof v === "number" && Number.isFinite(v)).sort((a, b) => a - b);
+  const values = population
+    .filter((v): v is number => typeof v === "number" && Number.isFinite(v))
+    .sort((a, b) => a - b);
   if (values.length < 2) return null;
   const below = values.filter((v) => v < value).length;
   const equal = values.filter((v) => v === value).length;
@@ -80,12 +106,20 @@ export function computeTtm(quarterly: FinancialRow[]): FinancialRow | null {
   const netIncome = sum("netIncome");
   const freeCashFlow = sum("freeCashFlow");
   const ebitda = sum("ebitda");
+  const pretaxIncome = sum("pretaxIncome");
+  const incomeTax = sum("incomeTax");
   const totalDebt = last.totalDebt;
   const cash = last.cashAndInvestments;
   const netDebt = totalDebt !== null && cash !== null ? totalDebt - cash : null;
   const equity = last.totalEquity;
   const investedCapital =
-    equity !== null && totalDebt !== null && cash !== null ? equity + totalDebt - cash : null;
+    equity !== null && totalDebt !== null ? equity + totalDebt : null;
+  const taxRate =
+    pretaxIncome !== null && pretaxIncome > 0 && incomeTax !== null
+      ? Math.min(0.5, Math.max(0, incomeTax / pretaxIncome))
+      : 0.21;
+  const nopat =
+    operatingIncome !== null ? operatingIncome * (1 - taxRate) : null;
 
   return {
     ...last,
@@ -98,8 +132,8 @@ export function computeTtm(quarterly: FinancialRow[]): FinancialRow | null {
     epsDiluted: sum("epsDiluted"),
     epsBasic: sum("epsBasic"),
     interestExpense: sum("interestExpense"),
-    pretaxIncome: sum("pretaxIncome"),
-    incomeTax: sum("incomeTax"),
+    pretaxIncome,
+    incomeTax,
     rnd: sum("rnd"),
     sga: sum("sga"),
     cfo: sum("cfo"),
@@ -114,11 +148,15 @@ export function computeTtm(quarterly: FinancialRow[]): FinancialRow | null {
     operatingMargin: safeDiv(operatingIncome, revenue),
     netMargin: safeDiv(netIncome, revenue),
     fcfMargin: safeDiv(freeCashFlow, revenue),
-    roic: investedCapital && investedCapital > 0 && operatingIncome != null
-      ? safeDiv(operatingIncome * (1 - DEFAULT_TAX_RATE), investedCapital)
-      : null,
+    roic:
+      investedCapital && investedCapital > 0 && nopat !== null
+        ? nopat / investedCapital
+        : null,
     netDebt,
-    netDebtToEbitda: netDebt !== null && ebitda !== null && ebitda > 0 ? netDebt / ebitda : null,
+    netDebtToEbitda:
+      netDebt !== null && ebitda !== null && ebitda > 0
+        ? netDebt / ebitda
+        : null,
     roe: safeDiv(netIncome, equity),
   };
 }
@@ -143,7 +181,9 @@ export function latestPriceSnapshot(prices: PricePoint[]): PriceSnapshot {
   const sorted = [...prices].sort((a, b) => a.d.localeCompare(b.d));
   const last = sorted[sorted.length - 1];
   const prev = sorted[sorted.length - 2];
-  const oneYearAgo = new Date(new Date(last.d).getTime() - 365 * 86_400_000).toISOString().slice(0, 10);
+  const oneYearAgo = new Date(new Date(last.d).getTime() - 365 * 86_400_000)
+    .toISOString()
+    .slice(0, 10);
   const yearWindow = sorted.filter((p) => p.d >= oneYearAgo);
   return {
     close: last.a ?? last.c,
@@ -162,11 +202,16 @@ export function latestPriceSnapshot(prices: PricePoint[]): PriceSnapshot {
   };
 }
 
-export function returnOverDays(prices: PricePoint[], days: number): number | null {
+export function returnOverDays(
+  prices: PricePoint[],
+  days: number,
+): number | null {
   const sorted = [...prices].sort((a, b) => a.d.localeCompare(b.d));
   if (sorted.length < 2) return null;
   const last = sorted[sorted.length - 1];
-  const cutoff = new Date(new Date(last.d).getTime() - days * 86_400_000).toISOString().slice(0, 10);
+  const cutoff = new Date(new Date(last.d).getTime() - days * 86_400_000)
+    .toISOString()
+    .slice(0, 10);
   const start = sorted.find((p) => p.d >= cutoff);
   if (!start) return null;
   return (last.a ?? last.c) / (start.a ?? start.c) - 1;
@@ -217,7 +262,9 @@ export function computeMetrics(
   const sorted = sortByDate(quarterly);
   const ttm = computeTtm(sorted);
   const prevTtm = sorted.length >= 8 ? computeTtm(sorted.slice(0, -4)) : null;
-  const snapshot = prices.length ? latestPriceSnapshot(prices) : emptySnapshot();
+  const snapshot = prices.length
+    ? latestPriceSnapshot(prices)
+    : emptySnapshot();
 
   const latestQ = sorted[sorted.length - 1];
   const yearAgoQ = sorted.length >= 5 ? sorted[sorted.length - 5] : null;
@@ -225,23 +272,48 @@ export function computeMetrics(
   const latestAnnual = sortByDate(annual).slice(-1)[0];
   const revenueTtm = ttm?.revenue ?? latestAnnual?.revenue ?? null;
   const revenueGrowthTtm =
-    ttm && prevTtm ? pctChange(ttm.revenue, prevTtm.revenue) : pctChange(latestAnnual?.revenue, sortByDate(annual).slice(-2)[0]?.revenue);
-  const revenueGrowthLatestQ = latestQ && yearAgoQ ? pctChange(latestQ.revenue, yearAgoQ.revenue) : null;
+    ttm && prevTtm
+      ? pctChange(ttm.revenue, prevTtm.revenue)
+      : pctChange(
+          latestAnnual?.revenue,
+          sortByDate(annual).slice(-2)[0]?.revenue,
+        );
+  const revenueGrowthLatestQ =
+    latestQ && yearAgoQ ? pctChange(latestQ.revenue, yearAgoQ.revenue) : null;
   const epsTtm = ttm?.epsDiluted ?? latestAnnual?.epsDiluted ?? null;
   const epsGrowthTtm =
-    ttm && prevTtm ? pctChange(ttm.epsDiluted, prevTtm.epsDiluted) : pctChange(latestAnnual?.epsDiluted, sortByDate(annual).slice(-2)[0]?.epsDiluted);
+    ttm && prevTtm
+      ? pctChange(ttm.epsDiluted, prevTtm.epsDiluted)
+      : pctChange(
+          latestAnnual?.epsDiluted,
+          sortByDate(annual).slice(-2)[0]?.epsDiluted,
+        );
 
   const marketCap = snapshot.marketCap;
   const netDebt = ttm?.netDebt ?? latestAnnual?.netDebt ?? null;
-  const ev = marketCap !== null && netDebt !== null ? marketCap + netDebt : marketCap;
+  const ev =
+    marketCap !== null && netDebt !== null ? marketCap + netDebt : marketCap;
   const ebitdaTtm = ttm?.ebitda ?? latestAnnual?.ebitda ?? null;
-  const freeCashFlowTtm = ttm?.freeCashFlow ?? latestAnnual?.freeCashFlow ?? null;
+  const freeCashFlowTtm =
+    ttm?.freeCashFlow ?? latestAnnual?.freeCashFlow ?? null;
   const netIncomeTtm = ttm?.netIncome ?? latestAnnual?.netIncome ?? null;
 
-  const pe = marketCap !== null && netIncomeTtm !== null && netIncomeTtm > 0 ? marketCap / netIncomeTtm : snapshot.pe;
-  const evEbitda = ev !== null && ebitdaTtm !== null && ebitdaTtm > 0 ? ev / ebitdaTtm : snapshot.evEbitda;
-  const evSales = ev !== null && revenueTtm !== null && revenueTtm > 0 ? ev / revenueTtm : snapshot.evSales;
-  const pfcf = marketCap !== null && freeCashFlowTtm !== null && freeCashFlowTtm > 0 ? marketCap / freeCashFlowTtm : snapshot.pfcf;
+  const pe =
+    marketCap !== null && netIncomeTtm !== null && netIncomeTtm > 0
+      ? marketCap / netIncomeTtm
+      : snapshot.pe;
+  const evEbitda =
+    ev !== null && ebitdaTtm !== null && ebitdaTtm > 0
+      ? ev / ebitdaTtm
+      : snapshot.evEbitda;
+  const evSales =
+    ev !== null && revenueTtm !== null && revenueTtm > 0
+      ? ev / revenueTtm
+      : snapshot.evSales;
+  const pfcf =
+    marketCap !== null && freeCashFlowTtm !== null && freeCashFlowTtm > 0
+      ? marketCap / freeCashFlowTtm
+      : snapshot.pfcf;
 
   return {
     ttm,
@@ -253,15 +325,19 @@ export function computeMetrics(
       epsTtm,
       epsGrowthTtm,
       grossMargin: ttm?.grossMargin ?? latestAnnual?.grossMargin ?? null,
-      operatingMargin: ttm?.operatingMargin ?? latestAnnual?.operatingMargin ?? null,
+      operatingMargin:
+        ttm?.operatingMargin ?? latestAnnual?.operatingMargin ?? null,
       netMargin: ttm?.netMargin ?? latestAnnual?.netMargin ?? null,
       fcfMargin: ttm?.fcfMargin ?? latestAnnual?.fcfMargin ?? null,
       roic: ttm?.roic ?? latestAnnual?.roic ?? null,
       roe: ttm?.roe ?? latestAnnual?.roe ?? null,
       netDebt,
-      netDebtToEbitda: ttm?.netDebtToEbitda ?? latestAnnual?.netDebtToEbitda ?? null,
+      netDebtToEbitda:
+        ttm?.netDebtToEbitda ?? latestAnnual?.netDebtToEbitda ?? null,
       interestCover:
-        ttm?.operatingIncome !== null && ttm?.operatingIncome !== undefined && ttm?.interestExpense
+        ttm?.operatingIncome !== null &&
+        ttm?.operatingIncome !== undefined &&
+        ttm?.interestExpense
           ? ttm.operatingIncome / Math.abs(ttm.interestExpense)
           : null,
       freeCashFlowTtm,
@@ -270,7 +346,10 @@ export function computeMetrics(
       evEbitda,
       evSales,
       pfcf,
-      fcfYield: marketCap !== null && freeCashFlowTtm !== null && marketCap > 0 ? freeCashFlowTtm / marketCap : null,
+      fcfYield:
+        marketCap !== null && freeCashFlowTtm !== null && marketCap > 0
+          ? freeCashFlowTtm / marketCap
+          : null,
       return1y: returnOverDays(prices, 365),
       returnYtd: returnYtd(prices),
       return5y: returnOverDays(prices, 1825),
@@ -308,19 +387,29 @@ export function buildFactorChips(
   currency = "USD",
 ): Record<string, FactorChip[]> {
   const growthPop = all.map((x) => {
-    const vals = [x.metrics.revenueGrowthTtm, x.metrics.epsGrowthTtm].filter((v): v is number => v !== null);
+    const vals = [x.metrics.revenueGrowthTtm, x.metrics.epsGrowthTtm].filter(
+      (v): v is number => v !== null,
+    );
     return vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : null;
   });
   const profitPop = all.map((x) => {
-    const direct = [x.metrics.operatingMargin, x.metrics.roic].filter((v): v is number => v !== null);
+    const direct = [x.metrics.operatingMargin, x.metrics.roic].filter(
+      (v): v is number => v !== null,
+    );
     if (direct.length) return direct.reduce((a, b) => a + b, 0) / direct.length;
     // Banks and insurers do not report an operating margin or ROIC; use the
     // return and margin measures that are meaningful for financials.
-    const fallback = [x.metrics.roe, x.metrics.netMargin].filter((v): v is number => v !== null);
-    return fallback.length ? fallback.reduce((a, b) => a + b, 0) / fallback.length : null;
+    const fallback = [x.metrics.roe, x.metrics.netMargin].filter(
+      (v): v is number => v !== null,
+    );
+    return fallback.length
+      ? fallback.reduce((a, b) => a + b, 0) / fallback.length
+      : null;
   });
   const cashPop = all.map((x) => x.metrics.fcfMargin);
-  const valuationPop = all.map((x) => (x.metrics.evEbitda !== null ? -x.metrics.evEbitda : null));
+  const valuationPop = all.map((x) =>
+    x.metrics.evEbitda !== null ? -x.metrics.evEbitda : null,
+  );
 
   const out: Record<string, FactorChip[]> = {};
 
@@ -335,19 +424,28 @@ export function buildFactorChips(
       key: "growth",
       label: `Growth: ${tier(growth, "Strong", "Moderate", "Slow")}`,
       tone: toneFor(growth),
-      detail: growth === null ? "Not enough comparable data." : `${formatOrdinal(growth * 100)} percentile revenue/EPS growth in the covered universe.`,
+      detail:
+        growth === null
+          ? "Not enough comparable data."
+          : `${formatOrdinal(growth * 100)} percentile revenue/EPS growth in the covered universe.`,
     });
     chips.push({
       key: "profitability",
       label: `Profitability: ${tier(profit, "High", "Average", "Low")}`,
       tone: toneFor(profit),
-      detail: profit === null ? "Not enough comparable data." : `${formatOrdinal(profit * 100)} percentile profitability metrics in the covered universe.`,
+      detail:
+        profit === null
+          ? "Not enough comparable data."
+          : `${formatOrdinal(profit * 100)} percentile profitability metrics in the covered universe.`,
     });
     chips.push({
       key: "cash",
       label: `Cash generation: ${tier(cash, "High", "Average", "Low")}`,
       tone: toneFor(cash),
-      detail: cash === null ? "Not enough comparable data." : `${formatOrdinal(cash * 100)} percentile free-cash-flow margin.`,
+      detail:
+        cash === null
+          ? "Not enough comparable data."
+          : `${formatOrdinal(cash * 100)} percentile free-cash-flow margin.`,
     });
 
     const nd = item.metrics.netDebt;
@@ -397,7 +495,12 @@ export function buildFactorChips(
   return out;
 }
 
-function tier(value: number | null, high: string, mid: string, low: string): string {
+function tier(
+  value: number | null,
+  high: string,
+  mid: string,
+  low: string,
+): string {
   if (value === null) return "n/a";
   if (value >= 0.67) return high;
   if (value >= 0.34) return mid;
@@ -433,29 +536,88 @@ export function downsample<T>(items: T[], maxPoints: number): T[] {
   return out;
 }
 
-export function buildMultipleHistory(prices: PricePoint[], years = 5) {
-  const sorted = [...prices].sort((a, b) => a.d.localeCompare(b.d));
-  const cutoff = sorted.length ? new Date(new Date(sorted[sorted.length - 1].d).getTime() - years * 365 * 86_400_000).toISOString().slice(0, 10) : "";
-  const window = sorted.filter((p) => p.d >= cutoff);
+/**
+ * Monthly valuation history derived from reported trailing fundamentals and
+ * the adjusted price series. Market capitalisation is scaled back from the
+ * latest snapshot, so splits and dividends do not create false jumps.
+ */
+export function buildMultipleHistoryFromStatements(
+  prices: PricePoint[],
+  quarterly: FinancialRow[],
+  marketCap: number | null,
+  years = 5,
+) {
+  const sortedPrices = [...prices].sort((a, b) => a.d.localeCompare(b.d));
+  const latest = sortedPrices[sortedPrices.length - 1];
+  if (!latest || marketCap === null || marketCap <= 0) return [];
+
+  const cutoff = new Date(
+    new Date(latest.d).getTime() - years * 365 * 86_400_000,
+  )
+    .toISOString()
+    .slice(0, 10);
+  const window = sortedPrices.filter((p) => p.d >= cutoff);
   const monthly: PricePoint[] = [];
   let lastMonth = "";
-  for (const p of window) {
-    const month = p.d.slice(0, 7);
+  for (const point of window) {
+    const month = point.d.slice(0, 7);
     if (month !== lastMonth) {
-      monthly.push(p);
+      monthly.push(point);
       lastMonth = month;
     }
   }
-  return monthly.map((p) => ({
-    date: p.d,
-    pe: p.pe ?? null,
-    evEbitda: p.evEbitda ?? null,
-    evSales: p.evSales ?? null,
-    pfcf: p.pfcf ?? null,
-  }));
+
+  const quarters = sortByDate(quarterly);
+  const latestAdjusted = latest.a ?? latest.c;
+
+  return monthly.map((point) => {
+    const scale = (point.a ?? point.c) / latestAdjusted;
+    const cap = marketCap * scale;
+    const available = quarters.filter(
+      (row) => (row.publishDate ?? row.reportDate) <= point.d,
+    );
+    const ttmRows = available.slice(-4);
+    if (ttmRows.length < 4) {
+      return {
+        date: point.d,
+        pe: null,
+        evEbitda: null,
+        evSales: null,
+        pfcf: null,
+      };
+    }
+    const sum = (field: keyof FinancialRow) =>
+      ttmRows.reduce<number | null>((total, row) => {
+        const value = row[field];
+        if (typeof value !== "number" || !Number.isFinite(value)) return total;
+        return (total ?? 0) + value;
+      }, null);
+    const revenue = sum("revenue");
+    const netIncome = sum("netIncome");
+    const ebitda = sum("ebitda");
+    const freeCashFlow = sum("freeCashFlow");
+    const last = ttmRows[ttmRows.length - 1];
+    const netDebt = last.netDebt;
+    const enterpriseValue = cap + (netDebt ?? 0);
+    return {
+      date: point.d,
+      pe: netIncome !== null && netIncome > 0 ? cap / netIncome : null,
+      evEbitda: ebitda !== null && ebitda > 0 ? enterpriseValue / ebitda : null,
+      evSales:
+        revenue !== null && revenue > 0 ? enterpriseValue / revenue : null,
+      pfcf:
+        freeCashFlow !== null && freeCashFlow > 0 ? cap / freeCashFlow : null,
+    };
+  });
 }
 
-export function buildRangeFiles(prices: PricePoint[], ticker: string): Record<string, Array<{ t: number; o: number; h: number; l: number; c: number; v: number }>> {
+export function buildRangeFiles(
+  prices: PricePoint[],
+  ticker: string,
+): Record<
+  string,
+  Array<{ t: number; o: number; h: number; l: number; c: number; v: number }>
+> {
   const sorted = [...prices].sort((a, b) => a.d.localeCompare(b.d));
   if (!sorted.length) return {};
   const last = sorted[sorted.length - 1];
@@ -468,10 +630,16 @@ export function buildRangeFiles(prices: PricePoint[], ticker: string): Record<st
     "5Y": 1826,
     MAX: 100_000,
   };
-  const out: Record<string, Array<{ t: number; o: number; h: number; l: number; c: number; v: number }>> = {};
+  const out: Record<
+    string,
+    Array<{ t: number; o: number; h: number; l: number; c: number; v: number }>
+  > = {};
   for (const [label, days] of Object.entries(ranges)) {
-    const cutoff = new Date(lastDate.getTime() - days * 86_400_000).toISOString().slice(0, 10);
-    const window = days === 100_000 ? sorted : sorted.filter((p) => p.d >= cutoff);
+    const cutoff = new Date(lastDate.getTime() - days * 86_400_000)
+      .toISOString()
+      .slice(0, 10);
+    const window =
+      days === 100_000 ? sorted : sorted.filter((p) => p.d >= cutoff);
     const sampled = downsample(window, 600);
     out[label] = sampled.map((p) => ({
       t: Math.floor(new Date(`${p.d}T00:00:00Z`).getTime() / 1000),
@@ -483,7 +651,10 @@ export function buildRangeFiles(prices: PricePoint[], ticker: string): Record<st
     }));
   }
   const yearStart = `${last.d.slice(0, 4)}-01-01`;
-  const ytd = downsample(sorted.filter((p) => p.d >= yearStart), 600);
+  const ytd = downsample(
+    sorted.filter((p) => p.d >= yearStart),
+    600,
+  );
   out.YTD = ytd.map((p) => ({
     t: Math.floor(new Date(`${p.d}T00:00:00Z`).getTime() / 1000),
     o: p.o,

@@ -16,7 +16,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 
@@ -33,25 +33,12 @@ jobs:
 
       - name: Refresh US coverage
         run: pnpm refresh
-        env:
-          SIMFIN_API_KEY: ${{ secrets.SIMFIN_API_KEY }}
-
-      - name: Refresh US prices from Yahoo
-        run: pnpm refresh:prices
 
       - name: Ingest earnings releases
         run: pnpm ingest:earnings
 
       - name: Refresh report prose
         run: pnpm refresh:stories
-
-      - name: Refresh benchmark prices
-        run: pnpm ingest:benchmark
-
-      - name: Rebuild public data
-        run: |
-          pnpm build:data
-          pnpm build:screener
 
       - name: Check freshness
         run: |

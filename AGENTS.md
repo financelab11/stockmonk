@@ -18,8 +18,8 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
   sortable peer table, Fuse search input). Static content uses plain `<a>` tags
   to avoid hydrating a `Link` for every card.
 - **Data access:** server components read JSON through `lib/data.ts`
-  (`server-only`). Ingestion scripts are the only code allowed to read
-  `SIMFIN_API_KEY`; never use `NEXT_PUBLIC_*` for secrets.
+  (`server-only`). Ingestion scripts are the only code that talks to SEC EDGAR,
+  Yahoo Finance or Supabase; never use `NEXT_PUBLIC_*` for secrets.
 - **Types:** every processed file is validated by a Zod schema in
   `lib/schemas.ts`. Add a schema before adding a new data field.
 - **Styling:** use the tokens and component classes in `app/globals.css`.

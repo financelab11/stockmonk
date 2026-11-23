@@ -4,26 +4,24 @@
 
 | Layer | Source | Used for |
 | --- | --- | --- |
-| Fundamentals | SimFin (free tier) | Income statement, balance sheet, cash flow, derived ratios for All companies |
-| Regulatory flows | SEC EDGAR XBRL company facts + 10-K instance files | Revenue, net income, EPS and segment/geography facts for research names |
-| Prices | SimFin daily adjusted prices | Price charts, 52-week range, returns, market cap and multiple history |
+| Fundamentals | SEC EDGAR XBRL company facts | Income statement, balance sheet and cash flow for all 229 companies |
+| Prices and profile | Yahoo Finance | Daily adjusted prices, 52-week range, returns, market capitalisation, share count and company profile |
 | Analyst consensus | Yahoo Finance (primary), Nasdaq (cross-check / fallback) | Attributed target range, recommendation distribution, forward estimates, EPS surprises |
 | Segment mix | Company 10-K XBRL dimensional facts | Reportable segments, product categories and geography mix |
 | Logos | CompaniesMarketCap logo CDN | Local brand thumbnails; initials fallback in the UI |
 
-The SimFin API key is read only by build-time ingestion scripts. It is never
-imported into a React component or exposed through `NEXT_PUBLIC_*`.
+The pipeline needs no fundamentals-vendor key. SEC EDGAR and Yahoo Finance are
+public sources; the only server-side secret is the Supabase service role used by
+the database sync.
 
 ## Refresh pipeline
 
 ```bash
-pnpm ingest:edgar      # SEC XBRL facts for the 229 research names
-pnpm ingest:simfin     # SimFin statements + prices, merged with SEC flows
-pnpm ingest:fallback   # SEC + market fallback for thin-coverage names
-pnpm backfill:filings  # copy latest 10-K URLs into processed records
-pnpm ingest:consensus  # third-party consensus snapshots
-pnpm ingest:segments   # 10-K segment and geography mixes
-pnpm build:data        # regenerate public/data/stocks.json + search-index.json
+pnpm ingest:edgar        # SEC XBRL statements for the 229 research names
+pnpm ingest:fundamentals # Yahoo prices, market data and company profiles
+pnpm ingest:consensus    # third-party consensus snapshots
+pnpm ingest:segments     # 10-K segment and geography mixes
+pnpm build:data          # regenerate public/data/stocks.json + search-index.json
 ```
 
 Each script writes deterministic JSON under `data/` and `public/data/`. The app
@@ -35,14 +33,17 @@ data without any client-side API keys.
 - Annual periods are keyed by the fiscal year **end date** derived from SEC
   facts. SEC's own `fy` field is not used because it reflects the filing year,
   not the economic period.
-- Only `fp === "FY"` or `form === "10-K"` facts define an annual period.
+- Only `fp === "FY"` or `form === "10-K"` facts define an annual period. A
+  `20-F` annual report is treated the same way for foreign private issuers.
 - Quarterly flow facts are derived from cumulative YTD XBRL values by pairing
   periods that share a start date. Q4 is FY minus Q1–Q3.
 - TTM is the sum of the latest four discrete quarters. It is labelled with the
   most recent quarter's fiscal year and report date.
-- SimFin report dates are matched to SEC periods within 7 days. SEC values win
-  for revenue, gross profit, operating income, net income and diluted EPS; the
-  remaining lines stay on SimFin.
+- Balance-sheet values are point-in-time facts matched to the period end. Debt
+  is the reported long-term debt plus short-term borrowings/commercial paper;
+  cash and investments include short- and long-term marketable securities.
+- IFRS filers are converted to USD using the Yahoo Finance period-end FX rate.
+  Their XBRL history is annual, so those pages show annual periods.
 
 ## Known caveats
 
@@ -66,6 +67,13 @@ data without any client-side API keys.
 - **Data-thin companies.** A small number of names with limited filings or
   price history show a lighter profile: no segment mix, no consensus snapshot
   and no full narrative. Their pages say so.
+- **Foreign private issuers.** Companies that file Form 20-F report annually,
+  so EDGAR has no quarterly XBRL statements. Spotify, monday.com, Nebius and
+  Camtek are shown by fiscal year; On Holding has a partial interim XBRL record.
+  IFRS figures are converted to USD at the period-end Yahoo Finance FX rate.
+- **Delisted names.** ACLX, CRNX and PSTG were acquired in 2026 and no longer
+  have a live Yahoo quote. Their last available price series is kept and dated
+  rather than dropping them from the 229-name library.
 
 ## Universe
 
@@ -78,8 +86,8 @@ filing. The original ten core names are:
 
 `NVDA, MSFT, AAPL, GOOGL, AMZN, META, AVGO, TSLA, LLY, JPM`
 
-`GOOGL` maps to SimFin ticker `GOOG`; processed files always use the app ticker
-`GOOGL`.
+`GOOGL` uses Alphabet's SEC CIK; processed files always use the app ticker
+`GOOGL`. Yahoo's quote symbol is also `GOOGL`.
 
 Story authoring uses a factual brief per company:
 
@@ -95,8 +103,8 @@ processed field or the cited SEC filing.
 
 ## Attribution and licensing
 
-- Fundamentals: SimFin — <https://simfin.com/>
-- Filings: SEC EDGAR — <https://www.sec.gov/edgar/search/>
+- Fundamentals: SEC EDGAR — <https://www.sec.gov/edgar/search/>
+- Prices, market data and company profiles: Yahoo Finance — <https://finance.yahoo.com/>
 - Consensus: Yahoo Finance and Nasdaq, named on every consensus panel.
 - Logos: CompaniesMarketCap logo CDN, used for identification only. See
   `public/logos/ATTRIBUTION.md`. Missing or removed logos fall back to a

@@ -117,7 +117,7 @@ export default async function DiscoverPage({
     {
       question: "Where do the numbers come from?",
       answer:
-        "Fundamentals and adjusted prices come from SimFin, segment mixes and business descriptions from SEC EDGAR filings, and analyst consensus from Yahoo Finance cross-checked with Nasdaq. Every section names its source and reporting period.",
+        "Fundamentals come from SEC EDGAR filings, while adjusted prices, market data and company profiles come from Yahoo Finance. Segment mixes and business descriptions come from SEC filings, and analyst consensus is attributed to Yahoo Finance and cross-checked with Nasdaq. Every section names its source and reporting period.",
     },
     {
       question: "Are the full reports free?",

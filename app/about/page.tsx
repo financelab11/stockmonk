@@ -38,7 +38,7 @@ export default function AboutPage() {
       <h2>What we publish</h2>
       <ul>
         <li>Business descriptions and segment mixes sourced from SEC filings.</li>
-        <li>Financial statements, ratios and price history from SimFin.</li>
+        <li>Financial statements from SEC EDGAR; prices, market data and profiles from Yahoo Finance.</li>
         <li>Peer comparisons and multiple histories computed from the same data.</li>
         <li>Analyst consensus attributed to Yahoo Finance and cross-checked with Nasdaq.</li>
         <li>Data-change updates generated from the dataset, not invented headlines.</li>

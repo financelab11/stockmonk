@@ -5,8 +5,8 @@ production-style Next.js PWA that explains how a business makes money, charts th
 reported financials, and shows attributed analyst consensus — with **no buy /
 sell / hold ratings and no Stockmonk price targets**.
 
-- **229 US-listed companies** with a hand-written ten-section research report,
-  plus an expanded US screener universe.
+- **229 US-listed companies** with a hand-written ten-section research report
+  and a matching row in the five-factor screener.
 - Ten sourced article sections, a chart in every analytical section, peer
   comparison, consensus and risk sections.
 - Works offline for visited pages; installable on desktop and mobile.
@@ -17,15 +17,15 @@ sell / hold ratings and no Stockmonk price targets**.
 
 ```bash
 pnpm install
-cp .env.example .env.local     # add SIMFIN_API_KEY if you want to re-ingest
+cp .env.example .env.local     # Supabase values are optional for local browsing
 pnpm dev
 ```
 
 Open <http://localhost:3000>.
 
 The app reads pre-built JSON from `data/` and `public/data/`, so it runs without
-any API key. The SimFin key is only needed by the ingestion scripts and is never
-sent to the client.
+any API key. SEC EDGAR and Yahoo Finance are public sources; the ingestion
+scripts need no fundamentals-vendor key.
 
 ```bash
 pnpm build          # validates content, then builds the static app
@@ -123,29 +123,26 @@ The production target is Vercel, connected to the GitHub repository under the
 
 Build with `pnpm build`; static and dynamic routes use the same Next.js output.
 Required environment variables are the Supabase values above plus
-`NEXT_PUBLIC_SITE_URL` and `SIMFIN_API_KEY` for refresh jobs.
+`NEXT_PUBLIC_SITE_URL`; refresh jobs need no vendor key.
 
 The daily data workflow is `.github/workflows/daily-refresh.yml`. It refreshes
 the US file datasets, syncs Supabase, and commits updated data. Configure
-`SIMFIN_API_KEY`, `NEXT_PUBLIC_SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` as
-GitHub Actions secrets. The screener universe is refreshed weekly by
-`.github/workflows/weekly-screener-refresh.yml`.
+`NEXT_PUBLIC_SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` (or
+`SUPABASE_DB_PASSWORD`) as GitHub Actions secrets.
 
 ## Data pipeline
 
 The data layer is deterministic and idempotent:
 
 ```bash
-pnpm ingest:edgar       # SEC XBRL facts for the research universe
-pnpm ingest:simfin      # SimFin statements + prices, merged with SEC flows
-pnpm ingest:fallback    # SEC + market fallback for names with thin coverage
-pnpm backfill:filings   # copy latest 10-K URLs into processed records
-pnpm ingest:consensus   # Third-party consensus snapshots, cross-checked across providers
-pnpm ingest:segments    # 10-K segment and geography mixes for the core names
-pnpm build:data         # public/data/stocks.json + search-index.json
-pnpm audit:generated    # scan generated reports for text defects
-pnpm refresh:prices     # Yahoo closes for the US names
-pnpm refresh            # run the US pipeline in order
+pnpm ingest:edgar        # SEC XBRL statements for the research universe
+pnpm ingest:fundamentals # Yahoo prices, market data and company profiles
+pnpm ingest:consensus    # Third-party consensus snapshots, cross-checked across providers
+pnpm ingest:segments     # 10-K segment and geography mixes for the core names
+pnpm build:data          # public/data/stocks.json + search-index.json
+pnpm audit:generated     # scan generated reports for text defects
+pnpm refresh:prices      # intraday/next-day Yahoo close refresh
+pnpm refresh             # run the US pipeline in order
 ```
 
 Outputs:
@@ -175,12 +172,9 @@ composite is the weighted factor average, re-normalised for available factors
 and requires at least three of them. Missing parameters render as n/a; they are
 not filled with estimates. Score bands are descriptive, not ratings.
 
-The screener covers the US listed universe from SimFin's bulk export
-(`pnpm ingest:bulk`), plus the 229 full research reports from the daily Web API
-pipeline. SimFin's free bulk feed is delayed by about a year, so expanded rows
-carry the bulk snapshot date while the research rows refresh daily. CI builds
-that do not have the gitignored bulk files keep the committed snapshot instead
-of shrinking the universe.
+The screener covers exactly the 229 research names. It is rebuilt from
+`data/processed` on every data refresh; there is no bulk or expanded universe
+feed, so every row shares the same fundamentals and price snapshot.
 
 ### Story authoring
 
@@ -202,9 +196,9 @@ written under `data/raw/` and are not committed; the narrative files are.
 1. Add the ticker to the relevant group in `config/coverage.ts`. The research
    universe in `config/universe.ts` derives from those groups, so one edit is
    enough.
-2. Run `pnpm ingest:edgar`, `pnpm ingest:simfin`, `pnpm ingest:consensus` and
-   `pnpm ingest:segments` (segments are optional; companies without a segment
-   file use a single consolidated-revenue slice).
+2. Run `pnpm ingest:edgar`, `pnpm ingest:fundamentals`, `pnpm ingest:consensus`
+   and `pnpm ingest:segments` (segments are optional; companies without a
+   segment file use a single consolidated-revenue slice).
 3. Run `pnpm build:data`, then `pnpm stories:briefs` and
    `pnpm stories:materialize`.
 4. Write the report in `content/stocks/{ticker}.ts`, run `pnpm stories:index`,
@@ -240,8 +234,8 @@ tests/               Vitest unit tests and Playwright e2e specs
 
 ## Attribution
 
-- Fundamentals and prices: SimFin — <https://simfin.com/>
-- Filings and XBRL: SEC EDGAR — <https://www.sec.gov/edgar/search/>
+- Fundamentals: SEC EDGAR — <https://www.sec.gov/edgar/search/>
+- Prices, market data and company profiles: Yahoo Finance — <https://finance.yahoo.com/>
 - Consensus: Yahoo Finance, cross-checked with Nasdaq, named on each panel.
 - Logos: downloaded locally for identification only. See
   `public/logos/ATTRIBUTION.md`.

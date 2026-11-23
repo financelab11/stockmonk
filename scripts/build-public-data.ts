@@ -33,6 +33,7 @@ async function main() {
           industry: data.industry,
           description: data.description,
           isResearch: data.isResearch,
+          currency: data.currency,
           price: data.latestPrice.close,
           changePct: data.latestPrice.changePct,
           marketCap: data.latestPrice.marketCap,

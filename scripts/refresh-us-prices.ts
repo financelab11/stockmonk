@@ -1,9 +1,9 @@
 /**
  * Refreshes US price history from Yahoo Finance for every research name.
  *
- * SimFin price files can lag by several days, so this pass merges the latest
- * Yahoo closes into each processed file, recomputes the price-dependent metrics
- * and rewrites the public range files.
+ * This pass merges the latest Yahoo closes into each processed file, recomputes
+ * the price-dependent metrics and rewrites the public range files. It never
+ * touches the SEC fundamentals.
  *
  * Run: pnpm refresh:prices
  */
@@ -14,7 +14,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { RESEARCH_TICKERS, TICKER_ALIASES } from "../config/universe";
 import {
-  buildMultipleHistory,
+  buildMultipleHistoryFromStatements,
   buildRangeFiles,
   computeMetrics,
 } from "../lib/metrics";
@@ -97,9 +97,25 @@ async function main() {
       if (dividendYield != null) last.dy = dividendYield;
 
       const computed = computeMetrics(data.quarterly, data.annual, prices);
-      data.latestPrice = computed.snapshot;
+      data.latestPrice = {
+        ...computed.snapshot,
+        sharesOutstanding:
+          raw(quote?.sharesOutstanding) ??
+          raw(summary?.defaultKeyStatistics?.sharesOutstanding) ??
+          data.latestPrice.sharesOutstanding,
+        dividendYield: dividendYield ?? data.latestPrice.dividendYield,
+      };
       data.metrics = computed.metrics;
-      data.multipleHistory = buildMultipleHistory(prices);
+      data.multipleHistory = buildMultipleHistoryFromStatements(
+        prices,
+        data.quarterly,
+        data.latestPrice.marketCap,
+      );
+      data.sources = data.sources.map((source) =>
+        source.name.startsWith("Yahoo Finance")
+          ? { ...source, date: data.latestPrice.asOf }
+          : source,
+      );
       data.updatedAt = new Date().toISOString();
 
       await fs.writeFile(

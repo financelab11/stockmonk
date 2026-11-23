@@ -60,6 +60,7 @@ export type YahooQuoteSummary = {
     fiftyTwoWeekHigh?: { raw?: number };
     fiftyTwoWeekLow?: { raw?: number };
     dividendYield?: { raw?: number };
+    trailingAnnualDividendYield?: { raw?: number };
     marketCap?: { raw?: number };
     trailingPE?: { raw?: number };
     forwardPE?: { raw?: number };
@@ -119,7 +120,9 @@ export type YahooQuoteSummary = {
     }>;
   };
   incomeStatementHistory?: { incomeStatementHistory?: YahooStatement[] };
-  incomeStatementHistoryQuarterly?: { incomeStatementHistory?: YahooStatement[] };
+  incomeStatementHistoryQuarterly?: {
+    incomeStatementHistory?: YahooStatement[];
+  };
 };
 
 export type YahooStatement = {

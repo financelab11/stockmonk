@@ -44,10 +44,10 @@ export default function PrivacyPage() {
 
       <h2>Third-party data</h2>
       <p>
-        The site displays financial data from SimFin, filings from SEC EDGAR and
-        analyst consensus attributed to Yahoo Finance and Nasdaq. Those providers
-        have their own privacy policies. Stockmonk does not pass your identity to
-        them.
+        The site displays financial statements from SEC EDGAR, prices and company
+        profiles from Yahoo Finance, and analyst consensus attributed to Yahoo
+        Finance and Nasdaq. Those providers have their own privacy policies.
+        Stockmonk does not pass your identity to them.
       </p>
 
       <h2>Hosting and logs</h2>

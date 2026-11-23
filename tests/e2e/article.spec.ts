@@ -176,9 +176,9 @@ test.describe("research article", () => {
     await input.fill("MSFT");
     await page.getByRole("button", { name: "Search", exact: true }).click();
     await expect(page).toHaveURL(/\/discover\?.*q=MSFT/);
-    await expect(page.getByText("MICROSOFT CORP").first()).toBeVisible();
+    await expect(page.getByText("Microsoft Corporation").first()).toBeVisible();
     await page
-      .getByRole("link", { name: /MICROSOFT CORP/ })
+      .getByRole("link", { name: /Microsoft Corporation/ })
       .first()
       .click();
     await expect(page).toHaveURL(/\/stocks\/MSFT/);

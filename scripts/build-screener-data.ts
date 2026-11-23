@@ -14,9 +14,7 @@ import {
   FACTOR_CONFIG,
   scoreScreenerEntries,
   screenerEntriesFromBundles,
-  type ScreenerRawEntry,
 } from "../lib/screener-model";
-import { buildUniverseEntries } from "./lib/universe";
 
 const ROOT = process.cwd();
 const PROCESSED = path.join(ROOT, "data", "processed");
@@ -39,10 +37,6 @@ function prices(ticker: string, range: string): RangePricePoint[] {
     .map((point) => rangePricePointSchema.safeParse(point))
     .filter((result) => result.success)
     .map((result) => result.data);
-}
-
-function normalizeTicker(ticker: string): string {
-  return ticker.replace(/-/g, ".").toUpperCase();
 }
 
 function roundDeep(value: unknown): unknown {
@@ -89,44 +83,14 @@ async function main() {
   }).filter((bundle): bundle is NonNullable<typeof bundle> => bundle != null);
 
   const curatedEntries = screenerEntriesFromBundles(bundles, benchmark);
-  const curatedTickers = new Set<string>();
-  for (const ticker of RESEARCH_TICKERS) {
-    curatedTickers.add(ticker.toUpperCase());
-    curatedTickers.add(normalizeTicker(ticker));
+
+  if (curatedEntries.length !== RESEARCH_TICKERS.length) {
+    throw new Error(
+      `screener needs ${RESEARCH_TICKERS.length} research rows, built ${curatedEntries.length}`,
+    );
   }
 
-  let universeEntries: ScreenerRawEntry[] = [];
-  try {
-    universeEntries = await buildUniverseEntries();
-  } catch (error) {
-    console.warn("[screener:data] universe build skipped:", error);
-  }
-  const expanded = universeEntries.filter(
-    (entry) =>
-      !curatedTickers.has(entry.ticker.toUpperCase()) &&
-      !curatedTickers.has(normalizeTicker(entry.ticker)),
-  );
-
-  // CI builds do not have the gitignored bulk export. Keep the committed
-  // expanded snapshot instead of silently shrinking the screener to 229 names.
-  const existingFile = path.join(PUBLIC, "screener.json");
-  if (expanded.length === 0 && fs.existsSync(existingFile)) {
-    try {
-      const existing = JSON.parse(
-        fs.readFileSync(existingFile, "utf8"),
-      ) as unknown[];
-      if (existing.length > curatedEntries.length + 100) {
-        console.warn(
-          "[screener:data] bulk export missing; keeping the committed expanded snapshot",
-        );
-        return;
-      }
-    } catch {
-      // fall through and rebuild the curated set
-    }
-  }
-
-  const rows = scoreScreenerEntries([...curatedEntries, ...expanded]);
+  const rows = scoreScreenerEntries(curatedEntries);
   const factorKeys: string[] = [];
   for (const factor of FACTOR_CONFIG) {
     for (const parameter of factor.parameters) {
@@ -172,7 +136,7 @@ async function main() {
     "utf8",
   );
   console.log(
-    `[screener:data] wrote ${rows.length} rows (${curatedEntries.length} curated, ${expanded.length} expanded)`,
+    `[screener:data] wrote ${rows.length} rows for the ${RESEARCH_TICKERS.length}-name research universe`,
   );
 }
 

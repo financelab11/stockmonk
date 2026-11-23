@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-11-18T08:51:19.767Z",
-  "priceAsOf": "2026-11-06",
+  "generatedAt": "2026-11-23T17:37:26.032Z",
+  "priceAsOf": "2026-11-23",
   "companies": 229,
   "researchCompanies": 229,
+  "benchmark": "SPY",
   "priceRanges": [
     "1M",
     "3M",
@@ -12,22 +13,12 @@
     "5Y",
     "MAX"
   ],
-  "missingStatements": [
-    "VKTX",
-    "BRK.B",
-    "GEV",
-    "ALAB",
-    "NBIS",
-    "CRWV",
-    "ONTO",
-    "RBRK",
-    "CRCL",
-    "TEM",
-    "OKLO",
-    "USAR"
+  "missingRevenue": [
+    "VKTX"
   ],
   "notes": [
-    "SimFin free-tier income statement data can lag the latest reported quarter for some issuers; SEC/Yahoo are used to cross-check headline figures.",
-    "Supporting companies receive PL + DERIVED statements only; no segment or cash-flow detail."
+    "Fundamentals come from SEC EDGAR XBRL company facts (10-K / 10-Q).",
+    "Price history, market capitalisation, profile and share count come from Yahoo Finance.",
+    "Delisted names with no current Yahoo history keep their last available price series."
   ]
 }

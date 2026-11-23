@@ -40,13 +40,13 @@ test.describe("PWA and metadata", () => {
     }
   });
 
-  test("does not leak the SimFin key into the client bundle", async ({
+  test("does not leak server-side keys into the client bundle", async ({
     request,
   }) => {
     const home = await request.get("/");
     const html = await home.text();
     expect(html).not.toContain("SIMFIN_API_KEY");
-    expect(html).not.toContain("simfin-secret-sentinel");
+    expect(html).not.toContain("SUPABASE_SERVICE_ROLE_KEY");
 
     const scripts = [...html.matchAll(/src="([^"]+\.js)"/g)].map(
       (match) => match[1],
@@ -55,7 +55,7 @@ test.describe("PWA and metadata", () => {
       const response = await request.get(script);
       if (!response.ok()) continue;
       const body = await response.text();
-      expect(body).not.toContain("simfin-secret-sentinel");
+      expect(body).not.toContain("SUPABASE_SERVICE_ROLE_KEY");
     }
   });
 });

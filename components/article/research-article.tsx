@@ -522,14 +522,23 @@ export function ResearchArticle({
                   ))}
                 </div>
               )}
-              <div className="mt-5">
-                <LazyGrowthChart
-                  points={quarterSeries}
-                  title="Quarterly revenue and year-over-year growth"
-                  description="Discrete quarterly revenue from reported statements; bars are revenue, line is YoY growth."
-                  currency={currency}
-                />
-              </div>
+              {quarters.length > 0 ? (
+                <div className="mt-5">
+                  <LazyGrowthChart
+                    points={quarterSeries}
+                    title="Quarterly revenue and year-over-year growth"
+                    description="Discrete quarterly revenue from reported statements; bars are revenue, line is YoY growth."
+                    currency={currency}
+                  />
+                </div>
+              ) : (
+                <p className="mt-5 rounded-xl border border-line bg-paper-deep p-4 text-[11.5px] leading-relaxed text-muted">
+                  This issuer files annual reports with the SEC and does not
+                  publish quarterly XBRL statements, so quarterly figures are
+                  not shown. Annual statements and margins are shown in the
+                  financial-performance section.
+                </p>
+              )}
               <div className="mt-4 rounded-xl border border-line bg-surface p-4">
                 <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
                   Attributed forward estimates
@@ -631,48 +640,50 @@ export function ResearchArticle({
                 />
               </div>
 
-              <div className="mt-4 overflow-x-auto rounded-xl border border-line">
-                <table className="data-table min-w-[560px]">
-                  <thead>
-                    <tr>
-                      <th scope="col">Quarter</th>
-                      <th scope="col" className="text-right">
-                        Revenue
-                      </th>
-                      <th scope="col" className="text-right">
-                        Op margin
-                      </th>
-                      <th scope="col" className="text-right">
-                        Net margin
-                      </th>
-                      <th scope="col" className="text-right">
-                        EPS
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {quarters.map((row) => (
-                      <tr key={`${row.period}-${row.fyear}`}>
-                        <td className="font-medium text-ink">
-                          {formatFiscalQuarter(row.period, row.fyear)}
-                        </td>
-                        <td className="text-right">{compact(row.revenue)}</td>
-                        <td className="text-right">
-                          {formatPercent(row.operatingMargin)}
-                        </td>
-                        <td className="text-right">
-                          {formatPercent(row.netMargin)}
-                        </td>
-                        <td className="text-right">
-                          {row.epsDiluted != null
-                            ? money(row.epsDiluted)
-                            : "n/a"}
-                        </td>
+              {quarters.length > 0 ? (
+                <div className="mt-4 overflow-x-auto rounded-xl border border-line">
+                  <table className="data-table min-w-[560px]">
+                    <thead>
+                      <tr>
+                        <th scope="col">Quarter</th>
+                        <th scope="col" className="text-right">
+                          Revenue
+                        </th>
+                        <th scope="col" className="text-right">
+                          Op margin
+                        </th>
+                        <th scope="col" className="text-right">
+                          Net margin
+                        </th>
+                        <th scope="col" className="text-right">
+                          EPS
+                        </th>
                       </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
+                    </thead>
+                    <tbody>
+                      {quarters.map((row) => (
+                        <tr key={`${row.period}-${row.fyear}`}>
+                          <td className="font-medium text-ink">
+                            {formatFiscalQuarter(row.period, row.fyear)}
+                          </td>
+                          <td className="text-right">{compact(row.revenue)}</td>
+                          <td className="text-right">
+                            {formatPercent(row.operatingMargin)}
+                          </td>
+                          <td className="text-right">
+                            {formatPercent(row.netMargin)}
+                          </td>
+                          <td className="text-right">
+                            {row.epsDiluted != null
+                              ? money(row.epsDiluted)
+                              : "n/a"}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              ) : null}
             </section>
 
             <section

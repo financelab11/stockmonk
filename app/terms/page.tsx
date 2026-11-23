@@ -37,13 +37,14 @@ export default function TermsPage() {
 
       <h2>3. Data accuracy</h2>
       <p>
-        Financial data is sourced from SimFin and SEC EDGAR; consensus data is
-        attributed to Yahoo Finance and Nasdaq. Data can be delayed, incomplete,
-        restated or wrong. Market prices shown are the latest close in the
-        ingestion run, not a real-time quote. Segment mixes, fiscal calendars and
-        adjusted figures can differ between providers. We describe known caveats
-        in the <Link href="/data-sources">data notes</Link>, but we do not warrant
-        that any number is error-free.
+        Financial statements are sourced from SEC EDGAR; prices, market data and
+        company profiles from Yahoo Finance; and consensus data is attributed to
+        Yahoo Finance and Nasdaq. Data can be delayed, incomplete, restated or
+        wrong. Market prices shown are the latest close in the ingestion run, not
+        a real-time quote. Segment mixes, fiscal calendars and adjusted figures
+        can differ between providers. We describe known caveats in the{" "}
+        <Link href="/data-sources">data notes</Link>, but we do not warrant that
+        any number is error-free.
       </p>
 
       <h2>4. No warranty</h2>

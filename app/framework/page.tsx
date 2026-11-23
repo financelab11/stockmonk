@@ -187,9 +187,9 @@ export default function FrameworkPage() {
           <div className="mt-4 rounded-xl border border-line bg-surface p-4">
             <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
               {[
-                { icon: Database, label: "SimFin", detail: "Statements & prices" },
-                { icon: Landmark, label: "SEC EDGAR", detail: "10-K / 10-Q / 8-K" },
-                { icon: BarChart3, label: "Consensus", detail: "Yahoo / Nasdaq" },
+                { icon: Database, label: "SEC EDGAR", detail: "Statements & filings" },
+                { icon: BarChart3, label: "Yahoo Finance", detail: "Prices & profile" },
+                { icon: Landmark, label: "Consensus", detail: "Yahoo / Nasdaq" },
                 { icon: FileSearch, label: "Filings", detail: "Segments & risks" },
               ].map((source) => {
                 const Icon = source.icon;

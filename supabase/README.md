@@ -39,7 +39,6 @@ Required for the daily refresh and database sync:
 
 | Secret | Where to get it |
 | --- | --- |
-| `SIMFIN_API_KEY` | SimFin account → API key (`.env.local`) |
 | `NEXT_PUBLIC_SUPABASE_URL` | Supabase → Project Settings → API → Project URL |
 | `SUPABASE_DB_PASSWORD` | Supabase → Project Settings → Database (`.env.local`) |
 
@@ -75,11 +74,11 @@ and targets, then calls `refresh_company_snapshots()` and
 `202611230001_remove_india_gcc.sql` removes the former India/GCC companies,
 stories, aliases and coverage groups, drops the India-only `forward_estimates`
 table and `forward_growth_ranking` view, and restricts `companies.market` to
-`US`.
+`US`. `202611230002_remove_simfin.sql` removes any remaining SimFin provenance
+from company metadata, story sources, freshness rows and ingestion logs.
 
-Current load after that migration: the 229 US research companies with their
-prices, statements, consensus and snapshots. Run `pnpm sync:supabase:direct` to
-refresh the counts.
+Current load: the 229 US research companies with their prices, SEC statements,
+consensus and snapshots. Run `pnpm sync:supabase:direct` to refresh the counts.
 
 ## Realtime, RLS and daily jobs
 
@@ -90,7 +89,7 @@ refresh the counts.
 - `pg_cron` runs `refresh_company_snapshots()` at 02:15 UTC and
   `refresh_data_freshness()` at 02:30 UTC daily.
 - `.github/workflows/daily-refresh.yml` refreshes the US file datasets and runs
-  `pnpm sync:supabase`; the weekly workflow refreshes the screener universe.
+  `pnpm sync:supabase`; the screener is rebuilt from the same 229-name data.
 
 ## Verify
 

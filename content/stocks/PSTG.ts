@@ -7,17 +7,17 @@ export const PSTG: StockStory = {
   "dek": "A 77.6% gross margin is what software-like storage economics look like. The published multiples are not, and a reader has to reconstruct the income statement before using them.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $7.8B trailing twelve months, +15.5% year over year.",
-    "Profitability: 45.9% operating margin and 46.8% net margin.",
-    "Cash: $51.4M free cash flow, a 0.7% margin.",
-    "Scorecard: 55/100 average percentile across the factor screens."
+    "Revenue: $4.3B trailing twelve months, +27.2% year over year.",
+    "Profitability: 5.3% operating margin and 5.9% net margin.",
+    "Cash: $128.2M free cash flow, a 3.0% margin.",
+    "Scorecard: 45/100 average percentile across the factor screens."
   ],
-  "filingUrl": "https://www.sec.gov/edgar/search/",
+  "filingUrl": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000027/pstg-20260201.htm",
   "irUrl": "https://www.sec.gov/edgar/search/",
   "bigPicture": {
     "paragraphs": [
-      "Pure Storage, Inc. generated $7.8B of revenue over the last twelve months, +15.5% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
-      "The latest reported quarter was Q4 FY25, with $5.2B of revenue and an operating margin of 68.5%. The stock closed at $67.80 on 2026-04-16, giving a market capitalization of $22.4B.",
+      "Everpure, Inc. generated $4.3B of revenue over the last twelve months, +27.2% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
+      "The latest reported quarter was Q2 FY27, with $1.2B of revenue and an operating margin of 5.3%. The stock closed at $67.80 on 2026-04-16, giving a market capitalization of $22.4B.",
       "The shares sit 46% of the way up their 52-week range ($39.72 to $100.59). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "Storage is bought on a three-to-five year replacement cycle. A vendor that keeps the customer through two cycles is selling a subscription; one that loses them at refresh is selling boxes."
@@ -52,27 +52,27 @@ export const PSTG: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 29.5% a year across the fiscal years in the dataset, and the latest quarter changed +16.4% year over year. A current-year consensus estimate is not available in the dataset.",
-      "Growth is only useful if it earns a return. The operating margin of 45.9% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Revenue compounded at 15.2% a year across the fiscal years in the dataset, and the latest quarter changed +37.7% year over year. A current-year consensus estimate is not available in the dataset.",
+      "Growth is only useful if it earns a return. The operating margin of 5.3% and return on invested capital of 13.2% are the filters to watch as revenue scales."
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 45.9%, the net margin is 46.8% and diluted EPS is $0.26. The latest quarter's operating margin was 68.5%.",
-      "Return on equity is 251.3%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q4 FY25: revenue of $5.2B, an operating margin of 68.5% and a net margin of 68.8%."
+      "The trailing operating margin is 5.3%, the net margin is 5.9% and diluted EPS is $0.73. The latest quarter's operating margin was 5.3%.",
+      "Return on equity is 16.4%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
+      "The latest reported period was Q2 FY27: revenue of $1.2B, an operating margin of 5.3% and a net margin of 6.3%."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $51.4M, a 0.7% margin. The balance sheet carries $1.5B of net cash.",
+      "Free cash flow over the trailing period was $128.2M, a 3.0% margin. The balance sheet carries $385.7M of net cash.",
       "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $51.4M over the last twelve months and net debt was -$1.5B; interest cover was n/a."
+      "Free cash flow was $128.2M over the last twelve months and net debt was -$385.7M; interest cover was 213.9x."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 6.2x trailing earnings and 154.4x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
+      "At the latest close the shares trade at 88.5x trailing earnings and 58.3x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
       "A third-party consensus target is not available in the dataset. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },

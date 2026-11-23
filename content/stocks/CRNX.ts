@@ -7,18 +7,18 @@ export const CRNX: StockStory = {
   "dek": "Paltusotine is an oral treatment for acromegaly, a rare hormone disorder usually managed with monthly injections. Early sales are small, the losses are large and the balance sheet is the constraint.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $18.1M trailing twelve months, +2277.5% year over year.",
-    "Profitability: -3020.3% operating margin and -2747.2% net margin.",
-    "Cash: -$123.7M free cash flow, a -684.5% margin.",
-    "Scorecard: 46/100 average percentile across the factor screens."
+    "Revenue: $42.2M trailing twelve months, +2928.4% year over year.",
+    "Profitability: -1302.5% operating margin and -1189.9% net margin.",
+    "Cash: -$425.2M free cash flow, a -1008.6% margin.",
+    "Scorecard: 48/100 average percentile across the factor screens."
   ],
-  "filingUrl": "https://www.sec.gov/edgar/search/",
+  "filingUrl": "https://www.sec.gov/Archives/edgar/data/1658247/000165824726000012/crnx-20251231.htm",
   "irUrl": "https://www.sec.gov/edgar/search/",
   "bigPicture": {
     "paragraphs": [
-      "Crinetics Pharmaceuticals, Inc. generated $18.1M of revenue over the last twelve months, +2277.5% versus the prior year. The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue.",
-      "The latest reported quarter was Q1 FY26, with $10.7M of revenue and an operating margin of -1307.8%. The stock closed at $84.95 on 2026-09-01, giving a market capitalization of $9B.",
-      "The shares sit 100% of the way up their 52-week range ($31.00 to $85.01). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Crinetics Pharmaceuticals Inc. generated $42.2M of revenue over the last twelve months, +2928.4% versus the prior year. The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue.",
+      "The latest reported quarter was Q2 FY26, with $25.1M of revenue and an operating margin of -527.3%. The stock closed at $84.95 on 2026-09-01, giving a market capitalization of $9B.",
+      "The shares sit 100% of the way up their 52-week range ($32.30 to $85.01). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "In a rare disease, the product is the patient journey. A pill that replaces a monthly injection changes convenience, but the payer still has to agree to pay for it."
   },
@@ -52,8 +52,8 @@ export const CRNX: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 36.4% a year across the fiscal years in the dataset, and the latest quarter changed +2873.4% year over year. Third-party estimates for the current fiscal year point to $161.9M of revenue and -$4.54 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -3020.3% and return on invested capital of -37.0% are the filters to watch as revenue scales."
+      "Revenue compounded at 17.9% a year across the fiscal years in the dataset, and the latest quarter changed +2336.3% year over year. Third-party estimates for the current fiscal year point to $161.9M of revenue and -$4.54 of EPS.",
+      "Growth is only useful if it earns a return. The operating margin of -1302.5% and return on invested capital of -36.4% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -72,16 +72,16 @@ export const CRNX: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -3020.3%, the net margin is -2747.2% and diluted EPS is -$5.13. The latest quarter's operating margin was -1307.8%.",
-      "Return on equity is -38.8%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q1 FY26: revenue of $10.7M, an operating margin of -1307.8% and a net margin of -1191.0%."
+      "The trailing operating margin is -1302.5%, the net margin is -1189.9% and diluted EPS is -$5.04. The latest quarter's operating margin was -527.3%.",
+      "Return on equity is -42.1%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
+      "The latest reported period was Q2 FY26: revenue of $25.1M, an operating margin of -527.3% and a net margin of -481.1%."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$123.7M, a -684.5% margin. The balance sheet carries $114.3M of net cash.",
+      "Free cash flow over the trailing period was -$425.2M, a -1008.6% margin. The balance sheet carries $1.2B of net cash.",
       "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$123.7M over the last twelve months and net debt was -$114.3M; interest cover was n/a."
+      "Free cash flow was -$425.2M over the last twelve months and net debt was -$1.2B; interest cover was n/a."
     ]
   },
   "valuation": {

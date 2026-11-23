@@ -24,9 +24,10 @@ export function buildArticleSources(
     ? `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${cik}&type=10-K&dateb=&owner=include&count=40`
     : "https://www.sec.gov/edgar/search/";
 
+  const annualForm = /20-f/i.test(story.filingUrl) ? "20-F" : "10-K";
   const candidates: Array<Omit<ArticleSource, "id">> = [
     {
-      name: `${data.name} annual report (Form 10-K)`,
+      name: `${data.name} annual report (Form ${annualForm})`,
       publisher: "SEC EDGAR",
       url: story.filingUrl,
       date: segments?.source.date ?? data.updatedAt.slice(0, 10),
@@ -221,7 +222,7 @@ export function buildRevenueSurprisePoints(consensus: Consensus | null) {
 }
 
 export function quarterLabel(row: FinancialRow | null): string {
-  if (!row) return "the latest quarter";
+  if (!row) return "the latest fiscal year";
   return formatFiscalQuarter(row.period, row.fyear);
 }
 

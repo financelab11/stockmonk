@@ -63,7 +63,7 @@ Hard minimums enforced by `lib/validate-content.ts`:
 - No buy, sell or hold ratings.
 - No Stockmonk price targets. Third-party consensus may be described as
   attributed third-party consensus, not as our view.
-- Do not mention data vendors (SimFin, Yahoo Finance, Nasdaq, etc.).
+- Do not mention data vendors (Yahoo Finance, Nasdaq, etc.).
 - Do not use the word "guarantee" even in a negative sentence if it can be
   avoided.
 - Write in plain English. Short sentences. Explain the mechanism before the

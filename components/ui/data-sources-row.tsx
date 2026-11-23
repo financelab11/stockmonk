@@ -1,10 +1,10 @@
 import { Landmark, LineChart, Database, FileSearch } from "lucide-react";
 
 const SOURCES = [
-  { name: "SimFin", detail: "Fundamentals & prices", icon: Database },
-  { name: "SEC EDGAR", detail: "10-K / 10-Q filings", icon: Landmark },
-  { name: "Yahoo Finance", detail: "Attributed consensus", icon: LineChart },
-  { name: "Nasdaq", detail: "Estimates cross-check", icon: FileSearch },
+  { name: "SEC EDGAR", detail: "Statements & filings", icon: Database },
+  { name: "Yahoo Finance", detail: "Prices & profile", icon: LineChart },
+  { name: "Yahoo / Nasdaq", detail: "Attributed consensus", icon: Landmark },
+  { name: "Company filings", detail: "Segments & risks", icon: FileSearch },
 ];
 
 export function DataSourcesRow({ compact = false }: { compact?: boolean }) {

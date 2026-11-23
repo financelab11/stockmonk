@@ -65,7 +65,7 @@ export function QualityChart({ points }: { points: QualityPoint[] }) {
         </svg>
         <p className="px-1 text-[10px] leading-relaxed text-faint">
           Median of the covered universe, not an index return. FY labels are
-          fiscal years and can differ by company. Source: SimFin.
+          fiscal years and can differ by company. Source: SEC EDGAR.
         </p>
       </div>
     </div>

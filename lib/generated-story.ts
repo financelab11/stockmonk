@@ -1409,10 +1409,6 @@ function displayName(name: string): string {
   return trimmed.replace(/\b(Inc|Corp|Co|Ltd|Plc|Llc)$/i, "$1.");
 }
 
-function money(value: number | null | undefined, currency = "USD"): string {
-  return formatCompactCurrency(value, currency);
-}
-
 function growth(value: number | null | undefined): string {
   return value == null ? "not available" : formatSignedPercent(value);
 }

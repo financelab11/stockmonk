@@ -9,7 +9,9 @@ import {
 
 describe("formatMetricValue", () => {
   it("rounds large monetary figures to whole crore", () => {
-    expect(formatMetricValue("375.51", "Revenue From Operations [Gross]")).toBe("376");
+    expect(formatMetricValue("375.51", "Revenue From Operations [Gross]")).toBe(
+      "376",
+    );
     expect(formatMetricValue("135.59", "Total Revenue")).toBe("136");
     expect(formatMetricValue("247.17", "Reserves and Surplus")).toBe("247");
     expect(formatMetricValue("12.78", "No. of Equity Shares")).toBe("13");
@@ -29,7 +31,9 @@ describe("formatMetricValue", () => {
 
   it("keeps decimals for percentages, ratios and multiples", () => {
     expect(formatMetricValue("83.37", "Return On Equity (%)")).toBe("83.37");
-    expect(formatMetricValue("110.17", "Return On Capital Employed (%)")).toBe("110.17");
+    expect(formatMetricValue("110.17", "Return On Capital Employed (%)")).toBe(
+      "110.17",
+    );
     expect(formatMetricValue("0.5", "Current Ratio (X)")).toBe("0.5");
     expect(formatMetricValue("45.72", "P/E ratio")).toBe("45.72");
   });
@@ -40,8 +44,12 @@ describe("formatMetricValue", () => {
   });
 
   it("uses accounting parentheses for negatives", () => {
-    expect(formatMetricValue("-62.78", "Net Cash Used In Investing Activity")).toBe("(63)");
-    expect(formatMetricValue("-0.60", "Net Cash Used in Finance Activity")).toBe("(0.6)");
+    expect(
+      formatMetricValue("-62.78", "Net Cash Used In Investing Activity"),
+    ).toBe("(63)");
+    expect(
+      formatMetricValue("-0.60", "Net Cash Used in Finance Activity"),
+    ).toBe("(0.6)");
     expect(formatMetricValue("-4.63", "EBIT Margin (%)")).toBe("(4.63)");
   });
 
@@ -56,7 +64,8 @@ describe("formatMetricValue", () => {
   });
 });
 
-describe("isRatioOrPerShareMetric", () => {  it("classifies ratio and per-share labels", () => {
+describe("isRatioOrPerShareMetric", () => {
+  it("classifies ratio and per-share labels", () => {
     expect(isRatioOrPerShareMetric("EBIT Margin (%)")).toBe(true);
     expect(isRatioOrPerShareMetric("BasicEPS")).toBe(true);
     expect(isRatioOrPerShareMetric("Book Value/Share (INR)")).toBe(true);
@@ -90,7 +99,9 @@ describe("parseMetricValue", () => {
 
   it("keeps parentheses formatting for negative percentages", () => {
     expect(formatMetricValue("(25)", "Sales % Chg")).toBe("(25)");
-    expect(formatMetricValue("-62.78", "Net Cash Used In Investing Activity")).toBe("(63)");
+    expect(
+      formatMetricValue("-62.78", "Net Cash Used In Investing Activity"),
+    ).toBe("(63)");
   });
 });
 

@@ -94,7 +94,7 @@ export const tickerDataSchema = z.object({
   isin: z.string().nullable(),
   cik: z.string().nullable().optional(),
   latest10KUrl: z.string().nullable().optional(),
-  market: z.enum(["US", "IN", "GCC"]).nullable().optional(),
+  market: z.enum(["US"]).nullable().optional(),
   hq: z.string().nullable().optional(),
   founded: z.string().nullable().optional(),
   website: z.string().nullable().optional(),
@@ -173,7 +173,7 @@ export const universeEntrySchema = z.object({
   industry: z.string(),
   description: z.string(),
   isResearch: z.boolean(),
-  market: z.enum(["US", "IN", "GCC"]).nullable().optional(),
+  market: z.enum(["US"]).nullable().optional(),
   currency: z.string().nullable().optional(),
   price: z.number().nullable(),
   changePct: z.number().nullable(),
@@ -189,115 +189,6 @@ export const universeEntrySchema = z.object({
 });
 
 export type UniverseEntry = z.infer<typeof universeEntrySchema>;
-
-export const earningsTrackerRowSchema = z.object({
-  ticker: z.string(),
-  name: z.string(),
-  industry: z.string(),
-  period: z.string().nullable(),
-  reportDate: z.string().nullable(),
-  salesGrowth: z.number().nullable(),
-  ebitdaGrowth: z.number().nullable(),
-  netProfitGrowth: z.number().nullable(),
-  epsGrowth: z.number().nullable(),
-  marketCap: z.number().nullable(),
-  pe: z.number().nullable(),
-  roce: z.number().nullable(),
-  peg: z.number().nullable(),
-  return1y: z.number().nullable(),
-  source: z.enum(["filings", "screener", "screener-export"]),
-});
-
-export type EarningsTrackerRow = z.infer<typeof earningsTrackerRowSchema>;
-
-export const profileTableSchema = z.object({
-  headers: z.array(z.string()),
-  rows: z.array(z.array(z.string())),
-});
-
-export const marketsmithProfileSchema = z.object({
-  ticker: z.string(),
-  symbol: z.string(),
-  instrumentId: z.number(),
-  name: z.string(),
-  industry: z.string(),
-  about: z.string(),
-  website: z.string().nullable(),
-  location: z.string().nullable(),
-  exchange: z.string().nullable(),
-  fetchedAt: z.string(),
-  basis: z.enum(["consolidated", "standalone"]),
-  price: z.object({
-    value: z.number().nullable(),
-    changePct: z.number().nullable(),
-    week52High: z.number().nullable(),
-    week52Low: z.number().nullable(),
-  }),
-  stats: z.array(z.object({ label: z.string(), value: z.string() })),
-  earningsAnnual: profileTableSchema,
-  earningsQuarterly: profileTableSchema,
-  incomeAnnual: profileTableSchema,
-  incomeQuarter: profileTableSchema,
-  balanceSheet: profileTableSchema,
-  cashFlow: profileTableSchema,
-  ratiosAnnual: profileTableSchema,
-  ratiosQuarter: profileTableSchema,
-  ownership: z.object({
-    current: z.array(z.object({ name: z.string(), percent: z.number() })),
-    history: z.array(
-      z.object({ name: z.string(), value: z.number(), month: z.string() }),
-    ),
-    top: z.array(
-      z.object({
-        name: z.string(),
-        holding: z.number(),
-        date: z.string().nullable(),
-      }),
-    ),
-  }),
-  surveillance: z.object({
-    red: z.record(z.string(), z.number()),
-    green: z.array(z.string()),
-  }),
-  series: z.object({
-    price: z.array(z.object({ d: z.string(), c: z.number() })),
-    sales: z.array(z.object({ label: z.string(), value: z.number() })),
-    eps: z.array(z.object({ label: z.string(), value: z.number() })),
-    margins: z.array(
-      z.object({
-        label: z.string(),
-        ebit: z.number().nullable(),
-        net: z.number().nullable(),
-      }),
-    ),
-  }),
-});
-
-export type MarketsmithProfile = z.infer<typeof marketsmithProfileSchema>;
-export type ProfileTable = z.infer<typeof profileTableSchema>;
-
-export const logoManifestSchema = z.object({
-  generatedAt: z.string(),
-  logos: z.record(
-    z.string(),
-    z.object({
-      file: z.string(),
-      source: z.string(),
-      domain: z.string(),
-    }),
-  ),
-});
-
-export type LogoManifest = z.infer<typeof logoManifestSchema>;
-
-export const earningsTrackerSchema = z.object({
-  generatedAt: z.string(),
-  asOf: z.string().nullable(),
-  source: z.enum(["filings", "screener", "screener-export", "mixed"]),
-  minMarketCapCr: z.number().nullable(),
-  pricesAsOf: z.string().nullable(),
-  rows: z.array(earningsTrackerRowSchema),
-});
 
 export const mixSliceSchema = z.object({
   name: z.string(),

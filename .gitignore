@@ -42,7 +42,6 @@ public/screenshots/
 
 # ingestion cache (re-downloadable)
 /data/raw/
-/data/india/raw/
 
 # vercel
 .vercel
@@ -51,20 +50,8 @@ public/screenshots/
 *.tsbuildinfo
 next-env.d.ts
 
-# GCC scrape cache (re-downloadable)
-/data/gcc/raw/
-
-# Forward growth ranker raw ingestion
-/data/growth-ranker/raw/
-/data/growth-ranker/refinitiv-top.json
 # Earnings press releases (regenerate with pnpm ingest:earnings)
 /data/earnings/
-
-# Screener crawl cache (resumable, regenerated on demand)
-/data/india/.screener-cache/
-
-# Yahoo price cache for the earnings tracker
-/data/india/.price-cache/
 
 # Performance measurement artefacts
 /.chrome-test/
@@ -77,9 +64,3 @@ next-env.d.ts
 /.lighthouse-test.json
 /.lighthouse-external.json
 /.lighthouse-prod.json
-
-# MarketSmith ingest failure report
-/data/india/.marketsmith-failures.json
-
-# Logo fetch failure report
-/data/india/.logo-failures.json

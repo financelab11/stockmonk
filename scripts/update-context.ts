@@ -19,15 +19,14 @@ const count = (file: string): number => {
 };
 
 const us = count("public/data/stocks.json");
-const india = count("public/data/india/stocks.json");
-const gcc = count("public/data/gcc/stocks.json");
-const forward = read<{ estimated?: number }>("data/growth-ranker/estimates.json")?.estimated ?? 0;
 const migrations = fs.existsSync("supabase/migrations")
-  ? fs.readdirSync("supabase/migrations").filter((file) => file.endsWith(".sql")).length
+  ? fs
+      .readdirSync("supabase/migrations")
+      .filter((file) => file.endsWith(".sql")).length
   : 0;
 
 const block = `<!-- AUTO_CONTEXT_START -->
-_Context snapshot ${new Date().toISOString().slice(0, 10)}: ${us} US names, ${india} India names, ${gcc} GCC names, ${forward} forward estimates, ${migrations} database migration(s)._
+_Context snapshot ${new Date().toISOString().slice(0, 10)}: ${us} US names, ${migrations} database migration(s)._
 <!-- AUTO_CONTEXT_END -->`;
 
 const file = path.join(process.cwd(), "CLAUDE.md");

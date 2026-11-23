@@ -42,16 +42,6 @@ jobs:
         env:
           SIMFIN_API_KEY: ${{ secrets.SIMFIN_API_KEY }}
 
-      - name: Refresh GCC coverage
-        run: |
-          pnpm ingest:gcc
-          pnpm build:gcc
-
-      - name: Refresh forward-growth dataset
-        run: |
-          pnpm refresh:ranker
-          pnpm build:growth-ranker
-
       - name: Sync Supabase
         run: |
           if [ -n "$SUPABASE_SERVICE_ROLE_KEY" ]; then
@@ -73,10 +63,10 @@ jobs:
         run: |
           git config user.name "stockmonk-data-bot"
           git config user.email "data-bot@stockmonk.app"
-          git add public/data/screener.json public/data/screener-factors.json data/gcc public/data/gcc
+          git add public/data/screener.json public/data/screener-factors.json
           if git diff --cached --quiet; then
             echo "No screener changes to commit."
           else
-            git commit -m "chore: weekly screener and GCC refresh"
+            git commit -m "chore: weekly screener refresh"
             git push
           fi

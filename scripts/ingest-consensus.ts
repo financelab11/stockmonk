@@ -22,7 +22,10 @@ type SecQuarter = { end: string; revenue: number | null };
 
 async function secQuarters(ticker: string): Promise<SecQuarter[]> {
   try {
-    const raw = await fs.readFile(path.join(PROCESSED, ticker, "sec.json"), "utf8");
+    const raw = await fs.readFile(
+      path.join(PROCESSED, ticker, "sec.json"),
+      "utf8",
+    );
     const parsed = JSON.parse(raw) as { quarterly?: SecQuarter[] };
     return parsed.quarterly ?? [];
   } catch {
@@ -34,14 +37,19 @@ function dayDiff(a: string, b: string): number {
   return Math.abs(new Date(a).getTime() - new Date(b).getTime()) / 86_400_000;
 }
 
-function attachRevenueActual(consensus: Consensus, quarters: SecQuarter[]): Consensus {
+function attachRevenueActual(
+  consensus: Consensus,
+  quarters: SecQuarter[],
+): Consensus {
   return {
     ...consensus,
     history: consensus.history.map((row) => {
       if (!row.endDate) return row;
       const match = quarters
         .filter((quarter) => dayDiff(quarter.end, row.endDate!) <= 10)
-        .sort((a, b) => dayDiff(a.end, row.endDate!) - dayDiff(b.end, row.endDate!))[0];
+        .sort(
+          (a, b) => dayDiff(a.end, row.endDate!) - dayDiff(b.end, row.endDate!),
+        )[0];
       return match ? { ...row, revenueActual: match.revenue } : row;
     }),
   };
@@ -56,9 +64,16 @@ async function main() {
   for (const ticker of tickers) {
     try {
       const consensus = await fetchConsensus(ticker);
-      const enriched = attachRevenueActual(consensus, await secQuarters(ticker));
+      const enriched = attachRevenueActual(
+        consensus,
+        await secQuarters(ticker),
+      );
       const parsed = consensusSchema.parse(enriched);
-      await fs.writeFile(path.join(OUT, `${ticker}.json`), JSON.stringify(parsed, null, 2), "utf8");
+      await fs.writeFile(
+        path.join(OUT, `${ticker}.json`),
+        JSON.stringify(parsed, null, 2),
+        "utf8",
+      );
       summary.push({
         ticker,
         provider: parsed.provider,
@@ -71,7 +86,9 @@ async function main() {
         `[consensus] ${ticker}: target ${parsed.targetMean ?? "n/a"}, ${parsed.analystCount ?? "?"} analysts, ${parsed.estimates.length} estimates`,
       );
     } catch (error) {
-      console.error(`[consensus] ${ticker} failed: ${(error as Error).message}`);
+      console.error(
+        `[consensus] ${ticker} failed: ${(error as Error).message}`,
+      );
       summary.push({ ticker, error: (error as Error).message });
     }
     await sleep(1200);

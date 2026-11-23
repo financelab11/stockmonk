@@ -417,13 +417,7 @@ export function formatCompact(
 ): string {
   if (value === null || value === undefined) return "—";
   const abs = Math.abs(value);
-  const symbol = currency === "INR" ? "₹" : "$";
-  if (currency === "INR") {
-    if (abs >= 1e9) return `${symbol}${(value / 1e9).toFixed(1)}B`;
-    if (abs >= 1e7) return `${symbol}${(value / 1e7).toFixed(1)} Cr`;
-    if (abs >= 1e5) return `${symbol}${(value / 1e5).toFixed(1)} L`;
-    return `${symbol}${value.toFixed(0)}`;
-  }
+  const symbol = currency === "USD" ? "$" : `${currency} `;
   if (abs >= 1e12) return `${symbol}${(value / 1e12).toFixed(1)}T`;
   if (abs >= 1e9) return `${symbol}${(value / 1e9).toFixed(1)}B`;
   if (abs >= 1e6) return `${symbol}${(value / 1e6).toFixed(1)}M`;

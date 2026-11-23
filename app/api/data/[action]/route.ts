@@ -5,15 +5,6 @@ import {
   SCREENER_COLUMNS,
 } from "@/lib/screener-filters";
 import { getScreenerRows } from "@/lib/screener-data";
-import { getGrowthRankerDataset } from "@/lib/growth-ranker/dataset";
-import { rankResults, resultsToCsv } from "@/lib/growth-ranker/rank";
-import {
-  earningsToCsv,
-  filterEarningsRows,
-  parseEarningsParams,
-  readEarningsTracker,
-  sortEarningsRows,
-} from "@/lib/earnings-tracker";
 
 export const dynamic = "force-dynamic";
 
@@ -23,46 +14,19 @@ function escape(value: unknown): string {
 }
 
 /**
- * Single route handler for data exports and the live screener count, keeping
+ * Single route handler for the US screener exports and the live count, keeping
  * the deployment within Vercel Hobby's serverless-function budget.
  *
- * Actions: growth-ranker-export | earnings-export | screener-count | screener-export
+ * Actions: screener-count | screener-export
  */
 export function GET(
   request: Request,
   { params }: { params: Promise<{ action: string }> },
 ) {
   return params.then(({ action }) => {
-    if (action === "growth-ranker-export") {
-      const dataset = getGrowthRankerDataset();
-      const csv = resultsToCsv(rankResults(dataset.results), dataset.fx.rate);
-      return new Response(csv, {
-        headers: {
-          "content-type": "text/csv; charset=utf-8",
-          "content-disposition": 'attachment; filename="stockmonk-forward-revenue-growth.csv"',
-        },
-      });
-    }
-
     const searchParams = Object.fromEntries(
       new URL(request.url).searchParams.entries(),
     );
-
-    if (action === "earnings-export") {
-      const earnings = parseEarningsParams(searchParams);
-      const data = readEarningsTracker();
-      const rows = sortEarningsRows(
-        filterEarningsRows(data?.rows ?? [], earnings),
-        earnings.sort,
-      );
-      return new NextResponse(earningsToCsv(rows), {
-        headers: {
-          "Content-Type": "text/csv; charset=utf-8",
-          "Content-Disposition": 'attachment; filename="stockmonk-india-earnings.csv"',
-          "Cache-Control": "no-store",
-        },
-      });
-    }
 
     const filters = parseScreenerParams(searchParams);
     const rows = applyScreenerFilters(getScreenerRows(), filters);

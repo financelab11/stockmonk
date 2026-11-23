@@ -13,7 +13,11 @@ loadEnv({ path: ".env.local" });
 loadEnv();
 import fs from "node:fs/promises";
 import path from "node:path";
-import { ALL_TICKERS, BENCHMARK_TICKER, RESEARCH_TICKERS } from "../config/universe";
+import {
+  ALL_TICKERS,
+  BENCHMARK_TICKER,
+  RESEARCH_TICKERS,
+} from "../config/universe";
 import { getSectorGroup } from "../config/sectors";
 import {
   buildFactorChips,
@@ -24,8 +28,17 @@ import {
   sortByDate,
 } from "../lib/metrics";
 import type { FinancialRow, PricePoint } from "../lib/schemas";
-import { tickerDataSchema, universeEntrySchema, type UniverseEntry } from "../lib/schemas";
-import { chunk, simfinGeneral, simfinPrices, simfinStatements } from "../lib/simfin";
+import {
+  tickerDataSchema,
+  universeEntrySchema,
+  type UniverseEntry,
+} from "../lib/schemas";
+import {
+  chunk,
+  simfinGeneral,
+  simfinPrices,
+  simfinStatements,
+} from "../lib/simfin";
 
 const PROCESSED = path.join(process.cwd(), "data", "processed");
 const PUBLIC_DATA = path.join(process.cwd(), "public", "data");
@@ -40,7 +53,8 @@ const SIMFIN_TO_APP: Record<string, string> = Object.fromEntries(
   Object.entries(SIMFIN_SYMBOL).map(([app, simfin]) => [simfin, app]),
 );
 const toSimfin = (ticker: string) => SIMFIN_SYMBOL[ticker] ?? ticker;
-const toApp = (ticker: string) => SIMFIN_TO_APP[ticker.toUpperCase()] ?? ticker.toUpperCase();
+const toApp = (ticker: string) =>
+  SIMFIN_TO_APP[ticker.toUpperCase()] ?? ticker.toUpperCase();
 
 type GeneralRow = {
   ticker: string;
@@ -97,7 +111,9 @@ function parsePrices(payload: unknown): Map<string, PricePoint[]> {
   const out = new Map<string, PricePoint[]>();
   if (!Array.isArray(payload)) return out;
   for (const company of payload) {
-    const ticker = String((company as { ticker?: unknown }).ticker ?? "").toUpperCase();
+    const ticker = String(
+      (company as { ticker?: unknown }).ticker ?? "",
+    ).toUpperCase();
     const columns = (company as { columns?: unknown }).columns;
     const data = (company as { data?: unknown }).data;
     if (!ticker || !Array.isArray(columns) || !Array.isArray(data)) continue;
@@ -141,12 +157,16 @@ function parseStatements(payload: unknown): Map<string, StatementMaps> {
   const out = new Map<string, StatementMaps>();
   if (!Array.isArray(payload)) return out;
   for (const company of payload) {
-    const ticker = String((company as { ticker?: unknown }).ticker ?? "").toUpperCase();
+    const ticker = String(
+      (company as { ticker?: unknown }).ticker ?? "",
+    ).toUpperCase();
     const statements = (company as { statements?: unknown }).statements;
     if (!ticker || !Array.isArray(statements)) continue;
     const byPeriod: StatementMaps = new Map();
     for (const statement of statements) {
-      const kind = String((statement as { statement?: unknown }).statement ?? "");
+      const kind = String(
+        (statement as { statement?: unknown }).statement ?? "",
+      );
       const columns = (statement as { columns?: unknown }).columns;
       const data = (statement as { data?: unknown }).data;
       if (!Array.isArray(columns) || !Array.isArray(data)) continue;
@@ -157,7 +177,8 @@ function parseStatements(payload: unknown): Map<string, StatementMaps> {
           obj[String(col)] = row[i];
         });
         const key = `${String(obj["Fiscal Period"])}-${String(obj["Fiscal Year"])}-${String(obj["Report Date"])}`;
-        const existing = byPeriod.get(key) ?? new Map<string, Record<string, unknown>>();
+        const existing =
+          byPeriod.get(key) ?? new Map<string, Record<string, unknown>>();
         existing.set(kind, obj);
         byPeriod.set(key, existing);
       }
@@ -167,12 +188,19 @@ function parseStatements(payload: unknown): Map<string, StatementMaps> {
   return out;
 }
 
-function statementToRow(kinds: Map<string, Record<string, unknown>>, key: string): FinancialRow | null {
+function statementToRow(
+  kinds: Map<string, Record<string, unknown>>,
+  key: string,
+): FinancialRow | null {
   const pl = kinds.get("PL") ?? {};
   const bs = kinds.get("BS") ?? {};
   const cf = kinds.get("CF") ?? {};
   const derived = kinds.get("DERIVED") ?? {};
-  const base = Object.keys(pl).length ? pl : Object.keys(derived).length ? derived : bs;
+  const base = Object.keys(pl).length
+    ? pl
+    : Object.keys(derived).length
+      ? derived
+      : bs;
   if (!base["Fiscal Period"]) return null;
 
   const period = String(base["Fiscal Period"]);
@@ -188,7 +216,8 @@ function statementToRow(kinds: Map<string, Record<string, unknown>>, key: string
   const capexRaw = num(cf["Acquisition of Fixed Assets & Intangibles"]);
   const capex = capexRaw === null ? null : Math.abs(capexRaw);
   const fcfDerived = num(derived["Free Cash Flow"]);
-  const freeCashFlow = fcfDerived ?? (cfo !== null && capex !== null ? cfo - capex : null);
+  const freeCashFlow =
+    fcfDerived ?? (cfo !== null && capex !== null ? cfo - capex : null);
   const totalDebtBs =
     num(bs["Short Term Debt"]) !== null || num(bs["Long Term Debt"]) !== null
       ? (num(bs["Short Term Debt"]) ?? 0) + (num(bs["Long Term Debt"]) ?? 0)
@@ -228,15 +257,24 @@ function statementToRow(kinds: Map<string, Record<string, unknown>>, key: string
     freeCashFlow,
     da: num(cf["Depreciation & Amortization"]),
     sbc: num(cf["Stock-Based Compensation"]),
-    dividendsPaid: cf["Dividends Paid"] === undefined ? null : Math.abs(num(cf["Dividends Paid"]) ?? 0),
+    dividendsPaid:
+      cf["Dividends Paid"] === undefined
+        ? null
+        : Math.abs(num(cf["Dividends Paid"]) ?? 0),
     buybacks:
       cf["Cash From (Repurchase of) Equity"] === undefined
         ? null
         : Math.abs(num(cf["Cash From (Repurchase of) Equity"]) ?? 0),
     ebitda,
-    grossMargin: num(derived["Gross Profit Margin"]) ?? (revenue && grossProfit ? grossProfit / revenue : null),
-    operatingMargin: num(derived["Operating Margin"]) ?? (revenue && operatingIncome ? operatingIncome / revenue : null),
-    netMargin: num(derived["Net Profit Margin"]) ?? (revenue && netIncome ? netIncome / revenue : null),
+    grossMargin:
+      num(derived["Gross Profit Margin"]) ??
+      (revenue && grossProfit ? grossProfit / revenue : null),
+    operatingMargin:
+      num(derived["Operating Margin"]) ??
+      (revenue && operatingIncome ? operatingIncome / revenue : null),
+    netMargin:
+      num(derived["Net Profit Margin"]) ??
+      (revenue && netIncome ? netIncome / revenue : null),
     fcfMargin: revenue && freeCashFlow ? freeCashFlow / revenue : null,
     roic: num(derived["Return On Invested Capital"]),
     netDebt,
@@ -275,7 +313,10 @@ type SecFile = {
 
 async function loadSecFile(ticker: string): Promise<SecFile | null> {
   try {
-    const raw = await fs.readFile(path.join(PROCESSED, ticker, "sec.json"), "utf8");
+    const raw = await fs.readFile(
+      path.join(PROCESSED, ticker, "sec.json"),
+      "utf8",
+    );
     return JSON.parse(raw) as SecFile;
   } catch {
     return null;
@@ -294,25 +335,43 @@ function finalizeRow(row: FinancialRow): FinancialRow {
       : row.netDebt;
   return {
     ...row,
-    grossMargin: revenue && row.grossProfit !== null ? row.grossProfit / revenue : null,
-    operatingMargin: revenue && row.operatingIncome !== null ? row.operatingIncome / revenue : null,
-    netMargin: revenue && row.netIncome !== null ? row.netIncome / revenue : null,
-    fcfMargin: revenue && row.freeCashFlow !== null ? row.freeCashFlow / revenue : null,
+    grossMargin:
+      revenue && row.grossProfit !== null ? row.grossProfit / revenue : null,
+    operatingMargin:
+      revenue && row.operatingIncome !== null
+        ? row.operatingIncome / revenue
+        : null,
+    netMargin:
+      revenue && row.netIncome !== null ? row.netIncome / revenue : null,
+    fcfMargin:
+      revenue && row.freeCashFlow !== null ? row.freeCashFlow / revenue : null,
     netDebt,
     netDebtToEbitda:
-      netDebt !== null && row.ebitda !== null && row.ebitda > 0 ? netDebt / row.ebitda : null,
+      netDebt !== null && row.ebitda !== null && row.ebitda > 0
+        ? netDebt / row.ebitda
+        : null,
     roe:
-      row.netIncome !== null && row.totalEquity !== null && row.totalEquity !== 0
+      row.netIncome !== null &&
+      row.totalEquity !== null &&
+      row.totalEquity !== 0
         ? row.netIncome / row.totalEquity
         : null,
   };
 }
 
 /** Overlay SEC-reported flows onto a SimFin row, keeping its balance sheet. */
-function applySec(base: FinancialRow, sec: SecRow, period: string, fyear: number): FinancialRow {
+function applySec(
+  base: FinancialRow,
+  sec: SecRow,
+  period: string,
+  fyear: number,
+): FinancialRow {
   const operatingIncome = sec.operatingIncome ?? base.operatingIncome;
   const da = sec.da ?? base.da;
-  const ebitda = operatingIncome !== null && da !== null ? operatingIncome + da : base.ebitda;
+  const ebitda =
+    operatingIncome !== null && da !== null
+      ? operatingIncome + da
+      : base.ebitda;
   return finalizeRow({
     ...base,
     period,
@@ -386,11 +445,15 @@ function mergeSecRows(
       }
     });
 
-    const fyear = kind === "annual" ? Number(sec.end.slice(0, 4)) : (sec.fyear ?? Number(sec.end.slice(0, 4)));
+    const fyear =
+      kind === "annual"
+        ? Number(sec.end.slice(0, 4))
+        : (sec.fyear ?? Number(sec.end.slice(0, 4)));
 
     if (bestIdx >= 0) {
       used.add(bestIdx);
-      const period = kind === "annual" ? "FY" : (sec.period ?? rows[bestIdx].period);
+      const period =
+        kind === "annual" ? "FY" : (sec.period ?? rows[bestIdx].period);
       rows[bestIdx] = applySec(rows[bestIdx], sec, period, fyear);
     } else {
       const carrier = rows
@@ -412,13 +475,16 @@ async function main() {
   const tickers = ALL_TICKERS.filter((t) => t !== BENCHMARK_TICKER);
   const research = new Set<string>(RESEARCH_TICKERS);
 
-  console.log(`[ingest] ${tickers.length} companies (${RESEARCH_TICKERS.length} research)`);
+  console.log(
+    `[ingest] ${tickers.length} companies (${RESEARCH_TICKERS.length} research)`,
+  );
 
   // General company info
   const general = new Map<string, GeneralRow>();
   for (const batch of chunk([...tickers], 2)) {
     const payload = await simfinGeneral(batch.map(toSimfin));
-    for (const [k, v] of parseGeneral(payload)) general.set(toApp(k), { ...v, ticker: toApp(k) });
+    for (const [k, v] of parseGeneral(payload))
+      general.set(toApp(k), { ...v, ticker: toApp(k) });
     console.log(`[ingest] general ${batch.length} ok`);
   }
 
@@ -426,25 +492,50 @@ async function main() {
   const prices = new Map<string, PricePoint[]>();
   const researchBatches = chunk([...RESEARCH_TICKERS, BENCHMARK_TICKER], BATCH);
   for (const batch of researchBatches) {
-    const raw = await simfinPrices(batch.map(toSimfin), { start: "2012-01-01" });
+    const raw = await simfinPrices(batch.map(toSimfin), {
+      start: "2012-01-01",
+    });
     for (const [k, v] of parsePrices(raw)) prices.set(toApp(k), v);
-    const ratios = await simfinPrices(batch.map(toSimfin), { start: "2019-01-01", ratios: true });
+    const ratios = await simfinPrices(batch.map(toSimfin), {
+      start: "2019-01-01",
+      ratios: true,
+    });
     for (const [k, v] of parsePrices(ratios)) {
       const appTicker = toApp(k);
       const existing = prices.get(appTicker) ?? [];
       const byDate = new Map(existing.map((p) => [p.d, p]));
       for (const p of v) {
         const prev = byDate.get(p.d);
-        byDate.set(p.d, prev ? { ...prev, ...p, o: prev.o, h: prev.h, l: prev.l, c: prev.c, a: prev.a, v: prev.v } : p);
+        byDate.set(
+          p.d,
+          prev
+            ? {
+                ...prev,
+                ...p,
+                o: prev.o,
+                h: prev.h,
+                l: prev.l,
+                c: prev.c,
+                a: prev.a,
+                v: prev.v,
+              }
+            : p,
+        );
       }
-      prices.set(appTicker, [...byDate.values()].sort((a, b) => a.d.localeCompare(b.d)));
+      prices.set(
+        appTicker,
+        [...byDate.values()].sort((a, b) => a.d.localeCompare(b.d)),
+      );
     }
     console.log(`[ingest] prices ${batch.join(",")} ok`);
   }
 
   const supporting = tickers.filter((t) => !research.has(t));
   for (const batch of chunk(supporting, BATCH)) {
-    const raw = await simfinPrices(batch.map(toSimfin), { start: "2023-01-01", ratios: true });
+    const raw = await simfinPrices(batch.map(toSimfin), {
+      start: "2023-01-01",
+      ratios: true,
+    });
     for (const [k, v] of parsePrices(raw)) prices.set(toApp(k), v);
     console.log(`[ingest] prices ${batch.join(",")} ok`);
   }
@@ -490,8 +581,16 @@ async function main() {
         const row = statementToRow(kinds, key);
         if (row) rows.push(row);
       }
-      quarterly.set(appTicker, sortByDate(dedupe(rows.filter((r) => /^Q[1-4]$/.test(r.period) && !r.ttm))));
-      annual.set(appTicker, sortByDate(dedupe(rows.filter((r) => r.period === "FY" && !r.ttm))));
+      quarterly.set(
+        appTicker,
+        sortByDate(
+          dedupe(rows.filter((r) => /^Q[1-4]$/.test(r.period) && !r.ttm)),
+        ),
+      );
+      annual.set(
+        appTicker,
+        sortByDate(dedupe(rows.filter((r) => r.period === "FY" && !r.ttm))),
+      );
     }
     console.log(`[ingest] statements ${batch.join(",")} ok`);
   }
@@ -501,17 +600,28 @@ async function main() {
   for (const ticker of RESEARCH_TICKERS) {
     const sec = await loadSecFile(ticker);
     if (!sec) {
-      console.warn(`[ingest] no SEC file for ${ticker}; run pnpm ingest:edgar first`);
+      console.warn(
+        `[ingest] no SEC file for ${ticker}; run pnpm ingest:edgar first`,
+      );
       continue;
     }
     secFiles.set(ticker, sec);
-    quarterly.set(ticker, mergeSecRows(quarterly.get(ticker) ?? [], sec.quarterly, "quarterly"));
-    annual.set(ticker, mergeSecRows(annual.get(ticker) ?? [], sec.annual, "annual"));
+    quarterly.set(
+      ticker,
+      mergeSecRows(quarterly.get(ticker) ?? [], sec.quarterly, "quarterly"),
+    );
+    annual.set(
+      ticker,
+      mergeSecRows(annual.get(ticker) ?? [], sec.annual, "annual"),
+    );
     console.log(`[ingest] merged SEC flows for ${ticker}`);
   }
 
   // Build ticker data
-  const computed: Array<{ ticker: string; data: ReturnType<typeof computeMetrics> }> = [];
+  const computed: Array<{
+    ticker: string;
+    data: ReturnType<typeof computeMetrics>;
+  }> = [];
   for (const ticker of tickers) {
     const priceSeries = prices.get(ticker) ?? [];
     const q = quarterly.get(ticker) ?? [];
@@ -521,7 +631,10 @@ async function main() {
 
   const researchComputed = computed.filter((x) => research.has(x.ticker));
   const chips = buildFactorChips(
-    researchComputed.map((x) => ({ ticker: x.ticker, metrics: x.data.metrics })),
+    researchComputed.map((x) => ({
+      ticker: x.ticker,
+      metrics: x.data.metrics,
+    })),
   );
 
   const universe: UniverseEntry[] = [];
@@ -534,7 +647,9 @@ async function main() {
     const a = annual.get(ticker) ?? [];
     const snapshot = data.snapshot;
     const sector = getSectorGroup(ticker);
-    const factorChips = research.has(ticker) ? (chips[ticker] ?? []) : buildSupportingChips(data.metrics);
+    const factorChips = research.has(ticker)
+      ? (chips[ticker] ?? [])
+      : buildSupportingChips(data.metrics);
 
     const record = {
       ticker,
@@ -581,14 +696,26 @@ async function main() {
 
     const parsed = tickerDataSchema.parse(record);
     await fs.mkdir(path.join(PROCESSED, ticker), { recursive: true });
-    await fs.writeFile(path.join(PROCESSED, ticker, "data.json"), JSON.stringify(parsed, null, 0), "utf8");
-    await fs.writeFile(path.join(PROCESSED, ticker, "prices.json"), JSON.stringify(priceSeries), "utf8");
+    await fs.writeFile(
+      path.join(PROCESSED, ticker, "data.json"),
+      JSON.stringify(parsed, null, 0),
+      "utf8",
+    );
+    await fs.writeFile(
+      path.join(PROCESSED, ticker, "prices.json"),
+      JSON.stringify(priceSeries),
+      "utf8",
+    );
 
     const ranges = buildRangeFiles(priceSeries, ticker);
     const outDir = path.join(PUBLIC_DATA, "prices", ticker);
     await fs.mkdir(outDir, { recursive: true });
     for (const [range, points] of Object.entries(ranges)) {
-      await fs.writeFile(path.join(outDir, `${range}.json`), JSON.stringify(points), "utf8");
+      await fs.writeFile(
+        path.join(outDir, `${range}.json`),
+        JSON.stringify(points),
+        "utf8",
+      );
     }
 
     universe.push(
@@ -615,8 +742,16 @@ async function main() {
   }
 
   universe.sort((a, b) => (b.marketCap ?? 0) - (a.marketCap ?? 0));
-  await fs.writeFile(path.join(PUBLIC_DATA, "stocks.json"), JSON.stringify(universe), "utf8");
-  await fs.writeFile(path.join(PROCESSED, "universe.json"), JSON.stringify(universe), "utf8");
+  await fs.writeFile(
+    path.join(PUBLIC_DATA, "stocks.json"),
+    JSON.stringify(universe),
+    "utf8",
+  );
+  await fs.writeFile(
+    path.join(PROCESSED, "universe.json"),
+    JSON.stringify(universe),
+    "utf8",
+  );
 
   const searchIndex = universe.map((u) => ({
     ticker: u.ticker,
@@ -625,33 +760,53 @@ async function main() {
     industry: u.industry,
     research: u.isResearch,
   }));
-  await fs.writeFile(path.join(PUBLIC_DATA, "search-index.json"), JSON.stringify(searchIndex), "utf8");
+  await fs.writeFile(
+    path.join(PUBLIC_DATA, "search-index.json"),
+    JSON.stringify(searchIndex),
+    "utf8",
+  );
 
   const meta = {
     generatedAt: now,
-    priceAsOf: universe.reduce<string>((max, u) => (u.asOf && u.asOf > max ? u.asOf : max), ""),
+    priceAsOf: universe.reduce<string>(
+      (max, u) => (u.asOf && u.asOf > max ? u.asOf : max),
+      "",
+    ),
     companies: universe.length,
     researchCompanies: RESEARCH_TICKERS.length,
     priceRanges: ["1M", "3M", "6M", "YTD", "1Y", "5Y", "MAX"],
-    missingStatements: universe.filter((u) => !u.revenueTtm).map((u) => u.ticker),
+    missingStatements: universe
+      .filter((u) => !u.revenueTtm)
+      .map((u) => u.ticker),
     notes: [
       "SimFin free-tier income statement data can lag the latest reported quarter for some issuers; SEC/Yahoo are used to cross-check headline figures.",
       "Supporting companies receive PL + DERIVED statements only; no segment or cash-flow detail.",
     ],
   };
-  await fs.writeFile(path.join(PROCESSED, "meta.json"), JSON.stringify(meta, null, 2), "utf8");
+  await fs.writeFile(
+    path.join(PROCESSED, "meta.json"),
+    JSON.stringify(meta, null, 2),
+    "utf8",
+  );
 
-  console.log(`[ingest] wrote ${universe.length} companies; price as of ${meta.priceAsOf}`);
-  console.log(`[ingest] missing revenue: ${meta.missingStatements.join(", ") || "none"}`);
+  console.log(
+    `[ingest] wrote ${universe.length} companies; price as of ${meta.priceAsOf}`,
+  );
+  console.log(
+    `[ingest] missing revenue: ${meta.missingStatements.join(", ") || "none"}`,
+  );
 }
 
 function dedupe(rows: FinancialRow[]): FinancialRow[] {
   const map = new Map<string, FinancialRow>();
-  for (const row of rows) map.set(`${row.period}-${row.fyear}-${row.reportDate}`, row);
+  for (const row of rows)
+    map.set(`${row.period}-${row.fyear}-${row.reportDate}`, row);
   return [...map.values()];
 }
 
-function buildSupportingChips(metrics: ReturnType<typeof computeMetrics>["metrics"]) {
+function buildSupportingChips(
+  metrics: ReturnType<typeof computeMetrics>["metrics"],
+) {
   return [
     {
       key: "growth" as const,
@@ -678,5 +833,3 @@ main().catch((error) => {
   console.error(error);
   process.exit(1);
 });
-
-

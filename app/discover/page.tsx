@@ -4,13 +4,15 @@ import { StockCardStatic } from "@/components/cards/stock-card-static";
 import { DiscoveryTabs } from "@/components/discover/discovery-tabs";
 import { FilterForm } from "@/components/discover/filter-form";
 import { RecentlyCarousel } from "@/components/discover/recently-carousel";
-import { ScreensPanel, type ScreenDetail } from "@/components/discover/screens-panel";
+import {
+  ScreensPanel,
+  type ScreenDetail,
+} from "@/components/discover/screens-panel";
 import { SortSummary } from "@/components/discover/sort-summary";
 import { CardGuide } from "@/components/market/card-guide";
 import { MarketIntro } from "@/components/market/market-intro";
 import { MarketPagination } from "@/components/market/market-pagination";
 import { MarketProBanner } from "@/components/market/market-pro-banner";
-import { MarketSelector } from "@/components/market/market-selector";
 import { Accordion } from "@/components/ui/accordion";
 import { SectionHeader } from "@/components/ui/section-header";
 import { Disclaimer } from "@/components/ui/disclaimer";
@@ -22,7 +24,6 @@ import {
   getUniverse,
 } from "@/lib/data";
 import { filterUniverse, parseSort } from "@/lib/discover";
-import { getMarketCounts } from "@/lib/market-counts";
 import { DEFAULT_SORT } from "@/lib/constants";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
@@ -47,11 +48,12 @@ export default async function DiscoverPage({
   const params = await searchParams;
   const q = typeof params.q === "string" ? params.q : "";
   const sector = typeof params.sector === "string" ? params.sector : "";
-  const sort = parseSort(typeof params.sort === "string" ? params.sort : undefined);
+  const sort = parseSort(
+    typeof params.sort === "string" ? params.sort : undefined,
+  );
   const tab = params.tab === "screens" ? "screens" : "featured";
 
   const universe = getUniverse();
-  const counts = getMarketCounts();
   const carouselBundles = getResearchBundles(10);
   const companies = getAllCompanies();
 
@@ -87,8 +89,12 @@ export default async function DiscoverPage({
   if (sort !== DEFAULT_SORT) carried.set("sort", sort);
   const carry = carried.toString();
   const featuredHref = carry ? `/discover?${carry}` : "/discover";
-  const screensHref = carry ? `/discover?tab=screens&${carry}` : "/discover?tab=screens";
-  const allHref = carry ? `/discover/all-stocks?${carry}` : "/discover/all-stocks";
+  const screensHref = carry
+    ? `/discover?tab=screens&${carry}`
+    : "/discover?tab=screens";
+  const allHref = carry
+    ? `/discover/all-stocks?${carry}`
+    : "/discover/all-stocks";
   const featuredCount = universe.filter((entry) => entry.isResearch).length;
 
   const details: Record<string, ScreenDetail> = Object.fromEntries(
@@ -146,8 +152,6 @@ export default async function DiscoverPage({
         meta="Filings-based · third-party estimates attributed and dated · no buy or sell ratings"
       />
 
-      <MarketSelector active="US" counts={counts} />
-
       <section className="container-page py-6">
         <div className="flex items-end justify-between gap-3">
           <div>
@@ -160,7 +164,11 @@ export default async function DiscoverPage({
               valuation context and risks, each with its source date.
             </p>
           </div>
-          <Link prefetch={false} href="/discover/all-stocks" className="text-[11px] font-semibold text-brand hover:text-brand-deep">
+          <Link
+            prefetch={false}
+            href="/discover/all-stocks"
+            className="text-[11px] font-semibold text-brand hover:text-brand-deep"
+          >
             All {universe.length} companies
           </Link>
         </div>
@@ -210,7 +218,7 @@ export default async function DiscoverPage({
         ) : (
           <div className="mt-4">
             <FilterForm
-            key={`${q}|${sector}|${sort}`}
+              key={`${q}|${sector}|${sort}`}
               action="/discover"
               q={q}
               sector={sector}
@@ -219,14 +227,24 @@ export default async function DiscoverPage({
             />
             <CardGuide scope="the covered universe" />
 
-            <SortSummary sort={sort} total={allFiltered.length} shown={filtered.length} />
+            <SortSummary
+              sort={sort}
+              total={allFiltered.length}
+              shown={filtered.length}
+            />
             {allFiltered.length === 0 ? (
               <div className="mt-3 rounded-xl border border-dashed border-line bg-surface p-6 text-center">
-                <p className="text-[13px] font-semibold text-ink">No companies match those filters.</p>
-                <p className="mt-1 text-[11.5px] text-muted">
-                  Try a broader search, or remove a filter to see more companies.
+                <p className="text-[13px] font-semibold text-ink">
+                  No companies match those filters.
                 </p>
-                <a href="/discover" className="btn btn-ghost mt-3 h-9 min-h-0 text-[11px]">
+                <p className="mt-1 text-[11.5px] text-muted">
+                  Try a broader search, or remove a filter to see more
+                  companies.
+                </p>
+                <a
+                  href="/discover"
+                  className="btn btn-ghost mt-3 h-9 min-h-0 text-[11px]"
+                >
                   Clear all filters
                 </a>
               </div>

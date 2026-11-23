@@ -29,7 +29,9 @@ async function main() {
     if (!raw) continue;
     const parsed = tickerDataSchema.safeParse(raw);
     if (!parsed.success) {
-      console.warn(`[chips] ${ticker}: skipped (${parsed.error.issues[0]?.message})`);
+      console.warn(
+        `[chips] ${ticker}: skipped (${parsed.error.issues[0]?.message})`,
+      );
       continue;
     }
     companies.push(parsed.data);

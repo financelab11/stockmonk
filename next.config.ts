@@ -21,20 +21,18 @@ const nextConfig: NextConfig = {
     imageSizes: [32, 48, 64, 96, 128, 256, 384],
   },
   outputFileTracingExcludes: {
-    "/*": [
-      "./data/growth-ranker/raw/**",
-      "./data/raw/**",
-      "./data/india/raw/**",
-      "./data/gcc/raw/**",
-      "./Refinitiv/**",
-      "./test-results/**",
-    ],
+    "/*": ["./data/raw/**", "./Refinitiv/**", "./test-results/**"],
   },
-  outputFileTracingIncludes: {
-    // Logo manifest is read by tables and profile headers on many routes.
-    "/*": ["./data/india/logos.json"],
-    // Company profiles are read at request time for ISR pages.
-    "/india/companies/**": ["./data/india/profiles/**/*.json"],
+  async redirects() {
+    return [
+      { source: "/india/:path*", destination: "/discover", permanent: true },
+      { source: "/gcc/:path*", destination: "/discover", permanent: true },
+      {
+        source: "/tools/growth-ranker/:path*",
+        destination: "/screener",
+        permanent: true,
+      },
+    ];
   },
   async headers() {
     return [

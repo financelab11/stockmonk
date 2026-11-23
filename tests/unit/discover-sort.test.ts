@@ -2,7 +2,9 @@ import { describe, expect, it } from "vitest";
 import { parseSort, sortEntries } from "@/lib/discover";
 import type { UniverseEntry } from "@/lib/schemas";
 
-function entry(overrides: Partial<UniverseEntry> & { ticker: string }): UniverseEntry {
+function entry(
+  overrides: Partial<UniverseEntry> & { ticker: string },
+): UniverseEntry {
   return {
     name: overrides.ticker,
     sector: "Technology",
@@ -43,7 +45,12 @@ describe("discover sorting", () => {
       ],
       "return1y",
     );
-    expect(rows.map((row) => row.ticker)).toEqual(["HIGH", "MID", "LOW", "MISS"]);
+    expect(rows.map((row) => row.ticker)).toEqual([
+      "HIGH",
+      "MID",
+      "LOW",
+      "MISS",
+    ]);
   });
 
   it("breaks 1Y return ties with market cap", () => {
@@ -59,7 +66,10 @@ describe("discover sorting", () => {
 
   it("sorts by company name for the alphabetical option", () => {
     const rows = sortEntries(
-      [entry({ ticker: "C", name: "Cisco" }), entry({ ticker: "A", name: "Apple" })],
+      [
+        entry({ ticker: "C", name: "Cisco" }),
+        entry({ ticker: "A", name: "Apple" }),
+      ],
       "name",
     );
     expect(rows.map((row) => row.name)).toEqual(["Apple", "Cisco"]);

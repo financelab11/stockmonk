@@ -27,13 +27,12 @@ export default function AboutPage() {
         things are clear, the valuation question becomes easier to ask.
       </p>
       <p>
-        The library currently covers 229 US-listed companies and 100 NSE-listed
-        Indian companies. Every name gets a hand-written ten-section research
-        report, authored against its own financial brief and the latest SEC, NSE
-        or BSE filing. The coverage universe is deliberately broad — banks,
-        energy, staples and insurers sit alongside software, semiconductors and
-        early-stage biotech — because a research process should work across
-        business models.
+        The library currently covers 229 US-listed companies. Every name gets a
+        hand-written ten-section research report, authored against its own
+        financial brief and the latest SEC filing. The coverage universe is
+        deliberately broad — banks, energy, staples and insurers sit alongside
+        software, semiconductors and early-stage biotech — because a research
+        process should work across business models.
       </p>
 
       <h2>What we publish</h2>

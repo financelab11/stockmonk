@@ -1,6 +1,5 @@
 import type { RiskItem, StockStory, StoryBlock } from "@/content/stocks/types";
 import { getCoverageGroup } from "@/config/coverage";
-import { getIndiaCoverageGroup } from "@/config/india-coverage";
 import type { ResearchBundle } from "./data";
 import {
   formatCompactCurrency,
@@ -22,21 +21,67 @@ const BUCKETS: Record<string, Bucket> = {
   tech: {
     lens: "The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
     drivers: [
-      { title: "Product cycle", detail: "New products and platform transitions create refresh demand and pricing power." },
-      { title: "Customer expansion", detail: "Land-and-expand selling raises revenue per existing customer and lengthens the relationship." },
-      { title: "Operating leverage", detail: "Incremental revenue can carry high gross margins once development and sales costs are in place." },
+      {
+        title: "Product cycle",
+        detail:
+          "New products and platform transitions create refresh demand and pricing power.",
+      },
+      {
+        title: "Customer expansion",
+        detail:
+          "Land-and-expand selling raises revenue per existing customer and lengthens the relationship.",
+      },
+      {
+        title: "Operating leverage",
+        detail:
+          "Incremental revenue can carry high gross margins once development and sales costs are in place.",
+      },
     ],
     risks: [
-      { title: "Technology substitution", detail: "A faster or cheaper architecture can reset the competitive position quickly.", watch: "Product roadmaps, design wins and customer concentration." },
-      { title: "Customer concentration", detail: "A small number of large buyers can swing revenue and pricing.", watch: "Top-customer disclosures and order trends." },
-      { title: "Valuation", detail: "High expectations leave less room for a growth disappointment.", watch: "Forward estimates versus the current multiple." },
-      { title: "Supply chain", detail: "Advanced components and manufacturing capacity can constrain shipments.", watch: "Lead times, inventory and supplier concentration." },
-      { title: "Regulation and export controls", detail: "Cross-border rules can remove addressable market or raise compliance costs.", watch: "Export-licence changes and geographic mix." },
+      {
+        title: "Technology substitution",
+        detail:
+          "A faster or cheaper architecture can reset the competitive position quickly.",
+        watch: "Product roadmaps, design wins and customer concentration.",
+      },
+      {
+        title: "Customer concentration",
+        detail: "A small number of large buyers can swing revenue and pricing.",
+        watch: "Top-customer disclosures and order trends.",
+      },
+      {
+        title: "Valuation",
+        detail:
+          "High expectations leave less room for a growth disappointment.",
+        watch: "Forward estimates versus the current multiple.",
+      },
+      {
+        title: "Supply chain",
+        detail:
+          "Advanced components and manufacturing capacity can constrain shipments.",
+        watch: "Lead times, inventory and supplier concentration.",
+      },
+      {
+        title: "Regulation and export controls",
+        detail:
+          "Cross-border rules can remove addressable market or raise compliance costs.",
+        watch: "Export-licence changes and geographic mix.",
+      },
     ],
     watch: [
-      { title: "Growth durability", detail: "Compare revenue growth with the prior four quarters." },
-      { title: "Gross margin", detail: "A falling gross margin can signal pricing pressure or a richer hardware mix." },
-      { title: "Customer concentration", detail: "Track large-customer disclosures and order momentum." },
+      {
+        title: "Growth durability",
+        detail: "Compare revenue growth with the prior four quarters.",
+      },
+      {
+        title: "Gross margin",
+        detail:
+          "A falling gross margin can signal pricing pressure or a richer hardware mix.",
+      },
+      {
+        title: "Customer concentration",
+        detail: "Track large-customer disclosures and order momentum.",
+      },
     ],
     questions: [
       "How much of growth is volume versus price?",
@@ -48,21 +93,66 @@ const BUCKETS: Record<string, Bucket> = {
   communication: {
     lens: "The key question is whether audience, content or network scale can be monetised without giving away the margin.",
     drivers: [
-      { title: "Advertising and subscription mix", detail: "A diversified revenue base reduces dependence on a single budget line." },
-      { title: "Engagement", detail: "Time spent and daily users determine the inventory available to sell." },
-      { title: "Pricing", detail: "Subscription and ad pricing can expand revenue without proportional cost." },
+      {
+        title: "Advertising and subscription mix",
+        detail:
+          "A diversified revenue base reduces dependence on a single budget line.",
+      },
+      {
+        title: "Engagement",
+        detail:
+          "Time spent and daily users determine the inventory available to sell.",
+      },
+      {
+        title: "Pricing",
+        detail:
+          "Subscription and ad pricing can expand revenue without proportional cost.",
+      },
     ],
     risks: [
-      { title: "Advertising cycle", detail: "Ad budgets fall quickly when confidence weakens.", watch: "Ad pricing, impressions and advertiser count." },
-      { title: "Content and network costs", detail: "Programming, rights and infrastructure can grow faster than revenue.", watch: "Content spend and segment margins." },
-      { title: "Competition for attention", detail: "Users can move to another platform with little switching cost.", watch: "Engagement and time-spent disclosures." },
-      { title: "Regulation", detail: "Privacy, competition and content rules can change distribution or targeting.", watch: "Regulatory proceedings and platform rules." },
-      { title: "Valuation", detail: "A premium multiple assumes the monetisation gap closes.", watch: "Forward revenue and margin estimates." },
+      {
+        title: "Advertising cycle",
+        detail: "Ad budgets fall quickly when confidence weakens.",
+        watch: "Ad pricing, impressions and advertiser count.",
+      },
+      {
+        title: "Content and network costs",
+        detail:
+          "Programming, rights and infrastructure can grow faster than revenue.",
+        watch: "Content spend and segment margins.",
+      },
+      {
+        title: "Competition for attention",
+        detail:
+          "Users can move to another platform with little switching cost.",
+        watch: "Engagement and time-spent disclosures.",
+      },
+      {
+        title: "Regulation",
+        detail:
+          "Privacy, competition and content rules can change distribution or targeting.",
+        watch: "Regulatory proceedings and platform rules.",
+      },
+      {
+        title: "Valuation",
+        detail: "A premium multiple assumes the monetisation gap closes.",
+        watch: "Forward revenue and margin estimates.",
+      },
     ],
     watch: [
-      { title: "Engagement", detail: "Daily users and time spent are the leading indicators." },
-      { title: "Ad pricing", detail: "Price per ad shows whether demand is keeping up with inventory." },
-      { title: "Content spend", detail: "Watch content and infrastructure costs relative to revenue." },
+      {
+        title: "Engagement",
+        detail: "Daily users and time spent are the leading indicators.",
+      },
+      {
+        title: "Ad pricing",
+        detail:
+          "Price per ad shows whether demand is keeping up with inventory.",
+      },
+      {
+        title: "Content spend",
+        detail: "Watch content and infrastructure costs relative to revenue.",
+      },
     ],
     questions: [
       "How much of revenue is advertising versus subscriptions?",
@@ -74,21 +164,65 @@ const BUCKETS: Record<string, Bucket> = {
   consumer: {
     lens: "The business depends on traffic, basket size and the cost of serving the next customer.",
     drivers: [
-      { title: "Comparable sales", detail: "Same-store or same-customer growth shows demand without new locations." },
-      { title: "Unit growth", detail: "New stores, products or markets add revenue but also fixed costs." },
-      { title: "Margin mix", detail: "Private label, services and digital orders can lift profitability." },
+      {
+        title: "Comparable sales",
+        detail:
+          "Same-store or same-customer growth shows demand without new locations.",
+      },
+      {
+        title: "Unit growth",
+        detail:
+          "New stores, products or markets add revenue but also fixed costs.",
+      },
+      {
+        title: "Margin mix",
+        detail:
+          "Private label, services and digital orders can lift profitability.",
+      },
     ],
     risks: [
-      { title: "Consumer spending", detail: "Discretionary budgets are sensitive to confidence and rates.", watch: "Comparable sales and transaction counts." },
-      { title: "Input and labour costs", detail: "Food, freight and wages can compress margins.", watch: "Gross margin and operating cost per unit." },
-      { title: "Competition", detail: "Price and convenience competition can erode traffic.", watch: "Market share and promotional intensity." },
-      { title: "Inventory", detail: "Fashion, seasonal and perishable inventory can become markdowns.", watch: "Inventory days and markdown cadence." },
-      { title: "Expansion execution", detail: "New stores or markets may not earn the same returns.", watch: "New-unit productivity and capex." },
+      {
+        title: "Consumer spending",
+        detail: "Discretionary budgets are sensitive to confidence and rates.",
+        watch: "Comparable sales and transaction counts.",
+      },
+      {
+        title: "Input and labour costs",
+        detail: "Food, freight and wages can compress margins.",
+        watch: "Gross margin and operating cost per unit.",
+      },
+      {
+        title: "Competition",
+        detail: "Price and convenience competition can erode traffic.",
+        watch: "Market share and promotional intensity.",
+      },
+      {
+        title: "Inventory",
+        detail:
+          "Fashion, seasonal and perishable inventory can become markdowns.",
+        watch: "Inventory days and markdown cadence.",
+      },
+      {
+        title: "Expansion execution",
+        detail: "New stores or markets may not earn the same returns.",
+        watch: "New-unit productivity and capex.",
+      },
     ],
     watch: [
-      { title: "Comparable sales", detail: "Track traffic versus ticket size separately." },
-      { title: "Gross margin", detail: "A mix shift toward lower-margin categories can hide pricing gains." },
-      { title: "New-unit returns", detail: "Growth is only valuable if new locations earn their cost of capital." },
+      {
+        title: "Comparable sales",
+        detail: "Track traffic versus ticket size separately.",
+      },
+      {
+        title: "Gross margin",
+        detail:
+          "A mix shift toward lower-margin categories can hide pricing gains.",
+      },
+      {
+        title: "New-unit returns",
+        detail:
+          "Growth is only valuable if new locations earn their cost of capital.",
+      },
     ],
     questions: [
       "Is growth coming from traffic or prices?",
@@ -100,21 +234,60 @@ const BUCKETS: Record<string, Bucket> = {
   healthcare: {
     lens: "The franchise depends on clinical evidence, reimbursement and the duration of patent protection.",
     drivers: [
-      { title: "Volume and adoption", detail: "New patients and procedures drive revenue before price." },
-      { title: "Reimbursement", detail: "Coverage decisions determine whether a product is accessible and profitable." },
-      { title: "Pipeline", detail: "New indications and products extend the growth runway." },
+      {
+        title: "Volume and adoption",
+        detail: "New patients and procedures drive revenue before price.",
+      },
+      {
+        title: "Reimbursement",
+        detail:
+          "Coverage decisions determine whether a product is accessible and profitable.",
+      },
+      {
+        title: "Pipeline",
+        detail: "New indications and products extend the growth runway.",
+      },
     ],
     risks: [
-      { title: "Clinical and regulatory risk", detail: "Trials and approvals can fail or be delayed.", watch: "Trial readouts and regulatory decisions." },
-      { title: "Reimbursement and pricing", detail: "Coverage and drug-pricing rules can cap revenue per patient.", watch: "Net price and payer mix." },
-      { title: "Competition", detail: "New therapies can take share or force price cuts.", watch: "Competitor launches and prescription trends." },
-      { title: "Patent expirations", detail: "Loss of exclusivity can reset revenue quickly.", watch: "Patent-cliff timing and generic entry." },
-      { title: "Manufacturing and supply", detail: "Capacity or quality issues can limit product availability.", watch: "Supply disclosures and capex." },
+      {
+        title: "Clinical and regulatory risk",
+        detail: "Trials and approvals can fail or be delayed.",
+        watch: "Trial readouts and regulatory decisions.",
+      },
+      {
+        title: "Reimbursement and pricing",
+        detail: "Coverage and drug-pricing rules can cap revenue per patient.",
+        watch: "Net price and payer mix.",
+      },
+      {
+        title: "Competition",
+        detail: "New therapies can take share or force price cuts.",
+        watch: "Competitor launches and prescription trends.",
+      },
+      {
+        title: "Patent expirations",
+        detail: "Loss of exclusivity can reset revenue quickly.",
+        watch: "Patent-cliff timing and generic entry.",
+      },
+      {
+        title: "Manufacturing and supply",
+        detail: "Capacity or quality issues can limit product availability.",
+        watch: "Supply disclosures and capex.",
+      },
     ],
     watch: [
-      { title: "Volume growth", detail: "Separate patient growth from price and mix." },
-      { title: "Reimbursement", detail: "Coverage decisions are a leading indicator for adoption." },
-      { title: "Pipeline readouts", detail: "Late-stage data can change the growth runway." },
+      {
+        title: "Volume growth",
+        detail: "Separate patient growth from price and mix.",
+      },
+      {
+        title: "Reimbursement",
+        detail: "Coverage decisions are a leading indicator for adoption.",
+      },
+      {
+        title: "Pipeline readouts",
+        detail: "Late-stage data can change the growth runway.",
+      },
     ],
     questions: [
       "How much of growth is volume versus price?",
@@ -126,21 +299,64 @@ const BUCKETS: Record<string, Bucket> = {
   financial: {
     lens: "The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns.",
     drivers: [
-      { title: "Net interest income", detail: "Loan and securities yields less funding costs are the core revenue line." },
-      { title: "Fee income", detail: "Advisory, asset management and trading diversify the revenue base." },
-      { title: "Capital returns", detail: "Buybacks and dividends can grow per-share value when capital is abundant." },
+      {
+        title: "Net interest income",
+        detail:
+          "Loan and securities yields less funding costs are the core revenue line.",
+      },
+      {
+        title: "Fee income",
+        detail:
+          "Advisory, asset management and trading diversify the revenue base.",
+      },
+      {
+        title: "Capital returns",
+        detail:
+          "Buybacks and dividends can grow per-share value when capital is abundant.",
+      },
     ],
     risks: [
-      { title: "Credit cycle", detail: "Loan losses rise in a downturn and can overwhelm revenue growth.", watch: "Provisions, charge-offs and non-performing loans." },
-      { title: "Interest rates", detail: "Rate changes affect net interest income and deposit repricing.", watch: "Net interest income guidance and deposit betas." },
-      { title: "Regulation", detail: "Capital and liquidity rules influence returns and buybacks.", watch: "Stress tests and CET1 requirements." },
-      { title: "Capital markets cyclicality", detail: "Advisory and trading revenue can fall quickly.", watch: "Investment banking fees and trading revenue." },
-      { title: "Competition", detail: "Deposit and loan pricing competition can compress spreads.", watch: "Loan and deposit growth relative to peers." },
+      {
+        title: "Credit cycle",
+        detail:
+          "Loan losses rise in a downturn and can overwhelm revenue growth.",
+        watch: "Provisions, charge-offs and non-performing loans.",
+      },
+      {
+        title: "Interest rates",
+        detail:
+          "Rate changes affect net interest income and deposit repricing.",
+        watch: "Net interest income guidance and deposit betas.",
+      },
+      {
+        title: "Regulation",
+        detail: "Capital and liquidity rules influence returns and buybacks.",
+        watch: "Stress tests and CET1 requirements.",
+      },
+      {
+        title: "Capital markets cyclicality",
+        detail: "Advisory and trading revenue can fall quickly.",
+        watch: "Investment banking fees and trading revenue.",
+      },
+      {
+        title: "Competition",
+        detail: "Deposit and loan pricing competition can compress spreads.",
+        watch: "Loan and deposit growth relative to peers.",
+      },
     ],
     watch: [
-      { title: "Net interest income", detail: "The largest revenue line and the most rate-sensitive." },
-      { title: "Credit costs", detail: "Provisioning is the main swing factor in a downturn." },
-      { title: "Capital returns", detail: "Buybacks depend on capital ratios and stress-test results." },
+      {
+        title: "Net interest income",
+        detail: "The largest revenue line and the most rate-sensitive.",
+      },
+      {
+        title: "Credit costs",
+        detail: "Provisioning is the main swing factor in a downturn.",
+      },
+      {
+        title: "Capital returns",
+        detail: "Buybacks depend on capital ratios and stress-test results.",
+      },
     ],
     questions: [
       "How much of net interest income is rate-sensitive?",
@@ -152,21 +368,61 @@ const BUCKETS: Record<string, Bucket> = {
   industrial: {
     lens: "Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
     drivers: [
-      { title: "Backlog", detail: "Orders already booked provide visibility into future revenue." },
-      { title: "Aftermarket and services", detail: "Recurring service revenue can be more profitable than equipment." },
-      { title: "Price and productivity", detail: "Pricing actions and cost programmes protect margins through cycles." },
+      {
+        title: "Backlog",
+        detail: "Orders already booked provide visibility into future revenue.",
+      },
+      {
+        title: "Aftermarket and services",
+        detail:
+          "Recurring service revenue can be more profitable than equipment.",
+      },
+      {
+        title: "Price and productivity",
+        detail:
+          "Pricing actions and cost programmes protect margins through cycles.",
+      },
     ],
     risks: [
-      { title: "Capital-spending cycle", detail: "Industrial demand falls when customers delay projects.", watch: "Order trends and backlog conversion." },
-      { title: "Input costs", detail: "Steel, freight and labour can outrun price increases.", watch: "Gross margin and price-cost spread." },
-      { title: "Execution", detail: "Project delays and cost overruns can hit margins.", watch: "Segment margins and project disclosures." },
-      { title: "M&A integration", detail: "Acquisitions can dilute returns if synergies disappoint.", watch: "Organic growth and acquired-margin trends." },
-      { title: "Valuation", detail: "Cyclical earnings can make trough multiples look cheap.", watch: "Mid-cycle margins and order momentum." },
+      {
+        title: "Capital-spending cycle",
+        detail: "Industrial demand falls when customers delay projects.",
+        watch: "Order trends and backlog conversion.",
+      },
+      {
+        title: "Input costs",
+        detail: "Steel, freight and labour can outrun price increases.",
+        watch: "Gross margin and price-cost spread.",
+      },
+      {
+        title: "Execution",
+        detail: "Project delays and cost overruns can hit margins.",
+        watch: "Segment margins and project disclosures.",
+      },
+      {
+        title: "M&A integration",
+        detail: "Acquisitions can dilute returns if synergies disappoint.",
+        watch: "Organic growth and acquired-margin trends.",
+      },
+      {
+        title: "Valuation",
+        detail: "Cyclical earnings can make trough multiples look cheap.",
+        watch: "Mid-cycle margins and order momentum.",
+      },
     ],
     watch: [
-      { title: "Backlog", detail: "Bookings and conversion show whether demand is holding." },
-      { title: "Price-cost spread", detail: "Watch whether pricing keeps up with inputs." },
-      { title: "Segment margin", detail: "Mix and execution can move margins before revenue does." },
+      {
+        title: "Backlog",
+        detail: "Bookings and conversion show whether demand is holding.",
+      },
+      {
+        title: "Price-cost spread",
+        detail: "Watch whether pricing keeps up with inputs.",
+      },
+      {
+        title: "Segment margin",
+        detail: "Mix and execution can move margins before revenue does.",
+      },
     ],
     questions: [
       "How much revenue is recurring versus project-based?",
@@ -178,21 +434,62 @@ const BUCKETS: Record<string, Bucket> = {
   energy: {
     lens: "Cash flow is a function of commodity prices, production volumes and capital discipline.",
     drivers: [
-      { title: "Commodity prices", detail: "Oil, gas and power prices flow quickly into revenue and cash flow." },
-      { title: "Production growth", detail: "Volumes from existing and new projects determine the revenue base." },
-      { title: "Capital discipline", detail: "Lower reinvestment can lift free cash flow and returns." },
+      {
+        title: "Commodity prices",
+        detail:
+          "Oil, gas and power prices flow quickly into revenue and cash flow.",
+      },
+      {
+        title: "Production growth",
+        detail:
+          "Volumes from existing and new projects determine the revenue base.",
+      },
+      {
+        title: "Capital discipline",
+        detail: "Lower reinvestment can lift free cash flow and returns.",
+      },
     ],
     risks: [
-      { title: "Commodity prices", detail: "A price decline can cut revenue and cash flow sharply.", watch: "Realised prices and hedging." },
-      { title: "Reserve and project risk", detail: "Drilling and project returns depend on geology and execution.", watch: "Production guidance and project updates." },
-      { title: "Regulation", detail: "Environmental and permitting rules can raise costs or block projects.", watch: "Permits, emissions rules and litigation." },
-      { title: "Leverage", detail: "Debt can become a problem when prices fall.", watch: "Net debt/EBITDA and maturity schedule." },
-      { title: "Energy transition", detail: "Long-run demand can shift away from hydrocarbons.", watch: "Capital allocation and low-carbon investment." },
+      {
+        title: "Commodity prices",
+        detail: "A price decline can cut revenue and cash flow sharply.",
+        watch: "Realised prices and hedging.",
+      },
+      {
+        title: "Reserve and project risk",
+        detail: "Drilling and project returns depend on geology and execution.",
+        watch: "Production guidance and project updates.",
+      },
+      {
+        title: "Regulation",
+        detail:
+          "Environmental and permitting rules can raise costs or block projects.",
+        watch: "Permits, emissions rules and litigation.",
+      },
+      {
+        title: "Leverage",
+        detail: "Debt can become a problem when prices fall.",
+        watch: "Net debt/EBITDA and maturity schedule.",
+      },
+      {
+        title: "Energy transition",
+        detail: "Long-run demand can shift away from hydrocarbons.",
+        watch: "Capital allocation and low-carbon investment.",
+      },
     ],
     watch: [
-      { title: "Realised prices", detail: "The gap to benchmark prices shows hedging and mix effects." },
-      { title: "Production", detail: "Volume delivery is the base for cash flow." },
-      { title: "Capex discipline", detail: "Reinvestment and buybacks compete for the same cash." },
+      {
+        title: "Realised prices",
+        detail: "The gap to benchmark prices shows hedging and mix effects.",
+      },
+      {
+        title: "Production",
+        detail: "Volume delivery is the base for cash flow.",
+      },
+      {
+        title: "Capex discipline",
+        detail: "Reinvestment and buybacks compete for the same cash.",
+      },
     ],
     questions: [
       "What price is needed to cover capex and the dividend?",
@@ -204,21 +501,60 @@ const BUCKETS: Record<string, Bucket> = {
   utilities: {
     lens: "Returns depend on regulated rates, capital investment and the cost of financing the asset base.",
     drivers: [
-      { title: "Rate base growth", detail: "Approved capital investment earns a regulated return over time." },
-      { title: "Load growth", detail: "Data centers and electrification can raise long-run demand." },
-      { title: "Cost recovery", detail: "Rate cases determine whether higher costs are passed through." },
+      {
+        title: "Rate base growth",
+        detail:
+          "Approved capital investment earns a regulated return over time.",
+      },
+      {
+        title: "Load growth",
+        detail: "Data centers and electrification can raise long-run demand.",
+      },
+      {
+        title: "Cost recovery",
+        detail: "Rate cases determine whether higher costs are passed through.",
+      },
     ],
     risks: [
-      { title: "Regulatory outcomes", detail: "Rate cases can disallow costs or reduce allowed returns.", watch: "Rate-case filings and commission decisions." },
-      { title: "Interest rates", detail: "Higher rates raise financing costs and pressure valuations.", watch: "Debt maturities and cost of new debt." },
-      { title: "Capital execution", detail: "Large projects can overshoot budgets or schedules.", watch: "Capex guidance and project milestones." },
-      { title: "Weather and demand", detail: "Weather affects volumes and revenue.", watch: "Load growth and weather-normalised sales." },
-      { title: "Commodity exposure", detail: "Fuel costs can be volatile before they are recovered.", watch: "Fuel-cost recovery and hedging." },
+      {
+        title: "Regulatory outcomes",
+        detail: "Rate cases can disallow costs or reduce allowed returns.",
+        watch: "Rate-case filings and commission decisions.",
+      },
+      {
+        title: "Interest rates",
+        detail: "Higher rates raise financing costs and pressure valuations.",
+        watch: "Debt maturities and cost of new debt.",
+      },
+      {
+        title: "Capital execution",
+        detail: "Large projects can overshoot budgets or schedules.",
+        watch: "Capex guidance and project milestones.",
+      },
+      {
+        title: "Weather and demand",
+        detail: "Weather affects volumes and revenue.",
+        watch: "Load growth and weather-normalised sales.",
+      },
+      {
+        title: "Commodity exposure",
+        detail: "Fuel costs can be volatile before they are recovered.",
+        watch: "Fuel-cost recovery and hedging.",
+      },
     ],
     watch: [
-      { title: "Rate base", detail: "Approved capital investment is the earnings base." },
-      { title: "Rate-case outcomes", detail: "Allowed returns and cost recovery drive the model." },
-      { title: "Financing costs", detail: "Higher rates can pressure both earnings and the multiple." },
+      {
+        title: "Rate base",
+        detail: "Approved capital investment is the earnings base.",
+      },
+      {
+        title: "Rate-case outcomes",
+        detail: "Allowed returns and cost recovery drive the model.",
+      },
+      {
+        title: "Financing costs",
+        detail: "Higher rates can pressure both earnings and the multiple.",
+      },
     ],
     questions: [
       "How much of the capex plan is already approved?",
@@ -230,19 +566,51 @@ const BUCKETS: Record<string, Bucket> = {
   materials: {
     lens: "Revenue and margins move with commodity prices, volumes and the cost of energy and feedstock.",
     drivers: [
-      { title: "Volume", detail: "Shipments show underlying industrial demand." },
-      { title: "Price and mix", detail: "Product mix and pricing determine margin per ton." },
-      { title: "Cost position", detail: "Low-cost assets can earn through the cycle." },
+      {
+        title: "Volume",
+        detail: "Shipments show underlying industrial demand.",
+      },
+      {
+        title: "Price and mix",
+        detail: "Product mix and pricing determine margin per ton.",
+      },
+      {
+        title: "Cost position",
+        detail: "Low-cost assets can earn through the cycle.",
+      },
     ],
     risks: [
-      { title: "Commodity cycle", detail: "Prices can fall faster than costs.", watch: "Realised prices and inventory." },
-      { title: "Input costs", detail: "Energy and feedstock can compress spreads.", watch: "Unit cost and price-cost spread." },
-      { title: "Environmental regulation", detail: "Permits and emissions rules can raise capital needs.", watch: "Permits and remediation liabilities." },
-      { title: "Capital intensity", detail: "Maintenance and growth capex can absorb cash flow.", watch: "Capex and free cash flow." },
-      { title: "Demand cyclicality", detail: "Construction and manufacturing demand are cyclical.", watch: "End-market volumes and order trends." },
+      {
+        title: "Commodity cycle",
+        detail: "Prices can fall faster than costs.",
+        watch: "Realised prices and inventory.",
+      },
+      {
+        title: "Input costs",
+        detail: "Energy and feedstock can compress spreads.",
+        watch: "Unit cost and price-cost spread.",
+      },
+      {
+        title: "Environmental regulation",
+        detail: "Permits and emissions rules can raise capital needs.",
+        watch: "Permits and remediation liabilities.",
+      },
+      {
+        title: "Capital intensity",
+        detail: "Maintenance and growth capex can absorb cash flow.",
+        watch: "Capex and free cash flow.",
+      },
+      {
+        title: "Demand cyclicality",
+        detail: "Construction and manufacturing demand are cyclical.",
+        watch: "End-market volumes and order trends.",
+      },
     ],
     watch: [
-      { title: "Price-cost spread", detail: "The cleanest measure of cyclical profitability." },
+      {
+        title: "Price-cost spread",
+        detail: "The cleanest measure of cyclical profitability.",
+      },
       { title: "Volumes", detail: "Shipments show whether demand is holding." },
       { title: "Capex", detail: "Maintenance needs can limit free cash flow." },
     ],
@@ -256,21 +624,56 @@ const BUCKETS: Record<string, Bucket> = {
   realestate: {
     lens: "Cash flow depends on occupancy, rents, tenant quality and the cost of refinancing the asset base.",
     drivers: [
-      { title: "Occupancy", detail: "Leased space is the base for rent revenue." },
-      { title: "Rent spreads", detail: "Renewals and new leases reset rents toward market." },
-      { title: "Development pipeline", detail: "New assets can add cash flow when leased." },
+      {
+        title: "Occupancy",
+        detail: "Leased space is the base for rent revenue.",
+      },
+      {
+        title: "Rent spreads",
+        detail: "Renewals and new leases reset rents toward market.",
+      },
+      {
+        title: "Development pipeline",
+        detail: "New assets can add cash flow when leased.",
+      },
     ],
     risks: [
-      { title: "Interest rates", detail: "Higher rates raise refinancing costs and cap rates.", watch: "Debt maturities and weighted average cost of debt." },
-      { title: "Tenant concentration", detail: "A large tenant can leave and reset occupancy.", watch: "Top-tenant disclosure and lease expirations." },
-      { title: "Development risk", detail: "Projects can be delayed or lease below underwriting.", watch: "Pipeline yields and pre-leasing." },
-      { title: "Occupancy", detail: "Vacancy reduces cash flow and pricing power.", watch: "Same-store occupancy and leasing spreads." },
-      { title: "Valuation", detail: "REIT multiples are sensitive to rates and growth.", watch: "Price/FFO and cap-rate comparisons." },
+      {
+        title: "Interest rates",
+        detail: "Higher rates raise refinancing costs and cap rates.",
+        watch: "Debt maturities and weighted average cost of debt.",
+      },
+      {
+        title: "Tenant concentration",
+        detail: "A large tenant can leave and reset occupancy.",
+        watch: "Top-tenant disclosure and lease expirations.",
+      },
+      {
+        title: "Development risk",
+        detail: "Projects can be delayed or lease below underwriting.",
+        watch: "Pipeline yields and pre-leasing.",
+      },
+      {
+        title: "Occupancy",
+        detail: "Vacancy reduces cash flow and pricing power.",
+        watch: "Same-store occupancy and leasing spreads.",
+      },
+      {
+        title: "Valuation",
+        detail: "REIT multiples are sensitive to rates and growth.",
+        watch: "Price/FFO and cap-rate comparisons.",
+      },
     ],
     watch: [
-      { title: "Leasing spreads", detail: "Shows whether rents are rising or rolling down." },
+      {
+        title: "Leasing spreads",
+        detail: "Shows whether rents are rising or rolling down.",
+      },
       { title: "Occupancy", detail: "The leading indicator for cash flow." },
-      { title: "Refinancing", detail: "Debt maturities determine interest-cost pressure." },
+      {
+        title: "Refinancing",
+        detail: "Debt maturities determine interest-cost pressure.",
+      },
     ],
     questions: [
       "How much debt matures in the next two years?",
@@ -282,21 +685,62 @@ const BUCKETS: Record<string, Bucket> = {
   ai: {
     lens: "Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
     drivers: [
-      { title: "AI cluster build-out", detail: "Compute, networking, optics and power equipment all scale with cluster size." },
-      { title: "Customer expansion", detail: "Hyperscalers and neoclouds are adding capacity faster than traditional IT budgets." },
-      { title: "Product content", detail: "More content per system can grow revenue faster than the underlying unit market." },
+      {
+        title: "AI cluster build-out",
+        detail:
+          "Compute, networking, optics and power equipment all scale with cluster size.",
+      },
+      {
+        title: "Customer expansion",
+        detail:
+          "Hyperscalers and neoclouds are adding capacity faster than traditional IT budgets.",
+      },
+      {
+        title: "Product content",
+        detail:
+          "More content per system can grow revenue faster than the underlying unit market.",
+      },
     ],
     risks: [
-      { title: "Customer concentration", detail: "A handful of AI buyers can dominate revenue.", watch: "Customer disclosures and order trends." },
-      { title: "Capex cycle", detail: "AI spending can pause if returns disappoint.", watch: "Hyperscaler capex guidance and backlog." },
-      { title: "Supply chain", detail: "Optics, power and advanced packaging can be constrained.", watch: "Lead times and supplier concentration." },
-      { title: "Competition", detail: "New entrants can pressure pricing as capacity catches up.", watch: "Design wins and gross margin." },
-      { title: "Financing and dilution", detail: "Growth may require capital in a rising-rate environment.", watch: "Cash burn, debt and share count." },
+      {
+        title: "Customer concentration",
+        detail: "A handful of AI buyers can dominate revenue.",
+        watch: "Customer disclosures and order trends.",
+      },
+      {
+        title: "Capex cycle",
+        detail: "AI spending can pause if returns disappoint.",
+        watch: "Hyperscaler capex guidance and backlog.",
+      },
+      {
+        title: "Supply chain",
+        detail: "Optics, power and advanced packaging can be constrained.",
+        watch: "Lead times and supplier concentration.",
+      },
+      {
+        title: "Competition",
+        detail: "New entrants can pressure pricing as capacity catches up.",
+        watch: "Design wins and gross margin.",
+      },
+      {
+        title: "Financing and dilution",
+        detail: "Growth may require capital in a rising-rate environment.",
+        watch: "Cash burn, debt and share count.",
+      },
     ],
     watch: [
-      { title: "AI order momentum", detail: "Bookings and backlog are the leading indicator." },
-      { title: "Gross margin", detail: "Mix and pricing determine whether growth creates value." },
-      { title: "Cash burn", detail: "Growth companies must eventually fund themselves." },
+      {
+        title: "AI order momentum",
+        detail: "Bookings and backlog are the leading indicator.",
+      },
+      {
+        title: "Gross margin",
+        detail: "Mix and pricing determine whether growth creates value.",
+      },
+      {
+        title: "Cash burn",
+        detail: "Growth companies must eventually fund themselves.",
+      },
     ],
     questions: [
       "How concentrated is revenue among AI customers?",
@@ -308,21 +752,59 @@ const BUCKETS: Record<string, Bucket> = {
   semis: {
     lens: "The cycle is driven by inventory, utilisation and the next node or packaging transition.",
     drivers: [
-      { title: "Inventory cycle", detail: "Inventory restocking and digestion drive near-term orders." },
-      { title: "Node and packaging transitions", detail: "New technology raises content per system." },
-      { title: "Customer design wins", detail: "Design wins lock in revenue for multiple product generations." },
+      {
+        title: "Inventory cycle",
+        detail: "Inventory restocking and digestion drive near-term orders.",
+      },
+      {
+        title: "Node and packaging transitions",
+        detail: "New technology raises content per system.",
+      },
+      {
+        title: "Customer design wins",
+        detail: "Design wins lock in revenue for multiple product generations.",
+      },
     ],
     risks: [
-      { title: "Semiconductor cycle", detail: "Inventory corrections can cut revenue quickly.", watch: "Inventory days and utilisation." },
-      { title: "Customer concentration", detail: "A few customers can dominate revenue.", watch: "Top-customer disclosures." },
-      { title: "Export controls", detail: "Cross-border rules can remove market access.", watch: "Geographic mix and licence changes." },
-      { title: "Capital intensity", detail: "New capacity can pressure returns if demand slows.", watch: "Capex and depreciation." },
-      { title: "Pricing", detail: "Capacity additions can turn scarcity into oversupply.", watch: "Average selling prices and gross margin." },
+      {
+        title: "Semiconductor cycle",
+        detail: "Inventory corrections can cut revenue quickly.",
+        watch: "Inventory days and utilisation.",
+      },
+      {
+        title: "Customer concentration",
+        detail: "A few customers can dominate revenue.",
+        watch: "Top-customer disclosures.",
+      },
+      {
+        title: "Export controls",
+        detail: "Cross-border rules can remove market access.",
+        watch: "Geographic mix and licence changes.",
+      },
+      {
+        title: "Capital intensity",
+        detail: "New capacity can pressure returns if demand slows.",
+        watch: "Capex and depreciation.",
+      },
+      {
+        title: "Pricing",
+        detail: "Capacity additions can turn scarcity into oversupply.",
+        watch: "Average selling prices and gross margin.",
+      },
     ],
     watch: [
-      { title: "Inventory", detail: "The cycle turns before reported revenue does." },
-      { title: "Utilisation", detail: "Utilisation drives incremental margins." },
-      { title: "Design wins", detail: "The pipeline determines the next upcycle." },
+      {
+        title: "Inventory",
+        detail: "The cycle turns before reported revenue does.",
+      },
+      {
+        title: "Utilisation",
+        detail: "Utilisation drives incremental margins.",
+      },
+      {
+        title: "Design wins",
+        detail: "The pipeline determines the next upcycle.",
+      },
     ],
     questions: [
       "Where are we in the inventory cycle?",
@@ -334,21 +816,59 @@ const BUCKETS: Record<string, Bucket> = {
   software: {
     lens: "The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer.",
     drivers: [
-      { title: "Net revenue retention", detail: "Expansion within existing customers compounds revenue." },
-      { title: "New customer adds", detail: "New logos broaden the base and fund future expansion." },
-      { title: "Operating leverage", detail: "Scale should improve margins as sales and R&D mature." },
+      {
+        title: "Net revenue retention",
+        detail: "Expansion within existing customers compounds revenue.",
+      },
+      {
+        title: "New customer adds",
+        detail: "New logos broaden the base and fund future expansion.",
+      },
+      {
+        title: "Operating leverage",
+        detail: "Scale should improve margins as sales and R&D mature.",
+      },
     ],
     risks: [
-      { title: "Competition", detail: "Feature parity and bundling can pressure pricing.", watch: "Win rates and average contract value." },
-      { title: "Retention", detail: "Churn or downselling can offset new sales.", watch: "Net revenue retention and renewal rates." },
-      { title: "AI disruption", detail: "AI-native tools can change the software stack.", watch: "Product adoption and competitive launches." },
-      { title: "Sales efficiency", detail: "Growth can become expensive if payback lengthens.", watch: "CAC payback and sales productivity." },
-      { title: "Valuation", detail: "High multiples assume durable growth.", watch: "Forward ARR and margin estimates." },
+      {
+        title: "Competition",
+        detail: "Feature parity and bundling can pressure pricing.",
+        watch: "Win rates and average contract value.",
+      },
+      {
+        title: "Retention",
+        detail: "Churn or downselling can offset new sales.",
+        watch: "Net revenue retention and renewal rates.",
+      },
+      {
+        title: "AI disruption",
+        detail: "AI-native tools can change the software stack.",
+        watch: "Product adoption and competitive launches.",
+      },
+      {
+        title: "Sales efficiency",
+        detail: "Growth can become expensive if payback lengthens.",
+        watch: "CAC payback and sales productivity.",
+      },
+      {
+        title: "Valuation",
+        detail: "High multiples assume durable growth.",
+        watch: "Forward ARR and margin estimates.",
+      },
     ],
     watch: [
-      { title: "Net retention", detail: "The single most important SaaS metric." },
-      { title: "Sales efficiency", detail: "Payback shows whether growth creates value." },
-      { title: "Free cash flow", detail: "The bridge from growth to profitability." },
+      {
+        title: "Net retention",
+        detail: "The single most important SaaS metric.",
+      },
+      {
+        title: "Sales efficiency",
+        detail: "Payback shows whether growth creates value.",
+      },
+      {
+        title: "Free cash flow",
+        detail: "The bridge from growth to profitability.",
+      },
     ],
     questions: [
       "How much growth comes from existing customers?",
@@ -360,21 +880,62 @@ const BUCKETS: Record<string, Bucket> = {
   quantum: {
     lens: "The investment case is a long-duration option on a technology that has not yet reached commercial scale.",
     drivers: [
-      { title: "Technical milestones", detail: "Qubit count, fidelity and error correction determine progress." },
-      { title: "Government and enterprise funding", detail: "Contracts and grants fund development before revenue scales." },
-      { title: "Cloud access", detail: "Cloud platforms can broaden access without full hardware ownership." },
+      {
+        title: "Technical milestones",
+        detail:
+          "Qubit count, fidelity and error correction determine progress.",
+      },
+      {
+        title: "Government and enterprise funding",
+        detail: "Contracts and grants fund development before revenue scales.",
+      },
+      {
+        title: "Cloud access",
+        detail:
+          "Cloud platforms can broaden access without full hardware ownership.",
+      },
     ],
     risks: [
-      { title: "Commercialisation", detail: "Useful quantum advantage may be years away.", watch: "Technical milestones and customer pilots." },
-      { title: "Cash burn", detail: "Development is expensive before revenue scales.", watch: "Cash runway and spending." },
-      { title: "Dilution", detail: "Equity issuance may fund the gap.", watch: "Share count and ATM activity." },
-      { title: "Competition", detail: "Large technology companies and startups are pursuing multiple architectures.", watch: "Architecture benchmarks and partnerships." },
-      { title: "Valuation", detail: "Prices can discount a future that is far from certain.", watch: "Cash, backlog and milestone progress." },
+      {
+        title: "Commercialisation",
+        detail: "Useful quantum advantage may be years away.",
+        watch: "Technical milestones and customer pilots.",
+      },
+      {
+        title: "Cash burn",
+        detail: "Development is expensive before revenue scales.",
+        watch: "Cash runway and spending.",
+      },
+      {
+        title: "Dilution",
+        detail: "Equity issuance may fund the gap.",
+        watch: "Share count and ATM activity.",
+      },
+      {
+        title: "Competition",
+        detail:
+          "Large technology companies and startups are pursuing multiple architectures.",
+        watch: "Architecture benchmarks and partnerships.",
+      },
+      {
+        title: "Valuation",
+        detail: "Prices can discount a future that is far from certain.",
+        watch: "Cash, backlog and milestone progress.",
+      },
     ],
     watch: [
-      { title: "Technical progress", detail: "Milestones matter more than near-term revenue." },
-      { title: "Cash runway", detail: "The funding gap determines dilution risk." },
-      { title: "Commercial pilots", detail: "Pilots are the first evidence of demand." },
+      {
+        title: "Technical progress",
+        detail: "Milestones matter more than near-term revenue.",
+      },
+      {
+        title: "Cash runway",
+        detail: "The funding gap determines dilution risk.",
+      },
+      {
+        title: "Commercial pilots",
+        detail: "Pilots are the first evidence of demand.",
+      },
     ],
     questions: [
       "What technical milestone would change the story?",
@@ -386,21 +947,56 @@ const BUCKETS: Record<string, Bucket> = {
   fintech: {
     lens: "The economics depend on credit losses, funding costs, take rates and the ability to grow without buying customers.",
     drivers: [
-      { title: "Volume growth", detail: "Transactions and loans scale revenue." },
-      { title: "Take rate", detail: "Pricing per transaction determines revenue per unit." },
-      { title: "Funding and credit", detail: "Cheaper funding and stable credit improve margins." },
+      {
+        title: "Volume growth",
+        detail: "Transactions and loans scale revenue.",
+      },
+      {
+        title: "Take rate",
+        detail: "Pricing per transaction determines revenue per unit.",
+      },
+      {
+        title: "Funding and credit",
+        detail: "Cheaper funding and stable credit improve margins.",
+      },
     ],
     risks: [
-      { title: "Credit losses", detail: "A weaker consumer can raise charge-offs.", watch: "Delinquencies and provision trends." },
-      { title: "Funding costs", detail: "Higher rates can compress spreads.", watch: "Cost of funds and deposit mix." },
-      { title: "Regulation", detail: "Banking, lending and crypto rules can change the model.", watch: "Licensing and regulatory actions." },
-      { title: "Competition", detail: "Banks and other platforms can match features.", watch: "Take rate and customer acquisition cost." },
-      { title: "Valuation", detail: "Growth multiples can compress if credit normalises.", watch: "Forward revenue and credit guidance." },
+      {
+        title: "Credit losses",
+        detail: "A weaker consumer can raise charge-offs.",
+        watch: "Delinquencies and provision trends.",
+      },
+      {
+        title: "Funding costs",
+        detail: "Higher rates can compress spreads.",
+        watch: "Cost of funds and deposit mix.",
+      },
+      {
+        title: "Regulation",
+        detail: "Banking, lending and crypto rules can change the model.",
+        watch: "Licensing and regulatory actions.",
+      },
+      {
+        title: "Competition",
+        detail: "Banks and other platforms can match features.",
+        watch: "Take rate and customer acquisition cost.",
+      },
+      {
+        title: "Valuation",
+        detail: "Growth multiples can compress if credit normalises.",
+        watch: "Forward revenue and credit guidance.",
+      },
     ],
     watch: [
       { title: "Credit quality", detail: "Delinquencies lead charge-offs." },
-      { title: "Take rate", detail: "Revenue per transaction is the unit economics." },
-      { title: "Funding", detail: "The cost and stability of funding drive margins." },
+      {
+        title: "Take rate",
+        detail: "Revenue per transaction is the unit economics.",
+      },
+      {
+        title: "Funding",
+        detail: "The cost and stability of funding drive margins.",
+      },
     ],
     questions: [
       "What happens to losses in a recession?",
@@ -412,21 +1008,56 @@ const BUCKETS: Record<string, Bucket> = {
   biotech: {
     lens: "The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue.",
     drivers: [
-      { title: "Clinical data", detail: "Efficacy and safety readouts determine the programme's value." },
-      { title: "Regulatory path", detail: "Approval and label scope decide the commercial opportunity." },
-      { title: "Partnerships", detail: "Collaborations can fund development and validate the science." },
+      {
+        title: "Clinical data",
+        detail: "Efficacy and safety readouts determine the programme's value.",
+      },
+      {
+        title: "Regulatory path",
+        detail: "Approval and label scope decide the commercial opportunity.",
+      },
+      {
+        title: "Partnerships",
+        detail: "Collaborations can fund development and validate the science.",
+      },
     ],
     risks: [
-      { title: "Trial failure", detail: "A negative readout can remove most of the equity value.", watch: "Trial endpoints and readout timing." },
-      { title: "Cash runway", detail: "Development costs can force financing.", watch: "Cash and quarterly burn." },
-      { title: "Reimbursement", detail: "Payer coverage determines commercial uptake.", watch: "Pricing and payer decisions." },
-      { title: "Competition", detail: "A better therapy can arrive first or be priced lower.", watch: "Competitor data and launch timing." },
-      { title: "Dilution", detail: "Equity raises fund trials and manufacturing.", watch: "Share count and financing terms." },
+      {
+        title: "Trial failure",
+        detail: "A negative readout can remove most of the equity value.",
+        watch: "Trial endpoints and readout timing.",
+      },
+      {
+        title: "Cash runway",
+        detail: "Development costs can force financing.",
+        watch: "Cash and quarterly burn.",
+      },
+      {
+        title: "Reimbursement",
+        detail: "Payer coverage determines commercial uptake.",
+        watch: "Pricing and payer decisions.",
+      },
+      {
+        title: "Competition",
+        detail: "A better therapy can arrive first or be priced lower.",
+        watch: "Competitor data and launch timing.",
+      },
+      {
+        title: "Dilution",
+        detail: "Equity raises fund trials and manufacturing.",
+        watch: "Share count and financing terms.",
+      },
     ],
     watch: [
-      { title: "Cash runway", detail: "The number of quarters funded is a hard constraint." },
+      {
+        title: "Cash runway",
+        detail: "The number of quarters funded is a hard constraint.",
+      },
       { title: "Trial readouts", detail: "Binary events drive the equity." },
-      { title: "Partner validation", detail: "A credible partner can de-risk the programme." },
+      {
+        title: "Partner validation",
+        detail: "A credible partner can de-risk the programme.",
+      },
     ],
     questions: [
       "How many quarters of cash remain?",
@@ -439,19 +1070,52 @@ const BUCKETS: Record<string, Bucket> = {
     lens: "The business depends on contract wins, launch execution and the path from backlog to cash flow.",
     drivers: [
       { title: "Backlog", detail: "Contracted revenue provides visibility." },
-      { title: "Launch cadence", detail: "More launches spread fixed costs and prove reliability." },
-      { title: "Government budgets", detail: "Defense and space spending fund the addressable market." },
+      {
+        title: "Launch cadence",
+        detail: "More launches spread fixed costs and prove reliability.",
+      },
+      {
+        title: "Government budgets",
+        detail: "Defense and space spending fund the addressable market.",
+      },
     ],
     risks: [
-      { title: "Contract concentration", detail: "A few government or commercial customers can dominate revenue.", watch: "Backlog and customer mix." },
-      { title: "Execution", detail: "Launch or satellite failures can delay revenue.", watch: "Mission success and schedule." },
-      { title: "Cash burn", detail: "Development and manufacturing consume cash before scale.", watch: "Cash runway and capex." },
-      { title: "Regulation", detail: "Licences and spectrum rules can constrain operations.", watch: "FCC, FAA and defense approvals." },
-      { title: "Dilution", detail: "Capital raises may fund the gap to profitability.", watch: "Share count and financing." },
+      {
+        title: "Contract concentration",
+        detail:
+          "A few government or commercial customers can dominate revenue.",
+        watch: "Backlog and customer mix.",
+      },
+      {
+        title: "Execution",
+        detail: "Launch or satellite failures can delay revenue.",
+        watch: "Mission success and schedule.",
+      },
+      {
+        title: "Cash burn",
+        detail: "Development and manufacturing consume cash before scale.",
+        watch: "Cash runway and capex.",
+      },
+      {
+        title: "Regulation",
+        detail: "Licences and spectrum rules can constrain operations.",
+        watch: "FCC, FAA and defense approvals.",
+      },
+      {
+        title: "Dilution",
+        detail: "Capital raises may fund the gap to profitability.",
+        watch: "Share count and financing.",
+      },
     ],
     watch: [
-      { title: "Backlog", detail: "Contracted revenue is the base for forecasts." },
-      { title: "Mission cadence", detail: "Reliability and cadence determine customer confidence." },
+      {
+        title: "Backlog",
+        detail: "Contracted revenue is the base for forecasts.",
+      },
+      {
+        title: "Mission cadence",
+        detail: "Reliability and cadence determine customer confidence.",
+      },
       { title: "Cash runway", detail: "The funding gap is a key risk." },
     ],
     questions: [
@@ -464,20 +1128,54 @@ const BUCKETS: Record<string, Bucket> = {
   nuclear: {
     lens: "The opportunity is large but early; permits, financing and construction execution determine who captures it.",
     drivers: [
-      { title: "Power demand", detail: "Data centers and electrification are increasing long-run electricity demand." },
-      { title: "Policy support", detail: "Tax credits and government programmes can improve project economics." },
-      { title: "Contracted capacity", detail: "Long-term agreements can underwrite new build." },
+      {
+        title: "Power demand",
+        detail:
+          "Data centers and electrification are increasing long-run electricity demand.",
+      },
+      {
+        title: "Policy support",
+        detail:
+          "Tax credits and government programmes can improve project economics.",
+      },
+      {
+        title: "Contracted capacity",
+        detail: "Long-term agreements can underwrite new build.",
+      },
     ],
     risks: [
-      { title: "Permitting", detail: "Licensing can take years and change project economics.", watch: "Regulatory milestones and dockets." },
-      { title: "Construction execution", detail: "Cost and schedule overruns are common in large projects.", watch: "Capex guidance and project updates." },
-      { title: "Financing", detail: "Capital intensity can require debt and equity.", watch: "Funding commitments and dilution." },
-      { title: "Commodity prices", detail: "Uranium and power prices affect project value.", watch: "Contract prices and spot exposure." },
-      { title: "Technology risk", detail: "New reactor designs have limited operating history.", watch: "Design certification and first-of-a-kind costs." },
+      {
+        title: "Permitting",
+        detail: "Licensing can take years and change project economics.",
+        watch: "Regulatory milestones and dockets.",
+      },
+      {
+        title: "Construction execution",
+        detail: "Cost and schedule overruns are common in large projects.",
+        watch: "Capex guidance and project updates.",
+      },
+      {
+        title: "Financing",
+        detail: "Capital intensity can require debt and equity.",
+        watch: "Funding commitments and dilution.",
+      },
+      {
+        title: "Commodity prices",
+        detail: "Uranium and power prices affect project value.",
+        watch: "Contract prices and spot exposure.",
+      },
+      {
+        title: "Technology risk",
+        detail: "New reactor designs have limited operating history.",
+        watch: "Design certification and first-of-a-kind costs.",
+      },
     ],
     watch: [
       { title: "Permits", detail: "Licensing is the gate to revenue." },
-      { title: "Contracted offtake", detail: "Long-term agreements support project finance." },
+      {
+        title: "Contracted offtake",
+        detail: "Long-term agreements support project finance.",
+      },
       { title: "Capex", detail: "Construction cost is the largest variable." },
     ],
     questions: [
@@ -490,20 +1188,52 @@ const BUCKETS: Record<string, Bucket> = {
   brands: {
     lens: "The model depends on unit growth, brand heat and whether new customers return.",
     drivers: [
-      { title: "Unit growth", detail: "New stores, products or users expand the revenue base." },
-      { title: "Brand pricing", detail: "Pricing power shows whether the brand is strengthening." },
-      { title: "Repeat purchase", detail: "Retention determines the lifetime value of a customer." },
+      {
+        title: "Unit growth",
+        detail: "New stores, products or users expand the revenue base.",
+      },
+      {
+        title: "Brand pricing",
+        detail: "Pricing power shows whether the brand is strengthening.",
+      },
+      {
+        title: "Repeat purchase",
+        detail: "Retention determines the lifetime value of a customer.",
+      },
     ],
     risks: [
-      { title: "Consumer trends", detail: "Tastes and fashions can change quickly.", watch: "Comparable sales and repeat rates." },
-      { title: "Competition", detail: "New brands can take share with lower prices.", watch: "Market share and promotional activity." },
-      { title: "Input costs", detail: "Ingredients, freight and labour can pressure margins.", watch: "Gross margin and price increases." },
-      { title: "Expansion execution", detail: "New stores or products may not earn the same returns.", watch: "New-unit productivity and payback." },
-      { title: "Valuation", detail: "High-growth brands can de-rate quickly.", watch: "Forward growth versus multiple." },
+      {
+        title: "Consumer trends",
+        detail: "Tastes and fashions can change quickly.",
+        watch: "Comparable sales and repeat rates.",
+      },
+      {
+        title: "Competition",
+        detail: "New brands can take share with lower prices.",
+        watch: "Market share and promotional activity.",
+      },
+      {
+        title: "Input costs",
+        detail: "Ingredients, freight and labour can pressure margins.",
+        watch: "Gross margin and price increases.",
+      },
+      {
+        title: "Expansion execution",
+        detail: "New stores or products may not earn the same returns.",
+        watch: "New-unit productivity and payback.",
+      },
+      {
+        title: "Valuation",
+        detail: "High-growth brands can de-rate quickly.",
+        watch: "Forward growth versus multiple.",
+      },
     ],
     watch: [
       { title: "Comparable sales", detail: "Shows demand without new units." },
-      { title: "Repeat purchase", detail: "Retention is the proof of brand strength." },
+      {
+        title: "Repeat purchase",
+        detail: "Retention is the proof of brand strength.",
+      },
       { title: "Unit economics", detail: "New units must earn their capital." },
     ],
     questions: [
@@ -516,21 +1246,54 @@ const BUCKETS: Record<string, Bucket> = {
   cyclical: {
     lens: "The cycle drives near-term results, so the important question is what the business earns through a full cycle.",
     drivers: [
-      { title: "Backlog and orders", detail: "Order momentum shows where the cycle is heading." },
-      { title: "Price and productivity", detail: "Pricing and cost programmes protect margins." },
-      { title: "End-market recovery", detail: "Construction, manufacturing and infrastructure spending drive demand." },
+      {
+        title: "Backlog and orders",
+        detail: "Order momentum shows where the cycle is heading.",
+      },
+      {
+        title: "Price and productivity",
+        detail: "Pricing and cost programmes protect margins.",
+      },
+      {
+        title: "End-market recovery",
+        detail:
+          "Construction, manufacturing and infrastructure spending drive demand.",
+      },
     ],
     risks: [
-      { title: "Cycle", detail: "Demand can fall faster than costs.", watch: "Orders, backlog and utilisation." },
-      { title: "Input costs", detail: "Materials and labour can outrun price.", watch: "Price-cost spread." },
-      { title: "Execution", detail: "Project and acquisition execution can hit margins.", watch: "Segment margins and project updates." },
-      { title: "Leverage", detail: "Debt can constrain the downturn strategy.", watch: "Net debt/EBITDA and maturities." },
-      { title: "Valuation", detail: "Peak earnings can make multiples look low.", watch: "Mid-cycle margins." },
+      {
+        title: "Cycle",
+        detail: "Demand can fall faster than costs.",
+        watch: "Orders, backlog and utilisation.",
+      },
+      {
+        title: "Input costs",
+        detail: "Materials and labour can outrun price.",
+        watch: "Price-cost spread.",
+      },
+      {
+        title: "Execution",
+        detail: "Project and acquisition execution can hit margins.",
+        watch: "Segment margins and project updates.",
+      },
+      {
+        title: "Leverage",
+        detail: "Debt can constrain the downturn strategy.",
+        watch: "Net debt/EBITDA and maturities.",
+      },
+      {
+        title: "Valuation",
+        detail: "Peak earnings can make multiples look low.",
+        watch: "Mid-cycle margins.",
+      },
     ],
     watch: [
       { title: "Orders", detail: "The leading indicator for the cycle." },
       { title: "Price-cost", detail: "Protects margins through inflation." },
-      { title: "Balance sheet", detail: "Leverage determines downturn resilience." },
+      {
+        title: "Balance sheet",
+        detail: "Leverage determines downturn resilience.",
+      },
     ],
     questions: [
       "What is mid-cycle earnings power?",
@@ -542,21 +1305,59 @@ const BUCKETS: Record<string, Bucket> = {
   specialty: {
     lens: "Underwriting discipline and reserve adequacy matter more than premium growth.",
     drivers: [
-      { title: "Premium growth", detail: "New business and rate increases expand the revenue base." },
-      { title: "Underwriting margin", detail: "Combined ratio determines whether growth is profitable." },
-      { title: "Reserve development", detail: "Favourable reserves can release earnings." },
+      {
+        title: "Premium growth",
+        detail: "New business and rate increases expand the revenue base.",
+      },
+      {
+        title: "Underwriting margin",
+        detail: "Combined ratio determines whether growth is profitable.",
+      },
+      {
+        title: "Reserve development",
+        detail: "Favourable reserves can release earnings.",
+      },
     ],
     risks: [
-      { title: "Catastrophe losses", detail: "A single event can dominate the year.", watch: "Catastrophe exposure and reinsurance." },
-      { title: "Reserve adequacy", detail: "Under-reserving can surface years later.", watch: "Prior-year reserve development." },
-      { title: "Pricing cycle", detail: "Soft markets can erode underwriting margins.", watch: "Rate change and retention." },
-      { title: "Investment income", detail: "Rates and asset mix drive investment returns.", watch: "Book yield and duration." },
-      { title: "Valuation", detail: "Premium multiples assume disciplined growth.", watch: "Price/book and ROE." },
+      {
+        title: "Catastrophe losses",
+        detail: "A single event can dominate the year.",
+        watch: "Catastrophe exposure and reinsurance.",
+      },
+      {
+        title: "Reserve adequacy",
+        detail: "Under-reserving can surface years later.",
+        watch: "Prior-year reserve development.",
+      },
+      {
+        title: "Pricing cycle",
+        detail: "Soft markets can erode underwriting margins.",
+        watch: "Rate change and retention.",
+      },
+      {
+        title: "Investment income",
+        detail: "Rates and asset mix drive investment returns.",
+        watch: "Book yield and duration.",
+      },
+      {
+        title: "Valuation",
+        detail: "Premium multiples assume disciplined growth.",
+        watch: "Price/book and ROE.",
+      },
     ],
     watch: [
-      { title: "Combined ratio", detail: "The cleanest measure of underwriting profitability." },
-      { title: "Reserve development", detail: "Releases or charges reveal reserve quality." },
-      { title: "Rate", detail: "Pricing versus loss trends determines margin." },
+      {
+        title: "Combined ratio",
+        detail: "The cleanest measure of underwriting profitability.",
+      },
+      {
+        title: "Reserve development",
+        detail: "Releases or charges reveal reserve quality.",
+      },
+      {
+        title: "Rate",
+        detail: "Pricing versus loss trends determines margin.",
+      },
     ],
     questions: [
       "What is the catastrophe loss budget?",
@@ -648,10 +1449,7 @@ export function generateStockStory(bundle: ResearchBundle): StockStory {
     formatCurrency(value, 2, currency);
   const money = (value: number | null | undefined) =>
     formatCompactCurrency(value, currency);
-  const group =
-    data.market === "IN"
-      ? getIndiaCoverageGroup(data.ticker)
-      : getCoverageGroup(data.ticker);
+  const group = getCoverageGroup(data.ticker);
   const bucket =
     BUCKETS[GROUP_BUCKET[group?.id ?? ""] ?? "tech"] ?? BUCKETS.tech;
   const quarter = latestQuarter(bundle);
@@ -667,7 +1465,9 @@ export function generateStockStory(bundle: ResearchBundle): StockStory {
   const rangePosition = bundle.rangePosition;
   const target = consensus?.targetMean ?? null;
   const analystCount = consensus?.analystCount ?? null;
-  const estimate = consensus?.estimates.find((item) => item.period === "Current fiscal year");
+  const estimate = consensus?.estimates.find(
+    (item) => item.period === "Current fiscal year",
+  );
   const segmentNote =
     !segments || segments.segments.length <= 1
       ? "The current dataset does not break revenue into reportable segments, so the consolidated revenue line is used."
@@ -710,9 +1510,18 @@ export function generateStockStory(bundle: ResearchBundle): StockStory {
       `${segmentNote} ${geographyNote} The company employs ${data.employees ? data.employees.toLocaleString("en-US") : "an undisclosed number of"} people; the coverage group is ${sectorLabel}.`,
     ],
     bullets: [
-      { title: "Revenue base", detail: `${money(revenue)} on a trailing-twelve-month basis.` },
-      { title: "Profitability", detail: `Operating margin ${formatPercent(opMargin)}; free-cash-flow margin ${formatPercent(fcfMargin)}.` },
-      { title: "Scale", detail: `Market capitalization ${money(data.latestPrice.marketCap)} at the latest close.` },
+      {
+        title: "Revenue base",
+        detail: `${money(revenue)} on a trailing-twelve-month basis.`,
+      },
+      {
+        title: "Profitability",
+        detail: `Operating margin ${formatPercent(opMargin)}; free-cash-flow margin ${formatPercent(fcfMargin)}.`,
+      },
+      {
+        title: "Scale",
+        detail: `Market capitalization ${money(data.latestPrice.marketCap)} at the latest close.`,
+      },
     ],
   };
 
@@ -773,7 +1582,8 @@ export function generateStockStory(bundle: ResearchBundle): StockStory {
   riskItems[1] = { ...riskItems[1], severity: "High" };
 
   const risks = {
-    intro: "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    intro:
+      "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
     items: riskItems,
     watchlist: bucket.watch,
   };
@@ -782,15 +1592,18 @@ export function generateStockStory(bundle: ResearchBundle): StockStory {
     paragraphs: [
       `${name} is a ${sectorLabel} company with ${money(revenue)} of trailing revenue, a ${formatPercent(opMargin)} operating margin and ${formatPercent(fcfMargin)} free-cash-flow margin. Those are the facts; the interpretation depends on whether the current growth and margin are durable.`,
       `${target != null ? `The third-party consensus mean target is ${price(target)} as of ${consensus?.asOf ?? "the latest snapshot"}. ` : ""}Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with the peer set below, then decide which risk matters most.`,
-      `The percentile scorecard below places the company within the ${
-        data.market === "IN" ? "100-name India coverage universe" : "229-name coverage universe"
-      }. A high growth score with a low balance-sheet score is a different proposition from the reverse, and neither is automatically good or bad.`,
+      `The percentile scorecard below places the company within the ${"229-name coverage universe"}. A high growth score with a low balance-sheet score is a different proposition from the reverse, and neither is automatically good or bad.`,
     ],
     questions: bucket.questions,
   };
 
   const avgFactor = Math.round(
-    (factors.growth + factors.profitability + factors.cash + factors.balance + factors.valuation) / 5,
+    (factors.growth +
+      factors.profitability +
+      factors.cash +
+      factors.balance +
+      factors.valuation) /
+      5,
   );
   const titlePatterns = [
     `${name}: ${bucket.lens.split(".")[0].toLowerCase()}`,

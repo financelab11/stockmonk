@@ -1,6 +1,6 @@
 /**
  * Applies a hand-written section file from content/handwritten/{TICKER}.json
- * onto the matching story, preserving every section it does not override.
+ * onto the matching US story, preserving every section it does not override.
  *
  * Run:
  *   pnpm stories:apply MSFT
@@ -9,8 +9,6 @@
 import fs from "node:fs";
 import path from "node:path";
 import { STOCK_STORIES } from "../content/stocks";
-import { INDIA_STOCK_STORIES } from "../content/india-stocks";
-import { GCC_STORIES } from "../content/gcc-stories";
 import type { StockStory } from "../content/stocks/types";
 
 type Handwritten = {
@@ -23,23 +21,15 @@ type Handwritten = {
 };
 
 const SOURCE_DIR = path.join("content", "handwritten");
-const CONTENT: Record<string, string> = {
-  US: "content/stocks",
-  IN: "content/india-stocks",
-  GCC: "content/gcc-stories",
-};
-
-function marketOf(ticker: string): "US" | "IN" | "GCC" | null {
-  if (STOCK_STORIES[ticker]) return "US";
-  if (INDIA_STOCK_STORIES[ticker]) return "IN";
-  if (GCC_STORIES[ticker]) return "GCC";
-  return null;
-}
+const STORY_DIR = path.join("content", "stocks");
 
 function serialize(file: string, story: StockStory): string {
   const current = fs.readFileSync(file, "utf8");
-  const exportName = /export const (\w+)\s*:\s*StockStory/.exec(current)?.[1] ?? "STORY";
-  const typeImport = /import type \{ StockStory \} from "([^"]+)"/.exec(current)?.[1] ?? "./types";
+  const exportName =
+    /export const (\w+)\s*:\s*StockStory/.exec(current)?.[1] ?? "STORY";
+  const typeImport =
+    /import type \{ StockStory \} from "([^"]+)"/.exec(current)?.[1] ??
+    "./types";
   return `import type { StockStory } from "${typeImport}";\n\nexport const ${exportName}: StockStory = ${JSON.stringify(
     story,
     null,
@@ -47,15 +37,22 @@ function serialize(file: string, story: StockStory): string {
   )};\n`;
 }
 
-function apply(file: string, story: StockStory, patch: Handwritten): StockStory {
+function apply(
+  file: string,
+  story: StockStory,
+  patch: Handwritten,
+): StockStory {
   const next: StockStory = {
     ...story,
     ...patch.sections,
     ...(patch.title ? { title: patch.title } : {}),
     ...(patch.dek ? { dek: patch.dek } : {}),
-    ...(patch.earningsReleaseUrl ? { earningsReleaseUrl: patch.earningsReleaseUrl } : {}),
+    ...(patch.earningsReleaseUrl
+      ? { earningsReleaseUrl: patch.earningsReleaseUrl }
+      : {}),
     narrativeSource: "handwritten",
-    narrativeUpdatedAt: patch.narrativeUpdatedAt ?? new Date().toISOString().slice(0, 10),
+    narrativeUpdatedAt:
+      patch.narrativeUpdatedAt ?? new Date().toISOString().slice(0, 10),
   };
   fs.writeFileSync(file, serialize(file, next), "utf8");
   return next;
@@ -82,16 +79,15 @@ for (const ticker of tickers) {
     console.warn(`[handwritten] ${ticker}: no patch file`);
     continue;
   }
-  const market = marketOf(ticker);
-  if (!market) {
-    console.warn(`[handwritten] ${ticker}: not in any story map`);
+  const story = STOCK_STORIES[ticker];
+  if (!story) {
+    console.warn(`[handwritten] ${ticker}: not in the US story map`);
     continue;
   }
   const patch = JSON.parse(fs.readFileSync(source, "utf8")) as Handwritten;
-  const story = (market === "US" ? STOCK_STORIES : market === "IN" ? INDIA_STOCK_STORIES : GCC_STORIES)[ticker];
-  apply(path.join(CONTENT[market], `${ticker}.ts`), story, patch);
+  apply(path.join(STORY_DIR, `${ticker}.ts`), story, patch);
   applied += 1;
-  console.log(`[handwritten] applied ${market} ${ticker}`);
+  console.log(`[handwritten] applied US ${ticker}`);
 }
 
 console.log(`[handwritten] ${applied} report(s) updated`);

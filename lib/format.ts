@@ -16,11 +16,6 @@ const integer = new Intl.NumberFormat("en-US", {
   maximumFractionDigits: 0,
 });
 
-const croreWhole = new Intl.NumberFormat("en-IN", { maximumFractionDigits: 0 });
-const croreDecimal = new Intl.NumberFormat("en-IN", {
-  maximumFractionDigits: 1,
-});
-
 export function formatCompactCurrency(
   value: number | null | undefined,
   currency = "USD",
@@ -28,16 +23,6 @@ export function formatCompactCurrency(
   if (value == null || !Number.isFinite(value)) return "n/a";
   const sign = value < 0 ? "-" : "";
   const abs = Math.abs(value);
-  if (currency === "INR") {
-    // Indian readers expect crore, not billions: ₹7,822 Cr rather than ₹78.2B.
-    const crore = abs / 10_000_000;
-    if (crore >= 100) return `${sign}₹${croreWhole.format(crore)} Cr`;
-    if (crore >= 1) return `${sign}₹${croreDecimal.format(crore)} Cr`;
-    const lakh = abs / 100_000;
-    if (lakh >= 1) return `${sign}₹${croreDecimal.format(lakh)} L`;
-    if (abs >= 1_000) return `${sign}₹${compact.format(abs / 1_000)}K`;
-    return `${sign}₹${decimal.format(abs)}`;
-  }
   const prefix = currency === "USD" ? "$" : `${currency} `;
   if (abs >= 1_000_000_000_000)
     return `${sign}${prefix}${compactTwo.format(abs / 1_000_000_000_000)}T`;
@@ -55,7 +40,7 @@ export function formatCurrency(
   currency = "USD",
 ): string {
   if (value == null || !Number.isFinite(value)) return "n/a";
-  return new Intl.NumberFormat(currency === "INR" ? "en-IN" : "en-US", {
+  return new Intl.NumberFormat("en-US", {
     style: "currency",
     currency,
     minimumFractionDigits: digits,

@@ -2,7 +2,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import { RESEARCH_TICKERS } from "../config/universe";
-import { consensusSchema, segmentMixSchema, tickerDataSchema } from "../lib/schemas";
+import {
+  consensusSchema,
+  segmentMixSchema,
+  tickerDataSchema,
+} from "../lib/schemas";
 import { generateStockStory } from "../lib/generated-story";
 
 const ROOT = process.cwd();
@@ -44,11 +48,17 @@ for (const ticker of RESEARCH_TICKERS) {
     rangePosition: null,
   });
   const text = JSON.stringify(story);
-  const bad = ["NaN", "Infinity", "undefined", " null", "[object Object]", ".."].filter(
-    (token) => text.includes(token),
-  );
+  const bad = [
+    "NaN",
+    "Infinity",
+    "undefined",
+    " null",
+    "[object Object]",
+    "..",
+  ].filter((token) => text.includes(token));
   if (bad.length) problems.push(`${ticker}: ${bad.join(", ")}`);
-  if (story.risks.items.length < 5) problems.push(`${ticker}: only ${story.risks.items.length} risks`);
+  if (story.risks.items.length < 5)
+    problems.push(`${ticker}: only ${story.risks.items.length} risks`);
   if (!story.irUrl) problems.push(`${ticker}: missing irUrl`);
 }
 

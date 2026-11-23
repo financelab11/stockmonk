@@ -5,11 +5,18 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { formatCompactCurrency, formatMultiple, formatPercent, formatSignedPercent } from "../lib/format";
+import {
+  formatCompactCurrency,
+  formatMultiple,
+  formatPercent,
+  formatSignedPercent,
+} from "../lib/format";
 
 const ticker = (process.argv[2] ?? "").toUpperCase();
-const markets = ["data/processed", "data/india/processed", "data/gcc/processed"];
-const root = markets.find((dir) => fs.existsSync(path.join(dir, ticker, "data.json")));
+const markets = ["data/processed"];
+const root = markets.find((dir) =>
+  fs.existsSync(path.join(dir, ticker, "data.json")),
+);
 if (!root) {
   console.error(`no dataset for ${ticker}`);
   process.exit(1);
@@ -48,7 +55,11 @@ type ConsensusFile = {
   targetMean?: number | null;
   targetLow?: number | null;
   targetHigh?: number | null;
-  estimates?: Array<{ period?: string; revenueAvg?: number | null; epsAvg?: number | null }>;
+  estimates?: Array<{
+    period?: string;
+    revenueAvg?: number | null;
+    epsAvg?: number | null;
+  }>;
 };
 
 type EarningsFile = {
@@ -64,15 +75,16 @@ const m = data.metrics;
 const p = data.latestPrice;
 const CONSENSUS_DIR: Record<string, string> = {
   "data/processed": "data/consensus",
-  "data/india/processed": "data/india/consensus",
-  "data/gcc/processed": "data/gcc/consensus",
 };
 const consensus = read<ConsensusFile>(
   path.join(CONSENSUS_DIR[root], `${ticker}.json`),
 );
-const earnings = read<EarningsFile>(path.join("data", "earnings", `${ticker}.json`));
+const earnings = read<EarningsFile>(
+  path.join("data", "earnings", `${ticker}.json`),
+);
 
-const money = (value: number | null | undefined) => formatCompactCurrency(value, currency);
+const money = (value: number | null | undefined) =>
+  formatCompactCurrency(value, currency);
 
 console.log(`== ${ticker} ${data.name} (${data.sector} · ${data.industry})`);
 console.log(
@@ -97,20 +109,28 @@ for (const q of quarters) {
 }
 
 if (consensus) {
-  console.log(`\nconsensus as of ${consensus.asOf}: mean ${money(consensus.targetMean)} · ${consensus.analystCount} analysts · range ${money(consensus.targetLow)}–${money(consensus.targetHigh)}`);
+  console.log(
+    `\nconsensus as of ${consensus.asOf}: mean ${money(consensus.targetMean)} · ${consensus.analystCount} analysts · range ${money(consensus.targetLow)}–${money(consensus.targetHigh)}`,
+  );
   for (const estimate of consensus.estimates ?? []) {
-    console.log(`  ${estimate.period}: revenue ${money(estimate.revenueAvg)} · EPS ${estimate.epsAvg}`);
+    console.log(
+      `  ${estimate.period}: revenue ${money(estimate.revenueAvg)} · EPS ${estimate.epsAvg}`,
+    );
   }
 }
 
 if (earnings) {
-  console.log(`\nlatest earnings release ${earnings.filed} · ${earnings.releaseUrl}`);
+  console.log(
+    `\nlatest earnings release ${earnings.filed} · ${earnings.releaseUrl}`,
+  );
   const text = String(earnings.text).replace(/\s+/g, " ");
   const start = text.search(/announce|report|results/i);
   console.log(text.slice(Math.max(0, start - 80), start + 1600));
   if (earnings.cfoCommentary) {
     console.log("\nCFO commentary excerpt");
-    console.log(String(earnings.cfoCommentary.text).replace(/\s+/g, " ").slice(0, 900));
+    console.log(
+      String(earnings.cfoCommentary.text).replace(/\s+/g, " ").slice(0, 900),
+    );
   }
 } else {
   console.log("\nno stored earnings release");

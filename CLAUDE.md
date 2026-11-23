@@ -6,22 +6,20 @@ conventions, update this file in the same commit.
 
 ## What Stockmonk is
 
-Stockmonk is an independent, data-first equity research PWA. It explains how a
-business makes money, charts reported financials and shows attributed third-party
-consensus. It never publishes buy/sell/hold ratings or Stockmonk price targets.
+Stockmonk is an independent, data-first equity research PWA focused on the US
+market. It explains how a business makes money, charts reported financials and
+shows attributed third-party consensus. It never publishes buy/sell/hold ratings
+or Stockmonk price targets.
 
-Coverage:
-
-- **US:** 229 hand-written ten-section reports plus an expanded screener universe.
-- **India:** 100 hand-written reports and a forward-growth ranker covering 385
-  companies with consensus/valuation/quality metrics.
-- **GCC:** 200-name universe, 90+ hand-written reports published in batches.
+Coverage: **229 hand-written ten-section US reports** plus an expanded,
+quantitative US screener universe. India and GCC coverage have been removed from
+the product, the codebase, the file datasets and the database.
 
 ## Stack
 
 - Next.js 16.4 App Router, React 19, TypeScript strict
 - Tailwind CSS 4 with tokens in `app/globals.css`
-- Zod schemas in `lib/schemas.ts`, `lib/growth-ranker/types.ts`
+- Zod schemas in `lib/schemas.ts`
 - Serwist PWA, lightweight-charts, Recharts, Fuse.js
 - Supabase (`@supabase/supabase-js`, `@supabase/ssr`) for database/auth/realtime
 - Vitest unit tests, Playwright e2e, Lighthouse CI
@@ -31,7 +29,7 @@ Coverage:
 
 ```bash
 pnpm dev                 # local dev
-pnpm build               # validators + screener data + Next build
+pnpm build               # content validator + screener data + Next build
 pnpm start
 pnpm typecheck
 pnpm lint
@@ -39,41 +37,37 @@ pnpm test
 pnpm e2e
 pnpm lhci
 pnpm sync:supabase       # push file datasets to Supabase (service role required)
-pnpm build:growth-ranker # rebuild the 385-name forward-estimate snapshot
+pnpm refresh             # EDGAR, SimFin, fallback, filings, consensus, segments, benchmark
+pnpm refresh:prices      # Yahoo closes for the US research names
+pnpm refresh:stories     # regenerate data-driven report sections
 ```
 
 ## Important paths
 
-| Path                                                               | Purpose                                                    |
-| ------------------------------------------------------------------ | ---------------------------------------------------------- |
-| `app/`                                                             | App Router pages and API routes                            |
-| `components/`                                                      | Server/client components; design tokens from `globals.css` |
-| `lib/data.ts`                                                      | US data access (server-only, cached)                       |
-| `lib/india-data.ts`                                                | India data access                                          |
-| `lib/gcc-data.ts`                                                  | GCC data access                                            |
-| `lib/schemas.ts`                                                   | Zod schemas for processed company data                     |
-| `lib/growth-ranker/`                                               | Forward-estimate types, dataset reader, ranking            |
-| `data/{processed,consensus,prices,segments}`                       | US file datasets                                           |
-| `data/india/`, `data/gcc/`                                         | India/GCC processed datasets                               |
-| `data/growth-ranker/estimates.json`                                | Committed 385-name forward snapshot                        |
-| `public/data/`                                                     | Browser-served JSON and price history                      |
-| `content/stocks/`, `content/india-stocks/`, `content/gcc-stories/` | Editorial reports                                          |
-| `scripts/`                                                         | Ingestion, build, validation and sync scripts              |
-| `supabase/migrations/`                                             | Database schema and daily jobs                             |
-| `utils/supabase/`                                                  | Browser/server/middleware clients                          |
-| `middleware.ts`                                                    | Supabase session refresh                                   |
+| Path                                                   | Purpose                                                    |
+| ------------------------------------------------------ | ---------------------------------------------------------- |
+| `app/`                                                 | App Router pages and API routes                            |
+| `components/`                                          | Server/client components; design tokens from `globals.css` |
+| `lib/data.ts`                                          | US data access (server-only, cached)                       |
+| `lib/schemas.ts`                                       | Zod schemas for processed company data                     |
+| `config/universe.ts`                                   | US research universe and ticker aliases                    |
+| `data/{processed,consensus,prices,segments,earnings}`  | US file datasets                                           |
+| `public/data/`                                         | Browser-served JSON, search index and price history        |
+| `content/stocks/`                                      | US editorial reports                                       |
+| `scripts/`                                             | Ingestion, build, validation and sync scripts              |
+| `supabase/migrations/`                                 | Database schema and market-removal migration               |
+| `utils/supabase/`                                      | Browser/server/middleware clients                          |
+| `middleware.ts`                                        | Supabase session refresh                                   |
 
 ## Routes
 
 - `/`, `/discover`, `/discover/all-stocks`, `/screener`
 - `/stocks/[ticker]` — US report
-- `/india`, `/india/all-stocks`, `/india/stocks/[ticker]`
-- `/gcc`, `/gcc/all-stocks`, `/gcc/stocks/[ticker]`
-- `/tools/growth-ranker`, `/tools/growth-ranker/[ticker]`
 - `/watchlist`, `/about`, `/framework`, `/data-sources`, legal pages
-- `/tools/growth-ranker` is server-rendered from the committed dataset; it has no
-  upload or run UI.
-- `/api/tools/growth-ranker/export` — CSV of all forward estimates.
+- `/api/data/screener-export` — CSV of the filtered US screener
+- `/api/data/screener-count` — live count for the filter UI
+- Legacy `/india/*`, `/gcc/*` and `/tools/growth-ranker/*` URLs permanently
+  redirect to `/discover` or `/screener`; the pages no longer exist.
 
 ## Copy and number conventions
 
@@ -82,128 +76,50 @@ pnpm build:growth-ranker # rebuild the 385-name forward-estimate snapshot
 - Percentile labels always go through `formatOrdinal` (`72nd`, `51st`, `93rd`);
   never concatenate `th`. Ordinals are baked into `factorChips` detail strings,
   so after changing chip copy run `pnpm chips:rebuild && pnpm build:data &&
-pnpm build:india && pnpm build:gcc && pnpm build:screener`.
-- INR figures render in crore (`₹7,822 Cr`) through `formatCompactCurrency`;
-  USD stays `$4.5B`/`$303B`. Never hard-code `₹…B`/`₹…T`.
+  pnpm build:screener`.
+- Currency is USD everywhere: `$4.5B`, `$303B`. The India crore/lakh formatting
+  has been removed.
 - A segment chart is only a "revenue mix" when more than one segment is
   disclosed. A single consolidated line renders as "Reported revenue" with a
   note that no split is disclosed.
-- Show the price date next to "Last close"; some India series are weekly, so the
-  date can land on a weekend. The footer says "Market prices as of" and refers
-  to market data only, not filing periods.
+- Show the price date next to "Last close". The footer says "Market prices as
+  of" and refers to market data only, not filing periods.
 - Discover leads with the research library, not a Pro upsell. Pro appears once,
   after the results. Prices are labelled "vs prior close" and fundamentals say
   "(TTM)" so a percentage never appears without a period.
-- Every market page opens with the market selector (US, India, GCC) fed by live
-  dataset counts, then the segmented Featured Research / Data Quality / All
-  Companies views. The directory defaults to 1Y returns, highest first, with
-  market cap as the tie-breaker and missing returns last. The active sort is
-  stated above the results and always notes that it is historical performance.
-- Navigation: primary nav is Discover and Screener. India, GCC, the growth
-  ranker, watchlist, methodology and company pages live under More. The
-  mobile bar is Discover, Screener, Watchlist, More. Header search is a global
-  overlay that queries the US, India and GCC search indexes (`/` or Cmd/Ctrl+K).
+- Discover opens directly on the US directory: Featured Research / Data Quality
+  / All Companies views. The directory defaults to 1Y returns, highest first,
+  with market cap as the tie-breaker and missing returns last. The active sort
+  is stated above the results and always notes that it is historical
+  performance.
+- Navigation: primary nav is Discover and Screener. Watchlist, methodology and
+  company pages live under More. The mobile bar is Discover, Screener,
+  Watchlist, More. Header search is a US-only global overlay (`/` or
+  Cmd/Ctrl+K).
 
-## Refreshing every dataset
+## Refreshing the datasets
 
 ```bash
 FORCE_REFRESH=1 pnpm refresh      # EDGAR, SimFin, fallback, filings, consensus, segments, benchmark
 pnpm refresh:prices               # Yahoo closes for all 229 US names (SimFin prices lag ~1 week)
-FORCE_REFRESH=1 pnpm ingest:india # Screener + Yahoo, daily prices where available
-FORCE_REFRESH=1 pnpm ingest:gcc   # StockAnalysis + Yahoo; raise GCC_DELAY_MS on 429s
-pnpm refresh:ranker               # forward-growth raw cache (Screener + Yahoo)
-pnpm build:growth-ranker
-pnpm build:data && pnpm build:india && pnpm build:gcc && pnpm build:screener
-pnpm audit:freshness              # fails if a market's newest price is older than 3 days
+pnpm build:data && pnpm build:screener
+pnpm audit:freshness              # fails if the US price snapshot is older than 3 days
 ```
 
 `SKIP_PRICES=1` skips the price upsert when syncing Supabase. Known source gaps:
-PSTG and ACLX have no Yahoo history (delisted), CRNX last traded 2026-08-31,
-JBCHEPHARM has no current Yahoo quote, and ten MSM (Oman) names plus TAQA only
-get weekly/irregular history from StockAnalysis. These dates are last-traded,
-not failed refreshes.
+PSTG and ACLX have no Yahoo history (delisted) and CRNX last traded 2026-08-31;
+these dates are last-traded, not failed refreshes.
 
-## India earnings tracker
+## Screening data
 
-- `pnpm build:earnings` writes `data/india/earnings-tracker.json` by merging
-  three sources: Stockmonk's India filings, the authorised Screener crawl
-  (`data/india/screener-earnings.json`) and an optional authorised export in
-  `data/india/earnings-tracker-source/*.csv`. Later sources win, earlier ones
-  fill gaps (for example 1Y return from our price history).
-- `pnpm ingest:screener` crawls screen 599148 (companies by market cap) and one
-  company page per ticker at or above `SCREENER_MIN_MCAP` (default ₹1,000 Cr,
-  currently ~1,614 companies). It is deliberately polite: one request at a
-  time, `SCREENER_DELAY_MS` between requests (default 1.2s), retries with
-  backoff on throttling, no retry on 404, consolidated pages with a standalone
-  fallback, and a resumable cache in `data/india/.screener-cache/` (gitignored).
-  Screen rows refresh daily; company pages have a 7-day TTL
-  (`SCREENER_COMPANY_TTL_DAYS`), so a daily run does a full refresh every week.
-- `pnpm refresh:earnings-prices` pulls two years of daily closes from Yahoo
-  Finance (`TICKER.NS`, falling back to `TICKER.BO`; numeric BSE codes use
-  `.BO`), takes the latest close and the close a year earlier, and writes
-  `data/india/earnings-prices.json` with the computed 1Y return. One request
-  per company with a daily cache in `data/india/.price-cache/`. Companies with
-  no Yahoo series (for example unlisted JPL) keep a blank 1Y return.
-- The daily `earnings-daily.yml` workflow (13:30 UTC, Monday–Friday) refreshes
-  prices, refreshes the screen, rebuilds the tracker and commits the three
-  JSON files. The crawl is permitted under written authorisation from
-  Screener.in/Mittal Analytics; do not extend it to Tijori Finance or any other
-  source without an equivalent licence.
-- Fields: sales, operating profit (EBITDA), net profit and EPS year-on-year,
-  market cap, P/E, ROCE and industry from Screener; PEG is calculated as
-  P/E ÷ EPS growth. 1Y return comes from Stockmonk prices and is blank where we
-  have no history.
-- `/india/earnings-tracker` filters and paginates server-side, defaults to
-  companies that reported in the last 12 months (with an opt-out), states the
-  active sort above the table and exports the filtered view as CSV.
-
-## Company profiles
-
-- `/india/companies/[ticker]` covers every earnings-tracker company (currently
-  1,615). The 120 largest by market cap plus TIPSMUSIC are prerendered; the rest
-  render on first request and are cached (`revalidate = 86400`,
-  `dynamicParams = true`). Profile JSON is traced into the route bundle with
-  `outputFileTracingIncludes`. A company without an ingested profile falls back
-  to the tracker's key statistics and a short note, so every route stays
-  navigable.
-- Profiles currently cover 1,596 of 1,615 companies (98.8%). The remainder are
-  InvITs/REITs, unlisted names or symbols the source does not publish; they keep
-  the tracker fallback.
-- `pnpm ingest:marketsmith --ticker=TIPSMUSIC` writes
-  `data/india/profiles/<TICKER>.json` from MarketSmith India (authorised). The
-  evaluation page is a client-side template, so the script resolves the
-  instrument on the guest gateway by exact symbol, then fetches
-  `symboldetails.json`,
-  `financeDetails.json` (consolidated first, standalone fallback),
-  `getRedFlags.json`/`getGreenFlags.json` and one year of daily closes.
-  Statements are transposed to metrics-as-rows, empty rows are dropped and a
-  Zod schema validates the profile. Batch runs use `MS_CONCURRENCY`,
-  `MS_RETRIES` and `MS_MAX_QUARTERS` (default 24); files are written compact and
-  failures go to `data/india/.marketsmith-failures.json`.
-- The page reuses the research-page design language: key statistics, dark
-  chart panels (price, sales/EPS, margins), stacked annual statements,
-  ownership bars/history/major shareholders, and a surveillance checklist.
-  It states the statement basis but does not name the data vendor anywhere in
-  the UI; licensed data is published without on-page attribution.
-- Typography tokens live in `globals.css`: `.type-company`, `.type-section`
-  (Newsreader 400), `.type-subhead`, `.type-body`, `.kpi-label`, `.kpi-value`,
-  `.type-table` and `.type-nav` (Inter). Uppercase is reserved for `.meta-caps`.
-- `pnpm fetch:logos` downloads one logo per company from its own website icon
-  (apple-touch-icon or icon link), falling back to Google's 128px favicon. Files
-  live in `public/logos/india/`, the manifest in `data/india/logos.json`
-  (validated by `logoManifestSchema`). Companies without a logo render an
-  initials monogram in `components/profile/company-logo.tsx`, so the header
-  never shows a broken image.
-- `components/profile/financial-table.tsx` renders a sticky-header desktop table
-  running oldest to newest with the latest period highlighted. The scrollport is
-  `dir="rtl"` with an `ltr` table so mobile opens on the latest period before
-  hydration; the table can be scrolled back to older years. `% Chg` rows are
-  tinted green/red in proportion to the move. `statement-browser.tsx` stacks the
-  four statements; `profile-charts.tsx` dynamically imports the three charts
-  below the fold. The profile nav is sticky at `top-24` because the site header
-  is 96px tall.
-- Written permission from the data vendor is required before republishing this
-  data. Tijori Finance remains off-limits without an equivalent licence.
+- `public/data/screener.json` (4,547 rows) and `public/data/screener-factors.json`
+  hold the US screener. The 229 research names use the fresh SimFin Web API and
+  SEC data; the expanded universe is built from SimFin's free bulk export, which
+  is delayed by roughly a year. The screener page states both snapshot dates.
+- `pnpm build:screener` rebuilds both files from `data/processed` and the bulk
+  CSVs. `pnpm ingest:bulk` re-downloads the free SimFin export.
+- The SimFin free bulk export cannot be made current; the Web API is used for
+  the research names. See "Supabase" for the database counts.
 
 ## Research report freshness
 
@@ -224,41 +140,43 @@ not failed refreshes.
 
 1. No buy, sell or hold ratings. No Stockmonk price targets.
 2. Consensus is third-party, attributed and dated. Never present it as our own.
-3. Historical growth is reference only in the forward ranker; it must not feed
-   projections, CAGR or ranking.
-4. Every quantitative claim in an editorial report must trace to a processed field
-   or a cited filing.
-5. Prefer server components and static content; client islands only for state.
-6. Add a Zod schema before adding a data field.
-7. Use design tokens/component classes; avoid ad-hoc colours.
-8. Verify before shipping: typecheck, lint, test, build, e2e.
+3. Every quantitative claim in an editorial report must trace to a processed
+   field or a cited filing.
+4. Prefer server components and static content; client islands only for state.
+5. Add a Zod schema before adding a data field.
+6. Use design tokens/component classes; avoid ad-hoc colours.
+7. Verify before shipping: typecheck, lint, test, build, e2e.
 
 ## Data pipeline
 
-- US: SimFin/EDGAR ingestion, processed JSON, screener data, hand-written stories.
-- India: Screener.in statements + Yahoo Finance consensus/prices, processed JSON.
-- GCC: StockAnalysis/Yahoo ingestion, processed JSON, batched reports.
-- Forward ranker: Yahoo consensus + Screener.in consolidated statements +
-  Refinitiv/LSEG fallback, built into `data/growth-ranker/estimates.json`.
-- `data/growth-ranker/raw/` and `Refinitiv/` are local ingestion inputs and are
-  gitignored.
+- US: SimFin/EDGAR ingestion, processed JSON, screener data, hand-written
+  stories. `data/raw/` is local ingestion input and is gitignored.
+- No India, GCC or forward-ranker pipelines remain. The `data/india`,
+  `data/gcc`, `data/growth-ranker`, `public/data/india`, `public/data/gcc`,
+  `public/logos/india`, `content/india-stocks` and `content/gcc-stories`
+  directories were deleted, along with their scripts and workflows.
 
 ## Supabase
 
 Project URL and publishable key are in `.env.local` / Vercel env. The service-role
 key is server-only and must never be exposed with `NEXT_PUBLIC_`.
 
-Schema lives in `supabase/migrations/202611170001_initial_schema.sql`:
+Schema lives in `supabase/migrations/202611170001_initial_schema.sql`, with
+`202611230001_remove_india_gcc.sql` deleting the India/GCC companies, stories,
+aliases and coverage groups, dropping the India-only `forward_estimates` table
+and `forward_growth_ranking` view, and restricting `companies.market` to `US`.
+
+Tables:
 
 - companies, aliases, coverage groups
 - prices_daily, financial_periods, financial_metrics, segments, fx_rates
-- consensus_estimates, consensus_targets, forward_estimates
+- consensus_estimates, consensus_targets
 - stories
 - profiles, watchlists, watchlist_items
 - company_snapshots, ingestion_runs, data_freshness
 
-Realtime is enabled for snapshots, forward estimates, news, freshness, consensus
-targets and watchlists. `pg_cron` refreshes `company_snapshots` at 02:15 UTC and
+Realtime is enabled for snapshots, news, freshness, consensus targets and
+watchlists. `pg_cron` refreshes `company_snapshots` at 02:15 UTC and
 `data_freshness` at 02:30 UTC daily.
 
 The app can run from files without Supabase. Supabase is the shared/realtime
@@ -295,34 +213,18 @@ Client helpers:
 
 ## Current deployment state
 
-- Everything is committed and pushed to `origin/main` (and mirrored to
-  `origin/master`).
+- Everything is committed and pushed to `origin/main`.
 - Supabase schema is applied to project `fqzfmvnmmiisvtgnsyqa` (Tokyo pooler,
   `aws-0-ap-northeast-1.pooler.supabase.com:6543`).
-- Data is loaded through the direct Postgres fallback: 852 companies, 290,637
-  prices, 14,839 statements, 1,716 consensus estimates, 385 forward estimates
-  and 852 snapshots. `pnpm sync:supabase:direct` refreshes it with
-  `SUPABASE_DB_PASSWORD`; `pnpm sync:supabase` does the same over PostgREST with
-  `SUPABASE_SERVICE_ROLE_KEY`. Both paths are verified.
-- Vercel production env also holds `SUPABASE_SERVICE_ROLE_KEY` (Secret, server
-  only) alongside the three public Supabase values.
-- GitHub Actions secrets are configured by hand in the repository
-  (`SIMFIN_API_KEY`, `NEXT_PUBLIC_SUPABASE_URL`, `SUPABASE_DB_PASSWORD`, plus
-  `SUPABASE_SERVICE_ROLE_KEY`). The repository token cannot read or write them
-  (`403` on `/actions/secrets`), so the token cannot trigger or inspect runs
-  either; verify the daily refresh from the Actions tab.
-- Vercel production is deployed from the CLI (`vercel --prod --yes
---archive=tgz`) and healthy: site returns 200 and `/api/health/db` returns
-  200 with live freshness rows.
-- GitHub-linked auto-deploy **is** active: the project is linked to
-  `financelab11/stockmonk` with production branch `main`, so every push to
-  `main` builds a production deployment. Pushing is automated by
-  `.githooks/post-commit`, which makes "commit" the only manual step.
-- The supplied GitHub token can read and push commits but cannot change
-  repository settings (`PATCH /repos` returns 403), so the default-branch
-  switch and Actions secrets must be done in the GitHub UI.
-- `master` is still the repository default and is now stale; delete it or
-  switch the default to `main` in GitHub settings.
+- Migration `202611230001_remove_india_gcc.sql` removes the India/GCC data. After
+  it runs, the `companies` table contains the 229 US research names and their
+  prices, statements, consensus and snapshots. Run it with the direct Postgres
+  credentials before the next sync.
+- `pnpm sync:supabase:direct` refreshes the US data with `SUPABASE_DB_PASSWORD`;
+  `pnpm sync:supabase` does the same over PostgREST with
+  `SUPABASE_SERVICE_ROLE_KEY`.
+- GitHub-linked auto-deploy is active: every push to `main` builds a production
+  deployment on Vercel. Pushing is automated by `.githooks/post-commit`.
 
 ## Change protocol
 
@@ -336,6 +238,5 @@ The intent is that a new agent can read `CLAUDE.md`, `README.md` and the latest
 commit and start without re-reading the whole repository.
 
 <!-- AUTO_CONTEXT_START -->
-
-_Context snapshot 2026-11-17: 229 US names, 100 India names, 187 GCC names, 385 forward estimates, 1 database migration(s)._
+_Context snapshot 2026-11-23: 229 US names, 3 database migration(s)._
 <!-- AUTO_CONTEXT_END -->

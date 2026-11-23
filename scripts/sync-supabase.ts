@@ -10,7 +10,6 @@ loadEnv();
 import fs from "node:fs";
 import path from "node:path";
 import { createClient } from "@supabase/supabase-js";
-import { getGccEntry } from "../config/gcc-coverage";
 
 type Json = Record<string, unknown>;
 type CompanyRow = {
@@ -93,7 +92,9 @@ async function upsert(
       }
       lastError = error;
       if (attempt < 2) {
-        await new Promise((resolve) => setTimeout(resolve, 1000 * (attempt + 1)));
+        await new Promise((resolve) =>
+          setTimeout(resolve, 1000 * (attempt + 1)),
+        );
       }
     }
     if (lastError) {
@@ -117,22 +118,6 @@ const MARKETS = [
     prices: "public/data/prices",
     segments: "data/segments",
   },
-  {
-    code: "IN",
-    stockFile: "public/data/india/stocks.json",
-    processed: "data/india/processed",
-    consensus: "data/india/consensus",
-    prices: "public/data/india/prices",
-    segments: null,
-  },
-  {
-    code: "GCC",
-    stockFile: "public/data/gcc/stocks.json",
-    processed: "data/gcc/processed",
-    consensus: "data/gcc/consensus",
-    prices: "public/data/gcc/prices",
-    segments: null,
-  },
 ] as const;
 
 function companyRows(): Json[] {
@@ -141,12 +126,7 @@ function companyRows(): Json[] {
     const entries =
       readJson<UniverseEntry[]>(path.join(ROOT, market.stockFile)) ?? [];
     for (const entry of entries) {
-      const exchange =
-        market.code === "GCC"
-          ? getGccEntry(entry.ticker)?.exchange
-          : market.code === "IN"
-            ? "NSE"
-            : "US";
+      const exchange = "US";
       rows.push({
         market: market.code,
         ticker: entry.ticker,
@@ -155,56 +135,19 @@ function companyRows(): Json[] {
         sector: entry.sector,
         industry: entry.industry,
         currency: entry.currency ?? "USD",
-        quote_currency:
-          market.code === "GCC"
-            ? getGccEntry(entry.ticker)?.market === "AE"
-              ? "AED"
-              : getGccEntry(entry.ticker)?.market === "SA"
-                ? "SAR"
-                : getGccEntry(entry.ticker)?.market === "QA"
-                  ? "QAR"
-                  : getGccEntry(entry.ticker)?.market === "KW"
-                    ? "KWD"
-                    : getGccEntry(entry.ticker)?.market === "OM"
-                      ? "OMR"
-                      : getGccEntry(entry.ticker)?.market === "BH"
-                        ? "BHD"
-                        : entry.currency
-            : entry.currency,
+        quote_currency: entry.currency,
         exchange,
         is_research: entry.isResearch,
         is_active: true,
-        metadata: { as_of: entry.asOf, price: entry.price, market_cap: entry.marketCap },
+        metadata: {
+          as_of: entry.asOf,
+          price: entry.price,
+          market_cap: entry.marketCap,
+        },
       });
     }
   }
 
-  // The forward-growth ranker covers more Indian names than the stock universe
-  // files, so add any ticker that only exists in the forward dataset.
-  const seen = new Set(rows.map((row) => `${String(row.market)}:${String(row.ticker)}`));
-  const forward =
-    readJson<{ results?: Array<Record<string, unknown>> }>(
-      path.join(ROOT, "data/growth-ranker/estimates.json"),
-    ) ?? {};
-  for (const result of forward.results ?? []) {
-    const ticker = str(result.ticker);
-    if (!ticker || seen.has(`IN:${ticker}`)) continue;
-    seen.add(`IN:${ticker}`);
-    rows.push({
-      market: "IN",
-      ticker,
-      name: str(result.name) ?? ticker,
-      description: "",
-      sector: str(result.sector) ?? "India",
-      industry: str(result.sector) ?? "India",
-      currency: "INR",
-      quote_currency: "INR",
-      exchange: "NSE",
-      is_research: false,
-      is_active: true,
-      metadata: { source: "forward-growth dataset" },
-    });
-  }
   return rows;
 }
 
@@ -240,26 +183,33 @@ async function syncPrices(companies: Map<string, CompanyRow>): Promise<number> {
         readJson<Array<Record<string, number>>>(
           path.join(ROOT, market.prices, entry.ticker, "MAX.json"),
         ) ?? [];
-      const rows = points.map((point, index) => {
-        const date =
-          point.t && Number.isFinite(point.t)
-            ? new Date(point.t * 1000).toISOString().slice(0, 10)
-            : null;
-        return {
-          company_id: company.id,
-          price_date: date,
-          close: num(point.c),
-          open: num(point.o),
-          high: num(point.h),
-          low: num(point.l),
-          volume: num(point.v),
-          currency: entry.currency,
-          source: "Stockmonk price history",
-          market_cap: index === points.length - 1 ? entry.marketCap : null,
-        };
-      }).filter((row) => row.price_date && row.close != null);
+      const rows = points
+        .map((point, index) => {
+          const date =
+            point.t && Number.isFinite(point.t)
+              ? new Date(point.t * 1000).toISOString().slice(0, 10)
+              : null;
+          return {
+            company_id: company.id,
+            price_date: date,
+            close: num(point.c),
+            open: num(point.o),
+            high: num(point.h),
+            low: num(point.l),
+            volume: num(point.v),
+            currency: entry.currency,
+            source: "Stockmonk price history",
+            market_cap: index === points.length - 1 ? entry.marketCap : null,
+          };
+        })
+        .filter((row) => row.price_date && row.close != null);
       if (rows.length) {
-        written += await upsert("prices_daily", rows, "company_id,price_date", 1000);
+        written += await upsert(
+          "prices_daily",
+          rows,
+          "company_id,price_date",
+          1000,
+        );
       }
     }
   }
@@ -267,7 +217,9 @@ async function syncPrices(companies: Map<string, CompanyRow>): Promise<number> {
   return written;
 }
 
-async function syncFinancials(companies: Map<string, CompanyRow>): Promise<number> {
+async function syncFinancials(
+  companies: Map<string, CompanyRow>,
+): Promise<number> {
   let written = 0;
   for (const market of MARKETS) {
     const dir = path.join(ROOT, market.processed);
@@ -432,12 +384,16 @@ async function syncFinancials(companies: Map<string, CompanyRow>): Promise<numbe
   return written;
 }
 
-async function syncConsensus(companies: Map<string, CompanyRow>): Promise<number> {
+async function syncConsensus(
+  companies: Map<string, CompanyRow>,
+): Promise<number> {
   let written = 0;
   for (const market of MARKETS) {
     const dir = path.join(ROOT, market.consensus);
     if (!fs.existsSync(dir)) continue;
-    for (const file of fs.readdirSync(dir).filter((name) => name.endsWith(".json"))) {
+    for (const file of fs
+      .readdirSync(dir)
+      .filter((name) => name.endsWith(".json"))) {
       const ticker = file.replace(/\.json$/, "");
       const company = companies.get(`${market.code}:${ticker}`);
       if (!company) continue;
@@ -496,62 +452,6 @@ async function syncConsensus(companies: Map<string, CompanyRow>): Promise<number
   return written;
 }
 
-async function syncForwardEstimates(companies: Map<string, CompanyRow>): Promise<number> {
-  const dataset = readJson<Json>("data/growth-ranker/estimates.json");
-  if (!dataset) return 0;
-  const rows = arr(dataset.results).map((item) => {
-    const result = obj(item);
-    const ticker = str(result.ticker) ?? "";
-    const company = companies.get(`IN:${ticker}`);
-    if (!company) return null;
-    const projections = obj(result.projections);
-    const fy1 = obj(projections.FY1);
-    const fy2 = obj(projections.FY2);
-    const fy3 = obj(projections.FY3);
-    const cagr = obj(result.cagr_3y);
-    const marketCap = obj(result.market_cap);
-    const baseYear = obj(result.base_year);
-    return {
-      company_id: company.id,
-      ticker,
-      name: str(result.name) ?? company.name,
-      sector: str(result.sector),
-      fiscal_year_end: str(result.fiscal_year_end),
-      market_cap_inr: num(marketCap.value),
-      market_cap_as_of: str(marketCap.asOf),
-      base_year: str(baseYear.label),
-      base_revenue_inr: num(baseYear.revenue),
-      fy1_base: num(fy1.base),
-      fy1_bear: num(fy1.bear),
-      fy1_bull: num(fy1.bull),
-      fy2_base: num(fy2.base),
-      fy2_bear: num(fy2.bear),
-      fy2_bull: num(fy2.bull),
-      fy3_base: num(fy3.base),
-      fy3_bear: num(fy3.bear),
-      fy3_bull: num(fy3.bull),
-      cagr_base: num(cagr.base),
-      cagr_bear: num(cagr.bear),
-      cagr_bull: num(cagr.bull),
-      method: str(result.method) ?? "UNKNOWN",
-      confidence: str(result.confidence),
-      valuation: result.valuation ?? {},
-      quality: result.quality ?? {},
-      scores: result.scores ?? {},
-      consensus_check: result.consensus ?? {},
-      evidence: result.evidence ?? [],
-      assumptions: arr(result.assumptions),
-      risks: arr(result.risks),
-      historical_reference: result.historical_reference ?? [],
-      segment_context: result.segment_context ?? [],
-      generated_at: str(result.generated_at),
-    };
-  }).filter((row): row is NonNullable<typeof row> => row != null);
-  const written = await upsert("forward_estimates", rows, "company_id");
-  console.log(`[sync] forward estimates ${written}`);
-  return written;
-}
-
 async function main() {
   const { data: run, error: runError } = await supabase
     .from("ingestion_runs")
@@ -565,7 +465,6 @@ async function main() {
     const prices = await syncPrices(companies);
     const financials = await syncFinancials(companies);
     const consensus = await syncConsensus(companies);
-    const forward = await syncForwardEstimates(companies);
 
     await supabase.rpc("refresh_company_snapshots");
     await supabase.rpc("refresh_data_freshness");
@@ -574,7 +473,7 @@ async function main() {
       .update({
         status: "succeeded",
         finished_at: new Date().toISOString(),
-        rows_written: prices + financials + consensus + forward,
+        rows_written: prices + financials + consensus,
       })
       .eq("id", run.id);
     console.log("[sync] done");

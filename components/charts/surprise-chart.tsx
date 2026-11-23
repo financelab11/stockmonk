@@ -25,7 +25,7 @@ export default function SurpriseChart({
   points: SurprisePoint[];
   currency?: string;
 }) {
-  const prefix = currency === "INR" ? "₹" : "$";
+  const prefix = currency === "USD" ? "$" : `${currency} `;
   const data = points.filter((point) => point.actual != null || point.estimate != null);
   if (!data.length) {
     return <p className="p-4 text-[12px] text-white/50">No EPS surprise history available.</p>;

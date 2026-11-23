@@ -1,5 +1,5 @@
 /**
- * Refreshes the data-driven sections of hand-written research reports.
+ * Refreshes the data-driven sections of hand-written US research reports.
  *
  * Keeps the bespoke parts of each story (title, dek, business description,
  * economics, risks, bottom line) and regenerates the sections that are built
@@ -15,48 +15,37 @@
 import fs from "node:fs";
 import path from "node:path";
 import { STOCK_STORIES } from "../content/stocks";
-import { INDIA_STOCK_STORIES } from "../content/india-stocks";
-import { GCC_STORIES } from "../content/gcc-stories";
 import type { StockStory } from "../content/stocks/types";
-import { buildFullFactorScores, computeCagr, latestQuarterYoY, rangePosition } from "../lib/analytics";
+import {
+  buildFullFactorScores,
+  computeCagr,
+  latestQuarterYoY,
+  rangePosition,
+} from "../lib/analytics";
 import { generateStockStory } from "../lib/generated-story";
 import type { ResearchBundle } from "../lib/data";
-import { consensusSchema, segmentMixSchema, tickerDataSchema, type TickerData } from "../lib/schemas";
+import {
+  consensusSchema,
+  segmentMixSchema,
+  tickerDataSchema,
+  type TickerData,
+} from "../lib/schemas";
 
-type Market = "US" | "IN" | "GCC";
-
-const ROOTS: Record<Market, { processed: string; consensus: string; segments: string; prices: string }> = {
-  US: {
-    processed: "data/processed",
-    consensus: "data/consensus",
-    segments: "data/segments",
-    prices: "public/data/prices",
-  },
-  IN: {
-    processed: "data/india/processed",
-    consensus: "data/india/consensus",
-    segments: "data/india/segments",
-    prices: "public/data/india/prices",
-  },
-  GCC: {
-    processed: "data/gcc/processed",
-    consensus: "data/gcc/consensus",
-    segments: "data/gcc/segments",
-    prices: "public/data/gcc/prices",
-  },
+const ROOTS = {
+  processed: "data/processed",
+  consensus: "data/consensus",
+  segments: "data/segments",
+  prices: "public/data/prices",
 };
+const CONTENT = "content/stocks";
 
-const CONTENT: Record<Market, string> = {
-  US: "content/stocks",
-  IN: "content/india-stocks",
-  GCC: "content/gcc-stories",
-};
-
-const args = new Set(process.argv.slice(2));
 const ALL = process.argv.includes("--all");
 const DRY = process.argv.includes("--dry");
 const FORCE = process.argv.includes("--force");
-const ONLY = process.argv.find((arg) => arg.startsWith("--only="))?.split("=")[1]?.toUpperCase();
+const ONLY = process.argv
+  .find((arg) => arg.startsWith("--only="))
+  ?.split("=")[1]
+  ?.toUpperCase();
 
 function readJson<T>(file: string): T | null {
   try {
@@ -89,18 +78,36 @@ function storyQuarterScore(story: StockStory): number | null {
   return scores.length ? Math.max(...scores) : null;
 }
 
-function buildBundle(ticker: string, market: Market, companies: TickerData[]): ResearchBundle | null {
-  const root = ROOTS[market];
-  const data = readJson<unknown>(path.join(root.processed, ticker, "data.json"));
+function buildBundle(
+  ticker: string,
+  companies: TickerData[],
+): ResearchBundle | null {
+  const data = readJson<unknown>(
+    path.join(ROOTS.processed, ticker, "data.json"),
+  );
   const parsed = tickerDataSchema.safeParse(data);
   if (!parsed.success) return null;
-  const consensusRaw = readJson<unknown>(path.join(root.consensus, `${ticker}.json`));
-  const consensus = consensusRaw ? consensusSchema.safeParse(consensusRaw) : null;
-  const segments = readJson<unknown>(path.join(root.segments, `${ticker}.json`));
+  const consensusRaw = readJson<unknown>(
+    path.join(ROOTS.consensus, `${ticker}.json`),
+  );
+  const consensus = consensusRaw
+    ? consensusSchema.safeParse(consensusRaw)
+    : null;
+  const segments = readJson<unknown>(
+    path.join(ROOTS.segments, `${ticker}.json`),
+  );
   const segmentParsed = segments ? segmentMixSchema.safeParse(segments) : null;
-  const prices = readJson<Array<{ t: number; o: number; h: number; l: number; c: number; v: number }>>(
-    path.join(root.prices, ticker, "MAX.json"),
-  ) ?? [];
+  const prices =
+    readJson<
+      Array<{
+        t: number;
+        o: number;
+        h: number;
+        l: number;
+        c: number;
+        v: number;
+      }>
+    >(path.join(ROOTS.prices, ticker, "MAX.json")) ?? [];
   const final = parsed.data;
 
   return {
@@ -127,12 +134,13 @@ function buildBundle(ticker: string, market: Market, companies: TickerData[]): R
   } as ResearchBundle;
 }
 
-function loadCompanies(market: Market): TickerData[] {
-  const dir = ROOTS[market].processed;
-  if (!fs.existsSync(dir)) return [];
+function loadCompanies(): TickerData[] {
+  if (!fs.existsSync(ROOTS.processed)) return [];
   const companies: TickerData[] = [];
-  for (const ticker of fs.readdirSync(dir)) {
-    const raw = readJson<unknown>(path.join(dir, ticker, "data.json"));
+  for (const ticker of fs.readdirSync(ROOTS.processed)) {
+    const raw = readJson<unknown>(
+      path.join(ROOTS.processed, ticker, "data.json"),
+    );
     const parsed = raw ? tickerDataSchema.safeParse(raw) : null;
     if (parsed?.success) companies.push(parsed.data);
   }
@@ -146,7 +154,11 @@ function explicitPrice(text: string): number | null {
   return Number.isFinite(value) ? value : null;
 }
 
-import { formatCompactCurrency, formatMultiple, formatPercent } from "../lib/format";
+import {
+  formatCompactCurrency,
+  formatMultiple,
+  formatPercent,
+} from "../lib/format";
 
 function wordCount(paragraphs: string[]): number {
   return paragraphs.join(" ").split(/\s+/).filter(Boolean).length;
@@ -161,19 +173,25 @@ function refreshStory(story: StockStory, bundle: ResearchBundle): StockStory {
   const generated = generateStockStory(bundle);
   const data = bundle.data;
   const currency = data.currency ?? "USD";
-  const money = (value: number | null | undefined) => formatCompactCurrency(value, currency);
+  const money = (value: number | null | undefined) =>
+    formatCompactCurrency(value, currency);
   const latest = [...data.quarterly]
     .filter((row) => !row.ttm)
     .sort((a, b) => (a.reportDate ?? "").localeCompare(b.reportDate ?? ""))
     .at(-1);
-  const quarterLabel = latest ? `${latest.period} FY${String(latest.fyear).slice(-2)}` : "the latest period";
+  const quarterLabel = latest
+    ? `${latest.period} FY${String(latest.fyear).slice(-2)}`
+    : "the latest period";
   const consensus = bundle.consensus;
 
   return {
     ...story,
     filingUrl: data.latest10KUrl ?? story.filingUrl,
     takeaways: generated.takeaways,
-    bigPicture: { ...story.bigPicture, paragraphs: generated.bigPicture.paragraphs },
+    bigPicture: {
+      ...story.bigPicture,
+      paragraphs: generated.bigPicture.paragraphs,
+    },
     growth: {
       ...story.growth,
       paragraphs: ensureLength(
@@ -219,7 +237,8 @@ function serialize(file: string, story: StockStory): string {
   const exportMatch = /export const (\w+)\s*:\s*StockStory/.exec(current);
   const exportName = exportMatch?.[1] ?? "STORY";
   const typeImport =
-    /import type \{ StockStory \} from "([^"]+)"/.exec(current)?.[1] ?? "./types";
+    /import type \{ StockStory \} from "([^"]+)"/.exec(current)?.[1] ??
+    "./types";
   return `import type { StockStory } from "${typeImport}";\n\nexport const ${exportName}: StockStory = ${JSON.stringify(
     story,
     null,
@@ -230,63 +249,62 @@ function serialize(file: string, story: StockStory): string {
 let written = 0;
 let skipped = 0;
 
-for (const market of ["US", "IN", "GCC"] as const) {
-  const stories: Record<string, StockStory> =
-    market === "US" ? STOCK_STORIES : market === "IN" ? INDIA_STOCK_STORIES : GCC_STORIES;
-  const companies = loadCompanies(market);
+const companies = loadCompanies();
 
-  for (const [ticker, story] of Object.entries(stories)) {
-    if (ONLY && ticker !== ONLY) continue;
-    if (story.narrativeSource === "handwritten" && !ONLY && !FORCE) {
-      skipped += 1;
-      continue;
-    }
-    const dataQuarter = latestQuarterScore(
-      tickerDataSchema.parse(readJson(path.join(ROOTS[market].processed, ticker, "data.json"))),
-    );
-    const storyQuarter = storyQuarterScore(story);
-    const dataFile = tickerDataSchema.parse(
-      readJson(path.join(ROOTS[market].processed, ticker, "data.json")),
-    );
-    const storyPrice = explicitPrice(JSON.stringify(story));
-    const priceStale =
-      storyPrice != null &&
-      dataFile.latestPrice.close != null &&
-      Math.abs(storyPrice - dataFile.latestPrice.close) / dataFile.latestPrice.close > 0.005;
-    const stale =
-      ALL ||
-      market === "GCC" ||
-      storyQuarter == null ||
-      priceStale ||
-      (dataQuarter != null && storyQuarter < dataQuarter);
-    if (!stale) {
-      skipped += 1;
-      continue;
-    }
-
-    const bundle = buildBundle(ticker, market, companies);
-    if (!bundle) {
-      console.warn(`[stories] ${market} ${ticker}: no usable dataset`);
-      continue;
-    }
-    const refreshed = refreshStory(story, bundle);
-    const file = path.join(CONTENT[market], `${ticker}.ts`);
-    if (ONLY) {
-      console.log(JSON.stringify(refreshed, null, 2).slice(0, 4000));
-      break;
-    }
-    const next = serialize(file, refreshed);
-    const current = fs.readFileSync(file, "utf8");
-    if (next === current) {
-      skipped += 1;
-      continue;
-    }
-    if (!DRY) {
-      fs.writeFileSync(file, next, "utf8");
-    }
-    written += 1;
-    if (written % 25 === 0) console.log(`[stories] refreshed ${written}`);
+for (const [ticker, story] of Object.entries(STOCK_STORIES)) {
+  if (ONLY && ticker !== ONLY) continue;
+  if (story.narrativeSource === "handwritten" && !ONLY && !FORCE) {
+    skipped += 1;
+    continue;
   }
+  const dataQuarter = latestQuarterScore(
+    tickerDataSchema.parse(
+      readJson(path.join(ROOTS.processed, ticker, "data.json")),
+    ),
+  );
+  const storyQuarter = storyQuarterScore(story);
+  const dataFile = tickerDataSchema.parse(
+    readJson(path.join(ROOTS.processed, ticker, "data.json")),
+  );
+  const storyPrice = explicitPrice(JSON.stringify(story));
+  const priceStale =
+    storyPrice != null &&
+    dataFile.latestPrice.close != null &&
+    Math.abs(storyPrice - dataFile.latestPrice.close) /
+      dataFile.latestPrice.close >
+      0.005;
+  const stale =
+    ALL ||
+    storyQuarter == null ||
+    priceStale ||
+    (dataQuarter != null && storyQuarter < dataQuarter);
+  if (!stale) {
+    skipped += 1;
+    continue;
+  }
+
+  const bundle = buildBundle(ticker, companies);
+  if (!bundle) {
+    console.warn(`[stories] ${ticker}: no usable dataset`);
+    continue;
+  }
+  const refreshed = refreshStory(story, bundle);
+  const file = path.join(CONTENT, `${ticker}.ts`);
+  if (ONLY) {
+    console.log(JSON.stringify(refreshed, null, 2).slice(0, 4000));
+    break;
+  }
+  const next = serialize(file, refreshed);
+  const current = fs.readFileSync(file, "utf8");
+  if (next === current) {
+    skipped += 1;
+    continue;
+  }
+  if (!DRY) {
+    fs.writeFileSync(file, next, "utf8");
+  }
+  written += 1;
+  if (written % 25 === 0) console.log(`[stories] refreshed ${written}`);
 }
 
 console.log(

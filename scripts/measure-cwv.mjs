@@ -1,7 +1,7 @@
 import { chromium } from "@playwright/test";
 import fs from "node:fs";
 
-const url = process.argv[2] ?? "https://stockmonk.vercel.app/india/companies/TIPSMUSIC";
+const url = process.argv[2] ?? "https://stockmonk.vercel.app/stocks/NVDA";
 const label = process.argv[3] ?? "before";
 const mobile = process.argv[4] !== "desktop";
 const iterations = Number(process.argv[5] ?? "5");

@@ -1,8 +1,6 @@
 import { PEER_BASIS, peersFor } from "@/config/peers";
 import { getCoverageGroup } from "@/config/coverage";
-import { getIndiaCoverageGroup } from "@/config/india-coverage";
 import { getConsensus, getTicker, type ResearchBundle } from "./data";
-import { getIndiaConsensus, getIndiaTicker } from "./india-data";
 import { formatDate, formatFiscalQuarter } from "./format";
 import type { Consensus, FinancialRow, RangePricePoint } from "./schemas";
 import type { StockStory } from "@/content/stocks/types";
@@ -21,36 +19,29 @@ export function buildArticleSources(
   bundle: ResearchBundle,
 ): ArticleSource[] {
   const { data, segments } = bundle;
-  const isIndia = data.market === "IN";
   const cik = data.cik?.padStart(10, "0");
-  const filingHistory = isIndia
-    ? `https://www.nseindia.com/companies-listing/corporate-filings-announcements?symbol=${data.ticker}`
-    : cik
-      ? `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${cik}&type=10-K&dateb=&owner=include&count=40`
-      : "https://www.sec.gov/edgar/search/";
+  const filingHistory = cik
+    ? `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${cik}&type=10-K&dateb=&owner=include&count=40`
+    : "https://www.sec.gov/edgar/search/";
 
   const candidates: Array<Omit<ArticleSource, "id">> = [
     {
-      name: isIndia
-        ? `${data.name} annual report`
-        : `${data.name} annual report (Form 10-K)`,
-      publisher: isIndia ? "NSE / BSE" : "SEC EDGAR",
+      name: `${data.name} annual report (Form 10-K)`,
+      publisher: "SEC EDGAR",
       url: story.filingUrl,
       date: segments?.source.date ?? data.updatedAt.slice(0, 10),
-      note: isIndia
-        ? "Annual report, business description and risk factors."
-        : "Business description, segment mix and risk factors.",
+      note: "Business description, segment mix and risk factors.",
     },
     {
-      name: isIndia ? "NSE corporate filings" : "SEC EDGAR filing history",
-      publisher: isIndia ? "NSE / BSE" : "SEC EDGAR",
+      name: "SEC EDGAR filing history",
+      publisher: "SEC EDGAR",
       url: filingHistory,
       date: data.latestPrice.asOf,
       note: "Annual and quarterly filings behind the financial statements.",
     },
     {
       name: `${data.name} company filings and investor materials`,
-      publisher: isIndia ? "Company" : "Company / SEC",
+      publisher: "Company / SEC",
       url: story.irUrl,
       date: "n/a",
       note: "Company releases, presentations and filing history.",
@@ -74,7 +65,9 @@ export function buildArticleSources(
   return unique.map((source, index) => ({ ...source, id: index + 1 }));
 }
 
-export function latestQuarter(data: ResearchBundle["data"]): FinancialRow | null {
+export function latestQuarter(
+  data: ResearchBundle["data"],
+): FinancialRow | null {
   return data.quarterly.filter((row) => !row.ttm).at(-1) ?? null;
 }
 
@@ -95,13 +88,9 @@ export type PeerRow = {
   fcfYield: number | null;
 };
 
-function consensusNtmPe(
-  ticker: string,
-  price: number | null,
-  market: "US" | "IN",
-): number | null {
+function consensusNtmPe(ticker: string, price: number | null): number | null {
   if (!price) return null;
-  const consensus = market === "IN" ? getIndiaConsensus(ticker) : getConsensus(ticker);
+  const consensus = getConsensus(ticker);
   if (!consensus) return null;
   const estimate =
     consensus.estimates.find((item) => item.period === "Current fiscal year") ??
@@ -115,11 +104,8 @@ export function buildPeerRows(bundle: ResearchBundle): {
   basis: string;
 } {
   const subject = bundle.data;
-  const isIndia = subject.market === "IN";
-  const group = isIndia
-    ? getIndiaCoverageGroup(subject.ticker)
-    : getCoverageGroup(subject.ticker);
-  const configured = isIndia ? [] : peersFor(subject.ticker);
+  const group = getCoverageGroup(subject.ticker);
+  const configured = peersFor(subject.ticker);
   const peers = (
     configured.length
       ? configured
@@ -129,12 +115,7 @@ export function buildPeerRows(bundle: ResearchBundle): {
 
   const rows = tickers
     .map((ticker) => {
-      const data =
-        ticker === subject.ticker
-          ? subject
-          : isIndia
-            ? getIndiaTicker(ticker)
-            : getTicker(ticker);
+      const data = ticker === subject.ticker ? subject : getTicker(ticker);
       if (!data) return null;
       return {
         ticker: data.ticker,
@@ -147,7 +128,7 @@ export function buildPeerRows(bundle: ResearchBundle): {
         roic: data.metrics.roic,
         netDebtToEbitda: data.metrics.netDebtToEbitda,
         pe: data.metrics.pe,
-        peNtm: consensusNtmPe(data.ticker, data.latestPrice.close, isIndia ? "IN" : "US"),
+        peNtm: consensusNtmPe(data.ticker, data.latestPrice.close),
         evEbitda: data.metrics.evEbitda,
         evSales: data.metrics.evSales,
         fcfYield: data.metrics.fcfYield,
@@ -157,12 +138,11 @@ export function buildPeerRows(bundle: ResearchBundle): {
 
   return {
     rows,
-    basis: isIndia
-      ? `${group?.name ?? "India"} companies in the India coverage universe`
-      : PEER_BASIS[subject.ticker] ??
-        (group
-          ? `${group.name} companies in the coverage universe`
-          : "Companies with similar business characteristics in the coverage universe"),
+    basis:
+      PEER_BASIS[subject.ticker] ??
+      (group
+        ? `${group.name} companies in the coverage universe`
+        : "Companies with similar business characteristics in the coverage universe"),
   };
 }
 
@@ -173,20 +153,29 @@ export function median(values: Array<number | null>): number | null {
   if (!present.length) return null;
   const sorted = [...present].sort((a, b) => a - b);
   const mid = Math.floor(sorted.length / 2);
-  return sorted.length % 2 === 0 ? (sorted[mid - 1] + sorted[mid]) / 2 : sorted[mid];
+  return sorted.length % 2 === 0
+    ? (sorted[mid - 1] + sorted[mid]) / 2
+    : sorted[mid];
 }
 
 export function peerMedian(
   rows: PeerRow[],
   key: keyof Pick<
     PeerRow,
-    "revenueGrowth" | "grossMargin" | "operatingMargin" | "roic" | "evEbitda" | "pe"
+    | "revenueGrowth"
+    | "grossMargin"
+    | "operatingMargin"
+    | "roic"
+    | "evEbitda"
+    | "pe"
   >,
 ): number | null {
   return median(rows.filter((row) => !row.isSubject).map((row) => row[key]));
 }
 
-export function buildDrawdown(points: RangePricePoint[]): Array<{ label: string; value: number }> {
+export function buildDrawdown(
+  points: RangePricePoint[],
+): Array<{ label: string; value: number }> {
   let peak = 0;
   const series: Array<{ label: string; value: number }> = [];
   for (const point of points) {
@@ -253,10 +242,14 @@ export function valuationRange(bundle: ResearchBundle) {
   const history = bundle.data.multipleHistory;
   const pe = history
     .map((row) => row.pe)
-    .filter((value): value is number => value != null && Number.isFinite(value));
+    .filter(
+      (value): value is number => value != null && Number.isFinite(value),
+    );
   const ev = history
     .map((row) => row.evEbitda)
-    .filter((value): value is number => value != null && Number.isFinite(value));
+    .filter(
+      (value): value is number => value != null && Number.isFinite(value),
+    );
   return {
     pe: summarize(pe),
     evEbitda: summarize(ev),
@@ -270,10 +263,10 @@ function summarize(values: number[]) {
   return {
     min: sorted[0],
     median:
-      sorted.length % 2 === 0 ? (sorted[mid - 1] + sorted[mid]) / 2 : sorted[mid],
+      sorted.length % 2 === 0
+        ? (sorted[mid - 1] + sorted[mid]) / 2
+        : sorted[mid],
     max: sorted[sorted.length - 1],
     current: values[values.length - 1],
   };
 }
-
-

@@ -8,7 +8,11 @@ import fs from "node:fs";
 import path from "node:path";
 import { COVERAGE_GROUPS, getCoverageGroup } from "../config/coverage";
 import { RESEARCH_TICKERS } from "../config/universe";
-import { consensusSchema, segmentMixSchema, tickerDataSchema } from "../lib/schemas";
+import {
+  consensusSchema,
+  segmentMixSchema,
+  tickerDataSchema,
+} from "../lib/schemas";
 
 const OUT = path.join(process.cwd(), "data", "raw", "story-briefs");
 const PROCESSED = path.join(process.cwd(), "data", "processed");
@@ -38,10 +42,13 @@ const multiple = (value: number | null | undefined) =>
 
 function main() {
   fs.mkdirSync(OUT, { recursive: true });
-  const universe = readJson<Array<Record<string, unknown>>>(
-    path.join(process.cwd(), "public", "data", "stocks.json"),
-  ) ?? [];
-  const byTicker = new Map(universe.map((entry) => [String(entry.ticker), entry]));
+  const universe =
+    readJson<Array<Record<string, unknown>>>(
+      path.join(process.cwd(), "public", "data", "stocks.json"),
+    ) ?? [];
+  const byTicker = new Map(
+    universe.map((entry) => [String(entry.ticker), entry]),
+  );
 
   for (const ticker of RESEARCH_TICKERS) {
     const data = tickerDataSchema.parse(
@@ -79,7 +86,8 @@ function main() {
       ? [
           `Segment basis: ${segments.data.segmentLabel} (as of ${segments.data.asOf})`,
           ...segments.data.segments.map(
-            (slice) => `- ${slice.name}: ${money(slice.revenue)} (${pct(slice.share)})`,
+            (slice) =>
+              `- ${slice.name}: ${money(slice.revenue)} (${pct(slice.share)})`,
           ),
           ...(segments.data.geography.length
             ? [
@@ -96,15 +104,21 @@ function main() {
       ? [
           `Target mean: ${consensus.data.targetMean == null ? "n/a" : `$${consensus.data.targetMean.toFixed(2)}`}`,
           `Target range: ${
-            consensus.data.targetLow == null ? "n/a" : `$${consensus.data.targetLow.toFixed(2)}`
+            consensus.data.targetLow == null
+              ? "n/a"
+              : `$${consensus.data.targetLow.toFixed(2)}`
           } to ${
-            consensus.data.targetHigh == null ? "n/a" : `$${consensus.data.targetHigh.toFixed(2)}`
+            consensus.data.targetHigh == null
+              ? "n/a"
+              : `$${consensus.data.targetHigh.toFixed(2)}`
           }`,
           `Analysts: ${consensus.data.analystCount ?? "n/a"}`,
           ...consensus.data.estimates.map(
             (estimate) =>
               `- ${estimate.period}: revenue ${money(estimate.revenueAvg)}, EPS ${
-                estimate.epsAvg == null ? "n/a" : `$${estimate.epsAvg.toFixed(2)}`
+                estimate.epsAvg == null
+                  ? "n/a"
+                  : `$${estimate.epsAvg.toFixed(2)}`
               }, analysts ${estimate.analystCount ?? "n/a"}`,
           ),
         ]

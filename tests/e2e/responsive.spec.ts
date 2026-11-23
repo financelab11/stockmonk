@@ -2,7 +2,15 @@ import { expect, test } from "@playwright/test";
 
 test.describe("responsive layout", () => {
   test("no horizontal page overflow on key routes", async ({ page }) => {
-    for (const route of ["/", "/discover", "/discover/all-stocks", "/framework", "/stocks/NVDA", "/watchlist", "/gcc", "/gcc/all-stocks", "/gcc/stocks/2222"]) {
+    for (const route of [
+      "/",
+      "/discover",
+      "/discover/all-stocks",
+      "/framework",
+      "/stocks/NVDA",
+      "/watchlist",
+      "/screener",
+    ]) {
       await page.goto(route, { waitUntil: "networkidle" });
       const overflow = await page.evaluate(
         () => document.documentElement.scrollWidth - window.innerWidth,
@@ -30,6 +38,8 @@ test.describe("responsive layout", () => {
     await page.goto("/stocks/NVDA", { waitUntil: "networkidle" });
     await expect(page.getByText("Jump to section").first()).toBeVisible();
     await page.getByText("Jump to section").first().click();
-    await expect(page.getByRole("link", { name: /Risks and what to watch/i }).first()).toBeVisible();
+    await expect(
+      page.getByRole("link", { name: /Risks and what to watch/i }).first(),
+    ).toBeVisible();
   });
 });

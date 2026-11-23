@@ -47,11 +47,8 @@ export function MobileNav() {
             </p>
             <div className="grid grid-cols-2 gap-1.5">
               {[
-                { href: "/india", label: "India stocks" },
-                { href: "/gcc", label: "GCC stocks" },
-                { href: "/tools/growth-ranker", label: "Growth ranker" },
+                { href: "/watchlist", label: "Watchlist" },
                 { href: "/discover/all-stocks", label: "All US stocks" },
-                { href: "/india/all-stocks", label: "All India stocks" },
                 { href: "/framework", label: "Methodology" },
                 { href: "/about", label: "About" },
                 { href: "/editorial-guidelines", label: "Guidelines" },

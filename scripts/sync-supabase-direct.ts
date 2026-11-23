@@ -6,7 +6,6 @@ import { config as loadEnv } from "dotenv";
 import fs from "node:fs";
 import path from "node:path";
 import { Client } from "pg";
-import { getGccEntry } from "../config/gcc-coverage";
 loadEnv({ path: ".env.local" });
 loadEnv();
 
@@ -34,22 +33,6 @@ const MARKETS = [
     consensus: "data/consensus",
     prices: "public/data/prices",
     segments: "data/segments",
-  },
-  {
-    code: "IN",
-    stockFile: "public/data/india/stocks.json",
-    processed: "data/india/processed",
-    consensus: "data/india/consensus",
-    prices: "public/data/india/prices",
-    segments: null,
-  },
-  {
-    code: "GCC",
-    stockFile: "public/data/gcc/stocks.json",
-    processed: "data/gcc/processed",
-    consensus: "data/gcc/consensus",
-    prices: "public/data/gcc/prices",
-    segments: null,
   },
 ] as const;
 
@@ -84,7 +67,6 @@ const obj = (value: unknown): Json =>
     ? (value as Json)
     : {};
 
-
 async function upsert(
   client: Client,
   table: string,
@@ -96,13 +78,20 @@ async function upsert(
   const conflictColumns = conflict.split(",");
   const deduped = new Map<string, Json>();
   for (const row of inputRows) {
-    const key = conflictColumns.map((column) => String(row[column] ?? "")).join("|");
+    const key = conflictColumns
+      .map((column) => String(row[column] ?? ""))
+      .join("|");
     deduped.set(key, row);
   }
   const rows = [...deduped.values()];
   const columns = Object.keys(rows[0]);
   const updates = columns
-    .filter((column) => !conflictColumns.includes(column) && column !== "id" && column !== "created_at")
+    .filter(
+      (column) =>
+        !conflictColumns.includes(column) &&
+        column !== "id" &&
+        column !== "created_at",
+    )
     .map((column) => `${column} = excluded.${column}`)
     .join(", ");
   let written = 0;
@@ -153,9 +142,9 @@ async function main() {
     const companies: Json[] = [];
     const companyKeys = new Set<string>();
     for (const market of MARKETS) {
-      const entries = readJson<UniverseEntry[]>(path.join(ROOT, market.stockFile)) ?? [];
+      const entries =
+        readJson<UniverseEntry[]>(path.join(ROOT, market.stockFile)) ?? [];
       for (const entry of entries) {
-        const gcc = market.code === "GCC" ? getGccEntry(entry.ticker) : null;
         companyKeys.add(`${market.code}:${entry.ticker}`);
         companies.push({
           market: market.code,
@@ -165,94 +154,81 @@ async function main() {
           sector: entry.sector,
           industry: entry.industry,
           currency: entry.currency ?? "USD",
-          quote_currency: gcc
-            ? gcc.market === "AE"
-              ? "AED"
-              : gcc.market === "SA"
-                ? "SAR"
-                : gcc.market === "QA"
-                  ? "QAR"
-                  : gcc.market === "KW"
-                    ? "KWD"
-                    : gcc.market === "OM"
-                      ? "OMR"
-                      : "BHD"
-            : entry.currency,
-          exchange: gcc?.exchange ?? (market.code === "IN" ? "NSE" : "US"),
+          quote_currency: entry.currency,
+          exchange: "US",
           is_research: entry.isResearch,
           is_active: true,
-          metadata: { as_of: entry.asOf, price: entry.price, market_cap: entry.marketCap },
+          metadata: {
+            as_of: entry.asOf,
+            price: entry.price,
+            market_cap: entry.marketCap,
+          },
         });
       }
     }
 
-    const forwardDataset = readJson<Json>("data/growth-ranker/estimates.json");
-    for (const item of arr(forwardDataset?.results)) {
-      const result = obj(item);
-      const ticker = str(result.ticker);
-      if (!ticker || companyKeys.has(`IN:${ticker}`)) continue;
-      companyKeys.add(`IN:${ticker}`);
-      companies.push({
-        market: "IN",
-        ticker,
-        name: str(result.name) ?? ticker,
-        description: "",
-        sector: str(result.sector) ?? "India",
-        industry: str(result.sector) ?? "India",
-        currency: "INR",
-        quote_currency: "INR",
-        exchange: "NSE",
-        is_research: false,
-        is_active: true,
-        metadata: { source: "forward-growth dataset" },
-      });
-    }
+    console.log(
+      "[db-sync] companies",
+      await upsert(client, "companies", companies, "market,ticker"),
+    );
 
-    console.log("[db-sync] companies", await upsert(client, "companies", companies, "market,ticker"));
-
-    const companyRows = await client.query("select id, market, ticker from public.companies");
+    const companyRows = await client.query(
+      "select id, market, ticker from public.companies",
+    );
     const companyMap = new Map<string, string>(
-      companyRows.rows.map((row) => [`${row.market}:${row.ticker}`, row.id as string]),
+      companyRows.rows.map((row) => [
+        `${row.market}:${row.ticker}`,
+        row.id as string,
+      ]),
     );
 
     let priceCount = 0;
     if (process.env.SKIP_PRICES === "1") {
-      const existing = await client.query("select count(*)::int as count from public.prices_daily");
+      const existing = await client.query(
+        "select count(*)::int as count from public.prices_daily",
+      );
       priceCount = existing.rows[0].count as number;
       console.log("[db-sync] prices already present", priceCount);
     } else {
       for (const market of MARKETS) {
-      const entries = readJson<UniverseEntry[]>(path.join(ROOT, market.stockFile)) ?? [];
-      for (const entry of entries) {
-        const companyId = companyMap.get(`${market.code}:${entry.ticker}`);
-        if (!companyId) continue;
-        const points =
-          readJson<Array<Record<string, number>>>(
-            path.join(ROOT, market.prices, entry.ticker, "MAX.json"),
-          ) ?? [];
-        const rows = points
-          .map((point, index) => ({
-            company_id: companyId,
-            price_date:
-              point.t && Number.isFinite(point.t)
-                ? new Date(point.t * 1000).toISOString().slice(0, 10)
-                : null,
-            close: num(point.c),
-            open: num(point.o),
-            high: num(point.h),
-            low: num(point.l),
-            volume: num(point.v),
-            currency: entry.currency,
-            source: "Stockmonk price history",
-            market_cap: index === points.length - 1 ? entry.marketCap : null,
-          }))
-          .filter((row) => row.price_date && row.close != null);
-        priceCount += await upsert(client, "prices_daily", rows, "company_id,price_date", 800);
-        if (priceCount % 100000 < 800) {
-          console.log("[db-sync] prices", priceCount);
+        const entries =
+          readJson<UniverseEntry[]>(path.join(ROOT, market.stockFile)) ?? [];
+        for (const entry of entries) {
+          const companyId = companyMap.get(`${market.code}:${entry.ticker}`);
+          if (!companyId) continue;
+          const points =
+            readJson<Array<Record<string, number>>>(
+              path.join(ROOT, market.prices, entry.ticker, "MAX.json"),
+            ) ?? [];
+          const rows = points
+            .map((point, index) => ({
+              company_id: companyId,
+              price_date:
+                point.t && Number.isFinite(point.t)
+                  ? new Date(point.t * 1000).toISOString().slice(0, 10)
+                  : null,
+              close: num(point.c),
+              open: num(point.o),
+              high: num(point.h),
+              low: num(point.l),
+              volume: num(point.v),
+              currency: entry.currency,
+              source: "Stockmonk price history",
+              market_cap: index === points.length - 1 ? entry.marketCap : null,
+            }))
+            .filter((row) => row.price_date && row.close != null);
+          priceCount += await upsert(
+            client,
+            "prices_daily",
+            rows,
+            "company_id,price_date",
+            800,
+          );
+          if (priceCount % 100000 < 800) {
+            console.log("[db-sync] prices", priceCount);
+          }
         }
       }
-    }
     }
     console.log("[db-sync] prices", priceCount);
 
@@ -308,9 +284,15 @@ async function main() {
           source: "Stockmonk processed dataset",
         });
         const rows = [
-          ...annual.filter((row) => row.reportDate).map((row) => toRow(row, "annual")),
-          ...quarterly.filter((row) => row.reportDate).map((row) => toRow(row, "quarterly")),
-          ...(ttm ? [{ ...toRow(ttm, "ttm"), fiscal_year: 0, period: "TTM" }] : []),
+          ...annual
+            .filter((row) => row.reportDate)
+            .map((row) => toRow(row, "annual")),
+          ...quarterly
+            .filter((row) => row.reportDate)
+            .map((row) => toRow(row, "quarterly")),
+          ...(ttm
+            ? [{ ...toRow(ttm, "ttm"), fiscal_year: 0, period: "TTM" }]
+            : []),
         ];
         financialCount += await upsert(
           client,
@@ -320,7 +302,8 @@ async function main() {
         );
 
         const metrics = obj(data.metrics);
-        const asOf = str(obj(data.latestPrice).asOf) ?? str(data.updatedAt)?.slice(0, 10);
+        const asOf =
+          str(obj(data.latestPrice).asOf) ?? str(data.updatedAt)?.slice(0, 10);
         if (asOf) {
           await upsert(
             client,
@@ -409,8 +392,12 @@ async function main() {
     for (const market of MARKETS) {
       const dir = path.join(ROOT, market.consensus);
       if (!fs.existsSync(dir)) continue;
-      for (const file of fs.readdirSync(dir).filter((name) => name.endsWith(".json"))) {
-        const companyId = companyMap.get(`${market.code}:${file.replace(/\.json$/, "")}`);
+      for (const file of fs
+        .readdirSync(dir)
+        .filter((name) => name.endsWith(".json"))) {
+        const companyId = companyMap.get(
+          `${market.code}:${file.replace(/\.json$/, "")}`,
+        );
         if (!companyId) continue;
         const record = readJson<Json>(path.join(dir, file));
         if (!record) continue;
@@ -467,66 +454,11 @@ async function main() {
     }
     console.log("[db-sync] consensus", consensusCount);
 
-    const dataset = readJson<Json>("data/growth-ranker/estimates.json");
-    const forwardRows = arr(dataset?.results)
-      .map((item) => {
-        const result = obj(item);
-        const companyId = companyMap.get(`IN:${str(result.ticker) ?? ""}`);
-        if (!companyId) return null;
-        const projections = obj(result.projections);
-        const fy1 = obj(projections.FY1);
-        const fy2 = obj(projections.FY2);
-        const fy3 = obj(projections.FY3);
-        const cagr = obj(result.cagr_3y);
-        const marketCap = obj(result.market_cap);
-        const baseYear = obj(result.base_year);
-        return {
-          company_id: companyId,
-          ticker: str(result.ticker) ?? "",
-          name: str(result.name) ?? "",
-          sector: str(result.sector),
-          fiscal_year_end: str(result.fiscal_year_end),
-          market_cap_inr: num(marketCap.value),
-          market_cap_as_of: str(marketCap.asOf),
-          base_year: str(baseYear.label),
-          base_revenue_inr: num(baseYear.revenue),
-          fy1_base: num(fy1.base),
-          fy1_bear: num(fy1.bear),
-          fy1_bull: num(fy1.bull),
-          fy2_base: num(fy2.base),
-          fy2_bear: num(fy2.bear),
-          fy2_bull: num(fy2.bull),
-          fy3_base: num(fy3.base),
-          fy3_bear: num(fy3.bear),
-          fy3_bull: num(fy3.bull),
-          cagr_base: num(cagr.base),
-          cagr_bear: num(cagr.bear),
-          cagr_bull: num(cagr.bull),
-          method: str(result.method) ?? "UNKNOWN",
-          confidence: str(result.confidence),
-          valuation: result.valuation ?? {},
-          quality: result.quality ?? {},
-          scores: result.scores ?? {},
-          consensus_check: result.consensus ?? {},
-          evidence: result.evidence ?? [],
-          assumptions: arr(result.assumptions),
-          risks: arr(result.risks),
-          historical_reference: result.historical_reference ?? [],
-          segment_context: result.segment_context ?? [],
-          generated_at: str(result.generated_at),
-        };
-      })
-      .filter((row): row is NonNullable<typeof row> => row != null);
-    console.log(
-      "[db-sync] forward estimates",
-      await upsert(client, "forward_estimates", forwardRows, "company_id"),
-    );
-
     await client.query("select public.refresh_company_snapshots()");
     await client.query("select public.refresh_data_freshness()");
     await client.query(
       "update public.ingestion_runs set status='succeeded', finished_at=now(), rows_written=$1 where id=$2",
-      [priceCount + financialCount + consensusCount + forwardRows.length, runId],
+      [priceCount + financialCount + consensusCount, runId],
     );
     console.log("[db-sync] done");
     await client.end();

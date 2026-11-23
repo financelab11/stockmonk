@@ -9,9 +9,11 @@ import path from "node:path";
 type UniverseEntry = { ticker: string; asOf?: string | null };
 
 const MARKETS = [
-  { code: "US", stocks: "public/data/stocks.json", consensus: "data/consensus" },
-  { code: "IN", stocks: "public/data/india/stocks.json", consensus: "data/india/consensus" },
-  { code: "GCC", stocks: "public/data/gcc/stocks.json", consensus: "data/gcc/consensus" },
+  {
+    code: "US",
+    stocks: "public/data/stocks.json",
+    consensus: "data/consensus",
+  },
 ];
 
 function readJson<T>(file: string): T | null {
@@ -69,18 +71,6 @@ for (const market of MARKETS) {
       );
     }
   }
-}
-
-const ranker = readJson<{ generatedAt?: string; results?: unknown[] }>(
-  "data/growth-ranker/estimates.json",
-);
-if (ranker) {
-  const stamped = ranker.generatedAt?.slice(0, 10);
-  console.log(
-    `forward ranker: ${ranker.results?.length ?? 0} names · ${stamped ?? "no date"}${
-      stamped ? ` · age ${daysBetween(stamped, today)}d` : ""
-    }`,
-  );
 }
 
 if (stale > 0) {

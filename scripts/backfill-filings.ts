@@ -28,7 +28,9 @@ async function main() {
     const dataFile = path.join(PROCESSED, ticker, "data.json");
     const data = await readJson<Record<string, unknown>>(dataFile);
     if (!data) continue;
-    const sec = await readJson<SecFile>(path.join(PROCESSED, ticker, "sec.json"));
+    const sec = await readJson<SecFile>(
+      path.join(PROCESSED, ticker, "sec.json"),
+    );
     const parsed = tickerDataSchema.parse({
       ...data,
       cik: data.cik ?? sec?.cik ?? null,

@@ -1,8 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-export type MarketKey = "US" | "IN" | "GCC";
-
 export function MarketIntro({
   eyebrow,
   title,

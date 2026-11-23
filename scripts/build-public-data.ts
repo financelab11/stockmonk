@@ -20,7 +20,10 @@ async function main() {
   for (const ticker of ALL_TICKERS) {
     if (ticker === BENCHMARK_TICKER) continue;
     try {
-      const raw = await fs.readFile(path.join(PROCESSED, ticker, "data.json"), "utf8");
+      const raw = await fs.readFile(
+        path.join(PROCESSED, ticker, "data.json"),
+        "utf8",
+      );
       const data = tickerDataSchema.parse(JSON.parse(raw));
       entries.push(
         universeEntrySchema.parse({
@@ -44,7 +47,9 @@ async function main() {
         }),
       );
     } catch (error) {
-      console.warn(`[build:data] skipping ${ticker}: ${(error as Error).message}`);
+      console.warn(
+        `[build:data] skipping ${ticker}: ${(error as Error).message}`,
+      );
     }
   }
 

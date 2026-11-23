@@ -19,7 +19,12 @@ const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 type Filings = {
   cik?: string;
   filings?: {
-    latest8K?: { accession: string; filed: string; reportDate: string; url: string };
+    latest8K?: {
+      accession: string;
+      filed: string;
+      reportDate: string;
+      url: string;
+    };
   };
 };
 
@@ -73,17 +78,25 @@ async function main() {
       const cik = String(Number(sec.cik));
       const accession = filing.accession.replace(/-/g, "");
       const indexUrl = `https://www.sec.gov/Archives/edgar/data/${cik}/${accession}/index.json`;
-      const index = JSON.parse(await fetchText(indexUrl)) as { directory?: { item?: IndexItem[] } };
+      const index = JSON.parse(await fetchText(indexUrl)) as {
+        directory?: { item?: IndexItem[] };
+      };
       const items = index.directory?.item ?? [];
       const candidates = items
         .filter((item) => /\.(htm|html)$/i.test(item.name))
         .filter(
           (item) =>
-            !/index|filingsummary|metallinks|^r\d+\.htm$|_lab|_pre|\.xsd/i.test(item.name),
+            !/index|filingsummary|metallinks|^r\d+\.htm$|_lab|_pre|\.xsd/i.test(
+              item.name,
+            ),
         )
         .map((item) => item.name);
-      const commentaryCandidate = candidates.find((name) => /commentary|cfo|call/i.test(name));
-      const releaseCandidates = candidates.filter((name) => name !== commentaryCandidate);
+      const commentaryCandidate = candidates.find((name) =>
+        /commentary|cfo|call/i.test(name),
+      );
+      const releaseCandidates = candidates.filter(
+        (name) => name !== commentaryCandidate,
+      );
 
       let best: { name: string; text: string; html: string } | null = null;
       for (const name of releaseCandidates.slice(0, 3)) {
@@ -91,7 +104,8 @@ async function main() {
         try {
           const html = await fetchText(candidateUrl);
           const text = stripHtml(html);
-          if (!best || text.length > best.text.length) best = { name, text, html };
+          if (!best || text.length > best.text.length)
+            best = { name, text, html };
         } catch {
           // try the next candidate
         }
@@ -109,14 +123,16 @@ async function main() {
         try {
           const html = await fetchText(commentaryUrl);
           const body = stripHtml(html).slice(0, 8000);
-          if (body.length > 400) cfoCommentary = { url: commentaryUrl, text: body };
+          if (body.length > 400)
+            cfoCommentary = { url: commentaryUrl, text: body };
         } catch {
           // commentary is optional
         }
         await sleep(DELAY_MS);
       }
       const title =
-        (best.html.match(/<title[^>]*>([^<]+)<\/title>/i)?.[1] ?? "").trim() || best.name;
+        (best.html.match(/<title[^>]*>([^<]+)<\/title>/i)?.[1] ?? "").trim() ||
+        best.name;
       await fs.writeFile(
         path.join(OUT, `${ticker}.json`),
         JSON.stringify(
@@ -138,7 +154,8 @@ async function main() {
         "utf8",
       );
       written += 1;
-      if (written % 20 === 0) console.log(`[earnings] ${written} releases stored`);
+      if (written % 20 === 0)
+        console.log(`[earnings] ${written} releases stored`);
     } catch (error) {
       skipped += 1;
       console.warn(

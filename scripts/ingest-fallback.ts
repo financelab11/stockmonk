@@ -83,8 +83,11 @@ function toFinancialRow(row: SecRow, period: string): FinancialRow {
     grossMargin:
       revenue && row.grossProfit != null ? row.grossProfit / revenue : null,
     operatingMargin:
-      revenue && row.operatingIncome != null ? row.operatingIncome / revenue : null,
-    netMargin: revenue && row.netIncome != null ? row.netIncome / revenue : null,
+      revenue && row.operatingIncome != null
+        ? row.operatingIncome / revenue
+        : null,
+    netMargin:
+      revenue && row.netIncome != null ? row.netIncome / revenue : null,
     fcfMargin:
       revenue && row.freeCashFlow != null ? row.freeCashFlow / revenue : null,
     roic: null,
@@ -96,7 +99,11 @@ function toFinancialRow(row: SecRow, period: string): FinancialRow {
 
 function twoSentences(text: string | undefined, fallback: string): string {
   if (!text) return fallback;
-  const sentences = text.match(/[^.!?]+[.!?]+/g)?.slice(0, 2).join(" ").trim();
+  const sentences = text
+    .match(/[^.!?]+[.!?]+/g)
+    ?.slice(0, 2)
+    .join(" ")
+    .trim();
   return sentences || fallback.slice(0, 400);
 }
 
@@ -113,7 +120,9 @@ async function main() {
     const data = existing.get(ticker);
     return !data || !data.latestPrice.close || data.metrics.revenueTtm == null;
   });
-  console.log(`[fallback] ${fallbackTickers.length} companies need Yahoo coverage`);
+  console.log(
+    `[fallback] ${fallbackTickers.length} companies need Yahoo coverage`,
+  );
 
   for (const ticker of fallbackTickers) {
     const yahooSymbol = TICKER_ALIASES[ticker]?.yahoo ?? ticker;
@@ -142,9 +151,7 @@ async function main() {
 
     const prices: PricePoint[] = chart.points;
     const latest = latestPriceSnapshot(prices);
-    const annual = (sec?.annual ?? []).map((row) =>
-      toFinancialRow(row, "FY"),
-    );
+    const annual = (sec?.annual ?? []).map((row) => toFinancialRow(row, "FY"));
     const quarterly = (sec?.quarterly ?? []).map((row) =>
       toFinancialRow(row, row.period ?? "Q?"),
     );
@@ -175,7 +182,7 @@ async function main() {
     const name = price?.longName ?? price?.shortName ?? ticker;
     const revenue = sec?.quarterly?.length
       ? computed.metrics.revenueTtm
-      : financial?.totalRevenue?.raw ?? computed.metrics.revenueTtm;
+      : (financial?.totalRevenue?.raw ?? computed.metrics.revenueTtm);
     const description = twoSentences(
       profile?.longBusinessSummary,
       `${name} is a US-listed company in the ${group?.name ?? "US equity"} universe.`,
@@ -192,8 +199,9 @@ async function main() {
       cik: sec?.cik ?? null,
       latest10KUrl: sec?.filings?.latest10K?.url ?? null,
       hq:
-        [profile?.city, profile?.state, profile?.country].filter(Boolean).join(", ") ||
-        null,
+        [profile?.city, profile?.state, profile?.country]
+          .filter(Boolean)
+          .join(", ") || null,
       founded: null,
       website: profile?.website ?? null,
       currency: price?.currency ?? "USD",
@@ -203,8 +211,10 @@ async function main() {
         prevClose: latest.prevClose,
         changePct: latest.changePct,
         asOf: latest.asOf,
-        high52: detail?.fiftyTwoWeekHigh?.raw ?? chart.meta.fiftyTwoWeekHigh ?? null,
-        low52: detail?.fiftyTwoWeekLow?.raw ?? chart.meta.fiftyTwoWeekLow ?? null,
+        high52:
+          detail?.fiftyTwoWeekHigh?.raw ?? chart.meta.fiftyTwoWeekHigh ?? null,
+        low52:
+          detail?.fiftyTwoWeekLow?.raw ?? chart.meta.fiftyTwoWeekLow ?? null,
         marketCap:
           price?.marketCap?.raw ??
           (price?.regularMarketPrice?.raw != null &&
@@ -286,7 +296,9 @@ async function main() {
       "utf8",
     );
   }
-  console.log(`[fallback] recomputed factor chips for ${existing.size} companies`);
+  console.log(
+    `[fallback] recomputed factor chips for ${existing.size} companies`,
+  );
 }
 
 main().catch((error) => {

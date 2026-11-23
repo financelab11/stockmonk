@@ -18,7 +18,6 @@ import {
   getSubmissions,
   getTickerCikMap,
   type CompanyFacts,
-
 } from "../lib/edgar";
 
 const PROCESSED = path.join(process.cwd(), "data", "processed");
@@ -49,7 +48,11 @@ const REVENUE_TAGS = [
   "RevenueFromContractWithCustomerIncludingAssessedTax",
 ];
 const GROSS_PROFIT_TAGS = ["GrossProfit"];
-const COST_TAGS = ["CostOfRevenue", "CostOfGoodsAndServicesSold", "CostOfGoodsAndServicesSoldExcludingDepreciationDepletionAndAmortization"];
+const COST_TAGS = [
+  "CostOfRevenue",
+  "CostOfGoodsAndServicesSold",
+  "CostOfGoodsAndServicesSoldExcludingDepreciationDepletionAndAmortization",
+];
 const OPERATING_INCOME_TAGS = [
   "OperatingIncomeLoss",
   "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
@@ -57,25 +60,43 @@ const OPERATING_INCOME_TAGS = [
 ];
 const NET_INCOME_TAGS = ["NetIncomeLoss", "ProfitLoss"];
 const EPS_TAGS = ["EarningsPerShareDiluted", "EarningsPerShareBasicAndDiluted"];
-const CFO_TAGS = ["NetCashProvidedByUsedInOperatingActivities", "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations"];
+const CFO_TAGS = [
+  "NetCashProvidedByUsedInOperatingActivities",
+  "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
+];
 const CAPEX_TAGS = [
   "PaymentsToAcquirePropertyPlantAndEquipment",
   "PaymentsToAcquireProductiveAssets",
   "PaymentsToAcquirePropertyPlantAndEquipmentAndIntangibleAssets",
 ];
-const DA_TAGS = ["DepreciationDepletionAndAmortization", "DepreciationAndAmortization", "Depreciation"];
-const SBC_TAGS = ["ShareBasedCompensation", "AllocatedShareBasedCompensationExpense"];
+const DA_TAGS = [
+  "DepreciationDepletionAndAmortization",
+  "DepreciationAndAmortization",
+  "Depreciation",
+];
+const SBC_TAGS = [
+  "ShareBasedCompensation",
+  "AllocatedShareBasedCompensationExpense",
+];
 
-type FlowSeries = Map<string, { end: string; value: number; fy?: number; period?: string; filed?: string }>;
+type FlowSeries = Map<
+  string,
+  { end: string; value: number; fy?: number; period?: string; filed?: string }
+>;
 
-function mergeSeries(facts: CompanyFacts, tagGroups: string[][], unit = "USD"): FlowSeries {
+function mergeSeries(
+  facts: CompanyFacts,
+  tagGroups: string[][],
+  unit = "USD",
+): FlowSeries {
   const out: FlowSeries = new Map();
   for (const tags of tagGroups) {
     for (const tag of tags) {
       const series = extractFlowSeries(facts, [tag], unit).quarterly;
       for (const [end, item] of series) {
         const prev = out.get(end);
-        if (!prev || (item.filed ?? "") > (prev.filed ?? "")) out.set(end, item);
+        if (!prev || (item.filed ?? "") > (prev.filed ?? ""))
+          out.set(end, item);
       }
     }
   }
@@ -83,7 +104,10 @@ function mergeSeries(facts: CompanyFacts, tagGroups: string[][], unit = "USD"): 
 }
 
 function mergeAnnual(facts: CompanyFacts, tags: string[], unit = "USD") {
-  const out = new Map<string, { end: string; value: number; fy?: number; filed?: string }>();
+  const out = new Map<
+    string,
+    { end: string; value: number; fy?: number; filed?: string }
+  >();
   for (const tag of tags) {
     const series = extractFlowSeries(facts, [tag], unit).annual;
     for (const [end, item] of series) {
@@ -99,7 +123,10 @@ function mergeAnnual(facts: CompanyFacts, tags: string[], unit = "USD") {
  * facts inherit the *new* filing's year. Re-derive the fiscal year from the
  * company's own annual period-end dates instead.
  */
-function normalizeFiscalPeriods(quarters: SecQuarter[], annual: SecAnnual[]): SecQuarter[] {
+function normalizeFiscalPeriods(
+  quarters: SecQuarter[],
+  annual: SecAnnual[],
+): SecQuarter[] {
   const annualEnds = annual.map((row) => row.end).sort();
   if (annualEnds.length === 0) return quarters;
   const latestAnnualEnd = annualEnds[annualEnds.length - 1];
@@ -116,7 +143,9 @@ function normalizeFiscalPeriods(quarters: SecQuarter[], annual: SecAnnual[]): Se
 
     let period = q.period;
     if (priorAnnualEnd) {
-      const days = (new Date(q.end).getTime() - new Date(priorAnnualEnd).getTime()) / 86_400_000;
+      const days =
+        (new Date(q.end).getTime() - new Date(priorAnnualEnd).getTime()) /
+        86_400_000;
       period = `Q${Math.max(1, Math.min(4, Math.round(days / 91.25)))}`;
     }
 
@@ -124,7 +153,10 @@ function normalizeFiscalPeriods(quarters: SecQuarter[], annual: SecAnnual[]): Se
       ...q,
       fyear,
       period,
-      epsDiluted: q.epsDiluted === null ? null : Math.round(q.epsDiluted * 10_000) / 10_000,
+      epsDiluted:
+        q.epsDiluted === null
+          ? null
+          : Math.round(q.epsDiluted * 10_000) / 10_000,
     };
   });
 }
@@ -157,8 +189,14 @@ function toRows(
     const capexVal = capex.get(end)?.value ?? null;
     rows.push({
       end,
-      fyear: revenue.get(end)?.fy ?? operatingIncome.get(end)?.fy ?? netIncome.get(end)?.fy,
-      period: revenue.get(end)?.period ?? operatingIncome.get(end)?.period ?? netIncome.get(end)?.period,
+      fyear:
+        revenue.get(end)?.fy ??
+        operatingIncome.get(end)?.fy ??
+        netIncome.get(end)?.fy,
+      period:
+        revenue.get(end)?.period ??
+        operatingIncome.get(end)?.period ??
+        netIncome.get(end)?.period,
       revenue: rev,
       grossProfit: gp,
       operatingIncome: op,
@@ -166,7 +204,10 @@ function toRows(
       epsDiluted: eps.get(end)?.value ?? null,
       cfo: cfoVal,
       capex: capexVal === null ? null : Math.abs(capexVal),
-      freeCashFlow: cfoVal !== null && capexVal !== null ? cfoVal - Math.abs(capexVal) : null,
+      freeCashFlow:
+        cfoVal !== null && capexVal !== null
+          ? cfoVal - Math.abs(capexVal)
+          : null,
       da: da.get(end)?.value ?? null,
       sbc: sbc.get(end)?.value ?? null,
     });
@@ -196,7 +237,14 @@ async function main() {
       const cost = mergeSeries(facts, [COST_TAGS]);
       for (const [end, rev] of revenue) {
         const c = cost.get(end);
-        if (c) grossProfit.set(end, { end, value: rev.value - c.value, fy: rev.fy, period: rev.period, filed: rev.filed });
+        if (c)
+          grossProfit.set(end, {
+            end,
+            value: rev.value - c.value,
+            fy: rev.fy,
+            period: rev.period,
+            filed: rev.filed,
+          });
       }
     }
     const operatingIncome = mergeSeries(facts, [OPERATING_INCOME_TAGS]);
@@ -219,19 +267,33 @@ async function main() {
       mergeAnnual(facts, SBC_TAGS),
     ).slice(-8);
     const quarterly = normalizeFiscalPeriods(
-      toRows(revenue, grossProfit, operatingIncome, netIncome, eps, cfo, capex, da, sbc),
+      toRows(
+        revenue,
+        grossProfit,
+        operatingIncome,
+        netIncome,
+        eps,
+        cfo,
+        capex,
+        da,
+        sbc,
+      ),
       annual,
     ).slice(-24);
 
     const latest10K = filings.find((f) => f.form === "10-K");
     const latest10Q = filings.find((f) => f.form === "10-Q");
-    const earnings8K = filings.find((f) => f.form === "8-K" && (f.items ?? "").includes("2.02"));
+    const earnings8K = filings.find(
+      (f) => f.form === "8-K" && (f.items ?? "").includes("2.02"),
+    );
     let earningsReleaseUrl: string | null = null;
     if (earnings8K) {
       try {
         const index = await getFilingIndex(cik, earnings8K.accession);
         const exhibit = index.directory.item.find(
-          (item) => /(ex-?99|99\.1|99-1)/i.test(item.name) && /\.(htm|html)$/i.test(item.name),
+          (item) =>
+            /(ex-?99|99\.1|99-1)/i.test(item.name) &&
+            /\.(htm|html)$/i.test(item.name),
         );
         if (exhibit) {
           const cikNum = Number(cik);
@@ -256,14 +318,36 @@ async function main() {
         earningsReleaseUrl,
       },
       sources: [
-        latest10K ? { name: `SEC 10-K (${latest10K.filed})`, url: latest10K.url, date: latest10K.filed } : null,
-        latest10Q ? { name: `SEC 10-Q (${latest10Q.filed})`, url: latest10Q.url, date: latest10Q.filed } : null,
-        earningsReleaseUrl ? { name: "SEC 8-K earnings release", url: earningsReleaseUrl, date: earnings8K?.filed } : null,
+        latest10K
+          ? {
+              name: `SEC 10-K (${latest10K.filed})`,
+              url: latest10K.url,
+              date: latest10K.filed,
+            }
+          : null,
+        latest10Q
+          ? {
+              name: `SEC 10-Q (${latest10Q.filed})`,
+              url: latest10Q.url,
+              date: latest10Q.filed,
+            }
+          : null,
+        earningsReleaseUrl
+          ? {
+              name: "SEC 8-K earnings release",
+              url: earningsReleaseUrl,
+              date: earnings8K?.filed,
+            }
+          : null,
       ].filter(Boolean),
     };
 
     await fs.mkdir(path.join(PROCESSED, ticker), { recursive: true });
-    await fs.writeFile(path.join(PROCESSED, ticker, "sec.json"), JSON.stringify(out, null, 2), "utf8");
+    await fs.writeFile(
+      path.join(PROCESSED, ticker, "sec.json"),
+      JSON.stringify(out, null, 2),
+      "utf8",
+    );
     summary.push({
       ticker,
       quarterly: quarterly.length,
@@ -277,7 +361,11 @@ async function main() {
     );
   }
 
-  await fs.writeFile(path.join(PROCESSED, "edgar-summary.json"), JSON.stringify(summary, null, 2), "utf8");
+  await fs.writeFile(
+    path.join(PROCESSED, "edgar-summary.json"),
+    JSON.stringify(summary, null, 2),
+    "utf8",
+  );
 }
 
 main().catch((error) => {

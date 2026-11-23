@@ -63,18 +63,23 @@ The direct path uses `aws-0-ap-northeast-1.pooler.supabase.com:6543` with user
 `postgres.fqzfmvnmmiisvtgnsyqa`. Override with `SUPABASE_DB_HOST`,
 `SUPABASE_DB_PORT` and `SUPABASE_DB_USER` if the project moves.
 
-Both paths dedupe rows on the conflict key, retry transient network failures,
-and add forward-only Indian tickers so the `companies` table always holds the
-852-name universe. Set `SKIP_PRICES=1` for a fast run that leaves
-`prices_daily` untouched (the REST path re-upserts ~290k price rows otherwise,
-which takes tens of minutes).
+Both paths dedupe rows on the conflict key and retry transient network
+failures. Set `SKIP_PRICES=1` for a fast run that leaves `prices_daily`
+untouched (the REST path re-upserts ~290k price rows otherwise, which takes tens
+of minutes).
 
-This upserts companies, prices, financial periods, metrics, segments, consensus,
-targets and forward estimates, then calls `refresh_company_snapshots()` and
+This upserts companies, prices, financial periods, metrics, segments, consensus
+and targets, then calls `refresh_company_snapshots()` and
 `refresh_data_freshness()`. It records an `ingestion_runs` row.
 
-Current load: 852 companies, 290,637 daily prices, 14,839 statements, 1,716
-consensus estimates, 385 forward estimates and 852 snapshots.
+`202611230001_remove_india_gcc.sql` removes the former India/GCC companies,
+stories, aliases and coverage groups, drops the India-only `forward_estimates`
+table and `forward_growth_ranking` view, and restricts `companies.market` to
+`US`.
+
+Current load after that migration: the 229 US research companies with their
+prices, statements, consensus and snapshots. Run `pnpm sync:supabase:direct` to
+refresh the counts.
 
 ## Realtime, RLS and daily jobs
 
@@ -84,8 +89,8 @@ consensus estimates, 385 forward estimates and 852 snapshots.
   owner-only.
 - `pg_cron` runs `refresh_company_snapshots()` at 02:15 UTC and
   `refresh_data_freshness()` at 02:30 UTC daily.
-- `.github/workflows/daily-refresh.yml` refreshes the file datasets and runs
-  `pnpm sync:supabase`; the weekly workflow also syncs GCC.
+- `.github/workflows/daily-refresh.yml` refreshes the US file datasets and runs
+  `pnpm sync:supabase`; the weekly workflow refreshes the screener universe.
 
 ## Verify
 

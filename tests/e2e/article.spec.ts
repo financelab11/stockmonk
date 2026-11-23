@@ -1,10 +1,16 @@
 import { expect, test } from "@playwright/test";
 
 test.describe("research article", () => {
-  test("contains all ten sections, charts, sources and the Pro CTA", async ({ page }) => {
+  test("contains all ten sections, charts, sources and the Pro CTA", async ({
+    page,
+  }) => {
     await page.goto("/stocks/NVDA", { waitUntil: "networkidle" });
 
-    await expect(page.getByRole("heading", { name: "Nvidia sells the picks and shovels of the AI build-out" })).toBeVisible();
+    await expect(
+      page.getByRole("heading", {
+        name: "Nvidia sells the picks and shovels of the AI build-out",
+      }),
+    ).toBeVisible();
 
     for (const title of [
       "The big picture",
@@ -18,11 +24,19 @@ test.describe("research article", () => {
       "Risks and what to watch",
       "Key takeaways and what to monitor",
     ]) {
-      await expect(page.getByRole("heading", { name: title, exact: true })).toBeAttached();
+      await expect(
+        page.getByRole("heading", { name: title, exact: true }),
+      ).toBeAttached();
     }
 
-    await expect(page.getByText(/Stockmonk does not provide buy, sell or hold ratings/i).first()).toBeAttached();
-    await expect(page.getByText(/Enjoyed this research report/i)).toBeAttached();
+    await expect(
+      page
+        .getByText(/Stockmonk does not provide buy, sell or hold ratings/i)
+        .first(),
+    ).toBeAttached();
+    await expect(
+      page.getByText(/Enjoyed this research report/i),
+    ).toBeAttached();
     await expect(page.getByText(/View data table/i).first()).toBeAttached();
     await expect(page.getByText(/Sources/i).first()).toBeAttached();
 
@@ -34,7 +48,9 @@ test.describe("research article", () => {
     await expect(page).toHaveURL(/#valuation/);
   });
 
-  test("generated report for an expanded name has ten sections and four sources", async ({ page }) => {
+  test("generated report for an expanded name has ten sections and four sources", async ({
+    page,
+  }) => {
     await page.goto("/stocks/CAVA", { waitUntil: "networkidle" });
 
     for (const title of [
@@ -54,46 +70,29 @@ test.describe("research article", () => {
       ).toBeAttached();
     }
 
-    const sourceSection = page.locator('section[aria-labelledby="article-sources"]');
+    const sourceSection = page.locator(
+      'section[aria-labelledby="article-sources"]',
+    );
     const sources = sourceSection.locator("li");
     await expect(sources).toHaveCount(4);
     await expect(sourceSection).toContainText(/annual report/i);
     await expect(sourceSection).toContainText(/filing history/i);
     await expect(sourceSection).toContainText(/methodology/i);
-    await expect(page.locator("article").getByText(/SimFin|Yahoo Finance|Nasdaq/)).toHaveCount(0);
+    await expect(
+      page.locator("article").getByText(/SimFin|Yahoo Finance|Nasdaq/),
+    ).toHaveCount(0);
   });
 
-  test("India report has ten sections, INR figures and NSE/BSE sources", async ({ page }) => {
-    await page.goto("/india/stocks/KAYNES", { waitUntil: "networkidle" });
-
-    for (const title of [
-      "The big picture",
-      "What the company does",
-      "How it makes money",
-      "Growth drivers and catalysts",
-      "Financial performance",
-      "Cash flow and balance sheet",
-      "Valuation",
-      "What analysts expect",
-      "Risks and what to watch",
-      "Key takeaways and what to monitor",
-    ]) {
-      await expect(
-        page.getByRole("heading", { name: title, exact: true, level: 2 }),
-      ).toBeAttached();
-    }
-
-    const sourceSection = page.locator('section[aria-labelledby="article-sources"]');
-    await expect(sourceSection.locator("li")).toHaveCount(4);
-    await expect(sourceSection).toContainText(/NSE|BSE/i);
-    await expect(page.locator("article").getByText(/₹/).first()).toBeAttached();
-    await expect(page.locator("article").getByText(/SimFin|Yahoo Finance|Screener/i)).toHaveCount(0);
-  });
-
-  test("screener shows factor tabs, parameters and expandable detail", async ({ page }) => {
+  test("screener shows factor tabs, parameters and expandable detail", async ({
+    page,
+  }) => {
     await page.goto("/screener", { waitUntil: "networkidle" });
-    await expect(page.getByRole("heading", { name: "US equity screener" })).toBeVisible();
-    await expect(page.getByText(/\d[\d,]* US-listed companies/).first()).toBeVisible();
+    await expect(
+      page.getByRole("heading", { name: "US equity screener" }),
+    ).toBeVisible();
+    await expect(
+      page.getByText(/\d[\d,]* US-listed companies/).first(),
+    ).toBeVisible();
 
     await page.getByRole("link", { name: /Q · Quality/i }).click();
     await expect(page.getByText("ROE", { exact: true }).first()).toBeVisible();
@@ -108,46 +107,69 @@ test.describe("research article", () => {
     await expect(page.getByText(/Parameter coverage:/i).first()).toBeVisible();
   });
 
-  test("screener quick screens and filter chips stay in sync", async ({ page }) => {
+  test("screener quick screens and filter chips stay in sync", async ({
+    page,
+  }) => {
     const isMobile = (page.viewportSize()?.width ?? 1280) < 1024;
     await page.goto("/screener", { waitUntil: "networkidle" });
 
-    await page.getByRole("button", { name: "Quick Screens", exact: true }).first().click();
+    await page
+      .getByRole("button", { name: "Quick Screens", exact: true })
+      .first()
+      .click();
     await page.getByRole("button", { name: /High Quality Businesses/ }).click();
     await expect(page).toHaveURL(/qualityScoreMin=70/);
     if (!isMobile) {
-      await expect(page.getByRole("button", { name: /High Quality Businesses/ })).toBeVisible();
+      await expect(
+        page.getByRole("button", { name: /High Quality Businesses/ }),
+      ).toBeVisible();
     }
 
-    await page.getByRole("button", { name: /^Filters/ }).first().click();
+    await page
+      .getByRole("button", { name: /^Filters/ })
+      .first()
+      .click();
     const chip = page.getByRole("button", { name: /Quality score\s*≥\s*70/ });
     await expect(chip).toBeVisible();
     await chip.click();
     await expect(chip).toHaveCount(0);
   });
 
-  test("screener sidebar filters apply a range and update the table", async ({ page }) => {
+  test("screener sidebar filters apply a range and update the table", async ({
+    page,
+  }) => {
     const isMobile = (page.viewportSize()?.width ?? 1280) < 1024;
     await page.goto("/screener", { waitUntil: "networkidle" });
 
     if (isMobile) {
-      await page.getByRole("button", { name: /^Filters/ }).first().click();
+      await page
+        .getByRole("button", { name: /^Filters/ })
+        .first()
+        .click();
     }
     const scope = isMobile ? page.getByRole("dialog") : page;
     await scope.getByPlaceholder("Search for a filter").fill("market cap");
-    const card = scope.locator("div.rounded-lg", { hasText: "Market cap ($B)" }).last();
+    const card = scope
+      .locator("div.rounded-lg", { hasText: "Market cap ($B)" })
+      .last();
     await card.locator('input[inputmode="decimal"]').nth(0).fill("100");
     await scope.getByRole("button", { name: /(Apply filters|Done ·)/ }).click();
     await expect(page).toHaveURL(/marketCapBMin=100/);
 
     if (isMobile) {
-      await expect(page.getByRole("button", { name: /^Filters 1/ })).toBeVisible();
+      await expect(
+        page.getByRole("button", { name: /^Filters 1/ }),
+      ).toBeVisible();
     } else {
-      await expect(page.getByRole("button", { name: /Market cap.*≥.*100/ })).toBeVisible();
+      await expect(
+        page.getByRole("button", { name: /Market cap.*≥.*100/ }),
+      ).toBeVisible();
     }
   });
 
-  test("search finds a ticker and navigates to its report", async ({ page }) => {
+  test("search finds a ticker and navigates to its report", async ({
+    page,
+  }) => {
     await page.goto("/discover", { waitUntil: "networkidle" });
     const input = page.getByPlaceholder(/Search ticker, name or sector/i);
     await expect(input).toBeVisible();
@@ -155,16 +177,25 @@ test.describe("research article", () => {
     await page.getByRole("button", { name: "Search", exact: true }).click();
     await expect(page).toHaveURL(/\/discover\?.*q=MSFT/);
     await expect(page.getByText("MICROSOFT CORP").first()).toBeVisible();
-    await page.getByRole("link", { name: /MICROSOFT CORP/ }).first().click();
+    await page
+      .getByRole("link", { name: /MICROSOFT CORP/ })
+      .first()
+      .click();
     await expect(page).toHaveURL(/\/stocks\/MSFT/);
     await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
   });
 
   test("watchlist persists across reloads", async ({ page }) => {
     await page.goto("/stocks/NVDA", { waitUntil: "networkidle" });
-    const add = page.getByRole("button", { name: /Add to watchlist: NVDA/i }).first();
+    const add = page
+      .getByRole("button", { name: /Add to watchlist: NVDA/i })
+      .first();
     await add.click();
-    await expect(page.getByRole("button", { name: /Remove from watchlist: NVDA/i }).first()).toBeVisible();
+    await expect(
+      page
+        .getByRole("button", { name: /Remove from watchlist: NVDA/i })
+        .first(),
+    ).toBeVisible();
 
     await page.goto("/watchlist", { waitUntil: "networkidle" });
     await expect(page.getByText(/NVDA/).first()).toBeVisible();

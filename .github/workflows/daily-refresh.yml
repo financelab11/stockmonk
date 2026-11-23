@@ -2,7 +2,7 @@ name: Daily market data refresh
 
 on:
   schedule:
-    # Runs after the US close and the Indian close.
+    # Runs after the US close.
     - cron: "30 2 * * *"
   workflow_dispatch:
 
@@ -45,27 +45,12 @@ jobs:
       - name: Refresh report prose
         run: pnpm refresh:stories
 
-      - name: Refresh India coverage
-        run: pnpm ingest:india
-        env:
-          SIMFIN_API_KEY: ${{ secrets.SIMFIN_API_KEY }}
-
-      - name: Build India earnings tracker
-        run: pnpm build:earnings
-
-      - name: Refresh GCC coverage
-        run: pnpm ingest:gcc
-        env:
-          GCC_DELAY_MS: "750"
-
       - name: Refresh benchmark prices
         run: pnpm ingest:benchmark
 
       - name: Rebuild public data
         run: |
           pnpm build:data
-          pnpm build:india
-          pnpm build:gcc
           pnpm build:screener
 
       - name: Check freshness

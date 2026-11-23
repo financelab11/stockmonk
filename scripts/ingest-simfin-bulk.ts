@@ -66,17 +66,25 @@ async function download(entry: Dataset, force: boolean): Promise<void> {
   }
   const apiKey = process.env.SIMFIN_API_KEY;
   if (!apiKey) throw new Error("SIMFIN_API_KEY is not set");
-  const params = new URLSearchParams({ dataset: entry.dataset, market: entry.market });
+  const params = new URLSearchParams({
+    dataset: entry.dataset,
+    market: entry.market,
+  });
   if (entry.variant) params.set("variant", entry.variant);
   const url = `https://prod.simfin.com/api/bulk-download/s3?${params.toString()}`;
   const started = Date.now();
   const res = await fetch(url, {
-    headers: { Authorization: `api-key ${apiKey}`, "User-Agent": "Stockmonk/1.0" },
+    headers: {
+      Authorization: `api-key ${apiKey}`,
+      "User-Agent": "Stockmonk/1.0",
+    },
     signal: AbortSignal.timeout(600_000),
   });
   if (!res.ok) {
     const body = await res.text().catch(() => "");
-    throw new Error(`${entry.dataset} ${entry.variant ?? ""}: ${res.status} ${body.slice(0, 200)}`);
+    throw new Error(
+      `${entry.dataset} ${entry.variant ?? ""}: ${res.status} ${body.slice(0, 200)}`,
+    );
   }
   await fsp.mkdir(ZIPS, { recursive: true });
   const temp = `${target}.part`;
@@ -119,7 +127,11 @@ function readZipEntries(file: string): ZipEntry[] {
   }
   const entries: ZipEntry[] = [];
   let offset = 0;
-  for (let index = 0; index < count && offset + 46 <= directory.length; index += 1) {
+  for (
+    let index = 0;
+    index < count && offset + 46 <= directory.length;
+    index += 1
+  ) {
     if (directory.readUInt32LE(offset) !== 0x02014b50) break;
     const method = directory.readUInt16LE(offset + 10);
     const compressedSize = directory.readUInt32LE(offset + 20);
@@ -127,8 +139,11 @@ function readZipEntries(file: string): ZipEntry[] {
     const extraLength = directory.readUInt16LE(offset + 30);
     const commentLength = directory.readUInt16LE(offset + 32);
     const localOffset = directory.readUInt32LE(offset + 42);
-    const name = directory.subarray(offset + 46, offset + 46 + nameLength).toString("utf8");
-    if (!name.endsWith("/")) entries.push({ name, method, compressedSize, localOffset });
+    const name = directory
+      .subarray(offset + 46, offset + 46 + nameLength)
+      .toString("utf8");
+    if (!name.endsWith("/"))
+      entries.push({ name, method, compressedSize, localOffset });
     offset += 46 + nameLength + extraLength + commentLength;
   }
   return entries;
@@ -136,14 +151,16 @@ function readZipEntries(file: string): ZipEntry[] {
 
 async function extract(file: string, target: string): Promise<void> {
   const entries = readZipEntries(file);
-  const entry = entries.find((item) => item.name.endsWith(".csv")) ?? entries[0];
+  const entry =
+    entries.find((item) => item.name.endsWith(".csv")) ?? entries[0];
   if (!entry) throw new Error(`No entries in ${file}`);
   const fd = fs.openSync(file, "r");
   let start: number;
   try {
     const header = Buffer.alloc(30);
     fs.readSync(fd, header, 0, 30, entry.localOffset);
-    if (header.readUInt32LE(0) !== 0x04034b50) throw new Error(`Bad local header in ${file}`);
+    if (header.readUInt32LE(0) !== 0x04034b50)
+      throw new Error(`Bad local header in ${file}`);
     const nameLength = header.readUInt16LE(26);
     const extraLength = header.readUInt16LE(28);
     start = entry.localOffset + 30 + nameLength + extraLength;

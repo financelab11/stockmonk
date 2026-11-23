@@ -1,15 +1,12 @@
 # Stockmonk
 
-Independent, data-first equity research for US-listed, Indian and GCC companies.
-Stockmonk is a production-style Next.js PWA that explains how a business makes
-money, charts the reported financials, and shows attributed analyst consensus —
-with **no buy / sell / hold ratings and no Stockmonk price targets**.
+Independent, data-first equity research for US-listed companies. Stockmonk is a
+production-style Next.js PWA that explains how a business makes money, charts the
+reported financials, and shows attributed analyst consensus — with **no buy /
+sell / hold ratings and no Stockmonk price targets**.
 
-- **229 US-listed companies**, **100 NSE-listed Indian companies** and a growing
-  **GCC coverage universe** across Saudi Arabia, the UAE, Qatar, Kuwait, Oman and
-  Bahrain. US and India names carry a hand-written ten-section research report;
-  GCC reports are being published in editorial batches, with the data directory
-  live ahead of the reports.
+- **229 US-listed companies** with a hand-written ten-section research report,
+  plus an expanded US screener universe.
 - Ten sourced article sections, a chart in every analytical section, peer
   comparison, consensus and risk sections.
 - Works offline for visited pages; installable on desktop and mobile.
@@ -51,9 +48,7 @@ best-practices / SEO at 100, and a performance floor of 90 to absorb shared-host
 variance. On a quiet runner the same build measures **95–98 performance on the
 home, all-stocks, framework and watchlist routes**, and **92–96 on the
 chart-heavy article routes**. The numeric target remains 95; the mobile gate is
-set to the reproducible floor measured on this host. See
-`docs/data-notes.md` for the data caveats that matter more than a one-point
-Lighthouse difference.
+set to the reproducible floor measured on this host.
 
 ## Routes
 
@@ -65,19 +60,13 @@ Lighthouse difference.
 | `/screener` | Five-factor quantitative screener for the US listed universe |
 | `/framework` | Methodology, formulas, peer/valuation approach |
 | `/stocks/[ticker]` | Ten-section research report for all 229 US coverage names |
-| `/india` | Featured India research, data-quality screens and search |
-| `/india/all-stocks` | Full India universe grouped by sector |
-| `/india/earnings-tracker` | Latest-quarter growth table with per-metric filters and CSV export |
-| `/india/stocks/[ticker]` | Ten-section research report for all 100 India names |
-| `/gcc` | GCC Stocks: featured research, data-quality screens and the GCC universe |
-| `/gcc/all-stocks` | Full GCC directory grouped by market and sector |
-| `/gcc/stocks/[ticker]` | Ten-section GCC research reports (published in batches) |
-| `/tools/growth-ranker` | 385-name forward revenue ranking with valuation, quality and composite scores |
-| `/tools/growth-ranker/[ticker]` | Forward estimate note with projections, consensus, valuation, quality and evidence |
 | `/watchlist` | Local-first watchlist backed by `localStorage` |
 | `/about`, `/privacy`, `/terms`, `/editorial-guidelines`, `/data-sources` | Editorial and legal pages |
 | `/offline` | Serwist offline fallback |
 | `/sitemap.xml`, `/robots.txt`, `/manifest.webmanifest` | Feeds and PWA/SEO endpoints |
+
+The former `/india/*`, `/gcc/*` and `/tools/growth-ranker/*` routes permanently
+redirect to `/discover` or `/screener`.
 
 ## Project context
 
@@ -100,17 +89,20 @@ supabase db push
 pnpm sync:supabase
 ```
 
-Schema and daily jobs: `supabase/migrations/202611170001_initial_schema.sql`.
+Schema: `supabase/migrations/202611170001_initial_schema.sql`.
+`202611230001_remove_india_gcc.sql` removes the former India/GCC companies,
+stories, aliases and coverage groups, drops the India-only `forward_estimates`
+table and `forward_growth_ranking` view, and restricts `companies.market` to
+`US`.
 
 Core tables: companies, prices_daily, financial_periods, financial_metrics,
-segments, consensus_estimates, consensus_targets, forward_estimates, stories,
-profiles, watchlists, watchlist_items, company_snapshots,
-ingestion_runs and data_freshness.
+segments, consensus_estimates, consensus_targets, stories, profiles, watchlists,
+watchlist_items, company_snapshots, ingestion_runs and data_freshness.
 
 - Public read access is enabled for market/research tables.
 - Watchlists are owner-only via RLS.
-- Realtime is enabled for snapshots, forward estimates, news, freshness,
-  consensus targets and watchlists.
+- Realtime is enabled for snapshots, news, freshness, consensus targets and
+  watchlists.
 - `pg_cron` refreshes `company_snapshots` and `data_freshness` daily.
 
 Environment:
@@ -127,18 +119,17 @@ Client helpers live in `utils/supabase/`; the service-role helper is
 ## Deployment
 
 The production target is Vercel, connected to the GitHub repository under the
-`financelabin-5299` team. The current CLI deployment is live at
-**https://stockmonk.vercel.app**; the GitHub auto-deploy link is added once the
-repository exists.
+`financelabin-5299` team: **https://stockmonk.vercel.app**.
 
 Build with `pnpm build`; static and dynamic routes use the same Next.js output.
 Required environment variables are the Supabase values above plus
 `NEXT_PUBLIC_SITE_URL` and `SIMFIN_API_KEY` for refresh jobs.
 
-The daily data workflow is `.github/workflows/daily-data-refresh.yml`. It
-refreshes the file datasets, syncs Supabase, and commits updated data. Configure
+The daily data workflow is `.github/workflows/daily-refresh.yml`. It refreshes
+the US file datasets, syncs Supabase, and commits updated data. Configure
 `SIMFIN_API_KEY`, `NEXT_PUBLIC_SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` as
-GitHub Actions secrets.
+GitHub Actions secrets. The screener universe is refreshed weekly by
+`.github/workflows/weekly-screener-refresh.yml`.
 
 ## Data pipeline
 
@@ -153,11 +144,8 @@ pnpm ingest:consensus   # Third-party consensus snapshots, cross-checked across 
 pnpm ingest:segments    # 10-K segment and geography mixes for the core names
 pnpm build:data         # public/data/stocks.json + search-index.json
 pnpm audit:generated    # scan generated reports for text defects
-pnpm ingest:india       # India statements, prices and consensus
-pnpm build:india        # public/data/india/stocks.json + search-index.json
-pnpm ingest:gcc         # GCC statements, prices and consensus (StockAnalysis/Yahoo)
-pnpm build:gcc          # public/data/gcc/stocks.json + search-index.json
-pnpm refresh            # run all of the above in order
+pnpm refresh:prices     # Yahoo closes for the US names
+pnpm refresh            # run the US pipeline in order
 ```
 
 Outputs:
@@ -167,14 +155,7 @@ Outputs:
 - `data/segments/{ticker}.json` — segment and geography mix with the 10-K source URL.
 - `public/data/prices/{ticker}/{range}.json` — downsampled price series (≤ 600 points).
 - `public/data/stocks.json` and `public/data/search-index.json` — lightweight directory files.
-- `data/india/processed/{ticker}/data.json` — India statements, ratios and factors in INR.
-- `data/india/consensus/{ticker}.json` — attributed India consensus snapshot.
-- `public/data/india/prices/{ticker}/{range}.json` — India price series.
-- `public/data/india/stocks.json` and `public/data/india/search-index.json` — India directory files.
-- `data/gcc/processed/{ticker}/data.json` — GCC statements, ratios, market data and sources.
-- `data/gcc/consensus/{ticker}.json` — attributed third-party GCC consensus.
-- `public/data/gcc/prices/{ticker}/{range}.json` — GCC price series.
-- `public/data/gcc/stocks.json` and `public/data/gcc/search-index.json` — GCC directory files.
+- `data/earnings/{ticker}.json` — SEC 8-K earnings releases for the research names.
 
 ### Screener model
 
@@ -201,23 +182,6 @@ carry the bulk snapshot date while the research rows refresh daily. CI builds
 that do not have the gitignored bulk files keep the committed snapshot instead
 of shrinking the universe.
 
-The daily refresh workflow lives in `.github/workflows/daily-refresh.yml`. It
-runs the US and India ingestion, rebuilds the public data files, and commits the
-refreshed data. The screener universe and GCC coverage are refreshed weekly by
-`.github/workflows/weekly-screener-refresh.yml`. Set the `SIMFIN_API_KEY`
-repository secret for both to run.
-
-### GCC coverage
-
-`/gcc` mirrors the Discover experience for Gulf equities: featured companies, a
-data-quality screens tab and an all-stocks directory grouped by market and
-sector. Statements, statistics and consensus are read from StockAnalysis.com's
-Tadawul, ADX, DFM, QSE, KWSE and MSM pages; price history comes from Yahoo
-Finance where the exchange is covered and MarketScreener supplies the Bahrain
-names. Every report carries the source URL and the reporting period used.
-Reports are hand-written and published in editorial batches, so the directory
-lists data-only cards for companies whose report is still in preparation.
-
 ### Story authoring
 
 Every research name has a hand-written `content/stocks/{ticker}.ts` report. The
@@ -233,16 +197,6 @@ pnpm audit:stories       # length, duplicate-text and vendor-leak checks
 The brief is the only approved source of quantitative claims. Briefs are
 written under `data/raw/` and are not committed; the narrative files are.
 
-India uses the same workflow under `content/india-stocks/`:
-
-```bash
-pnpm india:stories:briefs      # data/india/raw/story-briefs/{ticker}.md
-pnpm india:stories:materialize # skeleton for a new NSE ticker
-pnpm india:stories:index       # regenerate content/india-stocks/index.ts
-pnpm validate:india-content    # editorial checks for all 100 India reports
-pnpm audit:india-stories       # length, duplicate-text and vendor-leak checks
-```
-
 ### How to add a company
 
 1. Add the ticker to the relevant group in `config/coverage.ts`. The research
@@ -255,16 +209,6 @@ pnpm audit:india-stories       # length, duplicate-text and vendor-leak checks
    `pnpm stories:materialize`.
 4. Write the report in `content/stocks/{ticker}.ts`, run `pnpm stories:index`,
    `pnpm audit:stories` and `pnpm validate:content`.
-
-For India, add the ticker to `config/india-coverage.ts`, run
-`pnpm ingest:india` and `pnpm build:india`, then
-`pnpm india:stories:briefs` and `pnpm india:stories:materialize`. Write the
-report in `content/india-stocks/{ticker}.ts`, then run
-`pnpm india:stories:index`, `pnpm validate:india-content` and
-`pnpm audit:india-stories`.
-4. If it is a research name, add a story in `content/stocks/{TICKER}.ts` and
-   export it from `content/stocks/index.ts`. The article template needs no
-   changes.
 5. Add a logo at `public/logos/{TICKER}.png` (or let the monogram fallback run).
 6. Run `pnpm validate:content`, `pnpm test`, `pnpm build` and `pnpm e2e`.
 
@@ -274,7 +218,7 @@ report in `content/india-stocks/{ticker}.ts`, then run
 app/                 routes, metadata, manifest, sitemap, robots, RSS, Serwist route
 components/          UI, cards, charts, article, discover, layout, search, watchlist
 config/              universe, sectors, peers, pricing
-content/stocks/      typed editorial stories for the ten research reports
+content/stocks/      typed editorial stories for the research reports
 data/                raw cache, processed fundamentals, consensus, segments
 docs/                ui-spec, data-notes, methodology
 lib/                 schemas, data access, analytics, metrics, SEO, validation
@@ -283,32 +227,8 @@ scripts/             ingestion, data build, validation, brand assets
 tests/               Vitest unit tests and Playwright e2e specs
 ```
 
-## Deployment
-
-The app is a standard Next.js server build (`pnpm build && pnpm start`) and can
-be deployed to Vercel or any Node host. The data files are read from the project
-root, so include `data/**/*.json` and `public/data/**/*.json` in the deployment
-artifact. `outputFileTracingIncludes` in `next.config.ts` already requests them.
-
-Set `NEXT_PUBLIC_SITE_URL` to the production origin so canonical URLs, sitemap,
-RSS and OpenGraph metadata point at the right place. Set `SIMFIN_API_KEY` only
-for the build/ingestion environment.
-
-### PWA notes
-
-- `app/manifest.ts` defines the installable manifest, shortcuts and maskable icon.
-- `app/sw.ts` precaches the app shell, runtime-caches `/data/*` with
-  stale-while-revalidate, and falls back to `/offline` for navigation failures.
-- The service worker registers a few seconds after load so it never competes with
-  the first paint or Lighthouse's interaction metrics.
-- `public/icons/*` contains 192, 512, maskable, apple-touch and favicon variants
-  generated from the brand asset by `pnpm assets`.
-
 ## Content and data policy
 
-- No StockStory copy, images, testimonials, analyst bios, performance claims or
-  press-logo walls. The layout is inspired by modern research sites; the copy and
-  data presentation are original.
 - No fabricated ratings, targets, news or quotes. Segment data, business
   descriptions and risks come from SEC filings; consensus is attributed to the
   provider and dated.
@@ -323,8 +243,8 @@ for the build/ingestion environment.
 - Fundamentals and prices: SimFin — <https://simfin.com/>
 - Filings and XBRL: SEC EDGAR — <https://www.sec.gov/edgar/search/>
 - Consensus: Yahoo Finance, cross-checked with Nasdaq, named on each panel.
-- Logos: CompaniesMarketCap logo CDN, downloaded locally for identification only.
-  See `public/logos/ATTRIBUTION.md`.
+- Logos: downloaded locally for identification only. See
+  `public/logos/ATTRIBUTION.md`.
 - Fonts: Inter and Newsreader via Google Fonts, self-hosted with `next/font/local`.
 
 ## License

@@ -23,12 +23,7 @@ export function StockCardStatic({
   prices?: RangePricePoint[];
   showWhy?: boolean;
 }) {
-  const href =
-    entry.market === "IN"
-      ? `/india/stocks/${entry.ticker}`
-      : entry.market === "GCC"
-        ? `/gcc/stocks/${entry.ticker}`
-        : `/stocks/${entry.ticker}`;
+  const href = `/stocks/${entry.ticker}`;
   const currency = entry.currency ?? "USD";
 
   return (
@@ -63,11 +58,15 @@ export function StockCardStatic({
           </h3>
           <p className="mt-0.5 text-[10.5px] text-muted">
             {entry.sector}
-            {entry.industry && entry.industry !== entry.sector ? ` · ${entry.industry}` : ""}
+            {entry.industry && entry.industry !== entry.sector
+              ? ` · ${entry.industry}`
+              : ""}
           </p>
           <div className="mt-1.5 flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
             <span className="tabular text-[15px] font-semibold text-ink">
-              {entry.price != null ? formatCurrency(entry.price, 2, currency) : "n/a"}
+              {entry.price != null
+                ? formatCurrency(entry.price, 2, currency)
+                : "n/a"}
             </span>
             <PriceChange value={entry.changePct} className="text-[11.5px]" />
             <span className="text-[9.5px] text-faint">vs prior close</span>
@@ -79,7 +78,12 @@ export function StockCardStatic({
           )}
         </div>
         {prices && prices.length > 1 && (
-          <Sparkline points={prices} width={92} height={34} className="mt-1 shrink-0" />
+          <Sparkline
+            points={prices}
+            width={92}
+            height={34}
+            className="mt-1 shrink-0"
+          />
         )}
       </div>
 

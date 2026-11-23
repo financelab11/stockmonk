@@ -23,16 +23,26 @@ function allText(story: StockStory): string {
     ...story.takeaways,
     ...story.bigPicture.paragraphs,
     ...story.whatItDoes.paragraphs,
-    ...(story.whatItDoes.bullets ?? []).flatMap((item) => [item.title, item.detail]),
+    ...(story.whatItDoes.bullets ?? []).flatMap((item) => [
+      item.title,
+      item.detail,
+    ]),
     ...story.howItMakesMoney.paragraphs,
     ...story.growth.paragraphs,
-    ...(story.growth.bullets ?? []).flatMap((item) => [item.title, item.detail]),
+    ...(story.growth.bullets ?? []).flatMap((item) => [
+      item.title,
+      item.detail,
+    ]),
     ...story.performance.paragraphs,
     ...story.cash.paragraphs,
     ...story.valuation.paragraphs,
     ...story.analysts.paragraphs,
     story.risks.intro,
-    ...story.risks.items.flatMap((item) => [item.title, item.detail, item.watch]),
+    ...story.risks.items.flatMap((item) => [
+      item.title,
+      item.detail,
+      item.watch,
+    ]),
     ...story.risks.watchlist.flatMap((item) => [item.title, item.detail]),
     ...story.bottomLine.paragraphs,
     ...story.bottomLine.questions,
@@ -41,19 +51,27 @@ function allText(story: StockStory): string {
 }
 
 function allowsNegativeGuarantee(text: string, matchIndex: number): boolean {
-  const prefix = text.slice(Math.max(0, matchIndex - 16), matchIndex).toLowerCase();
+  const prefix = text
+    .slice(Math.max(0, matchIndex - 16), matchIndex)
+    .toLowerCase();
   return /\b(not|never|no|without)\s+$/.test(prefix);
 }
 
-export function validateStory(story: StockStory, market: "US" | "IN" = "US"): string[] {
+export function validateStory(story: StockStory): string[] {
   const errors: string[] = [];
 
-  if (!story.title || story.title.length < 20) errors.push(`${story.ticker}: title is too short`);
-  if (!story.dek || story.dek.length < 60) errors.push(`${story.ticker}: dek is too short`);
-  if (story.takeaways.length < 3) errors.push(`${story.ticker}: needs at least 3 takeaways`);
-  if (story.risks.items.length < 5) errors.push(`${story.ticker}: needs at least 5 risks`);
-  if (story.risks.watchlist.length < 3) errors.push(`${story.ticker}: needs at least 3 watch items`);
-  if (story.bottomLine.questions.length < 3) errors.push(`${story.ticker}: needs at least 3 questions`);
+  if (!story.title || story.title.length < 20)
+    errors.push(`${story.ticker}: title is too short`);
+  if (!story.dek || story.dek.length < 60)
+    errors.push(`${story.ticker}: dek is too short`);
+  if (story.takeaways.length < 3)
+    errors.push(`${story.ticker}: needs at least 3 takeaways`);
+  if (story.risks.items.length < 5)
+    errors.push(`${story.ticker}: needs at least 5 risks`);
+  if (story.risks.watchlist.length < 3)
+    errors.push(`${story.ticker}: needs at least 3 watch items`);
+  if (story.bottomLine.questions.length < 3)
+    errors.push(`${story.ticker}: needs at least 3 questions`);
 
   const requiredBlocks: Array<[string, StoryBlock]> = [
     ["bigPicture", story.bigPicture],
@@ -91,27 +109,18 @@ export function validateStory(story: StockStory, market: "US" | "IN" = "US"): st
     }
   }
 
-  const allowedFiling = market === "IN"
-    ? /^https:\/\/(www\.)?(nseindia\.com|bseindia\.com)\//.test(story.filingUrl)
-    : /^https:\/\/www\.sec\.gov\//.test(story.filingUrl);
+  const allowedFiling = /^https:\/\/www\.sec\.gov\//.test(story.filingUrl);
   if (!allowedFiling) {
-    errors.push(
-      `${story.ticker}: filingUrl should point to ${
-        market === "IN" ? "NSE/BSE" : "SEC EDGAR"
-      }`,
-    );
+    errors.push(`${story.ticker}: filingUrl should point to SEC EDGAR`);
   }
 
   return errors;
 }
 
-export function validateStories(
-  stories: Record<string, StockStory>,
-  market: "US" | "IN" = "US",
-): string[] {
-  return Object.values(stories).flatMap((story) => validateStory(story, market));
+export function validateStories(stories: Record<string, StockStory>): string[] {
+  return Object.values(stories).flatMap((story) => validateStory(story));
 }
 
 export function validateContent(): string[] {
-  return validateStories(STOCK_STORIES, "US");
+  return validateStories(STOCK_STORIES);
 }

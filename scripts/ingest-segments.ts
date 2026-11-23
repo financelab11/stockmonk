@@ -13,7 +13,11 @@ import path from "node:path";
 import { XMLParser } from "fast-xml-parser";
 import { RESEARCH_TICKERS } from "../config/universe";
 import { getFilingIndex, getSubmissions } from "../lib/edgar";
-import { segmentMixSchema, type MixSlice, type SegmentMix } from "../lib/schemas";
+import {
+  segmentMixSchema,
+  type MixSlice,
+  type SegmentMix,
+} from "../lib/schemas";
 
 const PROCESSED = path.join(process.cwd(), "data", "processed");
 const OUT = path.join(process.cwd(), "data", "segments");
@@ -38,7 +42,8 @@ type Candidate = { member: string; value: number };
 const MEMBER_LABELS: Record<string, string> = {
   "nvda:ComputeAndNetworkingSegmentMember": "Compute & Networking",
   "nvda:GraphicsSegmentMember": "Graphics",
-  "msft:ProductivityAndBusinessProcessesMember": "Productivity & Business Processes",
+  "msft:ProductivityAndBusinessProcessesMember":
+    "Productivity & Business Processes",
   "msft:IntelligentCloudMember": "Intelligent Cloud",
   "msft:MorePersonalComputingMember": "More Personal Computing",
   "goog:GoogleServicesMember": "Google Services",
@@ -102,7 +107,10 @@ const SEGMENT_OVERRIDES: Record<string, Override> = {
     members: [
       { member: "aapl:IPhoneMember", name: "iPhone" },
       { member: "us-gaap:ServiceMember", name: "Services" },
-      { member: "aapl:WearablesHomeandAccessoriesMember", name: "Wearables, Home & Accessories" },
+      {
+        member: "aapl:WearablesHomeandAccessoriesMember",
+        name: "Wearables, Home & Accessories",
+      },
       { member: "aapl:MacMember", name: "Mac" },
       { member: "aapl:IPadMember", name: "iPad" },
     ],
@@ -110,7 +118,10 @@ const SEGMENT_OVERRIDES: Record<string, Override> = {
   LLY: {
     label: "Therapeutic area",
     members: [
-      { member: "lly:CardiometabolicHealthMember", name: "Cardiometabolic Health" },
+      {
+        member: "lly:CardiometabolicHealthMember",
+        name: "Cardiometabolic Health",
+      },
       { member: "lly:OncologyMember", name: "Oncology" },
       { member: "lly:ImmunologyMember", name: "Immunology" },
       { member: "lly:NeuroscienceMember", name: "Neuroscience" },
@@ -124,8 +135,13 @@ function humanize(member: string): string {
   if (known) return known;
   let text = member.split(":").pop() ?? member;
   text = text.replace(/Member$/, "").replace(/Segment$/, "");
-  text = text.replace(/IPhone/g, "iPhone").replace(/IPad/g, "iPad").replace(/ThreeSixFive/g, "365");
-  text = text.replace(/([a-z0-9])([A-Z])/g, "$1 $2").replace(/([A-Z]+)([A-Z][a-z])/g, "$1 $2");
+  text = text
+    .replace(/IPhone/g, "iPhone")
+    .replace(/IPad/g, "iPad")
+    .replace(/ThreeSixFive/g, "365");
+  text = text
+    .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
+    .replace(/([A-Z]+)([A-Z][a-z])/g, "$1 $2");
   text = text.replace(/\band\b/gi, "&");
   return text;
 }
@@ -136,7 +152,9 @@ function asArray<T>(value: T | T[] | undefined): T[] {
 }
 
 function contextDims(context: Record<string, unknown>): Dim[] {
-  const segment = (context.entity as { segment?: { explicitMember?: unknown } } | undefined)?.segment;
+  const segment = (
+    context.entity as { segment?: { explicitMember?: unknown } } | undefined
+  )?.segment;
   return asArray(segment?.explicitMember).map((entry) => {
     const member = entry as Record<string, unknown>;
     return {
@@ -146,8 +164,12 @@ function contextDims(context: Record<string, unknown>): Dim[] {
   });
 }
 
-async function loadInstance(ticker: string): Promise<{ xml: string; sec: Record<string, unknown> }> {
-  const sec = JSON.parse(await fs.readFile(path.join(PROCESSED, ticker, "sec.json"), "utf8")) as Record<string, unknown>;
+async function loadInstance(
+  ticker: string,
+): Promise<{ xml: string; sec: Record<string, unknown> }> {
+  const sec = JSON.parse(
+    await fs.readFile(path.join(PROCESSED, ticker, "sec.json"), "utf8"),
+  ) as Record<string, unknown>;
   const filings = sec.filings as
     | { latest10K?: { accession: string; url: string; filed: string } }
     | undefined;
@@ -156,7 +178,10 @@ async function loadInstance(ticker: string): Promise<{ xml: string; sec: Record<
     throw new Error("no 10-K filing in sec.json");
   }
   const accession = latest10K.accession;
-  const file = path.join(CACHE, `instance-${ticker}-${accession.replace(/-/g, "")}.xml`);
+  const file = path.join(
+    CACHE,
+    `instance-${ticker}-${accession.replace(/-/g, "")}.xml`,
+  );
   try {
     return { xml: await fs.readFile(file, "utf8"), sec };
   } catch {
@@ -165,11 +190,16 @@ async function loadInstance(ticker: string): Promise<{ xml: string; sec: Record<
   const submissions = await getSubmissions(String(sec.cik));
   const cik = String(Number(submissions.cik));
   const index = await getFilingIndex(cik, accession);
-  const name = index.directory.item.find((item) => /_htm\.xml$/i.test(item.name))?.name;
+  const name = index.directory.item.find((item) =>
+    /_htm\.xml$/i.test(item.name),
+  )?.name;
   if (!name) throw new Error(`no XBRL instance for ${ticker}`);
   const url = `https://www.sec.gov/Archives/edgar/data/${cik}/${accession.replace(/-/g, "")}/${name}`;
   const res = await fetch(url, {
-    headers: { "User-Agent": "Stockmonk research contact@stockmonk.app", Accept: "application/xml" },
+    headers: {
+      "User-Agent": "Stockmonk research contact@stockmonk.app",
+      Accept: "application/xml",
+    },
     signal: AbortSignal.timeout(120_000),
   });
   if (!res.ok) throw new Error(`SEC ${res.status} ${url}`);
@@ -178,9 +208,17 @@ async function loadInstance(ticker: string): Promise<{ xml: string; sec: Record<
   return { xml, sec };
 }
 
-function revenueFacts(root: Record<string, unknown>, annualEnd: string): FactRow[] {
-  const contexts = asArray(root.context as Record<string, unknown> | Record<string, unknown>[] | undefined);
-  const byId = new Map(contexts.map((context) => [String(context["@_id"]), context]));
+function revenueFacts(
+  root: Record<string, unknown>,
+  annualEnd: string,
+): FactRow[] {
+  const contexts = asArray(
+    root.context as
+      Record<string, unknown> | Record<string, unknown>[] | undefined,
+  );
+  const byId = new Map(
+    contexts.map((context) => [String(context["@_id"]), context]),
+  );
   const rows: FactRow[] = [];
 
   for (const tag of REVENUE_TAGS) {
@@ -190,7 +228,8 @@ function revenueFacts(root: Record<string, unknown>, annualEnd: string): FactRow
       const fact = entry as Record<string, unknown>;
       const context = byId.get(String(fact["@_contextRef"]));
       if (!context) continue;
-      const period = context.period as { startDate?: string; endDate?: string } | undefined;
+      const period = context.period as
+        { startDate?: string; endDate?: string } | undefined;
       if (period?.endDate !== annualEnd || !period?.startDate) continue;
       const value = Number(fact["#text"]);
       if (!Number.isFinite(value)) continue;
@@ -208,22 +247,35 @@ function revenueFacts(root: Record<string, unknown>, annualEnd: string): FactRow
   const byContext = new Map<string, FactRow>();
   for (const row of rows) {
     const previous = byContext.get(row.contextId);
-    if (!previous || (TAG_PRIORITY.get(row.tag) ?? 99) < (TAG_PRIORITY.get(previous.tag) ?? 99)) {
+    if (
+      !previous ||
+      (TAG_PRIORITY.get(row.tag) ?? 99) < (TAG_PRIORITY.get(previous.tag) ?? 99)
+    ) {
       byContext.set(row.contextId, row);
     }
   }
   return [...byContext.values()];
 }
 
-function candidates(facts: FactRow[], dimension: string, mode: "max" | "sum"): Candidate[] {
+function candidates(
+  facts: FactRow[],
+  dimension: string,
+  mode: "max" | "sum",
+): Candidate[] {
   const byMember = new Map<string, { value: number; contexts: Set<string> }>();
   for (const fact of facts) {
     const dim = fact.dims.find((entry) => entry.dimension === dimension);
     if (!dim) continue;
-    const entry = byMember.get(dim.member) ?? { value: 0, contexts: new Set<string>() };
+    const entry = byMember.get(dim.member) ?? {
+      value: 0,
+      contexts: new Set<string>(),
+    };
     if (entry.contexts.has(fact.contextId)) continue;
     entry.contexts.add(fact.contextId);
-    entry.value = mode === "max" ? Math.max(entry.value, fact.value) : entry.value + fact.value;
+    entry.value =
+      mode === "max"
+        ? Math.max(entry.value, fact.value)
+        : entry.value + fact.value;
     byMember.set(dim.member, entry);
   }
   return [...byMember.entries()]
@@ -251,7 +303,10 @@ function bestSubset(items: Candidate[], target: number): Candidate[] {
     }
     if (count < 2) continue;
     const diff = Math.abs(sum - target) / target;
-    if (diff < bestDiff - 1e-9 || (Math.abs(diff - bestDiff) <= 1e-9 && count < bestCount)) {
+    if (
+      diff < bestDiff - 1e-9 ||
+      (Math.abs(diff - bestDiff) <= 1e-9 && count < bestCount)
+    ) {
       best = subset;
       bestDiff = diff;
       bestCount = count;
@@ -261,7 +316,11 @@ function bestSubset(items: Candidate[], target: number): Candidate[] {
   return best.length ? best : candidates;
 }
 
-function toSlices(items: Candidate[], target: number, labeler: (member: string) => string): MixSlice[] {
+function toSlices(
+  items: Candidate[],
+  target: number,
+  labeler: (member: string) => string,
+): MixSlice[] {
   return items
     .map((item) => ({
       name: labeler(item.member),
@@ -271,7 +330,11 @@ function toSlices(items: Candidate[], target: number, labeler: (member: string) 
     .sort((a, b) => b.revenue - a.revenue);
 }
 
-function addResidual(slices: MixSlice[], target: number, label: string): MixSlice[] {
+function addResidual(
+  slices: MixSlice[],
+  target: number,
+  label: string,
+): MixSlice[] {
   const sum = slices.reduce((total, slice) => total + slice.revenue, 0);
   const residual = target - sum;
   if (residual > target * 0.001 && residual > 0) {
@@ -305,7 +368,11 @@ async function main() {
       continue;
     }
 
-    const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_", removeNSPrefix: true });
+    const parser = new XMLParser({
+      ignoreAttributes: false,
+      attributeNamePrefix: "@_",
+      removeNSPrefix: true,
+    });
     const root = parser.parse(xml).xbrl as Record<string, unknown>;
     const facts = revenueFacts(root, latestAnnual.end);
     const override = SEGMENT_OVERRIDES[ticker];
@@ -321,24 +388,42 @@ async function main() {
         // double-count, while genuine US / non-US splits still add up.
         const values = new Set(
           facts
-            .filter((fact) => fact.dims.some((dim) => dim.member === entry.member))
+            .filter((fact) =>
+              fact.dims.some((dim) => dim.member === entry.member),
+            )
             .map((fact) => fact.value),
         );
         const value = [...values].reduce((total, amount) => total + amount, 0);
-        return { name: entry.name, revenue: Math.round(value), share: value / target };
+        return {
+          name: entry.name,
+          revenue: Math.round(value),
+          share: value / target,
+        };
       });
-      segments = selected.filter((slice) => slice.revenue > 0).sort((a, b) => b.revenue - a.revenue);
+      segments = selected
+        .filter((slice) => slice.revenue > 0)
+        .sort((a, b) => b.revenue - a.revenue);
     } else {
       const segmentCandidates = candidates(facts, SEGMENT_AXIS, "max");
-      segments = toSlices(bestSubset(segmentCandidates, target), target, humanize);
+      segments = toSlices(
+        bestSubset(segmentCandidates, target),
+        target,
+        humanize,
+      );
     }
 
     segments = addResidual(segments, target, "Corporate / other");
 
     const geoLabel = "Geography";
-    const geography = toSlices(bestSubset(candidates(facts, GEO_AXIS, "max"), target), target, humanize);
+    const geography = toSlices(
+      bestSubset(candidates(facts, GEO_AXIS, "max"), target),
+      target,
+      humanize,
+    );
 
-    const filings = sec.filings as { latest10K: { url: string; filed: string } };
+    const filings = sec.filings as {
+      latest10K: { url: string; filed: string };
+    };
     const entityName = String(sec.entityName ?? ticker);
     const mix: SegmentMix = {
       ticker,
@@ -355,7 +440,11 @@ async function main() {
     };
 
     const parsed = segmentMixSchema.parse(mix);
-    await fs.writeFile(path.join(OUT, `${ticker}.json`), JSON.stringify(parsed, null, 2), "utf8");
+    await fs.writeFile(
+      path.join(OUT, `${ticker}.json`),
+      JSON.stringify(parsed, null, 2),
+      "utf8",
+    );
     console.log(
       `[segments] ${ticker}: ${segments.map((s) => `${s.name} ${(s.revenue / 1e9).toFixed(1)}B`).join(", ")}`,
     );

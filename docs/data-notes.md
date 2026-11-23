@@ -9,9 +9,6 @@
 | Prices | SimFin daily adjusted prices | Price charts, 52-week range, returns, market cap and multiple history |
 | Analyst consensus | Yahoo Finance (primary), Nasdaq (cross-check / fallback) | Attributed target range, recommendation distribution, forward estimates, EPS surprises |
 | Segment mix | Company 10-K XBRL dimensional facts | Reportable segments, product categories and geography mix |
-| India fundamentals | NSE/BSE filings via Screener; Yahoo Finance fallback | Annual/quarterly statements, balance sheet, cash flow and ratios for the 100 India names |
-| India prices | Yahoo Finance chart API; Screener weekly chart fallback | INR price history, returns and 52-week range |
-| India consensus | Yahoo Finance earningsTrend / financialData | Attributed target range and forward estimates |
 | Logos | CompaniesMarketCap logo CDN | Local brand thumbnails; initials fallback in the UI |
 
 The SimFin API key is read only by build-time ingestion scripts. It is never
@@ -27,8 +24,6 @@ pnpm backfill:filings  # copy latest 10-K URLs into processed records
 pnpm ingest:consensus  # third-party consensus snapshots
 pnpm ingest:segments   # 10-K segment and geography mixes
 pnpm build:data        # regenerate public/data/stocks.json + search-index.json
-pnpm ingest:india      # NSE/BSE statements, INR prices and consensus
-pnpm build:india       # regenerate public/data/india/stocks.json + search-index.json
 ```
 
 Each script writes deterministic JSON under `data/` and `public/data/`. The app
@@ -97,30 +92,6 @@ pnpm audit:stories       # duplicate text, length and vendor-leak checks
 
 Quantitative claims in `content/stocks/{ticker}.ts` must trace to the brief, a
 processed field or the cited SEC filing.
-
-## India universe
-
-The India coverage lives in `config/india-coverage.ts` (100 NSE symbols across
-11 groups). All 100 names have a hand-written `content/india-stocks/{ticker}.ts`
-narrative, authored against a per-company brief that draws on NSE/BSE filings
-and the processed India dataset. The India pages live at `/india`,
-`/india/all-stocks` and `/india/stocks/{ticker}`.
-
-India-specific caveats:
-
-- **Currency.** All India values are in INR. The UI uses rupee and crore/lakh
-  formatting; no USD conversion is applied.
-- **Statements.** Consolidated statements are preferred, with standalone or
-  Yahoo Finance fallback when a company does not publish consolidated quarterly
-  data.
-- **Prices.** Yahoo Finance daily history is primary; Screener weekly history is
-  used when the daily series is incomplete.
-- **Consensus.** Third-party target ranges and estimates are shown with the
-  snapshot date. They are not Stockmonk ratings or targets.
-- **Segments.** Most India companies do not have a segment file, so the report
-  uses a single consolidated revenue slice rather than inventing a split.
-- **Data gaps.** Where a ratio or cash-flow line is unavailable, the report says
-  so instead of estimating it.
 
 ## Attribution and licensing
 

@@ -14,9 +14,15 @@ async function main() {
   const ranges = buildRangeFiles(chart.points, "SPY");
   await fs.mkdir(PUBLIC, { recursive: true });
   for (const [range, points] of Object.entries(ranges)) {
-    await fs.writeFile(path.join(PUBLIC, `${range}.json`), JSON.stringify(points), "utf8");
+    await fs.writeFile(
+      path.join(PUBLIC, `${range}.json`),
+      JSON.stringify(points),
+      "utf8",
+    );
   }
-  console.log(`[benchmark] SPY: ${chart.points.length} prices, ${Object.keys(ranges).length} ranges`);
+  console.log(
+    `[benchmark] SPY: ${chart.points.length} prices, ${Object.keys(ranges).length} ranges`,
+  );
 }
 
 main().catch((error) => {

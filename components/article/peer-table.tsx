@@ -141,7 +141,7 @@ export function PeerTable({
                 }`}
               >
                 <span className="flex items-center gap-2">
-                  <StockLogo ticker={row.ticker} size={26} hideLogo={currency === "INR"} />
+                  <StockLogo ticker={row.ticker} size={26} />
                   <span className="min-w-0">
                     <span className="block max-w-[150px] truncate text-[11.5px] font-semibold text-ink">
                       {row.name}

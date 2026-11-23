@@ -8,8 +8,17 @@
 import fs from "node:fs";
 import path from "node:path";
 import { CORE_RESEARCH_TICKERS, RESEARCH_TICKERS } from "../config/universe";
-import { consensusSchema, segmentMixSchema, tickerDataSchema } from "../lib/schemas";
-import { buildFullFactorScores, computeCagr, latestQuarterYoY, rangePosition } from "../lib/analytics";
+import {
+  consensusSchema,
+  segmentMixSchema,
+  tickerDataSchema,
+} from "../lib/schemas";
+import {
+  buildFullFactorScores,
+  computeCagr,
+  latestQuarterYoY,
+  rangePosition,
+} from "../lib/analytics";
 import { generateStockStory } from "../lib/generated-story";
 
 const STOCKS = path.join(process.cwd(), "content", "stocks");

@@ -41,26 +41,6 @@ export default function DataSourcesPage() {
               <td>Income statement, balance sheet, cash flow and derived ratios for all 229 US companies.</td>
             </tr>
             <tr>
-              <td className="font-medium text-ink">India fundamentals</td>
-              <td><a href="https://www.nseindia.com/" target="_blank" rel="noreferrer noopener" className="link-underline">NSE</a> / <a href="https://www.bseindia.com/" target="_blank" rel="noreferrer noopener" className="link-underline">BSE</a> filings · Screener</td>
-              <td>Annual and quarterly statements, balance sheet, cash flow and ratios for the 100 India names.</td>
-            </tr>
-            <tr>
-              <td className="font-medium text-ink">India earnings tracker</td>
-              <td><a href="https://www.screener.in/screens/599148/companies-by-market-cap/" target="_blank" rel="noreferrer noopener" className="link-underline">Screener.in</a> (authorised)</td>
-              <td>Latest-quarter sales, operating profit, net profit, EPS, market cap, P/E, ROCE and industry for companies above ₹1,000 Cr. The screen refreshes daily and company pages weekly. PEG is calculated by Stockmonk.</td>
-            </tr>
-            <tr>
-              <td className="font-medium text-ink">1Y returns</td>
-              <td><a href="https://finance.yahoo.com/" target="_blank" rel="noreferrer noopener" className="link-underline">Yahoo Finance</a></td>
-              <td>Daily closes for the earnings tracker; the 1Y return compares the latest close with the close a year earlier (NSE symbols, BSE fallback).</td>
-            </tr>
-            <tr>
-              <td className="font-medium text-ink">Company profiles</td>
-              <td><a href="https://marketsmithindia.com/" target="_blank" rel="noreferrer noopener" className="link-underline">MarketSmith India</a> (authorised)</td>
-              <td>Company description, key statistics, annual and quarterly ratios, income statement, balance sheet, cash flow, ownership and surveillance checks. Consolidated statements are preferred, with standalone as the fallback.</td>
-            </tr>
-            <tr>
               <td className="font-medium text-ink">Regulatory flows</td>
               <td><a href="https://www.sec.gov/edgar/search/" target="_blank" rel="noreferrer noopener" className="link-underline">SEC EDGAR</a></td>
               <td>XBRL company facts, 10-K/10-Q flows, segment and geography facts.</td>
@@ -68,7 +48,7 @@ export default function DataSourcesPage() {
             <tr>
               <td className="font-medium text-ink">Prices</td>
               <td>SimFin daily prices</td>
-              <td>Price charts, 52-week range, returns, market cap and multiple history for US and India names.</td>
+              <td>Price charts, 52-week range, returns, market cap and multiple history for US names.</td>
             </tr>
             <tr>
               <td className="font-medium text-ink">Consensus</td>

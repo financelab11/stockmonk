@@ -4,12 +4,6 @@ const ROUTES = [
   "/",
   "/discover",
   "/discover/all-stocks",
-  "/india",
-  "/india/all-stocks",
-  "/india/stocks/KAYNES",
-  "/gcc",
-  "/gcc/all-stocks",
-  "/gcc/stocks/2222",
   "/screener",
   "/framework",
   "/stocks/NVDA",
@@ -23,7 +17,6 @@ const ROUTES = [
   "/editorial-guidelines",
   "/data-sources",
   "/offline",
-  "/tools/growth-ranker",
 ];
 
 test.describe("route smoke tests", () => {
@@ -39,15 +32,28 @@ test.describe("route smoke tests", () => {
       expect(response?.status(), route).toBeLessThan(400);
       await expect(page.locator("h1").first()).toBeVisible();
       await expect(
-        page.getByText(/For informational and educational purposes only/i).first(),
+        page
+          .getByText(/For informational and educational purposes only/i)
+          .first(),
       ).toBeVisible();
       expect(errors, `${route} console errors`).toEqual([]);
     });
   }
 
   test("unknown route returns the not-found page", async ({ page }) => {
-    const response = await page.goto("/stocks/NOPE", { waitUntil: "networkidle" });
+    const response = await page.goto("/stocks/NOPE", {
+      waitUntil: "networkidle",
+    });
     expect(response?.status()).toBe(404);
     await expect(page.getByText(/not in the library/i)).toBeVisible();
+  });
+
+  test("legacy India and GCC routes redirect to the US app", async ({
+    request,
+  }) => {
+    for (const path of ["/india", "/gcc", "/tools/growth-ranker"]) {
+      const response = await request.get(path, { maxRedirects: 0 });
+      expect([301, 308], path).toContain(response.status());
+    }
   });
 });

@@ -26,10 +26,14 @@ const PUBLIC_DATA = path.join(process.cwd(), "public", "data");
 const DELAY_MS = Number(process.env.PRICE_DELAY_MS ?? 150);
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
-const raw = (value: { raw?: number } | number | null | undefined): number | null => {
+const raw = (
+  value: { raw?: number } | number | null | undefined,
+): number | null => {
   if (value == null) return null;
   if (typeof value === "number") return Number.isFinite(value) ? value : null;
-  return typeof value.raw === "number" && Number.isFinite(value.raw) ? value.raw : null;
+  return typeof value.raw === "number" && Number.isFinite(value.raw)
+    ? value.raw
+    : null;
 };
 
 async function readJson<T>(file: string): Promise<T | null> {
@@ -69,19 +73,23 @@ async function main() {
         raw(quote?.marketCap) ??
         raw(detail?.marketCap) ??
         (raw(quote?.regularMarketPrice) != null &&
-        (raw(quote?.sharesOutstanding) ?? raw(summary?.defaultKeyStatistics?.sharesOutstanding)) !=
-          null
+        (raw(quote?.sharesOutstanding) ??
+          raw(summary?.defaultKeyStatistics?.sharesOutstanding)) != null
           ? (raw(quote?.regularMarketPrice) as number) *
             (raw(quote?.sharesOutstanding) ??
               (raw(summary?.defaultKeyStatistics?.sharesOutstanding) as number))
           : null);
 
       const existing =
-        (await readJson<PricePoint[]>(path.join(PROCESSED, ticker, "prices.json"))) ?? [];
+        (await readJson<PricePoint[]>(
+          path.join(PROCESSED, ticker, "prices.json"),
+        )) ?? [];
       const merged = new Map<string, PricePoint>();
       for (const point of existing) merged.set(point.d, point);
       for (const point of chart.points) merged.set(point.d, point);
-      const prices = [...merged.values()].sort((a, b) => a.d.localeCompare(b.d));
+      const prices = [...merged.values()].sort((a, b) =>
+        a.d.localeCompare(b.d),
+      );
 
       const last = prices[prices.length - 1];
       if (marketCap != null) last.mc = marketCap;
@@ -94,18 +102,29 @@ async function main() {
       data.multipleHistory = buildMultipleHistory(prices);
       data.updatedAt = new Date().toISOString();
 
-      await fs.writeFile(path.join(PROCESSED, ticker, "prices.json"), JSON.stringify(prices), "utf8");
+      await fs.writeFile(
+        path.join(PROCESSED, ticker, "prices.json"),
+        JSON.stringify(prices),
+        "utf8",
+      );
       await fs.writeFile(dataFile, JSON.stringify(data, null, 2), "utf8");
 
       const dir = path.join(PUBLIC_DATA, "prices", ticker);
       await fs.mkdir(dir, { recursive: true });
-      for (const [range, points] of Object.entries(buildRangeFiles(prices, ticker))) {
-        await fs.writeFile(path.join(dir, `${range}.json`), JSON.stringify(points), "utf8");
+      for (const [range, points] of Object.entries(
+        buildRangeFiles(prices, ticker),
+      )) {
+        await fs.writeFile(
+          path.join(dir, `${range}.json`),
+          JSON.stringify(points),
+          "utf8",
+        );
       }
 
       updated += 1;
       if (data.latestPrice.asOf > newest) newest = data.latestPrice.asOf;
-      if (updated % 25 === 0) console.log(`[prices] ${updated} updated (latest ${newest})`);
+      if (updated % 25 === 0)
+        console.log(`[prices] ${updated} updated (latest ${newest})`);
     } catch (error) {
       failed += 1;
       console.warn(
@@ -115,7 +134,9 @@ async function main() {
     await sleep(DELAY_MS);
   }
 
-  console.log(`[prices] updated ${updated}, failed ${failed}, newest close ${newest}`);
+  console.log(
+    `[prices] updated ${updated}, failed ${failed}, newest close ${newest}`,
+  );
 }
 
 main().catch((error) => {

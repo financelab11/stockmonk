@@ -32,7 +32,9 @@ function readJson<T>(file: string): T | null {
 }
 
 function prices(ticker: string, range: string): RangePricePoint[] {
-  const raw = readJson<unknown[]>(path.join(PUBLIC, "prices", ticker, `${range}.json`)) ?? [];
+  const raw =
+    readJson<unknown[]>(path.join(PUBLIC, "prices", ticker, `${range}.json`)) ??
+    [];
   return raw
     .map((point) => rangePricePointSchema.safeParse(point))
     .filter((result) => result.success)
@@ -60,14 +62,18 @@ function roundDeep(value: unknown): unknown {
 async function main() {
   const benchmark = prices("SPY", "MAX");
   if (benchmark.length < 30) {
-    throw new Error("SPY benchmark prices are missing; run pnpm ingest:benchmark");
+    throw new Error(
+      "SPY benchmark prices are missing; run pnpm ingest:benchmark",
+    );
   }
 
   const bundles = RESEARCH_TICKERS.map((ticker) => {
     const data = readJson<unknown>(path.join(PROCESSED, ticker, "data.json"));
     if (!data) return null;
     const parsedData: TickerData = tickerDataSchema.parse(data);
-    const consensusRaw = readJson<unknown>(path.join(CONSENSUS, `${ticker}.json`));
+    const consensusRaw = readJson<unknown>(
+      path.join(CONSENSUS, `${ticker}.json`),
+    );
     const consensusParsed = consensusRaw
       ? consensusSchema.safeParse(consensusRaw)
       : null;
@@ -106,7 +112,9 @@ async function main() {
   const existingFile = path.join(PUBLIC, "screener.json");
   if (expanded.length === 0 && fs.existsSync(existingFile)) {
     try {
-      const existing = JSON.parse(fs.readFileSync(existingFile, "utf8")) as unknown[];
+      const existing = JSON.parse(
+        fs.readFileSync(existingFile, "utf8"),
+      ) as unknown[];
       if (existing.length > curatedEntries.length + 100) {
         console.warn(
           "[screener:data] bulk export missing; keeping the committed expanded snapshot",
@@ -145,7 +153,10 @@ async function main() {
     const { factors, ...rest } = row;
     void factors;
     const factorScores = Object.fromEntries(
-      FACTOR_CONFIG.map((factor) => [factor.key, row.factors[factor.key].score]),
+      FACTOR_CONFIG.map((factor) => [
+        factor.key,
+        row.factors[factor.key].score,
+      ]),
     );
     return roundDeep({ ...rest, factorScores });
   });

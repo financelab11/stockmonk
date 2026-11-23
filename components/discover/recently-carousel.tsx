@@ -9,19 +9,17 @@ export function RecentlyCarousel({ bundles }: { bundles: ResearchBundle[] }) {
       {bundles.map((bundle) => (
         <Link
           key={bundle.data.ticker}
-          href={
-            bundle.data.market === "IN"
-              ? `/india/stocks/${bundle.data.ticker}`
-              : bundle.data.market === "GCC"
-                ? `/gcc/stocks/${bundle.data.ticker}`
-                : `/stocks/${bundle.data.ticker}`
-          }
+          href={`/stocks/${bundle.data.ticker}`}
           className="card flex w-[168px] shrink-0 snap-start items-center gap-2 p-2.5 hover:border-brand/40"
         >
           <StockLogoStatic ticker={bundle.data.ticker} size={28} />
           <span className="min-w-0">
-            <span className="block font-mono text-[10px] font-bold text-brand">{bundle.data.ticker}</span>
-            <span className="block truncate text-[9.5px] text-muted">{bundle.data.name}</span>
+            <span className="block font-mono text-[10px] font-bold text-brand">
+              {bundle.data.ticker}
+            </span>
+            <span className="block truncate text-[9.5px] text-muted">
+              {bundle.data.name}
+            </span>
             <span className="mt-0.5 flex items-baseline gap-1">
               <span className="tabular text-[10px] font-medium text-ink">
                 {formatCurrency(
@@ -30,7 +28,9 @@ export function RecentlyCarousel({ bundles }: { bundles: ResearchBundle[] }) {
                   bundle.data.currency ?? "USD",
                 )}
               </span>
-              <span className={`tabular text-[9px] font-semibold ${(bundle.data.metrics.return1y ?? 0) >= 0 ? "text-positive" : "text-danger"}`}>
+              <span
+                className={`tabular text-[9px] font-semibold ${(bundle.data.metrics.return1y ?? 0) >= 0 ? "text-positive" : "text-danger"}`}
+              >
                 {formatSignedPercent(bundle.data.metrics.return1y)}{" "}
                 <span className="font-normal text-muted">1Y</span>
               </span>

@@ -1,10 +1,6 @@
 import type { MetadataRoute } from "next";
 import { ALL_TICKERS, BENCHMARK_TICKER } from "@/config/universe";
-import { INDIA_TICKERS } from "@/config/india-coverage";
-import { GCC_PUBLISHED_TICKERS } from "@/config/gcc-coverage";
-import { getGrowthRankerDataset } from "@/lib/growth-ranker/dataset";
 import { SITE } from "@/lib/constants";
-import { readEarningsTracker } from "@/lib/earnings-tracker";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -13,12 +9,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/discover`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE.url}/discover/all-stocks`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
     { url: `${SITE.url}/screener`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
-    { url: `${SITE.url}/india`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
-    { url: `${SITE.url}/india/all-stocks`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
-    { url: `${SITE.url}/india/earnings-tracker`, lastModified: now, changeFrequency: "daily", priority: 0.7 },
-    { url: `${SITE.url}/tools/growth-ranker`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
-    { url: `${SITE.url}/gcc`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
-    { url: `${SITE.url}/gcc/all-stocks`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
     { url: `${SITE.url}/framework`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE.url}/watchlist`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
     { url: `${SITE.url}/about`, lastModified: now, changeFrequency: "yearly", priority: 0.4 },
@@ -37,44 +27,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const indiaRoutes: MetadataRoute.Sitemap = INDIA_TICKERS.map((ticker) => ({
-    url: `${SITE.url}/india/stocks/${ticker}`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.8,
-  }));
-
-  const gccRoutes: MetadataRoute.Sitemap = GCC_PUBLISHED_TICKERS.map((ticker) => ({
-    url: `${SITE.url}/gcc/stocks/${ticker}`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.8,
-  }));
-
-  const growthRankerRoutes: MetadataRoute.Sitemap = getGrowthRankerDataset().results.map(
-    (result) => ({
-      url: `${SITE.url}/tools/growth-ranker/${result.ticker}`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.5,
-    }),
-  );
-
-  const companyProfileRoutes: MetadataRoute.Sitemap = (
-    readEarningsTracker()?.rows ?? []
-  ).map((row) => ({
-    url: `${SITE.url}/india/companies/${row.ticker}`,
-    lastModified: now,
-    changeFrequency: "daily",
-    priority: 0.6,
-  }));
-
-  return [
-    ...staticRoutes,
-    ...stockRoutes,
-    ...indiaRoutes,
-    ...gccRoutes,
-    ...growthRankerRoutes,
-    ...companyProfileRoutes,
-  ];
+  return [...staticRoutes, ...stockRoutes];
 }

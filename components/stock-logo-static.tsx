@@ -1,6 +1,5 @@
 import fs from "node:fs";
 import path from "node:path";
-import { logoUrl } from "@/lib/logos";
 
 const PALETTE = [
   "bg-[#0b6b53] text-white",
@@ -13,11 +12,11 @@ const PALETTE = [
   "bg-[#065f46] text-white",
 ];
 
-const legacyLogos = new Map<string, string | null>();
+const logoFiles = new Map<string, string | null>();
 
-/** US research pages keep their logos directly in public/logos. */
-function resolveLegacyLogo(ticker: string): string | null {
-  if (legacyLogos.has(ticker)) return legacyLogos.get(ticker) ?? null;
+/** US logos live directly in public/logos. */
+function resolveLogoFile(ticker: string): string | null {
+  if (logoFiles.has(ticker)) return logoFiles.get(ticker) ?? null;
   const pngPath = path.join(process.cwd(), "public", "logos", `${ticker}.png`);
   const svgPath = path.join(process.cwd(), "public", "logos", `${ticker}.svg`);
   const file = fs.existsSync(pngPath)
@@ -25,7 +24,7 @@ function resolveLegacyLogo(ticker: string): string | null {
     : fs.existsSync(svgPath)
       ? `${ticker}.svg`
       : null;
-  legacyLogos.set(ticker, file);
+  logoFiles.set(ticker, file);
   return file;
 }
 
@@ -49,9 +48,8 @@ export function StockLogoStatic({
   className?: string;
   priority?: boolean;
 }) {
-  const indiaLogo = logoUrl(ticker);
-  const legacyLogo = indiaLogo ? null : resolveLegacyLogo(ticker);
-  const src = indiaLogo ?? (legacyLogo ? `/logos/${legacyLogo}` : null);
+  const logoFile = resolveLogoFile(ticker);
+  const src = logoFile ? `/logos/${logoFile}` : null;
   const color = PALETTE[hash(ticker) % PALETTE.length];
   const initials = ticker.replace(/[^A-Z0-9]/g, "").slice(0, 2);
 

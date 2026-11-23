@@ -29,16 +29,12 @@ export function StockCard({
   showWhy?: boolean;
   showWatchlist?: boolean;
 }) {
-  const href = entry.market === "IN" ? `/india/stocks/${entry.ticker}` : `/stocks/${entry.ticker}`;
+  const href = `/stocks/${entry.ticker}`;
   const currency = entry.currency ?? "USD";
   return (
     <article className="card group flex h-full flex-col p-4 transition-shadow hover:shadow-md">
       <div className="flex items-start gap-2.5">
-        <StockLogo
-          ticker={entry.ticker}
-          size={38}
-          hideLogo={entry.market === "IN"}
-        />
+        <StockLogo ticker={entry.ticker} size={38} />
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-start justify-between gap-1.5">
             <FactorChips chips={entry.factorChips} limit={2} />
@@ -66,7 +62,9 @@ export function StockCard({
           </p>
           <div className="mt-1.5 flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
             <span className="tabular text-[15px] font-semibold text-ink">
-              {entry.price != null ? formatCurrency(entry.price, 2, currency) : "n/a"}
+              {entry.price != null
+                ? formatCurrency(entry.price, 2, currency)
+                : "n/a"}
             </span>
             <PriceChange value={entry.changePct} className="text-[11.5px]" />
             <span className="text-[9.5px] text-faint">vs prior close</span>
@@ -78,7 +76,12 @@ export function StockCard({
           )}
         </div>
         {prices && prices.length > 1 && (
-          <Sparkline points={prices} width={92} height={34} className="mt-1 shrink-0" />
+          <Sparkline
+            points={prices}
+            width={92}
+            height={34}
+            className="mt-1 shrink-0"
+          />
         )}
       </div>
 

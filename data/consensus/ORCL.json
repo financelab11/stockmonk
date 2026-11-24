@@ -1,7 +1,7 @@
 {
   "ticker": "ORCL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/ORCL/analysis",
   "targetMean": 236.184,
   "targetHigh": 400,
@@ -37,7 +37,7 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-05-31",
-      "revenueAvg": 90462327150,
+      "revenueAvg": 90462336210,
       "revenueGrowth": 0.343,
       "epsAvg": 8.15047,
       "epsGrowth": 0.0682,
@@ -46,7 +46,7 @@
     {
       "period": "Next fiscal year",
       "endDate": "2028-05-31",
-      "revenueAvg": 131818007890,
+      "revenueAvg": 131818019210,
       "revenueGrowth": 0.45720002,
       "epsAvg": 11.05881,
       "epsGrowth": 0.3568,
@@ -59,7 +59,7 @@
       "endDate": "2025-11-30",
       "epsActual": 2.26,
       "epsEstimate": 1.6372,
-      "revenueActual": 16058000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-02-28",
       "epsActual": 1.79,
       "epsEstimate": 1.69362,
-      "revenueActual": 17190000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-05-31",
       "epsActual": 2.11,
       "epsEstimate": 1.96241,
-      "revenueActual": 19184000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-08-31",
       "epsActual": 1.92,
       "epsEstimate": 1.73834,
-      "revenueActual": 19345000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -98,7 +98,7 @@
   "revisions": {
     "eps7d": 0,
     "eps30d": 0.0012136712449590803,
-    "eps60d": 0.001143571677746369,
+    "eps60d": 0.0011140590070504164,
     "eps90d": 0.012087225712238636,
     "revenue30d": null
   }

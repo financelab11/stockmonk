@@ -1,12 +1,12 @@
 {
   "ticker": "KNF",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/KNF/analysis",
   "targetMean": 69.8,
   "targetHigh": 89,
   "targetLow": 54,
-  "recommendationKey": "buy",
+  "recommendationKey": "none",
   "analystCount": 10,
   "distribution": {
     "strongBuy": 0,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.5587,
       "epsEstimate": 0.44,
-      "revenueActual": 755064000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": -1.3877,
       "epsEstimate": -1.3225,
-      "revenueActual": 410131000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.7316,
       "epsEstimate": 1.14,
-      "revenueActual": 938587000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 2.442,
       "epsEstimate": 2.555,
-      "revenueActual": 1275601000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

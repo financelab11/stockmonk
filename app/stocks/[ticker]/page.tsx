@@ -5,7 +5,11 @@ import { SupportingProfile } from "@/components/article/supporting-profile";
 import { JsonLd } from "@/components/seo/json-ld";
 import { getStockStory } from "@/content/stocks";
 import { generateStockStory } from "@/lib/generated-story";
-import { ALL_TICKERS, BENCHMARK_TICKER, RESEARCH_TICKERS } from "@/config/universe";
+import {
+  ALL_TICKERS,
+  BENCHMARK_TICKER,
+  RESEARCH_TICKERS,
+} from "@/config/universe";
 import {
   getPrices,
   getResearchBundle,
@@ -37,12 +41,17 @@ export async function generateMetadata({
   }
 
   const bundle = getResearchBundle(data.ticker);
-  const story = getStockStory(data.ticker) ?? (bundle ? generateStockStory(bundle) : null);
+  const story =
+    getStockStory(data.ticker) ?? (bundle ? generateStockStory(bundle) : null);
   const title = story
     ? story.title
     : `${data.name} (${data.ticker}) — company profile`;
   const description = story
-    ? resolveStory(story, data).dek
+    ? resolveStory(story, {
+        data,
+        consensus: bundle?.consensus ?? null,
+        segments: bundle?.segments ?? null,
+      }).dek
     : `${data.name} (${data.ticker}) profile: price, revenue, margins and key ratios from company filings.`;
 
   return {
@@ -54,7 +63,14 @@ export async function generateMetadata({
       title: `${title} · Stockmonk`,
       description,
       url: `/stocks/${data.ticker}`,
-      images: [{ url: "/og.png", width: 1200, height: 630, alt: `${data.name} research` }],
+      images: [
+        {
+          url: "/og.png",
+          width: 1200,
+          height: 630,
+          alt: `${data.name} research`,
+        },
+      ],
       publishedTime: data.updatedAt,
       modifiedTime: data.updatedAt,
     },
@@ -80,23 +96,32 @@ export default async function StockPage({
   if (!data) notFound();
 
   const bundle = getResearchBundle(data.ticker);
-  const story = getStockStory(data.ticker) ?? (bundle ? generateStockStory(bundle) : null);
+  const story =
+    getStockStory(data.ticker) ?? (bundle ? generateStockStory(bundle) : null);
   // Load only a handful of neighbouring names for the related cards instead of
   // every research bundle on each of the 229 statically generated pages.
   const researchCompanies = getResearchCompanies();
-  const index = researchCompanies.findIndex((company) => company.ticker === data.ticker);
+  const index = researchCompanies.findIndex(
+    (company) => company.ticker === data.ticker,
+  );
   const related = [1, 2, 3]
     .map((offset) =>
       index >= 0
         ? researchCompanies[(index + offset) % researchCompanies.length]
         : null,
     )
-    .filter((company): company is NonNullable<typeof company> => company != null)
+    .filter(
+      (company): company is NonNullable<typeof company> => company != null,
+    )
     .map((company) => getResearchBundle(company.ticker))
     .filter((bundle): bundle is NonNullable<typeof bundle> => bundle != null);
 
   if (story && bundle) {
-    const resolved = resolveStory(story, data);
+    const resolved = resolveStory(story, {
+      data,
+      consensus: bundle.consensus,
+      segments: bundle.segments,
+    });
     const jsonLd = [
       articleJsonLd({
         ticker: data.ticker,
@@ -116,11 +141,7 @@ export default async function StockPage({
     return (
       <>
         <JsonLd data={jsonLd} />
-        <ResearchArticle
-          bundle={bundle}
-          story={story}
-          related={related}
-        />
+        <ResearchArticle bundle={bundle} story={story} related={related} />
       </>
     );
   }

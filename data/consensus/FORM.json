@@ -1,7 +1,7 @@
 {
   "ticker": "FORM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/FORM/analysis",
   "targetMean": 144.7,
   "targetHigh": 200,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.46,
       "epsEstimate": 0.35222,
-      "revenueActual": 215163000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.56,
       "epsEstimate": 0.43889,
-      "revenueActual": 226144000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.82,
       "epsEstimate": 0.61,
-      "revenueActual": 258242000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 1.04,
       "epsEstimate": 0.86286,
-      "revenueActual": 280547000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

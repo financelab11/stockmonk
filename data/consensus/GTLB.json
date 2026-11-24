@@ -1,9 +1,9 @@
 {
   "ticker": "GTLB",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/GTLB/analysis",
-  "targetMean": 56.29167,
+  "targetMean": 56.08333,
   "targetHigh": 70,
   "targetLow": 45,
   "recommendationKey": "buy",
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-10-31",
-      "revenueAvg": 282741150,
-      "revenueGrowth": 0.1571,
+      "revenueAvg": 282813150,
+      "revenueGrowth": 0.1574,
       "epsAvg": 0.19976,
       "epsGrowth": -0.201,
       "analystCount": 27
@@ -28,8 +28,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-01-31",
-      "revenueAvg": 299300200,
-      "revenueGrowth": 0.1494,
+      "revenueAvg": 299280200,
+      "revenueGrowth": 0.14930001,
       "epsAvg": 0.1941,
       "epsGrowth": -0.353,
       "analystCount": 27
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-01-31",
-      "revenueAvg": 1132334680,
-      "revenueGrowth": 0.18540001,
+      "revenueAvg": 1132382830,
+      "revenueGrowth": 0.1855,
       "epsAvg": 0.86621,
       "epsGrowth": -0.09770001,
       "analystCount": 27
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2028-01-31",
-      "revenueAvg": 1310462570,
-      "revenueGrowth": 0.1573,
+      "revenueAvg": 1310340350,
+      "revenueGrowth": 0.15720001,
       "epsAvg": 1.03835,
       "epsGrowth": 0.19870001,
       "analystCount": 27
@@ -59,7 +59,7 @@
       "endDate": "2025-10-31",
       "epsActual": 0.25,
       "epsEstimate": 0.20158,
-      "revenueActual": 244353000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-01-31",
       "epsActual": 0.3,
       "epsEstimate": 0.2308,
-      "revenueActual": 260402000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-04-30",
       "epsActual": 0.23,
       "epsEstimate": 0.20478,
-      "revenueActual": 264158000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,14 +83,14 @@
       "endDate": "2026-07-31",
       "epsActual": 0.24,
       "epsEstimate": 0.17964,
-      "revenueActual": 286254000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
   "currentQuarter": {
     "endDate": "2026-10-31",
-    "revenueAvg": 282741150,
-    "revenueGrowth": 0.1571,
+    "revenueAvg": 282813150,
+    "revenueGrowth": 0.1574,
     "epsAvg": 0.19976,
     "epsGrowth": -0.201,
     "analystCount": 27

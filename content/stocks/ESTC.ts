@@ -7,20 +7,20 @@ export const ESTC: StockStory = {
   "dek": "Revenue of $1.80B grew 16.2% while the operating line stayed near breakeven. Usage pricing makes the product easier to adopt and the revenue harder to forecast.",
   "readingMinutes": 9,
   "takeaways": [
-    "Elastic's revenue of $1.8B grew 16.2%, and free cash flow of $349.0M reached 19.4% of sales, within a point of the 20.3% peer median.",
-    "The 20.8% net margin is not a trading result: one quarter with a 96.7% net margin produced most of it, and the operating line is -2.6%.",
-    "Consumption pricing lets the hosted business expand without a sales call and contract when a customer tidies its logging pipeline.",
-    "Twenty-six analysts carry a $111 mean target against an $82 price, with 11 neutral views and a $75 to $132 range."
+    "Revenue: $1.8B trailing twelve months, +16.2% year over year.",
+    "Profitability: -2.6% operating margin and 20.8% net margin.",
+    "Cash: $349M free cash flow, a 19.4% margin.",
+    "Factor summary: 48/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1707753/000170775326000018/estc-20260430.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001707753&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Consumption pricing cuts both ways, and Elastic's accounts show the cut. Revenue reached $1.8B on a trailing basis, up 16.2%, with a 75.5% gross margin and a -2.6% operating margin. Hosted revenue moves with data ingested and queries run, so a customer that halves its log volume halves that part of the bill without cancelling anything. The revenue line is therefore more sensitive to customer efficiency than a seat-based product would be.",
-      "The product is a search engine with three uses: enterprise search, observability and security. The buying centre is technical, and adoption often starts with a developer who downloads the software and ends with a manager paying for a production deployment. That is a cheap way to distribute and a slow way to monetise. The split between self-managed subscriptions and hosted consumption decides gross margin and revenue quality, and the reported figures do not disclose it.",
-      "The valuation has to cope with an earnings figure that is not an earnings figure. P/E of 23.1x is calculated on a net margin inflated by one quarter, so it understates the multiple on trading profit. On sales the shares are at 4.3x, and on cash at 24.8x with a 4.0% yield. The cash multiple is the only one that describes the business consistently, and it is where a buyer should start."
+      "Elastic N.V. Generated $1.8B of revenue over the last twelve months, +16.2% versus the prior year. The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer.",
+      "The latest reported quarter was Q1 FY27, with $478.1M of revenue and an operating margin of -4.9%. The stock closed at $81.45 on 2026-11-23, giving a market capitalization of $8.6B.",
+      "The shares sit 60% of the way up their 52-week range ($42.05 to $108.00). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
-    "quote": "Elastic charges for what customers index, so its revenue falls when they become more efficient, a growth model that rewards tidiness with a smaller bill."
+    "quote": "ESTC is a Software & Cyber business with $1.8B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -37,48 +37,46 @@ export const ESTC: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Data volume is the demand driver, and AI search is the newest reason for it to grow. A customer indexing more logs, documents or vectors pays more without renegotiating, which is why consumption pricing can expand faster than a seat contract. The same mechanic works in reverse. A platform team that compresses its logs or moves cold data to cheaper storage cuts the bill without churning, and that is a routine event rather than a crisis.",
-      "The estimate path is steady rather than ambitious. FY2027 revenue is modelled at $2.0B, up 15.3%, and FY2028 at $2.3B, up 14.7%, with EPS of $3.36 and $3.98. Growth in the mid-teens is roughly where the trailing rate sits, so the consensus is assuming continuity rather than acceleration. For a company with a 75.5% gross margin and a -2.6% operating margin, continuity is also the assumption that lets the operating line reach breakeven."
+      "Revenue compounded at 30.4% a year across the fiscal years in the dataset, and the latest quarter changed +15.1% year over year. Third-party estimates for the current fiscal year point to $2B of revenue and $3.38 of EPS.",
+      "Growth matters when it produces a return on capital. The operating margin of -2.6% and return on invested capital of -2.0% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
-        "title": "Hosted versus self-managed",
-        "detail": "Hosted revenue grows with usage and carries the cost of running other people's workloads; self-managed subscriptions are annual tiers with support and a higher margin."
+        "title": "Net revenue retention",
+        "detail": "Expansion within existing customers compounds revenue."
       },
       {
-        "title": "AI search",
-        "detail": "Vector search is the newest workload, and the competition is specialist retrieval services rather than the general-purpose search vendors."
+        "title": "New customer adds",
+        "detail": "New logos broaden the base and fund future expansion."
       },
       {
-        "title": "Optimisation risk",
-        "detail": "A customer that halves its ingest halves that part of the bill without cancelling, which makes the growth rate noisier than a seat model's."
+        "title": "Operating leverage",
+        "detail": "Scale should improve margins as sales and R&D mature."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Operating margin sat within a narrow band for six quarters, from -3.1% to 0.1%, before weakening to -4.9% in the July 2026 quarter. That band is the real performance record: the company is close enough to breakeven that small changes in growth move the margin, and it has not yet demonstrated the operating leverage a 75.5% gross margin should allow. The net line is a different story and a misleading one.",
-      "The 20.8% trailing net margin and the $3.43 of FY2026 EPS both depend on a quarter with a 96.7% net margin, which is an item below the operating line rather than a change in the business. Excluding it, the company ran at roughly breakeven on operating profit and negative on net income in three of the last four quarters. Return on invested capital of -2.0% is the cleaner measure, and it sits at the peer median rather than above it.",
-      "The same opacity applies to the hosted gross margin. Renting infrastructure places a floor under delivery cost, and the 75.5% blended margin is the average of a hosted business with a real cost of goods and a self-managed licence with almost none. A mix shift toward hosted usage would lower the blended margin even if every customer stayed. That is why the operating margin can improve while the gross line falls, and why the two should be read together."
+      "The trailing operating margin is -2.6%, the net margin is 20.8% and diluted EPS is $3.50. The latest quarter's operating margin was -4.9%. The quarter shown is the latest reported period in the dataset.",
+      "Return on equity is 29.0%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Renting capacity rather than owning it keeps capital spending at $5.1M, 0.3% of revenue, and pushes the cost into gross margin instead. Free cash flow of $349.0M is 19.4% of sales, within a point of the 20.3% peer median, and it is generated by annual prepayment rather than by a wide operating margin. The cash conversion is good; the operating leverage is not yet visible.",
-      "The reported balance sheet carries $889.8M more cash than debt and pays nothing out. At 24.8x free cash flow and a 4.0% yield, the shares are priced for the cash stream to keep growing in the mid-teens. The capital question is what the $889.8M is for. There is no acquisition or buyback in the reported figures, so it is optionality, and optionality is worth less when the operating margin is negative."
+      "FCF over the trailing period was $349M, a 19.4% margin. The balance sheet carries $889.8M of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
+      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "Twenty-five times free cash flow is the multiple to use, because the earnings multiple is an artefact. P/E of 23.1x divides the price by a net income that includes a one-off quarter; on operating profit there is no meaningful multiple at all. The sales multiple of 4.3x is the comparable number, and the peer set frames it: Tenable's 9.5% growth comes with a 4.4% operating margin, GitLab's 23.0% with -8.5%, Rubrik's 42.4% with -18.3%. Elastic's 16.2% growth and -2.6% margin sit in the middle of that range.",
-      "The peer gap is a growth-for-margin trade, and the arithmetic of the position is narrow. Elastic's 16.2% growth is 6.7 points above Tenable's 9.5% and 6.8 points below GitLab's 23.0%, while its -2.6% operating margin is 7.0 points below Tenable's 4.4% and 5.9 points above GitLab's -8.5%. A company in the middle on both dimensions has no obvious mispricing to exploit, which is why the shares returned 18.3% over a year while the business grew 16.2%.",
-      "What would justify the multiple is the operating margin crossing zero while revenue grows in the mid-teens, which is what the FY2027 estimate of $3.36 assumes. What would break it is a year of consumption optimisation, because the hosted business would slow without a corresponding cost reduction. The 4.0% cash yield is the part of the return that does not depend on that outcome."
+      "At the latest close the shares trade at 23.0x trailing earnings and no meaningful EV/EBITDA multiple. The valuation reflects the growth and margin record described above, not for the past alone.",
+      "The attributed third-party mean target is $103.19; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "Twenty-six analysts cover Elastic, with a mean target of $111 against an $82 price and a range of $75 to $132. A mean 35% above the market price is a strong signal, but the range is wide and the neutral block is large enough that the consensus is not unanimous about direction.",
-      "Estimates have been stable, with a 90-day EPS revision of 3.6%, and every one of the last four quarters beat, the latest $0.70 against $0.58. FY2027 EPS of $3.36 implies 30.8% growth, which is a big number for a company with a -2.6% operating margin, and it depends on the operating line closing as much as on revenue. The consensus is assuming both, which is why the estimate carries more risk than the revenue line."
+      "27 analysts contribute to the third-party consensus. The mean target is $103.19, with a range of $70.00 to $132.00. The consensus is a third-party snapshot and can change without notice.",
+      "Current-year estimates call for $2B of revenue and $3.38 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
     ]
   },
   "risks": {
@@ -143,6 +141,6 @@ export const ESTC: StockStory = {
       "Does gross margin hold at 75% as hosted usage grows?"
     ]
   },
-  "narrativeSource": "curated",
+  "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-24"
 };

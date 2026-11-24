@@ -1,7 +1,7 @@
 {
   "ticker": "PEGA",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/PEGA/analysis",
   "targetMean": 41,
   "targetHigh": 50,
@@ -46,7 +46,7 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 1899726060,
+      "revenueAvg": 1899670830,
       "revenueGrowth": 0.062800005,
       "epsAvg": 2.37396,
       "epsGrowth": 0.1266,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.76,
       "epsEstimate": 0.73419,
-      "revenueActual": 504317000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.46,
       "epsEstimate": 0.69272,
-      "revenueActual": 429973000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.35,
       "epsEstimate": 0.43397,
-      "revenueActual": 420716000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 0.35,
       "epsEstimate": 0.4641,
-      "revenueActual": 393359000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

@@ -7,20 +7,20 @@ export const SYM: StockStory = {
   "dek": "Revenue of $2.65B at a 21.3% gross margin leaves almost no operating profit, yet free cash flow was $524.6M. The gap is working capital, not profitability.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue of $2.6B at a 21.3% gross margin produced an operating margin near zero, the thinnest spread in the peer group.",
-    "Free cash flow was $524.6M, a 19.8% margin, but the inflow sits alongside a zero operating margin and depends on working capital.",
-    "Net cash of $1.75B and three consecutive positive operating quarters have moved the business past its loss-making phase.",
-    "At 7.6x sales and 520.3x EBITDA, the price assumes the recurring support layer grows faster than the deployment business."
+    "Revenue: $2.6B trailing twelve months, +20.6% year over year.",
+    "Profitability: -0.0% operating margin and 0.3% net margin.",
+    "Cash: no meaningful free-cash-flow multiple, a n/a margin.",
+    "Factor summary: 33/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1837240/000183724025000278/sym-20250927.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001837240&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Three consecutive positive operating quarters changed the story. Symbotic earned a 1.0% operating margin in the December 2025 quarter, 0.9% in March 2026 and 4.6% in June 2026, after a -7.4% quarter in September 2025. Revenue over the same span rose from $618.5M to $720.8M. The improvement is small in absolute terms but it is the first sustained positive stretch in the record. That is what a deployment business looks like when the installed base starts to carry support revenue.",
-      "The model sells a large installation and then a recurring service layer. Deployment revenue is recognised as a site is built, at a thin margin set by the original bid; support and software come afterwards at a better margin. The 21.3% gross margin is the blended result, and it explains why a business with $2.6B of revenue can report almost no operating profit. The recurring layer has to grow for the consolidated margin to hold.",
-      "A $1.75B net cash position makes the balance sheet strong, with net debt/EBITDA of -45.2x and cash equal to about 8% of the $21.9B market value. That is a real cushion. The valuation debate is whether the company is a project business with a cash pile or a platform with a recurring layer. At 7.6x sales the market is pricing the second, while the 21.3% gross margin is still evidence of the first."
+      "Symbotic Inc. Generated $2.6B of revenue over the last twelve months, +20.6% versus the prior year. The business depends on contract wins, launch execution and the path from backlog to cash flow.",
+      "The latest reported quarter was Q3 FY26, with $720.8M of revenue and an operating margin of 4.6%. The stock closed at $34.97 on 2026-11-23, giving a market capitalization of $21.2B.",
+      "The shares sit 8% of the way up their 52-week range ($30.33 to $87.88). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
-    "quote": "Symbotic's margin is thin because it builds warehouses, and its cash flow is large because customers pay at milestones; the gap between the two is the whole story."
+    "quote": "SYM is a Space, Defense & Autonomy business with $2.6B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -55,50 +55,46 @@ export const SYM: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Site count, not pricing, is the growth variable. Each new distribution centre adds a large deployment contract and a small stream of support revenue afterwards. A customer with a national network can replicate the same design across many buildings, which is why a handful of large retailers can support years of revenue. The risk is that the same concentration makes a single paused capital programme visible immediately.",
-      "Revenue grew 25.7% in FY2025 and 20.6% trailing, a slower rate than the 98.4% of FY2023 and 51.9% of FY2024. That deceleration is normal as the base grows, but it changes the burden: the recurring layer now has to contribute more because deployment growth alone no longer doubles the company every year. The 4.6% June quarter margin is the first evidence that it can. That is the burden the support layer has to carry.",
-      "Estimates for FY2026 revenue sit at $2.8B, up 24.5%, and $3.6B in FY2027, up 28.9%, with EPS of $0.57 and $0.73. The EPS estimates look low against the last four reported quarters, which beat by wide margins: $0.40 against $0.09 in December 2025 and $0.41 against $0.13 in June 2026. Either the estimate base is stale or the beats are not sustainable."
+      "Revenue compounded at 89.4% a year across the fiscal years in the dataset, and the latest quarter changed +21.7% year over year. Third-party estimates for the current fiscal year point to $3.6B of revenue and $0.80 of EPS.",
+      "Growth matters when it produces a return on capital. The operating margin of -0.0% and return on invested capital of -0.0% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
-        "title": "Installed base",
-        "detail": "Every commissioned site adds support and software revenue, the higher-margin layer that can lift the consolidated gross margin."
+        "title": "Backlog",
+        "detail": "Contracted revenue provides visibility."
       },
       {
-        "title": "Customer concentration",
-        "detail": "A few large retailers account for most revenue, so a single capital budget decision can move a year of deployments."
+        "title": "Launch cadence",
+        "detail": "More launches spread fixed costs and prove reliability."
       },
       {
-        "title": "Deployment margin",
-        "detail": "Projects are priced before they are built; a delayed installation consumes the margin on that site and possibly the next."
+        "title": "Government budgets",
+        "detail": "Defense and space spending fund the addressable market."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Operating margin turned positive in the December 2025 quarter and reached 4.6% by June 2026, after a -7.4% print in September 2025. The gross margin moved from 13.7% in FY2024 to 18.8% in FY2025 and 21.3% trailing, a steady improvement as support revenue mixed in. Net margin followed more slowly, from -0.8% to 0.3%, because non-operating items sit below the operating line.",
-      "The improvement is real but thin. A 4.6% operating margin on $720.8M of revenue is about $33M of operating income, against a $21.9B market value. Return on invested capital is -0.0% and return on equity 1.2%, so the business is only just covering its capital cost. The peer group is not a useful comparison on margin because most of it is loss-making; the relevant test is whether the 4.6% holds for four quarters.",
-      "Quarter by quarter, the leverage is visible. Revenue climbed from $618.5M to $720.8M between September 2025 and June 2026 while operating margin went from -7.4% to 4.6%. A 16.5% revenue increase produced a 12-point margin swing, which is what a fixed cost base looks like when volume arrives. The question is how much of that cost base is truly fixed, and the answer decides the multiple."
+      "The trailing operating margin is -0.0%, the net margin is 0.3% and diluted EPS is $0.04. The latest quarter's operating margin was 4.6%. The quarter shown is the latest reported period in the dataset.",
+      "Return on equity is 1.2%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Symbotic's cash statement is the most misleading line in the accounts. Free cash flow was $524.6M, a 19.8% margin, while the operating margin was -0.0%. The cash came from working capital: customers pay at milestones, suppliers are paid later, and deferred revenue builds as sites are commissioned. That is a real source of funding, but it reverses when deployments slow.",
-      "The annual record shows the swing. FY2023 generated $215.1M of free cash flow, FY2024 consumed $100.3M and FY2025 produced $524.6M, all on a business that was barely profitable. Operating cash flow was $866.9M in FY2025, far above any plausible net income. The pattern follows the deployment cycle, not the earnings cycle, and that is why the annual figure is not a proxy for earnings quality.",
-      "A $1.75B net cash balance means the company can fund the next cycle without external capital. Capex is not separately reported in the latest year, but the FY2024 figure of $42.2M and the FY2023 figure of $15.7M show that the business is not capital-intensive in the way a manufacturer would be. The cash balance is therefore a buffer against a working-capital reversal, not a fund for a factory."
+      "Free cash flow after capex over the trailing period was n/a, a n/a margin. The balance sheet carries $1.7B of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
+      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "A 2,664x trailing multiple and 520.3x EBITDA are not useful anchors; the earnings base is close to zero and the EBITDA base is small relative to the market value. The 7.6x sales multiple is the one that can be compared across the group. It is high for a systems integrator with a 21.3% gross margin, and low for a software business with a recurring support layer.",
-      "Two very different comparables frame the multiple. Fluence, a comparable integrator, trades at 0.2x sales on a 9.3% gross margin. Planet Labs trades at 8.6x on a 55.4% gross margin. Symbotic at 7.6x and 21.3% is priced closer to the software end than the hardware end, which is a statement about the expected mix shift rather than the current one. Neither is a perfect match, and that is the point.",
-      "The recurring layer becoming large enough to lift the consolidated gross margin would justify the multiple, provided the operating margin holds above 4% for a year. A pause in deployments that reverses the working-capital inflow and exposes the thin gross margin would break it. On FY2026 EPS of $0.57 the shares trade at about 63x; on FY2027 EPS of $0.73, about 49x."
+      "At the latest close the shares trade at 2578.8x trailing earnings and 502.2x EV/EBITDA. The valuation reflects the growth and margin record described above, not for the past alone.",
+      "The attributed third-party mean target is $57.15; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "Sixteen analysts cover Symbotic, with a mean target of $60 and a range of $35 to $85, on Yahoo Finance's 18 November 2026 survey. The $35 low target is close to the $36 share price, so the downside case is not a remote scenario.",
-      "Revenue is estimated at $2.8B for FY2026 and $3.6B for FY2027, with EPS of $0.57 and $0.73. Revisions are slightly negative over 7 and 90 days, at -0.6% and -1.1%, which sits oddly against four straight quarters of large beats. The consensus is therefore conservative on the near term and more optimistic on FY2027, when the recurring layer is expected to carry more of the margin."
+      "16 analysts contribute to the third-party consensus. The mean target is $57.15, with a range of $33.00 to $87.00. The consensus is a third-party snapshot and can change without notice.",
+      "Current-year estimates call for $3.6B of revenue and $0.80 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
     ]
   },
   "risks": {
@@ -163,6 +159,6 @@ export const SYM: StockStory = {
       "Can the 4.6% operating margin hold for four quarters?"
     ]
   },
-  "narrativeSource": "curated",
+  "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-24"
 };

@@ -1,0 +1,4339 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-24T20:13:26.275Z",
+  "tickers": {
+    "NVDA": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0001045810-26-000021",
+      "latest10Q": "0001045810-26-000075",
+      "earningsAccession": "0001045810-26-000073",
+      "earningsFiled": "2026-08-26",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 244.71103,
+      "consensusEps": {
+        "Next quarter": 2.88028,
+        "Following quarter": 3.33106,
+        "Current fiscal year": 9.66925,
+        "Next fiscal year": 16.60528,
+        "currentQuarter": 2.88028
+      },
+      "segmentsAsOf": "2026-01-25",
+      "segmentsHash": "20564520c435dafc"
+    },
+    "MSFT": {
+      "latestQuarter": "Q1 FY27",
+      "latestQuarterScore": 8109,
+      "latest10K": "0001193125-26-323660",
+      "latest10Q": "0001193125-26-436133",
+      "earningsAccession": "0001193125-26-436122",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 637.3617,
+      "consensusEps": {
+        "Next quarter": 4.85492,
+        "Following quarter": 4.93718,
+        "Current fiscal year": 20.02857,
+        "Next fiscal year": 24.22781,
+        "currentQuarter": 4.85492
+      },
+      "segmentsAsOf": "2026-06-30",
+      "segmentsHash": "4a38de6e26bb1603"
+    },
+    "AAPL": {
+      "latestQuarter": "Q4 FY26",
+      "latestQuarterScore": 8108,
+      "latest10K": "0000320193-26-000026",
+      "latest10Q": "0000320193-26-000020",
+      "earningsAccession": "0000320193-26-000024",
+      "earningsFiled": "2026-11-02",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 345.6313,
+      "consensusEps": {
+        "Next quarter": 2.91173,
+        "Following quarter": 2.15037,
+        "Current fiscal year": 9.42944,
+        "Next fiscal year": 10.59913,
+        "currentQuarter": 2.91173
+      },
+      "segmentsAsOf": "2026-09-26",
+      "segmentsHash": "b3d92f7251ba7a8e"
+    },
+    "GOOGL": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001652044-26-000018",
+      "latest10Q": "0001652044-26-000084",
+      "earningsAccession": "0001652044-26-000080",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 395.47815,
+      "consensusEps": {
+        "Next quarter": 3.19133,
+        "Following quarter": 3.33221,
+        "Current fiscal year": 19.53935,
+        "Next fiscal year": 14.89727,
+        "currentQuarter": 3.19133
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "9e9842d734c552cc"
+    },
+    "AMZN": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001018724-26-000004",
+      "latest10Q": "0001018724-26-000040",
+      "earningsAccession": "0001018724-26-000038",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 326.34033,
+      "consensusEps": {
+        "Next quarter": 2.39514,
+        "Following quarter": 2.30108,
+        "Current fiscal year": 12.79857,
+        "Next fiscal year": 10.67043,
+        "currentQuarter": 2.39514
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "87d1cf062057cff9"
+    },
+    "META": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-003942",
+      "latest10Q": "0001628280-26-066773",
+      "earningsAccession": "0001628280-26-066700",
+      "earningsFiled": "2026-10-21",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 842.53656,
+      "consensusEps": {
+        "Next quarter": 8.32906,
+        "Following quarter": 7.6319,
+        "Current fiscal year": 29.00854,
+        "Next fiscal year": 33.73591,
+        "currentQuarter": 8.32906
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "78079d05cea19177"
+    },
+    "AVGO": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001730168-25-000121",
+      "latest10Q": "0001730168-26-000080",
+      "earningsAccession": "0001730168-26-000076",
+      "earningsFiled": "2026-09-02",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 525.5147,
+      "consensusEps": {
+        "Next quarter": 3.83018,
+        "Following quarter": 4.09606,
+        "Current fiscal year": 11.65444,
+        "Next fiscal year": 19.33252,
+        "currentQuarter": 3.83018
+      },
+      "segmentsAsOf": "2025-11-02",
+      "segmentsHash": "1f4fe49e33b67ae3"
+    },
+    "TSLA": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-003952",
+      "latest10Q": "0001628280-26-066775",
+      "earningsAccession": "0001628280-26-066738",
+      "earningsFiled": "2026-10-21",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 419.05,
+      "consensusEps": {
+        "Next quarter": 0.50473,
+        "Following quarter": 0.45643,
+        "Current fiscal year": 1.72866,
+        "Next fiscal year": 2.16378,
+        "currentQuarter": 0.50473
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "4c36a7c84e8f47bf"
+    },
+    "LLY": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000059478-26-000013",
+      "latest10Q": "0000059478-26-000108",
+      "earningsAccession": "0000059478-26-000104",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 1470.0565,
+      "consensusEps": {
+        "Next quarter": 11.26245,
+        "Following quarter": 10.93667,
+        "Current fiscal year": 35.48088,
+        "Next fiscal year": 50.87043,
+        "currentQuarter": 11.26245
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "c9ceae730c49ff4d"
+    },
+    "JPM": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-008131",
+      "latest10Q": "0001628280-26-069523",
+      "earningsAccession": "0001628280-26-065582",
+      "earningsFiled": "2026-10-13",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 373.47827,
+      "consensusEps": {
+        "Next quarter": 5.85966,
+        "Following quarter": 6.24161,
+        "Current fiscal year": 23.91318,
+        "Next fiscal year": 25.57306,
+        "currentQuarter": 5.85966
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "1df3d7aa00a9d73a"
+    },
+    "ORCL": {
+      "latestQuarter": "Q1 FY27",
+      "latestQuarterScore": 8109,
+      "latest10K": "0001193125-26-277521",
+      "latest10Q": "0001193125-26-389274",
+      "earningsAccession": "0001193125-26-387905",
+      "earningsFiled": "2026-09-10",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 236.184,
+      "consensusEps": {
+        "Next quarter": 1.89,
+        "Following quarter": 2.02081,
+        "Current fiscal year": 8.15047,
+        "Next fiscal year": 11.05881,
+        "currentQuarter": 1.89
+      },
+      "segmentsAsOf": "2026-05-31",
+      "segmentsHash": "fb6e3f9b5a60e679"
+    },
+    "AMD": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000002488-26-000018",
+      "latest10Q": "0000002488-26-000191",
+      "earningsAccession": "0000002488-26-000188",
+      "earningsFiled": "2026-11-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 656.2122,
+      "consensusEps": {
+        "Next quarter": 2.92794,
+        "Following quarter": 3.29648,
+        "Current fiscal year": 8.08438,
+        "Next fiscal year": 17.61574,
+        "currentQuarter": 2.92794
+      },
+      "segmentsAsOf": "2025-12-27",
+      "segmentsHash": "3a018c60cc4fc9de"
+    },
+    "MU": {
+      "latestQuarter": "Q4 FY26",
+      "latestQuarterScore": 8108,
+      "latest10K": "0000723125-26-000023",
+      "latest10Q": "0000723125-26-000015",
+      "earningsAccession": "0000723125-26-000018",
+      "earningsFiled": "2026-09-30",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 1529.6888,
+      "consensusEps": {
+        "Next quarter": 38.24639,
+        "Following quarter": 42.05653,
+        "Current fiscal year": 176.18364,
+        "Next fiscal year": 204.98972,
+        "currentQuarter": 38.24639
+      },
+      "segmentsAsOf": "2026-09-03",
+      "segmentsHash": "88f74321a133de9e"
+    },
+    "AMAT": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-25-056742",
+      "latest10Q": "0001628280-26-058235",
+      "earningsAccession": "0001628280-26-056699",
+      "earningsFiled": "2026-08-13",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 557.8611,
+      "consensusEps": {
+        "Next quarter": 4.37038,
+        "Following quarter": 4.64851,
+        "Current fiscal year": 19.30049,
+        "Next fiscal year": 24.62536,
+        "currentQuarter": 4.37038
+      },
+      "segmentsAsOf": "2025-10-26",
+      "segmentsHash": "bd82edf92e6f1987"
+    },
+    "LRCX": {
+      "latestQuarter": "Q1 FY27",
+      "latestQuarterScore": 8109,
+      "latest10K": "0000707549-26-000037",
+      "latest10Q": "0000707549-26-000054",
+      "earningsAccession": "0000707549-26-000052",
+      "earningsFiled": "2026-10-21",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 360.43332,
+      "consensusEps": {
+        "Next quarter": 2.34941,
+        "Following quarter": 2.47975,
+        "Current fiscal year": 9.65557,
+        "Next fiscal year": 12.25681,
+        "currentQuarter": 2.34941
+      },
+      "segmentsAsOf": "2026-06-28",
+      "segmentsHash": "04b48f554e9dcfd3"
+    },
+    "KLAC": {
+      "latestQuarter": "Q1 FY27",
+      "latestQuarterScore": 8109,
+      "latest10K": "0000319201-26-000027",
+      "latest10Q": "0000319201-26-000034",
+      "earningsAccession": "0000319201-26-000032",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 218.26923,
+      "consensusEps": {
+        "Next quarter": 1.4492,
+        "Following quarter": 1.51693,
+        "Current fiscal year": 5.76922,
+        "Next fiscal year": 7.08928,
+        "currentQuarter": 1.4492
+      },
+      "segmentsAsOf": "2026-06-30",
+      "segmentsHash": "e458668d4847e7a3"
+    },
+    "ANET": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001596532-26-000013",
+      "latest10Q": "0001596532-26-000254",
+      "earningsAccession": "0001596532-26-000252",
+      "earningsFiled": "2026-11-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 249.64662,
+      "consensusEps": {
+        "Next quarter": 1.28747,
+        "Following quarter": 1.33959,
+        "Current fiscal year": 4.37688,
+        "Next fiscal year": 6.037,
+        "currentQuarter": 1.28747
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "85a7fc0d4bfe5618"
+    },
+    "CDNS": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000813672-26-000016",
+      "latest10Q": "0000813672-26-000121",
+      "earningsAccession": "0000813672-26-000116",
+      "earningsFiled": "2026-10-26",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 411.7604,
+      "consensusEps": {
+        "Next quarter": 2.22907,
+        "Following quarter": 2.25112,
+        "Current fiscal year": 4.84863,
+        "Next fiscal year": 9.84527,
+        "currentQuarter": 2.22907
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "3c535a77e67fd4f9"
+    },
+    "SNPS": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000883241-25-000028",
+      "latest10Q": "0000883241-26-000025",
+      "earningsAccession": "0001193125-26-368620",
+      "earningsFiled": "2026-08-26",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 591.4865,
+      "consensusEps": {
+        "Next quarter": 4.12933,
+        "Following quarter": 4.467,
+        "Current fiscal year": 15.13869,
+        "Next fiscal year": 18.70713,
+        "currentQuarter": 4.12933
+      },
+      "segmentsAsOf": "2025-10-31",
+      "segmentsHash": "41605836c80bd43c"
+    },
+    "NOW": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001373715-26-000007",
+      "latest10Q": "0001373715-26-000096",
+      "earningsAccession": "0001373715-26-000092",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 154.88391,
+      "consensusEps": {
+        "Next quarter": 1.07213,
+        "Following quarter": 1.11208,
+        "Current fiscal year": 3.95588,
+        "Next fiscal year": 4.80519,
+        "currentQuarter": 1.07213
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "4f20ed7e2793c251"
+    },
+    "PANW": {
+      "latestQuarter": "Q4 FY26",
+      "latestQuarterScore": 8108,
+      "latest10K": "0001327567-26-000023",
+      "latest10Q": "0001327567-26-000015",
+      "earningsAccession": "0001327567-26-000019",
+      "earningsFiled": "2026-09-01",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 412.11707,
+      "consensusEps": {
+        "Next quarter": 1.00535,
+        "Following quarter": 0.35625,
+        "Current fiscal year": 4.28006,
+        "Next fiscal year": 2.02329,
+        "currentQuarter": 1.00535
+      },
+      "segmentsAsOf": "2026-07-31",
+      "segmentsHash": "25f13d577e7f5cb3"
+    },
+    "CRWD": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0001535527-26-000010",
+      "latest10Q": "0001535527-26-000031",
+      "earningsAccession": "0001535527-26-000029",
+      "earningsFiled": "2026-08-26",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 249.35152,
+      "consensusEps": {
+        "Next quarter": 0.36084,
+        "Following quarter": 0.36234,
+        "Current fiscal year": 1.2829,
+        "Next fiscal year": 1.65295,
+        "currentQuarter": 0.36084
+      },
+      "segmentsAsOf": "2026-01-31",
+      "segmentsHash": "5483d558f25f822a"
+    },
+    "INTU": {
+      "latestQuarter": "Q4 FY26",
+      "latestQuarterScore": 8108,
+      "latest10K": "0000896878-26-000037",
+      "latest10Q": "0000896878-26-000025",
+      "earningsAccession": "0000896878-26-000029",
+      "earningsFiled": "2026-08-25",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 362.66257,
+      "consensusEps": {
+        "Next quarter": 3.19598,
+        "Following quarter": 13.43266,
+        "Current fiscal year": 22.95216,
+        "Next fiscal year": 25.8297,
+        "currentQuarter": 3.19598
+      },
+      "segmentsAsOf": "2026-07-31",
+      "segmentsHash": "4248f75ebe8bdf76"
+    },
+    "APH": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001104659-26-013549",
+      "latest10Q": "0001104659-26-120646",
+      "earningsAccession": "0001104659-26-119421",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 106.18421,
+      "consensusEps": {
+        "Next quarter": 0.82927,
+        "Following quarter": 0.78972,
+        "Current fiscal year": 2.83502,
+        "Next fiscal year": 3.62465,
+        "currentQuarter": 0.82927
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "0128443bc8b9a5b0"
+    },
+    "PLTR": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001321655-26-000011",
+      "latest10Q": "0001321655-26-000048",
+      "earningsAccession": "0001321655-26-000045",
+      "earningsFiled": "2026-11-02",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 222.9,
+      "consensusEps": {
+        "Next quarter": 0.52023,
+        "Following quarter": 0.51941,
+        "Current fiscal year": 1.70165,
+        "Next fiscal year": 2.53877,
+        "currentQuarter": 0.52023
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "593f1a88d5e5c2a1"
+    },
+    "ADI": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000006281-25-000153",
+      "latest10Q": "0000006281-26-000073",
+      "earningsAccession": "0000006281-26-000072",
+      "earningsFiled": "2026-08-19",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 471.90625,
+      "consensusEps": {
+        "Next quarter": 3.83281,
+        "Following quarter": 4.08467,
+        "Current fiscal year": 16.54151,
+        "Next fiscal year": 19.64206,
+        "currentQuarter": 3.83281
+      },
+      "segmentsAsOf": "2025-11-01",
+      "segmentsHash": "95be8d0147983a31"
+    },
+    "FICO": {
+      "latestQuarter": "Q4 FY26",
+      "latestQuarterScore": 8108,
+      "latest10K": "0000814547-26-000042",
+      "latest10Q": "0000814547-26-000030",
+      "earningsAccession": "0000814547-26-000037",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 814.9458,
+      "consensusEps": {
+        "Next quarter": 9.55583,
+        "Following quarter": 11.73623,
+        "Current fiscal year": 44.35849,
+        "Next fiscal year": 50.9478,
+        "currentQuarter": 9.55583
+      },
+      "segmentsAsOf": "2026-09-30",
+      "segmentsHash": "8e889ea32497e910"
+    },
+    "ADBE": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000796343-26-000003",
+      "latest10Q": "0000796343-26-000156",
+      "earningsAccession": "0000796343-26-000147",
+      "earningsFiled": "2026-09-10",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 266.9097,
+      "consensusEps": {
+        "Next quarter": 6.32884,
+        "Following quarter": 6.76551,
+        "Current fiscal year": 24.46841,
+        "Next fiscal year": 27.40718,
+        "currentQuarter": 6.32884
+      },
+      "segmentsAsOf": "2025-11-28",
+      "segmentsHash": "20d39129f0decd8f"
+    },
+    "CRM": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0001108524-26-000060",
+      "latest10Q": "0001108524-26-000190",
+      "earningsAccession": "0001108524-26-000187",
+      "earningsFiled": "2026-08-26",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 284.44208,
+      "consensusEps": {
+        "Next quarter": 3.4466,
+        "Following quarter": 3.55891,
+        "Current fiscal year": 16.7555,
+        "Next fiscal year": 16.03251,
+        "currentQuarter": 3.4466
+      },
+      "segmentsAsOf": "2026-01-31",
+      "segmentsHash": "7a7b6dfcadb15524"
+    },
+    "CSCO": {
+      "latestQuarter": "Q4 FY26",
+      "latestQuarterScore": 8108,
+      "latest10K": "0000858877-26-000132",
+      "latest10Q": "0000858877-26-000078",
+      "earningsAccession": "0000858877-26-000106",
+      "earningsFiled": "2026-08-12",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 129.66667,
+      "consensusEps": {
+        "Next quarter": 1.34579,
+        "Following quarter": 1.34126,
+        "Current fiscal year": 5.47566,
+        "Next fiscal year": 6.05685,
+        "currentQuarter": 1.34579
+      },
+      "segmentsAsOf": "2026-07-25",
+      "segmentsHash": "028ae12af3e1fd0c"
+    },
+    "DELL": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0001571996-26-000008",
+      "latest10Q": "0001571996-26-000046",
+      "earningsAccession": "0001571996-26-000039",
+      "earningsFiled": "2026-09-01",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 568.88,
+      "consensusEps": {
+        "Next quarter": 6.58732,
+        "Following quarter": 6.74239,
+        "Current fiscal year": 25.98732,
+        "Next fiscal year": 28.48325,
+        "currentQuarter": 6.58732
+      },
+      "segmentsAsOf": "2026-01-30",
+      "segmentsHash": "3adcddc1e5a6d3a0"
+    },
+    "HPQ": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000047217-25-000071",
+      "latest10Q": "0000047217-26-000051",
+      "earningsAccession": "0000047217-26-000048",
+      "earningsFiled": "2026-08-26",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 27.55294,
+      "consensusEps": {
+        "Next quarter": 0.7408,
+        "Following quarter": 0.71121,
+        "Current fiscal year": 3.23744,
+        "Next fiscal year": 3.14692,
+        "currentQuarter": 0.7408
+      },
+      "segmentsAsOf": "2025-10-31",
+      "segmentsHash": "9d627c6fe3f636b1"
+    },
+    "IBM": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000051143-26-000010",
+      "latest10Q": "0000051143-26-000095",
+      "earningsAccession": "0000051143-26-000093",
+      "earningsFiled": "2026-10-21",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 259.84738,
+      "consensusEps": {
+        "Next quarter": 4.62568,
+        "Following quarter": 2.14728,
+        "Current fiscal year": 12.41291,
+        "Next fiscal year": 13.23863,
+        "currentQuarter": 4.62568
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "2b92a9188f8acfca"
+    },
+    "INTC": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000050863-26-000011",
+      "latest10Q": "0000050863-26-000191",
+      "earningsAccession": "0000050863-26-000188",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 90.4186,
+      "consensusEps": {
+        "Next quarter": 0.24892,
+        "Following quarter": 0.26889,
+        "Current fiscal year": 1.48638,
+        "Next fiscal year": 1.78981,
+        "currentQuarter": 0.24892
+      },
+      "segmentsAsOf": "2025-12-27",
+      "segmentsHash": "a5cadd4c49ddcd0f"
+    },
+    "QCOM": {
+      "latestQuarter": "Q4 FY26",
+      "latestQuarterScore": 8108,
+      "latest10K": "0000804328-26-000128",
+      "latest10Q": "0000804328-26-000086",
+      "earningsAccession": "0000804328-26-000127",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 185.25,
+      "consensusEps": {
+        "Next quarter": 2.25456,
+        "Following quarter": 2.26307,
+        "Current fiscal year": 9.62373,
+        "Next fiscal year": 12.1817,
+        "currentQuarter": 2.25456
+      },
+      "segmentsAsOf": "2026-09-27",
+      "segmentsHash": "df89d9b0939a0e95"
+    },
+    "TXN": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000097476-26-000059",
+      "latest10Q": "0000097476-26-000169",
+      "earningsAccession": "0000097476-26-000165",
+      "earningsFiled": "2026-10-21",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 339.65518,
+      "consensusEps": {
+        "Next quarter": 2.62037,
+        "Following quarter": 2.61968,
+        "Current fiscal year": 9.05576,
+        "Next fiscal year": 11.58989,
+        "currentQuarter": 2.62037
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "4bce0782cd842f13"
+    },
+    "DDOG": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-008819",
+      "latest10Q": "0001628280-26-070292",
+      "earningsAccession": "0001628280-26-069792",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 269.65457,
+      "consensusEps": {
+        "Next quarter": 0.69403,
+        "Following quarter": 0.68654,
+        "Current fiscal year": 2.73846,
+        "Next fiscal year": 3.1829,
+        "currentQuarter": 0.69403
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "231154e258f5a423"
+    },
+    "SNOW": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0001640147-26-000008",
+      "latest10Q": "0001640147-26-000037",
+      "earningsAccession": "0001640147-26-000033",
+      "earningsFiled": "2026-09-02",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 430.25552,
+      "consensusEps": {
+        "Next quarter": 0.59757,
+        "Following quarter": 0.5951,
+        "Current fiscal year": 2.22521,
+        "Next fiscal year": 3.07686,
+        "currentQuarter": 0.59757
+      },
+      "segmentsAsOf": "2026-01-31",
+      "segmentsHash": "e90679be58aee307"
+    },
+    "NFLX": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001065280-26-000034",
+      "latest10Q": "0001065280-26-000291",
+      "earningsAccession": "0001065280-26-000290",
+      "earningsFiled": "2026-10-20",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 84.54884,
+      "consensusEps": {
+        "Next quarter": 0.67603,
+        "Following quarter": 0.9245,
+        "Current fiscal year": 3.57206,
+        "Next fiscal year": 3.76484,
+        "currentQuarter": 0.67603
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "7c7a1dedd0e0a70c"
+    },
+    "TMUS": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001283699-26-000010",
+      "latest10Q": "0001283699-26-000129",
+      "earningsAccession": "0001283699-26-000128",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 226.24,
+      "consensusEps": {
+        "Next quarter": 2.75591,
+        "Following quarter": 3.393,
+        "Current fiscal year": 11.20027,
+        "Next fiscal year": 14.01283,
+        "currentQuarter": 2.75591
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "07123ad83f925695"
+    },
+    "DIS": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001744489-25-000155",
+      "latest10Q": "0001744489-26-000057",
+      "earningsAccession": "0001744489-26-000056",
+      "earningsFiled": "2026-08-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 131.34355,
+      "consensusEps": {
+        "Next quarter": 2.0721,
+        "Following quarter": 1.83236,
+        "Current fiscal year": 7.60742,
+        "Next fiscal year": 8.56171,
+        "currentQuarter": 2.0721
+      },
+      "segmentsAsOf": "2025-09-27",
+      "segmentsHash": "48ecf979da8aa2bd"
+    },
+    "CMCSA": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-004994",
+      "latest10Q": "0001628280-26-066863",
+      "earningsAccession": "0001628280-26-066783",
+      "earningsFiled": "2026-10-22",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 27.97727,
+      "consensusEps": {
+        "Next quarter": 0.60696,
+        "Following quarter": 0.79585,
+        "Current fiscal year": 3.49915,
+        "Next fiscal year": 3.52187,
+        "currentQuarter": 0.60696
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "1a2f1ba190521a5c"
+    },
+    "SPOT": {
+      "latestQuarter": null,
+      "latestQuarterScore": null,
+      "latest10K": "0001628280-26-006874",
+      "latest10Q": null,
+      "earningsAccession": null,
+      "earningsFiled": null,
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 636.30164,
+      "consensusEps": {
+        "Next quarter": 3.27759,
+        "Following quarter": 3.49968,
+        "Current fiscal year": 11.8587,
+        "Next fiscal year": 15.23555,
+        "currentQuarter": 3.27759
+      },
+      "segmentsAsOf": null,
+      "segmentsHash": null
+    },
+    "PINS": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001506293-26-000021",
+      "latest10Q": "0001506293-26-000153",
+      "earningsAccession": "0001506293-26-000151",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 25.02778,
+      "consensusEps": {
+        "Next quarter": 0.7789,
+        "Following quarter": 0.32803,
+        "Current fiscal year": 1.95186,
+        "Next fiscal year": 2.26808,
+        "currentQuarter": 0.7789
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "b9566bce8e989708"
+    },
+    "HD": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0001628280-26-019436",
+      "latest10Q": "0001628280-26-058715",
+      "earningsAccession": "0000354950-26-000145",
+      "earningsFiled": "2026-08-18",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 374.8125,
+      "consensusEps": {
+        "Next quarter": 2.76916,
+        "Following quarter": 3.6106,
+        "Current fiscal year": 14.97221,
+        "Next fiscal year": 15.68645,
+        "currentQuarter": 2.76916
+      },
+      "segmentsAsOf": "2026-02-01",
+      "segmentsHash": "3da740df95df9ba1"
+    },
+    "LOW": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0000060667-26-000029",
+      "latest10Q": "0000060667-26-000117",
+      "earningsAccession": "0000060667-26-000113",
+      "earningsFiled": "2026-08-19",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 248.75758,
+      "consensusEps": {
+        "Next quarter": 1.76158,
+        "Following quarter": 3.06315,
+        "Current fiscal year": 12.25158,
+        "Next fiscal year": 12.72953,
+        "currentQuarter": 1.76158
+      },
+      "segmentsAsOf": "2026-01-30",
+      "segmentsHash": "6844ca3d88702b8c"
+    },
+    "MCD": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000063908-26-000035",
+      "latest10Q": "0000063908-26-000083",
+      "earningsAccession": "0000063908-26-000080",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 299,
+      "consensusEps": {
+        "Next quarter": 3.17385,
+        "Following quarter": 2.97508,
+        "Current fiscal year": 12.93872,
+        "Next fiscal year": 13.65322,
+        "currentQuarter": 3.17385
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "d8db4d0f80381ff5"
+    },
+    "BKNG": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001075531-26-000009",
+      "latest10Q": "0001075531-26-000045",
+      "earningsAccession": "0001075531-26-000044",
+      "earningsFiled": "2026-11-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 215.05882,
+      "consensusEps": {
+        "Next quarter": 2.12241,
+        "Following quarter": 1.33111,
+        "Current fiscal year": 10.41507,
+        "Next fiscal year": 12.23486,
+        "currentQuarter": 2.12241
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "7e23fd81e6da8183"
+    },
+    "TJX": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0000109198-26-000008",
+      "latest10Q": "0000109198-26-000048",
+      "earningsAccession": "0000109198-26-000045",
+      "earningsFiled": "2026-08-19",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 165.55,
+      "consensusEps": {
+        "Next quarter": 1.48118,
+        "Following quarter": 1.23817,
+        "Current fiscal year": 5.22663,
+        "Next fiscal year": 5.70351,
+        "currentQuarter": 1.48118
+      },
+      "segmentsAsOf": "2026-01-31",
+      "segmentsHash": "d22c0e4b70b288ec"
+    },
+    "ORLY": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000898173-26-000009",
+      "latest10Q": "0000898173-26-000053",
+      "earningsAccession": "0000898173-26-000050",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 106.40741,
+      "consensusEps": {
+        "Next quarter": 0.77948,
+        "Following quarter": 0.79625,
+        "Current fiscal year": 3.31895,
+        "Next fiscal year": 3.67249,
+        "currentQuarter": 0.77948
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "e4ccf3f0c54dabb1"
+    },
+    "RCL": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000884887-26-000007",
+      "latest10Q": "0000884887-26-000044",
+      "earningsAccession": "0000884887-26-000042",
+      "earningsFiled": "2026-10-27",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 357.7037,
+      "consensusEps": {
+        "Next quarter": 3.55647,
+        "Following quarter": 3.72597,
+        "Current fiscal year": 17.93529,
+        "Next fiscal year": 20.51347,
+        "currentQuarter": 3.55647
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "7c7b6b101b758863"
+    },
+    "CMG": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001058090-26-000009",
+      "latest10Q": "0001058090-26-000104",
+      "earningsAccession": "0001058090-26-000103",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 40.64516,
+      "consensusEps": {
+        "Next quarter": 0.24502,
+        "Following quarter": 0.30875,
+        "Current fiscal year": 1.08833,
+        "Next fiscal year": 1.32336,
+        "currentQuarter": 0.24502
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "45a1163ddc900ffc"
+    },
+    "DHI": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000882184-25-000081",
+      "latest10Q": "0000882184-26-000096",
+      "earningsAccession": "0000882184-26-000119",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 146.5,
+      "consensusEps": {
+        "Next quarter": 1.28036,
+        "Following quarter": 1.83712,
+        "Current fiscal year": 8.80303,
+        "Next fiscal year": 11.00619,
+        "currentQuarter": 1.28036
+      },
+      "segmentsAsOf": "2025-09-30",
+      "segmentsHash": "5413143dc1883178"
+    },
+    "ABNB": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001559720-26-000004",
+      "latest10Q": "0001559720-26-000032",
+      "earningsAccession": "0001193125-26-449727",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 205.8764,
+      "consensusEps": {
+        "Next quarter": 0.80801,
+        "Following quarter": 0.40933,
+        "Current fiscal year": 5.58082,
+        "Next fiscal year": 6.39231,
+        "currentQuarter": 0.80801
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "fd2225ae5e66d9fc"
+    },
+    "UBER": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001543151-26-000015",
+      "latest10Q": "0001543151-26-000041",
+      "earningsAccession": "0001543151-26-000039",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 98.16174,
+      "consensusEps": {
+        "Next quarter": 1.00823,
+        "Following quarter": 0.96064,
+        "Current fiscal year": 2.58997,
+        "Next fiscal year": 4.40934,
+        "currentQuarter": 1.00823
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "7b27218d18c6a90d"
+    },
+    "SHOP": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001594805-26-000007",
+      "latest10Q": "0001594805-26-000068",
+      "earningsAccession": "0001594805-26-000067",
+      "earningsFiled": "2026-11-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 177.18408,
+      "consensusEps": {
+        "Next quarter": 0.61906,
+        "Following quarter": 0.45551,
+        "Current fiscal year": 1.90567,
+        "Next fiscal year": 2.45993,
+        "currentQuarter": 0.61906
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "82580399f7108991"
+    },
+    "COST": {
+      "latestQuarter": "Q4 FY26",
+      "latestQuarterScore": 8108,
+      "latest10K": "0000909832-26-000093",
+      "latest10Q": "0000909832-26-000051",
+      "earningsAccession": "0000909832-26-000084",
+      "earningsFiled": "2026-09-24",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 1084.598,
+      "consensusEps": {
+        "Next quarter": 4.91733,
+        "Following quarter": 5.13565,
+        "Current fiscal year": 22.83807,
+        "Next fiscal year": 25.13361,
+        "currentQuarter": 4.91733
+      },
+      "segmentsAsOf": "2026-08-30",
+      "segmentsHash": "cb18a8dfb6946093"
+    },
+    "WMT": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0000104169-26-000055",
+      "latest10Q": "0000104169-26-000154",
+      "earningsAccession": "0000104169-26-000145",
+      "earningsFiled": "2026-08-20",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 136.14635,
+      "consensusEps": {
+        "Next quarter": 0.77534,
+        "Following quarter": 0.73436,
+        "Current fiscal year": 2.88668,
+        "Next fiscal year": 3.22599,
+        "currentQuarter": 0.77534
+      },
+      "segmentsAsOf": "2026-01-31",
+      "segmentsHash": "85ca4904a25abc9b"
+    },
+    "PG": {
+      "latestQuarter": "Q1 FY27",
+      "latestQuarterScore": 8109,
+      "latest10K": "0000080424-26-000103",
+      "latest10Q": "0000080424-26-000256",
+      "earningsAccession": "0000080424-26-000250",
+      "earningsFiled": "2026-10-22",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 176.34782,
+      "consensusEps": {
+        "Next quarter": 1.81098,
+        "Following quarter": 1.63663,
+        "Current fiscal year": 6.97887,
+        "Next fiscal year": 7.42602,
+        "currentQuarter": 1.81098
+      },
+      "segmentsAsOf": "2026-06-30",
+      "segmentsHash": "ad3d425fa9dd6201"
+    },
+    "KO": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-010047",
+      "latest10Q": "0001628280-26-067844",
+      "earningsAccession": "0001628280-26-067403",
+      "earningsFiled": "2026-10-27",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 99.64,
+      "consensusEps": {
+        "Next quarter": 0.60807,
+        "Following quarter": 0.8916,
+        "Current fiscal year": 3.34942,
+        "Next fiscal year": 3.53483,
+        "currentQuarter": 0.60807
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "36c25e76da8df009"
+    },
+    "PM": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-005939",
+      "latest10Q": "0001628280-26-066976",
+      "earningsAccession": "0001628280-26-066596",
+      "earningsFiled": "2026-10-21",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 212.6875,
+      "consensusEps": {
+        "Next quarter": 1.8206,
+        "Following quarter": 2.03737,
+        "Current fiscal year": 8.35186,
+        "Next fiscal year": 9.02591,
+        "currentQuarter": 1.8206
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "9c79c4a29b19e315"
+    },
+    "CL": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000021665-26-000006",
+      "latest10Q": "0000021665-26-000048",
+      "earningsAccession": "0000021665-26-000047",
+      "earningsFiled": "2026-10-30",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 101.7,
+      "consensusEps": {
+        "Next quarter": 0.97964,
+        "Following quarter": 0.97352,
+        "Current fiscal year": 3.92381,
+        "Next fiscal year": 4.10269,
+        "currentQuarter": 0.97964
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "02db3c9788b8736f"
+    },
+    "PEP": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000077476-26-000007",
+      "latest10Q": "0000077476-26-000048",
+      "earningsAccession": "0000077476-26-000050",
+      "earningsFiled": "2026-10-08",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 141.13635,
+      "consensusEps": {
+        "Next quarter": 2.24085,
+        "Following quarter": 1.60177,
+        "Current fiscal year": 8.3983,
+        "Next fiscal year": 8.59386,
+        "currentQuarter": 2.24085
+      },
+      "segmentsAsOf": "2025-12-27",
+      "segmentsHash": "ef6417fefa569a88"
+    },
+    "JNJ": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000200406-26-000016",
+      "latest10Q": "0000200406-26-000197",
+      "earningsAccession": "0000200406-26-000189",
+      "earningsFiled": "2026-10-13",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 279.84726,
+      "consensusEps": {
+        "Next quarter": 2.91563,
+        "Following quarter": 2.67387,
+        "Current fiscal year": 11.11838,
+        "Next fiscal year": 11.61196,
+        "currentQuarter": 2.91563
+      },
+      "segmentsAsOf": "2025-12-28",
+      "segmentsHash": "662b2ec5f708138b"
+    },
+    "ABBV": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001551152-26-000008",
+      "latest10Q": "0001551152-26-000037",
+      "earningsAccession": "0001551152-26-000033",
+      "earningsFiled": "2026-10-30",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 315.8846,
+      "consensusEps": {
+        "Next quarter": 3.88175,
+        "Following quarter": 3.44222,
+        "Current fiscal year": 13.98424,
+        "Next fiscal year": 16.21775,
+        "currentQuarter": 3.88175
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "26f7abc839afec0e"
+    },
+    "ISRG": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001035267-26-000010",
+      "latest10Q": "0001035267-26-000071",
+      "earningsAccession": "0001035267-26-000067",
+      "earningsFiled": "2026-10-20",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 488.53333,
+      "consensusEps": {
+        "Next quarter": 2.95062,
+        "Following quarter": 2.85125,
+        "Current fiscal year": 11.25264,
+        "Next fiscal year": 12.46877,
+        "currentQuarter": 2.95062
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "62f653a5f83213d2"
+    },
+    "TMO": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000097745-26-000018",
+      "latest10Q": "0000097745-26-000179",
+      "earningsAccession": "0000097745-26-000173",
+      "earningsFiled": "2026-10-21",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 755.1223,
+      "consensusEps": {
+        "Next quarter": 7.12193,
+        "Following quarter": 6.05139,
+        "Current fiscal year": 25.27637,
+        "Next fiscal year": 27.77296,
+        "currentQuarter": 7.12193
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "aa29aad3855a939f"
+    },
+    "VRTX": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000875320-26-000056",
+      "latest10Q": "0000875320-26-000291",
+      "earningsAccession": null,
+      "earningsFiled": null,
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 595.3571,
+      "consensusEps": {
+        "Next quarter": 4.1024,
+        "Following quarter": 4.68125,
+        "Current fiscal year": 18.135,
+        "Next fiscal year": 19.91716,
+        "currentQuarter": 4.1024
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "01f7f7713f9da0dc"
+    },
+    "ABT": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-010185",
+      "latest10Q": "0001628280-26-070154",
+      "earningsAccession": "0001628280-26-066601",
+      "earningsFiled": "2026-10-21",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 119.24654,
+      "consensusEps": {
+        "Next quarter": 1.63822,
+        "Following quarter": 1.2305,
+        "Current fiscal year": 5.51753,
+        "Next fiscal year": 5.9303,
+        "currentQuarter": 1.63822
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "27a493ed3ca5de1f"
+    },
+    "BSX": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000885725-26-000010",
+      "latest10Q": "0000885725-26-000070",
+      "earningsAccession": "0000885725-26-000066",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 49.59857,
+      "consensusEps": {
+        "Next quarter": 0.77579,
+        "Following quarter": 0.74394,
+        "Current fiscal year": 3.17194,
+        "Next fiscal year": 3.13004,
+        "currentQuarter": 0.77579
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "da11a1b19929f06a"
+    },
+    "SYK": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000310764-26-000010",
+      "latest10Q": "0000310764-26-000061",
+      "earningsAccession": "0000310764-26-000059",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 341.48407,
+      "consensusEps": {
+        "Next quarter": 5.02351,
+        "Following quarter": 3.17875,
+        "Current fiscal year": 14.83463,
+        "Next fiscal year": 16.2881,
+        "currentQuarter": 5.02351
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "0fb33c4bca93fc42"
+    },
+    "MRK": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000310158-26-000063",
+      "latest10Q": "0000310158-26-000248",
+      "earningsAccession": "0001104659-26-119825",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 161.525,
+      "consensusEps": {
+        "Next quarter": 1.7452,
+        "Following quarter": 2.12889,
+        "Current fiscal year": 2.78758,
+        "Next fiscal year": 8.96297,
+        "currentQuarter": 1.7452
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "ee1b5cece0947adc"
+    },
+    "REGN": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000872589-26-000008",
+      "latest10Q": "0000872589-26-000034",
+      "earningsAccession": "0000872589-26-000032",
+      "earningsFiled": "2026-10-30",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 991,
+      "consensusEps": {
+        "Next quarter": 25.81452,
+        "Following quarter": 15.88889,
+        "Current fiscal year": 69.02089,
+        "Next fiscal year": 62.12389,
+        "currentQuarter": 25.81452
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "a7de4f8e46f7b5f1"
+    },
+    "ZTS": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001555280-26-000011",
+      "latest10Q": "0001555280-26-000050",
+      "earningsAccession": "0001555280-26-000048",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 89.69231,
+      "consensusEps": {
+        "Next quarter": 1.19101,
+        "Following quarter": 1.47733,
+        "Current fiscal year": 6.3263,
+        "Next fiscal year": 6.37279,
+        "currentQuarter": 1.19101
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "6ea73432a22af744"
+    },
+    "IDXX": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000874716-26-000038",
+      "latest10Q": "0000874716-26-000135",
+      "earningsAccession": "0001104659-26-120892",
+      "earningsFiled": "2026-11-02",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 717.1667,
+      "consensusEps": {
+        "Next quarter": 3.30982,
+        "Following quarter": 3.97538,
+        "Current fiscal year": 15.02454,
+        "Next fiscal year": 16.8929,
+        "currentQuarter": 3.30982
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "b2c82bf2b4160c4d"
+    },
+    "PFE": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000078003-26-000026",
+      "latest10Q": "0000078003-26-000127",
+      "earningsAccession": "0000078003-26-000125",
+      "earningsFiled": "2026-11-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 30.22115,
+      "consensusEps": {
+        "Next quarter": 0.68499,
+        "Following quarter": 0.7025,
+        "Current fiscal year": 3.05086,
+        "Next fiscal year": 2.95325,
+        "currentQuarter": 0.68499
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "0f4ef305be9785b0"
+    },
+    "UNH": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000731766-26-000062",
+      "latest10Q": "0000731766-26-000266",
+      "earningsAccession": "0000731766-26-000255",
+      "earningsFiled": "2026-10-13",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 478.48,
+      "consensusEps": {
+        "Next quarter": 2.27622,
+        "Following quarter": 8.16414,
+        "Current fiscal year": 20.61355,
+        "Next fiscal year": 23.47366,
+        "currentQuarter": 2.27622
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "a95c075a6619cc93"
+    },
+    "BAC": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000070858-26-000157",
+      "latest10Q": "0000070858-26-000548",
+      "earningsAccession": "0000070858-26-000481",
+      "earningsFiled": "2026-10-14",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 62.47727,
+      "consensusEps": {
+        "Next quarter": 1.10278,
+        "Following quarter": 1.19444,
+        "Current fiscal year": 4.36754,
+        "Next fiscal year": 5.09634,
+        "currentQuarter": 1.10278
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "b844c1b47be29057"
+    },
+    "GS": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000886982-26-000091",
+      "latest10Q": "0000886982-26-000532",
+      "earningsAccession": "0000886982-26-000529",
+      "earningsFiled": "2026-10-13",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 1030.7142,
+      "consensusEps": {
+        "Next quarter": 15.81467,
+        "Following quarter": 19.11586,
+        "Current fiscal year": 71.59303,
+        "Next fiscal year": 74.71868,
+        "currentQuarter": 15.81467
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "a12e953dcf55e30d"
+    },
+    "MS": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000895421-26-000086",
+      "latest10Q": "0000895421-26-000293",
+      "earningsAccession": "0000895421-26-000288",
+      "earningsFiled": "2026-10-14",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 211.5,
+      "consensusEps": {
+        "Next quarter": 2.93695,
+        "Following quarter": 3.56523,
+        "Current fiscal year": 12.90898,
+        "Next fiscal year": 13.66386,
+        "currentQuarter": 2.93695
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "72b4346345fed2e0"
+    },
+    "V": {
+      "latestQuarter": "Q4 FY26",
+      "latestQuarterScore": 8108,
+      "latest10K": "0001403161-26-000134",
+      "latest10Q": "0001403161-26-000104",
+      "earningsAccession": "0001403161-26-000126",
+      "earningsFiled": "2026-10-27",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 450.9562,
+      "consensusEps": {
+        "Next quarter": 3.62965,
+        "Following quarter": 3.62468,
+        "Current fiscal year": 15.03424,
+        "Next fiscal year": 17.1404,
+        "currentQuarter": 3.62965
+      },
+      "segmentsAsOf": "2026-09-30",
+      "segmentsHash": "f79010258b7f7bda"
+    },
+    "MA": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001141391-26-000013",
+      "latest10Q": "0001141391-26-000124",
+      "earningsAccession": "0001141391-26-000122",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 720.68677,
+      "consensusEps": {
+        "Next quarter": 5.11032,
+        "Following quarter": 5.17766,
+        "Current fiscal year": 20.05519,
+        "Next fiscal year": 23.16095,
+        "currentQuarter": 5.11032
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "90a983575525a01b"
+    },
+    "BRK.B": {
+      "latestQuarter": "Q2 FY26",
+      "latestQuarterScore": 8106,
+      "latest10K": "0001193125-26-083899",
+      "latest10Q": "0001193125-26-341032",
+      "earningsAccession": "0001193125-26-344495",
+      "earningsFiled": "2026-08-11",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 556,
+      "consensusEps": {},
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "5b94c0f0fa3783f2"
+    },
+    "SPGI": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000064040-26-000013",
+      "latest10Q": "0000064040-26-000058",
+      "earningsAccession": "0000064040-26-000053",
+      "earningsFiled": "2026-10-27",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 529.35,
+      "consensusEps": {
+        "Next quarter": 3.99122,
+        "Following quarter": 5.0887,
+        "Current fiscal year": 17.94002,
+        "Next fiscal year": 20.15232,
+        "currentQuarter": 3.99122
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "03f57bd72fc513e5"
+    },
+    "BLK": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001193125-26-071966",
+      "latest10Q": "0001193125-26-447043",
+      "earningsAccession": "0001193125-26-420979",
+      "earningsFiled": "2026-10-14",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 1366,
+      "consensusEps": {
+        "Next quarter": 15.51583,
+        "Following quarter": 14.97955,
+        "Current fiscal year": 57.8821,
+        "Next fiscal year": 64.94982,
+        "currentQuarter": 15.51583
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "9bb24b830c49f9ce"
+    },
+    "AXP": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000004962-26-000080",
+      "latest10Q": "0000004962-26-000409",
+      "earningsAccession": "0000004962-26-000405",
+      "earningsFiled": "2026-10-23",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 364.78708,
+      "consensusEps": {
+        "Next quarter": 4.28993,
+        "Following quarter": 4.74431,
+        "Current fiscal year": 18.39107,
+        "Next fiscal year": 20.16747,
+        "currentQuarter": 4.28993
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "0ac3401a6bc0b09c"
+    },
+    "SCHW": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000316709-26-000009",
+      "latest10Q": "0000316709-26-000038",
+      "earningsAccession": "0000316709-26-000035",
+      "earningsFiled": "2026-10-15",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 116.54545,
+      "consensusEps": {
+        "Next quarter": 1.7151,
+        "Following quarter": 1.77344,
+        "Current fiscal year": 6.44493,
+        "Next fiscal year": 7.79652,
+        "currentQuarter": 1.7151
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "39a8c4cb87149b66"
+    },
+    "CB": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000896159-26-000005",
+      "latest10Q": "0000896159-26-000021",
+      "earningsAccession": "0001193125-26-426866",
+      "earningsFiled": "2026-10-20",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 375.6087,
+      "consensusEps": {
+        "Next quarter": 7.33382,
+        "Following quarter": 7.26636,
+        "Current fiscal year": 29.11315,
+        "Next fiscal year": 29.47139,
+        "currentQuarter": 7.33382
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "ec578dafd3a2ecdd"
+    },
+    "PGR": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000080661-26-000086",
+      "latest10Q": "0000080661-26-000379",
+      "earningsAccession": "0000080661-26-000367",
+      "earningsFiled": "2026-10-14",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 234.2381,
+      "consensusEps": {
+        "Next quarter": 4.07382,
+        "Following quarter": 4.36461,
+        "Current fiscal year": 18.45232,
+        "Next fiscal year": 16.05188,
+        "currentQuarter": 4.07382
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "47d41abda6059784"
+    },
+    "ICE": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001571949-26-000004",
+      "latest10Q": "0001571949-26-000015",
+      "earningsAccession": "0001104659-26-119880",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 193.53333,
+      "consensusEps": {
+        "Next quarter": 1.94437,
+        "Following quarter": 2.20762,
+        "Current fiscal year": 8.19817,
+        "Next fiscal year": 8.94344,
+        "currentQuarter": 1.94437
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "40aeda5e838694f6"
+    },
+    "CME": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001156375-26-000009",
+      "latest10Q": "0001156375-26-000068",
+      "earningsAccession": "0001156375-26-000065",
+      "earningsFiled": "2026-10-21",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 318.125,
+      "consensusEps": {
+        "Next quarter": 3.03367,
+        "Following quarter": 3.32083,
+        "Current fiscal year": 12.4027,
+        "Next fiscal year": 13.25335,
+        "currentQuarter": 3.03367
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "f1abf283d752e980"
+    },
+    "AIG": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000005272-26-000023",
+      "latest10Q": "0000005272-26-000104",
+      "earningsAccession": "0000005272-26-000101",
+      "earningsFiled": "2026-11-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 88.95,
+      "consensusEps": {
+        "Next quarter": 2.07926,
+        "Following quarter": 2.24837,
+        "Current fiscal year": 8.22893,
+        "Next fiscal year": 8.75114,
+        "currentQuarter": 2.07926
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "45c6c30b3f3c2858"
+    },
+    "C": {
+      "latestQuarter": "Q4 FY25",
+      "latestQuarterScore": 8104,
+      "latest10K": "0000831001-26-000011",
+      "latest10Q": "0000831001-26-000056",
+      "earningsAccession": "0001104659-26-115323",
+      "earningsFiled": "2026-10-13",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 150.59525,
+      "consensusEps": {
+        "Next quarter": 2.30066,
+        "Following quarter": 3.214,
+        "Current fiscal year": 11.4046,
+        "Next fiscal year": 13.06276,
+        "currentQuarter": 2.30066
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "32835abcf4917de1"
+    },
+    "WFC": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000072971-26-000133",
+      "latest10Q": "0000072971-26-000327",
+      "earningsAccession": "0000072971-26-000318",
+      "earningsFiled": "2026-10-13",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 97.375,
+      "consensusEps": {
+        "Next quarter": 1.86388,
+        "Following quarter": 1.79432,
+        "Current fiscal year": 7.34156,
+        "Next fiscal year": 8.05513,
+        "currentQuarter": 1.86388
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "1fbd0c0740c4a12f"
+    },
+    "GE": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000040545-26-000008",
+      "latest10Q": "0000040545-26-000064",
+      "earningsAccession": "0000040545-26-000063",
+      "earningsFiled": "2026-10-20",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 378.42856,
+      "consensusEps": {
+        "Next quarter": 2.332,
+        "Following quarter": 2.09439,
+        "Current fiscal year": 8.15419,
+        "Next fiscal year": 9.95822,
+        "currentQuarter": 2.332
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "6ba806a811f2014f"
+    },
+    "GEV": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001996810-26-000015",
+      "latest10Q": "0001996810-26-000163",
+      "earningsAccession": "0001996810-26-000162",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 1162.4033,
+      "consensusEps": {
+        "Next quarter": 6.95299,
+        "Following quarter": 5.0116,
+        "Current fiscal year": 31.79654,
+        "Next fiscal year": 26.23496,
+        "currentQuarter": 6.95299
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "9c14dc15211ba01b"
+    },
+    "CAT": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000018230-26-000008",
+      "latest10Q": "0000018230-26-000057",
+      "earningsAccession": "0000018230-26-000052",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 807.2604,
+      "consensusEps": {
+        "Next quarter": 6.45799,
+        "Following quarter": 6.53584,
+        "Current fiscal year": 27.02847,
+        "Next fiscal year": 32.1774,
+        "currentQuarter": 6.45799
+      },
+      "segmentsAsOf": null,
+      "segmentsHash": null
+    },
+    "RTX": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000101829-26-000006",
+      "latest10Q": "0000101829-26-000031",
+      "earningsAccession": "0000101829-26-000030",
+      "earningsFiled": "2026-10-20",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 227.875,
+      "consensusEps": {
+        "Next quarter": 1.8317,
+        "Following quarter": 1.8159,
+        "Current fiscal year": 7.72355,
+        "Next fiscal year": 8.09163,
+        "currentQuarter": 1.8317
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "3bceb780b268df3e"
+    },
+    "ETN": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001551182-26-000007",
+      "latest10Q": "0001551182-26-000040",
+      "earningsAccession": "0001551182-26-000037",
+      "earningsFiled": "2026-11-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 465.66666,
+      "consensusEps": {
+        "Next quarter": 4.15155,
+        "Following quarter": 3.56983,
+        "Current fiscal year": 13.79172,
+        "Next fiscal year": 16.49259,
+        "currentQuarter": 4.15155
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "75c7cdce22bbc3fb"
+    },
+    "VRT": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001674101-26-000008",
+      "latest10Q": "0001628280-26-067893",
+      "earningsAccession": "0001628280-26-067707",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 326.886,
+      "consensusEps": {
+        "Next quarter": 2.28763,
+        "Following quarter": 1.84994,
+        "Current fiscal year": 7.1907,
+        "Next fiscal year": 9.90613,
+        "currentQuarter": 2.28763
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "6f00f8cae79d676c"
+    },
+    "PH": {
+      "latestQuarter": "Q1 FY27",
+      "latestQuarterScore": 8109,
+      "latest10K": "0000076334-26-000105",
+      "latest10Q": "0000076334-26-000172",
+      "earningsAccession": "0000076334-26-000170",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 1141.7621,
+      "consensusEps": {
+        "Next quarter": 8.87173,
+        "Following quarter": 9.27192,
+        "Current fiscal year": 37.03935,
+        "Next fiscal year": 41.19577,
+        "currentQuarter": 8.87173
+      },
+      "segmentsAsOf": "2026-06-30",
+      "segmentsHash": "357e4f48908b8ec6"
+    },
+    "URI": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001067701-26-000007",
+      "latest10Q": "0001067701-26-000034",
+      "earningsAccession": "0001067701-26-000036",
+      "earningsFiled": "2026-10-21",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 1298.0476,
+      "consensusEps": {
+        "Next quarter": 14.37265,
+        "Following quarter": 11.975,
+        "Current fiscal year": 52.27541,
+        "Next fiscal year": 62.06434,
+        "currentQuarter": 14.37265
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "dd5d94e69dff3820"
+    },
+    "UNP": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000100885-26-000037",
+      "latest10Q": "0000100885-26-000321",
+      "earningsAccession": "0000100885-26-000319",
+      "earningsFiled": "2026-10-22",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 329.95834,
+      "consensusEps": {
+        "Next quarter": 3.31056,
+        "Following quarter": 3.23823,
+        "Current fiscal year": 13.16885,
+        "Next fiscal year": 14.39406,
+        "currentQuarter": 3.31056
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "ff1952f65bcc1560"
+    },
+    "WM": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001104659-26-012049",
+      "latest10Q": "0001628280-26-067830",
+      "earningsAccession": "0001104659-26-119188",
+      "earningsFiled": "2026-10-27",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 256.84,
+      "consensusEps": {
+        "Next quarter": 2.07842,
+        "Following quarter": 1.90563,
+        "Current fiscal year": 8.09842,
+        "Next fiscal year": 8.9421,
+        "currentQuarter": 2.07842
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "a8073db126417e4f"
+    },
+    "TT": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-005731",
+      "latest10Q": "0001628280-26-068122",
+      "earningsAccession": "0001466258-26-000001",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 516.5139,
+      "consensusEps": {
+        "Next quarter": 3.48673,
+        "Following quarter": 3.17668,
+        "Current fiscal year": 15.26381,
+        "Next fiscal year": 17.74137,
+        "currentQuarter": 3.48673
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "60095c24fe72f0ca"
+    },
+    "HWM": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000004281-26-000012",
+      "latest10Q": "0000004281-26-000036",
+      "earningsAccession": "0001104659-26-119857",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 296.2857,
+      "consensusEps": {
+        "Next quarter": 1.50473,
+        "Following quarter": 1.46979,
+        "Current fiscal year": 5.50233,
+        "Next fiscal year": 6.6468,
+        "currentQuarter": 1.50473
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "76b1041c3c32a199"
+    },
+    "AXON": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-011360",
+      "latest10Q": "0001628280-26-071242",
+      "earningsAccession": "0001628280-26-071086",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 541.3158,
+      "consensusEps": {
+        "Next quarter": 1.94849,
+        "Following quarter": 1.93131,
+        "Current fiscal year": 7.1093,
+        "Next fiscal year": 9.44448,
+        "currentQuarter": 1.94849
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "05d899d20e770f68"
+    },
+    "BA": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-004357",
+      "latest10Q": "0001628280-26-067508",
+      "earningsAccession": "0001628280-26-067411",
+      "earningsFiled": "2026-10-27",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 233.03703,
+      "consensusEps": {
+        "Next quarter": -0.75132,
+        "Following quarter": 0.16516,
+        "Current fiscal year": -2.03224,
+        "Next fiscal year": 2.06962,
+        "currentQuarter": -0.75132
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "b284e3e0380b500e"
+    },
+    "DE": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001104659-25-122321",
+      "latest10Q": "0001104659-26-102213",
+      "earningsAccession": "0001104659-26-098904",
+      "earningsFiled": "2026-08-20",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 694.0078,
+      "consensusEps": {
+        "Next quarter": 4.05504,
+        "Following quarter": 3.26286,
+        "Current fiscal year": 18.11172,
+        "Next fiscal year": 22.90149,
+        "currentQuarter": 4.05504
+      },
+      "segmentsAsOf": "2025-11-02",
+      "segmentsHash": "24c3e0955d46bee2"
+    },
+    "HON": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000773840-26-000013",
+      "latest10Q": "0000773840-26-000143",
+      "earningsAccession": "0000773840-26-000141",
+      "earningsFiled": "2026-10-22",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 253.86957,
+      "consensusEps": {
+        "Next quarter": 2.45048,
+        "Following quarter": 2.11108,
+        "Current fiscal year": 8.41766,
+        "Next fiscal year": 9.87567,
+        "currentQuarter": 2.45048
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "39b4c7598591492d"
+    },
+    "LMT": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-004195",
+      "latest10Q": "0001628280-26-066928",
+      "earningsAccession": "0001628280-26-066780",
+      "earningsFiled": "2026-10-22",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 660.86365,
+      "consensusEps": {
+        "Next quarter": 8.21355,
+        "Following quarter": 7.30059,
+        "Current fiscal year": 30.61807,
+        "Next fiscal year": 33.29566,
+        "currentQuarter": 8.21355
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "f0cb9f9bdc693319"
+    },
+    "XOM": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000034088-26-000045",
+      "latest10Q": "0002115436-26-000020",
+      "earningsAccession": "0002115436-26-000018",
+      "earningsFiled": "2026-10-30",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 184.18182,
+      "consensusEps": {
+        "Next quarter": 4.09346,
+        "Following quarter": 3.46335,
+        "Current fiscal year": 13.67991,
+        "Next fiscal year": 12.48524,
+        "currentQuarter": 4.09346
+      },
+      "segmentsAsOf": null,
+      "segmentsHash": null
+    },
+    "CVX": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000093410-26-000078",
+      "latest10Q": "0000093410-26-000200",
+      "earningsAccession": "0000093410-26-000196",
+      "earningsFiled": "2026-10-30",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 241.625,
+      "consensusEps": {
+        "Next quarter": 5.65396,
+        "Following quarter": 4.69763,
+        "Current fiscal year": 18.31622,
+        "Next fiscal year": 16.50086,
+        "currentQuarter": 5.65396
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "8aa2898420dc0cda"
+    },
+    "COP": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001163165-26-000009",
+      "latest10Q": "0001163165-26-000045",
+      "earningsAccession": "0001163165-26-000043",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 152.74074,
+      "consensusEps": {
+        "Next quarter": 3.62468,
+        "Following quarter": 3.12834,
+        "Current fiscal year": 11.97859,
+        "Next fiscal year": 11.33018,
+        "currentQuarter": 3.62468
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "c63842c59addac68"
+    },
+    "EOG": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000821189-26-000054",
+      "latest10Q": "0000821189-26-000227",
+      "earningsAccession": "0000821189-26-000226",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 167.58621,
+      "consensusEps": {
+        "Next quarter": 5.50375,
+        "Following quarter": 4.47331,
+        "Current fiscal year": 18.84618,
+        "Next fiscal year": 17.0108,
+        "currentQuarter": 5.50375
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "04964e374ea7dfd4"
+    },
+    "WMB": {
+      "latestQuarter": "Q2 FY26",
+      "latestQuarterScore": 8106,
+      "latest10K": "0000107263-26-000006",
+      "latest10Q": "0000107263-26-000036",
+      "earningsAccession": "0000107263-26-000035",
+      "earningsFiled": "2026-11-02",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 85.41667,
+      "consensusEps": {
+        "Next quarter": 0.60376,
+        "Following quarter": 0.69247,
+        "Current fiscal year": 2.40157,
+        "Next fiscal year": 2.54788,
+        "currentQuarter": 0.60376
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "05432c28caa06c51"
+    },
+    "NEE": {
+      "latestQuarter": "Q1 FY26",
+      "latestQuarterScore": 8105,
+      "latest10K": "0000753308-26-000015",
+      "latest10Q": "0000753308-26-000081",
+      "earningsAccession": "0000753308-26-000077",
+      "earningsFiled": "2026-10-21",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 94.47368,
+      "consensusEps": {
+        "Next quarter": 0.5726,
+        "Following quarter": 1.10083,
+        "Current fiscal year": 4.02912,
+        "Next fiscal year": 4.37701,
+        "currentQuarter": 0.5726
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "ceb8d8502e68ce69"
+    },
+    "CEG": {
+      "latestQuarter": "Q2 FY26",
+      "latestQuarterScore": 8106,
+      "latest10K": "0001868275-26-000032",
+      "latest10Q": "0001868275-26-000104",
+      "earningsAccession": "0001868275-26-000097",
+      "earningsFiled": "2026-08-06",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 340.37564,
+      "consensusEps": {
+        "Next quarter": 2.77,
+        "Following quarter": 2.98,
+        "Current fiscal year": 12.56588,
+        "Next fiscal year": 13.38236,
+        "currentQuarter": 2.77
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "a6161d0db3b6ed8a"
+    },
+    "VST": {
+      "latestQuarter": "Q2 FY26",
+      "latestQuarterScore": 8106,
+      "latest10K": "0001692819-26-000006",
+      "latest10Q": "0001692819-26-000019",
+      "earningsAccession": "0001692819-26-000023",
+      "earningsFiled": "2026-11-06",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 197.18262,
+      "consensusEps": {
+        "Next quarter": 2.98181,
+        "Following quarter": 1.85333,
+        "Current fiscal year": 9.18967,
+        "Next fiscal year": 10.29132,
+        "currentQuarter": 2.98181
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "30fd0dd25255fe2d"
+    },
+    "SO": {
+      "latestQuarter": "Q1 FY26",
+      "latestQuarterScore": 8105,
+      "latest10K": "0000092122-26-000006",
+      "latest10Q": "0000092122-26-000069",
+      "earningsAccession": "0000092122-26-000071",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 96.925,
+      "consensusEps": {
+        "Next quarter": 0.38965,
+        "Following quarter": 1.32983,
+        "Current fiscal year": 4.65454,
+        "Next fiscal year": 4.93875,
+        "currentQuarter": 0.38965
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "179bc5ca3df75de2"
+    },
+    "DUK": {
+      "latestQuarter": "Q1 FY26",
+      "latestQuarterScore": 8105,
+      "latest10K": "0001326160-26-000014",
+      "latest10Q": "0001326160-26-000051",
+      "earningsAccession": "0001326160-26-000048",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 134.55263,
+      "consensusEps": {
+        "Next quarter": 1.43932,
+        "Following quarter": 1.94325,
+        "Current fiscal year": 6.75638,
+        "Next fiscal year": 7.1679,
+        "currentQuarter": 1.43932
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "750bd961e5db9ef3"
+    },
+    "LIN": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-011430",
+      "latest10Q": "0001628280-26-068079",
+      "earningsAccession": "0001654954-26-009199",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 555.14813,
+      "consensusEps": {
+        "Next quarter": 4.49247,
+        "Following quarter": null,
+        "Current fiscal year": 17.91291,
+        "Next fiscal year": 18.27749,
+        "currentQuarter": 4.49247
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "6b462ec4afd46e58"
+    },
+    "SHW": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000089800-26-000008",
+      "latest10Q": "0000089800-26-000056",
+      "earningsAccession": "0000089800-26-000054",
+      "earningsFiled": "2026-10-27",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 373.83334,
+      "consensusEps": {
+        "Next quarter": 2.34464,
+        "Following quarter": 2.4501,
+        "Current fiscal year": 12.02423,
+        "Next fiscal year": 13.17056,
+        "currentQuarter": 2.34464
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "e6b927cc0ea8fd8c"
+    },
+    "FCX": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000831259-26-000012",
+      "latest10Q": "0000831259-26-000051",
+      "earningsAccession": "0000831259-26-000045",
+      "earningsFiled": "2026-10-27",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 78.22273,
+      "consensusEps": {
+        "Next quarter": 1.015,
+        "Following quarter": 0.9975,
+        "Current fiscal year": 3.14229,
+        "Next fiscal year": 4.2196,
+        "currentQuarter": 1.015
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "1d75b8a3d1c7afdb"
+    },
+    "ECL": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001104659-26-018357",
+      "latest10Q": "0001628280-26-068208",
+      "earningsAccession": "0001628280-26-067418",
+      "earningsFiled": "2026-10-27",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 342.9524,
+      "consensusEps": {
+        "Next quarter": 2.19233,
+        "Following quarter": 1.88213,
+        "Current fiscal year": 8.18541,
+        "Next fiscal year": 9.448,
+        "currentQuarter": 2.19233
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "e3714edcb27562d5"
+    },
+    "PLD": {
+      "latestQuarter": "Q1 FY26",
+      "latestQuarterScore": 8105,
+      "latest10K": "0001193125-26-051453",
+      "latest10Q": "0001193125-26-436160",
+      "earningsAccession": "0001193125-26-422375",
+      "earningsFiled": "2026-10-15",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 152.07143,
+      "consensusEps": {
+        "Next quarter": 0.75667,
+        "Following quarter": 0.78,
+        "Current fiscal year": 3.965,
+        "Next fiscal year": 3.6025,
+        "currentQuarter": 0.75667
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "6d3308f41a047389"
+    },
+    "EQIX": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001101239-26-000032",
+      "latest10Q": "0001101239-26-000180",
+      "earningsAccession": "0001101239-26-000178",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 1234.875,
+      "consensusEps": {
+        "Next quarter": 4.29,
+        "Following quarter": 5.29,
+        "Current fiscal year": 18.73667,
+        "Next fiscal year": 20.695,
+        "currentQuarter": 4.29
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "16d117e0112e9c29"
+    },
+    "WELL": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000766704-26-000010",
+      "latest10Q": "0000766704-26-000046",
+      "earningsAccession": "0000766704-26-000043",
+      "earningsFiled": "2026-10-26",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 265.45456,
+      "consensusEps": {
+        "Next quarter": 0.71603,
+        "Following quarter": 0.8,
+        "Current fiscal year": 2.74,
+        "Next fiscal year": 2.975,
+        "currentQuarter": 0.71603
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "dfd411e94b983b39"
+    },
+    "CRDO": {
+      "latestQuarter": "Q1 FY27",
+      "latestQuarterScore": 8109,
+      "latest10K": "0001628280-26-043303",
+      "latest10Q": "0001628280-26-060111",
+      "earningsAccession": "0001628280-26-059795",
+      "earningsFiled": "2026-09-01",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 274.30853,
+      "consensusEps": {
+        "Next quarter": 1.2835,
+        "Following quarter": 1.60668,
+        "Current fiscal year": 6.30934,
+        "Next fiscal year": 9.71213,
+        "currentQuarter": 1.2835
+      },
+      "segmentsAsOf": "2026-05-02",
+      "segmentsHash": "e31a120ba27b7eb0"
+    },
+    "ALAB": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001736297-26-000010",
+      "latest10Q": "0001736297-26-000045",
+      "earningsAccession": "0001736297-26-000044",
+      "earningsFiled": "2026-11-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 348.39178,
+      "consensusEps": {
+        "Next quarter": 1.64548,
+        "Following quarter": 1.66885,
+        "Current fiscal year": 4.381,
+        "Next fiscal year": 7.23736,
+        "currentQuarter": 1.64548
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "823b1a334b25fb58"
+    },
+    "CLS": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001030894-26-000011",
+      "latest10Q": "0001030894-26-000050",
+      "earningsAccession": "0001030894-26-000049",
+      "earningsFiled": "2026-10-26",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 456.17014,
+      "consensusEps": {
+        "Next quarter": 3.4514,
+        "Following quarter": 3.94081,
+        "Current fiscal year": 11.57139,
+        "Next fiscal year": 21.77264,
+        "currentQuarter": 3.4514
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "a0a885abc46315e3"
+    },
+    "CIEN": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-25-056698",
+      "latest10Q": "0001628280-26-060361",
+      "earningsAccession": "0001628280-26-060245",
+      "earningsFiled": "2026-09-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 502.99072,
+      "consensusEps": {
+        "Next quarter": 1.61699,
+        "Following quarter": 2.36113,
+        "Current fiscal year": 7.16563,
+        "Next fiscal year": 10.33093,
+        "currentQuarter": 1.61699
+      },
+      "segmentsAsOf": "2025-11-01",
+      "segmentsHash": "78a5112b99563aa0"
+    },
+    "LITE": {
+      "latestQuarter": "Q1 FY27",
+      "latestQuarterScore": 8109,
+      "latest10K": "0001628280-26-057358",
+      "latest10Q": "0001628280-26-069615",
+      "earningsAccession": "0001628280-26-068655",
+      "earningsFiled": "2026-11-02",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 1048.3403,
+      "consensusEps": {
+        "Next quarter": 5.97699,
+        "Following quarter": 6.82365,
+        "Current fiscal year": 24.93987,
+        "Next fiscal year": 40.13453,
+        "currentQuarter": 5.97699
+      },
+      "segmentsAsOf": "2026-06-27",
+      "segmentsHash": "fd9d7432632bb453"
+    },
+    "COHR": {
+      "latestQuarter": "Q1 FY27",
+      "latestQuarterScore": 8109,
+      "latest10K": "0000820318-26-000020",
+      "latest10Q": "0000820318-26-000023",
+      "earningsAccession": "0001193125-26-447200",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 371.9185,
+      "consensusEps": {
+        "Next quarter": 2.40301,
+        "Following quarter": 2.75529,
+        "Current fiscal year": 10.3728,
+        "Next fiscal year": 15.77931,
+        "currentQuarter": 2.40301
+      },
+      "segmentsAsOf": "2026-06-30",
+      "segmentsHash": "c2d348a0c5456235"
+    },
+    "POWL": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000080420-25-000152",
+      "latest10Q": "0000080420-26-000107",
+      "earningsAccession": "0000080420-26-000103",
+      "earningsFiled": "2026-08-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 228.75,
+      "consensusEps": {
+        "Next quarter": 1.375,
+        "Following quarter": 1.78,
+        "Current fiscal year": 7.68608,
+        "Next fiscal year": 9.44544,
+        "currentQuarter": 1.375
+      },
+      "segmentsAsOf": "2025-09-30",
+      "segmentsHash": "da0f24766b3864ef"
+    },
+    "NVT": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-008608",
+      "latest10Q": "0001628280-26-068596",
+      "earningsAccession": "0001628280-26-068391",
+      "earningsFiled": "2026-10-30",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 192.94444,
+      "consensusEps": {
+        "Next quarter": 1.33921,
+        "Following quarter": 1.46804,
+        "Current fiscal year": 5.38343,
+        "Next fiscal year": 7.03176,
+        "currentQuarter": 1.33921
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "a5fb6f08cabc7829"
+    },
+    "FIX": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001104659-26-017530",
+      "latest10Q": "0001104659-26-118159",
+      "earningsAccession": "0001104659-26-118156",
+      "earningsFiled": "2026-10-22",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 1772.2727,
+      "consensusEps": {
+        "Next quarter": 14.01917,
+        "Following quarter": 13.98111,
+        "Current fiscal year": 50.82289,
+        "Next fiscal year": 67.29402,
+        "currentQuarter": 14.01917
+      },
+      "segmentsAsOf": null,
+      "segmentsHash": null
+    },
+    "STRL": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000874238-26-000024",
+      "latest10Q": "0000874238-26-000125",
+      "earningsAccession": "0000874238-26-000122",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 679.875,
+      "consensusEps": {
+        "Next quarter": 4.85342,
+        "Following quarter": 4.735,
+        "Current fiscal year": 21.83394,
+        "Next fiscal year": 27.90257,
+        "currentQuarter": 4.85342
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "38db4289cad90548"
+    },
+    "BE": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-006516",
+      "latest10Q": "0001628280-26-066931",
+      "earningsAccession": "0001628280-26-066890",
+      "earningsFiled": "2026-10-22",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 282.69232,
+      "consensusEps": {
+        "Next quarter": 1.1176,
+        "Following quarter": 0.97859,
+        "Current fiscal year": 3.26858,
+        "Next fiscal year": 5.35406,
+        "currentQuarter": 1.1176
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "8de115ac004c6e0a"
+    },
+    "NBIS": {
+      "latestQuarter": null,
+      "latestQuarterScore": null,
+      "latest10K": "0001104659-26-052948",
+      "latest10Q": null,
+      "earningsAccession": null,
+      "earningsFiled": null,
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 231.6,
+      "consensusEps": {
+        "Next quarter": -1.434,
+        "Following quarter": -1.56333,
+        "Current fiscal year": -0.29375,
+        "Next fiscal year": -5.30594,
+        "currentQuarter": -1.434
+      },
+      "segmentsAsOf": null,
+      "segmentsHash": null
+    },
+    "IREN": {
+      "latestQuarter": "Q1 FY27",
+      "latestQuarterScore": 8109,
+      "latest10K": "0001878848-26-000052",
+      "latest10Q": "0001878848-26-000066",
+      "earningsAccession": "0001878848-26-000065",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 52.74,
+      "consensusEps": {
+        "Next quarter": -0.71,
+        "Following quarter": -0.15,
+        "Current fiscal year": -1.66,
+        "Next fiscal year": 0.27,
+        "currentQuarter": -0.71
+      },
+      "segmentsAsOf": "2026-06-30",
+      "segmentsHash": "ef65483a86b7dcc8"
+    },
+    "APLD": {
+      "latestQuarter": "Q1 FY27",
+      "latestQuarterScore": 8109,
+      "latest10K": "0001144879-26-000048",
+      "latest10Q": "0001144879-26-000059",
+      "earningsAccession": "0001144879-26-000057",
+      "earningsFiled": "2026-10-07",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 54.3125,
+      "consensusEps": {
+        "Next quarter": -0.24637,
+        "Following quarter": -0.25038,
+        "Current fiscal year": -1.06336,
+        "Next fiscal year": -0.71444,
+        "currentQuarter": -0.24637
+      },
+      "segmentsAsOf": "2026-05-31",
+      "segmentsHash": "8135c4bb7d956365"
+    },
+    "CRWV": {
+      "latestQuarter": "Q2 FY26",
+      "latestQuarterScore": 8106,
+      "latest10K": "0001769628-26-000104",
+      "latest10Q": "0001769628-26-000366",
+      "earningsAccession": "0001769628-26-000362",
+      "earningsFiled": "2026-08-11",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 114.55263,
+      "consensusEps": {
+        "Next quarter": -0.94,
+        "Following quarter": -1.01,
+        "Current fiscal year": -4.74909,
+        "Next fiscal year": -3.63831,
+        "currentQuarter": -0.94
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "477797968817d457"
+    },
+    "AMSC": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0001437749-26-018542",
+      "latest10Q": "0001437749-26-034936",
+      "earningsAccession": "0001437749-26-034935",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 50.75,
+      "consensusEps": {
+        "Next quarter": 0.1825,
+        "Following quarter": 0.2525,
+        "Current fiscal year": 0.7925,
+        "Next fiscal year": 1.315,
+        "currentQuarter": 0.1825
+      },
+      "segmentsAsOf": "2026-03-31",
+      "segmentsHash": "a83d04af78fffbcc"
+    },
+    "PSTG": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0001474432-26-000027",
+      "latest10Q": "0001474432-26-000088",
+      "earningsAccession": null,
+      "earningsFiled": null,
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": null,
+      "consensusEps": {},
+      "segmentsAsOf": null,
+      "segmentsHash": null
+    },
+    "ONTO": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0001193125-26-066937",
+      "latest10Q": "0001193125-26-338401",
+      "earningsAccession": "0001193125-26-337990",
+      "earningsFiled": "2026-08-06",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 329,
+      "consensusEps": {
+        "Next quarter": 2.65,
+        "Following quarter": 2.65,
+        "Current fiscal year": 8.47792,
+        "Next fiscal year": 12.86362,
+        "currentQuarter": 2.65
+      },
+      "segmentsAsOf": "2026-01-03",
+      "segmentsHash": "ab16c620add43fb1"
+    },
+    "CAMT": {
+      "latestQuarter": null,
+      "latestQuarterScore": null,
+      "latest10K": "0001178913-26-001561",
+      "latest10Q": null,
+      "earningsAccession": null,
+      "earningsFiled": null,
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 150.72726,
+      "consensusEps": {
+        "Next quarter": 1.14475,
+        "Following quarter": 1.23188,
+        "Current fiscal year": 3.606,
+        "Next fiscal year": 5.13486,
+        "currentQuarter": 1.14475
+      },
+      "segmentsAsOf": null,
+      "segmentsHash": null
+    },
+    "FORM": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001039399-26-000009",
+      "latest10Q": "0001039399-26-000043",
+      "earningsAccession": "0001039399-26-000040",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 144.7,
+      "consensusEps": {
+        "Next quarter": 0.95,
+        "Following quarter": 0.94,
+        "Current fiscal year": 3.38631,
+        "Next fiscal year": 4.29449,
+        "currentQuarter": 0.95
+      },
+      "segmentsAsOf": "2025-12-27",
+      "segmentsHash": "2b3757a635189abf"
+    },
+    "RMBS": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001193125-26-057101",
+      "latest10Q": "0001193125-26-431941",
+      "earningsAccession": "0001193125-26-431918",
+      "earningsFiled": "2026-10-26",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 140.57143,
+      "consensusEps": {
+        "Next quarter": 0.87429,
+        "Following quarter": 0.87833,
+        "Current fiscal year": 3.10875,
+        "Next fiscal year": 3.885,
+        "currentQuarter": 0.87429
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "ac231c214a826d77"
+    },
+    "SITM": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001451809-26-000012",
+      "latest10Q": "0001451809-26-000077",
+      "earningsAccession": "0001451809-26-000076",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 699.1667,
+      "consensusEps": {
+        "Next quarter": 4.7725,
+        "Following quarter": 4.20455,
+        "Current fiscal year": 12.71942,
+        "Next fiscal year": 18.14326,
+        "currentQuarter": 4.7725
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "167e522f13f8ff92"
+    },
+    "LSCC": {
+      "latestQuarter": "Q3 FY27",
+      "latestQuarterScore": 8111,
+      "latest10K": "0001437749-26-004100",
+      "latest10Q": "0001193125-26-445613",
+      "earningsAccession": "0001437749-26-034452",
+      "earningsFiled": "2026-11-02",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 156.18768,
+      "consensusEps": {
+        "Next quarter": 0.84276,
+        "Following quarter": 0.95321,
+        "Current fiscal year": 2.513,
+        "Next fiscal year": 4.38893,
+        "currentQuarter": 0.84276
+      },
+      "segmentsAsOf": "2026-01-03",
+      "segmentsHash": "2ddebd9962343143"
+    },
+    "MTSI": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001493594-25-000054",
+      "latest10Q": "0001493594-26-000038",
+      "earningsAccession": "0001493594-26-000041",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 327,
+      "consensusEps": {
+        "Next quarter": 2.25087,
+        "Following quarter": 2.35748,
+        "Current fiscal year": 9.79988,
+        "Next fiscal year": 11.5923,
+        "currentQuarter": 2.25087
+      },
+      "segmentsAsOf": "2025-10-03",
+      "segmentsHash": "9c5c4ae84a04b732"
+    },
+    "AEIS": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001104659-26-014731",
+      "latest10Q": "0000927003-26-000039",
+      "earningsAccession": "0000927003-26-000037",
+      "earningsFiled": "2026-11-02",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 383.58334,
+      "consensusEps": {
+        "Next quarter": 3.94364,
+        "Following quarter": 4.0052,
+        "Current fiscal year": 12.41815,
+        "Next fiscal year": 17.92847,
+        "currentQuarter": 3.94364
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "7a39f9fdaf9471bd"
+    },
+    "POWI": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000833640-26-000037",
+      "latest10Q": "0000833640-26-000156",
+      "earningsAccession": "0000833640-26-000152",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 58.5,
+      "consensusEps": {
+        "Next quarter": 0.424,
+        "Following quarter": 0.396,
+        "Current fiscal year": 1.486,
+        "Next fiscal year": 1.794,
+        "currentQuarter": 0.424
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "3144805acc9d5ace"
+    },
+    "AMKR": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001047127-26-000014",
+      "latest10Q": "0001047127-26-000052",
+      "earningsAccession": "0001047127-26-000049",
+      "earningsFiled": "2026-10-26",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 65.7,
+      "consensusEps": {
+        "Next quarter": 0.7202,
+        "Following quarter": 0.54375,
+        "Current fiscal year": 2.5039,
+        "Next fiscal year": 2.77583,
+        "currentQuarter": 0.7202
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "b7c11bac2518f3b1"
+    },
+    "S": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0001583708-26-000020",
+      "latest10Q": "0001583708-26-000055",
+      "earningsAccession": "0001583708-26-000052",
+      "earningsFiled": "2026-08-27",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 25.15,
+      "consensusEps": {
+        "Next quarter": 0.09135,
+        "Following quarter": 0.1081,
+        "Current fiscal year": 0.31938,
+        "Next fiscal year": 0.46091,
+        "currentQuarter": 0.09135
+      },
+      "segmentsAsOf": "2026-01-31",
+      "segmentsHash": "cf40476f3531cd77"
+    },
+    "RBRK": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0001943896-26-000013",
+      "latest10Q": "0001943896-26-000060",
+      "earningsAccession": "0001943896-26-000055",
+      "earningsFiled": "2026-08-27",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 125.21429,
+      "consensusEps": {
+        "Next quarter": 0.08227,
+        "Following quarter": 0.06313,
+        "Current fiscal year": 0.50384,
+        "Next fiscal year": 0.77524,
+        "currentQuarter": 0.08227
+      },
+      "segmentsAsOf": "2026-01-31",
+      "segmentsHash": "b00efe88d9f41153"
+    },
+    "TENB": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001660280-26-000005",
+      "latest10Q": "0001660280-26-000054",
+      "earningsAccession": "0001660280-26-000050",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 48.35,
+      "consensusEps": {
+        "Next quarter": 0.57398,
+        "Following quarter": 0.55641,
+        "Current fiscal year": 2.17748,
+        "Next fiscal year": 2.46483,
+        "currentQuarter": 0.57398
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "ddfcf8951c652da1"
+    },
+    "GTLB": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0001628280-26-018731",
+      "latest10Q": "0001628280-26-059943",
+      "earningsAccession": "0001628280-26-059820",
+      "earningsFiled": "2026-09-01",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 56.08333,
+      "consensusEps": {
+        "Next quarter": 0.19976,
+        "Following quarter": 0.1941,
+        "Current fiscal year": 0.86621,
+        "Next fiscal year": 1.03835,
+        "currentQuarter": 0.19976
+      },
+      "segmentsAsOf": "2026-01-31",
+      "segmentsHash": "a49be1547daaf679"
+    },
+    "IOT": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0001628280-26-018167",
+      "latest10Q": "0001628280-26-060909",
+      "earningsAccession": "0001628280-26-060438",
+      "earningsFiled": "2026-09-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 51.775,
+      "consensusEps": {
+        "Next quarter": 0.18847,
+        "Following quarter": 0.21497,
+        "Current fiscal year": 0.77089,
+        "Next fiscal year": 0.94792,
+        "currentQuarter": 0.18847
+      },
+      "segmentsAsOf": "2026-01-31",
+      "segmentsHash": "b3a92f4bc3f7b1e2"
+    },
+    "PEGA": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001013857-26-000017",
+      "latest10Q": "0001013857-26-000058",
+      "earningsAccession": "0001013857-26-000057",
+      "earningsFiled": "2026-10-20",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 41,
+      "consensusEps": {
+        "Next quarter": 0.9117,
+        "Following quarter": 0.54928,
+        "Current fiscal year": 2.10712,
+        "Next fiscal year": 2.37396,
+        "currentQuarter": 0.9117
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "1aff3361d0480151"
+    },
+    "ESTC": {
+      "latestQuarter": "Q1 FY27",
+      "latestQuarterScore": 8109,
+      "latest10K": "0001707753-26-000018",
+      "latest10Q": "0001707753-26-000054",
+      "earningsAccession": "0001707753-26-000035",
+      "earningsFiled": "2026-08-27",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 103.18519,
+      "consensusEps": {
+        "Next quarter": 0.91105,
+        "Following quarter": 0.82721,
+        "Current fiscal year": 3.37991,
+        "Next fiscal year": 3.98138,
+        "currentQuarter": 0.91105
+      },
+      "segmentsAsOf": "2026-04-30",
+      "segmentsHash": "4d6877ba739968aa"
+    },
+    "MNDY": {
+      "latestQuarter": null,
+      "latestQuarterScore": null,
+      "latest10K": "0001178913-26-000870",
+      "latest10Q": null,
+      "earningsAccession": null,
+      "earningsFiled": null,
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 100.92696,
+      "consensusEps": {
+        "Next quarter": 0.86,
+        "Following quarter": 0.9,
+        "Current fiscal year": 6.40511,
+        "Next fiscal year": 7.47714,
+        "currentQuarter": 0.86
+      },
+      "segmentsAsOf": null,
+      "segmentsHash": null
+    },
+    "IONQ": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001193125-26-071562",
+      "latest10Q": "0001193125-26-449829",
+      "earningsAccession": "0001193125-26-449779",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 54.275,
+      "consensusEps": {
+        "Next quarter": -0.81535,
+        "Following quarter": -0.74167,
+        "Current fiscal year": -2.22907,
+        "Next fiscal year": -3.14212,
+        "currentQuarter": -0.81535
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "35f11d0e25134ae1"
+    },
+    "RGTI": {
+      "latestQuarter": "Q2 FY26",
+      "latestQuarterScore": 8106,
+      "latest10K": "0001104659-26-023454",
+      "latest10Q": "0001104659-26-091993",
+      "earningsAccession": "0001104659-26-091979",
+      "earningsFiled": "2026-08-06",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 18.99077,
+      "consensusEps": {
+        "Next quarter": -0.09,
+        "Following quarter": -0.08,
+        "Current fiscal year": -0.20625,
+        "Next fiscal year": -0.219,
+        "currentQuarter": -0.09
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "6c14f6dca216d714"
+    },
+    "QBTS": {
+      "latestQuarter": "Q2 FY26",
+      "latestQuarterScore": 8106,
+      "latest10K": "0001907982-26-000026",
+      "latest10Q": "0001907982-26-000129",
+      "earningsAccession": "0001907982-26-000127",
+      "earningsFiled": "2026-08-06",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 23.72,
+      "consensusEps": {
+        "Next quarter": -0.09,
+        "Following quarter": -0.13,
+        "Current fiscal year": -0.31111,
+        "Next fiscal year": -0.39222,
+        "currentQuarter": -0.09
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "687ef72a63850fa3"
+    },
+    "SOFI": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001818874-26-000013",
+      "latest10Q": "0001818874-26-000070",
+      "earningsAccession": "0001818874-26-000065",
+      "earningsFiled": "2026-10-27",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 20.66522,
+      "consensusEps": {
+        "Next quarter": 0.19673,
+        "Following quarter": 0.20143,
+        "Current fiscal year": 0.60944,
+        "Next fiscal year": 0.89538,
+        "currentQuarter": 0.19673
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "8e642e317ee302ec"
+    },
+    "AFRM": {
+      "latestQuarter": "Q1 FY27",
+      "latestQuarterScore": 8109,
+      "latest10K": "0001628280-26-059279",
+      "latest10Q": "0001628280-26-071153",
+      "earningsAccession": "0001628280-26-071005",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 95.43059,
+      "consensusEps": {
+        "Next quarter": 1.04537,
+        "Following quarter": 0.9153,
+        "Current fiscal year": 3.95645,
+        "Next fiscal year": 5.06395,
+        "currentQuarter": 1.04537
+      },
+      "segmentsAsOf": "2026-06-30",
+      "segmentsHash": "5c695dc3dda105cd"
+    },
+    "UPST": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001647639-26-000027",
+      "latest10Q": "0001647639-26-000084",
+      "earningsAccession": "0001647639-26-000083",
+      "earningsFiled": "2026-11-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 30.5,
+      "consensusEps": {
+        "Next quarter": 0.37667,
+        "Following quarter": 0.61667,
+        "Current fiscal year": 1.84363,
+        "Next fiscal year": 2.93958,
+        "currentQuarter": 0.37667
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "540be43ec6888f1a"
+    },
+    "TOST": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001650164-26-000057",
+      "latest10Q": "0001650164-26-000216",
+      "earningsAccession": "0001650164-26-000214",
+      "earningsFiled": "2026-11-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 39,
+      "consensusEps": {
+        "Next quarter": 0.35501,
+        "Following quarter": 0.38818,
+        "Current fiscal year": 1.43594,
+        "Next fiscal year": 1.77154,
+        "currentQuarter": 0.35501
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "701b3ef6e7f6b825"
+    },
+    "FOUR": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001794669-26-000010",
+      "latest10Q": "0001794669-26-000051",
+      "earningsAccession": "0001794669-26-000049",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 49.18182,
+      "consensusEps": {
+        "Next quarter": 1.32678,
+        "Following quarter": 1.01326,
+        "Current fiscal year": 5.08916,
+        "Next fiscal year": 5.64372,
+        "currentQuarter": 1.32678
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "92ab81a553ce2dfe"
+    },
+    "HOOD": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001783879-26-000023",
+      "latest10Q": "0001783879-26-000167",
+      "earningsAccession": "0001783879-26-000164",
+      "earningsFiled": "2026-10-27",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 125.00233,
+      "consensusEps": {
+        "Next quarter": 0.57921,
+        "Following quarter": 0.64242,
+        "Current fiscal year": 2.09121,
+        "Next fiscal year": 2.92184,
+        "currentQuarter": 0.57921
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "7ee0514713dbaa6f"
+    },
+    "CRCL": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001876042-26-000062",
+      "latest10Q": "0001876042-26-000311",
+      "earningsAccession": "0001876042-26-000309",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 101.8675,
+      "consensusEps": {
+        "Next quarter": 0.09783,
+        "Following quarter": 0.26021,
+        "Current fiscal year": 1.28781,
+        "Next fiscal year": 1.2944,
+        "currentQuarter": 0.09783
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "aeedc7c1c1e0bfb6"
+    },
+    "PYPL": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001633917-26-000024",
+      "latest10Q": "0001633917-26-000088",
+      "earningsAccession": "0001633917-26-000086",
+      "earningsFiled": "2026-10-27",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 57.31364,
+      "consensusEps": {
+        "Next quarter": 1.43416,
+        "Following quarter": 1.43212,
+        "Current fiscal year": 5.58463,
+        "Next fiscal year": 5.90358,
+        "currentQuarter": 1.43416
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "113647bf44769e3f"
+    },
+    "PODD": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001145197-26-000028",
+      "latest10Q": "0001145197-26-000192",
+      "earningsAccession": "0001145197-26-000190",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 174.56522,
+      "consensusEps": {
+        "Next quarter": 1.75308,
+        "Following quarter": 1.65716,
+        "Current fiscal year": 6.77479,
+        "Next fiscal year": 7.91061,
+        "currentQuarter": 1.75308
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "07c42f7fa83e7528"
+    },
+    "TMDX": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001193125-26-067032",
+      "latest10Q": "0001193125-26-449827",
+      "earningsAccession": "0001193125-26-449729",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 105.45455,
+      "consensusEps": {
+        "Next quarter": 0.4507,
+        "Following quarter": 0.4645,
+        "Current fiscal year": 1.66991,
+        "Next fiscal year": 2.48484,
+        "currentQuarter": 0.4507
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "2b499ee90c5a532b"
+    },
+    "INSP": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001609550-26-000016",
+      "latest10Q": "0001609550-26-000053",
+      "earningsAccession": "0001609550-26-000051",
+      "earningsFiled": "2026-11-02",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 69.375,
+      "consensusEps": {
+        "Next quarter": 0.91623,
+        "Following quarter": 0.1271,
+        "Current fiscal year": 1.30131,
+        "Next fiscal year": 1.49539,
+        "currentQuarter": 0.91623
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "8a629c84725fb10a"
+    },
+    "PEN": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001321732-26-000007",
+      "latest10Q": "0001321732-26-000043",
+      "earningsAccession": "0001321732-26-000042",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 362.53845,
+      "consensusEps": {
+        "Next quarter": 1.43625,
+        "Following quarter": 1.27,
+        "Current fiscal year": 4.76369,
+        "Next fiscal year": 6.01113,
+        "currentQuarter": 1.43625
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "a4da14467a113bbf"
+    },
+    "GMED": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-011209",
+      "latest10Q": "0001628280-26-071165",
+      "earningsAccession": "0001628280-26-071042",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 93.42857,
+      "consensusEps": {
+        "Next quarter": 1.28856,
+        "Following quarter": 1.188,
+        "Current fiscal year": 4.97994,
+        "Next fiscal year": 5.337,
+        "currentQuarter": 1.28856
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "ce2fed9c1d0b43e8"
+    },
+    "TEM": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001193125-26-066961",
+      "latest10Q": "0001193125-26-442624",
+      "earningsAccession": "0001193125-26-442619",
+      "earningsFiled": "2026-11-02",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 89.55556,
+      "consensusEps": {
+        "Next quarter": 0.03095,
+        "Following quarter": -0.10818,
+        "Current fiscal year": -0.10279,
+        "Next fiscal year": -0.03955,
+        "currentQuarter": 0.03095
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "e612a79c57cb43c3"
+    },
+    "HIMS": {
+      "latestQuarter": "Q2 FY26",
+      "latestQuarterScore": 8106,
+      "latest10K": "0001773751-26-000022",
+      "latest10Q": "0001773751-26-000163",
+      "earningsAccession": "0001773751-26-000161",
+      "earningsFiled": "2026-08-10",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 27.23077,
+      "consensusEps": {
+        "Next quarter": 0,
+        "Following quarter": -0.1,
+        "Current fiscal year": -0.90818,
+        "Next fiscal year": -0.07567,
+        "currentQuarter": 0
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "d3254ad794a80190"
+    },
+    "VKTX": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001193125-26-046876",
+      "latest10Q": "0001193125-26-436432",
+      "earningsAccession": "0001193125-26-436145",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 95.31579,
+      "consensusEps": {
+        "Next quarter": -1.35291,
+        "Following quarter": -1.35571,
+        "Current fiscal year": -5.31411,
+        "Next fiscal year": -5.20858,
+        "currentQuarter": -1.35291
+      },
+      "segmentsAsOf": null,
+      "segmentsHash": null
+    },
+    "CRNX": {
+      "latestQuarter": "Q2 FY26",
+      "latestQuarterScore": 8106,
+      "latest10K": "0001658247-26-000012",
+      "latest10Q": "0001658247-26-000053",
+      "earningsAccession": null,
+      "earningsFiled": null,
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 85,
+      "consensusEps": {
+        "Next quarter": -1.13375,
+        "Following quarter": -1.07125,
+        "Current fiscal year": -4.53875,
+        "Next fiscal year": -4.01286,
+        "currentQuarter": -1.13375
+      },
+      "segmentsAsOf": null,
+      "segmentsHash": null
+    },
+    "RYTM": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-012399",
+      "latest10Q": "0001628280-26-069485",
+      "earningsAccession": "0001628280-26-069106",
+      "earningsFiled": "2026-11-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 139.76471,
+      "consensusEps": {
+        "Next quarter": -3.20057,
+        "Following quarter": -0.68871,
+        "Current fiscal year": -4.93598,
+        "Next fiscal year": -1.29821,
+        "currentQuarter": -3.20057
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "2785ff60623917aa"
+    },
+    "INSM": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001104506-26-000009",
+      "latest10Q": "0001104506-26-000047",
+      "earningsAccession": "0001140361-26-041097",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 187.52632,
+      "consensusEps": {
+        "Next quarter": -0.32814,
+        "Following quarter": -0.28,
+        "Current fiscal year": -1.6371,
+        "Next fiscal year": 0.64169,
+        "currentQuarter": -0.32814
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "a8e102995a1787bd"
+    },
+    "MDGL": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-009514",
+      "latest10Q": "0001628280-26-069145",
+      "earningsAccession": "0001628280-26-069093",
+      "earningsFiled": "2026-11-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 688.7778,
+      "consensusEps": {
+        "Next quarter": 1.57333,
+        "Following quarter": 0.79,
+        "Current fiscal year": -2.18,
+        "Next fiscal year": 10.38,
+        "currentQuarter": 1.57333
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "818302a29b617a3e"
+    },
+    "KRYS": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001711279-26-000016",
+      "latest10Q": "0001711279-26-000071",
+      "earningsAccession": "0001711279-26-000072",
+      "earningsFiled": "2026-11-02",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 388.22223,
+      "consensusEps": {
+        "Next quarter": 2.22077,
+        "Following quarter": 2.0825,
+        "Current fiscal year": 8.01096,
+        "Next fiscal year": 9.22791,
+        "currentQuarter": 2.22077
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "a05b2f28ab9cb65d"
+    },
+    "BBIO": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001743881-26-000009",
+      "latest10Q": "0001743881-26-000034",
+      "earningsAccession": "0001743881-26-000033",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 108.7,
+      "consensusEps": {
+        "Next quarter": -0.50398,
+        "Following quarter": -0.354,
+        "Current fiscal year": -2.44578,
+        "Next fiscal year": -0.25049,
+        "currentQuarter": -0.50398
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "84c460ba23f48e0d"
+    },
+    "ACLX": {
+      "latestQuarter": "Q4 FY25",
+      "latestQuarterScore": 8104,
+      "latest10K": "0001193125-26-076876",
+      "latest10Q": "0001193125-25-266932",
+      "earningsAccession": null,
+      "earningsFiled": null,
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": null,
+      "consensusEps": {},
+      "segmentsAsOf": null,
+      "segmentsHash": null
+    },
+    "RKLB": {
+      "latestQuarter": "Q2 FY26",
+      "latestQuarterScore": 8106,
+      "latest10K": "0001819994-26-000013",
+      "latest10Q": "0001819994-26-000062",
+      "earningsAccession": "0001819994-26-000061",
+      "earningsFiled": "2026-08-10",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 90.61905,
+      "consensusEps": {
+        "Next quarter": -0.04,
+        "Following quarter": -0.01,
+        "Current fiscal year": -0.30786,
+        "Next fiscal year": -0.06841,
+        "currentQuarter": -0.04
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "736de9628ae261a7"
+    },
+    "ASTS": {
+      "latestQuarter": "Q2 FY26",
+      "latestQuarterScore": 8106,
+      "latest10K": "0001780312-26-000006",
+      "latest10Q": "0001193125-26-342550",
+      "earningsAccession": "0001193125-26-342540",
+      "earningsFiled": "2026-08-10",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 63.35,
+      "consensusEps": {
+        "Next quarter": -0.36,
+        "Following quarter": -0.45,
+        "Current fiscal year": -2.29386,
+        "Next fiscal year": -1.64953,
+        "currentQuarter": -0.36
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "fb8f70dfb25c7e7e"
+    },
+    "LUNR": {
+      "latestQuarter": "Q2 FY26",
+      "latestQuarterScore": 8106,
+      "latest10K": "0001628280-26-019865",
+      "latest10Q": "0001628280-26-056821",
+      "earningsAccession": "0001628280-26-056476",
+      "earningsFiled": "2026-08-13",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 25.2,
+      "consensusEps": {
+        "Next quarter": -0.06333,
+        "Following quarter": -0.06667,
+        "Current fiscal year": -0.33667,
+        "Next fiscal year": -0.17667,
+        "currentQuarter": -0.06333
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "17ee1340c769ea92"
+    },
+    "KTOS": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001069258-26-000013",
+      "latest10Q": "0001069258-26-000088",
+      "earningsAccession": "0001069258-26-000085",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 73.69231,
+      "consensusEps": {
+        "Next quarter": 0.22618,
+        "Following quarter": 0.2301,
+        "Current fiscal year": 0.84264,
+        "Next fiscal year": 1.11584,
+        "currentQuarter": 0.22618
+      },
+      "segmentsAsOf": "2025-12-28",
+      "segmentsHash": "305e2ad810e1d3a1"
+    },
+    "AVAV": {
+      "latestQuarter": "Q1 FY27",
+      "latestQuarterScore": 8109,
+      "latest10K": "0001104659-26-078906",
+      "latest10Q": "0001104659-26-106423",
+      "earningsAccession": "0001104659-26-106304",
+      "earningsFiled": "2026-09-09",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 210.85709,
+      "consensusEps": {
+        "Next quarter": 0.42107,
+        "Following quarter": 0.78369,
+        "Current fiscal year": 3.25223,
+        "Next fiscal year": 4.42352,
+        "currentQuarter": 0.42107
+      },
+      "segmentsAsOf": "2026-04-30",
+      "segmentsHash": "5516012ae06ab27f"
+    },
+    "PL": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0001193125-26-119957",
+      "latest10Q": "0001193125-26-382016",
+      "earningsAccession": "0001193125-26-381874",
+      "earningsFiled": "2026-09-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 29.22917,
+      "consensusEps": {
+        "Next quarter": -0.025,
+        "Following quarter": -0.02667,
+        "Current fiscal year": -0.055,
+        "Next fiscal year": -0.00125,
+        "currentQuarter": -0.025
+      },
+      "segmentsAsOf": "2026-01-31",
+      "segmentsHash": "a532b5c70e02b521"
+    },
+    "JOBY": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001819848-26-000160",
+      "latest10Q": "0001819848-26-000533",
+      "earningsAccession": "0001819848-26-000531",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 8.84222,
+      "consensusEps": {
+        "Next quarter": -0.26204,
+        "Following quarter": -0.24725,
+        "Current fiscal year": -1.01,
+        "Next fiscal year": -0.65,
+        "currentQuarter": -0.26204
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "a6552dbbb37a4085"
+    },
+    "ACHR": {
+      "latestQuarter": "Q2 FY26",
+      "latestQuarterScore": 8106,
+      "latest10K": "0001824502-26-000019",
+      "latest10Q": "0001824502-26-000059",
+      "earningsAccession": "0001824502-26-000056",
+      "earningsFiled": "2026-08-10",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 9.98333,
+      "consensusEps": {
+        "Next quarter": -0.33,
+        "Following quarter": -0.35,
+        "Current fiscal year": -0.94648,
+        "Next fiscal year": -0.81953,
+        "currentQuarter": -0.33
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "8acf5c2124cde2ae"
+    },
+    "SYM": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001837240-25-000278",
+      "latest10Q": "0001837240-26-000043",
+      "earningsAccession": "0001837240-26-000042",
+      "earningsFiled": "2026-08-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 57.15375,
+      "consensusEps": {
+        "Next quarter": 0.17,
+        "Following quarter": 0.178,
+        "Current fiscal year": 0.80457,
+        "Next fiscal year": 1.03939,
+        "currentQuarter": 0.17
+      },
+      "segmentsAsOf": "2025-09-27",
+      "segmentsHash": "8faccff4c60edab5"
+    },
+    "RDW": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001819810-26-000029",
+      "latest10Q": "0001819810-26-000142",
+      "earningsAccession": "0001819810-26-000139",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 11.6,
+      "consensusEps": {
+        "Next quarter": -0.07,
+        "Following quarter": -0.0775,
+        "Current fiscal year": -0.37,
+        "Next fiscal year": -0.276,
+        "currentQuarter": -0.07
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "652f3ebe9e4ba472"
+    },
+    "OKLO": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-018698",
+      "latest10Q": "0001628280-26-071319",
+      "earningsAccession": "0001104659-25-027276",
+      "earningsFiled": "2025-03-24",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 55.42857,
+      "consensusEps": {
+        "Next quarter": -0.27059,
+        "Following quarter": -0.275,
+        "Current fiscal year": -0.9483,
+        "Next fiscal year": -1.11934,
+        "currentQuarter": -0.27059
+      },
+      "segmentsAsOf": null,
+      "segmentsHash": null
+    },
+    "SMR": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001822966-26-000018",
+      "latest10Q": "0001822966-26-000091",
+      "earningsAccession": "0001822966-26-000089",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 8.59375,
+      "consensusEps": {
+        "Next quarter": -0.17143,
+        "Following quarter": -0.11,
+        "Current fiscal year": -0.53881,
+        "Next fiscal year": -0.70703,
+        "currentQuarter": -0.17143
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "5526c81e8d40489d"
+    },
+    "UEC": {
+      "latestQuarter": "Q4 FY26",
+      "latestQuarterScore": 8108,
+      "latest10K": "0001437749-26-031414",
+      "latest10Q": "0001437749-26-019889",
+      "earningsAccession": "0001437749-26-031416",
+      "earningsFiled": "2026-09-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 15.84545,
+      "consensusEps": {
+        "Next quarter": -0.005,
+        "Following quarter": -0.04,
+        "Current fiscal year": -0.234,
+        "Next fiscal year": -0.074,
+        "currentQuarter": -0.005
+      },
+      "segmentsAsOf": "2026-07-31",
+      "segmentsHash": "9c6ac33119790551"
+    },
+    "LEU": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-007117",
+      "latest10Q": "0001628280-26-070557",
+      "earningsAccession": "0001628280-26-070229",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 180.25,
+      "consensusEps": {
+        "Next quarter": 1.49243,
+        "Following quarter": 0.65875,
+        "Current fiscal year": 3.38075,
+        "Next fiscal year": 4.42339,
+        "currentQuarter": 1.49243
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "d12195628bdcd950"
+    },
+    "FLNC": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001868941-25-000081",
+      "latest10Q": "0001868941-26-000029",
+      "earningsAccession": "0001868941-26-000028",
+      "earningsFiled": "2026-08-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 7.7,
+      "consensusEps": {
+        "Next quarter": -0.3075,
+        "Following quarter": -0.28,
+        "Current fiscal year": -0.76,
+        "Next fiscal year": 0.00596,
+        "currentQuarter": -0.3075
+      },
+      "segmentsAsOf": "2025-09-30",
+      "segmentsHash": "aa146dbe59f270f3"
+    },
+    "MP": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001801368-26-000008",
+      "latest10Q": "0001801368-26-000057",
+      "earningsAccession": "0001801368-26-000056",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 64.5,
+      "consensusEps": {
+        "Next quarter": -0.05888,
+        "Following quarter": 0.00956,
+        "Current fiscal year": -0.04841,
+        "Next fiscal year": 0.31715,
+        "currentQuarter": -0.05888
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "134f09ce25afaa56"
+    },
+    "USAR": {
+      "latestQuarter": "Q2 FY26",
+      "latestQuarterScore": 8106,
+      "latest10K": "0001970622-26-000021",
+      "latest10Q": "0001970622-26-000057",
+      "earningsAccession": "0001970622-26-000056",
+      "earningsFiled": "2026-08-10",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 29.5,
+      "consensusEps": {
+        "Next quarter": -0.57,
+        "Following quarter": -0.2,
+        "Current fiscal year": -0.91,
+        "Next fiscal year": 0.235,
+        "currentQuarter": -0.57
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "e37108a9188e7727"
+    },
+    "ATI": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-010140",
+      "latest10Q": "0001628280-26-068145",
+      "earningsAccession": "0001018963-26-000004",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 251.7,
+      "consensusEps": {
+        "Next quarter": 1.55751,
+        "Following quarter": 1.44961,
+        "Current fiscal year": 5.23753,
+        "Next fiscal year": 6.66929,
+        "currentQuarter": 1.55751
+      },
+      "segmentsAsOf": "2025-12-28",
+      "segmentsHash": "da4daf6bd39df309"
+    },
+    "CDE": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000215466-26-000004",
+      "latest10Q": "0000215466-26-000053",
+      "earningsAccession": "0000215466-26-000054",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 21.31818,
+      "consensusEps": {
+        "Next quarter": 0.28289,
+        "Following quarter": 0.37333,
+        "Current fiscal year": 0.86375,
+        "Next fiscal year": 1.76125,
+        "currentQuarter": 0.28289
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "02498f7a2fc131a9"
+    },
+    "IDR": {
+      "latestQuarter": "Q2 FY26",
+      "latestQuarterScore": 8106,
+      "latest10K": "0001654954-26-002560",
+      "latest10Q": "0001654954-26-007547",
+      "earningsAccession": null,
+      "earningsFiled": null,
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 40,
+      "consensusEps": {
+        "Next quarter": 0.31,
+        "Following quarter": 0.3,
+        "Current fiscal year": 1.1,
+        "Next fiscal year": 1.18,
+        "currentQuarter": 0.31
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "c5b5fe59085e8845"
+    },
+    "TPL": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001811074-26-000018",
+      "latest10Q": "0001811074-26-000077",
+      "earningsAccession": "0001811074-26-000075",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 444.5,
+      "consensusEps": {
+        "Next quarter": 2.55116,
+        "Following quarter": 2.53208,
+        "Current fiscal year": 9.276,
+        "Next fiscal year": 10.21066,
+        "currentQuarter": 2.55116
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "e0b80df16e1bf188"
+    },
+    "CAVA": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-011296",
+      "latest10Q": "0001628280-26-070344",
+      "earningsAccession": "0001628280-26-070159",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 75.41667,
+      "consensusEps": {
+        "Next quarter": 0.01775,
+        "Following quarter": 0.2419,
+        "Current fiscal year": 0.5249,
+        "Next fiscal year": 0.70519,
+        "currentQuarter": 0.01775
+      },
+      "segmentsAsOf": "2025-12-28",
+      "segmentsHash": "9102140d1d98e0c7"
+    },
+    "BROS": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001866581-26-000006",
+      "latest10Q": "0001866581-26-000180",
+      "earningsAccession": "0001866581-26-000178",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 54.5,
+      "consensusEps": {
+        "Next quarter": 0.18291,
+        "Following quarter": 0.20385,
+        "Current fiscal year": 0.92068,
+        "Next fiscal year": 1.18496,
+        "currentQuarter": 0.18291
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "24c98dc5fe791628"
+    },
+    "ELF": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0001600033-26-000020",
+      "latest10Q": "0001600033-26-000050",
+      "earningsAccession": "0001600033-26-000048",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 131,
+      "consensusEps": {
+        "Next quarter": 0.77179,
+        "Following quarter": 0.18458,
+        "Current fiscal year": 3.90174,
+        "Next fiscal year": 4.19346,
+        "currentQuarter": 0.77179
+      },
+      "segmentsAsOf": "2026-03-31",
+      "segmentsHash": "c45084f0a5254c0f"
+    },
+    "ONON": {
+      "latestQuarter": "Q2 FY25",
+      "latestQuarterScore": 8102,
+      "latest10K": "0001858985-26-000008",
+      "latest10Q": null,
+      "earningsAccession": null,
+      "earningsFiled": null,
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 44.141384,
+      "consensusEps": {
+        "Next quarter": 0.29,
+        "Following quarter": 0.42,
+        "Current fiscal year": 1.50269,
+        "Next fiscal year": 1.70386,
+        "currentQuarter": 0.29
+      },
+      "segmentsAsOf": null,
+      "segmentsHash": null
+    },
+    "CELH": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001341766-26-000024",
+      "latest10Q": "0001341766-26-000062",
+      "earningsAccession": "0001341766-26-000059",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 41.59091,
+      "consensusEps": {
+        "Next quarter": 0.26665,
+        "Following quarter": 0.3803,
+        "Current fiscal year": 1.44566,
+        "Next fiscal year": 1.67186,
+        "currentQuarter": 0.26665
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "4dfceb02f03ba4e7"
+    },
+    "DUOL": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-012494",
+      "latest10Q": "0001628280-26-069692",
+      "earningsAccession": "0001628280-26-069474",
+      "earningsFiled": "2026-11-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 155.03833,
+      "consensusEps": {
+        "Next quarter": 1.703,
+        "Following quarter": 1.79975,
+        "Current fiscal year": 6.62925,
+        "Next fiscal year": 7.70925,
+        "currentQuarter": 1.703
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "835c54d04b833f6f"
+    },
+    "RDDT": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001713445-26-000022",
+      "latest10Q": "0001713445-26-000116",
+      "earningsAccession": "0001713445-26-000114",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 148.46207,
+      "consensusEps": {
+        "Next quarter": 1.82982,
+        "Following quarter": 1.22706,
+        "Current fiscal year": 5.49602,
+        "Next fiscal year": 6.8155,
+        "currentQuarter": 1.82982
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "c0108ffb1b73a1e3"
+    },
+    "WING": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001636222-26-000008",
+      "latest10Q": "0001628280-26-067883",
+      "earningsAccession": "0001628280-26-067723",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 184.92,
+      "consensusEps": {
+        "Next quarter": 0.70091,
+        "Following quarter": 1.21226,
+        "Current fiscal year": 4.14467,
+        "Next fiscal year": 5.02608,
+        "currentQuarter": 0.70091
+      },
+      "segmentsAsOf": "2025-12-27",
+      "segmentsHash": "3182242ed545e127"
+    },
+    "AAON": {
+      "latestQuarter": "Q2 FY26",
+      "latestQuarterScore": 8106,
+      "latest10K": "0000824142-26-000005",
+      "latest10Q": "0000824142-26-000055",
+      "earningsAccession": "0000824142-26-000052",
+      "earningsFiled": "2026-08-10",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 117.5,
+      "consensusEps": {
+        "Next quarter": 0.75,
+        "Following quarter": 0.73,
+        "Current fiscal year": 2.8775,
+        "Next fiscal year": 3.84,
+        "currentQuarter": 0.75
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "8a430eb31ab7f2b1"
+    },
+    "MLI": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0000089439-26-000008",
+      "latest10Q": "0000089439-26-000041",
+      "earningsAccession": "0000089439-26-000038",
+      "earningsFiled": "2026-10-20",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 78,
+      "consensusEps": {
+        "Next quarter": 0.94,
+        "Following quarter": 1.09,
+        "Current fiscal year": 4.15,
+        "Next fiscal year": 4.65,
+        "currentQuarter": 0.94
+      },
+      "segmentsAsOf": "2025-12-27",
+      "segmentsHash": "2224a7ab5729def6"
+    },
+    "ROAD": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-25-053871",
+      "latest10Q": "0001628280-26-054661",
+      "earningsAccession": "0001628280-26-070670",
+      "earningsFiled": "2026-11-05",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 103.71429,
+      "consensusEps": {
+        "Next quarter": 0.32,
+        "Following quarter": 0.07571,
+        "Current fiscal year": 3.11857,
+        "Next fiscal year": 3.732,
+        "currentQuarter": 0.32
+      },
+      "segmentsAsOf": "2025-09-30",
+      "segmentsHash": "4d01b16214f457e1"
+    },
+    "WTS": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001104659-26-018541",
+      "latest10Q": "0001104659-26-123118",
+      "earningsAccession": "0001104659-26-122745",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 393,
+      "consensusEps": {
+        "Next quarter": 3.12038,
+        "Following quarter": 3.32967,
+        "Current fiscal year": 13.21857,
+        "Next fiscal year": 14.4255,
+        "currentQuarter": 3.12038
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "4daf8e3de65a8ed9"
+    },
+    "DY": {
+      "latestQuarter": "Q2 FY27",
+      "latestQuarterScore": 8110,
+      "latest10K": "0000067215-26-000008",
+      "latest10Q": "0000067215-26-000043",
+      "earningsAccession": "0000067215-26-000039",
+      "earningsFiled": "2026-08-26",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 490.45456,
+      "consensusEps": {
+        "Next quarter": 2.45667,
+        "Following quarter": 4.22667,
+        "Current fiscal year": 16.71667,
+        "Next fiscal year": 20.6669,
+        "currentQuarter": 2.45667
+      },
+      "segmentsAsOf": "2026-01-31",
+      "segmentsHash": "d7f21fb511489a91"
+    },
+    "BWXT": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001486957-26-000007",
+      "latest10Q": "0001486957-26-000051",
+      "earningsAccession": "0001486957-26-000053",
+      "earningsFiled": "2026-11-02",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 199.19438,
+      "consensusEps": {
+        "Next quarter": 1.31002,
+        "Following quarter": 1.15417,
+        "Current fiscal year": 4.75661,
+        "Next fiscal year": 5.20558,
+        "currentQuarter": 1.31002
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "5fa990042c038700"
+    },
+    "KNF": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001955520-26-000003",
+      "latest10Q": "0001628280-26-069576",
+      "earningsAccession": "0001628280-26-069132",
+      "earningsFiled": "2026-11-03",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 69.8,
+      "consensusEps": {
+        "Next quarter": 0.36,
+        "Following quarter": -1.42,
+        "Current fiscal year": 2.155,
+        "Next fiscal year": 2.71,
+        "currentQuarter": 0.36
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "814ff71a4ac05cac"
+    },
+    "KNSL": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001669162-26-000015",
+      "latest10Q": "0001669162-26-000050",
+      "earningsAccession": "0001669162-26-000049",
+      "earningsFiled": "2026-10-22",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 354.55557,
+      "consensusEps": {
+        "Next quarter": 5.73704,
+        "Following quarter": 5.06167,
+        "Current fiscal year": 22.06136,
+        "Next fiscal year": 21.87956,
+        "currentQuarter": 5.73704
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "753188b813a09777"
+    },
+    "RYAN": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001849253-26-000006",
+      "latest10Q": "0001849253-26-000047",
+      "earningsAccession": "0001849253-26-000045",
+      "earningsFiled": "2026-10-29",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 49.96875,
+      "consensusEps": {
+        "Next quarter": 0.46186,
+        "Following quarter": 0.53422,
+        "Current fiscal year": 2.18321,
+        "Next fiscal year": 2.43028,
+        "currentQuarter": 0.46186
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "18502eb57a07c22b"
+    },
+    "PLMR": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001193125-26-067364",
+      "latest10Q": "0001193125-26-450504",
+      "earningsAccession": "0001193125-26-447298",
+      "earningsFiled": "2026-11-04",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 168.83333,
+      "consensusEps": {
+        "Next quarter": 2.75527,
+        "Following quarter": 2.67833,
+        "Current fiscal year": 10.38626,
+        "Next fiscal year": 11.66214,
+        "currentQuarter": 2.75527
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "e5deaa5fb839602e"
+    },
+    "EVR": {
+      "latestQuarter": "Q3 FY26",
+      "latestQuarterScore": 8107,
+      "latest10K": "0001628280-26-010273",
+      "latest10Q": "0001628280-26-070100",
+      "earningsAccession": "0001628280-26-067716",
+      "earningsFiled": "2026-10-28",
+      "consensusAsOf": "2026-11-24",
+      "consensusTargetMean": 351.5,
+      "consensusEps": {
+        "Next quarter": 5.18068,
+        "Following quarter": 5.38174,
+        "Current fiscal year": 19.9682,
+        "Next fiscal year": 21.29487,
+        "currentQuarter": 5.18068
+      },
+      "segmentsAsOf": "2025-12-31",
+      "segmentsHash": "5a84b51fd693b61e"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "ticker": "ZTS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/ZTS/analysis",
   "targetMean": 89.69231,
   "targetHigh": 115,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.48,
       "epsEstimate": 1.40317,
-      "revenueActual": 2373000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.53,
       "epsEstimate": 1.61537,
-      "revenueActual": 2262000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 1.87,
       "epsEstimate": 1.85237,
-      "revenueActual": 2468000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 1.75,
       "epsEstimate": 1.51106,
-      "revenueActual": 2391000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

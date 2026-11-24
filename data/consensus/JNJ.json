@@ -1,9 +1,9 @@
 {
   "ticker": "JNJ",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/JNJ/analysis",
-  "targetMean": 280.18182,
+  "targetMean": 279.84726,
   "targetHigh": 320,
   "targetLow": 190,
   "recommendationKey": "buy",
@@ -11,8 +11,8 @@
   "distribution": {
     "strongBuy": 5,
     "buy": 11,
-    "hold": 6,
-    "sell": 1,
+    "hold": 5,
+    "sell": 2,
     "strongSell": 0
   },
   "estimates": [
@@ -37,20 +37,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 101210936420,
-      "revenueGrowth": 0.074499995,
-      "epsAvg": 11.11973,
-      "epsGrowth": 0.0306,
-      "analystCount": 21
+      "revenueAvg": 101195925680,
+      "revenueGrowth": 0.0743,
+      "epsAvg": 11.11838,
+      "epsGrowth": 0.0304,
+      "analystCount": 22
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 107640009600,
+      "revenueAvg": 107621809920,
       "revenueGrowth": 0.0635,
-      "epsAvg": 11.60513,
-      "epsGrowth": 0.0437,
-      "analystCount": 22
+      "epsAvg": 11.61196,
+      "epsGrowth": 0.0444,
+      "analystCount": 23
     }
   ],
   "history": [
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 2.46,
       "epsEstimate": 2.46271,
-      "revenueActual": 24564000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 2.7,
       "epsEstimate": 2.67727,
-      "revenueActual": 24062000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 2.9,
       "epsEstimate": 2.85484,
-      "revenueActual": 25310000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 2.59,
       "epsEstimate": 2.52225,
-      "revenueActual": 25399000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 17
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": 0.000010791745393978758,
-    "eps60d": 0.004673834477773919,
-    "eps90d": 0.006082786699841636,
+    "eps7d": -0.00012140582550124179,
+    "eps30d": -0.000112413812330181,
+    "eps60d": 0.00406833355458569,
+    "eps90d": 0.005960642388599835,
     "revenue30d": null
   }
 }

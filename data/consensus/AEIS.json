@@ -1,9 +1,9 @@
 {
   "ticker": "AEIS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/AEIS/analysis",
-  "targetMean": 388.16666,
+  "targetMean": 383.58334,
   "targetHigh": 535,
   "targetLow": 275,
   "recommendationKey": "strong_buy",
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.94,
       "epsEstimate": 1.78319,
-      "revenueActual": 489400000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 2.09,
       "epsEstimate": 1.97972,
-      "revenueActual": 511000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 2.74,
       "epsEstimate": 2.21316,
-      "revenueActual": 574100000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 3.65,
       "epsEstimate": 3.04435,
-      "revenueActual": 696400000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -97,7 +97,7 @@
   },
   "revisions": {
     "eps7d": 0,
-    "eps30d": 0.10362071738923717,
+    "eps30d": 0.10095252786924203,
     "eps60d": 0.10388854220558152,
     "eps90d": 0.10388854220558152,
     "revenue30d": null

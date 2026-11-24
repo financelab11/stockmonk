@@ -1,7 +1,7 @@
 {
   "ticker": "INSP",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/INSP/analysis",
   "targetMean": 69.375,
   "targetHigh": 93,
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 855424170,
-      "revenueGrowth": -0.062,
+      "revenueAvg": 855200640,
+      "revenueGrowth": -0.0623,
       "epsAvg": 1.30131,
       "epsGrowth": -0.4623,
       "analystCount": 15
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 877755890,
-      "revenueGrowth": 0.026099999,
+      "revenueAvg": 876338240,
+      "revenueGrowth": 0.0247,
       "epsAvg": 1.49539,
       "epsGrowth": 0.1491,
       "analystCount": 15
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.65,
       "epsEstimate": 0.68167,
-      "revenueActual": 269077000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.1,
       "epsEstimate": -0.26072,
-      "revenueActual": 204583000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.14,
       "epsEstimate": -0.2452,
-      "revenueActual": 200581000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 0.14,
       "epsEstimate": 0.09087,
-      "revenueActual": 206695000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

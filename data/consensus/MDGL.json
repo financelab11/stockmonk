@@ -1,7 +1,7 @@
 {
   "ticker": "MDGL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/MDGL/analysis",
   "targetMean": 688.7778,
   "targetHigh": 962,
@@ -19,7 +19,7 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 477726920,
+      "revenueAvg": 477724390,
       "revenueGrowth": 0.48790002,
       "epsAvg": 1.57333,
       "epsGrowth": 1.6122,
@@ -28,7 +28,7 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 459014870,
+      "revenueAvg": 459006320,
       "revenueGrowth": 0.4743,
       "epsAvg": 0.79,
       "epsGrowth": 1.5725,
@@ -46,7 +46,7 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 2185428540,
+      "revenueAvg": 2185427210,
       "revenueGrowth": 0.3793,
       "epsAvg": 10.38,
       "epsGrowth": 5.7615004,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": -2.57,
       "epsEstimate": -0.87954,
-      "revenueActual": 321083000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": -1.38,
       "epsEstimate": -4.144,
-      "revenueActual": 311337000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,21 +75,21 @@
       "endDate": "2026-06-30",
       "epsActual": -1.99,
       "epsEstimate": -2.23,
-      "revenueActual": 364252000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
       "quarter": "2026-09-30",
       "endDate": "2026-09-30",
-      "epsActual": null,
+      "epsActual": 1.83,
       "epsEstimate": -1.0875,
-      "revenueActual": 431268000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 477726920,
+    "revenueAvg": 477724390,
     "revenueGrowth": 0.48790002,
     "epsAvg": 1.57333,
     "epsGrowth": 1.6122,

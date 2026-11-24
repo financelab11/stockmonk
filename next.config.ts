@@ -23,6 +23,12 @@ const nextConfig: NextConfig = {
   outputFileTracingExcludes: {
     "/*": ["./data/raw/**", "./Refinitiv/**", "./test-results/**"],
   },
+  outputFileTracingIncludes: {
+    "/api/health/data": [
+      "./data/story-freshness.json",
+      "./data/consensus/_meta.json",
+    ],
+  },
   async redirects() {
     return [
       { source: "/india/:path*", destination: "/discover", permanent: true },

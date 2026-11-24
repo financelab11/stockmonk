@@ -1,7 +1,7 @@
 {
   "ticker": "URI",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/URI/analysis",
   "targetMean": 1298.0476,
   "targetHigh": 1652,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 11.09,
       "epsEstimate": 11.80467,
-      "revenueActual": 992000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 9.71,
       "epsEstimate": 8.93878,
-      "revenueActual": 929000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 15.55,
       "epsEstimate": 14.02809,
-      "revenueActual": 1068000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

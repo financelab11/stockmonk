@@ -1,7 +1,7 @@
 {
   "ticker": "USAR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/USAR/analysis",
   "targetMean": 29.5,
   "targetHigh": 45,
@@ -21,7 +21,7 @@
       "endDate": "2026-12-31",
       "revenueAvg": 37330000,
       "revenueGrowth": 21.7206,
-      "epsAvg": -0.55,
+      "epsAvg": -0.57,
       "epsGrowth": null,
       "analystCount": 3
     },
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": -0.12,
       "epsEstimate": -0.225,
-      "revenueActual": 5698000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
     "endDate": "2026-12-31",
     "revenueAvg": 37330000,
     "revenueGrowth": 21.7206,
-    "epsAvg": -0.55,
+    "epsAvg": -0.57,
     "epsGrowth": null,
     "analystCount": 3
   },

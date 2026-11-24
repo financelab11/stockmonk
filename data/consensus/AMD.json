@@ -1,17 +1,17 @@
 {
   "ticker": "AMD",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/AMD/analysis",
-  "targetMean": 657.74286,
+  "targetMean": 656.2122,
   "targetHigh": 1250,
   "targetLow": 525,
   "recommendationKey": "strong_buy",
   "analystCount": 49,
   "distribution": {
-    "strongBuy": 5,
+    "strongBuy": 6,
     "buy": 42,
-    "hold": 7,
+    "hold": 6,
     "sell": 0,
     "strongSell": 0
   },
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 95879348180,
-      "revenueGrowth": 0.83559996,
-      "epsAvg": 17.63825,
-      "epsGrowth": 1.1818,
+      "revenueAvg": 95800846830,
+      "revenueGrowth": 0.8341,
+      "epsAvg": 17.61574,
+      "epsGrowth": 1.179,
       "analystCount": 49
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.53,
       "epsEstimate": 1.32432,
-      "revenueActual": 10270000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.37,
       "epsEstimate": 1.29468,
-      "revenueActual": 10253000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 1.66,
       "epsEstimate": 1.60841,
-      "revenueActual": 11536000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 2.09,
       "epsEstimate": 1.94529,
-      "revenueActual": 13377000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 39
   },
   "revisions": {
-    "eps7d": -0.00023743863077052563,
-    "eps30d": 0.06720543663072509,
+    "eps7d": 0,
+    "eps30d": 0.06697162706844706,
     "eps60d": 0.06544733769297473,
-    "eps90d": 0.06892270507767306,
+    "eps90d": 0.06887182734908714,
     "revenue30d": null
   }
 }

@@ -1,9 +1,9 @@
 {
   "ticker": "BKNG",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/BKNG/analysis",
-  "targetMean": 215.5294,
+  "targetMean": 215.05882,
   "targetHigh": 267,
   "targetLow": 150,
   "recommendationKey": "buy",
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.952,
       "epsEstimate": 1.9468,
-      "revenueActual": 6349000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.14,
       "epsEstimate": 1.07882,
-      "revenueActual": 5532000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 2.54,
       "epsEstimate": 2.43077,
-      "revenueActual": 7352000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 4.66,
       "epsEstimate": 4.49733,
-      "revenueActual": 8893000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,9 +96,9 @@
     "analystCount": 22
   },
   "revisions": {
-    "eps7d": -0.0009841415091896843,
-    "eps30d": -0.0036867646678993005,
-    "eps60d": -0.0029533061712131436,
+    "eps7d": 0,
+    "eps30d": -0.003797309744738464,
+    "eps60d": -0.003185191920255348,
     "eps90d": -0.003149891175136199,
     "revenue30d": null
   }

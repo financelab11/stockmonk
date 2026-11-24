@@ -1,17 +1,17 @@
 {
   "ticker": "LIN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/LIN/analysis",
-  "targetMean": 551.03705,
-  "targetHigh": 600,
+  "targetMean": 555.14813,
+  "targetHigh": 601,
   "targetLow": 400,
   "recommendationKey": "buy",
   "analystCount": 27,
   "distribution": {
     "strongBuy": 6,
-    "buy": 17,
-    "hold": 5,
+    "buy": 18,
+    "hold": 4,
     "sell": 1,
     "strongSell": 0
   },
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 36568280300,
-      "revenueGrowth": 0.076,
-      "epsAvg": 17.89829,
-      "epsGrowth": 0.0874,
-      "analystCount": 29
+      "revenueAvg": 36676724310,
+      "revenueGrowth": 0.0792,
+      "epsAvg": 17.91291,
+      "epsGrowth": 0.0883,
+      "analystCount": 28
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 38289152240,
+      "revenueAvg": 38402556590,
       "revenueGrowth": 0.0471,
-      "epsAvg": 18.17404,
-      "epsGrowth": 0.132,
+      "epsAvg": 18.27749,
+      "epsGrowth": 0.1362,
       "analystCount": 10
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 4.2,
       "epsEstimate": 4.17724,
-      "revenueActual": 8764000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 4.33,
       "epsEstimate": 4.27006,
-      "revenueActual": 8781000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 4.5,
       "epsEstimate": 4.48597,
-      "revenueActual": 9289000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 4.59,
       "epsEstimate": 4.51759,
-      "revenueActual": 9404000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": 0.0001290792680812558,
-    "eps30d": 0.0010833987735276995,
-    "eps60d": 0.0012452429314562252,
-    "eps90d": 0.0011153154513698915,
+    "eps7d": 0.0005602450555441951,
+    "eps30d": 0.0020608556578711745,
+    "eps60d": 0.002067021855050033,
+    "eps90d": 0.002028344236755686,
     "revenue30d": null
   }
 }

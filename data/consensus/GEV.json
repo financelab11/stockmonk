@@ -1,11 +1,11 @@
 {
   "ticker": "GEV",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/GEV/analysis",
-  "targetMean": 1176.0137,
+  "targetMean": 1162.4033,
   "targetHigh": 1400,
-  "targetLow": 940,
+  "targetLow": 783.86,
   "recommendationKey": "strong_buy",
   "analystCount": 33,
   "distribution": {
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 47074111560,
-      "revenueGrowth": 0.2366,
+      "revenueAvg": 47091568280,
+      "revenueGrowth": 0.237,
       "epsAvg": 31.79654,
       "epsGrowth": 0.7974,
       "analystCount": 22
@@ -46,11 +46,11 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 53616080500,
-      "revenueGrowth": 0.139,
-      "epsAvg": 25.95559,
-      "epsGrowth": -0.18370001,
-      "analystCount": 24
+      "revenueAvg": 53664476440,
+      "revenueGrowth": 0.1396,
+      "epsAvg": 26.23496,
+      "epsGrowth": -0.1749,
+      "analystCount": 25
     }
   ],
   "history": [
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 13.39,
       "epsEstimate": 3.21816,
-      "revenueActual": 10956000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 17.44,
       "epsEstimate": 2.00102,
-      "revenueActual": 9339000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 2.47,
       "epsEstimate": 3.18468,
-      "revenueActual": 11104000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 4.81,
       "epsEstimate": 4.01248,
-      "revenueActual": 12642000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 14
   },
   "revisions": {
-    "eps7d": 0.0020642248095239513,
-    "eps30d": 0.04337054546325603,
-    "eps60d": 0.03440149620661903,
-    "eps90d": 0.031973565619727085,
+    "eps7d": 0,
+    "eps30d": 0.044930663935091486,
+    "eps60d": 0.03369698719311631,
+    "eps90d": 0.032034526934325847,
     "revenue30d": null
   }
 }

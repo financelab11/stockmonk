@@ -7,20 +7,20 @@ export const INTU: StockStory = {
   "dek": "Tax season produces one quarter with a 47% operating margin and three that look ordinary. Only the annual numbers are a fair read.",
   "readingMinutes": 9,
   "takeaways": [
-    "Fiscal 2026 revenue of $21.4B rose 13.9%, with a 27.4% operating margin and $16.46 of diluted EPS.",
-    "Free cash flow of $8.7B is 40.4% of revenue, nearly twice net income, as tax-season collections arrive in advance.",
-    "At 16.4x earnings and 8.6x free cash flow, the shares trade at roughly half the peer median after a 56.6% one-year decline.",
-    "Consensus expects fiscal 2027 revenue growth of 9.2% and an EPS decline of 1.9%, a slowdown from the mid-teens pace."
+    "Revenue: $21.4B trailing twelve months, +13.9% year over year.",
+    "Profitability: 27.4% operating margin and 21.3% net margin.",
+    "Cash: $8.7B free cash flow, a 40.4% margin.",
+    "Factor summary: 67/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000896878&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Intuit's fiscal 2026, ended 31 July 2026, produced $21.4B of revenue, a 27.4% operating margin and $16.46 of diluted EPS. Revenue grew 13.9%, slower than the 15.6% of fiscal 2025 but still double-digit. The fourth quarter is the least informative of the year: $4.4B of revenue, a 10.9% operating margin and $1.41 of EPS, because the tax season that generates most of the profit has already passed. The annual figure is the one that matters, and it improved on revenue, margin and EPS.",
-      "The business runs on two calendars. Consumer tax revenue arrives almost entirely in the January-to-April window, when the fixed cost of building the software is absorbed by a narrow flood of returns. Small business accounting, payroll and payments renew through the year, and Credit Karma earns fees from lenders rather than consumers. Global Business Solutions was 60.0% of the latest segment mix and Consumer 40.0%, so the tax franchise is still the swing factor.",
-      "The valuation has already repriced the risk. At $280 the shares carry 16.4x earnings, 12.8x EV/EBITDA, 3.6x sales and 8.6x free cash flow, against peer medians of 32.0x and 25.5x. A 56.6% one-year decline against 13.9% revenue growth means the multiple compressed, not the business. The market is pricing a structural threat to paid tax filing; the cash flow says the franchise is still intact today. The debate is about whether that judgment is early or wrong."
+      "Intuit Inc. Generated $21.4B of revenue over the last twelve months, +13.9% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
+      "The latest reported quarter was Q4 FY26, with $4.4B of revenue and an operating margin of 10.9%. The stock closed at $275.46 on 2026-11-23, giving a market capitalization of $73.6B.",
+      "The shares sit 5% of the way up their 52-week range ($252.84 to $681.20). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
-    "quote": "Intuit earns most of its profit in twelve weeks, and the market has spent a year deciding those twelve weeks are worth less."
+    "quote": "INTU is a Technology business with $21.4B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,50 +52,46 @@ export const INTU: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Sales advanced from $16.3B in fiscal 2024 to $18.8B in fiscal 2025 and $21.4B in fiscal 2026, a 13.9% pace that has slowed from 15.6%. The third quarter, which contains the tax season, generated $8.6B of revenue and a 47.0% operating margin; the fourth quarter generated $4.4B and 10.9%. That seasonality is the growth model: the annual comparison is the only fair one.",
-      "The mix is shifting toward small business. Global Business Solutions was 60.0% of segment revenue, with accounting, payroll, payments and marketing renewing through the year. Consumer tax is 40.0% and depends on the number of returns filed and the mix between software and assisted preparation. Credit Karma adds a marketplace fee stream that is cyclical with lending and credit-card volumes.",
-      "Consensus expects a slowdown. Fiscal 2027 revenue of $23.4B would be 9.2% higher and EPS of $23.81 would be 1.9% lower, an earnings decline despite revenue growth. That assumes the tax season is flat and the small-business base grows modestly. The 90-day EPS revision of -12.7% shows analysts cutting hard, which is unusual for a business with a 40.4% FCF margin."
+      "Revenue compounded at 17.9% a year across the fiscal years in the dataset, and the latest quarter changed +13.7% year over year. Third-party estimates for the current fiscal year point to $23.2B of revenue and $22.95 of EPS.",
+      "Growth matters when it produces a return on capital. The operating margin of 27.4% and return on invested capital of 16.7% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
-        "title": "Tax season",
-        "detail": "The January-to-April window produces most of the profit; a weak season cannot be recovered later in the year."
+        "title": "Product cycle",
+        "detail": "New products and platform transitions create refresh demand and pricing power."
       },
       {
-        "title": "Small business",
-        "detail": "Global Business Solutions was 60.0% of segment revenue and renews through the year, which is the offset to tax seasonality."
+        "title": "Customer expansion",
+        "detail": "Land-and-expand selling raises revenue per existing customer and lengthens the relationship."
       },
       {
-        "title": "Credit Karma",
-        "detail": "Marketplace revenue depends on lending and card volumes, so it adds cyclicality rather than recurring subscription revenue."
+        "title": "Operating leverage",
+        "detail": "Incremental revenue can carry high gross margins once development and sales costs are in place."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The annual margin bridge is cleaner than the quarterly one. Gross margin of 64.3% becomes a 27.4% operating margin and a 21.3% net margin for fiscal 2026, with product development and marketing absorbing the difference. The quarterly path is dominated by the calendar: 47.0% operating margin in the April quarter, 10.9% in the July quarter, on the same products and the same cost base.",
-      "The trend is improving. Operating margin rose from 22.3% in fiscal 2024 to 26.1% in fiscal 2025 and 27.4% in fiscal 2026; net margin rose from 18.2% to 20.5% to 21.3%. Return on equity was 24.0% and return on invested capital 16.7%. The operating leverage is real, but it is annual, not quarterly, and the fourth quarter will always look weak.",
-      "A 47.1% operating margin at Microsoft is nearly twice Intuit's 27.4%, but the comparison is not like-for-like: Microsoft sells infrastructure and productivity software, while Intuit sells a seasonal compliance service with a payments mix. On cash, Intuit's 40.4% FCF margin is the highest among the large-cap software names here, which is the more relevant comparison for a business that collects before it delivers."
+      "The trailing operating margin is 27.4%, the net margin is 21.3% and diluted EPS is $16.57. The latest quarter's operating margin was 10.9%. The quarter shown is the latest reported period in the dataset.",
+      "Return on equity is 24.0%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Intuit generated $8.7B of free cash flow, 40.4% of revenue, against net income of $4.6B. The gap is deferred revenue: taxpayers and small businesses pay before the service is recognised, so cash arrives ahead of the revenue it relates to. Capex was only $175M, so the conversion is high and the FCF margin is the honest measure of the economics. The cash conversion is the strongest part of the Intuit case.",
-      "Net debt of $3.0B, or 0.5x EBITDA, with interest cover of 23.0x, is modest leverage for a business generating $8.7B of cash flow, and it is covered several times over. The company also pays a dividend with a 2.0% yield, the only yield in the group of any size. That is a conservative capital structure for a business with a seasonal cash peak.",
-      "Capital allocation is shareholder-friendly relative to peers. The dividend yield is 2.0%, and the cash flow covers it easily. The statements do not disclose a buyback large enough to change the share count, but the combination of a dividend and an 8.6x P/FCF is what makes the shares look cheap on cash. That is a different capital-return profile from the other software names here."
+      "The cash statement over the trailing period was $8.7B, a 40.4% margin. Net debt is $3B. The cash figures are trailing twelve-month values unless the section says otherwise.",
+      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At $280 the equity is worth $74.8B, or 16.4x trailing earnings, 12.8x EV/EBITDA, 3.6x sales and 8.6x free cash flow. The peer medians are 32.0x and 25.5x, so Intuit trades at roughly half the group on both earnings and EBITDA. The discount is not a small anomaly; it is the market's judgment that the tax franchise faces a structural threat. The FCF yield of 11.6% is the other side of that judgment.",
-      "On forward earnings, the shares are cheaper still. Fiscal 2027 EPS of $23.81 is 11.8x the current price and fiscal 2028 at $26.90 is 10.4x. Those multiples assume earnings fall 1.9% in fiscal 2027 before recovering 13.0% in fiscal 2028. If the tax season holds, the shares are inexpensive; if free filing takes share, the earnings base is too high. The estimate cuts suggest the market has already chosen the second case.",
-      "From $681 to $253 over the past year, the market has repriced the stock violently. At 8.6x free cash flow and an 11.6% FCF yield, the price now assumes modest growth. The question is whether the tax franchise is a regulated annuity or a shrinking one. The answer depends on policy and on how many taxpayers choose to pay for help."
+      "At the latest close the shares trade at 16.1x trailing earnings and 12.6x EV/EBITDA. The valuation reflects the growth and margin record described above, not for the past alone.",
+      "The attributed third-party mean target is $362.66; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "Yahoo Finance's 18 November 2026 survey covers 31 analysts, with a mean target of $408 and a range of $290 to $732. The mean is 46% above the $280 price, and the large neutral group reflects the debate about the tax franchise.",
-      "Estimates have been cut sharply: -12.7% over 90 days, -1.5% over 60 days and flat over 30 and seven days. Fiscal 2027 revenue of $23.4B and EPS of $23.81 assume 9.2% growth and a 1.9% earnings decline. The consensus is implicitly assuming that the tax season is flat and that the small-business base keeps growing at a low-double-digit rate."
+      "31 analysts contribute to the third-party consensus. The mean target is $362.66, with a range of $270.00 to $670.00. The consensus is a third-party snapshot and can change without notice.",
+      "Current-year estimates call for $23.2B of revenue and $22.95 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
     ]
   },
   "risks": {
@@ -160,6 +156,6 @@ export const INTU: StockStory = {
       "How exposed is the tax franchise to free public filing alternatives?"
     ]
   },
-  "narrativeSource": "curated",
+  "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-24"
 };

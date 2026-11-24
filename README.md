@@ -52,18 +52,18 @@ set to the reproducible floor measured on this host.
 
 ## Routes
 
-| Route | Purpose |
-| --- | --- |
-| `/` | Hero, recently researched, data distribution, spotlight, Pro demo |
-| `/discover` | Featured research, data-quality screens, search, pricing demo |
-| `/discover/all-stocks` | Full universe grouped by sector, filters and sort |
-| `/screener` | Five-factor quantitative screener for the US listed universe |
-| `/framework` | Methodology, formulas, peer/valuation approach |
-| `/stocks/[ticker]` | Ten-section research report for all 229 US coverage names |
-| `/watchlist` | Local-first watchlist backed by `localStorage` |
-| `/about`, `/privacy`, `/terms`, `/editorial-guidelines`, `/data-sources` | Editorial and legal pages |
-| `/offline` | Serwist offline fallback |
-| `/sitemap.xml`, `/robots.txt`, `/manifest.webmanifest` | Feeds and PWA/SEO endpoints |
+| Route                                                                    | Purpose                                                           |
+| ------------------------------------------------------------------------ | ----------------------------------------------------------------- |
+| `/`                                                                      | Hero, recently researched, data distribution, spotlight, Pro demo |
+| `/discover`                                                              | Featured research, data-quality screens, search, pricing demo     |
+| `/discover/all-stocks`                                                   | Full universe grouped by sector, filters and sort                 |
+| `/screener`                                                              | Five-factor quantitative screener for the US listed universe      |
+| `/framework`                                                             | Methodology, formulas, peer/valuation approach                    |
+| `/stocks/[ticker]`                                                       | Ten-section research report for all 229 US coverage names         |
+| `/watchlist`                                                             | Local-first watchlist backed by `localStorage`                    |
+| `/about`, `/privacy`, `/terms`, `/editorial-guidelines`, `/data-sources` | Editorial and legal pages                                         |
+| `/offline`                                                               | Serwist offline fallback                                          |
+| `/sitemap.xml`, `/robots.txt`, `/manifest.webmanifest`                   | Feeds and PWA/SEO endpoints                                       |
 
 The former `/india/*`, `/gcc/*` and `/tools/growth-ranker/*` routes permanently
 redirect to `/discover` or `/screener`.
@@ -97,13 +97,15 @@ table and `forward_growth_ranking` view, and restricts `companies.market` to
 
 Core tables: companies, prices_daily, financial_periods, financial_metrics,
 segments, consensus_estimates, consensus_targets, stories, profiles, watchlists,
-watchlist_items, company_snapshots, ingestion_runs and data_freshness.
+watchlist_items, company_snapshots, ingestion_runs, data_freshness and story_freshness.
 
 - Public read access is enabled for market/research tables.
 - Watchlists are owner-only via RLS.
 - Realtime is enabled for snapshots, news, freshness, consensus targets and
   watchlists.
-- `pg_cron` refreshes `company_snapshots` and `data_freshness` daily.
+- `pg_cron` refreshes `company_snapshots` at 03:30 UTC and `data_freshness`
+  at 03:45 UTC daily. `story_freshness` records the data/narrative status for
+  every report.
 
 Environment:
 
@@ -158,13 +160,13 @@ Outputs:
 
 `/screener` scores every US coverage name on five factors:
 
-| Factor | Weight | Main inputs |
-| --- | --- | --- |
-| Growth | 20% | Revenue, EBITDA, EBIT, EPS, PAT and FCF CAGR; growth acceleration; forward estimates |
-| Quality | 25% | ROE, ROCE, ROIC, margins, CFO/PAT, accruals, leverage, interest cover, ROIC stability |
-| Valuation | 20% | P/E, forward P/E, EV/EBITDA, EV/EBIT, EV/Sales, P/B, P/FCF, yields, PEG, history |
-| Momentum | 20% | 1M/3M/6M/12M returns, 12M-1M, relative strength, moving averages, EPS revisions and surprises |
-| Low Volatility | 15% | 30D/90D/252D volatility, beta, downside deviation, drawdown, Sortino, Sharpe, VaR |
+| Factor         | Weight | Main inputs                                                                                   |
+| -------------- | ------ | --------------------------------------------------------------------------------------------- |
+| Growth         | 20%    | Revenue, EBITDA, EBIT, EPS, PAT and FCF CAGR; growth acceleration; forward estimates          |
+| Quality        | 25%    | ROE, ROCE, ROIC, margins, CFO/PAT, accruals, leverage, interest cover, ROIC stability         |
+| Valuation      | 20%    | P/E, forward P/E, EV/EBITDA, EV/EBIT, EV/Sales, P/B, P/FCF, yields, PEG, history              |
+| Momentum       | 20%    | 1M/3M/6M/12M returns, 12M-1M, relative strength, moving averages, EPS revisions and surprises |
+| Low Volatility | 15%    | 30D/90D/252D volatility, beta, downside deviation, drawdown, Sortino, Sharpe, VaR             |
 
 Raw values are winsorized at the 2nd/98th percentile and converted to 0–100
 percentiles within the company's coverage group where enough peers exist. The

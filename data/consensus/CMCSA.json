@@ -1,7 +1,7 @@
 {
   "ticker": "CMCSA",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/CMCSA/analysis",
   "targetMean": 27.97727,
   "targetHigh": 42,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.84,
       "epsEstimate": 0.75837,
-      "revenueActual": 32310000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.79,
       "epsEstimate": 0.72949,
-      "revenueActual": 31457000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 1.04,
       "epsEstimate": 0.96637,
-      "revenueActual": 29940000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 1.07,
       "epsEstimate": 0.98659,
-      "revenueActual": 29298000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

@@ -1,9 +1,9 @@
 {
   "ticker": "SYK",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/SYK/analysis",
-  "targetMean": 339.37296,
+  "targetMean": 341.48407,
   "targetHigh": 410,
   "targetLow": 275,
   "recommendationKey": "buy",
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 4.47,
       "epsEstimate": 4.39538,
-      "revenueActual": 7171000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 2.6,
       "epsEstimate": 2.98362,
-      "revenueActual": 6020000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 3.69,
       "epsEstimate": 3.48816,
-      "revenueActual": 6589000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 3.52,
       "epsEstimate": 3.54749,
-      "revenueActual": 6520000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 25
   },
   "revisions": {
-    "eps7d": 0.00009910228164478063,
-    "eps30d": -0.009347822747971413,
-    "eps60d": -0.011570938461343716,
-    "eps90d": -0.012035683483901383,
+    "eps7d": 0,
+    "eps30d": -0.008026260710708222,
+    "eps60d": -0.010785276703628943,
+    "eps90d": -0.012237638846163579,
     "revenue30d": null
   }
 }

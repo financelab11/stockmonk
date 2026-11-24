@@ -7,23 +7,23 @@ export const NVDA: StockStory = {
   "dek": "Revenue grew 106% and guidance rose again, yet the shares are down 16% over a year. The gap between the business and the multiple is the report.",
   "readingMinutes": 12,
   "takeaways": [
-    "Second-quarter fiscal 2027 revenue was $96.2B, up 106% year over year, with Data Center at $89.0B and Compute & Networking at $88.3B.",
-    "Third-quarter guidance of $108.0B at plus or minus 2% and a 74.0% gross margin assumes no China data-center compute revenue.",
-    "Trailing revenue is $303.0B at a 65.2% operating margin, with $127.0B of free cash flow and a 63.0% return on invested capital.",
-    "The shares are {{return1y}} over a year in which earnings rose, leaving the {{pe}} multiple below the 32.0x peer median."
+    "Revenue: $303B trailing twelve months, +83.4% year over year.",
+    "Profitability: 65.2% operating margin and 63.7% net margin.",
+    "Cash: $127B free cash flow, a 41.9% margin.",
+    "Factor summary: 80/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
   "irUrl": "https://investor.nvidia.com/",
   "earningsReleaseUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
-  "narrativeSource": "curated",
+  "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-24",
   "bigPicture": {
     "paragraphs": [
-      "Second-quarter fiscal 2027 revenue of $96.2B, reported on 26 August 2026, was 106% above a year earlier and 18% above the prior quarter. Data Center contributed $89.0B, up 117%, with $88.3B in Compute & Networking and $7.9B in Graphics. Gross margin was 75.0%, operating income $63.7B and diluted EPS $2.46. The scale is the point: a company this large grew faster than most small-cap software firms. Demand is running ahead of the supply chain's ability to add capacity.",
-      "Demand is broadening. Hyperscale customers bought $48.7B of Data Center revenue, while AI clouds, industrial and enterprise buyers contributed $40.3B, up 138%. Third-quarter guidance of $108.0B at plus or minus 2% assumes no China data-center compute revenue, so the 12% sequential step-up describes the addressable market Nvidia can actually serve. Supply remains the binding constraint: leading-edge wafers and advanced packaging are concentrated at TSMC, and networking attach now adds revenue per cluster.",
-      "The shares have de-rated even as earnings rose. At a {{price}} share price the {{pe}} trailing multiple and {{evEbitda}} EV/EBITDA sit below peer medians of 32.0x and 25.5x, despite a 65.2% operating margin. A year ago the stock was priced for a cycle that had not yet peaked; today it is priced for the possibility that this one has. The debate is whether a 65% margin is a platform rent or a capacity cycle, and the answer decides whether the multiple is cheap or late."
+      "NVIDIA Corporation generated $303B of revenue over the last twelve months, +83.4% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
+      "The latest reported quarter was Q2 FY27, with $96.2B of revenue and an operating margin of 66.2%. The stock closed at $165.05 on 2026-11-23, giving a market capitalization of $3.99T.",
+      "The shares sit 34% of the way up their 52-week range ($124.50 to $243.37). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
-    "quote": "Nvidia's 65% operating margin is either a platform rent or a cycle peak, and the multiple is a wager on which one it is."
+    "quote": "NVDA is a Technology business with $303B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -54,48 +54,46 @@ export const NVDA: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Hyperscale budgets remain the largest single driver, but the customer base is widening. Non-hyperscale Data Center revenue grew 138% to $40.3B, faster than the hyperscale group at 102%. Fiscal 2027 consensus of $412.0B assumes that mix continues: the current-quarter estimate of $124.9B is above management's $108.0B guidance, so the forecast already embeds an upside case. The incremental dollar is the number the supply chain has to deliver.",
-      "Compute & Networking grew 114% to $88.3B, while Graphics grew 46% to $7.9B. The segment split understates the platform: CUDA and the software stack are not a reported line, but they are why customers pay a premium for the whole system rather than a chip. Supply is the constraint, with CoWoS packaging and memory availability deciding how much of the demand reaches revenue.",
-      "The base effect will slow the headline. Revenue was $60.9B in fiscal 2024, $130.5B in fiscal 2025 and $215.9B in fiscal 2026; a $303.0B trailing base cannot keep growing at triple digits. Consensus for fiscal 2028 is $688.7B, which is still 67.2% growth. That is the estimate that carries the valuation, and it assumes hyperscaler spending rises through 2027 without a pause."
+      "Revenue compounded at 51.6% a year across the fiscal years in the dataset, and the latest quarter changed +105.9% year over year. Third-party estimates for the current fiscal year point to $423.7B of revenue and $9.67 of EPS.",
+      "Growth matters when it produces a return on capital. The operating margin of 65.2% and return on invested capital of 63.0% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
-        "title": "Customer mix",
-        "detail": "Hyperscale contributed $48.7B and AI clouds, industrial and enterprise $40.3B in Q2. The second group grew 138%, which is the offset to concentration."
+        "title": "Product cycle",
+        "detail": "New products and platform transitions create refresh demand and pricing power."
       },
       {
-        "title": "Supply chain",
-        "detail": "The fabless model keeps capex at $6.0B in fiscal 2026, but CoWoS packaging and memory availability can cap shipments regardless of demand."
+        "title": "Customer expansion",
+        "detail": "Land-and-expand selling raises revenue per existing customer and lengthens the relationship."
       },
       {
-        "title": "China optionality",
-        "detail": "Guidance excludes China data-center compute. Any re-entry would add revenue but probably at a lower margin, so it is optionality rather than a base-case line."
+        "title": "Operating leverage",
+        "detail": "Incremental revenue can carry high gross margins once development and sales costs are in place."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Gross margin of 75.0% was up from 72.4% a year earlier, and the operating margin reached 66.2%. GAAP net income was $59.7B and diluted EPS $2.46 against $1.08. Operating leverage did the work: revenue doubled while operating expenses grew far more slowly. Guidance for a 74.0% gross margin in the third quarter implies a small give-back as mix and supply normalise.",
-      "Trailing returns are extreme. The operating margin is 65.2%, the net margin 63.7% and return on equity 84.2%; return on invested capital is 63.0% against an 18.8% peer median. The operating margin has ranged from 15.7% to 66.2% in four years, so today's figure is the top of the range, not the middle. That range is the single best argument for treating the current earnings base as cyclical."
+      "The trailing operating margin is 65.2%, the net margin is 63.7% and diluted EPS is $7.91. The latest quarter's operating margin was 66.2%. The quarter shown is the latest reported period in the dataset.",
+      "Return on equity is 84.2%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow after capex of $127.0B, a 41.9% margin, is the cleanest evidence of the platform's economics. Capex was only $6.0B in fiscal 2026 against $102.7B of operating cash flow, because Nvidia pays partners for wafers and packaging rather than owning fabs. Leverage is negligible at 0.1x EBITDA and interest cover is 426.7x. The balance sheet is not a constraint on the build.",
-      "Working capital is the number to watch. A 63.7% net margin against a 41.9% free-cash-flow margin points to inventory, prepayments and supply commitments absorbing cash ahead of the ramp. That is normal before a product transition, but a persistent gap would signal that the supply chain is eating the upside. Capital returns are small, with a 0.8% dividend yield leaving room for further prepayments or debt reduction."
+      "Free cash flow after capex over the trailing period was $127B, a 41.9% margin. Net debt is $11.9B. The cash figures are trailing twelve-month values unless the section says otherwise.",
+      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "A 20.9x trailing multiple is below the 32.0x peer median, and 20.0x EV/EBITDA is below 25.5x, despite a 65.2% operating margin. The discount is the market's way of saying that the current margin is a cycle peak rather than a platform rent. On fiscal 2027 EPS of $9.34 the shares trade at about 18x, and on fiscal 2028 EPS of $15.86 about 11x. The forward numbers are cheaper, but they carry the same margin assumption.",
-      "The historical range explains the discount. Over four years the operating margin has been as low as 15.7% and as high as 66.2%, and the shares are priced nearer the top than the middle. A platform business deserves a premium to a cyclical semiconductor; a capacity cycle deserves a discount. Today's 20.9x is a bet that the answer is somewhere in between.",
-      "Peer multiples frame the gap. Broadcom trades at 38.6x with a 48.0% operating margin, Micron at 9.5x with a 74.6% margin and far more cyclical earnings, and AMD at 99.9x on a much smaller profit base. Nvidia's 20.9x sits between the platform premium and the cyclical discount. A 12-month hyperscaler pause would compress both the earnings base and the multiple, which is why the discount is not free."
+      "At the latest close the shares trade at 20.7x trailing earnings and 19.9x EV/EBITDA. The valuation reflects the growth and margin record described above, not for the past alone.",
+      "The attributed third-party mean target is $244.71; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "Fifty-five analysts cover the stock, and their mean target of $265 sits about 59% above the current price. The range runs from $130 to $515, a spread wide enough to contain both a cycle-peak view and a platform view. The low end is below the market price, so the average is not a consensus in the usual sense; it is an average of genuinely different models.",
-      "Estimate momentum has slowed. The 90-day EPS revision is 4.2%, but the 30-day move is only 0.3%, which suggests the upgrades came earlier in the quarter. Fiscal 2027 revenue is forecast at $412.0B and EPS at $9.34; fiscal 2028 at $688.7B and $15.86. Those numbers assume hyperscaler capex keeps rising and China stays excluded rather than becoming a negative surprise."
+      "58 analysts contribute to the third-party consensus. The mean target is $244.71, with a range of $130.00 to $425.00. The consensus is a third-party snapshot and can change without notice.",
+      "Current-year estimates call for $423.7B of revenue and $9.67 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
     ]
   },
   "risks": {

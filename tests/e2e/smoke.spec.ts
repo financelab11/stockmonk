@@ -48,6 +48,17 @@ test.describe("route smoke tests", () => {
     await expect(page.getByText(/not in the library/i)).toBeVisible();
   });
 
+  test("data health endpoint reports the freshness manifest", async ({
+    request,
+  }) => {
+    const response = await request.get("/api/health/data");
+    expect([200, 503]).toContain(response.status());
+    const body = await response.json();
+    expect(body.stories.total).toBe(229);
+    expect(body.prices.total).toBe(229);
+    expect(Array.isArray(body.problems)).toBe(true);
+  });
+
   test("legacy India and GCC routes redirect to the US app", async ({
     request,
   }) => {

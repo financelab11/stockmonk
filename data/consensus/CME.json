@@ -1,9 +1,9 @@
 {
   "ticker": "CME",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/CME/analysis",
-  "targetMean": 317.0625,
+  "targetMean": 318.125,
   "targetHigh": 367,
   "targetLow": 227,
   "recommendationKey": "buy",
@@ -21,8 +21,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 1762179150,
       "revenueGrowth": 0.0688,
-      "epsAvg": 3.02573,
-      "epsGrowth": 0.0923,
+      "epsAvg": 3.03367,
+      "epsGrowth": 0.0952,
       "analystCount": 14
     },
     {
@@ -39,8 +39,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 7087723100,
       "revenueGrowth": 0.087,
-      "epsAvg": 12.39616,
-      "epsGrowth": 0.106800005,
+      "epsAvg": 12.4027,
+      "epsGrowth": 0.1074,
       "analystCount": 17
     },
     {
@@ -48,8 +48,8 @@
       "endDate": "2027-12-31",
       "revenueAvg": 7468631930,
       "revenueGrowth": 0.0537,
-      "epsAvg": 13.245,
-      "epsGrowth": 0.0685,
+      "epsAvg": 13.25335,
+      "epsGrowth": 0.0686,
       "analystCount": 17
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 2.77,
       "epsEstimate": 2.74272,
-      "revenueActual": 1648700000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 3.36,
       "epsEstimate": 3.36851,
-      "revenueActual": 1880100000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 2.99,
       "epsEstimate": 2.90993,
-      "revenueActual": 1706200000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 3.02,
       "epsEstimate": 2.98947,
-      "revenueActual": 1737300000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 1762179150,
     "revenueGrowth": 0.0688,
-    "epsAvg": 3.02573,
-    "epsGrowth": 0.0923,
+    "epsAvg": 3.03367,
+    "epsGrowth": 0.0952,
     "analystCount": 14
   },
   "revisions": {
-    "eps7d": -0.00028307204949806763,
-    "eps30d": 0.008204774515098379,
-    "eps60d": 0.011881041025712191,
-    "eps90d": 0.010513410161577363,
+    "eps7d": 0.0005275827352986262,
+    "eps30d": 0.00688183810104448,
+    "eps60d": 0.012413239155863787,
+    "eps90d": 0.011187495312046325,
     "revenue30d": null
   }
 }

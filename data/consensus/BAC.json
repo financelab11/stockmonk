@@ -1,7 +1,7 @@
 {
   "ticker": "BAC",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/BAC/analysis",
   "targetMean": 62.47727,
   "targetHigh": 71,
@@ -28,11 +28,11 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 31879000000,
-      "revenueGrowth": 0.0531,
-      "epsAvg": 1.19875,
-      "epsGrowth": 0.08,
-      "analystCount": 8
+      "revenueAvg": 31569000000,
+      "revenueGrowth": 0.0428,
+      "epsAvg": 1.19444,
+      "epsGrowth": 0.0761,
+      "analystCount": 9
     },
     {
       "period": "Current fiscal year",
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.98,
       "epsEstimate": 0.95866,
-      "revenueActual": 28367000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.11,
       "epsEstimate": 1.02044,
-      "revenueActual": 30272000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 1.21,
       "epsEstimate": 1.12309,
-      "revenueActual": 31558000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 0.91,
       "epsEstimate": 1.10665,
-      "revenueActual": 29958000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,9 +96,9 @@
     "analystCount": 14
   },
   "revisions": {
-    "eps7d": -0.005659775976687098,
-    "eps30d": -0.04924092351765674,
-    "eps60d": -0.06618431546110937,
+    "eps7d": 0,
+    "eps30d": -0.014199460551411414,
+    "eps60d": -0.0635935808239444,
     "eps90d": -0.06671111367536164,
     "revenue30d": null
   }

@@ -1,7 +1,7 @@
 {
   "ticker": "HON",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/HON/analysis",
   "targetMean": 253.86957,
   "targetHigh": 290,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 5.18,
       "epsEstimate": 5.07125,
-      "revenueActual": 9758000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 4.9,
       "epsEstimate": 4.64216,
-      "revenueActual": 9143000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 1.95,
       "epsEstimate": 1.81873,
-      "revenueActual": 9719000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 2.27,
       "epsEstimate": 2.16441,
-      "revenueActual": 4994000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 18
   },
   "revisions": {
-    "eps7d": -0.0028536737050968153,
-    "eps30d": 0.014309108063589093,
-    "eps60d": 0.012899406290385773,
-    "eps90d": 0.011406113138357155,
+    "eps7d": 0,
+    "eps30d": 0.014321330407612631,
+    "eps60d": 0.01332251513484417,
+    "eps90d": 0.012597227936205435,
     "revenue30d": null
   }
 }

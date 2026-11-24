@@ -25,7 +25,16 @@ const ROOT = process.cwd();
 const PROCESSED = path.join(ROOT, "data", "processed");
 const CONSENSUS = path.join(ROOT, "data", "consensus");
 const SEGMENTS = path.join(ROOT, "data", "segments");
+const EARNINGS = path.join(ROOT, "data", "earnings");
 const OUT = path.join(ROOT, "data", "raw", "research-packs");
+const ONLY = new Set(
+  process.argv
+    .find((arg) => arg.startsWith("--only="))
+    ?.split("=")[1]
+    ?.split(",")
+    .map((ticker) => ticker.trim().toUpperCase())
+    .filter(Boolean) ?? [],
+);
 
 function readJson<T>(file: string): T | null {
   try {
@@ -72,7 +81,9 @@ function median(values: number[]): number | null {
   if (values.length === 0) return null;
   const sorted = [...values].sort((a, b) => a - b);
   const mid = Math.floor(sorted.length / 2);
-  return sorted.length % 2 === 0 ? (sorted[mid - 1] + sorted[mid]) / 2 : sorted[mid];
+  return sorted.length % 2 === 0
+    ? (sorted[mid - 1] + sorted[mid]) / 2
+    : sorted[mid];
 }
 
 type Loaded = {
@@ -87,7 +98,9 @@ for (const ticker of RESEARCH_TICKERS) {
   const raw = readJson<unknown>(path.join(PROCESSED, ticker, "data.json"));
   const parsed = raw ? tickerDataSchema.safeParse(raw) : null;
   if (!parsed?.success) continue;
-  const consensusRaw = readJson<unknown>(path.join(CONSENSUS, `${ticker}.json`));
+  const consensusRaw = readJson<unknown>(
+    path.join(CONSENSUS, `${ticker}.json`),
+  );
   const consensusParsed = consensusRaw
     ? consensusSchema.safeParse(consensusRaw)
     : null;
@@ -106,9 +119,13 @@ for (const ticker of RESEARCH_TICKERS) {
 const allRows = [...loaded.values()];
 
 function peerStats(ticker: string, groupId: string) {
-  const peers =
-    allRows.filter((row) => row.group?.id === groupId && row.data.ticker !== ticker);
-  const population = peers.length >= 4 ? peers : allRows.filter((row) => row.data.ticker !== ticker);
+  const peers = allRows.filter(
+    (row) => row.group?.id === groupId && row.data.ticker !== ticker,
+  );
+  const population =
+    peers.length >= 4
+      ? peers
+      : allRows.filter((row) => row.data.ticker !== ticker);
   const values = (field: (row: Loaded) => number | null) =>
     population.map(field).filter((value): value is number => value != null);
   const self = loaded.get(ticker);
@@ -124,7 +141,9 @@ function peerStats(ticker: string, groupId: string) {
       pe: median(values((row) => row.data.metrics.pe)),
       evEbitda: median(values((row) => row.data.metrics.evEbitda)),
       revenueGrowth: median(values((row) => row.data.metrics.revenueGrowthTtm)),
-      operatingMargin: median(values((row) => row.data.metrics.operatingMargin)),
+      operatingMargin: median(
+        values((row) => row.data.metrics.operatingMargin),
+      ),
       roic: median(values((row) => row.data.metrics.roic)),
       fcfMargin: median(values((row) => row.data.metrics.fcfMargin)),
       return1y: median(values((row) => row.data.metrics.return1y)),
@@ -168,7 +187,7 @@ function sectionText(block: {
   ].join("\n\n");
 }
 
-function packFor(ticker: string): string | null {
+export function packFor(ticker: string): string | null {
   const row = loaded.get(ticker);
   if (!row) return null;
   const story = STOCK_STORIES[ticker] as StockStory | undefined;
@@ -181,9 +200,13 @@ function packFor(ticker: string): string | null {
   const lines: string[] = [];
   lines.push(`# ${ticker} — ${data.name}`);
   lines.push("");
-  lines.push(`Coverage group: ${group?.name ?? data.sector} (${group?.kind ?? "sector"})`);
+  lines.push(
+    `Coverage group: ${group?.name ?? data.sector} (${group?.kind ?? "sector"})`,
+  );
   lines.push(`Sector / industry: ${data.sector} / ${data.industry}`);
-  lines.push(`Employees: ${data.employees ?? "n/a"}; HQ: ${data.hq ?? "n/a"}; Website: ${data.website ?? "n/a"}`);
+  lines.push(
+    `Employees: ${data.employees ?? "n/a"}; HQ: ${data.hq ?? "n/a"}; Website: ${data.website ?? "n/a"}`,
+  );
   lines.push(`Description: ${data.description}`);
   lines.push("");
   lines.push("## Market snapshot");
@@ -201,8 +224,12 @@ function packFor(ticker: string): string | null {
   );
   lines.push("");
   lines.push("## Annual reported financials");
-  lines.push("| FY | Revenue | Rev growth | Gross margin | Op margin | Net margin | EPS | CFO | Capex | FCF | Net debt | ROIC | ROE |");
-  lines.push("| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |");
+  lines.push(
+    "| FY | Revenue | Rev growth | Gross margin | Op margin | Net margin | EPS | CFO | Capex | FCF | Net debt | ROIC | ROE |",
+  );
+  lines.push(
+    "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |",
+  );
   for (let i = 0; i < annual.length; i += 1) {
     const year = annual[i];
     const prior = annual[i - 1];
@@ -233,7 +260,9 @@ function packFor(ticker: string): string | null {
         .join("; ")}`,
     );
   } else {
-    lines.push("No segment split in the dataset; the company reports a single consolidated revenue line.");
+    lines.push(
+      "No segment split in the dataset; the company reports a single consolidated revenue line.",
+    );
   }
   if (segments?.geography.length) {
     lines.push(
@@ -274,6 +303,34 @@ function packFor(ticker: string): string | null {
     lines.push("No attributed consensus snapshot in the dataset.");
   }
   lines.push("");
+  const earnings = readJson<{
+    title?: string;
+    accession?: string;
+    filed?: string;
+    reportDate?: string;
+    releaseUrl?: string;
+    text?: string;
+    cfoCommentary?: { text?: string } | null;
+  }>(path.join(EARNINGS, `${ticker}.json`));
+  lines.push("## Latest earnings release (8-K)");
+  if (earnings?.text) {
+    lines.push(
+      `Filed ${earnings.filed ?? "n/a"} (${earnings.accession ?? "no accession"}). ${earnings.title ?? ""}`.trim(),
+    );
+    if (earnings.releaseUrl) lines.push(`URL: ${earnings.releaseUrl}`);
+    lines.push("");
+    lines.push(earnings.text.slice(0, 14000));
+    if (earnings.cfoCommentary?.text) {
+      lines.push("");
+      lines.push("### CFO commentary");
+      lines.push(earnings.cfoCommentary.text.slice(0, 8000));
+    }
+  } else {
+    lines.push(
+      "No 8-K earnings exhibit is available for this company. Use the latest 10-Q/10-K figures above and do not invent release details.",
+    );
+  }
+  lines.push("");
   lines.push("## Peer context");
   lines.push(
     `Group median: P/E ${mult(peers.median.pe)}; EV/EBITDA ${mult(peers.median.evEbitda)}; revenue growth ${pct(peers.median.revenueGrowth)}; operating margin ${pct(peers.median.operatingMargin)}; ROIC ${pct(peers.median.roic)}; FCF margin ${pct(peers.median.fcfMargin)}; 1Y return ${pct(peers.median.return1y)}.`,
@@ -292,7 +349,9 @@ function packFor(ticker: string): string | null {
     }
   }
   lines.push("");
-  lines.push("## Existing bespoke editorial context (preserve the facts, do not contradict)");
+  lines.push(
+    "## Existing bespoke editorial context (preserve the facts, do not contradict)",
+  );
   if (story) {
     lines.push(`Title: ${story.title}`);
     lines.push(`Dek: ${story.dek}`);
@@ -306,7 +365,9 @@ function packFor(ticker: string): string | null {
     lines.push("### Risks already identified");
     lines.push(story.risks.intro);
     for (const risk of story.risks.items) {
-      lines.push(`- ${risk.title} (${risk.severity}): ${risk.detail} Watch: ${risk.watch}`);
+      lines.push(
+        `- ${risk.title} (${risk.severity}): ${risk.detail} Watch: ${risk.watch}`,
+      );
     }
     lines.push("");
     lines.push("### Bottom line already identified");
@@ -376,7 +437,9 @@ function main() {
   const batches: Array<{ id: string; group: string; tickers: string[] }> = [];
   let batchIndex = 0;
   for (const group of COVERAGE_GROUPS) {
-    const tickers = group.tickers.filter((ticker) => loaded.has(ticker));
+    const tickers = group.tickers.filter(
+      (ticker) => loaded.has(ticker) && (!ONLY.size || ONLY.has(ticker)),
+    );
     for (let i = 0; i < tickers.length; i += 8) {
       batchIndex += 1;
       batches.push({
@@ -387,7 +450,7 @@ function main() {
     }
   }
   let written = 0;
-  for (const ticker of RESEARCH_TICKERS) {
+  for (const ticker of ONLY.size ? [...ONLY] : RESEARCH_TICKERS) {
     const pack = packFor(ticker);
     if (!pack) continue;
     fs.writeFileSync(path.join(OUT, `${ticker}.md`), pack, "utf8");
@@ -401,4 +464,6 @@ function main() {
   console.log(`[packs] wrote ${written} packs and ${batches.length} batches`);
 }
 
-main();
+if (process.argv[1]?.includes("build-research-packs")) {
+  main();
+}

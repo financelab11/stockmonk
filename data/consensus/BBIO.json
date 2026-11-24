@@ -1,9 +1,9 @@
 {
   "ticker": "BBIO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/BBIO/analysis",
-  "targetMean": 107,
+  "targetMean": 108.7,
   "targetHigh": 156,
   "targetLow": 80,
   "recommendationKey": "strong_buy",
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 304340740,
-      "revenueGrowth": 0.97400004,
+      "revenueAvg": 304365740,
+      "revenueGrowth": 0.97410005,
       "epsAvg": -0.50398,
       "epsGrowth": 0.4632,
       "analystCount": 5
@@ -28,16 +28,16 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 338050820,
-      "revenueGrowth": 0.7379,
-      "epsAvg": -0.3675,
-      "epsGrowth": 0.5625,
-      "analystCount": 4
+      "revenueAvg": 337925740,
+      "revenueGrowth": 0.73730004,
+      "epsAvg": -0.354,
+      "epsGrowth": 0.5786,
+      "analystCount": 5
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 1097314390,
+      "revenueAvg": 1097332040,
       "revenueGrowth": 1.1855999,
       "epsAvg": -2.44578,
       "epsGrowth": 0.35369998,
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 1664692900,
-      "revenueGrowth": 0.5171,
-      "epsAvg": -0.27334,
-      "epsGrowth": 0.8882,
+      "revenueAvg": 1671337790,
+      "revenueGrowth": 0.5231,
+      "epsAvg": -0.25049,
+      "epsGrowth": 0.8976,
       "analystCount": 7
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": -0.93893,
       "epsEstimate": -0.62333,
-      "revenueActual": 154178000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": -0.84,
       "epsEstimate": -0.61667,
-      "revenueActual": 194515000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": -0.78,
       "epsEstimate": -0.58266,
-      "revenueActual": 243676000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,23 +83,23 @@
       "endDate": "2026-09-30",
       "epsActual": -0.42,
       "epsEstimate": -0.55696,
-      "revenueActual": 353171000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 304340740,
-    "revenueGrowth": 0.97400004,
+    "revenueAvg": 304365740,
+    "revenueGrowth": 0.97410005,
     "epsAvg": -0.50398,
     "epsGrowth": 0.4632,
     "analystCount": 5
   },
   "revisions": {
-    "eps7d": -0.0657830404889228,
-    "eps30d": -0.05358227725645737,
+    "eps7d": 0,
+    "eps30d": -0.0657830404889228,
     "eps60d": -0.05358227725645737,
-    "eps90d": 0.11744253516879644,
+    "eps90d": -0.08904747361128695,
     "revenue30d": null
   }
 }

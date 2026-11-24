@@ -1,7 +1,7 @@
 {
   "ticker": "IDXX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/IDXX/analysis",
   "targetMean": 717.1667,
   "targetHigh": 810,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 3.08,
       "epsEstimate": 2.93879,
-      "revenueActual": 1090579000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 3.47,
       "epsEstimate": 3.4106,
-      "revenueActual": 1140820000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 4.27,
       "epsEstimate": 3.93417,
-      "revenueActual": 1216585000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 4.01,
       "epsEstimate": 3.71356,
-      "revenueActual": 1214237000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

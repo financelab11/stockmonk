@@ -1,7 +1,7 @@
 {
   "ticker": "AMKR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/AMKR/analysis",
   "targetMean": 65.7,
   "targetHigh": 92,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.69,
       "epsEstimate": 0.44104,
-      "revenueActual": 1888046000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.33,
       "epsEstimate": 0.24337,
-      "revenueActual": 1684701000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.7,
       "epsEstimate": 0.48144,
-      "revenueActual": 1897965000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 0.76,
       "epsEstimate": 0.78441,
-      "revenueActual": 1990557000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

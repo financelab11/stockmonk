@@ -1,7 +1,7 @@
 {
   "ticker": "WTS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/WTS/analysis",
   "targetMean": 393,
   "targetHigh": 430,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 2.62,
       "epsEstimate": 2.3388,
-      "revenueActual": 625100000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 3.04,
       "epsEstimate": 2.68943,
-      "revenueActual": 677300000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 3.66,
       "epsEstimate": 3.33699,
-      "revenueActual": 763200000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 3.4,
       "epsEstimate": 3.14412,
-      "revenueActual": 728000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

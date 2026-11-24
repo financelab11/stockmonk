@@ -1,11 +1,11 @@
 {
   "ticker": "SPOT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/SPOT/analysis",
-  "targetMean": 634.5761,
-  "targetHigh": 734.0461,
-  "targetLow": 449.45834,
+  "targetMean": 636.30164,
+  "targetHigh": 745.2759,
+  "targetLow": 449.60626,
   "recommendationKey": "buy",
   "analystCount": 38,
   "distribution": {
@@ -37,7 +37,7 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 19507574330,
+      "revenueAvg": 19507991240,
       "revenueGrowth": 0.1351,
       "epsAvg": 11.8587,
       "epsGrowth": 0.1283,
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 22418882310,
-      "revenueGrowth": 0.1492,
+      "revenueAvg": 22424720140,
+      "revenueGrowth": 0.1495,
       "epsAvg": 15.23555,
       "epsGrowth": 0.2848,
       "analystCount": 28
@@ -97,8 +97,8 @@
   },
   "revisions": {
     "eps7d": 0,
-    "eps30d": -0.029843358975218948,
-    "eps60d": -0.034641919531106846,
+    "eps30d": -0.008403572145293858,
+    "eps60d": -0.033943579704725835,
     "eps90d": -0.0348619074554104,
     "revenue30d": null
   }

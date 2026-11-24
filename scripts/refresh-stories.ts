@@ -229,6 +229,7 @@ function refreshStory(story: StockStory, bundle: ResearchBundle): StockStory {
           : `No attributed third-party consensus snapshot is available for this company in the current dataset, so no target or estimate range is shown.`,
       ),
     },
+    narrativeUpdatedAt: new Date().toISOString().slice(0, 10),
   };
 }
 
@@ -255,7 +256,8 @@ for (const [ticker, story] of Object.entries(STOCK_STORIES)) {
   if (ONLY && ticker !== ONLY) continue;
   if (
     (story.narrativeSource === "handwritten" ||
-      story.narrativeSource === "curated") &&
+      story.narrativeSource === "curated" ||
+      story.narrativeSource === "auto-curated") &&
     !ONLY &&
     !FORCE
   ) {

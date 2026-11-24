@@ -1,7 +1,7 @@
 {
   "ticker": "MNDY",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/MNDY/analysis",
   "targetMean": 100.92696,
   "targetHigh": 165,
@@ -21,7 +21,7 @@
       "endDate": "2026-12-31",
       "revenueAvg": 381141280,
       "revenueGrowth": 0.1416,
-      "epsAvg": 0.71,
+      "epsAvg": 0.86,
       "epsGrowth": null,
       "analystCount": 3
     },
@@ -30,7 +30,7 @@
       "endDate": "2027-03-31",
       "revenueAvg": 397321400,
       "revenueGrowth": 0.1311,
-      "epsAvg": 0.7,
+      "epsAvg": 0.9,
       "epsGrowth": null,
       "analystCount": 3
     },
@@ -91,7 +91,7 @@
     "endDate": "2026-12-31",
     "revenueAvg": 381141280,
     "revenueGrowth": 0.1416,
-    "epsAvg": 0.71,
+    "epsAvg": 0.86,
     "epsGrowth": null,
     "analystCount": 3
   },

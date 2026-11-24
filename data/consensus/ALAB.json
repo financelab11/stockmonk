@@ -1,13 +1,13 @@
 {
   "ticker": "ALAB",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/ALAB/analysis",
-  "targetMean": 344.1467,
+  "targetMean": 348.39178,
   "targetHigh": 500,
   "targetLow": 225,
   "recommendationKey": "buy",
-  "analystCount": 22,
+  "analystCount": 21,
   "distribution": {
     "strongBuy": 6,
     "buy": 12,
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 3387596390,
-      "revenueGrowth": 0.6707,
-      "epsAvg": 7.15194,
-      "epsGrowth": 0.6325,
+      "revenueAvg": 3437057110,
+      "revenueGrowth": 0.6951,
+      "epsAvg": 7.23736,
+      "epsGrowth": 0.65199995,
       "analystCount": 24
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.58,
       "epsEstimate": 0.51492,
-      "revenueActual": 270583000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.61,
       "epsEstimate": 0.53761,
-      "revenueActual": 308361000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.8,
       "epsEstimate": 0.69195,
-      "revenueActual": 392400000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 1.32,
       "epsEstimate": 1.19211,
-      "revenueActual": 584899000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,7 +96,7 @@
     "analystCount": 22
   },
   "revisions": {
-    "eps7d": 0.07977147589307276,
+    "eps7d": 0.10106084862863773,
     "eps30d": 0.0847254513086777,
     "eps60d": 0.0847254513086777,
     "eps90d": 0.08466636791506876,

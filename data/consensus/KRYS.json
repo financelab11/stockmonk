@@ -1,7 +1,7 @@
 {
   "ticker": "KRYS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/KRYS/analysis",
   "targetMean": 388.22223,
   "targetHigh": 474,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.7,
       "epsEstimate": 1.60667,
-      "revenueActual": 107105000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.83,
       "epsEstimate": 1.41892,
-      "revenueActual": 116357000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 1.79,
       "epsEstimate": 1.91436,
-      "revenueActual": 119222000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 2.05,
       "epsEstimate": 1.91809,
-      "revenueActual": 127341000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -97,7 +97,7 @@
   },
   "revisions": {
     "eps7d": 0,
-    "eps30d": 0.051010541645073904,
+    "eps30d": 0.05566969009726552,
     "eps60d": 0.01854910382234376,
     "eps90d": 0.01854910382234376,
     "revenue30d": null

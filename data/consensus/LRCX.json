@@ -1,9 +1,9 @@
 {
   "ticker": "LRCX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/LRCX/analysis",
-  "targetMean": 362.1,
+  "targetMean": 360.43332,
   "targetHigh": 500,
   "targetLow": 255,
   "recommendationKey": "strong_buy",
@@ -21,8 +21,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 8643520980,
       "revenueGrowth": 0.6172,
-      "epsAvg": 2.34922,
-      "epsGrowth": 0.84980005,
+      "epsAvg": 2.34941,
+      "epsGrowth": 0.8499,
       "analystCount": 26
     },
     {
@@ -30,8 +30,8 @@
       "endDate": "2027-03-31",
       "revenueAvg": 9015155490,
       "revenueGrowth": 0.54330003,
-      "epsAvg": 2.47929,
-      "epsGrowth": 0.6866,
+      "epsAvg": 2.47975,
+      "epsGrowth": 0.6869,
       "analystCount": 26
     },
     {
@@ -39,8 +39,8 @@
       "endDate": "2027-06-30",
       "revenueAvg": 35393246530,
       "revenueGrowth": 0.5234,
-      "epsAvg": 9.65443,
-      "epsGrowth": 0.65879995,
+      "epsAvg": 9.65557,
+      "epsGrowth": 0.65900004,
       "analystCount": 31
     },
     {
@@ -48,8 +48,8 @@
       "endDate": "2028-06-30",
       "revenueAvg": 42684682940,
       "revenueGrowth": 0.206,
-      "epsAvg": 12.2724,
-      "epsGrowth": 0.2712,
+      "epsAvg": 12.25681,
+      "epsGrowth": 0.2694,
       "analystCount": 28
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.27,
       "epsEstimate": 1.16837,
-      "revenueActual": 5344791000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.47,
       "epsEstimate": 1.3628,
-      "revenueActual": 5841488000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 1.82,
       "epsEstimate": 1.68363,
-      "revenueActual": 6722238000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 2.2,
       "epsEstimate": 2.17953,
-      "revenueActual": 8219418000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 8643520980,
     "revenueGrowth": 0.6172,
-    "epsAvg": 2.34922,
-    "epsGrowth": 0.84980005,
+    "epsAvg": 2.34941,
+    "epsGrowth": 0.8499,
     "analystCount": 26
   },
   "revisions": {
-    "eps7d": 0.00010048210693347492,
-    "eps30d": 0.018663051104979456,
-    "eps60d": 0.019571005089179305,
-    "eps90d": 0.020586298282501803,
+    "eps7d": 0.00021857448003093083,
+    "eps30d": 0.0028645646702998295,
+    "eps60d": 0.019831407685621194,
+    "eps90d": 0.020706809631182432,
     "revenue30d": null
   }
 }

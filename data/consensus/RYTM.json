@@ -1,9 +1,9 @@
 {
   "ticker": "RYTM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/RYTM/analysis",
-  "targetMean": 140.11765,
+  "targetMean": 139.76471,
   "targetHigh": 168,
   "targetLow": 112,
   "recommendationKey": "strong_buy",
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": -0.73,
       "epsEstimate": -0.77971,
-      "revenueActual": 57253000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": -0.83,
       "epsEstimate": -0.86111,
-      "revenueActual": 60112000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": -0.73,
       "epsEstimate": -0.83287,
-      "revenueActual": 71255000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": -0.61,
       "epsEstimate": -0.70877,
-      "revenueActual": 92128000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,9 +96,9 @@
     "analystCount": 12
   },
   "revisions": {
-    "eps7d": 0.6216931912265253,
-    "eps30d": 0.5920461875886982,
-    "eps60d": 0.6054264675270606,
+    "eps7d": 0,
+    "eps30d": 0.6215067327623871,
+    "eps60d": 0.5920461875886982,
     "eps90d": 0.6078424985504602,
     "revenue30d": null
   }

@@ -1,10 +1,10 @@
 {
   "ticker": "NEE",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/NEE/analysis",
-  "targetMean": 94.10526,
-  "targetHigh": 110,
+  "targetMean": 94.47368,
+  "targetHigh": 117,
   "targetLow": 56,
   "recommendationKey": "buy",
   "analystCount": 19,
@@ -21,8 +21,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 7956596850,
       "revenueGrowth": 0.2241,
-      "epsAvg": 0.57344,
-      "epsGrowth": 0.0619,
+      "epsAvg": 0.5726,
+      "epsGrowth": 0.060399998,
       "analystCount": 12
     },
     {
@@ -30,26 +30,26 @@
       "endDate": "2027-03-31",
       "revenueAvg": 7815689160,
       "revenueGrowth": 0.1663,
-      "epsAvg": 1.08638,
-      "epsGrowth": -0.0033000002,
+      "epsAvg": 1.10083,
+      "epsGrowth": 0.0099,
       "analystCount": 9
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 30592572850,
-      "revenueGrowth": 0.116000004,
-      "epsAvg": 4.02862,
-      "epsGrowth": 0.0859,
+      "revenueAvg": 30529695620,
+      "revenueGrowth": 0.1137,
+      "epsAvg": 4.02912,
+      "epsGrowth": 0.086,
       "analystCount": 20
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 34240286520,
-      "revenueGrowth": 0.1192,
-      "epsAvg": 4.37527,
-      "epsGrowth": 0.086,
+      "revenueAvg": 34245544540,
+      "revenueGrowth": 0.121700004,
+      "epsAvg": 4.37701,
+      "epsGrowth": 0.0863,
       "analystCount": 23
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.54,
       "epsEstimate": 0.52722,
-      "revenueActual": 6100000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.09,
       "epsEstimate": 1.03156,
-      "revenueActual": 6100000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 7956596850,
     "revenueGrowth": 0.2241,
-    "epsAvg": 0.57344,
-    "epsGrowth": 0.0619,
+    "epsAvg": 0.5726,
+    "epsGrowth": 0.060399998,
     "analystCount": 12
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": -0.0015910622943019481,
-    "eps60d": -0.005806793924213127,
-    "eps90d": -0.005288836653465134,
+    "eps7d": 0.00012411197879158564,
+    "eps30d": -0.0013310232520096221,
+    "eps60d": -0.00542323177218984,
+    "eps90d": -0.004907396659413865,
     "revenue30d": null
   }
 }

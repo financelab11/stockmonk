@@ -1,0 +1,5496 @@
+{
+  "generatedAt": "2026-11-24T20:13:30.484Z",
+  "total": 229,
+  "counts": {
+    "current": 226,
+    "rewrite-pending": 0,
+    "data-stale": 0,
+    "source-gap": 3
+  },
+  "tickers": {
+    "NVDA": {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-26",
+        "reportDate": "2026-07-26",
+        "accession": "0001045810-26-000075",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-26",
+        "accession": "0001045810-26-000073"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-01-25",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.437Z"
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-28",
+        "reportDate": "2026-09-30",
+        "accession": "0001193125-26-436133",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0001193125-26-436122"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-06-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.458Z"
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q4 FY26",
+      "latestFiling": {
+        "form": "10-K",
+        "filed": "2026-11-03",
+        "reportDate": "2026-09-26",
+        "accession": "0000320193-26-000026",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-02",
+        "accession": "0000320193-26-000024"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-09-26",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.473Z"
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "reportDate": "2026-09-30",
+        "accession": "0001652044-26-000084",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0001652044-26-000080"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.498Z"
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "reportDate": "2026-09-30",
+        "accession": "0001018724-26-000040",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0001018724-26-000038"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.523Z"
+    },
+    "META": {
+      "ticker": "META",
+      "name": "Meta Platforms, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-22",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-066773",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-21",
+        "accession": "0001628280-26-066700"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.543Z"
+    },
+    "AVGO": {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-09-10",
+        "reportDate": "2026-08-02",
+        "accession": "0001730168-26-000080",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-09-02",
+        "accession": "0001730168-26-000076"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-11-02",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.569Z"
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-22",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-066775",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-21",
+        "accession": "0001628280-26-066738"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.589Z"
+    },
+    "LLY": {
+      "ticker": "LLY",
+      "name": "Eli Lilly and Company",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "reportDate": "2026-09-30",
+        "accession": "0000059478-26-000108",
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0000059478-26-000104"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.604Z"
+    },
+    "JPM": {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-069523",
+        "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/jpm-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-13",
+        "accession": "0001628280-26-065582"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.622Z"
+    },
+    "ORCL": {
+      "ticker": "ORCL",
+      "name": "Oracle Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-09-11",
+        "reportDate": "2026-08-31",
+        "accession": "0001193125-26-389274",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-09-10",
+        "accession": "0001193125-26-387905"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-05-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.629Z"
+    },
+    "AMD": {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-26",
+        "accession": "0000002488-26-000191",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-03",
+        "accession": "0000002488-26-000188"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-27",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.654Z"
+    },
+    "MU": {
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q4 FY26",
+      "latestFiling": {
+        "form": "10-K",
+        "filed": "2026-10-09",
+        "reportDate": "2026-09-03",
+        "accession": "0000723125-26-000023",
+        "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-09-30",
+        "accession": "0000723125-26-000018"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-09-03",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.666Z"
+    },
+    "AMAT": {
+      "ticker": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-20",
+        "reportDate": "2026-07-26",
+        "accession": "0001628280-26-058235",
+        "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-13",
+        "accession": "0001628280-26-056699"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-10-26",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.690Z"
+    },
+    "LRCX": {
+      "ticker": "LRCX",
+      "name": "Lam Research Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-22",
+        "reportDate": "2026-09-27",
+        "accession": "0000707549-26-000054",
+        "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000054/lrcx-20260927.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-21",
+        "accession": "0000707549-26-000052"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-06-28",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.708Z"
+    },
+    "KLAC": {
+      "ticker": "KLAC",
+      "name": "KLA Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "reportDate": "2026-09-30",
+        "accession": "0000319201-26-000034",
+        "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000034/klac-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0000319201-26-000032"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-06-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.726Z"
+    },
+    "ANET": {
+      "ticker": "ANET",
+      "name": "Arista Networks, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0001596532-26-000254",
+        "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000254/anet-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-03",
+        "accession": "0001596532-26-000252"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.735Z"
+    },
+    "CDNS": {
+      "ticker": "CDNS",
+      "name": "Cadence Design Systems, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-28",
+        "reportDate": "2026-09-30",
+        "accession": "0000813672-26-000121",
+        "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000121/cdns-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-26",
+        "accession": "0000813672-26-000116"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.744Z"
+    },
+    "SNPS": {
+      "ticker": "SNPS",
+      "name": "Synopsys, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-26",
+        "reportDate": "2026-07-31",
+        "accession": "0000883241-26-000025",
+        "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-26",
+        "accession": "0001193125-26-368620"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-10-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.759Z"
+    },
+    "NOW": {
+      "ticker": "NOW",
+      "name": "ServiceNow, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-28",
+        "reportDate": "2026-09-30",
+        "accession": "0001373715-26-000096",
+        "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000096/now-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0001373715-26-000092"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.778Z"
+    },
+    "PANW": {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q4 FY26",
+      "latestFiling": {
+        "form": "10-K",
+        "filed": "2026-09-10",
+        "reportDate": "2026-07-31",
+        "accession": "0001327567-26-000023",
+        "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000023/panw-20260731.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-09-01",
+        "accession": "0001327567-26-000019"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-07-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.795Z"
+    },
+    "CRWD": {
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-27",
+        "reportDate": "2026-07-31",
+        "accession": "0001535527-26-000031",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000031/crwd-20260731.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-26",
+        "accession": "0001535527-26-000029"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-01-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.812Z"
+    },
+    "INTU": {
+      "ticker": "INTU",
+      "name": "Intuit Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q4 FY26",
+      "latestFiling": {
+        "form": "10-K",
+        "filed": "2026-09-09",
+        "reportDate": "2026-07-31",
+        "accession": "0000896878-26-000037",
+        "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-25",
+        "accession": "0000896878-26-000029"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-07-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.835Z"
+    },
+    "APH": {
+      "ticker": "APH",
+      "name": "Amphenol Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "reportDate": "2026-09-30",
+        "accession": "0001104659-26-120646",
+        "url": "https://www.sec.gov/Archives/edgar/data/820313/000110465926120646/aph-20260930x10q.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0001104659-26-119421"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.844Z"
+    },
+    "PLTR": {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "reportDate": "2026-09-30",
+        "accession": "0001321655-26-000048",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-02",
+        "accession": "0001321655-26-000045"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.855Z"
+    },
+    "ADI": {
+      "ticker": "ADI",
+      "name": "Analog Devices, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-19",
+        "reportDate": "2026-08-01",
+        "accession": "0000006281-26-000073",
+        "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000073/adi-20260801.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-19",
+        "accession": "0000006281-26-000072"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-11-01",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.862Z"
+    },
+    "FICO": {
+      "ticker": "FICO",
+      "name": "Fair Isaac Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q4 FY26",
+      "latestFiling": {
+        "form": "10-K",
+        "filed": "2026-11-06",
+        "reportDate": "2026-09-30",
+        "accession": "0000814547-26-000042",
+        "url": "https://www.sec.gov/Archives/edgar/data/814547/000081454726000042/fico-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0000814547-26-000037"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-09-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.873Z"
+    },
+    "ADBE": {
+      "ticker": "ADBE",
+      "name": "Adobe Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-09-22",
+        "reportDate": "2026-08-28",
+        "accession": "0000796343-26-000156",
+        "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000156/adbe-20260828.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-09-10",
+        "accession": "0000796343-26-000147"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-11-28",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.890Z"
+    },
+    "CRM": {
+      "ticker": "CRM",
+      "name": "Salesforce, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-27",
+        "reportDate": "2026-07-31",
+        "accession": "0001108524-26-000190",
+        "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000190/crm-20260731.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-26",
+        "accession": "0001108524-26-000187"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-01-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.898Z"
+    },
+    "CSCO": {
+      "ticker": "CSCO",
+      "name": "Cisco Systems, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q4 FY26",
+      "latestFiling": {
+        "form": "10-K",
+        "filed": "2026-09-02",
+        "reportDate": "2026-07-25",
+        "accession": "0000858877-26-000132",
+        "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-12",
+        "accession": "0000858877-26-000106"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-07-25",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.908Z"
+    },
+    "DELL": {
+      "ticker": "DELL",
+      "name": "Dell Technologies Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-09-08",
+        "reportDate": "2026-07-31",
+        "accession": "0001571996-26-000046",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-09-01",
+        "accession": "0001571996-26-000039"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-01-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.922Z"
+    },
+    "HPQ": {
+      "ticker": "HPQ",
+      "name": "HP Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-27",
+        "reportDate": "2026-07-31",
+        "accession": "0000047217-26-000051",
+        "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721726000051/hpq-20260731.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-26",
+        "accession": "0000047217-26-000048"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-10-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.928Z"
+    },
+    "IBM": {
+      "ticker": "IBM",
+      "name": "International Business Machines Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-22",
+        "reportDate": "2026-09-30",
+        "accession": "0000051143-26-000095",
+        "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000095/ibm-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-21",
+        "accession": "0000051143-26-000093"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.939Z"
+    },
+    "INTC": {
+      "ticker": "INTC",
+      "name": "Intel Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "reportDate": "2026-09-26",
+        "accession": "0000050863-26-000191",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0000050863-26-000188"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-27",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.956Z"
+    },
+    "QCOM": {
+      "ticker": "QCOM",
+      "name": "QUALCOMM Incorporated",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q4 FY26",
+      "latestFiling": {
+        "form": "10-K",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-27",
+        "accession": "0000804328-26-000128",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0000804328-26-000127"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-09-27",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.973Z"
+    },
+    "TXN": {
+      "ticker": "TXN",
+      "name": "Texas Instruments Incorporated",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-23",
+        "reportDate": "2026-09-30",
+        "accession": "0000097476-26-000169",
+        "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000169/txn-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-21",
+        "accession": "0000097476-26-000165"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:26.987Z"
+    },
+    "DDOG": {
+      "ticker": "DDOG",
+      "name": "Datadog, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-070292",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026070292/ddog-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0001628280-26-069792"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.005Z"
+    },
+    "SNOW": {
+      "ticker": "SNOW",
+      "name": "Snowflake Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-09-04",
+        "reportDate": "2026-07-31",
+        "accession": "0001640147-26-000037",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000037/snow-20260731.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-09-02",
+        "accession": "0001640147-26-000033"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-01-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.023Z"
+    },
+    "NFLX": {
+      "ticker": "NFLX",
+      "name": "Netflix, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-21",
+        "reportDate": "2026-09-30",
+        "accession": "0001065280-26-000291",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000291/nflx-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-20",
+        "accession": "0001065280-26-000290"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.040Z"
+    },
+    "TMUS": {
+      "ticker": "TMUS",
+      "name": "T-Mobile US, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-28",
+        "reportDate": "2026-09-30",
+        "accession": "0001283699-26-000129",
+        "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369926000129/tmus-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0001283699-26-000128"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.056Z"
+    },
+    "DIS": {
+      "ticker": "DIS",
+      "name": "The Walt Disney Company",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "reportDate": "2026-06-27",
+        "accession": "0001744489-26-000057",
+        "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/dis-20260627.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-05",
+        "accession": "0001744489-26-000056"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-09-27",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.075Z"
+    },
+    "CMCSA": {
+      "ticker": "CMCSA",
+      "name": "Comcast Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-22",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-066863",
+        "url": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026066863/cmcsa-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-22",
+        "accession": "0001628280-26-066783"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.096Z"
+    },
+    "SPOT": {
+      "ticker": "SPOT",
+      "name": "Spotify Technology S.A.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": null,
+      "latestFiling": {
+        "form": "20-F",
+        "filed": "2026-02-10",
+        "reportDate": "2025-12-31",
+        "accession": "0001628280-26-006874",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+        "items": ""
+      },
+      "earnings": null,
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": null,
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.121Z"
+    },
+    "PINS": {
+      "ticker": "PINS",
+      "name": "Pinterest, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "reportDate": "2026-09-30",
+        "accession": "0001506293-26-000153",
+        "url": "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000153/pins-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0001506293-26-000151"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.147Z"
+    },
+    "HD": {
+      "ticker": "HD",
+      "name": "The Home Depot, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-25",
+        "reportDate": "2026-08-02",
+        "accession": "0001628280-26-058715",
+        "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026058715/hd-20260802.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-18",
+        "accession": "0000354950-26-000145"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-02-01",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.161Z"
+    },
+    "LOW": {
+      "ticker": "LOW",
+      "name": "Lowe's Companies, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-27",
+        "reportDate": "2026-07-31",
+        "accession": "0000060667-26-000117",
+        "url": "https://www.sec.gov/Archives/edgar/data/60667/000006066726000117/low-20260731.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-19",
+        "accession": "0000060667-26-000113"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-01-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.189Z"
+    },
+    "MCD": {
+      "ticker": "MCD",
+      "name": "McDonald's Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-06",
+        "reportDate": "2026-09-30",
+        "accession": "0000063908-26-000083",
+        "url": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000083/mcd-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0000063908-26-000080"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.207Z"
+    },
+    "BKNG": {
+      "ticker": "BKNG",
+      "name": "Booking Holdings Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "reportDate": "2026-09-30",
+        "accession": "0001075531-26-000045",
+        "url": "https://www.sec.gov/Archives/edgar/data/1075531/000107553126000045/bkng-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-03",
+        "accession": "0001075531-26-000044"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.215Z"
+    },
+    "TJX": {
+      "ticker": "TJX",
+      "name": "The TJX Companies, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-28",
+        "reportDate": "2026-08-01",
+        "accession": "0000109198-26-000048",
+        "url": "https://www.sec.gov/Archives/edgar/data/109198/000010919826000048/tjx-20260801.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-19",
+        "accession": "0000109198-26-000045"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-01-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.225Z"
+    },
+    "ORLY": {
+      "ticker": "ORLY",
+      "name": "O'Reilly Automotive, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-06",
+        "reportDate": "2026-09-30",
+        "accession": "0000898173-26-000053",
+        "url": "https://www.sec.gov/Archives/edgar/data/898173/000089817326000053/orly-20260930x10q.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0000898173-26-000050"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.240Z"
+    },
+    "RCL": {
+      "ticker": "RCL",
+      "name": "Royal Caribbean Cruises Ltd.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-27",
+        "reportDate": "2026-09-30",
+        "accession": "0000884887-26-000044",
+        "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000044/rcl-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-27",
+        "accession": "0000884887-26-000042"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.248Z"
+    },
+    "CMG": {
+      "ticker": "CMG",
+      "name": "Chipotle Mexican Grill, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "reportDate": "2026-09-30",
+        "accession": "0001058090-26-000104",
+        "url": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000104/cmg-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0001058090-26-000103"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.257Z"
+    },
+    "DHI": {
+      "ticker": "DHI",
+      "name": "D.R. Horton, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-07-23",
+        "reportDate": "2026-06-30",
+        "accession": "0000882184-26-000096",
+        "url": "https://www.sec.gov/Archives/edgar/data/882184/000088218426000096/dhi-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0000882184-26-000119"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-09-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.278Z"
+    },
+    "ABNB": {
+      "ticker": "ABNB",
+      "name": "Airbnb, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001559720-26-000032",
+        "url": "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0001193125-26-449727"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.299Z"
+    },
+    "UBER": {
+      "ticker": "UBER",
+      "name": "Uber Technologies, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0001543151-26-000041",
+        "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/uber-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0001543151-26-000039"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.325Z"
+    },
+    "SHOP": {
+      "ticker": "SHOP",
+      "name": "Shopify Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "reportDate": "2026-09-30",
+        "accession": "0001594805-26-000068",
+        "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000068/shop-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-03",
+        "accession": "0001594805-26-000067"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.341Z"
+    },
+    "COST": {
+      "ticker": "COST",
+      "name": "Costco Wholesale Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q4 FY26",
+      "latestFiling": {
+        "form": "10-K",
+        "filed": "2026-10-07",
+        "reportDate": "2026-08-30",
+        "accession": "0000909832-26-000093",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-09-24",
+        "accession": "0000909832-26-000084"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-08-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.357Z"
+    },
+    "WMT": {
+      "ticker": "WMT",
+      "name": "Walmart Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-28",
+        "reportDate": "2026-07-31",
+        "accession": "0000104169-26-000154",
+        "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-20",
+        "accession": "0000104169-26-000145"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-01-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.379Z"
+    },
+    "PG": {
+      "ticker": "PG",
+      "name": "The Procter & Gamble Company",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-22",
+        "reportDate": "2026-09-30",
+        "accession": "0000080424-26-000256",
+        "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000256/pg-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-22",
+        "accession": "0000080424-26-000250"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-06-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.400Z"
+    },
+    "KO": {
+      "ticker": "KO",
+      "name": "The Coca-Cola Company",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-28",
+        "reportDate": "2026-10-02",
+        "accession": "0001628280-26-067844",
+        "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026067844/ko-20261002.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-27",
+        "accession": "0001628280-26-067403"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.410Z"
+    },
+    "PM": {
+      "ticker": "PM",
+      "name": "Philip Morris International Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-23",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-066976",
+        "url": "https://www.sec.gov/Archives/edgar/data/1413329/000162828026066976/pm-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-21",
+        "accession": "0001628280-26-066596"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.427Z"
+    },
+    "CL": {
+      "ticker": "CL",
+      "name": "Colgate-Palmolive Company",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "reportDate": "2026-09-30",
+        "accession": "0000021665-26-000048",
+        "url": "https://www.sec.gov/Archives/edgar/data/21665/000002166526000048/cl-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-30",
+        "accession": "0000021665-26-000047"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.441Z"
+    },
+    "PEP": {
+      "ticker": "PEP",
+      "name": "PepsiCo, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-08",
+        "reportDate": "2026-09-05",
+        "accession": "0000077476-26-000048",
+        "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000048/pep-20260905.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-08",
+        "accession": "0000077476-26-000050"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-27",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.457Z"
+    },
+    "JNJ": {
+      "ticker": "JNJ",
+      "name": "Johnson & Johnson",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-21",
+        "reportDate": "2026-09-27",
+        "accession": "0000200406-26-000197",
+        "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000197/jnj-20260927.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-13",
+        "accession": "0000200406-26-000189"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-28",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.474Z"
+    },
+    "ABBV": {
+      "ticker": "ABBV",
+      "name": "AbbVie Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "reportDate": "2026-09-30",
+        "accession": "0001551152-26-000037",
+        "url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000037/abbv-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-30",
+        "accession": "0001551152-26-000033"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.491Z"
+    },
+    "ISRG": {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-21",
+        "reportDate": "2026-09-30",
+        "accession": "0001035267-26-000071",
+        "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000071/isrg-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-20",
+        "accession": "0001035267-26-000067"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.509Z"
+    },
+    "TMO": {
+      "ticker": "TMO",
+      "name": "Thermo Fisher Scientific Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "reportDate": "2026-09-26",
+        "accession": "0000097745-26-000179",
+        "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000179/tmo-20260926.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-21",
+        "accession": "0000097745-26-000173"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.523Z"
+    },
+    "VRTX": {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals Incorporated",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "reportDate": "2026-09-30",
+        "accession": "0000875320-26-000291",
+        "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000291/vrtx-20260930.htm",
+        "items": ""
+      },
+      "earnings": null,
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.549Z"
+    },
+    "ABT": {
+      "ticker": "ABT",
+      "name": "Abbott Laboratories",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-070154",
+        "url": "https://www.sec.gov/Archives/edgar/data/1800/000162828026070154/abt-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-21",
+        "accession": "0001628280-26-066601"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.558Z"
+    },
+    "BSX": {
+      "ticker": "BSX",
+      "name": "Boston Scientific Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-02",
+        "reportDate": "2026-09-30",
+        "accession": "0000885725-26-000070",
+        "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000070/bsx-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0000885725-26-000066"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.566Z"
+    },
+    "SYK": {
+      "ticker": "SYK",
+      "name": "Stryker Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "reportDate": "2026-09-30",
+        "accession": "0000310764-26-000061",
+        "url": "https://www.sec.gov/Archives/edgar/data/310764/000031076426000061/syk-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0000310764-26-000059"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.590Z"
+    },
+    "MRK": {
+      "ticker": "MRK",
+      "name": "Merck & Co., Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0000310158-26-000248",
+        "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000248/mrk-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0001104659-26-119825"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.607Z"
+    },
+    "REGN": {
+      "ticker": "REGN",
+      "name": "Regeneron Pharmaceuticals, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "reportDate": "2026-09-30",
+        "accession": "0000872589-26-000034",
+        "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000034/regn-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-30",
+        "accession": "0000872589-26-000032"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.631Z"
+    },
+    "ZTS": {
+      "ticker": "ZTS",
+      "name": "Zoetis Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001555280-26-000050",
+        "url": "https://www.sec.gov/Archives/edgar/data/1555280/000155528026000050/zts-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0001555280-26-000048"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.648Z"
+    },
+    "IDXX": {
+      "ticker": "IDXX",
+      "name": "IDEXX Laboratories, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-02",
+        "reportDate": "2026-09-30",
+        "accession": "0000874716-26-000135",
+        "url": "https://www.sec.gov/Archives/edgar/data/874716/000087471626000135/idxx-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-02",
+        "accession": "0001104659-26-120892"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.665Z"
+    },
+    "PFE": {
+      "ticker": "PFE",
+      "name": "Pfizer Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "reportDate": "2026-09-27",
+        "accession": "0000078003-26-000127",
+        "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/pfe-20260927.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-03",
+        "accession": "0000078003-26-000125"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.690Z"
+    },
+    "UNH": {
+      "ticker": "UNH",
+      "name": "UnitedHealth Group Incorporated",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "reportDate": "2026-09-30",
+        "accession": "0000731766-26-000266",
+        "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000266/unh-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-13",
+        "accession": "0000731766-26-000255"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.712Z"
+    },
+    "BAC": {
+      "ticker": "BAC",
+      "name": "Bank of America Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "reportDate": "2026-09-30",
+        "accession": "0000070858-26-000548",
+        "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/bac-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-14",
+        "accession": "0000070858-26-000481"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.743Z"
+    },
+    "GS": {
+      "ticker": "GS",
+      "name": "The Goldman Sachs Group, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-02",
+        "reportDate": "2026-09-30",
+        "accession": "0000886982-26-000532",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000532/gs-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-13",
+        "accession": "0000886982-26-000529"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.764Z"
+    },
+    "MS": {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0000895421-26-000293",
+        "url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000293/ms-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-14",
+        "accession": "0000895421-26-000288"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.788Z"
+    },
+    "V": {
+      "ticker": "V",
+      "name": "Visa Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q4 FY26",
+      "latestFiling": {
+        "form": "10-K",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001403161-26-000134",
+        "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-27",
+        "accession": "0001403161-26-000126"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-09-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.812Z"
+    },
+    "MA": {
+      "ticker": "MA",
+      "name": "Mastercard Incorporated",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "reportDate": "2026-09-30",
+        "accession": "0001141391-26-000124",
+        "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/ma-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0001141391-26-000122"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.830Z"
+    },
+    "BRK.B": {
+      "ticker": "BRK.B",
+      "name": "Berkshire Hathaway Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-10",
+        "reportDate": "2026-06-30",
+        "accession": "0001193125-26-341032",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/brka-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-11",
+        "accession": "0001193125-26-344495"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.840Z"
+    },
+    "SPGI": {
+      "ticker": "SPGI",
+      "name": "S&P Global Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-28",
+        "reportDate": "2026-09-30",
+        "accession": "0000064040-26-000058",
+        "url": "https://www.sec.gov/Archives/edgar/data/64040/000006404026000058/spgi-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-27",
+        "accession": "0000064040-26-000053"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.857Z"
+    },
+    "BLK": {
+      "ticker": "BLK",
+      "name": "BlackRock, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0001193125-26-447043",
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526447043/blk-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-14",
+        "accession": "0001193125-26-420979"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.874Z"
+    },
+    "AXP": {
+      "ticker": "AXP",
+      "name": "American Express Company",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-23",
+        "reportDate": "2026-09-30",
+        "accession": "0000004962-26-000409",
+        "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/axp-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-23",
+        "accession": "0000004962-26-000405"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.894Z"
+    },
+    "SCHW": {
+      "ticker": "SCHW",
+      "name": "The Charles Schwab Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-06",
+        "reportDate": "2026-09-30",
+        "accession": "0000316709-26-000038",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000038/schw-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-15",
+        "accession": "0000316709-26-000035"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.915Z"
+    },
+    "CB": {
+      "ticker": "CB",
+      "name": "Chubb Limited",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-28",
+        "reportDate": "2026-09-30",
+        "accession": "0000896159-26-000021",
+        "url": "https://www.sec.gov/Archives/edgar/data/896159/000089615926000021/cb-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-20",
+        "accession": "0001193125-26-426866"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.966Z"
+    },
+    "PGR": {
+      "ticker": "PGR",
+      "name": "The Progressive Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-02",
+        "reportDate": "2026-09-30",
+        "accession": "0000080661-26-000379",
+        "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000379/pgr-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-14",
+        "accession": "0000080661-26-000367"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:27.975Z"
+    },
+    "ICE": {
+      "ticker": "ICE",
+      "name": "Intercontinental Exchange, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "reportDate": "2026-09-30",
+        "accession": "0001571949-26-000015",
+        "url": "https://www.sec.gov/Archives/edgar/data/1571949/000157194926000015/ice-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0001104659-26-119880"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.005Z"
+    },
+    "CME": {
+      "ticker": "CME",
+      "name": "CME Group Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-23",
+        "reportDate": "2026-09-30",
+        "accession": "0001156375-26-000068",
+        "url": "https://www.sec.gov/Archives/edgar/data/1156375/000115637526000068/cme-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-21",
+        "accession": "0001156375-26-000065"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.013Z"
+    },
+    "AIG": {
+      "ticker": "AIG",
+      "name": "American International Group, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0000005272-26-000104",
+        "url": "https://www.sec.gov/Archives/edgar/data/5272/000000527226000104/aig-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-03",
+        "accession": "0000005272-26-000101"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.024Z"
+    },
+    "C": {
+      "ticker": "C",
+      "name": "Citigroup Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q4 FY25",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0000831001-26-000056",
+        "url": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000056/c-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-13",
+        "accession": "0001104659-26-115323"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.032Z"
+    },
+    "WFC": {
+      "ticker": "WFC",
+      "name": "Wells Fargo & Company",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-28",
+        "reportDate": "2026-09-30",
+        "accession": "0000072971-26-000327",
+        "url": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000327/wfc-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-13",
+        "accession": "0000072971-26-000318"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.041Z"
+    },
+    "GE": {
+      "ticker": "GE",
+      "name": "GE Aerospace",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-20",
+        "reportDate": "2026-09-30",
+        "accession": "0000040545-26-000064",
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000064/ge-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-20",
+        "accession": "0000040545-26-000063"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.048Z"
+    },
+    "GEV": {
+      "ticker": "GEV",
+      "name": "GE Vernova Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-28",
+        "reportDate": "2026-09-30",
+        "accession": "0001996810-26-000163",
+        "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000163/gev-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0001996810-26-000162"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.072Z"
+    },
+    "CAT": {
+      "ticker": "CAT",
+      "name": "Caterpillar Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0000018230-26-000057",
+        "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/cat-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0000018230-26-000052"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": null,
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.078Z"
+    },
+    "RTX": {
+      "ticker": "RTX",
+      "name": "RTX Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-20",
+        "reportDate": "2026-09-30",
+        "accession": "0000101829-26-000031",
+        "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000031/rtx-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-20",
+        "accession": "0000101829-26-000030"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.091Z"
+    },
+    "ETN": {
+      "ticker": "ETN",
+      "name": "Eaton Corporation plc",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "reportDate": "2026-09-30",
+        "accession": "0001551182-26-000040",
+        "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000040/etn-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-03",
+        "accession": "0001551182-26-000037"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.109Z"
+    },
+    "VRT": {
+      "ticker": "VRT",
+      "name": "Vertiv Holdings Co",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-28",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-067893",
+        "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067893/vrt-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0001628280-26-067707"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.132Z"
+    },
+    "PH": {
+      "ticker": "PH",
+      "name": "Parker-Hannifin Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0000076334-26-000172",
+        "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633426000172/ph-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0000076334-26-000170"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-06-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.143Z"
+    },
+    "URI": {
+      "ticker": "URI",
+      "name": "United Rentals, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-21",
+        "reportDate": "2026-09-30",
+        "accession": "0001067701-26-000034",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067701/000106770126000034/uri-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-21",
+        "accession": "0001067701-26-000036"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.191Z"
+    },
+    "UNP": {
+      "ticker": "UNP",
+      "name": "Union Pacific Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-22",
+        "reportDate": "2026-09-30",
+        "accession": "0000100885-26-000321",
+        "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000321/unp-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-22",
+        "accession": "0000100885-26-000319"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.224Z"
+    },
+    "WM": {
+      "ticker": "WM",
+      "name": "Waste Management, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-28",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-067830",
+        "url": "https://www.sec.gov/Archives/edgar/data/823768/000162828026067830/wm-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-27",
+        "accession": "0001104659-26-119188"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.241Z"
+    },
+    "TT": {
+      "ticker": "TT",
+      "name": "Trane Technologies plc",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-068122",
+        "url": "https://www.sec.gov/Archives/edgar/data/1466258/000162828026068122/tt-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0001466258-26-000001"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.259Z"
+    },
+    "HWM": {
+      "ticker": "HWM",
+      "name": "Howmet Aerospace Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "reportDate": "2026-09-30",
+        "accession": "0000004281-26-000036",
+        "url": "https://www.sec.gov/Archives/edgar/data/4281/000000428126000036/hwm-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0001104659-26-119857"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.276Z"
+    },
+    "AXON": {
+      "ticker": "AXON",
+      "name": "Axon Enterprise, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-06",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-071242",
+        "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071242/axon-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0001628280-26-071086"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.289Z"
+    },
+    "BA": {
+      "ticker": "BA",
+      "name": "The Boeing Company",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-27",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-067508",
+        "url": "https://www.sec.gov/Archives/edgar/data/12927/000162828026067508/ba-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-27",
+        "accession": "0001628280-26-067411"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.297Z"
+    },
+    "DE": {
+      "ticker": "DE",
+      "name": "Deere & Company",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-27",
+        "reportDate": "2026-08-02",
+        "accession": "0001104659-26-102213",
+        "url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926102213/de-20260802x10q.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-20",
+        "accession": "0001104659-26-098904"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-11-02",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.324Z"
+    },
+    "HON": {
+      "ticker": "HON",
+      "name": "Honeywell International Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-22",
+        "reportDate": "2026-09-30",
+        "accession": "0000773840-26-000143",
+        "url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000143/hon-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-22",
+        "accession": "0000773840-26-000141"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.346Z"
+    },
+    "LMT": {
+      "ticker": "LMT",
+      "name": "Lockheed Martin Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-22",
+        "reportDate": "2026-09-27",
+        "accession": "0001628280-26-066928",
+        "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/lmt-20260927.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-22",
+        "accession": "0001628280-26-066780"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.365Z"
+    },
+    "XOM": {
+      "ticker": "XOM",
+      "name": "ExxonMobil Holdings Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-02",
+        "reportDate": "2026-09-30",
+        "accession": "0002115436-26-000020",
+        "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000020/xom-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-30",
+        "accession": "0002115436-26-000018"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": null,
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.387Z"
+    },
+    "CVX": {
+      "ticker": "CVX",
+      "name": "Chevron Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0000093410-26-000200",
+        "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000200/cvx-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-30",
+        "accession": "0000093410-26-000196"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.395Z"
+    },
+    "COP": {
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001163165-26-000045",
+        "url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000045/cop-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0001163165-26-000043"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.408Z"
+    },
+    "EOG": {
+      "ticker": "EOG",
+      "name": "EOG Resources, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0000821189-26-000227",
+        "url": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000227/eog-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0000821189-26-000226"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.428Z"
+    },
+    "WMB": {
+      "ticker": "WMB",
+      "name": "The Williams Companies, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-02",
+        "reportDate": "2026-09-30",
+        "accession": "0000107263-26-000036",
+        "url": "https://www.sec.gov/Archives/edgar/data/107263/000010726326000036/wmb-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-02",
+        "accession": "0000107263-26-000035"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.444Z"
+    },
+    "NEE": {
+      "ticker": "NEE",
+      "name": "NextEra Energy, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-21",
+        "reportDate": "2026-09-30",
+        "accession": "0000753308-26-000081",
+        "url": "https://www.sec.gov/Archives/edgar/data/753308/000075330826000081/nee-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-21",
+        "accession": "0000753308-26-000077"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.460Z"
+    },
+    "CEG": {
+      "ticker": "CEG",
+      "name": "Constellation Energy Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "reportDate": "2026-06-30",
+        "accession": "0001868275-26-000104",
+        "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/ceg-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-06",
+        "accession": "0001868275-26-000097"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.482Z"
+    },
+    "VST": {
+      "ticker": "VST",
+      "name": "Vistra Corp.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-10",
+        "reportDate": "2026-06-30",
+        "accession": "0001692819-26-000019",
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000019/vistra-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-06",
+        "accession": "0001692819-26-000023"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.492Z"
+    },
+    "SO": {
+      "ticker": "SO",
+      "name": "The Southern Company",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0000092122-26-000069",
+        "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000069/so-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0000092122-26-000071"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.509Z"
+    },
+    "DUK": {
+      "ticker": "DUK",
+      "name": "Duke Energy Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001326160-26-000051",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0001326160-26-000048"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.516Z"
+    },
+    "LIN": {
+      "ticker": "LIN",
+      "name": "Linde plc",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-068079",
+        "url": "https://www.sec.gov/Archives/edgar/data/1707925/000162828026068079/lin-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0001654954-26-009199"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.540Z"
+    },
+    "SHW": {
+      "ticker": "SHW",
+      "name": "The Sherwin-Williams Company",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-27",
+        "reportDate": "2026-09-30",
+        "accession": "0000089800-26-000056",
+        "url": "https://www.sec.gov/Archives/edgar/data/89800/000008980026000056/shw-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-27",
+        "accession": "0000089800-26-000054"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.559Z"
+    },
+    "FCX": {
+      "ticker": "FCX",
+      "name": "Freeport-McMoRan Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-06",
+        "reportDate": "2026-09-30",
+        "accession": "0000831259-26-000051",
+        "url": "https://www.sec.gov/Archives/edgar/data/831259/000083125926000051/fcx-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-27",
+        "accession": "0000831259-26-000045"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.579Z"
+    },
+    "ECL": {
+      "ticker": "ECL",
+      "name": "Ecolab Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-068208",
+        "url": "https://www.sec.gov/Archives/edgar/data/31462/000162828026068208/ecl-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-27",
+        "accession": "0001628280-26-067418"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.597Z"
+    },
+    "PLD": {
+      "ticker": "PLD",
+      "name": "Prologis, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-28",
+        "reportDate": "2026-09-30",
+        "accession": "0001193125-26-436160",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526436160/pld-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-15",
+        "accession": "0001193125-26-422375"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.607Z"
+    },
+    "EQIX": {
+      "ticker": "EQIX",
+      "name": "Equinix, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-28",
+        "reportDate": "2026-09-30",
+        "accession": "0001101239-26-000180",
+        "url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000180/eqix-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0001101239-26-000178"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.624Z"
+    },
+    "WELL": {
+      "ticker": "WELL",
+      "name": "Welltower Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-27",
+        "reportDate": "2026-09-30",
+        "accession": "0000766704-26-000046",
+        "url": "https://www.sec.gov/Archives/edgar/data/766704/000076670426000046/well-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-26",
+        "accession": "0000766704-26-000043"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.646Z"
+    },
+    "CRDO": {
+      "ticker": "CRDO",
+      "name": "Credo Technology Group Holding Ltd",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-09-02",
+        "reportDate": "2026-08-01",
+        "accession": "0001628280-26-060111",
+        "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/crdo-20260801.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-09-01",
+        "accession": "0001628280-26-059795"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-05-02",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.660Z"
+    },
+    "ALAB": {
+      "ticker": "ALAB",
+      "name": "Astera Labs, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0001736297-26-000045",
+        "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000045/alab-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-03",
+        "accession": "0001736297-26-000044"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.684Z"
+    },
+    "CLS": {
+      "ticker": "CLS",
+      "name": "Celestica Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-26",
+        "reportDate": "2026-09-30",
+        "accession": "0001030894-26-000050",
+        "url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000050/cls-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-26",
+        "accession": "0001030894-26-000049"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.699Z"
+    },
+    "CIEN": {
+      "ticker": "CIEN",
+      "name": "Ciena Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-09-03",
+        "reportDate": "2026-08-01",
+        "accession": "0001628280-26-060361",
+        "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026060361/cien-20260801.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-09-03",
+        "accession": "0001628280-26-060245"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-11-01",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.708Z"
+    },
+    "LITE": {
+      "ticker": "LITE",
+      "name": "Lumentum Holdings Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "reportDate": "2026-09-26",
+        "accession": "0001628280-26-069615",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026069615/lite-20260926.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-02",
+        "accession": "0001628280-26-068655"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-06-27",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.725Z"
+    },
+    "COHR": {
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0000820318-26-000023",
+        "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000023/iivi-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0001193125-26-447200"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-06-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.742Z"
+    },
+    "POWL": {
+      "ticker": "POWL",
+      "name": "Powell Industries, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-04",
+        "reportDate": "2026-06-30",
+        "accession": "0000080420-26-000107",
+        "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000107/powl-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-03",
+        "accession": "0000080420-26-000103"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-09-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.755Z"
+    },
+    "NVT": {
+      "ticker": "NVT",
+      "name": "nVent Electric plc",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-068596",
+        "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026068596/nvt-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-30",
+        "accession": "0001628280-26-068391"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.776Z"
+    },
+    "FIX": {
+      "ticker": "FIX",
+      "name": "Comfort Systems USA, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-22",
+        "reportDate": "2026-09-30",
+        "accession": "0001104659-26-118159",
+        "url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926118159/fix-20260930x10q.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-22",
+        "accession": "0001104659-26-118156"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": null,
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.792Z"
+    },
+    "STRL": {
+      "ticker": "STRL",
+      "name": "Sterling Infrastructure, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "reportDate": "2026-09-30",
+        "accession": "0000874238-26-000125",
+        "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000125/strl-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0000874238-26-000122"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.808Z"
+    },
+    "BE": {
+      "ticker": "BE",
+      "name": "Bloom Energy Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-22",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-066931",
+        "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026066931/be-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-22",
+        "accession": "0001628280-26-066890"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.826Z"
+    },
+    "NBIS": {
+      "ticker": "NBIS",
+      "name": "Nebius Group N.V.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": null,
+      "latestFiling": {
+        "form": "20-F",
+        "filed": "2026-04-30",
+        "reportDate": "2025-12-31",
+        "accession": "0001104659-26-052948",
+        "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm",
+        "items": ""
+      },
+      "earnings": null,
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": null,
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.855Z"
+    },
+    "IREN": {
+      "ticker": "IREN",
+      "name": "IREN Limited",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001878848-26-000066",
+        "url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0001878848-26-000065"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-06-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.863Z"
+    },
+    "APLD": {
+      "ticker": "APLD",
+      "name": "Applied Digital Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-07",
+        "reportDate": "2026-08-31",
+        "accession": "0001144879-26-000059",
+        "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000059/apld-20260831.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-07",
+        "accession": "0001144879-26-000057"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-05-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.875Z"
+    },
+    "CRWV": {
+      "ticker": "CRWV",
+      "name": "CoreWeave, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-12",
+        "reportDate": "2026-06-30",
+        "accession": "0001769628-26-000366",
+        "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-11",
+        "accession": "0001769628-26-000362"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.896Z"
+    },
+    "AMSC": {
+      "ticker": "AMSC",
+      "name": "American Superconductor Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0001437749-26-034936",
+        "url": "https://www.sec.gov/Archives/edgar/data/880807/000143774926034936/amsc20260930_10q.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0001437749-26-034935"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-03-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.922Z"
+    },
+    "PSTG": {
+      "ticker": "PSTG",
+      "name": "Everpure, Inc.",
+      "priceAsOf": "2026-04-16",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-09-04",
+        "reportDate": "2026-08-02",
+        "accession": "0001474432-26-000088",
+        "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000088/pstg-20260802.htm",
+        "items": ""
+      },
+      "earnings": null,
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": null,
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "source-gap",
+      "events": [
+        {
+          "type": "price-stale",
+          "date": "2026-04-16",
+          "detail": "Latest close is 222 days old."
+        }
+      ],
+      "checkedAt": "2026-11-24T20:13:28.928Z"
+    },
+    "ONTO": {
+      "ticker": "ONTO",
+      "name": "Onto Innovation Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "reportDate": "2026-06-30",
+        "accession": "0001193125-26-338401",
+        "url": "https://www.sec.gov/Archives/edgar/data/704532/000119312526338401/onto-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-06",
+        "accession": "0001193125-26-337990"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-01-03",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.946Z"
+    },
+    "CAMT": {
+      "ticker": "CAMT",
+      "name": "Camtek Ltd.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": null,
+      "latestFiling": {
+        "form": "20-F",
+        "filed": "2026-03-19",
+        "reportDate": "2025-12-31",
+        "accession": "0001178913-26-001561",
+        "url": "https://www.sec.gov/Archives/edgar/data/1109138/000117891326001561/zk2634678.htm",
+        "items": ""
+      },
+      "earnings": null,
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": null,
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.964Z"
+    },
+    "FORM": {
+      "ticker": "FORM",
+      "name": "FormFactor, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "reportDate": "2026-09-26",
+        "accession": "0001039399-26-000043",
+        "url": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000043/form-20260926.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0001039399-26-000040"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-27",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.974Z"
+    },
+    "RMBS": {
+      "ticker": "RMBS",
+      "name": "Rambus Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-26",
+        "reportDate": "2026-09-30",
+        "accession": "0001193125-26-431941",
+        "url": "https://www.sec.gov/Archives/edgar/data/917273/000119312526431941/rmbs-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-26",
+        "accession": "0001193125-26-431918"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:28.989Z"
+    },
+    "SITM": {
+      "ticker": "SITM",
+      "name": "SiTime Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001451809-26-000077",
+        "url": "https://www.sec.gov/Archives/edgar/data/1451809/000145180926000077/sitm-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0001451809-26-000076"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.001Z"
+    },
+    "LSCC": {
+      "ticker": "LSCC",
+      "name": "Lattice Semiconductor Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "reportDate": "2026-10-03",
+        "accession": "0001193125-26-445613",
+        "url": "https://www.sec.gov/Archives/edgar/data/855658/000119312526445613/d34154d10q.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-02",
+        "accession": "0001437749-26-034452"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-01-03",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.027Z"
+    },
+    "MTSI": {
+      "ticker": "MTSI",
+      "name": "MACOM Technology Solutions Holdings, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "reportDate": "2026-07-03",
+        "accession": "0001493594-26-000038",
+        "url": "https://www.sec.gov/Archives/edgar/data/1493594/000149359426000038/mtsi-20260703.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0001493594-26-000041"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-10-03",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.043Z"
+    },
+    "AEIS": {
+      "ticker": "AEIS",
+      "name": "Advanced Energy Industries, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-02",
+        "reportDate": "2026-09-30",
+        "accession": "0000927003-26-000039",
+        "url": "https://www.sec.gov/Archives/edgar/data/927003/000092700326000039/aeis-20260930x10q.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-02",
+        "accession": "0000927003-26-000037"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.060Z"
+    },
+    "POWI": {
+      "ticker": "POWI",
+      "name": "Power Integrations, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0000833640-26-000156",
+        "url": "https://www.sec.gov/Archives/edgar/data/833640/000083364026000156/powi-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0000833640-26-000152"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.076Z"
+    },
+    "AMKR": {
+      "ticker": "AMKR",
+      "name": "Amkor Technology, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-27",
+        "reportDate": "2026-09-30",
+        "accession": "0001047127-26-000052",
+        "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000052/amkr-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-26",
+        "accession": "0001047127-26-000049"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.088Z"
+    },
+    "S": {
+      "ticker": "S",
+      "name": "SentinelOne, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-28",
+        "reportDate": "2026-07-31",
+        "accession": "0001583708-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/1583708/000158370826000055/s-20260731.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-27",
+        "accession": "0001583708-26-000052"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-01-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.096Z"
+    },
+    "RBRK": {
+      "ticker": "RBRK",
+      "name": "Rubrik, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-09-01",
+        "reportDate": "2026-07-31",
+        "accession": "0001943896-26-000060",
+        "url": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000060/rbrk-20260731.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-27",
+        "accession": "0001943896-26-000055"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-01-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.113Z"
+    },
+    "TENB": {
+      "ticker": "TENB",
+      "name": "Tenable Holdings, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "reportDate": "2026-09-30",
+        "accession": "0001660280-26-000054",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028026000054/tenb-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0001660280-26-000050"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.130Z"
+    },
+    "GTLB": {
+      "ticker": "GTLB",
+      "name": "GitLab Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-09-02",
+        "reportDate": "2026-07-31",
+        "accession": "0001628280-26-059943",
+        "url": "https://www.sec.gov/Archives/edgar/data/1653482/000162828026059943/gtlb-20260731.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-09-01",
+        "accession": "0001628280-26-059820"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-01-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.151Z"
+    },
+    "IOT": {
+      "ticker": "IOT",
+      "name": "Samsara Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-09-08",
+        "reportDate": "2026-08-01",
+        "accession": "0001628280-26-060909",
+        "url": "https://www.sec.gov/Archives/edgar/data/1642896/000162828026060909/iot-20260801.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-09-03",
+        "accession": "0001628280-26-060438"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-01-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.195Z"
+    },
+    "PEGA": {
+      "ticker": "PEGA",
+      "name": "Pegasystems Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-20",
+        "reportDate": "2026-09-30",
+        "accession": "0001013857-26-000058",
+        "url": "https://www.sec.gov/Archives/edgar/data/1013857/000101385726000058/pega-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-20",
+        "accession": "0001013857-26-000057"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.210Z"
+    },
+    "ESTC": {
+      "ticker": "ESTC",
+      "name": "Elastic N.V.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-28",
+        "reportDate": "2026-07-31",
+        "accession": "0001707753-26-000054",
+        "url": "https://www.sec.gov/Archives/edgar/data/1707753/000170775326000054/estc-20260731.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-27",
+        "accession": "0001707753-26-000035"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-04-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.229Z"
+    },
+    "MNDY": {
+      "ticker": "MNDY",
+      "name": "monday.com Ltd.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": null,
+      "latestFiling": {
+        "form": "20-F",
+        "filed": "2026-03-13",
+        "reportDate": "2025-12-31",
+        "accession": "0001178913-26-000870",
+        "url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326000870/zk2634436.htm",
+        "items": ""
+      },
+      "earnings": null,
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": null,
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.277Z"
+    },
+    "IONQ": {
+      "ticker": "IONQ",
+      "name": "IonQ, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001193125-26-449829",
+        "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312526449829/ionq-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0001193125-26-449779"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.285Z"
+    },
+    "RGTI": {
+      "ticker": "RGTI",
+      "name": "Rigetti Computing, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "reportDate": "2026-06-30",
+        "accession": "0001104659-26-091993",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926091993/rgti-20260630x10q.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-06",
+        "accession": "0001104659-26-091979"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.331Z"
+    },
+    "QBTS": {
+      "ticker": "QBTS",
+      "name": "D-Wave Quantum Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-06",
+        "reportDate": "2026-06-30",
+        "accession": "0001907982-26-000129",
+        "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000129/qbts-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-06",
+        "accession": "0001907982-26-000127"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.349Z"
+    },
+    "SOFI": {
+      "ticker": "SOFI",
+      "name": "SoFi Technologies, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001818874-26-000070",
+        "url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000070/sofi-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-27",
+        "accession": "0001818874-26-000065"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.363Z"
+    },
+    "AFRM": {
+      "ticker": "AFRM",
+      "name": "Affirm Holdings, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-071153",
+        "url": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026071153/afrm-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0001628280-26-071005"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-06-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.381Z"
+    },
+    "UPST": {
+      "ticker": "UPST",
+      "name": "Upstart Holdings, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "reportDate": "2026-09-30",
+        "accession": "0001647639-26-000084",
+        "url": "https://www.sec.gov/Archives/edgar/data/1647639/000164763926000084/upst-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-03",
+        "accession": "0001647639-26-000083"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.401Z"
+    },
+    "TOST": {
+      "ticker": "TOST",
+      "name": "Toast, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0001650164-26-000216",
+        "url": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000216/tost-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-03",
+        "accession": "0001650164-26-000214"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.425Z"
+    },
+    "FOUR": {
+      "ticker": "FOUR",
+      "name": "Shift4 Payments, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001794669-26-000051",
+        "url": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/four-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0001794669-26-000049"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.445Z"
+    },
+    "HOOD": {
+      "ticker": "HOOD",
+      "name": "Robinhood Markets, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-28",
+        "reportDate": "2026-09-30",
+        "accession": "0001783879-26-000167",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000167/hood-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-27",
+        "accession": "0001783879-26-000164"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.493Z"
+    },
+    "CRCL": {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0001876042-26-000311",
+        "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0001876042-26-000309"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.530Z"
+    },
+    "PYPL": {
+      "ticker": "PYPL",
+      "name": "PayPal Holdings, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-27",
+        "reportDate": "2026-09-30",
+        "accession": "0001633917-26-000088",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-27",
+        "accession": "0001633917-26-000086"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.550Z"
+    },
+    "PODD": {
+      "ticker": "PODD",
+      "name": "Insulet Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0001145197-26-000192",
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000192/podd-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0001145197-26-000190"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.562Z"
+    },
+    "TMDX": {
+      "ticker": "TMDX",
+      "name": "TransMedics Group, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001193125-26-449827",
+        "url": "https://www.sec.gov/Archives/edgar/data/1756262/000119312526449827/tmdx-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0001193125-26-449729"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.580Z"
+    },
+    "INSP": {
+      "ticker": "INSP",
+      "name": "Inspire Medical Systems, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-02",
+        "reportDate": "2026-09-30",
+        "accession": "0001609550-26-000053",
+        "url": "https://www.sec.gov/Archives/edgar/data/1609550/000160955026000053/insp-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-02",
+        "accession": "0001609550-26-000051"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.595Z"
+    },
+    "PEN": {
+      "ticker": "PEN",
+      "name": "Penumbra, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "reportDate": "2026-09-30",
+        "accession": "0001321732-26-000043",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321732/000132173226000043/pen-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0001321732-26-000042"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.601Z"
+    },
+    "GMED": {
+      "ticker": "GMED",
+      "name": "Globus Medical, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-071165",
+        "url": "https://www.sec.gov/Archives/edgar/data/1237831/000162828026071165/gmed-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0001628280-26-071042"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.612Z"
+    },
+    "TEM": {
+      "ticker": "TEM",
+      "name": "Tempus AI, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-02",
+        "reportDate": "2026-09-30",
+        "accession": "0001193125-26-442624",
+        "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526442624/tem-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-02",
+        "accession": "0001193125-26-442619"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.627Z"
+    },
+    "HIMS": {
+      "ticker": "HIMS",
+      "name": "Hims & Hers Health, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-10",
+        "reportDate": "2026-06-30",
+        "accession": "0001773751-26-000163",
+        "url": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000163/hims-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-10",
+        "accession": "0001773751-26-000161"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.647Z"
+    },
+    "VKTX": {
+      "ticker": "VKTX",
+      "name": "Viking Therapeutics, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "reportDate": "2026-09-30",
+        "accession": "0001193125-26-436432",
+        "url": "https://www.sec.gov/Archives/edgar/data/1607678/000119312526436432/vktx-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0001193125-26-436145"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": null,
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.658Z"
+    },
+    "CRNX": {
+      "ticker": "CRNX",
+      "name": "Crinetics Pharmaceuticals Inc",
+      "priceAsOf": "2026-09-01",
+      "latestQuarter": "Q2 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-03",
+        "reportDate": "2026-06-30",
+        "accession": "0001658247-26-000053",
+        "url": "https://www.sec.gov/Archives/edgar/data/1658247/000165824726000053/crnx-20260630.htm",
+        "items": ""
+      },
+      "earnings": null,
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": null,
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "source-gap",
+      "events": [
+        {
+          "type": "price-stale",
+          "date": "2026-09-01",
+          "detail": "Latest close is 84 days old."
+        }
+      ],
+      "checkedAt": "2026-11-24T20:13:29.665Z"
+    },
+    "RYTM": {
+      "ticker": "RYTM",
+      "name": "Rhythm Pharmaceuticals, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-069485",
+        "url": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026069485/rytm-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-03",
+        "accession": "0001628280-26-069106"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.716Z"
+    },
+    "INSM": {
+      "ticker": "INSM",
+      "name": "Insmed Incorporated",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "reportDate": "2026-09-30",
+        "accession": "0001104506-26-000047",
+        "url": "https://www.sec.gov/Archives/edgar/data/1104506/000110450626000047/insm-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0001140361-26-041097"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.744Z"
+    },
+    "MDGL": {
+      "ticker": "MDGL",
+      "name": "Madrigal Pharmaceuticals, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-069145",
+        "url": "https://www.sec.gov/Archives/edgar/data/1157601/000162828026069145/mdgl-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-03",
+        "accession": "0001628280-26-069093"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.809Z"
+    },
+    "KRYS": {
+      "ticker": "KRYS",
+      "name": "Krystal Biotech, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-02",
+        "reportDate": "2026-09-30",
+        "accession": "0001711279-26-000071",
+        "url": "https://www.sec.gov/Archives/edgar/data/1711279/000171127926000071/krys-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-02",
+        "accession": "0001711279-26-000072"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.827Z"
+    },
+    "BBIO": {
+      "ticker": "BBIO",
+      "name": "BridgeBio Pharma, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "reportDate": "2026-09-30",
+        "accession": "0001743881-26-000034",
+        "url": "https://www.sec.gov/Archives/edgar/data/1743881/000174388126000034/bbio-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0001743881-26-000033"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.832Z"
+    },
+    "ACLX": {
+      "ticker": "ACLX",
+      "name": "Arcellx, Inc.",
+      "priceAsOf": "2026-04-28",
+      "latestQuarter": "Q4 FY25",
+      "latestFiling": {
+        "form": "10-K",
+        "filed": "2026-02-26",
+        "reportDate": "2025-12-31",
+        "accession": "0001193125-26-076876",
+        "url": "https://www.sec.gov/Archives/edgar/data/1786205/000119312526076876/aclx-20251231.htm",
+        "items": ""
+      },
+      "earnings": null,
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": null,
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "source-gap",
+      "events": [
+        {
+          "type": "price-stale",
+          "date": "2026-04-28",
+          "detail": "Latest close is 210 days old."
+        }
+      ],
+      "checkedAt": "2026-11-24T20:13:29.843Z"
+    },
+    "RKLB": {
+      "ticker": "RKLB",
+      "name": "Rocket Lab Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-10",
+        "reportDate": "2026-06-30",
+        "accession": "0001819994-26-000062",
+        "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000062/rklb-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-10",
+        "accession": "0001819994-26-000061"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.862Z"
+    },
+    "ASTS": {
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-10",
+        "reportDate": "2026-06-30",
+        "accession": "0001193125-26-342550",
+        "url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526342550/asts-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-10",
+        "accession": "0001193125-26-342540"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.872Z"
+    },
+    "LUNR": {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-13",
+        "reportDate": "2026-06-30",
+        "accession": "0001628280-26-056821",
+        "url": "https://www.sec.gov/Archives/edgar/data/1844452/000162828026056821/lunr-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-13",
+        "accession": "0001628280-26-056476"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.890Z"
+    },
+    "KTOS": {
+      "ticker": "KTOS",
+      "name": "Kratos Defense & Security Solutions, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-27",
+        "accession": "0001069258-26-000088",
+        "url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000088/ktos-20260927.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0001069258-26-000085"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-28",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.898Z"
+    },
+    "AVAV": {
+      "ticker": "AVAV",
+      "name": "AeroVironment, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q1 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-09-10",
+        "reportDate": "2026-08-01",
+        "accession": "0001104659-26-106423",
+        "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926106423/avav-20260801x10q.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-09-09",
+        "accession": "0001104659-26-106304"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-04-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.911Z"
+    },
+    "PL": {
+      "ticker": "PL",
+      "name": "Planet Labs PBC",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-09-03",
+        "reportDate": "2026-07-31",
+        "accession": "0001193125-26-382016",
+        "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526382016/pl-20260731.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-09-03",
+        "accession": "0001193125-26-381874"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-01-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.930Z"
+    },
+    "JOBY": {
+      "ticker": "JOBY",
+      "name": "Joby Aviation, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001819848-26-000533",
+        "url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000533/joby-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0001819848-26-000531"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.941Z"
+    },
+    "ACHR": {
+      "ticker": "ACHR",
+      "name": "Archer Aviation Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-10",
+        "reportDate": "2026-06-30",
+        "accession": "0001824502-26-000059",
+        "url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000059/achr-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-10",
+        "accession": "0001824502-26-000056"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.948Z"
+    },
+    "SYM": {
+      "ticker": "SYM",
+      "name": "Symbotic Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "reportDate": "2026-06-27",
+        "accession": "0001837240-26-000043",
+        "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000043/sym-20260627.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-05",
+        "accession": "0001837240-26-000042"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-09-27",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.959Z"
+    },
+    "RDW": {
+      "ticker": "RDW",
+      "name": "Redwire Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001819810-26-000142",
+        "url": "https://www.sec.gov/Archives/edgar/data/1819810/000181981026000142/rdw-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0001819810-26-000139"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.976Z"
+    },
+    "OKLO": {
+      "ticker": "OKLO",
+      "name": "Oklo Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-06",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-071319",
+        "url": "https://www.sec.gov/Archives/edgar/data/1849056/000162828026071319/oklo-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2025-03-24",
+        "accession": "0001104659-25-027276"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": null,
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:29.997Z"
+    },
+    "SMR": {
+      "ticker": "SMR",
+      "name": "NuScale Power Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001822966-26-000091",
+        "url": "https://www.sec.gov/Archives/edgar/data/1822966/000182296626000091/smr-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0001822966-26-000089"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.002Z"
+    },
+    "UEC": {
+      "ticker": "UEC",
+      "name": "Uranium Energy Corp.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q4 FY26",
+      "latestFiling": {
+        "form": "10-K",
+        "filed": "2026-09-29",
+        "reportDate": "2026-07-31",
+        "accession": "0001437749-26-031414",
+        "url": "https://www.sec.gov/Archives/edgar/data/1334933/000143774926031414/uec20260731_10k.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-09-29",
+        "accession": "0001437749-26-031416"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-07-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.011Z"
+    },
+    "LEU": {
+      "ticker": "LEU",
+      "name": "Centrus Energy Corp.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-070557",
+        "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026070557/leu-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0001628280-26-070229"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.027Z"
+    },
+    "FLNC": {
+      "ticker": "FLNC",
+      "name": "Fluence Energy, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-05",
+        "reportDate": "2026-06-30",
+        "accession": "0001868941-26-000029",
+        "url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894126000029/flnc-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-05",
+        "accession": "0001868941-26-000028"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-09-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.039Z"
+    },
+    "MP": {
+      "ticker": "MP",
+      "name": "MP Materials Corp.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-06",
+        "reportDate": "2026-09-30",
+        "accession": "0001801368-26-000057",
+        "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000057/mp-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0001801368-26-000056"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.052Z"
+    },
+    "USAR": {
+      "ticker": "USAR",
+      "name": "USA Rare Earth, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-10",
+        "reportDate": "2026-06-30",
+        "accession": "0001970622-26-000057",
+        "url": "https://www.sec.gov/Archives/edgar/data/1970622/000197062226000057/usar-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-10",
+        "accession": "0001970622-26-000056"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.079Z"
+    },
+    "ATI": {
+      "ticker": "ATI",
+      "name": "ATI Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "reportDate": "2026-09-27",
+        "accession": "0001628280-26-068145",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828026068145/ati-20260927.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0001018963-26-000004"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-28",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.093Z"
+    },
+    "CDE": {
+      "ticker": "CDE",
+      "name": "Coeur Mining, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0000215466-26-000053",
+        "url": "https://www.sec.gov/Archives/edgar/data/215466/000021546626000053/cde-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0000215466-26-000054"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.113Z"
+    },
+    "IDR": {
+      "ticker": "IDR",
+      "name": "Idaho Strategic Resources, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-13",
+        "reportDate": "2026-06-30",
+        "accession": "0001654954-26-007547",
+        "url": "https://www.sec.gov/Archives/edgar/data/1030192/000165495426007547/idr_10q.htm",
+        "items": ""
+      },
+      "earnings": null,
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.132Z"
+    },
+    "TPL": {
+      "ticker": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0001811074-26-000077",
+        "url": "https://www.sec.gov/Archives/edgar/data/1811074/000181107426000077/tpl-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0001811074-26-000075"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.152Z"
+    },
+    "CAVA": {
+      "ticker": "CAVA",
+      "name": "CAVA Group, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-10-04",
+        "accession": "0001628280-26-070344",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639438/000162828026070344/cava-20261004.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0001628280-26-070159"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-28",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.180Z"
+    },
+    "BROS": {
+      "ticker": "BROS",
+      "name": "Dutch Bros Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001866581-26-000180",
+        "url": "https://www.sec.gov/Archives/edgar/data/1866581/000186658126000180/bros-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0001866581-26-000178"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.191Z"
+    },
+    "ELF": {
+      "ticker": "ELF",
+      "name": "e.l.f. Beauty, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001600033-26-000050",
+        "url": "https://www.sec.gov/Archives/edgar/data/1600033/000160003326000050/elf-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0001600033-26-000048"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-03-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.213Z"
+    },
+    "ONON": {
+      "ticker": "ONON",
+      "name": "On Holding AG",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY25",
+      "latestFiling": {
+        "form": "20-F",
+        "filed": "2026-03-03",
+        "reportDate": "2025-12-31",
+        "accession": "0001858985-26-000008",
+        "url": "https://www.sec.gov/Archives/edgar/data/1858985/000185898526000008/onholdingag-20251231.htm",
+        "items": ""
+      },
+      "earnings": null,
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": null,
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.241Z"
+    },
+    "CELH": {
+      "ticker": "CELH",
+      "name": "Celsius Holdings, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accession": "0001341766-26-000062",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341766/000134176626000062/celh-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0001341766-26-000059"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.265Z"
+    },
+    "DUOL": {
+      "ticker": "DUOL",
+      "name": "Duolingo, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-069692",
+        "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026069692/duol-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-03",
+        "accession": "0001628280-26-069474"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.275Z"
+    },
+    "RDDT": {
+      "ticker": "RDDT",
+      "name": "Reddit, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "reportDate": "2026-09-30",
+        "accession": "0001713445-26-000116",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000116/rddt-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0001713445-26-000114"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.282Z"
+    },
+    "WING": {
+      "ticker": "WING",
+      "name": "Wingstop Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-28",
+        "reportDate": "2026-09-26",
+        "accession": "0001628280-26-067883",
+        "url": "https://www.sec.gov/Archives/edgar/data/1636222/000162828026067883/wing-20260926.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0001628280-26-067723"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-27",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.301Z"
+    },
+    "AAON": {
+      "ticker": "AAON",
+      "name": "AAON, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-10",
+        "reportDate": "2026-06-30",
+        "accession": "0000824142-26-000055",
+        "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000055/aaon-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-10",
+        "accession": "0000824142-26-000052"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.328Z"
+    },
+    "MLI": {
+      "ticker": "MLI",
+      "name": "Mueller Industries, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-21",
+        "reportDate": "2026-09-26",
+        "accession": "0000089439-26-000041",
+        "url": "https://www.sec.gov/Archives/edgar/data/89439/000008943926000041/mli-20260926.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-20",
+        "accession": "0000089439-26-000038"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-27",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.347Z"
+    },
+    "ROAD": {
+      "ticker": "ROAD",
+      "name": "Construction Partners, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-07",
+        "reportDate": "2026-06-30",
+        "accession": "0001628280-26-054661",
+        "url": "https://www.sec.gov/Archives/edgar/data/1718227/000162828026054661/road-20260630.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-05",
+        "accession": "0001628280-26-070670"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-09-30",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.358Z"
+    },
+    "WTS": {
+      "ticker": "WTS",
+      "name": "Watts Water Technologies, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-05",
+        "reportDate": "2026-09-27",
+        "accession": "0001104659-26-123118",
+        "url": "https://www.sec.gov/Archives/edgar/data/795403/000110465926123118/wts-20260927x10q.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0001104659-26-122745"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.377Z"
+    },
+    "DY": {
+      "ticker": "DY",
+      "name": "Dycom Industries, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q2 FY27",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-08-27",
+        "reportDate": "2026-08-01",
+        "accession": "0000067215-26-000043",
+        "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000043/dy-20260801.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-08-26",
+        "accession": "0000067215-26-000039"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2026-01-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.393Z"
+    },
+    "BWXT": {
+      "ticker": "BWXT",
+      "name": "BWX Technologies, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-02",
+        "reportDate": "2026-09-30",
+        "accession": "0001486957-26-000051",
+        "url": "https://www.sec.gov/Archives/edgar/data/1486957/000148695726000051/bwxt-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-02",
+        "accession": "0001486957-26-000053"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.412Z"
+    },
+    "KNF": {
+      "ticker": "KNF",
+      "name": "Knife River Corporation",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-069576",
+        "url": "https://www.sec.gov/Archives/edgar/data/1955520/000162828026069576/knf-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-03",
+        "accession": "0001628280-26-069132"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.431Z"
+    },
+    "KNSL": {
+      "ticker": "KNSL",
+      "name": "Kinsale Capital Group, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-22",
+        "reportDate": "2026-09-30",
+        "accession": "0001669162-26-000050",
+        "url": "https://www.sec.gov/Archives/edgar/data/1669162/000166916226000050/knsl-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-22",
+        "accession": "0001669162-26-000049"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.452Z"
+    },
+    "RYAN": {
+      "ticker": "RYAN",
+      "name": "Ryan Specialty Holdings, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "reportDate": "2026-09-30",
+        "accession": "0001849253-26-000047",
+        "url": "https://www.sec.gov/Archives/edgar/data/1849253/000184925326000047/ryan-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-29",
+        "accession": "0001849253-26-000045"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.466Z"
+    },
+    "PLMR": {
+      "ticker": "PLMR",
+      "name": "Palomar Holdings, Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-06",
+        "reportDate": "2026-09-30",
+        "accession": "0001193125-26-450504",
+        "url": "https://www.sec.gov/Archives/edgar/data/1761312/000119312526450504/plmr-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-11-04",
+        "accession": "0001193125-26-447298"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.476Z"
+    },
+    "EVR": {
+      "ticker": "EVR",
+      "name": "Evercore Inc.",
+      "priceAsOf": "2026-11-23",
+      "latestQuarter": "Q3 FY26",
+      "latestFiling": {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "reportDate": "2026-09-30",
+        "accession": "0001628280-26-070100",
+        "url": "https://www.sec.gov/Archives/edgar/data/1360901/000162828026070100/evr-20260930.htm",
+        "items": ""
+      },
+      "earnings": {
+        "filed": "2026-10-28",
+        "accession": "0001628280-26-067716"
+      },
+      "consensusAsOf": "2026-11-24",
+      "segmentsAsOf": "2025-12-31",
+      "narrativeUpdatedAt": "2026-11-24",
+      "status": "current",
+      "events": [],
+      "checkedAt": "2026-11-24T20:13:30.483Z"
+    }
+  }
+}

@@ -1,11 +1,11 @@
 {
   "ticker": "NVT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/NVT/analysis",
-  "targetMean": 197.55556,
+  "targetMean": 192.94444,
   "targetHigh": 233,
-  "targetLow": 139,
+  "targetLow": 125,
   "recommendationKey": "strong_buy",
   "analystCount": 18,
   "distribution": {
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.9,
       "epsEstimate": 0.89724,
-      "revenueActual": 1066700000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.09,
       "epsEstimate": 0.94199,
-      "revenueActual": 1242000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 1.45,
       "epsEstimate": 1.1645,
-      "revenueActual": 1471300000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 1.52,
       "epsEstimate": 1.39521,
-      "revenueActual": 1514900000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -97,9 +97,9 @@
   },
   "revisions": {
     "eps7d": 0,
-    "eps30d": 0.04437107034149346,
-    "eps60d": 0.04891492835682465,
-    "eps90d": 0.0528886116006031,
+    "eps30d": 0.04155034080334019,
+    "eps60d": 0.047319170460293325,
+    "eps90d": 0.04891492835682465,
     "revenue30d": null
   }
 }

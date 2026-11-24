@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-11-24T20:13:30.484Z",
+  "counts": {
+    "current": 226,
+    "rewrite-pending": 0,
+    "data-stale": 0,
+    "source-gap": 3
+  },
+  "pending": [],
+  "sourceGaps": [
+    {
+      "ticker": "ACLX",
+      "reason": "No current Yahoo quote; last available close is 2026-04-28. Verify the listing and corporate-action history.",
+      "since": "2026-04-28",
+      "reviewBy": "2026-12-31"
+    },
+    {
+      "ticker": "CRNX",
+      "reason": "Yahoo price history stops at 2026-09-01. Verify whether the listing changed or the ticker mapping is stale.",
+      "since": "2026-09-01",
+      "reviewBy": "2026-12-31"
+    },
+    {
+      "ticker": "PSTG",
+      "reason": "Company now reports as Everpure; Yahoo history under PSTG stops at 2026-04-16. Verify the ticker mapping.",
+      "since": "2026-04-16",
+      "reviewBy": "2026-12-31"
+    }
+  ]
+}

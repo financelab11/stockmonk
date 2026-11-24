@@ -1,7 +1,7 @@
 {
   "ticker": "ATI",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/ATI/analysis",
   "targetMean": 251.7,
   "targetHigh": 275,
@@ -30,9 +30,9 @@
       "endDate": "2027-03-31",
       "revenueAvg": 1331575650,
       "revenueGrowth": 0.15640001,
-      "epsAvg": 1.43969,
-      "epsGrowth": 0.4397,
-      "analystCount": 5
+      "epsAvg": 1.44961,
+      "epsGrowth": 0.44959998,
+      "analystCount": 4
     },
     {
       "period": "Current fiscal year",
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 5839599020,
-      "revenueGrowth": 0.1062,
-      "epsAvg": 6.69429,
-      "epsGrowth": 0.27809998,
+      "revenueAvg": 5824899020,
+      "revenueGrowth": 0.1034,
+      "epsAvg": 6.66929,
+      "epsGrowth": 0.2734,
       "analystCount": 10
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.93,
       "epsEstimate": 0.86178,
-      "revenueActual": 1177100000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1,
       "epsEstimate": 0.88075,
-      "revenueActual": 1151500000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 1.23,
       "epsEstimate": 1.04013,
-      "revenueActual": 1261100000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 1.46,
       "epsEstimate": 1.36719,
-      "revenueActual": 1423700000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,8 +96,8 @@
     "analystCount": 9
   },
   "revisions": {
-    "eps7d": -0.0005324102344894666,
-    "eps30d": 0.023570819946373778,
+    "eps7d": -0.0013709025457985247,
+    "eps30d": 0.021677980649188466,
     "eps60d": 0.023570819946373778,
     "eps90d": 0.02089733194030763,
     "revenue30d": null

@@ -1,16 +1,16 @@
 {
   "ticker": "ETN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/ETN/analysis",
-  "targetMean": 468.74075,
-  "targetHigh": 539,
+  "targetMean": 465.66666,
+  "targetHigh": 556,
   "targetLow": 333,
   "recommendationKey": "buy",
   "analystCount": 27,
   "distribution": {
     "strongBuy": 5,
-    "buy": 18,
+    "buy": 17,
     "hold": 6,
     "sell": 0,
     "strongSell": 0
@@ -39,17 +39,17 @@
       "endDate": "2026-12-31",
       "revenueAvg": 33752618260,
       "revenueGrowth": 0.2297,
-      "epsAvg": 13.78779,
-      "epsGrowth": 0.1423,
-      "analystCount": 25
+      "epsAvg": 13.79172,
+      "epsGrowth": 0.1426,
+      "analystCount": 26
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 37830623110,
       "revenueGrowth": 0.120799996,
-      "epsAvg": 16.4683,
-      "epsGrowth": 0.19440001,
+      "epsAvg": 16.49259,
+      "epsGrowth": 0.1958,
       "analystCount": 21
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 3.33,
       "epsEstimate": 3.31856,
-      "revenueActual": 7055000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 2.81,
       "epsEstimate": 2.73079,
-      "revenueActual": 7451000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 3.15,
       "epsEstimate": 3.07642,
-      "revenueActual": 8531000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 3.68,
       "epsEstimate": 3.5483,
-      "revenueActual": 8947000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 22
   },
   "revisions": {
-    "eps7d": 0.00015741040301420206,
-    "eps30d": 0.014251823408035103,
-    "eps60d": 0.017254036283203433,
-    "eps90d": 0.020413766766627317,
+    "eps7d": 0.0002850348025318361,
+    "eps30d": 0.01390993279916719,
+    "eps60d": 0.017543989086560074,
+    "eps90d": 0.02045917155560284,
     "revenue30d": null
   }
 }

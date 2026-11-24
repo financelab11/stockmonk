@@ -1,7 +1,7 @@
 {
   "ticker": "PLD",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/PLD/analysis",
   "targetMean": 152.07143,
   "targetHigh": 170,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.4595,
       "epsEstimate": 0.68354,
-      "revenueActual": 2252712000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.0239,
       "epsEstimate": 0.72464,
-      "revenueActual": 2297723000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {

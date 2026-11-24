@@ -1,9 +1,9 @@
 {
   "ticker": "SITM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/SITM/analysis",
-  "targetMean": 713.75,
+  "targetMean": 699.1667,
   "targetHigh": 900,
   "targetLow": 425,
   "recommendationKey": "strong_buy",
@@ -37,10 +37,10 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 906423770,
-      "revenueGrowth": 1.7748,
-      "epsAvg": 12.7294,
-      "epsGrowth": 2.9779,
+      "revenueAvg": 906451050,
+      "revenueGrowth": 1.7749001,
+      "epsAvg": 12.71942,
+      "epsGrowth": 2.9748,
       "analystCount": 12
     },
     {
@@ -48,8 +48,8 @@
       "endDate": "2027-12-31",
       "revenueAvg": 1442399160,
       "revenueGrowth": 0.5913,
-      "epsAvg": 18.24225,
-      "epsGrowth": 0.43310001,
+      "epsAvg": 18.14326,
+      "epsGrowth": 0.4264,
       "analystCount": 12
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.53,
       "epsEstimate": 1.2085,
-      "revenueActual": 113285000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.44,
       "epsEstimate": 1.15716,
-      "revenueActual": 113567000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,15 +75,15 @@
       "endDate": "2026-06-30",
       "epsActual": 2.34,
       "epsEstimate": 1.95425,
-      "revenueActual": 157432000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
       "quarter": "2026-09-30",
       "endDate": "2026-09-30",
       "epsActual": 4.01,
-      "epsEstimate": 3.55526,
-      "revenueActual": 298671000,
+      "epsEstimate": 3.55982,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 12
   },
   "revisions": {
-    "eps7d": 0.13666317823504426,
-    "eps30d": 0.14316863924189893,
-    "eps60d": 0.14236638035862836,
-    "eps90d": 0.1451544996887335,
+    "eps7d": -0.0007840118151680731,
+    "eps30d": 0.13577202087344142,
+    "eps60d": 0.14227238152200372,
+    "eps90d": 0.14147075161917644,
     "revenue30d": null
   }
 }

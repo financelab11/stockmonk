@@ -1,10 +1,10 @@
 {
   "ticker": "WM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/WM/analysis",
-  "targetMean": 255.6,
-  "targetHigh": 283,
+  "targetMean": 256.84,
+  "targetHigh": 285,
   "targetLow": 220,
   "recommendationKey": "buy",
   "analystCount": 25,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.93,
       "epsEstimate": 1.948,
-      "revenueActual": 6313000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.81,
       "epsEstimate": 1.74073,
-      "revenueActual": 6227000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 2.02,
       "epsEstimate": 1.97764,
-      "revenueActual": 6684000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 2.15,
       "epsEstimate": 2.18086,
-      "revenueActual": 6846000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -97,9 +97,9 @@
   },
   "revisions": {
     "eps7d": 0,
-    "eps30d": -0.004974867641981295,
+    "eps30d": -0.005106885880694967,
     "eps60d": -0.0034001759772581686,
-    "eps90d": -0.004035059886388637,
+    "eps90d": -0.003581653958828701,
     "revenue30d": null
   }
 }

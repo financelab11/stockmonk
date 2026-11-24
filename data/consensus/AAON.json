@@ -1,7 +1,7 @@
 {
   "ticker": "AAON",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/AAON/analysis",
   "targetMean": 117.5,
   "targetHigh": 140,
@@ -59,7 +59,7 @@
       "endDate": "2025-09-30",
       "epsActual": 0.37,
       "epsEstimate": 0.322,
-      "revenueActual": 384238000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.48,
       "epsEstimate": 0.294,
-      "revenueActual": 496936000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {

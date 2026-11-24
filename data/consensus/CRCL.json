@@ -1,9 +1,9 @@
 {
   "ticker": "CRCL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
-  "targetMean": 102.3675,
+  "targetMean": 101.8675,
   "targetHigh": 243,
   "targetLow": 34,
   "recommendationKey": "buy",
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.43,
       "epsEstimate": 0.16199,
-      "revenueActual": 36836000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.21,
       "epsEstimate": 0.1771,
-      "revenueActual": 41625000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.18,
       "epsEstimate": 0.15958,
-      "revenueActual": 33582000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 0.84,
       "epsEstimate": 0.39063,
-      "revenueActual": 207264000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

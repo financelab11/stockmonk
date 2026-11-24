@@ -1,7 +1,7 @@
 {
   "ticker": "RDDT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/RDDT/analysis",
   "targetMean": 148.46207,
   "targetHigh": 272,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.24,
       "epsEstimate": 0.93136,
-      "revenueActual": 725607000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.01,
       "epsEstimate": 0.56388,
-      "revenueActual": 663411000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 1.25,
       "epsEstimate": 0.96481,
-      "revenueActual": 804905000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 1.4,
       "epsEstimate": 1.3258,
-      "revenueActual": 894957000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

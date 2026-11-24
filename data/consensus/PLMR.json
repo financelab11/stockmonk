@@ -1,7 +1,7 @@
 {
   "ticker": "PLMR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/PLMR/analysis",
   "targetMean": 168.83333,
   "targetHigh": 181,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 2.24,
       "epsEstimate": 2.09224,
-      "revenueActual": 253363000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 2.31,
       "epsEstimate": 2.19714,
-      "revenueActual": 278938000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 2.36,
       "epsEstimate": 2.21448,
-      "revenueActual": 314423000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 3.01,
       "epsEstimate": 2.58794,
-      "revenueActual": 386590000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

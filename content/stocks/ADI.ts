@@ -7,20 +7,20 @@ export const ADI: StockStory = {
   "dek": "The company's revenue falls and rises with the industrial and automotive inventory cycle, not with a consumer product launch. The trailing margin of 35.5% is a recovery number, and the question is how much of it is structural.",
   "readingMinutes": 9,
   "takeaways": [
-    "Trailing revenue of $13.9B is up 33.6%, and the 35.5% operating margin is a recovery from 21.6% in FY2024.",
-    "Industrial and automotive are the core at 44.7% and 29.7% of revenue, so the cycle in capital spending still sets the earnings path.",
-    "Free cash flow of $4.9B is a 35.6% margin, and net debt of $6.8B is 1.3x EBITDA.",
-    "At 44.4x earnings the shares price a full recovery, while 10.2% ROIC trails the 22.6% peer median on acquired capital."
+    "Revenue: $13.9B trailing twelve months, +33.6% year over year.",
+    "Profitability: 35.5% operating margin and 29.8% net margin.",
+    "Cash: $4.9B free cash flow, a 35.6% margin.",
+    "Factor summary: 58/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/6281/000000628125000153/adi-20251101.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000006281&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Analog Devices is late in a recovery, not at the start of one. Revenue rose 33.6% over the trailing year to $13.9B, and the quarter ended 1 August 2026 produced $4.0B at a 40.1% operating margin, against $2.9B and 28.4% a year earlier. The improvement is mostly utilisation: the company owns fabs, so incremental volume drops through to gross profit at a high rate. Trailing gross margin of 65.8% and operating margin of 35.5% are the evidence, and both are close to the best levels in the record.",
-      "The end-market mix explains why the cycle has been sharp in both directions. Industrial is 44.7% of revenue and automotive 29.7%, so three-quarters of the business depends on capital spending and vehicle production rather than on consumer launches. Both are design-win markets with long qualification cycles: a part that passes an automotive qualification stays on the board for years, which supports the 65.8% gross margin. The flip side is inventory. When distributors stop restocking, revenue falls before end demand does, which is what happened in FY2024 when revenue dropped 23.4%.",
-      "The valuation is the unresolved part. At $379 the shares trade at 44.4x trailing earnings, 35.6x EV/EBITDA and 37.2x free cash flow, against a 31.0x peer earnings multiple and 24.8x EV/EBITDA. Net debt of $6.8B is 1.3x EBITDA, a legacy of acquisitions, and return on invested capital of 10.2% sits below the 22.6% peer median, while return on equity is 12.3%. The gap is mostly acquired goodwill in the capital base, not weak operations. The question is whether a 40% operating margin is a new floor or the top of a cycle."
+      "Analog Devices, Inc. Generated $13.9B of revenue over the last twelve months, +33.6% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
+      "The latest reported quarter was Q3 FY26, with $4B of revenue and an operating margin of 40.1%. The stock closed at $378.75 on 2026-11-23, giving a market capitalization of $183.5B.",
+      "The shares sit 69% of the way up their 52-week range ($229.29 to $445.91). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
-    "quote": "Analog Devices owns fabs that cost the same when they are idle, so the 40.1% operating margin is a utilisation number as much as a franchise number."
+    "quote": "ADI is a Technology business with $13.9B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -38,50 +38,46 @@ export const ADI: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "The revenue path is a clean cycle. Revenue was $12.3B in FY2023, fell to $9.4B in FY2024, recovered to $11.0B in FY2025 and reached $13.9B on a trailing basis. The quarterly sequence through FY2026 was $3.2B, $3.6B and $4.0B, so the second derivative is still positive. Consensus expects $15.1B in FY2026, up 37.3%, and $18.4B in FY2027, up 21.6%. The forecast assumes the recovery continues but at half the current pace, which is a reasonable description of a restock that matures into end demand.",
-      "The durable part of the mix is industrial and automotive, at 44.7% and 29.7%. Communications and consumer, at 12.5% and 13.0%, are smaller and more cyclical, so they can swing the quarterly rate without changing the franchise. Non-US revenue is 70.6%, which adds currency and regional capex exposure. Backlog and book-to-bill are not disclosed, so the design-win pipeline has to be inferred from end-market revenue and from the gross margin, which is the best available signal that utilisation is rising.",
-      "The consensus shape is more demanding than the headline. FY2027 EPS of $16.52 would be 28.3% above FY2026's $12.88, on revenue growth of 21.6%. That implies margin expansion continues even as revenue growth slows, which is possible only if the mix shifts toward higher-value industrial and automotive parts. If the recovery is mostly restocking, the operating margin will peak before the revenue line does, and the estimate will be too high."
+      "Revenue compounded at 8.5% a year across the fiscal years in the dataset, and the latest quarter changed +39.6% year over year. Third-party estimates for the current fiscal year point to $18.5B of revenue and $16.54 of EPS.",
+      "Growth matters when it produces a return on capital. The operating margin of 35.5% and return on invested capital of 10.2% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
-        "title": "Industrial automation",
-        "detail": "44.7% of revenue, spread across many customers and low unit volumes. It is the most durable end market and the slowest to turn."
+        "title": "Product cycle",
+        "detail": "New products and platform transitions create refresh demand and pricing power."
       },
       {
-        "title": "Automotive qualification",
-        "detail": "29.7% of revenue. Safety and electrification content grows per vehicle, but design wins take years to convert into shipments."
+        "title": "Customer expansion",
+        "detail": "Land-and-expand selling raises revenue per existing customer and lengthens the relationship."
       },
       {
-        "title": "Owned fabs",
-        "detail": "Internal capacity protects process know-how and supply. It also puts depreciation on the income statement when orders slow."
+        "title": "Operating leverage",
+        "detail": "Incremental revenue can carry high gross margins once development and sales costs are in place."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Margin progression is almost entirely operating leverage. Gross margin went from 57.1% in FY2024 to 61.5% in FY2025 and 65.8% on a trailing basis; operating margin went from 21.6% to 26.6% and then 35.5%. Revenue rose 33.6% over the trailing year while operating income rose faster, which is what a fixed-cost fab base does when utilisation improves. The August quarter's 40.1% operating margin compared with 28.4% in the August 2025 quarter, on revenue that rose from $2.9B to $4.0B.",
-      "Returns are the weak spot. Return on invested capital is 10.2% and return on equity 12.3%, against a 22.6% peer median. That shortfall is not a margin problem: the operating margin is above the 27.7% peer median. It is a capital problem, because acquisitions left goodwill and intangibles in the invested-capital base. A higher ROIC would need either better operating profit or a smaller capital base, and neither happens quickly. The 1.3x leverage is comfortable, but it makes the equity more sensitive to the next downturn than the margin alone suggests.",
-      "The comparison with Broadcom is instructive. Broadcom reported a 48.0% operating margin, a 24.8% ROIC, 48.7% revenue growth and trades at 38.6x earnings. Analog Devices has the higher gross margin but the lower return on capital, because its balance sheet carries the cost of past deals. The market is paying 44.4x for ADI, a premium to Broadcom on earnings despite the lower ROIC and slower growth. That premium is for the analog franchise, but it leaves less room for a cyclical miss."
+      "The trailing operating margin is 35.5%, the net margin is 29.8% and diluted EPS is $8.42. The latest quarter's operating margin was 40.1%. The quarter shown is the latest reported period in the dataset.",
+      "Return on equity is 12.3%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow after capex was $4.9B, a 35.6% margin, and FY2025 operating cash flow of $4.8B came against $533.6M of capex. That spend is small against $13.9B of revenue, which is low for a company that owns fabs, because the heavy investment happened earlier and the current base is being utilised rather than expanded. Net debt of $6.8B is 1.3x EBITDA, and the 1.3% dividend yield absorbs a modest share of the cash generated.",
-      "The quarterly cash line is more volatile than the annual one. Free cash flow was $977.8M in Q1 FY2025, $729.2M in Q2, $1.1B in Q3 and $1.5B in Q4, then $1.3B, $734.3M and $1.5B in the first three quarters of FY2026. That pattern points to inventory and receivables moving with the cycle rather than to a change in the underlying economics. The cash conversion is real, but it is not smooth, and a single quarter should not be read as a trend.",
-      "Capital allocation has three claims: the dividend, debt reduction and acquisitions. The dividend yield of 1.3% is small relative to a 35.6% free-cash-flow margin, and net debt has fallen from $6.0B in FY2023 to $4.9B in FY2025 before rising to $6.8B on a trailing basis. The rise is worth watching because it coincided with the recovery, which suggests working capital or a small deal rather than a structural change. A company with a 10.2% ROIC should be cautious about paying premiums for more capacity."
+      "Free cash flow after capex over the trailing period was $4.9B, a 35.6% margin. Net debt is $6.8B. The cash figures are trailing twelve-month values unless the section says otherwise.",
+      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At $379 Analog Devices carries a 44.4x trailing multiple, 35.6x EV/EBITDA, 13.7x sales and 37.2x free cash flow. The peer set trades at 31.0x earnings and 24.8x EV/EBITDA, and the stock sits in the 69th and 79th percentiles respectively. The premium is not as extreme as Palantir's, but it is real for a cyclical business at a high point in its margin cycle. The 2.7% free-cash-flow yield is thin compensation for that risk.",
-      "Forward numbers change the picture. FY2026 EPS of $12.88 implies 29.4x, below the trailing multiple, and FY2027 EPS of $16.52 implies 22.9x. The de-rating depends on the estimates, which have moved only 3.6% over 90 days and 0.3% over 30 days. That stable revision pattern suggests the analysts are comfortable with the recovery but not adding to it. If the FY2027 number lands, the shares would be cheaper than the peer median for the first time in the cycle.",
-      "Broadcom sets the peer benchmark. It trades at 38.6x earnings and 34.9x EV/EBITDA with a 48.0% operating margin and a 24.8% ROIC; ADI trades at 44.4x and 35.6x with a 35.5% operating margin and a 10.2% ROIC. A higher multiple for a lower return on capital is hard to defend unless the automotive mix deserves it. The analog franchise is real, but the burden of proof sits with the FY2027 margin estimate."
+      "At the latest close the shares trade at 44.4x trailing earnings and 35.5x EV/EBITDA. The valuation reflects the growth and margin record described above, not for the past alone.",
+      "The attributed third-party mean target is $471.91; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "The 18 November 2026 Yahoo Finance snapshot draws on 33 analysts, with a mean target of $473 and a range of $365 to $675. The mean is above the $379 price even though the low end is below it, so the bullish consensus still contains a real bear case.",
-      "FY2026 estimates are $15.1B of revenue and $12.88 of EPS; FY2027 is $18.4B and $16.52. EPS revisions are plus 3.6% over 90 days but only plus 0.3% over 30 days, so the upgrade cycle has slowed. The consensus assumes the August quarter's $4.3B revenue, up 40.4%, and then FY2027 growth of 21.6%, which is the point at which the restock has to become end demand."
+      "32 analysts contribute to the third-party consensus. The mean target is $471.91, with a range of $365.00 to $675.00. The consensus is a third-party snapshot and can change without notice.",
+      "Current-year estimates call for $18.5B of revenue and $16.54 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
     ]
   },
   "risks": {
@@ -146,6 +142,6 @@ export const ADI: StockStory = {
       "What would a repeat of the FY2024 downturn do to the current multiple?"
     ]
   },
-  "narrativeSource": "curated",
+  "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-24"
 };

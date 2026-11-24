@@ -101,6 +101,8 @@ async function main() {
         generatedAt: new Date().toISOString(),
         providers: ["Yahoo Finance", "Nasdaq"],
         note: "Third-party analyst consensus, shown with attribution. Not a Stockmonk rating or price target.",
+        succeeded: summary.filter((row) => !row.error).length,
+        failed: summary.filter((row) => row.error).length,
         tickers: summary,
       },
       null,

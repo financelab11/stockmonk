@@ -7,20 +7,20 @@ export const MP: StockStory = {
   "dek": "A 60% gross margin and a negative operating margin in the same year. The gap is the cost of building a magnet business downstream of a commodity.",
   "readingMinutes": 9,
   "takeaways": [
-    "September-quarter revenue of $147.7M was almost three times the $53.6M of a year earlier, but the operating margin was still -14.9%.",
-    "Magnetics supplied 29.8% of 2025 revenue and Materials 71.5%, so the downstream share is still the smaller half of the business.",
-    "Trailing free cash flow of -$537.3M exceeds the $401.7M net cash balance, which makes the pace of the magnet build a financing question.",
-    "At 15.1x sales and 129.9x EBITDA, the equity is priced on 2027 magnet volumes that the reported accounts do not yet contain."
+    "Revenue: $399.5M trailing twelve months, +71.6% year over year.",
+    "Profitability: -20.5% operating margin and -9.9% net margin.",
+    "Cash: -$537.3M free cash flow, a -134.5% margin.",
+    "Factor summary: 44/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001801368&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Mountain Pass sold $147.7M of material in the September 2026 quarter, almost three times the $53.6M of a year earlier, and the operating loss narrowed to 14.9% of revenue from 125.2%. That is the first quarter in which the top line looks like a magnet business rather than a concentrate business, because the downstream lines are now large enough to move group revenue. The loss is still a loss: every dollar of sales still left about 15 cents of operating loss below the gross profit line.",
-      "Materials, which covers concentrate and separated oxide, supplied 71.5% of 2025 revenue; Magnetics supplied 29.8%. The upstream business can earn a 60.4% gross margin because the ore body is already mined and the separation circuits are built. The magnet business cannot yet, because metal, alloy and finished-magnet lines carry commissioning costs and qualification scrap before they carry volume. Two sets of economics share one income statement, and the second is still being paid for.",
-      "The equity is valued at $6.4B, or 15.1x trailing sales and 129.9x EBITDA, on a company with negative free cash flow of $537.3M and $401.7M of net cash. That combination only makes sense if the magnet plant reaches qualified volume before the cash runs down. The capital question is therefore not whether Mountain Pass is a good mine, but whether the conversion margin on magnets is wide enough to earn a return on the $172.4M of capex spent in FY2025."
+      "MP Materials Corp. Generated $399.5M of revenue over the last twelve months, +71.6% versus the prior year. The opportunity is large but early; permits, financing and construction execution determine who captures it.",
+      "The latest reported quarter was Q3 FY26, with $147.7M of revenue and an operating margin of -14.9%. The stock closed at $35.54 on 2026-11-23, giving a market capitalization of $6.3B.",
+      "The shares sit 8% of the way up their 52-week range ($31.90 to $76.80). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
-    "quote": "A 60% gross margin and a negative operating margin describe two businesses sharing one ore body, and only one of them has a price."
+    "quote": "MP is a Nuclear, Metals & Energy business with $399.5M of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,46 +52,46 @@ export const MP: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Magnetics is the growth engine and the reason consensus expects $466.6M of revenue in FY2026 and $716.3M in FY2027, increases of 107.9% and 53.5%. That forecast requires the downstream lines to become the majority of revenue within two years, from 29.8% in 2025. The reported evidence is directional: quarterly revenue moved from $52.7M in December 2025 to $90.6M, $108.5M and $147.7M in the three quarters since. What the accounts do not show is how much of that is magnet material rather than oxide.",
-      "The upstream base is not a stable foundation. Revenue was $527.5M in FY2022, when rare earth prices were high, and $224.4M in FY2025, when they were not. A 53.5% revenue increase in FY2027 therefore has to come from volume and downstream mix, not from a price recovery the company does not control. Durability depends on qualification: automotive and defence buyers audit a supplier's process before they award a part, and a qualified plant sells at a negotiated conversion price rather than a spot oxide price."
+      "Revenue compounded at 20.6% a year across the fiscal years in the dataset, and the latest quarter changed +175.7% year over year. Third-party estimates for the current fiscal year point to $467.9M of revenue and -$0.05 of EPS.",
+      "Growth matters when it produces a return on capital. The operating margin of -20.5% and return on invested capital of -2.2% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
-        "title": "Magnet qualification",
-        "detail": "Each automotive and defence part is qualified on a specific line and specification, so volume arrives after audits rather than with capacity."
+        "title": "Power demand",
+        "detail": "Data centers and electrification are increasing long-run electricity demand."
       },
       {
-        "title": "Upstream price",
-        "detail": "FY2022 revenue of $527.5M against FY2025's $224.4M shows how far the oxide price alone can move the top line."
+        "title": "Policy support",
+        "detail": "Tax credits and government programmes can improve project economics."
       },
       {
-        "title": "Capital commitment",
-        "detail": "Capex of $172.4M in FY2025 and free cash flow of -$328.1M show the scale of the downstream build still in progress."
+        "title": "Contracted capacity",
+        "detail": "Long-term agreements can underwrite new build."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The gross line and the operating line tell different stories. Gross margin was 60.4%, which is what a low-cost ore body and a built separation plant produce at current prices. Operating margin was -20.5% trailing and -66.6% in FY2025, because depreciation, commissioning, development spending and corporate overhead sit below the gross line and do not fall when revenue is small. In the September quarter the operating margin improved to -14.9% as revenue scaled, which is the operating leverage the build is meant to deliver.",
-      "Below operating income, net margin was -9.9% trailing, better than the operating margin because the December 2025 quarter produced a 17.9% net margin on a -7.0% operating margin. That gap is non-operating, not operating, and it should not be extrapolated. Return on invested capital was -2.2% and return on equity -2.0%, against 17.4% and 27.7% at ATI and 32.2% at Texas Pacific Land. The comparison is unfair to a plant under construction, but it measures how much capital is currently idle."
+      "The trailing operating margin is -20.5%, the net margin is -9.9% and diluted EPS is -$0.20. The latest quarter's operating margin was -14.9%. The quarter shown is the latest reported period in the dataset.",
+      "Return on equity is -2.0%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Operating cash flow was -$155.8M in FY2025 against $172.4M of capex, producing free cash flow of -$328.1M. The trailing figure is -$537.3M, and the quarterly pattern is uneven: -$79.3M in March 2026, -$223.5M in June and -$125.2M in September. The June outflow is the one to note, because it came in a quarter when revenue rose; that points to working capital and construction spending rather than to a demand problem.",
-      "Net cash of $401.7M is the funding source, and the last two quarters alone consumed $348.7M of it. The reported net-debt-to-EBITDA ratio of -8.7x is not meaningful when EBITDA is negative, so the useful measure is the cash balance against the quarterly outflow. At the September run rate the balance does not cover another year, which makes the pace of the magnet build a financing question as much as an operating one."
+      "Free cash flow after capex over the trailing period was -$537.3M, a -134.5% margin. The balance sheet carries $401.7M of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
+      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "The EV/Sales multiple of 15.1x carries the argument, because the EBITDA base is too small for 129.9x to be read conventionally. The peer median is 21.9x EV/EBITDA and 23.9x earnings; ATI trades at 25.6x EBITDA on a 16.5% operating margin, Coeur at 6.0x on 29.7%. MP sits between a miner and a manufacturer, and closer to the manufacturer. A miner is valued on reserves and a manufacturer on conversion margin, and the reported mix still leans to the former.",
-      "On the FY2027 consensus of $0.44, the shares at $36 are valued at about 82x earnings. That is a manufacturing multiple applied to a business that has not yet reported a full year of magnet revenue. What would justify it is evidence that Magnetics earns a conversion margin above the upstream spread; what would break it is a commissioning delay or a funding raise at a lower price. The $40 low end of the analyst range is the published estimate of the second case."
+      "At the latest close the shares trade with no meaningful trailing earnings multiple and 128.0x EV/EBITDA. The valuation reflects the growth and margin record described above, not for the past alone.",
+      "The attributed third-party mean target is $64.50; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "Sixteen analysts cover the stock, and the mean target of $68 sits 89% above the $36 price, with a range of $40 to $100. That dispersion is unusually wide for a company with one mine and one build, and it reflects different assumptions about when magnet volume arrives rather than different views on the ore body. The published analyst views sit almost entirely at the positive end.",
-      "Revisions are the more useful signal. The 30-day EPS change is -511.3% and the 60-day change -265.4%, while the 90-day change is +772.3%; the estimates are being reset around a small earnings base rather than revised in one direction. The September quarter beat by $0.05, following a $0.07 beat in March, which suggests the near-term bar is low. The FY2027 estimate of $0.44 is the number that matters, and it is not yet supported by a reported magnet margin."
+      "16 analysts contribute to the third-party consensus. The mean target is $64.50, with a range of $40.00 to $100.00. The consensus is a third-party snapshot and can change without notice.",
+      "Current-year estimates call for $467.9M of revenue and -$0.05 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
     ]
   },
   "risks": {
@@ -156,6 +156,6 @@ export const MP: StockStory = {
       "How much of the downstream output is contracted with qualified customers?"
     ]
   },
-  "narrativeSource": "curated",
+  "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-24"
 };

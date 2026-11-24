@@ -1,9 +1,9 @@
 {
   "ticker": "S",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/S/analysis",
-  "targetMean": 24.91667,
+  "targetMean": 25.15,
   "targetHigh": 31,
   "targetLow": 17.5,
   "recommendationKey": "buy",
@@ -59,7 +59,7 @@
       "endDate": "2025-10-31",
       "epsActual": 0.07,
       "epsEstimate": 0.05324,
-      "revenueActual": 258913000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-01-31",
       "epsActual": 0.07,
       "epsEstimate": 0.05879,
-      "revenueActual": 271153000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-04-30",
       "epsActual": 0.04,
       "epsEstimate": 0.02127,
-      "revenueActual": 276657000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-07-31",
       "epsActual": 0.08,
       "epsEstimate": 0.07183,
-      "revenueActual": 291981000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -99,7 +99,7 @@
     "eps7d": 0,
     "eps30d": 0,
     "eps60d": 0,
-    "eps90d": -0.08195119146856755,
+    "eps90d": -0.08187201747829587,
     "revenue30d": null
   }
 }

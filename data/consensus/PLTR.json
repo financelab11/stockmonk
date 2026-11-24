@@ -1,7 +1,7 @@
 {
   "ticker": "PLTR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/PLTR/analysis",
   "targetMean": 222.9,
   "targetHigh": 273,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.25,
       "epsEstimate": 0.2302,
-      "revenueActual": 1406802000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.33,
       "epsEstimate": 0.27946,
-      "revenueActual": 1632583000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.41,
       "epsEstimate": 0.34596,
-      "revenueActual": 1935464000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 0.44,
       "epsEstimate": 0.40585,
-      "revenueActual": 2313411000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

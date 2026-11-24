@@ -1,7 +1,7 @@
 {
   "ticker": "ACHR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/ACHR/analysis",
   "targetMean": 9.98333,
   "targetHigh": 18,
@@ -21,7 +21,7 @@
       "endDate": "2026-12-31",
       "revenueAvg": 5640140,
       "revenueGrowth": 17.8005,
-      "epsAvg": -0.34,
+      "epsAvg": -0.33,
       "epsGrowth": null,
       "analystCount": 2
     },
@@ -30,7 +30,7 @@
       "endDate": "2027-03-31",
       "revenueAvg": 8070670,
       "revenueGrowth": 4.0442,
-      "epsAvg": -0.36,
+      "epsAvg": -0.35,
       "epsGrowth": null,
       "analystCount": 1
     },
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": -0.187,
       "epsEstimate": -0.24437,
-      "revenueActual": 1600000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
     "endDate": "2026-12-31",
     "revenueAvg": 5640140,
     "revenueGrowth": 17.8005,
-    "epsAvg": -0.34,
+    "epsAvg": -0.33,
     "epsGrowth": null,
     "analystCount": 2
   },

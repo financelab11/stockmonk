@@ -1,17 +1,17 @@
 {
   "ticker": "PEP",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/PEP/analysis",
-  "targetMean": 141.45454,
-  "targetHigh": 169,
+  "targetMean": 141.13635,
+  "targetHigh": 165,
   "targetLow": 106,
   "recommendationKey": "hold",
   "analystCount": 22,
   "distribution": {
     "strongBuy": 3,
     "buy": 3,
-    "hold": 16,
+    "hold": 17,
     "sell": 1,
     "strongSell": 1
   },
@@ -21,9 +21,9 @@
       "endDate": "2026-12-31",
       "revenueAvg": 30430699710,
       "revenueGrowth": 0.037100002,
-      "epsAvg": 2.23796,
-      "epsGrowth": -0.0098,
-      "analystCount": 17
+      "epsAvg": 2.24085,
+      "epsGrowth": -0.0085,
+      "analystCount": 18
     },
     {
       "period": "Following quarter",
@@ -37,20 +37,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 99246314700,
-      "revenueGrowth": 0.056700002,
-      "epsAvg": 8.41613,
-      "epsGrowth": 0.0339,
+      "revenueAvg": 99345997930,
+      "revenueGrowth": 0.0577,
+      "epsAvg": 8.3983,
+      "epsGrowth": 0.0317,
       "analystCount": 23
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 101765362540,
+      "revenueAvg": 101868217780,
       "revenueGrowth": 0.0254,
-      "epsAvg": 8.61272,
-      "epsGrowth": 0.0234,
-      "analystCount": 23
+      "epsAvg": 8.59386,
+      "epsGrowth": 0.0233,
+      "analystCount": 24
     }
   ],
   "history": [
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 2.26,
       "epsEstimate": 2.23709,
-      "revenueActual": 29343000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.61,
       "epsEstimate": 1.55188,
-      "revenueActual": 19443000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 30430699710,
     "revenueGrowth": 0.037100002,
-    "epsAvg": 2.23796,
-    "epsGrowth": -0.0098,
-    "analystCount": 17
+    "epsAvg": 2.24085,
+    "epsGrowth": -0.0085,
+    "analystCount": 18
   },
   "revisions": {
-    "eps7d": -0.0008263000870226689,
-    "eps30d": 0.002512197678629313,
-    "eps60d": -0.016667095076634775,
-    "eps90d": -0.016667095076634775,
+    "eps7d": -0.0012344386990585932,
+    "eps30d": 0.0003883245344871167,
+    "eps60d": -0.018750335912361304,
+    "eps90d": -0.018750335912361304,
     "revenue30d": null
   }
 }

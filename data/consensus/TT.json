@@ -1,7 +1,7 @@
 {
   "ticker": "TT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/TT/analysis",
   "targetMean": 516.5139,
   "targetHigh": 599,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 2.86,
       "epsEstimate": 2.81413,
-      "revenueActual": 5144500000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 2.63,
       "epsEstimate": 2.53042,
-      "revenueActual": 4969400000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 4.31,
       "epsEstimate": 4.26108,
-      "revenueActual": 6353500000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 4.86,
       "epsEstimate": 4.73709,
-      "revenueActual": 6759700000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": 0.00001572371339086942,
-    "eps30d": -0.000169653618403931,
+    "eps7d": 0,
+    "eps30d": -0.0009287864903784193,
     "eps60d": -0.0003746022307169472,
-    "eps90d": 0.002759857572691704,
+    "eps90d": 0.0008169768577863668,
     "revenue30d": null
   }
 }

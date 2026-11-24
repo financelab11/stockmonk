@@ -1,7 +1,7 @@
 {
   "ticker": "CAT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/CAT/analysis",
   "targetMean": 807.2604,
   "targetHigh": 1027,
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 88541444010,
-      "revenueGrowth": 0.115600005,
+      "revenueAvg": 88576973420,
+      "revenueGrowth": 0.1161,
       "epsAvg": 32.1774,
       "epsGrowth": 0.19049999,
       "analystCount": 27
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 5.16,
       "epsEstimate": 4.71207,
-      "revenueActual": 19133000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 5.54,
       "epsEstimate": 4.64388,
-      "revenueActual": 17415000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 8.17,
       "epsEstimate": 6.19742,
-      "revenueActual": 20543000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 7.2,
       "epsEstimate": 7.03346,
-      "revenueActual": 20682000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 21
   },
   "revisions": {
-    "eps7d": -0.003375367486958991,
-    "eps30d": -0.006308076639565119,
+    "eps7d": -0.004080443019527813,
+    "eps30d": -0.011011942441515377,
     "eps60d": -0.005815371339598974,
-    "eps90d": -0.0013150281221665505,
+    "eps90d": -0.010115485739252805,
     "revenue30d": null
   }
 }

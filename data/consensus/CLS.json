@@ -1,7 +1,7 @@
 {
   "ticker": "CLS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/CLS/analysis",
   "targetMean": 456.17014,
   "targetHigh": 535,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.89,
       "epsEstimate": 1.76198,
-      "revenueActual": 3654900000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 2.16,
       "epsEstimate": 2.11606,
-      "revenueActual": 4047000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 2.54,
       "epsEstimate": 2.30818,
-      "revenueActual": 4698600000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 3.3,
       "epsEstimate": 2.95963,
-      "revenueActual": 5829700000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

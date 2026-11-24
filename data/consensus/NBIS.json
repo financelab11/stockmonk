@@ -1,17 +1,17 @@
 {
   "ticker": "NBIS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/NBIS/analysis",
-  "targetMean": 234.5,
-  "targetHigh": 395,
+  "targetMean": 231.6,
+  "targetHigh": 380,
   "targetLow": 84,
   "recommendationKey": "buy",
   "analystCount": 20,
   "distribution": {
-    "strongBuy": 2,
+    "strongBuy": 3,
     "buy": 13,
-    "hold": 6,
+    "hold": 5,
     "sell": 1,
     "strongSell": 0
   },
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 1175558140,
-      "revenueGrowth": 4.1626997,
+      "revenueAvg": 1178187600,
+      "revenueGrowth": 4.1742997,
       "epsAvg": -1.434,
       "epsGrowth": -0.45360002,
       "analystCount": 5
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 3162767680,
-      "revenueGrowth": 4.9697,
+      "revenueAvg": 3163424800,
+      "revenueGrowth": 4.971,
       "epsAvg": -0.29375,
       "epsGrowth": null,
       "analystCount": 8
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 12363845370,
-      "revenueGrowth": 2.9092002,
+      "revenueAvg": 12331623760,
+      "revenueGrowth": 2.8982,
       "epsAvg": -5.30594,
       "epsGrowth": -17.0628,
       "analystCount": 9
@@ -89,8 +89,8 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 1175558140,
-    "revenueGrowth": 4.1626997,
+    "revenueAvg": 1178187600,
+    "revenueGrowth": 4.1742997,
     "epsAvg": -1.434,
     "epsGrowth": -0.45360002,
     "analystCount": 5

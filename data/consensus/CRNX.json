@@ -1,7 +1,7 @@
 {
   "ticker": "CRNX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/CRNX/analysis",
   "targetMean": 85,
   "targetHigh": 85,

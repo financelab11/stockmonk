@@ -1,7 +1,7 @@
 {
   "ticker": "ANET",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/ANET/analysis",
   "targetMean": 249.64662,
   "targetHigh": 305,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.82,
       "epsEstimate": 0.75804,
-      "revenueActual": 2487800000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.87,
       "epsEstimate": 0.80761,
-      "revenueActual": 2709000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 1.02,
       "epsEstimate": 0.88559,
-      "revenueActual": 3035700000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 1.2,
       "epsEstimate": 1.07891,
-      "revenueActual": 3657600000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,8 +96,8 @@
     "analystCount": 25
   },
   "revisions": {
-    "eps7d": 0.06313912760448304,
-    "eps30d": 0.06330959021252203,
+    "eps7d": 0,
+    "eps30d": 0.06312621599760981,
     "eps60d": 0.06422999863837053,
     "eps90d": 0.06414202564514015,
     "revenue30d": null

@@ -1,16 +1,16 @@
 {
   "ticker": "LITE",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/LITE/analysis",
-  "targetMean": 1064.754,
+  "targetMean": 1048.3403,
   "targetHigh": 1425,
-  "targetLow": 659,
+  "targetLow": 638,
   "recommendationKey": "buy",
-  "analystCount": 25,
+  "analystCount": 26,
   "distribution": {
     "strongBuy": 3,
-    "buy": 16,
+    "buy": 17,
     "hold": 6,
     "sell": 0,
     "strongSell": 0
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-06-30",
-      "revenueAvg": 6664425250,
-      "revenueGrowth": 1.2112,
+      "revenueAvg": 6640178650,
+      "revenueGrowth": 1.2031,
       "epsAvg": 24.93987,
       "epsGrowth": 1.8766,
       "analystCount": 21
@@ -47,7 +47,7 @@
       "period": "Next fiscal year",
       "endDate": "2028-06-30",
       "revenueAvg": 10525471320,
-      "revenueGrowth": 0.5794,
+      "revenueGrowth": 0.5851,
       "epsAvg": 40.13453,
       "epsGrowth": 0.6093,
       "analystCount": 22
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.67,
       "epsEstimate": 1.40853,
-      "revenueActual": 665500000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 2.37,
       "epsEstimate": 2.26526,
-      "revenueActual": 808400000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 3.23,
       "epsEstimate": 2.96892,
-      "revenueActual": 1006300000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 4.57,
       "epsEstimate": 4.22394,
-      "revenueActual": 1262600000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": 0.001960542475675009,
-    "eps30d": 0.14493828135329268,
-    "eps60d": 0.15235091902081987,
-    "eps90d": 0.15316453764750437,
+    "eps7d": 0,
+    "eps30d": 0.15006116937021585,
+    "eps60d": 0.15086359057468246,
+    "eps90d": 0.15335652082226336,
     "revenue30d": null
   }
 }

@@ -13,12 +13,24 @@ import type { StockStory } from "../content/stocks/types";
 
 const REWRITES = path.join(process.cwd(), "data", "raw", "rewrites");
 const STORIES = path.join(process.cwd(), "content", "stocks");
-const ONLY = process.argv.find((arg) => arg.startsWith("--batch="))?.split("=")[1];
+const ONLY = process.argv
+  .find((arg) => arg.startsWith("--batch="))
+  ?.split("=")[1];
 
 type Rewrite = {
   ticker: string;
+  generatedAt?: string;
+  model?: string;
+  source?: "curated" | "auto-curated" | "generated";
+  title?: string;
+  dek?: string;
   takeaways: string[];
   bigPicture: { paragraphs: string[]; quote: string };
+  whatItDoes?: {
+    paragraphs: string[];
+    bullets?: Array<{ title: string; detail: string }>;
+  };
+  howItMakesMoney?: { paragraphs: string[] };
   growth: {
     paragraphs: string[];
     bullets: Array<{ title: string; detail: string }>;
@@ -27,6 +39,17 @@ type Rewrite = {
   cash: { paragraphs: string[] };
   valuation: { paragraphs: string[] };
   analysts: { paragraphs: string[] };
+  risks?: {
+    intro: string;
+    items: Array<{
+      title: string;
+      severity: "High" | "Medium" | "Low";
+      detail: string;
+      watch: string;
+    }>;
+    watchlist: Array<{ title: string; detail: string }>;
+  };
+  bottomLine?: { paragraphs: string[]; questions: string[] };
 };
 
 function readJson<T>(file: string): T {
@@ -188,13 +211,18 @@ function diversifyOpening(
   return text;
 }
 
-function normalizeAnalystLanguage(ticker: string, paragraphs: string[]): string[] {
+function normalizeAnalystLanguage(
+  ticker: string,
+  paragraphs: string[],
+): string[] {
   return paragraphs.map((paragraph) =>
     paragraph
       .split(/(?<=[.!?])\s+/)
       .map((sentence) => {
-        const hasRatingLabel = /strong buys?|strong sells?|\bsells?\b|\bholds?\b/i.test(sentence);
-        if (!/distribution is/i.test(sentence) && !hasRatingLabel) return sentence;
+        const hasRatingLabel =
+          /strong buys?|strong sells?|\bsells?\b|\bholds?\b/i.test(sentence);
+        if (!/distribution is/i.test(sentence) && !hasRatingLabel)
+          return sentence;
         const matches = [
           ...sentence.matchAll(
             /(\d+)\s+(strong buys?|buys?|holds?|strong sells?|sells?)\b/gi,
@@ -207,7 +235,11 @@ function normalizeAnalystLanguage(ticker: string, paragraphs: string[]): string[
         for (const match of matches) {
           const count = Number(match[1]);
           const label = match[2].toLowerCase();
-          if (label.startsWith("strong buy") || label === "buy" || label === "buys") {
+          if (
+            label.startsWith("strong buy") ||
+            label === "buy" ||
+            label === "buys"
+          ) {
             positive += count;
           } else if (label.startsWith("hold")) {
             neutral += count;
@@ -240,13 +272,38 @@ function merge(story: StockStory, rewrite: Rewrite): StockStory {
     throw new Error(`${rewrite.ticker}: takeaways must be 4 bullets`);
   }
   if (rewrite.bigPicture.paragraphs.length < 2) {
-    throw new Error(`${rewrite.ticker}: bigPicture needs at least 2 paragraphs`);
+    throw new Error(
+      `${rewrite.ticker}: bigPicture needs at least 2 paragraphs`,
+    );
   }
   if (rewrite.growth.bullets.length !== 3) {
     throw new Error(`${rewrite.ticker}: growth needs exactly 3 bullets`);
   }
+  if (rewrite.whatItDoes && rewrite.whatItDoes.paragraphs.length < 1) {
+    throw new Error(`${rewrite.ticker}: whatItDoes needs at least 1 paragraph`);
+  }
+  if (
+    rewrite.howItMakesMoney &&
+    rewrite.howItMakesMoney.paragraphs.length < 1
+  ) {
+    throw new Error(
+      `${rewrite.ticker}: howItMakesMoney needs at least 1 paragraph`,
+    );
+  }
+  if (rewrite.risks && rewrite.risks.items.length < 3) {
+    throw new Error(`${rewrite.ticker}: risks needs at least 3 items`);
+  }
+  if (rewrite.bottomLine && rewrite.bottomLine.paragraphs.length < 1) {
+    throw new Error(`${rewrite.ticker}: bottomLine needs at least 1 paragraph`);
+  }
+
+  const updatedAt =
+    rewrite.generatedAt?.slice(0, 10) ?? new Date().toISOString().slice(0, 10);
+
   return {
     ...story,
+    title: rewrite.title?.trim() || story.title,
+    dek: rewrite.dek?.trim() || story.dek,
     takeaways: rewrite.takeaways,
     bigPicture: {
       ...story.bigPicture,
@@ -255,6 +312,19 @@ function merge(story: StockStory, rewrite: Rewrite): StockStory {
       ),
       quote: rewrite.bigPicture.quote,
     },
+    whatItDoes: rewrite.whatItDoes
+      ? {
+          ...story.whatItDoes,
+          paragraphs: rewrite.whatItDoes.paragraphs,
+          bullets: rewrite.whatItDoes.bullets ?? story.whatItDoes.bullets,
+        }
+      : story.whatItDoes,
+    howItMakesMoney: rewrite.howItMakesMoney
+      ? {
+          ...story.howItMakesMoney,
+          paragraphs: rewrite.howItMakesMoney.paragraphs,
+        }
+      : story.howItMakesMoney,
     growth: {
       ...story.growth,
       paragraphs: rewrite.growth.paragraphs.map((paragraph) =>
@@ -289,31 +359,58 @@ function merge(story: StockStory, rewrite: Rewrite): StockStory {
         ),
       ),
     },
-    narrativeSource: "curated",
-    narrativeUpdatedAt: "2026-11-24",
+    risks: rewrite.risks
+      ? {
+          intro: rewrite.risks.intro,
+          items: rewrite.risks.items,
+          watchlist: rewrite.risks.watchlist,
+        }
+      : story.risks,
+    bottomLine: rewrite.bottomLine
+      ? {
+          paragraphs: rewrite.bottomLine.paragraphs,
+          questions: rewrite.bottomLine.questions,
+        }
+      : story.bottomLine,
+    narrativeSource: rewrite.source ?? "curated",
+    narrativeUpdatedAt: updatedAt,
   };
 }
 
-const files = fs
-  .readdirSync(REWRITES)
-  .filter((file) => file.endsWith(".json") && file.startsWith("batch-"))
-  .filter((file) => !ONLY || file === `${ONLY}.json`)
-  .sort();
-
-let applied = 0;
-for (const file of files) {
-  const rewrites = readJson<Rewrite[]>(path.join(REWRITES, file));
-  for (const rewrite of rewrites) {
-    const story = STOCK_STORIES[rewrite.ticker] as StockStory | undefined;
-    if (!story) {
-      console.warn(`[rewrites] ${rewrite.ticker}: no story`);
-      continue;
+export function applyBatchFiles(files: string[]): number {
+  let applied = 0;
+  for (const file of files) {
+    const rewrites = readJson<Rewrite[]>(path.join(REWRITES, file));
+    for (const rewrite of rewrites) {
+      const story = STOCK_STORIES[rewrite.ticker] as StockStory | undefined;
+      if (!story) {
+        console.warn(`[rewrites] ${rewrite.ticker}: no story`);
+        continue;
+      }
+      const merged = merge(story, rewrite);
+      const target = path.join(STORIES, `${rewrite.ticker}.ts`);
+      fs.writeFileSync(target, serialize(target, merged), "utf8");
+      applied += 1;
+      console.log(`[rewrites] ${rewrite.ticker}: updated`);
     }
-    const merged = merge(story, rewrite);
-    const target = path.join(STORIES, `${rewrite.ticker}.ts`);
-    fs.writeFileSync(target, serialize(target, merged), "utf8");
-    applied += 1;
-    console.log(`[rewrites] ${rewrite.ticker}: updated`);
   }
+  return applied;
 }
-console.log(`[rewrites] ${applied} reports updated from ${files.length} batch files`);
+
+if (process.argv[1]?.includes("apply-research-rewrites")) {
+  const files = fs
+    .readdirSync(REWRITES)
+    .filter(
+      (file) =>
+        file.endsWith(".json") &&
+        (file.startsWith("batch-") ||
+          file.startsWith("auto-") ||
+          file.startsWith("full-")),
+    )
+    .filter((file) => !ONLY || file === `${ONLY}.json`)
+    .sort();
+  const applied = applyBatchFiles(files);
+  console.log(
+    `[rewrites] ${applied} reports updated from ${files.length} batch files`,
+  );
+}

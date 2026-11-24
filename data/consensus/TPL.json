@@ -1,12 +1,12 @@
 {
   "ticker": "TPL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/TPL/analysis",
   "targetMean": 444.5,
   "targetHigh": 639,
   "targetLow": 250,
-  "recommendationKey": "hold",
+  "recommendationKey": "none",
   "analystCount": 2,
   "distribution": {
     "strongBuy": 0,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.79,
       "epsEstimate": 3.59597,
-      "revenueActual": 211579000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 2.07,
       "epsEstimate": 2.02001,
-      "revenueActual": 236818000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 2.23,
       "epsEstimate": 2.18326,
-      "revenueActual": 246059000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 2.42,
       "epsEstimate": 2.32656,
-      "revenueActual": 273390000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

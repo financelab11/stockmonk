@@ -1,7 +1,7 @@
 {
   "ticker": "BLK",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/BLK/analysis",
   "targetMean": 1366,
   "targetHigh": 1531,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 13.16,
       "epsEstimate": 12.19178,
-      "revenueActual": 7008000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 12.53,
       "epsEstimate": 11.45866,
-      "revenueActual": 6698000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 13.91,
       "epsEstimate": 12.68929,
-      "revenueActual": 7084000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 15.93,
       "epsEstimate": 14.30163,
-      "revenueActual": 7752000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -99,7 +99,7 @@
     "eps7d": 0.0006351416950296507,
     "eps30d": 0.00038714338304557394,
     "eps60d": 0.028357876166254625,
-    "eps90d": 0.029298923134183363,
+    "eps90d": 0.029229007770681603,
     "revenue30d": null
   }
 }

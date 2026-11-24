@@ -7,20 +7,20 @@ export const HIMS: StockStory = {
   "dek": "Customers pay a monthly fee, then buy treatments for hair loss, sexual health, skin and weight loss. Marketing buys the subscriber; retention and repeat orders decide whether the economics work.",
   "readingMinutes": 9,
   "takeaways": [
-    "Trailing revenue of $2.6B grew 28.0%, but the operating margin fell to minus 6.0% as marketing and new-category spending outran gross profit.",
-    "Gross margin has fallen from 79.5% in FY2024 to 68.4%, an 11.1-point compression that changes the unit economics of every subscriber.",
-    "Free cash flow of $61.5M is 2.4% of revenue, down from $198.3M in FY2024, while capital expenditure rose to $242.6M.",
-    "Thirteen analysts carry a $28 mean target against a $15 share price, with most ratings neutral on the FY2026 loss."
+    "Revenue: $2.6B trailing twelve months, +28.0% year over year.",
+    "Profitability: -6.0% operating margin and -5.5% net margin.",
+    "Cash: $61.6M free cash flow, a 2.4% margin.",
+    "Factor summary: 45/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000022/hims-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001773751&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "The June quarter carried $753.2M of revenue and a minus 12.9% operating margin, the second consecutive quarter at that margin and a sharp reversal from the 2.0% recorded in Q3 FY2025. Q2 revenue growth of 38% alongside a margin collapse is the central tension: the subscription base is still expanding, but each additional dollar now costs more to acquire and serve. The spending pattern points to category and geographic expansion rather than margin defence, and the reported numbers show the cost of that choice before they show the benefit.",
-      "Hims & Hers sells hair-loss, sexual-health, dermatology, mental-health and weight-loss treatments through a monthly subscription that bundles clinical access with the product. The 94.3% of revenue booked in the United States means the international footprint is still small, and the weight-loss category puts the company in direct competition with telehealth rivals, retailers and the manufacturers of the drugs themselves. That competition is where the gross margin has gone: 79.5% in FY2024, 73.8% in FY2025 and 68.4% over the last twelve months.",
-      "The equity is valued at $3.6B, or 1.1x trailing sales, which is the multiple of a low-margin distributor rather than a healthcare platform. A 58.5x multiple of free cash flow and a 1.7% cash yield explain why: the market is not disputing the revenue base, it is disputing the profit pool. Rebuilding operating margin toward the FY2025 level without giving up growth is what would close the gap to peers such as Madrigal at 6.1x sales or Rhythm at 27.0x."
+      "Hims & Hers Health, Inc. Generated $2.6B of revenue over the last twelve months, +28.0% versus the prior year. The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue.",
+      "The latest reported quarter was Q2 FY26, with $753.2M of revenue and an operating margin of -12.9%. The stock closed at $15.06 on 2026-11-23, giving a market capitalization of $3.5B.",
+      "The shares sit 5% of the way up their 52-week range ($13.74 to $40.99). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
-    "quote": "A subscriber who stays for a year repays the marketing that found them; a subscriber who leaves in two months is a prescription with a loss attached."
+    "quote": "HIMS is a Healthcare Growth business with $2.6B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,48 +52,46 @@ export const HIMS: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Consensus puts FY2026 revenue at $3.1B, 33.8% above FY2025, before decelerating to 22.9% in FY2027. That profile assumes the weight-loss category keeps adding subscribers at scale while the older hair-loss and sexual-health lines mature. The latest quarter supports the revenue side: Q2 revenue of $753.2M was 38% above the prior-year quarter. The profit side does not yet: the same quarter lost 12.9% at the operating line, and consensus carries a FY2026 loss of $0.91 per share.",
-      "Category mix matters more than the headline. Weight-loss treatment carries a different price point, a different retention curve and a different competitive set from hair loss, and it is the category most exposed to price competition from retailers and drugmakers. International is 5.7% of revenue, so geographic expansion is an option rather than a current driver. The question is whether new categories lift lifetime value faster than they lift acquisition cost."
+      "Revenue compounded at 74.7% a year across the fiscal years in the dataset, and the latest quarter changed +38.2% year over year. Third-party estimates for the current fiscal year point to $3.1B of revenue and -$0.91 of EPS.",
+      "Growth matters when it produces a return on capital. The operating margin of -6.0% and return on invested capital of -7.2% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
-        "title": "Weight-loss category",
-        "detail": "The largest addressable market the company serves, and the one where telehealth rivals, retailers and drugmakers all compete on price."
+        "title": "Clinical data",
+        "detail": "Efficacy and safety readouts determine the programme's value."
       },
       {
-        "title": "Owned infrastructure",
-        "detail": "Capital expenditure of $242.6M in FY2025, against $52.8M a year earlier, moves more of the fulfilment stack in-house."
+        "title": "Regulatory path",
+        "detail": "Approval and label scope decide the commercial opportunity."
       },
       {
-        "title": "International",
-        "detail": "5.7% of revenue today, so any contribution is incremental; local prescribing and pharmacy rules make it slow to scale."
+        "title": "Partnerships",
+        "detail": "Collaborations can fund development and validate the science."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Gross margin tells the story of the past two years: 79.5% in FY2024, 73.8% in FY2025 and 68.4% on a trailing basis. Each step down coincided with faster revenue growth, which is the signature of a mix shifting toward lower-margin categories and of pricing pressure in weight loss. The operating margin followed, from 4.2% in FY2024 and 4.5% in FY2025 to minus 6.0% trailing and minus 12.9% in both Q1 and Q2 FY2026.",
-      "Below the gross line, the cost base has grown faster than revenue. Marketing is the largest discretionary item, and the FY2026 quarters show what happens when it rises while gross profit per subscriber falls. Net margin was minus 5.5% trailing, with Q2 FY2026 at minus 11.5% and a loss of $0.37 per share. Return on invested capital of minus 37.7% and return on equity of minus 43.8% are the consequence: the capital employed is producing losses, not returns."
+      "The trailing operating margin is -6.0%, the net margin is -5.5% and diluted EPS is -$0.63. The latest quarter's operating margin was -12.9%. The quarter shown is the latest reported period in the dataset.",
+      "Return on equity is -43.8%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Capital expenditure jumped from $52.8M in FY2024 to $242.6M in FY2025, and free cash flow fell from $198.3M to $57.4M over the same two years. Operating cash flow actually improved, from $251.1M to $300.0M, so the compression is almost entirely a capital decision rather than a deterioration in collections. That distinction matters: the business still converts revenue into cash before investment, but far less reaches the shareholder after it.",
-      "The trailing free cash flow of $61.5M is 2.4% of revenue, and the quarterly path is volatile: $53.1M in Q1 FY2026, minus $68.2M in Q2, $79.3M in Q3 FY2025 and minus $2.6M in Q4 FY2025. That pattern follows the timing of marketing, inventory and capital projects rather than a steady run-rate. With no dividend and no buyback in the reported period, all of the cash is being reinvested in the model.",
-      "The balance sheet is the swing factor. The company funds a loss-making expansion while carrying a capital programme more than four times its FY2024 size, and the cushion is the cash raised in prior years rather than current free cash flow. If the operating loss persists through FY2027, the funding question moves from the income statement to the financing market."
+      "FCF over the trailing period was $61.6M, a 2.4% margin. Net debt is $524.3M. The cash figures are trailing twelve-month values unless the section says otherwise.",
+      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "One times sales is not a healthcare multiple. At 1.1x trailing revenue, Hims & Hers is priced closer to a distributor than to the specialty pharmaceutical names it competes with for subscribers: Madrigal trades at 6.1x sales, Krystal at 18.3x, Insmed at 21.0x and Rhythm at 27.0x. The discount is not an arbitrage; it reflects a 68.4% gross margin that has been falling and an operating margin that is negative.",
-      "Cash generation gives the same answer from a different angle. A 58.5x multiple on trailing free cash flow, and a 1.7% yield, price the equity for a recovery in cash conversion that has not yet appeared. To justify the current value on cash alone, free cash flow would have to grow several times over; to justify it on sales, the market would have to believe the operating margin returns to the FY2025 level of 4.5% and holds.",
-      "What would break the discount is unglamorous: a stable gross margin, marketing spend that grows slower than revenue, and two or three quarters of positive operating income. What would widen it is another year of 30% growth with a double-digit operating loss, because that combination makes the capital programme look like a subsidy to customers rather than an investment in them."
+      "At the latest close the shares trade with no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The valuation reflects the growth and margin record described above, not for the past alone.",
+      "The attributed third-party mean target is $27.23; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A mean target of $28 against a $15 share price, from 13 analysts, frames the debate around when the losses stop rather than whether revenue grows. The range of $23 to $40 is narrow for a stock that has fallen 59.3% over twelve months, which suggests the disagreement is about timing rather than direction. The analyst views are dominated by neutral views, with only a small positive minority.",
-      "Estimates collected by Yahoo Finance on 18 November 2026, and cross-checked with Nasdaq, put the FY2026 loss at $0.91 per share on $3.1B of revenue and the FY2027 loss at $0.07. Those numbers have moved sharply: the 90-day EPS revision is 95.0%. Embedded in them is a rapid return to breakeven in FY2027 while revenue grows 22.9%, a combination that requires both margin recovery and continued subscriber growth."
+      "13 analysts contribute to the third-party consensus. The mean target is $27.23, with a range of $21.00 to $40.00. The consensus is a third-party snapshot and can change without notice.",
+      "Current-year estimates call for $3.1B of revenue and -$0.91 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
     ]
   },
   "risks": {
@@ -158,6 +156,6 @@ export const HIMS: StockStory = {
       "Can free cash flow cover the debt if growth slows?"
     ]
   },
-  "narrativeSource": "curated",
+  "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-24"
 };

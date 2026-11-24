@@ -1,9 +1,9 @@
 {
   "ticker": "RYAN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/RYAN/analysis",
-  "targetMean": 49.59375,
+  "targetMean": 49.96875,
   "targetHigh": 68,
   "targetLow": 41,
   "recommendationKey": "buy",
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 3285364890,
-      "revenueGrowth": 0.076799996,
-      "epsAvg": 2.18427,
-      "epsGrowth": 0.1144,
+      "revenueAvg": 3284055580,
+      "revenueGrowth": 0.0763,
+      "epsAvg": 2.18321,
+      "epsGrowth": 0.113900006,
       "analystCount": 19
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 3513832890,
-      "revenueGrowth": 0.0695,
+      "revenueAvg": 3512772200,
+      "revenueGrowth": 0.0696,
       "epsAvg": 2.43028,
-      "epsGrowth": 0.1126,
+      "epsGrowth": 0.113199994,
       "analystCount": 19
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.45,
       "epsEstimate": 0.49052,
-      "revenueActual": 738045000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.47,
       "epsEstimate": 0.43247,
-      "revenueActual": 782903000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.74,
       "epsEstimate": 0.60204,
-      "revenueActual": 902728000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 0.51,
       "epsEstimate": 0.48586,
-      "revenueActual": 775081000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 18
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": 0.008910013025524632,
-    "eps60d": 0.008016059808943599,
-    "eps90d": 0.007755621787714606,
+    "eps7d": -0.00048528799095359787,
+    "eps30d": 0.008420401112250397,
+    "eps60d": 0.007526881720429923,
+    "eps90d": 0.006235942627484059,
     "revenue30d": null
   }
 }

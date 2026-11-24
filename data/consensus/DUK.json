@@ -1,9 +1,9 @@
 {
   "ticker": "DUK",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/DUK/analysis",
-  "targetMean": 132.86842,
+  "targetMean": 134.55263,
   "targetHigh": 145,
   "targetLow": 121,
   "recommendationKey": "buy",
@@ -21,8 +21,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 8082883990,
       "revenueGrowth": 0.0183,
-      "epsAvg": 1.45569,
-      "epsGrowth": -0.0295,
+      "epsAvg": 1.43932,
+      "epsGrowth": -0.0405,
       "analystCount": 11
     },
     {
@@ -30,26 +30,26 @@
       "endDate": "2027-03-31",
       "revenueAvg": 9490131020,
       "revenueGrowth": 0.034,
-      "epsAvg": 1.94436,
-      "epsGrowth": 0.0074,
+      "epsAvg": 1.94325,
+      "epsGrowth": 0.0069,
       "analystCount": 9
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 33842101949,
-      "revenueGrowth": 0.0498,
-      "epsAvg": 6.74693,
-      "epsGrowth": 0.0692,
+      "revenueAvg": 33854428110,
+      "revenueGrowth": 0.0502,
+      "epsAvg": 6.75638,
+      "epsGrowth": 0.070700005,
       "analystCount": 18
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 35465965600,
-      "revenueGrowth": 0.048,
-      "epsAvg": 7.16608,
-      "epsGrowth": 0.0621,
+      "revenueGrowth": 0.0476,
+      "epsAvg": 7.1679,
+      "epsGrowth": 0.060900003,
       "analystCount": 22
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.5,
       "epsEstimate": 1.49267,
-      "revenueActual": 7773000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.93,
       "epsEstimate": 1.79977,
-      "revenueActual": 8995000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 8082883990,
     "revenueGrowth": 0.0183,
-    "epsAvg": 1.45569,
-    "epsGrowth": -0.0295,
+    "epsAvg": 1.43932,
+    "epsGrowth": -0.0405,
     "analystCount": 11
   },
   "revisions": {
-    "eps7d": 0.0007371743528588048,
-    "eps30d": 0.004602428223858812,
-    "eps60d": 0.005737548520967639,
-    "eps90d": 0.0059714800324441875,
+    "eps7d": 0.0014006370304717741,
+    "eps30d": 0.006169815114036581,
+    "eps60d": 0.007221292975190696,
+    "eps90d": 0.007146221774361861,
     "revenue30d": null
   }
 }

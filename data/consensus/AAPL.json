@@ -1,7 +1,7 @@
 {
   "ticker": "AAPL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/AAPL/analysis",
   "targetMean": 345.6313,
   "targetHigh": 425,
@@ -37,7 +37,7 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-09-30",
-      "revenueAvg": 528252559340,
+      "revenueAvg": 528236958590,
       "revenueGrowth": 0.103199996,
       "epsAvg": 9.42944,
       "epsGrowth": 0.05,
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2028-09-30",
-      "revenueAvg": 571042817750,
-      "revenueGrowth": 0.081,
-      "epsAvg": 10.59799,
-      "epsGrowth": 0.123900004,
+      "revenueAvg": 571120334580,
+      "revenueGrowth": 0.081199996,
+      "epsAvg": 10.59913,
+      "epsGrowth": 0.124,
       "analystCount": 35
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 2.84,
       "epsEstimate": 2.6708,
-      "revenueActual": 143756000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 2.01,
       "epsEstimate": 1.94275,
-      "revenueActual": 111184000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 2.02,
       "epsEstimate": 1.89243,
-      "revenueActual": 109417000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 2.1,
       "epsEstimate": 1.98483,
-      "revenueActual": 114477000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 25
   },
   "revisions": {
-    "eps7d": 0.006814284585537234,
-    "eps30d": -0.018100103506517695,
-    "eps60d": -0.0173275349088291,
-    "eps90d": -0.011535219949095676,
+    "eps7d": 0,
+    "eps30d": -0.016111479207208013,
+    "eps60d": -0.01790170518220413,
+    "eps90d": -0.012913491332384175,
     "revenue30d": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "GMED",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/GMED/analysis",
   "targetMean": 93.42857,
   "targetHigh": 110,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.28,
       "epsEstimate": 1.15362,
-      "revenueActual": 826420000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.12,
       "epsEstimate": 0.92008,
-      "revenueActual": 759854000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 1.34,
       "epsEstimate": 1.09915,
-      "revenueActual": 789612000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 1.23,
       "epsEstimate": 1.19688,
-      "revenueActual": 763719000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

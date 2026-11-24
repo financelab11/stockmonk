@@ -7,20 +7,20 @@ export const MNDY: StockStory = {
   "dek": "Revenue grew 26.7% to $1.23B and the operating line reached breakeven. The open question is whether a bill that scales with headcount survives a market where AI does more of the work.",
   "readingMinutes": 9,
   "takeaways": [
-    "An 89.2% gross margin is the highest in the peer group, and revenue of $1.2B grew 26.7% while the operating line reached -0.1%.",
-    "Free cash flow of $313.3M is 25.4% of sales, and net cash of $1.7B is more than half the $3.2B market value.",
-    "At 1.2x sales the operating business is valued at about $1.5B, the cheapest sales multiple in the group by a wide margin.",
-    "Twenty-three analysts carry a $101 mean target against a $75 price, with 15 neutral views and an $80 to $165 range."
+    "Revenue: $1.2B trailing twelve months, +26.7% year over year.",
+    "Profitability: -0.1% operating margin and 9.6% net margin.",
+    "Cash: $313.3M free cash flow, a 25.4% margin.",
+    "Factor summary: 60/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001845338&type=10-K&dateb=&owner=include&count=40",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001845338&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Breakeven arrived in FY2025, and it arrived without a change in the model. Revenue reached $1.2B, up 26.7%, the operating margin moved from -2.2% to -0.1%, and free cash flow was 25.4% of sales. The gross margin of 89.2% is the highest in the peer group, which means almost every dollar of revenue after hosting reaches the operating line. What the company does with that dollar is the whole story.",
-      "The customer base runs from a five-person team on a monthly card payment to an enterprise deploying thousands of seats through a sales team. That dual motion gives monday.com a very large addressable market and a low cost of acquiring the smallest customers, and it exposes it to the churn that comes with them. Annual contracts and larger accounts are what convert a fast-growing revenue line into a durable one.",
-      "The balance sheet dominates the valuation arithmetic. With $1.7B of net cash against a $3.2B market value, the operating business is valued at about $1.5B, or 1.2x sales. That is not a normal multiple for a company growing 26.7% at an 89.2% gross margin; it is what happens when half the market value is cash and the market is unsure how long the per-seat model lasts. The cash is not a rounding error; it is the largest single item on the balance sheet."
+      "Monday.com Ltd. Generated $1.2B of revenue over the last twelve months, +26.7% versus the prior year. The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer.",
+      "The latest reported quarter was not available, with n/a of revenue and an operating margin of n/a. The stock closed at $73.99 on 2026-11-23, giving a market capitalization of $3.1B.",
+      "The shares sit 15% of the way up their 52-week range ($57.50 to $164.49). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
-    "quote": "monday.com is priced as though the cash were the business and the software were the option, an unusual place for a 26.7% grower to sit."
+    "quote": "MNDY is a Software & Cyber business with $1.2B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -37,28 +37,28 @@ export const MNDY: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Self-service acquisition keeps the cost of the smallest customers low and the churn high, and the mix between self-service and sales-assisted revenue is not disclosed. What is visible is the consequence: 26.7% growth on a $1.2B base with a 25.4% cash margin, a rare combination. The multi-product strategy, with CRM and development tools sold alongside the core workspace, is the second lever, and a product that fails to attach adds cost without revenue.",
-      "Estimates assume a sharp but orderly deceleration. FY2026 revenue is modelled at $1.5B, up 19.7%, and FY2027 at $1.7B, up 12.8%, with EPS of $6.41 and $7.48. That is growth halving in two years, the standard path for a seat-based product entering a large base. The EPS estimates are the more interesting number: $6.41 puts the shares on about 12x before the cash is deducted."
+      "Revenue compounded at 58.4% a year across the fiscal years in the dataset, and the latest quarter changed not available year over year. Third-party estimates for the current fiscal year point to $1.5B of revenue and $6.41 of EPS.",
+      "Growth matters when it produces a return on capital. The operating margin of -0.1% and return on invested capital of -0.2% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
-        "title": "Per-seat exposure",
-        "detail": "The bill scales with headcount, and AI assistants that handle coordination reduce the number of people needing a seat."
+        "title": "Net revenue retention",
+        "detail": "Expansion within existing customers compounds revenue."
       },
       {
-        "title": "Monthly versus annual",
-        "detail": "A customer on a monthly plan can leave in thirty days; the mix between monthly and annual contracts is the missing retention statistic."
+        "title": "New customer adds",
+        "detail": "New logos broaden the base and fund future expansion."
       },
       {
-        "title": "Cash drag",
-        "detail": "With $1.7B of net cash earning interest, the net margin of 9.6% is above the operating margin, so the cash is already flattering the earnings line."
+        "title": "Operating leverage",
+        "detail": "Scale should improve margins as sales and R&D mature."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Almost every dollar of revenue becomes gross profit, and the operating line is where the money goes. Gross margin of 89.2% has been stable between 86.0% and 89.3% for six years; the operating margin moved from -93.4% in FY2020 to -0.1% in FY2025, which is the entire story of the company's maturity. Net margin is 9.6%, above the operating line because interest on the cash balance adds to it.",
-      "The return measures are near zero and should be read against the balance sheet. Return on invested capital is -0.2% and return on equity 9.5%, the latter flattered by a small equity base and a large cash balance. Against GitLab's -7.7% and Elastic's -2.0%, monday.com's -0.2% is the best of the three loss-makers, and the gap to a mature software return is still the distance the operating line has to travel."
+      "The trailing operating margin is -0.1%, the net margin is 9.6% and diluted EPS is $2.24. The latest quarter's operating margin was not available. The quarter shown is the latest reported period in the dataset.",
+      "Return on equity is 9.5%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
     ],
     "bullets": [
       {
@@ -77,21 +77,20 @@ export const MNDY: StockStory = {
   },
   "cash": {
     "paragraphs": [
-      "Net cash of $1.7B is the defining feature of the balance sheet, and it changes what the cash flow means. Free cash flow of $313.3M is 25.4% of revenue, capex is $20.4M or 1.7%, so almost all of the operating cash reaches free cash flow. At 10.2x free cash flow and a 9.8% yield, the shares are priced as a cash-generative business, not as a growth story. The cash is doing as much work as the software.",
-      "The question is what the $1.7B is for. No dividend is paid, and the reported figures show no buyback or large acquisition. With a market value of $3.2B, the cash is more than half the equity, so a buyback would be the most direct way to return it. Until there is one, the cash earns interest, flatters the net margin and sits outside the operating business that the multiple is meant to value."
+      "The cash statement over the trailing period was $313.3M, a 25.4% margin. The balance sheet carries $1.7B of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
+      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "Enterprise value of about $1.5B is the number that matters, and it is 1.2x sales. No peer combines 26.7% growth with an 89.2% gross margin, and none carries net cash equal to half its market value, so the comparison has to be made on the operating business alone. The trailing P/E of 26.9x and the cash multiple of 10.2x look ordinary next to that, which is the anomaly: a company growing at this rate is priced as if it were mature.",
-      "The gap is a statement about durability. A 1.2x sales multiple on 26.7% growth implies the market expects the growth to stop and the churn to rise, which is what a per-seat product faces when AI changes the unit being priced. The 89.2% gross margin and the 25.4% cash margin argue the other way. The multiple is not a verdict on the business; it is a verdict on the duration of the seat.",
-      "What would re-rate the shares is evidence that revenue per seat is rising as AI features are added, which would offset any decline in seat counts. What would keep them cheap is a year in which net revenue retention falls and the monthly mix rises. The $1.7B of cash limits the downside, but it does not answer the question the multiple is asking."
+      "At the latest close the shares trade at 26.3x trailing earnings and 121.3x EV/EBITDA. The valuation reflects the growth and margin record described above, not for the past alone.",
+      "The attributed third-party mean target is $100.93; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "Twenty-three analysts publish on monday.com, with a mean target of $101 against a $75 price and a range of $80 to $165. The dispersion is unusual: the low end is above the current price and the high end is more than double it.",
-      "Estimates have been raised sharply, with a 16.5% EPS revision over 30 days and 17.2% over 90, and the last four quarters include a miss at $0.08 against $0.14 and a beat at $2.14 against $1.37. That volatility is the signature of a small EPS base and a large cash balance. FY2026 EPS of $6.41 implies 45.6% growth, which is a forecast about interest income as much as about software."
+      "23 analysts contribute to the third-party consensus. The mean target is $100.93, with a range of $80.00 to $165.00. The consensus is a third-party snapshot and can change without notice.",
+      "Current-year estimates call for $1.5B of revenue and $6.41 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
     ]
   },
   "risks": {
@@ -156,6 +155,6 @@ export const MNDY: StockStory = {
       "What is the plan for $1.67B of net cash?"
     ]
   },
-  "narrativeSource": "curated",
+  "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-24"
 };

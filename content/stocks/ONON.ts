@@ -7,20 +7,20 @@ export const ONON: StockStory = {
   "dek": "The Swiss company grew revenue 54.3% a year and pushed operating income from $89.1M to $453.8M in four years. Now the questions are wholesale dependence, apparel attach and whether the multiple can survive a slower decade.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue of $2.4B grew 48.3% trailing at a 59.9% gross margin, and free cash flow of $362.0M is 9.5% of sales.",
-    "The 59.9% gross margin becomes a 10.1% operating margin because sponsorship, marketing and direct-channel costs absorb the difference.",
-    "Net cash of $440.0M and a 3.5% free-cash-flow yield fund expansion without leverage or a dividend.",
-    "At 274.5x earnings the P/E is distorted by a 1.6% net margin; 15.5x EBITDA is the multiple that matters."
+    "Revenue: $2.4B trailing twelve months, +48.3% year over year.",
+    "Profitability: 10.1% operating margin and 1.6% net margin.",
+    "Cash: $362M free cash flow, a 9.5% margin.",
+    "Factor summary: 49/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001858985&type=10-K&dateb=&owner=include&count=40",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001858985&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "On sells most of its shoes through other people's shelves, and that is both the source of its reach and the limit on its margin. FY2025 revenue was $3.8B, up 48.3%, with a 62.8% gross margin and a 12.5% operating margin. The latest full year produced $453.8M of operating income, up from $89.1M four years earlier. The quarter matters less than the model: wholesale volume carries the brand, and direct sales carry the margin.",
-      "The product range starts with performance running and extends into trail, tennis, training and lifestyle. Apparel and accessories attach to the shoe business, lifting the basket without acquiring a new customer. Europe is the most wholesale-heavy region, the United States is more direct, and Asia is earlier. The channel mix is the most important number the company does not disclose in a single line, because a shift toward direct sales raises margin and a shift toward wholesale raises reach.",
-      "The equity is valued at $10.3B, or 274.5x earnings and 15.5x EBITDA, with $440.0M of net cash and no dividend. The earnings multiple is distorted by a 1.6% trailing net margin; the EBITDA multiple is the meaningful one, and at 15.5x it is below the 21.5x peer median. That is a discount to a group that includes slower-growing brands, which is the opposite of what the trailing P/E suggests. The market is treating the 1.6% net margin as a temporary charge rather than as a new run rate."
+      "On Holding AG generated $2.4B of revenue over the last twelve months, +48.3% versus the prior year. The model depends on unit growth, brand heat and whether new customers return.",
+      "The latest reported quarter was Q2 FY25, with $945.1M of revenue and an operating margin of 12.4%. The stock closed at $30.99 on 2026-11-23, giving a market capitalization of $10.4B.",
+      "The shares sit 19% of the way up their 52-week range ($26.37 to $51.08). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
-    "quote": "On turned a single visible sole into a $3.8B brand, and the next test is whether apparel and direct sales can carry the margin."
+    "quote": "ONON is a Consumer & Brands business with $2.4B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,46 +52,46 @@ export const ONON: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Apparel attach is the cheapest growth available. A customer who buys a shoe can buy socks, a jacket or a bag, and the incremental revenue carries no new customer-acquisition cost. The company does not disclose the attach rate, so the evidence has to come from the gross margin and the revenue per market. Consensus expects EPS of $1.50 in FY2026, up 87.7%, and $1.70 in FY2027, up 13.5%, with revenue growth in the high teens.",
-      "Geographic expansion is the second lever. Europe is the base, the United States is the largest growth market, and Asia is earlier. Each region has a different channel mix, which means the group margin moves with the geographic mix as well as with the channel mix. A year of rapid US direct growth would lift the margin; a year of distributor-led Asian expansion would lift revenue faster than profit."
+      "Revenue compounded at 54.9% a year across the fiscal years in the dataset, and the latest quarter changed +49.9% year over year. Third-party estimates for the current fiscal year point to $3.5B of revenue and $1.50 of EPS.",
+      "Growth matters when it produces a return on capital. The operating margin of 10.1% and return on invested capital of 9.3% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
-        "title": "Apparel attach",
-        "detail": "Socks, jackets and bags raise the basket without a new customer, and the company does not disclose the rate."
+        "title": "Unit growth",
+        "detail": "New stores, products or users expand the revenue base."
       },
       {
-        "title": "US direct sales",
-        "detail": "The US is the growth market and the most direct-heavy region, which makes it the margin lever."
+        "title": "Brand pricing",
+        "detail": "Pricing power shows whether the brand is strengthening."
       },
       {
-        "title": "Asia expansion",
-        "detail": "Earlier-stage and more distributor-led, so it adds revenue faster than it adds margin."
+        "title": "Repeat purchase",
+        "detail": "Retention determines the lifetime value of a customer."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "On's gross margin reached 62.8% in FY2025, from 60.6% in FY2024 and 56.0% in FY2022. Operating margin was 12.5%, 9.1% and 7.0% over the same years. Net margin was 6.8% in FY2025 but 1.6% trailing, which is why the earnings multiple looks extreme. The gross line has widened with scale and full-price selling; the operating line has widened more slowly because sponsorship and marketing spending grew with the brand.",
-      "Return on invested capital was 20.3% in FY2025, up from 11.7% in FY2024, and 9.3% trailing. Return on equity was 12.5% in FY2025 and 2.1% trailing. The trailing figures have fallen with the net margin, not with the operating business, which is the distinction that matters. Against a 14.7% peer median return on capital, On's FY2025 figure is above the group and its trailing figure is below it."
+      "The trailing operating margin is 10.1%, the net margin is 1.6% and diluted EPS is not available. The latest quarter's operating margin was 12.4%. The quarter shown is the latest reported period in the dataset.",
+      "Return on equity is 2.1%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
     ]
   },
   "cash": {
     "paragraphs": [
-      "On generated $454.1M of operating cash flow in FY2025 against $92.1M of capex, for free cash flow of $362.0M. The trailing figure is the same $362.0M, a 9.5% margin. The swing from FY2022, when operating cash flow was -$246.0M and free cash flow -$311.3M, is the clearest sign that the brand has passed the cash-consuming phase of its build-out. That reversal is the strongest evidence that the wholesale model can fund its own growth once the store base matures.",
-      "Net cash was $629.5M at FY2025 and $440.0M trailing, so the company funds its own expansion. It pays no dividend. The cash is being used for working capital, new stores and the direct-channel infrastructure, all of which support growth rather than maintenance. The reported net-debt-to-EBITDA ratio of -1.0x is a net cash position, not leverage, and interest cover is not a meaningful metric for a company with no debt burden."
+      "Cash generation over the trailing period was $362M, a 9.5% margin. The balance sheet carries $440M of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
+      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "The P/E of 274.5x is an artifact of a 1.6% trailing net margin, and it should not be used. EV/EBITDA of 15.5x is the cleaner measure, and it sits below the 21.5x peer median. EV/Sales of 4.2x is in line with Cava and above Dutch Bros at 2.4x. P/FCF is 28.6x with a 3.5% free-cash-flow yield. The picture is a premium sales multiple and a discount EBITDA multiple, which is what a high-gross-margin, high-marketing-spend brand looks like.",
-      "On FY2026 EPS of $1.50, the shares at $31 are valued at 20.7x; on FY2027's $1.70, 18.2x. That is in line with the peer median and cheaper than e.l.f. at 27.4x, despite faster revenue growth. The market is pricing a slowdown from 48.3% to the high teens and a margin that stops expanding. What would justify a higher multiple is evidence that apparel and direct sales keep the operating margin above 12%; what would break it is a wholesale account loss."
+      "At the latest close the shares trade at 275.0x trailing earnings and 15.6x EV/EBITDA. The valuation reflects the growth and margin record described above, not for the past alone.",
+      "The attributed third-party mean target is $44.14; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "Thirty-one analysts cover the stock, with a mean target of $44 against a $31 price and a range of $20 to $64. The positive end dominates the published analyst views, with a neutral block and one cautious estimate. The mean implies a 42% return and the range spans a 35% decline to a doubling, which is a wide spread for a brand with $3.8B of revenue.",
-      "Revisions have been positive: +4.9% over 30 days, +6.0% over 60 days and +6.4% over 90 days. The company beat in each of the last four quarters, most recently $0.54 against $0.41, and the FY2027 EPS estimate of $1.70 has risen with the results. The consensus assumes high-teens revenue growth and a stable operating margin, not a return to the 48.3% growth of FY2025."
+      "31 analysts contribute to the third-party consensus. The mean target is $44.14, with a range of $19.79 to $64.79. The consensus is a third-party snapshot and can change without notice.",
+      "Current-year estimates call for $3.5B of revenue and $1.50 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
     ]
   },
   "risks": {
@@ -156,6 +156,6 @@ export const ONON: StockStory = {
       "Why did free cash flow not appear in the reported data, and what does inventory consume?"
     ]
   },
-  "narrativeSource": "curated",
+  "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-24"
 };

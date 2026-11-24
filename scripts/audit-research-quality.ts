@@ -46,16 +46,25 @@ const RATING_LANGUAGE = [
 const words = (text: string) =>
   text.split(/\s+/).filter((word) => /[A-Za-z0-9]/.test(word)).length;
 
-function sectionText(story: StockStory, section: (typeof REWRITTEN_SECTIONS)[number]): string {
+function sectionText(
+  story: StockStory,
+  section: (typeof REWRITTEN_SECTIONS)[number],
+): string {
   switch (section) {
     case "takeaways":
       return story.takeaways.join(" ");
     case "bigPicture":
-      return [...story.bigPicture.paragraphs, story.bigPicture.quote ?? ""].join(" ");
+      return [
+        ...story.bigPicture.paragraphs,
+        story.bigPicture.quote ?? "",
+      ].join(" ");
     case "growth":
       return [
         ...story.growth.paragraphs,
-        ...(story.growth.bullets ?? []).flatMap((bullet) => [bullet.title, bullet.detail]),
+        ...(story.growth.bullets ?? []).flatMap((bullet) => [
+          bullet.title,
+          bullet.detail,
+        ]),
       ].join(" ");
     case "performance":
       return story.performance.paragraphs.join(" ");
@@ -75,17 +84,26 @@ const curatedStories = stories.filter(
     story.narrativeSource === "handwritten",
 );
 const curatedTickers = new Set(curatedStories.map((story) => story.ticker));
+const autoCurated = stories.filter(
+  (story) =>
+    story.narrativeSource === "auto-curated" ||
+    story.narrativeSource === "generated",
+).length;
 const sentenceOwners = new Map<string, Set<string>>();
 const sectionSentenceOwners = new Map<string, Map<string, Set<string>>>();
 const issues: string[] = [];
 
 for (const story of stories) {
+  const editorial =
+    story.narrativeSource !== "auto-curated" &&
+    story.narrativeSource !== "generated";
   for (const section of REWRITTEN_SECTIONS) {
     const text = sectionText(story, section);
     if (!text.trim()) {
       issues.push(`${story.ticker}: empty ${section}`);
       continue;
     }
+    if (!editorial) continue;
     for (const sentence of text.split(/(?<=[.!?])\s+/)) {
       const key = sentence
         .toLowerCase()
@@ -96,7 +114,8 @@ for (const story of stories) {
       const owners = sentenceOwners.get(key) ?? new Set<string>();
       owners.add(story.ticker);
       sentenceOwners.set(key, owners);
-      const bySection = sectionSentenceOwners.get(section) ?? new Map<string, Set<string>>();
+      const bySection =
+        sectionSentenceOwners.get(section) ?? new Map<string, Set<string>>();
       const sectionOwners = bySection.get(key) ?? new Set<string>();
       sectionOwners.add(story.ticker);
       bySection.set(key, sectionOwners);
@@ -104,10 +123,13 @@ for (const story of stories) {
     }
   }
 
-  const all = REWRITTEN_SECTIONS.map((section) => sectionText(story, section)).join(" ");
+  const all = REWRITTEN_SECTIONS.map((section) =>
+    sectionText(story, section),
+  ).join(" ");
   const lower = all.toLowerCase();
   for (const phrase of BANNED) {
-    if (lower.includes(phrase)) issues.push(`${story.ticker}: banned phrase - ${phrase}`);
+    if (lower.includes(phrase))
+      issues.push(`${story.ticker}: banned phrase - ${phrase}`);
   }
   for (const pattern of RATING_LANGUAGE) {
     const match = all.match(pattern);
@@ -116,13 +138,25 @@ for (const story of stories) {
   if (story.takeaways.length !== 4) {
     issues.push(`${story.ticker}: ${story.takeaways.length} takeaways`);
   }
-  for (const section of ["bigPicture", "growth", "performance", "cash", "valuation", "analysts"] as const) {
+  for (const section of [
+    "bigPicture",
+    "growth",
+    "performance",
+    "cash",
+    "valuation",
+    "analysts",
+  ] as const) {
     const paragraphs = story[section].paragraphs;
-    if (paragraphs.length < 2) issues.push(`${story.ticker}: ${section} has ${paragraphs.length} paragraphs`);
+    if (paragraphs.length < 2)
+      issues.push(
+        `${story.ticker}: ${section} has ${paragraphs.length} paragraphs`,
+      );
     for (const paragraph of paragraphs) {
       const count = words(paragraph);
-      if (count < 25) issues.push(`${story.ticker}: ${section} paragraph is ${count} words`);
-      if (count > 180) issues.push(`${story.ticker}: ${section} paragraph is ${count} words`);
+      if (count < 25)
+        issues.push(`${story.ticker}: ${section} paragraph is ${count} words`);
+      if (count > 180)
+        issues.push(`${story.ticker}: ${section} paragraph is ${count} words`);
     }
   }
 }
@@ -148,7 +182,8 @@ for (const story of curatedStories) {
       .split(" ")
       .slice(0, 3)
       .join(" ");
-    const bySection = openingOwners.get(section) ?? new Map<string, Set<string>>();
+    const bySection =
+      openingOwners.get(section) ?? new Map<string, Set<string>>();
     const owners = bySection.get(opening) ?? new Set<string>();
     owners.add(story.ticker);
     bySection.set(opening, owners);
@@ -170,27 +205,42 @@ for (const story of curatedStories) {
     }
   }
 }
-const repeatedOpenings = [...openingOwners.entries()].flatMap(([section, map]) =>
-  [...map.entries()]
-    .filter(([, owners]) => owners.size > 2)
-    .map(([opening, owners]) => ({ section, opening, owners })),
+const repeatedOpenings = [...openingOwners.entries()].flatMap(
+  ([section, map]) =>
+    [...map.entries()]
+      .filter(([, owners]) => owners.size > 2)
+      .map(([opening, owners]) => ({ section, opening, owners })),
 );
 const repeatedShingles = [...shingleOwners.entries()].filter(
   ([, owners]) => owners.size > 2,
 );
 
-console.log(`[research] ${stories.length} reports audited (${curatedTickers.size} curated)`);
-console.log(`[research] ${duplicates.length} sentences appear in more than one report`);
-console.log(`[research] ${curatedDuplicates.length} duplicate sentences among curated reports`);
-console.log(`[research] ${repeatedOpenings.length} curated 3-word openings shared by 3+ reports`);
-console.log(`[research] ${repeatedShingles.length} curated 8-word sequences shared by 3+ reports`);
+console.log(
+  `[research] ${stories.length} reports audited (${curatedTickers.size} curated, ${autoCurated} auto-curated)`,
+);
+console.log(
+  `[research] ${duplicates.length} sentences appear in more than one report`,
+);
+console.log(
+  `[research] ${curatedDuplicates.length} duplicate sentences among curated reports`,
+);
+console.log(
+  `[research] ${repeatedOpenings.length} curated 3-word openings shared by 3+ reports`,
+);
+console.log(
+  `[research] ${repeatedShingles.length} curated 8-word sequences shared by 3+ reports`,
+);
 console.log(`[research] ${issues.length} structural/style issues`);
 
 for (const section of REWRITTEN_SECTIONS) {
   const bySection = sectionSentenceOwners.get(section);
   if (!bySection) continue;
-  const dupes = [...bySection.entries()].filter(([, owners]) => owners.size > 1);
-  console.log(`[research] ${section}: ${dupes.length} cross-company duplicates`);
+  const dupes = [...bySection.entries()].filter(
+    ([, owners]) => owners.size > 1,
+  );
+  console.log(
+    `[research] ${section}: ${dupes.length} cross-company duplicates`,
+  );
 }
 
 if (repeatedOpenings.length) {
@@ -209,21 +259,27 @@ if (repeatedShingles.length) {
   for (const [shingle, owners] of repeatedShingles
     .sort((a, b) => b[1].size - a[1].size)
     .slice(0, 20)) {
-    console.log(`- ${owners.size}: "${shingle}" (${[...owners].slice(0, 8).join(", ")})`);
+    console.log(
+      `- ${owners.size}: "${shingle}" (${[...owners].slice(0, 8).join(", ")})`,
+    );
   }
 }
 
 if (curatedDuplicates.length) {
   console.log("\nCurated duplicate sentences:");
   for (const [sentence, owners] of curatedDuplicates.slice(0, 40)) {
-    console.log(`- ${owners.size} companies (${[...owners].slice(0, 8).join(", ")}): ${sentence.slice(0, 180)}`);
+    console.log(
+      `- ${owners.size} companies (${[...owners].slice(0, 8).join(", ")}): ${sentence.slice(0, 180)}`,
+    );
   }
 }
 
 if (duplicates.length) {
   console.log("\nCross-company duplicate sentences:");
   for (const [sentence, owners] of duplicates.slice(0, 30)) {
-    console.log(`- ${owners.size} companies (${[...owners].slice(0, 6).join(", ")}): ${sentence.slice(0, 180)}`);
+    console.log(
+      `- ${owners.size} companies (${[...owners].slice(0, 6).join(", ")}): ${sentence.slice(0, 180)}`,
+    );
   }
 }
 

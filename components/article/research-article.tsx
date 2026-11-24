@@ -109,7 +109,6 @@ export function ResearchArticle({
   related: ResearchBundle[];
 }) {
   const { data, consensus, segments, prices, factors } = bundle;
-  const story = resolveStory(sourceStory, data);
   const segmentSlices = segments?.segments ?? [];
   const currency = data.currency ?? "USD";
   // Price and market cap are quoted in the local trading currency, which can
@@ -123,7 +122,6 @@ export function ResearchArticle({
     formatCurrency(value, digits, quoteCurrency);
   const quoteCompact = (value: number | null | undefined): string =>
     formatCompactCurrency(value, quoteCurrency);
-  const sources = buildArticleSources(story, bundle);
   const latest = latestQuarter(data);
   const cagr = computeCagr(data.annual);
   const quarterSeries = quarterlyRevenueSeries(data, 10);
@@ -137,7 +135,20 @@ export function ResearchArticle({
   const peerRevenueGrowth = peerMedian(peerRows, "revenueGrowth");
   const peerEv = peerMedian(peerRows, "evEbitda");
   const peerPe = peerMedian(peerRows, "pe");
+  const peerOperatingMargin = peerMedian(peerRows, "operatingMargin");
   const peerRoic = peerMedian(peerRows, "roic");
+  const story = resolveStory(sourceStory, {
+    data,
+    consensus,
+    segments,
+    peerPe,
+    peerEvEbitda: peerEv,
+    peerRevenueGrowth,
+    peerOperatingMargin,
+    peerRoic,
+    latestQuarter: latest,
+  });
+  const sources = buildArticleSources(story, bundle);
   const ranges = valuationRange(bundle);
   const cyclePosition = bundle.rangePosition ?? 0;
 

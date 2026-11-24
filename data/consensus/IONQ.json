@@ -1,7 +1,7 @@
 {
   "ticker": "IONQ",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/IONQ/analysis",
   "targetMean": 54.275,
   "targetHigh": 70,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.93,
       "epsEstimate": -0.4725,
-      "revenueActual": 61890000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 2.07,
       "epsEstimate": -0.51892,
-      "revenueActual": 64668000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": -5.08,
       "epsEstimate": -0.59865,
-      "revenueActual": 80050000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 1.35,
       "epsEstimate": -0.774,
-      "revenueActual": 173831000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

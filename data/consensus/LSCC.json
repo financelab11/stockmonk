@@ -1,7 +1,7 @@
 {
   "ticker": "LSCC",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/LSCC/analysis",
   "targetMean": 156.18768,
   "targetHigh": 200,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.32,
       "epsEstimate": 0.31769,
-      "revenueActual": 145792000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.41,
       "epsEstimate": 0.36977,
-      "revenueActual": 170897000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.53,
       "epsEstimate": 0.44516,
-      "revenueActual": 201079000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 0.72,
       "epsEstimate": 0.55379,
-      "revenueActual": 291035000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

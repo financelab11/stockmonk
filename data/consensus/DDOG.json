@@ -1,7 +1,7 @@
 {
   "ticker": "DDOG",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/DDOG/analysis",
   "targetMean": 269.65457,
   "targetHigh": 330,
@@ -9,9 +9,9 @@
   "recommendationKey": "strong_buy",
   "analystCount": 48,
   "distribution": {
-    "strongBuy": 10,
+    "strongBuy": 11,
     "buy": 35,
-    "hold": 3,
+    "hold": 2,
     "sell": 1,
     "strongSell": 0
   },
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.59,
       "epsEstimate": 0.55486,
-      "revenueActual": 953194000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.6,
       "epsEstimate": 0.50738,
-      "revenueActual": 1006426000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.65,
       "epsEstimate": 0.58324,
-      "revenueActual": 1121454000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 0.81,
       "epsEstimate": 0.64093,
-      "revenueActual": 1197090000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,9 +96,9 @@
     "analystCount": 38
   },
   "revisions": {
-    "eps7d": 0.001994138330997597,
-    "eps30d": 0.08340586475922196,
-    "eps60d": 0.08365023525268378,
+    "eps7d": 0,
+    "eps30d": 0.0833115757992926,
+    "eps60d": 0.08352589263104582,
     "eps90d": 0.08357734128931171,
     "revenue30d": null
   }

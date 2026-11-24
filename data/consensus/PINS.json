@@ -1,7 +1,7 @@
 {
   "ticker": "PINS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/PINS/analysis",
   "targetMean": 25.02778,
   "targetHigh": 41,
@@ -19,7 +19,7 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 1462211890,
+      "revenueAvg": 1462171500,
       "revenueGrowth": 0.1083,
       "epsAvg": 0.7789,
       "epsGrowth": 0.1625,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.67,
       "epsEstimate": 0.67465,
-      "revenueActual": 1319347000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.27,
       "epsEstimate": 0.2165,
-      "revenueActual": 1007514000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.43,
       "epsEstimate": 0.35723,
-      "revenueActual": 1179654000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,13 +83,13 @@
       "endDate": "2026-09-30",
       "epsActual": 0.46,
       "epsEstimate": 0.48536,
-      "revenueActual": 1173929000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 1462211890,
+    "revenueAvg": 1462171500,
     "revenueGrowth": 0.1083,
     "epsAvg": 0.7789,
     "epsGrowth": 0.1625,

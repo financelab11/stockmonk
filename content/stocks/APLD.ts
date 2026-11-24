@@ -7,20 +7,20 @@ export const APLD: StockStory = {
   "dek": "Revenue grew 467% and free cash flow was negative $4.46B. Building shells for AI tenants is a real estate business, and it is judged on leases, not on gross margin.",
   "readingMinutes": 9,
   "takeaways": [
-    "HPC hosting is 44.3% of segment revenue, and revenue reached $262.8M in the August quarter from $126.6M two quarters earlier.",
-    "Free cash flow of negative $4.5B accompanied a $2.9B capex programme, so the balance sheet and share count carry the build.",
-    "The operating margin is negative 58.9% because depreciation on newly built halls arrives before the tenants do.",
-    "At 14.9x sales with no earnings multiple, the shares are a claim on leased megawatts rather than on current profit."
+    "Revenue: $516M trailing twelve months, +277.4% year over year.",
+    "Profitability: -58.9% operating margin and -68.1% net margin.",
+    "Cash: -$4.5B free cash flow, a -863.5% margin.",
+    "Factor summary: 52/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000048/apld-20260531.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001144879&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Revenue more than doubled in two quarters, from $126.6M in the February 2026 period to $262.8M in August, and the operating margin was still negative 23.7%. That combination is what a data-centre developer looks like when halls are energised faster than they are leased. FY2026 revenue was $611.3M, up 167.5%, and the segment mix at the year end was 44.3% HPC hosting, 25.3% data-centre hosting and 30.5% corporate. The corporate line is larger than the data-centre hosting business, which complicates the landlord comparison.",
-      "A data hall is a real-estate product with an industrial cost base. The site needs land, a power connection, permits, construction, long-lead electrical equipment and commissioning, and revenue begins only when the tenant takes possession. The income statement therefore lags the capital spending by years, which is why a 66.4% gross spread on a leased building coexists with a deeply negative operating margin. The depreciation schedule is therefore the bridge between the two margins.",
-      "The funding choice is the equity story. The build has been financed mainly with equity rather than debt, which protects the company if a project slips and dilutes holders when it succeeds. At 14.9x sales there is no earnings multiple to anchor a valuation. The debate is whether the leased capacity, once energised, earns a return on the $4.5B that has been spent. Until that return is visible, the share count is the most reliable guide to value per share."
+      "Applied Digital Corporation generated $516M of revenue over the last twelve months, +277.4% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
+      "The latest reported quarter was Q1 FY27, with $262.8M of revenue and an operating margin of -23.7%. The stock closed at $13.82 on 2026-11-23, giving a market capitalization of $4.2B.",
+      "The shares sit 6% of the way up their 52-week range ($11.31 to $50.73). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
-    "quote": "Applied Digital is building the shell and signing the lease at the same time, and only one of them shows up in revenue."
+    "quote": "APLD is a AI Infrastructure & Power business with $516M of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -38,47 +38,46 @@ export const APLD: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "A data hall earns nothing until it is energised. That is why the growth rate is a function of construction and commissioning rather than of demand: revenue went from $165.6M in FY2024 to $228.6M in FY2025 and $611.3M in FY2026 as halls came online. The HPC hosting segment, at 44.3% of the year-end mix, is the part tied to accelerator tenants and the part the valuation depends on.",
-      "The corporate line, at 30.5% of segment revenue, is larger than the data-centre hosting business at 25.3%, which is unusual for a company described as a landlord. It suggests the reported mix includes operations that are not directly comparable to the leased halls. The absence of a gross margin in the trailing figures makes the segment economics harder to test."
+      "Revenue compounded at 190.8% a year across the fiscal years in the dataset, and the latest quarter changed +224.7% year over year. Third-party estimates for the current fiscal year point to $957.5M of revenue and -$1.06 of EPS.",
+      "Growth matters when it produces a return on capital. The operating margin of -58.9% and return on invested capital of -3.0% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
-        "title": "Energised halls",
-        "detail": "Revenue begins at commissioning, so the build schedule matters more than the lease pipeline."
+        "title": "AI cluster build-out",
+        "detail": "Compute, networking, optics and power equipment all scale with cluster size."
       },
       {
-        "title": "Tenant concentration",
-        "detail": "A small number of large tenants can account for most of the leased capacity, and one renegotiation changes the base."
+        "title": "Customer expansion",
+        "detail": "Hyperscalers and neoclouds are adding capacity faster than traditional IT budgets."
       },
       {
-        "title": "Cost of capital",
-        "detail": "Equity funding removes refinancing risk but transfers the cost of delay to existing shareholders through dilution."
+        "title": "Product content",
+        "detail": "More content per system can grow revenue faster than the underlying unit market."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "No gross margin is reported for the trailing period, which is a real gap in a business whose economics are described by the spread on a leased building. The operating margin of negative 58.9% and the net margin of negative 68.1% are the available measures, and both are dominated by depreciation on assets that are not yet fully occupied. FY2026 operating margin was negative 38.7%.",
-      "The quarterly record includes a period of negative revenue and a 132.4% operating margin, which signals a restatement or reclassification rather than an operating result. Excluding that, the margin has run between negative 12.1% and negative 67.6% as halls were added. Return on invested capital of negative 3.0% and return on equity of negative 21.9% are the honest summary of a build that has not yet reached occupancy."
+      "The trailing operating margin is -58.9%, the net margin is -68.1% and diluted EPS is -$1.65. The latest quarter's operating margin was -23.7%. The quarter shown is the latest reported period in the dataset.",
+      "Return on equity is -21.9%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Equity, not debt, has funded most of the build, and that choice defines the risk. FY2026 operating cash flow was $89.7M against $2.9B of capex, leaving a $2.8B deficit; the trailing deficit is $4.5B. The share count is therefore an input to the valuation rather than an afterthought, and the dilution is the cost of avoiding a maturity wall while the halls are built.",
-      "The quarterly cash burn has been escalating: $331.4M in the November 2025 quarter, $567.9M in February, $720.2M in May and $2.0B in August. That is the signature of a construction programme that is accelerating rather than finishing. Interest cover of negative 3.1x confirms that operating profit does not cover the interest, even with a balance sheet that carries more cash than debt."
+      "FCF over the trailing period was -$4.5B, a -863.5% margin. Net debt is $3.4B. The cash figures are trailing twelve-month values unless the section says otherwise.",
+      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "Applied Digital's 14.9x sales multiple is cheaper than IREN's 19.1x and far below Nebius's 56.1x, and it is a price for capacity rather than for earnings. There is no P/E and no EV/EBITDA because operating income and EBITDA are negative. The negative 104.3% free cash flow yield is the measure of how much capital the model consumes per dollar of revenue.",
-      "On the FY2027 revenue estimate of $977.6M the market value of $4.3B is about 4.4x sales, and on FY2028's $2.0B it is about 2.2x. Those are ordinary multiples for a developer if the revenue arrives. The shares have fallen 40.6% over a year because the market has moved from pricing the pipeline to pricing the delivery risk. The fall is a de-rating of the pipeline, not a deterioration in the reported revenue.",
-      "What justifies the price is a set of leased halls that produce contracted rent with escalation clauses and a cost of capital below the yield on the building. What breaks it is a construction delay, a tenant renegotiation, or another equity raise at a lower price. The 66.4% gross spread is attractive; the negative 58.9% operating margin is what it costs to get there."
+      "At the latest close the shares trade with no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The valuation reflects the growth and margin record described above, not for the past alone.",
+      "The attributed third-party mean target is $54.31; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "Sixteen analysts cover Applied Digital, with a mean target of $60 against a $14 price and a range of $22 to $93. Yahoo Finance dates the sample 18 November 2026. The target range is wide in percentage terms because the equity is a claim on future capacity, and small changes in assumed timing move the value a great deal.",
-      "The estimate record is distorted. The last four quarters produced EPS above the published figure, including $0.09 against a loss of $0.21 and $0.04 against a loss of $0.19, which says more about the estimate base than about profitability. FY2027 is put at $977.6M of revenue and -$1.06 of EPS, FY2028 at $2.0B and -$0.78. Only three to five analysts contribute to those annual numbers."
+      "16 analysts contribute to the third-party consensus. The mean target is $54.31, with a range of $22.00 to $93.00. The consensus is a third-party snapshot and can change without notice.",
+      "Current-year estimates call for $957.5M of revenue and -$1.06 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
     ]
   },
   "risks": {
@@ -143,6 +142,6 @@ export const APLD: StockStory = {
       "How much has the share count grown over the past three years?"
     ]
   },
-  "narrativeSource": "curated",
+  "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-24"
 };

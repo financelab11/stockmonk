@@ -1,7 +1,7 @@
 {
   "ticker": "MA",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/MA/analysis",
   "targetMean": 720.68677,
   "targetHigh": 800,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 4.76,
       "epsEstimate": 4.24031,
-      "revenueActual": 8806000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 4.6,
       "epsEstimate": 4.41328,
-      "revenueActual": 8398000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 5.04,
       "epsEstimate": 4.77606,
-      "revenueActual": 9277000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 5.31,
       "epsEstimate": 5.17079,
-      "revenueActual": 9807000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

@@ -1,7 +1,7 @@
 {
   "ticker": "QBTS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/QBTS/analysis",
   "targetMean": 23.72,
   "targetHigh": 35,
@@ -19,26 +19,26 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 26490310,
-      "revenueGrowth": 8.6258,
-      "epsAvg": -0.1,
+      "revenueAvg": 26402650,
+      "revenueGrowth": 8.594,
+      "epsAvg": -0.09,
       "epsGrowth": null,
       "analystCount": 2
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 11070710,
-      "revenueGrowth": 2.8735998,
-      "epsAvg": -0.12,
+      "revenueAvg": 10932670,
+      "revenueGrowth": 2.8253,
+      "epsAvg": -0.13,
       "epsGrowth": null,
       "analystCount": 2
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 37256650,
-      "revenueGrowth": 0.5153,
+      "revenueAvg": 37131280,
+      "revenueGrowth": 0.5102,
       "epsAvg": -0.31111,
       "epsGrowth": -0.1966,
       "analystCount": 18
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 76694180,
-      "revenueGrowth": 1.0584999,
+      "revenueAvg": 76322280,
+      "revenueGrowth": 1.0555,
       "epsAvg": -0.39222,
       "epsGrowth": -0.2607,
       "analystCount": 18
@@ -59,7 +59,7 @@
       "endDate": "2025-09-30",
       "epsActual": -0.05,
       "epsEstimate": -0.06625,
-      "revenueActual": 3739000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": -0.05,
       "epsEstimate": -0.07636,
-      "revenueActual": 2858000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -81,9 +81,9 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 26490310,
-    "revenueGrowth": 8.6258,
-    "epsAvg": -0.1,
+    "revenueAvg": 26402650,
+    "revenueGrowth": 8.594,
+    "epsAvg": -0.09,
     "epsGrowth": null,
     "analystCount": 2
   },

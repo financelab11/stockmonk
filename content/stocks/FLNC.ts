@@ -7,20 +7,20 @@ export const FLNC: StockStory = {
   "dek": "The company assembles storage plants from bought-in cells. That thin spread explains why four years of revenue growth produced one profitable year.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue of $2.6B at a 9.3% gross margin produced a -3.6% operating margin and a -$115.3M free cash outflow.",
-    "The business has been profitable once in six years: FY2024 earned a 1.5% operating margin before FY2025 fell back to -2.0%.",
-    "Net cash fell from $690.8M at FY2025 to $339.3M, more than the free cash outflow alone explains.",
-    "At 0.2x sales the market values the integrator at a distributor multiple, which is what a 9.3% gross margin deserves."
+    "Revenue: $2.6B trailing twelve months, +7.5% year over year.",
+    "Profitability: -3.6% operating margin and -3.1% net margin.",
+    "Cash: -$115.3M free cash flow, a -4.4% margin.",
+    "Factor summary: 48/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1868941/000186894125000081/flnc-20250930.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001868941&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "A 9.3% gross margin leaves almost no room for error. Fluence booked $649.8M of revenue in the June 2026 quarter at a -6.7% operating margin, after a -6.0% March quarter and a -14.8% December quarter. The September 2025 quarter was the exception, with a 4.4% operating margin on $1.0B of revenue. The pattern is seasonal and brutal: the biggest quarter carries the year, and the thin spread leaves nothing for a bad one. That is the integrator's problem.",
-      "The company assembles storage plants from bought-in cells, enclosures, power electronics and installation labour. Roughly nine dollars of every ten of revenue is cost of goods, so a small move in cell prices or a fixed-price contract signed before prices moved can wipe out the gross profit. Software and long-term service carry better margins, but they are small relative to hardware revenue. That is why the gross margin is the only margin that matters.",
-      "Cash has thinned. Net cash fell from $690.8M at FY2025 to $339.3M trailing, against a $753.3M market value, so the enterprise is valued at about $414M, or 0.2x sales. That is not a growth multiple; it is a distressed-style price for a business whose gross margin has not proved durable. The debate is whether the service book is worth more than the hardware, and the cash is the buffer against a project loss."
+      "Fluence Energy, Inc. Generated $2.6B of revenue over the last twelve months, +7.5% versus the prior year. The opportunity is large but early; permits, financing and construction execution determine who captures it.",
+      "The latest reported quarter was Q3 FY26, with $649.8M of revenue and an operating margin of -6.7%. The stock closed at $3.80 on 2026-11-23, giving a market capitalization of $739.7M.",
+      "The shares sit 1% of the way up their 52-week range ($3.41 to $33.51). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
-    "quote": "Fluence buys cells, assembles plants and keeps a dime of every dollar; the service book is the only part of the model that can earn more."
+    "quote": "FLNC is a Nuclear, Metals & Energy business with $2.6B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,50 +52,46 @@ export const FLNC: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Storage demand is growing, but Fluence's revenue is barely moving. Trailing revenue is $2.6B, up 7.5%, after a 16.1% decline in FY2025 and a 21.7% increase in FY2024. The order book, not the trailing quarter, is the better guide because a single project can be hundreds of megawatt-hours and can move a year's revenue. The reported figures do not disclose the margin embedded in that backlog.",
-      "Geography shapes the demand: the Americas are 57.7% of revenue, EMEA 26.9% and Asia Pacific 15.4%. Each market is driven by local grid rules, renewable penetration and tax or capacity incentives, so the mix moves with policy rather than with a single global cycle. That diversification helps, but it also means the company is exposed to several policy regimes at once.",
-      "The revenue estimate for FY2026 is $2.4B, up 6.2%, and for FY2027 $3.0B, up 25.4%, with losses of $1.30 and $0.53 per share. The FY2026 estimate is below the trailing revenue, which implies the September quarter is expected to be weak. The FY2027 recovery depends on the backlog converting at a better margin, not on a new product. That is the whole recovery case."
+      "Revenue compounded at 32.2% a year across the fiscal years in the dataset, and the latest quarter changed +7.9% year over year. Third-party estimates for the current fiscal year point to $2.7B of revenue and -$0.76 of EPS.",
+      "Growth matters when it produces a return on capital. The operating margin of -3.6% and return on invested capital of -20.2% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
-        "title": "Backlog margin",
-        "detail": "The margin embedded in signed projects decides the next four quarters more than any revenue forecast."
+        "title": "Power demand",
+        "detail": "Data centers and electrification are increasing long-run electricity demand."
       },
       {
-        "title": "Service book",
-        "detail": "Long-term availability agreements produce recurring revenue from installed plants and carry better margins than new projects."
+        "title": "Policy support",
+        "detail": "Tax credits and government programmes can improve project economics."
       },
       {
-        "title": "Cell prices",
-        "detail": "Cells are the largest cost; a price rise on a fixed-price contract can consume the entire gross profit."
+        "title": "Contracted capacity",
+        "detail": "Long-term agreements can underwrite new build."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Nine cents of every revenue dollar is gross profit, and the operating cost base consumes more than that. FY2025 revenue of $2.3B produced a 13.1% gross margin and a -2.0% operating margin; FY2024's $2.7B produced 12.6% and 1.5%. The only profitable year in the record earned a 0.8% net margin. That is the arithmetic of an integrator: it carries engineering and warranty costs on a distributor's spread.",
-      "Quarterly margins swing because revenue is lumpy. Q1 FY2026 ran at -14.8%, Q2 at -6.0% and Q3 FY2026 at -6.7%, while Q4 FY2025 earned 4.4% on $1.0B. A single large project with a better price can move the consolidated margin by several points. Return on invested capital of -20.2% and return on equity of -21.7% reflect a capital base that is small relative to revenue but large relative to profit.",
-      "The contrast with Symbotic is stark. Symbotic earns a 21.3% gross margin and trades at 7.6x sales; Fluence earns 9.3% and trades at 0.2x. The difference is the amount of software and recurring revenue in the mix. Fluence's software and service lines are the only part of the business that could close that gap, and the reported figures do not disclose how large they are."
+      "The trailing operating margin is -3.6%, the net margin is -3.1% and diluted EPS is -$0.60. The latest quarter's operating margin was -6.7%. The quarter shown is the latest reported period in the dataset.",
+      "Return on equity is -21.7%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Cell purchases are paid for before customers pay, so working capital swings with the project cycle. FY2025 used $145.5M of operating cash flow and $160.4M of free cash flow; FY2024 generated $79.7M and $71.6M. The trailing figure is -$115.3M. A growing backlog absorbs cash; a slowing one releases it, which is why the cash statement can mislead in both directions.",
-      "Net cash fell from $690.8M at FY2025 to $339.3M trailing. The free cash outflow of $115.3M explains only part of the $351.5M decline, so the rest came from financing, acquisitions or other investing flows that the reported figures do not break out. That is a material gap in the cash story, because the balance sheet is the buffer against a project loss.",
-      "Dividends and buybacks are absent. Capex is small, at $14.9M in FY2025, because the company does not own the factories that make the cells. The capital it consumes is working capital, not plant, which means the balance sheet can reverse quickly if projects are paid for. It also means the company has no hard asset backing the equity if the margin stays at 9%, and the net cash is the only valuation floor."
+      "The cash statement over the trailing period was -$115.3M, a -4.4% margin. The balance sheet carries $339.3M of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
+      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "0.2x sales is the lowest multiple in the peer group by a wide margin, and it is not a bargain signal. The market is valuing a business with a 9.3% gross margin and a -3.6% operating margin at close to the value of its net cash: $753.3M of equity against $339.3M of net cash. On an enterprise basis, $414M of value supports $2.6B of revenue.",
-      "The comparison with Symbotic at 7.6x sales and a 21.3% gross margin shows what the market pays for a mix with more software and recurring revenue. Fluence's 0.2x is a statement that the hardware integration business is worth little more than its working capital. A service book large enough to change the mix would justify a higher multiple; the reported figures do not disclose its size.",
-      "A gross margin back above 13% with positive free cash flow would justify a re-rating, and the company achieved that in FY2024. Another year of negative operating margin and a further drawdown of net cash would break the current price. The 52-week range of $3 to $34 shows how far the market has already moved against the story, and the low end is not far below the current price."
+      "At the latest close the shares trade with no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The valuation reflects the growth and margin record described above, not for the past alone.",
+      "The attributed third-party mean target is $7.70; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "Twenty analysts contribute, with a mean target of $8 and a range of $3 to $15 against a $4 share price. The low end of the range is below the current price, which is unusual and reflects a real downside case.",
-      "Estimates put FY2026 revenue at $2.4B and a loss of $1.30 per share, with FY2027 at $3.0B and -$0.53. The revision series is extreme: +46.1% over 30 days and +866.1% over 90, which on a small negative base says more about the instability of the estimate than about a change in trading. The consensus assumes the loss narrows but does not reach breakeven in either year."
+      "20 analysts contribute to the third-party consensus. The mean target is $7.70, with a range of $4.00 to $15.00. The consensus is a third-party snapshot and can change without notice.",
+      "Current-year estimates call for $2.7B of revenue and -$0.76 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
     ]
   },
   "risks": {
@@ -160,6 +156,6 @@ export const FLNC: StockStory = {
       "What happens to the margin if cell prices fall further and competitors cut prices?"
     ]
   },
-  "narrativeSource": "curated",
+  "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-24"
 };

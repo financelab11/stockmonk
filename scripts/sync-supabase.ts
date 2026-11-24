@@ -10,6 +10,7 @@ loadEnv();
 import fs from "node:fs";
 import path from "node:path";
 import { createClient } from "@supabase/supabase-js";
+import type { StoryFreshnessManifest } from "../lib/story-freshness";
 
 type Json = Record<string, unknown>;
 type CompanyRow = {
@@ -452,6 +453,38 @@ async function syncConsensus(
   return written;
 }
 
+async function syncStoryFreshness(): Promise<number> {
+  const file = path.join(ROOT, "data", "story-freshness.json");
+  if (!fs.existsSync(file)) {
+    console.warn("[sync] story freshness manifest missing");
+    return 0;
+  }
+  const manifest = JSON.parse(
+    fs.readFileSync(file, "utf8"),
+  ) as StoryFreshnessManifest;
+  const rows = Object.values(manifest.tickers).map((row) => ({
+    ticker: row.ticker,
+    market: "US",
+    price_as_of: row.priceAsOf,
+    latest_quarter: row.latestQuarter,
+    latest_filing_form: row.latestFiling?.form ?? null,
+    latest_filing_date: row.latestFiling?.filed ?? null,
+    latest_filing_accession: row.latestFiling?.accession ?? null,
+    earnings_filed: row.earnings?.filed ?? null,
+    earnings_accession: row.earnings?.accession ?? null,
+    consensus_as_of: row.consensusAsOf,
+    segments_as_of: row.segmentsAsOf,
+    narrative_updated_at: row.narrativeUpdatedAt,
+    status: row.status,
+    events: row.events,
+    checked_at: row.checkedAt,
+    updated_at: new Date().toISOString(),
+  }));
+  const written = await upsert("story_freshness", rows, "ticker");
+  console.log(`[sync] story freshness ${written}`);
+  return written;
+}
+
 async function main() {
   const { data: run, error: runError } = await supabase
     .from("ingestion_runs")
@@ -465,6 +498,7 @@ async function main() {
     const prices = await syncPrices(companies);
     const financials = await syncFinancials(companies);
     const consensus = await syncConsensus(companies);
+    const freshness = await syncStoryFreshness();
 
     await supabase.rpc("refresh_company_snapshots");
     await supabase.rpc("refresh_data_freshness");
@@ -473,7 +507,7 @@ async function main() {
       .update({
         status: "succeeded",
         finished_at: new Date().toISOString(),
-        rows_written: prices + financials + consensus,
+        rows_written: prices + financials + consensus + freshness,
       })
       .eq("id", run.id);
     console.log("[sync] done");

@@ -1,7 +1,7 @@
 {
   "ticker": "DHI",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/DHI/analysis",
   "targetMean": 146.5,
   "targetHigh": 186,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 2.03,
       "epsEstimate": 1.91756,
-      "revenueActual": 6886900000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 2.24,
       "epsEstimate": 2.13891,
-      "revenueActual": 7558100000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 3.2,
       "epsEstimate": 2.98816,
-      "revenueActual": 9227100000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -96,9 +96,9 @@
     "analystCount": 15
   },
   "revisions": {
-    "eps7d": -0.023235660930891133,
-    "eps30d": -0.2291290668053757,
-    "eps60d": -0.24460334731480282,
+    "eps7d": 0,
+    "eps30d": -0.21033052439328515,
+    "eps60d": -0.23603377651265323,
     "eps90d": -0.246911045466639,
     "revenue30d": null
   }

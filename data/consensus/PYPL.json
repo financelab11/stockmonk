@@ -1,7 +1,7 @@
 {
   "ticker": "PYPL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/PYPL/analysis",
   "targetMean": 57.31364,
   "targetHigh": 80,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.23,
       "epsEstimate": 1.2866,
-      "revenueActual": 8676000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.34,
       "epsEstimate": 1.26902,
-      "revenueActual": 8353000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 1.38,
       "epsEstimate": 1.2774,
-      "revenueActual": 8682000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 1.45,
       "epsEstimate": 1.30984,
-      "revenueActual": 8584000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 33
   },
   "revisions": {
-    "eps7d": 0.0018872968061267592,
-    "eps30d": 0.03613445222240985,
-    "eps60d": 0.035784698304242246,
-    "eps90d": 0.03761294194370701,
+    "eps7d": 0,
+    "eps30d": 0.03645366457506283,
+    "eps60d": 0.035921112673391375,
+    "eps90d": 0.03692515076795089,
     "revenue30d": null
   }
 }

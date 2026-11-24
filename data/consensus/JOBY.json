@@ -1,7 +1,7 @@
 {
   "ticker": "JOBY",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/JOBY/analysis",
   "targetMean": 8.84222,
   "targetHigh": 18,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": -0.217,
       "epsEstimate": -0.19714,
-      "revenueActual": 30836000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": -0.12,
       "epsEstimate": -0.20508,
-      "revenueActual": 24246000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": -0.25,
       "epsEstimate": -0.23446,
-      "revenueActual": 38639000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": -0.22,
       "epsEstimate": -0.2519,
-      "revenueActual": 55089000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

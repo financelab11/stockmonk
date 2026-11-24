@@ -6,6 +6,7 @@ import { config as loadEnv } from "dotenv";
 import fs from "node:fs";
 import path from "node:path";
 import { Client } from "pg";
+import type { StoryFreshnessManifest } from "../lib/story-freshness";
 loadEnv({ path: ".env.local" });
 loadEnv();
 
@@ -48,6 +49,7 @@ const JSON_COLUMNS = new Set([
   "evidence",
   "historical_reference",
   "segment_context",
+  "events",
 ]);
 
 const readJson = <T>(file: string): T | null => {
@@ -115,6 +117,38 @@ async function upsert(
     await client.query(sql, params);
     written += batch.length;
   }
+  return written;
+}
+
+async function syncStoryFreshness(client: Client): Promise<number> {
+  const file = path.join(ROOT, "data", "story-freshness.json");
+  if (!fs.existsSync(file)) {
+    console.warn("[db-sync] story freshness manifest missing");
+    return 0;
+  }
+  const manifest = JSON.parse(
+    fs.readFileSync(file, "utf8"),
+  ) as StoryFreshnessManifest;
+  const rows: Json[] = Object.values(manifest.tickers).map((row) => ({
+    ticker: row.ticker,
+    market: "US",
+    price_as_of: row.priceAsOf,
+    latest_quarter: row.latestQuarter,
+    latest_filing_form: row.latestFiling?.form ?? null,
+    latest_filing_date: row.latestFiling?.filed ?? null,
+    latest_filing_accession: row.latestFiling?.accession ?? null,
+    earnings_filed: row.earnings?.filed ?? null,
+    earnings_accession: row.earnings?.accession ?? null,
+    consensus_as_of: row.consensusAsOf,
+    segments_as_of: row.segmentsAsOf,
+    narrative_updated_at: row.narrativeUpdatedAt,
+    status: row.status,
+    events: row.events,
+    checked_at: row.checkedAt,
+    updated_at: new Date().toISOString(),
+  }));
+  const written = await upsert(client, "story_freshness", rows, "ticker");
+  console.log("[db-sync] story freshness", written);
   return written;
 }
 
@@ -454,11 +488,13 @@ async function main() {
     }
     console.log("[db-sync] consensus", consensusCount);
 
+    const freshnessCount = await syncStoryFreshness(client);
+
     await client.query("select public.refresh_company_snapshots()");
     await client.query("select public.refresh_data_freshness()");
     await client.query(
       "update public.ingestion_runs set status='succeeded', finished_at=now(), rows_written=$1 where id=$2",
-      [priceCount + financialCount + consensusCount, runId],
+      [priceCount + financialCount + consensusCount + freshnessCount, runId],
     );
     console.log("[db-sync] done");
     await client.end();

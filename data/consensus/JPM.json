@@ -1,7 +1,7 @@
 {
   "ticker": "JPM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/JPM/analysis",
   "targetMean": 373.47827,
   "targetHigh": 425,
@@ -28,11 +28,11 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 54210231490,
-      "revenueGrowth": 0.087799996,
-      "epsAvg": 6.24327,
-      "epsGrowth": 0.0511,
-      "analystCount": 7
+      "revenueAvg": 54032484140,
+      "revenueGrowth": 0.0842,
+      "epsAvg": 6.24161,
+      "epsGrowth": 0.0508,
+      "analystCount": 8
     },
     {
       "period": "Current fiscal year",
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 4.63,
       "epsEstimate": 4.81831,
-      "revenueActual": 45798000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 5.94,
       "epsEstimate": 5.51098,
-      "revenueActual": 49836000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 6.14,
       "epsEstimate": 5.79998,
-      "revenueActual": 57347000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 5.75,
       "epsEstimate": 5.94266,
-      "revenueActual": 50172000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

@@ -1,7 +1,7 @@
 {
   "ticker": "TMUS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/TMUS/analysis",
   "targetMean": 226.24,
   "targetHigh": 296,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.88,
       "epsEstimate": 2.0642,
-      "revenueActual": 24334000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 2.27,
       "epsEstimate": 1.97231,
-      "revenueActual": 23107000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 2.99,
       "epsEstimate": 2.60324,
-      "revenueActual": 22791000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 3.22,
       "epsEstimate": 2.91206,
-      "revenueActual": 23584000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

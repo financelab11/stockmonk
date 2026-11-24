@@ -1,17 +1,17 @@
 {
   "ticker": "SOFI",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/SOFI/analysis",
-  "targetMean": 20.83913,
+  "targetMean": 20.66522,
   "targetHigh": 30,
   "targetLow": 12,
-  "recommendationKey": "hold",
+  "recommendationKey": "buy",
   "analystCount": 23,
   "distribution": {
-    "strongBuy": 4,
+    "strongBuy": 5,
     "buy": 7,
-    "hold": 10,
+    "hold": 9,
     "sell": 2,
     "strongSell": 2
   },
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 5053974590,
-      "revenueGrowth": 0.4072,
-      "epsAvg": 0.60874,
-      "epsGrowth": 0.62590003,
+      "revenueAvg": 5057336550,
+      "revenueGrowth": 0.4082,
+      "epsAvg": 0.60944,
+      "epsGrowth": 0.6278,
       "analystCount": 9
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 6411202160,
-      "revenueGrowth": 0.2685,
-      "epsAvg": 0.89961,
-      "epsGrowth": 0.47779998,
+      "revenueAvg": 6425526300,
+      "revenueGrowth": 0.2705,
+      "epsAvg": 0.89538,
+      "epsGrowth": 0.4692,
       "analystCount": 10
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.1217,
       "epsEstimate": 0.112,
-      "revenueActual": 170290000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.115,
       "epsEstimate": 0.12,
-      "revenueActual": 129504000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.12,
       "epsEstimate": 0.1092,
-      "revenueActual": 153577000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 0.18,
       "epsEstimate": 0.16752,
-      "revenueActual": 163396000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 8
   },
   "revisions": {
-    "eps7d": 0.02784297171802419,
-    "eps30d": 0.023556908176819658,
-    "eps60d": 0.01363749895928712,
-    "eps90d": 0.02735726461107446,
+    "eps7d": -0.0024878879141023713,
+    "eps30d": 0.02902490502321653,
+    "eps60d": 0.02212159329140473,
+    "eps90d": 0.023426086080370778,
     "revenue30d": null
   }
 }

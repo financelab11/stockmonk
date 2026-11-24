@@ -1,9 +1,9 @@
 {
   "ticker": "AIG",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/AIG/analysis",
-  "targetMean": 88.9,
+  "targetMean": 88.95,
   "targetHigh": 103,
   "targetLow": 80,
   "recommendationKey": "buy",
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.96,
       "epsEstimate": 1.90272,
-      "revenueActual": 6550000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 2.11,
       "epsEstimate": 1.88456,
-      "revenueActual": 6650000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 2,
       "epsEstimate": 1.92792,
-      "revenueActual": 7085000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 2.06,
       "epsEstimate": 1.88194,
-      "revenueActual": 7443000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": 0.001517685231839483,
+    "eps7d": 0.00007534961614230617,
     "eps30d": 0.015801908918986918,
     "eps60d": 0.023269665995175215,
-    "eps90d": 0.024562823330199768,
+    "eps90d": 0.023982728155098387,
     "revenue30d": null
   }
 }

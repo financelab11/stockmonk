@@ -1,7 +1,7 @@
 {
   "ticker": "SMR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/SMR/analysis",
   "targetMean": 8.59375,
   "targetHigh": 19,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": -0.8,
       "epsEstimate": -0.15167,
-      "revenueActual": 1808000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": -0.14,
       "epsEstimate": -0.138,
-      "revenueActual": 565000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": -0.13,
       "epsEstimate": -0.13125,
-      "revenueActual": 75000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": -0.11,
       "epsEstimate": -0.11857,
-      "revenueActual": 281000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

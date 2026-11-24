@@ -1,7 +1,7 @@
 {
   "ticker": "SHW",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/SHW/analysis",
   "targetMean": 373.83334,
   "targetHigh": 420,
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 25206922290,
+      "revenueAvg": 25206940320,
       "revenueGrowth": 0.069299996,
-      "epsAvg": 12.0259,
-      "epsGrowth": 0.0521,
+      "epsAvg": 12.02423,
+      "epsGrowth": 0.051999997,
       "analystCount": 29
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 26238735550,
+      "revenueAvg": 26238749890,
       "revenueGrowth": 0.040900003,
-      "epsAvg": 13.17925,
-      "epsGrowth": 0.0959,
+      "epsAvg": 13.17056,
+      "epsGrowth": 0.0953,
       "analystCount": 29
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 2.23,
       "epsEstimate": 2.16252,
-      "revenueActual": 5595900000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 2.35,
       "epsEstimate": 2.26917,
-      "revenueActual": 5666900000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 3.7,
       "epsEstimate": 3.51941,
-      "revenueActual": 6789300000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 3.63,
       "epsEstimate": 3.68773,
-      "revenueActual": 6860000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 24
   },
   "revisions": {
-    "eps7d": -0.00040064102564107973,
-    "eps30d": -0.005725435401793266,
-    "eps60d": -0.006198707369941658,
-    "eps90d": -0.005231141338424394,
+    "eps7d": -0.0005394523353549063,
+    "eps30d": -0.0050977011113831905,
+    "eps60d": -0.006336713519892401,
+    "eps90d": -0.005356117720436315,
     "revenue30d": null
   }
 }

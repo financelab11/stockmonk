@@ -1,11 +1,11 @@
 {
   "ticker": "DELL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/DELL/analysis",
-  "targetMean": 583.68,
+  "targetMean": 568.88,
   "targetHigh": 700,
-  "targetLow": 403,
+  "targetLow": 400,
   "recommendationKey": "buy",
   "analystCount": 25,
   "distribution": {
@@ -19,17 +19,17 @@
     {
       "period": "Next quarter",
       "endDate": "2026-10-31",
-      "revenueAvg": 49196513130,
-      "revenueGrowth": 0.8218,
-      "epsAvg": 6.58806,
-      "epsGrowth": 1.5437,
+      "revenueAvg": 49273922220,
+      "revenueGrowth": 0.8246,
+      "epsAvg": 6.58732,
+      "epsGrowth": 1.5433999,
       "analystCount": 25
     },
     {
       "period": "Following quarter",
       "endDate": "2027-01-31",
-      "revenueAvg": 53606174570,
-      "revenueGrowth": 0.606,
+      "revenueAvg": 53647901840,
+      "revenueGrowth": 0.6072,
       "epsAvg": 6.74239,
       "epsGrowth": 1.0007,
       "analystCount": 6
@@ -37,17 +37,17 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-01-31",
-      "revenueAvg": 194943860450,
-      "revenueGrowth": 0.71699995,
-      "epsAvg": 26.00731,
-      "epsGrowth": 1.525,
+      "revenueAvg": 194361812090,
+      "revenueGrowth": 0.7119,
+      "epsAvg": 25.98732,
+      "epsGrowth": 1.523,
       "analystCount": 28
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-01-31",
-      "revenueAvg": 233302555060,
-      "revenueGrowth": 0.19680001,
+      "revenueAvg": 232576085340,
+      "revenueGrowth": 0.1966,
       "epsAvg": 28.48325,
       "epsGrowth": 0.17889999,
       "analystCount": 9
@@ -59,7 +59,7 @@
       "endDate": "2025-10-31",
       "epsActual": 2.59,
       "epsEstimate": 2.47719,
-      "revenueActual": 27005000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-01-31",
       "epsActual": 3.89,
       "epsEstimate": 3.51279,
-      "revenueActual": 33379000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-04-30",
       "epsActual": 4.86,
       "epsEstimate": 2.96676,
-      "revenueActual": 43842000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,23 +83,23 @@
       "endDate": "2026-07-31",
       "epsActual": 7.04,
       "epsEstimate": 4.91833,
-      "revenueActual": 46971000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
   "currentQuarter": {
     "endDate": "2026-10-31",
-    "revenueAvg": 49196513130,
-    "revenueGrowth": 0.8218,
-    "epsAvg": 6.58806,
-    "epsGrowth": 1.5437,
+    "revenueAvg": 49273922220,
+    "revenueGrowth": 0.8246,
+    "epsAvg": 6.58732,
+    "epsGrowth": 1.5433999,
     "analystCount": 25
   },
   "revisions": {
-    "eps7d": 0.003611987631257918,
-    "eps30d": 0.004277017595007759,
-    "eps60d": 0.0047732632353258975,
-    "eps90d": 0.3921708120284009,
+    "eps7d": 0.006343444403956067,
+    "eps30d": 0.0035051001002064375,
+    "eps60d": 0.0034640262170910763,
+    "eps90d": 0.3808029992922588,
     "revenue30d": null
   }
 }

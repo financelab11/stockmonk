@@ -1,17 +1,17 @@
 {
   "ticker": "CAMT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/CAMT/analysis",
-  "targetMean": 152.8,
+  "targetMean": 150.72726,
   "targetHigh": 200,
   "targetLow": 120,
   "recommendationKey": "buy",
-  "analystCount": 10,
+  "analystCount": 11,
   "distribution": {
     "strongBuy": 2,
-    "buy": 4,
-    "hold": 4,
+    "buy": 5,
+    "hold": 3,
     "sell": 1,
     "strongSell": 0
   },
@@ -96,10 +96,10 @@
     "analystCount": 8
   },
   "revisions": {
-    "eps7d": -0.007795109414940327,
-    "eps30d": -0.0035315769402948227,
+    "eps7d": 0,
+    "eps30d": -0.0074045528365768165,
     "eps60d": -0.0035315769402948227,
-    "eps90d": 0.028904043142066183,
+    "eps90d": -0.0035315769402948227,
     "revenue30d": null
   }
 }

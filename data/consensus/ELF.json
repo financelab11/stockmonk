@@ -1,7 +1,7 @@
 {
   "ticker": "ELF",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/ELF/analysis",
   "targetMean": 131,
   "targetHigh": 140,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.24,
       "epsEstimate": 0.72333,
-      "revenueActual": 489505000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.32,
       "epsEstimate": 0.28528,
-      "revenueActual": 449292000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 1.75,
       "epsEstimate": 0.71748,
-      "revenueActual": 479373000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 1.21,
       "epsEstimate": 0.59875,
-      "revenueActual": 520816000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": 0.0022579277925480756,
-    "eps30d": 0.07519420646096453,
-    "eps60d": 0.08131162806165726,
-    "eps90d": 0.08127267235143987,
+    "eps7d": 0,
+    "eps30d": 0.07099448272075981,
+    "eps60d": 0.07769476170089362,
+    "eps90d": 0.08127566884488124,
     "revenue30d": null
   }
 }

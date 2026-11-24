@@ -1,17 +1,17 @@
 {
   "ticker": "IREN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/IREN/analysis",
-  "targetMean": 56.68737,
-  "targetHigh": 139,
+  "targetMean": 52.74,
+  "targetHigh": 80,
   "targetLow": 23,
   "recommendationKey": "buy",
   "analystCount": 19,
   "distribution": {
-    "strongBuy": 2,
+    "strongBuy": 3,
     "buy": 13,
-    "hold": 5,
+    "hold": 4,
     "sell": 0,
     "strongSell": 0
   },
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 291234070,
-      "revenueGrowth": 0.5768,
+      "revenueAvg": 289710780,
+      "revenueGrowth": 0.5685,
       "epsAvg": -0.71,
       "epsGrowth": -23.5675,
       "analystCount": 1
@@ -28,8 +28,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 732881650,
-      "revenueGrowth": 4.0613003,
+      "revenueAvg": 725765030,
+      "revenueGrowth": 4.0122,
       "epsAvg": -0.15,
       "epsGrowth": 0.0631,
       "analystCount": 1
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-06-30",
-      "revenueAvg": 2385654670,
-      "revenueGrowth": 2.3743,
+      "revenueAvg": 2362503170,
+      "revenueGrowth": 2.3416,
       "epsAvg": -1.66,
       "epsGrowth": -2.5125,
       "analystCount": 2
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2028-06-30",
-      "revenueAvg": 7148909440,
-      "revenueGrowth": 1.9966,
+      "revenueAvg": 7106182150,
+      "revenueGrowth": 2.0079,
       "epsAvg": 0.27,
       "epsGrowth": 1.1626999,
       "analystCount": 2
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": -0.0289,
       "epsEstimate": -0.25,
-      "revenueActual": 184692000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": -0.1601,
       "epsEstimate": -0.26,
-      "revenueActual": 144795000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,31 +75,31 @@
       "endDate": "2026-06-30",
       "epsActual": -0.2544,
       "epsEstimate": -0.455,
-      "revenueActual": 137225000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
       "quarter": "2026-09-30",
       "endDate": "2026-09-30",
-      "epsActual": null,
+      "epsActual": -0.26596,
       "epsEstimate": -0.665,
-      "revenueActual": 200000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 291234070,
-    "revenueGrowth": 0.5768,
+    "revenueAvg": 289710780,
+    "revenueGrowth": 0.5685,
     "epsAvg": -0.71,
     "epsGrowth": -23.5675,
     "analystCount": 1
   },
   "revisions": {
-    "eps7d": -0.5147816225001023,
+    "eps7d": 0,
     "eps30d": -0.5147816225001023,
-    "eps60d": -0.319672131147541,
-    "eps90d": 0.7659574468085106,
+    "eps60d": -0.5768900398386065,
+    "eps90d": 0.6544905464802206,
     "revenue30d": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "IBM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/IBM/analysis",
   "targetMean": 259.84738,
   "targetHigh": 300,
@@ -39,9 +39,9 @@
       "endDate": "2026-12-31",
       "revenueAvg": 70566875410,
       "revenueGrowth": 0.044899996,
-      "epsAvg": 12.42378,
-      "epsGrowth": 0.0719,
-      "analystCount": 23
+      "epsAvg": 12.41291,
+      "epsGrowth": 0.071,
+      "analystCount": 24
     },
     {
       "period": "Next fiscal year",
@@ -49,7 +49,7 @@
       "revenueAvg": 73238437120,
       "revenueGrowth": 0.0379,
       "epsAvg": 13.23863,
-      "epsGrowth": 0.0656,
+      "epsGrowth": 0.0665,
       "analystCount": 24
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 4.52,
       "epsEstimate": 4.29238,
-      "revenueActual": 19686000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.91,
       "epsEstimate": 1.81123,
-      "revenueActual": 15917000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 2.93,
       "epsEstimate": 2.93306,
-      "revenueActual": 17162000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 2.95,
       "epsEstimate": 2.87224,
-      "revenueActual": 17103000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": 0.00038489411385778105,
-    "eps30d": 0.009009287045647518,
-    "eps60d": 0.008360678756279105,
-    "eps90d": 0.007883763568218516,
+    "eps7d": -0.0008749350036785231,
+    "eps30d": 0.00824766049594805,
+    "eps60d": 0.007478428702102358,
+    "eps90d": 0.007478428702102358,
     "revenue30d": null
   }
 }

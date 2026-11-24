@@ -1,9 +1,9 @@
 {
   "ticker": "CIEN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/CIEN/analysis",
-  "targetMean": 511.74072,
+  "targetMean": 502.99072,
   "targetHigh": 660,
   "targetLow": 347,
   "recommendationKey": "buy",
@@ -59,7 +59,7 @@
       "endDate": "2025-10-31",
       "epsActual": 0.91,
       "epsEstimate": 0.76964,
-      "revenueActual": 1351984000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-01-31",
       "epsActual": 1.35,
       "epsEstimate": 1.16833,
-      "revenueActual": 1427042000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-04-30",
       "epsActual": 1.64,
       "epsEstimate": 1.45989,
-      "revenueActual": 1570739000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-07-31",
       "epsActual": 2.11,
       "epsEstimate": 1.72756,
-      "revenueActual": 1671129000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -98,8 +98,8 @@
   "revisions": {
     "eps7d": 0,
     "eps30d": 0,
-    "eps60d": 0.001859533886160225,
-    "eps90d": 0.09570061332432189,
+    "eps60d": -0.00012139817205047976,
+    "eps90d": 0.0947313904387097,
     "revenue30d": null
   }
 }

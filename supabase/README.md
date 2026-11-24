@@ -37,10 +37,10 @@ committed) or in the Supabase dashboard under **Project Settings → API** /
 
 Required for the daily refresh and database sync:
 
-| Secret | Where to get it |
-| --- | --- |
-| `NEXT_PUBLIC_SUPABASE_URL` | Supabase → Project Settings → API → Project URL |
-| `SUPABASE_DB_PASSWORD` | Supabase → Project Settings → Database (`.env.local`) |
+| Secret                     | Where to get it                                       |
+| -------------------------- | ----------------------------------------------------- |
+| `NEXT_PUBLIC_SUPABASE_URL` | Supabase → Project Settings → API → Project URL       |
+| `SUPABASE_DB_PASSWORD`     | Supabase → Project Settings → Database (`.env.local`) |
 
 Optional overrides: `SUPABASE_SERVICE_ROLE_KEY` (enables the REST sync path
 instead of direct Postgres), `SUPABASE_DB_HOST`, `SUPABASE_DB_USER`. When they
@@ -82,16 +82,22 @@ consensus and snapshots. Run `pnpm sync:supabase:direct` to refresh the counts.
 
 ## Realtime, RLS and daily jobs
 
-- All tables are in the `supabase_realtime` publication; RLS applies to
-  realtime.
+- Market and research tables are in the `supabase_realtime` publication; RLS
+  applies to realtime.
 - Market/research tables are public read; watchlists and profiles are
   owner-only.
-- `pg_cron` runs `refresh_company_snapshots()` at 02:15 UTC and
-  `refresh_data_freshness()` at 02:30 UTC daily.
-- `.github/workflows/daily-refresh.yml` refreshes the US file datasets and runs
+- `pg_cron` refreshes `company_snapshots` at 03:30 UTC and
+  `data_freshness` at 03:45 UTC daily, after the GitHub data refresh.
+- `.github/workflows/daily-refresh.yml` refreshes the US file datasets, detects
+  material story events, rewrites queued reports, validates freshness and runs
   `pnpm sync:supabase`; the screener is rebuilt from the same 229-name data.
+- `story_freshness` records the latest price, filing, earnings, consensus and
+  segment dates plus the narrative status for each ticker.
 
 ## Verify
 
 After deploy, open `/api/health/db`. It returns `{ ok: true, datasets: [...] }`
 when the schema is applied and the publishable key can read `data_freshness`.
+`/api/health/data` checks the file-level freshness manifest, the latest price,
+the consensus fetch date and the rewrite queue; it returns 503 when any of them
+is outside its threshold.

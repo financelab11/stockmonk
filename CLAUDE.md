@@ -44,28 +44,33 @@ pnpm ingest:fundamentals # Yahoo prices, market data and profiles
 pnpm refresh             # EDGAR, Yahoo fundamentals, consensus, segments, benchmark
 pnpm refresh:prices      # Yahoo closes for the US research names
 pnpm refresh:stories     # regenerate data-driven sections for generated stories
+pnpm detect:events       # compare filings/earnings/quarters/consensus with stories
+pnpm stories:rewrite     # rewrite stories queued by detect:events
 pnpm research:packs      # rebuild per-company research packs
 pnpm research:apply      # apply curated rewrite batches to the seven data sections
 pnpm research:normalize  # normalise analyst-distribution language
 pnpm audit:research      # editorial/repetition gate
+pnpm audit:freshness     # price/consensus/story freshness gate
+pnpm audit:stories       # newest-quarter and explicit-price check
+pnpm audit:numbers       # advisory numeric-drift report
 ```
 
 ## Important paths
 
-| Path                                                   | Purpose                                                    |
-| ------------------------------------------------------ | ---------------------------------------------------------- |
-| `app/`                                                 | App Router pages and API routes                            |
-| `components/`                                          | Server/client components; design tokens from `globals.css` |
-| `lib/data.ts`                                          | US data access (server-only, cached)                       |
-| `lib/schemas.ts`                                       | Zod schemas for processed company data                     |
-| `config/universe.ts`                                   | US research universe and ticker aliases                    |
-| `data/{processed,consensus,prices,segments,earnings}`  | US file datasets                                           |
-| `public/data/`                                         | Browser-served JSON, search index and price history        |
-| `content/stocks/`                                      | US editorial reports                                       |
-| `scripts/`                                             | Ingestion, build, validation and sync scripts              |
-| `supabase/migrations/`                                 | Database schema and removal migrations                     |
-| `utils/supabase/`                                      | Browser/server/middleware clients                          |
-| `middleware.ts`                                        | Supabase session refresh                                   |
+| Path                                                  | Purpose                                                    |
+| ----------------------------------------------------- | ---------------------------------------------------------- |
+| `app/`                                                | App Router pages and API routes                            |
+| `components/`                                         | Server/client components; design tokens from `globals.css` |
+| `lib/data.ts`                                         | US data access (server-only, cached)                       |
+| `lib/schemas.ts`                                      | Zod schemas for processed company data                     |
+| `config/universe.ts`                                  | US research universe and ticker aliases                    |
+| `data/{processed,consensus,prices,segments,earnings}` | US file datasets                                           |
+| `public/data/`                                        | Browser-served JSON, search index and price history        |
+| `content/stocks/`                                     | US editorial reports                                       |
+| `scripts/`                                            | Ingestion, build, validation and sync scripts              |
+| `supabase/migrations/`                                | Database schema and removal migrations                     |
+| `utils/supabase/`                                     | Browser/server/middleware clients                          |
+| `middleware.ts`                                       | Supabase session refresh                                   |
 
 ## Routes
 
@@ -84,7 +89,7 @@ pnpm audit:research      # editorial/repetition gate
 - Percentile labels always go through `formatOrdinal` (`72nd`, `51st`, `93rd`);
   never concatenate `th`. Ordinals are baked into `factorChips` detail strings,
   so after changing chip copy run `pnpm chips:rebuild && pnpm build:data &&
-  pnpm build:screener`.
+pnpm build:screener`.
 - Currency is USD everywhere: `$4.5B`, `$303B`. The India crore/lakh formatting
   has been removed.
 - A segment chart is only a "revenue mix" when more than one segment is
@@ -135,20 +140,40 @@ periods.
 
 ## Research report freshness
 
-- `pnpm audit:stories` compares every story's newest quarter and explicit price
-  with the dataset; it exits non-zero when a report is behind.
+- Every story carries `narrativeUpdatedAt` and a generated entry in
+  `data/story-freshness.json` with the latest price, quarter, 10-K/10-Q, 8-K,
+  consensus and segment dates.
+- `pnpm detect:events` compares those sources with the story metadata and the
+  previous `data/state/pipeline-state.json`. A new quarter, filing, earnings
+  release, material consensus revision or segment change marks the story
+  `rewrite-pending`; a stale price marks it `data-stale`; a reviewed source gap
+  is labelled `source-gap`.
+- `pnpm audit:stories --strict` fails on any queued, stale or undated story.
+  `pnpm audit:freshness --strict` also fails when the price or consensus source
+  is too old. `pnpm audit:numbers` is an advisory report of prose numbers that
+  look stale or cannot be traced to the current pack.
 - `pnpm refresh:stories` regenerates the data-driven sections for stories that
-  are still marked `generated`. Stories marked `curated` or `handwritten` are
-  skipped so bespoke analysis is not overwritten.
+  are still marked `generated` or `auto-curated`. Stories marked `curated` or
+  `handwritten` are skipped so bespoke analysis is not overwritten.
+- `pnpm stories:rewrite` rewrites the queued stories. With
+  `REWRITE_PROVIDER=openai` and `REWRITE_API_KEY` (or `OPENAI_API_KEY`) it
+  produces a full ten-section rewrite and validates every number against the
+  research pack. Without a provider it uses the deterministic generator for the
+  seven data sections and keeps the bespoke business-model, risk and bottom-line
+  sections, marking the result `auto-curated`.
 - `pnpm audit:research` is the editorial gate: it checks the seven data-driven
   sections for cross-company sentence reuse, banned boilerplate, rating labels,
-  short paragraphs and missing sections.
-- The daily workflow runs the ingest, price refresh, story refresh for generated
-  names, freshness audits and commits `data`, `public/data` and `content`.
+  short paragraphs and missing sections. Stories marked `auto-curated` are
+  exempt from the cross-company sentence-reuse check because their data sections
+  are machine-refreshed; they still face every other editorial check.
+- The daily workflow runs ingest, `detect:events`, `stories:rewrite`, a second
+  `detect:events`, strict freshness/story audits, Supabase sync and commits
+  `data`, `public/data` and `content`. The rewrite provider is optional; the
+  deterministic fallback keeps data sections current without an LLM key.
 - Curated reports are refreshed with `pnpm research:packs` and
   `pnpm research:apply` when a material new filing changes the analysis. The
-  pack builder is `scripts/build-research-packs.ts`; rewrites live under
-  `data/raw/rewrites` and are applied only to the seven data-driven sections.
+  pack builder is `scripts/build-research-packs.ts` and now includes the latest
+  8-K earnings release; rewrites live under `data/raw/rewrites`.
 - Never hand-edit a generated section to a specific number; change the data or
   the generator instead.
 - Report section 10 is "Key takeaways and what to monitor" (not "the bottom
@@ -201,11 +226,11 @@ Tables:
 - consensus_estimates, consensus_targets
 - stories
 - profiles, watchlists, watchlist_items
-- company_snapshots, ingestion_runs, data_freshness
+- company_snapshots, ingestion_runs, data_freshness, story_freshness
 
 Realtime is enabled for snapshots, news, freshness, consensus targets and
-watchlists. `pg_cron` refreshes `company_snapshots` at 02:15 UTC and
-`data_freshness` at 02:30 UTC daily.
+watchlists. `pg_cron` refreshes `company_snapshots` at 03:30 UTC and
+`data_freshness` at 03:45 UTC daily, after the GitHub data refresh.
 
 The app can run from files without Supabase. Supabase is the shared/realtime
 store and the base for auth/watchlists. `pnpm sync:supabase` performs idempotent
@@ -268,5 +293,6 @@ The intent is that a new agent can read `CLAUDE.md`, `README.md` and the latest
 commit and start without re-reading the whole repository.
 
 <!-- AUTO_CONTEXT_START -->
+
 _Context snapshot 2026-11-24: 229 US names, 4 database migration(s)._
 <!-- AUTO_CONTEXT_END -->

@@ -1,7 +1,7 @@
 {
   "ticker": "AXP",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/AXP/analysis",
   "targetMean": 364.78708,
   "targetHigh": 425,
@@ -28,11 +28,11 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 20573133280,
-      "revenueGrowth": 0.0881,
-      "epsAvg": 4.76464,
-      "epsGrowth": 0.113199994,
-      "analystCount": 13
+      "revenueAvg": 20575699950,
+      "revenueGrowth": 0.0883,
+      "epsAvg": 4.74431,
+      "epsGrowth": 0.108500004,
+      "analystCount": 14
     },
     {
       "period": "Current fiscal year",
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 3.53,
       "epsEstimate": 3.53362,
-      "revenueActual": 10942000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 4.28,
       "epsEstimate": 3.99336,
-      "revenueActual": 10517000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 4.53,
       "epsEstimate": 4.40494,
-      "revenueActual": 11212000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 5.42,
       "epsEstimate": 4.50016,
-      "revenueActual": 11232000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -99,7 +99,7 @@
     "eps7d": 0.000023925227139898197,
     "eps30d": 0.042615491718520415,
     "eps60d": 0.04068390287515333,
-    "eps90d": 0.04057909185758857,
+    "eps90d": 0.04068390287515333,
     "revenue30d": null
   }
 }

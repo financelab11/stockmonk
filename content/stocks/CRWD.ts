@@ -7,20 +7,20 @@ export const CRWD: StockStory = {
   "dek": "A 75.2% gross margin and a 29.8% free-cash-flow margin are excellent. A 40.2x sales multiple says the market wants them to last a very long time.",
   "readingMinutes": 9,
   "takeaways": [
-    "Second-quarter fiscal 2027 revenue of $1.5B grew 24.3% trailing, with an operating margin of -2.3% and EPS of $0.01.",
-    "Free cash flow of $1.6B is 29.8% of revenue, and net cash of $4.3B funds the growth without leverage.",
-    "At 38.5x sales and 131.8x free cash flow, the shares are the most expensive in the group on both measures.",
-    "Consensus expects fiscal 2027 revenue of $6.0B and EPS of $1.26, a 24.9% increase that assumes the operating margin crosses zero."
+    "Revenue: $5.4B trailing twelve months, +24.3% year over year.",
+    "Profitability: -2.2% operating margin and 1.1% net margin.",
+    "Cash: $1.6B free cash flow, a 29.8% margin.",
+    "Factor summary: 48/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000010/crwd-20260131.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001535527&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "CrowdStrike's second fiscal quarter, ended 31 July 2026, produced $1.5B of revenue, a -2.3% operating margin and $0.01 of diluted EPS. Revenue was about a quarter higher than a year earlier, and the operating margin improved from -9.0%. The result matters because it shows a subscription security platform approaching breakeven without slowing: the margin is still negative, but the direction is toward profit rather than away from it. The 6.7-point improvement is the clearest sign that the sales spend is starting to leverage.",
-      "The Falcon platform is one agent and one console with modules for endpoint, cloud workload, identity, exposure and log management. A customer that adds a module does not deploy new software or train a new team, which is why expansion within the base is cheaper than a new logo. The model is priced per endpoint per year, so revenue follows the number of protected devices and the number of modules attached to each one.",
-      "Price is the entire argument. At $207 the equity is worth $212.1B, or 38.5x sales, 131.8x free cash flow and a 0.8% FCF yield. EV/EBITDA is not reported because EBITDA is negative, and the P/E of 3,628x is not a meaningful number. The sales multiple assumes 20%-plus growth for years; the cash multiple assumes the margin keeps improving. That is a narrow set of assumptions for a company with a negative operating margin."
+      "CrowdStrike Holdings, Inc. Generated $5.4B of revenue over the last twelve months, +24.3% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
+      "The latest reported quarter was Q2 FY27, with $1.5B of revenue and an operating margin of -2.3%. The stock closed at $208.97 on 2026-11-23, giving a market capitalization of $214B.",
+      "The shares sit 61% of the way up their 52-week range ($85.68 to $286.99). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
-    "quote": "CrowdStrike is a 75% gross-margin subscription business that has not yet proved it can earn an operating margin."
+    "quote": "CRWD is a Technology business with $5.4B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,50 +52,46 @@ export const CRWD: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "The top line moved from $4.0B in fiscal 2025 to $4.8B in fiscal 2026 and $5.4B trailing, a 24.3% pace. The latest quarter grew roughly in line with that rate, and consensus for the October quarter is $1.5B, up 23.8%. Fiscal 2027 revenue of $6.0B would be 24.9% higher and fiscal 2028 at $7.4B another 22.9%, so the estimate assumes almost no deceleration over two years.",
-      "Modules, not new endpoints alone, drive the growth. Endpoint protection is the entry point; cloud, identity, exposure and log management are add-ons that raise revenue per endpoint without a new agent. That is a cheaper sale than a new customer and a stickier one, because the console and the data are shared. The limit is that the largest infrastructure vendors can bundle endpoint protection into contracts the customer has already signed.",
-      "Consensus is confident. Fiscal 2027 EPS of $1.26 would be 34.8% above fiscal 2026, and fiscal 2028 at $1.61 another 28.2%, even as revenue growth slows to 22.9%. That assumes operating leverage turns positive and stays there. The 90-day EPS revision of -1.8% is the only sign that the estimate has been trimmed. That is a small trim against a 34.8% earnings increase, so the estimate is intact."
+      "Revenue compounded at 52.6% a year across the fiscal years in the dataset, and the latest quarter changed +25.8% year over year. Third-party estimates for the current fiscal year point to $6.1B of revenue and $1.28 of EPS.",
+      "Growth matters when it produces a return on capital. The operating margin of -2.2% and return on invested capital of -2.0% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
-        "title": "Module attach",
-        "detail": "Each additional module raises revenue per endpoint without a new agent, which is why expansion is cheaper than a new logo."
+        "title": "Product cycle",
+        "detail": "New products and platform transitions create refresh demand and pricing power."
       },
       {
-        "title": "Endpoint base",
-        "detail": "Revenue is priced per endpoint per year; growth depends on devices protected and modules attached, not on seat counts inside an application."
+        "title": "Customer expansion",
+        "detail": "Land-and-expand selling raises revenue per existing customer and lengthens the relationship."
       },
       {
-        "title": "Breakeven",
-        "detail": "The operating margin improved from -9.0% to -2.3% in a year, but it is still negative and the valuation assumes it crosses zero."
+        "title": "Operating leverage",
+        "detail": "Incremental revenue can carry high gross margins once development and sales costs are in place."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "CrowdStrike's cost base is still larger than its gross profit. A 75.2% gross margin becomes a -2.2% operating margin and a 1.1% net margin, with sales and marketing consuming more than the gross profit. The latest quarter was better at -2.3% operating and 0.4% net, against -9.0% and -6.0% a year earlier. That is a 6.7-point improvement in operating margin on a 25% revenue increase.",
-      "The annual record shows the same direction. Operating margin was -6.1% in fiscal 2026, -2.9% in fiscal 2025 and -0.6% in fiscal 2024. Net margin was -3.4%, -0.4% and 2.4%. The company has been close to breakeven for three years without crossing it consistently, which is why the 3,628x P/E is a poor guide. Return on invested capital was -2.0%.",
-      "Against Palo Alto's 70.4% gross margin and 6.1% operating margin, CrowdStrike has a higher gross margin and a lower operating margin. The difference is scale: Palo Alto is more than twice the revenue and spreads its sales cost over a larger base. CrowdStrike's 24.3% growth is faster, but it is paying for that growth in the operating line. The operating margin gap is the price of a younger, smaller platform."
+      "The trailing operating margin is -2.2%, the net margin is 1.1% and diluted EPS is $0.22. The latest quarter's operating margin was -2.3%. The quarter shown is the latest reported period in the dataset.",
+      "Return on equity is 1.1%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
     ]
   },
   "cash": {
     "paragraphs": [
-      "CrowdStrike's free cash flow reached $1.6B, 29.8% of revenue, against a 1.1% net margin. The gap is stock-based compensation, amortisation and the timing of subscription billing: the cash arrives before the revenue is recognised, and the compensation is paid in shares rather than cash. That makes the cash-flow statement the more flattering document, and the 29.8% margin should be read with that in mind.",
-      "Net cash of $4.3B, or -2.7x EBITDA, with no meaningful debt, is enough to fund the sales and marketing that produces the growth without external financing. It is about 2% of the market value. Interest cover is -4.5x because operating income is negative; the number is not meaningful as a credit measure. That is a stronger balance sheet than the operating margin implies.",
-      "Nothing is being returned to shareholders yet. CrowdStrike pays no dividend, and no disclosed repurchase is large enough to change the share count. The company is retaining cash to fund growth, which is reasonable at this stage but means the entire return depends on the multiple the market assigns to future subscription revenue. The company is still in the phase where cash is spent to build the base."
+      "Cash generation over the trailing period was $1.6B, a 29.8% margin. The balance sheet carries $4.3B of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
+      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At $207 the equity is worth $212.1B, or 38.5x sales, 131.8x free cash flow and a 0.8% FCF yield. EV/EBITDA is not available because EBITDA is negative, and the P/E of 3,628x is not a usable number. The peer median P/E of 31.0x and EV/EBITDA of 25.1x cannot be applied to a company with no meaningful EBITDA, so sales and cash flow are the only comparisons.",
-      "The forward arithmetic requires years of growth. Fiscal 2027 revenue of $6.0B is about 34.6x the current enterprise value, and fiscal 2028 at $7.4B is about 28.1x. Those multiples are high even for software, and they assume the operating margin turns positive without slowing the top line. Fiscal 2027 EPS of $1.26 is 164x the current price, which shows how little earnings support the valuation.",
-      "Palo Alto trades at 25.2x sales and 71.2x free cash flow; CrowdStrike at 38.5x and 131.8x. The premium is for faster growth and a cleaner platform, but it is also a bet that the operating margin will reach the high teens. A 52-week range of $86 to $287 shows how much the market has already paid for that bet. At 38.5x sales, the premium is already priced; the operating margin is not."
+      "At the latest close the shares trade at 3660.1x trailing earnings and no meaningful EV/EBITDA multiple. The valuation reflects the growth and margin record described above, not for the past alone.",
+      "The attributed third-party mean target is $249.35; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "Fifty analysts sit behind Yahoo Finance data dated 18 November 2026, with a mean target of $251 and a range of $132 to $325. The mean is 21% above the $207 price, and the low end is 36% below it, so the range captures a real disagreement about the multiple.",
-      "Revisions are flat to slightly negative: no change over seven, 30 or 60 days, and -1.8% over 90 days. Fiscal 2027 revenue of $6.0B and EPS of $1.26 assume the October quarter reaches $1.5B and the operating margin turns positive. The consensus is implicitly assuming that module attach keeps revenue growth near 25% while the cost of sales and marketing grows more slowly."
+      "46 analysts contribute to the third-party consensus. The mean target is $249.35, with a range of $174.00 to $320.00. The consensus is a third-party snapshot and can change without notice.",
+      "Current-year estimates call for $6.1B of revenue and $1.28 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
     ]
   },
   "risks": {
@@ -160,6 +156,6 @@ export const CRWD: StockStory = {
       "What growth rate is embedded in a 40.2x sales multiple?"
     ]
   },
-  "narrativeSource": "curated",
+  "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-24"
 };

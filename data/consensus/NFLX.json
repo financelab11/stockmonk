@@ -1,9 +1,9 @@
 {
   "ticker": "NFLX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/NFLX/analysis",
-  "targetMean": 84.76326,
+  "targetMean": 84.54884,
   "targetHigh": 126,
   "targetLow": 57,
   "recommendationKey": "buy",
@@ -21,9 +21,9 @@
       "endDate": "2026-12-31",
       "revenueAvg": 13446130180,
       "revenueGrowth": 0.1158,
-      "epsAvg": 0.67616,
-      "epsGrowth": 0.2074,
-      "analystCount": 32
+      "epsAvg": 0.67603,
+      "epsGrowth": 0.20719999,
+      "analystCount": 31
     },
     {
       "period": "Following quarter",
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 51124183140,
+      "revenueAvg": 51125797830,
       "revenueGrowth": 0.13149999,
-      "epsAvg": 3.58373,
-      "epsGrowth": 0.4165,
-      "analystCount": 37
+      "epsAvg": 3.57206,
+      "epsGrowth": 0.41189998,
+      "analystCount": 38
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 56600948050,
-      "revenueGrowth": 0.1071,
-      "epsAvg": 3.76666,
-      "epsGrowth": 0.051,
+      "revenueAvg": 56583992500,
+      "revenueGrowth": 0.106800005,
+      "epsAvg": 3.76484,
+      "epsGrowth": 0.054,
       "analystCount": 44
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.56,
       "epsEstimate": 0.55208,
-      "revenueActual": 12050762000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.23,
       "epsEstimate": 1.24746,
-      "revenueActual": 12249757000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.8,
       "epsEstimate": 0.78858,
-      "revenueActual": 12559938000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 0.87,
       "epsEstimate": 0.82268,
-      "revenueActual": 12874176000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 13446130180,
     "revenueGrowth": 0.1158,
-    "epsAvg": 0.67616,
-    "epsGrowth": 0.2074,
-    "analystCount": 32
+    "epsAvg": 0.67603,
+    "epsGrowth": 0.20719999,
+    "analystCount": 31
   },
   "revisions": {
-    "eps7d": 0.00025678168811649194,
-    "eps30d": 0.00003069521880116888,
-    "eps60d": -0.00017855299536595481,
-    "eps90d": 0.0006645538693510478,
+    "eps7d": -0.00325638371194259,
+    "eps30d": -0.0011716183152743476,
+    "eps60d": -0.003434355270242717,
+    "eps90d": -0.003434355270242717,
     "revenue30d": null
   }
 }

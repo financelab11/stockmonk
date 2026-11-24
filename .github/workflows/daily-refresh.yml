@@ -5,9 +5,19 @@ on:
     # Runs after the US close.
     - cron: "30 2 * * *"
   workflow_dispatch:
+    inputs:
+      force_all:
+        description: Queue every story for a rewrite
+        type: boolean
+        default: false
+      tickers:
+        description: Comma-separated tickers for a manual rewrite
+        required: false
+        type: string
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: daily-market-data-refresh
@@ -16,7 +26,10 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
+    env:
+      FORCE_ALL: ${{ inputs.force_all }}
+      TICKERS: ${{ inputs.tickers }}
     steps:
       - uses: actions/checkout@v4
 
@@ -26,25 +39,79 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
           cache: pnpm
 
       - run: pnpm install --frozen-lockfile
 
       - name: Refresh US coverage
-        run: pnpm refresh
+        run: |
+          set -euo pipefail
+          retry() {
+            for attempt in 1 2 3; do
+              "$@" && return 0
+              sleep $((attempt * 30))
+            done
+            return 1
+          }
+          retry pnpm ingest:edgar
+          retry pnpm ingest:fundamentals
+          retry pnpm ingest:consensus
+          retry pnpm ingest:segments
+          retry pnpm ingest:benchmark
+          retry pnpm ingest:earnings
+          pnpm build:data
+          pnpm build:screener
 
-      - name: Ingest earnings releases
-        run: pnpm ingest:earnings
+      - name: Detect material story events
+        run: |
+          ARGS=""
+          if [ "$FORCE_ALL" = "true" ]; then ARGS="$ARGS --force-all"; fi
+          if [ -n "$TICKERS" ]; then ARGS="$ARGS --ticker=$TICKERS"; fi
+          pnpm detect:events $ARGS
 
-      - name: Refresh report prose
-        run: pnpm refresh:stories
+      - name: Commit refreshed data
+        run: |
+          git config user.name "stockmonk-data-bot"
+          git config user.email "data-bot@stockmonk.app"
+          git add data public/data
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore: daily market data refresh"
+            git push
+          fi
+
+      - name: Rewrite material stories
+        env:
+          REWRITE_PROVIDER: ${{ vars.REWRITE_PROVIDER }}
+          REWRITE_API_KEY: ${{ secrets.REWRITE_API_KEY }}
+          REWRITE_MODEL: ${{ vars.REWRITE_MODEL }}
+          REWRITE_API_URL: ${{ vars.REWRITE_API_URL }}
+        run: |
+          ARGS=""
+          if [ -n "$TICKERS" ]; then ARGS="$ARGS --ticker=$TICKERS"; fi
+          if [ "$FORCE_ALL" = "true" ]; then ARGS="$ARGS --force-all"; fi
+          pnpm stories:rewrite $ARGS
+
+      - name: Rebuild the story freshness manifest
+        run: |
+          ARGS=""
+          if [ -n "$TICKERS" ]; then ARGS="$ARGS --ticker=$TICKERS"; fi
+          pnpm detect:events $ARGS
 
       - name: Check freshness
         run: |
-          pnpm audit:freshness
-          pnpm audit:stories
+          pnpm audit:freshness --strict
+          pnpm audit:stories --strict
           pnpm audit:research
+          pnpm audit:numbers
+
+      - name: Validate content and types
+        run: |
+          pnpm validate:content
+          pnpm typecheck
+          pnpm test
 
       - name: Sync Supabase
         run: |
@@ -63,14 +130,59 @@ jobs:
           SUPABASE_DB_HOST: ${{ secrets.SUPABASE_DB_HOST }}
           SUPABASE_DB_USER: ${{ secrets.SUPABASE_DB_USER }}
 
-      - name: Commit refreshed data
+      - name: Commit refreshed narratives
         run: |
-          git config user.name "stockmonk-data-bot"
-          git config user.email "data-bot@stockmonk.app"
-          git add data public/data content
+          git add content data public/data
           if git diff --cached --quiet; then
-            echo "No data changes to commit."
+            echo "No narrative changes to commit."
           else
-            git commit -m "chore: daily market data refresh"
+            git commit -m "chore: refresh research narratives"
             git push
           fi
+
+      - name: Verify production data health
+        run: |
+          curl --fail --silent --show-error \
+            --retry 12 --retry-delay 30 --retry-all-errors \
+            https://stockmonk.vercel.app/api/health/data
+
+      - name: Open or update the failure issue
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = "Daily data refresh failed";
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const body = [
+              "The scheduled data refresh did not complete.",
+              "",
+              `Run: ${runUrl}`,
+              `Commit: ${context.sha}`,
+              `Time: ${new Date().toISOString()}`,
+              "",
+              "Check the failed step and the freshness manifest before re-running.",
+              "",
+              "If the failure is a rewrite-pending queue, configure REWRITE_PROVIDER and REWRITE_API_KEY, or rewrite the queued tickers manually.",
+            ].join("\n");
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              per_page: 100,
+            });
+            const existing = issues.find((issue) => issue.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+              });
+            }

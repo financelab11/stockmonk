@@ -1,7 +1,7 @@
 {
   "ticker": "BSX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/BSX/analysis",
   "targetMean": 49.59857,
   "targetHigh": 60,
@@ -9,9 +9,9 @@
   "recommendationKey": "buy",
   "analystCount": 28,
   "distribution": {
-    "strongBuy": 5,
+    "strongBuy": 6,
     "buy": 14,
-    "hold": 12,
+    "hold": 11,
     "sell": 0,
     "strongSell": 0
   },
@@ -28,8 +28,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 5059736450,
-      "revenueGrowth": -0.0275,
+      "revenueAvg": 5053948540,
+      "revenueGrowth": -0.0286,
       "epsAvg": 0.74394,
       "epsGrowth": -0.0701,
       "analystCount": 16
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 20877991610,
-      "revenueGrowth": -0.0043,
-      "epsAvg": 3.13069,
-      "epsGrowth": -0.012999999,
+      "revenueAvg": 20868060480,
+      "revenueGrowth": -0.0047999998,
+      "epsAvg": 3.13004,
+      "epsGrowth": -0.013200001,
       "analystCount": 28
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.8,
       "epsEstimate": 0.78105,
-      "revenueActual": 5286000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.8,
       "epsEstimate": 0.78722,
-      "revenueActual": 5203000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.86,
       "epsEstimate": 0.82801,
-      "revenueActual": 5442000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 0.73,
       "epsEstimate": 0.72319,
-      "revenueActual": 5138000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -97,8 +97,8 @@
   },
   "revisions": {
     "eps7d": 0,
-    "eps30d": -0.023925359034246307,
-    "eps60d": -0.035101434903097584,
+    "eps30d": -0.017208472244599426,
+    "eps60d": -0.03038213815176083,
     "eps90d": -0.03986511847537866,
     "revenue30d": null
   }

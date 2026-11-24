@@ -1,9 +1,9 @@
 {
   "ticker": "ABNB",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/ABNB/analysis",
-  "targetMean": 205.4405,
+  "targetMean": 205.8764,
   "targetHigh": 245,
   "targetLow": 147,
   "recommendationKey": "buy",
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.56,
       "epsEstimate": 0.6639,
-      "revenueActual": 2778000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.26,
       "epsEstimate": 0.30278,
-      "revenueActual": 2678000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 1.37,
       "epsEstimate": 1.2514,
-      "revenueActual": 3608000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 3.16,
       "epsEstimate": 2.84718,
-      "revenueActual": 4869000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 31
   },
   "revisions": {
-    "eps7d": 0.00178247999870762,
-    "eps30d": 0.05101969713234311,
+    "eps7d": 0.005268779822644731,
+    "eps30d": 0.05069716127526114,
     "eps60d": 0.050325402471477876,
-    "eps90d": 0.05499337417838879,
+    "eps90d": 0.0547242055767434,
     "revenue30d": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "FIX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/FIX/analysis",
   "targetMean": 1772.2727,
   "targetHigh": 2053,
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 10.51,
       "epsEstimate": 6.80521,
-      "revenueActual": 2865332000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 12.53,
       "epsEstimate": 10.45514,
-      "revenueActual": 3265656000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 13.91,
       "epsEstimate": 12.85102,
-      "revenueActual": 3766302000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],

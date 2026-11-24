@@ -1,7 +1,7 @@
 {
   "ticker": "ADBE",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/ADBE/analysis",
   "targetMean": 266.9097,
   "targetHigh": 373,
@@ -39,9 +39,9 @@
       "endDate": "2026-11-30",
       "revenueAvg": 26607173550,
       "revenueGrowth": 0.119399995,
-      "epsAvg": 24.47864,
-      "epsGrowth": 0.169,
-      "analystCount": 36
+      "epsAvg": 24.46841,
+      "epsGrowth": 0.1685,
+      "analystCount": 37
     },
     {
       "period": "Next fiscal year",
@@ -49,7 +49,7 @@
       "revenueAvg": 29036612500,
       "revenueGrowth": 0.0913,
       "epsAvg": 27.40718,
-      "epsGrowth": 0.1196,
+      "epsGrowth": 0.1201,
       "analystCount": 38
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-11-30",
       "epsActual": 5.5,
       "epsEstimate": 5.39763,
-      "revenueActual": 6194000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-02-28",
       "epsActual": 6.06,
       "epsEstimate": 5.87314,
-      "revenueActual": 6398000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-05-31",
       "epsActual": 5.96,
       "epsEstimate": 5.81474,
-      "revenueActual": 6618000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-08-31",
       "epsActual": 6.13,
       "epsEstimate": 6.08663,
-      "revenueActual": 6760000000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 29
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": 0.00010704354711266184,
-    "eps60d": 0.003578727704698581,
-    "eps90d": 0.00628097271010053,
+    "eps7d": -0.0004179153743835151,
+    "eps30d": -0.0003109165624149979,
+    "eps60d": 0.0030084008949367025,
+    "eps90d": 0.005860432420655481,
     "revenue30d": null
   }
 }

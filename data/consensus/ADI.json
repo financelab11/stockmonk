@@ -1,15 +1,15 @@
 {
   "ticker": "ADI",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/ADI/analysis",
-  "targetMean": 473.42422,
+  "targetMean": 471.90625,
   "targetHigh": 675,
   "targetLow": 365,
   "recommendationKey": "strong_buy",
-  "analystCount": 33,
+  "analystCount": 32,
   "distribution": {
-    "strongBuy": 6,
+    "strongBuy": 7,
     "buy": 25,
     "hold": 3,
     "sell": 0,
@@ -18,56 +18,48 @@
   "estimates": [
     {
       "period": "Next quarter",
-      "endDate": "2026-10-31",
-      "revenueAvg": 4319542480,
-      "revenueGrowth": 0.4042,
-      "epsAvg": 3.88311,
-      "epsGrowth": 0.71819997,
-      "analystCount": 27
+      "endDate": "2027-01-31",
+      "revenueAvg": 4323882250,
+      "revenueGrowth": 0.3682,
+      "epsAvg": 3.83281,
+      "epsGrowth": 0.5581,
+      "analystCount": 25
     },
     {
       "period": "Following quarter",
-      "endDate": "2027-01-31",
-      "revenueAvg": 4308232670,
-      "revenueGrowth": 0.36330003,
-      "epsAvg": 3.81244,
-      "epsGrowth": 0.5498,
-      "analystCount": 27
+      "endDate": "2027-04-30",
+      "revenueAvg": 4532847580,
+      "revenueGrowth": 0.25100002,
+      "epsAvg": 4.08467,
+      "epsGrowth": 0.32189998,
+      "analystCount": 25
     },
     {
       "period": "Current fiscal year",
-      "endDate": "2026-10-31",
-      "revenueAvg": 15124956420,
-      "revenueGrowth": 0.3725,
-      "epsAvg": 12.87787,
-      "epsGrowth": 0.65309995,
+      "endDate": "2027-10-31",
+      "revenueAvg": 18481499000,
+      "revenueGrowth": 0.2176,
+      "epsAvg": 16.54151,
+      "epsGrowth": 0.2675,
       "analystCount": 30
     },
     {
       "period": "Next fiscal year",
-      "endDate": "2027-10-31",
-      "revenueAvg": 18399763740,
-      "revenueGrowth": 0.2165,
-      "epsAvg": 16.51947,
-      "epsGrowth": 0.28280002,
-      "analystCount": 31
+      "endDate": "2028-10-31",
+      "revenueAvg": 20677383710,
+      "revenueGrowth": 0.1188,
+      "epsAvg": 19.64206,
+      "epsGrowth": 0.1874,
+      "analystCount": 18
     }
   ],
   "history": [
-    {
-      "quarter": "2025-10-31",
-      "endDate": "2025-10-31",
-      "epsActual": 2.26,
-      "epsEstimate": 2.2348,
-      "revenueActual": 3076117000,
-      "revenueEstimate": null
-    },
     {
       "quarter": "2026-01-31",
       "endDate": "2026-01-31",
       "epsActual": 2.46,
       "epsEstimate": 2.30877,
-      "revenueActual": 3160263000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +67,7 @@
       "endDate": "2026-04-30",
       "epsActual": 3.09,
       "epsEstimate": 2.90903,
-      "revenueActual": 3623465000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,23 +75,31 @@
       "endDate": "2026-07-31",
       "epsActual": 3.45,
       "epsEstimate": 3.33909,
-      "revenueActual": 4021899000,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-10-31",
+      "endDate": "2026-10-31",
+      "epsActual": 4.06,
+      "epsEstimate": 3.88311,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
   "currentQuarter": {
-    "endDate": "2026-10-31",
-    "revenueAvg": 4319542480,
-    "revenueGrowth": 0.4042,
-    "epsAvg": 3.88311,
-    "epsGrowth": 0.71819997,
-    "analystCount": 27
+    "endDate": "2027-01-31",
+    "revenueAvg": 4323882250,
+    "revenueGrowth": 0.3682,
+    "epsAvg": 3.83281,
+    "epsGrowth": 0.5581,
+    "analystCount": 25
   },
   "revisions": {
-    "eps7d": -0.00007454093267800221,
-    "eps30d": 0.002560533375684626,
-    "eps60d": 0.002560533375684626,
-    "eps90d": 0.03565893841876666,
+    "eps7d": 0.0008979425377284578,
+    "eps30d": 0.0020548123620709458,
+    "eps60d": 0.012460574870867935,
+    "eps90d": 0.008289283119340407,
     "revenue30d": null
   }
 }

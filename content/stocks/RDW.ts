@@ -7,20 +7,20 @@ export const RDW: StockStory = {
   "dek": "Revenue grew from $137.6M to $431.9M in five years, but operating margin is -46.2% and the FY2025 loss was several times the prior year's on barely higher sales.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue reached $431.9M, up 45.8%, but the operating margin was -46.2% and free cash flow -$136.7M, so the roll-up is still consuming cash.",
-    "The FY2025 operating loss of $229.7M against $335.4M of revenue points to a charge, not a trading collapse.",
-    "Net cash of $441.1M covers the current burn for about three years, which is enough time to integrate the acquired units.",
-    "At 2.7x sales and no earnings multiple, the price treats Redwire as a defence hardware portfolio rather than a space growth story."
+    "Revenue: $431.9M trailing twelve months, +45.8% year over year.",
+    "Profitability: -46.2% operating margin and -52.4% net margin.",
+    "Cash: -$136.7M free cash flow, a -31.6% margin.",
+    "Factor summary: 45/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1819810/000181981026000029/rdw-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819810&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Redwire's September quarter produced $109.0M of revenue, a -24.1% operating margin and -$0.09 of EPS. That is a large improvement on the March quarter's -71.9% and a step back from the June quarter's -18.9%. The pattern is typical of a project business working through contract estimates: the margin moves with charges, not with volume. Revenue grew 5.4% year over year in the quarter, far below the 45.8% trailing rate. The gap between those two rates is the acquisition question.",
-      "Solar arrays, deployable structures, sensors and avionics, and digital engineering are separate franchises. Each has its own qualification process and its own customers inside the same agencies and primes. A component designed into many satellite programmes is less exposed to a single mission, but the corporate layer has to justify several cost bases and a stream of acquisitions. That is the integration task, and it is also the reason the consolidated margin is volatile.",
-      "Net cash of $441.1M has improved with the equity raised to fund the roll-up. Against a $1.6B market value, the enterprise is valued at about $1.2B, or 2.7x sales, and the cash is about a quarter of the market value. The debate is whether the portfolio earns a margin once integration is complete or remains a collection of businesses with a bid premium. The cash gives the portfolio time to prove it."
+      "Redwire Corporation generated $431.9M of revenue over the last twelve months, +45.8% versus the prior year. The business depends on contract wins, launch execution and the path from backlog to cash flow.",
+      "The latest reported quarter was Q3 FY26, with $109M of revenue and an operating margin of -24.1%. The stock closed at $6.42 on 2026-11-23, giving a market capitalization of $1.6B.",
+      "The shares sit 6% of the way up their 52-week range ($5.12 to $26.64). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
-    "quote": "Redwire has bought a portfolio of qualified space components; the question is whether the collection can earn more than the sum of its contracts."
+    "quote": "RDW is a Space, Defense & Autonomy business with $431.9M of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -55,50 +55,46 @@ export const RDW: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Acquisition accounting explains most of the growth. Revenue moved from $137.6M in FY2021 to $431.9M trailing, more than tripling, while the latest quarter grew 5.4%. Both numbers are true: the first measures what was bought, the second what the existing businesses are doing. No line in the accounts separates organic from acquired revenue, so the 5.4% quarterly rate is the better guide to the underlying trend.",
-      "The demand drivers sit in government space programmes and commercial constellations. Solar arrays and deployable structures are content per satellite, so revenue follows the number of spacecraft rather than the size of a budget. Sensors and avionics are sold to primes as subsystems, which gives visibility but caps pricing. Digital engineering is services work with a different margin shape. That is the portfolio's structural advantage.",
-      "Analysts model $463.5M of revenue in FY2026, up 38.2%, and $555.6M in FY2027, up 19.9%, with losses per share of $0.39 and $0.30. The FY2026 estimate implies a much stronger second half than the 5.4% latest-quarter growth, so it depends on acquired revenue or on a programme ramp. Neither is specified in the reported figures, and the burden falls on the acquired units to deliver it."
+      "Revenue compounded at 24.9% a year across the fiscal years in the dataset, and the latest quarter changed +5.4% year over year. Third-party estimates for the current fiscal year point to $463.1M of revenue and -$0.37 of EPS.",
+      "Growth matters when it produces a return on capital. The operating margin of -46.2% and return on invested capital of -9.5% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
-        "title": "Solar arrays",
-        "detail": "Power hardware is designed into many satellite programmes, so volume follows spacecraft orders rather than a single mission."
+        "title": "Backlog",
+        "detail": "Contracted revenue provides visibility."
       },
       {
-        "title": "Deployable structures",
-        "detail": "Antennas and booms must work once, perfectly; qualification is a barrier and a reason revenue is durable once designed in."
+        "title": "Launch cadence",
+        "detail": "More launches spread fixed costs and prove reliability."
       },
       {
-        "title": "Integration",
-        "detail": "Combining acquired units without losing qualified positions or engineers is the difference between a portfolio and a discount."
+        "title": "Government budgets",
+        "detail": "Defense and space spending fund the addressable market."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "A $229.7M operating loss in FY2025 against $42.2M the year before, on revenue that rose only 10.3%, is not a trading outcome. The gross margin fell from 14.6% to 5.2% in the same year, which is consistent with a charge taken through cost of sales or a contract estimate reset. The trailing gross margin has recovered to 24.1%, so the damage was specific rather than structural.",
-      "The quarterly data support that reading. Q2 FY2025 ran at -148.8% and Q1 FY2026 at -71.9%, while Q2 FY2026 was -18.9% and Q3 FY2026 -24.1%. A business does not move between those margins on volume; it moves on charges and estimate changes. The September quarter's net margin of -21.3% is closer to the operating margin than in prior quarters, which suggests fewer non-operating items.",
-      "Returns remain negative. ROIC of -9.5% and ROE of -14.1% are better than the FY2025 figures but still below the cost of capital. The cross-check is mixed: Planet Labs earns a 55.4% gross margin at 8.6x sales, Redwire 24.1% at 2.7x. The market is paying for the portfolio's revenue base, not for its current returns, and that is the discount the multiple reflects."
+      "The trailing operating margin is -46.2%, the net margin is -52.4% and diluted EPS is -$1.24. The latest quarter's operating margin was -24.1%. The quarter shown is the latest reported period in the dataset.",
+      "Return on equity is -14.1%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Cash burn reached -$136.7M trailing, after -$190.8M in FY2025. Operating cash flow was -$177.3M in FY2025 and capex only $13.5M, so the outflow is working capital and acquisition-related payments rather than a heavy asset programme. In FY2026 the quarterly burn has been uneven: -$11.4M in March 2026, -$33.5M in June and -$65.3M in September. The direction is worsening, not stabilising.",
-      "A $441.1M net cash balance is the cushion. At the trailing burn it covers about three years, and the company has no dividend or buyback to fund. The risk is that acquisitions consume cash faster than operations generate it; the FY2025 outflow of $190.8M was more than ten times the capex line, which points to acquisition spending or working capital rather than plant.",
-      "For a roll-up, capital allocation is the central question. Every acquisition adds revenue and integration cost, and the reported figures do not disclose how much was spent on deals versus operations. The net cash balance is finite, and a portfolio that consumes $136.7M a year will need either a cash-generative business or another raise within three years. That is the central risk in the equity."
+      "Cash generation over the trailing period was -$136.7M, a -31.6% margin. The balance sheet carries $441.1M of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
+      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "2.7x sales is the only multiple available, because earnings and EBITDA are negative. On $431.9M of revenue and a $1.6B market value, the enterprise value is about $1.2B. That is a discount to Planet Labs at 8.6x sales and a premium to Fluence at 0.2x, which places Redwire with the defence hardware names rather than the space data businesses. The market is not paying for the acquisition strategy.",
-      "A positive operating margin is what the price assumes. At a 24.1% gross margin, the company needs operating costs below roughly a quarter of revenue to break even; the trailing operating margin of -46.2% says it is far from that. The FY2025 charge distorts the comparison, but even the FY2023 operating margin was -6.4%, so the pre-charge business was not profitable either.",
-      "Evidence that the acquired units earn a normal margin once integrated would justify a higher multiple, and the reported figures do not show it. Another charge or a large acquisition that consumes the cash cushion would break the current one. The 52-week range of $5 to $27 shows the market has already repriced both possibilities, and both outcomes are live within a year."
+      "At the latest close the shares trade with no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The valuation reflects the growth and margin record described above, not for the past alone.",
+      "The attributed third-party mean target is $11.60; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "The $12 mean target sits against a $6 share price, with a range of $8 to $15, according to Yahoo Finance data dated 18 November 2026. Nine analysts contribute. The low end of the range is still above the current price, which suggests the market is more sceptical than the published estimates.",
-      "Analysts expect $463.5M of revenue for FY2026 and a loss of $0.39 per share, with FY2027 at $555.6M and -$0.30. The EPS estimate has been cut 16.4% over 30 days and 18.7% over 90, a clear negative revision trend. The consensus is therefore assuming revenue growth continues while the margin recovery slips, which is the opposite of the operating leverage the roll-up needs."
+      "10 analysts contribute to the third-party consensus. The mean target is $11.60, with a range of $5.00 to $15.00. The consensus is a third-party snapshot and can change without notice.",
+      "Current-year estimates call for $463.1M of revenue and -$0.37 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
     ]
   },
   "risks": {
@@ -163,6 +159,6 @@ export const RDW: StockStory = {
       "How much acquisition spending remains in the plan?"
     ]
   },
-  "narrativeSource": "curated",
+  "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-24"
 };

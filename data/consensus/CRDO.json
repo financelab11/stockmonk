@@ -1,9 +1,9 @@
 {
   "ticker": "CRDO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/CRDO/analysis",
-  "targetMean": 277.46643,
+  "targetMean": 274.30853,
   "targetHigh": 315,
   "targetLow": 175,
   "recommendationKey": "strong_buy",
@@ -59,7 +59,7 @@
       "endDate": "2025-10-31",
       "epsActual": 0.67,
       "epsEstimate": 0.49534,
-      "revenueActual": 268027000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-01-31",
       "epsActual": 1.07,
       "epsEstimate": 0.94073,
-      "revenueActual": 407012000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-04-30",
       "epsActual": 1.16,
       "epsEstimate": 1.03414,
-      "revenueActual": 437003000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-07-31",
       "epsActual": 1.2,
       "epsEstimate": 1.16862,
-      "revenueActual": 479003000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 18
   },
   "revisions": {
-    "eps7d": 0.00047571174405436345,
+    "eps7d": 0,
     "eps30d": 0.00047571174405436345,
-    "eps60d": 0.02570880478605786,
-    "eps90d": 0.029894551271587577,
+    "eps60d": 0.00047571174405436345,
+    "eps90d": 0.02570880478605786,
     "revenue30d": null
   }
 }

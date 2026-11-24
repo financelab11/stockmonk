@@ -10,6 +10,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { STOCK_STORIES } from "../content/stocks";
+import type { StoryFreshnessManifest } from "../lib/story-freshness";
 
 type Row = {
   ticker: string;
@@ -125,7 +126,9 @@ const handwritten = Object.values(STOCK_STORIES).filter(
     story.narrativeSource === "handwritten" ||
     story.narrativeSource === "curated",
 ).length;
-console.log(`hand-written/curated narratives: ${handwritten} of ${rows.length}`);
+console.log(
+  `hand-written/curated narratives: ${handwritten} of ${rows.length}`,
+);
 
 console.log("\nWorst offenders");
 for (const row of behind
@@ -154,22 +157,87 @@ const curatedTickers = new Set(
     )
     .map((story) => story.ticker),
 );
-const strictCurated = process.argv.includes("--strict-curated");
-const blockingBehind = behind.filter((row) => !curatedTickers.has(row.ticker));
-const blockingStale = stalePrice.filter((row) => !curatedTickers.has(row.ticker));
+const strict =
+  process.argv.includes("--strict") ||
+  process.argv.includes("--strict-curated");
+const manifest = (() => {
+  try {
+    return JSON.parse(
+      fs.readFileSync("data/story-freshness.json", "utf8"),
+    ) as StoryFreshnessManifest;
+  } catch {
+    return null;
+  }
+})();
+const manifestPending = manifest
+  ? Object.values(manifest.tickers).filter(
+      (row) => row.status === "rewrite-pending" || row.status === "data-stale",
+    )
+  : [];
+const missingNarrativeDate = Object.values(STOCK_STORIES).filter(
+  (story) => !story.narrativeUpdatedAt,
+);
+const blockingBehind = strict
+  ? behind
+  : behind.filter((row) => !curatedTickers.has(row.ticker));
+const blockingStale = strict
+  ? stalePrice
+  : stalePrice.filter((row) => !curatedTickers.has(row.ticker));
+
+console.log(
+  `narrative dates: ${rows.length - missingNarrativeDate.length}/${rows.length} present; manifest: ${
+    manifest
+      ? `${manifest.counts["rewrite-pending"]} rewrite-pending, ${manifest.counts["data-stale"]} data-stale, ${manifest.counts["source-gap"]} source-gap`
+      : "missing"
+  }`,
+);
+
+if (strict) {
+  if (!manifest) {
+    console.log(
+      "\n[stories] strict mode requires data/story-freshness.json — run pnpm detect:events",
+    );
+    process.exitCode = 1;
+  } else if (manifestPending.length > 0) {
+    console.log(
+      `\n[stories] ${manifestPending.length} report(s) pending a rewrite: ${manifestPending
+        .map((row) => row.ticker)
+        .slice(0, 30)
+        .join(", ")}${manifestPending.length > 30 ? "…" : ""}`,
+    );
+    process.exitCode = 1;
+  }
+  if (missingNarrativeDate.length > 0) {
+    console.log(
+      `\n[stories] ${missingNarrativeDate.length} report(s) have no narrativeUpdatedAt: ${missingNarrativeDate
+        .map((story) => story.ticker)
+        .slice(0, 30)
+        .join(", ")}`,
+    );
+    process.exitCode = 1;
+  }
+}
 
 if (blockingBehind.length > 0 || blockingStale.length > 0) {
   console.log(
-    `\n[stories] ${blockingBehind.length} generated report(s) behind on earnings and ${blockingStale.length} with a stale price — run pnpm refresh:stories`,
+    `\n[stories] ${blockingBehind.length} report(s) behind on earnings and ${blockingStale.length} with a stale explicit price — run pnpm refresh:stories or the rewrite queue`,
   );
   process.exitCode = 1;
-} else if ((behind.length > 0 || stalePrice.length > 0) && !strictCurated) {
+} else if ((behind.length > 0 || stalePrice.length > 0) && !strict) {
   console.log(
-    `\n[stories] ${behind.length} curated report(s) behind on earnings and ${stalePrice.length} with a stale price. They are not auto-rewritten; refresh the research packs when convenient, or run with --strict-curated to fail the audit.`,
+    `\n[stories] ${behind.length} curated report(s) behind on earnings and ${stalePrice.length} with a stale price. They are not auto-rewritten; run pnpm detect:events to queue them, or use --strict to fail.`,
+  );
+} else if (
+  noQuarter.length > 0 &&
+  behind.length === 0 &&
+  stalePrice.length === 0
+) {
+  console.log(
+    `\n[stories] no stale quarter or explicit price found; ${noQuarter.length} reports rely on the freshness manifest and numeric audit because they do not name a quarter.`,
   );
 } else if (behind.length > 0 || stalePrice.length > 0) {
   console.log(
-    `\n[stories] ${behind.length} report(s) behind on earnings and ${stalePrice.length} with a stale price — curated reports need a manual refresh.`,
+    `\n[stories] ${behind.length} report(s) behind on earnings and ${stalePrice.length} with a stale price — curated reports need a rewrite.`,
   );
   process.exitCode = 1;
 } else {

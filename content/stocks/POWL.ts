@@ -7,20 +7,20 @@ export const POWL: StockStory = {
   "dek": "The switchgear maker earned almost nothing in FY2021 and now keeps a fifth of revenue before interest and tax. Volume growth has slowed to single digits while the multiple has not.",
   "readingMinutes": 9,
   "takeaways": [
-    "Operating margin of 19.7% compares with 0.2% in FY2021, a gain built on volume, pricing and a backlog that has now stopped growing.",
-    "Trailing revenue grew 7.0% while the consensus expects 18.1% in FY2027, a forecast that requires orders to reaccelerate from the current rate.",
-    "Free cash flow of $244.0M is 21.1% of revenue because capex was only $13.1M, so nearly all operating profit reaches the balance sheet.",
-    "At 30.9x earnings and 22.3x EBITDA, Powell trades at a premium to Comfort Systems on slower growth and a margin at a cyclical high."
+    "Revenue: $1.2B trailing twelve months, +7.0% year over year.",
+    "Profitability: 19.7% operating margin and 16.5% net margin.",
+    "Cash: $244M free cash flow, a 21.1% margin.",
+    "Factor summary: 58/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/80420/000008042025000152/powl-20250930.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080420&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Powell's 19.7% operating margin is the highest in its history and the least secure number in the accounts. Revenue of $1.2B grew 7.0% over the trailing period, down from 44.8% in FY2024 and 9.1% in FY2025, while the margin held between 17.0% and 21.2% for six quarters. A margin that flat through a slowdown is either pricing discipline or a backlog still priced on the old market, and the two have very different durations.",
-      "The product is custom switchgear and power control rooms, engineered to a customer's voltage, fault rating, enclosure and climate. Each order is a small project with a price fixed before steel, copper and labour are bought. When the order book is full, Powell can choose which work to take and price for margin; when it shortens, volume wins and the margin goes back toward the 8.9% of FY2023. The company does not disclose the backlog, so a reader cannot see which of those two states it is in.",
-      "The balance sheet is the counterweight. Net cash, $244.0M of trailing free cash flow and capex of $13.1M mean the company can wait out a cycle without dilution or refinancing. At 30.9x earnings and 22.3x EBITDA, however, the shares already assume the margin holds. The debate is whether a 20% operating margin is the new baseline for a project business or the top of a four-year run. Only the backlog can settle that, and it is not in the published numbers."
+      "Powell Industries, Inc. Generated $1.2B of revenue over the last twelve months, +7.0% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
+      "The latest reported quarter was Q3 FY26, with $311.7M of revenue and an operating margin of 20.6%. The stock closed at $161.98 on 2026-11-23, giving a market capitalization of $5.9B.",
+      "The shares sit 29% of the way up their 52-week range ($95.00 to $328.00). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
-    "quote": "Powell's margin was earned on a full order book, and the next test is whether the pricing survives a thinner one."
+    "quote": "POWL is a AI Infrastructure & Power business with $1.2B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,50 +52,46 @@ export const POWL: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Orders are booked months before revenue, and the price on each order fixes the margin at the point of sale. That lag explains why revenue can grow 7.0% while the margin stays at 19.7%: the work being delivered was priced when demand was stronger. It also means the backlog, not the quarterly revenue, is the forward indicator, and the company does not disclose it.",
-      "The geography is concentrated: 79.7% of revenue is the United States and 14.2% Canada, with the Middle East and Africa at 2.5%. Oil and gas, petrochemicals and LNG are the traditional customers, and data-centre work is the newer, smaller source of demand. A single large refinery or LNG order can move a year's revenue, which is why the 7.0% trailing rate says little about the next twelve months.",
-      "The third-party estimate is $1.5B of revenue in FY2027, 18.1% growth, and $1.7B in FY2028. That is a reasonable recovery from 7.0%, but it assumes order intake accelerates through a period of softer industrial capital spending. The service and retrofit business, which sells breakers and field work for equipment already installed, is the part of the model that does not depend on new orders."
+      "Revenue compounded at 13.7% a year across the fiscal years in the dataset, and the latest quarter changed +8.9% year over year. Third-party estimates for the current fiscal year point to $1.6B of revenue and $7.69 of EPS.",
+      "Growth matters when it produces a return on capital. The operating margin of 19.7% and return on invested capital of 23.4% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
-        "title": "Backlog pricing",
-        "detail": "Every order fixes its margin at signature, so today's profit reflects orders taken when lead times were longer."
+        "title": "AI cluster build-out",
+        "detail": "Compute, networking, optics and power equipment all scale with cluster size."
       },
       {
-        "title": "Data-centre demand",
-        "detail": "Electrical houses and switchgear sell into data-centre projects, but the company does not disclose how much of revenue they represent."
+        "title": "Customer expansion",
+        "detail": "Hyperscalers and neoclouds are adding capacity faster than traditional IT budgets."
       },
       {
-        "title": "Installed-base service",
-        "detail": "Retrofit and spare-parts work for equipment sold decades ago is the least cyclical revenue line Powell has."
+        "title": "Product content",
+        "detail": "More content per system can grow revenue faster than the underlying unit market."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Against Comfort Systems' 16.7% operating margin, Powell's 19.7% looks like the better business. The comparison reverses on growth and capital: Comfort Systems grew 50.7% and earned 48.1% on invested capital, while Powell grew 7.0% and earned 23.4%. Powell's margin is higher because its projects are smaller and more engineered; its return is lower because the same working capital supports fewer turns and the backlog is not growing.",
-      "The climb from FY2021 is stark. Gross margin went from 16.0% to 30.1%, operating margin from 0.2% to 19.7%, and net margin from 0.1% to 16.5%. Part came from volume spreading fixed factory and engineering overhead, part from recovering input inflation through price. Only the first is structural. The quarterly record already shows the second fading: 17.0% in the December 2025 quarter against 21.2% in the September quarter.",
-      "Earnings per share became volatile as the margin flattened: $3.40 in the December 2025 quarter, $1.25 in March and $1.42 in June, against $4.22 in the September 2025 quarter. Return on equity of 25.2% and ROIC of 23.4% are strong in absolute terms, but both are calculated on a peak margin. A return to a 15% operating margin would cut operating income by about a quarter and make the forward multiple the more important test."
+      "The trailing operating margin is 19.7%, the net margin is 16.5% and diluted EPS is $10.29. The latest quarter's operating margin was 20.6%. The quarter shown is the latest reported period in the dataset.",
+      "Return on equity is 25.2%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Powell converts almost all of its operating profit into cash because the business needs little capital. Capex was $13.1M in FY2025 against $167.9M of operating cash flow, and the trailing free cash flow of $244.0M is 21.1% of revenue. A manufacturer with a 30.1% gross margin and a 1% capex ratio is closer to an engineering firm than to a factory, and the cash conversion reflects the model rather than a one-year working-capital release.",
-      "The cash profile is also cyclical. In FY2021, when the operating margin was 0.2%, free cash flow was negative $33.4M; by FY2023 it was $174.7M. The swing tracks the margin and the volume, not a change in the business model. The September 2026 quarter produced $93.7M, the strongest of the year, which is consistent with a backlog still being worked down rather than replenished.",
-      "There is no net debt to speak of, interest cover is not reported, and the dividend absorbs 0.2% of the share price. The absence of leverage is a genuine advantage in a downturn, but it also means the equity is the only cushion and the only claim on the cash. Buybacks are not disclosed. For a cyclical manufacturer, that is an unusual position and a real source of optionality."
+      "Free cash flow after capex over the trailing period was $244M, a 21.1% margin. The balance sheet carries $633.6M of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
+      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "Comfort Systems trades at 17.8x EBITDA and 25.0x earnings; Powell trades at 22.3x and 30.9x. The premium is not obviously deserved: Comfort Systems is growing three times faster and earning twice the return on capital. What Powell has is a cleaner balance sheet and a margin less dependent on labour availability, which is why the market pays up for the smaller, slower business.",
-      "On the FY2027 estimate of $6.82 the shares are at about 24x, and on $8.25 for FY2028 at about 20x. Those multiples assume the operating margin stays near 20% and revenue grows 18.1% and 16.0%. If the margin reverts to 15%, earnings fall by about a quarter and the forward multiple becomes about 31x on unchanged estimates, which is a different proposition.",
-      "The free cash flow yield of 4.1% and the 24.2x price-to-free-cash-flow ratio are the more grounded measures for a company with no debt and little capex. They imply a business valued at roughly 24 years of current cash flow, which requires the cash flow to be durable rather than peak. That is the question the order book should answer, and the disclosure does not."
+      "At the latest close the shares trade at 30.9x trailing earnings and 22.3x EV/EBITDA. The valuation reflects the growth and margin record described above, not for the past alone.",
+      "The attributed third-party mean target is $228.75; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "Yahoo Finance carried four analysts on Powell as of 18 November 2026, which is thin for a $5.9B company and thin enough that a single view moves the mean. The mean target is $253, with a range of $235 to $275, against a $162 price.",
-      "Estimates have not moved in thirty, sixty or ninety days, which is unusual after a quarter that beat by $0.67. The FY2027 figures are $1.5B of revenue and $6.82 of EPS, and FY2028 is $1.7B and $8.25. The consensus therefore assumes a return to high-teens growth without any recovery in the margin, a combination that is possible but not yet visible in the orders."
+      "4 analysts contribute to the third-party consensus. The mean target is $228.75, with a range of $178.00 to $275.00. The consensus is a third-party snapshot and can change without notice.",
+      "Current-year estimates call for $1.6B of revenue and $7.69 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
     ]
   },
   "risks": {
@@ -160,6 +156,6 @@ export const POWL: StockStory = {
       "What would a 15% operating margin do to trailing earnings and the multiple?"
     ]
   },
-  "narrativeSource": "curated",
+  "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-24"
 };

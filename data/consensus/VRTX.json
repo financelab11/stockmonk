@@ -1,7 +1,7 @@
 {
   "ticker": "VRTX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/VRTX/analysis",
   "targetMean": 595.3571,
   "targetHigh": 725,
@@ -19,7 +19,7 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 3497925420,
+      "revenueAvg": 3497925160,
       "revenueGrowth": 0.096499994,
       "epsAvg": 4.1024,
       "epsGrowth": -0.1844,
@@ -37,7 +37,7 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 13257018540,
+      "revenueAvg": 13257019050,
       "revenueGrowth": 0.1046,
       "epsAvg": 18.135,
       "epsGrowth": -0.014400001,
@@ -46,7 +46,7 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 14653038720,
+      "revenueAvg": 14653037680,
       "revenueGrowth": 0.105299994,
       "epsAvg": 19.91716,
       "epsGrowth": 0.0983,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 5.03,
       "epsEstimate": 5.14841,
-      "revenueActual": 3190000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 4.47,
       "epsEstimate": 4.3059,
-      "revenueActual": 2986900000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 4.73,
       "epsEstimate": 4.74531,
-      "revenueActual": 3333900000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,13 +83,13 @@
       "endDate": "2026-09-30",
       "epsActual": 4.76,
       "epsEstimate": 4.7841,
-      "revenueActual": 3440800000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 3497925420,
+    "revenueAvg": 3497925160,
     "revenueGrowth": 0.096499994,
     "epsAvg": 4.1024,
     "epsGrowth": -0.1844,
@@ -97,9 +97,9 @@
   },
   "revisions": {
     "eps7d": 0.000838861356085685,
-    "eps30d": -0.0283214688714597,
-    "eps60d": 0.07253557819633061,
-    "eps90d": -0.046738463091142934,
+    "eps30d": -0.02893906170935634,
+    "eps60d": 0.06667121528760123,
+    "eps90d": -0.04816440329066907,
     "revenue30d": null
   }
 }

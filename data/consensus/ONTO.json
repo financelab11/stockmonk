@@ -1,7 +1,7 @@
 {
   "ticker": "ONTO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/ONTO/analysis",
   "targetMean": 329,
   "targetHigh": 450,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.26,
       "epsEstimate": 1.26286,
-      "revenueActual": 266866000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 1.42,
       "epsEstimate": 1.41571,
-      "revenueActual": 291949000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {

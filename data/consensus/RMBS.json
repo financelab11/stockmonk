@@ -1,12 +1,12 @@
 {
   "ticker": "RMBS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/RMBS/analysis",
   "targetMean": 140.57143,
   "targetHigh": 165,
   "targetLow": 103,
-  "recommendationKey": "none",
+  "recommendationKey": "strong_buy",
   "analystCount": 7,
   "distribution": {
     "strongBuy": 0,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.68,
       "epsEstimate": 0.6775,
-      "revenueActual": 190244000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.63,
       "epsEstimate": 0.63625,
-      "revenueActual": 180189000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.77,
       "epsEstimate": 0.715,
-      "revenueActual": 207385000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 0.84,
       "epsEstimate": 0.78833,
-      "revenueActual": 218289000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,9 +96,9 @@
     "analystCount": 7
   },
   "revisions": {
-    "eps7d": 0.023456790123456805,
-    "eps30d": 0.024060269261556577,
-    "eps60d": 0.02514427040395706,
+    "eps7d": 0,
+    "eps30d": 0.023456790123456805,
+    "eps60d": 0.024060269261556577,
     "eps90d": 0.02514427040395706,
     "revenue30d": null
   }

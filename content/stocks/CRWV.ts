@@ -7,20 +7,20 @@ export const CRWV: StockStory = {
   "dek": "The gap is not operations. It is the cost of financing a fleet of accelerators with debt, and thirty-eight analysts disagree about whether that is a problem or the point.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue of $7.6B grew 115.3%, and the 67.4% gross margin still leaves an operating margin of negative 3.0%.",
-    "Free cash flow of negative $13.7B is 179.9% of revenue, a deficit that requires continuous access to capital.",
-    "Interest cover is negative, so the debt that finances the fleet is serviced from new capital rather than from operating profit.",
-    "At 5.7x EBITDA and 2.8x sales, the shares are priced as a leveraged lessor of depreciating equipment."
+    "Revenue: $7.6B trailing twelve months, +115.3% year over year.",
+    "Profitability: -3.0% operating margin and -25.4% net margin.",
+    "Cash: -$13.7B free cash flow, a -179.9% margin.",
+    "Factor summary: 52/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
   "irUrl": "https://www.coreweave.com",
   "bigPicture": {
     "paragraphs": [
-      "A 67.4% gross margin and a negative 25.4% net margin in the same period is the whole CoreWeave argument. The gross spread says an hour of rented compute sells for much more than it costs to deliver. The net loss says the cost of financing the fleet, and the depreciation of equipment that loses value with each chip generation, consumes more than the operating profit leaves. Both statements are true at the same time, and the gap between them is the balance sheet.",
-      "Customers sign multi-year contracts for clusters because moving a model to another provider is disruptive and because capacity is scarce at the scale they need. That is genuine demand, and it explains why revenue went from $1.9B in FY2024 to $5.1B in FY2025 and $7.6B trailing. It does not explain whether the contracts are priced high enough to cover the capital, which is a separate question answered by the cash flow.",
-      "The operating margin of negative 3.0% is close to a threshold: a modest improvement in utilisation or pricing would push it positive. The net margin is further away because interest sits below the line. At 5.7x EBITDA the shares look cheap, but EBITDA adds back the depreciation that is the real cost of the fleet. The debate is about the balance sheet, not the product. The equity is a residual claim on a fleet whose value depends on the next generation of chips."
+      "CoreWeave, Inc. Generated $7.6B of revenue over the last twelve months, +115.3% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
+      "The latest reported quarter was Q2 FY26, with $2.6B of revenue and an operating margin of -1.9%. The stock closed at $48.33 on 2026-11-23, giving a market capitalization of $26.9B.",
+      "The shares sit 9% of the way up their 52-week range ($39.28 to $138.25). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
-    "quote": "CoreWeave has proven the demand; the argument is whether the balance sheet leaves anything for the equity."
+    "quote": "CRWV is a AI Infrastructure & Power business with $7.6B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,46 @@ export const CRWV: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Multi-year contracts are the reason growth has been so fast and so visible. Revenue climbed from $583.9M in the September 2024 quarter to $2.6B in June 2026, and the customer base is concentrated in AI labs and enterprises that need capacity at a scale they cannot assemble themselves. Contracted revenue is worth more than spot revenue, which is why the company has grown even while losing money.",
-      "The constraint is capital, not demand. Each dollar of revenue requires accelerators, buildings, power and networking before the first invoice, and the equipment has to be replaced as new generations arrive. A provider that keeps its fleet busy and finances it cheaply can earn a return on a 67.4% gross margin; one that does neither is left with depreciation and interest on assets that are losing value every quarter.",
-      "The estimates assume $13.1B of revenue in FY2026, 155.6% growth, and $27.1B in FY2027, another 106.6%, with losses per share in both years. A doubling of revenue on a base that is already $13.1B requires another fleet, which requires another round of financing. The forecast is therefore a capital-markets assumption as much as an operating one. The revenue line is the one the market can check; the financing line is the one that decides the equity."
+      "Revenue compounded at 373.4% a year across the fiscal years in the dataset, and the latest quarter changed +112.5% year over year. Third-party estimates for the current fiscal year point to $13.1B of revenue and -$4.75 of EPS.",
+      "Growth matters when it produces a return on capital. The operating margin of -3.0% and return on invested capital of -3.6% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
-        "title": "Contracted demand",
-        "detail": "Multi-year commitments make the revenue visible, but a few large customers account for much of it."
+        "title": "AI cluster build-out",
+        "detail": "Compute, networking, optics and power equipment all scale with cluster size."
       },
       {
-        "title": "Fleet renewal",
-        "detail": "Accelerators lose value as new generations arrive, so the depreciation schedule is a competitive variable."
+        "title": "Customer expansion",
+        "detail": "Hyperscalers and neoclouds are adding capacity faster than traditional IT budgets."
       },
       {
-        "title": "Cost of capital",
-        "detail": "The gap between the operating and net margins is the interest bill, and it decides whether the equity has value."
+        "title": "Product content",
+        "detail": "More content per system can grow revenue faster than the underlying unit market."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "At negative 3.0%, the operating margin is close enough to zero that small changes matter. The quarterly path ran 20.1% in September 2024, 15.0% in December, negative 2.7% in March 2025, 1.6%, 3.8%, negative 5.7%, negative 6.9% and negative 1.9% in June 2026. Revenue advanced every quarter; the margin did not, because depreciation and the cost of standing up new capacity grew as fast as the top line.",
-      "Below the operating line, interest turns a small loss into a 25.4% net loss. Interest cover of negative 0.1x means operating profit does not cover the interest charge, so the debt is being serviced from cash that comes from financing rather than from operations. That is the difference between a business that is merely unprofitable and one whose capital structure is the problem.",
-      "Return on invested capital of negative 3.6% and return on equity of negative 38.4% are the summary. The equity return is worse because leverage amplifies an operating return that is already below zero. For comparison, Nebius reports negative 7.3% on invested capital at a 68.6% gross margin, and IREN negative 6.1% at 72.2%; all three are building faster than they are earning."
+      "The trailing operating margin is -3.0%, the net margin is -25.4% and diluted EPS is -$3.70. The latest quarter's operating margin was -1.9%. The quarter shown is the latest reported period in the dataset.",
+      "Return on equity is -38.4%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
     ]
   },
   "cash": {
     "paragraphs": [
-      "A $13.7B cash deficit is 179.9% of revenue, which is the largest absolute deficit in the group. FY2025 operating cash flow was $3.1B against $10.3B of capex, and the June 2026 quarter alone consumed $5.7B. The deficit is not a working-capital timing issue; it is the cost of buying a fleet that is larger than the revenue it currently supports.",
-      "The financing is the business model. Debt funds the equipment, interest is charged below the operating line, and the equity is the residual after the lenders are paid. Interest cover of negative 0.1x says the residual is currently negative. No dividend is paid, and the filings do not disclose the maturity schedule, which is the fact that would determine whether the structure is survivable."
+      "FCF over the trailing period was -$13.7B, a -179.9% margin. The balance sheet carries $5.5B of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
+      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "The lowest EBITDA multiple in the group belongs to the company with the largest absolute cash deficit. At 5.7x EBITDA, CoreWeave looks cheap against a 36.0x peer median, but EBITDA adds back the depreciation of assets that have to be replaced every few years. On sales the multiple is 2.8x, which is cheap only if the revenue is durable and the margin can turn positive.",
-      "On the FY2026 revenue estimate of $13.1B the market value of $26.9B is about 2.1x sales, and on FY2027's $27.1B it is about 1.0x. Those multiples are typical of a capital-intensive lessor, not of a software company, and they are the right frame. The P/E is not usable because EPS is negative in both years, at -$4.75 and -$3.64. The market is valuing the fleet, not the earnings, because the earnings are negative.",
-      "What justifies the price is utilisation high enough to cover depreciation and interest, which would make the equity a leveraged claim on a growing annuity. What breaks it is a customer renegotiation, a refinancing at a higher rate, or a new chip generation that shortens the life of the existing fleet. The negative 50.7% free cash flow yield is the measure of the capital still required."
+      "At the latest close the shares trade with no meaningful trailing earnings multiple and 5.7x EV/EBITDA. The valuation reflects the growth and margin record described above, not for the past alone.",
+      "The attributed third-party mean target is $114.55; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "Thirty-eight analysts sit behind the Yahoo Finance figures of 18 November 2026, the widest coverage in the group, with a mean target of $115 against a $48 price and a range of $39 to $278.",
-      "Estimates have been cut: EPS revisions fell 7.1% over thirty days and 8.6% over ninety, and the last two quarters missed the published figure, at -$0.89 against -$0.68 and -$1.40 against -$1.20. FY2026 is $13.1B of revenue and -$4.75 of EPS, FY2027 $27.1B and -$3.64. The consensus assumes the loss narrows as revenue doubles, which requires the new capacity to earn a better margin than the old."
+      "38 analysts contribute to the third-party consensus. The mean target is $114.55, with a range of $39.00 to $268.00. The consensus is a third-party snapshot and can change without notice.",
+      "Current-year estimates call for $13.1B of revenue and -$4.75 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
     ]
   },
   "risks": {
@@ -159,6 +156,6 @@ export const CRWV: StockStory = {
       "What utilisation rate does the installed fleet run at today?"
     ]
   },
-  "narrativeSource": "curated",
+  "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-24"
 };

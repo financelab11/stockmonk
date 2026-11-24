@@ -1,7 +1,7 @@
 {
   "ticker": "CDE",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/CDE/analysis",
   "targetMean": 21.31818,
   "targetHigh": 27,
@@ -30,8 +30,8 @@
       "endDate": "2027-03-31",
       "revenueAvg": 1343500000,
       "revenueGrowth": 0.5692,
-      "epsAvg": 0.37,
-      "epsGrowth": 0.0278,
+      "epsAvg": 0.37333,
+      "epsGrowth": 0.037,
       "analystCount": 3
     },
     {
@@ -39,17 +39,17 @@
       "endDate": "2026-12-31",
       "revenueAvg": 4187666670,
       "revenueGrowth": 1.0229,
-      "epsAvg": 0.86316,
-      "epsGrowth": 0.079,
+      "epsAvg": 0.86375,
+      "epsGrowth": 0.0797,
       "analystCount": 8
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 5861240000,
-      "revenueGrowth": 0.3996,
-      "epsAvg": 1.75875,
-      "epsGrowth": 1.0376,
+      "revenueAvg": 5758975000,
+      "revenueGrowth": 0.3752,
+      "epsAvg": 1.76125,
+      "epsGrowth": 1.0391,
       "analystCount": 8
     }
   ],
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.35,
       "epsEstimate": 0.33333,
-      "revenueActual": 674847000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.36,
       "epsEstimate": 0.35878,
-      "revenueActual": 856192000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.12,
       "epsEstimate": 0.26126,
-      "revenueActual": 1085592000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 0.1,
       "epsEstimate": 0.15973,
-      "revenueActual": 983616000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 5
   },
   "revisions": {
-    "eps7d": -0.0020002543676074236,
-    "eps30d": -0.2018346078803065,
-    "eps60d": -0.2939386503067484,
-    "eps90d": -0.3053038229376257,
+    "eps7d": 0.0006835349182074957,
+    "eps30d": -0.12118714771177985,
+    "eps60d": -0.29489795918367345,
+    "eps90d": -0.3048289738430583,
     "revenue30d": null
   }
 }

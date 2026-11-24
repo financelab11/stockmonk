@@ -1,7 +1,7 @@
 {
   "ticker": "TENB",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/TENB/analysis",
   "targetMean": 48.35,
   "targetHigh": 60,
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 0.48,
       "epsEstimate": 0.41402,
-      "revenueActual": 260533000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -67,7 +67,7 @@
       "endDate": "2026-03-31",
       "epsActual": 0.47,
       "epsEstimate": 0.40858,
-      "revenueActual": 262058000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -75,7 +75,7 @@
       "endDate": "2026-06-30",
       "epsActual": 0.51,
       "epsEstimate": 0.46953,
-      "revenueActual": 268508000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2026-09-30",
       "epsActual": 0.63,
       "epsEstimate": 0.50778,
-      "revenueActual": 276387000,
+      "revenueActual": null,
       "revenueEstimate": null
     }
   ],
@@ -96,9 +96,9 @@
     "analystCount": 22
   },
   "revisions": {
-    "eps7d": 0.09565908713525917,
-    "eps30d": 0.09813454099823993,
-    "eps60d": 0.09780789319781413,
+    "eps7d": 0,
+    "eps30d": 0.09565908713525917,
+    "eps60d": 0.09813454099823993,
     "eps90d": 0.09780789319781413,
     "revenue30d": null
   }

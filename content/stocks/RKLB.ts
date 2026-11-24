@@ -7,20 +7,20 @@ export const RKLB: StockStory = {
   "dek": "Electron sells launches, space systems sells components, and Neutron is the expensive bet in between. Revenue grew 52.5% while free cash flow fell to -$371.1M.",
   "readingMinutes": 9,
   "takeaways": [
-    "Space systems produced 66.9% of revenue and launch services 33.1%, so the company is no longer a pure launch business.",
-    "Q2 FY2026 revenue of $234.1M carried a minus 24.6% operating margin, an improvement from minus 41.3% a year earlier.",
-    "Free cash flow fell to minus $371.1M on a trailing basis as capital expenditure rose to $156.3M in FY2025.",
-    "At 40.8x trailing sales, the equity prices a rocket still in development, against $2.4B of net cash."
+    "Revenue: $769.1M trailing twelve months, +52.5% year over year.",
+    "Profitability: -29.1% operating margin and -21.5% net margin.",
+    "Cash: -$371.1M free cash flow, a -48.3% margin.",
+    "Factor summary: 46/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819994&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Two-thirds of Rocket Lab's revenue now comes from space systems, not launches. The segment produced 66.9% of the total in FY2025, and it is the less lumpy half: components and spacecraft are sold to primes, agencies and constellation builders, while launch revenue depends on cadence and on a small number of missions moving between quarters. That mix explains why revenue grew 52.5% on a trailing basis while the launch line moved with cadence.",
-      "Electron is the small-launch product, priced per mission with a cost base that is largely fixed: the launch site, ground crew, recovery operations and the factory. Photon extends a launch relationship into the spacecraft, and the components business sells to customers who never buy a launch. Neutron, an eight-tonne payload class rocket, is the growth option and the largest consumer of cash. It widens the addressable market but earns nothing until it flies.",
-      "At 40.8x trailing sales, the equity is valued at $33.8B against $769.1M of revenue and $2.4B of net cash. The peer set offers no clean anchor: AST SpaceMobile trades at 76.0x sales with a network under construction, Intuitive Machines at 3.6x with government contract revenue, and the group median EV/EBITDA of 284.1x is not a usable comparison. The multiple is a Neutron option, priced explicitly. That is a valuation of the addressable market the larger rocket opens, not of the current revenue base."
+      "Rocket Lab Corporation generated $769.1M of revenue over the last twelve months, +52.5% versus the prior year. The business depends on contract wins, launch execution and the path from backlog to cash flow.",
+      "The latest reported quarter was Q2 FY26, with $234.1M of revenue and an operating margin of -24.6%. The stock closed at $49.63 on 2026-11-23, giving a market capitalization of $33.4B.",
+      "The shares sit 9% of the way up their 52-week range ($39.30 to $151.00). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
-    "quote": "A launch business is sold by the mission and costed by the year, which is why cadence decides whether the fixed base pays."
+    "quote": "RKLB is a Space, Defense & Autonomy business with $769.1M of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -55,50 +55,46 @@ export const RKLB: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Space systems now carries two-thirds of revenue, and it is the larger half by a wide margin. That is the mix shift that matters: components and spacecraft integration have a bill of materials and an engineering scope, so growth comes from content per satellite and from the number of satellites customers build. Launch growth comes from cadence, which is a different constraint and a different risk.",
-      "The FY2026 estimate of $982.9M is 63.3% above FY2025, and FY2027 is estimated at $1.3B, another 37.0%. That is a deceleration from the trailing 52.5%, but still a steep curve for a company with a $769.1M base. The estimates assume Neutron begins contributing and that space systems keeps winning content on other companies' constellations. Both assumptions are outside the reported numbers.",
-      "The durability question is whether space systems margins hold as volume grows. Components tend to carry better margins than full spacecraft integration because the scope is narrower and the customer owns the schedule risk. If the mix shifts toward integration, the blended gross margin of 37.3% could compress even as revenue grows, which would delay the operating leverage the estimates assume."
+      "Revenue compounded at 76.5% a year across the fiscal years in the dataset, and the latest quarter changed +62.0% year over year. Third-party estimates for the current fiscal year point to $983.5M of revenue and -$0.31 of EPS.",
+      "Growth matters when it produces a return on capital. The operating margin of -29.1% and return on invested capital of -5.0% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
-        "title": "Neutron",
-        "detail": "The eight-tonne rocket widens the addressable market and consumes cash before revenue; first flight is the single largest schedule variable."
+        "title": "Backlog",
+        "detail": "Contracted revenue provides visibility."
       },
       {
-        "title": "Space systems",
-        "detail": "Two-thirds of revenue and the less cyclical half, driven by content per satellite rather than by launch cadence."
+        "title": "Launch cadence",
+        "detail": "More launches spread fixed costs and prove reliability."
       },
       {
-        "title": "Electron cadence",
-        "detail": "Launch revenue depends on missions per quarter; a grounding stops revenue without shrinking the fixed cost base."
+        "title": "Government budgets",
+        "detail": "Defense and space spending fund the addressable market."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Gross margin improved from 34.4% in FY2025 to 37.3% on a trailing basis, and operating margin followed from minus 38.0% to minus 29.1%. The Q2 FY2026 quarter was better still at minus 24.6%, against minus 38.0% in Q3 FY2025. The improvement is consistent with a mix shift toward space systems and with a launch business spreading its fixed cost over more missions.",
-      "Net margin was minus 21.5% trailing and minus 21.0% in Q2 FY2026, and the loss per share was $0.08 in that quarter. Return on invested capital of minus 5.0% and return on equity of minus 4.7% look mild for a company with a minus 29.1% operating margin, and the reason is the balance sheet: $2.4B of net cash sits in the invested capital base, which lowers the ratio without improving the operating business.",
-      "The comparison with Intuitive Machines is useful. Intuitive runs a 45.0% gross margin but a minus 28.0% operating margin on fixed-price government contracts; Rocket Lab runs a 37.3% gross margin and a minus 29.1% operating margin on a mix of launch and components. The two arrive at similar operating losses from different gross margins, which says the cost base below the gross line is the common problem."
+      "The trailing operating margin is -29.1%, the net margin is -21.5% and diluted EPS is -$0.27. The latest quarter's operating margin was -24.6%. The quarter shown is the latest reported period in the dataset.",
+      "Return on equity is -4.7%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Capital expenditure more than doubled to $156.3M in FY2025, and free cash flow went from minus $116.0M to minus $321.8M. The trailing figure is minus $371.1M, so the investment programme is still scaling. Operating cash flow was minus $165.5M in FY2025, which means the capital spending is being layered on top of an operating outflow rather than funded from it.",
-      "Net cash of $2.4B is the buffer. It comes from equity raised rather than from operations, and it is large enough to fund several years of Neutron development at the current burn. Nothing is returned to shareholders while the rocket programme and its launch infrastructure are funded from the balance sheet. The cash balance is the reason the development schedule can slip without an immediate financing.",
-      "The cash-flow statement is the real schedule for Neutron. Development spending arrives before the first flight, and the first flight arrives before any revenue, so the burn is a leading indicator of the programme's progress. If capital expenditure keeps rising without a launch date, the $2.4B balance is a finite runway rather than a permanent advantage. The balance sheet gives time, but time is only valuable if the launch date is real."
+      "FCF over the trailing period was -$371.1M, a -48.3% margin. The balance sheet carries $2.4B of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
+      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "Forty-one times sales for a company with a minus 29.1% operating margin is a Neutron option, priced explicitly. The peer set does not offer a median that helps: AST SpaceMobile at 76.0x sales is building a constellation, Intuitive Machines at 3.6x is a contract business, and the group's EV/EBITDA median of 284.1x reflects a handful of profitable names with tiny denominators.",
-      "On FY2026 revenue of $982.9M the sales multiple falls to about 34x, and on FY2027 revenue of $1.3B to roughly 26x. Those are still growth multiples, and they assume the estimates are met. The market is paying for the point at which space systems and Neutron produce enough gross profit to cover the operating base, not for the current margin.",
-      "A Neutron first flight and a cadence that turns launch into a contributor would justify the multiple. A delay that pushes revenue out while the development cost stays would undercut it, because that combination raises the funding requirement and stretches the path to operating leverage. The first flight is therefore both an operational milestone and a valuation event, and the balance sheet gives the company time to reach it."
+      "At the latest close the shares trade with no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The valuation reflects the growth and margin record described above, not for the past alone.",
+      "The attributed third-party mean target is $90.62; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "Twenty analysts, a mean of $93 and a range of $58 to $127: the low end still implies a higher price than today's $50. That is an unusual distribution, because it means every published target sits above the market. The coverage is constructive on a stock that has fallen 34.0% year to date.",
-      "Revenue is estimated at $982.9M for FY2026 and $1.3B for FY2027 in the Yahoo Finance survey published on 18 November 2026, with Nasdaq used to cross-check the figures; the loss per share is $0.31 and $0.07. The seven-day EPS revision is 12.0% and the 90-day figure 15.7%, so the estimates have been moving up. The numbers embed a near-breakeven FY2027, which is the same assumption the multiple requires."
+      "21 analysts contribute to the third-party consensus. The mean target is $90.62, with a range of $40.00 to $127.00. The consensus is a third-party snapshot and can change without notice.",
+      "Current-year estimates call for $983.5M of revenue and -$0.31 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
     ]
   },
   "risks": {
@@ -163,6 +159,6 @@ export const RKLB: StockStory = {
       "Is space systems growth coming from content per satellite or from more satellites?"
     ]
   },
-  "narrativeSource": "curated",
+  "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-24"
 };

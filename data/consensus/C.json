@@ -1,7 +1,7 @@
 {
   "ticker": "C",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-24",
   "sourceUrl": "https://finance.yahoo.com/quote/C/analysis",
   "targetMean": 150.59525,
   "targetHigh": 170,
@@ -28,11 +28,11 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 25329220430,
-      "revenueGrowth": 0.028299998,
-      "epsAvg": 3.245,
-      "epsGrowth": 0.06,
-      "analystCount": 4
+      "revenueAvg": 25252195940,
+      "revenueGrowth": 0.0251,
+      "epsAvg": 3.214,
+      "epsGrowth": 0.0498,
+      "analystCount": 5
     },
     {
       "period": "Current fiscal year",
@@ -59,7 +59,7 @@
       "endDate": "2025-12-31",
       "epsActual": 1.2433,
       "epsEstimate": 1.62375,
-      "revenueActual": 19871000000,
+      "revenueActual": null,
       "revenueEstimate": null
     },
     {
@@ -96,8 +96,8 @@
     "analystCount": 8
   },
   "revisions": {
-    "eps7d": 0.0007932914222732457,
-    "eps30d": 0.021821423611577906,
+    "eps7d": 0,
+    "eps30d": 0.0013917242893206616,
     "eps60d": 0.019993649970262206,
     "eps90d": 0.019993649970262206,
     "revenue30d": null

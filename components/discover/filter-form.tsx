@@ -144,7 +144,7 @@ export function FilterForm({
             >
               {SORT_OPTIONS.map((option) => (
                 <option key={option.value} value={option.value}>
-                  {option.label}
+                  {option.shortLabel}
                 </option>
               ))}
             </select>

@@ -63,14 +63,18 @@ export const RANGE_LABELS: Record<PriceRange, string> = {
 };
 
 export const SORT_OPTIONS = [
-  { value: "marketCap", label: "Market cap" },
-  { value: "growth", label: "Revenue growth" },
-  { value: "epsGrowth", label: "EPS growth" },
-  { value: "margin", label: "Operating margin" },
-  { value: "return1y", label: "1Y return" },
-  { value: "growthPercentile", label: "Growth percentile" },
-  { value: "revenue", label: "Revenue" },
-  { value: "name", label: "Company name" },
+  { value: "marketCap", label: "Market cap", shortLabel: "Market cap" },
+  { value: "growth", label: "Revenue growth", shortLabel: "Rev growth" },
+  { value: "epsGrowth", label: "EPS growth", shortLabel: "EPS growth" },
+  { value: "margin", label: "Operating margin", shortLabel: "Op margin" },
+  { value: "return1y", label: "1Y return", shortLabel: "1Y return" },
+  {
+    value: "growthPercentile",
+    label: "Growth percentile",
+    shortLabel: "Growth rank",
+  },
+  { value: "revenue", label: "Revenue", shortLabel: "Revenue" },
+  { value: "name", label: "Company name", shortLabel: "Name A–Z" },
 ] as const;
 
 export type SortOption = (typeof SORT_OPTIONS)[number]["value"];

@@ -198,7 +198,11 @@ for (const ticker of RESEARCH_TICKERS) {
 
   const data = parsed.data;
   const sec = readJson<{
-    filings?: { latest10K?: FilingInfo; latest10Q?: FilingInfo };
+    filings?: {
+      latest10K?: FilingInfo;
+      latest10Q?: FilingInfo;
+      latest8K?: FilingInfo;
+    };
   }>(path.join(PROCESSED, ticker, "sec.json"));
   const filing = latestFiling(sec);
   const earningsRaw = readJson<EarningsFile>(
@@ -284,6 +288,21 @@ for (const ticker of RESEARCH_TICKERS) {
         detail: `Earnings release ${earningsRaw.accession} was filed after the narrative date.`,
       });
     }
+  }
+
+  const latest8K = sec?.filings?.latest8K;
+  if (
+    latest8K &&
+    narrativeDate &&
+    latest8K.filed > narrativeDate &&
+    (!earningsRaw || earningsRaw.accession !== latest8K.accession) &&
+    !tickerEvents.some((event) => event.type === "new-earnings")
+  ) {
+    tickerEvents.push({
+      type: "new-earnings",
+      date: latest8K.filed,
+      detail: `SEC 8-K ${latest8K.accession} was filed after the narrative date; the release text is ${earningsRaw ? "different" : "not yet stored"}.`,
+    });
   }
 
   const revision = consensus

@@ -63,7 +63,7 @@
       "rnd": null,
       "sga": null,
       "cashAndInvestments": 255917068,
-      "totalDebt": 0,
+      "totalDebt": 179665,
       "totalEquity": -12584858,
       "totalAssets": 256292315,
       "inventory": null,
@@ -81,7 +81,7 @@
       "netMargin": null,
       "fcfMargin": null,
       "roic": null,
-      "netDebt": -255917068,
+      "netDebt": -255737403,
       "netDebtToEbitda": null,
       "roe": null
     },

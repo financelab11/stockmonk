@@ -7,20 +7,20 @@ export const NVT: StockStory = {
   "dek": "A portfolio of unglamorous electrical products with a 36.6% gross margin. Revenue grew 48%, but the step change looks bought rather than built.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $5.3B trailing twelve months, +48.0% year over year.",
-    "Profitability: 17.8% operating margin and 12.8% net margin.",
-    "Cash: $642.6M free cash flow, a 12.1% margin.",
-    "Scorecard: 49/100 average percentile across the factor screens."
+    "Revenue of $5.3B grew 48.0%, but the multi-year rate is 9.9%, so the step change reflects acquisitions as much as underlying demand.",
+    "Enclosures are 66.6% of segment revenue, while liquid cooling is one product line among several and its contribution is not disclosed.",
+    "Free cash flow of $642.6M is 12.1% of revenue, and net debt of $1.1B at 1.0x EBITDA leaves room for another purchase.",
+    "At 26.9x earnings and 19.2x EBITDA, nVent trades below the peer median on a 17.8% operating margin that has been stable for two years."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026008608/nvt-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001720635&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "nVent Electric plc. generated $5.3B of revenue over the last twelve months, +48.0% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
-      "The latest reported quarter was Q3 FY26, with $1.5B of revenue and an operating margin of 18.6%. The stock closed at $109.19 on 2026-11-17, giving a market capitalization of $17.6B.",
-      "The shares sit 17% of the way up their 52-week range ($93.22 to $184.64). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "A 36.6% gross margin, within four points of where it sat two years ago, is the first thing to notice about nVent. Revenue grew 48.0% to $5.3B, operating margin reached 17.8%, and the September quarter produced $1.5B at 18.6%, yet the gross spread barely changed. A portfolio that adds revenue without changing its gross margin is either buying that revenue or selling more of the same products through the same channel. That is a useful diagnostic for a roll-up, and a warning about the durability of the growth.",
+      "Enclosures are 66.6% of segment revenue and electrical and fastening solutions 33.4%, with North America at 81.1%. The products are specified into drawings and bought through distributors, which makes the revenue sticky but ties it to non-residential construction and industrial investment. Liquid cooling for dense racks is one of the thermal products and the category most exposed to data-centre spending, but the company does not disclose its size. The AI exposure is therefore real but smaller than the headline growth suggests.",
+      "The acquisition question is the valuation question. Net debt of $1.1B is 1.0x EBITDA and interest cover is 12.6x, so the balance sheet can absorb another deal, and the 48.0% growth rate is far above the 9.9% multi-year pace. At 19.2x EBITDA against a 36.0x peer median, the shares are priced as a consolidator with a construction cycle attached, not as an AI supplier. The multiple is a bet on the next deal as much as on the next quarter."
     ],
-    "quote": "A roll-up is valued on the multiple it pays for acquisitions against the multiple the market pays for the combined business. When those two converge, the strategy stops creating value."
+    "quote": "nVent's growth is real, but the part tied to AI is a product line inside a construction portfolio, not the portfolio itself."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,50 @@ export const NVT: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 9.9% a year across the fiscal years in the dataset, and the latest quarter changed +43.7% year over year. Third-party estimates for the current fiscal year point to $5.8B of revenue and $5.38 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 17.8% and return on invested capital of 14.4% are the filters to watch as revenue scales."
+      "Enclosures generate two-thirds of segment revenue and are sold to panel builders, contractors and distributors who specify them into commercial buildings, factories, utilities and data centres. That is a volume business tied to construction starts, and it grows at the pace of non-residential spending rather than at the pace of accelerator shipments. The 48.0% revenue increase is too large to have come from that channel alone.",
+      "Liquid cooling is the fastest-growing category and the one that connects the portfolio to AI. A dense rack needs a loop, a manifold, a heat exchanger and controls, all of which are engineered components adjacent to what nVent already makes. Because the data-centre contribution is not broken out, the only evidence of its scale is the gap between the 48.0% reported growth and the 9.9% multi-year rate.",
+      "The consensus expects $5.8B of revenue in FY2026, 49.1% growth, and $7.6B in FY2027, another 31.3%. A 31.3% increase on a business with a 9.9% multi-year rate implies more purchases or a data-centre step-up that is not visible in the segment disclosure. Both are possible; only one is organic, and the estimates do not separate them. That is the gap between a compounder and a consolidator, and the disclosure does not close it."
+    ],
+    "bullets": [
+      {
+        "title": "Enclosure specification",
+        "detail": "Cabinets and electrical houses are designed into a project, so the revenue arrives with construction rather than with equipment orders."
+      },
+      {
+        "title": "Liquid cooling",
+        "detail": "Thermal management is the category closest to data-centre demand, but it sits inside a segment that also sells industrial heat tracing."
+      },
+      {
+        "title": "Acquisition capacity",
+        "detail": "Net debt at 1.0x EBITDA and 12.6x interest cover leave room for another deal without new equity."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 17.8%, the net margin is 12.8% and diluted EPS is $4.14. The latest quarter's operating margin was 18.6%.",
-      "Return on equity is 16.5%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $1.5B, an operating margin of 18.6% and a net margin of 13.4%."
+      "Selling and administration consumes nineteen points of the 36.6% gross margin, which is why a components business earns 17.8% at the operating line rather than the mid-twenties a pure manufacturer might. The cost is warehouses, distributors, sales engineers and application support, and it is the price of a specification-driven model. It also means incremental revenue through the existing channel carries a high drop-through.",
+      "The quarterly record shows that drop-through. Operating margin ran 15.4% in the December 2025 quarter, 15.8% in March, 20.4% in June and 18.6% in September as revenue advanced from $1.1B to $1.5B. The June spike is the clearest evidence of operating leverage in the figures; the September step back suggests mix or acquisition costs returned as the acquired revenue was consolidated.",
+      "Net margin of 12.8% is below the operating margin, which is unusual and reflects items below the line in prior years rather than a persistent cost. Return on invested capital of 11.5% is close to the 11.7% peer median and well below Comfort Systems' 48.1%, which is what a portfolio of acquired brands with goodwill looks like. Return on equity of 16.5% is flattered by 1.0x leverage."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $642.6M, a 12.1% margin. Net debt is $1.1B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $642.6M over the last twelve months and net debt was $1.1B; interest cover was n/a."
+      "Net debt of $1.1B at 1.0x EBITDA is the number that frames capital allocation. Interest cover of 12.6x means the coupon is not a constraint, and free cash flow of $642.6M covers the debt more than once every two years. That is a balance sheet built to buy things, and the acquisition history is the reason revenue doubled while the organic rate stayed near 10%.",
+      "Cash generation is steady rather than spectacular. Operating cash flow was $465.2M in FY2025 against $93.3M of capex, and free cash flow has been positive every year in the period covered. The September 2026 quarter produced $265.8M, the strongest of the year, after a weak $49.1M in March. Working capital moves with the construction calendar, not with data-centre orders. The annual figure is therefore a better guide than any single quarter, and the trend is flat rather than accelerating.",
+      "The dividend takes 0.8% of the share price, which is a rounding error against the $1.1B of debt and the deal capacity. Buybacks are not disclosed. The company's capital allocation is therefore a choice between another acquisition and paying down the balance sheet, and the 48.0% growth rate suggests it has preferred the former. The organic growth rate is the number that would tell a reader which one it is."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 26.0x trailing earnings and 18.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $197.56; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "A 19.2x EBITDA multiple and 26.9x earnings are cheap against a 36.0x and 43.5x peer median, and the discount is explained by growth quality rather than by the balance sheet. Comfort Systems, at 17.8x EBITDA, grows 50.7% organically through labour; nVent grows 48.0% with an undisclosed organic component. The market is paying less for the second because it cannot tell how much of it repeats.",
+      "On FY2026 EPS of $5.38 the shares are at about 21x, and on $7.03 for FY2027 at about 16x. Those multiples assume the acquisitions keep contributing and the data-centre thermal business grows faster than construction. A 3.5% free cash flow yield and a 28.5x price-to-free-cash-flow ratio are undemanding for a business with 12.6x interest cover. The 9.4% one-year return has nonetheless lagged the 16.2% peer median, which suggests the market wants more evidence on organic growth.",
+      "What would justify a re-rating is disclosure that separates organic from acquired growth and shows the data-centre share. What would break the current multiple is a construction slowdown that hits enclosures and fasteners at the same time, or another acquisition that adds debt without adding margin. The 36.6% gross margin is the tell: a deal that dilutes it is buying revenue rather than capability."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "18 analysts contribute to the third-party consensus. The mean target is $197.56, with a range of $139.00 to $233.00.",
-      "Current-year estimates call for $5.8B of revenue and $5.38 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 18 analysts with a mean target of $197.56; third-party estimates can change without notice."
+      "Eighteen analysts cover nVent in the Yahoo Finance sample dated 18 November 2026. The mean target is $198 against a $113 price and the range is $139 to $233. A mean target 75% above the market price is unusual for an industrial company and reflects the expectation that the acquisition-fed growth continues.",
+      "Estimates rose 4.4% over thirty days and 5.3% over ninety, and the last four quarters produced EPS above the published figure, including $1.45 against $1.16 in June. FY2026 is $5.8B of revenue and $5.38 of EPS, FY2027 $7.6B and $7.03. The estimates embed another year of roughly 30% growth, which is the number to test against the organic trend."
     ]
   },
   "risks": {
@@ -144,5 +159,7 @@ export const NVT: StockStory = {
       "Does the next-year estimate assume further purchases, and at what price?",
       "How much of reported net income comes from items below the operating line?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

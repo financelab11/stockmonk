@@ -7,20 +7,20 @@ export const UNH: StockStory = {
   "dek": "Revenue is $449.66B and operating margin is 5.3%, so one percentage point of cost moves about $4.5B of profit. That arithmetic is the whole investment case.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $449.7B trailing twelve months, +3.3% year over year.",
-    "Profitability: 5.3% operating margin and 3.5% net margin.",
-    "Cash: $22.8B free cash flow, a 5.1% margin.",
-    "Scorecard: 35/100 average percentile across the factor screens."
+    "Third-quarter revenue was $112.7B, but the operating margin fell to 5.8% from 8.0% in the first quarter.",
+    "One percentage point of medical cost on $449.7B of revenue is about $4.5B, against roughly $24B of operating profit.",
+    "Free cash flow is $22.8B, 5.1% of revenue, and net debt is $45.8B, or 1.6x EBITDA.",
+    "At 12.3x EBITDA the shares sit below the 26.1x peer median, a discount that assumes the margin stays depressed."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000731766&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "UNITEDHEALTH GROUP INC. generated $449.7B of revenue over the last twelve months, +3.3% versus the prior year. The franchise depends on clinical evidence, reimbursement and the duration of patent protection.",
-      "The latest reported quarter was Q3 FY26, with $112.7B of revenue and an operating margin of 5.8%. The stock closed at $389.68 on 2026-11-17, giving a market capitalization of $349.2B.",
-      "The shares sit 65% of the way up their 52-week range ($255.97 to $461.62). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "UnitedHealth reported $112.7B of revenue for the third quarter and a 5.8% operating margin, down from 8.0% in the first quarter, with earnings per share of $4.56 against $2.59 a year earlier. The year-on-year comparison looks like recovery; the sequential one does not. Trailing revenue is $449.7B, up 3.3%, and the operating margin is 5.3%, the number that matters for a business keeping about five cents on every dollar of premium. The quarterly trend is the more important signal.",
+      "The company is a spread business before it is a healthcare company. Premiums are set a year ahead on expected medical costs, so a miss on utilisation or acuity comes straight out of profit. UnitedHealthcare is 77.1% of revenue and Optum 22.8%; Optum Health delivers care, Optum Rx administers pharmacy benefits and Optum Insight sells software. The integration is the source of the cost advantage and the source of the regulatory scrutiny.",
+      "The $335 price capitalises UnitedHealth at $300.3B, or 18.9x earnings and 12.3x EBITDA, against healthcare peer medians of 38.4x and 26.1x. The free-cash-flow yield is 7.6%. A 5.3% operating margin is above the 4.2% trough but far below the 8.7% peak, and the multiple sits between those two outcomes. The valuation assumes the margin repair continues but does not complete; the multiple is a bet on that repair. The discount has persisted for that reason."
     ],
-    "quote": "A reported gross margin of 88.3% is an artefact of how costs are classified. For an insurer, the cost of goods is medical claims, and that line decides everything."
+    "quote": "UnitedHealth keeps about five cents of every premium dollar, so the investment case is a medical-cost forecast rather than a growth story."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -56,35 +56,50 @@ export const UNH: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.8% a year across the fiscal years in the dataset, and the latest quarter changed -0.4% year over year. Third-party estimates for the current fiscal year point to $449B of revenue and $20.52 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 5.3% and return on invested capital of 12.5% are the filters to watch as revenue scales."
+      "Turnover rose from $257.1B in 2020 to $447.6B in 2025, but the growth rate has collapsed: 11.8% in 2025, 3.3% trailing, and a consensus 0.3% for 2026. The slowdown is deliberate in part, because premium increases that protect margin can push members away, but it also reflects the difficulty of repricing a book after a year of elevated medical costs.",
+      "The mix determines the growth rate. UnitedHealthcare grows with membership and premium rates; Optum grows with care delivery, pharmacy volumes and software sales. Optum is the smaller half at 22.8% of revenue, but it carries less medical risk and a more fee-based revenue model. The two also transact with each other, so consolidated revenue includes internal activity that is eliminated.",
+      "Consensus looks for $449.0B in 2026 and $462.9B in 2027, growth of 0.3% and 3.1%. That is a modest recovery from the current stagnation, and it assumes the margin repair does not cost members. The estimate for 2027 EPS of $23.33, up 13.7%, assumes the operating margin returns towards 6% without a further rise in the medical cost ratio from here."
+    ],
+    "bullets": [
+      {
+        "title": "Premium resets",
+        "detail": "Prices are set before costs are known, so the growth rate is a policy choice about how much membership to trade for margin."
+      },
+      {
+        "title": "Optum mix",
+        "detail": "Services revenue carries fee and spread economics rather than medical risk, so its share of the mix changes the quality of earnings."
+      },
+      {
+        "title": "Medicare Advantage",
+        "detail": "Government rate updates and risk-adjustment audits determine revenue per member in the largest growth programme."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 5.3%, the net margin is 3.5% and diluted EPS is $17.52. The latest quarter's operating margin was 5.8%.",
-      "Return on equity is 15.0%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $112.7B, an operating margin of 5.8% and a net margin of 3.6%."
+      "Profitability progression is the whole story. Operating margin was 8.7% in 2023, 4.2% in 2025 and 5.3% trailing, with the quarterly path at 8.0%, 7.1% and 5.8% through 2026. Revenue rose 20% from 2023 to 2025 while operating income fell 41%, which is what happens when medical costs outrun premiums in a business with a fixed cost base. The same base amplifies any recovery.",
+      "Net margin is 3.5% and return on equity 15.3%, down from 23.7% in 2023. Return on invested capital is 11.3%, close to the 12.2% healthcare peer median but well below the 16.8% the company earned in 2022. The gross margin of 88.3% is not comparable to an industrial company's, because medical costs sit in cost of revenue; the operating margin is the honest measure.",
+      "The peer set is not like-for-like. Pharmaceutical companies in the group earn operating margins between 7.1% and 40.2%, but none carries medical risk or a government reimbursement calendar. The relevant comparison is the company's own history: a 5.3% margin is above the 4.2% trough and far below the 8.7% peak, which is why the shares trade at 12.3x EBITDA rather than the 26.1x median."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $22.8B, a 5.1% margin. Net debt is $45.8B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $22.8B over the last twelve months and net debt was $45.8B; interest cover was n/a."
+      "The insurer produced $22.8B of free cash, 5.1% of revenue; in 2025 the figure was $16.1B on operating cash flow of $19.7B and capex of $3.6B. The conversion is a function of the claims cycle rather than of accounting: premiums collected are matched by claims paid, and receivables and payables move with the claims cycle. A 5.1% free-cash-flow margin is normal for an insurer; it is not a sign of weak economics.",
+      "Net debt is $45.8B, or 1.6x EBITDA, and interest cover is 6.2x. The dividend costs about $8.1B a year at a 2.7% yield on a $300.3B market value, which is roughly 36% of free cash flow. That leaves room for buybacks, but the priority in a year of margin repair is the balance sheet and the capital needed to support the insurance subsidiaries.",
+      "The cash record shows the cyclicality. Free cash flow was $25.7B in 2023, $16.1B in 2025 and $22.8B trailing. The swing follows operating income rather than working capital, which is what you would expect from a premium-funded business. The 7.6% free-cash-flow yield is the compensation for owning a spread business at a cyclical low in its margin. The balance sheet is not the constraint; the margin is."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 22.0x trailing earnings and 14.0x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $476.16; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $335 the market value is $300.3B, equal to 18.9x earnings, 12.3x EBITDA and 0.8x sales. The 52-week range of $256 to $462 puts the price in the lower half, and the one-year return is 7.9%. Against a healthcare peer median of 38.4x earnings and 26.1x EBITDA, the discount is enormous, but the peer set is mostly pharmaceutical and device companies with different economics.",
+      "The better comparison is the company's own multiple history and the cash yield. At 13.2x free cash flow and a 7.6% free-cash-flow yield, the shares are priced for the margin to stay near 5% rather than return to 8%. If the operating margin recovers to 7%, operating profit on $450B of revenue would be about $31.5B, against roughly $24B today. That is the arithmetic the multiple is debating.",
+      "The risk in the multiple is that the recovery is already in the consensus. The 2027 EPS estimate of $23.33 is 13.7% above 2026, and the shares trade at 14.4x that figure. A return to the 2023 margin would justify a much higher price; a further year at 5% would not. The discount is therefore less about skepticism than about the width of the outcome range."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "25 analysts contribute to the third-party consensus. The mean target is $476.16, with a range of $380.00 to $531.00.",
-      "Current-year estimates call for $449B of revenue and $20.52 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 25 analysts with a mean target of $476.16; third-party estimates can change without notice."
+      "Twenty-five analysts sit behind Yahoo Finance's 18 November 2026 estimate set, which has a mean target of $476 and a range of $380 to $531. The mean is 42% above the current price and even the low end is 13% above it, so the coverage is uniformly positive despite a five-year return of -18.5%.",
+      "Revisions have flattened: EPS is 0.2% lower than 30 days ago and 3.6% higher than 90 days ago. The current-year estimate of $20.52 implies 25.5% growth off a depressed 2025 base, and 2027 at $23.33 implies 13.7%. The consensus is assuming a steady margin repair, not a return to the 2023 peak, which is a more defensible starting point than the target range implies."
     ]
   },
   "risks": {
@@ -148,5 +163,7 @@ export const UNH: StockStory = {
       "What would a two-point margin recovery be worth per share?",
       "How exposed is Medicare Advantage revenue to a change in risk adjustment?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

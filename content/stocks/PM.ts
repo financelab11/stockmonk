@@ -7,20 +7,20 @@ export const PM: StockStory = {
   "dek": "Cigarette volumes fall almost everywhere, yet revenue keeps growing because a pack costs more each year. The question is whether smoke-free products can replace the profit before the decline accelerates.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $43.1B trailing twelve months, +7.9% year over year.",
-    "Profitability: 38.6% operating margin and 24.8% net margin.",
-    "Cash: $13.6B free cash flow, a 31.5% margin.",
-    "Scorecard: 62/100 average percentile across the factor screens."
+    "The September quarter earned a 42.5% operating margin on $11.4B of revenue, up from 39.3% a year earlier, with trailing revenue at $43.1B.",
+    "The 3.5% dividend implies roughly $6.40 a share against $6.85 of trailing EPS, leaving little cover without continued margin expansion.",
+    "Net debt is $37.6B, or 2.0x EBITDA, and free cash flow of $13.6B covers the distribution with room for the $1.6B capital programme.",
+    "At 26.7x trailing earnings and 17.3x EBITDA, the shares sit below the staples median of 33.1x and 22.2x despite the highest operating margin in the group."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1413329/000162828026005939/pm-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001413329&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Philip Morris International Inc. generated $43.1B of revenue over the last twelve months, +7.9% versus the prior year. The business depends on traffic, basket size and the cost of serving the next customer.",
-      "The latest reported quarter was Q3 FY26, with $11.4B of revenue and an operating margin of 42.5%. The stock closed at $194.38 on 2026-11-17, giving a market capitalization of $303B.",
-      "The shares sit 71% of the way up their 52-week range ($146.35 to $214.35). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "A 42.5% operating margin on $11.4B of September-quarter revenue is the highest in the eight quarters shown, and it came without a step-up in capital spending. That is the signature of a price-led model: a smaller volume base carried a higher price and the cost line barely moved. Net income was $3.3B and diluted EPS $2.12. For a company whose product is in structural decline in most markets, the margin is the result that matters; the volume line is the one that decides how long it lasts.",
+      "The mix explains where the pricing comes from. Europe is 42.1% of revenue, SSEACISMEA 29.6%, EAAUPMIGTR 16.3% and the Americas 11.9%, so the company is less exposed to any single regulator than its global brand suggests. Smoke-free products change the arithmetic: a heated-tobacco refill is a manufactured good sold at a premium, and the oral nicotine pouch is the fastest-growing leg in some regions. Both carry device and sales-force costs that a cigarette does not.",
+      "The valuation debate turns on duration, not quality. At 17.3x EBITDA the shares trade well below Coca-Cola's 26.6x despite a 38.6% operating margin against 30.0%, a gap that reflects a smaller terminal market rather than weaker economics today. The 4.8% free-cash-flow yield and 3.5% dividend yield compensate for that decline only if price increases keep outrunning volume losses. A faster quit rate, a generational sales ban or a flavour restriction in a large market would shorten the runway the multiple assumes."
     ],
-    "quote": "Pricing power is the whole model. Volume falls every year, so revenue growth has to come from price, and price increases have to be large enough to more than cover the packs that are no longer sold."
+    "quote": "A 42.5% operating margin on falling volumes is pricing power working, but the multiple asks how many years of it remain."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -38,35 +38,50 @@ export const PM: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.3% a year across the fiscal years in the dataset, and the latest quarter changed +5.5% year over year. Third-party estimates for the current fiscal year point to $43.6B of revenue and $8.35 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 38.6% and return on invested capital of 22.6% are the filters to watch as revenue scales."
+      "Between FY2020 and FY2025, revenue rose from $28.7B to $40.6B, and the trailing figure is $43.1B. The path was not linear: growth was 1.1% in FY2022, 10.7% in FY2023 and 7.3% in FY2025, a spread that tracks price increases and currency more than volume. The September quarter added 5.6% year over year, slower than the 7.9% trailing rate, so the second half of 2026 is decelerating even as the margin expands.",
+      "The regional mix is the growth map. Europe and SSEACISMEA together produce 71.7% of revenue, and both are markets where cigarettes remain the volume base and smoke-free penetration is still climbing. The Americas, at 11.9%, is the smallest region but the one where oral nicotine has the clearest run. Consensus revenue of $43.6B for 2026 and $45.8B for 2027 implies 7.3% and 5.0% growth, a step down that assumes price continues to do the work.",
+      "Durability depends on the smoke-free margin, which the financials do not disclose separately. If a refill earns a gross margin close to the cigarette business, the transition replaces one profit pool with another; if it earns less, the consolidated margin has peaked. That is the number the current disclosure leaves out, and it matters more than the quarterly volume decline."
+    ],
+    "bullets": [
+      {
+        "title": "Price over volume",
+        "detail": "The model needs retail price increases to exceed the number of packs lost. A 5% price rise on an 8% volume decline still shrinks revenue, so the gap is the first thing to check each quarter."
+      },
+      {
+        "title": "Regional regulators",
+        "detail": "Europe and SSEACISMEA carry 71.7% of revenue. A flavour ban or a generational sales restriction in either region would remove more revenue than a US-focused rule."
+      },
+      {
+        "title": "Smoke-free economics",
+        "detail": "Heated tobacco and oral nicotine are growing, but their gross margin is not broken out. Without it, the claim that new products can replace cigarette profit remains unproven."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 38.6%, the net margin is 24.8% and diluted EPS is $6.85. The latest quarter's operating margin was 42.5%.",
-      "Return on equity is 16.7%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $11.4B, an operating margin of 42.5% and a net margin of 29.0%."
+      "Of every $100 of revenue, $67.70 is gross profit and $38.60 is operating profit, with marketing, sales forces and smoke-free research taking the difference. The September quarter improved every line: gross margin held, operating margin reached 42.5% and net margin 29.0%. Over the trailing year, operating margin is 3.9 points below the quarterly peak because the December 2025 quarter carried a 32.6% margin and $1.37 of EPS.",
+      "The annual record shows how much of the improvement is cyclical. Operating margin fell from 41.3% in FY2021 to 32.9% in FY2023, recovered to 36.6% in FY2025 and is 38.6% on a trailing basis. EPS followed: $5.83, $5.02, then $7.26. The swing is wider than the revenue line, which grew every year, so the margin moves on cost and currency as much as on price. A 36.3% return on invested capital is the cleanest evidence that the underlying economics remain intact.",
+      "Returns are the awkward part. Return on equity is negative because book equity is negative, which makes the ratio uninformative rather than flattering. Return on invested capital of 36.3% avoids that distortion and compares with a peer median of 16.9%. The gap is real: few staples businesses convert a 67.7% gross margin into a 38.6% operating margin, and the premium is the pricing power of a regulated product."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $13.6B, a 31.5% margin. The balance sheet carries $6B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $13.6B over the last twelve months and net debt was -$6B; interest cover was n/a."
+      "March is the weak quarter and December the strong one, and the pattern has repeated in both years. The March quarter produced negative free cash flow in FY2025 and FY2026, at -$754M and -$752M, while the June and September quarters generated $3.1B and $4.1B in FY2025 and $5.1B and $5.0B in FY2026. For the trailing year, free cash flow was $13.6B, a 31.5% margin, against capital expenditure of $1.6B.",
+      "That cash flow supports a dividend costing roughly $6.40 a share at the indicated 3.5% yield. Trailing EPS of $6.85 covers it by a thin margin; the $8.35 consensus for 2026 would lift cover to about 1.3x. Net debt of $37.6B, or 2.0x EBITDA, is manageable but not falling: it was $21.1B in FY2020 and $40.4B at FY2025. The company can carry that debt and pay the dividend because the cash flow is reliable, not because the balance sheet is under-levered.",
+      "The quality question is whether the 31.5% free-cash-flow margin is repeatable. It is above the 26.4% implied by FY2025's $10.7B of free cash flow on $40.6B of revenue, and the difference is the stronger second half of 2026; the disclosure does not identify a working-capital release. With capex at only 3.7% of revenue, conversion is a function of operating margin; if the margin holds above 40%, the cash follows."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 28.3x trailing earnings and 15.9x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $212.69; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "A 26.7x trailing multiple and 17.3x EBITDA put Philip Morris at a 19% discount to the staples median of 33.1x earnings and 22.2x EBITDA, with a 4.8% free-cash-flow yield. The discount sits alongside a 38.6% operating margin that is the highest in the group and a 36.3% return on invested capital more than double the median. That combination is the whole valuation question: the market is not disputing the current economics, it is pricing how long they survive.",
+      "The comparison with Coca-Cola is the sharpest. Coca-Cola trades at 28.1x earnings and 26.6x EBITDA on a 30.0% operating margin and 17.1% ROIC; Philip Morris is cheaper on both multiples with better margins and returns. The difference is the product: Coke's volume is not in regulated decline, and its addressable market does not shrink with each excise increase. A discount is warranted; the question is whether 22% on EBITDA is the right size.",
+      "The multiple assumes roughly 5-7% revenue growth and a stable-to-higher margin, which is what the $8.35 and $9.04 consensus EPS figures require. If smoke-free revenue reaches a scale where it replaces the cigarette profit pool at a similar margin, the discount should narrow toward the staples median. If the new products earn less, the current earnings base is a peak and 17.3x is not cheap. The 3.5% yield pays for patience."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "16 analysts contribute to the third-party consensus. The mean target is $212.69, with a range of $175.00 to $240.00.",
-      "Current-year estimates call for $43.6B of revenue and $8.35 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 16 analysts with a mean target of $212.69; third-party estimates can change without notice."
+      "Sixteen analysts contribute to The Yahoo Finance data from 18 November 2026; the mean target is $213 and the range $175 to $240. The balance is constructive, with a neutral block and no cautious voices. The mean is 16% above the $183 share price, but the low end is below it, so the dispersion is wider than the average suggests.",
+      "Estimates put revenue at $43.6B and EPS at $8.35 for 2026, then $45.8B and $9.04 for 2027. That is 7.3% revenue growth followed by 5.0%, with EPS growing faster than sales in both years, so the consensus is implicitly forecasting further margin expansion. Revisions have been mildly negative over 30 days, at -0.9%, which suggests the margin assumption is being trimmed rather than raised."
     ]
   },
   "risks": {
@@ -120,7 +135,7 @@ export const PM: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Philip Morris is a high-margin, cash-generative business built on a product that is in slow decline. Trailing revenue of $43.1B, a 38.6% operating margin, $13.6B of free cash flow and $6.0B of net cash are the facts.",
+      "Philip Morris is a high-margin, cash-generative business built on a product that is in slow decline. Trailing revenue of $43.1B, a 38.6% operating margin, $13.6B of free cash flow and $37.6B of net debt are the facts.",
       "The educational point is that a declining category can still be a good business if the decline is slow and the pricing power is strong. Volume falls, price rises, and the margin expands because the cost base does not need to grow. The arithmetic works until the decline accelerates or regulation removes the pricing lever.",
       "The open question is the smoke-free transition. If the new products carry similar margins at scale, the company replaces one profit pool with another. If they carry lower margins, the current level of profitability is a peak rather than a plateau."
     ],
@@ -130,5 +145,7 @@ export const PM: StockStory = {
       "Which markets carry the largest regulatory risk, and how much revenue do they represent?",
       "Is the 31.5% free-cash-flow margin repeatable, or did working capital flatter it?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

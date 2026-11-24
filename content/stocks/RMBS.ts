@@ -7,20 +7,20 @@ export const RMBS: StockStory = {
   "dek": "A 79.1% gross margin is what a licensing business looks like. The growth is coming from physical memory-interface chips, which carry different economics and a different set of customers.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $796.1M trailing twelve months, +17.3% year over year.",
-    "Profitability: 36.3% operating margin and 33.4% net margin.",
-    "Cash: $312.9M free cash flow, a 39.3% margin.",
-    "Scorecard: 69/100 average percentile across the factor screens."
+    "September quarter revenue was $218.3M at a 38.3% operating margin, with EPS of $0.69 and free cash flow of $95.9M.",
+    "Operating income rose from $24.3M in FY2021 to $260.2M in FY2025, so about 62 cents of each added revenue dollar reached the operating line.",
+    "At 30.5x earnings and 24.3x EBITDA the shares trade below peer medians of 71.5x and 33.8x despite the group's highest operating margin.",
+    "Net cash of $776.9M is about a tenth of the market value, and the 3.9% free-cash-flow yield is the highest in the peer group."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/917273/000119312526057101/rmbs-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000917273&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "RAMBUS INC. generated $796.1M of revenue over the last twelve months, +17.3% versus the prior year. The cycle is driven by inventory, utilisation and the next node or packaging transition.",
-      "The latest reported quarter was Q3 FY26, with $218.3M of revenue and an operating margin of 38.3%. The stock closed at $78.72 on 2026-11-17, giving a market capitalization of $8.4B.",
-      "The shares sit 10% of the way up their 52-week range ($68.19 to $174.10). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Royalties and interface chips produced $218.3M of revenue in the September 2026 quarter, a 38.3% operating margin and $0.69 of EPS. Trailing revenue is $796.1M, up 17.3%, and free cash flow is 39.3% of it. The shares have fallen 18.4% over a year while estimates rose, so the movement is a derating rather than a deterioration in the business. That leaves the distance between the operating record and the multiple as the central question.",
+      "The licensing half sells access to interface technology written into memory standards, and the product half sells register clock drivers, data buffers and clocking parts that sit on a module. The first carries a near-zero marginal cost and the 79.1% gross margin; the second carries silicon cost, inventory and price competition. Korea supplied 46.5% of revenue and Singapore 23.2%, so the customer base is the memory industry itself, which is both the strength and the concentration.",
+      "At 30.5x earnings and 24.3x EBITDA, Rambus trades at less than half the 71.5x peer earnings multiple and below the 33.8x EBITDA median, despite the highest operating margin in the group at 36.3%. Net cash of $776.9M is roughly a tenth of the market value. The discount is a judgement on licence renewals and the memory cycle, not on the delivered economics; the test is whether those risks are as large as the gap implies."
     ],
-    "quote": "Royalty revenue has no cost of goods in the usual sense. That is why the gross margin is 79.1%, and why a shift in the revenue mix moves the whole income statement."
+    "quote": "Rambus keeps 79.1 cents of every revenue dollar before operating expense because its portfolio is written into memory standards; the discount is about renewal, not delivery."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,46 @@ export const RMBS: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 20.8% a year across the fiscal years in the dataset, and the latest quarter changed +22.3% year over year. Third-party estimates for the current fiscal year point to $838.4M of revenue and $3.11 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 36.3% and return on invested capital of 35.6% are the filters to watch as revenue scales."
+      "Memory content per server is the driver that matters. Each new DRAM generation adds interface components and raises the value of the designs Rambus licenses, so revenue grows with the memory content of a system rather than with the number of systems. The product line also compounds the royalty base, because a design win on a module generation tends to persist for that generation. Reported revenue went from $707.6M in FY2025 to $796.1M trailing, and the September quarter was 22.3% above the year-earlier $178.5M.",
+      "The estimate path is steady rather than explosive: $838.4M for the current year, up 18.8%, and $1.0B next, up 20.5%, with the December quarter at $231.6M. What is not disclosed is the split between royalty and product revenue, so the durability of the base cannot be separated from the cyclicality of the chip business. A renewal at lower rates would reduce revenue without any change in demand, which is the risk the discount is pricing."
     ],
     "bullets": [
       {
-        "title": "Memory content",
-        "detail": "More DRAM per server and more channels per platform mean more interface chips per system."
+        "title": "Standards position",
+        "detail": "Participation in memory-interface standards gives early sight of each generation and underpins both licensing and product design."
       },
       {
-        "title": "Standards transitions",
-        "detail": "Each new DRAM generation resets the interface design and creates a window to win or lose the socket."
+        "title": "Server memory content",
+        "detail": "More DRAM per system raises the unit content of interface chips, which is the cyclical part of the model."
       },
       {
         "title": "Licence renewals",
-        "detail": "A small number of agreements carry a large share of royalty revenue, and their terms change infrequently."
+        "detail": "A small number of agreements carry most of the royalty revenue, and their terms are not disclosed."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 36.3%, the net margin is 33.4% and diluted EPS is $2.43. The latest quarter's operating margin was 38.3%.",
-      "Return on equity is 18.8%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $218.3M, an operating margin of 38.3% and a net margin of 34.2%."
+      "Licensing economics show in the gross line. At 79.1%, Rambus keeps four-fifths of revenue before operating expense, and the operating margin of 36.3% means the remaining cost base is largely fixed patent, standards and design work. Operating income went from $24.3M in FY2021 to $260.2M in FY2025 on revenue that rose from $328.3M to $707.6M, so about 62 cents of each incremental revenue dollar reached operating profit.",
+      "The net line is the noisy one. Net margin is 33.4% trailing, below the operating margin, but the annual record includes a 72.4% net margin in FY2023 and a -3.1% figure in FY2022, both driven by non-operating items. That is why operating income and cash flow are the reliable measures here. Returns are strong on the operating base: ROIC of 17.2% and ROE of 18.8% against peer medians of 9.4% and 8.3%."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $312.9M, a 39.3% margin. The balance sheet carries $776.9M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $312.9M over the last twelve months and net debt was -$776.9M; interest cover was n/a."
+      "Royalty cash arrives with few deductions. Operating cash flow was $360.0M in FY2025 against $26.8M of capex, leaving $333.2M of free cash flow, a 47.1% margin. The trailing figure is $312.9M, or 39.3%, and the quarterly path has been $71.6M, $52.2M and $95.9M across the last three reports. A business that converts nearly half of revenue into cash does not need external capital to grow.",
+      "Net cash of $776.9M is about 9.6% of the market value, and interest cover of 244.9x reflects the absence of a meaningful debt burden. Neither a dividend nor a repurchase programme appears in the financials, so the cash accumulates while the licensing negotiations roll. The capital allocation question is whether that balance is eventually returned or used to acquire additional interface technology; the record shows no answer yet."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 31.7x trailing earnings and 25.4x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $140.57; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Thirty times earnings, 24.3x EBITDA and 9.2x sales compare with peer medians of 71.5x and 33.8x, and the peer group is growing at 28.4%. The cash multiple is 25.9x, a 3.9% free-cash-flow yield, which is the highest yield in the group. On the current-year EPS of $3.11 the multiple is 24.4x, and on next year's $3.88 it is 19.6x. The gap to peers is wide enough that it cannot be explained by growth alone, since Rambus is growing at 17.3% against a 28.4% median.",
+      "The discount is a concentration discount. A handful of licensees and two memory markets account for most of the revenue, and a renewal at lower rates or a standards change would remove revenue that costs nothing to deliver. Against that, the 79.1% gross margin and 39.3% cash margin give the business more downside protection than a chip maker with the same growth. The multiple would close if a renewal were disclosed on maintained terms; until then, the cash yield is the return."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "7 analysts contribute to the third-party consensus. The mean target is $140.57, with a range of $103.00 to $165.00.",
-      "Current-year estimates call for $838.4M of revenue and $3.11 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 7 analysts with a mean target of $140.57; third-party estimates can change without notice."
+      "Seven analysts in the Yahoo Finance survey of 18 November 2026, the thinnest coverage in the group after Power Integrations, carry a mean target of $141 against a $76 price. EPS estimates have moved up 2.3% over seven days and 2.5% over ninety, a modest revision trend that matches the steady rather than accelerating revenue path.",
+      "Consensus has the operating margin holding. Current-year EPS of $3.11 and next year's $3.88 compare with $2.11 reported for FY2025, so the consensus is underwriting both revenue growth and a modest margin gain. The dispersion is narrower than the operating risk suggests: even the $103 low target is 36% above the price. What the estimates cannot capture is the renewal calendar, which is the variable that would move the stock most."
     ]
   },
   "risks": {
@@ -164,5 +161,7 @@ export const RMBS: StockStory = {
       "Why has net income diverged so far from operating income in both directions?",
       "Is the 79.1% gross margin rising or falling as product revenue grows?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

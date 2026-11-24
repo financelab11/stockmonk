@@ -7,20 +7,20 @@ export const LOW: StockStory = {
   "dek": "Revenue of $90.4B produces an 11.4% operating margin against $38.6B of net debt. The shares are cheaper than the market leader's for reasons the balance sheet explains.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $90.4B trailing twelve months, +8.2% year over year.",
-    "Profitability: 11.4% operating margin and 7.3% net margin.",
-    "Cash: $7B free cash flow, a 7.7% margin.",
-    "Scorecard: 40/100 average percentile across the factor screens."
+    "Trailing revenue was $90.4B, up 8.2%, with an 11.4% operating margin and $7.0B of free cash flow.",
+    "The shares trade at 19.2x earnings and 12.5x EBITDA, below Home Depot's 24.3x and 15.9x.",
+    "Net debt of $31.8B is 2.5x EBITDA, and buybacks have left shareholders' equity negative, producing a -89.3% return on equity.",
+    "Consensus expects 6.6% revenue growth in fiscal 2027 but only 0.1% EPS growth as margin gains become harder."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/60667/000006066726000029/low-20260130.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000060667&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "LOWES COMPANIES INC. generated $90.4B of revenue over the last twelve months, +8.2% versus the prior year. The business depends on traffic, basket size and the cost of serving the next customer.",
-      "The latest reported quarter was Q2 FY27, with $26B of revenue and an operating margin of 13.7%. The stock closed at $220.46 on 2026-11-17, giving a market capitalization of $123.7B.",
-      "The shares sit 37% of the way up their 52-week range ($178.45 to $293.06). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Revenue of $26.0B in the fiscal second quarter was 8.3% higher than a year earlier, with a 13.7% operating margin and $4.27 of diluted EPS. Revenue is growing again after two years of decline, and the margin is holding above 13% in the seasonal peak even as the trailing figure sits at 11.4%. The 13.7% margin is the best evidence this year that the cost base is under control, and the quarter produced $3.1B of free cash flow.",
+      "The company sells the same categories as Home Depot to the same kinds of customers, but from a smaller base and with a smaller professional business. That is a disadvantage in a market where the trade customer orders repeatedly and in bigger baskets. It is also the clearest source of growth: a larger pro mix would raise sales per store without adding many stores, which is the lever the margin needs.",
+      "Lowe's is worth $127.5B at $227, or 1.8x sales, 12.5x EBITDA and 19.2x earnings. Home Depot trades at 24.3x and 15.9x. The discount is not a market error: Lowe's carries more leverage, earns a lower operating margin, and has a smaller pro business. At 19.2x, the shares already assume the gap narrows. The 5.5% free-cash-flow yield and the 2.3% dividend yield are the compensation for owning the more levered of the two chains."
     ],
-    "quote": "Two chains, the same categories, the same customer. The difference between them is purchasing scale, sales per store and how much debt sits underneath."
+    "quote": "Lowe's is the smaller chain with the larger debt load, and the valuation gap to Home Depot is the market's price for both facts."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -51,35 +51,50 @@ export const LOW: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.0% a year across the fiscal years in the dataset, and the latest quarter changed +8.3% year over year. Third-party estimates for the current fiscal year point to $92B of revenue and $12.29 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 11.4% and return on invested capital of 28.4% are the filters to watch as revenue scales."
+      "Revenue was $96.3B in fiscal 2022, $97.1B in fiscal 2023, $86.4B in fiscal 2024 and $83.7B in fiscal 2025, before recovering to $86.3B in fiscal 2026. Trailing revenue is $90.4B, up 8.2%. The two-year decline was the housing cycle; the recovery is off a lower base, and it has not yet returned revenue to the fiscal 2023 level. That is a cycle, not a structural decline, but the recovery is still early.",
+      "Consensus expects $92.0B in fiscal 2027, up 6.6%, and $94.1B in fiscal 2028, up 2.3%. The first year assumes the housing recovery continues; the second assumes it fades. Growth has to come from contractors, large projects and price. Without a comparable-sales disclosure, the split between more transactions and higher prices cannot be measured, which is the main limitation on the analysis.",
+      "Estimates assume the margin holds. The fiscal 2027 EPS estimate of $12.29 is 0.1% growth on 6.6% revenue growth, which implies a lower operating margin; fiscal 2028 is $12.91, up 5.1%. That is a cautious forecast by the standards of a recovery year, and it reflects the cost cuts that have already been taken: the easier savings are behind the company."
+    ],
+    "bullets": [
+      {
+        "title": "Pro gap",
+        "detail": "Lowe's has a smaller professional business than Home Depot. Closing that gap is the largest source of sales growth and the hardest to execute."
+      },
+      {
+        "title": "Housing recovery",
+        "detail": "Big-ticket projects are financed or funded from home equity. High rates delay them, and a deferred project is often not recovered."
+      },
+      {
+        "title": "Cost limits",
+        "detail": "Operating income rose during the revenue decline because costs came out. That lever is finite; the next gain has to come from sales."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 11.4%, the net margin is 7.3% and diluted EPS is $11.83. The latest quarter's operating margin was 13.7%.",
-      "Return on equity is -67.0%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q2 FY27: revenue of $26B, an operating margin of 13.7% and a net margin of 9.2%."
+      "Gross margin has been stable at 33.1% to 33.5% for five years. Operating margin went from 12.6% in fiscal 2022 to 10.5% in fiscal 2023, 12.5% in fiscal 2025 and 11.4% trailing. The fiscal 2023 trough and the subsequent recovery are the signature of cost cuts during a revenue decline: operating income rose from $10.16B in fiscal 2023 to $10.47B in fiscal 2025 on lower revenue.",
+      "Net margin was 7.3% trailing, down from 8.3% in fiscal 2025, and EPS was $11.85 in fiscal 2026. Return on invested capital is 28.1%, above Home Depot's 24.6%, because the capital base is smaller: more stores are leased and buybacks have reduced equity. Return on equity is -89.3% because shareholders' equity is negative, which makes the ratio meaningless as a measure of profitability.",
+      "Home Depot is the useful benchmark. Lowe's earns a lower operating margin, 11.4% against 12.4%, but a higher return on invested capital, 28.1% against 24.6%. The difference is capital structure, not operating quality. Lowe's also carries more leverage, 2.5x EBITDA, which magnifies both the return and the risk. The market is right to discount the equity, but the operating gap is smaller than the multiple gap."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $7B, a 7.7% margin. Net debt is $38.6B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $7B over the last twelve months and net debt was $38.6B; interest cover was n/a."
+      "Twelve-month cash generation was $7.0B, a 7.7% margin. Fiscal 2026 operating cash flow was $9.9B and capital spending $2.2B. The conversion is lower than Home Depot's 8.9% because the operating margin is lower and interest takes a larger share. Net debt is $31.8B, or 2.5x EBITDA; interest cover is not reported, so the debt multiple is the available measure.",
+      "The cash flow covers the dividend and the interest bill. The dividend takes 2.3% of the share price, and the rest has gone to debt reduction and buybacks. Net debt fell from $38.5B in fiscal 2026 to $31.8B trailing, a meaningful reduction for a company with a $127.5B market value. That is the right direction while the housing recovery is uncertain.",
+      "The constraint is the debt, not the cash flow. At 2.5x EBITDA, Lowe's has less room than Home Depot, and its interest cover is not disclosed in these accounts. A housing downturn that cut operating income by a tenth would still leave the dividend covered, but it would slow the deleveraging that the equity case depends on. The 5.5% free-cash-flow yield is the compensation."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 18.6x trailing earnings and 12.7x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $250.70; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Lowe's trades at 19.2x earnings, 12.5x EBITDA, 1.8x sales and 18.2x free cash flow, with a 5.5% free-cash-flow yield. Home Depot's earnings multiple is 24.3x and its EBITDA multiple 15.9x. The gap is 5.1 points of earnings multiple and 3.4 points of EBITDA multiple, which is large for two companies selling the same categories. The free-cash-flow yield is the compensation for the leverage.",
+      "On estimates, the shares trade at about 18.5x fiscal 2027 EPS of $12.29 and 17.6x fiscal 2028 EPS of $12.91. Those multiples are below the 25.4x peer median and below Home Depot, and they imply that the market expects the margin recovery to stall. A 6.6% revenue year with flat EPS is not a growth story; it is a cost story that has run its course.",
+      "Home Depot explains most of the discount. Lowe's has a lower operating margin, more leverage and a smaller pro business. Its 2.5x EBITDA debt load magnifies both the return on capital and the risk, and the higher return on invested capital is a function of leases and buybacks rather than superior economics. The discount is justified by leverage and margin; whether it is wide enough is the question for a housing recovery that has not yet arrived."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "33 analysts contribute to the third-party consensus. The mean target is $250.70, with a range of $190.00 to $290.00.",
-      "Current-year estimates call for $92B of revenue and $12.29 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 33 analysts with a mean target of $250.7; third-party estimates can change without notice."
+      "The Yahoo Finance survey dated 18 November 2026 covers 33 analysts, with a mean target of $251 and a range of $190 to $290. The mean is 10.6% above the $227 price, and the low end is 16% below it, so the range reflects disagreement about the housing recovery.",
+      "Estimates call for $92.0B of revenue and $12.29 of EPS in fiscal 2027, then $94.1B and $12.91 in fiscal 2028. The fiscal 2027 EPS estimate is down 1.3% over 90 days, the weakest in the home-improvement pair, and the 30-day change is 0.1%. The consensus assumes revenue growth of 6.6% with flat earnings, which is a margin warning dressed as a recovery."
     ]
   },
   "risks": {
@@ -143,5 +158,7 @@ export const LOW: StockStory = {
       "Is the professional business growing faster than the do-it-yourself base?",
       "Can free cash flow fund the dividend and debt reduction at the same time?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

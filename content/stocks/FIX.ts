@@ -7,19 +7,20 @@ export const FIX: StockStory = {
   "dek": "Revenue quadrupled in four years and operating margin nearly tripled, because skilled trades are scarce. The consensus expects the sequential growth to stop in the next two quarters.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $12.5B trailing twelve months, +50.7% year over year.",
-    "Profitability: 16.7% operating margin and 13.0% net margin.",
-    "Cash: $2.4B free cash flow, a 19.5% margin.",
-    "Scorecard: 71/100 average percentile across the factor screens."
+    "Revenue reached $12.5B, up 50.7%, and the 16.7% operating margin is nearly triple the 6.1% recorded in FY2021.",
+    "Free cash flow of $2.4B equals 19.5% of revenue, flattered by a growing backlog that releases cash as projects are billed.",
+    "Return on invested capital of 48.1% is the highest in the group, yet the shares trade at 25.0x earnings and 17.8x EBITDA.",
+    "Quarterly estimates imply revenue near $3.8B for two quarters while the annual figure assumes 50.8% growth, a gap that matters."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926017530/fix-20251231x10k.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001035983&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "COMFORT SYSTEMS USA INC. generated $12.5B of revenue over the last twelve months, +50.7% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
-      "The latest reported quarter was Q3 FY26, with $3.8B of revenue and an operating margin of 16.6%. The stock closed at $1,099.02 on 2026-11-17, giving a market capitalization of $38.5B.",
-      "The shares sit 20% of the way up their 52-week range ($850.00 to $2,073.99). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
-    ]
+      "Skilled trades, not order books, are the binding constraint on Comfort Systems. Revenue reached $3.8B in the September quarter at a 16.6% operating margin, and $12.5B over twelve months at 16.7%. The company has quadrupled revenue since FY2021 with the same basic model: regional mechanical and electrical contractors, local labour relationships and a project price agreed before the work starts. Each regional operating company keeps its own local labour relationships, which is how a contractor grows without losing the relationships that win the bid.",
+      "The margin expansion is the unusual part. A contractor normally earns mid-single digits, and Comfort Systems earned 6.1% in FY2021. Pricing power when data-centre work exceeds available capacity, better project selection and overhead spread across more work all contributed. Only the last is clearly repeatable; the first two depend on a labour shortage that is itself the reason the margin exists. The question is how much of the margin is price and how much is mix, and the reported figures do not split them.",
+      "The balance sheet is a $2.1B net cash position and free cash flow of $2.4B, which is 19.5% of revenue. At 17.8x EBITDA and 25.0x earnings the shares are the cheapest of the large AI-linked names here, and the discount is a judgement about peak margins. The debate is whether 16.7% is a new normal for a labour-constrained contractor or the top of a five-year climb. The flat quarterly estimates are the first evidence that the market expects the climb to stop."
+    ],
+    "quote": "Comfort Systems earns its margin from a labour shortage, and the multiple already assumes the shortage eventually eases."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -51,49 +52,50 @@ export const FIX: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 23.1% a year across the fiscal years in the dataset, and the latest quarter changed +53.7% year over year. Third-party estimates for the current fiscal year point to $13.7B of revenue and $50.82 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 16.7% and return on invested capital of 211.8% are the filters to watch as revenue scales."
+      "Cooling and power distribution are the two things a data hall cannot do without, and both are installed by trades that are in short supply. Revenue went from $1.8B in the March 2025 quarter to $3.8B in September 2026, with the operating margin rising from 11.4% to 16.6% over the same span. Growth and margin moved together because the same crews and supervisors were spread over larger projects.",
+      "The constraint is headcount, not demand. A contractor cannot double its workforce in a year without hurting productivity, and the pool of trades with data-centre experience is small. Prefabrication and larger project sizes stretch the same labour further, but they do not remove the limit. That is why the growth rate has a ceiling even when the order book does not, and why the margin has risen instead of the headcount.",
+      "The estimates imply a pause: $3.8B of revenue in the December 2026 quarter, flat sequentially, and $3.8B in March 2027, while the full year is put at $13.7B, 50.8% growth. The two cannot both be right unless the second half carries a large step-up. Either the quarterly figures are stale or the annual number assumes projects that have not been awarded."
     ],
     "bullets": [
       {
-        "title": "Data-centre fit-out",
-        "detail": "Cooling, piping and electrical distribution for new halls. The largest single driver of the recent growth."
+        "title": "Data-centre cooling",
+        "detail": "Mechanical work for dense racks is the demand driver, and it uses the same pipefitters and sheet-metal trades as industrial projects."
       },
       {
-        "title": "Industrial and manufacturing",
-        "detail": "Plant construction and expansion. Cyclical, but less concentrated than a handful of hyperscale campuses."
+        "title": "Prefabrication",
+        "detail": "Building modules off site raises output per worker, which is the only way to grow faster than the labour pool."
       },
       {
-        "title": "Service work",
-        "detail": "Maintenance on the installed base. Grows with the number of buildings the company has worked on."
+        "title": "Service and maintenance",
+        "detail": "Installed systems need ongoing work, and that revenue is less cyclical than project work even though it is smaller."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 16.7%, the net margin is 13.0% and diluted EPS is $46.31. The latest quarter's operating margin was 16.6%.",
-      "Return on equity is 55.5%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $3.8B, an operating margin of 16.6% and a net margin of 13.0%."
+      "Pricing and project selection, not volume alone, produced the margin. Gross margin rose from 18.3% in FY2021 to 25.6% trailing, and operating margin from 6.1% to 16.7%, while revenue grew fourfold. A contractor that adds 7.3 points of gross margin on a fourfold revenue increase is either charging more or choosing better work, and the reported figures cannot separate the two.",
+      "The quarterly operating margin has been stable at a high level: 16.1% in December 2025, 17.0% in March, 17.1% in June and 16.6% in September. Stability at that level is more impressive than a single spike, because it means the pricing held across different projects and regions. Net margin of 13.0% and EPS of $13.91 in the September quarter follow directly.",
+      "Returns are exceptional. ROIC of 48.1% and ROE of 48.9% come from a business with almost no fixed capital, where the asset is the crew and the customer relationship. The comparison with Powell, at 23.4% ROIC on a 19.7% operating margin, shows that capital turns matter more than margin in this industry. It also shows how quickly returns would fall if the margin normalised."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $2.4B, a 19.5% margin. The balance sheet carries $2.2B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $2.4B over the last twelve months and net debt was -$2.2B; interest cover was n/a."
+      "Operating cash flow of $1.2B in FY2025 against $154.9M of capex produced $1.0B of free cash flow, and the twelve-month figure is $2.4B. The 19.5% margin is unusually high for a contractor and depends on a growing backlog: customers pay as work progresses, so a rising project base funds the working capital rather than consuming it. That is a source of funding that disappears when the backlog stops rising.",
+      "The quarterly pattern shows both the strength and the risk. Free cash flow was $241.4M in March 2026, $998.1M in June and $799.5M in September, against negative $110.2M in March 2025. The swings follow billing milestones, not profitability. When growth stops, the same mechanism reverses and cash flow falls even if the margin holds. The March quarter has been the weakest of the three for cash in both years, which is a seasonal pattern as well as a cyclical one.",
+      "Net cash of $2.1B and interest cover of 264.9x make the balance sheet irrelevant to the equity case except as optionality. The dividend takes 0.4% of the share price and buybacks are not disclosed. Capital allocation is therefore mostly organic: fund the working capital, keep the crews busy, and avoid the acquisition that would dilute the return. The $2.1B is about 5% of the market value, large enough to matter if the cycle turns."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 23.6x trailing earnings and 16.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $1,772.27; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "A 6.0% free cash flow yield and 16.7x price-to-free-cash-flow ratio are the cheapest cash valuation in the group, and they sit alongside 25.0x earnings and 17.8x EBITDA. The gap between the cash yield and the earnings multiple is the working-capital benefit: free cash flow is running above net income because the backlog is growing, and that flatters the yield in exactly the way the margin is flattered.",
+      "On FY2026 EPS of $50.82 the shares at $1.2K are at about 24x, and on $67.29 for FY2027 at about 18x. Those multiples are undemanding for 50.8% revenue growth, which is why the shares have re-rated: the one-year return is 23.7% against a 9.1% peer median. The market is not ignoring the growth; it is discounting the margin. A contractor at 18x forward earnings is priced for a normal year, not a peak one.",
+      "What justifies 17.8x EBITDA is a labour shortage that persists long enough for the margin to hold through the next project cycle. What breaks it is a return to a 12% operating margin, which would cut earnings by more than a quarter and lift the forward multiple from 18x to about 25x. The flat quarterly estimates suggest the market is already preparing for the first outcome."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "11 analysts contribute to the third-party consensus. The mean target is $1,772.27, with a range of $1,050.00 to $2,053.00.",
-      "Current-year estimates call for $13.7B of revenue and $50.82 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 11 analysts with a mean target of $1.8K; third-party estimates can change without notice."
+      "Eleven analysts cover the shares, with a mean target of $1.8K against a $1.2K price and a range of $1.1K to $2.1K. The count and targets are Yahoo Finance's, dated 18 November 2026. The low target is below the current price, so at least one analyst sees the shares as fully valued even after the 23.7% one-year return, and the disagreement is about how long the margin lasts.",
+      "Revisions are positive but modest: FY2026 EPS estimates rose 3.7% over thirty days and 3.8% over ninety, and the last four quarters beat by wide margins, most recently $13.91 against $12.85. FY2026 is $13.7B of revenue and $50.82 of EPS, FY2027 $17.4B and $67.29. The consensus assumes the margin holds near 16% while revenue grows another 27%, which is the labour constraint in numerical form."
     ]
   },
   "risks": {
@@ -157,5 +159,7 @@ export const FIX: StockStory = {
       "Why do the quarterly estimates imply flat revenue while the annual estimate implies 26% growth?",
       "How much of the $2.44B of free cash flow would remain if the backlog stopped growing?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const IBM: StockStory = {
   "dek": "Revenue compounded at 2.7% a year, yet free cash flow stayed above $9B in every year of the record. The gap between the two lines is the business model, and it is what the multiple is built on.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $69.9B trailing twelve months, +6.8% year over year.",
-    "Profitability: 15.0% operating margin and 16.0% net margin.",
-    "Cash: $14.7B free cash flow, a 21.0% margin.",
-    "Scorecard: 59/100 average percentile across the factor screens."
+    "Trailing revenue is $69.9B, up 6.8%, with a 58.0% gross margin but only 15.0% at the operating line.",
+    "Free cash flow of $14.7B is a 21.0% margin, and it has stayed above $9B in every year of the record.",
+    "Net debt of $54.6B is 4.3x EBITDA, with interest cover of 5.4x, so leverage is the constraint on the equity.",
+    "At 19.8x earnings and 15.1x free cash flow, the shares price stable cash flow rather than growth."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000051143&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "INTERNATIONAL BUSINESS MACHINES CORP. generated $69.9B of revenue over the last twelve months, +6.8% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
-      "The latest reported quarter was Q3 FY26, with $17.1B of revenue and an operating margin of 14.6%. The stock closed at $231.09 on 2026-11-17, giving a market capitalization of $218.4B.",
-      "The shares sit 24% of the way up their 52-week range ($199.19 to $332.46). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "IBM's revenue is slow and its cash flow is steady, and the difference is the investment case. Trailing revenue is $69.9B, up 6.8%, with a 58.0% gross margin and a 15.0% operating margin. The September 2026 quarter produced $17.1B at a 14.6% operating margin and $2.30 of EPS, well below the December 2025 quarter's $19.7B and $5.90. That range is the mainframe cycle, not a change in demand. The cash flow does not move with that cycle in the same way.",
+      "Software is 44.4% of revenue, Consulting 31.2%, Infrastructure 23.3% and Financing 1.1%, with the United States at 39.8%. Software is subscription and term licence revenue attached to core banking, insurance and automation systems; Consulting is people-intensive project work; Infrastructure is mainframes, storage and Power servers. The mix explains why a 58.0% gross margin becomes a 15.0% operating margin: services delivery and sales absorb most of the gross profit. Software's share is the lever that can change that conversion over time.",
+      "At $234 the shares trade at 19.8x earnings, 21.6x EV/EBITDA, 3.9x sales and 15.1x free cash flow, with a 6.6% free-cash-flow yield and a 3.0% dividend yield. IBM trades at 19.8x earnings and 21.6x EV/EBITDA, against peer medians of 32.0x and 25.5x. Net debt is $54.6B, or 4.3x EBITDA, and interest cover is 5.4x. The discount is a leverage discount as much as a growth discount, and the two are linked. A lower debt load would justify a higher multiple on the same cash flow."
     ],
-    "quote": "IBM is not a growth company. It is a cash-flow company that occasionally grows, and the two are valued differently."
+    "quote": "IBM's revenue grows slowly, but its cash flow has been the constant, and $54.6B of net debt is what the equity owns after that cash is pledged."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,50 @@ export const IBM: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 2.7% a year across the fiscal years in the dataset, and the latest quarter changed +4.7% year over year. Third-party estimates for the current fiscal year point to $70.6B of revenue and $12.42 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 15.0% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Sales moved from $55.2B in FY2020 to $67.5B in FY2025, with annual growth of 3.9%, 5.5%, 2.2%, 1.4% and 7.6%. The FY2025 jump is above trend, and the trailing rate is 6.8%. Consensus expects $70.6B in FY2026, up 4.5%, and $73.2B in FY2027, up 3.8%. The forecast is for a return to mid-single-digit growth, which is faster than the five-year record but slower than the latest year.",
+      "Software is the growth engine and the margin engine. A customer that runs core banking or insurance on IBM software does not switch casually, so renewals form a base and price increases are possible at renewal. Consulting is project-based and depends on clients starting new work; it is the first line to weaken in a budget squeeze. Infrastructure is the smallest segment but the most visible, because a mainframe launch pulls through software and services.",
+      "The consensus assumes acquisitions and software mix keep revenue growing at 4-5% even as consulting slows. That is plausible, but it is not the same as organic growth: the financial statements do not separate acquired revenue from existing business, so the quality of the growth cannot be tested. The reported numbers show the direction, not the composition. That distinction matters for the multiple, because acquired growth is bought rather than earned."
+    ],
+    "bullets": [
+      {
+        "title": "Software annuity",
+        "detail": "Red Hat, automation and transaction processing renew annually. The installed base is the reason cash flow is more stable than revenue."
+      },
+      {
+        "title": "Consulting bookings",
+        "detail": "Discretionary projects are deferred first when clients cut budgets. The segment is 31.2% of revenue and people-heavy."
+      },
+      {
+        "title": "Mainframe cycle",
+        "detail": "Infrastructure is 23.3% of revenue. A launch year lifts hardware and pulls through high-margin software; the years between are quieter."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 15.0%, the net margin is 16.0% and diluted EPS is $11.75. The latest quarter's operating margin was 14.6%.",
-      "Return on equity is n/a. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $17.1B, an operating margin of 14.6% and a net margin of 12.8%."
+      "Gross margin reached 58.0%, operating margin 15.0% and net margin 16.0%. The net margin is above the operating margin, which is unusual and points to below-the-line gains; in FY2025 the figures were 15.7% and 15.3%, so the pattern is not new. The quarterly operating margin ranged from 8.7% in the March 2026 quarter to 21.0% in the December 2025 quarter, a function of revenue seasonality and product mix.",
+      "Return on invested capital was 10.6% and return on equity 31.4%, against a peer median ROIC of 22.6%. The ROIC gap reflects goodwill from acquisitions and the low-margin consulting mix. The ROE is flattered by $54.6B of net debt: leverage raises the equity return even when the asset return is modest. ROIC is the better measure of operating quality here.",
+      "The margin path from gross to operating is the cost of delivery. A 58.0% gross margin loses 43 points to sales, research, administration and services delivery, leaving 15.0%. Software carries most of the gross profit, so a mix shift toward software raises the operating margin, while a consulting-heavy quarter lowers it. The mainframe cycle adds a hardware margin on top."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $14.7B, a 21.0% margin. The balance sheet carries $32.4B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $14.7B over the last twelve months and net debt was -$32.4B; interest cover was n/a."
+      "The cash statement was $14.7B, a 21.0% margin, and FY2025 operating cash flow of $13.2B came against $1.1B of capex. Capex is 1.6% of revenue, which is low for a company with hardware in the portfolio. Net debt is $54.6B, or 4.3x EBITDA, and interest cover is 5.4x. The cash flow is the reason the leverage is financeable. Without it, the debt would be the dominant fact about the equity.",
+      "The cash statement exceeds net income because depreciation and amortisation of acquired assets are added back and because working capital has been a source of cash. That is a real benefit, but it is also why the cash flow is more stable than the earnings: the accounting charges are large and non-cash. Free cash flow has stayed above $9B in every year of the record, which is the core of the equity story.",
+      "Capital allocation has three claims: the 3.0% dividend, buybacks and debt. Net debt rose from $47.7B in FY2025 to $54.6B on a trailing basis, so the company is adding leverage while returning cash. At 4.3x EBITDA, that is a choice with limited room for error. The 6.6% free-cash-flow yield is the compensation for accepting it. The dividend is the fixed commitment; the buyback is the flexible one."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 19.6x trailing earnings and 14.6x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $259.85; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $234 IBM trades at 19.8x earnings, 21.6x EV/EBITDA, 3.9x sales and 15.1x free cash flow, with a 6.6% free-cash-flow yield. Peer multiples of 32.0x earnings and 25.5x EV/EBITDA frame the discount; the stock is in the 31st and 41st percentiles. The discount is explained by 6.8% growth and 4.3x leverage, not by a weak franchise. The free-cash-flow yield is the measure that matters most for an income buyer.",
+      "Forward numbers are stable. FY2026 EPS of $12.42 implies 18.8x, and FY2027 EPS of $13.24 implies 17.7x. The estimates assume 7.2% and 6.6% EPS growth, with revenue growth of 4.5% and 3.8%. The revisions are small and positive, which is consistent with a company that guides conservatively and delivers. There is no obvious catalyst in the numbers for a re-rating.",
+      "The comparison with Microsoft is the right one for the discount. Microsoft trades at 26.0x earnings with a 47.1% operating margin and 17.9% growth; IBM trades at 19.8x with a 15.0% margin and 6.8% growth. The discount is proportional to the margin and growth gap, and IBM's 4.3x leverage widens it. A 6.6% free-cash-flow yield is attractive for an income investor, but the equity is levered, and that is the price of the yield."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "23 analysts contribute to the third-party consensus. The mean target is $259.85, with a range of $174.00 to $300.00.",
-      "Current-year estimates call for $70.6B of revenue and $12.42 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 23 analysts with a mean target of $259.85; third-party estimates can change without notice."
+      "The 18 November 2026 Yahoo Finance consensus reflects 23 analysts, with a mean target of $260 and a range of $174 to $300. The $234 price sits below the $260 mean, and the range is narrower than most peers, which fits a mature cash-flow story.",
+      "FY2026 estimates are $70.6B of revenue and $12.42 of EPS; FY2027 is $73.2B and $13.24. EPS revisions are plus 0.9% over 30 days and plus 0.8% over 60 and 90 days, a slow, steady pattern. The consensus assumes the December quarter produces $20.4B and $4.63 of EPS, up 3.5% and 2.3%, which is a modest finish to the year."
     ]
   },
   "risks": {
@@ -144,5 +159,7 @@ export const IBM: StockStory = {
       "How dependent is the cash flow on depreciation of acquired assets?",
       "What would a weak mainframe year do to the 21.0% free-cash-flow margin?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

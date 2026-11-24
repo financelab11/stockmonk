@@ -7,20 +7,20 @@ export const ORLY: StockStory = {
   "dek": "A 51.8% gross margin and a 19.8% operating margin come from stocking the right part near the repair shop. Free cash flow has fallen even as revenue grew.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $19B trailing twelve months, +8.7% year over year.",
-    "Profitability: 19.8% operating margin and 14.3% net margin.",
-    "Cash: $2.1B free cash flow, a 11.1% margin.",
-    "Scorecard: 43/100 average percentile across the factor screens."
+    "Third-quarter fiscal 2026 revenue reached $5.1B with a 21.4% operating margin and $0.97 of EPS, the strongest margin in the eight quarters shown.",
+    "Professional repair shops and do-it-yourself buyers share one distribution network, and the 51.8% gross margin pays for parts availability rather than pricing power.",
+    "Free cash flow fell to $1.6B in fiscal 2025 from $2.8B in fiscal 2021 while revenue rose by a third, as capex and inventory absorbed cash.",
+    "Net debt is $7.5B at 1.7x EBITDA and book equity is negative after buybacks, so the 27.6x earnings multiple rests on cash recovery."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/898173/000089817326000009/orly-20251231x10k.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000898173&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "O REILLY AUTOMOTIVE INC. generated $19B of revenue over the last twelve months, +8.7% versus the prior year. The business depends on traffic, basket size and the cost of serving the next customer.",
-      "The latest reported quarter was Q3 FY26, with $5.1B of revenue and an operating margin of 21.4%. The stock closed at $92.69 on 2026-11-17, giving a market capitalization of $74.3B.",
-      "The shares sit 51% of the way up their 52-week range ($82.59 to $102.46). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "O'Reilly reported third-quarter fiscal 2026 revenue of $5.1B, up from $4.7B a year earlier, with a 21.4% operating margin and $0.97 of diluted EPS. The margin was 20.7% in the same quarter last year and 18.5% in Q1 fiscal 2026, so the trend through the year has been upward. That matters because the company is growing sales while improving profitability, a combination that was missing in fiscal 2025, when the operating margin slipped to 19.5%.",
+      "The model has two counters and one inventory pool. Professional repair shops order parts for cars already on the lift and cannot wait; do-it-yourself customers buy evenings and weekends and are more price-sensitive. Behind both sits a network of distribution centres and hub stores that holds slow-moving part numbers. The company reports one segment, automotive aftermarket parts, and does not split professional from retail, so the mix shift has to be inferred from margin and inventory rather than from disclosure.",
+      "Cash conversion, not demand, is what the price tests. At $93 the shares carry a 27.6x trailing multiple and 19.1x EV/EBITDA, above the 24.3x and 16.1x peer medians, while the 35.6x P/FCF reflects free cash flow that has nearly halved since fiscal 2021. Net debt of $7.5B and negative book equity leave little balance-sheet cushion. The market is paying a premium for a 51.8% ROIC and assuming the cash flow recovers as capex and inventory normalise."
     ],
-    "quote": "A repair shop cannot finish the job without the part. Whoever has it on the shelf, within driving distance, wins the sale."
+    "quote": "O'Reilly's moat is a part on a shelf three miles from the lift; the bill for that breadth arrives in working capital, not in the income statement."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -51,35 +51,50 @@ export const ORLY: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 9.8% a year across the fiscal years in the dataset, and the latest quarter changed +8.8% year over year. Third-party estimates for the current fiscal year point to $19.3B of revenue and $3.32 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 19.8% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "The store base, not price, has driven the top line from $11.6B in fiscal 2020 to $17.8B in fiscal 2025, and trailing revenue is $19.0B, up 8.7%. The third quarter contributed $5.1B against $4.7B a year earlier. Consensus, carried by Yahoo Finance on 18 November 2026, looks for $19.3B in fiscal 2026 and $20.5B in fiscal 2027, growth of 8.4% and 6.3%. The deceleration is modest for a retailer adding stores into an ageing vehicle fleet.",
+      "The growth is store-led and availability-led. Each new store carries inventory, and each additional part number raises the chance that a shop gets the part today. The company does not report store count, comparable sales or the professional share of revenue, so the visible evidence is the 51.8% gross margin, which has stayed between 51.2% and 52.7% since fiscal 2020. A stable gross margin alongside 8.7% revenue growth suggests the company is not buying share with price.",
+      "Analysts put EPS at $3.32 in fiscal 2026, up 11.8%, on 8.4% revenue growth, then $3.67 and 10.7% on 6.3% growth. The EPS growth above revenue requires either operating leverage or a lower share count; the company has no dividend and has bought back enough stock to make equity negative, so both are plausible. The durability question is inventory: if the parts breadth keeps expanding faster than sales, the cash conversion stays weak even as earnings grow."
+    ],
+    "bullets": [
+      {
+        "title": "Availability",
+        "detail": "A shop with a car on the lift calls the supplier most likely to have the part. Stockouts lose the sale and teach the next call to a competitor."
+      },
+      {
+        "title": "Inventory intensity",
+        "detail": "The 51.8% gross margin funds thousands of part numbers held close to the buyer. Inventory turns are unavailable, but the falling free cash flow is the visible cost."
+      },
+      {
+        "title": "Capital return",
+        "detail": "Buybacks have taken book equity negative. With net debt at $7.5B and 1.7x EBITDA, further repurchases compete with the inventory and capex the model needs."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 19.8%, the net margin is 14.3% and diluted EPS is $3.27. The latest quarter's operating margin was 21.4%.",
-      "Return on equity is -129.5%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $5.1B, an operating margin of 21.4% and a net margin of 15.3%."
+      "Six years of gross margin between 51.2% and 52.7% sit behind the 51.8% trailing figure, while the operating margin is 19.8% and the net margin 14.3%. In fiscal 2025 those were 51.6%, 19.5% and 14.3%, and in fiscal 2022 they were 51.2%, 20.5% and 15.1%. The gross margin has been remarkably stable; the operating margin has moved by about a point as store labour, delivery and distribution costs shifted. Third-quarter fiscal 2026 was the high point at 21.4%, helped by sales leverage rather than a change in markup.",
+      "Returns are high but the equity return is not meaningful. Return on invested capital is 51.8% against a 23.0% peer median, which reflects a business that needs inventory and little else. Return on equity is -129.5% because buybacks have pushed book equity below zero; a negative denominator turns a profitable business into a meaningless percentage. The right comparison is ROIC, and on that measure O'Reilly earns more than twice the peer median with a 19.8% operating margin.",
+      "Quarterly margins show the operating leverage: 17.9% in Q1 fiscal 2025, 20.2% in Q2, 20.7% in Q3 and 18.8% in Q4, then 18.5%, 20.2% and 21.4% in the first three quarters of fiscal 2026. The fourth quarter is seasonally weaker. The improvement from 18.5% to 21.4% over two quarters is large for a retailer, and it coincides with revenue rising from $4.6B to $5.1B, so fixed-cost absorption is doing the work."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $2.1B, a 11.1% margin. The balance sheet carries $194.4M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $2.1B over the last twelve months and net debt was -$194.4M; interest cover was n/a."
+      "Cash generation has fallen even as revenue grew. Operating cash flow was $3.2B in fiscal 2021, $3.0B in fiscal 2023 and $2.8B in fiscal 2025; capex rose from $442.9M to $1.2B over the same period, so free cash flow fell from $2.8B to $1.6B. Trailing free cash flow is $2.1B, an 11.1% margin. The company is spending more on stores, distribution and technology while its operating cash flow has not kept pace with a 34% increase in revenue.",
+      "Inventory is the working-capital swing. The model requires parts to be on the shelf before the sale, so a growing store base and a wider part number count absorb cash ahead of revenue. Inventory days are unavailable, but $2.1B of free cash flow against $2.7B of trailing net income points to conversion below 100%. Net debt is $7.5B at 1.7x EBITDA, and interest cover is 13.6x, so the debt is affordable but no longer incidental.",
+      "Buybacks, debt and inventory compete for the same cash. Net debt rose from $3.7B in fiscal 2020 to $7.5B trailing, and book equity is negative, so buybacks have been funded partly by borrowing against future cash flow. The company pays no dividend. Capex of $1.2B in fiscal 2025 was more than double the fiscal 2021 level. If free cash flow stays near $2B, the choice between more buybacks, debt reduction and inventory investment becomes explicit."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 27.4x trailing earnings and 17.2x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $106.41; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $93, O'Reilly is capitalised at $74.9B, or 27.6x trailing earnings, 19.1x EV/EBITDA, 4.3x sales and 35.6x free cash flow, with a 2.8% free-cash-flow yield. The 52-week range is $83 to $102 and the shares are 5.7% lower over a year. Peer medians are 24.3x earnings and 16.1x EBITDA, so O'Reilly carries a premium on both despite the weaker cash conversion.",
+      "The $3.32 of fiscal 2026 EPS puts the shares at 28.0x and fiscal 2027 EPS of $3.67 at 25.3x. The P/FCF multiple is the outlier: at 35.6x, it assumes free cash flow recovers toward the fiscal 2021 level of $2.8B, which would bring the multiple to about 27x on today's market value. That is the bet the earnings multiple does not show.",
+      "Against Home Depot, the premium is defensible on returns. The retailer trades at 24.3x earnings and 15.9x EBITDA with a 12.4% operating margin and a 24.6% ROIC; O'Reilly at 27.6x and 19.1x has a 19.8% margin and a 51.8% ROIC. That premium holds only if free cash flow recovers: at $2.1B the 35.6x P/FCF is hard to defend, while a return to $2.8B would bring it closer to the earnings multiple. A further decline would make the shares look expensive on any measure."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "27 analysts contribute to the third-party consensus. The mean target is $106.41, with a range of $91.00 to $122.00.",
-      "Current-year estimates call for $19.3B of revenue and $3.32 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 27 analysts with a mean target of $106.41; third-party estimates can change without notice."
+      "Twenty-seven analysts contribute to Yahoo Finance's survey from 18 November 2026, with a mean target of $106 and a range of $91 to $122. The mean is 14% above the $93 price, and even the low end is slightly below it, so the consensus is more uniform than the cash-flow debate would suggest.",
+      "The consensus revenue figure is $19.3B, with $3.32 of EPS in fiscal 2026, then $20.5B and $3.67. The 30-day EPS revision is +1.1% and the 90-day is +1.2%, a modest upward drift. The last four quarters were mixed on earnings: $0.71 versus $0.72, $0.72 versus $0.70, $0.86 versus $0.86 and $0.97 versus $0.93. Consensus is implicitly assuming the third-quarter margin holds and that free cash flow recovers enough to support the valuation."
     ]
   },
   "risks": {
@@ -143,5 +158,7 @@ export const ORLY: StockStory = {
       "What share of revenue comes from professional repair shops?",
       "How does the parts mix change as the vehicle fleet electrifies?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

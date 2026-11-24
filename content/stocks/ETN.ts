@@ -7,19 +7,20 @@ export const ETN: StockStory = {
   "dek": "Revenue is growing at a fifth a year while margins fall. That combination is the story: new capacity and project mix are diluting a business that used to earn more on less.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $32B trailing twelve months, +20.1% year over year.",
-    "Profitability: 15.4% operating margin and 12.2% net margin.",
-    "Cash: $3.8B free cash flow, a 11.9% margin.",
-    "Scorecard: 46/100 average percentile across the factor screens."
+    "Trailing revenue grew 20.1% to $32.0B, but operating margin fell from 18.4% in FY2024 to 15.4%.",
+    "Electrical Americas is 48.4% of revenue, and the fastest-growing project work carries the least pricing power per dollar.",
+    "Net debt rose from $9.1B at FY2025 to $19.3B, lifting leverage to 3.1x EBITDA and cutting return on capital to 9.5%.",
+    "The shares carry a 33.5x earnings multiple against a 29.6x peer median while earning half the peer return on capital."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000007/etn-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551182&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Eaton Corp plc. generated $32B of revenue over the last twelve months, +20.1% versus the prior year. Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
-      "The latest reported quarter was Q3 FY26, with $8.9B of revenue and an operating margin of 15.3%. The stock closed at $337.11 on 2026-11-17, giving a market capitalization of $131B.",
-      "The shares sit 15% of the way up their 52-week range ($311.92 to $478.00). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
-    ]
+      "Eaton's September quarter produced $8.9B of revenue, a 15.3% operating margin and $2.77 of diluted EPS, with revenue up 20.1% on a trailing basis. The combination is the point: the top line is accelerating while the margin is falling, from 18.4% in FY2024 to 15.4% trailing. The result matters because it shows the growth is coming from the part of the business that earns least per dollar, not from a broad recovery in the catalogue products.",
+      "Electrical Americas is 48.4% of revenue and sells distribution equipment, breakers, switchgear and UPS systems to contractors, utilities, data-centre developers and plants. Electrical Global adds 24.8%, Aerospace 15.5%, Vehicle 9.1% and eMobility 2.2%. The specification moat is real: once a breaker or busway is designed into a building, replacing it means redesigning the distribution system. But large data-centre and utility projects are engineered to order and priced before copper and labour costs are known.",
+      "The capital structure has changed. Net debt rose from $9.1B at FY2025 to $19.3B trailing, lifting leverage to 3.1x EBITDA, and return on invested capital fell from 14.4% to 9.5%. The 1.4% dividend is modest. At 33.5x earnings and 23.8x EBITDA, the shares carry a premium to peer medians of 29.6x and 19.3x while earning half the peer return on capital. The market is paying for growth, not for the current return."
+    ],
+    "quote": "Eaton is growing fastest in the work that carries the least pricing power, and the margin line already shows it."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -37,35 +38,48 @@ export const ETN: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 4.2% a year across the fiscal years in the dataset, and the latest quarter changed +28.0% year over year. Third-party estimates for the current fiscal year point to $33.8B of revenue and $13.79 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 15.4% and return on invested capital of 19.2% are the filters to watch as revenue scales."
+      "Revenue was $23.2B in FY2023, $24.9B in FY2024, $27.4B in FY2025 and $32.0B trailing, with the quarterly sequence running from $7.5B in March 2026 to $8.5B in June and $8.9B in September. Consensus expects $33.8B for FY2026, up 23.0%, and $37.8B for FY2027, up 12.1%. The step-up is concentrated in electrical project work, where the order is large and the specification is set early.",
+      "The mix shift is the mechanism behind the margin. Distributors buy catalogue products in volume at negotiated prices, while utilities and data-centre developers buy engineered packages on project schedules. The second grows faster today and earns less per dollar of revenue. Eaton does not disclose the split, so the evidence is indirect: gross margin fell from 38.2% in FY2024 to 35.0% trailing while revenue accelerated. That is what a project-led mix looks like.",
+      "Consensus EPS of $13.79 for FY2026, up 14.2%, assumes the margin stabilises while revenue grows 23.0%. That is a demanding combination: it requires the new capacity to reach utilisation and the project pricing to stop deteriorating at the same time. FY2027 EPS of $16.47, up 19.4%, assumes the recovery happens. The revisions are positive but small, up 1.4% over 30 days, so the estimate has not yet been tested by a full year of project deliveries."
+    ],
+    "bullets": [
+      {
+        "title": "Project mix",
+        "detail": "Engineered packages for data centres and utilities are priced before copper and labour costs are known. Their share of revenue decides whether the group margin stabilises."
+      },
+      {
+        "title": "Capacity",
+        "detail": "New plants take years to reach target utilisation. Until they do, fixed costs sit against revenue that is already priced, which is why incremental margin is the number to watch."
+      },
+      {
+        "title": "Copper and components",
+        "detail": "Input costs move faster than project price lists. A contract signed before a copper move compresses margin immediately, with no offset until the next award."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 15.4%, the net margin is 12.2% and diluted EPS is $10.01. The latest quarter's operating margin was 15.3%.",
-      "Return on equity is 18.6%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $8.9B, an operating margin of 15.3% and a net margin of 12.0%."
+      "The margin record runs the wrong way. Gross margin fell from 38.2% in FY2024 to 37.6% in FY2025 and 35.0% trailing; operating margin fell from 18.4% to 18.0% and then 15.4%; net margin is 12.2% against 15.3% in FY2024. The September quarter's 15.3% was a small improvement on June's 13.4%, but it is still below every full year in the record. Diluted EPS of $10.01 trailing is barely above FY2025's $10.45 despite 20.1% revenue growth.",
+      "The return profile has deteriorated with the balance sheet. Return on invested capital of 9.5% is down from 14.4% in FY2025 and compares with an 18.3% peer median; return on equity is 18.6%. Some of the decline is the larger invested capital base, some is the lower margin. Both matter, because the 33.5x earnings multiple is being paid for a business that currently earns less on capital than it did before the growth accelerated."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.8B, a 11.9% margin. The balance sheet carries $818M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $3.8B over the last twelve months and net debt was -$818M; interest cover was n/a."
+      "Free cash flow after capex was $3.8B trailing, an 11.9% margin, against $4.5B of operating cash flow and $919M of capex in FY2025. The March 2026 quarter produced $314M, the June quarter $874M and September $1.0B, a seasonal pattern that reflects working capital rather than a change in the business. FY2025 free cash flow of $3.6B was slightly above FY2024's $3.5B despite the higher revenue, which is a warning about conversion.",
+      "Net debt of $19.3B at 3.1x EBITDA is more than double the FY2025 level, and interest cover is 8.5x. The 1.4% dividend absorbs little of the free cash flow, so the priority is presumably the capacity programme and the debt taken on to fund it. The risk is that the projects which diluted the margin also consume cash before they earn it. Leverage is manageable, but it removes the option to wait out a slow year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 33.6x trailing earnings and 20.6x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $468.74; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Eaton's {{marketCap}} market capitalisation at {{price}} equates to {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA; free cash flow is 34.4x and the cash yield 2.9%. The peer medians of 29.6x and 19.3x leave a premium of roughly four turns on earnings and four and a half on EBITDA. That is not an extreme multiple for an electrification franchise, but it is a full one for a business with a 9.5% return on invested capital.",
+      "The forward numbers depend on the margin. FY2026 EPS of $13.79 puts the shares on about 24x and FY2027 EPS of $16.47 on about 20x, so the premium shrinks quickly if the estimates are met. That is the same pattern as the trailing multiple: the market is not paying 33.5x for the current year, it is paying for the recovery. If operating margin stays near 15%, the forward earnings will not arrive and the multiple will look expensive again.",
+      "The closest comparison is RTX, which trades at 31.2x earnings and 18.1x EBITDA with a 9.1% return on capital. Eaton is slightly more expensive on earnings, more expensive on EBITDA and earns a similar return. Caterpillar, at 21.2x and 14.3x, earns a much higher operating margin. Eaton's premium therefore rests on the durability of electrical demand, not on its current profitability, and that is the assumption to test."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "27 analysts contribute to the third-party consensus. The mean target is $468.74, with a range of $333.00 to $539.00.",
-      "Current-year estimates call for $33.8B of revenue and $13.79 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 27 analysts with a mean target of $468.74; third-party estimates can change without notice."
+      "As of 18 November 2026, Yahoo Finance counts 27 analysts covering Eaton, with a mean target of $469 and a low-to-high range of $333 to $539. The positive camp is large and the neutral block is modest, with no cautious views. The lowest target sits at today's price, so the published downside case is flat rather than a markdown in the multiple.",
+      "Revisions are modestly positive, with EPS up 1.4% over 30 days, 1.7% over 60 and 2.0% over 90. The September quarter beat at $3.68 against $3.55, and the June quarter at $3.15 against $3.08, so the recent record is steady rather than dramatic. Consensus FY2026 EPS of $13.79 implies a 14.2% increase on 23.0% revenue growth; the estimate already assumes the margin compression continues, just less severely."
     ]
   },
   "risks": {
@@ -119,7 +133,7 @@ export const ETN: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Eaton is a specification-driven electrical equipment franchise sitting in the path of grid and data-centre investment. Revenue reached $32.0B, up 20.1%, with $3.8B of free cash flow and a net cash balance sheet. Demand is not the problem.",
+      "Eaton is a specification-driven electrical equipment franchise sitting in the path of grid and data-centre investment. Revenue reached $32.0B, up 20.1%, with $3.8B of free cash flow and a net debt balance sheet. Demand is not the problem.",
       "The problem is price. Growth is coming from project work that earns less per dollar than the catalogue business, and the margin has fallen from 18.4% to 15.3% in three quarters while revenue accelerated. Whether that is a temporary cost of expansion or a permanent mix shift is the whole question.",
       "At 34.0x earnings, the shares already assume the answer is temporary. The reader should decide that first, then look at the price."
     ],
@@ -129,5 +143,7 @@ export const ETN: StockStory = {
       "Is the recent margin decline price, mix or cost inflation?",
       "Why does Eaton trade at the same multiple as Vertiv on half the growth rate?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

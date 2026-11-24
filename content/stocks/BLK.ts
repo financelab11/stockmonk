@@ -7,20 +7,20 @@ export const BLK: StockStory = {
   "dek": "The revenue line is a percentage of other people's savings, so market levels and fund flows matter more than factory output. Scale, product breadth and the Aladdin platform explain why a 30% operating margin is possible in a fee-compressed industry.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $28.5B trailing twelve months, +24.7% year over year.",
-    "Profitability: 32.5% operating margin and 24.6% net margin.",
-    "Cash: $4.8B free cash flow, a 16.8% margin.",
-    "Scorecard: 53/100 average percentile across the factor screens."
+    "Trailing revenue is $28.5B, up 24.7%, yet the operating margin of 32.5% sits below the 37.1% earned in FY2024.",
+    "Net cash of $137M and free cash flow of $4.8B leave room to fund Aladdin and private-markets expansion without new debt.",
+    "At 37.2x free cash flow and a 2.1% dividend yield, the shares assume asset growth continues well above market returns.",
+    "FY2026 consensus EPS of $57.88 requires 20.4% growth, more than double the 11.2% revenue growth expected for FY2027."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002012383&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "BlackRock, Inc. generated $28.5B of revenue over the last twelve months, +24.7% versus the prior year. The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns.",
-      "The latest reported quarter was Q3 FY26, with $7.8B of revenue and an operating margin of 30.0%. The stock closed at $1,180.67 on 2026-11-17, giving a market capitalization of $182.3B.",
-      "The shares sit 81% of the way up their 52-week range ($917.39 to $1,242.12). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "BlackRock's September quarter produced $7.8B of revenue and a 30.0% operating margin, with net income equal to 21.4% of revenue. Revenue rose 20% from the $6.5B reported a year earlier, yet the operating margin was unchanged at 30.0%. That combination is the central fact: the fee pool expanded by a fifth and the incremental revenue carried no margin uplift, which means compensation, distribution and technology spending grew in step with the assets. For a manager whose costs are mostly people, that is what a hiring and acquisition phase looks like.",
+      "The mix explains why. Index and ETF products, including the iShares range, compete on basis points and win assets by being cheapest; alternatives and Aladdin software carry software-like margins but are smaller and slower to scale. Americas clients generate 65.9% of revenue, Europe 29.6% and Asia-Pacific 4.5%, so a US market drawdown hits roughly two-thirds of the fee base immediately. FY2025 made the same point: revenue rose 18.7% to $24.2B while the operating margin fell to 29.1% and diluted EPS dropped from $42.01 to $35.31.",
+      "The multiple is where the argument sits. At 25.7x trailing earnings, 16.5x EV/EBITDA and 37.2x free cash flow, BlackRock is expensive against a 13.3x peer median that is set by balance-sheet financials, and cheaper than Visa at 32.5x or Mastercard at 32.7x. The 2.7% free-cash-flow yield and 2.1% dividend yield mean the return depends on asset growth rather than cash returned. Capital allocation has shifted toward deals and technology, and the swing from $448M of net cash in FY2024 to $1.3B of net debt in FY2025 is the balance-sheet trace."
     ],
-    "quote": "An asset manager's revenue is a fee rate multiplied by assets. The fee rate tends to fall; the assets have to grow faster just to stand still."
+    "quote": "Revenue rose 20% in the September quarter while the operating margin stayed at 30.0%, so scale is not yet showing up as margin."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -53,49 +53,48 @@ export const BLK: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.9% a year across the fiscal years in the dataset, and the latest quarter changed +19.1% year over year. Third-party estimates for the current fiscal year point to $29.5B of revenue and $57.88 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 32.5% and return on invested capital of 17.5% are the filters to watch as revenue scales."
+      "The top line went from $17.9B in FY2022 to $17.9B in FY2023, $20.4B in FY2024, $24.2B in FY2025 and $28.5B trailing, a 16.7% compound pace over three years. The acceleration is not purely market beta: the margin fell as revenue rose, the signature of acquisitions and hiring rather than a pure asset-level lift. Consensus expects $29.5B of revenue and $57.88 of EPS for FY2026, then $32.8B and $64.95 for FY2027, and the step down from 21.9% to 11.2% revenue growth is the sell side's admission that part of 2026 is not repeatable.",
+      "Two variables decide the next leg. Organic net flows separate a winning franchise from a buoyant market, because a rising index lifts the fee base without a single new mandate. The fee rate is the second: the passive mix pushes it down even as assets grow, and Aladdin plus private markets are the offsets. Their share of revenue determines whether the 32.5% operating margin holds. The peer set's top-percentile revenue growth is real, but it was bought partly with cost."
     ],
     "bullets": [
       {
-        "title": "Market levels",
-        "detail": "A rising market lifts the asset base and fee revenue without any new client money."
+        "title": "Fee rate versus asset base",
+        "detail": "Revenue is a rate times assets, and the rate falls as index products take share. A 20% market gain and a 2% fee-rate decline can cancel out."
       },
       {
-        "title": "Net flows",
-        "detail": "Organic growth depends on winning mandates and keeping existing clients invested."
+        "title": "Aladdin and private markets",
+        "detail": "Technology and alternatives carry the highest fee rates and the least market beta. Their growth is the only durable offset to passive compression."
       },
       {
-        "title": "Mix and acquisitions",
-        "detail": "Alternatives and technology add fee rate and diversification; deals add scale but also integration risk."
+        "title": "Cost discipline",
+        "detail": "Operating costs rose roughly 34% in FY2025 while revenue rose 18.7%, which is why EPS fell. Repeating that in FY2026 would invalidate the $57.88 estimate."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 32.5%, the net margin is 24.6% and diluted EPS is $43.92. The latest quarter's operating margin was 30.0%.",
-      "Return on equity is 16.6%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $7.8B, an operating margin of 30.0% and a net margin of 21.4%."
+      "FY2025 is the cleanest margin bridge: revenue up 18.7%, operating margin down from 37.1% to 29.1%, net margin from 31.2% to 22.9%, and diluted EPS from $42.01 to $35.31. Operating income therefore fell about 7% while revenue rose by a fifth, and operating costs rose roughly 34%. The balance sheet swung from $448M of net cash to $1.3B of net debt over the same year, which added an interest cost that FY2024 did not carry. The recovery since has been partial: the trailing operating margin is 32.5% and the September quarter printed 30.0%.",
+      "Returns have not recovered with the margin. Trailing return on equity is 11.9% and return on invested capital 10.0%, against 13.4% and 11.1% in FY2024. Among the fee-based comparators, Visa earns a 61.2% operating margin and Mastercard 58.6%, because a network takes a toll rather than paying portfolio managers. BlackRock's 32.5% is a good asset-management margin and a poor network margin, and the 25.7x multiple is closer to the network end of that range than the margin deserves."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $4.8B, a 16.8% margin. The balance sheet carries $371M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $4.8B over the last twelve months and net debt was -$371M; interest cover was n/a."
+      "Cash generation was $4.8B trailing, a 16.8% margin, against net income of roughly $6.9B. The gap is not capital expenditure: capex was $375M in FY2025, or 1.6% of revenue. It is working capital and compensation, which is typical of a manager that accrues bonuses through the year. Conversion of about 70% is the number that matters for an asset manager, because there is no factory to build and the cash either funds deals or returns to shareholders.",
+      "The quarterly pattern makes the point. Free cash flow was -$1.1B in the March 2026 quarter, +$1.1B in June and +$2.6B in September; the March 2025 quarter was -$1.2B. Annual incentive payments land in the first quarter, so the negative print is a calendar effect rather than a liquidity problem. The balance sheet is close to neutral, with $137M of net cash and interest cover of 17.1x, so the dividend and deal spending are not constrained by leverage.",
+      "Capital returns are modest relative to the cash generated: a 2.1% dividend yield, with no buyback figure in the reported series. That leaves free cash flow available for acquisitions, which is where the FY2025 margin pressure came from. The question for the next two years is whether deal spending and Aladdin investment earn more than the $4.8B of annual cash they consume."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 26.0x trailing earnings and 24.8x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $1,366.00; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Trailing multiples are 25.7x earnings, 16.5x EV/EBITDA, 6.2x sales and 37.2x free cash flow, with a 2.7% free-cash-flow yield. The peer median of 13.3x earnings is not a fair benchmark, because it is set by banks and insurers whose earnings are capital-intensive. The fee-based comparators in the same group are more useful: Visa at 32.5x and Mastercard at 32.7x, both with operating margins above 58%. BlackRock sits between the two camps, which is where a 32.5%-margin manager belongs.",
+      "On consensus numbers the multiple compresses quickly. At the current price, FY2026 EPS of $57.88 implies roughly 21x and FY2027 EPS of $64.95 roughly 18x. Those estimates assume the operating margin keeps recovering from 29.1% and that revenue growth of 21.9% then 11.2% arrives without a further cost step. A 37.2x free-cash-flow multiple is the stricter test, because it capitalises the 70% conversion rather than the accounting earnings.",
+      "What would justify the premium is a fee rate that stops falling, which Aladdin and private markets can deliver if they grow faster than index assets. What would break it is a market decline: a 20% fall in asset values cuts the fee base immediately, and the cost base does not move in step. The 2.1% dividend yield offers little cushion, so the shareholder return depends on assets compounding faster than the fee rate erodes."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "18 analysts contribute to the third-party consensus. The mean target is $1,366.00, with a range of $1,250.00 to $1,531.00.",
-      "Current-year estimates call for $29.5B of revenue and $57.88 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 18 analysts with a mean target of $1.4K; third-party estimates can change without notice."
+      "the 18 November 2026 Yahoo Finance estimate set, covers 18 analysts with a mean target of $1,400 and a range of $1,300 to $1,500. The analyst views are close to unanimous at the positive end with a single neutral view and none negative, and the mean sits about 17% above the last price. The narrow target range is unusual for an asset manager and suggests the sell side is anchoring on the same asset-growth assumption rather than disagreeing about the model.",
+      "Estimates have drifted up: the 60-day EPS revision is 2.8% and the 90-day 2.9%, while the 30-day change is flat. The last four quarters all beat the consensus earnings figure, which is why the revisions cluster after those reports. FY2026 EPS of $57.88 and FY2027 of $64.95 imply 20.4% and 12.2% growth, so the consensus assumes the margin recovery continues through 2027, not just through the current year."
     ]
   },
   "risks": {
@@ -159,5 +158,7 @@ export const BLK: StockStory = {
       "How concentrated is the client base among large institutional mandates?",
       "Can Aladdin and private markets grow fast enough to offset passive fee pressure?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

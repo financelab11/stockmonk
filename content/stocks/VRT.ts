@@ -7,20 +7,20 @@ export const VRT: StockStory = {
   "dek": "Revenue grew 61% in the latest quarter and the shares are down by half from their high. That gap between the operating result and the price is the most interesting thing in the file.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $13.1B trailing twelve months, +35.3% year over year.",
-    "Profitability: 20.1% operating margin and 16.0% net margin.",
-    "Cash: $3.1B free cash flow, a 24.0% margin.",
-    "Scorecard: 63/100 average percentile across the factor screens."
+    "Q3 FY26 revenue was $4.3B against $2.7B a year earlier, with operating margin at 22.8% and diluted EPS at $1.95.",
+    "Trailing revenue is $13.1B, up 35.3%, and the operating margin has risen from 17.9% in FY2025 to 20.1%.",
+    "Free cash flow of $3.1B is a 24.0% margin, flattered by customer deposits and progress payments on equipment.",
+    "The shares are 12.4% higher over a year but half the $380 high, so the multiple has compressed while estimates rose."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1674101/000167410126000008/vrt-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001674101&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Vertiv Holdings Co. generated $13.1B of revenue over the last twelve months, +35.3% versus the prior year. Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
-      "The latest reported quarter was Q3 FY26, with $4.3B of revenue and an operating margin of 22.8%. The stock closed at $190.37 on 2026-11-17, giving a market capitalization of $73.3B.",
-      "The shares sit 18% of the way up their 52-week range ($147.82 to $379.93). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Vertiv's September quarter produced $4.3B of revenue against $2.7B a year earlier, a 22.8% operating margin and $1.95 of diluted EPS. Trailing revenue is $13.1B, up 35.3%, and the operating margin is 20.1%. The result matters because it is accelerating: the March quarter earned 16.6%, June 19.5% and September 22.8%. The shares, meanwhile, sit at $190 against a 52-week high of $380. The operating trend and the price have moved in opposite directions.",
+      "The business sits at the two choke points of a data centre: power into the racks and heat out of them. Power management covers UPS, switchgear, busway and rack distribution; thermal covers chillers, air handlers and liquid cooling; integrated racks and services add a recurring layer. Customers are hyperscalers, colocation providers, enterprises and telcos, and the buying process is project-based. Winning the specification supplies the site for years, which is why the installed base matters more than any single order.",
+      "Capital allocation is simple because the business does not need much capital. Capex was $220M in FY2025 on $10.2B of revenue, net cash is $584M, and the dividend yields 0.1%. The debate is entirely about the multiple: 34.8x earnings, 23.7x EBITDA and 23.2x free cash flow. The shares are 12.4% higher over a year but half the 52-week high, which means the earnings estimates rose while the multiple fell. That is multiple compression, not a deterioration."
     ],
-    "quote": "A data centre cannot open without power distribution and cooling. That gives the supplier a place in the schedule, but not a blank cheque on price."
+    "quote": "Vertiv's earnings are still rising while its multiple has halved; the argument is about duration, not execution."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,47 @@ export const VRT: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 15.0% a year across the fiscal years in the dataset, and the latest quarter changed +61.2% year over year. Third-party estimates for the current fiscal year point to $14.7B of revenue and $7.19 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 20.1% and return on invested capital of 44.2% are the filters to watch as revenue scales."
+      "The top line moved from $6.9B in FY2023 to $8.0B in FY2024, $10.2B in FY2025 and $13.1B trailing. The quarterly path has been steep: $2.6B in March 2026, $3.3B in June and $4.3B in September. Consensus expects $14.7B for FY2026, up 43.9%, and $19.5B for FY2027, up 32.7%. Those are not normal industrial growth rates, and they assume the hyperscale build continues at roughly the current pace.",
+      "The mix is shifting toward liquid cooling as rack density rises, which changes both the product set and the competitive field. Power management remains the largest line and the most exposed to new capacity. The service and integrated-rack layer is smaller but recurring, and it is the part that would survive an order slowdown. Consensus EPS of $7.19 for FY2026, up 71.2%, assumes the margin keeps expanding on top of the revenue growth; that is the assumption a slower order year would test first."
+    ],
+    "bullets": [
+      {
+        "title": "Hyperscale concentration",
+        "detail": "A small number of very large customers drive the order book. If they slow construction together, the revenue gap is immediate and the margin effect is larger than the revenue effect."
+      },
+      {
+        "title": "Liquid cooling",
+        "detail": "Higher rack density moves spend from air to liquid systems. That is a share opportunity, but it also brings new competitors and new manufacturing, so the margin on the transition is not guaranteed."
+      },
+      {
+        "title": "Service annuity",
+        "detail": "Maintenance, parts and monitoring ride on the installed base and need little capital. That layer is what makes the business more than a project equipment seller."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 20.1%, the net margin is 16.0% and diluted EPS is $5.35. The latest quarter's operating margin was 22.8%.",
-      "Return on equity is 38.1%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $4.3B, an operating margin of 22.8% and a net margin of 17.7%."
+      "Gross margin reached 36.3% in FY2025 and 38.1% trailing, so the product mix has improved as volume grew. Operating margin went from 17.9% in FY2025 to 20.1% trailing and 22.8% in September, and net margin reached 16.0%. That is unusually fast margin expansion for an equipment maker, and it came with a 35.3% revenue increase rather than a cost programme. The incremental drop-through is the evidence that the factories and the service network were not near capacity.",
+      "Returns are high. Return on invested capital is 25.1% and return on equity 38.1%, against an 18.3% peer median for capital returns. Eaton, the closest large comparison, earns a 15.4% operating margin and a 9.5% return on capital. Vertiv's advantage is that its products are specified into a facility and its service contracts sit on assets it did not have to finance. The risk is that the margin is a shortage margin, and shortages end."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.1B, a 24.0% margin. The balance sheet carries $783.2M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $3.1B over the last twelve months and net debt was -$783.2M; interest cover was n/a."
+      "The cash statement was $3.1B trailing, a 24.0% margin, against net income of roughly $2.1B. The gap is working capital: customers pay deposits and progress payments on equipment that takes months to build, so the cash arrives before the revenue is recognised. Operating cash flow was $2.1B in FY2025 against capex of $220M. The conversion is a genuine advantage in a build-out, but it is also the most cyclical line in the accounts.",
+      "The quarterly cash figures show the pattern: $654M in March 2026, $927M in June and $655M in September. FY2025 produced $1.9B of free cash flow against $1.2B in FY2024. If orders stop growing, the deposits stop and the working-capital release reverses. A 24% free-cash-flow margin is not a permanent feature of an equipment business; it is what happens when a backlog is funded by customers.",
+      "The balance sheet is a net cash position of $584M, with interest cover of 73.2x and leverage of -0.2x EBITDA. That gives management room to add capacity without financial risk. The 0.1% dividend is symbolic, and the cash is being recycled into working capital and plant rather than returned. The financial risk is therefore low; the operating risk is concentrated in the order book."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 34.9x trailing earnings and 23.7x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $334.29; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At {{price}} Vertiv carries a {{marketCap}} market value and trades at {{pe}} trailing earnings, {{evEbitda}} EV/EBITDA and 23.2x free cash flow, a 4.3% cash yield. Peer medians are 29.6x earnings and 19.3x EBITDA, so the premium is about five turns on earnings and four on EBITDA. The shares are 12.4% higher over a year, but that masks a round trip: they reached $380 and have given back half of it.",
+      "Forward estimates make the price look less extreme. FY2026 EPS of $7.19 puts the shares on about 26x and FY2027 EPS of $9.87 on about 19x, which is close to the peer median. The catch is that those numbers require 43.9% and 32.7% revenue growth, and the free cash flow that supports the 23.2x P/FCF depends on customer prepayments continuing. If growth slows to 10%, both the earnings base and the cash conversion fall at once."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "30 analysts contribute to the third-party consensus. The mean target is $334.29, with a range of $240.00 to $427.00.",
-      "Current-year estimates call for $14.7B of revenue and $7.19 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 30 analysts with a mean target of $334.29; third-party estimates can change without notice."
+      "Yahoo Finance's 18 November 2026 consensus covers 30 analysts, with a mean target of $334 against a range of $240 to $427. Almost every published view sits at the positive end; only a small group is neutral and none is cautious. The mean is about 75% above the current price, a strong statement after a 50% drawdown from the high.",
+      "Revisions have been positive, with EPS up 6.8% over 30 and 60 days and 7.2% over 90. The September quarter beat at $2.21 against $1.82, and the June quarter at $1.52 against $1.43, so the estimate has been chasing the results. Consensus FY2026 EPS of $7.19 is up 71.2% and FY2027 of $9.87 is up 37.3%. The dispersion is wide: $240 to $427 is a 78% spread, which reflects genuine disagreement about the duration of the build-out."
     ]
   },
   "risks": {
@@ -144,5 +156,7 @@ export const VRT: StockStory = {
       "What share of revenue is now liquid cooling, and how fast is it growing?",
       "What happens to free cash flow if orders stop growing for two quarters?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

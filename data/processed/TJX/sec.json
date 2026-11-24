@@ -1008,7 +1008,7 @@
       "rnd": null,
       "sga": 6923564000,
       "cashAndInvestments": 3030229000,
-      "totalDebt": 2233616000,
+      "totalDebt": 0,
       "totalEquity": 5048606000,
       "totalAssets": 14326029000,
       "inventory": 4579033000,
@@ -1025,9 +1025,9 @@
       "operatingMargin": 0.10707972358457796,
       "netMargin": 0.07851084550113677,
       "fcfMargin": 0.07603533262340474,
-      "roic": 0.4201736777593432,
-      "netDebt": -796613000,
-      "netDebtToEbitda": -0.15955024629140857,
+      "roic": 0.6060678928005077,
+      "netDebt": -3030229000,
+      "netDebtToEbitda": -0.6069117416730191,
       "roe": 0.6060678928005077
     },
     {
@@ -1049,7 +1049,7 @@
       "rnd": null,
       "sga": 7454988000,
       "cashAndInvestments": 3216752000,
-      "totalDebt": 2236625000,
+      "totalDebt": 0,
       "totalEquity": 5948000000,
       "totalAssets": 24145003000,
       "inventory": 4872592000,
@@ -1066,9 +1066,9 @@
       "operatingMargin": 0.1056208603034683,
       "netMargin": 0.07843792228760967,
       "fcfMargin": 0.06815987649344774,
-      "roic": 0.42312347177158993,
-      "netDebt": -980127000,
-      "netDebtToEbitda": -0.18585941064411662,
+      "roic": 0.5951278057975342,
+      "netDebt": -3216752000,
+      "netDebtToEbitda": -0.6099858803076371,
       "roe": 0.550133322125084
     },
     {
@@ -1107,7 +1107,7 @@
       "operatingMargin": 0.00276939353393285,
       "netMargin": 0.0028005103152129946,
       "fcfMargin": 0.12428042443289666,
-      "roic": 0.008855620060068965,
+      "roic": 0.009964394085068495,
       "netDebt": -4386965000,
       "netDebtToEbitda": -4.5697552083333335,
       "roe": 0.015429453111606378

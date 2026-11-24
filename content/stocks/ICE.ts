@@ -7,20 +7,20 @@ export const ICE: StockStory = {
   "dek": "Transaction fees from futures, energy and the New York Stock Exchange are only part of the story. Recurring data, connectivity and mortgage software make the revenue stickier, while $22.4B of net debt keeps the balance sheet in the argument.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $14B trailing twelve months, +12.1% year over year.",
-    "Profitability: 40.6% operating margin and 29.6% net margin.",
-    "Cash: $5.3B free cash flow, a 37.6% margin.",
-    "Scorecard: 54/100 average percentile across the factor screens."
+    "Revenue of $14.0B rose 12.1% at a 40.6% operating margin, with exchanges supplying 64.2% of the total.",
+    "Net debt of $25.3B is 3.5x EBITDA and interest cover is 6.8x, the tightest balance sheet among these market-infrastructure names.",
+    "Free cash flow of $5.3B is a 37.6% margin, which at the current pace would take about five years to repay net debt.",
+    "At 23.2x earnings and 18.3x free cash flow, the shares are cheaper than CME's 24.7x and 25.2x despite faster revenue growth."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1571949/000157194926000004/ice-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001571949&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Intercontinental Exchange generated $14B of revenue over the last twelve months, +12.1% versus the prior year. The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns.",
-      "The latest reported quarter was Q3 FY26, with $3.6B of revenue and an operating margin of 38.8%. The stock closed at $172.22 on 2026-11-17, giving a market capitalization of $96.2B.",
-      "The shares sit 85% of the way up their 52-week range ($121.79 to $181.38). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "ICE reported $3.6B of revenue in the September quarter, 20% more than a year earlier, and a 38.8% operating margin against 39.0%. Net income was 25.9% of revenue and EPS was $1.67. Growth with a flat margin means the acquired and data businesses are scaling but not yet changing the profitability of the group, which is the pattern to watch as mortgage volumes move through the cycle. The comparison base is soft: the September 2025 quarter was the weakest of that year.",
+      "The revenue has three qualities. Exchanges supplied 64.2% of the total, fixed income and data services 19.1% and mortgage technology 16.6%. Exchange fees scale with volume and volatility, data is subscription-based and priced off the official record, and mortgage software renews but its transaction revenue follows US housing activity. That mix is why a quiet trading month hurts less than it would at a pure venue. It also gives the group three different sensitivities inside one consolidated margin.",
+      "The valuation debate is about leverage. At 23.2x earnings, 16.8x EV/EBITDA, 8.7x sales and 18.3x free cash flow, ICE is cheaper than CME on every measure, and the difference is the $25.3B of net debt. Interest cover of 6.8x against CME's 26.2x is the number that explains the discount. A 1.2% dividend yield and a 5.5% free-cash-flow yield frame the choice between deleveraging and returns. For an exchange operator, 3.5x leverage is the unusual part of the story."
     ],
-    "quote": "An exchange is a marketplace with a moat: liquidity attracts liquidity. The data and software around the marketplace are what turn a trading venue into a subscription business."
+    "quote": "ICE trades at 18.3x free cash flow and carries 3.5x EBITDA of debt, so deleveraging and shareholder returns compete for the same dollars."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,50 @@ export const ICE: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 11.6% a year across the fiscal years in the dataset, and the latest quarter changed +20.7% year over year. Third-party estimates for the current fiscal year point to $11.1B of revenue and $8.19 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 40.6% and return on invested capital of 8.6% are the filters to watch as revenue scales."
+      "Revenue progressed from $8.2B in FY2020 to $9.2B, $9.6B, $9.9B, $11.8B and $12.6B in FY2025, with $14.0B trailing. The 18.8% jump in FY2024 and the 7.5% follow-through suggest a step change rather than a smooth curve, which is what an acquisition-led franchise looks like. FY2021's 11.2% increase and FY2023's 2.8% show how uneven the earlier years were, and the 12.1% trailing growth is the fastest since the step.",
+      "Quarterly revenue has been $3.0B, $3.2B, $3.3B, $3.0B, $3.1B, $3.7B, $3.6B and $3.6B, so the year-on-year comparison flatters the recent periods against a soft 2025 base. The March 2026 quarter is the outlier at a 45.4% operating margin and $2.48 of EPS; the June and September quarters, at 38.5% and 38.8%, are the better guide to the run rate. Both are still above the 2025 range, so the improvement is not purely a base effect.",
+      "Consensus puts FY2026 EPS at $8.19, up 17.8%, and FY2027 at $8.94, up 9.2%. The 2027 figure is the more useful anchor because the 2026 estimate sits above what the reported quarterly run rate implies. The 9.2% assumes mid-single-digit exchange growth plus continued data expansion, and no further acquisitions to complicate the comparison. The absence of deals is the important part: the growth has to come from the existing franchises."
     ],
     "bullets": [
       {
-        "title": "Volatility and open interest",
-        "detail": "Trading revenue rises when participants hedge and when open interest grows."
+        "title": "Recurring data",
+        "detail": "Fixed income and data services are 19.1% of revenue and renew on subscription. That base is less sensitive to volume than exchange fees and carries a higher multiple."
       },
       {
-        "title": "Data subscriptions",
-        "detail": "Recurring revenue that grows with users, products and price."
+        "title": "Leverage",
+        "detail": "Net debt of $25.3B at 3.5x EBITDA limits large acquisitions. Every dollar of free cash flow used for repayment is a dollar not returned, and the 1.2% yield reflects that."
       },
       {
-        "title": "Mortgage and listings cycles",
-        "detail": "Two transaction-driven businesses that depend on housing and capital-raising activity."
+        "title": "Mortgage cycle",
+        "detail": "Mortgage technology is 16.6% of revenue and tied to US originations. The subscriptions renew, but the transaction revenue falls when rates rise."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 40.6%, the net margin is 29.6% and diluted EPS is $7.33. The latest quarter's operating margin was 38.8%.",
-      "Return on equity is 13.9%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $3.6B, an operating margin of 38.8% and a net margin of 25.9%."
+      "The operating margin was 36.8% in FY2020, 37.6%, 37.8%, 37.3%, 36.6% and 39.0% in FY2025, and is 40.6% trailing. For five years the margin barely moved, and then it stepped up in 2025-26. A single quarter, March 2026 at 45.4%, is the main reason: strip it out and the June and September prints of 38.5% and 38.8% sit close to the historical range. The five flat years are the more honest description of the operating business.",
+      "Returns are the weak spot. Return on equity is 13.9% and return on invested capital 7.8%, against CME's 16.6% and 13.2%. A 40.6% operating margin producing a 7.8% return on invested capital means the capital base, swollen by $25.3B of net debt and acquisition goodwill, is doing the damage rather than the income statement. That is the cost of assembling the franchise by purchase.",
+      "Net margin is 29.6% trailing against 26.2% in FY2025 and 23.4% in FY2024, so the earnings line is improving faster than the operating line. EPS went from $4.78 to $5.77 and the trailing figure implies more again. Part of that is operating leverage and part is below-the-line items in the March quarter that the reported segment detail does not isolate."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $5.3B, a 37.6% margin. Net debt is $22.4B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $5.3B over the last twelve months and net debt was $22.4B; interest cover was n/a."
+      "The cash statement was $5.3B trailing, a 37.6% margin, from $4.7B of operating cash flow in FY2025 and $373M of capex, about 3% of revenue. This is an asset-light business: the matching engine and data centres are built, and incremental volume costs little. The free-cash-flow margin has held in the mid-30s for three years and is 37.6% trailing, so the conversion is not a one-quarter artefact.",
+      "Deleveraging is the first call on that cash. Net debt of $25.3B at 3.5x EBITDA, with interest cover of 6.8x, means roughly a fifth of the balance could be retired each year if all free cash flow went to debt. The 1.2% dividend consumes a small part of it. Buybacks and repayments are not separated in the disclosure, so the pace of deleveraging is the number to watch in the cash-flow statement.",
+      "Clearing and margin balances sit on the balance sheet and move with client activity, which can distort operating cash flow in either direction. FY2025's $4.7B against net income of about $3.3B is consistent with that: some of the cash is client collateral, not owner earnings. The stable free-cash-flow margin is the reassurance that the underlying conversion is real, and the reason the yield is a starting point rather than a valuation."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 23.1x trailing earnings and 16.3x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $193.53; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "ICE carries 23.2x trailing earnings, 16.8x EV/EBITDA, 8.7x sales and 18.3x free cash flow, a discount to CME's 24.7x, 29.4x, 15.3x and 25.2x. The operating margin gap, 40.6% against 65.7%, explains most of it, and the balance sheet explains the rest. A 13.3x peer median is not a useful anchor, because it is set by balance-sheet lenders rather than by market infrastructure.",
+      "On estimates the discount narrows but does not close: FY2026 EPS of $8.19 is 21.1x and FY2027 EPS of $8.94 is 19.4x, against CME at roughly 25x and 23x. The 5.5% free-cash-flow yield is the compensation for the leverage. If net debt falls toward 2.5x EBITDA, the equity should re-rate toward CME's multiple without any change in the operating business.",
+      "What would justify the discount persisting is a large acquisition that adds debt before it adds earnings, or a mortgage-market downturn that hits the smallest segment. What would close it is a year of debt reduction funded from free cash flow. The 14.3% one-year return already assumes some of the second outcome, and the 1.2% dividend yield pays the shareholder only modestly while the leverage comes down."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "15 analysts contribute to the third-party consensus. The mean target is $193.53, with a range of $167.00 to $245.00.",
-      "Current-year estimates call for $11.1B of revenue and $8.19 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 15 analysts with a mean target of $193.53; third-party estimates can change without notice."
+      "Yahoo Finance's 18 November 2026 survey, covers 15 analysts with a mean target of $194 and a range of $167 to $245. The mean is 12% above the last price, the high end 42% above and the low end 3% below. The analyst views lean positive with a small neutral group and one cautious view, so the dispersion is about leverage and the mortgage cycle rather than the franchise.",
+      "Revisions are muted: 0.3% over 30 days and 0.8% over 60, even after a September quarter that came in slightly above the consensus. The consensus assumes FY2026 EPS of $8.19 and FY2027 of $8.94. The 2026 number sits above what the reported quarterly run rate implies, so the risk in the estimate is on the downside unless the December quarter is unusually strong."
     ]
   },
   "risks": {
@@ -158,5 +159,7 @@ export const ICE: StockStory = {
       "Is the mortgage technology business gaining share or just riding housing volumes?",
       "What is the plan to bring leverage down?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

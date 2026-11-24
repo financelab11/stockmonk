@@ -7,20 +7,20 @@ export const NEE: StockStory = {
   "dek": "A regulated utility earns an allowed return on the capital it has invested, so growth means spending more. That is why $108.4B of net debt and $1.4B of free cash flow describe a healthy company rather than a distressed one.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $27.8B trailing twelve months, +10.9% year over year.",
-    "Profitability: 31.2% operating margin and 23.8% net margin.",
-    "Cash: $1.4B free cash flow, a 4.9% margin.",
-    "Scorecard: 31/100 average percentile across the factor screens."
+    "First-quarter FY26 revenue of $6.1B came with a 36.2% operating margin and $1.04 of EPS; trailing revenue is $26.0B, up 8.3%.",
+    "Net debt is $101.1B, or 6.7x EBITDA, which is normal for a regulated utility funding a capital programme rather than a warning sign.",
+    "Free cash flow and capex are not reported, so the $12.5B of FY2025 operating cash flow is the only cash measure available.",
+    "At {{pe}} earnings and {{evEbitda}} EV/EBITDA, the shares carry a premium to Duke at 19.6x and 11.2x despite a lower 5.2% return on invested capital."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/753308/000075330826000015/nee-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000753308&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "NEXTERA ENERGY INC. generated $27.8B of revenue over the last twelve months, +10.9% versus the prior year. Returns depend on regulated rates, capital investment and the cost of financing the asset base.",
-      "The latest reported quarter was Q3 FY26, with $8.1B of revenue and an operating margin of 32.1%. The stock closed at $84.42 on 2026-11-17, giving a market capitalization of $177.1B.",
-      "The shares sit 41% of the way up their 52-week range ($74.41 to $98.75). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "NextEra's regulated utility and its renewables arm share one balance sheet, and the first quarter of 2026 shows how that arrangement earns: $6.1B of revenue, a 36.2% operating margin and $1.04 of EPS. Trailing revenue is $26.0B, 8.3% above a year earlier, and the net margin is 31.5%. The result matters less for its size than for its composition, because a regulated utility earns a return on the capital it has invested rather than on the volume it sells.",
+      "The group combines a regulated utility with a competitive renewables arm and a smaller gas infrastructure book. The regulated utility has a legal monopoly on distribution in its territory and earns whatever return the state commission allows; the renewables arm builds wind, solar and storage under long-term power purchase agreements, earning the difference between the contracted price and the cost of construction. The regulated balance sheet lowers the cost of capital for the developer, and the developer supplies the utility with projects. Gas pipelines and storage earn a regulated or contracted return and add a third, smaller leg. That is the logic of the combination.",
+      "The valuation is a spread argument. NextEra's {{marketCap}} market value at {{price}} is {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA, against 22.3x and 12.2x for the utility peer group. Duke trades at 19.6x and 11.2x, Southern at 25.0x and 13.1x. The premium to Duke is being paid for growth and for the renewables pipeline, but the return on invested capital of 5.2% is below Duke's 5.4% and Southern's 5.7%. The gap between the two is the market's estimate of what the renewables pipeline is worth."
     ],
-    "quote": "For a regulated utility, capital spending is not a cost to be minimised. It is the mechanism by which earnings grow, as long as the regulator allows the spending into rates."
+    "quote": "NextEra grows by putting more capital into a regulated rate base, so the allowed return matters more than the demand forecast."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,47 @@ export const NEE: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 6.7% a year across the fiscal years in the dataset, and the latest quarter changed +9.3% year over year. Third-party estimates for the current fiscal year point to $30.6B of revenue and $4.03 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 31.2% and return on invested capital of 3.7% are the filters to watch as revenue scales."
+      "Consensus expects revenue of $30.6B in 2026 and $34.2B in 2027, with EPS of $4.03 and $4.38. The first part of that estimate is a utility adding capital to its rate base: revenue rises with the asset base, while EPS rises with the allowed return and the financing cost. The trailing revenue base is $26.0B, so the estimates imply a substantial step-up in invested capital rather than a sudden increase in electricity demand.",
+      "The growth is capital-funded. Every new substation, transmission line and renewable project is a dollar of invested capital that earns a regulated or contracted return once it enters service. The constraint is not demand; it is the regulator's approval of the spending and the cost of the debt used to fund it. The competitive renewables arm adds a second constraint: interconnection queues and equipment costs between contract signing and completion."
     ],
     "bullets": [
       {
-        "title": "Rate base growth",
-        "detail": "Approved capital investment enters the rate base and earns the allowed return. This is the primary earnings driver."
+        "title": "Rate base",
+        "detail": "Regulated earnings are rate base multiplied by the allowed return. Growth comes from adding assets, not from selling more kilowatt-hours at a higher price."
       },
       {
-        "title": "Load growth",
-        "detail": "Data centres, electrification and population growth raise long-run demand, which supports new investment."
+        "title": "Renewables pipeline",
+        "detail": "Wind, solar and storage sold under long-term contracts earn a return fixed at the point of pricing. Construction cost and interconnection timing are the risks."
       },
       {
-        "title": "Renewable backlog",
-        "detail": "Contracted projects under construction convert capital spending into revenue when they enter service."
+        "title": "Financing cost",
+        "detail": "With $101.1B of net debt, the spread between the allowed return and the cost of new debt decides how much of each dollar of capex reaches EPS."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 31.2%, the net margin is 23.8% and diluted EPS is $3.27. The latest quarter's operating margin was 32.1%.",
-      "Return on equity is 8.9%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $8.1B, an operating margin of 32.1% and a net margin of -3.1%."
+      "The operating margin is 31.7% trailing, against 32.1% in FY2025. The annual range is wide, from 15.5% in FY2021 to 41.3% in FY2023, which for a regulated utility reflects the timing of cost recovery and rate increases as much as operating efficiency. The quarterly range since then has also been wide: 17.8% in Q4 FY24, 42.6% in Q3 FY24 and 36.2% in Q1 FY26. The annual average is the meaningful measure.",
+      "The net margin of 31.5% sits almost on top of the operating margin, which is unusual for a company carrying $101.1B of net debt. The disclosure does not break out the items below the operating line that produce that result, so the net margin should not be read as a free cash margin. Return on invested capital is 5.2%, below the 5.6% peer median, and return on equity is 14.8%."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.4B, a 4.9% margin. Net debt is $108.4B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $1.4B over the last twelve months and net debt was $108.4B; interest cover was n/a."
+      "Free cash flow after capex is not reported, and capex is not in the annual table, so the cash section has to be built from operating cash flow and the balance sheet. Operating cash flow was $12.5B in FY2025, down from $13.3B in FY2024, against net debt of $101.1B. For a utility that is building, negative free cash flow is the normal condition: capex exceeds depreciation, and the gap is funded with debt and equity.",
+      "The relevant tests are interest cover and the cost of new debt, and the first is not reported. Net debt at 6.7x EBITDA is high in absolute terms but standard for the sector; Southern carries 5.0x and Constellation 2.9x. The 3.0% dividend absorbs a modest share of operating cash flow. The real constraint is the spread between the allowed return on equity and the rate the company pays to borrow, which is the number the disclosure does not give."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 26.8x trailing earnings and 26.4x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $94.11; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "NextEra's {{marketCap}} market value at {{price}} is {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA. The utility peer medians are 22.3x and 12.2x, so the earnings multiple is roughly in line while the EBITDA multiple carries a six-turn premium. P/FCF and the free-cash-flow yield are not available because free cash flow is not reported. On the FY2027 estimate of $4.38 the multiple is about 19.2x.",
+      "The EBITDA premium is the market's price for growth. NextEra's trailing revenue growth of 8.3% is in line with Southern's, but the consensus expects $34.2B by 2027 against $26.0B trailing, which is a faster capital deployment story than Duke's or Southern's. The offset is a 5.2% return on invested capital, the lowest in the peer group, which means the growth is being bought with capital rather than earned on it.",
+      "What would justify the multiple is a regulatory spread that stays positive as the asset base grows, plus renewables projects that earn their contracted return. What would break it is a rate case that lowers the allowed return or a rise in the cost of new debt that compresses the spread before rates adjust. The 3.0% dividend is the part of the return that does not depend on that spread."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "19 analysts contribute to the third-party consensus. The mean target is $94.11, with a range of $56.00 to $110.00.",
-      "Current-year estimates call for $30.6B of revenue and $4.03 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 19 analysts with a mean target of $94.11; third-party estimates can change without notice."
+      "Nineteen analysts are included in The Yahoo Finance data from 18 November 2026, which has a mean target of $94 and a range of $56 to $110. The mean is 12% above the current price, but the range is wide for a utility, from 33% below the price to 31% above it.",
+      "Revisions are slightly negative, with the 90-day EPS change at -0.5% and the 60-day at -0.6%. Consensus expects $4.03 for 2026 and $4.38 for 2027, a steady progression from $3.30 reported in FY2025. The dispersion in targets therefore reflects different assumptions about the allowed return and the financing cost, not different views on electricity demand."
     ]
   },
   "risks": {
@@ -158,5 +156,7 @@ export const NEE: StockStory = {
       "What share of earnings comes from the competitive business rather than the regulated one?",
       "What would a two-point rise in the cost of new debt do to earnings per share?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const HWM: StockStory = {
   "dek": "Turbine airfoils and engine forgings are sole-sourced because moving a part to a new supplier means re-certifying it on a flying engine. That barrier is what carries a 28.1% operating margin.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $9.7B trailing twelve months, +22.0% year over year.",
-    "Profitability: 28.1% operating margin and 20.4% net margin.",
-    "Cash: $1.9B free cash flow, a 19.8% margin.",
-    "Scorecard: 56/100 average percentile across the factor screens."
+    "Q3 FY26 revenue was $2.7B at a 28.7% operating margin, with $1.42 of diluted EPS and $562M of free cash flow.",
+    "Trailing revenue is $9.7B, up 22.0%, and operating margin has risen from 24.8% in FY2025 to 28.1%.",
+    "Engine Products is 52.4% of revenue, with Fastening Systems at 21.2%, Engineered Structures at 14.0% and Forged Wheels at 12.6%.",
+    "At 42.3x earnings and 29.9x EBITDA, the shares carry a premium multiple for an aerospace supplier on a 21.1% return on capital."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/4281/000000428126000012/hwm-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000004281&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Howmet Aerospace Inc. generated $9.7B of revenue over the last twelve months, +22.0% versus the prior year. Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
-      "The latest reported quarter was Q3 FY26, with $2.7B of revenue and an operating margin of 28.7%. The stock closed at $215.30 on 2026-11-17, giving a market capitalization of $85.6B.",
-      "The shares sit 25% of the way up their 52-week range ($183.52 to $310.00). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Howmet's September quarter produced $2.7B of revenue, a 28.7% operating margin and $1.42 of diluted EPS, with $562M of free cash flow. Trailing revenue is $9.7B, up 22.0%, and the operating margin is 28.1% against 24.8% in FY2025. The result matters because the margin step-up is large and recent: the March quarter earned 32.6%, June 27.9% and September 28.7%, all far above the 22.0% recorded in FY2024. The March peak looks like a pricing and mix event, but the following two quarters held above 27%.",
+      "The engine business is the centre of gravity: cast airfoils, rings, casings and forgings for engines that stay in production for decades. Fastening systems and engineered structures sell to airframers and engine makers, and forged wheels serve the commercial truck market. The common thread is qualification. A flight-critical part has to be approved by the engine maker and often by the airworthiness authorities, which is why so many parts are sole-sourced and why the competitive set is narrow.",
+      "Capital allocation is conservative. Net debt is $4.3B at 1.4x EBITDA, capex was $453M in FY2025 and the dividend yields 0.3%. Free cash flow of $1.9B covers the capital programme and leaves room. At 42.3x earnings and 29.9x EBITDA, the shares carry a large premium to the 29.6x and 19.3x peer medians. The premium is the price of a sole-source position in a growing engine build cycle, and it leaves little room for a pause."
     ],
-    "quote": "An engine programme can run for thirty years. Once a casting is qualified on it, the supplier is not chosen again each year — and that is worth more than any single year's price negotiation."
+    "quote": "Howmet's moat is a certification file, and its margin is what a sole source earns when engine build rates rise."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -38,49 +38,47 @@ export const HWM: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 2.5% a year across the fiscal years in the dataset, and the latest quarter changed +29.4% year over year. Third-party estimates for the current fiscal year point to $10.3B of revenue and $5.50 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 28.1% and return on invested capital of 41.0% are the filters to watch as revenue scales."
+      "Turnover rose from $5.0B in FY2021 to $5.7B in FY2022, $6.6B in FY2023, $7.4B in FY2024, $8.3B in FY2025 and $9.7B trailing. The quarterly path was $2.3B in March 2026, $2.5B in June and $2.7B in September. Consensus expects $10.3B for FY2026, up 24.9%, and $11.7B for FY2027, up 13.5%. The acceleration in the trailing period is the engine build cycle plus content growth per engine.",
+      "Content per engine grows when a new generation replaces an older one, because newer engines run hotter and use more complex castings. Price is set on long-term agreements with escalators, so revenue is more visible than for a typical component maker. Forged wheels are the exception: they serve commercial truck production, which is cyclical and price-sensitive. That segment is 12.6% of revenue, small enough not to set the group direction but large enough to affect a weak quarter.",
+      "Consensus EPS of $5.50 for FY2026, up 46.0%, assumes the margin holds near 28% and that the revenue growth drops through. FY2027 EPS of $6.65, up 20.8%, assumes the same at a slower rate. Revisions are positive, up 3.0% over 30 days and 8.8% over 90, so the estimate has been rising. The question is whether the current build rate is the new normal or a cyclical high; the answer decides whether 28% is a floor or a peak."
     ],
     "bullets": [
       {
-        "title": "Build rates",
-        "detail": "Engines are assembled at rates set by the airframers. Higher rates pull through castings and forgings with high incremental margins."
+        "title": "Engine content",
+        "detail": "Newer engines run hotter and use more complex castings, so content per engine rises with each generation. That is the structural part of the growth."
       },
       {
-        "title": "Content per engine",
-        "detail": "Newer engines run hotter and use more complex airfoils, so the same engine shipment carries more Howmet revenue."
+        "title": "Forged wheels",
+        "detail": "Commercial truck production is cyclical and price-sensitive. At 12.6% of revenue it does not set the direction, but it can distort a quarter."
       },
       {
-        "title": "Defence and wheels",
-        "detail": "Military engine and structure work is steadier than commercial aerospace; truck wheels add volume but at lower margins."
+        "title": "Capacity",
+        "detail": "Casting and forging capacity is expensive and slow to add. Utilisation is the swing factor for the incremental margin."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 28.1%, the net margin is 20.4% and diluted EPS is $5.11. The latest quarter's operating margin was 28.7%.",
-      "Return on equity is 34.5%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $2.7B, an operating margin of 28.7% and a net margin of 21.0%."
+      "Operating margin went from 15.0% in FY2021 to 18.1% in FY2023, 22.0% in FY2024, 24.8% in FY2025 and 28.1% trailing, with a 32.6% peak in the March 2026 quarter. Net margin is 21.1% trailing, and diluted EPS was $3.71 in FY2025. The improvement is larger than a normal cycle: operating income rose from $748M in FY2021 to $2.05B in FY2025 on revenue that went from $4.97B to $8.25B, which is what fixed-cost absorption looks like.",
+      "Return on invested capital is 21.1% and return on equity 35.6%, both above the 18.3% peer median. The capital base is heavy, with casting furnaces, forging presses and inspection equipment, but the marginal cost of another part is mostly material and energy. That is why the incremental margin is so high when volume rises. It is also why a build-rate cut would hurt: the equipment cannot be repurposed quickly."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.9B, a 19.8% margin. The balance sheet carries $507M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $1.9B over the last twelve months and net debt was -$507M; interest cover was n/a."
+      "Free cash flow after capex was $1.9B trailing, a 19.8% margin. In FY2025 operating cash flow was $1.9B against capex of $453M, producing $1.4B of free cash flow. Capex is 5.5% of revenue, high for a component maker but necessary for the casting and forging capacity. The conversion is close to one for one with net income, which is unusual in a business that is adding capacity.",
+      "Net debt of $4.3B at 1.4x EBITDA is low, and the 0.3% dividend absorbs almost none of the free cash flow. That leaves the company with options: debt reduction, capacity, or buybacks. Debt is not the limiting factor here. The constraint is the engine build rate and the price negotiated on the next long-term agreement. At 1.4x, the debt is easily serviced even if build rates flatten for a year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 43.1x trailing earnings and 27.9x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $296.29; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "{{marketCap}} is what the market pays for Howmet at {{price}}: {{pe}} trailing earnings, {{evEbitda}} EV/EBITDA and 45.0x free cash flow, a 2.2% cash yield. Peer medians are 29.6x and 19.3x. GE Aerospace, at 36.6x and 29.8x with a 20.3% operating margin, is the closest large comparison; Howmet is more expensive on earnings and roughly level on EBITDA despite a higher margin. The earnings premium is therefore about the durability of the sole-source position rather than about faster growth.",
+      "Forward estimates put FY2026 EPS of $5.50 on about 40x and FY2027 EPS of $6.65 on about 33x. Those multiples require the margin to hold and the build rate to keep rising. The shares have returned 9.4% over a year in which revenue grew 22.0%, which is the signature of multiple compression: the earnings rose and the multiple fell. At 33x forward earnings, the multiple has further to fall if growth slows."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "21 analysts contribute to the third-party consensus. The mean target is $296.29, with a range of $230.00 to $375.00.",
-      "Current-year estimates call for $10.3B of revenue and $5.50 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 21 analysts with a mean target of $296.29; third-party estimates can change without notice."
+      "Yahoo Finance's 18 November 2026 survey lists 21 analysts covering Howmet, with a mean target of $296 against a $230 to $375 range. Positive calls dominate; the neutral group is small and there are no cautious views. The mean is about 35% above the current price and even the low end is above it, a strong consensus for a stock that has lagged its own earnings growth.",
+      "Revisions are positive: EPS up 3.0% over 7 days, 3.1% over 30, 3.2% over 60 and 8.8% over 90. The September quarter beat at $1.46 against $1.37, and the June quarter at $1.33 against $1.25. Consensus FY2026 EPS of $5.50 is up 46.0% on 24.9% revenue growth, which assumes a large margin gain. That is the assumption the next build-rate update will test."
     ]
   },
   "risks": {
@@ -127,8 +125,8 @@ export const HWM: StockStory = {
         "detail": "Cash flow has tracked net income closely. A widening gap would signal working capital or capex problems."
       },
       {
-        "title": "Net cash position",
-        "detail": "A $507M net cash balance is a cushion, but a large acquisition would change the balance-sheet story quickly."
+        "title": "Net debt position",
+        "detail": "Net debt of $4.33B is manageable, but a large acquisition would change the balance-sheet story quickly."
       }
     ]
   },
@@ -144,5 +142,7 @@ export const HWM: StockStory = {
       "What share of revenue comes from the largest engine programmes?",
       "How much capacity is still unused in the casting and forging plants?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

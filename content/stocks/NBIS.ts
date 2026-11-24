@@ -7,20 +7,20 @@ export const NBIS: StockStory = {
   "dek": "Revenue grew 479% and free cash flow was negative $3.68B. In a business that rents out GPUs, growth is a purchase, and the depreciation comes after.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $529.8M trailing twelve months, +479.0% year over year.",
-    "Profitability: -115.5% operating margin and 15.6% net margin.",
-    "Cash: -$3.7B free cash flow, a -694.8% margin.",
-    "Scorecard: 36/100 average percentile across the factor screens."
+    "Revenue of $529.8M grew 479% from $91.5M, yet operating margin is negative 115.5% and free cash flow negative $3.7B.",
+    "Gross margin of 68.6% depends on the depreciation schedule for accelerators, the single assumption that moves reported profit most.",
+    "Capex of $4.1B in FY2025 was more than ten times operating cash flow, so the build is funded from outside the business.",
+    "At 56.1x sales and no meaningful EBITDA multiple, the shares are valued on capacity that has not yet been installed."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm",
   "irUrl": "https://nebius.com",
   "bigPicture": {
     "paragraphs": [
-      "Nebius Group N.V. generated $529.8M of revenue over the last twelve months, +479.0% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
-      "The latest reported quarter was not available, with n/a of revenue and an operating margin of n/a. The stock closed at $98.81 on 2026-11-23, giving a market capitalization of $28.9B.",
-      "The shares sit 11% of the way up their 52-week range ($73.52 to $299.86). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Capital spending of $4.1B against $529.8M of revenue is the defining fact about Nebius. The company generated $384.8M of operating cash flow and spent ten times that on capacity, leaving a $3.7B deficit. Revenue grew 479% and gross margin reached 68.6%, but operating margin was negative 115.5%, so the income statement describes a business whose costs are running well ahead of its revenue. The gap between the two numbers is the capital that has been committed but not yet earned.",
+      "The product is rented accelerator capacity with storage, networking and the software to make a cluster usable. Customers pay by the hour rather than buying equipment, which converts a capital purchase into an operating expense for them and a depreciation obligation for Nebius. The physical footprint, land, power, cooling and buildings, takes years to assemble; the chips inside it lose value in a few. That mismatch between asset lives is the core of the depreciation debate.",
+      "Enterprise value is 56.1 times trailing sales at the current market price, and there is no EBITDA multiple because EBITDA is not meaningful at this stage. The net margin of 15.6% is positive while the operating margin is deeply negative, which means something below the operating line produced the profit. The debate is whether the capital being spent earns a return above its cost, and the reported figures do not yet show it."
     ],
-    "quote": "Renting compute is a straightforward business: buy the machine, rent it out, depreciate it faster than it becomes obsolete. The difficulty is that the buying happens years before the renting pays for it."
+    "quote": "Nebius is selling compute it has to build first, and the equity is underwriting the difference."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,47 @@ export const NBIS: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -16.3% a year across the fiscal years in the dataset, and the latest quarter changed not available year over year. Third-party estimates for the current fiscal year point to $3.2B of revenue and -$0.29 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -115.5% and return on invested capital of -7.3% are the filters to watch as revenue scales."
+      "From $91.5M of revenue in FY2024 to $529.8M in FY2025, the growth is real and unusually fast. It comes from a small base and a single product line: GPU capacity rented by the hour. The consolidated revenue figure does not separate the cloud from adjacent businesses, so the quality of the growth cannot be assessed from the accounts, and the segment split is not disclosed.",
+      "Capacity is the product, and capacity is a function of power, buildings and accelerators. Each of those has a lead time, and the accelerators have a useful life shorter than the buildings that house them. Utilisation is therefore the variable that decides the return: a fleet that is 70% rented earns a very different return from one that is 95% rented, and the company does not report the figure."
+    ],
+    "bullets": [
+      {
+        "title": "Installed capacity",
+        "detail": "Revenue follows energised racks, so the build schedule is a better predictor than the order pipeline."
+      },
+      {
+        "title": "Utilisation",
+        "detail": "A rented hour and an idle hour cost the same to own but earn very different amounts, and utilisation is not disclosed."
+      },
+      {
+        "title": "Depreciation life",
+        "detail": "The assumed useful life of an accelerator sets the cost of revenue and therefore the 68.6% gross margin."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -115.5%, the net margin is 15.6% and diluted EPS is $0.33. The latest quarter's operating margin was not available.",
-      "Return on equity is 1.8%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was the latest period: revenue of $529.8M, an operating margin of -115.5% and a net margin of 15.6%."
+      "Below the gross line is where the money goes. A 68.6% gross margin leaves 184 points of operating expense and impairment before the operating line reaches negative 115.5%. Sales, engineering and administration for a $529.8M revenue business cannot account for that alone, so the figure includes items that are not recurring in a normal sense. The FY2024 operating margin was negative 436.7% on $91.5M of revenue.",
+      "The net margin of 15.6% is the anomaly. A company with a negative operating margin should report a loss, and the positive net figure means a gain below the operating line, most likely on investments or asset revaluations. That is not a criticism of the business; it is a warning that the reported profit cannot be used to value it, and that the earnings multiple of 355.0x describes an accounting residual rather than an operating result.",
+      "Return on invested capital of negative 7.3% is the cleanest summary. The asset base is being built faster than it is earning, which is normal in a construction phase and dangerous if the phase lasts longer than the financing. CoreWeave, with a 67.4% gross margin and a negative 3.0% operating margin, is further along the same path; IREN, at negative 173.4%, is earlier."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$3.7B, a -694.8% margin. Net debt is $425.1M.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$3.7B over the last twelve months and net debt was $425.1M; interest cover was n/a."
+      "The build is funded from outside the business. Operating cash flow of $384.8M in FY2025 covered less than a tenth of the $4.1B capex programme, and free cash flow was negative $3.7B, or negative 694.8% of revenue. The filings do not break out how much of the funding came from equity and how much from debt, which is the single most important missing disclosure for a company at this stage.",
+      "Net debt of $425.1M is small relative to the asset base, but interest cover is not reported because EBITDA is negative. The absence of a meaningful leverage ratio does not mean the balance sheet is conservative; it means the conventional measure does not apply. The negative 12.6% free cash flow yield is the relevant number for a holder, because it measures how much external capital each year of growth requires."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 350.8x trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $234.50; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "A 56.1x sales multiple is the highest in the group by a wide margin: IREN is at 19.1x, Applied Digital at 14.9x and CoreWeave at 2.8x. The difference is not gross margin, which is similar across the GPU landlords, but the stage of the build and the market's willingness to pay for capacity that is contracted or planned rather than installed and earning.",
+      "On the FY2026 revenue estimate of $3.2B, the market value is about nine times sales; on FY2027's $12.4B it is about two times. Those are the numbers that matter, because the trailing multiple describes a company one-tenth the size of the one the estimates describe. The P/E of 355.0x is not usable: it rests on a net profit produced below the operating line."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "20 analysts contribute to the third-party consensus. The mean target is $234.50, with a range of $84.00 to $395.00.",
-      "Current-year estimates call for $3.2B of revenue and -$0.29 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 20 analysts with a mean target of $234.5; third-party estimates can change without notice."
+      "Twenty analysts cover Nebius, with a mean target of $235 against a $100 price and a range of $84 to $395. The sample is Yahoo Finance's, dated 18 November 2026. The dispersion is enormous and reflects a genuine disagreement about how much capacity will be built, when it is energised, and at what utilisation it will run.",
+      "The revision history is the warning. EPS estimates fell 86.1% over thirty days and 88.3% over sixty, while the FY2027 revenue estimate stands at $12.4B and the EPS estimate at -$5.31. Carrying a nine-figure revenue forecast alongside a widening loss is what a capital-intensive build looks like when depreciation and financing costs are added. Only eight or nine analysts contribute to the annual estimates."
     ]
   },
   "risks": {
@@ -144,5 +156,7 @@ export const NBIS: StockStory = {
       "What share of revenue comes from renting compute rather than from other businesses?",
       "What utilisation rate does the installed capacity currently run at?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

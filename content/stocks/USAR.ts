@@ -7,20 +7,20 @@ export const USAR: StockStory = {
   "dek": "Two years of financial history, a negative gross margin and a forecast that implies a tenfold revenue jump. Most of this story is still a plan.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $11.5M trailing twelve months, not available year over year.",
-    "Profitability: -1084.9% operating margin and -2467.3% net margin.",
-    "Cash: -$245.5M free cash flow, a -2131.4% margin.",
-    "Scorecard: 40/100 average percentile across the factor screens."
+    "Trailing revenue of $11.5M carries a $2.7B market value, or 98.7x sales, on a gross margin that is still negative at -12.8%.",
+    "The first two quarters of FY2026 produced $5.7M and $5.8M of revenue, a run-rate far below the $49.8M consensus for the full year.",
+    "Free cash flow of -$245.5M sits against $1.5B of net cash, so funding is not the near-term constraint; commissioning is.",
+    "An operating margin of -1084.9% is arithmetic on a tiny revenue base, and the dollar loss matters more than the ratio."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1970622/000197062226000021/usar-20251231.htm",
   "irUrl": "https://www.usare.com",
   "bigPicture": {
     "paragraphs": [
-      "USA Rare Earth, Inc. generated $11.5M of revenue over the last twelve months, not available versus the prior year. The opportunity is large but early; permits, financing and construction execution determine who captures it.",
-      "The latest reported quarter was Q2 FY26, with $5.8M of revenue and an operating margin of -795.6%. The stock closed at $6.64 on 2026-11-17, giving a market capitalization of $2.5B.",
-      "The shares sit 0% of the way up their 52-week range ($6.53 to $32.80). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Eleven and a half million dollars of trailing revenue supports a $2.7B equity value, and the revenue itself is new: $1.6M in FY2025, then $5.7M and $5.8M in the first two quarters of FY2026. The step-up is the first base large enough to examine, and it is still small enough that a single customer order can change the growth rate. What the accounts show is a company that has begun selling material, not one that has begun earning a return.",
+      "The plan spans four steps: mining, beneficiation, separation and metallisation. Each needs different equipment and permits, and the later steps carry the value. Today 94% of revenue is booked outside the United States, which sits oddly with a domestic-supply premise and is consistent with early materials sales rather than with a commissioned US separation plant. Until that plant runs at commercial volume, the revenue line describes activity rather than transformation.",
+      "At 98.7x sales there is no earnings multiple to argue about, and the balance sheet holds $1.5B of net cash against free cash flow of -$245.5M. The value therefore rests on the FY2027 consensus of $567.2M of revenue and $0.23 of EPS, a forecast that assumes separation, qualification and funding all arrive on schedule. The shares have fallen 42.6% over a year and sit near the bottom of a $6 to $33 range, so the market has already marked down some of that schedule."
     ],
-    "quote": "When a company has two years of accounts, the balance sheet and the use of cash matter more than the income statement. There is not yet enough history to average anything."
+    "quote": "A rare earth developer with $11.5M of sales is valued on the tonnes it has not yet separated, not on the ones it has sold."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,48 +52,46 @@ export const USAR: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at n/a a year across the fiscal years in the dataset, and the latest quarter changed not available year over year. Third-party estimates for the current fiscal year point to $49.8M of revenue and -$0.91 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -1084.9% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "The forecast is a step function, not a trend. Consensus puts FY2026 revenue at $49.8M, up from $11.5M trailing, and FY2027 at $567.2M, a further tenfold increase. Those numbers cannot be extrapolated from the two years of accounts in the file; they are a schedule of plant commissioning and customer qualification expressed as revenue. The useful question is which milestone has to land first, because the revenue will follow the tonnes rather than the other way round.",
+      "No operating history supports the second year. With FY2025 revenue of $1.6M and a negative gross margin, unit cost is unknown at commercial volume, and the 94% non-US revenue share says the current mix is not the intended one. Defence and magnet customers qualify a supplier on specification and consistency, so a plant that meets tolerance converts into contracted volume, and one that does not converts into inventory."
     ],
     "bullets": [
       {
-        "title": "Commissioning",
-        "detail": "The step from $11.5M to $73.5M is a plant start-up. Watch physical output, not announcements."
+        "title": "Separation throughput",
+        "detail": "The chemical step is the bottleneck: tonnes of separated oxide, not revenue, are the first evidence that the plant works."
       },
       {
         "title": "Qualification",
-        "detail": "Industrial customers test material for months before ordering at scale. Each qualification is a gate."
+        "detail": "Magnet makers and defence contractors audit before they award volume, so the customer list is a leading indicator of FY2027 revenue."
       },
       {
-        "title": "Price support",
-        "detail": "Government programmes can underwrite a domestic price, but they are programmes and their terms can change."
+        "title": "Funding",
+        "detail": "Free cash flow of -$245.5M against $1.5B of net cash buys time, but each raise changes the value per share."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -1084.9%, the net margin is -2467.3% and diluted EPS is -$2.51. The latest quarter's operating margin was -795.6%.",
-      "Return on equity is n/a. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q2 FY26: revenue of $5.8M, an operating margin of -795.6% and a net margin of -177.5%."
+      "Gross margin came in at -12.8% trailing and 11.9% in FY2025, so the direct cost of the material sold exceeded or only just covered its selling price. Operating margin of -1084.9% and net margin of -2467.3% are ratios computed on a denominator too small to be informative; the dollar figures are the better guide. FY2025 produced a $59.5M operating loss and a $297.6M net loss, and the gap between them is non-operating.",
+      "Return on invested capital was -3.9% and return on equity -11.2%, against 17.4% and 27.7% at ATI. The comparison measures a plant that is not yet running against one that is, so it says little about the eventual economics. It does show that the capital raised so far is not yet earning anything, which is the definition of a construction phase."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$245.5M, a -2131.4% margin. Net debt is not a meaningful measure for this business in the current dataset.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "FY2025 operating cash flow was -$49.0M against $37.4M of capex, for free cash flow of -$86.3M. The trailing figure is -$245.5M, and the quarterly burn accelerated to $57.1M in March 2026 and $126.6M in June. The June number is larger than the whole of FY2025, which points to a step-up in construction and equipment spending rather than to routine operations.",
+      "Net cash of $1.5B is the reason the company can run at this rate. Interest cover of -3571x is not a meaningful ratio when operating income is negative, and there is no EBITDA multiple to use. The relevant measure is the cash balance against the burn: at the June rate the balance covers roughly three years, but that assumes the rate does not rise again as the plant is commissioned."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $29.50; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "With no earnings and no EBITDA, the only multiple in the file is 98.7x sales. That is not a valuation of the current business; it is a price set against a future revenue base. The peer median is 23.7x EV/EBITDA and 23.9x earnings, and the closest domestic comparable, MP Materials, trades at 15.1x sales on $399.5M of revenue. USAR is valued at more than six times MP's sales multiple on a fraction of the revenue.",
+      "On the FY2027 forecast of $567.2M, the $2.7B market value implies about 4.8x forward sales, which is a normal multiple for a materials producer. The whole discount is therefore in the forecast, not in the multiple. If revenue instead tracks the FY2026 estimate of $49.8M, the same value is 54x sales. The shares are a financed option on a plant, and the premium to MP is the clearest sign of how much execution is already in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "8 analysts contribute to the third-party consensus. The mean target is $29.50, with a range of $20.00 to $45.00.",
-      "Current-year estimates call for $49.8M of revenue and -$0.91 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 8 analysts with a mean target of $29.5; third-party estimates can change without notice."
+      "Eight analysts cover the company, with a mean target of $30 against a $7 price and a range of $20 to $45. The spread is wide even for a development-stage miner, and it narrows to four estimates for FY2027 and two for FY2026, so the outer years are effectively a single view. The positive end dominates the published analyst views, which is common when the thesis is a milestone rather than an earnings stream.",
+      "Estimates have moved up, not down: the 30-day EPS revision is +59.6%, and the 90-day figure is +53.4%. That follows a September quarter that missed badly, with a loss of $0.44 against an expected $0.15, so the revision is a reset of a small base rather than a broad upgrade. The consensus FY2027 EPS of $0.23 assumes the revenue step arrives with a positive margin, which is the assumption to test."
     ]
   },
   "risks": {
@@ -157,5 +155,7 @@ export const USAR: StockStory = {
       "Which customers have qualified the company's material, and for what volumes?",
       "What share of the $297.6M net loss was non-cash?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

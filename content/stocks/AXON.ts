@@ -7,20 +7,20 @@ export const AXON: StockStory = {
   "dek": "Revenue grew 33.6% and gross margin is 58.5%, yet the operating margin is 2.0%. The gap between those two numbers is the whole investment question.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $3.4B trailing twelve months, +33.6% year over year.",
-    "Profitability: 2.0% operating margin and -27.9% net margin.",
-    "Cash: $80.9M free cash flow, a 2.4% margin.",
-    "Scorecard: 48/100 average percentile across the factor screens."
+    "Q3 FY26 revenue was $909M at a 4.6% operating margin, with $0.68 of diluted EPS and negative free cash flow of $19M.",
+    "Trailing revenue is $3.4B, up 33.6%, but operating margin is 2.0% and return on invested capital is 1.0%.",
+    "Free cash flow of $80.9M is a 2.4% margin, and the trailing figure depends entirely on the December quarter's $155.4M.",
+    "The shares are 41.7% lower over a year but still trade at 96.3x earnings and 136.8x EBITDA."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026011360/axon-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001069183&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "AXON ENTERPRISE, INC. generated $3.4B of revenue over the last twelve months, +33.6% versus the prior year. Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
-      "The latest reported quarter was Q3 FY26, with $908.6M of revenue and an operating margin of 4.6%. The stock closed at $298.59 on 2026-11-17, giving a market capitalization of $24.3B.",
-      "The shares sit 2% of the way up their 52-week range ($291.11 to $665.07). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Axon's September quarter produced $909M of revenue, a 4.6% operating margin and $0.68 of diluted EPS, with negative free cash flow of $19M. Trailing revenue is $3.4B, up 33.6%, and the operating margin is 2.0%. The result matters because the growth and the profitability are moving in different directions: revenue has compounded at more than 30% for four years, while operating margin has swung between -2.2% and 2.8% in the last two.",
+      "Connected Devices is 56.7% of revenue and Software & Services 43.3%. The device business sells conducted-energy weapons and cameras, with cartridges reordered as consumables; the software business sells evidence management, real-time operations and training per officer or per seat. Public agencies buy on annual budgets and formal procurement, and contracts are multi-year. Once an agency's evidence archive sits on the platform, moving means migrating the archive and retraining staff, which is the source of the renewal economics.",
+      "The balance sheet has net debt of $1.2B, and the shares have fallen 41.7% over a year to $306 from a 52-week high of $665. At 96.3x earnings, 136.8x EBITDA and 307.6x free cash flow, the multiple is still extreme. The 0.0% dividend and the thin cash flow mean the equity is valued entirely on future earnings. The debate is whether the spending that suppresses the margin is investment or a permanent cost of growth."
     ],
-    "quote": "A police department does not buy a camera. It buys a chain of custody for evidence that has to survive a courtroom, and that is a subscription with very high switching costs."
+    "quote": "Axon grows like a software company and spends like one; the shares are down 42% and still cost 96 times earnings."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,49 @@ export const AXON: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 31.8% a year across the fiscal years in the dataset, and the latest quarter changed +27.8% year over year. Third-party estimates for the current fiscal year point to $3.6B of revenue and $7.11 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 2.0% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Revenue expanded from $863M in FY2021 to $1.2B in FY2022, $1.6B in FY2023, $2.1B in FY2024, $2.8B in FY2025 and $3.4B trailing. The quarterly path was $807M in March 2026, $904M in June and $909M in September. Consensus expects $3.6B for FY2026, up 30.4%, and $4.6B for FY2027, up 27.5%. The growth rate is remarkably stable, which is what a multi-year contract base looks like.",
+      "The mix is the key to the margin. Hardware carries a normal equipment margin; software seats carry a software margin; cartridges are consumables with predictable reorders. The consolidated gross margin of 58.5% shows the products are priced well. What sits underneath is a direct sales force calling on thousands of agencies, a research and development budget for evidentiary and security standards, and equity compensation. Those costs are why a 58.5% gross margin becomes a 2.0% operating margin.",
+      "Consensus EPS of $7.11 for FY2026, up 3.8%, and $9.44 for FY2027, up 32.8%, assumes the operating margin starts to expand in 2027. That is the whole story. The revenue estimates are not aggressive relative to the recent record; the profit estimates are. If the spending is investment, the drop-through should arrive; if it is the cost of winning each new agency, it will not."
+    ],
+    "bullets": [
+      {
+        "title": "Installed base",
+        "detail": "Expansion revenue inside an existing agency costs almost nothing to acquire. The mix between new logos and expansion decides the incremental margin."
+      },
+      {
+        "title": "Public budgets",
+        "detail": "Agencies buy on annual budgets and grant cycles. A city council delay pushes orders out by quarters without changing the long-run need."
+      },
+      {
+        "title": "Equity compensation",
+        "detail": "A large part of pay is stock, so EPS has to grow faster than net income to stand still. The share count is the check on the reported margin."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 2.0%, the net margin is -27.9% and diluted EPS is $3.12. The latest quarter's operating margin was 4.6%.",
-      "Return on equity is -92.3%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $908.6M, an operating margin of 4.6% and a net margin of 6.3%."
+      "Gross margin is 58.5% trailing, down from 61.1% in FY2020 but between 59.6% and 61.2% over the last three fiscal years. Operating margin was 2.8% in FY2024, -2.2% in FY2025 and 2.0% trailing, with the quarterly figures at 3.6%, 5.2% and 4.6% in 2026. Net margin is 7.6% trailing, above the operating margin, a gap that points to items below the operating line. Diluted EPS was $1.51 in FY2025 against $4.80 in FY2024.",
+      "Return on invested capital is 1.0% and return on equity 6.9%, both far below the 18.3% peer median. The capital is not the issue: the business does not need much fixed capital. The issue is that the operating margin is too thin to earn a return on the goodwill and acquired assets on the balance sheet. Until the margin expands, the return on capital will stay near zero, whatever the revenue does."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $80.9M, a 2.4% margin. The balance sheet carries $1.7B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $80.9M over the last twelve months and net debt was -$1.7B; interest cover was 1.2x."
+      "The cash statement was $80.9M trailing, a 2.4% margin. In FY2025 operating cash flow was $211.3M and capex $136.3M, producing $75.1M of free cash flow; capex had risen from $78.8M in FY2024. That is a large increase in capital spending for a business of this size, and it is the main reason the conversion is weak relative to the earnings.",
+      "The quarterly pattern is worse than the annual figure. Free cash flow was -$54.6M in March 2026, -$1.0M in June and -$18.9M in September; the positive trailing figure comes entirely from the December 2025 quarter's $155.4M. That is a business that collects in the fourth quarter and spends through the year. It is not a liquidity problem, but it is a warning about how much cash the growth consumes.",
+      "Net debt of $1.2B is manageable against the equity value, and the company pays no dividend. The cash flow does not fund the valuation; the equity market does. That is the definition of a growth company, and it works as long as the growth and the margin trajectory justify it. The risk is that the spending which produces the growth also keeps the free-cash-flow margin at 2%."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and 118.6x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $541.32; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "The {{marketCap}} market value at {{price}} puts Axon on {{pe}} trailing earnings, {{evEbitda}} EV/EBITDA and 307.6x free cash flow, a 0.3% cash yield. The peer median is 29.6x earnings, so the premium is more than three times the median. On sales the multiple is 7.6x, which is high for a hardware business but not for one with a 43.3% software mix. The shares are 41.7% lower over a year and still carry that multiple, which tells you how high the starting point was.",
+      "Forward estimates put FY2026 EPS of $7.11 on about 43x and FY2027 EPS of $9.44 on about 32x. The multiple compresses quickly if the estimates are met, but it never reaches the peer median. That is appropriate only if the operating margin expands materially. A 2.0% operating margin on 33.6% revenue growth is not a software economics story yet; it is a hardware and services business with a software valuation.",
+      "The 52-week range of $290 to $665 shows how far the multiple has fallen. The case for the multiple rests on evidence that the operating margin can reach the high single digits without slower revenue growth. What would break it is another year of 2% margin and negative quarterly free cash flow. The analyst target range of $380 to $700 shows the market has not given up on the first outcome."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "19 analysts contribute to the third-party consensus. The mean target is $541.32, with a range of $380.00 to $700.00.",
-      "Current-year estimates call for $3.6B of revenue and $7.11 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 19 analysts with a mean target of $541.32; third-party estimates can change without notice."
+      "Yahoo Finance data dated 18 November 2026 includes 19 analysts, whose average target is $541 within a $380 to $700 band. The positive camp is much larger than the neutral one, and no analyst is cautious. The average is about 77% above the current price, a striking number after a 42% decline.",
+      "Revisions have been negative, with EPS down 7.0% over 30 days, 7.3% over 60 and 7.8% over 90. The September quarter missed at $1.72 against $1.89, the first miss in four quarters. Consensus FY2026 EPS of $7.11 is up only 3.8% on 30.4% revenue growth, so the estimate already assumes the margin stays thin. The dispersion, $380 to $700, is the widest in the group."
     ]
   },
   "risks": {
@@ -142,7 +156,9 @@ export const AXON: StockStory = {
       "What share of revenue is recurring subscription rather than hardware and cartridges?",
       "Is the 4.6% operating margin the start of a trend or a good quarter?",
       "How much of the 33.6% growth came from new agencies versus expansion within existing ones?",
-      "What does the debt note say to reconcile $1.66B of net cash with 1.2x interest cover?"
+      "What does the debt note say to reconcile $1.23B of net debt with 1.2x interest cover?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const SCHW: StockStory = {
   "dek": "The brokerage is cheap by design. The profit comes from sweeping client cash into the bank, lending it out and earning a spread, plus asset-management and advice fees. That makes Schwab a rate-sensitive deposit franchise wearing a fintech interface.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $27.1B trailing twelve months, +18.1% year over year.",
-    "Profitability: 51.0% operating margin and 39.3% net margin.",
-    "Cash: $11.7B free cash flow, a 43.2% margin.",
-    "Scorecard: 66/100 average percentile across the factor screens."
+    "September-quarter revenue was $7.2B at a 52.7% operating margin, extending a climb from 39.2% in FY2024 and 33.9% in FY2023.",
+    "Trailing return on equity is 20.7%, nearly double Citigroup's 6.7%, on $27.1B of revenue that grew 18.1%.",
+    "Free cash flow swung from -$11.1B in one quarter to +$7.2B in another, which makes it useless as a measure of earnings.",
+    "At 15.0x earnings the shares sit 20% below the $115 high, with a $117 mean target and a 1.4% dividend yield."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000009/schw-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000316709&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Charles Schwab Corporation generated $27.1B of revenue over the last twelve months, +18.1% versus the prior year. The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns.",
-      "The latest reported quarter was Q3 FY26, with $7.2B of revenue and an operating margin of 52.7%. The stock closed at $91.84 on 2026-11-17, giving a market capitalization of $158.5B.",
-      "The shares sit 26% of the way up their 52-week range ($83.96 to $114.53). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Schwab collected $7.2B of revenue in the September quarter, 18% more than a year earlier, and turned 52.7% of it into operating profit. Net income was 40.5% of revenue and EPS was $1.62. The margin has risen from 43.8% in the March 2025 quarter to 52.7%, interrupted only by a flat March 2026, which is what happens when revenue grows against a technology and service platform that is largely fixed.",
+      "The engine is the bank. Client cash sits in sweep deposits at Schwab Bank, is invested in short-term securities and loans, and earns a spread; asset-management and advice fees are charged on the brokerage and managed portfolios. Investor Services produced 79.4% of revenue and Advisor Services 20.6%, the latter being the custody business for independent advisers with larger balances and stickier relationships. A 52.7% margin is bank economics, not brokerage economics.",
+      "A 15.0x trailing multiple, 5.9x sales and 13.6x free cash flow come with a 7.3% free-cash-flow yield; EV/EBITDA is not reported and would not be meaningful for a bank holding company. The peer median is 13.3x, so the premium is modest for a 20.7% return on equity. The 1.4% dividend yield and the 20% discount to the 52-week high frame the debate: is the current spread a durable franchise or a rate cycle?"
     ],
-    "quote": "Schwab's customer is not charged much for the account. The account is the funnel through which the customer's idle cash reaches the bank."
+    "quote": "Schwab earns a 52.7% operating margin because client cash sits on its own balance sheet, and that is also the risk."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,48 +52,49 @@ export const SCHW: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 14.3% a year across the fiscal years in the dataset, and the latest quarter changed +16.9% year over year. Third-party estimates for the current fiscal year point to $28.1B of revenue and $6.45 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 51.0% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Revenue fell 9.3% in FY2023 and then rose 22.0% in FY2025, which tells you the cycle dominates the trend. The path was $20.8B in FY2022, $18.8B, $19.6B, $23.9B and $27.1B trailing. Asset gathering is steady; the swing comes from the spread on client cash. FY2023 is the reminder that a rate shock can shrink revenue even while clients keep opening accounts.",
+      "Sequential revenue has risen from $5.6B to $7.2B over six quarters, about 4% a quarter, and the operating margin climbed from 43.8% to 52.7% over a slightly longer span. A dollar of incremental revenue is therefore dropping through at a very high rate. That is the signature of a fixed cost base plus a widening spread, and it is why EPS grew from $0.99 to $1.62 across those quarters.",
+      "Consensus expects FY2026 revenue of $28.1B, up 17.5%, and EPS of $6.45, up 32.4%; FY2027 is $31.6B and $7.80. EPS growth well ahead of revenue growth in both years means the sell side expects the margin to keep expanding from 51.0% trailing. That is the assumption to test, because the margin is already above anything the company earned before 2025."
     ],
     "bullets": [
       {
-        "title": "Client cash and rates",
-        "detail": "Net interest income rises with rates and falls when clients sort cash into money funds."
+        "title": "Cash sorting",
+        "detail": "Clients move sweep cash into money-market funds or Treasuries when the yield gap justifies the effort. Each shift raises the funding cost and compresses net interest income."
       },
       {
-        "title": "Asset gathering",
-        "detail": "More accounts and more assets produce more advice and administration fees."
+        "title": "Advisor Services",
+        "detail": "Custody for independent advisers is 20.6% of revenue, with larger balances and a lower acquisition cost than retail. It is the most durable part of the asset-gathering engine."
       },
       {
-        "title": "Adviser custody",
-        "detail": "Independent advisers bring sticky balances and a business-to-business distribution channel."
+        "title": "Rate path",
+        "detail": "A higher short rate widens the spread until clients react; a lower one compresses it quickly. The 2023 revenue decline shows the downside is real."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 51.0%, the net margin is 39.3% and diluted EPS is $5.85. The latest quarter's operating margin was 52.7%.",
-      "Return on equity is 20.7%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $7.2B, an operating margin of 52.7% and a net margin of 40.5%."
+      "The margin path runs from 33.9% operating margin in FY2023 to 39.2% in FY2024, 47.9% in FY2025 and 51.0% trailing, with the September quarter at 52.7%. Net margin went from 26.9% to 30.3%, 37.0% and 39.3%. Revenue grew 22.0% in FY2025 while operating costs grew far more slowly, and that gap, not a change in fee rates, is where the earnings came from.",
+      "Returns followed. Return on equity was 12.4% in FY2023, 12.3% in FY2024 and 17.9% in FY2025, and is 20.7% trailing; return on invested capital is 11.9%. EPS went from $2.54 to $2.99 to $4.65. Against Morgan Stanley, at a 33.2% operating margin, Schwab's advantage is the deposit spread rather than a better securities business; the trade-off is that the spread is rate-sensitive.",
+      "The quality of the 52.7% margin is the open question. In FY2023 the same platform earned a 33.9% margin on 9.3% lower revenue, a 19-point swing driven almost entirely by the rate cycle and client cash behaviour. Treating today's margin as a new baseline would capitalise a cyclical high; treating it as temporary would ignore the scale built since 2023."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $11.7B, a 43.2% margin. Net debt is not a meaningful measure for this business in the current dataset.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "Reported free cash flow was $11.7B trailing, a 43.2% margin, and it is not a measure of profit. The quarterly series runs -$11.1B, +$6.2B, +$3.0B, +$0.4B, -$0.9B, +$7.2B, +$4.1B and +$1.3B: those swings are client cash arriving and leaving the bank, not earnings being converted. For a savings-and-loan holding company, operating cash flow is a funding statistic that moves with client balances, not a profit line.",
+      "The measures that matter are the operating margin, return on equity, net new assets and the bank capital ratio, and only the first two are quantified here. Net debt of $1.4B and interest cover of 1.1x are artefacts of deposit funding and say nothing about leverage in the usual sense. The 1.4% dividend yield is the visible capital return, and with a 20.7% return on equity most earnings are retained to support balance-sheet growth."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 14.9x trailing earnings and 10.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $116.64; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Trailing multiples of 15.0x earnings, 5.9x sales and 13.6x free cash flow place Schwab at the 59th percentile of a peer set whose median is 13.3x. Revenue growth is at the 82nd percentile and the operating margin at the 82nd, so the premium is small relative to the operating record. The 7.3% free-cash-flow yield looks generous until you remember that the cash flow is a deposit residual.",
+      "Forward multiples tell a different story. FY2026 EPS of $6.45 is 14.3x the current price and FY2027 EPS of $7.80 is 11.8x, so the stock de-rates below the peer median on estimates the sell side considers conservative. That gap is the market pricing a lower spread: if net interest income normalises, the $7.80 estimate is too high and the apparent cheapness disappears.",
+      "What would justify the discount is a rate path that compresses the spread faster than asset gathering can offset. A second year of 17% revenue growth, by contrast, would make 11.8x forward look like a mispricing. The 20% gap to the 52-week high of $115 says the market has already chosen a side. The 1.4% dividend yield does little to bridge the difference while the spread is in question."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "22 analysts contribute to the third-party consensus. The mean target is $116.64, with a range of $82.00 to $147.00.",
-      "Current-year estimates call for $28.1B of revenue and $6.45 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 22 analysts with a mean target of $116.64; third-party estimates can change without notice."
+      "Yahoo Finance's 18 November 2026 survey, has 22 analysts, a mean target of $117 and a range of $82 to $147. The low end is 11% below the last price and the high end 60% above, the widest relative spread in this group. That dispersion is about the rate path rather than the franchise: the analyst views lean positive, with a neutral block and a single cautious view.",
+      "Revisions are mildly negative: -0.6% over 60 days and -0.7% over 90, with the 30-day change flat. The September quarter beat the consensus earnings figure narrowly, so the drift is not a reaction to a miss. FY2026 EPS of $6.45 and FY2027 of $7.80 assume margins stay near 52%; the consensus is implicitly forecasting that client cash does not reprice much further."
     ]
   },
   "risks": {
@@ -157,5 +158,7 @@ export const SCHW: StockStory = {
       "What is the duration of the bank's investment portfolio?",
       "Can net new assets grow fast enough to offset a lower spread?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

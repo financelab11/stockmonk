@@ -7,20 +7,20 @@ export const BWXT: StockStory = {
   "dek": "Naval reactor components, government site services and commercial nuclear equipment. The moat is a qualification process measured in years, and the valuation is a bet that the backlog converts at a better margin.",
   "readingMinutes": 11,
   "takeaways": [
-    "Revenue: $3.6B trailing twelve months, +17.7% year over year.",
-    "Profitability: 12.4% operating margin and 10.4% net margin.",
-    "Cash: $372.3M free cash flow, a 10.3% margin.",
-    "Scorecard: 52/100 average percentile across the factor screens."
+    "Government work is 73.5% of revenue, and the cost-reimbursable structure caps margin at 12.4% while protecting the top line from a commercial downturn.",
+    "Operating income has grown more slowly than revenue since FY2021, with the operating margin down from 16.9% to 12.4%, and that is the central fact.",
+    "At 21.4x EBITDA the shares carry a 78% premium to the 12.0x peer median on a 10.7% return on capital.",
+    "Sixteen analysts hold a $202 mean against $117, and the $140 low still sits 20% above the market price."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1486957/000148695726000007/bwxt-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001486957&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "BWX Technologies, Inc. generated $3.6B of revenue over the last twelve months, +17.7% versus the prior year. The cycle drives near-term results, so the important question is what the business earns through a full cycle.",
-      "The latest reported quarter was Q3 FY26, with $953M of revenue and an operating margin of 13.9%. The stock closed at $118.82 on 2026-11-17, giving a market capitalization of $10.9B.",
-      "The shares sit 5% of the way up their 52-week range ($112.55 to $241.82). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Naval reactor work drove revenue to $953.0M in the September 2026 quarter, 10.0% above the $866.3M of a year earlier, with a 13.9% operating margin and $1.11 of EPS against a $1.20 estimate. Free cash flow was $150.5M. The margin is the best of the last eight quarters, and the trailing figure is $3.6B of revenue at 12.4%. For a company whose revenue is mostly cost-reimbursable government work, a 13.9% quarter is close to the ceiling rather than the middle of the range.",
+      "Nuclear Operations builds reactor components for naval propulsion; Nuclear Services operates government sites, processes materials and maintains commercial plants; Nuclear Power supplies steam generators, heat exchangers, pressure vessels and spent-fuel containers. Cost-plus contracts reimburse allowable costs plus a fee, which makes revenue stable and margin modest, while fixed-price commercial work carries more risk and more reward. The moat is qualification: the workforce is large and specialised, with many engineers, technicians and cleared specialists, and that is not assembled quickly.",
+      "At $117 the shares trade on 28.6x earnings, 21.4x EBITDA, 28.8x free cash flow and a 3.5% free-cash-flow yield. The peer median is 24.0x earnings and 12.0x EBITDA, so the premium is 78% on EBITDA and 19% on earnings, a gap that reflects how differently the market treats a protected franchise. The 52-week range of $108 to $242 and a 32.6% one-year decline describe a de-rating that has not changed the business. Net debt of $1.5B is 2.6x EBITDA and covered 17.4x by operating profit."
     ],
-    "quote": "In nuclear work, the licence and the qualified workforce are the asset. A competitor with cheaper labour cannot bid if it is not approved to touch the component."
+    "quote": "Nuclear qualification is a barrier measured in years, and the market pays 21.4x EBITDA for it even while the operating margin compresses."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,48 @@ export const BWXT: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 9.1% a year across the fiscal years in the dataset, and the latest quarter changed +10.0% year over year. Third-party estimates for the current fiscal year point to $3.8B of revenue and $4.76 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 12.4% and return on invested capital of 15.5% are the filters to watch as revenue scales."
+      "Funded government programmes are the base and the constraint. Revenue went from $2.1B in FY2020 to $3.2B in FY2025, an 18.3% gain in the final year, and the trailing rate is 17.7%. The estimate for FY2026 is $3.8B, up 18.5%, and for FY2027 $4.1B, up 8.7%. That deceleration is the shape of a backlog converting: the work is awarded years ahead, so the growth rate is a function of appropriations and programme schedules rather than of demand in the quarter.",
+      "Commercial Operations is 26.7% of revenue and the part where new reactor designs and large components could add a second leg. It is also the part with the least visibility: new nuclear construction is slow, capital-intensive and politically exposed, and a pause would leave the segment dependent on replacement parts. The mix between government and commercial work is the main driver of margin, and a shift toward lower-margin services would keep operating income growing more slowly than revenue, as it has since FY2021."
     ],
     "bullets": [
       {
-        "title": "Government nuclear programmes",
-        "detail": "Multi-year funding for naval reactors and site operations. The backbone of revenue and the most predictable part."
+        "title": "Funded backlog",
+        "detail": "Funded and unawarded work are not separated, the single number that would tell an investor how much of the 2027 estimate is already contracted."
       },
       {
-        "title": "Commercial nuclear life extension",
-        "detail": "Existing plants need replacement components and maintenance. A steady aftermarket for specialised equipment."
+        "title": "Programme timing",
+        "detail": "A continuing resolution delays work even when a programme is funded in principle, and the 10.4% operating margin in the December 2025 quarter shows what a slow period costs."
       },
       {
-        "title": "New reactor designs",
-        "detail": "Small modular and advanced reactors could create demand for components. A long-dated option, not a near-term revenue line."
+        "title": "Commercial nuclear orders",
+        "detail": "At 26.7% of revenue, commercial work carries the margin upside and the execution risk, and its backlog is not disclosed."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 12.4%, the net margin is 10.4% and diluted EPS is $4.08. The latest quarter's operating margin was 13.9%.",
-      "Return on equity is 13.2%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $953M, an operating margin of 13.9% and a net margin of 10.7%."
+      "Operating margin compressed from 16.9% in FY2020 to 12.6% in FY2025 and 12.4% trailing, while gross margin fell from 27.1% to 22.9% and then 17.4%. Net margin held between 10.3% and 13.1% across the period, which means the pressure was above the net line: operating costs and mix, not interest or tax. EPS still rose from $2.91 to $3.58, because revenue growth offset the margin decline. The pattern is a services mix growing faster than manufactured components.",
+      "The quarterly record shows the margin is not in free fall. Operating margin was 10.4% in December 2025, 12.4% in March 2026, 12.7% in June and 13.9% in September, with net margin between 9.9% and 10.7%. EPS rose from $0.99 to $1.11 over those quarters. A 13.9% quarter on a 12.4% trailing average is a modest improvement, not a transformation, and the four-point decline since FY2020 remains the dominant trend.",
+      "Return on invested capital of 10.7% is below the 12.8% peer median, while return on equity of 26.4% is far above it. The gap is leverage and a capital structure that carries $1.5B of net debt against a $10.7B market value. Watts, at 18.5% return on capital and 17.8x EBITDA, is the comparison that matters: it earns nearly twice the return on capital for a lower multiple, and the market pays BWXT more because of the qualification barrier rather than the returns."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $372.3M, a 10.3% margin. The balance sheet carries $568.5M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $372.3M over the last twelve months and net debt was -$568.5M; interest cover was n/a."
+      "Long programmes tie up cash in inventory and contract assets, but the conversion is steady: operating cash flow of $479.8M against $184.6M of capex produced $295.3M of free cash flow in FY2025, and the trailing figure is $372.3M, or 10.3% of revenue. Capex has run at $151.3M to $311.1M a year since FY2020, reflecting the facilities needed to machine and test nuclear components. The 28.8x multiple of free cash flow is the price of that reliability.",
+      "The quarterly pattern is improving: $50.1M in March 2026, $115.0M in June and $150.5M in September, against $56.8M in December 2025. Contract assets and payables move with milestone billing, and the working-capital detail is not reported. What can be said is that free cash flow has covered the dividend and the capital programme in each of the last three years, and that the 2.6x leverage ratio has been stable while revenue grew.",
+      "Net debt of $1.5B at 2.6x EBITDA with interest cover of 17.4x is comfortable for an industrial with government contracts. The 1.0% dividend is small, and no buyback is disclosed. Capital allocation is therefore directed at capacity and at bolt-on capability in commercial nuclear, the right priority if the commercial order book develops and a misallocation if it does not. The 3.5% free-cash-flow yield reflects that uncertainty."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 29.0x trailing earnings and 18.2x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $202.32; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Scarcity, not returns, explains the multiple. At 21.4x EBITDA and 28.6x earnings, BWXT trades at a 78% premium to the 12.0x and 24.0x medians while earning 10.7% on capital against a 12.8% peer median. On the FY2026 estimate of $4.76 the multiple is 24.6x, and on $5.22 for FY2027 it is 22.4x. The premium is a bet that the qualification barrier is worth more than the current margin, a reasonable claim for naval reactors and a harder one for commercial components.",
+      "The implied assumption is a margin recovery. At a 12.4% operating margin the business earns about $450M on $3.6B of revenue; at 15% it would earn roughly $540M. The difference is worth about $2B of enterprise value at the current multiple, a fifth of the market capitalisation. A 22.4x forward multiple on 9.7% EPS growth therefore requires the mix to improve, not just the revenue to grow."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "16 analysts contribute to the third-party consensus. The mean target is $202.32, with a range of $140.00 to $250.00.",
-      "Current-year estimates call for $3.8B of revenue and $4.76 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 16 analysts with a mean target of $202.32; third-party estimates can change without notice."
+      "Sixteen analysts, with three at the most positive end, eleven positive and four neutral, carry a mean target of $202 against a $117 price. The range of $140 to $250 is wide, but even the low end implies a 20% gain, which is unusual and suggests the targets were set before the de-rating rather than after it.",
+      "Revisions are flat at +0.3% over seven and thirty days and +0.4% over ninety, so the estimate set has not moved with the share price. The FY2026 figure of $4.76 implies 18.6% growth and FY2027's $5.22 implies 9.7%, a deceleration consistent with a backlog that converts on schedule. The December-quarter estimate of $1.32 implies a 22.3% gain, so the near-term view is more optimistic than the annual numbers suggest."
     ]
   },
   "risks": {
@@ -158,5 +157,7 @@ export const BWXT: StockStory = {
       "What is the margin on fixed-price commercial work versus cost-plus government work?",
       "How much revenue could new reactor programmes add, and when?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const LIN: StockStory = {
   "dek": "Oxygen and nitrogen are commodities. A plant built next to the customer's fence line, supplying it through a pipe for fifteen years at a price with an escalator, is not.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $36.2B trailing twelve months, +8.2% year over year.",
-    "Profitability: 25.3% operating margin and 19.5% net margin.",
-    "Cash: $5.1B free cash flow, a 14.0% margin.",
-    "Scorecard: 45/100 average percentile across the factor screens."
+    "Revenue of $36.2B at a 25.3% operating margin converted into $5.1B of free cash flow, a 14.0% margin that matches the 13.8% peer median.",
+    "Capex rose from $3.8B in FY2023 to $5.3B in FY2025 against $10.3B of operating cash flow, the funding test for each new on-site plant.",
+    "At 20.3x EBITDA the shares sit on the 20.0x peer median, while 33.7x earnings is a premium to 27.0x for a margin 8.6 points higher.",
+    "The September quarter's operating margin fell to 22.9% from 27.5% a year earlier, showing how engineering and energy pass-through dilute the reported percentage."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1707925/000162828026011430/lin-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001707925&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "LINDE PLC. generated $36.2B of revenue over the last twelve months, +8.2% versus the prior year. Revenue and margins move with commodity prices, volumes and the cost of energy and feedstock.",
-      "The latest reported quarter was Q3 FY26, with $9.4B of revenue and an operating margin of 22.9%. The stock closed at $515.11 on 2026-11-17, giving a market capitalization of $236.5B.",
-      "The shares sit 79% of the way up their 52-week range ($387.78 to $548.20). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Linde's September quarter carried $9.4B of revenue, up from $8.6B a year earlier, but the operating margin fell to 22.9% from 27.5%. The same pattern appeared in the December 2025 quarter, at 23.0% after 27.5% the previous September. Reported revenue includes pass-through energy and engineering project costs, so a mix shift toward those lines dilutes the margin without necessarily reducing the dollars earned. The result matters because the group's 25.3% trailing margin is the number the multiple rests on.",
+      "The contract book explains why the margin is normally so stable. An on-site plant sits inside the customer's fence line and supplies gas through a pipe for more than a decade, with a minimum volume commitment and an escalator. That converts a commodity into an inflation-linked cash flow, and the return depends on running the plant near capacity for decades, so a slow ramp costs more than it does in a merchant business. Merchant liquids, healthcare and engineering sit outside that structure: merchant pricing follows local supply, and engineering is a project business with a different margin shape.",
+      "The valuation debate is whether 25% is a mid-cycle operating margin or a peak. Linde trades at 20.3x EBITDA against a 20.0x peer median, but Ecolab at 26.9x earns 16.7% and Sherwin-Williams at 25.2x earns 14.0%, so Linde is paying less per point of margin than either. A 46.5x price to free cash flow and a 2.2% free cash flow yield are the counter-argument: the cash return is thin, and the capex line is rising."
     ],
-    "quote": "The barrier to entry in industrial gases is not the chemistry. It is the twenty-year contract and the plant that has to be built before the first molecule is sold."
+    "quote": "Linde's margin depends on how much revenue is contracted gas and how much is pass-through energy and engineering work."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,47 @@ export const LIN: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.1% a year across the fiscal years in the dataset, and the latest quarter changed +9.2% year over year. Third-party estimates for the current fiscal year point to $36.6B of revenue and $17.90 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 25.3% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "The top line went from $27.2B in FY2020 to $34.0B in FY2025, a 4.6% annual pace, and trailing revenue is $36.2B, 8.2% higher year on year. The acceleration is visible in the quarterly path: $8.8B in March 2026, $9.3B in June and $9.4B in September, against $8.1B to $8.8B through fiscal 2025. Third-party estimates put fiscal 2026 at $36.6B and fiscal 2027 at $38.3B, which implies the growth rate halving as the comparison base catches up.",
+      "Earnings per share have travelled further than revenue. FY2025 EPS was $14.61, and the fiscal 2026 estimate is $17.90 with 2027 at $18.17 on ten analysts. The gap between the two years is small, which suggests the estimate set has stopped extrapolating margin expansion; the 2026 step-up instead reflects the margin already recovered. Growth from here has to come from volume and new plants, because the operating margin has already travelled from 12.2% in FY2020 to 26.3% in FY2025."
     ],
     "bullets": [
       {
-        "title": "Contract escalators",
-        "detail": "Most on-site contracts reset annually with an inflation index, so revenue rises without new volume."
+        "title": "Americas concentration",
+        "detail": "The Americas produced 44.7% of 2025 revenue, so US industrial output and power prices matter more to the group than the faster-growing but smaller APAC book at 19.6%."
       },
       {
-        "title": "New plant investment",
-        "detail": "Each new on-site plant adds contracted revenue for a decade or more, but only after the capital is spent."
+        "title": "Contract renewals",
+        "detail": "On-site agreements reset on multi-year schedules, so a year of weak renewals shows up in revenue years after the negotiation."
       },
       {
-        "title": "Industrial production",
-        "detail": "Merchant volumes track the customers' output, so a manufacturing slowdown shows up in the merchant book first."
+        "title": "Engineering mix",
+        "detail": "Engineering was 8.0% of revenue and carries project margin, which is why a strong quarter for that segment can lower the group percentage."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 25.3%, the net margin is 19.5% and diluted EPS is $15.06. The latest quarter's operating margin was 22.9%.",
-      "Return on equity is 386.1%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $9.4B, an operating margin of 22.9% and a net margin of 18.0%."
+      "The operating margin travelled from 12.2% in FY2020 to 24.4% in FY2023 and 26.3% in FY2025, and the trailing figure is 25.3%. The FY2023 step is the one to study: revenue fell 1.5% and the operating margin rose 8.3 points, because price and cost reduction did the work while volume was flat. Net margin followed, from 9.2% to 20.3%, and EPS from $4.71 to $14.61. A business that can expand margin on falling revenue has pricing power; it also has less room left.",
+      "Return on invested capital is 9.9%, below the 11.4% peer median, while return on equity is 17.8%. The gap is leverage and the asset base: $27.4B of net debt at 2.1x EBITDA is modest for a company with $10.3B of operating cash flow, but plants are long-lived and the capital is sunk before the contract earns. Interest cover of 35.5x makes debt service irrelevant to the next plant decision. The binding question is the return on that plant, and project-level returns are not disclosed."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $5.1B, a 14.0% margin. The balance sheet carries $3.9B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $5.1B over the last twelve months and net debt was -$3.9B; interest cover was n/a."
+      "Cash from operations reached $10.3B in FY2025, capex $5.3B, and free cash flow $5.1B, a 14.0% margin. Trailing free cash flow is the same $5.1B. The conversion is high for a business that builds plants: net income was about $6.9B, so free cash flow covered roughly three-quarters of it after $5.3B of investment. The caveat is that capex has risen every year since FY2022, from $3.2B, and each new on-site contract adds to that line before it adds to revenue.",
+      "Net debt rose from $21.0B in FY2024 to $26.4B in FY2025 and $27.4B trailing, still only 2.1x EBITDA. At a 1.3% dividend yield the cash returned to shareholders is modest relative to the $5.1B of free cash flow, and buybacks are not disclosed, so the balance goes into the plant programme and debt reduction. That is a defensible allocation for a company whose growth is bought one air separation unit at a time, provided the contracts signed are as long as the assets."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 33.5x trailing earnings and 17.9x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $551.04; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Linde's {{pe}} trailing earnings multiple and {{evEbitda}} EBITDA multiple compare with peer medians of 27.0x and 20.0x; the share price is {{price}}. The EBITDA multiple is at the median while the earnings multiple is a 25% premium, a gap that usually means depreciation or interest is doing more work in one company than the other. Free cash flow of $5.1B against a $236.0B market capitalisation is a 2.2% yield, or 46.5x cash flow, which is the price of a contract book rather than a chemical company.",
+      "The fiscal 2026 estimate of $17.90 puts the shares at about 29x, and $18.17 for 2027 at about 28x. A flat forward curve for earnings is unusual for a company that has compounded EPS at a double-digit rate, and it reflects an estimate set that already assumes the margin holds at 25–26%. The multiple therefore assumes the contract escalators keep pace with power costs and that no large on-site renewal reprices downward. Either assumption failing moves earnings and the multiple together.",
+      "The peer comparison is the strongest support. Ecolab trades at 26.9x EBITDA for a 16.7% operating margin, Sherwin-Williams at 25.2x for 14.0%, and Freeport at 8.2x for 28.2%. Linde's 20.3x for 25.3% is cheaper per point of margin than either specialty chemical name and far more expensive than the miner, which is the right ordering for businesses with different revenue durability. What would break it is a sustained rise in electricity costs that escalators do not recover within a year."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "27 analysts contribute to the third-party consensus. The mean target is $551.04, with a range of $400.00 to $600.00.",
-      "Current-year estimates call for $36.6B of revenue and $17.90 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 27 analysts with a mean target of $551.04; third-party estimates can change without notice."
+      "The consensus carried by Yahoo Finance on 18 November 2026 comes from 27 analysts, with a mean target of $551 and a range of $400 to $600 against a $514 price. The low end of $400 is 22% below the market price, so the range contains a genuine disagreement about the margin, not just about timing.",
+      "Estimates for this fiscal year put revenue at $36.6B and EPS at $17.90 across 29 analysts, with $38.3B and $18.17 for 2027 from 10. Revisions are effectively zero over 7, 30, 60 and 90 days, so the estimate set has been stable through the last three reports, each of which beat by a small margin. The consensus assumes the margin holds and the contract book renews at similar terms; it does not assume another year of margin expansion."
     ]
   },
   "risks": {
@@ -158,5 +156,7 @@ export const LIN: StockStory = {
       "What returns are the new plants earning on the capital invested in them?",
       "Is the 25.3% operating margin a mid-cycle level or a peak?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

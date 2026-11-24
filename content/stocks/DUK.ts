@@ -7,20 +7,20 @@ export const DUK: StockStory = {
   "dek": "One quarter reported more than twice the normal revenue and seven times the normal profit. Strip that out and the picture is a $32B regulated utility earning roughly $5B a year, which is a different company from the one the multiples describe.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $42.6B trailing twelve months, +36.4% year over year.",
-    "Profitability: 44.1% operating margin and 34.0% net margin.",
-    "Cash: -$3.7B free cash flow, a -8.7% margin.",
-    "Scorecard: 56/100 average percentile across the factor screens."
+    "Trailing revenue of $32.5B and a 27.7% operating margin now bracket the FY2025 result, so the distortion that produced a 6.9x P/E has rolled out of the window.",
+    "Rate base, not volume, sets earnings: FY2025 capex of $14.0B exceeded $12.3B of operating cash flow, and net debt reached $89.6B at 5.2x EBITDA.",
+    "At 19.6x trailing earnings and 11.2x EBITDA the shares sit below Southern at 25.0x and NextEra at 21.5x, a discount the 9.4% return on equity partly explains.",
+    "Nineteen analysts carry a $133 mean target against a $129 price, and twelve of the twenty-three published views are neutral, a consensus with little room for a re-rating."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000014/duk-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326160&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Duke Energy CORP. generated $42.6B of revenue over the last twelve months, +36.4% versus the prior year. Returns depend on regulated rates, capital investment and the cost of financing the asset base.",
-      "The latest reported quarter was Q3 FY26, with $18.2B of revenue and an operating margin of 65.0%. The stock closed at $129.84 on 2026-11-17, giving a market capitalization of $101.2B.",
-      "The shares sit 79% of the way up their 52-week range ($112.40 to $134.49). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "The quarter to 31 March 2026 produced $9.0B of revenue, a 30.3% operating margin and $1.97 of EPS, up from $1.76 a year earlier. The beat matters less than the base it restores: trailing revenue is $32.5B at a 27.7% operating margin, close to the FY2025 figures of $31.7B and 27.2%. A single oversized quarter had earlier pushed every trailing ratio into nonsense, including a P/E near 7x. At 19.6x, the multiple now describes a regulated utility with about $5B of earnings rather than an accounting accident.",
+      "The earnings equation is rate base multiplied by an allowed return, so revenue grows when capital enters service rather than when customers use more power. Capex of $14.0B in FY2025 against $12.3B of operating cash flow is the clearest statement of that model: the shortfall is financed, and net debt rose to $89.6B. Interest cover of 3.3x leaves limited room if refinancing costs rise before the next rate case. Data-centre load and electrification support the capital plan, but they also enlarge the sum that must be funded before any of it earns a return.",
+      "The valuation argument turns on the allowed return against the cost of debt, not on the growth rate. EV/EBITDA of 11.2x is the lowest in a peer group where NextEra trades at 18.3x and Southern at 13.1x, and the 5.4% return on invested capital sits below the 5.6% peer median. Vistra, at 11.4x, earns 11.2% on capital, so Duke is not being marked down for leverage alone. A 3.3% dividend yield pays holders while the rate cases resolve; a commission that trims requests would make today's discount permanent."
     ],
-    "quote": "Before using any trailing multiple, check whether the trailing period contains a quarter that does not belong. In regulated utilities, one unusual quarter can make a 20x business look like a 7x one."
+    "quote": "Duke's earnings are set by the size of its rate base and the return a commission allows, and the $89.6B of net debt is what growth costs."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,47 @@ export const DUK: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 4.5% a year across the fiscal years in the dataset, and the latest quarter changed +117.4% year over year. Third-party estimates for the current fiscal year point to $33.8B of revenue and $6.75 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 44.1% and return on invested capital of 61.2% are the filters to watch as revenue scales."
+      "Revenue moved from $23.3B in FY2020 to $31.7B in FY2025, with the last two years adding 4.8% and 5.6%. Because a utility recovers fuel and approved costs through the same bill, part of that increase is pass-through rather than economic growth, and the operating margin is the better test: it rose from 19.7% to 27.2% over the same period. Trailing revenue of $32.5B is 5.8% higher year on year, and the third-party estimate for fiscal 2026 is $33.8B.",
+      "The growth that matters is the capital programme. Capex rose from $12.3B in FY2024 to $14.0B in FY2025, and each project adds to rate base only when it enters service and is accepted in a rate case, which introduces a lag between spending and earning. Return on equity of 9.4% against a 5.4% return on invested capital shows how much of the equity return comes from leverage rather than asset productivity. The question is whether the authorised returns in each jurisdiction exceed the cost of the debt used to fund the build."
     ],
     "bullets": [
       {
-        "title": "Rate base growth",
-        "detail": "Capital invested in regulated assets earns the allowed return once it enters service and is accepted into rates."
+        "title": "Capital entering service",
+        "detail": "FY2025 capex of $14.0B was $1.7B above operating cash flow, and every dollar that reaches rate base carries an allowed return."
+      },
+      {
+        "title": "Allowed returns by state",
+        "detail": "A 9.4% return on equity and a 5.4% return on invested capital are two ends of the same leverage, so a cut to either authorised figure moves earnings directly."
       },
       {
         "title": "Load growth",
-        "detail": "Data centres and electrification raise long-run demand, which supports new generation and transmission investment."
-      },
-      {
-        "title": "Cost recovery mechanisms",
-        "detail": "Riders and formula rates reduce the wait between paying for something and being paid for it."
+        "detail": "Revenue rose from $8.2B in the March 2025 quarter to $9.0B a year later, and data-centre demand is the main reason the capital plan keeps expanding."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 44.1%, the net margin is 34.0% and diluted EPS is $4.85. The latest quarter's operating margin was 65.0%.",
-      "Return on equity is 114.2%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $18.2B, an operating margin of 65.0% and a net margin of 58.5%."
+      "The margin record is unusually stable once the anomalous quarter is excluded. Operating margin was 24.7% in FY2023, 26.4% in FY2024 and 27.2% in FY2025, and the trailing figure is 27.7%; net margin followed at 9.9%, 15.1%, 15.7% and 15.8%. The gross line is not reported, which is appropriate for a utility where fuel and purchased power pass through the bill. EPS rose from $3.54 to $6.31 over those three years, more than operating income did, because the net margin expanded faster than the operating line.",
+      "Return on equity of 9.4% and return on invested capital of 5.4% are the pair to read together. The gap is leverage: $88.1B of net debt against a $100.5B market capitalisation means the equity return is amplified by a balance sheet carrying 5.2x EBITDA. Interest cover of 3.3x is the constraint, because a utility cannot cut its way through a higher coupon; it has to wait for the next rate order. That is why the quarterly operating margin, 30.3% in March 2026 against 24.8% in June 2025, matters less than the trajectory of allowed returns."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$3.7B, a -8.7% margin. Net debt is $11.5B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$3.7B over the last twelve months and net debt was $11.5B; interest cover was n/a."
+      "Operating cash flow was $12.3B in FY2025 against $14.0B of capex, leaving free cash flow of -$1.7B. Trailing free cash flow is -$3.3B, a -10.1% margin, and the March 2026 quarter alone consumed $2.6B. For a regulated utility this is not distress; it is the arithmetic of a capital programme funded with debt before the assets earn. The test is whether the assets eventually earn more than the debt costs, and FY2024's $48M of positive free cash flow shows how thin that line can be.",
+      "Net debt of $88.1B at 5.2x EBITDA is heavy for a regulated utility, and interest cover of 3.3x is the tightest ratio on the page. The dividend absorbs 3.3% of the share price annually, but payout cover and any equity issuance plan are not disclosed, so the financing mix is the blind spot. Historically the company has bridged the gap with debt: net debt rose from $62.5B in FY2020 to $89.6B in FY2025 while free cash flow was negative in five of those six years."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 7.0x trailing earnings and 9.0x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $132.87; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At {{price}} Duke trades on {{pe}} trailing earnings and {{evEbitda}} EBITDA, against peer medians of 23.2x and 13.3x. The discount is consistent with the lowest EV/EBITDA in the group and a 5.4% return on invested capital below the 5.6% median. On the fiscal 2026 estimate of $6.75 the multiple is about 19x, and on $7.17 for 2027 it is about 18x. Those are ordinary utility numbers, which is the point: the shares are priced as a regulated bond substitute, not as a growth stock.",
+      "The multiple assumes the capital plan earns its authorised return and that financing costs stay below it. NextEra's 18.3x EBITDA and 21.5x earnings come with a 31.7% operating margin and 8.3% revenue growth; Southern's 13.1x EBITDA comes with 8.3% growth and a 24.2% margin. Duke's 5.8% trailing growth and 27.7% margin sit between them, yet it trades at the bottom of the range. The gap is a statement about rate-case risk and leverage, not about demand.",
+      "A re-rating would need a run of rate orders that lift allowed returns above the cost of new debt while the $14.0B capital programme stays on budget. What would break the current price is the reverse: a commission disallowing spend, a construction overrun, or refinancing at a coupon above the authorised return. The 3.3% yield limits the downside for a holder who is paid to wait, but it does not protect the multiple if return on equity slips below 9%."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "19 analysts contribute to the third-party consensus. The mean target is $132.87, with a range of $121.00 to $145.00.",
-      "Current-year estimates call for $33.8B of revenue and $6.75 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 19 analysts with a mean target of $132.87; third-party estimates can change without notice."
+      "Yahoo Finance, as of 18 November 2026, covers Duke with 19 analysts and a mean target of $133 against a $129 price, a range of $121 to $145. A mean only 3% above the market price is not a forecast of much; it is a statement that the shares are fairly valued pending the next round of rate cases.",
+      "Fiscal 2026 estimates are $33.8B of revenue and $6.75 of EPS, with 2027 at $35.5B and $7.17 on 22 analysts. Revisions are flat to slightly positive, +0.5% over 30 days and +0.6% over 90, and the last four quarters all beat the consensus figure. The consensus therefore assumes steady execution rather than acceleration: revenue growth near 5%, EPS growth near 6%, and no adverse rate order in the twelve months that matter."
     ]
   },
   "risks": {
@@ -158,5 +156,7 @@ export const DUK: StockStory = {
       "How much of the capital plan is already reflected in rates?",
       "What does the financing plan imply for dilution and interest cost?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

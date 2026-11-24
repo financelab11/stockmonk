@@ -7,19 +7,20 @@ export const PH: StockStory = {
   "dek": "Hydraulics, seals and filters are unglamorous products sold in enormous variety. The story is how a portfolio of them came to earn a 23.6% operating margin.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $22.4B trailing twelve months, +11.9% year over year.",
-    "Profitability: 23.6% operating margin and 16.6% net margin.",
-    "Cash: $3.9B free cash flow, a 17.2% margin.",
-    "Scorecard: 51/100 average percentile across the factor screens."
+    "Fiscal 2026 revenue was $21.5B with a 23.6% operating margin and $28.48 of diluted EPS, and the September quarter held 23.5%.",
+    "Diversified Industrial is 67.2% of revenue and Aerospace Systems 32.8%, giving the group a mix of catalogue demand and long aircraft programmes.",
+    "Net debt rose from $8.0B at the June year-end to $16.7B, and return on invested capital fell from 17.3% to 12.7%.",
+    "Free cash flow of $3.9B is a 17.2% margin, with capex at just 2.1% of revenue."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/76334/000007633426000105/ph-20260630.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000076334&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "PARKER HANNIFIN CORP. generated $22.4B of revenue over the last twelve months, +11.9% versus the prior year. Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
-      "The latest reported quarter was Q1 FY27, with $6B of revenue and an operating margin of 23.5%. The stock closed at $920.84 on 2026-11-17, giving a market capitalization of $116.1B.",
-      "The shares sit 39% of the way up their 52-week range ($806.22 to $1,099.94). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
-    ]
+      "Parker's fiscal 2026, ended in June, produced $21.5B of revenue, a 23.6% operating margin and $28.48 of diluted EPS, and the September quarter kept the margin at 23.5% on $6.0B of revenue. The result matters because the margin is the highest of the last five fiscal years by a wide gap: it was 18.8% in FY2022. A component maker selling seals, filters and hydraulic parts should not earn 23.6% unless it has pricing power and a cost structure that scales.",
+      "Diversified Industrial is 67.2% of revenue and Aerospace Systems 32.8%. The industrial side sells a huge catalogue of small parts through independent distributors, which keeps selling costs variable and puts the product close to the point of use. The aerospace side sells flight-control, fuel and thermal systems into programmes that stay in production for decades. Both benefit from the same thing: the part is a small share of the customer's cost and a large share of its reliability.",
+      "The balance sheet is the new variable. Net debt rose from $8.0B at the June year-end to $16.7B trailing, leverage is 3.0x EBITDA, and the return on capital dropped from 17.3% to 12.7%. The 0.9% dividend is small. At 31.0x earnings and 23.4x EBITDA, the shares are close to Eaton's 33.5x and 23.8x despite a much higher operating margin. The market is treating the larger capital base as a permanent cost, not a temporary one."
+    ],
+    "quote": "Parker's 23.6% margin is a pricing achievement; the balance sheet now asks whether the next dollar of revenue earns the same return."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -51,35 +52,48 @@ export const PH: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 7.8% a year across the fiscal years in the dataset, and the latest quarter changed +17.9% year over year. Third-party estimates for the current fiscal year point to $25.3B of revenue and $37.04 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 23.6% and return on invested capital of 28.9% are the filters to watch as revenue scales."
+      "Revenue progressed from $15.9B in FY2022 to $19.1B in FY2023, $19.9B in FY2024, $19.9B in FY2025 and $21.5B in FY2026, and the September 2026 quarter was $6.0B against $5.1B a year earlier. The FY2023 jump of 20.2% was the last time growth was this fast. Consensus expects $25.3B for FY2027, up 17.9%, and $27.2B for FY2028, up 7.1%, so the step-up is expected to be short.",
+      "The growth model mixes volume, price and acquisitions, and the company does not split the three. The September quarter's revenue step-up came with the rise in net debt, so the composition matters: acquired revenue carries the group margin only after Parker's operating system has been applied. The 23.6% operating margin is evidence that past deals have worked. The fall in return on capital is evidence that the latest one has not yet.",
+      "Consensus EPS of $37.04 for FY2027, up 14.6%, assumes margin holds while revenue grows 17.9%, which is a dilution from the corporate average if the new revenue earns less. FY2028 EPS of $41.06, up 10.9%, assumes the margin recovers. Revisions are positive, up 4.1% over 30 days and 4.9% over 60, so the near-term estimate is improving. The question is whether the improvement is operating leverage or simply a lower tax and interest charge."
+    ],
+    "bullets": [
+      {
+        "title": "Price-cost spread",
+        "detail": "Parker raised prices through the input-cost cycle and the margin expanded. If customers push back when their own volumes fall, the spread reverses."
+      },
+      {
+        "title": "Aerospace build rates",
+        "detail": "Aerospace is 32.8% of revenue and depends on a small number of airframers. Their production schedules flow straight into Parker's shipments."
+      },
+      {
+        "title": "Acquisition returns",
+        "detail": "The model buys adjacent businesses and lifts their margins. A large deal that fails to earn its cost of capital would show up in the 12.7% return on invested capital."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 23.6%, the net margin is 16.6% and diluted EPS is $29.11. The latest quarter's operating margin was 23.5%.",
-      "Return on equity is 24.5%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q1 FY27: revenue of $6B, an operating margin of 23.5% and a net margin of 14.8%."
+      "Operating margin rose from 18.8% in FY2022 to 21.9% in FY2025 and 23.6% in FY2026, and the September quarter held at 23.5%. Net margin was 17.0% in FY2026, 16.6% trailing and 14.8% in the September quarter, the last one lower because the revenue base grew faster than profit. Diluted EPS was $28.48 for FY2026 and $6.92 for the September quarter. Gross margin is not reported, so the operating line is the only margin comparison available.",
+      "Return on invested capital is 12.7% trailing, down from 17.3% in FY2026 and below the 18.3% peer median; return on equity is 23.3%. The operating margin is at a record while the capital return is at the low end of its own range. That divergence is the analytical issue: either the new capital is temporarily unproductive, or the margin is being earned on a smaller, older asset base while the new assets earn less."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.9B, a 17.2% margin. The balance sheet carries $711M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $3.9B over the last twelve months and net debt was -$711M; interest cover was n/a."
+      "Free cash flow after capex was $3.9B trailing, a 17.2% margin, against $4.4B of operating cash flow and $459M of capex in FY2026. Capex is only 2.1% of revenue, which is what a component business with a distributed plant network looks like. The conversion is strong: free cash flow is slightly above net income, so working capital is not absorbing the growth.",
+      "The September quarter produced $643M of free cash flow against $1.6B in the June quarter, a seasonal swing that reflects working capital and the timing of shipments. Net debt of $16.7B at 3.0x EBITDA and interest cover of 11.9x leave the balance sheet investment-grade but no longer idle. The 0.9% dividend absorbs little, so free cash flow is available for debt reduction or another deal.",
+      "The capital allocation question is therefore straightforward. Parker has $3.9B of annual free cash flow, a leverage ratio of 3.0x and a record operating margin. It can deleverage, buy back stock or acquire again. The first protects the return, the second supports EPS, and the third is the model that built the margin. Which one it chooses will decide whether 12.7% is a trough."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 31.2x trailing earnings and 20.4x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $1,138.10; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "The {{marketCap}} market value at {{price}} puts Parker on {{pe}} trailing earnings, {{evEbitda}} EV/EBITDA and 30.0x free cash flow, a 3.3% cash yield. Against medians of 29.6x and 19.3x, the premium is modest on earnings and large on EBITDA. Eaton, at 33.5x and 23.8x, is the closest comparison, and Parker is cheaper on earnings with a 23.6% operating margin against Eaton's 15.4%.",
+      "Forward estimates put FY2027 EPS of $37.04 on about 25x and FY2028 EPS of $41.06 on about 22x. Those multiples assume the margin holds and the new capital starts earning. If the acquired revenue reaches the group margin, the return on capital recovers and the multiple is reasonable. If it does not, the earnings estimates are too high and the premium to the EBITDA median is hard to defend. The 12.7% return on capital is the number that decides which."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "24 analysts contribute to the third-party consensus. The mean target is $1,138.10, with a range of $740.00 to $1,280.00.",
-      "Current-year estimates call for $25.3B of revenue and $37.04 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 24 analysts with a mean target of $1.1K; third-party estimates can change without notice."
+      "Yahoo Finance counted 24 analysts on 18 November 2026; their mean target is $1,100, with a low estimate of $740 and a high of $1,300. The bulk of the coverage is positive, a few are neutral and one is cautious. The mean is well above the current price while the low end is below it, so the range captures both the margin-holds and the margin-fades cases.",
+      "Revisions are positive: EPS up 4.1% over 30 days, 4.9% over 60 and 4.4% over 90. The September quarter beat at $8.90 against $8.17, following the June quarter's $9.27 against $8.27. Consensus FY2027 EPS of $37.04 is up 14.6% on 17.9% revenue growth, so the estimate already assumes some margin dilution from the larger base. The dispersion is wide, from $740 to $1,300, which is consistent with a business whose capital returns are in transition."
     ]
   },
   "risks": {
@@ -133,7 +147,7 @@ export const PH: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Parker Hannifin is a portfolio of small, specification-driven component businesses with a long record of raising price and cutting cost. Revenue reached $22.4B, operating margin 23.6%, free cash flow $3.9B, and the balance sheet is in net cash.",
+      "Parker Hannifin is a portfolio of small, specification-driven component businesses with a long record of raising price and cutting cost. Revenue reached $22.4B, operating margin 23.6%, free cash flow $3.9B, and the balance sheet is in net debt.",
       "What is not known is how much of the margin is permanent. Nearly five points of expansion since FY2022 is a lot for a business whose products are ultimately cyclical, and the answer depends on whether customers keep accepting price increases when their own volumes fall.",
       "At 31.1x earnings, the shares already assume the margin holds. The reader should test that assumption against the FY2022 base before deciding what the multiple is worth."
     ],
@@ -143,5 +157,7 @@ export const PH: StockStory = {
       "How much revenue growth is organic versus acquired?",
       "What would operating margin be if industrial production fell 5%?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

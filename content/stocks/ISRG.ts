@@ -7,20 +7,20 @@ export const ISRG: StockStory = {
   "dek": "The system is the hook; the instruments and the service contract are the business. That installed-base model explains both the 20% growth and the premium multiple attached to it.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $11.6B trailing twelve months, +20.5% year over year.",
-    "Profitability: 28.4% operating margin and 25.5% net margin.",
-    "Cash: $3.6B free cash flow, a 31.1% margin.",
-    "Scorecard: 58/100 average percentile across the factor screens."
+    "A 20.5% revenue increase to .6B came with a 26.7% share price decline, leaving 38.8x EBITDA against a 25.4x peer median.",
+    "The September quarter's 19.4% operating margin compares with 33.6% in June on higher revenue, a cost event rather than a demand event.",
+    "The $3.6B of free cash flow is 31.1% of revenue, and net cash of $6.8B means the 40.1x P/FCF is the price of the franchise.",
+    "Procedure growth, not system placements, is the recurring revenue line, and the disclosure does not separate the two."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001035267&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "INTUITIVE SURGICAL INC. generated $11.6B of revenue over the last twelve months, +20.5% versus the prior year. The franchise depends on clinical evidence, reimbursement and the duration of patent protection.",
-      "The latest reported quarter was Q3 FY26, with $3B of revenue and an operating margin of 19.4%. The stock closed at $430.53 on 2026-11-17, giving a market capitalization of $149.2B.",
-      "The shares sit 37% of the way up their 52-week range ($328.57 to $603.88). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "A 20% revenue increase and a 19.4% operating margin in the same quarter are an unusual combination. Intuitive Surgical grew September-quarter revenue to $3.0B, but operating margin fell from 30.3% a year earlier and 33.6% in the prior quarter, and EPS was $1.49 against $2.29. The margin collapse is the clearest evidence that the quarter contained a cost item rather than a demand problem. The installed base kept generating procedures; something below the gross line did not repeat.",
+      "The model is a razor-and-blade business with three revenue lines. Systems are the capital sale that seeds the installed base, instruments are the consumable tied to each procedure, and service is the contract on the machine. Instruments and service are the recurring half, which is why procedure growth matters more than placement growth. A hospital that delays a system purchase slows the installed base years later; a hospital that performs more procedures raises revenue immediately.",
+      "The valuation debate is about the growth rate, not the quality. At 38.8x EBITDA and 40.1x free cash flow, the shares carry some of the highest multiples in this healthcare group. The consensus expects 18.5% revenue growth in 2026 and 11.9% in 2027, so the market is being asked to pay a high-30s multiple for a business that is already decelerating. The 26.7% one-year decline is the beginning of that repricing, not a verdict on the franchise."
     ],
-    "quote": "Robotic surgery is a capital sale followed by years of consumable revenue. Judge the company by procedures per installed system, not by the number of systems shipped."
+    "quote": "A 20% revenue increase and a 19% operating margin in the same quarter are what happens when the razor keeps selling and the cost line arrives all at once."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,50 @@ export const ISRG: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 14.4% a year across the fiscal years in the dataset, and the latest quarter changed +21.7% year over year. Third-party estimates for the current fiscal year point to $11.9B of revenue and $11.25 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 28.4% and return on invested capital of 21.5% are the filters to watch as revenue scales."
+      "Revenue has risen 77% since FY2021, from $5.7B to $10.1B in FY2025 and $11.6B on a trailing basis. The quarterly path through 2026 has been $2.8B, $2.9B and $3.0B, each about 20% above the prior year. That consistency is unusual for a capital-goods business and reflects the recurring instrument and service lines smoothing the system placements. The installed base, not the placement cycle, is what the revenue line is tracking.",
+      "The growth drivers are procedure volume and installed-base expansion. Every additional procedure pulls instrument revenue, and every system placement adds a service contract. The company has also widened the platform from multi-port systems to a single-port system and newer generations with force feedback and imaging, which gives hospitals a reason to upgrade and gives Intuitive a defence against new entrants. Consensus revenue of $11.9B for 2026 and $13.4B for 2027 implies 18.5% then 11.9%.",
+      "The durability question is how much growth comes from more procedures per system versus more systems. The disclosure does not separate the two, but the 20% revenue growth against a much smaller increase in system placements would suggest utilisation is doing the work. If that is right, the model is less dependent on hospital capital budgets than the system-sale framing implies. If placements are carrying growth, the 2027 deceleration is a warning."
     ],
     "bullets": [
       {
-        "title": "Installed-base expansion",
-        "detail": "Every placement adds a stream of instrument and service revenue for years, even if no new system is ever sold into that hospital again."
+        "title": "Procedure leverage",
+        "detail": "Instruments are sold per procedure, so utilisation growth converts almost directly into revenue. That is the highest-quality line and the one to watch against system placements."
       },
       {
-        "title": "Procedure penetration",
-        "detail": "Robotic surgery is still a minority of eligible operations in many categories, so existing systems can be used more often."
+        "title": "Competitive parity",
+        "detail": "Large device companies and specialist entrants are developing competing platforms. A credible alternative gives hospitals negotiating leverage even before they switch."
       },
       {
-        "title": "New indications",
-        "detail": "Clearance for additional procedure types is the cheapest form of growth because the installed base is already in place."
+        "title": "Hospital capital",
+        "detail": "System placements depend on budgets set once a year. A pause slows the installed base, and the instrument revenue that follows years later."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 28.4%, the net margin is 25.5% and diluted EPS is $8.26. The latest quarter's operating margin was 19.4%.",
-      "Return on equity is 18.3%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $3B, an operating margin of 19.4% and a net margin of 17.1%."
+      "A 67.2% gross margin, a 28.4% operating margin and a 25.5% net margin describe a device business with heavy research and selling costs but efficient manufacturing. The quarterly operating margins were 30.5%, 30.3%, 30.2%, 30.9% and 33.6% before the September quarter's 19.4%. The first five describe a stable business; the sixth describes a charge that the revenue line does not explain.",
+      "The annual record shows the operating leverage that the model promises. Operating margin rose from 24.8% in FY2023 to 28.1% in FY2024 and 29.3% in FY2025 as revenue grew 14.5%, 17.2% and 20.5%. EPS went from $5.03 to $6.42 to $7.87. That is a business converting revenue growth into profit at a consistent rate, which is why the September quarter stands out.",
+      "Returns are good but not yet exceptional. ROIC is 16.9% and ROE 18.5%, both above the 11.5% peer median and below the pharmaceutical names. The 40.1x free-cash-flow multiple is the reason: the market is capitalising a 31.1% free-cash-flow margin at a premium, so the return on capital has to rise as the installed base matures. The net cash position of $6.8B flatters ROE by enlarging the equity base."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.6B, a 31.1% margin. The balance sheet carries $4B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $3.6B over the last twelve months and net debt was -$4B; interest cover was n/a."
+      "The $3.6B of trailing free cash flow, 31.1% of revenue, is the payoff from the factory build-out that consumed cash in FY2022 and FY2023, when free cash flow fell to $958M and $750M. That is still a high conversion rate for a capital-goods manufacturer. The capex line is 5.3% of revenue in FY2025, well below the levels of the expansion.",
+      "The quarterly path has strengthened. Free cash flow was $808M in March 2026, $948M in June and $1.1B in September, each above the prior-year quarter. For the year, the business is generating cash faster than it did in FY2025, when the total was $2.5B. The September margin charge did not stop the cash flow, which is consistent with a non-cash item.",
+      "The balance sheet holds $6.8B of net cash, down from $9.0B at FY2025, with no dividend. The company has no debt to service and interest cover is not meaningful. Capital allocation is therefore simple: the cash funds research and clinical programmes, and the absence of a distribution means the return to shareholders depends entirely on the share price. That is a different contract from the dividend-paying device peers."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 50.5x trailing earnings and 35.2x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $486.57; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Intuitive's 38.8x EBITDA multiple is second only to Merck's 46.5x, which is distorted by charges. Its 48.8x trailing P/E, 11.9x sales and 40.1x free cash flow are all at or near the top of the group, against a 37.0x earnings median and 25.4x EBITDA. The premium is not a mistake in the arithmetic; it is a deliberate payment for 20.5% revenue growth against a median of 8.6%.",
+      "The question is whether the premium survives deceleration. Consensus revenue growth falls from 18.5% in 2026 to 11.9% in 2027, and the 2027 EPS estimate of $12.47 is only 10.8% above 2026. At 38.8x EBITDA, a business growing 12% with a 28.4% operating margin would normally trade closer to TMO's 30.2x or the 25.4x median. The 20.5% trailing growth is what justifies the current multiple; the 11.9% estimate is what tests it.",
+      "What would break the multiple is a credible competitor reaching clinical parity. A hospital with two viable robotic platforms negotiates on price, and a 67.2% gross margin gives room for that negotiation to hurt. What would justify it is procedure growth staying above 15% as the installed base expands. The 2.5% free-cash-flow yield offers almost no valuation support if growth settles in the low teens."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "30 analysts contribute to the third-party consensus. The mean target is $486.57, with a range of $324.00 to $685.00.",
-      "Current-year estimates call for $11.9B of revenue and $11.25 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 30 analysts with a mean target of $486.57; third-party estimates can change without notice."
+      "The 18 November 2026 Yahoo Finance snapshot covers 30 analysts and carries a mean target of $487, with a range of $324 to $685. Views lean positive, with a neutral block and two cautious voices. The mean is 17% above the $417 share price, but the range spans a 22% downside and a 64% upside, the widest dispersion in this group.",
+      "Estimates are $11.9B of revenue and $11.25 of EPS for 2026, then $13.4B and $12.47 for 2027. Revenue growth of 18.5% then 11.9% is paired with EPS growth that decelerates from 26.0% to 10.8%, so the consensus assumes the margin recovers from the September quarter and then flattens. Revisions are positive over 30, 60 and 90 days, at about 4.2%, which suggests the September charge did not trigger a downgrade cycle."
     ]
   },
   "risks": {
@@ -158,5 +159,7 @@ export const ISRG: StockStory = {
       "What did the latest quarter's margin drop actually contain?",
       "How many eligible procedures are still done without a robot?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

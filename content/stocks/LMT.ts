@@ -7,20 +7,20 @@ export const LMT: StockStory = {
   "dek": "Revenue is set by appropriations and delivered through cost-plus and fixed-price contracts. The 11.8% operating margin is the structure of the business, not a temporary shortfall.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $79.1B trailing twelve months, +7.9% year over year.",
-    "Profitability: 11.8% operating margin and 8.2% net margin.",
-    "Cash: $8.4B free cash flow, a 10.6% margin.",
-    "Scorecard: 48/100 average percentile across the factor screens."
+    "Q3 FY26 revenue reached $20.7B at an 11.8% operating margin, and consensus expects $81.4B and $30.62 of EPS for the full year.",
+    "Free cash flow is $8.4B, 10.6% of revenue, and the 2.5% dividend plus buybacks are funded from it rather than from new debt.",
+    "At {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA the shares sit well below the 31.0x and 20.4x peer medians, a discount built on 11.8% margins.",
+    "Aeronautics is 40.3% of revenue and sustainment is the recurring part, but fixed-price development work in Space can erase a quarter's margin."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/lmt-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000936468&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "LOCKHEED MARTIN CORP. generated $79.1B of revenue over the last twelve months, +7.9% versus the prior year. Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
-      "The latest reported quarter was Q3 FY26, with $20.7B of revenue and an operating margin of 11.8%. The stock closed at $590.34 on 2026-11-17, giving a market capitalization of $136.4B.",
-      "The shares sit 60% of the way up their 52-week range ($437.25 to $692.00). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Lockheed delivered $20.7B of revenue in the quarter ended 27 September 2026, with an 11.8% operating margin and $7.97 of diluted EPS. Revenue was $2.1B higher than the same quarter a year earlier, and the margin was 0.5 points lower, which is the normal texture of this business: the top line grows with appropriations and deliveries, while the margin is decided by contract estimates. The quarter confirms that the programme charges behind the 3.7% margin in Q4 FY24 and 4.1% in Q2 FY25 have not repeated.",
+      "The structural context is appropriations. Aeronautics, at 40.3% of FY2025 revenue, sells fighters and transports and then sustains them for decades; Missiles and Fire Control, at 19.3%, is capacity-constrained rather than demand-constrained; Rotary and Mission Systems is 23.1%; Space is 17.4% and carries the most fixed-price development risk. With 71.6% of revenue sourced in the United States, a continuing resolution or a reprogramming decision moves the revenue base more than any commercial cycle.",
+      "The valuation debate is whether a low-teens operating margin deserves a market multiple. {{marketCap}} is what the market pays for Lockheed at {{price}}: {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA, against 31.0x and 20.4x for the peer group. The gap is not a mispricing to be arbitraged; it reflects 3.9% revenue growth from FY2021 to FY2025 and a business whose profit is capped by contract type. The 15.8x P/FCF and 6.3% free-cash-flow yield are the more relevant parts of the return."
     ],
-    "quote": "A defence programme is a twenty-year relationship with one customer. The customer sets the requirement, negotiates the fee and can change the quantity, which is why the contract type matters more than the price of the product."
+    "quote": "Lockheed's margin is negotiated, not earned: cost-plus contracts cap the upside and fixed-price contracts carry the downside."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,47 @@ export const LMT: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.9% a year across the fiscal years in the dataset, and the latest quarter changed +11.3% year over year. Third-party estimates for the current fiscal year point to $81.4B of revenue and $30.62 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 11.8% and return on invested capital of 29.9% are the filters to watch as revenue scales."
+      "Consensus expects $81.4B of revenue in 2026, 8.5% above FY2025, and $87.2B in 2027, another 7.1%. EPS is forecast at $30.62 and $33.30, so earnings growth outpaces revenue in 2026 and then converges with it. The 2026 step-up depends on the absence of programme charges as much as on volume: FY2025 operating margin was 10.3% against 12.6% in FY2023, so a normalisation of the contract estimates is worth several points before any new order arrives.",
+      "The demand driver is inventory replenishment and allied procurement in missiles, and fleet sustainment in Aeronautics. A fighter programme generates revenue for decades after delivery, but the growth rate is set by flight hours and by the number of aircraft in service, not by a new order. Space is the swing factor: it is the smallest segment and the one where a design change lands on the contractor under a fixed-price development contract."
+    ],
+    "bullets": [
+      {
+        "title": "Munitions capacity",
+        "detail": "Missiles and Fire Control is limited by production capacity, not order intake. Expanding a line takes years, so revenue follows capex already committed."
+      },
+      {
+        "title": "Sustainment annuity",
+        "detail": "Aeronautics earns follow-on work on the F-35, F-16 and C-130 fleets; that revenue tracks flight hours and depot schedules rather than new aircraft orders."
+      },
+      {
+        "title": "International mix",
+        "detail": "Europe was 11.7% and Asia Pacific 10.4% of FY2025 revenue. Allied purchases add growth, but they depend on export licences and buyer budgets."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 11.8%, the net margin is 8.2% and diluted EPS is $28.15. The latest quarter's operating margin was 11.8%.",
-      "Return on equity is 64.7%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $20.7B, an operating margin of 11.8% and a net margin of 8.9%."
+      "The margin history is a record of contract estimates. Operating margin was 12.6% in FY2023, 9.9% in FY2024 and 10.3% in FY2025, and the quarterly range is wider: 3.7% in Q4 FY24, 4.1% in Q2 FY25 and 13.2% in Q1 FY25. The trailing margin is 11.8%, and Q3 FY26 matched it. A single revised estimate on a fixed-price programme can move a quarter by several points, which is why the annual average is more informative than any one period.",
+      "Returns are high because the capital base is small, not because margins are. Return on invested capital is 25.9% against a 16.3% peer median, and return on equity is 64.7%, a figure that owes more to buybacks than to profitability. Net margin is 8.2%, so every 100 basis points of operating margin is worth roughly 12% of net income. That leverage to contract outcomes is the analytical point."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $8.4B, a 10.6% margin. Net debt is $14.5B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $8.4B over the last twelve months and net debt was $14.5B; interest cover was n/a."
+      "FCF was $8.4B over the trailing year, a 10.6% margin, and $6.9B in FY2025 after $1.6B of capex. The conversion is helped by progress payments: the government funds work as it is performed, so working capital is partly financed by the customer. The weak quarters are seasonal and programme-specific, with Q1 FY26 at -$291M and Q2 FY25 at -$150M, followed by $2.9B and $3.0B in the next two quarters.",
+      "Net debt is $14.5B, 1.3x EBITDA, and interest cover is 8.6x, so the balance sheet does not constrain the dividend or the buyback. The 2.5% dividend consumes roughly $3.3B a year at the current market value, leaving most of the free cash flow for repurchases. That is the capital-allocation model: retire stock, shrink the equity base, and let the 64.7% return on equity flatter the result."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 20.9x trailing earnings and 13.7x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $660.86; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "{{marketCap}} is what the market pays for Lockheed at {{price}}, or {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA. The peer medians are 31.0x and 20.4x, so the discount is about 11 turns on earnings and seven on EBITDA. On the 2027 consensus EPS of $33.30 the multiple is roughly 17x, still below the market. A 15.8x multiple of free cash flow and a 6.3% free-cash-flow yield frame the cash return.",
+      "The discount is defensible on growth and contract structure. GE Aerospace trades at 36.6x with a 20.3% operating margin and 22.2% revenue growth; RTX trades at 31.2x on an 11.8% margin and 11.6% growth. Lockheed's 7.9% trailing growth and 11.8% margin put it at the bottom of that group, and its fixed-price Space work adds a risk those peers do not carry to the same degree.",
+      "What would justify a higher multiple is a budget cycle that funds new starts and a clean year without a reach-forward loss. What would break the current one is another charge large enough to cut FY2026 EPS, which consensus puts at $30.62, or a continuing resolution that delays the Q4 revenue step to $22.7B. The 6.3% free-cash-flow yield provides a floor that the earnings multiple alone does not."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "22 analysts contribute to the third-party consensus. The mean target is $660.86, with a range of $498.00 to $835.00.",
-      "Current-year estimates call for $81.4B of revenue and $30.62 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 22 analysts with a mean target of $660.86; third-party estimates can change without notice."
+      "As of 18 November 2026, the Yahoo Finance consensus covers 22 analysts with a mean target of $661 and a range of $498 to $835. The mean is 16% above the current price, but the low end is 13% below it, and the neutral block is unusually large for a defence name with visible revenue.",
+      "Revisions are stable and slightly positive, with the 90-day EPS change at 0.5%. The consensus assumes $30.62 for 2026 and $33.30 for 2027, a 42.5% jump followed by 8.7%, so the first year is a recovery from charges and the second is the underlying growth rate. The Q3 beat of $7.97 against $7.52 supports the near-term number; the FY2027 figure depends on appropriations that have not yet been enacted."
     ]
   },
   "risks": {
@@ -144,5 +156,7 @@ export const LMT: StockStory = {
       "Which fixed-price development programmes remain without a reach-forward loss?",
       "Is the 64.7% return on equity telling us anything about the business, or only about the buybacks?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const PLD: StockStory = {
   "dek": "The rent roll is the annuity. Building new warehouses is the growth engine, and it consumes cash years before it produces any. A large one-off quarter makes the trailing figures a poor guide to either.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $12.3B trailing twelve months, +40.5% year over year.",
-    "Profitability: 66.6% operating margin and 59.6% net margin.",
-    "Cash: $372.3M free cash flow, a 3.0% margin.",
-    "Scorecard: 55/100 average percentile across the factor screens."
+    "A 52.4% operating margin on $8.9B of revenue describes a rent roll, not an operating company; the 42.7% net margin includes gains that do not repeat.",
+    "Net debt of $33.8B is 4.6x EBITDA, and the 3.5% dividend yield is the highest among the three property names here.",
+    "This landlord reports no free cash flow and does not disclose capex, so cash generation is read through $5.0B of FY2025 operating cash flow.",
+    "At 31.7x earnings the shares sit below Equinix's 61.1x and Welltower's 100.6x, a discount that reflects a simpler property model and slower growth."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526051453/pld-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045609&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Prologis, Inc. generated $12.3B of revenue over the last twelve months, +40.5% versus the prior year. Cash flow depends on occupancy, rents, tenant quality and the cost of refinancing the asset base.",
-      "The latest reported quarter was Q3 FY26, with $5.3B of revenue and an operating margin of 82.6%. The stock closed at $125.56 on 2026-11-17, giving a market capitalization of $122.1B.",
-      "The shares sit 13% of the way up their 52-week range ($121.40 to $153.35). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "A 52.7% operating margin on $2.3B of revenue in the March 2026 quarter looks extraordinary until you remember what sits inside a property company's income statement. The December quarter reached 72.2%, and the trailing figures are $8.9B of revenue and a 42.7% net margin. Revaluations, gains on dispositions and depreciation move those numbers, and a single transaction can carry a quarter. The figures should be read as an average of a lumpy series, not as a run rate.",
+      "The rent roll is the annuity. Industrial leases run for years, tenant turnover is expensive because moving a distribution network is disruptive, and much of the property tax, insurance and maintenance is recoverable. Development is the growth engine and the capital sink: land is bought, a building is constructed to specification and leased, and the return depends on the spread between the yield on cost and the cap rate the market would pay for the finished asset. Strategic Capital, at 6.7% of revenue, earns fees on partner capital.",
+      "Whether that spread is still positive is the whole question. At 21.0x EBITDA the shares sit below Equinix at 27.0x and far below Welltower at 62.4x, a discount warranted by a simpler asset and slower growth. But 4.6x leverage means the development programme is financed at a cost that rises with rates, and the 3.5% dividend is the one payment that does not hinge on a transaction. Development yield against funding cost decides whether the growth creates value."
     ],
-    "quote": "A REIT's net income is not its cash flow. Buildings depreciate on the income statement while often holding or gaining value, which is why the sector is measured on funds from operations instead."
+    "quote": "Prologis earns the spread between the yield on a new warehouse and the cap rate the market pays for it, and that spread is the whole case."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,47 @@ export const PLD: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 17.6% a year across the fiscal years in the dataset, and the latest quarter changed +139.6% year over year. Third-party estimates for the current fiscal year point to $8.7B of revenue and $3.97 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 66.6% and return on invested capital of 11.1% are the filters to watch as revenue scales."
+      "Five years took revenue from $4.4B to $8.8B, a 15% annual pace that no landlord achieves organically. Part of it is rent growth and development; part is consolidation and acquisition, which the reported revenue cannot separate. The quarterly path in fiscal 2026 is $2.3B, and the estimate for the year is $8.7B, slightly below the $8.8B reported for 2025. That flat line is the most informative number in the file.",
+      "Rent per square foot and occupancy would be the right growth measures, and neither is disclosed. What is visible is the development model: capital is spent years before the building leases, so revenue lags investment, and a slowdown in leasing shows up as capital tied up in empty space rather than as a revenue miss. Strategic Capital at 6.7% of revenue is the fee stream that partially offsets the cyclicality of development."
     ],
     "bullets": [
       {
-        "title": "Occupancy",
-        "detail": "Leased area is the base for rent. A one-point change in occupancy moves revenue without any change in rate."
-      },
-      {
-        "title": "Leasing spreads",
-        "detail": "Expiring leases reset to market. Positive spreads raise revenue on the same square footage."
-      },
-      {
         "title": "Development yield",
-        "detail": "The return on cost of a new building, measured against the cap rate at which it would trade."
+        "detail": "A building is worth building only when its yield on cost exceeds the cap rate the market pays for the finished asset; that spread compresses when rates rise."
+      },
+      {
+        "title": "Lease expiries",
+        "detail": "Rent growth comes from leases resetting to market, so the expiry schedule, not the occupancy rate, sets the pace of same-store growth."
+      },
+      {
+        "title": "Capital recycling",
+        "detail": "Selling mature assets funds new development, and the gains on those sales flatter net income without adding to the rent roll."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 66.6%, the net margin is 59.6% and diluted EPS is $3.65. The latest quarter's operating margin was 82.6%.",
-      "Return on equity is 12.1%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $5.3B, an operating margin of 82.6% and a net margin of 73.1%."
+      "The margin series is a record of transactions as much as operations. Operating margin was 47.7% in FY2020, 67.4% in FY2021, 58.0% in FY2022, 46.2% in FY2023, 53.8% in FY2024 and 49.6% in FY2025; the trailing figure is 52.4%. Net margin moved between 33.4% and 61.8% over the same years. A property company's net income includes gains that are cash but not recurring, so the margin says more about the year's disposals than about the quality of the rent roll.",
+      "Return on invested capital is 5.1% and return on equity 7.1%, both low in absolute terms and both consistent with a leveraged asset base valued at market rather than at cost. Net debt of $33.8B at 4.6x EBITDA and interest cover of 4.6x are the constraints: the property earns a spread over the mortgage cost, and that spread is thin when the cost of debt is 4–5%. The 3.5% dividend is paid out of operating cash flow, not out of the gains."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $372.3M, a 3.0% margin. The balance sheet carries $2.3B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $372.3M over the last twelve months and net debt was -$2.3B; interest cover was n/a."
+      "For a REIT of this kind the conventional free cash flow line does not exist: it is not reported and capex is not disclosed. The measures that do exist: operating cash flow was $5.0B in FY2025 and $4.9B in FY2024, against net income of roughly $3.3B, because depreciation is large and non-cash. That is the cash available for development, dividends and debt service, and it is the number to use in place of free cash flow.",
+      "Net debt rose from $29.6B in FY2024 to $33.9B in FY2025 and is $33.8B trailing, at 4.6x EBITDA. The dividend at 3.5% consumes a meaningful share of the $5.0B of operating cash flow; the payout ratio is not disclosed, so coverage has to be inferred from the cash flow and the yield. Development spending is the other claim on that cash, and it is the one that can be slowed if leasing weakens."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 16.7x trailing earnings and 20.4x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $152.07; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Prologis changes hands at {{pe}} trailing earnings and {{evEbitda}} EBITDA, below Equinix at 61.1x and 27.0x and far below Welltower at 100.6x and 62.4x. The gap is not a mispricing: those two carry operating businesses inside the REIT structure or a development pipeline priced for growth, while Prologis is a rent roll with a development arm. The 17.3x EV/Sales looks high until you remember that revenue is net rent rather than gross property income.",
+      "Funds from operations would be the right denominator, and it is not disclosed. On earnings, the 2026 estimate of $3.96 puts the shares at about 32x, and the 2027 estimate of $3.60 at about 35x — a rising multiple on falling earnings, the signature of a year with fewer gains. The 3.5% dividend yield is the return that does not depend on transactions, and it is the reason the shares have held a $122 to $153 range.",
+      "Two variables decide the next few years. For the multiple to hold, market rents must rise faster than the cost of capital, which would make each new building accretive. A cap-rate expansion that lowers asset values while debt costs stay high would break it. The 4.6x leverage turns that into an equity problem quickly, and the 3.5% yield does not cover the gap."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "14 analysts contribute to the third-party consensus. The mean target is $152.07, with a range of $136.00 to $170.00.",
-      "Current-year estimates call for $8.7B of revenue and $3.97 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 14 analysts with a mean target of $152.07; third-party estimates can change without notice."
+      "The Yahoo Finance tally on 18 November 2026 shows 14 analysts covering Prologis, a mean target of $152 and a range of $136 to $170 against a $125 price. The mean is 22% above the market and even the low end is 9% above it, which is unusual: the consensus is not divided about direction, only about how much.",
+      "Revenue of $8.7B and EPS of $3.96 are the 2026 numbers, with 2027 at $9.7B and $3.60. The upward revision is the largest in the group — +18.1% over 30 days and +21.8% over 90 — and the last four quarters beat in each case. The consensus is therefore extrapolating transaction gains and rent growth at the same time, the combination that flatters a REIT's earnings without proving the rent roll is accelerating."
     ]
   },
   "risks": {
@@ -158,5 +156,7 @@ export const PLD: StockStory = {
       "What yield on cost is the development pipeline underwritten at, versus the market cap rate?",
       "How much of the rent roll expires in the next two years?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

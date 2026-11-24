@@ -7,21 +7,21 @@ export const MSFT: StockStory = {
   "dek": "Azure grew 48% and the cloud business now bills $63.9B a quarter. The question is whether the capital behind it earns its cost.",
   "readingMinutes": 11,
   "takeaways": [
-    "Q1 FY2027 revenue was $92.3B, up 19%; operating income rose 21% to $45.9B and GAAP EPS was $4.92, up 32%.",
-    "Microsoft Cloud revenue was $63.9B, up 30%, Azure grew 48%, and commercial remaining performance obligation rose 73% to $677B.",
-    "Trailing revenue is $346.4B at a 47.1% operating margin, with $60B of free cash flow and $29B of net cash.",
-    "At {{price}} the shares trade at {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA, with a {{return1y}} one-year return and a {{fcfYield}} free-cash-flow yield."
+    "First-quarter fiscal 2027 revenue was $92.3B, up 19%, with operating income of $45.9B and GAAP EPS of $4.92.",
+    "Microsoft Cloud revenue reached $63.9B, up 30%, Azure grew 48%, and commercial remaining performance obligation rose 73% to $677B.",
+    "Trailing revenue is $346.4B at a 47.1% operating margin, but free cash flow is $60.0B, a 17.3% margin, as capex reached $115.9B in fiscal 2026.",
+    "A {{pe}} multiple is a discount to the 32.0x peer median for a business with a 47.1% operating margin."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
   "irUrl": "https://www.microsoft.com/en-us/investor",
   "earningsReleaseUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm",
   "bigPicture": {
     "paragraphs": [
-      "Microsoft reported first-quarter fiscal 2027 revenue of $92.3B on 28 October 2026, up 19% from a year earlier. Operating income rose 21% to $45.9B, net income rose 32% to $36.6B and GAAP diluted EPS was $4.92. The GAAP figure includes the impact of the OpenAI investment; non-GAAP EPS was $4.89, up 18%, which is a cleaner read on the operating business.",
-      "The cloud detail is where the growth sits. Microsoft Cloud revenue was $63.9B, up 30% and accelerating, Azure grew 48%, and commercial remaining performance obligation rose 73% to $677B. That backlog matters more than a single quarter's beat: it is contracted work that has not yet been recognised, and it supports the case that AI demand is being converted into multi-year enterprise commitments rather than one-off pilots.",
-      "The market has priced a good deal of this. At {{price}} the market capitalisation is {{marketCap}}, or {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA. The shares are {{rangePosition}} of the way up a 52-week range of {{range52}} and have returned {{return1y}} over the year, so the multiple has done most of the work while earnings grew. The debate is now about capital intensity: whether the data-centre spend behind Azure earns a return above its cost of capital, or merely buys revenue at a lower margin."
+      "Azure's 48% growth did the heavy lifting in the September quarter, but the consolidated numbers were just as strong. Revenue reached $92.3B, up 19%, operating income $45.9B, up 21%, and GAAP EPS $4.92. Net income rose 32% to $36.6B, helped by the OpenAI investment treatment; non-GAAP EPS of $4.89, up 18%, is the cleaner operating comparison. The composition matters more than the headline, because the cloud mix sets the margin.",
+      "Microsoft Cloud revenue was $63.9B, up 30%, and commercial remaining performance obligation rose 73% to $677B. That backlog is contracted work, not a pipeline, and it supports the case that AI demand is becoming multi-year enterprise commitments. The cost is visible in capex: $115.9B in fiscal 2026 against $64.6B a year earlier, with depreciation still ahead. The backlog is the strongest forward indicator in the release, and it is growing faster than revenue.",
+      "The shares carry a {{pe}} trailing multiple and {{evEbitda}} EV/EBITDA, below peer medians of 32.0x and 25.5x, despite a 47.1% operating margin. The discount is not about Azure's growth; it is about the gap between a 47.1% operating margin and a 17.3% free-cash-flow margin. Whether the data-centre spend earns its cost of capital is the question that sets the multiple. The market is charging for the capex, not doubting the franchise."
     ],
-    "quote": "Microsoft's advantage is not that it has the best model. It is that it has the shortest path from a model to a paying enterprise seat."
+    "quote": "Microsoft's $677B backlog turns AI demand into contracted revenue; the capex line decides whether that revenue is profitable."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -53,48 +53,48 @@ export const MSFT: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue has compounded through the cloud transition and is now $346.4B on a trailing basis, up 17.9% year over year. The quarterly path through fiscal 2027 started at $92.3B, up from $90.0B in the June quarter, and consensus looks for $96.7B next quarter. Growth at this scale is unusual for a company of Microsoft's size, and it is being driven by consumption rather than by licence renewals.",
-      "The composition matters. Azure grew 48%, faster than the cloud average, while Microsoft 365 commercial cloud grew 18% (19% in constant currency) on an adjusted basis. The commercial RPO of $677B, up 73%, is the strongest forward indicator in the release: it converts a demand narrative into contracted obligations that will be recognised over the next several years.",
-      "Third-party estimates put current-fiscal-year revenue at $396B and EPS at $20.01, with next year at $477B and $24.20. Those are consensus numbers, not Stockmonk projections. They assume Azure keeps growing at a rate well above the corporate average and that the AI attach to Office continues to convert seats into higher revenue per user."
+      "Azure consumption is the growth engine, and it is still accelerating. Azure grew 48%, ahead of Microsoft 365 commercial cloud at 18%, while the commercial RPO rose 73% to $677B. The installed base matters: customers already running Microsoft 365 and Entra ID have a shorter path to Azure than to a rival cloud, which is why the AI attach is converting into contracted spend rather than pilots.",
+      "Revenue is shifting toward infrastructure. Productivity & Business Processes is 42.2% of annual revenue, Intelligent Cloud 41.5% and More Personal Computing 16.3%. Infrastructure is lower-margin than software but larger and stickier. Consolidated gross margin slipped to 67.7%, and the trend will continue as AI capacity costs land in Intelligent Cloud before the revenue they support. Intelligent Cloud carries the capital cost before the revenue.",
+      "Fiscal 2027 consensus of $396.0B revenue and $20.01 EPS assumes 19.3% growth, with EPS growth of 15.8% lagging because of depreciation. Fiscal 2028 is $477.1B and $24.20, a re-acceleration to 20.9% EPS growth. The December quarter is estimated at $96.7B, so the near-term bar is already above the current run rate. The estimate assumes depreciation peaks without a demand pause."
     ],
     "bullets": [
       {
-        "title": "Azure and AI consumption",
-        "detail": "Azure grew 48% in the quarter. Consumption growth is the cleanest signal that AI workloads are moving from trials into production."
+        "title": "Azure consumption",
+        "detail": "Azure grew 48% in the quarter. Consumption is the cleanest evidence that AI workloads are moving from trials into production rather than staying in pilot budgets."
       },
       {
-        "title": "Commercial RPO",
-        "detail": "$677B of contracted but unrecognised revenue, up 73%, gives more visibility than a backlog of renewals alone."
+        "title": "RPO conversion",
+        "detail": "The $677B commercial RPO, up 73%, is contracted but unrecognised revenue. The timing and margin of conversion matter more than the headline figure."
       },
       {
         "title": "Copilot attach",
-        "detail": "Microsoft 365 commercial cloud growth of 18% shows the installed base is still expanding revenue per seat, not just adding users."
+        "detail": "Microsoft 365 commercial cloud grew 18%, showing the installed base is expanding revenue per seat, not just adding users."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The quarter's operating margin was 49.8%, up from 45.1% in the June quarter, and net income of $36.6B was 39.7% of revenue. GAAP EPS of $4.92 rose 32%, helped by the OpenAI investment treatment; the non-GAAP figure of $4.89, up 18%, is the better comparison against the operating result.",
-      "On a trailing basis the operating margin is 47.1%, the net margin 41.2%, return on equity 30.3% and return on invested capital 29.2%. Those are strong numbers for a capital-intensive cloud business, but the trend to watch is the relationship between revenue growth and capital expenditure: the free-cash-flow margin of 17.3% is well below the software-only history, because the AI build-out consumes cash before it produces revenue."
+      "Operating margin of 49.8% was up from 45.1% in the June quarter, and net income of $36.6B was 39.7% of revenue. GAAP EPS rose 32%, helped by the OpenAI treatment; non-GAAP EPS rose 18%. The gap between the two is a reminder that reported earnings can move for reasons unrelated to the operating business, and the non-GAAP line is the better guide to the margin trend.",
+      "Trailing operating margin is 47.1%, net margin 41.2% and return on equity 30.3%. Return on invested capital is 25.9%, above the 18.8% peer median, and the operating margin is well above the 27.7% median. The anomaly is cash conversion: the 17.3% free-cash-flow margin is below the 28.8% peer median because $115.9B of capex is landing before the revenue it supports."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow was $60B over the trailing period, a 17.3% margin, and the balance sheet carries $29B of net cash. At the current price the shares trade at {{pfcf}} trailing free cash flow, a {{fcfYield}} free-cash-flow yield. That is the price of the AI investment: a business that once converted most of its operating profit into cash is now reinvesting a large share of it in data centres.",
-      "The cash question is not whether Microsoft can fund the build-out; it can. It is whether the incremental capex earns a return. Commercial RPO gives visibility on the revenue side, but the margin on AI workloads will be lower than on traditional software licences, at least while the infrastructure is being depreciated."
+      "Capex of $115.9B absorbed 63% of the $182.9B of operating cash flow in fiscal 2026, which is the shape of a cloud build rather than a software-only business. Trailing free cash flow was $60.0B, a 17.3% margin. Net cash is $29.0B and interest cover is 50.6x, so the balance sheet is not the constraint. The gap is the cost of capacity that has not yet been billed.",
+      "Capital allocation has a clear order. The dividend and buyback are funded, but capex has first claim. Commercial RPO gives visibility on the revenue side, yet AI workloads carry a lower margin than traditional licences while the infrastructure is depreciated. At {{pfcf}} trailing free cash flow and a {{fcfYield}} yield, the shares are priced for a successful conversion; a capex peak without an Azure slowdown would be the bullish resolution."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At {{price}} the market capitalisation is {{marketCap}}, or {{pe}} trailing earnings, {{evEbitda}} EV/EBITDA and {{pfcf}} trailing free cash flow. The stock is {{rangePosition}} of the way up its 52-week range ({{range52}}) and has returned {{return1y}} over the past year, so the multiple has compressed slightly even as earnings grew.",
-      "On consensus numbers the forward picture is about 25.3x FY2027 EPS of $20.01 and about 20.9x FY2028 EPS of $24.20. Those multiples are a premium to the market, which is defensible if Azure keeps growing near 40% and the RPO converts at the current margin. They are harder to defend if cloud growth decelerates toward 20% while capex stays at the current pace.",
-      "The peer table below compares Microsoft with a group of large software and platform businesses. The multiple is a starting point for questions, not a verdict: a 47% operating margin with a 17% free-cash-flow margin is a different business from a 47% operating margin with a 35% cash margin."
+      "A 26.0x trailing multiple is a discount to the 32.0x peer median for a business with a 47.1% operating margin. EV/EBITDA of 18.2x compares with 25.5x, and P/FCF of 61.7x shows the cash penalty from the build. The shares sit {{rangePosition}} of the way up a 52-week range of {{range52}} and have returned {{return1y}} over the year. The gap is about cash conversion, not demand.",
+      "Forward multiples depend on the capex cycle. Fiscal 2027 EPS of $20.01 implies about 25x and fiscal 2028 EPS of $24.20 about 21x. Those are below the peer median despite the margin, which is unusual for a franchise with this much recurring revenue. A dollar of Azure revenue is worth less than a dollar of software revenue until the capex turns.",
+      "The peer set shows the trade-off. Nvidia trades at 20.9x with a 65.2% operating margin and a 41.9% free-cash-flow margin; Apple at 38.4x with 33.0%; Broadcom at 38.6x with 48.0% but more leverage. Microsoft at 26.0x sits in the middle, reasonable if Azure stays near 40% and capex peaks. A slowdown to 25% would make the multiple look full. The shares price a successful conversion, not a capex-led margin shock."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "The attributed third-party consensus covers 54 analysts with a mean target of $636.12 and a range of $440.00 to $870.00, as of 18 November 2026. The spread reflects genuine disagreement about how much of the AI infrastructure spend converts into profitable cloud revenue over the next two years.",
-      "Current-year estimates call for $396B of revenue and $20.01 of EPS; next year is $477B and $24.20. These are third-party forecasts and can change without notice. They are shown for context, not as a recommendation, and they are the reason the forward multiple looks lower than the trailing one."
+      "Targets range from $440 to $870, with a mean of $636, about 28% above the current price. The 54 analysts are unusually clustered on the upside: only a handful sit below the market, and the dispersion is mostly about the pace of Azure rather than the direction. That is a consensus with a narrow bear case.",
+      "The revision trend is modestly positive. EPS estimates rose 1.2% over 30 days and 1.4% over 90 days, while the December quarter is forecast at $96.7B of revenue. Fiscal 2027 revenue is $396.0B and EPS $20.01; fiscal 2028 is $477.1B and $24.20. The estimates embed Azure near 40%, the RPO converting on schedule and capex decelerating without a margin shock."
     ]
   },
   "risks": {
@@ -159,6 +159,6 @@ export const MSFT: StockStory = {
       "What happens to the multiple if Azure growth settles near 25%?"
     ]
   },
-  "narrativeSource": "handwritten",
-  "narrativeUpdatedAt": "2026-11-18"
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

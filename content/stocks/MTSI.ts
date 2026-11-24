@@ -7,20 +7,20 @@ export const MTSI: StockStory = {
   "dek": "MACOM's chips sit inside someone else's equipment, so revenue follows network builds and defence programmes rather than consumer demand. Its net margin is higher than its operating margin, and that is the first thing worth explaining.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $1.2B trailing twelve months, +28.4% year over year.",
-    "Profitability: 18.1% operating margin and 20.7% net margin.",
-    "Cash: $204.1M free cash flow, a 17.5% margin.",
-    "Scorecard: 46/100 average percentile across the factor screens."
+    "July quarter revenue reached $342.2M at a 22.5% operating margin, up from 17.6% in the prior quarter and 8.0% five quarters earlier.",
+    "Operating income rose from $17.4M to $77.0M over six quarters, so about 48 cents of each added revenue dollar reached the operating line.",
+    "At 61.3x EBITDA the shares trade at twice the 30.1x peer median, while Advanced Energy at 19.8x grows faster on a lower gross margin.",
+    "Net margin of 29.4% exceeds the operating margin, a reminder that non-operating items have moved the net line by more than the business."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1493594/000149359425000054/mtsi-20251003.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001493594&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "MACOM Technology Solutions Holdings, Inc. generated $1.2B of revenue over the last twelve months, +28.4% versus the prior year. The cycle is driven by inventory, utilisation and the next node or packaging transition.",
-      "The latest reported quarter was Q3 FY26, with $342.2M of revenue and an operating margin of 22.5%. The stock closed at $227.36 on 2026-11-17, giving a market capitalization of $17.5B.",
-      "The shares sit 29% of the way up their 52-week range ($150.80 to $418.90). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Optical and defence demand lifted revenue to $342.2M in the July 2026 quarter, with a 22.5% operating margin and $1.28 of EPS, against 17.6% and $0.60 in the prior quarter. Trailing revenue is $1.2B, up 28.4%, and the operating margin has expanded for six consecutive quarters. The net margin of 29.4% is above the operating margin, which is the first thing a reader has to explain. The 6.9-point gap between the two lines is larger than any operating item, so the non-operating account is where to look.",
+      "MACOM sells analog and RF parts into three end markets: the front-end chips inside optical transceivers, amplifiers and switches for wireless infrastructure and radar, and components for satellite and defence programmes. The common thread is a specification measured in gigahertz, where the number of qualified suppliers is small and the customer's alternative is a redesign. Manufacturing is mixed between internal processes and external foundries, which keeps capital intensity below a leading-edge fab while preserving control of the specialised steps.",
+      "At 73.1x earnings and 61.3x EBITDA, the shares carry a premium to peer medians of 54.4x and 30.1x, and 14.5x sales is nearly four times Advanced Energy's 3.7x. Net cash of $743.4M supports the balance sheet but does not explain the gap. The premium is a bet that the optical and defence programmes now ramping are a new revenue base rather than a peak in a two-quarter upcycle. That is the crux: a good franchise priced as if the cycle has already been won."
     ],
-    "quote": "The customer does not buy a MACOM part; it buys a qualified design that happens to include one. That is why the gross margin holds and why the revenue is lumpy."
+    "quote": "MACOM's RF parts are specified into equipment that ships for years; the 61.3x EBITDA multiple asks how much of the next equipment cycle is already in the price."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,46 @@ export const MTSI: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 12.8% a year across the fiscal years in the dataset, and the latest quarter changed +35.8% year over year. Third-party estimates for the current fiscal year point to $1.9B of revenue and $9.80 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 18.1% and return on invested capital of 13.3% are the filters to watch as revenue scales."
+      "Data-centre optical links are the fastest-moving driver. MACOM's analog front-end parts sit inside the transceivers that connect accelerators and switches, so demand rises with the number of high-speed links rather than with the number of servers. Satellite and defence programmes provide the other leg, with long qualification cycles and budgets set years ahead. Revenue went from $967.3M in FY2025 to $1.2B trailing, and the July quarter was 35.7% above the year-earlier $252.1M.",
+      "Consensus revenue takes a further step: $455.3M in the September quarter, 67.6% above the year-earlier figure, and $1.9B for the fiscal year, up 46.1%. That is a large assumption for a business whose design wins take years to become revenue. The customer base is concentrated in a few programme owners, and China is 28.4% of revenue, so a procurement delay or an export restriction can move a quarter more than the order book suggests."
     ],
     "bullets": [
       {
-        "title": "Optical demand",
-        "detail": "Data-centre interconnect growth pulls through analog front-end parts per transceiver."
+        "title": "Optical content",
+        "detail": "More high-speed links per system raise the analog content in each transceiver, which is the fastest-growing part of the mix."
       },
       {
-        "title": "Defence and satellite programmes",
-        "detail": "Long cycles that add revenue when a platform moves into production, independent of commercial demand."
+        "title": "Defence and space",
+        "detail": "Qualification takes years, but a programme that enters production tends to stay for its life."
       },
       {
-        "title": "Operating leverage",
-        "detail": "The margin has risen as revenue grew, which is the mechanism that turns a modest sales increase into a larger profit increase."
+        "title": "China exposure",
+        "detail": "China supplied 28.4% of revenue, adding a policy dimension to the programme timing."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 18.1%, the net margin is 20.7% and diluted EPS is $3.14. The latest quarter's operating margin was 22.5%.",
-      "Return on equity is 15.6%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $342.2M, an operating margin of 22.5% and a net margin of 29.4%."
+      "Eighteen months of operating leverage took the margin from 8.0% to 22.5%. Revenue climbed from $218.1M in the January 2025 quarter to $342.2M in July 2026, and operating income from $17.4M to $77.0M; about 48 cents of each added revenue dollar reached the operating line. Gross margin is 56.5%, so the leverage comes from spreading a fixed engineering and test cost base across more units rather than from pricing.",
+      "The net line needs separate treatment. Trailing net margin is 20.7%, above the 18.1% operating margin, because non-operating items have swung the net figure in both directions: FY2022 showed a 65.2% net margin and FY2025 a -5.6% one. Operating income and free cash flow are the reliable measures. ROIC is 9.4%, level with the peer median, while ROE of 15.6% sits above it. The operating trend is good; the return on capital is not yet exceptional."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $204.1M, a 17.5% margin. The balance sheet carries $291.9M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $204.1M over the last twelve months and net debt was -$291.9M; interest cover was n/a."
+      "Net cash of $743.4M is 4.2% of the market value and 2.7x EBITDA, and interest cover of 43.5x means the capital structure is not a constraint. Free cash flow was $204.1M trailing, a 17.5% margin, on operating cash flow of $235.4M in FY2025 and capex of $42.6M, just 4.4% of revenue. The quarterly path has been $30.0M, $65.5M and $59.2M, so cash conversion has kept pace with the margin.",
+      "Capital allocation is conservative. Nothing is distributed, and the cash balance has grown rather than been deployed into acquisitions, which leaves the company with the option to fund capacity or repurchase shares later. The one caveat is working capital: the July quarter generated $59.2M of free cash flow on $342.2M of revenue, less than the 22.5% operating margin would imply, because inventory and receivables rise with the ramp."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 72.5x trailing earnings and 62.4x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $327.00; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Sixty-one times EBITDA and 73.1x earnings compare with peer medians of 30.1x and 54.4x, and 14.5x sales is the highest in the group after Lattice and SiTime. The premium is not explained by growth alone: MACOM grew 28.4% trailing, exactly the peer median. It rests on the mix of optical, satellite and defence programmes and on the market's willingness to capitalise the current operating margin.",
+      "The multiple assumes the $1.9B revenue estimate arrives at a margin near the July quarter's 22.5%. On that revenue base, 61.3x EBITDA would fall to roughly 42x even with no margin expansion, which is still above the peer median. Advanced Energy, growing 31.7% with a 16.0% operating margin, trades at 19.8x EBITDA; the gap between the two is the price of MACOM's gross margin and its defence exposure."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "16 analysts contribute to the third-party consensus. The mean target is $327.00, with a range of $220.00 to $450.00.",
-      "Current-year estimates call for $1.9B of revenue and $9.80 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 16 analysts with a mean target of $327; third-party estimates can change without notice."
+      "Sixteen analysts in the Yahoo Finance survey of 18 November 2026 carry a mean target of $327 against a $229 price and a range of $220 to $450. EPS estimates rose 14.8% over seven days and 15.5% over ninety, a strong revision trend, but the last four quarters beat by only 2% to 5%, so the revisions are forward-looking rather than a response to persistent surprise.",
+      "The consensus assumes the September quarter's $455.3M revenue estimate is met, 67.6% above the year-earlier figure, and that the operating margin holds near 22.5%. That would put the fiscal year at $1.9B, 46.1% above trailing. The low target of $220 is 4% below the price, so the dispersion is about the durability of the optical ramp rather than about the near-term number. At $327, the mean target implies a 43% gain, which is a second bet on top of the estimate."
     ]
   },
   "risks": {
@@ -164,5 +161,7 @@ export const MTSI: StockStory = {
       "Is the 22.5% operating margin a mix effect or a utilisation effect?",
       "Why has net income diverged so far from operating income in both directions?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

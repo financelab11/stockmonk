@@ -7,20 +7,20 @@ export const WING: StockStory = {
   "dek": "Most of the 1,500-plus locations are franchised, so revenue is a percentage of system sales rather than the full ticket. That explains a 27.7% operating margin, a 47.9% return on capital and a leveraged balance sheet.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $730.1M trailing twelve months, +6.9% year over year.",
-    "Profitability: 27.7% operating margin and 16.0% net margin.",
-    "Cash: $116.6M free cash flow, a 16.0% margin.",
-    "Scorecard: 39/100 average percentile across the factor screens."
+    "A 27.7% operating margin on $730.1M of revenue comes from royalties, not restaurants, and return on invested capital of 33.2% is the highest in the group.",
+    "Net debt of $1.11B is 4.8x EBITDA, and interest cover is not reported, which is the missing number for a leveraged franchisor.",
+    "At 33.2x earnings and 21.5x EBITDA the shares still price a return to mid-teens growth that the September quarter, at 5.3%, does not show.",
+    "Twenty-five analysts carry a $185 mean against $144, but estimates were cut 6.9% in ninety days as sales momentum faded."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1636222/000163622226000008/wing-20251227.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001636222&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Wingstop Inc. generated $730.1M of revenue over the last twelve months, +6.9% versus the prior year. The model depends on unit growth, brand heat and whether new customers return.",
-      "The latest reported quarter was Q3 FY26, with $185.1M of revenue and an operating margin of 27.4%. The stock closed at $152.13 on 2026-11-17, giving a market capitalization of $4.1B.",
-      "The shares sit 27% of the way up their 52-week range ($95.82 to $302.80). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "The September quarter produced $185.1M of revenue, 5.3% above the $175.7M of a year earlier, with a 27.4% operating margin and $1.07 of EPS against a $1.02 estimate. Free cash flow was $49.7M. Those are respectable numbers for a restaurant franchisor, but they are a fraction of the 36.0% revenue growth recorded in FY2024. Operating margin has sat between 25.9% and 29.4% for six consecutive quarters, so the profit rate is stable while the top line decelerates. The quarter is a margin story attached to a slowing sales story.",
+      "The business collects a royalty on franchisee sales, a contribution to the national advertising fund and an initial franchise fee. It does not carry restaurant rent, labour or food cost, which is why a small corporate staff can support a system of more than 1,500 locations and why operating margin is 27.7%. Revenue scales with system-wide sales rather than with the company's own store count, so a new unit adds a royalty stream from opening day and an existing unit adds more when its sales rise. The narrow menu of wings, tenders, fries and dips is what makes the model replicable.",
+      "The capital-allocation picture is the constraint. Net debt of $1.11B is 4.8x EBITDA, and the 0.9% dividend plus the debt load leave little room for buybacks if growth slows further. At $144 the shares trade on 33.2x earnings, 21.5x EBITDA and 6.8x sales against a consumer peer median of 47.6x earnings and 16.2x EBITDA, so the premium sits on EBITDA and sales rather than earnings. The 52-week range of $96 to $303 shows how violently the market has repriced the growth assumption without changing its view of the brand."
     ],
-    "quote": "A franchisor is a royalty stream with a restaurant attached. The questions are how fast the system grows and how much of each franchisee's sales the company gets to keep."
+    "quote": "Wingstop sells a royalty on other people's restaurant sales, and at 4.8x EBITDA the balance sheet has become the binding constraint."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,47 @@ export const WING: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 23.2% a year across the fiscal years in the dataset, and the latest quarter changed +5.3% year over year. Third-party estimates for the current fiscal year point to $746.7M of revenue and $4.14 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 27.7% and return on invested capital of 47.9% are the filters to watch as revenue scales."
+      "System sales, not company revenue, drive the model, and only the company line is reported. Revenue growth of 6.9% on a trailing basis is the weakest in the consumer group, where the median is 31.1%. The estimate for FY2026 is $746.7M, up 7.2%, and for FY2027 $856.0M, up 14.6%. That second year is the interesting one: it assumes a reacceleration the last four quarters, between 5.3% and 8.6%, do not support. Either unit openings accelerate or same-store sales inflect.",
+      "The royalty rate is fixed by contract and the advertising fund passes through at close to cost, so the incremental margin on a new restaurant is high but the revenue per unit is a small slice of the till. That structure means growth is a function of franchisee economics: if a franchisee's return on a new build falls, openings slow before the company's own margin does. Franchisee profitability and the split between openings and same-store sales are not disclosed, which is the largest gap in the analysis."
     ],
     "bullets": [
       {
+        "title": "Royalty rate",
+        "detail": "Revenue is a percentage of system sales, so a point of same-store growth moves the top line without any change in the cost base."
+      },
+      {
         "title": "Unit openings",
-        "detail": "New franchised restaurants add royalty revenue with almost no company capital. The main growth engine."
+        "detail": "New restaurants add royalty income from opening day, and openings are not separated from same-store sales in the 6.9% growth."
       },
       {
-        "title": "Same-store sales",
-        "detail": "Higher sales at existing restaurants lift the royalty base without a new build."
-      },
-      {
-        "title": "International",
-        "detail": "Markets outside the United States add units and brand awareness, though at a smaller royalty base per store in the early years."
+        "title": "Franchisee returns",
+        "detail": "If a franchisee's cash return on a new build falls, openings follow, and the company's revenue depends on their capital rather than its own."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 27.7%, the net margin is 16.0% and diluted EPS is $4.27. The latest quarter's operating margin was 27.4%.",
-      "Return on equity is -15.1%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $185.1M, an operating margin of 27.4% and a net margin of 15.7%."
+      "Operating margin has been remarkably stable: 25.7% in FY2025, 27.4% in the September quarter, and between 25.9% and 29.4% in each of the last six quarters. The blended gross margin includes company-operated restaurants and the advertising fund, both of which carry costs close to revenue, so the consolidated figure understates the royalty line. Net margin of 16.0% trails operating margin by the interest bill and a tax rate that flattered FY2025, when net margin reached 25.0%.",
+      "Return on invested capital of 33.2% is the best in the group and sits against a 9.3% peer median; return on equity is -15.1%, which is a capital-structure artefact rather than an operating result. The gap between the two returns is the clearest evidence that the franchise model earns well on tangible capital and that the balance sheet, not the restaurant economics, carries the risk. EPS rose from $3.70 in FY2024 to $6.21 in FY2025, a 67.8% increase that operating income did not match, so the FY2025 figure should not be used as a normalised base.",
+      "Comparing margins is awkward because no other name in the group runs a franchise royalty model. On operating margin, 27.7% against a 10.1% median is a structural difference, not a competitive win. On growth, 6.9% against 31.1% is the other side of the same coin: the model converts a small revenue base into high margin but cannot manufacture unit growth. That combination explains why the shares carry a premium EBITDA multiple and a below-median earnings multiple at the same time."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $116.6M, a 16.0% margin. Net debt is $1.1B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $116.6M over the last twelve months and net debt was $1.1B; interest cover was n/a."
+      "Capital spending of $47.4M against $153.1M of operating cash flow produced $105.6M of free cash flow in FY2025, a 15.2% margin. The trailing figure is $116.6M, or 16.0% of revenue. Quarterly cash flow is volatile in a way the annual figure hides: -$8.6M in the December 2024 quarter, -$11.3M in June 2026, then $49.7M in September. The swings are large relative to a $185M quarterly revenue base, and no explanation is given for them, so the annual number is the one to use.",
+      "The balance sheet is where the model loses flexibility. Net debt of $1.11B at 4.8x EBITDA is high for a business with mid-single-digit revenue growth, and interest cover is not reported, which leaves the cost of that debt unquantified. The 0.9% dividend absorbs a small share of free cash flow, but a company at 4.8x has limited capacity to add leverage for buybacks or acquisitions. Deleveraging now depends on EBITDA growth, and EBITDA growth depends on the openings that have slowed."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 35.2x trailing earnings and 22.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $184.92; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Thirty-three times earnings and 21.5x EBITDA for a 6.9% grower is the central tension. The consumer peer median is 47.6x earnings and 16.2x EBITDA, so Wingstop is cheap on earnings and expensive on EBITDA, a split that comes from a much higher margin than the branded consumer names in the group. On the FY2026 estimate of $4.14 the shares trade at 34.8x, and on $5.02 for FY2027 at 28.7x. The 2027 number requires 21.1% EPS growth on 14.6% revenue growth.",
+      "A 6.8x sales multiple is the part that needs explaining. For a franchisor with a 27.7% operating margin, sales multiples are a crude tool, but the peer set prices similar margins at four to five turns of sales. The premium implies the market expects unit growth to resume and the royalty stream to keep compounding without additional capital. What would justify it is a return to low-double-digit system sales growth with stable margins; what would break it is another year at 5%, which would leave the multiple exposed."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "25 analysts contribute to the third-party consensus. The mean target is $184.92, with a range of $120.00 to $265.00.",
-      "Current-year estimates call for $746.7M of revenue and $4.14 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 25 analysts with a mean target of $184.92; third-party estimates can change without notice."
+      "Coverage from twenty-five analysts, dated 18 November 2026, puts the mean target at $185 against a $144 price, with a range of $120 to $265. The dispersion is wide for a company this size, and the $120 low is close to the 52-week floor of $96, which suggests at least one analyst is valuing the leverage rather than the royalty stream.",
+      "The revision trend is the more telling signal: EPS estimates fell 6.5% over thirty days and 6.9% over ninety, even as the company beat the consensus figure in each of the four quarters shown. The December-quarter estimate of $0.70 implies a 30.3% decline, which is a margin and tax comparison rather than a demand collapse. The FY2026 figure of $4.14 assumes 1.5% growth, and the FY2027 figure of $5.02 assumes 21.1%. The consensus is therefore a bet on 2027, not on the next two quarters."
     ]
   },
   "risks": {
@@ -158,5 +156,7 @@ export const WING: StockStory = {
       "Can the company de-lever if revenue growth stays in the mid-single digits?",
       "Why is the sales multiple so much higher than peers, and is that comparison meaningful?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

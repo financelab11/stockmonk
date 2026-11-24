@@ -7,20 +7,20 @@ export const COP: StockStory = {
   "dek": "The company sells more barrels than it did in FY2021 but earns no more net income. Depreciation, royalties and the price per barrel explain the gap, and so does the cost of standing still in a depleting asset base.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $60.2B trailing twelve months, +13.1% year over year.",
-    "Profitability: 29.4% operating margin and 19.2% net margin.",
-    "Cash: $12.4B free cash flow, a 20.6% margin.",
-    "Scorecard: 67/100 average percentile across the factor screens."
+    "The third quarter earned $3.34 per share at a 34.8% operating margin on $17.2B of revenue, far above Q4 FY25's 19.7%.",
+    "FY2025 revenue was roughly 50% above FY2021 but net income was about unchanged, because the net margin fell from 23.4% to 15.4%.",
+    "Free cash flow and capex are not reported for recent years, so cash conversion has to be read from $19.8B of operating cash flow and $13.3B of net debt.",
+    "At {{pe}} earnings and {{evEbitda}} EV/EBITDA the shares are cheaper than ExxonMobil and Chevron despite a 29.4% operating margin that beats both."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000009/cop-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001163165&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "ConocoPhillips generated $60.2B of revenue over the last twelve months, +13.1% versus the prior year. Cash flow is a function of commodity prices, production volumes and capital discipline.",
-      "The latest reported quarter was Q3 FY26, with $17.2B of revenue and an operating margin of 34.8%. The stock closed at $139.48 on 2026-11-17, giving a market capitalization of $164.9B.",
-      "The shares sit 78% of the way up their 52-week range ($85.70 to $154.28). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "ConocoPhillips earned $3.34 per share in the third quarter of 2026 at a 34.8% operating margin, almost double the $1.78 of the first quarter. Revenue was $17.2B, down from $18.1B in Q2 but well above the $11.4B of Q4 FY25, when the margin was 19.7%. The move is the oil price applied to a fixed cost base: once the wells and platforms exist, the cash cost of another barrel is small, so a modest revenue move produces a large margin move. Nothing about the asset base changed across those quarters.",
+      "The portfolio is 79.9% Lower 48, 10.9% Alaska and 10.8% Canada by segment revenue, which makes it a US shale and conventional producer with a small international overlay. Each field has a decline curve, so a large part of the capital budget replaces produced barrels before it adds any. The quality of the rock sets the cost per barrel, and the cost per barrel sets how much of a price move reaches the shareholder.",
+      "The valuation is a mid-cycle argument. The market values ConocoPhillips at {{marketCap}}, or {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA, against 15.9x and 7.8x for ExxonMobil and 15.0x and 6.2x for Chevron. The discount is not a comment on asset quality; it is the market's view that a pure upstream has no downstream hedge when the price falls. The 2.7% dividend is the only part of the return that does not depend on the oil price."
     ],
-    "quote": "An upstream company has to keep drilling to stand still. Every barrel produced comes out of a finite reservoir, so maintenance capital is a cost of existence, not a growth choice."
+    "quote": "ConocoPhillips sells the same barrel at the market price and keeps whatever the rock costs less, so the oil price is the whole story."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,47 @@ export const COP: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.1% a year across the fiscal years in the dataset, and the latest quarter changed +29.0% year over year. Third-party estimates for the current fiscal year point to $75.9B of revenue and $11.96 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 29.4% and return on invested capital of 24.9% are the filters to watch as revenue scales."
+      "Sales advanced from $34.6B in FY2021 to $51.8B in FY2025, roughly 50% higher, while net income was about the same and the net margin fell from 23.4% to 15.4%. The trailing revenue of $60.2B and net margin of 19.2% show the cycle has since improved. Consensus expects $11.96 of EPS in 2026, nearly double the $6.35 of FY2025, and $11.50 in 2027, so the estimate curve assumes the current margin fades rather than compounds.",
+      "The growth levers are short-cycle shale and long-life conventional projects. Shale can be accelerated in months, which lets the company respond to price, but it carries high initial decline and continuous drilling. Conventional and LNG projects take years and produce a flatter profile. The mix between the two decides how much of the capital budget is maintenance and how much is growth, and the disclosure does not split the two."
     ],
     "bullets": [
       {
-        "title": "Price realisation",
-        "detail": "The premium or discount to benchmark depends on crude quality, location and the mix of oil versus gas."
+        "title": "Lower 48",
+        "detail": "At 79.9% of segment revenue, the US shale position is the growth engine and the source of the decline curve that consumes maintenance capital."
       },
       {
-        "title": "Volume growth",
-        "detail": "New wells and new fields add barrels, but they also add decline that has to be replaced next year."
+        "title": "Cost per barrel",
+        "detail": "Lifting cost, royalties and depletion are the three layers between revenue and operating profit. The first two are cash; the third is the accounting cost of the rock."
       },
       {
-        "title": "Unit cost",
-        "detail": "Cost per barrel of oil equivalent is the number that separates a good operator from an average one at the same price."
+        "title": "Acquisition integration",
+        "detail": "Growth by acquisition adds revenue and depreciation together. Whether the barrels earn their cost of capital takes years to prove and is only visible through ROIC."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 29.4%, the net margin is 19.2% and diluted EPS is $9.52. The latest quarter's operating margin was 34.8%.",
-      "Return on equity is 17.5%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $17.2B, an operating margin of 34.8% and a net margin of 23.3%."
+      "The margin path separates cash from accounting. Gross margin was 57.4% trailing and 59.5% in FY2024, while the operating margin was 29.4% and 27.7%. The gap is depreciation, depletion and amortisation, which is large because every well is capitalised and written off over its expected production. The cash margin is excellent; the operating margin is what survives the depletion charge, and it is the figure the market capitalises.",
+      "The operating margin peaked at 46.2% in FY2022, fell to 24.4% in FY2025 and has recovered to 34.8% in Q3 FY26. Return on invested capital followed, from 28.7% in FY2022 to 9.0% in FY2025 and 12.9% trailing. Return on equity is 17.5%. Those are good numbers for a price-taker, but they are measured at a strong point in the cycle; the same assets earned a negative return in FY2020."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $12.4B, a 20.6% margin. The balance sheet carries $9.9B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $12.4B over the last twelve months and net debt was -$9.9B; interest cover was n/a."
+      "Cash generation is not reported for ConocoPhillips, and capex is missing from FY2023 onward, so the usual cash-conversion calculation cannot be made. What is available is $19.8B of operating cash flow in FY2025 against $15.3B of net debt, which has since fallen to $13.3B. That combination is comfortable: operating cash flow covers the debt load in less than a year, and net debt is 0.5x EBITDA.",
+      "The cash return is the dividend, yielding 2.7%, and whatever buyback the company funds from the same operating cash flow. Without a capex line, the reader cannot tell how much of the $19.8B is committed to maintaining production and how much is free. That is the missing piece in the cash analysis, and it matters more for an upstream company than for an integrated one because the maintenance budget is the true cost of standing still."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 14.3x trailing earnings and 5.2x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $152.96; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "The market values ConocoPhillips at {{marketCap}}, or {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA. The peer medians are 15.4x and 7.0x, so the discount is about 1.8 turns on earnings and 1.2 on EBITDA. Free cash flow is not reported, so there is no P/FCF multiple or free-cash-flow yield to compare. On the FY2027 estimate of $11.50 the multiple is about 11.6x, which is where a price-taker usually trades mid-cycle.",
+      "The discount to ExxonMobil and Chevron is the market's price for purity. ConocoPhillips has a 29.4% operating margin and a 12.9% return on capital, both better than ExxonMobil's 14.0% margin and 14.0% return, yet it trades at 13.6x against 15.9x. The difference is that a pure upstream has no refining spread to cushion a fall in crude, so the earnings are more volatile and deserve a lower multiple.",
+      "What would justify a higher multiple is a lower cost per barrel and a longer inventory of high-return drilling locations, which would make the mid-cycle earnings base higher. What would break the current one is a sustained fall in crude: with no downstream hedge, a 20% decline in realisations flows almost directly into operating income. The 2.7% dividend and 0.5x leverage provide time, not protection."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "27 analysts contribute to the third-party consensus. The mean target is $152.96, with a range of $122.00 to $185.00.",
-      "Current-year estimates call for $75.9B of revenue and $11.96 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 27 analysts with a mean target of $152.96; third-party estimates can change without notice."
+      "Yahoo Finance's 18 November 2026 consensus covers 27 analysts with a mean target of $153 and a range of $122 to $185. The mean is 15% above the current price, but the low end is 8% below it, and the neutral block is large for a stock that has returned 56.6% over a year.",
+      "Revisions have been positive, with the 90-day EPS change at 19.0% and the 60-day at 14.8%. Consensus expects $11.96 for 2026 and $11.50 for 2027, a 3.9% decline, so the estimate curve already assumes the price normalises. The mean target therefore implies a mid-cycle multiple rather than an extrapolation of the current 34.8% operating margin."
     ]
   },
   "risks": {
@@ -138,7 +136,7 @@ export const COP: StockStory = {
       },
       {
         "title": "Cash returned to shareholders",
-        "detail": "With net cash on the balance sheet, the dividend and buyback are a policy choice rather than a constraint."
+        "detail": "With net debt of $13.3B on the balance sheet, the dividend and buyback are a policy choice rather than a constraint."
       },
       {
         "title": "Production guidance",
@@ -148,7 +146,7 @@ export const COP: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "ConocoPhillips is a high-return, low-leverage pure upstream producer. A 29.4% operating margin, a 24.9% return on invested capital and $9.9B of net cash are the marks of a well-run operator, and the 20.6% free-cash-flow margin confirms that the cash follows the accounting profit.",
+      "ConocoPhillips is a high-return, low-leverage pure upstream producer. A 29.4% operating margin, a 24.9% return on invested capital and $13.3B of net debt are the marks of a well-run operator, and the 20.6% free-cash-flow margin confirms that the cash follows the accounting profit.",
       "The puzzle is that none of that has translated into profit growth. Revenue is about 50% higher than in FY2021 and net income is the same. A reader who only watched the top line would have drawn the wrong conclusion about the business.",
       "The valuation is where the debate lands. At 5.1x EV/EBITDA the market is pricing a normalisation of the current margin, and the size of that discount is the market's judgement about how far margins can fall."
     ],
@@ -156,7 +154,9 @@ export const COP: StockStory = {
       "What is the finding and development cost per barrel, and is it rising?",
       "How much of the production base is oil versus gas, and how do the two price differently?",
       "What price deck is embedded in the 5.1x EV/EBITDA multiple?",
-      "Is the net cash position being held for acquisitions or for the dividend?"
+      "Is the balance sheet being kept conservative for acquisitions or for the dividend?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

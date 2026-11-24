@@ -7,20 +7,20 @@ export const AMAT: StockStory = {
   "dek": "Trailing growth of 7.8% and a 24.8% latest quarter describe the same business. The difference is the timing of fab construction.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $30.8B trailing twelve months, +7.8% year over year.",
-    "Profitability: 29.6% operating margin and 30.1% net margin.",
-    "Cash: $5.6B free cash flow, a 18.2% margin.",
-    "Scorecard: 53/100 average percentile across the factor screens."
+    "Third-quarter revenue of $9.1B rose 24.8% and lifted the operating margin to 33.7%, the best quarter in the fiscal year.",
+    "Trailing free cash flow of $5.6B is only 18.2% of revenue because working capital absorbed the ramp, not because capex rose.",
+    "At 29.6x earnings the shares sit below KLA's 35.8x and roughly level with Lam's 31.0x despite slower trailing growth.",
+    "Consensus expects fiscal 2027 revenue of $47.9B, a 39.2% step that depends on memory and leading-edge fab projects proceeding on schedule."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000006951&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "APPLIED MATERIALS INC /DE generated $30.8B of revenue over the last twelve months, +7.8% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
-      "The latest reported quarter was Q3 FY26, with $9.1B of revenue and an operating margin of 33.7%. The stock closed at $349.23 on 2026-11-17, giving a market capitalization of $277.1B.",
-      "The shares sit 26% of the way up their 52-week range ($215.50 to $739.67). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Applied Materials' third fiscal quarter, ended 26 July 2026, generated $9.1B of revenue, a 33.7% operating margin and $3.17 of diluted EPS. Revenue was 24.8% higher than the $7.3B reported a year earlier, and the operating margin expanded from 30.6%. The result matters because it shows the toolmaker's fixed cost base being absorbed by a fab-building cycle that is only now reaching the income statement. That was the fastest growth in the fiscal year to date, and it arrived with a 3.1-point margin gain.",
+      "The company sells the process steps that come before a fab can produce anything: deposition, etch, implant, polishing and inspection. That revenue is tied to someone else's capital budget, so it leads chip supply and lags chip demand. The service business, 22.5% of the latest segment mix, sells spares and upgrades on the installed base and is the reason a pause in orders does not immediately empty the factory. That is the difference between a product cycle and a project cycle.",
+      "The valuation case rests on the gap between trailing and forward growth. Trailing revenue rose 7.8%, yet the shares carry 29.6x earnings, 28.2x EV/EBITDA and 48.8x free cash flow. Fiscal 2027 consensus of $47.9B and $19.29 of EPS implies 39.2% revenue growth and a 49.6% EPS increase, so the multiple is already discounting an acceleration that has not fully appeared in reported results. The shares are already trading on that forecast rather than on the trailing year."
     ],
-    "quote": "Equipment orders are a leading indicator of chip supply and a lagging indicator of chip demand. That gap is where the volatility lives."
+    "quote": "A toolmaker's revenue is a derivative of its customers' capital budgets, and those budgets are set a year before the revenue arrives."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,50 @@ export const AMAT: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.5% a year across the fiscal years in the dataset, and the latest quarter changed +24.8% year over year. Third-party estimates for the current fiscal year point to $47.9B of revenue and $19.29 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 29.6% and return on invested capital of 32.6% are the filters to watch as revenue scales."
+      "The reported numbers show a business inflecting. Revenue went from $6.8B in the quarter ended October 2025 to $9.1B in the quarter ended July 2026, with operating margin rising from 25.2% to 33.7%. The quarterly sequence through fiscal 2026 was $7.0B, $7.9B and $9.1B, so the acceleration is recent and steep. Consensus for the January 2027 quarter is $11.1B, which would be another 22% sequential step.",
+      "The mix explains where the increment comes from. Semiconductor Systems was 73.3% of the latest segment revenue and Applied Global Services 22.5%, so the equipment line still sets the pace. Inside systems, leading-edge logic and memory are the two engines: each new node adds deposition and etch steps per wafer, and memory makers buy tools in blocks when capacity is tight. The service base grows with every tool installed, but it cannot offset a broad pause in new projects.",
+      "Durability depends on the customer concentration that the business model creates. A handful of foundries and memory makers set the schedule, and a single delayed project can move a year of revenue. Fiscal 2028 consensus of $57.9B and $24.63 of EPS assumes the current order book converts and that another leg of memory spending arrives. The 90-day EPS revision of 4.7% is positive but modest, which suggests analysts are following orders rather than pre-empting them."
     ],
     "bullets": [
       {
         "title": "Leading-edge logic",
-        "detail": "Each new node adds deposition and etch steps, which raises the equipment content per wafer."
+        "detail": "Every node adds deposition and etch steps, raising equipment content per wafer; that is the structural part of the growth."
       },
       {
-        "title": "Memory capacity",
-        "detail": "AI accelerators need more DRAM and high-bandwidth memory, and memory makers buy tools in large blocks."
+        "title": "Memory blocks",
+        "detail": "Memory makers buy in large blocks when DRAM and high-bandwidth memory capacity is tight, which makes this the most cyclical part of the mix."
       },
       {
-        "title": "Installed-base service",
-        "detail": "A growing fleet of tools in the field produces recurring parts and service revenue."
+        "title": "Service annuity",
+        "detail": "Applied Global Services was 22.5% of segment revenue and grows with the installed base, cushioning but not offsetting an equipment pause."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 29.6%, the net margin is 30.1% and diluted EPS is $11.59. The latest quarter's operating margin was 33.7%.",
-      "Return on equity is 38.8%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $9.1B, an operating margin of 33.7% and a net margin of 27.8%."
+      "Start with the cost structure. A 49.4% gross margin becomes a 29.6% operating margin and a 30.1% net margin. The unusual detail is that net margin exceeds operating margin: with $1.5B of net cash, interest income and other below-the-line items add more than interest expense subtracts. Fiscal 2025 EPS of $8.66 compared with $8.61 in fiscal 2024, so the business was flat before the third-quarter acceleration.",
+      "Operating leverage is doing the work. Research, field support and administration consume about 20 points of gross margin, and that spending is largely fixed. When quarterly revenue rose from $6.8B to $9.1B, operating margin moved from 25.2% to 33.7%, an 8.5-point gain on a 34% revenue increase. The same mechanism ran in reverse in fiscal 2024, when revenue grew 2.5% and operating margin stayed at 28.9%.",
+      "Returns are strong but not exceptional for the group. Return on invested capital was 23.7% and return on equity 36.2%, against a 29.6% operating margin. Lam Research earned 47.6% ROIC on a 37.0% operating margin; KLA earned 42.9% on 42.2%. Applied Materials' broader portfolio and larger service base produce steadier revenue but a lower return on capital than either specialist."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $5.6B, a 18.2% margin. The balance sheet carries $1.8B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $5.6B over the last twelve months and net debt was -$1.8B; interest cover was n/a."
+      "Trailing cash generation was $5.6B, 18.2% of revenue, against $9.3B of net income. The gap is not capex: capital spending was $2.3B in fiscal 2025 and has stayed modest. It is working capital, as receivables and inventory build ahead of the $11.1B January-quarter consensus. That is a timing issue rather than a profitability issue, but it explains why the P/FCF multiple of 48.8x is so much higher than the P/E of 29.6x.",
+      "Net cash of $1.5B is a source of strength rather than a constraint, with net debt/EBITDA of -0.2x and interest cover of 33.0x. Fiscal 2025 operating cash flow of $8.0B covered $2.3B of capex and left $5.7B, so the company can fund the current capacity expansion without leverage. The service annuity and the net cash position together make the downside case a margin problem, not a solvency one.",
+      "Capital returns are modest. The dividend yield is 0.7%, and the statements do not disclose a buyback large enough to change the share count. The cash is being retained to fund working capital and capacity rather than distributed, which is defensible in a ramp but leaves the return dependent on the next order cycle. That is small enough that it does not anchor the valuation."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 29.9x trailing earnings and 28.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $561.89; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $345 the equity is worth $274.1B, equal to 29.6x trailing earnings, 28.2x EV/EBITDA, 8.8x sales and 48.8x free cash flow. The peer medians are 32.0x and 24.8x, so Applied Materials is slightly cheap on earnings and slightly expensive on EBITDA. That combination usually means the earnings base is flattered by below-the-line income or the cash conversion is weak, and here it is the latter.",
+      "Forward estimates change the picture. Fiscal 2027 EPS of $19.29 is 17.9x the current price; fiscal 2028 at $24.63 is 14.0x. Those multiples assume the 39.2% revenue step arrives. Lam trades at 31.0x trailing and KLA at 35.8x, both with higher operating margins and higher returns on capital, so Applied Materials is not being penalised for its lower margin; it is being priced for the acceleration.",
+      "A 52-week range of $223 to $740 is the honest measure of how much uncertainty sits around that acceleration. The shares are 53% below the high and 55% above the low. A multiple that depends on a fab cycle is only as good as the customers' capital budgets, and those budgets are the variable that would break the case. A re-rating would require the order book to be visible beyond the current fiscal year."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "36 analysts contribute to the third-party consensus. The mean target is $561.89, with a range of $358.00 to $900.00.",
-      "Current-year estimates call for $47.9B of revenue and $19.29 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 36 analysts with a mean target of $561.89; third-party estimates can change without notice."
+      "A Yahoo Finance survey dated 18 November 2026 covers 36 analysts with a mean target of $562 and a range of $358 to $900. The views lean positive, with a substantial neutral minority. The mean is 63% above the $345 price, and even the low end is above it, which is unusual and suggests the disagreement is about the size of the upside rather than its direction.",
+      "Revisions have been steadily positive: 3.2% over seven days, 3.7% over 30 days, 4.1% over 60 days and 4.7% over 90 days. Fiscal 2027 revenue of $47.9B and EPS of $19.29 assume the $11.1B January quarter is a stepping stone rather than a peak. The consensus is implicitly underwriting memory and leading-edge logic spending at the same time."
     ]
   },
   "risks": {
@@ -158,5 +159,7 @@ export const AMAT: StockStory = {
       "Does the service business grow when equipment sales fall?",
       "How much of the FY2027 estimate depends on memory capacity rather than logic?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

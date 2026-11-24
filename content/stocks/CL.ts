@@ -7,20 +7,20 @@ export const CL: StockStory = {
   "dek": "A 60.6% gross margin looks like a wonderful business until you see how much of it goes back out as marketing. The gap between the two lines is the price of staying on the shelf.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $21.3B trailing twelve months, +5.9% year over year.",
-    "Profitability: 14.8% operating margin and 9.6% net margin.",
-    "Cash: $3.8B free cash flow, a 17.8% margin.",
-    "Scorecard: 40/100 average percentile across the factor screens."
+    "A 14.8% trailing operating margin understates the business: the September quarter earned 20.3%, and the gap is the December 2025 charge.",
+    "Oral care is 77.4% of revenue and pet nutrition 22.6%; the second is the faster-growing part and carries the better economics.",
+    "Cash conversion is strong: $3.8B of free cash flow is 17.8% of revenue and nearly double net income, because the charge was non-cash.",
+    "At 38.1x trailing earnings the shares look expensive against Procter & Gamble's 24.6x, but on the $3.92 consensus for 2026 the multiple is about 25x."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/21665/000002166526000006/cl-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000021665&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "COLGATE PALMOLIVE CO. generated $21.3B of revenue over the last twelve months, +5.9% versus the prior year. The business depends on traffic, basket size and the cost of serving the next customer.",
-      "The latest reported quarter was Q3 FY26, with $5.4B of revenue and an operating margin of 20.3%. The stock closed at $99.61 on 2026-11-17, giving a market capitalization of $79.2B.",
-      "The shares sit 91% of the way up their 52-week range ($75.96 to $101.81). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "The December 2025 quarter is the reason Colgate's trailing operating margin reads 14.8% rather than the 20.3% earned in September. That quarter's margin was 1.8% and EPS was -$0.04, against 21.5% and $0.90 a year earlier. Strip it out and the business looks like the one that earned 21.2% in FY2024 and has recovered through 18.1%, 19.0% and 20.3% in 2026. The gap between the headline and the run rate is the whole earnings-quality question.",
+      "The business is two portfolios. Oral, personal and home care is 77.4% of revenue and competes on shelf position in toothpaste, soap and cleaning products, where private label is a constant reference price. Pet nutrition, at 22.6%, sells through veterinary channels at higher price points to a customer who is less price-sensitive. Latin America is 23.4% of revenue and the United States 17.6%, so currency and local pricing matter as much as US shelf share.",
+      "The valuation debate is really an earnings-quality debate. The 38.1x trailing multiple is calculated on $2.56 of EPS that includes a loss-making quarter; the $3.92 consensus for 2026 puts the shares at roughly 25x, close to Procter & Gamble's 24.6x. If the December quarter was a one-off, the premium is smaller than it looks and the forward multiple is the fairer comparison. If the spending that produced it is now permanent, the trailing multiple is the honest one."
     ],
-    "quote": "In oral care the shelf is the market. A brand that loses its place at eye level loses the purchase, which is why the advertising line is a cost of doing business rather than a discretionary expense."
+    "quote": "A 60.6% gross margin that turns into 14.8% operating profit is not a pricing problem; it is the annual cost of defending the shelf."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -38,35 +38,50 @@ export const CL: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 4.5% a year across the fiscal years in the dataset, and the latest quarter changed +4.6% year over year. Third-party estimates for the current fiscal year point to $21.4B of revenue and $3.92 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 14.8% and return on invested capital of 36.6% are the filters to watch as revenue scales."
+      "The five-year revenue record is a 4.3% compound rate, from $16.5B in FY2020 to $20.4B in FY2025, and the trailing figure is $21.3B. The annual path slowed to 1.4% in FY2025 before reaccelerating to 5.9% on a trailing basis, with the September quarter up 5.9%. The split between volume and price is not disclosed, so units and price cannot be separated from the reported number.",
+      "Pet nutrition is the growth lever with the better economics. It is 22.6% of revenue, sells a specialised food through veterinarians and specialty retail, and carries a customer relationship that is less elastic than toothpaste. Oral care is the opposite: a mature category where share is defended with advertising rather than expanded with new users. Consensus revenue of $21.4B for 2026 and $21.9B for 2027 implies 4.9% then 2.3%, a rapid deceleration that assumes pet nutrition cannot carry the whole portfolio.",
+      "The durability question is whether the 2026 acceleration is price or volume. Gross margin was 60.6% on a trailing basis against 60.1% in FY2025, so input costs were not the driver. That leaves price, mix and the emerging-market footprint. A 2.3% revenue estimate for 2027 is well below the 4.3% five-year compound rate, which is another way of saying the consensus expects no share gains."
+    ],
+    "bullets": [
+      {
+        "title": "Pet nutrition mix",
+        "detail": "Hill's is 22.6% of revenue and the fastest-growing part, with veterinary distribution and higher price points. A slowdown there would leave oral care carrying the growth target."
+      },
+      {
+        "title": "Emerging-market currency",
+        "detail": "Latin America is 23.4% of revenue and Africa-Eurasia another 5.8%. Translation losses can turn mid-single-digit organic growth into a low reported number."
+      },
+      {
+        "title": "The advertising line",
+        "detail": "The gap between 60.6% gross and 14.8% operating margin is mostly demand creation. If that spending buys less shelf space, the margin falls without a fall in revenue."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 14.8%, the net margin is 9.6% and diluted EPS is $2.56. The latest quarter's operating margin was 20.3%.",
-      "Return on equity is 320.8%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $5.4B, an operating margin of 20.3% and a net margin of 14.0%."
+      "Between a 60.6% gross margin and a 9.6% net margin sit 46 points of advertising, promotion, selling and administration, a larger share than Procter & Gamble gives up year after year in these categories. That is why a business with Colgate's brand strength earns a 14.8% operating margin against P&G's 22.6%. The gross line is not the problem; the cost of selling is.",
+      "The quarterly path shows the charge clearly. Operating margin was 21.5% in December 2024, 21.9% in March 2025, 21.1% in June and 20.6% in September, then 1.8% in December 2025. It recovered to 18.1%, 19.0% and 20.3% through 2026. A business does not lose 19 points of margin and regain them in three quarters through pricing; the December quarter contained something that did not repeat.",
+      "Returns are strong but flattered. Return on invested capital is 31.0%, well above the 16.9% peer median, on a capital-light model with $564M of capex against $20.4B of revenue. Return on equity of 712.8% is not a useful number: it reflects a small equity base after years of buybacks, not a 700% economic return. The 31.0% ROIC is the measure to use."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.8B, a 17.8% margin. Net debt is $6.2B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $3.8B over the last twelve months and net debt was $6.2B; interest cover was n/a."
+      "Cash conversion was $3.8B over the trailing year, 17.8% of revenue, against net income of about $2.0B. The gap is the December 2025 charge, which reduced earnings without consuming cash. Capital expenditure was $564M, or 2.6% of revenue, so almost all operating cash flow converts. That is the cash signature of a branded consumer business with a mature asset base.",
+      "The quarterly pattern is uneven but not alarming. The March quarter is the weakest, at $476M in FY2025 and $609M in FY2026, while the December quarter is the strongest, at $1.1B and $1.3B. For the year, $4.2B of operating cash flow funded $564M of capex and produced $3.6B of free cash. The trailing total is higher because each 2026 quarter has grown on its 2025 equivalent.",
+      "Net debt is $5.7B, or 1.5x EBITDA, with interest cover of 12.6x. That is a comfortable balance sheet for a staples company, and it leaves room for the dividend, which costs about $2.08 a share at the 2.1% yield. Against $3.92 of consensus EPS the payout is roughly 53%; against trailing EPS of $2.56 it is over 80%. The difference is the charge, not a change in policy."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 38.6x trailing earnings and 22.4x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $101.70; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "The two multiples tell different stories. At $99 the shares trade at 38.1x trailing earnings but 20.7x free cash flow and 22.1x EBITDA. The earnings multiple is inflated by the December 2025 quarter; the cash multiple is not. On the $3.92 consensus for 2026, the P/E falls to about 25x, which is close to Procter & Gamble's 24.6x and below the 27.4x staples median.",
+      "That convergence matters. Colgate's 31.0% ROIC is nearly double P&G's 16.6%, and its 60.6% gross margin is higher than PepsiCo's 54.2%, so a premium to the median is defensible on returns. The operating margin, at 14.8%, is the weak line: P&G earns 22.6% and Coca-Cola 30.0%. The multiple is a payment for the oral care franchise and the pet nutrition growth, not for the consolidated margin.",
+      "What would break the case is a permanent step-up in advertising intensity. If the 20.3% operating margin of the September quarter is the new run rate, the shares are reasonably valued at 25x forward earnings. If the FY2025 cost base was the start of a higher spending regime, the trailing 38.1x is closer to the truth and the 4.8% free-cash-flow yield is the only support. The 2.1% dividend does not cushion much in that scenario."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "20 analysts contribute to the third-party consensus. The mean target is $101.70, with a range of $88.00 to $112.00.",
-      "Current-year estimates call for $21.4B of revenue and $3.92 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 20 analysts with a mean target of $101.7; third-party estimates can change without notice."
+      "Yahoo Finance's 18 November 2026 estimate set puts the mean target at $102 across 20 analysts, with a range of $88 to $112. The skew is positive, with a substantial neutral block and one cautious voice. The mean is only 3% above the $99 share price, so the range of targets is unusually tight for a staples name that returned 27.4% over a year.",
+      "For 2026 the consensus has $21.4B of revenue and $3.92 of EPS, rising to $21.9B and $4.10 in 2027. Revenue growth decelerates from 4.9% to 2.3% while EPS growth slows from 6.3% to 4.6%, so the consensus assumes the margin recovery continues but at a diminishing rate. Revisions are positive over 30 and 60 days, at 1.3% and 1.2%, consistent with the run of quarterly beats."
     ]
   },
   "risks": {
@@ -130,5 +145,7 @@ export const CL: StockStory = {
       "Why is the earnings multiple so much higher than the cash-flow multiple?",
       "What growth rate does a 21.8x EBITDA multiple require over five years?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

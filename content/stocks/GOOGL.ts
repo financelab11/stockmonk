@@ -7,20 +7,20 @@ export const GOOGL: StockStory = {
   "dek": "Search grew 12%, Cloud grew 103%, and free cash flow collapsed to 4% of revenue as capex absorbed the difference. The market is pricing the second fact.",
   "readingMinutes": 12,
   "takeaways": [
-    "Q3 FY2026 revenue was $127.6B, up 25%, the thirteenth consecutive quarter of double-digit growth; Google Services rose 11% to $96.3B and Cloud rose 103% to $30.7B.",
-    "Operating income rose 30% and the operating margin was 31.8%; net income was $26.2B and EPS was $2.12.",
-    "Trailing revenue is $471.1B at a 33.3% operating margin, with $140B of net cash but only $19.7B of free cash flow as capital expenditure absorbs the rest.",
-    "At {{price}} the shares trade at {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA, with a {{return1y}} one-year return and a {{fcfYield}} free-cash-flow yield."
+    "Third-quarter 2026 revenue was $127.6B, up 25%; Google Services rose 11% to $96.3B and Google Cloud rose 103% to $30.7B.",
+    "Operating margin was 31.8% and EPS was $2.12, but the trailing net margin of 50.0% is inflated by one-off gains earlier in the year.",
+    "Trailing free cash flow is $19.7B, a 4.2% margin, as capex absorbs cash; net cash is $139.0B.",
+    "Headline {{pe}} earnings flatter the stock; {{evEbitda}} EV/EBITDA is still above the 12.5x peer median."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
   "irUrl": "https://abc.xyz/investor/",
   "bigPicture": {
     "paragraphs": [
-      "Alphabet reported third-quarter 2026 revenue of $127.6B on 28 October 2026, up 25% and the thirteenth consecutive quarter of double-digit growth. Google Services revenue rose 11% to $96.3B, with Search & other up 12% on the highest query-growth rate in five years; Google Cloud revenue rose 103% to $30.7B, helped by TPU systems sales as well as core cloud services. Operating income rose 30%, the operating margin was 31.8%, and EPS was $2.12.",
-      "The investment case has shifted from advertising to infrastructure. Cloud is now a $30.7B quarterly business growing at triple digits, and the capex required to serve it is visible in the cash-flow statement: trailing free cash flow is $19.7B, or 4.2% of revenue, down sharply because the build-out is being funded from operations. The balance sheet still carries $140B of net cash, so this is a choice about returns rather than a financing constraint.",
-      "At {{price}} the market capitalisation is {{marketCap}}, or {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA. The shares are {{rangePosition}} of the way up a 52-week range of {{range52}} and have returned {{return1y}} over the year. The trailing earnings multiple looks low, but it is flattered by one-off gains earlier in the year; the EV/EBITDA and the free-cash-flow picture are the more honest measures of what is being paid for the AI build-out."
+      "Search and Cloud both accelerated in the September quarter. Revenue reached $127.6B, up 25%, the thirteenth consecutive quarter of double-digit growth. Google Services rose 11% to $96.3B, with Search & other up 12% on the highest query growth in five years, and Google Cloud rose 103% to $30.7B, helped by TPU systems sales. Operating margin was 31.8% and EPS $2.12. The quarter was strong across both advertising and cloud, not just one.",
+      "The capex required to serve Cloud is now the central fact. Fiscal 2025 capex was $91.4B against $52.5B in fiscal 2024, and trailing free cash flow fell to $19.7B. Cloud is 14.6% of annual revenue against 85.1% for Services, so the mix shift is still early. Net cash of $139.0B means the build is internally funded, unlike Oracle's debt-funded expansion. That is a funding advantage rather than a certain return.",
+      "The headline P/E is misleading. A {{pe}} trailing multiple looks cheap, but the 2026 base includes large one-off gains; the second quarter alone had a 93.7% net margin. EV/EBITDA of {{evEbitda}} is above the 12.5x communication peer median, which is the more honest comparison. The debate is whether the capex or the franchise deserves the higher weight. The market is pricing the capex cycle rather than the search franchise today."
     ],
-    "quote": "The question is no longer whether Alphabet can grow cloud revenue. It is whether the capital required to grow it earns a return."
+    "quote": "Alphabet can fund the AI build from its own cash flow; the question is whether the capacity earns a return once the depreciation arrives."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,48 +52,48 @@ export const GOOGL: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue rose from $113.8B in the December quarter to $127.6B in September, a 12% sequential increase, and trailing revenue is $471.1B, up 22.2%. Search accelerated: the company described year-over-year query growth as the highest in five years, which is the clearest evidence that AI features are expanding usage rather than cannibalising it.",
-      "Cloud is the fastest-growing line. Revenue of $30.7B, up 103%, would have been unthinkable at this scale two years ago, and management attributed part of the growth to TPU systems sales, which means Alphabet is monetising its own silicon as well as renting capacity. Services, at $96.3B, still pays the bills, but the incremental growth is coming from infrastructure.",
-      "Third-party estimates put 2026 revenue at $499.6B and EPS at $19.56, with 2027 at $636.4B and $14.92. The unusual drop in EPS between the two years reflects one-off gains in the 2026 base rather than an expected decline in operating profit, and it is a reminder to read consensus EPS alongside the operating line."
+      "Cloud capacity is the incremental growth driver. Google Cloud reached $30.7B, up 103%, including TPU systems sales, while Search & other grew 12% on the highest query growth in five years. That combination is unusual: the mature franchise is holding while the small one scales. The capex behind Cloud is visible in the cash statement, not yet in the margin.",
+      "Services is 85.1% of revenue, Cloud 14.6% and Other Bets 0.4%. Search carries high incremental margins; cloud infrastructure requires capacity before revenue. Consolidated gross margin of 60.9% is a blend of those economics, and it will move as Cloud becomes a larger share. The direction depends on which segment grows faster. Cloud is the faster-growing but lower-margin segment at scale.",
+      "Consensus for 2026 is $499.6B revenue and $19.56 EPS, with 2027 at $636.4B and $14.92. The EPS decline is a base effect from one-off gains, not an operating forecast, and the revenue line is the better guide. The December quarter is estimated at $142.3B and $3.20, which assumes Cloud remains the fastest-growing segment. The revenue estimate is the one to underwrite."
     ],
     "bullets": [
       {
-        "title": "Search",
-        "detail": "Up 12% with the highest query growth in five years. AI features are expanding usage rather than replacing it."
+        "title": "Search resilience",
+        "detail": "Search & other grew 12% on the highest query growth in five years. AI features appear to be expanding usage rather than cannibalising the ad model."
       },
       {
-        "title": "Cloud",
-        "detail": "$30.7B, up 103%, including TPU systems sales. The fastest-growing and most capital-intensive part of the business."
+        "title": "Cloud scale",
+        "detail": "Google Cloud reached $30.7B, up 103%, including TPU systems sales. It is now large enough to move consolidated growth but not yet large enough to carry the margin."
       },
       {
-        "title": "Capex",
-        "detail": "The build-out is why free cash flow is $19.7B against $471.1B of revenue. The return on that spend is the open question."
+        "title": "Capex return",
+        "detail": "Free cash flow of $19.7B against $471.1B of revenue is the cost of the build. The return on that capital is not yet visible in the numbers."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The quarter's operating margin was 31.8% on operating income up 30%, and net income was $26.2B, or 20.7% of revenue. That net margin is the number to use for the quarter; the trailing net margin of 50.0% is inflated by one-off gains earlier in the fiscal year and should not be extrapolated.",
-      "On a trailing basis the operating margin is 33.3%, return on equity 34.8% and return on invested capital 23.1%. The gap between the operating margin and the free-cash-flow margin is the cleanest measure of the current phase: the business is profitable, but it is reinvesting most of the operating cash into infrastructure."
+      "Net margin of 20.7% in the quarter is the right figure to use. The trailing 50.0% is inflated by one-off gains in the first half, including a 93.7% net margin in the second quarter. Operating margin was 31.8%, with operating income up 30%. Reading EPS alongside the operating line, rather than in isolation, avoids treating a one-off gain as a run-rate.",
+      "Trailing operating margin is 33.3%, net margin 50.0% and return on equity 34.8%. Return on invested capital is 16.0%, below the 21.3% peer median, because the capital base is growing faster than profit. The operating margin is nearly double the 18.4% median, so the gap is capital intensity rather than profitability. That is the arithmetic of a capex cycle. The capex is the reason returns lag."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow was $19.7B over the trailing period, a 4.2% margin, and the balance sheet carries $140B of net cash. At the current price the shares trade at {{pfcf}} trailing free cash flow, a {{fcfYield}} free-cash-flow yield. That multiple is close to meaningless during a capex surge; it measures the current spend, not the earning power of the assets being built.",
-      "The right way to read the cash statement is to separate maintenance capex from growth capex. Alphabet can fund the build-out internally, which is a genuine advantage over smaller cloud competitors, but the return on the incremental spend will only show up once the capacity is depreciated and utilised."
+      "Net cash of $139.0B gives Alphabet room to fund the build without new debt. Trailing free cash flow was $19.7B, a 4.2% margin, and the third quarter was negative $9.1B. Capex was $91.4B in fiscal 2025 against $52.5B a year earlier. The direction is clear even if the timing of the cash recovery is not. The capex line is the swing factor for the shares.",
+      "The P/FCF multiple of 176.9x is close to meaningless during a capex surge; it measures current spend, not the earning power of the assets. EV/EBITDA of 18.1x is high for a communication company but not extreme for a cloud franchise growing 25%. The missing disclosure is the return on the incremental capacity once it is utilised. The dividend is small at a 0.3% yield."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At {{price}} the market capitalisation is {{marketCap}}, or {{pe}} trailing earnings, {{evEbitda}} EV/EBITDA and {{pfcf}} trailing free cash flow. The stock is {{rangePosition}} of the way up its 52-week range ({{range52}}) and has returned {{return1y}} over the past year. The trailing earnings multiple is depressed by one-off gains in the base; EV/EBITDA is the more comparable measure against peers.",
-      "On consensus numbers the forward picture is about 18.8x 2027 EPS of $14.92. The 2026 estimate of $19.56 is not comparable because it includes the one-off gains. A high-teens EV/EBITDA multiple on a business growing revenue 25% with a 31.8% operating margin is not demanding, provided the capex eventually earns a return.",
-      "The peer table below compares Alphabet with other large platforms. The multiple is a starting point for questions, not a verdict: a 4% free-cash-flow margin during a build-out is a different asset from a 4% margin in a mature business."
+      "A 176.9x P/FCF multiple is the price of the build, not a valuation anchor. The {{pe}} trailing multiple is flattered by one-offs, and EV/EBITDA of {{evEbitda}} is above the 12.5x peer median. The shares have ranged within {{range52}} in the past year, sit {{rangePosition}} of the way up that band and have returned {{return1y}}. The EV/EBITDA comparison is the one that matters.",
+      "Forward earnings are more informative. On 2027 EPS of $14.92 the shares trade at about 19x, in line with the 20.3x communication peer median but above Netflix's 16.0x. The 2026 EPS of $19.56 is not comparable because it includes the one-off gains. That is a normal multiple for 25% revenue growth, provided the capex earns a return. The capex is the variable that decides the multiple.",
+      "The peer gap depends on how the market treats capital intensity. Meta trades at 20.3x with a 32.9% operating margin, Netflix at 16.0x with 31.3% and Disney at 23.7x with 18.4%. Alphabet's 14.8x headline P/E is the lowest, but its 18.1x EV/EBITDA is above Meta's 14.6x because of the capex. The discount is for the build, not the franchise. The market is waiting for the capex line to peak."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "The attributed third-party consensus covers 53 analysts with a mean target of $400.37 and a range of $300.00 to $500.00, as of 18 November 2026. The mean is well above the current price, which reflects the view that the shares have lagged the operating progress.",
-      "Current-year estimates call for $499.6B of revenue and $19.56 of EPS; next year is $636.4B and $14.92, with the drop driven by the one-off base. These are third-party forecasts and can change without notice. They are shown for context, not as a recommendation."
+      "A 5% cut to 30-day EPS estimates is the sharpest revision in this group. The mean target of $400, about 41% above the current price, has not moved with the same speed. The 53 analysts span $300 to $500, and the gap reflects disagreement about the one-off base rather than the operating business.",
+      "2026 revenue is forecast at $499.6B and EPS at $19.56; 2027 at $636.4B and $14.92. The December quarter is estimated at $142.3B and $3.20. The estimates depend on Cloud remaining the fastest-growing segment and Search holding its query growth, while the capex line determines when free cash flow recovers. A slower Cloud trajectory would change that arithmetic quickly."
     ]
   },
   "risks": {
@@ -159,6 +159,6 @@ export const GOOGL: StockStory = {
     ]
   },
   "earningsReleaseUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
-  "narrativeSource": "handwritten",
-  "narrativeUpdatedAt": "2026-11-18"
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

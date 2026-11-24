@@ -7,20 +7,20 @@ export const IREN: StockStory = {
   "dek": "A 72.2% gross margin and a negative 173.4% operating margin in the same year. The gap is what happens when a commodity producer borrows to become an infrastructure owner.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $666.7M trailing twelve months, +46.4% year over year.",
-    "Profitability: -173.4% operating margin and -99.9% net margin.",
-    "Cash: -$2.5B free cash flow, a -369.2% margin.",
-    "Scorecard: 40/100 average percentile across the factor screens."
+    "Bitcoin mining is still 81.8% of segment revenue, so the AI hosting conversion has not yet changed the revenue base.",
+    "Gross margin of 72.2% sits above an operating margin of negative 173.4%, a gap made of depreciation, impairments and fair-value moves.",
+    "Net debt of $6.4B against $707.0M of FY2026 revenue makes the interest bill the binding constraint on the conversion.",
+    "At 19.1x sales with no EBITDA multiple, the shares value the power and sites rather than the current earnings."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001878848&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Iris Energy Ltd. generated $666.7M of revenue over the last twelve months, +46.4% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
-      "The latest reported quarter was Q1 FY27, with $200M of revenue and an operating margin of -93.0%. The stock closed at $15.81 on 2026-11-17, giving a market capitalization of $6.7B.",
-      "The shares sit 1% of the way up their 52-week range ($15.17 to $70.71). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Bitcoin mining still produces four-fifths of revenue, which is the central tension in IREN. FY2026 revenue was $707.0M, of which 81.8% came from mining and 18.2% from AI cloud services. The September 2026 quarter produced $200.0M at a negative 93.0% operating margin, an improvement on the negative 452.1% of the June quarter but still a loss at the operating line and a reminder of how early the conversion is. The 18.2% hosting share is the part the market is really buying.",
+      "The asset is shared. A mining rig and an accelerator rack both need land, a power connection, cooling and electrical distribution, and those are the expensive, slow parts. Converting a site from mining to hosting raises the revenue per unit of power but requires capital before the first invoice. The mining business pays the bills while the conversion happens, which is why it has not been shut. The conversion is therefore a financing problem before it is an operating one.",
+      "The debt is what makes the timing matter. Net debt of $6.4B against $707.0M of revenue and an interest cover of negative 10.9x means the interest bill cannot be serviced from operating profit. At 19.1x sales there is no earnings multiple to appeal to. The equity is a claim on the completed hosting capacity, not on the current income statement. A single refinancing would change the equity case more than a single contract would."
     ],
-    "quote": "A miner sells a commodity at whatever the market pays. A data-centre landlord sells a contract at a price agreed years earlier. The second is worth more per dollar of revenue and costs far more to build."
+    "quote": "IREN owns the scarce input, land and power, but the debt taken on to convert it is now the test."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,49 @@ export const IREN: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 161.9% a year across the fiscal years in the dataset, and the latest quarter changed +2757.1% year over year. Third-party estimates for the current fiscal year point to $2.4B of revenue and -$1.66 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -173.4% and return on invested capital of -7.9% are the filters to watch as revenue scales."
+      "Contracted AI hosting is the growth story, and the segment is still small. Revenue went from $187.2M in FY2024 to $501.0M in FY2025 and $707.0M in FY2026, but the mix at the end of that period was still four-fifths mining. The hosting revenue that exists is rented capacity with a known price and term, which is a different quality of revenue from coins and a more useful base for a valuation.",
+      "The quarterly record is erratic because mining economics are. Revenue was $184.7M in December 2025, $144.8M in March, $137.2M in June and $200.0M in September, and the operating margin swung from negative 63.0% to negative 452.1% over the same period. Some of that is the coin price and network difficulty; some is reclassification and one-off items that make a simple trend hard to establish.",
+      "The estimates are for $2.4B of revenue in FY2027, 237.4% growth, and $7.1B in FY2028, another 199.7%. Only two analysts contribute to those annual figures, so the forecast is closer to a scenario than a consensus. It assumes the hosting capacity is built, energised and rented at the rates the current contracts imply. The forecast is a statement about construction rather than demand, and the construction schedule is not disclosed."
+    ],
+    "bullets": [
+      {
+        "title": "Energised capacity",
+        "detail": "Hosting revenue begins when a hall is powered and occupied, so the build schedule is the forward indicator."
+      },
+      {
+        "title": "Mining cash flow",
+        "detail": "Bitcoin production pays the interest bill during the conversion, but its revenue moves with the coin price and network difficulty."
+      },
+      {
+        "title": "Power interconnects",
+        "detail": "Land and grid connections are the scarce assets, and they are shared between the two businesses."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -173.4%, the net margin is -99.9% and diluted EPS is -$4.08. The latest quarter's operating margin was -93.0%.",
-      "Return on equity is -13.0%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q1 FY27: revenue of $200M, an operating margin of -93.0% and a net margin of -131.5%."
+      "Quarterly operating margins of negative 1,085.7%, negative 63.0%, negative 161.3%, negative 452.1% and negative 93.0% are not a margin series; they are a record of one-off charges. The gross margin of 72.2% is the stable number, and it describes the spread on a unit of production before depreciation. The operating line is where impairments, share-based payments and fair-value moves land.",
+      "The consequence is that net margin of negative 202.5% and EPS of -$2.22 describe the accounting rather than the economics of a hosting contract. Return on invested capital of negative 6.1% is the more useful measure: the asset base is not yet earning what it cost. FY2025, when the operating margin was positive 3.5%, shows what the business looks like when the charges are smaller and the mining fleet is the main asset."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$2.5B, a -369.2% margin. Net debt is $6.4B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$2.5B over the last twelve months and net debt was $6.4B; interest cover was n/a."
+      "The $6.4B debt load is the first call on any cash the business generates. FY2026 operating cash flow was $2.1B against $3.0B of capex, leaving an $897.6M deficit; the trailing deficit is $2.5B, and the September quarter alone consumed $1.6B. Interest cover of negative 10.9x means operating profit does not cover the interest, so the gap is funded from the balance sheet.",
+      "Mining provides the cash that hosting does not yet. A gross margin of 72.2% on coin production converts into cash quickly because the cost is mostly electricity, but the revenue moves with a commodity price the company does not control. The hosting contracts are more predictable per unit and far more capital-intensive per dollar of revenue, which is why the cash profile deteriorates as the mix shifts.",
+      "The filings do not disclose the maturity profile of the borrowings or the average interest rate, which are the two facts that would settle the equity case. No dividend is paid and no buyback is reported. Until the hosting capacity is energised and billing, the balance sheet is the business, and the balance sheet is levered against assets that are still under construction."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $56.69; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "IREN's 19.1x sales multiple sits between Applied Digital at 14.9x and Nebius at 56.1x, and the spread tracks how much of each company's capacity is contracted rather than how much profit it makes. There is no P/E or EV/EBITDA to use: operating income is negative and EBITDA is not meaningful while depreciation and impairments dominate the operating line. The comparison is therefore about contractedness, not about cheapness.",
+      "The useful anchor is the asset. The market value of $6.3B plus $6.4B of net debt is roughly $12.7B of enterprise value for $707.0M of FY2026 revenue and $2.4B of FY2027 estimated revenue. That is about 5.3x the forward estimate, which is a valuation of the power connections and the halls rather than of the current income statement. That is a reasonable multiple for a landlord and a demanding one for a miner.",
+      "What justifies the price is hosting revenue arriving on schedule at contracted rates, converting the mining business into a landlord with predictable cash flow. What breaks it is a delay in energisation, a fall in the coin price that removes the cash used to service interest, or a refinancing at a higher rate. The negative 38.8% free cash flow yield measures the size of the bet."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "19 analysts contribute to the third-party consensus. The mean target is $56.69, with a range of $23.00 to $139.00.",
-      "Current-year estimates call for $2.4B of revenue and -$1.66 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 19 analysts with a mean target of $56.69; third-party estimates can change without notice."
+      "Nineteen analysts are counted by Yahoo Finance on 18 November 2026. Their mean target is $57 against a $15 price and the range is $23 to $139. The mean target is almost four times the market price, which is less a forecast than a valuation of the capacity if it is built and rented at the assumed rates.",
+      "The estimate record is unstable. EPS revisions fell 51.5% over thirty days but rose 76.6% over ninety, and only one or two analysts contribute to the quarterly revenue figures. FY2027 is put at $2.4B of revenue and -$1.66 of EPS, FY2028 at $7.1B and $0.27. A swing to profit in FY2028 is the assumption the whole valuation rests on."
     ]
   },
   "risks": {
@@ -144,5 +158,7 @@ export const IREN: StockStory = {
       "What is the operating margin once impairments and fair-value movements are excluded?",
       "How much of revenue is still mining rather than hosting?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

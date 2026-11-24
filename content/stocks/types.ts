@@ -22,7 +22,7 @@ export type StockStory = {
   irUrl: string;
   earningsReleaseUrl?: string;
   /** How the narrative was produced and when it was last written by hand. */
-  narrativeSource?: "handwritten" | "generated";
+  narrativeSource?: "handwritten" | "curated" | "generated";
   narrativeUpdatedAt?: string;
   bigPicture: StoryBlock;
   whatItDoes: StoryBlock;

@@ -7,20 +7,20 @@ export const CRCL: StockStory = {
   "dek": "Reserve income rises with coins in circulation and with short-term rates, and a large share of it is paid to distribution partners. That is why a 26.6% gross margin sits under a $17.4B market value.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $319.3M trailing twelve months, +323.6% year over year.",
-    "Profitability: 107.4% operating margin and 145.0% net margin.",
-    "Cash: $740.7M free cash flow, a 232.0% margin.",
-    "Scorecard: 65/100 average percentile across the factor screens."
+    "Revenue of $319.3M is up 323.6%, but the quarterly series jumps from $33.6M to $207.3M in one period, so the growth rate is not comparable across quarters.",
+    "A 26.6% gross margin means about three-quarters of reserve income leaves as distribution cost, and that share decides profit more than circulation does.",
+    "Free cash flow of $740.7M exceeds net income, and $1.7B of net cash gives the balance sheet room that the income statement does not.",
+    "Twenty-four analysts average $102 against a $53 price with a $34 to $243 range, and EPS estimates are up 19.0% in the past month."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
   "irUrl": "https://www.circle.com",
   "bigPicture": {
     "paragraphs": [
-      "Circle Internet Group generated $319.3M of revenue over the last twelve months, +323.6% versus the prior year. The economics depend on credit losses, funding costs, take rates and the ability to grow without buying customers.",
-      "The latest reported quarter was Q3 FY26, with $207.3M of revenue and an operating margin of 100.5%. The stock closed at $54.63 on 2026-11-17, giving a market capitalization of $14B.",
-      "The shares sit 5% of the way up their 52-week range ($49.90 to $140.00). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "A jump from $33.6M of revenue in the June quarter to $207.3M in September is larger than any plausible change in stablecoin circulation in three months, so the series is measuring something different from what it measured a year ago. What the September quarter does show is a 100.5% operating margin and $0.84 of EPS, both of which imply income and costs outside a simple reserve-income model. Until the presentation is stable, the trailing figures of $319.3M of revenue and $740.7M of free cash flow are the safer anchor.",
+      "The underlying economics are a float and a spread. Circle earns the yield on cash and short-term government securities backing its tokens, then pays a share to the exchanges, fintechs and payment providers that distribute them. A 26.6% gross margin says the retained share is about a quarter of reserve income. That is why revenue can grow quickly while profit grows slowly: every token issued through a partner carries a revenue share, and the partner knows the float is the product.",
+      "The market value is $13.5B, which is 36.9x trailing sales, the single most important number here. On earnings the multiple is 29.1x and on free cash flow 18.2x, because reserve income converts to cash. The sales multiple only makes sense if the revenue base is about to become several times larger, which the 2026 estimate of $3.0B assumes; the reported quarterly series does not yet support that extrapolation. On the 2026 revenue estimate the multiple falls to about 4x, which is ordinary for a payments network; on the reported base it is extreme."
     ],
-    "quote": "A stablecoin issuer is a float business. The token is the liability, the reserve is the asset, and the spread between them is the revenue."
+    "quote": "Circle earns the interest on the dollars behind its tokens and hands most of it to the partners who put those tokens in front of customers."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,34 +52,50 @@ export const CRCL: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 135.2% a year across the fiscal years in the dataset, and the latest quarter changed +626.8% year over year. Third-party estimates for the current fiscal year point to $3B of revenue and $1.29 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 107.4% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Distribution, not adoption, is the growth constraint. A token is useful where it is accepted, and the exchanges and fintechs that hold it charge for that reach. The 26.6% gross margin is the price of the relationship. Growth through partners is fast and expensive; growth through Circle's own channels is slower and more profitable. The reported numbers do not split the two, so a reader cannot tell whether the revenue increase came with a better or worse retained share.",
+      "The estimate set is difficult to reconcile with the reported history: fiscal 2026 revenue of $3.0B against $319.3M trailing, then $3.7B in 2027 with EPS flat at $1.29 in both years. Flat EPS on 24.1% revenue growth is an explicit assumption that the incremental revenue carries little or no margin, which is consistent with partner-led distribution. The 19.0% upward revision to EPS over thirty days says the analysts are still recalibrating to the new revenue presentation.",
+      "The variable that would change the case is the reserve yield. Revenue is the float multiplied by the yield, so a sustained fall in short-term rates reduces revenue on the same circulation with no cost offset. Interest cover of 1,075x and net cash of $1.7B mean solvency is not the issue. The issue is that the profit pool shrinks mechanically when rates fall, and the platform fees that do not depend on the float are still too small to be visible in the reported line."
+    ],
+    "bullets": [
+      {
+        "title": "Retained share",
+        "detail": "Gross margin of 26.6% is the portion of reserve income kept; a single partner renegotiation moves it more than a year of circulation growth."
+      },
+      {
+        "title": "Float",
+        "detail": "Revenue rises with tokens in circulation, which depends on the network of exchanges and payment providers that accept them."
+      },
+      {
+        "title": "Rate level",
+        "detail": "Reserve income is a yield on cash and short-dated government securities, so the revenue base changes when short-term rates change, without any change in adoption."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 107.4%, the net margin is 145.0% and diluted EPS is $2.32. The latest quarter's operating margin was 100.5%.",
-      "Return on equity is n/a. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $207.3M, an operating margin of 100.5% and a net margin of 109.1%."
+      "Two margins explain the result, and neither behaves like a normal operating margin. Gross margin is 26.6%, and the quarterly operating margins through fiscal 2026 are 108.1%, 102.3% and 100.5%, levels that operating income cannot reach on a conventional cost structure. The June quarter's 143.6% net margin makes the same point. These are not margins a reader can compare with a payments processor; they are the arithmetic of a business that reports reserve income and interest income on different bases.",
+      "Return on invested capital of 8.6% and return on equity of 12.0% are modest for a 29.1x earnings multiple, and they are the ratios that matter because the balance sheet is where the float sits. EPS of $0.84 in September against $0.18 in June shows how much of the quarterly result comes from items other than the reserve spread. The annual figures are the reliable series; the quarterly margins are presentation artefacts until the company reports a stable base.",
+      "The comparison with Robinhood is useful because both earn a spread on customer assets. Robinhood converts that spread into a 47.3% operating margin and a 39.0% net margin; Circle converts it into a 26.6% gross margin after paying distribution partners. The difference is bargaining power: a broker owns the customer relationship, while an issuer shares the economics with the platforms that distribute the token."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $740.7M, a 232.0% margin. Net debt is not a meaningful measure for this business in the current dataset.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "Twelve-month cash generation of $740.7M exceeds net income, which is the opposite of the usual growth-company pattern. Some of that is timing, with the June quarter alone producing $516.4M and September giving back $35.6M, but the direction is consistent with a business whose revenue is interest on securities rather than a receivable. Capex is trivial at $12.4M in FY2025, so the cash conversion is structural rather than a working-capital artefact.",
+      "Net cash of $1.7B and interest cover of 1,075x describe a balance sheet with no conventional leverage problem. The caveat is that the reserve assets themselves are not corporate cash: they back tokens redeemable at par, and a run on the token would consume them. The relevant capital measure is the composition and custody of the reserves, not the net debt line, and the reported figures do not disclose the composition.",
+      "No dividend is paid. The cash build is the buffer against redemption risk and the funding for platform expansion, which explains how a company growing revenue at triple-digit rates can also report a 5.5% free cash flow yield. Whether that cash belongs to shareholders or to token holders is the question the statements leave open, and it is the reason the equity multiple and the float are difficult to analyse together."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 30.3x trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $102.37; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Thirty-seven times sales requires a specific explanation, and the only one available is that the revenue base is about to be redefined. On trailing figures the enterprise value is roughly $11.8B against $319.3M of revenue; the fiscal 2026 estimate of $3.0B would bring that to about 4x. Between those two numbers sits a presentation change, not a business change, and the market is valuing the second while reporting the first.",
+      "The peer group offers no clean comparable. Robinhood at 11.4x sales and 30.7x earnings is a retail broker; PayPal at 1.5x sales and 9.7x earnings is a mature network; Circle at 29.1x earnings sits between them on profit but far above both on sales. The earnings multiple is the more useful anchor, because reserve income is in substance net interest income, and a bank-like business earning 8.6% on capital does not usually command 29x.",
+      "What would justify the multiple is a platform business large enough to make reserve income a minority of revenue, which would give earnings a growth profile rather than a rate sensitivity. What would break it is a 100 basis point fall in short-term rates, which reduces revenue on the same float and leaves distribution costs unchanged. The $34 low target and the $243 high target bracket exactly that disagreement."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "24 analysts contribute to the third-party consensus. The mean target is $102.37, with a range of $34.00 to $243.00.",
-      "Current-year estimates call for $3B of revenue and $1.29 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 24 analysts with a mean target of $102.37; third-party estimates can change without notice."
+      "A $34 to $243 range around a $102 mean is not a distribution of views about a stable business; it is two valuation frameworks. According to Yahoo Finance on 18 November 2026, twenty-four analysts cover the shares. The mean is nearly double the $53 price, which says the positive case is built on the platform and the cautious case on the rate-sensitive reserve spread.",
+      "EPS estimates have been raised 19.0% in thirty days and 21.6% in ninety, the largest upward revision in the payment group, while the 2027 estimate is unchanged at $1.29 from 2026. That flat two-year profile is the consensus saying the earnings base is being rebased rather than compounded. The December quarter estimate of $729.0M of revenue against a $207.3M September is the number to reconcile before treating any target as comparable."
     ]
   },
   "risks": {
@@ -153,5 +169,7 @@ export const CRCL: StockStory = {
       "How concentrated is circulation among the largest distribution partners?",
       "How large is the fee-based platform revenue that does not depend on the float?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

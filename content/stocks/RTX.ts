@@ -7,20 +7,20 @@ export const RTX: StockStory = {
   "dek": "Collins and Pratt earn money from flight hours, Raytheon from government budgets. Reading the group means separating an aftermarket annuity from a procurement queue.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $96B trailing twelve months, +11.6% year over year.",
-    "Profitability: 11.8% operating margin and 8.8% net margin.",
-    "Cash: $9.5B free cash flow, a 9.9% margin.",
-    "Scorecard: 37/100 average percentile across the factor screens."
+    "Q3 FY26 revenue was $25.0B at a 13.4% operating margin, the best of the last eight quarters and far above FY2023's 5.2%.",
+    "Pratt & Whitney is 37.1% of revenue, Collins 34.1% and Raytheon 31.7%, so the group blends an aftermarket annuity with a procurement queue.",
+    "Free cash flow of $9.5B is a 9.9% margin, and net debt has fallen to $21.8B, or 1.4x EBITDA.",
+    "A 9.1% return on invested capital is the weak link against Lockheed's 25.9% and the 18.3% peer median."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/rtx-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000101829&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "RTX Corporation generated $96B of revenue over the last twelve months, +11.6% versus the prior year. Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
-      "The latest reported quarter was Q3 FY26, with $25B of revenue and an operating margin of 13.4%. The stock closed at $198.00 on 2026-11-17, giving a market capitalization of $267.2B.",
-      "The shares sit 52% of the way up their 52-week range ($166.74 to $226.88). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "RTX earned a 13.4% operating margin on $25.0B of revenue in the September 2026 quarter, the best of the last eight quarters and a long way from the 5.2% recorded in FY2023. Diluted EPS was $1.89 and net margin 10.3%. The result matters because all three segments contributed: Pratt & Whitney at 37.1% of revenue, Collins at 34.1% and Raytheon at 31.7%. A group margin above 13% is the first evidence that the aftermarket and the defence business can earn well at the same time.",
+      "The three segments run on different clocks. Collins sells original equipment at thin margins to hold the platform position, then earns on spares and repairs for the life of the aircraft. Pratt sells engines at low margin and earns on shop visits, so the fleet's durability matters more than the order price. Raytheon works through government contracts, where cost-plus work limits risk and fixed-price development work concentrates it. The 2023 charge year, when operating margin fell to 5.2%, came from the third of those.",
+      "Capital allocation has been about repair. Net debt fell from $36.5B at FY2023 to $21.8B, leverage is 1.4x EBITDA, and the dividend yields 1.5%. What has not repaired is the return: 9.1% on invested capital against 25.9% at Lockheed Martin and 24.7% at GE Aerospace. At 31.2x earnings and 18.1x EBITDA, the shares are priced between those two, which is a fair place to be only if the margin continues to climb."
     ],
-    "quote": "Collins and Pratt are paid by the hour flown. Raytheon is paid by appropriation. The three rarely move in the same direction at the same time, which is the point of owning them together."
+    "quote": "RTX has three franchises and one balance sheet; the 13.4% quarter is the first sign they can earn together."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -38,35 +38,48 @@ export const RTX: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 11.8% a year across the fiscal years in the dataset, and the latest quarter changed +11.1% year over year. Third-party estimates for the current fiscal year point to $97.4B of revenue and $7.70 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 11.8% and return on invested capital of 9.0% are the filters to watch as revenue scales."
+      "Turnover rose from $68.9B in FY2023 to $80.7B in FY2024, $88.6B in FY2025 and $96.0B trailing, with the September quarter at $25.0B against $22.5B a year earlier. Consensus expects $97.4B for FY2026, up 9.9%, and $105.0B for FY2027, up 7.8%. The composition matters more than the total: Pratt and Collins grow with flight hours and shop visits, while Raytheon grows with appropriations and contract awards.",
+      "Consensus EPS tells a different story from revenue. FY2026 is estimated at $7.70, up 22.5%, on 9.9% revenue growth, which implies another year of margin expansion. FY2027 is estimated at $8.09, up only 5.0%, on 7.8% revenue growth, which implies the expansion stops. That deceleration is the most important line in the consensus. It suggests the market expects the current margin to be a level rather than a stepping stone."
+    ],
+    "bullets": [
+      {
+        "title": "Flight hours",
+        "detail": "Collins and Pratt are paid per hour flown, so a traffic shock cuts high-margin service revenue faster than costs. The aftermarket is the profit pool, not the equipment sale."
+      },
+      {
+        "title": "Pratt fleet",
+        "detail": "Shop visits drive aftermarket revenue, but more visits also raise warranty cost and customer friction. Time on wing decides whether the programme earns its deferred costs back."
+      },
+      {
+        "title": "Raytheon budgets",
+        "detail": "Missile, radar and air-defence revenue follows appropriations. Fixed-price development work is where a single charge can erase a year of margin progress."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 11.8%, the net margin is 8.8% and diluted EPS is $6.16. The latest quarter's operating margin was 13.4%.",
-      "Return on equity is 11.8%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $25B, an operating margin of 13.4% and a net margin of 10.3%."
+      "Profitability progression is almost entirely a recovery. Operating margin was 5.2% in FY2023, 8.1% in FY2024, 10.5% in FY2025, 11.8% trailing and 13.4% in the September quarter. Net margin reached 8.8% trailing from 4.6% in FY2023. Gross margin is not reported, which is appropriate for a business where the cost-of-sales line is a presentation choice; operating margin and return on invested capital are the measures that describe the economics.",
+      "The improvement has come from programme execution rather than from a new revenue mix. Defence contracting is structurally lower-margin than commercial aftermarket, and Pratt's engine programmes carry deferred costs while the fleet is young. Both drags have been receding. The September quarter's 13.4% suggests the drag is smaller than it was, but one quarter is not proof that the fixed-price problems are behind the company.",
+      "Returns remain the weak point. A 9.1% return on invested capital and 12.1% return on equity are below the 18.3% peer median and far below Lockheed's 25.9%. The invested capital base includes the goodwill and programme assets that produced the losses, so the ratio improves slowly even when the margin improves quickly. That lag is why the shares can look expensive on earnings and reasonable on EBITDA at the same time."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $9.5B, a 9.9% margin. Net debt is $28.2B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $9.5B over the last twelve months and net debt was $28.2B; interest cover was n/a."
+      "Cash generation was $9.5B trailing, a 9.9% margin, against $10.6B of operating cash flow and $2.6B of capex in FY2025. The path has been uneven: $4.5B in FY2024, $7.9B in FY2025, and a negative $72M in the June 2025 quarter when working capital moved against the company. The direction is right, but the conversion is still below the 12.5% to 14.3% range the peer group reports.",
+      "Net debt of $21.8B at 1.4x EBITDA is the lowest in the period shown, down from $36.5B in FY2023. Interest cover is not reported, which leaves the debt ratio as the main measure of financial risk. The 1.5% dividend takes little of the $9.5B of free cash flow, so the balance sheet has room for further deleveraging or for the programme investment that the engine fleet requires."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 31.8x trailing earnings and 18.8x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $228.13; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "The {{marketCap}} equity value at {{price}} puts RTX on {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA, at 27.6x free cash flow and a 3.6% cash yield. The peer medians of 29.6x and 20.4x put the stock slightly above the group on earnings and below it on EBITDA. The combination reflects a capital structure with more debt than the median peer and an asset base that is already built.",
+      "Forward estimates narrow the earnings multiple. FY2026 EPS of $7.70 implies about 25x and FY2027 EPS of $8.09 about 24x, so the stock is not relying on a single year's jump. The EBITDA comparison is more revealing: 18.1x sits between Lockheed's 13.3x and GE Aerospace's 29.8x, which is roughly where a business with an 11.8% operating margin and a 9.1% return on capital belongs.",
+      "A sum-of-the-parts view explains the price better than a group multiple. Defence work at Lockheed's 13.3x EBITDA would be worth less than the group average, while the commercial aftermarket at GE's 29.8x would be worth more. The blend is 18.1x. What would break it is a programme charge or a flight-hour shock; what would justify a higher multiple is evidence that 13.4% is the new baseline rather than a good quarter."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "23 analysts contribute to the third-party consensus. The mean target is $228.13, with a range of $200.00 to $250.00.",
-      "Current-year estimates call for $97.4B of revenue and $7.70 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 23 analysts with a mean target of $228.13; third-party estimates can change without notice."
+      "Coverage from Yahoo Finance, dated 18 November 2026, runs to 23 analysts, with a mean target of $228; the range runs from $200 to $250. The balance is positive but not one-sided: a neutral group sits alongside the positive majority and nobody is cautious. A $50 spread around the mean is narrow enough to suggest the argument is about the pace of margin recovery rather than its direction.",
+      "Revisions have been strongly positive, with EPS up 6.2% over 30 days and 6.4% over 60 and 90. The September quarter's $2.26 against a $1.78 estimate explains the move. Consensus now assumes FY2026 EPS of $7.70, up 22.5%, and FY2027 of $8.09, up 5.0%. The second year is the test: if the margin holds, the estimate looks conservative; if it slips, the revisions reverse quickly."
     ]
   },
   "risks": {
@@ -130,5 +143,7 @@ export const RTX: StockStory = {
       "What would a 10% cut in flight hours do to consolidated operating profit?",
       "Why is return on invested capital only 9.0% when the franchises look this strong?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

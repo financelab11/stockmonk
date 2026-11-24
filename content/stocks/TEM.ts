@@ -7,20 +7,20 @@ export const TEM: StockStory = {
   "dek": "Genomic tests generate the revenue today; the de-identified clinical and molecular data is the asset that could change the margin. The company is still losing money while it builds both.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $1.5B trailing twelve months, +36.6% year over year.",
-    "Profitability: -18.5% operating margin and -9.0% net margin.",
-    "Cash: -$136.8M free cash flow, a -9.1% margin.",
-    "Scorecard: 51/100 average percentile across the factor screens."
+    "Revenue of $1.5B grew 36.6% while the operating margin improved from -24.3% in March to -13.8% in September, a narrowing loss on a fixed laboratory base.",
+    "Free cash flow of -$136.8M is a -9.1% margin, but the September quarter was essentially breakeven at -$0.1M, the first sign of self-funding.",
+    "Net cash of $590.5M and a 6.6x sales multiple price the data business as the margin lever, not the testing laboratory.",
+    "Eighteen analysts average $90 against a $58 price, with ten neutral views and EPS estimates cut 60% over ninety days."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526066961/tem-20251231.htm",
   "irUrl": "https://www.tempus.com",
   "bigPicture": {
     "paragraphs": [
-      "Tempus AI, Inc. generated $1.5B of revenue over the last twelve months, +36.6% versus the prior year. The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue.",
-      "The latest reported quarter was Q3 FY26, with $411.5M of revenue and an operating margin of -13.8%. The stock closed at $63.43 on 2026-11-17, giving a market capitalization of $11.6B.",
-      "The shares sit 47% of the way up their 52-week range ($40.77 to $89.09). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "The operating loss narrowed from -24.3% in the March quarter to -19.8% and then -13.8% in September, on revenue that rose from $348.1M to $411.5M. That is 18% revenue growth across two quarters with the loss rate nearly halving, which is what a laboratory does when volume fills capacity. The September net margin of -3.6% against an operating margin of -13.8% also shows how much interest income on the cash balance is doing.",
+      "Tempus sells two things from one input. Genomic testing is a fee per report, billed to payers and hospitals, with reagents, sequencing and laboratory staff in cost of revenue. Data licensing is a contract with pharmaceutical companies for de-identified clinical and molecular data, with a marginal cost near zero. Every test adds to the data set, which is the strategic link. The 64.5% gross margin is the testing business's arithmetic, not the data business's.",
+      "The market value is $10.5B, 6.6x trailing sales and no meaningful earnings multiple. The company consumed $136.8M of free cash flow over the trailing year and holds $590.5M of net cash. The sales multiple is a bet that data licensing becomes large enough to lift the blended margin, because testing alone at 64.5% gross and a -13.8% operating margin does not support it. The 52-week range of $41 to $89 says the market has moved between those readings within a year."
     ],
-    "quote": "A sequencing lab earns a fee per test. A data business earns a fee per question. Tempus is trying to run both through the same clinical footprint."
+    "quote": "Tempus runs a laboratory to generate the data it licenses, and the valuation depends on which of those two businesses ends up setting the margin."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -47,53 +47,55 @@ export const TEM: StockStory = {
     "paragraphs": [
       "Testing revenue is a fee per report. The payer is usually a health insurer or a hospital, and coverage depends on the test's clinical utility and on the specific billing code. The cost of goods includes reagents, sequencing capacity, laboratory staff and the bioinformatics that turns a sequence into a report. That is why gross margin is 64.5% rather than the 80% to 90% of a software company.",
       "Data revenue is a contract, not a transaction. A pharmaceutical company pays for access to a defined data set or for a research collaboration, and the revenue is recognised over the contract term. The marginal cost of delivering an additional data query is low, so this line has the potential to carry a much higher margin than testing.",
-      "The operating leverage depends on which engine grows faster. If testing grows, revenue rises but so do laboratory costs. If data grows, incremental revenue drops through at a high rate. The blended operating margin is the scoreboard, and it improved from minus 24.3% in Q1 FY26 to minus 13.8% in Q3."
+      "The operating leverage depends on which engine grows faster. If testing grows, revenue rises but so do laboratory costs. If data grows, incremental revenue drops through at a high rate. The blended operating margin is the scoreboard, and it improved from minus 24.3% in Q1 FY26 to minus 13.8% in Q3 FY2026."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 58.3% a year across the fiscal years in the dataset, and the latest quarter changed +23.1% year over year. Third-party estimates for the current fiscal year point to $1.6B of revenue and -$0.10 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -18.5% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Genomic testing pays the bills today, and it grew revenue 36.6% trailing after 83.4% in FY2025. Testing and data are not split in the segment line, so the mix has to be inferred from the margin: a shift toward data licensing would lift gross margin, and gross margin is not reported. What is visible is that revenue growth has decelerated from 83.4% to 36.6% to a 25.9% estimate for 2026, a normalisation after a very strong year.",
+      "Consensus assumes $1.6B of revenue in 2026, 25.9% growth, and $2.0B in 2027, 24.1%, with EPS improving from -$0.10 to -$0.04. The company is expected to remain loss-making on a reported basis through 2027, which means the estimates do not assume the data business becomes large enough to change the blended margin. That is a conservative assumption relative to the 6.6x sales multiple, and the two are difficult to reconcile.",
+      "Durability depends on contract concentration. A small number of pharmaceutical partners likely account for a large share of data revenue, and backlog and partner count are not disclosed. The testing business is more diversified but exposed to reimbursement, where coverage decisions set both volume and price. The 36.6% growth is real; the question is how much of it is repeatable without a new contract."
     ],
     "bullets": [
       {
-        "title": "Test volume",
-        "detail": "More reports per oncologist and more oncologists using the platform. The base of the data flywheel."
+        "title": "Testing volume",
+        "detail": "Every genomic report is billed to a payer or hospital, so revenue follows test volume and coverage decisions rather than a subscription base."
       },
       {
-        "title": "Reimbursement",
-        "detail": "Coverage decisions determine whether a test is a paid procedure or a cost the hospital absorbs."
+        "title": "Data licensing",
+        "detail": "De-identified clinical and molecular data sold to drug developers carries a near-zero marginal cost, which is why the mix decides the margin."
       },
       {
-        "title": "Data contracts",
-        "detail": "Pharma partnerships are lumpy and long-dated, but they carry much higher incremental margins than testing."
+        "title": "Cash runway",
+        "detail": "Net cash of $590.5M against $136.8M of trailing cash burn gives roughly four years of funding at the current rate."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -18.5%, the net margin is -9.0% and diluted EPS is -$1.07. The latest quarter's operating margin was -13.8%.",
-      "Return on equity is n/a. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $411.5M, an operating margin of -13.8% and a net margin of -3.6%."
+      "The improvement is coming from operating expenses rather than gross margin. Top-line growth of 18% over two quarters came with an operating loss rate falling from -24.3% to -13.8%, which implies the laboratory and personnel base did not grow proportionally. That is the operating leverage the model needs, and it is the first sustained evidence of it: the quarterly operating margins through fiscal 2025 were -26.9%, -19.6%, -18.3% and -16.7%, a slower rate of improvement.",
+      "Net margin is much better than operating margin, at -3.6% against -13.8% in September and 1.5% against -19.8% in June, because interest income on $590.5M of net cash and other items sit below the operating line. That is a real benefit but not an operating one, and it shrinks if the cash is spent. The 2026 EPS estimate of -$0.10 against a -$1.41 loss in FY2025 is therefore a blend of operating improvement and below-the-line income.",
+      "Return on invested capital of -44.0% and return on equity of -37.8% are the arithmetic of a business that has raised capital and not yet earned a return on it. The comparison with Penumbra, at 9.0%, is not fair, since Penumbra is profitable and Tempus is not, but it shows the distance to a normal diagnostics return. The relevant milestone is an operating margin near zero, not a return on capital."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$136.8M, a -9.1% margin. Net debt is not a meaningful measure for this business in the current dataset.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "Cash burn is the constraint, and it is improving. Free cash flow was -$136.8M over the trailing year, a -9.1% margin, after -$239.1M in FY2025 and -$211.2M in FY2024. The September quarter was essentially breakeven at -$0.1M, following -$13.7M in June and -$81.5M in March. A laboratory that reaches breakeven cash flow at 25% revenue growth is a different business from the one that burned $239.1M.",
+      "Net cash of $590.5M against that burn gives roughly four years of runway at the current rate, and there is no debt to refinance. Capex is modest at $21.0M in FY2025, so most of the cash goes to laboratory operations and to the sales organisation that signs data contracts. The balance sheet is not the risk; the risk is that the burn stops improving before the data business scales.",
+      "No dividend or buyback is possible while the company is loss-making, so capital allocation is really capital consumption. The relevant question is whether $590.5M is enough to reach breakeven without dilution. At the current burn it is, but the burn has been volatile: the June 2026 quarter produced +$516.4M of free cash flow, which is working-capital timing rather than operating cash generation."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $89.56; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Six and a half times sales is the price of a diagnostics business with a data option attached. The device peers trade lower, with Insulet at 3.0x, TransMedics at 3.7x and Globus at 2.6x, and Penumbra at 7.7x is the only comparable. The premium to the device group is a bet on the data business, because testing at a 64.5% gross margin and a -13.8% operating margin would not command 6.6x sales on its own.",
+      "There is no P/E or EV/EBITDA to use: the company is loss-making, and negative free cash flow makes the cash yield -1.3%. The only operational multiples are EV/Sales and, eventually, EV/Gross Profit, and the latter cannot be computed separately for testing and data because the split is not disclosed. A reader is left with the sales multiple and the cash balance, which is 5.6% of the market value.",
+      "What would justify the multiple is evidence that data licensing is growing faster than testing and carries a materially higher margin, which would show up as gross margin expansion or as an inflection in operating margin. What would break it is a reimbursement restriction on genomic testing or the loss of a large pharmaceutical data contract, either of which would hit revenue at the same time as the fixed laboratory cost."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "18 analysts contribute to the third-party consensus. The mean target is $89.56, with a range of $70.00 to $120.00.",
-      "Current-year estimates call for $1.6B of revenue and -$0.10 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 18 analysts with a mean target of $89.56; third-party estimates can change without notice."
+      "A 60% cut to EPS estimates over ninety days is the loudest signal in the estimate set, and it sits alongside a share price that has fallen 24.0% over twelve months. The mean target of $90 is 55% above the $58 price, with a range of $70 to $120; even the low end is 21% above the market.",
+      "The cuts are not a demand warning. Revenue estimates still imply 25.9% growth in 2026 and 24.1% in 2027; what fell was the profit line, with the 2026 estimate now -$0.10 and 2027 at -$0.04. That is the consensus repricing the cost of growth rather than the growth itself. The $70 low target is the case where the data business does not scale and the laboratory consumes the cash; the $120 high target is the case where it does."
     ]
   },
   "risks": {
@@ -157,5 +159,7 @@ export const TEM: StockStory = {
       "What is the gross margin on a data contract versus a genomic test?",
       "How concentrated is data revenue among the largest partners?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

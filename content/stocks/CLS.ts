@@ -7,20 +7,20 @@ export const CLS: StockStory = {
   "dek": "Revenue nearly tripled in four years on hyperscale networking and compute. At an 8.3% operating margin, the profit is in the throughput, not the box.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $18.2B trailing twelve months, +61.6% year over year.",
-    "Profitability: 8.3% operating margin and 6.8% net margin.",
-    "Cash: $545.4M free cash flow, a 3.0% margin.",
-    "Scorecard: 60/100 average percentile across the factor screens."
+    "Revenue of $18.2B grew 61.6%, but an 11.5% gross margin and an 8.3% operating margin show how little of each dollar is retained.",
+    "Free cash flow was $545.4M, a 3.0% margin, because working capital grew faster than profit in a year of 61.6% revenue growth.",
+    "Net cash of $3.2B and a 14.5x EBITDA multiple make the balance sheet the strongest part of the case; 22.2x earnings is below the 43.5x peer median.",
+    "The operating margin in the September quarter fell to 7.9% from 9.8% while revenue rose to $5.8B from $4.7B, the ramp-margin problem in one line."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000011/cls-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001030894&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Celestica Inc. generated $18.2B of revenue over the last twelve months, +61.6% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
-      "The latest reported quarter was Q3 FY26, with $5.8B of revenue and an operating margin of 7.9%. The stock closed at $236.47 on 2026-11-17, giving a market capitalization of $29.8B.",
-      "The shares sit 14% of the way up their 52-week range ($197.50 to $474.03). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Revenue of $5.8B in the September quarter was 23% above the June quarter, and the operating margin fell to 7.9% from 9.8%. EPS of $3.26 compared with $2.31 a year earlier, so the earnings came from volume and cost control rather than from a better price. That combination is the defining feature of contract manufacturing: new programmes arrive at low utilisation, and the margin recovers only as the line matures. The quarter is the clearest recent evidence of how that curve behaves.",
+      "Celestica assembles switches, routers, servers and storage for hyperscalers in Connectivity and Cloud Solutions, which was 74.2% of 2025 revenue, and serves aerospace, industrial, energy and health technology in Advanced Technology Solutions at 25.8%. The customer owns the design and the brand, so the price is set by tender and the company earns a conversion fee plus a markup on materials. An 11.5% gross margin is the result, and the operating leverage comes from spreading fixed plant and test equipment over more units.",
+      "The multiple is unusually low for the group. At 14.5x EBITDA the shares are far below Ciena at 44.1x and Coherent at 36.0x, and 1.3x sales is the lowest multiple here. The discount is deserved for a business with an 8.3% operating margin; the question is whether that margin has permanently doubled from the 4.0% earned in FY2022. If it has, the shares are cheap on any peer comparison; if it has not, the multiple is measuring a cycle peak."
     ],
-    "quote": "A contract manufacturer earns its return on assets and turns, not on price. The question is never whether the revenue arrives; it is whether the working capital needed to serve it arrives first."
+    "quote": "Celestica keeps about eight cents of every revenue dollar, so the case depends on throughput and working capital rather than on price."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,47 @@ export const CLS: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 13.2% a year across the fiscal years in the dataset, and the latest quarter changed +82.5% year over year. Third-party estimates for the current fiscal year point to $21B of revenue and $11.57 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 8.3% and return on invested capital of 38.7% are the filters to watch as revenue scales."
+      "Celestica's revenue base has more than doubled since FY2022, from $7.3B to $18.2B trailing by way of $8.0B, $9.6B and $12.4B. The acceleration came from the cloud segment: the two reportable lines are 74.2% Connectivity and Cloud Solutions and 25.8% Advanced Technology Solutions, and the first is where the AI networking demand sits. The quarterly path is $4.0B, $4.7B and $5.8B in fiscal 2026, so the company added $1.8B of quarterly revenue in six months.",
+      "The estimate set expects that to continue at a pace that strains credibility: $6.5B next quarter, $21.0B for 2026 and $40.3B for 2027. The 2027 figure is nearly double the 2026 estimate and is covered by nine analysts, which is thin for a number of that size. If it lands, the company will have tripled revenue in three years; if it does not, the 2026 base is still a record and the multiple is not demanding."
     ],
     "bullets": [
       {
-        "title": "Hyperscale outsourcing",
-        "detail": "Cloud providers buy more hardware and design more of it themselves, which pushes assembly and supply chain work to companies like Celestica."
+        "title": "Programme ramps",
+        "detail": "New hyperscale programmes start at low utilisation and reach margin as volume builds; the September quarter shows the first part of that curve."
       },
       {
-        "title": "Programme wins",
-        "detail": "One large socket can add billions of revenue. The risk is that it also adds the working capital to serve it."
+        "title": "Working capital",
+        "detail": "Components are bought months before shipment and paid for later still, so revenue growth absorbs cash before it produces it."
       },
       {
-        "title": "Ramp execution",
-        "detail": "New programmes start at low utilisation and improve. Margin dips during ramps are normal and reverse if the ramp goes well."
+        "title": "Segment mix",
+        "detail": "Advanced Technology Solutions at 25.8% is the steadier base, and its slower growth is what keeps the group from being a pure hyperscale proxy."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 8.3%, the net margin is 6.8% and diluted EPS is $10.56. The latest quarter's operating margin was 7.9%.",
-      "Return on equity is 20.0%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $5.8B, an operating margin of 7.9% and a net margin of 6.8%."
+      "The margin expansion is the story. Gross margin went from 9.0% in FY2022 to 9.5%, 10.7%, 12.1% and 11.5% trailing; operating margin went from 4.0% to 4.2%, 6.2%, 8.4% and 8.3%. Net margin reached 6.8% trailing and EPS $7.16 in FY2025 against $1.46 in FY2022. A contract manufacturer that doubles its operating margin while tripling revenue is doing something more than filling a factory; it is winning programmes with more value-added content.",
+      "Return on invested capital is 18.4% trailing and 31.3% in FY2025, well above the 11.1% peer median, while return on equity is 20.0%. The capital base is small because the customer owns the design and inventory turns quickly, so the return is a function of asset turnover rather than margin. The September quarter's 7.9% operating margin against 9.8% in June is the caution: at a 6.8% net margin, a two-point operating margin change moves earnings by roughly a quarter."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $545.4M, a 3.0% margin. The balance sheet carries $3.1B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $545.4M over the last twelve months and net debt was -$3.1B; interest cover was n/a."
+      "Celestica produced $659.5M of operating cash flow in FY2025 against $201.2M of capex, leaving $458.3M of free cash flow. The trailing twelve months produced $545.4M, a 3.0% margin, against a 6.8% net margin. The gap is working capital: revenue grew 61.6%, so inventory and receivables grew faster than profit, and the September 2026 quarter produced $115.6M of free cash flow after $147.1M in June. A contract manufacturer's cash flow is a function of how fast the top line grows.",
+      "A $3.2B net cash position means the working-capital build was funded from operations and the balance sheet still carries no net debt. Interest cover is 21.3x. No buyback or dividend is disclosed, so capital is being retained against the next capacity expansion. The risk is that a slowdown leaves the inventory that was bought for growth; the $3.2B of net cash is the buffer against that, and it is the strongest part of the case."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 23.9x trailing earnings and 15.8x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $456.17; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Trailing earnings of {{pe}} and {{evEbitda}} EBITDA sit below peer medians of 43.5x and 36.0x, and the 1.3x sales multiple is the lowest in the group. That is the right way to look at a business with an 11.5% gross margin: revenue is mostly pass-through material, so a sales multiple understates the economics less than it would for a software company and more than for a chip designer.",
+      "The 2026 estimate of $11.57 implies about 19x, and $21.77 for 2027 about 10x. That is a steep derating inside two years, and it depends entirely on the $40.3B revenue estimate. The 22.2x trailing earnings multiple and the 50.7x price to free cash flow tell different stories: the earnings multiple says the market expects margin normalisation, and the cash multiple says working capital is consuming the profit.",
+      "A higher multiple needs evidence that 8.3% is a new baseline rather than a peak, which would require the ramping programmes to reach mature utilisation without a pricing concession. A hyperscaler that insources assembly, or a quarter in which revenue grows and margin falls again, would break it. At 1.3x sales the market is not paying for perfection, but it is not paying for a compounder either."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "18 analysts contribute to the third-party consensus. The mean target is $456.17, with a range of $340.00 to $535.00.",
-      "Current-year estimates call for $21B of revenue and $11.57 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 18 analysts with a mean target of $456.17; third-party estimates can change without notice."
+      "The 18 November 2026 Yahoo Finance snapshot covers Celestica with 18 analysts and a mean target of $456, against a $219 price and a range of $340 to $535. Every view in the set is positive, with none neutral and none negative. A mean more than double the market price with no neutral voice is the most one-sided coverage in the group, and it is a statement about the revenue estimate rather than about the margin.",
+      "Celestica's 2026 numbers are $21.0B of revenue and $11.57 of EPS, with 2027 at $40.3B and $21.77 on nine analysts. Revisions are positive at +3.5% over 30 days, and the last four quarters beat by 2% to 12%. The consensus is therefore assuming the AI networking build continues into 2027 at a scale that would make Celestica one of the largest contract manufacturers in the sector; the analyst count on that year is the main reason to treat it cautiously."
     ]
   },
   "risks": {
@@ -158,5 +156,7 @@ export const CLS: StockStory = {
       "How much working capital is required per dollar of new revenue?",
       "Why is the next-year consensus double the current year on a third of the analyst coverage?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

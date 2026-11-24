@@ -7,20 +7,20 @@ export const OKLO: StockStory = {
   "dek": "Revenue of $3.1M against a $4.4B market value. What matters sits in a licensing docket, a construction estimate and a contract for electricity that has not been signed yet.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $3.1M trailing twelve months, not available year over year.",
-    "Profitability: -8223.8% operating margin and -5366.1% net margin.",
-    "Cash: -$452.2M free cash flow, a -14724.6% margin.",
-    "Scorecard: 38/100 average percentile across the factor screens."
+    "Revenue of $3.1M against a $4.1B market value makes the sales multiple meaningless; the price is a bet on a licensing schedule.",
+    "Free cash flow was -$452.2M, and the quarterly burn rose from $141.7M in June to $199.5M in September.",
+    "Net cash of $1.6B covers about three and a half years at the trailing rate, before construction commitments begin.",
+    "Twenty-one analysts carry a $55 mean target against a $21 share price, a range of $14 to $100 that shows how little agreement there is on timing."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1849056/000162828026018698/oklo-20251231.htm",
   "irUrl": "https://www.oklo.com",
   "bigPicture": {
     "paragraphs": [
-      "Oklo Inc. generated $3.1M of revenue over the last twelve months, not available versus the prior year. The opportunity is large but early; permits, financing and construction execution determine who captures it.",
-      "The latest reported quarter was Q3 FY26, with $1.9M of revenue and an operating margin of -3816.1%. The stock closed at $22.37 on 2026-11-17, giving a market capitalization of $4.4B.",
-      "The shares sit 4% of the way up their 52-week range ($18.53 to $115.72). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Two million dollars of quarterly revenue is the entire top line. Oklo booked $1.9M in the September 2026 quarter and $1.2M in June, with operating margins of -3,816.1% and -6,048.8%. The revenue is early development work, not electricity sales. The result matters because it shows how far the company is from the business it describes: a fleet of small fission plants selling power under long-term contracts. That is the distance between the plan and the accounts.",
+      "The design is a small fast-spectrum reactor intended to be built in repeatable units and assembled on site. The commercial model is an independent power producer: Oklo would finance, own and operate plants and sell electricity, rather than sell reactors to utilities. That makes construction cost, operating performance and fuel supply its responsibility for decades, and it puts the licensing docket ahead of the sales pipeline. That is a long capital cycle with a single point of failure.",
+      "The $1.6B cash balance is the clock. Against a $4.1B market value, the enterprise is valued at about $2.5B, or 836.4x sales. The multiple is not a valuation; it is a price for the first plant. The debate is whether the cash covers the licensing and construction programme long enough for a power contract to be signed. On the trailing burn it covers about three and a half years, which is short against a licensing schedule measured in years."
     ],
-    "quote": "A pre-commercial reactor company is not valued on its income statement. It is valued on the probability-weighted cost and schedule of its first plant, and on whether anyone has agreed to buy the output."
+    "quote": "Oklo's revenue is a rounding error against its cash balance, and its valuation is a statement about a licence it does not yet hold."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,48 +52,50 @@ export const OKLO: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at n/a a year across the fiscal years in the dataset, and the latest quarter changed not available year over year. Third-party estimates for the current fiscal year point to $4.4M of revenue and -$0.95 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -8223.8% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "The first plant is the growth plan, and it has no revenue line yet. A single operating unit would move the company from development spending to electricity sales, but the reported figures disclose no cost per unit of capacity, no contracted power price and no firm operational date. The consensus revenue estimate of $9.5M for FY2027 is small enough that it says nothing about the plant economics.",
+      "Fuel is a second business inside the first. Fast reactors can use different fuel forms from the light-water fleet, and the company has described recycling used fuel as part of its plan. Whatever the route, it needs its own qualification and licensing work, so fuel is a parallel approval track rather than a solved input. That adds cost before it adds revenue. That makes fuel a cost centre before it is a revenue line.",
+      "The estimates put revenue at $4.4M in FY2026 and $9.5M in FY2027, with losses of $0.95 and $1.12 per share. Those numbers describe a company still spending, not one approaching commercial operation. The growth that matters is measured in licensing milestones and in the first signed power agreement, neither of which appears in the revenue estimate. The estimates are a schedule, not a demand forecast."
     ],
     "bullets": [
       {
-        "title": "First plant",
-        "detail": "Everything hinges on one project reaching a licence and a construction finish line. A slip moves the entire revenue curve."
+        "title": "Design certification",
+        "detail": "A reactor design must clear certification before construction can begin in earnest; each stage can add years and change the specification."
       },
       {
-        "title": "Repeat orders",
-        "detail": "The small-reactor thesis only works if unit two costs less than unit one. Watch for standardisation rather than bespoke site design."
+        "title": "First-of-a-kind cost",
+        "detail": "The small-reactor case rests on factory repetition, but the first unit carries engineering and tooling costs later units do not."
       },
       {
-        "title": "Power contracts",
-        "detail": "A signed long-term offtake agreement is what makes a plant financeable. Without one, construction has to be funded on the balance sheet."
+        "title": "Power contract",
+        "detail": "A financeable plant needs a creditworthy buyer signed to a long-term agreement; without one, the project sits on the sponsor's balance sheet."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -8223.8%, the net margin is -5366.1% and diluted EPS is -$0.96. The latest quarter's operating margin was -3816.1%.",
-      "Return on equity is n/a. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $1.9M, an operating margin of -3816.1% and a net margin of -2243.2%."
+      "At $3.1M of revenue, the operating margin of -8,223.8% is an artefact of the denominator. The dollar loss is the measure: FY2025 produced a $139.3M operating loss, and the trailing figure is larger as spending accelerated. The gross margin is not reported, which is appropriate when there is no meaningful cost of goods to match against revenue. The gross line is not the issue; the spending line is.",
+      "The cost base is people, engineering and regulatory submissions. Q2 FY2026 revenue was $1.2M against a -6,048.8% operating margin; Q3 FY2026 was $1.9M against -3,816.1%. The improvement is entirely the larger denominator. Return on invested capital of -5.5% and return on equity of -4.5% are small because the capital base includes the cash raised, not because the business is close to profitable.",
+      "Peer margins mean nothing at this stage. NuScale has a -9,493.2% operating margin on $2.7M of revenue, and Centrus earns an 11.2% operating margin on $448.7M of fuel sales. The first is another developer, the second is an operating fuel supplier. Oklo belongs with the first until it has a plant, and that is the only comparison that matters at this stage."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$452.2M, a -14724.6% margin. Net debt is not a meaningful measure for this business in the current dataset.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "A $452.2M annual burn against $3.1M of revenue is the defining ratio. Free cash flow was -$115.4M in FY2025 and has widened sharply in 2026: -$141.7M in the June quarter and -$199.5M in September. Capex was $33.2M in FY2025 and is rising as site work begins. The cash statement, not the income statement, is the operating record, and it describes a spending programme rather than a working-capital cycle.",
+      "The $1.6B balance covers about three and a half years at the trailing rate, less if spending continues to rise. The company has no debt to refinance and no dividend to protect, so the only calls on cash are the licensing programme, long-lead procurement and construction preparation. A first plant would require capital far beyond the current balance, which is why the offtake contract matters.",
+      "There is a single allocation decision: how much to spend before a customer signs. Spending on licensing and design is necessary to win the order; spending on construction before the order would be a bet on the balance sheet. The reported figures do not disclose how much of the $1.6B is committed, which is the main gap in assessing the runway. That is the gap that matters more than the multiple."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $55.43; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "An 836x sales multiple is not a valuation metric; it is a price on an option. The market value of $4.1B against $3.1M of revenue cannot be justified by any near-term cash flow, and EV/EBITDA and P/E are not reported. The relevant comparison is with other pre-revenue nuclear developers: NuScale trades at 190.1x sales, and Centrus, an operating fuel supplier, at 1.7x.",
+      "What the price assumes is a licensed design, a first plant financed and built, and a power contract that covers the capital charge. The FY2027 revenue estimate of $9.5M does not begin to describe that outcome; it is still development revenue. A valuation based on the eventual fleet would need a cost per unit of capacity and a power price, neither of which is disclosed.",
+      "A licensing delay, a construction estimate that rises before the first order, or a financing at a lower valuation would break the price. A signed long-term power agreement with a creditworthy buyer would justify it, because it would turn the option into a project with a calculable return. The 52-week range of $19 to $116 shows how violently the market has repriced the timetable."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "21 analysts contribute to the third-party consensus. The mean target is $55.43, with a range of $14.00 to $100.00.",
-      "Current-year estimates call for $4.4M of revenue and -$0.95 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 21 analysts with a mean target of $55.43; third-party estimates can change without notice."
+      "Twenty-one analysts cover Oklo, with a mean target of $55 and a range of $14 to $100, in Yahoo Finance data dated 18 November 2026. A range that spans seven times the low target is not a disagreement about next year's revenue; it is a disagreement about whether the first plant gets built.",
+      "Revenue estimates of $4.4M for FY2026 and $9.5M for FY2027 come with losses of $0.95 and $1.12 per share. The EPS estimate has been cut 3.0% over 60 days and raised 0.6% over 90, so the revision trend is flat. The consensus is therefore not modelling a plant; it is modelling the spending required to reach one, which is why the target range is so wide."
     ]
   },
   "risks": {
@@ -157,5 +159,7 @@ export const OKLO: StockStory = {
       "How many quarters of spending does the current cash balance cover?",
       "What single regulatory decision would most change the timeline?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

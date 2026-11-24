@@ -7,20 +7,20 @@ export const EOG: StockStory = {
   "dek": "Operating margin went from 16.7% to 41.9% in three quarters on a 52% rise in revenue. Nothing about the wells changed. The price did, and a fixed cost base turned a modest revenue move into a large earnings one.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $29.7B trailing twelve months, +31.7% year over year.",
-    "Profitability: 35.8% operating margin and 27.5% net margin.",
-    "Cash: $8B free cash flow, a 27.0% margin.",
-    "Scorecard: 77/100 average percentile across the factor screens."
+    "A 41.9% operating margin on $8.5B of revenue in Q3 FY26 compares with 16.7% on $5.6B in Q4 FY25, a 25-point move on price.",
+    "Trailing revenue is $29.7B, up 31.7%, and net margin is 27.5%, but the FY2027 consensus expects revenue to fall 10.4%.",
+    "Free cash flow is not reported, so the cash case rests on $10.0B of FY2025 operating cash flow against $2.2B of net debt, or 0.1x EBITDA.",
+    "At {{pe}} earnings and {{evEbitda}} EV/EBITDA, EOG is the cheapest large producer in the peer set, below ConocoPhillips at 13.6x and 5.8x."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000054/eog-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000821189&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "EOG RESOURCES INC. generated $29.7B of revenue over the last twelve months, +31.7% versus the prior year. Cash flow is a function of commodity prices, production volumes and capital discipline.",
-      "The latest reported quarter was Q3 FY26, with $8.5B of revenue and an operating margin of 41.9%. The stock closed at $154.91 on 2026-11-17, giving a market capitalization of $80.3B.",
-      "The shares sit 83% of the way up their 52-week range ($101.59 to $165.93). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Three quarters took EOG's operating margin from 16.7% to 41.9%. Revenue rose from $5.6B in Q4 FY25 to $8.5B in Q3 FY26, and EPS from $1.31 to $5.33, without any change in the well stock. Lease operating costs and corporate overhead are largely fixed, so the incremental revenue carried an unusually high contribution. The same mechanism will work in reverse when the price falls, and that symmetry is the whole investment case.",
+      "The asset base is a collection of drilling locations rather than a set of long-lived fields. Shale wells decline steeply in their first two years, so production has to be replaced continually and the inventory of undrilled locations is the real asset. A 98.4% US revenue base keeps the cycle short and the execution visible, but it also concentrates the portfolio in one price marker and one regulatory regime, which is why US benchmark prices drive the result.",
+      "The valuation is a statement about mid-cycle earnings. EOG's {{marketCap}} market value at {{price}} is {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA, against 13.6x and 5.8x for ConocoPhillips and 15.9x and 7.8x for ExxonMobil. A 9.3x multiple on a 41.9% margin is not a vote of confidence in the margin; it is the market applying a discount to earnings it expects to fall. The 3.0% dividend is the cash return that survives that view, and the discount to the integrated majors is the price of having no downstream hedge."
     ],
-    "quote": "A high return on capital in a commodity business is a statement about the price as much as about the asset. The distinction matters when the price changes."
+    "quote": "EOG's margin moved 25 points in three quarters without a single well changing, which is the whole case and the whole risk."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,47 @@ export const EOG: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 4.5% a year across the fiscal years in the dataset, and the latest quarter changed +46.2% year over year. Third-party estimates for the current fiscal year point to $32.4B of revenue and $18.73 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 35.8% and return on invested capital of 39.2% are the filters to watch as revenue scales."
+      "Consensus expects revenue of $32.4B in 2026, up from $22.6B in FY2025, and $29.1B in 2027, a 10.4% decline. EPS follows the same arc: $18.73 then $16.99. That is not a growth profile; it is a price forecast expressed as an estimate. The company can influence volume through the drill bit and the completion design, but it cannot influence the benchmark price that decides most of the revenue.",
+      "The growth that is within management's control is cost per barrel and inventory depth. A lower finding and development cost makes more locations economic at a given price, and a deeper inventory extends the number of years the company can keep production flat. Neither is disclosed in the summary financials, so the evidence has to come from well productivity and from the capital budget per rig rather than from the revenue line."
     ],
     "bullets": [
       {
-        "title": "Well productivity",
-        "detail": "More barrels per dollar of drilling is the only sustainable source of cost advantage in shale."
+        "title": "Short-cycle shale",
+        "detail": "Wells can be brought onstream in months, which lets EOG respond to price rather than forecast it. The trade-off is steep initial decline."
       },
       {
-        "title": "Inventory depth",
-        "detail": "A deep bench of undrilled locations lets a producer keep activity flat through a price fall."
+        "title": "Inventory quality",
+        "detail": "The undrilled location count is the asset that matters. A thinning inventory raises the cost of keeping production flat before it shows up in the margin."
       },
       {
-        "title": "Product mix",
-        "detail": "A higher oil share lifts revenue per unit of production but concentrates exposure to one price."
+        "title": "Gas takeaway",
+        "detail": "Associated gas needs pipeline or export capacity. Without it, the molecule sells at a local discount or is flared, which is a volume risk dressed as a price risk."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 35.8%, the net margin is 27.5% and diluted EPS is $15.49. The latest quarter's operating margin was 41.9%.",
-      "Return on equity is 30.1%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $8.5B, an operating margin of 41.9% and a net margin of 32.5%."
+      "The margin path is almost entirely realisation. Operating margin was 39.7% in FY2023, 34.1% in FY2024 and 28.2% in FY2025, then 16.7% in Q4 FY25 before recovering to 37.5%, 40.9% and 41.9% in the next three quarters. The cost base moved very little across that path. The net margin tells the same story, from 12.4% in Q4 FY25 to 32.5% in Q3 FY26.",
+      "Returns are a function of the same variable. Return on invested capital was 24.4% in FY2023, 13.9% in FY2025 and 20.2% trailing; return on equity was 27.0%, 16.7% and 24.7%. The trailing figures are the best in the peer group, but they were earned at a 41.9% operating margin. The question is what the same assets earn at a normal price, and the FY2025 numbers are a closer guide than the trailing ones."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $8B, a 27.0% margin. The balance sheet carries $5.7B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $8B over the last twelve months and net debt was -$5.7B; interest cover was n/a."
+      "Free cash flow after capex is not reported for EOG, and capex is absent from the annual table, so the cash analysis has to stop at operating cash flow. That was $10.0B in FY2025 and $12.1B in FY2024, against net debt of $2.2B, or 0.1x EBITDA. Interest cover is 40.1x. On any reading, the balance sheet is not a constraint and the dividend is not at risk from the cash side.",
+      "The missing capex line is the important omission. For a shale producer, the maintenance capital required to keep production flat is the true cost of the dividend and the buyback. Operating cash flow of $10.0B looks ample against a $2.2B net debt position, but without the capex number the reader cannot separate the cash that is free from the cash committed to replacing depleted wells. The 3.0% dividend is the observable cash return."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 9.8x trailing earnings and 4.8x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $168.28; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "EOG's {{marketCap}} market value at {{price}} is {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA. The peer medians are 15.4x and 7.0x, so the discount is about six turns on earnings and two on EBITDA, the widest in the group. P/FCF and the free-cash-flow yield are not available. On the FY2027 estimate of $16.99 the multiple is about 8.7x, still below every integrated peer.",
+      "The discount is a mid-cycle judgement, not a quality judgement. EOG's 35.8% operating margin and 20.2% return on capital are the highest in the peer set, above ConocoPhillips at 29.4% and 12.9% and ExxonMobil at 14.0% and 14.0%. A cheaper multiple on better margins only makes sense if the market expects those margins to normalise faster. That is exactly what the 2027 estimate of a 10.4% revenue decline implies.",
+      "What would break the discount is evidence of a lower cost per barrel and a longer inventory life, which would raise the mid-cycle earnings base. What would justify it is a sustained fall in oil, which would hit EOG's margin harder than an integrated peer's because there is no downstream business to absorb it. The 3.0% dividend is the return that does not require a view on the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "29 analysts contribute to the third-party consensus. The mean target is $168.28, with a range of $147.00 to $200.00.",
-      "Current-year estimates call for $32.4B of revenue and $18.73 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 29 analysts with a mean target of $168.28; third-party estimates can change without notice."
+      "The 18 November 2026 Yahoo Finance consensus draws on 29 analysts, with a mean target of $168 and a range of $147 to $200. The mean is 14% above the current price, but the low end is exactly the current price, so the neutral majority is not imagining downside; it is simply not paying for upside.",
+      "Revisions have been positive, with the 90-day EPS change at 14.1% and the 60-day at 11.0%. Consensus expects $18.73 for 2026 and $16.99 for 2027, a 9.3% decline. Twenty-two neutral views on a stock that has returned 42.0% over a year is the clearest sign that the analyst community treats the current margin as a peak rather than a base."
     ]
   },
   "risks": {
@@ -148,7 +146,7 @@ export const EOG: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "EOG is a well-run domestic shale producer with high returns, net cash and a free-cash-flow margin that would be the envy of most industries. Trailing revenue of $29.7B and free cash flow of $8.0B are real, and the 35.8% operating margin reflects genuine cost discipline.",
+      "EOG is a well-run domestic shale producer with high returns, net debt and a free-cash-flow margin that would be the envy of most industries. Trailing revenue of $29.7B and free cash flow of $8.0B are real, and the 35.8% operating margin reflects genuine cost discipline.",
       "What a reader should not do is treat 39.2% return on invested capital as a durable franchise. It was earned at a particular price, and the same assets produced a fraction of that margin nine months earlier. The return is a function of the commodity, and the commodity is not managed by the company.",
       "The valuation is consistent with that reading. A 4.5x EV/EBITDA multiple on a strong year is the market saying that the denominator will not hold, which leaves the reader with one question worth answering: what does the business earn at a normal price?"
     ],
@@ -158,5 +156,7 @@ export const EOG: StockStory = {
       "What share of production is oil, and how sensitive is revenue to that price alone?",
       "What would free cash flow be at a mid-cycle price rather than today's?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

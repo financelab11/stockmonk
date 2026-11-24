@@ -7,20 +7,20 @@ export const SNPS: StockStory = {
   "dek": "Revenue is up 46.3% while operating margin is 8.5%. The gap is not a demand problem, and the free cash flow proves it.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $9.4B trailing twelve months, +46.3% year over year.",
-    "Profitability: 8.5% operating margin and 11.4% net margin.",
-    "Cash: $2.7B free cash flow, a 29.2% margin.",
-    "Scorecard: 37/100 average percentile across the factor screens."
+    "Third-quarter revenue of $2.5B rose 42.4%, but the operating margin was only 14.4% as acquisition costs absorbed the gross profit.",
+    "Free cash flow of $2.7B is 29.2% of revenue, more than three times the 8.5% operating margin.",
+    "Net debt of $6.4B is 2.5x EBITDA and interest cover is 1.3x, the tightest balance sheet in the group.",
+    "At 76.4x earnings but 29.9x free cash flow, Synopsys is cheaper on cash than Cadence's 47.4x."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/883241/000088324125000028/snps-20251031.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000883241&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "SYNOPSYS INC. generated $9.4B of revenue over the last twelve months, +46.3% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
-      "The latest reported quarter was Q3 FY26, with $2.5B of revenue and an operating margin of 14.4%. The stock closed at $435.51 on 2026-11-17, giving a market capitalization of $83.5B.",
-      "The shares sit 41% of the way up their 52-week range ($362.55 to $539.48). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Synopsys' third fiscal quarter, ended 31 July 2026, produced $2.5B of revenue, a 14.4% operating margin and $2.84 of diluted EPS. Revenue was 42.4% higher than a year earlier, and the operating margin recovered from 5.3% in the prior quarter. The result matters because it shows a design-software franchise digesting a large acquisition: the top line is growing fast, the reported margin is thin, and the cash flow is far stronger than the reported margin suggests.",
+      "The portfolio is two businesses now. Design Automation was 75.2% of segment revenue, with Design IP at 24.8%, the part of the mix tied to chip design starts. Design software renews on multi-year terms and is tied to a specific manufacturing process, which makes switching expensive. The acquired IP and hardware bring revenue and cost at the same time, and the amortisation sits below the gross-profit line. That makes the revenue base more balanced but less predictable than a pure software annuity.",
+      "Which line to believe is the debate. At $429 the shares carry 76.4x earnings, 33.9x EV/EBITDA, 9.4x sales and 29.9x free cash flow. The P/E is high because the denominator is depressed; the P/FCF is lower than Cadence's 47.4x. Net debt of $6.4B at 2.5x EBITDA and interest cover of 1.3x is the constraint that makes the accounting question urgent. The market is pricing the cash flow, not the reported profit, which is why the shares have held."
     ],
-    "quote": "The revenue line says the franchise is intact. The operating line says the accounting has not caught up with it. Both can be true at once."
+    "quote": "Synopsys' cash flow says the franchise is intact; its interest cover says the balance sheet is doing the talking."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,50 @@ export const SNPS: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 13.9% a year across the fiscal years in the dataset, and the latest quarter changed +42.4% year over year. Third-party estimates for the current fiscal year point to $9.7B of revenue and $15.14 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 8.5% and return on invested capital of 1.7% are the filters to watch as revenue scales."
+      "Turnover rose from $6.1B in fiscal 2024 to $7.1B in fiscal 2025 and $9.4B trailing, a 46.3% trailing increase that is well above the 15.1% reported for fiscal 2025. The step came from acquisitions, not from a sudden acceleration in design starts. Consensus for fiscal 2026 is $9.7B, up 37.8%, and fiscal 2027 is $11.0B, up 13.3%, which is the shape of an acquisition annualising rather than a new growth rate.",
+      "Design IP represents 24.8% of segment revenue and is the more cyclical part of the mix because it follows chip design starts. It carries lower margin than a license. Design Automation remains the annuity: 75.2% of revenue, renewed annually, tied to a process node and expensive to replace. The combination is more diversified but less pure than Cadence's software base.",
+      "Durability depends on integration. Fiscal 2027 revenue of $11.0B would be 13.3% above fiscal 2026, a return to the mid-teens pace the company delivered before the acquisition. EPS of $18.65 assumes the acquired cost base is absorbed and the interest burden is manageable. The 90-day EPS revision of 2.5% is positive, but the 30- and 60-day revisions are flat, so the estimate has stopped moving."
+    ],
+    "bullets": [
+      {
+        "title": "Design Automation",
+        "detail": "The 75.2% segment is the annuity: multi-year licenses, annual renewals and a flow tied to a specific process node."
+      },
+      {
+        "title": "Design IP",
+        "detail": "IP is 24.8% of segment revenue and grows with design starts, which makes it more cyclical and lower-margin than the core tools."
+      },
+      {
+        "title": "Acquisition digest",
+        "detail": "Reported operating margin fell to 8.5% while free cash flow stayed at 29.2% of revenue; the gap is the integration cost that has to fade."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 8.5%, the net margin is 11.4% and diluted EPS is $5.72. The latest quarter's operating margin was 14.4%.",
-      "Return on equity is 3.5%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $2.5B, an operating margin of 14.4% and a net margin of 22.0%."
+      "Almost all of the gap between gross and operating profit is accounting. A 72.4% gross margin becomes an 8.5% operating margin and an 11.4% net margin, a spread of roughly 64 points. Amortisation of acquired intangibles, integration spending and stock-based compensation sit in that gap. The cash-flow statement confirms the reading: free cash flow of $2.7B is 29.2% of revenue, far above the operating margin.",
+      "The quarterly path shows the absorption. Operating margin was 5.4% in the October 2025 quarter, 8.4% in January, 5.3% in April and 14.4% in July. Net margin swung from 2.7% to 0.8% to 22.0% over the same three quarters. That volatility is not demand; it is the timing of charges. Return on invested capital of 1.6% and return on equity of 3.5% are therefore accounting outcomes rather than economic returns.",
+      "Against Cadence, Synopsys is the cheaper business on cash and the more expensive one on earnings. Cadence reported a 28.9% operating margin and 28.8% FCF margin; Synopsys reported 8.5% and 29.2%. The similar cash margins tell you the underlying economics are close. The difference is that Synopsys paid for its growth with debt, and the interest line now sits between the two."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $2.7B, a 29.2% margin. Net debt is $7.6B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $2.7B over the last twelve months and net debt was $7.6B; interest cover was n/a."
+      "Synopsys turned 29.2% of revenue into free cash flow, $2.7B, against operating cash flow of $1.5B in fiscal 2025 and capex of $169.5M. The trailing figure is higher than the fiscal-year figure partly because the acquired business added revenue without adding much capital spending. The conversion is the strongest evidence that the low operating margin is an accounting result rather than a cash problem.",
+      "Leverage is the counterweight. Net debt was $6.4B, or 2.5x EBITDA, and interest cover was 1.3x. That is a thin cushion: operating income of roughly $0.8B barely covers an interest bill of about $0.6B. The company can service the debt, but it has little room for a downturn or a refinancing shock, and the 1.3x cover is the tightest in the group.",
+      "Capital allocation has been acquisition-led. The debt funded the growth, and the dividend yield is 0.0%. The priority now is deleveraging rather than returns: every dollar of free cash flow used to repay debt improves the interest cover and removes the constraint on the equity story. With no distribution and no disclosed buyback, deleveraging is the only use of cash."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 77.5x trailing earnings and 34.8x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $589.55; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $429 the equity is worth $82.3B, or 76.4x trailing earnings, 33.9x EV/EBITDA, 9.4x sales and 29.9x free cash flow. The P/E is the least useful number because the earnings base is depressed by acquisition accounting. On cash, Synopsys is cheaper than Cadence at 47.4x P/FCF, and on sales it is cheaper than Cadence at 13.8x. The market is not paying a premium for the reported margin.",
+      "The estimates require the integration to work. Fiscal 2026 EPS of $15.14 is 28.3x the current price and fiscal 2027 at $18.65 is 23.0x. Those multiples are below the trailing P/E because earnings are expected to recover, not because revenue is expected to accelerate. If the operating margin stays near 8.5%, the forward estimates are too high; if it returns to the low twenties, they are conservative.",
+      "The shares have moved between $363 and $539 over the past year, and a 6.1% return describes a stock that has gone nowhere while revenue rose 46.3%. The market is waiting for the margin to prove itself. A 2.5x EBITDA leverage ratio and 1.3x interest cover mean the waiting period is not free. Until the interest cover improves, the equity is a leveraged bet on the integration."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "25 analysts contribute to the third-party consensus. The mean target is $589.55, with a range of $475.00 to $700.00.",
-      "Current-year estimates call for $9.7B of revenue and $15.14 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 25 analysts with a mean target of $589.55; third-party estimates can change without notice."
+      "At Yahoo Finance, the 18 November 2026 consensus covers 25 analysts, with a mean target of $590 and a range of $475 to $700. Almost every analyst is positive, and only two sit at neutral. The mean is 37.5% above the $429 price, and the low end is 10.7% above it, so the analysts are positive but the dispersion is narrow relative to the accounting uncertainty.",
+      "Estimates have been flat: no change over seven, 30 or 60 days, and 2.5% over 90 days. Fiscal 2026 revenue of $9.7B and EPS of $15.14 assume the acquired business annualises and the operating margin recovers. The consensus is implicitly assuming that the integration charges are temporary and that the 1.3x interest cover does not become a refinancing problem."
     ]
   },
   "risks": {
@@ -144,5 +159,7 @@ export const SNPS: StockStory = {
       "How quickly can the operating margin return to the low twenties?",
       "What does the $7.55B of net debt cost in interest each year?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

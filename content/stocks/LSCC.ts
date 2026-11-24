@@ -7,20 +7,20 @@ export const LSCC: StockStory = {
   "dek": "A 68.6% gross margin says the chips are valuable. A 9.1% operating margin says the company is spending the difference, and its fastest-growing quarter made that gap wider.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $808.8M trailing twelve months, +63.4% year over year.",
-    "Profitability: 9.1% operating margin and 5.5% net margin.",
-    "Cash: $242.6M free cash flow, a 30.0% margin.",
-    "Scorecard: 55/100 average percentile across the factor screens."
+    "Revenue more than doubled in five quarters to $291.0M, but operating income stayed between $22M and $26M across the last three.",
+    "Free cash flow of $242.6M is 30.0% of revenue, more than five times the 5.5% net margin, because non-cash charges sit between the two.",
+    "The 359.6x earnings and 540.5x EBITDA multiples are artifacts; 20.8x sales is the measure that describes what is being paid.",
+    "The current-year EPS estimate of $2.51 is almost eight times the $0.32 earned across the last four quarters."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/855658/000143774926004100/lscc20260103_10k.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000855658&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "LATTICE SEMICONDUCTOR CORP. generated $808.8M of revenue over the last twelve months, +63.4% versus the prior year. The cycle is driven by inventory, utilisation and the next node or packaging transition.",
-      "The latest reported quarter was Q3 FY27, with $291M of revenue and an operating margin of 8.2%. The stock closed at $109.80 on 2026-11-17, giving a market capitalization of $15.6B.",
-      "The shares sit 51% of the way up their 52-week range ($60.50 to $157.01). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Programmable logic revenue more than doubled in five quarters, from $124.0M to $291.0M, but the operating margin fell in the latest step, from 11.1% to 8.2%. Trailing revenue is $808.8M, up 63.4%, at a 68.6% gross margin, and free cash flow is 30.0% of revenue. The company is selling more chips and keeping less of each additional dollar, which is the puzzle these accounts set. For a business that spent three years recovering from a 30.9% revenue decline, the choice is between a cycle and a permanently higher cost base.",
+      "An FPGA is a grid of logic the customer wires up in software, and Lattice's parts are small and low-power enough for battery-operated, thermally constrained equipment. The design is won at the schematic stage and then persists for the life of the platform, which is why revenue lags design activity by two or three years. End markets are spread across communications and computing for volume, industrial and automotive for durability, and consumer for a cyclical kicker; Asia is 67.6% of revenue.",
+      "At 20.8x sales, 359.6x earnings and 540.5x EBITDA, the multiples describe a company whose profit is close to zero rather than one priced at a premium. The usable measures are 66.3x free cash flow and a 1.5% cash yield, both high for a 63.4% grower. Net debt of $740.8M replaced net cash of $133.9M during the year, so the balance sheet has also become a variable rather than a given."
     ],
-    "quote": "The socket is sticky, which is why the gross margin is 68.6%. The cost of supporting that socket is what turns it into a 9.1% operating margin."
+    "quote": "Lattice's 68.6% gross margin buys the right to spend; the 9.1% operating margin shows how much of the design-win base is still being paid for."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,46 @@ export const LSCC: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.8% a year across the fiscal years in the dataset, and the latest quarter changed +118.3% year over year. Third-party estimates for the current fiscal year point to $998.2M of revenue and $2.51 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 9.1% and return on invested capital of 4.5% are the filters to watch as revenue scales."
+      "Design wins convert into revenue years later, so the current ramp reflects sockets won in 2023 and 2024. Revenue went from $124.0M in the June 2025 quarter to $133.3M, $145.8M, $170.9M, $201.1M and $291.0M, a pace faster than a normal end-market recovery. Low-power programmable logic is designed into interface bridging, power sequencing and sensor processing, and those sockets tend to stay for the platform's life once qualified.",
+      "Consensus revenue has the ramp continuing: $998.2M for the current year, up 90.8%, and $1.6B next, up 61.5%, with the December quarter at $335.2M. That is more than double the trailing revenue base. The risk is that a steep ramp of this shape includes channel fill or one large programme, and the company does not disclose enough end-market detail to separate the two. The 8.2% operating margin in the September quarter is the evidence that incremental revenue is not yet profitable."
     ],
     "bullets": [
       {
-        "title": "Content per board",
-        "detail": "More interfaces and sensors per system mean more small programmable parts, which is Lattice's sweet spot."
+        "title": "Design-win lag",
+        "detail": "Revenue arrives two to three years after the socket is won, so today's ramp reflects decisions made before the current demand cycle."
       },
       {
-        "title": "Industrial and automotive durability",
-        "detail": "Long product lives make each design win a multi-year revenue stream once it ramps."
+        "title": "Asia concentration",
+        "detail": "Asia supplied 67.6% of revenue, tying the business to the region's communications and computing equipment builders."
       },
       {
-        "title": "Communications and computing",
-        "detail": "The volume end of the mix, and the part most exposed to a capex pause at customers."
+        "title": "End-market spread",
+        "detail": "Industrial and automotive sockets last longer than consumer ones, but communications and computing set the volume."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 9.1%, the net margin is 5.5% and diluted EPS is $0.32. The latest quarter's operating margin was 8.2%.",
-      "Return on equity is 3.2%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY27: revenue of $291M, an operating margin of 8.2% and a net margin of 3.9%."
+      "The 68.6% gross margin is the franchise, and the 9.1% operating margin is the cost of running it. Operating income was $26.2M in the March 2026 quarter, $22.3M in June and $23.9M in September, while revenue climbed from $170.9M to $291.0M. Essentially all of the incremental gross profit went to operating expense over those three quarters, which is the opposite of what a design-led model is supposed to deliver.",
+      "The annual record shows how cyclical the operating line is. Revenue fell 30.9% in FY2024 and the operating margin fell from 28.8% to 6.8%; the year to January 2026 grew 2.7% and the margin recovered only to 2.1%. EPS was $0.02 for the year to January 2026, and the trailing four quarters sum to about $0.32. ROIC is 2.4% and ROE 3.2%, against peer medians of 9.4% and 8.3%."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $242.6M, a 30.0% margin. The balance sheet carries $128.3M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $242.6M over the last twelve months and net debt was -$128.3M; interest cover was n/a."
+      "The cash statement of $242.6M is 30.0% of trailing revenue, more than five times the net margin, because non-cash charges sit between the two. The January 2026 fiscal year produced $175.1M of operating cash flow against $42.5M of capex, leaving $132.6M, and the September quarter alone generated $77.6M. A company with a 2.4% return on capital is producing a 30% cash margin, which tells a reader that accounting profit understates cash generation but not necessarily economic profit.",
+      "Net debt of $740.8M at the trailing date compares with net cash of $133.9M at the January 2026 year-end, a swing of roughly $875M in nine months that makes the balance sheet a more important part of the story than it was. Interest cover is 6.4x, so the debt is serviceable, but the change in capital structure is recent enough that its purpose is not yet visible. Capital returns are absent."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 349.1x trailing earnings and 264.0x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $156.19; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "An EV/EBITDA of 540.5x and a P/E of 359.6x are artifacts of a near-zero profit base; the only meaningful multiples are 20.8x sales and 66.3x free cash flow, a 1.5% yield. Sales is the right denominator at 63.4% growth and a 68.6% gross margin, but 20.8x is a price that assumes the operating margin normalises. Peer median growth is 17.3%, so Lattice is being paid for growth, not for current profitability.",
+      "The current-year estimate of $2.51 is almost eight times the $0.32 earned across the last four quarters, and at $113 it implies 45.0x, below the 54.4x peer median. The multiple therefore rests on operating leverage arriving in the next two quarters, not on the September quarter's 8.2% margin. The estimate requires a net margin far above the 0.6% reported for the year to January 2026, and nothing in the quarterly record yet supports it."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "13 analysts contribute to the third-party consensus. The mean target is $156.19, with a range of $95.44 to $200.00.",
-      "Current-year estimates call for $998.2M of revenue and $2.51 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 13 analysts with a mean target of $156.19; third-party estimates can change without notice."
+      "Thirteen analysts in the 18 November 2026 Yahoo Finance survey sit around a mean target of $156 against a $113 price, with a range of $95 to $200. The revision trend is the strongest in the group: EPS estimates rose 17.4% over seven days and 18.0% over ninety, and the September quarter beat by 31%.",
+      "The estimates embed a rapid conversion of revenue into profit. Current-year EPS of $2.51 compares with $0.32 trailing, and next year's $4.39 is three-quarters higher again. The September quarter's $0.08, annualised at $0.32, is nowhere near that path, so the consensus is assuming the operating margin recovers as revenue scales. The $95 low target, 16% below the price, is the only published view that does not."
     ]
   },
   "risks": {
@@ -164,5 +161,7 @@ export const LSCC: StockStory = {
       "How large are the non-cash charges that separate free cash flow from net income?",
       "Can operating expense grow more slowly than revenue from here?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

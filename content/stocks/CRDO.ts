@@ -7,20 +7,20 @@ export const CRDO: StockStory = {
   "dek": "Revenue grew 165% on active electrical cables and signal-retiming chips. The question is whether Credo owns a socket inside the rack or is riding a single product cycle.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $1.6B trailing twelve months, +165.1% year over year.",
-    "Profitability: 31.7% operating margin and 23.2% net margin.",
-    "Cash: $438.6M free cash flow, a 27.6% margin.",
-    "Scorecard: 71/100 average percentile across the factor screens."
+    "Revenue of $1.6B grew 165.1% at a 67.1% gross margin, and the $438.6M of free cash flow is a 27.6% margin.",
+    "The August 2026 quarter grew revenue to $479.0M from $437.0M but cut the operating margin to 25.2% from 35.7%.",
+    "Net cash of $764.3M means the expansion was funded internally; capex was $57.3M in FY2026 against $464.3M of operating cash flow.",
+    "At 42.3x earnings the shares sit close to the 37.8x peer median even after a 19.7% one-year decline, and the forward estimate is $6.31 for FY2027."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026043303/crdo-20260502.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001807794&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Credo Technology Group Holding Ltd. generated $1.6B of revenue over the last twelve months, +165.1% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
-      "The latest reported quarter was Q1 FY27, with $479M of revenue and an operating margin of 25.2%. The stock closed at $123.95 on 2026-11-17, giving a market capitalization of $23.3B.",
-      "The shares sit 17% of the way up their 52-week range ($86.49 to $308.67). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Revenue of $479.0M in the quarter to 1 August 2026 was 10% above the prior quarter, and the operating margin fell to 25.2% from 35.7%. That is the whole debate in one line: revenue grew, and the profit rate fell by ten points. Gross margin was 67.1% on a trailing basis, so the product is not being sold as a commodity; the compression came from mix, ramp costs or pricing, and the reported figures do not separate them.",
+      "Credo sells copper cables with a retiming chip at each end, plus the same signal-processing technology as standalone chips and licensed designs. The customer trade-off is optical versus copper: optics reach further and cost more power, copper is cheaper but runs out of distance, and the retimer extends copper's reach by a generation. As racks densify, the amount of signal conditioning per link rises, which is why content per rack has grown faster than the number of racks.",
+      "Is that content a socket or a cycle? At 40.6x EBITDA and 13.8x sales the shares are priced above Coherent at 36.0x and below Astera at 89.4x, and the 42.3x earnings multiple is close to the 37.8x peer median despite 165.1% trailing growth. The market has already decided the growth rate will fall, and the 19.7% one-year decline is that decision being marked. A socket would deserve the premium; a cycle would not, and the trailing numbers cannot tell the two apart."
     ],
-    "quote": "Connectivity is priced per lane of bandwidth. Every time the industry doubles the speed of a lane, the part that cleans up the signal has to be redesigned, and the price of the old design falls away."
+    "quote": "Credo's cable extends copper by a generation, and the question is whether the next generation needs it at all."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -51,49 +51,47 @@ export const CRDO: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 70.8% a year across the fiscal years in the dataset, and the latest quarter changed +114.7% year over year. Third-party estimates for the current fiscal year point to $2.5B of revenue and $6.31 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 31.7% and return on invested capital of 72.9% are the filters to watch as revenue scales."
+      "The revenue base went from $58.7M in FY2021 to $193.0M in FY2024, then $436.8M in FY2025 and $1.3B in FY2026. That is not a growth rate so much as a change of scale, and the trailing figure of $1.6B includes the August 2026 quarter. The quarterly path in the last year is $268.0M, $407.0M, $437.0M and $479.0M, so the sequential increment is decelerating even as the year-on-year rate stays above 100%.",
+      "The consensus expects the pace to continue: $531.9M next quarter, $643.0M the quarter after, $2.5B for fiscal 2027 and $3.9B for fiscal 2028. The near-term numbers require a second-half ramp of roughly 34% from the August quarter, and the annual figure requires the customer programmes to hold through a product transition. A single design loss at a hyperscaler would not slow this growth; it would end it."
     ],
     "bullets": [
       {
-        "title": "Speed transitions",
-        "detail": "Faster lanes shorten copper's reach, which raises the value of the chip at each end of the cable."
+        "title": "Copper versus optics",
+        "detail": "The retimer extends copper's reach, but if optical links become cheap enough inside the rack, the content per link falls."
       },
       {
-        "title": "Rack density",
-        "detail": "More accelerators per rack means more links per rack. Link count grows faster than node count."
+        "title": "Customer concentration",
+        "detail": "Hyperscale buyers place very large orders and can move a generation of business between programmes, so a design loss is a revenue event."
       },
       {
-        "title": "Customer addition",
-        "detail": "Each new hyperscaler or equipment vendor that qualifies the product adds a step-change in volume."
+        "title": "Margin on the ramp",
+        "detail": "The ten-point operating margin decline in a quarter of 10% growth shows that mix and pricing can outrun volume."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 31.7%, the net margin is 23.2% and diluted EPS is $2.82. The latest quarter's operating margin was 25.2%.",
-      "Return on equity is 20.0%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q1 FY27: revenue of $479M, an operating margin of 25.2% and a net margin of 27.0%."
+      "Operating leverage in a fabless model is visible in the margin series. Operating margin was -43.0% in FY2021, -20.6% in FY2022, -11.5% in FY2023, -19.2% in FY2024, 8.5% in FY2025 and 33.3% in FY2026; the trailing figure is 31.7%. Gross margin stayed between 57.7% and 68.0% through the whole period, so the swing came almost entirely from spreading design and selling costs over a much larger revenue base.",
+      "Net margin was 35.4% in FY2026 and EPS $2.51 against $0.29 a year earlier. Return on invested capital reached 32.2% in FY2026 and is 18.5% trailing, well above the 11.1% peer median; return on equity is 19.7%. The August 2026 quarter broke the pattern, with operating margin at 25.2% and net margin at 27.0%. One quarter is not a trend, but it is the first evidence that the operating leverage is not one-directional."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $438.6M, a 27.6% margin. The balance sheet carries $1.3B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $438.6M over the last twelve months and net debt was -$1.3B; interest cover was n/a."
+      "Cash from operations was $464.3M in FY2026 against $57.3M of capex, so free cash flow was $407.0M. The trailing figure is $438.6M, a 27.6% margin, well above the 7.0% peer median. The fabless model is why: wafers and assembly are bought from partners, so growth does not require a factory. The August 2026 quarter produced $82.9M of free cash flow, down from $177.5M in the May quarter, the working-capital cost of a bigger revenue base.",
+      "The balance sheet holds $764.3M of net cash, so there is no leverage and interest cover is not applicable. The company funded a revenue increase from $193.0M to $1.3B without raising debt, and the FY2026 free cash flow of $407.0M is close to the $445.0M of operating income, so earnings and cash are broadly aligned. No buyback or dividend is disclosed; capital is being retained against the next product cycle."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 63.1x trailing earnings and 40.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $277.47; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Credo's {{pe}} trailing earnings multiple and {{evEbitda}} EBITDA multiple come with 13.8x sales and a 1.9% free cash flow yield. The peer medians are 37.8x, 31.0x and a 7.0% free cash flow margin, so the shares are close to the group on earnings and at a premium on EBITDA. Coherent at 36.0x EBITDA grows 30.8%; Astera at 89.4x grows 115.2%. Credo's 165.1% growth at 40.6x sits between them and closer to the slower name.",
+      "The fiscal 2027 estimate of $6.31 implies about 19x, and $9.71 for fiscal 2028 about 12x. Those numbers assume the second-half ramp lands and that the margin recovers from the August level. If the operating margin stays at 25% rather than the 33% earned in FY2026, the earnings base is roughly a quarter lower than the trailing figure implies, and the forward multiple is correspondingly higher.",
+      "The price is right if the retimer content per rack rises with each generation, which would make current revenue a base rather than a peak. A rack architecture that moves to optics inside the box, or a hyperscaler that absorbs the function into its own package, would take it apart. The 19.7% one-year decline against 165.1% revenue growth is the market pricing that risk before the income statement shows it."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "19 analysts contribute to the third-party consensus. The mean target is $277.47, with a range of $175.00 to $315.00.",
-      "Current-year estimates call for $2.5B of revenue and $6.31 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 19 analysts with a mean target of $277.47; third-party estimates can change without notice."
+      "Nineteen analysts sit behind Yahoo Finance data dated 18 November 2026, which puts the mean target at $277 and the range at $175 to $315 against a $121 price. A mean more than double the market price, with a low end 45% above it, is the most extreme positive skew in the group; it also means the target is not a valuation anchor so much as a restatement of the growth forecast.",
+      "For fiscal 2027 the estimate is $2.5B of revenue and $6.31 of EPS, with fiscal 2028 at $3.9B and $9.71. Revisions are flat over 7 and 30 days and +3.0% over 90, and the last four quarters beat by 2.6% to 34%. The consensus assumes the second-half ramp is orders rather than hopes, and the estimate set has not been marked down despite the margin miss in the August quarter, which is itself a signal about how the misses are being read."
     ]
   },
   "risks": {
@@ -157,5 +155,7 @@ export const CRDO: StockStory = {
       "Why did operating margin fall ten points in a quarter of 10% revenue growth?",
       "How much of the FY2027 consensus depends on customers that have already placed orders?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

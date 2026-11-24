@@ -1,22 +1,24 @@
 # Stockmonk story authoring guide
 
 Every company in the coverage universe has a `StockStory` file. The file must
-read like a short research report written for a learner, not like a generated
-template. Use the skeleton and the company brief as the factual base, then
-rewrite the prose so it is specific to that business.
+read like a short research report written by a sector analyst, not like a
+generated template. Use the research pack and the current report as the factual
+base, then rewrite the prose so it is specific to that business.
 
 ## Inputs
 
-- Skeleton: `content/stocks/{TICKER}.ts`
-- Factual brief: `data/raw/story-briefs/{TICKER}.md`
+- Research pack: `data/raw/research-packs/{TICKER}.md`
+- Current report: `content/stocks/{TICKER}.ts`
+- Processed financials: `data/processed/{TICKER}/data.json`
 - Optional segment file: `data/segments/{TICKER}.json`
 - Optional consensus file: `data/consensus/{TICKER}.json`
 
-The brief is the only approved source of quantitative claims. If a number is
-not in the brief or the skeleton, do not use it. Qualitative statements about
-products, customers, competitors and industry structure are allowed when they
-are durable and broadly true. Avoid dated news, specific contract values,
-specific customer names, and claims that could be wrong next quarter.
+The research pack and the current report are the only approved sources of
+quantitative claims. If a number is not in them, do not use it. Qualitative
+statements about products, customers, competitors and industry structure are
+allowed when they are durable and supported by the bespoke sections or a filing.
+Avoid dated news, specific contract values, customer names that are not public,
+and claims that could be wrong next quarter.
 
 ## What to keep
 
@@ -62,8 +64,12 @@ Hard minimums enforced by `lib/validate-content.ts`:
 
 - No buy, sell or hold ratings.
 - No Stockmonk price targets. Third-party consensus may be described as
-  attributed third-party consensus, not as our view.
-- Do not mention data vendors (Yahoo Finance, Nasdaq, etc.).
+  attributed third-party consensus, not as our view. Name the provider and date
+  in the `analysts` section only.
+- Do not use rating labels in prose: "buy rating", "sell rating", "hold rating",
+  "strong buy", "timely buy" or "underperform". Describe the distribution
+  qualitatively.
+- Do not mention data vendors outside the attributed consensus sentence.
 - Do not use the word "guarantee" even in a negative sentence if it can be
   avoided.
 - Write in plain English. Short sentences. Explain the mechanism before the
@@ -73,7 +79,8 @@ Hard minimums enforced by `lib/validate-content.ts`:
 - Make the sections answer different questions. Do not repeat the same
   paragraph in several sections.
 - Use bullets where a list is clearer than prose.
-- Vary sentence openings and section structure between companies.
+- Vary sentence openings and section structure between companies. Do not reuse
+  an opening formula or a full sentence from another report.
 - Avoid generic filler such as "the company operates in a dynamic industry",
   "investors should watch", "it remains to be seen", "only time will tell",
   "landscape", "leverage synergies", "robust" and "poised for growth".
@@ -102,12 +109,12 @@ Hard minimums enforced by `lib/validate-content.ts`:
 
 ## Workflow
 
-1. Read the brief.
-2. Read the skeleton.
-3. Read one existing hand-written story for tone: `content/stocks/JPM.ts` or
-   `content/stocks/NVDA.ts`.
-4. Rewrite the whole file with `write`.
-5. Do not edit `content/stocks/index.ts`, other companies, or shared code.
+1. Read the research pack.
+2. Read the current story.
+3. Rewrite the seven data-driven sections, preserving the bespoke sections.
+4. Set `narrativeSource: "curated"` and `narrativeUpdatedAt` to the current date.
+5. Run `pnpm validate:content`, `pnpm typecheck` and `pnpm audit:research`.
+6. Do not edit `content/stocks/index.ts`, other companies, or shared code.
 
-Do not run the build. The parent session runs typecheck, content validation,
-tests, build and Lighthouse after all batches finish.
+`pnpm audit:research` fails on cross-company sentence reuse, banned boilerplate,
+rating labels, short paragraphs and missing sections. It is the editorial gate.

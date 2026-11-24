@@ -7,19 +7,20 @@ export const PL: StockStory = {
   "dek": "Gross margin of 55.4% and positive free cash flow sit above a -27.2% operating margin, while net income swings enough to make the 71.3x P/E misleading.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $378.3M trailing twelve months, +44.1% year over year.",
-    "Profitability: -27.2% operating margin and -15.6% net margin.",
-    "Cash: $24.7M free cash flow, a 6.5% margin.",
-    "Scorecard: 54/100 average percentile across the factor screens."
+    "Revenue reached $378.3M, up 44.1%, with a 55.4% gross margin that is the best in this defence and space peer group.",
+    "Operating margin was -27.2%, so the gross profit still does not cover the sales and engineering organisation behind it.",
+    "Free cash flow turned positive at $24.7M, but the FY2026 inflow of $57.6M coincided with a $95.1M operating loss and needs a working-capital test.",
+    "At 8.6x sales and 167.5x free cash flow, the price assumes subscriptions compound and the constellation does not need replacing all at once."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526119957/pl-20260131.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001836833&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Planet Labs PBC generated $378.3M of revenue over the last twelve months, +44.1% versus the prior year. The business depends on contract wins, launch execution and the path from backlog to cash flow.",
-      "The latest reported quarter was Q2 FY27, with $116.1M of revenue and an operating margin of -11.6%. The stock closed at $12.49 on 2026-11-17, giving a market capitalization of $4.5B.",
-      "The shares sit 5% of the way up their 52-week range ($10.52 to $51.76). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
-    ]
+      "Imagery revenue reached $116.1M in the July 2026 quarter, 58.1% above the year-earlier $73.4M, and the operating margin improved to -11.6% from -24.5%. That is the best quarterly margin in the record. The quarter matters because it shows the operating leverage the subscription model promises: the same constellation and platform carried 58% more revenue with a smaller loss. If that rate holds, the path to breakeven is arithmetic rather than a new strategy.",
+      "The model is built on reuse. One image can be licensed to an agribusiness, a reinsurer and a government without additional manufacturing cost, so incremental revenue carries a high contribution. The 55.4% gross margin is the proof of that economics; the -27.2% operating margin is the cost of the sales, solution engineering and support needed to reach many different buyers. The company is spending to build a customer base that renews.",
+      "Cash of $865.4M means the balance sheet is not the issue, and it is enough to fund the constellation for several years without dilution. Against a $4.1B market value, the enterprise is worth roughly $3.2B, or 8.6x sales. The debate is whether the cash flow is real: FY2026 produced $57.6M of free cash flow alongside a $95.1M operating loss, and the reported figures do not separate operating improvements from working-capital releases."
+    ],
+    "quote": "Planet Labs has the gross margin of a data business and the cost base of a satellite operator, and the gap between them is the investment case."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -54,35 +55,50 @@ export const PL: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 21.5% a year across the fiscal years in the dataset, and the latest quarter changed +58.1% year over year. Third-party estimates for the current fiscal year point to $437.7M of revenue and -$0.06 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -27.2% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Coverage frequency is the product, and it is also the capital commitment. Subscriptions promise a revisit rate over a defined area; meeting that promise requires enough satellites in orbit and enough downlink capacity to deliver the images. Each new customer adds revenue against a constellation that is already built, which is why growth can be high-margin once the capacity exists. The constraint is the launch and replacement schedule, not demand.",
+      "The customer mix is deliberately broad: North America 42.9% of revenue, EMEA 33.7%, Asia Pacific and Japan 19.4%, Latin America 4.0%. Agriculture, mapping, forestry, insurance and government buy different products at different cadences. That breadth protects the company from one budget cycle, but it also means the sales organisation has to cover many use cases, which is why the operating margin lags the gross margin. That is the cost of breadth.",
+      "Consensus expects the compounding to continue. FY2027 revenue is estimated at $437.7M, up 42.2%, and FY2028 at $570.5M, up 30.4%, with EPS moving from -$0.06 to roughly breakeven. The EPS estimate has been cut over 60 and 90 days, so the near-term profit path is still moving. The durability question is renewal, not new logo growth. The estimate cut is the signal to watch."
+    ],
+    "bullets": [
+      {
+        "title": "Constellation capacity",
+        "detail": "Revisit rate is the promise; launch delays or satellite failures weaken it and show up in renewals before they show up in revenue."
+      },
+      {
+        "title": "Analytics attach",
+        "detail": "Derived products for agriculture and insurance carry better margins than raw imagery, so attach rates decide how fast the 55.4% gross margin converts."
+      },
+      {
+        "title": "Government contracts",
+        "detail": "Large civil and defence awards can dominate a quarter; their timing is set by budgets rather than by the sales pipeline."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -27.2%, the net margin is -15.6% and diluted EPS is -$1.11. The latest quarter's operating margin was -11.6%.",
-      "Return on equity is -31.2%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q2 FY27: revenue of $116.1M, an operating margin of -11.6% and a net margin of -8.1%."
+      "The 55.4% gross margin is the highest in the peer group and the reason the business looks viable at all. It has moved from 51.2% in FY2024 to 57.2% in FY2025 and 56.1% in FY2026, a steady improvement as the platform and analytics mix grew. The operating margin has improved more slowly, from -76.9% in FY2024 to -30.9% in FY2026, because sales and engineering costs scale with the customer count.",
+      "The quarterly bridge shows how fast the operating line can move. Q1 FY2027 ran at -37.1%, Q2 at -11.6%, a 25-point improvement on 23% higher revenue. That is operating leverage, but it is also a small base: a $116.1M quarter against a cost base that is largely fixed. Return on invested capital of -14.4% and return on equity of -63.8% show how far the business is from earning its capital.",
+      "Net margin is not a useful guide. It was -95.1% trailing, with quarterly swings from -8.1% to -175.6% caused by non-operating items. The gap between the -27.2% operating margin and the -95.1% net margin is the tell: the income statement below the operating line is doing more work than the business. Gross margin and operating margin are the lines to follow, and the operating line is the only one that describes the business."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $24.7M, a 6.5% margin. The balance sheet carries $640.1M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $24.7M over the last twelve months and net debt was -$640.1M; interest cover was n/a."
+      "The $57.6M of FY2026 free cash flow was the first positive year in the record, and it came from $134.4M of operating cash flow against $76.7M of capex. Trailing free cash flow is $24.7M, a 6.5% margin. The operating loss was $95.1M, so the cash inflow cannot be explained by profit; working capital and non-cash charges are doing the work, and the reported figures do not split them.",
+      "The quarterly pattern is uneven. Q1 FY2026 generated $9.2M, Q2 $47.5M, Q3 $1.9M, Q4 -$1.0M and Q1 FY2027 -$1.9M, before Q2 FY2027 produced $25.6M. A single large customer payment can move a quarter. That makes the annual figure more reliable than any one quarter, but it also means the 6.5% margin is not yet a stable cash yield. That is the nature of milestone billing.",
+      "The $865.4M net cash balance gives the company room to fund the constellation without dilution. Capex rose from $44.3M in FY2025 to $76.7M in FY2026, and satellite replacement is a recurring cost rather than a one-time build. The question is whether the $57.6M of free cash flow can cover that replacement cycle; if it cannot, the cash balance is funding the difference. The replacement cycle is the real capital requirement."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $30.27; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Three multiples disagree, and each is measuring a different part of the business. Sales are stable at 8.6x, earnings are not meaningful because the company is loss-making, and free cash flow is 167.5x trailing. The sales multiple is the one that captures the subscription base; the cash multiple is the one that captures how little cash the base has produced so far. The gap between them is the debate.",
+      "The peer gap is wide. AVAV and Kratos trade at 2.4x sales with gross margins of 26.5% and 23.0%; Planet trades at 8.6x with 55.4%. A 3.5x sales premium for more than double the gross margin is defensible if the margin converts, and expensive if it does not. Redwire at 2.7x sales and a 24.1% gross margin shows what the market pays for space hardware without a subscription.",
+      "Breakeven at the operating line while revenue compounds above 30% would justify the multiple. A renewal slowdown or a constellation replacement cycle that consumes the cash the subscriptions generate would break it. At 8.6x, FY2028 revenue of $570.5M would support an enterprise value of about $4.9B, against roughly $3.2B today after net cash. The current price already assumes the estimate arrives at the same multiple."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "11 analysts contribute to the third-party consensus. The mean target is $30.27, with a range of $17.00 to $50.00.",
-      "Current-year estimates call for $437.7M of revenue and -$0.06 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 11 analysts with a mean target of $30.27; third-party estimates can change without notice."
+      "Eleven analysts cover Planet Labs, with a mean target of $30 and a range of $17 to $50, on Yahoo Finance's 18 November 2026 estimate set. A mean nearly three times the $11 share price is a strong statement for a company with a -27.2% operating margin; the range shows how much of that depends on the cash-flow path.",
+      "FY2027 revenue is estimated at $437.7M, with a loss of $0.06 per share, and FY2028 at $570.5M with roughly breakeven earnings. The EPS estimate has been cut 31.3% over 60 days and 32.5% over 90, so the profit path has moved later even as revenue estimates held. That is the debate the estimates embed: the company can grow sales, but the operating leverage is arriving more slowly than the model assumed."
     ]
   },
   "risks": {
@@ -146,5 +162,7 @@ export const PL: StockStory = {
       "How concentrated is revenue among the largest government customers?",
       "Does the 58.1% latest-quarter growth repeat in the following quarter?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

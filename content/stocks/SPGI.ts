@@ -7,20 +7,20 @@ export const SPGI: StockStory = {
   "dek": "Credit ratings, the S&P 500 index licence, commodity price assessments and market data are separate businesses with one thing in common: customers pay for a standard they cannot easily replace.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $17.2B trailing twelve months, +18.2% year over year.",
-    "Profitability: 45.1% operating margin and 29.0% net margin.",
-    "Cash: $4.1B free cash flow, a 23.8% margin.",
-    "Scorecard: 56/100 average percentile across the factor screens."
+    "Revenue over the last twelve months reached $17.2B, up 18.2%, with a 45.1% operating margin and $4.1B of free cash flow.",
+    "Ratings is 30.8% of revenue and Market Intelligence 32.1%, so issuance and subscription revenue carry different cycles.",
+    "Net debt is $13.1B, or 1.7x EBITDA, with interest cover of 24.0x and a 0.9% dividend yield.",
+    "At 18.2x EBITDA the shares trade below Visa at 26.2x and Mastercard at 25.3x on a 45.1% operating margin."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/64040/000006404026000013/spgi-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000064040&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "S&P Global, Inc. generated $17.2B of revenue over the last twelve months, +18.2% versus the prior year. The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns.",
-      "The latest reported quarter was Q3 FY26, with $3.7B of revenue and an operating margin of 53.2%. The stock closed at $452.35 on 2026-11-17, giving a market capitalization of $131.1B.",
-      "The shares sit 57% of the way up their 52-week range ($361.03 to $522.47). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "S&P Global's third quarter produced $3.7B of revenue, a 53.2% operating margin and $4.25 of earnings per share, against $3.86 a year earlier. Trailing revenue is $17.2B, up 18.2%, and the operating margin is 45.1%. The quarter is the strongest margin performance of the year, and it comes from a mix of ratings issuance, index licences and subscription data rather than from a single cyclical line. The cost base did not grow in step with revenue.",
+      "The company owns four standards businesses. Ratings grades new bond and loan issuance and is paid per deal; Indices licenses the S&P 500 and other benchmarks, mostly to asset managers; Commodity Insights publishes price assessments and sells the data around them; Market Intelligence sells data, analytics and workflow tools. Ratings and Indices are the highest-margin pieces, while the subscription businesses provide the recurring base. The common customer is the financial institution that buys several of them.",
+      "The $451 price values S&P Global at $130.9B, or 26.2x earnings and 18.2x EBITDA, against Visa at 32.5x and 26.2x and Mastercard at 32.7x and 25.3x. The discount to the networks reflects slower growth and a ratings cycle. A 26.2x multiple is a premium to the market and a discount to the networks, which is the right place for a business with a 45.1% margin and a cyclical ratings arm."
     ],
-    "quote": "Ratings and indices are standards. Once a market settles on a standard, switching is not a purchase decision; it is an infrastructure project."
+    "quote": "S&P Global's ratings fees arrive when bonds are issued, while its index and data fees arrive whether or not anyone issues, and the mix decides the multiple."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -53,49 +53,50 @@ export const SPGI: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 14.8% a year across the fiscal years in the dataset, and the latest quarter changed +6.8% year over year. Third-party estimates for the current fiscal year point to $14.7B of revenue and $17.95 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 45.1% and return on invested capital of 17.2% are the filters to watch as revenue scales."
+      "The top line moved from $12.5B in 2023 to $14.2B in 2024 and $15.3B in 2025, and the trailing figure is $17.2B, up 18.2%. The consensus is less flattering: $14.7B for 2026, below the trailing number, and $15.7B for 2027. That implies a sharp step-down in the fourth quarter, and the financials do not provide a segment bridge that explains it. That gap is the first thing to reconcile in the forecast.",
+      "The growth drivers differ by unit. Ratings revenue depends on how many bonds and loans come to market and how large they are; Indices revenue is tied to assets tracking the benchmarks and is sensitive to market levels rather than issuance; Commodity Insights and Market Intelligence charge subscriptions that renew annually. A year with heavy issuance flatters Ratings, while a year with rising markets flatters Indices.",
+      "The mix is why the company is more diversified than a pure ratings agency and more cyclical than a pure index provider. Ratings is 30.8% of revenue, Market Intelligence 32.1%, Energy 15.0% and Mobility 11.4%. The subscription businesses do not grow as fast in a boom, but they do not fall as far in a drought. The consensus 2027 growth of 6.9% assumes that balance holds."
     ],
     "bullets": [
       {
-        "title": "Index assets",
-        "detail": "Licence revenue grows with the assets tracking S&P benchmarks and with new product launches."
+        "title": "Issuance cycle",
+        "detail": "Ratings fees are paid per deal, so revenue falls when boards defer bond and loan issuance."
       },
       {
-        "title": "Debt issuance",
-        "detail": "Ratings revenue depends on the volume and size of bond and loan deals."
+        "title": "Index licensing",
+        "detail": "Fees tied to assets tracking the S&P 500 are recurring but sensitive to market levels."
       },
       {
-        "title": "Data subscriptions",
-        "detail": "Market Intelligence and Commodity Insights grow with seat count, content and price."
+        "title": "Subscription base",
+        "detail": "Market Intelligence and Commodity Insights renew annually, which cushions the ratings cycle."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 45.1%, the net margin is 29.0% and diluted EPS is $16.82. The latest quarter's operating margin was 53.2%.",
-      "Return on equity is 19.8%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $3.7B, an operating margin of 53.2% and a net margin of 33.7%."
+      "The third-quarter operating margin of 53.2% compares with 45.2% a year earlier, and the trailing margin is 45.1%. Net margin was 33.7% in the quarter and 29.0% trailing. Gross margin of 70.9% has been stable, so the margin expansion came from revenue growth against a largely fixed cost base of analysts, index committees and data engineers. The operating margin is therefore a volume story as much as a pricing story.",
+      "The three-year record shows the operating leverage. Operating margin was 32.2% in 2023, 39.3% in 2024, 42.2% in 2025 and 45.1% trailing. Return on equity is 25.3% and return on invested capital 16.8%, up from 14.4% and 11.2% in 2025. The improvement is partly cyclical, because ratings volume recovered, and partly structural, because the subscription businesses scaled. Both matter for the multiple.",
+      "The peer comparison is less useful than for a manufacturer. Visa and Mastercard earn 61.2% and 58.6% operating margins, but they are payment networks with no issuance cycle. The data and index peers are not in the disclosed set. The relevant benchmark is the company's own margin history, which shows a business that can expand from 32.2% to 53.2% as revenue recovers."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $4.1B, a 23.8% margin. Net debt is $10.6B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $4.1B over the last twelve months and net debt was $10.6B; interest cover was n/a."
+      "S&P Global generated $4.1B of free cash, 23.8% of revenue; in 2025 the figure was $5.5B on operating cash flow of $5.7B and capex of $195.0M. The gap between the 23.8% cash margin and the 45.1% operating margin is the main thing to watch in the cash statement, and the third-quarter free-cash-flow figure is not reported, so the trailing number cannot be reconciled to the quarter. Capex is under 2% of revenue, so the business is capital-light.",
+      "Net debt is $13.1B, or 1.7x EBITDA, and interest cover is 24.0x. That is modest leverage for a business with a 70.9% gross margin. The dividend yield is 0.9%, which costs about $1.2B a year on a $130.9B market value, roughly 29% of free cash flow. The rest is available for acquisitions and buybacks, and the company has grown through large combinations that added both revenue and debt.",
+      "The cash return is therefore balanced rather than aggressive. A 23.8% free-cash-flow margin and a 3.1% free-cash-flow yield are modest for a business with a 45.1% operating margin, but the cash is being reinvested in data and index assets that compound. The risk is that acquisition spending absorbs the cash without producing the growth, which is what the net debt of $13.1B represents."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 26.3x trailing earnings and 17.9x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $529.35; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $451 the market value is $130.9B, equal to 26.2x earnings, 18.2x EBITDA and 8.4x sales. The 52-week range is $361 to $522, so the price is just above the midpoint after a -1.6% year and a 7.2% five-year return. The financial peer median of 13.3x earnings is not a useful comparison, because it is dominated by banks; Visa and Mastercard at 32.5x and 32.7x are the closer reference.",
+      "The discount to the networks is explained by growth and by the ratings cycle. Visa grew revenue 14.8% and Mastercard 15.3%, while S&P Global's consensus for 2026 is a 4.2% decline and 2027 is 6.9% growth. The operating margin, at 45.1%, is below both networks. An 18.2x EBITDA multiple is therefore a reasonable midpoint between a data vendor and a cyclical ratings agency.",
+      "The forward multiple depends on the 2026 step-down being temporary. Consensus expects EPS of $17.95 in 2026 and $20.17 in 2027, putting the shares at about 25.1x and 22.4x. If ratings issuance recovers in 2027, the 22.4x multiple is supported by the index and subscription base. If the decline persists, the multiple is still paying for a recovery that has not arrived."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "20 analysts contribute to the third-party consensus. The mean target is $529.35, with a range of $500.00 to $572.00.",
-      "Current-year estimates call for $14.7B of revenue and $17.95 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 20 analysts with a mean target of $529.35; third-party estimates can change without notice."
+      "Twenty analysts appear in Yahoo Finance's 18 November 2026 estimate set, with a mean target of $529 and a range of $500 to $572. The $500 low is 5% below the mean and the $572 high is 8% above it, a narrow band for a business whose earnings growth is expected to reaccelerate.",
+      "Revisions are flat: EPS is 0.5% higher than 30 days ago and 0.1% higher than 90 days ago. The current-year estimate of $17.95 implies 0.7% growth, and 2027 at $20.17 implies 12.4%. The consensus is assuming a weak 2026 followed by a earnings recovery, which is a more cautious earnings path than the target prices suggest."
     ]
   },
   "risks": {
@@ -159,5 +160,7 @@ export const SPGI: StockStory = {
       "What would a regulatory change to ratings recognition do to the fee pool?",
       "Is the 27.2x multiple supported by mid-single-digit growth?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

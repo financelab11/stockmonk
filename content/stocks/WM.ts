@@ -7,20 +7,20 @@ export const WM: StockStory = {
   "dek": "Hauling is a fixed-cost business measured in stops per truck. Owning the landfill at the end of the route is what turns that cost base into an 18% operating margin.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $26.1B trailing twelve months, +5.2% year over year.",
-    "Profitability: 18.4% operating margin and 11.8% net margin.",
-    "Cash: $3.7B free cash flow, a 14.3% margin.",
-    "Scorecard: 39/100 average percentile across the factor screens."
+    "Q3 FY26 revenue was $6.8B at an 18.7% operating margin, with $2.05 of diluted EPS and $983M of free cash flow.",
+    "FY2025 revenue rose 14.2% but EPS fell to $6.70 from $6.81 and operating margin slipped to 17.1%, a dilution from bought volume.",
+    "Free cash flow of $3.7B trailing is a 14.3% margin, against $2.8B in FY2025, and net debt is $23.1B at 3.0x EBITDA.",
+    "The 30.9x earnings multiple is above the 29.7x peer median while 15.2x EBITDA is well below the 20.4x median."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/823768/000110465926012049/wm-20251231x10k.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000823768&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Waste Management Inc. generated $26.1B of revenue over the last twelve months, +5.2% versus the prior year. Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
-      "The latest reported quarter was Q3 FY26, with $6.8B of revenue and an operating margin of 18.7%. The stock closed at $242.69 on 2026-11-17, giving a market capitalization of $96.5B.",
-      "The shares sit 89% of the way up their 52-week range ($200.58 to $248.13). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Waste Management's September quarter produced $6.8B of revenue, an 18.7% operating margin and $2.05 of diluted EPS, with $983M of free cash flow. Trailing revenue is $26.1B, up 5.2%. The result matters because the margin has recovered: it was 18.4% in FY2024, 17.1% in FY2025 and 18.7% in both the June and September quarters of 2026. The dip was a revenue-mix problem, and the recovery is the evidence that it was temporary.",
+      "The business is local even though the company is national. Collection routes are the unit of production, and stop density decides the cost per tonne. Disposal is the second leg: owned landfills and transfer stations earn a tipping fee on the group's own volumes and on third-party waste. Recycling and landfill-gas projects add revenue but bring commodity exposure. Contracts usually carry annual escalators, which makes revenue steadier than an industrial order book, though the escalators can lag fuel and labour costs.",
+      "Capital allocation has been acquisitive. Net debt is $23.1B at 3.0x EBITDA, and the FY2025 revenue increase of 14.2% came with a lower operating margin and a lower EPS, which is what buying revenue at a lower margin looks like. The 1.6% dividend is modest. The 30.9x earnings multiple is above the 29.7x median, while 15.2x EBITDA is below the 20.4x median. The gap is leverage, and the equity multiple carries that cost."
     ],
-    "quote": "A collection route is a factory that moves. The cost is the truck, the driver and the fuel, and those are paid whether the truck is full or half empty."
+    "quote": "Waste Management's landfill permits and route density explain the margin; the balance sheet explains the gap between its earnings and EBITDA multiples."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,22 +52,35 @@ export const WM: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.5% a year across the fiscal years in the dataset, and the latest quarter changed +6.3% year over year. Third-party estimates for the current fiscal year point to $26.5B of revenue and $8.10 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 18.4% and return on invested capital of 11.5% are the filters to watch as revenue scales."
+      "Turnover rose from $20.4B in FY2023 to $22.1B in FY2024, $25.2B in FY2025 and $26.1B trailing, with the quarterly path at $6.2B, $6.7B and $6.8B through 2026. Consensus expects $26.5B for FY2026, up 5.0%, and $27.9B for FY2027, up 5.3%. The slowdown from 14.2% to 5.0% is the acquisition contribution annualising, not a collapse in the base business. The base is still growing; what changed is the size of the acquired increment.",
+      "The mix is East Tier at 45.6% of revenue, West Tier at 43.2% and Healthcare Solutions at 11.7%. Healthcare is the newer leg and the one that changes the growth rate, because medical waste has different collection economics and different contract terms from a dumpster route. The company does not disclose the organic split, so the contribution has to be inferred from the way revenue growth and the margin moved in opposite directions in FY2025.",
+      "Consensus EPS of $8.10 for FY2026, up 8.0%, and $8.94 for FY2027, up 10.4%, assumes the margin holds at the recovered level and that the acquired revenue earns more as it is integrated. The revisions are slightly negative, down 0.5% over 30 days, so the estimate is not running ahead of the results. The question is whether 18.7% is the new margin or the peak of a pricing cycle."
+    ],
+    "bullets": [
+      {
+        "title": "Price and tonnage",
+        "detail": "Contract escalators provide the price; industrial and construction tonnage provide the volume. The first is contractual, the second is cyclical, and the mix decides the margin."
+      },
+      {
+        "title": "Disposal capacity",
+        "detail": "Owned landfills convert volume into tipping fees at a low incremental cost. Permitting new capacity is slow, which protects the incumbents and limits growth."
+      },
+      {
+        "title": "Acquisition multiple",
+        "detail": "Buying a hauler brings routes and volume to the disposal network. Paying too much for that volume would dilute the 11.4% return on invested capital."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 18.4%, the net margin is 11.8% and diluted EPS is $7.62. The latest quarter's operating margin was 18.7%.",
-      "Return on equity is 31.1%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $6.8B, an operating margin of 18.7% and a net margin of 12.0%."
+      "The gross margin was 40.4% in FY2025 and trailing, up from 39.3% in FY2024. Operating margin was 18.4% in FY2024, 17.1% in FY2025, 18.4% trailing and 18.7% in the September quarter. Net margin is 11.8% trailing, and diluted EPS was $6.70 in FY2025 against $6.81 in FY2024. The FY2025 combination of higher revenue and lower EPS is the clearest evidence that the growth was bought rather than earned.",
+      "Return on invested capital is 11.4%, below the 18.3% peer median, and return on equity is 31.1%. The gap between the two is leverage: net debt is $23.1B at 3.0x EBITDA. That is how a capital-intensive service business should be read, but it also means the equity return is flattered by the capital structure. The 11.4% capital return is the number that says how good the business is."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.7B, a 14.3% margin. Net debt is $23.1B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $3.7B over the last twelve months and net debt was $23.1B; interest cover was n/a."
+      "Operating cash flow was $6.0B in FY2025 against capex of $3.2B, producing $2.8B of free cash flow. Trailing free cash flow is $3.7B, a 14.3% margin, which is a meaningful improvement on FY2025. The company spends heavily on trucks, landfill cells and recycling plants, so capex is a permanent feature rather than a discretionary item. The improvement is therefore a mix and working-capital story, not a capex holiday.",
+      "Net debt of $23.1B at 3.0x EBITDA is the main financial constraint. The 1.6% dividend is small, and free cash flow covers it comfortably. The balance sheet has funded acquisitions, and the return on invested capital of 11.4% is the test of whether they were worth it. If free cash flow stays at $3.7B, deleveraging is possible without cutting the dividend or the capital programme."
     ],
     "bullets": [
       {
@@ -86,15 +99,14 @@ export const WM: StockStory = {
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 31.4x trailing earnings and 15.4x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $255.60; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At {{price}} Waste Management is worth {{marketCap}}, equal to {{pe}} trailing earnings, {{evEbitda}} EV/EBITDA and 25.4x free cash flow, a 3.9% cash yield. The earnings multiple is slightly above the 29.7x peer median; the EBITDA multiple is well below the 20.4x median. The gap is the $23.1B of net debt. On an enterprise basis the shares are cheaper than the group, and on an equity basis they are not.",
+      "Forward estimates put FY2026 EPS of $8.10 on about 29x and FY2027 EPS of $8.94 on about 27x. Those multiples assume the margin holds at 18.7% and that the acquired revenue is integrated without further dilution. The free-cash-flow yield of 3.9% is the support: it is higher than the earnings yield, which is unusual and reflects the difference between depreciation and capex. The 11.4% return on capital is the limit on how much the multiple can expand."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "25 analysts contribute to the third-party consensus. The mean target is $255.60, with a range of $220.00 to $283.00.",
-      "Current-year estimates call for $26.5B of revenue and $8.10 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 25 analysts with a mean target of $255.6; third-party estimates can change without notice."
+      "Yahoo Finance's 18 November 2026 estimate set has 25 analysts on Waste Management, a mean target of $256 and a range of $220 to $283. Positive opinions outnumber neutral ones, and no analyst is cautious. The range runs from an 8% discount to an 18% premium, which is what a steady, contract-driven business looks like when the estimates are close together.",
+      "Revisions are slightly negative, with EPS down 0.5% over 30 days and 0.4% over 90. The September quarter was a rare miss, at $2.15 against $2.18. Consensus FY2026 EPS of $8.10 is up 8.0% on 5.0% revenue growth, which implies a margin gain. If the margin is already at 18.7%, that estimate has little room for error."
     ]
   },
   "risks": {
@@ -158,5 +170,7 @@ export const WM: StockStory = {
       "What acquisition multiple is the company paying for tuck-in volume?",
       "How much of the 31.1% return on equity depends on leverage rather than operating returns?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

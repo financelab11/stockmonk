@@ -7,20 +7,20 @@ export const KRYS: StockStory = {
   "dek": "VYJUVEK is a topical treatment for a rare blistering skin disease, applied by the patient or caregiver on a repeating schedule. The product is approved, profitable and generates more cash than it spends.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $470M trailing twelve months, +26.0% year over year.",
-    "Profitability: 48.4% operating margin and 47.9% net margin.",
-    "Cash: $310.1M free cash flow, a 66.0% margin.",
-    "Scorecard: 71/100 average percentile across the factor screens."
+    "Q3 FY2026 revenue of $127.3M carried a 55.9% operating margin and $90.3M of free cash flow, the best quarter of the year.",
+    "Trailing free cash flow of $310.1M is 66.0% of revenue, a conversion rate that reflects in-house manufacturing and low capital intensity.",
+    "Revenue growth has settled near 27%, from 33.9% in FY2025 to 26.0% trailing and 27.8% expected in FY2026.",
+    "At 42.2x earnings and 30.7x free cash flow, the equity pays for penetration that is not yet visible in the patient data."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1711279/000171127926000016/krys-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001711279&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Krystal Biotech, Inc. generated $470M of revenue over the last twelve months, +26.0% versus the prior year. The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue.",
-      "The latest reported quarter was Q3 FY26, with $127.3M of revenue and an operating margin of 55.9%. The stock closed at $298.55 on 2026-11-17, giving a market capitalization of $8.8B.",
-      "The shares sit 53% of the way up their 52-week range ($202.99 to $382.54). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Krystal turned $127.3M of Q3 FY2026 revenue into $90.3M of free cash flow. The operating margin was 55.9%, up from 41.3% in Q4 FY2025, and revenue grew 19% over the same three quarters. That combination, 26.0% trailing revenue growth with a margin expanding 14.6 points, shows a fixed cost base absorbing volume. The company is not funding growth with capital; it is funding it with the gross profit from an approved product.",
+      "VYJUVEK is a topical gene therapy for dystrophic epidermolysis bullosa, applied repeatedly to wounds by the patient or a caregiver. Because the treatment repeats, revenue behaves like a chronic-care product rather than a one-time cure. Krystal manufactures the vector and the product in-house, which keeps the 94.3% gross margin and controls supply, at the cost of carrying a specialised facility. The centres that treat the disease are few and identifiable, so patient acquisition is concentrated rather than broad.",
+      "The equity is valued at $9.5B, or 42.2x earnings, 36.8x EBITDA and 30.7x free cash flow, with a 3.3% cash yield. Those multiples are a premium to the peer median of 16.3x earnings and 13.7x EBITDA, and they are earned by a 48.4% operating margin and a 66.0% cash conversion rate. Net cash of $911.9M is less than a tenth of the market value, which anchors the downside but also dampens the return on incremental capital."
     ],
-    "quote": "A redosable topical gene therapy is closer to a chronic-care product than a one-time cure. The revenue repeats for as long as the patient keeps applying it."
+    "quote": "A redosable gene therapy earns like a chronic-care franchise, which is why the cash conversion matters more than the cure."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,50 @@ export const KRYS: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 177.0% a year across the fiscal years in the dataset, and the latest quarter changed +30.2% year over year. Third-party estimates for the current fiscal year point to $497.5M of revenue and $8.01 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 48.4% and return on invested capital of 34.3% are the filters to watch as revenue scales."
+      "Penetration of a small diagnosed population explains why growth has settled near 27%. FY2025 revenue grew 33.9% to $389.1M, the trailing figure grew 26.0% to $470.0M, and the FY2026 estimate is $497.5M, up 27.8%. That is a remarkably stable trajectory for a single-product company, and it implies the launch is no longer the driver; the driver is finding the remaining diagnosed patients and holding them on therapy.",
+      "The addressable population is small, so the growth runway is bounded by diagnosis rather than by competition. New geographies and new indications are the routes to a larger base, and the platform is being tested in other skin and rare-disease indications. Those programmes are optionality today, not revenue. The FY2027 estimate of $634.9M, up 27.6%, assumes the existing product keeps compounding while the pipeline begins to contribute.",
+      "There is a single reportable segment and a single product, so there is no diversification inside the revenue line. That concentration is the main analytical objection to the growth story: a safety issue, a manufacturing interruption or a pricing change would hit the entire base. The offset is that the patient population is identifiable and the prescriber base is concentrated, which makes the commercial spend efficient."
     ],
     "bullets": [
       {
-        "title": "Penetration",
-        "detail": "More of the diagnosed epidermolysis bullosa population on therapy. The most direct source of growth."
-      },
-      {
-        "title": "Geography",
-        "detail": "Launches outside the United States add patients but require local approval and reimbursement."
+        "title": "Diagnosed penetration",
+        "detail": "The eligible population is small and identifiable, so growth depends on finding the remaining diagnosed patients rather than on broad promotion."
       },
       {
         "title": "New indications",
-        "detail": "The platform can be tested in other skin diseases, which would broaden the patient pool."
+        "detail": "The redosable platform is being tested in other skin and rare diseases; a second product would extend the runway beyond one asset."
+      },
+      {
+        "title": "In-house manufacturing",
+        "detail": "Owning the vector and the product supports the 94.3% gross margin and controls supply, but carries the fixed cost of a specialised facility."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 48.4%, the net margin is 47.9% and diluted EPS is $7.37. The latest quarter's operating margin was 55.9%.",
-      "Return on equity is 15.7%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $127.3M, an operating margin of 55.9% and a net margin of 49.5%."
+      "Operating margin has climbed in every quarter of FY2026: 46.1%, 49.0% and 55.9%. Revenue over the same quarters rose from $116.4M to $127.3M, an increase of less than 10%, so the margin gain is not volume leverage in the usual sense. It reflects a cost base that is largely fixed and a gross margin near 94.3%, where each additional dollar of revenue carries very little incremental cost.",
+      "Net margin was 49.5% in Q3, and the loss per share of the early years is now a distant memory: FY2025 earnings were $6.84 per share and the Q3 FY2026 figure was $2.05. Return on invested capital of 13.8% and return on equity of 15.7% are positive but modest for a business with these margins, because the balance sheet holds $911.9M of net cash that earns little. Excluding the cash, the return on the operating assets would be much higher.",
+      "The comparison with Insmed and Rhythm is stark. Both run gross margins near 90% and both report operating losses; Krystal reports a 48.4% operating margin on a smaller revenue base. The difference is that Krystal's commercial infrastructure was built for a concentrated prescriber base, while the others are funding broader launches. That is a structural advantage as long as the patient population stays concentrated."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $310.1M, a 66.0% margin. The balance sheet carries $911.9M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $310.1M over the last twelve months and net debt was -$911.9M; interest cover was n/a."
+      "Krystal converted $470.0M of revenue into $310.1M of free cash flow, a 66.0% margin. Capital expenditure was $12.0M in FY2025, so the conversion is not an artefact of starving the asset; the business simply does not need much capital. Operating cash flow was $200.9M in FY2025 against free cash flow of $188.9M, which means the cash generation is coming from operations rather than from a working-capital release.",
+      "The cash statement exceeds reported net income, which is unusual for a commercial-stage biotech and reflects the low capital intensity and the non-cash charges in the income statement. That gap is a quality signal: the earnings are backed by cash. The company has no dividend and no disclosed buyback, so the cash accumulates on the balance sheet, which now holds $911.9M net of debt.",
+      "The capital allocation question is what to do with that cash. At a 3.3% free cash flow yield, the equity is not cheap enough for a large repurchase to be obviously accretive, and the pipeline is the alternative use. The disclosures do not indicate a preference, but the balance sheet gives management the option to fund the platform without raising equity, which is a real advantage over the loss-making peers."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 39.3x trailing earnings and 34.0x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $388.22; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "A 42.2x earnings multiple and a 3.3% free cash flow yield describe the same company from different angles. The earnings multiple is a premium to the peer median of 16.3x, and the cash yield is low in absolute terms, but both are supported by a 48.4% operating margin and 26.0% revenue growth. Krystal is priced as a quality compounder rather than as a biotech launch.",
+      "The closest comparison is Insmed at 21.0x sales and Rhythm at 27.0x, both loss-making, against Krystal at 18.3x sales with a 48.4% operating margin. On sales, Krystal is cheaper than both despite being profitable, which is the anomaly the market has to explain. The explanation is concentration: one product, one disease, a small patient population, and a growth rate that will slow as penetration matures.",
+      "A second product from the platform would justify the multiple, because it would extend the growth runway beyond the penetration curve. A slowdown to low double digits without a pipeline contributor would undercut it, because the 30.7x free cash flow multiple would then look expensive against a 3.3% yield. The cash balance limits the downside, but it does not create growth."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "9 analysts contribute to the third-party consensus. The mean target is $388.22, with a range of $284.00 to $474.00.",
-      "Current-year estimates call for $497.5M of revenue and $8.01 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 9 analysts with a mean target of $388.22; third-party estimates can change without notice."
+      "Nine analysts, a mean of $388 and a low target of $284: even the cautious end assumes VYJUVEK keeps growing. The range of $284 to $474 brackets the current $321 share price, so the coverage is constructive without being uniform. The narrow analyst count is a feature of a single-product specialty name rather than a sign of neglect.",
+      "For FY2026, the Yahoo Finance estimates of 18 November 2026, with Nasdaq used as a cross-check, show revenue of $497.5M and earnings of $8.01 per share, rising to $634.9M and $9.23 in FY2027. The 30-day EPS revision is 5.1%, a modest upward move. The estimates embed 27.6% revenue growth and a 15.2% increase in earnings, which is the penetration-and-leverage story in numerical form."
     ]
   },
   "risks": {
@@ -158,5 +159,7 @@ export const KRYS: StockStory = {
       "How much of the next-year growth estimate depends on new indications?",
       "Can the company fund the pipeline entirely from operating cash flow?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const URI: StockStory = {
   "dek": "A rental business is a bet on utilisation, rate and residual value. The reported revenue line in this dataset does not reconcile with the rest of the file, so the first job is to separate what is reliable from what is not.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $7.4B trailing twelve months, +8.9% year over year.",
-    "Profitability: 60.5% operating margin and 38.6% net margin.",
-    "Cash: $5.3B free cash flow, a 71.6% margin.",
-    "Scorecard: 59/100 average percentile across the factor screens."
+    "Q3 FY26 diluted EPS was $14.77 against $10.91 a year earlier, the highest quarterly figure in the record.",
+    "Trailing revenue in the reported series does not reconcile with the quarterly run-rate or with the $18.1B consensus for FY2026.",
+    "Net debt is $14.5B, roughly three times EBITDA, and the debt funds the fleet that earns the rent.",
+    "At 22.9x earnings and 16.7x EBITDA, the shares trade below peer medians of 31.0x and 20.4x."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1067701/000106770126000007/uri-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067701&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "UNITED RENTALS INC /DE generated $7.4B of revenue over the last twelve months, +8.9% versus the prior year. Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
-      "The latest reported quarter was Q3 FY26, with $1.1B of revenue and an operating margin of 131.9%. The stock closed at $1,082.52 on 2026-11-17, giving a market capitalization of $67B.",
-      "The shares sit 76% of the way up their 52-week range ($701.59 to $1,202.12). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "United Rentals reported $14.77 of diluted EPS in the September 2026 quarter against $10.91 a year earlier, and the per-share series is the most reliable part of the disclosure. The reported revenue line does not reconcile with the quarterly run-rate or with consensus, so margins built on it are not usable. What can be said is that the fleet is earning more per share: the September quarter's EPS was the highest in the period shown.",
+      "Rental economics are simple per machine and complicated per company. A lift bought at a known price earns a monthly rate when it is on hire and nothing when it is idle, while depreciation, maintenance, transport and branch overhead continue. Utilisation and rate decide the return; residual values decide how much depreciation the fleet has to absorb. Density matters because a truck that serves more stops per day spreads the same fixed cost over more revenue.",
+      "Leverage is part of the model. Net debt is $14.5B, roughly three times EBITDA, and the debt funds the equipment that earns the rent. At 22.9x earnings and 16.7x EBITDA, the shares trade below peer medians of 31.0x and 20.4x, which is the discount a leveraged, cyclical lessor usually carries. The 0.8% dividend is minor. The debate is whether the fleet is earning its cost of capital at current rates."
     ],
-    "quote": "A rental fleet is a portfolio of depreciating assets. The question is never whether the equipment is useful, but whether the rate earned over its life covers the capital, the maintenance and the residual."
+    "quote": "United Rentals is a leveraged bet on fleet utilisation, and the per-share numbers are the only clean signal."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -38,35 +38,47 @@ export const URI: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.2% a year across the fiscal years in the dataset, and the latest quarter changed +13.9% year over year. Third-party estimates for the current fiscal year point to $18.1B of revenue and $52.28 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 60.5% and return on invested capital of 14.6% are the filters to watch as revenue scales."
+      "Consensus is the usable top line. It expects $18.1B of revenue for FY2026, up 12.4%, and $20.0B for FY2027, up 10.4%, with EPS of $52.28 and $62.06. The EPS path is faster than the revenue path, which implies margin expansion, a smaller share count or both; the disclosure does not split them. The September quarter's $14.77 against $10.91 a year earlier shows the operating leverage is real.",
+      "The drivers are non-residential construction, specialty rentals and used-equipment prices. General rentals serve the everyday needs of a site; specialty serves pumps, power, climate and trench work, where the rate is better because the need is often urgent. The branch network is the asset that ties it together, and it is expensive to replicate. Consensus assumes the construction cycle stays firm and that rates grow faster than fleet costs. A pause in non-residential work would hit utilisation first."
+    ],
+    "bullets": [
+      {
+        "title": "Utilisation and rate",
+        "detail": "These two variables decide fleet returns. A point of utilisation or a point of rate moves profit more than the same change in revenue, because depreciation does not flex."
+      },
+      {
+        "title": "Residual values",
+        "detail": "Used equipment prices set the carrying value of the fleet. A fall in resale values raises the true cost of ownership and can force write-downs."
+      },
+      {
+        "title": "Fleet capex",
+        "detail": "Growth requires buying equipment ahead of demand. Buying too much at the top of the cycle is the classic rental mistake and the fastest way to dilute returns."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 60.5%, the net margin is 38.6% and diluted EPS is $45.49. The latest quarter's operating margin was 131.9%.",
-      "Return on equity is 29.5%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $1.1B, an operating margin of 131.9% and a net margin of 86.1%."
+      "The reported margin lines are not usable: a 172.4% gross margin and a 108.7% operating margin would imply almost no cost of revenue, and depreciation has to sit somewhere. The per-share series is internally consistent, with $10.27 in December 2025, $8.43 in March 2026, $12.76 in June and $14.77 in September. That is a seasonal business with a strong spring and summer, and the September quarter was the best of the four.",
+      "Return on invested capital is 13.1% and return on equity 28.9%. The gap between the two is leverage: the fleet is funded with debt, so a modest operating return becomes a much larger equity return. That is the right way to read a lessor, and it is also the risk. If utilisation falls, the interest cost does not, and the equity return falls faster than the operating return. The 13.1% capital return is the number that matters."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $5.3B, a 71.6% margin. Net debt is $14.5B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $5.3B over the last twelve months and net debt was $14.5B; interest cover was n/a."
+      "The cash statement is not reported on a consistent basis, so the cash statement has to be read through operating cash flow and fleet capex. Operating cash flow was $5.2B in FY2025, $4.5B in FY2024 and $4.7B in FY2023. Capex was $4.1B in FY2024, $3.9B in FY2023 and $3.7B in FY2022. The difference is small, which is what a fleet business looks like: most of the operating cash goes back into equipment.",
+      "Net debt of $14.5B is the leverage that funds the fleet, and it is the main financial risk. In a downturn, used prices and utilisation fall together, so the collateral behind the debt is worth less at the same time as the cash flow that services it. The 0.8% dividend is small enough to be maintained. The balance sheet is not stretched, but it has less room than a less-leveraged industrial."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 23.5x trailing earnings and 14.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $1,298.05; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "United Rentals trades at 22.9x trailing earnings and 16.7x EBITDA, below the peer medians of 31.0x and 20.4x. The comparison with Caterpillar, at 21.2x and 14.3x, is the most useful: both are cyclical equipment businesses, but Caterpillar manufactures and United Rentals owns the fleet. The premium to Caterpillar on EBITDA is the price of the rental model's recurring revenue and its higher capital return.",
+      "Forward estimates put FY2026 EPS of $52.28 on about 19x and FY2027 EPS of $62.06 on about 16x. Those multiples assume the EPS growth of 24.3% and 18.7% is delivered, which requires utilisation and rates to hold. The discount to the peer median is therefore not a free option: it is the market's price for leverage and for a business whose earnings depend on the construction cycle.",
+      "The 52-week range of $702 to $1,200 and a one-year return of 28.9% show that the shares have already re-rated. The low end of the analyst range, $950, is below the current price, so not every estimate accepts the consensus. What would justify the multiple is evidence that the fleet can earn a return above its cost of capital through a downturn; what would break it is a fall in used prices that forces depreciation higher."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "21 analysts contribute to the third-party consensus. The mean target is $1,298.05, with a range of $950.00 to $1,652.00.",
-      "Current-year estimates call for $18.1B of revenue and $52.28 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 21 analysts with a mean target of $1.3K; third-party estimates can change without notice."
+      "On Yahoo Finance's 18 November 2026 data, 21 analysts cover United Rentals with a mean target of $1,300, within a $950 to $1,700 range. Positive views form the majority, with a handful of neutral calls and a single cautious one. The low end sits below the current price and the high end well above it, which is a genuine disagreement about the cycle rather than about the company.",
+      "Revisions are positive, with EPS up 5.4% over 30 and 60 days and 5.8% over 90. The September quarter beat at $15.55 against $14.03, and the June quarter at $12.76 against $11.59, so the estimate has been raised after the results. Consensus FY2026 EPS of $52.28 is up 24.3% and FY2027 of $62.06 is up 18.7%. The dispersion is wide because the revenue base is not consistently reported, which makes the top-line assumptions harder to anchor."
     ]
   },
   "risks": {
@@ -130,5 +142,7 @@ export const URI: StockStory = {
       "What residual values is the fleet carried at, and how sensitive is depreciation to a fall in used prices?",
       "How much fleet capital spending is growth versus replacement?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const DUOL: StockStory = {
   "dek": "A freemium app with a 72.8% gross margin, a 34.4% free-cash-flow margin and a growth rate that has fallen to 13.7%. The report explains how the funnel works and why the margin is shrinking while revenue still rises.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $1.2B trailing twelve months, +22.6% year over year.",
-    "Profitability: 12.4% operating margin and 18.0% net margin.",
-    "Cash: $407M free cash flow, a 34.4% margin.",
-    "Scorecard: 62/100 average percentile across the factor screens."
+    "Operating margin fell from 15.4% in December 2025 to 7.8% in September 2026 while trailing revenue grew 22.6%.",
+    "Free cash flow of $407.0M is 34.4% of revenue because annual subscriptions are paid upfront and recognised over twelve months.",
+    "Net cash of $1.2B and a 5.9% free-cash-flow yield give the company room to absorb a slower growth phase.",
+    "At 35.0x EBITDA against a 16.2x peer median, the shares still carry a growth multiple on a 14.1% forecast."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026012494/duol-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001562088&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Duolingo, Inc. generated $1.2B of revenue over the last twelve months, +22.6% versus the prior year. The model depends on unit growth, brand heat and whether new customers return.",
-      "The latest reported quarter was Q3 FY26, with $309M of revenue and an operating margin of 7.8%. The stock closed at $160.08 on 2026-11-17, giving a market capitalization of $7.6B.",
-      "The shares sit 58% of the way up their 52-week range ($87.89 to $213.37). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Duolingo's operating margin has fallen from 15.4% in December 2025 to 7.8% in September 2026, with the sharpest drop in the June quarter. Revenue advanced from $282.9M to $309.0M over the same period. Three declines in a business with a 72.8% gross margin point to spending rather than to cost of goods. The quarter matters because it shows the freemium funnel getting more expensive to feed, not the product getting less popular.",
+      "The app monetises a habit. Streaks, leaderboards and notifications keep learners returning, and a subscription removes ads and unlocks practice. Advertising earns a low yield per free user, and the proficiency exam sells at a higher price to a different customer. Courses in 40 languages are expensive to build once and cheap to serve thereafter, which is why the gross margin is high and the operating margin depends on marketing.",
+      "The equity is valued at $6.9B, or 47.6x earnings, 35.0x EBITDA and 4.8x sales, with $1.2B of net cash and no dividend. The EBITDA multiple is more than twice the 16.2x peer median, and the sales multiple is the highest in the consumer group. The price assumes the operating margin stabilises near 8% rather than returning to 15%, which is a less demanding assumption than the trailing multiple implies. The 52-week range of $88 to $213 is a reminder of how quickly that assumption can be repriced."
     ],
-    "quote": "For a freemium app, the only two numbers that matter in the long run are how many people use it and how many of them pay. Everything else is a cost line between those two."
+    "quote": "Duolingo monetises a habit: the streak keeps the learner, the subscription keeps the revenue, and the marketing bill keeps the margin."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,46 @@ export const DUOL: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 45.0% a year across the fiscal years in the dataset, and the latest quarter changed +13.7% year over year. Third-party estimates for the current fiscal year point to $1.2B of revenue and $6.68 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 12.4% and return on invested capital of 60.2% are the filters to watch as revenue scales."
+      "Paid conversion is the growth lever now. Revenue was $1.0B in FY2025, up 38.7%, and $1.2B trailing, up 22.6%. Consensus expects $1.2B in FY2026, up 17.8%, and $1.4B in FY2027, up 14.1%. Growth has halved in a year, and the forecast assumes it roughly stabilises. With a large free user base, a small change in conversion moves revenue more than a change in the number of new users.",
+      "The marketing line is the swing factor. A dollar spent to acquire a subscriber is worth it only if the subscriber stays long enough to repay it, and the operating margin decline suggests the payback has lengthened. Advertising and the exam are smaller lines that monetise users who do not subscribe, but neither is large enough to offset a conversion slowdown. The file does not split the revenue, so the mix has to be treated qualitatively."
     ],
     "bullets": [
       {
-        "title": "User growth",
-        "detail": "More daily and monthly learners expand the base from which subscribers are converted."
+        "title": "Paid conversion",
+        "detail": "A small change in the share of free users who subscribe moves revenue more than user growth does."
       },
       {
-        "title": "Conversion and pricing",
-        "detail": "A higher share of free users paying, or a higher subscription price, lifts revenue without new users."
+        "title": "Marketing payback",
+        "detail": "The operating margin fell by half in three quarters, which points to a longer payback on acquisition spend."
       },
       {
-        "title": "New subjects",
-        "detail": "Music, maths and other courses give existing users another reason to stay and attract new ones."
+        "title": "Exam and institutions",
+        "detail": "The proficiency test sells at a higher price to a different customer and is the most under-disclosed line."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 12.4%, the net margin is 18.0% and diluted EPS is $3.03. The latest quarter's operating margin was 7.8%.",
-      "Return on equity is 14.4%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $309M, an operating margin of 7.8% and a net margin of 8.8%."
+      "At 72.8%, the gross margin is stable across five years: 72.2% in FY2025 and 73.2% in FY2023. Operating margin was 12.4% trailing and 13.1% in FY2025, down from 15.4% in the December 2025 quarter. Net margin was 12.3% trailing but 39.9% in FY2025, when a non-operating item lifted the figure; the operating line is the better guide. The September quarter's 7.8% is the low point of the recent series.",
+      "Return on invested capital was 7.5% and return on equity 9.8%, against a 14.7% peer median return on capital. A 72.8% gross margin with a 7.5% return is a spending problem, not a product problem: the capital is minimal and the gross profit is large, so the operating cost base is consuming the difference. The relevant comparison is with software, not with restaurants."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $407M, a 34.4% margin. The balance sheet carries $1.3B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $407M over the last twelve months and net debt was -$1.3B; interest cover was n/a."
+      "Subscriptions are paid upfront, which is why operating cash flow of $387.8M in FY2025 exceeded operating income and capex was only $18.1M. Free cash flow was $369.7M, and the trailing figure is $407.0M, a 34.4% margin. That timing difference is the reason the cash figure is not a clean measure of profit. The quarterly path has been positive throughout: $150.6M in March 2026, $81.4M in June and $78.5M in September.",
+      "Net cash was $1.2B trailing, and the reported net-debt-to-EBITDA ratio of -7.6x is a net cash position, not leverage. The company pays no dividend. Free cash flow exceeds operating income because of deferred revenue, so the cash figure overstates the current earnings power; the operating margin is the better measure of what the business earns. Even so, the balance sheet gives the company time to fix the marketing payback."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 35.5x trailing earnings and 38.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $153.93; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Duolingo's 35.0x EBITDA is more than twice the 16.2x peer median, and at 4.8x sales it is the most expensive consumer name in the group. The P/E of 47.6x is close to the 46.3x median, but it is measured on an EPS figure flattered by a non-operating item in FY2025. P/FCF is 17.0x with a 5.9% free-cash-flow yield, which is the most reasonable of the four multiples.",
+      "On FY2026 EPS of $6.68, the shares at $147 are valued at 22.0x; on FY2027's $7.81, 18.8x. The forward earnings multiple is unremarkable; the EBITDA multiple is not, because EBITDA is depressed by the marketing spend. What would justify the premium is evidence that the operating margin stabilises near 8% and then rebuilds. What would break it is another step down, which would make the 14.1% revenue forecast look optimistic."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "18 analysts contribute to the third-party consensus. The mean target is $153.93, with a range of $108.00 to $210.00.",
-      "Current-year estimates call for $1.2B of revenue and $6.68 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 18 analysts with a mean target of $153.93; third-party estimates can change without notice."
+      "The neutral block dominates the published analyst views, with a small positive group and one cautious estimate. The mean target of $154 is 5% above the $147 price, and the range of $108 to $210 spans a 27% decline to a 43% gain. That is unusual for a company on a 47.6x earnings multiple: the sell side is not arguing about the quality of the franchise, only about the price.",
+      "Revisions have been flat at +1.0% over 30, 60 and 90 days. The company has missed in each of the last four quarters, most recently $1.32 against $1.58, which is why the estimates have not risen with revenue. The consensus FY2027 EPS of $7.81 assumes a 17.0% increase on 14.1% revenue growth, a margin recovery that the last three quarters do not support."
     ]
   },
   "risks": {
@@ -158,5 +155,7 @@ export const DUOL: StockStory = {
       "How much of revenue comes from subscriptions versus ads and the exam?",
       "Can revenue grow at 13.7% without marketing spend rising faster?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

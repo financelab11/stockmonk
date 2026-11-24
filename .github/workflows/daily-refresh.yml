@@ -44,6 +44,7 @@ jobs:
         run: |
           pnpm audit:freshness
           pnpm audit:stories
+          pnpm audit:research
 
       - name: Sync Supabase
         run: |

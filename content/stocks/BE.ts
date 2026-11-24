@@ -7,20 +7,20 @@ export const BE: StockStory = {
   "dek": "Fuel cells give data-centre developers electricity without waiting years for a utility connection. Revenue doubled, and so did the price of the shares relative to earnings.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $3.8B trailing twelve months, +112.2% year over year.",
-    "Profitability: 14.9% operating margin and 28.1% net margin.",
-    "Cash: $436.7M free cash flow, a 11.5% margin.",
-    "Scorecard: 46/100 average percentile across the factor screens."
+    "Revenue of $3.8B more than doubled, and the 14.9% operating margin follows a year and a half of expansion from negative 6.0%.",
+    "The September quarter produced $1.2B at an 18.3% operating margin but negative $180.6M of free cash flow, so cash timing is lumpy.",
+    "Net debt is negligible and interest cover is 29.6x, a balance sheet that can fund capacity without stressing the model.",
+    "At 80.8x EBITDA and 13.2x sales, the shares require the service fleet to earn a margin the equipment sale alone does not."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026006516/be-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001664703&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Bloom Energy Corp. generated $3.8B of revenue over the last twelve months, +112.2% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
-      "The latest reported quarter was Q3 FY26, with $1.2B of revenue and an operating margin of 18.3%. The stock closed at $173.46 on 2026-11-17, giving a market capitalization of $51.3B.",
-      "The shares sit 35% of the way up their 52-week range ($75.70 to $351.28). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "A year and a half of margin expansion took Bloom Energy from negative 6.0% operating margin to 18.3% in the September 2026 quarter. Revenue over the same span went from $319.3M to $1.2B. The factory, engineering and field organisation were already in place, so the additional revenue carried most of its gross profit to the operating line. That is the same mechanism that produced losses when revenue was smaller. The next test is whether that leverage survives a quarter of slower deliveries.",
+      "The product sells time. A data-centre developer that cannot wait years for a utility connection can install modular solid oxide fuel cells and generate power on site, using natural gas, biogas or hydrogen. The advantage is speed, not cheapness, and it disappears if interconnection timelines shorten or grid power gets cheaper. Service contracts extend the relationship and add a recurring revenue stream with a real cost obligation. The service contract is therefore a hedge against the equipment cycle and a liability at the same time.",
+      "After years of losses the business is funding itself: free cash flow of $436.7M, 11.5% of revenue, and a balance sheet with roughly no net debt. The price reflects that: 80.8x EBITDA and 13.2x sales, among the highest multiples in the group. The debate is whether the service obligation and stack replacements consume the margin that the equipment sale appears to earn. The multiple is a claim on the installed base, not on the next quarter's shipments."
     ],
-    "quote": "The value of on-site generation is set by the alternative, and the alternative is waiting. When a utility needs five years to deliver a connection, a generator that arrives in eighteen months can charge for the difference."
+    "quote": "Bloom's fuel cells sell time to data-centre developers, and the multiple assumes that time stays scarce."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,48 @@ export const BE: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 18.4% a year across the fiscal years in the dataset, and the latest quarter changed +139.8% year over year. Third-party estimates for the current fiscal year point to $4.5B of revenue and $3.27 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 14.9% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Interconnection queues, not fuel costs, are the demand driver. A campus that needs power faster than a utility can connect it can install modular fuel cells and generate on site, and the installation can be permitted and energised in a fraction of the time a new line takes. The revenue evidence is the ramp from $396.3M in the June 2025 quarter to $1.23B in September 2026, a tripling in five quarters.",
+      "The service business is the part that compounds. Every unit sold adds a multi-year maintenance and stack-replacement obligation, which produces recurring revenue but also a cost that arrives later. The gross margin of 32.5% is lower than a pure equipment vendor's precisely because that obligation is carried in the same line. Growth in the installed base therefore adds revenue and liability together, and the balance decides the eventual return.",
+      "The estimates assume $4.5B of revenue in FY2026, 123.8% growth, and $7.1B in FY2027, 56.4%. They also imply a pause: the December quarter is put at $1.5B and the March quarter at $1.4B, a sequential decline. A company growing 56% for the year with two flat quarters is either digesting capacity or waiting for projects to convert. The quarterly estimates are the part of the forecast closest to the reported record, and they are also the least ambitious."
+    ],
+    "bullets": [
+      {
+        "title": "Grid queue",
+        "detail": "The product's premium is measured in years of avoided utility interconnection, which is why speed rather than efficiency sells it."
+      },
+      {
+        "title": "Service obligation",
+        "detail": "Each installed unit carries stack replacements and maintenance, so the annuity is also a future cost."
+      },
+      {
+        "title": "Modular capacity",
+        "detail": "Units are added in blocks as a site grows, which lets a developer match supply to installed compute."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 14.9%, the net margin is 28.1% and diluted EPS is $1.64. The latest quarter's operating margin was 18.3%.",
-      "Return on equity is 54.6%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $1.2B, an operating margin of 18.3% and a net margin of 20.2%."
+      "The 32.5% gross margin is the hinge. It is high enough to cover manufacturing and field service but not high enough to behave like a software margin, and it carries the stack-replacement obligation. Operating margin of 14.9% and net margin of 13.7% are close, which means the reported profit is mostly operational, unlike some peers where non-operating items dominate. That is a better quality of earnings than a net margin lifted by one-off gains, and it is the reason the operating line is the one to follow.",
+      "The quarterly path shows how fast the operating leverage works: negative 6.0%, negative 0.9%, 1.5%, 11.3%, 9.7%, 17.2% and 18.3%. Revenue advanced every quarter, and the margin followed with a lag. Return on invested capital of 12.8% and return on equity of 27.1% are now positive, but they are calculated on a base that was loss-making two years ago and on a service book whose costs are still maturing."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $436.7M, a 11.5% margin. The balance sheet carries $2.5B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $436.7M over the last twelve months and net debt was -$2.5B; interest cover was n/a."
+      "FCF is lumpy because project milestones are. The September quarter consumed $180.6M after generating $174.8M in June, and the twelve-month figure is $436.7M, 11.5% of revenue. FY2025 produced $57.2M on $113.9M of operating cash flow and $56.8M of capex, so the improvement is recent and sensitive to the timing of deliveries and acceptances. The direction of travel is clear even if the quarterly path is not.",
+      "The balance sheet is not the constraint. Net debt is negligible, interest cover is 29.6x, and capex of $56.8M is small relative to $3.8B of revenue because the manufacturing footprint already exists. The constraint is the service obligation: stack replacements are a future cash cost that sits inside the gross margin rather than below it. No dividend is paid, so the cash stays in the business."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 47.8x trailing earnings and 78.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $283.85; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At 80.8x EBITDA, Bloom is the most expensive large-cap industrial in the group on that measure, and 13.2x sales is close to Lumentum's 13.4x despite a lower gross margin. The multiple is not a claim about the current year; it is a claim about the installed base and the service revenue that comes with it, and about a manufacturing cost curve that has not finished falling.",
+      "On FY2026 EPS of $3.27 the shares at $170 are at about 52x, and on $5.32 for FY2027 at about 32x. Those multiples are high but not absurd for a company growing revenue 123.8% and then 56.4%, provided the margin holds. The risk is that the service cost arrives before the service revenue, which would make the 2027 estimate the peak rather than a step.",
+      "What justifies the price is a durable speed advantage: grid queues that stay long, a service annuity that earns more than it costs, and manufacturing scale that lifts the gross margin above 32.5%. What breaks it is faster interconnection, cheaper grid power or a stack-replacement cycle that consumes the margin. The 29.6x interest cover gives time to find out; the multiple does not give much room."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "26 analysts contribute to the third-party consensus. The mean target is $283.85, with a range of $102.00 to $380.00.",
-      "Current-year estimates call for $4.5B of revenue and $3.27 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 26 analysts with a mean target of $283.85; third-party estimates can change without notice."
+      "Twenty-six analysts contribute to the Yahoo Finance count of 18 November 2026, and the range of views is the widest in the group: a mean target of $284 against a $170 price, with a low of $102 and a high of $380. A low target 40% below the market price is a genuine disagreement about the business, not a rounding difference.",
+      "The estimates have been raised 20.8% over thirty days and 21.6% over sixty, and the last four quarters beat the published figures, most recently $0.94 against $0.68. FY2026 is $4.5B of revenue and $3.27 of EPS, FY2027 $7.1B and $5.32. The consensus assumes the service business scales without a step-up in warranty or replacement costs, which is the assumption the cash flow will test."
     ]
   },
   "risks": {
@@ -144,5 +157,7 @@ export const BE: StockStory = {
       "What happens to demand if a utility can connect a campus in two years instead of five?",
       "How much of the reported net income comes from operations rather than from below the line?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

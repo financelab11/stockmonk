@@ -7,20 +7,20 @@ export const KNF: StockStory = {
   "dek": "Crushed stone, asphalt and ready-mix concrete across six US regions. The trailing P/E of 1.3x is an accounting illusion, free cash flow is negative, and the real question is what the aggregate reserves are worth.",
   "readingMinutes": 11,
   "takeaways": [
-    "Revenue: $3.4B trailing twelve months, +10.9% year over year.",
-    "Profitability: 8.1% operating margin and 71.3% net margin.",
-    "Cash: -$9.5M free cash flow, a -0.3% margin.",
-    "Scorecard: 37/100 average percentile across the factor screens."
+    "Capex of $348.0M against $278.5M of operating cash flow left free cash flow at -$69.6M in FY2025, and the trailing figure is -$9.5M.",
+    "Net debt of $1.4B is 2.9x EBITDA with interest cover of 3.0x, thin for a business that loses money in the first quarter of both years shown.",
+    "At 8.8x EBITDA the shares trade below the 15.2x peer median, while the 6.0% return on capital is the lowest in the group.",
+    "Ten analysts hold a $70 mean against $50 after cutting estimates 24.5% in ninety days, and the $54 low is 8% above the price."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1955520/000195552026000003/knf-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001955520&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Knife River Corporation generated $3.4B of revenue over the last twelve months, +10.9% versus the prior year. The cycle drives near-term results, so the important question is what the business earns through a full cycle.",
-      "The latest reported quarter was Q3 FY26, with $1.3B of revenue and an operating margin of 16.8%. The stock closed at $52.66 on 2026-11-17, giving a market capitalization of $3B.",
-      "The shares sit 10% of the way up their 52-week range ($47.79 to $96.28). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Seasonality did the work in Q3 FY2026: revenue of $1.3B, a 16.8% operating margin and $2.43 of EPS against a $2.56 estimate. The March quarter had produced $410.1M of revenue at a -21.0% operating margin and -$1.40 of EPS. That swing is the business: crushed stone, asphalt and ready-mix sold into a construction season that stops in a northern winter. The trailing figures are $3.4B of revenue and an 8.1% operating margin, and free cash flow is -$9.5M.",
+      "The segments are West at 38.5% of revenue, Central at 31.9%, Mountain at 20.5% and Energy Services at 10.7%, and the product ladder runs from aggregate to asphalt to paving. Public infrastructure funds most of the work, with private commercial and residential filling gaps, and Energy Services serves oil and gas activity in the northern states. Vertical integration captures the material margin as well as the construction margin, but it also means a decline in lettings hits volume and contracting revenue at the same time.",
+      "At $50 the shares trade on 8.8x EBITDA and 1.3x sales. The reported 21.2x earnings is not a usable anchor: a one-off gain has distorted the net line, and the trailing net margin of 4.0% is below the 5.0% of FY2025, so the earnings denominator is still moving. Net debt of $1.4B is 2.9x EBITDA with interest cover of 3.0x, and the 52-week range of $48 to $96 puts the price at the floor. Free cash flow is negative, so there is no yield to support the equity."
     ],
-    "quote": "Aggregates are a permitted monopoly in miniature. The reserve is the asset, the haul distance is the moat, and the price of stone is set locally."
+    "quote": "Knife River owns the quarries that cannot be copied, but a capital programme larger than operating cash flow has left the equity with no free cash flow."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,49 @@ export const KNF: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 9.0% a year across the fiscal years in the dataset, and the latest quarter changed +6.0% year over year. Third-party estimates for the current fiscal year point to $3.4B of revenue and $2.16 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 8.1% and return on invested capital of 6.9% are the filters to watch as revenue scales."
+      "Aggregate pricing carries the growth. Revenue went from $2.2B in FY2021 to $3.1B in FY2025, and the trailing rate is 10.9%, but the margin moved more than the revenue: gross margin rose from 15.6% in FY2021 to 19.7% in FY2024 before falling to 18.4% and 17.5%. The estimate for FY2026 is $3.4B, up 8.0%, and for FY2027 $3.5B, up 3.0%. A 3.0% revenue year is a price-and-volume year with no acquisition, and the estimates have been cut to reflect it.",
+      "Permitted reserves near growing markets are the asset that cannot be replicated, and new quarries are hard to permit. That gives the company pricing power in its local markets, but it also caps growth: a market can only absorb so much stone from a fixed reserve. Capex of $348.0M in FY2025 against $172.4M in FY2024 is the other side of the story, because a capital programme that size is either growth investment or a maintenance catch-up, and the two are not split out."
     ],
     "bullets": [
       {
         "title": "Aggregate price",
-        "detail": "The most reliable growth lever. Local scarcity lets prices rise faster than inflation over time."
+        "detail": "Price rises faster than cost when the alternative is a longer haul, which is why gross margin reached 19.7% in FY2024 before input costs caught up."
       },
       {
-        "title": "Public infrastructure spending",
-        "detail": "Highway, airport and bridge budgets determine how much stone and paving work is let each year."
+        "title": "Reserve permits",
+        "detail": "New quarries take years to permit, so growth in a market depends on expanding existing reserves rather than on building new ones."
       },
       {
-        "title": "Acquisitions",
-        "detail": "Buying local quarries and paving companies adds reserves and market density. Also adds debt."
+        "title": "Growth capex",
+        "detail": "Capex of $348.0M in FY2025 was more than operating cash flow, and the maintenance share is not disclosed."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 8.1%, the net margin is 71.3% and diluted EPS is $2.36. The latest quarter's operating margin was 16.8%.",
-      "Return on equity is 138.1%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $1.3B, an operating margin of 16.8% and a net margin of 10.8%."
+      "Blended gross margin is the place to start: 15.6% in FY2021, 19.7% in FY2024, 18.4% in FY2025 and 17.5% trailing. Operating margin peaked at 10.9% in FY2024 and has fallen to 9.1% and 8.1%, while net margin went from 7.0% to 5.0% and 4.0%. EPS fell from $3.55 to $2.76. The pattern is a price-led margin expansion that has partly reversed as costs caught up, and the 2024 peak should not be treated as the normal level.",
+      "The quarterly dispersion is extreme by design. Operating margin was -23.4% in March 2025, 10.6% in June, 17.9% in September and 8.6% in December, and the following year ran -21.0%, 8.6% and 16.8%. A business that loses 21 cents on the revenue dollar in one quarter and earns 17 in another cannot be judged on a single period. The annual margin is the only comparable figure, and it has been drifting down since FY2024.",
+      "Return on invested capital of 6.0% is the lowest in the group and below the 14.1% peer median, while return on equity of 7.7% is barely above it. Construction Partners earns 7.9% on capital and trades at 12.5x EBITDA; Knife River earns 6.0% and trades at 8.8x. The multiple difference is roughly proportional to the return difference, which is the market being consistent rather than generous."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$9.5M, a -0.3% margin. Net debt is $1.4B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$9.5M over the last twelve months and net debt was $1.4B; interest cover was n/a."
+      "Maintenance and growth capex together exceeded operating cash flow in FY2025: $348.0M against $278.5M, leaving -$69.6M of free cash flow. The trailing figure is -$9.5M, and no price-to-free-cash-flow multiple is meaningful because there is no positive free cash flow to divide. Capex was 11.2% of revenue, roughly double the $172.4M spent in FY2024, and the increase is the single largest reason the cash line turned negative.",
+      "The quarterly pattern follows the season: -$135.9M in March 2026, -$147.9M in June and +$136.1M in September. Working capital builds before the season and releases during it, and a company with fixed quarry and plant costs has to carry that swing. The balance sheet absorbs it because net debt of $1.4B sits at 2.9x EBITDA, but interest cover of 3.0x means a weak summer would leave little room to manoeuvre.",
+      "There is no dividend, so cash goes to capex and debt service. The 52-week low of $48 is 4% below the current price, which suggests the market has already priced a disappointing cash year. What would change the picture is disclosure of how much of the $348.0M was growth capex: if most of it was maintenance, the business is more capital-hungry than the EBITDA multiple implies; if it was growth, cash flow should recover as the assets ramp."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 1.2x trailing earnings and 8.9x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $69.80; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Eight point eight times EBITDA for a business with a 6.0% return on capital is not obviously cheap, and the 8.8x is only a discount because the peer median is 15.2x. On the FY2026 estimate of $2.15 the shares trade at 23.3x, and on $2.71 for FY2027 at 18.5x. Those earnings multiples are high for a cyclical, which is why EBITDA and cash flow are the better anchors. The 52-week range of $48 to $96 is a 2:1 spread in a single year.",
+      "The discount to Construction Partners, at 12.5x EBITDA, reflects a return gap of 1.9 points and a leverage gap of 0.7 turns. It is a fair adjustment rather than a mispricing. Mueller, at 8.5x, earns 23.0% on capital, which shows how much of Knife River's multiple is about the quality of the reserve base rather than the current return. The market is paying a small premium for the aggregates franchise and nothing for the contracting business.",
+      "What would justify a higher multiple is a return on capital above 10% through a full cycle and positive free cash flow, which requires either higher aggregate prices or a slowdown in capex. What would break the current price is another year of negative free cash flow combined with a soft letting season, which would push leverage above 3.5x with interest cover already at 3.0x. The $48 low is the market's estimate of that outcome."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "10 analysts contribute to the third-party consensus. The mean target is $69.80, with a range of $54.00 to $89.00.",
-      "Current-year estimates call for $3.4B of revenue and $2.16 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 10 analysts with a mean target of $69.8; third-party estimates can change without notice."
+      "Estimates have been cut hard: -7.1% in the past week, -19.1% over thirty days and -24.5% over ninety. Ten analysts carry a mean target of $70 against a $50 price, with a range of $54 to $89; six are positive, two neutral and one negative. A target set that far above the price after cuts that deep is a sign the revisions are still catching up.",
+      "The FY2026 estimate of $2.15 implies a 22.2% decline in EPS on 8.0% revenue growth, and FY2027's $2.71 implies a 25.8% recovery on 3.0% revenue growth. That is a margin-recovery assumption, not a volume assumption, and it depends on aggregate prices outrunning cost inflation. The March 2027 quarter is estimated at -$1.42, so the analysts expect the seasonal loss to persist. The consensus is a 2027 story with a weak 2026 in front of it."
     ]
   },
   "risks": {
@@ -158,5 +158,7 @@ export const KNF: StockStory = {
       "Is the recent capital spending growth capex or maintenance?",
       "Can aggregate price increases outrun cost inflation through the next cycle?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

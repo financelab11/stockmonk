@@ -176,20 +176,23 @@ The screener covers exactly the 229 research names. It is rebuilt from
 `data/processed` on every data refresh; there is no bulk or expanded universe
 feed, so every row shares the same fundamentals and price snapshot.
 
-### Story authoring
+### Research authoring
 
-Every research name has a hand-written `content/stocks/{ticker}.ts` report. The
+Every research name has a curated `content/stocks/{ticker}.ts` report. The
 supporting workflow is:
 
 ```bash
-pnpm stories:briefs      # per-company factual brief in data/raw/story-briefs
-pnpm stories:materialize # create a valid skeleton for a new ticker
+pnpm research:packs      # per-company evidence pack in data/raw/research-packs
+pnpm research:apply      # apply curated rewrite batches to the seven data sections
+pnpm audit:research       # cross-company repetition, boilerplate and rating-language gate
+pnpm audit:stories       # newest-quarter and explicit-price freshness check
 pnpm stories:index       # regenerate content/stocks/index.ts
-pnpm audit:stories       # length, duplicate-text and vendor-leak checks
 ```
 
-The brief is the only approved source of quantitative claims. Briefs are
-written under `data/raw/` and are not committed; the narrative files are.
+The research pack is the approved source of quantitative claims. Packs are
+written under `data/raw/` and are not committed; the narrative files are. Stories
+marked `curated` are skipped by `refresh:stories` so bespoke analysis is not
+overwritten by the generator.
 
 ### How to add a company
 
@@ -199,10 +202,9 @@ written under `data/raw/` and are not committed; the narrative files are.
 2. Run `pnpm ingest:edgar`, `pnpm ingest:fundamentals`, `pnpm ingest:consensus`
    and `pnpm ingest:segments` (segments are optional; companies without a
    segment file use a single consolidated-revenue slice).
-3. Run `pnpm build:data`, then `pnpm stories:briefs` and
-   `pnpm stories:materialize`.
-4. Write the report in `content/stocks/{ticker}.ts`, run `pnpm stories:index`,
-   `pnpm audit:stories` and `pnpm validate:content`.
+3. Run `pnpm build:data`, then `pnpm research:packs` to create the evidence pack.
+4. Write or rewrite the report in `content/stocks/{ticker}.ts`, run `pnpm stories:index`,
+   `pnpm audit:stories`, `pnpm validate:content` and `pnpm audit:research`.
 5. Add a logo at `public/logos/{TICKER}.png` (or let the monogram fallback run).
 6. Run `pnpm validate:content`, `pnpm test`, `pnpm build` and `pnpm e2e`.
 

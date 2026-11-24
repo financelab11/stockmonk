@@ -7,20 +7,20 @@ export const NOW: StockStory = {
   "dek": "The platform converts 30.8% of revenue into free cash flow and reports a 9.7% operating margin. Both numbers are real, and the gap between them is the point.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $15.4B trailing twelve months, +21.8% year over year.",
-    "Profitability: 9.7% operating margin and 9.4% net margin.",
-    "Cash: $4.8B free cash flow, a 30.8% margin.",
-    "Scorecard: 38/100 average percentile across the factor screens."
+    "Third-quarter revenue of $4.1B rose 20.5%, but operating margin fell to 9.4% and EPS dropped to $0.27 from $0.48.",
+    "Free cash flow of $4.8B is 30.8% of revenue, more than three times the 9.4% net margin.",
+    "The shares are down 43.5% over a year and now trade at 20.2x free cash flow, a 5.0% FCF yield.",
+    "Consensus expects fiscal 2026 revenue of $16.2B and EPS of $3.95, implying margin recovery in the second half."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001373715&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "ServiceNow, Inc. generated $15.4B of revenue over the last twelve months, +21.8% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
-      "The latest reported quarter was Q3 FY26, with $4.1B of revenue and an operating margin of 9.4%. The stock closed at $92.90 on 2026-11-17, giving a market capitalization of $96.4B.",
-      "The shares sit 12% of the way up their 52-week range ($81.24 to $175.00). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "ServiceNow's third quarter, ended 30 September 2026, produced $4.1B of revenue, a 9.4% operating margin and $0.27 of diluted EPS. Revenue was 20.5% higher than a year earlier, but operating margin fell from 16.8% and EPS fell from $0.48. The result matters because it is the second consecutive quarter in which EPS fell despite roughly 20% revenue growth, a combination that explains the 43.5% one-year decline in the shares. The September quarter was the weakest of the three on the earnings line.",
+      "The platform is sold by department: technology workflows for IT service management, customer workflows for service and field operations, employee workflows for HR, and a creator layer for custom applications. Deals start in one department and expand, which is why account expansion matters more than new logos. The cost of that expansion sits in sales and marketing, not in cost of revenue, so gross margin stays high while operating margin compresses.",
+      "Two earnings measures tell different stories. At $92 the shares carry 66.3x trailing earnings but only 20.2x free cash flow and 6.2x sales. The P/E is high because stock-based compensation and deferred revenue drive a wedge between accounting profit and cash. On cash the shares are cheaper than the median peer on earnings, 20.2x free cash flow against a 31.0x median P/E, which is either an opportunity or a warning that the cash flow is flattered."
     ],
-    "quote": "A seat-based software company is a bet on the customer's headcount. Every AI product it sells is an attempt to need fewer seats per customer."
+    "quote": "ServiceNow's cash flow and its earnings are both real; the question is which one the next five years will resemble."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,50 @@ export const NOW: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 25.1% a year across the fiscal years in the dataset, and the latest quarter changed +20.5% year over year. Third-party estimates for the current fiscal year point to $16.2B of revenue and $3.95 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 9.7% and return on invested capital of 7.4% are the filters to watch as revenue scales."
+      "Revenue expanded from $11.0B in fiscal 2024 to $13.3B in fiscal 2025 and $15.4B trailing, a 21.8% pace that has barely moved. The latest quarter grew 20.5%, and consensus for the December quarter is $4.4B, up 22.5%. Fiscal 2026 revenue of $16.2B would be 22.3% higher, so the estimate assumes no deceleration despite the margin pressure. That would match the 22.4% of fiscal 2024 almost exactly, so the estimate is not assuming a slowdown.",
+      "Expansion inside existing accounts drives the growth. Adding a department to the same data model is cheaper than winning a new customer, and it carries a higher margin because the platform is already installed. International is growing faster from a smaller base, with North America at 62.9% of revenue. The limit is seat-based pricing: if AI reduces the number of users a customer needs, revenue per account can fall even when usage rises.",
+      "The estimates assume the model holds. Fiscal 2027 revenue of $19.3B would be 18.7% above fiscal 2026, and EPS of $4.80 would be 21.4% higher. That requires the operating margin to recover from 9.7% toward the 13.7% reported in fiscal 2025. The 30-, 60- and 90-day EPS revisions are all -2.8%, so analysts have been cutting rather than raising. That is the estimate that has to be believed for the current multiple to hold."
     ],
     "bullets": [
       {
         "title": "Account expansion",
-        "detail": "Selling another department the same platform is cheaper than winning a new customer and carries a higher margin."
+        "detail": "Selling another department the same platform is cheaper than a new logo and carries a higher margin, which is why expansion drives the model."
       },
       {
-        "title": "International",
-        "detail": "Revenue outside North America has grown faster than the base, from a smaller starting point."
+        "title": "Seat pricing",
+        "detail": "Revenue is priced largely per user; if AI reduces headcount at customers, seats can shrink even as usage grows."
       },
       {
-        "title": "AI products",
-        "detail": "Priced as add-ons to existing subscriptions. The open question is whether they expand the contract or replace seats inside it."
+        "title": "Cash conversion",
+        "detail": "Deferred revenue and stock-based compensation push free cash flow to 30.8% of revenue, well above the 9.7% operating margin."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 9.7%, the net margin is 9.4% and diluted EPS is $1.39. The latest quarter's operating margin was 9.4%.",
-      "Return on equity is 11.0%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $4.1B, an operating margin of 9.4% and a net margin of 6.7%."
+      "The operating margin has gone into reverse. Gross margin of 73.1% becomes a 9.7% operating margin and a 9.4% net margin, with sales, marketing, research and stock-based compensation consuming the rest. In the September quarter the operating margin was 9.4%, down from 16.8% a year earlier, and EPS was $0.27 against $0.48. Revenue growth did not translate into operating leverage.",
+      "The quarterly path is uneven. Operating margin was 13.3% in March, 4.1% in June and 9.4% in September. The June quarter is the outlier, but the last two quarters are below the 12% to 13% range of the prior two. Return on equity was 11.0% and return on invested capital 5.2%, both well below the peer medians of 22.6% ROIC, which is what a 9.7% operating margin produces.",
+      "Against Microsoft's 47.1% operating margin, ServiceNow's 9.7% looks like a different business. The comparison is unfair on mix, since Microsoft carries high-margin infrastructure and productivity software, but it explains why the market once paid 66x earnings and now pays 20x cash flow. The gap between the two multiples is the cost of stock-based compensation and the market's doubt about the growth duration."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $4.8B, a 30.8% margin. Net debt is $2.9B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $4.8B over the last twelve months and net debt was $2.9B; interest cover was n/a."
+      "ServiceNow's $4.8B of free cash flow equals 30.8% of revenue, against a 9.4% net margin. Two things explain the gap: stock-based compensation, which is a real cost to shareholders but not a cash cost, and deferred revenue, which collects subscription fees before they are recognised. The cash-flow statement is the better measure of the business, but it is flattered in exactly the years when growth is fastest.",
+      "Net debt of $563M, or 0.2x EBITDA, and interest cover of 10.2x make the balance sheet close to debt-free and give the company room to keep investing through a slowdown. That is a stronger position than most software peers carry. Capex was $868M in fiscal 2025, and it is covered several times by operating cash flow. The company could repay it from a single quarter of free cash flow.",
+      "Distributions are not the story. ServiceNow pays no dividend, and the filings disclose no repurchase programme large enough to change the share count. The cash is being retained to fund growth and acquisitions, which is consistent with a platform still investing for scale rather than optimising for distribution. That leaves the return dependent on the operating margin recovering, with the strategy funded from internally generated cash."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 66.7x trailing earnings and 36.0x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $155.82; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $92 the equity is worth $95.7B, or 66.3x trailing earnings, 34.9x EV/EBITDA, 6.2x sales and 20.2x free cash flow. The P/E and the P/FCF tell opposite stories. On earnings, ServiceNow is expensive relative to the 31.0x peer median; on cash, 20.2x free cash flow is below the 31.0x median earnings multiple, and the shares offer a 5.0% FCF yield. Neither multiple is wrong; they answer different questions.",
+      "The forward arithmetic favours the cash view. Fiscal 2026 EPS of $3.95 is 23.3x the current price and fiscal 2027 at $4.80 is 19.2x, so the earnings multiple falls sharply even without a re-rating. That assumes the operating margin recovers. If it stays near 9.7%, the EPS estimates are too high and the P/E is closer to 30x. The market is not yet willing to underwrite that recovery.",
+      "From $175 to $81 at the low, the shares have already de-rated. At 6.2x sales it is no longer priced as a premium platform; it is priced as a business with a durable 20% growth rate and an uncertain margin. The 5.0% FCF yield is the compensation for that uncertainty. For a business still growing at 20%, that is an unusual starting yield."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "46 analysts contribute to the third-party consensus. The mean target is $155.82, with a range of $72.00 to $266.00.",
-      "Current-year estimates call for $16.2B of revenue and $3.95 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 46 analysts with a mean target of $155.82; third-party estimates can change without notice."
+      "Forty-six analysts are represented in Yahoo Finance's survey from 18 November 2026, with a mean target of $156 and a range of $72 to $266. The mean is 70% above the $92 price, but the range is the widest in the group, with the high 3.7x the low, which reflects genuine disagreement about the margin.",
+      "Revisions have turned negative: -2.8% over 30, 60 and 90 days and flat over seven days. The September quarter came in at $1.00 against a $1.02 estimate. Fiscal 2026 revenue of $16.2B and EPS of $3.95 assume the December quarter reaches $4.4B. The consensus is implicitly assuming that the margin recovers to the fiscal 2025 level while revenue growth stays above 20%."
     ]
   },
   "risks": {
@@ -158,5 +159,7 @@ export const NOW: StockStory = {
       "What share of revenue growth comes from existing customers rather than new ones?",
       "How fast is the share count growing through stock-based compensation?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const CAT: StockStory = {
   "dek": "The machines are the visible product. The profit engine is parts, service and a captive finance book that keeps customers buying through the cycle.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $77.8B trailing twelve months, +20.3% year over year.",
-    "Profitability: 18.8% operating margin and 15.2% net margin.",
-    "Cash: $11.3B free cash flow, a 14.5% margin.",
-    "Scorecard: 64/100 average percentile across the factor screens."
+    "Trailing revenue reached $77.8B, up 20.3%, yet the shares are 1.1% lower over the year and 7.5% lower year to date.",
+    "Operating margin recovered to 20.4% in Q3 FY26 from 16.5% for FY2025, while gross margin stayed at 33.8%.",
+    "Free cash flow of $11.3B equals a 14.5% margin, and the balance sheet holds $7.9B of net cash.",
+    "At 14.3x EBITDA the shares trade below the 20.4x peer median, which is the market pricing cycle risk."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000018230&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "CATERPILLAR INC. generated $77.8B of revenue over the last twelve months, +20.3% versus the prior year. Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
-      "The latest reported quarter was Q3 FY26, with $20.7B of revenue and an operating margin of 20.4%. The stock closed at $570.79 on 2026-11-17, giving a market capitalization of $261.2B.",
-      "The shares sit 6% of the way up their 52-week range ($537.08 to $1,073.46). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Caterpillar closed the September quarter with $20.7B of revenue, a 20.4% operating margin and $7.13 of diluted EPS, a second consecutive quarter above 20% after a fiscal 2025 in which the full-year margin was 16.5%. The result matters because it reverses the margin damage of the past year: revenue for fiscal 2025 rose 4.3% to $67.6B while operating margin fell to 16.5% and EPS dropped to $18.81 from $22.05. The recovery is therefore a margin story first and a volume story second.",
+      "The four end markets rarely move together. Construction tracks non-residential building and rental-fleet replacement, Resource Industries follows mining capital budgets, Energy & Transportation sells engines, turbines and locomotives into energy and power projects, and Financial Products lends to the customer buying the machine. That spread is why group revenue is smoother than any single market. It is also why the FY2025 gross margin of 33.8%, down from 38.0% in FY2024, did not stop operating margin from recovering once selling and administrative costs were absorbed.",
+      "Capital allocation is conservative. The balance sheet carries $7.9B of net cash, capex rose to $2.8B in FY2025 from $2.0B, and the dividend yield is 1.3%. The debate sits in the multiple: 14.3x EV/EBITDA and 21.2x earnings against peer medians of 20.4x and 31.0x. That discount is not an oversight. It is the price the market puts on earnings that may be above mid-cycle, and the answer depends on whether power generation has raised the floor."
     ],
-    "quote": "Heavy equipment is a cyclical business wrapped in an annuity. The machine sale starts the relationship; the parts counter and the finance contract are where the returns come from."
+    "quote": "Caterpillar's 20% operating margin is either a new floor for a power-and-mining franchise or the top of a machinery cycle."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -55,35 +55,49 @@ export const CAT: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.9% a year across the fiscal years in the dataset, and the latest quarter changed +17.3% year over year. Third-party estimates for the current fiscal year point to $79.4B of revenue and $27.03 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 18.8% and return on invested capital of 167.5% are the filters to watch as revenue scales."
+      "Sales moved from $67.1B in FY2023 to $64.8B in FY2024, $67.6B in FY2025 and $77.8B on a trailing basis, a 20.3% increase that looks abrupt beside the two flat years. The quarterly path explains it: $17.4B in March 2026, $20.5B in June and $20.7B in September, each above the comparable quarter a year earlier. Consensus puts FY2026 at $79.4B, up 17.4%, and FY2027 at $88.5B, up 11.6%.",
+      "Volume, price and mix are not separated in the disclosed figures, so the composition of the increase has to be inferred from margins. A 20.3% revenue increase with operating margin at 18.8% and gross margin still at 33.8% points to pricing and cost control rather than a surge in low-margin machine units. The dealer channel is the swing factor: independent dealers carry the inventory and the customer credit, and they slow orders before end demand falls.",
+      "Consensus EPS of $27.03 for FY2026, up 41.8%, assumes the margin holds through the December quarter and that the $20.8B revenue estimate is delivered. The FY2027 estimate of $32.18, up 19.0%, asks for another year of growth with a stable margin. Revisions have been marginally negative over 60 days, so the estimate is not running away from the price. The question is whether the current volume is replacement demand or a genuine capacity cycle."
+    ],
+    "bullets": [
+      {
+        "title": "Dealer inventory",
+        "detail": "Dealers hold the machines and the credit, so their order rate leads retail sales. Dealer months are not disclosed, which leaves the channel as the main unknown."
+      },
+      {
+        "title": "Energy & Transportation",
+        "detail": "Engines, turbines and locomotives are the most diverse part of the group and the most exposed to energy capital spending. Power generation is the piece that could lift the mid-cycle floor."
+      },
+      {
+        "title": "Financial Products",
+        "detail": "The captive finance book supports sales and earns interest income, but it also adds credit risk. Past dues, not machine orders, would signal the first stress in a downturn."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 18.8%, the net margin is 15.2% and diluted EPS is $25.49. The latest quarter's operating margin was 20.4%.",
-      "Return on equity is 79.8%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $20.7B, an operating margin of 20.4% and a net margin of 15.9%."
+      "Gross margin fell from 38.0% in FY2024 to 33.8% in FY2025 and has stayed there on a trailing basis, so the factory economics have not recovered. Operating margin did: 20.2% in FY2024, 16.5% in FY2025, 18.8% trailing and 20.4% in the September quarter. The gap between those two lines is the story. Cost discipline below the gross line, not manufacturing leverage, did the work, and that is a less durable source of margin than volume.",
+      "Net margin followed the operating line: 15.2% trailing, with diluted EPS of $25.49 across the four quarters. Revenue growth of 20.3% and EPS growth of roughly a third over the same span show how quickly incremental profit falls to the bottom line once the fixed cost base is covered. It also cuts both ways. A 10% decline in machine volumes would leave the factories and the dealer support costs in place.",
+      "Returns need care. The captive finance book shrinks the invested capital denominator, so a consolidated return on invested capital is not comparable with a pure manufacturer's. The honest comparison is the 18.8% operating margin and the 14.5% free-cash-flow margin against Deere's 13.4% operating margin and 10.7% return on invested capital. On those measures Caterpillar is the better business, which is exactly what a cyclical premium should reflect."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $11.3B, a 14.5% margin. The balance sheet carries $7.9B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $11.3B over the last twelve months and net debt was -$7.9B; interest cover was n/a."
+      "The cash statement was $11.3B trailing, a 14.5% margin, against operating cash flow of $11.7B and capex of $2.8B in FY2025. The conversion is unusually complete for a machinery company: net margin was 15.2%, so almost all of the profit reached the cash statement. The FY2025 figure of $8.9B was lower than FY2024's $10.0B, and the March 2026 quarter produced only $1.1B, which shows how seasonal the working-capital swing can be.",
+      "The balance sheet holds $7.9B of net cash, and capex has risen from $2.0B in FY2024 to $2.8B as capacity and the finance book absorb capital. The 1.3% dividend is small relative to $11.3B of free cash flow, leaving room for further investment or debt reduction. Leverage is not a constraint; the cycle is. In a downturn the finance book's receivables, not the industrial debt, would be the first place to look for stress."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 22.1x trailing earnings and 14.9x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $807.26; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Caterpillar trades at {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA, with a 4.5% free-cash-flow yield at 22.3x cash flow. The peer medians are 31.0x and 20.4x, so the shares sit at a clear discount even though the trailing operating margin is 18.8%, comfortably above Deere's 13.4%. That gap is the market's cyclical discount, and it has widened as the earnings base grew.",
+      "On consensus, FY2026 EPS of $27.03 puts the shares on about 20x and FY2027 EPS of $32.18 on about 17x. Those multiples are not demanding if the margin holds, and they are expensive if 18.8% is a peak. The distinction matters because the peer median of 31.0x is flattered by GE and Deere, both on more than 35x, while Deere earns a 13.4% operating margin. Caterpillar is cheaper than Deere on both earnings and EBITDA.",
+      "Normalised earnings are the right lens. If mid-cycle operating margin is in the high teens, the current 18.8% leaves little headroom and the discount is deserved. If data-centre and grid demand have lifted Energy & Transportation to a structurally higher level, the same multiple is cheap. The 52-week range of $508 to $1,100 and a one-year return of -1.1% show that the market has already marked the shares down once."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "26 analysts contribute to the third-party consensus. The mean target is $807.26, with a range of $575.00 to $1,027.00.",
-      "Current-year estimates call for $79.4B of revenue and $27.03 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 26 analysts with a mean target of $807.26; third-party estimates can change without notice."
+      "Yahoo Finance's survey, dated 18 November 2026, puts 26 analysts on Caterpillar with a mean target of $807 and estimates running from $575 to $1,000. The mean implies a substantial gap to the current price, which fits a market that expects the margin to hold rather than fade.",
+      "The estimate revisions are mildly negative: EPS is down 0.6% over 30 and 60 days and 0.1% over 90. That is a small move against a stock that has fallen 7.5% this year. The recent surprises have been positive, with the June quarter's $8.17 against a $6.20 estimate and September's $7.20 against $7.03, so the recent record is better than the revisions suggest. The dispersion is wide: $575 to $1,000 is a 74% spread."
     ]
   },
   "risks": {
@@ -147,5 +161,7 @@ export const CAT: StockStory = {
       "How much of Energy & Transportation revenue is tied to data-centre power demand?",
       "What would operating margin be in a year when machine volumes fall 15%?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

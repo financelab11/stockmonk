@@ -7,20 +7,20 @@ export const BROS: StockStory = {
   "dek": "The chain grew revenue 37.9% a year by opening stands and selling a lot of sugary drinks per visit. The interesting part is the swing from $128.0M of cash burn in FY2022 to $54.4M of free cash flow in FY2025.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $2B trailing twelve months, +30.7% year over year.",
-    "Profitability: 9.5% operating margin and 5.1% net margin.",
-    "Cash: $90.9M free cash flow, a 4.5% margin.",
-    "Scorecard: 48/100 average percentile across the factor screens."
+    "September-quarter revenue of $549.8M was 29.8% above $423.6M, and the operating margin held at 9.6%.",
+    "Free cash flow turned from -$128.0M in FY2022 to $90.9M trailing, with capex of $241.1M in FY2025 still absorbing most operating cash.",
+    "At 14.0x EBITDA the shares trade below the 21.5x peer median, the only consumer name in the group at a discount.",
+    "Consensus assumes 24.6% revenue growth and a 29.5% EPS increase in FY2027, with only 7.9% of revenue coming from franchising."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1866581/000186658126000006/bros-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001866581&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Dutch Bros Inc. generated $2B of revenue over the last twelve months, +30.7% versus the prior year. The model depends on unit growth, brand heat and whether new customers return.",
-      "The latest reported quarter was Q3 FY26, with $549.8M of revenue and an operating margin of 9.6%. The stock closed at $34.85 on 2026-11-17, giving a market capitalization of $4.8B.",
-      "The shares sit 4% of the way up their 52-week range ($33.17 to $74.02). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "The cash statement of $90.9M on $2.0B of trailing revenue is the number that changes the story. Four years ago the chain burned $128.0M in FY2022; in FY2025 it generated $54.4M. The September 2026 quarter produced $549.8M of revenue, up 29.8%, at a 9.6% operating margin, slightly below the 12.8% of the June quarter. The quarter matters because it shows the cash inflection holding while the margin gives back some of its peak.",
+      "Dutch Bros operates drive-through stands and sells a large share of cold, sweet, hand-built drinks. Company-operated shops supplied 92.1% of 2025 revenue and franchising 7.9%, so the model is retail rather than royalty. The drive-through format has a small footprint and a low build cost relative to a sit-down restaurant, but it depends on car traffic and a good corner. New markets outside the West are the test of whether that formula travels.",
+      "The equity is valued at $4.7B, or 46.3x earnings, 14.0x EBITDA and 2.4x sales, with $4.9M of net debt. That EBITDA multiple is below the 21.5x peer median and far below Cava's 40.2x, even though Dutch Bros earns a higher operating margin and a higher return on capital. The discount is the market's scepticism about new-market unit volumes, not about the existing chain. The gap is wide enough that one quarter of strong new-store volumes would change the relative valuation."
     ],
-    "quote": "Coffee is a habit business. The question is whether a new stand can build a morning routine fast enough to pay back its build cost before the next one opens."
+    "quote": "Dutch Bros has proved it can open stands and fill them; the open question is whether the next thousand are on corners as good as the first."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,46 @@ export const BROS: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 37.9% a year across the fiscal years in the dataset, and the latest quarter changed +29.8% year over year. Third-party estimates for the current fiscal year point to $2.1B of revenue and $0.92 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 9.5% and return on invested capital of 17.7% are the filters to watch as revenue scales."
+      "New stands are the growth engine, and the 30.7% trailing revenue increase is consistent with a unit count that is still climbing. Consensus expects $2.1B in FY2026, up 29.8%, and $2.6B in FY2027, up 24.6%. The forecast assumes the opening pace holds and that new markets mature at a similar rate to the existing ones. The file does not split revenue growth between new units and same-store sales, which is the first thing to establish.",
+      "The franchise share of 7.9% is small, so almost all of the capital spending sits on the company's balance sheet. That is why capex was $241.1M in FY2025 against $295.5M of operating cash flow. A higher franchise mix would lighten the capital burden and lift the margin, but it would also slow the rate at which the company captures a new market. The split is a capital-allocation choice, not an accident."
     ],
     "bullets": [
       {
-        "title": "New stand openings",
-        "detail": "The primary growth engine. Each stand adds revenue in its first year and matures over the following two to three."
+        "title": "New-market stands",
+        "detail": "The next cohort of openings is outside the West, where traffic patterns and coffee habits differ from the base."
       },
       {
         "title": "Same-store sales",
-        "detail": "Traffic and ticket growth at existing stands. The proof that the brand travels beyond its home region."
+        "detail": "Traffic at older stands is the test of whether growth is new units or a stronger existing base."
       },
       {
-        "title": "Food and non-drink menu",
-        "detail": "Food attach raises the average ticket and gives customers a reason to visit outside the morning daypart."
+        "title": "Franchise mix",
+        "detail": "Franchising is 7.9% of revenue and carries a much higher margin with far less capital."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 9.5%, the net margin is 5.1% and diluted EPS is $0.78. The latest quarter's operating margin was 9.6%.",
-      "Return on equity is 11.1%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $549.8M, an operating margin of 9.6% and a net margin of 4.9%."
+      "Operating leverage took the gross margin to 24.8% trailing from 25.9% in FY2025, but the fuller effect shows below the gross line: the operating margin was 9.5% trailing and 9.8% in FY2025, up from -0.4% in FY2022. Net margin was 5.1% trailing. A stand carries fixed occupancy and a minimum crew, so incremental volume drops through at a high rate once the unit matures. The September quarter's 9.6% is below June's 12.8%, which shows the leverage working in both directions.",
+      "Return on invested capital was 14.7% and return on equity 12.3%, the best in the restaurant pair; Cava earned 5.3% and 6.5%. The return is earned while the company is still building units, which is unusual: most chains dilute returns during a build-out. It also means the current return is not a mature-state figure. The peer median return on capital is 14.7%, so Dutch Bros is at the median while growing faster than the median."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $90.9M, a 4.5% margin. The balance sheet carries $64.2M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $90.9M over the last twelve months and net debt was -$64.2M; interest cover was n/a."
+      "The build programme consumed $241.1M of capex against $295.5M of operating cash flow in FY2025, leaving free cash flow of $54.4M. The trailing figure is $90.9M, a 4.5% margin. The quarterly path has been positive since the March 2025 quarter, when it was -$8.7M, and the June 2026 quarter produced $39.9M. The improvement came as older stands matured and the opening programme spread its fixed costs.",
+      "Net debt is $4.9M, or 0.0x EBITDA, so the balance sheet is effectively unlevered. The company pays no dividend. Capital allocation is therefore simple: operating cash flow funds new stands, and the surplus builds cash. The constraint is not liquidity but the number of good corners. If the opening pace accelerates beyond the cash flow, the company would have to choose between slower growth and new financing."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 47.1x trailing earnings and 14.1x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $55.04; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Dutch Bros trades at 14.0x EBITDA, a 35% discount to the 21.5x peer median, and at 2.4x sales it is half of Cava's 4.4x. The P/E of 46.3x is in line with the 47.6x median, because the company carries almost no debt and little depreciation relative to EBITDA. P/FCF is 51.9x and the free-cash-flow yield 1.9%, so the cash flow is still small relative to the value.",
+      "On FY2026 EPS of $0.92, the shares at $34 are valued at 37.0x; on FY2027's $1.19, 28.6x. The forecast assumes 24.6% revenue growth and a 29.5% EPS increase, so the multiple falls quickly if the openings continue. What would justify a re-rating is evidence that new markets earn the same volumes as the West; what would keep the discount is a cohort that opens below the base."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "26 analysts contribute to the third-party consensus. The mean target is $55.04, with a range of $29.00 to $79.00.",
-      "Current-year estimates call for $2.1B of revenue and $0.92 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 26 analysts with a mean target of $55.04; third-party estimates can change without notice."
+      "The 26 published estimates carry a mean target of $55 against a $34 price and a range of $29 to $79. The mean implies a 62% return, which is a wide gap for a company that has just turned cash-positive, and it reflects the market's doubt about the new-market cohort.",
+      "Revisions have been negative: -6.0% over 30 days and -5.6% over 60 and 90 days. The September quarter was in line at $0.25, after beats of $0.33 against $0.30 in June and $0.16 against $0.15 in March. The consensus FY2027 EPS of $1.19 assumes the margin holds near 10% while revenue grows 24.6%, which is the assumption the revisions are testing."
     ]
   },
   "risks": {
@@ -158,5 +155,7 @@ export const BROS: StockStory = {
       "Why is the market valuing a 30% grower at less than 1x sales?",
       "What share of the chain is franchised, and is that mix changing?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

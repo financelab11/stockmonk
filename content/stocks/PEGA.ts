@@ -7,20 +7,20 @@ export const PEGA: StockStory = {
   "dek": "Revenue grew 0.9% while free cash flow reached 25.3% of sales. The company is being valued as a cash generator, and the shift to cloud subscriptions explains why both numbers look the way they do.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $1.7B trailing twelve months, +0.9% year over year.",
-    "Profitability: 9.9% operating margin and -29.0% net margin.",
-    "Cash: $442.2M free cash flow, a 25.3% margin.",
-    "Scorecard: 60/100 average percentile across the factor screens."
+    "Revenue of $1.7B grew 0.9% while free cash flow reached $442.2M, or 25.3% of sales, on a 75.9% gross margin.",
+    "The December quarter produced $504.3M of revenue and a 20.7% operating margin; the September quarter produced $393.4M and 3.8%, so seasonality dominates any single period.",
+    "At 10.4x free cash flow and a 9.6% cash yield, the shares are priced as a mature cash generator, not as a software company growing 0.9%.",
+    "Analysts carry a $41 mean target against a $28 price after a 14.6% cut to 30-day EPS estimates and three consecutive quarterly misses."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1013857/000101385726000017/pega-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001013857&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Pegasystems Inc. generated $1.7B of revenue over the last twelve months, +0.9% versus the prior year. The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer.",
-      "The latest reported quarter was Q3 FY26, with $393.4M of revenue and an operating margin of 3.8%. The stock closed at $30.63 on 2026-11-17, giving a market capitalization of $5B.",
-      "The shares sit 14% of the way up their 52-week range ($25.10 to $63.26). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "December is the quarter that decides the year, and it flatters everything. The December 2025 quarter produced $504.3M of revenue and a 20.7% operating margin; the September 2026 quarter produced $393.4M and 3.8%. Licence deals close at the calendar year end, so a disproportionate share of profit lands in one period. Trailing revenue of $1.7B grew 0.9%, which is the number that survives the seasonality. A business judged on the September quarter would look far weaker than one judged on the year.",
+      "The installed base is large, regulated and slow to change. Banks and insurers re-platform a credit decision process rarely, and when they do the project runs for years, which is why maintenance revenue is extremely sticky and why new licence revenue is lumpy. The cloud subscription mix is the strategic variable: recurring revenue is worth more per dollar than a term licence, and services exist to embed the software deeply enough that the renewal happens.",
+      "The valuation argument is whether a cash-flow multiple can be trusted when the revenue line is flat. At 10.4x free cash flow and a 9.6% yield, the shares look cheap; at 22.9x EBITDA and 15.6x earnings, they look ordinary. The difference is that free cash flow benefits from annual billings and stock compensation, while EBITDA and earnings do not. A buyer has to decide which of those two descriptions is the better guide to the next five years."
     ],
-    "quote": "Enterprise workflow is bought once a decade and runs for two. That makes the installed base the asset and new logos a bonus."
+    "quote": "Pegasystems earns more cash than its growth deserves because its customers cannot easily leave, and the price reflects that rather than the next deal."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -51,35 +51,47 @@ export const PEGA: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 11.4% a year across the fiscal years in the dataset, and the latest quarter changed +3.1% year over year. Third-party estimates for the current fiscal year point to $1.8B of revenue and $2.11 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 9.9% and return on invested capital of 57.1% are the filters to watch as revenue scales."
+      "Cloud subscriptions are the only part of the mix that compounds, and the company does not disclose their share. What is visible is the consequence: total revenue grew 0.9% while free cash flow reached 25.3% of sales, which is what a business looks like when recurring maintenance and hosting replace lumpy licences. The strategic bet is that a higher recurring mix is worth a lower near-term growth rate. The reported line cannot yet prove it.",
+      "The estimates assume a modest recovery rather than a return to growth. FY2026 revenue is modelled at $1.8B, up 2.4%, and FY2027 at $1.9B, up 6.3%, with EPS of $2.11 and $2.37. That is a company expected to grow at roughly the rate of its own maintenance base. The December quarter is modelled at $543.4M, up 7.8%, which is the seasonal peak and the test of whether the licence pipeline still exists."
+    ],
+    "bullets": [
+      {
+        "title": "Decisioning engine",
+        "detail": "The next-best-action engine is the differentiated part of the platform; the low-code tool is table stakes and the industry templates are how the sale starts."
+      },
+      {
+        "title": "Maintenance annuity",
+        "detail": "Maintenance is the highest-margin revenue and the stickiest, but it shrinks as customers migrate to cloud subscriptions, so the mix shift costs revenue before it adds it."
+      },
+      {
+        "title": "Services drag",
+        "detail": "Implementation and consulting are priced close to cost and scale with headcount, which is why a 75.9% gross margin sits below a pure subscription business."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 9.9%, the net margin is -29.0% and diluted EPS is $1.61. The latest quarter's operating margin was 3.8%.",
-      "Return on equity is -92.4%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $393.4M, an operating margin of 3.8% and a net margin of 3.6%."
+      "Seasonality, not deterioration, explains the quarterly margin. The December 2025 quarter ran a 20.7% operating margin, the March 2026 quarter 8.6%, June 4.0% and September 3.8%. Trailing operating margin is 9.9% and net margin 16.9%, and the seven-point gap between them is the tell that something below the operating line is doing work. The reported figures do not split it out, so the net margin should not be used as a measure of trading profitability.",
+      "The annual record is one of margin expansion on slow revenue. Operating margin went from 5.7% in FY2023 to 8.3%, 15.1% and 9.9% trailing; net margin from 4.7% to 22.5% and 16.9%. Return on invested capital of 31.5% and return on equity of 53.7% are the best in the peer group by a wide margin, against a median of -2.0% on capital. That is what a mature licence business with a small equity base looks like, and it is not a growth signature."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $442.2M, a 25.3% margin. The balance sheet carries $309.7M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $442.2M over the last twelve months and net debt was -$309.7M; interest cover was n/a."
+      "Cash conversion at Pegasystems is the whole investment case. Free cash flow of $442.2M is 25.3% of revenue and roughly two and a half times operating profit, because annual billings arrive before revenue is recognised and because a meaningful share of compensation is paid in stock. Capex is $14.5M, under 1% of revenue. The cash is real; the question is whether it is repeatable at this level.",
+      "The balance sheet carries $309.7M more cash than debt, and the 0.4% dividend is the only capital return visible in the reported figures. There is no buyback in the numbers. At 10.4x free cash flow the market is capitalising the cash stream at a discount to peers, which is what happens when the top line is flat: the buyer does not trust the next five years of billings to look like the last five."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and 25.2x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $41.00; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Ten times free cash flow is a low multiple for a business with a 9.9% operating margin and a 31.5% return on capital, and it is low for a reason. The peer set makes the trade explicit: Tenable's 9.5% growth comes with a 4.4% operating margin, Elastic's 16.2% with -2.6%, GitLab's 23.0% with -8.5%, Rubrik's 42.4% with -18.3%. Pegasystems has the highest operating margin and the slowest growth of the five, and the cash multiple is the market's price for the second fact.",
+      "On earnings the shares are at 15.6x, against a peer median of 140.2x that is distorted by loss-makers and one-off gains. The more useful comparison is EV/EBITDA of 22.9x versus a 126.4x median, and P/E of 15.6x against 301.5x for Tenable and 23.1x for Elastic. Pegasystems is cheaper than every growing peer on every measure, and the discount is the market's price for stagnation.",
+      "What would justify a re-rating is evidence that the cloud mix has reached the point where recurring revenue grows again. The December quarter, at a modelled $543.4M, is the first test. What would break the current price is a year in which free cash flow falls below $300M, because at 10.4x the multiple leaves little room for a cash disappointment and the 0.4% dividend offers no support."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "7 analysts contribute to the third-party consensus. The mean target is $41.00, with a range of $35.00 to $50.00.",
-      "Current-year estimates call for $1.8B of revenue and $2.11 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 7 analysts with a mean target of $41; third-party estimates can change without notice."
+      "The $41 mean target sits 46% above the $28 price, among the widest gaps in the group relative to the current price, with a range of $35 to $50. A dispersion that wide on a stock that has fallen 48.1% in a year is a sign that the published targets have not caught up with the price.",
+      "Estimates have been cut hard. The 30-day EPS revision is -14.6%, the 90-day -14.2%, and the last three quarters missed: $0.46 against $0.69, $0.35 against $0.43 and $0.35 against $0.46. FY2026 EPS of $2.11 implies 0.3% growth, which is the consensus admitting that the margin story has run out of cost to cut. The 2027 figure of $2.37 assumes 12.7% growth and a return to licence bookings."
     ]
   },
   "risks": {
@@ -143,5 +155,7 @@ export const PEGA: StockStory = {
       "How concentrated is revenue in the ten largest customers?",
       "What is the company doing with $442.2M of annual free cash flow?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

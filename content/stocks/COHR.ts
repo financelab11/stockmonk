@@ -7,20 +7,20 @@ export const COHR: StockStory = {
   "dek": "Operating income of $847.7M and free cash flow of negative $1.83B in the same year. The gap is capacity, and it decides whether the growth is worth having.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $7.9B trailing twelve months, +30.8% year over year.",
-    "Profitability: 12.5% operating margin and 12.1% net margin.",
-    "Cash: -$1.8B free cash flow, a -23.2% margin.",
-    "Scorecard: 46/100 average percentile across the factor screens."
+    "Datacenter and Communications is 74.1% of segment revenue, which is why a 30.8% revenue increase lifted the operating margin from a loss to 15.1%.",
+    "FY2026 capex of $1.1B against $79.5M of operating cash flow produced negative $1.0B of free cash flow, and the September quarter alone consumed $868.2M.",
+    "At 44.7x earnings and 36.0x EBITDA, Coherent trades near the peer median while earning 6.2% on invested capital, below Lumentum's 9.5%.",
+    "Analysts raised EPS estimates 24.2% in ninety days and expect $11.2B of revenue this fiscal year, 57% above the trailing figure."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000020/iivi-20260630.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000820318&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "COHERENT INC. generated $7.9B of revenue over the last twelve months, +30.8% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
-      "The latest reported quarter was Q1 FY27, with $2.4B of revenue and an operating margin of 15.1%. The stock closed at $210.86 on 2026-11-17, giving a market capitalization of $41.5B.",
-      "The shares sit 26% of the way up their 52-week range ($130.42 to $440.00). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Three quarters of revenue now comes from datacenter and communications, and the concentration explains the shape of the latest quarter: $2.4B of revenue, a 15.1% operating margin and $1.90 of EPS, against $1.6B and 13.7% a year earlier. The industrial segment, at 25.9%, is the slower half and the one tied to factory investment. Coherent is therefore two businesses with one reported revenue line and very different demand cycles. The capital needs differ just as sharply, and that is the part the consolidated accounts obscure.",
+      "Compound semiconductor manufacturing is the common thread. Growing crystal structures layer by layer, processing them in clean rooms and learning yields over years is why the supply base is small and why capacity cannot be conjured by a new entrant with capital. That is also why the company is spending: a laser fab takes years to fill and cannot be switched off cheaply, so the decision to build has to be made before the orders are visible.",
+      "The bill for that decision is visible in the cash flow. Free cash flow was negative $1.8B over the trailing period, a 23.2% deficit against revenue, while operating income was positive. The shares at 36.0x EBITDA and 5.7x sales are priced for the capacity to be absorbed. The debate is not whether optical demand exists; it is whether this capacity arrives into demand or into a pause, and the depreciation lands either way."
     ],
-    "quote": "In a component shortage, the winning move is to add capacity before the orders arrive. That is also the move that turns a profitable year into a cash-consuming one."
+    "quote": "Coherent is buying market position with factory capacity, and the return on that capital will be settled by the next two years of optical demand."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,50 @@ export const COHR: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 34.0% a year across the fiscal years in the dataset, and the latest quarter changed +49.9% year over year. Third-party estimates for the current fiscal year point to $11.2B of revenue and $10.41 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 12.5% and return on invested capital of 82.9% are the filters to watch as revenue scales."
+      "The gap between $7.9B of trailing revenue and an $11.2B estimate for the fiscal year ending June 2027 is the growth question in one line. The estimate implies 56.9% growth, and the following year is put at $15.6B, another 39.9%. Those numbers require the datacenter segment, already 74.1% of the mix, to keep compounding at a rate the industrial businesses cannot match, while the capacity being added is qualified and absorbed.",
+      "Datacom demand is a function of cluster size and line rates: more accelerators mean more links, and faster links mean more optical content per connection. The constraint sits with the transceiver makers, who qualify laser suppliers over quarters and can dual-source once a design is proven. Coherent's answer is capacity and a broader portfolio than a pure component maker, spanning lasers, modules and subsystems that reach further into the bill of materials.",
+      "Industrial lasers are the offset. Cutting, welding, marking and additive manufacturing follow factory investment, and that cycle was weak enough in FY2024 to pull total revenue down 8.8%. A recovery there would add revenue at a lower gross margin than datacom; a slowdown would offset the AI growth and make the $15.6B estimate look remote. The mix, rather than the total, decides whether the operating margin keeps climbing."
+    ],
+    "bullets": [
+      {
+        "title": "Datacenter mix",
+        "detail": "At 74.1% of segment revenue, datacom now sets the growth rate and the margin, for better and worse."
+      },
+      {
+        "title": "Qualification cycles",
+        "detail": "Transceiver makers test laser suppliers for quarters before design-in, which slows share gains but also protects them once won."
+      },
+      {
+        "title": "Industrial recovery",
+        "detail": "The 25.9% industrial segment follows factory capex, and its weakness in FY2024 cut group revenue by 8.8%."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 12.5%, the net margin is 12.1% and diluted EPS is $4.83. The latest quarter's operating margin was 15.1%.",
-      "Return on equity is 102.3%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q1 FY27: revenue of $2.4B, an operating margin of 15.1% and a net margin of 16.2%."
+      "Depreciation is the cost line that explains the margin path. Gross margin rose to 38.2% trailing from 30.9% in FY2024, and operating margin to 12.5% from negative 3.1%, as revenue grew 30.8% over a fixed fab base. The incremental gross profit was large because the plants were already built and the depreciation was already running. That is why an 8.8% revenue decline in FY2024 produced a loss and a 30.8% increase now produces a double-digit margin.",
+      "The quarterly sequence shows the leverage and its limits: 13.7% in the September 2025 quarter, 10.0% in December, 10.2% in March, 13.6% in June and 15.1% in September 2026. Revenue rose every quarter, but the margin stalled for two of them, which is what a mix shift toward assembled modules would look like. Net margin of 12.1% and EPS of $4.12 follow the operating line closely, so there is no large non-operating item to unwind.",
+      "Return on invested capital of 6.2% is the weak point. Lumentum earns 9.5% on a smaller asset base, and Comfort Systems earns 48.1% with almost no capital. Coherent's 6.2% is below the 12.2% peer median and below any reasonable cost of capital, which means the current expansion has to lift returns, not just revenue, to be worth the cash it consumes."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$1.8B, a -23.2% margin. Net debt is $9.1M.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$1.8B over the last twelve months and net debt was $9.1M; interest cover was n/a."
+      "Working capital, not capital expenditure alone, explains the size of the deficit. FY2026 operating cash flow was $79.5M against $1.1B of capex, and the trailing deficit reached $1.8B as receivables and inventory grew faster than the revenue they support. A business shipping $2.4B a quarter needs inventory in the channel before the invoice is issued, and that inventory is cash that has already left the company.",
+      "A year earlier the same company generated $192.8M of free cash flow on $5.8B of revenue. The difference is not profitability; it is the decision to add capacity before demand is billed. The September quarter consumed $868.2M, nearly as much as the whole of FY2026, which suggests the spending programme accelerated rather than peaked, and the depreciation that follows will arrive on a lag.",
+      "Leverage is modest relative to the operating base, but the filings do not report interest cover, so the cost of the debt used to bridge the build cannot be assessed from these figures. No dividend is paid. Capital allocation is therefore a single decision: keep funding capacity until the cash flow turns, or slow the build and protect the margin that the industrial business still needs."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 43.4x trailing earnings and 33.1x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $371.92; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Coherent's 44.7x earnings and 36.0x EBITDA sit close to the 36.6x and 36.0x peer medians, a rare thing in a group where the optical names trade at 44x to 49x EBITDA. EV/Sales of 5.7x is less than half Lumentum's 13.4x, which reflects a larger, slower industrial base and a lower gross margin. The discount to Lumentum is therefore a mix discount, not a quality discount, and it is the main reason the multiple sits below Lumentum's.",
+      "On the estimates, FY2027 EPS of $10.41 puts the shares at about 21x and FY2028 EPS of $15.79 at about 14x. Those are undemanding multiples for 57% revenue growth, provided the growth converts into cash. The problem is that the same estimates sit alongside negative $1.8B of trailing free cash flow, so the forward multiple is a claim on future cash that the current capex is designed to produce.",
+      "Justifying 36.0x EBITDA requires the capacity to earn a return above its cost, which means operating margin moving beyond the 15.1% just reported rather than merely holding it. Breaking it requires either a pause in datacom orders or a further year of negative free cash flow that forces the funding question. The 6.2% ROIC is the number that says the first outcome has not yet happened."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "25 analysts contribute to the third-party consensus. The mean target is $371.92, with a range of $228.00 to $524.96.",
-      "Current-year estimates call for $11.2B of revenue and $10.41 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 25 analysts with a mean target of $371.92; third-party estimates can change without notice."
+      "Twenty-five analysts cover the shares, with a mean target of $372 against a $218 price and a range of $228 to $525. The low end of the target range sits above the current price, so the disagreement is about the size of the upside rather than its direction, and the mean implies a re-rating rather than a recovery.",
+      "Revisions have been strongly positive: FY2027 EPS estimates rose 24.2% over ninety days and 10.5% over thirty, and the last four quarters beat the published figures, most recently $2.09 against $1.97. The estimates assume $11.2B of revenue this fiscal year and $15.6B next, with EPS of $10.41 and $15.79. The consensus is, in effect, a capacity-absorption forecast, and the free cash flow line is where it will be tested."
     ]
   },
   "risks": {
@@ -144,5 +159,7 @@ export const COHR: StockStory = {
       "Why do the reported EPS and the published P/E point to different prices?",
       "If optical demand pauses for two quarters, how much of the new capacity sits idle?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

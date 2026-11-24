@@ -7,19 +7,20 @@ export const MRK: StockStory = {
   "dek": "A trailing P/E of 147.5x and an EV/EBITDA of 43.1x are both distorted by charges that run through operating income. The same company trades at 24.5x free cash flow.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $67.4B trailing twelve months, +4.9% year over year.",
-    "Profitability: 7.1% operating margin and 3.6% net margin.",
-    "Cash: $14.7B free cash flow, a 21.9% margin.",
-    "Scorecard: 38/100 average percentile across the factor screens."
+    "A 7.1% trailing operating margin carries two loss-making quarters and one 30.7% quarter, which is why earnings multiples mislead.",
+    "Free cash flow of $14.7B is 21.9% of revenue and more than six times the $0.98 of trailing EPS, which is the clearest measure of the business.",
+    "Net debt is $46.6B, or 5.7x EBITDA, with interest cover of 2.4x, the most levered balance sheet among the large pharmaceutical names here.",
+    "At 22.6x free cash flow the shares are the cheapest large-cap pharmaceutical on cash, while 135.8x earnings and 46.5x EBITDA are artefacts of charges."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000063/mrk-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000310158&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Merck & Co., Inc. generated $67.4B of revenue over the last twelve months, +4.9% versus the prior year. The franchise depends on clinical evidence, reimbursement and the duration of patent protection.",
-      "The latest reported quarter was Q3 FY26, with $18.1B of revenue and an operating margin of 30.7%. The stock closed at $143.37 on 2026-11-17, giving a market capitalization of $353.4B.",
-      "The shares sit 79% of the way up their 52-week range ($92.11 to $156.92). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
-    ]
+      "Two loss-making quarters and one 30.7% quarter: that is the shape of Merck's last year. September revenue rose 4.6% to $18.1B and EPS was $2.04, a recovery from the -21.7% and -4.1% operating margins of the first two quarters, when losses were $1.72 and $0.54 a share. The business did not move from a loss to a 30% margin in six months; the charges did. That pattern is the defining feature of the reported numbers and the main obstacle to a simple multiple.",
+      "The portfolio is 89.4% pharmaceutical, 9.8% animal health and 0.8% corporate. Oncology is the profit centre, concentrated in one immunotherapy used across many tumour types, which diversifies the revenue by indication but not by molecule. Vaccines are the second pillar and behave differently: they are bought in bulk by public programmes and are stickier once a country's schedule includes a product, but they are exposed to a single market's policy decisions. Animal health adds a steadier, consumer-like line.",
+      "The valuation debate is which denominator to trust. The trailing P/E of 135.8x and EV/EBITDA of 46.5x are calculated on earnings depressed by acquired research charges. Free cash flow of $14.7B values the shares at 22.6x, below AbbVie's 26.9x and J&J's 31.7x. If the charges are genuinely one-off, the cash multiple is the right one. If they are the recurring cost of refilling the pipeline, the earnings multiple is telling the truth."
+    ],
+    "quote": "Merck's income statement reports the cost of buying a pipeline; its cash-flow statement reports the profit from selling one."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -55,49 +56,50 @@ export const MRK: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.8% a year across the fiscal years in the dataset, and the latest quarter changed +4.7% year over year. Third-party estimates for the current fiscal year point to $67.2B of revenue and $2.79 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 7.1% and return on invested capital of 3.2% are the filters to watch as revenue scales."
+      "Revenue has moved from $59.3B in FY2022 to $67.4B on a trailing basis, through $60.1B, $64.2B and $65.0B in FY2025. The growth rate has been 1.4%, 6.7%, 1.3% and 4.9%, a narrow range that describes a mature pharmaceutical portfolio rather than a growth company. The September quarter grew 4.6%, in line with the trailing rate. Consensus revenue of $67.2B for 2026 and $69.5B for 2027 implies 3.4% then 3.3%.",
+      "The growth is concentrated. Oncology is the largest franchise and depends on one molecule used across many indications, so the revenue is diversified by tumour type but not by patent. Vaccines add a second pillar with public-programme demand and a different pricing mechanism. Animal health is 9.8% and grows with pet and livestock spending. The replacement burden therefore falls on the pipeline rather than on the existing non-oncology lines.",
+      "Durability is the whole question. The largest franchise loses exclusivity later this decade, and when that happens revenue does not decline gradually: biosimilar competition typically takes most of the volume within a few years. The replacement portfolio has to be approved and scaled before then. The consensus 3.3% growth for 2027 does not look like a patent-cliff forecast, which means it assumes the transition is manageable."
     ],
     "bullets": [
       {
-        "title": "New oncology indications",
-        "detail": "Extending the existing immunotherapy into earlier stages of cancer adds revenue without a new molecule."
+        "title": "Oncology concentration",
+        "detail": "One immunotherapy across many tumour types diversifies the indications but not the patent. The exclusivity date is the largest single risk in the portfolio."
       },
       {
-        "title": "Vaccine programmes",
-        "detail": "Public immunisation schedules create durable revenue, but demand can be lumpy and policy-dependent."
+        "title": "Vaccine demand",
+        "detail": "HPV, paediatric and pneumococcal products are bought by public programmes. A policy change or a weak immunisation season moves the line sharply."
       },
       {
-        "title": "Post-expiry transition",
-        "detail": "A subcutaneous formulation and combination patents are ways to keep patients on a franchise after the core patent ends."
+        "title": "Charge recurrence",
+        "detail": "Acquired research expense runs through operating income. The first half of 2026 showed how quickly it can turn a profitable year into losses."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 7.1%, the net margin is 3.6% and diluted EPS is $0.98. The latest quarter's operating margin was 30.7%.",
-      "Return on equity is 1.9%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $18.1B, an operating margin of 30.7% and a net margin of 28.0%."
+      "The 71.8% gross margin reaches the net line at 3.6% because a 7.1% operating margin absorbs the charges, a spread that cannot be explained by manufacturing or pricing. The gross margin is intact; the operating line carries the charges. Operating margin was 32.4% in FY2025, -21.7% in March 2026, -4.1% in June and 30.7% in September. The fourth quarter of FY2025 was 20.9%, so the range over four quarters is more than 50 points.",
+      "The annual record shows the same pattern at a lower frequency. Operating margin was 27.7% in FY2022, 3.1% in FY2023 and 31.1% in FY2024 before 32.4% in FY2025. EPS went from $5.71 to $0.14 to $6.74 and $7.28. The FY2023 trough was a charge year; the recovery was immediate. That is the strongest argument that the current losses are accounting rather than economic.",
+      "Returns are depressed by the same charges. ROIC is 2.4% against a 12.2% peer median, and ROE is 5.5%. On the FY2025 base, ROIC was 19.2%, which is a better representation of the underlying business. The gap between 2.4% and 19.2% is the charge, not a change in the return on the oncology franchise. That makes the trailing return a poor input for any valuation."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $14.7B, a 21.9% margin. The balance sheet carries $9.7B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $14.7B over the last twelve months and net debt was -$9.7B; interest cover was n/a."
+      "Merck generated $14.7B of free cash flow over the trailing year, 21.9% of revenue, against $12.4B in FY2025. Capital expenditure was $4.1B, or 6.1% of revenue, the highest among the large pharmaceutical peers here. The conversion is strong because the charges are non-cash: net income was about $2.4B against $14.7B of free cash flow, a gap that is almost entirely the acquired research expense.",
+      "The quarterly path is uneven but improving. Free cash flow was $2.9B in March 2026, $4.5B in June and $5.5B in September, against $1.2B, $2.5B and $6.8B a year earlier. The September quarter was weaker year over year, but the first half was stronger, and the trailing figure is above FY2025. For a business with a 6.1% capex ratio, the cash line is a better guide than the income statement.",
+      "Net debt is $46.6B, or 5.7x EBITDA, with interest cover of 2.4x. That is the tightest balance sheet in this group: AbbVie is at 2.8x, Abbott at 3.3x and J&J at 1.1x. The dividend costs about $8.7B at the 2.6% yield, which is roughly 59% of free cash flow. Debt has risen from $25.6B at FY2024 to $36.4B at FY2025 and $46.6B on a trailing basis, so the dividend and whatever deals consumed the rest are being funded partly with leverage."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 144.1x trailing earnings and 42.1x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $161.53; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Three multiples tell three different stories about Merck: 135.8x trailing earnings, 46.5x EBITDA and 22.6x free cash flow, with a 4.4% free-cash-flow yield. The earnings and EBITDA multiples are the highest in this healthcare group by a wide margin; the free-cash-flow multiple is the lowest among the large pharmaceutical names. That divergence is the valuation, and it is wider than at any other large pharmaceutical here.",
+      "The cash multiple is the coherent one. Merck generates $14.7B of free cash flow on $67.4B of revenue, a 21.9% margin, and the shares capitalise that at 22.6x. AbbVie is at 26.9x, J&J at 31.7x and Thermo Fisher at 33.6x, so Merck is the cheapest large-cap pharmaceutical on cash despite a 5.7x leverage ratio. The market is not ignoring the cash flow; it is discounting the patent cliff that the cash flow will face.",
+      "Evidence that the replacement pipeline is larger than the revenue at risk would justify a re-rating. What would break the current price is a faster-than-expected loss of oncology exclusivity, which would hit both the cash flow and the dividend. At 22.6x free cash flow, the market is already assuming a decline; the question is whether it has assumed the right size."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "26 analysts contribute to the third-party consensus. The mean target is $161.53, with a range of $105.00 to $186.00.",
-      "Current-year estimates call for $67.2B of revenue and $2.79 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 26 analysts with a mean target of $161.53; third-party estimates can change without notice."
+      "The Yahoo Finance data from 18 November 2026 covers 26 analysts at a mean target of $162, within a range of $105 to $186. The tone is positive, with a neutral block and no cautious voices. The mean is 20% above the $135 share price, and the low end is 22% below it, a spread that reflects the patent debate rather than near-term earnings.",
+      "For 2026 the consensus has $67.2B of revenue and $2.79 of EPS, then $69.5B and $8.96 for 2027. The 2027 figure is more than three times the 2026 number, which is the consensus saying that the acquired research charges stop. Revenue growth is 3.4% then 3.3%, so the entire earnings recovery is a margin assumption, not a revenue one. Revisions are positive over 30 days, at 5.0%, which suggests the September quarter improved confidence in that assumption."
     ]
   },
   "risks": {
@@ -161,5 +163,7 @@ export const MRK: StockStory = {
       "How much of the replacement revenue is already approved versus still in trials?",
       "What happens to the dividend if oncology revenue falls by half?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

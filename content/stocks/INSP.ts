@@ -7,20 +7,20 @@ export const INSP: StockStory = {
   "dek": "A surgically implanted nerve stimulator treats obstructive sleep apnoea, but every procedure depends on a diagnosis, a referral and a trained surgeon. Revenue has stopped growing, and the estimates now assume a down year.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $880.9M trailing twelve months, -0.2% year over year.",
-    "Profitability: 1.8% operating margin and 11.4% net margin.",
-    "Cash: $97.9M free cash flow, a 11.1% margin.",
-    "Scorecard: 50/100 average percentile across the factor screens."
+    "Revenue of $880.9M is 0.2% lower year on year, and the December estimate assumes a 9.4% decline, so the growth model has reversed.",
+    "Gross margin of 86.2% produced a 1.8% operating margin and a -13.9% margin in September, the cost of a fixed field organisation against flat procedures.",
+    "Free cash flow of $97.9M is 11.1% of revenue and net cash is $453.1M, so the balance sheet is not the constraint on the share price.",
+    "Sixteen analysts average $69 against a $54 price with eleven neutral views, and the $45 low target assumes the current procedure rate persists."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1609550/000160955026000016/insp-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001609550&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Inspire Medical Systems, Inc. generated $880.9M of revenue over the last twelve months, -0.2% versus the prior year. The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue.",
-      "The latest reported quarter was Q3 FY26, with $206.7M of revenue and an operating margin of -13.9%. The stock closed at $59.41 on 2026-11-17, giving a market capitalization of $1.7B.",
-      "The shares sit 19% of the way up their 52-week range ($38.91 to $147.03). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "A negative 13.9% operating margin in the September quarter is the deepest operating loss in the series, and it came on revenue of $206.7M that was 7.9% lower than the year-earlier $224.5M. Gross margin barely moved at 86.2%, so the loss is not a product problem; it is the field sales force, clinical support and training organisation running against fewer implants. EPS of -$0.84 is how quickly the operating leverage reverses.",
+      "Inspire is paid per implant, and every implant depends on a chain the company does not control: a sleep study, a diagnosis, a referral from a sleep physician, a trained surgeon and an accredited centre. The device is approved, reimbursed and clinically established. What has changed is the volume reaching the procedure, and active centre counts or referral trends are not disclosed, so the cause is inferred from the revenue line.",
+      "The market value is $1.6B, 15.5x trailing earnings and 1.3x sales, the lowest sales multiple in the medtech group. The P/E is misleading: trailing EPS includes the December 2025 quarter's 50.6% net margin, and on the 2026 estimate of $1.30 the multiple is 41.5x. The sales multiple is the honest one, and 1.3x for an 86.2% gross margin device with positive cash flow is a price for stagnation, not for recovery."
     ],
-    "quote": "A sleep apnoea implant is sold three times before it reaches a patient: to the doctor who diagnoses, to the surgeon who implants, and to the payer who covers it."
+    "quote": "Inspire's implant is approved and reimbursed; the constraint is the sleep study, the referral and the surgeon, and revenue has stopped growing because that chain has."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,50 @@ export const INSP: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 49.4% a year across the fiscal years in the dataset, and the latest quarter changed -7.9% year over year. Third-party estimates for the current fiscal year point to $855.4M of revenue and $1.30 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 1.8% and return on invested capital of 2.5% are the filters to watch as revenue scales."
+      "The referral funnel is the growth model, and it has stopped producing. Revenue grew from $407.9M in FY2022 to $802.8M in FY2024, then 13.6% in FY2025, then -0.2% trailing. A device that depends on sleep physicians identifying patients and surgeons agreeing to implant them grows only as fast as the network of accredited centres and trained physicians expands. That network's size is not disclosed, which is why the deceleration appeared in revenue before it appeared in any operating metric.",
+      "Consensus assumes $855.4M of revenue in 2026, a 6.2% decline, and $877.8M in 2027, 2.6% growth, with EPS falling 46.2% and then rising 14.9%. A down year followed by a flat one is not a recovery forecast; it is an assumption that the current procedure rate persists. The upward revision of 4.1% over thirty days is modest and sits against a share price 54.1% lower over twelve months.",
+      "The durability question is whether the pause is cyclical or structural. GLP-1 drugs, oral appliances and CPAP all compete for the same patients, and a cheaper or less invasive option shrinks the pool before Inspire sees a referral. Against that, implanted patients need programming and follow-up, which is recurring revenue the company does not break out. The mix between new implants and follow-up is the number that would settle it."
     ],
     "bullets": [
       {
-        "title": "Centre penetration",
-        "detail": "More procedures at existing accredited centres, rather than more centres, is the cheapest source of growth."
+        "title": "Referral volume",
+        "detail": "Every implant requires a diagnosis, a referral and a trained surgeon, and none of those is under the company's control."
       },
       {
-        "title": "Diagnosis and referral",
-        "detail": "The upstream bottleneck. Better screening and sleep-physician relationships would expand the funnel."
+        "title": "Fixed field cost",
+        "detail": "The sales and clinical support organisation is sized for growth, so flat procedures turn an 86.2% gross margin into a negative operating margin."
       },
       {
-        "title": "International",
-        "detail": "Europe and Japan add patients but require local reimbursement and partner management."
+        "title": "Competitive alternatives",
+        "detail": "CPAP, oral appliances, weight-loss drugs and other neurostimulation devices compete for the same patients, and a shift in referral patterns shows up as lower procedure volume."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 1.8%, the net margin is 11.4% and diluted EPS is $3.36. The latest quarter's operating margin was -13.9%.",
-      "Return on equity is 12.2%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $206.7M, an operating margin of -13.9% and a net margin of -11.8%."
+      "Gross margin barely moved; operating expense did. Gross margin was 85.4% in FY2025 and 86.2% trailing, a move of less than a point, while operating margin went from 5.6% to 1.8% and then to -13.9% in September. Net margin was 15.9%, 11.4% and -11.8% over the same periods, wider swings than the operating line because interest income on $453.1M of net cash and a low tax charge sit below it.",
+      "FY2025 net margin of 15.9% against a 5.6% operating margin is the clearest example. The December 2025 quarter alone had a 50.6% net margin and $4.58 of EPS, which is not a sustainable operating result for a device company selling implants. Trailing EPS of $4.89 therefore overstates earning power, and the 2026 estimate of $1.30 is the correction. A reader comparing the trailing multiple with the forward one is comparing two different businesses.",
+      "Return on invested capital of 1.9% is the honest measure of current operating performance, and it is below any reasonable cost of capital. Return on equity of 12.2% is higher because net interest income on the cash balance contributes and because the equity base is small relative to revenue. The comparison with Penumbra, at 9.0% on invested capital and a 12.1% operating margin, shows how much of the return here is financial rather than operating."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $97.9M, a 11.1% margin. The balance sheet carries $328M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $97.9M over the last twelve months and net debt was -$328M; interest cover was n/a."
+      "Positive free cash flow of $97.9M, 11.1% of revenue, in a year when operating margin was 1.8%, is the surprise in the accounts. The September quarter produced $38.9M even as the operating margin went negative, which points to working capital, lower inventory and receivables as revenue fell, rather than to operating profit. That is a one-time source, not a recurring one.",
+      "Net cash of $453.1M is 13.2x negative EBITDA, which is another way of saying EBITDA is close to zero. Interest cover of 129.2x reflects interest income rather than operating profit. The balance sheet gives the company years to fix the funnel, and it is the reason the shares trade on sales rather than on earnings. It does not, however, create demand for implants, and that distinction is the whole problem.",
+      "No dividend is paid and the cash has been retained. The absence of debt means the company can fund clinical programmes and international expansion without dilution, but it also means the cash earns a low return inside the business. At 1.3x sales, the market value is only about 3.5x the net cash, which is how little the market is currently paying for the franchise."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 17.1x trailing earnings and 40.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $69.38; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "A 1.3x sales multiple is the number that matters, because the earnings multiples are distorted by the December 2025 tax-affected quarter. Insulet trades at 3.0x, TransMedics at 3.7x and Penumbra at 7.7x. The discount is not about the product, which carries an 86.2% gross margin; it is about a revenue line that has stopped growing, and about a fixed cost base that turns a modest shortfall into a loss.",
+      "The 15.5x trailing P/E looks cheap until the composition is examined. Trailing EPS includes $4.58 from the December 2025 quarter, and on the 2026 estimate of $1.30 the multiple is 41.5x. EV/EBITDA of 32.1x is the other extreme, because EBITDA is almost zero. Neither ratio is useful; the sales multiple and the 6.3% free cash flow yield describe the business as it currently operates.",
+      "What would justify a re-rating is evidence that procedure volumes have bottomed, and a quarter or two of sequential revenue growth would do more than any cost programme. What would break the current price is another year of decline, because the fixed field organisation would keep producing losses and the net cash, while substantial, is only 28% of the market value."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "16 analysts contribute to the third-party consensus. The mean target is $69.38, with a range of $45.00 to $93.00.",
-      "Current-year estimates call for $855.4M of revenue and $1.30 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 16 analysts with a mean target of $69.38; third-party estimates can change without notice."
+      "Eleven of sixteen analysts are neutral, and the mean target of $69 is 28% above the $54 price. The $45 low target is 17% below the price, and the $93 high is 72% above it, a distribution that says the analysts are waiting for evidence rather than forecasting a recovery.",
+      "Estimates have been raised 4.1% over thirty days even as the 2026 revenue estimate implies a 6.2% decline, which is a cost-led revision rather than a demand-led one. The last four quarters all beat the consensus figure, but the beats came from expense control rather than revenue. The consensus assumes the revenue line troughs in 2026 and returns to 2.6% growth in 2027; the target range tests how much that recovery is worth."
     ]
   },
   "risks": {
@@ -158,5 +159,7 @@ export const INSP: StockStory = {
       "Is the Q3 FY26 loss a seasonal effect or a permanent cost problem?",
       "How much of the $855.4M estimate depends on the fourth quarter?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const CSCO: StockStory = {
   "dek": "Switches and routers are the entry point; software, security and support are the annuity. The installed base explains a 64.5% gross margin, and the consensus growth rate is the number that needs explaining.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $63.3B trailing twelve months, +11.8% year over year.",
-    "Profitability: 24.3% operating margin and 21.0% net margin.",
-    "Cash: $12.8B free cash flow, a 20.2% margin.",
-    "Scorecard: 52/100 average percentile across the factor screens."
+    "FY2026 revenue was $63.3B, up 11.8%, with a 24.3% operating margin and $12.8B of free cash flow.",
+    "The July quarter delivered $17.3B, up from $14.7B, and the operating margin held at 24.7%.",
+    "Consensus expects FY2027 revenue of $75.2B, up 18.8%, far above the 4-5% pace of the prior four years.",
+    "At 28.7x earnings the shares sit below the 32.0x peer median despite the fastest growth in the record."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000858877&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "CISCO SYSTEMS, INC. generated $63.3B of revenue over the last twelve months, +11.8% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
-      "The latest reported quarter was Q4 FY26, with $17.3B of revenue and an operating margin of 24.7%. The stock closed at $95.11 on 2026-11-17, giving a market capitalization of $374.4B.",
-      "The shares sit 39% of the way up their 52-week range ($72.80 to $130.37). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Cisco's fiscal 2026 was the fastest growth year in the record. Revenue rose 11.8% to $63.3B, the July quarter delivered $17.3B, and the operating margin held at 24.7% while revenue grew 17.7% from $14.7B a year earlier. That combination is unusual for a company whose revenue had grown at a mid-single-digit pace for four years. The reported numbers show a step-up in demand, not a gradual improvement. The question is whether the step-up is a new baseline or a pull-forward.",
+      "The portfolio is built around the installed network: campus and branch switching, routing, wireless, security and a large services organisation. Customers are enterprises, public bodies, service providers and, increasingly, large cloud and AI infrastructure builders. Hardware is the entry point, and software, security and support are the annuity. The 64.5% gross margin is the blended result, and the mix between product and services is what moves it from quarter to quarter.",
+      "At $97 the shares trade at 28.7x earnings, 24.8x EV/EBITDA, 6.3x sales and 29.8x free cash flow. The peer group trades at 32.0x earnings and 25.5x EV/EBITDA, so Cisco is at a small discount despite faster growth. Net debt is $17.1B, or 1.1x EBITDA, and the dividend yield is 1.8%. The valuation question is not the balance sheet; it is whether the 18.8% revenue forecast for FY2027 is a new baseline or a cycle catch-up."
     ],
-    "quote": "Networking is a replacement market. The growth comes from what is attached to the replacement, not from the number of networks in the world."
+    "quote": "Cisco's installed base sells the next product, but an 18.8% revenue forecast for a company that had been growing at a mid-single-digit pace is the number the multiple rests on."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,50 @@ export const CSCO: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 4.3% a year across the fiscal years in the dataset, and the latest quarter changed +17.6% year over year. Third-party estimates for the current fiscal year point to $75.2B of revenue and $5.51 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 24.3% and return on invested capital of 19.0% are the filters to watch as revenue scales."
+      "Revenue progressed from $51.6B in FY2022 to $57.0B in FY2023, then fell to $53.8B in FY2024, recovered to $56.7B in FY2025 and reached $63.3B in FY2026. The quarterly path through FY2026 was $14.9B, $15.3B, $15.8B and $17.3B, so the acceleration is recent and steep. Consensus expects $75.2B in FY2027, up 18.8%, and $81.7B in FY2028, up 8.6%. The forecast assumes the July quarter's rate persists for a full year.",
+      "The geographic mix is Americas 59.7%, EMEA 26.2% and Asia Pacific, Japan and China 14.1%, with the United States at 54.3%. The product and services split is not disclosed by segment, so the recurring share of revenue has to be inferred from the gross margin and from the services commentary. Security and software carry higher margins than hardware, and services carry lower margins but higher renewal.",
+      "The step-up could be a networking refresh, AI infrastructure orders, or both. Cisco does not disclose backlog in the financial statements, so the order book cannot be used to test the forecast. The historical pattern is that strong years pull forward demand: FY2023 grew 10.6% and FY2024 fell 5.6%. That is the precedent the 18.8% estimate has to overcome. Without an order book, the revenue line is the only evidence until the next two quarters report."
+    ],
+    "bullets": [
+      {
+        "title": "Installed base",
+        "detail": "Switching and routing are the entry point; security and services attach to the same estate. That is why the hardware franchise is worth more than its gross margin."
+      },
+      {
+        "title": "AI networking",
+        "detail": "Large cloud and AI builders are new customers for the same products. They add volume but also concentration."
+      },
+      {
+        "title": "Services annuity",
+        "detail": "Support and managed services renew at a high rate. They carry a lower margin than software but stabilise revenue."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 24.3%, the net margin is 21.0% and diluted EPS is $3.34. The latest quarter's operating margin was 24.7%.",
-      "Return on equity is 26.4%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q4 FY26: revenue of $17.3B, an operating margin of 24.7% and a net margin of 22.4%."
+      "Gross margin came in at 64.5%, operating margin 24.3% and net margin 21.0%. The operating margin was 20.8% in FY2025 and 27.1% in FY2022, so the current level is mid-range. The July quarter's 24.7% operating margin was slightly below the April quarter's 25.0%, even as revenue rose from $15.8B to $17.3B. That is a reminder that the incremental revenue is not dropping through at the same rate as the base.",
+      "Return on invested capital was 15.3% and return on equity 26.4%, against a 22.6% peer median. The shortfall reflects both the lower operating margin and the goodwill from acquisitions. The operating leverage has been weak over the full period: revenue rose $11.77B from FY2022 to FY2026 while operating income rose $1.40B. That is the number that argues against the current growth rate being highly profitable.",
+      "The peer comparison explains the discount. Cisco's 15.3% ROIC is below the 22.6% peer median, and its 24.3% operating margin is below the 28.9% median. The stock trades at 28.7x earnings, a discount to the 32.0x median, which is the market's way of saying that the installed base is worth owning but not at a growth multiple. Broadcom, at 38.6x with a 48.0% operating margin and 24.8% ROIC, shows what the market pays for a higher-margin semiconductor franchise."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $12.8B, a 20.2% margin. Net debt is $13.6B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $12.8B over the last twelve months and net debt was $13.6B; interest cover was 10.5x."
+      "Free cash flow after capex was $12.8B, a 20.2% margin, and FY2026 operating cash flow of $14.2B came against $1.4B of capex. That spend is small against $63.3B of revenue because Cisco designs its own chips but outsources manufacturing. Net debt of $17.1B is 1.1x EBITDA, up from $13.7B in FY2025, and interest cover is 10.5x. The cash conversion is therefore a function of collections and order timing, not of heavy investment.",
+      "Cash conversion is close to one-for-one: the 20.2% free-cash-flow margin is within a point of the 21.0% net margin. The quarterly pattern is seasonal, with $2.9B, $1.5B, $3.3B and $5.0B through FY2026. That seasonality comes from collections and from the timing of large orders rather than from working-capital stress. The weak January quarter is a billing pattern, not a deterioration in the business.",
+      "Capital allocation is a 1.8% dividend plus buybacks. The dividend is well covered by $12.8B of free cash flow, and the net debt increase of $3.4B over the year is small relative to cash generation. At a 3.4% free-cash-flow yield, the equity is priced for the growth to continue rather than for a large return of capital. The buyback is the swing factor: it can absorb the surplus or be cut if the cycle turns."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 28.2x trailing earnings and 21.7x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $130.50; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $97 Cisco trades at 28.7x earnings, 24.8x EV/EBITDA, 6.3x sales and 29.8x free cash flow, with a 3.4% free-cash-flow yield. Peer medians of 32.0x earnings and 25.5x EV/EBITDA sit above both. The gap is narrow, but it points the same way as the growth debate. That is unusual for a company growing faster than the median, and it suggests the market is not capitalising the current rate as permanent.",
+      "Forward numbers are where the debate sits. FY2027 EPS of $5.51 implies 17.6x, and FY2028 EPS of $6.06 implies 16.0x. Those multiples are cheap if the 18.8% revenue forecast lands, and expensive if growth reverts to a mid-single-digit pace and the EPS estimate is too high. The 7.1% revision across every window shows the analysts have been raising numbers, not lowering them.",
+      "The historical pattern is the warning. Cisco grew 10.6% in FY2023 and then fell 5.6% in FY2024 as customers digested the purchases. If FY2027 repeats that shape, the forward multiple is higher on normalised earnings. The installed base and the 64.5% gross margin justify a premium to hardware peers, but not a multiple that assumes an 18.8% year is the new normal."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "24 analysts contribute to the third-party consensus. The mean target is $130.50, with a range of $109.00 to $160.00.",
-      "Current-year estimates call for $75.2B of revenue and $5.51 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 24 analysts with a mean target of $130.5; third-party estimates can change without notice."
+      "Coverage from 24 analysts forms the 18 November 2026 Yahoo Finance consensus. The mean target is $131, inside a $109 to $160 range. The mean is above the $97 price, and even the low end is above it, so the consensus is unusually uniform.",
+      "FY2027 estimates are $75.2B of revenue and $5.51 of EPS; FY2028 is $81.7B and $6.06. EPS revisions are plus 7.1% across seven, 30, 60 and 90 days, which is a uniformly positive pattern rather than a single upgrade. The consensus assumes the October quarter produces $18.2B, up 18.3%, and $1.35 of EPS, up 29.4%."
     ]
   },
   "risks": {
@@ -144,5 +159,7 @@ export const CSCO: StockStory = {
       "What share of revenue is recurring software and services?",
       "What would a return to 4% growth do to a 27.9x earnings multiple?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

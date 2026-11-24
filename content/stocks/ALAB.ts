@@ -7,20 +7,20 @@ export const ALAB: StockStory = {
   "dek": "A chip company with a 73.9% gross margin and a 30.6% operating margin, growing 115%. The debate is about how much connectivity silicon one accelerator can absorb.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $1.6B trailing twelve months, +115.2% year over year.",
-    "Profitability: 25.5% operating margin and 26.8% net margin.",
-    "Cash: $344.7M free cash flow, a 22.1% margin.",
-    "Scorecard: 60/100 average percentile across the factor screens."
+    "Sales of $1.6B grew 115.2% at a 73.9% gross margin, and the September quarter reached a 30.6% operating margin on $584.9M.",
+    "Free cash flow was $344.7M, a 22.1% margin, and net cash of $1.4B means the design cycle is funded without debt.",
+    "At 89.4x EBITDA and 111.0x free cash flow the shares are the most expensive in the connectivity group, above Coherent at 36.0x and Ciena at 44.1x.",
+    "The fiscal 2026 estimate of $2.0B in revenue is more than double the $852.5M reported for 2025, with EPS estimated at $4.38."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000010/alab-20251231.htm",
   "irUrl": "https://www.asteralabs.com",
   "bigPicture": {
     "paragraphs": [
-      "Astera Labs, Inc. generated $1.6B of revenue over the last twelve months, +115.2% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
-      "The latest reported quarter was Q3 FY26, with $584.9M of revenue and an operating margin of 30.6%. The stock closed at $211.60 on 2026-11-17, giving a market capitalization of $37B.",
-      "The shares sit 28% of the way up their 52-week range ($97.89 to $499.48). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "The September 2026 quarter produced $584.9M of revenue, up from $392.4M in June, with the operating margin rising to 30.6% from 22.7%. That is what a chip programme looks like when it reaches volume: the design was paid for in earlier quarters and the incremental revenue carried a very high contribution. The result matters because it is the first quarter at a scale where the fixed design cost is small relative to revenue, and it is also the quarter that sets the base for the next estimate.",
+      "Astera sells retimers, smart cable modules, fabric switches and memory controllers into AI racks. The products do different jobs: retimers keep a high-speed link working across a rack, fabric switches let accelerators share data and memory pools, and controllers manage the processor-to-memory connection. The customer list is short because hyperscalers design their own racks and qualify their own suppliers, and the geography of reported revenue — Singapore 32.5%, China 30.1%, Taiwan 29.0% — reflects where systems are assembled rather than where they are used.",
+      "How much connectivity silicon one accelerator can absorb is the valuation question. At 89.4x EBITDA and 23.7x sales the shares are priced above Coherent at 36.0x and Ciena at 44.1x, for a 25.5% operating margin that is higher than either. The risk is not that AI racks stop being built; it is that the retimer and switch functions get absorbed into the accelerator or the switch ASIC, which removes the standalone part rather than competing with it."
     ],
-    "quote": "In a rack of accelerators, the expensive part is the compute and the hard part is moving data between the compute. Astera sells the hard part."
+    "quote": "Astera's margin depends on the accelerator needing a discrete retimer for every high-speed link, and that is an architectural assumption."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -51,48 +51,47 @@ export const ALAB: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 120.2% a year across the fiscal years in the dataset, and the latest quarter changed +153.7% year over year. Third-party estimates for the current fiscal year point to $2B of revenue and $4.38 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 25.5% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "At $79.9M of revenue in FY2022, Astera was a design house with a product; by FY2025 it had $852.5M, and the trailing figure is $1.6B. The path ran through $115.8M in FY2023 and $396.3M in FY2024, and the quarterly sequence through 2026 is $308.4M, $392.4M and $584.9M. The third quarter added $192.5M sequentially — more than the whole of FY2022 — so growth here is a function of programmes reaching volume, not of a market expanding smoothly.",
+      "The estimates assume the volume holds: $741.9M next quarter, $2.0B for fiscal 2026 and $3.4B for 2027. The near-term number implies about 27% sequential growth from the September quarter, and the annual number implies the December quarter is not a peak. The product mix is the unknown: cable modules and switches carry more material content than bare retimers, so a shift toward systems lowers the 73.9% gross margin even as revenue rises."
     ],
     "bullets": [
       {
-        "title": "Where the gross margin goes",
-        "detail": "About 43 points of the 73.9% gross margin is absorbed before operating profit. Mostly engineering, validation and selling."
+        "title": "Content per link",
+        "detail": "A retimer for a faster generation sells for more than the part it replaces, so revenue can grow even when server counts are flat."
       },
       {
-        "title": "Why margins appear late",
-        "detail": "Design cost is incurred years before a socket ships in volume. Operating margin arrives with the ramp, not with the design win."
+        "title": "Programme concentration",
+        "detail": "A handful of hyperscalers qualify their own suppliers, and losing one programme removes a large block of revenue at once."
       },
       {
-        "title": "What dilutes it",
-        "detail": "A mix shift toward switches or cable modules, which carry more material cost than a bare retimer, would lower the blended margin."
+        "title": "Mix and margin",
+        "detail": "Switches and cable modules carry more material cost than bare retimers, which is why the 73.9% gross margin is not a fixed feature."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 25.5%, the net margin is 26.8% and diluted EPS is $2.51. The latest quarter's operating margin was 30.6%.",
-      "Return on equity is n/a. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $584.9M, an operating margin of 30.6% and a net margin of 31.3%."
+      "The gross margin has been remarkably stable: 73.5% in FY2022, 68.9% in FY2023, 76.4% in FY2024, 75.7% in FY2025 and 73.9% trailing. That stability through a period in which revenue rose from $79.9M to $1.6B is evidence that the product is specified rather than bid. The operating margin is the volatile line: -75.4% in FY2022, -25.5% in FY2023, -29.3% in FY2024, 20.3% in FY2025 and 25.5% trailing, because design spending is committed before the revenue arrives.",
+      "The FY2024 accounts are the instructive case: revenue of $396.3M produced a $116.1M operating loss and $102.4M of positive free cash flow. That combination means the income statement carried a large non-cash charge, most likely share-based compensation, and it means the cash flow statement and the income statement were describing different stages of the same business. Return on invested capital is 19.9% trailing and return on equity 23.1%, both helped by a net cash balance sheet."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $344.7M, a 22.1% margin. Net debt is not a meaningful measure for this business in the current dataset.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "Astera converted $319.3M of operating cash flow in FY2025 against $37.5M of capex, leaving $281.8M of free cash flow; the trailing figure is $344.7M, a 22.1% margin. The fabless model keeps capex low, so cash conversion depends on working capital and on how much inventory is built ahead of a ramp. The September 2026 quarter produced $133.9M of free cash flow, the highest of the year, which is consistent with revenue reaching scale.",
+      "With $1.4B of net cash and no debt, interest cover is not meaningful. The company has funded the transition from a $79.9M revenue base to $1.6B without leverage, and the cash balance is roughly 3.7% of the market capitalisation. No buyback or dividend is disclosed. For a company at this stage the relevant question is not what it returns but whether the $344.7M of free cash flow is repeatable when the next design cycle raises spending."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 88.8x trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $344.15; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "The {{evEbitda}} EBITDA multiple is roughly three times the 31.0x peer median, and a 111.0x price to free cash flow leaves little room for a miss on the next ramp. Coherent at 36.0x grows 30.8% with a 12.5% operating margin; Ciena at 44.1x grows 32.6% with 12.3%. Astera's 115.2% growth and 25.5% margin are better, and the multiple already assumes they persist.",
+      "The fiscal 2026 estimate of $4.38 implies about 50x, and $7.15 for 2027 about 31x. The compression from 83x trailing to 31x forward is the entire bull case: earnings are expected to more than triple while the price stays still. That requires revenue of $3.4B in 2027, four times the 2025 figure, and a gross margin near 74% through a mix shift toward switches and cables.",
+      "Architectural persistence is the condition: each accelerator generation needing more discrete connectivity parts, and Astera holding the socket. Integration would break it, with the retimer or switch function moving into the accelerator package or the switch ASIC and the standalone part disappearing. The seven neutral views among twenty-five and the $225 low target are the market's way of pricing that possibility without rejecting the growth."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "22 analysts contribute to the third-party consensus. The mean target is $344.15, with a range of $225.00 to $500.00.",
-      "Current-year estimates call for $2B of revenue and $4.38 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 22 analysts with a mean target of $344.15; third-party estimates can change without notice."
+      "As of 18 November 2026, Yahoo Finance shows 22 analysts on Astera with a mean target of $344 and a range of $225 to $500 against a $219 price. The mean is 57% above the market and the low end is only 3% above it, so even the cautious end of the range assumes the growth continues; the disagreement is about the multiple, not the business.",
+      "Astera's 2026 estimate is $2.0B of revenue and $4.38 of EPS, with 2027 at $3.4B and $7.15. Revisions are strongly positive at +8.5% over 30, 60 and 90 days, and the last four quarters beat by 11% to 16%. The consensus assumes the September quarter's $584.9M is a base rather than a peak and that the gross margin holds near 74% as switches and cable modules become a larger share."
     ]
   },
   "risks": {
@@ -156,5 +155,7 @@ export const ALAB: StockStory = {
       "Why do the quarterly estimates imply a slowdown while the annual estimate implies acceleration?",
       "How much of the 73.9% gross margin survives a mix shift toward switches and cables?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

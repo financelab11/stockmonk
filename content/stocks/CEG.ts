@@ -7,20 +7,20 @@ export const CEG: StockStory = {
   "dek": "A nuclear fleet costs almost nothing to fuel and a great deal to maintain. That combination turns a modest move in power prices into a large move in operating income, in both directions.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $24.8B trailing twelve months, +20.5% year over year.",
-    "Profitability: 18.5% operating margin and 14.0% net margin.",
-    "Cash: $309M free cash flow, a 1.2% margin.",
-    "Scorecard: 33/100 average percentile across the factor screens."
+    "The first quarter of FY26 produced $7.5B of revenue at a 30.9% operating margin; Q2 fell to $5.8B and 9.9% as realised power prices moved.",
+    "Trailing free cash flow is $309M, 1.2% of revenue, and P/FCF is {{pfcf}}, so the cash multiple is not a useful anchor for this fleet.",
+    "Net debt is $24.0B, or 2.9x EBITDA, with interest cover of 5.9x, which leaves the equity sensitive to refinancing costs.",
+    "At {{pe}} earnings and {{evEbitda}} EV/EBITDA, the shares trade above Vistra at 19.1x and 11.4x on a 5.5% return on invested capital."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000032/ceg-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001868275&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Constellation Energy Corp. generated $24.8B of revenue over the last twelve months, +20.5% versus the prior year. Returns depend on regulated rates, capital investment and the cost of financing the asset base.",
-      "The latest reported quarter was Q2 FY26, with $5.8B of revenue and an operating margin of 9.9%. The stock closed at $268.07 on 2026-11-17, giving a market capitalization of $94.3B.",
-      "The shares sit 26% of the way up their 52-week range ($228.63 to $380.78). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Constellation's first quarter of 2026 was the strong one: $7.5B of revenue, a 30.9% operating margin and $4.49 of diluted EPS. The second quarter produced $5.8B, 9.9% and $1.42. The gap is not an operating failure but the nature of a merchant generator: output is sold partly forward and partly at spot, so the realised price in any quarter is a blend of contracts signed months earlier and whatever the grid paid at the time.",
+      "The fleet earns an infra-marginal rent. Nuclear fuel is cheap, the plant is expensive to build and maintain, and the clearing price is usually set by a gas plant with a higher marginal cost. The difference between that price and the nuclear unit's own cost is the margin. Because the cost base is fixed, a 10% move in the realised power price is worth far more than 10% of operating income. Regional market design decides how much of that rent each reactor captures.",
+      "The valuation is a scarcity argument. At {{price}} the market capitalises Constellation at {{marketCap}}, or {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA, against 20.5x and 12.2x for the utility peer group. Vistra trades at 19.1x and 11.4x with an 11.2% return on capital, while Constellation's return is 5.5%. The premium is being paid for the nuclear fleet's longevity and for the option on power prices, not for current returns. The 0.7% dividend confirms that the equity case is capital appreciation."
     ],
-    "quote": "A nuclear plant is a fixed-cost machine selling a floating-price product. That is a wonderful business when prices rise and an uncomfortable one when they fall."
+    "quote": "Constellation's reactors earn the gap between the clearing price and a fuel cost that is close to zero, and that gap is the whole equity story."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,48 @@ export const CEG: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.1% a year across the fiscal years in the dataset, and the latest quarter changed +13.2% year over year. Third-party estimates for the current fiscal year point to $36.2B of revenue and $12.51 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 18.5% and return on invested capital of 6.5% are the filters to watch as revenue scales."
+      "The estimate curve is unusual. Consensus expects $36.2B of revenue in 2026 against $22.7B in FY2025, then $36.9B in 2027, a 1.8% increase. A jump of that size followed by a flat year is not organic load growth; it points to a change in the asset base or in the consolidation of revenue. The segment disclosure does not decompose it, so the growth analysis has to treat 2026 as a new base rather than as a rate of change.",
+      "On that new base, growth comes from three places: higher realised power prices on uncontracted output, capacity payments that pay the fleet for being available, and incremental retail and services revenue. The first is the largest and the least controllable. The second depends on auction design in each region. The third is smaller but uses the same dispatch platform, which is why it can be scaled without new generation.",
+      "The 2027 estimate is the more useful test. Revenue of $36.9B is essentially flat on 2026, while EPS rises from $12.51 to $13.40, so the consensus expects the margin to do the work rather than volume. That is consistent with a fleet whose output is largely fixed and whose realised price is the swing factor. It also means the earnings estimate is a power-price forecast in disguise, and the segment mix gives little help in checking it."
     ],
     "bullets": [
       {
-        "title": "Power prices",
-        "detail": "The clearing price in each regional market is the single largest driver of revenue and margin."
+        "title": "Realised price",
+        "detail": "Forward sales and spot exposure are blended each quarter. The share of output sold forward, which is not disclosed here, decides how much of a price move reaches earnings."
       },
       {
-        "title": "Capacity payments",
-        "detail": "Some markets pay for available capacity as well as energy, which supports revenue when demand is low."
+        "title": "Nuclear availability",
+        "detail": "A refuelling outage takes a unit offline for weeks and carries both lost output and the cost of the work. Capacity factor is the key operating variable."
       },
       {
-        "title": "Fleet availability",
-        "detail": "Uptime determines how many megawatt-hours are sold. An unplanned outage is lost revenue at full cost."
+        "title": "Regional markets",
+        "detail": "Mid-Atlantic was 28.5% of FY2025 revenue and the Midwest 23.3%, each with its own capacity mechanism and transmission constraints."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 18.5%, the net margin is 14.0% and diluted EPS is $10.26. The latest quarter's operating margin was 9.9%.",
-      "Return on equity is 10.3%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q2 FY26: revenue of $5.8B, an operating margin of 9.9% and a net margin of 8.8%."
+      "Profitability progression is price, not cost. Operating margin was 22.9% in FY2024, 13.6% in FY2025 and 18.5% trailing, with a quarterly range from 7.4% in Q1 FY25 to 30.9% in Q1 FY26. Revenue rose from $19.0B in FY2024 to $22.7B in FY2025, but the margin fell, which means realised prices or hedge settlements moved against the fleet even as volumes grew. Depreciation and fixed operating cost did the rest.",
+      "Returns tell the same story. Return on invested capital was 17.2% in FY2024, 9.0% in FY2025 and 5.5% trailing; return on equity was 28.5%, 16.0% and 10.9%. A nuclear fleet's return on capital does not normally move that far in a year for operating reasons. The change is the price captured per megawatt-hour and the hedges that locked in an earlier curve. That is why the trailing ROIC is a poor measure of the asset's earning power."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $309M, a 1.2% margin. Net debt is $21.7B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $309M over the last twelve months and net debt was $21.7B; interest cover was n/a."
+      "Free cash flow after capex is $309M trailing, a 1.2% margin, and the P/FCF multiple of {{pfcf}} is not a useful valuation anchor. FY2025 operating cash flow was $4.2B against $2.9B of capex, leaving $1.3B; the quarterly path is negative in three of the five periods shown, including -$850M in Q1 FY26. Working capital, margin calls and outage timing move the number by more than the underlying earnings do.",
+      "Net debt is $24.0B, 2.9x EBITDA, and interest cover is 5.9x, so the capital structure is manageable but not loose. The 0.7% dividend is small enough to be funded from operating cash flow. The relevant question is not whether free cash flow covers the dividend but whether the fleet can refinance at a cost that leaves a spread for equity. That is a function of power prices and credit ratings, not of the cash conversion ratio."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 27.1x trailing earnings and 19.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $338.94; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At {{price}} the market capitalises Constellation at {{marketCap}}, or {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA. The utility peer medians are 20.5x and 12.2x, so the premium is about five turns on earnings and 1.4 on EBITDA. P/FCF is {{pfcf}} and the free-cash-flow yield is {{fcfYield}}, both distorted by a near-zero free cash flow. On the FY2027 estimate of $13.40 the multiple is about 18.7x.",
+      "The comparison with Vistra is the useful one. Vistra trades at 19.1x and 11.4x with an 11.2% return on capital and 3.5x leverage; Constellation trades at 25.4x and 13.6x with a 5.5% return and 2.9x leverage. The market is paying more for lower current returns because the nuclear fleet is long-lived, low-carbon and expensive to replace. That is a scarcity premium, and it depends on policy support for firm clean generation.",
+      "What would justify the multiple is a power price curve that keeps rising and a capacity market that pays for availability. What would break it is a sustained fall in clearing prices, which would hit the infra-marginal rent directly, or a policy change that removes the support the fleet currently receives. The 0.7% dividend offers almost no income cushion while that argument is settled, and the shares have fallen 28.7% over a year."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "23 analysts contribute to the third-party consensus. The mean target is $338.94, with a range of $240.00 to $399.00.",
-      "Current-year estimates call for $36.2B of revenue and $12.51 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 23 analysts with a mean target of $338.94; third-party estimates can change without notice."
+      "With 23 analysts and a mean target of $339, Yahoo Finance's 18 November 2026 estimate set spans a range of $240 to $399. The mean is 35% above the current price, and the low end is 4% below it.",
+      "Revisions are positive, with the 90-day EPS change at 5.0% and the 30-day at 3.1%, helped by a Q3 FY26 result of $5.06 against a $3.89 estimate. Consensus expects $12.51 for 2026 and $13.40 for 2027. The target range is wide because earnings depend on power prices and hedges that analysts model differently, not because the asset base is in doubt."
     ]
   },
   "risks": {
@@ -158,5 +157,7 @@ export const CEG: StockStory = {
       "What does the earnings estimate assume about power prices next year?",
       "Is the free-cash-flow record explained by growth capital or by maintenance?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

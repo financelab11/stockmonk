@@ -7,20 +7,20 @@ export const VST: StockStory = {
   "dek": "It runs 39,000 megawatts of generation and supplies 4.3 million retail customers. Owning both the plant and the customer means it can earn a margin on the wholesale sale and another on the retail contract.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $19B trailing twelve months, +18.6% year over year.",
-    "Profitability: 18.8% operating margin and 11.7% net margin.",
-    "Cash: $2.3B free cash flow, a 11.9% margin.",
-    "Scorecard: 43/100 average percentile across the factor screens."
+    "First-quarter FY26 revenue of $5.0B carried a 30.0% operating margin; Q2 fell to $4.4B and 12.6%, the range a merchant-retail model produces.",
+    "Trailing free cash flow is $2.3B, 11.9% of revenue, against net debt of $19.2B, or 3.5x EBITDA, and interest cover of 3.1x.",
+    "The shares have fallen 28.2% over a year while the 2026 EPS estimate stands at $9.28 against $2.18 reported in FY2025, so the multiple compressed rather than the earnings.",
+    "At {{pe}} earnings and {{evEbitda}} EV/EBITDA, Vistra trades below Constellation at 25.4x and 13.6x despite a higher 11.2% return on invested capital."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000006/vistra-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001692819&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Vistra Energy Corp. generated $19B of revenue over the last twelve months, +18.6% versus the prior year. Returns depend on regulated rates, capital investment and the cost of financing the asset base.",
-      "The latest reported quarter was Q2 FY26, with $4.4B of revenue and an operating margin of 12.6%. The stock closed at $127.15 on 2026-11-17, giving a market capitalization of $43.2B.",
-      "The shares sit 21% of the way up their 52-week range ($110.89 to $189.29). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Vistra's first quarter of 2026 produced $5.0B of revenue, a 30.0% operating margin and $2.87 of diluted EPS; the second quarter produced $4.4B, 12.6% and $0.76. The swing is the integrated model at work. The retail book was 74.1% of FY2025 revenue and the Texas generation fleet 25.2%, so the company is simultaneously selling fixed-price contracts and dispatching plants into the wholesale market. When the hedges and the market agree, both margins are captured on the same megawatt-hour.",
+      "The generation fleet is dispatched into markets where gas plants usually set the clearing price. Nuclear and renewables run baseload, gas sets the margin, and batteries shift energy from cheap hours to expensive ones. The retail business signs fixed-price contracts and then has to supply them, either from its own fleet or by buying in the market. A retailer that has sold contracts and not bought enough power is short the market, and the two loss years in FY2021 and FY2022 show what that mismatch can do.",
+      "The valuation debate is about normalised earnings. Vistra's {{marketCap}} market value at {{price}} equals {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA, against 23.2x and 13.3x for the utility peer group. Constellation trades at 25.4x and 13.6x, NextEra at 21.5x and 18.3x. Vistra's discount reflects 3.5x leverage and a merchant earnings stream, but its 11.2% return on invested capital is double Constellation's 5.5%. The return on capital is the strongest argument against the discount; the leverage is the strongest argument for it."
     ],
-    "quote": "Owning generation and owning the customer are different bets. Holding both at once turns a price gamble into a margin business, provided the hedges line up."
+    "quote": "Vistra can earn a margin on the wholesale electron and another on the retail contract, but only if the hedge book matches the customer book."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -53,49 +53,47 @@ export const VST: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 7.3% a year across the fiscal years in the dataset, and the latest quarter changed +17.3% year over year. Third-party estimates for the current fiscal year point to $22B of revenue and $9.28 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 18.8% and return on invested capital of 11.4% are the filters to watch as revenue scales."
+      "Revenue has grown from $14.8B in FY2024 to $19.0B trailing, and consensus expects $22.0B in 2026 and $23.6B in 2027, with EPS of $9.28 and $10.24. The retail segment, at 74.1% of FY2025 revenue, is the volume driver; the Texas fleet is the margin driver. Growth therefore comes from adding customers and from widening the spread between the retail tariff and the cost of supply, not from building new generation at a fixed return.",
+      "The battery pipeline is the one place where capacity is being added. A 400-megawatt, 1,600-megawatt-hour project in California earns money by charging when power is cheap and discharging when it is expensive, which makes it a trading asset as much as a generation asset. The return depends on the spread between peak and off-peak prices, so it is exposed to the same market that drives the gas fleet."
     ],
     "bullets": [
       {
-        "title": "Power prices",
-        "detail": "Wholesale clearing prices determine generation margin and the cost of hedging the retail book."
+        "title": "Retail scale",
+        "detail": "4.3 million customers and a 74.1% revenue share give Vistra a distribution channel that a pure generator does not have."
       },
       {
-        "title": "Retail customer count",
-        "detail": "Each customer added is a contracted margin, provided the supply behind it is priced correctly."
+        "title": "Hedge ratios",
+        "detail": "A fixed-price retail book is only as good as the power bought against it. The loss years in FY2021 and FY2022 were hedge mismatches, not plant failures."
       },
       {
-        "title": "Storage economics",
-        "detail": "Batteries earn the spread between cheap and expensive hours, which widens as renewable penetration grows."
+        "title": "Texas exposure",
+        "detail": "The Texas fleet was 25.2% of FY2025 revenue and sells into an energy-only market, which offers the highest upside and the least price stability."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 18.8%, the net margin is 11.7% and diluted EPS is $5.92. The latest quarter's operating margin was 12.6%.",
-      "Return on equity is 40.4%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q2 FY26: revenue of $4.4B, an operating margin of 12.6% and a net margin of 6.9%."
+      "Profitability progression runs from 27.6% in FY2024 to 10.8% in FY2025 and 18.8% trailing, with a quarterly range from -2.8% in Q1 FY25 to 30.0% in Q1 FY26. Revenue rose 19.1% in FY2025, but the operating margin fell by nearly 17 points, which means the cost of supply rose faster than the retail price. That is the hedging variable, not an operating efficiency variable.",
+      "Returns separate Vistra from the regulated utilities. Return on invested capital is 11.2%, double the 5.5% peer median and above Constellation's 5.5% and Southern's 5.7%. Return on equity is 40.5%, which reflects a thin equity base after $19.2B of net debt rather than an unusually profitable business. For a leveraged merchant, ROIC is the measure that matters and ROE is the one that flatters."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $2.3B, a 11.9% margin. Net debt is $19.2B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $2.3B over the last twelve months and net debt was $19.2B; interest cover was n/a."
+      "The cash statement was $2.3B trailing, an 11.9% margin, after $2.8B of capex in FY2025 against $4.1B of operating cash flow. The quarterly path is steadier than the earnings: $316M in Q1 FY26 and $334M in Q2, against negative figures in the first half of FY2025. That stability is the point of owning generation and retail together, because the retail margin can offset a weak wholesale quarter.",
+      "The balance sheet is the constraint. Net debt is $19.2B, 3.5x EBITDA, and interest cover is 3.1x, the thinnest among the large power producers. The 0.8% dividend is small, so cash is being directed to debt reduction and to the battery project rather than to shareholders. A repeat of a cash-negative year would leave little room without asset sales or equity issuance."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 19.4x trailing earnings and 11.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $198.49; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Vistra's {{marketCap}} market value at {{price}} equals {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA. The utility peer medians are 23.2x and 13.3x, so the shares trade at a discount of about four turns on earnings and two on EBITDA. The discount is to the regulated group, not to a merchant peer. The price is 18.8x trailing free cash flow, a 5.3% free-cash-flow yield. On the FY2027 estimate of $10.24 the multiple is about 12.2x.",
+      "The discount to Constellation is the key comparison. Constellation trades at 25.4x and 13.6x on a 5.5% return on capital, while Vistra trades at 19.1x and 11.4x on 11.2%. The market is not paying for the higher return because it does not trust its durability: Vistra's earnings depend on hedges, weather and Texas power prices, and the FY2021 and FY2022 losses are recent enough to be a reference point.",
+      "What would justify a higher multiple is a hedge book that converts the merchant fleet into a contracted earnings stream, plus battery projects that earn a spread rather than a merchant return. What would break the current one is a mild weather year combined with a fall in clearing prices, which would hit both the retail volume and the generation margin at once. The 0.8% dividend leaves the equity return almost entirely to the multiple."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "23 analysts contribute to the third-party consensus. The mean target is $198.49, with a range of $106.00 to $270.00.",
-      "Current-year estimates call for $22B of revenue and $9.28 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 23 analysts with a mean target of $198.49; third-party estimates can change without notice."
+      "The 18 November 2026 Yahoo Finance consensus puts 23 analysts behind a mean target of $198, with a range of $106 to $270. The mean is 58% above the current price, the widest gap in the utility group, and the range from $106 to $270 is the widest in absolute terms.",
+      "Revisions have been negative even after a Q3 FY26 beat of $3.23 against $2.43: the 90-day EPS change is -3.8% and the 30-day is -3.6%. Consensus expects $9.28 for 2026 and $10.24 for 2027. The combination of a much higher forward estimate than the FY2025 result and a falling share price is the clearest evidence that the debate is about the multiple, not about the near-term earnings."
     ]
   },
   "risks": {
@@ -159,5 +157,7 @@ export const VST: StockStory = {
       "What happens to free cash flow in a repeat of FY2022?",
       "Is the battery storage pipeline earning a contract-like return or taking merchant risk?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

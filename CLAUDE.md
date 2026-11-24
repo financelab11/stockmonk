@@ -43,7 +43,11 @@ pnpm ingest:edgar        # SEC XBRL fundamentals for the research names
 pnpm ingest:fundamentals # Yahoo prices, market data and profiles
 pnpm refresh             # EDGAR, Yahoo fundamentals, consensus, segments, benchmark
 pnpm refresh:prices      # Yahoo closes for the US research names
-pnpm refresh:stories     # regenerate data-driven report sections
+pnpm refresh:stories     # regenerate data-driven sections for generated stories
+pnpm research:packs      # rebuild per-company research packs
+pnpm research:apply      # apply curated rewrite batches to the seven data sections
+pnpm research:normalize  # normalise analyst-distribution language
+pnpm audit:research      # editorial/repetition gate
 ```
 
 ## Important paths
@@ -129,12 +133,18 @@ periods.
 
 - `pnpm audit:stories` compares every story's newest quarter and explicit price
   with the dataset; it exits non-zero when a report is behind.
-- `pnpm refresh:stories` regenerates the data-driven sections (takeaways,
-  big-picture data paragraphs, growth, performance, cash, valuation, analysts)
-  from current filings and prices, while keeping each report's bespoke title,
-  dek, business description, economics, risks and bottom line.
-- The daily workflow runs the ingest, price refresh, story refresh, freshness
-  audits and commits `data`, `public/data` and `content`.
+- `pnpm refresh:stories` regenerates the data-driven sections for stories that
+  are still marked `generated`. Stories marked `curated` or `handwritten` are
+  skipped so bespoke analysis is not overwritten.
+- `pnpm audit:research` is the editorial gate: it checks the seven data-driven
+  sections for cross-company sentence reuse, banned boilerplate, rating labels,
+  short paragraphs and missing sections.
+- The daily workflow runs the ingest, price refresh, story refresh for generated
+  names, freshness audits and commits `data`, `public/data` and `content`.
+- Curated reports are refreshed with `pnpm research:packs` and
+  `pnpm research:apply` when a material new filing changes the analysis. The
+  pack builder is `scripts/build-research-packs.ts`; rewrites live under
+  `data/raw/rewrites` and are applied only to the seven data-driven sections.
 - Never hand-edit a generated section to a specific number; change the data or
   the generator instead.
 - Report section 10 is "Key takeaways and what to monitor" (not "the bottom
@@ -234,6 +244,8 @@ Client helpers:
 - Migrations `202611230001_remove_india_gcc.sql` and
   `202611230002_remove_simfin.sql` have been applied. The `companies` table
   contains the 229 US research names; no SimFin provenance remains.
+- All 229 reports are marked `curated`. `pnpm audit:research` passes with zero
+  cross-company duplicate sentences and zero banned boilerplate.
 - `pnpm sync:supabase:direct` refreshes the US data with `SUPABASE_DB_PASSWORD`;
   `pnpm sync:supabase` does the same over PostgREST with
   `SUPABASE_SERVICE_ROLE_KEY`.
@@ -252,5 +264,5 @@ The intent is that a new agent can read `CLAUDE.md`, `README.md` and the latest
 commit and start without re-reading the whole repository.
 
 <!-- AUTO_CONTEXT_START -->
-_Context snapshot 2026-11-23: 229 US names, 4 database migration(s)._
+_Context snapshot 2026-11-24: 229 US names, 4 database migration(s)._
 <!-- AUTO_CONTEXT_END -->

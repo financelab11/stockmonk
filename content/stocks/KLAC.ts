@@ -7,20 +7,20 @@ export const KLAC: StockStory = {
   "dek": "A 90% gross margin from a hardware company comes from selling optics and algorithms, and from the cost of a bad wafer lot.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $14.5B trailing twelve months, +15.8% year over year.",
-    "Profitability: 42.2% operating margin and 36.2% net margin.",
-    "Cash: $4B free cash flow, a 27.8% margin.",
-    "Scorecard: 57/100 average percentile across the factor screens."
+    "First-quarter fiscal 2027 revenue of $4.1B carried a 44.1% operating margin, the highest in the semiconductor equipment group.",
+    "Process control generated 90.2% of segment revenue, and China plus Taiwan accounted for 56.6% of the geographic mix.",
+    "Free cash flow of $4.0B is 27.8% of revenue, while net debt of $4.2B equals 0.6x EBITDA.",
+    "At 35.8x earnings and 29.5x EV/EBITDA, KLA carries the richest multiple in the equipment group on the highest margin."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000027/klac-20260630.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000319201&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "KLA TENCOR CORP. generated $14.5B of revenue over the last twelve months, +15.8% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
-      "The latest reported quarter was Q1 FY27, with $4.1B of revenue and an operating margin of 44.1%. The stock closed at $144.56 on 2026-11-17, giving a market capitalization of $188.4B.",
-      "The shares sit 19% of the way up their 52-week range ($107.20 to $307.37). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "KLA's first fiscal quarter, ended 30 September 2026, produced $4.1B of revenue, a 44.1% operating margin and $1.18 of diluted EPS. Revenue was 28.9% higher than a year earlier and the operating margin rose from 40.8%. The result matters because process control is bought on the cost of a bad wafer lot rather than on throughput, so the revenue is less sensitive to fab utilisation than a deposition or etch tool.",
+      "The portfolio is unusually concentrated: Semiconductor Process Control was 90.2% of segment revenue, with PCB and component inspection at 5.5% and specialty semiconductor process at 4.3%. Inspection, metrology and e-beam review are sold to process engineers at a specific node and step, and once a recipe is qualified the switching cost is high. That is why the gross margin is the highest in the group and why the operating margin can reach 44.1% on a $4.1B revenue base.",
+      "KLA carries the most demanding valuation in the group. At $144 the shares carry 35.8x earnings, 29.5x EV/EBITDA, 13.3x sales and 46.6x free cash flow. Fiscal 2027 EPS of $5.77 is 25.0x the current price, so the multiple depends on the 39.0% revenue estimate arriving. A large neutral group sits on the sidelines, which suggests the margin is respected but the price is not. The debate is about how long the process-control franchise can compound at this rate."
     ],
-    "quote": "Inspection is sold on avoided loss rather than on throughput. That is why the price of a KLA tool is only loosely connected to the cost of building it."
+    "quote": "Inspection is a toll on the cost of a bad wafer lot, which is why KLA can charge a hardware price with a software margin."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,50 @@ export const KLAC: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 15.2% a year across the fiscal years in the dataset, and the latest quarter changed +28.9% year over year. Third-party estimates for the current fiscal year point to $18.9B of revenue and $5.77 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 42.2% and return on invested capital of 64.4% are the filters to watch as revenue scales."
+      "Revenue expanded from $9.8B in fiscal 2024 to $12.2B in fiscal 2025 and $13.6B in fiscal 2026, and the first quarter of fiscal 2027 is running at roughly $16.4B annualised. The latest quarter grew 28.9%, well above the 15.8% trailing rate, so the order cycle is still accelerating. Consensus for the December quarter is $4.7B, a 14.6% sequential step. That would extend the run of sequential gains by another quarter.",
+      "The driver is inspection intensity. Each node adds process steps, tighter tolerances and more expensive wafers, so the cost of letting a defective lot through rises faster than the cost of the tool. The service base grows with the installed fleet, but upgrades are discretionary and are cut first in a downturn, so the recurring revenue is less defensive than it looks.",
+      "Consensus assumes the cycle has another year. Fiscal 2027 revenue of $18.9B would be 39.0% above fiscal 2026, and fiscal 2028 at $22.6B adds 19.6%. China at 29.8% and Taiwan at 26.8% mean more than half of revenue sits in the two most geopolitically exposed markets. The 90-day EPS revision of 5.9% shows estimates rising, but KLA is not the fastest grower in the group."
+    ],
+    "bullets": [
+      {
+        "title": "Node intensity",
+        "detail": "Inspection and metrology content rises with each node because the cost of an undetected defect rises faster than the tool price."
+      },
+      {
+        "title": "Process-control share",
+        "detail": "At 90.2% of segment revenue, process control is the franchise; the PCB and specialty businesses are too small to change the group result."
+      },
+      {
+        "title": "Customer geography",
+        "detail": "China and Taiwan supplied 56.6% of revenue, so export rules and foundry schedules are the two variables that matter most."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 42.2%, the net margin is 36.2% and diluted EPS is -$3.62. The latest quarter's operating margin was 44.1%.",
-      "Return on equity is 80.6%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q1 FY27: revenue of $4.1B, an operating margin of 44.1% and a net margin of 37.4%."
+      "KLA's margin structure is unusual for a hardware company. The gross margin is the highest in the equipment group because the tool is an optical and computing system whose value comes from precision and the losses it prevents, not from the materials inside it. That gross profit converts into a 42.2% operating margin and a 36.2% net margin, with research, field support and administration absorbing the difference.",
+      "The latest quarter improved again: a 44.1% operating margin and a 37.4% net margin, against 40.8% and 34.9% a year earlier. The annual operating margin has risen from 32.5% in fiscal 2024 to 41.3% in fiscal 2026. Return on equity was 80.6% and return on invested capital 42.9%, the latter below Lam's 47.6% but above Applied Materials' 23.7%. That is the highest return on equity in the equipment group and the reason the multiple carries a premium.",
+      "The per-share line is not a clean guide. Quarterly diluted EPS in the table swings from -$22.60 to $9.12 while net income stays positive, so the reported EPS reflects items below the operating line rather than the economics of the quarter. Net margin, operating margin and free cash flow are the measures to use, and all three point to a business earning more as revenue scales."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $4B, a 27.8% margin. Net debt is $982.1M.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $4B over the last twelve months and net debt was $982.1M; interest cover was n/a."
+      "KLA generated $4.0B of free cash flow, 27.8% of revenue, and capital spending was $375.9M in fiscal 2026. The asset base is light because the tool is assembled from optics and computing hardware and the company does not own fabs, so most of the operating cash reaches the free-cash-flow line. The 46.6x P/FCF is therefore a function of the multiple rather than of poor conversion.",
+      "KLA is not debt-free. Net debt was $4.2B, or 0.6x EBITDA, with interest cover of 21.8x. That is modest leverage for a business with a 42% operating margin, but it is a change from the net cash position KLA carried in fiscal 2023. The cash flow supports the debt; the question is what the borrowing funded, which the summary statements do not break out.",
+      "Capital returns are small relative to cash generation: the dividend yield is 0.7%, and no buyback large enough to change the share count is disclosed. The company is retaining cash while carrying net debt, a combination that usually signals acquisition spending or a deliberate liquidity buffer. Either way, the balance sheet is not the constraint on the investment case. The more important question is what the debt bought."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 35.8x trailing earnings and 29.1x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $219.62; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $144 the equity is valued at $188.2B, or 35.8x trailing earnings, 29.5x EV/EBITDA, 13.3x sales and 46.6x free cash flow. The peer medians are 31.0x and 24.8x, so KLA trades at a premium on both earnings and EBITDA. The premium is explained by a 42.2% operating margin and a 42.9% ROIC, both well above the group, and by the durability of a qualified process-control position.",
+      "The forward arithmetic depends on a large step. Fiscal 2027 EPS of $5.77 is 25.0x the current price and fiscal 2028 at $7.11 is 20.3x, but those numbers require revenue to rise 39.0% and then 19.6%. Lam at 31.0x and Applied Materials at 29.6x are cheaper on trailing earnings and have more diversified product lines. The gap is defensible only if KLA's process-control share holds through the next node.",
+      "A range of $110 to $307 leaves the shares near the bottom of that range. A 13.3x sales multiple on a cyclical capital-goods business is the number that would break first if inspection budgets are cut. The neutral analysts are a reasonable response to that asymmetry. At 29.5x EBITDA the shares already assume the 39.0% revenue step, so the margin of safety is thin."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "26 analysts contribute to the third-party consensus. The mean target is $219.62, with a range of $175.00 to $275.00.",
-      "Current-year estimates call for $18.9B of revenue and $5.77 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 26 analysts with a mean target of $219.62; third-party estimates can change without notice."
+      "Coverage from Yahoo Finance, as of 18 November 2026, spans 26 analysts with a mean target of $220 and a range of $175 to $275. The views lean positive but include a large neutral group, with none negative. The mean is 53% above the $144 price, but the tight range, with the high only 1.6x the low, suggests analysts agree on the destination and differ on timing.",
+      "Revisions have been firm: 5.6% over 30 days, 5.8% over 60 days and 5.9% over 90 days, with no move in the last week. Fiscal 2027 revenue of $18.9B and EPS of $5.77 assume the December quarter reaches $4.7B and the inspection cycle runs through calendar 2027. The consensus is implicitly assuming that China stays open and that leading-edge logic spending does not pause."
     ]
   },
   "risks": {
@@ -144,5 +159,7 @@ export const KLAC: StockStory = {
       "Why does the diluted EPS line swing so far between quarters?",
       "How much inspection content does each new node add?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

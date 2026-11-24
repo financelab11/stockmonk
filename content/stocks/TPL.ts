@@ -7,20 +7,20 @@ export const TPL: StockStory = {
   "dek": "No wells to drill and no production to fund. Royalties, easements and water sales are why a 99-person company runs a 75% operating margin.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $967.8M trailing twelve months, +25.3% year over year.",
-    "Profitability: 75.5% operating margin and 60.7% net margin.",
-    "Cash: $530.5M free cash flow, a 54.8% margin.",
-    "Scorecard: 64/100 average percentile across the factor screens."
+    "Water service and operations supplied 38.5% of 2025 revenue, and that line tracks wells completed rather than the oil price.",
+    "Operating margin was 76.0% in the September 2026 quarter on $273.4M of revenue, the fourth consecutive quarter above 70%.",
+    "Operating cash flow of $545.9M and minimal capex produced $530.5M of free cash flow, a 55% margin.",
+    "At 30.7x earnings and 18.2x sales, the shares price perpetual royalty growth from a fixed 880,000-acre base."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1811074/000181107426000018/tpl-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001811074&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "TEXAS PACIFIC LAND TRUST generated $967.8M of revenue over the last twelve months, +25.3% versus the prior year. The opportunity is large but early; permits, financing and construction execution determine who captures it.",
-      "The latest reported quarter was Q3 FY26, with $273.4M of revenue and an operating margin of 76.0%. The stock closed at $287.84 on 2026-11-17, giving a market capitalization of $19.9B.",
-      "The shares sit 8% of the way up their 52-week range ($265.31 to $547.20). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Water service and operations supplied 38.5% of 2025 revenue, and that line is tied to wells completed rather than to the oil price. In the September 2026 quarter group revenue reached $273.4M, up 34.6% from $203.1M, with a 76.0% operating margin. The quarter matters because the water and surface lines are growing faster than the royalty line as Permian completion activity runs, which changes the mix without adding capital. Royalty revenue is the largest line, but the fee lines are the ones that move first when activity changes.",
+      "The asset is 880,000 acres in West Texas, held in fee, with mineral royalties, surface leases, easements, caliche, water sales and produced-water disposal. There are 99 employees and no drilling rig. A royalty converts another operator's capital spending into revenue at almost no cost, while water and disposal require equipment and permits but earn a fee per barrel. The two businesses have different cycles and different margins, which is why the blended gross margin is not a useful line.",
+      "At $261 the equity is valued at $18.0B, or 30.7x earnings, 21.9x EBITDA and 18.2x sales, with $369.6M of net cash and a 0.9% dividend. The sales multiple is the one that stands out: it is more than three and a half times ATI's 5.1x on a business with a fraction of the revenue. The price is a claim on a finite acreage position and a royalty rate, not on a growth investment programme."
     ],
-    "quote": "A royalty is a claim on someone else's production. The landowner contributes the acreage and collects a share, which is why the cost base stays small while revenue scales with activity."
+    "quote": "Texas Pacific Land earns a royalty on other people's capital, which is why a 99-person company can post a 76% operating margin."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,46 @@ export const TPL: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.5% a year across the fiscal years in the dataset, and the latest quarter changed +34.6% year over year. Third-party estimates for the current fiscal year point to $1B of revenue and $9.28 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 75.5% and return on invested capital of 40.3% are the filters to watch as revenue scales."
+      "Permian completion activity is the demand driver for the fastest-growing lines. Every well drilled on or near the land generates water sales, caliche, easement and disposal revenue, and those fees arrive before the royalty on the oil that well produces. Consensus expects $1.0B of revenue in FY2026, up 27.8%, and $1.1B in FY2027, up 11.4%. The deceleration in the second year is the forecast's own admission that activity, not price, sets the pace.",
+      "Royalties remain the largest line and the most sensitive to price. The FY2023 dip, when revenue fell 5.4% and the operating margin narrowed from 84.3% to 77.0%, shows what a weaker oil year does. Water is less price-sensitive and more volume-sensitive, which is why it has grown faster during a period of high drilling activity. The durability of the mix depends on disposal capacity and water rights, neither of which is disclosed by volume."
     ],
     "bullets": [
       {
-        "title": "Drilling activity",
-        "detail": "The number of wells completed on the land drives water, caliche and easement revenue with a lag."
+        "title": "Completion activity",
+        "detail": "Wells completed on or near the acreage drive water, caliche and easement revenue before any royalty is paid."
       },
       {
-        "title": "Commodity prices",
-        "detail": "Royalty revenue moves with oil and gas prices, which no landowner controls."
+        "title": "Royalty rate",
+        "detail": "The share of production retained on new leases determines how much of a price increase reaches revenue."
       },
       {
-        "title": "Land use beyond oil",
-        "detail": "Power, data and industrial uses could add revenue that is not correlated with drilling."
+        "title": "Water and disposal",
+        "detail": "Produced-water handling is the fastest-growing line and the most exposed to state regulation."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 75.5%, the net margin is 60.7% and diluted EPS is $8.50. The latest quarter's operating margin was 76.0%.",
-      "Return on equity is 32.6%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $273.4M, an operating margin of 76.0% and a net margin of 61.2%."
+      "Royalty economics kept the operating margin at 75.5% trailing and 74.2% in FY2025, down from 84.3% in FY2022 as water and surface revenue grew into the mix. Net margin was 60.7% trailing and 60.3% in FY2025. The gross margin in the file is not comparable across the royalty and water lines, because one has almost no cost of sales and the other buys and handles physical product. Operating margin is the cleaner measure of the whole.",
+      "Return on invested capital was 32.2% and return on equity 32.6%, the highest in the group. ATI earned 17.4% and Coeur 6.7%. The return is high because the capital stock is small: land and mineral rights carried at historical cost, plus water infrastructure. The quarterly operating margin has stayed between 70.5% and 78.0% for eight quarters, which is unusual stability for a commodity-linked business."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $530.5M, a 54.8% margin. The balance sheet carries $369.6M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $530.5M over the last twelve months and net debt was -$369.6M; interest cover was n/a."
+      "Royalty income converts almost directly into cash because there is no well to drill and no inventory to build. Operating cash flow was $545.9M in FY2025, and capex is not broken out as a separate line in the annual table. Free cash flow is therefore close to operating cash flow: $530.5M, a 55% margin. The quarterly cash figure is not reported in the file, so the annual number is the only clean observation.",
+      "Net cash was $369.6M and interest cover 201.1x, so debt is not a constraint. The dividend yields 0.9%, which absorbs a small share of the cash generated. The rest accumulates because there is no drilling programme to fund and no inventory to build. That is the capital-allocation question: a business that cannot reinvest at scale has to return cash, and the payout is still modest relative to the free cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 33.8x trailing earnings and 24.2x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $444.50; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "The earnings multiple of 30.7x is a premium to the 20.4x peer median, while EBITDA at 21.9x is a small discount to 25.6x. The gap between the two is the absence of debt and depreciation: with $369.6M of net cash and minimal capex, earnings and EBITDA are close. Sales at 18.2x is the multiple that best captures the royalty model, because it prices the revenue stream rather than the accounting return on a written-down asset.",
+      "On FY2026 EPS of $9.28 the shares are at 28.1x; on FY2027's $10.21, 25.6x. The forecast assumes revenue growth slows to 11.4% and the margin holds near 75%, which is consistent with the last two years but not with a fall in drilling activity. What would justify the multiple is a royalty rate that holds and water volumes that keep growing; what would break it is a Permian slowdown that hits the fee lines first."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "2 analysts contribute to the third-party consensus. The mean target is $444.50, with a range of $250.00 to $639.00.",
-      "Current-year estimates call for $1B of revenue and $9.28 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 2 analysts with a mean target of $444.5; third-party estimates can change without notice."
+      "Coverage is thin at two analysts, with a mean target of $445 against a $261 price and a range of $250 to $639. The low target is 4% below the current price; the high target is 145% above it.",
+      "Revisions have turned up: +5.4% over 60 days and +7.1% over 90 days, after a flat 30 days. The September quarter beat at $2.42 against $2.33, following a June beat at $2.23 against $2.18. The December 2025 quarter missed badly at $1.79 against $3.60, which is a reminder that a two-analyst estimate on a royalty stream can be stale for a full quarter."
     ]
   },
   "risks": {
@@ -158,5 +155,7 @@ export const TPL: StockStory = {
       "What is the royalty rate on new leases compared with older ones?",
       "What would revenue be if oil prices fell 25% and drilling activity stayed flat?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

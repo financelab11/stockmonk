@@ -7,20 +7,20 @@ export const JOBY: StockStory = {
   "dek": "Revenue of $148.8M sits against a -$784.5M cash burn and a -658.1% operating margin. Certification, not demand, is the gate between here and a ridesharing business.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $148.8M trailing twelve months, +557.2% year over year.",
-    "Profitability: -658.1% operating margin and -899.2% net margin.",
-    "Cash: -$784.5M free cash flow, a -527.2% margin.",
-    "Scorecard: 42/100 average percentile across the factor screens."
+    "Revenue of $148.8M is almost entirely new, up 557.2%, but the operating margin is -658.1% and the business is still pre-commercial.",
+    "Free cash flow was -$784.5M, so the $1.50B net cash balance covers roughly two years at the trailing burn.",
+    "The September quarter produced $55.1M of revenue against $193.4M of cash use; consensus expects revenue to fall to $20.2M in the December quarter.",
+    "At 16.4x sales there is no earnings multiple to anchor the price; certification timing and unit cost are the only variables that matter."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1819848/000181984826000160/joby-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819848&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Joby Aviation, Inc. generated $148.8M of revenue over the last twelve months, +557.2% versus the prior year. The business depends on contract wins, launch execution and the path from backlog to cash flow.",
-      "The latest reported quarter was Q3 FY26, with $55.1M of revenue and an operating margin of -504.8%. The stock closed at $4.38 on 2026-11-17, giving a market capitalization of $4.5B.",
-      "The shares sit 0% of the way up their 52-week range ($4.37 to $16.58). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Revenue of $55.1M in the September quarter was a record, and it came with a -504.8% operating margin and $193.4M of cash use. The top line is growing because early flight and service work is being booked, not because a commercial network is running. The result matters for what it does not show: there is still no certified aircraft carrying paying passengers at scale. Until there is, the income statement remains a spending plan with a small revenue offset.",
+      "The business is vertically integrated by design. Joby intends to own the aircraft, the factory and the operating airline, which captures more of the value chain than selling aircraft to operators would. It also means funding certification, production tooling, pilots, maintenance and landing sites before the first fare. Flight Services is 100% of reported revenue, a single line that hides the different economics of flight testing, early operations and service work.",
+      "Cash is the clock. Net cash of $1.50B against a $3.9B market value means the enterprise is valued at about $2.4B, or 16.4x sales. The burn is the number that matters: at -$784.5M trailing, the cash covers less than two years, and the December quarter is expected to bring less revenue. A financing before certification is the base case, not a tail risk, and the price already reflects that expectation today."
     ],
-    "quote": "Certification is a binary gate. Until the regulator signs the design and the production system, there is no service to sell, however good the aircraft is."
+    "quote": "Joby has built an aircraft and an airline organisation; the cash balance is financing the gap until the regulator allows the two to meet."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -55,35 +55,50 @@ export const JOBY: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 619.5% a year across the fiscal years in the dataset, and the latest quarter changed +144.0% year over year. Third-party estimates for the current fiscal year point to $138.9M of revenue and -$1.01 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -658.1% and return on invested capital of -307.6% are the filters to watch as revenue scales."
+      "Every dollar of Joby's revenue today comes from activity that precedes commercial service: flight testing, early operations and service work. The growth rate is therefore not a demand signal. The demand signal will be the first certified route and the load factor it achieves. Until then, the revenue line measures how much of the certification programme can be billed rather than how large the market is. That is a narrow definition of growth, but it is the honest one.",
+      "The addressable market is short trips over congested roads, where the alternative is a slow car journey. The unit economics depend on four variables: seats filled, trips per aircraft per hour, aircraft ownership cost and maintenance plus energy per flight hour. Utilisation is the one that decides everything, because an idle aircraft still depreciates and still needs a crew. None of those variables has been demonstrated at scale.",
+      "Consensus does not assume a smooth ramp. FY2026 revenue is estimated at $138.9M, below the trailing $148.8M, and the December quarter is expected at $20.2M, 34.4% below the year-earlier figure and well below the September quarter. FY2027 is estimated at $198.1M, up 42.6%, on two analysts. The estimates are thin and volatile, which is appropriate for a company whose revenue depends on certification milestones rather than on a sales pipeline."
+    ],
+    "bullets": [
+      {
+        "title": "Certification",
+        "detail": "Design and production approval are sequential gates; a delay adds cost without adding revenue, and the December estimate already assumes a pause."
+      },
+      {
+        "title": "Manufacturing cost",
+        "detail": "A hand-built prototype does not prove serial production; the cost per aircraft at volume decides whether the service can be priced to fill seats."
+      },
+      {
+        "title": "Utilisation",
+        "detail": "Trips per aircraft per day and load factor determine whether the airline side covers its crew, maintenance and landing costs."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -658.1%, the net margin is -899.2% and diluted EPS is -$0.71. The latest quarter's operating margin was -504.8%.",
-      "Return on equity is -76.6%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $55.1M, an operating margin of -504.8% and a net margin of -384.5%."
+      "Percentage margins on $148.8M of revenue are not a useful way to read the business. The operating loss is the number: -658.1% of revenue, or roughly $979M on a trailing basis. That is the cost of certification, engineering, test aircraft and the operating organisation. The net margin of -462.8% is smaller in magnitude because non-operating items offset part of the operating loss. The revenue base is too small to absorb that.",
+      "The quarterly progression shows the spending rate rather than the business. Q1 FY2026 used $222.4M of cash, Q2 $201.8M and Q3 FY2026 $193.4M, while revenue climbed from $24.2M to $55.1M. The operating loss narrowed from -963.4% to -504.8% partly because the revenue denominator grew. In dollar terms, the loss is still large, the trend is flat, and the dollar loss is what has to be funded.",
+      "There is no return on capital to measure in a meaningful way. ROIC of -31.6% and ROE of -39.4% are negative because the invested capital is a development programme, not a fleet earning fares. The comparison that matters is cash used per quarter against cash raised, not operating margin against a peer. Until the first aircraft enters service, those returns describe spending, not economics."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$784.5M, a -527.2% margin. The balance sheet carries $1.5B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$784.5M over the last twelve months and net debt was -$1.5B; interest cover was n/a."
+      "Cash used in operations was $509.9M in FY2025, capex $53.9M and free cash flow -$563.8M. Trailing free cash flow is -$784.5M, a -527.2% margin, as spending accelerated through 2026. The September quarter alone used $193.4M. At the current rate the next twelve months will consume more than the last, and that is the number to annualise when thinking about runway.",
+      "The $1.50B cash balance covers roughly two years at the trailing rate. It is higher than a year earlier despite the burn, which implies new financing during the period; the reported figures do not break out how much came from equity versus debt. Either way, the company is funding a factory and an airline before either has a customer, so the next raise is a question of when rather than whether.",
+      "Capital allocation has no dividend or buyback to discuss. Capex rose from $40.6M in FY2024 to $53.9M in FY2025 and is running higher in 2026 as manufacturing tooling is installed. That spending is necessary for certification and production, but it also raises the fixed cost that has to be covered once service starts. The risk is a certification delay that leaves the factory built and the aircraft uncertified."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $8.84; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Sixteen times sales is the only multiple that can be computed, because there are no earnings and free cash flow is negative. The sales base is $148.8M, so the multiple is really a price on the certification option rather than on current revenue. EV/Sales of 16.4x is high against AVAV and Kratos at 2.4x, but those businesses already sell certified products; Joby is selling a future fleet.",
+      "What the multiple assumes is a certified aircraft, a production line and a service that fills seats. On the FY2027 revenue estimate of $198.1M, the enterprise value would still be about 12x sales, which is not a valuation that a mature airline would command. The price only makes sense if revenue grows into the hundreds of millions after certification, and that is a 2028 or later event.",
+      "A certification slip that forces another equity raise at a lower price would break it. The 52-week range of $4 to $17 shows the market has already repriced the timetable once. A successful certification would not automatically justify the multiple either; the unit economics of the first routes would then become the test, and no route has yet been flown commercially."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "9 analysts contribute to the third-party consensus. The mean target is $8.84, with a range of $4.00 to $18.00.",
-      "Current-year estimates call for $138.9M of revenue and -$1.01 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 9 analysts with a mean target of $8.84; third-party estimates can change without notice."
+      "Nine analysts cover Joby, with a mean target of $9 and a range of $4 to $18, in Yahoo Finance's 18 November 2026 consensus. That is an unusual spread for a company with a single certification path, and it reflects different assumptions about timing rather than about demand.",
+      "Only one analyst contributes to the FY2026 estimate of $138.9M of revenue and a loss of $1.01 per share; FY2027 has two, at $198.1M and -$0.65. The 30-day EPS revision is +31.2%, a large move on a small estimate base. The consensus therefore assumes revenue falls in the December quarter and resumes growth in 2027, which is a timetable assumption as much as a financial forecast."
     ]
   },
   "risks": {
@@ -147,5 +162,7 @@ export const JOBY: StockStory = {
       "Which certification approvals are still outstanding?",
       "What occupancy and trips per day does the fare model require?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

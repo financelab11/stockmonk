@@ -7,20 +7,20 @@ export const GMED: StockStory = {
   "dek": "The 2023 combination with NuVasive transformed the revenue base. Margins have since recovered, but the latest quarter shows a spine market that is no longer growing quickly.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $3.1B trailing twelve months, +13.4% year over year.",
-    "Profitability: 21.6% operating margin and 25.3% net margin.",
-    "Cash: $766.6M free cash flow, a 24.4% margin.",
-    "Scorecard: 65/100 average percentile across the factor screens."
+    "Revenue of $3.1B grew 13.4%, but the September quarter fell 0.7% and the December estimate assumes a 5.2% decline, so the NuVasive uplift has annualised.",
+    "A 21.6% operating margin and 24.4% free cash flow margin are the strongest in the device group after Krystal, and the 8.6x EBITDA multiple is the lowest.",
+    "Net cash of $871.2M and $766.5M of free cash flow fund the integration without leverage, leaving capital allocation as the open question.",
+    "Fourteen analysts average $93 against a $69 price, a $75 to $110 range, and EPS estimates are essentially unchanged over three months."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1237831/000162828026011209/gmed-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001237831&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "GLOBUS MEDICAL INC. generated $3.1B of revenue over the last twelve months, +13.4% versus the prior year. The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue.",
-      "The latest reported quarter was Q3 FY26, with $763.7M of revenue and an operating margin of 23.2%. The stock closed at $69.99 on 2026-11-17, giving a market capitalization of $9.3B.",
-      "The shares sit 2% of the way up their 52-week range ($69.49 to $101.40). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "The September quarter was the first year-on-year decline in the series, $763.7M against $769.0M, and it arrived with a 23.2% operating margin, the best of the year. That pairing is the whole argument: the cost side of the NuVasive combination is now working, and the revenue side has stopped. The December estimate of $783.4M implies a 5.2% decline, so the consensus expects the stall to persist into year-end. A company that grew 60.6% two years ago is now being valued as a cash annuity.",
+      "Globus sells spine implants and the instruments and robots that place them. The implant is consumed in every fusion, so revenue is a procedure count; the robot is capital equipment that stays in the hospital and pulls implants through. The 2023 combination with NuVasive doubled the revenue base and brought a second implant portfolio, international reach and a manufacturing footprint still being rationalised. Spine is a scale business, with trays, training and contracts all getting cheaper per case, which is why the margin recovered so sharply.",
+      "The market value is $9.1B, 16.3x earnings and 8.6x EBITDA against a medtech median of 21.2x EBITDA. The discount is not a hidden-value story: it reflects a mature procedure market with constant price erosion, and a revenue line that has started to shrink. The counterweight is cash, with a 24.4% free cash flow margin, $871.2M of net cash and an 8.4% yield, which is what a low-growth device maker should trade on."
     ],
-    "quote": "Spine surgery is a mature procedure. The growth comes from taking share, selling more enabling technology per case and expanding outside the United States."
+    "quote": "Globus bought NuVasive for scale, got the margin, and now has to prove the combined spine franchise can grow without another deal."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,50 @@ export const GMED: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 24.6% a year across the fiscal years in the dataset, and the latest quarter changed -0.7% year over year. Third-party estimates for the current fiscal year point to $3.1B of revenue and $4.98 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 21.6% and return on invested capital of 12.3% are the filters to watch as revenue scales."
+      "Spine fusion is a mature procedure, so the growth question is share rather than market. Globus grew revenue 60.6% in FY2024 and 16.7% in FY2025, but those rates include NuVasive; the September quarter's -0.7% is the first clean read on the combined base. Organic growth is not disclosed, so the split between acquired and existing revenue is inferred from the shape of the quarterly series rather than reported.",
+      "Consensus assumes $3.1B of revenue in 2026, 5.8% growth, and $3.3B in 2027, 5.5%, with EPS rising 25.1% and then 7.2%. The 2026 EPS increase on 5.8% revenue growth is the integration synergies landing; the 2027 step-down to 7.2% is the point at which they run out. That is a classic post-merger profile, and it is why the multiple is 8.6x EBITDA rather than the 13.7x Insulet commands.",
+      "Durability depends on pricing. Hospitals negotiate spine implants through group purchasing organisations, and price erosion is constant, so volume has to grow just to hold revenue flat. Globus offsets price with mix, through more complex procedures, more enabling technology and more international volume. If the mix stops improving, the 69.1% gross margin is the first place it shows, and the 23.2% operating margin follows."
     ],
     "bullets": [
       {
-        "title": "Share gains",
-        "detail": "Spine is a share game. Winning a surgeon or a hospital account is the main source of growth."
+        "title": "Procedure volume",
+        "detail": "Every fusion consumes screws, rods and cages, so the September quarter's 0.7% decline is a procedure count that has stopped growing."
+      },
+      {
+        "title": "Integration synergies",
+        "detail": "The operating margin went from 10.2% in June 2025 to 23.2% in September 2026, which is the NuVasive cost base being absorbed."
       },
       {
         "title": "Robotics attach",
-        "detail": "Each robot placement creates a reason to use Globus implants and a service revenue stream."
-      },
-      {
-        "title": "International",
-        "detail": "The NuVasive base added distribution in markets where Globus had less reach."
+        "detail": "The robot is capital equipment that stays in the hospital and pulls implants through, so placements are a leading indicator for the implant line."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 21.6%, the net margin is 25.3% and diluted EPS is $4.06. The latest quarter's operating margin was 23.2%.",
-      "Return on equity is 16.6%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $763.7M, an operating margin of 23.2% and a net margin of 18.5%."
+      "The margin recovery is the cleanest part of the story. Operating margin went from 6.6% in FY2024 to 16.3% in FY2025 and 21.6% trailing, and the quarterly path was 16.2%, 10.2%, 17.9%, 20.5%, 19.8%, 23.1% and 23.2%. That is not one quarter of cost cutting; it is a merged cost base being rationalised over two years. Net margin followed from 4.1% to 18.3% and 17.8%, with some volatility from items below the operating line.",
+      "Gross margin of 69.1% is normal for spine. The operating margin of 21.6% is not: it is the best in the device group after Krystal, and it is achieved with a direct sales force and instrument tray inventory that hospitals expect to have available for every case. The 8.6x EBITDA multiple says the market does not believe the margin is durable, which is the tension in the numbers.",
+      "Return on invested capital of 11.3% and return on equity of 11.6% are below where a 21.6% operating margin would normally put them, because the NuVasive goodwill and intangibles sit in the invested capital base. That is the honest measure of the deal: the operating business is good, the price paid for it was high, and the returns improve only as the acquired capital is earned back or written down."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $766.6M, a 24.4% margin. The balance sheet carries $436.9M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $766.6M over the last twelve months and net debt was -$436.9M; interest cover was n/a."
+      "A 24.4% free cash flow margin is the highest in the device group and well above the 21.6% operating margin. Capex was $164.7M in FY2025 and $115.4M in FY2024, so the company is investing in manufacturing and instrument trays, but cash generation outstrips it. The quarterly figures are consistent, at $162.7M, $176.6M and $224.8M through fiscal 2026, with no working-capital swing large enough to distort the trend.",
+      "Net cash of $871.2M means there is no net debt and no interest cover ratio to report. That is a deliberate outcome of a merger funded largely with equity and cash rather than debt, and it leaves the balance sheet free for the next acquisition or for buybacks. The absence of leverage also means the 11.6% return on equity is a clean operating return rather than a levered one.",
+      "No dividend is paid. The $871.2M of net cash against a $9.1B market value is 10% of the equity, and the 8.4% free cash flow yield is the highest in the group. The question is what management does with it: another spine acquisition would add scale but also more goodwill, while repurchasing shares at 8.6x EBITDA would be accretive on any reasonable assumption."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 11.7x trailing earnings and 9.2x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $93.43; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Eight and a half times EBITDA is the lowest multiple in the device group and less than half the 21.2x median. The discount is a judgement about growth: 13.4% trailing revenue growth flatters a company whose latest quarter declined 0.7%, and the 2027 estimate is 5.5%. Against that, the 24.4% free cash flow margin and 8.4% cash yield are the highest in the group, and the multiple is supported by cash rather than by a growth forecast.",
+      "Insulet at 13.7x EBITDA grows 26.5% and earns an 18.4% operating margin; Penumbra at 57.1x grows 17.0% at 12.1%. Globus at 8.6x grows 13.4% at 21.6%, with a better margin than either. The market is not paying for the margin because it does not expect it to last: spine pricing erodes, and the September revenue decline is the evidence. On the 2026 estimate of $4.98 the P/E is 13.9x, and on $5.34 for 2027 it is 12.9x.",
+      "What would justify a re-rating is a return to low single-digit volume growth with the 23% margin intact, which would make the cash yield a return rather than a liquidation. What would break the current price is a year of declining revenue, because the operating leverage that produced the margin recovery would reverse and the 8.6x multiple would become 10x on lower earnings."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "14 analysts contribute to the third-party consensus. The mean target is $93.43, with a range of $75.00 to $110.00.",
-      "Current-year estimates call for $3.1B of revenue and $4.98 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 14 analysts with a mean target of $93.43; third-party estimates can change without notice."
+      "A $75 to $110 range around a $93 mean is a 35% premium to the $69 price at the midpoint, and it is the strongest positive skew in the device group. The low end is still 9% above the market, which means the cautious case is cheap rather than broken.",
+      "Estimates have been stable: EPS down 0.4% over thirty and sixty days, up 0.3% over ninety. The last four quarters all beat the consensus figure. The 2026 estimate of $4.98 implies 25.1% EPS growth on 5.8% revenue growth, so the consensus is assuming the margin holds at 23% and the share count falls. The 2027 estimate of $5.34 assumes only 7.2% growth, which is where the integration tailwind ends."
     ]
   },
   "risks": {
@@ -158,5 +159,7 @@ export const GMED: StockStory = {
       "How many robots are placed, and what share of procedures use them?",
       "Can the 23% operating margin hold if revenue stays flat?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

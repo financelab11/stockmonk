@@ -7,20 +7,20 @@ export const RYTM: StockStory = {
   "dek": "IMCIVREE treats a small group of genetic obesity disorders with a daily injection. Revenue is growing quickly and the operating loss is narrowing, but the market is small and each new patient is expensive to find.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $280.7M trailing twelve months, +61.0% year over year.",
-    "Profitability: -66.7% operating margin and -69.0% net margin.",
-    "Cash: -$26.3M free cash flow, a -9.4% margin.",
-    "Scorecard: 44/100 average percentile across the factor screens."
+    "Revenue reached $92.1M in Q3 FY2026, 79.5% above the prior-year quarter, while the operating margin improved to minus 42.6%.",
+    "The operating loss has narrowed over four quarters, from minus 102.6% to minus 42.6%, as the fixed cost base stayed put.",
+    "Free cash flow of minus $26.3M is close to breakeven, and net cash of $218.3M covers the remaining gap without a raise.",
+    "FY2027 revenue of $578.2M is 74.9% above FY2026, a step that depends on label expansion in additional genetic subtypes."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1649904/000162828026012399/rytm-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001649904&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Rhythm Pharmaceuticals, Inc. generated $280.7M of revenue over the last twelve months, +61.0% versus the prior year. The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue.",
-      "The latest reported quarter was Q3 FY26, with $92.1M of revenue and an operating margin of -42.6%. The stock closed at $116.61 on 2026-11-17, giving a market capitalization of $8.1B.",
-      "The shares sit 88% of the way up their 52-week range ($74.50 to $122.20). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Four consecutive quarters have taken Rhythm's operating margin from minus 102.6% to minus 42.6%. Revenue over the same span rose from $51.3M to $92.1M, so the improvement is operating leverage rather than cost-cutting: the specialty sales force, medical affairs and patient services were already in place. A rare-disease launch that reaches this point is doing what the model promised, and the remaining loss is the gap between the current patient count and the fixed base.",
+      "IMCIVREE treats melanocortin-4 receptor pathway obesities, a group of genetic disorders that cause extreme hunger and severe obesity from childhood. The drug is a daily injection, priced like an orphan product, with an 88.2% gross margin. The constraint is diagnosis: patients are identified through genetic testing, and the doctors who see them may encounter a handful in a career. Every step from test to prescription to reimbursement is a filter, and the filters explain why revenue is $280.7M rather than larger.",
+      "The equity is valued at 27.0x trailing sales, a premium to Krystal at 18.3x and Insmed at 21.0x, both of which have larger revenue bases. The premium is a bet on the label expanding into additional subtypes, which would add patients to an existing commercial infrastructure. Net cash of $218.3M and a trailing cash outflow of $26.3M mean the funding risk has largely receded; the clinical and reimbursement risk has not."
     ],
-    "quote": "In an ultra-rare disease, the number of patients is knowable. The hard part is finding them, diagnosing them and getting a payer to agree that the drug is worth the price."
+    "quote": "An orphan drug is priced for the severity of the disease and paid for one diagnosed patient at a time."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,50 @@ export const RYTM: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 178.5% a year across the fiscal years in the dataset, and the latest quarter changed +79.6% year over year. Third-party estimates for the current fiscal year point to $330.6M of revenue and -$4.94 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -66.7% and return on invested capital of -54.0% are the filters to watch as revenue scales."
+      "Label expansion, not price, is the next leg: the FY2027 estimate of $578.2M is 74.9% above FY2026. That is a large step for a product whose approved indications are rare, and it implies additional genetic subtypes contribute within the forecast period. The company is testing setmelanotide in heterozygous POMC or LEPR deficiency, SH2B1 deficiency, Smith-Magenis syndrome and other MC4R pathway disorders. Each is small; together they are the difference between a $330M business and a $578M one.",
+      "The commercial funnel is the other variable. Diagnosis rates determine how many patients exist in practice, and prior authorisation determines how many of those become paying prescriptions. Neither is reported in the financial statements, so the revenue line is the only observable proxy. When revenue grows 79.5% year over year on a fixed cost base, both are working; when it slows, the cause is not visible from the outside.",
+      "The durability of the growth depends on retention, which should be high in a lifelong condition, and on competition from other treatments for genetic obesity. A high price per patient invites alternatives, and the label is narrow enough that a single competitor can matter. The estimates assume the current trajectory continues; the quarterly revenue line is the test of whether it does."
     ],
     "bullets": [
       {
-        "title": "Approved indications",
-        "detail": "The current revenue base. Penetration depends on diagnosis and payer coverage."
+        "title": "Additional subtypes",
+        "detail": "Heterozygous POMC or LEPR deficiency, SH2B1 deficiency and Smith-Magenis syndrome could add identifiable patients to the existing commercial base."
       },
       {
-        "title": "New subtypes",
-        "detail": "Additional MC4R pathway disorders in Phase II. Each adds a small, genetically defined population."
+        "title": "Diagnosis funnel",
+        "detail": "Genetic testing and specialist education are the constraint; a diagnosed patient is the raw material of revenue."
       },
       {
-        "title": "International",
-        "detail": "Launches outside the United States add patients but require local reimbursement and regulatory work."
+        "title": "Payer access",
+        "detail": "Prior authorisation and genetic confirmation slow conversion from prescription to paid dispense, particularly at a high price per patient."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -66.7%, the net margin is -69.0% and diluted EPS is -$2.90. The latest quarter's operating margin was -42.6%.",
-      "Return on equity is -96.2%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $92.1M, an operating margin of -42.6% and a net margin of -44.9%."
+      "The 88.2% gross margin leaves little room for doubt about product economics; the loss sits in the fixed cost base below it. Revenue of $92.1M in Q3 FY2026 carried an operating margin of minus 42.6%, against minus 102.6% a year earlier on $51.3M. The incremental revenue dropped through at a high rate because the sales force and patient-services organisation did not need to grow proportionally.",
+      "Net margin was minus 44.9% in the quarter, and the loss per share was $0.61 in Q3 FY2026 against $0.82 a year earlier. The trailing figures are still heavily influenced by the earlier, smaller revenue base: operating margin is minus 66.7% and net margin minus 69.0%. Return on invested capital of minus 77.6% and return on equity of minus 220.3% reflect a small equity base against accumulated losses, and neither is a meaningful comparison until the company crosses breakeven.",
+      "The comparison with Krystal is instructive. Krystal converts 66.0% of revenue into free cash flow at a 48.4% operating margin; Rhythm converts minus 9.4% at minus 66.7%. The gap is scale, not product quality: both have gross margins near 90%, and both sell to concentrated specialist prescribers. Rhythm's margin should keep closing as revenue grows, provided the label expansion arrives."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$26.3M, a -9.4% margin. The balance sheet carries $320.9M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$26.3M over the last twelve months and net debt was -$320.9M; interest cover was n/a."
+      "A trailing free cash outflow of $26.3M is close enough to breakeven that the direction of travel matters more than the level. FY2025 burned $116.6M, and the most recent reported quarter burned $26.3M, so the improvement is recent and sharp. Capital expenditure is negligible, at $953,000 in FY2025, which means the cash profile is almost entirely operating. That is unusually light for a commercial-stage company, and it means the cash story is almost entirely about the operating loss.",
+      "Net cash of $218.3M against that burn gives the company room to reach breakeven without another financing if the revenue trajectory holds. The company pays no dividend and has announced no repurchase programme, and neither is likely while label expansion is the priority. The balance sheet is clean enough that the cash-flow statement is now a confirmation of the operating story rather than a warning about it.",
+      "Working capital is the unobserved variable. A growing specialty pharmaceutical business builds receivables and, at times, inventory, and the reporting does not break those out. If revenue keeps compounding at this rate, a working-capital drag is likely to appear before the operating line reaches breakeven, which is why the quarterly cash figure can lag the margin improvement. That is not a solvency issue at $218.3M of net cash, but it is a reason to read the quarterly cash line alongside the margin rather than instead of it."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $140.12; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Twenty-seven times trailing sales for a company still losing money is a bet on the 2027 estimate. On FY2026 revenue of $330.6M the multiple is lower but still a premium, and on FY2027 revenue of $578.2M it approaches the range of profitable specialty peers. The market is not valuing the current loss; it is valuing the point at which the label expansion turns the fixed cost base into operating leverage.",
+      "Krystal, the closest comparable with a profitable rare-disease product, trades at 18.3x sales, 42.2x earnings and a 3.3% free cash flow yield. Rhythm has no earnings and a negative cash yield, so the comparison rests entirely on revenue growth: 61.0% trailing against Krystal's 26.0%. The premium is defensible while that gap persists and questionable once it closes. The market is paying for the growth differential, and the differential has to persist for the premium to hold.",
+      "The multiple holds if the newer subtypes start contributing, which would extend the growth runway beyond the current label. A failed label-expansion trial would undercut it, because the FY2027 estimate depends on patients who are not yet addressable. The cash balance removes the financing risk from that debate, which makes the clinical readout the single largest swing factor. Everything else, including pricing and diagnosis, is second order by comparison."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "17 analysts contribute to the third-party consensus. The mean target is $140.12, with a range of $112.00 to $168.00.",
-      "Current-year estimates call for $330.6M of revenue and -$4.94 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 17 analysts with a mean target of $140.12; third-party estimates can change without notice."
+      "Seventeen analysts, a mean of $140 and a range of $112 to $168: the dispersion is narrow for a company with a binary label-expansion story. The low end of $112 sits barely below the $113 share price, so the coverage is uniformly constructive. The tone of the coverage is positive, with two neutral analyst views.",
+      "FY2026 revenue is estimated at $330.6M and FY2027 at $578.2M according to Yahoo Finance data dated 18 November 2026 and cross-checked with Nasdaq, with losses of $4.94 and $1.30 per share. The seven-day EPS revision is 62.2%, a large move that suggests estimates were updated after the latest quarter. The numbers embed a near-doubling of revenue and a loss that shrinks by 73.7%."
     ]
   },
   "risks": {
@@ -158,5 +159,7 @@ export const RYTM: StockStory = {
       "Which new indication is closest to contributing revenue?",
       "Can the company reach operating profitability without another financing?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

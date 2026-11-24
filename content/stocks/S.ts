@@ -7,20 +7,20 @@ export const S: StockStory = {
   "dek": "Revenue passed $1B and free cash flow turned positive, yet a 29.5% operating loss shows how much of the model still depends on outspending larger rivals.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $1.1B trailing twelve months, +21.1% year over year.",
-    "Profitability: -29.5% operating margin and -31.0% net margin.",
-    "Cash: $56.5M free cash flow, a 5.1% margin.",
-    "Scorecard: 44/100 average percentile across the factor screens."
+    "Trailing revenue reached $1.1B, up 21.1%, with $56.5M of free cash flow and a -29.5% operating margin.",
+    "Gross margin fell from 74.1% in FY2026 to 72.5% trailing, while the July quarter's operating loss widened to -31.1%.",
+    "At 7.3x sales the shares are valued on revenue because a -31.0% net margin makes earnings multiples meaningless.",
+    "Thirty analysts carry a $25 mean target that equals the price, with a $18 to $31 range."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1583708/000158370826000020/s-20260131.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001583708&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "SentinelOne, Inc. generated $1.1B of revenue over the last twelve months, +21.1% versus the prior year. The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer.",
-      "The latest reported quarter was Q2 FY27, with $292M of revenue and an operating margin of -31.1%. The stock closed at $21.15 on 2026-11-17, giving a market capitalization of $7.4B.",
-      "The shares sit 64% of the way up their 52-week range ($11.81 to $26.50). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "The endpoint agent now protects enough estates to generate $1.1B of trailing revenue, up 21.1%, and $56.5M of free cash flow. The operating loss is still -29.5%, and the July 2026 quarter widened it to -31.1% from -28.8% in April. Revenue of $292.0M was a record; the profit line was not. That combination, growth with a persistent operating loss, is the case the shares have to justify. The market has rewarded the revenue line, with the shares up 58.3% over a year, while the operating margin remains far from breakeven.",
+      "The product is a single agent that covers prevention, detection, response and hunting, with modules for cloud workloads, identity and a data lake that attach to the same sensor. Buyers are enterprise security teams, reached largely through channel partners who bundle the licence into a wider agreement. Gross margin of 72.5% is below a pure licence model because telemetry storage and querying are real costs that grow with usage rather than staying flat.",
+      "At 7.3x sales the shares are valued on revenue because there is no meaningful earnings multiple, and the 152.6x free-cash-flow multiple shows how thin the cash line is relative to the market value. Peer median growth is 23.0%, slightly above SentinelOne's 21.1%, and the peer median operating margin is -0.1% against -29.5%. The multiple therefore assumes a margin convergence that has not started. At the current price, the market is paying for the revenue base and giving little credit for a margin that has not arrived."
     ],
-    "quote": "Endpoint security is a replacement market. Every dollar SentinelOne wins comes out of an incumbent's renewal, which makes bundling a bigger risk than any single rival."
+    "quote": "SentinelOne converts a 72.5% gross margin into positive cash flow and a 29.5% operating loss at the same time; the difference is stock compensation and billing timing."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -51,35 +51,46 @@ export const S: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 66.8% a year across the fiscal years in the dataset, and the latest quarter changed +20.6% year over year. Third-party estimates for the current fiscal year point to $1.2B of revenue and $0.32 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -29.5% and return on invested capital of -31.6% are the filters to watch as revenue scales."
+      "Module attachment is the growth mechanism. A customer that starts with endpoint protection can add cloud, identity and data-lake coverage without deploying a second sensor, so expansion revenue comes from the installed base rather than from new logos. Revenue went from $821.5M in FY2025 to $1.0B in FY2026 and $1.1B trailing, and the July quarter was 20.6% above the year-earlier $242.2M. That is the difference between expansion and acquisition: the sensor is already deployed, so the incremental sale is a module, not a new platform.",
+      "Consensus revenue decelerates rather than stalls: $1.2B for the current year, up 20.3%, and $1.4B next, up 17.9%. That is below the 23.0% peer median, so the consensus is not pricing share gains against larger platform vendors that can bundle endpoint protection into an existing agreement. The company does not disclose net revenue retention, which is the variable that would separate expansion from new-logo growth."
+    ],
+    "bullets": [
+      {
+        "title": "Module attach",
+        "detail": "Adding cloud, identity and data-lake modules to an existing agent is cheaper than winning a new customer."
+      },
+      {
+        "title": "Channel route",
+        "detail": "Partners place the licence inside an existing security budget, so growth depends on displacing an incumbent."
+      },
+      {
+        "title": "AI workloads",
+        "detail": "Agent-run and cloud workloads shift where code executes, which may require coverage beyond the traditional endpoint."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -29.5%, the net margin is -31.0% and diluted EPS is -$1.01. The latest quarter's operating margin was -31.1%.",
-      "Return on equity is -23.7%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q2 FY27: revenue of $292M, an operating margin of -31.1% and a net margin of -32.0%."
+      "A 29.5% operating loss against a 72.5% gross margin means sales and research spending still exceed the gross profit pool. The quarterly path has been -28.3%, -29.5%, -28.8% and -31.1%, so the loss widened as revenue grew, and the July quarter's -$0.27 of EPS compared with -$0.18 in October 2025. Gross margin fell from 74.1% in FY2026 to 72.5% trailing, which suggests the cost of telemetry is rising with usage.",
+      "Returns are negative by construction. ROIC is -17.7% and ROE -23.5%, against peer medians of -1.1% and a 26.9x earnings multiple for the group. The comparison that matters is operating margin: GitLab runs at -8.5%, Tenable at 4.4%, and SentinelOne at -29.5%. The gap is the distance the business has to travel before the current sales multiple can be supported by earnings."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $56.5M, a 5.1% margin. The balance sheet carries $628.7M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $56.5M over the last twelve months and net debt was -$628.7M; interest cover was n/a."
+      "Positive free cash flow alongside a 29.5% operating loss is the defining feature. The trailing figure is $56.5M, a 5.1% margin, and FY2026 produced $75.9M, or 7.4%, on operating cash flow of $76.6M and negligible capex. The bridge is stock-based compensation, which is expensed but not paid in cash, and annual billing in advance. Neither is unlimited, and the quarterly path has already swung from $38.1M to -$6.6M.",
+      "Net cash of $655.2M is 7.6% of the market value and removes solvency risk; interest cover is not meaningful because there is no debt. Neither a dividend nor a buyback is reported. The capital allocation question is whether the cash is spent on sales capacity to reach operating profit or retained as a buffer, and the positive cash flow gives it room to choose. At 7.6% of the market value, the balance is large enough to fund several years of the current cost structure, but not large enough to buy a profit inflection."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $24.92; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "A 7.3x sales multiple is the only conventional measure available, because a -31.0% net margin makes P/E and EV/EBITDA meaningless. The free-cash-flow multiple is 152.6x and the yield 0.7%, so the cash return is thin relative to the market value. Peer median growth is 23.0% and the median operating margin is -0.1%; SentinelOne is growing slower and losing much more, which is the wrong side of both comparisons.",
+      "At the peer median 20.3% free-cash-flow margin, $1.1B of revenue would produce about $223M, or 39x the market value. That is the scale of the improvement the multiple requires. The path runs through the operating margin, which has to move from -29.5% toward the peer median before the cash margin can expand; on the current trend, that is several years away. Even at the peer median cash margin, the multiple would still be 39x, which leaves little room for a slower margin recovery; the case depends on the operating margin moving faster than the revenue multiple compresses."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "30 analysts contribute to the third-party consensus. The mean target is $24.92, with a range of $17.50 to $31.00.",
-      "Current-year estimates call for $1.2B of revenue and $0.32 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 30 analysts with a mean target of $24.92; third-party estimates can change without notice."
+      "Thirty analysts in the Yahoo Finance survey of 18 November 2026 follow the shares, the widest coverage in the group, with a mean target of $25 that equals the current price. The range is $18 to $31. The ninety-day EPS revision is -8.2%, while the seven, thirty and sixty-day figures are flat.",
+      "The consensus EPS of $0.32 for the current year compares with a -$1.37 GAAP loss in FY2026, so the estimate is an adjusted number that excludes stock compensation and other charges. That is the right way to forecast cash earnings and the wrong way to describe economic profit. The mean target matching the price suggests the covering group sees the shares as fairly valued while the margin convergence plays out."
     ]
   },
   "risks": {
@@ -143,5 +154,7 @@ export const S: StockStory = {
       "How large is stock compensation relative to the free cash flow being reported?",
       "Does the 72.5% gross margin hold as data volumes grow?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

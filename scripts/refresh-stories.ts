@@ -253,7 +253,12 @@ const companies = loadCompanies();
 
 for (const [ticker, story] of Object.entries(STOCK_STORIES)) {
   if (ONLY && ticker !== ONLY) continue;
-  if (story.narrativeSource === "handwritten" && !ONLY && !FORCE) {
+  if (
+    (story.narrativeSource === "handwritten" ||
+      story.narrativeSource === "curated") &&
+    !ONLY &&
+    !FORCE
+  ) {
     skipped += 1;
     continue;
   }

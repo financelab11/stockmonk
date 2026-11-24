@@ -7,20 +7,20 @@ export const AIG: StockStory = {
   "dek": "Revenue fell from $52.2B in FY2021 to $27.7B as businesses were sold, so the headline contraction says more about portfolio reshaping than about demand. What remains is a property and casualty underwriter judged on its combined ratio.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $27.7B trailing twelve months, +1.2% year over year.",
-    "Profitability: 14.5% operating margin and 11.9% net margin.",
-    "Cash: n/a free cash flow, a n/a margin.",
-    "Scorecard: 43/100 average percentile across the factor screens."
+    "Revenue of $27.7B is 47% below the $52.2B reported in FY2021, the result of divestitures rather than weak demand.",
+    "Trailing operating margin is 14.5% and return on equity 8.5%, roughly half of Chubb's 15.3% return on equity.",
+    "Net cash of $12.0B and interest cover of 9.9x give the balance sheet room that the income statement does not.",
+    "Consensus FY2026 EPS of $8.23 implies 16.1% growth and FY2027 a further 6.3%, a shape that depends on the expense ratio."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/5272/000000527226000023/aig-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000005272&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "AMERICAN INTERNATIONAL GROUP INC. generated $27.7B of revenue over the last twelve months, +1.2% versus the prior year. The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns.",
-      "The latest reported quarter was Q3 FY26, with $7.4B of revenue and an operating margin of 15.0%. The stock closed at $81.26 on 2026-11-17, giving a market capitalization of $42.1B.",
-      "The shares sit 62% of the way up their 52-week range ($71.25 to $87.29). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "AIG reported $7.4B of revenue in the September quarter, up 15.6% on the year and the highest in the eight quarters shown, with a 15.0% operating margin and $1.60 of reported EPS. The margin was better than the 11.2% of a year earlier but below the 17.8% of the June quarter. Revenue growth has returned after five years of shrinkage, which makes the cost ratio the next chapter rather than the portfolio.",
+      "What remains is a commercial property and casualty underwriter, plus personal lines, accident and health, life and retirement, and mortgage insurance. International business is 52.6% of revenue and North America 47.4%. Large corporate risks are brokered and priced individually, mid-market business is more standardised, and the expense ratio carries the cost of a global organisation that a leaner competitor does not have to support. The strategy has been to concentrate on property and casualty, which is why the remaining company is more comparable with a pure underwriter.",
+      "AIG trades at 12.7x earnings, 3.9x EV/EBITDA and 1.1x sales, almost the same earnings multiple as Chubb's 12.6x while earning 8.5% on equity against Chubb's 15.3%. EV/EBITDA is not a meaningful measure for an insurer, because reserves and investments sit outside operating EBITDA. The P/E comparison is the one that matters, and it says the market is pricing the return gap rather than ignoring it. The 9.7x forward multiple suggests it does not expect that gap to close soon."
     ],
-    "quote": "A smaller insurer can be a better insurer. The question is whether the businesses that remain earn an underwriting profit, not whether the group still has the revenue it had in 2021."
+    "quote": "AIG trades at 12.7x earnings for an 8.5% return on equity while Chubb trades at 12.6x for 15.3%, and that gap is the argument."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,48 +52,49 @@ export const AIG: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -9.8% a year across the fiscal years in the dataset, and the latest quarter changed +17.2% year over year. Third-party estimates for the current fiscal year point to $28.9B of revenue and $8.23 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 14.5% and return on invested capital of 2.8% are the filters to watch as revenue scales."
+      "Revenue fell from $52.2B in FY2021 to $30.0B, $27.9B, $27.3B and $26.8B, then rose 1.2% to $27.7B trailing. The contraction was portfolio reshaping, not demand: businesses were sold and the remaining company is smaller and more comparable with a pure underwriter. The 42.5% drop in FY2022 is the divestiture year in one number, and the trailing increase is the first sign that the revenue base has stopped shrinking.",
+      "The quarterly sequence tells the same story more clearly: $6.8B, $7.1B, $6.4B, $6.5B, $6.7B, $7.1B and $7.4B across the last seven quarters. That is a 9% rise from the trough, and it is the first sustained upward trend since the divestitures. Premium growth of that order at a 15.0% margin is what the FY2026 EPS estimate of $8.23 depends on.",
+      "Consensus expects FY2027 EPS of $8.75, up 6.3%, a normalisation from the 16.1% expected in 2026. The deceleration implies the first year gets help from expenses or reserves that does not repeat. Without a combined ratio or an expense ratio in the reported figures, that assumption cannot be tested from the outside; the operating margin is the only proxy available."
     ],
     "bullets": [
       {
-        "title": "Underwriting improvement",
-        "detail": "A lower expense ratio and tighter claims handling lift the combined ratio without needing revenue growth."
+        "title": "Expense ratio",
+        "detail": "A global insurer with a complex history carries more administrative cost than a leaner competitor. The gap between AIG's 14.5% operating margin and Chubb's 22.3% is where the turnaround has to show."
       },
       {
         "title": "Commercial pricing",
-        "detail": "Rate increases in property and casualty expand the premium base when the market is tight."
+        "detail": "Commercial rates softening would hit a book that is already earning below-peer margins. Premium growth of 15.6% in the quarter is encouraging, but price and exposure are not separated in the figures."
       },
       {
-        "title": "Investment income",
-        "detail": "The float earns a bond yield that rises with reinvestment rates."
+        "title": "Reserves",
+        "detail": "Long-tail casualty claims develop for years. A reserve charge would hit earnings and credibility at the same time, and nothing in the reported margin shows reserve development."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 14.5%, the net margin is 11.9% and diluted EPS is $6.14. The latest quarter's operating margin was 15.0%.",
-      "Return on equity is n/a. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $7.4B, an operating margin of 15.0% and a net margin of 11.4%."
+      "Operating margin reached 25.6% in FY2021, 12.6% in FY2022, 10.3% in FY2023, 14.2% in FY2024 and 14.5% in FY2025, and is 14.5% trailing. The FY2021 figure belongs to a different company, before the divestitures; the post-2022 range is 10.3% to 14.5%, and AIG is at the top of it. The 2026 quarterly path, 14.8%, 17.8% and 15.0%, is consistent with a business holding that level rather than breaking out of it.",
+      "Returns are the gap. Return on equity is 8.5% and return on invested capital 8.5%, against Chubb's 15.3% and Progressive's 33.7%. Net margin is 11.9% against Chubb's 18.2%. EPS went from $4.98 in FY2023 to a loss of $2.17 in FY2024 and $5.43 in FY2025, a sequence that says more about one-off items than about the underlying trend. The 2024 loss is the clearest warning that a single item can swamp a year.",
+      "The quarterly EPS path, $1.16, $1.98, $0.93, $1.35, $1.41, $1.78 and $1.60, is lumpy in the way catastrophe and reserve movements make an insurer lumpy. The last two quarters came in above the consensus earnings figure on the adjusted basis the provider reports, so the recent record is better than the reported margin suggests even as that margin came off its high."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was n/a, a n/a margin. Net debt is not a meaningful measure for this business in the current dataset.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "AIG does not report free cash flow, which leaves the cash-based multiples empty. Operating cash flow was $3.3B in FY2025 and $3.3B in FY2024, down from $6.2B in FY2023 and $6.2B in FY2021. That halving is the clearest evidence that the smaller company generates less cash, and it is a more important fact than the reported operating margin. Two flat years at that level suggest the base has stabilised.",
+      "For an insurer, operating cash flow is premium inflow less claims and expenses, plus investment income. A $3.3B figure against net income of about $3.3B means conversion of roughly one to one, with no float tailwind. That fits a book that has stopped shrinking but is not yet growing fast enough to add investable float; a growing book would supply that, a flat one does not.",
+      "The balance sheet is the strongest part of the story: net cash of $12.0B and interest cover of 9.9x, against Chubb's $10.4B of net debt and 17.1x cover. A 2.5% dividend yield is among the highest here, matched by Wells Fargo, and is covered by earnings. With no free cash flow measure, the dividend and the net cash position are the two observable capital-allocation facts."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 12.8x trailing earnings and 5.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $88.90; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "AIG trades at 12.7x trailing earnings and 1.1x sales, which is roughly the multiple of a mid-teens-return underwriter, and it is not one. EV/EBITDA of 3.9x should be ignored: reserves, float and the investment portfolio make an insurer's EBITDA a meaningless denominator. Chubb at 12.6x for a 15.3% return on equity is the reference point, and the near-identical multiple is the anomaly.",
+      "On the FY2026 estimate of $8.23 the multiple is 9.7x, falling to 9.1x on the FY2027 figure of $8.75. Those are low multiples for any financial, and they imply the market expects the estimates to be revised down or the returns to stay below peers. A 9.1x forward multiple on an 8.5% return on equity is not obviously cheap; it is roughly the arithmetic those two numbers deserve."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "20 analysts contribute to the third-party consensus. The mean target is $88.90, with a range of $80.00 to $103.00.",
-      "Current-year estimates call for $28.9B of revenue and $8.23 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 20 analysts with a mean target of $88.9; third-party estimates can change without notice."
+      "Yahoo Finance's consensus, as of 18 November 2026, covers 20 analysts with a mean target of $89 and a range of $80 to $103. The mean is 11% above the last price and the low end sits at it, so there is no target below the market. The skew is mostly neutral with a small positive group and no negative views.",
+      "Revisions are improving: 1.6% over 30 days, 2.3% over 60 and 2.5% over 90, after a run of beats on the adjusted earnings measure the provider tracks. The consensus assumes FY2026 EPS of $8.23 and FY2027 of $8.75, which is 16.1% growth followed by 6.3%. That is an expense-led year followed by normalisation, and the target range reflects doubt about how much of the first year is repeatable."
     ]
   },
   "risks": {
@@ -157,5 +158,7 @@ export const AIG: StockStory = {
       "Is prior-year reserve development positive or negative?",
       "How much of the earnings base depends on commercial rate increases?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const ACLX: StockStory = {
   "dek": "The company is developing a BCMA-directed CAR-T for multiple myeloma with a large partner. The revenue line is collaboration accounting, and it is shrinking toward zero as the upfront payment is used up.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $22.3M trailing twelve months, -79.4% year over year.",
-    "Profitability: -1135.6% operating margin and -1027.3% net margin.",
-    "Cash: -$142.7M free cash flow, a -640.4% margin.",
-    "Scorecard: 35/100 average percentile across the factor screens."
+    "Revenue fell to $1.7M in Q4 FY2025 from $39.3M in Q1 FY2024, a run-off of collaboration accounting rather than a demand signal.",
+    "The FY2025 free cash outflow of $212.6M was funded from a balance sheet that still holds $520.0M of net cash.",
+    "A $6.7B market capitalisation against that cash means almost all of the equity value rests on anito-cel.",
+    "Nasdaq carries no analyst count or target for the name, so there is no published estimate to anchor the readout."
   ],
   "filingUrl": "https://www.sec.gov/edgar/search/",
   "irUrl": "https://www.sec.gov/edgar/search/",
   "bigPicture": {
     "paragraphs": [
-      "Arcellx, Inc. generated $22.3M of revenue over the last twelve months, -79.4% versus the prior year. The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue.",
-      "The latest reported quarter was Q4 FY25, with $1.7M of revenue and an operating margin of -3850.2%. The stock closed at $115.07 on 2026-04-28, giving a market capitalization of $6.7B.",
-      "The shares sit 100% of the way up their 52-week range ($47.86 to $115.13). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Arcellx's revenue fell to $1.7M in Q4 FY2025 from $39.3M in Q1 FY2024, and the decline says nothing about demand. The line is collaboration accounting: milestone and cost-sharing payments recognised over the period in which the work is performed, which means it rises when a payment is received and falls as the deferred balance runs off. The operating margin of minus 3,850.2% in that quarter is the same artefact. For a pre-commercial cell-therapy company, revenue is a schedule, not a scoreboard.",
+      "Anito-cel is a BCMA-directed CAR-T for relapsed or refractory multiple myeloma, developed with Kite. The treatment is made from the patient's own T cells, engineered to recognise BCMA and returned after conditioning, which makes the manufacturing chain part of the product. Kite contributes the commercial and manufacturing infrastructure; Arcellx contributes the construct and the clinical programme. The economics are shared, which reduces the funding burden and the upside per patient at the same time.",
+      "The equity is valued at $6.7B against $520.0M of net cash, so almost all of the market capitalisation is a claim on the myeloma programme. Sales multiples are meaningless at this revenue level: 278.6x trailing sales is a denominator artefact, not a valuation. The only useful framing is the cash plus a probability-weighted view of anito-cel, and the market's implied probability moves with every clinical disclosure. That is a high price for a programme with no product revenue, and it is why the readout matters more than the quarterly result."
     ],
-    "quote": "Collaboration revenue is a schedule, not a market. It tells you how much of a past payment has been recognised, not how many patients are being treated."
+    "quote": "For a pre-commercial biotech, revenue is an accounting schedule and the cash balance is the clock."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,50 @@ export const ACLX: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -55.1% a year across the fiscal years in the dataset, and the latest quarter changed -89.2% year over year. A current-year consensus estimate is not available in the dataset.",
-      "Growth is only useful if it earns a return. The operating margin of -1135.6% and return on invested capital of -45.8% are the filters to watch as revenue scales."
+      "There is no revenue growth to forecast: collaboration income is running off and the next inflection depends on clinical data and a regulatory path. The programme is the growth asset, and its value rests on efficacy and durability in a disease where several therapies already compete. The earlier programmes, ACLX-001 and the AML and MDS candidates, use the same cell-engineering approach in different diseases, but they are years behind the lead asset.",
+      "The Kite partnership is the commercial route. Cell therapy requires a manufacturing and sales infrastructure that a company of Arcellx's size does not have, and the partner supplies it in exchange for a share of the economics. That makes the growth path less capital-intensive than building alone, but it also means Arcellx does not control the launch timeline or the pricing decision.",
+      "Durability depends on the clinical result, which is not in the reported numbers. A product that works in a later-line myeloma population has a defined initial market; a product that works earlier has a much larger one. There are no published estimates to say which case the market expects, so the readout is the only guide. The earlier programmes do not shorten that timeline; they only widen the set of possible outcomes."
     ],
     "bullets": [
       {
-        "title": "Clinical data",
-        "detail": "Response rate, durability and safety in relapsed myeloma. The main driver of value."
+        "title": "Anito-cel",
+        "detail": "The BCMA-directed CAR-T is the value driver; efficacy, durability and safety in relapsed myeloma decide whether the asset is commercial."
       },
       {
-        "title": "Partner execution",
-        "detail": "Kite's manufacturing and commercial reach determine how quickly a product could scale."
+        "title": "Kite partnership",
+        "detail": "The partner supplies manufacturing and commercial reach, which lowers the funding burden and shares away part of the upside."
       },
       {
         "title": "Earlier programmes",
-        "detail": "AML, MDS and the ARC-T platform add optionality but are not near-term revenue."
+        "detail": "ACLX-001 and the AML and MDS candidates apply the same platform to other diseases but are years from revenue."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -1135.6%, the net margin is -1027.3% and diluted EPS is -$4.07. The latest quarter's operating margin was -3850.2%.",
-      "Return on equity is -56.9%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q4 FY25: revenue of $1.7M, an operating margin of -3850.2% and a net margin of -3513.4%."
+      "Margins are not meaningful before a product exists, so the relevant performance measure is the change in the cash balance. The FY2025 operating margin was minus 1,135.6% on $22.3M of revenue, and the loss per share was $4.07. The revenue decline from $107.9M in FY2024 to $22.3M in FY2025 is the collaboration balance unwinding, not a deterioration in the underlying programme.",
+      "Return on invested capital of minus 49.7% and return on equity of minus 56.9% measure accumulated spending against a balance sheet that equity raises have kept large. Neither is comparable with a commercial business. The useful comparison is the burn rate against the cash balance, and the FY2025 free cash outflow of $212.6M against $520.0M of net cash is the whole financial picture.",
+      "The absence of a gross margin is itself informative: there is no product cost because there is no product. When anito-cel is approved, the economics would shift to a price per treatment, a cost of goods for a patient-specific manufacture, and a profit split with Kite. That model would have a real gross margin, but it is a future state, not a current performance measure."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$142.7M, a -640.4% margin. The balance sheet carries $450.3M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$142.7M over the last twelve months and net debt was -$450.3M; interest cover was n/a."
+      "A $212.6M free cash outflow in FY2025 was funded from a balance sheet that still holds $520.0M of net cash. Operating cash flow was minus $210.3M, and capital expenditure was $2.3M, so the outflow is almost entirely research and manufacturing development. FY2024 consumed $96.9M, which means the burn more than doubled as the programme advanced. That is the profile of a company paying for trials and process development, not for plant.",
+      "At the FY2025 rate, the cash covers more than two years of spending. That is enough to reach a readout, but not enough to fund a commercial launch without a partner or a raise. The Kite relationship reduces the launch cost, which is why the runway is a manageable constraint rather than an existential one. There is no debt and no dividend, so the balance sheet is simple.",
+      "The quarterly pattern is not disclosed beyond Q4 FY2025, which showed a $58.9M outflow. A single quarter is not a run-rate, and later periods are not disclosed. The practical approach is to treat the FY2025 burn as the planning number and to watch for any milestone payment that would change it. Any milestone receipt would flatter a single quarter and should not be read as a change in the underlying burn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at -28.3x trailing earnings and -25.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "A third-party consensus target is not available in the dataset. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Sales multiples are meaningless when the revenue is a run-off collaboration balance. The 278.6x trailing sales figure is a denominator artefact, and the negative earnings multiples carry no information. The only defensible frame is the $6.7B market capitalisation against $520.0M of net cash, which leaves roughly $6.2B attributed to anito-cel and the earlier programmes. The equity is therefore a claim on a clinical asset with a cash floor, and the floor is a small fraction of the market value.",
+      "For context, Krystal trades at 18.3x sales with a commercial product and a 48.4% operating margin, and Insmed at 21.0x with two products. Arcellx has no product revenue, so those multiples describe a different stage of the lifecycle. The relevant comparison is with other clinical-stage cell therapy companies, and the comparable companies here do not include a clean match. A cell-therapy comparable would need a product revenue line to make the sales multiple meaningful, and Arcellx does not have one.",
+      "What would justify it is a clinical result that supports a competitive profile in myeloma and a clear path to filing. What would break it is a weak readout or a partnership dispute, because either would remove the commercial route at the same time as it removes the asset value. The cash balance sets a floor, but it is a small part of the valuation, and the rest is clinical risk."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A group of analysts contribute to the third-party consensus. The mean target is n/a, with a range of n/a to n/a.",
-      "Current-year estimates call for n/a of revenue and n/a of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers an undisclosed number of analysts with a mean target of n/a; third-party estimates can change without notice."
+      "Nasdaq's consensus page carries no analyst count, no target range and no estimates for Arcellx as of 2026-11-18. There is therefore no published dispersion to interpret, and no revision trend to follow. For a company whose value depends on a single clinical readout, that absence is itself a fact: the market has no shared forecast to mark against.",
+      "Without estimates, the usual questions about what the coverage assumes cannot be answered. The variables that would matter are the same ones the programme faces: the efficacy bar in relapsed myeloma, the durability of response, and the economics of the Kite arrangement. Until a readout or a filing creates a forecastable revenue line, coverage is likely to stay thin."
     ]
   },
   "risks": {
@@ -158,5 +159,7 @@ export const ACLX: StockStory = {
       "What are the economics of the Kite partnership if the product is approved?",
       "Which earlier programme could become the second asset?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

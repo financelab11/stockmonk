@@ -7,20 +7,20 @@ export const BKNG: StockStory = {
   "dek": "The company takes reservations for hotels, flights and cars and keeps a slice of each one. A 32.8% operating margin depends on marketing spend staying under control.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $28.1B trailing twelve months, +8.0% year over year.",
-    "Profitability: 32.8% operating margin and 13.3% net margin.",
-    "Cash: $9.2B free cash flow, a 32.8% margin.",
-    "Scorecard: 67/100 average percentile across the factor screens."
+    "Trailing revenue was $28.1B, up 8.0%, with a 32.8% operating margin and $9.2B of free cash flow.",
+    "The shares trade at 15.1x earnings and 11.5x EBITDA, about 60% of the group's 25.4x multiple and two-thirds of its 17.2x EBITDA median, despite a 74.1% return on invested capital.",
+    "Non-US markets supply 90.4% of revenue, so currency and European travel demand move the result more than US conditions.",
+    "Consensus sees 5.9% revenue growth in 2026 and 10.6% in 2027, with the 30-day EPS revision at -0.4%."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001075531&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Booking Holdings Inc. generated $28.1B of revenue over the last twelve months, +8.0% versus the prior year. The business depends on traffic, basket size and the cost of serving the next customer.",
-      "The latest reported quarter was Q3 FY26, with $8.9B of revenue and an operating margin of 38.4%. The stock closed at $154.46 on 2026-11-17, giving a market capitalization of $114.9B.",
-      "The shares sit 11% of the way up their 52-week range ($146.28 to $220.81). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Third-quarter revenue of $8.9B was slightly below last year's $9.0B, but the operating margin rose to 38.4% and diluted EPS was $3.61. Net margin was 30.6% and free cash flow was $1.1B. The revenue decline in the peak summer period is the first clear sign that the post-pandemic travel recovery is behind Booking Holdings. The operating margin was higher than the trailing 32.8%, so profit held up better than the top line.",
+      "The business takes a commission on accommodation, flights, rental cars and restaurant reservations. Accommodation is the core, sold either on a merchant basis, where the company takes the customer's cash and remits it later, or on an agency basis, where the property collects and invoices the commission. The merchant model creates a cash float; the agency model does not. That distinction drives the balance sheet more than the income statement.",
+      "Booking's $108.4B market value is 4.0x sales, 11.5x EBITDA, 15.1x earnings and 11.7x free cash flow. The peer medians are 25.4x and 17.2x, so the discount is roughly 40%. The company earns a 32.8% operating margin and a 74.1% return on invested capital, the best in the group. The market is discounting the durability of travel demand, not the quality of the business. The next travel cycle will test whether that judgment was too severe."
     ],
-    "quote": "An online travel agent sells distribution to hotels and buys demand from search engines. The spread between the two is the business."
+    "quote": "Booking earns a commission on other people's holidays, which is a wonderful business until the holiday budget is the first thing a household cuts."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -51,35 +51,50 @@ export const BKNG: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.2% a year across the fiscal years in the dataset, and the latest quarter changed -1.3% year over year. Third-party estimates for the current fiscal year point to $28.5B of revenue and $10.42 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 32.8% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Revenue more than doubled from $11.0B in fiscal 2021 to $26.9B in fiscal 2025; trailing revenue is $28.1B, up 8.0%. The growth rate has fallen from 25.0% in fiscal 2023 to 11.1% in fiscal 2024, 13.4% in fiscal 2025 and 8.0% trailing. Consensus expects $28.5B this year, up 5.9%, and $31.5B next, up 10.6%, so the forecast is for a reacceleration after a slow year.",
+      "The growth comes from more bookings and from the commission earned on each one. The company does not disclose the split in these accounts, but the geography does: 90.4% of revenue is earned outside the United States, so European travel demand and the euro-dollar rate matter more than US consumer conditions. Currency translation can therefore cut reported revenue even when local bookings are unchanged.",
+      "Estimates assume the travel cycle holds and marketing spend stays under control. The 2026 EPS estimate of $10.42 is 14.2% growth on 5.9% revenue growth, and 2027 is $12.23, up 17.5% on 10.6%. The second year requires both faster revenue and a wider margin. The 30-day revision of -0.4% suggests analysts are not yet convinced; the 90-day revision is also -0.3%."
+    ],
+    "bullets": [
+      {
+        "title": "Merchant float",
+        "detail": "Merchant bookings put customer cash on the balance sheet for a few weeks. The float flatters operating cash flow without changing the economics."
+      },
+      {
+        "title": "Marketing cost",
+        "detail": "Marketing is the largest cost after cost of revenue. A shift toward direct and repeat visits is the main lever on margin."
+      },
+      {
+        "title": "Non-US exposure",
+        "detail": "90.4% of revenue comes from outside the United States. Currency and local travel demand move the result more than US conditions."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 32.8%, the net margin is 13.3% and diluted EPS is $168.21. The latest quarter's operating margin was 38.4%.",
-      "Return on equity is -19.5%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $8.9B, an operating margin of 38.4% and a net margin of 152.8%."
+      "Operating margin reached 31.8% in fiscal 2024, 32.8% in fiscal 2025 and 32.8% trailing, with the September quarter at 38.4%. Net margin was 24.8%, 20.1% and 25.5% over the same periods; the fiscal 2025 figure was depressed by items below the operating line. The operating margin is stable, which is unusual for a travel intermediary exposed to a cycle. The quarterly margin can swing, but the annual figure has not.",
+      "Return on invested capital is 74.1%, the highest in the peer group and more than three times the 23.0% median. Return on equity is -69.0% because buybacks have left book equity negative, so the ratio is not meaningful. The high return on invested capital reflects an asset-light model: the company owns no hotels and carries little capital beyond the float and the technology platform.",
+      "The gap between a 32.8% operating margin and a 25.5% net margin is interest, tax and non-operating items. Interest cover is 8.3x, comfortable but not negligible for a company with $4.2B of net debt. Booking's 32.8% operating margin is nearly 20 points above the 13.1% median of the consumer group; the gap is the marketplace model, not a temporary cost advantage."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $9.2B, a 32.8% margin. The balance sheet carries $15.8B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $9.2B over the last twelve months and net debt was -$15.8B; interest cover was n/a."
+      "Twelve-month cash generation was $9.2B, a 32.8% margin. Fiscal 2025 reported operating cash flow was $9.4B and capital spending $322.0M. The low capex is the marketplace model: the company does not own hotels or aircraft. Net debt is $4.2B, or 0.4x EBITDA, and interest cover is 8.3x. The cash flow is strong enough to fund buybacks and the dividend.",
+      "The quarterly pattern is seasonal and driven by the float. Free cash flow was $3.1B in the March 2026 quarter, $3.6B in June and $1.1B in September, as merchant bookings collected cash ahead of remittance. The float is largest in the March and June quarters, when summer bookings are collected, so use the annual figure rather than the quarterly swing.",
+      "Capital allocation has been shareholder-friendly. The dividend takes 1.2% of the share price, and buybacks have been large enough to make book equity negative, which is why the return on equity is -69.0%. That is a deliberate choice for a business with a 32.8% operating margin and modest capital needs. The risk is that repurchases at 15.1x earnings leave less room if travel demand falls."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 30.7x trailing earnings and 10.1x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $215.53; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Booking's $108.4B market value is 15.1x earnings, 11.5x EBITDA, 4.0x sales and 11.7x free cash flow, with an 8.5% free-cash-flow yield. Against a 25.4x median earnings multiple and 17.2x median EBITDA, the discount is roughly 40%. The company's 32.8% operating margin and 74.1% return on invested capital are far above the group, which makes the discount look like a durability judgment.",
+      "On estimates, the shares trade at about 14.0x 2026 EPS of $10.42 and 11.9x 2027 EPS of $12.23. Those multiples are low for a business with a 32.8% margin, but they are consistent with a travel intermediary that has cyclical revenue and a 90.4% non-US exposure. A 10.6% revenue acceleration in 2027 is the assumption that has to hold for the forward multiple to be earned.",
+      "McDonald's and Home Depot frame the discount. McDonald's trades at 21.6x earnings and 17.2x EBITDA with a 46.9% operating margin and 5.8% growth; Home Depot at 24.3x and 15.9x with 2.5% growth. Booking at 15.1x and 11.5x has faster growth and a higher return on capital than either. The market is paying for certainty, and Booking's geography and cycle deny it that."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "34 analysts contribute to the third-party consensus. The mean target is $215.53, with a range of $150.00 to $267.00.",
-      "Current-year estimates call for $28.5B of revenue and $10.42 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 34 analysts with a mean target of $215.53; third-party estimates can change without notice."
+      "In the 18 November 2026 Yahoo Finance survey, 34 analysts set a mean target of $216 within a range of $150 to $267. The distribution is firmly positive, with seven analysts neutral and none negative. The mean is 48% above the $146 price, and the low end is only 2.7% above it, so the range is unusually skewed to the upside.",
+      "Estimates call for $28.5B of revenue and $10.42 of EPS in 2026, then $31.5B and $12.23 in 2027. Estimates have edged down, by 0.4% over 30 days and 0.3% over 90, a mild negative drift. The consensus assumes a reacceleration to 10.6% revenue growth in 2027 after 5.9% in 2026; that is the number to test against the booking trend the company reports each quarter."
     ]
   },
   "risks": {
@@ -133,7 +148,7 @@ export const BKNG: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Booking Holdings is a marketplace with $28.1B of revenue, a 32.8% operating margin and $9.2B of free cash flow. It holds $15.8B of net cash and has bought back enough stock to make book equity negative.",
+      "Booking Holdings is a marketplace with $28.1B of revenue, a 32.8% operating margin and $9.2B of free cash flow. It carries $4.2B of net debt and has bought back enough stock to make book equity negative.",
       "The business has recovered fully from the pandemic and then some: revenue more than doubled from FY2021 to FY2025 and the margin reached a record for the period. The latest quarter's 1.3% decline is the first sign that the recovery is behind it.",
       "The valuation is undemanding on EBITDA and free cash flow, which is what a mature travel intermediary should look like. The risk is that the marketing line, not the demand line, is what breaks first."
     ],
@@ -143,5 +158,7 @@ export const BKNG: StockStory = {
       "How much of the free cash flow is the customer-payment float rather than profit?",
       "What happens to the margin if travel demand falls 10%?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

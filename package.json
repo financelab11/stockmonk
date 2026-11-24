@@ -40,7 +40,11 @@
     "refresh": "pnpm ingest:edgar && pnpm ingest:fundamentals && pnpm ingest:consensus && pnpm ingest:segments && pnpm ingest:benchmark && pnpm build:data && pnpm build:screener",
     "story:brief": "tsx scripts/story-brief.ts",
     "stories:apply": "tsx scripts/apply-handwritten.ts",
-    "ingest:fundamentals": "tsx scripts/ingest-fundamentals.ts"
+    "ingest:fundamentals": "tsx scripts/ingest-fundamentals.ts",
+    "audit:research": "tsx scripts/audit-research-quality.ts",
+    "research:packs": "tsx scripts/build-research-packs.ts",
+    "research:apply": "tsx scripts/apply-research-rewrites.ts",
+    "research:normalize": "tsx scripts/normalize-research-language.ts"
   },
   "dependencies": {
     "@serwist/next": "^9.5.13",

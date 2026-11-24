@@ -7,20 +7,20 @@ export const FOUR: StockStory = {
   "dek": "Revenue of $4.92B produces a 2.6% net margin but $624.0M of free cash flow. Acquired intangibles are charged against profit without consuming cash, which is why the P/E and the price-to-free-cash-flow tell different stories.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $4.9B trailing twelve months, +27.0% year over year.",
-    "Profitability: 8.2% operating margin and 2.6% net margin.",
-    "Cash: $624M free cash flow, a 12.7% margin.",
-    "Scorecard: 60/100 average percentile across the factor screens."
+    "Revenue of $4.9B grew 27.0%, but the September quarter grew 12.1%, and the gap is the acquisition contribution that organic growth has to replace.",
+    "A 2.3% net margin and $624.0M of free cash flow coexist because amortisation of acquired intangibles depresses earnings without consuming cash.",
+    "Net debt of $4.2B is 4.5x EBITDA with interest cover of 36.6x, so the leverage is cheap but it sets the price of the equity.",
+    "Twenty-two analysts average $49 against a $41 price, with thirteen neutral views and a 2.1% cut to EPS estimates over the past month."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000010/four-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001794669&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Shift4 Payments, Inc. generated $4.9B of revenue over the last twelve months, +27.0% versus the prior year. The economics depend on credit losses, funding costs, take rates and the ability to grow without buying customers.",
-      "The latest reported quarter was Q3 FY26, with $1.3B of revenue and an operating margin of 9.9%. The stock closed at $41.41 on 2026-11-17, giving a market capitalization of $3.1B.",
-      "The shares sit 17% of the way up their 52-week range ($34.56 to $75.35). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "September's 9.9% operating margin was the best of the year, and it came on revenue of $1.3B that grew 12.1%, less than half the 27.0% trailing rate. Both numbers matter. The margin says the acquired merchant bases are being run profitably; the growth rate says the revenue base is no longer expanding at the pace the acquisition programme produced. Free cash flow of $216.0M in the quarter was the strongest of fiscal 2026.",
+      "The economics are volume times spread inside vertical software a merchant already uses. A hotel, a stadium or a gaming floor has a payment flow that is hard to replace and expensive to get wrong, which supports both retention and pricing. The cost of that position is a large sales organisation and a corporate structure built through deals: the balance sheet carries $4.2B of net debt and the income statement carries amortisation from every acquisition. That is why operating margin and net margin tell different stories.",
+      "The equity is worth $3.0B and the enterprise roughly $7.2B, which is 1.5x sales and 7.7x EBITDA against a 25.7x peer median. The discount is not a mispricing waiting to close: it reflects 4.5x leverage, a 2.3% net margin and a growth rate that has halved. The counter-argument is cash, with $624.0M of free cash flow on a $3.0B market value, a 20.5% yield, which is what a levered, acquisitive processor looks like when the deals stop."
     ],
-    "quote": "Payments companies are judged on spread and volume. When they grow by acquisition, the income statement also carries the accounting for everything they bought."
+    "quote": "Shift4 buys merchant bases, integrates them into vertical software and collects a spread; amortisation hides the profit but not the cash."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,50 @@ export const FOUR: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 33.7% a year across the fiscal years in the dataset, and the latest quarter changed +12.1% year over year. Third-party estimates for the current fiscal year point to $5B of revenue and $5.09 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 8.2% and return on invested capital of 94.2% are the filters to watch as revenue scales."
+      "The gap between 27.0% trailing growth and 12.1% in the latest quarter is the number to explain. Acquisitions add revenue immediately, and organic growth has to be earned merchant by merchant, so a falling reported rate usually means the deal contribution is annualising out. The company does not split the two in the reported segment line, which is Corporate and other at 100%. Fiscal 2026 estimates assume $5.0B of revenue, 20.5% growth, and 2027 assumes $5.5B, 9.5%, so the estimate set already prices the acquisition contribution away.",
+      "International is 20.8% of revenue and the United States 79.2%, so part of the growth question is geographic. The non-US base came largely with the acquisitions, which means its economics reflect the deals rather than a single organic channel. The 8.2% operating margin is a blend of those geographies and of the vertical mix. Without a segment split, a reader cannot tell whether the margin came from better pricing in hospitality or from cost control on a larger base.",
+      "Durability depends on switching costs. The vertical software position is the reason a hotel does not re-tender on price alone, and it is what separates Shift4 from a generic terminal provider. The test is whether 12.1% quarterly growth can be sustained without another deal; on the current estimate path it cannot, which is why the share price has fallen 41.8% in a year and the multiple is 7.7x EBITDA."
+    ],
+    "bullets": [
+      {
+        "title": "Organic growth",
+        "detail": "The September quarter's 12.1% against a 27.0% trailing rate is the first clean read on the merchant base without a full year of acquired revenue."
+      },
+      {
+        "title": "Vertical attach",
+        "detail": "Hospitality, gaming and restaurant payment flows are complex enough that merchants rarely re-tender on price alone, which supports the spread."
+      },
+      {
+        "title": "Deleveraging",
+        "detail": "Free cash flow of $624.0M against $4.2B of net debt gives management a clear choice: repay, acquire, or repurchase shares."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 8.2%, the net margin is 2.6% and diluted EPS is -$0.01. The latest quarter's operating margin was 9.9%.",
-      "Return on equity is 8.0%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $1.3B, an operating margin of 9.9% and a net margin of 2.9%."
+      "A 4.5% operating margin in March became 7.3% in June and 9.9% in September, on revenue that rose from $1.1B to $1.3B. That is strong incremental flow-through, and it is the pattern a processor shows when volume grows against a fixed technology and corporate cost base. Net margin did not follow proportionately, at 1.1%, 1.9% and 2.9%, because interest and amortisation sit below the operating line and both are tied to the acquisition programme.",
+      "Gross margin of 23.1% leaves about $1.1B of gross profit on $4.9B of revenue. Operating income takes $402M of that, and the rest is the sales organisation, the corporate overhead of a group assembled from deals and the technology spend. Amortisation then removes a further slice, which is why a 2.3% net margin sits under an 8.2% operating margin. The gap is accounting rather than economics, but it is the reason the P/E and the cash yield point in different directions.",
+      "Return on invested capital of 4.7% is low for a payments business and is a direct consequence of the goodwill and intangibles on the balance sheet. Return on equity of 7.8% is similarly depressed. Neither is the right test of the deal programme: the relevant comparison is cash generated against the price paid, and $624.0M of free cash flow against $7.2B of enterprise value is an 8.7% cash return before any synergy from the next acquisition."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $624M, a 12.7% margin. The balance sheet carries $1.2B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $624M over the last twelve months and net debt was -$1.2B; interest cover was n/a."
+      "Cash generation is the strongest part of the accounts and the least ambiguous. Operating cash flow was $634.0M in FY2025 against $10.0M of capex, leaving $624.0M of free cash flow, a 12.7% margin. The September quarter alone produced $216.0M. Capex is tiny because the terminals and software are largely developed and the acquired technology is already built; the cash cost of the acquisition programme sits in the investing line, not in capex.",
+      "Net debt of $4.2B is 4.5x EBITDA, and interest cover of 36.6x says the coupon is cheap relative to operating profit. That combination of high leverage and low interest cost is typical of a company that funded deals with fixed-rate borrowings and is now generating enough cash to bring the ratio down. The risk is refinancing: a higher coupon on $4.2B would move a 2.3% net margin far more than it would move operating profit.",
+      "No dividend is paid. The choice is between debt reduction and more acquisitions, and the record points to both: net debt rose from $1.6B in FY2024 to $3.6B in FY2025 while revenue grew 25.5%. A reader should treat free cash flow as the constraint on the next deal rather than as a distribution. At the current run rate, $624.0M would repay about 15% of net debt in a year if nothing else changed."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 24.4x trailing earnings and 2.0x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $49.18; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Two multiples describe the same company and disagree by a factor of three: 26.7x trailing earnings and 7.7x EBITDA. The difference is amortisation and interest. Acquired intangibles are charged against earnings over years, depressing the P/E, while EBITDA adds them back, flattering the EV multiple. Free cash flow cuts through both: $624.0M against a $3.0B market value is a 20.5% yield, and against $7.2B of enterprise value it is 8.7%.",
+      "On EV/EBITDA the shares trade at 7.7x against a 25.7x median, and PayPal at 7.5x is the only cheaper name in the group, with 0.8x net debt to EBITDA and 4.4% growth. Shift4 grows 27.0% and carries 4.5x. Toast at 31.3x has net cash and a 21.6% return on capital. The market is pricing Shift4's balance sheet, not its growth.",
+      "A re-rating needs leverage below 3x or organic growth back in the high teens, and the estimates assume neither in a hurry: 20.5% revenue growth in 2026 falling to 9.5% in 2027. On the 2026 EPS estimate of $5.09 the multiple is 8.1x, a price for a leveraged integrator. Free cash flow would repay about 15% of net debt a year if nothing else changed, which is the mechanism by which the discount could close."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "22 analysts contribute to the third-party consensus. The mean target is $49.18, with a range of $38.00 to $77.00.",
-      "Current-year estimates call for $5B of revenue and $5.09 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 22 analysts with a mean target of $49.18; third-party estimates can change without notice."
+      "The target range of $38 to $77 around a $49 mean brackets the $41 price from both sides. Twenty-two analysts contribute, according to Yahoo Finance on 18 November 2026. A mean 20% above the market price with that many neutral views implies the neutral case is cheap but levered rather than fairly valued.",
+      "Estimates have been trimmed modestly: EPS down 2.1% over thirty days and 2.4% over sixty, with the December quarter forecast at $1.33, 17.1% lower year on year. The fiscal 2026 figure of $5.09 is 1.6% below FY2025, so the consensus assumes a year of consolidation before 11.0% growth in 2027. That is consistent with 12.1% quarterly revenue growth: the model is being asked to prove it can grow without another deal."
     ]
   },
   "risks": {
@@ -107,7 +122,7 @@ export const FOUR: StockStory = {
       {
         "title": "Interest and leverage",
         "severity": "Medium",
-        "detail": "The net cash position is comfortable today, but acquisition debt has been part of the strategy and the net line is already sensitive to interest.",
+        "detail": "The net debt position is manageable today, but acquisition debt has been part of the strategy and the net line is already sensitive to interest.",
         "watch": "Interest expense, debt maturities and the net-debt-to-EBITDA ratio after any new deal."
       },
       {
@@ -137,8 +152,8 @@ export const FOUR: StockStory = {
         "detail": "The two lines that explain why net income is so much lower than operating income."
       },
       {
-        "title": "Net cash",
-        "detail": "At $1.24B it funds the next acquisition; a fall would change the story."
+        "title": "Net debt",
+        "detail": "At $4.24B it leaves less room for the next acquisition; a further rise would change the story."
       }
     ]
   },
@@ -154,5 +169,7 @@ export const FOUR: StockStory = {
       "What is the retention rate on merchant bases acquired in the last three years?",
       "How much acquisition debt matures in the next three years?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

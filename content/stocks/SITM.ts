@@ -7,20 +7,20 @@ export const SITM: StockStory = {
   "dek": "Revenue went from $144.0M in FY2023 to $683.0M on a trailing basis. Operating margin is 0.9%, and $994.8M of net debt sits between a 56.2% gross margin and the bottom line.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $683M trailing twelve months, +142.6% year over year.",
-    "Profitability: 0.9% operating margin and 3.9% net margin.",
-    "Cash: $41.4M free cash flow, a 6.1% margin.",
-    "Scorecard: 21/100 average percentile across the factor screens."
+    "September quarter revenue nearly doubled to $298.7M while the operating margin fell from 5.2% to 2.8% and free cash flow turned negative.",
+    "Gross margin of 56.2% produced a 0.9% operating margin and a 0.2% return on invested capital, against a 9.4% peer median.",
+    "At 18.7x sales and 493.8x earnings the shares are valued on revenue because the profit base is close to zero.",
+    "The $12.73 current-year EPS estimate is more than twelve times the roughly $1.00 earned across the last four quarters."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1451809/000145180926000012/sitm-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001451809&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "SiTime Corporation generated $683M of revenue over the last twelve months, +142.6% versus the prior year. The cycle is driven by inventory, utilisation and the next node or packaging transition.",
-      "The latest reported quarter was Q3 FY26, with $298.7M of revenue and an operating margin of 2.8%. The stock closed at $422.27 on 2026-11-17, giving a market capitalization of $12.8B.",
-      "The shares sit 27% of the way up their 52-week range ($243.68 to $901.81). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Revenue nearly doubled in the September 2026 quarter, from $157.4M to $298.7M, and the operating margin fell from 5.2% to 2.8%. Free cash flow turned negative at -$16.7M. Trailing revenue is $683.0M, up 142.6%, and gross margin is 56.2%. Growth of that size without operating leverage is the anomaly the accounts present, and it is the reason the shares carry a 493.8x earnings multiple. A company that nearly doubles revenue and still earns a 0.9% operating margin is not through the investment phase of the substitution.",
+      "SiTime sells silicon timing in three forms: the MEMS resonator that replaces a quartz blank, the clock IC that drives it, and the packaged oscillator a customer places on a board. The applications are chosen for difficulty, from automotive timing that must not drift to communications links that need low noise and industrial equipment that must remain available for a decade. A 56.2% gross margin says the substitution economics work at the product level; a 0.9% operating margin says the cost of displacing an entrenched technology does not yet.",
+      "At 18.7x sales and 113.2x EBITDA, the shares are priced on the revenue line because the earnings line is almost empty. The current-year EPS estimate of $12.73 would put them at 34x, below the 54.4x peer median, but that estimate assumes a profitability step-change rather than an extension of the trend. Against that, the accounts show a 0.9% operating margin and a 6.1% cash margin; the multiple is a wager on which of those two pictures is temporary."
     ],
-    "quote": "A timing device is a small fraction of a bill of materials and a large fraction of the field failures if it drifts. That is the argument for paying more for a better oscillator."
+    "quote": "SiTime tripled revenue and still earned a 0.9% operating margin; the shares are a wager on the second half of that sentence changing."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,46 @@ export const SITM: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 25.4% a year across the fiscal years in the dataset, and the latest quarter changed +257.4% year over year. Third-party estimates for the current fiscal year point to $906.4M of revenue and $12.73 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 0.9% and return on invested capital of 0.1% are the filters to watch as revenue scales."
+      "Timing sockets are won on performance, and the substitution from quartz to silicon is the long driver. A programmable resonator can serve many frequencies from one design and survives shock and vibration better than a quartz blank, which matters in automotive and communications equipment. Revenue went from $144.0M in FY2023 to $326.7M in FY2025 and $683.0M trailing, and the September quarter alone was 3.6x the year-earlier quarter. That is adoption, not a normal cycle.",
+      "Forecast revenue continues the adoption at a slower rate. Revenue is forecast at $906.4M for the current year, up 177.5%, and $1.4B next, up 59.1%. The step from $157.4M to $298.7M in one quarter is not typical oscillator demand, and the company does not disclose how much came from a small number of programmes. If it was a single customer's ramp, the estimate path is fragile; if it was broad, the operating margin should be rising, and it is not."
     ],
     "bullets": [
       {
-        "title": "Quartz displacement",
-        "detail": "Each socket converted from a quartz oscillator to a silicon one adds a customer that does not switch back."
+        "title": "Silicon substitution",
+        "detail": "Programmable MEMS timing replaces quartz in applications where shock, size or temperature drift decide the design."
       },
       {
-        "title": "Automotive and industrial",
-        "detail": "Long design cycles and qualification requirements make these the stickiest end markets."
+        "title": "AI and data-centre timing",
+        "detail": "Low-noise oscillators sit inside communications and compute equipment, the fastest-growing part of the customer base."
       },
       {
-        "title": "Programmability",
-        "detail": "One silicon design can serve many frequencies, which lowers inventory risk for distributors and customers."
+        "title": "Distribution",
+        "detail": "Selling through distributors reaches many small customers, but it also means channel inventory can flatter or distort a quarter."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 0.9%, the net margin is 3.9% and diluted EPS is $1.00. The latest quarter's operating margin was 2.8%.",
-      "Return on equity is 0.8%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $298.7M, an operating margin of 2.8% and a net margin of 1.5%."
+      "Operating expense consumed almost the entire gross profit. Gross margin is 56.2%, but the operating margin is 0.9%, and the quarterly path has been -10.9%, 5.2% and 2.8% in the last three reports. Revenue rose 89.7% in the September quarter while operating income was broadly unchanged, which means the incremental gross profit went to research, applications engineering and field support. Net margin of 3.9% is above the operating margin because non-operating items contributed.",
+      "Returns are close to zero. ROIC is 0.2% and ROE 0.8%, against peer medians of 9.4% and 8.3%, and the 56.2% gross margin has not translated into a return anywhere near the peer median. EPS of $0.14 in the September quarter compares with $0.66 in June, so the profit base is not compounding with revenue. The distance between the product economics and the company economics is the whole story."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $41.4M, a 6.1% margin. Net debt is $994.8M.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $41.4M over the last twelve months and net debt was $994.8M; interest cover was n/a."
+      "Capex consumed most of the cash the business generated. FY2025 produced $87.2M of operating cash flow and $52.0M of capex, a 15.9% capital intensity, leaving $35.1M of free cash flow. The trailing figure is $41.4M, or 6.1% of revenue, and the September quarter was -$16.7M despite record revenue. Inventory and receivables are growing faster than sales, which is what a ramp of this shape usually does to a balance sheet.",
+      "The capital structure is the constraint. Interest cover of 0.8x means operating profit does not cover the interest line, and the balance-sheet figures published across the annual and trailing periods do not reconcile, so net debt to EBITDA should be treated as unreliable here. What is clear is that the equity is leveraged to any change in operating profit. No distribution is reported, and the funding requirement sits with the debt and the cash balance."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 482.1x trailing earnings and 122.1x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $713.75; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "A 493.8x earnings multiple and 113.2x EBITDA are not valuation measures in any ordinary sense; they are descriptions of a near-zero denominator. EV/Sales of 18.7x, second only to Lattice in the group, and a 0.3% free-cash-flow yield are the numbers that describe what is being paid. The peer medians are 54.4x earnings and 30.1x EBITDA, so the premium is not marginal. The 52-week range of $265 to $902 shows how violently the market has repriced the same business.",
+      "On the current-year estimate of $12.73 the multiple falls to about 34x, which is below the peer median. That is the bull case in one line: the shares are expensive only on trailing numbers. The estimate is more than twelve times the roughly $1.00 earned across the last four quarters, so it requires a profitability inflection, not a continuation. If the operating margin stays near 1%, no revenue estimate makes the multiple ordinary."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "12 analysts contribute to the third-party consensus. The mean target is $713.75, with a range of $425.00 to $900.00.",
-      "Current-year estimates call for $906.4M of revenue and $12.73 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 12 analysts with a mean target of $713.75; third-party estimates can change without notice."
+      "The 18 November 2026 Yahoo Finance mean of $714 against $433 implies a 65% gain, and the range of $425 to $900 spans 2.1x. All twelve analysts sit on the positive side, four at the most constructive end and eight less emphatic. The revision trend is extraordinary: EPS estimates rose 13.7% over seven days and 14.5% over ninety, and the last four quarters beat by 12% to 26%.",
+      "The consensus is not a margin forecast so much as a revenue forecast. Current-year revenue of $906.4M is 177.5% above the trailing $683.0M, and the EPS figure follows from an assumed operating leverage that the September quarter did not show. The dispersion reflects that uncertainty: the $425 low target is below the current price, while the $900 high is more than double it. The estimate revision is the only evidence the inflection is starting."
     ]
   },
   "risks": {
@@ -164,5 +161,7 @@ export const SITM: StockStory = {
       "What operating margin is embedded in the consensus EPS of $12.73?",
       "How much of the $994.8M net debt matures in the next three years?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

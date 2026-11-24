@@ -7,20 +7,20 @@ export const QCOM: StockStory = {
   "dek": "The licensing business earns a royalty on every phone; the chip business sells the processor inside it. One is a toll on the industry, the other is a fight, and the margin trend is currently about the fight.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $43.1B trailing twelve months, -2.6% year over year.",
-    "Profitability: 20.1% operating margin and 31.6% net margin.",
-    "Cash: $8.7B free cash flow, a 20.1% margin.",
-    "Scorecard: 55/100 average percentile across the factor screens."
+    "Trailing revenue is $43.1B, down 2.6%, and the operating margin has fallen from 27.5% to 13.1% in four quarters.",
+    "QTL is 12.9% of revenue but carries a disproportionate share of profit, which is why the blended margin holds at 20.1%.",
+    "Net margin of 31.6% exceeds the operating margin because FY2026 net income of $13.63B exceeded operating income of $8.66B.",
+    "At 12.9x earnings the shares look cheap, but 18.0x EV/EBITDA and 20.3x free cash flow are the better measures."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000804328&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "QUALCOMM INC/DE generated $43.1B of revenue over the last twelve months, -2.6% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
-      "The latest reported quarter was Q4 FY26, with $10.3B of revenue and an operating margin of 13.1%. The stock closed at $166.67 on 2026-11-17, giving a market capitalization of $178.3B.",
-      "The shares sit 32% of the way up their 52-week range ($121.99 to $259.92). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Qualcomm's operating margin halved in four quarters without a collapse in revenue. Revenue went from $12.3B in the December 2025 quarter to $10.6B, $9.9B and $10.3B, while the operating margin fell from 27.5% to 21.8%, 16.3% and 13.1%. Q4 FY2026 produced $1.17 of EPS and a 12.1% net margin. The reported numbers show a mix and pricing problem, not a demand collapse. The distinction matters because a demand problem would eventually recover with the handset cycle, while a mix problem may not.",
+      "The company is two businesses. QCT, the chip arm, is 86.3% of revenue and sells Snapdragon processors, modems, radio-frequency parts and connectivity chips into handsets, automotive and IoT. QTL, the licensing arm, is 12.9% of revenue and earns royalties on standard-essential patents. Because the patent portfolio is a sunk cost, QTL carries a disproportionate share of the profit, which is why the blended operating margin can be 20.1% while the chip business is under pressure.",
+      "At $164 the shares trade at 12.9x earnings, 18.0x EV/EBITDA, 4.3x sales and 20.3x free cash flow, with a 4.9% free-cash-flow yield. The peer median P/E is 32.0x, but the P/E is the least reliable measure here: FY2026 net income of $13.63B exceeded operating income of $8.66B, so a large part of the earnings base arrived below the line. EV/EBITDA and free cash flow are the better anchors. The gap between the two is the central question for the multiple."
     ],
-    "quote": "A royalty is priced by negotiation and enforced by patent law. A chip is priced by the market. The two margins tell you which one is under pressure."
+    "quote": "Qualcomm's licensing arm is a toll on every handset, and the 12.9x earnings multiple is only a bargain if the below-the-line income repeats."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,50 @@ export const QCOM: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.6% a year across the fiscal years in the dataset, and the latest quarter changed -8.4% year over year. Third-party estimates for the current fiscal year point to $45.4B of revenue and $9.59 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 20.1% and return on invested capital of 18.1% are the filters to watch as revenue scales."
+      "The revenue base climbed from $33.6B in FY2021 to $44.2B in FY2022, $35.8B in FY2023, $39.0B in FY2024, $44.3B in FY2025 and $43.1B in FY2026. That is a cycle, not a compounding series: the FY2022 peak was not exceeded until FY2025, and FY2026 fell 2.6%. Consensus expects $45.4B in FY2027, up 5.1%, and $52.4B in FY2028, up 15.5%. The forecast assumes a return to growth after a flat year.",
+      "The mix is QCT at 86.3% and QTL at 12.9%, with China at 41.9%, the United States at 25.0% and Korea at 22.0%. Handsets are the largest end market within QCT, with automotive and IoT smaller but growing. The geographic concentration in China is a revenue risk that sits alongside the customer concentration in a few handset makers. Neither is visible in the consolidated margin.",
+      "The growth forecast is a rebound, not an observed trend. FY2027 growth of 5.1% is modest, and FY2028 growth of 15.5% is a sharp acceleration from a larger base. The estimates assume handset volumes stabilise and that automotive and IoT contribute enough to offset handset maturity. That is plausible, but it is a forecast, and the recent revisions have been negative."
+    ],
+    "bullets": [
+      {
+        "title": "Handset cycle",
+        "detail": "QCT is 86.3% of revenue, and premium handset wins drive mix. A weaker replacement cycle reduces volume and price at the same time."
+      },
+      {
+        "title": "Licensing renewals",
+        "detail": "QTL is 12.9% of revenue but a disproportionate share of profit. Terms are negotiated and litigated rather than renewed automatically."
+      },
+      {
+        "title": "China exposure",
+        "detail": "41.9% of revenue comes from China. Customer concentration and geopolitics sit alongside the handset cycle."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 20.1%, the net margin is 31.6% and diluted EPS is $12.70. The latest quarter's operating margin was 13.1%.",
-      "Return on equity is 44.8%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q4 FY26: revenue of $10.3B, an operating margin of 13.1% and a net margin of 12.1%."
+      "Gross margin came in at 53.1%, operating margin 20.1% and net margin 31.6%. The net margin is above the operating margin because of below-the-line income: in FY2026 net income was $13.63B against operating income of $8.66B, and in Q2 FY2026 net margin was 69.5% on $6.88 of EPS. The operating margin is the cleaner measure, and it fell from 27.5% to 13.1% over four quarters.",
+      "Return on invested capital was 18.2% and return on equity 44.8%, against a peer median ROIC of 22.6%. The ROE is flattered by leverage and by buybacks, so the ROIC is the better comparison. The operating margin compression is not a gross-margin story: gross margin fell from 55.4% in FY2025 to 53.1%, a 2.3-point decline, while the operating margin fell 7.8 points. Operating expense grew faster than revenue.",
+      "Broadcom is the sharpest comparison. It trades at 38.6x earnings with a 48.0% operating margin; Qualcomm trades at 12.9x with a 20.1% margin. The gap is partly mix, because Broadcom has more software and custom silicon, and partly the licensing overhang. A 20.1% operating margin is not a bad business, but it is not a 38.6x business. The market is pricing the durability of the licensing stream, not the chip cycle alone."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $8.7B, a 20.1% margin. Net debt is $7.4B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $8.7B over the last twelve months and net debt was $7.4B; interest cover was n/a."
+      "FCF was $8.7B, a 20.1% margin, down from $12.8B in FY2025. The decline came from both sides: operating cash flow fell from $14.0B to $11.1B, and capex rose from $1.2B to $2.5B. Net debt is $9.4B, or 0.9x EBITDA, so the balance sheet is not the constraint. The cash flow is the constraint. That is a different problem from leverage, and it cannot be fixed by refinancing.",
+      "The quarterly free-cash-flow path was $4.4B, $1.9B, $495.0M and $1.8B through FY2026. The weak June quarter is the one to watch, because it came with a 16.3% operating margin and a 20.1% net margin. Working capital and the timing of licensing receipts can move the cash line, but the direction over the year is clear. A single quarter is noise; four quarters of decline is a trend.",
+      "Capital allocation is a 2.5% dividend plus buybacks, with net debt rising from $4.7B in FY2025 to $9.4B. At 0.9x EBITDA the leverage is comfortable, but the fall in free cash flow limits how much can be returned without adding debt. The 4.9% free-cash-flow yield is what investors receive for that trade-off. The dividend is the fixed claim, and it now absorbs a larger share of a smaller cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 13.1x trailing earnings and 18.1x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $185.96; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $164 Qualcomm trades at 12.9x earnings, 18.0x EV/EBITDA, 4.3x sales and 20.3x free cash flow, with a 4.9% free-cash-flow yield. The peer median P/E is 32.0x and EV/EBITDA 25.5x, so the stock is at a deep discount on both. The P/E is misleading because of the below-the-line income; the EV/EBITDA multiple is the more comparable measure, and it is still below the median.",
+      "Forward numbers assume a rebound. FY2027 EPS of $9.59 implies 17.1x, and FY2028 EPS of $12.21 implies 13.4x. The FY2027 estimate is a 9.0% decline from FY2026's $12.70, so the forward multiple is calculated on a lower earnings base. If the licensing income normalises, the P/E on operating earnings is higher than 12.9x, which is why the stock looks cheaper than it is.",
+      "What would justify the discount is a durable decline in handset share or a licensing reset. What would break it is evidence that QCT can hold the premium tier and that QTL renewals are stable. The 18.0x EV/EBITDA multiple is not demanding for a business with an 18.2% ROIC, but it is not a deep-value multiple either. The equity is a bet on the licensing toll surviving, not on the next handset cycle."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "28 analysts contribute to the third-party consensus. The mean target is $185.96, with a range of $100.00 to $320.00.",
-      "Current-year estimates call for $45.4B of revenue and $9.59 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 28 analysts with a mean target of $185.96; third-party estimates can change without notice."
+      "Yahoo Finance's survey from 18 November 2026 covers 28 analysts, with a mean target of $186 and a range of $100 to $320. At $164, the mean of $186 is above the price, and the wide range reflects disagreement about the licensing business.",
+      "FY2027 estimates are $45.4B of revenue and $9.59 of EPS; FY2028 is $52.4B and $12.21. The consensus assumes the December quarter produces $10.8B, down 11.7%, and $2.26 of EPS, down 35.5%, which is a weak start to the fiscal year."
     ]
   },
   "risks": {
@@ -144,5 +159,7 @@ export const QCOM: StockStory = {
       "Is the margin decline mix, pricing or competition?",
       "What would handset volumes flat for three years do to the growth assumption?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const DE: StockStory = {
   "dek": "Revenue peaked at $61.25B in FY2023 and the consensus expects $41.12B this year. At 37.2x earnings, the price is not being paid for the machinery cycle.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $48B trailing twelve months, +8.0% year over year.",
-    "Profitability: 13.4% operating margin and 10.2% net margin.",
-    "Cash: $6B free cash flow, a 12.5% margin.",
-    "Scorecard: 28/100 average percentile across the factor screens."
+    "Q3 FY26 revenue was $12.6B with a 14.9% operating margin, and consensus puts the current fiscal year at $41.1B, down from $61.3B in FY2023.",
+    "Trailing free cash flow of $6.0B is 12.5% of revenue, held up by inventory release rather than by equipment demand.",
+    "At {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA, the shares cost more than Caterpillar at 21.2x and 14.3x despite a 13.4% operating margin against CAT's 18.8%.",
+    "Precision agriculture and parts are the recurring layer, but neither has yet offset the 15.6% and 11.7% revenue declines of FY2024 and FY2025."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/315189/000110465925122321/de-20251102x10k.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000315189&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "DEERE & CO. generated $48B of revenue over the last twelve months, +8.0% versus the prior year. Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
-      "The latest reported quarter was Q3 FY26, with $12.6B of revenue and an operating margin of 14.9%. The stock closed at $649.23 on 2026-11-17, giving a market capitalization of $175B.",
-      "The shares sit 73% of the way up their 52-week range ($455.91 to $721.22). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Deere's third fiscal quarter, ended 2 August 2026, produced $12.6B of revenue, a 14.9% operating margin and $5.10 of diluted EPS. Revenue was up from $12.0B a year earlier, but the margin was 13.3% then, so the improvement is modest against a farm economy that has not recovered. The quarter matters because it comes after a first quarter at an 8.7% operating margin, when seasonal volume and a fixed factory base collided. The numbers show a business stabilising at a lower level, not one returning to the FY2023 peak.",
+      "The shape of the cycle is set by farm cash receipts and used-equipment values, not by Deere's order book alone. Large tractors and combines are bought when the previous harvest has paid for them, and a trade-in is part of the transaction. When used values fall, the dealer absorbs a loss and the net cost of a new machine rises even if the list price is unchanged. That is why revenue fell 15.6% in FY2024 and 11.7% in FY2025 while the installed fleet kept working.",
+      "The valuation is the argument. The shares change hands at {{price}}, which values Deere at {{marketCap}} and {{pe}} trailing earnings, or {{evEbitda}} EV/EBITDA against peer medians of 29.6x and 19.3x. On the FY2027 consensus EPS of $22.89 the multiple falls to about 28x, still a premium to Caterpillar at 21.2x. The price therefore assumes both a volume recovery and a mix shift toward precision agriculture. Capital returns are modest at a 1.1% yield, so the return depends on the multiple holding while earnings recover."
     ],
-    "quote": "A combine is replaced every five to ten years, and the decision is made in the winter when the farmer knows the harvest and the crop price. Deere's revenue is a lagging report on that decision."
+    "quote": "A farmer replaces a combine when the harvest pays for it, so Deere's premium multiple is a bet on farm income as much as on precision software."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -38,36 +38,34 @@ export const DE: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.2% a year across the fiscal years in the dataset, and the latest quarter changed +4.9% year over year. Third-party estimates for the current fiscal year point to $41.1B of revenue and $18.11 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 13.4% and return on invested capital of 6.2% are the filters to watch as revenue scales."
+      "The consensus path is a rebound: $41.1B of revenue and $18.11 of EPS this fiscal year, then $44.7B and $22.89 in FY2027, a 26.4% EPS increase. That second year is doing most of the work. It requires North American large agriculture to bottom and the construction and forestry business to hold, because Small Agriculture and Turf, at 22.9% of FY2025 revenue, behaves like consumer durables and cannot carry the group. The first quarter's 8.7% margin shows how little volume leverage is available before the spring selling season.",
+      "Mix is the quieter driver. Production and Precision Agriculture was 38.9% of FY2025 revenue, and within it the precision packages, guidance and telematics lift revenue per machine and add a subscription tail. Parts and service are the counter-cyclical layer; the installed fleet needs filters, belts and hydraulics whether or not a new combine is sold. Neither line is disclosed separately, so the evidence for mix shift has to come from segment margin rather than from a reported attach rate."
     ],
     "bullets": [
       {
-        "title": "Replacement demand",
-        "detail": "The installed fleet ages regardless of the cycle. Deferred purchases accumulate and eventually have to be made."
+        "title": "Replacement cycle",
+        "detail": "The average machine in the field is older than it was three years ago. Deferred purchases eventually become orders, but the timing depends on crop prices rather than on an engineering calendar."
       },
       {
         "title": "Precision agriculture",
-        "detail": "Software, guidance and automation raise revenue per machine and add a recurring stream after the sale."
+        "detail": "Guidance, variable-rate application and machine automation raise revenue per unit and create switching costs once prescriptions and field data sit in Deere's system."
       },
       {
-        "title": "Pricing and mix",
-        "detail": "A richer mix of large, high-spec machines lifts revenue per unit even when unit volumes are flat."
+        "title": "Construction and forestry",
+        "detail": "At 25.5% of FY2025 revenue, this segment is tied to US non-residential construction and to rental fleet capex, a different cycle from farming."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 13.4%, the net margin is 10.2% and diluted EPS is $18.00. The latest quarter's operating margin was 14.9%.",
-      "Return on equity is 17.4%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $12.6B, an operating margin of 14.9% and a net margin of 10.9%."
+      "Margin progression is a volume story. Operating margin was 21.3% in FY2023, 17.8% in FY2024 and 13.7% in FY2025 as revenue fell from $61.3B to $45.7B. The factory and engineering base did not shrink at the same pace, so each lost unit carried more overhead. The trailing margin is 13.4%, and the third quarter's 14.9% is an improvement on the 8.7% of the first quarter but still below the 18.3% posted in Q2 FY25.",
+      "Below the operating line, net margin is 10.2% and return on invested capital is 10.7%, against an 18.3% peer median. That gap is the clearest number in the results: Deere earns half the return of the industrial group it is priced against. Return on equity is 17.4%, helped by a finance book that carries debt rather than by a higher industrial return. Interest cover of 2.2x is thin for an investment-grade manufacturer and reflects the captive lender."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $6B, a 12.5% margin. Net debt is $53.6B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $6B over the last twelve months and net debt was $53.6B; interest cover was n/a."
+      "FY2025 operating cash flow was $7.5B against $1.4B of capex, producing $6.1B of free cash flow; the trailing figure is $6.0B, a 12.5% margin. The cash did not come from earnings growth. Inventory fell as production was cut, which releases working capital and explains why free cash flow held up while operating income halved. The seasonal pattern is stark: Q1 FY26 burned $1.1B, and the spring quarter generated $1.7B.",
+      "Consolidated net debt is $53.56B, or 6.1x EBITDA, because the captive finance arm borrows separately to fund dealer and farmer loans. That debt sits against receivables rather than against the factories, so the industrial balance sheet is less levered than the consolidated number implies. The distinction matters because the spread between funding cost and customer rate is its own profit pool with its own credit risk. The 1.1% dividend absorbs little of the $6.0B, leaving room for buybacks."
     ],
     "bullets": [
       {
@@ -86,15 +84,15 @@ export const DE: StockStory = {
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 35.9x trailing earnings and 26.0x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $694.01; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "The shares change hands at {{price}}, which values Deere at {{marketCap}}, or {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA. The peer medians are 29.6x and 19.3x, so the premium is about 5.5 turns on earnings and one on EBITDA. P/FCF is {{pfcf}} and the free-cash-flow yield is {{fcfYield}}. The earnings multiple is measured on a trough: FY2025 EPS was $18.50, down from $34.63 in FY2023.",
+      "On the FY2027 estimate of $22.89 the multiple is roughly 28x, still above Caterpillar's 21.2x. That is the crux. Caterpillar earned an 18.8% operating margin and a 52.6% return on invested capital on $77.8B of revenue; Deere earned 13.4% and 10.7% on $48.0B. A premium for the dealer network and precision stack is defensible, but it has to survive a year in which EPS is expected to fall 2.1%.",
+      "What would break the multiple is a delayed recovery rather than a weaker franchise. If FY2027 EPS arrives at the FY2025 level, the shares would trade at 34x and the EV/EBITDA would stay above 20x with no volume growth. What would justify it is evidence that precision-agriculture revenue and parts grow through the downturn, which the segment disclosure does not yet isolate. That is the test for the next two quarters, and the burden of proof sits with the quarterly segment revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "23 analysts contribute to the third-party consensus. The mean target is $694.01, with a range of $500.00 to $813.18.",
-      "Current-year estimates call for $41.1B of revenue and $18.11 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 23 analysts with a mean target of $694.01; third-party estimates can change without notice."
+      "The Yahoo Finance consensus, dated 18 November 2026, covers 23 analysts with a mean target of $694 and a range of $500 to $813. The mean is about 9% above the current price, but the low end is 21% below it, so the average conceals a real split about the timing of the farm cycle.",
+      "Estimates have been stable rather than rising: the 90-day EPS revision is 0.0%, and the current-year figure of $18.11 is 2.1% below FY2025. The consensus therefore assumes the recovery starts in FY2027, with revenue of $44.7B and EPS of $22.89. Four consecutive quarterly beats, including $5.10 against $4.71 in Q3 FY26, suggest the near-term bar is low; the FY2027 bar is not."
     ]
   },
   "risks": {
@@ -158,5 +156,7 @@ export const DE: StockStory = {
       "How much of the finance book's profit depends on the spread rather than on volume?",
       "Does the precision-agriculture revenue grow through the downturn, or only with equipment sales?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

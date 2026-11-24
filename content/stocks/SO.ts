@@ -7,20 +7,20 @@ export const SO: StockStory = {
   "dek": "The company spends more on new plants and wires than it collects in depreciation, which is why it reports a minus $3.5B cash margin and still pays a dividend. A regulator, not a market, decides whether that works.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $30.2B trailing twelve months, +8.3% year over year.",
-    "Profitability: 24.2% operating margin and 14.4% net margin.",
-    "Cash: -$3.5B free cash flow, a -11.5% margin.",
-    "Scorecard: 34/100 average percentile across the factor screens."
+    "First-quarter FY26 revenue of $8.4B came with a 24.0% operating margin and $1.20 of EPS, on trailing revenue of $30.2B, up 8.3%.",
+    "Free cash flow is negative $3.5B, an -11.5% margin; in FY2025 capex of $12.7B exceeded operating cash flow of $9.8B.",
+    "Net debt is $67.8B, or 5.0x EBITDA, and interest cover is 2.2x, so the capital programme depends on continued access to debt markets.",
+    "At {{pe}} earnings and {{evEbitda}} EV/EBITDA, Southern trades at a premium to Duke at 19.6x and 11.2x on a similar 5.7% return on invested capital."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000006/so-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000092122&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "SOUTHERN CO. generated $30.2B of revenue over the last twelve months, +8.3% versus the prior year. Returns depend on regulated rates, capital investment and the cost of financing the asset base.",
-      "The latest reported quarter was Q1 FY26, with $8.4B of revenue and an operating margin of 24.0%. The stock closed at $93.60 on 2026-11-17, giving a market capitalization of $109B.",
-      "The shares sit 67% of the way up their 52-week range ($81.69 to $99.58). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Southern's first quarter of 2026 reported $8.4B of revenue, a 24.0% operating margin and $1.20 of diluted EPS. The fourth quarter of FY2025, by contrast, produced $7.0B, a 13.1% margin and $0.38, which shows how much weather and seasonality matter to a Southeast utility. The trailing revenue base is $30.2B, 8.3% higher than a year earlier. The quarter matters because it shows the volume and weather sensitivity that sits underneath a regulated return.",
+      "The business is 80.5% traditional electric operations and 17.1% gas distribution, with the rest in marketing and smaller investments. Nine million meters in a growing region produce a predictable volume of sales, and a growing population means new connections and new capital investment without having to win a customer from a competitor. The regulator, not the market, decides the return on that capital, which is why the rate case is more informative than the earnings release.",
+      "The valuation is a regulatory-spread argument. Southern is capitalised at {{marketCap}} at {{price}}, or {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA, against 20.5x and 12.5x for the utility peer group. Duke trades at 19.6x and 11.2x with 5.8% revenue growth and a 5.4% return on capital; Southern's return is 5.7%. The premium is for the Southeast territory and the visibility of the capital plan, not for a higher current return. That is a narrow margin for error if the next rate case is contested."
     ],
-    "quote": "A regulated utility converts capital spending into earnings, but only at the rate the commission allows and only after the spending is judged to be prudent."
+    "quote": "Southern's free cash flow is negative because it is building faster than its assets depreciate, and the regulator decides whether that creates value."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,48 +52,48 @@ export const SO: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.5% a year across the fiscal years in the dataset, and the latest quarter changed +8.0% year over year. Third-party estimates for the current fiscal year point to $31.1B of revenue and $4.64 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 24.2% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Consensus expects $31.1B of revenue in 2026 and $32.9B in 2027, with EPS of $4.64 and $4.94. That is mid-single-digit revenue growth, with EPS stepping up from the $3.92 reported in FY2025. The trailing revenue base is $30.2B, so the estimate implies a gradual step-up rather than a change in the business. The growth is funded by $12.7B of capex against $9.8B of operating cash flow.",
+      "The capital plan is the growth plan. Every new plant, substation and transmission line becomes rate base once it enters service, and the allowed return on that rate base is the earnings. The constraint is regulatory approval and the cost of financing. With net debt at $67.8B and interest cover at 2.2x, a rise in new debt costs compresses the spread before the commission adjusts rates.",
+      "The regulatory calendar sets the timing. A dollar of capex only becomes earnings when the asset enters service and the commission accepts it into rate base, so the lag between spending and recovery separates a fast-growing utility from a slow one. Southern's 5.0x leverage and 2.2x interest cover mean that lag is financed with debt in the interim. The consensus EPS path assumes the approvals arrive on schedule."
     ],
     "bullets": [
       {
-        "title": "Rate base growth",
-        "detail": "New capital entering service increases the asset base on which the allowed return is earned."
+        "title": "Rate base",
+        "detail": "Earnings are the allowed return on invested capital. The $12.7B capital programme is therefore the growth engine, not a discretionary spend."
       },
       {
-        "title": "Customer growth",
-        "detail": "Population and business migration into the Southeast add meters and load without competing for them."
+        "title": "Southeast load",
+        "detail": "Nine million meters in a growing region add connections without customer acquisition, an advantage Southern shares with Duke rather than with utilities in stagnant territories."
       },
       {
-        "title": "Cost recovery",
-        "detail": "Fuel clauses and formula rates shorten the lag between spending and recovering the cost."
+        "title": "Regulatory lag",
+        "detail": "A rate case audits which costs are recoverable and what return is fair. A delay pushes recovery years to the right even when the spending is approved in principle."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 24.2%, the net margin is 14.4% and diluted EPS is $3.91. The latest quarter's operating margin was 24.0%.",
-      "Return on equity is n/a. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q1 FY26: revenue of $8.4B, an operating margin of 24.0% and a net margin of 16.1%."
+      "The margin path is a regulatory and weather story. Operating margin was 26.4% in FY2024, 24.7% in FY2025 and 24.2% trailing, with Q1 FY2026 at 24.0% and a quarterly range from 13.1% in Q4 FY25 to 33.2% in Q3 FY25. The fourth-quarter weakness is seasonal: heating and cooling demand fall between seasons, while the fixed cost of the network does not. The annual average is the meaningful number, and it has been stable.",
+      "Returns are low by industrial standards and normal for a regulated network. Return on invested capital is 5.7%, marginally above the 5.5% peer median and above Duke's 5.4%, and return on equity is 10.9%. Those figures are set by the allowed return, not by operating skill, which is why the relevant comparison is the cost of capital rather than a manufacturer's ROIC."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$3.5B, a -11.5% margin. Net debt is not a meaningful measure for this business in the current dataset.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "FCF is negative $3.5B trailing, an -11.5% margin, and it has been negative in five of the last six years. In FY2025, capex of $12.7B exceeded operating cash flow of $9.8B; in FY2024, capex of $9.0B was almost exactly covered by $9.8B of operating cash flow, producing $833M of positive free cash flow. The swing is the size of the construction programme, not a deterioration in collections.",
+      "The balance sheet carries it. Net debt is $67.8B, 5.0x EBITDA, and interest cover is 2.2x, which leaves little headroom if new debt costs rise. The 3.3% dividend is funded from operating cash flow, but the growth capex requires new debt and equity. For this business, free cash flow is not the right test of health; the right test is whether the allowed return exceeds the cost of the capital being raised."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 25.1x trailing earnings and 26.6x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $96.28; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Southern is capitalised at {{marketCap}} at {{price}}, or {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA. The utility peer medians are 20.5x and 12.5x, so the premium is about 4.5 turns on earnings and 0.6 on EBITDA. P/FCF and the free-cash-flow yield are not meaningful because free cash flow is negative; the {{fcfYield}} figure is a capex artefact. On the FY2027 estimate of $4.94 the multiple is about 18.8x.",
+      "The premium to Duke is the comparison that needs justifying. Duke trades at 19.6x and 11.2x with 5.8% revenue growth and a 5.4% return on capital; Southern trades at 25.0x and 13.1x with 8.3% trailing growth and a 5.7% return. The difference is the Southeast territory and the visibility of the capital plan, which supports a premium but not an unlimited one.",
+      "What would justify the multiple is a series of rate cases that allow the capital programme to earn its cost of capital, plus load growth that keeps utilisation high. What would break it is a disallowance, a construction overrun, or a rise in interest costs that compresses the spread before rates adjust. The 3.3% dividend is the part of the return that does not depend on those outcomes."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "20 analysts contribute to the third-party consensus. The mean target is $96.28, with a range of $74.00 to $115.00.",
-      "Current-year estimates call for $31.1B of revenue and $4.64 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 20 analysts with a mean target of $96.28; third-party estimates can change without notice."
+      "Twenty analysts contribute to Yahoo Finance's 18 November 2026 estimate set, with a mean target of $96 and a range of $74 to $115. The mean is only 3% above the current price, the smallest upside in the utility group, and the range runs from 20% below the price to 24% above it.",
+      "Revisions are modestly positive, with the 90-day EPS change at 1.2% and the 30-day at 1.0%. Consensus expects $4.64 for 2026 and $4.94 for 2027, a steady progression from the $3.92 reported in FY2025. With the mean target barely above the price, the analysts are implicitly assuming the multiple holds and the return comes from the dividend and rate base growth."
     ]
   },
   "risks": {
@@ -157,5 +157,7 @@ export const SO: StockStory = {
       "Why is the gross margin negative, and what does the fuel clause recover?",
       "How much equity will have to be issued to fund the capital plan?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

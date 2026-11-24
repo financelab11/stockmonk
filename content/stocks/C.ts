@@ -7,20 +7,20 @@ export const C: StockStory = {
   "dek": "A negative revenue quarter and a trailing net loss make the headline figures unusable for trend analysis. The FY2025 annual record and the consensus EPS are the cleaner anchors for a bank that earns fees from moving money across borders.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $23.9B trailing twelve months, -71.8% year over year.",
-    "Profitability: -183.2% operating margin and -130.1% net margin.",
-    "Cash: $24.9B free cash flow, a 104.3% margin.",
-    "Scorecard: 44/100 average percentile across the factor screens."
+    "FY2025 revenue was $85.2B with $19.83B of operating income and $14.3B of net income, the cleanest annual base available.",
+    "Trailing free cash flow of -$74.2B and a 6.7% return on equity reflect balance-sheet movement rather than operating losses.",
+    "At 13.3x earnings Citigroup trades above Wells Fargo's 10.5x while earning half the return on equity.",
+    "The $151 mean target is 31% above the $115 price, and the lowest target of $127 is also above it."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/c-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000831001&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "CITIGROUP INC. generated $23.9B of revenue over the last twelve months, -71.8% versus the prior year. The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns.",
-      "The latest reported quarter was Q3 FY26, with -$52.3B of revenue and an operating margin of 132.4%. The stock closed at $119.94 on 2026-11-17, giving a market capitalization of $198.5B.",
-      "The shares sit 46% of the way up their 52-week range ($95.83 to $147.96). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Citigroup's last full year produced $85.2B of revenue, $19.83B of operating income and $14.3B of net income, or $6.99 per share. The quarterly series ended weakly: the December quarter earned $1.21 against $1.86 in September, with a net margin of 12.4% against 17.0%. The annual base is sound and the exit rate is not, which is why the two should be read separately. The annual numbers are also the base the 2026 consensus is built on.",
+      "The franchise is more corporate and more cross-border than its US peers. Markets supplied 25.8% of revenue, Services 24.9%, US Personal Banking 24.6%, Wealth 10.0%, Banking 9.6% and Corporate 5.0%; North America was 51.6% and international 49.6%. Treasury and trade solutions is the fee-heavy, embedded business that domestic banks cannot easily replicate, and it is why the network has value beyond its loan book. That franchise is why the international share of revenue is an asset rather than a complication.",
+      "Citigroup trades at 13.3x trailing earnings, 8.6x EV/EBITDA and 2.4x sales, above Wells Fargo at 10.5x and below the 14.2x peer median. Price-to-book would be the natural measure for a bank and is not available, so the 6.7% return on equity has to do that work. A 2.4% dividend yield is the only distribution the figures quantify. Nothing in the segment mix explains the premium; the forward estimate does, and it assumes a normalisation that has not yet appeared in the annual accounts."
     ],
-    "quote": "A global bank earns a fee for being the connective tissue between countries. The value of that network is real even when a single quarter's accounting makes the income statement unreadable."
+    "quote": "Citigroup earns 6.7% on equity and trades at 13.3x, while Wells Fargo earns 13.1% and trades at 10.5x, and that inversion is the question."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,48 +52,50 @@ export const C: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 2.1% a year across the fiscal years in the dataset, and the latest quarter changed -336.8% year over year. Third-party estimates for the current fiscal year point to $96B of revenue and $11.40 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -183.2% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Revenue progressed from $75.5B in FY2020 to $71.9B, $75.3B, $78.1B, $80.7B and $85.2B in FY2025. Five years of low-single-digit growth, with one decline, describes a mature spread business with a fee overlay. The 2021 decline of 4.8% is the rate-cycle reminder inside that range, and the 5.6% year in FY2025 was the best of the period, with a 23.3% operating margin, the highest since 2021.",
+      "The mix is where the quality argument lives. Services and Wealth together are 34.9% of revenue and are the fee-heavy, capital-light parts; Markets at 25.8% is cyclical and competes with Goldman Sachs, JPMorgan and Morgan Stanley. A few points of mix shift toward Services changes the durability of the revenue without changing its size, which is why the segment split matters more than the total.",
+      "Consensus expects FY2026 revenue of $96.0B, up 12.6%, and EPS of $11.40, up 51.5%, then $100.2B and $13.06 in FY2027. A 51.5% EPS increase is not an operating forecast; it is a statement that the FY2025 base was depressed by an item the annual accounts do not isolate. Only 10 to 12 analysts contribute to the annual numbers, so those estimates are thinner than the 21 covering the target."
     ],
     "bullets": [
       {
-        "title": "Cross-border corporate activity",
-        "detail": "Trade, cash management and FX volumes grow with global commerce."
+        "title": "Services",
+        "detail": "Treasury and trade solutions is 24.9% of revenue and embedded in clients' payment flows. Switching a payroll or supplier network is a project, which makes the revenue stickier than lending."
       },
       {
-        "title": "Cards and consumer credit",
-        "detail": "US card balances generate interest and fees, but also charge-offs."
+        "title": "Cost base",
+        "detail": "Operating in more than 100 countries duplicates technology, compliance and management. The efficiency ratio is not disclosed, but JPMorgan's 42.0% operating margin shows the distance."
       },
       {
-        "title": "Wealth and markets",
-        "detail": "Fee and trading revenue tied to client assets and market activity."
+        "title": "Normalisation",
+        "detail": "The 2026 EPS estimate of $11.40 cannot be reconciled with the $6.99 earned in FY2025. Until the filing explains the difference, the annual record is the safer base."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -183.2%, the net margin is -130.1% and diluted EPS is $1.21. The latest quarter's operating margin was 132.4%.",
-      "Return on equity is -42.2%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of -$52.3B, an operating margin of 132.4% and a net margin of 137.2%."
+      "Margin recovery has been steady: operating margin 16.5% in FY2023, 21.1% in FY2024 and 23.3% in FY2025, with net margin 11.8%, 15.7% and 16.8%. EPS went from $4.04 to $5.94 and $6.99, a 73% increase in two years. The December quarter's 19.2% operating margin and 12.4% net margin show how quickly a weak quarter can reverse that progress. The improvement is real, and it is smaller than the 51.5% EPS increase the 2026 consensus implies.",
+      "Returns remain the problem. Return on equity is 6.7% and return on invested capital 2.5%, against Wells Fargo's 13.1% and American Express's 34.2%. The low return is the arithmetic of a large international footprint with duplicated infrastructure and a capital base built for a bigger balance sheet. It is also why the multiple is hard to defend on returns alone.",
+      "The reported trailing figures do not reconcile with the annual record, and the gap is the analytical problem. A 13.3x multiple at $115 implies trailing EPS near $8.65, which is above the $6.99 earned in FY2025 and below the 2026 consensus. The annual accounts, the segment mix and the consensus path are the three anchors that can be used; the quarterly series cannot."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $24.9B, a 104.3% margin. Net debt is not a meaningful measure for this business in the current dataset.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "Cash generation was -$74.2B trailing and operating cash flow -$67.6B in FY2025. For a bank these are not profit measures: lending, deposit gathering and trading assets move through operating cash flow, and a year of balance-sheet growth can produce a large negative number while the bank is profitable. A bank's cash-flow statement is a balance-sheet statement in disguise, so the free-cash-flow multiples cannot be used here.",
+      "The measures that matter are net interest income, fee mix, the efficiency ratio, credit costs and capital, and only the return on equity at 6.7% and the operating margin at 23.3% are quantified. Net debt of $18.1B at 0.7x EBITDA and interest cover of 0.3x are deposit-funding artefacts; they say nothing about solvency and should not be read as distress signals.",
+      "A 2.4% dividend yield with a 6.7% return on equity means retention is doing most of the capital building. Buybacks are constrained by capital requirements the disclosure does not quantify. Returns have to improve before the payout can, which makes the cost base the practical question and the cash-flow statement the wrong place to answer it. A higher payout would need either better returns or a smaller balance sheet, and neither is visible yet."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and 40.4x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $150.60; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "A 13.3x trailing multiple, 8.6x EV/EBITDA and 2.4x sales place Citigroup above Wells Fargo and Bank of America and below the 14.2x median. Without a price-to-book figure, the only way to test that is against returns: 13.3x for a 6.7% return on equity is a richer pairing than 10.5x for 13.1%. The market is either wrong or looking through the current returns.",
+      "The forward numbers explain the second possibility. The FY2026 estimate of $11.40 implies 10.1x and the FY2027 figure of $13.06 implies 8.8x. On those estimates Citigroup is cheaper than Wells Fargo on forward earnings despite the lower return. The entire case rests on whether the 2026 estimate is an operating number or an accounting one, and the 31% gap between the mean target and the price is the sell side's answer.",
+      "What would justify the multiple is a year that reconciles the 2026 estimates with the annual record and shows a falling cost ratio. What would break it is a repeat of the December quarter, when EPS fell to $1.21 and the net margin dropped 4.6 points in three months. The 17.6% one-year return says the market has been willing to wait."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "21 analysts contribute to the third-party consensus. The mean target is $150.60, with a range of $127.00 to $170.00.",
-      "Current-year estimates call for $96B of revenue and $11.40 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 21 analysts with a mean target of $150.6; third-party estimates can change without notice."
+      "Yahoo Finance's consensus, as of 18 November 2026, covers 21 analysts with a mean target of $151 and a range of $127 to $170. Every target is above the $115 price, and the mean implies 31% upside.",
+      "Revisions are positive: 2.2% over 30 days and 2.0% over both 60 and 90. The 2026 quarters have beaten consistently, $3.06 against $2.60, $3.14 against $2.71 and $2.83 against $2.62, after a December 2025 shortfall against the $1.62 estimate. The consensus assumes the distortions are behind the bank; the annual estimates rest on 10 to 12 analysts, so the confidence is thinner than the target count suggests."
     ]
   },
   "risks": {
@@ -157,5 +159,7 @@ export const C: StockStory = {
       "Is the allowance for credit losses adequate for the card book?",
       "What does the global network earn that a domestic bank cannot?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

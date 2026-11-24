@@ -7,20 +7,20 @@ export const RGTI: StockStory = {
   "dek": "The company designs and makes its superconducting processors in-house, so every delay is a manufacturing delay. Revenue was $7.1M in FY2025 against an operating loss of $84.7M, and the equity is valued at $3.9B.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $13.4M trailing twelve months, +68.5% year over year.",
-    "Profitability: -727.6% operating margin and -1787.4% net margin.",
-    "Cash: -$87.6M free cash flow, a -655.9% margin.",
-    "Scorecard: 42/100 average percentile across the factor screens."
+    "Annual revenue fell from $13.1M in FY2022 to $7.1M in FY2025 before recovering to a $13.4M trailing base, up 68.5%.",
+    "Gross margin of 34.6% carries the cost of the processor, the refrigeration and the service engineer, so each system sale is hardware before it is software.",
+    "Free cash flow of -$87.6M against $13.4M of revenue makes the balance sheet, not the product, the near-term constraint.",
+    "At 212.5x sales, the shares are the most expensive of the three quantum names despite a 34.6% gross margin that sits between the other two."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1838359/000110465926023454/rgti-20251231x10k.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001838359&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Rigetti Computing, Inc. generated $13.4M of revenue over the last twelve months, +68.5% versus the prior year. The investment case is a long-duration option on a technology that has not yet reached commercial scale.",
-      "The latest reported quarter was Q2 FY26, with $5.1M of revenue and an operating margin of -546.2%. The stock closed at $8.46 on 2026-11-17, giving a market capitalization of $2.9B.",
-      "The shares sit 1% of the way up their 52-week range ($8.23 to $30.20). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "A $5.1M quarter is the best evidence Rigetti has produced in three years. Revenue in the June 2026 quarter was $5.1M, up from $1.8M a year earlier, and the March quarter was $4.4M. Trailing revenue is $13.4M, up 68.5%, after annual revenue fell from $13.1M in FY2022 to $7.1M in FY2025. The recovery is real and it is small; the operating loss in the June quarter was 546.2% of revenue.",
+      "The company designs and fabricates its own superconducting processors, which is the strategic bet and the cost base. A fab is a fixed cost that runs whether or not a machine ships, so a delay in yield or equipment lands directly on the roadmap without reducing spending. Vertical integration is an advantage when volume arrives and a burden when it does not. The 34.6% gross margin is the price of doing the manufacturing in-house.",
+      "The price is an option premium, and the strike is a commercial market that has not appeared. At 212.5x sales, the $2.9B market value is about 70x the 2027 revenue estimate of $41.5M, the only denominator that makes the multiple fall to a merely extreme level. The cash balance and the share count matter more than the sales multiple, because the company has no operating cash inflow to fund the wait."
     ],
-    "quote": "Owning the fabrication line gives Rigetti control over its roadmap. It also means the company pays for the factory whether or not the machines sell."
+    "quote": "Rigetti owns the factory that makes its quantum chips, so every delay is a manufacturing delay and every quarter of waiting is a fixed bill."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -38,35 +38,47 @@ export const RGTI: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -3.6% a year across the fiscal years in the dataset, and the latest quarter changed +185.3% year over year. Third-party estimates for the current fiscal year point to $20.2M of revenue and -$0.21 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -727.6% and return on invested capital of -74.7% are the filters to watch as revenue scales."
+      "Machine deliveries, not subscriptions, drive the annual number, and that is why the revenue line has been so unstable. A handful of system sales decide a year: FY2022 produced $13.1M, FY2025 $7.1M, and the last two quarters have run at $4.4M and $5.1M. The cloud access business is the recurring part, and the single reported line does not disclose its size. Without that split, a $5M quarter driven by one machine looks the same as one driven by hundreds of users.",
+      "The estimates assume the recent quarterly rate holds and then doubles. FY2026 revenue is modelled at $20.2M, up 184.6%, and FY2027 at $41.5M, up 105.8%, with losses per share of -$0.21 and -$0.23. Two more years of roughly 100% growth is a forecast of commercial adoption, not of technical progress. The company's own history shows how quickly that can slip: three consecutive years of declining revenue before the current recovery."
+    ],
+    "bullets": [
+      {
+        "title": "Fabrication",
+        "detail": "Building processors in-house means yield and equipment problems land on the roadmap directly; the fixed cost does not fall when a machine is late."
+      },
+      {
+        "title": "Lumpy orders",
+        "detail": "A single system sale can decide a quarter, and the number of systems delivered is not disclosed."
+      },
+      {
+        "title": "Cloud usage",
+        "detail": "Renting time on a machine is the recurring part of the model, and it is priced against free or subsidised research access."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -727.6%, the net margin is -1787.4% and diluted EPS is -$0.89. The latest quarter's operating margin was -546.2%.",
-      "Return on equity is -43.7%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q2 FY26: revenue of $5.1M, an operating margin of -546.2% and a net margin of -1023.9%."
+      "Cost of revenue carries the processor, the dilution refrigeration, the wiring and the service engineer, which is why gross margin is 34.6% rather than the 60%-plus of a software business. The margin has also been unstable: 78.1% in FY2022, 52.8% in FY2024, 29.1% in FY2025 and 34.6% trailing. A mix of system sales and cloud usage can move it that much, and the reported line does not say which did.",
+      "The operating loss is the honest measure of the stage. At -727.6% trailing, it is more than seven times revenue, and it was -1194.4% in FY2025 when revenue was $7.1M. Net margin of -1787.4% is worse because of items below the operating line. Return on invested capital of -14.3% is the comparison that matters against IonQ's -25.1% and D-Wave's -12.1%: Rigetti is destroying less capital per dollar invested, but on a much smaller revenue base."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$87.6M, a -655.9% margin. The balance sheet carries $443.5M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$87.6M over the last twelve months and net debt was -$443.5M; interest cover was n/a."
+      "Fabrication is paid for before it earns, and the cash flow shows it. Free cash flow was -$87.6M on a trailing basis, worse than the -$77.2M of FY2025, and capex was $18.7M in FY2025, more than two and a half times revenue. That is an unusual ratio for any company and a normal one for a hardware start-up building a process line. The burn is operating and capital at the same time.",
+      "The funding comes from the balance sheet and from share issuance, because there is no operating cash to reinvest. At the trailing burn, the constraint is not this year but the next raise, and the price at which it is struck decides how much of the eventual payoff existing holders keep. The reported figures do not disclose a buyback, a dividend or a credit facility, so equity is the funding instrument."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $19.57; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Two hundred and twelve times sales is an extreme multiple by any standard, and it is being paid for a 34.6% gross margin. IonQ produced $380.4M of revenue at a -333.9% operating margin; D-Wave $12.4M at -1372.9%. Rigetti's $13.4M sits between them on revenue, and its operating loss of -727.6% sits between theirs. The premium reflects the fabrication model, not the current economics.",
+      "On the FY2027 estimate of $41.5M, the multiple falls to about 70x sales. That is still an option price, and it assumes the estimate is met, which requires revenue to triple from the trailing $13.4M. The relevant comparison is not the peer multiple but the cash: a company burning $87.6M a year with $13.4M of revenue has to convince the market to fund the gap before the multiple matters.",
+      "What would justify the price is a published benchmark showing the processor solving a problem a classical machine cannot, followed by repeat paid usage rather than one-off system sales. What would break it is another year of lumpy revenue and a funding round at a lower price. The 52-week range of $7 to $30 and a 68.5% one-year decline describe how quickly that judgement changes."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "13 analysts contribute to the third-party consensus. The mean target is $19.57, with a range of $7.12 to $40.00.",
-      "Current-year estimates call for $20.2M of revenue and -$0.21 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 13 analysts with a mean target of $19.57; third-party estimates can change without notice."
+      "Thirteen analysts cover Rigetti, with a mean target of $20 against an $8 price and a range of $7 to $40. The range is the widest relative to the price in the group: the low end is below the current share price and the high end is five times it.",
+      "Estimates have firmed slightly, with an 11.4% EPS revision over 30 days, and the last four quarters have all landed within a cent of consensus. FY2026 revenue of $20.2M implies 184.6% growth, and FY2027 of $41.5M implies 105.8%. The consensus is not forecasting profitability in either year; it is forecasting a revenue base large enough to justify another round of funding."
     ]
   },
   "risks": {
@@ -136,5 +148,7 @@ export const RGTI: StockStory = {
       "Which published benchmark would show the processor is closing the gap to a useful machine?",
       "At what share price would the next equity raise become materially dilutive?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

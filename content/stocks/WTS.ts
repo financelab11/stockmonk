@@ -7,20 +7,20 @@ export const WTS: StockStory = {
   "dek": "Backflow preventers, valves and water-quality equipment specified into buildings and then replaced for decades. The report explains why a 7.3% compound grower commands 17.1x EBITDA and what the Q3 margin jump is worth.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $2.8B trailing twelve months, +18.7% year over year.",
-    "Profitability: 21.2% operating margin and 16.0% net margin.",
-    "Cash: $370.4M free cash flow, a 13.3% margin.",
-    "Scorecard: 58/100 average percentile across the factor screens."
+    "Gross margin of 50.5% and a 21.2% operating margin come from specified valves and backflow preventers that codes require and contractors rarely substitute.",
+    "The September quarter's 26.2% operating margin is six points above the prior quarter, and no explanation is offered, so the earnings base may be flattered.",
+    "Net cash of $346.6M and interest cover of 62.3x mean the balance sheet is not the constraint; at 17.8x EBITDA the multiple is.",
+    "Seven analysts carry a $393 mean against $359 with a $360 low, and estimates rose 4.1% in the past month on the margin surprise."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/795403/000110465926018541/wts-20251231x10k.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000795403&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "WATTS WATER TECHNOLOGIES INC. generated $2.8B of revenue over the last twelve months, +18.7% versus the prior year. The cycle drives near-term results, so the important question is what the business earns through a full cycle.",
-      "The latest reported quarter was Q3 FY26, with $728M of revenue and an operating margin of 26.2%. The stock closed at $356.57 on 2026-11-17, giving a market capitalization of $11.9B.",
-      "The shares sit 71% of the way up their 52-week range ($262.96 to $394.54). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Three months to September 2026 produced $728.0M of revenue, a 26.2% operating margin and $4.34 of EPS, well above the $3.14 estimate. The prior quarter had earned 20.2% and the four quarters before that sat between 15.7% and 21.0%. That jump is the most important number in the quarter, because a six-point margin gain on a $2.8B revenue base is worth roughly $170M of operating income, and nothing disclosed explains whether it is price, mix, a one-off item or operating leverage.",
+      "The product families do three jobs in a building: flow control (valves and regulators), water safety (backflow prevention and temperature control required by plumbing codes) and water quality and drains. Customers are wholesalers who stock the parts, contractors who install them and engineers who specify them, so the company needs its catalogue in the distributor's system rather than a large direct sales force. Backflow preventers must be tested annually in many jurisdictions, and the test kits and repair parts are sold through the same channel, which gives a replacement annuity.",
+      "At $359 the shares trade on 26.8x earnings, 17.8x EBITDA, 32.3x free cash flow and a 3.1% free-cash-flow yield, against a 24.9x and 12.0x median. On the FY2026 estimate of $13.22 the multiple is 27.2x, and on $14.43 for FY2027 it is 24.9x. The 52-week range of $267 to $395 puts the price near the top of the band, and the 33.6% one-year return is the best in the industrial group. The market has already rewarded the margin story."
     ],
-    "quote": "A specified component is a small part of a big project. The contractor cares about the price, but the engineer cares about the code, and the code is what keeps the incumbent in place."
+    "quote": "A backflow preventer is cheap to make and expensive to replace, which is why a valve specification has held a 50% gross margin for years."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,48 @@ export const WTS: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 7.3% a year across the fiscal years in the dataset, and the latest quarter changed +19.0% year over year. Third-party estimates for the current fiscal year point to $2.9B of revenue and $13.22 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 21.2% and return on invested capital of 23.7% are the filters to watch as revenue scales."
+      "Specification wins compound slowly. Revenue went from $1.5B in FY2020 to $2.4B in FY2025, an 8.3% gain in the final year, and the trailing rate is 18.7%. The estimate for FY2026 is $2.9B, up 18.0%, and for FY2027 $3.0B, up 5.7%. That deceleration is the base case: a company growing at high single digits with a repair tail should not compound at 18% indefinitely. The question is how much of the 18.7% is price, how much is acquired and how much is volume.",
+      "Americas is 76.1% of revenue and Europe 19.9%, so the growth is mostly a North American construction and repair story with a smaller European exposure. Organic and acquired revenue are not split out, and the company has a history of bolt-on deals, so the reported growth overstates underlying volume to an unknown degree. The aftermarket is the durable part: a backflow preventer installed twenty years ago still needs a test kit and a replacement, and that demand does not depend on a new building permit."
     ],
     "bullets": [
       {
-        "title": "Code-driven content",
-        "detail": "Stricter plumbing and water-safety rules require more devices per building. A regulatory tailwind that does not depend on construction volume."
+        "title": "Specification position",
+        "detail": "A part named in an engineer's specification is hard to displace, which is why a valve sells for a price that has little to do with the cost of brass."
       },
       {
-        "title": "Replacement and repair",
-        "detail": "Installed devices wear out and must be tested. A recurring revenue base that survives a construction downturn."
+        "title": "Americas volume",
+        "detail": "76.1% of revenue is American, tied to new construction and repair, and the two are not separated, which is the gap in the growth case."
       },
       {
-        "title": "Acquisitions",
-        "detail": "Bolt-on purchases add products and geography. Useful, but they can dilute margin and add integration risk."
+        "title": "Aftermarket annuity",
+        "detail": "Annual testing requirements keep the installed base generating parts revenue between projects, a smaller but steadier line than new build."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 21.2%, the net margin is 16.0% and diluted EPS is $13.34. The latest quarter's operating margin was 26.2%.",
-      "Return on equity is 19.3%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $728M, an operating margin of 26.2% and a net margin of 20.0%."
+      "The long-run margin expansion is real. Gross margin went from 41.5% in FY2020 to 49.5% in FY2025 and 50.5% trailing; operating margin from 12.0% to 18.4% and 21.2%; net margin from 7.6% to 14.0% and 16.0%. EPS rose from $3.36 to $10.17 over five years. That is a pricing and mix story more than a volume story, and it is consistent with a specified product sold through distribution: operating margin of 21.2% means about 42 cents of every gross-profit dollar reached the operating line.",
+      "The quarterly sequence is the anomaly. Operating margin ran at 15.7%, 21.0%, 18.2%, 18.2%, 19.6% and 20.2% before jumping to 26.2% in the September 2026 quarter, with net margin reaching 20.0%. Return on invested capital of 18.5% and return on equity of 19.3% are already strong on the pre-jump numbers, so the business does not need the 26.2% quarter to justify a premium. It needs it to be repeatable, and one quarter is not evidence.",
+      "Against Mueller Industries, the closest industrial peer, Watts earns 21.2% operating margin versus 21.5% and 18.5% return on capital versus 23.0%, yet trades at 26.8x earnings against 13.0x. The market is paying for the durability of a specified component rather than for the return, and that is a defensible distinction: Mueller's spread depends on a copper price, Watts's depends on a plumbing code. The 26.2% quarter is either confirmation of pricing power or a temporary gift."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $370.4M, a 13.3% margin. The balance sheet carries $346.6M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $370.4M over the last twelve months and net debt was -$346.6M; interest cover was n/a."
+      "Cash generation of $356.3M in FY2025 came from $402.0M of operating cash flow and $45.7M of capex, a 14.7% margin on revenue. The trailing figure is $370.4M, or 13.3%, and the 32.3x multiple of free cash flow is the price being paid for it. Capital intensity is low: capex has stayed between $26.7M and $45.7M a year since FY2021, so the business converts most of its operating profit into cash without a plant programme.",
+      "The quarterly pattern is uneven, with $6.6M of free cash flow in March 2026, $91.6M in June and $131.9M in September. That is a working-capital effect rather than a change in profitability, and the annual figure is the reliable one. Net cash of $346.6M and interest cover of 62.3x mean debt service is immaterial, which is unusual for an industrial with a 50% gross margin and gives management room for bolt-on acquisitions without dilution.",
+      "Capital allocation is conservative: a 0.7% dividend, small acquisitions, and a cash balance that has grown from $18.9M in FY2020 to $346.6M. No buyback is disclosed. For a compounder with a 19.3% return on equity, holding $347M of cash is a drag on returns, but it also means the company has never had to raise equity to fund a deal. The 3.1% free-cash-flow yield is the cost of that caution."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 26.6x trailing earnings and 17.7x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $393.00; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Twenty-six point eight times earnings and 17.8x EBITDA is a full price for a business growing 8.3% in its last full year. The peer median is 24.9x and 12.0x, so Watts pays a 48% premium on EBITDA and a smaller one on earnings. The 52-week range of $267 to $395 and a 33.6% one-year return mean the stock has already re-rated. At 27.2x the FY2026 estimate of $13.22, the multiple assumes the 26.2% operating margin is the new base.",
+      "If the margin normalises to 20%, the earnings base falls by roughly a quarter and the multiple moves toward the mid-thirties, which is hard to defend for a high-single-digit grower. If 26.2% holds, the FY2027 estimate of $14.43 puts the shares at 24.9x, which is in line with the peer median on earnings and still at a premium on EBITDA. The valuation therefore hinges on a single quarter's margin, which is an uncomfortable place for a $12B company to be."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "7 analysts contribute to the third-party consensus. The mean target is $393.00, with a range of $360.00 to $430.00.",
-      "Current-year estimates call for $2.9B of revenue and $13.22 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 7 analysts with a mean target of $393; third-party estimates can change without notice."
+      "A $393 mean target against a $359 price, with a $360 to $430 range, looks like a consensus that has just about caught up. The low target sits almost exactly at the current price.",
+      "Estimates rose 4.1% in the past month and 2.8% over sixty days, a response to the September quarter, when EPS came in at $3.40 against a $3.14 estimate. The FY2026 figure of $13.22 implies 24.9% growth and the FY2027 figure of $14.43 implies 9.1%, so the analysts expect the margin gain to hold for one year and then fade. That is the specific debate: whether 26.2% is a new base or a peak."
     ]
   },
   "risks": {
@@ -158,5 +157,7 @@ export const WTS: StockStory = {
       "Is the 7.3% compound growth rate the right base for the next five years?",
       "How much of the revenue growth came from acquisitions?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

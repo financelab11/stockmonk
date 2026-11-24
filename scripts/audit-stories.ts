@@ -121,9 +121,11 @@ console.log(
 );
 
 const handwritten = Object.values(STOCK_STORIES).filter(
-  (story) => story.narrativeSource === "handwritten",
+  (story) =>
+    story.narrativeSource === "handwritten" ||
+    story.narrativeSource === "curated",
 ).length;
-console.log(`hand-written narratives: ${handwritten} of ${rows.length}`);
+console.log(`hand-written/curated narratives: ${handwritten} of ${rows.length}`);
 
 console.log("\nWorst offenders");
 for (const row of behind
@@ -143,9 +145,31 @@ if (stalePrice.length) {
   }
 }
 
-if (behind.length > 0 || stalePrice.length > 0) {
+const curatedTickers = new Set(
+  Object.values(STOCK_STORIES)
+    .filter(
+      (story) =>
+        story.narrativeSource === "handwritten" ||
+        story.narrativeSource === "curated",
+    )
+    .map((story) => story.ticker),
+);
+const strictCurated = process.argv.includes("--strict-curated");
+const blockingBehind = behind.filter((row) => !curatedTickers.has(row.ticker));
+const blockingStale = stalePrice.filter((row) => !curatedTickers.has(row.ticker));
+
+if (blockingBehind.length > 0 || blockingStale.length > 0) {
   console.log(
-    `\n[stories] ${behind.length} report(s) behind on earnings and ${stalePrice.length} with a stale price — run pnpm refresh:stories`,
+    `\n[stories] ${blockingBehind.length} generated report(s) behind on earnings and ${blockingStale.length} with a stale price — run pnpm refresh:stories`,
+  );
+  process.exitCode = 1;
+} else if ((behind.length > 0 || stalePrice.length > 0) && !strictCurated) {
+  console.log(
+    `\n[stories] ${behind.length} curated report(s) behind on earnings and ${stalePrice.length} with a stale price. They are not auto-rewritten; refresh the research packs when convenient, or run with --strict-curated to fail the audit.`,
+  );
+} else if (behind.length > 0 || stalePrice.length > 0) {
+  console.log(
+    `\n[stories] ${behind.length} report(s) behind on earnings and ${stalePrice.length} with a stale price — curated reports need a manual refresh.`,
   );
   process.exitCode = 1;
 } else {

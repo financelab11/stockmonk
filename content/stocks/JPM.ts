@@ -7,21 +7,21 @@ export const JPM: StockStory = {
   "dek": "Net interest income, credit quality and capital markets activity drive the earnings. Free cash flow and ROIC are not the right lenses for a bank — ROE and book value are.",
   "readingMinutes": 11,
   "takeaways": [
-    "Revenue: $203.2B trailing twelve months, +13.2% year over year.",
-    "Profitability: 42.0% operating margin and 32.5% net margin.",
-    "Cash: n/a free cash flow, a n/a margin.",
-    "Scorecard: 49/100 average percentile across the factor screens."
+    "Third-quarter 2026 revenue was $50.2B, up 8.1%, with a 40.1% operating margin and EPS of $5.57.",
+    "Trailing revenue is $203.2B, up 13.2%, with a 32.5% net margin and a 17.7% return on equity.",
+    "Free cash flow and EV/EBITDA are not meaningful for a bank; net interest income, credit costs and ROE are the relevant measures.",
+    "{{pe}} trailing earnings are below the 14.2x peer median, with a 2.1% annual dividend yield."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
   "irUrl": "https://www.jpmorganchase.com/ir",
   "earningsReleaseUrl": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfex992supplement.htm",
   "bigPicture": {
     "paragraphs": [
-      "JPMORGAN CHASE & CO. generated $203.2B of revenue over the last twelve months, +13.2% versus the prior year. The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns.",
-      "The latest reported quarter was Q3 FY26, with $50.2B of revenue and an operating margin of 40.1%. The stock closed at $329.96 on 2026-11-17, giving a market capitalization of $876.2B.",
-      "The shares sit 58% of the way up their 52-week range ($279.10 to $366.50). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "A 17.7% return on equity is the franchise, but the third quarter showed how quickly the mix can change. Revenue was $50.2B, up 8.1%, with an operating margin of 40.1%, a net margin of 30.5% and EPS of $5.57. The second quarter was stronger at $57.3B, a 48.0% operating margin and $7.70 EPS, so the sequential decline looks like capital-markets normalization rather than a deterioration in the core bank. That is the normal shape of a universal bank.",
+      "Commercial & Investment Bank is 43.0% of revenue, Consumer & Community Banking 41.7%, Asset & Wealth Management 13.2% and corporate/other 2.1%. The CIB is cyclical, the consumer bank is rate-sensitive, and asset management is fee-based. That diversification smooths earnings, but it also means the consolidated result is never far from a capital-markets swing. A money-centre bank with this much consumer deposit funding has a stable base that capital-markets peers lack.",
+      "The {{pe}} trailing multiple is below the 14.2x peer median, and the dividend yield is 2.1%. The discount is not a statement about asset quality; it is the market's normal haircut for a bank with capital-markets exposure and credit-cycle risk. The question is how much of the current return is rate-driven rather than franchise-driven. A structural answer would justify a higher multiple; a cyclical one would not. The multiple is where that debate settles."
     ],
-    "quote": "Banks are not compounders in the same way as software companies. The key variables are net interest income, credit losses, capital returns and the regulatory framework."
+    "quote": "JPMorgan's 17.7% ROE is the franchise; the 12.8x multiple is the market's reminder that banks earn that return through a cycle, not in a straight line."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -53,48 +53,48 @@ export const JPM: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 7.9% a year across the fiscal years in the dataset, and the latest quarter changed +8.1% year over year. Third-party estimates for the current fiscal year point to $207.8B of revenue and $23.91 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 42.0% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Net interest income is the largest revenue driver, and it is sensitive to rate cuts and deposit repricing. Fees from advisory, underwriting, trading and asset management are the second driver and are more cyclical. Commercial & Investment Bank is 43.0% of revenue, Consumer & Community Banking 41.7%, Asset & Wealth Management 13.2% and corporate/other 2.1%. A shift in the mix can move earnings without moving the top line.",
+      "Revenue reached $182.4B in fiscal 2025 from $120.0B in fiscal 2020, and trailing revenue is $203.2B, up 13.2%. The third quarter grew 8.1%, slower than the trailing rate, as capital-markets activity normalized from a strong second quarter. Bank revenue is a blend of stock and flow, which is why the mix matters more than the percentage. The composition is the better guide to the earnings base.",
+      "Consensus for 2026 is $207.8B revenue and $23.91 EPS, with 2027 at $217.3B and $25.57. Revenue growth slows to 4.6% in 2027 while EPS grows 6.9%, which implies a modest margin tailwind. The December quarter is estimated at $51.1B and $5.86. The estimates assume net interest income holds and credit costs stay benign. A credit shock would hit that estimate first."
     ],
     "bullets": [
       {
         "title": "Net interest income",
-        "detail": "The core earnings driver, sensitive to rates and deposit mix."
+        "detail": "The largest revenue line and the most rate-sensitive. Deposit betas determine how much of a rate cut reaches the net interest line."
+      },
+      {
+        "title": "Credit costs",
+        "detail": "Provisions are the main swing factor in a downturn. Commercial real estate and consumer credit are the exposures to watch."
       },
       {
         "title": "Capital markets",
-        "detail": "Advisory, underwriting and trading are cyclical but high-return when activity is strong."
-      },
-      {
-        "title": "Wealth and asset management",
-        "detail": "Fee-based revenue that grows with assets under management."
+        "detail": "The CIB is 43.0% of revenue. Advisory and trading can fall quickly when activity slows, as the third quarter showed."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 42.0%, the net margin is 32.5% and diluted EPS is $23.85. The latest quarter's operating margin was 40.1%.",
-      "Return on equity is 23.4%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $50.2B, an operating margin of 40.1% and a net margin of 30.5%."
+      "Return on equity of 17.7% is the measure that matters for a bank, not the free-cash-flow margin. Return on invested capital is 14.9%. The third-quarter operating margin was 40.1% and the net margin 30.5%, against 48.0% and 36.9% in the second quarter. That swing is seasonality in capital markets, not evidence of a structural margin problem. The operating margin is the secondary measure.",
+      "The peer group trades at a median 14.2x earnings, so JPMorgan's 12.8x is a discount of about one and a half turns. The discount is reasonable if ROE normalizes toward the mid-teens. A normalisation in provisions would change the denominator quickly, which is why the market applies a bank-specific haircut rather than a software multiple. The discount is a credit-cycle discount, not a franchise discount."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was n/a, a n/a margin. Net debt is not a meaningful measure for this business in the current dataset.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "Deposits and loans are operating assets and liabilities, so free cash flow is not a meaningful measure. Operating cash flow was negative $147.8B in fiscal 2025 and negative $42.0B in fiscal 2024. A net cash position of $254.9B is a balance-sheet artifact, not a valuation input, and the 0.8x interest cover reflects the same accounting distortion. The cash-flow line is a funding flow, not a profit measure.",
+      "The relevant capital measures are net interest income, provisioning and the CET1 ratio. CET1 and buyback authorisations are not disclosed, so the capital-return discussion has to stay qualitative. The dividend yield is 2.1%, and the 17.7% ROE supports it. A payout ratio on earnings is more informative than a free-cash-flow yield. The buyback is the variable that would change the per-share math."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 13.3x trailing earnings and 9.2x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $373.48; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Twelve-point-eight times trailing earnings is a discount to the 14.2x peer median, and the 2.1% dividend yield is a large part of the return. EV/EBITDA is not comparable across banks because debt is the operating raw material. The 52-week range is {{range52}}; the shares are {{rangePosition}} of the way up it and have returned {{return1y}}. Book value would be the next measure, but it is not disclosed.",
+      "Forward multiples assume the return holds. 2026 EPS of $23.91 implies about 13x and 2027 EPS of $25.57 about 12x. Those are below the peer median, the market's standard discount for a money-centre bank with capital-markets exposure. The multiple assumes ROE stays near 17.7% and credit costs do not normalize sharply. A provision build would change the denominator quickly. A benign 2027 is already in the price.",
+      "The peer gap is about mix. Bank of America trades at 10.4x, Wells Fargo at 10.5x, Morgan Stanley at 13.2x and Berkshire Hathaway at 14.2x. JPMorgan at 12.8x sits above the pure retail banks and below Berkshire. The gap to Berkshire is the cost of cyclicality; the premium to Wells Fargo is the value of diversification. The premium is for the deposit base, not the trading book."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "23 analysts contribute to the third-party consensus. The mean target is $373.48, with a range of $312.00 to $425.00.",
-      "Current-year estimates call for $207.8B of revenue and $23.91 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 23 analysts with a mean target of $373.48; third-party estimates can change without notice."
+      "A $373 mean target is about 17% above the current price, but the 23 analysts are split on the timing. The range of $312 to $425 is narrow by bank standards, and the dispersion is mostly about credit costs rather than revenue. Only a handful sit below the market price.",
+      "2026 revenue is forecast at $207.8B and EPS at $23.91; 2027 at $217.3B and $25.57. The December quarter is estimated at $51.1B and $5.86. The 30-day and 90-day EPS revisions are both -0.9%, a mild cut rather than a reset. The estimates assume net interest income holds, credit stays benign and capital markets recover."
     ]
   },
   "risks": {
@@ -158,5 +158,7 @@ export const JPM: StockStory = {
       "Is the 23% ROE sustainable through a cycle?",
       "How do capital rules affect buybacks?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

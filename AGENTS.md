@@ -30,9 +30,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - **Performance:** keep charts lazy, reserve dimensions, use self-hosted fonts,
   and avoid client components above the fold. The LHCI gate is the source of
   truth (`lighthouserc.json`).
-- **Verification:** `pnpm typecheck && pnpm lint && pnpm test && pnpm build &&
-  pnpm e2e && pnpm lhci` before shipping. Generated artifacts (`data/`,
-  `.next/`, `.lighthouseci/`, screenshots) are not edited by hand.
+- **Verification:** `pnpm typecheck && pnpm lint && pnpm test && pnpm validate:content && pnpm audit:research && pnpm build && pnpm e2e && pnpm lhci` before shipping. Generated artifacts (`data/`, `.next/`, `.lighthouseci/`, screenshots) are not edited by hand.
 
 
 ## Full project context

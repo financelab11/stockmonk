@@ -7,19 +7,20 @@ export const HON: StockStory = {
   "dek": "A 5.1x EV/EBITDA multiple on a 32.7% operating margin is not a market price. The gap between $33.61B of trailing revenue and $20.16B expected this year explains why.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $33.6B trailing twelve months, +3.9% year over year.",
-    "Profitability: 32.7% operating margin and 21.0% net margin.",
-    "Cash: $629M free cash flow, a 1.9% margin.",
-    "Scorecard: 61/100 average percentile across the factor screens."
+    "Revenue fell to $5.0B in Q3 FY26 from $9.7B in Q2, and consensus puts the current year at $20.2B, 46.2% below FY2025.",
+    "Trailing free cash flow is $629M, a fraction of the $5.4B reported in FY2025, so the cash statement is not comparable across periods.",
+    "The 10.0x earnings and 6.4x EV/EBITDA multiples are computed on a half-sized, one-off-heavy base; the 32.7% operating margin reflects the same distortions.",
+    "Aerospace was 46.8% of FY2025 revenue, so the remaining automation businesses carry the $70.5B market value on about $20B of sales."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000013/hon-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000773840&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "HONEYWELL INTERNATIONAL INC. generated $33.6B of revenue over the last twelve months, +3.9% versus the prior year. Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
-      "The latest reported quarter was Q3 FY26, with $5B of revenue and an operating margin of 21.3%. The stock closed at $218.96 on 2026-11-17, giving a market capitalization of $69.5B.",
-      "The shares sit 36% of the way up their 52-week range ($195.87 to $260.28). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
-    ]
+      "Half of Honeywell disappeared from the revenue line in the third quarter of fiscal 2026: sales fell to $5.0B from $9.7B, with a 21.3% operating margin and $2.08 of EPS. The step-down is a portfolio event, not a demand collapse, and the consensus now models $20.2B of revenue for the full year. That reset is the most important fact in the results because every trailing multiple is calculated across two different companies.",
+      "Before the separation, the group was a set of automation and aerospace franchises. Aerospace was 46.8% of FY2025 revenue and carried the aftermarket annuity; Building Automation was 19.7% and Industrial Automation 25.1%, with Energy & Sustainability at 8.4%. Aerospace and Building Automation earn high margins on installed-base service and software, while process and warehouse automation are long-cycle projects recognised as work progresses. The mix between those two models explains most of the quarterly margin volatility, and it is the first thing to rebuild after the separation.",
+      "The valuation debate is about what to apply a multiple to. Honeywell's market value is {{marketCap}} at {{price}}, equal to {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA, both far below peer medians of 31.0x and 20.4x. That is not cheapness; the earnings and EBITDA figures are distorted by separation accounting and one-off gains, and they describe a business that no longer exists in that form. The market capitalisation against $20.2B of expected revenue is a cleaner starting point than either multiple."
+    ],
+    "quote": "Honeywell's 6.4x EBITDA multiple is not a discount to peers; it is the arithmetic of a company that has been taken apart."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -51,35 +52,48 @@ export const HON: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 0.3% a year across the fiscal years in the dataset, and the latest quarter changed +1.3% year over year. Third-party estimates for the current fiscal year point to $20.2B of revenue and $8.42 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 32.7% and return on invested capital of 52.7% are the filters to watch as revenue scales."
+      "The go-forward growth rate is low. Consensus expects $20.2B of revenue this year and $20.5B next, a low-single-digit increase, with EPS rising from $8.42 to $9.88 as the standalone cost base settles. That is a margin-recovery story rather than a volume one. The businesses that remain are mature: building controls grow with building stock and service contracts, and process automation grows with refinery and chemical capital budgets, neither of which is expanding quickly.",
+      "Aerospace was the highest-margin franchise and it is no longer in the consolidated number. What is left is a set of installed-base businesses with the same switching-cost logic: a building control system or a refinery automation stack is expensive to replace once it runs the site. Whether the standalone company can earn the same segment margins without the group's shared engineering and corporate overhead is the open question behind the 17.3% EPS increase expected next year.",
+      "The consensus assumes the margin does the work. That EPS increase on a low-single-digit revenue rise requires either price above inflation or cost taken out of the standalone base. Service-heavy businesses such as Building Automation can deliver the first through mix, while the project side, including process and warehouse automation, is exposed to customer capital budgets. If refinery and chemical capital budgets pause, that exposure arrives before the cost base adjusts, and the margin has to do more work than the consensus assumes."
+    ],
+    "bullets": [
+      {
+        "title": "Installed-base service",
+        "detail": "Service contracts on buildings and spares on aircraft systems recur through the life of the asset. The aircraft piece now sits outside the consolidated revenue base."
+      },
+      {
+        "title": "Project timing",
+        "detail": "Process automation revenue is recognised over multi-year builds, so a delayed refinery or warehouse order moves a quarter without changing the underlying pipeline."
+      },
+      {
+        "title": "Standalone costs",
+        "detail": "Separation leaves the remaining company to fund corporate functions on a smaller revenue base, which is why consensus looks for a 17.3% EPS increase on flat revenue."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 32.7%, the net margin is 21.0% and diluted EPS is $21.02. The latest quarter's operating margin was 21.3%.",
-      "Return on equity is 31.1%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $5B, an operating margin of 21.3% and a net margin of 13.3%."
+      "The trailing operating margin of 32.7% is more than double the 18.2% peer median and above every full year in the table, which ranged from 18.4% in FY2020 to 22.9% in FY2023. It is not an operating achievement. Q2 FY26 carried a 58.5% net margin and $17.83 of EPS, and Q4 FY25 reported a 57.0% operating margin alongside negative net income. Those are one-off gains and transaction effects, and they make the trailing margin a poor guide to the remaining business.",
+      "Strip out the distortions and the underlying margin is closer to the low-twenties that the company earned from FY2021 to FY2025. The third quarter's 21.3% operating margin on $5.0B of revenue is a better anchor, as is the 23.0% return on invested capital and 31.5% return on equity on the trailing figures. Both returns are measured on a shrunken equity base after disposals, so they overstate the earning power of the go-forward group."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $629M, a 1.9% margin. The balance sheet carries $6.2B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $629M over the last twelve months and net debt was -$6.2B; interest cover was n/a."
+      "Twelve-month cash generation is $629M, a 1.9% margin, against $5.4B in FY2025 and at least $4.5B in every year since FY2020. The quarterly path is erratic: -$873M in Q1 FY26, $961M in Q2 and -$52M in Q3. Separation payments and working-capital timing can all move a quarter, but a full-year figure this far below the historical range needs the cash-flow statement rather than the income statement to explain it.",
+      "The balance sheet is not the problem. Net debt is $10.4B, 0.8x EBITDA, and interest cover is 8.9x, so the group can fund separation costs without strain. Capex was $986M in FY2025, 2.6% of revenue, against $6.4B of operating cash flow, a low intensity that reflects an asset-light mix of software, service and project engineering. The 1.3% dividend is easily covered on the historical cash flow, less so on the trailing number."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 9.9x trailing earnings and 5.0x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $253.87; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Honeywell's market value is {{marketCap}} at {{price}}. The trailing P/E of {{pe}} and EV/EBITDA of {{evEbitda}} are the lowest in the industrial peer group by a wide margin, and that is the tell: the figures mix the continuing business with disposed segments and one-off gains. The 2.4x EV/Sales and the $20.2B consensus revenue are more comparable across the transition than either earnings measure.",
+      "On a standalone basis the relevant comparison is the remaining automation businesses. GE trades at 29.8x EV/EBITDA on a 20.3% operating margin and RTX at 18.1x on 11.8%, so a 6.4x multiple on Honeywell's 21.3% third-quarter margin is the anomaly to explain. Either the market is applying the multiple to the wrong earnings base or it expects the remaining margin to fall. The first is an accounting problem, the second an investment one.",
+      "What would settle it is a clean standalone segment disclosure and a full year of separation-free cash flow. Until then, the market value of {{marketCap}} against $20.2B of revenue is the only ratio that does not depend on which quarter's accounting is included. If the remaining company earns a low-twenties operating margin on that revenue, the current price is not demanding; if standalone costs take five points off it, the discount is deserved."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "23 analysts contribute to the third-party consensus. The mean target is $253.87, with a range of $186.00 to $290.00.",
-      "Current-year estimates call for $20.2B of revenue and $8.42 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 23 analysts with a mean target of $253.87; third-party estimates can change without notice."
+      "Twenty-three analysts contribute to Yahoo Finance's 18 November 2026 estimate set, which carries a mean target of $254 and a range of $186 to $290. The mean is 14% above the current price, but the spread from $186 to $290 is wide for a company of this size, which reflects disagreement about the earnings base rather than about the businesses.",
+      "Revisions have turned modestly positive, with the 30-day EPS change at 1.4% and the 90-day at 1.1%. Consensus expects $8.42 for the current year and $9.88 for the next, assumptions that depend on the separation being complete and the standalone cost base being known. That is an accounting assumption as much as an operating one, and it is why the target range is wider than the revenue outlook implies."
     ]
   },
   "risks": {
@@ -143,5 +157,7 @@ export const HON: StockStory = {
       "What is the aerospace aftermarket share of segment profit?",
       "Why is trailing free cash flow $629M when every full year in the table is above $4.5B?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

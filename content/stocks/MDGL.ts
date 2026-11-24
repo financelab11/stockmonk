@@ -7,20 +7,20 @@ export const MDGL: StockStory = {
   "dek": "Resmetirom is an oral treatment for MASH, a silent liver condition that is common but hard to diagnose. The product is working commercially; the constraint is finding patients and getting payers to cover them.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $1.4B trailing twelve months, +92.8% year over year.",
-    "Profitability: -10.7% operating margin and -10.9% net margin.",
-    "Cash: -$169.4M free cash flow, a -11.9% margin.",
-    "Scorecard: 43/100 average percentile across the factor screens."
+    "Q3 FY2026 produced the first operating profit: $431.3M of revenue at a 13.0% margin, with free cash flow of $116.6M.",
+    "Revenue grew 432.1% in FY2025 to $958.4M and 92.8% on a trailing basis, but the launch is now past its first year.",
+    "At 6.1x trailing sales, the equity is the cheapest commercial-stage name in the group and the thinnest on estimates.",
+    "Three analysts carry FY2027 EPS of $10.38, a number that assumes the Q3 margin is repeatable."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1157601/000162828026009514/mdgl-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001157601&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "MADRIGAL PHARMACEUTICALS, INC. generated $1.4B of revenue over the last twelve months, +92.8% versus the prior year. The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue.",
-      "The latest reported quarter was Q3 FY26, with $431.3M of revenue and an operating margin of 13.0%. The stock closed at $421.99 on 2026-11-17, giving a market capitalization of $9.8B.",
-      "The shares sit 26% of the way up their 52-week range ($353.54 to $615.00). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Madrigal reported its first operating profit in Q3 FY2026: $431.3M of revenue at a 13.0% margin. Two quarters earlier the same business ran a minus 29.8% margin on $311.3M of revenue, so the swing is 42.8 points in six months. Free cash flow turned positive at $116.6M in the quarter after a $171.3M outflow in Q1. That is the operating leverage the model promised, and it is the first hard evidence that resmetirom can carry its commercial cost base.",
+      "The product treats MASH, a liver condition that is common but silent and usually diagnosed through blood tests, imaging or biopsy. The prescriber is a hepatologist or gastroenterologist at a specialist clinic, and coverage often requires documentation of fibrosis stage. A patient who is not staged cannot be treated, so the bottleneck sits upstream of the prescription. That is why a drug with a 91.0% gross margin still needs a diagnosis funnel, and why revenue growth alone did not produce a profit until Q3.",
+      "The shares are valued at $9.3B, or 6.1x trailing sales, the lowest multiple among the commercial-stage names in the peer set. Insmed trades at 21.0x, BridgeBio at 17.4x, Rhythm at 27.0x and Krystal at 18.3x. The discount reflects single-product concentration, payer scrutiny of a chronic therapy and a consensus that rests on very few analysts. Whether it is deserved depends on the Q3 margin being a floor rather than a peak."
     ],
-    "quote": "MASH is common but quiet. The drug can only be sold to patients who have been tested, staged and referred, and most of them have not been."
+    "quote": "A first operating profit is a hypothesis until two more quarters show it was a floor rather than a peak."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,50 @@ export const MDGL: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 432.1% a year across the fiscal years in the dataset, and the latest quarter changed +50.1% year over year. Third-party estimates for the current fiscal year point to $1.6B of revenue and -$2.18 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -10.7% and return on invested capital of -1663.4% are the filters to watch as revenue scales."
+      "Diagnosis, not demand, sets the ceiling on resmetirom. MASH is underdiagnosed, and the pathway from a routine blood test to a staged patient and a specialist referral is long. Revenue growth of 432.1% in FY2025 came from launching into an existing diagnosed pool; the next leg depends on expanding that pool. The FY2026 estimate of $1.6B is 65.3% above FY2025, and FY2027 is estimated at $2.2B, another 37.9%.",
+      "A single reportable segment and no disclosed geographic split leave no visible offset to a slowdown in the domestic diagnosis rate. The specialist call point is concentrated, which helped the launch because a small sales force could cover the centres that treat the disease, but it also limits reach: a hepatologist-heavy model does not address the primary-care doctors who see the earliest patients.",
+      "Competition is the other variable. GLP-1 drugs and other MASH therapies compete for the same patients, and insurers have alternatives. The gross-to-net spread, not the list price, decides revenue per prescription, and a broad chronic population invites utilisation management. The estimates assume the current access holds while the diagnosed pool grows, which is a reasonable assumption but not an observed fact."
     ],
     "bullets": [
       {
         "title": "Diagnosis and staging",
-        "detail": "The largest constraint. More testing means more identifiable patients."
+        "detail": "Testing and fibrosis staging are prerequisites; growth depends on finding patients before they reach a specialist."
       },
       {
-        "title": "Payer coverage",
-        "detail": "Coverage tied to fibrosis stage determines who can actually be treated."
+        "title": "Payer documentation",
+        "detail": "Coverage tied to fibrosis stage adds friction to every prescription and puts gross-to-net at the centre of the revenue model."
       },
       {
-        "title": "International",
-        "detail": "Launches outside the United States add patients but require separate regulatory and reimbursement work."
+        "title": "Specialist reach",
+        "detail": "A concentrated hepatology call point supported the launch but leaves primary-care diagnosis outside the sales force's reach."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -10.7%, the net margin is -10.9% and diluted EPS is -$3.41. The latest quarter's operating margin was 13.0%.",
-      "Return on equity is -24.8%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $431.3M, an operating margin of 13.0% and a net margin of 12.9%."
+      "From minus 29.8% in Q1 FY2026 to plus 13.0% in Q3 is a 42.8-point swing in two quarters. The driver is operating leverage on a fixed commercial base: revenue climbed from $311.3M to $431.3M while the sales force, medical affairs and market access functions did not scale with it. The 91.0% gross margin means most of the incremental revenue reached the operating line, which is why a 38.5% revenue increase produced a 42.8-point margin improvement.",
+      "The trailing operating margin is still minus 10.7% and the net margin minus 10.9%, because the first three quarters of the trailing period carried losses. The quarterly loss per share has moved from $3.25 in Q1 FY2026 to a profit of $1.83 in Q3, a swing that makes the annual estimate almost meaningless: two analysts carry a FY2026 loss of $2.18. Return on invested capital of minus 12.5% and return on equity of minus 24.8% lag the income statement because they include the accumulated losses of the launch.",
+      "The margin is not yet proven. A single quarter at 13.0% could reflect timing of spend, a favourable gross-to-net, or a genuine step-change in scale. The next two quarters decide which. Compared with Krystal, which has held a 48.4% operating margin on a much smaller revenue base, Madrigal's margin has further to travel, but its gross margin is comparable and its cost base is more concentrated."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$169.4M, a -11.9% margin. The balance sheet carries $619.7M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$169.4M over the last twelve months and net debt was -$619.7M; interest cover was n/a."
+      "Two consecutive positive free cash flow quarters, $19.1M in Q2 FY2026 and $116.6M in Q3, reversed a year of outflows. FY2025 free cash flow was minus $190.0M and the trailing figure is minus $169.4M, so the improvement is very recent. Capital expenditure is negligible at $467,000 in FY2025, so the cash profile follows operating profit and working capital almost exactly.",
+      "The quarterly swing is larger than the operating improvement, which points to working capital. Inventory build ahead of demand and the timing of receivables can move cash by tens of millions in a launch of this size, and the reporting does not break them out. That is why a single quarter of positive free cash flow is evidence of direction rather than proof of a run-rate.",
+      "Net cash of $619.7M is a comfortable buffer against a trailing outflow of $169.4M. No dividend is paid and no repurchase is disclosed. The capital allocation question is whether to hold the cash against payer risk or deploy it into the diagnosis infrastructure that would expand the funnel. The reported results do not settle the question, which is itself worth watching."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $688.78; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Six times sales is the lowest multiple among the commercial-stage peers, and the discount has a reason. The company has one product, a payer environment that scrutinises a chronic liver therapy, and a consensus built on two or three analysts. Insmed at 21.0x and Rhythm at 27.0x carry more revenue diversity or a longer growth runway; Krystal at 18.3x carries a 48.4% operating margin. Madrigal's 6.1x is what the market pays for a single asset with a new margin.",
+      "On FY2027 numbers the picture changes. The estimate of $10.38 per share against a $399 share price implies a multiple of about 38x, which is not cheap for a company growing revenue 37.9%. It is, however, a multiple on an estimate from three analysts, and the 90-day EPS revision is minus 66.4%, which is a warning about the stability of the number rather than its level.",
+      "What would justify a re-rating is two more quarters at or above the Q3 operating margin, which would make the FY2027 estimate credible and the sales multiple look low. A return to losses would break it, pushing the profit estimate out and leaving the equity valued on a single quarter's hope. The thin coverage amplifies both outcomes, and there is no middle case that the estimates can describe."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "18 analysts contribute to the third-party consensus. The mean target is $688.78, with a range of $479.00 to $962.00.",
-      "Current-year estimates call for $1.6B of revenue and -$2.18 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 18 analysts with a mean target of $688.78; third-party estimates can change without notice."
+      "Eighteen analysts with a $689 mean target and a $479 to $962 range bracket a very wide set of outcomes. The spread is double at the extremes, which is what a single-product launch with a new margin profile produces. All but one of the analyst views sit at the positive end. The mean sits well above the $399 share price, so the coverage is constructive on the margin recovery.",
+      "The 18 November 2026 Yahoo Finance estimates, cross-checked with Nasdaq, are thin: two analysts for FY2026 revenue of $1.6B and a loss of $2.18 per share, three for FY2027 revenue of $2.2B and earnings of $10.38. The 90-day EPS revision is minus 66.4%, a very large move on a thin sample. The out-year profit estimate is doing most of the work, and it depends on the Q3 margin being a floor."
     ]
   },
   "risks": {
@@ -158,5 +159,7 @@ export const MDGL: StockStory = {
       "Is the Q3 FY26 operating margin repeatable?",
       "How much of the next-year revenue estimate depends on international launches?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

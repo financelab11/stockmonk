@@ -7,20 +7,20 @@ export const CVX: StockStory = {
   "dek": "A two-million-barrel-a-day refining system sits behind the upstream business. That is why Chevron's operating margin can double in two quarters while its oil fields produce roughly the same volumes.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $225.8B trailing twelve months, +20.8% year over year.",
-    "Profitability: 17.2% operating margin and 12.0% net margin.",
-    "Cash: $34.1B free cash flow, a 15.1% margin.",
-    "Scorecard: 62/100 average percentile across the factor screens."
+    "Refining carried the third quarter: $65.2B of revenue at a 20.9% operating margin, after 8.3% in Q1 and 24.8% in Q2.",
+    "Refining, at about two million barrels a day, is why the consolidated margin can double while upstream volumes are roughly flat.",
+    "Trailing free cash flow is $34.1B, 15.1% of revenue, and net debt is negative $13.2B, so the 3.4% dividend is funded from cash rather than borrowings.",
+    "At {{pe}} earnings and {{evEbitda}} EV/EBITDA the shares trade close to the 14.3x and 6.0x peer medians despite an 8.4% free-cash-flow yield."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000078/cvx-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000093410&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "CHEVRON CORP. generated $225.8B of revenue over the last twelve months, +20.8% versus the prior year. Cash flow is a function of commodity prices, production volumes and capital discipline.",
-      "The latest reported quarter was Q3 FY26, with $65.2B of revenue and an operating margin of 20.9%. The stock closed at $216.13 on 2026-11-17, giving a market capitalization of $421.7B.",
-      "The shares sit 77% of the way up their 52-week range ($146.49 to $236.48). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Two quarters of refining margin did more for Chevron's earnings than any upstream project: operating margin was 8.3% in Q1 FY26, 24.8% in Q2 and 20.9% in Q3, on revenue of $47.6B, $67.2B and $65.2B. EPS followed from $1.11 to $6.11 and $5.06. Upstream output was broadly unchanged across that sequence. The crack spread moving through a system of about two million barrels a day is the single most important fact about these results.",
+      "The integrated structure is two spreads with a common balance sheet. Upstream earns the difference between benchmark-linked crude and the cost of lifting it; downstream earns the difference between crude and the products it sells, minus the energy used to run the plant. When crude is cheap relative to product, refining carries the group; when it is expensive, upstream does. The two halves trade with each other constantly, which is why the consolidated margin is a poor guide to either.",
+      "The valuation question is what a normal spread is worth. Chevron carries a {{marketCap}} market value at {{price}}, or {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA, against peer medians of 14.3x and 6.0x. P/FCF is {{pfcf}} and the free-cash-flow yield is {{fcfYield}}, the highest in the peer group. On the FY2027 estimate of $16.56 the multiple is about 12.5x, below the trailing number because consensus expects the spread to narrow. That is the central uncertainty in the equity case."
     ],
-    "quote": "The upstream business sets the scale. The refinery sets the volatility. Confusing the two is the most common mistake made about an integrated oil company."
+    "quote": "Chevron's refining system turns the crack spread into earnings, which is why a flat upstream can still produce a doubling of margin."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -51,49 +51,47 @@ export const CVX: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 4.7% a year across the fiscal years in the dataset, and the latest quarter changed +35.4% year over year. Third-party estimates for the current fiscal year point to $250.2B of revenue and $18.32 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 17.2% and return on invested capital of 16.5% are the filters to watch as revenue scales."
+      "Revenue growth here is price and spread, not volume. Trailing revenue is $225.8B, 20.8% above a year earlier, largely because crude and product prices are higher. Consensus expects $250.2B for 2026 and $238.9B for 2027, with EPS of $18.32 and $16.56, a decline in the second year that is consistent with a cycle rather than a compounding business. The upstream portfolio grows through project delivery, and those projects take years to move production.",
+      "The mix shift that matters is downstream. Refining is the segment with the operating leverage: costs are mostly fixed once the plant runs, so a wider crack spread drops through at a high rate. That is why the group produced a 24.8% operating margin in Q2 on $67.2B of revenue and an 8.3% margin in Q1 on $47.6B. The durability of that increment is the whole growth debate."
     ],
     "bullets": [
       {
-        "title": "Realised prices",
-        "detail": "The gap between the benchmark and what Chevron actually receives carries quality, location and contract effects."
+        "title": "Crack spread",
+        "detail": "The refining margin is the variable that turned Q2 and Q3 FY26. It is set by product demand, utilisation and turnaround schedules, not by Chevron's capital programme."
       },
       {
-        "title": "Refinery utilisation",
-        "detail": "Turnarounds take units offline on a planned schedule. Timing shifts revenue between quarters without changing the year."
+        "title": "LNG contracts",
+        "detail": "Long-term liquefaction offtake behaves more like infrastructure than a commodity trade, with fees that survive a fall in spot gas prices."
       },
       {
-        "title": "Cost per barrel",
-        "detail": "In a flat price environment, the only durable source of earnings growth is a lower unit cost."
+        "title": "Project delivery",
+        "detail": "Upstream growth comes from developments approved years earlier. Cost overruns and delays are the normal failure mode, and they are only visible at commissioning."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 17.2%, the net margin is 12.0% and diluted EPS is $13.64. The latest quarter's operating margin was 20.9%.",
-      "Return on equity is 13.6%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $65.2B, an operating margin of 20.9% and a net margin of 15.2%."
+      "The margin path is almost entirely price. Gross margin was 41.3% in FY2025, 38.4% in FY2024 and 38.3% in FY2022, while the operating margin moved from 21.1% in FY2022 to 10.7% in FY2025 and back to 17.2% on a trailing basis. The gap between gross and operating margin is depreciation on very expensive plants plus the marketing and chemicals cost base. For an integrated oil company, the operating line is the one that reflects the spread.",
+      "The quarterly range is wider than the annual one: 8.3% in Q1 FY26, 24.8% in Q2 and 20.9% in Q3. Return on invested capital followed the same path, from 6.2% in FY2025 to 14.0% trailing, and return on equity from 6.6% to 13.9%. Neither figure is a franchise return; both are a spread multiplied by a capital base that does not change quickly. That is the correct way to read a 14.0% ROIC at the top of a refining cycle."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $34.1B, a 15.1% margin. The balance sheet carries $12.8B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $34.1B over the last twelve months and net debt was -$12.8B; interest cover was n/a."
+      "Chevron is generating more cash than it needs. FY2025 operating cash flow was $33.9B against $17.3B of capex, leaving $16.6B of free cash flow; the trailing figure is $34.1B, a 15.1% margin, as the spread widened. The quarterly path is lumpy, with -$1.5B in Q1 FY26 followed by $18.1B and $12.0B, because working capital moves with crude prices and product inventories. The annual figure is the cleaner measure of the business.",
+      "The balance sheet is a net cash position of $13.2B, or -0.2x EBITDA, with interest cover of 28.5x. That is unusual for a company of this scale and it changes the capital-allocation conversation: the 3.4% dividend is covered more than twice by free cash flow, and the buyback does not need to be funded with debt. The constraint on returns is the price of the barrels, not the balance sheet."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 15.6x trailing earnings and 6.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $242.54; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Chevron carries a {{marketCap}} market value at {{price}}, or {{pe}} trailing earnings, {{evEbitda}} EV/EBITDA and {{pfcf}} trailing free cash flow, a {{fcfYield}} free-cash-flow yield. The peer medians are 14.3x and 6.0x, so the shares trade within a few percent of them on earnings and EBITDA. On the FY2027 estimate of $16.56 the multiple is about 12.5x, which is where the market usually prices a normalising spread.",
+      "The free-cash-flow yield is the outlier. At 8.4% it is the highest in the peer group, and it is backed by a net cash balance rather than by leverage. ExxonMobil yields 6.7% and ConocoPhillips does not report a comparable figure. A high yield on a cyclical usually means the market does not believe the cash flow is sustainable; here it also reflects lower multiples than ExxonMobil's 15.9x and 7.8x.",
+      "What would justify a higher multiple is evidence that the refining margin is structurally higher after the closures of the last five years. What would break the current one is a return to the FY2025 operating margin of 10.7%, which would leave EPS closer to $6.63 than the $18.32 consensus for 2026. The 3.4% dividend and the net cash position mean the downside is a lower multiple rather than a funding problem."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "24 analysts contribute to the third-party consensus. The mean target is $242.54, with a range of $202.00 to $272.00.",
-      "Current-year estimates call for $250.2B of revenue and $18.32 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 24 analysts with a mean target of $242.54; third-party estimates can change without notice."
+      "Twenty-four analysts sit behind The 18 November 2026 Yahoo Finance snapshot, with a mean target of $243 and a range of $202 to $272. The mean is 17% above the current price, while the low end is 2% below it, so the positive consensus has very little room for a normalising spread.",
+      "Estimates have been raised hard: the 90-day EPS change is 16.2% and the 60-day is 13.0%. Consensus expects $18.32 for 2026 against $6.63 in FY2025, then $16.56 for 2027, a 9.6% decline. The target range is therefore less about the direction of earnings than about the multiple applied to a mid-cycle number, and the 21 positive views suggest most analysts are capitalising the free cash flow rather than the current EPS."
     ]
   },
   "risks": {
@@ -157,5 +155,7 @@ export const CVX: StockStory = {
       "Does the 8.2% free-cash-flow yield reflect a sustainable margin or a good year?",
       "How much of the capital budget is committed to projects approved at higher prices?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const WMB: StockStory = {
   "dek": "Fifteen thousand miles of interstate gas pipeline earn a reservation charge whether or not the shipper moves a molecule. The commodity-exposed parts of the business explain why revenue and margin can move in opposite directions.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $18.4B trailing twelve months, +27.1% year over year.",
-    "Profitability: 42.6% operating margin and 38.7% net margin.",
-    "Cash: -$593M free cash flow, a -3.2% margin.",
-    "Scorecard: 51/100 average percentile across the factor screens."
+    "Q2 FY26 revenue was $3.4B at a 35.0% operating margin, up from 28.0% a year earlier even as the top line was flat.",
+    "The Transmission Power Gulf segment was 36.3% of FY2025 revenue and the marketing business 40.6%, so fee-based and commodity-exposed revenue sit side by side.",
+    "Trailing free cash flow is negative $108M; capex rose to $4.9B in FY2025, and net debt is $28.4B, or 4.1x EBITDA.",
+    "At {{pe}} earnings and {{evEbitda}} EV/EBITDA, the shares carry the highest multiple in the energy peer group on a 30.2% operating margin."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/107263/000010726326000006/wmb-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000107263&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "WILLIAMS COMPANIES INC. generated $18.4B of revenue over the last twelve months, +27.1% versus the prior year. Cash flow is a function of commodity prices, production volumes and capital discipline.",
-      "The latest reported quarter was Q3 FY26, with $6.4B of revenue and an operating margin of 66.3%. The stock closed at $67.46 on 2026-11-17, giving a market capitalization of $84.3B.",
-      "The shares sit 43% of the way up their 52-week range ($58.09 to $80.08). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Williams collected $3.4B of revenue in the second quarter of fiscal 2026 and turned 35.0% of it into operating profit, with $0.68 of EPS. Revenue was flat against the same quarter a year earlier, but the margin was seven points higher, which is the signature of a midstream business: the fee-based pipeline profit did not move, while the commodity-exposed marketing revenue shrank. The quarter shows the toll model working through a softer commodity price.",
+      "The core asset is a contracted pipeline network. A shipper pays a reservation charge for capacity whether or not it moves a molecule, and the pipeline's cost base is mostly fixed steel, compression and maintenance. Gathering and processing add a fee per unit of gas handled; the NGL and marketing businesses take ownership of the commodity and are the reason revenue and margin can move in opposite directions. Contract length and counterparty credit decide how much of the EBITDA is bond-like.",
+      "The valuation is a duration bet. Williams trades at {{price}}, a {{marketCap}} market value, or {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA, against 14.3x and 6.0x for the energy peer group and 15.9x for ExxonMobil. The premium is not irrational for a contracted cash flow, but it depends on how much of the EBITDA is fee-based and for how long. The 3.3% dividend and 4.1x leverage make the answer the main risk."
     ],
-    "quote": "A midstream company is valued on the durability of its contracts, not on the volatility of its commodity. The two are easy to confuse when both appear in the same income statement."
+    "quote": "A pipeline reservation charge is a toll on a molecule, and Williams is paid whether the molecule moves or not."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,48 @@ export const WMB: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.5% a year across the fiscal years in the dataset, and the latest quarter changed +84.6% year over year. Third-party estimates for the current fiscal year point to $12.8B of revenue and $2.41 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 42.6% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Reported revenue is a poor growth measure here. It fell 32.5% in FY2023 while the operating margin rose from 17.0% to 35.9%, because the marketing line shrank but the fee-based profit did not. Trailing revenue is $15.4B, up 10.1%, and consensus expects $12.8B for 2026 and $14.4B for 2027. The swing says more about commodity prices and marketing volumes than about the pipeline business.",
+      "The growth that matters is contracted capacity. Transmission Power Gulf was 36.3% of FY2025 revenue and the West segment 19.1%, both built on long-dated contracts. Capex rose from $2.6B in FY2024 to $4.9B in FY2025, which is the physical evidence of expansion. Whether that capital earns a return depends on the contracts signed before the pipe was built, not on the spot gas price after it enters service.",
+      "The durability test is contract renewal rather than new construction. A pipeline built under a ten-year reservation charge earns a return for the length of that contract; when it expires, the asset reverts to whatever the market will pay. With net debt at 4.1x EBITDA, the equity has little room to absorb a weaker renewal rate. That is why the growth in capex matters less than the terms attached to it."
     ],
     "bullets": [
       {
-        "title": "Contracted capacity",
-        "detail": "New pipeline capacity is added under long-term contracts signed before construction. The backlog is the visible growth."
+        "title": "Contracted transmission",
+        "detail": "Reservation charges on interstate pipe are largely volume-insensitive. The value of the segment depends on contract length and on the credit of the shipper."
       },
       {
-        "title": "Rate escalators",
-        "detail": "Many contracts include annual inflation-linked increases, so revenue can rise without any new volume."
+        "title": "Processing fees",
+        "detail": "Fee-based gathering and processing removes commodity price from the revenue equation, which is why it commands a higher multiple than marketing."
       },
       {
-        "title": "Volume growth",
-        "detail": "Gas demand from power generation, LNG exports and industrial users determines how much spare capacity gets sold."
+        "title": "Capex discipline",
+        "detail": "Growth capital rose to $4.9B in FY2025. A project built without a signed contract converts a fee stream into spare capacity."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 42.6%, the net margin is 38.7% and diluted EPS is $1.98. The latest quarter's operating margin was 66.3%.",
-      "Return on equity is -123.5%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $6.4B, an operating margin of 66.3% and a net margin of 72.8%."
+      "The margin history is the clearest illustration of the model. Revenue fell from $17.8B in FY2022 to $12.0B in FY2023, a 32.5% decline, while the operating margin rose from 17.0% to 35.9%. A fee-based business should behave that way: the cost of operating the pipe does not fall with the marketing line, so a smaller commodity revenue base flattens the margin denominator. The trailing operating margin is 30.2%, and Q2 FY26 reached 35.0%.",
+      "Returns are lower than the margin suggests. Return on invested capital is 8.5% against a 13.5% peer median, because the asset base is large and the regulated or contracted return on it is modest. Return on equity of 23.3% is not comparable across midstream companies with different capital structures. For this business, ROIC against the cost of capital is the only return measure that speaks to whether the expansion is worth doing."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$593M, a -3.2% margin. The balance sheet carries $1.8B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$593M over the last twelve months and net debt was -$1.8B; interest cover was n/a."
+      "Free cash flow after capex was negative $108M over the trailing year, and $1.0B in FY2025 after $4.9B of capex against $5.9B of operating cash flow. That is not distress; it is a company investing ahead of depreciation. The distinction matters because the P/FCF multiple is not meaningful when free cash flow is near zero, and the negative 0.1% free-cash-flow yield says more about the capital programme than about the earnings.",
+      "The balance sheet carries the expansion. Net debt is $28.4B, 4.1x EBITDA, and interest cover is 3.1x, the thinnest in the energy group. The 3.3% dividend is funded from operating cash flow, but the growth capex is funded with debt, so the leverage ratio will only fall if the new capacity earns the return it was underwritten on. That is the link between the cash section and the valuation."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 11.8x trailing earnings and 15.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $85.42; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Williams trades at {{price}}, a {{marketCap}} market value, or {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA. The energy peer medians are 14.3x and 6.0x, so the premium is about 13 turns on earnings and ten on EBITDA. EV/Sales is 7.2x. P/FCF is not meaningful because free cash flow is negative, and the free-cash-flow yield of -0.1% is a capex artefact rather than a valuation signal.",
+      "The premium is a claim about contract duration. A pipeline with ten-year reservation charges deserves a higher multiple than an upstream producer selling at spot, because its cash flow is less sensitive to the commodity. The problem is that the market is applying that multiple to a group where 40.6% of FY2025 revenue came from gas and NGL marketing, the most commodity-exposed segment. ExxonMobil trades at 7.8x EBITDA and EOG at 5.0x, both exposed to the same hydrocarbon prices. The consolidated number therefore overstates the contracted share.",
+      "What would justify the multiple is disclosure that most EBITDA is fee-based and contracted for a decade, plus project returns above the cost of capital. What would break it is a rate case that lowers the allowed return, a large contract renewal at a weaker rate, or a leverage ratio that stays above 4x while capex keeps rising. The 3.3% dividend is covered by operating cash flow but not by free cash flow."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "24 analysts contribute to the third-party consensus. The mean target is $85.42, with a range of $69.00 to $103.00.",
-      "Current-year estimates call for $12.8B of revenue and $2.41 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 24 analysts with a mean target of $85.42; third-party estimates can change without notice."
+      "A mean target of $85 from 24 analysts is The 18 November 2026 Yahoo Finance snapshot, with a range of $69 to $103. The mean is 29% above the current price, the widest gap in the energy group, and even the low end is 5% above it.",
+      "Revisions are slightly negative: the 90-day EPS change is -1.5% and the 30-day is -0.5%. Consensus expects $2.41 for 2026 and $2.58 for 2027, a modest progression from $2.14 in FY2025, which is a slow operating profile for a stock on 27.0x earnings. The targets therefore depend on the multiple holding rather than on an acceleration in earnings, and the recent direction of revisions is the opposite of the price target."
     ]
   },
   "risks": {
@@ -158,5 +157,7 @@ export const WMB: StockStory = {
       "How much of the capital budget is backed by signed long-term contracts?",
       "What is book equity, and why is it negative?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const WELL: StockStory = {
   "dek": "The company owns the buildings, but in much of its portfolio it also shares in the operating business inside them. That is why revenue grew 49% and the operating margin is under 1%, and why neither number means what it would for a landlord.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $11.4B trailing twelve months, +49.4% year over year.",
-    "Profitability: 0.9% operating margin and 15.3% net margin.",
-    "Cash: $9.6B free cash flow, a 83.8% margin.",
-    "Scorecard: 55/100 average percentile across the factor screens."
+    "Revenue of $11.4B grew 49.4%, a figure driven by consolidating operating businesses rather than by rent increases on a static portfolio.",
+    "The 8.8% operating margin and 15.3% net margin are not comparable with a net-lease landlord; the net figure is higher because gains sit below the operating line.",
+    "The REIT does not publish free cash flow, so the cash measure is $2.9B of FY2025 operating cash flow against $15.9B of net debt at 5.2x EBITDA.",
+    "At 62.4x EBITDA and 100.6x earnings the shares are the most expensive in the property group, and the 1.4% dividend offers little income support."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/766704/000076670426000010/well-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000766704&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Welltower Inc. generated $11.4B of revenue over the last twelve months, +49.4% versus the prior year. Cash flow depends on occupancy, rents, tenant quality and the cost of refinancing the asset base.",
-      "The latest reported quarter was Q3 FY26, with $3.1B of revenue and an operating margin of 10.8%. The stock closed at $245.76 on 2026-11-17, giving a market capitalization of $180.3B.",
-      "The shares sit 87% of the way up their 52-week range ($181.47 to $255.20). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Resident fees of $3.1B in the September quarter produced a 10.8% operating margin and $0.54 of EPS. It was the third miss in four quarters, and the pattern matters: revenue keeps stepping up as properties are consolidated, while the margin stays near 11% because the costs of running seniors housing — nursing staff, food, utilities — are consolidated with it. The result describes an operator's economics inside a landlord's structure.",
+      "Senior Housing Operating is 100% of reported segment revenue, which is the crux. In a triple-net lease the rent is fixed and the tenant carries the operating cost; in the shared-risk structure Welltower owns the building and shares in the operator's result, so resident fees are revenue and wages are costs. Occupancy therefore drives profit with unusual force: a building at 95% occupancy carries nearly the same fixed cost as one at 80%, and the difference falls to the owner.",
+      "The multiples cannot be read against a net-lease peer. At 62.4x EBITDA and 100.6x earnings the shares sit far above Prologis at 21.0x and 31.7x and Equinix at 27.0x and 61.1x, but Welltower's EBITDA includes the operating cost of the buildings, so the denominator is smaller than a net-lease REIT's for the same asset. That is a reporting difference rather than a quality difference, and it is why the shares look more expensive than the portfolio. The 1.4% dividend and 5.2x leverage leave little room for a vacancy cycle."
     ],
-    "quote": "When a REIT consolidates an operating business, revenue becomes resident fees and the margin becomes a labour cost. The property economics are still there, but they are buried."
+    "quote": "Welltower owns the buildings and shares in the business inside them, so occupancy moves its earnings twice."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,47 @@ export const WELL: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.7% a year across the fiscal years in the dataset, and the latest quarter changed +51.4% year over year. Third-party estimates for the current fiscal year point to $14.5B of revenue and $2.74 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 0.9% and return on invested capital of 0.2% are the filters to watch as revenue scales."
+      "The revenue base almost doubled between FY2020 and FY2025, from $4.6B to $8.5B, and is $11.4B trailing, a 49.4% increase. That is not rent growth on a fixed portfolio; it is the consolidation of operating businesses and the acquisition of properties, and the reported revenue cannot separate the two. The quarterly step from $2.8B in March 2026 to $3.1B in September is the same mechanism at work, and the December estimate of $4.0B implies another large addition.",
+      "The demand driver is demographic: the over-eighty population is growing and new supply has been constrained by construction and financing costs. The supply side decides whether rent growth continues, and occupancy, move-ins and rent spreads are not disclosed. What is visible is that revenue per quarter has risen faster than any plausible occupancy gain, which points to acquisitions and consolidation rather than to same-store pricing."
     ],
     "bullets": [
       {
-        "title": "Occupancy recovery",
-        "detail": "Filling existing buildings raises revenue and drops most of the incremental cash to the operating line."
+        "title": "Shared-risk mix",
+        "detail": "The SHOP structure puts wages and food costs on the REIT's income statement, so a 10.8% operating margin is the operating business's margin, not the property's."
       },
       {
-        "title": "Demand growth",
-        "detail": "An ageing population increases the number of people who need seniors housing, independent of the economic cycle."
+        "title": "Occupancy leverage",
+        "detail": "Fixed costs per building mean the profit difference between 80% and 95% occupancy is far larger than the revenue difference."
       },
       {
-        "title": "Portfolio mix",
-        "detail": "Moving assets into the shared-risk structure raises reported revenue and changes how the economics are presented."
+        "title": "Operator credit",
+        "detail": "The cash flow depends on the operators running the buildings; an operator in difficulty can miss rent or hand back the property."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 0.9%, the net margin is 15.3% and diluted EPS is $2.30. The latest quarter's operating margin was 10.8%.",
-      "Return on equity is 3.5%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $3.1B, an operating margin of 10.8% and a net margin of 13.3%."
+      "Consolidation shows up in the margin series. Operating margin was -0.7% in FY2020, 5.3% in FY2021, 4.1% in FY2022, 7.4% in FY2023 and 8.7% in FY2024; FY2025 is not reported and the trailing figure is 8.8%. Gross margin moved from 13.2% in FY2021 to 26.7% trailing. Those are low numbers for property, and they are low because the revenue line includes the cost of care, food and staff rather than a net rent charge.",
+      "Net margin is 15.3% trailing, higher than the operating margin, because gains on property sales and joint-venture income sit below the operating line. Earnings per share were $0.55, $0.55, $0.54 and $0.67 in the last four quarters, and the fiscal 2026 estimate is $2.74 on a single analyst. Return on invested capital is 1.5% and return on equity 3.6%, both meaningless as profitability measures for a portfolio marked at historic cost, and both a reminder that asset values are not in the income statement."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $9.6B, a 83.8% margin. The balance sheet carries $2.3B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $9.6B over the last twelve months and net debt was -$2.3B; interest cover was n/a."
+      "There is no free cash flow line to analyse and no capex disclosure, so the cash picture has to be built from operating cash flow. That was $2.9B in FY2025, up from $2.3B in FY2024 and $1.6B in FY2023, tracking the growth in the portfolio. Net debt is $15.9B at 5.2x EBITDA, and interest cover is not reported. For a REIT, the relevant comparison is operating cash flow against the dividend and the acquisition programme, not free cash flow against earnings.",
+      "The 1.4% dividend yield implies a modest cash cost relative to the $2.9B of operating cash flow, but neither the payout ratio nor development spend is disclosed. What is visible is a balance sheet that has grown with the portfolio: net debt rose from $12.0B in FY2024 to $14.2B in FY2025 and is $15.9B trailing. Leverage at 5.2x is the highest among the three property names, the price of consolidating operating businesses."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 103.1x trailing earnings and 64.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $265.45; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At {{pe}} trailing earnings and {{evEbitda}} EBITDA, Welltower is priced above Prologis at 31.7x and 21.0x and Equinix at 61.1x and 27.0x. The comparison is not like for like: consolidated operating revenue inflates the top line and depresses the margin, so EBITDA is small relative to the asset base compared with a net-lease landlord's. On revenue the shares are at 16.8x sales, which for a business with an 8.8% operating margin is a demanding starting point.",
+      "Funds from operations would be the right measure and it is not disclosed. On earnings, the 2026 estimate of $2.74 puts the shares at about 88x, and the 2027 estimate of $2.98 at about 81x. Those multiples only make sense if the earnings base grows into them as newly consolidated buildings reach stabilised occupancy. The 1.4% dividend does not compensate a holder for the wait.",
+      "The multiple works only if same-store occupancy and rent growth convert into operating leverage, because the cost base is fixed per building. A labour-cost cycle that raises wages faster than resident fees, or an operator failure that puts a block of buildings back on the market, would break it. Neither is visible in the reported figures, which is the central problem with valuing this structure from the outside."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "22 analysts contribute to the third-party consensus. The mean target is $265.45, with a range of $230.00 to $292.00.",
-      "Current-year estimates call for $14.5B of revenue and $2.74 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 22 analysts with a mean target of $265.45; third-party estimates can change without notice."
+      "Yahoo Finance counted 22 analysts on Welltower as of 18 November 2026, with a mean target of $265 and a range of $230 to $292 against a $240 price. A mean 10% above the market, with the low end 4% below it, is a narrower band than the earnings volatility would suggest.",
+      "For 2026 the estimate is $14.5B of revenue and $2.74 of EPS, but it comes from a single analyst; 2027 is $17.0B and $2.98 from two. Revisions are -4.9% across every window, and three of the last four quarters missed. The consensus is therefore thin and drifting lower at the same time as the revenue estimate implies a further step-up, the combination that makes the target range less informative than usual."
     ]
   },
   "risks": {
@@ -158,5 +156,7 @@ export const WELL: StockStory = {
       "What is funds from operations per share, and how does the price compare with it?",
       "How much of the growth came from acquisitions rather than from the existing buildings?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

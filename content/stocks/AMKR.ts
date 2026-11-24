@@ -7,20 +7,20 @@ export const AMKR: StockStory = {
   "dek": "Packaging and test is the most capital-hungry step in the semiconductor chain and the least visible. Revenue is $7.46B, free cash flow is negative, and a 6.4x EV/EBITDA multiple is pricing a building phase.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $7.5B trailing twelve months, +15.7% year over year.",
-    "Profitability: 9.5% operating margin and 8.3% net margin.",
-    "Cash: -$156.1M free cash flow, a -2.1% margin.",
-    "Scorecard: 48/100 average percentile across the factor screens."
+    "September quarter revenue was $2.0B at an 11.3% operating margin, the best in the series, but flat year on year.",
+    "Free cash flow was -$156.1M trailing, with the last three quarters consuming $79.5M, $227.3M and $61.6M.",
+    "At 6.2x EBITDA and 13.8x earnings the shares are the cheapest in the group, where the medians are 33.8x and 71.5x.",
+    "FY2025 capex of $904.6M was 13.5% of revenue, and the return depends on utilisation after the lines are finished."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001047127&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "AMKOR TECHNOLOGY, INC. generated $7.5B of revenue over the last twelve months, +15.7% versus the prior year. The cycle is driven by inventory, utilisation and the next node or packaging transition.",
-      "The latest reported quarter was Q3 FY26, with $2B of revenue and an operating margin of 11.3%. The stock closed at $34.05 on 2026-11-17, giving a market capitalization of $8.4B.",
-      "The shares sit 6% of the way up their 52-week range ($29.76 to $96.68). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Assembly and test revenue reached $2.0B in the September 2026 quarter, with an 11.3% operating margin and $0.76 of EPS, the best margin in the series. Revenue was flat year on year, though, and free cash flow was -$61.6M, the third consecutive quarter of cash consumption. Trailing revenue is $7.5B, up 15.7%, so the growth is in the first half of the year, not the latest quarter. A year of 15.7% trailing growth that ends with a flat quarter is a cycle losing momentum, not a business breaking down.",
+      "Amkor assembles and tests chips for companies that design them, a service that turns a finished wafer into a packaged part and checks it electrically and thermally before shipment. Advanced packaging, from multi-die stacks to interposers and fine-pitch routing, carries better pricing than a standard leadframe package and is where the capital is going. The gross margin of 16.6% describes the model: the customer can see what the capacity costs, and pricing is anchored to cost plus a return on equipment.",
+      "At 6.2x EBITDA and 13.8x earnings the shares are the cheapest in the group by a wide margin; the peer medians are 33.8x and 71.5x. The discount is not a mispricing; it is the market's price for a 16.6% gross margin, a 13.5% capital intensity and a free-cash-flow line that is negative while capacity is built. Whether the capex cycle ends before the next downturn is the open question for the equity."
     ],
-    "quote": "An assembly plant earns money when it is full and loses money when it is not. That sentence explains more about Amkor's financials than any demand forecast."
+    "quote": "Amkor sells capacity by the programme, so a 16.6% gross margin and a 6.2x EBITDA multiple are two descriptions of the same capital intensity."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,46 @@ export const AMKR: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.8% a year across the fiscal years in the dataset, and the latest quarter changed +0.2% year over year. Third-party estimates for the current fiscal year point to $7.5B of revenue and $2.50 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 9.5% and return on invested capital of 9.8% are the filters to watch as revenue scales."
+      "Advanced packaging capacity is the growth driver, and it is being built ahead of the revenue. The work that stacks memory next to logic and routes signals through an interposer behaves more like wafer fabrication than traditional assembly, and it carries better pricing. Revenue went from $6.7B in FY2025 to $7.5B trailing, but the September quarter was flat year on year at $2.0B, so the trailing growth of 15.7% came from the first half.",
+      "The forecast path implies a reacceleration: $7.5B for the current year, up 12.2%, and $8.6B next, up 14.1%, with the December quarter at $2.0B, up 3.6%. That is consistent with capacity coming on line rather than with a demand surge. The risk is timing: a packaging line is committed years before the revenue arrives, and if the customer's programme slips, depreciation runs against an empty plant."
     ],
     "bullets": [
       {
-        "title": "Content per package",
-        "detail": "More dies and finer routing per package raise the assembly value even if unit volumes are flat."
+        "title": "Advanced packaging",
+        "detail": "Multi-die and interposer work carries better pricing than standard assembly but consumes more capital per unit of revenue."
       },
       {
-        "title": "Customer outsourcing",
-        "detail": "Integrated manufacturers continue to hand off packaging work they no longer want to run themselves."
+        "title": "Capex timing",
+        "detail": "FY2025 capex of $904.6M was 13.5% of revenue, and the return depends on utilisation after the line is finished."
       },
       {
-        "title": "Capacity additions",
-        "detail": "New advanced-packaging lines add revenue only after they are qualified and loaded, which takes years."
+        "title": "Programme concentration",
+        "detail": "A few large customers and programmes can dominate a year, and each programme has a finite life."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 9.5%, the net margin is 8.3% and diluted EPS is $2.48. The latest quarter's operating margin was 11.3%.",
-      "Return on equity is 12.8%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $2B, an operating margin of 11.3% and a net margin of 9.6%."
+      "Depreciation and utilisation set the margin, not pricing. Gross margin is 16.6% and operating margin 9.5%, and the quarterly path has been 6.0%, 10.5% and 11.3% as revenue moved from $1.7B to $2.0B. The September quarter's $0.76 of EPS compares with $0.33 in March. A contract manufacturer with a 16.6% gross margin has little room for a cost overrun, so the improvement is mostly volume against a fixed depreciation base.",
+      "The returns are adequate rather than exceptional. ROIC is 8.3%, level with the peer median, and ROE is 12.9% because the balance sheet carries debt. Depreciation from $904.6M of FY2025 capex will rise as the new lines are completed, which is why the operating margin needs volume to stay above 10%. Against Advanced Energy, at a 16.0% operating margin and 10.7% ROIC, Amkor earns a lower return on a much thinner gross margin."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$156.1M, a -2.1% margin. Net debt is $885.5M.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$156.1M over the last twelve months and net debt was $885.5M; interest cover was n/a."
+      "Negative free cash flow is the defining fact. The trailing figure is -$156.1M, a -2.1% margin, and the last three quarters consumed $79.5M, $227.3M and $61.6M. FY2025 was positive at $191.0M because operating cash flow of $1.1B covered $904.6M of capex, but the current build has moved the line back into deficit. For a capacity business, that is the expected shape of an investment cycle.",
+      "Net debt of $269.1M is 0.2x EBITDA and interest cover is 9.7x, so the build is funded without strain; the position was net cash of $372.8M at the FY2025 year-end. The dividend absorbs 1.1% of the share price, a small claim against the capex budget. The capital allocation question is whether the new lines earn their cost of capital before the cycle turns, which the free-cash-flow line will answer first."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 13.6x trailing earnings and 6.6x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $65.70; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Six times EBITDA, 13.8x earnings and 1.2x sales are the lowest multiples in the group by a wide margin, and no free-cash-flow multiple is meaningful while free cash flow is negative. The discount is structural: a 16.6% gross margin and a capital-intensive model do not deserve a chip designer's multiple. The debate is whether 6.2x is too low even for that model, given an 8.3% ROIC and a 9.5% operating margin.",
+      "On the current-year EPS of $2.50 the multiple is 13.6x, and on next year's $2.78 it is 12.2x. Those estimates sit below the $3.04 annualised from the September quarter, so the consensus already assumes a fade. A re-rating would need free cash flow to turn positive as capex normalises; without that, the low multiple is a fair price for a business that consumes cash to grow."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "10 analysts contribute to the third-party consensus. The mean target is $65.70, with a range of $38.00 to $92.00.",
-      "Current-year estimates call for $7.5B of revenue and $2.50 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 10 analysts with a mean target of $65.7; third-party estimates can change without notice."
+      "A mean target of $66 against a $34 price implies a 94% gap, and the ten analysts in the 18 November 2026 Yahoo Finance survey span a range of $38 to $92, the widest in the group. The revision trend is the only negative one in the group: EPS estimates fell 2.0% over thirty, sixty and ninety days, and the September quarter missed by $0.02.",
+      "The consensus assumes a margin fade rather than a continuation. Current-year EPS of $2.50 is below the $3.04 annualised from the September quarter, and next year's $2.78 is below it too. That is unusual for a cyclical at this point in the cycle, and it suggests the analysts expect either depreciation to rise or revenue to soften. The wide target range reflects that uncertainty more than a disagreement about the business."
     ]
   },
   "risks": {
@@ -164,5 +161,7 @@ export const AMKR: StockStory = {
       "When does free cash flow turn positive, and at what revenue level?",
       "Is the flat latest quarter a seasonal pause or the start of a downcycle?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

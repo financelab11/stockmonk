@@ -7,20 +7,20 @@ export const ELF: StockStory = {
   "dek": "A value-priced cosmetics house with outsourced manufacturing, four brands and a 303-person headcount. The gap between a 74.4% gross margin and an 8.9% operating margin is the whole story.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $1.9B trailing twelve months, +39.9% year over year.",
-    "Profitability: 8.9% operating margin and 4.5% net margin.",
-    "Cash: $275.7M free cash flow, a 14.2% margin.",
-    "Scorecard: 36/100 average percentile across the factor screens."
+    "Gross margin of 74.4% becomes an 8.9% operating margin, a 65-point spread that is almost entirely marketing and retail support.",
+    "FY2026 operating margin fell to 4.5% from 12.0% as revenue rose 24.6%, the clearest evidence of the cost of holding shelf space.",
+    "Free cash flow of $275.7M is 14.2% of revenue and capex was $22.4M, so the brand converts cash even when the margin compresses.",
+    "Net debt of $475.9M is 1.8x EBITDA, and at 73.3x earnings the shares assume the operating margin returns to the low teens."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1600033/000160003326000020/elf-20260331.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001600033&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "e.l.f. Beauty, Inc. generated $1.9B of revenue over the last twelve months, +39.9% versus the prior year. The model depends on unit growth, brand heat and whether new customers return.",
-      "The latest reported quarter was Q2 FY27, with $520.8M of revenue and an operating margin of 10.1%. The stock closed at $111.21 on 2026-11-17, giving a market capitalization of $6.6B.",
-      "The shares sit 84% of the way up their 52-week range ($48.82 to $123.13). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Seventy-four cents of gross profit per sales dollar becomes nine cents of operating profit. That 65-point gap is the business model: e.l.f. buys finished goods from contract manufacturers, sells them through national retailers, and hands most of the gross profit back as marketing, promotional allowances and retail support. The September 2026 quarter produced a 10.1% operating margin on $520.8M of revenue, between the -11.2% of the March quarter and the 21.4% of the June quarter.",
+      "The portfolio runs from the value-priced e.l.f. Cosmetics volume brand through e.l.f. Skin to the premium Well People and Keys Soulcare lines. Distribution is the asset: shelf space at national retailers is scarce and contested, and international sales run mainly through distributors. Manufacturing is outsourced, so the balance sheet carries inventory and receivables rather than factories. That is why a 74.4% gross margin can coexist with a thin operating margin.",
+      "The equity is valued at $6.3B, or 73.3x earnings, 25.3x EBITDA and 3.5x sales, with $475.9M of net debt at 1.8x EBITDA. The trailing multiple is distorted by the FY2026 charge that took operating margin to 4.5%. On the FY2027 estimate of $3.90 the shares are at 27.4x, which is a normal premium for a brand growing in the mid-teens. The argument is about whether the margin recovers, not about the growth rate."
     ],
-    "quote": "The interesting question for a cosmetics company is not whether the brand is hot this quarter. It is whether the shelf space and the customer relationship survive the next trend cycle."
+    "quote": "e.l.f. keeps 74 cents of every sales dollar at the gross line and hands most of it back to the retailers and platforms that carry the brand."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,46 @@ export const ELF: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 34.0% a year across the fiscal years in the dataset, and the latest quarter changed +51.4% year over year. Third-party estimates for the current fiscal year point to $2B of revenue and $3.90 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 8.9% and return on invested capital of 7.6% are the filters to watch as revenue scales."
+      "Shelf space is the scarce input. Revenue reached $1.9B trailing, up 39.9%, and $1.6B in FY2026, up 24.6%. Consensus expects $2.0B in FY2027, up 24.1%, then $2.2B in FY2028, up 9.1%. The sharp deceleration in the second year is the forecast's acknowledgement that a brand cannot keep adding distribution at the same rate once it is in most of the relevant doors. Growth after that has to come from new products, international markets or acquisitions.",
+      "International is 21.0% of revenue and runs mainly through distributors, which carries a lower gross margin than direct retail but needs almost no local infrastructure. The four-brand portfolio gives the company more than one price point to sell, and the premium brands reach customers who would not buy the value line. Neither the acquisition contribution nor the organic split is disclosed, so the mix shift has to be inferred from the margin rather than measured."
     ],
     "bullets": [
       {
-        "title": "Shelf-space gains",
-        "detail": "Winning more space and more retailer doors is the strongest growth driver in mass cosmetics."
+        "title": "Shelf space",
+        "detail": "National retailers control access, and a lost reset or promotional slot would be felt in the next quarter's revenue."
       },
       {
-        "title": "Category expansion",
-        "detail": "Moving from colour cosmetics into skincare raises the average basket and the repeat rate."
+        "title": "International distribution",
+        "detail": "Distributor sales are 21.0% of revenue, lower margin but almost no local capital."
       },
       {
-        "title": "International",
-        "detail": "Distributor-led expansion adds revenue with little fixed cost, though at a lower margin."
+        "title": "Brand portfolio",
+        "detail": "Four price points widen the customer base, but acquisitions also add goodwill and integration cost."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 8.9%, the net margin is 4.5% and diluted EPS is $1.45. The latest quarter's operating margin was 10.1%.",
-      "Return on equity is 7.1%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q2 FY27: revenue of $520.8M, an operating margin of 10.1% and a net margin of 5.8%."
+      "The 74.4% gross margin trailing compares with 70.7% in FY2026 and 64.8% in FY2021. Operating margin was 8.9% trailing and 4.5% in FY2026, down from 12.0% in FY2025. The March 2026 quarter was the low point at -11.2%, and the June 2026 quarter recovered to 21.4%. Net margin was 4.5% trailing and 1.6% in FY2026. The gross line has widened while the operating line has narrowed, which is the definition of rising customer-acquisition cost.",
+      "Return on invested capital was 5.6% and return on equity 7.1%, against a 14.7% peer median return on capital. The gap is the goodwill from the brand acquisitions and the margin compression, not a lack of cash generation. A business with a 74.4% gross margin should earn a double-digit return on capital; the fact that it does not is the clearest evidence that the operating cost base is the problem."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $275.7M, a 14.2% margin. Net debt is $562M.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $275.7M over the last twelve months and net debt was $562M; interest cover was n/a."
+      "Asset-light operations produced $212.5M of operating cash flow in FY2026 against $22.4M of capex, for free cash flow of $190.1M. The trailing figure is $275.7M, a 14.2% margin. The quarterly path is volatile because working capital moves with retail shipments and inventory builds: $125.0M in the March 2025 quarter, -$19.8M in December 2024 and $12.1M in September 2026. The annual figure is the reliable one.",
+      "Net debt was $552.0M at FY2026 and $475.9M trailing, or 1.8x EBITDA. The company pays no dividend. The cash flow covers debt service comfortably at current margins, but a repeat of the FY2026 operating margin would push leverage toward 3x on a smaller EBITDA base. That is the link between the income statement and the balance sheet: the debt is manageable only while the margin recovers."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 75.9x trailing earnings and 26.4x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $131.00; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "The trailing multiple of 73.3x is a premium to the 46.3x peer median, and 25.3x EBITDA is above the 16.2x median. The sales multiple of 3.5x is close to On Holding's 4.2x, although On earns a 10.1% operating margin against e.l.f.'s 8.9%. The trailing earnings multiple is the least useful of the three because FY2026's 4.5% operating margin was depressed by charges.",
+      "On FY2027 EPS of $3.90, the shares at $107 are valued at 27.4x; on FY2028's $4.19, 25.5x. That is a reasonable multiple for a mid-teens grower if the operating margin returns to the low teens. What would justify it is a clean year with operating margin above 12% and free cash flow above $250M. What would break it is another round of charges or a retailer reset that forces more promotional spending."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "16 analysts contribute to the third-party consensus. The mean target is $131.00, with a range of $110.00 to $140.00.",
-      "Current-year estimates call for $2B of revenue and $3.90 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 16 analysts with a mean target of $131; third-party estimates can change without notice."
+      "A mean target of $131 against a $107 price, with a range of $110 to $140, leaves little room for disagreement about direction. The positive end dominates the published analyst views, with a neutral block and no cautious estimates. The lowest target is still above the current price, so the debate is about the size of the upside rather than its existence.",
+      "Revisions have been positive: +7.5% over 30 days and +8.1% over 60 and 90 days. Three of the last four quarters beat by a wide margin, most recently $1.21 against $0.60, and the FY2027 EPS estimate of $3.90 has risen with them. The consensus assumes a 24.1% revenue increase and a margin recovery, which is a demanding combination after a year in which operating income fell while sales rose."
     ]
   },
   "risks": {
@@ -158,5 +155,7 @@ export const ELF: StockStory = {
       "Can operating margin return to the low-to-mid teens at this revenue scale?",
       "How concentrated is the retail customer base?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

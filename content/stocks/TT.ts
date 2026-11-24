@@ -7,20 +7,20 @@ export const TT: StockStory = {
   "dek": "Applied heating and cooling is a competitive project business. The installed base it leaves behind is an annuity, and that is where a 27.1% return on invested capital comes from.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $23.2B trailing twelve months, +10.3% year over year.",
-    "Profitability: 17.9% operating margin and 13.6% net margin.",
-    "Cash: $2.8B free cash flow, a 11.9% margin.",
-    "Scorecard: 46/100 average percentile across the factor screens."
+    "Q3 FY26 revenue was $6.8B at a 19.9% operating margin, with $4.74 of diluted EPS and $1.2B of free cash flow.",
+    "Trailing revenue is $23.2B, up 10.3%, and return on invested capital is 20.5% against an 18.3% peer median.",
+    "Free cash flow of $2.8B is an 11.9% margin, with capex at 1.8% of revenue and net debt at 0.8x EBITDA.",
+    "At 28.4x earnings and 20.4x EBITDA, the shares sit close to peer medians after a year in which they returned 0.7%."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1466258/000162828026005731/tt-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001466258&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Trane Technologies plc. generated $23.2B of revenue over the last twelve months, +10.3% versus the prior year. Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
-      "The latest reported quarter was Q3 FY26, with $6.8B of revenue and an operating margin of 19.9%. The stock closed at $405.81 on 2026-11-17, giving a market capitalization of $88.8B.",
-      "The shares sit 37% of the way up their 52-week range ($348.06 to $505.87). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Trane's September quarter produced $6.8B of revenue, a 19.9% operating margin and $4.74 of diluted EPS, with $1.2B of free cash flow. Trailing revenue is $23.2B, up 10.3%. What matters is that the margin is the highest in five years and that it came in a quarter when applied equipment, unitary products and service all contributed. The service annuity is doing what it is supposed to do: lifting the group margin as the installed base grows.",
+      "Applied HVAC is engineered to a building and priced project by project; unitary products are standardised and sold through distributors; service and parts are the high-margin layer that rides on the installed base. Thermo King adds transport refrigeration, where food-safety and refrigerant rules create replacement demand across a fleet. The common thread is the installed base: every unit sold creates a service relationship that needs little new capital. That is why the mix, not the consolidated revenue line, explains the margin.",
+      "The balance sheet is almost irrelevant to the story. Net debt is $3.5B at 0.8x EBITDA, interest cover is 19.2x and the dividend yields 1.1%. Free cash flow of $2.8B funds the dividend and buybacks. At 28.4x earnings and 20.4x EBITDA, the shares are close to the 29.6x and 19.3x peer medians, which is a change from the premium the business has carried. The lower multiple reflects slower growth, not a weaker franchise."
     ],
-    "quote": "A chiller is sold once every twenty years. The service contract on it is renewed every year, and the building owner rarely changes supplier once the equipment is in the basement."
+    "quote": "Trane's factories carry the capital and its service vans carry the margin, which is why a 17.9% operating margin produces a 20.5% return on capital."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,48 @@ export const TT: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.5% a year across the fiscal years in the dataset, and the latest quarter changed +17.7% year over year. Third-party estimates for the current fiscal year point to $24.1B of revenue and $15.26 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 17.9% and return on invested capital of 27.1% are the filters to watch as revenue scales."
+      "Revenue expanded from $16.0B in FY2022 to $17.7B in FY2023, $19.8B in FY2024, $21.3B in FY2025 and $23.2B trailing. The quarterly path was $5.0B in March 2026, $6.4B in June and $6.8B in September, a seasonal pattern that peaks in the cooling season. Consensus expects $24.1B for FY2026, up 13.2%, and $26.6B for FY2027, up 10.2%, so the growth is expected to slow but not stop.",
+      "The revenue split explains more than the headline growth. Service and parts grow with the installed base and need little capital; applied equipment grows with commercial construction and is priced before it is built; Thermo King grows with fleet replacement and cold-chain regulation. Consensus EPS of $15.26 for FY2026, up 16.9%, assumes the service mix keeps lifting the margin. FY2027 EPS of $17.74, up 16.2%, assumes the same again. A pause in commercial construction would test the first assumption, not the second."
+    ],
+    "bullets": [
+      {
+        "title": "Service mix",
+        "detail": "Service and parts earn more per dollar and need almost no new capital. Their share of revenue is the single best guide to the margin."
+      },
+      {
+        "title": "Applied project cycle",
+        "detail": "Large chillers and air handlers are quoted before they are built. A pause in commercial construction delays revenue the factory is already carrying."
+      },
+      {
+        "title": "Thermo King",
+        "detail": "Transport refrigeration benefits from food-safety and refrigerant rules that apply to whole fleets. That makes replacement demand more predictable than new-construction demand."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 17.9%, the net margin is 13.6% and diluted EPS is $14.17. The latest quarter's operating margin was 19.9%.",
-      "Return on equity is 34.7%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $6.8B, an operating margin of 19.9% and a net margin of 15.5%."
+      "Operating margin reached 17.6% in FY2024, 18.6% in FY2025, 17.9% trailing and 19.9% in the September quarter. Net margin is 13.6% trailing, and diluted EPS was $12.98 in FY2025. The quarterly pattern is seasonal: March 2026 earned 15.6%, June 19.3% and September 19.9%. That makes the September figure the seasonal peak as well as the strongest quarter of 2026, so it is not evidence of a new full-year level on its own.",
+      "The reported gross margin does not line up with the segment mix, so the operating line and the return on capital are the reliable measures. Return on invested capital is 20.5%, above the 18.3% peer median, with return on equity at 34.7%. The high return comes from the service layer: the factories and working capital are carried by the equipment business, while the service annuity rides on assets installed in someone else's building.",
+      "The return has drifted down from 24.1% in FY2025 to 20.5% trailing even as the margin held. That is the effect of a larger capital base, not a worse business. Eaton, by comparison, earns 9.5% on invested capital with a 15.4% operating margin. Trane's 20.5% is the evidence that the service model is real, and the 19.9% quarterly margin is the evidence that it can still grow."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $2.8B, a 11.9% margin. Net debt is $3B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $2.8B over the last twelve months and net debt was $3B; interest cover was n/a."
+      "Cash generation was $2.8B trailing, an 11.9% margin, against $3.2B of operating cash flow and $383M of capex in FY2025. Capex is 1.8% of revenue, which is what an asset-light service model looks like. The conversion is lower than the net margin of 13.6% because working capital absorbs some of the growth, particularly in the applied project business where receivables run for the length of the build.",
+      "Net debt of $3.5B at 0.8x EBITDA, interest cover of 19.2x and a 1.1% dividend leave the balance sheet with plenty of room. The buyback is the main use of surplus cash, and at 32.5x free cash flow it is accretive only if the business keeps compounding. That is the capital-allocation question: the dividend is safe, the leverage is low, and the price paid for the buyback is the variable."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 28.0x trailing earnings and 20.1x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $516.51; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At {{price}}, Trane's {{marketCap}} market value sits on {{pe}} trailing earnings, {{evEbitda}} EV/EBITDA and 32.5x free cash flow, a 3.1% cash yield. Relative to medians of 29.6x and 19.3x, the earnings multiple is slightly above the group and the EBITDA multiple is slightly above it too. The premium is smaller than it used to be: the shares have returned 0.7% over a year while revenue grew 10.3%.",
+      "Forward estimates put FY2026 EPS of $15.26 on about 27x and FY2027 EPS of $17.74 on about 23x. The cash multiple is higher than the earnings multiple because free cash flow conversion is 11.9% against a 13.6% net margin, so the earnings are not fully turning into cash. If the service mix keeps rising, the conversion should improve and the P/FCF premium should narrow.",
+      "Deere, at 35.1x earnings and 20.4x EBITDA, is the closest comparison on the EBITDA multiple but earns a 13.4% operating margin. Trane is cheaper on earnings with a higher margin and a higher return on capital. The market is not paying a premium for that; it is paying roughly the group median. The reason is growth: 10.3% trailing is good, but the consensus expects 13.2% this year and 10.2% next, so there is no acceleration to pay for."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "23 analysts contribute to the third-party consensus. The mean target is $516.51, with a range of $414.00 to $599.00.",
-      "Current-year estimates call for $24.1B of revenue and $15.26 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 23 analysts with a mean target of $516.51; third-party estimates can change without notice."
+      "Trane is covered by 23 analysts in the Yahoo Finance survey of 18 November 2026; the mean target is $517 and the range $414 to $599. The positive side outweighs the neutral block and there are no cautious calls. The bottom of the range is effectively the current share price, leaving little implied downside in the published estimates.",
+      "Revisions are flat: EPS is unchanged over 7, 30 and 60 days and up 0.3% over 90. The September quarter beat at $4.86 against $4.74 and the June quarter at $4.31 against $4.26, but the beats were small. Consensus FY2026 EPS of $15.26 is up 16.9% on 13.2% revenue growth, which assumes the service mix and the margin both improve. The dispersion is narrow, which suggests the market has a common view of the cycle."
     ]
   },
   "risks": {
@@ -144,5 +157,7 @@ export const TT: StockStory = {
       "How much of the growth is price rather than units?",
       "What return would a large acquisition need to earn to avoid diluting the 27.1% return on capital?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const INSM: StockStory = {
   "dek": "Arikayce treats a chronic lung infection and brensocatib targets bronchiectasis. Revenue has more than doubled, but the operating loss is still 37% of sales and the cash balance is smaller than the annual burn.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $1.5B trailing twelve months, +240.0% year over year.",
-    "Profitability: -37.1% operating margin and -39.9% net margin.",
-    "Cash: -$627.6M free cash flow, a -41.3% margin.",
-    "Scorecard: 43/100 average percentile across the factor screens."
+    "Revenue reached $524.4M in Q3 FY2026, more than triple the $142.3M of a year earlier, while operating margin fell to minus 17.0%.",
+    "The operating margin swung from minus 0.4% in Q2 FY2026 to minus 17.0% in Q3 as launch spending outran revenue.",
+    "Free cash flow improved from minus $226.2M in Q1 FY2026 to minus $42.1M in Q3, a sharp reduction in burn.",
+    "FY2027 consensus EPS of $0.66 implies a 224x multiple at $148, so the profit estimate carries most of the valuation."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1104506/000110450626000009/insm-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001104506&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Insmed Incorporated generated $1.5B of revenue over the last twelve months, +240.0% versus the prior year. The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue.",
-      "The latest reported quarter was Q3 FY26, with $524.4M of revenue and an operating margin of -17.0%. The stock closed at $121.86 on 2026-11-17, giving a market capitalization of $26.7B.",
-      "The shares sit 26% of the way up their 52-week range ($90.39 to $212.75). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Insmed's revenue rose by $99M between Q2 and Q3 FY2026, and its operating margin fell by 16.6 points. That is the opposite of what a scaling launch usually produces, and it is the most informative fact in the quarter. Revenue of $524.4M was more than triple the $142.3M of a year earlier, yet the operating loss widened sequentially. The explanation has to sit in launch spending, gross-to-net or one-off costs; the reported numbers show the effect without separating the causes.",
+      "The company is now a two-product pulmonary business. Arikayce is an inhaled antibiotic for MAC lung disease, delivered by nebuliser with a cold chain and a long treatment duration. Brensocatib is an oral DPP1 inhibitor for bronchiectasis, aimed at a much larger prescriber base and the reason the commercial organisation has expanded. The strategic logic is that the same sales force and payer relationships can carry both products; the financial logic is that brensocatib has to reach a primary-care-sized market before the cost base pays for itself.",
+      "At 21.0x trailing sales, the equity is priced for that transition rather than for the current loss. Net cash of $599.9M is smaller than the trailing free cash outflow of $627.6M, so the balance sheet is a live constraint even after the burn has fallen. The FY2027 estimate of $0.66 per share is the pivot: it turns the story from a launch to a leveraged commercial franchise, and it requires spending to stabilise while revenue keeps compounding."
     ],
-    "quote": "A launch is a bet that the cost comes first and the revenue comes second. The balance sheet decides how long the company can wait."
+    "quote": "A launch-stage pharmaceutical is valued on the revenue curve, and the curve has to arrive before the cash does."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,50 @@ export const INSM: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 28.2% a year across the fiscal years in the dataset, and the latest quarter changed +268.4% year over year. Third-party estimates for the current fiscal year point to $1.9B of revenue and -$1.67 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -37.1% and return on invested capital of -330.8% are the filters to watch as revenue scales."
+      "Brensocatib has to reach a prescriber base several times larger than Arikayce's. That is the growth thesis in one sentence: Arikayce sells to pulmonologists and infectious-disease specialists treating a chronic lung infection, while brensocatib targets bronchiectasis, a broader population with an easier oral regimen. The FY2026 revenue estimate of $1.9B is 206.9% above FY2025, and FY2027 is estimated at $3.0B, another 60.8%. Those numbers are a launch curve, not a base-business forecast.",
+      "The mix shift has a cost. A primary-care-sized market needs more sales representatives, more payer work and more patient support than a rare-disease product, and those costs arrive before the revenue. That is why the operating margin can worsen while revenue grows. The offset is that the incremental gross profit on each additional prescription is high once the infrastructure exists, which is the operating leverage the FY2027 profit estimate depends on.",
+      "Durability depends on Arikayce holding its base while brensocatib scales. The company books 74.7% of revenue in the United States, and Arikayce is a nebulised product with a device and a supply chain, so it is defensible but not immune to competition. If brensocatib penetration slows, the company is left with a larger cost base and a smaller revenue line, which is the scenario the balance sheet cannot absorb comfortably."
     ],
     "bullets": [
       {
-        "title": "Brensocatib launch",
-        "detail": "The new revenue line. Adoption among pulmonologists and payer coverage decide the slope."
+        "title": "Brensocatib breadth",
+        "detail": "An oral drug for bronchiectasis aimed at a far larger prescriber base than Arikayce, and the reason the cost base has expanded."
       },
       {
         "title": "Arikayce base",
-        "detail": "The established product. Growth comes from penetration and from longer treatment duration."
+        "detail": "The inhaled antibiotic is the established revenue line; its nebulised format and cold chain make it defensible but capital-intensive to support."
       },
       {
-        "title": "International",
-        "detail": "Additional geographies add patients but require local reimbursement and distribution."
+        "title": "Operating leverage",
+        "detail": "Fixed commercial costs mean incremental revenue should carry high margin once the launch matures, which is what the FY2027 profit estimate assumes."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -37.1%, the net margin is -39.9% and diluted EPS is -$2.81. The latest quarter's operating margin was -17.0%.",
-      "Return on equity is -83.4%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $524.4M, an operating margin of -17.0% and a net margin of -19.1%."
+      "Two consecutive quarters moved in opposite directions on margin, which is unusual for a launch of this size. Q2 FY2026 produced an operating margin of minus 0.4% on $425.5M of revenue; Q3 produced minus 17.0% on $524.4M. A 16.6-point deterioration on higher revenue points to a step-up in spending, a change in gross-to-net, or both. The gross margin of 84.4% is healthy for an inhaled product but below the 90%-plus of a simple oral pill.",
+      "The trailing operating margin is minus 37.1% and the net margin minus 39.9%, both dragged down by the earlier quarters when revenue was a fraction of today's. The quarterly loss per share has fallen from $1.53 in Q4 FY2025 to $0.46 in Q3 FY2026, which is the more relevant trajectory. Return on invested capital of minus 35.0% and return on equity of minus 83.4% still describe a business that has not earned its cost of capital.",
+      "The comparison with Krystal is the useful one. Krystal runs a 48.4% operating margin on $470.0M of revenue with a single topical gene therapy; Insmed runs minus 37.1% on $1.5B with two products and a much larger commercial organisation. The difference is investment phase, not product quality, but it also shows how much operating margin Insmed has to recover before the comparison turns favourable."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$627.6M, a -41.3% margin. The balance sheet carries $591.5M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$627.6M over the last twelve months and net debt was -$591.5M; interest cover was n/a."
+      "The quarterly cash burn has fallen by more than 80% in six months: minus $226.2M in Q1 FY2026 against minus $42.1M in Q3 FY2026. That is the most important financial development since the launch began, because it changes the distance to a funding event. FY2025 free cash flow was minus $967.6M; the trailing figure is minus $627.6M, and the direction is consistent with a launch maturing.",
+      "Capital expenditure is not the issue. It was $32.6M in FY2025, small against a revenue base of $606.4M, because the manufacturing is largely outsourced and the product is a formulated drug rather than a plant. The burn is operating spend: sales, medical affairs, market access and trials. That matters because operating spend can be slowed if the launch disappoints, while capital projects cannot.",
+      "Net cash of $599.9M against the trailing outflow means the company still depends on its access to capital, but less than a year ago. Capital returns are not part of the plan; the priority is funding brensocatib. If the FY2027 profit estimate arrives, the financing question disappears; if it slips a year, the cash balance becomes the constraint again. That is the sequence the quarterly burn already implies: minus $42.1M in Q3 is close to the level at which the launch funds itself."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $194.18; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Twenty-one times sales for a business with a minus 37.1% operating margin only works if the 2027 profit arrives. The FY2027 estimate of $0.66 per share against a $148 share price implies a multiple of about 224x, which is not a valuation so much as a bet on the out-year. On FY2027 revenue of $3.0B, the sales multiple falls to roughly 11x, which is below Krystal's 18.3x on current sales and not an extreme multiple for a company growing 60.8%.",
+      "The peer context explains the premium. Krystal trades at 18.3x sales with a 48.4% operating margin; Rhythm at 27.0x with a minus 66.7% margin; Madrigal at 6.1x with a launch that has just turned profitable. Insmed sits in between on margin and at the top of the range on revenue scale. The market is paying for the second product, not the first.",
+      "Justifying the multiple requires evidence that brensocatib's launch is broadening rather than concentrating in a few centres, with spending stabilising at the same time. Another quarter of revenue growth with a falling operating margin would undercut it, because that combination pushes the FY2027 profit estimate out and makes the cash balance decisive. The next two quarters of margin and cash are the evidence that would settle it."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "22 analysts contribute to the third-party consensus. The mean target is $194.18, with a range of $158.00 to $243.00.",
-      "Current-year estimates call for $1.9B of revenue and -$1.67 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 22 analysts with a mean target of $194.18; third-party estimates can change without notice."
+      "The mean target of $194 against a $148 share price implies a modest re-rating rather than a transformation, which is consistent with a stock that has fallen 28.5% over twelve months while revenue more than doubled. The range of $158 to $243 is narrow for a launch story, suggesting the disagreement is about timing, not the size of the opportunity.",
+      "Yahoo Finance's survey of 18 November 2026, cross-checked with Nasdaq, has FY2026 revenue at $1.9B with a loss of $1.67 per share, then FY2027 revenue at $3.0B with earnings of $0.66. The 60-day EPS revision is 8.2%, a mild upward move. The estimates embed a profit in FY2027 on a 60.8% revenue increase, which is the assumption the valuation rests on."
     ]
   },
   "risks": {
@@ -158,5 +159,7 @@ export const INSM: StockStory = {
       "How much cash did the company hold at the latest quarter-end?",
       "What cost growth is embedded in the consensus profit estimate for next year?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

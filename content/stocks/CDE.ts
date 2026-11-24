@@ -7,20 +7,20 @@ export const CDE: StockStory = {
   "dek": "Silver and gold revenue doubled in a year. Mining costs are largely fixed per tonne, so the margin swings with the metal price rather than with the effort.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $3.6B trailing twelve months, +111.7% year over year.",
-    "Profitability: 29.7% operating margin and 19.2% net margin.",
-    "Cash: $1.2B free cash flow, a 33.5% margin.",
-    "Scorecard: 74/100 average percentile across the factor screens."
+    "Revenue fell from $1.1B in the June 2026 quarter to $983.6M in September, and the operating margin from 19.9% to 17.7%.",
+    "FY2025 revenue of $2.1B produced $665.7M of free cash flow and $707.0M of operating income, a margin that follows the metal price.",
+    "Net cash of $1.2B and a 6.0x EV/EBITDA multiple make Coeur the cheapest cash generator in the metals peer group.",
+    "Trailing revenue grew 111.7%, but the 30-day EPS revision of -20.2% says the cost of that growth is still being marked."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/215466/000021546626000004/cde-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000215466&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Coeur Mining, Inc. generated $3.6B of revenue over the last twelve months, +111.7% versus the prior year. The opportunity is large but early; permits, financing and construction execution determine who captures it.",
-      "The latest reported quarter was Q3 FY26, with $983.6M of revenue and an operating margin of 17.7%. The stock closed at $13.17 on 2026-11-17, giving a market capitalization of $13.5B.",
-      "The shares sit 3% of the way up their 52-week range ($12.71 to $27.77). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Coeur's revenue peaked at $1.1B in the June 2026 quarter and slipped to $983.6M in September, while the operating margin fell from 19.9% to 17.7%. Earlier in the year the same line was 40.8%. The quarter matters because it shows how quickly the margin gives back when the realised metal price stops rising, even with five mines running. The reported numbers show a producer at the mercy of two prices it does not set.",
+      "The portfolio is five mines: Palmarejo at 22.9% of 2025 revenue, Rochester at 22.1%, Las Chispas at 20.4%, Kensington at 18.2% and Wharf at 16.4%. All five sit in the United States or Mexico, and 43.2% of revenue comes from Mexico. Each mine has its own grade, cost per ounce and remaining life, so the group margin is an average of five different geological outcomes rather than a single operating system.",
+      "The equity is valued at $11.7B, or 16.9x earnings and 6.0x EBITDA, with net cash of $1.2B and a 0.4% dividend. That is the lowest EBITDA multiple in the metals group, where the median is 25.6x. The discount is not a mispricing: a price-taker with a 6.7% return on capital and a depleting reserve base deserves to trade below a manufacturer. The question is whether the current metal price is high enough to make the cash flow sustainable."
     ],
-    "quote": "A gold mine is a fixed-cost factory that sells its output at a price it cannot control. Everything in the accounts follows from that sentence."
+    "quote": "Coeur's margin is set by two prices it does not negotiate and five mines whose costs it is still learning to control."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,46 @@ export const CDE: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 19.5% a year across the fiscal years in the dataset, and the latest quarter changed +77.4% year over year. Third-party estimates for the current fiscal year point to $4.2B of revenue and $0.86 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 29.7% and return on invested capital of 9.1% are the filters to watch as revenue scales."
+      "Two variables drive the top line, and only one is under management. The realised silver and gold price explains most of the 111.7% trailing revenue increase and most of the margin swing from FY2023's -4.7% operating margin to FY2025's 34.2%. Volume explains the rest: the ramp at Las Chispas and Rochester added ounces that the older mines could not. Consensus expects $4.2B of revenue in FY2026 and $5.9B in FY2027, increases of 102.3% and 40.0%, which embeds both higher prices and more tonnes.",
+      "The volume side is the part that can be forecast. Five mines with different grades give the company some ability to blend ore and protect the cost per ounce, but narrow veins and underground operations are not smooth. The 30-day EPS revision of -20.2% suggests the cost line has been moving against the price. Durability therefore depends on all-in sustaining costs, which the file does not report, rather than on the revenue growth rate."
     ],
     "bullets": [
       {
         "title": "Metal prices",
-        "detail": "The largest single variable. Silver and gold are set globally and no producer can influence them."
+        "detail": "A fixed cost per tonne means a 10% price move passes almost entirely to operating income, in both directions."
       },
       {
-        "title": "Production volume",
-        "detail": "More ounces at the same cost per ounce raises profit, but new ounces usually cost more to produce than the existing ones."
+        "title": "New production",
+        "detail": "Las Chispas and Rochester added ounces during the year, and their ramp is the part of the growth that management controls."
       },
       {
-        "title": "Reserve replacement",
-        "detail": "A mine that does not replace what it extracts shrinks every year. Exploration and acquisitions are how that is solved."
+        "title": "Cost per ounce",
+        "detail": "Diesel, labour and grade determine the margin at a given price, and the recent estimate cuts point to pressure there."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 29.7%, the net margin is 19.2% and diluted EPS is $0.92. The latest quarter's operating margin was 17.7%.",
-      "Return on equity is 6.7%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $983.6M, an operating margin of 17.7% and a net margin of 11.1%."
+      "Operating margin reached 34.2% in FY2025 and 29.7% trailing, against -4.7% in FY2023 and -5.0% in FY2022. Net margin moved from -12.6% in FY2023 to 28.3% in FY2025. The gross margin is not reported in the file, so the operating line is the first clean measure of mine economics. Return on invested capital was 27.1% in FY2025 and 6.7% trailing, a reminder that a single strong price year can flatter a capital-intensive asset.",
+      "The quarterly path shows the leverage. Q1 FY2026 operating margin was 40.8%, Q2 19.9% and Q3 FY2026 17.7%, while revenue went from $856.2M to $1.1B to $983.6M. Revenue fell 10.6% sequentially from the June quarter, and the margin fell 2.2 points; measured from the March quarter, the decline is 23.1 points. That is what happens when costs are fixed per tonne and the realised price moves. Return on equity was 6.7% trailing and 17.7% in FY2025, so net cash is doing part of the work."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.2B, a 33.5% margin. The balance sheet carries $1.2B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $1.2B over the last twelve months and net debt was -$1.2B; interest cover was n/a."
+      "Coeur converted $886.9M of operating cash flow into $665.7M of free cash flow in FY2025, after $221.2M of capex. The trailing figure is $1.2B, a 33.5% increase, and the quarterly numbers have been strong: $387.5M in June and $240.2M in September. Capex has fallen from $364.6M in FY2023, when the new mines were being built, to $221.2M in FY2025, so cash conversion improved as the construction phase ended.",
+      "Net cash was $536.6M at FY2025 and $1.2B trailing, or -0.7x EBITDA. The company paid a dividend yielding 0.4%, which is nominal against the cash generated. The stronger signal is the balance-sheet reversal: net debt was $430.8M in FY2021 and is now net cash. That gives Coeur the option to buy or build another mine, and it is the main reason the equity has re-rated despite the recent margin decline."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 19.4x trailing earnings and 7.0x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $21.32; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Six times EBITDA is the cheapest multiple in the metals group, where the median is 25.6x, and 16.9x earnings is below the 27.3x median. The P/FCF of 9.7x and the 10.3% free-cash-flow yield are the other side of the same coin: the market expects the cash flow to fall. A price-taker at the top of a metal cycle always looks cheap on trailing numbers, which is why the multiple is a statement about the cycle rather than about the company.",
+      "On the FY2026 EPS estimate of $0.86, the shares at $11 are valued at 12.8x; on FY2027's $1.76, 6.3x. That forecast assumes earnings double, so the low multiple is being applied to numbers that have been cut 30% in 90 days. What would justify a higher multiple is evidence that the all-in sustaining cost is low enough to earn a margin at a weaker silver price; what would break the current one is a price fall that turns the 29.7% operating margin negative, as it did in FY2022 and FY2023."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "11 analysts contribute to the third-party consensus. The mean target is $21.32, with a range of $16.00 to $27.00.",
-      "Current-year estimates call for $4.2B of revenue and $0.86 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 11 analysts with a mean target of $21.32; third-party estimates can change without notice."
+      "Eleven analysts cover Coeur, with a mean target of $21 against an $11 price and a range of $16 to $27. The mean implies a near-doubling, which is less a forecast of the business than a mark-to-market of the metal price.",
+      "The revision trend is the warning. EPS estimates have been cut 20.2% over 30 days, 29.4% over 60 days and 30.5% over 90 days, and the last two quarters missed: $0.12 against $0.26 in June and $0.10 against $0.16 in September. The consensus FY2026 EPS of $0.86 therefore sits below where it started the quarter, and the FY2027 figure of $1.76 assumes the cost pressure reverses."
     ]
   },
   "risks": {
@@ -158,5 +155,7 @@ export const CDE: StockStory = {
       "How many years of reserves do the operating mines have?",
       "What would the operating margin be at a 20% lower silver price?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

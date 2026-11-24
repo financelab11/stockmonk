@@ -7,19 +7,20 @@ export const ACHR: StockStory = {
   "dek": "The income statement is a cost report: a -13666.7% operating margin and a -$660.0M cash burn, funded by $1.48B of net cash. The aircraft has not entered service.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $6.9M trailing twelve months, not available year over year.",
-    "Profitability: -13666.7% operating margin and -11589.9% net margin.",
-    "Cash: -$660M free cash flow, a -9565.2% margin.",
-    "Scorecard: 32/100 average percentile across the factor screens."
+    "Revenue was $6.6M trailing, against a -$660.0M cash burn and a -14,287.9% operating margin; the aircraft is not yet in commercial service.",
+    "The June quarter booked $5.0M of revenue and used $193.5M of cash, so the cost base is running well ahead of sales.",
+    "Net cash of $1.48B covers a little over two years at the trailing burn, before any certification delay adds cost.",
+    "At 147.4x sales there is no earnings multiple; certification and unit cost, not the revenue multiple, decide whether the equity is worth anything."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1824502/000182450226000019/achr-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001824502&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Archer Aviation Inc. generated $6.9M of revenue over the last twelve months, not available versus the prior year. The business depends on contract wins, launch execution and the path from backlog to cash flow.",
-      "The latest reported quarter was Q2 FY26, with $5M of revenue and an operating margin of -5584.0%. The stock closed at $3.52 on 2026-11-17, giving a market capitalization of $2.8B.",
-      "The shares sit 1% of the way up their 52-week range ($3.46 to $9.29). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
-    ]
+      "Archer booked $5.0M of revenue in the June 2026 quarter and used $193.5M of cash, with an operating margin of -5,584.0%. The revenue is real but tiny: it comes from early work, not from carrying passengers. The quarter is best read as a cost report. The company is spending on engineering, test aircraft, tooling and certification years before the first fare, and the income statement shows that spending without the offset.",
+      "The product is a piloted electric aircraft that takes off vertically, flies like a plane and lands vertically, aimed at trips of a few dozen miles inside and between cities. Getting it into service requires type certification, production approval and operational authorisation, each sequential and each costly before revenue. The company also has to build a factory that can move from prototypes to serial production at a predictable unit cost.",
+      "Archer's $1.48B cash balance is the only financial anchor. Against a $2.5B market value, the enterprise is valued at roughly $1.0B, or 147.4x sales. That is not a valuation in the ordinary sense; it is a price on the certification timetable. Without the cash, the programme would already have required a different financing plan, and the 52-week range of $3 to $9 shows how quickly the market reprices that timetable."
+    ],
+    "quote": "Archer's income statement is a list of what certification costs, and the revenue line has not yet started to pay for it."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -49,35 +50,50 @@ export const ACHR: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at n/a a year across the fiscal years in the dataset, and the latest quarter changed not available year over year. Third-party estimates for the current fiscal year point to $17.3M of revenue and -$0.95 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -13666.7% and return on invested capital of -171.2% are the filters to watch as revenue scales."
+      "Certification is the only growth driver that matters. Revenue is expected to rise from $17.3M in FY2026 to $117.0M in FY2027, a 576.1% increase, but those estimates rest on three analysts and on an aircraft that has not entered service. The forecast is therefore a timetable, not a demand curve. If certification slips, the revenue slips with it; if it arrives, the first routes set the real growth rate.",
+      "Short urban trips are the target market, where the alternative is a road journey. The unit economics depend on aircraft price, maintenance cost and paying seats per hour. Archer has not disclosed a cost per aircraft or a target fare, so the revenue estimate cannot be tested against a unit model. What can be measured is spending: the FY2025 operating loss was $729.3M on $300,000 of revenue.",
+      "The path to volume requires a factory, not just a design. Serial production has to bring unit cost down far enough for an operator to earn a return at a competitive fare. That is an industrial problem with a long lead time, and it is why the revenue estimates are so back-loaded: FY2026 at $17.3M, FY2027 at $117.0M, and nothing in the reported figures that bridges the two."
+    ],
+    "bullets": [
+      {
+        "title": "Type certification",
+        "detail": "Design approval is the gate; without it there are no paying flights, and the cost base continues regardless."
+      },
+      {
+        "title": "Production approval",
+        "detail": "A certified design still needs an approved production system before aircraft can be built at volume."
+      },
+      {
+        "title": "Route economics",
+        "detail": "Load factor, trips per hour and maintenance cost decide whether a certified aircraft can be operated at a profit."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -13666.7%, the net margin is -11589.9% and diluted EPS is -$1.09. The latest quarter's operating margin was -5584.0%.",
-      "Return on equity is -41.7%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q2 FY26: revenue of $5M, an operating margin of -5584.0% and a net margin of -5264.0%."
+      "Archer's income statement is not a margin story yet. The trailing operating margin is -14,287.9% and the net margin -12,116.7%, both computed on $6.6M of revenue against a cost base measured in hundreds of millions. The FY2025 operating loss was $729.3M; the gross margin of 33.3% on a tiny revenue base is a rounding exercise, not evidence of pricing power. That is the cost of a certification programme with no product to sell.",
+      "The quarterly losses are widening in dollars even as the percentage narrows. Q1 FY2026 used $181.7M of cash and Q2 FY2026 $193.5M, while revenue climbed from $1.6M to $5.0M. The operating margin improved from -15,912.5% to -5,584.0% because the denominator grew, not because the cost base fell. The operating loss in dollars is still rising, and that distinction is the whole point of reading a pre-revenue company.",
+      "Returns are negative and not comparable with an operating business. ROIC of -37.8% and ROE of -42.3% describe capital spent on development, not capital employed in a fleet earning fares. The peer read-across is similarly unhelpful: Joby burns more, AeroVironment sells certified products, and both are at different stages. Cash burn per quarter is the cleanest operating metric, and it is the one that sets the financing calendar."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$660M, a -9565.2% margin. The balance sheet carries $1.5B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$660M over the last twelve months and net debt was -$1.5B; interest cover was n/a."
+      "Archer's $1.48B of net cash is the company's principal asset. It is also the reason the equity still has value. Against trailing free cash flow of -$660.0M, it covers a little over two years, and the quarterly burn is rising: $181.7M in Q1 FY2026 and $193.5M in Q2. A certification delay does not pause that spending, so the runway is shorter than a simple division suggests if the timetable slips.",
+      "The FY2025 cash flow statement shows $432.9M used in operations and $78.8M of capex, for -$511.7M of free cash flow. The trailing figure is larger because spending accelerated in 2026. Net cash fell from $1.9B at FY2025 to $1.48B, which is consistent with the burn and implies no major new financing in the period. The cash balance is the only asset that can be measured precisely.",
+      "The uses of cash are narrow: there is no dividend, no buyback and no acquisition programme to assess. Every dollar goes into certification, tooling and the manufacturing ramp. That is the correct use of cash for a company at this stage, but it also means the equity is a claim on a single binary outcome. A financing before certification would dilute that claim, and that is the binary nature of the equity."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $9.98; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "One hundred and forty-seven times sales is not a multiple that can be compared with anything else in the peer group. The revenue base is $6.6M, so small changes in timing move the ratio by tens of turns. The market value of $2.5B is better understood as a price on certification, and the enterprise value of roughly $1.0B after net cash is the amount at risk if the programme fails.",
+      "The estimates do not provide an anchor either. FY2026 revenue is $17.3M and FY2027 $117.0M, both on three analysts, with losses of $0.95 and $0.82 per share. Even the FY2027 revenue would leave the shares at about 21x sales on today's market value, which is still a growth multiple for a manufacturer. The price assumes a successful certification and a fast ramp, and that is a demanding price for a pre-revenue manufacturer.",
+      "A certified aircraft, a factory at known unit cost and a route network with demonstrated load factors would justify it. A delay that forces a raise at a lower valuation, or a unit cost that makes the fare uncompetitive, would break it. The 52-week range of $3 to $9 shows the market has already tested both scenarios. Neither outcome is remote."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "9 analysts contribute to the third-party consensus. The mean target is $9.98, with a range of $6.35 to $18.00.",
-      "Current-year estimates call for $17.3M of revenue and -$0.95 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 9 analysts with a mean target of $9.98; third-party estimates can change without notice."
+      "Coverage of Archer runs to nine analysts, with a mean target of $10 and a range of $6 to $18, according to the Yahoo Finance survey of 18 November 2026. That is a more positive distribution than the financials alone would suggest, and it reflects the option value of certification rather than current revenue.",
+      "The FY2026 estimate is $17.3M of revenue and a loss of $0.95 per share; FY2027 is $117.0M and -$0.82, both on three analysts. The EPS revision is -1.2% across 7, 30, 60 and 90 days, so the numbers have been stable rather than improving. The consensus is therefore not forecasting a near-term business; it is marking a timetable that has not yet been met."
     ]
   },
   "risks": {
@@ -141,5 +157,7 @@ export const ACHR: StockStory = {
       "What unit cost is needed for the aircraft to be viable?",
       "How many aircraft must be built before the service can launch?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

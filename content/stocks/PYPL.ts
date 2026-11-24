@@ -7,20 +7,20 @@ export const PYPL: StockStory = {
   "dek": "Operating margin has slipped from 18.1% to 16.3% over six quarters. At 10.4x earnings and 7.8x free cash flow the shares are priced for little growth, and the third-party mean target sits below the market price.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $34.3B trailing twelve months, +4.4% year over year.",
-    "Profitability: 17.0% operating margin and 13.8% net margin.",
-    "Cash: $6.3B free cash flow, a 18.4% margin.",
-    "Scorecard: 54/100 average percentile across the factor screens."
+    "Revenue of $34.3B grew 4.4% while the operating margin fell from 18.1% to 16.3% over six quarters, a mix shift the statements do not decompose.",
+    "Free cash flow of $6.3B is an 18.4% margin, and $5.6B of net debt is only 0.8x EBITDA, so the balance sheet is not the problem.",
+    "At 9.7x earnings and 7.2x free cash flow the shares are the cheapest in the payments group, with a 13.8% cash yield and a 1.1% dividend.",
+    "Thirty-three analysts put the mean target at $57 against a $55 price, with a large neutral block and EPS estimates up 3.6% in a month."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001633917&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "PayPal Holdings, Inc. generated $34.3B of revenue over the last twelve months, +4.4% versus the prior year. The economics depend on credit losses, funding costs, take rates and the ability to grow without buying customers.",
-      "The latest reported quarter was Q3 FY26, with $8.6B of revenue and an operating margin of 16.3%. The stock closed at $58.11 on 2026-11-17, giving a market capitalization of $48.3B.",
-      "The shares sit 77% of the way up their 52-week range ($38.46 to $63.93). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Six quarters of margin erosion is the defining fact: operating margin was 18.1% in the September 2025 quarter and 16.3% a year later, with revenue rising from $8.4B to $8.6B. Profit did not collapse; it diluted. Net margin went from 14.8% to 12.5% over the same span, and EPS held at $1.25 only because the share count is falling. That is the signature of a network growing its lower-margin volume faster than its branded volume.",
+      "The branded PayPal button and Venmo carry a higher take rate because the consumer relationship belongs to PayPal; Braintree carries a lower one because it is processing embedded in someone else's checkout. When Braintree grows faster, volume rises and the blended take rate falls. The split is not disclosed, so the effect is visible in the margin and the cause is inferred. The cost base is fixed in technology and compliance but variable in marketing, which is why the margin can drift for years without a single bad quarter.",
+      "The equity is worth $45.6B, 9.7x earnings and 7.2x free cash flow, with a 13.8% cash yield and a 1.1% dividend. Those are the multiples of a business expected to stagnate, not one growing 4.4%. The buyback is doing the per-share work: EPS is estimated to rise 5.2% on 4.1% revenue growth in 2026. The debate is whether repurchasing shares at 9.7x is the best use of $6.3B of annual cash flow, or whether the branded franchise needs investment instead."
     ],
-    "quote": "A payments network earns a percentage of what flows through it. Growth comes from more volume or a higher take rate, and PayPal is currently getting a little of the first and losing a little of the second."
+    "quote": "PayPal still processes more money than any rival wallet, but the growth is coming from the unbranded processing that pays a thinner spread."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,50 @@ export const PYPL: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 11.0% a year across the fiscal years in the dataset, and the latest quarter changed +2.0% year over year. Third-party estimates for the current fiscal year point to $34.5B of revenue and $5.58 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 17.0% and return on invested capital of 20.3% are the filters to watch as revenue scales."
+      "The growth is real, but it is coming from the thinner-margin line. Braintree brings large merchants and platforms into the network at processing economics close to a conventional acquirer's; branded checkout brings a higher take rate and a consumer relationship. Revenue grew 4.4% trailing, and the fiscal 2026 estimate is 4.1%, so the blended rate is stable and slow. The margin tells you which engine is pulling, because 18.1% to 16.3% over six quarters is what happens when the thinner line grows faster.",
+      "Consensus assumes $34.5B of revenue in 2026 and $35.9B in 2027, both about 4%, with EPS rising 5.2% and then 5.7%. The gap between revenue and EPS growth is buyback arithmetic plus a little operating leverage. Venmo monetisation is the option the estimates do not obviously include: it is a large consumer network with a revenue base smaller than its user count implies, and the share of users with a monetised product is not disclosed.",
+      "Durability depends on the branded franchise holding its place as the default payment method. That is a consumer habit rather than a contract, and merchant-specific checkout products compete directly for it. The company's own evidence is mixed: revenue keeps growing, and the margin keeps falling, which is consistent with holding volume but losing pricing power. Without the branded and unbranded split, a reader can see the effect and not the cause."
+    ],
+    "bullets": [
+      {
+        "title": "Branded share",
+        "detail": "The PayPal button and Venmo earn the highest take rate, and every point of volume that shifts to Braintree dilutes the blended margin."
+      },
+      {
+        "title": "Braintree scale",
+        "detail": "Unbranded processing brings large merchants and platforms at a spread closer to a conventional acquirer's, which is why it grows faster and pays less."
+      },
+      {
+        "title": "Buyback arithmetic",
+        "detail": "With revenue growing 4.4%, EPS growth depends on retiring shares, which works while the multiple is 9.7x and stops working if the price re-rates."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 17.0%, the net margin is 13.8% and diluted EPS is $5.24. The latest quarter's operating margin was 16.3%.",
-      "Return on equity is 24.3%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $8.6B, an operating margin of 16.3% and a net margin of 12.5%."
+      "Three lines tell the mix story. Gross margin of 50.3% reflects network and funding costs sitting in cost of revenue; operating margin of 17.0% is what survives technology, sales, marketing and corporate; net margin of 13.8% adds interest income and a low tax charge. The operating line is the one moving: 18.3% in FY2025, 17.0% trailing and 16.3% in the September quarter. Each step is small and each one compounds.",
+      "EPS of $5.41 in FY2025 against $3.99 in FY2024 grew 36% on 4.3% revenue growth, which cannot come from operations alone. Return on equity of 24.3% and return on invested capital of 13.0% are respectable, and both are helped by a smaller equity base after years of repurchases. The comparison with Robinhood is stark: 13.0% on capital at a 17.0% operating margin against 15.7% at 47.3%, and the market pays 9.7x for the first and 30.7x for the second.",
+      "The quarterly path has been 17.8%, 16.4% and 16.3%, so the decline is decelerating. That is the first evidence in two years that the mix shift may be stabilising, and it is more important than the revenue line, which has been remarkably steady at $8.4B to $8.7B a quarter. The net margin, however, went from 16.5% in March 2025 to 12.5% in September 2026, so the operating line is not the only thing moving."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $6.3B, a 18.4% margin. Net debt is $3.2B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $6.3B over the last twelve months and net debt was $3.2B; interest cover was n/a."
+      "Eighteen point four percent of revenue becomes free cash flow, well above the 13.8% net margin, because depreciation, amortisation and stock-based compensation sit between the two. Capex is modest at $852.0M in FY2025, about 2.6% of revenue, so cash conversion is a function of working capital and of a business that needs little physical capital. The quarterly pattern is uneven, at $903.0M in March, $1.8B in June and $1.4B in September, but the annual figure has been above $4B every year since FY2020.",
+      "Net debt of $5.6B is 0.8x EBITDA and interest cover is 12.0x, which is conservative for a company with a credit book. The balance sheet carries both corporate borrowings and the funding for PayPal Credit, so the net figure understates the gross debt supporting the loan portfolio. Even so, leverage is not a constraint on the dividend or the buyback.",
+      "The 1.1% dividend is small; the buyback is the main return channel and the reason EPS grows faster than revenue. At 9.7x earnings, each repurchased share is accretive by construction, which is why the programme has persisted through a period of margin decline. The risk is that cash is being used to retire equity in a business whose competitive position is eroding, which is a capital-allocation judgement rather than an accounting one."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 10.2x trailing earnings and 7.6x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $57.31; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "The cheapest multiple in the payments group belongs to the largest network in it. PayPal trades at 9.7x earnings, 7.5x EBITDA and 7.2x free cash flow, with a 13.8% cash yield that is roughly four times Toast's. The discount is not a hidden-asset story; it is the market's judgement that 4.4% growth with a falling margin deserves a low multiple.",
+      "On the 2026 estimate of $5.58 the multiple is 9.9x, and on $5.90 for 2027 it is 9.3x. To justify a re-rating the company would need branded volume to outpace Braintree or the margin to stop falling; neither is in the estimates, which assume 4% revenue growth and a 5% EPS gain. A 13.8% free cash flow yield means the market is pricing perpetual low growth, and any evidence of stabilisation would be worth more than a point of margin.",
+      "The cash yield is also a statement about the buyback. At this price the company can retire about 14% of its market value each year with free cash flow, before any debt capacity. That is the mechanism that could produce per-share growth with no revenue growth, and it explains how the shares have fallen 70.6% over five years without the business collapsing."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "33 analysts contribute to the third-party consensus. The mean target is $57.31, with a range of $36.00 to $80.00.",
-      "Current-year estimates call for $34.5B of revenue and $5.58 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 33 analysts with a mean target of $57.31; third-party estimates can change without notice."
+      "The most uniform set of views in the payments group comes with thirty-three analysts, and it is the least informative. The mean target of $57 is 4% above the $55 price, and the range of $36 to $80 is wide enough to contain both a value case and a value trap.",
+      "Estimates are drifting up: EPS up 3.6% over thirty days and 3.8% over ninety, and the last four quarters all beat the consensus figure. The consensus therefore assumes the margin decline flattens, revenue grows about 4%, and the buyback does the rest. A mean target 4% above the price is not a call on a re-rating; it is a statement that the cash return is the return."
     ]
   },
   "risks": {
@@ -154,5 +169,7 @@ export const PYPL: StockStory = {
       "How much of the EPS growth comes from share repurchases rather than operating profit?",
       "What would stop the operating margin decline?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

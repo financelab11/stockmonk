@@ -7,20 +7,20 @@ export const AVAV: StockStory = {
   "dek": "Trailing revenue rose 84.4% to $2.00B, but the latest quarter grew only 5.7% and the year produced a -12.6% operating margin with -$4.01 of diluted EPS.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $2B trailing twelve months, +84.4% year over year.",
-    "Profitability: -12.6% operating margin and -10.1% net margin.",
-    "Cash: -$25M free cash flow, a -1.2% margin.",
-    "Scorecard: 54/100 average percentile across the factor screens."
+    "Revenue more than doubled to $2.0B, but the FY2026 operating margin was -15.7% and diluted EPS -$5.40, so the growth came with a loss.",
+    "The Q3 FY2026 charge drove a -43.9% operating margin; the following quarter recovered to -5.1%, which is why the charge looks one-off for now.",
+    "Free cash flow was only -$25.0M against a $311.0M operating loss, because most of the damage was non-cash.",
+    "At 2.4x sales and no meaningful earnings multiple, the price depends on the acquired Autonomous Systems base earning a normal defence margin."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926078906/avav-20260430x10k.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001368622&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "AeroVironment Inc. generated $2B of revenue over the last twelve months, +84.4% versus the prior year. The business depends on contract wins, launch execution and the path from backlog to cash flow.",
-      "The latest reported quarter was Q1 FY27, with $480.5M of revenue and an operating margin of -2.3%. The stock closed at $104.42 on 2026-11-17, giving a market capitalization of $5.3B.",
-      "The shares sit 1% of the way up their 52-week range ($100.40 to $408.25). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "A single quarter did the damage. AeroVironment's Q3 FY2026 operating margin was -43.9% and EPS -$3.15, enough to turn a year of 140.9% revenue growth into a -$5.40 loss per share. The latest quarter, Q1 FY2027, ran at -2.3%, so the loss is concentrated rather than spread. That matters because the market has to decide whether the charge was an accounting event or evidence that the acquired business cannot earn a margin.",
+      "The revenue base changed shape. FY2025 revenue was $820.6M at a 5.0% operating margin; FY2026 was $2.0B at -15.7%, with Autonomous Systems now 68.7% of sales and Space Cyber & Directed Energy 31.3%. A business that was mostly small drones and tactical weapons now carries a large engineering and space portfolio with different cost structures. Integration, not demand, is the constraint on getting back to a positive margin. That is the integration problem.",
+      "Leverage has replaced the net cash cushion. Net debt was $115.2M at FY2026 and $167.3M trailing, against net cash of $10.9M a year earlier. That is not leverage that threatens solvency, but it removes the cushion that let the company absorb a bad quarter without diluting equity. The valuation argument is therefore about margin recovery, not about survival, and the debt is small enough to leave that argument intact for now."
     ],
-    "quote": "When a company's revenue doubles and its operating income turns negative in the same year, the first task is to separate what was bought from what was earned."
+    "quote": "AeroVironment bought a second business and a second cost structure; the test is whether the acquired revenue can earn the margin the old one did."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -54,35 +54,50 @@ export const AVAV: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 32.4% a year across the fiscal years in the dataset, and the latest quarter changed +5.7% year over year. Third-party estimates for the current fiscal year point to $2.2B of revenue and $3.26 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -12.6% and return on invested capital of -4.5% are the filters to watch as revenue scales."
+      "The 84.4% headline is mostly acquisition. Organic growth was much slower: the latest quarter grew 5.7% year over year, and the FY2026 revenue base of $2.0B is roughly double FY2025's $820.6M. Separating the two matters because the acquired units came with their own margins, customers and backlog. The reported figures do not split organic from acquired revenue, so the 5.7% latest-quarter rate is the best available read on the underlying business.",
+      "Demand for loitering munitions and small uncrewed aircraft is the part with visible volume. Both are consumables: armies buy them in lots, replace them after use, and train with them. That gives a shorter order cycle than a platform programme, which is why the segment can grow faster than defence budgets. The constraint is production capacity and export approval, not customer interest. That is why the order cycle matters more than the budget cycle.",
+      "Consensus assumes the acquired base stabilises and the core grows. FY2027 revenue is estimated at $2.2B, up 11.4%, with EPS of $3.26, and FY2028 at $2.5B with EPS of $4.41. The EPS recovery is far larger than the revenue growth, so the estimate is a margin forecast. The question is whether the 26.5% gross margin is the floor or a waypoint on the road back to the 38.8% earned in FY2025."
+    ],
+    "bullets": [
+      {
+        "title": "Loitering munitions",
+        "detail": "Expendable attack drones are bought in lots and replaced after use, giving a shorter order cycle than platform programmes."
+      },
+      {
+        "title": "Autonomous Systems mix",
+        "detail": "At 68.7% of revenue, the segment's margin now sets the consolidated result; its recovery is the whole estimate."
+      },
+      {
+        "title": "Export approvals",
+        "detail": "Foreign sales need government approval, so booked revenue can slip even when demand is firm."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -12.6%, the net margin is -10.1% and diluted EPS is -$4.01. The latest quarter's operating margin was -2.3%.",
-      "Return on equity is -4.7%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q1 FY27: revenue of $480.5M, an operating margin of -2.3% and a net margin of -1.1%."
+      "The FY2026 loss was not a gradual deterioration. Gross margin fell from 38.8% in FY2025 to 25.3%, operating margin from 5.0% to -15.7%, and net margin from 5.3% to -13.4%. Most of that happened in the January 2026 quarter, when the operating margin was -43.9%. The latest quarter's -2.3% shows the underlying business can still run near breakeven when no charge lands. The charge was the difference between a normal year and a loss.",
+      "The acquired mix explains the gross margin step. A consolidated 26.5% blends hardware production with engineering and development work; the legacy business earned 38.8% on a smaller base. Operating costs also rose with the larger organisation, so the company is carrying a full defence contractor's overhead against a margin that has not yet been earned. Return on invested capital of -3.9% and return on equity of -4.6% are the result.",
+      "Against peers, the margin is unflattering but the growth is not. Kratos earns a 0.4% operating margin on 28.2% growth; AeroVironment earns -12.6% on 84.4% growth. Both are priced at 2.4x sales. The difference is that AeroVironment's loss includes a charge and a much larger acquired base, so the next four quarters will show whether the margin normalises toward the legacy level or settles near zero."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$25M, a -1.2% margin. Net debt is $140.7M.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$25M over the last twelve months and net debt was $140.7M; interest cover was n/a."
+      "Free cash flow after capex of -$25.0M against a $311.0M operating loss is the most important pair in the accounts. The gap is non-cash: charges consumed accounting profit without consuming cash. That does not make the year good, but it changes the fix from stopping the loss to converting the acquired revenue into margin. The charge was real, but it was not cash.",
+      "The quarterly cash pattern is uneven. Q1 FY2026 used $146.5M, Q2 $55.9M and Q3 $17.7M, before Q4 generated $79.1M. The latest quarter used $30.5M again. A single large delivery can swing the number by tens of millions. The swing follows working capital and delivery timing rather than a steady burn, which is typical of a hardware business with large lots.",
+      "Net debt of $167.3M is modest against a $4.7B market value, and FY2026 capex of $62.5M was well below the $140.9M free cash outflow, so the balance sheet is not the constraint. The constraint is the debt plus the cost of integrating the acquired units at a time when the operating margin is negative. A repeat of the Q3 charge would make the current net debt position uncomfortable."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $212.20; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "No earnings multiple exists because there are no trailing earnings, and EV/EBITDA is not reported for the same reason. The usable measures are 2.4x sales, a -0.5% free-cash-flow yield and a market value of $4.7B against $2.0B of revenue. That is a full sales multiple for a business with a -12.6% operating margin; it is a discount to Planet Labs at 8.6x and a premium to Fluence at 0.2x.",
+      "Embedded in the price is an acquired revenue base earning a defence margin. On FY2028 EPS of $4.41 the shares trade at about 21x, which is a normal multiple for a defence supplier; on FY2027 EPS of $3.26 they trade at about 28x. Both estimates require an operating margin well above the -12.6% trailing figure, so the price is a recovery bet rather than a current-earnings multiple.",
+      "A second charge or a slower integration would break it quickly. The 52-week range of $86 to $408 shows how violently the market has repriced the same business; the shares at $92 sit near the low end. A gross margin back above 30% and a positive operating margin would justify a higher multiple; a second year at -10% would not."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "23 analysts contribute to the third-party consensus. The mean target is $212.20, with a range of $148.57 to $315.00.",
-      "Current-year estimates call for $2.2B of revenue and $3.26 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 23 analysts with a mean target of $212.2; third-party estimates can change without notice."
+      "Targets for AeroVironment range from $149 to $315, with a mean of $212 against a $92 share price, according to Yahoo Finance on 18 November 2026. Twenty-three analysts contribute. A mean target more than double the price implies the market is pricing a recovery the analysts already assume.",
+      "For FY2027, the estimates are $2.2B of revenue and $3.26 of EPS, with FY2028 at $2.5B and $4.41. Revisions are flat over 7, 30 and 60 days and +0.6% over 90, which suggests the estimates have absorbed the Q3 charge rather than being cut after it. The consensus is therefore assuming a normalisation of margin in the second half of FY2027; the dispersion in targets shows how little agreement there is on the speed."
     ]
   },
   "risks": {
@@ -146,5 +161,7 @@ export const AVAV: StockStory = {
       "What gross margin does the acquired business earn on its own?",
       "Is the 5.7% latest-quarter growth the underlying rate?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

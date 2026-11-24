@@ -7,20 +7,20 @@ export const PSTG: StockStory = {
   "dek": "A 77.6% gross margin is what software-like storage economics look like. The published multiples are not, and a reader has to reconstruct the income statement before using them.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $4.3B trailing twelve months, +27.2% year over year.",
-    "Profitability: 5.3% operating margin and 5.9% net margin.",
-    "Cash: $128.2M free cash flow, a 3.0% margin.",
-    "Scorecard: 45/100 average percentile across the factor screens."
+    "Revenue reached $4.3B trailing, up 27.2%, yet free cash flow fell to $128.2M because the August 2026 quarter consumed $237.6M.",
+    "A 69.7% gross margin produces only a 5.3% operating margin, below the 13.7% peer median despite the software-rich product.",
+    "At 88.5x earnings and 174.8x free cash flow, the shares price a recovery the trailing accounts have not delivered.",
+    "Growth ranks in the sixth percentile of a peer group with a 77.4% median, so the premium rests on mix and installed base."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000027/pstg-20260201.htm",
   "irUrl": "https://www.sec.gov/edgar/search/",
   "bigPicture": {
     "paragraphs": [
-      "Everpure, Inc. generated $4.3B of revenue over the last twelve months, +27.2% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
-      "The latest reported quarter was Q2 FY27, with $1.2B of revenue and an operating margin of 5.3%. The stock closed at $67.80 on 2026-04-16, giving a market capitalization of $22.4B.",
-      "The shares sit 46% of the way up their 52-week range ($39.72 to $100.59). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "A record quarter arrived with a cash outflow. Revenue in the three months to 2 August 2026 reached $1.2B, the operating margin improved to 5.3% and EPS was $0.21, but free cash flow was -$237.6M after +$111.8M in the preceding quarter. That combination frames the debate: the income statement is improving while the balance sheet absorbs cash. Trailing revenue is $4.3B, up 27.2%, and the revenue base is larger than at any point in the annual record.",
+      "The product is block, file and object storage on one all-flash platform, sold mainly through resellers and integrators to enterprises and service providers. A 69.7% gross margin is the signature of software-rich storage: the flash media is bought in, while the controllers and data services carry the price. What the gross line does not show is the cost of the channel and of a development programme that has to keep pace with larger competitors. Operating margin is 5.3% against a 13.7% median for the AI-infrastructure peers, so the software economics are not reaching the operating line.",
+      "Net cash fell from $854.9M at the February 2026 year-end to $385.7M by the trailing date, after $264.3M of capital expenditure in FY2026 and the cash absorbed in the August quarter. At 5.2x sales and 174.8x free cash flow, the shares are priced for a margin and cash-conversion recovery rather than for the 27.2% growth on offer. A return to FY2026's 16.6% free-cash-flow margin would generate roughly $714M on $4.3B of revenue, still about 31x the market value."
     ],
-    "quote": "Storage is bought on a three-to-five year replacement cycle. A vendor that keeps the customer through two cycles is selling a subscription; one that loses them at refresh is selling boxes."
+    "quote": "Pure earns a 69.7% gross margin on storage that looks like software, but only 5.3% reaches the operating line after channel and development costs."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,46 @@ export const PSTG: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 15.2% a year across the fiscal years in the dataset, and the latest quarter changed +37.7% year over year. A current-year consensus estimate is not available in the dataset.",
-      "Growth is only useful if it earns a return. The operating margin of 5.3% and return on invested capital of 13.2% are the filters to watch as revenue scales."
+      "Installed-base expansion is the mechanism the model depends on. Each array sold brings support and subscription revenue that costs little to serve, and the quarterly revenue path from $778.5M in the May 2025 quarter to $1.2B in August 2026 shows the base growing. What is not disclosed is the split between product and recurring revenue, so the durability of that base cannot be measured directly. The 27.2% trailing growth is faster than FY2026's 15.6%, which suggests the second half of the fiscal year carried the acceleration.",
+      "Demand comes from two places with different cycles. Enterprise AI projects need shared storage behind analytics and model development, a pool that grows with data volumes but excludes the hyperscale training clusters that design their own systems. The general replacement cycle, in which customers refresh arrays every three to five years, is steadier but slower. On the evidence, the business is growing in the high teens to high twenties, not at the 77.4% median of the AI-infrastructure peer group, and no current-year revenue estimate is published to test the next step."
+    ],
+    "bullets": [
+      {
+        "title": "Subscription attach",
+        "detail": "A larger installed base should raise the recurring share, but the product-versus-subscription split is not reported, so the mix shift is inferred rather than observed."
+      },
+      {
+        "title": "Enterprise AI storage",
+        "detail": "AI projects create demand for shared file and object storage, although the largest training clusters build custom storage outside Pure's reach."
+      },
+      {
+        "title": "Refresh timing",
+        "detail": "Storage is replaced on a three-to-five year rhythm, so a pause in enterprise infrastructure spending reaches revenue within a quarter."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 5.3%, the net margin is 5.9% and diluted EPS is $0.73. The latest quarter's operating margin was 5.3%.",
-      "Return on equity is 16.4%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q2 FY27: revenue of $1.2B, an operating margin of 5.3% and a net margin of 6.3%."
+      "Gross margin held at 69.7% on a trailing basis, close to the 70.4% reported for FY2026 and above the 68.2% of FY2021, so pricing in the product has been stable through the cycle. The operating margin is 5.3%, and the difference between the two lines is operating expense: sales, channel programmes and development absorb about 64 cents of every revenue dollar. Net margin is 5.9%, slightly above the operating margin, because $385.7M of net cash earns interest. EPS was $0.55 in FY2026 against $0.31 a year earlier.",
+      "The quarterly record shows how quickly the operating line moves. Operating margin was 8.2% in the February 2026 quarter, fell to 1.9% in May and recovered to 5.3% in August, on revenue that moved from $1.1B to $1.1B to $1.2B. That is not a pricing story; it is the cost base and the timing of shipments. Return on invested capital is 13.2% trailing against 6.8% for FY2026, a wide swing that reflects the small profit base rather than a change in the assets employed. The annual and quarterly series do not reconcile, which is why the gross line and the cash flow carry more weight than any single year's operating profit."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $128.2M, a 3.0% margin. The balance sheet carries $385.7M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $128.2M over the last twelve months and net debt was -$385.7M; interest cover was 213.9x."
+      "The trailing $128.2M of free cash flow is the sum of four very different quarters: $52.6M, $201.4M, $111.8M and -$237.6M. FY2026 was the strong year, with $880.1M of operating cash flow, $264.3M of capex and $615.7M of free cash flow, a 16.6% margin. The August quarter alone consumed almost twice the $128.2M that the trailing year generated, which is why the trailing margin is 3.0% rather than the mid-teens the annual record implies.",
+      "Net cash of $385.7M is still a comfortable position, about 1x EBITDA, and interest cover of 213.9x means financing costs are irrelevant to the income statement. The question is what the cash went into. Inventory and receivables ahead of a $1.2B quarter would explain the outflow and reverse; a permanent step-up in working capital per dollar of revenue would not. There is no payout, so the balance sheet is the only place the cash can accumulate."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 88.5x trailing earnings and 58.3x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "A third-party consensus target is not available in the dataset. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Eighty-eight times trailing earnings and 58.3x EBITDA compare with peer medians of 36.6x and 31.0x, and 5.2x sales is a software multiple applied to a hardware-led revenue base. The cash multiple is the starkest: 174.8x free cash flow, a 0.6% yield. Those figures are calculated on a trailing year distorted by one weak cash quarter, which is why the annual FY2026 margin of 16.6% is the more useful reference for what the business can generate at scale.",
+      "At the peer median 10.2% free-cash-flow margin, $4.3B of revenue would produce about $439M, or 51x the market value; reaching 30x would require roughly $747M, a 17.4% margin. The current share price therefore assumes Pure returns to its FY2026 cash conversion and then improves on it. The multiple can be defended on gross margin and recurring mix, but not on the 27.2% growth rate, which ranks in the sixth percentile of the peer group."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A group of analysts contribute to the third-party consensus. The mean target is n/a, with a range of n/a to n/a.",
-      "Current-year estimates call for n/a of revenue and n/a of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers an undisclosed number of analysts with a mean target of n/a; third-party estimates can change without notice."
+      "No Nasdaq analyst estimate set dated 18 November 2026 is published for Pure, so the usual revision and dispersion tests are unavailable. That absence matters more here than for the rest of the group, because the investment case turns on a cash-flow inflection that sell-side estimates would normally frame. The only guide in the record is the quarterly revenue path and the FY2026 cash conversion.",
+      "Without a published estimate, the implicit consensus has to be read from the multiple. At 174.8x trailing free cash flow the price requires either a return to the 16.6% FY2026 margin or revenue growth well above the 27.2% trailing rate. A covering analyst would need to underwrite both the working-capital reversal and the subscription mix to get there; neither is disclosed, which is why the estimate gap is wider than usual."
     ]
   },
   "risks": {
@@ -144,5 +155,7 @@ export const PSTG: StockStory = {
       "Why is free cash flow 0.7% of revenue when the reported net margin is 46.8%?",
       "How much of the growth comes from AI-related storage rather than the general replacement cycle?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

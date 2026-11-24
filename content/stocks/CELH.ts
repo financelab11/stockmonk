@@ -7,20 +7,20 @@ export const CELH: StockStory = {
   "dek": "A 154-person company with $3.17B of revenue, a 47.6% gross margin and a distribution network it does not own. Growth is fast, but the profit line is volatile and the balance sheet offers little cushion.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $3.2B trailing twelve months, +49.1% year over year.",
-    "Profitability: 13.0% operating margin and -8.0% net margin.",
-    "Cash: $269M free cash flow, a 8.5% margin.",
-    "Scorecard: 59/100 average percentile across the factor screens."
+    "September-quarter revenue of $847.2M carried a 20.3% operating margin, six quarters after a -11.0% quarter on $725.1M.",
+    "FY2025 revenue rose 85.5% while operating income fell to $141.1M from $266.4M, so the growth was bought with margin.",
+    "Free cash flow of $269.0M is 8.5% of revenue, and net cash of $25.9M is thin against a $3.2B revenue base.",
+    "At 23.1x earnings and 16.2x EBITDA, Celsius trades at half the peer earnings multiple despite the volatile margin."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1341766/000134176626000024/celh-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341766&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Celsius Holdings, Inc. generated $3.2B of revenue over the last twelve months, +49.1% versus the prior year. The model depends on unit growth, brand heat and whether new customers return.",
-      "The latest reported quarter was Q3 FY26, with $847.2M of revenue and an operating margin of 20.3%. The stock closed at $31.18 on 2026-11-17, giving a market capitalization of $7.8B.",
-      "The shares sit 21% of the way up their 52-week range ($23.56 to $59.31). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "A 20.3% operating margin in the September 2026 quarter followed a 3.6% one in December 2025 and a -11.0% one in September 2025. Revenue in the latest quarter was $847.2M. The swing is not a change in demand; it is the cost of defending cooler space, and it is the single most important feature of the equity. A beverage brand that cannot hold a margin through a growth year is a different business from one that can.",
+      "Celsius owns the formula and the brand but not the plants or the trucks. Co-packers fill the cans, distributors move them into stores, and the company pays for shelf space through trade promotion. North America is 96.3% of revenue, Europe 2.9% and Asia Pacific 0.5%, so the international option is real but small. The model is capital-light and distribution-dependent, which is why the margin is not fully under management. A recall or a distributor dispute would reach the brand without touching the assets that produce it.",
+      "The equity is valued at $7.3B, or 23.1x earnings, 16.2x EBITDA and 2.3x sales, with $25.9M of net cash and no dividend. The earnings multiple is half the 47.6x peer median and the EBITDA multiple is below the 21.5x median, a discount that reflects the margin volatility rather than the growth rate. The balance sheet offers little cushion if the volatility continues. The 52-week range of $24 to $59 shows how far the market has already moved on margin news."
     ],
-    "quote": "In beverages, the product is cheap to make and expensive to distribute. The brand that wins is the one that gets cold cans into the right cooler at the right time."
+    "quote": "Celsius owns the formula and the brand but not the trucks, the plants or the cooler space, and the margin reflects that bargain."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,46 @@ export const CELH: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 79.5% a year across the fiscal years in the dataset, and the latest quarter changed +16.8% year over year. Third-party estimates for the current fiscal year point to $3.2B of revenue and $1.44 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 13.0% and return on invested capital of 10.9% are the filters to watch as revenue scales."
+      "Distribution is the growth lever, and it is not owned. Revenue was $2.5B in FY2025, up 85.5%, and $3.2B trailing, up 49.1%. Consensus expects $3.2B in FY2026, up 26.8%, and $3.5B in FY2027, up 8.2%. The step down to single digits is the forecast's admission that the base has grown large and that further gains have to come from more cans per store rather than from more stores.",
+      "International is 3.4% of revenue across Europe and Asia Pacific, so the geographic option is early. New flavours and pack formats are the main way to lift revenue per cooler, and they carry the same distributor economics as the existing line. The risk is that growth is bought with promotion: a can that sells at a discount still occupies the same shelf, but it earns less. The reported gross margin of 47.6% is the check on that."
     ],
     "bullets": [
       {
-        "title": "Household penetration",
-        "detail": "More households buying the brand, usually through multipacks in grocery rather than singles in convenience."
+        "title": "Distributor alignment",
+        "detail": "Third-party distributors control the route to the cooler, and their priorities determine whether a new flavour gets space."
       },
       {
-        "title": "Cooler space",
-        "detail": "The physical battle in energy drinks. More cooler doors means more impulse purchases."
+        "title": "International",
+        "detail": "Europe and Asia Pacific are 3.4% of revenue, an early option that needs distributor partners rather than capital."
       },
       {
-        "title": "Flavour and format extension",
-        "detail": "New flavours and pack sizes keep existing customers engaged and give retailers a reason to reset the shelf."
+        "title": "Price and pack",
+        "detail": "More cans per store and new pack formats are the remaining growth levers now that the base is large."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 13.0%, the net margin is -8.0% and diluted EPS is $0.89. The latest quarter's operating margin was 20.3%.",
-      "Return on equity is -8.4%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $847.2M, an operating margin of 20.3% and a net margin of 15.0%."
+      "Celsius earned a 47.6% gross margin trailing and 50.4% in FY2025. Operating margin was 13.0% trailing, 5.6% in FY2025 and 20.2% in FY2023. Net margin was 10.0% trailing and 4.3% in FY2025. The decline from FY2023 is the cost of holding shelf space: revenue nearly doubled while operating income fell from $266.4M to $141.1M. The September 2026 quarter recovered to 20.3%, which shows the margin can return when promotional spending normalises.",
+      "Return on invested capital was 17.1% and return on equity 24.9%, the best in the consumer group. The peer median return on capital is 14.7%. That is a high return for a company with a thin balance sheet, and it is earned on very little capital because the plants belong to co-packers. The return is therefore a margin story rather than an asset story: when the operating margin falls, the return falls with it."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $269M, a 8.5% margin. The balance sheet carries $32.9M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $269M over the last twelve months and net debt was -$32.9M; interest cover was n/a."
+      "The cash statement of $323.4M in FY2025 came from $359.4M of operating cash flow against $36.1M of capex. The trailing figure is $269.0M, an 8.5% margin. The quarterly path is volatile because working capital moves with distributor inventory and promotion timing: -$130.0M in December 2025, $321.5M in September 2025 and $205.5M in June 2026. The annual figure is the better guide to the business.",
+      "Net cash was $25.9M trailing, and net debt was $278.1M at FY2025. Interest cover is 8.7x, which is adequate but not generous. The company pays no dividend. At 8.5% of revenue, free cash flow is large enough to fund working capital but not large enough to absorb a recall, a legal charge or a distributor dispute without external funding. That is the balance-sheet constraint."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and 17.2x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $41.71; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At 23.1x earnings and 16.2x EBITDA, Celsius trades at roughly half the 47.6x earnings multiple of the peer group and below the 21.5x EBITDA median. EV/Sales is 2.3x, in line with Dutch Bros and well below Cava at 4.4x. The discount is not a growth discount: trailing revenue grew 49.1%. It is a margin discount, and the market is right to apply it until the operating margin holds for more than a quarter.",
+      "On FY2026 EPS of $1.44, the shares at $29 are valued at 20.1x; on FY2027's $1.66, 17.5x. Those multiples assume the operating margin stays near the September level and revenue growth slows to 8.2%. What would justify a re-rating is two or three quarters of margin above 15% with volume growth intact. What would break the current multiple is another negative operating quarter, which would make the earnings base look unreliable again."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "21 analysts contribute to the third-party consensus. The mean target is $41.71, with a range of $29.00 to $64.00.",
-      "Current-year estimates call for $3.2B of revenue and $1.44 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 21 analysts with a mean target of $41.71; third-party estimates can change without notice."
+      "The mean target of $42 sits 45% above the $29 price, with a range of $29 to $64. The positive end dominates the published analyst views, with a substantial neutral block and no cautious estimates. The low target equals the current price, so the downside case in the published range is flat, not negative; the debate is entirely about how much upside the margin recovery justifies.",
+      "Revisions have been flat: -0.0% over seven days, +1.4% over 30 days and -0.0% over 60 and 90 days. The September quarter beat at $0.41 against $0.34, after a June miss at $0.36 against $0.42. The consensus FY2027 EPS of $1.66 assumes 15.3% growth on 8.2% revenue growth, which is a margin assumption rather than a volume one. That is the estimate to watch."
     ]
   },
   "risks": {
@@ -158,5 +155,7 @@ export const CELH: StockStory = {
       "What share of the route to market do third-party distributors control?",
       "Can operating margin return to the FY2023 level without losing shelf space?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

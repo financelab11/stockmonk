@@ -7,20 +7,20 @@ export const SMR: StockStory = {
   "dek": "Engineering revenue fell 95.7% to $2.7M. The cash pile buys about two years of runway, but a reactor design only becomes a business when someone orders a plant.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $2.7M trailing twelve months, -95.7% year over year.",
-    "Profitability: -9493.2% operating margin and -6817.0% net margin.",
-    "Cash: -$607.5M free cash flow, a -22262.2% margin.",
-    "Scorecard: 31/100 average percentile across the factor screens."
+    "Revenue fell 95.7% to $2.7M as the engineering programme that carried the business ended, leaving a -9,493.2% operating margin.",
+    "Free cash flow was -$607.5M, so the $933.4M net cash balance covers roughly eighteen months at the trailing rate.",
+    "The 77 MWe module and VOYGR plant designs are certified technology, but no customer has ordered a plant at commercial scale.",
+    "At 190.1x sales there is no earnings anchor; the first order, not the next quarter, is what would change the valuation."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1822966/000182296626000018/smr-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001822966&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "NuScale Power Corporation generated $2.7M of revenue over the last twelve months, -95.7% versus the prior year. The opportunity is large but early; permits, financing and construction execution determine who captures it.",
-      "The latest reported quarter was Q3 FY26, with $281K of revenue and an operating margin of -23067.6%. The stock closed at $4.09 on 2026-11-17, giving a market capitalization of $1.7B.",
-      "The shares sit 0% of the way up their 52-week range ($4.03 to $23.35). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "The engineering revenue that once carried NuScale has almost vanished. Trailing revenue is $2.7M, down 95.7%, after $31.5M in FY2025 and $37.0M in FY2024. The September quarter booked $281,000, following $75,000 in June and $565,000 in March. The collapse is not a demand signal; it is the end of a programme, and it leaves the cost base exposed. That is what a services business looks like when the service stops.",
+      "Its product is a 77 MWe pressurised water reactor, factory-built and assembled on site in groups of four to twelve, sold as VOYGR plants from 308 MWe to 924 MWe. The design is marketed for district heating, desalination, hydrogen and industrial heat as well as electricity, which widens the customer base beyond utilities. Fluor Enterprises is the parent, giving the company an engineering owner with construction experience. That is the sales case.",
+      "The $933.4M balance is the near-term story. Against a $1.5B market value, the enterprise is valued at about $0.6B, or 190.1x sales. The cash covers roughly eighteen months at the trailing burn, so the company has time to win an order but not unlimited time. The market value is a price on that order, and the cash is the amount of time the company has bought from its investors so far."
     ],
-    "quote": "For a reactor developer, revenue is a poor guide to progress. The order book, the cost of the first plant and the cash balance tell you far more than the top line."
+    "quote": "NuScale has a certified design and a shrinking revenue line; the cash balance is buying time for a customer to commit to a plant."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,50 @@ export const SMR: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 120.8% a year across the fiscal years in the dataset, and the latest quarter changed -96.6% year over year. Third-party estimates for the current fiscal year point to $2.5M of revenue and -$0.54 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -9493.2% and return on invested capital of -19.7% are the filters to watch as revenue scales."
+      "Order flow, not market growth, is the variable. A single VOYGR order would be worth more than the entire trailing revenue base, and it would change the company from a design shop to a project supplier. The reported figures disclose no order, so the consensus revenue estimate of $96.5M for FY2027 is an assumption about a first project rather than a forecast of demand.",
+      "The applications beyond electricity are the differentiation. District heating, desalination, hydrogen and industrial process heat can use the same module, and a customer that needs steam as well as power may value the design differently from a utility. That widens the addressable base, but each application has its own licensing and engineering work, so it does not reduce the cost of the first plant.",
+      "A $2.5M revenue estimate for FY2026, down 92.0%, gives way to $96.5M in FY2027, a 3,744.9% increase. The FY2027 number is not a growth rate in any normal sense; it is the revenue from a plant that has not been ordered. The estimate therefore embeds a commercial milestone, not a market share assumption. There is no market forecast between the two."
     ],
     "bullets": [
       {
-        "title": "A first order",
-        "detail": "The gap between $3.2M and $105.1M of expected revenue is a single customer decision. Until it happens, the design has no commercial proof."
+        "title": "First order",
+        "detail": "A single plant order would exceed the current revenue base and validate the factory-build model."
       },
       {
-        "title": "Repeat configurations",
-        "detail": "Standardising the twelve-module plant is what would let manufacturing cost fall. Bespoke site designs keep the first-unit cost in every order."
+        "title": "Design certification",
+        "detail": "Certification is necessary but not sufficient; each site still needs its own licence and safety case."
       },
       {
-        "title": "Non-power applications",
-        "detail": "District heating, desalination and process heat broaden the buyer list beyond utilities, but each use needs its own regulatory and commercial case."
+        "title": "Industrial heat",
+        "detail": "District heating, desalination and process heat widen the buyer list beyond utilities, but each adds engineering work."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -9493.2%, the net margin is -6817.0% and diluted EPS is -$1.18. The latest quarter's operating margin was -23067.6%.",
-      "Return on equity is -9.4%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $281K, an operating margin of -23067.6% and a net margin of -15534.9%."
+      "NuScale's gross margin was -2.2% trailing, which means the engineering work was delivered at a loss before overhead. That is consistent with a services business whose fixed design and licensing costs are spread over too few contracts. The operating margin of -9,493.2% is the same problem in percentage form: $2.7M of revenue against a cost base built for a much larger programme. That is the cost of a design without a plant.",
+      "Operating costs did not fall with revenue. FY2025 operating loss was $689.6M on $31.5M of revenue, and the trailing loss is larger relative to a smaller top line. Return on invested capital of -10.1% and return on equity of -9.2% are modest only because the capital base includes the cash raised; the operating business is consuming it. That is the cost of a licensed design.",
+      "Comparisons with peers are about stage, not quality. Oklo has a -8,223.8% operating margin on $3.1M of revenue, Centrus an 11.2% margin on $448.7M. NuScale sits between them in revenue and closer to Oklo in profitability. Neither comparison says anything about the design's cost once a plant is built, and that is the missing number for all three at this stage."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$607.5M, a -22262.2% margin. The balance sheet carries $933.4M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$607.5M over the last twelve months and net debt was -$933.4M; interest cover was n/a."
+      "The $933.4M cash balance is the most important number in the accounts. Against trailing free cash flow of -$607.5M, it covers roughly eighteen months, and the burn has been uneven: -$316.2M in the March 2026 quarter, -$58.6M in June and -$28.7M in September. The March outflow was a one-off outlier; the later quarters are closer to the underlying run rate.",
+      "FY2025 free cash flow was -$460.1M, with capex of only $508,000, so the outflow is operating expense and working capital rather than plant. That is the nature of a design and licensing business: the spending is people and regulatory work, and it does not create a saleable asset until a plant is ordered. The cash balance is financing the option, and that is a different cash profile from a manufacturer.",
+      "There is no dividend, buyback or debt to discuss. The only capital allocation decision is how long to fund the design and licensing programme before an order arrives. At the trailing rate the answer is about eighteen months; at the FY2025 rate it is closer to two years. Either way, a repeat of the March 2026 outflow would shorten the runway sharply."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $8.59; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "The $1.5B market value against $2.7M of revenue produces a 190.1x sales multiple that cannot be compared with an operating company. After $933.4M of net cash, the enterprise is valued at about $0.6B, which is the amount the market is paying for the design, the licence and the option on a first order. That is a more useful number than the sales multiple.",
+      "The price assumes a first plant ordered, financed and built at a cost that supports a competitive power price. The FY2027 revenue estimate of $96.5M implies that order arrives next year, which is a commercial assumption rather than an extrapolation. The 77 MWe module and the VOYGR configurations are the assets behind the price; the missing piece is a customer.",
+      "A further year of near-zero revenue or a licensing delay that consumes cash without an order would break it. A signed plant contract with a site, a customer and a construction budget would justify it. The 52-week range of $3 to $23 shows the market has already priced a wide range of outcomes for that contract. The range is wide because the outcome is binary."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "16 analysts contribute to the third-party consensus. The mean target is $8.59, with a range of $3.50 to $19.00.",
-      "Current-year estimates call for $2.5M of revenue and -$0.54 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 16 analysts with a mean target of $8.59; third-party estimates can change without notice."
+      "A $9 mean target against a $4 share price, with a range of $4 to $19, is the shape of the coverage according to Yahoo Finance as of 18 November 2026. Sixteen analysts contribute. The neutral block is the largest, which fits a company whose value depends on an event rather than on an earnings trajectory.",
+      "At $2.5M, the FY2026 revenue estimate is down 92.0%, while FY2027 is set at $96.5M with a loss of $0.71 per share on eleven analysts. The EPS estimate has been raised 11.7% over 90 days, which on a loss estimate means the expected deficit has narrowed. The consensus therefore assumes a first order in FY2027; without it, the revenue estimate has no foundation."
     ]
   },
   "risks": {
@@ -158,5 +159,7 @@ export const SMR: StockStory = {
       "At the FY2025 burn rate, how many years does the net cash cover?",
       "What does a module cost to manufacture at a steady order rate?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

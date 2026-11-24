@@ -7,20 +7,20 @@ export const AEIS: StockStory = {
   "dek": "An etch or deposition tool needs a power supply that can hold a plasma steady to within a fraction of a percent. Advanced Energy sells those supplies, and the revenue is at a record while free cash flow is 3.1% of it.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $2.3B trailing twelve months, +31.7% year over year.",
-    "Profitability: 16.0% operating margin and 12.7% net margin.",
-    "Cash: $69.9M free cash flow, a 3.1% margin.",
-    "Scorecard: 63/100 average percentile across the factor screens."
+    "September quarter revenue was $696.4M at a 20.6% operating margin, the fifth consecutive quarterly increase, from 7.2% in mid-2025.",
+    "Trailing revenue of $2.3B grew 31.7%, but free cash flow of $69.9M is only a 3.1% margin against a 12.7% net margin.",
+    "At 19.8x EBITDA the shares trade at 59% of the 33.8x peer median, a discount exceeded only by Amkor.",
+    "The 123.8x free-cash-flow multiple and the 3.1% cash margin are the counterweight to that discount."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/927003/000110465926014731/aeis-20251231x10k.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000927003&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "ADVANCED ENERGY INDUSTRIES INC. generated $2.3B of revenue over the last twelve months, +31.7% versus the prior year. The cycle is driven by inventory, utilisation and the next node or packaging transition.",
-      "The latest reported quarter was Q3 FY26, with $696.4M of revenue and an operating margin of 20.6%. The stock closed at $210.80 on 2026-11-17, giving a market capitalization of $8.5B.",
-      "The shares sit 15% of the way up their 52-week range ($178.37 to $397.44). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Power supplies for chip tools produced record revenue of $696.4M in the September 2026 quarter, a 20.6% operating margin and $2.79 of EPS. Five quarters of margin expansion took the operating margin from 7.2% to 20.6% on revenue that rose by 58%, and trailing revenue is $2.3B, up 31.7%. The income statement has recovered faster than the cash flow statement, and that divergence is the analytical question. Because it sells into tool builders, the result is a cycle statement as much as a company statement.",
+      "Advanced Energy sells radio-frequency generators, direct-current and pulsed supplies, measurement modules and thermal products to the companies that build etch and deposition tools. Revenue arrives when the tool builder produces tools, so it tracks the order book with a short lag. The non-semiconductor business, power for data centres, medical devices, telecom and industrial machinery, uses the same engineering for slower, steadier customers and is the reason revenue did not fall as far as a pure semiconductor supplier's in the last downturn.",
+      "At 30.0x earnings and 19.8x EBITDA the shares trade at less than half the 71.5x peer earnings multiple and at 59% of the 33.8x EBITDA median, yet the free-cash-flow multiple is 123.8x and the yield is 0.8%. Those two observations cannot both be normal. Either the working capital that absorbed the profit reverses and the earnings multiple is the right one, or cash conversion stays weak and the discount is justified. The 52-week range of $178 to $397 shows how far the market has already travelled on that question."
     ],
-    "quote": "A power supply is a small part of a $10M tool and the reason the process works at all. That combination keeps the customer loyal and the revenue cyclical."
+    "quote": "Advanced Energy's power supplies are a small part of a tool's cost and a large part of its uptime; the 20.6% operating margin shows the operating leverage in that position."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -47,54 +47,51 @@ export const AEIS: StockStory = {
     "paragraphs": [
       "Gross margin of 40.3% is lower than a chip designer's and higher than a contract manufacturer's, which is the right place for a company that builds complex hardware to a specification. Operating margin of 16.0% leaves a substantial expense base for engineering, field service and the applications work needed to qualify a supply into a new tool.",
       "The operating leverage is the whole story of the income statement. Revenue went from $1.85B in FY2022 to $1.48B in FY2024, and operating income fell from $233.1M to $36.6M over the same period. Then revenue recovered to $1.80B in FY2025 and operating income to $168.0M. A business with a 40.3% gross margin and a fixed engineering base will always look like that: the profit is decided by volume, not by price.",
-      "The quarterly path makes the mechanism visible. Operating margin went from 7.2% in Q2 FY25 to 10.6%, 11.6%, 13.4%, 16.6% and 20.6% as revenue rose from $441.5M to $696.4M. Each additional dollar of revenue carried a large share of gross profit straight to the operating line, which is what a recovery looks like in a business with heavy fixed costs."
+      "The quarterly path makes the mechanism visible. Operating margin went from 7.2% in Q2 FY2025 to 10.6%, 11.6%, 13.4% and 16.6%, reaching 20.6% in Q3 FY2026 as revenue rose from $441.5M to $696.4M. Each additional dollar of revenue carried a large share of gross profit straight to the operating line, which is what a recovery looks like in a business with heavy fixed costs."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 14.7% a year across the fiscal years in the dataset, and the latest quarter changed +50.3% year over year. Third-party estimates for the current fiscal year point to $2.5B of revenue and $12.42 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 16.0% and return on invested capital of 157.6% are the filters to watch as revenue scales."
+      "Tool builders order power supplies when they build tools, so the demand driver is the etch and deposition order book rather than chip demand itself. Revenue went from $1.48B in FY2024 to $1.80B in FY2025 and $2.3B trailing, with the September quarter 50.3% above the year-earlier $463.3M. The estimate path adds another leg: $2.5B for the current year, up 40.2%, and $3.3B next, up 31.1%.",
+      "The non-semiconductor half is the ballast. Data-centre power, medical equipment and industrial machinery grow more slowly but do not swing with fab construction, and they use the same design capability. The risk is that the current estimate assumes both halves grow at once; the December quarter is forecast at $740.3M, 51.3% above the year-earlier figure, which is a tool-cycle number, not an industrial one."
     ],
     "bullets": [
       {
-        "title": "Tool builder build rates",
-        "detail": "Revenue follows the number of tools shipped, not the number of chips produced."
+        "title": "Etch and deposition intensity",
+        "detail": "Each new chamber needs RF and DC power, so tool build rates translate directly into revenue."
       },
       {
-        "title": "Power content per tool",
-        "detail": "Higher-energy processes and tighter tolerances increase the value of the power system in each tool."
+        "title": "Industrial diversification",
+        "detail": "Data-centre, medical and industrial power use the same engineering and soften the semiconductor cycle."
       },
       {
-        "title": "Data-centre and industrial power",
-        "detail": "A slower-growing but less cyclical base that uses the same engineering capability."
+        "title": "Platform qualification",
+        "detail": "A supply qualified on a tool platform ships for the platform's life, which makes design wins durable but slow to replace."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 16.0%, the net margin is 12.7% and diluted EPS is $6.97. The latest quarter's operating margin was 20.6%.",
-      "Return on equity is 18.0%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $696.4M, an operating margin of 20.6% and a net margin of 16.6%."
+      "Fixed engineering cost turned the recovery into margin. Gross margin is 40.3% and operating margin 16.0%, but the quarterly path is the story: 7.2%, 10.6%, 11.6%, 13.4%, 16.6% and 20.6% as revenue climbed from $441.5M to $696.4M. In FY2024, revenue of $1.48B produced a 2.5% operating margin; the same business at $1.80B in FY2025 produced 9.3%. Volume, not price, decides the profit. That is the shape of a business with a fixed engineering base and a variable revenue line.",
+      "The net line follows the operating line closely, with a 12.7% net margin against 16.0% operating, and EPS reached $2.79 in the September quarter. Return on equity is 18.2% against a 10.7% return on invested capital, a gap that reflects the capital structure rather than a difference in operating returns. Against the peer median ROIC of 8.3%, the business earns a modest premium."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $69.9M, a 3.1% margin. The balance sheet carries $1.4B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $69.9M over the last twelve months and net debt was -$1.4B; interest cover was n/a."
+      "Working capital, not profitability, explains the cash line. Trailing free cash flow is $69.9M, a 3.1% margin, against a 12.7% net margin. FY2025 produced $233.3M of operating cash flow and $107.4M of capex, a 6.0% capital intensity, leaving $125.9M. The March 2026 quarter consumed $42.6M, and the September quarter generated only $34.0M on $696.4M of revenue, so inventory and receivables are absorbing the upcycle.",
+      "Net cash of $158.7M is 1.8% of the market value and 0.4x EBITDA, and interest cover of 25.0x leaves room for the cycle to turn. The dividend absorbs 0.2% of the share price, a token amount. The capital allocation question is whether the working-capital build is a leading indicator of demand, in which case it reverses as the tools ship, or a permanent increase in the cash tied up in the business."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 29.5x trailing earnings and 16.6x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $388.17; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "The 19.8x EV/EBITDA multiple is the second-lowest in the peer group, where the median is 33.8x, and 30.0x earnings compares with 71.5x. On the current-year EPS of $12.42 the multiple is 17.2x, and on next year's $17.93 it is 11.9x. A reader has to ask why a business growing 31.7% with a 16.0% operating margin is priced at half the peer multiple. The discount is not a sector classification: Amkor, the only cheaper name, earns a 16.6% gross margin and a 9.5% operating margin.",
+      "The answer is in the cash conversion. At the peer median 20.0% free-cash-flow margin, $2.3B of revenue would produce about $460M, or 19x the market value; the trailing figure is $69.9M, or 124x. The market is not disputing the earnings, it is disputing whether they become cash. If the working-capital build reverses, both multiples would look low; if it persists, the discount is the correct price for a capital-consuming cycle."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "12 analysts contribute to the third-party consensus. The mean target is $388.17, with a range of $275.00 to $535.00.",
-      "Current-year estimates call for $2.5B of revenue and $12.42 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 12 analysts with a mean target of $388.17; third-party estimates can change without notice."
+      "Twelve estimates in the 18 November 2026 Yahoo Finance survey put the mean target at $388 against a $214 price, with a range of $275 to $535. EPS estimates rose 10.4% over thirty, sixty and ninety days, and the last four quarters beat by between 6% and 24%, with the September quarter 20% above the estimate.",
+      "The consensus assumes the tool cycle holds through the December quarter at $740.3M and that the operating margin stays above 20%. Current-year EPS of $12.42 is more than triple the $3.84 reported for FY2025, so the estimate is not a modest extrapolation. The $275 low target still implies a 29% gain, which suggests the debate is about the size of the cycle, not its direction."
     ]
   },
   "risks": {
@@ -164,5 +161,7 @@ export const AEIS: StockStory = {
       "Is a 20.6% operating margin sustainable at the current revenue level?",
       "What did the invested capital base look like before the return on capital reached 157.6%?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

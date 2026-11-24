@@ -7,20 +7,20 @@ export const BA: StockStory = {
   "dek": "One strong December quarter carries the trailing numbers, and free cash flow was $16M. The business turns on delivery rates and on what the next cost estimate does to a programme.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $94.9B trailing twelve months, +17.5% year over year.",
-    "Profitability: 10.3% operating margin and 8.1% net margin.",
-    "Cash: $16M free cash flow, a 0.0% margin.",
-    "Scorecard: 48/100 average percentile across the factor screens."
+    "Q3 FY26 revenue was $24.2B at a 1.5% operating margin, with a loss of $0.26 per share and $464M of free cash flow.",
+    "Trailing revenue is $94.9B, up 17.5%, but the trailing profit depends on the December 2025 quarter's 36.7% operating margin.",
+    "Trailing free cash flow is $16.0M, effectively zero, and net debt is $29.5B at 2.5x EBITDA.",
+    "The 16.8x trailing earnings multiple is an artefact of one quarter; on FY2027 consensus EPS the shares cost about 74x."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000012927&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "BOEING CO. generated $94.9B of revenue over the last twelve months, +17.5% versus the prior year. Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
-      "The latest reported quarter was Q3 FY26, with $24.2B of revenue and an operating margin of 1.5%. The stock closed at $163.91 on 2026-11-17, giving a market capitalization of $129.9B.",
-      "The shares sit 1% of the way up their 52-week range ($163.30 to $254.35). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Boeing's September quarter produced $24.2B of revenue, a 1.5% operating margin and a loss of $0.26 per share, with $464M of free cash flow. Trailing revenue is $94.9B, up 17.5%, and the trailing net margin is 8.1%. The result matters because the trailing figures are not representative: they include a December 2025 quarter with a 36.7% operating margin and $10.73 of EPS, and the three quarters since have all been loss-making at the net line.",
+      "Commercial Airplanes is 46.4% of revenue, Defence, Space & Security 30.4% and Global Services 23.4%. Commercial aircraft are accounted for on a programme basis: the company estimates the cost of the whole accounting block and recognises a margin as each aircraft is delivered. A higher cost estimate lands in the quarter it changes, which is why a programme with a cost problem can report a loss on aircraft delivered on time and at the agreed price. Defence fixed-price development work carries the same risk in a different form.",
+      "The balance sheet carries $29.5B of net debt at 2.5x EBITDA and 4.0x interest cover, and there is no dividend. At 16.8x trailing earnings the shares look cheap, but the earnings are an artefact of the December quarter. On EBITDA, Boeing's 13.2x is close to Lockheed's 13.3x, and a 1.7x sales multiple is low for a duopoly with $94.9B of revenue. The debate is about deliveries, not about the multiple."
     ],
-    "quote": "An aircraft programme is accounted for as a block of future deliveries. Change the assumed cost of the remaining units and the profit on every aircraft already delivered changes with it."
+    "quote": "Boeing's 16.8x earnings multiple is arithmetic from one December quarter, not a valuation of the business."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,48 @@ export const BA: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 2.6% a year across the fiscal years in the dataset, and the latest quarter changed +3.9% year over year. Third-party estimates for the current fiscal year point to $96.8B of revenue and -$2.03 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 10.3% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Revenue fell 14.5% in FY2024 to $66.5B, rose 34.5% in FY2025 to $89.5B and is $94.9B trailing, up 17.5%. The quarterly path through 2026 was $22.2B in March, $24.6B in June and $24.2B in September, all above the comparable quarters a year earlier. Consensus expects $96.8B for FY2026, up 8.2%, and $109.4B for FY2027, up 13.0%. The growth is deliveries, and deliveries are a production-rate question.",
+      "Consensus EPS is -$2.03 for FY2026 and $2.18 for FY2027. The swing is not a revenue story: it is the margin on the accounting blocks and the absence of new charges. Global Services, at 23.4% of revenue, is the part that grows with the installed fleet and carries better margins. The commercial and defence businesses have to deliver without a charge for the group to earn the 2027 estimate. That is a binary assumption, not a gradual one."
+    ],
+    "bullets": [
+      {
+        "title": "Deliveries",
+        "detail": "Revenue and cash arrive with the delivery, not the order. A supplier shortfall or a production-rate limit pushes both to the right."
+      },
+      {
+        "title": "Programme estimates",
+        "detail": "A higher cost estimate on the accounting block lands in the quarter it changes. One programme can erase a year of profit."
+      },
+      {
+        "title": "Services",
+        "detail": "Global Services grows with the installed fleet and needs less working capital. It is the most predictable part of the group."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 10.3%, the net margin is 8.1% and diluted EPS is $9.69. The latest quarter's operating margin was 1.5%.",
-      "Return on equity is -47.9%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $24.2B, an operating margin of 1.5% and a net margin of -0.5%."
+      "Gross margin came in at -3.0% in FY2024, 4.8% in FY2025 and 9.4% trailing; operating margin went from -16.1% to 4.8% to 10.3% trailing, and then to 1.5% in the September quarter. Net margin is 8.1% trailing, but the quarterly net margins were -0.0%, -1.8% and -0.5% in 2026. Diluted EPS was $2.48 in FY2025 against -$18.36 in FY2024. The annual figures are dominated by the December quarter's adjustments.",
+      "The December 2025 quarter reported a 36.7% operating margin and $10.73 of EPS, which is the source of the trailing profit. The first three quarters of 2026 reported operating margins of 2.0%, 0.6% and 1.5% and net losses. That is not a business earning a 10.3% margin; it is a business whose annual result depends on one quarter's programme adjustments. The trailing return on invested capital of 16.8% should be read the same way.",
+      "Return on equity is 116.9% because the equity base is thin after years of losses, so it says nothing about profitability. Return on invested capital was 6.1% in FY2025 and -18.6% in FY2024. Against GE Aerospace's 24.7% and Lockheed's 25.9%, Boeing's returns are not in the same league. The recovery has to come from deliveries and from the absence of charges, not from a higher multiple on the current earnings."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $16M, a 0.0% margin. The balance sheet carries $29.4B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $16M over the last twelve months and net debt was -$29.4B; interest cover was n/a."
+      "Free cash flow after capex was $16.0M trailing, which is effectively zero on $94.9B of revenue. The history is worse: -$1.9B in FY2025, -$14.3B in FY2024, $4.4B in FY2023 and $2.3B in FY2022. Operating cash flow was $1.1B in FY2025 against capex of $2.9B. The cash cycle explains the volatility: Boeing spends on parts and labour long before delivery, and customers pay progress payments and then the balance on handover.",
+      "Net debt of $29.5B at 2.5x EBITDA and interest cover of 4.0x leave less room than the order book suggests. Inventory is the largest working-capital item, and it rises when deliveries slip. A delayed ramp would consume cash at the same time as debt service falls due. The 0.0% dividend preserves cash, but the balance sheet is the reason the delivery rate matters more than the order book."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 17.0x trailing earnings and 8.4x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $233.35; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Boeing's {{marketCap}} equity value at {{price}} equates to {{pe}} trailing earnings, {{evEbitda}} EV/EBITDA and 1.7x sales. The earnings multiple is not meaningful: trailing EPS is inflated by the December 2025 quarter, and consensus expects a loss of $2.03 in FY2026. The 1.7x sales multiple is low for a business of this scale, and the 13.2x EBITDA multiple is close to Lockheed's 13.3x. The sales discount reflects margins near zero.",
+      "The forward numbers are the real test. FY2027 consensus EPS of $2.18 puts the shares on about 74x, which is not a cheap multiple for a company that has not yet demonstrated a sustainable profit. The market is valuing the delivery ramp and the services annuity, not the 2026 loss. If deliveries rise and charges stop, the 2027 estimate is achievable and the multiple falls quickly. If not, the 74x is the number that matters.",
+      "The 52-week range of $156 to $254 and a one-year return of -9.3% show that the shares have already de-rated. The analyst range of $157 to $305 captures the two outcomes: a delivery-led recovery or another year of charges. The EV/Sales multiple of 1.7x is the only anchor that does not depend on the accounting, and it is cheap for a duopoly participant with a $94.9B revenue base."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "26 analysts contribute to the third-party consensus. The mean target is $233.35, with a range of $157.00 to $305.00.",
-      "Current-year estimates call for $96.8B of revenue and -$2.03 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 26 analysts with a mean target of $233.35; third-party estimates can change without notice."
+      "Yahoo Finance, in its 18 November 2026 update, has 26 analysts covering Boeing with a mean target of $233; the range runs from $157 to $305. Most of the coverage is positive, a handful are neutral and none is cautious. The mean is about 44% above the current price, which makes this a recovery call rather than a valuation call.",
+      "Revisions have been extraordinary: EPS up 85.4% over 30 days, 88.7% over 60 and 89.2% over 90. That is what happens when a loss estimate is cut toward zero rather than when a profit estimate rises. The September quarter missed at -$0.34 against -$0.20, so the recent record is still weak. Consensus FY2026 EPS of -$2.03 and FY2027 of $2.18 assume the charges stop; the dispersion from $157 to $305 shows how uncertain that is."
     ]
   },
   "risks": {
@@ -141,8 +154,10 @@ export const BA: StockStory = {
     "questions": [
       "How many aircraft were delivered in the last quarter, and at what production rate?",
       "Which programmes still carry reach-forward losses that have not been provided for?",
-      "Is the $29.40B net cash position durable, or does it reflect a timing effect in the debt schedule?",
+      "Is the $29.46B net debt position durable, or does it reflect a timing effect in the debt schedule?",
       "How much of the services revenue is tied to the installed fleet rather than to new deliveries?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

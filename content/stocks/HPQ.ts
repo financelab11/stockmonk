@@ -7,20 +7,20 @@ export const HPQ: StockStory = {
   "dek": "A 19.9% gross margin and a 5.4% operating margin leave little room for error. The 14.9% free-cash-flow yield is the market's way of pricing a business it expects to shrink.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $59.2B trailing twelve months, +8.1% year over year.",
-    "Profitability: 5.4% operating margin and 4.1% net margin.",
-    "Cash: $3.9B free cash flow, a 6.6% margin.",
-    "Scorecard: 46/100 average percentile across the factor screens."
+    "Trailing revenue is $59.2B, up 8.1%, but the 19.9% gross margin leaves only 5.4% at the operating line.",
+    "Printing is 30.2% of revenue and carries the profit; Personal Systems is 69.7% and carries the scale.",
+    "Free cash flow of $3.9B is a 6.6% margin, and the 4.3% dividend yield depends on it continuing.",
+    "At 10.6x earnings and 6.7x free cash flow, the shares discount a slow decline, not a recovery."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/47217/000004721725000071/hpq-20251031.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000047217&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "HP INC. generated $59.2B of revenue over the last twelve months, +8.1% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
-      "The latest reported quarter was Q3 FY26, with $15.7B of revenue and an operating margin of 5.7%. The stock closed at $28.71 on 2026-11-17, giving a market capitalization of $25.9B.",
-      "The shares sit 60% of the way up their 52-week range ($17.56 to $36.23). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "HP's profit comes from supplies, not from computers. Printing is 30.2% of revenue but carries the margin, while Personal Systems is 69.7% of revenue and carries the scale. The July 2026 quarter produced $15.7B of revenue at a 5.7% operating margin and $0.71 of EPS, after a 4.2% margin in the April quarter. The swing is large in relative terms because the operating margin is only 5.4% on a trailing basis.",
+      "The PC business is a replacement market. Customers are consumers, small businesses, large enterprises, schools and governments, and the decision is driven by price, manageability and supply reliability. The printing business sells hardware and then supplies, and the supplies are locked to a cartridge format. That lock-in is why a 19.9% blended gross margin can still produce a 5.4% operating margin and a 6.6% free-cash-flow margin. The printer is the razor; the cartridge is the recurring revenue.",
+      "At $29 the shares trade at 10.6x earnings, 7.8x EV/EBITDA, 0.5x sales and 6.7x free cash flow, with a 14.9% free-cash-flow yield and a 4.3% dividend yield. The peer group trades on 32.0x earnings and 25.5x EV/EBITDA, and HP is in the 3rd percentile on both. Net debt is $6.3B, or 1.5x EBITDA, and book equity is negative. The valuation is not a forecast of recovery; it is a forecast of managed decline."
     ],
-    "quote": "The printer is the customer acquisition cost. The cartridge is the annuity. Everything about HP's margins follows from that."
+    "quote": "The cartridge, not the computer, is where HP makes its profit, and the 14.9% free-cash-flow yield prices a slow run-off."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -38,35 +38,50 @@ export const HPQ: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -0.5% a year across the fiscal years in the dataset, and the latest quarter changed +12.5% year over year. Third-party estimates for the current fiscal year point to $59.7B of revenue and $3.24 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 5.4% and return on invested capital of 43.7% are the filters to watch as revenue scales."
+      "Revenue was $63.5B in FY2021, $62.9B in FY2022, $53.7B in FY2023, $53.6B in FY2024 and $55.3B in FY2025, and the trailing figure is $59.2B, up 8.1%. The pattern is a PC correction followed by a partial recovery, not a growth trend. Consensus expects $59.7B in FY2026, up 8.0%, and $60.1B in FY2027, up 0.6%. The forecast is for a return to flat, not for a new cycle.",
+      "The mix is the whole story. Personal Systems is 69.7% of revenue and Printing 30.2%, and the two have different economics: PCs are a commodity with a thin gross margin, while supplies are a high-margin annuity tied to the installed base and page volumes. The segment disclosure does not split supplies revenue from printer hardware, so the rate of erosion in the profit pool cannot be observed directly.",
+      "The growth question is really a mix question. A percentage point of revenue lost in Printing costs more profit than a point lost in Personal Systems, so a flat total can still mean a lower profit. The consensus of 0.6% revenue growth in FY2027 is consistent with that: it assumes the PC business holds while supplies continue to drift. That is why the revenue forecast is less important than the segment mix behind it."
+    ],
+    "bullets": [
+      {
+        "title": "Supplies annuity",
+        "detail": "Ink, toner and paper carry the margin. Revenue depends on the installed base and on page volumes, both of which drift with printing behaviour."
+      },
+      {
+        "title": "PC replacement",
+        "detail": "Personal Systems is 69.7% of revenue. Corporate refresh cycles are deferrable, which makes the revenue line cyclical."
+      },
+      {
+        "title": "Cost discipline",
+        "detail": "At a 5.4% operating margin, small changes in operating expense move earnings more than changes in gross margin."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 5.4%, the net margin is 4.1% and diluted EPS is $2.61. The latest quarter's operating margin was 5.7%.",
-      "Return on equity is -1702.1%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $15.7B, an operating margin of 5.7% and a net margin of 4.2%."
+      "Gross margin reached 19.9%, operating margin 5.4% and net margin 4.1%. The gross margin was 22.1% in FY2024 and 20.6% in FY2025, so the direction is down. The quarterly operating margin went from 5.3% in January 2026 to 4.2% in April and 5.7% in July, a range that matters because a 1.5-point move is more than a quarter of the annual operating margin.",
+      "Return on invested capital was 27.3%, above the 18.8% peer median. Book equity is negative after years of buybacks, so the negative 2664.1% return on equity is meaningless. The ROIC is high because invested capital is small, not because the business earns a high margin. That distinction matters when judging whether the 5.4% operating margin is a floor at this stage of the cycle.",
+      "Apple is the relevant peer, not because it sells the same products but because it shows what a hardware franchise can earn. Apple, on 38.4x earnings and a 33.0% operating margin, grew 15.1%; HP is on 10.6x with a 5.4% margin and 8.1% growth. The gap is the difference between a brand with pricing power and a commodity assembler. HP's 19.9% gross margin is the number that explains the multiple."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.9B, a 6.6% margin. Net debt is $6B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $3.9B over the last twelve months and net debt was $6B; interest cover was n/a."
+      "FCF was $3.9B, a 6.6% margin, and FY2025 operating cash flow of $3.7B came against $897.0M of capex. That spend is small against $55.3B of revenue because manufacturing is outsourced. Net debt is $6.3B, or 1.5x EBITDA, and interest cover is 8.2x. The cash generation is real, but it is small relative to revenue. That is the arithmetic of a business that outsources its factories and competes on brand and supply chain.",
+      "The quarterly pattern is volatile: $150.0M in the January 2026 quarter, $756.0M in April and $1.5B in July. That is working capital and seasonality, not a change in the business. The 4.3% dividend yield is the main capital return, and the $3.9B of free cash flow covers it more than three times. The buyback competes with the dividend for the same cash.",
+      "Capital allocation is the investment case. A 14.9% free-cash-flow yield with a covered dividend is attractive if the decline is slow. The risk is that supplies revenue falls faster than the cost base can be cut, which would compress the dividend coverage from both sides. The 1.5x leverage is not distressed, but it limits the room to borrow through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 10.6x trailing earnings and 7.7x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $27.55; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $29 HP trades at 10.6x earnings, 7.8x EV/EBITDA, 0.5x sales and 6.7x free cash flow, with a 14.9% free-cash-flow yield. Against 32.0x earnings and 25.5x EV/EBITDA for the peer group, the discount is extreme. That is not a normal discount; it is the market assigning a terminal value to a business it expects to shrink. The 4.3% dividend yield is the return investors are being paid to wait.",
+      "Forward numbers are stable rather than cheap. FY2026 EPS of $3.24 implies 9.0x, and FY2027 EPS of $3.15 implies 9.2x. The multiple does not assume growth; it assumes the cash flow persists. The consensus expects EPS to fall 2.7% in FY2027 on revenue growth of 0.6%, which is a modest decline rather than a collapse. At 6.7x free cash flow, a modest decline is already priced.",
+      "What would break the case is a faster rate of supplies erosion. A 10% annual decline in the profit pool would overwhelm a 14.9% free-cash-flow yield within a few years, because the yield is a static measure and the decline compounds. What would justify it is evidence that page volumes are stabilising and that the PC business is holding share. Neither is visible in the reported numbers."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "17 analysts contribute to the third-party consensus. The mean target is $27.55, with a range of $20.00 to $33.40.",
-      "Current-year estimates call for $59.7B of revenue and $3.24 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 17 analysts with a mean target of $27.55; third-party estimates can change without notice."
+      "Seventeen analysts make up the 18 November 2026 Yahoo Finance consensus. Their targets span $20 to $33 and average $28. The mean is below the $29 price, which is the clearest signal in the consensus.",
+      "FY2026 estimates are $59.7B of revenue and $3.24 of EPS; FY2027 is $60.1B and $3.15. EPS revisions are plus 7.3% over 90 days but negative 0.2% over 30 days, so the improvement is stale. The consensus assumes the October quarter produces $15.3B and $0.74 of EPS, down 20.3% year over year, which is a sharp decline for a company with flat revenue."
     ]
   },
   "risks": {
@@ -130,5 +145,7 @@ export const HPQ: StockStory = {
       "Can free cash flow cover the dividend if operating income falls 20%?",
       "What would a 5% annual revenue decline do to a 6.7x cash-flow multiple?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

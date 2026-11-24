@@ -7,20 +7,20 @@ export const KNSL: StockStory = {
   "dek": "The latest quarter shrank 8.6% and the third-party consensus expects flat revenue for two years. A 33.7% operating margin against a 5.1% net margin explains why the earnings multiple is not what it appears.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $2B trailing twelve months, +8.3% year over year.",
-    "Profitability: 33.7% operating margin and 5.1% net margin.",
-    "Cash: $973M free cash flow, a 49.8% margin.",
-    "Scorecard: 47/100 average percentile across the factor screens."
+    "Premium growth slowed to 8.3% trailing and the estimate for 2027 is a 0.5% decline, the clearest sign the excess and surplus cycle has turned.",
+    "A 33.7% operating margin and 27.4% return on equity remain exceptional, but the 9.2x price to free cash flow reflects float rather than distributable earnings.",
+    "At 17.0x earnings the insurer trades well below the 27.3x specialty-financial median, a discount that reflects a growth premium now gone.",
+    "Nine analysts carry a $355 mean, below the $396 price, with a $285 low: the published views lean cautious after a quarter of increases."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1669162/000166916226000015/knsl-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001669162&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Kinsale Capital Group, Inc. generated $2B of revenue over the last twelve months, +8.3% versus the prior year. Underwriting discipline and reserve adequacy matter more than premium growth.",
-      "The latest reported quarter was Q3 FY26, with $454.8M of revenue and an operating margin of 27.2%. The stock closed at $394.61 on 2026-11-17, giving a market capitalization of $8.9B.",
-      "The shares sit 80% of the way up their 52-week range ($287.20 to $421.90). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Premiums fell 8.6% to $454.8M in the September 2026 quarter from $497.5M a year earlier, and the operating margin dropped to 27.2% from 36.0%. EPS of $4.36 missed the $5.11 estimate. That is what the end of a hard excess and surplus market looks like: submissions slow as admitted carriers return, and the underwriting margin follows. Trailing revenue of $2.0B is still 8.3% above the prior year, but the quarterly direction is down, and the estimate for the December quarter is another 1.3% decline.",
+      "Kinsale writes admitted and surplus lines property and casualty cover for small and mid-sized commercial accounts, sold through wholesale brokers and managing general underwriters. It has no large field force; a small staff processes a high volume of small submissions through a technology platform and a few underwriting offices. Wholesale brokers bring risks that other carriers have declined, which is why the business accelerates when the admitted market retrenches and slows when it does not. The expense ratio is the structural advantage: automation lets a small team underwrite profitably at prices a larger carrier would refuse.",
+      "At $396 the shares trade on 17.0x earnings and 9.2x free cash flow, against a 27.3x and 20.3x specialty-financial median. The 52-week range of $287 to $422 puts the price near the top, and the 4.8% one-year return is the best in the financial group. The 0.3% dividend is nominal. For an insurer the meaningful comparisons are the operating margin, the return on equity and premium growth rather than EV/EBITDA, and on the first two Kinsale still leads the group."
     ],
-    "quote": "An insurer earns two ways: underwriting profit when premium exceeds claims and expenses, and investment income on the float held between collecting premium and paying claims."
+    "quote": "Kinsale prices risks the admitted market refuses, and when that market reopens the premium line falls before the expense base does."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -38,48 +38,49 @@ export const KNSL: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 34.5% a year across the fiscal years in the dataset, and the latest quarter changed -8.6% year over year. Third-party estimates for the current fiscal year point to $1.9B of revenue and $22.06 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 33.7% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Submission flow from the admitted market is the growth driver, and it is not under the company's control. Revenue went from $459.9M in FY2020 to $1.9B in FY2025, a 42.1% gain in the first of those years and a 46.0% gain in FY2023, before decelerating to 3.8% in the FY2026 estimate and -0.5% in FY2027. The numbers imply a flat two years. That is a cycle turning, not a company losing share, and the distinction matters for how the multiple should be read.",
+      "The underwriting model is built on small commercial risks priced individually, so growth comes from three places: more submissions, higher rates on renewals and higher retention. None of the three is disclosed, which is the central limitation. What the reported figures do show is that the expense base is small enough that a 33.7% operating margin survives a revenue decline: the September quarter still earned 27.2% on 8.6% less premium. The cost structure is variable enough to protect profitability through the turn."
     ],
     "bullets": [
       {
         "title": "Submission flow",
-        "detail": "The volume of declined risks reaching wholesale brokers. It rises when admitted carriers pull back."
+        "detail": "Growth depends on admitted carriers refusing risks; when they return, submissions and pricing fall together, as the 8.6% quarterly decline shows."
       },
       {
-        "title": "Renewal pricing",
-        "detail": "Rate achieved on business that renews. Flat or negative pricing erodes premium even with stable policy counts."
+        "title": "Renewal rate",
+        "detail": "Rate achieved on renewals is not reported, so the split between price and exposure in the 8.3% trailing growth is unknown."
       },
       {
-        "title": "Retention",
-        "detail": "The share of policies that renew. A soft market tempts brokers to shop accounts elsewhere."
+        "title": "Reinsurance cost",
+        "detail": "A large share of the risk is ceded, and a harder reinsurance market raises the cost of protecting a book that is still growing."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 33.7%, the net margin is 5.1% and diluted EPS is $22.94. The latest quarter's operating margin was 27.2%.",
-      "Return on equity is 2793.2%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $454.8M, an operating margin of 27.2% and a net margin of 21.6%."
+      "Underwriting profitability has been the story of the last five years. Operating margin went from 21.8% in FY2020 to 33.8% in FY2025 and 33.7% trailing, while net margin rose from 19.2% to 26.9%. EPS went from $3.87 to $21.65. Return on equity of 27.4% and return on invested capital of 24.5% are both roughly double the specialty-financial medians. The margin has been earned by pricing difficult risks well in a market where capacity was scarce, not by cutting expenses.",
+      "The quarterly dispersion is wide: operating margin was 40.1% in Q2 FY2026, 27.2% in Q3 FY2026, 29.9% in Q1 FY2026 and 36.2% in Q4 FY2025. Net margin moved from 32.1% to 21.6% over the same two quarters, a wider swing than the operating line, which points to items below the operating line rather than to underwriting. Prior-year reserve development is not reported, and that is the number that would explain the gap between a 33.7% operating margin and a 26.9% net margin.",
+      "Against the specialty-financial peer set, Kinsale's 33.7% operating margin compares with a 16.7% median and its 24.5% return on capital with 11.3%. Palomar earns 22.8% and 17.0%, Ryan Specialty 15.9% and 10.3%, Evercore 21.3% and 33.4%. Kinsale's margin is the highest and its return the second highest, and it trades below Palomar and Ryan Specialty on earnings. The combination is a market view that the margin is cyclical rather than structural."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $973M, a 49.8% margin. Net debt is not a meaningful measure for this business in the current dataset.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "For an insurer, operating cash flow is not a clean measure of profit: premium is collected before claims are paid, so the $1.0B of operating cash flow and $990.1M of free cash flow in FY2025 include the growth in float. Capex is $53.7M, small against the premium base. The 9.2x price to free cash flow and 10.9% yield therefore compare a market value with cash that partly belongs to policyholders, and they are not a shortcut to value.",
+      "The balance sheet is the better place to look. Net debt of $64.1M is 0.1x EBITDA, and interest cover of 51.8x means debt is irrelevant to the economics. The 0.3% dividend is nominal and no buyback is disclosed, so capital accumulates to support premium growth. The investment portfolio and its yield are not disclosed, which is a gap for an insurer earning a return on float.",
+      "What can be said is that the company has funded its own growth: revenue went from $459.9M to $1.9B without a large debt load, and free cash flow has exceeded net income in each of the last three years. That is the signature of a profitable underwriter writing more premium than it pays out. The risk is that the same mechanism reverses when premium growth stops, because the float stops growing and the cash flow normalises toward net income."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 89.9x trailing earnings and 49.2x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $354.56; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Seventeen times earnings is cheap against a 27.3x specialty-financial median, and it is the lowest multiple in the group after Evercore's 14.4x. On the FY2026 estimate of $22.06 the shares trade at 18.0x, and on $21.88 for FY2027 at 18.1x, so the estimate set implies no earnings growth for two years. The 9.2x price to free cash flow is not a comparable measure for an insurer, because premium is collected before claims and the cash flow includes float that belongs to policyholders.",
+      "The earnings base is the question. A 33.7% operating margin on $2.0B of revenue is about $674M of operating income, and a 26.9% net margin is about $538M of net income. The gap is taxes and below-the-line items, and it is not decomposed. If the operating margin holds near 30% through a softer market, the current multiple is reasonable; if it falls toward the high teens that a normal commercial insurer earns, the earnings base is a third smaller and the multiple is not cheap at all.",
+      "What would justify a re-rating is evidence that the excess and surplus market has stabilised: flat rather than declining submissions, stable renewal rates and no reserve charge. What would break the current price is a return of admitted capacity combined with a reserve development charge, which would hit both the earnings base and the multiple. The $287 low of the past year is that scenario, and the 4.8% one-year return shows the market has not yet decided which way it goes."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "9 analysts contribute to the third-party consensus. The mean target is $354.56, with a range of $285.00 to $405.00.",
-      "Current-year estimates call for $1.9B of revenue and $22.06 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 9 analysts with a mean target of $354.56; third-party estimates can change without notice."
+      "Nine analysts carry a mean target of $355 against a $396 price, with a range of $285 to $405. A mean below the market price is unusual and it usually signals that the models still assume a softer underwriting environment.",
+      "Estimates rose 3.0% over thirty days and 4.4% over ninety, despite a December-quarter forecast of a 1.3% revenue decline and flat EPS. The FY2026 figure of $22.06 implies 13.1% growth and FY2027's $21.88 implies a 0.8% decline, so the consensus expects one more year of earnings growth from a shrinking premium base, then a plateau. That is a margin assumption, and the September quarter's 27.2% operating margin is the first evidence against it."
     ]
   },
   "risks": {
@@ -153,5 +154,7 @@ export const KNSL: StockStory = {
       "What caused the Q4 FY2025 net loss, and is it recurring?",
       "How much of the book is ceded to reinsurers, and at what cost?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

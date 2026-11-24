@@ -7,20 +7,20 @@ export const DELL: StockStory = {
   "dek": "A 19.8% gross margin means volume and mix do most of the work. The latest quarter shows what operating leverage looks like in hardware, and how quickly it can reverse.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $151.2B trailing twelve months, +49.0% year over year.",
-    "Profitability: 9.4% operating margin and 7.5% net margin.",
-    "Cash: $8.6B free cash flow, a 5.7% margin.",
-    "Scorecard: 56/100 average percentile across the factor screens."
+    "Q2 FY2027 revenue was $47.0B, up from $29.8B a year earlier, and the operating margin doubled to 11.5%.",
+    "Trailing revenue is $151.2B, up 49.0%, but the gross margin is only 19.8%, so mix and volume carry the profit.",
+    "Free cash flow of $8.6B is a 5.7% margin; growth absorbs working capital, and Q2 FY2027 produced $986.0M.",
+    "At 19.0x earnings and 14.3x EV/EBITDA, the shares already assume the infrastructure margin normalises rather than persists."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001571996&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Dell Technologies Inc. generated $151.2B of revenue over the last twelve months, +49.0% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
-      "The latest reported quarter was Q2 FY27, with $47B of revenue and an operating margin of 11.5%. The stock closed at $322.79 on 2026-11-17, giving a market capitalization of $205.2B.",
-      "The shares sit 44% of the way up their 52-week range ($110.22 to $595.51). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Dell's quarterly revenue rose from $29.8B to $47.0B in a year, and the operating margin almost doubled with it. The July 2026 quarter produced $47.0B of revenue at an 11.5% operating margin and $6.34 of EPS, against $29.8B, 6.0% and $1.70 a year earlier. The April quarter was $43.8B at 8.3%, so the improvement is sequential as well as annual. That is what operating leverage looks like in a business with a 19.8% gross margin.",
+      "The mix is Infrastructure Solutions at 53.6% and Client Solutions at 44.9%, with corporate at 1.5% and the United States at 55.6%. Infrastructure sells servers, storage and networking to enterprises and large service providers; Client sells PCs and peripherals. A dollar of infrastructure revenue carries more absolute profit than a dollar of PC revenue, even at a similar percentage margin, which is why the mix shift matters more than the blended gross margin.",
+      "At $340 the shares trade at 19.0x earnings, 14.3x EV/EBITDA, 1.6x sales and 25.3x free cash flow. Peer medians of 32.0x and 25.5x sit well above that, so the discount is normal for hardware. Leverage is 1.8x EBITDA and the reported return on equity is negative because book equity is negative; neither is a useful signal. The debate is whether the 11.5% operating margin is a cycle peak or a structural gain from scale."
     ],
-    "quote": "In hardware, the revenue line is a measure of volume and the margin line is a measure of mix. A quarter can look spectacular on one and fragile on the other."
+    "quote": "Dell doubled revenue without doubling the cost base, and the 11.5% operating margin is either a cycle windfall or proof that scale in servers now pays."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,50 @@ export const DELL: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.0% a year across the fiscal years in the dataset, and the latest quarter changed +57.7% year over year. Third-party estimates for the current fiscal year point to $194.9B of revenue and $26.01 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 9.4% and return on invested capital of 64.3% are the filters to watch as revenue scales."
+      "The top line went from $88.4B in FY2024 to $95.6B in FY2025 and $113.5B in FY2026, and the trailing figure is $151.2B, up 49.0%. The quarterly path is the striking part: $23.4B in the May 2025 quarter, $29.8B in August, $27.0B in October, $33.4B in January, $43.8B in May 2026 and $47.0B in July. Consensus expects $194.9B in FY2027, up 71.7%, and $233.3B in FY2028, up 19.7%.",
+      "The growth is coming from infrastructure, not from PCs. Infrastructure is 53.6% of revenue, and the large orders are concentrated among a small number of buyers. That concentration is the reason the revenue line can move this fast, and the reason it can reverse. Client Solutions, at 44.9%, is a replacement market with seasonal corporate buying and much lower growth.",
+      "The consensus for FY2028 is based on nine analysts, against 28 for FY2027. That thinning coverage is worth noting: the outer-year estimate is less robust than the current-year figure, and it assumes the infrastructure cycle continues at a 19.7% rate after a 71.7% year. The estimate is a forecast of normalisation, not of decline. A wider spread of estimates would be more informative, but the outer year is the less reliable number."
+    ],
+    "bullets": [
+      {
+        "title": "Large orders",
+        "detail": "A step-up of this size comes from a few very large buyers. If one defers, revenue and margin fall together."
+      },
+      {
+        "title": "Component cost",
+        "detail": "Memory and storage prices move quickly. Dell can pass some increases through, but not always within the quarter."
+      },
+      {
+        "title": "Storage mix",
+        "detail": "Storage is higher-margin and stickier than servers. A richer storage mix would support the operating margin."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 9.4%, the net margin is 7.5% and diluted EPS is $17.20. The latest quarter's operating margin was 11.5%.",
-      "Return on equity is -460.6%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q2 FY27: revenue of $47B, an operating margin of 11.5% and a net margin of 8.8%."
+      "Gross margin reached 19.8%, operating margin 9.4% and net margin 7.5%. The gross margin fell from 22.2% in FY2025 to 20.0% in FY2026, yet the operating margin rose from 6.5% to 7.2%. That is operating expense leverage: revenue grew 18.8% while the cost base grew more slowly. The July quarter extended the pattern, with an 11.5% operating margin on a 19.8% gross margin.",
+      "Return on invested capital was 28.3%, well above the 18.8% peer median. The reported return on equity is negative because book equity is negative, so the ratio should be ignored rather than interpreted. The high ROIC is genuine in the sense that the capital employed is modest relative to the profit, but it is also cyclical: a 30% fall in large orders would hit both the numerator and the asset base.",
+      "Margin progression from Q1 FY2026 to Q2 FY2027 is almost all volume. Revenue rose from $23.4B to $47.0B, and the operating margin rose from 5.0% to 11.5%. The gross margin did not expand; it compressed. That means the gain came from spreading fixed design, manufacturing and administrative costs over a much larger revenue base, which is a cycle effect rather than a pricing effect."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $8.6B, a 5.7% margin. Net debt is $20B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $8.6B over the last twelve months and net debt was $20B; interest cover was n/a."
+      "The cash statement was $8.6B, a 5.7% margin, and FY2026 operating cash flow of $11.2B came against $2.6B of capex. The low margin is a feature of the model: hardware revenue is large relative to the cash it produces. Leverage is 1.8x EBITDA and interest cover is 8.9x, so the debt is manageable but the cushion is thinner than the revenue growth suggests.",
+      "The quarterly cash pattern shows the working-capital demand of growth. Free cash flow was $4.0B in the January 2026 quarter, $3.1B in April and $986.0M in July, even as revenue rose. Receivables and inventory absorb cash when orders ramp, so the annual figure flatters the underlying conversion in a growth year. The second quarter is the cleanest read on how much cash the new revenue consumes.",
+      "Capital allocation is a 0.9% dividend plus buybacks, with leverage rising as the revenue base expands. At 1.8x EBITDA the debt is manageable, but the margin for error is thin: a decline in large orders would reduce EBITDA and increase working capital at the same time. The 4.0% free-cash-flow yield pays for that cyclicality. The dividend is small enough to be protected, but the buyback is discretionary."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 18.0x trailing earnings and 13.0x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $583.68; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $340 Dell trades at 19.0x earnings, 14.3x EV/EBITDA, 1.6x sales and 25.3x free cash flow, with a 4.0% free-cash-flow yield. The earnings and EBITDA multiples sit below the 32.0x and 25.5x peer medians, putting the stock in the 28th and 21st percentiles. A 1.6x sales multiple is the right way to think about a hardware business: it prices the revenue at hardware economics rather than at the peak earnings the current cycle produces.",
+      "Forward numbers are low if the margin holds. FY2027 EPS of $26.01 implies 13.1x, and FY2028 EPS of $28.48 implies 11.9x. Those multiples assume an 11.5% operating margin in FY2027 and a modest decline in FY2028. If the margin normalises toward the FY2025 level of 6.5%, the EPS estimate is too high and the multiple is higher than it looks. The estimate is the risk, not the price.",
+      "The peer comparison is unflattering on margin but supportive on multiple. Apple trades at 38.4x earnings with a 33.0% operating margin and 15.1% growth; Dell trades at 19.0x with a 9.4% margin and 49.0% growth. The discount is the hardware tax, and it is justified while the margin is cyclical. A return to mid-single-digit growth would make the 19.0x multiple look full rather than cheap."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "25 analysts contribute to the third-party consensus. The mean target is $583.68, with a range of $403.00 to $700.00.",
-      "Current-year estimates call for $194.9B of revenue and $26.01 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 25 analysts with a mean target of $583.68; third-party estimates can change without notice."
+      "The Yahoo Finance consensus, dated 18 November 2026, is built from 25 analyst estimates, with a mean target of $584 and a range of $403 to $700. The mean is above the $340 price, a wide gap for a stock that has already returned 170.4% over a year.",
+      "FY2027 estimates are $194.9B of revenue and $26.01 of EPS; FY2028 is $233.3B and $28.48. EPS revisions are plus 39.2% over 90 days but only plus 0.4% over 30 days, so the upgrade cycle has paused. The consensus assumes the October quarter produces $49.2B and $6.59 of EPS, which is another sequential step-up from July's $47.0B."
     ]
   },
   "risks": {
@@ -144,5 +159,7 @@ export const DELL: StockStory = {
       "How much working capital does each incremental dollar of revenue require?",
       "What would a 30% decline in large orders do to operating income?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const LLY: StockStory = {
   "dek": "Cardiometabolic drugs are 74% of revenue and still growing fast. The questions are competition, manufacturing capacity and whether the valuation already assumes perfection.",
   "readingMinutes": 11,
   "takeaways": [
-    "Revenue: $86.5B trailing twelve months, +45.5% year over year.",
-    "Profitability: 40.2% operating margin and 31.9% net margin.",
-    "Cash: $7.8B free cash flow, a 9.0% margin.",
-    "Scorecard: 49/100 average percentile across the factor screens."
+    "Third-quarter 2026 revenue was $24.4B, up 38.6%, with a 34.5% operating margin and EPS of $7.22.",
+    "Trailing revenue is $86.5B, up 45.5%, at an 83.6% gross margin and a 40.2% operating margin.",
+    "Free cash flow is not reported; net debt is $44.6B, or 1.2x EBITDA, with interest cover of 156.2x.",
+    "{{pe}} trailing earnings sit above the 37.0x peer median on a 40.2% trailing operating margin."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
   "irUrl": "https://investor.lilly.com/",
   "bigPicture": {
     "paragraphs": [
-      "Lilly (Eli) & Co. generated $86.5B of revenue over the last twelve months, +45.5% versus the prior year. The franchise depends on clinical evidence, reimbursement and the duration of patent protection.",
-      "The latest reported quarter was Q3 FY26, with $24.4B of revenue and an operating margin of 34.5%. The stock closed at $1,415.55 on 2026-11-17, giving a market capitalization of $1.26T.",
-      "The shares sit 90% of the way up their 52-week range ($850.51 to $1,475.25). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Cardiometabolic revenue of $24.4B carried the September quarter, up 38.6%, but the operating margin slipped to 34.5% from 40.2% in the second quarter and 41.1% a year earlier. EPS was $7.22. The margin decline points to manufacturing and launch costs rising faster than the top line, which is the tension in an otherwise exceptional growth story. The top line is not the issue; the cost line is. That is the first margin decline in the sequence.",
+      "Cardiometabolic Health is 74.0% of revenue, Oncology 14.4%, Immunology 8.1% and Neuroscience 2.1%. That concentration is unusual for a large pharmaceutical company and explains both the growth rate and the risk. The United States is 66.7% of revenue, so US pricing policy and Medicare negotiation matter more than international reference pricing. A $1.2T market value rests on one therapeutic area. The remaining areas are too small to offset a setback in the core.",
+      "The {{pe}} trailing multiple and {{evEbitda}} EV/EBITDA compare with peer medians of 37.0x and 25.4x. The stock has ranged from {{range52}}, sits {{rangePosition}} of the way up that band and has returned {{return1y}}. The multiple assumes the obesity franchise keeps growing through the decade, not just through the next four quarters. A shorter runway would compress it faster than a slower quarter. The market is paying for time as much as for growth."
     ],
-    "quote": "Lilly's valuation is a referendum on the duration of the obesity market. The near-term numbers are strong; the long-term question is how much competition and pricing pressure arrive."
+    "quote": "Lilly's cardiometabolic franchise is 74% of revenue; the multiple is a bet that the next decade looks like the last two years."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,48 @@ export const LLY: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 19.6% a year across the fiscal years in the dataset, and the latest quarter changed +38.6% year over year. Third-party estimates for the current fiscal year point to $91.7B of revenue and $35.47 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 40.2% and return on invested capital of 32.4% are the filters to watch as revenue scales."
+      "Obesity demand is the growth engine, and it is constrained by manufacturing capacity. Revenue reached $34.1B in fiscal 2023, $45.0B in fiscal 2024, $65.2B in fiscal 2025 and $86.5B trailing. Growth was 32.0%, 44.7% and 45.5% in those periods, and the third quarter grew 38.6%. The rate is decelerating from an extraordinary base but remains far above the 8.6% peer median.",
+      "Concentration is the risk. Cardiometabolic Health is 74.0% of revenue, Oncology 14.4%, Immunology 8.1% and Neuroscience 2.1%. A single therapeutic area is carrying the company, which is why manufacturing capacity and competitive pricing matter more than the diversified portfolio. The US share of 66.7% adds policy concentration on top of therapeutic concentration. A single payer decision can move the revenue base.",
+      "Consensus for 2026 is $91.7B revenue and $35.47 EPS, with 2027 at $106.5B and $50.80. Revenue growth slows to 16.2% in 2027 while EPS growth stays at 43.2%, which implies significant margin expansion. The December quarter is estimated at $24.7B and $11.25. That margin assumption is the line to test against the third-quarter compression. The 2026 quarter is the evidence against it."
     ],
     "bullets": [
       {
-        "title": "Obesity and diabetes",
-        "detail": "The core franchise, with large unmet demand and expanding reimbursement."
+        "title": "Cardiometabolic",
+        "detail": "The segment is 74.0% of revenue. Growth is concentrated in diabetes and obesity, so a competitive or policy shock would hit the core, not a peripheral unit."
       },
       {
-        "title": "New indications",
-        "detail": "Cardiovascular, sleep apnea and other uses could broaden the addressable market."
+        "title": "Manufacturing",
+        "detail": "Capacity is the constraint on revenue. Capex is not disclosed, but the gap between demand and supply is the reason the growth rate is not higher."
       },
       {
-        "title": "Manufacturing capacity",
-        "detail": "New plants are needed to meet demand; execution determines how much revenue can be supplied."
+        "title": "Policy",
+        "detail": "The US is 66.7% of revenue. Medicare negotiation and international pricing can cap net price even if volume keeps growing."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 40.2%, the net margin is 31.9% and diluted EPS is $30.81. The latest quarter's operating margin was 34.5%.",
-      "Return on equity is 68.5%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $24.4B, an operating margin of 34.5% and a net margin of 26.4%."
+      "A 34.5% operating margin in the quarter was down from 40.2% in the second quarter and 41.1% a year earlier, while revenue grew 38.6%. Gross margin is 83.6% trailing, so the pressure is below the gross line: manufacturing scale-up, launch costs and the cost of serving a rapidly expanding patient base. Net margin was 31.9% trailing and 26.4% in the quarter.",
+      "Trailing return on invested capital is 30.7%, against an 11.5% peer median, and the 40.2% operating margin is double the 19.7% peer median. Return on equity is 68.5%. Lilly earns far more than the peer group, which is why the premium multiple is not automatically a mispricing. The question is whether the 34.5% quarterly margin is the new normal or a temporary cost peak."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $7.8B, a 9.0% margin. Net debt is $44.6B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $7.8B over the last twelve months and net debt was $44.6B; interest cover was n/a."
+      "Operating cash flow was $16.8B in fiscal 2025, up from $8.8B in fiscal 2024, and net debt is $44.6B, or 1.2x EBITDA. Interest cover is 156.2x, so the debt is not a solvency issue. Free cash flow is not reported, so operating cash flow and the balance sheet are the measures to use. The balance sheet can support the investment pace without new equity.",
+      "The missing free-cash-flow figure is itself a signal. A company growing revenue 45% and building manufacturing capacity can report strong operating cash flow while capex absorbs most of it. The dividend yield is 0.5%, and the priority is capacity rather than distributions. Until the capex line is disclosed, the cash return on the franchise cannot be measured directly. That is the main gap in the investment case."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 45.7x trailing earnings and 35.3x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $1,468.57; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "No free-cash-flow yield is available for Lilly because free cash flow is not reported. The {{pe}} trailing multiple is 44.1x and {{evEbitda}} is 34.1x; EV/Sales is 14.6x, against peer medians of 37.0x and 25.4x. The shares sit {{rangePosition}} of the way up a 52-week range of {{range52}} and have returned {{return1y}}. The multiple is a duration bet, not a cash-flow multiple.",
+      "The multiple depends on 2027 margin expansion. 2027 EPS of $50.80 implies about 28x, versus about 39x on 2026 EPS of $35.47. Revenue growth slows to 16.2% in 2027 while EPS growth is 43.2%, so the de-rating requires operating leverage rather than faster sales. That is a demanding combination, and it is why the stock is sensitive to pricing pressure.",
+      "The peer gap is supportive but not conclusive. Johnson & Johnson trades at 40.5x with a 17.9% operating margin, AbbVie at 49.1x with 32.2% and Merck at 135.8x on depressed earnings. Lilly at 44.1x is in line with AbbVie despite much faster growth. The bear case is that the obesity market's duration is shorter than the multiple assumes. That is the risk the premium is underwriting."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "29 analysts contribute to the third-party consensus. The mean target is $1,468.57, with a range of $940.00 to $1,700.00.",
-      "Current-year estimates call for $91.7B of revenue and $35.47 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 29 analysts with a mean target of $1.5K; third-party estimates can change without notice."
+      "Twenty-nine analysts cover Lilly, and their mean target of $1.5K is about 7% above the current price. The range of $940 to $1.7K is wide enough to include a genuine bear case, and one analyst sits below $1,000. That is unusual for a stock with this much momentum. The mean is close to the market despite the wide range.",
+      "Estimate momentum has turned. The 30-day EPS revision is 1.3%, but the 60- and 90-day revisions are -3.4%. 2026 revenue is forecast at $91.7B and EPS at $35.47; 2027 at $106.5B and $50.80. The December quarter is estimated at $24.7B and $11.25. The estimates assume the 2027 margin expansion arrives even as revenue growth slows."
     ]
   },
   "risks": {
@@ -158,5 +157,7 @@ export const LLY: StockStory = {
       "When does the manufacturing capex cycle normalize?",
       "What would Medicare negotiation cost the franchise?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

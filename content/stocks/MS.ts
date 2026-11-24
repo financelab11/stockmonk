@@ -7,20 +7,20 @@ export const MS: StockStory = {
   "dek": "The firm pairs a cyclical institutional-securities business with fee-based wealth management. That mix explains why its earnings are less volatile than a pure investment bank's, and why the market pays a higher multiple for them.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $80.2B trailing twelve months, +16.2% year over year.",
-    "Profitability: 33.2% operating margin and 25.5% net margin.",
-    "Cash: n/a free cash flow, a n/a margin.",
-    "Scorecard: 50/100 average percentile across the factor screens."
+    "Revenue of $80.2B over the last twelve months was 16.2% higher, with a 33.2% operating margin and a 17.5% return on equity.",
+    "Wealth Management is 44.9% of revenue, the recurring counterweight to a 46.8% institutional securities business.",
+    "Third-quarter revenue was $20.3B and earnings per share $3.03, down from $3.46 in the second quarter.",
+    "At 13.2x earnings the shares carry a premium to Goldman Sachs at 10.7x for a steadier revenue mix."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000086/ms-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000895421&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "MORGAN STANLEY generated $80.2B of revenue over the last twelve months, +16.2% versus the prior year. The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns.",
-      "The latest reported quarter was Q3 FY26, with $20.3B of revenue and an operating margin of 31.9%. The stock closed at $183.53 on 2026-11-17, giving a market capitalization of $286.9B.",
-      "The shares sit 39% of the way up their 52-week range ($152.80 to $232.25). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Morgan Stanley earned $3.03 per share in the third quarter on $20.3B of revenue, after $3.46 on $21.3B in the second, with an operating margin of 31.9% against 34.4%. The sequential decline is modest for a capital-markets firm, and the trailing figures are strong: revenue of $80.2B is up 16.2% and return on equity is 17.5%. The mix is what makes the result less volatile than a pure investment bank's. The wealth arm is why the drawdown was shallow.",
+      "Institutional Securities is 46.8% of revenue and covers advisory, underwriting, sales and trading, and corporate lending. Wealth Management is 44.9% and earns asset-based fees, trailing commissions and net interest income from lending against client portfolios. Investment Management is 9.2% and sells funds and separate accounts. The wealth arm is the ballast: its fees fall when markets fall, but they do not disappear the way a deal pipeline does. That structural difference is what separates it from Goldman.",
+      "Morgan Stanley's $173 price implies a $270.8B market value, or 13.2x earnings and 16.9x EBITDA, against a financial peer median of 14.2x earnings and Goldman Sachs at 10.7x. The premium to Goldman is the price of the wealth mix, and the stock has returned 8.8% over the year. A 13.2x multiple is a full price for a business whose revenue can still fall with markets, but it is not obviously wrong for a franchise with 44.9% recurring wealth revenue."
     ],
-    "quote": "Wealth management is a subscription business attached to a volatile one. The subscription does not grow as fast in a boom, but it keeps paying in a bust."
+    "quote": "Morgan Stanley's wealth fees do not remove the cycle, they lengthen it, and the premium to Goldman Sachs is the price of that lag."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,48 +52,50 @@ export const MS: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 9.3% a year across the fiscal years in the dataset, and the latest quarter changed +11.6% year over year. Third-party estimates for the current fiscal year point to $82.5B of revenue and $12.91 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 33.2% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "The top line moved from $54.1B in 2023 to $61.8B in 2024 and $70.6B in 2025, and the trailing figure is $80.2B, up 16.2%. Consensus looks for $82.5B in 2026 and $86.6B in 2027, growth of 16.8% and 5.0%. The deceleration is sharp, and it assumes the institutional business slows while wealth keeps compounding. The step-down is steep against the 16.8% expected for 2026, and it leaves little room for a weak market.",
+      "Wealth Management grows in three ways: asset-based fees rise with markets, net new assets add to the fee base, and lending against portfolios adds net interest income. The financials do not split those three, which is the main gap in the disclosure. Institutional Securities grows with deal activity and trading flow, and Investment Management grows with assets and performance fees.",
+      "The durability of the mix is the argument for the multiple. A dollar of wealth fee revenue requires advisers, technology and compliance but almost no balance sheet; a dollar of trading revenue may require inventory and regulatory capital. As wealth grows faster than institutional, the consolidated return on equity should become less cyclical even if the absolute level does not rise."
     ],
     "bullets": [
       {
-        "title": "Client assets",
-        "detail": "Wealth fees scale with assets under management and net new money. Market levels matter as much as inflows."
+        "title": "Asset-based fees",
+        "detail": "Wealth revenue moves with client assets and net new money, so a market decline hits fees with a lag rather than immediately."
       },
       {
-        "title": "Deal activity",
-        "detail": "Advisory and underwriting recover when corporations are willing to transact."
+        "title": "Institutional cycle",
+        "detail": "Advisory and underwriting revenue can halve in a quiet year, and the fixed cost sits in the institutional division."
       },
       {
-        "title": "Client lending",
-        "detail": "Margin loans and mortgages against portfolios add net interest income and deepen the wealth relationship."
+        "title": "Adviser productivity",
+        "detail": "Wealth revenue walks out of the door with the advisers, so retention and revenue per adviser are the operating metrics."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 33.2%, the net margin is 25.5% and diluted EPS is $12.60. The latest quarter's operating margin was 31.9%.",
-      "Return on equity is 17.4%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $20.3B, an operating margin of 31.9% and a net margin of 24.1%."
+      "The third-quarter operating margin was 31.9%, down from 34.4% in the second and 33.1% a year earlier. Net margin was 24.1% and earnings per share $3.03. On a trailing basis the operating margin is 33.2% and the net margin 25.5%, both above the 2025 figures of 31.1% and 23.9%. The quarter gave back some of the first-half gain. The most recent quarter is the weakest of the three.",
+      "Return on equity is 17.5%, up from 15.1% in 2025 and 12.8% in 2024. Return on invested capital of 4.1% is not meaningful for a firm whose balance sheet is mostly client financing and trading inventory. The relevant comparison is Goldman Sachs at 17.7% return on equity and 40.0% operating margin; Morgan Stanley earns a similar return on a lower margin, which is the wealth mix at work.",
+      "The margin has widened over three years: 21.8% in 2023, 28.5% in 2024, 31.1% in 2025 and 33.2% trailing. Revenue grew faster than the compensation and technology base, which is the operating leverage the wealth franchise provides. The third quarter shows the limit: revenue fell 4.7% sequentially and the margin fell 2.5 points. The wealth model's operating leverage works in both directions."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was n/a, a n/a margin. Net debt is not a meaningful measure for this business in the current dataset.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "FCF is not reported, and it would not be meaningful: client financing, trading inventory and collateral move through operating cash flow. Operating cash flow was negative $17.9B in 2025, following negative $33.5B in 2023 and positive $1.4B in 2024. Those swings track balance-sheet growth rather than profitability, so the cash statement is a poor guide to distribution capacity.",
+      "The balance sheet carries $249.9B of net debt, or 8.1x EBITDA, and interest cover of 2.3x. For a securities firm those are funding metrics, not solvency metrics. Capital and liquidity rules constrain how much balance sheet the institutional business can use and how much cash can be returned. The dividend yield is 2.8%, and buybacks are the larger variable that the financials do not quantify.",
+      "The cash return is best judged against return on equity. A 17.5% return on equity with a 2.8% dividend yield leaves most of the earnings retained, which builds capital for the institutional business and supports buybacks. The question is whether the wealth business can grow fees faster than the institutional business consumes capital. That, not free cash flow, determines the distribution."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 14.0x trailing earnings and 9.3x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $211.50; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $173 the market value is $270.8B, equal to 13.2x earnings, 16.9x EBITDA and 6.5x sales. For a capital-markets firm, earnings is the relevant multiple. The price sits a quarter of the way up a $153 to $232 band, and the one-year return is 8.8% against 100.8% over five years. The peer median is 14.2x earnings, and Goldman Sachs trades at 10.7x. On earnings the premium to Goldman is visible, while the EBITDA multiples are identical.",
+      "The premium to Goldman is the valuation question. Morgan Stanley earns a 33.2% operating margin against Goldman's 40.0%, and a 17.5% return on equity against 17.7%, yet trades at 13.2x against 10.7x. The difference is the 44.9% wealth share, which makes the earnings stream less dependent on a deal cycle. Whether that deserves a 23% multiple premium is a judgment about the durability of asset-based fees.",
+      "On forward numbers the premium narrows. Consensus expects EPS of $12.91 in 2026 and $13.69 in 2027, putting the shares at about 13.4x and 12.6x. The 2027 growth rate of 6.1% is modest for a 13x multiple, and it assumes wealth fees hold while institutional revenue slows. A market decline would hit both the fee base and the multiple. That combination is demanding."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "22 analysts contribute to the third-party consensus. The mean target is $211.50, with a range of $185.00 to $262.00.",
-      "Current-year estimates call for $82.5B of revenue and $12.91 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 22 analysts with a mean target of $211.5; third-party estimates can change without notice."
+      "The consensus recorded by Yahoo Finance on 18 November 2026 covers 22 analysts, with a mean target of $212 and a range of $185 to $262. The mean is 23% above the current price and the low end is 7% above it, so the coverage is cautiously positive rather than enthusiastic.",
+      "Revisions are mixed: EPS is 1.6% higher than 30 days ago, 0.6% lower than 60 days ago and 0.5% lower than 90 days ago. The current-year estimate of $12.91 implies 26.4% growth, and 2027 at $13.69 implies 6.1%. The consensus is assuming the wealth franchise carries the earnings growth once the institutional cycle fades, which is the same assumption embedded in the premium multiple."
     ]
   },
   "risks": {
@@ -157,5 +159,7 @@ export const MS: StockStory = {
       "Is the wealth fee rate holding as clients shift into cheaper products?",
       "What would a 20% market decline do to revenue and ROE?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,21 +7,21 @@ export const AVGO: StockStory = {
   "dek": "The semiconductor business is cyclical and concentrated. The software business is recurring and cash-generative. Together they produce unusually high margins — and a leveraged balance sheet.",
   "readingMinutes": 11,
   "takeaways": [
-    "Revenue: $89.1B trailing twelve months, +48.7% year over year.",
-    "Profitability: 48.0% operating margin and 42.9% net margin.",
-    "Cash: $39.4B free cash flow, a 44.2% margin.",
-    "Scorecard: 63/100 average percentile across the factor screens."
+    "Third-quarter fiscal 2026 revenue was $29.6B, up 85.5%, with a 53.9% operating margin and EPS of $2.68.",
+    "Trailing revenue is $89.1B, up 48.7%, and free cash flow is $39.4B, a 44.2% margin.",
+    "Semiconductor Solutions is 57.7% of revenue and Infrastructure Software 42.3%; custom AI silicon is the growth engine.",
+    "{{pe}} trailing earnings sit above the 31.0x peer median on a business with a 48.0% operating margin."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
   "irUrl": "https://investors.broadcom.com/",
   "earningsReleaseUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm",
   "bigPicture": {
     "paragraphs": [
-      "Broadcom Inc. generated $89.1B of revenue over the last twelve months, +48.7% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
-      "The latest reported quarter was Q3 FY26, with $29.6B of revenue and an operating margin of 53.9%. The stock closed at $341.60 on 2026-11-17, giving a market capitalization of $1.63T.",
-      "The shares sit 25% of the way up their 52-week range ($289.77 to $495.00). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Custom AI silicon turned the September quarter into a step change. Revenue reached $29.6B, up 85.5%, with an operating margin of 53.9%, a net margin of 44.2% and EPS of $2.68. The sequential path has been $19.3B, $22.2B and $29.6B over three quarters. That is not a normal ramp; it is a product cycle moving from design wins to volume. The step-up is large enough to change the annual base.",
+      "The business is two franchises with different economics. Semiconductor Solutions is 57.7% of revenue and includes networking, custom accelerators, broadband and storage; Infrastructure Software is 42.3% and includes VMware, CA and Symantec. Software supplies recurring, high-margin cash, while custom AI silicon supplies growth and customer concentration. Asia Pacific is 56.2% of revenue, so supply chain and export rules matter. The software half is what keeps the consolidated margin above a pure chip company's.",
+      "The {{pe}} trailing multiple and {{evEbitda}} EV/EBITDA are above peer medians of 31.0x and 24.8x, even though the 48.0% trailing operating margin is below Nvidia's 65.2%. The price embeds both the software annuity and the custom-ASIC growth. Software cushions the cyclicality of the chip business without removing it, and that combination is rare in semiconductors. That is the reason the multiple survives a chip downturn. That is the valuation case."
     ],
-    "quote": "Broadcom is a capital-allocation story as much as a technology story. The software acquisition changed the margin profile; the AI custom-silicon business changed the growth profile."
+    "quote": "Broadcom's software franchise funds the dividend; its custom AI silicon sets the multiple, and the customer list is short."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -53,49 +53,48 @@ export const AVGO: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 18.9% a year across the fiscal years in the dataset, and the latest quarter changed +85.5% year over year. Third-party estimates for the current fiscal year point to $106B of revenue and $11.66 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 48.0% and return on invested capital of 25.0% are the filters to watch as revenue scales."
+      "Custom accelerator demand is the growth engine, and it is concentrated. Fiscal 2026 consensus of $106.0B revenue, up 65.9%, and fiscal 2027 of $175.0B, up 65.1%, describe a business riding a single large product cycle. The October quarter is estimated at $34.9B and $3.84 EPS, growth of 93.8% and 96.8%. The question is how many customers sit behind those numbers.",
+      "Semiconductor Solutions is 57.7% of revenue and Infrastructure Software 42.3%. Custom AI accelerators are the fastest-growing part of semis, while VMware and the rest of the software portfolio grow more slowly but renew. Gross margin of 68.8% has held roughly flat despite the shift, which suggests software pricing is offsetting hardware volume. That mix is therefore more stable than the segment growth rates imply.",
+      "Fiscal 2027 EPS of $19.41 is the estimate that carries the valuation. It assumes the custom AI program scales beyond the first customer and that software renewals hold. A design loss or a hyperscaler capex pause would hit both the growth rate and the multiple. The 2026 number is a transition year, not a steady state. The 2027 estimate is the one the equity depends on."
     ],
     "bullets": [
       {
-        "title": "Custom AI accelerators",
-        "detail": "Hyperscalers are designing their own chips to reduce dependence on merchant GPUs. Broadcom is a key partner."
-      },
-      {
-        "title": "AI networking",
-        "detail": "Tomahawk and Jericho switching silicon benefit from the build-out of AI clusters."
+        "title": "Custom ASIC",
+        "detail": "The fastest-growing part of the semiconductor business. Hyperscaler concentration is the price of that growth."
       },
       {
         "title": "VMware",
-        "detail": "The software business adds recurring revenue and margin, but the integration and pricing strategy carry execution risk."
+        "detail": "Infrastructure Software is 42.3% of revenue and supplies recurring cash. Pricing power is real, but churn is the risk."
+      },
+      {
+        "title": "Leverage",
+        "detail": "Net debt is $39.4B, or 0.9x EBITDA. Free cash flow covers it in about a year, so the balance sheet is not the constraint."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 48.0%, the net margin is 42.9% and diluted EPS is $7.84. The latest quarter's operating margin was 53.9%.",
-      "Return on equity is 38.4%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $29.6B, an operating margin of 53.9% and a net margin of 44.2%."
+      "A 53.9% quarterly operating margin compared with 39.9% in fiscal 2025, and the trailing figure is 48.0%. The improvement came from operating leverage on the AI ramp and from the software mix, not from a one-off gain. Net margin was 42.9%, high for a company with $39.4B of net debt. That is a statement about the profitability of the franchise.",
+      "Trailing return on invested capital is 24.8%, against an 18.8% peer median, and return on equity is 38.4%. The operating margin of 48.0% is above the 27.7% peer median. Broadcom earns above the peer group but below Nvidia, which has a 63.0% ROIC and 65.2% operating margin. The gap is software amortisation and leverage, not a lack of pricing power."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $39.4B, a 44.2% margin. Net debt is $35.4B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $39.4B over the last twelve months and net debt was $35.4B; interest cover was n/a."
+      "Debt-funded acquisitions built the software franchise, and the balance sheet still carries $39.4B of net debt, or 0.9x EBITDA. Trailing free cash flow was $39.4B, a 44.2% margin. In fiscal 2025, capex of $623M was 2.3% of the $27.5B of operating cash flow, so the fabless model and software business convert revenue into cash with little incremental investment. That is why free cash flow tracks operating cash flow so closely.",
+      "The dividend yield is 0.9%, and free cash flow covers the interest bill comfortably; interest cover is 18.2x. The capital-allocation question is whether the next acquisition adds as much value as VMware did, not whether the current debt is sustainable. The model is buy, cut costs, raise prices and repeat, which works while the assets remain mission-critical. The constraint is the supply of suitable targets, not the debt capacity."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 42.6x trailing earnings and 38.3x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $528.17; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Seventeen times EV/Sales is a premium for a semiconductor company, and it is the multiple that best captures the software mix. The {{pe}} trailing multiple is 38.6x and {{evEbitda}} is 34.9x, both above peer medians of 31.0x and 24.8x. The shares have returned {{return1y}} over the past year and sit {{rangePosition}} of the way up a 52-week range of {{range52}}.",
+      "Forward earnings tell a different story. Fiscal 2026 EPS of $11.66 implies about 27x; fiscal 2027 EPS of $19.41 implies about 16x. The de-rating is steep, and it depends on AI custom-silicon revenue more than doubling. Delivering those estimates would leave the multiple below the peer median; missing them would expose the trailing premium. The 2027 estimate is the one that matters for the equity.",
+      "The peer gap is about durability. Nvidia trades at 20.9x with a 65.2% operating margin and no meaningful leverage; AMD at 99.9x with a 17.7% margin; Microsoft at 26.0x with 47.1%. Broadcom at 38.6x is priced between the platform premium and the cyclical discount. The custom-ASIC concentration is what separates it from a diversified chip company. A single customer decision can reset the growth rate."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "47 analysts contribute to the third-party consensus. The mean target is $528.17, with a range of $398.47 to $660.00.",
-      "Current-year estimates call for $106B of revenue and $11.66 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 47 analysts with a mean target of $528.17; third-party estimates can change without notice."
+      "A $528 mean target, about 70% above the current price, is a large gap for a stock already at a premium multiple. The 47 analysts span $398 to $660, a narrower range than the other AI names. The estimates have barely moved: 90-day EPS revisions are 0.3%, so the consensus is comfortable with the current trajectory.",
+      "Fiscal 2026 revenue is forecast at $106.0B and EPS at $11.66; fiscal 2027 at $175.0B and $19.41. The October quarter is estimated at $34.9B and $3.84, growth of 93.8% and 96.8%. The numbers assume the custom AI program scales to more customers and that software renewals hold through VMware pricing changes."
     ]
   },
   "risks": {
@@ -159,5 +158,7 @@ export const AVGO: StockStory = {
       "What does the non-AI semiconductor cycle look like?",
       "How quickly can the company reduce net debt?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

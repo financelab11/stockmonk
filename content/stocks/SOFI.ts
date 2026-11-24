@@ -7,20 +7,20 @@ export const SOFI: StockStory = {
   "dek": "The swing came from net interest income on loans funded by deposits, not from a software business. Net debt of $45.7B and free cash flow of -$7.43B are what a fast-growing loan book looks like, not signs of distress.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $616.8M trailing twelve months, +5.5% year over year.",
-    "Profitability: 147.1% operating margin and 119.6% net margin.",
-    "Cash: -$7.4B free cash flow, a -1204.2% margin.",
-    "Scorecard: 24/100 average percentile across the factor screens."
+    "Net income reached $241.0M in the September 2026 quarter on a 147.5% net margin, a ratio that only makes sense on a net revenue base.",
+    "Return on equity of 6.5% and return on invested capital of 4.9% are low for a lender trading at 23.3x earnings.",
+    "Deposits fund the loan book, so the profit is a spread decision before it is a software decision.",
+    "Twenty-three analysts are split: 11 positive, 10 neutral and four cautious, with a $12 to $30 target range around a $13 price."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000013/sofi-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001818874&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "SoFi Technologies, Inc. generated $616.8M of revenue over the last twelve months, +5.5% versus the prior year. The economics depend on credit losses, funding costs, take rates and the ability to grow without buying customers.",
-      "The latest reported quarter was Q3 FY26, with $163.4M of revenue and an operating margin of 194.5%. The stock closed at $14.28 on 2026-11-17, giving a market capitalization of $18.5B.",
-      "The shares sit 3% of the way up their 52-week range ($13.86 to $30.42). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Deposits, not software, explain SoFi's swing from a $483.9M loss in FY2021 to a $481.3M profit in FY2025. The loan book earns a spread over the cost of funding it, and the share of that book funded by deposits rather than warehouse lines or securitisation decides how much of the spread the company keeps. Net income of $241.0M in the September 2026 quarter is the clearest evidence that the model works; the 6.5% return on equity is the evidence that it is not yet working well.",
+      "The three segments are a lending book, a deposit and fee business, and a technology platform that sells account processing, core banking and brokerage custody to other institutions. The strategic claim is that they reinforce each other: a member with a checking account is cheaper to lend to, and the platform gives the company fee income that does not consume balance sheet. The platform is the only part with software-like margins, and it is small relative to the loan book.",
+      "The multiple is a bet on the return, not on the growth. At 23.3x trailing earnings and 6.5% return on equity, the shares are priced above PayPal at 9.7x and below Robinhood at 30.7x, two businesses with very different balance sheets. EV/EBITDA of 15.3x is not a useful comparison for a deposit-funded lender, because enterprise value includes the deposits that fund the assets. The multiple that matters is the one on book value, which the reported figures do not provide."
     ],
-    "quote": "For a lender, free cash flow and net debt read differently. Originating a loan uses cash today and creates an asset that pays interest for years, so a growing book always looks cash-hungry."
+    "quote": "SoFi has proved it can lend profitably; the open question is whether a 6.5% return on equity is a starting point or the ceiling."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,48 @@ export const SOFI: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 127.1% a year across the fiscal years in the dataset, and the latest quarter changed +4.2% year over year. Third-party estimates for the current fiscal year point to $5.1B of revenue and $0.61 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 147.1% and return on invested capital of 1.3% are the filters to watch as revenue scales."
+      "Member cross-sell is the engine, and it is measured in products per member rather than in revenue. A customer who arrives for a student loan refinance and stays for a deposit account, a card and an investment account costs less to acquire with each product. That is the theory behind the three segments, and the product count itself is not disclosed. What is visible is the consequence: deposits have become the funding source, which lowers the cost of the loan book.",
+      "The estimates assume growth slows but stays high. Revenue is modelled at $5.1B in 2026, up 40.7%, and $6.4B in 2027, up 26.9%, with EPS of $0.61 and $0.90. That is a forecast of 62.6% EPS growth followed by 47.8%, which is a lot of operating leverage for a lender whose revenue grows with its balance sheet. The EPS path assumes the spread widens or the cost of funding falls.",
+      "The technology platform is the part of the model that could change the multiple, and it is the part with the least disclosure. Galileo, Technisys and Apex earn fees from other institutions, do not consume balance sheet and would be valued differently from a loan book. If the platform grows faster than lending, the consolidated multiple should compress toward a software multiple; if it does not, SoFi stays a bank with a fee business attached. The company reports three segments but not the margin inside each."
+    ],
+    "bullets": [
+      {
+        "title": "Deposit funding",
+        "detail": "The cheaper the deposit base, the more of the loan yield the company keeps; deposit competition is the direct threat to the spread."
+      },
+      {
+        "title": "Credit quality",
+        "detail": "Personal loans carry the highest yield and the highest risk, and a rise in unemployment would show up as charge-offs on a book the company now holds."
+      },
+      {
+        "title": "Platform fee income",
+        "detail": "Galileo, Technisys and Apex sell infrastructure to other institutions, the only segment with software-like margins and the smallest contributor."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 147.1%, the net margin is 119.6% and diluted EPS is $0.56. The latest quarter's operating margin was 194.5%.",
-      "Return on equity is 6.7%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $163.4M, an operating margin of 194.5% and a net margin of 147.5%."
+      "Margins above 100% are the first thing to understand about SoFi's reported figures. An operating margin of 147.1% and a net margin of 119.6% mean the revenue line and the profit lines are not measured on the same basis; a lender's revenue is net of funding cost, and the percentage flatters the business. The honest sequence is net interest income after funding, then credit losses, then operating expense. The reported figures give the endpoints, not the sequence.",
+      "What the endpoints show is genuine improvement. The company moved from a $483.9M loss in FY2021 to a $481.3M profit in FY2025, and quarterly net income reached $241.0M in September 2026. EPS of $0.18 in that quarter compares with $0.39 for the whole of FY2025, a striking concentration of earnings in the most recent period. Return on equity of 6.5% and return on invested capital of 4.9% say how much of that profit is earned on the capital employed."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$7.4B, a -1204.2% margin. Net debt is $45.7B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$7.4B over the last twelve months and net debt was $45.7B; interest cover was n/a."
+      "For a lender, free cash flow is not the measure it is for a software company. The trailing figure of -$7.4B is a balance-sheet expansion: loan originations sit in operating cash flow, and a growing book consumes cash by design. Reading that number as distress would be a category error. What matters is the spread between loan yields and funding costs, the provision charge and the capital held against risk-weighted assets.",
+      "Those three measures are the ones the reported figures do not give in full. Return on equity of 6.5% and return on invested capital of 4.9% are the summary, and they say the book is earning less than a well-run bank should. The capital constraint is the one that binds: growth is limited by the equity held against assets, so a raise dilutes and a slowdown limits the model. Neither is visible in the cash-flow statement."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 25.1x trailing earnings and 53.9x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $20.84; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Twenty-three times earnings is a growth multiple for a bank earning 6.5% on equity. PayPal at 9.7x earns 13.0% on invested capital; Robinhood at 30.7x earns 15.7%; SoFi at 23.3x earns 4.9%. The market is paying for the direction of the return rather than its level, and the peer median of 26.7x is not a helpful anchor because the peer set includes payment networks and brokerages with different balance sheets.",
+      "EV/EBITDA of 15.3x should be set aside for a deposit-funded lender. Enterprise value includes the deposits that fund the loan book, and EBITDA is not a measure of a bank's earnings power. The relevant multiple is price to book or price to tangible book, neither of which is in the reported figures, so the P/E and the return on equity have to carry the argument. On those two, the shares are priced for improvement that has not yet appeared.",
+      "What would justify the multiple is return on equity moving toward the low teens as deposits replace wholesale funding and credit losses stay contained. What would break it is a rise in charge-offs on unsecured personal loans, which would hit the spread and the capital ratio at the same time. The $12 to $30 target range captures both outcomes, and the current $13 price sits at the bottom of it."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "23 analysts contribute to the third-party consensus. The mean target is $20.84, with a range of $12.00 to $30.00.",
-      "Current-year estimates call for $5.1B of revenue and $0.61 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 23 analysts with a mean target of $20.84; third-party estimates can change without notice."
+      "Dispersion is widest at the cautious end for SoFi. Twenty-three analysts contribute, and the published views split eleven positive, ten neutral and four cautious, with a mean target of $21 against a $13 price and a range of $12 to $30. That is not a consensus; it is a debate about whether a 6.5% return on equity deserves a growth multiple.",
+      "Estimates have edged up, with EPS revisions of 2.8% over 7 days and 2.7% over 90, and the last four quarters have met or beaten, most recently $0.18 against $0.17. FY2026 EPS of $0.61 implies 62.6% growth and FY2027 of $0.90 implies 47.8%. The consensus is assuming the loan book keeps growing and the spread holds, the same assumption the multiple makes."
     ]
   },
   "risks": {
@@ -154,5 +167,7 @@ export const SOFI: StockStory = {
       "How many products does the average member hold, and is that number rising?",
       "What return on equity would justify 28.4x trailing earnings?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

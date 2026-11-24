@@ -7,20 +7,20 @@ export const CIEN: StockStory = {
   "dek": "A telecom optical vendor whose growth now comes from linking data centres. Operating margin went from 0.8% to 18.0% in five quarters, and that is the number to explain.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $6B trailing twelve months, +32.6% year over year.",
-    "Profitability: 12.3% operating margin and 10.9% net margin.",
-    "Cash: $814.4M free cash flow, a 13.5% margin.",
-    "Scorecard: 47/100 average percentile across the factor screens."
+    "Revenue of $6.0B grew 32.6%, and the operating margin of 12.3% is three times the 4.1% reported for FY2025.",
+    "The September 2026 quarter reached an 18.0% operating margin on $1.7B of revenue, against 0.8% on $1.4B five quarters earlier.",
+    "Free cash flow was $814.4M, a 13.5% margin, and net debt of $386.3M is 0.4x EBITDA, so financing is not the constraint.",
+    "At 58.0x earnings the shares are priced above the 36.6x peer median, and the 52-week range of $182 to $638 shows how violently the market has repriced them."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/936395/000162828025056698/cien-20251101.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000936395&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "CIENA CORP. generated $6B of revenue over the last twelve months, +32.6% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
-      "The latest reported quarter was Q3 FY26, with $1.7B of revenue and an operating margin of 18.0%. The stock closed at $264.82 on 2026-11-17, giving a market capitalization of $37.6B.",
-      "The shares sit 21% of the way up their 52-week range ($168.22 to $637.51). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "An 18.0% operating margin on $1.7B of revenue in the quarter to 1 August 2026 compares with 0.8% on $1.4B five quarters earlier. EPS of $1.83 compared with $0.35 a year earlier, and the increment of roughly $320M in quarterly revenue carried almost all of its gross profit to the operating line. That is what a fixed-cost optical equipment business does when volume returns. The result matters because it is the first clean evidence of operating leverage rather than of recovery.",
+      "Ciena sells coherent optical transport systems, the chassis and line cards that convert electrical signals to light and back, plus switching, network management software and the planning tools carriers use to design routes. The customer base has shifted: telcos plan in years and tender on price, while hyperscalers need to move training traffic between buildings and buy on a shorter cycle. The installed base is the annuity, because expanding a network means buying more cards for a chassis that is already there.",
+      "Whether 18% is a new margin or a tight-supply peak is the bet. At 44.1x EBITDA and 58.0x earnings the shares carry a premium to Coherent at 36.0x and 44.7x and to the 31.0x and 36.6x medians, for an operating margin now above Coherent's 12.5%. The whole optical complex has re-rated together, so the question is whether Ciena's premium pays for its installed base or for the same cycle that lifted every peer. The 52-week range of $182 to $638 is the market's own admission that it does not know."
     ],
-    "quote": "Optical transport is a fixed-cost business with a variable revenue line. Once the port ships, every additional wavelength on the same chassis is close to pure margin."
+    "quote": "Ciena's margin went from 0.8% to 18.0% in five quarters, and the difference between leverage and scarcity is the whole valuation."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,47 @@ export const CIEN: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 6.2% a year across the fiscal years in the dataset, and the latest quarter changed +37.0% year over year. Third-party estimates for the current fiscal year point to $6.4B of revenue and $7.17 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 12.3% and return on invested capital of 19.3% are the filters to watch as revenue scales."
+      "Revenue was $4.8B in FY2025 and is $6.0B trailing, a 32.6% increase, after a period in which it went $3.6B, $3.6B, $4.4B and $4.0B. The quarterly path in fiscal 2026 is $1.4B, $1.6B and $1.7B, so the company is adding about $150M a quarter at the same time as the margin expands. That combination is unusual in optical equipment, which normally trades volume for price.",
+      "The estimate path assumes it continues: $1.8B next quarter, $6.4B for fiscal 2026 and $8.4B for 2027. The 2027 figure is 40% above the 2026 estimate and is covered by seven analysts, which is thin. The growth is coming from data-centre interconnect rather than carrier networks, but revenue is not split between the two, so the durability of the demand cannot be checked against the customer mix. That is the central analytical gap."
     ],
     "bullets": [
       {
-        "title": "Data-centre interconnect",
-        "detail": "Links between data centres on a campus or in a metro. The fastest-growing use of the product line."
+        "title": "Installed base",
+        "detail": "Line cards and software renew against chassis already in the network, so the second sale is less competitive than the first."
       },
       {
-        "title": "Telco capacity upgrades",
-        "detail": "Incumbent carriers upgrading line rates. Large, lumpy orders that arrive in multi-year cycles."
+        "title": "Hyperscale demand",
+        "detail": "Cloud operators buy optical gear on a shorter cycle than telcos, which raises growth and shortens visibility at the same time."
       },
       {
-        "title": "Installed-base expansion",
-        "detail": "More cards in existing chassis and renewals of software and support. The most predictable part of revenue."
+        "title": "Component supply",
+        "detail": "Coherent DSPs and optical sub-assemblies are specialised; a shortage supports price but caps revenue, and a glut does the reverse."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 12.3%, the net margin is 10.9% and diluted EPS is $4.48. The latest quarter's operating margin was 18.0%.",
-      "Return on equity is 23.4%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $1.7B, an operating margin of 18.0% and a net margin of 15.9%."
+      "The margin history here is a cycle, not a trend. Operating margin was 13.8% in FY2020, 13.7% in FY2021, 6.1% in FY2022, 8.2% in FY2023, 4.1% in FY2024 and 4.1% in FY2025; the trailing figure is 12.3%. Gross margin stayed between 42.0% and 47.6% throughout, so the swing came from volume against a fixed engineering and manufacturing cost base, not from pricing. EPS went from $3.19 in FY2021 to $0.58 in FY2024 and $0.85 in FY2025, the same cycle in per-share form.",
+      "The September 2026 quarter at 18.0% is above the FY2021 peak of 13.7%, which is why the durability question matters. Return on invested capital is 10.6% trailing against 3.6% in FY2025, and return on equity is 21.4%. Net margin is 10.9%. If the current margin is operating leverage, the return on capital should hold at this level as revenue grows; if it is supply scarcity, both the margin and the return will revert when component availability normalises."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $814.4M, a 13.5% margin. Net debt is $236.6M.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $814.4M over the last twelve months and net debt was $236.6M; interest cover was n/a."
+      "Ciena's FY2025 operating cash flow of $806.1M covered $140.8M of capex and left $665.3M of free cash flow. Trailing free cash flow is $814.4M, a 13.5% margin, well above the 7.0% peer median. The conversion is strong because the manufacturing and test operations are already built, so incremental revenue needs little capital. The September 2026 quarter produced $116.3M of free cash flow, down from $218.7M in June, the working-capital cost of a larger order book.",
+      "Net debt is $386.3M at 0.4x EBITDA, with interest cover of 10.6x, so neither growth nor the margin depends on borrowing. The company pays no dividend and no buyback is disclosed, so the $814.4M of free cash flow is being retained. For a business with a cyclical history and a 52-week range that spans $182 to $638, a lightly levered balance sheet is worth more than the interest saving: it is the ability to hold the cost base through the next pause."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 57.4x trailing earnings and 43.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $511.74; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Ciena's {{pe}} trailing earnings and {{evEbitda}} EBITDA compare with peer medians of 36.6x and 31.0x. The premium is being paid for a margin that has tripled in five quarters, and it is the same bet the whole optical complex is making: Coherent at 44.7x and 36.0x, Lumentum at 49.0x EBITDA, where no earnings multiple is reported. Ciena's 12.3% trailing operating margin is below Lumentum's 23.5% and above Coherent's 12.5%.",
+      "The fiscal 2026 estimate of $7.17 implies about 37x, and $10.33 for 2027 about 26x. Those numbers require the 18.0% operating margin to hold through a year in which revenue is estimated to grow 31% to $8.4B. If the margin reverts to the FY2025 level of 4.1%, earnings would fall by roughly two-thirds and the forward multiple would be a trailing one again.",
+      "A structural shift in the customer mix toward hyperscalers that buy on capability rather than tender would justify the multiple, because it would make the margin less cyclical. The historical pattern repeating would break it: a carrier capex pause that leaves the fixed cost base underused, as happened in FY2024 when revenue fell 8.5% and the operating margin fell to 4.1%. The 0.4x leverage protects the company; it does not protect the multiple."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "20 analysts contribute to the third-party consensus. The mean target is $511.74, with a range of $347.00 to $660.00.",
-      "Current-year estimates call for $6.4B of revenue and $7.17 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 20 analysts with a mean target of $511.74; third-party estimates can change without notice."
+      "Twenty analysts cover Ciena in Yahoo Finance's survey from 18 November 2026, with a mean target of $512 and a range of $347 to $660 against a $268 price. The mean is 91% above the market and the low end is 29% above it, a set of targets that has already priced the margin recovery and is arguing only about how far it extends.",
+      "The 2026 estimate puts revenue at $6.4B and EPS at $7.17, with 2027 at $8.4B and $10.33 on seven analysts. Revisions are flat over 30 and 60 days but +9.6% over 90, which means the estimate set was lifted earlier and has since settled. The consensus assumes the September margin holds and that the 2027 revenue step-up is awarded work; the thin coverage on that year is the reason the target range is so wide."
     ]
   },
   "risks": {
@@ -158,5 +156,7 @@ export const CIEN: StockStory = {
       "What happens to gross margin if coherent component supply loosens?",
       "Does the next-year estimate reflect awarded orders or expected ones?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

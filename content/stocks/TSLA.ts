@@ -7,20 +7,20 @@ export const TSLA: StockStory = {
   "dek": "Vehicle growth has stalled and margins have compressed. The share price still embeds a large option on robotaxi, energy and software.",
   "readingMinutes": 12,
   "takeaways": [
-    "Revenue: $103.6B trailing twelve months, +8.3% year over year.",
-    "Profitability: 3.3% operating margin and 3.1% net margin.",
-    "Cash: $3.3B free cash flow, a 3.2% margin.",
-    "Scorecard: 33/100 average percentile across the factor screens."
+    "Third-quarter 2026 revenue was $28.0B, roughly flat year over year, with a 2.6% operating margin and EPS of $0.22.",
+    "Trailing revenue is $103.6B, up 8.3%, but the operating margin is 3.3% and return on invested capital 2.7%.",
+    "Free cash flow is $3.3B, a 3.2% margin, and net cash is $36.2B; the balance sheet funds the autonomy option.",
+    "{{pe}} trailing earnings and {{evEbitda}} EV/EBITDA are far above peer medians of 24.3x and 16.1x."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
   "irUrl": "https://ir.tesla.com/",
   "bigPicture": {
     "paragraphs": [
-      "Tesla generated $103.6B of revenue over the last twelve months, +8.3% versus the prior year. The business depends on traffic, basket size and the cost of serving the next customer.",
-      "The latest reported quarter was Q3 FY26, with $28B of revenue and an operating margin of 2.6%. The stock closed at $380.11 on 2026-11-17, giving a market capitalization of $1.5T.",
-      "The shares sit 41% of the way up their 52-week range ($297.38 to $498.83). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Vehicle revenue stalled in the September quarter. Total revenue was $28.0B, roughly flat against $28.1B a year earlier, and the operating margin was 2.6%. Net margin was 2.8% and EPS $0.22. Fiscal 2025 revenue fell 2.9%, so the car business has stalled at a level that would be unremarkable for a mass-market automaker. The company is priced as a technology platform, not an automaker. Volume is the missing variable in the current story.",
+      "Automotive is 86.5% of revenue and includes vehicle sales, regulatory credits, leasing and services; Energy is 13.5% and includes Megapack and Powerwall. The United States is 50.2% of revenue, China 22.1% and other countries 27.7%. China is both a large market and a manufacturing base, and it is the most competitive part of the portfolio. The geographic exposure is as important as the segment mix. A pricing change in China would reach the consolidated margin quickly.",
+      "The {{pe}} trailing multiple and {{evEbitda}} EV/EBITDA compare with peer medians of 24.3x and 16.1x, a gap that is not a premium but a different asset class. The 52-week range is {{range52}}, with the shares {{rangePosition}} of the way up it and {{return1y}} over the year. The price is an option on robotaxi, FSD and Optimus, none of which is a material revenue line today. The cash pile gives that option time."
     ],
-    "quote": "Tesla is the clearest example in this coverage universe of a stock price that is disconnected from current earnings. The debate is about the probability and timing of future businesses."
+    "quote": "Tesla's car business earns a thin margin; the share price is a wager on autonomy arriving before the cash pile runs down."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,48 @@ export const TSLA: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 25.2% a year across the fiscal years in the dataset, and the latest quarter changed -0.2% year over year. Third-party estimates for the current fiscal year point to $107.9B of revenue and $1.72 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 3.3% and return on invested capital of 5.1% are the filters to watch as revenue scales."
+      "Vehicle pricing is the core variable. Automotive is 86.5% of revenue, and the operating margin has fallen from 9.2% in fiscal 2023 to 3.3% trailing. That is a pricing problem before it is a volume problem. Energy is 13.5% of revenue and less correlated with vehicle pricing, but it is too small to carry the consolidated margin on its own.",
+      "The revenue base has been flat for three years: $96.8B in fiscal 2023, $97.7B in fiscal 2024 and $94.8B in fiscal 2025. Trailing revenue is $103.6B, up 8.3%, but the third quarter was flat. A stalled product cycle is now the base case, not a temporary dip. Segment mix is not the problem; the vehicle price is. The price is the problem.",
+      "Consensus for 2026 is $107.9B revenue and $1.72 EPS, with 2027 at $122.4B and $2.16. The December quarter is estimated at $29.3B and $0.50, a 17.6% revenue increase with flat EPS. The 2027 EPS growth of 25.2% assumes a margin recovery that the last four quarters have not delivered. The 2026 estimate already assumes double-digit revenue growth. The burden of proof has shifted to the next product cycle."
     ],
     "bullets": [
       {
-        "title": "New vehicles",
-        "detail": "A lower-cost model and refreshed products could revive volume growth."
+        "title": "Vehicle pricing",
+        "detail": "Automotive is 86.5% of revenue. The operating margin has fallen from 9.2% in fiscal 2023 to 3.3% trailing, which is a pricing problem before it is a volume problem."
       },
       {
         "title": "Energy storage",
-        "detail": "Megapack demand is strong, but project timing makes revenue lumpy."
+        "detail": "Energy is 13.5% of revenue and less correlated with vehicle pricing. It is too small to carry the consolidated margin on its own."
       },
       {
         "title": "Autonomy",
-        "detail": "FSD and robotaxi are the largest potential growth vectors, but the timing is uncertain."
+        "detail": "FSD, robotaxi and Optimus are not material revenue today. They are the reason the multiple is 478.9x rather than 24x."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 3.3%, the net margin is 3.1% and diluted EPS is $0.91. The latest quarter's operating margin was 2.6%.",
-      "Return on equity is 3.6%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $28B, an operating margin of 2.6% and a net margin of 2.8%."
+      "A 2.6% operating margin in the quarter and 3.3% trailing is the end of a clear slide: 9.2% in fiscal 2023, 7.2% in fiscal 2024, 4.6% in fiscal 2025 and 3.3% now. Net margin was 3.1% trailing and 2.8% in the quarter; EPS was $0.22. The car business is still profitable, but the margin no longer funds the autonomy programme from operations alone.",
+      "Gross margin is 19.3% trailing, respectable for an automaker but not for a company priced as a technology platform. Return on invested capital is 2.7%, against a 24.6% peer median, and the 3.3% operating margin is below the 14.1% peer median. Return on equity is 3.6%. The gap is pricing, utilisation and the cost of the autonomy programme. The return gap is wider than the margin gap."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.3B, a 3.2% margin. The balance sheet carries $35.9B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $3.3B over the last twelve months and net debt was -$35.9B; interest cover was 20.0x."
+      "A $36.2B net cash position is the most important number in the investment case because it funds the option. At that level it is roughly eleven years of trailing free cash flow, and it removes near-term financing risk. Trailing free cash flow was $3.3B, a 3.2% margin; in fiscal 2025, capex of $8.5B absorbed 58% of the $14.7B of operating cash flow, leaving $6.2B.",
+      "The company pays no dividend, so the cash is being retained for capacity, AI compute and the robotaxi programme. The second quarter of 2026 was negative $1.1B, which shows how uneven the cash generation can be. That is the funding plan, and it is why the balance sheet matters more than the income statement. The option is funded from the balance sheet, not operations."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 464.6x trailing earnings and 160.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $412.48; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "The 52-week range is {{range52}}, with the shares {{rangePosition}} of the way up it and a one-year return of {{return1y}}. The {{pe}} trailing multiple and {{evEbitda}} EV/EBITDA are far above peer medians of 24.3x and 16.1x. On 2026 EPS of $1.72 the shares trade at about 227x, and on 2027 EPS of $2.16 about 181x. The earnings base is almost irrelevant to the price.",
+      "The peer gap is so wide that comparison breaks down. Amazon trades at 20.7x, Home Depot at 24.3x and McDonald's at 21.6x, all with operating margins between 12.4% and 46.9%. Tesla at 478.9x is priced outside the group. A normal auto multiple on $103.6B of revenue would leave most of the market capitalisation unexplained by the current business. The equity value sits almost entirely outside the car business.",
+      "The option value is doing the work. Robotaxi, FSD and Optimus are not material revenue today, and the market is assigning a large value to a revenue line that does not yet exist. The cash pile gives that option time to mature, but it does not reduce the execution risk. A slip in the autonomy timeline would compress the multiple before it changed the car business."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "40 analysts contribute to the third-party consensus. The mean target is $412.48, with a range of $128.11 to $600.00.",
-      "Current-year estimates call for $107.9B of revenue and $1.72 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 40 analysts with a mean target of $412.48; third-party estimates can change without notice."
+      "A $412 mean target, only about 6% above the current price, is unusually close for a stock with this much narrative energy. The 40 analysts span $128 to $600, and the cluster sits near the market price rather than at the high end. The debate is about timing, not direction.",
+      "2026 revenue is forecast at $107.9B and EPS at $1.72; 2027 at $122.4B and $2.16. The December quarter is estimated at $29.3B and $0.50, a 17.6% revenue increase with flat EPS. The 30-day EPS revision is -1.5%, so the bar is being lowered even as the autonomy story stays intact."
     ]
   },
   "risks": {
@@ -158,5 +157,7 @@ export const TSLA: StockStory = {
       "Can energy storage become a material profit pool?",
       "What happens to the stock if autonomy timelines slip another three years?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const AXP: StockStory = {
   "dek": "Amex issues the card, runs the network, signs the merchant and lends to the cardholder. That closed loop produces both fee revenue and credit risk, which is why its 34.2% return on equity sits between a bank's and a payment network's.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $43.9B trailing twelve months, +8.9% year over year.",
-    "Profitability: 35.2% operating margin and 27.9% net margin.",
-    "Cash: $13.9B free cash flow, a 31.7% margin.",
-    "Scorecard: 59/100 average percentile across the factor screens."
+    "September-quarter revenue was $11.2B with a 40.3% operating margin, the widest in the eight quarters shown, and EPS of $5.42.",
+    "Trailing return on equity is 34.2%, supported by a lending book funded with deposits and wholesale borrowings rather than by equity.",
+    "At $307 the shares sit 21% below the 52-week high of $387 while trailing earnings carry a 16.8x multiple.",
+    "Consensus FY2026 EPS of $18.39 implies 19.6% growth, slowing to 9.7% in FY2027 as credit normalises."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000004962&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "AMERICAN EXPRESS CO. generated $43.9B of revenue over the last twelve months, +8.9% versus the prior year. The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns.",
-      "The latest reported quarter was Q3 FY26, with $11.2B of revenue and an operating margin of 40.3%. The stock closed at $315.78 on 2026-11-17, giving a market capitalization of $211.7B.",
-      "The shares sit 26% of the way up their 52-week range ($290.97 to $387.49). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "American Express earned $11.2B of revenue in the September quarter, 7.7% more than a year earlier, and lifted its operating margin from 36.7% to 40.3%. Net income was 33.0% of revenue and diluted EPS was $5.42 against a $4.50 consensus. Revenue growth of 7.7% producing 18% operating-income growth is the whole result: the cost of rewards and service rose more slowly than billed business, and the quarter's margin is the widest in the eight periods shown.",
+      "The closed loop is why the margin can move that way. Amex issues the card, signs the merchant, runs the network and lends to the cardholder, so it collects a discount fee, an annual fee and net interest income on the same relationship. US Consumer Services supplied 37.8% of revenue, Commercial Services 28.7%, International Card Services 18.3% and Global Merchant and Network Services 15.3%. The first and third carry the loan book and the credit risk; the fourth is the closest thing to a pure toll.",
+      "A 16.8x trailing earnings multiple, 12.8x EV/EBITDA and 14.8x free cash flow put the shares at roughly half the earnings multiples of Visa's 32.5x and Mastercard's 32.7x, and at a premium to JPMorgan's 12.8x and Bank of America's 10.4x. A 34.2% return on equity explains part of that. The rest is the market's judgment that the fee stream deserves a network multiple while the loan book deserves a bank one. The 1.3% dividend yield is small, so capital return is not what supports the multiple."
     ],
-    "quote": "The closed loop lets Amex keep the merchant fee, the card fee and the interest. It also puts the credit loss on its own books."
+    "quote": "Amex takes a network fee and a lending spread on the same card, and 16.8x earnings is the price of that hybrid."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,48 +52,49 @@ export const AXP: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 6.6% a year across the fiscal years in the dataset, and the latest quarter changed +7.8% year over year. Third-party estimates for the current fiscal year point to $79.4B of revenue and $18.39 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 35.2% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Revenue compounded from $27.7B in FY2021 to $41.3B in FY2025, with the pace slowing from 26.1% to 6.4% as the post-pandemic travel recovery annualised. The trailing figure is $43.9B, up 8.9%, so the business has settled into a high-single-digit run rate. The model leans on premium products and annual fees, which behave like subscriptions and are less sensitive to a single quarter's spending than discount revenue.",
+      "The September quarter shows the operating leverage. Revenue rose $0.8B, or 7.7%, and the operating margin added 3.6 points, so operating income rose about 18%. Rewards expense is a variable cost that accrues per dollar spent, which normally makes margin expansion hard to achieve on volume growth. The quarter's answer is that cost growth lagged spending; whether that is efficiency or timing is the question the next two quarters answer.",
+      "Consensus puts FY2026 EPS at $18.39, up 19.6%, and FY2027 at $20.17, up 9.7%. That shape assumes one more year of margin expansion and benign credit, then a normalisation. The revenue estimates in the same series are not comparable with reported net revenue, so the EPS path is the more reliable guide. The key assumption is credit: the figures here do not break out charge-offs or provisions, and a lender's earnings estimate is only as good as its loss assumption."
     ],
     "bullets": [
       {
-        "title": "Cardmember spending",
-        "detail": "Discount revenue rises with billed business, especially travel and entertainment."
+        "title": "Premium spending",
+        "detail": "Travel, dining and entertainment drive billed business, and that mix is sensitive to asset prices and employment. A pullback there hits discount revenue before it hits credit losses."
       },
       {
-        "title": "Loan balances",
-        "detail": "Interest income grows with revolving balances, but so does credit risk."
+        "title": "Annual fees",
+        "detail": "Card fees are paid up front for rewards, lounge access and status. They behave like subscriptions and give the revenue line a base that does not depend on monthly spending."
       },
       {
-        "title": "Premium fees",
-        "detail": "Annual fees and travel benefits support the brand and attract high-spending customers."
+        "title": "Credit costs",
+        "detail": "The loan book is unsecured. Charge-offs and provisions are not reported here, so the 34.2% return on equity has to be read against an unknown loss rate."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 35.2%, the net margin is 27.9% and diluted EPS is $17.76. The latest quarter's operating margin was 40.3%.",
-      "Return on equity is 34.2%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $11.2B, an operating margin of 40.3% and a net margin of 33.0%."
+      "The margin history is a two-year improvement: operating margin 28.2% in FY2023, 33.2% in FY2024 and 33.4% in FY2025, with the trailing figure at 35.2%. Net margin moved from 22.5% to 26.2% and then 27.9%. EPS went from $11.21 to $14.01 and $15.38 over the same years. Part of that is revenue mix and part is a period of low credit losses, and the two are hard to separate with the disclosures available.",
+      "The quarterly path shows seasonality as well as trend: 35.9%, 36.3% and 40.3% in Q1 through Q3 FY2026, against 34.6%, 34.4%, 36.7% and 28.2% in the prior year. The December quarter is consistently the weakest, which is why the 28.2% print in Q4 FY2025 is not a deterioration. The September quarter is consistently the strongest, and 40.3% is the high end of the range.",
+      "Returns are where the hybrid shows. Return on equity is 34.2% and return on invested capital 12.8%, a gap that reflects a lender funded largely by deposits and borrowings. Interest cover of 0.8x looks alarming and is not: interest expense is a cost of funding the loan book, not a fixed charge on operating profit, so the ratio says nothing about solvency. The 12.8% return on invested capital against an 11.5% peer median is the cleaner comparison."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $13.9B, a 31.7% margin. Net debt is not a meaningful measure for this business in the current dataset.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "FCF was $13.9B, a 31.7% margin, from $18.4B of operating cash flow and $2.4B of capex in FY2025. For a card lender that number is a residual: operating cash flow moves with loan balances, deposit funding and cardmember receivables, so a single year says more about balance-sheet flows than about earnings power. The 14.8x price-to-free-cash-flow multiple should be read with that caveat, and the 31.7% margin is not a proxy for distributable profit.",
+      "The better measures are the ones the business actually runs on. Net debt of $16.5B is 0.9x EBITDA, and the loan book is funded through deposits and wholesale borrowings whose balances are not reported here. The 1.3% dividend yield is the only capital return quantified. With a 34.2% return on equity, retained earnings do most of the work of supporting loan growth, which is why the payout is modest."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 17.3x trailing earnings and 12.2x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $364.79; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Trailing multiples of 16.8x earnings, 12.8x EV/EBITDA and 5.1x sales place Amex between two very different sets of comparables. Visa at 32.5x and Mastercard at 32.7x are pure networks with 58-61% operating margins; JPMorgan at 12.8x and Bank of America at 10.4x are balance-sheet lenders. Amex's 35.2% operating margin and 34.2% return on equity put it closer to the networks on returns and closer to the banks on risk.",
+      "The forward math is not demanding. FY2026 EPS of $18.39 implies 16.7x and FY2027 EPS of $20.17 implies 15.2x, so the multiple barely de-rates even as growth slows to 9.7%. That is reasonable only if the 19.6% EPS growth in 2026 lands. If credit costs normalise faster than the estimate assumes, the $20.17 for 2027 is the number that moves, and a lender's multiple usually falls before its estimates do.",
+      "The 21% gap between the current price and the 52-week high of $387 is the market's markdown of that risk. A 6.8% free-cash-flow yield offers a valuation floor that a pure network does not have, but it is a residual measure for a lender. The stock is cheap against payments and expensive against banks, which is the correct shape for a hybrid until credit gives a cleaner signal."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "24 analysts contribute to the third-party consensus. The mean target is $364.79, with a range of $329.00 to $425.00.",
-      "Current-year estimates call for $79.4B of revenue and $18.39 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 24 analysts with a mean target of $364.79; third-party estimates can change without notice."
+      "Yahoo Finance's consensus, as of 18 November 2026, covers 24 analysts with a mean target of $365 and a range of $329 to $425. Every target sits above the $307 price, which is unusual and suggests the sell side views the de-rating as sentiment rather than a change in earnings power. The analyst views lean positive but carry a large neutral block, with no negative views.",
+      "Estimate revisions are firmly positive: 4.3% over 30 days and 4.1% over both 60 and 90 days, following a September quarter that beat by $0.92 ($5.42 against $4.50). The consensus assumes FY2026 EPS of $18.39 and FY2027 of $20.17. Embedded in both is a credit loss rate the published figures do not disclose, so the estimates are a bet on the consumer as much as on the franchise."
     ]
   },
   "risks": {
@@ -157,5 +158,7 @@ export const AXP: StockStory = {
       "How much of the earnings base depends on travel and entertainment spending?",
       "What would a two-point rise in unemployment do to provisions?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

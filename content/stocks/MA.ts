@@ -7,20 +7,20 @@ export const MA: StockStory = {
   "dek": "A 58.6% operating margin and a 44.3% free-cash-flow margin come from charging fees on card spending and selling services around the network. The 251.6% return on equity is mostly a statement about how little equity is left after buybacks.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $36.3B trailing twelve months, +15.3% year over year.",
-    "Profitability: 58.6% operating margin and 46.7% net margin.",
-    "Cash: $16.1B free cash flow, a 44.3% margin.",
-    "Scorecard: 60/100 average percentile across the factor screens."
+    "Revenue reached $36.3B over the last twelve months, 15.3% higher, with a 58.6% operating margin and $16.1B of free cash flow.",
+    "Free cash flow is 44.3% of revenue and net debt is $13.8B, or 0.6x EBITDA.",
+    "The 251.1% return on equity reflects a buyback-shrunk equity base, not 20 times the profitability of a bank.",
+    "At 25.3x EBITDA the shares trade at a small discount to Visa at 26.2x despite faster revenue growth."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001141391&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Mastercard Inc. generated $36.3B of revenue over the last twelve months, +15.3% versus the prior year. The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns.",
-      "The latest reported quarter was Q3 FY26, with $9.8B of revenue and an operating margin of 59.8%. The stock closed at $645.73 on 2026-11-17, giving a market capitalization of $562.5B.",
-      "The shares sit 83% of the way up their 52-week range ($464.52 to $681.99). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Mastercard's third quarter produced $9.8B of revenue, a 59.8% operating margin and $5.28 of earnings per share, the strongest quarter of the year. Trailing revenue is $36.3B, up 15.3%, and free cash flow is $16.1B. The result is a reminder that the network grows faster than the nominal spending it processes, because value-added services and cross-border mix add to the core toll. Revenue has grown at a double-digit rate in each of the last four quarters.",
+      "The business has two engines. The payment network charges fees on card volume and transaction count; value-added services — fraud, identity, analytics, consulting, loyalty and open banking — earn fees that are less tied to card volume. Mastercard also owns real-time payments infrastructure that banks use for account-to-account transfers, which is a hedge against the card rails being bypassed. International markets are 57.2% of revenue. That mix is why the revenue base is broader than a card toll alone.",
+      "Capitalised at $554.8B, Mastercard trades at 32.7x earnings and 25.3x EBITDA, against Visa at 32.5x and 26.2x. The slight EBITDA discount is small enough to be explained by the lower operating margin rather than by a different view of growth. Both networks have re-rated together over the past year, which is a statement about the durability of the toll model. Neither multiple leaves much room for a slower growth year."
     ],
-    "quote": "The network does not care whether a transaction is debit or credit, domestic or cross-border. It cares how many transactions pass through and how much each one is worth."
+    "quote": "Mastercard keeps 44 cents of every revenue dollar as free cash flow, which is why buybacks rather than dividends set the per-share record."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,50 @@ export const MA: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 4.6% a year across the fiscal years in the dataset, and the latest quarter changed +14.0% year over year. Third-party estimates for the current fiscal year point to $37.4B of revenue and $20.06 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 58.6% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "The top line moved from $25.1B in 2023 to $28.2B in 2024, $32.8B in 2025 and $36.3B trailing. Growth has run at 12.9%, 12.2%, 16.4% and 15.3%, so the pace has picked up rather than slowed. Consensus looks for $37.4B in 2026 and $42.1B in 2027, growth of 14.0% and 12.6%. The 2025 rate of 16.4% was the strongest of the last three years, and the trailing rate is close to it.",
+      "Value-added services and real-time payments are the faster-growing parts. Both sell into the same customers as the network, which lowers the cost of distribution, and both carry fees that are less directly tied to card volume. The constraint is rebates: large issuers negotiate hard, and rising incentives reduce net revenue even when gross volume grows. The financials do not disclose the split between volume, price and services.",
+      "International markets are the larger pool at 57.2% of revenue, and they are also where cash-to-card conversion has further to run. That gives Mastercard a longer runway than a purely domestic network, but it also exposes the company to currency and to regulators in markets where card fees are more politically sensitive. The consensus growth rate assumes both effects net out in the company's favour."
     ],
     "bullets": [
       {
-        "title": "Cross-border volume",
-        "detail": "The highest-fee category and the most sensitive to travel and international e-commerce."
+        "title": "Value-added services",
+        "detail": "Fraud, identity and consulting fees grow faster than card volume and make the issuer relationship stickier."
       },
       {
-        "title": "Services attach",
-        "detail": "Fraud, identity and analytics sold to existing issuers and acquirers at high incremental margin."
+        "title": "Real-time rails",
+        "detail": "Account-to-account infrastructure is a hedge against domestic card displacement rather than a separate business."
       },
       {
-        "title": "New flows",
-        "detail": "B2B, disbursements and account-to-account payments extend the network beyond consumer cards."
+        "title": "Rebates",
+        "detail": "Large issuers capture a share of gross revenue through incentives, so net revenue is the honest measure of pricing power."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 58.6%, the net margin is 46.7% and diluted EPS is $19.12. The latest quarter's operating margin was 59.8%.",
-      "Return on equity is 251.6%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $9.8B, an operating margin of 59.8% and a net margin of 47.2%."
+      "The third-quarter operating margin was 59.8%, up from 58.8% a year earlier, and the trailing margin is 58.6%. Net margin was 47.2% and earnings per share $5.28. The margin has widened from 52.8% in 2020 to 57.6% in 2025 and 58.6% trailing, a steady gain rather than a step change, which fits a network adding higher-margin services to a fixed cost base.",
+      "Return on invested capital is 56.2%, the highest in the financial peer group, and return on equity is 251.1%. The equity figure is not a measure of profitability: buybacks have reduced the denominator so far that the ratio is almost meaningless. Visa earns a 40.4% return on invested capital and a 65.1% return on equity, so Mastercard is higher on capital efficiency and lower on margin.",
+      "The margin gap to Visa is the interesting one. Visa's 61.2% operating margin is 2.6 points above Mastercard's 58.6%, but Mastercard's revenue grew 15.3% against Visa's 14.8%. The market values them within a turn on EBITDA, which suggests the difference in margin is seen as a mix effect rather than a durable advantage. Neither network's margin is decisive at this level."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $16.1B, a 44.3% margin. The balance sheet carries $10.5B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $16.1B over the last twelve months and net debt was -$10.5B; interest cover was n/a."
+      "Mastercard produced $16.1B of free cash, or 44.3% of revenue; in 2025 the figure was $17.2B on operating cash flow of $17.6B and capex of $489.0M. The conversion is high because the network is already built: capex is about 1.5% of revenue, and the marginal cost of a transaction is close to zero. The 44.3% free-cash-flow margin is slightly below Visa's 48.1%, which fits the margin gap.",
+      "Net debt is $13.8B, or 0.6x EBITDA, and interest cover is 26.2x. The dividend yield is 0.6%, so most of the cash goes into buybacks; that is why the share count falls and why the return on equity is so high. The financials do not quantify repurchases, but the 251.1% return on equity is indirect evidence that the buyback is large relative to the equity base.",
+      "At 34.5x free cash flow and a 2.9% free-cash-flow yield, the shares are priced for the cash stream to keep compounding at a low-double-digit rate. The buyback amplifies per-share growth while the multiple holds, but it also leaves less equity to absorb a downturn. The choice is deliberate, not a sign of leverage. The equity base is small enough that a modest buyback moves the ratio."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 33.2x trailing earnings and 24.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $720.69; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $637 the market value is $554.8B, equal to 32.7x earnings, 25.3x EBITDA and 15.7x sales. On sales, Mastercard is the cheaper network. The 52-week band of $465 to $682 puts the price near the top after a 19.2% year, against 93.0% over five years. Visa trades at 32.5x earnings and 26.2x EBITDA, so the two are valued almost identically. The market treats them as substitutes.",
+      "The slight EBITDA discount to Visa is defensible on margin and less so on growth. Mastercard's operating margin is 58.6% against 61.2%, but its revenue growth is 15.3% against 14.8% and its return on invested capital is 56.2% against 40.4%. On a growth-adjusted basis the shares look slightly cheaper than Visa, which is unusual for the network with the longer international runway.",
+      "The forward multiple is where the risk sits. Consensus expects EPS of $20.06 in 2026 and $23.16 in 2027, putting the shares at about 31.8x and 27.5x. A 27.5x multiple for 15.5% growth is full, and it assumes rebates stay contained and regulation does not change the fee pool. The 2.9% free-cash-flow yield offers little cushion if either assumption fails."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "37 analysts contribute to the third-party consensus. The mean target is $720.69, with a range of $550.00 to $800.00.",
-      "Current-year estimates call for $37.4B of revenue and $20.06 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 37 analysts with a mean target of $720.69; third-party estimates can change without notice."
+      "Yahoo Finance's 18 November 2026 survey covers 37 analysts, with a mean target of $721 and a range of $550 to $800. The mean is 13% above the current price, but the low end is 14% below it, so the coverage is positive with a wide band of disagreement.",
+      "Revisions are stable: EPS is 0.6% higher than 30 days ago and 0.7% higher than 90 days ago. The current-year estimate of $20.06 implies 17.9% growth and 2027 at $23.16 implies 15.5%. The consensus is assuming the growth rate decelerates gently while the multiple holds, which is the combination that leaves the least room for a regulatory surprise."
     ]
   },
   "risks": {
@@ -158,5 +159,7 @@ export const MA: StockStory = {
       "How fast are account-to-account rails taking domestic volume in key markets?",
       "What growth rate is needed to justify 33.5x earnings?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

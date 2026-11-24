@@ -7,20 +7,20 @@ export const CMCSA: StockStory = {
   "dek": "Revenue is flat at $123B, free cash flow is $19.7B and the shares trade at 5.0x EV/EBITDA. Broadband and parks have to offset a shrinking video business.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $123B trailing twelve months, -0.2% year over year.",
-    "Profitability: 14.7% operating margin and 9.2% net margin.",
-    "Cash: $19.7B free cash flow, a 16.0% margin.",
-    "Scorecard: 43/100 average percentile across the factor screens."
+    "Trailing revenue of $123.0B was slightly lower than a year earlier, and the operating margin fell to 14.7% from 16.7% in fiscal 2025.",
+    "Free cash flow is $19.7B, a 16.0% margin and a 22.6% yield, which is why the shares trade at 4.4x free cash flow.",
+    "Residential Connectivity is 57.2% of revenue; Media and Studios together are 31.0% and carry the structural decline.",
+    "Net debt of $79.8B is 2.4x EBITDA, and interest cover of 4.3x leaves little room for a cash-flow slip."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001166691&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "COMCAST CORP. generated $123B of revenue over the last twelve months, -0.2% versus the prior year. The key question is whether audience, content or network scale can be monetised without giving away the margin.",
-      "The latest reported quarter was Q3 FY26, with $29.3B of revenue and an operating margin of 18.2%. The stock closed at $25.31 on 2026-11-17, giving a market capitalization of $89.9B.",
-      "The shares sit 39% of the way up their 52-week range ($20.48 to $32.86). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Revenue fell 6.1% to $29.3B in the third quarter, yet the operating margin rose to 18.2% and diluted EPS was $0.97. Free cash flow was $4.8B. The combination matters: the top line is shrinking while the margin improves, which says cost cuts are outrunning the loss of subscribers. The market has to decide which of those two forces lasts longer. Broadband is the only segment that can carry that burden.",
+      "The company owns the pipes and sells the content that runs over them. Residential Connectivity, at 57.2% of revenue, is broadband, video, voice and mobile sold to homes; Business Services is 8.3%; Media is 21.9%; Studios is 9.1%. Broadband is the profit pool because the network cost is sunk, while video is a resale business whose programming costs keep rising even as subscribers leave. That asymmetry explains why a flat revenue line can hide a deteriorating mix.",
+      "Comcast is worth $87.0B at $25, or 1.4x sales, 5.0x EBITDA, 7.7x earnings and 4.4x free cash flow. Against a 20.3x median earnings multiple and 15.0x median EBITDA, the discount is not marginal; it is a terminal-value judgment. A 22.6% free-cash-flow yield says the market expects the distribution business to shrink faster than management can replace the profit. The dividend yield of 5.3% is the compensation for owning that decline."
     ],
-    "quote": "A cable company is a toll road with a programming bill attached. The tolls recur, the bill is renegotiated every few years, and the traffic can leave."
+    "quote": "Comcast generates a fifth of its market value in free cash flow each year, a yield that only makes sense if the cash stream is shrinking."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -51,35 +51,50 @@ export const CMCSA: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 2.1% a year across the fiscal years in the dataset, and the latest quarter changed -6.1% year over year. Third-party estimates for the current fiscal year point to $119.8B of revenue and $3.50 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 14.7% and return on invested capital of 8.3% are the filters to watch as revenue scales."
+      "Revenue was $103.6B in fiscal 2020, $123.7B in fiscal 2024 and $123.7B in fiscal 2025, and trailing revenue is $123.0B, down 0.2%. The company has stopped growing at the consolidated level. Consensus expects $119.8B in 2026, down 3.2%, and $116.4B in 2027, down 2.8%, so the forecast is for contraction rather than a return to growth. The two flat years are the clearest evidence that the cable model has matured.",
+      "The mix explains the trajectory. Residential Connectivity is the largest segment, but broadband subscriber growth has slowed, and video is in structural decline as streaming takes households. Media and Studios face the same shift from linear to streaming. The offsets are Business Services, which sells connectivity to companies, and the parks, which earn high margins on attendance and in-park spending. Neither is large enough to offset the two declining pools.",
+      "Estimates assume the decline moderates rather than reverses. The 2027 revenue estimate of $116.4B is 2.8% lower, and the EPS estimate of $3.52 is 0.6% higher, which implies cost cuts and a stable margin on a smaller base. That is the same lever the company has pulled for three years, and there is a limit to how much cost can come out before the network and the content suffer."
+    ],
+    "bullets": [
+      {
+        "title": "Broadband pool",
+        "detail": "Connectivity carries the group because the network is already built. Subscriber additions and revenue per user decide whether the cash flow holds."
+      },
+      {
+        "title": "Video decline",
+        "detail": "Video is resold programming with a rising cost per subscriber. Every customer who leaves takes revenue but not the programming contract."
+      },
+      {
+        "title": "Parks and studios",
+        "detail": "Parks earn high margins on attendance, and the studio supplies films that feed them. Both are cyclical and neither is large enough to carry the group."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 14.7%, the net margin is 9.2% and diluted EPS is $3.17. The latest quarter's operating margin was 18.2%.",
-      "Return on equity is 12.2%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $29.3B, an operating margin of 18.2% and a net margin of 11.8%."
+      "Operating margin came in at 18.8% in fiscal 2024, 16.7% in fiscal 2025 and 14.7% trailing. Net margin was 13.1%, 16.2% and 9.2% over the same periods, a wider swing that reflects one-off items below the operating line. The June 2025 quarter's 36.7% net margin is the clearest example: it is not a run rate and should not be used as a base.",
+      "The operating decline is the real story. Revenue was flat while operating income fell from $23.30B in fiscal 2024 to $20.67B in fiscal 2025, a fall of more than a tenth. Fixed costs in cable and media do not shrink with the subscriber base, so a small revenue decline produces a much larger profit decline. The September quarter's 18.2% margin shows the cost cuts working, but it is one quarter.",
+      "The returns are the weakest part of the case. Return on invested capital is 7.8% and return on equity 12.2%, against a 21.3% peer return on capital. The cable network is a mature asset with a large depreciated base, and the media assets earn less than the capital tied up in them. Interest cover of 4.3x is the constraint that turns a low return into a risk rather than merely a disappointment."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $19.7B, a 16.0% margin. Net debt is $79.8B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $19.7B over the last twelve months and net debt was $79.8B; interest cover was n/a."
+      "Trailing FCF was $19.7B, a 16.0% margin. Fiscal 2025 reported operating cash flow was $33.6B and capital spending $11.8B on the network. The conversion is strong because the network is built and the content is expensed. Net debt is $79.8B, or 2.4x EBITDA, and interest cover is 4.3x, so roughly a fifth of operating income goes to interest before tax.",
+      "The cash flow is the reason the equity has a price at all. A 22.6% free-cash-flow yield is unusual for a large company and implies either a mispricing or a market that expects the cash stream to shrink. The dividend takes 5.3% of the share price, and the rest is available for debt reduction and buybacks; the accounts do not split the two, but net debt fell from $91.8B in fiscal 2024 to $79.8B trailing.",
+      "The risk is that the cash flow is not a perpetuity. Broadband is the profit pool, and it is the segment most exposed to fibre and fixed wireless competition. If broadband subscribers fall, the cash flow falls with them, and the 4.4x free-cash-flow multiple becomes a value trap rather than a bargain. The September quarter's $4.8B is consistent with the annual run rate; the question is the direction."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 7.9x trailing earnings and 5.1x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $27.98; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Comcast changes hands at 7.7x earnings, 5.0x EBITDA, 1.4x sales and 4.4x free cash flow, with a 22.6% free-cash-flow yield. The group's median earnings multiple is 20.3x and its median EBITDA multiple 15.0x. The discount is the market's estimate of terminal decline, not a temporary derating, and the free-cash-flow yield is the number that captures it. A 22.6% yield is not a normal valuation for a profitable company; it is a distress signal with a cash coupon.",
+      "On estimates, the shares trade at about 7.1x 2026 EPS of $3.50 and 7.1x 2027 EPS of $3.52. The earnings are flat because revenue is forecast to fall 3.2% and 2.8% while costs come out. A 7x multiple on flat earnings is not obviously cheap if the earnings are the top of a declining stream; it is cheap only if the decline stops.",
+      "Disney and T-Mobile frame the choice. Disney earns a 23.7x multiple on 4.6% growth; T-Mobile 15.3x on 9.3% growth and more leverage. Comcast at 7.7x and 5.0x has neither growth nor a clean balance sheet. The market is pricing the cable assets as a declining annuity, and the burden of proof is on broadband stabilisation. That is why the free-cash-flow yield is so high."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "22 analysts contribute to the third-party consensus. The mean target is $27.98, with a range of $17.00 to $42.00.",
-      "Current-year estimates call for $119.8B of revenue and $3.50 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 22 analysts with a mean target of $27.98; third-party estimates can change without notice."
+      "At Yahoo Finance, the 18 November 2026 consensus covers 22 analysts, with a mean target of $28 and a range of $17 to $42. The balance is the most negative in the group: a minority of positive views, a large neutral bloc and four analysts in the negative camp. The mean is 12% above the $25 price, but the range spans a 32% discount to a 68% premium.",
+      "Estimates call for $119.8B of revenue and $3.50 of EPS in 2026, then $116.4B and $3.52 in 2027. Revisions are flat to slightly negative, at 0.5% over 30 days and -0.3% over 90, so the estimate trend is soft. The consensus assumes the revenue decline moderates and costs keep coming out; a faster broadband loss would challenge both the earnings and the 5.3% dividend."
     ]
   },
   "risks": {
@@ -143,5 +158,7 @@ export const CMCSA: StockStory = {
       "What does the debt maturity schedule look like over the next five years?",
       "Can streaming advertising replace the profit lost from linear channels?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

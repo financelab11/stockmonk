@@ -7,20 +7,20 @@ export const ONTO: StockStory = {
   "dek": "Process control is a small line in a fab's equipment budget and a decisive input to its yield. Onto's sales follow packaging capex, and its operating margin has just travelled a full cycle in six quarters.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $1.1B trailing twelve months, +8.1% year over year.",
-    "Profitability: 12.0% operating margin and 11.8% net margin.",
-    "Cash: $252.5M free cash flow, a 22.5% margin.",
-    "Scorecard: 43/100 average percentile across the factor screens."
+    "Operating margin climbed from 5.2% in the January 2026 quarter to 18.5% in June, on revenue of $343.1M.",
+    "Trailing revenue grew 8.1%, so the 47.9% current-year estimate depends on the packaging ramp holding through the second half.",
+    "Net cash of $1.9B is a fifth of the market value and explains a 5.9% return on invested capital against a 9.4% peer median.",
+    "At 71.5x trailing earnings the shares look expensive, but the $8.48 estimate puts them at 22.8x, below the 54.4x peer median."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/704532/000119312526066937/onto-20260103.htm",
   "irUrl": "https://www.ontoinnovation.com",
   "bigPicture": {
     "paragraphs": [
-      "Onto Innovation Inc. generated $1.1B of revenue over the last twelve months, +8.1% versus the prior year. The cycle is driven by inventory, utilisation and the next node or packaging transition.",
-      "The latest reported quarter was Q2 FY27, with $343.1M of revenue and an operating margin of 18.5%. The stock closed at $199.57 on 2026-11-17, giving a market capitalization of $9.8B.",
-      "The shares sit 29% of the way up their 52-week range ($121.57 to $386.46). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Two quarters were enough to reverse the margin. Revenue reached $343.1M in the three months to 30 June 2026, up from $266.9M in the January quarter, and the operating margin climbed from 5.2% to 18.5%. EPS moved from $0.21 to $1.21 over the same span. For a company that sells inspection and metrology tools on project schedules, that is the signature of a customer spending cycle turning rather than a gradual improvement in pricing.",
+      "Onto's tools decide whether a wafer or a package continues down the line. Inspection finds particles, scratches and voids; metrology measures film thickness, feature size and layer alignment. Both are sold to process and yield engineers and recognised on tool acceptance, so revenue follows customer construction schedules. The customer map explains the volatility: Taiwan is 31.7% of revenue and Korea 27.8%, both tied to foundry and memory capex. A pause in either market reaches the income statement within a quarter.",
+      "The valuation debate is about which earnings figure to use. At 71.5x trailing earnings the shares look expensive against a 54.4x peer median, but the FY2026 EPS of $2.78 is a trough. The current-year estimate of $8.48 puts the shares at 22.8x, and the following year at $12.86 implies 15.0x. Net cash of $1.9B, a fifth of the market value, supports the balance sheet but dilutes returns: ROIC is 5.9% against a 9.4% peer median."
     ],
-    "quote": "Inspection does not make a chip faster. It decides whether the chip can be sold, which is why yield tools hold up longer than most equipment budgets when a fab is chasing a new package."
+    "quote": "Onto's inspection tools are a small line in a fab's budget and a large input to yield; the 18.5% operating margin shows what a packaging cycle does to that leverage."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -51,48 +51,46 @@ export const ONTO: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 17.7% a year across the fiscal years in the dataset, and the latest quarter changed +35.3% year over year. Third-party estimates for the current fiscal year point to $1.5B of revenue and $8.48 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 12.0% and return on invested capital of n/a are the filters to watch as revenue scales."
+      "Yield complexity rises with every packaging generation, and that is the demand driver. Panel-level and wafer-level assembly introduce warpage, die shift and voids at the bond, failure modes that a plain wafer inspection flow was not designed to catch. Each new package therefore adds measurement steps rather than replacing them, which is why tool content per unit of capacity tends to rise. The effect appears only recently in the accounts: trailing revenue grew 8.1%, while the June quarter was 35.3% above the year-earlier $253.6M.",
+      "The estimate path assumes the ramp continues. The September quarter is forecast at $393.8M, 80.5% above the year-earlier $218.2M, and the current fiscal year at $1.5B, 47.9% higher. That is a long way from the 1.8% revenue growth reported for the year to January 2026, when a customer pause met a cost base that had already been built. What is unresolved is whether the June quarter is the start of a packaging capacity cycle or a restocking move ahead of a slower second half."
     ],
     "bullets": [
       {
-        "title": "Packaging content",
-        "detail": "More layers and finer bumps mean more measurement points per finished unit."
+        "title": "Advanced packaging",
+        "detail": "Multi-die and panel-level flows add inspection and metrology steps, but revenue by package type is not disclosed."
       },
       {
-        "title": "Specialty devices",
-        "detail": "RF, power, image sensors and MEMS need process control at mature nodes, where the tool set is simpler but the volumes are large."
+        "title": "Taiwan and Korea",
+        "detail": "The two markets supplied 59.5% of revenue at the last disclosure, tying the order book to foundry and memory capital plans."
       },
       {
-        "title": "Installed-base service",
-        "detail": "Tools already in the field generate revenue that does not depend on the next order."
+        "title": "Installed base",
+        "detail": "Every tool sold carries service and software revenue, which cushions the top line between equipment cycles."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 12.0%, the net margin is 11.8% and diluted EPS is $2.66. The latest quarter's operating margin was 18.5%.",
-      "Return on equity is n/a. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q2 FY27: revenue of $343.1M, an operating margin of 18.5% and a net margin of 17.5%."
+      "Gross margin has narrowed from the mid-50s to 50.4% trailing, and the operating margin of 12.0% is seven points below the 19.0% of FY2024. The decline is a cost story, not a pricing one: revenue in FY2026 was $1.0B against $987.3M two years earlier, while operating income fell from $187.1M to $132.9M. Development and applications spending grew into a revenue base that had stopped growing, and the margin paid for it.",
+      "The recovery is visible in the quarterly bridge. Operating income was $13.9M in the January 2026 quarter and $63.5M in June, so roughly two-thirds of the $76.2M revenue increase reached the operating line. That is high drop-through even for an equipment maker, and it suggests the expense base was already in place. Net margin of 11.8% is close to the operating margin because net cash offsets tax and interest; EPS of $2.78 for FY2026 compares with $4.06 in FY2024."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $252.5M, a 22.5% margin. Net debt is not a meaningful measure for this business in the current dataset.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "Capex of $28.5M is 2.8% of revenue, so almost all of Onto's operating cash flow becomes free cash flow. FY2026 produced $328.3M of operating cash flow and $299.8M of free cash flow, a 29.7% margin, and the trailing figure is $252.5M, or 22.5%. Working capital accounts for the difference: the March 2026 quarter generated only $22.7M of free cash flow on $291.9M of revenue, before recovering to $57.9M in June.",
+      "Net cash of $1.9B is the largest balance-sheet item and the reason returns look weak. It equals about 12x EBITDA and a fifth of the market value, and it earns a deposit rate rather than an operating return. That is why ROIC is 5.9% and ROE 6.9% despite a 50% gross margin. Neither a dividend nor a repurchase is reported; the cash has funded acquisitions, which is also why the return on invested capital sits below the peer median."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 73.9x trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $329.00; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Seventy-one times trailing earnings, 48.6x EBITDA and 6.8x sales sit above peer medians of 54.4x and 30.1x, and 37.5x free cash flow is a 2.7% yield, but the earnings denominator is the problem. On the $8.48 current-year estimate the multiple is 22.8x, and on the $12.86 following-year figure it is 15.0x. Rarely does a semiconductor equipment maker trade below its peer group on forward earnings while carrying a trailing premium; the gap is the market's doubt about the estimate rather than a valuation anomaly.",
+      "At the peer median 54.4x, the $8.48 estimate would value the shares at $461, above the highest published target of $450. That arithmetic shows how much of the current price depends on the estimate being met. The multiple assumes the June quarter's 18.5% operating margin holds through a packaging capacity cycle and that gross margin stays near 50%; a return to the FY2026 pattern of mid-single-digit operating margins would leave the shares on the trailing multiple."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "12 analysts contribute to the third-party consensus. The mean target is $329.00, with a range of $240.00 to $450.00.",
-      "Current-year estimates call for $1.5B of revenue and $8.48 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 12 analysts with a mean target of $329; third-party estimates can change without notice."
+      "Twelve analysts in the Yahoo Finance survey of 18 November 2026 carry a mean target of $329 against a $193 price and a range of $240 to $450. Every published view sits on the positive side of the distribution, three at the most constructive end and nine less emphatic. The revision trend is modest but positive: EPS estimates rose 4.5% over seven days and 4.8% over ninety, and the June quarter beat by 6%.",
+      "The estimates embed a sharp recovery rather than a steady one. Current-year EPS of $8.48 is roughly three times the $2.78 reported for the year to January 2026, and the following year at $12.86 is more than four times. Even the lowest target of $240 implies a 24% gain, so the dispersion is about how much of the packaging cycle arrives, not whether it does. The June quarter's 18.5% margin is the first evidence the estimates can point to."
     ]
   },
   "risks": {
@@ -162,5 +160,7 @@ export const ONTO: StockStory = {
       "What does the top-customer disclosure say about concentration?",
       "Is the Q2 FY27 revenue level a new base or a restocking peak?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

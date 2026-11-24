@@ -7,20 +7,20 @@ export const FORM: StockStory = {
   "dek": "Probe cards are consumed as they touch wafers, which puts a recurring revenue stream inside a capital-equipment company. Five years of flat sales followed by a 29.1% quarterly operating margin is the whole argument.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $980.1M trailing twelve months, +29.1% year over year.",
-    "Profitability: 18.3% operating margin and 17.7% net margin.",
-    "Cash: $181.3M free cash flow, a 18.5% margin.",
-    "Scorecard: 62/100 average percentile across the factor screens."
+    "September quarter revenue was $280.5M at a 29.1% operating margin, against $226.1M and 7.4% in the March quarter.",
+    "The $103.7M capex programme cut FY2025 free cash flow to $11.7M; the trailing figure has recovered to $181.3M.",
+    "At 37.2x earnings the shares sit well below the 71.5x peer median, despite a 29.1% operating margin and 29.1% trailing revenue growth.",
+    "Consensus EPS of $3.39 sits below the $3.72 annualised from the September quarter, so estimates already assume a fade."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000009/form-20251227.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001039399&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "FORMFACTOR INC. generated $980.1M of revenue over the last twelve months, +29.1% versus the prior year. The cycle is driven by inventory, utilisation and the next node or packaging transition.",
-      "The latest reported quarter was Q3 FY26, with $280.5M of revenue and an operating margin of 29.1%. The stock closed at $83.03 on 2026-11-17, giving a market capitalization of $6.5B.",
-      "The shares sit 32% of the way up their 52-week range ($47.33 to $160.27). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Probe-card demand returned and the margin followed. Revenue in the September 2026 quarter was $280.5M, the operating margin 29.1% and EPS $0.93, against a 7.4% operating margin and $0.26 in the March quarter. Six quarters took the business from a 1.9% margin to a 29.1% one while revenue rose 64%, from $171.4M to $280.5M. For a company whose sales were flat for five years, the speed of that turn is the event worth explaining.",
+      "Probe cards are 81.3% of revenue and Systems 18.7%. A card is a custom contact assembly, designed for one chip and consumed as it touches wafers, so demand tracks test intensity and product transitions rather than fab construction. The difficult end markets, advanced logic, high-bandwidth memory, automotive and compound semiconductors, are where contact at fine pitch and across temperature is hardest and where a qualified card commands its price. Gross margin is 47.1% because FormFactor builds the MEMS structures in-house, which brings depreciation and yield into cost of goods.",
+      "At 37.2x earnings, 28.2x EBITDA and 6.2x sales, FormFactor trades well below the peer medians of 71.5x and 33.8x on every measure. The discount is not an oversight. The September quarter's 29.1% operating margin is the highest in the record, and the consensus EPS of $3.39 is below the $3.72 that quarter would produce if annualised. The market is already assuming normalisation, which is why the multiple looks low against a peak."
     ],
-    "quote": "A probe card is a consumable that has to be engineered for one product. That combination of recurring demand and custom design is what separates the business from a pure equipment vendor."
+    "quote": "A probe card is consumed every time a wafer is tested, so the 29.1% operating margin is a production-rate margin rather than a one-off equipment sale."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,46 @@ export const FORM: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 4.9% a year across the fiscal years in the dataset, and the latest quarter changed +38.4% year over year. Third-party estimates for the current fiscal year point to $1.1B of revenue and $3.39 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 18.3% and return on invested capital of 17.8% are the filters to watch as revenue scales."
+      "Consumable probe cards are the demand driver, and their economics differ from a tool sale. A card is designed into a test programme and replaced as it wears, so revenue recurs with wafer volumes and accelerates when a customer ramps a new product. That is why the last year looks so different from the previous five: revenue was $663.1M in FY2023 and $785.0M in FY2025, then reached $980.1M on a trailing basis, up 29.1%, with the September quarter 38.4% above the year-earlier $202.7M.",
+      "The estimate path extends the ramp. Revenue is forecast at $1.1B for the current year, up 33.8%, and $1.3B next, up 24.7%, with the December quarter at $285.7M. Systems, 18.7% of revenue, is the lumpier half and depends on test-floor construction, while cards depend on utilisation. A reader has to decide how much of the current demand is a product cycle in advanced logic and memory and how much is the restocking that follows any shortage."
     ],
     "bullets": [
       {
+        "title": "Consumable base",
+        "detail": "Cards wear out with use, so the installed base produces revenue without a new capital decision; the replacement rate is the metric to watch."
+      },
+      {
         "title": "Test intensity",
-        "detail": "More complex packages need more test insertions, and each insertion consumes card life."
+        "detail": "Advanced logic and high-bandwidth memory need more contacts at finer pitch, which raises the value of each card."
       },
       {
-        "title": "New product ramps",
-        "detail": "Every customer product transition requires a new card design, which resets the consumable cycle."
-      },
-      {
-        "title": "Systems recovery",
-        "detail": "Probe station sales were depressed through the downcycle; a test-floor build-out adds revenue on top of the consumable base."
+        "title": "Systems cyclicality",
+        "detail": "Probe stations are bought when a test floor is built, and that 18.7% of revenue can pause without affecting the card base."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 18.3%, the net margin is 17.7% and diluted EPS is $2.19. The latest quarter's operating margin was 29.1%.",
-      "Return on equity is 14.7%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $280.5M, an operating margin of 29.1% and a net margin of 26.3%."
+      "Factory absorption drove the margin. Gross margin rose from 39.3% in FY2025 to 47.1% trailing, and the operating margin from 7.3% to 18.3%, as revenue grew 29.1%. In the September quarter alone, revenue rose $22.3M from June and operating income rose $23.8M, a drop-through above 100%. That is what happens when incremental volume runs through a manufacturing base that was already paid for.",
+      "Below the operating line the record is ordinary. Net margin is 17.7%, close to the operating margin, and EPS reached $0.93 in the September quarter against $0.26 in March. Return on invested capital is 13.2% and return on equity 14.7%, both above the peer medians of 9.4% and 8.3% despite $384.1M of net cash diluting the capital base. The comparison with Onto, at a 12.0% operating margin and 5.9% ROIC, shows how much of FormFactor's advantage comes from the consumable mix."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $181.3M, a 18.5% margin. The balance sheet carries $384.1M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $181.3M over the last twelve months and net debt was -$384.1M; interest cover was n/a."
+      "The $103.7M capital programme is the reason FY2025 free cash flow was only $11.7M. Operating cash flow was $115.4M and capex jumped from $38.4M to $103.7M, a 13.2% capital intensity, as capacity was added for MEMS probe structures. The trailing year shows the payoff: $181.3M of free cash flow, an 18.5% margin. Capex of that size is a bet on demand that arrives after the building is finished.",
+      "Net cash of $384.1M equals 5.9% of the market value and 1.8x EBITDA, and interest cover of 21.9x leaves no financing constraint. Working capital is the volatile line: the June 2025 quarter consumed $47.4M of cash before the September quarter generated $19.5M, a reminder that inventory and receivables move with the ramp. Nothing is paid out, and the cash is being retained for capacity rather than returned."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 37.4x trailing earnings and 28.3x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $144.70; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Thirty-seven times earnings, 28.2x EBITDA and 6.2x sales are below or near the peer medians of 71.5x and 33.8x, and 35.6x free cash flow is a 2.8% yield. On the current-year estimate of $3.39 the multiple is 24.5x, and on next year's $4.29 it is 19.3x. The shares are not priced as a peak-margin business, which is unusual for a name whose margin rose 22 points in two quarters.",
+      "What justifies the discount is the durability of the margin. At 47.1% gross margin, every point of volume matters, and the 29.1% operating margin assumes the September level holds. If it does, EPS should exceed the $3.39 estimate; if the mix reverts toward Systems or the advanced-logic ramp pauses, the earnings base falls quickly. The 35.6x free-cash-flow multiple is the more defensible anchor because cash conversion has been strong in both the up and down years."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "10 analysts contribute to the third-party consensus. The mean target is $144.70, with a range of $102.00 to $200.00.",
-      "Current-year estimates call for $1.1B of revenue and $3.39 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 10 analysts with a mean target of $144.7; third-party estimates can change without notice."
+      "Ten estimates in the 18 November 2026 Yahoo Finance survey produce a mean target of $145 against an $83 price, with a range of $102 to $200. The revision trend is strong, with EPS estimates up 10.8% over thirty, sixty and ninety days, and the last four quarters have beaten by between 21% and 34%.",
+      "The consensus assumes the margin holds but does not extrapolate it. Current-year EPS of $3.39 is below the $3.72 annualised from the September quarter, so the estimates embed a modest fade rather than a repeat of the peak. That is a conservative way to own a cyclical: if the quarter proves to be a new base, the estimate is too low, and if it was a restocking peak, the multiple on $3.39 is already 24.5x."
     ]
   },
   "risks": {
@@ -164,5 +161,7 @@ export const FORM: StockStory = {
       "Why did FY2023 and FY2025 convert so little profit into cash?",
       "Are the near-term estimates of flat EPS a signal that the ramp is peaking?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

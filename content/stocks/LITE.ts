@@ -7,20 +7,20 @@ export const LITE: StockStory = {
   "dek": "Operating income of $524.8M sits under a net income of $8.62B. The gap is a non-cash item, and the real question is whether an optical component maker can hold a 28.5% operating margin.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $3.7B trailing twelve months, +103.2% year over year.",
-    "Profitability: 23.5% operating margin and 239.9% net margin.",
-    "Cash: $356.3M free cash flow, a 9.5% margin.",
-    "Scorecard: 53/100 average percentile across the factor screens."
+    "Operating income of $524.8M in FY2026 reversed a $434.0M loss two years earlier, and the September quarter held a 28.5% margin on $1.3B of revenue.",
+    "Systems are 66.5% of segment revenue, so transceiver demand rather than telecom or industrial lasers decides whether the margin holds.",
+    "Capex of $451.3M absorbed most of $751.4M of operating cash flow in FY2026, leaving free cash flow at 9.5% of revenue.",
+    "At 49.0x EBITDA and 13.4x sales, the shares discount another year of triple-digit growth before the margin is tested."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001633978&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Lumentum Holdings Inc. generated $3.7B of revenue over the last twelve months, +103.2% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
-      "The latest reported quarter was Q1 FY27, with $1.3B of revenue and an operating margin of 28.5%. The stock closed at $559.97 on 2026-11-17, giving a market capitalization of $50.8B.",
-      "The shares sit 36% of the way up their 52-week range ($229.59 to $1,143.00). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "A 28.5% operating margin on $1.3B of September-quarter revenue is the cleanest evidence yet that Lumentum's fixed cost base is covered. A year earlier the same line was 1.3% on $533.8M, and the four quarters since then ran 9.7%, 21.6%, 27.8% and 28.5%. Revenue roughly doubled while the fabs, clean rooms and engineering organisation stayed in place, which is operating leverage in its purest form rather than the result of a cost programme.",
+      "The demand behind that jump comes from the links between accelerators. A cluster needs far more optical connections than it has chips, and each connection needs a laser and the photonics around it. Systems are 66.5% of segment revenue and components 33.5%, with Asia Pacific at 58.1% of the total, but the consolidated line does not show how much of either is datacom rather than telecom or industrial work. Those older markets still dilute the growth and carry their own cycles.",
+      "What the equity is worth depends on whether 28.5% is a manufacturing advantage or a shortage rent. EV/EBITDA of 49.0x against a 31.0x peer median, and 13.4x sales, price the first interpretation. Capex of $451.3M and net debt of $780.3M are the cost of testing it. The reported net income of $8.62B against $524.8M of operating income makes the earnings multiple meaningless, so the 0.7% cash yield is the more honest starting point."
     ],
-    "quote": "When net margin is more than double the operating margin on a hardware business, the accountant is telling you about the balance sheet, not about the factory."
+    "quote": "Lumentum has proved its fabs can earn a margin; the open question is whether that margin survives the next round of capacity."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,48 @@ export const LITE: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.2% a year across the fiscal years in the dataset, and the latest quarter changed +136.5% year over year. Third-party estimates for the current fiscal year point to $6.7B of revenue and $24.94 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 23.5% and return on invested capital of 17.4% are the filters to watch as revenue scales."
+      "Each accelerator added to a cluster adds links faster than it adds compute, and every link carries a laser, a pump laser or a photonic component. That arithmetic explains why revenue went from $533.8M in the September 2025 quarter to $1.3B a year later. The constraint is fabrication capacity and yield, not demand, which is why capex rose to $451.3M in FY2026 from $231.0M in FY2025 and why the company is adding clean-room space before the orders are visible.",
+      "The third-party estimate for the fiscal year ending June 2027 is $6.7B of revenue and $24.94 of EPS, rising to $10.5B and $40.13 in FY2028. Hitting the first number requires the December quarter to produce $1.6B, 138.5% above the prior year. The second requires the current growth rate to persist through a capacity cycle that has historically overshot; FY2024 revenue fell 23.1% after the telecom inventory correction, and the fabs kept depreciating through it."
     ],
     "bullets": [
       {
         "title": "Links per cluster",
-        "detail": "Optical connections scale faster than accelerators. Each one needs a light source."
+        "detail": "Optical connections scale faster than accelerators, and each one needs a light source and the optics around it."
       },
       {
-        "title": "Speed transitions",
-        "detail": "Higher line rates need more sophisticated photonics, which raises the value of the component."
+        "title": "Line-rate transitions",
+        "detail": "Higher speeds per lane raise the value of the photonic content, but they also reset the price of the previous generation."
       },
       {
-        "title": "Capacity and yield",
-        "detail": "Laser fabrication capacity is the binding constraint. Expansion is slow and expensive."
+        "title": "Fab yield",
+        "detail": "Capacity is added in clean-room space and qualified over quarters, so supply cannot respond within a single demand spike."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 23.5%, the net margin is 239.9% and diluted EPS is -$89.62. The latest quarter's operating margin was 28.5%.",
-      "Return on equity is 196.3%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q1 FY27: revenue of $1.3B, an operating margin of 28.5% and a net margin of 28.5%."
+      "Gross margin of 45.9% is the standout number, up from 28.0% in FY2025 and 18.5% in FY2024, when the company was carrying idle capacity through a downturn. Operating margin followed from negative 10.9% to 23.5% on a trailing basis and 17.4% for FY2026. The incremental revenue arrived at a gross margin well above the corporate average, which is what a fab utilisation recovery looks like when the fixed cost is already sunk.",
+      "Returns are less impressive than the income statement. ROIC is 9.5%, below the 12.2% peer median and far below Comfort Systems' 48.1%, because the asset base is a set of fabs rather than a crew and a van. Net margin cannot be used this year: the $8.62B reported profit is a non-operating item, and diluted EPS carries the opposite sign. The operating margin is the only profitability measure here that describes the business rather than the balance sheet."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $356.3M, a 9.5% margin. The balance sheet carries $580M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $356.3M over the last twelve months and net debt was -$580M; interest cover was n/a."
+      "Capital expenditure of $451.3M in FY2026 was more than half of the $751.4M generated by operations, and it turned a good operating year into $300.1M of free cash flow. The trailing figure is $356.3M, a 9.5% margin. Two years earlier free cash flow was negative $108.3M on $133.0M of capex, which shows how quickly the cash line moves with utilisation when the fixed asset base is already in place.",
+      "The September quarter produced only $37.9M of free cash flow after $196.2M in the June quarter, a swing that points to inventory and receivables building ahead of the December shipments implied by the $1.6B revenue estimate. That is the working-capital cost of a ramp, and it is the reason a 28.5% operating margin converts into a 9.5% cash margin rather than something closer to 20%.",
+      "Net debt of $780.3M is 0.8x EBITDA and interest cover is 47.5x, so the balance sheet is not the constraint. The company pays no dividend and the filings do not report buybacks. Capital is going into capacity, and the test is whether the next $450M of capex earns a return above the 9.5% currently recorded on invested capital. At that leverage, a delay in datacom orders would be absorbed without a refinancing, which is the strongest argument for the equity in a cyclical industry."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 5.7x trailing earnings and 49.1x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $1,064.75; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "The cash yield is 0.7%, and the price-to-free-cash-flow multiple is 138.5x, so a buyer at $544 is paying for cash flow that has not yet arrived. EV/Sales of 13.4x is more than double Coherent's 5.7x and close to Bloom Energy's 13.2x, two businesses with very different capital intensity. EV/EBITDA of 49.0x compares with CIEN at 44.1x and a peer median of 31.0x, a premium that assumes the margin is structural.",
+      "On the third-party estimates the arithmetic changes. FY2027 EPS of $24.94 puts the shares at about 22x, and FY2028 EPS of $40.13 at about 14x. Those multiples are ordinary for a hardware maker if the estimates are right; the estimates assume revenue of $6.7B and then $10.5B, against $3.7B trailing. The gap between 49.0x trailing EBITDA and 14x forward earnings is entirely a bet on that revenue line arriving.",
+      "What would justify the price is a datacom franchise that holds its gross margin through a capacity cycle, with telecom and industrial shrinking as a share of revenue. What would break it is the historical pattern: FY2024 showed that optical demand can fall 23.1% in a year, and a fab cannot be idled without taking the margin with it. The 28.5% operating margin is the variable to watch, not the revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "25 analysts contribute to the third-party consensus. The mean target is $1,064.75, with a range of $659.00 to $1,425.00.",
-      "Current-year estimates call for $6.7B of revenue and $24.94 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 25 analysts with a mean target of $1.1K; third-party estimates can change without notice."
+      "Estimate revisions, not the target, are the informative part of the record. Over ninety days FY2027 EPS estimates rose 15.3%, and over thirty days 14.5%, after four consecutive quarters in which revenue and earnings came in above the published figures. Yahoo Finance counts twenty-five analysts as of 18 November 2026; the mean target is $1.1K and the range runs from $659 to $1.4K, a spread that still leaves the lowest view above the current price.",
+      "That is a constructive group, but the dispersion is about how much upside exists rather than whether the business is working. The estimates embed $6.7B of FY2027 revenue, a 121.1% increase, and a further 57.9% in FY2028, so the target range is really a range of views on how long the optical shortage lasts."
     ]
   },
   "risks": {
@@ -158,5 +157,7 @@ export const LITE: StockStory = {
       "How much of the 28.5% operating margin comes from tight supply rather than manufacturing advantage?",
       "What capital expenditure is required to keep the datacom capacity at the current growth rate?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

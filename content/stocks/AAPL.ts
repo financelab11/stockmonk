@@ -7,21 +7,21 @@ export const AAPL: StockStory = {
   "dek": "The September quarter set records across iPhone and Services, and the installed base is larger than ever. At {{pe}} earnings, the premium is the question.",
   "readingMinutes": 11,
   "takeaways": [
-    "Q4 FY2026 revenue was $114.5B, up 12%, with iPhone at $57.6B, a September-quarter record, and Services at an all-time high.",
-    "Gross margin was 47.9%, including about one point from tariff refunds, and EPS was $2.10, up 14% with a $0.05 tariff benefit.",
-    "Fiscal 2026 revenue was $478.8B. Greater China sales rose to $17.5B from $14.5B a year earlier and the installed base reached a record.",
-    "At {{price}} the shares trade at {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA, with a {{return1y}} one-year return and a {{fcfYield}} free-cash-flow yield."
+    "Fourth-quarter fiscal 2026 revenue was $114.5B, up 12%, with iPhone at $57.6B and Greater China at $17.5B against $14.5B.",
+    "Gross margin was 47.9%, including about one point from tariff refunds, and EPS was $2.10, up 14% with a $0.05 refund benefit.",
+    "Fiscal 2026 revenue was $478.8B; trailing free cash flow is $136.1B, a 28.4% margin, and net cash is $56.8B.",
+    "The premium is real: {{pe}} trailing earnings against a 31.0x peer median and 15.1% revenue growth."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
   "irUrl": "https://investor.apple.com/",
   "earningsReleaseUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/a8-kex991q4202609262026.htm",
   "bigPicture": {
     "paragraphs": [
-      "Apple reported fourth-quarter fiscal 2026 revenue of $114.5B on 2 November 2026, up 12% from a year earlier. iPhone revenue was $57.6B against $49.0B, a September-quarter record, Services reached an all-time high, and Greater China sales rose to $17.5B from $14.5B. Gross margin was 47.9%, about one point of which came from tariff refunds, and diluted EPS was $2.10, up 14% with a $0.05 benefit from the same refunds.",
-      "The quarter closes the best fiscal year in the company's history at $478.8B of revenue. Management pointed to a new product cycle — the iPhone Duo, the iPhone 18 Pro line, an all-new Siri and the first touch-enabled Mac — and to an installed base that reached a record across every major category. That installed base is the actual asset: it supports Services revenue, which is the highest-margin part of the model and the reason the group gross margin holds near 48%.",
-      "The valuation is the debate. At {{price}} the market capitalisation is {{marketCap}}, or {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA. The shares are {{rangePosition}} of the way up a 52-week range of {{range52}} and have returned {{return1y}} over the past year. A 38x earnings multiple on low-double-digit revenue growth requires either faster Services growth or a longer upgrade cycle than the market currently assumes."
+      "IPhone revenue of $57.6B against $49.0B a year earlier carried the September quarter, and Services reached an all-time high. Total revenue was $114.5B, up 12%, with Greater China rising to $17.5B from $14.5B. Gross margin was 47.9%, about a point of which came from tariff refunds, and diluted EPS was $2.10, up 14% with a $0.05 benefit from the same refunds. The quarter also closed the fiscal year at $478.8B of revenue.",
+      "The installed base is the asset. IPhone is 53.1% of revenue, Services 25.8%, Mac 7.9%, Wearables 7.4% and iPad 5.8%. Services grows with the base rather than with unit shipments, which makes it the more durable line and the main support for a 48.8% gross margin. China is 17.2% of revenue and remains both a demand market and a manufacturing base. That is the recurring part of the model. The base is durable.",
+      "A {{pe}} trailing multiple and {{evEbitda}} EV/EBITDA compare with peer medians of 31.0x and 24.8x, a premium of roughly seven turns on earnings and four on EBITDA. The shares are {{rangePosition}} of the way up a 52-week range of {{range52}} and have returned {{return1y}} over the year. The premium is a wager on Services durability and buybacks rather than on the next iPhone cycle. The debate is about the price, not the franchise."
     ],
-    "quote": "Apple's pricing power is real. The question is how much of it is already in the multiple."
+    "quote": "Apple's installed base is a genuine annuity; the question is whether a 38x multiple leaves anything for the next upgrade cycle."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -53,48 +53,48 @@ export const AAPL: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue rose 12% in the September quarter to $114.5B, and fiscal 2026 revenue was $478.8B against $416.2B a year earlier, growth of about 15%. The iPhone cycle drove the quarter, with revenue of $57.6B against $49.0B, while Services set a record and the installed base reached an all-time high.",
-      "China is the part of the story that changed. Greater China revenue rose to $17.5B from $14.5B, which is a meaningful swing for a region the market had treated as structurally challenged. Whether that is a product-cycle effect or a durable recovery is one of the more important open questions in the report.",
-      "Third-party estimates put fiscal 2027 revenue at $528.3B and EPS at $9.43, with fiscal 2028 at $571B and $10.60. Those are consensus numbers, not Stockmonk projections. They assume the product cycle carries through the holiday quarter — consensus for the December quarter is $156.4B of revenue and $2.91 of EPS — and that Services keeps growing faster than hardware."
+      "The iPhone upgrade cycle set the pace. September-quarter iPhone revenue rose to $57.6B from $49.0B, while Greater China recovered to $17.5B from $14.5B. Services set a record, but the product cycle and the China recovery are the two numbers that changed the growth rate. Both are cyclical, which is why the durability of Services matters more than a single launch.",
+      "Fiscal 2026 revenue reached $478.8B, up 15.1% from $416.2B. Revenue is concentrated by design: iPhone 53.1%, Services 25.8%, Mac 7.9%, Wearables 7.4% and iPad 5.8%. Services is the highest-margin line and the one that turns a hardware sale into a recurring relationship. Hardware remains cyclical, and the September quarter benefited from a launch cadence that will not repeat at the same scale every quarter.",
+      "Fiscal 2027 consensus of $528.3B revenue and $9.43 EPS assumes 10.3% growth and 5.0% EPS growth, with fiscal 2028 at $571.0B and $10.60. The December quarter is estimated at $156.4B and $2.91, which assumes the holiday cycle holds. EPS growth below revenue growth implies either margin pressure or a slower buyback, and that is the line to watch. The buyback assumption is the swing factor."
     ],
     "bullets": [
       {
         "title": "iPhone cycle",
-        "detail": "$57.6B in the September quarter against $49.0B a year earlier. The Duo and 18 Pro line carry the holiday quarter."
-      },
-      {
-        "title": "Services",
-        "detail": "An all-time high in the quarter. Services is the highest-margin line and the main support for the group gross margin near 48%."
+        "detail": "The September quarter's $57.6B compares with $49.0B a year earlier. The Duo and 18 Pro line carry the holiday quarter, so the comparison gets harder."
       },
       {
         "title": "China",
-        "detail": "Greater China rose to $17.5B from $14.5B. The durability of that recovery matters for the multiple."
+        "detail": "Greater China rose to $17.5B from $14.5B. The durability of that recovery matters more than the absolute level because China is 17.2% of revenue."
+      },
+      {
+        "title": "Services",
+        "detail": "Services is 25.8% of revenue and the highest-margin line. App Store regulation is the main threat to the economics, not demand."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The quarter's gross margin was 47.9%, including roughly one point from tariff refunds, and the operating margin was 31.1%. GAAP EPS of $2.10 rose 14% and included a $0.05 tariff benefit. Excluding the refunds, the underlying margin and earnings growth were lower but still positive, which is the number to carry into the December quarter.",
-      "On a trailing basis the operating margin is 33.0%, the net margin 27.6%, return on equity 117.9% and return on invested capital 225.9%. Those returns are flattered by a decade of buybacks that have reduced the equity base, so they are a statement about capital allocation rather than about operating returns on new investment."
+      "A 47.9% gross margin included roughly one point from tariff refunds, and the operating margin was 31.1%. GAAP EPS of $2.10 rose 14% and included a $0.05 tariff benefit. Excluding the refunds, the underlying margin and earnings growth were lower but still positive, which is the number to carry into the December quarter rather than the headline peak. The refund is a one-quarter item, not a run-rate.",
+      "Trailing operating margin is 33.0%, net margin 27.6% and return on equity 117.9%. Return on invested capital is 68.3%, against an 18.8% peer median. Those returns are flattered by a decade of buybacks that reduced the equity base, so they say more about capital allocation than about returns on new investment. The cash conversion, at a 28.4% free-cash-flow margin, is the cleaner measure."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow was $136.1B over the trailing period, a 28.4% margin, and the balance sheet carries $56.8B of net cash. Apple returned $28B to shareholders in the September quarter alone. At the current price the shares trade at {{pfcf}} trailing free cash flow, a {{fcfYield}} free-cash-flow yield.",
-      "The cash engine is the most durable part of the investment case: the installed base renews, Services attaches, and the capital returned is funded from operations rather than from the balance sheet. The risk is that the product cycle requires more capital or more aggressive pricing to sustain unit growth."
+      "Buybacks absorb most of the $136.1B of trailing free cash flow, which is why the share count keeps falling. Operating cash flow was $145.1B and capex $9.0B in fiscal 2026, a 6.2% capex ratio that is unusually low for a hardware company. Net cash is $56.8B, and Apple returned $28B to shareholders in the September quarter alone. That is a high return of capital.",
+      "The capital-allocation model is repurchase rather than capacity. That lifts EPS faster than net income and supports the ROE, but at a 38.4x multiple the repurchase is expensive capital. The strategy works best when the shares are cheap, which they are not. The alternative uses of cash have not absorbed anything close to the annual free cash flow. That makes the buyback the de facto dividend policy."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At {{price}} the market capitalisation is {{marketCap}}, or {{pe}} trailing earnings, {{evEbitda}} EV/EBITDA and {{pfcf}} trailing free cash flow. The stock is {{rangePosition}} of the way up its 52-week range ({{range52}}) and has returned {{return1y}} over the past year, so the multiple has expanded alongside the product cycle.",
-      "On consensus numbers the forward picture is about 37.3x fiscal 2027 EPS of $9.43 and about 33.2x fiscal 2028 EPS of $10.60. Those multiples are a premium to the market and to Apple's own history. They are defensible if Services keeps growing at a mid-teens rate and the installed base monetises further; they are harder to defend if hardware growth returns to low single digits.",
-      "The peer table below compares Apple with other large technology platforms. The multiple is a starting point for questions, not a verdict: a 28% free-cash-flow margin and a 118% return on equity are the numbers that justify a premium, not the growth rate alone."
+      "Seven turns on earnings and four on EBITDA is the premium Apple pays. The {{pe}} trailing multiple and {{evEbitda}} EV/EBITDA compare with 31.0x and 24.8x for peers, while P/FCF is {{pfcf}} and the free-cash-flow yield {{fcfYield}}. The stock has traded within {{range52}} over the past year, sits {{rangePosition}} of the way up that band and has returned {{return1y}}. The premium is broad rather than concentrated in one metric.",
+      "Forward multiples are high for the growth. Fiscal 2027 EPS of $9.43 implies about 37x and fiscal 2028 EPS of $10.60 about 33x. Those multiples rely on Services and buybacks to keep the per-share line moving, because 5.0% EPS growth in fiscal 2027 does not justify them on its own. The price is treating the cash flow as a bond-like annuity.",
+      "The peer gap is a quality premium, not a growth premium. Microsoft trades at 26.0x with a 47.1% operating margin and faster revenue growth, while Nvidia at 20.9x has a 65.2% margin. Apple's 38.4x is a price for certainty and capital return. A Services regulatory ruling or a weaker China recovery would test it faster than a hardware miss. The multiple would compress before the earnings base changed."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "The attributed third-party consensus covers 39 analysts with a mean target of $345.63 and a range of $250.00 to $425.00, as of 18 November 2026. The mean sits below the current price, which is unusual and worth noting: the consensus sees the shares as fully valued after the run.",
-      "Current-year estimates call for $528.3B of revenue and $9.43 of EPS; next year is $571B and $10.60. These are third-party forecasts and can change without notice. They are shown for context, not as a recommendation."
+      "Estimates have been drifting down even as the shares rose. The 30-day EPS revision is -1.8% and the 90-day revision -1.2%, and the mean target of $346 sits marginally below the current price. The 39 analysts span $250 to $425, a range that contains both a Services-compounding view and a hardware-maturity view.",
+      "Fiscal 2027 revenue is forecast at $528.3B and EPS at $9.43; fiscal 2028 at $571.0B and $10.60. The December quarter is estimated at $156.4B and $2.91, which assumes the holiday cycle holds. The negative revisions suggest the bar is already high, and the consensus depends on Services growing faster than hardware."
     ]
   },
   "risks": {
@@ -159,6 +159,6 @@ export const AAPL: StockStory = {
       "How much of the installed-base growth is new customers versus longer device life?"
     ]
   },
-  "narrativeSource": "handwritten",
-  "narrativeUpdatedAt": "2026-11-18"
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

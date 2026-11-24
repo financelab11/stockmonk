@@ -7,19 +7,20 @@ export const ABT: StockStory = {
   "dek": "Sales grew 14.5% in the latest quarter and operating margin dropped to 10.4%. The gap between those two numbers is the current investment case in one line.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $48.2B trailing twelve months, +10.0% year over year.",
-    "Profitability: 13.8% operating margin and 9.7% net margin.",
-    "Cash: $6.8B free cash flow, a 14.0% margin.",
-    "Scorecard: 43/100 average percentile across the factor screens."
+    "A 10.4% September operating margin against 18.1% a year earlier is the sharpest expression of Abbott's revenue-margin divergence.",
+    "Medical devices are 48.2% of revenue and the highest-margin segment, yet the consolidated margin has fallen for three quarters.",
+    "Net debt rose from $4.0B to $26.9B while free cash flow fell to $6.8B from $7.4B, a $22.9B balance-sheet shift.",
+    "At 25.0x EBITDA the shares sit just below the 26.1x peer median despite a 5.8% ROIC and the weakest operating margin in the group."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1800/000162828026010185/abt-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000001800&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "ABBOTT LABORATORIES generated $48.2B of revenue over the last twelve months, +10.0% versus the prior year. The franchise depends on clinical evidence, reimbursement and the duration of patent protection.",
-      "The latest reported quarter was Q3 FY26, with $13B of revenue and an operating margin of 10.4%. The stock closed at $104.71 on 2026-11-17, giving a market capitalization of $181.4B.",
-      "The shares sit 45% of the way up their 52-week range ($81.97 to $132.03). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
-    ]
+      "Revenue up 14.0%, operating margin down to 10.4%: Abbott's September quarter contains both numbers, and the gap between them is the current investment case. EPS was $0.53, the third consecutive quarter at or below $0.61, against a margin of 18.1% a year earlier and 19.6% in the December 2025 quarter. Revenue and margin have moved in opposite directions for three quarters, which is the opposite of what a device-led mix should produce.",
+      "The portfolio is four businesses with different economics. Medical devices are 48.2% of revenue and include rhythm management, electrophysiology, structural heart, heart failure, neuromodulation and diabetes care; they carry the highest margins and the fastest growth. Diagnostics are 20.2%, nutrition 19.1% and established pharmaceuticals 12.5%. Non-US markets are 61.4% of revenue, so currency and price controls in emerging markets shape the reported number as much as US procedure volumes do.",
+      "The valuation debate is about the denominator. At 25.0x EBITDA the shares are slightly below the 26.1x peer median, which looks reasonable until the 5.8% ROIC and 13.8% operating margin are set against the median's 12.2% and 24.5%. The stock has fallen 17.0% over a year and 9.0% over five, but the multiple has expanded because earnings fell faster than the price. A lower price is not the same as a lower valuation."
+    ],
+    "quote": "Abbott is growing revenue at double digits and earning less on it; the multiple has expanded because the price and the profit fell together."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -55,49 +56,50 @@ export const ABT: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.6% a year across the fiscal years in the dataset, and the latest quarter changed +14.5% year over year. Third-party estimates for the current fiscal year point to $49.9B of revenue and $5.52 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 13.8% and return on invested capital of 11.1% are the filters to watch as revenue scales."
+      "The revenue record has a pandemic spike, a trough and a recovery: $34.6B in FY2020, $43.1B in FY2021, $40.1B in FY2023, then $42.0B, $44.3B and $48.2B on a trailing basis. The 10.0% trailing growth is the fastest since the pandemic year, and the September quarter's 14.0% is faster still. Medical devices are doing the work: at 48.2% of revenue, they are the segment most exposed to procedure volumes and the one with the new products.",
+      "The growth is broad but not uniform. Diagnostics and nutrition are steady, lower-margin businesses that behave like consumables; established pharmaceuticals sell branded generics in emerging markets where price controls and currency limit the return. Devices carry the growth and the margin, which is why the mix should lift profitability as devices take share of revenue. The fact that the operating margin has fallen instead is the anomaly that needs explaining.",
+      "Consensus revenue of $49.9B for 2026 and $53.5B for 2027 implies 12.7% then 7.1%, a forecast that extends the current acceleration for one more year and then normalises. That is a high bar for a company whose five-year revenue compound rate is 5.1%. If devices keep growing at the September rate, the estimate is achievable; if the growth is being bought with promotional spending, the margin line will keep falling."
     ],
     "bullets": [
       {
-        "title": "Device procedure growth",
-        "detail": "The fastest-growing part of the company and the one that carries the highest margin."
+        "title": "Device mix",
+        "detail": "Medical devices are 48.2% of revenue and the highest-margin segment. A faster device mix should lift the consolidated margin unless the selling cost rises faster."
       },
       {
-        "title": "Diabetes care adoption",
-        "detail": "Continuous glucose monitoring is expanding from people with type 1 diabetes to a much larger type 2 population."
+        "title": "Margin cause",
+        "detail": "Operating margin has fallen from 19.6% to 10.4% in three quarters while revenue grew. The segment disclosure, not the consolidated line, will identify whether promotion or a charge is responsible."
       },
       {
-        "title": "Emerging-market volume",
-        "detail": "Branded generics and nutrition grow with household income, but at lower prices and with currency risk."
+        "title": "Balance-sheet shift",
+        "detail": "Net debt rose from $4.0B to $26.9B while free cash flow was $6.8B. A move that size is a capital-allocation event, and it changes the room for error."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 13.8%, the net margin is 9.7% and diluted EPS is $2.69. The latest quarter's operating margin was 10.4%.",
-      "Return on equity is 9.1%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $13B, an operating margin of 10.4% and a net margin of 7.1%."
+      "A 56.4% gross margin becomes a 13.8% operating margin and a 9.7% net margin. Gross margin has held between 55.2% and 57.0% since FY2020, so the entire compression is below the gross line. That is the signature of selling costs, research or a charge, not of input inflation. Operating margin was 19.6% in December 2025 and 10.4% in September 2026, a 9.2-point decline in three quarters.",
+      "The annual record is distorted by one item. FY2024 net margin was 31.9% and EPS $7.64, lifted by a December quarter with an 84.1% net margin; FY2025 net margin was 14.7% and EPS $3.72. The decline from $7.64 to $3.72 is not an operational collapse, it is the absence of the gain. On a trailing basis EPS is $2.69, which includes the current margin compression. The clean comparison is operating margin, and that has fallen from 18.2% to 13.8%.",
+      "Returns are the weakest in the group. ROIC is 5.8% against a 12.2% peer median, and ROE is 9.2%. The company earns a 56.4% gross margin but converts it into a 5.8% return on capital because the device and diagnostics assets are capital-intensive and the operating margin is thin. J&J, with a similar device mix, earns 12.8%; Thermo Fisher, with a lower gross margin, earns 7.8%. Abbott's return is below both."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $6.8B, a 14.0% margin. The balance sheet carries $4.3B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $6.8B over the last twelve months and net debt was -$4.3B; interest cover was n/a."
+      "FCF fell to $6.8B over the trailing year from $7.4B in FY2025, a 14.0% margin against 16.7%. Capital expenditure was $2.2B, or 4.6% of revenue, and operating cash flow was $9.6B in FY2025. The decline is small in absolute terms but it comes in a year when revenue grew 10.0%, so cash conversion weakened even before the balance-sheet change.",
+      "The quarterly path shows the pressure. Free cash flow was $2.1B in December 2025, $933M in March 2026, $1.5B in June and $1.2B in September, so the September quarter was weaker than both the June quarter and the prior-year September. For a business with a 14.0% margin, small swings in working capital move the annual figure. The disclosure does not split the change between working capital and operating profit.",
+      "The balance sheet changed materially. Net debt was $4.0B at FY2025 and $26.9B on a trailing basis, a $22.9B increase that free cash flow of $6.8B did not fund. That implies a capital-allocation event of roughly $30B, which the summary financials do not identify. Interest cover is 6.7x and leverage is 3.3x, up from well under 1x. The 2.5% dividend costs about $2.58 a share, which is almost exactly the $2.69 trailing EPS but only 47% of the $5.52 consensus."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 38.6x trailing earnings and 21.6x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $118.91; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Abbott's 38.0x trailing P/E and 25.0x EBITDA are almost exactly the peer medians of 37.5x and 26.1x, with a 4.3x sales multiple and a 26.4x free-cash-flow multiple. That parity is odd for a company with a 13.8% operating margin against 24.5% and a 5.8% ROIC against 12.2%. The market is paying for the franchise, not for the current return, and the forward multiple is where that becomes explicit.",
+      "Half the peer operating margin and less than half the return on capital should mean a discount unless the market expects the margin to recover. The 12.7% revenue estimate for 2026 and the 7.1% for 2027 suggest the top line is not the problem; the earnings base is. On the $5.52 consensus for 2026 the shares are at roughly 19x, which is where the discount appears.",
+      "A margin recovery toward the high teens would justify the multiple. Abbott earned 19.6% in December 2025, so the capability is there; the question is whether the 10.4% September figure was a charge or a new cost base. If it was a charge, the forward multiple is too low. If it is promotional spending that persists, the trailing 38.0x is the honest number and the peer parity is unwarranted."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "26 analysts contribute to the third-party consensus. The mean target is $118.91, with a range of $100.00 to $130.00.",
-      "Current-year estimates call for $49.9B of revenue and $5.52 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 26 analysts with a mean target of $118.91; third-party estimates can change without notice."
+      "Coverage of 26 analysts and a mean target of $119 sit behind The Yahoo Finance data from 18 November 2026, with a range of $100 to $130. Sentiment is positive, with a neutral block and no cautious voices. The mean is 16% above the $103 share price, and the range is only 30 percentage points wide, the tightest in this group.",
+      "Consensus revenue is $49.9B and EPS $5.52 for 2026, then $53.5B and $5.94 for 2027. The EPS numbers are adjusted, well above the $2.69 trailing figure, so the consensus assumes the margin compression reverses. Revenue growth of 12.7% then 7.1% sits alongside EPS growth of 7.2% then 7.6%, a smoother path than the quarterly record. Revisions are flat across every horizon, which means the analysts have not yet changed their mind about the margin."
     ]
   },
   "risks": {
@@ -161,5 +163,7 @@ export const ABT: StockStory = {
       "Is the FY2024 net income gain repeatable or a one-time item?",
       "What would a recovery to a 19% operating margin be worth per share?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const MCD: StockStory = {
   "dek": "Franchising turns other people's sales into a 46.9% operating margin. Revenue of $27.8B is a slice of what customers spend, which is why the sales multiple looks so high.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $27.8B trailing twelve months, +5.8% year over year.",
-    "Profitability: 46.9% operating margin and -39.2% net margin.",
-    "Cash: $7.5B free cash flow, a 27.0% margin.",
-    "Scorecard: 56/100 average percentile across the factor screens."
+    "Third-quarter revenue was $7.2B with a 50.2% operating margin, the highest in the recent record, and $3.51 of EPS.",
+    "Franchise rent and royalties produce a 46.9% trailing operating margin and $7.5B of free cash flow, a 27.0% margin.",
+    "The shares trade at 21.6x earnings and 8.4x sales, the sales multiple high because revenue is a royalty on systemwide sales.",
+    "Consensus expects 0.9% revenue growth and 5.5% EPS growth in 2027, so the case rests on price and franchisor margin rather than volume."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/63908/000006390826000035/mcd-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000063908&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "MCDONALDS CORP. generated $27.8B of revenue over the last twelve months, +5.8% versus the prior year. The business depends on traffic, basket size and the cost of serving the next customer.",
-      "The latest reported quarter was Q3 FY26, with $7.2B of revenue and an operating margin of 50.2%. The stock closed at $275.82 on 2026-11-17, giving a market capitalization of $194.7B.",
-      "The shares sit 41% of the way up their 52-week range ($229.20 to $341.75). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "A 50.2% operating margin on $7.2B of third-quarter revenue is the clearest evidence that McDonald's franchise mix, not restaurant volume, drives the profit. Revenue rose slightly from $7.1B, net margin was 34.7% and diluted EPS was $3.51, while free cash flow was $2.1B. Revenue growth was slight, so the margin did the work; that is the pattern of a franchised system raising price rather than adding restaurants. The margin, not the top line, is the number that matters here.",
+      "The company is a landlord and a licensor as much as a restaurateur. Franchisees pay rent on property the company owns or leases, a royalty on sales, and often a marketing contribution; in return they get the brand and the operating system. Company-operated restaurants are a minority and carry low margins. That is why revenue of $27.8B can produce a 46.9% operating margin. The franchisee bears the food, labour and promotional costs, which is why the company's margin is insulated from them.",
+      "McDonald's $194.0B market value is 8.4x sales, 17.2x EBITDA and 21.6x earnings. The sales multiple looks high for a restaurant, but the revenue is a royalty on a much larger systemwide sales base, so it is not comparable with a company that books the full check. The earnings multiple is below the 25.4x peer median, the market's discount for slow growth. The 3.9% free-cash-flow yield is the support, and it leaves little room for a margin slip."
     ],
-    "quote": "A franchisor earns a percentage of someone else's revenue and bears little of the cost. That is how a burger chain supports a software margin."
+    "quote": "McDonald's sells hamburgers through other people's restaurants and collects rent on the real estate, which is why its operating margin looks like a software company's."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -37,35 +37,50 @@ export const MCD: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.9% a year across the fiscal years in the dataset, and the latest quarter changed +1.1% year over year. Third-party estimates for the current fiscal year point to $27.9B of revenue and $12.94 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 46.9% and return on invested capital of 26.9% are the filters to watch as revenue scales."
+      "Turnover rose from $19.2B in fiscal 2020 to $26.9B in fiscal 2025, and trailing revenue is $27.8B, up 5.8%. The growth rate has been 3.7% in fiscal 2025 and 5.8% trailing, and consensus expects $27.9B this year, up 3.7%, and $28.1B next, up 0.9%. That is a mature system growing with price and unit additions rather than with traffic. The forecast reflects that maturity: low single-digit revenue growth and a margin story.",
+      "The mix is international. International Operated Markets are 50.7% of revenue, the US is 40.3% and International Developmental Licensed Markets plus corporate are 9.0%. The international operated markets carry company-owned restaurants as well as franchised ones, so the margin mix differs by geography. A stronger dollar lowers reported revenue without changing the local economics, which is why the growth rate can move without a change in sales.",
+      "Estimates assume price increases continue and franchisee economics hold. The fiscal 2026 EPS estimate of $12.94 is 6.1% growth on 3.7% revenue growth, and 2027 is $13.65, up 5.5% on 0.9%. The second year is almost entirely margin and cost control. A value war that forced franchisees to absorb discounts would hit royalties and rent, which is the mechanism the estimate depends on."
+    ],
+    "bullets": [
+      {
+        "title": "Franchise mix",
+        "detail": "Rent and royalties carry high margins; company-operated sales carry low ones. The mix, not the menu, sets the consolidated margin."
+      },
+      {
+        "title": "Traffic",
+        "detail": "Price increases lift revenue per visit but can deter the value customer. Lost traffic is difficult to win back."
+      },
+      {
+        "title": "Franchisee health",
+        "detail": "Royalties and rent are fixed claims on restaurant sales. A squeezed operator opens fewer restaurants and remodels less."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 46.9%, the net margin is -39.2% and diluted EPS is $12.64. The latest quarter's operating margin was 50.2%.",
-      "Return on equity is 3172.9%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $7.2B, an operating margin of 50.2% and a net margin of 34.7%."
+      "The operating margin was 45.2% in fiscal 2024, 46.1% in fiscal 2025, 46.9% trailing and 50.2% in the September quarter. Net margin was 31.7%, 31.9%, 32.4% and 34.7% over the same periods. The gross margin is not a useful measure here: food, paper and advertising contributions sit in cost of sales while the offsetting franchise revenue sits in revenue, so the ratio is an accounting artifact.",
+      "Returns are high and stable. Return on invested capital is 26.1%, against a 23.0% peer median, and the operating margin is more than three times the 13.1% median. Return on equity is -2622.4% because shareholders' equity is negative after years of buybacks, so the ratio carries no information. The operating margin and the cash conversion are the measures that describe the business.",
+      "The quarterly record is steady. Operating margin has been between 44.5% and 50.2% for eight quarters, and net margin between 30.4% and 34.7%. That stability is the point of the franchise model: the company's revenue is a contractual share of franchisee sales, so it does not swing with food costs or labour in the same way as a company-operated chain."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $7.5B, a 27.0% margin. Net debt is $38.6B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $7.5B over the last twelve months and net debt was $38.6B; interest cover was n/a."
+      "Trailing FCF was $7.5B, a 27.0% margin. Fiscal 2025 operating cash flow was $10.6B and capital spending $3.4B. The capex is mostly maintenance and remodels on a property portfolio the company owns, not new restaurant construction, which is borne by franchisees. Net debt is $38.6B, or 2.9x EBITDA, and interest cover is 8.0x. That split is why the capex line is smaller than a company-operated chain's.",
+      "The cash flow supports the dividend and the buyback. The 2.8% dividend yield absorbs part of the cash flow, and the negative book equity reflects repurchases that have exceeded retained earnings. That is a deliberate capital structure: the company borrows against a stable royalty stream and returns the cash, which raises the return on equity but makes the ratio meaningless. The interest cost is the fixed claim that comes before the dividend.",
+      "The risk is that the royalty stream is less stable than it looks. Franchisees bear the food, labour and promotional costs, and a sustained margin squeeze would slow remodels and new openings. The 2.9x EBITDA leverage is manageable at current cash flow, but it leaves less room than Home Depot's balance sheet. The dividend is covered; the question is whether the buyback continues at the same pace."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and 17.3x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $299.00; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "McDonald's $194.0B market value is 21.6x earnings, 17.2x EBITDA, 8.4x sales and 25.9x free cash flow, with a 3.9% free-cash-flow yield. The peer median is 25.4x earnings and 16.1x EBITDA. The earnings discount is the market's price for 0.9% revenue growth; the EBITDA premium reflects the quality of a franchise royalty stream. That yield is thin support, and it depends on the royalty stream holding.",
+      "On estimates, the shares trade at about 21.3x 2026 EPS of $12.94 and 20.1x 2027 EPS of $13.65. Those multiples are below the peer median but above what a 5.5% grower would normally command, which is the franchise premium. The multiple holds only if the operating margin stays above 46% and the franchisee base remains healthy. The multiple is a durability premium rather than a growth premium.",
+      "Home Depot offers a useful contrast. It carries a 24.3x earnings multiple with a 12.4% operating margin; McDonald's 21.6x with 46.9%. The market pays more for McDonald's sales and less for its earnings, because the earnings are a royalty on a mature system. Neither multiple is cheap; both are defensible if the cash flow holds. That is the franchise premium in one comparison."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "29 analysts contribute to the third-party consensus. The mean target is $299.00, with a range of $230.00 to $390.00.",
-      "Current-year estimates call for $27.9B of revenue and $12.94 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 29 analysts with a mean target of $299; third-party estimates can change without notice."
+      "Consensus data from Yahoo Finance, dated 18 November 2026, cover 29 analysts, with a mean target of $299 and a range of $230 to $390. The distribution is almost evenly split between positive and neutral views, with a single cautious voice. The mean is 8.7% above the $275 price, and the large neutral bloc reflects the traffic debate rather than a dispute about the balance sheet.",
+      "Estimates call for $27.9B of revenue and $12.94 of EPS in 2026, then $28.1B and $13.65 in 2027. Revisions are effectively nil, at 0.3% over 30 days and 0.0% over 90. The consensus assumes price increases continue and the operating margin holds above 46%; a value-led promotion cycle would hit both the royalty and the multiple."
     ]
   },
   "risks": {
@@ -129,5 +144,7 @@ export const MCD: StockStory = {
       "Is the unit count growing, and in which markets?",
       "How much of free cash flow goes to interest versus buybacks?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

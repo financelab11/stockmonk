@@ -7,20 +7,20 @@ export const POWI: StockStory = {
   "dek": "Integration is the product: fewer components, smaller supplies, and a gross margin that held near 54% through a brutal four years. Revenue fell from $703.3M to $443.5M, and the recovery is three quarters old.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $455.9M trailing twelve months, +2.3% year over year.",
-    "Profitability: 8.4% operating margin and 9.8% net margin.",
-    "Cash: $91.4M free cash flow, a 20.0% margin.",
-    "Scorecard: 51/100 average percentile across the factor screens."
+    "Operating margin reached 15.2% in September 2026 from 1.3% in March, on revenue that rose only 16%.",
+    "Gross margin of 53.9% held through a revenue decline from $703.3M in FY2021 to $443.5M in FY2025.",
+    "Free cash flow of $91.4M is a 20.0% margin and covers the 2.2% dividend roughly twice over.",
+    "Revenue growth of 2.3% ranks last in the peer group against a 28.4% median, yet the shares trade at 54.4x earnings."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/833640/000083364026000037/powi-20251231x10k.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000833640&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Power Integrations, Inc. generated $455.9M of revenue over the last twelve months, +2.3% versus the prior year. The cycle is driven by inventory, utilisation and the next node or packaging transition.",
-      "The latest reported quarter was Q3 FY26, with $125.5M of revenue and an operating margin of 15.2%. The stock closed at $42.55 on 2026-11-17, giving a market capitalization of $2.4B.",
-      "The shares sit 19% of the way up their 52-week range ($30.86 to $91.18). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "A second consecutive quarter of margin recovery took operating margin to 15.2% in September 2026, from 7.5% in June and 1.3% in March, on revenue of $125.5M. EPS was $0.32 and free cash flow $36.5M. Trailing revenue is $455.9M, up 2.3%, so the improvement is coming from cost absorption rather than from growth. That distinction matters while revenue is still well below its FY2021 peak. The cost base, not the demand line, is doing the work.",
+      "Power Integrations sells integrated AC-DC controllers for supplies from under a watt to about 500 watts, high-voltage gate drivers for industrial motors, solar and wind inverters and electric-vehicle powertrains, and motor-driver ICs for appliances. Integration is the product: one chip replaces a board of discrete parts, and the customer pays for saved assembly cost and board space. Gross margin has stayed near 54% through the downturn because that value proposition did not change with volume.",
+      "At 54.4x earnings and 33.8x EBITDA the shares are close to the peer medians of 71.5x and 30.1x, but 26.6x free cash flow and a 3.8% cash yield are the more favourable measures. Net cash of $288.1M is 12% of the market value, and a 2.2% dividend pays holders while the recovery runs. The multiple assumes the September margin holds; the revenue base does not yet support a full cycle."
     ],
-    "quote": "The gross margin never broke. What broke was the volume that had to carry a fixed cost base, and that is a different problem from losing pricing power."
+    "quote": "Power Integrations kept a 53.9% gross margin through a revenue collapse; the 15.2% operating margin is what returns when volume comes back."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,46 @@ export const POWI: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 0.9% a year across the fiscal years in the dataset, and the latest quarter changed +5.5% year over year. Third-party estimates for the current fiscal year point to $474.7M of revenue and $1.49 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 8.4% and return on invested capital of 7.4% are the filters to watch as revenue scales."
+      "High-voltage integration is the driver, and it is a content story rather than a unit story. Each generation of power supply puts more of the conversion function on one chip, which raises semiconductor content per supply even when unit volumes are flat. Gate drivers add exposure to industrial motors, solar and wind inverters and electric-vehicle powertrains, where qualification is slow but the design life is long. Revenue fell from $703.3M in FY2021 to $443.5M in FY2025 and has recovered only to $455.9M trailing.",
+      "The forecast is for a modest recovery: $474.7M for the current year, up 7.0%, and $517.8M next, up 9.1%, with the December quarter at $122.0M. That is still a quarter below the FY2021 peak, so the consensus is not pricing a return to the old base. Durability depends on whether the industrial and automotive driver business can grow fast enough to offset a consumer market that is structurally price-sensitive."
     ],
     "bullets": [
       {
-        "title": "Consumer and appliance recovery",
-        "detail": "The volume base that disappeared in the downturn is the first thing that has to return."
+        "title": "Integration content",
+        "detail": "Replacing discrete components with one chip raises semiconductor value per supply, even in a flat unit market."
       },
       {
-        "title": "Industrial and automotive content",
-        "detail": "Electronic motor control adds gate drivers and motor ICs to systems that previously used mechanical or discrete solutions."
+        "title": "Gate drivers",
+        "detail": "Industrial motors, inverters and EV powertrains use high-voltage drivers, and those designs last for years."
       },
       {
-        "title": "Efficiency regulation",
-        "detail": "Standby-power and efficiency rules push designers toward integrated supplies with lower part counts."
+        "title": "Consumer exposure",
+        "detail": "Phone chargers and consumer supplies are commodity markets where price competition reaches gross margin first."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 8.4%, the net margin is 9.8% and diluted EPS is $0.78. The latest quarter's operating margin was 15.2%.",
-      "Return on equity is 6.4%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $125.5M, an operating margin of 15.2% and a net margin of 14.6%."
+      "Two quarters of recovery moved the operating margin from 1.3% to 15.2% on a 16% revenue increase. Gross margin is 53.9% trailing, almost unchanged from 54.5% in FY2025, so the entire improvement came from operating expense absorption. The annual record shows the downside of that model: operating income fell from $175.1M in FY2021 to $10.2M in FY2025 on a revenue decline from $703.3M to $443.5M.",
+      "Net margin is 9.8%, above the 8.4% operating margin, because $288.1M of net cash earns interest. EPS was $0.32 in the September quarter against $0.02 in June 2025. Returns remain depressed: ROIC of 5.2% and ROE of 6.4% compare with peer medians of 9.4% and 8.3%, and the gap will not close until revenue returns to a level that covers the fixed engineering base."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $91.4M, a 20.0% margin. The balance sheet carries $288.1M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $91.4M over the last twelve months and net debt was -$288.1M; interest cover was n/a."
+      "A 20.0% free-cash-flow margin is the strongest part of the case. FY2025 produced $111.5M of operating cash flow and $24.4M of capex, a 5.5% capital intensity, leaving $87.1M; the trailing figure is $91.4M. That cash covers the dividend about 1.7 times over: a 2.2% yield on a $2.4B market value absorbs roughly $53M, against $91.4M of free cash flow. That is a higher cash margin than the 3.1% at Advanced Energy or the 6.1% at SiTime, both of which are growing faster.",
+      "Net cash of $288.1M is 12% of the market value and 4.5x EBITDA, and there is no debt service to cover. The company has the balance sheet to wait for the cycle, and the dividend is covered by cash flow through it. A dividend is paid, but no buyback is reported; the rest of the cash is being held rather than returned, and at a 3.8% free-cash-flow yield that is a defensible choice only if the recovery arrives."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 53.1x trailing earnings and 32.9x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $58.50; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Fifty-four times earnings is below the 71.5x peer median, and 33.8x EBITDA is close to the 30.1x median, but the growth percentile is zero: revenue rose 2.3% trailing against a 28.4% peer median. The cash multiple is more forgiving at 26.6x, a 3.8% yield, and the 2.2% dividend adds to the return. The shares are priced for a margin recovery, not for growth. Against SiTime's 18.7x sales and 113.2x EBITDA the multiple is staid; against the 28.4% peer growth median it is full.",
+      "At the September quarter's $0.32 annualised, the multiple is 34x, which is still above the peer median for a business with no revenue growth. What justifies that is the 53.9% gross margin and the 20.0% cash margin, both of which have survived the downturn. The estimate for next year at $517.8M remains 26% below the FY2021 peak, so a full recovery is not in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "4 analysts contribute to the third-party consensus. The mean target is $58.50, with a range of $52.00 to $65.00.",
-      "Current-year estimates call for $474.7M of revenue and $1.49 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 4 analysts with a mean target of $58.5; third-party estimates can change without notice."
+      "Four analysts in the Yahoo Finance survey of 18 November 2026 set a mean target of $59 against a $44 price, and the range of $52 to $65 is the narrowest in the group. EPS estimates rose 6.9% over thirty, sixty and ninety days, and the last four quarters beat by 4% to 21%.",
+      "Thin coverage makes the consensus a weak signal. Current-year EPS of $1.49 and next year's $1.79 compare with $0.39 reported for FY2025, so the consensus embeds the margin recovery holding through a modest revenue increase. The tight target range suggests the covering analysts agree on the direction and differ only on the pace; that agreement is worth less when there are four of them."
     ]
   },
   "risks": {
@@ -164,5 +161,7 @@ export const POWI: StockStory = {
       "What would revenue have to be for operating margin to return to the FY2022 level?",
       "Is the dividend covered by free cash flow through a full cycle?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

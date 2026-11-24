@@ -7,20 +7,20 @@ export const PODD: StockStory = {
   "dek": "Omnipod is a disposable insulin pump worn on the body. The business runs on recurring pod shipments, payer coverage and manufacturing scale, and the shares now trade at an ordinary medtech multiple.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $3.2B trailing twelve months, +26.5% year over year.",
-    "Profitability: 18.4% operating margin and 13.4% net margin.",
-    "Cash: $260M free cash flow, a 8.2% margin.",
-    "Scorecard: 54/100 average percentile across the factor screens."
+    "Revenue of $3.2B grew 26.5%, but the September quarter grew 19.2% and the December estimate assumes 14.8%, a deceleration the multiple has already acknowledged.",
+    "A 71.9% gross margin produced an 18.4% operating margin and $260.0M of free cash flow, an 8.2% margin, with net debt at 0.5x EBITDA.",
+    "The September quarter's 22.5% operating margin was the best in the series and 6.3 points above June, so repeatability is now the question.",
+    "Twenty-three analysts cluster between $160 and $200 around a $179 mean against a $132 price, with eleven neutral views and estimates up 4.1%."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000028/podd-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001145197&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "INSULET CORP. generated $3.2B of revenue over the last twelve months, +26.5% versus the prior year. The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue.",
-      "The latest reported quarter was Q3 FY26, with $842M of revenue and an operating margin of 22.5%. The stock closed at $145.34 on 2026-11-17, giving a market capitalization of $10.1B.",
-      "The shares sit 8% of the way up their 52-week range ($126.40 to $354.88). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Volume caught up with capacity in the September quarter: revenue of $842.0M grew 19.2%, and the operating margin reached 22.5%, 6.3 points above June and the best in the reported series. EPS of $2.03 against $1.37 in the prior quarter says the operating leverage arrived faster than the analysts expected. A manufacturing ramp that was a drag in the first half became a contributor in the third quarter. Whether that is a new run rate or a mix benefit is the question the rest of the year has to answer.",
+      "Omnipod is a disposable pump worn for up to three days, so revenue is an installed-base annuity: each patient consumes a pod every three days and a controller only at the start. The 71.9% gross margin is the pod; the operating margin is the field sales force, the clinical specialists who train patients and the plant overhead. That is why a 71.9% gross margin becomes an 18.4% operating margin rather than a software-like number, and why incremental patients matter so much.",
+      "The market value is $9.2B, 21.4x trailing earnings and 13.7x EBITDA, below the 21.2x medtech median and a long way from Penumbra's 57.1x. The shares are 61% below the $342 high of the past year, so the multiple has already repriced for deceleration. The question is whether 13.7x is the right price for a business growing 26.5% at a 71.9% gross margin; the answer depends on whether the September margin holds."
     ],
-    "quote": "A disposable pump creates a recurring revenue stream, but only while patients keep reordering. Retention and reimbursement matter more than the size of the addressable market."
+    "quote": "Insulet sells a disposable pod every three days to every patient it starts, and the 22.5% September margin is what that annuity looks like at scale."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,50 @@ export const PODD: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 24.2% a year across the fiscal years in the dataset, and the latest quarter changed +19.2% year over year. Third-party estimates for the current fiscal year point to $3.3B of revenue and $6.77 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 18.4% and return on invested capital of 23.7% are the filters to watch as revenue scales."
+      "The installed base is the growth engine, and the addressable pool is being widened from type 1 to type 2 diabetes. Type 1 is a stable, well-served population; type 2 is far larger, and the argument is that insulin-using type 2 patients are underserved by tubed pumps. The reported numbers cannot separate the two, because the segment disclosure is a single corporate line. What they show is revenue growth of 30.7% in FY2025 and 26.5% trailing, slowing to 19.2% in September.",
+      "Consensus assumes $3.3B of revenue in 2026, 22.0% growth, then $3.7B in 2027, 11.7%, with EPS rising 36.3% and then 16.8%. The 2027 deceleration is a big assumption for a company that has grown above 20% every year in the series, and it is the number that explains the multiple compression. It may reflect a conservative view of type 2 adoption, or a view that the pump market is closer to saturation than the company's history suggests.",
+      "Durability rests on retention. A patient who stays on therapy consumes pods for years, so the revenue base is stickier than a device sale; a patient who discontinues takes the annuity with them. Retention and the share of pod revenue from patients who started in the last twelve months are not disclosed, so the quality of the installed base is inferred from the revenue trend rather than measured. That is the gap the September margin cannot fill."
     ],
     "bullets": [
       {
-        "title": "Type 2 diabetes",
-        "detail": "A much larger population than type 1, but patients are older, more price-sensitive and more likely to be managed on injections first."
+        "title": "Installed-base annuity",
+        "detail": "Every patient consumes a pod every three days, so revenue follows the base rather than the number of new starts in any quarter."
       },
       {
-        "title": "Automated insulin delivery",
-        "detail": "The closed-loop feature is the reason to choose Omnipod over a conventional pump. Upgrade cycles keep the installed base current."
+        "title": "Type 2 expansion",
+        "detail": "The larger insulin-using type 2 population is the growth option, but the single-segment disclosure does not show how much of the 26.5% growth came from it."
       },
       {
-        "title": "International",
-        "detail": "Additional geographies add patients but usually at lower average selling prices and with their own reimbursement negotiations."
+        "title": "Manufacturing leverage",
+        "detail": "Pods are made in-house, so capacity has to be built before patients arrive; the September quarter's 22.5% margin is what happens when volume arrives."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 18.4%, the net margin is 13.4% and diluted EPS is $6.13. The latest quarter's operating margin was 22.5%.",
-      "Return on equity is 27.2%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $842M, an operating margin of 22.5% and a net margin of 16.8%."
+      "Almost 53 points of the 71.9% gross margin are consumed before operating profit. A field sales force, clinical specialists and manufacturing overhead account for the gap, and they are largely fixed. The September quarter showed what happens when revenue covers that base: operating margin 22.5%, net margin 16.8%, EPS $2.03. June, at 16.2% and 11.8%, shows the same base without the volume. A 5% revenue increase produced a 6.3-point margin move.",
+      "Net margin is less reliable than operating margin. It was 20.2% in FY2024, 9.1% in FY2025 and 13.4% trailing, against operating margins of 14.9%, 17.5% and 18.4%. A revenue-growing company does not lose 11 points of net margin without something below the operating line, and the statements do not isolate it. That is why operating margin and free cash flow are better measures of progress than EPS, which fell from $5.78 to $3.48 in FY2025 on 30.7% revenue growth.",
+      "Return on invested capital of 18.2% and return on equity of 27.2% are the strongest in the medtech group after Krystal, and they are achieved with net debt of 0.5x EBITDA. The capital intensity is real, with capex of $191.6M in FY2025 against $124.9M in FY2024, but it is funded from operations and free cash flow has been positive every year since FY2023. The returns are a function of a high-margin consumable and a manufacturing base that is now largely built."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $260M, a 8.2% margin. Net debt is $377.7M.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $260M over the last twelve months and net debt was $377.7M; interest cover was n/a."
+      "Capex is the swing factor: $191.6M in FY2025 against $124.9M in FY2024, as plant capacity was built ahead of demand. Even so, operating cash flow of $569.3M left $377.7M of free cash flow, a 14.0% margin. The trailing figure is lower at $260.0M, 8.2%, because the first three quarters of fiscal 2026 generated $211.8M between them, and the September quarter's $66.4M was the weakest of the three.",
+      "Net debt of $358.6M is 0.5x EBITDA and interest cover is 9.9x, so the balance sheet is not a constraint. The company can fund the next plant from cash flow, which matters because capacity has to be installed before the patients arrive. No dividend is paid, and the cash is being reinvested in manufacturing rather than returned. That is the right choice while the installed base is growing, but it leaves no distribution to support the share price if growth slows.",
+      "The cash statement conversion is the number to watch. A 71.9% gross margin business converting only 8.2% of revenue into free cash flow is spending heavily to grow, which is defensible while revenue grows above 20%. If growth falls to the 11.7% the 2027 estimate assumes, the capex line becomes a larger share of a slower revenue base, and the free cash flow margin has to improve for the multiple to hold."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 23.5x trailing earnings and 15.1x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $178.57; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "A 61% decline from the 52-week high has taken the multiple to 21.4x earnings and 13.7x EBITDA, below the 21.2x medtech median and less than a quarter of Penumbra's 57.1x. That is a derating from growth-stock multiples to device multiples, and it happened while revenue was still growing 26.5%. The market is not disputing the past; it is disputing the 2027 estimate of 11.7% growth.",
+      "Cash generation tells a less flattering story than earnings: 35.3x price to free cash flow against 21.4x earnings, a 2.8% cash yield. The gap is capex and working capital, both growing with the installed base. On the 2026 EPS estimate of $6.77 the multiple is 19.5x, and on $7.91 for 2027 it is 16.7x, so the earnings multiples are undemanding if the estimates hold. The cash multiple is the one that says the market is not yet convinced.",
+      "What would justify a re-rating is evidence that the September margin is a floor rather than a peak, and that type 2 starts add to the type 1 base rather than substitute for it. What would break the current price is further deceleration toward the high single digits, because the fixed field organisation would stop spreading and the 13.7x EBITDA multiple would look generous rather than cheap."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "23 analysts contribute to the third-party consensus. The mean target is $178.57, with a range of $160.00 to $200.00.",
-      "Current-year estimates call for $3.3B of revenue and $6.77 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 23 analysts with a mean target of $178.57; third-party estimates can change without notice."
+      "Targets cluster between $160 and $200, a narrow band for a stock at $132, and they sit 21% to 52% above it. A tight range with a large neutral block means the analysts agree on the business and disagree only about the pace of the recovery.",
+      "Estimates have been raised 4.1% across every window, at seven, thirty, sixty and ninety days, and the September quarter beat the consensus figure. The 2026 estimate of $6.77 implies 36.3% EPS growth on 22.0% revenue growth, so the consensus already assumes margin expansion. The 2027 estimate of $7.91 implies 16.8% growth on 11.7% revenue, which is the assumption the $160 low target is testing."
     ]
   },
   "risks": {
@@ -158,5 +159,7 @@ export const PODD: StockStory = {
       "Is the Q3 FY26 margin of 22.5% repeatable, or was it a mix and timing benefit?",
       "What would a payer decision to narrow pump coverage do to the installed base?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

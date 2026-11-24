@@ -7,20 +7,20 @@ export const LUNR: StockStory = {
   "dek": "Revenue quadrupled in a single quarter to $203.4M, but operating margin is still -28.0%, free cash flow is negative and the balance sheet carries $104.2M of net debt.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $481.3M trailing twelve months, +113.0% year over year.",
-    "Profitability: -28.0% operating margin and -27.1% net margin.",
-    "Cash: -$187.8M free cash flow, a -39.0% margin.",
-    "Scorecard: 43/100 average percentile across the factor screens."
+    "Revenue jumped to $183.6M in Q1 FY2026 from $43.3M in the prior quarter, and Q2 held at $203.4M.",
+    "The operating margin is still minus 28.0% on a trailing basis, despite a 45.0% gross margin on the contract work.",
+    "Free cash flow of minus $187.8M and net cash of $31.0M leave little room for a delayed milestone payment.",
+    "At 3.6x trailing sales the equity is the cheapest in the space group, and the discount reflects contract quality."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1844452/000162828026019865/lunr-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001844452&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Intuitive Machines, Inc. generated $481.3M of revenue over the last twelve months, +113.0% versus the prior year. The business depends on contract wins, launch execution and the path from backlog to cash flow.",
-      "The latest reported quarter was Q2 FY26, with $203.4M of revenue and an operating margin of -23.2%. The stock closed at $11.05 on 2026-11-17, giving a market capitalization of $2B.",
-      "The shares sit 8% of the way up their 52-week range ($7.78 to $46.75). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Intuitive Machines booked $183.6M of revenue in Q1 FY2026, four times the $43.3M of the preceding quarter, and followed it with $203.4M in Q2. A step of that size in a contract business usually means a mission passed a milestone, not that the underlying demand quadrupled. The operating margin in those quarters was minus 21.3% and minus 23.2%, so the revenue arrived with a loss attached. Whether the new level holds for four quarters is the central question.",
+      "The company is organised around four units: Lunar Access Services for landers and payload delivery, Orbital Services for spacecraft and operations beyond the surface, Lunar Data Services for communications and data, and Space Products and Infrastructure for components sold to other missions. They share engineering, test facilities and a bidding organisation, so the consolidated margin is the meaningful number. Customers are mostly government and defence programmes, which gives visibility but concentrates the risk in a few awards.",
+      "At 3.6x trailing sales, the equity is the cheapest in the space group: Rocket Lab trades at 40.8x and AST SpaceMobile at 76.0x. The discount is not a free option. Fixed-price contracts transfer cost risk to the company, and a single mission overrun can consume the gross profit of several others. The market is pricing the contract terms, not the revenue. That is a discount to the growth names, not to the defence contractors, and it closes only if the margin proves durable."
     ],
-    "quote": "A government contractor is only as good as its contract terms. Fixed-price work can look like growth on the revenue line and like a loss on the margin line at the same time."
+    "quote": "Fixed-price work pays for the milestone and charges the company for every surprise on the way to it."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -55,35 +55,50 @@ export const LUNR: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 34.1% a year across the fiscal years in the dataset, and the latest quarter changed +304.3% year over year. Third-party estimates for the current fiscal year point to $934.9M of revenue and -$0.34 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -28.0% and return on invested capital of -12.8% are the filters to watch as revenue scales."
+      "The step-up from $43.3M to $183.6M in one quarter has to repeat before it can be called growth. The FY2026 estimate of $934.9M is 345.1% above FY2025, and FY2027 is estimated at $1.2B, another 25.4%. Those numbers imply the new revenue level holds and grows, which is a different claim from a single milestone landing in a favourable period. The quarterly revenue line is the only evidence that can settle it, and two quarters is not enough.",
+      "The four units have different cycles. A lander mission is won years before it flies, while data and component sales can recur every quarter. Lunar Data Services is the closest thing to recurring revenue in the group, and Space Products and Infrastructure broadens the customer base beyond the company's own missions. The mix between mission awards and recurring work determines how much of the revenue is visible a year ahead.",
+      "Durability also depends on contract terms. Fixed-price awards carry the cost risk, and a rework cycle can turn a profitable mission into a loss. The 45.0% gross margin is an estimate of the cost to complete specific contracts, not a price list, so it can move as those estimates change. That is why the growth rate and the margin have to be read together."
+    ],
+    "bullets": [
+      {
+        "title": "Lunar Access",
+        "detail": "Landers and payload delivery depend on mission awards and milestone timing, which makes revenue lumpy by design."
+      },
+      {
+        "title": "Lunar Data Services",
+        "detail": "Communications and data products are the closest thing to recurring revenue in a portfolio of mission contracts."
+      },
+      {
+        "title": "Space Products",
+        "detail": "Components and subsystems sold to other missions broaden the customer base beyond the company's own launches."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -28.0%, the net margin is -27.1% and diluted EPS is -$0.95. The latest quarter's operating margin was -23.2%.",
-      "Return on equity is -17.9%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q2 FY26: revenue of $203.4M, an operating margin of -23.2% and a net margin of -22.8%."
+      "A 45.0% gross margin that produces a minus 28.0% operating margin points to the cost base beneath the contracts. Engineering, test facilities and the bidding organisation are shared across the four units, and they do not shrink when a mission slips. The quarterly operating margins have ranged from minus 16.1% in Q1 FY2025 to minus 76.4% in Q4 FY2025, which is the range a milestone-driven business produces.",
+      "Net margin was minus 27.1% trailing, and the loss per share was $0.29 in Q2 FY2026 against $0.35 in Q4 FY2025. The FY2023 net profit of $2.42 per share is a reminder that the bottom line can swing on items outside the operating result, which is why operating margin is the better measure of contract performance. Return on invested capital of minus 233.1% reflects a small invested-capital base, not a large loss.",
+      "The comparison with Rocket Lab is instructive. Rocket Lab's gross margin is 37.3% and its operating margin minus 29.1%; Intuitive runs a 45.0% gross margin and a minus 28.0% operating margin. Similar operating losses from different gross margins suggest the shared problem is the fixed engineering and bidding cost, not the contract pricing alone. For Intuitive, the implication is that operating leverage has to come from spreading the bidding and engineering cost, not from lifting the gross margin."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$187.8M, a -39.0% margin. Net debt is $104.2M.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$187.8M over the last twelve months and net debt was $104.2M; interest cover was n/a."
+      "Milestone billing makes the cash flow lumpy: minus $187.8M over the trailing period on $481.3M of revenue. FY2025 free cash flow was minus $56.0M, so the deterioration followed the revenue step-up rather than preceding it. That pattern is typical of contract work, where costs are incurred before the milestone payment arrives, and it means the cash figure carries less information about contract quality than the margin does.",
+      "Net cash of $31.0M is thin against a trailing outflow of $187.8M, which means a delayed milestone payment is a liquidity event rather than an inconvenience. Capital expenditure was $41.6M in FY2025, up from $10.1M in FY2024, so the investment in facilities is a second call on cash. Nothing is returned to shareholders at this stage; the cash is committed to facilities and mission delivery.",
+      "The cash-flow statement is the best guide to contract quality. A business that recognises revenue on milestones can report a profit while consuming cash if the milestone sits behind the cost. The gap between the operating loss and the free cash outflow is where that timing shows up, and it is the number to watch alongside backlog disclosure. If the milestone arrives late, the cash outflow leads the revenue and the balance sheet absorbs the difference."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $25.20; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "The cheapest sales multiple in the group, 3.6x, is a statement about contract quality rather than a bargain signal. Rocket Lab at 40.8x and AST SpaceMobile at 76.0x are priced on growth and optionality; Intuitive is priced on government contracts with fixed-price risk and a history of lumpy revenue. A low multiple is the price the market sets on a business whose margins are set by cost estimates on long-dated awards.",
+      "On FY2026 revenue of $934.9M the multiple is lower still, and on FY2027 revenue of $1.2B it approaches the range of a conventional defence contractor. That trajectory is the case for the shares: if the new revenue level holds and the margin improves, the discount closes without the multiple expanding. The risk is that the revenue step was a timing effect and the denominator falls back.",
+      "What would justify a re-rating is four consecutive quarters at the new revenue level with a stable or improving gross margin, which would show that the step-up is a business rather than a milestone. What would break it is a mission failure or a contract loss provision, because either would hit both the revenue and the cost estimate at once."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "10 analysts contribute to the third-party consensus. The mean target is $25.20, with a range of $13.00 to $38.00.",
-      "Current-year estimates call for $934.9M of revenue and -$0.34 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 10 analysts with a mean target of $25.2; third-party estimates can change without notice."
+      "Ten analysts, a mean target of $25 and a low of $13: the range spans the difference between a contract story and a franchise. The mean sits well above the $10 share price.",
+      "Consensus estimates from 18 November 2026, sourced to Yahoo Finance and cross-checked with Nasdaq, have FY2026 revenue of $934.9M and a loss of $0.34 per share, then FY2027 revenue of $1.2B and a loss of $0.18. Only three analysts contribute to the annual revenue estimate, and the 30-day EPS revision is minus 35.3%. The numbers embed a revenue step that has already happened and a margin that has not yet followed."
     ]
   },
   "risks": {
@@ -147,5 +162,7 @@ export const LUNR: StockStory = {
       "What is the cash balance relative to the $104.2M net debt?",
       "Can gross margin stay near 45.0% as revenue scales?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

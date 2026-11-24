@@ -7,20 +7,20 @@ export const AMSC: StockStory = {
   "dek": "Operating margin is 5.2% and net margin is 38.6%, because a single quarter carried a gain the business did not earn. Revenue has nearly tripled, but the return on capital has not.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $349M trailing twelve months, +31.1% year over year.",
-    "Profitability: 5.2% operating margin and 38.6% net margin.",
-    "Cash: $15.4M free cash flow, a 4.4% margin.",
-    "Scorecard: 58/100 average percentile across the factor screens."
+    "Operating margin of 5.2% against a 38.6% net margin shows that one quarter's net income, not the business, produced most of the profit.",
+    "Revenue of $349.0M grew 31.1%, and Grid is 84.0% of segment revenue while Wind is 16.0%.",
+    "Free cash flow of $15.4M is 4.4% of revenue; capex is only $4.9M, so working capital and project timing set the cash line.",
+    "At 31.0x EBITDA and 66.1x free cash flow, the shares are priced for a margin recovery that has barely started."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/880807/000143774926018542/amsc20260331_10k.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000880807&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "AMERICAN SUPERCONDUCTOR CORP /DE/ generated $349M of revenue over the last twelve months, +31.1% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
-      "The latest reported quarter was Q2 FY27, with $94M of revenue and an operating margin of 5.7%. The stock closed at $22.16 on 2026-11-17, giving a market capitalization of $1.1B.",
-      "The shares sit 2% of the way up their 52-week range ($21.47 to $60.18). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "The $117.8M of net income reported in the December 2025 quarter is the reason the trailing net margin is 38.6% while the operating margin is 5.2%. Strip that quarter out and AMSC is a $349.0M revenue equipment maker earning a thin return at the operating line. That is not a criticism of the business; it is the reason the trailing earnings multiple cannot be used without adjustment, and why the company is best valued on operating profit or cash flow.",
+      "The Grid segment, at 84.0% of revenue, sells voltage compensators, switchgear, grid-forming inverters and control systems to transmission operators. A utility with a congested line can install a compensator instead of building a new line, and a network integrating wind and solar needs equipment that holds frequency and voltage steady. The Wind segment, at 16.0%, sells converters and controls to turbine manufacturers, much of it licensed. Both segments share a power-electronics engineering base, which is the strategic logic for keeping them together.",
+      "Net cash of $169.9M and free cash flow of $15.4M give the company time to convert a 5.2% operating margin into something that earns its cost of capital. At 31.0x EBITDA and 66.1x free cash flow, the shares already assume that conversion. The debate is whether grid investment is strong enough to carry the fixed engineering base, and whether the wind licences renew on similar terms. The stock's 32.7% one-year decline suggests the market has started to discount that possibility."
     ],
-    "quote": "A small equipment company with a lumpy order book will occasionally book a quarter that does not resemble the business. The published multiple cannot tell the difference between that quarter and a year of ordinary trading."
+    "quote": "AMSC has turned at the operating line, but the multiple still rests on a profit the business did not earn."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,47 @@ export const AMSC: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 29.4% a year across the fiscal years in the dataset, and the latest quarter changed +42.8% year over year. Third-party estimates for the current fiscal year point to $367.8M of revenue and $0.79 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 5.2% and return on invested capital of 3.5% are the filters to watch as revenue scales."
+      "Grid investment is the demand driver, and it is slower and more political than data-centre spending. Revenue went from $145.6M in FY2024 to $222.8M in FY2025 and $299.2M in FY2026, and the trailing figure is $349.0M, up 31.1%. The growth is real, but it comes from a small number of large utility and industrial projects rather than from a broad volume base, so a single award or deferral moves the annual rate.",
+      "The Wind segment is the cyclical half. Licence and equipment revenue follows the production volumes of a small number of turbine manufacturers, several in markets with their own policy risk. Grid, at 84.0%, is the better business but also the one whose orders are planned years in advance and can be deferred by a regulatory decision. Neither segment gives the kind of recurring revenue that supports a high multiple on its own."
+    ],
+    "bullets": [
+      {
+        "title": "Grid upgrades",
+        "detail": "Voltage compensation and grid-forming inverters sell into transmission projects that are planned years ahead."
+      },
+      {
+        "title": "Wind licences",
+        "detail": "Turbine control revenue depends on the production volumes of a small group of manufacturers, several outside the United States."
+      },
+      {
+        "title": "Operating leverage",
+        "detail": "A 28.0% gross margin leaves 22.8 points to cover a fixed engineering base, so incremental revenue carries a high drop-through."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 5.2%, the net margin is 38.6% and diluted EPS is $2.92. The latest quarter's operating margin was 5.7%.",
-      "Return on equity is 23.2%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q2 FY27: revenue of $94M, an operating margin of 5.7% and a net margin of 3.2%."
+      "Operating leverage is doing the work, slowly. Gross margin rose from 24.2% in FY2024 to 30.5% in FY2026, and operating margin from negative 7.8% to 3.8%, then 5.2% trailing. Revenue grew 31.1% and the operating margin still widened, which is the fixed-cost story in its simplest form. The absolute numbers are still small: $11.4M of operating income on $299.2M of FY2026 revenue.",
+      "The quarterly path is uneven: 7.8% in the June 2025 quarter, 4.5% in September, 4.5% in December, negative 0.6% in March 2026, 10.5% in June 2026 and 5.7% in September 2026. A company with a few large projects will always show that pattern. The 10.5% quarter is the evidence that the model can earn a double-digit margin when volume is there and the project mix is favourable.",
+      "Return on invested capital of 3.1% is the number that matters. It is below the 12.2% peer median and below any plausible cost of capital, and it says the business has not yet earned the capital employed. Return on equity of 23.2% is not comparable because it is flattered by the December quarter. Until ROIC rises, the operating margin is a means rather than a result."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $15.4M, a 4.4% margin. The balance sheet carries $169.9M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $15.4M over the last twelve months and net debt was -$169.9M; interest cover was n/a."
+      "Cash conversion at AMSC is modest and irregular. FY2026 operating cash flow was $23.1M against $4.9M of capex, leaving $18.3M of free cash flow; the twelve-month figure is $15.4M, 4.4% of revenue. The company does not need much capital, but it does need working capital for projects, and a single large order can absorb a year's cash before it is billed.",
+      "The balance sheet carries $169.9M of net cash and no meaningful debt, and interest cover is not reported. That cash is the buffer that lets a $1.0B company take on utility projects with long lead times. No dividend is paid. The absence of leverage is a genuine strength, but it also means the equity is the only source of funding for growth and the only claim on the cash."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 8.0x trailing earnings and 32.9x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $50.75; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "A single-digit trailing earnings multiple is the kind of number that looks like a value opportunity until the denominator is examined. The earnings include $117.8M from a quarter that will not repeat, so the multiples that matter are 31.0x EBITDA and 66.1x free cash flow. Those are still growth multiples for a company growing 22.9% on the FY2027 revenue estimate.",
+      "On the FY2027 EPS estimate of $0.79 the shares at $21 are at about 27x, and on $1.31 for FY2028 at about 16x. The 1.5% free cash flow yield is thin for a company with a 5.2% operating margin. What justifies the price is operating margin reaching high single digits on a larger revenue base; what breaks it is a deferral of grid projects or a wind licence that does not renew."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "4 analysts contribute to the third-party consensus. The mean target is $50.75, with a range of $48.00 to $54.00.",
-      "Current-year estimates call for $367.8M of revenue and $0.79 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 4 analysts with a mean target of $50.75; third-party estimates can change without notice."
+      "Coverage is thin: the 18 November 2026 Yahoo Finance count is four analysts, with a mean target of $51, a range of $48 to $54 and a $21 price. All four sit at the positive end, with none neutral or cautious. The narrow target range is striking for a company whose operating margin is 5.2% and whose earnings include a one-off; it suggests the analysts are valuing the same grid story rather than disagreeing about the numbers.",
+      "EPS estimates were cut 10.2% across every window from seven to ninety days, and the last two quarters missed, at $0.16 against $0.21 and $0.19 against $0.20. FY2027 is $367.8M of revenue and $0.79 of EPS, FY2028 $427.3M and $1.31. The consensus assumes the operating margin doubles from here without any change in the project mix."
     ]
   },
   "risks": {
@@ -144,5 +156,7 @@ export const AMSC: StockStory = {
       "What operating margin is needed to earn a return above the cost of capital?",
       "How much of the backlog is firm orders rather than framework agreements?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

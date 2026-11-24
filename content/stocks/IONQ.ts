@@ -7,20 +7,20 @@ export const IONQ: StockStory = {
   "dek": "Revenue grew 376.5% to $380.4M on a trailing basis while the operating margin stayed at -333.9%. The positive net income in the same period came from below the operating line, not from selling quantum computing.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $380.4M trailing twelve months, +376.5% year over year.",
-    "Profitability: -333.9% operating margin and 67.0% net margin.",
-    "Cash: -$688.5M free cash flow, a -181.0% margin.",
-    "Scorecard: 34/100 average percentile across the factor screens."
+    "Revenue of $380.4M grew 376.5%, and the September quarter alone produced $173.8M, more than the whole of FY2025.",
+    "The operating loss is 333.9% of revenue and free cash flow is -$688.5M, so growth is being bought with cash at a steep rate.",
+    "Net cash of $932.3M covers a little over a year of the trailing burn, which makes funding a nearer question than the technology roadmap.",
+    "Fourteen analysts carry a $54 mean target against a $23 price while cutting 30-day EPS estimates by 46.3%."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1824920/000119312526071562/ionq-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001824920&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "IonQ, Inc. generated $380.4M of revenue over the last twelve months, +376.5% versus the prior year. The investment case is a long-duration option on a technology that has not yet reached commercial scale.",
-      "The latest reported quarter was Q3 FY26, with $173.8M of revenue and an operating margin of -249.1%. The stock closed at $24.84 on 2026-11-17, giving a market capitalization of $11.5B.",
-      "The shares sit 2% of the way up their 52-week range ($24.08 to $73.65). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Trapped-ion compute sold by the hour is the product, and the revenue it produced in the September quarter was $173.8M against $39.9M a year earlier. That is a 336% increase in one quarter, and it is larger than the whole of FY2025. The operating loss in the same quarter was 249.1% of revenue. Both numbers are real, and the gap between them is the investment case: demand is arriving faster than the cost base can be brought under control.",
+      "The company sells three different things through one reported line: access to a machine, the machine itself, and funded development work. Research institutions, government programmes and corporate innovation groups buy different combinations, and the quality of the revenue depends on which dominates. A system sale is lumpy and hardware-heavy; cloud usage is recurring and priced against free or subsidised alternatives. The accounts do not separate them, and that ambiguity is why the sales multiple is the only valuation measure with any purchase.",
+      "The valuation has no earnings anchor. At 26.1x sales, the market value of $10.9B is a claim on a commercial market that does not yet exist at scale, and the P/E of 42.5x is calculated on a net profit that came from below the operating line. Rigetti produced $13.4M of revenue and D-Wave $12.4M, each at an operating loss larger than 700% of sales. IonQ's revenue is thirty times larger, and its loss rate is less than half Rigetti's and a quarter of D-Wave's."
     ],
-    "quote": "The question is not whether quantum computing eventually matters. It is whether this company can fund the years between here and there without selling so much equity that the eventual payoff is diluted away."
+    "quote": "IonQ has proved it can sell quantum computing before it has proved the machines can solve problems worth paying for repeatedly."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,47 @@ export const IONQ: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 180.5% a year across the fiscal years in the dataset, and the latest quarter changed +336.0% year over year. Third-party estimates for the current fiscal year point to $510.5M of revenue and -$2.23 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -333.9% and return on invested capital of -24.5% are the filters to watch as revenue scales."
+      "System sales explain the step changes, and cloud usage explains the base. The September quarter's $173.8M is more than three times the June quarter's $80.0M, a jump that a recurring subscription base does not produce; a small number of large orders does. FY2025 revenue of $130.0M grew 201.9%, and the trailing figure of $380.4M grew 376.5%, so each period has been dominated by a different set of deals.",
+      "The estimates assume the step changes keep coming. FY2026 revenue is modelled at $510.5M, up 292.6%, and FY2027 at $874.1M, up 71.2%. Those are not penetration curves; they are forecasts of continued large orders. The EPS estimates are negative in both years, at -$2.23 and -$3.14, so the consensus is explicitly assuming that growth does not bring profitability within the forecast window."
     ],
     "bullets": [
       {
-        "title": "Technical milestones",
-        "detail": "Qubit count, gate fidelity and error correction are the real product roadmap. Commercial usefulness follows them, not the other way round."
+        "title": "Revenue mix",
+        "detail": "Cloud access, system sales and funded development are reported as one line, so the recurring share of $380.4M is not visible."
       },
       {
-        "title": "Government and enterprise funding",
-        "detail": "Public research budgets and corporate innovation spending pay for the current generation of machines."
+        "title": "Cash burn",
+        "detail": "Free cash flow of -$688.5M against $932.3M of net cash leaves a little over a year of funding at the trailing rate."
       },
       {
-        "title": "Cloud distribution",
-        "detail": "Marketplace listings lower the cost of reaching a developer, but they also make it easy to compare and switch."
+        "title": "Milestones",
+        "detail": "Error correction, not revenue, is the technical gate; a paid pilot becomes a repeat buyer only when the machine solves a problem the customer cannot solve otherwise."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -333.9%, the net margin is 67.0% and diluted EPS is $1.41. The latest quarter's operating margin was -249.1%.",
-      "Return on equity is 5.1%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $173.8M, an operating margin of -249.1% and a net margin of 324.4%."
+      "The loss widened as the revenue grew, which is the opposite of operating leverage. FY2025 revenue of $130.0M came with a 487.4% operating loss; the trailing period produced $380.4M with a 333.9% loss. The percentage improved because revenue grew faster than the loss, but the absolute loss still rose. The gross margin of 24.1% leaves too little after hardware, cryogenics and engineering support to cover a fixed base of physicists and fabrication.",
+      "The net line is not a guide to the business. Net margin of 67.1% in the trailing period and positive EPS in three of the last four quarters come from items below the operating line, and the quarterly EPS has ranged from $3.07 to -$5.08. Return on invested capital of -25.1% is the cleaner measure. Against Rigetti's -14.3% and D-Wave's -12.1%, IonQ is burning capital at a faster rate relative to its invested base."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$688.5M, a -181.0% margin. The balance sheet carries $932.3M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$688.5M over the last twelve months and net debt was -$932.3M; interest cover was n/a."
+      "Six hundred and eighty-eight million dollars of negative free cash flow is the number that governs the story. Capex is small at $16.4M in FY2025, so almost all of the burn is operating: people, fabrication and the cost of running machines that are not yet generating repeat revenue. Against $932.3M of net cash, the trailing burn covers a little over a year at the current rate, and the September quarter alone used $331.9M.",
+      "The funding model is equity, not debt. A company with a negative operating margin of this size cannot service leverage, and the reported balance sheet shows no meaningful debt. That makes the share count as important as the cash balance: each raise transfers part of the eventual payoff to new holders, and the price at which the stock is issued decides how much. At $23, against a 52-week high of $74, the currency is cheaper than it was."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 45.1x trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $54.28; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Twenty-six times sales is an extreme multiple in absolute terms, and the peer multiples are not comparable, because the other two quantum names lose money at a rate that makes an earnings multiple meaningless. Rigetti produced $13.4M of revenue at a -727.6% operating margin, D-Wave $12.4M at -1372.9%. IonQ's $380.4M at -333.9% is a different scale of business. The peer median revenue growth is 18.0%, which says nothing useful about a company growing 376.5%.",
+      "The multiple assumes the revenue becomes recurring and the gross margin rises. At a 24.1% gross margin, every dollar of revenue carries about 76 cents of delivery cost, so operating leverage has to come from scale in fabrication and from a mix shift toward cloud usage. If the September quarter was a system sale, the margin will fall back; if it was cloud usage, the base is larger than it looks. The reported line cannot distinguish them.",
+      "What would justify the price is a 2027 revenue base near the $874.1M estimate with a gross margin moving toward software levels. What would break it is a funding raise at a lower price before either of those appears. The P/E of 42.5x should be ignored; it is calculated on a profit that the operating business did not earn. The cash balance buys time, and the multiple already assumes that time produces a market."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "14 analysts contribute to the third-party consensus. The mean target is $54.28, with a range of $40.00 to $70.00.",
-      "Current-year estimates call for $510.5M of revenue and -$2.23 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 14 analysts with a mean target of $54.28; third-party estimates can change without notice."
+      "Fourteen analysts cover IonQ, with a mean target of $54 against a $23 price and a range of $40 to $70. A mean more than twice the market price is not a forecast anyone can act on literally; it is a statement that the published models are built on a longer timeline than the share price is.",
+      "The estimate revisions tell the opposite story. EPS forecasts have been cut 46.3% over 30 days and 50.3% over 60, and the quarterly EPS has swung from $3.07 to -$5.08. FY2026 EPS of -$2.23 and FY2027 of -$3.14 assume the loss per share widens as revenue grows. The consensus is therefore positive on the technology and negative on the near-term economics, a difficult combination to price."
     ]
   },
   "risks": {
@@ -168,5 +166,7 @@ export const IONQ: StockStory = {
       "Which technical milestone would turn a pilot customer into a repeat buyer?",
       "How much has the share count grown over the last three years, and at what prices?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

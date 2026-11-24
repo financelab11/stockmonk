@@ -7,20 +7,20 @@ export const UPST: StockStory = {
   "dek": "Revenue fell from $848.6M in FY2021 to $513.6M in FY2023 when funding dried up, then recovered to $1.34B. A 4.6% operating margin shows how little cushion the model carries when the buyers of loans step back.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $1.3B trailing twelve months, +38.6% year over year.",
-    "Profitability: 4.6% operating margin and -35.8% net margin.",
-    "Cash: -$187M free cash flow, a -14.0% margin.",
-    "Scorecard: 61/100 average percentile across the factor screens."
+    "Trailing revenue of $1.3B is up 38.6%, yet a 4.6% operating margin leaves almost no cushion between a funding pause and a loss.",
+    "Net debt of $1.6B at 17.9x EBITDA and interest cover of 0.7x make the warehouse line, not the credit model, the binding constraint.",
+    "Free cash flow was -$187.0M over twelve months after +$185.5M in FY2024, the swing that separates fee income from balance-sheet lending.",
+    "Sixteen analysts span $18 to $46 around a $31 mean, and the fiscal 2026 EPS estimate has been cut 19.5% in thirty days."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1647639/000164763926000027/upst-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001647639&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Upstart Holdings, Inc. generated $1.3B of revenue over the last twelve months, +38.6% versus the prior year. The economics depend on credit losses, funding costs, take rates and the ability to grow without buying customers.",
-      "The latest reported quarter was Q3 FY26, with $370.5M of revenue and an operating margin of 9.7%. The stock closed at $18.13 on 2026-11-17, giving a market capitalization of $1.8B.",
-      "The shares sit 0% of the way up their 52-week range ($18.08 to $52.10). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Three consecutive quarters of accelerating revenue carried Upstart to $370.5M in the September 2026 period, 33.7% above the year-earlier figure, with a 9.7% operating margin and $0.33 of EPS. That is the best operating quarter in the series and still only a 4.6% trailing margin. The gap between the two numbers is the point: the business can look profitable for a quarter when loan sales clear, and the annual figure shows how little of that survives a full funding cycle.",
+      "The cost base is engineering, credit analytics and the compliance apparatus needed to sell loans to regulated institutions, and it is largely fixed. The corollary is that a funding pause removes revenue without removing cost. That is what happened between FY2021 and FY2023, when revenue fell from $848.6M to $513.6M and the operating margin went from 16.6% to -50.0%. The recovery is real, with trailing revenue at $1.3B, but net debt reached $1.6B, so part of it was financed rather than earned.",
+      "The capital-allocation debate is the balance sheet. Net debt rose from $613.7M in FY2024 to $1.2B in FY2025, funded through warehouse lines, forward-flow agreements and convertible debt. At a $1.7B market value the enterprise is roughly $3.3B, or 2.4x sales for a business earning 4.6% on sales. That is a price for normalisation, and the evidence on whether it is happening sits in the cash flow line rather than the revenue line."
     ],
-    "quote": "A marketplace is only as strong as its capital partners. When they stop buying, the platform either shrinks or becomes a balance-sheet lender."
+    "quote": "Upstart earns a fee when a loan clears and carries the balance sheet when it does not, and $1.6B of net debt says the second case is not rare."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -38,49 +38,50 @@ export const UPST: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 36.7% a year across the fiscal years in the dataset, and the latest quarter changed +33.7% year over year. Third-party estimates for the current fiscal year point to $1.4B of revenue and $1.84 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 4.6% and return on invested capital of 11.5% are the filters to watch as revenue scales."
+      "Loan volume is the growth variable, and it is set by how many institutions will buy the paper the model produces. Trailing revenue of $1.3B is 38.6% higher year on year, and the September quarter added 33.7%, but the first two quarters of fiscal 2026 consumed $136.0M and $138.7M of free cash flow. Revenue growth and cash generation are pointing in opposite directions, which is what a marketplace looks like when it is holding loans it intended to sell.",
+      "Estimates put fiscal 2026 revenue at $1.4B, 29.6% higher, with EPS 2.3% lower at $1.84, then $1.7B and $2.94 in fiscal 2027. A year of revenue growth without earnings growth is an explicit assumption that the incremental volume carries a lower fee or a higher funding cost. The 59.4% EPS recovery the following year assumes that pressure reverses. Neither assumption is visible in the reported mix, which remains a single corporate line.",
+      "The durability test is partner concentration. A marketplace with a handful of large buyers is a different business from one with a broad panel, and the revenue disclosure does not distinguish them. What can be observed is that the operating margin swung from -2.4% in March to 9.7% in September on a 20% revenue increase, which is the fixed cost base acting as a lever. The same lever works downward, and it did in FY2022 and FY2023."
     ],
     "bullets": [
       {
-        "title": "Partner network",
-        "detail": "Each bank or credit union that joins adds funding capacity. Concentration in a few partners is the structural weakness."
+        "title": "Partner appetite",
+        "detail": "A single institution pausing purchases can remove a large block of volume, and the reported revenue line does not disclose how concentrated that flow is."
       },
       {
-        "title": "Model performance",
-        "detail": "If the loans perform better than the partner's own models would have predicted, the partner buys more. If not, it stops."
+        "title": "Credit vintage performance",
+        "detail": "If loans originated in the last two years perform worse than the model predicted, partners reprice or withdraw, and the 9.7% September margin does not survive the next cycle."
       },
       {
-        "title": "Product expansion",
-        "detail": "Auto refinance and home equity broaden the addressable volume beyond personal loans but need the same partner appetite."
+        "title": "Held-for-sale balances",
+        "detail": "Loans that cannot be sold move onto the balance sheet, which is why net debt reached $1.6B and free cash flow was negative in three of the last four quarters."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 4.6%, the net margin is -35.8% and diluted EPS is $0.59. The latest quarter's operating margin was 9.7%.",
-      "Return on equity is -54.0%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $370.5M, an operating margin of 9.7% and a net margin of 9.9%."
+      "Operating margin has swung from -2.4% in the March 2026 quarter to 9.7% in September, on revenue that rose from $308.2M to $370.5M. A 20% increase in volume produced a twelve-point margin move, which is the fixed cost base doing what it does in both directions. Net margin followed from -2.2% to 9.9% and EPS from -$0.07 to $0.33, so the improvement sits above the tax line and owes nothing to financial engineering.",
+      "The annual returns are the verdict on that quarterly swing. Return on invested capital is 1.7% and return on equity 7.3%, and interest cover of 0.7x says operating profit does not cover the interest bill. A company borrowing at warehouse rates to fund loans it may not sell is running a maturity mismatch, and the 17.9x net debt to EBITDA ratio is the size of it. The 9.7% quarter does not change that arithmetic; it only shows the model can cover its costs when volumes clear.",
+      "Against the peer group the margin gap is the story. Toast earns a 21.6% return on invested capital at a 7.2% operating margin, and Robinhood runs a 47.3% operating margin, because both keep the customer economics rather than passing the asset to a partner. Upstart's 4.6% is the fee it retains for origination and servicing. That is a distribution business, and it should be valued on volume and take rate rather than on an EBITDA multiple built for software."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$187M, a -14.0% margin. The balance sheet carries $461.5M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$187M over the last twelve months and net debt was -$461.5M; interest cover was n/a."
+      "Cash generation of -$187.0M over the trailing year is the clearest statement of what the model costs when loans stay on the books. The pattern is quarterly and violent: +$108.4M in the December 2025 quarter, then -$136.0M, -$138.7M and -$20.6M through fiscal 2026. FY2024, when the company sold more than it originated, produced +$185.5M. Nothing in the cost base changed across those periods; the direction of loan sales did.",
+      "Net debt of $1.6B is 17.9x EBITDA, and interest cover of 0.7x means the interest line is larger than operating profit. For a lender that ratio is partly an artefact of how warehouse and convertible costs are classified, but it is not a rounding error, and there is no dividend or buyback to absorb the difference. Funding comes from warehouse facilities, forward-flow agreements and convertible debt, so the maturity schedule and the cost of each renewal matter more than a quarterly beat.",
+      "The line to watch is loans held for sale. When that balance rises, cash leaves the business and the marketplace becomes a balance-sheet lender; when it falls, cash returns and the fee model resumes. FY2024 and FY2025 are the two templates, and the company has now shown both within eighteen months. Until the held-for-sale disclosure is stable, free cash flow will be a better guide to the model than operating margin."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and 15.2x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $30.50; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "The EBITDA multiple, 37.1x, is the highest in the peer group against a 23.1x median, and it sits on the lowest operating margin, 4.6% against a 35.6% median. A buyer is not paying for current profitability. The price implies the 9.7% September margin becomes a floor rather than a peak, and it implies the funding structure can support growth without more net debt. On the fiscal 2026 estimate of $1.84 the P/E is 9.2x, and on $2.94 for 2027 it is 5.8x.",
+      "That contradiction — 25.9x trailing earnings against 9.2x forward — is the valuation argument in one line. The trailing figure includes the weak March quarter; the forward figure assumes the September margin holds and grows. Affirm, the closest analogue, trades at 9.8x earnings and 32.3x EBITDA on 26.1% growth, so the earnings multiple is not the outlier; the EBITDA multiple is, because Upstart's EBITDA is small relative to its balance sheet.",
+      "What would justify the current price is evidence that origination can grow without net debt growing, and a forward-flow arrangement committing a partner to a defined volume would do it. What would break it is another quarter like March 2026, when revenue grew 30% and the operating margin was negative. The shares are 56.3% lower over twelve months and 91.8% lower over five years, so the market has already priced a lot of failure; the question is whether it has priced the right kind."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "16 analysts contribute to the third-party consensus. The mean target is $30.50, with a range of $18.00 to $46.00.",
-      "Current-year estimates call for $1.4B of revenue and $1.84 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 16 analysts with a mean target of $30.5; third-party estimates can change without notice."
+      "Sixteen analysts cover the shares, with a mean target of $31 against a $17 price and a range of $18 to $46, according to Yahoo Finance on 18 November 2026. The spread is unusually wide for a company of this size, and it maps onto the funding debate rather than onto disagreement about the product.",
+      "Fiscal 2026 EPS estimates have come down 19.5% in thirty days and 19.6% in ninety, while the revenue estimate still implies 29.6% growth. Stable revenue with lower profit is the consensus conceding the margin point without conceding the volume point. The $31 mean assumes the multiple recovers as earnings normalise; the $18 low assumes the balance sheet does not."
     ]
   },
   "risks": {
@@ -150,5 +151,7 @@ export const UPST: StockStory = {
       "What share of revenue comes from fees versus interest on loans held?",
       "What funding spread does the current 4.6% operating margin assume?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

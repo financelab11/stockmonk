@@ -7,20 +7,20 @@ export const INTC: StockStory = {
   "dek": "Revenue fell from $79.02B to $52.85B in four years while the manufacturing base stayed. A 39.9% gross margin is what that decision costs, and the recovery is what the share price is paying for.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $59.9B trailing twelve months, +12.1% year over year.",
-    "Profitability: 2.9% operating margin and -20.1% net margin.",
-    "Cash: $3.8B free cash flow, a 6.3% margin.",
-    "Scorecard: 39/100 average percentile across the factor screens."
+    "Trailing revenue is $59.9B, up 12.1%, but the operating margin is 2.9% and net income is negative.",
+    "Q2 FY2026 recorded an $11.03B net loss, which swamps the operating result of the surrounding quarters.",
+    "Free cash flow turned positive at $3.8B, and the balance sheet now holds $3.9B of net cash.",
+    "At 22.6x EV/EBITDA and 81.8x free cash flow, the shares price a margin recovery that has barely started."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000050863&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "INTEL CORP. generated $59.9B of revenue over the last twelve months, +12.1% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
-      "The latest reported quarter was Q3 FY26, with $16.5B of revenue and an operating margin of 15.3%. The stock closed at $55.17 on 2026-11-17, giving a market capitalization of $293.2B.",
-      "The shares sit 20% of the way up their 52-week range ($32.89 to $142.35). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Intel's balance sheet has flipped from net debt to net cash, and that is the most important change in the story. Net cash was $3.9B on a trailing basis, against $9.2B of net debt in FY2025, while trailing revenue rose 12.1% to $59.9B. Q3 FY2026 produced $16.5B at a 15.3% operating margin and $0.60 of EPS, the third consecutive quarter of improvement after a loss in the March quarter. The reported numbers show a recovery, but not yet a normal earnings base.",
+      "The business is still dominated by client computing and data centre, which together with networking and edge account for 93.0% of revenue. The United States is 29.8%, China 24.0% and Singapore 18.0%. Foundry is the strategic variable: it would spread fixed manufacturing costs across external customers, but it requires capital spending ahead of demand and customers willing to design around Intel's process. The 39.9% gross margin is the measure of how far that strategy has to travel.",
+      "At $58 the shares have no meaningful P/E because trailing earnings are negative. The usable multiples are 22.6x EV/EBITDA, 5.1x sales and 81.8x free cash flow, with a 1.2% free-cash-flow yield. The peer median EV/EBITDA is 25.5x, so the stock is not expensive on that measure. The debate is whether the fab base is an asset that will earn a return or a fixed cost that will keep consuming capital."
     ],
-    "quote": "A fab is a bet placed years before the revenue arrives. When demand falls in the meantime, the loss is not a surprise; it is the cost of the bet."
+    "quote": "Intel's factories cost the same whether they run at half capacity or near full, and the entire equity case is a bet on the second."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,50 @@ export const INTC: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -5.0% a year across the fiscal years in the dataset, and the latest quarter changed +20.9% year over year. Third-party estimates for the current fiscal year point to $61.7B of revenue and $1.49 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 2.9% and return on invested capital of 1.1% are the filters to watch as revenue scales."
+      "Revenue fell from $79.0B in FY2021 to $63.1B, $54.2B, $53.1B and $52.9B in the following four years, then recovered to $59.9B on a trailing basis. The decline has stopped, but the recovery is only four quarters old. Consensus expects $61.7B in FY2026, up 16.8%, and $69.1B in FY2027, up 12.0%. The forecast assumes the client and data-centre businesses recover while foundry begins to contribute.",
+      "The mix is concentrated: client computing, data centre and networking and edge are reported together at 93.0% of revenue, with Other Bets at 6.7%. That aggregation hides the split between the high-margin data-centre business and the lower-margin client business, which is the mix variable that matters most. Foundry external revenue is not broken out, so the strategic business cannot be sized from the segment disclosure.",
+      "The consensus is a recovery forecast, not a growth forecast. FY2026 EPS of $1.49 is up 254.0% from a depressed base, and FY2027 EPS of $1.79 is up 20.4%. Those numbers assume gross margin expands from 39.9% toward the mid-40s and that the loss-making quarters do not repeat. The estimate is sensitive to utilisation, which is the one variable management cannot fully control."
+    ],
+    "bullets": [
+      {
+        "title": "Fab utilisation",
+        "detail": "Fixed manufacturing costs dominate the cost of goods. Low utilisation is what turned a high-margin model into a 39.9% gross margin."
+      },
+      {
+        "title": "Process roadmap",
+        "detail": "Every product and foundry customer depends on the node being competitive. A delay resets the revenue timeline."
+      },
+      {
+        "title": "Foundry customers",
+        "detail": "External volume would spread the fixed cost, but the business is early and the customer commitments are not disclosed."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 2.9%, the net margin is -20.1% and diluted EPS is -$2.42. The latest quarter's operating margin was 15.3%.",
-      "Return on equity is -9.1%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $16.5B, an operating margin of 15.3% and a net margin of 20.1%."
+      "Gross margin reached 39.9%, operating margin 2.9% and net margin negative 20.1%. The quarterly operating margin went from negative 23.1% in March 2026 to 11.1% in June and 15.3% in September, while EPS went from negative $0.73 to negative $2.16 and then positive $0.60. The June quarter's net loss of $11.03B is the outlier: it came from below the operating line, not from the chip business.",
+      "Return on invested capital was 0.8% and return on equity negative 10.5%, against a 22.6% peer median. That gap is the measure of the turnaround still ahead. The asset base is large and the profit base is small, so the return is low even though the operating business has improved. A return to a mid-teens ROIC would require a substantial increase in operating income, not just a better quarter.",
+      "AMD is the closest comparison: it trades at 99.9x earnings and 178.5x EV/EBITDA with a 17.7% operating margin, 10.2% ROIC and 41.9% growth. Intel's 2.9% operating margin and 0.8% ROIC are far below that, but its 5.1x sales multiple is the market's estimate of the manufacturing discount. The gap is capital intensity as much as execution, and it will not close until utilisation does."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.8B, a 6.3% margin. The balance sheet carries $3.9B of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $3.8B over the last twelve months and net debt was -$3.9B; interest cover was n/a."
+      "Free cash flow after capex was $3.8B, a 6.3% margin, after FY2025 free cash flow of negative $4.9B. The swing came from capex: $14.6B in FY2025 against $9.7B of operating cash flow, down from $24.8B in FY2022 and $25.8B in FY2023. Net cash is $3.9B, so the balance sheet is no longer the constraint it was. The improvement is real, but it depends on holding capex at the lower level.",
+      "The capex history is the story. Capital spending was $24.8B in FY2022, $25.8B in FY2023, $23.9B in FY2024 and $14.6B in FY2025. The step-down is what turned free cash flow positive, not a sudden improvement in operating cash flow, which was $9.7B in FY2025 against $8.3B in FY2024. The foundry programme is not finished, so the capex line can rise again.",
+      "Capital allocation is now internal investment rather than a shareholder payout. The net cash position gives the company room to fund the foundry build without new equity. The risk is that the capital is committed before the revenue arrives, which is what produced four years of negative free cash flow. The 1.2% free-cash-flow yield is the market's estimate of how long that lasts."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and 21.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $90.65; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Intel has no trailing P/E because earnings are negative. The usable multiples are 22.6x EV/EBITDA, 5.1x sales and 81.8x free cash flow, with a 1.2% free-cash-flow yield. The peer median EV/EBITDA is 25.5x, so the stock is below the median on that measure. The free-cash-flow multiple is the outlier, and it is high because the cash flow is only beginning to recover.",
+      "Forward numbers are high on earnings. FY2026 EPS of $1.49 implies 38.9x, and FY2027 EPS of $1.79 implies 32.4x. Those multiples are not cheap for a company with a 2.9% operating margin, but they are calculated on a depressed earnings base. On a mid-teens operating margin, the multiple would be much lower; on a stalled recovery, it would be higher.",
+      "The market is valuing the fab base and the foundry option, not the current earnings. That is a legitimate approach for a capital-intensive turnaround, but it is sensitive to two variables: utilisation and node execution. A return to a 50% gross margin would transform the earnings; a delay would leave the fixed costs stranded. The 5.1x sales multiple is the price of that option."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "43 analysts contribute to the third-party consensus. The mean target is $90.65, with a range of $63.00 to $160.00.",
-      "Current-year estimates call for $61.7B of revenue and $1.49 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 43 analysts with a mean target of $90.65; third-party estimates can change without notice."
+      "Forty-three analyst estimates underlie The 18 November 2026 Yahoo Finance snapshot: mean target $91, range $63 to $160. The mean is above the $58 price, but the balance of the analyst views is neutral, which is a contradiction worth noting.",
+      "FY2026 estimates are $61.7B of revenue and $1.49 of EPS; FY2027 is $69.1B and $1.79. The consensus assumes the December quarter produces $15.6B and $0.25 of EPS, up 66.0%, which is a modest sequential step from September's $16.5B."
     ]
   },
   "risks": {
@@ -144,5 +159,7 @@ export const INTC: StockStory = {
       "How much capital spending is still committed before free cash flow is sustainably positive?",
       "What does the foundry business need to win to justify its cost?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

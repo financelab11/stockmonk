@@ -7,19 +7,20 @@ export const ZTS: StockStory = {
   "dek": "Revenue grew 0.9% and fell 1.3% in the latest quarter. At 11.0x EBITDA and a 6.9% free-cash-flow yield, the shares assume the pet-spending boom is over.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $9.5B trailing twelve months, +0.9% year over year.",
-    "Profitability: 33.1% operating margin and 26.4% net margin.",
-    "Cash: $2.2B free cash flow, a 23.5% margin.",
-    "Scorecard: 53/100 average percentile across the factor screens."
+    "Trailing revenue is $9.5B, up 0.9%, and the latest quarter fell 1.3%, with the operating margin down to 30.5% from 36.6%.",
+    "Free cash flow of $2.2B is 23.5% of revenue, funding a 2.7% dividend and a 6.9% free-cash-flow yield.",
+    "Net debt is $7.5B, or 2.1x EBITDA, against $32.3B of market value and a 12.9x trailing multiple.",
+    "At 11.0x EBITDA the shares sit at the bottom of the healthcare peer group, where the median is 26.1x."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1555280/000155528026000011/zts-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001555280&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Zoetis generated $9.5B of revenue over the last twelve months, +0.9% versus the prior year. The franchise depends on clinical evidence, reimbursement and the duration of patent protection.",
-      "The latest reported quarter was Q3 FY26, with $2.4B of revenue and an operating margin of 30.5%. The stock closed at $83.48 on 2026-11-17, giving a market capitalization of $33.9B.",
-      "The shares sit 23% of the way up their 52-week range ($68.77 to $132.49). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
-    ]
+      "Zoetis reported $2.4B of revenue for the third quarter of 2026, 1.3% below the prior year, and the operating margin fell to 30.5% from 36.6%. Earnings per share were $1.44 against $1.63, a decline of 12%. For a company that grew revenue at a mid-single-digit rate as recently as 2024, the result is a clear break in trend, and it explains why the shares are 34% lower over twelve months.",
+      "The company sits between two businesses with different demand curves. Companion animal — parasiticides, dermatology, pain, vaccines and diagnostics — depends on clinic visits and on the pet owner's willingness to spend. Livestock vaccines and anti-infectives depend on cattle and hog prices, feed costs and disease outbreaks. The two share manufacturing and regulatory infrastructure, but the customer and the cycle are different, and the mix explains more of the margin than any single product.",
+      "The valuation is a wager on that mix. At $80 the equity is worth $32.3B, or 12.9x earnings and 11.0x EBITDA, against healthcare peer medians of 38.4x and 26.1x. The free-cash-flow yield is 6.9% and the dividend yield 2.7%. A multiple that low implies the market expects the companion-animal decline to persist rather than reverse, which is a stronger claim than a single weak quarter supports. That is the central disagreement between the price and the operating record."
+    ],
+    "quote": "Zoetis still earns a 33% operating margin, so the shares are not pricing a broken business but a pet-spending cycle that has stopped growing."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -51,35 +52,50 @@ export const ZTS: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 7.1% a year across the fiscal years in the dataset, and the latest quarter changed -1.3% year over year. Third-party estimates for the current fiscal year point to $9.3B of revenue and $6.33 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 33.1% and return on invested capital of 22.9% are the filters to watch as revenue scales."
+      "Revenue expanded from $6.7B in 2020 to $9.5B in 2025, but the annual growth rate fell from 16.5% in 2021 to 3.9%, 5.7%, 8.3% and then 2.3%. Trailing revenue is up 0.9%, and the third quarter declined 1.3%. Consensus expects a 1.9% decline for 2026 and 0.5% growth for 2027, so the forecast does not assume a quick return to the prior trend.",
+      "The companion-animal franchise is the part that can grow. Dermatology, long-acting parasiticides and diagnostics are prescribed repeatedly, and the clinic has an incentive to stock them because it earns a margin on dispensing. The constraint is visit volume: a pet owner facing a weaker household budget can delay a non-urgent appointment. Livestock provides a different cycle, tied to producer economics, and it cannot offset a companion-animal slowdown when both are soft.",
+      "The mix is also a margin story. Companion animal carries the pricing power of patented products, while livestock is closer to a commodity input sold on weight gain and survival. The revenue split is 53.8% United States and 44.9% international, so currency and local pricing matter alongside volume. With growth near zero, the debate is whether price can keep rising while volume stalls."
+    ],
+    "bullets": [
+      {
+        "title": "Clinic traffic",
+        "detail": "Companion-animal revenue depends on visits, and the latest quarter shows the risk when pet owners defer non-urgent care."
+      },
+      {
+        "title": "Livestock cycle",
+        "detail": "Producer spending follows cattle and hog prices and feed costs, which are outside the company's control."
+      },
+      {
+        "title": "Price versus volume",
+        "detail": "A mid-single-digit price increase on flat volume looks like growth but leaves the franchise more exposed to a volume-led recovery."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 33.1%, the net margin is 26.4% and diluted EPS is $5.93. The latest quarter's operating margin was 30.5%.",
-      "Return on equity is 75.9%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $2.4B, an operating margin of 30.5% and a net margin of 24.7%."
+      "The third-quarter operating margin of 30.5% compares with 36.6% a year earlier, and the trailing margin is 33.1%. Gross margin of 71.6% has been stable for five years, so the decline is not a manufacturing problem; it is revenue failing to cover a cost base built for growth. Net margin fell to 24.7% in the quarter from 29.8%, and trailing net margin is 26.4%.",
+      "The longer record shows the same pattern. The operating margin rose from 29.9% in 2020 to 35.5% in 2025, then gave back six points in the latest quarter. Return on invested capital is 20.3%, still above the 11.5% peer median, and return on equity is 75.9% because buybacks have left a small equity base. Neither ratio is under stress yet; both would fall if revenue kept shrinking.",
+      "The comparison with Idexx is instructive. Both sell into veterinary clinics, but Idexx earns a similar operating margin with a 53.6% return on invested capital, while Zoetis converts its 33.1% margin into 20.3%. The difference is capital intensity: Idexx places instruments and sells cartridges, while Zoetis carries manufacturing plants and a pharmaceutical pipeline. On 11.0x EBITDA against Idexx's 32.6x, the market is treating that difference as a permanent discount."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $2.2B, a 23.5% margin. Net debt is $7.5B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $2.2B over the last twelve months and net debt was $7.5B; interest cover was n/a."
+      "Zoetis generated $2.2B of free cash, 23.5% of revenue; in 2025 the figure was $2.3B on operating cash flow of $2.9B and capex of $621.0M. The conversion is healthy for a business with manufacturing plants: capex is about 6.5% of revenue, and the gap between earnings and cash is mostly working capital rather than maintenance spending. The trailing free-cash-flow margin is close to the 20.7% peer median.",
+      "Net debt of $7.5B is 2.1x EBITDA, up from $4.6B in 2024, and interest cover is 13.0x. The increase is manageable, but it removes the option of a large debt-funded acquisition during a downturn. The dividend costs about $870M a year at a 2.7% yield on a $32.3B market value, which is roughly 40% of free cash flow and leaves room for buybacks or debt reduction.",
+      "The cash return is the main support for the equity. A 6.9% free-cash-flow yield is high for a business with a 71.6% gross margin, and it is the reason the shares can be defended even if growth stays near zero. The risk is that the yield is calculated on a depressed share price: if revenue declines further, the same dividend becomes a larger share of a smaller cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 13.5x trailing earnings and 11.4x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $89.69; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $80 the market value is $32.3B, equal to 12.9x earnings, 11.0x EBITDA and 4.2x sales. The five-year return of -62.1% shows how far the de-rating has gone. Against a healthcare peer median of 38.4x earnings and 26.1x EBITDA, the discount is not a small deviation; it is the market's judgment that the current earnings base is not durable. A 12.9x multiple on a 33.1% operating margin is unusual unless the market expects the earnings base to shrink.",
+      "The multiple implies a declining business. Consensus has revenue falling 1.9% in 2026 and EPS falling 1.3%, then 0.5% revenue growth and 0.7% EPS growth in 2027. If those estimates are right, the shares are priced at about 12.6x forward earnings for a franchise with a 33.1% operating margin and a 23.5% free-cash-flow margin. The market is not disputing the margin; it is disputing the growth.",
+      "The bull case requires clinic traffic to stabilise, not to accelerate. A return to 3% revenue growth with the current margin would make the free-cash-flow yield the dominant part of the return, and 6.9% is a reasonable outcome for a low-growth compounder. The bear case is that the decline is structural, in which case 11.0x EBITDA is still not cheap. The spread between those outcomes is wider than the 52-week range suggests."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "13 analysts contribute to the third-party consensus. The mean target is $89.69, with a range of $73.00 to $115.00.",
-      "Current-year estimates call for $9.3B of revenue and $6.33 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 13 analysts with a mean target of $89.69; third-party estimates can change without notice."
+      "The 18 November 2026 Yahoo Finance consensus counts 13 analysts and carries a mean target of $90, with a range of $73 to $115. The mean is 12.5% above the current price, but the low end is 9% below it, and the heavy neutral weighting reflects uncertainty about whether the revenue decline has bottomed.",
+      "Revisions are modest: EPS is 1.8% higher than 30 days ago and 1.2% higher than 90 days ago. The current-year estimate of $6.33 implies a 1.3% decline, and 2027 at $6.37 implies 0.7% growth. The consensus is therefore assuming stabilisation rather than recovery, which is consistent with a multiple that already discounts a flat top line."
     ]
   },
   "risks": {
@@ -143,5 +159,7 @@ export const ZTS: StockStory = {
       "What does a 2% annual decline do to the value of a 6.9% free-cash-flow yield?",
       "Is livestock a stabiliser or a drag on the consolidated margin?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

@@ -7,20 +7,20 @@ export const IDR: StockStory = {
   "dek": "The Golden Chest is a narrow-vein underground mine, so tonnage is small and grade does the work. Low fixed costs are what keep the margin intact.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $50.9M trailing twelve months, +66.8% year over year.",
-    "Profitability: 45.1% operating margin and 44.0% net margin.",
-    "Cash: $16.8M free cash flow, a 33.0% margin.",
-    "Scorecard: 81/100 average percentile across the factor screens."
+    "Trailing revenue of $50.9M at a 45.1% operating margin and a 10.6x earnings multiple makes this the cheapest profitable miner in the group.",
+    "The December 2025 quarter produced a 62.4% operating margin on $14.6M of revenue; the June 2026 quarter produced 34.1% on $10.7M.",
+    "Free cash flow of $16.8M against $6.7M of capex in FY2025 left net cash of $5.3M, so the balance sheet is not the constraint.",
+    "One analyst covers the stock, and that estimate assumes revenue falls 1.1% next year after rising 66.8% trailing."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1030192/000165495426002560/idr_10k.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001030192&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Idaho Strategic Resources, Inc. generated $50.9M of revenue over the last twelve months, +66.8% versus the prior year. The opportunity is large but early; permits, financing and construction execution determine who captures it.",
-      "The latest reported quarter was Q2 FY26, with $10.7M of revenue and an operating margin of 34.1%. The stock closed at $16.71 on 2026-11-17, giving a market capitalization of $264.5M.",
-      "The shares sit 1% of the way up their 52-week range ($16.19 to $53.30). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "The December 2025 quarter produced a 62.4% operating margin on $14.6M of revenue; the June 2026 quarter produced 34.1% on $10.7M. Between those two prints, operating income fell by more than half. The quarter matters because it shows how little it takes to move the result at a single narrow-vein mine: a run of lower-grade stopes, a short mill campaign or a change in the gold price is enough. Neither print was abnormal for a narrow-vein operation, which is the point.",
+      "Golden Chest is an underground operation accessed by decline and shafts, with a mill on site and a concentrate sold to a refiner. The land position is 280 acres of patented claims and 1,390 acres of unpatented claims, which carry different ownership and permitting rules. Forty employees run the whole thing, so there is no corporate layer between the ore and the cash. That is the source of the margin and the source of the concentration.",
+      "The market value is $237.8M, or 10.6x earnings and 9.0x EBITDA, with $5.3M of net cash. The shares are down 57.8% over a year and sit at the bottom of a $14 to $53 range. The discount to the 27.3x peer earnings median is a single-asset discount, and it is the correct starting point for any valuation: one mine, one grade profile and one jurisdiction cannot support a portfolio multiple."
     ],
-    "quote": "A narrow-vein mine is a grade business, not a volume business. The cost per ounce depends far more on what the vein delivers than on how many tonnes are hoisted."
+    "quote": "One mine, forty people and a high grade: Idaho Strategic's margin is a geological fact before it is a financial one."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,49 +52,46 @@ export const IDR: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 39.8% a year across the fiscal years in the dataset, and the latest quarter changed +13.2% year over year. Third-party estimates for the current fiscal year point to $53.9M of revenue and $1.39 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 45.1% and return on invested capital of 9.7% are the filters to watch as revenue scales."
+      "Growth has come from grade and price rather than from a new mine. Revenue went from $13.7M in FY2023 to $25.8M in FY2024 and $42.4M in FY2025, and the trailing figure is $50.9M. Consensus expects $53.9M in FY2026, up 27.1%, and $53.3M in FY2027, down 1.1%. The single estimate therefore assumes the current output is close to the mine's sustainable level, which is a statement about tonnes rather than about demand.",
+      "The operating lever is the mill. Capex rose from $2.2M in FY2024 to $6.7M in FY2025, and the company has the balance sheet to fund more. Additional throughput would spread the fixed cost of the 40-person team over more ounces, but it would also require more stopes and more development metres. The risk is that a higher tonnage comes at a lower grade, which is how small miners dilute their own margin."
     ],
     "bullets": [
       {
-        "title": "Mine development",
-        "detail": "Drifting and raising to reach new stopes. Growth comes from tonnes and grade, not from price alone."
+        "title": "Grade control",
+        "detail": "Narrow veins are unpredictable, and the grade delivered to the mill each month is the largest single variable in revenue."
       },
       {
         "title": "Mill throughput",
-        "detail": "A debottleneck at the mill raises output without a new mine, which is the cheapest form of growth available."
+        "detail": "Capex of $6.7M in FY2025 was aimed at capacity, and the return depends on filling it with ore at the same grade."
       },
       {
-        "title": "Exploration",
-        "detail": "The district has a long mining history. Adding reserves near the existing workings is cheaper than building elsewhere."
+        "title": "Gold price",
+        "detail": "With costs largely fixed per tonne, the realised price passes straight to the operating margin."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 45.1%, the net margin is 44.0% and diluted EPS is $1.46. The latest quarter's operating margin was 34.1%.",
-      "Return on equity is 9.5%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q2 FY26: revenue of $10.7M, an operating margin of 34.1% and a net margin of 34.0%."
+      "A 64.1% gross margin trailing and 61.8% in FY2025 supported a 45.1% operating margin, up from 7.4% in FY2023. Net margin was 44.0% trailing, slightly above the operating margin, which happens when net cash earns interest and there is no large tax bill. The sequence from FY2023's 7.4% operating margin to the current level is the whole re-rating. The 19-point spread between gross and operating margin is the cost of running a mill and a small corporate team, and it has narrowed as revenue grew.",
+      "Return on invested capital was 15.4% and return on equity 18.6%, against peer medians that are negative because the group includes pre-revenue developers. The more useful comparison is with Coeur at 6.7% and ATI at 17.4%. IDR earns a manufacturer's return on a miner's revenue base, which is what a high grade and a small capital stock can produce. The capital stock is a single mine and a mill, so a high margin converts into a high return quickly."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $16.8M, a 33.0% margin. The balance sheet carries $48.6M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $16.8M over the last twelve months and net debt was -$48.6M; interest cover was n/a."
+      "The mine generated $19.1M of operating cash flow in FY2025 against $6.7M of capex, for free cash flow of $12.4M. The trailing figure is $16.8M, a 33.0% increase, and the quarterly path has been volatile: $8.2M in December 2025, $5.9M in March 2026 and $2.0M in June. The December quarter is the outlier, and it coincides with the 62.4% operating margin.",
+      "Net cash was $10.5M at FY2025 and $5.3M trailing, so the balance sheet is strong but not deep. The company pays no dividend and reports no buyback, which means the cash is being retained for development. At the current capex rate, internal funding covers the mine and leaves a modest buffer; a major expansion would need either more cash flow or external capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 11.8x trailing earnings and 8.4x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $40.00; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At 10.6x earnings, IDR is the cheapest profitable miner in the group, and the 0th percentile ranking makes the point: the median is 27.3x. EV/EBITDA is 9.0x against 25.6x, and P/FCF is 14.2x with a 7.1% free-cash-flow yield. The discount is not a hidden asset story; it is what the market pays for a single mine with a short reserve history and a 40-person team.",
+      "On the FY2026 EPS estimate of $1.39, the shares at $15 are valued at 10.8x; on FY2027's $1.41, 10.6x. The estimate assumes flat revenue and a small EPS increase, so the multiple is not discounting growth. What would close the gap is reserve disclosure that extends the mine life and throughput data that shows the mill can run above the current rate. What would widen it is a grade miss or an interruption at the single mine."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "1 analysts contribute to the third-party consensus. The mean target is $40.00, with a range of $40.00 to $40.00.",
-      "Current-year estimates call for $53.9M of revenue and $1.39 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 1 analysts with a mean target of $40; third-party estimates can change without notice."
+      "One analyst covers the company, with a $40 target against a $15 price. That is not a consensus in any useful sense: it is a single model, and the range is therefore a point. The estimate assumes FY2026 revenue of $53.9M and EPS of $1.39, followed by flat revenue and $1.41 in FY2027.",
+      "The revision trend has been downward: -1.4% over seven days and -8.6% over 30, 60 and 90 days. Three of the last four quarters missed, most recently $0.17 against $0.30, and the December 2025 quarter beat by a wide margin at $0.63 against $0.20. With one estimate, the quarterly surprise is the only independent check on the model, and it has been negative more often than not."
     ]
   },
   "risks": {
@@ -158,5 +155,7 @@ export const IDR: StockStory = {
       "What would the operating margin be at a 20% lower gold price?",
       "How much capital is needed to lift mill throughput, and what would that add in ounces?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

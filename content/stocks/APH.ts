@@ -7,20 +7,20 @@ export const APH: StockStory = {
   "dek": "Connectors are a commodity for most suppliers. A 27.7% operating margin says the product is not the part, it is the design position.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $33B trailing twelve months, +57.6% year over year.",
-    "Profitability: 27.7% operating margin and 18.0% net margin.",
-    "Cash: $5.1B free cash flow, a 15.5% margin.",
-    "Scorecard: 56/100 average percentile across the factor screens."
+    "Third-quarter revenue of $10.2B rose 65.1%, with a 29.5% operating margin and $0.79 of diluted EPS.",
+    "Free cash flow of $5.1B is 15.5% of revenue, below the 18.0% net margin as working capital and capex absorbed the ramp.",
+    "Net debt rose to $11.9B, or 1.1x EBITDA, from $3.1B a year earlier as the company funded acquisitions and capacity.",
+    "At 19.1x EV/EBITDA, Amphenol trades below the 25.5x peer median despite 57.6% trailing revenue growth."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/820313/000110465926013549/aph-20251231x10k.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000820313&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "AMPHENOL CORP /DE/ generated $33B of revenue over the last twelve months, +57.6% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
-      "The latest reported quarter was Q3 FY26, with $10.2B of revenue and an operating margin of 29.5%. The stock closed at $76.36 on 2026-11-17, giving a market capitalization of $188.6B.",
-      "The shares sit 56% of the way up their 52-week range ($59.01 to $89.93). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Amphenol's third quarter, ended 30 September 2026, generated $10.2B of revenue, a 29.5% operating margin and $0.79 of diluted EPS. Revenue was 65.1% higher than the $6.2B reported a year earlier, and the operating margin rose from 27.5%. The result matters because it shows a connector company growing faster than most software businesses while earning a hardware margin, a combination that depends on design position rather than on manufacturing scale.",
+      "The product is small and the position is durable. Connectors, cable assemblies, sensors and value-added subsystems are designed into a platform early, and once qualified they usually stay for the life of that platform. The company is organised into many small operating units with their own profit responsibility, which keeps engineering close to the customer and selling costs close to revenue. That is how a 38.8% gross margin produces a 27.7% operating margin.",
+      "Amphenol carries the least demanding valuation in the group. At $77 the equity is worth $189.9B, or 32.0x earnings, 19.1x EV/EBITDA, 6.1x sales and 37.1x free cash flow. The peer median EV/EBITDA is 25.5x, so Amphenol trades at a discount despite 57.6% trailing revenue growth. The market is treating the growth as acquired and cyclical rather than organic and durable. That discount is the central question: a faster-growing connector business priced like a cyclical one."
     ],
-    "quote": "A connector is a tiny fraction of a system's bill of materials and a single point of failure. That asymmetry is the entire business."
+    "quote": "Amphenol's margin comes from being designed into the platform early, not from the copper and plastic inside the connector."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,50 @@ export const APH: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 18.8% a year across the fiscal years in the dataset, and the latest quarter changed +65.1% year over year. Third-party estimates for the current fiscal year point to $37.2B of revenue and $2.84 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 27.7% and return on invested capital of 24.2% are the filters to watch as revenue scales."
+      "Sales advanced from $15.2B in fiscal 2024 to $23.1B in fiscal 2025 and $33.0B trailing, a 57.6% increase that is far above the company's historical pace. The latest quarter grew 65.1%, and consensus for the December quarter is $10.6B, up 63.9%. Fiscal 2026 revenue of $37.2B would be 60.9% higher, which is the shape of a step-change rather than a normal cycle.",
+      "The mix explains the step. Communications Solutions was 52.7% of the latest segment revenue, Harsh Environment 26.0% and Interconnect and Sensor Systems 22.6%. Communications is the segment most exposed to data-centre interconnect; the other two carry more industrial and automotive exposure. The geographic mix, 49.5% other foreign locations, 34.6% United States and 15.9% China, spreads the exposure but does not remove it.",
+      "The estimates assume the growth normalises rather than reverses. Fiscal 2027 revenue of $45.8B would be 23.1% above fiscal 2026, and EPS of $3.62 would be 27.9% higher. That is a deceleration from 60.9% to 23.1%, which is the right shape for a business that has just absorbed a large acquisition. The 90-day EPS revision of 6.5% shows estimates still rising."
+    ],
+    "bullets": [
+      {
+        "title": "Design wins",
+        "detail": "A connector qualified into a platform stays for the life of that platform, which is why the revenue is stickier than the end market."
+      },
+      {
+        "title": "Communications mix",
+        "detail": "Communications Solutions was 52.7% of segment revenue, and data-centre interconnect is the part most exposed to AI infrastructure spending."
+      },
+      {
+        "title": "Acquired growth",
+        "detail": "The step from $23.1B to $33.0B trailing came with net debt rising to $11.9B, so part of the growth was bought rather than built."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 27.7%, the net margin is 18.0% and diluted EPS is $5.01. The latest quarter's operating margin was 29.5%.",
-      "Return on equity is 34.4%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $10.2B, an operating margin of 29.5% and a net margin of 19.9%."
+      "Few manufacturers turn a 38.8% gross margin into a 27.7% operating margin. Only about eleven points of revenue separate gross profit from operating profit, which is lean for a manufacturer of this scale. The decentralised structure is the reason: each operating unit carries its own selling and administrative cost, so overhead does not build up at the centre. The result is a margin that looks like a specialty manufacturer's rather than a connector assembler's.",
+      "The latest quarter was stronger: a 29.5% operating margin and a 19.9% net margin, against 27.5% and 20.1% a year earlier. The annual operating margin rose from 25.4% in fiscal 2025 to 27.7% trailing, and return on invested capital reached 18.8% with return on equity at 34.6%. The improvement is volume-driven, not price-driven, and it has held through the last two quarters.",
+      "Against Broadcom's 48.0% operating margin and 48.7% growth, Amphenol's 27.7% and 57.6% describe a lower-margin, faster-growing business. Broadcom sells chips and software; Amphenol sells connectors and assemblies. The comparison is useful for growth, not for margin, and it explains why Amphenol's EV/EBITDA multiple is lower. Design wins matter more than gross margin in a business selling into an AI build-out."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $5.1B, a 15.5% margin. Net debt is $12.6B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $5.1B over the last twelve months and net debt was $12.6B; interest cover was n/a."
+      "Amphenol generated $5.1B of free cash flow, 15.5% of revenue, against an 18.0% net margin. The gap is capex and working capital: capital spending was $996.6M in fiscal 2025, while receivables and inventory grew with the 65.1% revenue increase. The conversion is lower than the margin suggests, which is why the P/FCF multiple of 37.1x exceeds the P/E of 32.0x. That is the cost of growth by acquisition and capacity.",
+      "Net debt of $11.9B, or 1.1x EBITDA, with interest cover of 12.0x, is up from $3.1B of net debt in fiscal 2025, so the balance sheet has funded part of the expansion. The leverage is manageable, but it is a material change from the balance sheet of a year earlier. It can carry the debt, but the balance sheet is no longer a source of spare capacity.",
+      "Distributions are modest. The dividend yield is 0.9%, and no buyback large enough to change the share count is disclosed. The cash is being used for acquisitions and capacity, which is consistent with a business that has grown by buying design positions and adding plants. The 0.9% yield is a small part of the total return case, and the acquisition pipeline is the larger one."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 31.7x trailing earnings and 19.0x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $106.97; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $77 the equity is worth $189.9B, or 32.0x trailing earnings, 19.1x EV/EBITDA, 6.1x sales and 37.1x free cash flow. The peer medians are 31.0x and 25.5x, so Amphenol is in line on earnings and at a discount on EBITDA. That is unusual for a company with one of the fastest growth rates in the group, and it reflects the market's view that the growth is acquired and cyclical.",
+      "The forward numbers support the discount. Fiscal 2026 EPS of $2.84 is 27.1x the current price and fiscal 2027 at $3.62 is 21.3x. Revenue is expected to rise 60.9% and then 23.1%, so the multiple is not relying on margin expansion. If the acquired revenue proves durable, 19.1x EBITDA is inexpensive; if it is a data-centre capex cycle, the multiple is fair.",
+      "The $59 to $90 range leaves the shares about 58% of the way up from the low. A 6.1x sales multiple on a connector business is high in absolute terms but low relative to the group, and that relative discount is the whole investment case. It depends on whether the acquired revenue proves durable, and the market has not yet decided."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "19 analysts contribute to the third-party consensus. The mean target is $106.97, with a range of $85.00 to $130.00.",
-      "Current-year estimates call for $37.2B of revenue and $2.84 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 19 analysts with a mean target of $106.97; third-party estimates can change without notice."
+      "Nineteen analysts are included in the Yahoo Finance snapshot dated 18 November 2026, with a mean target of $107 and a range of $85 to $130. The mean is 39% above the $77 price, and the low end is 10% above it, so the analysts are positive without being uniform.",
+      "Revisions have been rising: 5.6% over 30 days, 6.2% over 60 days and 6.5% over 90 days, with no change over seven days. Fiscal 2026 revenue of $37.2B and EPS of $2.84 assume the December quarter reaches $10.6B. The consensus is implicitly assuming that communications interconnect demand holds and that the acquired businesses grow rather than merely consolidate."
     ]
   },
   "risks": {
@@ -144,5 +159,7 @@ export const APH: StockStory = {
       "What share of revenue now depends on AI data-center equipment?",
       "Why is free cash flow running below net income?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

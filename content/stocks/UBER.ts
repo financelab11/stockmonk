@@ -7,20 +7,20 @@ export const UBER: StockStory = {
   "dek": "Revenue is the commission Uber retains after paying drivers and couriers, not the value of the rides. That distinction explains the 43.2% gross margin, the 12.4% operating margin and why free cash flow is larger than net income.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $56.5B trailing twelve months, +13.9% year over year.",
-    "Profitability: 12.4% operating margin and 6.2% net margin.",
-    "Cash: $10.4B free cash flow, a 18.4% margin.",
-    "Scorecard: 36/100 average percentile across the factor screens."
+    "Third-quarter 2026 revenue rose to $14.8B from $13.5B, but the operating margin fell to 9.8% from 14.6% in Q1 fiscal 2026.",
+    "Mobility is 57.0% of revenue, Delivery 33.2% and Freight 9.8%, so the consolidated margin is a blend of three different take rates.",
+    "Trailing free cash flow is $10.4B, an 18.4% margin, against net income of $3.4B; the gap is the central question for the equity.",
+    "At 12.7x free cash flow and 38.2x earnings, the shares are priced for cash conversion rather than for accounting profit."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001543151&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Uber Technologies, Inc. generated $56.5B of revenue over the last twelve months, +13.9% versus the prior year. The business depends on traffic, basket size and the cost of serving the next customer.",
-      "The latest reported quarter was Q3 FY26, with $14.8B of revenue and an operating margin of 9.8%. The stock closed at $68.81 on 2026-11-17, giving a market capitalization of $140.5B.",
-      "The shares sit 17% of the way up their 52-week range ($64.04 to $92.92). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Uber reported third-quarter 2026 revenue of $14.8B, up from $13.5B a year earlier, with a 9.8% operating margin, a 3.5% net margin and $0.25 of diluted EPS. Revenue grew, but the operating margin was 14.6% in Q1 fiscal 2026 and 13.3% in Q2, so the trend through the year is down. The result matters because the company is still growing revenue while the profit margin is being squeezed by costs it does not fully control.",
+      "The platform keeps a slice of each transaction. Mobility is 57.0% of revenue and carries the highest margin because the driver supplies the vehicle and fuel; Delivery is 33.2% and is more labour-intensive per dollar; Freight is 9.8% and is a cyclical brokerage. The United States is 45.7% of revenue, other countries 33.9% and the United Kingdom 20.4%. Insurance and driver classification are the two costs that can change the model without changing demand.",
+      "The price is a wager on cash flow, not earnings. At $65 the shares carry 38.2x trailing earnings, 17.7x EV/EBITDA, 2.4x sales and 12.7x free cash flow, with a 7.9% free-cash-flow yield. The shares have ranged from $63 to $93 in the past year and are 22.6% lower over a year. Net debt is $5.6B at 0.7x EBITDA. The P/FCF multiple is less than a third of the P/E, which is the whole argument: the market is paying for cash, not for GAAP earnings."
     ],
-    "quote": "A platform's revenue is a fee, so a growing top line can mean either more trips or a higher fee. Separating the two is the whole analysis."
+    "quote": "Uber's free cash flow is nearly three times its net income, which is either the best thing about the stock or the accounting question that defines it."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -52,35 +52,50 @@ export const UBER: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 26.0% a year across the fiscal years in the dataset, and the latest quarter changed +9.6% year over year. Third-party estimates for the current fiscal year point to $57.8B of revenue and $2.59 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 12.4% and return on invested capital of 11.5% are the filters to watch as revenue scales."
+      "The platform's revenue base has grown from $37.3B in fiscal 2023 to $44.0B, $52.0B and a trailing $56.5B, with the latest quarter at $14.8B. Consensus, carried by Yahoo Finance on 18 November 2026, looks for $57.8B in fiscal 2026 and $67.0B in fiscal 2027, growth of 11.1% and 15.9%. The deceleration in 2026 followed by reacceleration in 2027 is unusual, and it implies the newer categories start contributing more in the second year.",
+      "Mobility is 57.0% of revenue, Delivery 33.2% and Freight 9.8%. Mobility is the profit engine; Delivery adds volume at a lower margin; Freight is cyclical and sensitive to shipping rates. The company does not report gross bookings or take rate, so the revenue growth cannot be decomposed into volume and price. What is visible is that revenue grew 13.9% trailing while the operating margin fell, which means costs grew faster than revenue.",
+      "EPS falls to $2.59 in fiscal 2026, down 45.2%, then $4.41 in fiscal 2027, up 70.3%. A swing that large is not an operating forecast; it reflects items below the operating line and a low base. Revenue growth of 11.1% then 15.9% is the more useful guide. The durability question is the take rate: if competition or regulation forces Uber to keep less of each trip, the revenue line and the margin fall together."
+    ],
+    "bullets": [
+      {
+        "title": "Take rate",
+        "detail": "Uber books its commission, not the fare. A lower take rate reduces revenue and operating profit at the same time, which is why it is the first variable to watch."
+      },
+      {
+        "title": "Insurance",
+        "detail": "Commercial coverage for trips is a large cost that rises with claims inflation. It cannot be passed to riders immediately without losing volume."
+      },
+      {
+        "title": "Autonomous vehicles",
+        "detail": "If robotaxis scale, the value of a human-driver network falls. Uber can partner with operators, but the margin and the moat would both change."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 12.4%, the net margin is 6.2% and diluted EPS is $1.71. The latest quarter's operating margin was 9.8%.",
-      "Return on equity is 12.0%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $14.8B, an operating margin of 9.8% and a net margin of 3.5%."
+      "Operating margin is 12.4% trailing and net margin 6.1%, two measures that tell different stories. Gross margin is not reported, which is normal for a platform that books commissions rather than fares. In fiscal 2025 the operating margin was 10.7% and the net margin 19.3%; the net figure was inflated by items below the operating line, which is why the operating margin is the better comparison. Third-quarter 2026 operating margin was 9.8% and net margin 3.5%. The 6.3-point gap between the trailing operating and net margins is wider than it looks, because the trailing net margin is depressed by the latest quarter.",
+      "The quarterly operating margin has fallen from 14.6% in Q1 fiscal 2026 to 13.3% in Q2 and 9.8% in Q3. Revenue rose from $13.2B to $14.2B to $14.8B over those quarters, so the decline is cost, not demand. Insurance and investment in new categories are the likely candidates, but they are not split. The 4.8-point drop over two quarters is large enough to change the earnings base.",
+      "Returns are modest for a platform. Return on invested capital is 12.1% against a 24.6% peer median, and return on equity is 12.5%. The company does not own the vehicles or employ most of the drivers, so the capital base is small; the low ROIC reflects the cost of insurance, support and technology rather than heavy assets. The comparison with Shopify, at a 12.8% ROIC, is closer than the revenue models suggest."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $10.4B, a 18.4% margin. Net debt is $19.3B.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $10.4B over the last twelve months and net debt was $19.3B; interest cover was n/a."
+      "Cash flow of $10.4B trailing, an 18.4% margin, is the strongest line in the accounts. In fiscal 2025, operating cash flow of $10.1B less capex of $336M produced $9.8B; capex is 0.6% of revenue because the platform does not own the fleet. Net debt is $5.6B at 0.7x EBITDA, and interest cover is 14.0x. The P/FCF multiple of 12.7x is the market's acknowledgment of that cash generation.",
+      "The cash figure is nearly three times net income. Fiscal 2025 net income was $10.0B on $52.0B of revenue, while free cash flow was $9.8B, so the two were close that year; the trailing gap comes from the latest quarters, when net income fell but cash flow held. Stock-based compensation is not disclosed, and it is the usual bridge between the two. A reader should treat the cash figure as real but ask how much depends on add-backs.",
+      "Debt reduction has come before distributions. Net debt fell from $5.1B in fiscal 2021 to $2.9B in fiscal 2025, then rose to $5.6B trailing, so the company has not been consistently deleveraging. It pays no dividend and reports no buybacks. With $10.4B of free cash flow, the company can fund insurance reserves, new categories and buybacks, but the rise in net debt suggests the cash is being used elsewhere."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 40.3x trailing earnings and 20.5x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $98.23; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "Uber's $132.3B market value at $65 is 38.2x trailing earnings, 17.7x EV/EBITDA, 2.4x sales and 12.7x free cash flow, a 7.9% free-cash-flow yield. The 52-week range is $63 to $93 and the shares are 22.6% lower over a year. Peer medians are 24.3x earnings and 16.1x EBITDA. The P/E premium and the P/FCF discount are the same fact viewed from two accounting lines.",
+      "At $2.59 of fiscal 2026 EPS, the multiple is 25.1x, and fiscal 2027 EPS of $4.41 puts it at 14.7x. The forward P/E collapses because the estimate assumes a large rebound, which is exactly what the trailing P/E does not show. The P/FCF multiple of 12.7x is the more stable measure, and it says the market is pricing the cash flow at a discount to the peer median.",
+      "Shopify and Airbnb sit at the expensive end of the peer set. Shopify trades at 80.3x EV/EBITDA and 81.7x earnings with 32.5% growth; Airbnb at 36.6x and 32.4x with 16.7% growth; Uber at 17.7x and 38.2x with 13.9% growth. Uber is the cheapest on EBITDA despite similar growth, which reflects the legal and insurance risks in its model. A resolution of driver classification would narrow the discount; an adverse ruling would widen it."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "45 analysts contribute to the third-party consensus. The mean target is $98.23, with a range of $70.00 to $150.00.",
-      "Current-year estimates call for $57.8B of revenue and $2.59 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 45 analysts with a mean target of $98.23; third-party estimates can change without notice."
+      "The $98 mean target is 51% above the $65 price, across 45 analysts in The 18 November 2026 Yahoo Finance snapshot, with a range of $70 to $150. Even the $70 low is 8% above it, so the consensus is unusually uniform in direction despite the margin decline.",
+      "Consensus revenue is $57.8B, with $2.59 of EPS in fiscal 2026, then $67.0B and $4.41. The 30-day EPS revision is -18.4% and the 90-day is -19.9%, a sharp cut. The last four quarters were weak on earnings: $0.14 versus $0.78, $0.13 versus $0.71, $1.17 versus $0.83 and $0.25 versus $0.90. Consensus is implicitly assuming the margin compression is temporary and that the cash flow holds."
     ]
   },
   "risks": {
@@ -144,5 +159,7 @@ export const UBER: StockStory = {
       "What would employee classification cost per trip in the largest markets?",
       "Which segment is carrying the growth, and at what margin?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

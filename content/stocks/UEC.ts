@@ -7,20 +7,20 @@ export const UEC: StockStory = {
   "dek": "Four of the last six quarters booked no revenue at all. The business is a licensed project portfolio geared to the uranium price, and the income statement shows it.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $37.3M trailing twelve months, -44.3% year over year.",
-    "Profitability: -357.4% operating margin and -368.6% net margin.",
-    "Cash: -$107.3M free cash flow, a -288.2% margin.",
-    "Scorecard: 39/100 average percentile across the factor screens."
+    "Revenue was $37.3M, down 44.3%, with four zero-revenue quarters in the last six, so the income statement is a delivery schedule.",
+    "Gross margin of 45.4% shows the pounds can be profitable; the -357.4% operating margin shows the portfolio is not producing enough of them.",
+    "Free cash flow was -$107.3M and net cash $495.5M, enough to fund the restart programme for several years.",
+    "At 64.2x sales the price depends on the uranium price and on converting licensed projects into production."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1334933/000143774926031414/uec20260731_10k.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001334933&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Uranium Energy Corp. generated $37.3M of revenue over the last twelve months, -44.3% versus the prior year. The opportunity is large but early; permits, financing and construction execution determine who captures it.",
-      "The latest reported quarter was Q4 FY26, with $17.1M of revenue and an operating margin of -228.6%. The stock closed at $6.07 on 2026-11-17, giving a market capitalization of $3B.",
-      "The shares sit 2% of the way up their 52-week range ($5.85 to $20.34). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Four zero-revenue quarters in the last six is not a broken business; it is a delivery schedule. Uranium Energy booked $17.1M in the July 2026 quarter, $20.2M in January 2026 and nothing in the quarters between. Revenue arrives when pounds are shipped, so a single shipment moving by a few weeks can turn a good quarter into a zero. The trailing figure of $37.3M is 44.3% below the prior year for that reason.",
+      "The assets are in-situ recovery projects in Texas and Wyoming, plus conventional properties in Arizona, Colorado and Canada. Texas has Palangana, Goliad, Burke Hollow, Longhorn and Salvo; Wyoming has Reno Creek, the largest development asset. Several wellfields feed a shared processing plant, which spreads fixed cost across more pounds and lets the company sequence production as prices move. That is a portfolio built for sequencing, not for steady output. That is why utilisation matters more than the number of projects.",
+      "A $495.5M net cash position is strong for a producer of this size. Against a $2.9B market value, the enterprise is valued at about $2.4B, or 64.2x sales. That multiple is a price on future pounds, not on current deliveries. The debate is whether the restart programme can bring enough volume to cover the portfolio's fixed costs, and the cash is what buys at least the time to find out."
     ],
-    "quote": "A uranium producer sells a commodity in deliveries. Revenue can be zero for two quarters and then $20M, and neither number tells you what the mine is worth."
+    "quote": "Uranium Energy's revenue is lumpy because pounds ship in batches, and its valuation depends on a price it does not control."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -66,35 +66,50 @@ export const UEC: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 12.6% a year across the fiscal years in the dataset, and the latest quarter changed not available year over year. Third-party estimates for the current fiscal year point to $63.6M of revenue and -$0.23 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of -357.4% and return on invested capital of -12.3% are the filters to watch as revenue scales."
+      "Pounds delivered set the revenue line, and the company controls the timing more than the price. The 45.4% gross margin is the spread between extraction and processing cost and the price received; it is healthy at the current uranium price but can compress quickly if the price falls or if contracted volumes were signed at lower levels. The reported figures do not disclose the split between contracted and spot volumes.",
+      "The restart programme is the volume driver. Idle wellfields need development capital before they produce, and in-situ recovery wells decline continuously, so production requires ongoing drilling rather than a one-time build. The company has the cash to fund that work, but the pace depends on permitting, disposal capacity for water and the availability of a processing plant. That is why production guidance matters more than revenue guidance.",
+      "The forecast path is $63.6M of revenue in FY2027, up 70.8%, and $177.2M in FY2028, up 178.5%, with losses per share of $0.23 and $0.07. The FY2028 number is more than four times the trailing revenue, so it assumes a successful restart across multiple wellfields. The estimate is a production forecast disguised as a revenue forecast, and the gap between the two years is the restart assumption."
+    ],
+    "bullets": [
+      {
+        "title": "Texas wellfields",
+        "detail": "Palangana, Goliad, Burke Hollow, Longhorn and Salvo share processing capacity, so utilisation decides the cost per pound."
+      },
+      {
+        "title": "Reno Creek",
+        "detail": "The Wyoming asset is the anchor for a second production hub and the largest single development item in the portfolio."
+      },
+      {
+        "title": "Contract book",
+        "detail": "Committed pounds give revenue visibility but fix the price; uncommitted pounds carry the spot exposure that drives the upside."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -357.4%, the net margin is -368.6% and diluted EPS is -$0.28. The latest quarter's operating margin was -228.6%.",
-      "Return on equity is -10.5%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q4 FY26: revenue of $17.1M, an operating margin of -228.6% and a net margin of -355.9%."
+      "At 45.4%, gross margin is the strongest evidence that the business works at the project level. It compares with 36.6% in FY2025 and 30.2% in FY2023, a trend that reflects a better realised price rather than a lower cost base. The operating margin of -357.4% is the other side: exploration, permitting, environmental compliance and care and maintenance at idle projects consume the gross profit and more.",
+      "The quarterly margins swing with deliveries. Q2 FY2026 ran at -116.6% on $20.2M of revenue, Q4 FY2026 at -228.6% on $17.1M, and the zero-revenue quarters have no meaningful margin at all. That is not a cost-control problem in the ordinary sense; it is the fixed cost of a portfolio that is only partly producing. Return on invested capital of -7.6% and return on equity of -10.0% follow from that.",
+      "Group comparisons are difficult because the peer set mixes producers, developers and refiners. Centrus earns an 11.2% operating margin on fuel sales; Oklo and NuScale are pre-revenue developers. Uranium Energy's 45.4% gross margin puts it closer to a producer, while its operating loss puts it closer to a developer. That combination is the transition it is trying to complete, and the equity is priced on the completion."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$107.3M, a -288.2% margin. The balance sheet carries $454.7M of net cash.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was -$107.3M over the last twelve months and net debt was -$454.7M; interest cover was n/a."
+      "Uranium Energy holds $495.5M of net cash against trailing free cash flow of -$107.3M, which covers about four and a half years of the current burn. The burn is development spending: capex was $8.8M in FY2026, and the rest is wellfield development, permitting and care and maintenance. That is the right use of cash for a company rebuilding production, but it is still a use.",
+      "Year by year, the cash line is highly variable. FY2023 generated $72.0M of free cash flow on $164.4M of revenue; FY2024 consumed $108.5M on $224,000 of revenue. The swing follows deliveries and inventory, not a change in the business model. FY2026's -$107.3M is consistent with a year of low deliveries and restart spending. That is a commodity business, not a subscription.",
+      "Net cash rose from $148.9M at FY2025 to $495.5M, despite negative free cash flow, which implies financing during the year. The company has no dividend and no buyback, so capital allocation is entirely about which projects to restart and in what order. The net cash position gives it the ability to wait for a better uranium price rather than sell pounds at a low one."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at n/a trailing earnings and n/a EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $15.85; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "A 64.2x sales multiple is a price on pounds that have not been delivered. On trailing revenue of $37.3M, the multiple is almost meaningless; on the FY2028 estimate of $177.2M, the enterprise value of about $2.4B would be roughly 13.6x sales, still high for a commodity producer. The market is capitalising the resource base, not the current income statement. That is a resource multiple, not an earnings multiple.",
+      "The right comparison is with the uranium price and with the cost per pound, neither of which is disclosed in the reported figures. Centrus at 1.7x sales is an operating fuel supplier with a contract book; Uranium Energy at 64.2x is a portfolio of licensed projects with a small production base. The gap is the option value of restarting wellfields into a rising price.",
+      "Production reaching the FY2028 estimate at a cost that preserves the 45.4% gross margin would justify the multiple. A lower uranium price, a permitting delay or a restart that costs more than planned would break it. The 52-week range of $5 to $20 shows the market has already repriced the commodity cycle once. The first two are outside management's control."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "11 analysts contribute to the third-party consensus. The mean target is $15.85, with a range of $10.00 to $26.75.",
-      "Current-year estimates call for $63.6M of revenue and -$0.23 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 11 analysts with a mean target of $15.85; third-party estimates can change without notice."
+      "Uranium Energy's coverage runs to eleven analysts, with a mean target of $16 and a range of $10 to $27, on The Yahoo Finance data from 18 November 2026. The mean is more than twice the $6 share price, which is a statement about the uranium price and the restart programme rather than about the next delivery.",
+      "For FY2027, analysts model $63.6M of revenue and a loss of $0.23 per share, with FY2028 at $177.2M and -$0.07. The EPS revision is +160% over 7 and 30 days, a swing that reflects a very small estimate base rather than a change in the commodity. The consensus therefore assumes a rapid production ramp; the zero-revenue quarters show how uncertain the timing is."
     ]
   },
   "risks": {
@@ -158,5 +173,7 @@ export const UEC: StockStory = {
       "What does it cost to restart each idle wellfield, and in what order?",
       "How much of the $454.7M net cash is committed to development rather than available?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

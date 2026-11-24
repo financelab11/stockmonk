@@ -7,20 +7,20 @@ export const IDXX: StockStory = {
   "dek": "The analyser is the hook. The consumables, the reference lab and the software are the business — which is why a 62.7% gross margin sits on top of a capital-intensive placement programme.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $4.7B trailing twelve months, +11.9% year over year.",
-    "Profitability: 32.3% operating margin and 25.4% net margin.",
-    "Cash: $1.3B free cash flow, a 28.0% margin.",
-    "Scorecard: 53/100 average percentile across the factor screens."
+    "Trailing revenue grew 11.9% to $4.7B, with Companion Animal Group producing 91.9% of the mix.",
+    "The operating margin is 32.3% and return on invested capital 53.6%, the highest in the healthcare peer set.",
+    "Free cash flow of $1.3B is 28.0% of revenue, and net debt is just $177.3M, or 0.1x EBITDA.",
+    "At 32.6x EBITDA the shares carry a premium to the 25.4x peer median for a consumables annuity that grows with clinic visits."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/874716/000087471626000038/idxx-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874716&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Idexx Laboratories Inc. generated $4.7B of revenue over the last twelve months, +11.9% versus the prior year. The franchise depends on clinical evidence, reimbursement and the duration of patent protection.",
-      "The latest reported quarter was Q3 FY26, with $1.2B of revenue and an operating margin of 33.1%. The stock closed at $690.24 on 2026-11-17, giving a market capitalization of $54.4B.",
-      "The shares sit 70% of the way up their 52-week range ($500.61 to $769.98). The sections below use reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Idexx grew third-quarter revenue to $1.2B and lifted its operating margin to 33.1% from 32.1%, with earnings per share of $4.01 against $3.40. The quarter continues a run of double-digit top-line growth: trailing revenue is $4.7B, up 11.9%. The result matters less for its size than for its composition, because nearly all of it comes from consumables and services tied to instruments already sitting in veterinary clinics. The composition shows the consumable stream growing faster than the capital spent to support it.",
+      "The model is a placement programme with an annuity attached. An analyser goes into a clinic at a price that recovers little of its development cost, and the profit arrives through cartridges, slides and reagents used for every test. The reference laboratory adds send-out work, and the practice software makes the analyser part of the daily workflow. That is why a 62.7% gross margin sits on top of capital spending that precedes the revenue.",
+      "The shares have lagged even as the business grew. At $687 the market value is $54.1B, or 45.8x earnings and 32.6x EBITDA, against healthcare peer medians of 37.0x and 25.4x. The one-year return is -8.7% and the five-year return is 10.4%, so the multiple has compressed while earnings rose. The debate is whether 32.6x EBITDA is still too high for a company growing revenue at 11.9%. That is a narrower debate than the price action implies."
     ],
-    "quote": "The instrument is placed, not sold for its own sake. Value shows up later as consumables per clinic per year, which is the number that drives everything else."
+    "quote": "Idexx sells an analyser once and a cartridge for years, so the multiple rests on clinic traffic rather than on the next placement."
   },
   "whatItDoes": {
     "paragraphs": [
@@ -56,35 +56,50 @@ export const IDXX: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.2% a year across the fiscal years in the dataset, and the latest quarter changed +9.9% year over year. Third-party estimates for the current fiscal year point to $4.8B of revenue and $15.02 of EPS.",
-      "Growth is only useful if it earns a return. The operating margin of 32.3% and return on invested capital of 47.3% are the filters to watch as revenue scales."
+      "Turnover rose from $2.7B in 2020 to $4.3B in 2025, a compound rate that survived a weak 2022, when growth fell to 4.7%. The trailing figure is $4.7B, up 11.9%, and consensus looks for $4.8B in 2026 and $5.2B in 2027, growth of 10.5% and 8.9%. The deceleration in the forecast is modest, but it assumes clinics keep running more tests per visit.",
+      "The growth engine is the installed base. Once an analyser is in a clinic, consumable revenue scales with patient visits and with the number of tests ordered per visit, not with new instrument sales. The reference laboratory adds revenue per clinic, and the software raises the cost of switching. Price is part of the mix, but the company does not disclose how much of growth is price versus volume, which is the single biggest gap in the disclosure.",
+      "The smaller segments are steadier than the core. Water testing is 4.7% of revenue and livestock diagnostics 3.1%, both tied to municipal budgets and producer economics rather than pet spending. They are too small to offset a companion-animal slowdown, but they diversify the regulatory and customer base. Geographically, 70.0% of revenue is Americas, 21.8% EMEA and 8.3% Asia Pacific. None of them changes the consolidated growth rate much."
+    ],
+    "bullets": [
+      {
+        "title": "Installed base",
+        "detail": "Consumable revenue grows with tests per clinic, so the placement count matters less than the usage of instruments already placed."
+      },
+      {
+        "title": "Reference lab",
+        "detail": "Send-out testing adds revenue per clinic and reinforces the software lock-in that protects the consumable stream."
+      },
+      {
+        "title": "Price versus volume",
+        "detail": "The split is not disclosed, and a price-led portion of growth would be more fragile than a volume-led one."
+      }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 32.3%, the net margin is 25.4% and diluted EPS is $14.84. The latest quarter's operating margin was 33.1%.",
-      "Return on equity is 63.4%. For a capital-intensive business, compare that with the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin.",
-      "The latest reported period was Q3 FY26: revenue of $1.2B, an operating margin of 33.1% and a net margin of 26.1%."
+      "The third-quarter operating margin of 33.1% was slightly above the 32.1% of a year earlier, and the trailing margin is 32.3%. Gross margin has improved from 58.0% in 2020 to 62.7%, which is unusual for a business that gives away instruments; the gain comes from consumables and reference-lab mix. Net margin was 26.1% in the quarter and 25.4% on a trailing basis.",
+      "Returns are the standout. Return on invested capital is 53.6% and return on equity 63.2%, against a peer median return on invested capital of 11.5%. That gap is partly a business-model difference, because the peer set is mostly pharmaceutical companies with large manufacturing and research bases, but it also reflects how little capital Idexx needs: capex was $124.7M in 2025, about 3% of revenue.",
+      "Margin progression has been steady rather than dramatic. Operating margin moved from 25.7% in 2020 to 31.6% in 2025 and 32.3% trailing, with a dip to 26.7% in 2022 when revenue growth slowed. The absence of a sharp cyclical drawdown is itself informative: veterinary spending is discretionary, but the recurring test stream has proved more resilient than new instrument purchases."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.3B, a 28.0% margin. Net debt is $651.3M.",
-      "Cash flow is the link between reported earnings and the capital returned to owners. A growing gap between net income and free cash flow usually means working capital or capital expenditure is absorbing the profit.",
-      "Free cash flow was $1.3B over the last twelve months and net debt was $651.3M; interest cover was n/a."
+      "Idexx produced $1.3B of free cash, 28.0% of revenue; in 2025 the figure was $1.1B on operating cash flow of $1.2B and capex of $124.7M. The conversion is high because the capital outlay is in placed instruments rather than in plants, and because consumables are paid for as they are used. The 28.0% free-cash-flow margin is above the 20.7% peer median. Capex has stayed near $125M for three years while revenue rose.",
+      "The balance sheet is almost debt-free: net debt of $177.3M is 0.1x EBITDA, and interest cover is 43.5x. No dividend is paid, so cash is retained for instrument placements, reference-lab capacity and acquisitions. That is the right policy for a business whose growth requires working capital in the field, but it means the return to shareholders depends entirely on the share price and on buybacks, which are not quantified in the financials.",
+      "At 41.5x free cash flow and a 2.4% free-cash-flow yield, the shares are priced for the cash stream to keep compounding. The risk is placement economics: if clinics slow their instrument purchases, the consumable annuity keeps running for a while, but the next cohort of placements is smaller. The cash statement would show that first in lower capex, not in lower revenue."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 46.0x trailing earnings and 33.1x EV/EBITDA. The market is paying for the growth and margin profile described above, not for the past alone.",
-      "The attributed third-party mean target is $717.17; that is a consensus figure, not a Stockmonk price target. The peer table below compares the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $687 the equity is worth $54.1B, or 45.8x earnings, 32.6x EBITDA and 11.6x sales. The 52-week band runs from $501 to $770, and the stock is about two-thirds of the way up it after a -8.7% year. The peer medians are 37.0x earnings and 25.4x EBITDA, so the premium is roughly nine turns on earnings and seven on EBITDA. On either measure the premium is clear.",
+      "The premium is defensible on returns but not on growth. A 53.6% return on invested capital and a 28.0% free-cash-flow margin are rare, and they justify paying more than a pharmaceutical company with an 11.5% return. But revenue growth of 11.9% is only modestly above the 8.6% peer median, and the consensus expects it to slow to 8.9% in 2027. The multiple therefore assumes the margin and the returns persist, not that growth accelerates.",
+      "On free cash flow the shares are at 41.5x, a 2.4% yield. That is the price of a compounder with a capital-light model, and it leaves little room for a placement slowdown. A de-rating to 30x EBITDA would be a material move from here without any change in earnings, while a return to the 2024 multiple would require the growth rate to hold. The asymmetry depends on whether clinic traffic does."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "12 analysts contribute to the third-party consensus. The mean target is $717.17, with a range of $470.00 to $810.00.",
-      "Current-year estimates call for $4.8B of revenue and $15.02 of EPS. These are third-party forecasts and can change; they are shown for context, not as a recommendation.",
-      "The attributed consensus covers 12 analysts with a mean target of $717.17; third-party estimates can change without notice."
+      "A dozen analysts contribute to Yahoo Finance's 18 November 2026 estimate set, which carries a mean target of $717 and a range of $470 to $810. The mean is 4.4% above the current price, while the low end is 32% below it; that dispersion is unusually wide for a company with this earnings record.",
+      "Estimates have been stable: EPS is 1.3% higher than 30, 60 and 90 days ago. The current-year estimate of $15.02 implies 14.9% growth and 2027 at $16.89 implies 12.4%. The consensus is therefore assuming the growth rate slows gradually while the multiple stays high, which is the combination that leaves the least room for error."
     ]
   },
   "risks": {
@@ -148,5 +163,7 @@ export const IDXX: StockStory = {
       "How sticky is the software once a clinic has standardised on it?",
       "What growth rate is required to justify 32.4x EBITDA?"
     ]
-  }
+  },
+  "narrativeSource": "curated",
+  "narrativeUpdatedAt": "2026-11-24"
 };

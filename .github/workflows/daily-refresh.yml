@@ -112,6 +112,7 @@ jobs:
           pnpm validate:content
           pnpm typecheck
           pnpm test
+          pnpm build
 
       - name: Sync Supabase
         run: |

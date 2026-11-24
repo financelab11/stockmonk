@@ -384,6 +384,7 @@ async function main() {
         return1y: record.metrics.return1y,
         revenueTtm: record.metrics.revenueTtm,
         revenueGrowthTtm: record.metrics.revenueGrowthTtm,
+        epsGrowthTtm: record.metrics.epsGrowthTtm,
         operatingMargin: record.metrics.operatingMargin,
         pe: record.metrics.pe,
         evEbitda: record.metrics.evEbitda,

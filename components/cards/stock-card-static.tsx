@@ -1,146 +1,123 @@
 import { ArrowUpRight } from "lucide-react";
 import { Sparkline } from "@/components/charts/sparkline";
-import { FactorChips } from "@/components/ui/factor-chips";
-import { PriceChange } from "@/components/ui/price-change";
 import { StockLogoStatic } from "@/components/stock-logo-static";
-import { whyInteresting } from "@/lib/insights";
+import { ClassificationChip } from "@/components/ui/classification-chip";
+import {
+  growthClassification,
+  profitabilityClassification,
+} from "@/lib/classifications";
 import {
   formatCompactCurrency,
   formatCurrency,
   formatDate,
   formatPercent,
   formatSignedPercent,
-  truncate,
 } from "@/lib/format";
 import type { RangePricePoint, UniverseEntry } from "@/lib/schemas";
 
 export function StockCardStatic({
   entry,
   prices,
-  showWhy = true,
 }: {
   entry: UniverseEntry;
   prices?: RangePricePoint[];
-  showWhy?: boolean;
 }) {
   const href = `/stocks/${entry.ticker}`;
   const currency = entry.currency ?? "USD";
+  const growth = growthClassification(entry);
+  const profitability = profitabilityClassification(entry);
+  const returnTone =
+    entry.return1y == null
+      ? "text-muted"
+      : entry.return1y >= 0
+        ? "text-positive"
+        : "text-danger";
 
   return (
-    <article className="card group flex h-full flex-col p-4 transition-shadow hover:shadow-md">
-      <div className="flex items-start gap-2.5">
-        <StockLogoStatic ticker={entry.ticker} size={38} />
-        <div className="min-w-0 flex-1">
-          <div className="flex flex-wrap items-start justify-between gap-1.5">
-            <FactorChips chips={entry.factorChips} limit={2} />
-            {entry.isResearch && (
-              <span className="rounded-full bg-brand-deep px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider text-white">
-                Research
-              </span>
-            )}
+    <article className="h-full">
+      <a
+        href={href}
+        aria-label={`${entry.name} (${entry.ticker}) research report`}
+        className="group flex h-full flex-col rounded-xl border border-line bg-surface p-4 transition-[border-color,box-shadow] hover:border-line-strong hover:shadow-[0_1px_2px_rgba(16,24,40,0.05)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
+      >
+        <div className="flex items-start gap-3">
+          <StockLogoStatic ticker={entry.ticker} size={40} />
+          <div className="min-w-0">
+            <h3 className="display text-[18px] leading-[1.15] text-ink transition-colors group-hover:text-brand-deep">
+              {entry.name}
+            </h3>
+            <p className="mt-1 truncate text-[12px] text-muted">
+              <span className="font-medium text-ink-soft">{entry.ticker}</span>
+              <span aria-hidden="true"> · </span>
+              {entry.sector}
+            </p>
           </div>
         </div>
-      </div>
 
-      <div className="mt-3 flex items-start justify-between gap-3">
-        <div className="min-w-0">
-          <h3 className="text-[15px] font-semibold leading-snug text-ink">
-            {entry.isResearch ? (
-              <a href={href} className="hover:text-brand">
-                {entry.name}
-              </a>
-            ) : (
-              entry.name
-            )}{" "}
-            <span className="font-mono text-[11px] font-medium text-muted">
-              ({entry.ticker})
-            </span>
-          </h3>
-          <p className="mt-0.5 text-[10.5px] text-muted">
-            {entry.sector}
-            {entry.industry && entry.industry !== entry.sector
-              ? ` · ${entry.industry}`
-              : ""}
-          </p>
-          <div className="mt-1.5 flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
-            <span className="tabular text-[15px] font-semibold text-ink">
+        <div className="mt-3 flex flex-wrap gap-1.5">
+          <ClassificationChip classification={growth} />
+          <ClassificationChip classification={profitability} />
+        </div>
+
+        <div className="mt-4 flex items-end justify-between gap-3">
+          <div className="min-w-0">
+            <p className="tabular text-[24px] font-semibold leading-none tracking-[-0.02em] text-ink">
               {entry.price != null
                 ? formatCurrency(entry.price, 2, currency)
                 : "n/a"}
-            </span>
-            <PriceChange value={entry.changePct} className="text-[11.5px]" />
-            <span className="text-[9.5px] text-faint">vs prior close</span>
-          </div>
-          {entry.asOf && (
-            <p className="mt-0.5 text-[9.5px] text-faint">
-              Price as of {formatDate(entry.asOf)}
             </p>
+            <p className="mt-1.5 flex items-baseline gap-1.5 text-[12px]">
+              <span
+                className={`tabular font-semibold ${returnTone}`}
+                data-return1y={entry.return1y ?? ""}
+              >
+                {formatSignedPercent(entry.return1y)}
+              </span>
+              <span className="text-muted">1Y</span>
+              {entry.asOf && (
+                <span className="text-faint">· {formatDate(entry.asOf)}</span>
+              )}
+            </p>
+          </div>
+          {prices && prices.length > 1 && (
+            <Sparkline
+              points={prices}
+              width={88}
+              height={32}
+              positive={
+                entry.return1y != null ? entry.return1y >= 0 : undefined
+              }
+              className="shrink-0"
+            />
           )}
         </div>
-        {prices && prices.length > 1 && (
-          <Sparkline
-            points={prices}
-            width={92}
-            height={34}
-            className="mt-1 shrink-0"
-          />
-        )}
-      </div>
 
-      <p className="mt-2.5 line-clamp-3 text-[12px] leading-relaxed text-muted">
-        {truncate(entry.description, 180)}
-      </p>
+        <dl className="mt-4 grid grid-cols-3 gap-2 border-t border-line pt-3">
+          <div>
+            <dt className="text-[12px] leading-4 text-muted">Revenue</dt>
+            <dd className="tabular mt-0.5 text-[14px] font-semibold leading-5 text-ink">
+              {formatCompactCurrency(entry.revenueTtm, currency)}
+            </dd>
+          </div>
+          <div>
+            <dt className="text-[12px] leading-4 text-muted">Op margin</dt>
+            <dd className="tabular mt-0.5 text-[14px] font-semibold leading-5 text-ink">
+              {formatPercent(entry.operatingMargin)}
+            </dd>
+          </div>
+          <div>
+            <dt className="text-[12px] leading-4 text-muted">Market cap</dt>
+            <dd className="tabular mt-0.5 text-[14px] font-semibold leading-5 text-ink">
+              {formatCompactCurrency(entry.marketCap, currency)}
+            </dd>
+          </div>
+        </dl>
 
-      <dl className="mt-3 grid grid-cols-3 gap-2 border-t border-line pt-2.5">
-        <div>
-          <dt className="stat-label">Revenue (TTM)</dt>
-          <dd className="tabular mt-0.5 text-[11.5px] font-semibold text-ink">
-            {formatCompactCurrency(entry.revenueTtm, currency)}
-          </dd>
-        </div>
-        <div>
-          <dt className="stat-label">Op margin (TTM)</dt>
-          <dd className="tabular mt-0.5 text-[11.5px] font-semibold text-ink">
-            {formatPercent(entry.operatingMargin)}
-          </dd>
-        </div>
-        <div>
-          <dt className="stat-label">1Y return</dt>
-          <dd className="tabular mt-0.5 text-[11.5px] font-semibold text-ink">
-            {formatSignedPercent(entry.return1y)}
-          </dd>
-        </div>
-      </dl>
-
-      {showWhy && (
-        <div className="why-box mt-3">
-          <p className="text-[10px] font-bold uppercase tracking-[0.11em] text-brand-deep">
-            Research insight
-          </p>
-          <p className="mt-1 line-clamp-3 text-[11.5px] leading-relaxed">
-            {whyInteresting(entry)}
-          </p>
-        </div>
-      )}
-
-      <div className="mt-auto flex items-center justify-between gap-2 pt-3">
-        <span className="tabular text-[10.5px] text-muted">
-          {formatCompactCurrency(entry.marketCap, currency)} mkt cap
+        <span className="mt-4 inline-flex items-center gap-1 text-[12px] font-semibold text-brand group-hover:text-brand-deep">
+          Read research
+          <ArrowUpRight aria-hidden="true" className="size-3.5" />
         </span>
-        {entry.isResearch ? (
-          <a
-            href={href}
-            className="inline-flex items-center gap-1 text-[10.5px] font-semibold text-brand hover:text-brand-deep"
-          >
-            Read research
-            <ArrowUpRight aria-hidden="true" className="size-3.5" />
-          </a>
-        ) : (
-          <span className="text-[9px] font-semibold uppercase tracking-[0.1em] text-faint">
-            Data only
-          </span>
-        )}
-      </div>
+      </a>
     </article>
   );
 }

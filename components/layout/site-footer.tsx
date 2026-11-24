@@ -7,7 +7,7 @@ export function SiteFooter() {
 
   return (
     <footer className="mt-20 bg-brand-deep text-white">
-      <div className="container-page py-12 lg:py-16">
+      <div className="container-page pt-12 pb-[calc(5rem+env(safe-area-inset-bottom))] lg:py-16">
         <div className="grid gap-10 lg:grid-cols-[1.3fr_1fr_1fr_1fr]">
           <div>
             <a href="/" className="flex items-center gap-2.5 text-white" style={{ color: "#ffffff" }} aria-label="Stockmonk home">

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { parseSort, sortEntries } from "@/lib/discover";
+import { filterUniverse, parseSort, sortEntries } from "@/lib/discover";
 import type { UniverseEntry } from "@/lib/schemas";
 
 function entry(
@@ -73,5 +73,58 @@ describe("discover sorting", () => {
       "name",
     );
     expect(rows.map((row) => row.name)).toEqual(["Apple", "Cisco"]);
+  });
+
+  it("sorts by EPS growth and growth percentile", () => {
+    const rows = sortEntries(
+      [
+        entry({ ticker: "LOW", epsGrowthTtm: 0.04 }),
+        entry({ ticker: "HIGH", epsGrowthTtm: 0.35 }),
+        entry({ ticker: "MID", epsGrowthTtm: 0.15 }),
+      ],
+      "epsGrowth",
+    );
+    expect(rows.map((row) => row.ticker)).toEqual(["HIGH", "MID", "LOW"]);
+
+    const percentile = (value: number, ticker: string) =>
+      entry({
+        ticker,
+        factorChips: [
+          {
+            key: "growth",
+            label: "Growth: Moderate",
+            tone: "neutral",
+            detail: `${value}th percentile revenue/EPS growth in the covered universe.`,
+          },
+        ],
+      });
+    const ranked = sortEntries(
+      [percentile(25, "LOW"), percentile(91, "HIGH"), percentile(58, "MID")],
+      "growthPercentile",
+    );
+    expect(ranked.map((row) => row.ticker)).toEqual(["HIGH", "MID", "LOW"]);
+  });
+
+  it("applies market-cap, growth and margin filters", () => {
+    const rows = [
+      entry({
+        ticker: "SMALL",
+        marketCap: 5_000_000_000,
+        revenueGrowthTtm: 0.25,
+        operatingMargin: 0.22,
+      }),
+      entry({
+        ticker: "LARGE",
+        marketCap: 150_000_000_000,
+        revenueGrowthTtm: 0.12,
+        operatingMargin: 0.12,
+      }),
+    ];
+    const filtered = filterUniverse(rows, {
+      minMarketCap: 50_000_000_000,
+      minRevenueGrowth: 0.1,
+      minOperatingMargin: 0.1,
+    });
+    expect(filtered.map((row) => row.ticker)).toEqual(["LARGE"]);
   });
 });

@@ -181,9 +181,12 @@ export const universeEntrySchema = z.object({
   return1y: z.number().nullable(),
   revenueTtm: z.number().nullable(),
   revenueGrowthTtm: z.number().nullable(),
+  epsGrowthTtm: z.number().nullable().optional(),
   operatingMargin: z.number().nullable(),
   pe: z.number().nullable(),
   evEbitda: z.number().nullable(),
+  dataQuality: z.enum(["High", "Moderate", "Limited"]).optional(),
+  dataQualityScore: z.number().optional(),
   factorChips: z.array(factorChipSchema),
   asOf: z.string().nullable(),
 });

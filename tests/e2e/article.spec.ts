@@ -171,10 +171,10 @@ test.describe("research article", () => {
     page,
   }) => {
     await page.goto("/discover", { waitUntil: "networkidle" });
-    const input = page.getByPlaceholder(/Search ticker, name or sector/i);
+    const input = page.getByPlaceholder(/Search companies/i);
     await expect(input).toBeVisible();
     await input.fill("MSFT");
-    await page.getByRole("button", { name: "Search", exact: true }).click();
+    await input.press("Enter");
     await expect(page).toHaveURL(/\/discover\?.*q=MSFT/);
     await expect(page.getByText("Microsoft Corporation").first()).toBeVisible();
     await page

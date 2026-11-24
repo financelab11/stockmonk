@@ -6,20 +6,16 @@ const returns = (text: string | null | undefined) => {
 };
 
 test.describe("discover", () => {
-  test("segmented views keep their routes and description", async ({
-    page,
-  }) => {
+  test("segmented views keep their routes", async ({ page }) => {
     await page.goto("/discover", { waitUntil: "networkidle" });
     const tabs = page.locator('nav[aria-label="Company views"] a');
     await expect(tabs).toHaveCount(3);
-    await expect(
-      page.getByText("Companies with published research reports"),
-    ).toBeVisible();
+    await expect(tabs.first()).toContainText("Featured Research");
 
     await page.getByRole("link", { name: /Data Quality/ }).click();
     await page.waitForURL("**/discover?tab=screens");
     await expect(
-      page.getByText("Explore companies based on financial data availability"),
+      page.getByRole("heading", { name: "Coverage quality" }),
     ).toBeVisible();
 
     await page
@@ -28,7 +24,7 @@ test.describe("discover", () => {
       .click();
     await page.waitForURL("**/discover/all-stocks");
     await expect(
-      page.getByRole("heading", { name: /All Companies/ }),
+      page.getByRole("heading", { name: /All companies/ }),
     ).toBeVisible();
   });
 
@@ -38,25 +34,21 @@ test.describe("discover", () => {
     await page.goto("/discover", { waitUntil: "domcontentloaded" });
 
     await expect(page.locator('select[name="sort"]')).toHaveValue("return1y");
-    await expect(
-      page.getByText("Sorted by 1Y returns — highest to lowest"),
-    ).toBeVisible();
+    await expect(page.getByText("Sorted by 1Y return")).toBeVisible();
 
     const first = returns(
       await page
         .locator("#directory .grid article")
         .first()
-        .locator("dd")
-        .nth(2)
-        .textContent(),
+        .locator("[data-return1y]")
+        .getAttribute("data-return1y"),
     );
     const second = returns(
       await page
         .locator("#directory .grid article")
         .nth(1)
-        .locator("dd")
-        .nth(2)
-        .textContent(),
+        .locator("[data-return1y]")
+        .getAttribute("data-return1y"),
     );
     expect(first).not.toBeNull();
     expect(second).not.toBeNull();
@@ -77,17 +69,28 @@ test.describe("discover", () => {
       waitUntil: "networkidle",
     });
 
-    await expect(
-      page.getByText("1 company matches the current filters."),
-    ).toBeVisible();
+    await expect(page.getByText("Showing 1 of 1")).toBeVisible();
     await expect(page.locator("#directory article")).toHaveCount(1);
-    await expect(page.getByRole("link", { name: /Technology/ })).toBeVisible();
+    await expect(page.locator("#directory article").first()).toContainText(
+      "Technology",
+    );
 
-    await page.getByRole("link", { name: "Clear all filters" }).click();
+    await page.getByRole("link", { name: "Clear all" }).click();
     await page.waitForURL("**/discover");
-    await expect(
-      page.getByText("229 companies match the current filters."),
-    ).toBeVisible();
+    await expect(page.getByText("229 companies")).toBeVisible();
+  });
+
+  test("additional filters survive existing sort and sector changes", async ({
+    page,
+  }) => {
+    await page.goto("/discover?minCap=100&sort=name", {
+      waitUntil: "networkidle",
+    });
+
+    await expect(page.getByText("Market cap ≥ $100B")).toBeVisible();
+    await page.locator('select[name="sort"]').selectOption("growth");
+    await page.waitForURL(/minCap=100/);
+    await page.waitForURL(/sort=growth/);
   });
 
   test("mobile discovery tabs do not overflow", async ({ page }) => {

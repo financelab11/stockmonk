@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { StockLogoStatic } from "@/components/stock-logo-static";
+import { ClassificationChip } from "@/components/ui/classification-chip";
+import { dataQualityClassification } from "@/lib/classifications";
 import {
   formatCompactCurrency,
   formatMultiple,
@@ -18,7 +20,6 @@ export type ScreenDetail = {
 function screen(
   entries: UniverseEntry[],
   title: string,
-  description: string,
   metric: (entry: UniverseEntry) => string,
   filter: (entry: UniverseEntry) => boolean,
   sort?: (a: UniverseEntry, b: UniverseEntry) => number,
@@ -26,7 +27,6 @@ function screen(
   const matched = entries.filter(filter);
   return {
     title,
-    description,
     metric,
     matched: matched.length,
     entries: matched.sort(sort).slice(0, 6),
@@ -45,11 +45,15 @@ export function ScreensPanel({
   const detail = (ticker: string): ScreenDetail =>
     details[ticker] ?? { fcfMargin: null, netDebt: null, roic: null };
 
+  const quality = entries.map(dataQualityClassification);
+  const high = quality.filter((item) => item.value === "High").length;
+  const moderate = quality.filter((item) => item.value === "Moderate").length;
+  const limited = quality.filter((item) => item.value === "Limited").length;
+
   const screens = [
     screen(
       entries,
       "High growth",
-      "Revenue growth in the top quintile of the covered universe.",
       (entry) =>
         `${formatPercent(entry.revenueGrowthTtm)} revenue growth · ${formatMultiple(entry.evEbitda)} EV/EBITDA`,
       (entry) =>
@@ -61,7 +65,6 @@ export function ScreensPanel({
     screen(
       entries,
       "High profitability",
-      "Operating margin and returns on capital in the top quintile.",
       (entry) =>
         `${formatPercent(entry.operatingMargin)} op margin · ${formatPercent(detail(entry.ticker).roic)} ROIC`,
       (entry) =>
@@ -73,7 +76,6 @@ export function ScreensPanel({
     screen(
       entries,
       "Cash generation",
-      "Positive free-cash-flow margin, sorted by cash conversion.",
       (entry) => `${formatPercent(detail(entry.ticker).fcfMargin)} FCF margin`,
       (entry) => {
         const value = detail(entry.ticker).fcfMargin;
@@ -85,8 +87,7 @@ export function ScreensPanel({
     ),
     screen(
       entries,
-      "Net cash balance sheets",
-      "Companies whose cash and investments exceed total debt.",
+      "Net cash",
       (entry) =>
         `Net cash ${formatCompactCurrency(
           Math.abs(detail(entry.ticker).netDebt ?? 0),
@@ -102,7 +103,6 @@ export function ScreensPanel({
     screen(
       entries,
       "Lowest EV/EBITDA",
-      "A valuation screen, not a recommendation. Lower multiples can reflect lower growth or higher risk.",
       (entry) =>
         `${formatMultiple(entry.evEbitda)} EV/EBITDA · ${formatSignedPercent(entry.return1y)} 1Y`,
       (entry) => entry.evEbitda != null && entry.evEbitda > 0,
@@ -112,47 +112,70 @@ export function ScreensPanel({
 
   return (
     <div>
-      <div className="rounded-xl border border-line bg-brand-soft/60 p-4">
-        <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-brand-deep">
-          Descriptive screens, not recommendations
-        </p>
-        <p className="mt-1 text-[12px] leading-relaxed text-ink-soft">
-          Each list is computed from the {entries.length} companies in the
-          current coverage universe and sorted by the screen metric. A company
-          can appear here and still be a poor fit for your goals. Stockmonk does
-          not rank companies as buys or sells.
-        </p>
+      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line pb-3">
+        <div>
+          <h2 className="text-[15px] font-semibold text-ink">
+            Coverage quality
+          </h2>
+          <p className="mt-0.5 text-[12px] text-muted">
+            Based on the fields available for each company.
+          </p>
+        </div>
+        <div className="flex flex-wrap items-center gap-1.5">
+          <ClassificationChip
+            classification={{
+              value: "High",
+              label: `High ${high}`,
+              tone: "positive",
+              detail: "Reports with all 14 coverage points.",
+            }}
+          />
+          <ClassificationChip
+            classification={{
+              value: "Moderate",
+              label: `Moderate ${moderate}`,
+              tone: "warning",
+              detail: "Reports with 11 to 13 coverage points.",
+            }}
+          />
+          <ClassificationChip
+            classification={{
+              value: "Limited",
+              label: `Limited ${limited}`,
+              tone: "negative",
+              detail: "Reports with 10 or fewer coverage points.",
+            }}
+          />
+        </div>
       </div>
 
       <div className="mt-4 grid gap-3 md:grid-cols-2">
         {screens.map((item) => (
-          <section key={item.title} className="card p-4">
-            <h2 className="text-[14px] font-semibold text-ink">{item.title}</h2>
-            <p className="mt-1 text-[11px] leading-relaxed text-muted">
-              {item.description}
-            </p>
-            <p className="mt-1 text-[10px] text-faint">
-              {item.matched} of {entries.length} qualify
-              {item.matched > item.entries.length
-                ? ` · top ${item.entries.length} shown`
-                : " · all shown"}
-            </p>
-            <ul className="mt-3 divide-y divide-line">
+          <section key={item.title} className="card-flat p-4">
+            <div className="flex items-baseline justify-between gap-3">
+              <h2 className="text-[14px] font-semibold text-ink">
+                {item.title}
+              </h2>
+              <span className="tabular text-[11px] text-muted">
+                {item.matched}
+              </span>
+            </div>
+            <ul className="mt-2 divide-y divide-line">
               {item.entries.map((entry) => (
                 <li key={entry.ticker}>
                   <Link
                     href={`/stocks/${entry.ticker}`}
-                    className="flex items-center gap-2 py-2 hover:text-brand"
+                    className="flex items-center gap-2.5 py-2.5 transition-colors hover:text-brand"
                   >
-                    <StockLogoStatic ticker={entry.ticker} size={24} />
+                    <StockLogoStatic ticker={entry.ticker} size={26} />
                     <span className="min-w-0 flex-1">
-                      <span className="block truncate text-[11.5px] font-medium text-ink">
-                        {entry.name}{" "}
-                        <span className="font-mono text-[9.5px] text-muted">
-                          ({entry.ticker})
+                      <span className="block truncate text-[12.5px] font-medium text-ink">
+                        {entry.name}
+                        <span className="ml-1 font-mono text-[10px] text-muted">
+                          {entry.ticker}
                         </span>
                       </span>
-                      <span className="block text-[9.5px] text-muted">
+                      <span className="mt-0.5 block truncate text-[11.5px] text-muted">
                         {item.metric(entry)}
                       </span>
                     </span>
@@ -160,7 +183,7 @@ export function ScreensPanel({
                 </li>
               ))}
               {item.entries.length === 0 && (
-                <li className="py-2 text-[11px] text-muted">
+                <li className="py-2.5 text-[11.5px] text-muted">
                   No companies match this screen.
                 </li>
               )}

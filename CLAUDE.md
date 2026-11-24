@@ -92,14 +92,18 @@ pnpm audit:research      # editorial/repetition gate
   note that no split is disclosed.
 - Show the price date next to "Last close". The footer says "Market prices as
   of" and refers to market data only, not filing periods.
-- Discover leads with the research library, not a Pro upsell. Pro appears once,
-  after the results. Prices are labelled "vs prior close" and fundamentals say
-  "(TTM)" so a percentage never appears without a period.
+- Discover leads with the research directory. There is no hero, carousel or
+  in-page Pro upsell; Pro appears only as the header link. Prices are labelled
+  "vs prior close" and fundamentals say "(TTM)" so a percentage never appears
+  without a period.
 - Discover opens directly on the US directory: Featured Research / Data Quality
-  / All Companies views. The directory defaults to 1Y returns, highest first,
-  with market cap as the tie-breaker and missing returns last. The active sort
-  is stated above the results and always notes that it is historical
-  performance.
+  / All Companies views. Cards carry the company name, ticker and sector,
+  growth and profitability classifications, price, 1Y return, sparkline,
+  revenue, operating margin and market cap. The directory defaults to 1Y
+  returns, highest first, with market cap as the tie-breaker and missing
+  returns last. Sort options also cover market cap, revenue growth, EPS growth,
+  operating margin, growth percentile, revenue and name. Data quality is a
+  14-point coverage score: High is 14, Moderate 11–13, Limited 10 or fewer.
 - Navigation: primary nav is Discover and Screener. Watchlist, methodology and
   company pages live under More. The mobile bar is Discover, Screener,
   Watchlist, More. Header search is a US-only global overlay (`/` or

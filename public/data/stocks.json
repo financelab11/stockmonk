@@ -13,9 +13,12 @@
     "return1y": -0.13989832417106984,
     "revenueTtm": 1932367000,
     "revenueGrowthTtm": 0.5353415049050883,
+    "epsGrowthTtm": 0.2993197278911568,
     "operatingMargin": 0.11048522356260483,
     "pe": 41.4983990758877,
     "evEbitda": 23.599900819359117,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -64,9 +67,12 @@
     "return1y": 0.26955689133699523,
     "revenueTtm": 478834000000,
     "revenueGrowthTtm": 0.1505979656911629,
+    "epsGrowthTtm": 0.20241286863270758,
     "operatingMargin": 0.3300997840587761,
     "pe": 38.38013067354643,
     "evEbitda": 29.250608048330477,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -115,9 +121,12 @@
     "return1y": 0.29442267047728965,
     "revenueTtm": 66014000000,
     "revenueGrowthTtm": 0.10680034873583266,
+    "epsGrowthTtm": 3.4015151515151514,
     "operatingMargin": 0.321643893719514,
     "pe": 49.30080575517308,
     "evEbitda": 25.957516270786005,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -166,9 +175,12 @@
     "return1y": 0.5204964701131265,
     "revenueTtm": 13933000000,
     "revenueGrowthTtm": 0.16662480113874234,
+    "epsGrowthTtm": 0.3773514460495704,
     "operatingMargin": 0.22493361085193425,
     "pe": 32.36959087995011,
     "evEbitda": 36.54442715814135,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -217,9 +229,12 @@
     "return1y": -0.16748183702170738,
     "revenueTtm": 48229000000,
     "revenueGrowthTtm": 0.10003877471888334,
+    "epsGrowthTtm": -0.6624843161856963,
     "operatingMargin": 0.13782164258019033,
     "pe": 38.06513784131036,
     "evEbitda": 25.0523692017042,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -268,9 +283,12 @@
     "return1y": -0.5873656035441306,
     "revenueTtm": 6600000,
     "revenueGrowthTtm": null,
+    "epsGrowthTtm": -0.1417322834645669,
     "operatingMargin": -142.87878787878788,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 11,
     "factorChips": [
       {
         "key": "growth",
@@ -319,9 +337,12 @@
     "return1y": 0.7826491092176606,
     "revenueTtm": 22286000,
     "revenueGrowthTtm": -0.7935257930625556,
+    "epsGrowthTtm": 1.0349999999999997,
     "operatingMargin": -11.356142869963206,
     "pe": -28.30107,
     "evEbitda": -25.48219,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -370,9 +391,12 @@
     "return1y": -0.29727359204606985,
     "revenueTtm": 25970000000,
     "revenueGrowthTtm": 0.12031405029981457,
+    "epsGrowthTtm": 0.11658354114713232,
     "operatingMargin": 0.3569888332691567,
     "pe": 11.967739360790775,
     "evEbitda": 8.757299342831523,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -421,9 +445,12 @@
     "return1y": 0.6018672756686514,
     "revenueTtm": 13881744000,
     "revenueGrowthTtm": 0.33648002102669783,
+    "epsGrowthTtm": 1.1479591836734695,
     "operatingMargin": 0.355494669833992,
     "pe": 44.384280423428855,
     "evEbitda": 35.53731099684782,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -472,9 +499,12 @@
     "return1y": 0.04051902491846193,
     "revenueTtm": 2270900000,
     "revenueGrowthTtm": 0.31661641929499074,
+    "epsGrowthTtm": 0.829396325459318,
     "operatingMargin": 0.15993658901757013,
     "pe": 30.0068556232687,
     "evEbitda": 19.88146740827296,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -523,9 +553,12 @@
     "return1y": -0.12677529704909296,
     "revenueTtm": 1516864000,
     "revenueGrowthTtm": 0.2612953009419403,
+    "epsGrowthTtm": 7.611940298507461,
     "operatingMargin": 0.35624024302772034,
     "pe": 9.835667336391385,
     "evEbitda": 32.34658811671995,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -574,9 +607,12 @@
     "return1y": 0.09898134226687505,
     "revenueTtm": 27728000000,
     "revenueGrowthTtm": 0.011896941829063534,
+    "epsGrowthTtm": 0.14126394052044633,
     "operatingMargin": 0.14537651471436816,
     "pe": 12.67539706949924,
     "evEbitda": 3.88669884476911,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -625,9 +661,12 @@
     "return1y": 0.5033502207593064,
     "revenueTtm": 1556243000,
     "revenueGrowthTtm": 1.1523668188947194,
+    "epsGrowthTtm": 1.0573770491803276,
     "operatingMargin": 0.2551625935024286,
     "pe": 84.15472988181841,
     "evEbitda": 90.74317289847592,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -676,9 +715,12 @@
     "return1y": 0.5098118798315119,
     "revenueTtm": 30837000000,
     "revenueGrowthTtm": 0.07772690734980614,
+    "epsGrowthTtm": 0.38140643623361137,
     "operatingMargin": 0.29642961377565913,
     "pe": 29.70488328563721,
     "evEbitda": 28.318696049648324,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -727,9 +769,12 @@
     "return1y": 1.1086258312953396,
     "revenueTtm": 45436000000,
     "revenueGrowthTtm": 0.41867799044556153,
+    "epsGrowthTtm": 1.277227722772277,
     "operatingMargin": 0.17717228629280746,
     "pe": 98.5045303541147,
     "evEbitda": 175.9926492925267,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -778,9 +823,12 @@
     "return1y": 0.0577138871795253,
     "revenueTtm": 7461269000,
     "revenueGrowthTtm": 0.1569557576903151,
+    "epsGrowthTtm": 0.984,
     "operatingMargin": 0.09513395107454241,
     "pe": 13.925068008871985,
     "evEbitda": 6.296888493104527,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -829,9 +877,12 @@
     "return1y": -0.31915572101498024,
     "revenueTtm": 349046000,
     "revenueGrowthTtm": 0.3108330391545677,
+    "epsGrowthTtm": 6.891891891891893,
     "operatingMargin": 0.05165221775926382,
     "pe": 7.6515174746335965,
     "evEbitda": 31.37876231746841,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -880,9 +931,12 @@
     "return1y": 0.12864592879348624,
     "revenueTtm": 797455000000,
     "revenueGrowthTtm": 0.15350845471771812,
+    "epsGrowthTtm": 0.7471751412429379,
     "operatingMargin": 0.13087384241117053,
     "pe": 20.489595858345886,
     "evEbitda": 15.396383826343492,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -931,9 +985,12 @@
     "return1y": 0.45952361652665386,
     "revenueTtm": 11890100000,
     "revenueGrowthTtm": 0.40739557070653265,
+    "epsGrowthTtm": 0.40909090909090895,
     "operatingMargin": 0.4382721760119764,
     "pe": 47.40683507070707,
     "evEbitda": 39.7643905312771,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -982,9 +1039,12 @@
     "return1y": 0.1307008332472459,
     "revenueTtm": 33046900000,
     "revenueGrowthTtm": 0.5756502252842872,
+    "epsGrowthTtm": 0.9880952380952384,
     "operatingMargin": 0.27717879740611073,
     "pe": 32.22277903708699,
     "evEbitda": 19.181419443494363,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -1033,9 +1093,12 @@
     "return1y": -0.41908368377555916,
     "revenueTtm": 515981000,
     "revenueGrowthTtm": 2.774053160520195,
+    "epsGrowthTtm": 0.4732142857142856,
     "operatingMargin": -0.5888240070855322,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -1084,9 +1147,12 @@
     "return1y": -0.5332727258855646,
     "revenueTtm": 115299000,
     "revenueGrowthTtm": 22.568887980376125,
+    "epsGrowthTtm": 1.3546769245751569,
     "operatingMargin": -6.98800509978404,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -1135,9 +1201,12 @@
     "return1y": 0.822595589955081,
     "revenueTtm": 5013400000,
     "revenueGrowthTtm": 0.09391228452978395,
+    "epsGrowthTtm": 0.2944983818770228,
     "operatingMargin": 0.16481828699086448,
     "pe": 43.49944627789777,
     "evEbitda": 25.49934451510017,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -1186,9 +1255,12 @@
     "return1y": -0.6726596578734672,
     "revenueTtm": 2002659000,
     "revenueGrowthTtm": 0.8443747582472232,
+    "epsGrowthTtm": 5.328125000000001,
     "operatingMargin": -0.12612931108091793,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -1237,9 +1309,12 @@
     "return1y": -0.16424662421526148,
     "revenueTtm": 89104000000,
     "revenueGrowthTtm": 0.4869005106297768,
+    "epsGrowthTtm": 0.9999999999999998,
     "operatingMargin": 0.4804947028191776,
     "pe": 39.115943870168564,
     "evEbitda": 35.357169640289094,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -1288,9 +1363,12 @@
     "return1y": -0.41364845516824456,
     "revenueTtm": 3417012000,
     "revenueGrowthTtm": 0.335836372542619,
+    "epsGrowthTtm": -0.015772870662460692,
     "operatingMargin": 0.019895452518164995,
     "pe": 96.90395363843862,
     "evEbitda": 137.58180387146768,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -1339,9 +1417,12 @@
     "return1y": -0.12804276817770677,
     "revenueTtm": 43903000000,
     "revenueGrowthTtm": 0.0890261447636056,
+    "epsGrowthTtm": 0.1919463087248321,
     "operatingMargin": 0.3523677197458032,
     "pe": 16.792526450265196,
     "evEbitda": 12.789230908295938,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -1390,9 +1471,12 @@
     "return1y": -0.09340105060070836,
     "revenueTtm": 94913000000,
     "revenueGrowthTtm": 0.17529130601681597,
+    "epsGrowthTtm": -1.7088514996342357,
     "operatingMargin": 0.10256761455227419,
     "pe": 16.80850845559039,
     "evEbitda": 13.15260651497006,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -1441,9 +1525,12 @@
     "return1y": -0.05322267551893167,
     "revenueTtm": 120155000000,
     "revenueGrowthTtm": 0.053566104905038214,
+    "epsGrowthTtm": 0.16022099447513805,
     "operatingMargin": 0.3375473346926886,
     "pe": 10.303867005149202,
     "evEbitda": 10.778159131886788,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -1492,9 +1579,12 @@
     "return1y": 0.11459363827340319,
     "revenueTtm": 945540000,
     "revenueGrowthTtm": 1.6726779354401042,
+    "epsGrowthTtm": -0.2785714285714286,
     "operatingMargin": -0.38521479789326735,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -1543,9 +1633,12 @@
     "return1y": 0.7596274402726015,
     "revenueTtm": 3810940000,
     "revenueGrowthTtm": 1.1221310964201074,
+    "epsGrowthTtm": -0.9972179341464655,
     "operatingMargin": 0.14888846321380028,
     "pe": 95.06600379004453,
     "evEbitda": 79.99018152969252,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -1594,9 +1687,12 @@
     "return1y": -0.24997035030853842,
     "revenueTtm": 28126000000,
     "revenueGrowthTtm": 0.08014900725834329,
+    "epsGrowthTtm": 3.531519396551724,
     "operatingMargin": 0.327775012444002,
     "pe": 15.017005365282808,
     "evEbitda": 11.417412056659533,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -1645,9 +1741,12 @@
     "return1y": 0.1466311814098149,
     "revenueTtm": 28542000000,
     "revenueGrowthTtm": 0.24719248415993,
+    "epsGrowthTtm": 0.12904884318766086,
     "operatingMargin": 0.3245743115408871,
     "pe": 25.57012385185185,
     "evEbitda": 16.37645549554896,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -1696,9 +1795,12 @@
     "return1y": 0.12711444852071985,
     "revenueTtm": 259733000000,
     "revenueGrowthTtm": 0.05725636735906736,
+    "epsGrowthTtm": null,
     "operatingMargin": 0.41174205819052645,
     "pe": 14.165606285481298,
     "evEbitda": 9.712420181344623,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -1747,9 +1849,12 @@
     "return1y": -0.34838830472167437,
     "revenueTtm": 2008712000,
     "revenueGrowthTtm": 0.30661957218172997,
+    "epsGrowthTtm": 0.5918367346938775,
     "operatingMargin": 0.09532376965936382,
     "pe": 47.00927141933081,
     "evEbitda": 14.277432515209725,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -1798,9 +1903,12 @@
     "return1y": -0.5682374394556889,
     "revenueTtm": 21069000000,
     "revenueGrowthTtm": 0.08883720930232553,
+    "epsGrowthTtm": 0.26203208556149726,
     "operatingMargin": 0.18662489914091793,
     "pe": 17.56044880595306,
     "evEbitda": 13.553357219985086,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -1849,9 +1957,12 @@
     "return1y": -0.33229191524553225,
     "revenueTtm": 3600656000,
     "revenueGrowthTtm": 0.1771273517825327,
+    "epsGrowthTtm": 0.22522522522522515,
     "operatingMargin": 0.12357748143671597,
     "pe": 28.302097517787235,
     "evEbitda": 21.228356443029178,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -1900,9 +2011,12 @@
     "return1y": 0.17077522810188683,
     "revenueTtm": 85225000000,
     "revenueGrowthTtm": 0.0557840489581527,
+    "epsGrowthTtm": 0.17676767676767668,
     "operatingMargin": 0.23265473745966558,
     "pe": 13.23029759821054,
     "evEbitda": 8.569837504235363,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -1951,9 +2065,12 @@
     "return1y": -0.010380652851390892,
     "revenueTtm": 496072000,
     "revenueGrowthTtm": 0.15571459856395342,
+    "epsGrowthTtm": -0.5702479338842975,
     "operatingMargin": 0.2584362753793804,
     "pe": 92.21237900713695,
     "evEbitda": 33.98564306839451,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -2002,9 +2119,12 @@
     "return1y": -0.014131723538107321,
     "revenueTtm": 77773000000,
     "revenueGrowthTtm": 0.20259467149108557,
+    "epsGrowthTtm": 0.3085215605749485,
     "operatingMargin": 0.1879829760971031,
     "pe": 21.163536102806898,
     "evEbitda": 14.221620806383479,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -2053,9 +2173,12 @@
     "return1y": 0.11388892987062071,
     "revenueTtm": 1292095000,
     "revenueGrowthTtm": 0.31134289095341416,
+    "epsGrowthTtm": -0.5964912280701755,
     "operatingMargin": 0.047811499928410835,
     "pe": 108.996474491348,
     "evEbitda": 41.365193496561915,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -2104,9 +2227,12 @@
     "return1y": 0.25767388954696124,
     "revenueTtm": 61849000000,
     "revenueGrowthTtm": 0.05703103636860818,
+    "epsGrowthTtm": 0.19206680584551128,
     "operatingMargin": 0.2229462076993969,
     "pe": 12.545525603135019,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -2155,9 +2281,12 @@
     "return1y": -0.22964664993167605,
     "revenueTtm": 3600247000,
     "revenueGrowthTtm": 1.1168920512041054,
+    "epsGrowthTtm": 0.3529411764705883,
     "operatingMargin": 0.296594928070213,
     "pe": 16.88511594092054,
     "evEbitda": 5.987419754532706,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -2206,9 +2335,12 @@
     "return1y": -0.001116682551737358,
     "revenueTtm": 6132096000,
     "revenueGrowthTtm": 0.1763928584172354,
+    "epsGrowthTtm": 0.29639175257731964,
     "operatingMargin": 0.2892477547644394,
     "pe": 60.44165008304246,
     "evEbitda": 39.138993554986925,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -2257,9 +2389,12 @@
     "return1y": -0.2848931179610289,
     "revenueTtm": 24781000000,
     "revenueGrowthTtm": 0.2049499173392979,
+    "epsGrowthTtm": 0.06986444212721588,
     "operatingMargin": 0.18546467051370003,
     "pe": 25.447640105807935,
     "evEbitda": 11.345298522444041,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -2308,9 +2443,12 @@
     "return1y": -0.2410337005180826,
     "revenueTtm": 3169396000,
     "revenueGrowthTtm": 0.49089253273297406,
+    "epsGrowthTtm": 7.090909090909092,
     "operatingMargin": 0.13011185727501393,
     "pe": 22.74142604395639,
     "evEbitda": 15.925510307667414,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -2359,9 +2497,12 @@
     "return1y": 0.3596816391152913,
     "revenueTtm": 6020894000,
     "revenueGrowthTtm": 0.32571067467993364,
+    "epsGrowthTtm": 3.571428571428571,
     "operatingMargin": 0.1227314415433987,
     "pe": 57.36613834140676,
     "evEbitda": 43.6549703175429,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -2410,9 +2551,12 @@
     "return1y": 0.26647473351589324,
     "revenueTtm": 21284000000,
     "revenueGrowthTtm": 0.05906354182216256,
+    "epsGrowthTtm": -0.28291316526610644,
     "operatingMargin": 0.148468333020109,
     "pe": 37.918445669751584,
     "evEbitda": 21.957288708914014,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -2461,9 +2605,12 @@
     "return1y": -0.3386556957045379,
     "revenueTtm": 18230200000,
     "revenueGrowthTtm": 0.6159089498923034,
+    "epsGrowthTtm": 0.714285714285714,
     "operatingMargin": 0.0825443494860177,
     "pe": 21.593281489805747,
     "evEbitda": 14.045401325757576,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -2512,9 +2659,12 @@
     "return1y": 0.050223104764227644,
     "revenueTtm": 123005000000,
     "revenueGrowthTtm": -0.00248961982613205,
+    "epsGrowthTtm": -0.47254575707154745,
     "operatingMargin": 0.14717287915125402,
     "pe": 7.7572347203959,
     "evEbitda": 4.994808541410769,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -2563,9 +2713,12 @@
     "return1y": 0.14714809750312985,
     "revenueTtm": 6972300000,
     "revenueGrowthTtm": 0.08989870568373659,
+    "epsGrowthTtm": 0.181201550387597,
     "operatingMargin": 0.6565695681482437,
     "pe": 24.675788462601055,
     "evEbitda": 29.28764467783576,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -2614,9 +2767,12 @@
     "return1y": 0.16223146454958104,
     "revenueTtm": 12713477000,
     "revenueGrowthTtm": 0.07856499312825549,
+    "epsGrowthTtm": -0.053097345132743445,
     "operatingMargin": 0.14118411509298362,
     "pe": 33.2966224327011,
     "evEbitda": 20.561204481400484,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -2665,9 +2821,12 @@
     "return1y": 0.4215796128663929,
     "revenueTtm": 7907127000,
     "revenueGrowthTtm": 0.3083995685842209,
+    "epsGrowthTtm": 5.9,
     "operatingMargin": 0.12515304231233418,
     "pe": 44.2574024212349,
     "evEbitda": 35.636049681329844,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -2716,9 +2875,12 @@
     "return1y": 0.553138662811909,
     "revenueTtm": 60176000000,
     "revenueGrowthTtm": 0.13144683651405464,
+    "epsGrowthTtm": 0.3465346534653466,
     "operatingMargin": 0.29367189577240094,
     "pe": 13.523654429350177,
     "evEbitda": 5.737387933028919,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -2767,9 +2929,12 @@
     "return1y": 0.24631613167046607,
     "revenueTtm": 303154000000,
     "revenueGrowthTtm": 0.10143695387577889,
+    "epsGrowthTtm": 0.14003294892915963,
     "operatingMargin": 0.03854476602650798,
     "pe": 52.7331630782571,
     "evEbitda": 32.82799377115398,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -2818,9 +2983,12 @@
     "return1y": -0.29419849243411356,
     "revenueTtm": 319307000,
     "revenueGrowthTtm": 3.2357396795075877,
+    "epsGrowthTtm": -1.6121372031662267,
     "operatingMargin": 1.0738317669202366,
     "pe": 28.454172702527543,
     "evEbitda": 24.978738255851933,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -2869,9 +3037,12 @@
     "return1y": -0.18820023778826567,
     "revenueTtm": 1591045000,
     "revenueGrowthTtm": 1.6511451590058903,
+    "epsGrowthTtm": 3.2089552238805963,
     "operatingMargin": 0.3173782011193901,
     "pe": 42.75752846434642,
     "evEbitda": 41.0088281550911,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -2920,9 +3091,12 @@
     "return1y": -0.17541203763537705,
     "revenueTtm": 43938000000,
     "revenueGrowthTtm": 0.11229811148802593,
+    "epsGrowthTtm": 0.5921625544267053,
     "operatingMargin": 0.1988028585734444,
     "pe": 15.79730798592424,
     "evEbitda": 14.262352039187801,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -2971,9 +3145,12 @@
     "return1y": 1.5510510510510516,
     "revenueTtm": 42156000,
     "revenueGrowthTtm": 29.28448275862069,
+    "epsGrowthTtm": 0.22926829268292703,
     "operatingMargin": -13.025168422051427,
     "pe": -16.56706,
     "evEbitda": -16.32667,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -3022,9 +3199,12 @@
     "return1y": 0.6492640243148298,
     "revenueTtm": 5396145000,
     "revenueGrowthTtm": 0.24303575451578885,
+    "epsGrowthTtm": -1.2417582417582418,
     "operatingMargin": -0.02214340052018617,
     "pe": 3660.1379557988366,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -3073,9 +3253,12 @@
     "return1y": -0.34334235281202796,
     "revenueTtm": 7589580000,
     "revenueGrowthTtm": 1.1531059349862196,
+    "epsGrowthTtm": -0.10843373493975905,
     "operatingMargin": -0.030402077585320927,
     "pe": null,
     "evEbitda": 5.674754155629091,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -3124,9 +3307,12 @@
     "return1y": 0.29318061131614703,
     "revenueTtm": 63325000000,
     "revenueGrowthTtm": 0.1177498499664631,
+    "epsGrowthTtm": 0.30980392156862724,
     "operatingMargin": 0.24268456375838926,
     "pe": 28.76528271832366,
     "evEbitda": 24.8160322270351,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -3175,9 +3361,12 @@
     "return1y": 0.42695859445461815,
     "revenueTtm": 225779000000,
     "revenueGrowthTtm": 0.20750993427069342,
+    "epsGrowthTtm": 0.9184247538677919,
     "operatingMargin": 0.17208863534695432,
     "pe": 14.912883701067615,
     "evEbitda": 6.186040551987281,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -3226,9 +3415,12 @@
     "return1y": 0.06677607717765177,
     "revenueTtm": 4278164000,
     "revenueGrowthTtm": 0.332059653310359,
+    "epsGrowthTtm": 1.32258064516129,
     "operatingMargin": 0.022636813361993604,
     "pe": 232.90046875178902,
     "evEbitda": 340.29808544381007,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -3277,9 +3469,12 @@
     "return1y": 0.3140675565798472,
     "revenueTtm": 47982000000,
     "revenueGrowthTtm": 0.07987306731483357,
+    "epsGrowthTtm": -0.06054279749478075,
     "operatingMargin": 0.13413363344587553,
     "pe": 35.025851705315,
     "evEbitda": 20.3629297996357,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -3328,9 +3523,12 @@
     "return1y": 1.6602870024694907,
     "revenueTtm": 151197000000,
     "revenueGrowthTtm": 0.4903450927048525,
+    "epsGrowthTtm": 1.5072886297376091,
     "operatingMargin": 0.0942611295197656,
     "pe": 18.715068231323606,
     "evEbitda": 14.128147015324119,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -3379,9 +3577,12 @@
     "return1y": 0.01910770642174664,
     "revenueTtm": 33349900000,
     "revenueGrowthTtm": -0.03544148568486749,
+    "epsGrowthTtm": -0.15650080256821808,
     "operatingMargin": 0.12283395152609153,
     "pe": 12.820109043523587,
     "evEbitda": 8.856394307030675,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -3430,9 +3631,12 @@
     "return1y": 0.19689547266236995,
     "revenueTtm": 98861000000,
     "revenueGrowthTtm": 0.04576082932247316,
+    "epsGrowthTtm": -0.24100156494522684,
     "operatingMargin": 0.1844812413388495,
     "pe": 23.88659557209302,
     "evEbitda": 8.42511557706063,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -3481,9 +3685,12 @@
     "return1y": 0.09746516269652727,
     "revenueTtm": 32518000000,
     "revenueGrowthTtm": 0.05797761582509109,
+    "epsGrowthTtm": 0.08291873963515761,
     "operatingMargin": 0.27701580663017406,
     "pe": 19.64367315664526,
     "evEbitda": 11.183308864359656,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -3532,9 +3739,12 @@
     "return1y": -0.14709801668478284,
     "revenueTtm": 1182296000,
     "revenueGrowthTtm": 0.22610345017116562,
+    "epsGrowthTtm": -0.6159695817490494,
     "operatingMargin": 0.12359172322328757,
     "pe": 47.61949561195853,
     "evEbitda": 35.046944518223405,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -3583,9 +3793,12 @@
     "return1y": -0.35903609277544335,
     "revenueTtm": 6880050000,
     "revenueGrowthTtm": 0.3779159333189668,
+    "epsGrowthTtm": 0.23033707865168518,
     "operatingMargin": 0.06087790059665264,
     "pe": 19.983517646487694,
     "evEbitda": 11.383087504834036,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -3634,9 +3847,12 @@
     "return1y": 0.1504743670333648,
     "revenueTtm": 17372300000,
     "revenueGrowthTtm": 0.09325756431556154,
+    "epsGrowthTtm": 0.056034482758620774,
     "operatingMargin": 0.16707056636139142,
     "pe": 41.19551360829692,
     "evEbitda": 27.096342632768984,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -3685,9 +3901,12 @@
     "return1y": 0.5112982498972038,
     "revenueTtm": 1938986000,
     "revenueGrowthTtm": 0.39934326376259355,
+    "epsGrowthTtm": 0.021126760563380254,
     "operatingMargin": 0.08874432306370443,
     "pe": 73.51128051708218,
     "evEbitda": 25.340292034251572,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -3736,9 +3955,12 @@
     "return1y": 0.40692689417371386,
     "revenueTtm": 29728000000,
     "revenueGrowthTtm": 0.3166216395765977,
+    "epsGrowthTtm": 0.5382323733862959,
     "operatingMargin": 0.35841630785791173,
     "pe": 9.205533333984853,
     "evEbitda": 4.962015735808,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -3787,9 +4009,12 @@
     "return1y": 0.34065201320463845,
     "revenueTtm": 10060000000,
     "revenueGrowthTtm": 0.11062044601457277,
+    "epsGrowthTtm": 0.5317387304507817,
     "operatingMargin": 0.22504970178926442,
     "pe": 60.102628626974486,
     "evEbitda": 26.60309021161639,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -3838,9 +4063,12 @@
     "return1y": 0.17923841476932378,
     "revenueTtm": 1802156000,
     "revenueGrowthTtm": 0.16180880938443654,
+    "epsGrowthTtm": -5.430379746835443,
     "operatingMargin": -0.026418356679443956,
     "pe": 22.97967603024172,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -3889,9 +4117,12 @@
     "return1y": 0.02955263290889265,
     "revenueTtm": 31984000000,
     "revenueGrowthTtm": 0.20091615664776774,
+    "epsGrowthTtm": 0.0009999999999998899,
     "operatingMargin": 0.15370185092546274,
     "pe": 33.49604851268906,
     "evEbitda": 23.779905684744687,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -3940,9 +4171,12 @@
     "return1y": -0.05737259695628283,
     "revenueTtm": 4872871000,
     "revenueGrowthTtm": 0.36779233931803934,
+    "epsGrowthTtm": 0.4510739856801911,
     "operatingMargin": 0.21271094597004517,
     "pe": 14.369076040722495,
     "evEbitda": 7.942901631030538,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -3991,9 +4225,12 @@
     "return1y": 0.23002991449280352,
     "revenueTtm": 25863000000,
     "revenueGrowthTtm": 0.0024807163068336635,
+    "epsGrowthTtm": 0.7073170731707319,
     "operatingMargin": 0.2824111665313382,
     "pe": 17.355393806326035,
     "evEbitda": 8.173942707468436,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -4042,9 +4279,12 @@
     "return1y": -0.586243400208244,
     "revenueTtm": 2534873000,
     "revenueGrowthTtm": 0.27324952068669517,
+    "epsGrowthTtm": 0.3709981167608283,
     "operatingMargin": 0.4993125888358115,
     "pe": 18.522760645630306,
     "evEbitda": 15.950946254401861,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -4093,9 +4333,12 @@
     "return1y": 0.2286775111827235,
     "revenueTtm": 12543357000,
     "revenueGrowthTtm": 0.5070031662625438,
+    "epsGrowthTtm": 0.9614570097416351,
     "operatingMargin": 0.1670205193075506,
     "pe": 24.838507658273226,
     "evEbitda": 17.68304326308208,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -4144,9 +4387,12 @@
     "return1y": -0.7594936768073833,
     "revenueTtm": 2631864000,
     "revenueGrowthTtm": 0.07463066848993116,
+    "epsGrowthTtm": 1.7272727272727275,
     "operatingMargin": -0.03631152673542402,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -4195,9 +4441,12 @@
     "return1y": 0.5841910475007215,
     "revenueTtm": 980096000,
     "revenueGrowthTtm": 0.29076678523876187,
+    "epsGrowthTtm": 3.132075471698113,
     "operatingMargin": 0.1831800150189369,
     "pe": 36.75455763726106,
     "evEbitda": 27.818067114716538,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -4246,9 +4495,12 @@
     "return1y": -0.4156851666143757,
     "revenueTtm": 4924000000,
     "revenueGrowthTtm": 0.26959570957095713,
+    "epsGrowthTtm": null,
     "operatingMargin": 0.08184402924451666,
     "pe": 26.743154526315788,
     "evEbitda": 7.755020868085106,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -4297,9 +4549,12 @@
     "return1y": 0.0984112290150363,
     "revenueTtm": 52576000000,
     "revenueGrowthTtm": 0.2221860616486122,
+    "epsGrowthTtm": 0.1562082777036049,
     "operatingMargin": 0.20265900791235544,
     "pe": 36.468706977479954,
     "evEbitda": 29.69069848662685,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -4348,9 +4603,12 @@
     "return1y": 0.30675082839654166,
     "revenueTtm": 44041000000,
     "revenueGrowthTtm": 0.16909559077274294,
+    "epsGrowthTtm": 5.188925081433225,
     "operatingMargin": 0.06419018641720216,
     "pe": 19.31749609876543,
     "evEbitda": 52.57189603611738,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -4399,9 +4657,12 @@
     "return1y": -0.21512221518415253,
     "revenueTtm": 3139605000,
     "revenueGrowthTtm": 0.13351161309608917,
+    "epsGrowthTtm": 0.30967741935483906,
     "operatingMargin": 0.21649570566998078,
     "pe": 16.398727313157686,
     "evEbitda": 8.627722789871168,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -4450,9 +4711,12 @@
     "return1y": -0.11220516415917947,
     "revenueTtm": 471098000000,
     "revenueGrowthTtm": 0.22211701346643253,
+    "epsGrowthTtm": 0.8914116485686083,
     "operatingMargin": 0.33321304696687315,
     "pe": 14.714576241805052,
     "evEbitda": 17.99826639168302,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -4501,9 +4765,12 @@
     "return1y": 0.06210771182135044,
     "revenueTtm": 69698000000,
     "revenueGrowthTtm": 0.18739991141095103,
+    "epsGrowthTtm": 0.41378609190727933,
     "operatingMargin": 0.40039886366897187,
     "pe": 10.715886874825207,
     "evEbitda": 16.867706292844037,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -4552,9 +4819,12 @@
     "return1y": 0.0571772952536056,
     "revenueTtm": 1055167000,
     "revenueGrowthTtm": 0.22987433955710546,
+    "epsGrowthTtm": 3.571428571428573,
     "operatingMargin": -0.08548788959472765,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -4603,9 +4873,12 @@
     "return1y": 0.05728208702300397,
     "revenueTtm": 169176000000,
     "revenueGrowthTtm": 0.024973644988912636,
+    "epsGrowthTtm": -0.028552005438477246,
     "operatingMargin": 0.12426112450938667,
     "pe": 24.26797342967597,
     "evEbitda": 15.874040072358548,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -4654,9 +4927,12 @@
     "return1y": -0.601376365637432,
     "revenueTtm": 2578112000,
     "revenueGrowthTtm": 0.28038904654394403,
+    "epsGrowthTtm": -1.7974683544303796,
     "operatingMargin": -0.05993610828389147,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -4705,9 +4981,12 @@
     "return1y": 0.14059128736278548,
     "revenueTtm": 33614000000,
     "revenueGrowthTtm": -0.0878897240387485,
+    "epsGrowthTtm": 1.2149631190727077,
     "operatingMargin": 0.32709585291842685,
     "pe": 9.989233261486103,
     "evEbitda": 6.420828538754765,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -4756,9 +5035,12 @@
     "return1y": -0.41402103130142065,
     "revenueTtm": 5082000000,
     "revenueGrowthTtm": 0.20884871550903905,
+    "epsGrowthTtm": -0.09958506224066377,
     "operatingMargin": 0.4734356552538371,
     "pe": 30.577670193548386,
     "evEbitda": 22.989643208316675,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -4807,9 +5089,12 @@
     "return1y": 0.24580943162780233,
     "revenueTtm": 59162000000,
     "revenueGrowthTtm": 0.08135475498528622,
+    "epsGrowthTtm": -0.04744525547445266,
     "operatingMargin": 0.05446063351475609,
     "pe": 10.633112388412894,
     "evEbitda": 7.79016340655106,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -4858,9 +5143,12 @@
     "return1y": 0.08813266119169105,
     "revenueTtm": 9731000000,
     "revenueGrowthTtm": 0.22018808777429477,
+    "epsGrowthTtm": 0.4353932584269662,
     "operatingMargin": 0.28054670640221974,
     "pe": 42.086541654164634,
     "evEbitda": 29.70847086313032,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -4909,9 +5197,12 @@
     "return1y": -0.21284262603399573,
     "revenueTtm": 69868000000,
     "revenueGrowthTtm": 0.06826903964649933,
+    "epsGrowthTtm": 0.4021479713603817,
     "operatingMargin": 0.1503692677620656,
     "pe": 19.71293077575866,
     "evEbitda": 21.586578923487824,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -4960,9 +5251,12 @@
     "return1y": 0.14115957200665963,
     "revenueTtm": 14049000000,
     "revenueGrowthTtm": 0.12140804597701149,
+    "epsGrowthTtm": 0.3351548269581055,
     "operatingMargin": 0.4059363655776212,
     "pe": 23.121055923113886,
     "evEbitda": 16.734145753303963,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -5011,9 +5305,12 @@
     "return1y": -0.5825842614156428,
     "revenueTtm": 50865599,
     "revenueGrowthTtm": 0.667925364653738,
+    "epsGrowthTtm": 1.2121212121212124,
     "operatingMargin": 0.450755273716525,
     "pe": 10.520618874139798,
     "evEbitda": 8.936111975614615,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -5062,9 +5359,12 @@
     "return1y": -0.08657961795534264,
     "revenueTtm": 4662221000,
     "revenueGrowthTtm": 0.11873318950302725,
+    "epsGrowthTtm": 0.17684377478191893,
     "operatingMargin": 0.323044531780025,
     "pe": 45.78595073046572,
     "evEbitda": 32.63285218700781,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -5113,9 +5413,12 @@
     "return1y": -0.27951480396809647,
     "revenueTtm": 1519721000,
     "revenueGrowthTtm": 2.3996559453449717,
+    "epsGrowthTtm": -0.5445705024311183,
     "operatingMargin": -0.3711108815368084,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -5164,9 +5467,12 @@
     "return1y": -0.5335493336394892,
     "revenueTtm": 880936000,
     "revenueGrowthTtm": -0.0019102175110069508,
+    "epsGrowthTtm": 1.285714285714286,
     "operatingMargin": 0.017893467856915826,
     "pe": 15.734703363914374,
     "evEbitda": 32.865949814126395,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -5215,9 +5521,12 @@
     "return1y": 0.6669460274176429,
     "revenueTtm": 59892000000,
     "revenueGrowthTtm": 0.12075450513669783,
+    "epsGrowthTtm": -81.66666666666688,
     "operatingMargin": 0.0294196219862419,
     "pe": null,
     "evEbitda": 23.234321532230545,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -5266,9 +5575,12 @@
     "return1y": -0.5723660659379644,
     "revenueTtm": 21448000000,
     "revenueGrowthTtm": 0.13897297010249066,
+    "epsGrowthTtm": 0.20684632192279673,
     "operatingMargin": 0.2743379336068631,
     "pe": 16.12195108891809,
     "evEbitda": 12.61354450205897,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -5317,9 +5629,12 @@
     "return1y": -0.5008554108129702,
     "revenueTtm": 380439000,
     "revenueGrowthTtm": 3.7652562753644974,
+    "epsGrowthTtm": -1.2625698324022345,
     "operatingMargin": -3.339447322698251,
     "pe": 42.32713600426262,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -5368,9 +5683,12 @@
     "return1y": 0.06863290414132295,
     "revenueTtm": 1847552000,
     "revenueGrowthTtm": 0.29504182919947985,
+    "epsGrowthTtm": -1.9375,
     "operatingMargin": 0.010483060828599141,
     "pe": 250.72236411423017,
     "evEbitda": 455.4094558458975,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -5419,9 +5737,12 @@
     "return1y": -0.6980820821496483,
     "revenueTtm": 666712000,
     "revenueGrowthTtm": 0.46446747895154195,
+    "epsGrowthTtm": -3.344827586206897,
     "operatingMargin": -1.734345564501614,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 11,
     "factorChips": [
       {
         "key": "growth",
@@ -5470,9 +5791,12 @@
     "return1y": -0.2678194038722024,
     "revenueTtm": 11578000000,
     "revenueGrowthTtm": 0.20453599667082822,
+    "epsGrowthTtm": 0.09114927344782031,
     "operatingMargin": 0.2836500259112109,
     "pe": 48.79058465034492,
     "evEbitda": 38.77679225158652,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -5521,9 +5845,12 @@
     "return1y": 0.34013948872811284,
     "revenueTtm": 99335000000,
     "revenueGrowthTtm": 0.07798239807268659,
+    "epsGrowthTtm": -0.3638996138996139,
     "operatingMargin": 0.1785574067549202,
     "pe": 40.39106038297608,
     "evEbitda": 26.231884654793248,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -5572,9 +5899,12 @@
     "return1y": -0.7228221879430441,
     "revenueTtm": 148810000,
     "revenueGrowthTtm": 5.571718777601131,
+    "epsGrowthTtm": -0.4701492537313433,
     "operatingMargin": -6.581116860426047,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -5623,9 +5953,12 @@
     "return1y": 0.08308319456838165,
     "revenueTtm": 203153000000,
     "revenueGrowthTtm": 0.1322951559774157,
+    "epsGrowthTtm": 0.18127786032689475,
     "operatingMargin": 0.4198264362327901,
     "pe": 12.74534799060307,
     "evEbitda": 6.156361980059883,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -5674,9 +6007,12 @@
     "return1y": 0.28977485404657943,
     "revenueTtm": 14505795000,
     "revenueGrowthTtm": 0.15821046369235137,
+    "epsGrowthTtm": 0.16398713826366684,
     "operatingMargin": 0.42193695691963107,
     "pe": 36.1402726065117,
     "evEbitda": 29.812877295597165,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -5725,9 +6061,12 @@
     "return1y": -0.30531274275106945,
     "revenueTtm": 3379383000,
     "revenueGrowthTtm": 0.10866216800085815,
+    "epsGrowthTtm": -0.09578544061302663,
     "operatingMargin": 0.08115475517276378,
     "pe": 21.113634991382895,
     "evEbitda": 8.734796576700571,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -5776,9 +6115,12 @@
     "return1y": 0.048047550531114425,
     "revenueTtm": 1953297000,
     "revenueGrowthTtm": 0.08345614888517505,
+    "epsGrowthTtm": 0.12671905697445962,
     "operatingMargin": 0.3368187223960309,
     "pe": 16.987778946907422,
     "evEbitda": 14.037152705050177,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -5827,9 +6169,12 @@
     "return1y": 0.3559561180276418,
     "revenueTtm": 51054000000,
     "revenueGrowthTtm": 0.07114533285777225,
+    "epsGrowthTtm": 0.1258278145695364,
     "operatingMargin": 0.30040741176009716,
     "pe": 28.195117971153188,
     "evEbitda": 26.620468378576668,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -5878,9 +6223,12 @@
     "return1y": 0.4949974902419798,
     "revenueTtm": 470025000,
     "revenueGrowthTtm": 0.2595668392449433,
+    "epsGrowthTtm": 0.1032934131736527,
     "operatingMargin": 0.48406148609116534,
     "pe": 42.27976067647268,
     "evEbitda": 36.86515557268581,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -5929,9 +6277,12 @@
     "return1y": -0.6154365164582232,
     "revenueTtm": 1646700000,
     "revenueGrowthTtm": 0.2816780821917808,
+    "epsGrowthTtm": -0.07692307692307687,
     "operatingMargin": 0.0038865610007894577,
     "pe": 243.89976436363636,
     "evEbitda": 47.556960576230495,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -5980,9 +6331,12 @@
     "return1y": -0.6525376287582494,
     "revenueTtm": 454500000,
     "revenueGrowthTtm": 0.0008808632459811339,
+    "epsGrowthTtm": -0.4932330827067669,
     "operatingMargin": -0.012541254125412541,
     "pe": 23.48933879265092,
     "evEbitda": 178.6799063414634,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -6031,9 +6385,12 @@
     "return1y": 0.2853862064046786,
     "revenueTtm": 36238000000,
     "revenueGrowthTtm": 0.08160219675262659,
+    "epsGrowthTtm": 0.008707300736771728,
     "operatingMargin": 0.25280092720348807,
     "pe": 33.87274269958613,
     "evEbitda": 20.380778144418784,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -6082,9 +6439,12 @@
     "return1y": 0.8184795280621866,
     "revenueTtm": 3742800000,
     "revenueGrowthTtm": 1.0320321407242523,
+    "epsGrowthTtm": -56.32098765432099,
     "operatingMargin": 0.23455701613765095,
     "pe": null,
     "evEbitda": 49.04386531833741,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -6133,9 +6493,12 @@
     "return1y": 0.28285183941978587,
     "revenueTtm": 86462000000,
     "revenueGrowthTtm": 0.4550723564525059,
+    "epsGrowthTtm": 0.5073385518590996,
     "operatingMargin": 0.4021304156739377,
     "pe": 44.072175849166065,
     "evEbitda": 34.1100779557697,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -6184,9 +6547,12 @@
     "return1y": 0.3001410740310373,
     "revenueTtm": 79116000000,
     "revenueGrowthTtm": 0.07862411212150122,
+    "epsGrowthTtm": 0.5682451253481895,
     "operatingMargin": 0.1177511502098185,
     "pe": 20.276126992783663,
     "evEbitda": 13.324524186875113,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -6235,9 +6601,12 @@
     "return1y": 0.010280237813068638,
     "revenueTtm": 90432000000,
     "revenueGrowthTtm": 0.0815543037565929,
+    "epsGrowthTtm": -0.029532403609515923,
     "operatingMargin": 0.11380927105449398,
     "pe": 19.099315658587987,
     "evEbitda": 12.439146591407965,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -6286,9 +6655,12 @@
     "return1y": 0.4013089509849803,
     "revenueTtm": 26127935000,
     "revenueGrowthTtm": 0.3336166663297908,
+    "epsGrowthTtm": 0.4812362030905075,
     "operatingMargin": 0.36950620093015385,
     "pe": 31.009466455002762,
     "evEbitda": 25.534852914699357,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -6337,9 +6709,12 @@
     "return1y": 0.6496275001392835,
     "revenueTtm": 808803000,
     "revenueGrowthTtm": 0.6343119366160896,
+    "epsGrowthTtm": 0.6000000000000001,
     "operatingMargin": 0.0908441239708557,
     "pe": 359.08514634418935,
     "evEbitda": 539.8045481176924,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -6388,9 +6763,12 @@
     "return1y": 0.08333333333333326,
     "revenueTtm": 481337000,
     "revenueGrowthTtm": 1.1300265071224063,
+    "epsGrowthTtm": -0.7067901234567902,
     "operatingMargin": -0.2801592231638125,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 11,
     "factorChips": [
       {
         "key": "growth",
@@ -6439,9 +6817,12 @@
     "return1y": 0.18911415671969678,
     "revenueTtm": 36288000000,
     "revenueGrowthTtm": 0.1529516426256592,
+    "epsGrowthTtm": 0.22250639386189253,
     "operatingMargin": 0.5860339506172839,
     "pe": 32.64624170208751,
     "evEbitda": 25.221405822287416,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -6490,9 +6871,12 @@
     "return1y": -0.07022399006532765,
     "revenueTtm": 27782000000,
     "revenueGrowthTtm": 0.05775747192080716,
+    "epsGrowthTtm": 0.0784982935153582,
     "operatingMargin": 0.46944064502195665,
     "pe": 21.68591340077821,
     "evEbitda": 17.302812900932917,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -6541,9 +6925,12 @@
     "return1y": -0.3215573433261898,
     "revenueTtm": 1427940000,
     "revenueGrowthTtm": 0.9279812054439405,
+    "epsGrowthTtm": -0.23996265172735753,
     "operatingMargin": -0.10690295110438813,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -6592,9 +6979,12 @@
     "return1y": -0.021895246424791348,
     "revenueTtm": 241606000000,
     "revenueGrowthTtm": 0.275255071071536,
+    "epsGrowthTtm": 0.2973451327433627,
     "operatingMargin": 0.3285514432588595,
     "pe": 20.300730748102964,
     "evEbitda": 14.658002761879194,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -6643,9 +7033,12 @@
     "return1y": -0.025079297115283117,
     "revenueTtm": 5001911000,
     "revenueGrowthTtm": 0.20827920297567593,
+    "epsGrowthTtm": 0.8086021505376344,
     "operatingMargin": 0.21507219940538727,
     "pe": 13.145325571889275,
     "evEbitda": 8.604243716557274,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -6694,9 +7087,12 @@
     "return1y": -0.49054981545202037,
     "revenueTtm": 1231997000,
     "revenueGrowthTtm": 0.2674931455408722,
+    "epsGrowthTtm": 2.612903225806452,
     "operatingMargin": -0.0014188346237856099,
     "pe": 26.341665257448923,
     "evEbitda": 121.29095264161897,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -6745,9 +7141,12 @@
     "return1y": -0.39803522418001136,
     "revenueTtm": 399479000,
     "revenueGrowthTtm": 0.7164027120158802,
+    "epsGrowthTtm": -0.7142857142857143,
     "operatingMargin": -0.2050170346876807,
     "pe": null,
     "evEbitda": 128.00900957804814,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -6796,9 +7195,12 @@
     "return1y": 0.3889235757105196,
     "revenueTtm": 67378000000,
     "revenueGrowthTtm": 0.04892971121662648,
+    "epsGrowthTtm": -0.8705416116248349,
     "operatingMargin": 0.0706758882721363,
     "pe": 136.14628443212393,
     "evEbitda": 46.63666654968754,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -6847,9 +7249,12 @@
     "return1y": 0.08403251738939721,
     "revenueTtm": 80156000000,
     "revenueGrowthTtm": 0.1620516686479747,
+    "epsGrowthTtm": 0.2923076923076924,
     "operatingMargin": 0.3318154598532861,
     "pe": 13.189663089469052,
     "evEbitda": 16.890970125845033,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -6898,9 +7303,12 @@
     "return1y": 0.04764119348563578,
     "revenueTtm": 346445000000,
     "revenueGrowthTtm": 0.1791383605843193,
+    "epsGrowthTtm": 0.3627311522048362,
     "operatingMargin": 0.4710444659325434,
     "pe": 25.6423978257742,
     "evEbitda": 18.007617433473456,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -6949,9 +7357,12 @@
     "return1y": 0.39362536211697874,
     "revenueTtm": 1163974000,
     "revenueGrowthTtm": 0.2836089184140238,
+    "epsGrowthTtm": -4.10891089108911,
     "operatingMargin": 0.18113634840640772,
     "pe": 73.71957596938479,
     "evEbitda": 61.84681620607946,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -7000,9 +7411,12 @@
     "return1y": 2.1639519885218657,
     "revenueTtm": 133188000000,
     "revenueGrowthTtm": 2.563272513243084,
+    "epsGrowthTtm": 8.772368421052633,
     "operatingMargin": 0.7458629906598192,
     "pe": 9.423533655427274,
     "evEbitda": 6.711853138630872,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -7051,9 +7465,12 @@
     "return1y": 0.06420023316558354,
     "revenueTtm": 529800000,
     "revenueGrowthTtm": 4.7901639344262295,
+    "epsGrowthTtm": -1.1447368421052633,
     "operatingMargin": -1.154586636466591,
     "pe": 347.2224876606061,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -7102,9 +7519,12 @@
     "return1y": 0.01866555848079199,
     "revenueTtm": 26000000000,
     "revenueGrowthTtm": 0.08333333333333326,
+    "epsGrowthTtm": 0.4719101123595506,
     "operatingMargin": 0.31661538461538463,
     "pe": 21.521544274715875,
     "evEbitda": 18.376046977730645,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -7153,9 +7573,12 @@
     "return1y": -0.45685708319056895,
     "revenueTtm": 49734633000,
     "revenueGrowthTtm": 0.14651968022987827,
+    "epsGrowthTtm": -1.2980189491817398,
     "operatingMargin": 0.31295837650998654,
     "pe": 16.156507024848487,
     "evEbitda": 15.384225207929934,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -7204,9 +7627,12 @@
     "return1y": -0.43787996646148675,
     "revenueTtm": 15431000000,
     "revenueGrowthTtm": 0.2182047840846293,
+    "epsGrowthTtm": -1.5940170940170941,
     "operatingMargin": 0.096753288834165,
     "pe": 65.88079532733563,
     "evEbitda": 34.69592364057971,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -7255,9 +7681,12 @@
     "return1y": -0.09369808338564445,
     "revenueTtm": 302969000000,
     "revenueGrowthTtm": 0.8337529809100703,
+    "epsGrowthTtm": 1.2471590909090908,
     "operatingMargin": 0.6521426284537362,
     "pe": 20.66301807769638,
     "evEbitda": 19.861204892073175,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -7306,9 +7735,12 @@
     "return1y": 0.08194250184164154,
     "revenueTtm": 5294900000,
     "revenueGrowthTtm": 0.47960096126977025,
+    "epsGrowthTtm": 0.14049586776859524,
     "operatingMargin": 0.17800147311563957,
     "pe": 26.616712194260487,
     "evEbitda": 18.950466134811442,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -7357,9 +7789,12 @@
     "return1y": -0.7680625376890373,
     "revenueTtm": 3071000,
     "revenueGrowthTtm": null,
+    "epsGrowthTtm": 0.714285714285714,
     "operatingMargin": -82.23770758710518,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Limited",
+    "dataQualityScore": 9,
     "factorChips": [
       {
         "key": "growth",
@@ -7408,9 +7843,12 @@
     "return1y": -0.24025498711569426,
     "revenueTtm": 2375293063.4260178,
     "revenueGrowthTtm": 0.48325609251747115,
+    "epsGrowthTtm": null,
     "operatingMargin": 0.1014466340909828,
     "pe": 274.99150275905214,
     "evEbitda": 15.581164454836745,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -7459,9 +7897,12 @@
     "return1y": 0.4442679791255528,
     "revenueTtm": 1120137000,
     "revenueGrowthTtm": 0.0808450402517289,
+    "epsGrowthTtm": -0.34158415841584144,
     "operatingMargin": 0.12017280029139293,
     "pe": 70.69580012820029,
     "evEbitda": 47.890486263982105,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -7510,9 +7951,12 @@
     "return1y": -0.4248002200698381,
     "revenueTtm": 71777000000,
     "revenueGrowthTtm": 0.2161882815412246,
+    "epsGrowthTtm": 0.47685185185185186,
     "operatingMargin": 0.321217102971704,
     "pe": 18.732613493446088,
     "evEbitda": 10.003972641792883,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -7561,9 +8005,12 @@
     "return1y": -0.054343406600181554,
     "revenueTtm": 18988156000,
     "revenueGrowthTtm": 0.0873190538844395,
+    "epsGrowthTtm": 0.1354166666666663,
     "operatingMargin": 0.19771556542931287,
     "pe": 27.706662476905827,
     "evEbitda": 19.197715390364706,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -7612,9 +8059,12 @@
     "return1y": 0.921964184288733,
     "revenueTtm": 11480000000,
     "revenueGrowthTtm": 0.2449842750244009,
+    "epsGrowthTtm": -0.70625,
     "operatingMargin": 0.06054006968641115,
     "pe": 945.1661692247557,
     "evEbitda": 186.36710577548388,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -7663,9 +8113,12 @@
     "return1y": -0.4772661024982414,
     "revenueTtm": 1748365000,
     "revenueGrowthTtm": 0.009259232534310824,
+    "epsGrowthTtm": 0.045454545454545414,
     "operatingMargin": 0.09895473771209101,
     "pe": 15.690966440949369,
     "evEbitda": 23.126958268353725,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -7714,9 +8167,12 @@
     "return1y": 0.0753413943721779,
     "revenueTtm": 1560334000,
     "revenueGrowthTtm": 0.16984280978079136,
+    "epsGrowthTtm": -0.05250596658711215,
     "operatingMargin": 0.12128493002139286,
     "pe": 80.46943604832597,
     "evEbitda": 57.13316921489676,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -7765,9 +8221,12 @@
     "return1y": 0.002688953194951438,
     "revenueTtm": 98241000000,
     "revenueGrowthTtm": 0.06360565576077781,
+    "epsGrowthTtm": 0.5133079847908748,
     "operatingMargin": 0.15322523182785192,
     "pe": 17.535787982378853,
     "evEbitda": 12.381834714529914,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -7816,9 +8275,12 @@
     "return1y": 0.15919762219695976,
     "revenueTtm": 63625000000,
     "revenueGrowthTtm": 0.013378991797403872,
+    "epsGrowthTtm": -0.5930232558139534,
     "operatingMargin": 0.06695481335952849,
     "pe": 38.72452040267791,
     "evEbitda": 19.32382105994981,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -7867,9 +8329,12 @@
     "return1y": 0.18739100801428932,
     "revenueTtm": 87923000000,
     "revenueGrowthTtm": 0.03520421979678101,
+    "epsGrowthTtm": -0.03065693430656946,
     "operatingMargin": 0.2255268814758368,
     "pe": 24.52864118207912,
     "evEbitda": 18.08481286444724,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -7918,9 +8383,12 @@
     "return1y": 0.09003676928492133,
     "revenueTtm": 91735000000,
     "revenueGrowthTtm": 0.0766892407366111,
+    "epsGrowthTtm": 0.08941305540318156,
     "operatingMargin": 0.16016787485692482,
     "pe": 11.450608008260197,
     "evEbitda": 9.26060986506986,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -7969,9 +8437,12 @@
     "return1y": 0.10206906888823153,
     "revenueTtm": 22407000000,
     "revenueGrowthTtm": 0.11867199201198209,
+    "epsGrowthTtm": 0.037419814682822405,
     "operatingMargin": 0.2363547105815147,
     "pe": 31.08175872,
     "evEbitda": 23.436248891404315,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -8020,9 +8491,12 @@
     "return1y": -0.31827353794307967,
     "revenueTtm": 4680444000,
     "revenueGrowthTtm": 0.1537991643145038,
+    "epsGrowthTtm": -0.9122807017543859,
     "operatingMargin": 0.04188106940281734,
     "pe": 54.35056472026423,
     "evEbitda": 39.916007233524,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -8071,9 +8545,12 @@
     "return1y": -0.028596180658311265,
     "revenueTtm": 378278000,
     "revenueGrowthTtm": 0.4412182679229324,
+    "epsGrowthTtm": 2.6999999999999997,
     "operatingMargin": -0.271596550684946,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -8122,9 +8599,12 @@
     "return1y": 0.020710166876514835,
     "revenueTtm": 8948185000,
     "revenueGrowthTtm": 0.06720980973096813,
+    "epsGrowthTtm": -0.007500000000000062,
     "operatingMargin": 0.5241851839227731,
     "pe": 31.806462473364995,
     "evEbitda": 21.022014446222286,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -8173,9 +8653,12 @@
     "return1y": 0.34074282577356296,
     "revenueTtm": 1233314000,
     "revenueGrowthTtm": 0.5844992432826885,
+    "epsGrowthTtm": 0.2449297971918878,
     "operatingMargin": 0.22756086446760518,
     "pe": 19.922416597938618,
     "evEbitda": 17.392515071459343,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -8224,9 +8707,12 @@
     "return1y": -0.01781201472818761,
     "revenueTtm": 7288260000,
     "revenueGrowthTtm": 0.8706250226184069,
+    "epsGrowthTtm": 2.380952380952381,
     "operatingMargin": 0.45638341661795817,
     "pe": 104.6515577831651,
     "evEbitda": 111.29172826193862,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -8275,9 +8761,12 @@
     "return1y": 0.25086478356591724,
     "revenueTtm": 43138000000,
     "revenueGrowthTtm": 0.07866573314662939,
+    "epsGrowthTtm": 0.23869801084990971,
     "operatingMargin": 0.3862487829755668,
     "pe": 26.562204674199272,
     "evEbitda": 17.203913546829085,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -8326,9 +8815,12 @@
     "return1y": -0.6036204373833598,
     "revenueTtm": 3189200000,
     "revenueGrowthTtm": 0.2646020857290139,
+    "epsGrowthTtm": 0.7819767441860466,
     "operatingMargin": 0.1843409005393202,
     "pe": 21.644475223880598,
     "evEbitda": 13.902150239400058,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -8377,9 +8869,12 @@
     "return1y": 0.33604072692670894,
     "revenueTtm": 455927000,
     "revenueGrowthTtm": 0.02329031534059034,
+    "epsGrowthTtm": 1.5161290322580645,
     "operatingMargin": 0.08390158950884681,
     "pe": 54.4831113097899,
     "evEbitda": 33.87432470766225,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -8428,9 +8923,12 @@
     "return1y": 0.6223894032528725,
     "revenueTtm": 1157522000,
     "revenueGrowthTtm": 0.07039406398014414,
+    "epsGrowthTtm": -0.28541666666666665,
     "operatingMargin": 0.19668999811666646,
     "pe": 30.94224035796434,
     "evEbitda": 22.318196961294394,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -8479,9 +8977,12 @@
     "return1y": 0.643238002908386,
     "revenueTtm": 4262150000,
     "revenueGrowthTtm": 0.27213130607351177,
+    "epsGrowthTtm": 0.7804878048780486,
     "operatingMargin": 0.05260490597468414,
     "pe": 88.45865745701482,
     "evEbitda": 58.26666945569051,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -8530,9 +9031,12 @@
     "return1y": -0.07980175192339256,
     "revenueTtm": 34295000000,
     "revenueGrowthTtm": 0.043606597285618554,
+    "epsGrowthTtm": 0.052208835341365445,
     "operatingMargin": 0.16993730864557516,
     "pe": 9.707122271207954,
     "evEbitda": 7.575631451522731,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -8581,9 +9085,12 @@
     "return1y": -0.683686726537549,
     "revenueTtm": 12425000,
     "revenueGrowthTtm": -0.44219977553310885,
+    "epsGrowthTtm": -0.3783783783783784,
     "operatingMargin": -13.72877263581489,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -8632,9 +9139,12 @@
     "return1y": 0.022803992602600687,
     "revenueTtm": 43120000000,
     "revenueGrowthTtm": -0.026284888447294708,
+    "epsGrowthTtm": 1.54,
     "operatingMargin": 0.20076530612244897,
     "pe": 12.985734528216042,
     "evEbitda": 18.11807178147176,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -8683,9 +9193,12 @@
     "return1y": 0.6867487638886343,
     "revenueTtm": 1542178000,
     "revenueGrowthTtm": 0.4244882086865278,
+    "epsGrowthTtm": -0.34536082474226804,
     "operatingMargin": -0.18311634584334624,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Limited",
+    "dataQualityScore": 10,
     "factorChips": [
       {
         "key": "growth",
@@ -8734,9 +9247,12 @@
     "return1y": 0.22583574638687498,
     "revenueTtm": 19134000000,
     "revenueGrowthTtm": 0.09738472126634545,
+    "epsGrowthTtm": 0.13642473118279574,
     "operatingMargin": 0.2755827323089788,
     "pe": 18.05120250318611,
     "evEbitda": 14.829018707744014,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -8785,9 +9301,12 @@
     "return1y": -0.5448205018654848,
     "revenueTtm": 3088880000,
     "revenueGrowthTtm": 0.6217947438997882,
+    "epsGrowthTtm": 1.2580645161290325,
     "operatingMargin": 0.2939712776151874,
     "pe": 17.28251328632968,
     "evEbitda": 15.250564422258766,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -8836,9 +9355,12 @@
     "return1y": 0.19109466332509095,
     "revenueTtm": 431875000,
     "revenueGrowthTtm": 0.45831293242882754,
+    "epsGrowthTtm": -0.6100628930817609,
     "operatingMargin": -0.4623490593342981,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -8887,9 +9409,12 @@
     "return1y": 0.2434823072122998,
     "revenueTtm": 16896200000,
     "revenueGrowthTtm": 0.1858813290472916,
+    "epsGrowthTtm": 0.08347285338435784,
     "operatingMargin": 0.2879049727157586,
     "pe": 20.23346797193507,
     "evEbitda": 14.988880984862574,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -8938,9 +9463,12 @@
     "return1y": -0.6953330688744532,
     "revenueTtm": 13353000,
     "revenueGrowthTtm": 0.6849211356466878,
+    "epsGrowthTtm": 0,
     "operatingMargin": -7.27619261589156,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -8989,9 +9517,12 @@
     "return1y": 0.16914016904904772,
     "revenueTtm": 769146000,
     "revenueGrowthTtm": 0.5252873996307483,
+    "epsGrowthTtm": -0.4,
     "operatingMargin": -0.290574221279185,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -9040,9 +9571,12 @@
     "return1y": -0.18404312339433115,
     "revenueTtm": 796107000,
     "revenueGrowthTtm": 0.17335457664689713,
+    "epsGrowthTtm": 0.15714285714285703,
     "operatingMargin": 0.362975077470742,
     "pe": 30.48514300329487,
     "evEbitda": 24.334575280600387,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -9091,9 +9625,12 @@
     "return1y": -0.3058777904377077,
     "revenueTtm": 3477932000,
     "revenueGrowthTtm": 0.41917598044616367,
+    "epsGrowthTtm": 0.8613138686131385,
     "operatingMargin": 0.08566786239638959,
     "pe": 28.90992317732089,
     "evEbitda": 12.461905302274916,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -9142,9 +9679,12 @@
     "return1y": 0.14097685973653862,
     "revenueTtm": 95987000000,
     "revenueGrowthTtm": 0.11628366748848684,
+    "epsGrowthTtm": 0.2648870636550309,
     "operatingMargin": 0.11771385708481356,
     "pe": 31.27817907318815,
     "evEbitda": 18.158365574891555,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -9193,9 +9733,12 @@
     "return1y": -0.16011552816687225,
     "revenueTtm": 3198757000,
     "revenueGrowthTtm": 0.10076346963327576,
+    "epsGrowthTtm": null,
     "operatingMargin": 0.1585934786543648,
     "pe": 61.69597488109317,
     "evEbitda": 29.586465132440594,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -9244,9 +9787,12 @@
     "return1y": 0.050853800673946514,
     "revenueTtm": 280748000,
     "revenueGrowthTtm": 0.6104030194913213,
+    "epsGrowthTtm": -0.06451612903225812,
     "operatingMargin": -0.6669539943294343,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -9295,9 +9841,12 @@
     "return1y": 0.5648562535503803,
     "revenueTtm": 1098704000,
     "revenueGrowthTtm": 0.21085189132238824,
+    "epsGrowthTtm": -0.23484848484848486,
     "operatingMargin": -0.2946080108928337,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -9346,9 +9895,12 @@
     "return1y": 0.034161938728033636,
     "revenueTtm": 27061000000,
     "revenueGrowthTtm": 0.18098105961420963,
+    "epsGrowthTtm": 0.37002341920374726,
     "operatingMargin": 0.5104763312516167,
     "pe": 14.978516323186772,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -9397,9 +9949,12 @@
     "return1y": -0.13527779819138497,
     "revenueTtm": 14167000000,
     "revenueGrowthTtm": 0.324513836948392,
+    "epsGrowthTtm": 0.2148148148148148,
     "operatingMargin": 0.14604362250299993,
     "pe": 81.26994977234243,
     "evEbitda": 79.88980124749642,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -9448,9 +10003,12 @@
     "return1y": 0.043685295621727516,
     "revenueTtm": 24912100000,
     "revenueGrowthTtm": 0.07030968052381037,
+    "epsGrowthTtm": 0.061463414634146174,
     "operatingMargin": 0.14028524291408592,
     "pe": 31.54881513844774,
     "evEbitda": 25.278929364634493,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -9499,9 +10057,12 @@
     "return1y": 0.5694003444564988,
     "revenueTtm": 682955000,
     "revenueGrowthTtm": 1.4262485523258706,
+    "epsGrowthTtm": -1.3378378378378377,
     "operatingMargin": 0.008745817806444055,
     "pe": 501.0255250765335,
     "evEbitda": 114.8597091089953,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -9550,9 +10111,12 @@
     "return1y": -0.8229689128964408,
     "revenueTtm": 2729000,
     "revenueGrowthTtm": -0.9572893027623445,
+    "epsGrowthTtm": -0.5874125874125874,
     "operatingMargin": -94.93184316599486,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -9601,9 +10165,12 @@
     "return1y": 0.12099666455578029,
     "revenueTtm": 5434647000,
     "revenueGrowthTtm": 0.3204008253830808,
+    "epsGrowthTtm": -0.22946859903381622,
     "operatingMargin": -0.22756823028248202,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -9652,9 +10219,12 @@
     "return1y": 0.05526032444884632,
     "revenueTtm": 9416465000,
     "revenueGrowthTtm": 0.463250997932654,
+    "epsGrowthTtm": -0.5510204081632653,
     "operatingMargin": 0.08520777170626131,
     "pe": 76.00784600565319,
     "evEbitda": 33.769512794337096,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -9703,9 +10273,12 @@
     "return1y": 0.07898457572183615,
     "revenueTtm": 30174000000,
     "revenueGrowthTtm": 0.08333034143539297,
+    "epsGrowthTtm": -0.062350119904076684,
     "operatingMargin": 0.24169815072579043,
     "pe": 25.001001564575645,
     "evEbitda": 13.062877466943373,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -9754,9 +10327,12 @@
     "return1y": -0.522262761502548,
     "revenueTtm": 616767000,
     "revenueGrowthTtm": 0.05507809158868904,
+    "epsGrowthTtm": 0,
     "operatingMargin": 1.4706120787915047,
     "pe": 23.024296402709997,
     "evEbitda": 15.137999536850584,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -9805,9 +10381,12 @@
     "return1y": -0.014859500076197962,
     "revenueTtm": 17214000000,
     "revenueGrowthTtm": 0.18171208896821578,
+    "epsGrowthTtm": 0.2232727272727273,
     "operatingMargin": 0.45149297083769024,
     "pe": 26.278219064580828,
     "evEbitda": 18.225676733620034,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -9856,9 +10435,12 @@
     "return1y": 0.0012992064532122427,
     "revenueTtm": 20188896512.74681,
     "revenueGrowthTtm": 0.237856446223093,
+    "epsGrowthTtm": 1.157179299018066,
     "operatingMargin": 0.1278947980914698,
     "pe": 46.32843197109983,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -9907,9 +10489,12 @@
     "return1y": -0.1859304198510766,
     "revenueTtm": 4313394000,
     "revenueGrowthTtm": 0.9314260843633257,
+    "epsGrowthTtm": 0.7480392156862741,
     "operatingMargin": 0.1817325289551569,
     "pe": 14.789676770312084,
     "evEbitda": 9.499609603061083,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -9958,9 +10543,12 @@
     "return1y": -0.1365873624550129,
     "revenueTtm": 26300000000,
     "revenueGrowthTtm": 0.07870883064681511,
+    "epsGrowthTtm": 0.2339027595269385,
     "operatingMargin": 0.20657794676806085,
     "pe": 33.21983526580182,
     "evEbitda": 18.766240517593644,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -10009,9 +10597,12 @@
     "return1y": -0.36945543097757083,
     "revenueTtm": 2645760000,
     "revenueGrowthTtm": 0.20643985424738642,
+    "epsGrowthTtm": -1.6666666666666667,
     "operatingMargin": -0.00009449080793420416,
     "pe": 2578.8291757826773,
     "evEbitda": 502.1889677069059,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -10060,9 +10651,12 @@
     "return1y": -0.2500657014669784,
     "revenueTtm": 1509350000,
     "revenueGrowthTtm": 0.365608753793232,
+    "epsGrowthTtm": 2.566666666666667,
     "operatingMargin": -0.1847821910093749,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 11,
     "factorChips": [
       {
         "key": "growth",
@@ -10111,9 +10705,12 @@
     "return1y": 0.78387853695072,
     "revenueTtm": 1067486000,
     "revenueGrowthTtm": 0.0953034209826975,
+    "epsGrowthTtm": -1.4642857142857144,
     "operatingMargin": 0.043742962436978096,
     "pe": 303.37078765604207,
     "evEbitda": 57.67830260568907,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -10162,9 +10759,12 @@
     "return1y": -0.05253727630505356,
     "revenueTtm": 62363000000,
     "revenueGrowthTtm": 0.07661631419939585,
+    "epsGrowthTtm": 0.23006833712984043,
     "operatingMargin": 0.1290027740807851,
     "pe": 25.355213534201418,
     "evEbitda": 16.093237987184963,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -10213,9 +10813,12 @@
     "return1y": -0.33863491251254385,
     "revenueTtm": 727650000,
     "revenueGrowthTtm": 0.28479714101074594,
+    "epsGrowthTtm": 0.47580645161290325,
     "operatingMargin": 0.11880299594585308,
     "pe": 22.297032363467704,
     "evEbitda": 24.944562635976666,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -10264,9 +10867,12 @@
     "return1y": 0.17818349830789337,
     "revenueTtm": 47351000000,
     "revenueGrowthTtm": 0.08265502103530276,
+    "epsGrowthTtm": 0.09532062391681118,
     "operatingMargin": 0.1788346603028447,
     "pe": 36.04985513122172,
     "evEbitda": 30.116815281121188,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -10315,9 +10921,12 @@
     "return1y": -0.180696574465399,
     "revenueTtm": 93816000000,
     "revenueGrowthTtm": 0.09282793807587919,
+    "epsGrowthTtm": -0.0009624639076034613,
     "operatingMargin": 0.20661720815212756,
     "pe": 15.59336217892222,
     "evEbitda": 5.228365865437461,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -10366,9 +10975,12 @@
     "return1y": -0.03016721431728364,
     "revenueTtm": 7152000000,
     "revenueGrowthTtm": 0.22089450324342774,
+    "epsGrowthTtm": 1.13953488372093,
     "operatingMargin": 0.07158836689038031,
     "pe": 34.300127418181816,
     "evEbitda": 31.42717096085409,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -10417,9 +11029,12 @@
     "return1y": -0.11149451783948006,
     "revenueTtm": 967846000,
     "revenueGrowthTtm": 0.2530453977563294,
+    "epsGrowthTtm": -4.01418439716312,
     "operatingMargin": 0.7554652289723779,
     "pe": 30.296004820048132,
     "evEbitda": 21.609630380638194,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -10468,9 +11083,12 @@
     "return1y": -0.07736130838875466,
     "revenueTtm": 103570000000,
     "revenueGrowthTtm": 0.0829943638702122,
+    "epsGrowthTtm": -0.37241379310344835,
     "operatingMargin": 0.03346528917640244,
     "pe": 473.471124922312,
     "evEbitda": 162.81196147110333,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -10519,9 +11137,12 @@
     "return1y": 0.0032296209597970638,
     "revenueTtm": 23227100000,
     "revenueGrowthTtm": 0.10335179608007072,
+    "epsGrowthTtm": 0.09083910700538866,
     "operatingMargin": 0.17920876906716723,
     "pe": 28.24585447927199,
     "evEbitda": 20.339055511883398,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -10570,9 +11191,12 @@
     "return1y": 0.845053587341648,
     "revenueTtm": 20766000000,
     "revenueGrowthTtm": 0.20271052936406808,
+    "epsGrowthTtm": 0.40693430656934293,
     "operatingMargin": 0.4076374843494173,
     "pe": 37.407673314775764,
     "evEbitda": 25.50434760807891,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -10621,9 +11245,12 @@
     "return1y": -0.23443663728315167,
     "revenueTtm": 56526000000,
     "revenueGrowthTtm": 0.1394073775448499,
+    "epsGrowthTtm": -0.7802056555269923,
     "operatingMargin": 0.12443831157343524,
     "pe": 37.7559634008658,
     "evEbitda": 17.483072303473023,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -10672,9 +11299,12 @@
     "return1y": -0.5169561555929487,
     "revenueTtm": 37250000,
     "revenueGrowthTtm": -0.44267396801173,
+    "epsGrowthTtm": 0.40000000000000013,
     "operatingMargin": -3.5744161073825502,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 12,
     "factorChips": [
       {
         "key": "growth",
@@ -10723,9 +11353,12 @@
     "return1y": 0.08142597758917147,
     "revenueTtm": 449662000000,
     "revenueGrowthTtm": 0.033328047908925296,
+    "epsGrowthTtm": -0.08559498956158662,
     "operatingMargin": 0.053204406865601274,
     "pe": 18.958402530345,
     "evEbitda": 12.309451293049001,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -10774,9 +11407,12 @@
     "return1y": 0.31393602368939844,
     "revenueTtm": 26363000000,
     "revenueGrowthTtm": 0.07402428094190494,
+    "epsGrowthTtm": 0.09005947323704344,
     "operatingMargin": 0.40075105261161476,
     "pe": 22.53518117301129,
     "evEbitda": 15.148974294131115,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -10825,9 +11461,12 @@
     "return1y": -0.5648385611728541,
     "revenueTtm": 1339534000,
     "revenueGrowthTtm": 0.38563261134689997,
+    "epsGrowthTtm": 1.5652173913043481,
     "operatingMargin": 0.04631386735984305,
     "pe": 25.79552011304468,
     "evEbitda": 37.045614054313205,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -10876,9 +11515,12 @@
     "return1y": 0.29325945704095524,
     "revenueTtm": 3927000000,
     "revenueGrowthTtm": -0.6011983345181273,
+    "epsGrowthTtm": 0.1476596845099558,
     "operatingMargin": 1.0865800865800865,
     "pe": 22.97204582673797,
     "evEbitda": 16.770303429056924,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -10927,9 +11569,12 @@
     "return1y": -0.43249797527308276,
     "revenueTtm": 11519000,
     "revenueGrowthTtm": null,
+    "epsGrowthTtm": 1.024193548387096,
     "operatingMargin": -10.849032034030731,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Limited",
+    "dataQualityScore": 10,
     "factorChips": [
       {
         "key": "growth",
@@ -10978,9 +11623,12 @@
     "return1y": 0.2530239509072951,
     "revenueTtm": 45903000000,
     "revenueGrowthTtm": 0.147575,
+    "epsGrowthTtm": null,
     "operatingMargin": 0.6123782759296778,
     "pe": 32.49908602859088,
     "evEbitda": 26.191560262121776,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -11029,9 +11677,12 @@
     "return1y": -0.20086582064428193,
     "revenueTtm": 0,
     "revenueGrowthTtm": null,
+    "epsGrowthTtm": 1.5518867924528301,
     "operatingMargin": null,
     "pe": null,
     "evEbitda": null,
+    "dataQuality": "Limited",
+    "dataQualityScore": 8,
     "factorChips": [
       {
         "key": "growth",
@@ -11080,9 +11731,12 @@
     "return1y": 0.10442495834656662,
     "revenueTtm": 13116600000,
     "revenueGrowthTtm": 0.3527427987995422,
+    "epsGrowthTtm": 1.0188679245283017,
     "operatingMargin": 0.20140127777015385,
     "pe": 34.20210370257388,
     "evEbitda": 23.248060876723066,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -11131,9 +11785,12 @@
     "return1y": 0.27014145761165986,
     "revenueTtm": 12951600000,
     "revenueGrowthTtm": 0.10477425298337506,
+    "epsGrowthTtm": 0.09289232934553127,
     "operatingMargin": 0.33229871212823126,
     "pe": 34.34195437108579,
     "evEbitda": 28.895108318248884,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -11182,9 +11839,12 @@
     "return1y": -0.28862857377203466,
     "revenueTtm": 18985000000,
     "revenueGrowthTtm": 0.1861177058603023,
+    "epsGrowthTtm": -0.055821371610845216,
     "operatingMargin": 0.18767447985251515,
     "pe": 18.945840338891394,
     "evEbitda": 11.302090436195753,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -11233,9 +11893,12 @@
     "return1y": 0.2079380815744396,
     "revenueTtm": 11443015000,
     "revenueGrowthTtm": 0.4940959588824496,
+    "epsGrowthTtm": 0.5972222222222221,
     "operatingMargin": 0.08770599356900258,
     "pe": 101.12118649181956,
     "evEbitda": 62.72635215405922,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -11284,9 +11947,12 @@
     "return1y": -0.03379037525930739,
     "revenueTtm": 87230000000,
     "revenueGrowthTtm": 0.05369330192667743,
+    "epsGrowthTtm": 0.16611842105263164,
     "operatingMargin": 0.3170010317551301,
     "pe": 10.453944856695108,
     "evEbitda": 7.976876432821036,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -11335,9 +12001,12 @@
     "return1y": -0.39320977542830426,
     "revenueTtm": 730114000,
     "revenueGrowthTtm": 0.06901226975899744,
+    "epsGrowthTtm": -0.30456026058631935,
     "operatingMargin": 0.2774484532552451,
     "pe": 33.74822434122834,
     "evEbitda": 21.793164136646926,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -11386,9 +12055,12 @@
     "return1y": 0.1546813044049793,
     "revenueTtm": 26070000000,
     "revenueGrowthTtm": 0.05188831504196245,
+    "epsGrowthTtm": 0.19999999999999996,
     "operatingMargin": 0.18411967779056387,
     "pe": 31.1618823504886,
     "evEbitda": 15.292221783728115,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -11437,9 +12109,12 @@
     "return1y": 0.13448939754879508,
     "revenueTtm": 15431000000,
     "revenueGrowthTtm": 0.10134894011847839,
+    "epsGrowthTtm": 0.2613065326633164,
     "operatingMargin": 0.30198950165251764,
     "pe": 26.619182901399284,
     "evEbitda": 15.757721872729872,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -11488,9 +12163,12 @@
     "return1y": 0.25572752570445956,
     "revenueTtm": 728466000000,
     "revenueGrowthTtm": 0.06103145518844566,
+    "epsGrowthTtm": 0.03745318352059934,
     "operatingMargin": 0.04431229460263073,
     "pe": 46.568891257111794,
     "evEbitda": 22.52204511835856,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -11539,9 +12217,12 @@
     "return1y": 0.34137949067758067,
     "revenueTtm": 2793600000,
     "revenueGrowthTtm": 0.18684680091766515,
+    "epsGrowthTtm": 0.3766769865841071,
     "operatingMargin": 0.21173396334478808,
     "pe": 26.88470536017897,
     "evEbitda": 17.85081568675436,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",
@@ -11590,9 +12271,12 @@
     "return1y": 0.38878779126363905,
     "revenueTtm": 396627000000,
     "revenueGrowthTtm": 0.1898000935936357,
+    "epsGrowthTtm": 0.4156976744186047,
     "operatingMargin": 0.14032831854614033,
     "pe": 15.75574849805524,
     "evEbitda": 7.731876961651642,
+    "dataQuality": "Moderate",
+    "dataQualityScore": 13,
     "factorChips": [
       {
         "key": "growth",
@@ -11641,9 +12325,12 @@
     "return1y": -0.3347245546283357,
     "revenueTtm": 9494000000,
     "revenueGrowthTtm": 0.008819466581659663,
+    "epsGrowthTtm": 0.00679117147707986,
     "operatingMargin": 0.33094586054350117,
     "pe": 12.956089132828081,
     "evEbitda": 11.045820341342171,
+    "dataQuality": "High",
+    "dataQualityScore": 14,
     "factorChips": [
       {
         "key": "growth",

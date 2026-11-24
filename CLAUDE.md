@@ -293,6 +293,5 @@ The intent is that a new agent can read `CLAUDE.md`, `README.md` and the latest
 commit and start without re-reading the whole repository.
 
 <!-- AUTO_CONTEXT_START -->
-
-_Context snapshot 2026-11-24: 229 US names, 4 database migration(s)._
+_Context snapshot 2026-11-24: 229 US names, 5 database migration(s)._
 <!-- AUTO_CONTEXT_END -->

@@ -40,7 +40,7 @@ export function StockCardStatic({
         aria-label={`${entry.name} (${entry.ticker}) research report`}
         className="group flex h-full flex-col rounded-xl border border-line bg-surface p-4 transition-[border-color,box-shadow] hover:border-line-strong hover:shadow-[0_1px_2px_rgba(16,24,40,0.05)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand"
       >
-        <div className="flex items-start gap-3">
+        <div className="flex min-h-16 items-center gap-3">
           <StockLogoStatic ticker={entry.ticker} size={40} />
           <div className="min-w-0">
             <h3 className="display text-[18px] leading-[1.15] text-ink transition-colors group-hover:text-brand-deep">

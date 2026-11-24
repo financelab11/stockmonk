@@ -10,14 +10,14 @@ export const MP: StockStory = {
     "Revenue: $399.5M trailing twelve months, +71.6% year over year.",
     "Profitability: -20.5% operating margin and -9.9% net margin.",
     "Cash: -$537.3M free cash flow, a -134.5% margin.",
-    "Factor summary: 44/100 average percentile across the factor set."
+    "factor summary: 44/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001801368&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "MP Materials Corp. Generated $399.5M of revenue over the last twelve months, +71.6% versus the prior year. The opportunity is large but early; permits, financing and construction execution determine who captures it.",
-      "The latest reported quarter was Q3 FY26, with $147.7M of revenue and an operating margin of -14.9%. The stock closed at $35.54 on 2026-11-23, giving a market capitalization of $6.3B.",
+      "MP Materials Corp. generated $399.5M of revenue over the last twelve months, +71.6% versus the prior year. The opportunity is large but early; permits, financing and construction execution determine who captures it.",
+      "The latest reported quarter was Q3 FY26, with $147.7M of revenue and an operating margin of -14.9%. The stock closed at $35.54 on Nov 23, 2026, giving a market capitalization of $6.3B.",
       "The shares sit 8% of the way up their 52-week range ($31.90 to $76.80). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "MP is a Nuclear, Metals & Energy business with $399.5M of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -53,7 +53,7 @@ export const MP: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 20.6% a year across the fiscal years in the dataset, and the latest quarter changed +175.7% year over year. Third-party estimates for the current fiscal year point to $467.9M of revenue and -$0.05 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of -20.5% and return on invested capital of -2.2% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of -20.5% and return on invested capital of -2.2% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -79,7 +79,7 @@ export const MP: StockStory = {
   "cash": {
     "paragraphs": [
       "Free cash flow after capex over the trailing period was -$537.3M, a -134.5% margin. The balance sheet carries $401.7M of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

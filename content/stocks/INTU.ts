@@ -10,14 +10,14 @@ export const INTU: StockStory = {
     "Revenue: $21.4B trailing twelve months, +13.9% year over year.",
     "Profitability: 27.4% operating margin and 21.3% net margin.",
     "Cash: $8.7B free cash flow, a 40.4% margin.",
-    "Factor summary: 67/100 average percentile across the factor set."
+    "factor summary: 67/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000896878&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Intuit Inc. Generated $21.4B of revenue over the last twelve months, +13.9% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
-      "The latest reported quarter was Q4 FY26, with $4.4B of revenue and an operating margin of 10.9%. The stock closed at $275.46 on 2026-11-23, giving a market capitalization of $73.6B.",
+      "Intuit Inc. generated $21.4B of revenue over the last twelve months, +13.9% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
+      "The latest reported quarter was Q4 FY26, with $4.4B of revenue and an operating margin of 10.9%. The stock closed at $275.46 on Nov 23, 2026, giving a market capitalization of $73.6B.",
       "The shares sit 5% of the way up their 52-week range ($252.84 to $681.20). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "INTU is a Technology business with $21.4B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -53,7 +53,7 @@ export const INTU: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 17.9% a year across the fiscal years in the dataset, and the latest quarter changed +13.7% year over year. Third-party estimates for the current fiscal year point to $23.2B of revenue and $22.95 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of 27.4% and return on invested capital of 16.7% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of 27.4% and return on invested capital of 16.7% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -79,7 +79,7 @@ export const INTU: StockStory = {
   "cash": {
     "paragraphs": [
       "The cash statement over the trailing period was $8.7B, a 40.4% margin. Net debt is $3B. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

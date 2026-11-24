@@ -10,14 +10,14 @@ export const DIS: StockStory = {
     "Revenue: $98.9B trailing twelve months, +4.6% year over year.",
     "Profitability: 18.4% operating margin and 8.7% net margin.",
     "Cash: $8.3B free cash flow, a 8.4% margin.",
-    "Factor summary: 49/100 average percentile across the factor set."
+    "factor summary: 49/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1744489/000174448925000155/dis-20250927.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001744489&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
       "The Walt Disney Company generated $98.9B of revenue over the last twelve months, +4.6% versus the prior year. The key question is whether audience, content or network scale can be monetised without giving away the margin.",
-      "The latest reported quarter was Q3 FY26, with $25.2B of revenue and an operating margin of 22.0%. The stock closed at $120.27 on 2026-11-23, giving a market capitalization of $205.4B.",
+      "The latest reported quarter was Q3 FY26, with $25.2B of revenue and an operating margin of 22.0%. The stock closed at $120.27 on Nov 23, 2026, giving a market capitalization of $205.4B.",
       "The shares sit 90% of the way up their 52-week range ($92.19 to $123.37). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "DIS is a Communication business with $98.9B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -52,7 +52,7 @@ export const DIS: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 6.8% a year across the fiscal years in the dataset, and the latest quarter changed +6.8% year over year. Third-party estimates for the current fiscal year point to $106.7B of revenue and $7.61 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of 18.4% and return on invested capital of 12.0% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of 18.4% and return on invested capital of 12.0% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -78,7 +78,7 @@ export const DIS: StockStory = {
   "cash": {
     "paragraphs": [
       "The cash statement over the trailing period was $8.3B, a 8.4% margin. The balance sheet carries $5.2B of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

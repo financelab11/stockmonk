@@ -10,14 +10,14 @@ export const ROAD: StockStory = {
     "Revenue: $3.5B trailing twelve months, +41.9% year over year.",
     "Profitability: 8.6% operating margin and 4.1% net margin.",
     "Cash: $175.6M free cash flow, a 5.0% margin.",
-    "Factor summary: 43/100 average percentile across the factor set."
+    "factor summary: 43/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1718227/000162828025053871/road-20250930.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001718227&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Construction Partners, Inc. Generated $3.5B of revenue over the last twelve months, +41.9% versus the prior year. The cycle drives near-term results, so the important question is what the business earns through a full cycle.",
-      "The latest reported quarter was Q3 FY26, with $999.4M of revenue and an operating margin of 10.9%. The stock closed at $71.80 on 2026-11-23, giving a market capitalization of $4.1B.",
+      "Construction Partners, Inc. generated $3.5B of revenue over the last twelve months, +41.9% versus the prior year. The cycle drives near-term results, so the important question is what the business earns through a full cycle.",
+      "The latest reported quarter was Q3 FY26, with $999.4M of revenue and an operating margin of 10.9%. The stock closed at $71.80 on Nov 23, 2026, giving a market capitalization of $4.1B.",
       "The shares sit 3% of the way up their 52-week range ($69.01 to $151.00). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "ROAD is a Industrials & Cyclicals business with $3.5B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -53,7 +53,7 @@ export const ROAD: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 22.5% a year across the fiscal years in the dataset, and the latest quarter changed +28.2% year over year. Third-party estimates for the current fiscal year point to $4.2B of revenue and $3.12 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of 8.6% and return on invested capital of 7.9% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of 8.6% and return on invested capital of 7.9% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -79,7 +79,7 @@ export const ROAD: StockStory = {
   "cash": {
     "paragraphs": [
       "FCF over the trailing period was $175.6M, a 5.0% margin. Net debt is $1.7B. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

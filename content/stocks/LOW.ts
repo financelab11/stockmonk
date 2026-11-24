@@ -10,14 +10,14 @@ export const LOW: StockStory = {
     "Revenue: $90.4B trailing twelve months, +8.2% year over year.",
     "Profitability: 11.4% operating margin and 7.3% net margin.",
     "Cash: $7B free cash flow, a 7.7% margin.",
-    "Factor summary: 43/100 average percentile across the factor set."
+    "factor summary: 43/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/60667/000006066726000029/low-20260130.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000060667&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Lowe's Companies, Inc. Generated $90.4B of revenue over the last twelve months, +8.2% versus the prior year. The business depends on traffic, basket size and the cost of serving the next customer.",
-      "The latest reported quarter was Q2 FY27, with $26B of revenue and an operating margin of 13.7%. The stock closed at $226.14 on 2026-11-23, giving a market capitalization of $126.9B.",
+      "Lowe's Companies, Inc. generated $90.4B of revenue over the last twelve months, +8.2% versus the prior year. The business depends on traffic, basket size and the cost of serving the next customer.",
+      "The latest reported quarter was Q2 FY27, with $26B of revenue and an operating margin of 13.7%. The stock closed at $226.14 on Nov 23, 2026, giving a market capitalization of $126.9B.",
       "The shares sit 42% of the way up their 52-week range ($178.45 to $293.06). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "LOW is a Consumer Discretionary business with $90.4B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -52,7 +52,7 @@ export const LOW: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 2.8% a year across the fiscal years in the dataset, and the latest quarter changed +8.3% year over year. Third-party estimates for the current fiscal year point to $92.4B of revenue and $12.25 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of 11.4% and return on invested capital of 28.1% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of 11.4% and return on invested capital of 28.1% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -78,7 +78,7 @@ export const LOW: StockStory = {
   "cash": {
     "paragraphs": [
       "FCF over the trailing period was $7B, a 7.7% margin. Net debt is $31.8B. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

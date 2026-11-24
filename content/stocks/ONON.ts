@@ -10,14 +10,14 @@ export const ONON: StockStory = {
     "Revenue: $2.4B trailing twelve months, +48.3% year over year.",
     "Profitability: 10.1% operating margin and 1.6% net margin.",
     "Cash: $362M free cash flow, a 9.5% margin.",
-    "Factor summary: 49/100 average percentile across the factor set."
+    "factor summary: 49/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001858985&type=10-K&dateb=&owner=include&count=40",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001858985&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
       "On Holding AG generated $2.4B of revenue over the last twelve months, +48.3% versus the prior year. The model depends on unit growth, brand heat and whether new customers return.",
-      "The latest reported quarter was Q2 FY25, with $945.1M of revenue and an operating margin of 12.4%. The stock closed at $30.99 on 2026-11-23, giving a market capitalization of $10.4B.",
+      "The latest reported quarter was Q2 FY25, with $945.1M of revenue and an operating margin of 12.4%. The stock closed at $30.99 on Nov 23, 2026, giving a market capitalization of $10.4B.",
       "The shares sit 19% of the way up their 52-week range ($26.37 to $51.08). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "ONON is a Consumer & Brands business with $2.4B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -53,7 +53,7 @@ export const ONON: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 54.9% a year across the fiscal years in the dataset, and the latest quarter changed +49.9% year over year. Third-party estimates for the current fiscal year point to $3.5B of revenue and $1.50 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of 10.1% and return on invested capital of 9.3% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of 10.1% and return on invested capital of 9.3% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -79,7 +79,7 @@ export const ONON: StockStory = {
   "cash": {
     "paragraphs": [
       "Cash generation over the trailing period was $362M, a 9.5% margin. The balance sheet carries $440M of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

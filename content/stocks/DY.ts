@@ -10,14 +10,14 @@ export const DY: StockStory = {
     "Revenue: $6.9B trailing twelve months, +37.8% year over year.",
     "Profitability: 6.1% operating margin and 4.8% net margin.",
     "Cash: $468.7M free cash flow, a 6.8% margin.",
-    "Factor summary: 44/100 average percentile across the factor set."
+    "factor summary: 44/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000008/dy-20260131.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000067215&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Dycom Industries, Inc. Generated $6.9B of revenue over the last twelve months, +37.8% versus the prior year. The cycle drives near-term results, so the important question is what the business earns through a full cycle.",
-      "The latest reported quarter was Q2 FY27, with $2B of revenue and an operating margin of 7.7%. The stock closed at $218.37 on 2026-11-23, giving a market capitalization of $6.6B.",
+      "Dycom Industries, Inc. generated $6.9B of revenue over the last twelve months, +37.8% versus the prior year. The cycle drives near-term results, so the important question is what the business earns through a full cycle.",
+      "The latest reported quarter was Q2 FY27, with $2B of revenue and an operating margin of 7.7%. The stock closed at $218.37 on Nov 23, 2026, giving a market capitalization of $6.6B.",
       "The shares sit 8% of the way up their 52-week range ($186.25 to $566.47). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "DY is a Industrials & Cyclicals business with $6.9B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -53,7 +53,7 @@ export const DY: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 8.5% a year across the fiscal years in the dataset, and the latest quarter changed +45.6% year over year. Third-party estimates for the current fiscal year point to $7.6B of revenue and $16.72 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of 6.1% and return on invested capital of 6.7% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of 6.1% and return on invested capital of 6.7% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -79,7 +79,7 @@ export const DY: StockStory = {
   "cash": {
     "paragraphs": [
       "Free cash flow after capex over the trailing period was $468.7M, a 6.8% margin. Net debt is $2.5B. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

@@ -10,14 +10,14 @@ export const HIMS: StockStory = {
     "Revenue: $2.6B trailing twelve months, +28.0% year over year.",
     "Profitability: -6.0% operating margin and -5.5% net margin.",
     "Cash: $61.6M free cash flow, a 2.4% margin.",
-    "Factor summary: 45/100 average percentile across the factor set."
+    "factor summary: 45/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000022/hims-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001773751&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Hims & Hers Health, Inc. Generated $2.6B of revenue over the last twelve months, +28.0% versus the prior year. The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue.",
-      "The latest reported quarter was Q2 FY26, with $753.2M of revenue and an operating margin of -12.9%. The stock closed at $15.06 on 2026-11-23, giving a market capitalization of $3.5B.",
+      "Hims & Hers Health, Inc. generated $2.6B of revenue over the last twelve months, +28.0% versus the prior year. The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue.",
+      "The latest reported quarter was Q2 FY26, with $753.2M of revenue and an operating margin of -12.9%. The stock closed at $15.06 on Nov 23, 2026, giving a market capitalization of $3.5B.",
       "The shares sit 5% of the way up their 52-week range ($13.74 to $40.99). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "HIMS is a Healthcare Growth business with $2.6B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -53,7 +53,7 @@ export const HIMS: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 74.7% a year across the fiscal years in the dataset, and the latest quarter changed +38.2% year over year. Third-party estimates for the current fiscal year point to $3.1B of revenue and -$0.91 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of -6.0% and return on invested capital of -7.2% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of -6.0% and return on invested capital of -7.2% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -79,7 +79,7 @@ export const HIMS: StockStory = {
   "cash": {
     "paragraphs": [
       "FCF over the trailing period was $61.6M, a 2.4% margin. Net debt is $524.3M. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

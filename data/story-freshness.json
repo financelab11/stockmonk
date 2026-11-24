@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T20:13:30.484Z",
+  "generatedAt": "2026-11-24T20:15:14.904Z",
   "total": 229,
   "counts": {
     "current": 226,
@@ -30,7 +30,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.437Z"
+      "checkedAt": "2026-11-24T20:15:13.438Z"
     },
     "MSFT": {
       "ticker": "MSFT",
@@ -54,7 +54,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.458Z"
+      "checkedAt": "2026-11-24T20:15:13.448Z"
     },
     "AAPL": {
       "ticker": "AAPL",
@@ -78,7 +78,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.473Z"
+      "checkedAt": "2026-11-24T20:15:13.453Z"
     },
     "GOOGL": {
       "ticker": "GOOGL",
@@ -102,7 +102,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.498Z"
+      "checkedAt": "2026-11-24T20:15:13.464Z"
     },
     "AMZN": {
       "ticker": "AMZN",
@@ -126,7 +126,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.523Z"
+      "checkedAt": "2026-11-24T20:15:13.472Z"
     },
     "META": {
       "ticker": "META",
@@ -150,7 +150,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.543Z"
+      "checkedAt": "2026-11-24T20:15:13.485Z"
     },
     "AVGO": {
       "ticker": "AVGO",
@@ -174,7 +174,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.569Z"
+      "checkedAt": "2026-11-24T20:15:13.495Z"
     },
     "TSLA": {
       "ticker": "TSLA",
@@ -198,7 +198,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.589Z"
+      "checkedAt": "2026-11-24T20:15:13.500Z"
     },
     "LLY": {
       "ticker": "LLY",
@@ -222,7 +222,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.604Z"
+      "checkedAt": "2026-11-24T20:15:13.511Z"
     },
     "JPM": {
       "ticker": "JPM",
@@ -246,7 +246,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.622Z"
+      "checkedAt": "2026-11-24T20:15:13.516Z"
     },
     "ORCL": {
       "ticker": "ORCL",
@@ -270,7 +270,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.629Z"
+      "checkedAt": "2026-11-24T20:15:13.521Z"
     },
     "AMD": {
       "ticker": "AMD",
@@ -294,7 +294,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.654Z"
+      "checkedAt": "2026-11-24T20:15:13.531Z"
     },
     "MU": {
       "ticker": "MU",
@@ -318,7 +318,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.666Z"
+      "checkedAt": "2026-11-24T20:15:13.536Z"
     },
     "AMAT": {
       "ticker": "AMAT",
@@ -342,7 +342,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.690Z"
+      "checkedAt": "2026-11-24T20:15:13.545Z"
     },
     "LRCX": {
       "ticker": "LRCX",
@@ -366,7 +366,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.708Z"
+      "checkedAt": "2026-11-24T20:15:13.550Z"
     },
     "KLAC": {
       "ticker": "KLAC",
@@ -390,7 +390,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.726Z"
+      "checkedAt": "2026-11-24T20:15:13.555Z"
     },
     "ANET": {
       "ticker": "ANET",
@@ -414,7 +414,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.735Z"
+      "checkedAt": "2026-11-24T20:15:13.565Z"
     },
     "CDNS": {
       "ticker": "CDNS",
@@ -438,7 +438,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.744Z"
+      "checkedAt": "2026-11-24T20:15:13.570Z"
     },
     "SNPS": {
       "ticker": "SNPS",
@@ -462,7 +462,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.759Z"
+      "checkedAt": "2026-11-24T20:15:13.581Z"
     },
     "NOW": {
       "ticker": "NOW",
@@ -486,7 +486,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.778Z"
+      "checkedAt": "2026-11-24T20:15:13.587Z"
     },
     "PANW": {
       "ticker": "PANW",
@@ -510,7 +510,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.795Z"
+      "checkedAt": "2026-11-24T20:15:13.596Z"
     },
     "CRWD": {
       "ticker": "CRWD",
@@ -534,7 +534,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.812Z"
+      "checkedAt": "2026-11-24T20:15:13.601Z"
     },
     "INTU": {
       "ticker": "INTU",
@@ -558,7 +558,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.835Z"
+      "checkedAt": "2026-11-24T20:15:13.605Z"
     },
     "APH": {
       "ticker": "APH",
@@ -582,7 +582,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.844Z"
+      "checkedAt": "2026-11-24T20:15:13.615Z"
     },
     "PLTR": {
       "ticker": "PLTR",
@@ -606,7 +606,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.855Z"
+      "checkedAt": "2026-11-24T20:15:13.619Z"
     },
     "ADI": {
       "ticker": "ADI",
@@ -630,7 +630,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.862Z"
+      "checkedAt": "2026-11-24T20:15:13.629Z"
     },
     "FICO": {
       "ticker": "FICO",
@@ -654,7 +654,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.873Z"
+      "checkedAt": "2026-11-24T20:15:13.636Z"
     },
     "ADBE": {
       "ticker": "ADBE",
@@ -678,7 +678,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.890Z"
+      "checkedAt": "2026-11-24T20:15:13.646Z"
     },
     "CRM": {
       "ticker": "CRM",
@@ -702,7 +702,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.898Z"
+      "checkedAt": "2026-11-24T20:15:13.650Z"
     },
     "CSCO": {
       "ticker": "CSCO",
@@ -726,7 +726,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.908Z"
+      "checkedAt": "2026-11-24T20:15:13.655Z"
     },
     "DELL": {
       "ticker": "DELL",
@@ -750,7 +750,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.922Z"
+      "checkedAt": "2026-11-24T20:15:13.665Z"
     },
     "HPQ": {
       "ticker": "HPQ",
@@ -774,7 +774,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.928Z"
+      "checkedAt": "2026-11-24T20:15:13.670Z"
     },
     "IBM": {
       "ticker": "IBM",
@@ -798,7 +798,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.939Z"
+      "checkedAt": "2026-11-24T20:15:13.679Z"
     },
     "INTC": {
       "ticker": "INTC",
@@ -822,7 +822,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.956Z"
+      "checkedAt": "2026-11-24T20:15:13.684Z"
     },
     "QCOM": {
       "ticker": "QCOM",
@@ -846,7 +846,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.973Z"
+      "checkedAt": "2026-11-24T20:15:13.688Z"
     },
     "TXN": {
       "ticker": "TXN",
@@ -870,7 +870,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:26.987Z"
+      "checkedAt": "2026-11-24T20:15:13.697Z"
     },
     "DDOG": {
       "ticker": "DDOG",
@@ -894,7 +894,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.005Z"
+      "checkedAt": "2026-11-24T20:15:13.702Z"
     },
     "SNOW": {
       "ticker": "SNOW",
@@ -918,7 +918,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.023Z"
+      "checkedAt": "2026-11-24T20:15:13.706Z"
     },
     "NFLX": {
       "ticker": "NFLX",
@@ -942,7 +942,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.040Z"
+      "checkedAt": "2026-11-24T20:15:13.715Z"
     },
     "TMUS": {
       "ticker": "TMUS",
@@ -966,7 +966,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.056Z"
+      "checkedAt": "2026-11-24T20:15:13.719Z"
     },
     "DIS": {
       "ticker": "DIS",
@@ -990,7 +990,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.075Z"
+      "checkedAt": "2026-11-24T20:15:13.728Z"
     },
     "CMCSA": {
       "ticker": "CMCSA",
@@ -1014,7 +1014,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.096Z"
+      "checkedAt": "2026-11-24T20:15:13.733Z"
     },
     "SPOT": {
       "ticker": "SPOT",
@@ -1035,7 +1035,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.121Z"
+      "checkedAt": "2026-11-24T20:15:13.736Z"
     },
     "PINS": {
       "ticker": "PINS",
@@ -1059,7 +1059,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.147Z"
+      "checkedAt": "2026-11-24T20:15:13.745Z"
     },
     "HD": {
       "ticker": "HD",
@@ -1083,7 +1083,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.161Z"
+      "checkedAt": "2026-11-24T20:15:13.749Z"
     },
     "LOW": {
       "ticker": "LOW",
@@ -1107,7 +1107,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.189Z"
+      "checkedAt": "2026-11-24T20:15:13.754Z"
     },
     "MCD": {
       "ticker": "MCD",
@@ -1131,7 +1131,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.207Z"
+      "checkedAt": "2026-11-24T20:15:13.764Z"
     },
     "BKNG": {
       "ticker": "BKNG",
@@ -1155,7 +1155,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.215Z"
+      "checkedAt": "2026-11-24T20:15:13.769Z"
     },
     "TJX": {
       "ticker": "TJX",
@@ -1179,7 +1179,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.225Z"
+      "checkedAt": "2026-11-24T20:15:13.779Z"
     },
     "ORLY": {
       "ticker": "ORLY",
@@ -1203,7 +1203,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.240Z"
+      "checkedAt": "2026-11-24T20:15:13.783Z"
     },
     "RCL": {
       "ticker": "RCL",
@@ -1227,7 +1227,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.248Z"
+      "checkedAt": "2026-11-24T20:15:13.788Z"
     },
     "CMG": {
       "ticker": "CMG",
@@ -1251,7 +1251,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.257Z"
+      "checkedAt": "2026-11-24T20:15:13.797Z"
     },
     "DHI": {
       "ticker": "DHI",
@@ -1275,7 +1275,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.278Z"
+      "checkedAt": "2026-11-24T20:15:13.801Z"
     },
     "ABNB": {
       "ticker": "ABNB",
@@ -1299,7 +1299,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.299Z"
+      "checkedAt": "2026-11-24T20:15:13.805Z"
     },
     "UBER": {
       "ticker": "UBER",
@@ -1323,7 +1323,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.325Z"
+      "checkedAt": "2026-11-24T20:15:13.814Z"
     },
     "SHOP": {
       "ticker": "SHOP",
@@ -1347,7 +1347,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.341Z"
+      "checkedAt": "2026-11-24T20:15:13.818Z"
     },
     "COST": {
       "ticker": "COST",
@@ -1371,7 +1371,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.357Z"
+      "checkedAt": "2026-11-24T20:15:13.823Z"
     },
     "WMT": {
       "ticker": "WMT",
@@ -1395,7 +1395,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.379Z"
+      "checkedAt": "2026-11-24T20:15:13.832Z"
     },
     "PG": {
       "ticker": "PG",
@@ -1419,7 +1419,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.400Z"
+      "checkedAt": "2026-11-24T20:15:13.837Z"
     },
     "KO": {
       "ticker": "KO",
@@ -1443,7 +1443,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.410Z"
+      "checkedAt": "2026-11-24T20:15:13.847Z"
     },
     "PM": {
       "ticker": "PM",
@@ -1467,7 +1467,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.427Z"
+      "checkedAt": "2026-11-24T20:15:13.851Z"
     },
     "CL": {
       "ticker": "CL",
@@ -1491,7 +1491,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.441Z"
+      "checkedAt": "2026-11-24T20:15:13.855Z"
     },
     "PEP": {
       "ticker": "PEP",
@@ -1515,7 +1515,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.457Z"
+      "checkedAt": "2026-11-24T20:15:13.865Z"
     },
     "JNJ": {
       "ticker": "JNJ",
@@ -1539,7 +1539,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.474Z"
+      "checkedAt": "2026-11-24T20:15:13.869Z"
     },
     "ABBV": {
       "ticker": "ABBV",
@@ -1563,7 +1563,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.491Z"
+      "checkedAt": "2026-11-24T20:15:13.878Z"
     },
     "ISRG": {
       "ticker": "ISRG",
@@ -1587,7 +1587,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.509Z"
+      "checkedAt": "2026-11-24T20:15:13.883Z"
     },
     "TMO": {
       "ticker": "TMO",
@@ -1611,7 +1611,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.523Z"
+      "checkedAt": "2026-11-24T20:15:13.887Z"
     },
     "VRTX": {
       "ticker": "VRTX",
@@ -1632,7 +1632,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.549Z"
+      "checkedAt": "2026-11-24T20:15:13.896Z"
     },
     "ABT": {
       "ticker": "ABT",
@@ -1656,7 +1656,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.558Z"
+      "checkedAt": "2026-11-24T20:15:13.900Z"
     },
     "BSX": {
       "ticker": "BSX",
@@ -1680,7 +1680,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.566Z"
+      "checkedAt": "2026-11-24T20:15:13.905Z"
     },
     "SYK": {
       "ticker": "SYK",
@@ -1704,7 +1704,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.590Z"
+      "checkedAt": "2026-11-24T20:15:13.914Z"
     },
     "MRK": {
       "ticker": "MRK",
@@ -1728,7 +1728,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.607Z"
+      "checkedAt": "2026-11-24T20:15:13.918Z"
     },
     "REGN": {
       "ticker": "REGN",
@@ -1752,7 +1752,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.631Z"
+      "checkedAt": "2026-11-24T20:15:13.922Z"
     },
     "ZTS": {
       "ticker": "ZTS",
@@ -1776,7 +1776,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.648Z"
+      "checkedAt": "2026-11-24T20:15:13.932Z"
     },
     "IDXX": {
       "ticker": "IDXX",
@@ -1800,7 +1800,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.665Z"
+      "checkedAt": "2026-11-24T20:15:13.936Z"
     },
     "PFE": {
       "ticker": "PFE",
@@ -1824,7 +1824,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.690Z"
+      "checkedAt": "2026-11-24T20:15:13.945Z"
     },
     "UNH": {
       "ticker": "UNH",
@@ -1848,7 +1848,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.712Z"
+      "checkedAt": "2026-11-24T20:15:13.950Z"
     },
     "BAC": {
       "ticker": "BAC",
@@ -1872,7 +1872,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.743Z"
+      "checkedAt": "2026-11-24T20:15:13.954Z"
     },
     "GS": {
       "ticker": "GS",
@@ -1896,7 +1896,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.764Z"
+      "checkedAt": "2026-11-24T20:15:13.963Z"
     },
     "MS": {
       "ticker": "MS",
@@ -1920,7 +1920,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.788Z"
+      "checkedAt": "2026-11-24T20:15:13.968Z"
     },
     "V": {
       "ticker": "V",
@@ -1944,7 +1944,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.812Z"
+      "checkedAt": "2026-11-24T20:15:13.972Z"
     },
     "MA": {
       "ticker": "MA",
@@ -1968,7 +1968,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.830Z"
+      "checkedAt": "2026-11-24T20:15:13.981Z"
     },
     "BRK.B": {
       "ticker": "BRK.B",
@@ -1992,7 +1992,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.840Z"
+      "checkedAt": "2026-11-24T20:15:13.986Z"
     },
     "SPGI": {
       "ticker": "SPGI",
@@ -2016,7 +2016,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.857Z"
+      "checkedAt": "2026-11-24T20:15:13.994Z"
     },
     "BLK": {
       "ticker": "BLK",
@@ -2040,7 +2040,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.874Z"
+      "checkedAt": "2026-11-24T20:15:13.999Z"
     },
     "AXP": {
       "ticker": "AXP",
@@ -2064,7 +2064,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.894Z"
+      "checkedAt": "2026-11-24T20:15:14.004Z"
     },
     "SCHW": {
       "ticker": "SCHW",
@@ -2088,7 +2088,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.915Z"
+      "checkedAt": "2026-11-24T20:15:14.013Z"
     },
     "CB": {
       "ticker": "CB",
@@ -2112,7 +2112,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.966Z"
+      "checkedAt": "2026-11-24T20:15:14.017Z"
     },
     "PGR": {
       "ticker": "PGR",
@@ -2136,7 +2136,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:27.975Z"
+      "checkedAt": "2026-11-24T20:15:14.022Z"
     },
     "ICE": {
       "ticker": "ICE",
@@ -2160,7 +2160,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.005Z"
+      "checkedAt": "2026-11-24T20:15:14.032Z"
     },
     "CME": {
       "ticker": "CME",
@@ -2184,7 +2184,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.013Z"
+      "checkedAt": "2026-11-24T20:15:14.036Z"
     },
     "AIG": {
       "ticker": "AIG",
@@ -2208,7 +2208,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.024Z"
+      "checkedAt": "2026-11-24T20:15:14.045Z"
     },
     "C": {
       "ticker": "C",
@@ -2232,7 +2232,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.032Z"
+      "checkedAt": "2026-11-24T20:15:14.050Z"
     },
     "WFC": {
       "ticker": "WFC",
@@ -2256,7 +2256,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.041Z"
+      "checkedAt": "2026-11-24T20:15:14.054Z"
     },
     "GE": {
       "ticker": "GE",
@@ -2280,7 +2280,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.048Z"
+      "checkedAt": "2026-11-24T20:15:14.063Z"
     },
     "GEV": {
       "ticker": "GEV",
@@ -2304,7 +2304,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.072Z"
+      "checkedAt": "2026-11-24T20:15:14.067Z"
     },
     "CAT": {
       "ticker": "CAT",
@@ -2328,7 +2328,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.078Z"
+      "checkedAt": "2026-11-24T20:15:14.071Z"
     },
     "RTX": {
       "ticker": "RTX",
@@ -2352,7 +2352,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.091Z"
+      "checkedAt": "2026-11-24T20:15:14.080Z"
     },
     "ETN": {
       "ticker": "ETN",
@@ -2376,7 +2376,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.109Z"
+      "checkedAt": "2026-11-24T20:15:14.085Z"
     },
     "VRT": {
       "ticker": "VRT",
@@ -2400,7 +2400,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.132Z"
+      "checkedAt": "2026-11-24T20:15:14.095Z"
     },
     "PH": {
       "ticker": "PH",
@@ -2424,7 +2424,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.143Z"
+      "checkedAt": "2026-11-24T20:15:14.101Z"
     },
     "URI": {
       "ticker": "URI",
@@ -2448,7 +2448,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.191Z"
+      "checkedAt": "2026-11-24T20:15:14.105Z"
     },
     "UNP": {
       "ticker": "UNP",
@@ -2472,7 +2472,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.224Z"
+      "checkedAt": "2026-11-24T20:15:14.115Z"
     },
     "WM": {
       "ticker": "WM",
@@ -2496,7 +2496,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.241Z"
+      "checkedAt": "2026-11-24T20:15:14.119Z"
     },
     "TT": {
       "ticker": "TT",
@@ -2520,7 +2520,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.259Z"
+      "checkedAt": "2026-11-24T20:15:14.128Z"
     },
     "HWM": {
       "ticker": "HWM",
@@ -2544,7 +2544,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.276Z"
+      "checkedAt": "2026-11-24T20:15:14.133Z"
     },
     "AXON": {
       "ticker": "AXON",
@@ -2568,7 +2568,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.289Z"
+      "checkedAt": "2026-11-24T20:15:14.137Z"
     },
     "BA": {
       "ticker": "BA",
@@ -2592,7 +2592,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.297Z"
+      "checkedAt": "2026-11-24T20:15:14.146Z"
     },
     "DE": {
       "ticker": "DE",
@@ -2616,7 +2616,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.324Z"
+      "checkedAt": "2026-11-24T20:15:14.151Z"
     },
     "HON": {
       "ticker": "HON",
@@ -2640,7 +2640,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.346Z"
+      "checkedAt": "2026-11-24T20:15:14.156Z"
     },
     "LMT": {
       "ticker": "LMT",
@@ -2664,7 +2664,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.365Z"
+      "checkedAt": "2026-11-24T20:15:14.165Z"
     },
     "XOM": {
       "ticker": "XOM",
@@ -2688,7 +2688,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.387Z"
+      "checkedAt": "2026-11-24T20:15:14.169Z"
     },
     "CVX": {
       "ticker": "CVX",
@@ -2712,7 +2712,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.395Z"
+      "checkedAt": "2026-11-24T20:15:14.178Z"
     },
     "COP": {
       "ticker": "COP",
@@ -2736,7 +2736,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.408Z"
+      "checkedAt": "2026-11-24T20:15:14.183Z"
     },
     "EOG": {
       "ticker": "EOG",
@@ -2760,7 +2760,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.428Z"
+      "checkedAt": "2026-11-24T20:15:14.188Z"
     },
     "WMB": {
       "ticker": "WMB",
@@ -2784,7 +2784,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.444Z"
+      "checkedAt": "2026-11-24T20:15:14.197Z"
     },
     "NEE": {
       "ticker": "NEE",
@@ -2808,7 +2808,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.460Z"
+      "checkedAt": "2026-11-24T20:15:14.201Z"
     },
     "CEG": {
       "ticker": "CEG",
@@ -2832,7 +2832,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.482Z"
+      "checkedAt": "2026-11-24T20:15:14.205Z"
     },
     "VST": {
       "ticker": "VST",
@@ -2856,7 +2856,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.492Z"
+      "checkedAt": "2026-11-24T20:15:14.215Z"
     },
     "SO": {
       "ticker": "SO",
@@ -2880,7 +2880,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.509Z"
+      "checkedAt": "2026-11-24T20:15:14.220Z"
     },
     "DUK": {
       "ticker": "DUK",
@@ -2904,7 +2904,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.516Z"
+      "checkedAt": "2026-11-24T20:15:14.230Z"
     },
     "LIN": {
       "ticker": "LIN",
@@ -2928,7 +2928,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.540Z"
+      "checkedAt": "2026-11-24T20:15:14.235Z"
     },
     "SHW": {
       "ticker": "SHW",
@@ -2952,7 +2952,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.559Z"
+      "checkedAt": "2026-11-24T20:15:14.239Z"
     },
     "FCX": {
       "ticker": "FCX",
@@ -2976,7 +2976,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.579Z"
+      "checkedAt": "2026-11-24T20:15:14.248Z"
     },
     "ECL": {
       "ticker": "ECL",
@@ -3000,7 +3000,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.597Z"
+      "checkedAt": "2026-11-24T20:15:14.253Z"
     },
     "PLD": {
       "ticker": "PLD",
@@ -3024,7 +3024,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.607Z"
+      "checkedAt": "2026-11-24T20:15:14.261Z"
     },
     "EQIX": {
       "ticker": "EQIX",
@@ -3048,7 +3048,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.624Z"
+      "checkedAt": "2026-11-24T20:15:14.266Z"
     },
     "WELL": {
       "ticker": "WELL",
@@ -3072,7 +3072,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.646Z"
+      "checkedAt": "2026-11-24T20:15:14.271Z"
     },
     "CRDO": {
       "ticker": "CRDO",
@@ -3096,7 +3096,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.660Z"
+      "checkedAt": "2026-11-24T20:15:14.281Z"
     },
     "ALAB": {
       "ticker": "ALAB",
@@ -3120,7 +3120,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.684Z"
+      "checkedAt": "2026-11-24T20:15:14.285Z"
     },
     "CLS": {
       "ticker": "CLS",
@@ -3144,7 +3144,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.699Z"
+      "checkedAt": "2026-11-24T20:15:14.289Z"
     },
     "CIEN": {
       "ticker": "CIEN",
@@ -3168,7 +3168,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.708Z"
+      "checkedAt": "2026-11-24T20:15:14.300Z"
     },
     "LITE": {
       "ticker": "LITE",
@@ -3192,7 +3192,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.725Z"
+      "checkedAt": "2026-11-24T20:15:14.305Z"
     },
     "COHR": {
       "ticker": "COHR",
@@ -3216,7 +3216,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.742Z"
+      "checkedAt": "2026-11-24T20:15:14.314Z"
     },
     "POWL": {
       "ticker": "POWL",
@@ -3240,7 +3240,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.755Z"
+      "checkedAt": "2026-11-24T20:15:14.318Z"
     },
     "NVT": {
       "ticker": "NVT",
@@ -3264,7 +3264,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.776Z"
+      "checkedAt": "2026-11-24T20:15:14.323Z"
     },
     "FIX": {
       "ticker": "FIX",
@@ -3288,7 +3288,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.792Z"
+      "checkedAt": "2026-11-24T20:15:14.332Z"
     },
     "STRL": {
       "ticker": "STRL",
@@ -3312,7 +3312,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.808Z"
+      "checkedAt": "2026-11-24T20:15:14.336Z"
     },
     "BE": {
       "ticker": "BE",
@@ -3336,7 +3336,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.826Z"
+      "checkedAt": "2026-11-24T20:15:14.347Z"
     },
     "NBIS": {
       "ticker": "NBIS",
@@ -3357,7 +3357,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.855Z"
+      "checkedAt": "2026-11-24T20:15:14.351Z"
     },
     "IREN": {
       "ticker": "IREN",
@@ -3381,7 +3381,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.863Z"
+      "checkedAt": "2026-11-24T20:15:14.356Z"
     },
     "APLD": {
       "ticker": "APLD",
@@ -3405,7 +3405,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.875Z"
+      "checkedAt": "2026-11-24T20:15:14.366Z"
     },
     "CRWV": {
       "ticker": "CRWV",
@@ -3429,7 +3429,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.896Z"
+      "checkedAt": "2026-11-24T20:15:14.370Z"
     },
     "AMSC": {
       "ticker": "AMSC",
@@ -3453,7 +3453,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.922Z"
+      "checkedAt": "2026-11-24T20:15:14.380Z"
     },
     "PSTG": {
       "ticker": "PSTG",
@@ -3480,7 +3480,7 @@
           "detail": "Latest close is 222 days old."
         }
       ],
-      "checkedAt": "2026-11-24T20:13:28.928Z"
+      "checkedAt": "2026-11-24T20:15:14.384Z"
     },
     "ONTO": {
       "ticker": "ONTO",
@@ -3504,7 +3504,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.946Z"
+      "checkedAt": "2026-11-24T20:15:14.389Z"
     },
     "CAMT": {
       "ticker": "CAMT",
@@ -3525,7 +3525,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.964Z"
+      "checkedAt": "2026-11-24T20:15:14.397Z"
     },
     "FORM": {
       "ticker": "FORM",
@@ -3549,7 +3549,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.974Z"
+      "checkedAt": "2026-11-24T20:15:14.402Z"
     },
     "RMBS": {
       "ticker": "RMBS",
@@ -3573,7 +3573,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:28.989Z"
+      "checkedAt": "2026-11-24T20:15:14.406Z"
     },
     "SITM": {
       "ticker": "SITM",
@@ -3597,7 +3597,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.001Z"
+      "checkedAt": "2026-11-24T20:15:14.415Z"
     },
     "LSCC": {
       "ticker": "LSCC",
@@ -3621,7 +3621,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.027Z"
+      "checkedAt": "2026-11-24T20:15:14.419Z"
     },
     "MTSI": {
       "ticker": "MTSI",
@@ -3645,7 +3645,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.043Z"
+      "checkedAt": "2026-11-24T20:15:14.428Z"
     },
     "AEIS": {
       "ticker": "AEIS",
@@ -3669,7 +3669,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.060Z"
+      "checkedAt": "2026-11-24T20:15:14.433Z"
     },
     "POWI": {
       "ticker": "POWI",
@@ -3693,7 +3693,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.076Z"
+      "checkedAt": "2026-11-24T20:15:14.438Z"
     },
     "AMKR": {
       "ticker": "AMKR",
@@ -3717,7 +3717,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.088Z"
+      "checkedAt": "2026-11-24T20:15:14.448Z"
     },
     "S": {
       "ticker": "S",
@@ -3741,7 +3741,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.096Z"
+      "checkedAt": "2026-11-24T20:15:14.453Z"
     },
     "RBRK": {
       "ticker": "RBRK",
@@ -3765,7 +3765,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.113Z"
+      "checkedAt": "2026-11-24T20:15:14.462Z"
     },
     "TENB": {
       "ticker": "TENB",
@@ -3789,7 +3789,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.130Z"
+      "checkedAt": "2026-11-24T20:15:14.467Z"
     },
     "GTLB": {
       "ticker": "GTLB",
@@ -3813,7 +3813,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.151Z"
+      "checkedAt": "2026-11-24T20:15:14.471Z"
     },
     "IOT": {
       "ticker": "IOT",
@@ -3837,7 +3837,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.195Z"
+      "checkedAt": "2026-11-24T20:15:14.480Z"
     },
     "PEGA": {
       "ticker": "PEGA",
@@ -3861,7 +3861,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.210Z"
+      "checkedAt": "2026-11-24T20:15:14.484Z"
     },
     "ESTC": {
       "ticker": "ESTC",
@@ -3885,7 +3885,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.229Z"
+      "checkedAt": "2026-11-24T20:15:14.488Z"
     },
     "MNDY": {
       "ticker": "MNDY",
@@ -3906,7 +3906,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.277Z"
+      "checkedAt": "2026-11-24T20:15:14.496Z"
     },
     "IONQ": {
       "ticker": "IONQ",
@@ -3930,7 +3930,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.285Z"
+      "checkedAt": "2026-11-24T20:15:14.502Z"
     },
     "RGTI": {
       "ticker": "RGTI",
@@ -3954,7 +3954,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.331Z"
+      "checkedAt": "2026-11-24T20:15:14.514Z"
     },
     "QBTS": {
       "ticker": "QBTS",
@@ -3978,7 +3978,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.349Z"
+      "checkedAt": "2026-11-24T20:15:14.518Z"
     },
     "SOFI": {
       "ticker": "SOFI",
@@ -4002,7 +4002,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.363Z"
+      "checkedAt": "2026-11-24T20:15:14.522Z"
     },
     "AFRM": {
       "ticker": "AFRM",
@@ -4026,7 +4026,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.381Z"
+      "checkedAt": "2026-11-24T20:15:14.531Z"
     },
     "UPST": {
       "ticker": "UPST",
@@ -4050,7 +4050,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.401Z"
+      "checkedAt": "2026-11-24T20:15:14.536Z"
     },
     "TOST": {
       "ticker": "TOST",
@@ -4074,7 +4074,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.425Z"
+      "checkedAt": "2026-11-24T20:15:14.545Z"
     },
     "FOUR": {
       "ticker": "FOUR",
@@ -4098,7 +4098,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.445Z"
+      "checkedAt": "2026-11-24T20:15:14.551Z"
     },
     "HOOD": {
       "ticker": "HOOD",
@@ -4122,7 +4122,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.493Z"
+      "checkedAt": "2026-11-24T20:15:14.556Z"
     },
     "CRCL": {
       "ticker": "CRCL",
@@ -4146,7 +4146,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.530Z"
+      "checkedAt": "2026-11-24T20:15:14.566Z"
     },
     "PYPL": {
       "ticker": "PYPL",
@@ -4170,7 +4170,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.550Z"
+      "checkedAt": "2026-11-24T20:15:14.571Z"
     },
     "PODD": {
       "ticker": "PODD",
@@ -4194,7 +4194,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.562Z"
+      "checkedAt": "2026-11-24T20:15:14.583Z"
     },
     "TMDX": {
       "ticker": "TMDX",
@@ -4218,7 +4218,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.580Z"
+      "checkedAt": "2026-11-24T20:15:14.588Z"
     },
     "INSP": {
       "ticker": "INSP",
@@ -4242,7 +4242,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.595Z"
+      "checkedAt": "2026-11-24T20:15:14.598Z"
     },
     "PEN": {
       "ticker": "PEN",
@@ -4266,7 +4266,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.601Z"
+      "checkedAt": "2026-11-24T20:15:14.605Z"
     },
     "GMED": {
       "ticker": "GMED",
@@ -4290,7 +4290,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.612Z"
+      "checkedAt": "2026-11-24T20:15:14.614Z"
     },
     "TEM": {
       "ticker": "TEM",
@@ -4314,7 +4314,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.627Z"
+      "checkedAt": "2026-11-24T20:15:14.618Z"
     },
     "HIMS": {
       "ticker": "HIMS",
@@ -4338,7 +4338,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.647Z"
+      "checkedAt": "2026-11-24T20:15:14.622Z"
     },
     "VKTX": {
       "ticker": "VKTX",
@@ -4362,7 +4362,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.658Z"
+      "checkedAt": "2026-11-24T20:15:14.631Z"
     },
     "CRNX": {
       "ticker": "CRNX",
@@ -4389,7 +4389,7 @@
           "detail": "Latest close is 84 days old."
         }
       ],
-      "checkedAt": "2026-11-24T20:13:29.665Z"
+      "checkedAt": "2026-11-24T20:15:14.634Z"
     },
     "RYTM": {
       "ticker": "RYTM",
@@ -4413,7 +4413,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.716Z"
+      "checkedAt": "2026-11-24T20:15:14.638Z"
     },
     "INSM": {
       "ticker": "INSM",
@@ -4437,7 +4437,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.744Z"
+      "checkedAt": "2026-11-24T20:15:14.648Z"
     },
     "MDGL": {
       "ticker": "MDGL",
@@ -4461,7 +4461,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.809Z"
+      "checkedAt": "2026-11-24T20:15:14.652Z"
     },
     "KRYS": {
       "ticker": "KRYS",
@@ -4485,7 +4485,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.827Z"
+      "checkedAt": "2026-11-24T20:15:14.656Z"
     },
     "BBIO": {
       "ticker": "BBIO",
@@ -4509,7 +4509,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.832Z"
+      "checkedAt": "2026-11-24T20:15:14.665Z"
     },
     "ACLX": {
       "ticker": "ACLX",
@@ -4536,7 +4536,7 @@
           "detail": "Latest close is 210 days old."
         }
       ],
-      "checkedAt": "2026-11-24T20:13:29.843Z"
+      "checkedAt": "2026-11-24T20:15:14.668Z"
     },
     "RKLB": {
       "ticker": "RKLB",
@@ -4560,7 +4560,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.862Z"
+      "checkedAt": "2026-11-24T20:15:14.672Z"
     },
     "ASTS": {
       "ticker": "ASTS",
@@ -4584,7 +4584,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.872Z"
+      "checkedAt": "2026-11-24T20:15:14.682Z"
     },
     "LUNR": {
       "ticker": "LUNR",
@@ -4608,7 +4608,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.890Z"
+      "checkedAt": "2026-11-24T20:15:14.686Z"
     },
     "KTOS": {
       "ticker": "KTOS",
@@ -4632,7 +4632,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.898Z"
+      "checkedAt": "2026-11-24T20:15:14.697Z"
     },
     "AVAV": {
       "ticker": "AVAV",
@@ -4656,7 +4656,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.911Z"
+      "checkedAt": "2026-11-24T20:15:14.703Z"
     },
     "PL": {
       "ticker": "PL",
@@ -4680,7 +4680,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.930Z"
+      "checkedAt": "2026-11-24T20:15:14.712Z"
     },
     "JOBY": {
       "ticker": "JOBY",
@@ -4704,7 +4704,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.941Z"
+      "checkedAt": "2026-11-24T20:15:14.716Z"
     },
     "ACHR": {
       "ticker": "ACHR",
@@ -4728,7 +4728,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.948Z"
+      "checkedAt": "2026-11-24T20:15:14.720Z"
     },
     "SYM": {
       "ticker": "SYM",
@@ -4752,7 +4752,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.959Z"
+      "checkedAt": "2026-11-24T20:15:14.729Z"
     },
     "RDW": {
       "ticker": "RDW",
@@ -4776,7 +4776,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.976Z"
+      "checkedAt": "2026-11-24T20:15:14.734Z"
     },
     "OKLO": {
       "ticker": "OKLO",
@@ -4800,7 +4800,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:29.997Z"
+      "checkedAt": "2026-11-24T20:15:14.737Z"
     },
     "SMR": {
       "ticker": "SMR",
@@ -4824,7 +4824,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.002Z"
+      "checkedAt": "2026-11-24T20:15:14.746Z"
     },
     "UEC": {
       "ticker": "UEC",
@@ -4848,7 +4848,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.011Z"
+      "checkedAt": "2026-11-24T20:15:14.750Z"
     },
     "LEU": {
       "ticker": "LEU",
@@ -4872,7 +4872,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.027Z"
+      "checkedAt": "2026-11-24T20:15:14.754Z"
     },
     "FLNC": {
       "ticker": "FLNC",
@@ -4896,7 +4896,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.039Z"
+      "checkedAt": "2026-11-24T20:15:14.763Z"
     },
     "MP": {
       "ticker": "MP",
@@ -4920,7 +4920,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.052Z"
+      "checkedAt": "2026-11-24T20:15:14.768Z"
     },
     "USAR": {
       "ticker": "USAR",
@@ -4944,7 +4944,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.079Z"
+      "checkedAt": "2026-11-24T20:15:14.771Z"
     },
     "ATI": {
       "ticker": "ATI",
@@ -4968,7 +4968,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.093Z"
+      "checkedAt": "2026-11-24T20:15:14.780Z"
     },
     "CDE": {
       "ticker": "CDE",
@@ -4992,7 +4992,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.113Z"
+      "checkedAt": "2026-11-24T20:15:14.785Z"
     },
     "IDR": {
       "ticker": "IDR",
@@ -5013,7 +5013,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.132Z"
+      "checkedAt": "2026-11-24T20:15:14.789Z"
     },
     "TPL": {
       "ticker": "TPL",
@@ -5037,7 +5037,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.152Z"
+      "checkedAt": "2026-11-24T20:15:14.798Z"
     },
     "CAVA": {
       "ticker": "CAVA",
@@ -5061,7 +5061,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.180Z"
+      "checkedAt": "2026-11-24T20:15:14.801Z"
     },
     "BROS": {
       "ticker": "BROS",
@@ -5085,7 +5085,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.191Z"
+      "checkedAt": "2026-11-24T20:15:14.806Z"
     },
     "ELF": {
       "ticker": "ELF",
@@ -5109,7 +5109,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.213Z"
+      "checkedAt": "2026-11-24T20:15:14.815Z"
     },
     "ONON": {
       "ticker": "ONON",
@@ -5130,7 +5130,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.241Z"
+      "checkedAt": "2026-11-24T20:15:14.817Z"
     },
     "CELH": {
       "ticker": "CELH",
@@ -5154,7 +5154,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.265Z"
+      "checkedAt": "2026-11-24T20:15:14.821Z"
     },
     "DUOL": {
       "ticker": "DUOL",
@@ -5178,7 +5178,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.275Z"
+      "checkedAt": "2026-11-24T20:15:14.830Z"
     },
     "RDDT": {
       "ticker": "RDDT",
@@ -5202,7 +5202,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.282Z"
+      "checkedAt": "2026-11-24T20:15:14.834Z"
     },
     "WING": {
       "ticker": "WING",
@@ -5226,7 +5226,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.301Z"
+      "checkedAt": "2026-11-24T20:15:14.839Z"
     },
     "AAON": {
       "ticker": "AAON",
@@ -5250,7 +5250,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.328Z"
+      "checkedAt": "2026-11-24T20:15:14.848Z"
     },
     "MLI": {
       "ticker": "MLI",
@@ -5274,7 +5274,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.347Z"
+      "checkedAt": "2026-11-24T20:15:14.852Z"
     },
     "ROAD": {
       "ticker": "ROAD",
@@ -5298,7 +5298,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.358Z"
+      "checkedAt": "2026-11-24T20:15:14.856Z"
     },
     "WTS": {
       "ticker": "WTS",
@@ -5322,7 +5322,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.377Z"
+      "checkedAt": "2026-11-24T20:15:14.865Z"
     },
     "DY": {
       "ticker": "DY",
@@ -5346,7 +5346,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.393Z"
+      "checkedAt": "2026-11-24T20:15:14.869Z"
     },
     "BWXT": {
       "ticker": "BWXT",
@@ -5370,7 +5370,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.412Z"
+      "checkedAt": "2026-11-24T20:15:14.873Z"
     },
     "KNF": {
       "ticker": "KNF",
@@ -5394,7 +5394,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.431Z"
+      "checkedAt": "2026-11-24T20:15:14.882Z"
     },
     "KNSL": {
       "ticker": "KNSL",
@@ -5418,7 +5418,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.452Z"
+      "checkedAt": "2026-11-24T20:15:14.887Z"
     },
     "RYAN": {
       "ticker": "RYAN",
@@ -5442,7 +5442,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.466Z"
+      "checkedAt": "2026-11-24T20:15:14.895Z"
     },
     "PLMR": {
       "ticker": "PLMR",
@@ -5466,7 +5466,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.476Z"
+      "checkedAt": "2026-11-24T20:15:14.900Z"
     },
     "EVR": {
       "ticker": "EVR",
@@ -5490,7 +5490,7 @@
       "narrativeUpdatedAt": "2026-11-24",
       "status": "current",
       "events": [],
-      "checkedAt": "2026-11-24T20:13:30.483Z"
+      "checkedAt": "2026-11-24T20:15:14.904Z"
     }
   }
 }

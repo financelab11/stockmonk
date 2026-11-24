@@ -10,7 +10,7 @@ export const NVDA: StockStory = {
     "Revenue: $303B trailing twelve months, +83.4% year over year.",
     "Profitability: 65.2% operating margin and 63.7% net margin.",
     "Cash: $127B free cash flow, a 41.9% margin.",
-    "Factor summary: 80/100 average percentile across the factor set."
+    "factor summary: 80/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
   "irUrl": "https://investor.nvidia.com/",
@@ -20,7 +20,7 @@ export const NVDA: StockStory = {
   "bigPicture": {
     "paragraphs": [
       "NVIDIA Corporation generated $303B of revenue over the last twelve months, +83.4% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
-      "The latest reported quarter was Q2 FY27, with $96.2B of revenue and an operating margin of 66.2%. The stock closed at $165.05 on 2026-11-23, giving a market capitalization of $3.99T.",
+      "The latest reported quarter was Q2 FY27, with $96.2B of revenue and an operating margin of 66.2%. The stock closed at $165.05 on Nov 23, 2026, giving a market capitalization of $3.99T.",
       "The shares sit 34% of the way up their 52-week range ($124.50 to $243.37). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "NVDA is a Technology business with $303B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -55,7 +55,7 @@ export const NVDA: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 51.6% a year across the fiscal years in the dataset, and the latest quarter changed +105.9% year over year. Third-party estimates for the current fiscal year point to $423.7B of revenue and $9.67 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of 65.2% and return on invested capital of 63.0% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of 65.2% and return on invested capital of 63.0% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -81,7 +81,7 @@ export const NVDA: StockStory = {
   "cash": {
     "paragraphs": [
       "Free cash flow after capex over the trailing period was $127B, a 41.9% margin. Net debt is $11.9B. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

@@ -10,14 +10,14 @@ export const ESTC: StockStory = {
     "Revenue: $1.8B trailing twelve months, +16.2% year over year.",
     "Profitability: -2.6% operating margin and 20.8% net margin.",
     "Cash: $349M free cash flow, a 19.4% margin.",
-    "Factor summary: 48/100 average percentile across the factor set."
+    "factor summary: 48/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1707753/000170775326000018/estc-20260430.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001707753&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
       "Elastic N.V. Generated $1.8B of revenue over the last twelve months, +16.2% versus the prior year. The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer.",
-      "The latest reported quarter was Q1 FY27, with $478.1M of revenue and an operating margin of -4.9%. The stock closed at $81.45 on 2026-11-23, giving a market capitalization of $8.6B.",
+      "The latest reported quarter was Q1 FY27, with $478.1M of revenue and an operating margin of -4.9%. The stock closed at $81.45 on Nov 23, 2026, giving a market capitalization of $8.6B.",
       "The shares sit 60% of the way up their 52-week range ($42.05 to $108.00). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "ESTC is a Software & Cyber business with $1.8B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -38,7 +38,7 @@ export const ESTC: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 30.4% a year across the fiscal years in the dataset, and the latest quarter changed +15.1% year over year. Third-party estimates for the current fiscal year point to $2B of revenue and $3.38 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of -2.6% and return on invested capital of -2.0% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of -2.6% and return on invested capital of -2.0% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -64,7 +64,7 @@ export const ESTC: StockStory = {
   "cash": {
     "paragraphs": [
       "FCF over the trailing period was $349M, a 19.4% margin. The balance sheet carries $889.8M of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

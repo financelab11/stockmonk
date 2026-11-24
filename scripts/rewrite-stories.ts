@@ -16,6 +16,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { STOCK_STORIES } from "../content/stocks";
+import { formatDate } from "../lib/format";
 import {
   buildFullFactorScores,
   computeCagr,
@@ -381,16 +382,32 @@ function wordCount(text: string): number {
 
 function tidySentenceCase(text: string): string {
   return text
-    .replace(/(^|[.!?]\s+)([a-z])/g, (_, prefix: string, letter: string) => {
-      return `${prefix}${letter.toUpperCase()}`;
-    })
+    .replace(
+      /([.!?]\s+)([a-z])/g,
+      (
+        match: string,
+        punctuation: string,
+        letter: string,
+        offset: number,
+        full: string,
+      ) => {
+        const before = full.slice(0, offset);
+        if (/\d$/.test(before)) return match;
+        if (/\b(?:Inc|Corp|Ltd|Co|LLC|plc|U\.S|vs|e\.g|i\.e)$/i.test(before)) {
+          return match;
+        }
+        return `${punctuation}${letter.toUpperCase()}`;
+      },
+    )
     .replace(/\s+/g, " ")
     .trim();
 }
 
 function polishGenerated(rewrite: Rewrite): Rewrite {
   const polishText = (text: string): string => {
-    let result = text;
+    let result = text.replace(/\b\d{4}-\d{2}-\d{2}\b/g, (date) =>
+      formatDate(date),
+    );
     for (const [pattern, replacement] of BANNED_REPLACEMENTS) {
       result = result.replace(pattern, replacement);
     }

@@ -10,14 +10,14 @@ export const QBTS: StockStory = {
     "Revenue: $12.4M trailing twelve months, -44.2% year over year.",
     "Profitability: -1372.9% operating margin and -2001.6% net margin.",
     "Cash: -$119.1M free cash flow, a -958.4% margin.",
-    "Factor summary: 35/100 average percentile across the factor set."
+    "factor summary: 35/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000026/qbts-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001907982&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "D-Wave Quantum Inc. Generated $12.4M of revenue over the last twelve months, -44.2% versus the prior year. The investment case is a long-duration option on a technology that has not yet reached commercial scale.",
-      "The latest reported quarter was Q2 FY26, with $3.1M of revenue and an operating margin of -1732.1%. The stock closed at $7.31 on 2026-11-23, giving a market capitalization of $2.8B.",
+      "D-Wave Quantum Inc. generated $12.4M of revenue over the last twelve months, -44.2% versus the prior year. The investment case is a long-duration option on a technology that has not yet reached commercial scale.",
+      "The latest reported quarter was Q2 FY26, with $3.1M of revenue and an operating margin of -1732.1%. The stock closed at $7.31 on Nov 23, 2026, giving a market capitalization of $2.8B.",
       "The shares sit 3% of the way up their 52-week range ($6.46 to $32.39). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "QBTS is a Quantum business with $12.4M of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -53,7 +53,7 @@ export const QBTS: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 36.7% a year across the fiscal years in the dataset, and the latest quarter changed -0.6% year over year. Third-party estimates for the current fiscal year point to $37.1M of revenue and -$0.31 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of -1372.9% and return on invested capital of -12.1% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of -1372.9% and return on invested capital of -12.1% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -79,7 +79,7 @@ export const QBTS: StockStory = {
   "cash": {
     "paragraphs": [
       "FCF over the trailing period was -$119.1M, a -958.4% margin. The balance sheet carries $511.3M of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

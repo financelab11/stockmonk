@@ -10,14 +10,14 @@ export const POWL: StockStory = {
     "Revenue: $1.2B trailing twelve months, +7.0% year over year.",
     "Profitability: 19.7% operating margin and 16.5% net margin.",
     "Cash: $244M free cash flow, a 21.1% margin.",
-    "Factor summary: 58/100 average percentile across the factor set."
+    "factor summary: 58/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/80420/000008042025000152/powl-20250930.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080420&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Powell Industries, Inc. Generated $1.2B of revenue over the last twelve months, +7.0% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
-      "The latest reported quarter was Q3 FY26, with $311.7M of revenue and an operating margin of 20.6%. The stock closed at $161.98 on 2026-11-23, giving a market capitalization of $5.9B.",
+      "Powell Industries, Inc. generated $1.2B of revenue over the last twelve months, +7.0% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
+      "The latest reported quarter was Q3 FY26, with $311.7M of revenue and an operating margin of 20.6%. The stock closed at $161.98 on Nov 23, 2026, giving a market capitalization of $5.9B.",
       "The shares sit 29% of the way up their 52-week range ($95.00 to $328.00). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "POWL is a AI Infrastructure & Power business with $1.2B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -53,7 +53,7 @@ export const POWL: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 13.7% a year across the fiscal years in the dataset, and the latest quarter changed +8.9% year over year. Third-party estimates for the current fiscal year point to $1.6B of revenue and $7.69 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of 19.7% and return on invested capital of 23.4% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of 19.7% and return on invested capital of 23.4% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -79,7 +79,7 @@ export const POWL: StockStory = {
   "cash": {
     "paragraphs": [
       "Free cash flow after capex over the trailing period was $244M, a 21.1% margin. The balance sheet carries $633.6M of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

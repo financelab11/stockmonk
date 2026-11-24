@@ -10,14 +10,14 @@ export const PANW: StockStory = {
     "Revenue: $11.5B trailing twelve months, +24.5% year over year.",
     "Profitability: 6.1% operating margin and 2.7% net margin.",
     "Cash: $4.1B free cash flow, a 35.8% margin.",
-    "Factor summary: 45/100 average percentile across the factor set."
+    "factor summary: 45/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000023/panw-20260731.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327567&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Palo Alto Networks, Inc. Generated $11.5B of revenue over the last twelve months, +24.5% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
-      "The latest reported quarter was Q4 FY26, with $3.4B of revenue and an operating margin of 5.0%. The stock closed at $353.43 on 2026-11-23, giving a market capitalization of $290.2B.",
+      "Palo Alto Networks, Inc. generated $11.5B of revenue over the last twelve months, +24.5% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
+      "The latest reported quarter was Q4 FY26, with $3.4B of revenue and an operating margin of 5.0%. The stock closed at $353.43 on Nov 23, 2026, giving a market capitalization of $290.2B.",
       "The shares sit 73% of the way up their 52-week range ($139.57 to $432.33). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "PANW is a Technology business with $11.5B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -53,7 +53,7 @@ export const PANW: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 21.7% a year across the fiscal years in the dataset, and the latest quarter changed +34.5% year over year. Third-party estimates for the current fiscal year point to $14.6B of revenue and $4.28 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of 6.1% and return on invested capital of 1.4% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of 6.1% and return on invested capital of 1.4% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -79,7 +79,7 @@ export const PANW: StockStory = {
   "cash": {
     "paragraphs": [
       "Cash generation over the trailing period was $4.1B, a 35.8% margin. The balance sheet carries $1.3B of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

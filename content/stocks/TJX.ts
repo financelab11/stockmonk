@@ -10,14 +10,14 @@ export const TJX: StockStory = {
     "Revenue: $62.4B trailing twelve months, +7.7% year over year.",
     "Profitability: 12.9% operating margin and 9.7% net margin.",
     "Cash: $5.9B free cash flow, a 9.4% margin.",
-    "Factor summary: 54/100 average percentile across the factor set."
+    "factor summary: 54/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/109198/000010919826000008/tjx-20260131.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000109198&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "The TJX Companies, Inc. Generated $62.4B of revenue over the last twelve months, +7.7% versus the prior year. The business depends on traffic, basket size and the cost of serving the next customer.",
-      "The latest reported quarter was Q2 FY27, with $15.2B of revenue and an operating margin of 13.3%. The stock closed at $139.25 on 2026-11-23, giving a market capitalization of $153.8B.",
+      "The TJX Companies, Inc. generated $62.4B of revenue over the last twelve months, +7.7% versus the prior year. The business depends on traffic, basket size and the cost of serving the next customer.",
+      "The latest reported quarter was Q2 FY27, with $15.2B of revenue and an operating margin of 13.3%. The stock closed at $139.25 on Nov 23, 2026, giving a market capitalization of $153.8B.",
       "The shares sit 35% of the way up their 52-week range ($122.78 to $170.00). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "TJX is a Consumer Discretionary business with $62.4B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -52,7 +52,7 @@ export const TJX: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 6.5% a year across the fiscal years in the dataset, and the latest quarter changed +5.4% year over year. Third-party estimates for the current fiscal year point to $64.1B of revenue and $5.23 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of 12.9% and return on invested capital of 44.9% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of 12.9% and return on invested capital of 44.9% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -78,7 +78,7 @@ export const TJX: StockStory = {
   "cash": {
     "paragraphs": [
       "Free cash flow after capex over the trailing period was $5.9B, a 9.4% margin. The balance sheet carries $3.1B of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

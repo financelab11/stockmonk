@@ -10,14 +10,14 @@ export const SYM: StockStory = {
     "Revenue: $2.6B trailing twelve months, +20.6% year over year.",
     "Profitability: -0.0% operating margin and 0.3% net margin.",
     "Cash: no meaningful free-cash-flow multiple, a n/a margin.",
-    "Factor summary: 33/100 average percentile across the factor set."
+    "factor summary: 33/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1837240/000183724025000278/sym-20250927.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001837240&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Symbotic Inc. Generated $2.6B of revenue over the last twelve months, +20.6% versus the prior year. The business depends on contract wins, launch execution and the path from backlog to cash flow.",
-      "The latest reported quarter was Q3 FY26, with $720.8M of revenue and an operating margin of 4.6%. The stock closed at $34.97 on 2026-11-23, giving a market capitalization of $21.2B.",
+      "Symbotic Inc. generated $2.6B of revenue over the last twelve months, +20.6% versus the prior year. The business depends on contract wins, launch execution and the path from backlog to cash flow.",
+      "The latest reported quarter was Q3 FY26, with $720.8M of revenue and an operating margin of 4.6%. The stock closed at $34.97 on Nov 23, 2026, giving a market capitalization of $21.2B.",
       "The shares sit 8% of the way up their 52-week range ($30.33 to $87.88). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "SYM is a Space, Defense & Autonomy business with $2.6B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -56,7 +56,7 @@ export const SYM: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 89.4% a year across the fiscal years in the dataset, and the latest quarter changed +21.7% year over year. Third-party estimates for the current fiscal year point to $3.6B of revenue and $0.80 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of -0.0% and return on invested capital of -0.0% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of -0.0% and return on invested capital of -0.0% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -82,7 +82,7 @@ export const SYM: StockStory = {
   "cash": {
     "paragraphs": [
       "Free cash flow after capex over the trailing period was n/a, a n/a margin. The balance sheet carries $1.7B of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

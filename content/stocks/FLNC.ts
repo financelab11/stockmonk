@@ -10,14 +10,14 @@ export const FLNC: StockStory = {
     "Revenue: $2.6B trailing twelve months, +7.5% year over year.",
     "Profitability: -3.6% operating margin and -3.1% net margin.",
     "Cash: -$115.3M free cash flow, a -4.4% margin.",
-    "Factor summary: 48/100 average percentile across the factor set."
+    "factor summary: 48/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1868941/000186894125000081/flnc-20250930.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001868941&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Fluence Energy, Inc. Generated $2.6B of revenue over the last twelve months, +7.5% versus the prior year. The opportunity is large but early; permits, financing and construction execution determine who captures it.",
-      "The latest reported quarter was Q3 FY26, with $649.8M of revenue and an operating margin of -6.7%. The stock closed at $3.80 on 2026-11-23, giving a market capitalization of $739.7M.",
+      "Fluence Energy, Inc. generated $2.6B of revenue over the last twelve months, +7.5% versus the prior year. The opportunity is large but early; permits, financing and construction execution determine who captures it.",
+      "The latest reported quarter was Q3 FY26, with $649.8M of revenue and an operating margin of -6.7%. The stock closed at $3.80 on Nov 23, 2026, giving a market capitalization of $739.7M.",
       "The shares sit 1% of the way up their 52-week range ($3.41 to $33.51). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "FLNC is a Nuclear, Metals & Energy business with $2.6B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -53,7 +53,7 @@ export const FLNC: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 32.2% a year across the fiscal years in the dataset, and the latest quarter changed +7.9% year over year. Third-party estimates for the current fiscal year point to $2.7B of revenue and -$0.76 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of -3.6% and return on invested capital of -20.2% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of -3.6% and return on invested capital of -20.2% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -79,7 +79,7 @@ export const FLNC: StockStory = {
   "cash": {
     "paragraphs": [
       "The cash statement over the trailing period was -$115.3M, a -4.4% margin. The balance sheet carries $339.3M of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

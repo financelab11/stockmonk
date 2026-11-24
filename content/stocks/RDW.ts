@@ -10,14 +10,14 @@ export const RDW: StockStory = {
     "Revenue: $431.9M trailing twelve months, +45.8% year over year.",
     "Profitability: -46.2% operating margin and -52.4% net margin.",
     "Cash: -$136.7M free cash flow, a -31.6% margin.",
-    "Factor summary: 45/100 average percentile across the factor set."
+    "factor summary: 45/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1819810/000181981026000029/rdw-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819810&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
       "Redwire Corporation generated $431.9M of revenue over the last twelve months, +45.8% versus the prior year. The business depends on contract wins, launch execution and the path from backlog to cash flow.",
-      "The latest reported quarter was Q3 FY26, with $109M of revenue and an operating margin of -24.1%. The stock closed at $6.42 on 2026-11-23, giving a market capitalization of $1.6B.",
+      "The latest reported quarter was Q3 FY26, with $109M of revenue and an operating margin of -24.1%. The stock closed at $6.42 on Nov 23, 2026, giving a market capitalization of $1.6B.",
       "The shares sit 6% of the way up their 52-week range ($5.12 to $26.64). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "RDW is a Space, Defense & Autonomy business with $431.9M of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -56,7 +56,7 @@ export const RDW: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 24.9% a year across the fiscal years in the dataset, and the latest quarter changed +5.4% year over year. Third-party estimates for the current fiscal year point to $463.1M of revenue and -$0.37 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of -46.2% and return on invested capital of -9.5% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of -46.2% and return on invested capital of -9.5% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -82,7 +82,7 @@ export const RDW: StockStory = {
   "cash": {
     "paragraphs": [
       "Cash generation over the trailing period was -$136.7M, a -31.6% margin. The balance sheet carries $441.1M of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

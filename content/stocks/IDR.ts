@@ -10,14 +10,14 @@ export const IDR: StockStory = {
     "Revenue: $50.9M trailing twelve months, +66.8% year over year.",
     "Profitability: 45.1% operating margin and 44.0% net margin.",
     "Cash: $16.8M free cash flow, a 33.0% margin.",
-    "Factor summary: 81/100 average percentile across the factor set."
+    "factor summary: 81/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1030192/000165495426002560/idr_10k.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001030192&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Idaho Strategic Resources, Inc. Generated $50.9M of revenue over the last twelve months, +66.8% versus the prior year. The opportunity is large but early; permits, financing and construction execution determine who captures it.",
-      "The latest reported quarter was Q2 FY26, with $10.7M of revenue and an operating margin of 34.1%. The stock closed at $14.86 on 2026-11-23, giving a market capitalization of $235.2M.",
+      "Idaho Strategic Resources, Inc. generated $50.9M of revenue over the last twelve months, +66.8% versus the prior year. The opportunity is large but early; permits, financing and construction execution determine who captures it.",
+      "The latest reported quarter was Q2 FY26, with $10.7M of revenue and an operating margin of 34.1%. The stock closed at $14.86 on Nov 23, 2026, giving a market capitalization of $235.2M.",
       "The shares sit 3% of the way up their 52-week range ($13.66 to $53.30). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "IDR is a Nuclear, Metals & Energy business with $50.9M of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -53,7 +53,7 @@ export const IDR: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 42.1% a year across the fiscal years in the dataset, and the latest quarter changed +13.2% year over year. Third-party estimates for the current fiscal year point to $49.3M of revenue and $1.10 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of 45.1% and return on invested capital of 15.4% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of 45.1% and return on invested capital of 15.4% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -79,7 +79,7 @@ export const IDR: StockStory = {
   "cash": {
     "paragraphs": [
       "The cash statement over the trailing period was $16.8M, a 33.0% margin. The balance sheet carries $5.3M of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

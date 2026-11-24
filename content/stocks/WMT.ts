@@ -10,14 +10,14 @@ export const WMT: StockStory = {
     "Revenue: $728.5B trailing twelve months, +6.1% year over year.",
     "Profitability: 4.4% operating margin and 3.0% net margin.",
     "Cash: $13.5B free cash flow, a 1.9% margin.",
-    "Factor summary: 33/100 average percentile across the factor set."
+    "factor summary: 33/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000104169&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Walmart Inc. Generated $728.5B of revenue over the last twelve months, +6.1% versus the prior year. The business depends on traffic, basket size and the cost of serving the next customer.",
-      "The latest reported quarter was Q2 FY27, with $186.1B of revenue and an operating margin of 5.0%. The stock closed at $129.58 on 2026-11-23, giving a market capitalization of $1.03T.",
+      "Walmart Inc. generated $728.5B of revenue over the last twelve months, +6.1% versus the prior year. The business depends on traffic, basket size and the cost of serving the next customer.",
+      "The latest reported quarter was Q2 FY27, with $186.1B of revenue and an operating margin of 5.0%. The stock closed at $129.58 on Nov 23, 2026, giving a market capitalization of $1.03T.",
       "The shares sit 83% of the way up their 52-week range ($102.15 to $135.16). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "WMT is a Consumer Staples business with $728.5B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -53,7 +53,7 @@ export const WMT: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 4.8% a year across the fiscal years in the dataset, and the latest quarter changed +5.9% year over year. Third-party estimates for the current fiscal year point to $753.9B of revenue and $2.89 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of 4.4% and return on invested capital of 16.7% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of 4.4% and return on invested capital of 16.7% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -79,7 +79,7 @@ export const WMT: StockStory = {
   "cash": {
     "paragraphs": [
       "Cash generation over the trailing period was $13.5B, a 1.9% margin. Net debt is $38.9B. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

@@ -10,14 +10,14 @@ export const APLD: StockStory = {
     "Revenue: $516M trailing twelve months, +277.4% year over year.",
     "Profitability: -58.9% operating margin and -68.1% net margin.",
     "Cash: -$4.5B free cash flow, a -863.5% margin.",
-    "Factor summary: 52/100 average percentile across the factor set."
+    "factor summary: 52/100 average percentile across the factor set."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000048/apld-20260531.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001144879&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
       "Applied Digital Corporation generated $516M of revenue over the last twelve months, +277.4% versus the prior year. Growth is tied to AI data-center spending, and the key question is how much of that spending becomes durable recurring demand.",
-      "The latest reported quarter was Q1 FY27, with $262.8M of revenue and an operating margin of -23.7%. The stock closed at $13.82 on 2026-11-23, giving a market capitalization of $4.2B.",
+      "The latest reported quarter was Q1 FY27, with $262.8M of revenue and an operating margin of -23.7%. The stock closed at $13.82 on Nov 23, 2026, giving a market capitalization of $4.2B.",
       "The shares sit 6% of the way up their 52-week range ($11.31 to $50.73). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
     ],
     "quote": "APLD is a AI Infrastructure & Power business with $516M of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
@@ -39,7 +39,7 @@ export const APLD: StockStory = {
   "growth": {
     "paragraphs": [
       "Revenue compounded at 190.8% a year across the fiscal years in the dataset, and the latest quarter changed +224.7% year over year. Third-party estimates for the current fiscal year point to $957.5M of revenue and -$1.06 of EPS.",
-      "Growth matters when it produces a return on capital. The operating margin of -58.9% and return on invested capital of -3.0% are the filters to watch as revenue scales."
+      "growth matters when it produces a return on capital. The operating margin of -58.9% and return on invested capital of -3.0% are the filters to watch as revenue scales."
     ],
     "bullets": [
       {
@@ -65,7 +65,7 @@ export const APLD: StockStory = {
   "cash": {
     "paragraphs": [
       "FCF over the trailing period was -$4.5B, a -863.5% margin. Net debt is $3.4B. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "Cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
     ]
   },
   "valuation": {

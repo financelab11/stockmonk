@@ -60,7 +60,7 @@ const PROVIDER =
   PROVIDER_ENV ||
   (process.env.REWRITE_API_KEY || process.env.OPENAI_API_KEY
     ? "openai"
-    : "none");
+    : "fallback");
 const API_KEY = (
   process.env.REWRITE_API_KEY ??
   process.env.OPENAI_API_KEY ??
@@ -468,7 +468,7 @@ async function main() {
 
   if (PROVIDER === "none") {
     console.log(
-      `[rewrite] ${pending.length} stories pending; no rewrite provider configured (set REWRITE_PROVIDER and REWRITE_API_KEY, or run with REWRITE_PROVIDER=fallback for data-only sections)`,
+      `[rewrite] ${pending.length} stories pending; rewrites are disabled (REWRITE_PROVIDER=none)`,
     );
     return;
   }

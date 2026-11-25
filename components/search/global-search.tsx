@@ -259,7 +259,7 @@ export function GlobalSearch() {
                       </span>
                     </span>
                     {entry.research && (
-                      <span className="shrink-0 text-[9px] font-semibold uppercase tracking-[0.08em] text-brand">
+                      <span className="shrink-0 text-[9px] font-semibold text-brand">
                         Research
                       </span>
                     )}

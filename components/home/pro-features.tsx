@@ -12,7 +12,11 @@ const FEATURES = [
     kicker: "Company research",
     title: "Ten-section reports built from filings",
     body: "Business model, segment mix, growth drivers, financials, valuation context and risks — each section sourced and charted.",
-    points: ["SEC filing citations", "Attributed consensus", "Accessible data tables"],
+    points: [
+      "SEC filing citations",
+      "Attributed consensus",
+      "Accessible data tables",
+    ],
     visual: "report",
     image: "/product/pro-report.webp",
   },
@@ -21,7 +25,11 @@ const FEATURES = [
     kicker: "Multi-factor screens",
     title: "Compare the numbers, not the narratives",
     body: "Percentile scores for growth, profitability, cash generation, balance sheet and valuation across the covered universe.",
-    points: ["Descriptive screens", "No ratings or targets", "Peer-relative context"],
+    points: [
+      "Descriptive screens",
+      "No ratings or targets",
+      "Peer-relative context",
+    ],
     visual: "screens",
     image: "/product/pro-screens.webp",
   },
@@ -56,14 +64,20 @@ const FEATURES = [
 
 export function ProFeatures() {
   return (
-    <section className="container-page py-12" aria-labelledby="pro-features-title">
+    <section
+      className="container-page py-12"
+      aria-labelledby="pro-features-title"
+    >
       <div className="mx-auto max-w-2xl text-center">
-        <h2 id="pro-features-title" className="display text-[30px] leading-[1.08] tracking-[-0.025em] text-ink sm:text-[38px]">
+        <h2
+          id="pro-features-title"
+          className="display text-[30px] leading-[1.08] tracking-[-0.025em] text-ink sm:text-[38px]"
+        >
           What you get when you go deeper
         </h2>
         <p className="mt-2 text-[13px] leading-relaxed text-muted">
-          Longer reports, comparison screens and alerts when a filing or estimate
-          changes. The checkout is a mock.
+          Longer reports, comparison screens and alerts when a filing or
+          estimate changes. The checkout is a mock.
         </p>
       </div>
 
@@ -79,26 +93,34 @@ export function ProFeatures() {
                 <span className="flex size-9 items-center justify-center rounded-xl bg-brand-soft text-brand">
                   <Icon aria-hidden="true" className="size-4" />
                 </span>
-                <p className="mt-3 text-[10px] font-bold uppercase tracking-[0.14em] text-muted">
+                <p className="mt-3 text-[10px] font-bold text-muted">
                   {feature.kicker}
                 </p>
                 <h3 className="display mt-1 text-[24px] leading-tight tracking-[-0.02em] text-ink">
                   {feature.title}
                 </h3>
-                <p className="mt-2 text-[12.5px] leading-relaxed text-muted">{feature.body}</p>
+                <p className="mt-2 text-[12.5px] leading-relaxed text-muted">
+                  {feature.body}
+                </p>
                 <ul className="mt-3 flex flex-wrap gap-1.5">
                   {feature.points.map((point) => (
-                    <li key={point} className="chip">{point}</li>
+                    <li key={point} className="chip">
+                      {point}
+                    </li>
                   ))}
                 </ul>
               </div>
-              <div className={`rounded-xl bg-paper-deep p-3 ${index % 2 === 1 ? "lg:order-1" : ""}`}>
+              <div
+                className={`rounded-xl bg-paper-deep p-3 ${index % 2 === 1 ? "lg:order-1" : ""}`}
+              >
                 <div className="overflow-hidden rounded-lg border border-line bg-white">
                   <div className="flex items-center gap-1 border-b border-line bg-paper-deep px-2 py-1.5">
                     <span className="size-1.5 rounded-full bg-[#ff7a45]" />
                     <span className="size-1.5 rounded-full bg-[#f5b544]" />
                     <span className="size-1.5 rounded-full bg-[#2fbf8f]" />
-                    <span className="ml-2 text-[8px] text-muted">stockmonk.app</span>
+                    <span className="ml-2 text-[8px] text-muted">
+                      stockmonk.app
+                    </span>
                   </div>
                   <img
                     src={feature.image}

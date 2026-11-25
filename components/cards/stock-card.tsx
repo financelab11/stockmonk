@@ -39,7 +39,7 @@ export function StockCard({
           <div className="flex flex-wrap items-start justify-between gap-1.5">
             <FactorChips chips={entry.factorChips} limit={2} />
             {entry.isResearch && (
-              <span className="rounded-full bg-brand-deep px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider text-white">
+              <span className="rounded-full bg-brand-deep px-2 py-0.5 text-[9px] font-bold text-white">
                 Research
               </span>
             )}
@@ -112,7 +112,7 @@ export function StockCard({
 
       {showWhy && (
         <div className="why-box mt-3">
-          <p className="text-[10px] font-bold uppercase tracking-[0.11em] text-brand-deep">
+          <p className="text-[10px] font-bold text-brand-deep">
             Research insight
           </p>
           <p className="mt-1 line-clamp-3 text-[11.5px] leading-relaxed">

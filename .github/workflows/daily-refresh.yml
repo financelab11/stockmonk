@@ -62,6 +62,7 @@ jobs:
           retry pnpm ingest:earnings
           pnpm build:data
           pnpm build:scores
+          pnpm build:kpis
           pnpm build:screener
 
       - name: Detect material story events
@@ -128,6 +129,13 @@ jobs:
         env:
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+          SUPABASE_DB_HOST: ${{ secrets.SUPABASE_DB_HOST }}
+          SUPABASE_DB_USER: ${{ secrets.SUPABASE_DB_USER }}
+
+      - name: Sync normalized research tables
+        run: pnpm sync:v2
+        env:
           SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
           SUPABASE_DB_HOST: ${{ secrets.SUPABASE_DB_HOST }}
           SUPABASE_DB_USER: ${{ secrets.SUPABASE_DB_USER }}

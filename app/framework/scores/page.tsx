@@ -9,15 +9,15 @@ import { breadcrumbJsonLd } from "@/lib/seo";
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: "V2 score methodology",
+  title: "Score methodology",
   description:
     "How Stockmonk calculates Growth, Quality, Valuation and Technical scores, the composite weighting, coverage rules and N/A handling.",
-  alternates: { canonical: "/framework/v2" },
+  alternates: { canonical: "/framework/scores" },
   openGraph: {
-    title: "V2 score methodology · Stockmonk",
+    title: "Score methodology · Stockmonk",
     description:
       "A deterministic four-factor score with explicit evidence, coverage and audit dates.",
-    url: "/framework/v2",
+    url: "/framework/scores",
   },
 };
 
@@ -70,13 +70,13 @@ export default function V2MethodologyPage() {
         data={breadcrumbJsonLd([
           { name: "Home", path: "/" },
           { name: "Framework", path: "/framework" },
-          { name: "V2 methodology", path: "/framework/v2" },
+          { name: "Score methodology", path: "/framework/scores" },
         ])}
       />
 
       <section className="surface-tint border-b border-line">
         <div className="container-page py-8 lg:py-12">
-          <p className="kicker">Methodology · V2</p>
+          <p className="kicker">Methodology</p>
           <h1 className="display mt-2 max-w-3xl text-[36px] leading-[1.04] tracking-[-0.03em] text-ink sm:text-[48px]">
             Four scores. One evidence trail.
           </h1>
@@ -106,7 +106,7 @@ export default function V2MethodologyPage() {
             {COMPONENTS.map((component) => (
               <div key={component.name} className="card-flat p-4">
                 <div className="flex items-baseline justify-between gap-3">
-                  <h3 className="text-[15px] font-semibold text-ink">
+                  <h3 className="display text-[17px] leading-tight text-ink">
                     {component.name}
                   </h3>
                   <span className="tabular text-[12px] font-semibold text-brand">
@@ -166,8 +166,7 @@ export default function V2MethodologyPage() {
             <p>
               Scores are deterministic. The narrative may interpret the evidence,
               but it cannot change a score, create a missing metric or turn an N/A
-              into zero. Each score record carries a methodology version and the
-              market-data date.
+              into zero. Each score record carries the market-data date.
             </p>
           </div>
         </section>
@@ -178,7 +177,7 @@ export default function V2MethodologyPage() {
           </h2>
           <div className="mt-3 overflow-x-auto rounded-xl border border-line">
             <table className="w-full min-w-[640px] border-collapse text-left">
-              <thead className="bg-paper-deep text-[10.5px] uppercase tracking-[0.08em] text-muted">
+              <thead className="bg-paper-deep text-[10.5px] text-muted">
                 <tr>
                   <th className="px-3 py-2 font-semibold">Company</th>
                   <th className="px-3 py-2 text-right font-semibold">Growth</th>

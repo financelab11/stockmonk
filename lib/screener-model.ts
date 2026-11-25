@@ -13,7 +13,8 @@ export type ScreenerBundle = {
   pricesMax: RangePricePoint[];
 };
 
-export type FactorKey = "growth" | "quality" | "valuation" | "momentum" | "lowVolatility";
+export type FactorKey =
+  "growth" | "quality" | "valuation" | "momentum" | "lowVolatility";
 
 export type ParameterUnit = "pct" | "x" | "num" | "days" | "score";
 
@@ -105,7 +106,8 @@ function safeDiv(
   numerator: number | null | undefined,
   denominator: number | null | undefined,
 ): number | null {
-  if (!finite(numerator) || !finite(denominator) || denominator === 0) return null;
+  if (!finite(numerator) || !finite(denominator) || denominator === 0)
+    return null;
   return numerator / denominator;
 }
 
@@ -119,7 +121,8 @@ function standardDeviation(values: number[]): number | null {
   if (values.length < 2) return null;
   const mean = values.reduce((sum, value) => sum + value, 0) / values.length;
   const variance =
-    values.reduce((sum, value) => sum + (value - mean) ** 2, 0) / (values.length - 1);
+    values.reduce((sum, value) => sum + (value - mean) ** 2, 0) /
+    (values.length - 1);
   return Math.sqrt(variance);
 }
 
@@ -143,7 +146,12 @@ function cagr(
     rows[0];
   const startValue = start[field] as number | null;
   const endValue = latest[field] as number | null;
-  if (!finite(startValue) || !finite(endValue) || startValue <= 0 || endValue <= 0) {
+  if (
+    !finite(startValue) ||
+    !finite(endValue) ||
+    startValue <= 0 ||
+    endValue <= 0
+  ) {
     return null;
   }
   const actualYears = latest.fyear - start.fyear;
@@ -170,7 +178,10 @@ function quarterSeries(data: TickerData): FinancialRow[] {
     .sort((a, b) => a.reportDate.localeCompare(b.reportDate));
 }
 
-function yoyGrowth(current: number | null, prior: number | null): number | null {
+function yoyGrowth(
+  current: number | null,
+  prior: number | null,
+): number | null {
   if (!finite(current) || !finite(prior) || prior === 0) return null;
   return current / prior - 1;
 }
@@ -196,7 +207,10 @@ function growthAcceleration(
   return latestGrowth - previousGrowth;
 }
 
-function priceOnOrAfter(points: RangePricePoint[], date: string): number | null {
+function priceOnOrAfter(
+  points: RangePricePoint[],
+  date: string,
+): number | null {
   const sorted = [...points].sort((a, b) => a.t - b.t);
   const target = new Date(`${date}T00:00:00Z`).getTime() / 1000;
   const match = sorted.find((point) => point.t >= target);
@@ -224,7 +238,9 @@ function historicalValuationPercentile(
   return Math.round((1 - below / history.length) * 100);
 }
 
-function dayReturns(points: RangePricePoint[]): Array<{ date: string; value: number }> {
+function dayReturns(
+  points: RangePricePoint[],
+): Array<{ date: string; value: number }> {
   const sorted = [...points].sort((a, b) => a.t - b.t);
   const out: Array<{ date: string; value: number }> = [];
   for (let index = 1; index < sorted.length; index += 1) {
@@ -244,17 +260,25 @@ function windowReturns(
   points: RangePricePoint[],
   tradingDays: number,
 ): number[] {
-  return dayReturns(points).slice(-tradingDays).map((item) => item.value);
+  return dayReturns(points)
+    .slice(-tradingDays)
+    .map((item) => item.value);
 }
 
-function annualizedVolatility(points: RangePricePoint[], tradingDays: number): number | null {
+function annualizedVolatility(
+  points: RangePricePoint[],
+  tradingDays: number,
+): number | null {
   const values = windowReturns(points, tradingDays);
   if (values.length < 10) return null;
   const sd = standardDeviation(values);
   return sd == null ? null : sd * Math.sqrt(252);
 }
 
-function annualizedReturn(points: RangePricePoint[], calendarDays: number): number | null {
+function annualizedReturn(
+  points: RangePricePoint[],
+  calendarDays: number,
+): number | null {
   const sorted = [...points].sort((a, b) => a.t - b.t);
   if (sorted.length < 2) return null;
   const latest = sorted[sorted.length - 1];
@@ -264,7 +288,10 @@ function annualizedReturn(points: RangePricePoint[], calendarDays: number): numb
   return (latest.c / start.c) ** (365 / calendarDays) - 1;
 }
 
-function returnOverCalendarDays(points: RangePricePoint[], calendarDays: number): number | null {
+function returnOverCalendarDays(
+  points: RangePricePoint[],
+  calendarDays: number,
+): number | null {
   const sorted = [...points].sort((a, b) => a.t - b.t);
   if (sorted.length < 2) return null;
   const latest = sorted[sorted.length - 1];
@@ -274,7 +301,10 @@ function returnOverCalendarDays(points: RangePricePoint[], calendarDays: number)
   return latest.c / start.c - 1;
 }
 
-function movingAverage(points: RangePricePoint[], tradingDays: number): number | null {
+function movingAverage(
+  points: RangePricePoint[],
+  tradingDays: number,
+): number | null {
   const sorted = [...points].sort((a, b) => a.t - b.t).slice(-tradingDays);
   if (sorted.length < Math.min(20, tradingDays)) return null;
   return sorted.reduce((sum, point) => sum + point.c, 0) / sorted.length;
@@ -285,8 +315,12 @@ function beta(
   benchmark: RangePricePoint[],
   tradingDays: number,
 ): number | null {
-  const stock = new Map(dayReturns(points).map((item) => [item.date, item.value]));
-  const index = new Map(dayReturns(benchmark).map((item) => [item.date, item.value]));
+  const stock = new Map(
+    dayReturns(points).map((item) => [item.date, item.value]),
+  );
+  const index = new Map(
+    dayReturns(benchmark).map((item) => [item.date, item.value]),
+  );
   const dates = [...stock.keys()]
     .filter((date) => index.has(date))
     .sort()
@@ -294,8 +328,10 @@ function beta(
   if (dates.length < 30) return null;
   const stockReturns = dates.map((date) => stock.get(date) as number);
   const indexReturns = dates.map((date) => index.get(date) as number);
-  const stockMean = stockReturns.reduce((sum, value) => sum + value, 0) / stockReturns.length;
-  const indexMean = indexReturns.reduce((sum, value) => sum + value, 0) / indexReturns.length;
+  const stockMean =
+    stockReturns.reduce((sum, value) => sum + value, 0) / stockReturns.length;
+  const indexMean =
+    indexReturns.reduce((sum, value) => sum + value, 0) / indexReturns.length;
   let covariance = 0;
   let variance = 0;
   for (let i = 0; i < dates.length; i += 1) {
@@ -374,7 +410,11 @@ function epsSurprise(consensus: Consensus | null): number | null {
   if (!consensus) return null;
   const surprises = consensus.history
     .map((row) => {
-      if (!finite(row.epsActual) || !finite(row.epsEstimate) || row.epsEstimate === 0) {
+      if (
+        !finite(row.epsActual) ||
+        !finite(row.epsEstimate) ||
+        row.epsEstimate === 0
+      ) {
         return null;
       }
       return (row.epsActual - row.epsEstimate) / Math.abs(row.epsEstimate);
@@ -429,7 +469,9 @@ export function computePriceParameters(
         ? stockReturn - (returnOverCalendarDays(prices, 30) as number)
         : null,
     relativeStrength:
-      stockReturn != null && benchReturn != null ? stockReturn - benchReturn : null,
+      stockReturn != null && benchReturn != null
+        ? stockReturn - benchReturn
+        : null,
     priceVs50dma: dma50 && dma50 > 0 ? price / dma50 - 1 : null,
     priceVs200dma: dma200 && dma200 > 0 ? price / dma200 - 1 : null,
     vol30d: vol30,
@@ -465,7 +507,10 @@ export function computeRawParameters(
   const cash = ttmOrAnnual(data, "cashAndInvestments");
   const assets = ttmOrAnnual(data, "totalAssets");
   const marketCap = data.latestPrice.marketCap;
-  const ev = marketCap != null && debt != null ? marketCap + debt - (cash ?? 0) : marketCap;
+  const ev =
+    marketCap != null && debt != null
+      ? marketCap + debt - (cash ?? 0)
+      : marketCap;
   const priceParameters = computePriceParameters(prices, pricesMax, benchmark);
   const beta1y = priceParameters.beta1y;
   const currentFy = consensus?.estimates.find(
@@ -476,11 +521,14 @@ export function computeRawParameters(
   );
   const forwardEps = currentFy?.epsAvg ?? null;
   const price = data.latestPrice.close;
-  const forwardPeValue = finite(forwardEps) && forwardEps > 0 ? price / forwardEps : null;
+  const forwardPeValue =
+    finite(forwardEps) && forwardEps > 0 ? price / forwardEps : null;
   const forwardGrowth = currentFy?.epsGrowth ?? nextFy?.epsGrowth ?? null;
   const roic = data.metrics.roic;
   const investedCapital =
-    equity != null && debt != null && cash != null ? equity + debt - cash : null;
+    equity != null && debt != null && cash != null
+      ? equity + debt - cash
+      : null;
   const roce =
     investedCapital != null && investedCapital > 0
       ? safeDiv(operatingIncome, investedCapital)
@@ -506,20 +554,29 @@ export function computeRawParameters(
     .filter(finite);
   const roicTrend =
     annual.length >= 4
-      ? (annual.at(-1)?.roic ?? null) != null && (annual.at(-4)?.roic ?? null) != null
+      ? (annual.at(-1)?.roic ?? null) != null &&
+        (annual.at(-4)?.roic ?? null) != null
         ? (annual.at(-1)!.roic as number) - (annual.at(-4)!.roic as number)
         : null
       : null;
 
   const latestInvested = latest
-    ? (latest.totalEquity ?? 0) + (latest.totalDebt ?? 0) - (latest.cashAndInvestments ?? 0)
+    ? (latest.totalEquity ?? 0) +
+      (latest.totalDebt ?? 0) -
+      (latest.cashAndInvestments ?? 0)
     : null;
   const old = annual.at(-4);
   const oldInvested = old
-    ? (old.totalEquity ?? 0) + (old.totalDebt ?? 0) - (old.cashAndInvestments ?? 0)
+    ? (old.totalEquity ?? 0) +
+      (old.totalDebt ?? 0) -
+      (old.cashAndInvestments ?? 0)
     : null;
   const incrementalRoic =
-    latest && old && latestInvested != null && oldInvested != null && latestInvested - oldInvested > 0
+    latest &&
+    old &&
+    latestInvested != null &&
+    oldInvested != null &&
+    latestInvested - oldInvested > 0
       ? ((latest.operatingIncome ?? 0) * (1 - TAX_RATE) -
           (old.operatingIncome ?? 0) * (1 - TAX_RATE)) /
         (latestInvested - oldInvested)
@@ -537,7 +594,8 @@ export function computeRawParameters(
     revenueAcceleration:
       growthAcceleration(quarters, "revenue") ??
       (annual.length >= 2
-        ? (data.metrics.revenueGrowthTtm ?? 0) - (data.metrics.revenueGrowthLatestQ ?? 0)
+        ? (data.metrics.revenueGrowthTtm ?? 0) -
+          (data.metrics.revenueGrowthLatestQ ?? 0)
         : null),
     epsAcceleration: growthAcceleration(quarters, "epsDiluted"),
     forwardRevenueGrowth1: currentFy?.revenueGrowth ?? null,
@@ -554,12 +612,17 @@ export function computeRawParameters(
     fcfMargin: data.metrics.fcfMargin,
     cfoPat: netIncome != null && netIncome > 0 ? safeDiv(cfo, netIncome) : null,
     accrualRatio:
-      averageAssets != null && averageAssets > 0 && netIncome != null && cfo != null
+      averageAssets != null &&
+      averageAssets > 0 &&
+      netIncome != null &&
+      cfo != null
         ? (netIncome - cfo) / averageAssets
         : null,
     debtEquity: equity != null && equity > 0 ? safeDiv(debt, equity) : null,
     interestCoverage:
-      interest != null && Math.abs(interest) > 0 ? safeDiv(operatingIncome, Math.abs(interest)) : null,
+      interest != null && Math.abs(interest) > 0
+        ? safeDiv(operatingIncome, Math.abs(interest))
+        : null,
     netDebtEbitda: data.metrics.netDebtToEbitda,
     assetTurnover: safeDiv(revenue, averageAssets),
     roicTrend,
@@ -571,21 +634,31 @@ export function computeRawParameters(
     pe: data.metrics.pe,
     forwardPe: forwardPeValue,
     evEbitda: data.metrics.evEbitda,
-    evEbit: ebitda != null && ev != null && operatingIncome != null && operatingIncome > 0
-      ? ev / operatingIncome
-      : null,
+    evEbit:
+      ebitda != null &&
+      ev != null &&
+      operatingIncome != null &&
+      operatingIncome > 0
+        ? ev / operatingIncome
+        : null,
     evSales: data.metrics.evSales,
     pb: equity != null && equity > 0 ? safeDiv(marketCap, equity) : null,
     pfcf: data.metrics.pfcf,
     fcfYield: data.metrics.fcfYield,
-    earningsYield: data.metrics.pe != null && data.metrics.pe > 0 ? 1 / data.metrics.pe : null,
-    peg: forwardPeValue != null && forwardGrowth != null && forwardGrowth > 0
-      ? forwardPeValue / (forwardGrowth * 100)
-      : null,
+    earningsYield:
+      data.metrics.pe != null && data.metrics.pe > 0
+        ? 1 / data.metrics.pe
+        : null,
+    peg:
+      forwardPeValue != null && forwardGrowth != null && forwardGrowth > 0
+        ? forwardPeValue / (forwardGrowth * 100)
+        : null,
     dividendYield: data.latestPrice.dividendYield,
     historicalValuation: historicalValuationPercentile(data, pricesMax),
     buybackYield:
-      finite(buybacks) && marketCap != null && marketCap > 0 ? buybacks / marketCap : null,
+      finite(buybacks) && marketCap != null && marketCap > 0
+        ? buybacks / marketCap
+        : null,
     netMargin: data.metrics.netMargin,
     revenueGrowthTtm: data.metrics.revenueGrowthTtm,
     return1y: data.metrics.return1y,
@@ -607,20 +680,124 @@ export const FACTOR_CONFIG: FactorConfig[] = [
     weight: 0.2,
     description: "Revenue, earnings and cash-flow expansion.",
     parameters: [
-      { key: "revenueCagr3y", label: "Revenue CAGR 3Y", weight: 0.1, direction: "higher", unit: "pct", description: "Three-year compound annual revenue growth." },
-      { key: "revenueCagr5y", label: "Revenue CAGR 5Y", weight: 0.06, direction: "higher", unit: "pct", description: "Five-year compound annual revenue growth." },
-      { key: "ebitdaCagr3y", label: "EBITDA CAGR 3Y", weight: 0.06, direction: "higher", unit: "pct", description: "Three-year compound annual EBITDA growth." },
-      { key: "ebitCagr3y", label: "EBIT CAGR 3Y", weight: 0.06, direction: "higher", unit: "pct", description: "Three-year compound annual operating-income growth." },
-      { key: "epsCagr3y", label: "EPS CAGR 3Y", weight: 0.12, direction: "higher", unit: "pct", description: "Three-year compound annual diluted EPS growth." },
-      { key: "epsCagr5y", label: "EPS CAGR 5Y", weight: 0.06, direction: "higher", unit: "pct", description: "Five-year compound annual diluted EPS growth." },
-      { key: "patCagr3y", label: "PAT CAGR 3Y", weight: 0.06, direction: "higher", unit: "pct", description: "Three-year compound annual net-profit growth." },
-      { key: "fcfCagr3y", label: "FCF CAGR 3Y", weight: 0.08, direction: "higher", unit: "pct", description: "Three-year compound annual free-cash-flow growth." },
-      { key: "revenueAcceleration", label: "Sales acceleration", weight: 0.12, direction: "higher", unit: "pct", description: "Change in year-over-year revenue growth, latest quarter versus prior quarter." },
-      { key: "epsAcceleration", label: "EPS acceleration", weight: 0.12, direction: "higher", unit: "pct", description: "Change in year-over-year EPS growth, latest quarter versus prior quarter." },
-      { key: "forwardRevenueGrowth1", label: "Forward revenue growth FY1", weight: 0.04, direction: "higher", unit: "pct", description: "Third-party consensus revenue growth for the current fiscal year." },
-      { key: "forwardRevenueGrowth2", label: "Forward revenue growth FY2", weight: 0.03, direction: "higher", unit: "pct", description: "Third-party consensus revenue growth for the next fiscal year." },
-      { key: "forwardEpsGrowth1", label: "Forward EPS growth FY1", weight: 0.05, direction: "higher", unit: "pct", description: "Third-party consensus EPS growth for the current fiscal year." },
-      { key: "forwardEpsGrowth2", label: "Forward EPS growth FY2", weight: 0.04, direction: "higher", unit: "pct", description: "Third-party consensus EPS growth for the next fiscal year." },
+      {
+        key: "revenueCagr3y",
+        label: "Revenue CAGR 3Y",
+        weight: 0.1,
+        direction: "higher",
+        unit: "pct",
+        description: "Three-year compound annual revenue growth.",
+      },
+      {
+        key: "revenueCagr5y",
+        label: "Revenue CAGR 5Y",
+        weight: 0.06,
+        direction: "higher",
+        unit: "pct",
+        description: "Five-year compound annual revenue growth.",
+      },
+      {
+        key: "ebitdaCagr3y",
+        label: "EBITDA CAGR 3Y",
+        weight: 0.06,
+        direction: "higher",
+        unit: "pct",
+        description: "Three-year compound annual EBITDA growth.",
+      },
+      {
+        key: "ebitCagr3y",
+        label: "EBIT CAGR 3Y",
+        weight: 0.06,
+        direction: "higher",
+        unit: "pct",
+        description: "Three-year compound annual operating-income growth.",
+      },
+      {
+        key: "epsCagr3y",
+        label: "EPS CAGR 3Y",
+        weight: 0.12,
+        direction: "higher",
+        unit: "pct",
+        description: "Three-year compound annual diluted EPS growth.",
+      },
+      {
+        key: "epsCagr5y",
+        label: "EPS CAGR 5Y",
+        weight: 0.06,
+        direction: "higher",
+        unit: "pct",
+        description: "Five-year compound annual diluted EPS growth.",
+      },
+      {
+        key: "patCagr3y",
+        label: "PAT CAGR 3Y",
+        weight: 0.06,
+        direction: "higher",
+        unit: "pct",
+        description: "Three-year compound annual net-profit growth.",
+      },
+      {
+        key: "fcfCagr3y",
+        label: "FCF CAGR 3Y",
+        weight: 0.08,
+        direction: "higher",
+        unit: "pct",
+        description: "Three-year compound annual free-cash-flow growth.",
+      },
+      {
+        key: "revenueAcceleration",
+        label: "Sales acceleration",
+        weight: 0.12,
+        direction: "higher",
+        unit: "pct",
+        description:
+          "Change in year-over-year revenue growth, latest quarter versus prior quarter.",
+      },
+      {
+        key: "epsAcceleration",
+        label: "EPS acceleration",
+        weight: 0.12,
+        direction: "higher",
+        unit: "pct",
+        description:
+          "Change in year-over-year EPS growth, latest quarter versus prior quarter.",
+      },
+      {
+        key: "forwardRevenueGrowth1",
+        label: "Forward revenue growth FY1",
+        weight: 0.04,
+        direction: "higher",
+        unit: "pct",
+        description:
+          "Third-party consensus revenue growth for the current fiscal year.",
+      },
+      {
+        key: "forwardRevenueGrowth2",
+        label: "Forward revenue growth FY2",
+        weight: 0.03,
+        direction: "higher",
+        unit: "pct",
+        description:
+          "Third-party consensus revenue growth for the next fiscal year.",
+      },
+      {
+        key: "forwardEpsGrowth1",
+        label: "Forward EPS growth FY1",
+        weight: 0.05,
+        direction: "higher",
+        unit: "pct",
+        description:
+          "Third-party consensus EPS growth for the current fiscal year.",
+      },
+      {
+        key: "forwardEpsGrowth2",
+        label: "Forward EPS growth FY2",
+        weight: 0.04,
+        direction: "higher",
+        unit: "pct",
+        description:
+          "Third-party consensus EPS growth for the next fiscal year.",
+      },
     ],
   },
   {
@@ -628,26 +805,156 @@ export const FACTOR_CONFIG: FactorConfig[] = [
     label: "Quality",
     shortLabel: "Q",
     weight: 0.25,
-    description: "Profitability, efficiency, cash conversion and financial strength.",
+    description:
+      "Profitability, efficiency, cash conversion and financial strength.",
     parameters: [
-      { key: "roe", label: "ROE", weight: 0.08, direction: "higher", unit: "pct", description: "Net income divided by shareholders' equity." },
-      { key: "roce", label: "ROCE", weight: 0.07, direction: "higher", unit: "pct", description: "Operating income divided by capital employed." },
-      { key: "roic", label: "ROIC", weight: 0.1, direction: "higher", unit: "pct", description: "After-tax operating income divided by invested capital." },
-      { key: "grossMargin", label: "Gross margin", weight: 0.04, direction: "higher", unit: "pct", description: "Gross profit divided by revenue." },
-      { key: "ebitdaMargin", label: "EBITDA margin", weight: 0.05, direction: "higher", unit: "pct", description: "EBITDA divided by revenue." },
-      { key: "ebitMargin", label: "EBIT margin", weight: 0.05, direction: "higher", unit: "pct", description: "Operating income divided by revenue." },
-      { key: "fcfMargin", label: "FCF margin", weight: 0.07, direction: "higher", unit: "pct", description: "Free cash flow divided by revenue." },
-      { key: "cfoPat", label: "CFO / PAT", weight: 0.1, direction: "higher", unit: "x", description: "Operating cash flow divided by net profit." },
-      { key: "accrualRatio", label: "Accrual ratio", weight: 0.06, direction: "lower", unit: "pct", description: "Net income less operating cash flow, divided by average assets." },
-      { key: "debtEquity", label: "Debt / equity", weight: 0.06, direction: "lower", unit: "x", description: "Total debt divided by shareholders' equity." },
-      { key: "interestCoverage", label: "Interest coverage", weight: 0.06, direction: "higher", unit: "x", description: "Operating income divided by interest expense." },
-      { key: "netDebtEbitda", label: "Net debt / EBITDA", weight: 0.06, direction: "lower", unit: "x", description: "Net debt divided by EBITDA." },
-      { key: "assetTurnover", label: "Asset turnover", weight: 0.04, direction: "higher", unit: "x", description: "Revenue divided by average total assets." },
-      { key: "roicTrend", label: "ROIC trend", weight: 0.05, direction: "higher", unit: "pct", description: "Change in ROIC over the last three fiscal years." },
-      { key: "roicStability", label: "ROIC stability", weight: 0.04, direction: "lower", unit: "num", description: "Standard deviation of annual ROIC over five years." },
-      { key: "marginStability", label: "Margin stability", weight: 0.04, direction: "lower", unit: "num", description: "Standard deviation of annual operating margins over five years." },
-      { key: "incrementalRoic", label: "Incremental ROIC", weight: 0.03, direction: "higher", unit: "pct", description: "Change in after-tax operating profit divided by change in invested capital." },
-      { key: "roicWaccSpread", label: "ROIC - WACC", weight: 0.04, direction: "higher", unit: "pct", description: "ROIC less an estimated weighted average cost of capital." },
+      {
+        key: "roe",
+        label: "ROE",
+        weight: 0.08,
+        direction: "higher",
+        unit: "pct",
+        description: "Net income divided by shareholders' equity.",
+      },
+      {
+        key: "roce",
+        label: "ROCE",
+        weight: 0.07,
+        direction: "higher",
+        unit: "pct",
+        description: "Operating income divided by capital employed.",
+      },
+      {
+        key: "roic",
+        label: "ROIC",
+        weight: 0.1,
+        direction: "higher",
+        unit: "pct",
+        description: "After-tax operating income divided by invested capital.",
+      },
+      {
+        key: "grossMargin",
+        label: "Gross margin",
+        weight: 0.04,
+        direction: "higher",
+        unit: "pct",
+        description: "Gross profit divided by revenue.",
+      },
+      {
+        key: "ebitdaMargin",
+        label: "EBITDA margin",
+        weight: 0.05,
+        direction: "higher",
+        unit: "pct",
+        description: "EBITDA divided by revenue.",
+      },
+      {
+        key: "ebitMargin",
+        label: "EBIT margin",
+        weight: 0.05,
+        direction: "higher",
+        unit: "pct",
+        description: "Operating income divided by revenue.",
+      },
+      {
+        key: "fcfMargin",
+        label: "FCF margin",
+        weight: 0.07,
+        direction: "higher",
+        unit: "pct",
+        description: "Free cash flow divided by revenue.",
+      },
+      {
+        key: "cfoPat",
+        label: "CFO / PAT",
+        weight: 0.1,
+        direction: "higher",
+        unit: "x",
+        description: "Operating cash flow divided by net profit.",
+      },
+      {
+        key: "accrualRatio",
+        label: "Accrual ratio",
+        weight: 0.06,
+        direction: "lower",
+        unit: "pct",
+        description:
+          "Net income less operating cash flow, divided by average assets.",
+      },
+      {
+        key: "debtEquity",
+        label: "Debt / equity",
+        weight: 0.06,
+        direction: "lower",
+        unit: "x",
+        description: "Total debt divided by shareholders' equity.",
+      },
+      {
+        key: "interestCoverage",
+        label: "Interest coverage",
+        weight: 0.06,
+        direction: "higher",
+        unit: "x",
+        description: "Operating income divided by interest expense.",
+      },
+      {
+        key: "netDebtEbitda",
+        label: "Net debt / EBITDA",
+        weight: 0.06,
+        direction: "lower",
+        unit: "x",
+        description: "Net debt divided by EBITDA.",
+      },
+      {
+        key: "assetTurnover",
+        label: "Asset turnover",
+        weight: 0.04,
+        direction: "higher",
+        unit: "x",
+        description: "Revenue divided by average total assets.",
+      },
+      {
+        key: "roicTrend",
+        label: "ROIC trend",
+        weight: 0.05,
+        direction: "higher",
+        unit: "pct",
+        description: "Change in ROIC over the last three fiscal years.",
+      },
+      {
+        key: "roicStability",
+        label: "ROIC stability",
+        weight: 0.04,
+        direction: "lower",
+        unit: "num",
+        description: "Standard deviation of annual ROIC over five years.",
+      },
+      {
+        key: "marginStability",
+        label: "Margin stability",
+        weight: 0.04,
+        direction: "lower",
+        unit: "num",
+        description:
+          "Standard deviation of annual operating margins over five years.",
+      },
+      {
+        key: "incrementalRoic",
+        label: "Incremental ROIC",
+        weight: 0.03,
+        direction: "higher",
+        unit: "pct",
+        description:
+          "Change in after-tax operating profit divided by change in invested capital.",
+      },
+      {
+        key: "roicWaccSpread",
+        label: "ROIC - WACC",
+        weight: 0.04,
+        direction: "higher",
+        unit: "pct",
+        description: "ROIC less an estimated weighted average cost of capital.",
+      },
     ],
   },
   {
@@ -657,19 +964,111 @@ export const FACTOR_CONFIG: FactorConfig[] = [
     weight: 0.2,
     description: "Relative and absolute stock attractiveness.",
     parameters: [
-      { key: "pe", label: "P/E", weight: 0.1, direction: "lower", unit: "x", description: "Market capitalisation divided by trailing net income." },
-      { key: "forwardPe", label: "Forward P/E", weight: 0.1, direction: "lower", unit: "x", description: "Price divided by current-year consensus EPS." },
-      { key: "evEbitda", label: "EV/EBITDA", weight: 0.1, direction: "lower", unit: "x", description: "Enterprise value divided by EBITDA." },
-      { key: "evEbit", label: "EV/EBIT", weight: 0.06, direction: "lower", unit: "x", description: "Enterprise value divided by operating income." },
-      { key: "evSales", label: "EV/Sales", weight: 0.05, direction: "lower", unit: "x", description: "Enterprise value divided by revenue." },
-      { key: "pb", label: "P/B", weight: 0.08, direction: "lower", unit: "x", description: "Market capitalisation divided by book equity." },
-      { key: "pfcf", label: "P/FCF", weight: 0.08, direction: "lower", unit: "x", description: "Market capitalisation divided by free cash flow." },
-      { key: "fcfYield", label: "FCF yield", weight: 0.1, direction: "higher", unit: "pct", description: "Free cash flow divided by market capitalisation." },
-      { key: "earningsYield", label: "Earnings yield", weight: 0.06, direction: "higher", unit: "pct", description: "Trailing EPS divided by price." },
-      { key: "peg", label: "PEG", weight: 0.08, direction: "lower", unit: "x", description: "Forward P/E divided by consensus EPS growth." },
-      { key: "dividendYield", label: "Dividend yield", weight: 0.04, direction: "higher", unit: "pct", description: "Dividend per share divided by price." },
-      { key: "historicalValuation", label: "Historical valuation", weight: 0.05, direction: "higher", unit: "score", description: "Cheapness percentile versus the company's own five-year P/E history." },
-      { key: "buybackYield", label: "Buyback yield", weight: 0.05, direction: "higher", unit: "pct", description: "Buybacks divided by market capitalisation." },
+      {
+        key: "pe",
+        label: "P/E",
+        weight: 0.1,
+        direction: "lower",
+        unit: "x",
+        description: "Market capitalisation divided by trailing net income.",
+      },
+      {
+        key: "forwardPe",
+        label: "Forward P/E",
+        weight: 0.1,
+        direction: "lower",
+        unit: "x",
+        description: "Price divided by current-year consensus EPS.",
+      },
+      {
+        key: "evEbitda",
+        label: "EV/EBITDA",
+        weight: 0.1,
+        direction: "lower",
+        unit: "x",
+        description: "Enterprise value divided by EBITDA.",
+      },
+      {
+        key: "evEbit",
+        label: "EV/EBIT",
+        weight: 0.06,
+        direction: "lower",
+        unit: "x",
+        description: "Enterprise value divided by operating income.",
+      },
+      {
+        key: "evSales",
+        label: "EV/Sales",
+        weight: 0.05,
+        direction: "lower",
+        unit: "x",
+        description: "Enterprise value divided by revenue.",
+      },
+      {
+        key: "pb",
+        label: "P/B",
+        weight: 0.08,
+        direction: "lower",
+        unit: "x",
+        description: "Market capitalisation divided by book equity.",
+      },
+      {
+        key: "pfcf",
+        label: "P/FCF",
+        weight: 0.08,
+        direction: "lower",
+        unit: "x",
+        description: "Market capitalisation divided by free cash flow.",
+      },
+      {
+        key: "fcfYield",
+        label: "FCF yield",
+        weight: 0.1,
+        direction: "higher",
+        unit: "pct",
+        description: "Free cash flow divided by market capitalisation.",
+      },
+      {
+        key: "earningsYield",
+        label: "Earnings yield",
+        weight: 0.06,
+        direction: "higher",
+        unit: "pct",
+        description: "Trailing EPS divided by price.",
+      },
+      {
+        key: "peg",
+        label: "PEG",
+        weight: 0.08,
+        direction: "lower",
+        unit: "x",
+        description: "Forward P/E divided by consensus EPS growth.",
+      },
+      {
+        key: "dividendYield",
+        label: "Dividend yield",
+        weight: 0.04,
+        direction: "higher",
+        unit: "pct",
+        description: "Dividend per share divided by price.",
+      },
+      {
+        key: "historicalValuation",
+        label: "Historical valuation",
+        weight: 0.05,
+        direction: "higher",
+        unit: "score",
+        description:
+          "Cheapness percentile versus the company's own five-year P/E history.",
+      },
+      {
+        key: "buybackYield",
+        label: "Buyback yield",
+        weight: 0.05,
+        direction: "higher",
+        unit: "pct",
+        description: "Buybacks divided by market capitalisation.",
+      },
     ],
   },
   {
@@ -679,39 +1078,208 @@ export const FACTOR_CONFIG: FactorConfig[] = [
     weight: 0.2,
     description: "Price trends, relative strength and earnings revisions.",
     parameters: [
-      { key: "return1m", label: "1M return", weight: 0.06, direction: "higher", unit: "pct", description: "One-month price return." },
-      { key: "return3m", label: "3M return", weight: 0.08, direction: "higher", unit: "pct", description: "Three-month price return." },
-      { key: "return6m", label: "6M return", weight: 0.08, direction: "higher", unit: "pct", description: "Six-month price return." },
-      { key: "return12m", label: "12M return", weight: 0.1, direction: "higher", unit: "pct", description: "Twelve-month price return." },
-      { key: "momentum12m1m", label: "12M - 1M momentum", weight: 0.12, direction: "higher", unit: "pct", description: "Twelve-month return excluding the latest month." },
-      { key: "relativeStrength", label: "Relative strength", weight: 0.12, direction: "higher", unit: "pct", description: "Twelve-month return less the S&P 500 return." },
-      { key: "priceVs50dma", label: "Price vs 50 DMA", weight: 0.08, direction: "higher", unit: "pct", description: "Latest price relative to the 50-day moving average." },
-      { key: "priceVs200dma", label: "Price vs 200 DMA", weight: 0.08, direction: "higher", unit: "pct", description: "Latest price relative to the 200-day moving average." },
-      { key: "epsRevision30d", label: "EPS revision 30D", weight: 0.1, direction: "higher", unit: "pct", description: "Change in current-year consensus EPS over 30 days." },
-      { key: "epsRevision90d", label: "EPS revision 90D", weight: 0.08, direction: "higher", unit: "pct", description: "Change in current-year consensus EPS over 90 days." },
-      { key: "epsSurprise", label: "EPS surprise", weight: 0.05, direction: "higher", unit: "pct", description: "Average reported EPS versus consensus estimate over the recent quarters." },
-      { key: "earningsMomentum", label: "Earnings momentum", weight: 0.05, direction: "higher", unit: "pct", description: "Forward consensus EPS growth." },
+      {
+        key: "return1m",
+        label: "1M return",
+        weight: 0.06,
+        direction: "higher",
+        unit: "pct",
+        description: "One-month price return.",
+      },
+      {
+        key: "return3m",
+        label: "3M return",
+        weight: 0.08,
+        direction: "higher",
+        unit: "pct",
+        description: "Three-month price return.",
+      },
+      {
+        key: "return6m",
+        label: "6M return",
+        weight: 0.08,
+        direction: "higher",
+        unit: "pct",
+        description: "Six-month price return.",
+      },
+      {
+        key: "return12m",
+        label: "12M return",
+        weight: 0.1,
+        direction: "higher",
+        unit: "pct",
+        description: "Twelve-month price return.",
+      },
+      {
+        key: "momentum12m1m",
+        label: "12M - 1M momentum",
+        weight: 0.12,
+        direction: "higher",
+        unit: "pct",
+        description: "Twelve-month return excluding the latest month.",
+      },
+      {
+        key: "relativeStrength",
+        label: "Relative strength",
+        weight: 0.12,
+        direction: "higher",
+        unit: "pct",
+        description: "Twelve-month return less the S&P 500 return.",
+      },
+      {
+        key: "priceVs50dma",
+        label: "Price vs 50 DMA",
+        weight: 0.08,
+        direction: "higher",
+        unit: "pct",
+        description: "Latest price relative to the 50-day moving average.",
+      },
+      {
+        key: "priceVs200dma",
+        label: "Price vs 200 DMA",
+        weight: 0.08,
+        direction: "higher",
+        unit: "pct",
+        description: "Latest price relative to the 200-day moving average.",
+      },
+      {
+        key: "epsRevision30d",
+        label: "EPS revision 30D",
+        weight: 0.1,
+        direction: "higher",
+        unit: "pct",
+        description: "Change in current-year consensus EPS over 30 days.",
+      },
+      {
+        key: "epsRevision90d",
+        label: "EPS revision 90D",
+        weight: 0.08,
+        direction: "higher",
+        unit: "pct",
+        description: "Change in current-year consensus EPS over 90 days.",
+      },
+      {
+        key: "epsSurprise",
+        label: "EPS surprise",
+        weight: 0.05,
+        direction: "higher",
+        unit: "pct",
+        description:
+          "Average reported EPS versus consensus estimate over the recent quarters.",
+      },
+      {
+        key: "earningsMomentum",
+        label: "Earnings momentum",
+        weight: 0.05,
+        direction: "higher",
+        unit: "pct",
+        description: "Forward consensus EPS growth.",
+      },
     ],
   },
   {
     key: "lowVolatility",
-    label: "Low Volatility",
+    label: "Low volatility",
     shortLabel: "L",
     weight: 0.15,
     description: "Downside risk, price stability and consistency.",
     parameters: [
-      { key: "vol30d", label: "30D volatility", weight: 0.06, direction: "lower", unit: "pct", description: "Annualised 30-day price volatility." },
-      { key: "vol90d", label: "90D volatility", weight: 0.08, direction: "lower", unit: "pct", description: "Annualised 90-day price volatility." },
-      { key: "vol252d", label: "252D volatility", weight: 0.12, direction: "lower", unit: "pct", description: "Annualised 252-day price volatility." },
-      { key: "beta1y", label: "Beta 1Y", weight: 0.1, direction: "lower", unit: "num", description: "One-year beta versus the S&P 500." },
-      { key: "beta2y", label: "Beta 2Y", weight: 0.1, direction: "lower", unit: "num", description: "Two-year beta versus the S&P 500." },
-      { key: "downsideDeviation", label: "Downside deviation", weight: 0.14, direction: "lower", unit: "pct", description: "Annualised volatility of negative daily returns." },
-      { key: "maxDrawdown", label: "Max drawdown", weight: 0.12, direction: "higher", unit: "pct", description: "Worst peak-to-trough decline over the last year." },
-      { key: "sortino", label: "Sortino ratio", weight: 0.08, direction: "higher", unit: "num", description: "Excess return divided by downside deviation." },
-      { key: "sharpe", label: "Sharpe ratio", weight: 0.08, direction: "higher", unit: "num", description: "Excess return divided by total volatility." },
-      { key: "var95", label: "95% VaR", weight: 0.06, direction: "higher", unit: "pct", description: "Historical 95% one-day value at risk." },
-      { key: "negativeFrequency", label: "Negative days", weight: 0.04, direction: "lower", unit: "pct", description: "Share of trading days with a negative return." },
-      { key: "recoveryPeriod", label: "Recovery period", weight: 0.02, direction: "lower", unit: "days", description: "Longest run below a prior peak over the last year." },
+      {
+        key: "vol30d",
+        label: "30D volatility",
+        weight: 0.06,
+        direction: "lower",
+        unit: "pct",
+        description: "Annualised 30-day price volatility.",
+      },
+      {
+        key: "vol90d",
+        label: "90D volatility",
+        weight: 0.08,
+        direction: "lower",
+        unit: "pct",
+        description: "Annualised 90-day price volatility.",
+      },
+      {
+        key: "vol252d",
+        label: "252D volatility",
+        weight: 0.12,
+        direction: "lower",
+        unit: "pct",
+        description: "Annualised 252-day price volatility.",
+      },
+      {
+        key: "beta1y",
+        label: "Beta 1Y",
+        weight: 0.1,
+        direction: "lower",
+        unit: "num",
+        description: "One-year beta versus the S&P 500.",
+      },
+      {
+        key: "beta2y",
+        label: "Beta 2Y",
+        weight: 0.1,
+        direction: "lower",
+        unit: "num",
+        description: "Two-year beta versus the S&P 500.",
+      },
+      {
+        key: "downsideDeviation",
+        label: "Downside deviation",
+        weight: 0.14,
+        direction: "lower",
+        unit: "pct",
+        description: "Annualised volatility of negative daily returns.",
+      },
+      {
+        key: "maxDrawdown",
+        label: "Max drawdown",
+        weight: 0.12,
+        direction: "higher",
+        unit: "pct",
+        description: "Worst peak-to-trough decline over the last year.",
+      },
+      {
+        key: "sortino",
+        label: "Sortino ratio",
+        weight: 0.08,
+        direction: "higher",
+        unit: "num",
+        description: "Excess return divided by downside deviation.",
+      },
+      {
+        key: "sharpe",
+        label: "Sharpe ratio",
+        weight: 0.08,
+        direction: "higher",
+        unit: "num",
+        description: "Excess return divided by total volatility.",
+      },
+      {
+        key: "var95",
+        label: "95% VaR",
+        weight: 0.06,
+        direction: "higher",
+        unit: "pct",
+        description: "Historical 95% one-day value at risk.",
+      },
+      {
+        key: "negativeFrequency",
+        label: "Negative days",
+        weight: 0.04,
+        direction: "lower",
+        unit: "pct",
+        description: "Share of trading days with a negative return.",
+      },
+      {
+        key: "recoveryPeriod",
+        label: "Recovery period",
+        weight: 0.02,
+        direction: "lower",
+        unit: "days",
+        description: "Longest run below a prior peak over the last year.",
+      },
     ],
   },
 ];
@@ -719,7 +1287,10 @@ export const FACTOR_CONFIG: FactorConfig[] = [
 function quantile(values: number[], q: number): number {
   if (!values.length) return 0;
   const sorted = [...values].sort((a, b) => a - b);
-  const index = Math.min(sorted.length - 1, Math.max(0, Math.floor((sorted.length - 1) * q)));
+  const index = Math.min(
+    sorted.length - 1,
+    Math.max(0, Math.floor((sorted.length - 1) * q)),
+  );
   return sorted[index];
 }
 
@@ -731,9 +1302,13 @@ function factorScore(
     (parameter) => scores[parameter.key]?.score != null,
   );
   if (available.length < 2) return null;
-  const totalWeight = available.reduce((sum, parameter) => sum + parameter.weight, 0);
+  const totalWeight = available.reduce(
+    (sum, parameter) => sum + parameter.weight,
+    0,
+  );
   const weighted = available.reduce(
-    (sum, parameter) => sum + (scores[parameter.key].score as number) * parameter.weight,
+    (sum, parameter) =>
+      sum + (scores[parameter.key].score as number) * parameter.weight,
     0,
   );
   return totalWeight > 0 ? Math.round(weighted / totalWeight) : null;
@@ -769,7 +1344,11 @@ function buildPopulation(values: number[]): Population {
   }
   const low = quantile(sorted, 0.02);
   const high = quantile(sorted, 0.98);
-  return { sorted: sorted.map((value) => Math.min(high, Math.max(low, value))), low, high };
+  return {
+    sorted: sorted.map((value) => Math.min(high, Math.max(low, value))),
+    low,
+    high,
+  };
 }
 
 function percentileScoreSorted(
@@ -784,14 +1363,22 @@ function percentileScoreSorted(
     if (sorted[mid] <= value) low = mid + 1;
     else high = mid;
   }
-  const percentile = sorted.length ? Math.round((low / sorted.length) * 100) : 50;
+  const percentile = sorted.length
+    ? Math.round((low / sorted.length) * 100)
+    : 50;
   return direction === "higher" ? percentile : 100 - percentile;
 }
 
 /** Scores pre-computed raw entries so thousands of rows share one percentile pass. */
-export function scoreScreenerEntries(entries: ScreenerRawEntry[]): ScreenerRow[] {
+export function scoreScreenerEntries(
+  entries: ScreenerRawEntry[],
+): ScreenerRow[] {
   const parameterKeys = [
-    ...new Set(FACTOR_CONFIG.flatMap((factor) => factor.parameters.map((parameter) => parameter.key))),
+    ...new Set(
+      FACTOR_CONFIG.flatMap((factor) =>
+        factor.parameters.map((parameter) => parameter.key),
+      ),
+    ),
   ];
   const globalPopulations = new Map<string, Population>();
   const groupPopulations = new Map<string, Population>();
@@ -846,7 +1433,10 @@ export function scoreScreenerEntries(entries: ScreenerRawEntry[]): ScreenerRow[]
     })).filter((part) => part.score != null);
     // A composite needs at least three factors so price-only names cannot
     // outrank fully-covered companies on momentum alone.
-    const totalWeight = compositeParts.reduce((sum, part) => sum + part.weight, 0);
+    const totalWeight = compositeParts.reduce(
+      (sum, part) => sum + part.weight,
+      0,
+    );
     const composite =
       compositeParts.length >= 3 && totalWeight > 0
         ? Math.round(
@@ -864,7 +1454,8 @@ export function scoreScreenerEntries(entries: ScreenerRawEntry[]): ScreenerRow[]
       (sum, factor) =>
         sum +
         factor.parameters.filter(
-          (parameter) => factors[factor.key].parameters[parameter.key]?.value != null,
+          (parameter) =>
+            factors[factor.key].parameters[parameter.key]?.value != null,
         ).length,
       0,
     );
@@ -921,7 +1512,9 @@ export function scoreScreenerEntries(entries: ScreenerRawEntry[]): ScreenerRow[]
     } satisfies ScreenerRow;
   });
 
-  const composites = buildPopulation(rows.map((row) => row.composite).filter(finite));
+  const composites = buildPopulation(
+    rows.map((row) => row.composite).filter(finite),
+  );
   for (const row of rows) {
     if (row.composite != null) {
       row.composite = percentileScoreSorted(

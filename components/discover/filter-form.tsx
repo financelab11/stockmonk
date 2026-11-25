@@ -51,11 +51,11 @@ const SCORE_OPTIONS = [
 ];
 
 const SCORE_FILTERS = [
-  { key: "minV2Composite", label: "Minimum V2 composite" },
-  { key: "minV2Growth", label: "Minimum V2 growth" },
-  { key: "minV2Quality", label: "Minimum V2 quality" },
-  { key: "minV2Valuation", label: "Minimum V2 valuation" },
-  { key: "minV2Technical", label: "Minimum V2 technical" },
+  { key: "minV2Composite", label: "Minimum composite score" },
+  { key: "minV2Growth", label: "Minimum growth score" },
+  { key: "minV2Quality", label: "Minimum quality score" },
+  { key: "minV2Valuation", label: "Minimum valuation score" },
+  { key: "minV2Technical", label: "Minimum technical score" },
 ] as const;
 
 export function FilterForm({
@@ -145,21 +145,21 @@ export function FilterForm({
   if (minV2Composite)
     chips.push({
       key: "minV2Composite",
-      label: `V2 composite ≥ ${minV2Composite}`,
+      label: `Composite ≥ ${minV2Composite}`,
     });
   if (minV2Growth)
-    chips.push({ key: "minV2Growth", label: `V2 growth ≥ ${minV2Growth}` });
+    chips.push({ key: "minV2Growth", label: `Growth ≥ ${minV2Growth}` });
   if (minV2Quality)
-    chips.push({ key: "minV2Quality", label: `V2 quality ≥ ${minV2Quality}` });
+    chips.push({ key: "minV2Quality", label: `Quality ≥ ${minV2Quality}` });
   if (minV2Valuation)
     chips.push({
       key: "minV2Valuation",
-      label: `V2 valuation ≥ ${minV2Valuation}`,
+      label: `Valuation ≥ ${minV2Valuation}`,
     });
   if (minV2Technical)
     chips.push({
       key: "minV2Technical",
-      label: `V2 technical ≥ ${minV2Technical}`,
+      label: `Technical ≥ ${minV2Technical}`,
     });
 
   const gridClass = showSector
@@ -309,8 +309,8 @@ export function FilterForm({
               ))}
             </select>
           </label>
-          <p className="pt-1 text-[10.5px] font-semibold uppercase tracking-[0.08em] text-muted sm:col-span-3 lg:col-span-4">
-            V2 score minimums
+          <p className="pt-1 text-[10.5px] font-semibold text-muted sm:col-span-3 lg:col-span-4">
+            Score minimums
           </p>
           {SCORE_FILTERS.map((item) => {
             const label = item.label.replace("Minimum ", "");

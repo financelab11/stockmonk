@@ -34,11 +34,13 @@
 
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-serif: var(--font-newsreader), Georgia, "Times New Roman", serif;
-  --font-mono: ui-monospace, "SFMono-Regular", "Cascadia Mono", Menlo, monospace;
+  --font-mono:
+    ui-monospace, "SFMono-Regular", "Cascadia Mono", Menlo, monospace;
 
   --radius-card: 0.75rem;
   --radius-pill: 999px;
-  --shadow-card: 0 1px 2px rgb(18 18 43 / 0.04), 0 12px 32px -20px rgb(18 18 43 / 0.16);
+  --shadow-card:
+    0 1px 2px rgb(18 18 43 / 0.04), 0 12px 32px -20px rgb(18 18 43 / 0.16);
   --shadow-float: 0 24px 64px -24px rgb(18 18 43 / 0.35);
   --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
 }
@@ -236,8 +238,6 @@
     font-size: 0.625rem;
     line-height: 1.2;
     font-weight: 600;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
     color: var(--color-muted);
   }
 
@@ -249,20 +249,18 @@
   }
 
   .kicker {
-    font-size: 0.6875rem;
+    font-family: var(--font-serif);
+    font-size: 0.75rem;
     line-height: 1.2;
-    font-weight: 650;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
+    font-weight: 500;
     color: var(--color-brand);
   }
 
   .eyebrow {
-    font-size: 0.6875rem;
+    font-family: var(--font-serif);
+    font-size: 0.75rem;
     line-height: 1.2;
-    font-weight: 600;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
+    font-weight: 500;
     color: var(--color-muted);
   }
 
@@ -440,7 +438,10 @@
   }
 
   .noise {
-    background-image: radial-gradient(rgb(16 24 40 / 0.08) 0.5px, transparent 0.5px);
+    background-image: radial-gradient(
+      rgb(16 24 40 / 0.08) 0.5px,
+      transparent 0.5px
+    );
     background-size: 8px 8px;
   }
 
@@ -507,8 +508,6 @@
   .data-table th {
     text-align: left;
     font-size: 0.625rem;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
     color: var(--color-muted);
     font-weight: 650;
     padding: 0.625rem 0.75rem;
@@ -529,8 +528,16 @@
 
   .hero-indigo {
     background:
-      radial-gradient(90% 130% at 15% 0%, rgb(83 60 214 / 0.55) 0%, transparent 58%),
-      radial-gradient(70% 100% at 90% 15%, rgb(139 61 255 / 0.35) 0%, transparent 62%),
+      radial-gradient(
+        90% 130% at 15% 0%,
+        rgb(83 60 214 / 0.55) 0%,
+        transparent 58%
+      ),
+      radial-gradient(
+        70% 100% at 90% 15%,
+        rgb(139 61 255 / 0.35) 0%,
+        transparent 62%
+      ),
       linear-gradient(135deg, #1b1464 0%, #2b1b8f 60%, #34209e 100%);
   }
 
@@ -554,13 +561,16 @@
   .surface-tint {
     background:
       radial-gradient(80% 100% at 10% 0%, #eef3ff 0%, transparent 55%),
-      radial-gradient(80% 100% at 95% 20%, #f6efff 0%, transparent 55%),
-      #f8f9fd;
+      radial-gradient(80% 100% at 95% 20%, #f6efff 0%, transparent 55%), #f8f9fd;
   }
 
   .dark-chart-card {
     background:
-      radial-gradient(80% 120% at 20% 0%, rgb(47 107 255 / 0.14) 0%, transparent 60%),
+      radial-gradient(
+        80% 120% at 20% 0%,
+        rgb(47 107 255 / 0.14) 0%,
+        transparent 60%
+      ),
       #0d0f1e;
     border: 1px solid #232741;
     border-radius: 0.875rem;
@@ -578,7 +588,9 @@
     font-weight: 600;
     color: var(--color-muted);
     white-space: nowrap;
-    transition: color 160ms ease, border-color 160ms ease;
+    transition:
+      color 160ms ease,
+      border-color 160ms ease;
   }
 
   .tab:hover {
@@ -598,12 +610,11 @@
   }
 
   .stat-label {
-    font-size: 0.625rem;
+    font-family: var(--font-serif);
+    font-size: 0.75rem;
     line-height: 1.2;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
     color: var(--color-muted);
-    font-weight: 650;
+    font-weight: 500;
   }
 
   .stat-value {
@@ -622,7 +633,6 @@
     padding: 0.85rem 0.95rem;
     color: #2b2f52;
   }
-
 }
 
 @layer utilities {

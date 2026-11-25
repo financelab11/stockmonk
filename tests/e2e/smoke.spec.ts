@@ -11,7 +11,7 @@ const ROUTES = [
   "/stocks/JPM",
   "/stocks/AMD",
   "/stocks/NVDA/scores",
-  "/framework/v2",
+  "/framework/scores",
   "/watchlist",
   "/about",
   "/privacy",

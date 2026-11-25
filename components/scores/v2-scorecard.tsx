@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { ComponentScore, V2ScoreRecord } from "@/lib/scoring-v2/types";
 import { classifyComponent, round } from "@/lib/scoring-v2/util";
+import { formatDate } from "@/lib/format";
 
 function tone(score: number | null): string {
   if (score == null) return "border-line bg-paper-deep text-muted";
@@ -23,9 +24,7 @@ function ComponentCard({ score }: { score: ComponentScore }) {
   return (
     <div className={`rounded-xl border p-3 ${tone(value)}`}>
       <div className="flex items-baseline justify-between gap-2">
-        <p className="text-[11px] font-semibold uppercase tracking-[0.08em]">
-          {score.label}
-        </p>
+        <p className="display text-[14px] font-medium">{score.label}</p>
         <span className="tabular text-[10px] font-medium opacity-70">
           {Math.round(score.weight * 100)}%
         </span>
@@ -45,7 +44,9 @@ function ComponentCard({ score }: { score: ComponentScore }) {
         />
       </div>
       <div className="mt-1.5 flex items-center justify-between gap-2 text-[10px] opacity-75">
-        <span className="tabular">{Math.round(score.coverage * 100)}% coverage</span>
+        <span className="tabular">
+          {Math.round(score.coverage * 100)}% coverage
+        </span>
         {score.status === "provisional" && <span>Provisional</span>}
       </div>
     </div>
@@ -62,17 +63,16 @@ export function V2Scorecard({
   const composite = record.composite;
   return (
     <section
-      aria-label="Stockmonk V2 research scores"
+      aria-label="Stockmonk research scores"
       className={`rounded-xl border border-line bg-surface ${compact ? "p-3" : "p-4"}`}
     >
       <div className="flex flex-wrap items-start justify-between gap-2">
         <div>
-          <p className="text-[10.5px] font-semibold uppercase tracking-[0.12em] text-muted">
-            Stockmonk V2 score
+          <p className="display text-[15px] font-medium text-ink">
+            Stockmonk research score
           </p>
           <p className="mt-0.5 text-[11px] text-muted">
-            Methodology {record.methodologyVersion} · Data as of{" "}
-            {record.asOf ?? "N/A"}
+            Data as of {record.asOf ? formatDate(record.asOf) : "N/A"}
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-3">
@@ -83,7 +83,7 @@ export function V2Scorecard({
             Evidence →
           </Link>
           <Link
-            href="/framework/v2"
+            href="/framework/scores"
             className="text-[11px] font-semibold text-brand hover:text-brand-deep"
           >
             How scores work →
@@ -92,16 +92,16 @@ export function V2Scorecard({
       </div>
 
       <div className="mt-3 grid grid-cols-2 gap-2 lg:grid-cols-4">
-        {(
-          ["growth", "quality", "valuation", "technical"] as const
-        ).map((key) => (
-          <ComponentCard key={key} score={record.scores[key]} />
-        ))}
+        {(["growth", "quality", "valuation", "technical"] as const).map(
+          (key) => (
+            <ComponentCard key={key} score={record.scores[key]} />
+          ),
+        )}
       </div>
 
       <div className="mt-3 flex flex-wrap items-end justify-between gap-3 rounded-lg border border-line bg-paper-deep px-3 py-2.5">
         <div className="flex items-baseline gap-2">
-          <span className="text-[11px] font-semibold uppercase tracking-[0.08em] text-muted">
+          <span className="display text-[13px] font-medium text-muted">
             Composite
           </span>
           <span className="tabular text-[28px] font-semibold leading-none text-ink">
@@ -112,17 +112,17 @@ export function V2Scorecard({
           </span>
         </div>
         <div className="text-right text-[10.5px] text-muted">
-          <p className="tabular">{Math.round(composite.coverage * 100)}% weighted coverage</p>
-          <p>
-            Growth 25% · Quality 35% · Valuation 25% · Technical 15%
+          <p className="tabular">
+            {Math.round(composite.coverage * 100)}% weighted coverage
           </p>
+          <p>Growth 25% · Quality 35% · Valuation 25% · Technical 15%</p>
         </div>
       </div>
       {composite.status === "incomplete" && (
         <p className="mt-2 text-[10.5px] leading-relaxed text-amber-800">
-          One or more components have less than 70% coverage, so the composite is
-          intentionally shown as Incomplete. The available component scores are
-          still displayed.
+          One or more components have less than 70% coverage, so the composite
+          is intentionally shown as Incomplete. The available component scores
+          are still displayed.
         </p>
       )}
     </section>

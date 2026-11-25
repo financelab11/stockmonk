@@ -16,13 +16,12 @@ describe("research content", () => {
     expect(errors).toEqual([]);
   });
 
-  it("has eleven mandatory sections in the article template", () => {
-    expect(ARTICLE_SECTIONS).toHaveLength(11);
+  it("has ten mandatory sections in the article template", () => {
+    expect(ARTICLE_SECTIONS).toHaveLength(10);
     expect(ARTICLE_SECTIONS.map((section) => section.id)).toEqual([
       "big-picture",
       "business",
       "industry",
-      "management",
       "growth-drivers",
       "financial-performance",
       "cash-and-balance-sheet",

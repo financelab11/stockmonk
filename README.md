@@ -52,20 +52,20 @@ set to the reproducible floor measured on this host.
 
 ## Routes
 
-| Route                                                                    | Purpose                                                           |
-| ------------------------------------------------------------------------ | ----------------------------------------------------------------- |
-| `/`                                                                      | Hero, recently researched, data distribution, spotlight, Pro demo |
-| `/discover`                                                              | Featured research, data-quality screens, search, pricing demo     |
-| `/discover/all-stocks`                                                   | Full universe grouped by sector, filters and sort                 |
-| `/screener`                                                              | Five-factor research screener with V2 four-factor columns and filters |
-| `/framework`                                                             | Methodology, formulas, peer/valuation approach                    |
-| `/framework/v2`                                                          | V2 four-factor score methodology and worked examples              |
-| `/stocks/[ticker]`                                                       | Eleven-section V2 research report for all 229 US coverage names   |
-| `/stocks/[ticker]/scores`                                                | Per-company score audit trail with every input and source         |
-| `/watchlist`                                                             | Local-first watchlist backed by `localStorage`                    |
-| `/about`, `/privacy`, `/terms`, `/editorial-guidelines`, `/data-sources` | Editorial and legal pages                                         |
-| `/offline`                                                               | Serwist offline fallback                                          |
-| `/sitemap.xml`, `/robots.txt`, `/manifest.webmanifest`                   | Feeds and PWA/SEO endpoints                                       |
+| Route                                                                    | Purpose                                                            |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| `/`                                                                      | Hero, recently researched, data distribution, spotlight, Pro demo  |
+| `/discover`                                                              | Featured research, data-quality screens, search, pricing demo      |
+| `/discover/all-stocks`                                                   | Full universe grouped by sector, filters and sort                  |
+| `/screener`                                                              | Five-factor research screener with four-factor columns and filters |
+| `/framework`                                                             | Methodology, formulas, peer/valuation approach                     |
+| `/framework/scores`                                                      | Four-factor score methodology and worked examples                  |
+| `/stocks/[ticker]`                                                       | Ten-section research report for all 229 US coverage names          |
+| `/stocks/[ticker]/scores`                                                | Per-company score audit trail with every input and source          |
+| `/watchlist`                                                             | Local-first watchlist backed by `localStorage`                     |
+| `/about`, `/privacy`, `/terms`, `/editorial-guidelines`, `/data-sources` | Editorial and legal pages                                          |
+| `/offline`                                                               | Serwist offline fallback                                           |
+| `/sitemap.xml`, `/robots.txt`, `/manifest.webmanifest`                   | Feeds and PWA/SEO endpoints                                        |
 
 The former `/india/*`, `/gcc/*` and `/tools/growth-ranker/*` routes permanently
 redirect to `/discover` or `/screener`.
@@ -185,25 +185,28 @@ feed, so every row shares the same fundamentals and price snapshot.
 A deterministic four-factor V2 score runs alongside the five-factor research
 model:
 
-| Component | Weight | Main inputs |
-| --- | ---: | --- |
-| Growth | 25% | Revenue and EPS growth, acceleration, demand quality, surprises, revisions, forward growth and reinvestment |
-| Quality | 35% | Returns, margins, cash conversion, moat evidence, capital allocation and balance-sheet resilience |
-| Valuation | 25% | Own-history and peer multiples, growth-adjusted multiples, earnings and FCF yields |
-| Technical | 15% | Market/sector trend, 50/200-DMA, relative strength, volume, base/breakout, momentum and ATR |
+| Component | Weight | Main inputs                                                                                                 |
+| --------- | -----: | ----------------------------------------------------------------------------------------------------------- |
+| Growth    |    25% | Revenue and EPS growth, acceleration, demand quality, surprises, revisions, forward growth and reinvestment |
+| Quality   |    35% | Returns, margins, cash conversion, moat evidence, capital allocation and balance-sheet resilience           |
+| Valuation |    25% | Own-history and peer multiples, growth-adjusted multiples, earnings and FCF yields                          |
+| Technical |    15% | Market/sector trend, 50/200-DMA, relative strength, volume, base/breakout, momentum and ATR                 |
 
 `pnpm build:scores` writes `public/data/v2/scores.json` and a full evidence file
 per company under `public/data/v2/companies/`, and attaches the summary to
-`public/data/stocks.json`. Each component carries a coverage ratio; below 70% it
+`public/data/stocks.json`. `pnpm build:kpis` adds the sector/theme KPI module;
+unavailable KPIs are shown as N/A with a reason. `pnpm sync:v2` upserts the
+normalized `research_scores`, `research_evidence`, `company_kpis` and
+`research_articles` tables. Each component carries a coverage ratio; below 70% it
 is provisional and the composite is shown as `Incomplete`. The methodology is at
-`/framework/v2`, the article scorecard links to it, and the full evidence trail is
-at `/stocks/{ticker}/scores`. Scores are descriptive, not ratings or
+`/framework/scores`, the article scorecard links to it, and the full evidence
+trail is at `/stocks/{ticker}/scores`. Scores are descriptive, not ratings or
 recommendations.
 
-Every article follows the 11-section V2 structure: investment snapshot, business
-model, industry and competition, moat and management, growth drivers, financial
-performance, cash flow and balance sheet, valuation, expectations and catalysts,
-risks and thesis breakers, and investment conclusion.
+Every article follows the 10-section structure: investment snapshot, business
+model, industry and competition, growth drivers, financial performance, cash flow
+and balance sheet, valuation, expectations and catalysts, risks and thesis
+breakers, and investment conclusion.
 
 ### Research authoring
 

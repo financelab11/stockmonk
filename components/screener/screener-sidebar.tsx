@@ -62,11 +62,17 @@ function countQuery(state: {
   return search.toString();
 }
 
-function displayValue(value: number | null, unit: FilterDistribution["unit"]): string {
+function displayValue(
+  value: number | null,
+  unit: FilterDistribution["unit"],
+): string {
   return formatFilterValue(value, unit);
 }
 
-function parseInput(value: string, unit: FilterDistribution["unit"]): number | null {
+function parseInput(
+  value: string,
+  unit: FilterDistribution["unit"],
+): number | null {
   if (value.trim() === "") return null;
   const parsed = Number(value);
   if (!Number.isFinite(parsed)) return null;
@@ -111,11 +117,17 @@ function RangeFilter({
         : value.toFixed(distribution.unit === "currencyB" ? 1 : 2);
 
   return (
-    <div className={`rounded-lg border p-3 ${active ? "border-brand/30 bg-brand-soft/30" : "border-line bg-paper"}`}>
+    <div
+      className={`rounded-lg border p-3 ${active ? "border-brand/30 bg-brand-soft/30" : "border-line bg-paper"}`}
+    >
       <div className="flex items-start justify-between gap-2">
         <div>
-          <p className="text-[12px] font-semibold text-ink">{distribution.label}</p>
-          <p className="mt-0.5 text-[10px] leading-snug text-muted">{distribution.description}</p>
+          <p className="text-[12px] font-semibold text-ink">
+            {distribution.label}
+          </p>
+          <p className="mt-0.5 text-[10px] leading-snug text-muted">
+            {distribution.description}
+          </p>
         </div>
         {active && (
           <button
@@ -146,30 +158,44 @@ function RangeFilter({
       </div>
       <div className="mt-1 flex justify-between text-[8.5px] text-faint">
         <span>{displayValue(distribution.sliderMin, distribution.unit)}</span>
-        {distribution.logScale && (
-          <span className="uppercase tracking-[0.08em]">log scale</span>
-        )}
+        {distribution.logScale && <span>log scale</span>}
         <span>{displayValue(distribution.sliderMax, distribution.unit)}</span>
       </div>
       <div className="mt-2 grid grid-cols-2 gap-2">
         <label className="rounded-md border border-line bg-surface px-2 py-1.5">
-          <span className="block text-[8px] font-bold uppercase tracking-[0.1em] text-faint">Min</span>
+          <span className="block text-[8px] font-bold text-faint">Min</span>
           <input
             inputMode="decimal"
             value={toInput(min)}
-            onChange={(event) => onChange({ min: parseInput(event.target.value, distribution.unit), max })}
+            onChange={(event) =>
+              onChange({
+                min: parseInput(event.target.value, distribution.unit),
+                max,
+              })
+            }
             className="w-full bg-transparent tabular text-[11px] text-ink outline-none placeholder:text-faint"
-            placeholder={displayValue(distribution.sliderMin, distribution.unit)}
+            placeholder={displayValue(
+              distribution.sliderMin,
+              distribution.unit,
+            )}
           />
         </label>
         <label className="rounded-md border border-line bg-surface px-2 py-1.5">
-          <span className="block text-[8px] font-bold uppercase tracking-[0.1em] text-faint">Max</span>
+          <span className="block text-[8px] font-bold text-faint">Max</span>
           <input
             inputMode="decimal"
             value={toInput(max)}
-            onChange={(event) => onChange({ min, max: parseInput(event.target.value, distribution.unit) })}
+            onChange={(event) =>
+              onChange({
+                min,
+                max: parseInput(event.target.value, distribution.unit),
+              })
+            }
             className="w-full bg-transparent tabular text-[11px] text-ink outline-none placeholder:text-faint"
-            placeholder={displayValue(distribution.sliderMax, distribution.unit)}
+            placeholder={displayValue(
+              distribution.sliderMax,
+              distribution.unit,
+            )}
           />
         </label>
       </div>
@@ -177,7 +203,10 @@ function RangeFilter({
         <div className="absolute inset-x-0 top-1/2 h-1 -translate-y-1/2 rounded-full bg-line-strong/80" />
         <div
           className="absolute top-1/2 h-1 -translate-y-1/2 rounded-full bg-brand"
-          style={{ left: `${lowPercent}%`, width: `${Math.max(0, highPercent - lowPercent)}%` }}
+          style={{
+            left: `${lowPercent}%`,
+            width: `${Math.max(0, highPercent - lowPercent)}%`,
+          }}
         />
         <label className="block">
           <span className="sr-only">Minimum {distribution.label}</span>
@@ -187,7 +216,9 @@ function RangeFilter({
             max={distribution.sliderMax}
             step={step}
             value={lower}
-            onChange={(event) => onChange({ min: Number(event.target.value), max })}
+            onChange={(event) =>
+              onChange({ min: Number(event.target.value), max })
+            }
             className="range-dual-input"
             aria-label={`Minimum ${distribution.label} slider`}
           />
@@ -200,7 +231,9 @@ function RangeFilter({
             max={distribution.sliderMax}
             step={step}
             value={upper}
-            onChange={(event) => onChange({ min, max: Number(event.target.value) })}
+            onChange={(event) =>
+              onChange({ min, max: Number(event.target.value) })
+            }
             className="range-dual-input"
             aria-label={`Maximum ${distribution.label} slider`}
           />
@@ -236,16 +269,18 @@ export function ScreenerSidebar({
   const [min, setMin] = useState(params.min);
   const [ranges, setRanges] = useState<RangeParams>(params.ranges);
   const [filterSearch, setFilterSearch] = useState("");
-  const [openCategories, setOpenCategories] = useState<Record<string, boolean>>({
-    "Size & Price": true,
-    Returns: false,
-    Valuation: false,
-    Profitability: false,
-    Growth: false,
-    "Financial Health": false,
-    Momentum: false,
-    Scores: false,
-  });
+  const [openCategories, setOpenCategories] = useState<Record<string, boolean>>(
+    {
+      "Size & Price": true,
+      Returns: false,
+      Valuation: false,
+      Profitability: false,
+      Growth: false,
+      "Financial Health": false,
+      Momentum: false,
+      Scores: false,
+    },
+  );
   const [saved, setSaved] = useState<SavedScreen[]>([]);
   const [newName, setNewName] = useState("");
   const [creating, setCreating] = useState(false);
@@ -320,42 +355,52 @@ export function ScreenerSidebar({
     };
   }, [countSignature, query, group, min, ranges]);
 
-  const normalizedFilterSearch = filterSearch.trim().toLowerCase().replace(/[^a-z0-9]+/g, "");
+  const normalizedFilterSearch = filterSearch
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "");
   const visibleDistributions = distributions.filter((distribution) => {
     if (!normalizedFilterSearch) return true;
-    const haystack = `${distribution.label} ${distribution.category} ${distribution.description}`
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, "");
+    const haystack =
+      `${distribution.label} ${distribution.category} ${distribution.description}`
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "");
     return haystack.includes(normalizedFilterSearch);
   });
 
   const activeChips = [
     ...(query.trim()
-      ? [{
-          key: "q",
-          label: "Search",
-          value: query.trim(),
-          side: "=",
-          remove: () => setQuery(""),
-        }]
+      ? [
+          {
+            key: "q",
+            label: "Search",
+            value: query.trim(),
+            side: "=",
+            remove: () => setQuery(""),
+          },
+        ]
       : []),
     ...(group
-      ? [{
-          key: "group",
-          label: "Sector",
-          value: group,
-          side: "=",
-          remove: () => setGroup(""),
-        }]
+      ? [
+          {
+            key: "group",
+            label: "Sector",
+            value: group,
+            side: "=",
+            remove: () => setGroup(""),
+          },
+        ]
       : []),
     ...(min
-      ? [{
-          key: "min",
-          label: "Composite",
-          value: String(min),
-          side: "≥",
-          remove: () => setMin(0),
-        }]
+      ? [
+          {
+            key: "min",
+            label: "Composite",
+            value: String(min),
+            side: "≥",
+            remove: () => setMin(0),
+          },
+        ]
       : []),
     ...activeRanges.map(([key, value]) => {
       const base = key.replace(/(Min|Max)$/, "");
@@ -389,10 +434,12 @@ export function ScreenerSidebar({
     setGroup("");
     setMin(0);
     setRanges(
-      Object.fromEntries(distributions.flatMap((distribution) => [
-        [`${distribution.key}Min`, null],
-        [`${distribution.key}Max`, null],
-      ])),
+      Object.fromEntries(
+        distributions.flatMap((distribution) => [
+          [`${distribution.key}Min`, null],
+          [`${distribution.key}Max`, null],
+        ]),
+      ),
     );
   };
 
@@ -449,7 +496,13 @@ export function ScreenerSidebar({
   };
 
   return (
-    <div className={variant === "sheet" ? "flex h-full min-h-0 flex-col" : "flex h-full min-h-0 flex-col"}>
+    <div
+      className={
+        variant === "sheet"
+          ? "flex h-full min-h-0 flex-col"
+          : "flex h-full min-h-0 flex-col"
+      }
+    >
       <div className="flex gap-1 rounded-full bg-paper-deep p-1">
         <button
           type="button"
@@ -475,7 +528,10 @@ export function ScreenerSidebar({
         <div className="mt-3 flex min-h-0 flex-1 flex-col">
           <div className="space-y-2">
             <label className="flex h-9 items-center gap-2 rounded-lg border border-line bg-paper px-2.5">
-              <Search aria-hidden="true" className="size-3.5 shrink-0 text-muted" />
+              <Search
+                aria-hidden="true"
+                className="size-3.5 shrink-0 text-muted"
+              />
               <span className="sr-only">Search for a filter</span>
               <input
                 value={filterSearch}
@@ -486,7 +542,9 @@ export function ScreenerSidebar({
             </label>
             <div className="grid grid-cols-2 gap-2">
               <label className="rounded-lg border border-line bg-paper px-2 py-1.5">
-                <span className="block text-[8px] font-bold uppercase tracking-[0.1em] text-faint">Search stocks</span>
+                <span className="block text-[8px] font-bold text-faint">
+                  Search stocks
+                </span>
                 <input
                   value={query}
                   onChange={(event) => setQuery(event.target.value)}
@@ -495,7 +553,9 @@ export function ScreenerSidebar({
                 />
               </label>
               <label className="rounded-lg border border-line bg-paper px-2 py-1.5">
-                <span className="block text-[8px] font-bold uppercase tracking-[0.1em] text-faint">Sector</span>
+                <span className="block text-[8px] font-bold text-faint">
+                  Sector
+                </span>
                 <select
                   value={group}
                   onChange={(event) => setGroup(event.target.value)}
@@ -504,7 +564,9 @@ export function ScreenerSidebar({
                 >
                   <option value="">All sectors</option>
                   {groups.map((item) => (
-                    <option key={item} value={item}>{item}</option>
+                    <option key={item} value={item}>
+                      {item}
+                    </option>
                   ))}
                 </select>
               </label>
@@ -528,10 +590,15 @@ export function ScreenerSidebar({
           {activeChips.length > 0 && (
             <div className="mt-3">
               <div className="flex items-center justify-between">
-                <p className="text-[9px] font-bold uppercase tracking-[0.12em] text-muted">
-                  {activeChips.length} active filter{activeChips.length === 1 ? "" : "s"}
+                <p className="text-[9px] font-bold text-muted">
+                  {activeChips.length} active filter
+                  {activeChips.length === 1 ? "" : "s"}
                 </p>
-                <button type="button" onClick={reset} className="flex items-center gap-1 text-[9.5px] font-semibold text-danger">
+                <button
+                  type="button"
+                  onClick={reset}
+                  className="flex items-center gap-1 text-[9.5px] font-semibold text-danger"
+                >
                   <RotateCcw className="size-3" /> Reset all
                 </button>
               </div>
@@ -557,28 +624,47 @@ export function ScreenerSidebar({
                 No filters match “{filterSearch}”.
               </p>
             )}
-            {[...new Set(visibleDistributions.map((item) => item.category))].map((category) => {
-              const items = visibleDistributions.filter((item) => item.category === category);
-              const open = filterSearch.trim() ? true : openCategories[category] ?? false;
+            {[
+              ...new Set(visibleDistributions.map((item) => item.category)),
+            ].map((category) => {
+              const items = visibleDistributions.filter(
+                (item) => item.category === category,
+              );
+              const open = filterSearch.trim()
+                ? true
+                : (openCategories[category] ?? false);
               return (
-                <section key={category} className="border-b border-line pb-2 last:border-0">
+                <section
+                  key={category}
+                  className="border-b border-line pb-2 last:border-0"
+                >
                   <button
                     type="button"
                     onClick={() => {
                       if (filterSearch.trim()) {
                         setFilterSearch("");
-                        setOpenCategories((current) => ({ ...current, [category]: true }));
+                        setOpenCategories((current) => ({
+                          ...current,
+                          [category]: true,
+                        }));
                         return;
                       }
-                      setOpenCategories((current) => ({ ...current, [category]: !open }));
+                      setOpenCategories((current) => ({
+                        ...current,
+                        [category]: !open,
+                      }));
                     }}
                     className="flex w-full items-center justify-between py-2 text-left"
                     aria-expanded={open}
                   >
-                    <span className="text-[12px] font-semibold text-ink">{category}</span>
+                    <span className="text-[12px] font-semibold text-ink">
+                      {category}
+                    </span>
                     <span className="flex items-center gap-1 text-[9px] text-faint">
                       {items.length}
-                      <ChevronDown className={`size-3 transition-transform ${open ? "rotate-180" : ""}`} />
+                      <ChevronDown
+                        className={`size-3 transition-transform ${open ? "rotate-180" : ""}`}
+                      />
                     </span>
                   </button>
                   {open && (
@@ -606,21 +692,33 @@ export function ScreenerSidebar({
           </div>
 
           <div className="mt-3 flex gap-2 border-t border-line pt-3">
-            <button type="button" onClick={reset} className="btn btn-ghost h-9 min-h-0 px-3 text-[11px]">
+            <button
+              type="button"
+              onClick={reset}
+              className="btn btn-ghost h-9 min-h-0 px-3 text-[11px]"
+            >
               Reset
             </button>
-            <button type="button" onClick={apply} className="btn btn-primary h-9 min-h-0 flex-1 px-3 text-[11px]">
+            <button
+              type="button"
+              onClick={apply}
+              className="btn btn-primary h-9 min-h-0 flex-1 px-3 text-[11px]"
+            >
               <span aria-live="polite">
-                {variant === "sheet" ? `Done · ${matched} stocks` : `Apply filters · ${matched}`}
+                {variant === "sheet"
+                  ? `Done · ${matched} stocks`
+                  : `Apply filters · ${matched}`}
               </span>
-              {counting && <span className="ml-1 text-[9px] opacity-70">updating…</span>}
+              {counting && (
+                <span className="ml-1 text-[9px] opacity-70">updating…</span>
+              )}
             </button>
           </div>
         </div>
       ) : (
         <div className="mt-3 min-h-0 flex-1 overflow-y-auto pr-1">
           <div className="flex items-center justify-between">
-            <p className="text-[9px] font-bold uppercase tracking-[0.12em] text-muted">Your screens</p>
+            <p className="text-[9px] font-bold text-muted">Your screens</p>
             <button
               type="button"
               onClick={() => setCreating((value) => !value)}
@@ -638,19 +736,35 @@ export function ScreenerSidebar({
                 className="h-8 w-full rounded-md border border-line bg-paper px-2 text-[11px] outline-none"
               />
               <div className="mt-1.5 flex justify-end gap-1.5">
-                <button type="button" onClick={() => setCreating(false)} className="text-[9.5px] text-muted">Cancel</button>
-                <button type="button" onClick={saveCurrent} className="text-[9.5px] font-semibold text-brand">Save</button>
+                <button
+                  type="button"
+                  onClick={() => setCreating(false)}
+                  className="text-[9.5px] text-muted"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="button"
+                  onClick={saveCurrent}
+                  className="text-[9.5px] font-semibold text-brand"
+                >
+                  Save
+                </button>
               </div>
             </div>
           )}
           <div className="mt-2 space-y-2">
             {saved.length === 0 && !creating && (
               <p className="rounded-lg border border-dashed border-line p-2.5 text-[10.5px] leading-relaxed text-muted">
-                Save a filter combination here. Screens are stored in this browser.
+                Save a filter combination here. Screens are stored in this
+                browser.
               </p>
             )}
             {saved.map((screen) => (
-              <div key={screen.id} className="rounded-lg border border-line bg-paper p-2.5">
+              <div
+                key={screen.id}
+                className="rounded-lg border border-line bg-paper p-2.5"
+              >
                 {editing === screen.id ? (
                   <div className="flex gap-1.5">
                     <input
@@ -661,30 +775,55 @@ export function ScreenerSidebar({
                     <button
                       type="button"
                       onClick={() => {
-                        persist(saved.map((item) => item.id === screen.id ? { ...item, name: editName || item.name } : item));
+                        persist(
+                          saved.map((item) =>
+                            item.id === screen.id
+                              ? { ...item, name: editName || item.name }
+                              : item,
+                          ),
+                        );
                         setEditing(null);
                       }}
                       className="text-[9.5px] font-semibold text-brand"
-                    >Save</button>
+                    >
+                      Save
+                    </button>
                   </div>
                 ) : (
                   <div className="flex items-start justify-between gap-2">
-                    <button type="button" onClick={() => applySaved(screen)} className="min-w-0 text-left">
-                      <p className="text-[11px] font-semibold text-ink">{screen.name}</p>
-                      <p className="mt-0.5 text-[9.5px] text-muted">Apply saved filters</p>
+                    <button
+                      type="button"
+                      onClick={() => applySaved(screen)}
+                      className="min-w-0 text-left"
+                    >
+                      <p className="text-[11px] font-semibold text-ink">
+                        {screen.name}
+                      </p>
+                      <p className="mt-0.5 text-[9.5px] text-muted">
+                        Apply saved filters
+                      </p>
                     </button>
                     <div className="flex shrink-0 gap-1">
                       <button
                         type="button"
-                        onClick={() => { setEditing(screen.id); setEditName(screen.name); }}
+                        onClick={() => {
+                          setEditing(screen.id);
+                          setEditName(screen.name);
+                        }}
                         className="text-[9px] font-semibold text-muted"
-                      >Rename</button>
+                      >
+                        Rename
+                      </button>
                       <button
                         type="button"
-                        onClick={() => persist(saved.filter((item) => item.id !== screen.id))}
+                        onClick={() =>
+                          persist(saved.filter((item) => item.id !== screen.id))
+                        }
                         className="text-danger"
                         aria-label={`Delete ${screen.name}`}
-                      ><Trash2 className="size-3" /></button>
+                      >
+                        <Trash2 className="size-3" />
+                      </button>
                     </div>
                   </div>
                 )}
@@ -692,7 +831,9 @@ export function ScreenerSidebar({
             ))}
           </div>
 
-          <p className="mt-4 text-[9px] font-bold uppercase tracking-[0.12em] text-muted">Research screens</p>
+          <p className="mt-4 text-[9px] font-bold text-muted">
+            Research screens
+          </p>
           <div className="mt-2 space-y-2">
             {researchScreens.map((screen) => (
               <button
@@ -702,13 +843,24 @@ export function ScreenerSidebar({
                 className="w-full rounded-lg border border-line bg-paper p-2.5 text-left transition-colors hover:border-brand/40 hover:bg-brand-soft/30"
               >
                 <div className="flex items-start justify-between gap-2">
-                  <p className="text-[11px] font-semibold text-ink">{screen.name}</p>
-                  <span className="tabular shrink-0 text-[9.5px] font-semibold text-brand">{screen.count} stocks</span>
+                  <p className="text-[11px] font-semibold text-ink">
+                    {screen.name}
+                  </p>
+                  <span className="tabular shrink-0 text-[9.5px] font-semibold text-brand">
+                    {screen.count} stocks
+                  </span>
                 </div>
-                <p className="mt-1 text-[9.5px] leading-relaxed text-muted">{screen.description}</p>
+                <p className="mt-1 text-[9.5px] leading-relaxed text-muted">
+                  {screen.description}
+                </p>
                 <div className="mt-1.5 flex flex-wrap gap-1">
                   {screen.tags.map((tag) => (
-                    <span key={tag} className="rounded-full bg-paper-deep px-1.5 py-0.5 text-[8px] font-medium text-muted">{tag}</span>
+                    <span
+                      key={tag}
+                      className="rounded-full bg-paper-deep px-1.5 py-0.5 text-[8px] font-medium text-muted"
+                    >
+                      {tag}
+                    </span>
                   ))}
                 </div>
               </button>

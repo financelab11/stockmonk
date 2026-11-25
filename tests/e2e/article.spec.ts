@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 test.describe("research article", () => {
-  test("contains all eleven sections, charts, sources and the Pro CTA", async ({
+  test("contains all ten sections, charts, sources and the Pro CTA", async ({
     page,
   }) => {
     await page.goto("/stocks/NVDA", { waitUntil: "networkidle" });
@@ -16,7 +16,6 @@ test.describe("research article", () => {
       "Investment snapshot",
       "Business model and revenue economics",
       "Industry and competitive positioning",
-      "Competitive moat and management",
       "Growth drivers and future runway",
       "Historical financial performance",
       "Cash flow and balance sheet",
@@ -49,7 +48,7 @@ test.describe("research article", () => {
     await expect(page).toHaveURL(/#valuation/);
   });
 
-  test("generated report for an expanded name has eleven sections and four sources", async ({
+  test("generated report for an expanded name has ten sections and four sources", async ({
     page,
   }) => {
     await page.goto("/stocks/CAVA", { waitUntil: "networkidle" });
@@ -58,7 +57,6 @@ test.describe("research article", () => {
       "Investment snapshot",
       "Business model and revenue economics",
       "Industry and competitive positioning",
-      "Competitive moat and management",
       "Growth drivers and future runway",
       "Historical financial performance",
       "Cash flow and balance sheet",
@@ -96,7 +94,10 @@ test.describe("research article", () => {
       page.getByText(/\d[\d,]* US-listed companies/).first(),
     ).toBeVisible();
 
-    await page.getByRole("link", { name: /Q · Quality/i }).click();
+    await page
+      .getByRole("link", { name: /Quality/i })
+      .first()
+      .click();
     await expect(page.getByText("ROE", { exact: true }).first()).toBeVisible();
     await expect(page.getByText("ROIC", { exact: true }).first()).toBeVisible();
 

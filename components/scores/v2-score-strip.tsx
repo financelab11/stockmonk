@@ -18,7 +18,7 @@ export function V2ScoreStrip({
   return (
     <div
       className={`flex flex-wrap items-center gap-x-2.5 gap-y-1 text-[10.5px] ${className}`}
-      aria-label="Stockmonk V2 component scores"
+      aria-label="Stockmonk research scores"
     >
       {KEYS.map(([label, key]) => {
         const score = record.scores[key];
@@ -38,7 +38,7 @@ export function V2ScoreStrip({
         );
       })}
       <span className="ml-auto inline-flex items-baseline gap-1 border-l border-line pl-2.5">
-        <span className="font-semibold text-faint">V2</span>
+        <span className="font-semibold text-faint">Score</span>
         <span className="tabular font-semibold text-ink">
           {record.composite.score == null
             ? "Incomplete"

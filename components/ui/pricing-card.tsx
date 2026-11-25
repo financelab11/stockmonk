@@ -7,9 +7,7 @@ export function PricingCard() {
       <div className="border-b border-line bg-paper-deep px-5 py-4">
         <div className="flex items-center justify-between gap-3">
           <div>
-            <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-brand">
-              Demo plan
-            </p>
+            <p className="text-[10px] font-bold text-brand">Demo plan</p>
             <h3 className="display mt-1 text-2xl tracking-[-0.02em] text-ink">
               {PRICING.planName}
             </h3>
@@ -29,8 +27,14 @@ export function PricingCard() {
       <div className="p-5">
         <ul className="space-y-2">
           {PRICING.benefits.map((benefit) => (
-            <li key={benefit} className="flex gap-2 text-[12px] leading-snug text-ink-soft">
-              <Check aria-hidden="true" className="mt-0.5 size-3.5 shrink-0 text-positive" />
+            <li
+              key={benefit}
+              className="flex gap-2 text-[12px] leading-snug text-ink-soft"
+            >
+              <Check
+                aria-hidden="true"
+                className="mt-0.5 size-3.5 shrink-0 text-positive"
+              />
               {benefit}
             </li>
           ))}
@@ -54,10 +58,17 @@ export function PricingCard() {
               <span className="font-mono">•••• 4242</span>
             </div>
           </div>
-          <button type="button" disabled className="btn btn-brand w-full disabled:cursor-not-allowed disabled:opacity-70">
+          <button
+            type="button"
+            disabled
+            className="btn btn-brand w-full disabled:cursor-not-allowed disabled:opacity-70"
+          >
             Demo checkout disabled
           </button>
-          <p id="demo-checkout-note" className="text-center text-[10px] leading-relaxed text-muted">
+          <p
+            id="demo-checkout-note"
+            className="text-center text-[10px] leading-relaxed text-muted"
+          >
             {PRICING.checkoutIsDemo
               ? "Mock checkout — no payment is processed, no card data is stored, and no subscription is created."
               : null}

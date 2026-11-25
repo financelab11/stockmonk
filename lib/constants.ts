@@ -49,7 +49,15 @@ export const FOOTER_COLUMNS = [
   },
 ] as const;
 
-export const PRICE_RANGES = ["1M", "3M", "6M", "YTD", "1Y", "5Y", "MAX"] as const;
+export const PRICE_RANGES = [
+  "1M",
+  "3M",
+  "6M",
+  "YTD",
+  "1Y",
+  "5Y",
+  "MAX",
+] as const;
 export type PriceRange = (typeof PRICE_RANGES)[number];
 
 export const RANGE_LABELS: Record<PriceRange, string> = {
@@ -66,20 +74,20 @@ export const SORT_OPTIONS = [
   { value: "marketCap", label: "Market cap", shortLabel: "Market cap" },
   {
     value: "v2Composite",
-    label: "V2 composite",
-    shortLabel: "V2 score",
+    label: "Composite score",
+    shortLabel: "Score",
   },
-  { value: "v2Growth", label: "V2 growth", shortLabel: "V2 growth" },
-  { value: "v2Quality", label: "V2 quality", shortLabel: "V2 quality" },
+  { value: "v2Growth", label: "Growth score", shortLabel: "Growth" },
+  { value: "v2Quality", label: "Quality score", shortLabel: "Quality" },
   {
     value: "v2Valuation",
-    label: "V2 valuation",
-    shortLabel: "V2 value",
+    label: "Valuation score",
+    shortLabel: "Value",
   },
   {
     value: "v2Technical",
-    label: "V2 technical",
-    shortLabel: "V2 tech",
+    label: "Technical score",
+    shortLabel: "Tech",
   },
   { value: "growth", label: "Revenue growth", shortLabel: "Rev growth" },
   { value: "epsGrowth", label: "EPS growth", shortLabel: "EPS growth" },
@@ -103,20 +111,19 @@ export const ARTICLE_SECTIONS = [
   { id: "big-picture", number: "01", title: "Investment snapshot" },
   { id: "business", number: "02", title: "Business model" },
   { id: "industry", number: "03", title: "Industry and competition" },
-  { id: "management", number: "04", title: "Moat and management" },
-  { id: "growth-drivers", number: "05", title: "Growth drivers" },
-  { id: "financial-performance", number: "06", title: "Financial performance" },
+  { id: "growth-drivers", number: "04", title: "Growth drivers" },
+  { id: "financial-performance", number: "05", title: "Financial performance" },
   {
     id: "cash-and-balance-sheet",
-    number: "07",
+    number: "06",
     title: "Cash flow and balance sheet",
   },
-  { id: "valuation", number: "08", title: "Valuation" },
-  { id: "analysts", number: "09", title: "Expectations and catalysts" },
-  { id: "risks", number: "10", title: "Risks and thesis breakers" },
+  { id: "valuation", number: "07", title: "Valuation" },
+  { id: "analysts", number: "08", title: "Expectations and catalysts" },
+  { id: "risks", number: "09", title: "Risks and thesis breakers" },
   {
     id: "bottom-line",
-    number: "11",
+    number: "10",
     title: "Investment conclusion",
   },
 ] as const;

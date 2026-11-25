@@ -75,9 +75,9 @@ pnpm audit:numbers       # advisory numeric-drift report
 ## Routes
 
 - `/`, `/discover`, `/discover/all-stocks`, `/screener`
-- `/stocks/[ticker]` - US report, 11 V2 sections
-- `/stocks/[ticker]/scores` - per-company V2 score evidence
-- `/watchlist`, `/about`, `/framework`, `/framework/v2`, `/data-sources`, legal pages
+- `/stocks/[ticker]` - US report, 10 sections
+- `/stocks/[ticker]/scores` - per-company score evidence
+- `/watchlist`, `/about`, `/framework`, `/framework/scores`, `/data-sources`, legal pages
 - `/api/data/screener-export` — CSV of the filtered US screener
 - `/api/data/screener-count` — live count for the filter UI
 - Legacy `/india/*`, `/gcc/*` and `/tools/growth-ranker/*` URLs permanently
@@ -147,18 +147,23 @@ periods.
 - `pnpm build:scores` writes `public/data/v2/scores.json` and one evidence file
   per company under `public/data/v2/companies/`, then attaches the summary to
   `public/data/stocks.json`.
+- `pnpm build:kpis` writes the sector/theme KPI module under
+  `public/data/v2/kpis/`; unavailable KPIs are marked N/A with a reason.
+- `pnpm sync:v2` upserts the normalized `research_scores`,
+  `research_evidence`, `company_kpis` and `research_articles` tables when a
+  direct database password is configured.
 - Every component has a coverage ratio. Below 70% it is `provisional`; if any
   component is below 70% the composite is `Incomplete` rather than a synthetic
   total. N/A inputs are excluded from the denominator, never scored as zero.
 - Technical scores use SPY and sector ETFs. `pnpm ingest:benchmark` refreshes
   SPY plus XLK, XLC, XLY, XLP, XLV, XLF, XLI, XLE, XLU, XLB and XLRE.
-- The methodology is documented at `/framework/v2`; the article scorecard links
+- The methodology is documented at `/framework/scores`; the article scorecard links
   to it. Scores are descriptive, not ratings or recommendations.
-- Every company article follows the V2 11-section structure: investment snapshot,
-  business model, industry and competition, moat and management, growth drivers,
-  financial performance, cash flow and balance sheet, valuation, expectations and
-  catalysts, risks and thesis breakers, and investment conclusion. The scorecard
-  appears in the snapshot and links to the per-company evidence audit at
+- Every company article follows the 10-section structure: investment snapshot,
+  business model, industry and competition, growth drivers, financial performance,
+  cash flow and balance sheet, valuation, expectations and catalysts, risks and
+  thesis breakers, and investment conclusion. The scorecard appears in the
+  snapshot and links to the per-company evidence audit at
   `/stocks/{ticker}/scores`.
 - `pnpm build:scores` must run after `pnpm build:data` and before
   `pnpm build:screener` so the score fields reach the universe and the screener.
@@ -252,6 +257,7 @@ Tables:
 - stories
 - profiles, watchlists, watchlist_items
 - company_snapshots, ingestion_runs, data_freshness, story_freshness
+- research_scores, research_evidence, company_kpis, research_articles
 
 Realtime is enabled for snapshots, news, freshness, consensus targets and
 watchlists. `pg_cron` refreshes `company_snapshots` at 03:30 UTC and
@@ -318,5 +324,6 @@ The intent is that a new agent can read `CLAUDE.md`, `README.md` and the latest
 commit and start without re-reading the whole repository.
 
 <!-- AUTO_CONTEXT_START -->
-_Context snapshot 2026-11-24: 229 US names, 5 database migration(s)._
+
+_Context snapshot 2026-11-25: 229 US names, 6 database migration(s)._
 <!-- AUTO_CONTEXT_END -->

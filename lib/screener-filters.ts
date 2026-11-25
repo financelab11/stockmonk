@@ -6,7 +6,8 @@ import {
 } from "./format";
 import type { ScreenerRow } from "./screener-model";
 
-export type FilterUnit = "pct" | "x" | "num" | "currency" | "currencyB" | "score";
+export type FilterUnit =
+  "pct" | "x" | "num" | "currency" | "currencyB" | "score";
 
 export type FilterDef = {
   key: string;
@@ -37,7 +38,13 @@ export type ScreenerUiParams = {
   q: string;
   group: string;
   min: number;
-  view: "overview" | "growth" | "quality" | "valuation" | "momentum" | "lowVolatility";
+  view:
+    | "overview"
+    | "growth"
+    | "quality"
+    | "valuation"
+    | "momentum"
+    | "lowVolatility";
   sort: string;
   dir: "asc" | "desc";
   page: number;
@@ -54,7 +61,7 @@ export const FILTER_CATEGORIES = [
   "Growth",
   "Financial Health",
   "Momentum",
-  "V2 Scores",
+  "Four-factor scores",
   "Scores",
 ] as const;
 
@@ -75,47 +82,305 @@ export const FILTER_DEFS: FilterDef[] = [
     description: "Latest closing price.",
     get: (row) => row.price,
   },
-  { key: "return1d", label: "1D return", category: "Returns", unit: "pct", description: "Latest session return.", get: (row) => row.return1d },
-  { key: "return1w", label: "1W return", category: "Returns", unit: "pct", description: "One-week price return.", get: (row) => row.return1w },
-  { key: "return1m", label: "1M return", category: "Returns", unit: "pct", description: "One-month price return.", get: (row) => row.return1m },
-  { key: "return3m", label: "3M return", category: "Returns", unit: "pct", description: "Three-month price return.", get: (row) => row.return3m },
-  { key: "return6m", label: "6M return", category: "Returns", unit: "pct", description: "Six-month price return.", get: (row) => row.return6m },
-  { key: "return1y", label: "1Y return", category: "Returns", unit: "pct", description: "Twelve-month price return.", get: (row) => row.return1y },
-  { key: "return3y", label: "3Y return", category: "Returns", unit: "pct", description: "Three-year price return.", get: (row) => row.return3y },
-  { key: "return5y", label: "5Y return", category: "Returns", unit: "pct", description: "Five-year price return.", get: (row) => row.return5y },
-  { key: "pe", label: "P/E", category: "Valuation", unit: "x", description: "Market cap divided by trailing net income.", get: (row) => row.pe },
-  { key: "pb", label: "P/B", category: "Valuation", unit: "x", description: "Market cap divided by book equity.", get: (row) => row.pb },
-  { key: "evEbitda", label: "EV/EBITDA", category: "Valuation", unit: "x", description: "Enterprise value divided by EBITDA.", get: (row) => row.evEbitda },
-  { key: "peg", label: "PEG", category: "Valuation", unit: "x", description: "Forward P/E divided by consensus EPS growth.", get: (row) => row.peg },
-  { key: "dividendYield", label: "Dividend yield", category: "Valuation", unit: "pct", description: "Dividend per share divided by price.", get: (row) => row.dividendYield },
-  { key: "roce", label: "ROCE", category: "Profitability", unit: "pct", description: "Operating income divided by capital employed.", get: (row) => row.roce },
-  { key: "roe", label: "ROE", category: "Profitability", unit: "pct", description: "Net income divided by shareholders' equity.", get: (row) => row.roe },
-  { key: "operatingMargin", label: "Operating margin", category: "Profitability", unit: "pct", description: "Operating income divided by revenue.", get: (row) => row.operatingMargin },
-  { key: "netMargin", label: "Net margin", category: "Profitability", unit: "pct", description: "Net income divided by revenue.", get: (row) => row.netMargin },
-  { key: "fcfMargin", label: "FCF margin", category: "Profitability", unit: "pct", description: "Free cash flow divided by revenue.", get: (row) => row.fcfMargin },
-  { key: "revenueGrowth", label: "Revenue growth", category: "Growth", unit: "pct", description: "Trailing revenue growth.", get: (row) => row.revenueGrowth },
-  { key: "growthScore", label: "Growth score", category: "Growth", unit: "score", description: "Composite growth factor score.", get: (row) => row.factorScores.growth },
-  { key: "qualityScore", label: "Quality score", category: "Profitability", unit: "score", description: "Composite quality factor score.", get: (row) => row.factorScores.quality },
-  { key: "netDebtEbitda", label: "Net debt / EBITDA", category: "Financial Health", unit: "x", description: "Net debt divided by EBITDA.", get: (row) => row.netDebtEbitda },
-  { key: "assetTurnover", label: "Asset turnover", category: "Financial Health", unit: "x", description: "Revenue divided by average total assets.", get: (row) => row.assetTurnover },
-  { key: "momentumScore", label: "Momentum score", category: "Momentum", unit: "score", description: "Composite momentum factor score.", get: (row) => row.factorScores.momentum },
-  { key: "priceVs50dma", label: "Price vs 50 DMA", category: "Momentum", unit: "pct", description: "Latest price relative to the 50-day moving average.", get: (row) => row.priceVs50dma },
-  { key: "priceVs200dma", label: "Price vs 200 DMA", category: "Momentum", unit: "pct", description: "Latest price relative to the 200-day moving average.", get: (row) => row.priceVs200dma },
-  { key: "lowVolatilityScore", label: "Low volatility score", category: "Scores", unit: "score", description: "Composite low-volatility factor score.", get: (row) => row.factorScores.lowVolatility },
-  { key: "valuationScore", label: "Valuation score", category: "Scores", unit: "score", description: "Composite valuation factor score.", get: (row) => row.factorScores.valuation },
-  { key: "composite", label: "Composite score", category: "Scores", unit: "score", description: "Weighted five-factor composite score.", get: (row) => row.composite },
-  { key: "v2Composite", label: "V2 composite", category: "V2 Scores", unit: "score", description: "Four-factor V2 composite: Growth 25%, Quality 35%, Valuation 25%, Technical 15%.", get: (row) => row.v2Composite },
-  { key: "v2Growth", label: "V2 growth", category: "V2 Scores", unit: "score", description: "Deterministic V2 growth score.", get: (row) => row.v2Growth },
-  { key: "v2Quality", label: "V2 quality", category: "V2 Scores", unit: "score", description: "Deterministic V2 quality score.", get: (row) => row.v2Quality },
-  { key: "v2Valuation", label: "V2 valuation", category: "V2 Scores", unit: "score", description: "Deterministic V2 valuation score.", get: (row) => row.v2Valuation },
-  { key: "v2Technical", label: "V2 technical", category: "V2 Scores", unit: "score", description: "Deterministic V2 technical score.", get: (row) => row.v2Technical },
-  { key: "historicalValuation", label: "Cheap vs own history", category: "Valuation", unit: "score", description: "Cheapness percentile versus the company's own five-year P/E history.", get: (row) => row.historicalValuation },
-  { key: "roicTrend", label: "ROIC trend", category: "Profitability", unit: "pct", description: "Change in ROIC over three years.", get: (row) => row.roicTrend },
+  {
+    key: "return1d",
+    label: "1D return",
+    category: "Returns",
+    unit: "pct",
+    description: "Latest session return.",
+    get: (row) => row.return1d,
+  },
+  {
+    key: "return1w",
+    label: "1W return",
+    category: "Returns",
+    unit: "pct",
+    description: "One-week price return.",
+    get: (row) => row.return1w,
+  },
+  {
+    key: "return1m",
+    label: "1M return",
+    category: "Returns",
+    unit: "pct",
+    description: "One-month price return.",
+    get: (row) => row.return1m,
+  },
+  {
+    key: "return3m",
+    label: "3M return",
+    category: "Returns",
+    unit: "pct",
+    description: "Three-month price return.",
+    get: (row) => row.return3m,
+  },
+  {
+    key: "return6m",
+    label: "6M return",
+    category: "Returns",
+    unit: "pct",
+    description: "Six-month price return.",
+    get: (row) => row.return6m,
+  },
+  {
+    key: "return1y",
+    label: "1Y return",
+    category: "Returns",
+    unit: "pct",
+    description: "Twelve-month price return.",
+    get: (row) => row.return1y,
+  },
+  {
+    key: "return3y",
+    label: "3Y return",
+    category: "Returns",
+    unit: "pct",
+    description: "Three-year price return.",
+    get: (row) => row.return3y,
+  },
+  {
+    key: "return5y",
+    label: "5Y return",
+    category: "Returns",
+    unit: "pct",
+    description: "Five-year price return.",
+    get: (row) => row.return5y,
+  },
+  {
+    key: "pe",
+    label: "P/E",
+    category: "Valuation",
+    unit: "x",
+    description: "Market cap divided by trailing net income.",
+    get: (row) => row.pe,
+  },
+  {
+    key: "pb",
+    label: "P/B",
+    category: "Valuation",
+    unit: "x",
+    description: "Market cap divided by book equity.",
+    get: (row) => row.pb,
+  },
+  {
+    key: "evEbitda",
+    label: "EV/EBITDA",
+    category: "Valuation",
+    unit: "x",
+    description: "Enterprise value divided by EBITDA.",
+    get: (row) => row.evEbitda,
+  },
+  {
+    key: "peg",
+    label: "PEG",
+    category: "Valuation",
+    unit: "x",
+    description: "Forward P/E divided by consensus EPS growth.",
+    get: (row) => row.peg,
+  },
+  {
+    key: "dividendYield",
+    label: "Dividend yield",
+    category: "Valuation",
+    unit: "pct",
+    description: "Dividend per share divided by price.",
+    get: (row) => row.dividendYield,
+  },
+  {
+    key: "roce",
+    label: "ROCE",
+    category: "Profitability",
+    unit: "pct",
+    description: "Operating income divided by capital employed.",
+    get: (row) => row.roce,
+  },
+  {
+    key: "roe",
+    label: "ROE",
+    category: "Profitability",
+    unit: "pct",
+    description: "Net income divided by shareholders' equity.",
+    get: (row) => row.roe,
+  },
+  {
+    key: "operatingMargin",
+    label: "Operating margin",
+    category: "Profitability",
+    unit: "pct",
+    description: "Operating income divided by revenue.",
+    get: (row) => row.operatingMargin,
+  },
+  {
+    key: "netMargin",
+    label: "Net margin",
+    category: "Profitability",
+    unit: "pct",
+    description: "Net income divided by revenue.",
+    get: (row) => row.netMargin,
+  },
+  {
+    key: "fcfMargin",
+    label: "FCF margin",
+    category: "Profitability",
+    unit: "pct",
+    description: "Free cash flow divided by revenue.",
+    get: (row) => row.fcfMargin,
+  },
+  {
+    key: "revenueGrowth",
+    label: "Revenue growth",
+    category: "Growth",
+    unit: "pct",
+    description: "Trailing revenue growth.",
+    get: (row) => row.revenueGrowth,
+  },
+  {
+    key: "growthScore",
+    label: "Growth score",
+    category: "Growth",
+    unit: "score",
+    description: "Composite growth factor score.",
+    get: (row) => row.factorScores.growth,
+  },
+  {
+    key: "qualityScore",
+    label: "Quality score",
+    category: "Profitability",
+    unit: "score",
+    description: "Composite quality factor score.",
+    get: (row) => row.factorScores.quality,
+  },
+  {
+    key: "netDebtEbitda",
+    label: "Net debt / EBITDA",
+    category: "Financial Health",
+    unit: "x",
+    description: "Net debt divided by EBITDA.",
+    get: (row) => row.netDebtEbitda,
+  },
+  {
+    key: "assetTurnover",
+    label: "Asset turnover",
+    category: "Financial Health",
+    unit: "x",
+    description: "Revenue divided by average total assets.",
+    get: (row) => row.assetTurnover,
+  },
+  {
+    key: "momentumScore",
+    label: "Momentum score",
+    category: "Momentum",
+    unit: "score",
+    description: "Composite momentum factor score.",
+    get: (row) => row.factorScores.momentum,
+  },
+  {
+    key: "priceVs50dma",
+    label: "Price vs 50 DMA",
+    category: "Momentum",
+    unit: "pct",
+    description: "Latest price relative to the 50-day moving average.",
+    get: (row) => row.priceVs50dma,
+  },
+  {
+    key: "priceVs200dma",
+    label: "Price vs 200 DMA",
+    category: "Momentum",
+    unit: "pct",
+    description: "Latest price relative to the 200-day moving average.",
+    get: (row) => row.priceVs200dma,
+  },
+  {
+    key: "lowVolatilityScore",
+    label: "Low volatility score",
+    category: "Scores",
+    unit: "score",
+    description: "Composite low-volatility factor score.",
+    get: (row) => row.factorScores.lowVolatility,
+  },
+  {
+    key: "valuationScore",
+    label: "Valuation score",
+    category: "Scores",
+    unit: "score",
+    description: "Composite valuation factor score.",
+    get: (row) => row.factorScores.valuation,
+  },
+  {
+    key: "composite",
+    label: "Composite score",
+    category: "Scores",
+    unit: "score",
+    description: "Weighted five-factor composite score.",
+    get: (row) => row.composite,
+  },
+  {
+    key: "v2Composite",
+    label: "Composite score",
+    category: "Four-factor scores",
+    unit: "score",
+    description:
+      "Four-factor composite: Growth 25%, Quality 35%, Valuation 25%, Technical 15%.",
+    get: (row) => row.v2Composite,
+  },
+  {
+    key: "v2Growth",
+    label: "Growth score",
+    category: "Four-factor scores",
+    unit: "score",
+    description: "Deterministic growth score.",
+    get: (row) => row.v2Growth,
+  },
+  {
+    key: "v2Quality",
+    label: "Quality score",
+    category: "Four-factor scores",
+    unit: "score",
+    description: "Deterministic quality score.",
+    get: (row) => row.v2Quality,
+  },
+  {
+    key: "v2Valuation",
+    label: "Valuation score",
+    category: "Four-factor scores",
+    unit: "score",
+    description: "Deterministic valuation score.",
+    get: (row) => row.v2Valuation,
+  },
+  {
+    key: "v2Technical",
+    label: "Technical score",
+    category: "Four-factor scores",
+    unit: "score",
+    description: "Deterministic technical score.",
+    get: (row) => row.v2Technical,
+  },
+  {
+    key: "historicalValuation",
+    label: "Cheap vs own history",
+    category: "Valuation",
+    unit: "score",
+    description:
+      "Cheapness percentile versus the company's own five-year P/E history.",
+    get: (row) => row.historicalValuation,
+  },
+  {
+    key: "roicTrend",
+    label: "ROIC trend",
+    category: "Profitability",
+    unit: "pct",
+    description: "Change in ROIC over three years.",
+    get: (row) => row.roicTrend,
+  },
 ];
 
-export function formatFilterValue(value: number | null, unit: FilterUnit): string {
+export function formatFilterValue(
+  value: number | null,
+  unit: FilterUnit,
+): string {
   if (value == null || !Number.isFinite(value)) return "n/a";
-  if (unit === "pct") return formatPercent(Math.abs(value) < 0.0005 ? 0 : value);
+  if (unit === "pct")
+    return formatPercent(Math.abs(value) < 0.0005 ? 0 : value);
   if (unit === "x") return formatMultiple(value);
   if (unit === "currency") return formatCurrency(value);
   if (unit === "currencyB")
@@ -128,10 +393,7 @@ export function formatFilterValue(value: number | null, unit: FilterUnit): strin
   return value.toFixed(2);
 }
 
-export function formatColumnValue(
-  row: ScreenerRow,
-  key: string,
-): string {
+export function formatColumnValue(row: ScreenerRow, key: string): string {
   if (key === "v2Composite" && row.v2Status === "incomplete") {
     return "Incomplete";
   }
@@ -156,43 +418,283 @@ export type ColumnDef = {
 };
 
 export const SCREENER_COLUMNS: ColumnDef[] = [
-  { key: "marketCap", label: "Mkt cap", group: "Size & Price", unit: "currencyB", get: (row) => row.marketCap, default: true },
-  { key: "price", label: "Price", group: "Size & Price", unit: "currency", get: (row) => row.price, default: false },
-  { key: "return1d", label: "1D", group: "Returns", unit: "pct", get: (row) => row.return1d, default: false },
-  { key: "return1w", label: "1W", group: "Returns", unit: "pct", get: (row) => row.return1w, default: false },
-  { key: "return1m", label: "1M", group: "Returns", unit: "pct", get: (row) => row.return1m, default: false },
-  { key: "return3m", label: "3M", group: "Returns", unit: "pct", get: (row) => row.return3m, default: false },
-  { key: "return6m", label: "6M", group: "Returns", unit: "pct", get: (row) => row.return6m, default: false },
-  { key: "return1y", label: "1Y", group: "Returns", unit: "pct", get: (row) => row.return1y, default: true },
-  { key: "return3y", label: "3Y", group: "Returns", unit: "pct", get: (row) => row.return3y, default: false },
-  { key: "return5y", label: "5Y", group: "Returns", unit: "pct", get: (row) => row.return5y, default: false },
-  { key: "pe", label: "P/E", group: "Valuation", unit: "x", get: (row) => row.pe, default: true },
-  { key: "pb", label: "P/B", group: "Valuation", unit: "x", get: (row) => row.pb, default: true },
-  { key: "evEbitda", label: "EV/EBITDA", group: "Valuation", unit: "x", get: (row) => row.evEbitda, default: true },
-  { key: "peg", label: "PEG", group: "Valuation", unit: "x", get: (row) => row.peg, default: false },
-  { key: "dividendYield", label: "Div yield", group: "Valuation", unit: "pct", get: (row) => row.dividendYield, default: true },
-  { key: "roce", label: "ROCE", group: "Profitability", unit: "pct", get: (row) => row.roce, default: true },
-  { key: "roe", label: "ROE", group: "Profitability", unit: "pct", get: (row) => row.roe, default: true },
-  { key: "operatingMargin", label: "Op margin", group: "Profitability", unit: "pct", get: (row) => row.operatingMargin, default: true },
-  { key: "netMargin", label: "Net margin", group: "Profitability", unit: "pct", get: (row) => row.netMargin, default: false },
-  { key: "revenueGrowth", label: "Rev growth", group: "Growth", unit: "pct", get: (row) => row.revenueGrowth, default: false },
-  { key: "growthScore", label: "Growth", group: "Scores", unit: "score", get: (row) => row.factorScores.growth, default: false },
-  { key: "qualityScore", label: "Quality", group: "Scores", unit: "score", get: (row) => row.factorScores.quality, default: false },
-  { key: "valuationScore", label: "Valuation", group: "Scores", unit: "score", get: (row) => row.factorScores.valuation, default: false },
-  { key: "momentumScore", label: "Momentum", group: "Scores", unit: "score", get: (row) => row.factorScores.momentum, default: false },
-  { key: "lowVolatilityScore", label: "Low vol", group: "Scores", unit: "score", get: (row) => row.factorScores.lowVolatility, default: false },
-  { key: "composite", label: "5F score", group: "Scores", unit: "score", get: (row) => row.composite, default: true },
-  { key: "v2Composite", label: "V2 score", group: "V2 Scores", unit: "score", get: (row) => row.v2Composite, default: true },
-  { key: "v2Growth", label: "V2 G", group: "V2 Scores", unit: "score", get: (row) => row.v2Growth, default: false },
-  { key: "v2Quality", label: "V2 Q", group: "V2 Scores", unit: "score", get: (row) => row.v2Quality, default: false },
-  { key: "v2Valuation", label: "V2 V", group: "V2 Scores", unit: "score", get: (row) => row.v2Valuation, default: false },
-  { key: "v2Technical", label: "V2 T", group: "V2 Scores", unit: "score", get: (row) => row.v2Technical, default: false },
-  { key: "netDebtEbitda", label: "Net debt/EBITDA", group: "Financial Health", unit: "x", get: (row) => row.netDebtEbitda, default: false },
-  { key: "priceVs50dma", label: "vs 50 DMA", group: "Momentum", unit: "pct", get: (row) => row.priceVs50dma, default: false },
-  { key: "priceVs200dma", label: "vs 200 DMA", group: "Momentum", unit: "pct", get: (row) => row.priceVs200dma, default: false },
+  {
+    key: "marketCap",
+    label: "Mkt cap",
+    group: "Size & Price",
+    unit: "currencyB",
+    get: (row) => row.marketCap,
+    default: true,
+  },
+  {
+    key: "price",
+    label: "Price",
+    group: "Size & Price",
+    unit: "currency",
+    get: (row) => row.price,
+    default: false,
+  },
+  {
+    key: "return1d",
+    label: "1D",
+    group: "Returns",
+    unit: "pct",
+    get: (row) => row.return1d,
+    default: false,
+  },
+  {
+    key: "return1w",
+    label: "1W",
+    group: "Returns",
+    unit: "pct",
+    get: (row) => row.return1w,
+    default: false,
+  },
+  {
+    key: "return1m",
+    label: "1M",
+    group: "Returns",
+    unit: "pct",
+    get: (row) => row.return1m,
+    default: false,
+  },
+  {
+    key: "return3m",
+    label: "3M",
+    group: "Returns",
+    unit: "pct",
+    get: (row) => row.return3m,
+    default: false,
+  },
+  {
+    key: "return6m",
+    label: "6M",
+    group: "Returns",
+    unit: "pct",
+    get: (row) => row.return6m,
+    default: false,
+  },
+  {
+    key: "return1y",
+    label: "1Y",
+    group: "Returns",
+    unit: "pct",
+    get: (row) => row.return1y,
+    default: true,
+  },
+  {
+    key: "return3y",
+    label: "3Y",
+    group: "Returns",
+    unit: "pct",
+    get: (row) => row.return3y,
+    default: false,
+  },
+  {
+    key: "return5y",
+    label: "5Y",
+    group: "Returns",
+    unit: "pct",
+    get: (row) => row.return5y,
+    default: false,
+  },
+  {
+    key: "pe",
+    label: "P/E",
+    group: "Valuation",
+    unit: "x",
+    get: (row) => row.pe,
+    default: true,
+  },
+  {
+    key: "pb",
+    label: "P/B",
+    group: "Valuation",
+    unit: "x",
+    get: (row) => row.pb,
+    default: true,
+  },
+  {
+    key: "evEbitda",
+    label: "EV/EBITDA",
+    group: "Valuation",
+    unit: "x",
+    get: (row) => row.evEbitda,
+    default: true,
+  },
+  {
+    key: "peg",
+    label: "PEG",
+    group: "Valuation",
+    unit: "x",
+    get: (row) => row.peg,
+    default: false,
+  },
+  {
+    key: "dividendYield",
+    label: "Div yield",
+    group: "Valuation",
+    unit: "pct",
+    get: (row) => row.dividendYield,
+    default: true,
+  },
+  {
+    key: "roce",
+    label: "ROCE",
+    group: "Profitability",
+    unit: "pct",
+    get: (row) => row.roce,
+    default: true,
+  },
+  {
+    key: "roe",
+    label: "ROE",
+    group: "Profitability",
+    unit: "pct",
+    get: (row) => row.roe,
+    default: true,
+  },
+  {
+    key: "operatingMargin",
+    label: "Op margin",
+    group: "Profitability",
+    unit: "pct",
+    get: (row) => row.operatingMargin,
+    default: true,
+  },
+  {
+    key: "netMargin",
+    label: "Net margin",
+    group: "Profitability",
+    unit: "pct",
+    get: (row) => row.netMargin,
+    default: false,
+  },
+  {
+    key: "revenueGrowth",
+    label: "Rev growth",
+    group: "Growth",
+    unit: "pct",
+    get: (row) => row.revenueGrowth,
+    default: false,
+  },
+  {
+    key: "growthScore",
+    label: "Growth",
+    group: "Scores",
+    unit: "score",
+    get: (row) => row.factorScores.growth,
+    default: false,
+  },
+  {
+    key: "qualityScore",
+    label: "Quality",
+    group: "Scores",
+    unit: "score",
+    get: (row) => row.factorScores.quality,
+    default: false,
+  },
+  {
+    key: "valuationScore",
+    label: "Valuation",
+    group: "Scores",
+    unit: "score",
+    get: (row) => row.factorScores.valuation,
+    default: false,
+  },
+  {
+    key: "momentumScore",
+    label: "Momentum",
+    group: "Scores",
+    unit: "score",
+    get: (row) => row.factorScores.momentum,
+    default: false,
+  },
+  {
+    key: "lowVolatilityScore",
+    label: "Low vol",
+    group: "Scores",
+    unit: "score",
+    get: (row) => row.factorScores.lowVolatility,
+    default: false,
+  },
+  {
+    key: "composite",
+    label: "5F score",
+    group: "Scores",
+    unit: "score",
+    get: (row) => row.composite,
+    default: true,
+  },
+  {
+    key: "v2Composite",
+    label: "Score",
+    group: "Four-factor scores",
+    unit: "score",
+    get: (row) => row.v2Composite,
+    default: true,
+  },
+  {
+    key: "v2Growth",
+    label: "Growth",
+    group: "Four-factor scores",
+    unit: "score",
+    get: (row) => row.v2Growth,
+    default: false,
+  },
+  {
+    key: "v2Quality",
+    label: "Quality",
+    group: "Four-factor scores",
+    unit: "score",
+    get: (row) => row.v2Quality,
+    default: false,
+  },
+  {
+    key: "v2Valuation",
+    label: "Value",
+    group: "Four-factor scores",
+    unit: "score",
+    get: (row) => row.v2Valuation,
+    default: false,
+  },
+  {
+    key: "v2Technical",
+    label: "Tech",
+    group: "Four-factor scores",
+    unit: "score",
+    get: (row) => row.v2Technical,
+    default: false,
+  },
+  {
+    key: "netDebtEbitda",
+    label: "Net debt/EBITDA",
+    group: "Financial Health",
+    unit: "x",
+    get: (row) => row.netDebtEbitda,
+    default: false,
+  },
+  {
+    key: "priceVs50dma",
+    label: "vs 50 DMA",
+    group: "Momentum",
+    unit: "pct",
+    get: (row) => row.priceVs50dma,
+    default: false,
+  },
+  {
+    key: "priceVs200dma",
+    label: "vs 200 DMA",
+    group: "Momentum",
+    unit: "pct",
+    get: (row) => row.priceVs200dma,
+    default: false,
+  },
 ];
 
-export const DEFAULT_COLUMNS = SCREENER_COLUMNS.filter((column) => column.default).map((column) => column.key);
+export const DEFAULT_COLUMNS = SCREENER_COLUMNS.filter(
+  (column) => column.default,
+).map((column) => column.key);
 
 export function parseColumns(raw: string | undefined): string[] {
   if (!raw) return DEFAULT_COLUMNS;
@@ -204,9 +706,16 @@ export function parseColumns(raw: string | undefined): string[] {
   return selected.length ? selected : DEFAULT_COLUMNS;
 }
 
-export function buildFilterDistributions(rows: ScreenerRow[]): FilterDistribution[] {
+export function buildFilterDistributions(
+  rows: ScreenerRow[],
+): FilterDistribution[] {
   return FILTER_DEFS.map((filter) => {
-    const values = rows.map(filter.get).filter((value): value is number => value != null && Number.isFinite(value)).sort((a, b) => a - b);
+    const values = rows
+      .map(filter.get)
+      .filter(
+        (value): value is number => value != null && Number.isFinite(value),
+      )
+      .sort((a, b) => a - b);
     const min = values[0] ?? 0;
     const max = values.at(-1) ?? 0;
     const sampleAt = (percentile: number) =>
@@ -223,15 +732,29 @@ export function buildFilterDistributions(rows: ScreenerRow[]): FilterDistributio
     const withinDomain = values.filter(
       (value) => value >= sliderMin && value <= sliderMax,
     );
-    const transformed = logScale ? withinDomain.map((value) => Math.log10(value)) : withinDomain;
-    const domainMin = logScale ? Math.log10(Math.max(sliderMin, 1e-9)) : sliderMin;
-    const domainMax = logScale ? Math.log10(Math.max(sliderMax, 1e-9)) : sliderMax;
+    const transformed = logScale
+      ? withinDomain.map((value) => Math.log10(value))
+      : withinDomain;
+    const domainMin = logScale
+      ? Math.log10(Math.max(sliderMin, 1e-9))
+      : sliderMin;
+    const domainMax = logScale
+      ? Math.log10(Math.max(sliderMax, 1e-9))
+      : sliderMax;
     const bins = new Array(12).fill(0) as number[];
     for (const value of transformed) {
       const index =
         domainMax === domainMin
           ? 0
-          : Math.min(11, Math.max(0, Math.floor(((value - domainMin) / (domainMax - domainMin)) * 12)));
+          : Math.min(
+              11,
+              Math.max(
+                0,
+                Math.floor(
+                  ((value - domainMin) / (domainMax - domainMin)) * 12,
+                ),
+              ),
+            );
       bins[index] += 1;
     }
     return {
@@ -263,15 +786,27 @@ export function parseScreenerParams(
     ranges[`${filter.key}Min`] = number(raw[`${filter.key}Min`]);
     ranges[`${filter.key}Max`] = number(raw[`${filter.key}Max`]);
   }
-  const view = ["growth", "quality", "valuation", "momentum", "lowVolatility"].includes(String(raw.view))
+  const view = [
+    "growth",
+    "quality",
+    "valuation",
+    "momentum",
+    "lowVolatility",
+  ].includes(String(raw.view))
     ? (raw.view as ScreenerUiParams["view"])
     : "overview";
   return {
     q: typeof raw.q === "string" ? raw.q : "",
     group: typeof raw.group === "string" ? raw.group : "",
-    min: typeof raw.min === "string" && raw.min !== "" ? Number(raw.min) || 0 : 0,
+    min:
+      typeof raw.min === "string" && raw.min !== "" ? Number(raw.min) || 0 : 0,
     view,
-    sort: typeof raw.sort === "string" ? raw.sort : view === "overview" ? "v2Composite" : view,
+    sort:
+      typeof raw.sort === "string"
+        ? raw.sort
+        : view === "overview"
+          ? "v2Composite"
+          : view,
     dir: raw.dir === "asc" ? "asc" : "desc",
     page: Math.max(1, Number(raw.page) || 1),
     open: typeof raw.open === "string" ? raw.open : "",
@@ -282,7 +817,9 @@ export function parseScreenerParams(
 
 export function buildScreenerUrl(
   params: ScreenerUiParams,
-  overrides: Partial<Omit<ScreenerUiParams, "ranges">> & { ranges?: RangeParams } = {},
+  overrides: Partial<Omit<ScreenerUiParams, "ranges">> & {
+    ranges?: RangeParams;
+  } = {},
 ): string {
   const next = { ...params, ...overrides };
   const search = new URLSearchParams();
@@ -302,13 +839,18 @@ export function buildScreenerUrl(
   return query ? `/screener?${query}` : "/screener";
 }
 
-export function matchesFilters(row: ScreenerRow, params: ScreenerUiParams): boolean {
+export function matchesFilters(
+  row: ScreenerRow,
+  params: ScreenerUiParams,
+): boolean {
   if (params.group && row.group !== params.group) return false;
   if (params.min && (row.composite ?? 0) < params.min) return false;
   const term = params.q.trim().toLowerCase();
   if (
     term &&
-    !`${row.ticker} ${row.name} ${row.group} ${row.sector}`.toLowerCase().includes(term)
+    !`${row.ticker} ${row.name} ${row.group} ${row.sector}`
+      .toLowerCase()
+      .includes(term)
   ) {
     return false;
   }
@@ -345,7 +887,8 @@ export function buildResearchScreens(rows: ScreenerRow[]): ResearchScreen[] {
     {
       id: "high-quality",
       name: "High Quality Businesses",
-      description: "Top-quintile quality scores driven by returns on capital, margins and cash conversion.",
+      description:
+        "Top-quintile quality scores driven by returns on capital, margins and cash conversion.",
       tags: ["Quality", "ROIC", "Cash"],
       params: { qualityScoreMin: "70" },
     },
@@ -359,14 +902,16 @@ export function buildResearchScreens(rows: ScreenerRow[]): ResearchScreen[] {
     {
       id: "growth-value",
       name: "High Growth at Reasonable Valuation",
-      description: "Above-average growth without paying top-of-range valuation scores.",
+      description:
+        "Above-average growth without paying top-of-range valuation scores.",
       tags: ["Growth", "Valuation"],
       params: { growthScoreMin: "65", valuationScoreMin: "55" },
     },
     {
       id: "cash-generators",
       name: "Cash Flow Generators",
-      description: "Businesses converting a meaningful share of revenue into free cash flow.",
+      description:
+        "Businesses converting a meaningful share of revenue into free cash flow.",
       tags: ["Cash", "Quality"],
       params: { fcfMarginMin: "0.08" },
     },
@@ -386,7 +931,7 @@ export function buildResearchScreens(rows: ScreenerRow[]): ResearchScreen[] {
     },
     {
       id: "low-vol",
-      name: "Low Volatility",
+      name: "Low volatility",
       description: "Lower beta, contained drawdowns and steadier returns.",
       tags: ["Low volatility", "Risk"],
       params: { lowVolatilityScoreMin: "70" },
@@ -394,14 +939,16 @@ export function buildResearchScreens(rows: ScreenerRow[]): ResearchScreen[] {
     {
       id: "cheap-history",
       name: "Cheap vs Own History",
-      description: "Current multiples sit at the cheap end of the company's own five-year range.",
+      description:
+        "Current multiples sit at the cheap end of the company's own five-year range.",
       tags: ["Valuation", "5-year history"],
       params: { historicalValuationMin: "70" },
     },
     {
       id: "improving-returns",
       name: "Improving Returns",
-      description: "ROIC has improved over the last three years with quality support.",
+      description:
+        "ROIC has improved over the last three years with quality support.",
       tags: ["Quality", "Trend"],
       params: { roicTrendMin: "0.01", qualityScoreMin: "55" },
     },
@@ -419,7 +966,10 @@ export function buildResearchScreens(rows: ScreenerRow[]): ResearchScreen[] {
       open: "",
       cols: DEFAULT_COLUMNS,
       ranges: Object.fromEntries(
-        Object.entries(screen.params).map(([key, value]) => [key, Number(value)]),
+        Object.entries(screen.params).map(([key, value]) => [
+          key,
+          Number(value),
+        ]),
       ),
     };
     return { ...screen, count: applyScreenerFilters(rows, params).length };

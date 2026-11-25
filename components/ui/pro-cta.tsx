@@ -1,4 +1,10 @@
-import { ArrowRight, BarChart3, BellRing, FileText, ListChecks } from "lucide-react";
+import {
+  ArrowRight,
+  BarChart3,
+  BellRing,
+  FileText,
+  ListChecks,
+} from "lucide-react";
 import { formatPrice, PRICING } from "@/config/pricing";
 
 const BENEFITS = [
@@ -8,7 +14,11 @@ const BENEFITS = [
   { icon: ListChecks, label: "Earnings summaries and estimate trackers" },
 ];
 
-export function ProCTA({ context = "article" }: { context?: "article" | "page" }) {
+export function ProCTA({
+  context = "article",
+}: {
+  context?: "article" | "page";
+}) {
   return (
     <section
       aria-labelledby="pro-cta-title"
@@ -17,9 +27,7 @@ export function ProCTA({ context = "article" }: { context?: "article" | "page" }
       <div className="pointer-events-none absolute -right-10 -top-16 size-64 rounded-full bg-white/10 blur-2xl" />
       <div className="pointer-events-none absolute -bottom-20 left-1/3 size-56 rounded-full bg-[#8b3dff]/30 blur-2xl" />
       <div className="relative">
-        <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-white/55">
-          Stockmonk Pro
-        </p>
+        <p className="text-[10px] font-bold text-white/55">Stockmonk Pro</p>
         <h2
           id="pro-cta-title"
           className="display mt-2 max-w-xl text-[28px] leading-[1.1] tracking-[-0.02em] sm:text-[34px]"

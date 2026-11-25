@@ -42,9 +42,7 @@ export function MobileNav() {
             More
           </summary>
           <div className="absolute bottom-full right-2 mb-2 w-64 rounded-2xl border border-line bg-surface p-3 shadow-float">
-            <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.14em] text-faint">
-              More
-            </p>
+            <p className="mb-2 text-[10px] font-bold text-faint">More</p>
             <div className="grid grid-cols-2 gap-1.5">
               {[
                 { href: "/watchlist", label: "Watchlist" },

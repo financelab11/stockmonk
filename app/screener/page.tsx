@@ -24,7 +24,7 @@ import { breadcrumbJsonLd } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "US equity screener",
   description:
-    "A five-factor quantitative screener for thousands of US-listed companies, covering Growth, Quality, Valuation, Momentum and Low Volatility.",
+    "A five-factor quantitative screener for thousands of US-listed companies, covering Growth, Quality, Valuation, Momentum and Low volatility.",
   alternates: { canonical: "/screener" },
   openGraph: {
     title: "US equity screener · Stockmonk",
@@ -101,17 +101,17 @@ export default async function ScreenerPage({
               </h1>
               <p className="mt-2 max-w-2xl text-[13px] leading-relaxed text-muted">
                 Filter, compare and rank {summary.count.toLocaleString("en-US")}{" "}
-                US-listed companies by the four-factor V2 score: Growth 25%,
+                US-listed companies by the four-factor score: Growth 25%,
                 Quality 35%, Valuation 25% and Technical 15%. The underlying
                 research factors remain visible.
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-2">
               <a
-                href="/framework/v2"
+                href="/framework/scores"
                 className="inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1.5 text-[10.5px] font-semibold text-brand"
               >
-                V2 methodology
+                Score methodology
               </a>
               <span className="inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1.5 text-[10.5px] font-semibold text-ink-soft">
                 <ShieldCheck className="size-3.5 text-positive" />
@@ -127,7 +127,7 @@ export default async function ScreenerPage({
           </div>
           <p className="mt-3 text-[10.5px] text-muted">
             Fundamentals and prices as of {summary.asOf ?? "the latest dataset"}
-            {" · "}V2 median score{" "}
+            {" · "}Median score{" "}
             <span className="tabular font-semibold text-ink">
               {summary.median ?? "n/a"}
             </span>{" "}
@@ -314,7 +314,7 @@ export default async function ScreenerPage({
             </div>
             <p className="mt-3 max-w-3xl text-[10.5px] leading-relaxed text-muted">
               Composite weights: Growth 20%, Quality 25%, Valuation 20%,
-              Momentum 20%, Low Volatility 15%. Score bands are descriptive
+              Momentum 20%, Low volatility 15%. Score bands are descriptive
               ranges, not investment recommendations. The model does not use
               Stockmonk ratings or price targets.
             </p>

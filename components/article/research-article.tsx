@@ -38,8 +38,7 @@ import { StatTile } from "@/components/ui/stat-tile";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { WatchlistButton } from "@/components/watchlist/watchlist-button";
 import type { ResearchBundle } from "@/lib/data";
-import { getV2Score } from "@/lib/scores-v2-data";
-import { round } from "@/lib/scoring-v2/util";
+import { getV2Kpis, getV2Score } from "@/lib/scores-v2-data";
 import { resolveStory } from "@/lib/story-tokens";
 import type { StockStory } from "@/content/stocks/types";
 import {
@@ -155,6 +154,7 @@ export function ResearchArticle({
   const ranges = valuationRange(bundle);
   const cyclePosition = bundle.rangePosition ?? 0;
   const v2Score = getV2Score(data.ticker);
+  const v2Kpis = getV2Kpis(data.ticker);
   const rankedEvidence = v2Score
     ? Object.values(v2Score.scores)
         .flatMap((score) => score.evidence)
@@ -171,23 +171,19 @@ export function ResearchArticle({
     .sort((a, b) => a.ratio - b.ratio)
     .slice(0, 3);
   const peerCount = peerRows.filter((row) => !row.isSubject).length;
-  const managementEvidence =
-    v2Score?.scores.quality.evidence.filter((item) =>
-      [
-        "dilution",
-        "shareholder-yield",
-        "capex-discipline",
-        "surprise-rate",
-        "net-debt-ebitda",
-        "interest-cover",
-        "accruals",
-      ].includes(item.id),
-    ) ?? [];
 
   const premiumDiscount =
     data.metrics.evEbitda != null && peerEv != null
       ? data.metrics.evEbitda / peerEv - 1
       : null;
+
+  const formatKpi = (value: number | null, unit: string): string => {
+    if (value == null) return "N/A";
+    if (unit === "%") return `${value}%`;
+    if (unit === "x") return `${value}x`;
+    if (unit === "points") return `${value}`;
+    return `${value} ${unit}`;
+  };
 
   const marketHref = "/discover";
   const marketLabel = "Discover";
@@ -364,7 +360,7 @@ export function ResearchArticle({
               {keyStrengths.length > 0 && keyConcerns.length > 0 && (
                 <div className="mt-4 grid gap-3 sm:grid-cols-2">
                   <div className="rounded-xl border border-emerald-200 bg-emerald-50/60 p-3.5">
-                    <p className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-emerald-900">
+                    <p className="display text-[13px] font-medium text-emerald-900">
                       Key strengths
                     </p>
                     <ul className="mt-2 space-y-1.5 text-[12px] text-ink-soft">
@@ -380,7 +376,7 @@ export function ResearchArticle({
                     </ul>
                   </div>
                   <div className="rounded-xl border border-amber-200 bg-amber-50/60 p-3.5">
-                    <p className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-amber-900">
+                    <p className="display text-[13px] font-medium text-amber-900">
                       Key concerns
                     </p>
                     <ul className="mt-2 space-y-1.5 text-[12px] text-ink-soft">
@@ -406,7 +402,7 @@ export function ResearchArticle({
                 />
               </div>
               <div className="mt-4 rounded-xl border border-line bg-surface p-4">
-                <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+                <p className="mb-2 text-[10px] font-bold text-muted">
                   52-week position
                 </p>
                 <RangeBar
@@ -471,7 +467,7 @@ export function ResearchArticle({
               )}
               {segments && segmentSlices.length === 1 && (
                 <div className="mt-5 rounded-xl border border-line bg-surface p-4">
-                  <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+                  <p className="text-[10px] font-bold text-muted">
                     Reported revenue
                   </p>
                   <p className="tabular mt-2 text-[20px] font-semibold text-ink">
@@ -484,8 +480,40 @@ export function ResearchArticle({
                   </p>
                 </div>
               )}
+              {v2Kpis && v2Kpis.kpis.some((kpi) => kpi.available) && (
+                <div className="mt-5">
+                  <h3 className="display text-[19px] leading-tight text-ink">
+                    Sector KPIs
+                  </h3>
+                  <p className="mt-1 text-[11px] text-muted">
+                    {v2Kpis.groupLabel}. Reported metrics only; unavailable
+                    industry metrics are marked N/A in the score evidence.
+                  </p>
+                  <dl className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+                    {v2Kpis.kpis
+                      .filter((kpi) => kpi.available)
+                      .slice(0, 6)
+                      .map((kpi) => (
+                        <div key={kpi.id} className="card-flat p-3">
+                          <dt className="text-[11px] text-muted">
+                            {kpi.label}
+                          </dt>
+                          <dd className="tabular mt-0.5 text-[16px] font-semibold text-ink">
+                            {kpi.value == null
+                              ? "N/A"
+                              : formatKpi(kpi.value, kpi.unit)}
+                          </dd>
+                          <p className="mt-0.5 text-[10px] text-faint">
+                            {kpi.period}
+                          </p>
+                        </div>
+                      ))}
+                  </dl>
+                </div>
+              )}
+
               <div className="mt-4">
-                <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+                <p className="text-[10px] font-bold text-muted">
                   Two comparable companies
                 </p>
                 <div className="mt-2 grid gap-2 sm:grid-cols-2">
@@ -557,7 +585,7 @@ export function ResearchArticle({
                 </div>
               )}
               <div className="mt-4 rounded-xl border border-line bg-surface p-4">
-                <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+                <p className="text-[10px] font-bold text-muted">
                   Revenue quality
                 </p>
                 <div className="mt-1">
@@ -600,9 +628,10 @@ export function ResearchArticle({
                   The comparison set is {peerCount}{" "}
                   {peerCount === 1 ? "company" : "companies"} ({basis}). The
                   median peer grew revenue {formatPercent(peerRevenueGrowth)},
-                  earned an operating margin of {formatPercent(peerOperatingMargin)}{" "}
-                  and a return on invested capital of {formatPercent(peerRoic)},
-                  and traded at {formatMultiple(peerPe)} trailing earnings and{" "}
+                  earned an operating margin of{" "}
+                  {formatPercent(peerOperatingMargin)} and a return on invested
+                  capital of {formatPercent(peerRoic)}, and traded at{" "}
+                  {formatMultiple(peerPe)} trailing earnings and{" "}
                   {formatMultiple(peerEv)} EV/EBITDA. {data.name} trades at{" "}
                   {formatMultiple(data.metrics.pe)} trailing earnings and{" "}
                   {formatMultiple(data.metrics.evEbitda)} EV/EBITDA, with{" "}
@@ -619,65 +648,11 @@ export function ResearchArticle({
             </section>
 
             <section
-              id="management"
-              className="scroll-mt-28 border-b border-line py-9"
-            >
-              <SectionHeading
-                number="04"
-                id="management"
-                title="Competitive moat and management"
-                subtitle="Returns above the cost of capital, capital allocation and balance-sheet evidence"
-              />
-              {v2Score && (
-                <div className="prose-editorial">
-                  <p>
-                    The V2 quality score is{" "}
-                    {v2Score.scores.quality.score == null
-                      ? "not available"
-                      : `${round(v2Score.scores.quality.score, 0)} out of 100`}
-                    , with{" "}
-                    {Math.round(v2Score.scores.quality.coverage * 100)}% of the
-                    quality inputs available. The score rewards returns above the
-                    estimated cost of capital, stable margins, low dilution and
-                    cash-backed earnings. The evidence below shows the capital
-                    allocation and resilience inputs rather than a narrative
-                    verdict.
-                  </p>
-                </div>
-              )}
-              {managementEvidence.length > 0 && (
-                <div className="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-                  {managementEvidence.map((item) => (
-                    <div key={item.id} className="card-flat p-3">
-                      <p className="text-[11px] text-muted">{item.label}</p>
-                      <p className="tabular mt-0.5 text-[15px] font-semibold text-ink">
-                        {item.value == null
-                          ? "N/A"
-                          : `${item.value}${item.unit ? ` ${item.unit}` : ""}`}
-                      </p>
-                      <p className="mt-1 text-[10.5px] text-faint">
-                        {item.available
-                          ? `${item.points ?? 0} / ${item.maxPoints} points`
-                          : item.reason}
-                      </p>
-                    </div>
-                  ))}
-                </div>
-              )}
-              <p className="mt-3 text-[11px] leading-relaxed text-muted">
-                Insider ownership and Form 4 activity are not yet part of the
-                automated dataset, so that part of management quality is not
-                scored. The capital-allocation evidence above is reported, not a
-                recommendation.
-              </p>
-            </section>
-
-            <section
               id="growth-drivers"
               className="scroll-mt-28 border-b border-line py-9"
             >
               <SectionHeading
-                number="05"
+                number="04"
                 id="growth-drivers"
                 title="Growth drivers and future runway"
                 subtitle={`${formatPercent(cagr)} compound annual revenue growth from the first to the latest fiscal year`}
@@ -715,7 +690,7 @@ export function ResearchArticle({
                 </p>
               )}
               <div className="mt-4 rounded-xl border border-line bg-surface p-4">
-                <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+                <p className="text-[10px] font-bold text-muted">
                   Attributed forward estimates
                 </p>
                 <div className="mt-1">
@@ -749,7 +724,7 @@ export function ResearchArticle({
               className="scroll-mt-28 border-b border-line py-9"
             >
               <SectionHeading
-                number="06"
+                number="05"
                 id="financial-performance"
                 title="Historical financial performance"
                 subtitle={`Latest reported period: ${quarterLabel(latest)}${latest ? ` · reported ${formatDate(latest.reportDate)}` : ""}`}
@@ -758,7 +733,7 @@ export function ResearchArticle({
 
               {latest && (
                 <div className="mt-4 rounded-xl border border-line bg-brand-soft/60 p-4">
-                  <p className="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-[0.12em] text-brand-deep">
+                  <p className="flex items-center gap-1.5 text-[10px] font-bold text-brand-deep">
                     <MessageSquareText
                       aria-hidden="true"
                       className="size-3.5"
@@ -866,7 +841,7 @@ export function ResearchArticle({
               className="scroll-mt-28 border-b border-line py-9"
             >
               <SectionHeading
-                number="07"
+                number="06"
                 id="cash-and-balance-sheet"
                 title="Cash flow and balance sheet"
                 subtitle="How much cash the business generates and how it is financed"
@@ -924,7 +899,7 @@ export function ResearchArticle({
               className="scroll-mt-28 border-b border-line py-9"
             >
               <SectionHeading
-                number="08"
+                number="07"
                 id="valuation"
                 title="Valuation"
                 subtitle="What the market is paying, how that compares with history and with peers"
@@ -939,7 +914,7 @@ export function ResearchArticle({
 
               <div className="mt-4 grid gap-3 md:grid-cols-2">
                 <div className="rounded-xl border border-line bg-surface p-4">
-                  <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+                  <p className="text-[10px] font-bold text-muted">
                     Current multiples
                   </p>
                   <div className="mt-1">
@@ -966,7 +941,7 @@ export function ResearchArticle({
                   </div>
                 </div>
                 <div className="rounded-xl border border-line bg-surface p-4">
-                  <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+                  <p className="text-[10px] font-bold text-muted">
                     Own 5-year range
                   </p>
                   <div className="mt-1">
@@ -1003,7 +978,7 @@ export function ResearchArticle({
               </div>
 
               <div className="mt-4 rounded-xl border border-line bg-surface p-4">
-                <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+                <p className="text-[10px] font-bold text-muted">
                   Peer comparison basis
                 </p>
                 <p className="mt-1 text-[12px] leading-relaxed text-ink-soft">
@@ -1078,7 +1053,7 @@ export function ResearchArticle({
               className="scroll-mt-28 border-b border-line py-9"
             >
               <SectionHeading
-                number="09"
+                number="08"
                 id="analysts"
                 title="Market expectations and catalysts"
                 subtitle="Third-party consensus, shown with the date it was collected"
@@ -1112,7 +1087,7 @@ export function ResearchArticle({
               className="scroll-mt-28 border-b border-line py-9"
             >
               <SectionHeading
-                number="10"
+                number="09"
                 id="risks"
                 title="Risks and thesis breakers"
                 subtitle="Company-specific risks, with a qualitative severity descriptor"
@@ -1130,7 +1105,7 @@ export function ResearchArticle({
                 <RiskList items={story.risks.items} />
               </div>
               <div className="mt-4 rounded-xl border border-line bg-surface p-4">
-                <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+                <p className="text-[10px] font-bold text-muted">
                   What to watch
                 </p>
                 <div className="mt-2 grid gap-2 sm:grid-cols-3">
@@ -1153,7 +1128,7 @@ export function ResearchArticle({
 
             <section id="bottom-line" className="scroll-mt-28 py-9">
               <SectionHeading
-                number="11"
+                number="10"
                 id="bottom-line"
                 title="Investment conclusion"
                 subtitle="What the data says, what it does not say, and the questions to ask next"
@@ -1172,7 +1147,7 @@ export function ResearchArticle({
                   description="Percentile ranks within the 229-company coverage universe. 50 is the middle of the universe."
                 />
                 <div className="rounded-xl border border-line bg-surface p-4">
-                  <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+                  <p className="text-[10px] font-bold text-muted">
                     Questions to take away
                   </p>
                   <ul className="mt-2 space-y-1.5">

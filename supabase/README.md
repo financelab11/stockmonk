@@ -93,6 +93,9 @@ consensus and snapshots. Run `pnpm sync:supabase:direct` to refresh the counts.
   `pnpm sync:supabase`; the screener is rebuilt from the same 229-name data.
 - `story_freshness` records the latest price, filing, earnings, consensus and
   segment dates plus the narrative status for each ticker.
+- `research_scores`, `research_evidence`, `company_kpis` and `research_articles`
+  hold the normalized score, evidence, sector KPI and publication records.
+  `pnpm sync:v2` refreshes them from `public/data/v2`.
 
 ## Verify
 

@@ -34,16 +34,20 @@ export function ConsensusPanel({
 
   const total = consensusTotal(consensus);
   const implied = consensusImpliedMove(consensus, price);
-  const buys = (consensus.distribution?.strongBuy ?? 0) + (consensus.distribution?.buy ?? 0);
+  const buys =
+    (consensus.distribution?.strongBuy ?? 0) +
+    (consensus.distribution?.buy ?? 0);
   const holds = consensus.distribution?.hold ?? 0;
-  const sells = (consensus.distribution?.sell ?? 0) + (consensus.distribution?.strongSell ?? 0);
+  const sells =
+    (consensus.distribution?.sell ?? 0) +
+    (consensus.distribution?.strongSell ?? 0);
   const estimates = estimateRows(consensus);
 
   return (
     <div className="card overflow-hidden">
       <div className="flex flex-wrap items-start justify-between gap-2 border-b border-line bg-paper-deep px-4 py-3">
         <div>
-          <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-brand">
+          <p className="text-[10px] font-bold text-brand">
             Third-party analyst consensus
           </p>
           <p className="mt-0.5 text-[11px] text-muted">
@@ -91,35 +95,49 @@ export function ConsensusPanel({
       {consensus.distribution && (
         <div className="border-b border-line p-4">
           <div className="flex items-center justify-between">
-            <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+            <p className="text-[10px] font-bold text-muted">
               Recommendation distribution
             </p>
-            <p className="text-[10px] text-muted">Provider labels, not Stockmonk</p>
+            <p className="text-[10px] text-muted">
+              Provider labels, not Stockmonk
+            </p>
           </div>
           <div className="mt-2 flex h-3 overflow-hidden rounded-full bg-paper-deep">
-            <span className="bg-positive" style={{ width: `${total ? (buys / total) * 100 : 0}%` }} />
-            <span className="bg-[#f5b544]" style={{ width: `${total ? (holds / total) * 100 : 0}%` }} />
-            <span className="bg-danger" style={{ width: `${total ? (sells / total) * 100 : 0}%` }} />
+            <span
+              className="bg-positive"
+              style={{ width: `${total ? (buys / total) * 100 : 0}%` }}
+            />
+            <span
+              className="bg-[#f5b544]"
+              style={{ width: `${total ? (holds / total) * 100 : 0}%` }}
+            />
+            <span
+              className="bg-danger"
+              style={{ width: `${total ? (sells / total) * 100 : 0}%` }}
+            />
           </div>
           <div className="mt-2 flex flex-wrap gap-3 text-[10.5px] text-muted">
             <span>
               <span className="mr-1 inline-block size-2 rounded-full bg-positive" />
-              Buy / strong buy: {buys} {total ? `(${formatPercent(buys / total, 0)})` : ""}
+              Buy / strong buy: {buys}{" "}
+              {total ? `(${formatPercent(buys / total, 0)})` : ""}
             </span>
             <span>
               <span className="mr-1 inline-block size-2 rounded-full bg-[#f5b544]" />
-              Hold: {holds} {total ? `(${formatPercent(holds / total, 0)})` : ""}
+              Hold: {holds}{" "}
+              {total ? `(${formatPercent(holds / total, 0)})` : ""}
             </span>
             <span>
               <span className="mr-1 inline-block size-2 rounded-full bg-danger" />
-              Sell / strong sell: {sells} {total ? `(${formatPercent(sells / total, 0)})` : ""}
+              Sell / strong sell: {sells}{" "}
+              {total ? `(${formatPercent(sells / total, 0)})` : ""}
             </span>
           </div>
         </div>
       )}
 
       <div className="overflow-x-auto p-4">
-        <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+        <p className="mb-2 text-[10px] font-bold text-muted">
           Forward estimates
         </p>
         <table className="data-table min-w-[540px]">
@@ -137,10 +155,14 @@ export function ConsensusPanel({
             {estimates.map((estimate) => (
               <tr key={estimate.period}>
                 <td className="font-medium text-ink">{estimate.period}</td>
-                <td>{formatCompactCurrency(estimate.revenue, financialCurrency)}</td>
+                <td>
+                  {formatCompactCurrency(estimate.revenue, financialCurrency)}
+                </td>
                 <td>{formatPercent(estimate.revenueGrowth)}</td>
                 <td>
-                  {estimate.eps != null ? formatCurrency(estimate.eps, 2, financialCurrency) : "n/a"}
+                  {estimate.eps != null
+                    ? formatCurrency(estimate.eps, 2, financialCurrency)
+                    : "n/a"}
                 </td>
                 <td>{formatPercent(estimate.epsGrowth)}</td>
                 <td>{estimate.analysts ?? "n/a"}</td>
@@ -151,7 +173,10 @@ export function ConsensusPanel({
       </div>
 
       <div className="flex gap-2 border-t border-line bg-paper-deep px-4 py-3 text-[10.5px] leading-relaxed text-muted">
-        <Info aria-hidden="true" className="mt-0.5 size-3.5 shrink-0 text-brand" />
+        <Info
+          aria-hidden="true"
+          className="mt-0.5 size-3.5 shrink-0 text-brand"
+        />
         <p>
           These are third-party estimates and ratings. Stockmonk does not issue
           buy, sell or hold recommendations and does not publish its own price

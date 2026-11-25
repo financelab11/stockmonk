@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
-import { WatchlistView, type WatchlistItem } from "@/components/watchlist/watchlist-view";
+import {
+  WatchlistView,
+  type WatchlistItem,
+} from "@/components/watchlist/watchlist-view";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { JsonLd } from "@/components/seo/json-ld";
 import { getPrices, getUniverse } from "@/lib/data";
@@ -47,13 +50,16 @@ export default function WatchlistPage() {
       <div className="container-page py-6">
         <WatchlistView items={items} />
         <div className="mt-6 rounded-xl border border-line bg-surface p-4">
-          <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
+          <p className="text-[10px] font-bold text-muted">
             How the storage works
           </p>
           <p className="mt-1 text-[11.5px] leading-relaxed text-muted">
-            Tickers are saved under a versioned key in <code className="rounded bg-paper-deep px-1 py-0.5 font-mono text-[10px]">localStorage</code>.
-            Clearing your browser data removes the list. There is no account and
-            no sync, which is why the list also works offline.
+            Tickers are saved under a versioned key in{" "}
+            <code className="rounded bg-paper-deep px-1 py-0.5 font-mono text-[10px]">
+              localStorage
+            </code>
+            . Clearing your browser data removes the list. There is no account
+            and no sync, which is why the list also works offline.
           </p>
         </div>
         <Disclaimer variant="boxed" className="mt-6" />

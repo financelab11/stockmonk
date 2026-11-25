@@ -7,6 +7,7 @@ import { Disclaimer } from "@/components/ui/disclaimer";
 import { getV2Score } from "@/lib/scores-v2-data";
 import type { ScoreKey } from "@/lib/scoring-v2/types";
 import { classifyComponent, round } from "@/lib/scoring-v2/util";
+import { formatDate } from "@/lib/format";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
@@ -44,7 +45,7 @@ export async function generateMetadata({
   if (!record) return { title: "Score evidence" };
   return {
     title: `${record.name} (${record.ticker}) score evidence`,
-    description: `Audit trail for the Stockmonk V2 Growth, Quality, Valuation and Technical scores for ${record.name}.`,
+    description: `Evidence behind the Stockmonk Growth, Quality, Valuation and Technical scores for ${record.name}.`,
     alternates: { canonical: `/stocks/${record.ticker}/scores` },
   };
 }
@@ -89,8 +90,8 @@ export default async function ScoreEvidencePage({
           {record.name}
         </h1>
         <p className="mt-1.5 text-[13px] text-muted">
-          V2 score audit trail · Methodology {record.methodologyVersion} · Data
-          as of {record.asOf ?? "N/A"}
+          Score evidence · Data as of{" "}
+          {record.asOf ? formatDate(record.asOf) : "N/A"}
         </p>
 
         <div className="mt-4">
@@ -104,7 +105,7 @@ export default async function ScoreEvidencePage({
               <section key={section.key}>
                 <div className="flex flex-wrap items-end justify-between gap-2 border-b border-line pb-2">
                   <div>
-                    <h2 className="text-[16px] font-semibold text-ink">
+                    <h2 className="display text-[22px] leading-tight tracking-[-0.015em] text-ink">
                       {section.label}
                     </h2>
                     <p className="mt-0.5 max-w-2xl text-[12px] text-muted">
@@ -127,7 +128,7 @@ export default async function ScoreEvidencePage({
 
                 <div className="mt-3 overflow-x-auto rounded-xl border border-line">
                   <table className="w-full min-w-[760px] border-collapse text-left">
-                    <thead className="bg-paper-deep text-[10px] uppercase tracking-[0.08em] text-muted">
+                    <thead className="bg-paper-deep text-[10px] text-muted">
                       <tr>
                         <th className="px-3 py-2 font-semibold">Metric</th>
                         <th className="px-3 py-2 font-semibold">Value</th>

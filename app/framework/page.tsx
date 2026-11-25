@@ -14,7 +14,10 @@ import {
   Target,
   Wallet,
 } from "lucide-react";
-import { QualityChart, type QualityPoint } from "@/components/framework/quality-chart";
+import {
+  QualityChart,
+  type QualityPoint,
+} from "@/components/framework/quality-chart";
 import { StockLogo } from "@/components/stock-logo";
 import { DataSourcesRow } from "@/components/ui/data-sources-row";
 import { ProCTA } from "@/components/ui/pro-cta";
@@ -45,7 +48,9 @@ function buildQualitySeries(): QualityPoint[] {
   const years = [2020, 2021, 2022, 2023, 2024, 2025, 2026];
   return years.map((year) => {
     const rows = companies
-      .map((company) => company.annual.find((row) => row.fyear === year && !row.ttm))
+      .map((company) =>
+        company.annual.find((row) => row.fyear === year && !row.ttm),
+      )
       .filter((row): row is NonNullable<typeof row> => Boolean(row));
     return {
       year,
@@ -83,11 +88,15 @@ export default function FrameworkPage() {
             calculate it, how we compare companies and where the limits are.
           </p>
           <div className="mt-5 flex flex-wrap gap-2">
-            <a href="#methodology" className="btn btn-primary">Jump to formulas</a>
-            <Link href="/framework/v2" className="btn btn-ghost">
-              V2 score methodology
+            <a href="#methodology" className="btn btn-primary">
+              Jump to formulas
+            </a>
+            <Link href="/framework/scores" className="btn btn-ghost">
+              Score methodology
             </Link>
-            <Link href="/data-sources" className="btn btn-ghost">Data sources</Link>
+            <Link href="/data-sources" className="btn btn-ghost">
+              Data sources
+            </Link>
           </div>
         </div>
       </section>
@@ -101,19 +110,20 @@ export default function FrameworkPage() {
             <p>
               A share price moves for many reasons, most of them short-lived. A
               business changes more slowly. Our approach is to start with the
-              financial statements and filings, build a picture of how the company
-              makes money, and only then look at what the market is paying.
+              financial statements and filings, build a picture of how the
+              company makes money, and only then look at what the market is
+              paying.
             </p>
             <p>
               That order matters. If you begin with the multiple, you tend to
               rationalise the price. If you begin with the business, you can ask
-              whether the multiple is being applied to a durable earnings base or
-              a cyclical peak.
+              whether the multiple is being applied to a durable earnings base
+              or a cyclical peak.
             </p>
           </div>
           <div className="mt-4 grid gap-3 sm:grid-cols-2">
             <div className="card p-4">
-              <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-positive">What we do</p>
+              <p className="text-[10px] font-bold text-positive">What we do</p>
               <ul className="mt-2 space-y-1.5 text-[11.5px] leading-relaxed text-ink-soft">
                 <li>• Read annual and quarterly statements.</li>
                 <li>• Trace segment and geography mix to the 10-K.</li>
@@ -123,7 +133,9 @@ export default function FrameworkPage() {
               </ul>
             </div>
             <div className="card p-4">
-              <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-danger">What we do not do</p>
+              <p className="text-[10px] font-bold text-danger">
+                What we do not do
+              </p>
               <ul className="mt-2 space-y-1.5 text-[11.5px] leading-relaxed text-ink-soft">
                 <li>• Issue buy, sell or hold ratings.</li>
                 <li>• Publish Stockmonk price targets.</li>
@@ -159,19 +171,29 @@ export default function FrameworkPage() {
           </p>
           <div className="mt-4 grid gap-3 sm:grid-cols-3">
             {examples.map((bundle) => (
-              <Link key={bundle.data.ticker} href={`/stocks/${bundle.data.ticker}`} className="card p-3.5 hover:border-brand/40">
+              <Link
+                key={bundle.data.ticker}
+                href={`/stocks/${bundle.data.ticker}`}
+                className="card p-3.5 hover:border-brand/40"
+              >
                 <div className="flex items-center gap-2">
                   <StockLogo ticker={bundle.data.ticker} size={28} />
-                  <span className="font-mono text-[10px] font-semibold text-muted">{bundle.data.ticker}</span>
+                  <span className="font-mono text-[10px] font-semibold text-muted">
+                    {bundle.data.ticker}
+                  </span>
                 </div>
-                <p className="mt-2 text-[12px] font-semibold leading-snug text-ink">{bundle.data.name}</p>
+                <p className="mt-2 text-[12px] font-semibold leading-snug text-ink">
+                  {bundle.data.name}
+                </p>
                 <p className="mt-1 text-[10.5px] leading-relaxed text-muted">
-                  {formatPercent(bundle.data.metrics.revenueGrowthTtm)} revenue growth ·{" "}
-                  {formatPercent(bundle.data.metrics.operatingMargin)} op margin ·{" "}
-                  {formatMultiple(bundle.data.metrics.evEbitda)} EV/EBITDA
+                  {formatPercent(bundle.data.metrics.revenueGrowthTtm)} revenue
+                  growth · {formatPercent(bundle.data.metrics.operatingMargin)}{" "}
+                  op margin · {formatMultiple(bundle.data.metrics.evEbitda)}{" "}
+                  EV/EBITDA
                 </p>
                 <span className="mt-2 inline-flex items-center gap-1 text-[10.5px] font-semibold text-brand">
-                  See the report <ArrowRight aria-hidden="true" className="size-3" />
+                  See the report{" "}
+                  <ArrowRight aria-hidden="true" className="size-3" />
                 </span>
               </Link>
             ))}
@@ -190,16 +212,40 @@ export default function FrameworkPage() {
           <div className="mt-4 rounded-xl border border-line bg-surface p-4">
             <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
               {[
-                { icon: Database, label: "SEC EDGAR", detail: "Statements & filings" },
-                { icon: BarChart3, label: "Yahoo Finance", detail: "Prices & profile" },
-                { icon: Landmark, label: "Consensus", detail: "Yahoo / Nasdaq" },
-                { icon: FileSearch, label: "Filings", detail: "Segments & risks" },
+                {
+                  icon: Database,
+                  label: "SEC EDGAR",
+                  detail: "Statements & filings",
+                },
+                {
+                  icon: BarChart3,
+                  label: "Yahoo Finance",
+                  detail: "Prices & profile",
+                },
+                {
+                  icon: Landmark,
+                  label: "Consensus",
+                  detail: "Yahoo / Nasdaq",
+                },
+                {
+                  icon: FileSearch,
+                  label: "Filings",
+                  detail: "Segments & risks",
+                },
               ].map((source) => {
                 const Icon = source.icon;
                 return (
-                  <div key={source.label} className="rounded-lg border border-line bg-paper p-3 text-center">
-                    <Icon aria-hidden="true" className="mx-auto size-4 text-brand" />
-                    <p className="mt-1 text-[11px] font-semibold text-ink">{source.label}</p>
+                  <div
+                    key={source.label}
+                    className="rounded-lg border border-line bg-paper p-3 text-center"
+                  >
+                    <Icon
+                      aria-hidden="true"
+                      className="mx-auto size-4 text-brand"
+                    />
+                    <p className="mt-1 text-[11px] font-semibold text-ink">
+                      {source.label}
+                    </p>
                     <p className="text-[9.5px] text-muted">{source.detail}</p>
                   </div>
                 );
@@ -209,9 +255,12 @@ export default function FrameworkPage() {
               <ArrowDown aria-hidden="true" className="size-4 text-faint" />
             </div>
             <div className="rounded-lg bg-brand-deep px-4 py-3 text-center text-white">
-              <p className="display text-[19px] tracking-[-0.02em]">Stockmonk normalisation</p>
+              <p className="display text-[19px] tracking-[-0.02em]">
+                Stockmonk normalisation
+              </p>
               <p className="mt-0.5 text-[10px] text-white/55">
-                Deduplicate periods · reconcile fiscal calendars · validate schemas
+                Deduplicate periods · reconcile fiscal calendars · validate
+                schemas
               </p>
             </div>
             <div className="my-3 flex justify-center">
@@ -219,7 +268,10 @@ export default function FrameworkPage() {
             </div>
             <div className="grid grid-cols-2 gap-2">
               {["Research report", "Data screens"].map((output) => (
-                <div key={output} className="rounded-lg border border-line bg-brand-soft/60 px-2 py-2 text-center text-[10.5px] font-semibold text-brand-deep">
+                <div
+                  key={output}
+                  className="rounded-lg border border-line bg-brand-soft/60 px-2 py-2 text-center text-[10.5px] font-semibold text-brand-deep"
+                >
                   {output}
                 </div>
               ))}
@@ -274,9 +326,13 @@ export default function FrameworkPage() {
                     <span className="flex size-8 items-center justify-center rounded-lg bg-brand-soft text-brand">
                       <Icon aria-hidden="true" className="size-4" />
                     </span>
-                    <h3 className="text-[13px] font-semibold text-ink">{item.title}</h3>
+                    <h3 className="text-[13px] font-semibold text-ink">
+                      {item.title}
+                    </h3>
                   </div>
-                  <p className="mt-2 text-[11.5px] leading-relaxed text-muted">{item.body}</p>
+                  <p className="mt-2 text-[11.5px] leading-relaxed text-muted">
+                    {item.body}
+                  </p>
                 </div>
               );
             })}
@@ -289,24 +345,25 @@ export default function FrameworkPage() {
           </h2>
           <div className="prose-editorial mt-3">
             <p>
-              Valuation is a comparison, not a prophecy. We show the multiple the
-              market is paying, the company&apos;s own range over the last five
-              years, and the peer median on the same metric. Where the multiple is
-              not meaningful — for example, a bank&apos;s EV/EBITDA — we say so.
+              Valuation is a comparison, not a prophecy. We show the multiple
+              the market is paying, the company&apos;s own range over the last
+              five years, and the peer median on the same metric. Where the
+              multiple is not meaningful — for example, a bank&apos;s EV/EBITDA
+              — we say so.
             </p>
             <p>
               Analyst consensus appears only with attribution: provider, as-of
               date, analyst count and the distribution of ratings. A mean target
-              is a third-party number, not a Stockmonk target. We do not convert it
-              into a recommendation.
+              is a third-party number, not a Stockmonk target. We do not convert
+              it into a recommendation.
             </p>
           </div>
           <div className="mt-4 rounded-xl border border-line bg-coral-soft p-4">
             <p className="text-[11.5px] leading-relaxed text-ink-soft">
               <strong className="text-ink">The explicit line:</strong> Stockmonk
-              does not provide buy, sell or hold ratings and does not publish its
-              own price targets. If a page appears to imply otherwise, it is a bug
-              and should be reported.
+              does not provide buy, sell or hold ratings and does not publish
+              its own price targets. If a page appears to imply otherwise, it is
+              a bug and should be reported.
             </p>
           </div>
         </section>
@@ -336,11 +393,20 @@ export default function FrameworkPage() {
                 visual: "range",
               },
             ].map((principle) => (
-              <div key={principle.number} className="card grid gap-4 p-4 sm:grid-cols-[1fr_180px] sm:items-center">
+              <div
+                key={principle.number}
+                className="card grid gap-4 p-4 sm:grid-cols-[1fr_180px] sm:items-center"
+              >
                 <div>
-                  <p className="font-mono text-[10px] font-semibold text-brand">{principle.number}</p>
-                  <h3 className="display mt-1 text-[21px] leading-tight tracking-[-0.015em] text-ink">{principle.title}</h3>
-                  <p className="mt-1.5 text-[11.5px] leading-relaxed text-muted">{principle.body}</p>
+                  <p className="font-mono text-[10px] font-semibold text-brand">
+                    {principle.number}
+                  </p>
+                  <h3 className="display mt-1 text-[21px] leading-tight tracking-[-0.015em] text-ink">
+                    {principle.title}
+                  </h3>
+                  <p className="mt-1.5 text-[11.5px] leading-relaxed text-muted">
+                    {principle.body}
+                  </p>
                 </div>
                 <div className="rounded-lg bg-paper-deep p-3">
                   {principle.visual === "tiles" && (
@@ -351,7 +417,11 @@ export default function FrameworkPage() {
                           className="aspect-square rounded-[2px]"
                           style={{
                             backgroundColor:
-                              index % 7 === 0 ? "#ff7a45" : index % 3 === 0 ? "#8b3dff" : "#2f6bff",
+                              index % 7 === 0
+                                ? "#ff7a45"
+                                : index % 3 === 0
+                                  ? "#8b3dff"
+                                  : "#2f6bff",
                             opacity: 0.35 + (index % 5) * 0.12,
                           }}
                         />
@@ -361,17 +431,26 @@ export default function FrameworkPage() {
                   {principle.visual === "timeline" && (
                     <div className="flex items-end gap-1">
                       {[24, 32, 40, 52, 58, 70, 78, 92].map((height, index) => (
-                        <span key={index} className="flex-1 rounded-t bg-gradient-to-t from-brand to-violet" style={{ height: `${height}px` }} />
+                        <span
+                          key={index}
+                          className="flex-1 rounded-t bg-gradient-to-t from-brand to-violet"
+                          style={{ height: `${height}px` }}
+                        />
                       ))}
                     </div>
                   )}
                   {principle.visual === "range" && (
                     <div>
                       <div className="range-track">
-                        <span className="range-marker" style={{ left: "62%" }} />
+                        <span
+                          className="range-marker"
+                          style={{ left: "62%" }}
+                        />
                       </div>
                       <div className="mt-2 flex justify-between text-[8.5px] text-muted">
-                        <span>Low</span><span>Median</span><span>High</span>
+                        <span>Low</span>
+                        <span>Median</span>
+                        <span>High</span>
                       </div>
                     </div>
                   )}
@@ -387,8 +466,8 @@ export default function FrameworkPage() {
           </h2>
           <p className="mt-2 text-[12.5px] leading-relaxed text-muted">
             These are the definitions used by the data pipeline and the charts.
-            Where a company&apos;s reported data does not fit, the field is shown
-            as n/a rather than forced into a formula.
+            Where a company&apos;s reported data does not fit, the field is
+            shown as n/a rather than forced into a formula.
           </p>
           <div className="mt-4 overflow-x-auto rounded-xl border border-line">
             <table className="data-table min-w-[720px]">
@@ -401,21 +480,81 @@ export default function FrameworkPage() {
               </thead>
               <tbody>
                 {[
-                  ["Revenue growth (TTM)", "(TTM revenue ÷ prior TTM revenue) − 1", "Prior TTM is the four quarters ending one year earlier."],
-                  ["Latest-quarter growth", "(Latest quarter revenue ÷ same quarter last fiscal year) − 1", "Quarter labels follow the company's fiscal calendar."],
-                  ["Gross margin", "Gross profit ÷ revenue", "Uses the same period for numerator and denominator."],
-                  ["Operating margin", "Operating income ÷ revenue", "Reported operating income; adjustments are not applied."],
-                  ["FCF margin", "(Operating cash flow − capex) ÷ revenue", "Capex is treated as a positive outflow."],
-                  ["ROIC", "NOPAT ÷ average invested capital", "NOPAT uses the reported effective tax rate where available."],
-                  ["Net debt", "Total debt − cash & short-term investments", "Negative values are shown as net cash."],
-                  ["Net debt / EBITDA", "Net debt ÷ trailing EBITDA", "n/a for banks and some financials."],
-                  ["P/E", "Share price ÷ trailing diluted EPS", "Trailing, not forward; forward P/E uses consensus when available."],
-                  ["EV/EBITDA", "(Market cap + net debt) ÷ trailing EBITDA", "Market cap uses the latest close."],
-                  ["EV/Sales", "(Market cap + net debt) ÷ trailing revenue", "Useful for low-margin businesses."],
-                  ["P/FCF", "Market cap ÷ trailing free cash flow", "n/a when FCF is negative."],
-                  ["FCF yield", "Trailing free cash flow ÷ market cap", "The inverse of P/FCF."],
-                  ["Factor percentile", "Percent of covered companies at or below the metric", "Descriptive screen, not a rating."],
-                  ["Peer median", "Median of the comparable set excluding the subject", "Peer sets are editorial and documented per report."],
+                  [
+                    "Revenue growth (TTM)",
+                    "(TTM revenue ÷ prior TTM revenue) − 1",
+                    "Prior TTM is the four quarters ending one year earlier.",
+                  ],
+                  [
+                    "Latest-quarter growth",
+                    "(Latest quarter revenue ÷ same quarter last fiscal year) − 1",
+                    "Quarter labels follow the company's fiscal calendar.",
+                  ],
+                  [
+                    "Gross margin",
+                    "Gross profit ÷ revenue",
+                    "Uses the same period for numerator and denominator.",
+                  ],
+                  [
+                    "Operating margin",
+                    "Operating income ÷ revenue",
+                    "Reported operating income; adjustments are not applied.",
+                  ],
+                  [
+                    "FCF margin",
+                    "(Operating cash flow − capex) ÷ revenue",
+                    "Capex is treated as a positive outflow.",
+                  ],
+                  [
+                    "ROIC",
+                    "NOPAT ÷ average invested capital",
+                    "NOPAT uses the reported effective tax rate where available.",
+                  ],
+                  [
+                    "Net debt",
+                    "Total debt − cash & short-term investments",
+                    "Negative values are shown as net cash.",
+                  ],
+                  [
+                    "Net debt / EBITDA",
+                    "Net debt ÷ trailing EBITDA",
+                    "n/a for banks and some financials.",
+                  ],
+                  [
+                    "P/E",
+                    "Share price ÷ trailing diluted EPS",
+                    "Trailing, not forward; forward P/E uses consensus when available.",
+                  ],
+                  [
+                    "EV/EBITDA",
+                    "(Market cap + net debt) ÷ trailing EBITDA",
+                    "Market cap uses the latest close.",
+                  ],
+                  [
+                    "EV/Sales",
+                    "(Market cap + net debt) ÷ trailing revenue",
+                    "Useful for low-margin businesses.",
+                  ],
+                  [
+                    "P/FCF",
+                    "Market cap ÷ trailing free cash flow",
+                    "n/a when FCF is negative.",
+                  ],
+                  [
+                    "FCF yield",
+                    "Trailing free cash flow ÷ market cap",
+                    "The inverse of P/FCF.",
+                  ],
+                  [
+                    "Factor percentile",
+                    "Percent of covered companies at or below the metric",
+                    "Descriptive screen, not a rating.",
+                  ],
+                  [
+                    "Peer median",
+                    "Median of the comparable set excluding the subject",
+                    "Peer sets are editorial and documented per report.",
+                  ],
                 ].map(([metric, definition, caveat]) => (
                   <tr key={metric}>
                     <td className="font-medium text-ink">{metric}</td>
@@ -428,10 +567,13 @@ export default function FrameworkPage() {
           </div>
           <p className="mt-3 text-[10.5px] leading-relaxed text-muted">
             Consensus data is third-party and can lag. Segment mixes come from
-            XBRL dimensional facts or curated 10-K member lists; the report names
-            the basis. Logos are used for identification only and fall back to a
-            monogram. Read the full{" "}
-            <Link href="/data-sources" className="link-underline">data notes</Link>.
+            XBRL dimensional facts or curated 10-K member lists; the report
+            names the basis. Logos are used for identification only and fall
+            back to a monogram. Read the full{" "}
+            <Link href="/data-sources" className="link-underline">
+              data notes
+            </Link>
+            .
           </p>
         </section>
 
@@ -442,9 +584,14 @@ export default function FrameworkPage() {
         <div className="mt-6 flex items-center justify-between gap-3 rounded-xl border border-line bg-surface p-4">
           <div className="flex items-center gap-2">
             <BookOpenCheck aria-hidden="true" className="size-4 text-brand" />
-            <p className="text-[11.5px] text-ink-soft">Want the source list and refresh process?</p>
+            <p className="text-[11.5px] text-ink-soft">
+              Want the source list and refresh process?
+            </p>
           </div>
-          <Link href="/data-sources" className="text-[11px] font-semibold text-brand hover:text-brand-deep">
+          <Link
+            href="/data-sources"
+            className="text-[11px] font-semibold text-brand hover:text-brand-deep"
+          >
             Data sources →
           </Link>
         </div>

@@ -2,6 +2,7 @@ import "server-only";
 
 import fs from "node:fs";
 import path from "node:path";
+import { gunzipSync } from "node:zlib";
 import { cache } from "react";
 import { ALL_TICKERS, BENCHMARK_TICKER, RESEARCH_TICKERS } from "@/config/universe";
 import {
@@ -66,6 +67,32 @@ function readJson<T>(filePath: string): T | null {
   }
 }
 
+type RuntimeIndex = {
+  generatedAt: string;
+  universe: UniverseEntry[];
+  bundles: Record<string, ResearchBundle>;
+};
+
+let runtimeIndex: RuntimeIndex | null | undefined;
+
+/**
+ * The 500 reports are served from one on-demand function. The compressed
+ * runtime index keeps the function small enough for the Vercel Hobby plan
+ * while still giving every page its full research bundle.
+ */
+function loadRuntimeIndex(): RuntimeIndex | null {
+  if (runtimeIndex !== undefined) return runtimeIndex;
+  try {
+    const gz = fs.readFileSync(
+      path.join(PUBLIC_DATA_DIR, "articles", "runtime.json.gz"),
+    );
+    runtimeIndex = JSON.parse(gunzipSync(gz).toString("utf8")) as RuntimeIndex;
+  } catch {
+    runtimeIndex = null;
+  }
+  return runtimeIndex;
+}
+
 function normalizeTicker(ticker: string): string {
   return ticker.trim().toUpperCase();
 }
@@ -75,6 +102,8 @@ export function isValidTicker(ticker: string): boolean {
 }
 
 export const getUniverse = cache((): UniverseEntry[] => {
+  const runtime = loadRuntimeIndex();
+  if (runtime?.universe.length) return runtime.universe;
   const raw = readJson<unknown[]>(path.join(PUBLIC_DATA_DIR, "stocks.json"));
   if (!Array.isArray(raw)) return [];
   return raw
@@ -90,6 +119,9 @@ export const getUniverseByTicker = cache((): Map<string, UniverseEntry> => {
 export const getTicker = cache((rawTicker: string): TickerData | null => {
   const ticker = normalizeTicker(rawTicker);
   if (!isValidTicker(ticker)) return null;
+  const runtime = loadRuntimeIndex();
+  const cached = runtime?.bundles[ticker]?.data;
+  if (cached) return cached;
   const raw = readJson<unknown>(path.join(PROCESSED_DIR, ticker, "data.json"));
   if (!raw) return null;
   const parsed = tickerDataSchema.safeParse(raw);
@@ -99,6 +131,9 @@ export const getTicker = cache((rawTicker: string): TickerData | null => {
 export const getConsensus = cache((rawTicker: string): Consensus | null => {
   const ticker = normalizeTicker(rawTicker);
   if (!isValidTicker(ticker)) return null;
+  const runtime = loadRuntimeIndex();
+  const cached = runtime?.bundles[ticker]?.consensus;
+  if (cached) return cached;
   const raw = readJson<unknown>(path.join(CONSENSUS_DIR, `${ticker}.json`));
   if (!raw) return null;
   const parsed = consensusSchema.safeParse(raw);
@@ -114,6 +149,9 @@ export const getConsensus = cache((rawTicker: string): Consensus | null => {
 export const getSegments = cache((rawTicker: string): SegmentMix | null => {
   const ticker = normalizeTicker(rawTicker);
   if (!isValidTicker(ticker)) return null;
+  const runtime = loadRuntimeIndex();
+  const cached = runtime?.bundles[ticker]?.segments;
+  if (cached) return cached;
   const raw = readJson<unknown>(path.join(SEGMENTS_DIR, `${ticker}.json`));
   if (!raw) return null;
   const parsed = segmentMixSchema.safeParse(raw);
@@ -124,6 +162,12 @@ export const getPrices = cache(
   (rawTicker: string, range: PriceRange = "1Y"): RangePricePoint[] => {
     const ticker = normalizeTicker(rawTicker);
     if (!isValidTicker(ticker)) return [];
+    const runtime = loadRuntimeIndex();
+    const cached = runtime?.bundles[ticker];
+    if (cached) {
+      if (range === "1Y") return cached.prices;
+      if (range === "MAX") return cached.pricesMax;
+    }
     const raw = readJson<unknown[]>(
       path.join(PUBLIC_DATA_DIR, "prices", ticker, `${range}.json`),
     );
@@ -136,16 +180,31 @@ export const getPrices = cache(
 );
 
 export const getAllCompanies = cache((): TickerData[] => {
+  const runtime = loadRuntimeIndex();
+  if (runtime) {
+    return ALL_TICKERS.filter((ticker) => ticker !== BENCHMARK_TICKER)
+      .map((ticker) => runtime.bundles[ticker]?.data)
+      .filter((company): company is TickerData => company != null);
+  }
   return ALL_TICKERS.filter((ticker) => ticker !== BENCHMARK_TICKER)
     .map((ticker) => getTicker(ticker))
     .filter((company): company is TickerData => company !== null);
 });
 
 export const getFactorScores = cache((ticker: string): FactorScores => {
+  const runtime = loadRuntimeIndex();
+  const cached = runtime?.bundles[normalizeTicker(ticker)]?.factors;
+  if (cached) return cached;
   return buildFullFactorScores(getAllCompanies(), normalizeTicker(ticker));
 });
 
 export const getResearchCompanies = cache((): TickerData[] => {
+  const runtime = loadRuntimeIndex();
+  if (runtime) {
+    return RESEARCH_TICKERS.map((ticker) => runtime.bundles[ticker]?.data).filter(
+      (company): company is TickerData => company != null,
+    );
+  }
   return RESEARCH_TICKERS.map((ticker) => getTicker(ticker)).filter(
     (company): company is TickerData => company !== null,
   );
@@ -192,6 +251,9 @@ export const getResearchBundle = cache((ticker: string): ResearchBundle | null =
   if (!RESEARCH_TICKERS.includes(normalized as (typeof RESEARCH_TICKERS)[number])) {
     return null;
   }
+  const runtime = loadRuntimeIndex();
+  const cached = runtime?.bundles[normalized];
+  if (cached) return cached;
   const data = getTicker(normalized);
   return data ? buildResearchBundle(data) : null;
 });

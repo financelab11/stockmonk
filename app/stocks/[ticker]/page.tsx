@@ -5,11 +5,7 @@ import { SupportingProfile } from "@/components/article/supporting-profile";
 import { JsonLd } from "@/components/seo/json-ld";
 import { getStockStory } from "@/content/stocks";
 import { generateStockStory } from "@/lib/generated-story";
-import {
-  ALL_TICKERS,
-  BENCHMARK_TICKER,
-  RESEARCH_TICKERS,
-} from "@/config/universe";
+import { RESEARCH_TICKERS } from "@/config/universe";
 import {
   getPrices,
   getResearchBundle,
@@ -19,14 +15,9 @@ import {
 import { articleJsonLd, breadcrumbJsonLd, profilePageJsonLd } from "@/lib/seo";
 import { resolveStory } from "@/lib/story-tokens";
 
-export const revalidate = false;
-export const dynamicParams = false;
+export const revalidate = 3600;
 
-export function generateStaticParams() {
-  return ALL_TICKERS.filter((ticker) => ticker !== BENCHMARK_TICKER).map(
-    (ticker) => ({ ticker }),
-  );
-}
+export const dynamicParams = true;
 
 export async function generateMetadata({
   params,

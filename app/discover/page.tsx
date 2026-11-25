@@ -12,10 +12,10 @@ import { Disclaimer } from "@/components/ui/disclaimer";
 import { JsonLd } from "@/components/seo/json-ld";
 import {
   getAllCompanies,
-  getLatestDataDate,
   getPrices,
   getUniverse,
 } from "@/lib/data";
+import { getLatestDataDate } from "@/lib/data-date";
 import { filterUniverse, parseSort } from "@/lib/discover";
 import { DEFAULT_SORT } from "@/lib/constants";
 import { formatDate } from "@/lib/format";

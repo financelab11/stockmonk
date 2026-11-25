@@ -6,11 +6,27 @@ import type { StoryFreshnessManifest } from "@/lib/story-freshness";
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
 
-function readJson<T>(file: string): T | null {
+function readManifest(): StoryFreshnessManifest | null {
   try {
     return JSON.parse(
-      fs.readFileSync(path.join(process.cwd(), file), "utf8"),
-    ) as T;
+      fs.readFileSync(
+        path.join(process.cwd(), "data", "story-freshness.json"),
+        "utf8",
+      ),
+    ) as StoryFreshnessManifest;
+  } catch {
+    return null;
+  }
+}
+
+function readConsensusMeta(): { generatedAt?: string } | null {
+  try {
+    return JSON.parse(
+      fs.readFileSync(
+        path.join(process.cwd(), "data", "consensus", "_meta.json"),
+        "utf8",
+      ),
+    ) as { generatedAt?: string };
   } catch {
     return null;
   }
@@ -27,12 +43,8 @@ function daysBetween(a: string, b: string): number {
 /** Production data-health contract for uptime checks and the daily workflow. */
 export async function GET() {
   const today = new Date().toISOString().slice(0, 10);
-  const manifest = readJson<StoryFreshnessManifest>(
-    "data/story-freshness.json",
-  );
-  const consensusMeta = readJson<{ generatedAt?: string }>(
-    "data/consensus/_meta.json",
-  );
+  const manifest = readManifest();
+  const consensusMeta = readConsensusMeta();
 
   const priceDates = manifest
     ? Object.values(manifest.tickers)

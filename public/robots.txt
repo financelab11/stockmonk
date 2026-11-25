@@ -4,5 +4,5 @@ Disallow: /serwist/
 Disallow: /offline
 Disallow: /_next/
 
-Sitemap: https://stockmonk.vercel.app/sitemap.xml
-Host: https://stockmonk.vercel.app
+Sitemap: https://stockmonk.app/sitemap.xml
+Host: https://stockmonk.app

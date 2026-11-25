@@ -1,4 +1,4 @@
-import { getLatestDataDate } from "@/lib/data";
+import { getLatestDataDate } from "@/lib/data-date";
 import { DISCLAIMER, FOOTER_COLUMNS, SITE } from "@/lib/constants";
 import { formatDate } from "@/lib/format";
 

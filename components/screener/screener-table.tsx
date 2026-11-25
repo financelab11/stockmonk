@@ -166,7 +166,11 @@ export function ScreenerTable({
         </div>
         <p className="text-[10.5px] text-muted">
           {rows.length} companies · sorted by{" "}
-          {params.sort === "composite" ? "composite score" : params.sort.replaceAll(":", " · ")}
+          {params.sort === "v2Composite"
+            ? "V2 composite"
+            : params.sort === "composite"
+              ? "five-factor score"
+              : params.sort.replaceAll(":", " · ")}
         </p>
       </div>
 
@@ -271,7 +275,7 @@ export function ScreenerTable({
             {visible.map((row) => (
               <tr key={row.ticker} className="group border-b border-line/70 align-middle hover:bg-paper-deep/60">
                 <td className="sticky left-0 z-10 w-10 border-r border-line bg-surface px-1.5 py-2.5 tabular text-[11px] text-muted group-hover:bg-paper-deep">
-                  {row.rank}
+                  {row.rank || "—"}
                 </td>
                 <td className="sticky left-10 z-10 w-[124px] min-w-[124px] max-w-[124px] border-r border-line bg-surface px-2 py-2.5 shadow-[6px_0_10px_-9px_rgb(18_18_43_/_0.35)] group-hover:bg-paper-deep sm:w-[236px] sm:min-w-[236px] sm:max-w-[236px]">
                   <div className="flex items-center gap-2">

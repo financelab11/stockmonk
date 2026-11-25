@@ -81,6 +81,13 @@ export type ScreenerRow = {
   assetTurnover: number | null;
   composite: number | null;
   factorScores: Record<FactorKey, number | null>;
+  v2Growth: number | null;
+  v2Quality: number | null;
+  v2Valuation: number | null;
+  v2Technical: number | null;
+  v2Composite: number | null;
+  v2Coverage: number | null;
+  v2Status: "complete" | "incomplete" | null;
   band: string;
   coverage: number;
   factors: Record<FactorKey, FactorResult>;
@@ -901,6 +908,13 @@ export function scoreScreenerEntries(entries: ScreenerRawEntry[]): ScreenerRow[]
       factorScores: Object.fromEntries(
         FACTOR_CONFIG.map((factor) => [factor.key, factors[factor.key].score]),
       ) as Record<FactorKey, number | null>,
+      v2Growth: null,
+      v2Quality: null,
+      v2Valuation: null,
+      v2Technical: null,
+      v2Composite: null,
+      v2Coverage: null,
+      v2Status: null,
       band: band(composite),
       coverage: Math.round((availableCount / parameterCount) * 100),
       factors,

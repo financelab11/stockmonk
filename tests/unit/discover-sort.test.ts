@@ -127,4 +127,38 @@ describe("discover sorting", () => {
     });
     expect(filtered.map((row) => row.ticker)).toEqual(["LARGE"]);
   });
+
+  it("filters on V2 component and composite scores", () => {
+    const rows = [
+      entry({
+        ticker: "HIGH",
+        v2Scores: {
+          growth: 82,
+          quality: 78,
+          valuation: 71,
+          technical: 66,
+          composite: 76,
+          status: "complete",
+          coverage: 0.92,
+        },
+      }),
+      entry({
+        ticker: "LOW",
+        v2Scores: {
+          growth: 55,
+          quality: 58,
+          valuation: 62,
+          technical: 54,
+          composite: 58,
+          status: "complete",
+          coverage: 0.88,
+        },
+      }),
+    ];
+    const filtered = filterUniverse(rows, {
+      minV2Composite: 70,
+      minV2Quality: 70,
+    });
+    expect(filtered.map((row) => row.ticker)).toEqual(["HIGH"]);
+  });
 });

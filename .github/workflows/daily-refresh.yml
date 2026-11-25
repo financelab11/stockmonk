@@ -61,6 +61,7 @@ jobs:
           retry pnpm ingest:benchmark
           retry pnpm ingest:earnings
           pnpm build:data
+          pnpm build:scores
           pnpm build:screener
 
       - name: Detect material story events

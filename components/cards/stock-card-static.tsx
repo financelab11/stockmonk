@@ -2,10 +2,12 @@ import { ArrowUpRight } from "lucide-react";
 import { Sparkline } from "@/components/charts/sparkline";
 import { StockLogoStatic } from "@/components/stock-logo-static";
 import { ClassificationChip } from "@/components/ui/classification-chip";
+import { V2ScoreStrip } from "@/components/scores/v2-score-strip";
 import {
   growthClassification,
   profitabilityClassification,
 } from "@/lib/classifications";
+import { getV2Score } from "@/lib/scores-v2-data";
 import {
   formatCompactCurrency,
   formatCurrency,
@@ -26,6 +28,7 @@ export function StockCardStatic({
   const currency = entry.currency ?? "USD";
   const growth = growthClassification(entry);
   const profitability = profitabilityClassification(entry);
+  const v2 = getV2Score(entry.ticker);
   const returnTone =
     entry.return1y == null
       ? "text-muted"
@@ -58,6 +61,8 @@ export function StockCardStatic({
           <ClassificationChip classification={growth} />
           <ClassificationChip classification={profitability} />
         </div>
+
+        {v2 && <V2ScoreStrip record={v2} className="mt-2" />}
 
         <div className="mt-4 flex items-end justify-between gap-3">
           <div className="min-w-0">

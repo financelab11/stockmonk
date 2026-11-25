@@ -90,8 +90,8 @@ export function validateStory(story: StockStory): string[] {
     }
   }
 
-  if (ARTICLE_SECTIONS.length !== 10) {
-    errors.push("ARTICLE_SECTIONS must contain exactly 10 sections");
+  if (ARTICLE_SECTIONS.length !== 11) {
+    errors.push("ARTICLE_SECTIONS must contain exactly 11 sections");
   }
 
   const text = allText(story);

@@ -101,11 +101,18 @@ export default async function ScreenerPage({
               </h1>
               <p className="mt-2 max-w-2xl text-[13px] leading-relaxed text-muted">
                 Filter, compare and rank {summary.count.toLocaleString("en-US")}{" "}
-                US-listed companies across five independent factors. Every
-                parameter is visible and ranked within its coverage group.
+                US-listed companies by the four-factor V2 score: Growth 25%,
+                Quality 35%, Valuation 25% and Technical 15%. The underlying
+                research factors remain visible.
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-2">
+              <a
+                href="/framework/v2"
+                className="inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1.5 text-[10.5px] font-semibold text-brand"
+              >
+                V2 methodology
+              </a>
               <span className="inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1.5 text-[10.5px] font-semibold text-ink-soft">
                 <ShieldCheck className="size-3.5 text-positive" />
                 Sourced fundamentals
@@ -120,7 +127,7 @@ export default async function ScreenerPage({
           </div>
           <p className="mt-3 text-[10.5px] text-muted">
             Fundamentals and prices as of {summary.asOf ?? "the latest dataset"}
-            {" · "}median score{" "}
+            {" · "}V2 median score{" "}
             <span className="tabular font-semibold text-ink">
               {summary.median ?? "n/a"}
             </span>{" "}

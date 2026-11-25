@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 test.describe("research article", () => {
-  test("contains all ten sections, charts, sources and the Pro CTA", async ({
+  test("contains all eleven sections, charts, sources and the Pro CTA", async ({
     page,
   }) => {
     await page.goto("/stocks/NVDA", { waitUntil: "networkidle" });
@@ -13,16 +13,17 @@ test.describe("research article", () => {
     ).toBeVisible();
 
     for (const title of [
-      "The big picture",
-      "What the company does",
-      "How it makes money",
-      "Growth drivers and catalysts",
-      "Financial performance",
+      "Investment snapshot",
+      "Business model and revenue economics",
+      "Industry and competitive positioning",
+      "Competitive moat and management",
+      "Growth drivers and future runway",
+      "Historical financial performance",
       "Cash flow and balance sheet",
       "Valuation",
-      "What analysts expect",
-      "Risks and what to watch",
-      "Key takeaways and what to monitor",
+      "Market expectations and catalysts",
+      "Risks and thesis breakers",
+      "Investment conclusion",
     ]) {
       await expect(
         page.getByRole("heading", { name: title, exact: true }),
@@ -48,22 +49,23 @@ test.describe("research article", () => {
     await expect(page).toHaveURL(/#valuation/);
   });
 
-  test("generated report for an expanded name has ten sections and four sources", async ({
+  test("generated report for an expanded name has eleven sections and four sources", async ({
     page,
   }) => {
     await page.goto("/stocks/CAVA", { waitUntil: "networkidle" });
 
     for (const title of [
-      "The big picture",
-      "What the company does",
-      "How it makes money",
-      "Growth drivers and catalysts",
-      "Financial performance",
+      "Investment snapshot",
+      "Business model and revenue economics",
+      "Industry and competitive positioning",
+      "Competitive moat and management",
+      "Growth drivers and future runway",
+      "Historical financial performance",
       "Cash flow and balance sheet",
       "Valuation",
-      "What analysts expect",
-      "Risks and what to watch",
-      "Key takeaways and what to monitor",
+      "Market expectations and catalysts",
+      "Risks and thesis breakers",
+      "Investment conclusion",
     ]) {
       await expect(
         page.getByRole("heading", { name: title, exact: true, level: 2 }),

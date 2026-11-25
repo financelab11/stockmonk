@@ -510,11 +510,11 @@ export function ScreenerSidebar({
               </label>
             </div>
             <label className="flex items-center justify-between rounded-lg border border-line bg-paper px-2.5 py-2 text-[10.5px] text-muted">
-              <span>Minimum composite score</span>
+              <span>Minimum five-factor score</span>
               <select
                 value={min}
                 onChange={(event) => setMin(Number(event.target.value))}
-                aria-label="Minimum composite score"
+                aria-label="Minimum five-factor score"
                 className="bg-transparent text-[11px] font-semibold text-ink outline-none"
               >
                 <option value={0}>Any</option>

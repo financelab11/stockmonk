@@ -14,7 +14,7 @@ export function SectionHeading({
       <div className="flex items-baseline gap-3">
         <span className="section-number">{number}</span>
         <h2
-          id={id}
+          data-section-id={id}
           className="display scroll-mt-28 text-[27px] leading-[1.12] tracking-[-0.02em] text-ink sm:text-[31px]"
         >
           {title}

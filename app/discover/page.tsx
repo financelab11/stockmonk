@@ -57,9 +57,19 @@ export default async function DiscoverPage({
   const minCap = param(params.minCap);
   const minGrowth = param(params.minGrowth);
   const minMargin = param(params.minMargin);
+  const minV2Composite = param(params.minV2Composite);
+  const minV2Growth = param(params.minV2Growth);
+  const minV2Quality = param(params.minV2Quality);
+  const minV2Valuation = param(params.minV2Valuation);
+  const minV2Technical = param(params.minV2Technical);
   const minMarketCap = numeric(minCap);
   const minRevenueGrowth = numeric(minGrowth);
   const minOperatingMargin = numeric(minMargin);
+  const minCompositeScore = numeric(minV2Composite);
+  const minGrowthScore = numeric(minV2Growth);
+  const minQualityScore = numeric(minV2Quality);
+  const minValuationScore = numeric(minV2Valuation);
+  const minTechnicalScore = numeric(minV2Technical);
 
   const universe = getUniverse();
   const companies = getAllCompanies();
@@ -74,6 +84,11 @@ export default async function DiscoverPage({
     minRevenueGrowth: minRevenueGrowth == null ? null : minRevenueGrowth / 100,
     minOperatingMargin:
       minOperatingMargin == null ? null : minOperatingMargin / 100,
+    minV2Composite: minCompositeScore,
+    minV2Growth: minGrowthScore,
+    minV2Quality: minQualityScore,
+    minV2Valuation: minValuationScore,
+    minV2Technical: minTechnicalScore,
   });
   const pageSize = 24;
   const requestedPage = Math.max(
@@ -95,6 +110,11 @@ export default async function DiscoverPage({
     if (minCap) search.set("minCap", minCap);
     if (minGrowth) search.set("minGrowth", minGrowth);
     if (minMargin) search.set("minMargin", minMargin);
+    if (minV2Composite) search.set("minV2Composite", minV2Composite);
+    if (minV2Growth) search.set("minV2Growth", minV2Growth);
+    if (minV2Quality) search.set("minV2Quality", minV2Quality);
+    if (minV2Valuation) search.set("minV2Valuation", minV2Valuation);
+    if (minV2Technical) search.set("minV2Technical", minV2Technical);
     if (nextPage > 1) search.set("page", String(nextPage));
     const query = search.toString();
     return query ? `/discover?${query}` : "/discover";
@@ -107,6 +127,11 @@ export default async function DiscoverPage({
   if (minCap) carried.set("minCap", minCap);
   if (minGrowth) carried.set("minGrowth", minGrowth);
   if (minMargin) carried.set("minMargin", minMargin);
+  if (minV2Composite) carried.set("minV2Composite", minV2Composite);
+  if (minV2Growth) carried.set("minV2Growth", minV2Growth);
+  if (minV2Quality) carried.set("minV2Quality", minV2Quality);
+  if (minV2Valuation) carried.set("minV2Valuation", minV2Valuation);
+  if (minV2Technical) carried.set("minV2Technical", minV2Technical);
   const carry = carried.toString();
   const featuredHref = carry ? `/discover?${carry}` : "/discover";
   const screensHref = carry
@@ -194,7 +219,7 @@ export default async function DiscoverPage({
         ) : (
           <div className="mt-4">
             <FilterForm
-              key={`${q}|${sector}|${sort}|${minCap}|${minGrowth}|${minMargin}`}
+              key={`${q}|${sector}|${sort}|${minCap}|${minGrowth}|${minMargin}|${minV2Composite}|${minV2Growth}|${minV2Quality}|${minV2Valuation}|${minV2Technical}`}
               action="/discover"
               q={q}
               sector={sector}
@@ -202,6 +227,11 @@ export default async function DiscoverPage({
               minCap={minCap}
               minGrowth={minGrowth}
               minMargin={minMargin}
+              minV2Composite={minV2Composite}
+              minV2Growth={minV2Growth}
+              minV2Quality={minV2Quality}
+              minV2Valuation={minV2Valuation}
+              minV2Technical={minV2Technical}
             />
 
             <SortSummary

@@ -30,6 +30,7 @@ import {
   LazyValuationChart,
 } from "@/components/charts/lazy-charts";
 import { StockLogoStatic } from "@/components/stock-logo-static";
+import { V2Scorecard } from "@/components/scores/v2-scorecard";
 import { FactorChips } from "@/components/ui/factor-chips";
 import { PriceChange } from "@/components/ui/price-change";
 import { ProCTA } from "@/components/ui/pro-cta";
@@ -37,6 +38,8 @@ import { StatTile } from "@/components/ui/stat-tile";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { WatchlistButton } from "@/components/watchlist/watchlist-button";
 import type { ResearchBundle } from "@/lib/data";
+import { getV2Score } from "@/lib/scores-v2-data";
+import { round } from "@/lib/scoring-v2/util";
 import { resolveStory } from "@/lib/story-tokens";
 import type { StockStory } from "@/content/stocks/types";
 import {
@@ -151,6 +154,35 @@ export function ResearchArticle({
   const sources = buildArticleSources(story, bundle);
   const ranges = valuationRange(bundle);
   const cyclePosition = bundle.rangePosition ?? 0;
+  const v2Score = getV2Score(data.ticker);
+  const rankedEvidence = v2Score
+    ? Object.values(v2Score.scores)
+        .flatMap((score) => score.evidence)
+        .filter((item) => item.available && item.maxPoints > 0)
+        .map((item) => ({
+          ...item,
+          ratio: (item.points ?? 0) / item.maxPoints,
+        }))
+    : [];
+  const keyStrengths = [...rankedEvidence]
+    .sort((a, b) => b.ratio - a.ratio)
+    .slice(0, 3);
+  const keyConcerns = [...rankedEvidence]
+    .sort((a, b) => a.ratio - b.ratio)
+    .slice(0, 3);
+  const peerCount = peerRows.filter((row) => !row.isSubject).length;
+  const managementEvidence =
+    v2Score?.scores.quality.evidence.filter((item) =>
+      [
+        "dilution",
+        "shareholder-yield",
+        "capex-discipline",
+        "surprise-rate",
+        "net-debt-ebitda",
+        "interest-cover",
+        "accruals",
+      ].includes(item.id),
+    ) ?? [];
 
   const premiumDiscount =
     data.metrics.evEbitda != null && peerEv != null
@@ -291,6 +323,12 @@ export function ResearchArticle({
               }
             />
           </div>
+
+          {v2Score && (
+            <div className="mt-4">
+              <V2Scorecard record={v2Score} />
+            </div>
+          )}
         </div>
       </header>
 
@@ -312,7 +350,7 @@ export function ResearchArticle({
               <SectionHeading
                 number="01"
                 id="big-picture"
-                title="The big picture"
+                title="Investment snapshot"
                 subtitle={`${data.name} (${data.ticker}) · ${data.sector}`}
               />
               <Paragraphs paragraphs={story.bigPicture.paragraphs} />
@@ -322,6 +360,42 @@ export function ResearchArticle({
                     “{story.bigPicture.quote}”
                   </p>
                 </blockquote>
+              )}
+              {keyStrengths.length > 0 && keyConcerns.length > 0 && (
+                <div className="mt-4 grid gap-3 sm:grid-cols-2">
+                  <div className="rounded-xl border border-emerald-200 bg-emerald-50/60 p-3.5">
+                    <p className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-emerald-900">
+                      Key strengths
+                    </p>
+                    <ul className="mt-2 space-y-1.5 text-[12px] text-ink-soft">
+                      {keyStrengths.map((item) => (
+                        <li key={item.id}>
+                          <span className="font-medium text-ink">
+                            {item.label}:
+                          </span>{" "}
+                          {item.value}
+                          {item.unit ? ` ${item.unit}` : ""}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="rounded-xl border border-amber-200 bg-amber-50/60 p-3.5">
+                    <p className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-amber-900">
+                      Key concerns
+                    </p>
+                    <ul className="mt-2 space-y-1.5 text-[12px] text-ink-soft">
+                      {keyConcerns.map((item) => (
+                        <li key={item.id}>
+                          <span className="font-medium text-ink">
+                            {item.label}:
+                          </span>{" "}
+                          {item.value}
+                          {item.unit ? ` ${item.unit}` : ""}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
               )}
               <div className="mt-5">
                 <LazyPriceChart
@@ -350,14 +424,14 @@ export function ResearchArticle({
             </section>
 
             <section
-              id="what-it-does"
+              id="business"
               className="scroll-mt-28 border-b border-line py-9"
             >
               <SectionHeading
                 number="02"
-                id="what-it-does"
-                title="What the company does"
-                subtitle="Business model, segments and the shape of the revenue base"
+                id="business"
+                title="Business model and revenue economics"
+                subtitle="What the company sells, how it earns revenue and where the economics come from"
               />
               <Paragraphs paragraphs={story.whatItDoes.paragraphs} />
               {story.whatItDoes.bullets && (
@@ -446,15 +520,18 @@ export function ResearchArticle({
             </section>
 
             <section
-              id="how-it-makes-money"
+              id="business-economics"
               className="scroll-mt-28 border-b border-line py-9"
             >
-              <SectionHeading
-                number="03"
-                id="how-it-makes-money"
-                title="How it makes money"
-                subtitle="Segment economics, geography and what drives the consolidated margin"
-              />
+              <div className="mb-4">
+                <h3 className="display text-[23px] leading-tight tracking-[-0.02em] text-ink">
+                  How it makes money
+                </h3>
+                <p className="mt-1.5 text-[12px] text-muted">
+                  Segment economics, geography and what drives the consolidated
+                  margin
+                </p>
+              </div>
               <Paragraphs paragraphs={story.howItMakesMoney.paragraphs} />
               {segments && (
                 <div className="mt-5 grid gap-3 md:grid-cols-2">
@@ -509,13 +586,100 @@ export function ResearchArticle({
             </section>
 
             <section
-              id="growth-drivers"
+              id="industry"
+              className="scroll-mt-28 border-b border-line py-9"
+            >
+              <SectionHeading
+                number="03"
+                id="industry"
+                title="Industry and competitive positioning"
+                subtitle={basis}
+              />
+              <div className="prose-editorial">
+                <p>
+                  The comparison set is {peerCount}{" "}
+                  {peerCount === 1 ? "company" : "companies"} ({basis}). The
+                  median peer grew revenue {formatPercent(peerRevenueGrowth)},
+                  earned an operating margin of {formatPercent(peerOperatingMargin)}{" "}
+                  and a return on invested capital of {formatPercent(peerRoic)},
+                  and traded at {formatMultiple(peerPe)} trailing earnings and{" "}
+                  {formatMultiple(peerEv)} EV/EBITDA. {data.name} trades at{" "}
+                  {formatMultiple(data.metrics.pe)} trailing earnings and{" "}
+                  {formatMultiple(data.metrics.evEbitda)} EV/EBITDA, with{" "}
+                  {formatPercent(data.metrics.revenueGrowthTtm)} revenue growth,{" "}
+                  {formatPercent(data.metrics.operatingMargin)} operating margin
+                  and {formatPercent(data.metrics.roic)} ROIC.
+                </p>
+              </div>
+              {peerCount > 0 && (
+                <div className="mt-4">
+                  <PeerTable rows={peerRows} currency={currency} />
+                </div>
+              )}
+            </section>
+
+            <section
+              id="management"
               className="scroll-mt-28 border-b border-line py-9"
             >
               <SectionHeading
                 number="04"
+                id="management"
+                title="Competitive moat and management"
+                subtitle="Returns above the cost of capital, capital allocation and balance-sheet evidence"
+              />
+              {v2Score && (
+                <div className="prose-editorial">
+                  <p>
+                    The V2 quality score is{" "}
+                    {v2Score.scores.quality.score == null
+                      ? "not available"
+                      : `${round(v2Score.scores.quality.score, 0)} out of 100`}
+                    , with{" "}
+                    {Math.round(v2Score.scores.quality.coverage * 100)}% of the
+                    quality inputs available. The score rewards returns above the
+                    estimated cost of capital, stable margins, low dilution and
+                    cash-backed earnings. The evidence below shows the capital
+                    allocation and resilience inputs rather than a narrative
+                    verdict.
+                  </p>
+                </div>
+              )}
+              {managementEvidence.length > 0 && (
+                <div className="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+                  {managementEvidence.map((item) => (
+                    <div key={item.id} className="card-flat p-3">
+                      <p className="text-[11px] text-muted">{item.label}</p>
+                      <p className="tabular mt-0.5 text-[15px] font-semibold text-ink">
+                        {item.value == null
+                          ? "N/A"
+                          : `${item.value}${item.unit ? ` ${item.unit}` : ""}`}
+                      </p>
+                      <p className="mt-1 text-[10.5px] text-faint">
+                        {item.available
+                          ? `${item.points ?? 0} / ${item.maxPoints} points`
+                          : item.reason}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              )}
+              <p className="mt-3 text-[11px] leading-relaxed text-muted">
+                Insider ownership and Form 4 activity are not yet part of the
+                automated dataset, so that part of management quality is not
+                scored. The capital-allocation evidence above is reported, not a
+                recommendation.
+              </p>
+            </section>
+
+            <section
+              id="growth-drivers"
+              className="scroll-mt-28 border-b border-line py-9"
+            >
+              <SectionHeading
+                number="05"
                 id="growth-drivers"
-                title="Growth drivers and catalysts"
+                title="Growth drivers and future runway"
                 subtitle={`${formatPercent(cagr)} compound annual revenue growth from the first to the latest fiscal year`}
               />
               <Paragraphs paragraphs={story.growth.paragraphs} />
@@ -585,9 +749,9 @@ export function ResearchArticle({
               className="scroll-mt-28 border-b border-line py-9"
             >
               <SectionHeading
-                number="05"
+                number="06"
                 id="financial-performance"
-                title="Financial performance"
+                title="Historical financial performance"
                 subtitle={`Latest reported period: ${quarterLabel(latest)}${latest ? ` · reported ${formatDate(latest.reportDate)}` : ""}`}
               />
               <Paragraphs paragraphs={story.performance.paragraphs} />
@@ -702,7 +866,7 @@ export function ResearchArticle({
               className="scroll-mt-28 border-b border-line py-9"
             >
               <SectionHeading
-                number="06"
+                number="07"
                 id="cash-and-balance-sheet"
                 title="Cash flow and balance sheet"
                 subtitle="How much cash the business generates and how it is financed"
@@ -760,7 +924,7 @@ export function ResearchArticle({
               className="scroll-mt-28 border-b border-line py-9"
             >
               <SectionHeading
-                number="07"
+                number="08"
                 id="valuation"
                 title="Valuation"
                 subtitle="What the market is paying, how that compares with history and with peers"
@@ -914,9 +1078,9 @@ export function ResearchArticle({
               className="scroll-mt-28 border-b border-line py-9"
             >
               <SectionHeading
-                number="08"
+                number="09"
                 id="analysts"
-                title="What analysts expect"
+                title="Market expectations and catalysts"
                 subtitle="Third-party consensus, shown with the date it was collected"
               />
               <Paragraphs paragraphs={story.analysts.paragraphs} />
@@ -948,9 +1112,9 @@ export function ResearchArticle({
               className="scroll-mt-28 border-b border-line py-9"
             >
               <SectionHeading
-                number="09"
+                number="10"
                 id="risks"
-                title="Risks and what to watch"
+                title="Risks and thesis breakers"
                 subtitle="Company-specific risks, with a qualitative severity descriptor"
               />
               <p className="prose-editorial text-[15px] leading-relaxed text-ink-soft">
@@ -989,9 +1153,9 @@ export function ResearchArticle({
 
             <section id="bottom-line" className="scroll-mt-28 py-9">
               <SectionHeading
-                number="10"
+                number="11"
                 id="bottom-line"
-                title="Key takeaways and what to monitor"
+                title="Investment conclusion"
                 subtitle="What the data says, what it does not say, and the questions to ask next"
               />
               <Paragraphs paragraphs={story.bottomLine.paragraphs} />

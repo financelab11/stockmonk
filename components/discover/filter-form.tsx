@@ -6,7 +6,18 @@ import { SECTOR_GROUPS } from "@/config/sectors";
 import { DEFAULT_SORT, SORT_OPTIONS, type SortOption } from "@/lib/constants";
 import { FuseSearchInput } from "./fuse-search-input";
 
-type FilterKey = "q" | "sector" | "sort" | "minCap" | "minGrowth" | "minMargin";
+type FilterKey =
+  | "q"
+  | "sector"
+  | "sort"
+  | "minCap"
+  | "minGrowth"
+  | "minMargin"
+  | "minV2Composite"
+  | "minV2Growth"
+  | "minV2Quality"
+  | "minV2Valuation"
+  | "minV2Technical";
 
 const CAP_OPTIONS = [
   { value: "", label: "Any market cap" },
@@ -31,6 +42,22 @@ const MARGIN_OPTIONS = [
   { value: "20", label: "20% or more" },
 ];
 
+const SCORE_OPTIONS = [
+  { value: "", label: "Any score" },
+  { value: "50", label: "50 or more" },
+  { value: "60", label: "60 or more" },
+  { value: "70", label: "70 or more" },
+  { value: "80", label: "80 or more" },
+];
+
+const SCORE_FILTERS = [
+  { key: "minV2Composite", label: "Minimum V2 composite" },
+  { key: "minV2Growth", label: "Minimum V2 growth" },
+  { key: "minV2Quality", label: "Minimum V2 quality" },
+  { key: "minV2Valuation", label: "Minimum V2 valuation" },
+  { key: "minV2Technical", label: "Minimum V2 technical" },
+] as const;
+
 export function FilterForm({
   action,
   q,
@@ -39,6 +66,11 @@ export function FilterForm({
   minCap = "",
   minGrowth = "",
   minMargin = "",
+  minV2Composite = "",
+  minV2Growth = "",
+  minV2Quality = "",
+  minV2Valuation = "",
+  minV2Technical = "",
   showSector = true,
   showExtraFilters = true,
   sectors = SECTOR_GROUPS,
@@ -51,6 +83,11 @@ export function FilterForm({
   minCap?: string;
   minGrowth?: string;
   minMargin?: string;
+  minV2Composite?: string;
+  minV2Growth?: string;
+  minV2Quality?: string;
+  minV2Valuation?: string;
+  minV2Technical?: string;
   showSector?: boolean;
   showExtraFilters?: boolean;
   sectors?: Array<{ id: string; shortName: string }>;
@@ -63,9 +100,16 @@ export function FilterForm({
     sectors.find((group) => group.id === sector)?.shortName ?? sector;
   const sortLabel =
     SORT_OPTIONS.find((option) => option.value === sort)?.label ?? sort;
-  const extraFilterCount = [minCap, minGrowth, minMargin].filter(
-    Boolean,
-  ).length;
+  const extraFilterCount = [
+    minCap,
+    minGrowth,
+    minMargin,
+    minV2Composite,
+    minV2Growth,
+    minV2Quality,
+    minV2Valuation,
+    minV2Technical,
+  ].filter(Boolean).length;
 
   const hrefWithout = (key: FilterKey): string => {
     const params = new URLSearchParams();
@@ -75,6 +119,16 @@ export function FilterForm({
     if (minCap && key !== "minCap") params.set("minCap", minCap);
     if (minGrowth && key !== "minGrowth") params.set("minGrowth", minGrowth);
     if (minMargin && key !== "minMargin") params.set("minMargin", minMargin);
+    if (minV2Composite && key !== "minV2Composite")
+      params.set("minV2Composite", minV2Composite);
+    if (minV2Growth && key !== "minV2Growth")
+      params.set("minV2Growth", minV2Growth);
+    if (minV2Quality && key !== "minV2Quality")
+      params.set("minV2Quality", minV2Quality);
+    if (minV2Valuation && key !== "minV2Valuation")
+      params.set("minV2Valuation", minV2Valuation);
+    if (minV2Technical && key !== "minV2Technical")
+      params.set("minV2Technical", minV2Technical);
     const query = params.toString();
     return query ? `${action}?${query}` : action;
   };
@@ -88,6 +142,25 @@ export function FilterForm({
     chips.push({ key: "minGrowth", label: `Growth ≥ ${minGrowth}%` });
   if (minMargin)
     chips.push({ key: "minMargin", label: `Margin ≥ ${minMargin}%` });
+  if (minV2Composite)
+    chips.push({
+      key: "minV2Composite",
+      label: `V2 composite ≥ ${minV2Composite}`,
+    });
+  if (minV2Growth)
+    chips.push({ key: "minV2Growth", label: `V2 growth ≥ ${minV2Growth}` });
+  if (minV2Quality)
+    chips.push({ key: "minV2Quality", label: `V2 quality ≥ ${minV2Quality}` });
+  if (minV2Valuation)
+    chips.push({
+      key: "minV2Valuation",
+      label: `V2 valuation ≥ ${minV2Valuation}`,
+    });
+  if (minV2Technical)
+    chips.push({
+      key: "minV2Technical",
+      label: `V2 technical ≥ ${minV2Technical}`,
+    });
 
   const gridClass = showSector
     ? showExtraFilters
@@ -96,6 +169,17 @@ export function FilterForm({
     : showExtraFilters
       ? "grid-cols-[minmax(0,1fr)_auto]"
       : "grid-cols-1";
+
+  const scoreFilterValues: Record<
+    (typeof SCORE_FILTERS)[number]["key"],
+    string
+  > = {
+    minV2Composite,
+    minV2Growth,
+    minV2Quality,
+    minV2Valuation,
+    minV2Technical,
+  };
 
   return (
     <form
@@ -178,7 +262,7 @@ export function FilterForm({
       {showExtraFilters && filtersOpen && (
         <div
           id="more-filters"
-          className="mt-3 grid gap-2 border-t border-line pt-3 sm:grid-cols-3"
+          className="mt-3 grid gap-2 border-t border-line pt-3 sm:grid-cols-3 lg:grid-cols-4"
         >
           <label className="flex h-10 items-center rounded-lg border border-line bg-white px-2.5">
             <span className="sr-only">Minimum market cap</span>
@@ -225,6 +309,33 @@ export function FilterForm({
               ))}
             </select>
           </label>
+          <p className="pt-1 text-[10.5px] font-semibold uppercase tracking-[0.08em] text-muted sm:col-span-3 lg:col-span-4">
+            V2 score minimums
+          </p>
+          {SCORE_FILTERS.map((item) => {
+            const label = item.label.replace("Minimum ", "");
+            return (
+              <label
+                key={item.key}
+                className="flex h-10 items-center rounded-lg border border-line bg-white px-2.5"
+              >
+                <span className="sr-only">{item.label}</span>
+                <select
+                  name={item.key}
+                  defaultValue={scoreFilterValues[item.key]}
+                  onChange={submit}
+                  className="w-full min-w-0 bg-transparent text-[12.5px] font-medium text-ink outline-none"
+                >
+                  <option value="">Any {label}</option>
+                  {SCORE_OPTIONS.slice(1).map((option) => (
+                    <option key={option.value} value={option.value}>
+                      {label} {option.value}+
+                    </option>
+                  ))}
+                </select>
+              </label>
+            );
+          })}
         </div>
       )}
 
@@ -237,6 +348,18 @@ export function FilterForm({
       {showExtraFilters && !filtersOpen && minMargin && (
         <input type="hidden" name="minMargin" value={minMargin} />
       )}
+      {showExtraFilters &&
+        !filtersOpen &&
+        SCORE_FILTERS.map((item) =>
+          scoreFilterValues[item.key] ? (
+            <input
+              key={item.key}
+              type="hidden"
+              name={item.key}
+              value={scoreFilterValues[item.key]}
+            />
+          ) : null,
+        )}
 
       {chips.length > 0 && (
         <div className="mt-2.5 flex flex-wrap items-center gap-1.5">

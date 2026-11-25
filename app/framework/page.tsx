@@ -84,6 +84,9 @@ export default function FrameworkPage() {
           </p>
           <div className="mt-5 flex flex-wrap gap-2">
             <a href="#methodology" className="btn btn-primary">Jump to formulas</a>
+            <Link href="/framework/v2" className="btn btn-ghost">
+              V2 score methodology
+            </Link>
             <Link href="/data-sources" className="btn btn-ghost">Data sources</Link>
           </div>
         </div>

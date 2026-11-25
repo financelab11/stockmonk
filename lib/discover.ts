@@ -40,6 +40,11 @@ export function sortEntries(
   sort: SortOption,
 ): UniverseEntry[] {
   const metric = (entry: UniverseEntry): number | null => {
+    if (sort === "v2Composite") return entry.v2Scores?.composite ?? null;
+    if (sort === "v2Growth") return entry.v2Scores?.growth ?? null;
+    if (sort === "v2Quality") return entry.v2Scores?.quality ?? null;
+    if (sort === "v2Valuation") return entry.v2Scores?.valuation ?? null;
+    if (sort === "v2Technical") return entry.v2Scores?.technical ?? null;
     if (sort === "growth") return entry.revenueGrowthTtm;
     if (sort === "epsGrowth") return entry.epsGrowthTtm ?? null;
     if (sort === "growthPercentile") return growthPercentile(entry);
@@ -77,6 +82,11 @@ export function filterUniverse(
     minMarketCap = null,
     minRevenueGrowth = null,
     minOperatingMargin = null,
+    minV2Composite = null,
+    minV2Growth = null,
+    minV2Quality = null,
+    minV2Valuation = null,
+    minV2Technical = null,
   }: {
     q?: string;
     sector?: string;
@@ -85,6 +95,11 @@ export function filterUniverse(
     minMarketCap?: number | null;
     minRevenueGrowth?: number | null;
     minOperatingMargin?: number | null;
+    minV2Composite?: number | null;
+    minV2Growth?: number | null;
+    minV2Quality?: number | null;
+    minV2Valuation?: number | null;
+    minV2Technical?: number | null;
   },
 ): UniverseEntry[] {
   return sortEntries(
@@ -108,6 +123,31 @@ export function filterUniverse(
         minOperatingMargin == null
           ? true
           : (entry.operatingMargin ?? -Infinity) >= minOperatingMargin,
+      )
+      .filter((entry) =>
+        minV2Composite == null
+          ? true
+          : (entry.v2Scores?.composite ?? -Infinity) >= minV2Composite,
+      )
+      .filter((entry) =>
+        minV2Growth == null
+          ? true
+          : (entry.v2Scores?.growth ?? -Infinity) >= minV2Growth,
+      )
+      .filter((entry) =>
+        minV2Quality == null
+          ? true
+          : (entry.v2Scores?.quality ?? -Infinity) >= minV2Quality,
+      )
+      .filter((entry) =>
+        minV2Valuation == null
+          ? true
+          : (entry.v2Scores?.valuation ?? -Infinity) >= minV2Valuation,
+      )
+      .filter((entry) =>
+        minV2Technical == null
+          ? true
+          : (entry.v2Scores?.technical ?? -Infinity) >= minV2Technical,
       ),
     sort,
   );

@@ -20,6 +20,17 @@ const ROOT = process.cwd();
 const PROCESSED = path.join(ROOT, "data", "processed");
 const CONSENSUS = path.join(ROOT, "data", "consensus");
 const PUBLIC = path.join(ROOT, "public", "data");
+const V2_FILE = path.join(PUBLIC, "v2", "scores.json");
+
+type V2Summary = {
+  companies: Record<
+    string,
+    {
+      scores: Record<string, { score: number | null }>;
+      composite: { score: number | null; status: string; coverage: number };
+    }
+  >;
+};
 
 function readJson<T>(file: string): T | null {
   try {
@@ -91,6 +102,30 @@ async function main() {
   }
 
   const rows = scoreScreenerEntries(curatedEntries);
+  const v2 = readJson<V2Summary>(V2_FILE) ?? { companies: {} };
+  for (const row of rows) {
+    const v2Row = v2.companies[row.ticker];
+    row.v2Growth = v2Row?.scores.growth?.score ?? null;
+    row.v2Quality = v2Row?.scores.quality?.score ?? null;
+    row.v2Valuation = v2Row?.scores.valuation?.score ?? null;
+    row.v2Technical = v2Row?.scores.technical?.score ?? null;
+    row.v2Composite = v2Row?.composite.score ?? null;
+    row.v2Coverage = v2Row?.composite.coverage ?? null;
+    row.v2Status =
+      v2Row?.composite.status === "complete" ||
+      v2Row?.composite.status === "incomplete"
+        ? v2Row.composite.status
+        : null;
+  }
+  const v2Rank = new Map(
+    [...rows]
+      .filter((row) => row.v2Composite != null)
+      .sort((a, b) => (b.v2Composite ?? 0) - (a.v2Composite ?? 0))
+      .map((row, index) => [row.ticker, index + 1]),
+  );
+  for (const row of rows) {
+    row.rank = v2Rank.get(row.ticker) ?? 0;
+  }
   const factorKeys: string[] = [];
   for (const factor of FACTOR_CONFIG) {
     for (const parameter of factor.parameters) {

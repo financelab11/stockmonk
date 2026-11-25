@@ -187,6 +187,17 @@ export const universeEntrySchema = z.object({
   evEbitda: z.number().nullable(),
   dataQuality: z.enum(["High", "Moderate", "Limited"]).optional(),
   dataQualityScore: z.number().optional(),
+  v2Scores: z
+    .object({
+      growth: z.number().nullable(),
+      quality: z.number().nullable(),
+      valuation: z.number().nullable(),
+      technical: z.number().nullable(),
+      composite: z.number().nullable(),
+      status: z.enum(["complete", "incomplete"]),
+      coverage: z.number(),
+    })
+    .optional(),
   factorChips: z.array(factorChipSchema),
   asOf: z.string().nullable(),
 });

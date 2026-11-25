@@ -28,6 +28,10 @@ const nextConfig: NextConfig = {
       "./data/story-freshness.json",
       "./data/consensus/_meta.json",
     ],
+    "/stocks/[ticker]": ["./public/data/v2/companies/**"],
+    "/stocks/[ticker]/scores": ["./public/data/v2/companies/**"],
+    "/discover": ["./public/data/v2/companies/**"],
+    "/framework/v2": ["./public/data/v2/companies/**"],
   },
   async redirects() {
     return [

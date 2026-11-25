@@ -39,7 +39,7 @@ test.describe("responsive layout", () => {
     await expect(page.getByText("Jump to section").first()).toBeVisible();
     await page.getByText("Jump to section").first().click();
     await expect(
-      page.getByRole("link", { name: /Risks and what to watch/i }).first(),
+      page.getByRole("link", { name: /Risks and thesis breakers/i }).first(),
     ).toBeVisible();
   });
 });

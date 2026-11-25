@@ -151,9 +151,9 @@ export const getScreenerFactorConfig = () => FACTOR_CONFIG;
 
 export function getScreenerSummary() {
   const rows = getScreenerRows();
-  const withComposite = rows.filter((row) => row.composite != null);
+  const withComposite = rows.filter((row) => row.v2Composite != null);
   const composites = withComposite
-    .map((row) => row.composite as number)
+    .map((row) => row.v2Composite as number)
     .sort((a, b) => a - b);
   const median =
     composites.length === 0 ? null : composites[Math.floor(composites.length / 2)];
@@ -168,6 +168,6 @@ export function getScreenerSummary() {
     average,
     top: rows.slice(0, 5),
     asOf: dates.at(-1) ?? null,
-    coverage: rows.filter((row) => row.composite != null).length,
+    coverage: withComposite.length,
   };
 }

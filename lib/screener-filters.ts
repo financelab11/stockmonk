@@ -54,6 +54,7 @@ export const FILTER_CATEGORIES = [
   "Growth",
   "Financial Health",
   "Momentum",
+  "V2 Scores",
   "Scores",
 ] as const;
 
@@ -103,6 +104,11 @@ export const FILTER_DEFS: FilterDef[] = [
   { key: "lowVolatilityScore", label: "Low volatility score", category: "Scores", unit: "score", description: "Composite low-volatility factor score.", get: (row) => row.factorScores.lowVolatility },
   { key: "valuationScore", label: "Valuation score", category: "Scores", unit: "score", description: "Composite valuation factor score.", get: (row) => row.factorScores.valuation },
   { key: "composite", label: "Composite score", category: "Scores", unit: "score", description: "Weighted five-factor composite score.", get: (row) => row.composite },
+  { key: "v2Composite", label: "V2 composite", category: "V2 Scores", unit: "score", description: "Four-factor V2 composite: Growth 25%, Quality 35%, Valuation 25%, Technical 15%.", get: (row) => row.v2Composite },
+  { key: "v2Growth", label: "V2 growth", category: "V2 Scores", unit: "score", description: "Deterministic V2 growth score.", get: (row) => row.v2Growth },
+  { key: "v2Quality", label: "V2 quality", category: "V2 Scores", unit: "score", description: "Deterministic V2 quality score.", get: (row) => row.v2Quality },
+  { key: "v2Valuation", label: "V2 valuation", category: "V2 Scores", unit: "score", description: "Deterministic V2 valuation score.", get: (row) => row.v2Valuation },
+  { key: "v2Technical", label: "V2 technical", category: "V2 Scores", unit: "score", description: "Deterministic V2 technical score.", get: (row) => row.v2Technical },
   { key: "historicalValuation", label: "Cheap vs own history", category: "Valuation", unit: "score", description: "Cheapness percentile versus the company's own five-year P/E history.", get: (row) => row.historicalValuation },
   { key: "roicTrend", label: "ROIC trend", category: "Profitability", unit: "pct", description: "Change in ROIC over three years.", get: (row) => row.roicTrend },
 ];
@@ -126,6 +132,9 @@ export function formatColumnValue(
   row: ScreenerRow,
   key: string,
 ): string {
+  if (key === "v2Composite" && row.v2Status === "incomplete") {
+    return "Incomplete";
+  }
   const column = SCREENER_COLUMNS.find((item) => item.key === key);
   if (!column) return "n/a";
   const value = column.get(row);
@@ -172,7 +181,12 @@ export const SCREENER_COLUMNS: ColumnDef[] = [
   { key: "valuationScore", label: "Valuation", group: "Scores", unit: "score", get: (row) => row.factorScores.valuation, default: false },
   { key: "momentumScore", label: "Momentum", group: "Scores", unit: "score", get: (row) => row.factorScores.momentum, default: false },
   { key: "lowVolatilityScore", label: "Low vol", group: "Scores", unit: "score", get: (row) => row.factorScores.lowVolatility, default: false },
-  { key: "composite", label: "Composite", group: "Scores", unit: "score", get: (row) => row.composite, default: true },
+  { key: "composite", label: "5F score", group: "Scores", unit: "score", get: (row) => row.composite, default: true },
+  { key: "v2Composite", label: "V2 score", group: "V2 Scores", unit: "score", get: (row) => row.v2Composite, default: true },
+  { key: "v2Growth", label: "V2 G", group: "V2 Scores", unit: "score", get: (row) => row.v2Growth, default: false },
+  { key: "v2Quality", label: "V2 Q", group: "V2 Scores", unit: "score", get: (row) => row.v2Quality, default: false },
+  { key: "v2Valuation", label: "V2 V", group: "V2 Scores", unit: "score", get: (row) => row.v2Valuation, default: false },
+  { key: "v2Technical", label: "V2 T", group: "V2 Scores", unit: "score", get: (row) => row.v2Technical, default: false },
   { key: "netDebtEbitda", label: "Net debt/EBITDA", group: "Financial Health", unit: "x", get: (row) => row.netDebtEbitda, default: false },
   { key: "priceVs50dma", label: "vs 50 DMA", group: "Momentum", unit: "pct", get: (row) => row.priceVs50dma, default: false },
   { key: "priceVs200dma", label: "vs 200 DMA", group: "Momentum", unit: "pct", get: (row) => row.priceVs200dma, default: false },
@@ -257,7 +271,7 @@ export function parseScreenerParams(
     group: typeof raw.group === "string" ? raw.group : "",
     min: typeof raw.min === "string" && raw.min !== "" ? Number(raw.min) || 0 : 0,
     view,
-    sort: typeof raw.sort === "string" ? raw.sort : view === "overview" ? "composite" : view,
+    sort: typeof raw.sort === "string" ? raw.sort : view === "overview" ? "v2Composite" : view,
     dir: raw.dir === "asc" ? "asc" : "desc",
     page: Math.max(1, Number(raw.page) || 1),
     open: typeof raw.open === "string" ? raw.open : "",

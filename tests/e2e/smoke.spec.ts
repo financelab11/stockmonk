@@ -10,6 +10,8 @@ const ROUTES = [
   "/stocks/MSFT",
   "/stocks/JPM",
   "/stocks/AMD",
+  "/stocks/NVDA/scores",
+  "/framework/v2",
   "/watchlist",
   "/about",
   "/privacy",

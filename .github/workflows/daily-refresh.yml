@@ -65,6 +65,7 @@ jobs:
           pnpm build:kpis
           pnpm build:screener
           pnpm build:runtime
+          pnpm build:seo
 
       - name: Detect material story events
         run: |

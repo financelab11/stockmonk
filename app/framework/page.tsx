@@ -28,7 +28,7 @@ import { median } from "@/lib/article";
 import { formatMultiple, formatPercent } from "@/lib/format";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
-export const revalidate = 86400;
+export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Our framework",

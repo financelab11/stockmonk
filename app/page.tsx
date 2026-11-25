@@ -13,7 +13,7 @@ import { getStockStory } from "@/content/stocks";
 import { formatCompactCurrency, formatPercent } from "@/lib/format";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo";
 
-export const revalidate = 3600;
+export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Stockmonk — Independent equity research for learners",

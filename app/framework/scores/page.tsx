@@ -6,7 +6,7 @@ import { getV2Score } from "@/lib/scores-v2-data";
 import { classifyComponent, round } from "@/lib/scoring-v2/util";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
-export const revalidate = 3600;
+export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Score methodology",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-25T18:46:54.017Z",
+  "updatedAt": "2026-11-25T19:49:26.420Z",
   "tickers": {
     "NVDA": {
       "latestQuarter": "Q2 FY27",
@@ -3448,25 +3448,6 @@
       "segmentsAsOf": null,
       "segmentsHash": null
     },
-    "CRNX": {
-      "latestQuarter": "Q2 FY26",
-      "latestQuarterScore": 8106,
-      "latest10K": "0001658247-26-000012",
-      "latest10Q": "0001658247-26-000053",
-      "earningsAccession": "0001658247-26-000052",
-      "earningsFiled": "2026-08-03",
-      "consensusAsOf": "2026-11-25",
-      "consensusTargetMean": 85,
-      "consensusEps": {
-        "Next quarter": -1.13375,
-        "Following quarter": -1.07125,
-        "Current fiscal year": -4.53875,
-        "Next fiscal year": -4.01286,
-        "currentQuarter": -1.13375
-      },
-      "segmentsAsOf": "2025-12-31",
-      "segmentsHash": "4061f13c338f2ff9"
-    },
     "RYTM": {
       "latestQuarter": "Q3 FY26",
       "latestQuarterScore": 8107,
@@ -3561,19 +3542,6 @@
       },
       "segmentsAsOf": "2025-12-31",
       "segmentsHash": "84c460ba23f48e0d"
-    },
-    "ACLX": {
-      "latestQuarter": "Q4 FY25",
-      "latestQuarterScore": 8104,
-      "latest10K": "0001193125-26-076876",
-      "latest10Q": "0001193125-25-266932",
-      "earningsAccession": "0001193125-25-266866",
-      "earningsFiled": "2025-11-05",
-      "consensusAsOf": "2026-11-25",
-      "consensusTargetMean": null,
-      "consensusEps": {},
-      "segmentsAsOf": "2025-12-31",
-      "segmentsHash": "3ba50ba8b6017df7"
     },
     "RKLB": {
       "latestQuarter": "Q2 FY26",

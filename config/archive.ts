@@ -176,6 +176,30 @@ export const ARCHIVED_COMPANIES: ArchivedCompany[] = [
     sourceUrl:
       "https://kirkland.com/news/press-release/2026/08/kirkland-advises-investor-consortium-on-close-of-55-billion-acquisition-of-ea",
   },
+  {
+    ticker: "CRNX",
+    name: "Crinetics Pharmaceuticals",
+    cik: 1658247,
+    lastTraded: "2026-09-01",
+    lastClose: 85,
+    status: "acquired",
+    acquirer: "Vertex Pharmaceuticals",
+    consideration: "$85.00 per share in cash",
+    sourceUrl:
+      "https://investors.vrtx.com/news-releases/news-release-details/vertex-completes-acquisition-crinetics-pharmaceuticals-and",
+  },
+  {
+    ticker: "ACLX",
+    name: "Arcellx",
+    cik: 1786205,
+    lastTraded: "2026-04-28",
+    lastClose: 115.07,
+    status: "acquired",
+    acquirer: "Gilead Sciences",
+    consideration: "$115.00 per share in cash plus a $5 contingent value right",
+    sourceUrl:
+      "https://www.gilead.com/news/news-details/2026/gilead-sciences-completes-acquisition-of-arcellx-ahead-of-potential-commercial-launch-of-anito-cel",
+  },
 ];
 
 export const ARCHIVED_BY_TICKER = new Map(

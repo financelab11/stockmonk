@@ -27,9 +27,9 @@ export default function AboutPage() {
         those things are clear, the valuation question becomes easier to ask.
       </p>
       <p>
-        The library currently covers 500 US companies. Thirteen have since been
+        The library currently covers 500 US companies. Fifteen have since been
         acquired or taken private and remain as clearly labelled archived
-        coverage; the other 487 receive a daily market-data refresh. Every name
+        coverage; the other 485 receive a daily market-data refresh. Every name
         gets a bespoke ten-section research report, authored against its own
         financial brief and the latest SEC filing. The coverage universe is
         deliberately broad — banks, energy, staples and insurers sit alongside

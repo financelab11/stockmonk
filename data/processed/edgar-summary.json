@@ -1,18 +1,26 @@
 [
   {
-    "ticker": "CFLT",
-    "quarterly": 23,
-    "annual": 7,
-    "latestQuarter": "2025-12-31",
-    "latest10K": "2026-02-11",
+    "ticker": "PSTG",
+    "quarterly": 24,
+    "annual": 8,
+    "latestQuarter": "2026-08-02",
+    "latest10K": "2026-03-25",
+    "earningsReleaseUrl": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000110/everpure-ex991q3fy2027xpre.htm"
+  },
+  {
+    "ticker": "CRNX",
+    "quarterly": 24,
+    "annual": 8,
+    "latestQuarter": "2026-06-30",
+    "latest10K": "2026-02-26",
     "earningsReleaseUrl": null
   },
   {
-    "ticker": "CWAN",
-    "quarterly": 23,
-    "annual": 7,
-    "latestQuarter": "2026-03-31",
-    "latest10K": "2026-02-18",
-    "earningsReleaseUrl": null
+    "ticker": "ACLX",
+    "quarterly": 20,
+    "annual": 5,
+    "latestQuarter": "2025-12-31",
+    "latest10K": "2026-02-26",
+    "earningsReleaseUrl": "https://www.sec.gov/Archives/edgar/data/1786205/000119312525266866/aclx-ex99_1.htm"
   }
 ]

@@ -9,24 +9,8 @@ export const SOURCE_GAPS: Record<
   string,
   { reason: string; since: string; reviewBy: string }
 > = {
-  ACLX: {
-    reason:
-      "No current Yahoo quote; last available close is 2026-04-28. Verify the listing and corporate-action history.",
-    since: "2026-04-28",
-    reviewBy: "2026-12-31",
-  },
-  CRNX: {
-    reason:
-      "Yahoo price history stops at 2026-09-01. Verify whether the listing changed or the ticker mapping is stale.",
-    since: "2026-09-01",
-    reviewBy: "2026-12-31",
-  },
-  PSTG: {
-    reason:
-      "Company now reports as Everpure; Yahoo history under PSTG stops at 2026-04-16. Verify the ticker mapping.",
-    since: "2026-04-16",
-    reviewBy: "2026-12-31",
-  },
+  // All previously tracked gaps are resolved: CRNX and ACLX are archived
+  // acquisitions, and PSTG now maps to its live Everpure symbol.
 };
 
 export function isAcceptedSourceGap(

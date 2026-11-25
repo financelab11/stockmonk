@@ -78,7 +78,7 @@
   },
   {
     "ticker": "ACLX",
-    "name": "Arcellx, Inc.",
+    "name": "Arcellx",
     "sector": "Healthcare Growth",
     "industry": "Healthcare",
     "research": true
@@ -1002,9 +1002,9 @@
   },
   {
     "ticker": "CRNX",
-    "name": "Crinetics Pharmaceuticals Inc",
-    "sector": "Healthcare",
-    "industry": "Biotechnology",
+    "name": "Crinetics Pharmaceuticals",
+    "sector": "Healthcare Growth",
+    "industry": "Healthcare",
     "research": true
   },
   {
@@ -2998,8 +2998,8 @@
   {
     "ticker": "PSTG",
     "name": "Everpure, Inc.",
-    "sector": "AI Infrastructure & Power",
-    "industry": "AI Infra",
+    "sector": "Technology",
+    "industry": "Computer Hardware",
     "research": true
   },
   {

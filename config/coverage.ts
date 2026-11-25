@@ -11,7 +11,7 @@ export type CoverageGroup = {
 /**
  * The 500-name Stockmonk research universe, grouped by sector and theme. Every
  * ticker belongs to exactly one group so the All Stocks directory never
- * duplicates a card. Thirteen companies have since been acquired or taken
+ * duplicates a card. Fifteen companies have since been acquired or taken
  * private and remain in the library as archived coverage.
  */
 export const COVERAGE_GROUPS: CoverageGroup[] = [

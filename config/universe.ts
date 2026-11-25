@@ -91,4 +91,7 @@ export const RECENTLY_RESEARCHED = CORE_RESEARCH_TICKERS;
  */
 export const TICKER_ALIASES: Record<string, { sec: string; yahoo: string }> = {
   "BRK.B": { sec: "BRK-B", yahoo: "BRK-B" },
+  // Pure Storage renamed to Everpure and now trades under the single-letter
+  // symbol P. The canonical Stockmonk ticker stays PSTG for URL continuity.
+  PSTG: { sec: "PSTG", yahoo: "P" },
 };

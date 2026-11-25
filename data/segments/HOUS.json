@@ -1,0 +1,40 @@
+{
+  "ticker": "HOUS",
+  "asOf": "2024-12-31",
+  "source": {
+    "name": "Anywhere Real Estate Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1398987/000139898725000020/hous-20241231.htm",
+    "date": "2025-02-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Owned Brokerage Group",
+      "revenue": 4688000000,
+      "share": 0.8236120871398454
+    },
+    {
+      "name": "Franchise Group",
+      "revenue": 961000000,
+      "share": 0.16883345045678144
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 43000000,
+      "share": 0.007554462403373156
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 5626000000,
+      "share": 0.9884047786366831
+    },
+    {
+      "name": "Non-US",
+      "revenue": 66000000,
+      "share": 0.011595221363316937
+    }
+  ]
+}

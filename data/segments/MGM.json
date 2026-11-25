@@ -1,0 +1,55 @@
+{
+  "ticker": "MGM",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "MGM Resorts International Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/789570/000078957026000018/mgm-20251231.htm",
+    "date": "2026-02-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Las Vegas Strip Resorts",
+      "revenue": 8441503000,
+      "share": 0.4813351341793554
+    },
+    {
+      "name": "MGM China",
+      "revenue": 4461743000,
+      "share": 0.2544089204942295
+    },
+    {
+      "name": "Regional Operations",
+      "revenue": 3772333000,
+      "share": 0.21509871058793797
+    },
+    {
+      "name": "MGM Digital",
+      "revenue": 654190000,
+      "share": 0.03730196286476384
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 207914000,
+      "share": 0.011855271873713307
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 12411625000,
+      "share": 0.7077117883816237
+    },
+    {
+      "name": "China",
+      "revenue": 4464095000,
+      "share": 0.2545430317106313
+    },
+    {
+      "name": "Non US Other",
+      "revenue": 661963000,
+      "share": 0.03774517990774494
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "ticker": "NEM",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "NEWMONT CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1164727/000116472726000010/nem-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Nevada Gold Mines",
+      "revenue": 3560000000,
+      "share": 0.15704265737350567
+    },
+    {
+      "name": "Penasquito",
+      "revenue": 3419000000,
+      "share": 0.15082270942697076
+    },
+    {
+      "name": "Cadia",
+      "revenue": 2294000000,
+      "share": 0.10119546517270281
+    },
+    {
+      "name": "Ahafo South",
+      "revenue": 2266000000,
+      "share": 0.09996029820459658
+    },
+    {
+      "name": "Boddington",
+      "revenue": 2246000000,
+      "share": 0.0990780360845207
+    },
+    {
+      "name": "Lihir",
+      "revenue": 1983000000,
+      "share": 0.08747628920552296
+    },
+    {
+      "name": "Yanacocha",
+      "revenue": 1804000000,
+      "share": 0.07958004323084389
+    },
+    {
+      "name": "Tanami",
+      "revenue": 1353000000,
+      "share": 0.05968503242313291
+    },
+    {
+      "name": "Merian Gold Project",
+      "revenue": 846000000,
+      "share": 0.03731968767920949
+    },
+    {
+      "name": "Brucejack",
+      "revenue": 824000000,
+      "share": 0.03634919934712603
+    },
+    {
+      "name": "Cerro Negro",
+      "revenue": 691000000,
+      "share": 0.030482156248621467
+    },
+    {
+      "name": "Red Chris",
+      "revenue": 513000000,
+      "share": 0.02263002337994618
+    },
+    {
+      "name": "Ahafo North",
+      "revenue": 242000000,
+      "share": 0.010675371652918082
+    },
+    {
+      "name": "Porcupine",
+      "revenue": 177000000,
+      "share": 0.00780801976267149
+    },
+    {
+      "name": "Eleonore",
+      "revenue": 138000000,
+      "share": 0.006087608628523534
+    },
+    {
+      "name": "Akyem",
+      "revenue": 131000000,
+      "share": 0.005778816886496978
+    },
+    {
+      "name": "Musselwhite",
+      "revenue": 94000000,
+      "share": 0.004146631964356611
+    },
+    {
+      "name": "Cripple Creek & Victor Mine",
+      "revenue": 88000000,
+      "share": 0.003881953328333848
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United Kingdom",
+      "revenue": 13068000000,
+      "share": 0.5764700692575764
+    },
+    {
+      "name": "KR",
+      "revenue": 3196000000,
+      "share": 0.14098548678812475
+    },
+    {
+      "name": "Japan",
+      "revenue": 2002000000,
+      "share": 0.08831443821959505
+    },
+    {
+      "name": "China",
+      "revenue": 1411000000,
+      "share": 0.06224359257135295
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 1379000000,
+      "share": 0.06083197317923155
+    },
+    {
+      "name": "AU",
+      "revenue": 803000000,
+      "share": 0.035422824121046366
+    },
+    {
+      "name": "MX",
+      "revenue": 639000000,
+      "share": 0.028188274736424192
+    },
+    {
+      "name": "CH",
+      "revenue": 89000000,
+      "share": 0.003926066434337642
+    },
+    {
+      "name": "PH",
+      "revenue": 82000000,
+      "share": 0.003617274692311086
+    }
+  ]
+}

@@ -12,6 +12,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { RESEARCH_TICKERS, TICKER_ALIASES } from "../config/universe";
+import { ARCHIVED_COMPANIES } from "../config/archive";
 import {
   convertCompanyFactsToUsd,
   extractFlowSeries,
@@ -46,6 +47,9 @@ const CIK_OVERRIDES: Record<string, number> = {
   ACLX: 1786205,
   CRNX: 1658247,
   PSTG: 1474432,
+  ...Object.fromEntries(
+    ARCHIVED_COMPANIES.map((company) => [company.ticker, company.cik]),
+  ),
 };
 
 /**
@@ -796,20 +800,20 @@ function seriesFor(
   const directGross = merge(tags.grossProfit);
   const cost = merge(tags.cost);
   const grossProfit: FlowSeries = new Map();
-  if (directGross.size > 0) {
-    for (const [end, item] of directGross) grossProfit.set(end, item);
-  } else {
-    for (const [end, rev] of revenue) {
-      const c = valueNear(cost, end);
-      if (c) {
-        grossProfit.set(end, {
-          end,
-          value: rev.value - c.value,
-          fy: rev.fy,
-          period: rev.period,
-          filed: rev.filed,
-        });
-      }
+  for (const [end, item] of directGross) grossProfit.set(end, item);
+  // Fill any year where the company reports cost of revenue but not a
+  // separate gross-profit line. Retailers often do this.
+  for (const [end, rev] of revenue) {
+    if (grossProfit.has(end)) continue;
+    const c = valueNear(cost, end);
+    if (c) {
+      grossProfit.set(end, {
+        end,
+        value: rev.value - c.value,
+        fy: rev.fy,
+        period: rev.period,
+        filed: rev.filed,
+      });
     }
   }
   return {
@@ -838,8 +842,38 @@ function sortRows(rows: FinancialRow[]): FinancialRow[] {
   return [...rows].sort((a, b) => a.reportDate.localeCompare(b.reportDate));
 }
 
+function latestSharesOutstanding(facts: CompanyFacts): number | null {
+  const candidates = [
+    facts.facts["dei"]?.EntityCommonStockSharesOutstanding?.units,
+    facts.facts["us-gaap"]?.CommonStockSharesOutstanding?.units,
+    facts.facts["us-gaap"]?.WeightedAverageNumberOfDilutedSharesOutstanding
+      ?.units,
+    facts.facts["ifrs-full"]?.NumberOfSharesOutstanding?.units,
+  ];
+  for (const units of candidates) {
+    if (!units) continue;
+    const points = Object.values(units)
+      .flat()
+      .filter((point) => typeof point.val === "number" && point.val > 0)
+      .sort((a, b) => {
+        const end = String(b.end ?? "").localeCompare(String(a.end ?? ""));
+        if (end !== 0) return end;
+        return String(b.filed ?? "").localeCompare(String(a.filed ?? ""));
+      });
+    if (points[0]?.val != null) return points[0].val;
+  }
+  return null;
+}
+
 function hasUsGaapRevenue(facts: CompanyFacts): boolean {
-  return US_GAAP_TAGS.revenue.some((tag) => {
+  const hasRevenue = US_GAAP_TAGS.revenue.some((tag) => {
+    const units = facts.facts["us-gaap"]?.[tag]?.units;
+    return units && Object.values(units).some((points) => points.length > 0);
+  });
+  if (hasRevenue) return true;
+  // Pre-revenue US issuers often report operating income and net income
+  // without a revenue tag. They still use US GAAP, not IFRS.
+  return ["OperatingIncomeLoss", "NetIncomeLoss", "ProfitLoss"].some((tag) => {
     const units = facts.facts["us-gaap"]?.[tag]?.units;
     return units && Object.values(units).some((points) => points.length > 0);
   });
@@ -1088,6 +1122,7 @@ async function main() {
         ticker,
         cik: String(cik).padStart(10, "0"),
         entityName: facts.entityName,
+        sharesOutstanding: latestSharesOutstanding(facts),
         quarterly: reportedQuarterly,
         annual,
         filings: {

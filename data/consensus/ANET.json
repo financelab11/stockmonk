@@ -1,7 +1,7 @@
 {
   "ticker": "ANET",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/ANET/analysis",
   "targetMean": 249.64662,
   "targetHigh": 305,

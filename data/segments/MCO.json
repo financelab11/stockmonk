@@ -1,0 +1,35 @@
+{
+  "ticker": "MCO",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "MOODYS CORP /DE/ Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1059556/000162828026009136/mco-20251231.htm",
+    "date": "2026-02-18"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Moodys Investors Service",
+      "revenue": 4317000000,
+      "share": 0.5593417983933662
+    },
+    {
+      "name": "Moodys Analytics",
+      "revenue": 3611000000,
+      "share": 0.46786732314071
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 4171000000,
+      "share": 0.5404249805649132
+    },
+    {
+      "name": "Non-US",
+      "revenue": 3547000000,
+      "share": 0.45957501943508683
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "ticker": "EA",
+  "asOf": "2026-03-31",
+  "source": {
+    "name": "ELECTRONIC ARTS INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/712515/000162828026033617/ea-20260331.htm",
+    "date": "2026-05-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Live Services & Other Net Revenue",
+      "revenue": 5383000000,
+      "share": 0.7147789138228655
+    },
+    {
+      "name": "Full Game Net Revenue",
+      "revenue": 2148000000,
+      "share": 0.2852210861771345
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "International",
+      "revenue": 4497000000,
+      "share": 0.5971318549993361
+    },
+    {
+      "name": "North America",
+      "revenue": 3034000000,
+      "share": 0.4028681450006639
+    }
+  ]
+}

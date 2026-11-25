@@ -1,0 +1,30 @@
+{
+  "ticker": "AZO",
+  "asOf": "2026-08-29",
+  "source": {
+    "name": "AutoZone, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/866787/000110465926118791/azo-20260829x10k.htm",
+    "date": "2026-10-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Auto Parts Locations",
+      "revenue": 20338555000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 17613832000,
+      "share": 0.8660316330240767
+    },
+    {
+      "name": "Non-US",
+      "revenue": 2724723000,
+      "share": 0.13396836697592332
+    }
+  ]
+}

@@ -10,7 +10,7 @@ export const INSM: StockStory = {
     "Revenue reached $524.4M in Q3 FY2026, more than triple the $142.3M of a year earlier, while operating margin fell to minus 17.0%.",
     "The operating margin swung from minus 0.4% in Q2 FY2026 to minus 17.0% in Q3 as launch spending outran revenue.",
     "Free cash flow improved from minus $226.2M in Q1 FY2026 to minus $42.1M in Q3, a sharp reduction in burn.",
-    "FY2027 consensus EPS of $0.66 implies a 224x multiple at $148, so the profit estimate carries most of the valuation."
+    "FY2027 consensus EPS of $0.68 implies a 250x multiple at $170.38, so the profit estimate carries most of the valuation."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1104506/000110450626000009/insm-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001104506&type=&dateb=&owner=include&count=40",
@@ -18,7 +18,7 @@ export const INSM: StockStory = {
     "paragraphs": [
       "Insmed's revenue rose by $99M between Q2 and Q3 FY2026, and its operating margin fell by 16.6 points. That is the opposite of what a scaling launch usually produces, and it is the most informative fact in the quarter. Revenue of $524.4M was more than triple the $142.3M of a year earlier, yet the operating loss widened sequentially. The explanation has to sit in launch spending, gross-to-net or one-off costs; the reported numbers show the effect without separating the causes.",
       "The company is now a two-product pulmonary business. Arikayce is an inhaled antibiotic for MAC lung disease, delivered by nebuliser with a cold chain and a long treatment duration. Brensocatib is an oral DPP1 inhibitor for bronchiectasis, aimed at a much larger prescriber base and the reason the commercial organisation has expanded. The strategic logic is that the same sales force and payer relationships can carry both products; the financial logic is that brensocatib has to reach a primary-care-sized market before the cost base pays for itself.",
-      "At 21.0x trailing sales, the equity is priced for that transition rather than for the current loss. Net cash of $599.9M is smaller than the trailing free cash outflow of $627.6M, so the balance sheet is a live constraint even after the burn has fallen. The FY2027 estimate of $0.66 per share is the pivot: it turns the story from a launch to a leveraged commercial franchise, and it requires spending to stabilise while revenue keeps compounding."
+      "At 24.2x trailing sales, the equity is priced for that transition rather than for the current loss. Net cash of $599.9M is smaller than the trailing free cash outflow of $627.6M, so the balance sheet is a live constraint even after the burn has fallen. The FY2027 estimate of $0.68 per share is the pivot: it turns the story from a launch to a leveraged commercial franchise, and it requires spending to stabilise while revenue keeps compounding."
     ],
     "quote": "A launch-stage pharmaceutical is valued on the revenue curve, and the curve has to arrive before the cash does."
   },
@@ -87,15 +87,15 @@ export const INSM: StockStory = {
   },
   "valuation": {
     "paragraphs": [
-      "Twenty-one times sales for a business with a minus 37.1% operating margin only works if the 2027 profit arrives. The FY2027 estimate of $0.66 per share against a $148 share price implies a multiple of about 224x, which is not a valuation so much as a bet on the out-year. On FY2027 revenue of $3.0B, the sales multiple falls to roughly 11x, which is below Krystal's 18.3x on current sales and not an extreme multiple for a company growing 60.8%.",
+      "Twenty-four times sales for a business with a minus 37.1% operating margin only works if the 2027 profit arrives. The FY2027 estimate of $0.68 per share against a $170.38 share price implies a multiple of about 250x, which is not a valuation so much as a bet on the out-year. On FY2027 revenue of $3.01B, the sales multiple falls to roughly 12x, which is below Krystal's 18.3x on current sales and not an extreme multiple for a company growing 60.8%.",
       "The peer context explains the premium. Krystal trades at 18.3x sales with a 48.4% operating margin; Rhythm at 27.0x with a minus 66.7% margin; Madrigal at 6.1x with a launch that has just turned profitable. Insmed sits in between on margin and at the top of the range on revenue scale. The market is paying for the second product, not the first.",
       "Justifying the multiple requires evidence that brensocatib's launch is broadening rather than concentrating in a few centres, with spending stabilising at the same time. Another quarter of revenue growth with a falling operating margin would undercut it, because that combination pushes the FY2027 profit estimate out and makes the cash balance decisive. The next two quarters of margin and cash are the evidence that would settle it."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "The mean target of $194 against a $148 share price implies a modest re-rating rather than a transformation, which is consistent with a stock that has fallen 28.5% over twelve months while revenue more than doubled. The range of $158 to $243 is narrow for a launch story, suggesting the disagreement is about timing, not the size of the opportunity.",
-      "Yahoo Finance's survey of 18 November 2026, cross-checked with Nasdaq, has FY2026 revenue at $1.9B with a loss of $1.67 per share, then FY2027 revenue at $3.0B with earnings of $0.66. The 60-day EPS revision is 8.2%, a mild upward move. The estimates embed a profit in FY2027 on a 60.8% revenue increase, which is the assumption the valuation rests on."
+      "The mean target of $180.89 against a $170.38 share price implies a modest re-rating rather than a transformation, which is consistent with a stock that has fallen 28.5% over twelve months while revenue more than doubled. The range of $165 to $220 is narrow for a launch story, suggesting the disagreement is about timing, not the size of the opportunity.",
+      "Yahoo Finance's survey of 18 November 2026, cross-checked with Nasdaq, has FY2026 revenue at $1.86B with a loss of $1.64 per share, then FY2027 revenue at $3.01B with earnings of $0.68. The 60-day EPS revision is 6.3%, a mild upward move. The estimates embed a profit in FY2027 on a 60.8% revenue increase, which is the assumption the valuation rests on."
     ]
   },
   "risks": {
@@ -161,5 +161,5 @@ export const INSM: StockStory = {
     ]
   },
   "narrativeSource": "curated",
-  "narrativeUpdatedAt": "2026-11-24"
+  "narrativeUpdatedAt": "2026-11-25"
 };

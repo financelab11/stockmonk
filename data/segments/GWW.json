@@ -1,0 +1,50 @@
+{
+  "ticker": "GWW",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "W.W. GRAINGER, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/277135/000027713526000011/gww-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "High Touch Solutions NA",
+      "revenue": 13993000000,
+      "share": 0.7799019061420132
+    },
+    {
+      "name": "Endless Assortment",
+      "revenue": 3625000000,
+      "share": 0.20203990636495375
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 324000000,
+      "share": 0.018058187493033107
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 14441000000,
+      "share": 0.8048712518113923
+    },
+    {
+      "name": "Japan",
+      "revenue": 2173000000,
+      "share": 0.12111247352580537
+    },
+    {
+      "name": "CA",
+      "revenue": 683000000,
+      "share": 0.038067105116486456
+    },
+    {
+      "name": "Other Foreign Countries",
+      "revenue": 645000000,
+      "share": 0.035949169546315905
+    }
+  ]
+}

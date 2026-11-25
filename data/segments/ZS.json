@@ -1,0 +1,40 @@
+{
+  "ticker": "ZS",
+  "asOf": "2026-07-31",
+  "source": {
+    "name": "Zscaler, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000157/zs-20260731.htm",
+    "date": "2026-09-03"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 3352523000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1791807000,
+      "share": 0.5344652370766733
+    },
+    {
+      "name": "EMEA",
+      "revenue": 923395000,
+      "share": 0.27543286056501326
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 519189000,
+      "share": 0.15486515677893933
+    },
+    {
+      "name": "Other",
+      "revenue": 118132000,
+      "share": 0.035236745579374104
+    }
+  ]
+}

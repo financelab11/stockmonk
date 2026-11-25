@@ -1,0 +1,30 @@
+{
+  "ticker": "CWAN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Clearwater Analytics Holdings, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1866368/000186636826000011/cwan-20251231.htm",
+    "date": "2026-02-18"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 731368000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 545375000,
+      "share": 0.7456916354010567
+    },
+    {
+      "name": "Non-US",
+      "revenue": 185993000,
+      "share": 0.25430836459894335
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "ticker": "OKE",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ONEOK, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1039684/000103968426000006/oke-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Natural Gas Liquids",
+      "revenue": 16010000000,
+      "share": 0.47607719527788517
+    },
+    {
+      "name": "Refined Products & Crude Oil",
+      "revenue": 13039000000,
+      "share": 0.3877308275595468
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 2734000000,
+      "share": 0.08129887894376878
+    },
+    {
+      "name": "Wholly Owned Interstate Natural Gas Pipelines",
+      "revenue": 1846000000,
+      "share": 0.05489309821879925
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

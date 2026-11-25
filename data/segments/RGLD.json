@@ -1,0 +1,45 @@
+{
+  "ticker": "RGLD",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Royal Gold, Inc Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000008/rgld-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Stream Interest",
+      "revenue": 686472000,
+      "share": 0.6661730412597734
+    },
+    {
+      "name": "Royalty Interest",
+      "revenue": 343999000,
+      "share": 0.33382695874022655
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 440738000,
+      "share": 0.427705389089067
+    },
+    {
+      "name": "EMEA",
+      "revenue": 137281000,
+      "share": 0.13322160448959747
+    },
+    {
+      "name": "South & Central Amercia",
+      "revenue": 107444000,
+      "share": 0.1042668837842113
+    },
+    {
+      "name": "AU",
+      "revenue": 40349000,
+      "share": 0.039155881145612054
+    }
+  ]
+}

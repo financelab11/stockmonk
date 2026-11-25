@@ -30,6 +30,7 @@
     "stories:briefs": "tsx scripts/build-story-briefs.ts",
     "stories:materialize": "tsx scripts/materialize-stories.ts",
     "stories:index": "tsx scripts/build-stories-index.ts",
+    "stories:expand": "tsx scripts/materialize-stories.ts && tsx scripts/build-stories-index.ts",
     "build:data": "tsx scripts/build-public-data.ts",
     "build:scores": "tsx scripts/build-v2-scores.ts",
     "build:kpis": "tsx scripts/build-v2-kpis.ts",

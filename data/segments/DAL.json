@@ -1,0 +1,24 @@
+{
+  "ticker": "DAL",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "DELTA AIR LINES, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/27904/000002790426000013/dal-20251231.htm",
+    "date": "2026-02-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Airline",
+      "revenue": 58287000000,
+      "share": 0.9198756391641941
+    },
+    {
+      "name": "Refinery",
+      "revenue": 6961000000,
+      "share": 0.10985733223912632
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

@@ -1,0 +1,55 @@
+{
+  "ticker": "AON",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Aon plc Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/315293/000162828026008116/aon-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Risk Capital",
+      "revenue": 11290000000,
+      "share": 0.6571212385774984
+    },
+    {
+      "name": "Human Capital",
+      "revenue": 5907000000,
+      "share": 0.3438100226994936
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 8279000000,
+      "share": 0.4818695070135615
+    },
+    {
+      "name": "Europe Middle East & Africa Other Than United Kingdom & Ireland",
+      "revenue": 3153000000,
+      "share": 0.18351667539724115
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 2220000000,
+      "share": 0.12921250218264363
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 1711000000,
+      "share": 0.09958675280833479
+    },
+    {
+      "name": "Americas Other Than United States",
+      "revenue": 1633000000,
+      "share": 0.09504685408299866
+    },
+    {
+      "name": "IE",
+      "revenue": 185000000,
+      "share": 0.010767708515220301
+    }
+  ]
+}

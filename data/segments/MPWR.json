@@ -1,0 +1,60 @@
+{
+  "ticker": "MPWR",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Monolithic Power Systems, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1280452/000143774926006113/mpwr20251231_10k.htm",
+    "date": "2026-02-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 2790459000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "China",
+      "revenue": 1544272000,
+      "share": 0.553411463848779
+    },
+    {
+      "name": "Taiwan",
+      "revenue": 550110000,
+      "share": 0.1971396103651765
+    },
+    {
+      "name": "KR",
+      "revenue": 252737000,
+      "share": 0.09057183782309648
+    },
+    {
+      "name": "South East Asia",
+      "revenue": 148136000,
+      "share": 0.05308660689872168
+    },
+    {
+      "name": "Europe",
+      "revenue": 113533000,
+      "share": 0.04068613801528709
+    },
+    {
+      "name": "United States",
+      "revenue": 96744000,
+      "share": 0.03466956511455642
+    },
+    {
+      "name": "Japan",
+      "revenue": 84443000,
+      "share": 0.03026132976689498
+    },
+    {
+      "name": "Other Region",
+      "revenue": 484000,
+      "share": 0.00017344816748785774
+    }
+  ]
+}

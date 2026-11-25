@@ -1,0 +1,35 @@
+{
+  "ticker": "ADSK",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "Autodesk, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/769397/000076939726000015/adsk-20260131.htm",
+    "date": "2026-03-03"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 7206000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 3178000000,
+      "share": 0.44102137107965583
+    },
+    {
+      "name": "EMEA",
+      "revenue": 2794000000,
+      "share": 0.3877324451845684
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 1234000000,
+      "share": 0.17124618373577574
+    }
+  ]
+}

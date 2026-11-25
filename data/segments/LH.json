@@ -1,0 +1,24 @@
+{
+  "ticker": "LH",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "LABCORP HOLDINGS INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/920148/000092014826000111/lh-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Diagnostics",
+      "revenue": 10876500000,
+      "share": 0.7795824164797122
+    },
+    {
+      "name": "Biopharma Laboratory Services",
+      "revenue": 3098200000,
+      "share": 0.2220661281420902
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

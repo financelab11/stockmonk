@@ -1,0 +1,40 @@
+{
+  "ticker": "NET",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Cloudflare, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000016/cloud-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 2167937000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1072996000,
+      "share": 0.4949387366883816
+    },
+    {
+      "name": "EMEA",
+      "revenue": 598624000,
+      "share": 0.27612610514050917
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 329760000,
+      "share": 0.1521077411382342
+    },
+    {
+      "name": "Other Geographical Regions",
+      "revenue": 166557000,
+      "share": 0.07682741703287503
+    }
+  ]
+}

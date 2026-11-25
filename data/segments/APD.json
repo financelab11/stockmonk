@@ -1,0 +1,55 @@
+{
+  "ticker": "APD",
+  "asOf": "2026-09-30",
+  "source": {
+    "name": "Air Products & Chemicals, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000050/apd-20260930.htm",
+    "date": "2026-11-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Americas",
+      "revenue": 5681700000,
+      "share": 0.43735999815255294
+    },
+    {
+      "name": "Asia",
+      "revenue": 3458700000,
+      "share": 0.26624021430385886
+    },
+    {
+      "name": "Europe",
+      "revenue": 3242200000,
+      "share": 0.2495747022916041
+    },
+    {
+      "name": "Corporate & Other",
+      "revenue": 479200000,
+      "share": 0.03688735961326775
+    },
+    {
+      "name": "Middle East & India",
+      "revenue": 129100000,
+      "share": 0.009937725638716333
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Other Foreign Operations",
+      "revenue": 5793900000,
+      "share": 0.44599681315382306
+    },
+    {
+      "name": "United States",
+      "revenue": 5132300000,
+      "share": 0.3950688558914317
+    },
+    {
+      "name": "China",
+      "revenue": 2064700000,
+      "share": 0.15893433095474524
+    }
+  ]
+}

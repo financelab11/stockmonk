@@ -1,0 +1,65 @@
+{
+  "ticker": "CCK",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "CROWN HOLDINGS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1219601/000162828026012904/cck-20251231.htm",
+    "date": "2026-02-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable Segment Aggregation Before Other Operating",
+      "revenue": 11062000000,
+      "share": 0.894621916700364
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 1303000000,
+      "share": 0.10537808329963606
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 4813000000,
+      "share": 0.3892438334007279
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 3522000000,
+      "share": 0.2848362312980186
+    },
+    {
+      "name": "BR",
+      "revenue": 1073000000,
+      "share": 0.08677719369187221
+    },
+    {
+      "name": "MX",
+      "revenue": 989000000,
+      "share": 0.07998382531338455
+    },
+    {
+      "name": "CA",
+      "revenue": 786000000,
+      "share": 0.06356651839870603
+    },
+    {
+      "name": "ES",
+      "revenue": 423000000,
+      "share": 0.03420946219167004
+    },
+    {
+      "name": "VN",
+      "revenue": 387000000,
+      "share": 0.031298018600889606
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 372000000,
+      "share": 0.030084917104731095
+    }
+  ]
+}

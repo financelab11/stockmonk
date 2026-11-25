@@ -1,0 +1,40 @@
+{
+  "ticker": "HRL",
+  "asOf": "2025-10-26",
+  "source": {
+    "name": "HORMEL FOODS CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/48465/000004846525000059/hrl-20251026.htm",
+    "date": "2025-12-05"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Retail",
+      "revenue": 7455218000,
+      "share": 0.6158202105374454
+    },
+    {
+      "name": "Foodservice",
+      "revenue": 3941795000,
+      "share": 0.32560242058588357
+    },
+    {
+      "name": "International",
+      "revenue": 709146000,
+      "share": 0.05857728627409517
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 11437051000,
+      "share": 0.9447298730563614
+    },
+    {
+      "name": "Non-US",
+      "revenue": 669109000,
+      "share": 0.05527012694363861
+    }
+  ]
+}

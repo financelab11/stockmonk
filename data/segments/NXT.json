@@ -1,0 +1,30 @@
+{
+  "ticker": "NXT",
+  "asOf": "2026-03-31",
+  "source": {
+    "name": "Nextpower Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1852131/000185213126000017/nxt-20260331.htm",
+    "date": "2026-05-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 3559390000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 2730699000,
+      "share": 0.7671817361963708
+    },
+    {
+      "name": "Non-US",
+      "revenue": 828691000,
+      "share": 0.23281826380362927
+    }
+  ]
+}

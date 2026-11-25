@@ -1,0 +1,35 @@
+{
+  "ticker": "AIZ",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Assurant, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000010/aiz-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Global Lifestyle",
+      "revenue": 9940000000,
+      "share": 0.7756959022342227
+    },
+    {
+      "name": "Global Housing",
+      "revenue": 2910600000,
+      "share": 0.2271368705274576
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 10549000000,
+      "share": 0.823220932864066
+    },
+    {
+      "name": "Non-US",
+      "revenue": 2265300000,
+      "share": 0.17677906713593408
+    }
+  ]
+}

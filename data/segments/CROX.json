@@ -1,0 +1,35 @@
+{
+  "ticker": "CROX",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "CROCS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000006/crox-20251231.htm",
+    "date": "2026-02-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Crocs Brand",
+      "revenue": 3325807000,
+      "share": 0.8230877381765841
+    },
+    {
+      "name": "HEYDUDE Brand",
+      "revenue": 714840000,
+      "share": 0.1769122618234159
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 2260656000,
+      "share": 0.5594787171460412
+    },
+    {
+      "name": "Non-US",
+      "revenue": 1779518000,
+      "share": 0.44040422239309696
+    }
+  ]
+}

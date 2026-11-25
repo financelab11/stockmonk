@@ -1,0 +1,34 @@
+{
+  "ticker": "NRG",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "NRG ENERGY, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000004/nrg-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "East",
+      "revenue": 14263000000,
+      "share": 0.46999703430322604
+    },
+    {
+      "name": "Texas",
+      "revenue": 11139000000,
+      "share": 0.36705440405970935
+    },
+    {
+      "name": "West Services & Other",
+      "revenue": 3202000000,
+      "share": 0.10551290078096681
+    },
+    {
+      "name": "Vivint Smart Home Inc",
+      "revenue": 2144000000,
+      "share": 0.07064948759350183
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

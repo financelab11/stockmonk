@@ -1,0 +1,24 @@
+{
+  "ticker": "JD",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "JD.com, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1549802/000119312526157870/d53690d20f.htm",
+    "date": "2026-04-16"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Jd Logistics",
+      "revenue": 217146000000,
+      "share": 1.1604862247222725
+    },
+    {
+      "name": "New Business",
+      "revenue": 49282000000,
+      "share": 0.26337617145497977
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

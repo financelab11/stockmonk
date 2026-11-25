@@ -1,0 +1,35 @@
+{
+  "ticker": "HEI",
+  "asOf": "2025-10-31",
+  "source": {
+    "name": "HEICO CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/46619/000004661925000082/hei-20251031.htm",
+    "date": "2025-12-22"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Flight Support Group",
+      "revenue": 3117277000,
+      "share": 0.6950382203608259
+    },
+    {
+      "name": "Electronic Technologies Group",
+      "revenue": 1413120000,
+      "share": 0.3150738320515919
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 2776103000,
+      "share": 0.618968955488508
+    },
+    {
+      "name": "Non-US",
+      "revenue": 1708941000,
+      "share": 0.38103104451149195
+    }
+  ]
+}

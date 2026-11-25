@@ -1,9 +1,9 @@
 {
   "ticker": "GEV",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/GEV/analysis",
-  "targetMean": 1162.4033,
+  "targetMean": 1148.464,
   "targetHigh": 1400,
   "targetLow": 783.86,
   "recommendationKey": "strong_buy",
@@ -97,9 +97,9 @@
   },
   "revisions": {
     "eps7d": 0,
-    "eps30d": 0.044930663935091486,
-    "eps60d": 0.03369698719311631,
-    "eps90d": 0.032034526934325847,
+    "eps30d": 0.04515872856739489,
+    "eps60d": 0.03416094726441177,
+    "eps90d": 0.03546023074388005,
     "revenue30d": null
   }
 }

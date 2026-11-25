@@ -1,0 +1,19 @@
+{
+  "ticker": "BOX",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "BOX INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1372612/000119312526098466/box-20260131.htm",
+    "date": "2026-03-09"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 1177253000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

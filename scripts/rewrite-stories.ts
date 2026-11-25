@@ -24,7 +24,7 @@ import {
   rangePosition,
 } from "../lib/analytics";
 import type { ResearchBundle } from "../lib/data";
-import { generateStockStory } from "../lib/generated-story";
+import { generateStockStoryV2 } from "../lib/generated-story-v2";
 import {
   consensusSchema,
   segmentMixSchema,
@@ -53,7 +53,7 @@ const ONLY = (
 const LIMIT = Number(
   process.argv.find((arg) => arg.startsWith("--limit="))?.split("=")[1] ??
     process.env.REWRITE_LIMIT ??
-    60,
+    500,
 );
 const PROVIDER_ENV = process.env.REWRITE_PROVIDER?.trim();
 const PROVIDER =
@@ -174,20 +174,21 @@ function buildBundle(
 }
 
 function fromGeneratedStory(ticker: string, bundle: ResearchBundle): Rewrite {
-  const story = generateStockStory(bundle);
-  const original = STOCK_STORIES[ticker];
+  const story = generateStockStoryV2(bundle);
   return {
     ticker,
     generatedAt: new Date().toISOString().slice(0, 10),
     model: "deterministic-fallback",
     source: "auto-curated",
-    title: original?.title ?? story.title,
-    dek: original?.dek ?? story.dek,
+    title: story.title,
+    dek: story.dek,
     takeaways: story.takeaways,
     bigPicture: {
       paragraphs: story.bigPicture.paragraphs,
       quote: story.bigPicture.quote ?? "",
     },
+    whatItDoes: story.whatItDoes,
+    howItMakesMoney: story.howItMakesMoney,
     growth: {
       paragraphs: story.growth.paragraphs,
       bullets: story.growth.bullets ?? [],
@@ -196,6 +197,8 @@ function fromGeneratedStory(ticker: string, bundle: ResearchBundle): Rewrite {
     cash: story.cash,
     valuation: story.valuation,
     analysts: story.analysts,
+    risks: story.risks,
+    bottomLine: story.bottomLine,
   };
 }
 
@@ -489,13 +492,25 @@ async function main() {
   let written = 0;
 
   for (const ticker of queue) {
+    const original = STOCK_STORIES[ticker];
+    if (
+      PROVIDER !== "openai" &&
+      original &&
+      (original.narrativeSource === "curated" ||
+        original.narrativeSource === "handwritten")
+    ) {
+      console.warn(
+        `[rewrite] ${ticker}: curated narrative preserved; configure an editorial provider to rewrite it`,
+      );
+      continue;
+    }
     const bundle = buildBundle(ticker, companies);
     if (!bundle) {
       console.warn(`[rewrite] ${ticker}: no usable dataset`);
       continue;
     }
-    const pack = packFor(ticker);
-    if (!pack) {
+    const pack = PROVIDER === "openai" ? packFor(ticker) : null;
+    if (PROVIDER === "openai" && !pack) {
       console.warn(`[rewrite] ${ticker}: no research pack`);
       continue;
     }
@@ -503,7 +518,7 @@ async function main() {
     try {
       const rewrite =
         PROVIDER === "openai"
-          ? await callProvider(pack)
+          ? await callProvider(pack as string)
           : polishGenerated(fromGeneratedStory(ticker, bundle));
       rewrite.ticker = ticker;
       rewrite.generatedAt =
@@ -514,7 +529,7 @@ async function main() {
       rewrite.source = PROVIDER === "openai" ? "curated" : "auto-curated";
 
       if (PROVIDER === "openai") {
-        const drift = numericDrift(rewrite, pack);
+        const drift = numericDrift(rewrite, pack as string);
         if (drift.length) {
           throw new Error(
             `numeric claims not present in the pack: ${drift.slice(0, 10).join(", ")}`,

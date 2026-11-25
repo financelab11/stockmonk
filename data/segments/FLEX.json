@@ -1,0 +1,45 @@
+{
+  "ticker": "FLEX",
+  "asOf": "2026-03-31",
+  "source": {
+    "name": "FLEX LTD. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/866374/000086637426000012/flex-20260331.htm",
+    "date": "2026-05-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Integrated Technology Solutions ITS",
+      "revenue": 11109000000,
+      "share": 0.3979723436268539
+    },
+    {
+      "name": "Regulated Manufacturing Solutions RMS",
+      "revenue": 10191000000,
+      "share": 0.36508562011893675
+    },
+    {
+      "name": "Cloud Power Infrastructure CPI",
+      "revenue": 6614000000,
+      "share": 0.23694203625420937
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 13820000000,
+      "share": 0.49509206849609516
+    },
+    {
+      "name": "Asia",
+      "revenue": 8401000000,
+      "share": 0.3009600917102529
+    },
+    {
+      "name": "Europe",
+      "revenue": 5693000000,
+      "share": 0.20394783979365194
+    }
+  ]
+}

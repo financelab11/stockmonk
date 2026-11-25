@@ -1,7 +1,7 @@
 {
   "ticker": "SHW",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/SHW/analysis",
   "targetMean": 373.83334,
   "targetHigh": 420,

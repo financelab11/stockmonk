@@ -1,0 +1,40 @@
+{
+  "ticker": "MNDY",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "monday.com Ltd. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326000870/zk2634436.htm",
+    "date": "2026-03-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 1231997000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 619191000,
+      "share": 0.5025913212451004
+    },
+    {
+      "name": "EMEA",
+      "revenue": 264459000,
+      "share": 0.2146588019289008
+    },
+    {
+      "name": "Rest Of World",
+      "revenue": 213771000,
+      "share": 0.17351584460027095
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 134576000,
+      "share": 0.10923403222572782
+    }
+  ]
+}

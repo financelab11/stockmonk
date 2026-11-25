@@ -1,0 +1,40 @@
+{
+  "ticker": "NBIS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "NEBIUS GROUP N.V. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm",
+    "date": "2026-04-30"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Nebius",
+      "revenue": 480300000,
+      "share": 0.9065685164212911
+    },
+    {
+      "name": "Triple Ten",
+      "revenue": 54100000,
+      "share": 0.10211400528501322
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 340100000,
+      "share": 0.6419403548508871
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 137500000,
+      "share": 0.2595318988297471
+    },
+    {
+      "name": "Segment Geographical Area Other Than Unites States & United Kingdom",
+      "revenue": 52200000,
+      "share": 0.0985277463193658
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import { getCoverageGroup } from "@/config/coverage";
+import { isArchivedTicker } from "@/config/universe";
 import type {
   Consensus,
   FinancialRow,
@@ -52,6 +53,7 @@ export type ScreenerRow = {
   name: string;
   sector: string;
   group: string;
+  archived: boolean;
   marketCap: number | null;
   price: number;
   asOf: string;
@@ -1329,6 +1331,7 @@ export type ScreenerRawEntry = {
   sector: string;
   groupId: string;
   groupName: string;
+  archived?: boolean;
   marketCap: number | null;
   price: number;
   asOf: string;
@@ -1467,6 +1470,7 @@ export function scoreScreenerEntries(
       name: entry.name,
       sector: entry.sector,
       group: entry.groupName,
+      archived: entry.archived ?? false,
       marketCap: entry.marketCap,
       price: entry.price,
       asOf: entry.asOf,
@@ -1543,6 +1547,7 @@ export function screenerEntriesFromBundles(
       sector: bundle.data.sector,
       groupId: coverage?.id ?? "other",
       groupName: coverage?.name ?? bundle.data.sector,
+      archived: isArchivedTicker(bundle.data.ticker),
       marketCap: bundle.data.latestPrice.marketCap,
       price: bundle.data.latestPrice.close,
       asOf: bundle.data.latestPrice.asOf,

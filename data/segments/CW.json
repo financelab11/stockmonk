@@ -1,0 +1,45 @@
+{
+  "ticker": "CW",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "CURTISS-WRIGHT CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/26324/000162828026007587/cw-20251231.htm",
+    "date": "2026-02-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Naval Power",
+      "revenue": 1503494000,
+      "share": 0.4297696185540017
+    },
+    {
+      "name": "Defense Electronics",
+      "revenue": 1021820000,
+      "share": 0.29208443241599236
+    },
+    {
+      "name": "Aerospace Industrial",
+      "revenue": 977188000,
+      "share": 0.2793264981539985
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 2548239000,
+      "share": 0.7284070990735119
+    },
+    {
+      "name": "Other Foreign Countries",
+      "revenue": 752644000,
+      "share": 0.21514121425623117
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 197489000,
+      "share": 0.056451686670256906
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "ticker": "BRO",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "BROWN & BROWN, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/79282/000119312526046984/bro-20251231.htm",
+    "date": "2026-02-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Retail",
+      "revenue": 3406000000,
+      "share": 0.5770925110132159
+    },
+    {
+      "name": "Specialty Distribution",
+      "revenue": 2409000000,
+      "share": 0.4081667231446967
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 87000000,
+      "share": 0.014740765842087429
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 5059000000,
+      "share": 0.857167062012877
+    },
+    {
+      "name": "Other International Countries",
+      "revenue": 843000000,
+      "share": 0.14283293798712302
+    }
+  ]
+}

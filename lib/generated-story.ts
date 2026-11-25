@@ -17,7 +17,7 @@ type Bucket = {
   questions: string[];
 };
 
-const BUCKETS: Record<string, Bucket> = {
+export const BUCKETS: Record<string, Bucket> = {
   tech: {
     lens: "The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
     drivers: [
@@ -1368,7 +1368,7 @@ const BUCKETS: Record<string, Bucket> = {
   },
 };
 
-const GROUP_BUCKET: Record<string, string> = {
+export const GROUP_BUCKET: Record<string, string> = {
   "defence-electronics": "industrial",
   "power-renewables": "utilities",
   "infra-rail-cables": "industrial",
@@ -1391,6 +1391,19 @@ const GROUP_BUCKET: Record<string, string> = {
   utilities: "utilities",
   materials: "materials",
   "real-estate": "realestate",
+  "enterprise-software": "software",
+  "semis-hardware": "semis",
+  "internet-platforms": "tech",
+  "payments-fintech": "fintech",
+  "pharma-biotech": "biotech",
+  "healthcare-services": "healthcare",
+  "industrial-automation": "industrial",
+  "aerospace-defense": "industrial",
+  "transport-autonomy": "industrial",
+  "materials-mining": "materials",
+  "consumer-retail": "consumer",
+  "banks-insurance": "financial",
+  "capital-markets": "financial",
   "ai-infrastructure": "ai",
   "semis-semicap": "semis",
   "software-cyber": "software",
@@ -1588,7 +1601,7 @@ export function generateStockStory(bundle: ResearchBundle): StockStory {
     paragraphs: [
       `${name} is a ${sectorLabel} company with ${money(revenue)} of trailing revenue, a ${formatPercent(opMargin)} operating margin and ${formatPercent(fcfMargin)} free-cash-flow margin. Those are the facts; the interpretation depends on whether the current growth and margin are durable.`,
       `${target != null ? `The third-party consensus mean target is ${price(target)} as of ${consensus?.asOf ?? "the latest snapshot"}. ` : ""}Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with the peer set below, then decide which risk matters most.`,
-      `The percentile scorecard below places the company within the ${"229-name coverage universe"}. A high growth score with a low balance-sheet score is a different proposition from the reverse, and neither is automatically good or bad.`,
+      `The percentile scorecard below places the company within the ${"500-name coverage universe"}. A high growth score with a low balance-sheet score is a different proposition from the reverse, and neither is automatically good or bad.`,
     ],
     questions: bucket.questions,
   };

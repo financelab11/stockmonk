@@ -1,0 +1,50 @@
+{
+  "ticker": "KHC",
+  "asOf": "2025-12-27",
+  "source": {
+    "name": "Kraft Heinz Co Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/khc-20251227.htm",
+    "date": "2026-02-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "North America",
+      "revenue": 18586000000,
+      "share": 0.7451687915965038
+    },
+    {
+      "name": "International",
+      "revenue": 3539000000,
+      "share": 0.14188918290433805
+    },
+    {
+      "name": "Emerging Markets",
+      "revenue": 2817000000,
+      "share": 0.11294202549915805
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 16784000000,
+      "share": 0.6729211771309438
+    },
+    {
+      "name": "Other Geographical Areas",
+      "revenue": 5086000000,
+      "share": 0.20391307834175287
+    },
+    {
+      "name": "CA",
+      "revenue": 1802000000,
+      "share": 0.0722476144655601
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 1270000000,
+      "share": 0.05091813006174324
+    }
+  ]
+}

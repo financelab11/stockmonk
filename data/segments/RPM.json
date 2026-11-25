@@ -1,0 +1,60 @@
+{
+  "ticker": "RPM",
+  "asOf": "2026-05-31",
+  "source": {
+    "name": "RPM International Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/110621/000119312526312142/rpm-20260531.htm",
+    "date": "2026-07-22"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Construction Products Group",
+      "revenue": 3069785000,
+      "share": 0.39038792525696825
+    },
+    {
+      "name": "Consumer",
+      "revenue": 2661723000,
+      "share": 0.3384942331722754
+    },
+    {
+      "name": "Performance Coatings Group",
+      "revenue": 2131914000,
+      "share": 0.27111784157075636
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 5521741000,
+      "share": 0.7022058589759014
+    },
+    {
+      "name": "Europe",
+      "revenue": 1222120000,
+      "share": 0.15541834076817956
+    },
+    {
+      "name": "CA",
+      "revenue": 513729000,
+      "share": 0.06533148036567286
+    },
+    {
+      "name": "Latin America",
+      "revenue": 304980000,
+      "share": 0.03878464108882876
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 178918000,
+      "share": 0.02275319828949788
+    },
+    {
+      "name": "Other Foreign Country",
+      "revenue": 121934000,
+      "share": 0.015506480511919619
+    }
+  ]
+}

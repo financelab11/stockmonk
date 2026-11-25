@@ -1,0 +1,40 @@
+{
+  "ticker": "MRSH",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "MARSH & MCLENNAN COMPANIES, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/62709/000006270926000022/mrsh-20251231.htm",
+    "date": "2026-02-09"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Riskand Insurance Services",
+      "revenue": 17265000000,
+      "share": 0.6398947407434862
+    },
+    {
+      "name": "Consulting",
+      "revenue": 9794000000,
+      "share": 0.36299618249879545
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 13344000000,
+      "share": 0.4945702531410993
+    },
+    {
+      "name": "Other Geographic Areas",
+      "revenue": 9899000000,
+      "share": 0.3668878099403284
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 3816000000,
+      "share": 0.14143286016085393
+    }
+  ]
+}

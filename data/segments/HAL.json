@@ -1,0 +1,45 @@
+{
+  "ticker": "HAL",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "HALLIBURTON COMPANY Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/45012/000004501226000015/hal-20251231.htm",
+    "date": "2026-02-06"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Completion & Production",
+      "revenue": 12782000000,
+      "share": 0.5761810313739633
+    },
+    {
+      "name": "Drilling & Evaluation",
+      "revenue": 9402000000,
+      "share": 0.4238189686260368
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 9066000000,
+      "share": 0.4086729174179589
+    },
+    {
+      "name": "Middle East Asia",
+      "revenue": 5832000000,
+      "share": 0.26289217454020913
+    },
+    {
+      "name": "Latin America",
+      "revenue": 3935000000,
+      "share": 0.17738009376126937
+    },
+    {
+      "name": "Europe Africa CIS",
+      "revenue": 3351000000,
+      "share": 0.15105481428056255
+    }
+  ]
+}

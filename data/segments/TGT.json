@@ -1,0 +1,19 @@
+{
+  "ticker": "TGT",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "Target Corporation Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+    "date": "2026-03-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 104780000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

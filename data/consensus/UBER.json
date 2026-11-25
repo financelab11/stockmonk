@@ -1,7 +1,7 @@
 {
   "ticker": "UBER",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/UBER/analysis",
   "targetMean": 98.16174,
   "targetHigh": 150,
@@ -28,8 +28,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 15526737930,
-      "revenueGrowth": 0.176,
+      "revenueAvg": 15525352010,
+      "revenueGrowth": 0.1759,
       "epsAvg": 0.96064,
       "epsGrowth": 6.3895,
       "analystCount": 21
@@ -46,11 +46,11 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 66956729040,
-      "revenueGrowth": 0.1587,
-      "epsAvg": 4.40934,
-      "epsGrowth": 0.7025,
-      "analystCount": 38
+      "revenueAvg": 66944005760,
+      "revenueGrowth": 0.1585,
+      "epsAvg": 4.39175,
+      "epsGrowth": 0.6957,
+      "analystCount": 37
     }
   ],
   "history": [

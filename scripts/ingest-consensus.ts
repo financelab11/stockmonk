@@ -11,7 +11,7 @@
 import { setTimeout as sleep } from "node:timers/promises";
 import fs from "node:fs/promises";
 import path from "node:path";
-import { RESEARCH_TICKERS } from "../config/universe";
+import { ACTIVE_RESEARCH_TICKERS } from "../config/universe";
 import { fetchConsensus } from "../lib/consensus";
 import { consensusSchema, type Consensus } from "../lib/schemas";
 
@@ -59,7 +59,8 @@ async function main() {
   await fs.mkdir(OUT, { recursive: true });
   const summary: Array<Record<string, unknown>> = [];
   const requested = process.argv.slice(2).map((ticker) => ticker.toUpperCase());
-  const tickers = requested.length > 0 ? requested : [...RESEARCH_TICKERS];
+  const tickers =
+    requested.length > 0 ? requested : [...ACTIVE_RESEARCH_TICKERS];
 
   for (const ticker of tickers) {
     try {

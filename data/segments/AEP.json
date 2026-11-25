@@ -1,0 +1,39 @@
+{
+  "ticker": "AEP",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "American Electric Power Company, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/4904/000000490426000013/aep-20251231.htm",
+    "date": "2026-02-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Vertically Integrated Utilities",
+      "revenue": 12799000000,
+      "share": 0.589761312321445
+    },
+    {
+      "name": "Transmission & Distribution Companies",
+      "revenue": 6097000000,
+      "share": 0.28094184867754124
+    },
+    {
+      "name": "Generation & Marketing",
+      "revenue": 2697000000,
+      "share": 0.1242742604368261
+    },
+    {
+      "name": "AEP Transmission Company LLC",
+      "revenue": 56000000,
+      "share": 0.002580407335729426
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 53000000,
+      "share": 0.0024421712284582067
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

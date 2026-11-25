@@ -208,4 +208,34 @@ test.describe("research article", () => {
     await page.getByRole("button", { name: /Clear all/i }).click();
     await expect(page.getByText(/Your watchlist is empty/i)).toBeVisible();
   });
+
+  test("archived coverage is labelled and keeps the final ten-section report", async ({
+    page,
+  }) => {
+    await page.goto("/stocks/CYBR", { waitUntil: "networkidle" });
+
+    await expect(
+      page.getByText("Archived coverage.", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("Final transaction", { exact: true }),
+    ).toBeVisible();
+
+    for (const title of [
+      "Investment snapshot",
+      "Business model and revenue economics",
+      "Industry and competitive positioning",
+      "Growth drivers and future runway",
+      "Historical financial performance",
+      "Cash flow and balance sheet",
+      "Valuation",
+      "Market expectations and catalysts",
+      "Risks and thesis breakers",
+      "Investment conclusion",
+    ]) {
+      await expect(
+        page.getByRole("heading", { name: title, exact: true, level: 2 }),
+      ).toBeAttached();
+    }
+  });
 });

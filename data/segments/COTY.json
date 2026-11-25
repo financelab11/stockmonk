@@ -1,0 +1,30 @@
+{
+  "ticker": "COTY",
+  "asOf": "2026-06-30",
+  "source": {
+    "name": "COTY INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1024305/000102430526000048/coty-20260630.htm",
+    "date": "2026-08-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Prestige",
+      "revenue": 3805800000,
+      "share": 0.655426583542865
+    },
+    {
+      "name": "Consumer Beauty",
+      "revenue": 2000800000,
+      "share": 0.34457341645713496
+    }
+  ],
+  "geographyLabel": null,
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1431300000,
+      "share": 0.24649536734061242
+    }
+  ]
+}

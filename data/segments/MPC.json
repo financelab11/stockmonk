@@ -1,0 +1,24 @@
+{
+  "ticker": "MPC",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Marathon Petroleum Corporation Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000009/mpc-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Refining & Marketing",
+      "revenue": 124312000000,
+      "share": 0.9367968108275119
+    },
+    {
+      "name": "Midstream",
+      "revenue": 11534000000,
+      "share": 0.08691851483432429
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

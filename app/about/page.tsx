@@ -22,13 +22,15 @@ export default function AboutPage() {
       <p>
         Most investing content is written to produce a reaction: a pick, a
         prediction, a countdown. That format is good for attention and poor for
-        understanding. Stockmonk starts from the opposite direction. A company is
-        a business with customers, costs, capital and a balance sheet. If those
-        things are clear, the valuation question becomes easier to ask.
+        understanding. Stockmonk starts from the opposite direction. A company
+        is a business with customers, costs, capital and a balance sheet. If
+        those things are clear, the valuation question becomes easier to ask.
       </p>
       <p>
-        The library currently covers 229 US-listed companies. Every name gets a
-        hand-written ten-section research report, authored against its own
+        The library currently covers 500 US companies. Thirteen have since been
+        acquired or taken private and remain as clearly labelled archived
+        coverage; the other 487 receive a daily market-data refresh. Every name
+        gets a bespoke ten-section research report, authored against its own
         financial brief and the latest SEC filing. The coverage universe is
         deliberately broad — banks, energy, staples and insurers sit alongside
         software, semiconductors and early-stage biotech — because a research
@@ -37,18 +39,34 @@ export default function AboutPage() {
 
       <h2>What we publish</h2>
       <ul>
-        <li>Business descriptions and segment mixes sourced from SEC filings.</li>
-        <li>Financial statements from SEC EDGAR; prices, market data and profiles from Yahoo Finance.</li>
-        <li>Peer comparisons and multiple histories computed from the same data.</li>
-        <li>Analyst consensus attributed to Yahoo Finance and cross-checked with Nasdaq.</li>
-        <li>Data-change updates generated from the dataset, not invented headlines.</li>
+        <li>
+          Business descriptions and segment mixes sourced from SEC filings.
+        </li>
+        <li>
+          Financial statements from SEC EDGAR; prices, market data and profiles
+          from Yahoo Finance.
+        </li>
+        <li>
+          Peer comparisons and multiple histories computed from the same data.
+        </li>
+        <li>
+          Analyst consensus attributed to Yahoo Finance and cross-checked with
+          Nasdaq.
+        </li>
+        <li>
+          Data-change updates generated from the dataset, not invented
+          headlines.
+        </li>
       </ul>
 
       <h2>What we do not publish</h2>
       <ul>
         <li>Buy, sell or hold ratings.</li>
         <li>Stockmonk price targets.</li>
-        <li>Performance claims, testimonials, subscriber counts or press-logo walls.</li>
+        <li>
+          Performance claims, testimonials, subscriber counts or press-logo
+          walls.
+        </li>
         <li>Fabricated analyst or founder biographies.</li>
         <li>Explanations for price moves that the data cannot support.</li>
       </ul>
@@ -56,18 +74,19 @@ export default function AboutPage() {
       <h2>Independence</h2>
       <p>
         Stockmonk is not a broker, fund or registered investment adviser. There
-        is no pay-to-play coverage and no affiliate relationship with the companies
-        in the universe. The Pro layer is a product demo; it does not gate the
-        educational research and it does not process payments.
+        is no pay-to-play coverage and no affiliate relationship with the
+        companies in the universe. The Pro layer is a product demo; it does not
+        gate the educational research and it does not process payments.
       </p>
 
       <h2>How the site is built</h2>
       <p>
         The app is a statically generated Next.js PWA. Data is ingested at build
         time and refreshed on a schedule. There are no advertising scripts, no
-        third-party trackers and no cookie banner because no tracking cookies are
-        set. The source code and data notes are structured so that a new company
-        can be added by adding a ticker and running the ingestion pipeline.
+        third-party trackers and no cookie banner because no tracking cookies
+        are set. The source code and data notes are structured so that a new
+        company can be added by adding a ticker and running the ingestion
+        pipeline.
       </p>
 
       <h2>Contact</h2>

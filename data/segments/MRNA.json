@@ -1,0 +1,35 @@
+{
+  "ticker": "MRNA",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Moderna, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000033/mrna-20251231.htm",
+    "date": "2026-02-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 1944000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1199000000,
+      "share": 0.6167695473251029
+    },
+    {
+      "name": "Rest Of World",
+      "revenue": 692000000,
+      "share": 0.3559670781893004
+    },
+    {
+      "name": "Europe",
+      "revenue": 53000000,
+      "share": 0.02726337448559671
+    }
+  ]
+}

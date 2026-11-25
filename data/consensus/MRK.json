@@ -1,7 +1,7 @@
 {
   "ticker": "MRK",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/MRK/analysis",
   "targetMean": 161.525,
   "targetHigh": 186,
@@ -48,8 +48,8 @@
       "endDate": "2027-12-31",
       "revenueAvg": 69440611100,
       "revenueGrowth": 0.0327,
-      "epsAvg": 8.96297,
-      "epsGrowth": 2.2153,
+      "epsAvg": 8.96377,
+      "epsGrowth": 2.2156,
       "analystCount": 25
     }
   ],
@@ -96,8 +96,8 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": 0.0027518678527878038,
-    "eps30d": 0.047828473052316633,
+    "eps7d": -0.0002761489769934622,
+    "eps30d": 0.051020639002209434,
     "eps60d": 0.01708656389674368,
     "eps90d": 0.014624736114144499,
     "revenue30d": null

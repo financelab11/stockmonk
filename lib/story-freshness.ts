@@ -16,7 +16,7 @@ export type StoryEvent = {
 };
 
 export type StoryFreshnessStatus =
-  "current" | "rewrite-pending" | "data-stale" | "source-gap";
+  "current" | "rewrite-pending" | "data-stale" | "source-gap" | "archived";
 
 export type FilingInfo = {
   form: string;
@@ -134,5 +134,6 @@ export function emptyCounts(): Record<StoryFreshnessStatus, number> {
     "rewrite-pending": 0,
     "data-stale": 0,
     "source-gap": 0,
+    archived: 0,
   };
 }

@@ -1,0 +1,50 @@
+{
+  "ticker": "ARRY",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ARRAY TECHNOLOGIES, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1820721/000182072126000008/arry-20251231.htm",
+    "date": "2026-02-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Array Legacy Operations",
+      "revenue": 1070478000,
+      "share": 0.8336140657451168
+    },
+    {
+      "name": "STI Operations",
+      "revenue": 213663000,
+      "share": 0.16638593425488324
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1041372000,
+      "share": 0.8109483304403489
+    },
+    {
+      "name": "ES",
+      "revenue": 141047000,
+      "share": 0.10983762686496265
+    },
+    {
+      "name": "BR",
+      "revenue": 60716000,
+      "share": 0.047281412243671064
+    },
+    {
+      "name": "AU",
+      "revenue": 23779000,
+      "share": 0.018517436948123297
+    },
+    {
+      "name": "Countries Not Mentioned Above",
+      "revenue": 17227000,
+      "share": 0.013415193502894152
+    }
+  ]
+}

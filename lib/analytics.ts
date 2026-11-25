@@ -47,7 +47,9 @@ export function percentileRank(values: number[], value: number): number {
 function average(values: Array<number | null>): number {
   const present = values.filter(finite);
   if (!present.length) return 50;
-  return Math.round(present.reduce((sum, value) => sum + value, 0) / present.length);
+  return Math.round(
+    present.reduce((sum, value) => sum + value, 0) / present.length,
+  );
 }
 
 function metricValues(
@@ -68,14 +70,29 @@ export function buildFactorScores(
   const peValues = metricValues(entries, (item) => item.pe);
 
   if (!entry) {
-    return { growth: 50, profitability: 50, cash: 50, balance: 50, valuation: 50 };
+    return {
+      growth: 50,
+      profitability: 50,
+      cash: 50,
+      balance: 50,
+      valuation: 50,
+    };
   }
 
   const growth = percentileRank(growthValues, entry.revenueGrowthTtm ?? 0);
-  const profitability = percentileRank(marginValues, entry.operatingMargin ?? 0);
+  const profitability = percentileRank(
+    marginValues,
+    entry.operatingMargin ?? 0,
+  );
   const valuation = average([
-    percentileRank(evValues.map((value) => -value), -(entry.evEbitda ?? 0)),
-    percentileRank(peValues.map((value) => -value), -(entry.pe ?? 0)),
+    percentileRank(
+      evValues.map((value) => -value),
+      -(entry.evEbitda ?? 0),
+    ),
+    percentileRank(
+      peValues.map((value) => -value),
+      -(entry.pe ?? 0),
+    ),
   ]);
 
   return {
@@ -87,14 +104,20 @@ export function buildFactorScores(
   };
 }
 
-/** Richer factor scores using the full processed dataset (all 229 names). */
+/** Richer factor scores using the full processed dataset (all 500 names). */
 export function buildFullFactorScores(
   companies: TickerData[],
   ticker: string,
 ): FactorScores {
   const target = companies.find((company) => company.ticker === ticker);
   if (!target) {
-    return { growth: 50, profitability: 50, cash: 50, balance: 50, valuation: 50 };
+    return {
+      growth: 50,
+      profitability: 50,
+      cash: 50,
+      balance: 50,
+      valuation: 50,
+    };
   }
 
   const growthValues = companies
@@ -106,7 +129,9 @@ export function buildFullFactorScores(
   const marginValues = companies
     .map((company) => company.metrics.operatingMargin)
     .filter(finite);
-  const roicValues = companies.map((company) => company.metrics.roic).filter(finite);
+  const roicValues = companies
+    .map((company) => company.metrics.roic)
+    .filter(finite);
   const fcfValues = companies
     .map((company) => company.metrics.fcfMargin)
     .filter(finite);
@@ -116,7 +141,9 @@ export function buildFullFactorScores(
   const evValues = companies
     .map((company) => company.metrics.evEbitda)
     .filter(finite);
-  const peValues = companies.map((company) => company.metrics.pe).filter(finite);
+  const peValues = companies
+    .map((company) => company.metrics.pe)
+    .filter(finite);
 
   const metrics = target.metrics;
   const growth = average([
@@ -133,8 +160,14 @@ export function buildFullFactorScores(
     -(metrics.netDebtToEbitda ?? 0),
   );
   const valuation = average([
-    percentileRank(evValues.map((value) => -value), -(metrics.evEbitda ?? 0)),
-    percentileRank(peValues.map((value) => -value), -(metrics.pe ?? 0)),
+    percentileRank(
+      evValues.map((value) => -value),
+      -(metrics.evEbitda ?? 0),
+    ),
+    percentileRank(
+      peValues.map((value) => -value),
+      -(metrics.pe ?? 0),
+    ),
   ]);
 
   return { growth, profitability, cash, balance, valuation };
@@ -153,7 +186,9 @@ export function computeCagr(annual: FinancialRow[]): number | null {
 }
 
 export function latestQuarterYoY(data: TickerData): number | null {
-  const quarters = data.quarterly.filter((row) => !row.ttm && finite(row.revenue));
+  const quarters = data.quarterly.filter(
+    (row) => !row.ttm && finite(row.revenue),
+  );
   const latest = quarters[quarters.length - 1];
   if (!latest) return null;
   const prior = quarters.find(
@@ -163,14 +198,21 @@ export function latestQuarterYoY(data: TickerData): number | null {
   return latest.revenue / prior.revenue - 1;
 }
 
-export function quarterlyRevenueSeries(data: TickerData, limit = 10): ChartPoint[] {
-  const quarters = data.quarterly.filter((row) => !row.ttm && finite(row.revenue));
+export function quarterlyRevenueSeries(
+  data: TickerData,
+  limit = 10,
+): ChartPoint[] {
+  const quarters = data.quarterly.filter(
+    (row) => !row.ttm && finite(row.revenue),
+  );
   return quarters.slice(-limit).map((row) => {
     const prior = quarters.find(
       (item) => item.period === row.period && item.fyear === row.fyear - 1,
     );
     const yoy =
-      prior && prior.revenue && row.revenue ? row.revenue / prior.revenue - 1 : null;
+      prior && prior.revenue && row.revenue
+        ? row.revenue / prior.revenue - 1
+        : null;
     return {
       label: `${row.period} FY${String(row.fyear).slice(-2)}`,
       value: row.revenue,
@@ -235,7 +277,11 @@ export function priceSeries(points: RangePricePoint[]): PriceSeriesPoint[] {
     .map((point) => ({ time: point.t, value: point.c }));
 }
 
-export function sparklinePoints(points: RangePricePoint[], width = 120, height = 36): string {
+export function sparklinePoints(
+  points: RangePricePoint[],
+  width = 120,
+  height = 36,
+): string {
   const series = priceSeries(points);
   if (series.length < 2) return "";
   const values = series.map((point) => point.value);
@@ -256,7 +302,8 @@ export function rangePosition(
   low: number | null,
   high: number | null,
 ): number | null {
-  if (!finite(price) || !finite(low) || !finite(high) || high <= low) return null;
+  if (!finite(price) || !finite(low) || !finite(high) || high <= low)
+    return null;
   return Math.min(1, Math.max(0, (price - low) / (high - low)));
 }
 
@@ -289,18 +336,24 @@ export function realizedVolatility(points: RangePricePoint[]): number | null {
 
 export function consensusTotal(consensus: Consensus): number {
   if (!consensus.distribution) return 0;
-  return Object.values(consensus.distribution).reduce((sum, value) => sum + value, 0);
+  return Object.values(consensus.distribution).reduce(
+    (sum, value) => sum + value,
+    0,
+  );
 }
 
 export function consensusImpliedMove(
   consensus: Consensus,
   price: number | null,
 ): number | null {
-  if (!finite(consensus.targetMean) || !finite(price) || price === 0) return null;
+  if (!finite(consensus.targetMean) || !finite(price) || price === 0)
+    return null;
   return consensus.targetMean / price - 1;
 }
 
-export function segmentConcentration(segments: SegmentMix["segments"]): number | null {
+export function segmentConcentration(
+  segments: SegmentMix["segments"],
+): number | null {
   if (!segments.length) return null;
   return segments.reduce((sum, slice) => sum + slice.share ** 2, 0);
 }

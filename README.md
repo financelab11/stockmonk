@@ -5,7 +5,7 @@ production-style Next.js PWA that explains how a business makes money, charts th
 reported financials, and shows attributed analyst consensus — with **no buy /
 sell / hold ratings and no Stockmonk price targets**.
 
-- **229 US-listed companies** with a hand-written ten-section research report
+- **500 US-listed companies** with a hand-written ten-section research report
   and a matching row in the five-factor screener.
 - Ten sourced article sections, a chart in every analytical section, peer
   comparison, consensus and risk sections.
@@ -60,7 +60,7 @@ set to the reproducible floor measured on this host.
 | `/screener`                                                              | Five-factor research screener with four-factor columns and filters |
 | `/framework`                                                             | Methodology, formulas, peer/valuation approach                     |
 | `/framework/scores`                                                      | Four-factor score methodology and worked examples                  |
-| `/stocks/[ticker]`                                                       | Ten-section research report for all 229 US coverage names          |
+| `/stocks/[ticker]`                                                       | Ten-section research report for all 500 US coverage names          |
 | `/stocks/[ticker]/scores`                                                | Per-company score audit trail with every input and source          |
 | `/watchlist`                                                             | Local-first watchlist backed by `localStorage`                     |
 | `/about`, `/privacy`, `/terms`, `/editorial-guidelines`, `/data-sources` | Editorial and legal pages                                          |
@@ -176,7 +176,7 @@ composite is the weighted factor average, re-normalised for available factors
 and requires at least three of them. Missing parameters render as n/a; they are
 not filled with estimates. Score bands are descriptive, not ratings.
 
-The screener covers exactly the 229 research names. It is rebuilt from
+The screener covers exactly the 500 research names. It is rebuilt from
 `data/processed` on every data refresh; there is no bulk or expanded universe
 feed, so every row shares the same fundamentals and price snapshot.
 

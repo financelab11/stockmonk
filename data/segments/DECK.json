@@ -1,0 +1,40 @@
+{
+  "ticker": "DECK",
+  "asOf": "2026-03-31",
+  "source": {
+    "name": "DECKERS OUTDOOR CORP Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/910521/000162828026037664/deck-20260331.htm",
+    "date": "2026-05-22"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "UGG Brand",
+      "revenue": 2738758000,
+      "share": 0.5004769478843981
+    },
+    {
+      "name": "Hoka Brand",
+      "revenue": 2587330000,
+      "share": 0.47280519913396496
+    },
+    {
+      "name": "Other Brands",
+      "revenue": 146208000,
+      "share": 0.02671785298163696
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 3191518000,
+      "share": 0.5832137004284856
+    },
+    {
+      "name": "Non-US",
+      "revenue": 2280778000,
+      "share": 0.4167862995715144
+    }
+  ]
+}

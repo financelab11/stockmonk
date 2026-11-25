@@ -1,0 +1,30 @@
+{
+  "ticker": "DBX",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Dropbox, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1467623/000146762326000008/dbx-20251231.htm",
+    "date": "2026-02-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 2521000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1421400000,
+      "share": 0.5638238794129313
+    },
+    {
+      "name": "Non-US",
+      "revenue": 1099600000,
+      "share": 0.4361761205870686
+    }
+  ]
+}

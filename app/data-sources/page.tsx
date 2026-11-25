@@ -49,7 +49,7 @@ export default function DataSourcesPage() {
               </td>
               <td>
                 Income statement, balance sheet and cash flow from XBRL company
-                facts for all 229 US companies. Foreign private issuers use the
+                facts for all 500 US companies. Foreign private issuers use the
                 IFRS taxonomy, converted to USD at the period-end exchange rate.
               </td>
             </tr>
@@ -118,7 +118,7 @@ export default function DataSourcesPage() {
       <h2 id="refresh">Refresh process</h2>
       <p>The pipeline is idempotent and runs at build time or on a schedule:</p>
       <pre className="overflow-x-auto rounded-xl border border-line bg-paper-deep p-3 text-[11px] leading-relaxed text-ink-soft">
-        {`pnpm ingest:edgar        # SEC XBRL statements for the 229 research names
+        {`pnpm ingest:edgar        # SEC XBRL statements for the 500 research names
 pnpm ingest:fundamentals # Yahoo prices, market data and company profiles
 pnpm ingest:consensus    # Yahoo / Nasdaq consensus snapshots
 pnpm ingest:segments     # 10-K segment and geography mixes
@@ -177,7 +177,7 @@ pnpm build:data          # stocks.json + search-index.json`}
         <li>
           <strong>Delisted names.</strong> A few acquired companies no longer
           have a live Yahoo quote. Their last available price series is kept and
-          clearly dated rather than dropped from the 229-name library.
+          clearly dated rather than dropped from the 500-name library.
         </li>
       </ul>
 

@@ -1,0 +1,55 @@
+{
+  "ticker": "ALB",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ALBEMARLE CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000018/alb-20251231.htm",
+    "date": "2026-02-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Energy Storage",
+      "revenue": 2710035000,
+      "share": 0.5269639703247281
+    },
+    {
+      "name": "Specialties",
+      "revenue": 1366435000,
+      "share": 0.2657021081981118
+    },
+    {
+      "name": "Ketjen",
+      "revenue": 1066263000,
+      "share": 0.2073339214771601
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "China",
+      "revenue": 2026293000,
+      "share": 0.39401092765267026
+    },
+    {
+      "name": "Other Foreign Countries",
+      "revenue": 1076764000,
+      "share": 0.2093758318777195
+    },
+    {
+      "name": "United States",
+      "revenue": 890498000,
+      "share": 0.17315656869606103
+    },
+    {
+      "name": "KR",
+      "revenue": 789547000,
+      "share": 0.15352673374254505
+    },
+    {
+      "name": "Japan",
+      "revenue": 359631000,
+      "share": 0.06992993803100414
+    }
+  ]
+}

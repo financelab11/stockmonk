@@ -13,7 +13,11 @@ import fs from "node:fs";
 import path from "node:path";
 import type { StoryFreshnessManifest } from "../lib/story-freshness";
 
-type UniverseEntry = { ticker: string; asOf?: string | null };
+type UniverseEntry = {
+  ticker: string;
+  asOf?: string | null;
+  archived?: boolean;
+};
 
 const MARKETS = [
   {
@@ -49,7 +53,8 @@ const failures: string[] = [];
 
 for (const market of MARKETS) {
   const entries = readJson<UniverseEntry[]>(market.stocks) ?? [];
-  const dates = entries
+  const activeEntries = entries.filter((entry) => !entry.archived);
+  const dates = activeEntries
     .map((entry) => entry.asOf?.slice(0, 10))
     .filter((value): value is string => Boolean(value))
     .sort();
@@ -63,7 +68,7 @@ for (const market of MARKETS) {
   const median = dates[Math.floor(dates.length / 2)];
   const fresh = dates.filter((date) => daysBetween(date, today) <= 7).length;
   console.log(
-    `${market.code}: ${entries.length} names · prices ${oldest} → ${newest} (median ${median}) · ${fresh}/${entries.length} within 7 days · newest age ${daysBetween(newest, today)}d`,
+    `${market.code}: ${activeEntries.length} active names (${entries.length - activeEntries.length} archived) · prices ${oldest} → ${newest} (median ${median}) · ${fresh}/${activeEntries.length} within 7 days · newest age ${daysBetween(newest, today)}d`,
   );
   if (daysBetween(newest, today) > 3) {
     failures.push(`${market.code}: newest price is older than 3 days`);
@@ -113,7 +118,7 @@ if (!manifest) {
 } else {
   const age = daysBetween(manifest.generatedAt.slice(0, 10), today);
   console.log(
-    `[freshness] stories ${manifest.total} · current ${manifest.counts.current} · rewrite-pending ${manifest.counts["rewrite-pending"]} · data-stale ${manifest.counts["data-stale"]} · source-gap ${manifest.counts["source-gap"]} · manifest age ${age}d`,
+    `[freshness] stories ${manifest.total} · current ${manifest.counts.current} · rewrite-pending ${manifest.counts["rewrite-pending"]} · data-stale ${manifest.counts["data-stale"]} · source-gap ${manifest.counts["source-gap"]} · archived ${manifest.counts.archived} · manifest age ${age}d`,
   );
   if (age > 1) {
     failures.push("story manifest is older than 1 day");

@@ -1,0 +1,34 @@
+{
+  "ticker": "EW",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "EDWARDS LIFESCIENCES CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1099800/000109980026000009/ew-20251231.htm",
+    "date": "2026-02-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "United States",
+      "revenue": 3543100000,
+      "share": 0.5839376359680928
+    },
+    {
+      "name": "Europe",
+      "revenue": 1517500000,
+      "share": 0.2500988858856879
+    },
+    {
+      "name": "Rest Of World",
+      "revenue": 652300000,
+      "share": 0.10750543872371283
+    },
+    {
+      "name": "Japan",
+      "revenue": 354700000,
+      "share": 0.05845803942250643
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

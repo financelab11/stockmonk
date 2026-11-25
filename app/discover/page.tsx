@@ -24,7 +24,7 @@ import { breadcrumbJsonLd } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Discover companies",
   description:
-    "Explore 229 US-listed companies through structured financial research: growth, profitability, cash generation, valuation and sourced fundamentals.",
+    "Explore 500 US-listed companies through structured financial research: growth, profitability, cash generation, valuation and sourced fundamentals.",
   alternates: { canonical: "/discover" },
   openGraph: {
     title: "Discover companies · Stockmonk",

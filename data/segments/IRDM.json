@@ -1,0 +1,35 @@
+{
+  "ticker": "IRDM",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Iridium Communications Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000009/irdm-20251231.htm",
+    "date": "2026-02-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 871659000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 479039000,
+      "share": 0.5495715641093593
+    },
+    {
+      "name": "Non-US",
+      "revenue": 308506000,
+      "share": 0.35392969039498245
+    },
+    {
+      "name": "CA",
+      "revenue": 84114000,
+      "share": 0.09649874549565828
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "ticker": "AAON",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/AAON/analysis",
   "targetMean": 117.5,
   "targetHigh": 140,

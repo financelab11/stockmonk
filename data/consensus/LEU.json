@@ -1,9 +1,9 @@
 {
   "ticker": "LEU",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/LEU/analysis",
-  "targetMean": 180.25,
+  "targetMean": 177.9,
   "targetHigh": 300,
   "targetLow": 100,
   "recommendationKey": "buy",
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 169253320,
-      "revenueGrowth": 0.1577,
+      "revenueAvg": 169600550,
+      "revenueGrowth": 0.1601,
       "epsAvg": 1.49243,
       "epsGrowth": 0.8892,
       "analystCount": 7
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 476175480,
-      "revenueGrowth": 0.0612,
+      "revenueAvg": 476647700,
+      "revenueGrowth": 0.0623,
       "epsAvg": 3.38075,
       "epsGrowth": 0.0037,
       "analystCount": 7
@@ -47,7 +47,7 @@
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 511310600,
-      "revenueGrowth": 0.0738,
+      "revenueGrowth": 0.0727,
       "epsAvg": 4.42339,
       "epsGrowth": 0.3084,
       "analystCount": 5
@@ -89,8 +89,8 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 169253320,
-    "revenueGrowth": 0.1577,
+    "revenueAvg": 169600550,
+    "revenueGrowth": 0.1601,
     "epsAvg": 1.49243,
     "epsGrowth": 0.8892,
     "analystCount": 7

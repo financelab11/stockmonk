@@ -1,0 +1,35 @@
+{
+  "ticker": "INCY",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "INCYTE CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/879169/000087916926000010/incy-20251231.htm",
+    "date": "2026-02-10"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 5141242000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 4799941000,
+      "share": 0.9336150681100014
+    },
+    {
+      "name": "Europe",
+      "revenue": 323734000,
+      "share": 0.0629680532447218
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 17567000,
+      "share": 0.003416878645276764
+    }
+  ]
+}

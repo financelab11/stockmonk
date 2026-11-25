@@ -1,10 +1,10 @@
 {
   "ticker": "CRDO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/CRDO/analysis",
-  "targetMean": 274.30853,
-  "targetHigh": 315,
+  "targetMean": 269.04538,
+  "targetHigh": 310,
   "targetLow": 175,
   "recommendationKey": "strong_buy",
   "analystCount": 19,
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2028-04-30",
-      "revenueAvg": 3879571640,
-      "revenueGrowth": 0.5499,
-      "epsAvg": 9.71213,
-      "epsGrowth": 0.5393,
+      "revenueAvg": 3879308480,
+      "revenueGrowth": 0.5498,
+      "epsAvg": 9.71163,
+      "epsGrowth": 0.5392,
       "analystCount": 20
     }
   ],
@@ -97,7 +97,7 @@
   },
   "revisions": {
     "eps7d": 0,
-    "eps30d": 0.00047571174405436345,
+    "eps30d": 0,
     "eps60d": 0.00047571174405436345,
     "eps90d": 0.02570880478605786,
     "revenue30d": null

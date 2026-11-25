@@ -1,0 +1,35 @@
+{
+  "ticker": "GDYN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Grid Dynamics Holdings, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1743725/000174372526000007/gdyn-20251231.htm",
+    "date": "2026-03-05"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 411827000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 289351000,
+      "share": 0.7026032775898617
+    },
+    {
+      "name": "Europe",
+      "revenue": 86425000,
+      "share": 0.20985753726686204
+    },
+    {
+      "name": "Other Geographic Regions Not Individually Disclosed",
+      "revenue": 36051000,
+      "share": 0.08753918514327619
+    }
+  ]
+}

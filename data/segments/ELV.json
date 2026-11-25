@@ -1,0 +1,24 @@
+{
+  "ticker": "ELV",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Elevance Health, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000013/elv-20251231.htm",
+    "date": "2026-02-06"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable Segments",
+      "revenue": 199125000000,
+      "share": 1
+    },
+    {
+      "name": "Carelon Services",
+      "revenue": 826000000,
+      "share": 0.004148148148148148
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

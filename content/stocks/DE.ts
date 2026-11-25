@@ -4,10 +4,10 @@ export const DE: StockStory = {
   "ticker": "DE",
   "kicker": "Industrials · Agricultural machinery",
   "title": "Deere's multiple is doing the heavy lifting while volumes fall",
-  "dek": "Revenue peaked at $61.25B in FY2023 and the consensus expects $41.12B this year. At 37.2x earnings, the price is not being paid for the machinery cycle.",
+  "dek": "Revenue peaked at $61.25B in FY2023 and the consensus expects $44.73B this year. At 35.2x earnings, the price is not being paid for the machinery cycle.",
   "readingMinutes": 9,
   "takeaways": [
-    "Q3 FY26 revenue was $12.6B with a 14.9% operating margin, and consensus puts the current fiscal year at $41.1B, down from $61.3B in FY2023.",
+    "Q3 FY26 revenue was $12.6B with a 14.9% operating margin, and consensus puts the current fiscal year at $44.7B, down from $61.3B in FY2023.",
     "Trailing free cash flow of $6.0B is 12.5% of revenue, held up by inventory release rather than by equipment demand.",
     "At {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA, the shares cost more than Caterpillar at 21.2x and 14.3x despite a 13.4% operating margin against CAT's 18.8%.",
     "Precision agriculture and parts are the recurring layer, but neither has yet offset the 15.6% and 11.7% revenue declines of FY2024 and FY2025."
@@ -18,7 +18,7 @@ export const DE: StockStory = {
     "paragraphs": [
       "Deere's third fiscal quarter, ended 2 August 2026, produced $12.6B of revenue, a 14.9% operating margin and $5.10 of diluted EPS. Revenue was up from $12.0B a year earlier, but the margin was 13.3% then, so the improvement is modest against a farm economy that has not recovered. The quarter matters because it comes after a first quarter at an 8.7% operating margin, when seasonal volume and a fixed factory base collided. The numbers show a business stabilising at a lower level, not one returning to the FY2023 peak.",
       "The shape of the cycle is set by farm cash receipts and used-equipment values, not by Deere's order book alone. Large tractors and combines are bought when the previous harvest has paid for them, and a trade-in is part of the transaction. When used values fall, the dealer absorbs a loss and the net cost of a new machine rises even if the list price is unchanged. That is why revenue fell 15.6% in FY2024 and 11.7% in FY2025 while the installed fleet kept working.",
-      "The valuation is the argument. The shares change hands at {{price}}, which values Deere at {{marketCap}} and {{pe}} trailing earnings, or {{evEbitda}} EV/EBITDA against peer medians of 29.6x and 19.3x. On the FY2027 consensus EPS of $22.89 the multiple falls to about 28x, still a premium to Caterpillar at 21.2x. The price therefore assumes both a volume recovery and a mix shift toward precision agriculture. Capital returns are modest at a 1.1% yield, so the return depends on the multiple holding while earnings recover."
+      "The valuation is the argument. The shares change hands at {{price}}, which values Deere at {{marketCap}} and {{pe}} trailing earnings, or {{evEbitda}} EV/EBITDA against peer medians of 29.6x and 19.3x. On the FY2027 consensus EPS of $28.64 the multiple falls to about 22x, just above Caterpillar at 21.2x. The price therefore assumes both a volume recovery and a mix shift toward precision agriculture. Capital returns are modest at a 1.1% yield, so the return depends on the multiple holding while earnings recover."
     ],
     "quote": "A farmer replaces a combine when the harvest pays for it, so Deere's premium multiple is a bet on farm income as much as on precision software."
   },
@@ -38,7 +38,7 @@ export const DE: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "The consensus path is a rebound: $41.1B of revenue and $18.11 of EPS this fiscal year, then $44.7B and $22.89 in FY2027, a 26.4% EPS increase. That second year is doing most of the work. It requires North American large agriculture to bottom and the construction and forestry business to hold, because Small Agriculture and Turf, at 22.9% of FY2025 revenue, behaves like consumer durables and cannot carry the group. The first quarter's 8.7% margin shows how little volume leverage is available before the spring selling season.",
+      "The consensus path is a rebound: $44.7B of revenue and $22.90 of EPS this fiscal year, then $48.4B and $28.64 in FY2027, a 25.1% EPS increase. That second year is doing most of the work. It requires North American large agriculture to bottom and the construction and forestry business to hold, because Small Agriculture and Turf, at 22.9% of FY2025 revenue, behaves like consumer durables and cannot carry the group. The first quarter's 8.7% margin shows how little volume leverage is available before the spring selling season.",
       "Mix is the quieter driver. Production and Precision Agriculture was 38.9% of FY2025 revenue, and within it the precision packages, guidance and telematics lift revenue per machine and add a subscription tail. Parts and service are the counter-cyclical layer; the installed fleet needs filters, belts and hydraulics whether or not a new combine is sold. Neither line is disclosed separately, so the evidence for mix shift has to come from segment margin rather than from a reported attach rate."
     ],
     "bullets": [
@@ -85,14 +85,14 @@ export const DE: StockStory = {
   "valuation": {
     "paragraphs": [
       "The shares change hands at {{price}}, which values Deere at {{marketCap}}, or {{pe}} trailing earnings and {{evEbitda}} EV/EBITDA. The peer medians are 29.6x and 19.3x, so the premium is about 5.5 turns on earnings and one on EBITDA. P/FCF is {{pfcf}} and the free-cash-flow yield is {{fcfYield}}. The earnings multiple is measured on a trough: FY2025 EPS was $18.50, down from $34.63 in FY2023.",
-      "On the FY2027 estimate of $22.89 the multiple is roughly 28x, still above Caterpillar's 21.2x. That is the crux. Caterpillar earned an 18.8% operating margin and a 52.6% return on invested capital on $77.8B of revenue; Deere earned 13.4% and 10.7% on $48.0B. A premium for the dealer network and precision stack is defensible, but it has to survive a year in which EPS is expected to fall 2.1%.",
+      "On the FY2027 estimate of $28.64 the multiple is roughly 22x, just above Caterpillar's 21.2x. That is the crux. Caterpillar earned an 18.8% operating margin and a 52.6% return on invested capital on $77.8B of revenue; Deere earned 13.4% and 10.7% on $48.0B. A premium for the dealer network and precision stack is defensible, but it has to survive a year in which EPS is expected to rise 23.8%.",
       "What would break the multiple is a delayed recovery rather than a weaker franchise. If FY2027 EPS arrives at the FY2025 level, the shares would trade at 34x and the EV/EBITDA would stay above 20x with no volume growth. What would justify it is evidence that precision-agriculture revenue and parts grow through the downturn, which the segment disclosure does not yet isolate. That is the test for the next two quarters, and the burden of proof sits with the quarterly segment revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "The Yahoo Finance consensus, dated 18 November 2026, covers 23 analysts with a mean target of $694 and a range of $500 to $813. The mean is about 9% above the current price, but the low end is 21% below it, so the average conceals a real split about the timing of the farm cycle.",
-      "Estimates have been stable rather than rising: the 90-day EPS revision is 0.0%, and the current-year figure of $18.11 is 2.1% below FY2025. The consensus therefore assumes the recovery starts in FY2027, with revenue of $44.7B and EPS of $22.89. Four consecutive quarterly beats, including $5.10 against $4.71 in Q3 FY26, suggest the near-term bar is low; the FY2027 bar is not."
+      "The Yahoo Finance consensus, dated 25 November 2026, covers 22 analysts with a mean target of $691.37 and a range of $500 to $813.18. The mean is about 9% above the current price, but the low end is 21% below it, so the average conceals a real split about the timing of the farm cycle.",
+      "Estimates have been stable rather than rising: the 90-day EPS revision is 2.0%, and the current-year figure of $22.90 is 23.8% above FY2025. The consensus therefore assumes the recovery continues in FY2027, with revenue of $48.4B and EPS of $28.64. Four consecutive quarterly beats, including $5.10 against $4.71 in Q3 FY26, suggest the near-term bar is low; the FY2027 bar is not."
     ]
   },
   "risks": {
@@ -148,7 +148,7 @@ export const DE: StockStory = {
     "paragraphs": [
       "Deere is the strongest franchise in agricultural equipment. The dealer network, the installed base and the precision-agriculture stack give it pricing power that most capital-goods companies do not have, and the business has earned a premium multiple for years because of it.",
       "The current numbers describe a downcycle, not a growth story. Revenue is $47.98B on a trailing basis, down from $61.25B in FY2023, and the consensus expects $41.12B this year. Operating income has fallen from $13.02B at the peak to $6.26B in FY2025. Free cash flow has held up because inventory is being released, which is a sign of discipline rather than of demand.",
-      "The valuation is the open question. At 37.2x earnings and 26.7x EV/EBITDA, the shares already assume the cycle turns and that precision agriculture keeps lifting the mix. If the turn is delayed, the multiple has to adjust. The reader should decide whether the premium is for the franchise or for a recovery that has not yet appeared in the orders."
+      "The valuation is the open question. At 35.2x earnings and 20.4x EV/EBITDA, the shares already assume the cycle turns and that precision agriculture keeps lifting the mix. If the turn is delayed, the multiple has to adjust. The reader should decide whether the premium is for the franchise or for a recovery that has not yet appeared in the orders."
     ],
     "questions": [
       "How much of the trailing revenue decline is volume rather than price?",
@@ -158,5 +158,5 @@ export const DE: StockStory = {
     ]
   },
   "narrativeSource": "curated",
-  "narrativeUpdatedAt": "2026-11-24"
+  "narrativeUpdatedAt": "2026-11-25"
 };

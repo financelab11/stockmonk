@@ -1,0 +1,40 @@
+{
+  "ticker": "JBL",
+  "asOf": "2026-08-31",
+  "source": {
+    "name": "JABIL INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/898293/000162828026067038/jbl-20260831.htm",
+    "date": "2026-10-23"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Intelligent Infrastructure",
+      "revenue": 17872000000,
+      "share": 0.49707960171330035
+    },
+    {
+      "name": "Regulated Industries",
+      "revenue": 12694000000,
+      "share": 0.3530622462034822
+    },
+    {
+      "name": "Connected Living & Digital Commerce",
+      "revenue": 5388000000,
+      "share": 0.14985815208321746
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 26280000000,
+      "share": 0.7309339711854036
+    },
+    {
+      "name": "United States",
+      "revenue": 9674000000,
+      "share": 0.2690660288145964
+    }
+  ]
+}

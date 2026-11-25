@@ -1,0 +1,35 @@
+{
+  "ticker": "EL",
+  "asOf": "2026-06-30",
+  "source": {
+    "name": "Estee Lauder Companies Inc Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000041/el-20260630.htm",
+    "date": "2026-08-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 15049000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Other Countries",
+      "revenue": 7370000000,
+      "share": 0.4897335371121005
+    },
+    {
+      "name": "China",
+      "revenue": 3930000000,
+      "share": 0.2611469200611336
+    },
+    {
+      "name": "United States",
+      "revenue": 3749000000,
+      "share": 0.2491195428267659
+    }
+  ]
+}

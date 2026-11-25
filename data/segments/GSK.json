@@ -1,0 +1,19 @@
+{
+  "ticker": "GSK",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "GSK plc Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1131399/000113139926000004/gsk-20251231.htm",
+    "date": "2026-03-06"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 43993293806,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

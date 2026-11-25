@@ -1,0 +1,24 @@
+{
+  "ticker": "HBAN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Huntington Bancshares Incorporated Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000015/hban-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Consumer & Business Banking",
+      "revenue": 1208000000,
+      "share": 0.7733674775928298
+    },
+    {
+      "name": "Commercial Banking",
+      "revenue": 357000000,
+      "share": 0.22855313700384122
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

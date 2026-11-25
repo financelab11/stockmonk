@@ -1,0 +1,45 @@
+{
+  "ticker": "FDS",
+  "asOf": "2026-08-31",
+  "source": {
+    "name": "FACTSET RESEARCH SYSTEMS INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1013237/000162828026066391/fds-20260831.htm",
+    "date": "2026-10-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Americas",
+      "revenue": 1617438000,
+      "share": 0.6531788312678495
+    },
+    {
+      "name": "EMEA",
+      "revenue": 605339000,
+      "share": 0.24445735820529058
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 253479000,
+      "share": 0.1023638105268599
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1516107000,
+      "share": 0.6122577794864505
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 717565000,
+      "share": 0.2897781974076994
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 242584000,
+      "share": 0.09796402310585012
+    }
+  ]
+}

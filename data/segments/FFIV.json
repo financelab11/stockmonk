@@ -1,0 +1,35 @@
+{
+  "ticker": "FFIV",
+  "asOf": "2026-09-30",
+  "source": {
+    "name": "F5, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1048695/000104869526000077/ffiv-20260930.htm",
+    "date": "2026-11-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Single Reportable",
+      "revenue": 3416669000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 1813197000,
+      "share": 0.5306914424546246
+    },
+    {
+      "name": "EMEA",
+      "revenue": 1042114000,
+      "share": 0.3050087673110857
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 561358000,
+      "share": 0.1642997902342896
+    }
+  ]
+}

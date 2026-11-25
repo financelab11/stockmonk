@@ -1,0 +1,35 @@
+{
+  "ticker": "ETSY",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ETSY, INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1370637/000137063726000019/etsy-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 2883501000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1465922000,
+      "share": 0.5083826917348043
+    },
+    {
+      "name": "Non US & United Kingdom",
+      "revenue": 1121420000,
+      "share": 0.3889091767264863
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 296159000,
+      "share": 0.10270813153870936
+    }
+  ]
+}

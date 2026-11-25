@@ -1,0 +1,81 @@
+{
+  "ticker": "CTVA",
+  "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+  "asOf": "2026-11-25",
+  "sourceUrl": "https://finance.yahoo.com/quote/CTVA/analysis",
+  "targetMean": 12.91176,
+  "targetHigh": 16,
+  "targetLow": 10,
+  "recommendationKey": "buy",
+  "analystCount": 17,
+  "distribution": {
+    "strongBuy": 4,
+    "buy": 9,
+    "hold": 5,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 1767904850,
+      "revenueGrowth": null,
+      "epsAvg": 0.03,
+      "epsGrowth": null,
+      "analystCount": 5
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 1878841000,
+      "revenueGrowth": null,
+      "epsAvg": 0.32,
+      "epsGrowth": null,
+      "analystCount": 3
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 7359522440,
+      "revenueGrowth": null,
+      "epsAvg": 1.1508,
+      "epsGrowth": null,
+      "analystCount": 12
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": 7425861750,
+      "revenueGrowth": 0.009,
+      "epsAvg": 0.86362,
+      "epsGrowth": -0.2495,
+      "analystCount": 14
+    }
+  ],
+  "history": [
+    {
+      "quarter": "2026-09-30",
+      "endDate": "2026-09-30",
+      "epsActual": 0.06,
+      "epsEstimate": 0.09571,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 1767904850,
+    "revenueGrowth": null,
+    "epsAvg": 0.03,
+    "epsGrowth": null,
+    "analystCount": 5
+  },
+  "revisions": {
+    "eps7d": 0.07157822204426734,
+    "eps30d": 0.07157822204426734,
+    "eps60d": null,
+    "eps90d": null,
+    "revenue30d": null
+  }
+}

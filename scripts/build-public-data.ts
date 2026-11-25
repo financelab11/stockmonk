@@ -8,6 +8,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { ALL_TICKERS, BENCHMARK_TICKER } from "../config/universe";
 import { tickerDataSchema, universeEntrySchema } from "../lib/schemas";
+import { getArchivedCompany } from "../config/archive";
 
 const ROOT = process.cwd();
 const PROCESSED = path.join(ROOT, "data", "processed");
@@ -78,6 +79,7 @@ async function main() {
           dataQualityScore: quality.score,
           factorChips: data.factorChips,
           asOf: data.latestPrice.asOf,
+          archived: Boolean(getArchivedCompany(data.ticker)),
         }),
       );
     } catch (error) {

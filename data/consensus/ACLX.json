@@ -1,7 +1,7 @@
 {
   "ticker": "ACLX",
   "provider": "Nasdaq analyst consensus",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://www.nasdaq.com/market-activity/stocks/aclx/analyst-research",
   "targetMean": null,
   "targetHigh": null,

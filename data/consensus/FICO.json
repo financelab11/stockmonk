@@ -1,7 +1,7 @@
 {
   "ticker": "FICO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/FICO/analysis",
   "targetMean": 814.9458,
   "targetHigh": 1230.97,
@@ -21,8 +21,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 609567690,
       "revenueGrowth": 0.1907,
-      "epsAvg": 9.55583,
-      "epsGrowth": 0.3037,
+      "epsAvg": 9.58986,
+      "epsGrowth": 0.3083,
       "analystCount": 17
     },
     {
@@ -30,8 +30,8 @@
       "endDate": "2027-03-31",
       "revenueAvg": 661669090,
       "revenueGrowth": -0.0434,
-      "epsAvg": 11.73623,
-      "epsGrowth": -0.061100002,
+      "epsAvg": 11.77146,
+      "epsGrowth": -0.0583,
       "analystCount": 16
     },
     {
@@ -39,7 +39,7 @@
       "endDate": "2027-09-30",
       "revenueAvg": 2590613320,
       "revenueGrowth": 0.022,
-      "epsAvg": 44.35849,
+      "epsAvg": 44.35852,
       "epsGrowth": 0.0318,
       "analystCount": 20
     },
@@ -48,8 +48,8 @@
       "endDate": "2028-09-30",
       "revenueAvg": 2758236040,
       "revenueGrowth": 0.0647,
-      "epsAvg": 50.9478,
-      "epsGrowth": 0.14850001,
+      "epsAvg": 50.94805,
+      "epsGrowth": 0.1486,
       "analystCount": 17
     }
   ],
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 609567690,
     "revenueGrowth": 0.1907,
-    "epsAvg": 9.55583,
-    "epsGrowth": 0.3037,
+    "epsAvg": 9.58986,
+    "epsGrowth": 0.3083,
     "analystCount": 17
   },
   "revisions": {
-    "eps7d": -0.0018665011754793737,
-    "eps30d": -0.09733468615643581,
-    "eps60d": -0.16319766713601624,
-    "eps90d": -0.1636708182258848,
+    "eps7d": -0.0018658261298464263,
+    "eps30d": -0.0973340756766965,
+    "eps60d": -0.16319710119993547,
+    "eps90d": -0.1650646578862519,
     "revenue30d": null
   }
 }

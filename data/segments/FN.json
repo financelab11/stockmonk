@@ -1,0 +1,35 @@
+{
+  "ticker": "FN",
+  "asOf": "2026-06-26",
+  "source": {
+    "name": "FABRINET Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000028/fn-20260626.htm",
+    "date": "2026-08-18"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 4641097000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Asia Pacific",
+      "revenue": 3427479000,
+      "share": 0.7385062195424917
+    },
+    {
+      "name": "North America",
+      "revenue": 1054245000,
+      "share": 0.2271542697771669
+    },
+    {
+      "name": "Europe",
+      "revenue": 159373000,
+      "share": 0.03433951068034131
+    }
+  ]
+}

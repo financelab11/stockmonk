@@ -1,0 +1,40 @@
+{
+  "ticker": "MSCI",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "MSCI INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1408198/000140819826000011/msci-20251231.htm",
+    "date": "2026-02-06"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable Segment Aggregation Before Other Operating",
+      "revenue": 2855120000,
+      "share": 0.9108812716963278
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 279339000,
+      "share": 0.08911872830367218
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 1408108000,
+      "share": 0.44923478022842217
+    },
+    {
+      "name": "EMEA",
+      "revenue": 1241979000,
+      "share": 0.3962339274496811
+    },
+    {
+      "name": "Asia & Australia",
+      "revenue": 484372000,
+      "share": 0.1545312923218967
+    }
+  ]
+}

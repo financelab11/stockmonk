@@ -1,0 +1,65 @@
+{
+  "ticker": "NXPI",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "NXP Semiconductors N.V. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000008/nxpi-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 12269000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 3221000000,
+      "share": 0.2625315836661505
+    },
+    {
+      "name": "Germany",
+      "revenue": 2369000000,
+      "share": 0.19308827125275083
+    },
+    {
+      "name": "China",
+      "revenue": 2036000000,
+      "share": 0.16594669492216155
+    },
+    {
+      "name": "Japan",
+      "revenue": 1059000000,
+      "share": 0.08631510310538756
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 1024000000,
+      "share": 0.08346238487244274
+    },
+    {
+      "name": "KR",
+      "revenue": 889000000,
+      "share": 0.07245904311679843
+    },
+    {
+      "name": "Taiwan",
+      "revenue": 874000000,
+      "share": 0.07123644958839351
+    },
+    {
+      "name": "Singapore",
+      "revenue": 714000000,
+      "share": 0.05819545195207433
+    },
+    {
+      "name": "NL",
+      "revenue": 83000000,
+      "share": 0.006765017523840574
+    }
+  ]
+}

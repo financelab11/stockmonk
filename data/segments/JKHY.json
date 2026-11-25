@@ -1,0 +1,34 @@
+{
+  "ticker": "JKHY",
+  "asOf": "2026-06-30",
+  "source": {
+    "name": "JACK HENRY & ASSOCIATES, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000067/jkhy-20260630.htm",
+    "date": "2026-08-28"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Payments",
+      "revenue": 936006000,
+      "share": 0.3678778653316244
+    },
+    {
+      "name": "Core",
+      "revenue": 768452000,
+      "share": 0.3020242192569465
+    },
+    {
+      "name": "Complementary",
+      "revenue": 752214000,
+      "share": 0.2956422080548229
+    },
+    {
+      "name": "Corporate Services",
+      "revenue": 87667000,
+      "share": 0.03445570735660618
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

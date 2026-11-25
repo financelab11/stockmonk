@@ -1,9 +1,9 @@
 {
   "ticker": "SO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/SO/analysis",
-  "targetMean": 96.925,
+  "targetMean": 97.175,
   "targetHigh": 115,
   "targetLow": 74,
   "recommendationKey": "hold",
@@ -19,10 +19,10 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 6956884350,
-      "revenueGrowth": -0.0034999999,
-      "epsAvg": 0.38965,
-      "epsGrowth": -0.2915,
+      "revenueAvg": 6954009350,
+      "revenueGrowth": -0.0039,
+      "epsAvg": 0.37965,
+      "epsGrowth": -0.30969998,
       "analystCount": 12
     },
     {
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 31096907880,
-      "revenueGrowth": 0.052199997,
-      "epsAvg": 4.65454,
-      "epsGrowth": 0.0825,
+      "revenueAvg": 31125122170,
+      "revenueGrowth": 0.053200003,
+      "epsAvg": 4.65863,
+      "epsGrowth": 0.0834,
       "analystCount": 22
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 32934735470,
+      "revenueAvg": 32964668800,
       "revenueGrowth": 0.0591,
-      "epsAvg": 4.93875,
-      "epsGrowth": 0.061100002,
+      "epsAvg": 4.9392,
+      "epsGrowth": 0.0602,
       "analystCount": 22
     }
   ],
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 6956884350,
-    "revenueGrowth": -0.0034999999,
-    "epsAvg": 0.38965,
-    "epsGrowth": -0.2915,
+    "revenueAvg": 6954009350,
+    "revenueGrowth": -0.0039,
+    "epsAvg": 0.37965,
+    "epsGrowth": -0.30969998,
     "analystCount": 12
   },
   "revisions": {
-    "eps7d": 0.005382731196080792,
-    "eps30d": 0.013197907664712627,
-    "eps60d": 0.014257666519216228,
-    "eps90d": 0.014573815087364439,
+    "eps7d": 0.0043116178699313945,
+    "eps30d": 0.014127952665916377,
+    "eps60d": 0.015151118955786469,
+    "eps90d": 0.015465333240330503,
     "revenue30d": null
   }
 }

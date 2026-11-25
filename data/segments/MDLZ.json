@@ -1,0 +1,45 @@
+{
+  "ticker": "MDLZ",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Mondelez International, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026005345/mdlz-20251231.htm",
+    "date": "2026-02-04"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Europe",
+      "revenue": 15027000000,
+      "share": 0.38993694371642834
+    },
+    {
+      "name": "North America",
+      "revenue": 10679000000,
+      "share": 0.2771103095726185
+    },
+    {
+      "name": "Asia Middle East & Africa",
+      "revenue": 7932000000,
+      "share": 0.20582816513999533
+    },
+    {
+      "name": "Latin America",
+      "revenue": 4899000000,
+      "share": 0.12712458157095777
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 29194000000,
+      "share": 0.7575576718478345
+    },
+    {
+      "name": "United States",
+      "revenue": 9343000000,
+      "share": 0.24244232815216546
+    }
+  ]
+}

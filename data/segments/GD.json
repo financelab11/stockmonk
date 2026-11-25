@@ -1,0 +1,60 @@
+{
+  "ticker": "GD",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "GENERAL DYNAMICS CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/40533/000004053326000006/gd-20251231.htm",
+    "date": "2026-01-30"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Marine Systems",
+      "revenue": 16723000000,
+      "share": 0.3182302568981922
+    },
+    {
+      "name": "Technologies",
+      "revenue": 13471000000,
+      "share": 0.2563463368220742
+    },
+    {
+      "name": "Aerospace",
+      "revenue": 13110000000,
+      "share": 0.24947668886774502
+    },
+    {
+      "name": "Combat Systems",
+      "revenue": 9246000000,
+      "share": 0.17594671741198858
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 44562000000,
+      "share": 0.8479923882017126
+    },
+    {
+      "name": "Europe",
+      "revenue": 3540000000,
+      "share": 0.06736441484300666
+    },
+    {
+      "name": "Other Africa Middle East",
+      "revenue": 2015000000,
+      "share": 0.03834443387250238
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 2001000000,
+      "share": 0.03807802093244529
+    },
+    {
+      "name": "South America",
+      "revenue": 432000000,
+      "share": 0.008220742150333017
+    }
+  ]
+}

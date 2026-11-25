@@ -1,7 +1,7 @@
 {
   "ticker": "BBIO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/BBIO/analysis",
   "targetMean": 108.7,
   "targetHigh": 156,

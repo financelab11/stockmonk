@@ -187,7 +187,7 @@ const blockingStale = strict
 console.log(
   `narrative dates: ${rows.length - missingNarrativeDate.length}/${rows.length} present; manifest: ${
     manifest
-      ? `${manifest.counts["rewrite-pending"]} rewrite-pending, ${manifest.counts["data-stale"]} data-stale, ${manifest.counts["source-gap"]} source-gap`
+      ? `${manifest.counts["rewrite-pending"]} rewrite-pending, ${manifest.counts["data-stale"]} data-stale, ${manifest.counts["source-gap"]} source-gap, ${manifest.counts.archived} archived`
       : "missing"
   }`,
 );

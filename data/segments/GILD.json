@@ -1,0 +1,35 @@
+{
+  "ticker": "GILD",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "GILEAD SCIENCES, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000006/gild-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 29443000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 20876000000,
+      "share": 0.7090310090683694
+    },
+    {
+      "name": "Europe",
+      "revenue": 5064000000,
+      "share": 0.17199334306966002
+    },
+    {
+      "name": "Rest Of World",
+      "revenue": 3503000000,
+      "share": 0.11897564786197058
+    }
+  ]
+}

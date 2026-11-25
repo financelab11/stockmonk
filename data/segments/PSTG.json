@@ -1,0 +1,30 @@
+{
+  "ticker": "PSTG",
+  "asOf": "2026-02-01",
+  "source": {
+    "name": "Everpure, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000027/pstg-20260201.htm",
+    "date": "2026-03-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 3662843000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 2464546000,
+      "share": 0.6728505698988463
+    },
+    {
+      "name": "Non-US",
+      "revenue": 1198297000,
+      "share": 0.32714943010115366
+    }
+  ]
+}

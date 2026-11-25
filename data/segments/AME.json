@@ -1,0 +1,35 @@
+{
+  "ticker": "AME",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "AMETEK INC/ Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1037868/000103786826000016/ame-20251231.htm",
+    "date": "2026-02-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Electronic Instruments Group",
+      "revenue": 4919100000,
+      "share": 0.6646430078923232
+    },
+    {
+      "name": "Electromechanical Group",
+      "revenue": 2482016000,
+      "share": 0.3353569921076767
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 3830639000,
+      "share": 0.5175758628833814
+    },
+    {
+      "name": "International",
+      "revenue": 3570477000,
+      "share": 0.48242413711661863
+    }
+  ]
+}

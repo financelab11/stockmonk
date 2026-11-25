@@ -1,0 +1,24 @@
+{
+  "ticker": "MET",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "MetLife, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1099219/000109921926000013/met-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "EMEA",
+      "revenue": 3154000000,
+      "share": 1.2947454844006567
+    },
+    {
+      "name": "Met Life Investment Management",
+      "revenue": 938000000,
+      "share": 0.3850574712643678
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

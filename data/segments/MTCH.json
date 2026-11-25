@@ -1,0 +1,45 @@
+{
+  "ticker": "MTCH",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Match Group, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/891103/000089110326000025/mtch-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Tinder",
+      "revenue": 1924711000,
+      "share": 0.5519364119664016
+    },
+    {
+      "name": "Hinge",
+      "revenue": 690872000,
+      "share": 0.19811671092857674
+    },
+    {
+      "name": "Evergreen & Emerging",
+      "revenue": 608093000,
+      "share": 0.17437873455385514
+    },
+    {
+      "name": "MG Asia",
+      "revenue": 268166000,
+      "share": 0.07690015792053044
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 1955292000,
+      "share": 0.5607059193960078
+    },
+    {
+      "name": "United States",
+      "revenue": 1531905000,
+      "share": 0.4392940806039923
+    }
+  ]
+}

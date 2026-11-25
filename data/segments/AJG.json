@@ -1,0 +1,60 @@
+{
+  "ticker": "AJG",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ARTHUR J. GALLAGHER & CO. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/354190/000162828026008662/ajg-20251231.htm",
+    "date": "2026-02-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Brokerage",
+      "revenue": 12192000000,
+      "share": 0.8744799885238846
+    },
+    {
+      "name": "Risk Management",
+      "revenue": 1749000000,
+      "share": 0.12544828575527184
+    },
+    {
+      "name": "Corporate",
+      "revenue": 1000000,
+      "share": 0.00007172572084349448
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 9391000000,
+      "share": 0.6735762444412566
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 2477000000,
+      "share": 0.17766461052933583
+    },
+    {
+      "name": "Other Foreign",
+      "revenue": 886000000,
+      "share": 0.0635489886673361
+    },
+    {
+      "name": "AU",
+      "revenue": 586000000,
+      "share": 0.042031272414287765
+    },
+    {
+      "name": "CA",
+      "revenue": 395000000,
+      "share": 0.028331659733180317
+    },
+    {
+      "name": "NZ",
+      "revenue": 207000000,
+      "share": 0.014847224214603357
+    }
+  ]
+}

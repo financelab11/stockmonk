@@ -77,7 +77,7 @@ test.describe("discover", () => {
 
     await page.getByRole("link", { name: "Clear all" }).click();
     await page.waitForURL("**/discover");
-    await expect(page.getByText("229 companies")).toBeVisible();
+    await expect(page.getByText("500 companies")).toBeVisible();
   });
 
   test("additional filters survive existing sort and sector changes", async ({

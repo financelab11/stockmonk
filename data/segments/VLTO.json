@@ -1,0 +1,45 @@
+{
+  "ticker": "VLTO",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "VERALTO CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000011/vlto-20251231.htm",
+    "date": "2026-02-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Water Quality",
+      "revenue": 3321000000,
+      "share": 0.603489005996729
+    },
+    {
+      "name": "Product & Quality Innovation",
+      "revenue": 2182000000,
+      "share": 0.39651099400327094
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 2639000000,
+      "share": 0.4795566054879157
+    },
+    {
+      "name": "High Growth Markets",
+      "revenue": 1505000000,
+      "share": 0.2734871888061058
+    },
+    {
+      "name": "Western Europe",
+      "revenue": 1241000000,
+      "share": 0.22551335635108122
+    },
+    {
+      "name": "Other Developed Markets",
+      "revenue": 118000000,
+      "share": 0.02144284935489733
+    }
+  ]
+}

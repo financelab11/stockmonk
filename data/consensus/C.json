@@ -1,7 +1,7 @@
 {
   "ticker": "C",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/C/analysis",
   "targetMean": 150.59525,
   "targetHigh": 170,

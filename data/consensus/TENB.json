@@ -1,17 +1,17 @@
 {
   "ticker": "TENB",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/TENB/analysis",
   "targetMean": 48.35,
   "targetHigh": 60,
   "targetLow": 35,
-  "recommendationKey": "none",
+  "recommendationKey": "hold",
   "analystCount": 20,
   "distribution": {
     "strongBuy": 3,
     "buy": 5,
-    "hold": 12,
+    "hold": 13,
     "sell": 1,
     "strongSell": 1
   },
@@ -28,10 +28,10 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 281967750,
-      "revenueGrowth": 0.076,
-      "epsAvg": 0.55641,
-      "epsGrowth": 0.1839,
+      "revenueAvg": 281742750,
+      "revenueGrowth": 0.075100005,
+      "epsAvg": 0.55582,
+      "epsGrowth": 0.1826,
       "analystCount": 17
     },
     {
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 1166944060,
-      "revenueGrowth": 0.0748,
-      "epsAvg": 2.46483,
-      "epsGrowth": 0.132,
+      "revenueAvg": 1166139520,
+      "revenueGrowth": 0.074099995,
+      "epsAvg": 2.46309,
+      "epsGrowth": 0.1312,
       "analystCount": 23
     }
   ],

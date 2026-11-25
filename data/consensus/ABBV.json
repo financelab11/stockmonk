@@ -1,7 +1,7 @@
 {
   "ticker": "ABBV",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/ABBV/analysis",
   "targetMean": 315.8846,
   "targetHigh": 350,
@@ -96,9 +96,9 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": 0.00009082476755661872,
+    "eps7d": 0,
     "eps30d": 0.002008424923385377,
-    "eps60d": -0.0017346561454655296,
+    "eps60d": -0.0017246794780274577,
     "eps90d": -0.0017303804552671886,
     "revenue30d": null
   }

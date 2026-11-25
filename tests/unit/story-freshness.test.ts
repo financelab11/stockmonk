@@ -84,6 +84,7 @@ describe("story freshness", () => {
       "rewrite-pending": 0,
       "data-stale": 0,
       "source-gap": 0,
+      archived: 0,
     });
   });
 });

@@ -1,0 +1,39 @@
+{
+  "ticker": "CBOE",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Cboe Global Markets, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1374310/000162828026010013/cboe-20251231.htm",
+    "date": "2026-02-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Options",
+      "revenue": 2433600000,
+      "share": 0.5162275677739595
+    },
+    {
+      "name": "North American Equities",
+      "revenue": 1672300000,
+      "share": 0.35473675278944466
+    },
+    {
+      "name": "Europe & Asia Pacific",
+      "revenue": 378600000,
+      "share": 0.0803105511009291
+    },
+    {
+      "name": "Futures",
+      "revenue": 135900000,
+      "share": 0.028827796869033983
+    },
+    {
+      "name": "Global FX",
+      "revenue": 93800000,
+      "share": 0.019897331466632726
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

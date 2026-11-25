@@ -1,0 +1,45 @@
+{
+  "ticker": "ALTR",
+  "asOf": "2024-12-31",
+  "source": {
+    "name": "ALTAIR ENGINEERING INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1701732/000095017025024197/altr-20241231.htm",
+    "date": "2025-02-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Software",
+      "revenue": 637267000,
+      "share": 0.9571620395681508
+    },
+    {
+      "name": "Client Engineering Services",
+      "revenue": 25027000,
+      "share": 0.037590043677567034
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 3494000,
+      "share": 0.005247916754282144
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 342892000,
+      "share": 0.51501679213203
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 175227000,
+      "share": 0.263187380968116
+    },
+    {
+      "name": "EMEA",
+      "revenue": 147669000,
+      "share": 0.221795826899854
+    }
+  ]
+}

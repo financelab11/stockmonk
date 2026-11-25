@@ -1,0 +1,24 @@
+{
+  "ticker": "AZEK",
+  "asOf": "2024-09-30",
+  "source": {
+    "name": "The AZEK Company Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1782754/000162828024048629/azek-20240930.htm",
+    "date": "2024-11-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Residential",
+      "revenue": 1368813000,
+      "share": 0.949609698025874
+    },
+    {
+      "name": "Commercial",
+      "revenue": 72635000,
+      "share": 0.050390301974126014
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

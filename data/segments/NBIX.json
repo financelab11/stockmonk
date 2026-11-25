@@ -1,0 +1,19 @@
+{
+  "ticker": "NBIX",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "NEUROCRINE BIOSCIENCES, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/914475/000091447526000007/nbix-20251231.htm",
+    "date": "2026-02-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 2860500000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

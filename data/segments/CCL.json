@@ -1,0 +1,55 @@
+{
+  "ticker": "CCL",
+  "asOf": "2025-11-30",
+  "source": {
+    "name": "Carnival Corp Ltd. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm",
+    "date": "2026-01-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "North America",
+      "revenue": 17604000000,
+      "share": 0.6612576064908722
+    },
+    {
+      "name": "Europe",
+      "revenue": 8467000000,
+      "share": 0.3180452257531365
+    },
+    {
+      "name": "Cruise",
+      "revenue": 309000000,
+      "share": 0.011606941627225602
+    },
+    {
+      "name": "Tour & Other",
+      "revenue": 241000000,
+      "share": 0.009052663210878222
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 14847000000,
+      "share": 0.5576966418751409
+    },
+    {
+      "name": "All Other Geographic Areas",
+      "revenue": 5374000000,
+      "share": 0.2018631207272181
+    },
+    {
+      "name": "Germany",
+      "revenue": 3348000000,
+      "share": 0.1257606490872211
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 3054000000,
+      "share": 0.11471715122830742
+    }
+  ]
+}

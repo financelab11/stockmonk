@@ -26,10 +26,26 @@ export const SECTOR_ETFS: Record<string, string> = {
   "consumer-brands": "XLP",
   "industrials-cyclicals": "XLI",
   "specialty-financials": "XLF",
+  "enterprise-software": "XLK",
+  "semis-hardware": "XLK",
+  "internet-platforms": "XLC",
+  "payments-fintech": "XLF",
+  "pharma-biotech": "XLV",
+  "healthcare-services": "XLV",
+  "industrial-automation": "XLI",
+  "aerospace-defense": "XLI",
+  "transport-autonomy": "XLI",
+  "power-renewables": "XLU",
+  "materials-mining": "XLB",
+  "consumer-retail": "XLY",
+  "banks-insurance": "XLF",
+  "capital-markets": "XLF",
 };
 
 export function sectorEtf(groupId: string | null | undefined): string {
   return (groupId && SECTOR_ETFS[groupId]) || "SPY";
 }
 
-export const BENCHMARK_ETFS = [...new Set(["SPY", ...Object.values(SECTOR_ETFS)])];
+export const BENCHMARK_ETFS = [
+  ...new Set(["SPY", ...Object.values(SECTOR_ETFS)]),
+];

@@ -1,0 +1,35 @@
+{
+  "ticker": "GPN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "GLOBAL PAYMENTS INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000008/gpn-20251231.htm",
+    "date": "2026-02-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Merchant Solutions",
+      "revenue": 7705878000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 6143825000,
+      "share": 0.7972907175535351
+    },
+    {
+      "name": "Europe",
+      "revenue": 1280865000,
+      "share": 0.16621921603222892
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 281188000,
+      "share": 0.03649006641423599
+    }
+  ]
+}

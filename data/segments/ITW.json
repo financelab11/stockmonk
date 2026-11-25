@@ -1,0 +1,70 @@
+{
+  "ticker": "ITW",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ILLINOIS TOOL WORKS INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/49826/000004982626000008/itw-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Automotive OEM",
+      "revenue": 3288000000,
+      "share": 0.2049364248317128
+    },
+    {
+      "name": "Testand Measurementand Electronics",
+      "revenue": 2825000000,
+      "share": 0.17607828471702816
+    },
+    {
+      "name": "Food Equipment",
+      "revenue": 2699000000,
+      "share": 0.16822488157566692
+    },
+    {
+      "name": "Welding",
+      "revenue": 1890000000,
+      "share": 0.11780104712041885
+    },
+    {
+      "name": "Construction Products",
+      "revenue": 1820000000,
+      "share": 0.11343804537521815
+    },
+    {
+      "name": "Polymers & Fluids",
+      "revenue": 1765000000,
+      "share": 0.1100099725754176
+    },
+    {
+      "name": "Polymers & Fluids",
+      "revenue": 1765000000,
+      "share": 0.1100099725754176
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 8480000000,
+      "share": 0.5285464971328846
+    },
+    {
+      "name": "EMEA",
+      "revenue": 4162000000,
+      "share": 0.2594116180503615
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 3079000000,
+      "share": 0.1919097481924707
+    },
+    {
+      "name": "South America",
+      "revenue": 323000000,
+      "share": 0.02013213662428322
+    }
+  ]
+}

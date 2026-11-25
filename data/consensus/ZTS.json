@@ -1,7 +1,7 @@
 {
   "ticker": "ZTS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/ZTS/analysis",
   "targetMean": 89.69231,
   "targetHigh": 115,

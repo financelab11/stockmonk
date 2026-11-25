@@ -1,0 +1,40 @@
+{
+  "ticker": "AIT",
+  "asOf": "2026-06-30",
+  "source": {
+    "name": "APPLIED INDUSTRIAL TECHNOLOGIES, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/109563/000010956326000033/ait-20260630.htm",
+    "date": "2026-08-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Service Center Based Distribution",
+      "revenue": 3188877000,
+      "share": 0.6420532725443082
+    },
+    {
+      "name": "Engineered Solutions",
+      "revenue": 1850911000,
+      "share": 0.3726651936522663
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 4385330000,
+      "share": 0.8829489120109465
+    },
+    {
+      "name": "CA",
+      "revenue": 300817000,
+      "share": 0.060566945444104986
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 280539000,
+      "share": 0.05648414254494848
+    }
+  ]
+}

@@ -315,7 +315,7 @@ export function SupportingProfile({
             This is a profile, not a full report.
           </h2>
           <p className="mt-1 max-w-xl text-[12px] leading-relaxed text-ink-soft">
-            {data.ticker} is part of the 229-company coverage universe. Every
+            {data.ticker} is part of the 500-company coverage universe. Every
             name is assigned the ten-section research template
             {group ? `, including other names in ${group.name}` : ""}. This page
             shows the same sourced financials when a company has too few filings

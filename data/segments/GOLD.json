@@ -1,0 +1,35 @@
+{
+  "ticker": "GOLD",
+  "asOf": "2026-06-30",
+  "source": {
+    "name": "GOLD.COM, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1591588/000119312526386799/gold-20260630.htm",
+    "date": "2026-09-10"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Wholesale Sales",
+      "revenue": 23504934000,
+      "share": 38.03387378640777
+    },
+    {
+      "name": "Direct To Consumer",
+      "revenue": 6098216000,
+      "share": 9.867663430420713
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Asia Pacific",
+      "revenue": 731836000,
+      "share": 1.1842006472491908
+    },
+    {
+      "name": "South America",
+      "revenue": 218000,
+      "share": 0.0003527508090614887
+    }
+  ]
+}

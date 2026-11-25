@@ -1,0 +1,55 @@
+{
+  "ticker": "ALGM",
+  "asOf": "2026-03-27",
+  "source": {
+    "name": "ALLEGRO MICROSYSTEMS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526233537/algm-20260327.htm",
+    "date": "2026-05-21"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 890096000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "China",
+      "revenue": 249417000,
+      "share": 0.2802135949380741
+    },
+    {
+      "name": "Other Asia",
+      "revenue": 158005000,
+      "share": 0.17751456022721146
+    },
+    {
+      "name": "Japan",
+      "revenue": 150946000,
+      "share": 0.16958395498912476
+    },
+    {
+      "name": "Europe",
+      "revenue": 120562000,
+      "share": 0.13544831119339937
+    },
+    {
+      "name": "United States",
+      "revenue": 91412000,
+      "share": 0.10269903471086266
+    },
+    {
+      "name": "KR",
+      "revenue": 77976000,
+      "share": 0.08760403372220525
+    },
+    {
+      "name": "Other Americas",
+      "revenue": 41778000,
+      "share": 0.04693651021912243
+    }
+  ]
+}

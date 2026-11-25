@@ -18,7 +18,7 @@ export const DELL: StockStory = {
     "paragraphs": [
       "Dell's quarterly revenue rose from $29.8B to $47.0B in a year, and the operating margin almost doubled with it. The July 2026 quarter produced $47.0B of revenue at an 11.5% operating margin and $6.34 of EPS, against $29.8B, 6.0% and $1.70 a year earlier. The April quarter was $43.8B at 8.3%, so the improvement is sequential as well as annual. That is what operating leverage looks like in a business with a 19.8% gross margin.",
       "The mix is Infrastructure Solutions at 53.6% and Client Solutions at 44.9%, with corporate at 1.5% and the United States at 55.6%. Infrastructure sells servers, storage and networking to enterprises and large service providers; Client sells PCs and peripherals. A dollar of infrastructure revenue carries more absolute profit than a dollar of PC revenue, even at a similar percentage margin, which is why the mix shift matters more than the blended gross margin.",
-      "At $340 the shares trade at 19.0x earnings, 14.3x EV/EBITDA, 1.6x sales and 25.3x free cash flow. Peer medians of 32.0x and 25.5x sit well above that, so the discount is normal for hardware. Leverage is 1.8x EBITDA and the reported return on equity is negative because book equity is negative; neither is a useful signal. The debate is whether the 11.5% operating margin is a cycle peak or a structural gain from scale."
+      "At $284.85 the shares trade at 15.9x earnings, 12.3x EV/EBITDA, 1.4x sales and 21.2x free cash flow. Peer medians of 32.0x and 25.5x sit well above that, so the discount is normal for hardware. Leverage is 1.8x EBITDA and the reported return on equity is negative because book equity is negative; neither is a useful signal. The debate is whether the 11.5% operating margin is a cycle peak or a structural gain from scale."
     ],
     "quote": "Dell doubled revenue without doubling the cost base, and the 11.5% operating margin is either a cycle windfall or proof that scale in servers now pays."
   },
@@ -52,7 +52,7 @@ export const DELL: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "The top line went from $88.4B in FY2024 to $95.6B in FY2025 and $113.5B in FY2026, and the trailing figure is $151.2B, up 49.0%. The quarterly path is the striking part: $23.4B in the May 2025 quarter, $29.8B in August, $27.0B in October, $33.4B in January, $43.8B in May 2026 and $47.0B in July. Consensus expects $194.9B in FY2027, up 71.7%, and $233.3B in FY2028, up 19.7%.",
+      "The top line went from $88.4B in FY2024 to $95.6B in FY2025 and $113.5B in FY2026, and the trailing figure is $151.2B, up 49.0%. The quarterly path is the striking part: $23.4B in the May 2025 quarter, $29.8B in August, $27.0B in October, $33.4B in January, $43.8B in May 2026 and $47.0B in July. Consensus expects $194.4B in FY2027, up 71.3%, and $232.6B in FY2028, up 19.7%.",
       "The growth is coming from infrastructure, not from PCs. Infrastructure is 53.6% of revenue, and the large orders are concentrated among a small number of buyers. That concentration is the reason the revenue line can move this fast, and the reason it can reverse. Client Solutions, at 44.9%, is a replacement market with seasonal corporate buying and much lower growth.",
       "The consensus for FY2028 is based on nine analysts, against 28 for FY2027. That thinning coverage is worth noting: the outer-year estimate is less robust than the current-year figure, and it assumes the infrastructure cycle continues at a 19.7% rate after a 71.7% year. The estimate is a forecast of normalisation, not of decline. A wider spread of estimates would be more informative, but the outer year is the less reliable number."
     ],
@@ -87,15 +87,15 @@ export const DELL: StockStory = {
   },
   "valuation": {
     "paragraphs": [
-      "At $340 Dell trades at 19.0x earnings, 14.3x EV/EBITDA, 1.6x sales and 25.3x free cash flow, with a 4.0% free-cash-flow yield. The earnings and EBITDA multiples sit below the 32.0x and 25.5x peer medians, putting the stock in the 28th and 21st percentiles. A 1.6x sales multiple is the right way to think about a hardware business: it prices the revenue at hardware economics rather than at the peak earnings the current cycle produces.",
-      "Forward numbers are low if the margin holds. FY2027 EPS of $26.01 implies 13.1x, and FY2028 EPS of $28.48 implies 11.9x. Those multiples assume an 11.5% operating margin in FY2027 and a modest decline in FY2028. If the margin normalises toward the FY2025 level of 6.5%, the EPS estimate is too high and the multiple is higher than it looks. The estimate is the risk, not the price.",
+      "At $284.85 Dell trades at 15.9x earnings, 12.3x EV/EBITDA, 1.4x sales and 21.2x free cash flow, with a 4.7% free-cash-flow yield. The earnings and EBITDA multiples sit below the 32.0x and 25.5x peer medians, putting the stock in the 28th and 21st percentiles. A 1.6x sales multiple is the right way to think about a hardware business: it prices the revenue at hardware economics rather than at the peak earnings the current cycle produces.",
+      "Forward numbers are low if the margin holds. FY2027 EPS of $25.99 implies 11.0x, and FY2028 EPS of $28.48 implies 10.0x. Those multiples assume an 11.5% operating margin in FY2027 and a modest decline in FY2028. If the margin normalises toward the FY2025 level of 6.5%, the EPS estimate is too high and the multiple is higher than it looks. The estimate is the risk, not the price.",
       "The peer comparison is unflattering on margin but supportive on multiple. Apple trades at 38.4x earnings with a 33.0% operating margin and 15.1% growth; Dell trades at 19.0x with a 9.4% margin and 49.0% growth. The discount is the hardware tax, and it is justified while the margin is cyclical. A return to mid-single-digit growth would make the 19.0x multiple look full rather than cheap."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "The Yahoo Finance consensus, dated 18 November 2026, is built from 25 analyst estimates, with a mean target of $584 and a range of $403 to $700. The mean is above the $340 price, a wide gap for a stock that has already returned 170.4% over a year.",
-      "FY2027 estimates are $194.9B of revenue and $26.01 of EPS; FY2028 is $233.3B and $28.48. EPS revisions are plus 39.2% over 90 days but only plus 0.4% over 30 days, so the upgrade cycle has paused. The consensus assumes the October quarter produces $49.2B and $6.59 of EPS, which is another sequential step-up from July's $47.0B."
+      "The Yahoo Finance consensus, dated 25 November 2026, is built from 25 analyst estimates, with a mean target of $568.88 and a range of $400 to $700. The mean is above the $284.85 price, a wide gap after the stock's run over the past year.",
+      "FY2027 estimates are $194.4B of revenue and $25.99 of EPS; FY2028 is $232.6B and $28.48. EPS revisions are plus 38.1% over 90 days but only plus 0.4% over 30 days, so the upgrade cycle has paused. The consensus assumes the January quarter produces $53.6B and $7.51 of EPS, which is another sequential step-up from October's $47.0B."
     ]
   },
   "risks": {
@@ -161,5 +161,5 @@ export const DELL: StockStory = {
     ]
   },
   "narrativeSource": "curated",
-  "narrativeUpdatedAt": "2026-11-24"
+  "narrativeUpdatedAt": "2026-11-25"
 };

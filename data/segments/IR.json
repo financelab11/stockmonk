@@ -1,0 +1,40 @@
+{
+  "ticker": "IR",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Ingersoll Rand Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1699150/000162828026008617/iri-20251231.htm",
+    "date": "2026-02-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Industrial Technologies & Services",
+      "revenue": 6056400000,
+      "share": 0.7915931459044034
+    },
+    {
+      "name": "Precision & Science Technologies",
+      "revenue": 1594500000,
+      "share": 0.2084068540955966
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 3802000000,
+      "share": 0.49693500111098043
+    },
+    {
+      "name": "EMEA",
+      "revenue": 2601500000,
+      "share": 0.3400253564940072
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 1247400000,
+      "share": 0.16303964239501234
+    }
+  ]
+}

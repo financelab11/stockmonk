@@ -1,0 +1,29 @@
+{
+  "ticker": "CTAS",
+  "asOf": "2026-05-31",
+  "source": {
+    "name": "Cintas Corporation Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325426000028/ctas-20260531.htm",
+    "date": "2026-07-29"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Uniform Rental & Facility Services",
+      "revenue": 8621624000,
+      "share": 0.7653623543366788
+    },
+    {
+      "name": "First Aid & Safety Services",
+      "revenue": 1391853000,
+      "share": 0.12355814739433886
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 1251284000,
+      "share": 0.11107949826898236
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

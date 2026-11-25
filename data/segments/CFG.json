@@ -1,0 +1,24 @@
+{
+  "ticker": "CFG",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "CITIZENS FINANCIAL GROUP INC/RI Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000028/cfg-20251231.htm",
+    "date": "2026-02-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Consumer Banking",
+      "revenue": 955000000,
+      "share": 0.5840978593272171
+    },
+    {
+      "name": "Commercial Banking",
+      "revenue": 680000000,
+      "share": 0.41590214067278286
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

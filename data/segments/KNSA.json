@@ -1,0 +1,30 @@
+{
+  "ticker": "KNSA",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Kiniksa Pharmaceuticals International, plc Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1730430/000110465926019168/knsa-20251231x10k.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Pharmaceutical",
+      "revenue": 677564000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 676750000,
+      "share": 0.9987986374718846
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 814000,
+      "share": 0.0012013625281154252
+    }
+  ]
+}

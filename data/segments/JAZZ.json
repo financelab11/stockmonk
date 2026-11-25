@@ -1,0 +1,35 @@
+{
+  "ticker": "JAZZ",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Jazz Pharmaceuticals plc Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1232524/000123252426000013/jazz-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 4267586000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 3831598000,
+      "share": 0.8978373253638006
+    },
+    {
+      "name": "Europe",
+      "revenue": 341122000,
+      "share": 0.07993324563347991
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 94866000,
+      "share": 0.02222942900271957
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "ticker": "BR",
+  "asOf": "2026-06-30",
+  "source": {
+    "name": "BROADRIDGE FINANCIAL SOLUTIONS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1383312/000162828026052243/br-20260630.htm",
+    "date": "2026-08-04"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Investor Communication Solutions",
+      "revenue": 5560800000,
+      "share": 0.7437406377059704
+    },
+    {
+      "name": "Global Technology & Operations",
+      "revenue": 1916000000,
+      "share": 0.2562593622940295
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 6374600000,
+      "share": 0.8525839931521506
+    },
+    {
+      "name": "CA",
+      "revenue": 544400000,
+      "share": 0.07281189813824096
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 493600000,
+      "share": 0.0660175476139525
+    },
+    {
+      "name": "Others",
+      "revenue": 64100000,
+      "share": 0.008573186389899422
+    }
+  ]
+}

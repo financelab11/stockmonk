@@ -1,0 +1,40 @@
+{
+  "ticker": "JCI",
+  "asOf": "2026-09-30",
+  "source": {
+    "name": "JOHNSON CONTROLS INTERNATIONAL PLC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/833444/000083344426000108/jci-20260930.htm",
+    "date": "2026-11-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Americas",
+      "revenue": 17398000000,
+      "share": 0.6778617626431855
+    },
+    {
+      "name": "EMEA",
+      "revenue": 5119000000,
+      "share": 0.19944673887633446
+    },
+    {
+      "name": "APAC",
+      "revenue": 3149000000,
+      "share": 0.12269149848048001
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 14753000000,
+      "share": 0.5748071378477363
+    },
+    {
+      "name": "Non-US",
+      "revenue": 10913000000,
+      "share": 0.4251928621522637
+    }
+  ]
+}

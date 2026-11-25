@@ -1,0 +1,45 @@
+{
+  "ticker": "GPC",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "GENUINE PARTS CO Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/40987/000004098726000003/gpc-20251231.htm",
+    "date": "2026-02-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "North America Automotive",
+      "revenue": 9520042000,
+      "share": 0.39176900249261926
+    },
+    {
+      "name": "Industrial Parts",
+      "revenue": 8921533000,
+      "share": 0.36713914540660486
+    },
+    {
+      "name": "International Automotive",
+      "revenue": 5858566000,
+      "share": 0.24109185210077588
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 17912083000,
+      "share": 0.7371184800944159
+    },
+    {
+      "name": "Europe",
+      "revenue": 4010876000,
+      "share": 0.16505566778398528
+    },
+    {
+      "name": "Australasia",
+      "revenue": 2377182000,
+      "share": 0.0978258521215988
+    }
+  ]
+}

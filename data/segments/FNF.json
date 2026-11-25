@@ -1,0 +1,29 @@
+{
+  "ticker": "FNF",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "FIDELITY NATIONAL FINANCIAL, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1331875/000133187526000026/fnf-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 1623000000,
+      "share": 0.7732253454025727
+    },
+    {
+      "name": "Corporate & Other",
+      "revenue": 341000000,
+      "share": 0.16245831348261078
+    },
+    {
+      "name": "Corporate & Reconciling Items",
+      "revenue": 135000000,
+      "share": 0.06431634111481659
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

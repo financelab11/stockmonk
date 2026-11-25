@@ -1,9 +1,9 @@
 {
   "ticker": "AMD",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/AMD/analysis",
-  "targetMean": 656.2122,
+  "targetMean": 649.8857,
   "targetHigh": 1250,
   "targetLow": 525,
   "recommendationKey": "strong_buy",
@@ -19,37 +19,37 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 17055205070,
-      "revenueGrowth": 0.6607,
-      "epsAvg": 2.92794,
-      "epsGrowth": 0.91370004,
-      "analystCount": 39
+      "revenueAvg": 17056738549,
+      "revenueGrowth": 0.66080004,
+      "epsAvg": 2.93078,
+      "epsGrowth": 0.91550004,
+      "analystCount": 38
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 19060967690,
-      "revenueGrowth": 0.85910004,
-      "epsAvg": 3.29648,
-      "epsGrowth": 1.4061999,
-      "analystCount": 36
+      "revenueAvg": 19071029180,
+      "revenueGrowth": 0.86,
+      "epsAvg": 3.30209,
+      "epsGrowth": 1.4103,
+      "analystCount": 35
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 52234334570,
+      "revenueAvg": 52234356790,
       "revenueGrowth": 0.508,
-      "epsAvg": 8.08438,
-      "epsGrowth": 0.9387,
+      "epsAvg": 8.08682,
+      "epsGrowth": 0.9393,
       "analystCount": 45
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 95800846830,
-      "revenueGrowth": 0.8341,
-      "epsAvg": 17.61574,
-      "epsGrowth": 1.179,
+      "revenueAvg": 95771906830,
+      "revenueGrowth": 0.83349997,
+      "epsAvg": 17.60696,
+      "epsGrowth": 1.1772,
       "analystCount": 49
     }
   ],
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 17055205070,
-    "revenueGrowth": 0.6607,
-    "epsAvg": 2.92794,
-    "epsGrowth": 0.91370004,
-    "analystCount": 39
+    "revenueAvg": 17056738549,
+    "revenueGrowth": 0.66080004,
+    "epsAvg": 2.93078,
+    "epsGrowth": 0.91550004,
+    "analystCount": 38
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": 0.06697162706844706,
-    "eps60d": 0.06544733769297473,
-    "eps90d": 0.06887182734908714,
+    "eps7d": 0.0003018165895221081,
+    "eps30d": 0.0672936568060456,
+    "eps60d": 0.0657689073747525,
+    "eps90d": 0.06919443059865382,
     "revenue30d": null
   }
 }

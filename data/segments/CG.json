@@ -1,0 +1,50 @@
+{
+  "ticker": "CG",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Carlyle Group Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1527166/000152716626000009/cg-20251231.htm",
+    "date": "2026-02-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Global Segments",
+      "revenue": 2642700000,
+      "share": 0.5528892422277083
+    },
+    {
+      "name": "Global Private Equity",
+      "revenue": 1215600000,
+      "share": 0.25432026444621114
+    },
+    {
+      "name": "Global Credit",
+      "revenue": 910100000,
+      "share": 0.19040545629524247
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 11400000,
+      "share": 0.0023850370308381103
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 3281900000,
+      "share": 0.6866186869743504
+    },
+    {
+      "name": "EMEA",
+      "revenue": 1451300000,
+      "share": 0.3036319511276622
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 46600000,
+      "share": 0.009749361897987363
+    }
+  ]
+}

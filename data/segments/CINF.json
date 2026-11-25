@@ -1,0 +1,44 @@
+{
+  "ticker": "CINF",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "CINCINNATI FINANCIAL CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/20286/000002028626000008/cinf-20251231.htm",
+    "date": "2026-02-23"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Commercial Lines Insurance",
+      "revenue": 4868000000,
+      "share": 0.3854009975457208
+    },
+    {
+      "name": "Personal Lines Insurance",
+      "revenue": 3204000000,
+      "share": 0.2536616261578656
+    },
+    {
+      "name": "Investment Segment Of CINF",
+      "revenue": 2607000000,
+      "share": 0.20639695986066028
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 914000000,
+      "share": 0.07236164990895416
+    },
+    {
+      "name": "Excessand Surplus Lines Insurance",
+      "revenue": 702000000,
+      "share": 0.05557754730425144
+    },
+    {
+      "name": "Life Insurance",
+      "revenue": 336000000,
+      "share": 0.0266012192225477
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

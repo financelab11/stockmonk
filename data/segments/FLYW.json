@@ -1,0 +1,35 @@
+{
+  "ticker": "FLYW",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "FLYWIRE CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1580560/000119312526067540/flyw-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 623025000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States & Canada Americas",
+      "revenue": 285733000,
+      "share": 0.4586220456642992
+    },
+    {
+      "name": "Europe The Middle East & Africa Emea",
+      "revenue": 241040000,
+      "share": 0.38688656153444884
+    },
+    {
+      "name": "Asia & Pacific Apac",
+      "revenue": 96252000,
+      "share": 0.15449139280125196
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ticker": "DIOD",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "DIODES INC /DEL/ Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/29002/000119312526044918/diod-20251231.htm",
+    "date": "2026-02-10"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 1482073000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 1080705000,
+      "share": 0.7291847297670223
+    },
+    {
+      "name": "Europe",
+      "revenue": 255779000,
+      "share": 0.1725819173549481
+    }
+  ]
+}

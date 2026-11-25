@@ -1,0 +1,24 @@
+{
+  "ticker": "FND",
+  "asOf": "2025-12-25",
+  "source": {
+    "name": "Floor & Decor Holdings, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1507079/000162828026009770/fnd-20251225.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Retail",
+      "revenue": 4440620000,
+      "share": 0.9480223257974658
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 243468000,
+      "share": 0.0519776742025342
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

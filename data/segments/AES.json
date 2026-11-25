@@ -1,0 +1,40 @@
+{
+  "ticker": "AES",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "THE AES CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/874761/000087476126000063/aes-20251231.htm",
+    "date": "2026-03-02"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Energy Infrastructure",
+      "revenue": 5402000000,
+      "share": 0.4415924139622333
+    },
+    {
+      "name": "Utilities",
+      "revenue": 4122000000,
+      "share": 0.33695741028365894
+    },
+    {
+      "name": "Renewables",
+      "revenue": 2913000000,
+      "share": 0.23812637946538054
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Total Non Us",
+      "revenue": 7177000000,
+      "share": 0.5866917354696313
+    },
+    {
+      "name": "United States",
+      "revenue": 5056000000,
+      "share": 0.4133082645303687
+    }
+  ]
+}

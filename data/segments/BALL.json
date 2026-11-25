@@ -1,0 +1,50 @@
+{
+  "ticker": "BALL",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "BALL CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/9389/000110465926017410/ball-20251231x10k.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Metal Beverage Packaging North & Central America",
+      "revenue": 6286000000,
+      "share": 0.47762328090570627
+    },
+    {
+      "name": "Metal Beverage Packaging Europe",
+      "revenue": 3983000000,
+      "share": 0.30263657776764685
+    },
+    {
+      "name": "Metal Beverage Packaging South America",
+      "revenue": 2162000000,
+      "share": 0.1642732315173619
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 730000000,
+      "share": 0.05546690980928501
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 6163000000,
+      "share": 0.4682774865131829
+    },
+    {
+      "name": "Other Geographic Group",
+      "revenue": 5504000000,
+      "share": 0.4182053035483626
+    },
+    {
+      "name": "BR",
+      "revenue": 1494000000,
+      "share": 0.11351720993845453
+    }
+  ]
+}

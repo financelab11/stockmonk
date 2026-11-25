@@ -1,0 +1,30 @@
+{
+  "ticker": "DOCU",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "DOCUSIGN, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000021/docu-20260131.htm",
+    "date": "2026-03-18"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 3219500000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 2274470000,
+      "share": 0.7064668426774344
+    },
+    {
+      "name": "Non-US",
+      "revenue": 945030000,
+      "share": 0.29353315732256563
+    }
+  ]
+}

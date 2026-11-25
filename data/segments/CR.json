@@ -1,0 +1,50 @@
+{
+  "ticker": "CR",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "CRANE COMPANY Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1944013/000194401326000095/cr-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Process Flow Technologies",
+      "revenue": 1256100000,
+      "share": 0.5449457700650759
+    },
+    {
+      "name": "Aerospace & Electronics",
+      "revenue": 1048900000,
+      "share": 0.45505422993492406
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1368800000,
+      "share": 0.5938394793926247
+    },
+    {
+      "name": "Europe",
+      "revenue": 390100000,
+      "share": 0.1692407809110629
+    },
+    {
+      "name": "Other International",
+      "revenue": 320800000,
+      "share": 0.13917570498915402
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 149100000,
+      "share": 0.06468546637744035
+    },
+    {
+      "name": "CA",
+      "revenue": 76200000,
+      "share": 0.033058568329718006
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "ticker": "ENTG",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Entegris, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130226000012/entg-20251231.htm",
+    "date": "2026-02-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Advanced Purity Solutions",
+      "revenue": 1799100000,
+      "share": 0.5628167427892136
+    },
+    {
+      "name": "Materials Solutions MS",
+      "revenue": 1406700000,
+      "share": 0.44006131514734403
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Taiwan",
+      "revenue": 735900000,
+      "share": 0.23021335168616655
+    },
+    {
+      "name": "China",
+      "revenue": 657700000,
+      "share": 0.20574985922542702
+    },
+    {
+      "name": "North America",
+      "revenue": 561500000,
+      "share": 0.17565538384533566
+    },
+    {
+      "name": "KR",
+      "revenue": 428500000,
+      "share": 0.13404867671901396
+    },
+    {
+      "name": "Japan",
+      "revenue": 317600000,
+      "share": 0.09935556528811863
+    },
+    {
+      "name": "Southeast Asia",
+      "revenue": 256000000,
+      "share": 0.0800850904085591
+    },
+    {
+      "name": "Europe",
+      "revenue": 239400000,
+      "share": 0.07489207282737909
+    }
+  ]
+}

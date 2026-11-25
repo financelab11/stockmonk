@@ -1,0 +1,40 @@
+{
+  "ticker": "OTIS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Otis Worldwide Corporation Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1781335/000178133526000011/otis-20251231.htm",
+    "date": "2026-02-05"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Services",
+      "revenue": 9442000000,
+      "share": 0.6542859122721918
+    },
+    {
+      "name": "New Equipment",
+      "revenue": 4989000000,
+      "share": 0.3457140877278082
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Other",
+      "revenue": 8589000000,
+      "share": 0.5951770494075255
+    },
+    {
+      "name": "United States",
+      "revenue": 4192000000,
+      "share": 0.2904857598226041
+    },
+    {
+      "name": "China",
+      "revenue": 1650000000,
+      "share": 0.11433719076987042
+    }
+  ]
+}

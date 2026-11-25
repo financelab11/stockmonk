@@ -1,0 +1,45 @@
+{
+  "ticker": "DHR",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "DANAHER CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000062/dhr-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Diagnostics",
+      "revenue": 9941000000,
+      "share": 0.4046320416802345
+    },
+    {
+      "name": "Life Sciences",
+      "revenue": 7334000000,
+      "share": 0.2985183979159883
+    },
+    {
+      "name": "Biotechnology",
+      "revenue": 7293000000,
+      "share": 0.29684956040377725
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "All Other Countries",
+      "revenue": 11956000000,
+      "share": 0.4866492999023119
+    },
+    {
+      "name": "United States",
+      "revenue": 9981000000,
+      "share": 0.4062601758384891
+    },
+    {
+      "name": "China",
+      "revenue": 2631000000,
+      "share": 0.10709052425919896
+    }
+  ]
+}

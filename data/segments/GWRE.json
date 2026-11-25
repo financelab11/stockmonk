@@ -1,0 +1,35 @@
+{
+  "ticker": "GWRE",
+  "asOf": "2026-07-31",
+  "source": {
+    "name": "GUIDEWIRE SOFTWARE, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1528396/000152839626000046/gwre-20260731.htm",
+    "date": "2026-09-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 1475363000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 1133768000,
+      "share": 0.7684671501183099
+    },
+    {
+      "name": "EMEA",
+      "revenue": 226885000,
+      "share": 0.15378249285091194
+    },
+    {
+      "name": "APAC",
+      "revenue": 114710000,
+      "share": 0.07775035703077819
+    }
+  ]
+}

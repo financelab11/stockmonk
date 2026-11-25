@@ -22,7 +22,7 @@ import {
   latestQuarterYoY,
   rangePosition,
 } from "../lib/analytics";
-import { generateStockStory } from "../lib/generated-story";
+import { generateStockStoryV2 } from "../lib/generated-story-v2";
 import type { ResearchBundle } from "../lib/data";
 import {
   consensusSchema,
@@ -170,7 +170,7 @@ function ensureLength(paragraphs: string[], fallback: string): string[] {
 }
 
 function refreshStory(story: StockStory, bundle: ResearchBundle): StockStory {
-  const generated = generateStockStory(bundle);
+  const generated = generateStockStoryV2(bundle);
   const data = bundle.data;
   const currency = data.currency ?? "USD";
   const money = (value: number | null | undefined) =>

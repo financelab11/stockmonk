@@ -1,0 +1,30 @@
+{
+  "ticker": "AXGN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Axogen, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/805928/000080592826000031/axgn-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 225208000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 222435000,
+      "share": 0.9876869382970409
+    },
+    {
+      "name": "Non-US",
+      "revenue": 2773000,
+      "share": 0.012313061702959042
+    }
+  ]
+}

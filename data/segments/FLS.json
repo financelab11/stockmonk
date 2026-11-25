@@ -1,0 +1,45 @@
+{
+  "ticker": "FLS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "FLOWSERVE CORP Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/30625/000003062526000003/fls-20251231.htm",
+    "date": "2026-02-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "FPD",
+      "revenue": 3230236000,
+      "share": 0.6830320176941002
+    },
+    {
+      "name": "FCD",
+      "revenue": 1499024000,
+      "share": 0.31696798230589984
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1965150000,
+      "share": 0.4155301252204362
+    },
+    {
+      "name": "EMEA",
+      "revenue": 1616809000,
+      "share": 0.3418735700722735
+    },
+    {
+      "name": "Asia & Australia",
+      "revenue": 722856000,
+      "share": 0.15284759137793227
+    },
+    {
+      "name": "Other Segment Geographic Area",
+      "revenue": 424445000,
+      "share": 0.08974871332935808
+    }
+  ]
+}

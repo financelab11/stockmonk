@@ -1,0 +1,19 @@
+{
+  "ticker": "NU",
+  "asOf": "2024-12-31",
+  "source": {
+    "name": "Nu Holdings Ltd. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
+    "date": "2026-04-08"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 11517075000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

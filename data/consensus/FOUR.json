@@ -1,7 +1,7 @@
 {
   "ticker": "FOUR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/FOUR/analysis",
   "targetMean": 49.18182,
   "targetHigh": 77,
@@ -96,10 +96,10 @@
     "analystCount": 23
   },
   "revisions": {
-    "eps7d": -0.0015636250203546753,
+    "eps7d": 0.00024174860896275518,
     "eps30d": -0.0202376460260133,
-    "eps60d": -0.02354245893020923,
-    "eps90d": -0.024278201384641762,
+    "eps60d": -0.02337943461799008,
+    "eps90d": -0.024483935831501213,
     "revenue30d": null
   }
 }

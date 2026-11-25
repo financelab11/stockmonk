@@ -1,0 +1,55 @@
+{
+  "ticker": "CARR",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "CARRIER GLOBAL Corp Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1783180/000178318026000008/carr-20251231.htm",
+    "date": "2026-02-05"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Climate Solutions Americas",
+      "revenue": 10470000000,
+      "share": 0.4814457166505725
+    },
+    {
+      "name": "Climate Solutions Europe",
+      "revenue": 5044000000,
+      "share": 0.2319400377063503
+    },
+    {
+      "name": "Climate Solutions Asia Pacific Middle East & Africa",
+      "revenue": 3339000000,
+      "share": 0.1535384190922886
+    },
+    {
+      "name": "Climate Solutions Transportation",
+      "revenue": 2894000000,
+      "share": 0.13307582655078862
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 11136000000,
+      "share": 0.5120706304317837
+    },
+    {
+      "name": "Europe",
+      "revenue": 6092000000,
+      "share": 0.2801305927254334
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 3841000000,
+      "share": 0.1766220628132616
+    },
+    {
+      "name": "Other Geographical Region",
+      "revenue": 678000000,
+      "share": 0.031176714029521314
+    }
+  ]
+}

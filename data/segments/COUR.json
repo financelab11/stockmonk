@@ -1,0 +1,45 @@
+{
+  "ticker": "COUR",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "COURSERA, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1651562/000165156226000015/cour-20251231.htm",
+    "date": "2026-02-23"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Consumer",
+      "revenue": 502200000,
+      "share": 0.662970297029703
+    },
+    {
+      "name": "Enterprise",
+      "revenue": 255300000,
+      "share": 0.33702970297029705
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 384700000,
+      "share": 0.5078547854785479
+    },
+    {
+      "name": "EMEA",
+      "revenue": 185900000,
+      "share": 0.2454125412541254
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 108900000,
+      "share": 0.14376237623762375
+    },
+    {
+      "name": "Other",
+      "revenue": 78000000,
+      "share": 0.10297029702970296
+    }
+  ]
+}

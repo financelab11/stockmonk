@@ -15,6 +15,7 @@ import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { SOURCE_GAPS, isAcceptedSourceGap } from "../config/freshness";
+import { getArchivedCompany } from "../config/archive";
 import { RESEARCH_TICKERS } from "../config/universe";
 import { STOCK_STORIES } from "../content/stocks";
 import {
@@ -205,6 +206,24 @@ for (const ticker of RESEARCH_TICKERS) {
     };
   }>(path.join(PROCESSED, ticker, "sec.json"));
   const filing = latestFiling(sec);
+  const archived = getArchivedCompany(ticker);
+  if (archived) {
+    rows[ticker] = {
+      ticker,
+      name: story?.title ?? archived.name,
+      priceAsOf: archived.lastTraded,
+      latestQuarter: latestQuarterLabel(data.quarterly),
+      latestFiling: filing,
+      earnings: null,
+      consensusAsOf: null,
+      segmentsAsOf: null,
+      narrativeUpdatedAt: story?.narrativeUpdatedAt ?? null,
+      status: "archived",
+      events: [],
+      checkedAt: new Date().toISOString(),
+    };
+    continue;
+  }
   const earningsRaw = readJson<EarningsFile>(
     path.join(EARNINGS, `${ticker}.json`),
   );
@@ -418,7 +437,7 @@ writeJson(EVENTS_FILE, summary);
 writeJson(STATE_FILE, nextState);
 
 console.log(
-  `[events] ${manifest.total} stories · ${counts.current} current · ${counts["rewrite-pending"]} rewrite-pending · ${counts["data-stale"]} data-stale · ${counts["source-gap"]} source-gap`,
+  `[events] ${manifest.total} stories · ${counts.current} current · ${counts["rewrite-pending"]} rewrite-pending · ${counts["data-stale"]} data-stale · ${counts["source-gap"]} source-gap · ${counts.archived} archived`,
 );
 if (pending.length) {
   console.log(

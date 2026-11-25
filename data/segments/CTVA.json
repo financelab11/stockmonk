@@ -1,0 +1,50 @@
+{
+  "ticker": "CTVA",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Corteva, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1755672/000175567226000004/ctva-20251231.htm",
+    "date": "2026-02-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Seed",
+      "revenue": 9898000000,
+      "share": 0.5688178840296535
+    },
+    {
+      "name": "Crop Protection",
+      "revenue": 7503000000,
+      "share": 0.43118211597034656
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 8269000000,
+      "share": 0.4752025745646802
+    },
+    {
+      "name": "Latin America",
+      "revenue": 3928000000,
+      "share": 0.22573415320958565
+    },
+    {
+      "name": "EMEA",
+      "revenue": 3110000000,
+      "share": 0.1787253606114591
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 1339000000,
+      "share": 0.0769496005976668
+    },
+    {
+      "name": "CA",
+      "revenue": 755000000,
+      "share": 0.04338831101660824
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "ticker": "DOV",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "DOVER Corp Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/29905/000002990526000009/dov-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Pumps Process Solutions",
+      "revenue": 2148670000,
+      "share": 0.2655114178176503
+    },
+    {
+      "name": "Clean Energy Fueling",
+      "revenue": 2130507000,
+      "share": 0.2632670136598122
+    },
+    {
+      "name": "Climate Sustainability Technologies",
+      "revenue": 1559841000,
+      "share": 0.19274974541465253
+    },
+    {
+      "name": "Imaging Identification",
+      "revenue": 1173443000,
+      "share": 0.14500249673435056
+    },
+    {
+      "name": "Engineered Products",
+      "revenue": 1085844000,
+      "share": 0.13417787746316961
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 4400499000,
+      "share": 0.5437702060321744
+    },
+    {
+      "name": "Europe",
+      "revenue": 1768813000,
+      "share": 0.21857244131685716
+    },
+    {
+      "name": "Asia",
+      "revenue": 900210000,
+      "share": 0.11123906110925687
+    },
+    {
+      "name": "Americas",
+      "revenue": 707520000,
+      "share": 0.08742833396209931
+    },
+    {
+      "name": "Other Geographical Area",
+      "revenue": 315529000,
+      "share": 0.03898995757961222
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "ticker": "ARM",
+  "asOf": "2026-03-31",
+  "source": {
+    "name": "ARM HOLDINGS PLC /UK Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/arm-20260331.htm",
+    "date": "2026-05-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 4920000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1761000000,
+      "share": 0.35792682926829267
+    },
+    {
+      "name": "China",
+      "revenue": 874000000,
+      "share": 0.17764227642276423
+    },
+    {
+      "name": "Japan",
+      "revenue": 825000000,
+      "share": 0.1676829268292683
+    },
+    {
+      "name": "Taiwan",
+      "revenue": 695000000,
+      "share": 0.14126016260162602
+    },
+    {
+      "name": "KR",
+      "revenue": 392000000,
+      "share": 0.07967479674796749
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 373000000,
+      "share": 0.0758130081300813
+    }
+  ]
+}

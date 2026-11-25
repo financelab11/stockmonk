@@ -1,0 +1,40 @@
+{
+  "ticker": "CHKP",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "CHECK POINT SOFTWARE TECHNOLOGIES LTD. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1015922/000117891326001932/zk2634942.htm",
+    "date": "2026-03-31"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 2725400000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "EMEA",
+      "revenue": 1174200000,
+      "share": 0.4308358406105526
+    },
+    {
+      "name": "Americas",
+      "revenue": 1142700000,
+      "share": 0.41927790416085714
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 334500000,
+      "share": 0.12273427753724224
+    },
+    {
+      "name": "IL",
+      "revenue": 74000000,
+      "share": 0.02715197769134806
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "ticker": "GGG",
+  "asOf": "2025-12-26",
+  "source": {
+    "name": "GRACO INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/42888/000004288826000081/ggg-20251226.htm",
+    "date": "2026-02-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Contractor",
+      "revenue": 1071878000,
+      "share": 0.4792435317114697
+    },
+    {
+      "name": "Industrial",
+      "revenue": 996814000,
+      "share": 0.44568193564886766
+    },
+    {
+      "name": "Process",
+      "revenue": 167912000,
+      "share": 0.07507453263966263
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1169881000,
+      "share": 0.5230613018665798
+    },
+    {
+      "name": "Non-US",
+      "revenue": 1066723000,
+      "share": 0.47693869813342016
+    }
+  ]
+}

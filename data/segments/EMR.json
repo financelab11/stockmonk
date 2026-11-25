@@ -1,0 +1,50 @@
+{
+  "ticker": "EMR",
+  "asOf": "2026-09-30",
+  "source": {
+    "name": "Emerson Electric Co. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/32604/000003260426000054/emr-20260930.htm",
+    "date": "2026-11-09"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Final Control",
+      "revenue": 6194000000,
+      "share": 0.32630913496997155
+    },
+    {
+      "name": "Control Systems & Software",
+      "revenue": 4580000000,
+      "share": 0.24128121378147718
+    },
+    {
+      "name": "Sensors",
+      "revenue": 4302000000,
+      "share": 0.22663576019386789
+    },
+    {
+      "name": "Safety & Productivity",
+      "revenue": 2174000000,
+      "share": 0.11452955431461384
+    },
+    {
+      "name": "Test & Measurement",
+      "revenue": 1732000000,
+      "share": 0.09124433674006954
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 8064000000,
+      "share": 0.42482351701612053
+    },
+    {
+      "name": "China",
+      "revenue": 1773000000,
+      "share": 0.09340427773680329
+    }
+  ]
+}

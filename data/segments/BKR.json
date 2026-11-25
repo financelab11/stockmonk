@@ -1,0 +1,35 @@
+{
+  "ticker": "BKR",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Baker Hughes Company Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1701605/000170160526000007/bkr-20251231.htm",
+    "date": "2026-02-05"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Oilfield Services & Equipment",
+      "revenue": 14324000000,
+      "share": 0.5164965925071214
+    },
+    {
+      "name": "Industrial & Energy Technology",
+      "revenue": 13409000000,
+      "share": 0.4835034074928785
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 20033000000,
+      "share": 0.7223524321205784
+    },
+    {
+      "name": "United States",
+      "revenue": 7700000000,
+      "share": 0.27764756787942163
+    }
+  ]
+}

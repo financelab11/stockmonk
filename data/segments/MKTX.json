@@ -1,0 +1,35 @@
+{
+  "ticker": "MKTX",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "MARKETAXESS HOLDINGS INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1278021/000119312526067009/mktx-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 846268000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 568383000,
+      "share": 0.6716347540022782
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 177257000,
+      "share": 0.20945728776226916
+    },
+    {
+      "name": "Other",
+      "revenue": 100628000,
+      "share": 0.1189079582354526
+    }
+  ]
+}

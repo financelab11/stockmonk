@@ -1,0 +1,30 @@
+{
+  "ticker": "COIN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Coinbase Global, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/coin-20251231.htm",
+    "date": "2026-02-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 7181325000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 6010607000,
+      "share": 0.83697743800761
+    },
+    {
+      "name": "Non-US",
+      "revenue": 1170718000,
+      "share": 0.16302256199238999
+    }
+  ]
+}

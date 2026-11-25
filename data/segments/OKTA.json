@@ -1,0 +1,30 @@
+{
+  "ticker": "OKTA",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "Okta, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000020/okta-20260131.htm",
+    "date": "2026-03-05"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 2919000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 2321000000,
+      "share": 0.7951353203151764
+    },
+    {
+      "name": "Non-US",
+      "revenue": 598000000,
+      "share": 0.20486467968482358
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "ticker": "ADP",
+  "asOf": "2026-06-30",
+  "source": {
+    "name": "AUTOMATIC DATA PROCESSING, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/8670/000000867026000030/adp-20260630.htm",
+    "date": "2026-08-05"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Employer Services",
+      "revenue": 14831400000,
+      "share": 0.6757702506902867
+    },
+    {
+      "name": "Professional Employee Organization Services",
+      "revenue": 7128100000,
+      "share": 0.3247810674612938
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 19279800000,
+      "share": 0.878454851144099
+    },
+    {
+      "name": "EMEA",
+      "revenue": 1733300000,
+      "share": 0.07897518612683051
+    },
+    {
+      "name": "CA",
+      "revenue": 523700000,
+      "share": 0.023861596362211468
+    },
+    {
+      "name": "Other Geographical Places",
+      "revenue": 410600000,
+      "share": 0.018708366366858943
+    }
+  ]
+}

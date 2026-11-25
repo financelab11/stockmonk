@@ -1,12 +1,12 @@
 {
   "ticker": "MNDY",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/MNDY/analysis",
   "targetMean": 100.92696,
   "targetHigh": 165,
   "targetLow": 80,
-  "recommendationKey": "buy",
+  "recommendationKey": "none",
   "analystCount": 23,
   "distribution": {
     "strongBuy": 2,

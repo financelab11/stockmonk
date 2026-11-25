@@ -1,0 +1,29 @@
+{
+  "ticker": "DPZ",
+  "asOf": "2025-12-28",
+  "source": {
+    "name": "Domino’s Pizza, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1286681/000119312526062321/dpz-20251228.htm",
+    "date": "2026-02-23"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Supply Chain",
+      "revenue": 3106047000,
+      "share": 0.6287552171115998
+    },
+    {
+      "name": "US Stores",
+      "revenue": 1611761000,
+      "share": 0.32626780518356907
+    },
+    {
+      "name": "International Franchise",
+      "revenue": 338704000,
+      "share": 0.06856364602871988
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

@@ -1,9 +1,9 @@
 {
   "ticker": "PLMR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/PLMR/analysis",
-  "targetMean": 168.83333,
+  "targetMean": 172,
   "targetHigh": 181,
   "targetLow": 155,
   "recommendationKey": "buy",
@@ -21,8 +21,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 322648000,
       "revenueGrowth": 0.373,
-      "epsAvg": 2.75527,
-      "epsGrowth": 0.23,
+      "epsAvg": 2.73186,
+      "epsGrowth": 0.21959999,
       "analystCount": 7
     },
     {
@@ -30,17 +30,17 @@
       "endDate": "2027-03-31",
       "revenueAvg": 342808500,
       "revenueGrowth": 0.3042,
-      "epsAvg": 2.67833,
-      "epsGrowth": 0.1595,
-      "analystCount": 6
+      "epsAvg": 2.63714,
+      "epsGrowth": 0.1416,
+      "analystCount": 7
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
       "revenueAvg": 1240194400,
       "revenueGrowth": 0.5346,
-      "epsAvg": 10.38626,
-      "epsGrowth": 0.3214,
+      "epsAvg": 10.40958,
+      "epsGrowth": 0.32439998,
       "analystCount": 7
     },
     {
@@ -48,8 +48,8 @@
       "endDate": "2027-12-31",
       "revenueAvg": 1520758200,
       "revenueGrowth": 0.22620001,
-      "epsAvg": 11.66214,
-      "epsGrowth": 0.1228,
+      "epsAvg": 11.68258,
+      "epsGrowth": 0.1223,
       "analystCount": 7
     }
   ],
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 322648000,
     "revenueGrowth": 0.373,
-    "epsAvg": 2.75527,
-    "epsGrowth": 0.23,
+    "epsAvg": 2.73186,
+    "epsGrowth": 0.21959999,
     "analystCount": 7
   },
   "revisions": {
-    "eps7d": 0.011828727968482777,
-    "eps30d": 0.030619120056282645,
-    "eps60d": 0.02814814228200402,
-    "eps90d": 0.032104133977396865,
+    "eps7d": 0.002245274044747614,
+    "eps30d": 0.035427780225814054,
+    "eps60d": 0.0304566166200253,
+    "eps90d": 0.0304566166200253,
     "revenue30d": null
   }
 }

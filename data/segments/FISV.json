@@ -1,0 +1,29 @@
+{
+  "ticker": "FISV",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "FISERV, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000009/fi-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Merchant Solutions",
+      "revenue": 10140000000,
+      "share": 0.4784598688246119
+    },
+    {
+      "name": "Financial Solutions",
+      "revenue": 9664000000,
+      "share": 0.45599962251686876
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 1389000000,
+      "share": 0.06554050865851932
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

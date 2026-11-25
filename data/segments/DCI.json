@@ -1,0 +1,50 @@
+{
+  "ticker": "DCI",
+  "asOf": "2026-07-31",
+  "source": {
+    "name": "Donaldson Company, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/29644/000002964426000085/dci-20260731.htm",
+    "date": "2026-09-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Mobile Solutions",
+      "revenue": 2419700000,
+      "share": 0.6227352275066914
+    },
+    {
+      "name": "Industrial Solutions",
+      "revenue": 1132700000,
+      "share": 0.2915122503603047
+    },
+    {
+      "name": "Life Sciences",
+      "revenue": 333200000,
+      "share": 0.08575252213300391
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States & Canada",
+      "revenue": 1652000000,
+      "share": 0.425159563516574
+    },
+    {
+      "name": "EMEA",
+      "revenue": 1136000000,
+      "share": 0.29236154004529546
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 689500000,
+      "share": 0.17745007206094296
+    },
+    {
+      "name": "Latin America",
+      "revenue": 408100000,
+      "share": 0.10502882437718757
+    }
+  ]
+}

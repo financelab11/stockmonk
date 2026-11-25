@@ -1,12 +1,12 @@
 {
   "ticker": "COHR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/COHR/analysis",
-  "targetMean": 371.9185,
+  "targetMean": 367.1185,
   "targetHigh": 524.96234,
   "targetLow": 228,
-  "recommendationKey": "strong_buy",
+  "recommendationKey": "buy",
   "analystCount": 25,
   "distribution": {
     "strongBuy": 4,
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2028-06-30",
-      "revenueAvg": 15581966680,
-      "revenueGrowth": 0.39060003,
-      "epsAvg": 15.77931,
-      "epsGrowth": 0.5212,
+      "revenueAvg": 15548830320,
+      "revenueGrowth": 0.3877,
+      "epsAvg": 15.75139,
+      "epsGrowth": 0.5185,
       "analystCount": 24
     }
   ],

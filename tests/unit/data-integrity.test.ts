@@ -1,7 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { CORE_RESEARCH_TICKERS, RESEARCH_TICKERS } from "@/config/universe";
+import {
+  CORE_RESEARCH_TICKERS,
+  RESEARCH_TICKERS,
+  ARCHIVED_TICKERS,
+} from "@/config/universe";
 import {
   consensusSchema,
   segmentMixSchema,
@@ -16,14 +20,14 @@ function readJson<T>(filePath: string): T {
 }
 
 describe("data integrity", () => {
-  it("publishes 229 validated universe entries, all research names", () => {
+  it("publishes 500 validated universe entries, all research names", () => {
     const entries = readJson<unknown[]>(
       path.join(ROOT, "public", "data", "stocks.json"),
     );
     expect(entries).toHaveLength(RESEARCH_TICKERS.length);
-    expect(entries).toHaveLength(229);
+    expect(entries).toHaveLength(500);
     const parsed = entries.map((entry) => universeEntrySchema.parse(entry));
-    expect(parsed.filter((entry) => entry.isResearch)).toHaveLength(229);
+    expect(parsed.filter((entry) => entry.isResearch)).toHaveLength(500);
     expect(
       parsed.every((entry) => entry.price != null && entry.marketCap != null),
     ).toBe(true);
@@ -55,7 +59,9 @@ describe("data integrity", () => {
         const prices = readJson<unknown[]>(
           path.join(ROOT, "public", "data", "prices", ticker, `${range}.json`),
         );
-        expect(prices.length, `${ticker} ${range}`).toBeGreaterThan(1);
+        expect(prices.length, `${ticker} ${range}`).toBeGreaterThan(
+          ARCHIVED_TICKERS.includes(ticker) ? 0 : 1,
+        );
         expect(prices.length).toBeLessThanOrEqual(600);
       }
     }
@@ -91,7 +97,7 @@ describe("data integrity", () => {
       const consensus = consensusSchema.parse(readJson(file));
       expect(consensus.ticker).toBe(ticker);
     }
-  });
+  }, 120_000);
 
   it("keeps the META consensus file from colliding with a meta summary", () => {
     const consensus = consensusSchema.parse(

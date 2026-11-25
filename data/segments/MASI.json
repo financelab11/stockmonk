@@ -1,0 +1,24 @@
+{
+  "ticker": "MASI",
+  "asOf": "2026-01-03",
+  "source": {
+    "name": "MASIMO CORP Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/937556/000093755626000017/masi-20260103.htm",
+    "date": "2026-02-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Health Care",
+      "revenue": 1524100000,
+      "share": 0.9981662191368131
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 2800000,
+      "share": 0.0018337808631868492
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

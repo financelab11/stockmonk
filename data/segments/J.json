@@ -1,0 +1,60 @@
+{
+  "ticker": "J",
+  "asOf": "2026-10-02",
+  "source": {
+    "name": "Jacobs Solutions Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/52988/000162828026075495/jec-20261002.htm",
+    "date": "2026-11-23"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Infrastructure Advanced Facilities",
+      "revenue": 14369457000,
+      "share": 0.9107937319050551
+    },
+    {
+      "name": "PA Consulting",
+      "revenue": 1407394000,
+      "share": 0.08920626809494493
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 10675699000,
+      "share": 0.6766685569889708
+    },
+    {
+      "name": "Europe",
+      "revenue": 3242037000,
+      "share": 0.2054932888698765
+    },
+    {
+      "name": "Australiaand New Zealand",
+      "revenue": 704262000,
+      "share": 0.04463894601020191
+    },
+    {
+      "name": "Middle East",
+      "revenue": 614640000,
+      "share": 0.0389583447292492
+    },
+    {
+      "name": "CA",
+      "revenue": 250293000,
+      "share": 0.015864572721134274
+    },
+    {
+      "name": "IN",
+      "revenue": 148999000,
+      "share": 0.009444153335795591
+    },
+    {
+      "name": "Asia",
+      "revenue": 140921000,
+      "share": 0.00893213734477178
+    }
+  ]
+}

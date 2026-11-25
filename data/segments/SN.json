@@ -1,0 +1,30 @@
+{
+  "ticker": "SN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "SHARKNINJA, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1957132/000195713226000015/sharkninja-20251231.htm",
+    "date": "2026-03-02"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 6399188000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 4306638000,
+      "share": 0.6729975740672097
+    },
+    {
+      "name": "Europe",
+      "revenue": 2092550000,
+      "share": 0.3270024259327902
+    }
+  ]
+}

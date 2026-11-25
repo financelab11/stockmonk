@@ -1,0 +1,35 @@
+{
+  "ticker": "EXEL",
+  "asOf": "2026-01-02",
+  "source": {
+    "name": "EXELIXIS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/939767/000093976726000021/exel-20260102.htm",
+    "date": "2026-02-10"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 2320126000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 2140371000,
+      "share": 0.9225236043214894
+    },
+    {
+      "name": "Europe",
+      "revenue": 154165000,
+      "share": 0.06644682228465178
+    },
+    {
+      "name": "Japan",
+      "revenue": 25590000,
+      "share": 0.011029573393858782
+    }
+  ]
+}

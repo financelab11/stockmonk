@@ -1,0 +1,35 @@
+{
+  "ticker": "CPRT",
+  "asOf": "2026-07-31",
+  "source": {
+    "name": "COPART, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526405731/cprt-20260731.htm",
+    "date": "2026-09-29"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "US",
+      "revenue": 3807430000,
+      "share": 0.815957879297734
+    },
+    {
+      "name": "International",
+      "revenue": 858779000,
+      "share": 0.18404212070226603
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 3807430000,
+      "share": 0.815957879297734
+    },
+    {
+      "name": "Non-US",
+      "revenue": 858779000,
+      "share": 0.18404212070226603
+    }
+  ]
+}

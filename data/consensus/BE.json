@@ -1,9 +1,9 @@
 {
   "ticker": "BE",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/BE/analysis",
-  "targetMean": 282.69232,
+  "targetMean": 279.30768,
   "targetHigh": 380,
   "targetLow": 102,
   "recommendationKey": "buy",
@@ -99,7 +99,7 @@
     "eps7d": -0.0013473918343777092,
     "eps30d": 0.0013295591010464847,
     "eps60d": 0.21470167419216968,
-    "eps90d": 0.20555756364199684,
+    "eps90d": 0.20558424313956936,
     "revenue30d": null
   }
 }

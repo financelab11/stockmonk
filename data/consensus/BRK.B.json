@@ -1,9 +1,9 @@
 {
   "ticker": "BRK.B",
   "provider": "Nasdaq analyst consensus",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://www.nasdaq.com/market-activity/stocks/brk.b/analyst-research",
-  "targetMean": 556,
+  "targetMean": 582.5,
   "targetHigh": null,
   "targetLow": null,
   "recommendationKey": "",

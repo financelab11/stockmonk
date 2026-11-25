@@ -1,0 +1,40 @@
+{
+  "ticker": "DT",
+  "asOf": "2026-03-31",
+  "source": {
+    "name": "Dynatrace, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1773383/000177338326000019/dt-20260331.htm",
+    "date": "2026-05-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 2018387000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 1017463000,
+      "share": 0.5040970834631813
+    },
+    {
+      "name": "EMEA",
+      "revenue": 648925000,
+      "share": 0.32150672789707824
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 193072000,
+      "share": 0.09565658122054889
+    },
+    {
+      "name": "Latin America",
+      "revenue": 158927000,
+      "share": 0.07873960741919166
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "ticker": "EQIX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/EQIX/analysis",
   "targetMean": 1234.875,
   "targetHigh": 1380,

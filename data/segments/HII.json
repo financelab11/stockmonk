@@ -1,0 +1,29 @@
+{
+  "ticker": "HII",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "HUNTINGTON INGALLS INDUSTRIES, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000006/hii-20251231.htm",
+    "date": "2026-02-05"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Newport News Shipbuilding",
+      "revenue": 6507000000,
+      "share": 0.5212271707785966
+    },
+    {
+      "name": "Ingalls",
+      "revenue": 3078000000,
+      "share": 0.24655559115668055
+    },
+    {
+      "name": "Mission Technologies",
+      "revenue": 3044000000,
+      "share": 0.243832105094521
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

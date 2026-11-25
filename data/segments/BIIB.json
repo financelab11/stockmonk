@@ -1,0 +1,40 @@
+{
+  "ticker": "BIIB",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "BIOGEN INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504526000013/biib-20251231.htm",
+    "date": "2026-02-06"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 9890600000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 3571500000,
+      "share": 0.3611004388004772
+    },
+    {
+      "name": "United States",
+      "revenue": 3547900000,
+      "share": 0.3587143348229632
+    },
+    {
+      "name": "Europe Excluding Germany",
+      "revenue": 1871600000,
+      "share": 0.18923017814894952
+    },
+    {
+      "name": "Germany",
+      "revenue": 853000000,
+      "share": 0.08624350393302732
+    }
+  ]
+}

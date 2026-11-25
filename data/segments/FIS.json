@@ -1,0 +1,40 @@
+{
+  "ticker": "FIS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Fidelity National Information Services, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000013/fis-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Banking Solutions",
+      "revenue": 7285000000,
+      "share": 0.6823077643532828
+    },
+    {
+      "name": "Capital Market Solutions",
+      "revenue": 3196000000,
+      "share": 0.2993350192001499
+    },
+    {
+      "name": "Corporate & Other",
+      "revenue": 196000000,
+      "share": 0.018357216446567386
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 8306000000,
+      "share": 0.7779338765570853
+    },
+    {
+      "name": "Non North America",
+      "revenue": 2371000000,
+      "share": 0.22206612344291468
+    }
+  ]
+}

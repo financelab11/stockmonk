@@ -1,0 +1,34 @@
+{
+  "ticker": "HCA",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "HCA Healthcare, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/860730/000119312526044769/hca-20251231.htm",
+    "date": "2026-02-10"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "American Group",
+      "revenue": 26445000000,
+      "share": 0.3498015873015873
+    },
+    {
+      "name": "Atlantic Group",
+      "revenue": 24709000000,
+      "share": 0.3268386243386243
+    },
+    {
+      "name": "National Group",
+      "revenue": 21278000000,
+      "share": 0.28145502645502646
+    },
+    {
+      "name": "Corporate & Other",
+      "revenue": 3168000000,
+      "share": 0.0419047619047619
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

@@ -1,0 +1,80 @@
+{
+  "ticker": "MBLY",
+  "asOf": "2025-12-27",
+  "source": {
+    "name": "Mobileye Global Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1910139/000110465926014300/mbly-20251227x10k.htm",
+    "date": "2026-02-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Mobileye",
+      "revenue": 1855000000,
+      "share": 0.9794086589229145
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 39000000,
+      "share": 0.020591341077085535
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "China",
+      "revenue": 428000000,
+      "share": 0.22597676874340022
+    },
+    {
+      "name": "United States",
+      "revenue": 416000000,
+      "share": 0.21964097148891235
+    },
+    {
+      "name": "Germany",
+      "revenue": 297000000,
+      "share": 0.15681098204857444
+    },
+    {
+      "name": "KR",
+      "revenue": 192000000,
+      "share": 0.10137275607180571
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 117000000,
+      "share": 0.0617740232312566
+    },
+    {
+      "name": "PL",
+      "revenue": 110000000,
+      "share": 0.05807814149947202
+    },
+    {
+      "name": "SK",
+      "revenue": 88000000,
+      "share": 0.046462513199577615
+    },
+    {
+      "name": "HU",
+      "revenue": 85000000,
+      "share": 0.04487856388595565
+    },
+    {
+      "name": "Rest Of World",
+      "revenue": 72000000,
+      "share": 0.03801478352692714
+    },
+    {
+      "name": "CZK",
+      "revenue": 59000000,
+      "share": 0.031151003167898626
+    },
+    {
+      "name": "TH",
+      "revenue": 30000000,
+      "share": 0.01583949313621964
+    }
+  ]
+}

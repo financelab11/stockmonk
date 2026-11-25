@@ -1,12 +1,12 @@
 {
   "ticker": "RCL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/RCL/analysis",
   "targetMean": 357.7037,
   "targetHigh": 425,
   "targetLow": 270,
-  "recommendationKey": "buy",
+  "recommendationKey": "strong_buy",
   "analystCount": 27,
   "distribution": {
     "strongBuy": 4,

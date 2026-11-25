@@ -228,6 +228,277 @@ import { KNSL } from "./KNSL";
 import { RYAN } from "./RYAN";
 import { PLMR } from "./PLMR";
 import { EVR } from "./EVR";
+import { BILL } from "./BILL";
+import { BOX } from "./BOX";
+import { CHKP } from "./CHKP";
+import { EPAM } from "./EPAM";
+import { GDYN } from "./GDYN";
+import { KVYO } from "./KVYO";
+import { NTSK } from "./NTSK";
+import { ZS } from "./ZS";
+import { APPF } from "./APPF";
+import { CFLT } from "./CFLT";
+import { COUR } from "./COUR";
+import { CYBR } from "./CYBR";
+import { DBX } from "./DBX";
+import { DOCN } from "./DOCN";
+import { DOCU } from "./DOCU";
+import { DT } from "./DT";
+import { FIVN } from "./FIVN";
+import { FLYW } from "./FLYW";
+import { FRSH } from "./FRSH";
+import { GDDY } from "./GDDY";
+import { GWRE } from "./GWRE";
+import { HUBS } from "./HUBS";
+import { MANH } from "./MANH";
+import { MDB } from "./MDB";
+import { NEWR } from "./NEWR";
+import { OKTA } from "./OKTA";
+import { ADSK } from "./ADSK";
+import { ALTR } from "./ALTR";
+import { FFIV } from "./FFIV";
+import { GEN } from "./GEN";
+import { JNPR } from "./JNPR";
+import { NET } from "./NET";
+import { NICE } from "./NICE";
+import { ACIW } from "./ACIW";
+import { ACLS } from "./ACLS";
+import { ALGM } from "./ALGM";
+import { ARM } from "./ARM";
+import { ASML } from "./ASML";
+import { ASX } from "./ASX";
+import { CRUS } from "./CRUS";
+import { ENTG } from "./ENTG";
+import { MKSI } from "./MKSI";
+import { MPWR } from "./MPWR";
+import { NXPI } from "./NXPI";
+import { ON } from "./ON";
+import { DIOD } from "./DIOD";
+import { BABA } from "./BABA";
+import { BIDU } from "./BIDU";
+import { CART } from "./CART";
+import { CHWY } from "./CHWY";
+import { CPNG } from "./CPNG";
+import { DASH } from "./DASH";
+import { EBAY } from "./EBAY";
+import { ETSY } from "./ETSY";
+import { EXPE } from "./EXPE";
+import { JD } from "./JD";
+import { LYV } from "./LYV";
+import { MELI } from "./MELI";
+import { MTCH } from "./MTCH";
+import { NTES } from "./NTES";
+import { NU } from "./NU";
+import { PPLI } from "./PPLI";
+import { EA } from "./EA";
+import { AKAM } from "./AKAM";
+import { GENI } from "./GENI";
+import { IRDM } from "./IRDM";
+import { ADP } from "./ADP";
+import { BR } from "./BR";
+import { FDS } from "./FDS";
+import { FISV } from "./FISV";
+import { FIS } from "./FIS";
+import { GPN } from "./GPN";
+import { JKHY } from "./JKHY";
+import { MCO } from "./MCO";
+import { MSCI } from "./MSCI";
+import { MORN } from "./MORN";
+import { CWAN } from "./CWAN";
+import { BIIB } from "./BIIB";
+import { ETON } from "./ETON";
+import { GILD } from "./GILD";
+import { GMAB } from "./GMAB";
+import { KNSA } from "./KNSA";
+import { KOD } from "./KOD";
+import { KYMR } from "./KYMR";
+import { ALNY } from "./ALNY";
+import { AMGN } from "./AMGN";
+import { ARGX } from "./ARGX";
+import { ASND } from "./ASND";
+import { AXGN } from "./AXGN";
+import { AZN } from "./AZN";
+import { BNTX } from "./BNTX";
+import { BMY } from "./BMY";
+import { GSK } from "./GSK";
+import { HALO } from "./HALO";
+import { INCY } from "./INCY";
+import { JAZZ } from "./JAZZ";
+import { MRNA } from "./MRNA";
+import { NBIX } from "./NBIX";
+import { NVS } from "./NVS";
+import { EXEL } from "./EXEL";
+import { LH } from "./LH";
+import { ACHC } from "./ACHC";
+import { CI } from "./CI";
+import { CNC } from "./CNC";
+import { DGX } from "./DGX";
+import { DHR } from "./DHR";
+import { DOCS } from "./DOCS";
+import { DVA } from "./DVA";
+import { DXCM } from "./DXCM";
+import { EHC } from "./EHC";
+import { ELV } from "./ELV";
+import { EW } from "./EW";
+import { HCA } from "./HCA";
+import { HOLX } from "./HOLX";
+import { ILMN } from "./ILMN";
+import { MASI } from "./MASI";
+import { MOH } from "./MOH";
+import { OSCR } from "./OSCR";
+import { QGEN } from "./QGEN";
+import { GKOS } from "./GKOS";
+import { BAX } from "./BAX";
+import { BDX } from "./BDX";
+import { AIT } from "./AIT";
+import { AME } from "./AME";
+import { AZEK } from "./AZEK";
+import { BLDR } from "./BLDR";
+import { CARR } from "./CARR";
+import { CPRT } from "./CPRT";
+import { CR } from "./CR";
+import { CTAS } from "./CTAS";
+import { DCI } from "./DCI";
+import { DOV } from "./DOV";
+import { EMR } from "./EMR";
+import { FAST } from "./FAST";
+import { FLEX } from "./FLEX";
+import { FLS } from "./FLS";
+import { FN } from "./FN";
+import { GGG } from "./GGG";
+import { GLW } from "./GLW";
+import { GWW } from "./GWW";
+import { HUBB } from "./HUBB";
+import { IEX } from "./IEX";
+import { IR } from "./IR";
+import { ITW } from "./ITW";
+import { J } from "./J";
+import { JBL } from "./JBL";
+import { JCI } from "./JCI";
+import { MSA } from "./MSA";
+import { NDSN } from "./NDSN";
+import { OTIS } from "./OTIS";
+import { ROP } from "./ROP";
+import { VLTO } from "./VLTO";
+import { CW } from "./CW";
+import { ACM } from "./ACM";
+import { GEO } from "./GEO";
+import { GFL } from "./GFL";
+import { DRS } from "./DRS";
+import { GD } from "./GD";
+import { HEI } from "./HEI";
+import { HII } from "./HII";
+import { LHX } from "./LHX";
+import { NOC } from "./NOC";
+import { ALK } from "./ALK";
+import { AUR } from "./AUR";
+import { DAL } from "./DAL";
+import { LUV } from "./LUV";
+import { MBLY } from "./MBLY";
+import { OPLN } from "./OPLN";
+import { BKR } from "./BKR";
+import { CTRA } from "./CTRA";
+import { DVN } from "./DVN";
+import { EQT } from "./EQT";
+import { FANG } from "./FANG";
+import { HAL } from "./HAL";
+import { KMI } from "./KMI";
+import { LNG } from "./LNG";
+import { MPC } from "./MPC";
+import { OKE } from "./OKE";
+import { OXY } from "./OXY";
+import { AEP } from "./AEP";
+import { AES } from "./AES";
+import { ARRY } from "./ARRY";
+import { ENPH } from "./ENPH";
+import { FSLR } from "./FSLR";
+import { GNRC } from "./GNRC";
+import { NRG } from "./NRG";
+import { NXT } from "./NXT";
+import { AEM } from "./AEM";
+import { ALB } from "./ALB";
+import { APD } from "./APD";
+import { AVY } from "./AVY";
+import { BALL } from "./BALL";
+import { CCJ } from "./CCJ";
+import { CCK } from "./CCK";
+import { CF } from "./CF";
+import { CTVA } from "./CTVA";
+import { DNN } from "./DNN";
+import { EMN } from "./EMN";
+import { EXP } from "./EXP";
+import { FMC } from "./FMC";
+import { GOLD } from "./GOLD";
+import { MLM } from "./MLM";
+import { MOS } from "./MOS";
+import { NEM } from "./NEM";
+import { NUE } from "./NUE";
+import { PPG } from "./PPG";
+import { RGLD } from "./RGLD";
+import { RPM } from "./RPM";
+import { ANF } from "./ANF";
+import { SG } from "./SG";
+import { SN } from "./SN";
+import { TGT } from "./TGT";
+import { AAP } from "./AAP";
+import { AZO } from "./AZO";
+import { BJ } from "./BJ";
+import { BURL } from "./BURL";
+import { CASY } from "./CASY";
+import { CCL } from "./CCL";
+import { COTY } from "./COTY";
+import { CROX } from "./CROX";
+import { DECK } from "./DECK";
+import { DKS } from "./DKS";
+import { DPZ } from "./DPZ";
+import { FIVE } from "./FIVE";
+import { FND } from "./FND";
+import { GPC } from "./GPC";
+import { HLT } from "./HLT";
+import { HOUS } from "./HOUS";
+import { LULU } from "./LULU";
+import { LVS } from "./LVS";
+import { MAR } from "./MAR";
+import { MGM } from "./MGM";
+import { EL } from "./EL";
+import { CAG } from "./CAG";
+import { CHD } from "./CHD";
+import { CLX } from "./CLX";
+import { HRL } from "./HRL";
+import { KHC } from "./KHC";
+import { LW } from "./LW";
+import { MDLZ } from "./MDLZ";
+import { ACGL } from "./ACGL";
+import { AFL } from "./AFL";
+import { AIZ } from "./AIZ";
+import { AJG } from "./AJG";
+import { ALLY } from "./ALLY";
+import { AON } from "./AON";
+import { BRO } from "./BRO";
+import { CINF } from "./CINF";
+import { DFS } from "./DFS";
+import { EG } from "./EG";
+import { ERIE } from "./ERIE";
+import { FITB } from "./FITB";
+import { FNF } from "./FNF";
+import { GL } from "./GL";
+import { HBAN } from "./HBAN";
+import { KEY } from "./KEY";
+import { MET } from "./MET";
+import { MRSH } from "./MRSH";
+import { CFG } from "./CFG";
+import { AMP } from "./AMP";
+import { APO } from "./APO";
+import { ARES } from "./ARES";
+import { BX } from "./BX";
+import { CBOE } from "./CBOE";
+import { CG } from "./CG";
+import { HAPN } from "./HAPN";
+import { IBKR } from "./IBKR";
+import { KKR } from "./KKR";
+import { LPLA } from "./LPLA";
+import { MKTX } from "./MKTX";
+import { COIN } from "./COIN";
 
 export const STOCK_STORIES: Record<string, StockStory> = {
   "NVDA": NVDA,
@@ -459,6 +730,277 @@ export const STOCK_STORIES: Record<string, StockStory> = {
   "RYAN": RYAN,
   "PLMR": PLMR,
   "EVR": EVR,
+  "BILL": BILL,
+  "BOX": BOX,
+  "CHKP": CHKP,
+  "EPAM": EPAM,
+  "GDYN": GDYN,
+  "KVYO": KVYO,
+  "NTSK": NTSK,
+  "ZS": ZS,
+  "APPF": APPF,
+  "CFLT": CFLT,
+  "COUR": COUR,
+  "CYBR": CYBR,
+  "DBX": DBX,
+  "DOCN": DOCN,
+  "DOCU": DOCU,
+  "DT": DT,
+  "FIVN": FIVN,
+  "FLYW": FLYW,
+  "FRSH": FRSH,
+  "GDDY": GDDY,
+  "GWRE": GWRE,
+  "HUBS": HUBS,
+  "MANH": MANH,
+  "MDB": MDB,
+  "NEWR": NEWR,
+  "OKTA": OKTA,
+  "ADSK": ADSK,
+  "ALTR": ALTR,
+  "FFIV": FFIV,
+  "GEN": GEN,
+  "JNPR": JNPR,
+  "NET": NET,
+  "NICE": NICE,
+  "ACIW": ACIW,
+  "ACLS": ACLS,
+  "ALGM": ALGM,
+  "ARM": ARM,
+  "ASML": ASML,
+  "ASX": ASX,
+  "CRUS": CRUS,
+  "ENTG": ENTG,
+  "MKSI": MKSI,
+  "MPWR": MPWR,
+  "NXPI": NXPI,
+  "ON": ON,
+  "DIOD": DIOD,
+  "BABA": BABA,
+  "BIDU": BIDU,
+  "CART": CART,
+  "CHWY": CHWY,
+  "CPNG": CPNG,
+  "DASH": DASH,
+  "EBAY": EBAY,
+  "ETSY": ETSY,
+  "EXPE": EXPE,
+  "JD": JD,
+  "LYV": LYV,
+  "MELI": MELI,
+  "MTCH": MTCH,
+  "NTES": NTES,
+  "NU": NU,
+  "PPLI": PPLI,
+  "EA": EA,
+  "AKAM": AKAM,
+  "GENI": GENI,
+  "IRDM": IRDM,
+  "ADP": ADP,
+  "BR": BR,
+  "FDS": FDS,
+  "FISV": FISV,
+  "FIS": FIS,
+  "GPN": GPN,
+  "JKHY": JKHY,
+  "MCO": MCO,
+  "MSCI": MSCI,
+  "MORN": MORN,
+  "CWAN": CWAN,
+  "BIIB": BIIB,
+  "ETON": ETON,
+  "GILD": GILD,
+  "GMAB": GMAB,
+  "KNSA": KNSA,
+  "KOD": KOD,
+  "KYMR": KYMR,
+  "ALNY": ALNY,
+  "AMGN": AMGN,
+  "ARGX": ARGX,
+  "ASND": ASND,
+  "AXGN": AXGN,
+  "AZN": AZN,
+  "BNTX": BNTX,
+  "BMY": BMY,
+  "GSK": GSK,
+  "HALO": HALO,
+  "INCY": INCY,
+  "JAZZ": JAZZ,
+  "MRNA": MRNA,
+  "NBIX": NBIX,
+  "NVS": NVS,
+  "EXEL": EXEL,
+  "LH": LH,
+  "ACHC": ACHC,
+  "CI": CI,
+  "CNC": CNC,
+  "DGX": DGX,
+  "DHR": DHR,
+  "DOCS": DOCS,
+  "DVA": DVA,
+  "DXCM": DXCM,
+  "EHC": EHC,
+  "ELV": ELV,
+  "EW": EW,
+  "HCA": HCA,
+  "HOLX": HOLX,
+  "ILMN": ILMN,
+  "MASI": MASI,
+  "MOH": MOH,
+  "OSCR": OSCR,
+  "QGEN": QGEN,
+  "GKOS": GKOS,
+  "BAX": BAX,
+  "BDX": BDX,
+  "AIT": AIT,
+  "AME": AME,
+  "AZEK": AZEK,
+  "BLDR": BLDR,
+  "CARR": CARR,
+  "CPRT": CPRT,
+  "CR": CR,
+  "CTAS": CTAS,
+  "DCI": DCI,
+  "DOV": DOV,
+  "EMR": EMR,
+  "FAST": FAST,
+  "FLEX": FLEX,
+  "FLS": FLS,
+  "FN": FN,
+  "GGG": GGG,
+  "GLW": GLW,
+  "GWW": GWW,
+  "HUBB": HUBB,
+  "IEX": IEX,
+  "IR": IR,
+  "ITW": ITW,
+  "J": J,
+  "JBL": JBL,
+  "JCI": JCI,
+  "MSA": MSA,
+  "NDSN": NDSN,
+  "OTIS": OTIS,
+  "ROP": ROP,
+  "VLTO": VLTO,
+  "CW": CW,
+  "ACM": ACM,
+  "GEO": GEO,
+  "GFL": GFL,
+  "DRS": DRS,
+  "GD": GD,
+  "HEI": HEI,
+  "HII": HII,
+  "LHX": LHX,
+  "NOC": NOC,
+  "ALK": ALK,
+  "AUR": AUR,
+  "DAL": DAL,
+  "LUV": LUV,
+  "MBLY": MBLY,
+  "OPLN": OPLN,
+  "BKR": BKR,
+  "CTRA": CTRA,
+  "DVN": DVN,
+  "EQT": EQT,
+  "FANG": FANG,
+  "HAL": HAL,
+  "KMI": KMI,
+  "LNG": LNG,
+  "MPC": MPC,
+  "OKE": OKE,
+  "OXY": OXY,
+  "AEP": AEP,
+  "AES": AES,
+  "ARRY": ARRY,
+  "ENPH": ENPH,
+  "FSLR": FSLR,
+  "GNRC": GNRC,
+  "NRG": NRG,
+  "NXT": NXT,
+  "AEM": AEM,
+  "ALB": ALB,
+  "APD": APD,
+  "AVY": AVY,
+  "BALL": BALL,
+  "CCJ": CCJ,
+  "CCK": CCK,
+  "CF": CF,
+  "CTVA": CTVA,
+  "DNN": DNN,
+  "EMN": EMN,
+  "EXP": EXP,
+  "FMC": FMC,
+  "GOLD": GOLD,
+  "MLM": MLM,
+  "MOS": MOS,
+  "NEM": NEM,
+  "NUE": NUE,
+  "PPG": PPG,
+  "RGLD": RGLD,
+  "RPM": RPM,
+  "ANF": ANF,
+  "SG": SG,
+  "SN": SN,
+  "TGT": TGT,
+  "AAP": AAP,
+  "AZO": AZO,
+  "BJ": BJ,
+  "BURL": BURL,
+  "CASY": CASY,
+  "CCL": CCL,
+  "COTY": COTY,
+  "CROX": CROX,
+  "DECK": DECK,
+  "DKS": DKS,
+  "DPZ": DPZ,
+  "FIVE": FIVE,
+  "FND": FND,
+  "GPC": GPC,
+  "HLT": HLT,
+  "HOUS": HOUS,
+  "LULU": LULU,
+  "LVS": LVS,
+  "MAR": MAR,
+  "MGM": MGM,
+  "EL": EL,
+  "CAG": CAG,
+  "CHD": CHD,
+  "CLX": CLX,
+  "HRL": HRL,
+  "KHC": KHC,
+  "LW": LW,
+  "MDLZ": MDLZ,
+  "ACGL": ACGL,
+  "AFL": AFL,
+  "AIZ": AIZ,
+  "AJG": AJG,
+  "ALLY": ALLY,
+  "AON": AON,
+  "BRO": BRO,
+  "CINF": CINF,
+  "DFS": DFS,
+  "EG": EG,
+  "ERIE": ERIE,
+  "FITB": FITB,
+  "FNF": FNF,
+  "GL": GL,
+  "HBAN": HBAN,
+  "KEY": KEY,
+  "MET": MET,
+  "MRSH": MRSH,
+  "CFG": CFG,
+  "AMP": AMP,
+  "APO": APO,
+  "ARES": ARES,
+  "BX": BX,
+  "CBOE": CBOE,
+  "CG": CG,
+  "HAPN": HAPN,
+  "IBKR": IBKR,
+  "KKR": KKR,
+  "LPLA": LPLA,
+  "MKTX": MKTX,
+  "COIN": COIN,
 };
 
 export function getStockStory(ticker: string): StockStory | null {

@@ -1,0 +1,39 @@
+{
+  "ticker": "AMP",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "AMERIPRISE FINANCIAL, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/820027/000082002726000011/amp-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Advice & Wealth Management",
+      "revenue": 10805000000,
+      "share": 0.5713605837872138
+    },
+    {
+      "name": "Asset Management",
+      "revenue": 3541000000,
+      "share": 0.1872455184813072
+    },
+    {
+      "name": "Retirement & Protection Solutions",
+      "revenue": 3512000000,
+      "share": 0.1857120194595738
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 595000000,
+      "share": 0.031463169583840093
+    },
+    {
+      "name": "Corporate & Other",
+      "revenue": 458000000,
+      "share": 0.02421870868806515
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

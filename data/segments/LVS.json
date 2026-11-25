@@ -1,0 +1,60 @@
+{
+  "ticker": "LVS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "LAS VEGAS SANDS CORP Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1300514/000130051426000013/lvs-20251231.htm",
+    "date": "2026-02-06"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Marina Bay Sands",
+      "revenue": 5584000000,
+      "share": 0.42897749097334253
+    },
+    {
+      "name": "Venetian Macao",
+      "revenue": 2736000000,
+      "share": 0.21018667895828533
+    },
+    {
+      "name": "The Londoner Macao",
+      "revenue": 2556000000,
+      "share": 0.1963586079741876
+    },
+    {
+      "name": "Parisian Macao",
+      "revenue": 872000000,
+      "share": 0.06698932165629562
+    },
+    {
+      "name": "The Plaza Macao & Four Seasons Macao",
+      "revenue": 872000000,
+      "share": 0.06698932165629562
+    },
+    {
+      "name": "Sands Macao",
+      "revenue": 294000000,
+      "share": 0.022585849274026272
+    },
+    {
+      "name": "Ferry Operationsand Other",
+      "revenue": 103000000,
+      "share": 0.007912729507567027
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "MO",
+      "revenue": 7433000000,
+      "share": 0.5710225090266574
+    },
+    {
+      "name": "Singapore",
+      "revenue": 5584000000,
+      "share": 0.42897749097334253
+    }
+  ]
+}

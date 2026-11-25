@@ -1,0 +1,45 @@
+{
+  "ticker": "ILMN",
+  "asOf": "2025-12-28",
+  "source": {
+    "name": "Illumina, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000024/ilmn-20251228.htm",
+    "date": "2026-02-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Sequencing",
+      "revenue": 3985000000,
+      "share": 0.9175685010361502
+    },
+    {
+      "name": "Microarray",
+      "revenue": 358000000,
+      "share": 0.08243149896384987
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 2406000000,
+      "share": 0.5539949343771586
+    },
+    {
+      "name": "Europe",
+      "revenue": 1264000000,
+      "share": 0.2910430577941515
+    },
+    {
+      "name": "Asia Pacific Middle East & Africa",
+      "revenue": 430000000,
+      "share": 0.09900990099009901
+    },
+    {
+      "name": "China",
+      "revenue": 243000000,
+      "share": 0.05595210683859084
+    }
+  ]
+}

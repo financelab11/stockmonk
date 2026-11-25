@@ -1,0 +1,40 @@
+{
+  "ticker": "NEWR",
+  "asOf": "2023-03-31",
+  "source": {
+    "name": "NEW RELIC, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1448056/000144805623000033/newr-20230331.htm",
+    "date": "2023-05-23"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 925626000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 597975000,
+      "share": 0.646022259530307
+    },
+    {
+      "name": "EMEA",
+      "revenue": 160349000,
+      "share": 0.17323303364425804
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 100224000,
+      "share": 0.10827699308359964
+    },
+    {
+      "name": "Other",
+      "revenue": 67078000,
+      "share": 0.07246771374183525
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "ticker": "MAR",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "MARRIOTT INTERNATIONAL INC /MD/ Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1048286/000104828626000007/mar-20251231.htm",
+    "date": "2026-02-10"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "US & Canada",
+      "revenue": 19349000000,
+      "share": 0.7389062858015734
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 2767000000,
+      "share": 0.10566715038570228
+    },
+    {
+      "name": "EMEA",
+      "revenue": 2407000000,
+      "share": 0.09191934621553502
+    },
+    {
+      "name": "APEC",
+      "revenue": 1073000000,
+      "share": 0.040976094096081876
+    },
+    {
+      "name": "Greater China",
+      "revenue": 590000000,
+      "share": 0.02253112350110746
+    }
+  ],
+  "geographyLabel": null,
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 5672000000,
+      "share": 0.2166042923699687
+    }
+  ]
+}

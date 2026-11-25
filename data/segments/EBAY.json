@@ -1,0 +1,45 @@
+{
+  "ticker": "EBAY",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "eBay Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000027/ebay-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 11100000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 5789000000,
+      "share": 0.5215315315315315
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 1565000000,
+      "share": 0.140990990990991
+    },
+    {
+      "name": "Restof World",
+      "revenue": 1515000000,
+      "share": 0.13648648648648648
+    },
+    {
+      "name": "China",
+      "revenue": 1253000000,
+      "share": 0.11288288288288288
+    },
+    {
+      "name": "Germany",
+      "revenue": 978000000,
+      "share": 0.08810810810810811
+    }
+  ]
+}

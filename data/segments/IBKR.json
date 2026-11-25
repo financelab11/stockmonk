@@ -1,0 +1,30 @@
+{
+  "ticker": "IBKR",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "INTERACTIVE BROKERS GROUP, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1381197/000138119726000062/ibkr-20251231.htm",
+    "date": "2026-02-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 2440000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1482000000,
+      "share": 0.6073770491803279
+    },
+    {
+      "name": "Non-US",
+      "revenue": 958000000,
+      "share": 0.39262295081967213
+    }
+  ]
+}

@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-11-24T20:29:13.395Z",
+  "generatedAt": "2026-11-25T18:47:07.481Z",
   "counts": {
-    "current": 226,
+    "current": 484,
     "rewrite-pending": 0,
     "data-stale": 0,
-    "source-gap": 3
+    "source-gap": 3,
+    "archived": 13
   },
   "pending": [],
   "sourceGaps": [

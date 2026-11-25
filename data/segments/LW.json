@@ -1,0 +1,35 @@
+{
+  "ticker": "LW",
+  "asOf": "2026-05-31",
+  "source": {
+    "name": "LAMB WESTON HOLDINGS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679273/000167927326000026/lw-20260531.htm",
+    "date": "2026-07-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Segments North America",
+      "revenue": 4395200000,
+      "share": 0.6647006336675589
+    },
+    {
+      "name": "Segments International",
+      "revenue": 2217100000,
+      "share": 0.33529936633244106
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 4289600000,
+      "share": 0.6487303963824993
+    },
+    {
+      "name": "Non-US",
+      "revenue": 2322700000,
+      "share": 0.3512696036175007
+    }
+  ]
+}

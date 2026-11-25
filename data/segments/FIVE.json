@@ -1,0 +1,19 @@
+{
+  "ticker": "FIVE",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "Five Below, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1177609/000117760926000010/five-20260131.htm",
+    "date": "2026-03-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 4764147000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

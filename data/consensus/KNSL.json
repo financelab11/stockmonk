@@ -1,7 +1,7 @@
 {
   "ticker": "KNSL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/KNSL/analysis",
   "targetMean": 354.55557,
   "targetHigh": 405,

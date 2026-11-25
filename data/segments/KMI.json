@@ -1,0 +1,45 @@
+{
+  "ticker": "KMI",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "KINDER MORGAN, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1506307/000150630726000011/kmi-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Natural Gas Pipelines",
+      "revenue": 10990000000,
+      "share": 0.7229311932640442
+    },
+    {
+      "name": "Products Pipelines",
+      "revenue": 2686000000,
+      "share": 0.17668727798973818
+    },
+    {
+      "name": "Co2",
+      "revenue": 1167000000,
+      "share": 0.07676621497171425
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 359000000,
+      "share": 0.023615313774503356
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 16926000000,
+      "share": 1.113406130772267
+    },
+    {
+      "name": "MX",
+      "revenue": 11000000,
+      "share": 0.000723589001447178
+    }
+  ]
+}

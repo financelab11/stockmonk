@@ -1,0 +1,24 @@
+{
+  "ticker": "BABA",
+  "asOf": "2026-03-31",
+  "source": {
+    "name": "Alibaba Group Holding Ltd Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm",
+    "date": "2026-05-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "International Digital Commerce Group",
+      "revenue": 144170000000,
+      "share": 0.9709542861899876
+    },
+    {
+      "name": "Alibaba International Digital Commerce Group",
+      "revenue": 144170000000,
+      "share": 0.9709542861899876
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

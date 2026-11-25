@@ -1,0 +1,45 @@
+{
+  "ticker": "KKR",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "KKR & CO. INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm",
+    "date": "2026-02-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Insurance",
+      "revenue": 11628799000,
+      "share": 0.5974422310540005
+    },
+    {
+      "name": "Asset Management",
+      "revenue": 4100841000,
+      "share": 0.21068517877363935
+    },
+    {
+      "name": "Asset Management & Strategic Holdings Segments",
+      "revenue": 4064273000,
+      "share": 0.20880645789238733
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 2500000000,
+      "share": 0.12844022651307338
+    },
+    {
+      "name": "Europe & Middle East",
+      "revenue": 800000000,
+      "share": 0.04110087248418349
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 700000000,
+      "share": 0.035963263423660546
+    }
+  ]
+}

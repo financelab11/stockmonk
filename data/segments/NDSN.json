@@ -1,0 +1,45 @@
+{
+  "ticker": "NDSN",
+  "asOf": "2025-10-31",
+  "source": {
+    "name": "NORDSON CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/72331/000007233125000144/ndsn-20251031.htm",
+    "date": "2025-12-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Industrial Precisions Solutions",
+      "revenue": 1331792000,
+      "share": 0.47705634621646337
+    },
+    {
+      "name": "Medical Fluid Systems",
+      "revenue": 835385000,
+      "share": 0.29924020851907823
+    },
+    {
+      "name": "Advanced Technology Systems",
+      "revenue": 624510000,
+      "share": 0.22370344526445837
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 1205830000,
+      "share": 0.43193595843660126
+    },
+    {
+      "name": "Asia Pacific Excluding Japan",
+      "revenue": 863636000,
+      "share": 0.3093598960055336
+    },
+    {
+      "name": "Europe",
+      "revenue": 722221000,
+      "share": 0.2587041455578652
+    }
+  ]
+}

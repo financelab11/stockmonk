@@ -1,9 +1,9 @@
 {
   "ticker": "COST",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/COST/analysis",
-  "targetMean": 1084.598,
+  "targetMean": 1085.3513,
   "targetHigh": 1315,
   "targetLow": 770,
   "recommendationKey": "buy",
@@ -98,7 +98,7 @@
   "revisions": {
     "eps7d": 0,
     "eps30d": 0.001306543635269053,
-    "eps60d": 0.0037079683743743708,
+    "eps60d": 0.0033679811575819674,
     "eps90d": 0.005839559436752628,
     "revenue30d": null
   }

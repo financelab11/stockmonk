@@ -18,7 +18,7 @@ export const HPQ: StockStory = {
     "paragraphs": [
       "HP's profit comes from supplies, not from computers. Printing is 30.2% of revenue but carries the margin, while Personal Systems is 69.7% of revenue and carries the scale. The July 2026 quarter produced $15.7B of revenue at a 5.7% operating margin and $0.71 of EPS, after a 4.2% margin in the April quarter. The swing is large in relative terms because the operating margin is only 5.4% on a trailing basis.",
       "The PC business is a replacement market. Customers are consumers, small businesses, large enterprises, schools and governments, and the decision is driven by price, manageability and supply reliability. The printing business sells hardware and then supplies, and the supplies are locked to a cartridge format. That lock-in is why a 19.9% blended gross margin can still produce a 5.4% operating margin and a 6.6% free-cash-flow margin. The printer is the razor; the cartridge is the recurring revenue.",
-      "At $29 the shares trade at 10.6x earnings, 7.8x EV/EBITDA, 0.5x sales and 6.7x free cash flow, with a 14.9% free-cash-flow yield and a 4.3% dividend yield. The peer group trades on 32.0x earnings and 25.5x EV/EBITDA, and HP is in the 3rd percentile on both. Net debt is $6.3B, or 1.5x EBITDA, and book equity is negative. The valuation is not a forecast of recovery; it is a forecast of managed decline."
+      "At $30.39 the shares trade at 11.2x earnings, 8.1x EV/EBITDA, 0.6x sales and 7.1x free cash flow, with a 14.2% free-cash-flow yield and a 4.3% dividend yield. The peer group trades on 32.0x earnings and 25.5x EV/EBITDA, and HP is in the 3rd percentile on both. Net debt is $6.3B, or 1.5x EBITDA, and book equity is negative. The valuation is not a forecast of recovery; it is a forecast of managed decline."
     ],
     "quote": "The cartridge, not the computer, is where HP makes its profit, and the 14.9% free-cash-flow yield prices a slow run-off."
   },
@@ -73,15 +73,15 @@ export const HPQ: StockStory = {
   },
   "valuation": {
     "paragraphs": [
-      "At $29 HP trades at 10.6x earnings, 7.8x EV/EBITDA, 0.5x sales and 6.7x free cash flow, with a 14.9% free-cash-flow yield. Against 32.0x earnings and 25.5x EV/EBITDA for the peer group, the discount is extreme. That is not a normal discount; it is the market assigning a terminal value to a business it expects to shrink. The 4.3% dividend yield is the return investors are being paid to wait.",
-      "Forward numbers are stable rather than cheap. FY2026 EPS of $3.24 implies 9.0x, and FY2027 EPS of $3.15 implies 9.2x. The multiple does not assume growth; it assumes the cash flow persists. The consensus expects EPS to fall 2.7% in FY2027 on revenue growth of 0.6%, which is a modest decline rather than a collapse. At 6.7x free cash flow, a modest decline is already priced.",
+      "At $30.39 HP trades at 11.2x earnings, 8.1x EV/EBITDA, 0.6x sales and 7.1x free cash flow, with a 14.2% free-cash-flow yield. Against 32.0x earnings and 25.5x EV/EBITDA for the peer group, the discount is extreme. That is not a normal discount; it is the market assigning a terminal value to a business it expects to shrink. The 4.3% dividend yield is the return investors are being paid to wait.",
+      "Forward numbers are stable rather than cheap. FY2027 EPS of $3.15 implies 9.6x, and FY2028 EPS of $3.37 implies 9.0x. The multiple does not assume growth; it assumes the cash flow persists. The consensus expects EPS to rise 7.1% in FY2028 on roughly flat revenue, a modest recovery rather than a new cycle. At 7.1x free cash flow, that is already priced.",
       "What would break the case is a faster rate of supplies erosion. A 10% annual decline in the profit pool would overwhelm a 14.9% free-cash-flow yield within a few years, because the yield is a static measure and the decline compounds. What would justify it is evidence that page volumes are stabilising and that the PC business is holding share. Neither is visible in the reported numbers."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "Seventeen analysts make up the 18 November 2026 Yahoo Finance consensus. Their targets span $20 to $33 and average $28. The mean is below the $29 price, which is the clearest signal in the consensus.",
-      "FY2026 estimates are $59.7B of revenue and $3.24 of EPS; FY2027 is $60.1B and $3.15. EPS revisions are plus 7.3% over 90 days but negative 0.2% over 30 days, so the improvement is stale. The consensus assumes the October quarter produces $15.3B and $0.74 of EPS, down 20.3% year over year, which is a sharp decline for a company with flat revenue."
+      "Seventeen analysts make up the 25 November 2026 Yahoo Finance consensus. Their targets span $20 to $33.40 and average $27.55. The mean is below the $30.39 price, which is the clearest signal in the consensus.",
+      "FY2027 estimates are $60.0B of revenue and $3.15 of EPS; FY2028 is $59.9B and $3.37. EPS revisions are plus 5.0% over 90 days but negative 0.2% over 30 days, so the improvement is stale. The consensus assumes the January quarter produces $14.8B and $0.71 of EPS, down 12.2% year over year, which is a sharp decline for a company with flat revenue."
     ]
   },
   "risks": {
@@ -147,5 +147,5 @@ export const HPQ: StockStory = {
     ]
   },
   "narrativeSource": "curated",
-  "narrativeUpdatedAt": "2026-11-24"
+  "narrativeUpdatedAt": "2026-11-25"
 };

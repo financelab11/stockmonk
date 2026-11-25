@@ -99,7 +99,7 @@ export default async function StockPage({
   const story =
     getStockStory(data.ticker) ?? (bundle ? generateStockStory(bundle) : null);
   // Load only a handful of neighbouring names for the related cards instead of
-  // every research bundle on each of the 229 statically generated pages.
+  // every research bundle on each of the 500 statically generated pages.
   const researchCompanies = getResearchCompanies();
   const index = researchCompanies.findIndex(
     (company) => company.ticker === data.ticker,

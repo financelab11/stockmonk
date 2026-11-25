@@ -1,0 +1,55 @@
+{
+  "ticker": "BDX",
+  "asOf": "2026-09-30",
+  "source": {
+    "name": "BECTON DICKINSON & CO Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/10795/000001079526000039/bdx-20260930.htm",
+    "date": "2026-11-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Medical Essentials",
+      "revenue": 6703000000,
+      "share": 0.3445032636069281
+    },
+    {
+      "name": "Interventional",
+      "revenue": 5573000000,
+      "share": 0.2864264789021946
+    },
+    {
+      "name": "Connected Care",
+      "revenue": 4745000000,
+      "share": 0.2438711003751863
+    },
+    {
+      "name": "Bio Pharma Systems",
+      "revenue": 2437000000,
+      "share": 0.12525055250038547
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 12061000000,
+      "share": 0.619879734799815
+    },
+    {
+      "name": "Europe",
+      "revenue": 3577000000,
+      "share": 0.18384129105206354
+    },
+    {
+      "name": "Asia",
+      "revenue": 2407000000,
+      "share": 0.12370869095955184
+    },
+    {
+      "name": "Others Country",
+      "revenue": 1412000000,
+      "share": 0.07257028318856967
+    }
+  ]
+}

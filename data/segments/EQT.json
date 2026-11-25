@@ -1,0 +1,29 @@
+{
+  "ticker": "EQT",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "EQT CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/33213/000003321326000018/eqt-20251231.htm",
+    "date": "2026-02-18"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Upstream",
+      "revenue": 8024057000,
+      "share": 0.9282578826453912
+    },
+    {
+      "name": "Transmission",
+      "revenue": 572252000,
+      "share": 0.06620060523742421
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 47902000,
+      "share": 0.005541512117184553
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

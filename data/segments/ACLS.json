@@ -1,0 +1,35 @@
+{
+  "ticker": "ACLS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "AXCELIS TECHNOLOGIES INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1113232/000110465926020461/acls-20251231x10k.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Single Reportable",
+      "revenue": 839048000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Asia Pacific",
+      "revenue": 610211000,
+      "share": 0.7272659013548689
+    },
+    {
+      "name": "North America",
+      "revenue": 137078000,
+      "share": 0.16337325158989713
+    },
+    {
+      "name": "Europe",
+      "revenue": 91759000,
+      "share": 0.10936084705523402
+    }
+  ]
+}

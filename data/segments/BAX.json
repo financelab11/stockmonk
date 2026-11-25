@@ -1,0 +1,45 @@
+{
+  "ticker": "BAX",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "BAXTER INTERNATIONAL INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/10456/000162828026007733/bax-20251231.htm",
+    "date": "2026-02-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Medical Products & Therapies",
+      "revenue": 5299000000,
+      "share": 0.47127356812522236
+    },
+    {
+      "name": "Healthcare Systems & Technologies",
+      "revenue": 3071000000,
+      "share": 0.27312344361437213
+    },
+    {
+      "name": "Pharmaceuticals",
+      "revenue": 2493000000,
+      "share": 0.22171824973319104
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 381000000,
+      "share": 0.03388473852721451
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 6122000000,
+      "share": 0.5444681607968694
+    },
+    {
+      "name": "Non-US",
+      "revenue": 5122000000,
+      "share": 0.45553183920313056
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ticker": "SPOT",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Spotify Technology S.A. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm",
+    "date": "2026-02-10"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 20188896513,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

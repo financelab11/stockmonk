@@ -1,13 +1,13 @@
 {
   "ticker": "NVDA",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
-  "targetMean": 244.71103,
+  "targetMean": 242.4278,
   "targetHigh": 425,
   "targetLow": 130,
   "recommendationKey": "buy",
-  "analystCount": 58,
+  "analystCount": 59,
   "distribution": {
     "strongBuy": 10,
     "buy": 39,
@@ -19,37 +19,37 @@
     {
       "period": "Next quarter",
       "endDate": "2027-01-31",
-      "revenueAvg": 130825535680,
+      "revenueAvg": 130826074070,
       "revenueGrowth": 0.9203,
-      "epsAvg": 2.88028,
-      "epsGrowth": 0.77800006,
-      "analystCount": 42
+      "epsAvg": 2.87956,
+      "epsGrowth": 0.7775,
+      "analystCount": 41
     },
     {
       "period": "Following quarter",
       "endDate": "2027-04-30",
-      "revenueAvg": 147862026200,
-      "revenueGrowth": 0.8117,
-      "epsAvg": 3.33106,
-      "epsGrowth": 0.78129995,
-      "analystCount": 39
+      "revenueAvg": 147591999890,
+      "revenueGrowth": 0.8084,
+      "epsAvg": 3.32477,
+      "epsGrowth": 0.77800006,
+      "analystCount": 38
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-01-31",
-      "revenueAvg": 423664744700,
-      "revenueGrowth": 0.96199995,
-      "epsAvg": 9.66925,
-      "epsGrowth": 1.0271,
+      "revenueAvg": 423798321620,
+      "revenueGrowth": 0.9626,
+      "epsAvg": 9.67246,
+      "epsGrowth": 1.0278,
       "analystCount": 53
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-01-31",
-      "revenueAvg": 726015650900,
-      "revenueGrowth": 0.71370006,
+      "revenueAvg": 726229969860,
+      "revenueGrowth": 0.7136,
       "epsAvg": 16.60528,
-      "epsGrowth": 0.71730006,
+      "epsGrowth": 0.7168,
       "analystCount": 55
     }
   ],
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2027-01-31",
-    "revenueAvg": 130825535680,
+    "revenueAvg": 130826074070,
     "revenueGrowth": 0.9203,
-    "epsAvg": 2.88028,
-    "epsGrowth": 0.77800006,
-    "analystCount": 42
+    "epsAvg": 2.87956,
+    "epsGrowth": 0.7775,
+    "analystCount": 41
   },
   "revisions": {
-    "eps7d": 0.03432580687949538,
-    "eps30d": 0.038317644607953616,
-    "eps60d": 0.03890780509136538,
-    "eps90d": 0.06823301438525453,
+    "eps7d": -0.0009770789264940127,
+    "eps30d": 0.038662345555720234,
+    "eps60d": 0.0392527019607547,
+    "eps90d": 0.04015795195842986,
     "revenue30d": null
   }
 }

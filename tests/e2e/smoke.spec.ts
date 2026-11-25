@@ -56,8 +56,8 @@ test.describe("route smoke tests", () => {
     const response = await request.get("/api/health/data");
     expect([200, 503]).toContain(response.status());
     const body = await response.json();
-    expect(body.stories.total).toBe(229);
-    expect(body.prices.total).toBe(229);
+    expect(body.stories.total).toBe(500);
+    expect(body.prices.total).toBe(500);
     expect(Array.isArray(body.problems)).toBe(true);
   });
 

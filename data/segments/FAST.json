@@ -1,0 +1,40 @@
+{
+  "ticker": "FAST",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "FASTENAL CO Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/815556/000081555626000009/fast-20251231.htm",
+    "date": "2026-02-05"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable Segment Aggregation Before Other Operating",
+      "revenue": 6818900000,
+      "share": 0.8315224681421864
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 1381600000,
+      "share": 0.16847753185781356
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 6818900000,
+      "share": 0.8315224681421864
+    },
+    {
+      "name": "Canadaand Mexico",
+      "revenue": 1110200000,
+      "share": 0.13538198890311567
+    },
+    {
+      "name": "Non North America",
+      "revenue": 271400000,
+      "share": 0.03309554295469788
+    }
+  ]
+}

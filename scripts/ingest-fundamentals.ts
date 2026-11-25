@@ -5,7 +5,7 @@
  * EDGAR supplies the statements (via `pnpm ingest:edgar`); Yahoo supplies the
  * daily price history, market capitalisation, share count and company profile.
  * Delisted names with no current Yahoo history keep their last available price
- * series so the 229-name research library stays complete.
+ * series so the 500-name research library stays complete.
  *
  * Run: pnpm ingest:fundamentals
  */
@@ -15,6 +15,7 @@ loadEnv();
 import fs from "node:fs/promises";
 import path from "node:path";
 import { getCoverageGroup } from "../config/coverage";
+import { getArchivedCompany } from "../config/archive";
 import {
   BENCHMARK_TICKER,
   RESEARCH_TICKERS,
@@ -35,6 +36,7 @@ import {
   type UniverseEntry,
 } from "../lib/schemas";
 import { yahooChart, yahooQuoteSummary } from "../lib/yahoo";
+import { formatDate } from "../lib/format";
 
 const PROCESSED = path.join(process.cwd(), "data", "processed");
 const PUBLIC_DATA = path.join(process.cwd(), "public", "data");
@@ -52,6 +54,7 @@ type SecFile = {
   ticker: string;
   cik?: string;
   entityName?: string;
+  sharesOutstanding?: number | null;
   quarterly: FinancialRow[];
   annual: FinancialRow[];
   filings?: {
@@ -163,19 +166,34 @@ async function main() {
     );
     const symbol = TICKER_ALIASES[ticker]?.yahoo ?? ticker;
     const group = getCoverageGroup(ticker);
+    const archived = getArchivedCompany(ticker);
 
     try {
-      const chart = await yahooChart(symbol, "20y").catch(() => null);
+      const chart = archived
+        ? null
+        : await yahooChart(symbol, "20y").catch(() => null);
       const existingPrices =
         (await readJson<PricePoint[]>(
           path.join(PROCESSED, ticker, "prices.json"),
         )) ?? [];
       const hasYahooPrices = Boolean(chart && chart.points.length >= 30);
-      const prices: PricePoint[] = hasYahooPrices
-        ? chart!.points
-        : existingPrices.length > 0
-          ? existingPrices
-          : (chart?.points ?? []);
+      const prices: PricePoint[] = archived
+        ? [
+            {
+              d: archived.lastTraded,
+              o: archived.lastClose,
+              h: archived.lastClose,
+              l: archived.lastClose,
+              c: archived.lastClose,
+              a: archived.lastClose,
+              v: 0,
+            },
+          ]
+        : hasYahooPrices
+          ? chart!.points
+          : existingPrices.length > 0
+            ? existingPrices
+            : (chart?.points ?? []);
 
       if (prices.length === 0) {
         console.warn(`[fundamentals] ${ticker}: no price history`);
@@ -184,25 +202,32 @@ async function main() {
         continue;
       }
 
-      const summary = await profileFor(symbol);
+      const summary = archived ? null : await profileFor(symbol);
       const quote = summary?.price;
       const profile = summary?.assetProfile;
       const detail = summary?.summaryDetail;
       const stats = summary?.defaultKeyStatistics;
 
+      const positive = (value: number | null | undefined) =>
+        value != null && value > 0 ? value : null;
       const sharesOutstanding =
-        raw(quote?.sharesOutstanding) ??
-        raw(stats?.sharesOutstanding) ??
-        existing?.latestPrice.sharesOutstanding ??
+        positive(raw(quote?.sharesOutstanding)) ??
+        positive(raw(stats?.sharesOutstanding)) ??
+        positive(existing?.latestPrice.sharesOutstanding) ??
+        positive(archived ? (sec.sharesOutstanding ?? null) : null) ??
         null;
       const marketCap =
-        raw(quote?.marketCap) ??
-        raw(detail?.marketCap) ??
-        (raw(quote?.regularMarketPrice) !== null && sharesOutstanding !== null
+        positive(raw(quote?.marketCap)) ??
+        positive(raw(detail?.marketCap)) ??
+        (positive(raw(quote?.regularMarketPrice)) !== null &&
+        sharesOutstanding !== null
           ? (raw(quote?.regularMarketPrice) as number) * sharesOutstanding
           : null) ??
-        existing?.latestPrice.marketCap ??
-        existingMarketCaps.get(ticker) ??
+        (archived && sharesOutstanding !== null
+          ? archived.lastClose * sharesOutstanding
+          : null) ??
+        positive(existing?.latestPrice.marketCap) ??
+        positive(existingMarketCaps.get(ticker)) ??
         null;
       const dividendYield =
         raw(detail?.dividendYield) ??
@@ -222,17 +247,36 @@ async function main() {
         await sleep(DELAY_MS);
         continue;
       }
+      // Some foreign private issuers report revenue under tags the XBRL
+      // reconstruction does not map. Yahoo's trailing revenue is a labelled
+      // fallback only when the SEC line is genuinely missing.
+      if (computed.metrics.revenueTtm == null) {
+        const yahooRevenue = raw(summary?.financialData?.totalRevenue);
+        if (yahooRevenue != null && yahooRevenue > 0) {
+          computed.metrics.revenueTtm = yahooRevenue;
+          computed.metrics.revenueGrowthTtm =
+            raw(summary?.financialData?.revenueGrowth) ??
+            computed.metrics.revenueGrowthTtm;
+          console.log(
+            `[fundamentals] ${ticker}: revenue filled from Yahoo trailing data`,
+          );
+        }
+      }
 
-      const name = sentenceCaseCompany(
-        quote?.longName ??
-          quote?.shortName ??
-          sec.entityName ??
-          existing?.name ??
-          ticker,
-      );
-      const fallbackDescription = `${name} is a US-listed company in the ${
-        group?.name ?? "US equity"
-      } coverage group. Its statements below come from SEC filings.`;
+      const name = archived
+        ? archived.name
+        : sentenceCaseCompany(
+            quote?.longName ??
+              quote?.shortName ??
+              sec.entityName ??
+              existing?.name ??
+              ticker,
+          );
+      const fallbackDescription = archived
+        ? `${archived.name} was ${archived.status === "acquired" ? "acquired" : "taken private"} by ${archived.acquirer}. The final consideration was ${archived.consideration}. The shares last traded on ${formatDate(archived.lastTraded)}; the statements below are the final SEC filings and the article is retained as archived coverage.`
+        : `${name} is a US-listed company in the ${
+            group?.name ?? "US equity"
+          } coverage group. Its statements below come from SEC filings.`;
       const hq =
         [profile?.city, profile?.state, profile?.country]
           .filter(Boolean)
@@ -241,14 +285,16 @@ async function main() {
       const latestPrice = {
         ...computed.snapshot,
         close: computed.snapshot.close,
-        high52:
-          raw(detail?.fiftyTwoWeekHigh) ??
-          chart?.meta.fiftyTwoWeekHigh ??
-          computed.snapshot.high52,
-        low52:
-          raw(detail?.fiftyTwoWeekLow) ??
-          chart?.meta.fiftyTwoWeekLow ??
-          computed.snapshot.low52,
+        high52: archived
+          ? archived.lastClose
+          : (raw(detail?.fiftyTwoWeekHigh) ??
+            chart?.meta.fiftyTwoWeekHigh ??
+            computed.snapshot.high52),
+        low52: archived
+          ? archived.lastClose
+          : (raw(detail?.fiftyTwoWeekLow) ??
+            chart?.meta.fiftyTwoWeekLow ??
+            computed.snapshot.low52),
         marketCap,
         sharesOutstanding,
         dividendYield,
@@ -262,13 +308,19 @@ async function main() {
               date: sec.filings.latest10K.filed,
             }
           : null,
-        {
-          name: hasYahooPrices
-            ? "Yahoo Finance price history and profile"
-            : "Last available market close (delisted)",
-          url: `https://finance.yahoo.com/quote/${symbol}`,
-          date: latestPrice.asOf,
-        },
+        archived
+          ? {
+              name: `${archived.status === "acquired" ? "Acquisition" : "Take-private"} completion (${archived.acquirer})`,
+              url: archived.sourceUrl,
+              date: archived.lastTraded,
+            }
+          : {
+              name: hasYahooPrices
+                ? "Yahoo Finance price history and profile"
+                : "Last available market close (delisted)",
+              url: `https://finance.yahoo.com/quote/${symbol}`,
+              date: latestPrice.asOf,
+            },
         sec.filings?.earningsReleaseUrl
           ? {
               name: "SEC EDGAR 8-K earnings release",
@@ -390,6 +442,7 @@ async function main() {
         evEbitda: record.metrics.evEbitda,
         factorChips: record.factorChips,
         asOf: record.latestPrice.asOf || null,
+        archived: Boolean(getArchivedCompany(record.ticker)),
       }),
     );
   }

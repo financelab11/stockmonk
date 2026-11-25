@@ -1,0 +1,19 @@
+{
+  "ticker": "ETON",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ETON PHARMACEUTICALS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1710340/000143774926009059/eton20251231_10k.htm",
+    "date": "2026-03-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 79950000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

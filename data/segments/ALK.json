@@ -1,0 +1,45 @@
+{
+  "ticker": "ALK",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ALASKA AIR GROUP, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/766421/000076642126000010/alk-20251231.htm",
+    "date": "2026-02-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Alaska Airlines",
+      "revenue": 9090000000,
+      "share": 0.6383875272139897
+    },
+    {
+      "name": "Hawaiian Airlines",
+      "revenue": 3283000000,
+      "share": 0.23056394409719783
+    },
+    {
+      "name": "Regional",
+      "revenue": 1853000000,
+      "share": 0.13013554322635015
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 11631000000,
+      "share": 0.8168410702998806
+    },
+    {
+      "name": "Latin America",
+      "revenue": 674000000,
+      "share": 0.04733478474611981
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 530000000,
+      "share": 0.03722171500807641
+    }
+  ]
+}

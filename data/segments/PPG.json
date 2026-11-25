@@ -1,0 +1,50 @@
+{
+  "ticker": "PPG",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "PPG INDUSTRIES INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/79879/000007987926000046/ppg-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Industrial Coatings",
+      "revenue": 6524000000,
+      "share": 0.41096062992125987
+    },
+    {
+      "name": "Performance Coatings",
+      "revenue": 5513000000,
+      "share": 0.3472755905511811
+    },
+    {
+      "name": "Global Architectural Coatings",
+      "revenue": 3838000000,
+      "share": 0.24176377952755906
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 5372000000,
+      "share": 0.33839370078740155
+    },
+    {
+      "name": "EMEA",
+      "revenue": 5368000000,
+      "share": 0.33814173228346456
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 2937000000,
+      "share": 0.18500787401574803
+    },
+    {
+      "name": "Latin America",
+      "revenue": 2198000000,
+      "share": 0.13845669291338583
+    }
+  ]
+}

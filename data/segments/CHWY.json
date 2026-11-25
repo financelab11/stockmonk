@@ -1,0 +1,19 @@
+{
+  "ticker": "CHWY",
+  "asOf": "2026-02-01",
+  "source": {
+    "name": "Chewy, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1766502/000176650226000034/chwy-20260201.htm",
+    "date": "2026-03-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 12601500000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

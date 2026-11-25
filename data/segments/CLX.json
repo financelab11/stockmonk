@@ -1,0 +1,50 @@
+{
+  "ticker": "CLX",
+  "asOf": "2025-06-30",
+  "source": {
+    "name": "THE CLOROX COMPANY Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000034/clx-20260630.htm",
+    "date": "2026-08-07"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Health & Wellness",
+      "revenue": 2697000000,
+      "share": 0.3796452702702703
+    },
+    {
+      "name": "Household",
+      "revenue": 2001000000,
+      "share": 0.2816722972972973
+    },
+    {
+      "name": "Lifestyle",
+      "revenue": 1303000000,
+      "share": 0.1834177927927928
+    },
+    {
+      "name": "International",
+      "revenue": 1065000000,
+      "share": 0.14991554054054054
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 38000000,
+      "share": 0.005349099099099099
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 6080000000,
+      "share": 0.8558558558558559
+    },
+    {
+      "name": "Non-US",
+      "revenue": 1024000000,
+      "share": 0.14414414414414414
+    }
+  ]
+}

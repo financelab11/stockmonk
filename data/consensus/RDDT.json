@@ -1,7 +1,7 @@
 {
   "ticker": "RDDT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/RDDT/analysis",
   "targetMean": 148.46207,
   "targetHigh": 272,

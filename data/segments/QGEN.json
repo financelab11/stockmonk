@@ -1,0 +1,35 @@
+{
+  "ticker": "QGEN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "QIAGEN N.V. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1015820/000101582026000018/qgen-20251231.htm",
+    "date": "2026-03-20"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 2089999000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Total Americas",
+      "revenue": 1086513000,
+      "share": 0.5198629281640804
+    },
+    {
+      "name": "EMEA",
+      "revenue": 712759000,
+      "share": 0.34103317752783613
+    },
+    {
+      "name": "Asia Pacific & Rest Of World",
+      "revenue": 290727000,
+      "share": 0.1391038943080834
+    }
+  ]
+}

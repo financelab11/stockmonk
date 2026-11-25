@@ -1,0 +1,55 @@
+{
+  "ticker": "ROP",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ROPER TECHNOLOGIES, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/882835/000088283526000009/rop-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Application Software",
+      "revenue": 4483000000,
+      "share": 0.5672888326478962
+    },
+    {
+      "name": "Technology Enabled Products",
+      "revenue": 1818700000,
+      "share": 0.23014236001265423
+    },
+    {
+      "name": "Network Software & Systems",
+      "revenue": 1600800000,
+      "share": 0.20256880733944954
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 6872800000,
+      "share": 0.8696994621955078
+    },
+    {
+      "name": "Europe",
+      "revenue": 541400000,
+      "share": 0.0685099652008858
+    },
+    {
+      "name": "CA",
+      "revenue": 291700000,
+      "share": 0.03691236950332173
+    },
+    {
+      "name": "Rest Of World",
+      "revenue": 125500000,
+      "share": 0.015881050300537804
+    },
+    {
+      "name": "Asia",
+      "revenue": 71100000,
+      "share": 0.008997152799746916
+    }
+  ]
+}

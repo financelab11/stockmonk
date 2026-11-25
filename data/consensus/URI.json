@@ -1,12 +1,12 @@
 {
   "ticker": "URI",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/URI/analysis",
   "targetMean": 1298.0476,
   "targetHigh": 1652,
   "targetLow": 950,
-  "recommendationKey": "buy",
+  "recommendationKey": "none",
   "analystCount": 21,
   "distribution": {
     "strongBuy": 4,

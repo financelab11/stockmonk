@@ -1,0 +1,40 @@
+{
+  "ticker": "CAG",
+  "asOf": "2026-05-31",
+  "source": {
+    "name": "CONAGRA BRANDS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/23217/000110465926083905/tmb-20260531x10k.htm",
+    "date": "2026-07-15"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Refrigerated & Frozen",
+      "revenue": 4641800000,
+      "share": 0.4114487306764998
+    },
+    {
+      "name": "Grocery & Snacks",
+      "revenue": 4610100000,
+      "share": 0.4086388455538221
+    },
+    {
+      "name": "Foodservice",
+      "revenue": 1115800000,
+      "share": 0.09890441072188343
+    },
+    {
+      "name": "International",
+      "revenue": 913900000,
+      "share": 0.08100801304779463
+    }
+  ],
+  "geographyLabel": null,
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 945400000,
+      "share": 0.08380017018862573
+    }
+  ]
+}

@@ -77,6 +77,11 @@ export async function GET() {
         .filter((row) => row.status === "source-gap")
         .map((row) => ({ ticker: row.ticker, priceAsOf: row.priceAsOf }))
     : [];
+  const archived = manifest
+    ? Object.values(manifest.tickers)
+        .filter((row) => row.status === "archived")
+        .map((row) => ({ ticker: row.ticker, priceAsOf: row.priceAsOf }))
+    : [];
 
   return NextResponse.json(
     {
@@ -86,6 +91,8 @@ export async function GET() {
         newest: newestPrice,
         ageDays: priceAge,
         total: manifest?.total ?? 0,
+        active: manifest ? manifest.total - (manifest.counts.archived ?? 0) : 0,
+        archived: manifest?.counts.archived ?? 0,
       },
       consensus: {
         fetchedAt: consensusDate,
@@ -98,9 +105,11 @@ export async function GET() {
             rewritePending: manifest.counts["rewrite-pending"],
             dataStale: manifest.counts["data-stale"],
             sourceGap: manifest.counts["source-gap"],
+            archived: manifest.counts.archived,
             pending,
             dataStaleTickers: dataStale,
             sourceGaps,
+            archivedTickers: archived,
             manifestGeneratedAt: manifest.generatedAt,
           }
         : null,

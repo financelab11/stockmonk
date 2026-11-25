@@ -1,0 +1,30 @@
+{
+  "ticker": "MLM",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "MARTIN MARIETTA MATERIALS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/916076/000119312526059193/mlm-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Building Materials Business",
+      "revenue": 5709000000,
+      "share": 0.9282926829268293
+    },
+    {
+      "name": "Specialties",
+      "revenue": 441000000,
+      "share": 0.07170731707317073
+    }
+  ],
+  "geographyLabel": null,
+  "geography": [
+    {
+      "name": "California & Colorado",
+      "revenue": 356000000,
+      "share": 0.057886178861788616
+    }
+  ]
+}

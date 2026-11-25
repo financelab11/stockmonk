@@ -1,0 +1,30 @@
+{
+  "ticker": "CART",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "MAPLEBEAR INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1579091/000157909126000018/cart-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 3742000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 3600000000,
+      "share": 0.9620523784072689
+    },
+    {
+      "name": "Non-US",
+      "revenue": 142000000,
+      "share": 0.03794762159273116
+    }
+  ]
+}

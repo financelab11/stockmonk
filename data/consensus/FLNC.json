@@ -1,9 +1,9 @@
 {
   "ticker": "FLNC",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/FLNC/analysis",
-  "targetMean": 7.7,
+  "targetMean": 7.5,
   "targetHigh": 15,
   "targetLow": 4,
   "recommendationKey": "hold",
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 580186550,
-      "revenueGrowth": 0.2208,
+      "revenueAvg": 579894880,
+      "revenueGrowth": 0.2202,
       "epsAvg": -0.3075,
       "epsGrowth": -0.0716,
       "analystCount": 4
@@ -28,8 +28,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 611771420,
-      "revenueGrowth": 0.3159,
+      "revenueAvg": 612307780,
+      "revenueGrowth": 0.3171,
       "epsAvg": -0.28,
       "epsGrowth": -1.2955999,
       "analystCount": 4
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-09-30",
-      "revenueAvg": 2736800000,
-      "revenueGrowth": 0.1725,
+      "revenueAvg": 2897048450,
+      "revenueGrowth": 0.24120001,
       "epsAvg": -0.76,
       "epsGrowth": 0.4173,
       "analystCount": 1
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2028-09-30",
-      "revenueAvg": 3819725970,
-      "revenueGrowth": 0.3957,
+      "revenueAvg": 3777285970,
+      "revenueGrowth": 0.3038,
       "epsAvg": 0.00596,
       "epsGrowth": 1.0078,
       "analystCount": 6
@@ -89,8 +89,8 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 580186550,
-    "revenueGrowth": 0.2208,
+    "revenueAvg": 579894880,
+    "revenueGrowth": 0.2202,
     "epsAvg": -0.3075,
     "epsGrowth": -0.0716,
     "analystCount": 4

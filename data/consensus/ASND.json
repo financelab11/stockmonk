@@ -1,0 +1,97 @@
+{
+  "ticker": "ASND",
+  "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+  "asOf": "2026-11-25",
+  "sourceUrl": "https://finance.yahoo.com/quote/ASND/analysis",
+  "targetMean": 315.46533,
+  "targetHigh": 354.55215,
+  "targetLow": 272.31345,
+  "recommendationKey": "strong_buy",
+  "analystCount": 21,
+  "distribution": {
+    "strongBuy": 5,
+    "buy": 15,
+    "hold": 1,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 415231820,
+      "revenueGrowth": 0.6777,
+      "epsAvg": 1.9,
+      "epsGrowth": null,
+      "analystCount": 4
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 445879060,
+      "revenueGrowth": 0.8081,
+      "epsAvg": 1.52,
+      "epsGrowth": 4.6296,
+      "analystCount": 1
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 1379311360,
+      "revenueGrowth": 0.9154,
+      "epsAvg": 12.56357,
+      "epsGrowth": null,
+      "analystCount": 7
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": 2026221080,
+      "revenueGrowth": 0.469,
+      "epsAvg": 10.98886,
+      "epsGrowth": -0.12529999,
+      "analystCount": 7
+    }
+  ],
+  "history": [
+    {
+      "quarter": "2026-03-31",
+      "endDate": "2026-03-31",
+      "epsActual": 0.27,
+      "epsEstimate": -0.082,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-06-30",
+      "endDate": "2026-06-30",
+      "epsActual": 0.9,
+      "epsEstimate": 0.76667,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-09-30",
+      "endDate": "2026-09-30",
+      "epsActual": 1.71,
+      "epsEstimate": 1.15,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 415231820,
+    "revenueGrowth": 0.6777,
+    "epsAvg": 1.9,
+    "epsGrowth": null,
+    "analystCount": 4
+  },
+  "revisions": {
+    "eps7d": 0.24668274192268003,
+    "eps30d": -0.017826542418462155,
+    "eps60d": -0.016196047108939404,
+    "eps90d": 0.10819176148893006,
+    "revenue30d": null
+  }
+}

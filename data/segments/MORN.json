@@ -1,0 +1,55 @@
+{
+  "ticker": "MORN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "MORNINGSTAR, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1289419/000128941926000013/morn-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Morningstar Data & Analytics",
+      "revenue": 830600000,
+      "share": 0.3396442445307708
+    },
+    {
+      "name": "Pitch Book",
+      "revenue": 671800000,
+      "share": 0.27470864853813126
+    },
+    {
+      "name": "Morningstar Credit",
+      "revenue": 354400000,
+      "share": 0.14491923941934165
+    },
+    {
+      "name": "Morningstar Wealth",
+      "revenue": 251400000,
+      "share": 0.10280106317726437
+    },
+    {
+      "name": "Corporate & Other",
+      "revenue": 199700000,
+      "share": 0.08166019218973625
+    },
+    {
+      "name": "Morningstar Retirement",
+      "revenue": 137600000,
+      "share": 0.05626661214475567
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1754900000,
+      "share": 0.7176037620118585
+    },
+    {
+      "name": "Non United States",
+      "revenue": 690600000,
+      "share": 0.2823962379881415
+    }
+  ]
+}

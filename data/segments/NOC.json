@@ -1,0 +1,55 @@
+{
+  "ticker": "NOC",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "NORTHROP GRUMMAN CORP /DE/ Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231.htm",
+    "date": "2026-01-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Aeronautics Systems",
+      "revenue": 12992000000,
+      "share": 0.30967249845068406
+    },
+    {
+      "name": "Mission Systems",
+      "revenue": 12506000000,
+      "share": 0.2980883825141822
+    },
+    {
+      "name": "Space Systems",
+      "revenue": 10771000000,
+      "share": 0.2567335653334605
+    },
+    {
+      "name": "Defense Systems",
+      "revenue": 8002000000,
+      "share": 0.1907327072507985
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 35964000000,
+      "share": 0.8572245793011394
+    },
+    {
+      "name": "Europe",
+      "revenue": 3286000000,
+      "share": 0.07832387853363207
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 1919000000,
+      "share": 0.04574057300853315
+    },
+    {
+      "name": "All Other Geographic Region Domain",
+      "revenue": 785000000,
+      "share": 0.01871096915669543
+    }
+  ]
+}

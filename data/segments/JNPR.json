@@ -1,0 +1,35 @@
+{
+  "ticker": "JNPR",
+  "asOf": "2024-12-31",
+  "source": {
+    "name": "JUNIPER NETWORKS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1043604/000104360425000025/jnpr-20241231.htm",
+    "date": "2025-02-21"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 5073600000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 3112500000,
+      "share": 0.6134697256385998
+    },
+    {
+      "name": "EMEA",
+      "revenue": 1232000000,
+      "share": 0.24282560706401765
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 729100000,
+      "share": 0.14370466729738252
+    }
+  ]
+}

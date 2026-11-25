@@ -1,0 +1,35 @@
+{
+  "ticker": "ANF",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "Abercrombie & Fitch Co. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000012/anf-20260131.htm",
+    "date": "2026-03-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 5266292000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 4290395000,
+      "share": 0.8146899184473629
+    },
+    {
+      "name": "EMEA",
+      "revenue": 818140000,
+      "share": 0.15535408974663767
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 157757000,
+      "share": 0.029955991805999362
+    }
+  ]
+}

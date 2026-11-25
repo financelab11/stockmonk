@@ -1,0 +1,19 @@
+{
+  "ticker": "BURL",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "BURLINGTON STORES, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1579298/000119312526116001/burl-20260131.htm",
+    "date": "2026-03-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 11549607000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

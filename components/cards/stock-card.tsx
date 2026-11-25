@@ -56,6 +56,11 @@ export function StockCard({
             <span className="font-mono text-[11px] font-medium text-muted">
               ({entry.ticker})
             </span>
+            {entry.archived && (
+              <span className="ml-1 rounded bg-paper-deep px-1 py-0.5 text-[9px] font-semibold text-muted ring-1 ring-line">
+                Archived
+              </span>
+            )}
           </h3>
           <p className="mt-0.5 text-[10.5px] text-muted">
             {entry.sector} · {entry.industry}

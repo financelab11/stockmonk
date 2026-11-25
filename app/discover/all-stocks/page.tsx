@@ -16,7 +16,7 @@ import { breadcrumbJsonLd } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "All companies",
   description:
-    "The full Stockmonk US coverage universe, grouped by sector, with sourced price, growth, margin and valuation context for 229 companies.",
+    "The full Stockmonk US coverage universe, grouped by sector, with sourced price, growth, margin and valuation context for 500 companies.",
   alternates: { canonical: "/discover/all-stocks" },
   openGraph: {
     title: "All stocks · Stockmonk",

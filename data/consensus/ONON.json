@@ -1,11 +1,11 @@
 {
   "ticker": "ONON",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/ONON/analysis",
-  "targetMean": 44.141384,
-  "targetHigh": 64.79165,
-  "targetLow": 19.78764,
+  "targetMean": 44.444164,
+  "targetHigh": 65.226555,
+  "targetLow": 20.121716,
   "recommendationKey": "buy",
   "analystCount": 31,
   "distribution": {

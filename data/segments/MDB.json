@@ -1,0 +1,35 @@
+{
+  "ticker": "MDB",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "MONGODB, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026016799/mdb-20260131.htm",
+    "date": "2026-03-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 2463797000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 1497477000,
+      "share": 0.607792362763653
+    },
+    {
+      "name": "EMEA",
+      "revenue": 680840000,
+      "share": 0.2763377015232992
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 285480000,
+      "share": 0.11586993571304778
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "ticker": "OPLN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "OPENLANE, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1395942/000139594226000006/opln-20251231.htm",
+    "date": "2026-02-18"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Marketplace",
+      "revenue": 1500800000,
+      "share": 0.775807702248643
+    },
+    {
+      "name": "Finance",
+      "revenue": 433700000,
+      "share": 0.22419229775135693
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1109200000,
+      "share": 0.5733781338847247
+    },
+    {
+      "name": "Non-US",
+      "revenue": 825300000,
+      "share": 0.42662186611527525
+    }
+  ]
+}

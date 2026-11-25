@@ -1,0 +1,40 @@
+{
+  "ticker": "CAT",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "CATERPILLAR INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Power Energy",
+      "revenue": 32201000000,
+      "share": 0.4764236784092086
+    },
+    {
+      "name": "Construction Industries",
+      "revenue": 25060000000,
+      "share": 0.3707703916317744
+    },
+    {
+      "name": "Resource Industries",
+      "revenue": 12474000000,
+      "share": 0.18455665862788323
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Non-US",
+      "revenue": 34709000000,
+      "share": 0.5135303081862433
+    },
+    {
+      "name": "United States",
+      "revenue": 32880000000,
+      "share": 0.48646969181375666
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ticker": "SG",
+  "asOf": "2025-12-28",
+  "source": {
+    "name": "SWEETGREEN, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1477815/000162828026012520/sg-20251228.htm",
+    "date": "2026-02-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 679474000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

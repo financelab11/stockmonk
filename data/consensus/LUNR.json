@@ -1,16 +1,16 @@
 {
   "ticker": "LUNR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/LUNR/analysis",
-  "targetMean": 25.2,
+  "targetMean": 24.27273,
   "targetHigh": 38,
   "targetLow": 13,
   "recommendationKey": "strong_buy",
-  "analystCount": 10,
+  "analystCount": 11,
   "distribution": {
     "strongBuy": 0,
-    "buy": 8,
+    "buy": 9,
     "hold": 0,
     "sell": 0,
     "strongSell": 1
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 271899300,
-      "revenueGrowth": 5.0712,
+      "revenueAvg": 271984470,
+      "revenueGrowth": 5.0731,
       "epsAvg": -0.06333,
       "epsGrowth": -0.8737,
       "analystCount": 3
@@ -28,8 +28,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 257656250,
-      "revenueGrowth": 0.3798,
+      "revenueAvg": 257894850,
+      "revenueGrowth": 0.3811,
       "epsAvg": -0.06667,
       "epsGrowth": -0.29209998,
       "analystCount": 3
@@ -37,7 +37,7 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 934922170,
+      "revenueAvg": 934930480,
       "revenueGrowth": 3.4508,
       "epsAvg": -0.33667,
       "epsGrowth": 0.1604,
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 1172029400,
-      "revenueGrowth": 0.2536,
+      "revenueAvg": 1168258910,
+      "revenueGrowth": 0.2496,
       "epsAvg": -0.17667,
       "epsGrowth": 0.4752,
       "analystCount": 3
@@ -89,14 +89,14 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 271899300,
-    "revenueGrowth": 5.0712,
+    "revenueAvg": 271984470,
+    "revenueGrowth": 5.0731,
     "epsAvg": -0.06333,
     "epsGrowth": -0.8737,
     "analystCount": 3
   },
   "revisions": {
-    "eps7d": -0.3525576923076923,
+    "eps7d": 0,
     "eps30d": -0.3525576923076923,
     "eps60d": -0.3525576923076923,
     "eps90d": -0.3525576923076923,

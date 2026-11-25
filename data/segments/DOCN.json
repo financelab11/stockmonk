@@ -1,0 +1,40 @@
+{
+  "ticker": "DOCN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "DigitalOcean Holdings, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296126000019/docn-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 901427000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 346504000,
+      "share": 0.38439496487236346
+    },
+    {
+      "name": "Europe",
+      "revenue": 243063000,
+      "share": 0.26964246688861104
+    },
+    {
+      "name": "Asia",
+      "revenue": 211251000,
+      "share": 0.23435175560527918
+    },
+    {
+      "name": "Other Geographical Areas",
+      "revenue": 100609000,
+      "share": 0.11161081263374627
+    }
+  ]
+}

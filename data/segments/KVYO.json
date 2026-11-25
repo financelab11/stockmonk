@@ -1,0 +1,45 @@
+{
+  "ticker": "KVYO",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Klaviyo, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1835830/000183583026000007/kvyo-20251231.htm",
+    "date": "2026-02-10"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 1234019000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 741101000,
+      "share": 0.6005588244589427
+    },
+    {
+      "name": "EMEA Other Than UNITEDKINGDOM",
+      "revenue": 182494000,
+      "share": 0.14788589154624038
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 127179000,
+      "share": 0.10306081186756444
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 123609000,
+      "share": 0.10016782561694755
+    },
+    {
+      "name": "Other Americas",
+      "revenue": 59636000,
+      "share": 0.048326646510304945
+    }
+  ]
+}

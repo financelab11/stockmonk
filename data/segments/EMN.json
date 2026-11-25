@@ -1,0 +1,55 @@
+{
+  "ticker": "EMN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "EASTMAN CHEMICAL CO Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/915389/000091538926000013/emn-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Advanced Materials",
+      "revenue": 2880000000,
+      "share": 0.3290676416819013
+    },
+    {
+      "name": "Additives & Functional Products",
+      "revenue": 2880000000,
+      "share": 0.3290676416819013
+    },
+    {
+      "name": "Chemical Intermediates",
+      "revenue": 1925000000,
+      "share": 0.21994972577696525
+    },
+    {
+      "name": "Fibers",
+      "revenue": 1050000000,
+      "share": 0.11997257769652651
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 17000000,
+      "share": 0.0019424131627056673
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "All Foreign Countries",
+      "revenue": 4140000000,
+      "share": 0.47303473491773307
+    },
+    {
+      "name": "United States",
+      "revenue": 3662000000,
+      "share": 0.41841864716636196
+    },
+    {
+      "name": "China",
+      "revenue": 950000000,
+      "share": 0.10854661791590493
+    }
+  ]
+}

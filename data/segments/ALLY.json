@@ -1,0 +1,29 @@
+{
+  "ticker": "ALLY",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Ally Financial Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/40729/000004072926000005/ally-20251231.htm",
+    "date": "2026-02-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Insurance Operations",
+      "revenue": 982000000,
+      "share": 0.7893890675241158
+    },
+    {
+      "name": "Automotive Finance Operations",
+      "revenue": 138000000,
+      "share": 0.11093247588424437
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 124000000,
+      "share": 0.09967845659163987
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

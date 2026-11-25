@@ -1,0 +1,45 @@
+{
+  "ticker": "LULU",
+  "asOf": "2026-02-01",
+  "source": {
+    "name": "lululemon athletica inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1397187/000139718726000020/lulu-20260201.htm",
+    "date": "2026-03-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Americas",
+      "revenue": 7847044000,
+      "share": 0.7067753499180373
+    },
+    {
+      "name": "China Mainland",
+      "revenue": 1754799000,
+      "share": 0.1580529785815935
+    },
+    {
+      "name": "Other Country",
+      "revenue": 1500757000,
+      "share": 0.1351716715003693
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 7847044000,
+      "share": 0.7067753499180373
+    },
+    {
+      "name": "China",
+      "revenue": 1953878000,
+      "share": 0.1759838236088844
+    },
+    {
+      "name": "Rest Of World",
+      "revenue": 1301678000,
+      "share": 0.11724082647307837
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "ticker": "PLTR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/PLTR/analysis",
   "targetMean": 222.9,
   "targetHigh": 273,

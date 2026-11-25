@@ -1,0 +1,24 @@
+{
+  "ticker": "CI",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "The Cigna Group Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1739940/000173994026000006/ci-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Evernorth",
+      "revenue": 234953000000,
+      "share": 0.8546853401236814
+    },
+    {
+      "name": "Cigna Healthcare",
+      "revenue": 47412000000,
+      "share": 0.1724699890869407
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

@@ -387,6 +387,11 @@ export function ScreenerTable({
                         <span className="font-mono font-medium text-ink-soft">
                           {row.ticker}
                         </span>
+                        {row.archived && (
+                          <span className="rounded bg-paper-deep px-1 py-0.5 text-[9px] font-semibold text-muted ring-1 ring-line">
+                            Archived
+                          </span>
+                        )}
                         <span
                           aria-hidden="true"
                           className="hidden text-line-strong sm:inline"

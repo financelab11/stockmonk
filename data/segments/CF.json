@@ -1,0 +1,50 @@
+{
+  "ticker": "CF",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "CF INDUSTRIES HOLDINGS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1324404/000132440426000007/cf-20251231.htm",
+    "date": "2026-02-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Ammonia",
+      "revenue": 2176000000,
+      "share": 0.3071710897797854
+    },
+    {
+      "name": "UAN",
+      "revenue": 2161000000,
+      "share": 0.3050536420101638
+    },
+    {
+      "name": "Urea",
+      "revenue": 1781000000,
+      "share": 0.25141163184641446
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 545000000,
+      "share": 0.07693393562958781
+    },
+    {
+      "name": "Ammonium Nitrate",
+      "revenue": 421000000,
+      "share": 0.05942970073404856
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 5994000000,
+      "share": 0.8461321287408244
+    },
+    {
+      "name": "Europeand Other",
+      "revenue": 1090000000,
+      "share": 0.15386787125917561
+    }
+  ]
+}

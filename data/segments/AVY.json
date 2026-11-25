@@ -1,0 +1,50 @@
+{
+  "ticker": "AVY",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "AVERY DENNISON CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/8818/000000881826000015/avy-20251231.htm",
+    "date": "2026-02-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Materials Group",
+      "revenue": 6093300000,
+      "share": 0.6880808537067359
+    },
+    {
+      "name": "Solutions Group",
+      "revenue": 2762200000,
+      "share": 0.31191914629326406
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 2751000000,
+      "share": 0.3106543955733725
+    },
+    {
+      "name": "Asia",
+      "revenue": 2726800000,
+      "share": 0.3079216306250353
+    },
+    {
+      "name": "Europe The Middle East & North Africa",
+      "revenue": 2457100000,
+      "share": 0.27746598159336006
+    },
+    {
+      "name": "Latin America",
+      "revenue": 567300000,
+      "share": 0.06406188244593755
+    },
+    {
+      "name": "Other International",
+      "revenue": 353300000,
+      "share": 0.03989610976229462
+    }
+  ]
+}

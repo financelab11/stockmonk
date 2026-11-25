@@ -1,0 +1,35 @@
+{
+  "ticker": "CRUS",
+  "asOf": "2026-03-28",
+  "source": {
+    "name": "CIRRUS LOGIC, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/772406/000077240626000018/crus-20260328.htm",
+    "date": "2026-05-21"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 1997379000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "China",
+      "revenue": 1066874000,
+      "share": 0.5341369865208355
+    },
+    {
+      "name": "Other Countries",
+      "revenue": 915635000,
+      "share": 0.45841825712596357
+    },
+    {
+      "name": "United States",
+      "revenue": 14870000,
+      "share": 0.00744475635320087
+    }
+  ]
+}

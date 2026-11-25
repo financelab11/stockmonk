@@ -1,0 +1,35 @@
+{
+  "ticker": "DKS",
+  "asOf": "2026-01-31",
+  "source": {
+    "name": "DICK'S Sporting Goods, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1089063/000108906326000007/dks-20260131.htm",
+    "date": "2026-03-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "DICKS",
+      "revenue": 14108943000,
+      "share": 0.8195669272128222
+    },
+    {
+      "name": "Foot Locker",
+      "revenue": 3106177000,
+      "share": 0.1804330727871778
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 14108900000,
+      "share": 0.8195644294085664
+    },
+    {
+      "name": "Non-US",
+      "revenue": 1030500000,
+      "share": 0.059860169432452405
+    }
+  ]
+}

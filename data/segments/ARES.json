@@ -1,0 +1,44 @@
+{
+  "ticker": "ARES",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ARES MANAGEMENT CORPORATION Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1176948/000162828026011413/ares-20251231.htm",
+    "date": "2026-02-25"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Credit Group",
+      "revenue": 2529312000,
+      "share": 0.45154335941809687
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 1918560000,
+      "share": 0.34250935734507404
+    },
+    {
+      "name": "Real Assets Group",
+      "revenue": 678355000,
+      "share": 0.1211027724448637
+    },
+    {
+      "name": "Secondaries Group",
+      "revenue": 276292000,
+      "share": 0.0493248036858817
+    },
+    {
+      "name": "Private Equity Group",
+      "revenue": 139172000,
+      "share": 0.024845567655131268
+    },
+    {
+      "name": "Other Bets",
+      "revenue": 59791000,
+      "share": 0.010674139450952445
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

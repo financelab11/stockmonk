@@ -1,0 +1,19 @@
+{
+  "ticker": "DOCS",
+  "asOf": "2026-03-31",
+  "source": {
+    "name": "Doximity, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1516513/000151651326000025/docs-20260331.htm",
+    "date": "2026-05-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 644863000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

@@ -1,0 +1,45 @@
+{
+  "ticker": "MOS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "MOSAIC CO Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm",
+    "date": "2026-02-27"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Mosaic Fertilizantes",
+      "revenue": 4847300000,
+      "share": 0.402185456838472
+    },
+    {
+      "name": "Phosphates",
+      "revenue": 3877800000,
+      "share": 0.3217450466297169
+    },
+    {
+      "name": "Potash",
+      "revenue": 2658700000,
+      "share": 0.2205950682021838
+    },
+    {
+      "name": "Corporate Eliminations & Other",
+      "revenue": 668600000,
+      "share": 0.0554744283296273
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Total Foreign",
+      "revenue": 7729500000,
+      "share": 0.641324549467326
+    },
+    {
+      "name": "United States",
+      "revenue": 4322900000,
+      "share": 0.35867545053267397
+    }
+  ]
+}

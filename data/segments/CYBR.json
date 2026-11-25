@@ -1,0 +1,45 @@
+{
+  "ticker": "CYBR",
+  "asOf": "2024-12-31",
+  "source": {
+    "name": "CYBERARK SOFTWARE LTD. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1598110/000117891325000811/zk2532806.htm",
+    "date": "2025-03-12"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 1000742000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 503359000,
+      "share": 0.5029857845478655
+    },
+    {
+      "name": "EMEA",
+      "revenue": 243100000,
+      "share": 0.24291975354287118
+    },
+    {
+      "name": "Other Country",
+      "revenue": 185788000,
+      "share": 0.18565024751634288
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 60238000,
+      "share": 0.06019333654428414
+    },
+    {
+      "name": "IL",
+      "revenue": 8257000,
+      "share": 0.008250877848636312
+    }
+  ]
+}

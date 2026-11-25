@@ -360,7 +360,10 @@ async function main() {
       continue;
     }
     const { xml, sec } = loaded;
-    const annual = sec.annual as Array<{ end: string; revenue: number | null }>;
+    const annual = sec.annual as Array<{
+      reportDate: string;
+      revenue: number | null;
+    }>;
     const latestAnnual = annual[annual.length - 1];
     const target = latestAnnual?.revenue;
     if (!target) {
@@ -374,7 +377,7 @@ async function main() {
       removeNSPrefix: true,
     });
     const root = parser.parse(xml).xbrl as Record<string, unknown>;
-    const facts = revenueFacts(root, latestAnnual.end);
+    const facts = revenueFacts(root, latestAnnual.reportDate);
     const override = SEGMENT_OVERRIDES[ticker];
 
     let segmentLabel = "Reportable segment";
@@ -427,7 +430,7 @@ async function main() {
     const entityName = String(sec.entityName ?? ticker);
     const mix: SegmentMix = {
       ticker,
-      asOf: latestAnnual.end,
+      asOf: latestAnnual.reportDate,
       source: {
         name: `${entityName} Form 10-K`,
         url: filings.latest10K.url,

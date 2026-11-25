@@ -1,11 +1,11 @@
 {
   "ticker": "SPOT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/SPOT/analysis",
-  "targetMean": 636.30164,
-  "targetHigh": 745.2759,
-  "targetLow": 449.60626,
+  "targetMean": 637.6305,
+  "targetHigh": 746.8323,
+  "targetLow": 450.5452,
   "recommendationKey": "buy",
   "analystCount": 38,
   "distribution": {

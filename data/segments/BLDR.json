@@ -1,0 +1,19 @@
+{
+  "ticker": "BLDR",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "BUILDERS FIRSTSOURCE, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1316835/000119312526054643/bldr-20251231.htm",
+    "date": "2026-02-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 15190638000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

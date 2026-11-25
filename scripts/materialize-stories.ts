@@ -19,7 +19,7 @@ import {
   latestQuarterYoY,
   rangePosition,
 } from "../lib/analytics";
-import { generateStockStory } from "../lib/generated-story";
+import { generateStockStoryV2 } from "../lib/generated-story-v2";
 
 const STOCKS = path.join(process.cwd(), "content", "stocks");
 const PROCESSED = path.join(process.cwd(), "data", "processed");
@@ -56,7 +56,7 @@ function main() {
     const segments = segmentMixSchema.safeParse(
       readJson(path.join(process.cwd(), "data", "segments", `${ticker}.json`)),
     );
-    const story = generateStockStory({
+    const story = generateStockStoryV2({
       data,
       consensus: consensus.success ? consensus.data : null,
       segments: segments.success ? segments.data : null,

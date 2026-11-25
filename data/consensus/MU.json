@@ -1,7 +1,7 @@
 {
   "ticker": "MU",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/MU/analysis",
   "targetMean": 1529.6888,
   "targetHigh": 3000,
@@ -39,9 +39,9 @@
       "endDate": "2027-08-31",
       "revenueAvg": 275314170530,
       "revenueGrowth": 1.0671,
-      "epsAvg": 176.18364,
-      "epsGrowth": 1.3328999,
-      "analystCount": 36
+      "epsAvg": 175.08318,
+      "epsGrowth": 1.3183999,
+      "analystCount": 35
     },
     {
       "period": "Next fiscal year",
@@ -49,7 +49,7 @@
       "revenueAvg": 316395708050,
       "revenueGrowth": 0.1492,
       "epsAvg": 204.98972,
-      "epsGrowth": 0.16350001,
+      "epsGrowth": 0.1708,
       "analystCount": 36
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 29
   },
   "revisions": {
-    "eps7d": -0.0018019091942920173,
-    "eps30d": -0.0022673060828101166,
-    "eps60d": 0.10019800407298396,
-    "eps90d": 0.12757984240192455,
+    "eps7d": -0.001864884787267429,
+    "eps30d": -0.0021645022878616915,
+    "eps60d": 0.09398393494900259,
+    "eps90d": 0.12053687000465985,
     "revenue30d": null
   }
 }

@@ -264,10 +264,11 @@ export default async function ScreenerPage({
                 requires at least three of them. Missing data is shown as n/a.
               </p>
               <p className="mt-2 text-[12.5px] leading-relaxed text-muted">
-                Coverage is the 229-name US research universe. Fundamentals come
-                from SEC EDGAR XBRL statements, and prices, market data and
-                company profiles come from Yahoo Finance. The snapshot date is
-                shown above and each row&apos;s price date appears in its detail
+                Coverage is the 500-name US research universe, including 13
+                archived names that no longer trade. Fundamentals come from SEC
+                EDGAR XBRL statements, and prices, market data and company
+                profiles come from Yahoo Finance. The snapshot date is shown
+                above and each row&apos;s price date appears in its detail
                 panel. Missing parameters are shown as n/a rather than filled
                 with an estimate.
               </p>

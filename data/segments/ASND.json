@@ -1,0 +1,19 @@
+{
+  "ticker": "ASND",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "Ascendis Pharma A/S Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1612042/000119312526046590/asnd-20251231.htm",
+    "date": "2026-02-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 845960108,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

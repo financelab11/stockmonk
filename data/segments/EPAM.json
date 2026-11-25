@@ -1,0 +1,35 @@
+{
+  "ticker": "EPAM",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "EPAM SYSTEMS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000015/epam-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Americas",
+      "revenue": 3166116000,
+      "share": 0.5801875590061748
+    },
+    {
+      "name": "Europe",
+      "revenue": 2290940000,
+      "share": 0.41981244099382525
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "North America",
+      "revenue": 3166116000,
+      "share": 0.5801875590061748
+    },
+    {
+      "name": "Europe",
+      "revenue": 2290940000,
+      "share": 0.41981244099382525
+    }
+  ]
+}

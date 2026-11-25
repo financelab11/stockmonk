@@ -1,0 +1,65 @@
+{
+  "ticker": "MKSI",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "MKS INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1049502/000119312526066820/mksi-20251231.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Vacuum Solutions Division",
+      "revenue": 1579000000,
+      "share": 0.4016789620961587
+    },
+    {
+      "name": "Materials Solutions Division",
+      "revenue": 1323000000,
+      "share": 0.3365555838209107
+    },
+    {
+      "name": "Photonics Solutions Division",
+      "revenue": 1029000000,
+      "share": 0.26176545408293056
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Other Countries",
+      "revenue": 1035000000,
+      "share": 0.2632917832612567
+    },
+    {
+      "name": "China",
+      "revenue": 931000000,
+      "share": 0.23683541083693715
+    },
+    {
+      "name": "United States",
+      "revenue": 760000000,
+      "share": 0.19333502925464258
+    },
+    {
+      "name": "KR",
+      "revenue": 440000000,
+      "share": 0.11193080641058255
+    },
+    {
+      "name": "Singapore",
+      "revenue": 265000000,
+      "share": 0.06741287204273722
+    },
+    {
+      "name": "Taiwan",
+      "revenue": 260000000,
+      "share": 0.06614093106079878
+    },
+    {
+      "name": "Japan",
+      "revenue": 240000000,
+      "share": 0.061053167133045025
+    }
+  ]
+}

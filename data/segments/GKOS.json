@@ -1,0 +1,30 @@
+{
+  "ticker": "GKOS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "GLAUKOS Corp Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1192448/000119312526061944/gkos-20251231.htm",
+    "date": "2026-02-23"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Development & Commercialization Of Ophthalmic Therapies",
+      "revenue": 507442000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 375042000,
+      "share": 0.7390834814619208
+    },
+    {
+      "name": "Non-US",
+      "revenue": 132400000,
+      "share": 0.26091651853807923
+    }
+  ]
+}

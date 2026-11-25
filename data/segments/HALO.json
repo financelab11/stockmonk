@@ -1,0 +1,45 @@
+{
+  "ticker": "HALO",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "HALOZYME THERAPEUTICS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000024/halo-20251231.htm",
+    "date": "2026-02-17"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 1396611000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 822975000,
+      "share": 0.5892657296842141
+    },
+    {
+      "name": "CH",
+      "revenue": 276414000,
+      "share": 0.19791767356837373
+    },
+    {
+      "name": "BE",
+      "revenue": 217516000,
+      "share": 0.15574558699594948
+    },
+    {
+      "name": "Japan",
+      "revenue": 46372000,
+      "share": 0.033203232682543674
+    },
+    {
+      "name": "Foreign Other",
+      "revenue": 33334000,
+      "share": 0.023867777068918974
+    }
+  ]
+}

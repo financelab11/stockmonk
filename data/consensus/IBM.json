@@ -1,7 +1,7 @@
 {
   "ticker": "IBM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/IBM/analysis",
   "targetMean": 259.84738,
   "targetHigh": 300,

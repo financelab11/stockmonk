@@ -1,0 +1,97 @@
+{
+  "ticker": "AZN",
+  "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+  "asOf": "2026-11-25",
+  "sourceUrl": "https://finance.yahoo.com/quote/AZN/analysis",
+  "targetMean": 208.99167,
+  "targetHigh": 240,
+  "targetLow": 158,
+  "recommendationKey": "buy",
+  "analystCount": 12,
+  "distribution": {
+    "strongBuy": 2,
+    "buy": 7,
+    "hold": 2,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "estimates": [
+    {
+      "period": "Next quarter",
+      "endDate": "2026-12-31",
+      "revenueAvg": 16597241859,
+      "revenueGrowth": 0.0706,
+      "epsAvg": 1.735,
+      "epsGrowth": null,
+      "analystCount": 1
+    },
+    {
+      "period": "Following quarter",
+      "endDate": "2027-03-31",
+      "revenueAvg": 15977000000,
+      "revenueGrowth": 0.045100003,
+      "epsAvg": null,
+      "epsGrowth": null,
+      "analystCount": null
+    },
+    {
+      "period": "Current fiscal year",
+      "endDate": "2026-12-31",
+      "revenueAvg": 63409566090,
+      "revenueGrowth": 0.0795,
+      "epsAvg": 10.13667,
+      "epsGrowth": 1.2132,
+      "analystCount": 3
+    },
+    {
+      "period": "Next fiscal year",
+      "endDate": "2027-12-31",
+      "revenueAvg": 67447430179,
+      "revenueGrowth": 0.0637,
+      "epsAvg": 11.25667,
+      "epsGrowth": 0.1105,
+      "analystCount": 3
+    }
+  ],
+  "history": [
+    {
+      "quarter": "2026-03-31",
+      "endDate": "2026-03-31",
+      "epsActual": 1.29,
+      "epsEstimate": 1.27184,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-06-30",
+      "endDate": "2026-06-30",
+      "epsActual": 1.315,
+      "epsEstimate": 1.25413,
+      "revenueActual": null,
+      "revenueEstimate": null
+    },
+    {
+      "quarter": "2026-09-30",
+      "endDate": "2026-09-30",
+      "epsActual": 1,
+      "epsEstimate": 1.14571,
+      "revenueActual": null,
+      "revenueEstimate": null
+    }
+  ],
+  "currentQuarter": {
+    "endDate": "2026-12-31",
+    "revenueAvg": 16597241859,
+    "revenueGrowth": 0.0706,
+    "epsAvg": 1.735,
+    "epsGrowth": null,
+    "analystCount": 1
+  },
+  "revisions": {
+    "eps7d": 0.0016472332015811109,
+    "eps30d": 0.00862388059701491,
+    "eps60d": 0.005123450669310747,
+    "eps90d": 0.008289790547012732,
+    "revenue30d": null
+  }
+}

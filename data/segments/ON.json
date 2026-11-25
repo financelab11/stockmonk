@@ -1,0 +1,55 @@
+{
+  "ticker": "ON",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ON SEMICONDUCTOR CORP Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1097864/000109786426000006/on-20251231.htm",
+    "date": "2026-02-09"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Power Solutions Group",
+      "revenue": 2805100000,
+      "share": 0.46787537111785704
+    },
+    {
+      "name": "Analog Mixed Signal Group",
+      "revenue": 2261900000,
+      "share": 0.377272575641325
+    },
+    {
+      "name": "Intelligent Sensing Group",
+      "revenue": 928400000,
+      "share": 0.15485205324081797
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "HK",
+      "revenue": 1634800000,
+      "share": 0.2726757180505054
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 1347000000,
+      "share": 0.22467224872402175
+    },
+    {
+      "name": "Singapore",
+      "revenue": 1252400000,
+      "share": 0.20889348500517063
+    },
+    {
+      "name": "United States",
+      "revenue": 1230600000,
+      "share": 0.20525736397905062
+    },
+    {
+      "name": "Other Geographical Areas",
+      "revenue": 530600000,
+      "share": 0.08850118424125163
+    }
+  ]
+}

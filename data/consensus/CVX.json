@@ -1,7 +1,7 @@
 {
   "ticker": "CVX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/CVX/analysis",
   "targetMean": 241.625,
   "targetHigh": 272,
@@ -96,9 +96,9 @@
     "analystCount": 20
   },
   "revisions": {
-    "eps7d": 0.0021886363810461607,
+    "eps7d": 0.001960571935594402,
     "eps30d": 0.04493461535389631,
-    "eps60d": 0.12443053213361144,
+    "eps60d": 0.12451682457355329,
     "eps90d": 0.14932513412606285,
     "revenue30d": null
   }

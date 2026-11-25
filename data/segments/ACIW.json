@@ -1,0 +1,35 @@
+{
+  "ticker": "ACIW",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ACI WORLDWIDE, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000011/aciw-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Payment Software",
+      "revenue": 942053000,
+      "share": 0.5353236935029453
+    },
+    {
+      "name": "Billers",
+      "revenue": 817729000,
+      "share": 0.46467630649705477
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 1014168000,
+      "share": 0.5763032011919659
+    },
+    {
+      "name": "Non-US",
+      "revenue": 745614000,
+      "share": 0.4236967988080342
+    }
+  ]
+}

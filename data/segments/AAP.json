@@ -1,0 +1,30 @@
+{
+  "ticker": "AAP",
+  "asOf": "2026-01-03",
+  "source": {
+    "name": "ADVANCE AUTO PARTS, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1158449/000119312526051305/aap-20260103.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Reportable",
+      "revenue": 8601000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 8309000000,
+      "share": 0.9660504592489245
+    },
+    {
+      "name": "CA",
+      "revenue": 292000000,
+      "share": 0.03394954075107546
+    }
+  ]
+}

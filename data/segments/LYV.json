@@ -1,0 +1,40 @@
+{
+  "ticker": "LYV",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "LIVE NATION ENTERTAINMENT, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1335258/000133525826000009/lyv-20251231.htm",
+    "date": "2026-02-19"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Concerts",
+      "revenue": 20860726000,
+      "share": 0.8277604035266921
+    },
+    {
+      "name": "Ticketing",
+      "revenue": 3081166000,
+      "share": 0.122261670638535
+    },
+    {
+      "name": "Sponsorship & Advertising",
+      "revenue": 1329233000,
+      "share": 0.05274439846729186
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Total Domestic Operations",
+      "revenue": 14329362000,
+      "share": 0.5685937522692186
+    },
+    {
+      "name": "Total Foreign Operations",
+      "revenue": 10872044000,
+      "share": 0.43140624773078134
+    }
+  ]
+}

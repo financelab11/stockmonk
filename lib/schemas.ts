@@ -200,6 +200,7 @@ export const universeEntrySchema = z.object({
     .optional(),
   factorChips: z.array(factorChipSchema),
   asOf: z.string().nullable(),
+  archived: z.boolean().optional(),
 });
 
 export type UniverseEntry = z.infer<typeof universeEntrySchema>;

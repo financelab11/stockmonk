@@ -1,0 +1,45 @@
+{
+  "ticker": "HOLX",
+  "asOf": "2025-09-27",
+  "source": {
+    "name": "HOLOGIC INC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/859737/000085973725000072/holx-20250927.htm",
+    "date": "2025-11-18"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Diagnostics",
+      "revenue": 1827200000,
+      "share": 0.44560419461041334
+    },
+    {
+      "name": "Breast Health",
+      "revenue": 1484100000,
+      "share": 0.3619314717717352
+    },
+    {
+      "name": "Gyn Surgical",
+      "revenue": 679800000,
+      "share": 0.16578466040726741
+    },
+    {
+      "name": "Skeletal Health",
+      "revenue": 109400000,
+      "share": 0.026679673210584075
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 3047900000,
+      "share": 0.7432995976100476
+    },
+    {
+      "name": "International",
+      "revenue": 1052600000,
+      "share": 0.25670040238995245
+    }
+  ]
+}

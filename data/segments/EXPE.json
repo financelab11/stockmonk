@@ -1,0 +1,40 @@
+{
+  "ticker": "EXPE",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "EXPEDIA GROUP, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1324424/000132442426000008/expe-20251231.htm",
+    "date": "2026-02-13"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "B2 C",
+      "revenue": 9474000000,
+      "share": 0.6430462227652209
+    },
+    {
+      "name": "Business To Business",
+      "revenue": 4842000000,
+      "share": 0.3286499694563225
+    },
+    {
+      "name": "Trivago",
+      "revenue": 622000000,
+      "share": 0.04221814973189439
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "United States",
+      "revenue": 8710000000,
+      "share": 0.5911898459241159
+    },
+    {
+      "name": "Non-US",
+      "revenue": 6023000000,
+      "share": 0.40881015407588406
+    }
+  ]
+}

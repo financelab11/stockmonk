@@ -11,7 +11,7 @@ market. It explains how a business makes money, charts reported financials and
 shows attributed third-party consensus. It never publishes buy/sell/hold ratings
 or Stockmonk price targets.
 
-Coverage: **229 hand-written ten-section US reports** and a matching 229-row
+Coverage: **500 bespoke ten-section US reports** and a matching 500-row
 quantitative screener. India and GCC coverage have been removed from the product,
 the codebase, the file datasets and the database. SimFin has been removed
 completely; SEC EDGAR supplies fundamentals and Yahoo Finance supplies prices,
@@ -120,7 +120,7 @@ pnpm build:screener`.
 
 ```bash
 FORCE_REFRESH=1 pnpm refresh      # EDGAR, Yahoo fundamentals, consensus, segments, benchmark
-pnpm refresh:prices               # Yahoo closes for all 229 US names
+pnpm refresh:prices               # Yahoo closes for all 500 US names
 pnpm build:data && pnpm build:scores && pnpm build:screener
 pnpm audit:freshness              # fails if the US price snapshot is older than 3 days
 ```
@@ -134,7 +134,7 @@ periods.
 ## Screening data
 
 - `public/data/screener.json` and `public/data/screener-factors.json` hold
-  exactly the 229 research names. There is no bulk or expanded universe feed.
+  exactly the 500 research names. There is no bulk or expanded universe feed.
 - `pnpm build:screener` rebuilds both files from `data/processed`. The build
   fails if it cannot produce one row per research ticker.
 - Every row shares the same SEC fundamentals and Yahoo price snapshot. See
@@ -303,8 +303,8 @@ Client helpers:
   `aws-0-ap-northeast-1.pooler.supabase.com:6543`).
 - Migrations `202611230001_remove_india_gcc.sql` and
   `202611230002_remove_simfin.sql` have been applied. The `companies` table
-  contains the 229 US research names; no SimFin provenance remains.
-- All 229 reports are marked `curated`. `pnpm audit:research` passes with zero
+  contains the 500 US research names; no SimFin provenance remains.
+- All 500 reports are marked `curated`. `pnpm audit:research` passes with zero
   cross-company duplicate sentences and zero banned boilerplate.
 - `pnpm sync:supabase:direct` refreshes the US data with `SUPABASE_DB_PASSWORD`;
   `pnpm sync:supabase` does the same over PostgREST with
@@ -325,5 +325,5 @@ commit and start without re-reading the whole repository.
 
 <!-- AUTO_CONTEXT_START -->
 
-_Context snapshot 2026-11-25: 229 US names, 6 database migration(s)._
+_Context snapshot 2026-11-25: 500 US names, 6 database migration(s)._
 <!-- AUTO_CONTEXT_END -->

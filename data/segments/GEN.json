@@ -1,0 +1,40 @@
+{
+  "ticker": "GEN",
+  "asOf": "2026-04-03",
+  "source": {
+    "name": "Gen Digital Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/849399/000084939926000017/gen-20260403.htm",
+    "date": "2026-05-21"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Cyber Safety Platform",
+      "revenue": 3339000000,
+      "share": 0.6678
+    },
+    {
+      "name": "Trust Based Solutions",
+      "revenue": 1661000000,
+      "share": 0.3322
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 3533000000,
+      "share": 0.7066
+    },
+    {
+      "name": "EMEA",
+      "revenue": 1061000000,
+      "share": 0.2122
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 406000000,
+      "share": 0.0812
+    }
+  ]
+}

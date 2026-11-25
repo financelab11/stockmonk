@@ -39,6 +39,7 @@ import { Disclaimer } from "@/components/ui/disclaimer";
 import { WatchlistButton } from "@/components/watchlist/watchlist-button";
 import type { ResearchBundle } from "@/lib/data";
 import { getV2Kpis, getV2Score } from "@/lib/scores-v2-data";
+import { getArchivedCompany } from "@/config/archive";
 import { resolveStory } from "@/lib/story-tokens";
 import type { StockStory } from "@/content/stocks/types";
 import {
@@ -155,6 +156,7 @@ export function ResearchArticle({
   const cyclePosition = bundle.rangePosition ?? 0;
   const v2Score = getV2Score(data.ticker);
   const v2Kpis = getV2Kpis(data.ticker);
+  const archived = getArchivedCompany(data.ticker);
   const rankedEvidence = v2Score
     ? Object.values(v2Score.scores)
         .flatMap((score) => score.evidence)
@@ -219,6 +221,16 @@ export function ResearchArticle({
             <span className="text-ink">{data.ticker}</span>
           </nav>
 
+          {archived && (
+            <div className="mt-3 rounded-lg border border-line bg-paper-deep px-3 py-2 text-[12px] leading-relaxed text-muted">
+              <span className="font-semibold text-ink">Archived coverage.</span>{" "}
+              {archived.name} last traded on {formatDate(archived.lastTraded)}{" "}
+              after the {archived.acquirer} transaction. Final consideration:{" "}
+              {archived.consideration}. The figures below are the final SEC
+              record, not a live market snapshot.
+            </div>
+          )}
+
           <div className="mt-5 flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
             <div className="flex min-w-0 gap-4">
               <StockLogoStatic
@@ -277,7 +289,7 @@ export function ResearchArticle({
 
           <div className="mt-6 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-7">
             <StatTile
-              label="Last close"
+              label={archived ? "Final close" : "Last close"}
               value={quoteMoney(data.latestPrice.close)}
               hint={
                 <>
@@ -310,12 +322,23 @@ export function ResearchArticle({
               value={formatMultiple(data.metrics.evEbitda)}
             />
             <StatTile
-              label="1Y return"
-              value={formatSignedPercent(data.metrics.return1y)}
+              label={archived ? "Status" : "1Y return"}
+              value={
+                archived
+                  ? "Archived"
+                  : formatSignedPercent(data.metrics.return1y)
+              }
+              hint={
+                archived
+                  ? `Last traded ${formatDate(archived.lastTraded)}`
+                  : undefined
+              }
               tone={
-                data.metrics.return1y != null && data.metrics.return1y >= 0
-                  ? "positive"
-                  : "caution"
+                archived
+                  ? "default"
+                  : data.metrics.return1y != null && data.metrics.return1y >= 0
+                    ? "positive"
+                    : "caution"
               }
             />
           </div>
@@ -394,29 +417,51 @@ export function ResearchArticle({
                 </div>
               )}
               <div className="mt-5">
-                <LazyPriceChart
-                  ticker={data.ticker}
-                  initialData={prices}
-                  currency={quoteCurrency}
-                  priceBasePath={priceBasePath}
-                />
+                {archived ? (
+                  <div className="card-flat p-4 text-[12px] leading-relaxed text-muted">
+                    Price history is not shown because {archived.name} stopped
+                    trading on {formatDate(archived.lastTraded)}. The last
+                    available close was{" "}
+                    {formatCurrency(archived.lastClose, 2, quoteCurrency)}.
+                  </div>
+                ) : (
+                  <LazyPriceChart
+                    ticker={data.ticker}
+                    initialData={prices}
+                    currency={quoteCurrency}
+                    priceBasePath={priceBasePath}
+                  />
+                )}
               </div>
-              <div className="mt-4 rounded-xl border border-line bg-surface p-4">
-                <p className="mb-2 text-[10px] font-bold text-muted">
-                  52-week position
-                </p>
-                <RangeBar
-                  low={data.latestPrice.low52}
-                  high={data.latestPrice.high52}
-                  current={data.latestPrice.close}
-                  position={bundle.rangePosition}
-                  currency={quoteCurrency}
-                />
-                <p className="mt-2 text-[10.5px] leading-relaxed text-muted">
-                  Trades at {Math.round(cyclePosition * 100)}% of the 52-week
-                  range. This is a price observation, not a recommendation.
-                </p>
-              </div>
+              {archived ? (
+                <div className="mt-4 rounded-xl border border-line bg-surface p-4">
+                  <p className="mb-2 text-[10px] font-bold text-muted">
+                    Final transaction
+                  </p>
+                  <p className="text-[13px] leading-relaxed text-ink">
+                    {archived.acquirer} completed the transaction on{" "}
+                    {formatDate(archived.lastTraded)}. Consideration:{" "}
+                    {archived.consideration}.
+                  </p>
+                </div>
+              ) : (
+                <div className="mt-4 rounded-xl border border-line bg-surface p-4">
+                  <p className="mb-2 text-[10px] font-bold text-muted">
+                    52-week position
+                  </p>
+                  <RangeBar
+                    low={data.latestPrice.low52}
+                    high={data.latestPrice.high52}
+                    current={data.latestPrice.close}
+                    position={bundle.rangePosition}
+                    currency={quoteCurrency}
+                  />
+                  <p className="mt-2 text-[10.5px] leading-relaxed text-muted">
+                    Trades at {Math.round(cyclePosition * 100)}% of the 52-week
+                    range. This is a price observation, not a recommendation.
+                  </p>
+                </div>
+              )}
             </section>
 
             <section
@@ -1095,12 +1140,14 @@ export function ResearchArticle({
               <p className="prose-editorial text-[15px] leading-relaxed text-ink-soft">
                 {story.risks.intro}
               </p>
-              <div className="mt-4">
-                <LazyDrawdownChart
-                  points={draws}
-                  description="Peak-to-trough decline over the last year. A larger drawdown is not automatically a buying opportunity."
-                />
-              </div>
+              {!archived && (
+                <div className="mt-4">
+                  <LazyDrawdownChart
+                    points={draws}
+                    description="Peak-to-trough decline over the last year. A larger drawdown is not automatically a buying opportunity."
+                  />
+                </div>
+              )}
               <div className="mt-4">
                 <RiskList items={story.risks.items} />
               </div>
@@ -1144,7 +1191,7 @@ export function ResearchArticle({
                     balance: 50,
                     valuation: 50,
                   }}
-                  description="Percentile ranks within the 229-company coverage universe. 50 is the middle of the universe."
+                  description="Percentile ranks within the 500-company coverage universe. 50 is the middle of the universe."
                 />
                 <div className="rounded-xl border border-line bg-surface p-4">
                   <p className="text-[10px] font-bold text-muted">

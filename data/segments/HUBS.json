@@ -1,0 +1,35 @@
+{
+  "ticker": "HUBS",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "HubSpot, Inc. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1404655/000119312526046646/hubs-20251231.htm",
+    "date": "2026-02-11"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 3131266000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 1872171000,
+      "share": 0.5978958670390826
+    },
+    {
+      "name": "Europe",
+      "revenue": 1010968000,
+      "share": 0.32286238218024277
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 248127000,
+      "share": 0.07924175078067465
+    }
+  ]
+}

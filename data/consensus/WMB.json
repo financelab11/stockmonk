@@ -1,7 +1,7 @@
 {
   "ticker": "WMB",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/WMB/analysis",
   "targetMean": 85.41667,
   "targetHigh": 103,

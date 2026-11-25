@@ -1,0 +1,29 @@
+{
+  "ticker": "NTES",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "NETEASE, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+    "date": "2026-04-15"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Netease Cloud Music",
+      "revenue": 7759450000,
+      "share": 0.48200220568168295
+    },
+    {
+      "name": "Innovative Businesses & Others",
+      "revenue": 6808730000,
+      "share": 0.42294529610875065
+    },
+    {
+      "name": "Corporate / other",
+      "revenue": 1530190316,
+      "share": 0.09505249820956642
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

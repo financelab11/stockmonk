@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-24T06:13:53.409Z",
-  "priceAsOf": "2026-11-23",
-  "companies": 229,
-  "researchCompanies": 229,
+  "generatedAt": "2026-11-25T18:13:51.158Z",
+  "priceAsOf": "2026-11-25",
+  "companies": 500,
+  "researchCompanies": 500,
   "benchmark": "SPY",
   "priceRanges": [
     "1M",
@@ -14,6 +14,10 @@
     "MAX"
   ],
   "missingRevenue": [
+    "NVS",
+    "AEM",
+    "ARGX",
+    "KOD",
     "VKTX"
   ],
   "notes": [

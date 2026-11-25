@@ -1,0 +1,40 @@
+{
+  "ticker": "LNG",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "CHENIERE ENERGY, INC. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/3570/000000357026000005/lng-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 19464000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Other Countries",
+      "revenue": 12068000000,
+      "share": 0.6200164406083025
+    },
+    {
+      "name": "United States",
+      "revenue": 3664000000,
+      "share": 0.18824496506370736
+    },
+    {
+      "name": "Singapore",
+      "revenue": 2093000000,
+      "share": 0.10753185367858611
+    },
+    {
+      "name": "United Kingdom",
+      "revenue": 1639000000,
+      "share": 0.08420674064940403
+    }
+  ]
+}

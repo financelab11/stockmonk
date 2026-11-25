@@ -1,7 +1,7 @@
 {
   "ticker": "PG",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "sourceUrl": "https://finance.yahoo.com/quote/PG/analysis",
   "targetMean": 176.34782,
   "targetHigh": 192,

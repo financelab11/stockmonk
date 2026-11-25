@@ -1,0 +1,45 @@
+{
+  "ticker": "ACM",
+  "asOf": "2026-09-30",
+  "source": {
+    "name": "AECOM Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/868857/000086885726000026/acm-20261002.htm",
+    "date": "2026-11-18"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Americas",
+      "revenue": 11472500000,
+      "share": 0.7599509021042807
+    },
+    {
+      "name": "International",
+      "revenue": 3623700000,
+      "share": 0.24003783691046257
+    },
+    {
+      "name": "AECOM Capital",
+      "revenue": 200000,
+      "share": 0.000013248217949083124
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 11472700000,
+      "share": 0.7599641503222297
+    },
+    {
+      "name": "EMEA",
+      "revenue": 2157200000,
+      "share": 0.1428952787988106
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 1466500000,
+      "share": 0.09714255811165201
+    }
+  ]
+}

@@ -199,6 +199,129 @@ const GROUP_CONFIG: Record<string, GroupConfig> = {
     label: "Specialty financials",
     ids: ["roe", "roa", "netMargin", "dividendYield", "assetTurnover"],
   },
+  "enterprise-software": {
+    label: "Enterprise software",
+    ids: [
+      "revenueGrowth",
+      "grossMargin",
+      "operatingMargin",
+      "ruleOf40",
+      "rndIntensity",
+      "fcfMargin",
+      "netDebtEbitda",
+    ],
+  },
+  "semis-hardware": {
+    label: "Semiconductors and hardware",
+    ids: [
+      "revenueGrowth",
+      "grossMargin",
+      "inventoryDays",
+      "rndIntensity",
+      "capexIntensity",
+      "fcfMargin",
+    ],
+  },
+  "internet-platforms": {
+    label: "Internet platforms",
+    ids: [
+      "revenueGrowth",
+      "grossMargin",
+      "operatingMargin",
+      "fcfMargin",
+      "netDebtEbitda",
+    ],
+  },
+  "payments-fintech": {
+    label: "Payments and financial software",
+    ids: [
+      "revenueGrowth",
+      "operatingMargin",
+      "fcfMargin",
+      "netDebtEbitda",
+      "roe",
+    ],
+  },
+  "pharma-biotech": {
+    label: "Pharma and biotech",
+    ids: [
+      "revenueGrowth",
+      "grossMargin",
+      "rndIntensity",
+      "cashRunway",
+      "operatingMargin",
+    ],
+  },
+  "healthcare-services": {
+    label: "Healthcare services and devices",
+    ids: [
+      "revenueGrowth",
+      "grossMargin",
+      "operatingMargin",
+      "fcfMargin",
+      "netDebtEbitda",
+    ],
+  },
+  "industrial-automation": {
+    label: "Industrial automation",
+    ids: [
+      "revenueGrowth",
+      "operatingMargin",
+      "inventoryDays",
+      "assetTurnover",
+      "netDebtEbitda",
+    ],
+  },
+  "aerospace-defense": {
+    label: "Aerospace and defense",
+    ids: [
+      "revenueGrowth",
+      "operatingMargin",
+      "capexIntensity",
+      "netDebtEbitda",
+    ],
+  },
+  "transport-autonomy": {
+    label: "Transport and autonomy",
+    ids: [
+      "revenueGrowth",
+      "operatingMargin",
+      "capexIntensity",
+      "netDebtEbitda",
+    ],
+  },
+  "power-renewables": {
+    label: "Power and renewables",
+    ids: [
+      "revenueGrowth",
+      "fcfMargin",
+      "capexIntensity",
+      "netDebtEbitda",
+      "dividendYield",
+    ],
+  },
+  "materials-mining": {
+    label: "Materials and mining",
+    ids: ["grossMargin", "operatingMargin", "capexIntensity", "netDebtEbitda"],
+  },
+  "consumer-retail": {
+    label: "Consumer retail and leisure",
+    ids: [
+      "revenueGrowth",
+      "grossMargin",
+      "inventoryDays",
+      "operatingMargin",
+      "fcfMargin",
+    ],
+  },
+  "banks-insurance": {
+    label: "Banks and insurance",
+    ids: ["roe", "roa", "netMargin", "dividendYield", "assetTurnover"],
+  },
+  "capital-markets": {
+    label: "Capital markets",
+    ids: ["roe", "roa", "netMargin", "dividendYield", "assetTurnover"],
+  },
 };
 
 function annualAverage(

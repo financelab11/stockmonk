@@ -1,0 +1,19 @@
+{
+  "ticker": "AZN",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "ASTRAZENECA PLC Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465926019130/azn-20251231x20f.htm",
+    "date": "2026-02-24"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Corporate / other",
+      "revenue": 58739000000,
+      "share": 1
+    }
+  ],
+  "geographyLabel": null,
+  "geography": []
+}

@@ -1,0 +1,45 @@
+{
+  "ticker": "NICE",
+  "asOf": "2025-12-31",
+  "source": {
+    "name": "NICE LTD. Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1003935/000100393526000010/nice-20251231.htm",
+    "date": "2026-02-26"
+  },
+  "segmentLabel": "Reportable segment",
+  "segments": [
+    {
+      "name": "Customer Engagement",
+      "revenue": 2459974000,
+      "share": 0.8351921080980879
+    },
+    {
+      "name": "Financial Crime & Compliance Solutions",
+      "revenue": 485425000,
+      "share": 0.1648078919019121
+    }
+  ],
+  "geographyLabel": "Geography",
+  "geography": [
+    {
+      "name": "Americas",
+      "revenue": 2465646000,
+      "share": 0.8371178234256208
+    },
+    {
+      "name": "EMEA",
+      "revenue": 321609000,
+      "share": 0.10919029985411145
+    },
+    {
+      "name": "Asia Pacific",
+      "revenue": 154682000,
+      "share": 0.05251648418431595
+    },
+    {
+      "name": "IL",
+      "revenue": 3462000,
+      "share": 0.0011753925359518354
+    }
+  ]
+}

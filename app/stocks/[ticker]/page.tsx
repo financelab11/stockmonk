@@ -19,7 +19,7 @@ import {
 import { articleJsonLd, breadcrumbJsonLd, profilePageJsonLd } from "@/lib/seo";
 import { resolveStory } from "@/lib/story-tokens";
 
-export const revalidate = 3600;
+export const revalidate = false;
 export const dynamicParams = false;
 
 export function generateStaticParams() {

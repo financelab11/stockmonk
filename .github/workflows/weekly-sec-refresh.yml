@@ -63,6 +63,9 @@ jobs:
       - name: Rebuild price and profile datasets
         run: pnpm ingest:fundamentals
 
+      - name: Refresh consensus
+        run: pnpm ingest:consensus
+
       - name: Rebuild public datasets and scores
         run: |
           pnpm build:data

@@ -1,0 +1,125 @@
+name: Weekly SEC fundamentals refresh
+
+on:
+  schedule:
+    # Saturday 03:00 America/New_York. GitHub cron is UTC, so try both
+    # 07:00 and 08:00 UTC and let the guard pick the 03:00 run.
+    - cron: "0 7 * * 6"
+    - cron: "0 8 * * 6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: daily-market-data-refresh
+  cancel-in-progress: false
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.clock.outputs.run }}
+    steps:
+      - name: Check 3am US Eastern
+        id: clock
+        run: |
+          hour=$(TZ=America/New_York date +%H)
+          echo "America/New_York hour: $hour"
+          if [ "$hour" = "03" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  refresh:
+    needs: guard
+    if: needs.guard.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.34.9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Download SEC companyfacts bulk archive
+        run: pnpm fetch:companyfacts
+
+      - name: Rebuild SEC statements
+        env:
+          SKIP_SUBMISSIONS: "1"
+        run: pnpm ingest:edgar
+
+      - name: Rebuild price and profile datasets
+        run: pnpm ingest:fundamentals
+
+      - name: Rebuild public datasets and scores
+        run: |
+          pnpm build:data
+          pnpm build:scores
+          pnpm build:kpis
+          pnpm build:screener
+          pnpm ingest:logos
+          pnpm build:runtime
+          pnpm build:seo
+
+      - name: Commit refreshed fundamentals
+        run: |
+          git config user.name "stockmonk-data-bot"
+          git config user.email "data-bot@stockmonk.app"
+          git add data public/data public/logos
+          if git diff --cached --quiet; then
+            echo "No fundamental changes to commit."
+          else
+            git commit -m "chore: weekly SEC fundamentals refresh"
+            git push
+          fi
+
+      - name: Open or update the failure issue
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = "Weekly SEC fundamentals refresh failed";
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const body = [
+              "The weekly SEC fundamentals refresh did not complete.",
+              "",
+              `Run: ${runUrl}`,
+              `Commit: ${context.sha}`,
+              `Time: ${new Date().toISOString()}`,
+              "",
+              "Check the bulk companyfacts download and the ingestion logs.",
+            ].join("\n");
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              per_page: 100,
+            });
+            const existing = issues.find((issue) => issue.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+              });
+            }

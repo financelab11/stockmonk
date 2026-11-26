@@ -148,20 +148,21 @@ export default function V2MethodologyPage() {
 
         <section className="mt-10">
           <h2 className="display text-[30px] leading-tight tracking-[-0.025em] text-ink">
-            Coverage and N/A rules
+            Data and N/A rules
           </h2>
           <div className="prose-editorial mt-3">
             <p>
               Each component has a maximum point total. A metric that is genuinely
               inapplicable is marked N/A and removed from that component&apos;s
-              denominator. Missing data is not treated as zero. Coverage is the
-              available maximum points divided by the total maximum points.
+              denominator. Missing data is not treated as zero. The score uses
+              only the points that can actually be evidenced.
             </p>
             <p>
-              A component below 70% coverage is marked <strong>Provisional</strong>.
-              If any of the four components is below 70%, the composite is shown as{" "}
-              <strong>Incomplete</strong> rather than producing a misleading total.
-              The individual scores remain visible.
+              A component with too little data is marked{" "}
+              <strong>Provisional</strong>. If any of the four components is
+              provisional, the composite is shown as <strong>Incomplete</strong>{" "}
+              rather than producing a misleading total. The individual scores
+              remain visible.
             </p>
             <p>
               Scores are deterministic. The narrative may interpret the evidence,
@@ -206,9 +207,7 @@ export default function V2MethodologyPage() {
                           <td
                             key={key}
                             className="tabular px-3 py-2 text-right text-ink"
-                            title={`${classifyComponent(score.score)} · ${Math.round(
-                              score.coverage * 100,
-                            )}% coverage`}
+                            title={classifyComponent(score.score)}
                           >
                             {score.score == null ? "N/A" : round(score.score, 0)}
                           </td>

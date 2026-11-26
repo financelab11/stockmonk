@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { ResearchArticle } from "@/components/article/research-article";
 import { SupportingProfile } from "@/components/article/supporting-profile";
 import { JsonLd } from "@/components/seo/json-ld";
 import { getStockStory } from "@/content/stocks";
 import { generateStockStory } from "@/lib/generated-story";
-import { RESEARCH_TICKERS } from "@/config/universe";
+import { isResearchTicker, RESEARCH_TICKERS } from "@/config/universe";
+import { getV2Score } from "@/lib/scores-v2-data";
 import {
   getPrices,
   getResearchBundle,
@@ -83,6 +84,12 @@ export default async function StockPage({
   params: Promise<{ ticker: string }>;
 }) {
   const { ticker } = await params;
+  const normalized = ticker.toUpperCase();
+  // Score-only names do not have a ten-section research report yet. Send the
+  // direct stock URL to the evidence page instead of rendering a thin profile.
+  if (!isResearchTicker(normalized) && getV2Score(normalized)) {
+    redirect(`/stocks/${normalized}/scores`);
+  }
   const data = getTicker(ticker);
   if (!data) notFound();
 

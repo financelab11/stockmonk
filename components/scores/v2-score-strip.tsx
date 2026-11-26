@@ -1,5 +1,5 @@
 import type { V2ScoreRecord } from "@/lib/scoring-v2/types";
-import { round } from "@/lib/scoring-v2/util";
+import { classifyComponent, round } from "@/lib/scoring-v2/util";
 
 const KEYS = [
   ["G", "growth"],
@@ -26,9 +26,11 @@ export function V2ScoreStrip({
           <span
             key={key}
             className="inline-flex items-baseline gap-1 text-muted"
-            title={`${score.label} ${score.score ?? "N/A"} · ${Math.round(
-              score.coverage * 100,
-            )}% coverage${score.status === "provisional" ? " · provisional" : ""}`}
+            title={`${score.label} ${
+              score.score == null ? "N/A" : round(score.score, 0)
+            } · ${classifyComponent(score.score)}${
+              score.status === "provisional" ? " · provisional" : ""
+            }`}
           >
             <span className="font-semibold text-faint">{label}</span>
             <span className="tabular font-semibold text-ink">

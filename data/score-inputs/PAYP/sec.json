@@ -1,0 +1,27 @@
+{
+  "ticker": "PAYP",
+  "cik": "0002080845",
+  "entityName": "PayPay Corporation",
+  "sharesOutstanding": 676955535,
+  "quarterly": [],
+  "annual": [],
+  "filings": {
+    "latest10K": {
+      "form": "20-F",
+      "filed": "2026-06-30",
+      "reportDate": "2026-03-31",
+      "accession": "0001193125-26-289382",
+      "url": "https://www.sec.gov/Archives/edgar/data/2080845/000119312526289382/payp-20260331.htm",
+      "items": ""
+    },
+    "latest8K": null,
+    "earningsReleaseUrl": null
+  },
+  "sources": [
+    {
+      "name": "SEC 20-F (2026-06-30)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2080845/000119312526289382/payp-20260331.htm",
+      "date": "2026-06-30"
+    }
+  ]
+}

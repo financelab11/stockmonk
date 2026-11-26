@@ -6,12 +6,12 @@
 import { existsSync } from "node:fs";
 import fs from "node:fs/promises";
 import path from "node:path";
-import { ALL_TICKERS, BENCHMARK_TICKER } from "../config/universe";
+import { SCORE_TICKERS } from "../config/universe";
 import { tickerDataSchema, universeEntrySchema } from "../lib/schemas";
 import { getArchivedCompany } from "../config/archive";
+import { tickerDir } from "./lib/data-paths";
 
 const ROOT = process.cwd();
-const PROCESSED = path.join(ROOT, "data", "processed");
 const PUBLIC = path.join(ROOT, "public", "data");
 const CONSENSUS = path.join(ROOT, "data", "consensus");
 const SEGMENTS = path.join(ROOT, "data", "segments");
@@ -47,13 +47,9 @@ async function main() {
 
   const entries = [];
 
-  for (const ticker of ALL_TICKERS) {
-    if (ticker === BENCHMARK_TICKER) continue;
+  for (const ticker of SCORE_TICKERS) {
     try {
-      const raw = await fs.readFile(
-        path.join(PROCESSED, ticker, "data.json"),
-        "utf8",
-      );
+      const raw = await fs.readFile(tickerDir(ticker, "data.json"), "utf8");
       const data = tickerDataSchema.parse(JSON.parse(raw));
       const quality = coverageQuality(data, ticker);
       entries.push(
@@ -91,6 +87,7 @@ async function main() {
 
   entries.sort((a, b) => a.ticker.localeCompare(b.ticker));
 
+  const researchEntries = entries.filter((entry) => entry.isResearch);
   const searchIndex = entries.map((entry) => ({
     ticker: entry.ticker,
     name: entry.name,
@@ -101,7 +98,7 @@ async function main() {
 
   await fs.writeFile(
     path.join(PUBLIC, "stocks.json"),
-    JSON.stringify(entries, null, 2),
+    JSON.stringify(researchEntries, null, 2),
     "utf8",
   );
   await fs.writeFile(
@@ -111,7 +108,7 @@ async function main() {
   );
 
   console.log(
-    `[build:data] wrote ${entries.length} companies (${entries.filter((entry) => entry.isResearch).length} research)`,
+    `[build:data] wrote ${researchEntries.length} research names and ${searchIndex.length} searchable score names`,
   );
 }
 

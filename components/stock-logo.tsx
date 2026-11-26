@@ -1,3 +1,5 @@
+import { logoFileName } from "@/lib/logo-filename";
+
 const PALETTE = [
   "bg-[#0b6b53] text-white",
   "bg-[#0b1220] text-white",
@@ -51,7 +53,7 @@ export function StockLogo({
       </span>
       {!hideLogo && (
         <img
-          src={`/logos/${ticker}.png`}
+          src={`/logos/${logoFileName(ticker)}.png`}
           alt=""
           width={size}
           height={size}

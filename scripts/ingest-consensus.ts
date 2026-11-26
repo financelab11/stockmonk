@@ -11,21 +11,21 @@
 import { setTimeout as sleep } from "node:timers/promises";
 import fs from "node:fs/promises";
 import path from "node:path";
-import { ACTIVE_RESEARCH_TICKERS } from "../config/universe";
+import {
+  ACTIVE_SCORE_TICKERS,
+  isResearchTicker,
+} from "../config/universe";
 import { fetchConsensus } from "../lib/consensus";
 import { consensusSchema, type Consensus } from "../lib/schemas";
+import { tickerDir } from "./lib/data-paths";
 
-const PROCESSED = path.join(process.cwd(), "data", "processed");
 const OUT = path.join(process.cwd(), "data", "consensus");
 
 type SecQuarter = { end: string; revenue: number | null };
 
 async function secQuarters(ticker: string): Promise<SecQuarter[]> {
   try {
-    const raw = await fs.readFile(
-      path.join(PROCESSED, ticker, "sec.json"),
-      "utf8",
-    );
+    const raw = await fs.readFile(tickerDir(ticker, "sec.json"), "utf8");
     const parsed = JSON.parse(raw) as { quarterly?: SecQuarter[] };
     return parsed.quarterly ?? [];
   } catch {
@@ -58,9 +58,19 @@ function attachRevenueActual(
 async function main() {
   await fs.mkdir(OUT, { recursive: true });
   const summary: Array<Record<string, unknown>> = [];
-  const requested = process.argv.slice(2).map((ticker) => ticker.toUpperCase());
+  const requested = [
+    ...(process.env.CONSENSUS_TICKERS ?? "").split(","),
+    ...process.argv.slice(2),
+  ]
+    .map((ticker) => ticker.trim().toUpperCase())
+    .filter(Boolean);
+  const skipResearch = process.env.SKIP_RESEARCH === "1";
   const tickers =
-    requested.length > 0 ? requested : [...ACTIVE_RESEARCH_TICKERS];
+    requested.length > 0
+      ? requested
+      : skipResearch
+        ? ACTIVE_SCORE_TICKERS.filter((ticker) => !isResearchTicker(ticker))
+        : [...ACTIVE_SCORE_TICKERS];
 
   for (const ticker of tickers) {
     try {
@@ -70,11 +80,11 @@ async function main() {
         await secQuarters(ticker),
       );
       const parsed = consensusSchema.parse(enriched);
-      await fs.writeFile(
-        path.join(OUT, `${ticker}.json`),
-        JSON.stringify(parsed, null, 2),
-        "utf8",
-      );
+      const file = isResearchTicker(ticker)
+        ? path.join(OUT, `${ticker}.json`)
+        : tickerDir(ticker, "consensus.json");
+      await fs.mkdir(path.dirname(file), { recursive: true });
+      await fs.writeFile(file, JSON.stringify(parsed, null, 2), "utf8");
       summary.push({
         ticker,
         provider: parsed.provider,

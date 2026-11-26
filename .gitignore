@@ -43,6 +43,19 @@ public/screenshots/
 # ingestion cache (re-downloadable)
 /data/raw/
 
+# CON is a reserved Windows device name; the public ticker stays CON but the
+# evidence and logo files are stored with a trailing underscore.
+/public/data/v2/companies/CON.json
+/public/logos/CON
+/public/logos/CON.png
+
+# Score-only SEC statements are versioned (they change quarterly). The larger
+# daily Yahoo outputs are rebuilt in CI and only the public score artifacts are
+# committed.
+/data/score-inputs/**/data.json
+/data/score-inputs/**/prices.json
+/data/score-inputs/**/consensus.json
+
 # vercel
 .vercel
 

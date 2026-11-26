@@ -1,0 +1,27 @@
+{
+  "ticker": "AUGO",
+  "cik": "0001468642",
+  "entityName": "AURA MINERALS INC.",
+  "sharesOutstanding": 83789223,
+  "quarterly": [],
+  "annual": [],
+  "filings": {
+    "latest10K": {
+      "form": "20-F",
+      "filed": "2026-04-01",
+      "reportDate": "2025-12-31",
+      "accession": "0001171843-26-002127",
+      "url": "https://www.sec.gov/Archives/edgar/data/1468642/000117184326002127/f20f_033126.htm",
+      "items": ""
+    },
+    "latest8K": null,
+    "earningsReleaseUrl": null
+  },
+  "sources": [
+    {
+      "name": "SEC 20-F (2026-04-01)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1468642/000117184326002127/f20f_033126.htm",
+      "date": "2026-04-01"
+    }
+  ]
+}

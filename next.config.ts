@@ -31,7 +31,14 @@ const nextConfig: NextConfig = {
     "/stocks/[ticker]": ["./public/data/articles/runtime.json.gz"],
     "/stocks/[ticker]/scores": ["./public/data/v2/companies/**"],
     "/discover": ["./public/data/v2/companies/**"],
-    "/framework/scores": ["./public/data/v2/companies/**"],
+    "/framework/scores": [
+      "./public/data/v2/companies/**",
+      "./public/data/v2/scores.json",
+    ],
+    "/screener": [
+      "./public/data/screener.json",
+      "./public/data/screener-factors.json",
+    ],
   },
   async redirects() {
     return [

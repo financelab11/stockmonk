@@ -6,7 +6,11 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { ALL_TICKERS, BENCHMARK_TICKER } from "../config/universe";
+import {
+  ALL_TICKERS,
+  BENCHMARK_TICKER,
+  SCORE_TICKERS,
+} from "../config/universe";
 import { SITE } from "../lib/constants";
 
 const PUBLIC = path.join(process.cwd(), "public");
@@ -39,7 +43,13 @@ const stockRoutes = ALL_TICKERS.filter(
   priority: "0.8",
 }));
 
-const urls = [...staticRoutes, ...stockRoutes]
+const scoreRoutes = SCORE_TICKERS.map((ticker) => ({
+  path: `/stocks/${ticker}/scores`,
+  changeFrequency: "daily",
+  priority: "0.7",
+}));
+
+const urls = [...staticRoutes, ...stockRoutes, ...scoreRoutes]
   .map(
     (route) =>
       `  <url><loc>${SITE.url}${route.path}</loc><lastmod>${now}</lastmod><changefreq>${route.changeFrequency}</changefreq><priority>${route.priority}</priority></url>`,
@@ -63,4 +73,6 @@ const robots = [
 fs.mkdirSync(PUBLIC, { recursive: true });
 fs.writeFileSync(path.join(PUBLIC, "sitemap.xml"), sitemap, "utf8");
 fs.writeFileSync(path.join(PUBLIC, "robots.txt"), robots, "utf8");
-console.log(`[seo] wrote ${staticRoutes.length + stockRoutes.length} URLs`);
+console.log(
+  `[seo] wrote ${staticRoutes.length + stockRoutes.length + scoreRoutes.length} URLs`,
+);

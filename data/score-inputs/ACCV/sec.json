@@ -1,0 +1,34 @@
+{
+  "ticker": "ACCV",
+  "cik": "0002141406",
+  "entityName": "Accelevation Holdings Corp.",
+  "sharesOutstanding": 1000,
+  "quarterly": [],
+  "annual": [],
+  "filings": {
+    "latest10Q": {
+      "form": "10-Q",
+      "filed": "2026-11-13",
+      "reportDate": "2026-09-30",
+      "accession": "0001628280-26-073820",
+      "url": "https://www.sec.gov/Archives/edgar/data/2141406/000162828026073820/accv-20260930.htm",
+      "items": ""
+    },
+    "latest8K": {
+      "form": "8-K",
+      "filed": "2026-11-12",
+      "reportDate": "2026-11-12",
+      "accession": "0001628280-26-073382",
+      "url": "https://www.sec.gov/Archives/edgar/data/2141406/000162828026073382/accv-20261112.htm",
+      "items": "2.02,7.01,9.01"
+    },
+    "earningsReleaseUrl": null
+  },
+  "sources": [
+    {
+      "name": "SEC 10-Q (2026-11-13)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2141406/000162828026073820/accv-20260930.htm",
+      "date": "2026-11-13"
+    }
+  ]
+}

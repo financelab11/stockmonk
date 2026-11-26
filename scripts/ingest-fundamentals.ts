@@ -18,7 +18,8 @@ import { getCoverageGroup } from "../config/coverage";
 import { getArchivedCompany } from "../config/archive";
 import {
   BENCHMARK_TICKER,
-  RESEARCH_TICKERS,
+  isResearchTicker,
+  SCORE_TICKERS,
   TICKER_ALIASES,
 } from "../config/universe";
 import {
@@ -37,6 +38,7 @@ import {
 } from "../lib/schemas";
 import { yahooChart, yahooQuoteSummary } from "../lib/yahoo";
 import { formatDate } from "../lib/format";
+import { tickerDir } from "./lib/data-paths";
 
 const PROCESSED = path.join(process.cwd(), "data", "processed");
 const PUBLIC_DATA = path.join(process.cwd(), "public", "data");
@@ -144,40 +146,56 @@ async function main() {
     (existingUniverse ?? []).map((entry) => [entry.ticker, entry.marketCap]),
   );
 
+  const skipResearch = process.env.SKIP_RESEARCH === "1";
   const tickers = TICKER_FILTER.size
-    ? RESEARCH_TICKERS.filter((ticker) => TICKER_FILTER.has(ticker))
-    : RESEARCH_TICKERS;
+    ? SCORE_TICKERS.filter((ticker) => TICKER_FILTER.has(ticker))
+    : skipResearch
+      ? SCORE_TICKERS.filter((ticker) => !isResearchTicker(ticker))
+      : SCORE_TICKERS;
 
   const records: TickerData[] = [];
   let failed = 0;
 
   for (const ticker of tickers) {
-    const sec = await readJson<SecFile>(
-      path.join(PROCESSED, ticker, "sec.json"),
-    );
+    let sec = await readJson<SecFile>(tickerDir(ticker, "sec.json"));
     if (!sec || (sec.quarterly.length === 0 && sec.annual.length === 0)) {
-      console.warn(`[fundamentals] ${ticker}: no SEC fundamentals`);
-      failed += 1;
-      continue;
+      if (isResearchTicker(ticker)) {
+        console.warn(`[fundamentals] ${ticker}: no SEC fundamentals`);
+        failed += 1;
+        continue;
+      }
+      // OTC/community banks and other score-only names may not be in the SEC
+      // ticker map. Yahoo still supplies a price and profile, so keep a
+      // market-only record instead of dropping the name from the score
+      // universe.
+      sec = {
+        ticker,
+        quarterly: [],
+        annual: [],
+        filings: {},
+        sources: [],
+      };
+      console.log(
+        `[fundamentals] ${ticker}: no SEC fundamentals; building market-only record`,
+      );
     }
 
-    const existing = await readJson<TickerData>(
-      path.join(PROCESSED, ticker, "data.json"),
-    );
+    const existing = await readJson<TickerData>(tickerDir(ticker, "data.json"));
     const symbol = TICKER_ALIASES[ticker]?.yahoo ?? ticker;
     const group = getCoverageGroup(ticker);
     const archived = getArchivedCompany(ticker);
+    const research = isResearchTicker(ticker);
 
     try {
       const chart = archived
         ? null
-        : await yahooChart(symbol, "20y").catch(() => null);
+        : await yahooChart(symbol, research ? "20y" : "2y").catch(() => null);
       const existingPrices =
         (await readJson<PricePoint[]>(
-          path.join(PROCESSED, ticker, "prices.json"),
+          tickerDir(ticker, "prices.json"),
         )) ?? [];
       const hasYahooPrices = Boolean(chart && chart.points.length >= 30);
-      const prices: PricePoint[] = archived
+      const allPrices: PricePoint[] = archived
         ? [
             {
               d: archived.lastTraded,
@@ -194,6 +212,10 @@ async function main() {
           : existingPrices.length > 0
             ? existingPrices
             : (chart?.points ?? []);
+      // Score-only names do not render a chart. Two years is enough for the
+      // 200-day moving average, the 12-month relative return and the
+      // technical evidence, and it keeps the data layer compact.
+      const prices = research ? allPrices : allPrices.slice(-650);
 
       if (prices.length === 0) {
         console.warn(`[fundamentals] ${ticker}: no price history`);
@@ -348,7 +370,7 @@ async function main() {
         founded: null,
         website: profile?.website ?? null,
         currency: quote?.currency ?? "USD",
-        isResearch: true,
+        isResearch: research,
         latestPrice,
         ttm: computed.ttm,
         quarterly: sec.quarterly,
@@ -364,13 +386,14 @@ async function main() {
         updatedAt: new Date().toISOString(),
       };
 
+      await fs.mkdir(tickerDir(ticker), { recursive: true });
       await fs.writeFile(
-        path.join(PROCESSED, ticker, "prices.json"),
+        tickerDir(ticker, "prices.json"),
         JSON.stringify(sorted),
         "utf8",
       );
       records.push(tickerDataSchema.parse(record));
-      await writeTicker(record);
+      await writeTicker(record, research);
       if (records.length % 25 === 0) {
         console.log(
           `[fundamentals] ${records.length}/${tickers.length} (${ticker})`,
@@ -387,7 +410,7 @@ async function main() {
     await sleep(DELAY_MS);
   }
 
-  if (TICKER_FILTER.size) {
+  if (TICKER_FILTER.size || skipResearch) {
     const chips = buildFactorChips(
       records.map((record) => ({
         ticker: record.ticker,
@@ -396,7 +419,7 @@ async function main() {
     );
     for (const record of records) {
       record.factorChips = chips[record.ticker] ?? [];
-      await writeTicker(record);
+      await writeTicker(record, record.isResearch);
     }
     console.log(
       `[fundamentals] filtered run wrote ${records.length} records; skipping universe files`,
@@ -404,9 +427,9 @@ async function main() {
     return;
   }
 
-  if (records.length !== RESEARCH_TICKERS.length) {
+  if (records.length !== SCORE_TICKERS.length) {
     console.warn(
-      `[fundamentals] ${RESEARCH_TICKERS.length - records.length} research names missing`,
+      `[fundamentals] ${SCORE_TICKERS.length - records.length} score names missing`,
     );
   }
 
@@ -417,11 +440,11 @@ async function main() {
     })),
   );
 
-  const universe: UniverseEntry[] = [];
+  const entries: UniverseEntry[] = [];
   for (const record of records) {
     record.factorChips = chips[record.ticker] ?? [];
-    await writeTicker(record);
-    universe.push(
+    await writeTicker(record, record.isResearch);
+    entries.push(
       universeEntrySchema.parse({
         ticker: record.ticker,
         name: record.name,
@@ -447,7 +470,10 @@ async function main() {
     );
   }
 
-  universe.sort((a, b) => (b.marketCap ?? 0) - (a.marketCap ?? 0));
+  entries.sort((a, b) => (b.marketCap ?? 0) - (a.marketCap ?? 0));
+  // The directory and research runtime stay at 500 names. Score-only names are
+  // available through the screener, search and their evidence pages.
+  const universe = entries.filter((entry) => entry.isResearch);
   await fs.writeFile(
     path.join(PUBLIC_DATA, "stocks.json"),
     JSON.stringify(universe),
@@ -459,7 +485,7 @@ async function main() {
     "utf8",
   );
 
-  const searchIndex = universe.map((entry) => ({
+  const searchIndex = entries.map((entry) => ({
     ticker: entry.ticker,
     name: entry.name,
     sector: entry.sector,
@@ -472,18 +498,18 @@ async function main() {
     "utf8",
   );
 
-  const priceAsOf = universe.reduce<string>(
+  const priceAsOf = entries.reduce<string>(
     (max, entry) => (entry.asOf && entry.asOf > max ? entry.asOf : max),
     "",
   );
   const meta = {
     generatedAt: new Date().toISOString(),
     priceAsOf,
-    companies: universe.length,
-    researchCompanies: RESEARCH_TICKERS.length,
+    companies: entries.length,
+    researchCompanies: universe.length,
     benchmark: BENCHMARK_TICKER,
     priceRanges: ["1M", "3M", "6M", "YTD", "1Y", "5Y", "MAX"],
-    missingRevenue: universe
+    missingRevenue: entries
       .filter((entry) => !entry.revenueTtm)
       .map((entry) => entry.ticker),
     notes: [
@@ -506,17 +532,22 @@ async function main() {
   if (failed > 0) process.exitCode = 1;
 }
 
-async function writeTicker(record: TickerData) {
+async function writeTicker(record: TickerData, withChart: boolean) {
   const ticker = record.ticker;
-  await fs.mkdir(path.join(PROCESSED, ticker), { recursive: true });
+  await fs.mkdir(tickerDir(ticker), { recursive: true });
   await fs.writeFile(
-    path.join(PROCESSED, ticker, "data.json"),
+    tickerDir(ticker, "data.json"),
     JSON.stringify(record, null, 0),
     "utf8",
   );
 
+  // Score-only pages do not render a price chart. Skipping the seven public
+  // range files keeps the static data layer small while the processed series
+  // remains available for the technical score.
+  if (!withChart) return;
+
   const prices = await readJson<PricePoint[]>(
-    path.join(PROCESSED, ticker, "prices.json"),
+    tickerDir(ticker, "prices.json"),
   );
   if (!prices) return;
   const ranges = buildRangeFiles(prices, ticker);

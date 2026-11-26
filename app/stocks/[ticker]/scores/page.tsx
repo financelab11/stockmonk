@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/seo/json-ld";
+import { ScoreEvidenceTable } from "@/components/scores/score-evidence-table";
 import { V2Scorecard } from "@/components/scores/v2-scorecard";
 import { Disclaimer } from "@/components/ui/disclaimer";
+import { isResearchTicker } from "@/config/universe";
 import { getV2Score } from "@/lib/scores-v2-data";
 import type { ScoreKey } from "@/lib/scoring-v2/types";
 import { classifyComponent, round } from "@/lib/scoring-v2/util";
@@ -59,16 +61,23 @@ export default async function ScoreEvidencePage({
   const record = getV2Score(ticker);
   if (!record) notFound();
 
+  const hasResearch = isResearchTicker(record.ticker);
+  const crumbs = hasResearch
+    ? [
+        { name: "Home", path: "/" },
+        { name: "Discover", path: "/discover" },
+        { name: record.name, path: `/stocks/${record.ticker}` },
+        { name: "Score evidence", path: `/stocks/${record.ticker}/scores` },
+      ]
+    : [
+        { name: "Home", path: "/" },
+        { name: "Discover", path: "/discover" },
+        { name: "Score evidence", path: `/stocks/${record.ticker}/scores` },
+      ];
+
   return (
     <>
-      <JsonLd
-        data={breadcrumbJsonLd([
-          { name: "Home", path: "/" },
-          { name: "Discover", path: "/discover" },
-          { name: record.name, path: `/stocks/${record.ticker}` },
-          { name: "Score evidence", path: `/stocks/${record.ticker}/scores` },
-        ])}
-      />
+      <JsonLd data={breadcrumbJsonLd(crumbs)} />
 
       <div className="container-page max-w-[1100px] py-8">
         <nav
@@ -79,10 +88,14 @@ export default async function ScoreEvidencePage({
             Discover
           </Link>
           <span aria-hidden="true">›</span>
-          <Link href={`/stocks/${record.ticker}`} className="hover:text-ink">
-            {record.ticker}
-          </Link>
-          <span aria-hidden="true">›</span>
+          {hasResearch ? (
+            <>
+              <Link href={`/stocks/${record.ticker}`} className="hover:text-ink">
+                {record.ticker}
+              </Link>
+              <span aria-hidden="true">›</span>
+            </>
+          ) : null}
           <span className="text-ink">Score evidence</span>
         </nav>
 
@@ -90,12 +103,47 @@ export default async function ScoreEvidencePage({
           {record.name}
         </h1>
         <p className="mt-1.5 text-[13px] text-muted">
-          Score evidence · Data as of{" "}
+          {record.ticker} · Score evidence · Data as of{" "}
           {record.asOf ? formatDate(record.asOf) : "N/A"}
         </p>
 
+        <div className="mt-3 flex flex-wrap items-center gap-2">
+          {hasResearch ? (
+            <>
+              <Link
+                href={`/stocks/${record.ticker}`}
+                className="inline-flex items-center rounded-full border border-line bg-surface px-3 py-1.5 text-[10.5px] font-semibold text-ink-soft transition hover:border-brand/40 hover:text-brand"
+              >
+                Research report
+              </Link>
+              <span className="inline-flex items-center rounded-full border border-brand/30 bg-brand-soft px-3 py-1.5 text-[10.5px] font-semibold text-brand-deep">
+                Score evidence
+              </span>
+            </>
+          ) : (
+            <>
+              <span className="inline-flex items-center rounded-full border border-brand/30 bg-brand-soft px-3 py-1.5 text-[10.5px] font-semibold text-brand-deep">
+                Score evidence
+              </span>
+              <span className="inline-flex items-center rounded-full border border-dashed border-line bg-paper-deep px-3 py-1.5 text-[10.5px] font-semibold text-muted">
+                Research coverage coming soon
+              </span>
+            </>
+          )}
+        </div>
+
+        {!hasResearch && (
+          <div className="mt-3 rounded-xl border border-line bg-paper-deep px-4 py-3 text-[12px] leading-relaxed text-muted">
+            <span className="font-semibold text-ink">
+              Research coverage coming soon.
+            </span>{" "}
+            The four-factor score and the complete evidence trail are live. The
+            ten-section research report is not published for this company yet.
+          </div>
+        )}
+
         <div className="mt-4">
-          <V2Scorecard record={record} />
+          <V2Scorecard record={record} showEvidenceLink={false} />
         </div>
 
         <div className="mt-8 space-y-8">
@@ -118,62 +166,12 @@ export default async function ScoreEvidencePage({
                         ? "N/A"
                         : round(component.score, 0)}
                     </span>{" "}
-                    · {classifyComponent(component.score)} ·{" "}
-                    <span className="tabular">
-                      {Math.round(component.coverage * 100)}% coverage
-                    </span>
+                    · {classifyComponent(component.score)}
                     {component.status === "provisional" ? " · provisional" : ""}
                   </p>
                 </div>
 
-                <div className="mt-3 overflow-x-auto rounded-xl border border-line">
-                  <table className="w-full min-w-[760px] border-collapse text-left">
-                    <thead className="bg-paper-deep text-[10px] text-muted">
-                      <tr>
-                        <th className="px-3 py-2 font-semibold">Metric</th>
-                        <th className="px-3 py-2 font-semibold">Value</th>
-                        <th className="px-3 py-2 font-semibold">Period</th>
-                        <th className="px-3 py-2 text-right font-semibold">
-                          Points
-                        </th>
-                        <th className="px-3 py-2 font-semibold">Source / formula</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-line text-[12px]">
-                      {component.evidence.map((item) => (
-                        <tr key={item.id} className={item.available ? "" : "bg-paper-deep/60"}>
-                          <td className="px-3 py-2 align-top font-medium text-ink">
-                            {item.label}
-                          </td>
-                          <td className="tabular px-3 py-2 align-top text-ink">
-                            {item.value == null
-                              ? "N/A"
-                              : `${item.value}${item.unit ? ` ${item.unit}` : ""}`}
-                          </td>
-                          <td className="px-3 py-2 align-top text-muted">
-                            {item.period ?? "—"}
-                          </td>
-                          <td className="tabular px-3 py-2 text-right align-top text-ink">
-                            {item.available
-                              ? `${item.points ?? 0} / ${item.maxPoints}`
-                              : `N/A / ${item.maxPoints}`}
-                          </td>
-                          <td className="px-3 py-2 align-top text-muted">
-                            <span className="block">{item.source}</span>
-                            <span className="mt-0.5 block text-[11px] text-faint">
-                              {item.formula}
-                            </span>
-                            {!item.available && item.reason && (
-                              <span className="mt-0.5 block text-[11px] text-amber-800">
-                                {item.reason}
-                              </span>
-                            )}
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
+                <ScoreEvidenceTable evidence={component.evidence} />
               </section>
             );
           })}

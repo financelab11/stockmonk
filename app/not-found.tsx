@@ -10,7 +10,7 @@ export default function NotFound() {
       </h1>
       <p className="mx-auto mt-2 max-w-md text-[13px] leading-relaxed text-muted">
         The ticker may not be covered, or the link may be outdated. Try the
-        Discover page or search the 500-company universe.
+        Discover page, the screener or search the covered universe.
       </p>
       <div className="mt-5 flex flex-wrap justify-center gap-2">
         <Link href="/" className="btn btn-primary">

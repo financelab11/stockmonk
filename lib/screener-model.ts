@@ -54,6 +54,8 @@ export type ScreenerRow = {
   sector: string;
   group: string;
   archived: boolean;
+  /** True when the company also has a full ten-section research report. */
+  research: boolean;
   marketCap: number | null;
   price: number;
   asOf: string;
@@ -1332,6 +1334,7 @@ export type ScreenerRawEntry = {
   groupId: string;
   groupName: string;
   archived?: boolean;
+  research?: boolean;
   marketCap: number | null;
   price: number;
   asOf: string;
@@ -1471,6 +1474,7 @@ export function scoreScreenerEntries(
       sector: entry.sector,
       group: entry.groupName,
       archived: entry.archived ?? false,
+      research: entry.research ?? false,
       marketCap: entry.marketCap,
       price: entry.price,
       asOf: entry.asOf,
@@ -1545,9 +1549,10 @@ export function screenerEntriesFromBundles(
       ticker: bundle.data.ticker,
       name: bundle.data.name,
       sector: bundle.data.sector,
-      groupId: coverage?.id ?? "other",
+      groupId: coverage?.id ?? bundle.data.sector,
       groupName: coverage?.name ?? bundle.data.sector,
       archived: isArchivedTicker(bundle.data.ticker),
+      research: bundle.data.isResearch,
       marketCap: bundle.data.latestPrice.marketCap,
       price: bundle.data.latestPrice.close,
       asOf: bundle.data.latestPrice.asOf,

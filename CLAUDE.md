@@ -11,11 +11,12 @@ market. It explains how a business makes money, charts reported financials and
 shows attributed third-party consensus. It never publishes buy/sell/hold ratings
 or Stockmonk price targets.
 
-Coverage: **500 bespoke ten-section US reports** and a matching 500-row
-quantitative screener. India and GCC coverage have been removed from the product,
-the codebase, the file datasets and the database. SimFin has been removed
-completely; SEC EDGAR supplies fundamentals and Yahoo Finance supplies prices,
-market data and company profiles.
+Coverage: **3,696 scored US companies**. The 500-name research library keeps its
+bespoke ten-section reports; every other score name gets the four-factor score and
+the full evidence page, with research coverage marked as coming soon. India and
+GCC coverage have been removed from the product, the codebase, the file datasets
+and the database. SimFin has been removed completely; SEC EDGAR supplies
+fundamentals and Yahoo Finance supplies prices, market data and company profiles.
 
 ## Stack
 
@@ -31,7 +32,8 @@ market data and company profiles.
 
 ```bash
 pnpm dev                 # local dev
-pnpm build               # content validator + screener data + Next build
+pnpm build               # content validator + scores + screener + Next build
+pnpm build:web           # Vercel build; reuses committed score artifacts
 pnpm start
 pnpm typecheck
 pnpm lint
@@ -133,10 +135,16 @@ periods.
 
 ## Screening data
 
-- `public/data/screener.json` and `public/data/screener-factors.json` hold
-  exactly the 500 research names. There is no bulk or expanded universe feed.
-- `pnpm build:screener` rebuilds both files from `data/processed`. The build
-  fails if it cannot produce one row per research ticker.
+- `public/data/screener.json` and `public/data/screener-factors.json` hold the
+  full 3,696-name score universe. The 500 research names remain the only names
+  with a full ten-section report; every other row links straight to score
+  evidence with "Research coverage coming soon".
+- `config/score-universe.json` is the generated list of 3,196 additional names.
+  Swap it from a CSV with `SCORE_UNIVERSE_FILE=... pnpm build:universe`; never
+  hand-edit the generated file.
+- `pnpm build:screener` rebuilds both files from `data/processed` (research) and
+  `data/score-inputs` (score-only). The build warns rather than failing when a
+  name has no processed data yet.
 - Every row shares the same SEC fundamentals and Yahoo price snapshot. See
   "Supabase" for the database counts.
 
@@ -145,8 +153,8 @@ periods.
 - `lib/scoring-v2/` contains the deterministic four-factor engine: Growth 25%,
   Quality 35%, Valuation 25%, Technical 15%.
 - `pnpm build:scores` writes `public/data/v2/scores.json` and one evidence file
-  per company under `public/data/v2/companies/`, then attaches the summary to
-  `public/data/stocks.json`.
+  per company under `public/data/v2/companies/` for all 3,696 score names, then
+  attaches the summary to `public/data/stocks.json` for the 500 research names.
 - `pnpm build:kpis` writes the sector/theme KPI module under
   `public/data/v2/kpis/`; unavailable KPIs are marked N/A with a reason.
 - `pnpm sync:v2` upserts the normalized `research_scores`,
@@ -155,6 +163,8 @@ periods.
 - Every component has a coverage ratio. Below 70% it is `provisional`; if any
   component is below 70% the composite is `Incomplete` rather than a synthetic
   total. N/A inputs are excluded from the denominator, never scored as zero.
+  The public pages show the provisional/incomplete state and the formula, but
+  not numeric coverage percentages or per-metric source labels.
 - Technical scores use SPY and sector ETFs. `pnpm ingest:benchmark` refreshes
   SPY plus XLK, XLC, XLY, XLP, XLV, XLF, XLI, XLE, XLU, XLB and XLRE.
 - The methodology is documented at `/framework/scores`; the article scorecard links
@@ -225,13 +235,22 @@ periods.
 - US: SEC EDGAR XBRL fundamentals + Yahoo Finance prices/market data, processed
   JSON, screener data, hand-written stories. `data/raw/` is local ingestion input
   and is gitignored.
-- `pnpm ingest:edgar` writes `data/processed/{ticker}/sec.json`. It handles
-  10-K/10-Q filers, 20-F/IFRS filers (converted to USD with Yahoo FX), bank and
-  insurer tag variants, and a predecessor-CIK merge for holding-company
-  reorganisations such as XOM.
+- `pnpm ingest:edgar` writes `data/processed/{ticker}/sec.json` for research
+  names and `data/score-inputs/{ticker}/sec.json` for score-only names. It
+  handles 10-K/10-Q filers, 20-F/IFRS filers (converted to USD with Yahoo FX),
+  bank and insurer tag variants, and a predecessor-CIK merge for
+  holding-company reorganisations such as XOM. The weekly job uses SEC's bulk
+  companyfacts archive (`pnpm fetch:companyfacts`) so it does not make 3,000
+  individual API requests.
 - `pnpm ingest:fundamentals` combines `sec.json` with Yahoo prices, market cap,
-  share count and profile, then writes `data.json`, `prices.json`, the public
-  price ranges, `stocks.json`, `search-index.json` and `meta.json`.
+  share count and profile, then writes `data.json` and `prices.json` to the
+  research or score-only directory. Public price ranges are written only for
+  the 500 chart pages; the score/screener artifacts are rebuilt separately.
+- Score-only `data.json` and `prices.json` are gitignored and rebuilt daily.
+  `sec.json` is versioned because it only changes when a filing lands.
+- The daily workflow runs at 03:00 America/New_York and refreshes prices,
+  consensus, scores and screener data. A separate Saturday job refreshes the
+  SEC statements from the bulk archive.
 - No India, GCC, forward-ranker or SimFin pipelines remain. The `data/india`,
   `data/gcc`, `data/growth-ranker`, `public/data/india`, `public/data/gcc`,
   `public/logos/india`, `content/india-stocks` and `content/gcc-stories`
@@ -325,5 +344,6 @@ commit and start without re-reading the whole repository.
 
 <!-- AUTO_CONTEXT_START -->
 
-_Context snapshot 2026-11-25: 500 US names, 6 database migration(s)._
+_Context snapshot 2026-11-26: 3,696 scored US names (500 with full research
+reports), 6 database migration(s)._
 <!-- AUTO_CONTEXT_END -->

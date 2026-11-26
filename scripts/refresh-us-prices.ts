@@ -12,7 +12,11 @@ loadEnv({ path: ".env.local" });
 loadEnv();
 import fs from "node:fs/promises";
 import path from "node:path";
-import { RESEARCH_TICKERS, TICKER_ALIASES } from "../config/universe";
+import {
+  isResearchTicker,
+  SCORE_TICKERS,
+  TICKER_ALIASES,
+} from "../config/universe";
 import {
   buildMultipleHistoryFromStatements,
   buildRangeFiles,
@@ -20,8 +24,8 @@ import {
 } from "../lib/metrics";
 import type { PricePoint, TickerData } from "../lib/schemas";
 import { yahooChart, yahooQuoteSummary } from "../lib/yahoo";
+import { tickerDir } from "./lib/data-paths";
 
-const PROCESSED = path.join(process.cwd(), "data", "processed");
 const PUBLIC_DATA = path.join(process.cwd(), "public", "data");
 const DELAY_MS = Number(process.env.PRICE_DELAY_MS ?? 150);
 
@@ -49,14 +53,15 @@ async function main() {
   let failed = 0;
   let newest = "";
 
-  for (const ticker of RESEARCH_TICKERS) {
-    const dataFile = path.join(PROCESSED, ticker, "data.json");
+  for (const ticker of SCORE_TICKERS) {
+    const dataFile = tickerDir(ticker, "data.json");
     const data = await readJson<TickerData>(dataFile);
     if (!data) continue;
 
+    const research = isResearchTicker(ticker);
     const symbol = TICKER_ALIASES[ticker]?.yahoo ?? ticker;
     try {
-      const chart = await yahooChart(symbol, "10y");
+      const chart = await yahooChart(symbol, research ? "10y" : "2y");
       if (!chart?.points.length) {
         console.warn(`[prices] ${ticker}: no Yahoo history`);
         failed += 1;
@@ -82,14 +87,15 @@ async function main() {
 
       const existing =
         (await readJson<PricePoint[]>(
-          path.join(PROCESSED, ticker, "prices.json"),
+          tickerDir(ticker, "prices.json"),
         )) ?? [];
       const merged = new Map<string, PricePoint>();
       for (const point of existing) merged.set(point.d, point);
       for (const point of chart.points) merged.set(point.d, point);
-      const prices = [...merged.values()].sort((a, b) =>
+      const mergedPrices = [...merged.values()].sort((a, b) =>
         a.d.localeCompare(b.d),
       );
+      const prices = research ? mergedPrices : mergedPrices.slice(-650);
 
       const last = prices[prices.length - 1];
       if (marketCap != null) last.mc = marketCap;
@@ -119,22 +125,24 @@ async function main() {
       data.updatedAt = new Date().toISOString();
 
       await fs.writeFile(
-        path.join(PROCESSED, ticker, "prices.json"),
+        tickerDir(ticker, "prices.json"),
         JSON.stringify(prices),
         "utf8",
       );
       await fs.writeFile(dataFile, JSON.stringify(data, null, 2), "utf8");
 
-      const dir = path.join(PUBLIC_DATA, "prices", ticker);
-      await fs.mkdir(dir, { recursive: true });
-      for (const [range, points] of Object.entries(
-        buildRangeFiles(prices, ticker),
-      )) {
-        await fs.writeFile(
-          path.join(dir, `${range}.json`),
-          JSON.stringify(points),
-          "utf8",
-        );
+      if (research) {
+        const dir = path.join(PUBLIC_DATA, "prices", ticker);
+        await fs.mkdir(dir, { recursive: true });
+        for (const [range, points] of Object.entries(
+          buildRangeFiles(prices, ticker),
+        )) {
+          await fs.writeFile(
+            path.join(dir, `${range}.json`),
+            JSON.stringify(points),
+            "utf8",
+          );
+        }
       }
 
       updated += 1;

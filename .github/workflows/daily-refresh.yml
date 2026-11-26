@@ -2,8 +2,11 @@ name: Daily market data refresh
 
 on:
   schedule:
-    # Runs after the US close.
-    - cron: "30 2 * * *"
+    # GitHub cron is UTC. Run at 07:00 and 08:00 UTC so one of the two
+    # attempts is 03:00 in America/New_York in both EDT and EST. The guard
+    # job below skips the duplicate.
+    - cron: "0 7 * * *"
+    - cron: "0 8 * * *"
   workflow_dispatch:
     inputs:
       force_all:
@@ -24,9 +27,27 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  refresh:
+  guard:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    outputs:
+      run: ${{ steps.clock.outputs.run }}
+    steps:
+      - name: Check 3am US Eastern
+        id: clock
+        run: |
+          hour=$(TZ=America/New_York date +%H)
+          echo "America/New_York hour: $hour"
+          if [ "$hour" = "03" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  refresh:
+    needs: guard
+    if: needs.guard.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
     env:
       FORCE_ALL: ${{ inputs.force_all }}
       TICKERS: ${{ inputs.tickers }}
@@ -54,7 +75,8 @@ jobs:
             done
             return 1
           }
-          retry pnpm ingest:edgar
+          # SEC statements are versioned and refreshed by the weekly bulk job.
+          # The daily run rebuilds prices, consensus and scores from them.
           retry pnpm ingest:fundamentals
           retry pnpm ingest:consensus
           retry pnpm ingest:segments
@@ -64,6 +86,7 @@ jobs:
           pnpm build:scores
           pnpm build:kpis
           pnpm build:screener
+          pnpm ingest:logos
           pnpm build:runtime
           pnpm build:seo
 
@@ -78,7 +101,7 @@ jobs:
         run: |
           git config user.name "stockmonk-data-bot"
           git config user.email "data-bot@stockmonk.app"
-          git add data public/data
+          git add data public/data public/logos
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else
@@ -144,7 +167,7 @@ jobs:
 
       - name: Commit refreshed narratives
         run: |
-          git add content data public/data
+          git add content data public/data public/logos
           if git diff --cached --quiet; then
             echo "No narrative changes to commit."
           else

@@ -10,6 +10,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { Client } from "pg";
 import type { V2ScoreRecord, V2ScoresDataset } from "../lib/scoring-v2/types";
+import { scoreEvidenceFileName } from "../lib/scoring-v2/filename";
 import type { CompanyKpis } from "../lib/scoring-v2/kpis";
 import type { StoryFreshnessManifest } from "../lib/story-freshness";
 
@@ -101,8 +102,9 @@ async function main() {
 
     for (const [ticker, summary] of Object.entries(scores.companies)) {
       const full =
-        readJson<V2ScoreRecord>(path.join(COMPANIES, `${ticker}.json`)) ??
-        summary;
+        readJson<V2ScoreRecord>(
+          path.join(COMPANIES, `${scoreEvidenceFileName(ticker)}.json`),
+        ) ?? summary;
       for (const key of [
         "growth",
         "quality",

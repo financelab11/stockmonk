@@ -43,12 +43,9 @@ function ComponentCard({ score }: { score: ComponentScore }) {
           style={{ width: `${Math.max(0, Math.min(100, value ?? 0))}%` }}
         />
       </div>
-      <div className="mt-1.5 flex items-center justify-between gap-2 text-[10px] opacity-75">
-        <span className="tabular">
-          {Math.round(score.coverage * 100)}% coverage
-        </span>
-        {score.status === "provisional" && <span>Provisional</span>}
-      </div>
+      {score.status === "provisional" && (
+        <div className="mt-1.5 text-[10px] opacity-75">Provisional</div>
+      )}
     </div>
   );
 }
@@ -56,9 +53,11 @@ function ComponentCard({ score }: { score: ComponentScore }) {
 export function V2Scorecard({
   record,
   compact = false,
+  showEvidenceLink = true,
 }: {
   record: V2ScoreRecord;
   compact?: boolean;
+  showEvidenceLink?: boolean;
 }) {
   const composite = record.composite;
   return (
@@ -76,12 +75,14 @@ export function V2Scorecard({
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-3">
-          <Link
-            href={`/stocks/${record.ticker}/scores`}
-            className="text-[11px] font-semibold text-brand hover:text-brand-deep"
-          >
-            Evidence →
-          </Link>
+          {showEvidenceLink && (
+            <Link
+              href={`/stocks/${record.ticker}/scores`}
+              className="text-[11px] font-semibold text-brand hover:text-brand-deep"
+            >
+              Score evidence →
+            </Link>
+          )}
           <Link
             href="/framework/scores"
             className="text-[11px] font-semibold text-brand hover:text-brand-deep"
@@ -107,22 +108,21 @@ export function V2Scorecard({
           <span className="tabular text-[28px] font-semibold leading-none text-ink">
             {composite.score == null ? "Incomplete" : round(composite.score, 0)}
           </span>
-          <span className="text-[12px] font-medium text-muted">
-            {composite.classification}
-          </span>
+          {composite.score != null && (
+            <span className="text-[12px] font-medium text-muted">
+              {composite.classification}
+            </span>
+          )}
         </div>
         <div className="text-right text-[10.5px] text-muted">
-          <p className="tabular">
-            {Math.round(composite.coverage * 100)}% weighted coverage
-          </p>
           <p>Growth 25% · Quality 35% · Valuation 25% · Technical 15%</p>
         </div>
       </div>
       {composite.status === "incomplete" && (
         <p className="mt-2 text-[10.5px] leading-relaxed text-amber-800">
-          One or more components have less than 70% coverage, so the composite
-          is intentionally shown as Incomplete. The available component scores
-          are still displayed.
+          One or more components have too little data for a reliable composite,
+          so the composite is intentionally shown as Incomplete. The available
+          component scores are still displayed.
         </p>
       )}
     </section>

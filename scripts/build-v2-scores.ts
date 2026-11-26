@@ -11,24 +11,27 @@ import fs from "node:fs";
 import path from "node:path";
 import { getCoverageGroup } from "../config/coverage";
 import { sectorEtf } from "../config/sector-etfs";
-import { RESEARCH_TICKERS } from "../config/universe";
+import { SCORE_TICKERS } from "../config/universe";
 import {
   consensusSchema,
   rangePricePointSchema,
   segmentMixSchema,
   tickerDataSchema,
   type Consensus,
+  type PricePoint,
   type RangePricePoint,
   type SegmentMix,
   type TickerData,
 } from "../lib/schemas";
+import { buildRangeFiles } from "../lib/metrics";
 import { buildPeerContext, type PeerInput } from "../lib/scoring-v2/peer";
 import { scoreCompany } from "../lib/scoring-v2";
 import type { V2ScoreRecord, V2ScoresDataset } from "../lib/scoring-v2/types";
 import { COMPOSITE_WEIGHTS, METHODOLOGY_VERSION } from "../lib/scoring-v2/util";
+import { scoreEvidenceFileName } from "../lib/scoring-v2/filename";
+import { tickerDir } from "./lib/data-paths";
 
 const ROOT = process.cwd();
-const PROCESSED = path.join(ROOT, "data", "processed");
 const CONSENSUS = path.join(ROOT, "data", "consensus");
 const SEGMENTS = path.join(ROOT, "data", "segments");
 const PRICES = path.join(ROOT, "public", "data", "prices");
@@ -44,12 +47,25 @@ function readJson<T>(file: string): T | null {
 }
 
 function prices(ticker: string, range: string): RangePricePoint[] {
-  const raw =
-    readJson<unknown[]>(path.join(PRICES, ticker, `${range}.json`)) ?? [];
-  return raw
-    .map((point) => rangePricePointSchema.safeParse(point))
-    .filter((result) => result.success)
-    .map((result) => result.data);
+  // Research names keep the public range files used by charts. Score-only
+  // names keep one compact processed series instead of seven public files;
+  // convert that d-dated series through the same range builder used by the
+  // chart pipeline.
+  const publicRaw = readJson<unknown[]>(
+    path.join(PRICES, ticker, `${range}.json`),
+  );
+  if (Array.isArray(publicRaw)) {
+    return publicRaw
+      .map((point) => rangePricePointSchema.safeParse(point))
+      .filter((result) => result.success)
+      .map((result) => result.data);
+  }
+  const processed = readJson<PricePoint[]>(tickerDir(ticker, "prices.json"));
+  if (processed?.length) {
+    const ranges = buildRangeFiles(processed, ticker);
+    return ranges[range] ?? ranges.MAX ?? [];
+  }
+  return [];
 }
 
 type Bundle = {
@@ -62,16 +78,16 @@ type Bundle = {
 
 function loadBundles(): Bundle[] {
   const bundles: Bundle[] = [];
-  for (const ticker of RESEARCH_TICKERS) {
-    const data = readJson<unknown>(path.join(PROCESSED, ticker, "data.json"));
+  for (const ticker of SCORE_TICKERS) {
+    const data = readJson<unknown>(tickerDir(ticker, "data.json"));
     const parsed = data ? tickerDataSchema.safeParse(data) : null;
     if (!parsed?.success) {
       console.warn(`[scores-v2] ${ticker}: missing processed data`);
       continue;
     }
-    const consensusRaw = readJson<unknown>(
-      path.join(CONSENSUS, `${ticker}.json`),
-    );
+    const consensusRaw =
+      readJson<unknown>(path.join(CONSENSUS, `${ticker}.json`)) ??
+      readJson<unknown>(tickerDir(ticker, "consensus.json"));
     const consensus = consensusRaw
       ? consensusSchema.safeParse(consensusRaw)
       : null;
@@ -135,7 +151,7 @@ function main() {
     const record = scoreCompany(input);
     records[ticker] = record;
     fs.writeFileSync(
-      path.join(COMPANIES_OUT, `${ticker}.json`),
+      path.join(COMPANIES_OUT, `${scoreEvidenceFileName(ticker)}.json`),
       JSON.stringify(record),
       "utf8",
     );

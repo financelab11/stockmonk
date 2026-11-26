@@ -25,7 +25,9 @@ const SOURCES: Array<{ market: Market; path: string }> = [
 
 function hrefFor(entry: Entry): string {
   void entry.market;
-  return `/stocks/${entry.ticker}`;
+  return entry.research === false
+    ? `/stocks/${entry.ticker}/scores`
+    : `/stocks/${entry.ticker}`;
 }
 
 let indexPromise: Promise<FuseLike | null> | null = null;

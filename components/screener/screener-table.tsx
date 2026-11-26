@@ -111,6 +111,10 @@ export function ScreenerTable({
       : (factors.find((factor) => factor.key === params.view) ?? factors[0]);
   const view = activeFactor?.key ?? "overview";
   const pageSize = 100;
+  const hrefForRow = (row: ScreenerRow) =>
+    row.research
+      ? `/stocks/${row.ticker}`
+      : `/stocks/${row.ticker}/scores`;
 
   const sortValue = (row: ScreenerRow): number | string | null => {
     if (params.sort === "rank") return row.rank;
@@ -377,7 +381,7 @@ export function ScreenerTable({
                     <StockLogoStatic ticker={row.ticker} size={28} />
                     <div className="min-w-0">
                       <a
-                        href={`/stocks/${row.ticker}`}
+                        href={hrefForRow(row)}
                         title={row.name}
                         className="block truncate text-[13px] font-semibold leading-tight text-ink hover:text-brand sm:text-[14px]"
                       >
@@ -631,13 +635,14 @@ export function ScreenerTable({
             ))}
           </div>
           <p className="mt-3 text-[9.5px] text-muted">
-            Parameter coverage: {openRow.coverage}% · Price as of {openRow.asOf}{" "}
-            ·{" "}
+            Price as of {openRow.asOf} ·{" "}
             <a
-              href={`/stocks/${openRow.ticker}`}
+              href={hrefForRow(openRow)}
               className="font-semibold text-brand hover:text-brand-deep"
             >
-              Open full research report →
+              {openRow.research
+                ? "Open full research report →"
+                : "Open score evidence →"}
             </a>
           </p>
         </section>

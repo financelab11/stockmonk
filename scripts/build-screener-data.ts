@@ -1,23 +1,25 @@
 /** Precomputes the five-factor screener rows for the static data layer. */
 import fs from "node:fs";
 import path from "node:path";
-import { RESEARCH_TICKERS } from "../config/universe";
+import { SCORE_TICKERS } from "../config/universe";
 import {
   consensusSchema,
   rangePricePointSchema,
   tickerDataSchema,
   type Consensus,
+  type PricePoint,
   type RangePricePoint,
   type TickerData,
 } from "../lib/schemas";
+import { buildRangeFiles } from "../lib/metrics";
 import {
   FACTOR_CONFIG,
   scoreScreenerEntries,
   screenerEntriesFromBundles,
 } from "../lib/screener-model";
+import { tickerDir } from "./lib/data-paths";
 
 const ROOT = process.cwd();
-const PROCESSED = path.join(ROOT, "data", "processed");
 const CONSENSUS = path.join(ROOT, "data", "consensus");
 const PUBLIC = path.join(ROOT, "public", "data");
 const V2_FILE = path.join(PUBLIC, "v2", "scores.json");
@@ -41,13 +43,21 @@ function readJson<T>(file: string): T | null {
 }
 
 function prices(ticker: string, range: string): RangePricePoint[] {
-  const raw =
-    readJson<unknown[]>(path.join(PUBLIC, "prices", ticker, `${range}.json`)) ??
-    [];
-  return raw
-    .map((point) => rangePricePointSchema.safeParse(point))
-    .filter((result) => result.success)
-    .map((result) => result.data);
+  const publicRaw = readJson<unknown[]>(
+    path.join(PUBLIC, "prices", ticker, `${range}.json`),
+  );
+  if (Array.isArray(publicRaw)) {
+    return publicRaw
+      .map((point) => rangePricePointSchema.safeParse(point))
+      .filter((result) => result.success)
+      .map((result) => result.data);
+  }
+  const processed = readJson<PricePoint[]>(tickerDir(ticker, "prices.json"));
+  if (processed?.length) {
+    const ranges = buildRangeFiles(processed, ticker);
+    return ranges[range] ?? ranges.MAX ?? [];
+  }
+  return [];
 }
 
 function roundDeep(value: unknown): unknown {
@@ -72,8 +82,8 @@ async function main() {
     );
   }
 
-  const bundles = RESEARCH_TICKERS.map((ticker) => {
-    const data = readJson<unknown>(path.join(PROCESSED, ticker, "data.json"));
+  const bundles = SCORE_TICKERS.map((ticker) => {
+    const data = readJson<unknown>(tickerDir(ticker, "data.json"));
     if (!data) return null;
     const parsedData: TickerData = tickerDataSchema.parse(data);
     const consensusRaw = readJson<unknown>(
@@ -95,9 +105,9 @@ async function main() {
 
   const curatedEntries = screenerEntriesFromBundles(bundles, benchmark);
 
-  if (curatedEntries.length !== RESEARCH_TICKERS.length) {
-    throw new Error(
-      `screener needs ${RESEARCH_TICKERS.length} research rows, built ${curatedEntries.length}`,
+  if (curatedEntries.length !== SCORE_TICKERS.length) {
+    console.warn(
+      `[screener:data] ${SCORE_TICKERS.length - curatedEntries.length} score names have no processed data yet`,
     );
   }
 
@@ -171,7 +181,7 @@ async function main() {
     "utf8",
   );
   console.log(
-    `[screener:data] wrote ${rows.length} rows for the ${RESEARCH_TICKERS.length}-name research universe`,
+    `[screener:data] wrote ${rows.length} rows for the ${SCORE_TICKERS.length}-name score universe`,
   );
 }
 

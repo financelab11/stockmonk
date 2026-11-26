@@ -64,17 +64,22 @@ export function buildPeerContext(
 ): PeerContext {
   const group = getCoverageGroup(subject.ticker);
   const configured = peersFor(subject.ticker);
-  const candidates = (
-    configured.length
-      ? configured
-          .map((ticker) => all.find((item) => item.ticker === ticker))
-          .filter((item): item is PeerInput => Boolean(item))
-      : all.filter(
-          (item) =>
-            item.ticker !== subject.ticker &&
-            getCoverageGroup(item.ticker)?.id === group?.id,
-        )
-  ).slice(0, 6);
+  const configuredPeers = configured
+    .map((ticker) => all.find((item) => item.ticker === ticker))
+    .filter((item): item is PeerInput => Boolean(item))
+    .filter((item) => item.ticker !== subject.ticker);
+  // The score universe is now much wider than the research library. Use the
+  // curated names first, then fill from every company in the same sector so
+  // the peer percentiles reflect the expanded 3,696-name coverage.
+  const sectorPeers = all.filter((item) => {
+    if (item.ticker === subject.ticker) return false;
+    if (configuredPeers.some((peer) => peer.ticker === item.ticker)) return false;
+    const itemGroup = getCoverageGroup(item.ticker);
+    return group
+      ? itemGroup?.id === group.id || item.data.sector === group.name
+      : item.data.sector === subject.data.sector;
+  });
+  const candidates = [...configuredPeers, ...sectorPeers].slice(0, 12);
   const peers = candidates.filter((item) => item.ticker !== subject.ticker);
   const peerValues = peers.map(peerMetrics);
   const subjectMetrics = peerMetrics(subject);
@@ -97,8 +102,8 @@ export function buildPeerContext(
   return {
     tickers: peers.map((peer) => peer.ticker),
     basis: configured.length
-      ? "Curated comparable-company set"
-      : `Coverage-group peers in ${group?.name ?? "the sector"}`,
+      ? "Curated comparables plus sector peers in the score universe"
+      : `Sector peers in the 3,696-name score universe (${group?.name ?? subject.data.sector})`,
     median: medians,
     percentile: percentiles,
   };

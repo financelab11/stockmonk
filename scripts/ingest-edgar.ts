@@ -11,7 +11,11 @@
  */
 import fs from "node:fs/promises";
 import path from "node:path";
-import { RESEARCH_TICKERS, TICKER_ALIASES } from "../config/universe";
+import {
+  isResearchTicker,
+  SCORE_TICKERS,
+  TICKER_ALIASES,
+} from "../config/universe";
 import { ARCHIVED_COMPANIES } from "../config/archive";
 import {
   convertCompanyFactsToUsd,
@@ -26,9 +30,11 @@ import {
   mergeCompanyFacts,
   type CompanyFacts,
   type InstantPoint,
+  type Submissions,
 } from "../lib/edgar";
 import { yahooChart } from "../lib/yahoo";
 import type { FinancialRow } from "../lib/schemas";
+import { tickerDir } from "./lib/data-paths";
 
 const PROCESSED = path.join(process.cwd(), "data", "processed");
 const FORCE = process.env.FORCE_REFRESH === "1";
@@ -981,9 +987,27 @@ async function resolveCik(
   return CIK_OVERRIDES[ticker] ?? cikMap[lookup] ?? null;
 }
 
+function emptySubmissions(cik: number): Submissions {
+  return {
+    cik: String(cik),
+    name: "",
+    filings: {
+      recent: {
+        accessionNumber: [],
+        filingDate: [],
+        reportDate: [],
+        form: [],
+        primaryDocument: [],
+        items: [],
+        primaryDocDescription: [],
+      },
+    },
+  };
+}
+
 async function main() {
   let cikMap = await getTickerCikMap();
-  const unresolved = RESEARCH_TICKERS.filter(
+  const unresolved = SCORE_TICKERS.filter(
     (ticker) =>
       !CIK_OVERRIDES[ticker] &&
       !cikMap[(TICKER_ALIASES[ticker]?.sec ?? ticker).toUpperCase()],
@@ -997,9 +1021,14 @@ async function main() {
 
   const summary: Array<Record<string, unknown>> = [];
   let failures = 0;
+  const skipResearch = process.env.SKIP_RESEARCH === "1";
+  const skipSubmissions = process.env.SKIP_SUBMISSIONS === "1";
+  const skipExisting = process.env.SKIP_EXISTING === "1" && !FORCE;
   const tickers = TICKER_FILTER.size
-    ? RESEARCH_TICKERS.filter((ticker) => TICKER_FILTER.has(ticker))
-    : RESEARCH_TICKERS;
+    ? SCORE_TICKERS.filter((ticker) => TICKER_FILTER.has(ticker))
+    : skipResearch
+      ? SCORE_TICKERS.filter((ticker) => !isResearchTicker(ticker))
+      : SCORE_TICKERS;
 
   for (const ticker of tickers) {
     const cik = await resolveCik(ticker, cikMap);
@@ -1008,11 +1037,24 @@ async function main() {
       failures += 1;
       continue;
     }
+    if (skipExisting) {
+      try {
+        await fs.access(tickerDir(ticker, "sec.json"));
+        continue;
+      } catch {
+        // not built yet
+      }
+    }
     console.log(`[edgar] ${ticker} CIK ${cik}`);
     try {
       const primaryFacts = await getCompanyFacts(cik, { force: FORCE });
       let facts: CompanyFacts = primaryFacts;
-      let filings = filingsFrom(await getSubmissions(cik, { force: FORCE }));
+      const useSubmissions = !(skipSubmissions && !isResearchTicker(ticker));
+      let filings = filingsFrom(
+        useSubmissions
+          ? await getSubmissions(cik, { force: FORCE })
+          : emptySubmissions(cik),
+      );
       for (const historyCik of HISTORY_CIKS[ticker] ?? []) {
         try {
           const history = await getCompanyFacts(historyCik, { force: FORCE });
@@ -1156,9 +1198,9 @@ async function main() {
         ].filter(Boolean),
       };
 
-      await fs.mkdir(path.join(PROCESSED, ticker), { recursive: true });
+      await fs.mkdir(tickerDir(ticker), { recursive: true });
       await fs.writeFile(
-        path.join(PROCESSED, ticker, "sec.json"),
+        tickerDir(ticker, "sec.json"),
         JSON.stringify(out, null, 2),
         "utf8",
       );

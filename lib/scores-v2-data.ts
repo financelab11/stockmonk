@@ -5,6 +5,7 @@ import path from "node:path";
 import { cache } from "react";
 import type { V2ScoreRecord, V2ScoresDataset } from "./scoring-v2/types";
 import type { CompanyKpis } from "./scoring-v2/kpis";
+import { scoreEvidenceFileName } from "./scoring-v2/filename";
 
 const ROOT = process.cwd();
 const SUMMARY = path.join(ROOT, "public", "data", "v2", "scores.json");
@@ -25,7 +26,9 @@ export const getV2Scores = cache((): V2ScoresDataset | null =>
 
 export const getV2Score = cache((ticker: string): V2ScoreRecord | null => {
   const normalized = ticker.toUpperCase();
-  return readJson<V2ScoreRecord>(path.join(COMPANIES, `${normalized}.json`));
+  return readJson<V2ScoreRecord>(
+    path.join(COMPANIES, `${scoreEvidenceFileName(normalized)}.json`),
+  );
 });
 
 export function getV2ScoreOrNull(ticker: string): V2ScoreRecord | null {

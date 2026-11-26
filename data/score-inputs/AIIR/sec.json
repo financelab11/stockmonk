@@ -1,0 +1,27 @@
+{
+  "ticker": "AIIR",
+  "cik": "0002097725",
+  "entityName": "AIR Global PLC",
+  "sharesOutstanding": null,
+  "quarterly": [],
+  "annual": [],
+  "filings": {
+    "latest10K": {
+      "form": "20-F",
+      "filed": "2026-05-21",
+      "reportDate": "2026-05-15",
+      "accession": "0001193125-26-234374",
+      "url": "https://www.sec.gov/Archives/edgar/data/2097725/000119312526234374/genesis_-_super_20-f_fil.htm",
+      "items": ""
+    },
+    "latest8K": null,
+    "earningsReleaseUrl": null
+  },
+  "sources": [
+    {
+      "name": "SEC 20-F (2026-05-21)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2097725/000119312526234374/genesis_-_super_20-f_fil.htm",
+      "date": "2026-05-21"
+    }
+  ]
+}

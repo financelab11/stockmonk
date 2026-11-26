@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const HAPN: StockStory = {
   "ticker": "HAPN",
   "kicker": "Capital Markets · Banks - Regional",
-  "title": "The financial engine behind Happen, Inc.",
-  "dek": "Happen, Inc. generated $1B of trailing revenue with an operating margin of 25.8%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Happen, Inc: The renamed LendingClub bank",
+  "dek": "Happen, Inc. reported $1B of trailing revenue at a 25.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $1B trailing twelve months, +10.0% year over year.",
@@ -13,22 +13,22 @@ export const HAPN: StockStory = {
     "Valuation: 8.0x trailing earnings and no meaningful EV/EBITDA multiple at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1409970/000140997026000018/lc-20251231.htm",
   "irUrl": "https://www.happen.com",
   "bigPicture": {
     "paragraphs": [
       "Happen, Inc. generated $1B of revenue over the last twelve months, +10.0% versus the prior year. The latest reported quarter was Q3 FY26, with $263.2M of revenue and a 29.2% operating margin. The shares closed at $14.59 on Nov 25, 2026, giving a market capitalization of $1.7B.",
-      "The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $1.7B, or 8.0x trailing earnings and no meaningful EV/EBITDA multiple. The shares sit 18% of the way up their 52-week range ($13.05 to $21.67). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Lending Club Bank contributes 98.2% of the disclosed revenue mix. The filing extract does not break revenue out by geography. Happen, Inc. competes in Banks - Regional, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $1.7B, or 8.0x trailing earnings and no meaningful EV/EBITDA multiple. The shares sit 18% of the way up their 52-week range ($13.05 to $21.67). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "HAPN is a Capital Markets business with $1B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Happen is the renamed LendingClub bank, a digital lender where credit quality, funding costs and the loan marketplace determine earnings."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Happen, Inc. operates as a bank holding company that provides financial and lending services in the United States. Happen, Inc. is a Capital Markets company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 1,075 people, and its coverage group is Capital Markets.",
-      "The comparison set includes AMP, APO and ARES. Happen, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Happen, Inc. operates as a bank holding company that provides financial and lending services in the United States. It reports in the Financial Services sector and is classified in Capital Markets coverage.",
+      "The disclosed mix runs across Lending Club Bank at 98.2% and Lending Club Corporation at 3.8%. Its latest filing lists 1,075 employees. With $1B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "NU, FITB and HBAN provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const HAPN: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 25.8% and net margin is 20.2%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $793.1M of net cash. Return on invested capital was 13.2% and return on equity was 13.2%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 25.8% is the first clean profitability line. Earnings depend on assets under management, fundraising, fee rates and the carry realised on prior vintages.",
+      "The balance sheet supports the funds rather than a product business, which makes net debt less informative than fee streams. Return on equity was 13.2%; fee-related earnings and carried interest drive that return."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.3% a year across the fiscal years in the dataset, and the latest quarter changed -1.2% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 25.8% and return on invested capital of 13.2% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 5.3% a year across the fiscal years in the dataset, and the latest quarter changed -1.2% year over year. Current-year estimates call for $1B of revenue and $1.89 of EPS.",
+      "The operating margin of 25.8% and return on invested capital of 13.2% are the filters to watch as revenue scales. Growth of 10.0% on a 25.8% operating margin is a high-quality combination if both hold."
     ],
     "bullets": [
       {
-        "title": "Net interest income",
-        "detail": "Loan and securities yields less funding costs are the core revenue line. For Happen, Inc., the relevant evidence is revenue growth of +10.0%. That is the metric to track in the next filing."
+        "title": "Assets under management",
+        "detail": "Revenue growth is +10.0%. That is the number to compare with the company's own history."
       },
       {
-        "title": "Fee income",
-        "detail": "Advisory, asset management and trading diversify the revenue base. For Happen, Inc., the relevant evidence is an operating margin of 25.8%. That is the metric to track in the next filing."
+        "title": "Fundraising",
+        "detail": "New commitments convert into management fees and future carry. The operating margin is 25.8%."
       },
       {
-        "title": "Capital returns",
-        "detail": "Buybacks and dividends can grow per-share value when capital is abundant. For Happen, Inc., the relevant evidence is a return on invested capital of 13.2%. That is the metric to track in the next filing."
+        "title": "Realisation",
+        "detail": "Return on invested capital is 13.2%. Exit activity turns unrealised gains into performance fees and cash."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from -18.5% in FY2018 to 17.7% in FY2025. The trailing operating margin is 25.8%, the net margin is 20.2% and diluted EPS is $1.79.",
-      "Return on equity was 13.2% and return on invested capital was 13.2%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 13.2%. Fundraising and carry drive the equity return, so ROIC is a secondary measure for this model. Fundraising and realisations are the trends to follow from here."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$2.9B, a -275.2% margin. The balance sheet carries $793.1M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $140.3M in the latest fiscal year."
+      "Free cash flow over the trailing period was -$2.9B, a -275.2% margin. The balance sheet supports the funds rather than a product business, which makes net debt less informative than fee streams. For an asset manager, consolidated cash flow includes fund-level balances, so the margin is not directly comparable to an operating company.",
+      "Operating cash flow was -$2.7B, or -2009.9% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $140.3M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 8.0x trailing earnings, no meaningful EV/EBITDA multiple and 0.8x EV/sales. The free-cash-flow yield is -171.0%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against AMP, APO and ARES; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 8.0x trailing earnings, no meaningful EV/EBITDA multiple and 0.8x EV/sales. The free-cash-flow yield is -171.0%. For an asset manager, fee-related earnings and distributable earnings are more relevant than EV/EBITDA.",
+      "The peer comparison sets the company against NU, FITB and HBAN; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "8 analysts contribute to the third-party consensus. The mean target is $23.88, with a range of $20.00 to $29.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $1B of revenue and $1.89 of EPS. The estimate revisions in the dataset are 2.5% over 30 days and 2.0% over 90 days. The estimate is consistent with a decline of 0.4% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Credit cycle",
+        "title": "Capital markets",
         "severity": "High",
-        "detail": "Loan losses rise in a downturn and can overwhelm revenue growth.",
-        "watch": "Provisions, charge-offs and non-performing loans."
+        "detail": "A closed IPO or M&A market delays exits and carry.",
+        "watch": "Exit activity, realisations and carry pipeline."
       },
       {
-        "title": "Interest rates",
+        "title": "Fundraising cycle",
         "severity": "High",
-        "detail": "Rate changes affect net interest income and deposit repricing.",
-        "watch": "Net interest income guidance and deposit betas."
+        "detail": "Institutions can slow commitments after a poor vintage.",
+        "watch": "Net inflows, dry powder and fundraising targets."
       },
       {
-        "title": "Regulation",
+        "title": "Fee compression",
         "severity": "Medium",
-        "detail": "Capital and liquidity rules influence returns and buybacks.",
-        "watch": "Stress tests and CET1 requirements."
+        "detail": "Retail and institutional competition can pressure management fees.",
+        "watch": "Fee rate and product mix."
       },
       {
-        "title": "Capital markets cyclicality",
+        "title": "Leverage and guarantees",
         "severity": "Medium",
-        "detail": "Advisory and trading revenue can fall quickly.",
-        "watch": "Investment banking fees and trading revenue."
+        "detail": "Insurance balance sheets and fund-level leverage add cyclicality.",
+        "watch": "Debt, guarantees and capital intensity."
       },
       {
-        "title": "Competition",
+        "title": "Valuation",
         "severity": "Medium",
-        "detail": "Deposit and loan pricing competition can compress spreads.",
-        "watch": "Loan and deposit growth relative to peers."
+        "detail": "Managers are priced on fee-related earnings and carry, which are cyclical.",
+        "watch": "FRE multiple and carried-interest assumptions."
       }
     ],
     "watchlist": [
       {
-        "title": "Net interest income",
-        "detail": "The largest revenue line and the most rate-sensitive."
+        "title": "Net inflows",
+        "detail": "Organic fundraising is the cleanest growth signal."
       },
       {
-        "title": "Credit costs",
-        "detail": "Provisioning is the main swing factor in a downturn."
+        "title": "Fee-related earnings",
+        "detail": "FRE isolates the recurring management-fee business from carry."
       },
       {
-        "title": "Capital returns",
-        "detail": "Buybacks depend on capital ratios and stress-test results."
+        "title": "Exit pipeline",
+        "detail": "Realisation activity determines when carry is recognised."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Happen, Inc. is a Capital Markets company with $1B of trailing revenue, an operating margin of 25.8% and a free-cash-flow margin of -275.2%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with AMP, APO and ARES, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 59/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Happen, Inc. produced $1B of trailing revenue at a 25.8% operating margin and a -275.2% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
+      "The consensus target is $23.88 as of 2026-11-25, 63.6% above the latest close; the figure belongs to the analysts who published it, not to this report. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put valuation at 99/100 and cash generation at 4/100, with the composite averaging 59/100. The gap between valuation at 99/100 and cash generation at 4/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
-      "How much of net interest income is rate-sensitive?",
-      "Is credit provisioning normalising or deteriorating?",
-      "What does regulation do to buybacks?",
-      "How sustainable is the current return on equity?"
+      "How much of earnings is recurring management fee?",
+      "What vintage is the carry pipeline?",
+      "How sensitive is fundraising to market levels?",
+      "Is the balance sheet being used to manufacture growth?"
     ]
   }
 };

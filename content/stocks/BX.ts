@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const BX: StockStory = {
   "ticker": "BX",
   "kicker": "Capital Markets · Asset Management",
-  "title": "Blackstone Inc.: a capital markets business with +22.1% revenue growth",
-  "dek": "Blackstone Inc. generated $16.1B of trailing revenue with an operating margin of 50.7%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Blackstone Inc: The largest alternative manager",
+  "dek": "Blackstone Inc. reported $16.1B of trailing revenue at a 50.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $16.1B trailing twelve months, +22.1% year over year.",
@@ -13,22 +13,22 @@ export const BX: StockStory = {
     "Valuation: 41.2x trailing earnings and 21.6x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm",
   "irUrl": "https://www.blackstone.com",
   "bigPicture": {
     "paragraphs": [
       "Blackstone Inc. generated $16.1B of revenue over the last twelve months, +22.1% versus the prior year. The latest reported quarter was Q3 FY26, with $3.1B of revenue and a 50.0% operating margin. The shares closed at $118.60 on Nov 25, 2026, giving a market capitalization of $146.4B.",
-      "The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $146.4B, or 41.2x trailing earnings and 21.6x EV/EBITDA. The shares sit 27% of the way up their 52-week range ($101.73 to $165.14). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. A regional breakdown is missing from the current filing extract, so the analysis stays at the consolidated level.",
+      "At the latest close the equity is valued at $146.4B, or 41.2x trailing earnings and 21.6x EV/EBITDA. The shares sit 27% of the way up their 52-week range ($101.73 to $165.14). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
     ],
-    "quote": "BX is a Capital Markets business with $16.1B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Blackstone is the largest alternative manager, so fundraising, real-estate valuations and carry realisations drive earnings."
   },
   "whatItDoes": {
     "paragraphs": [
       "Blackstone Inc. is an alternative asset management firm specializing in private equity, venture capital, real estate, hedge fund solutions, credit, secondary funds of funds, public debt and equity and multi-asset class strategies.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 5,285 people, and its coverage group is Capital Markets.",
-      "The comparison set includes AMP, APO and ARES. Blackstone Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "There is no separate segment disclosure in the current extract. The company employed 5,285 people at the last reporting date. With $16.1B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "The peer set is BLK, AMP and APO; similar businesses can earn very different returns on capital, which is the comparison that matters."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const BX: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 50.7% and net margin is 22.1%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $10.5B, or 1.4x EBITDA. Return on invested capital was 30.7% and return on equity was 40.2%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 50.7% is the first clean profitability line. Earnings depend on assets under management, fundraising, fee rates and the carry realised on prior vintages.",
+      "The balance sheet supports the funds rather than a product business, which makes net debt less informative than fee streams. Return on equity was 40.2%; fee-related earnings and carried interest drive that return."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 11.3% a year across the fiscal years in the dataset, and the latest quarter changed -0.8% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 50.7% and return on invested capital of 30.7% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 11.3% a year across the fiscal years in the dataset, and the latest quarter changed -0.8% year over year. Current-year estimates call for $14.8B of revenue and $5.93 of EPS.",
+      "The operating margin of 50.7% and return on invested capital of 30.7% are the filters to watch as revenue scales. Growth of 22.1% on a 50.7% operating margin is a high-quality combination if both hold."
     ],
     "bullets": [
       {
-        "title": "Net interest income",
-        "detail": "Loan and securities yields less funding costs are the core revenue line. For Blackstone Inc., the relevant evidence is revenue growth of +22.1%. That is the metric to track in the next filing."
+        "title": "Assets under management",
+        "detail": "Market appreciation and net inflows compound the fee base. The current reading: revenue growth is +22.1%."
       },
       {
-        "title": "Fee income",
-        "detail": "Advisory, asset management and trading diversify the revenue base. For Blackstone Inc., the relevant evidence is an operating margin of 50.7%. That is the metric to track in the next filing."
+        "title": "Fundraising",
+        "detail": "The operating margin is 50.7%. The next data point will show whether the trend is intact."
       },
       {
-        "title": "Capital returns",
-        "detail": "Buybacks and dividends can grow per-share value when capital is abundant. For Blackstone Inc., the relevant evidence is a return on invested capital of 30.7%. That is the metric to track in the next filing."
+        "title": "Realisation",
+        "detail": "Exit activity turns unrealised gains into performance fees and cash. Return on invested capital is 30.7%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 51.4% in FY2018 to 49.6% in FY2025. The trailing operating margin is 50.7%, the net margin is 22.1% and diluted EPS is $4.50.",
-      "Return on equity was 40.2% and return on invested capital was 30.7%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 40.2%. Fundraising and carry drive the equity return, so ROIC is a secondary measure for this model. Fundraising and realisations are the trends to follow from here."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $5.8B, a 36.2% margin. Net debt is $10.5B, or 1.4x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $115.7M in the latest fiscal year."
+      "Free cash flow over the trailing period was $5.8B, a 36.2% margin. The balance sheet supports the funds rather than a product business, which makes net debt less informative than fee streams. For an asset manager, consolidated cash flow includes fund-level balances, so the margin is not directly comparable to an operating company.",
+      "Operating cash flow was $4.7B, or 154.4% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $115.7M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 41.2x trailing earnings, 21.6x EV/EBITDA and 9.8x EV/sales. The free-cash-flow yield is 4.0%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against AMP, APO and ARES; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 41.2x trailing earnings, 21.6x EV/EBITDA and 9.8x EV/sales. The free-cash-flow yield is 4.0%. For an asset manager, fee-related earnings and distributable earnings are more relevant than EV/EBITDA.",
+      "The peer comparison sets the company against BLK, AMP and APO; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "23 analysts contribute to the third-party consensus. The mean target is $139.04, with a range of $118.00 to $169.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $14.8B of revenue and $5.93 of EPS. The estimate revisions in the dataset are 0.3% over 30 days and -1.4% over 90 days. If met, the estimate would mean a decline of 8.1% from the current base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Credit cycle",
+        "title": "Capital markets",
         "severity": "High",
-        "detail": "Loan losses rise in a downturn and can overwhelm revenue growth.",
-        "watch": "Provisions, charge-offs and non-performing loans."
+        "detail": "A closed IPO or M&A market delays exits and carry.",
+        "watch": "Exit activity, realisations and carry pipeline."
       },
       {
-        "title": "Interest rates",
+        "title": "Fundraising cycle",
         "severity": "High",
-        "detail": "Rate changes affect net interest income and deposit repricing.",
-        "watch": "Net interest income guidance and deposit betas."
+        "detail": "Institutions can slow commitments after a poor vintage.",
+        "watch": "Net inflows, dry powder and fundraising targets."
       },
       {
-        "title": "Regulation",
+        "title": "Fee compression",
         "severity": "Medium",
-        "detail": "Capital and liquidity rules influence returns and buybacks.",
-        "watch": "Stress tests and CET1 requirements."
+        "detail": "Retail and institutional competition can pressure management fees.",
+        "watch": "Fee rate and product mix."
       },
       {
-        "title": "Capital markets cyclicality",
+        "title": "Leverage and guarantees",
         "severity": "Medium",
-        "detail": "Advisory and trading revenue can fall quickly.",
-        "watch": "Investment banking fees and trading revenue."
+        "detail": "Insurance balance sheets and fund-level leverage add cyclicality.",
+        "watch": "Debt, guarantees and capital intensity."
       },
       {
-        "title": "Competition",
+        "title": "Valuation",
         "severity": "Medium",
-        "detail": "Deposit and loan pricing competition can compress spreads.",
-        "watch": "Loan and deposit growth relative to peers."
+        "detail": "Managers are priced on fee-related earnings and carry, which are cyclical.",
+        "watch": "FRE multiple and carried-interest assumptions."
       }
     ],
     "watchlist": [
       {
-        "title": "Net interest income",
-        "detail": "The largest revenue line and the most rate-sensitive."
+        "title": "Net inflows",
+        "detail": "Organic fundraising is the cleanest growth signal."
       },
       {
-        "title": "Credit costs",
-        "detail": "Provisioning is the main swing factor in a downturn."
+        "title": "Fee-related earnings",
+        "detail": "FRE isolates the recurring management-fee business from carry."
       },
       {
-        "title": "Capital returns",
-        "detail": "Buybacks depend on capital ratios and stress-test results."
+        "title": "Exit pipeline",
+        "detail": "Realisation activity determines when carry is recognised."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Blackstone Inc. is a Capital Markets company with $16.1B of trailing revenue, an operating margin of 50.7% and a free-cash-flow margin of 36.2%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with AMP, APO and ARES, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 63/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Blackstone Inc. produced $16.1B of trailing revenue at a 50.7% operating margin and a 36.2% free-cash-flow margin. The free-cash-flow margin is the strongest part of that record; the rest of the report tests whether it can be sustained.",
+      "The published consensus mean is $139.04 (2026-11-25), 17.2% above the latest close; it is included for attribution, not as a Stockmonk call. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put profitability at 93/100 and valuation at 30/100, with the composite averaging 63/100. The gap between profitability at 93/100 and valuation at 30/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
-      "How much of net interest income is rate-sensitive?",
-      "Is credit provisioning normalising or deteriorating?",
-      "What does regulation do to buybacks?",
-      "How sustainable is the current return on equity?"
+      "How much of earnings is recurring management fee?",
+      "What vintage is the carry pipeline?",
+      "How sensitive is fundraising to market levels?",
+      "Is the balance sheet being used to manufacture growth?"
     ]
   }
 };

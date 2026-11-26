@@ -3,32 +3,32 @@ import type { StockStory } from "./types";
 export const RPM: StockStory = {
   "ticker": "RPM",
   "kicker": "Materials & Mining · Specialty Chemicals",
-  "title": "RPM International Inc. at 19.8x earnings: what the filings support",
-  "dek": "RPM International Inc. generated $8B of trailing revenue with an operating margin of 11.4%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "RPM International Inc: Specialty coatings and sealants",
+  "dek": "RPM International Inc. reported $8B of trailing revenue at an 11.4% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $8B trailing twelve months, +6.0% year over year.",
     "Profitability: 11.4% operating margin and 8.7% net margin.",
-    "Cash: $705.6M free cash flow, a 8.9% margin, against $1.7B of net debt.",
+    "Cash: $705.6M free cash flow, an 8.9% margin, against $1.7B of net debt.",
     "Valuation: 19.8x trailing earnings and 13.6x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/110621/000119312526312142/rpm-20260531.htm",
   "irUrl": "https://www.rpminc.com",
   "bigPicture": {
     "paragraphs": [
       "RPM International Inc. generated $8B of revenue over the last twelve months, +6.0% versus the prior year. The latest reported quarter was Q1 FY27, with $2.2B of revenue and a 15.2% operating margin. The shares closed at $107.07 on Nov 25, 2026, giving a market capitalization of $13.7B.",
-      "Revenue and margins move with commodity prices, volumes and the cost of energy and feedstock. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $13.7B, or 19.8x trailing earnings and 13.6x EV/EBITDA. The shares sit 49% of the way up their 52-week range ($92.92 to $121.78). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Construction Products Group contributes 39.0% of the disclosed revenue mix. By geography, United States is the largest disclosed market at 70.2% of revenue. RPM International Inc. competes in Specialty Chemicals, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $13.7B, or 19.8x trailing earnings and 13.6x EV/EBITDA. The shares sit 49% of the way up their 52-week range ($92.92 to $121.78). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "RPM is a Materials & Mining business with $8B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "RPM sells specialty coatings and sealants, a brand-and-project business where pricing, volume and acquisition integration drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "RPM International Inc. provides specialty chemicals for the construction, industrial, specialty, and consumer markets. RPM International Inc. is a Materials & Mining company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 17,500 people, and its coverage group is Materials & Mining.",
-      "The comparison set includes AEM, ALB and APD. RPM International Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "RPM International Inc. provides specialty chemicals for the construction, industrial, specialty, and consumer markets. It reports in the Basic Materials sector and is classified in Materials & Mining coverage.",
+      "The disclosed mix runs across Construction Products Group at 39.0%, Consumer at 33.8% and Performance Coatings Group at 27.1%. Its latest filing lists 17,500 employees. Trailing revenue is $8B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "LIN, SHW and ECL provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,56 +47,56 @@ export const RPM: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 41.2%, operating margin is 11.4% and net margin is 8.7%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $1.7B, or 1.5x EBITDA. Return on invested capital was 12.6% and return on equity was 19.8%."
+      "Of $8B of revenue, $3.3B remained after cost of sales. The 29.7% operating-expense load brought that down to an 11.4% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "Net debt is $1.7B, or 1.5x EBITDA. Return on invested capital was 12.6% and return on equity was 19.8%. That sits in the middle of the range; whether it clears the cost of capital is the deciding question."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.1% a year across the fiscal years in the dataset, and the latest quarter changed +4.8% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 11.4% and return on invested capital of 12.6% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 5.1% a year across the fiscal years in the dataset, and the latest quarter changed +4.8% year over year. Current-year estimates call for $8.3B of revenue and $5.91 of EPS.",
+      "The operating margin of 11.4% and return on invested capital of 12.6% are the filters to watch as revenue scales. Neither the 6.0% growth nor the 11.4% margin is extreme; the combination is what matters."
     ],
     "bullets": [
       {
         "title": "Volume",
-        "detail": "Shipments show underlying industrial demand. For RPM International Inc., the relevant evidence is revenue growth of +6.0%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +6.0%. A change in that figure would be the first signal of a shift."
       },
       {
         "title": "Price and mix",
-        "detail": "Product mix and pricing determine margin per ton. For RPM International Inc., the relevant evidence is an operating margin of 11.4%. That is the metric to track in the next filing."
+        "detail": "Product mix and pricing determine margin per ton. The operating margin is 11.4%."
       },
       {
         "title": "Cost position",
-        "detail": "Low-cost assets can earn through the cycle. For RPM International Inc., the relevant evidence is a return on invested capital of 12.6%. That is the metric to track in the next filing."
+        "detail": "Return on invested capital is 12.6%. Low-cost assets can earn through the cycle."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 6.1% in FY2019 to 11.1% in FY2026. The trailing operating margin is 11.4%, the net margin is 8.7% and diluted EPS is $5.41.",
-      "Return on equity was 19.8% and return on invested capital was 12.6%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 19.8% and return on invested capital was 12.6%. Return on invested capital of 12.6% is close to the 19.8% equity return, so the balance sheet explains only part of the difference."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $705.6M, a 8.9% margin. Net debt is $1.7B, or 1.5x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $223.5M in the latest fiscal year."
+      "Free cash flow over the trailing period was $705.6M, an 8.9% margin. Net debt is $1.7B, or 1.5x EBITDA. Capital expenditure was 2.8% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow was $898.7M, or 135.9% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $223.5M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 19.8x trailing earnings, 13.6x EV/EBITDA and 1.9x EV/sales. The free-cash-flow yield is 5.2%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against AEM, ALB and APD; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 19.8x trailing earnings, 13.6x EV/EBITDA and 1.9x EV/sales. The free-cash-flow yield is 5.2%. The 5.1% earnings yield and 5.2% free-cash-flow yield are the two return measures embedded in the price.",
+      "The peer comparison sets the company against LIN, SHW and ECL; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "16 analysts contribute to the third-party consensus. The mean target is $124.56, with a range of $107.00 to $147.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $8.3B of revenue and $5.91 of EPS. The estimate revisions in the dataset are 0.0% over 30 days and -1.6% over 90 days. The estimate is consistent with growth of 3.6% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
         "title": "Commodity cycle",
@@ -146,9 +146,9 @@ export const RPM: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "RPM International Inc. is a Materials & Mining company with $8B of trailing revenue, an operating margin of 11.4% and a free-cash-flow margin of 8.9%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with AEM, ALB and APD, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 43/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "RPM International Inc. produced $8B of trailing revenue at an 11.4% operating margin and an 8.9% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
+      "16 analysts in the third-party survey average $124.56 as of 2026-11-25, 16.3% above the latest close; the figure belongs to the analysts who published it, not to this report. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put valuation at 67/100 and growth at 30/100, with the composite averaging 43/100. With valuation and growth only 37 points apart, the composite is a reasonable one-line description."
     ],
     "questions": [
       "What is the mid-cycle margin?",

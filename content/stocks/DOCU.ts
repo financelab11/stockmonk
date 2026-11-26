@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const DOCU: StockStory = {
   "ticker": "DOCU",
   "kicker": "Enterprise Software · Software - Application",
-  "title": "DocuSign, Inc. at 45.5x earnings: what the filings support",
-  "dek": "DocuSign, Inc. generated $3.4B of trailing revenue with an operating margin of 12.0%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "DocuSign, Inc: E-signature and agreement software",
+  "dek": "DocuSign, Inc. reported $3.4B of trailing revenue at a 12.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $3.4B trailing twelve months, +8.6% year over year.",
@@ -13,22 +13,22 @@ export const DOCU: StockStory = {
     "Valuation: 45.5x trailing earnings and 27.6x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1261333/000126133326000021/docu-20260131.htm",
   "irUrl": "https://www.docusign.com",
   "bigPicture": {
     "paragraphs": [
       "DocuSign, Inc. generated $3.4B of revenue over the last twelve months, +8.6% versus the prior year. The latest reported quarter was Q2 FY27, with $875.7M of revenue and a 13.4% operating margin. The shares closed at $80.26 on Nov 25, 2026, giving a market capitalization of $15B.",
-      "The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $15B, or 45.5x trailing earnings and 27.6x EV/EBITDA. The shares sit 88% of the way up their 52-week range ($40.16 to $85.90). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. By geography, United States is the largest disclosed market at 70.6% of revenue. DocuSign, Inc. competes in Software - Application, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $15B, or 45.5x trailing earnings and 27.6x EV/EBITDA. The shares sit 88% of the way up their 52-week range ($40.16 to $85.90). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "DOCU is an Enterprise Software business with $3.4B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "DocuSign sells e-signature and agreement software, a mature SaaS business where retention and expansion matter."
   },
   "whatItDoes": {
     "paragraphs": [
-      "DocuSign, Inc. provides electronic signature solution in the United States and internationally. DocuSign, Inc. is an Enterprise Software company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 7,044 people, and its coverage group is Enterprise Software.",
-      "The comparison set includes BILL, BOX and CHKP. DocuSign, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "DocuSign, Inc. provides electronic signature solution in the United States and internationally. It reports in the Technology sector and is classified in Enterprise Software coverage.",
+      "Revenue is reported at the consolidated level only. Its latest filing lists 7,044 employees. Trailing revenue is $3.4B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "CDNS, NOW and INTU provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,56 +47,56 @@ export const DOCU: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 79.5%, operating margin is 12.0% and net margin is 9.8%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $528.2M of net cash. Return on invested capital was 17.5% and return on equity was 19.2%."
+      "Of $3.4B of revenue, $2.7B remained after cost of sales. The 67.5% operating-expense load brought that down to a 12.0% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "The balance sheet carries $528.2M of net cash. Return on invested capital was 17.5% and return on equity was 19.2%. The return leaves room above the cost of capital for growth to compound."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 24.3% a year across the fiscal years in the dataset, and the latest quarter changed +9.4% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 12.0% and return on invested capital of 17.5% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 24.3% a year across the fiscal years in the dataset, and the latest quarter changed +9.4% year over year. Current-year estimates call for $3.5B of revenue and $4.62 of EPS.",
+      "The operating margin of 12.0% and return on invested capital of 17.5% are the filters to watch as revenue scales. Neither the 8.6% growth nor the 12.0% margin is extreme; the combination is what matters."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. For DocuSign, Inc., the relevant evidence is revenue growth of +8.6%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +8.6%. The next data point will show whether the trend is intact."
       },
       {
         "title": "New customer adds",
-        "detail": "New logos broaden the base and fund future expansion. For DocuSign, Inc., the relevant evidence is an operating margin of 12.0%. That is the metric to track in the next filing."
+        "detail": "New logos broaden the base and fund future expansion. The operating margin is 12.0%."
       },
       {
         "title": "Operating leverage",
-        "detail": "Scale should improve margins as sales and R&D mature. For DocuSign, Inc., the relevant evidence is a return on invested capital of 17.5%. That is the metric to track in the next filing."
+        "detail": "Return on invested capital is 17.5%. Scale should improve margins as sales and R&D mature."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from -60.8% in FY2019 to 9.3% in FY2026. The trailing operating margin is 12.0%, the net margin is 9.8% and diluted EPS is $1.64.",
-      "Return on equity was 19.2% and return on invested capital was 17.5%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 19.2% and return on invested capital was 17.5%. Return on invested capital of 17.5% is close to the 19.2% equity return, so the balance sheet explains only part of the difference."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.2B, a 35.7% margin. The balance sheet carries $528.2M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $106.4M in the latest fiscal year."
+      "Free cash flow over the trailing period was $1.2B, a 35.7% margin. The balance sheet carries $528.2M of net cash. Capital expenditure was 3.2% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow was $1.2B, or 376.9% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $106.4M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 45.5x trailing earnings, 27.6x EV/EBITDA and 4.3x EV/sales. The free-cash-flow yield is 8.0%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BILL, BOX and CHKP; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 45.5x trailing earnings, 27.6x EV/EBITDA and 4.3x EV/sales. The free-cash-flow yield is 8.0%. The 2.2% earnings yield and 8.0% free-cash-flow yield are the two return measures embedded in the price.",
+      "The peer comparison sets the company against CDNS, NOW and INTU; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "15 analysts contribute to the third-party consensus. The mean target is $73.93, with a range of $60.00 to $90.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $3.5B of revenue and $4.62 of EPS. The estimate revisions in the dataset are 0.0% over 30 days and 2.2% over 90 days. The estimate is consistent with growth of 4.3% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
         "title": "Competition",
@@ -146,9 +146,9 @@ export const DOCU: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "DocuSign, Inc. is an Enterprise Software company with $3.4B of trailing revenue, an operating margin of 12.0% and a free-cash-flow margin of 35.7%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BILL, BOX and CHKP, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 59/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "DocuSign, Inc. produced $3.4B of trailing revenue at a 12.0% operating margin and a 35.7% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
+      "15 analysts in the third-party survey average $73.93 as of 2026-11-25, 7.9% below the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put cash generation at 90/100 and valuation at 22/100, with the composite averaging 59/100. A 90/100 cash generation score against a 22/100 valuation score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
       "How much growth comes from existing customers?",

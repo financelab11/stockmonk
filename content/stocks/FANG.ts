@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const FANG: StockStory = {
   "ticker": "FANG",
   "kicker": "Energy · Oil & Gas E&P",
-  "title": "Diamondback Energy, Inc.: an energy business with +21.1% revenue growth",
-  "dek": "Diamondback Energy, Inc. generated $18.6B of trailing revenue with an operating margin of 12.6%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Diamondback Energy, Inc: A Permian oil producer",
+  "dek": "Diamondback Energy, Inc. reported $18.6B of trailing revenue at a 12.6% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $18.6B trailing twelve months, +21.1% year over year.",
@@ -13,22 +13,22 @@ export const FANG: StockStory = {
     "Valuation: 21.5x trailing earnings and 8.5x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000010/fang-20251231.htm",
   "irUrl": "https://www.diamondbackenergy.com",
   "bigPicture": {
     "paragraphs": [
       "Diamondback Energy, Inc. generated $18.6B of revenue over the last twelve months, +21.1% versus the prior year. The latest reported quarter was Q3 FY26, with $5.4B of revenue and a 46.0% operating margin. The shares closed at $180.70 on Nov 25, 2026, giving a market capitalization of $50.4B.",
-      "Cash flow is a function of commodity prices, production volumes and capital discipline. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $50.4B, or 21.5x trailing earnings and 8.5x EV/EBITDA. The shares sit 53% of the way up their 52-week range ($139.41 to $216.90). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. Country-level revenue is not part of the filing extract used here.",
+      "At the latest close the equity is valued at $50.4B, or 21.5x trailing earnings and 8.5x EV/EBITDA. The shares sit 53% of the way up their 52-week range ($139.41 to $216.90). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
     ],
-    "quote": "FANG is an Energy business with $18.6B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Diamondback is a Permian oil producer, so oil prices, inventory and capital returns drive cash flow."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Diamondback Energy, Inc. , an independent oil and natural gas company, acquires, develops, explores, and exploits unconventional, onshore oil and natural gas reserves in the Permian Basin in West Texas, the United States.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 1,762 people, and its coverage group is Energy.",
-      "The comparison set includes BKR, CTRA and DVN. Diamondback Energy, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Diamondback Energy, Inc., an independent oil and natural gas company, acquires, develops, explores, and exploits unconventional, onshore oil and natural gas reserves in the Permian Basin in West Texas, the United States.",
+      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 1,762 people. Trailing revenue is $18.6B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "The closest listed comparisons are COP, EOG and TPL; the useful question is how Diamondback Energy, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
     ],
     "bullets": [
       {
@@ -47,56 +47,56 @@ export const FANG: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 12.6% and net margin is 12.6%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $14.2B, or 1.9x EBITDA. Return on invested capital was 3.5% and return on equity was 6.0%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 12.6% is the first clean profitability line. Cash flow is a function of commodity prices, production volumes and capital discipline.",
+      "Net debt is $14.2B, or 1.9x EBITDA. Return on invested capital was 3.5% and return on equity was 6.0%. That leaves little room above the cost of capital."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 32.2% a year across the fiscal years in the dataset, and the latest quarter changed +38.4% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 12.6% and return on invested capital of 3.5% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 32.2% a year across the fiscal years in the dataset, and the latest quarter changed +38.4% year over year. Current-year estimates call for $20.2B of revenue and $23.23 of EPS.",
+      "The operating margin of 12.6% and return on invested capital of 3.5% are the filters to watch as revenue scales. Neither the 21.1% growth nor the 12.6% margin is extreme; the combination is what matters."
     ],
     "bullets": [
       {
         "title": "Commodity prices",
-        "detail": "Oil, gas and power prices flow quickly into revenue and cash flow. For Diamondback Energy, Inc., the relevant evidence is revenue growth of +21.1%. That is the metric to track in the next filing."
+        "detail": "Oil, gas and power prices flow quickly into revenue and cash flow. Revenue growth is +21.1%."
       },
       {
         "title": "Production growth",
-        "detail": "Volumes from existing and new projects determine the revenue base. For Diamondback Energy, Inc., the relevant evidence is an operating margin of 12.6%. That is the metric to track in the next filing."
+        "detail": "The operating margin is 12.6%. Volumes from existing and new projects determine the revenue base."
       },
       {
         "title": "Capital discipline",
-        "detail": "Lower reinvestment can lift free cash flow and returns. For Diamondback Energy, Inc., the relevant evidence is a return on invested capital of 3.5%. That is the metric to track in the next filing."
+        "detail": "Lower reinvestment can lift free cash flow and returns. The current reading: return on invested capital is 3.5%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 47.5% in FY2018 to 8.4% in FY2025. The trailing operating margin is 12.6%, the net margin is 12.6% and diluted EPS is $7.44.",
-      "Return on equity was 6.0% and return on invested capital was 3.5%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 6.0% and return on invested capital was 3.5%. Return on invested capital of 3.5% is close to the 6.0% equity return, so the balance sheet explains only part of the difference."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $7.9B, a 42.6% margin. Net debt is $14.2B, or 1.9x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $5.9B in the latest fiscal year."
+      "Free cash flow over the trailing period was $7.9B, a 42.6% margin. Net debt is $14.2B, or 1.9x EBITDA. Capital expenditure was 31.9% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow was $8.8B, or 526.3% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $5.9B in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 21.5x trailing earnings, 8.5x EV/EBITDA and 3.5x EV/sales. The free-cash-flow yield is 15.7%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BKR, CTRA and DVN; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 21.5x trailing earnings, 8.5x EV/EBITDA and 3.5x EV/sales. The free-cash-flow yield is 15.7%. The 4.6% earnings yield and 15.7% free-cash-flow yield are the two return measures embedded in the price.",
+      "The peer comparison sets the company against COP, EOG and TPL; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "29 analysts contribute to the third-party consensus. The mean target is $237.38, with a range of $185.00 to $266.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $20.2B of revenue and $23.23 of EPS. The estimate revisions in the dataset are 3.0% over 30 days and 13.5% over 90 days. That implies growth of 8.5% over the trailing twelve months."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
         "title": "Commodity prices",
@@ -146,9 +146,9 @@ export const FANG: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Diamondback Energy, Inc. is an Energy company with $18.6B of trailing revenue, an operating margin of 12.6% and a free-cash-flow margin of 42.6%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BKR, CTRA and DVN, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 54/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Diamondback Energy, Inc. produced $18.6B of trailing revenue at a 12.6% operating margin and a 42.6% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
+      "The third-party consensus mean is $237.38 as of 2026-11-25, 31.4% above the latest close; it should be read as the published consensus, not as this publication's view. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put cash generation at 94/100 and balance sheet at 28/100, with the composite averaging 54/100. A 94/100 cash generation score against a 28/100 balance sheet score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
       "What price is needed to cover capex and the dividend?",

@@ -4,31 +4,31 @@ export const DRS: StockStory = {
   "ticker": "DRS",
   "kicker": "Aerospace & Defense · Aerospace & Defense",
   "title": "Leonardo DRS, Inc. turns $3.9B of revenue into $344M of free cash flow",
-  "dek": "Leonardo DRS, Inc. generated $3.9B of trailing revenue with an operating margin of 10.8%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "dek": "Leonardo DRS, Inc. reported $3.9B of trailing revenue at a 10.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $3.9B trailing twelve months, +8.9% year over year.",
     "Profitability: 10.8% operating margin and 9.4% net margin.",
-    "Cash: $344M free cash flow, a 8.9% margin, against $129M of net cash.",
+    "Cash: $344M free cash flow, an 8.9% margin, against $129M of net cash.",
     "Valuation: 24.2x trailing earnings and 16.7x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1833756/000183375626000013/drs-20251231.htm",
   "irUrl": "https://www.leonardodrs.com",
   "bigPicture": {
     "paragraphs": [
       "Leonardo DRS, Inc. generated $3.9B of revenue over the last twelve months, +8.9% versus the prior year. The latest reported quarter was Q3 FY26, with $1.1B of revenue and a 10.9% operating margin. The shares closed at $33.08 on Nov 25, 2026, giving a market capitalization of $8.8B.",
-      "Revenue is tied to capital spending, backlogs and the ability to pass through input costs. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $8.8B, or 24.2x trailing earnings and 16.7x EV/EBITDA. The shares sit 10% of the way up their 52-week range ($31.06 to $50.59). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Advanced Sensing & Computing accounts for 64.6% of disclosed revenue. Revenue is disclosed across 2 geographies, with United States the largest at 55.3%. Leonardo DRS, Inc. competes in Aerospace & Defense, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $8.8B, or 24.2x trailing earnings and 16.7x EV/EBITDA. The shares sit 10% of the way up their 52-week range ($31.06 to $50.59). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
     ],
-    "quote": "DRS is an Aerospace & Defense business with $3.9B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Leonardo DRS sells defense electronics, so program awards and backlog conversion drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Leonardo DRS, Inc. , together with its subsidiaries, provides defense electronic products and systems, and military support services worldwide. Leonardo DRS, Inc. is an Aerospace & Defense company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 7,300 people, and its coverage group is Aerospace & Defense.",
-      "The comparison set includes GD, HEI and HII. Leonardo DRS, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Leonardo DRS, Inc., together with its subsidiaries, provides defense electronic products and systems, and military support services worldwide. The business is part of the Aerospace & Defense group and reports under Industrials in the current classification.",
+      "The disclosed mix runs across Advanced Sensing & Computing at 64.6% and Integrated Mission Systems at 36.3%. Headcount was 7,300 in the latest filing. Trailing revenue is $3.9B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "Against GE, RTX and HWM, the relevant tests are pricing power, capital intensity and cash conversion."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const DRS: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 25.3%, operating margin is 10.8% and net margin is 9.4%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $129M of net cash. Return on invested capital was 12.1% and return on equity was 12.6%."
+      "Of $3.9B of revenue, $981M remained after cost of sales. The 14.4% operating-expense load brought that down to a 10.8% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "The balance sheet carries $129M of net cash. Return on invested capital was 12.1% and return on equity was 12.6%. That sits in the middle of the range; whether it clears the cost of capital is the deciding question."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.1% a year across the fiscal years in the dataset, and the latest quarter changed +11.0% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 10.8% and return on invested capital of 12.1% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 5.1% a year across the fiscal years in the dataset, and the latest quarter changed +11.0% year over year. Current-year estimates call for $4B of revenue and $1.52 of EPS.",
+      "The operating margin of 10.8% and return on invested capital of 12.1% are the filters to watch as revenue scales. Neither the 8.9% growth nor the 10.8% margin is extreme; the combination is what matters."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Orders already booked provide visibility into future revenue. For Leonardo DRS, Inc., the relevant evidence is revenue growth of +8.9%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +8.9%. Contracted orders provide visibility into future revenue."
       },
       {
-        "title": "Aftermarket and services",
-        "detail": "Recurring service revenue can be more profitable than equipment. For Leonardo DRS, Inc., the relevant evidence is an operating margin of 10.8%. That is the metric to track in the next filing."
+        "title": "Budget and supplementals",
+        "detail": "Defense budgets and supplemental spending set the addressable market. The current reading: the operating margin is 10.8%."
       },
       {
-        "title": "Price and productivity",
-        "detail": "Pricing actions and cost programmes protect margins through cycles. For Leonardo DRS, Inc., the relevant evidence is a return on invested capital of 12.1%. That is the metric to track in the next filing."
+        "title": "Programme execution",
+        "detail": "Return on invested capital is 12.1%. The direction of travel matters more than the absolute level."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 6.0% in FY2019 to 9.5% in FY2025. The trailing operating margin is 10.8%, the net margin is 9.4% and diluted EPS is $1.36.",
-      "Return on equity was 12.6% and return on invested capital was 12.1%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 12.6% and return on invested capital was 12.1%. Return on invested capital of 12.1% is close to the 12.6% equity return, so the balance sheet explains only part of the difference."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $344M, a 8.9% margin. The balance sheet carries $129M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $139M in the latest fiscal year."
+      "Free cash flow over the trailing period was $344M, an 8.9% margin. The balance sheet carries $129M of net cash. Capital expenditure was 3.6% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow was $366M, or 131.7% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $139M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 24.2x trailing earnings, 16.7x EV/EBITDA and 2.2x EV/sales. The free-cash-flow yield is 3.9%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against GD, HEI and HII; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 24.2x trailing earnings, 16.7x EV/EBITDA and 2.2x EV/sales. The free-cash-flow yield is 3.9%. The 4.1% earnings yield and 3.9% free-cash-flow yield are the two return measures embedded in the price.",
+      "The peer comparison sets the company against GE, RTX and HWM; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "12 analysts contribute to the third-party consensus. The mean target is $52.17, with a range of $45.00 to $59.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $4B of revenue and $1.52 of EPS. The estimate revisions in the dataset are 9.1% over 30 days and 9.0% over 90 days. Set against trailing revenue, the estimate implies growth of 2.3%."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Capital-spending cycle",
+        "title": "Budget cycle",
         "severity": "High",
-        "detail": "Industrial demand falls when customers delay projects.",
-        "watch": "Order trends and backlog conversion."
+        "detail": "Continuing resolutions and priorities can delay awards.",
+        "watch": "Budget markers and supplemental packages."
       },
       {
-        "title": "Input costs",
+        "title": "Contract concentration",
         "severity": "High",
-        "detail": "Steel, freight and labour can outrun price increases.",
-        "watch": "Gross margin and price-cost spread."
+        "detail": "A few programmes or agencies can dominate revenue.",
+        "watch": "Backlog concentration and award timing."
       },
       {
-        "title": "Execution",
+        "title": "Fixed-price execution",
         "severity": "Medium",
-        "detail": "Project delays and cost overruns can hit margins.",
-        "watch": "Segment margins and project disclosures."
+        "detail": "Cost overruns on fixed-price contracts can hit margins.",
+        "watch": "Segment margins and programme charges."
       },
       {
-        "title": "M&A integration",
+        "title": "Supply chain",
         "severity": "Medium",
-        "detail": "Acquisitions can dilute returns if synergies disappoint.",
-        "watch": "Organic growth and acquired-margin trends."
+        "detail": "Specialty components and labor can constrain deliveries.",
+        "watch": "Lead times and supplier concentration."
       },
       {
         "title": "Valuation",
         "severity": "Medium",
-        "detail": "Cyclical earnings can make trough multiples look cheap.",
-        "watch": "Mid-cycle margins and order momentum."
+        "detail": "Defense multiples can compress when budget growth slows.",
+        "watch": "Backlog growth and forward revenue."
       }
     ],
     "watchlist": [
       {
-        "title": "Backlog",
-        "detail": "Bookings and conversion show whether demand is holding."
+        "title": "Book-to-bill",
+        "detail": "A ratio above one shows orders are outpacing revenue."
       },
       {
-        "title": "Price-cost spread",
-        "detail": "Watch whether pricing keeps up with inputs."
+        "title": "Programme milestones",
+        "detail": "Deliveries and reviews determine when backlog becomes cash."
       },
       {
-        "title": "Segment margin",
-        "detail": "Mix and execution can move margins before revenue does."
+        "title": "Budget",
+        "detail": "Appropriations and supplementals are the leading demand signal."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Leonardo DRS, Inc. is an Aerospace & Defense company with $3.9B of trailing revenue, an operating margin of 10.8% and a free-cash-flow margin of 8.9%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with GD, HEI and HII, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 51/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Leonardo DRS, Inc. produced $3.9B of trailing revenue at a 10.8% operating margin and an 8.9% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
+      "12 analysts in the third-party survey average $52.17 as of 2026-11-25, 57.7% above the latest close; the forecast is theirs, and this report does not adopt it as a target.",
+      "The factor percentiles put balance sheet at 66/100 and cash generation at 34/100, with the composite averaging 51/100. With balance sheet and cash generation only 32 points apart, the composite is a reasonable one-line description."
     ],
     "questions": [
-      "How much revenue is recurring versus project-based?",
-      "Is the backlog growing or being consumed?",
-      "Can pricing hold if input costs rise?",
-      "What does a trough-cycle margin look like?"
+      "How much backlog converts in the next year?",
+      "Which programmes are fixed-price?",
+      "How dependent is revenue on one agency?",
+      "What does a continuing resolution delay?"
     ]
   }
 };

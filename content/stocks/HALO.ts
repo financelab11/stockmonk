@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const HALO: StockStory = {
   "ticker": "HALO",
   "kicker": "Pharma & Biotech · Biotechnology",
-  "title": "What Halozyme Therapeutics, Inc.'s latest filings reveal about growth, margins and cash",
-  "dek": "Halozyme Therapeutics, Inc. generated $1.8B of trailing revenue with an operating margin of 37.4%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Halozyme Therapeutics, Inc: Drug-delivery enzymes and earns royalties on partner products",
+  "dek": "Halozyme Therapeutics, Inc. reported $1.8B of trailing revenue at a 37.4% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $1.8B trailing twelve months, +45.0% year over year.",
@@ -13,22 +13,22 @@ export const HALO: StockStory = {
     "Valuation: 22.2x trailing earnings and 18.8x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000024/halo-20251231.htm",
   "irUrl": "https://halozyme.com",
   "bigPicture": {
     "paragraphs": [
       "Halozyme Therapeutics, Inc. generated $1.8B of revenue over the last twelve months, +45.0% versus the prior year. The latest reported quarter was Q3 FY26, with $493M of revenue and a 59.8% operating margin. The shares closed at $94.46 on Nov 25, 2026, giving a market capitalization of $10.8B.",
-      "The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $10.8B, or 22.2x trailing earnings and 18.8x EV/EBITDA. The shares sit 46% of the way up their 52-week range ($61.23 to $134.00). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. United States supplies 58.9% of disclosed revenue, the largest single geography in the filing.",
+      "At the latest close the equity is valued at $10.8B, or 22.2x trailing earnings and 18.8x EV/EBITDA. The shares sit 46% of the way up their 52-week range ($61.23 to $134.00). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
     ],
-    "quote": "HALO is a Pharma & Biotech business with $1.8B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Halozyme licenses drug-delivery enzymes and earns royalties on partner products, a high-margin business whose value depends on partner launches and patent timing."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Halozyme Therapeutics, Inc. , a biopharmaceutical company, researches, develops, and commercializes of proprietary enzymes and devices in the United States, Switzerland, Belgium, Japan, and internationally. Halozyme Therapeutics, Inc. is a Pharma & Biotech company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 423 people, and its coverage group is Pharma & Biotech.",
-      "The comparison set includes BIIB, ETON and GILD. Halozyme Therapeutics, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Halozyme Therapeutics, Inc., a biopharmaceutical company, researches, develops, and commercializes of proprietary enzymes and devices in the United States, Switzerland, Belgium, Japan, and internationally. Halozyme Therapeutics, Inc. sits in the Biotechnology industry, one of the Pharma & Biotech names in this library.",
+      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 423 people. With $1.8B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "The closest listed comparisons are VRTX, REGN and VKTX; the useful question is how Halozyme Therapeutics, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const HALO: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 83.6%, operating margin is 37.4% and net margin is 26.9%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $2.2B, or 3.2x EBITDA. Return on invested capital was 15.6% and return on equity was -878.8%."
+      "The company kept 83.6% of revenue after cost of sales, or $1.5B. Operating expenses absorbed 46.2% of revenue, leaving a 37.4% operating margin. The operating layer is where the gross profit is either protected or spent.",
+      "Net debt is $2.2B, or 3.2x EBITDA. Return on invested capital was 15.6%, while the reported return on equity is negative because the equity base is negative. The operating return is the one to use when judging reinvestment."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 37.3% a year across the fiscal years in the dataset, and the latest quarter changed +39.2% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 37.4% and return on invested capital of 15.6% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 37.3% a year across the fiscal years in the dataset, and the latest quarter changed +39.2% year over year. Current-year estimates call for $1.9B of revenue and $8.89 of EPS.",
+      "The operating margin of 37.4% and return on invested capital of 15.6% are the filters to watch as revenue scales. Growth of 45.0% on a 37.4% operating margin is a high-quality combination if both hold."
     ],
     "bullets": [
       {
-        "title": "Clinical data",
-        "detail": "Efficacy and safety readouts determine the programme's value. For Halozyme Therapeutics, Inc., the relevant evidence is revenue growth of +45.0%. That is the metric to track in the next filing."
+        "title": "Launch execution",
+        "detail": "New therapies need payer coverage, prescriber adoption and manufacturing scale. Revenue growth is +45.0%."
       },
       {
-        "title": "Regulatory path",
-        "detail": "Approval and label scope decide the commercial opportunity. For Halozyme Therapeutics, Inc., the relevant evidence is an operating margin of 37.4%. That is the metric to track in the next filing."
+        "title": "Pipeline readouts",
+        "detail": "The operating margin is 37.4%. Late-stage data can extend the growth runway or reset it."
       },
       {
-        "title": "Partnerships",
-        "detail": "Collaborations can fund development and validate the science. For Halozyme Therapeutics, Inc., the relevant evidence is a return on invested capital of 15.6%. That is the metric to track in the next filing."
+        "title": "Patent duration",
+        "detail": "The remaining exclusivity period determines how long the cash flow lasts. The current reading: return on invested capital is 15.6%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from -45.7% in FY2018 to 33.6% in FY2025. The trailing operating margin is 37.4%, the net margin is 26.9% and diluted EPS is $4.01.",
-      "Return on equity was -878.8% and return on invested capital was 15.6%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was -878.8% and return on invested capital was 15.6%. The equity return is distorted by negative book equity, so the operating return is the cleaner read. Both should be read against the company's own history before they are compared with a peer median."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $885.9M, a 49.1% margin. Net debt is $2.2B, or 3.2x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $7M in the latest fiscal year."
+      "Free cash flow over the trailing period was $885.9M, a 49.1% margin. Net debt is $2.2B, or 3.2x EBITDA. Capex absorbed 0.4% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow was $651.6M, or 205.6% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $7M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 22.2x trailing earnings, 18.8x EV/EBITDA and 7.2x EV/sales. The free-cash-flow yield is 8.2%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BIIB, ETON and GILD; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 22.2x trailing earnings, 18.8x EV/EBITDA and 7.2x EV/sales. The free-cash-flow yield is 8.2%. Inverting the P/E gives an earnings yield of 4.5%; the cash-flow yield is 8.2%.",
+      "The peer comparison sets the company against VRTX, REGN and VKTX; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "9 analysts contribute to the third-party consensus. The mean target is $120.11, with a range of $81.00 to $149.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $1.9B of revenue and $8.89 of EPS. The estimate revisions in the dataset are 0.6% over 30 days and 3.6% over 90 days. That implies growth of 5.3% over the trailing twelve months."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Trial failure",
+        "title": "Clinical failure",
         "severity": "High",
-        "detail": "A negative readout can remove most of the equity value.",
+        "detail": "A negative trial can remove most of a programme's value.",
         "watch": "Trial endpoints and readout timing."
       },
       {
-        "title": "Cash runway",
+        "title": "Patent cliff",
         "severity": "High",
-        "detail": "Development costs can force financing.",
-        "watch": "Cash and quarterly burn."
+        "detail": "Loss of exclusivity can reset revenue faster than a new launch replaces it.",
+        "watch": "Patent expiry schedule and generic entry."
       },
       {
-        "title": "Reimbursement",
+        "title": "Pricing and reimbursement",
         "severity": "Medium",
-        "detail": "Payer coverage determines commercial uptake.",
-        "watch": "Pricing and payer decisions."
+        "detail": "Payer coverage and drug-pricing rules can cap revenue per patient.",
+        "watch": "Net price, payer mix and policy changes."
       },
       {
         "title": "Competition",
         "severity": "Medium",
-        "detail": "A better therapy can arrive first or be priced lower.",
+        "detail": "A better or cheaper therapy can take share quickly.",
         "watch": "Competitor data and launch timing."
       },
       {
-        "title": "Dilution",
+        "title": "Manufacturing and safety",
         "severity": "Medium",
-        "detail": "Equity raises fund trials and manufacturing.",
-        "watch": "Share count and financing terms."
+        "detail": "Supply or safety issues can limit a launch.",
+        "watch": "Supply disclosures and adverse events."
       }
     ],
     "watchlist": [
       {
-        "title": "Cash runway",
-        "detail": "The number of quarters funded is a hard constraint."
+        "title": "Launch metrics",
+        "detail": "Prescriptions, payer coverage and inventory reveal the real launch curve."
       },
       {
-        "title": "Trial readouts",
-        "detail": "Binary events drive the equity."
+        "title": "Patent timing",
+        "detail": "The next loss-of-exclusivity date is the hard constraint on the cash flow."
       },
       {
-        "title": "Partner validation",
-        "detail": "A credible partner can de-risk the programme."
+        "title": "Pipeline readouts",
+        "detail": "Late-stage data is the main driver of the out-year value."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Halozyme Therapeutics, Inc. is a Pharma & Biotech company with $1.8B of trailing revenue, an operating margin of 37.4% and a free-cash-flow margin of 49.1%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BIIB, ETON and GILD, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 60/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Halozyme Therapeutics, Inc. produced $1.8B of trailing revenue at a 37.4% operating margin and a 49.1% free-cash-flow margin. The free-cash-flow margin is the strongest part of that record; the rest of the report tests whether it can be sustained.",
+      "The published consensus mean is $120.11 (2026-11-25), 27.2% above the latest close; it should be read as the published consensus, not as this publication's view. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put cash generation at 97/100 and balance sheet at 15/100, with the composite averaging 60/100. The gap between cash generation at 97/100 and balance sheet at 15/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
-      "How many quarters of cash remain?",
-      "What is the next binary readout?",
-      "How large is the addressable market?",
-      "What does a failed trial leave behind?"
+      "When does the largest patent expire?",
+      "What does a negative trial leave behind?",
+      "How broad is the reimbursement label?",
+      "How much of the valuation is the pipeline?"
     ]
   }
 };

@@ -4,7 +4,7 @@ export const NET: StockStory = {
   "ticker": "NET",
   "kicker": "Enterprise Software · Software - Infrastructure",
   "title": "Cloudflare, Inc.: +35.7% growth, 13.2% free cash flow and the price being paid",
-  "dek": "Cloudflare, Inc. generated $2.7B of trailing revenue with an operating margin of -14.1%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "dek": "Cloudflare, Inc. reported $2.7B of trailing revenue at a -14.1% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $2.7B trailing twelve months, +35.7% year over year.",
@@ -13,22 +13,22 @@ export const NET: StockStory = {
     "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000016/cloud-20251231.htm",
   "irUrl": "https://www.cloudflare.com",
   "bigPicture": {
     "paragraphs": [
-      "Cloudflare, Inc. generated $2.7B of revenue over the last twelve months, +35.7% versus the prior year. The latest reported quarter was Q3 FY26, with $782.5M of revenue and a -8.7% operating margin. The shares closed at $276.72 on Nov 25, 2026, giving a market capitalization of $99.2B.",
-      "The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $99.2B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 56% of the way up their 52-week range ($158.83 to $370.35). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Cloudflare, Inc. generated $2.7B of revenue over the last twelve months, +35.7% versus the prior year. The latest reported quarter was Q3 FY26, with $782.5M of revenue and an -8.7% operating margin. The shares closed at $276.72 on Nov 25, 2026, giving a market capitalization of $99.2B.",
+      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. By geography, United States is the largest disclosed market at 49.5% of revenue. Cloudflare, Inc. competes in Software - Infrastructure, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $99.2B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 56% of the way up their 52-week range ($158.83 to $370.35). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "NET is an Enterprise Software business with $2.7B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Cloudflare sells edge security, networking and compute, a usage-based platform where customer growth and product attach drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Cloudflare, Inc. operates as a cloud services provider that delivers a range of services to businesses worldwide. Cloudflare, Inc. is an Enterprise Software company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 5,156 people, and its coverage group is Enterprise Software.",
-      "The comparison set includes BILL, BOX and CHKP. Cloudflare, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Cloudflare, Inc. operates as a cloud services provider that delivers a range of services to businesses worldwide. It reports in the Technology sector and is classified in Enterprise Software coverage.",
+      "Revenue is reported at the consolidated level only. Its latest filing lists 5,156 employees. The revenue base is $2.7B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "MSFT, ORCL and SNPS provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,62 +47,62 @@ export const NET: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 71.9%, operating margin is -14.1% and net margin is -8.7%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $686.8M of net cash. Return on invested capital was -5.1% and return on equity was -16.3%."
+      "Gross margin is 71.9%, operating margin is -14.1% and net margin is -8.7%. Gross profit was $2B, and 86.0% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
+      "The balance sheet carries $686.8M of net cash. Return on invested capital was -5.1% and return on equity was -16.3%. With returns below zero, growth only creates value if the model reaches profitability at scale."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 41.3% a year across the fiscal years in the dataset, and the latest quarter changed +39.2% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of -14.1% and return on invested capital of -5.1% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 41.3% a year across the fiscal years in the dataset, and the latest quarter changed +39.2% year over year. Current-year estimates call for $3B of revenue and $1.35 of EPS.",
+      "The operating margin of -14.1% and return on invested capital of -5.1% are the filters to watch as revenue scales. The 35.7% top-line pace has not yet produced a thick margin; incremental revenue needs to carry more of the cost base."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. For Cloudflare, Inc., the relevant evidence is revenue growth of +35.7%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +35.7%. That is the line the next filing has to move."
       },
       {
         "title": "New customer adds",
-        "detail": "New logos broaden the base and fund future expansion. For Cloudflare, Inc., the relevant evidence is an operating margin of -14.1%. That is the metric to track in the next filing."
+        "detail": "New logos broaden the base and fund future expansion. The operating margin is -14.1%."
       },
       {
         "title": "Operating leverage",
-        "detail": "Scale should improve margins as sales and R&D mature. For Cloudflare, Inc., the relevant evidence is a return on invested capital of -5.1%. That is the metric to track in the next filing."
+        "detail": "Return on invested capital is -5.1%. Scale should improve margins as sales and R&D mature."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from -44.1% in FY2018 to -9.6% in FY2025. The trailing operating margin is -14.1%, the net margin is -8.7% and diluted EPS is -$0.68.",
-      "Return on equity was -16.3% and return on invested capital was -5.1%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was -16.3% and return on invested capital was -5.1%. Negative equity and invested-capital returns mean the loss is operational, not financial engineering. A peer median is a useful anchor, but the company's own trajectory is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $359.5M, a 13.2% margin. The balance sheet carries $686.8M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $315.6M in the latest fiscal year."
+      "Free cash flow over the trailing period was $359.5M, a 13.2% margin. The balance sheet carries $686.8M of net cash. With capital spending at 11.5% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $315.6M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 36.0x EV/sales. The free-cash-flow yield is 0.4%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BILL, BOX and CHKP; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 36.0x EV/sales. The free-cash-flow yield is 0.4%. Earnings are not a useful anchor here, so the free-cash-flow yield is the cleaner valuation reference.",
+      "The peer comparison sets the company against MSFT, ORCL and SNPS; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "32 analysts contribute to the third-party consensus. The mean target is $343.25, with a range of $190.00 to $430.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $3B of revenue and $1.35 of EPS. The estimate revisions in the dataset are 7.1% over 30 days and 7.5% over 90 days. The estimate is consistent with growth of 8.5% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Competition",
+        "title": "Operating losses",
         "severity": "High",
-        "detail": "Feature parity and bundling can pressure pricing.",
-        "watch": "Win rates and average contract value."
+        "detail": "The trailing operating margin is -14.1%, which means the current cost base is not covered by revenue.",
+        "watch": "Path to operating breakeven and cash runway."
       },
       {
         "title": "Retention",
@@ -146,9 +146,9 @@ export const NET: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Cloudflare, Inc. is an Enterprise Software company with $2.7B of trailing revenue, an operating margin of -14.1% and a free-cash-flow margin of 13.2%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BILL, BOX and CHKP, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 61/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Cloudflare, Inc. produced $2.7B of trailing revenue at a -14.1% operating margin and a 13.2% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
+      "Analysts contributing to the third-party consensus carry a $343.25 mean target as of 2026-11-25, 24.0% above the latest close; the figure belongs to the analysts who published it, not to this report.",
+      "The factor percentiles put valuation at 100/100 and profitability at 10/100, with the composite averaging 61/100. The average hides a strong valuation reading and a weak profitability one, which is why the spread is the more useful description."
     ],
     "questions": [
       "How much growth comes from existing customers?",

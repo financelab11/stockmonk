@@ -3,32 +3,32 @@ import type { StockStory } from "./types";
 export const NTSK: StockStory = {
   "ticker": "NTSK",
   "kicker": "Enterprise Software · Software - Infrastructure",
-  "title": "Netskope, Inc. earns an operating margin of -94.7% on $802.6M of revenue",
-  "dek": "Netskope, Inc. generated $802.6M of trailing revenue with an operating margin of -94.7%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Netskope, Inc: Cloud security and network analytics",
+  "dek": "Netskope, Inc. reported $802.6M of trailing revenue at a -94.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $802.6M trailing twelve months, +30.4% year over year.",
     "Profitability: -94.7% operating margin and -91.8% net margin.",
-    "Cash: -$70.1M free cash flow, a -8.7% margin, against $1.1B of net cash.",
+    "Cash: -$70.1M free cash flow, an -8.7% margin, against $1.1B of net cash.",
     "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2063196/000119312526135011/ck0002063196-20260131.htm",
   "irUrl": "https://www.netskope.com",
   "bigPicture": {
     "paragraphs": [
       "Netskope, Inc. generated $802.6M of revenue over the last twelve months, +30.4% versus the prior year. The latest reported quarter was Q2 FY27, with $220.5M of revenue and a -40.7% operating margin. The shares closed at $25.23 on Nov 25, 2026, giving a market capitalization of $10.3B.",
-      "The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $10.3B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 92% of the way up their 52-week range ($7.67 to $26.71). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. Americas supplies 56.5% of disclosed revenue, the largest single geography in the filing.",
+      "At the latest close the equity is valued at $10.3B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 92% of the way up their 52-week range ($7.67 to $26.71). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
     ],
-    "quote": "NTSK is an Enterprise Software business with $802.6M of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Netskope sells cloud security and network analytics, a high-growth cybersecurity business where platform consolidation and retention drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Netskope, Inc. , a cybersecurity company, provides security, networking, and analytics solutions to largest enterprises to mid-sized companies worldwide. Netskope, Inc. is an Enterprise Software company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 3,281 people, and its coverage group is Enterprise Software.",
-      "The comparison set includes BILL, BOX and CHKP. Netskope, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Netskope, Inc., a cybersecurity company, provides security, networking, and analytics solutions to largest enterprises to mid-sized companies worldwide. Netskope, Inc. sits in the Software - Infrastructure industry, one of the Enterprise Software names in this library.",
+      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 3,281 people. Trailing revenue is $802.6M, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "The closest listed comparisons are MSFT, ORCL and SNPS; the useful question is how Netskope, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
     ],
     "bullets": [
       {
@@ -47,62 +47,62 @@ export const NTSK: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 69.9%, operating margin is -94.7% and net margin is -91.8%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $1.1B of net cash. Return on invested capital was -382.8% and return on equity was -470.2%."
+      "Of $802.6M of revenue, $561.2M remained after cost of sales. The 164.6% operating-expense load brought that down to a -94.7% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "The balance sheet carries $1.1B of net cash. Return on invested capital was -382.8% and return on equity was -470.2%. A negative return on invested capital means the business is consuming capital rather than earning on it."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 32.0% a year across the fiscal years in the dataset, and the latest quarter changed +29.2% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of -94.7% and return on invested capital of -382.8% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 32.0% a year across the fiscal years in the dataset, and the latest quarter changed +29.2% year over year. Current-year estimates call for $890.5M of revenue and -$0.15 of EPS.",
+      "The operating margin of -94.7% and return on invested capital of -382.8% are the filters to watch as revenue scales. Growth of 30.4% is outrunning the -94.7% operating margin, so the question is whether scale eventually pays for itself."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. For Netskope, Inc., the relevant evidence is revenue growth of +30.4%. That is the metric to track in the next filing."
+        "detail": "Expansion within existing customers compounds revenue. Revenue growth is +30.4%."
       },
       {
         "title": "New customer adds",
-        "detail": "New logos broaden the base and fund future expansion. For Netskope, Inc., the relevant evidence is an operating margin of -94.7%. That is the metric to track in the next filing."
+        "detail": "The operating margin is -94.7%. New logos broaden the base and fund future expansion."
       },
       {
         "title": "Operating leverage",
-        "detail": "Scale should improve margins as sales and R&D mature. For Netskope, Inc., the relevant evidence is a return on invested capital of -382.8%. That is the metric to track in the next filing."
+        "detail": "Scale should improve margins as sales and R&D mature. The current reading: return on invested capital is -382.8%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from -76.9% in FY2024 to -92.0% in FY2026. The trailing operating margin is -94.7%, the net margin is -91.8% and diluted EPS is -$1.52.",
-      "Return on equity was -470.2% and return on invested capital was -382.8%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was -470.2% and return on invested capital was -382.8%. The negative returns mean leverage is not the issue; the operating model is. The trend in these returns matters more than a single year's level."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$70.1M, a -8.7% margin. The balance sheet carries $1.1B of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $22.9M in the latest fiscal year."
+      "Free cash flow over the trailing period was -$70.1M, an -8.7% margin. The balance sheet carries $1.1B of net cash. Capital expenditure was 2.9% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow and net income are not both available on a comparable basis. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $22.9M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 11.5x EV/sales. The free-cash-flow yield is -0.7%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BILL, BOX and CHKP; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 11.5x EV/sales. The free-cash-flow yield is -0.7%. Without a meaningful earnings multiple, the cash-flow yield and the asset base carry more of the valuation work.",
+      "The peer comparison sets the company against MSFT, ORCL and SNPS; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "19 analysts contribute to the third-party consensus. The mean target is $23.87, with a range of $17.00 to $30.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $890.5M of revenue and -$0.15 of EPS. The estimate revisions in the dataset are -0.7% over 30 days and -17.4% over 90 days. That implies growth of 10.9% over the trailing twelve months."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Competition",
+        "title": "Operating losses",
         "severity": "High",
-        "detail": "Feature parity and bundling can pressure pricing.",
-        "watch": "Win rates and average contract value."
+        "detail": "The trailing operating margin is -94.7%, which means the current cost base is not covered by revenue.",
+        "watch": "Path to operating breakeven and cash runway."
       },
       {
         "title": "Retention",
@@ -146,9 +146,9 @@ export const NTSK: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Netskope, Inc. is an Enterprise Software company with $802.6M of trailing revenue, an operating margin of -94.7% and a free-cash-flow margin of -8.7%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BILL, BOX and CHKP, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 44/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Netskope, Inc. produced $802.6M of trailing revenue at a -94.7% operating margin and an -8.7% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
+      "The third-party consensus mean is $23.87 as of 2026-11-25, 5.4% below the latest close; it is a consensus view, not a recommendation from Stockmonk. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put valuation at 100/100 and profitability at 2/100, with the composite averaging 44/100. A 100/100 valuation score against a 2/100 profitability score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
       "How much growth comes from existing customers?",

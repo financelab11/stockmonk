@@ -4,7 +4,7 @@ export const DVA: StockStory = {
   "ticker": "DVA",
   "kicker": "Healthcare Services & Devices · Medical Care Facilities",
   "title": "DaVita Inc. at 11.3x earnings: what the filings support",
-  "dek": "DaVita Inc. generated $14.2B of trailing revenue with an operating margin of 15.0%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "dek": "DaVita Inc. reported $14.2B of trailing revenue at a 15.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $14.2B trailing twelve months, +6.4% year over year.",
@@ -13,22 +13,22 @@ export const DVA: StockStory = {
     "Valuation: 11.3x trailing earnings and 7.2x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/927066/000092706626000012/dva-20251231.htm",
   "irUrl": "https://www.davita.com",
   "bigPicture": {
     "paragraphs": [
       "DaVita Inc. generated $14.2B of revenue over the last twelve months, +6.4% versus the prior year. The latest reported quarter was Q3 FY26, with $3.6B of revenue and a 14.0% operating margin. The shares closed at $164.73 on Nov 25, 2026, giving a market capitalization of $10.4B.",
-      "The franchise depends on clinical evidence, reimbursement and the duration of patent protection. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $10.4B, or 11.3x trailing earnings and 7.2x EV/EBITDA. The shares sit 44% of the way up their 52-week range ($101.00 to $247.49). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "US Dialysis & Related Lab Services contributes 86.0% of the disclosed revenue mix. Geographic mix is not disclosed in the extract behind this report. DaVita Inc. competes in Medical Care Facilities, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $10.4B, or 11.3x trailing earnings and 7.2x EV/EBITDA. The shares sit 44% of the way up their 52-week range ($101.00 to $247.49). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "DVA is a Healthcare Services & Devices business with $14.2B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "DaVita runs kidney-dialysis centers, so treatment volumes, reimbursement and labor costs drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "DaVita Inc. provides kidney dialysis services for patients suffering from chronic kidney failure in the United States. DaVita Inc. is a Healthcare Services & Devices company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 78,000 people, and its coverage group is Healthcare Services & Devices.",
-      "The comparison set includes LH, ACHC and CI. DaVita Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "DaVita Inc. provides kidney dialysis services for patients suffering from chronic kidney failure in the United States. It reports in the Healthcare sector and is classified in Healthcare Services & Devices coverage.",
+      "The disclosed mix runs across US Dialysis & Related Lab Services at 86.0% and Other Bets at 14.0%. Its latest filing lists 78,000 employees. The revenue base is $14.2B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "ACHC, EHC and HCA provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const DVA: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 15.0% and net margin is 6.5%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $10.1B, or 3.6x EBITDA. Return on invested capital was 16.6% and return on equity was -155.7%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 15.0% is the first clean profitability line. Revenue depends on utilization, reimbursement and payer mix, while labor and capacity determine the cost of serving each patient.",
+      "Net debt is $10.1B, or 3.6x EBITDA. Return on invested capital was 16.6%, while the reported return on equity is negative because the equity base is negative. The operating return is the one to use when judging reinvestment."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 2.6% a year across the fiscal years in the dataset, and the latest quarter changed +4.6% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 15.0% and return on invested capital of 16.6% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 2.6% a year across the fiscal years in the dataset, and the latest quarter changed +4.6% year over year. Current-year estimates call for $14.2B of revenue and $14.76 of EPS.",
+      "The operating margin of 15.0% and return on invested capital of 16.6% are the filters to watch as revenue scales. Growth of 6.4% against a 15.0% operating margin is the balance the next few quarters have to protect."
     ],
     "bullets": [
       {
-        "title": "Volume and adoption",
-        "detail": "New patients and procedures drive revenue before price. For DaVita Inc., the relevant evidence is revenue growth of +6.4%. That is the metric to track in the next filing."
+        "title": "Utilization",
+        "detail": "Revenue growth is +6.4%. Compare that with the prior year before drawing a conclusion."
       },
       {
         "title": "Reimbursement",
-        "detail": "Coverage decisions determine whether a product is accessible and profitable. For DaVita Inc., the relevant evidence is an operating margin of 15.0%. That is the metric to track in the next filing."
+        "detail": "Coverage and rate updates determine revenue per patient. The operating margin is 15.0%."
       },
       {
-        "title": "Pipeline",
-        "detail": "New indications and products extend the growth runway. For DaVita Inc., the relevant evidence is a return on invested capital of 16.6%. That is the metric to track in the next filing."
+        "title": "Capacity and mix",
+        "detail": "Return on invested capital is 16.6%. Beds, clinicians and service mix determine how much volume can be converted into margin."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 13.4% in FY2018 to 15.0% in FY2025. The trailing operating margin is 15.0%, the net margin is 6.5% and diluted EPS is $13.51.",
-      "Return on equity was -155.7% and return on invested capital was 16.6%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was -155.7% and return on invested capital was 16.6%. A negative equity base makes the equity return meaningless here; the return on invested capital is the number that matters."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.3B, a 9.1% margin. Net debt is $10.1B, or 3.6x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $575.9M in the latest fiscal year."
+      "Free cash flow over the trailing period was $1.3B, a 9.1% margin. Net debt is $10.1B, or 3.6x EBITDA. With capital spending at 4.1% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow was $1.9B, or 252.6% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $575.9M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 11.3x trailing earnings, 7.2x EV/EBITDA and 1.4x EV/sales. The free-cash-flow yield is 12.5%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against LH, ACHC and CI; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 11.3x trailing earnings, 7.2x EV/EBITDA and 1.4x EV/sales. The free-cash-flow yield is 12.5%. The trailing earnings yield is 8.9%, against a free-cash-flow yield of 12.5%.",
+      "The peer comparison sets the company against ACHC, EHC and HCA; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "7 analysts contribute to the third-party consensus. The mean target is $222.29, with a range of $165.00 to $287.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $14.2B of revenue and $14.76 of EPS. The estimate revisions in the dataset are -0.4% over 30 days and -0.6% over 90 days. The estimate is consistent with growth of 0.5% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Clinical and regulatory risk",
+        "title": "Reimbursement pressure",
         "severity": "High",
-        "detail": "Trials and approvals can fail or be delayed.",
-        "watch": "Trial readouts and regulatory decisions."
+        "detail": "Medicare, Medicaid and commercial rate updates can cap revenue per patient.",
+        "watch": "Payer mix and rate updates."
       },
       {
-        "title": "Reimbursement and pricing",
+        "title": "Labor costs",
         "severity": "High",
-        "detail": "Coverage and drug-pricing rules can cap revenue per patient.",
-        "watch": "Net price and payer mix."
+        "detail": "Nursing and clinician shortages can raise wages and contract labor.",
+        "watch": "Salaries, benefits and contract labor."
       },
       {
-        "title": "Competition",
+        "title": "Regulation",
         "severity": "Medium",
-        "detail": "New therapies can take share or force price cuts.",
-        "watch": "Competitor launches and prescription trends."
+        "detail": "Coverage rules, licensure and billing audits can change the model.",
+        "watch": "Regulatory and compliance actions."
       },
       {
-        "title": "Patent expirations",
+        "title": "Volume and capacity",
         "severity": "Medium",
-        "detail": "Loss of exclusivity can reset revenue quickly.",
-        "watch": "Patent-cliff timing and generic entry."
+        "detail": "Capacity constraints can cap growth even when demand is strong.",
+        "watch": "Admissions, occupancy and bed additions."
       },
       {
-        "title": "Manufacturing and supply",
+        "title": "Valuation",
         "severity": "Medium",
-        "detail": "Capacity or quality issues can limit product availability.",
-        "watch": "Supply disclosures and capex."
+        "detail": "Multiples can compress when reimbursement or labor trends worsen.",
+        "watch": "EBITDA margin and forward guidance."
       }
     ],
     "watchlist": [
       {
+        "title": "Payer mix",
+        "detail": "A shift toward lower-paying payers changes revenue per patient."
+      },
+      {
+        "title": "Labor cost per visit",
+        "detail": "Wage inflation is the largest controllable margin variable."
+      },
+      {
         "title": "Volume growth",
-        "detail": "Separate patient growth from price and mix."
-      },
-      {
-        "title": "Reimbursement",
-        "detail": "Coverage decisions are a leading indicator for adoption."
-      },
-      {
-        "title": "Pipeline readouts",
-        "detail": "Late-stage data can change the growth runway."
+        "detail": "Admissions and procedures show whether demand is translating into revenue."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "DaVita Inc. is a Healthcare Services & Devices company with $14.2B of trailing revenue, an operating margin of 15.0% and a free-cash-flow margin of 9.1%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with LH, ACHC and CI, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 50/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "DaVita Inc. produced $14.2B of trailing revenue at a 15.0% operating margin and a 9.1% free-cash-flow margin. Net debt of $10.1B, or 3.6x EBITDA, is the constraint that shapes the equity story.",
+      "Analysts contributing to the third-party consensus carry a $222.29 mean target as of 2026-11-25, 34.9% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target.",
+      "The factor percentiles put valuation at 92/100 and balance sheet at 13/100, with the composite averaging 50/100. The average hides a strong valuation reading and a weak balance sheet one, which is why the spread is the more useful description."
     ],
     "questions": [
-      "How much of growth is volume versus price?",
-      "When do the largest patents expire?",
-      "What does a negative reimbursement decision cost?",
-      "How durable is the clinical advantage?"
+      "How much of growth is volume versus rate?",
+      "What happens if reimbursement is cut?",
+      "How dependent is the model on labor supply?",
+      "What does a higher-acuity mix do to margins?"
     ]
   }
 };

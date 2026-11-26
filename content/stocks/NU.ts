@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const NU: StockStory = {
   "ticker": "NU",
   "kicker": "Internet Platforms · Banks - Regional",
-  "title": "Nu Holdings Ltd. turns $11.5B of revenue into n/a of free cash flow",
-  "dek": "Nu Holdings Ltd. generated $11.5B of trailing revenue with an operating margin of n/a. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Nu Holdings Ltd: A Latin American digital bank",
+  "dek": "Nu Holdings Ltd. reported $11.5B of trailing revenue at a n/a operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $11.5B trailing twelve months, +43.4% year over year.",
@@ -13,27 +13,27 @@ export const NU: StockStory = {
     "Valuation: 30.2x trailing earnings and no meaningful EV/EBITDA multiple at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
   "irUrl": "https://nubank.com.br",
   "bigPicture": {
     "paragraphs": [
-      "Nu Holdings Ltd. generated $11.5B of revenue over the last twelve months, +43.4% versus the prior year. A dated quarterly result is not available in the current dataset. The shares closed at $12.32 on Nov 25, 2026, giving a market capitalization of $59.6B.",
-      "The business is judged on whether it can keep converting a technical advantage into recurring revenue. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $59.6B, or 30.2x trailing earnings and no meaningful EV/EBITDA multiple. The shares sit 14% of the way up their 52-week range ($11.20 to $18.98). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Nu Holdings Ltd. generated $11.5B of revenue over the last twelve months, +43.4% versus the prior year. Quarterly detail is missing, so the trailing figures carry the analysis. The shares closed at $12.32 on Nov 25, 2026, giving a market capitalization of $59.6B.",
+      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. A regional breakdown is missing from the current filing extract, so the analysis stays at the consolidated level.",
+      "At the latest close the equity is valued at $59.6B, or 30.2x trailing earnings and no meaningful EV/EBITDA multiple. The shares sit 14% of the way up their 52-week range ($11.20 to $18.98). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "NU is an Internet Platforms business with $11.5B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Nu Holdings is a Latin American digital bank, so customer growth, deposit funding and credit quality drive the earnings model."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Nu Holdings Ltd. provides digital banking platform in Brazil, Mexico, Colombia, the Cayman Islands, and the United States. Nu Holdings Ltd. is an Internet Platforms company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs an undisclosed number of people, and its coverage group is Internet Platforms.",
-      "The comparison set includes BABA, BIDU and CART. Nu Holdings Ltd. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Nu Holdings Ltd. provides digital banking platform in Brazil, Mexico, Colombia, the Cayman Islands, and the United States. It reports in the Financial Services sector and is classified in Internet Platforms coverage.",
+      "Revenue is reported at the consolidated level only. The filing extract does not include a headcount figure. With $11.5B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "FITB, HBAN and KEY provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
         "title": "Revenue base",
-        "detail": "$11.5B on a trailing-twelve-month basis, with the latest quarter at no dated quarter."
+        "detail": "$11.5B on a trailing-twelve-month basis; a dated quarter is not available in the dataset."
       },
       {
         "title": "Profitability",
@@ -47,114 +47,114 @@ export const NU: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 45.6%, operating margin is n/a and net margin is 17.1%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $7.5B of net cash. Return on invested capital was n/a and return on equity was 25.8%."
+      "The company kept 45.6% of revenue after cost of sales, or $5.3B. Operating expenses absorbed n/a of revenue, leaving a n/a operating margin. The operating layer is where the gross profit is either protected or spent.",
+      "The balance sheet carries $7.5B of net cash. Return on invested capital was n/a and return on equity was 25.8%. A return on invested capital is not available in the dataset, so margin and cash conversion carry the quality assessment."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 79.8% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of n/a and return on invested capital of n/a are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 79.8% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. Current-year estimates call for $23.1B of revenue and $0.85 of EPS.",
+      "The operating margin of n/a and return on invested capital of n/a are the filters to watch as revenue scales. The 43.4% revenue pace and n/a margin have to move together for the earnings path to improve."
     ],
     "bullets": [
       {
-        "title": "Product cycle",
-        "detail": "New products and platform transitions create refresh demand and pricing power. For Nu Holdings Ltd., the relevant evidence is revenue growth of +43.4%. That is the metric to track in the next filing."
+        "title": "User and engagement growth",
+        "detail": "Revenue growth is +43.4%. The direction of travel matters more than the absolute level."
       },
       {
-        "title": "Customer expansion",
-        "detail": "Land-and-expand selling raises revenue per existing customer and lengthens the relationship. For Nu Holdings Ltd., the relevant evidence is an operating margin of n/a. That is the metric to track in the next filing."
+        "title": "Take rate",
+        "detail": "The share of transaction value retained determines revenue per unit of GMV. The operating margin is n/a."
       },
       {
-        "title": "Operating leverage",
-        "detail": "Incremental revenue can carry high gross margins once development and sales costs are in place. For Nu Holdings Ltd., the relevant evidence is a return on invested capital of n/a."
+        "title": "Adjacent services",
+        "detail": "Return on invested capital is n/a. Advertising, logistics, payments and subscriptions can lift revenue per user."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from n/a in FY2019 to n/a in FY2024. The trailing operating margin is n/a, the net margin is 17.1% and diluted EPS is $0.40.",
-      "Return on equity was 25.8% and return on invested capital was n/a. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is n/a, the net margin is 17.1% and diluted EPS is $0.40.",
+      "Return on equity was 25.8% and return on invested capital was n/a. The dataset does not carry both return measures, leaving margin and cash conversion as the comparison. Both should be read against the company's own history before they are compared with a peer median."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was n/a, a n/a margin. The balance sheet carries $7.5B of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $0 in the latest fiscal year."
+      "Free cash flow over the trailing period was n/a, a n/a margin. The balance sheet carries $7.5B of net cash. Capex absorbed n/a of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow was $2.4B, or 121.6% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $0 in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 30.2x trailing earnings, no meaningful EV/EBITDA multiple and 4.5x EV/sales. The free-cash-flow yield is n/a. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BABA, BIDU and CART; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 30.2x trailing earnings, no meaningful EV/EBITDA multiple and 4.5x EV/sales. The free-cash-flow yield is n/a. Inverting the P/E gives an earnings yield of 3.3%; the cash-flow yield is n/a.",
+      "The peer comparison sets the company against FITB, HBAN and KEY; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "23 analysts contribute to the third-party consensus. The mean target is $17.41, with a range of $12.00 to $23.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $23.1B of revenue and $0.85 of EPS. The estimate revisions in the dataset are 0.1% over 30 days and 1.0% over 90 days. The estimate is consistent with growth of 101.0% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Technology substitution",
+        "title": "Competition for users",
         "severity": "High",
-        "detail": "A faster or cheaper architecture can reset the competitive position quickly.",
-        "watch": "Product roadmaps, design wins and customer concentration."
+        "detail": "Switching costs are low and new formats can take attention quickly.",
+        "watch": "Monthly users, engagement and churn."
       },
       {
-        "title": "Customer concentration",
+        "title": "Take-rate pressure",
         "severity": "High",
-        "detail": "A small number of large buyers can swing revenue and pricing.",
-        "watch": "Top-customer disclosures and order trends."
+        "detail": "Merchants and users can push back on fees.",
+        "watch": "Take rate and merchant retention."
+      },
+      {
+        "title": "Regulation",
+        "severity": "Medium",
+        "detail": "Platform, privacy and gig-labour rules can change the model.",
+        "watch": "Regulatory actions and market-by-market rules."
+      },
+      {
+        "title": "Profitability",
+        "severity": "Medium",
+        "detail": "Growth can be bought with incentives that disappear when spending slows.",
+        "watch": "Contribution margin and sales efficiency."
       },
       {
         "title": "Valuation",
         "severity": "Medium",
-        "detail": "High expectations leave less room for a growth disappointment.",
-        "watch": "Forward estimates versus the current multiple."
-      },
-      {
-        "title": "Supply chain",
-        "severity": "Medium",
-        "detail": "Advanced components and manufacturing capacity can constrain shipments.",
-        "watch": "Lead times, inventory and supplier concentration."
-      },
-      {
-        "title": "Regulation and export controls",
-        "severity": "Medium",
-        "detail": "Cross-border rules can remove addressable market or raise compliance costs.",
-        "watch": "Export-licence changes and geographic mix."
+        "detail": "High multiples assume durable user growth and take rate.",
+        "watch": "Forward revenue and margin guidance."
       }
     ],
     "watchlist": [
       {
-        "title": "Growth durability",
-        "detail": "Compare revenue growth with the prior four quarters."
+        "title": "GMV and take rate",
+        "detail": "Separate transaction growth from the share retained."
       },
       {
-        "title": "Gross margin",
-        "detail": "A falling gross margin can signal pricing pressure or a richer hardware mix."
+        "title": "User growth",
+        "detail": "Net adds and engagement show whether the audience is durable."
       },
       {
-        "title": "Customer concentration",
-        "detail": "Track large-customer disclosures and order momentum."
+        "title": "Contribution margin",
+        "detail": "Unit economics reveal whether growth creates value."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Nu Holdings Ltd. is an Internet Platforms company with $11.5B of trailing revenue, an operating margin of n/a and a free-cash-flow margin of n/a. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BABA, BIDU and CART, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 49/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Nu Holdings Ltd. produced $11.5B of trailing revenue at a n/a operating margin and a n/a free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
+      "The consensus target is $17.41 as of 2026-11-25, 41.2% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put growth at 86/100 and cash generation at 14/100, with the composite averaging 49/100. The gap between growth at 86/100 and cash generation at 14/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
-      "How much of growth is volume versus price?",
-      "What would a pause in customer spending do to margins?",
-      "Is the product advantage durable or one cycle long?",
-      "How much of the valuation depends on the next product cycle?"
+      "How much growth is users versus take rate?",
+      "What does a slowdown in incentives do to volume?",
+      "How defensible is the audience?",
+      "When does the platform reach durable profit?"
     ]
   }
 };

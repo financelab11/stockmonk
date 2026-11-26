@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const KOD: StockStory = {
   "ticker": "KOD",
   "kicker": "Pharma & Biotech · Biotechnology",
-  "title": "What Kodiak Sciences Inc.'s latest filings reveal about growth, margins and cash",
-  "dek": "Kodiak Sciences Inc. is a pre-revenue or early-revenue company. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Kodiak Sciences Inc: A clinical-stage retinal-disease biotech with no product revenue",
+  "dek": "Kodiak Sciences Inc. reported $0 of trailing revenue at a n/a operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: no revenue reported over the trailing twelve months.",
@@ -13,22 +13,22 @@ export const KOD: StockStory = {
     "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1468748/000119312526134887/kod-20251231.htm",
   "irUrl": "https://kodiak.com",
   "bigPicture": {
     "paragraphs": [
       "Kodiak Sciences Inc. reported no revenue over the last twelve months. The latest reported quarter was Q3 FY26, with $0 of revenue and a n/a operating margin. The shares closed at $109.99 on Nov 25, 2026, giving a market capitalization of $7.2B.",
-      "The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $7.2B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 94% of the way up their 52-week range ($20.88 to $115.91). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. The company does not disclose revenue by region in the current extract.",
+      "At the latest close the equity is valued at $7.2B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 94% of the way up their 52-week range ($20.88 to $115.91). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
     ],
-    "quote": "KOD is a Pharma & Biotech business with $0 of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Kodiak is a clinical-stage retinal-disease biotech with no product revenue, so the investment case is a binary bet on its durability data and cash runway."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Kodiak Sciences Inc. , a clinical stage biopharmaceutical company, engages in the research, development, and commercialization of therapeutics to treat retinal diseases. Kodiak Sciences Inc. is a Pharma & Biotech company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 144 people, and its coverage group is Pharma & Biotech.",
-      "The comparison set includes BIIB, ETON and GILD. Kodiak Sciences Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Kodiak Sciences Inc., a clinical stage biopharmaceutical company, engages in the research, development, and commercialization of therapeutics to treat retinal diseases. Kodiak Sciences Inc. is a Biotechnology company within the Pharma & Biotech coverage group.",
+      "There is no separate segment disclosure in the current extract. The company employed 144 people at the last reporting date. The revenue base is $0 on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "The peer set is VRTX, REGN and VKTX; similar businesses can earn very different returns on capital, which is the comparison that matters."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const KOD: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is n/a and net margin is n/a. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $87.9M of net cash. Return on invested capital was -1481.0% and return on equity was -1962.8%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of n/a is the first clean profitability line. The value sits in a small number of programmes and patents, so clinical data, label scope and loss-of-exclusivity timing matter more than the current quarter.",
+      "The balance sheet carries $87.9M of net cash. Return on invested capital was -1481.0% and return on equity was -1962.8%. Until the return turns positive, additional capital is a cost rather than an investment."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at n/a a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of n/a and return on invested capital of -1481.0% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at n/a a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. Current-year estimates call for $0 of revenue and -$4.00 of EPS.",
+      "The operating margin of n/a and return on invested capital of -1481.0% are the filters to watch as revenue scales. The dataset does not carry a clean trailing growth rate, so the annual record is the better guide."
     ],
     "bullets": [
       {
-        "title": "Clinical data",
-        "detail": "Efficacy and safety readouts determine the programme's value. For Kodiak Sciences Inc., the relevant evidence is revenue growth of not available. That is the metric to track in the next filing."
+        "title": "Launch execution",
+        "detail": "New therapies need payer coverage, prescriber adoption and manufacturing scale. The current reading: revenue growth is not available."
       },
       {
-        "title": "Regulatory path",
-        "detail": "Approval and label scope decide the commercial opportunity. For Kodiak Sciences Inc., the relevant evidence is an operating margin of n/a. That is the metric to track in the next filing."
+        "title": "Pipeline readouts",
+        "detail": "The operating margin is n/a. That is the number to compare with the company's own history."
       },
       {
-        "title": "Partnerships",
-        "detail": "Collaborations can fund development and validate the science. For Kodiak Sciences Inc., the relevant evidence is a return on invested capital of -1481.0%. That is the metric to track in the next filing."
+        "title": "Patent duration",
+        "detail": "The remaining exclusivity period determines how long the cash flow lasts. Return on invested capital is -1481.0%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from n/a in FY2018 to n/a in FY2025. The trailing operating margin is n/a, the net margin is n/a and diluted EPS is -$4.08.",
-      "Return on equity was -1962.8% and return on invested capital was -1481.0%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is n/a, the net margin is n/a and diluted EPS is -$4.08.",
+      "Return on equity was -1962.8% and return on invested capital was -1481.0%. Both returns are negative, so the question is whether the operating losses are a scale problem or a structural one."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$172.8M, a n/a margin. The balance sheet carries $87.9M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $506K in the latest fiscal year."
+      "Free cash flow over the trailing period was -$172.8M, a n/a margin. The balance sheet carries $87.9M of net cash. With capital spending at n/a of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow and net income are not both available on a comparable basis. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $506K in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and no meaningful EV/sales multiple. The free-cash-flow yield is -2.4%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BIIB, ETON and GILD; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and no meaningful EV/sales multiple. The free-cash-flow yield is -2.4%. Without a meaningful earnings multiple, the cash-flow yield and the asset base carry more of the valuation work.",
+      "The peer comparison sets the company against VRTX, REGN and VKTX; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "6 analysts contribute to the third-party consensus. The mean target is $130.17, with a range of $103.00 to $150.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $0 of revenue and -$4.00 of EPS. The estimate revisions in the dataset are 0.5% over 30 days and 1.3% over 90 days. If met, the estimate would mean growth of 0.0% from the current base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Trial failure",
+        "title": "Clinical failure",
         "severity": "High",
-        "detail": "A negative readout can remove most of the equity value.",
+        "detail": "A negative trial can remove most of a programme's value.",
         "watch": "Trial endpoints and readout timing."
       },
       {
-        "title": "Cash runway",
+        "title": "Patent cliff",
         "severity": "High",
-        "detail": "Development costs can force financing.",
-        "watch": "Cash and quarterly burn."
+        "detail": "Loss of exclusivity can reset revenue faster than a new launch replaces it.",
+        "watch": "Patent expiry schedule and generic entry."
       },
       {
-        "title": "Reimbursement",
+        "title": "Pricing and reimbursement",
         "severity": "Medium",
-        "detail": "Payer coverage determines commercial uptake.",
-        "watch": "Pricing and payer decisions."
+        "detail": "Payer coverage and drug-pricing rules can cap revenue per patient.",
+        "watch": "Net price, payer mix and policy changes."
       },
       {
         "title": "Competition",
         "severity": "Medium",
-        "detail": "A better therapy can arrive first or be priced lower.",
+        "detail": "A better or cheaper therapy can take share quickly.",
         "watch": "Competitor data and launch timing."
       },
       {
-        "title": "Dilution",
+        "title": "Manufacturing and safety",
         "severity": "Medium",
-        "detail": "Equity raises fund trials and manufacturing.",
-        "watch": "Share count and financing terms."
+        "detail": "Supply or safety issues can limit a launch.",
+        "watch": "Supply disclosures and adverse events."
       }
     ],
     "watchlist": [
       {
-        "title": "Cash runway",
-        "detail": "The number of quarters funded is a hard constraint."
+        "title": "Launch metrics",
+        "detail": "Prescriptions, payer coverage and inventory reveal the real launch curve."
       },
       {
-        "title": "Trial readouts",
-        "detail": "Binary events drive the equity."
+        "title": "Patent timing",
+        "detail": "The next loss-of-exclusivity date is the hard constraint on the cash flow."
       },
       {
-        "title": "Partner validation",
-        "detail": "A credible partner can de-risk the programme."
+        "title": "Pipeline readouts",
+        "detail": "Late-stage data is the main driver of the out-year value."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Kodiak Sciences Inc. is a Pharma & Biotech company with $0 of trailing revenue, an operating margin of n/a and a free-cash-flow margin of n/a. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BIIB, ETON and GILD, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 41/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Kodiak Sciences Inc. produced $0 of trailing revenue at a n/a operating margin and a n/a free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
+      "Third-party analysts put the mean target at $130.17 as of 2026-11-25, 18.3% above the latest close; this report does not publish a target of its own. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
+      "The factor percentiles put valuation at 100/100 and profitability at 8/100, with the composite averaging 41/100. The average hides a strong valuation reading and a weak profitability one, which is why the spread is the more useful description."
     ],
     "questions": [
-      "How many quarters of cash remain?",
-      "What is the next binary readout?",
-      "How large is the addressable market?",
-      "What does a failed trial leave behind?"
+      "When does the largest patent expire?",
+      "What does a negative trial leave behind?",
+      "How broad is the reimbursement label?",
+      "How much of the valuation is the pipeline?"
     ]
   }
 };

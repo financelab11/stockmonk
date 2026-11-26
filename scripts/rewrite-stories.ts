@@ -163,6 +163,12 @@ function buildBundle(
     prices: [],
     pricesMax: prices,
     factors: buildFullFactorScores(companies, ticker),
+    peerCandidates: companies
+      .filter(
+        (company) =>
+          company.ticker !== ticker && company.industry === data.industry,
+      )
+      .map((company) => company.ticker),
     cagr: computeCagr(data.annual),
     latestQYoY: latestQuarterYoY(data),
     rangePosition: rangePosition(

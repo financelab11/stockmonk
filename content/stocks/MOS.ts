@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const MOS: StockStory = {
   "ticker": "MOS",
   "kicker": "Materials & Mining · Agricultural Inputs",
-  "title": "The Mosaic Company at an incomplete earnings multiple: what the filings support",
-  "dek": "The Mosaic Company generated $11.9B of trailing revenue with an operating margin of -5.1%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "The Mosaic Company: Phosphate and potash fertiliser",
+  "dek": "The Mosaic Company reported $11.9B of trailing revenue at a -5.1% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $11.9B trailing twelve months, +0.0% year over year.",
@@ -13,22 +13,22 @@ export const MOS: StockStory = {
     "Valuation: no meaningful trailing earnings multiple and 21.4x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm",
   "irUrl": "https://www.mosaicco.com",
   "bigPicture": {
     "paragraphs": [
       "The Mosaic Company generated $11.9B of revenue over the last twelve months, +0.0% versus the prior year. The latest reported quarter was Q3 FY26, with $3.1B of revenue and a -3.1% operating margin. The shares closed at $20.32 on Nov 25, 2026, giving a market capitalization of $6.5B.",
-      "Revenue and margins move with commodity prices, volumes and the cost of energy and feedstock. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $6.5B, or no meaningful trailing earnings multiple and 21.4x EV/EBITDA. The shares sit 22% of the way up their 52-week range ($16.99 to $32.25). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Mosaic Fertilizantes contributes 40.2% of the disclosed revenue mix. By geography, Total Foreign is the largest disclosed market at 64.1% of revenue. The Mosaic Company competes in Agricultural Inputs, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $6.5B, or no meaningful trailing earnings multiple and 21.4x EV/EBITDA. The shares sit 22% of the way up their 52-week range ($16.99 to $32.25). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "MOS is a Materials & Mining business with $11.9B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Mosaic produces phosphate and potash fertiliser, a commodity business where crop prices, nutrient affordability and plant utilisation drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "The Mosaic Company, through its subsidiaries, produces and markets concentrated phosphate and potash crop nutrients. It operates in three segments: Phosphates, Potash, and Mosaic Fertilizantes. The Mosaic Company is a Materials & Mining company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 13,249 people, and its coverage group is Materials & Mining.",
-      "The comparison set includes AEM, ALB and APD. The Mosaic Company is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "The Mosaic Company, through its subsidiaries, produces and markets concentrated phosphate and potash crop nutrients. It operates in three segments: Phosphates, Potash, and Mosaic Fertilizantes. It reports in the Basic Materials sector and is classified in Materials & Mining coverage.",
+      "The disclosed mix runs across Mosaic Fertilizantes at 40.2%, Phosphates at 32.2% and Potash at 22.1%. Its latest filing lists 13,249 employees. Trailing revenue is $11.9B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "CF, CTVA and FMC provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,62 +47,62 @@ export const MOS: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 7.4%, operating margin is -5.1% and net margin is -9.4%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $5.6B, or 9.9x EBITDA. Return on invested capital was -2.8% and return on equity was -9.9%."
+      "Of $11.9B of revenue, $877M remained after cost of sales. The 12.5% operating-expense load brought that down to a -5.1% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "Net debt is $5.6B, or 9.9x EBITDA. Return on invested capital was -2.8% and return on equity was -9.9%. Negative returns make the growth question secondary to the profitability question."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.3% a year across the fiscal years in the dataset, and the latest quarter changed -10.2% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of -5.1% and return on invested capital of -2.8% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 3.3% a year across the fiscal years in the dataset, and the latest quarter changed -10.2% year over year. Current-year estimates call for $12.1B of revenue and -$0.24 of EPS.",
+      "The operating margin of -5.1% and return on invested capital of -2.8% are the filters to watch as revenue scales. Neither the 0.0% growth nor the -5.1% margin is extreme; the combination is what matters."
     ],
     "bullets": [
       {
         "title": "Volume",
-        "detail": "Shipments show underlying industrial demand. For The Mosaic Company, the relevant evidence is revenue growth of +0.0%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +0.0%. A change in that figure would be the first signal of a shift."
       },
       {
         "title": "Price and mix",
-        "detail": "Product mix and pricing determine margin per ton. For The Mosaic Company, the relevant evidence is an operating margin of -5.1%. That is the metric to track in the next filing."
+        "detail": "Product mix and pricing determine margin per ton. The operating margin is -5.1%."
       },
       {
         "title": "Cost position",
-        "detail": "Low-cost assets can earn through the cycle. For The Mosaic Company, the relevant evidence is a return on invested capital of -2.8%. That is the metric to track in the next filing."
+        "detail": "Return on invested capital is -2.8%. Low-cost assets can earn through the cycle."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 9.7% in FY2018 to 6.8% in FY2025. The trailing operating margin is -5.1%, the net margin is -9.4% and diluted EPS is -$3.53.",
-      "Return on equity was -9.9% and return on invested capital was -2.8%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was -9.9% and return on invested capital was -2.8%. The losses show up in both return measures, which points to the income statement rather than the capital structure."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$808.3M, a -6.8% margin. Net debt is $5.6B, or 9.9x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $1.4B in the latest fiscal year."
+      "Free cash flow over the trailing period was -$808.3M, a -6.8% margin. Net debt is $5.6B, or 9.9x EBITDA. Capital expenditure was 11.4% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow was $824.8M, or 152.5% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $1.4B in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, 21.4x EV/EBITDA and 1.0x EV/sales. The free-cash-flow yield is -12.5%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against AEM, ALB and APD; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, 21.4x EV/EBITDA and 1.0x EV/sales. The free-cash-flow yield is -12.5%. Earnings are not a useful anchor here, so the free-cash-flow yield is the cleaner valuation reference.",
+      "The peer comparison sets the company against CF, CTVA and FMC; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "18 analysts contribute to the third-party consensus. The mean target is $25.17, with a range of $18.00 to $35.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $12.1B of revenue and -$0.24 of EPS. The estimate revisions in the dataset are -170.2% over 30 days and -157.9% over 90 days. The estimate is consistent with growth of 1.3% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Commodity cycle",
+        "title": "Leverage",
         "severity": "High",
-        "detail": "Prices can fall faster than costs.",
-        "watch": "Realised prices and inventory."
+        "detail": "Net debt is $5.6B, or 9.9x EBITDA, which leaves the equity sensitive to refinancing costs and a slower cash flow.",
+        "watch": "Leverage, interest cover and the maturity profile."
       },
       {
         "title": "Input costs",
@@ -146,9 +146,9 @@ export const MOS: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "The Mosaic Company is a Materials & Mining company with $11.9B of trailing revenue, an operating margin of -5.1% and a free-cash-flow margin of -6.8%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with AEM, ALB and APD, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 20/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "The Mosaic Company produced $11.9B of trailing revenue at a -5.1% operating margin and a -6.8% free-cash-flow margin. The 9.9x EBITDA leverage means debt reduction competes with reinvestment for the cash flow.",
+      "18 analysts in the third-party survey average $25.17 as of 2026-11-25, 23.9% above the latest close; the figure belongs to the analysts who published it, not to this report. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put valuation at 69/100 and balance sheet at 1/100, with the composite averaging 20/100. A 69/100 valuation score against a 1/100 balance sheet score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
       "What is the mid-cycle margin?",

@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const DNN: StockStory = {
   "ticker": "DNN",
   "kicker": "Materials & Mining · Uranium",
-  "title": "Denison Mines Corp.: a materials & mining business with +28.1% revenue growth",
-  "dek": "Denison Mines Corp. generated $3.6M of trailing revenue with an operating margin of -1247.5%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Denison Mines Corp: A pre-revenue uranium developer",
+  "dek": "Denison Mines Corp. reported $3.6M of trailing revenue at a -1247.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $3.6M trailing twelve months, +28.1% year over year.",
@@ -13,27 +13,27 @@ export const DNN: StockStory = {
     "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1063259/000094523405000896/o17695e20vf.txt",
   "irUrl": "https://denisonmines.com",
   "bigPicture": {
     "paragraphs": [
-      "Denison Mines Corp. generated $3.6M of revenue over the last twelve months, +28.1% versus the prior year. A dated quarterly result is not available in the current dataset. The shares closed at $1.76 on Nov 25, 2026, giving a market capitalization of $1.6B.",
-      "Revenue and margins move with commodity prices, volumes and the cost of energy and feedstock. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $1.6B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 5% of the way up their 52-week range ($1.63 to $4.43). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Denison Mines Corp. generated $3.6M of revenue over the last twelve months, +28.1% versus the prior year. The latest quarter is not in the dataset; the annual and trailing numbers are the evidence. The shares closed at $1.76 on Nov 25, 2026, giving a market capitalization of $1.6B.",
+      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. Geographic revenue detail is not available in the current dataset. Denison Mines Corp. competes in Uranium, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $1.6B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 5% of the way up their 52-week range ($1.63 to $4.43). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
     ],
-    "quote": "DNN is a Materials & Mining business with $3.6M of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Denison is a pre-revenue uranium developer, so the value is an option on the Wheeler River project and the uranium price."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Denison Mines Corp. engages in the acquisition, exploration, and development of uranium bearing properties in Canada. Denison Mines Corp. is a Materials & Mining company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs an undisclosed number of people, and its coverage group is Materials & Mining.",
-      "The comparison set includes AEM, ALB and APD. Denison Mines Corp. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Denison Mines Corp. engages in the acquisition, exploration, and development of uranium bearing properties in Canada. Denison Mines Corp. sits in the Uranium industry, one of the Materials & Mining names in this library.",
+      "The filing extract carries no product-line revenue split. Headcount is not disclosed in the current dataset. Trailing revenue is $3.6M, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "The closest listed comparisons are UEC, LEU and CCJ; the useful question is how Denison Mines Corp.'s margin and returns compare with theirs, not how fast the addressable market is growing."
     ],
     "bullets": [
       {
         "title": "Revenue base",
-        "detail": "$3.6M on a trailing-twelve-month basis, with the latest quarter at no dated quarter."
+        "detail": "$3.6M on a trailing-twelve-month basis; a dated quarter is not available in the dataset."
       },
       {
         "title": "Profitability",
@@ -47,62 +47,62 @@ export const DNN: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is -1247.5% and net margin is -4418.2%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $340.2M of net cash. Return on invested capital was -10.7% and return on equity was -59.0%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of -1247.5% is the first clean profitability line. Revenue and margins move with commodity prices, volumes and the cost of energy and feedstock.",
+      "The balance sheet carries $340.2M of net cash. Return on invested capital was -10.7% and return on equity was -59.0%. A negative return on invested capital means the business is consuming capital rather than earning on it."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -30.8% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of -1247.5% and return on invested capital of -10.7% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at -30.8% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. Current-year estimates call for $14.3M of revenue and -$0.06 of EPS.",
+      "The operating margin of -1247.5% and return on invested capital of -10.7% are the filters to watch as revenue scales. Growth of 28.1% is outrunning the -1247.5% operating margin, so the question is whether scale eventually pays for itself."
     ],
     "bullets": [
       {
         "title": "Volume",
-        "detail": "Shipments show underlying industrial demand. For Denison Mines Corp., the relevant evidence is revenue growth of +28.1%. That is the metric to track in the next filing."
+        "detail": "Shipments show underlying industrial demand. Revenue growth is +28.1%."
       },
       {
         "title": "Price and mix",
-        "detail": "Product mix and pricing determine margin per ton. For Denison Mines Corp., the relevant evidence is an operating margin of -1247.5%. That is the metric to track in the next filing."
+        "detail": "The operating margin is -1247.5%. Product mix and pricing determine margin per ton."
       },
       {
         "title": "Cost position",
-        "detail": "Low-cost assets can earn through the cycle. For Denison Mines Corp., the relevant evidence is a return on invested capital of -10.7%. That is the metric to track in the next filing."
+        "detail": "Low-cost assets can earn through the cycle. The current reading: return on invested capital is -10.7%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 107.9% in FY2021 to -1247.5% in FY2025. The trailing operating margin is -1247.5%, the net margin is -4418.2% and diluted EPS is not available.",
-      "Return on equity was -59.0% and return on invested capital was -10.7%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is -1247.5%, the net margin is -4418.2% and diluted EPS is not available.",
+      "Return on equity was -59.0% and return on invested capital was -10.7%. The negative returns mean leverage is not the issue; the operating model is. The trend in these returns matters more than a single year's level."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$86.6M, a -2412.4% margin. The balance sheet carries $340.2M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $36.9M in the latest fiscal year."
+      "Free cash flow over the trailing period was -$86.6M, a -2412.4% margin. The balance sheet carries $340.2M of net cash. Capital expenditure was 1026.8% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow and net income are not both available on a comparable basis. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $36.9M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 350.3x EV/sales. The free-cash-flow yield is -5.4%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against AEM, ALB and APD; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 350.3x EV/sales. The free-cash-flow yield is -5.4%. Without a meaningful earnings multiple, the cash-flow yield and the asset base carry more of the valuation work.",
+      "The peer comparison sets the company against UEC, LEU and CCJ; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "3 analysts contribute to the third-party consensus. The mean target is $4.27, with a range of $3.48 to $5.67. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $14.3M of revenue and -$0.06 of EPS. The estimate revisions in the dataset are -47.7% over 30 days and -40.7% over 90 days. That implies growth of 297.4% over the trailing twelve months."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Commodity cycle",
+        "title": "Operating losses",
         "severity": "High",
-        "detail": "Prices can fall faster than costs.",
-        "watch": "Realised prices and inventory."
+        "detail": "The trailing operating margin is -1247.5%, which means the current cost base is not covered by revenue.",
+        "watch": "Path to operating breakeven and cash runway."
       },
       {
         "title": "Input costs",
@@ -146,9 +146,9 @@ export const DNN: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Denison Mines Corp. is a Materials & Mining company with $3.6M of trailing revenue, an operating margin of -1247.5% and a free-cash-flow margin of -2412.4%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with AEM, ALB and APD, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 45/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Denison Mines Corp. produced $3.6M of trailing revenue at a -1247.5% operating margin and a -2412.4% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
+      "The third-party consensus mean is $4.27 as of 2026-11-25, 141.7% above the latest close; it is a consensus view, not a recommendation from Stockmonk. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put valuation at 100/100 and cash generation at 1/100, with the composite averaging 45/100. A 100/100 valuation score against a 1/100 cash generation score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
       "What is the mid-cycle margin?",

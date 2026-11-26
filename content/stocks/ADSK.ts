@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const ADSK: StockStory = {
   "ticker": "ADSK",
   "kicker": "Enterprise Software · Software - Application",
-  "title": "Autodesk, Inc.: +17.9% growth, 36.4% free cash flow and the price being paid",
-  "dek": "Autodesk, Inc. generated $7.8B of trailing revenue with an operating margin of 26.2%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Autodesk, Inc: Design software into construction",
+  "dek": "Autodesk, Inc. reported $7.8B of trailing revenue at a 26.2% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $7.8B trailing twelve months, +17.9% year over year.",
@@ -13,22 +13,22 @@ export const ADSK: StockStory = {
     "Valuation: 32.1x trailing earnings and 23.1x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/769397/000076939726000015/adsk-20260131.htm",
   "irUrl": "https://www.autodesk.com",
   "bigPicture": {
     "paragraphs": [
       "Autodesk, Inc. generated $7.8B of revenue over the last twelve months, +17.9% versus the prior year. The latest reported quarter was Q2 FY27, with $2B of revenue and a 29.3% operating margin. The shares closed at $252.30 on Nov 25, 2026, giving a market capitalization of $52.7B.",
-      "The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $52.7B, or 32.1x trailing earnings and 23.1x EV/EBITDA. The shares sit 50% of the way up their 52-week range ($185.50 to $320.00). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. By geography, Americas is the largest disclosed market at 44.1% of revenue. The moat is the file format and workflow lock-in: designs, models and project histories live inside Autodesk tools.",
+      "At the latest close the equity is valued at $52.7B, or 32.1x trailing earnings and 23.1x EV/EBITDA. The shares sit 50% of the way up their 52-week range ($185.50 to $320.00). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "ADSK is an Enterprise Software business with $7.8B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Autodesk sells design software into construction, manufacturing and media, so its growth depends on customer design activity and subscription expansion. The multiple assumes durable double-digit growth and margin expansion; either one slipping would compress it."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Autodesk, Inc. engages in the provision of 3D design, engineering, and entertainment technology solutions worldwide. Autodesk, Inc. is an Enterprise Software company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 14,300 people, and its coverage group is Enterprise Software.",
-      "The comparison set includes BILL, BOX and CHKP. Autodesk, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Autodesk, Inc. engages in the provision of 3D design, engineering, and entertainment technology solutions worldwide. It reports in the Technology sector and is classified in Enterprise Software coverage.",
+      "Revenue is reported at the consolidated level only. Its latest filing lists 14,300 employees. The revenue base is $7.8B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "CDNS, NOW and INTU provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,61 +47,61 @@ export const ADSK: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 91.2%, operating margin is 26.2% and net margin is 21.1%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $863M of net cash. Return on invested capital was 23.2% and return on equity was 48.5%."
+      "Gross margin is 91.2%, operating margin is 26.2% and net margin is 21.1%. Gross profit was $7.1B, and 65.0% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
+      "The balance sheet carries $863M of net cash. Return on invested capital was 23.2% and return on equity was 48.5%. That is comfortably above most cost-of-capital estimates, which is what lets reinvestment create value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 15.9% a year across the fiscal years in the dataset, and the latest quarter changed +16.1% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 26.2% and return on invested capital of 23.2% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 15.9% a year across the fiscal years in the dataset, and the latest quarter changed +16.1% year over year. Current-year estimates call for $8.3B of revenue and $12.61 of EPS.",
+      "The next catalyst is subscription renewals, cloud migration and evidence that AI features are monetizable. The operating margin of 26.2% and return on invested capital of 23.2% are the filters to watch as revenue scales. With a 26.2% margin, the growth rate matters less than whether the margin is repeatable."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. For Autodesk, Inc., the relevant evidence is revenue growth of +17.9%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +17.9%. Compare that with the prior year before drawing a conclusion."
       },
       {
         "title": "New customer adds",
-        "detail": "New logos broaden the base and fund future expansion. For Autodesk, Inc., the relevant evidence is an operating margin of 26.2%. That is the metric to track in the next filing."
+        "detail": "New logos broaden the base and fund future expansion. The operating margin is 26.2%."
       },
       {
         "title": "Operating leverage",
-        "detail": "Scale should improve margins as sales and R&D mature. For Autodesk, Inc., the relevant evidence is a return on invested capital of 23.2%. That is the metric to track in the next filing."
+        "detail": "Return on invested capital is 23.2%. Scale should improve margins as sales and R&D mature."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from -1.0% in FY2019 to 21.9% in FY2026. The trailing operating margin is 26.2%, the net margin is 21.1% and diluted EPS is $7.72.",
-      "Return on equity was 48.5% and return on invested capital was 23.2%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 48.5% and return on invested capital was 23.2%. Return on equity of 48.5% is well above the 23.2% return on invested capital; the difference is the balance sheet, not the business."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $2.8B, a 36.4% margin. The balance sheet carries $863M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $43M in the latest fiscal year."
+      "Free cash flow over the trailing period was $2.8B, a 36.4% margin. The balance sheet carries $863M of net cash. With capital spending at 0.6% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow was $2.5B, or 218.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $43M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 32.1x trailing earnings, 23.1x EV/EBITDA and 6.7x EV/sales. The free-cash-flow yield is 5.4%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BILL, BOX and CHKP; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 32.1x trailing earnings, 23.1x EV/EBITDA and 6.7x EV/sales. The free-cash-flow yield is 5.4%. The trailing earnings yield is 3.1%, against a free-cash-flow yield of 5.4%.",
+      "The multiple assumes durable double-digit growth and margin expansion; either one slipping would compress it. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "34 analysts contribute to the third-party consensus. The mean target is $309.60, with a range of $215.00 to $375.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $8.3B of revenue and $12.61 of EPS. The estimate revisions in the dataset are 0.0% over 30 days and 0.1% over 90 days. The estimate is consistent with growth of 6.9% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
     "items": [
       {
-        "title": "Competition",
+        "title": "The main risk",
         "severity": "High",
-        "detail": "Feature parity and bundling can pressure pricing.",
+        "detail": "A construction or manufacturing slowdown can reduce seat growth, and AI-native design tools could change the workflow.",
         "watch": "Win rates and average contract value."
       },
       {
@@ -146,9 +146,9 @@ export const ADSK: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Autodesk, Inc. is an Enterprise Software company with $7.8B of trailing revenue, an operating margin of 26.2% and a free-cash-flow margin of 36.4%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BILL, BOX and CHKP, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 69/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Autodesk, Inc. produced $7.8B of trailing revenue at a 26.2% operating margin and a 36.4% free-cash-flow margin. The business converts an unusually large share of revenue into cash, and the multiple depends on that continuing.",
+      "Analysts contributing to the third-party consensus carry a $309.60 mean target as of 2026-11-25, 22.7% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target.",
+      "The factor percentiles put cash generation at 91/100 and valuation at 33/100, with the composite averaging 69/100. The average hides a strong cash generation reading and a weak valuation one, which is why the spread is the more useful description."
     ],
     "questions": [
       "How much growth comes from existing customers?",

@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const NXT: StockStory = {
   "ticker": "NXT",
   "kicker": "Power & Renewables · Solar",
-  "title": "Nextpower Inc. earns an operating margin of 19.0% on $3.8B of revenue",
-  "dek": "Nextpower Inc. generated $3.8B of trailing revenue with an operating margin of 19.0%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Nextpower Inc: Solar trackers and energy technology for utility-scale projects",
+  "dek": "Nextpower Inc. reported $3.8B of trailing revenue at a 19.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $3.8B trailing twelve months, +13.7% year over year.",
@@ -13,22 +13,22 @@ export const NXT: StockStory = {
     "Valuation: 16.8x trailing earnings and 12.1x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1852131/000185213126000017/nxt-20260331.htm",
   "irUrl": "https://www.nextpower.com",
   "bigPicture": {
     "paragraphs": [
-      "Nextpower Inc. generated $3.8B of revenue over the last twelve months, +13.7% versus the prior year. The latest reported quarter was Q2 FY27, with $1.1B of revenue and a 18.7% operating margin. The shares closed at $67.55 on Nov 25, 2026, giving a market capitalization of $10.3B.",
-      "Returns depend on regulated rates, capital investment and the cost of financing the asset base. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $10.3B, or 16.8x trailing earnings and 12.1x EV/EBITDA. The shares sit 4% of the way up their 52-week range ($63.17 to $163.13). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Nextpower Inc. generated $3.8B of revenue over the last twelve months, +13.7% versus the prior year. The latest reported quarter was Q2 FY27, with $1.1B of revenue and an 18.7% operating margin. The shares closed at $67.55 on Nov 25, 2026, giving a market capitalization of $10.3B.",
+      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. Geographically, United States leads at 76.7% of the disclosed split.",
+      "At the latest close the equity is valued at $10.3B, or 16.8x trailing earnings and 12.1x EV/EBITDA. The shares sit 4% of the way up their 52-week range ($63.17 to $163.13). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
     ],
-    "quote": "NXT is a Power & Renewables business with $3.8B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Nextpower makes solar trackers and energy technology for utility-scale projects, a project business where installations, steel costs and backlog drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Nextpower Inc. provides solar and energy technology solutions for utility-scale power plants in the United States and internationally. Nextpower Inc. is a Power & Renewables company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 1,993 people, and its coverage group is Power & Renewables.",
-      "The comparison set includes AEP, AES and ARRY. Nextpower Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Nextpower Inc. provides solar and energy technology solutions for utility-scale power plants in the United States and internationally. Nextpower Inc. is a Solar company within the Power & Renewables coverage group.",
+      "There is no separate segment disclosure in the current extract. The company employed 1,993 people at the last reporting date. With $3.8B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "The peer set is ARRY, ENPH and FSLR; similar businesses can earn very different returns on capital, which is the comparison that matters."
     ],
     "bullets": [
       {
@@ -47,56 +47,56 @@ export const NXT: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 33.0%, operating margin is 19.0% and net margin is 16.0%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $1B of net cash. Return on invested capital was 22.4% and return on equity was 23.2%."
+      "The company kept 33.0% of revenue after cost of sales, or $1.3B. Operating expenses absorbed 14.0% of revenue, leaving a 19.0% operating margin. The operating layer is where the gross profit is either protected or spent.",
+      "The balance sheet carries $1B of net cash. Return on invested capital was 22.4% and return on equity was 23.2%. That level earns well above a typical cost of capital."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 24.4% a year across the fiscal years in the dataset, and the latest quarter changed +22.5% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 19.0% and return on invested capital of 22.4% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 24.4% a year across the fiscal years in the dataset, and the latest quarter changed +22.5% year over year. Current-year estimates call for $4.4B of revenue and $4.77 of EPS.",
+      "The operating margin of 19.0% and return on invested capital of 22.4% are the filters to watch as revenue scales. The 13.7% revenue pace and 19.0% margin have to move together for the earnings path to improve."
     ],
     "bullets": [
       {
         "title": "Rate base growth",
-        "detail": "Approved capital investment earns a regulated return over time. For Nextpower Inc., the relevant evidence is revenue growth of +13.7%. That is the metric to track in the next filing."
+        "detail": "Approved capital investment earns a regulated return over time. The current reading: revenue growth is +13.7%."
       },
       {
         "title": "Load growth",
-        "detail": "Data centers and electrification can raise long-run demand. For Nextpower Inc., the relevant evidence is an operating margin of 19.0%. That is the metric to track in the next filing."
+        "detail": "The operating margin is 19.0%. The trend in that figure matters more than its level."
       },
       {
         "title": "Cost recovery",
-        "detail": "Rate cases determine whether higher costs are passed through. For Nextpower Inc., the relevant evidence is a return on invested capital of 22.4%. That is the metric to track in the next filing."
+        "detail": "Rate cases determine whether higher costs are passed through. Return on invested capital is 22.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 13.3% in FY2021 to 19.6% in FY2026. The trailing operating margin is 19.0%, the net margin is 16.0% and diluted EPS is $3.98.",
-      "Return on equity was 23.2% and return on invested capital was 22.4%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 23.2% and return on invested capital was 22.4%. With return on equity at 23.2% and return on invested capital at 22.4%, leverage is not the main driver of the gap."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $512.3M, a 13.4% margin. The balance sheet carries $1B of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $49.3M in the latest fiscal year."
+      "Free cash flow over the trailing period was $512.3M, a 13.4% margin. The balance sheet carries $1B of net cash. Capex absorbed 1.3% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow was $562.9M, or 96.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $49.3M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 16.8x trailing earnings, 12.1x EV/EBITDA and 2.4x EV/sales. The free-cash-flow yield is 5.0%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against AEP, AES and ARRY; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 16.8x trailing earnings, 12.1x EV/EBITDA and 2.4x EV/sales. The free-cash-flow yield is 5.0%. Inverting the P/E gives an earnings yield of 5.9%; the cash-flow yield is 5.0%.",
+      "The peer comparison sets the company against ARRY, ENPH and FSLR; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "29 analysts contribute to the third-party consensus. The mean target is $126.31, with a range of $70.00 to $164.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $4.4B of revenue and $4.77 of EPS. The estimate revisions in the dataset are -3.4% over 30 days and 2.5% over 90 days. If met, the estimate would mean growth of 14.1% from the current base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
         "title": "Regulatory outcomes",
@@ -146,9 +146,9 @@ export const NXT: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Nextpower Inc. is a Power & Renewables company with $3.8B of trailing revenue, an operating margin of 19.0% and a free-cash-flow margin of 13.4%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with AEP, AES and ARRY, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 64/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Nextpower Inc. produced $3.8B of trailing revenue at a 19.0% operating margin and a 13.4% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
+      "The published consensus mean is $126.31 (2026-11-25), 87.0% above the latest close; it is included for attribution, not as a Stockmonk call. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put balance sheet at 81/100 and growth at 45/100, with the composite averaging 64/100. The narrow range between balance sheet at 81/100 and growth at 45/100 means the average is a fair summary."
     ],
     "questions": [
       "How much of the capex plan is already approved?",

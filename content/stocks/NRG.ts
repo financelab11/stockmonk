@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const NRG: StockStory = {
   "ticker": "NRG",
   "kicker": "Power & Renewables · Utilities - Independent Power Producers",
-  "title": "NRG Energy, Inc.: +17.2% growth, 2.0% free cash flow and the price being paid",
-  "dek": "NRG Energy, Inc. generated $34.5B of trailing revenue with an operating margin of 7.8%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "NRG Energy, Inc: Electricity and home services",
+  "dek": "NRG Energy, Inc. reported $34.5B of trailing revenue at a 7.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $34.5B trailing twelve months, +17.2% year over year.",
@@ -13,22 +13,22 @@ export const NRG: StockStory = {
     "Valuation: 15.1x trailing earnings and 9.3x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000004/nrg-20251231.htm",
   "irUrl": "https://www.nrg.com",
   "bigPicture": {
     "paragraphs": [
-      "NRG Energy, Inc. generated $34.5B of revenue over the last twelve months, +17.2% versus the prior year. The latest reported quarter was Q3 FY26, with $9.3B of revenue and a 11.6% operating margin. The shares closed at $90.65 on Nov 25, 2026, giving a market capitalization of $19B.",
-      "Returns depend on regulated rates, capital investment and the cost of financing the asset base. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $19B, or 15.1x trailing earnings and 9.3x EV/EBITDA. The shares sit 10% of the way up their 52-week range ($79.65 to $189.96). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "NRG Energy, Inc. generated $34.5B of revenue over the last twelve months, +17.2% versus the prior year. The latest reported quarter was Q3 FY26, with $9.3B of revenue and an 11.6% operating margin. The shares closed at $90.65 on Nov 25, 2026, giving a market capitalization of $19B.",
+      "East contributes 47.0% of the disclosed revenue mix. The company does not disclose revenue by region in the current extract. NRG Energy, Inc. competes in Utilities - Independent Power Producers, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $19B, or 15.1x trailing earnings and 9.3x EV/EBITDA. The shares sit 10% of the way up their 52-week range ($79.65 to $189.96). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "NRG is a Power & Renewables business with $34.5B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "NRG sells electricity and home services, a retail-and-generation business where customer growth, power prices and hedging drive earnings."
   },
   "whatItDoes": {
     "paragraphs": [
-      "NRG Energy, Inc. , together with its subsidiaries, operates as an energy and home services company in the United States and Canada. NRG Energy, Inc. is a Power & Renewables company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 16,702 people, and its coverage group is Power & Renewables.",
-      "The comparison set includes AEP, AES and ARRY. NRG Energy, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "NRG Energy, Inc., together with its subsidiaries, operates as an energy and home services company in the United States and Canada. It reports in the Utilities sector and is classified in Power & Renewables coverage.",
+      "The disclosed mix runs across East at 47.0%, Texas at 36.7% and West Services & Other at 10.6%. Its latest filing lists 16,702 employees. The revenue base is $34.5B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "CEG, VST and OKLO provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,62 +47,62 @@ export const NRG: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 7.8% and net margin is 3.6%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $22.9B, or 5.1x EBITDA. Return on invested capital was 7.5% and return on equity was 23.9%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 7.8% is the first clean profitability line. Returns depend on regulated rates, capital investment and the cost of financing the asset base.",
+      "Net debt is $22.9B, or 5.1x EBITDA. Return on invested capital was 7.5% and return on equity was 23.9%. The return suggests the current capital base is earning a modest amount."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 20.7% a year across the fiscal years in the dataset, and the latest quarter changed +24.5% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 7.8% and return on invested capital of 7.5% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 20.7% a year across the fiscal years in the dataset, and the latest quarter changed +24.5% year over year. Current-year estimates call for $35.4B of revenue and $8.82 of EPS.",
+      "The operating margin of 7.8% and return on invested capital of 7.5% are the filters to watch as revenue scales. The 17.2% top-line pace has not yet produced a thick margin; incremental revenue needs to carry more of the cost base."
     ],
     "bullets": [
       {
         "title": "Rate base growth",
-        "detail": "Approved capital investment earns a regulated return over time. For NRG Energy, Inc., the relevant evidence is revenue growth of +17.2%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +17.2%. That is the line the next filing has to move."
       },
       {
         "title": "Load growth",
-        "detail": "Data centers and electrification can raise long-run demand. For NRG Energy, Inc., the relevant evidence is an operating margin of 7.8%. That is the metric to track in the next filing."
+        "detail": "Data centers and electrification can raise long-run demand. The operating margin is 7.8%."
       },
       {
         "title": "Cost recovery",
-        "detail": "Rate cases determine whether higher costs are passed through. For NRG Energy, Inc., the relevant evidence is a return on invested capital of 7.5%. That is the metric to track in the next filing."
+        "detail": "Return on invested capital is 7.5%. Rate cases determine whether higher costs are passed through."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 12.1% in FY2018 to 6.1% in FY2025. The trailing operating margin is 7.8%, the net margin is 3.6% and diluted EPS is $5.71.",
-      "Return on equity was 23.9% and return on invested capital was 7.5%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 23.9% and return on invested capital was 7.5%. Equity returns exceed invested-capital returns by 16.4%, which is more than operating performance alone would explain. A peer median is a useful anchor, but the company's own trajectory is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $689M, a 2.0% margin. Net debt is $22.9B, or 5.1x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.1B in the latest fiscal year."
+      "Free cash flow over the trailing period was $689M, a 2.0% margin. Net debt is $22.9B, or 5.1x EBITDA. With capital spending at 3.3% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow was $1.9B, or 221.4% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.1B in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 15.1x trailing earnings, 9.3x EV/EBITDA and 1.2x EV/sales. The free-cash-flow yield is 3.6%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against AEP, AES and ARRY; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 15.1x trailing earnings, 9.3x EV/EBITDA and 1.2x EV/sales. The free-cash-flow yield is 3.6%. The trailing earnings yield is 6.6%, against a free-cash-flow yield of 3.6%.",
+      "The peer comparison sets the company against CEG, VST and OKLO; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "16 analysts contribute to the third-party consensus. The mean target is $156.63, with a range of $104.00 to $221.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $35.4B of revenue and $8.82 of EPS. The estimate revisions in the dataset are 0.5% over 30 days and -0.2% over 90 days. The estimate is consistent with growth of 2.7% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Regulatory outcomes",
+        "title": "Leverage",
         "severity": "High",
-        "detail": "Rate cases can disallow costs or reduce allowed returns.",
-        "watch": "Rate-case filings and commission decisions."
+        "detail": "Net debt is $22.9B, or 5.1x EBITDA, which leaves the equity sensitive to refinancing costs and a slower cash flow.",
+        "watch": "Leverage, interest cover and the maturity profile."
       },
       {
         "title": "Interest rates",
@@ -146,9 +146,9 @@ export const NRG: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "NRG Energy, Inc. is a Power & Renewables company with $34.5B of trailing revenue, an operating margin of 7.8% and a free-cash-flow margin of 2.0%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with AEP, AES and ARRY, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 36/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "NRG Energy, Inc. produced $34.5B of trailing revenue at a 7.8% operating margin and a 2.0% free-cash-flow margin. Net debt of $22.9B, or 5.1x EBITDA, is the constraint that shapes the equity story.",
+      "Analysts contributing to the third-party consensus carry a $156.63 mean target as of 2026-11-25, 72.8% above the latest close; the figure belongs to the analysts who published it, not to this report.",
+      "The factor percentiles put valuation at 82/100 and balance sheet at 5/100, with the composite averaging 36/100. The average hides a strong valuation reading and a weak balance sheet one, which is why the spread is the more useful description."
     ],
     "questions": [
       "How much of the capex plan is already approved?",

@@ -3,32 +3,32 @@ import type { StockStory } from "./types";
 export const BKR: StockStory = {
   "ticker": "BKR",
   "kicker": "Energy · Oil & Gas Equipment & Services",
-  "title": "Baker Hughes Company turns $28.7B of revenue into $3.2B of free cash flow",
-  "dek": "Baker Hughes Company generated $28.7B of trailing revenue with an operating margin of 11.2%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Baker Hughes Company: Oilfield equipment and industrial technology",
+  "dek": "Baker Hughes Company reported $28.7B of trailing revenue at an 11.2% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $28.7B trailing twelve months, +3.7% year over year.",
     "Profitability: 11.2% operating margin and 10.1% net margin.",
-    "Cash: $3.2B free cash flow, a 11.2% margin, against $15B of net debt.",
+    "Cash: $3.2B free cash flow, an 11.2% margin, against $15B of net debt.",
     "Valuation: 15.9x trailing earnings and 12.9x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1701605/000170160526000007/bkr-20251231.htm",
   "irUrl": "https://www.bakerhughes.com",
   "bigPicture": {
     "paragraphs": [
       "Baker Hughes Company generated $28.7B of revenue over the last twelve months, +3.7% versus the prior year. The latest reported quarter was Q3 FY26, with $8B of revenue and a 6.5% operating margin. The shares closed at $46.36 on Nov 25, 2026, giving a market capitalization of $46B.",
-      "Cash flow is a function of commodity prices, production volumes and capital discipline. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $46B, or 15.9x trailing earnings and 12.9x EV/EBITDA. The shares sit 8% of the way up their 52-week range ($44.26 to $70.41). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Oilfield Services & Equipment contributes 51.6% of the disclosed revenue mix. By geography, Non-US is the largest disclosed market at 72.2% of revenue. Baker Hughes Company competes in Oil & Gas Equipment & Services, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $46B, or 15.9x trailing earnings and 12.9x EV/EBITDA. The shares sit 8% of the way up their 52-week range ($44.26 to $70.41). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "BKR is an Energy business with $28.7B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Baker Hughes sells oilfield equipment and industrial technology, so energy capex, LNG orders and service utilisation drive the cycle."
   },
   "whatItDoes": {
     "paragraphs": [
       "Baker Hughes Company provides a portfolio of technologies and services to energy and industrial value chain. Its Oilfield Services & Equipment segment designs and manufactures exploration, appraisal, development, production, rejuvenation, and decommissioning products and related services for onshore and offshore oilfield operations.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 65,600 people, and its coverage group is Energy.",
-      "The comparison set includes CTRA, DVN and EQT. Baker Hughes Company is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "The disclosed mix runs across Oilfield Services & Equipment at 51.6% and Industrial & Energy Technology at 48.4%. Its latest filing lists 65,600 employees. With $28.7B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "CTRA, DVN and EQT provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,56 +47,56 @@ export const BKR: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 11.2% and net margin is 10.1%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $15B, or 3.2x EBITDA. Return on invested capital was 7.5% and return on equity was 14.4%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 11.2% is the first clean profitability line. Cash flow is a function of commodity prices, production volumes and capital discipline.",
+      "Net debt is $15B, or 3.2x EBITDA. Return on invested capital was 7.5% and return on equity was 14.4%. That is a thin return; without a margin recovery or a different capital allocation, growth is unlikely to create value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 2.8% a year across the fiscal years in the dataset, and the latest quarter changed +14.5% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 11.2% and return on invested capital of 7.5% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 2.8% a year across the fiscal years in the dataset, and the latest quarter changed +14.5% year over year. Current-year estimates call for $29.6B of revenue and $2.54 of EPS.",
+      "The operating margin of 11.2% and return on invested capital of 7.5% are the filters to watch as revenue scales. The 3.7% revenue pace and 11.2% margin have to move together for the earnings path to improve."
     ],
     "bullets": [
       {
         "title": "Commodity prices",
-        "detail": "Oil, gas and power prices flow quickly into revenue and cash flow. For Baker Hughes Company, the relevant evidence is revenue growth of +3.7%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +3.7%. That is the number to compare with the company's own history."
       },
       {
         "title": "Production growth",
-        "detail": "Volumes from existing and new projects determine the revenue base. For Baker Hughes Company, the relevant evidence is an operating margin of 11.2%. That is the metric to track in the next filing."
+        "detail": "Volumes from existing and new projects determine the revenue base. The operating margin is 11.2%."
       },
       {
         "title": "Capital discipline",
-        "detail": "Lower reinvestment can lift free cash flow and returns. For Baker Hughes Company, the relevant evidence is a return on invested capital of 7.5%. That is the metric to track in the next filing."
+        "detail": "Return on invested capital is 7.5%. Lower reinvestment can lift free cash flow and returns."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 3.1% in FY2018 to 10.4% in FY2025. The trailing operating margin is 11.2%, the net margin is 10.1% and diluted EPS is not available.",
-      "Return on equity was 14.4% and return on invested capital was 7.5%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 14.4% and return on invested capital was 7.5%. With return on equity at 14.4% and return on invested capital at 7.5%, leverage is not the main driver of the gap."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.2B, a 11.2% margin. Net debt is $15B, or 3.2x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.3B in the latest fiscal year."
+      "Free cash flow over the trailing period was $3.2B, an 11.2% margin. Net debt is $15B, or 3.2x EBITDA. Capex absorbed 4.4% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow was $3.8B, or 147.2% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.3B in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 15.9x trailing earnings, 12.9x EV/EBITDA and 2.1x EV/sales. The free-cash-flow yield is 7.0%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against CTRA, DVN and EQT; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 15.9x trailing earnings, 12.9x EV/EBITDA and 2.1x EV/sales. The free-cash-flow yield is 7.0%. Inverting the P/E gives an earnings yield of 6.3%; the cash-flow yield is 7.0%.",
+      "The peer comparison sets the company against CTRA, DVN and EQT; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "24 analysts contribute to the third-party consensus. The mean target is $69.75, with a range of $51.00 to $85.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $29.6B of revenue and $2.54 of EPS. The estimate revisions in the dataset are -0.6% over 30 days and -2.5% over 90 days. The estimate is consistent with growth of 3.1% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
         "title": "Commodity prices",
@@ -146,9 +146,9 @@ export const BKR: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Baker Hughes Company is an Energy company with $28.7B of trailing revenue, an operating margin of 11.2% and a free-cash-flow margin of 11.2%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with CTRA, DVN and EQT, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 39/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Baker Hughes Company produced $28.7B of trailing revenue at an 11.2% operating margin and an 11.2% free-cash-flow margin. With leverage at 3.2x EBITDA, the balance sheet is the first thing the cash flow has to service.",
+      "The consensus target is $69.75 as of 2026-11-25, 50.5% above the latest close; the figure belongs to the analysts who published it, not to this report. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put valuation at 74/100 and balance sheet at 16/100, with the composite averaging 39/100. The gap between valuation at 74/100 and balance sheet at 16/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
       "What price is needed to cover capex and the dividend?",

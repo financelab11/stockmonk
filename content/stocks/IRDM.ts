@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const IRDM: StockStory = {
   "ticker": "IRDM",
   "kicker": "Internet Platforms · Telecom Services",
-  "title": "Iridium Communications Inc. earns an operating margin of 19.0% on $903M of revenue",
-  "dek": "Iridium Communications Inc. generated $903M of trailing revenue with an operating margin of 19.0%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Iridium Communications Inc: A satellite-communications network",
+  "dek": "Iridium Communications Inc. reported $903M of trailing revenue at a 19.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $903M trailing twelve months, +3.6% year over year.",
@@ -13,22 +13,22 @@ export const IRDM: StockStory = {
     "Valuation: 27.6x trailing earnings and 16.5x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000009/irdm-20251231.htm",
   "irUrl": "https://www.iridium.com",
   "bigPicture": {
     "paragraphs": [
       "Iridium Communications Inc. generated $903M of revenue over the last twelve months, +3.6% versus the prior year. The latest reported quarter was Q3 FY26, with $245.7M of revenue and a 12.9% operating margin. The shares closed at $42.45 on Nov 25, 2026, giving a market capitalization of $4.5B.",
-      "The business is judged on whether it can keep converting a technical advantage into recurring revenue. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $4.5B, or 27.6x trailing earnings and 16.5x EV/EBITDA. The shares sit 64% of the way up their 52-week range ($16.14 to $57.18). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. United States supplies 55.0% of disclosed revenue, the largest single geography in the filing.",
+      "At the latest close the equity is valued at $4.5B, or 27.6x trailing earnings and 16.5x EV/EBITDA. The shares sit 64% of the way up their 52-week range ($16.14 to $57.18). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
     ],
-    "quote": "IRDM is an Internet Platforms business with $903M of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Iridium operates a satellite-communications network, a subscription business where subscriber growth, ARPU and constellation capex determine cash flow."
   },
   "whatItDoes": {
     "paragraphs": [
       "Iridium Communications Inc. provides mobile voice and data communications services and products to businesses, the United States and foreign governments, non-governmental organizations, and consumers in the United States, Canada, and internationally.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 975 people, and its coverage group is Internet Platforms.",
-      "The comparison set includes BABA, BIDU and CART. Iridium Communications Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 975 people. The revenue base is $903M on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "The closest listed comparisons are TMUS and CMCSA; the useful question is how Iridium Communications Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const IRDM: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 19.0% and net margin is 18.1%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $2B, or 5.1x EBITDA. Return on invested capital was 4.7% and return on equity was 28.3%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 19.0% is the first clean profitability line. The model depends on users, engagement, transaction volume and the take rate earned on each interaction.",
+      "Net debt is $2B, or 5.1x EBITDA. Return on invested capital was 4.7% and return on equity was 28.3%. The return suggests the current capital base is earning a modest amount."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 7.6% a year across the fiscal years in the dataset, and the latest quarter changed +8.3% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 19.0% and return on invested capital of 4.7% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 7.6% a year across the fiscal years in the dataset, and the latest quarter changed +8.3% year over year. Current-year estimates call for $928.5M of revenue and $1.49 of EPS.",
+      "The operating margin of 19.0% and return on invested capital of 4.7% are the filters to watch as revenue scales. Growth of 3.6% against a 19.0% operating margin is the balance the next few quarters have to protect."
     ],
     "bullets": [
       {
-        "title": "Product cycle",
-        "detail": "New products and platform transitions create refresh demand and pricing power. For Iridium Communications Inc., the relevant evidence is revenue growth of +3.6%. That is the metric to track in the next filing."
+        "title": "User and engagement growth",
+        "detail": "More active users and frequency expand the inventory available to monetise. Revenue growth is +3.6%."
       },
       {
-        "title": "Customer expansion",
-        "detail": "Land-and-expand selling raises revenue per existing customer and lengthens the relationship. For Iridium Communications Inc., the relevant evidence is an operating margin of 19.0%. That is the metric to track in the next filing."
+        "title": "Take rate",
+        "detail": "The operating margin is 19.0%. The share of transaction value retained determines revenue per unit of GMV."
       },
       {
-        "title": "Operating leverage",
-        "detail": "Incremental revenue can carry high gross margins once development and sales costs are in place. For Iridium Communications Inc., the relevant evidence is a return on invested capital of 4.7%."
+        "title": "Adjacent services",
+        "detail": "Advertising, logistics, payments and subscriptions can lift revenue per user. The current reading: return on invested capital is 4.7%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 8.0% in FY2018 to 27.1% in FY2025. The trailing operating margin is 19.0%, the net margin is 18.1% and diluted EPS is $1.51.",
-      "Return on equity was 28.3% and return on invested capital was 4.7%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 28.3% and return on invested capital was 4.7%. Return on equity of 28.3% is well above the 4.7% return on invested capital; the difference is the balance sheet, not the business."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $277.6M, a 30.7% margin. Net debt is $2B, or 5.1x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $100.3M in the latest fiscal year."
+      "Free cash flow over the trailing period was $277.6M, a 30.7% margin. Net debt is $2B, or 5.1x EBITDA. With capital spending at 11.1% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow was $400.1M, or 349.8% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $100.3M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 27.6x trailing earnings, 16.5x EV/EBITDA and 7.2x EV/sales. The free-cash-flow yield is 6.2%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BABA, BIDU and CART; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 27.6x trailing earnings, 16.5x EV/EBITDA and 7.2x EV/sales. The free-cash-flow yield is 6.2%. The trailing earnings yield is 3.6%, against a free-cash-flow yield of 6.2%.",
+      "The peer comparison sets the company against TMUS and CMCSA; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "3 analysts contribute to the third-party consensus. The mean target is $48.00, with a range of $36.00 to $54.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $928.5M of revenue and $1.49 of EPS. The estimate revisions in the dataset are 38.0% over 30 days and 38.0% over 90 days. That implies growth of 2.8% over the trailing twelve months."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Technology substitution",
+        "title": "Leverage",
         "severity": "High",
-        "detail": "A faster or cheaper architecture can reset the competitive position quickly.",
-        "watch": "Product roadmaps, design wins and customer concentration."
+        "detail": "Net debt is $2B, or 5.1x EBITDA, which leaves the equity sensitive to refinancing costs and a slower cash flow.",
+        "watch": "Leverage, interest cover and the maturity profile."
       },
       {
-        "title": "Customer concentration",
+        "title": "Take-rate pressure",
         "severity": "High",
-        "detail": "A small number of large buyers can swing revenue and pricing.",
-        "watch": "Top-customer disclosures and order trends."
+        "detail": "Merchants and users can push back on fees.",
+        "watch": "Take rate and merchant retention."
+      },
+      {
+        "title": "Regulation",
+        "severity": "Medium",
+        "detail": "Platform, privacy and gig-labour rules can change the model.",
+        "watch": "Regulatory actions and market-by-market rules."
+      },
+      {
+        "title": "Profitability",
+        "severity": "Medium",
+        "detail": "Growth can be bought with incentives that disappear when spending slows.",
+        "watch": "Contribution margin and sales efficiency."
       },
       {
         "title": "Valuation",
         "severity": "Medium",
-        "detail": "High expectations leave less room for a growth disappointment.",
-        "watch": "Forward estimates versus the current multiple."
-      },
-      {
-        "title": "Supply chain",
-        "severity": "Medium",
-        "detail": "Advanced components and manufacturing capacity can constrain shipments.",
-        "watch": "Lead times, inventory and supplier concentration."
-      },
-      {
-        "title": "Regulation and export controls",
-        "severity": "Medium",
-        "detail": "Cross-border rules can remove addressable market or raise compliance costs.",
-        "watch": "Export-licence changes and geographic mix."
+        "detail": "High multiples assume durable user growth and take rate.",
+        "watch": "Forward revenue and margin guidance."
       }
     ],
     "watchlist": [
       {
-        "title": "Growth durability",
-        "detail": "Compare revenue growth with the prior four quarters."
+        "title": "GMV and take rate",
+        "detail": "Separate transaction growth from the share retained."
       },
       {
-        "title": "Gross margin",
-        "detail": "A falling gross margin can signal pricing pressure or a richer hardware mix."
+        "title": "User growth",
+        "detail": "Net adds and engagement show whether the audience is durable."
       },
       {
-        "title": "Customer concentration",
-        "detail": "Track large-customer disclosures and order momentum."
+        "title": "Contribution margin",
+        "detail": "Unit economics reveal whether growth creates value."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Iridium Communications Inc. is an Internet Platforms company with $903M of trailing revenue, an operating margin of 19.0% and a free-cash-flow margin of 30.7%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BABA, BIDU and CART, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 45/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Iridium Communications Inc. produced $903M of trailing revenue at a 19.0% operating margin and a 30.7% free-cash-flow margin. The business converts an unusually large share of revenue into cash, and the multiple depends on that continuing.",
+      "Third-party analysts put the mean target at $48.00 as of 2026-11-25, 13.1% above the latest close; it should be read as the published consensus, not as this publication's view. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
+      "The factor percentiles put cash generation at 85/100 and balance sheet at 6/100, with the composite averaging 45/100. The average hides a strong cash generation reading and a weak balance sheet one, which is why the spread is the more useful description."
     ],
     "questions": [
-      "How much of growth is volume versus price?",
-      "What would a pause in customer spending do to margins?",
-      "Is the product advantage durable or one cycle long?",
-      "How much of the valuation depends on the next product cycle?"
+      "How much growth is users versus take rate?",
+      "What does a slowdown in incentives do to volume?",
+      "How defensible is the audience?",
+      "When does the platform reach durable profit?"
     ]
   }
 };

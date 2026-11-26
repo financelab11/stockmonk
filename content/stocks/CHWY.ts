@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const CHWY: StockStory = {
   "ticker": "CHWY",
   "kicker": "Internet Platforms · Internet Retail",
-  "title": "The financial engine behind Chewy, Inc.",
-  "dek": "Chewy, Inc. generated $13.1B of trailing revenue with an operating margin of 2.5%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Chewy, Inc: An online pet retailer",
+  "dek": "Chewy, Inc. reported $13.1B of trailing revenue at a 2.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $13.1B trailing twelve months, +5.9% year over year.",
@@ -13,22 +13,22 @@ export const CHWY: StockStory = {
     "Valuation: 29.8x trailing earnings and 17.2x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1766502/000176650226000034/chwy-20260201.htm",
   "irUrl": "https://www.chewy.com",
   "bigPicture": {
     "paragraphs": [
       "Chewy, Inc. generated $13.1B of revenue over the last twelve months, +5.9% versus the prior year. The latest reported quarter was Q2 FY27, with $3.3B of revenue and a 2.8% operating margin. The shares closed at $20.30 on Nov 25, 2026, giving a market capitalization of $8.2B.",
-      "The business is judged on whether it can keep converting a technical advantage into recurring revenue. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $8.2B, or 29.8x trailing earnings and 17.2x EV/EBITDA. The shares sit 15% of the way up their 52-week range ($17.40 to $37.34). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. No country-level revenue split is carried in the data used here. Chewy, Inc. competes in Internet Retail, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $8.2B, or 29.8x trailing earnings and 17.2x EV/EBITDA. The shares sit 15% of the way up their 52-week range ($17.40 to $37.34). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "CHWY is an Internet Platforms business with $13.1B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Chewy is an online pet retailer, so active customers, autoship retention and fulfilment costs drive the path to margin."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Chewy, Inc. , together with its subsidiaries, engages in the e-commerce business in the United States. Chewy, Inc. is an Internet Platforms company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 18,000 people, and its coverage group is Internet Platforms.",
-      "The comparison set includes BABA, BIDU and CART. Chewy, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Chewy, Inc., together with its subsidiaries, engages in the e-commerce business in the United States. It reports in the Consumer Cyclical sector and is classified in Internet Platforms coverage.",
+      "Revenue is reported at the consolidated level only. Its latest filing lists 18,000 employees. The revenue base is $13.1B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "AMZN, BABA and CART provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const CHWY: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 29.9%, operating margin is 2.5% and net margin is 2.1%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $20.5M of net cash. Return on invested capital was 26.3% and return on equity was 73.9%."
+      "Gross margin is 29.9%, operating margin is 2.5% and net margin is 2.1%. Gross profit was $3.9B, and 27.4% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
+      "The balance sheet carries $20.5M of net cash. Return on invested capital was 26.3% and return on equity was 73.9%. That is comfortably above most cost-of-capital estimates, which is what lets reinvestment create value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 19.9% a year across the fiscal years in the dataset, and the latest quarter changed +7.3% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 2.5% and return on invested capital of 26.3% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 19.9% a year across the fiscal years in the dataset, and the latest quarter changed +7.3% year over year. Current-year estimates call for $13.5B of revenue and $1.54 of EPS.",
+      "The operating margin of 2.5% and return on invested capital of 26.3% are the filters to watch as revenue scales. Growth of 5.9% against a 2.5% operating margin is the balance the next few quarters have to protect."
     ],
     "bullets": [
       {
-        "title": "Product cycle",
-        "detail": "New products and platform transitions create refresh demand and pricing power. For Chewy, Inc., the relevant evidence is revenue growth of +5.9%. That is the metric to track in the next filing."
+        "title": "User and engagement growth",
+        "detail": "Revenue growth is +5.9%. Watch whether that reading improves or merely holds."
       },
       {
-        "title": "Customer expansion",
-        "detail": "Land-and-expand selling raises revenue per existing customer and lengthens the relationship. For Chewy, Inc., the relevant evidence is an operating margin of 2.5%. That is the metric to track in the next filing."
+        "title": "Take rate",
+        "detail": "The share of transaction value retained determines revenue per unit of GMV. The operating margin is 2.5%."
       },
       {
-        "title": "Operating leverage",
-        "detail": "Incremental revenue can carry high gross margins once development and sales costs are in place. For Chewy, Inc., the relevant evidence is a return on invested capital of 26.3%. That is the metric to track in the next filing."
+        "title": "Adjacent services",
+        "detail": "Return on invested capital is 26.3%. Advertising, logistics, payments and subscriptions can lift revenue per user."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from -7.6% in FY2019 to 2.0% in FY2026. The trailing operating margin is 2.5%, the net margin is 2.1% and diluted EPS is $0.66.",
-      "Return on equity was 73.9% and return on invested capital was 26.3%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 73.9% and return on invested capital was 26.3%. Return on equity of 73.9% is well above the 26.3% return on invested capital; the difference is the balance sheet, not the business."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $568.1M, a 4.3% margin. The balance sheet carries $20.5M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $129.2M in the latest fiscal year."
+      "Free cash flow over the trailing period was $568.1M, a 4.3% margin. The balance sheet carries $20.5M of net cash. With capital spending at 1.0% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow was $691.6M, or 310.4% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $129.2M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 29.8x trailing earnings, 17.2x EV/EBITDA and 0.6x EV/sales. The free-cash-flow yield is 7.0%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BABA, BIDU and CART; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 29.8x trailing earnings, 17.2x EV/EBITDA and 0.6x EV/sales. The free-cash-flow yield is 7.0%. The trailing earnings yield is 3.4%, against a free-cash-flow yield of 7.0%.",
+      "The peer comparison sets the company against AMZN, BABA and CART; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "23 analysts contribute to the third-party consensus. The mean target is $28.35, with a range of $21.00 to $36.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $13.5B of revenue and $1.54 of EPS. The estimate revisions in the dataset are -0.1% over 30 days and 0.6% over 90 days. The estimate is consistent with growth of 3.5% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Technology substitution",
+        "title": "Competition for users",
         "severity": "High",
-        "detail": "A faster or cheaper architecture can reset the competitive position quickly.",
-        "watch": "Product roadmaps, design wins and customer concentration."
+        "detail": "Switching costs are low and new formats can take attention quickly.",
+        "watch": "Monthly users, engagement and churn."
       },
       {
-        "title": "Customer concentration",
+        "title": "Take-rate pressure",
         "severity": "High",
-        "detail": "A small number of large buyers can swing revenue and pricing.",
-        "watch": "Top-customer disclosures and order trends."
+        "detail": "Merchants and users can push back on fees.",
+        "watch": "Take rate and merchant retention."
+      },
+      {
+        "title": "Regulation",
+        "severity": "Medium",
+        "detail": "Platform, privacy and gig-labour rules can change the model.",
+        "watch": "Regulatory actions and market-by-market rules."
+      },
+      {
+        "title": "Profitability",
+        "severity": "Medium",
+        "detail": "Growth can be bought with incentives that disappear when spending slows.",
+        "watch": "Contribution margin and sales efficiency."
       },
       {
         "title": "Valuation",
         "severity": "Medium",
-        "detail": "High expectations leave less room for a growth disappointment.",
-        "watch": "Forward estimates versus the current multiple."
-      },
-      {
-        "title": "Supply chain",
-        "severity": "Medium",
-        "detail": "Advanced components and manufacturing capacity can constrain shipments.",
-        "watch": "Lead times, inventory and supplier concentration."
-      },
-      {
-        "title": "Regulation and export controls",
-        "severity": "Medium",
-        "detail": "Cross-border rules can remove addressable market or raise compliance costs.",
-        "watch": "Export-licence changes and geographic mix."
+        "detail": "High multiples assume durable user growth and take rate.",
+        "watch": "Forward revenue and margin guidance."
       }
     ],
     "watchlist": [
       {
-        "title": "Growth durability",
-        "detail": "Compare revenue growth with the prior four quarters."
+        "title": "GMV and take rate",
+        "detail": "Separate transaction growth from the share retained."
       },
       {
-        "title": "Gross margin",
-        "detail": "A falling gross margin can signal pricing pressure or a richer hardware mix."
+        "title": "User growth",
+        "detail": "Net adds and engagement show whether the audience is durable."
       },
       {
-        "title": "Customer concentration",
-        "detail": "Track large-customer disclosures and order momentum."
+        "title": "Contribution margin",
+        "detail": "Unit economics reveal whether growth creates value."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Chewy, Inc. is an Internet Platforms company with $13.1B of trailing revenue, an operating margin of 2.5% and a free-cash-flow margin of 4.3%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BABA, BIDU and CART, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 47/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Chewy, Inc. produced $13.1B of trailing revenue at a 2.5% operating margin and a 4.3% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
+      "Analysts contributing to the third-party consensus carry a $28.35 mean target as of 2026-11-25, 39.6% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target.",
+      "The factor percentiles put balance sheet at 62/100 and cash generation at 22/100, with the composite averaging 47/100. The readings are close enough together that the average carries most of the information; balance sheet is the strongest at 62/100."
     ],
     "questions": [
-      "How much of growth is volume versus price?",
-      "What would a pause in customer spending do to margins?",
-      "Is the product advantage durable or one cycle long?",
-      "How much of the valuation depends on the next product cycle?"
+      "How much growth is users versus take rate?",
+      "What does a slowdown in incentives do to volume?",
+      "How defensible is the audience?",
+      "When does the platform reach durable profit?"
     ]
   }
 };

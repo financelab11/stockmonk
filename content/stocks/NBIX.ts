@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const NBIX: StockStory = {
   "ticker": "NBIX",
   "kicker": "Pharma & Biotech · Drug Manufacturers - Specialty & Generic",
-  "title": "The financial engine behind Neurocrine Biosciences, Inc.",
-  "dek": "Neurocrine Biosciences, Inc. generated $3.7B of trailing revenue with an operating margin of 24.0%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Neurocrine Biosciences, Inc: Neurological and endocrine therapies",
+  "dek": "Neurocrine Biosciences, Inc. reported $3.7B of trailing revenue at a 24.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $3.7B trailing twelve months, +38.0% year over year.",
@@ -13,22 +13,22 @@ export const NBIX: StockStory = {
     "Valuation: 23.8x trailing earnings and 17.3x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/914475/000091447526000007/nbix-20251231.htm",
   "irUrl": "https://www.neurocrine.com",
   "bigPicture": {
     "paragraphs": [
       "Neurocrine Biosciences, Inc. generated $3.7B of revenue over the last twelve months, +38.0% versus the prior year. The latest reported quarter was Q3 FY26, with $1.1B of revenue and a 29.5% operating margin. The shares closed at $165.13 on Nov 25, 2026, giving a market capitalization of $16.7B.",
-      "The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $16.7B, or 23.8x trailing earnings and 17.3x EV/EBITDA. The shares sit 67% of the way up their 52-week range ($122.14 to $186.12). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "A reportable segment split is not available in the current dataset; the consolidated revenue line is the cleanest unit of analysis. Geographic revenue detail is not available in the current dataset.",
+      "At the latest close the equity is valued at $16.7B, or 23.8x trailing earnings and 17.3x EV/EBITDA. The shares sit 67% of the way up their 52-week range ($122.14 to $186.12). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
     ],
-    "quote": "NBIX is a Pharma & Biotech business with $3.7B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Neurocrine sells neurological and endocrine therapies, a commercial biopharma where label expansion and pipeline readouts drive the out-year."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Neurocrine Biosciences, Inc. discovers, develops, and commercialize pharmaceuticals for neurological, psychiatric, endocrine, and immunological disorders in the United States and internationally. Neurocrine Biosciences, Inc. is a Pharma & Biotech company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 2,500 people, and its coverage group is Pharma & Biotech.",
-      "The comparison set includes BIIB, ETON and GILD. Neurocrine Biosciences, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Neurocrine Biosciences, Inc. discovers, develops, and commercialize pharmaceuticals for neurological, psychiatric, endocrine, and immunological disorders in the United States and internationally. The business is part of the Pharma & Biotech group and reports under Healthcare in the current classification.",
+      "The company reports one consolidated revenue line rather than a segment split. Headcount was 2,500 in the latest filing. Trailing revenue is $3.7B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "Against ZTS, HIMS and ETON, the relevant tests are pricing power, capital intensity and cash conversion."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const NBIX: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 42.9%, operating margin is 24.0% and net margin is 19.0%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $789.7M of net cash. Return on invested capital was 17.2% and return on equity was 18.1%."
+      "Of $3.7B of revenue, $1.6B remained after cost of sales. The 19.0% operating-expense load brought that down to a 24.0% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "The balance sheet carries $789.7M of net cash. Return on invested capital was 17.2% and return on equity was 18.1%. The return leaves room above the cost of capital for growth to compound."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 30.2% a year across the fiscal years in the dataset, and the latest quarter changed +41.2% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 24.0% and return on invested capital of 17.2% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 30.2% a year across the fiscal years in the dataset, and the latest quarter changed +41.2% year over year. Current-year estimates call for $4B of revenue and $10.59 of EPS.",
+      "The operating margin of 24.0% and return on invested capital of 17.2% are the filters to watch as revenue scales. Neither the 38.0% growth nor the 24.0% margin is extreme; the combination is what matters."
     ],
     "bullets": [
       {
-        "title": "Clinical data",
-        "detail": "Efficacy and safety readouts determine the programme's value. For Neurocrine Biosciences, Inc., the relevant evidence is revenue growth of +38.0%. That is the metric to track in the next filing."
+        "title": "Launch execution",
+        "detail": "Revenue growth is +38.0%. New therapies need payer coverage, prescriber adoption and manufacturing scale."
       },
       {
-        "title": "Regulatory path",
-        "detail": "Approval and label scope decide the commercial opportunity. For Neurocrine Biosciences, Inc., the relevant evidence is an operating margin of 24.0%. That is the metric to track in the next filing."
+        "title": "Pipeline readouts",
+        "detail": "Late-stage data can extend the growth runway or reset it. The current reading: the operating margin is 24.0%."
       },
       {
-        "title": "Partnerships",
-        "detail": "Collaborations can fund development and validate the science. For Neurocrine Biosciences, Inc., the relevant evidence is a return on invested capital of 17.2%. That is the metric to track in the next filing."
+        "title": "Patent duration",
+        "detail": "Return on invested capital is 17.2%. The direction of travel matters more than the absolute level."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 8.2% in FY2018 to 21.6% in FY2025. The trailing operating margin is 24.0%, the net margin is 19.0% and diluted EPS is $6.74.",
-      "Return on equity was 18.1% and return on invested capital was 17.2%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 18.1% and return on invested capital was 17.2%. Return on invested capital of 17.2% is close to the 18.1% equity return, so the balance sheet explains only part of the difference."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1B, a 28.0% margin. The balance sheet carries $789.7M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $34M in the latest fiscal year."
+      "Free cash flow over the trailing period was $1B, a 28.0% margin. The balance sheet carries $789.7M of net cash. Capital expenditure was 0.9% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow was $782.7M, or 163.5% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $34M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 23.8x trailing earnings, 17.3x EV/EBITDA and 4.3x EV/sales. The free-cash-flow yield is 6.2%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BIIB, ETON and GILD; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 23.8x trailing earnings, 17.3x EV/EBITDA and 4.3x EV/sales. The free-cash-flow yield is 6.2%. The 4.2% earnings yield and 6.2% free-cash-flow yield are the two return measures embedded in the price.",
+      "The peer comparison sets the company against ZTS, HIMS and ETON; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "28 analysts contribute to the third-party consensus. The mean target is $209.19, with a range of $150.00 to $253.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $4B of revenue and $10.59 of EPS. The estimate revisions in the dataset are 3.1% over 30 days and 3.9% over 90 days. Set against trailing revenue, the estimate implies growth of 8.0%."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Trial failure",
+        "title": "Clinical failure",
         "severity": "High",
-        "detail": "A negative readout can remove most of the equity value.",
+        "detail": "A negative trial can remove most of a programme's value.",
         "watch": "Trial endpoints and readout timing."
       },
       {
-        "title": "Cash runway",
+        "title": "Patent cliff",
         "severity": "High",
-        "detail": "Development costs can force financing.",
-        "watch": "Cash and quarterly burn."
+        "detail": "Loss of exclusivity can reset revenue faster than a new launch replaces it.",
+        "watch": "Patent expiry schedule and generic entry."
       },
       {
-        "title": "Reimbursement",
+        "title": "Pricing and reimbursement",
         "severity": "Medium",
-        "detail": "Payer coverage determines commercial uptake.",
-        "watch": "Pricing and payer decisions."
+        "detail": "Payer coverage and drug-pricing rules can cap revenue per patient.",
+        "watch": "Net price, payer mix and policy changes."
       },
       {
         "title": "Competition",
         "severity": "Medium",
-        "detail": "A better therapy can arrive first or be priced lower.",
+        "detail": "A better or cheaper therapy can take share quickly.",
         "watch": "Competitor data and launch timing."
       },
       {
-        "title": "Dilution",
+        "title": "Manufacturing and safety",
         "severity": "Medium",
-        "detail": "Equity raises fund trials and manufacturing.",
-        "watch": "Share count and financing terms."
+        "detail": "Supply or safety issues can limit a launch.",
+        "watch": "Supply disclosures and adverse events."
       }
     ],
     "watchlist": [
       {
-        "title": "Cash runway",
-        "detail": "The number of quarters funded is a hard constraint."
+        "title": "Launch metrics",
+        "detail": "Prescriptions, payer coverage and inventory reveal the real launch curve."
       },
       {
-        "title": "Trial readouts",
-        "detail": "Binary events drive the equity."
+        "title": "Patent timing",
+        "detail": "The next loss-of-exclusivity date is the hard constraint on the cash flow."
       },
       {
-        "title": "Partner validation",
-        "detail": "A credible partner can de-risk the programme."
+        "title": "Pipeline readouts",
+        "detail": "Late-stage data is the main driver of the out-year value."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Neurocrine Biosciences, Inc. is a Pharma & Biotech company with $3.7B of trailing revenue, an operating margin of 24.0% and a free-cash-flow margin of 28.0%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BIIB, ETON and GILD, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 73/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Neurocrine Biosciences, Inc. produced $3.7B of trailing revenue at a 24.0% operating margin and a 28.0% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
+      "28 analysts in the third-party survey average $209.19 as of 2026-11-25, 26.7% above the latest close; the forecast is theirs, and this report does not adopt it as a target.",
+      "The factor percentiles put growth at 83/100 and valuation at 53/100, with the composite averaging 73/100. With growth and valuation only 30 points apart, the composite is a reasonable one-line description."
     ],
     "questions": [
-      "How many quarters of cash remain?",
-      "What is the next binary readout?",
-      "How large is the addressable market?",
-      "What does a failed trial leave behind?"
+      "When does the largest patent expire?",
+      "What does a negative trial leave behind?",
+      "How broad is the reimbursement label?",
+      "How much of the valuation is the pipeline?"
     ]
   }
 };

@@ -4,7 +4,7 @@ export const EXEL: StockStory = {
   "ticker": "EXEL",
   "kicker": "Pharma & Biotech · Biotechnology",
   "title": "What Exelixis, Inc.'s latest filings reveal about growth, margins and cash",
-  "dek": "Exelixis, Inc. generated $2.5B of trailing revenue with an operating margin of 40.2%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "dek": "Exelixis, Inc. reported $2.5B of trailing revenue at a 40.2% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $2.5B trailing twelve months, +9.1% year over year.",
@@ -13,22 +13,22 @@ export const EXEL: StockStory = {
     "Valuation: 18.5x trailing earnings and 14.5x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/939767/000093976726000021/exel-20260102.htm",
   "irUrl": "https://www.exelixis.com",
   "bigPicture": {
     "paragraphs": [
       "Exelixis, Inc. generated $2.5B of revenue over the last twelve months, +9.1% versus the prior year. The latest reported quarter was Q3 FY27, with $658.7M of revenue and a 40.8% operating margin. The shares closed at $67.05 on Nov 25, 2026, giving a market capitalization of $16.4B.",
-      "The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $16.4B, or 18.5x trailing earnings and 14.5x EV/EBITDA. The shares sit 80% of the way up their 52-week range ($39.71 to $73.69). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. Geographically, United States leads at 92.3% of the disclosed split.",
+      "At the latest close the equity is valued at $16.4B, or 18.5x trailing earnings and 14.5x EV/EBITDA. The shares sit 80% of the way up their 52-week range ($39.71 to $73.69). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
     ],
-    "quote": "EXEL is a Pharma & Biotech business with $2.5B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Exelixis sells oncology therapies, so cabozantinib franchise durability and pipeline readouts drive value."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Exelixis, Inc. , an oncology company, focuses on the discovery, development, and commercialization of new medicines for difficult-to-treat cancers in the United States. Exelixis, Inc. is a Pharma & Biotech company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 1,077 people, and its coverage group is Pharma & Biotech.",
-      "The comparison set includes BIIB, ETON and GILD. Exelixis, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Exelixis, Inc., an oncology company, focuses on the discovery, development, and commercialization of new medicines for difficult-to-treat cancers in the United States. Exelixis, Inc. is a Biotechnology company within the Pharma & Biotech coverage group.",
+      "There is no separate segment disclosure in the current extract. The company employed 1,077 people at the last reporting date. Trailing revenue is $2.5B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "The peer set is VRTX, REGN and VKTX; similar businesses can earn very different returns on capital, which is the comparison that matters."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const EXEL: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 96.4%, operating margin is 40.2% and net margin is 35.5%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $1.4B of net cash. Return on invested capital was 43.2% and return on equity was 48.3%."
+      "Of $2.5B of revenue, $2.4B remained after cost of sales. The 56.2% operating-expense load brought that down to a 40.2% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "The balance sheet carries $1.4B of net cash. Return on invested capital was 43.2% and return on equity was 48.3%. The return leaves room above the cost of capital for growth to compound."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 13.3% a year across the fiscal years in the dataset, and the latest quarter changed +10.2% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 40.2% and return on invested capital of 43.2% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 13.3% a year across the fiscal years in the dataset, and the latest quarter changed +10.2% year over year. Current-year estimates call for $2.6B of revenue and $3.75 of EPS.",
+      "The operating margin of 40.2% and return on invested capital of 43.2% are the filters to watch as revenue scales. The 40.2% operating margin gives the company room to absorb slower growth without a profit reset."
     ],
     "bullets": [
       {
-        "title": "Clinical data",
-        "detail": "Efficacy and safety readouts determine the programme's value. For Exelixis, Inc., the relevant evidence is revenue growth of +9.1%. That is the metric to track in the next filing."
+        "title": "Launch execution",
+        "detail": "New therapies need payer coverage, prescriber adoption and manufacturing scale. The current reading: revenue growth is +9.1%."
       },
       {
-        "title": "Regulatory path",
-        "detail": "Approval and label scope decide the commercial opportunity. For Exelixis, Inc., the relevant evidence is an operating margin of 40.2%. That is the metric to track in the next filing."
+        "title": "Pipeline readouts",
+        "detail": "The operating margin is 40.2%. That is the line the next filing has to move."
       },
       {
-        "title": "Partnerships",
-        "detail": "Collaborations can fund development and validate the science. For Exelixis, Inc., the relevant evidence is a return on invested capital of 43.2%. That is the metric to track in the next filing."
+        "title": "Patent duration",
+        "detail": "The remaining exclusivity period determines how long the cash flow lasts. Return on invested capital is 43.2%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 51.4% in FY2018 to 37.6% in FY2026. The trailing operating margin is 40.2%, the net margin is 35.5% and diluted EPS is $3.34.",
-      "Return on equity was 48.3% and return on invested capital was 43.2%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 48.3% and return on invested capital was 43.2%. Return on invested capital of 43.2% is close to the 48.3% equity return, so the balance sheet explains only part of the difference."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.2B, a 46.5% margin. The balance sheet carries $1.4B of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $8.4M in the latest fiscal year."
+      "Free cash flow over the trailing period was $1.2B, a 46.5% margin. The balance sheet carries $1.4B of net cash. Capital expenditure was 0.3% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow was $884.3M, or 113.0% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $8.4M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 18.5x trailing earnings, 14.5x EV/EBITDA and 6.0x EV/sales. The free-cash-flow yield is 7.1%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BIIB, ETON and GILD; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 18.5x trailing earnings, 14.5x EV/EBITDA and 6.0x EV/sales. The free-cash-flow yield is 7.1%. The 5.4% earnings yield and 7.1% free-cash-flow yield are the two return measures embedded in the price.",
+      "The peer comparison sets the company against VRTX, REGN and VKTX; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "14 analysts contribute to the third-party consensus. The mean target is $61.36, with a range of $41.00 to $78.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $2.6B of revenue and $3.75 of EPS. The estimate revisions in the dataset are 4.5% over 30 days and 6.1% over 90 days. If met, the estimate would mean growth of 2.3% from the current base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Trial failure",
+        "title": "Clinical failure",
         "severity": "High",
-        "detail": "A negative readout can remove most of the equity value.",
+        "detail": "A negative trial can remove most of a programme's value.",
         "watch": "Trial endpoints and readout timing."
       },
       {
-        "title": "Cash runway",
+        "title": "Patent cliff",
         "severity": "High",
-        "detail": "Development costs can force financing.",
-        "watch": "Cash and quarterly burn."
+        "detail": "Loss of exclusivity can reset revenue faster than a new launch replaces it.",
+        "watch": "Patent expiry schedule and generic entry."
       },
       {
-        "title": "Reimbursement",
+        "title": "Pricing and reimbursement",
         "severity": "Medium",
-        "detail": "Payer coverage determines commercial uptake.",
-        "watch": "Pricing and payer decisions."
+        "detail": "Payer coverage and drug-pricing rules can cap revenue per patient.",
+        "watch": "Net price, payer mix and policy changes."
       },
       {
         "title": "Competition",
         "severity": "Medium",
-        "detail": "A better therapy can arrive first or be priced lower.",
+        "detail": "A better or cheaper therapy can take share quickly.",
         "watch": "Competitor data and launch timing."
       },
       {
-        "title": "Dilution",
+        "title": "Manufacturing and safety",
         "severity": "Medium",
-        "detail": "Equity raises fund trials and manufacturing.",
-        "watch": "Share count and financing terms."
+        "detail": "Supply or safety issues can limit a launch.",
+        "watch": "Supply disclosures and adverse events."
       }
     ],
     "watchlist": [
       {
-        "title": "Cash runway",
-        "detail": "The number of quarters funded is a hard constraint."
+        "title": "Launch metrics",
+        "detail": "Prescriptions, payer coverage and inventory reveal the real launch curve."
       },
       {
-        "title": "Trial readouts",
-        "detail": "Binary events drive the equity."
+        "title": "Patent timing",
+        "detail": "The next loss-of-exclusivity date is the hard constraint on the cash flow."
       },
       {
-        "title": "Partner validation",
-        "detail": "A credible partner can de-risk the programme."
+        "title": "Pipeline readouts",
+        "detail": "Late-stage data is the main driver of the out-year value."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Exelixis, Inc. is a Pharma & Biotech company with $2.5B of trailing revenue, an operating margin of 40.2% and a free-cash-flow margin of 46.5%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BIIB, ETON and GILD, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 79/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Exelixis, Inc. produced $2.5B of trailing revenue at a 40.2% operating margin and a 46.5% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
+      "The third-party consensus mean is $61.36 as of 2026-11-25, 8.5% below the latest close; this report does not publish a target of its own. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put cash generation at 97/100 and growth at 55/100, with the composite averaging 79/100. A 97/100 cash generation score against a 55/100 growth score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
-      "How many quarters of cash remain?",
-      "What is the next binary readout?",
-      "How large is the addressable market?",
-      "What does a failed trial leave behind?"
+      "When does the largest patent expire?",
+      "What does a negative trial leave behind?",
+      "How broad is the reimbursement label?",
+      "How much of the valuation is the pipeline?"
     ]
   }
 };

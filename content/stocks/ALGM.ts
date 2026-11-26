@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const ALGM: StockStory = {
   "ticker": "ALGM",
   "kicker": "Semiconductors & Hardware · Semiconductors",
-  "title": "Allegro MicroSystems, Inc. at 159.6x earnings: what the filings support",
-  "dek": "Allegro MicroSystems, Inc. generated $1B of trailing revenue with an operating margin of 7.5%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Allegro MicroSystems, Inc: Magnetic sensors and power ICs into autos and industrials",
+  "dek": "Allegro MicroSystems, Inc. reported $1B of trailing revenue at a 7.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $1B trailing twelve months, +27.9% year over year.",
@@ -13,22 +13,22 @@ export const ALGM: StockStory = {
     "Valuation: 159.6x trailing earnings and 34.7x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/866291/000119312526233537/algm-20260327.htm",
   "irUrl": "https://www.allegromicro.com",
   "bigPicture": {
     "paragraphs": [
       "Allegro MicroSystems, Inc. generated $1B of revenue over the last twelve months, +27.9% versus the prior year. The latest reported quarter was Q2 FY27, with $276.9M of revenue and a 12.8% operating margin. The shares closed at $26.48 on Nov 25, 2026, giving a market capitalization of $4.9B.",
-      "The cycle is driven by inventory, utilisation and the next node or packaging transition. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $4.9B, or 159.6x trailing earnings and 34.7x EV/EBITDA. The shares sit 3% of the way up their 52-week range ($25.03 to $71.77). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "A reportable segment split is not available in the current dataset; the consolidated revenue line is the cleanest unit of analysis. Revenue is disclosed across 7 geographies, with China the largest at 28.0%. The moat is application-specific analog and sensor design, qualified into customer platforms over multi-year cycles.",
+      "At the latest close the equity is valued at $4.9B, or 159.6x trailing earnings and 34.7x EV/EBITDA. The shares sit 3% of the way up their 52-week range ($25.03 to $71.77). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
     ],
-    "quote": "ALGM is a Semiconductors & Hardware business with $1B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Allegro sells magnetic sensors and power ICs into autos and industrials, a content-growth story tied to electrification and automation. The multiple assumes auto content growth resumes; a prolonged inventory correction would compress it."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Allegro MicroSystems, Inc. , together with its subsidiaries, designs, develops, manufactures, and markets sensor integrated circuits (ICs) and application-specific power ICs for sensing, motion control, and power management functions of complex electromechanical or power conversion systems.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 4,250 people, and its coverage group is Semiconductors & Hardware.",
-      "The comparison set includes ACLS, ARM and ASML. Allegro MicroSystems, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Allegro MicroSystems, Inc., together with its subsidiaries, designs, develops, manufactures, and markets sensor integrated circuits (ICs) and application-specific power ICs for sensing, motion control, and power management functions of complex electromechanical or power conversion systems.",
+      "The company reports one consolidated revenue line rather than a segment split. Headcount was 4,250 in the latest filing. With $1B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "Against NVDA, AVGO and AMD, the relevant tests are pricing power, capital intensity and cash conversion."
     ],
     "bullets": [
       {
@@ -47,61 +47,61 @@ export const ALGM: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 47.9%, operating margin is 7.5% and net margin is 3.1%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $88.3M, or 0.6x EBITDA. Return on invested capital was 4.3% and return on equity was 3.1%."
+      "The company kept 47.9% of revenue after cost of sales, or $483.1M. Operating expenses absorbed 40.4% of revenue, leaving a 7.5% operating margin. The operating layer is where the gross profit is either protected or spent.",
+      "Net debt is $88.3M, or 0.6x EBITDA. Return on invested capital was 4.3% and return on equity was 3.1%. That is a thin return; without a margin recovery or a different capital allocation, growth is unlikely to create value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.4% a year across the fiscal years in the dataset, and the latest quarter changed +29.2% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 7.5% and return on invested capital of 4.3% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 5.4% a year across the fiscal years in the dataset, and the latest quarter changed +29.2% year over year. Current-year estimates call for $1.1B of revenue and $1.05 of EPS.",
+      "The next catalyst is content growth in EVs and industrial automation, plus inventory normalization. The operating margin of 7.5% and return on invested capital of 4.3% are the filters to watch as revenue scales. Revenue is growing faster than profit, which means the current margin understates the operating leverage still to come if the model scales."
     ],
     "bullets": [
       {
         "title": "Inventory cycle",
-        "detail": "Inventory restocking and digestion drive near-term orders. For Allegro MicroSystems, Inc., the relevant evidence is revenue growth of +27.9%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +27.9%. Inventory restocking and digestion drive near-term orders."
       },
       {
         "title": "Node and packaging transitions",
-        "detail": "New technology raises content per system. For Allegro MicroSystems, Inc., the relevant evidence is an operating margin of 7.5%. That is the metric to track in the next filing."
+        "detail": "New technology raises content per system. The current reading: the operating margin is 7.5%."
       },
       {
         "title": "Customer design wins",
-        "detail": "Design wins lock in revenue for multiple product generations. For Allegro MicroSystems, Inc., the relevant evidence is a return on invested capital of 4.3%. That is the metric to track in the next filing."
+        "detail": "Return on invested capital is 4.3%. Compare that with the prior year before drawing a conclusion."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 8.1% in FY2020 to 2.1% in FY2026. The trailing operating margin is 7.5%, the net margin is 3.1% and diluted EPS is $0.15.",
-      "Return on equity was 3.1% and return on invested capital was 4.3%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was 3.1% and return on invested capital was 4.3%. With return on equity at 3.1% and return on invested capital at 4.3%, leverage is not the main driver of the gap."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $104.4M, a 10.4% margin. Net debt is $88.3M, or 0.6x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $38.2M in the latest fiscal year."
+      "Free cash flow over the trailing period was $104.4M, a 10.4% margin. Net debt is $88.3M, or 0.6x EBITDA. Capex absorbed 3.8% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $38.2M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 159.6x trailing earnings, 34.7x EV/EBITDA and 5.0x EV/sales. The free-cash-flow yield is 2.1%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against ACLS, ARM and ASML; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 159.6x trailing earnings, 34.7x EV/EBITDA and 5.0x EV/sales. The free-cash-flow yield is 2.1%. Inverting the P/E gives an earnings yield of 0.6%; the cash-flow yield is 2.1%.",
+      "The multiple assumes auto content growth resumes; a prolonged inventory correction would compress it. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "14 analysts contribute to the third-party consensus. The mean target is $47.64, with a range of $40.00 to $62.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $1.1B of revenue and $1.05 of EPS. The estimate revisions in the dataset are -0.8% over 30 days and 1.7% over 90 days. Set against trailing revenue, the estimate implies growth of 10.0%."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
     "items": [
       {
-        "title": "Semiconductor cycle",
+        "title": "The main risk",
         "severity": "High",
-        "detail": "Inventory corrections can cut revenue quickly.",
+        "detail": "Auto production cuts and inventory corrections can hit revenue faster than design wins add it.",
         "watch": "Inventory days and utilisation."
       },
       {
@@ -146,9 +146,9 @@ export const ALGM: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Allegro MicroSystems, Inc. is a Semiconductors & Hardware company with $1B of trailing revenue, an operating margin of 7.5% and a free-cash-flow margin of 10.4%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with ACLS, ARM and ASML, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 34/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Allegro MicroSystems, Inc. produced $1B of trailing revenue at a 7.5% operating margin and a 10.4% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
+      "The consensus target is $47.64 as of 2026-11-25, 79.9% above the latest close; the forecast is theirs, and this report does not adopt it as a target. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put balance sheet at 51/100 and valuation at 10/100, with the composite averaging 34/100. The gap between balance sheet at 51/100 and valuation at 10/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
       "Where are we in the inventory cycle?",

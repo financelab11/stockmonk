@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const CAG: StockStory = {
   "ticker": "CAG",
   "kicker": "Consumer Staples · Packaged Foods",
-  "title": "Conagra Brands, Inc. turns $11.2B of revenue into $877M of free cash flow",
-  "dek": "Conagra Brands, Inc. generated $11.2B of trailing revenue with an operating margin of -15.2%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Conagra Brands, Inc: A packaged-food company with mature brands",
+  "dek": "Conagra Brands, Inc. reported $11.2B of trailing revenue at a -15.2% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $11.2B trailing twelve months, -1.8% year over year.",
@@ -13,22 +13,22 @@ export const CAG: StockStory = {
     "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/23217/000110465926083905/tmb-20260531x10k.htm",
   "irUrl": "https://www.conagrabrands.com",
   "bigPicture": {
     "paragraphs": [
       "Conagra Brands, Inc. generated $11.2B of revenue over the last twelve months, -1.8% versus the prior year. The latest reported quarter was Q1 FY27, with $2.6B of revenue and a 10.3% operating margin. The shares closed at $15.56 on Nov 25, 2026, giving a market capitalization of $7.4B.",
-      "The business depends on traffic, basket size and the cost of serving the next customer. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $7.4B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 39% of the way up their 52-week range ($12.53 to $20.32). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Refrigerated & Frozen contributes 41.1% of the disclosed revenue mix. By geography, Non-US is the largest disclosed market at 8.4% of revenue. Conagra Brands, Inc. competes in Packaged Foods, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $7.4B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 39% of the way up their 52-week range ($12.53 to $20.32). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "CAG is a Consumer Staples business with $11.2B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Conagra is a packaged-food company with mature brands, so volume, pricing and input costs determine whether it can stabilise margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Conagra Brands, Inc. , together with its subsidiaries, operates as a branded consumer packaged goods food company primarily in the United States. Conagra Brands, Inc. is a Consumer Staples company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 17,400 people, and its coverage group is Consumer Staples.",
-      "The comparison set includes CHD, CLX and HRL. Conagra Brands, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Conagra Brands, Inc., together with its subsidiaries, operates as a branded consumer packaged goods food company primarily in the United States. It reports in the Consumer Defensive sector and is classified in Consumer Staples coverage.",
+      "The disclosed mix runs across Refrigerated & Frozen at 41.1%, Grocery & Snacks at 40.9% and Foodservice at 9.9%. Its latest filing lists 17,400 employees. Trailing revenue is $11.2B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "HRL, KHC and LW provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,62 +47,62 @@ export const CAG: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 23.8%, operating margin is -15.2% and net margin is -17.0%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $7.4B, or n/a EBITDA. Return on invested capital was -9.5% and return on equity was -29.8%."
+      "Of $11.2B of revenue, $2.7B remained after cost of sales. The 39.0% operating-expense load brought that down to a -15.2% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "Net debt is $7.4B, or n/a EBITDA. Return on invested capital was -9.5% and return on equity was -29.8%. Negative returns make the growth question secondary to the profitability question."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 2.4% a year across the fiscal years in the dataset, and the latest quarter changed -1.4% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of -15.2% and return on invested capital of -9.5% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 2.4% a year across the fiscal years in the dataset, and the latest quarter changed -1.4% year over year. Current-year estimates call for $10.8B of revenue and $1.45 of EPS.",
+      "The operating margin of -15.2% and return on invested capital of -9.5% are the filters to watch as revenue scales. With revenue down 1.8%, the operating plan is as much about cost as about demand."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Same-store or same-customer growth shows demand without new locations. For Conagra Brands, Inc., the relevant evidence is revenue growth of -1.8%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is -1.8%. A change in that figure would be the first signal of a shift."
       },
       {
         "title": "Unit growth",
-        "detail": "New stores, products or markets add revenue but also fixed costs. For Conagra Brands, Inc., the relevant evidence is an operating margin of -15.2%. That is the metric to track in the next filing."
+        "detail": "New stores, products or markets add revenue but also fixed costs. The operating margin is -15.2%."
       },
       {
         "title": "Margin mix",
-        "detail": "Private label, services and digital orders can lift profitability. For Conagra Brands, Inc., the relevant evidence is a return on invested capital of -9.5%. That is the metric to track in the next filing."
+        "detail": "Return on invested capital is -9.5%. Private label, services and digital orders can lift profitability."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 17.2% in FY2019 to -14.4% in FY2026. The trailing operating margin is -15.2%, the net margin is -17.0% and diluted EPS is -$3.98.",
-      "Return on equity was -29.8% and return on invested capital was -9.5%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was -29.8% and return on invested capital was -9.5%. The losses show up in both return measures, which points to the income statement rather than the capital structure."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $877M, a 7.8% margin. Net debt is $7.4B, or n/a EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $423.4M in the latest fiscal year."
+      "Free cash flow over the trailing period was $877M, a 7.8% margin. Net debt is $7.4B, or n/a EBITDA. Capital expenditure was 3.8% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $423.4M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 1.3x EV/sales. The free-cash-flow yield is 11.8%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against CHD, CLX and HRL; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 1.3x EV/sales. The free-cash-flow yield is 11.8%. Earnings are not a useful anchor here, so the free-cash-flow yield is the cleaner valuation reference.",
+      "The peer comparison sets the company against HRL, KHC and LW; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "15 analysts contribute to the third-party consensus. The mean target is $13.74, with a range of $11.00 to $16.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $10.8B of revenue and $1.45 of EPS. The estimate revisions in the dataset are -0.3% over 30 days and 0.6% over 90 days. The estimate is consistent with a decline of 3.7% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Consumer spending",
+        "title": "Operating losses",
         "severity": "High",
-        "detail": "Discretionary budgets are sensitive to confidence and rates.",
-        "watch": "Comparable sales and transaction counts."
+        "detail": "The trailing operating margin is -15.2%, which means the current cost base is not covered by revenue.",
+        "watch": "Path to operating breakeven and cash runway."
       },
       {
         "title": "Input and labour costs",
@@ -146,9 +146,9 @@ export const CAG: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Conagra Brands, Inc. is a Consumer Staples company with $11.2B of trailing revenue, an operating margin of -15.2% and a free-cash-flow margin of 7.8%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with CHD, CLX and HRL, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 41/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Conagra Brands, Inc. produced $11.2B of trailing revenue at a -15.2% operating margin and a 7.8% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
+      "15 analysts in the third-party survey average $13.74 as of 2026-11-25, 11.7% below the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put valuation at 100/100 and growth at 4/100, with the composite averaging 41/100. A 100/100 valuation score against a 4/100 growth score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
       "Is growth coming from traffic or prices?",

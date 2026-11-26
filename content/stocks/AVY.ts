@@ -3,32 +3,32 @@ import type { StockStory } from "./types";
 export const AVY: StockStory = {
   "ticker": "AVY",
   "kicker": "Materials & Mining · Packaging & Containers",
-  "title": "Avery Dennison Corporation earns an operating margin of 10.4% on $9.4B of revenue",
-  "dek": "Avery Dennison Corporation generated $9.4B of trailing revenue with an operating margin of 10.4%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Avery Dennison Corporation: Labels and packaging materials",
+  "dek": "Avery Dennison Corporation reported $9.4B of trailing revenue at a 10.4% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $9.4B trailing twelve months, +6.8% year over year.",
     "Profitability: 10.4% operating margin and 7.6% net margin.",
-    "Cash: $1B free cash flow, a 11.1% margin, against $3.3B of net debt.",
+    "Cash: $1B free cash flow, an 11.1% margin, against $3.3B of net debt.",
     "Valuation: 20.4x trailing earnings and 13.5x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/8818/000000881826000015/avy-20251231.htm",
   "irUrl": "https://www.averydennison.com",
   "bigPicture": {
     "paragraphs": [
       "Avery Dennison Corporation generated $9.4B of revenue over the last twelve months, +6.8% versus the prior year. The latest reported quarter was Q3 FY26, with $2.3B of revenue and a 10.3% operating margin. The shares closed at $191.35 on Nov 25, 2026, giving a market capitalization of $14.4B.",
-      "Revenue and margins move with commodity prices, volumes and the cost of energy and feedstock. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $14.4B, or 20.4x trailing earnings and 13.5x EV/EBITDA. The shares sit 83% of the way up their 52-week range ($152.42 to $199.54). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Materials Group is 68.8% of the disclosed revenue mix. United States supplies 31.1% of disclosed revenue, the largest single geography in the filing. Avery Dennison Corporation competes in Packaging & Containers, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $14.4B, or 20.4x trailing earnings and 13.5x EV/EBITDA. The shares sit 83% of the way up their 52-week range ($152.42 to $199.54). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
     ],
-    "quote": "AVY is a Materials & Mining business with $9.4B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Avery Dennison makes labels and packaging materials, a GDP-plus business where pricing, volume and the digital-ID mix drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
       "Avery Dennison Corporation operates as a materials science and digital identification solutions company in the North America, Europe, the Middle East, North Africa, Asia, and Latin America. It offers pressure-sensitive label materials, which consist of papers, plastic films, and metal foils; performance tapes products, including mechanical fasteners, which are precision-extruded and injection-molded plastic devices; and other pressure-sensitive adhesive-based materials and converted products under the Fasson, JAC, and Avery Dennison brands.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 35,000 people, and its coverage group is Materials & Mining.",
-      "The comparison set includes AEM, ALB and APD. Avery Dennison Corporation is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "The disclosed mix runs across Materials Group at 68.8% and Solutions Group at 31.2%. The last disclosure put headcount at 35,000 people. The revenue base is $9.4B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "The closest listed comparisons are BALL and CCK; the useful question is how Avery Dennison Corporation's margin and returns compare with theirs, not how fast the addressable market is growing."
     ],
     "bullets": [
       {
@@ -47,56 +47,56 @@ export const AVY: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 28.8%, operating margin is 10.4% and net margin is 7.6%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $3.3B, or 2.5x EBITDA. Return on invested capital was 11.8% and return on equity was 29.7%."
+      "Gross margin is 28.8%, operating margin is 10.4% and net margin is 7.6%. Gross profit was $2.7B, and 18.4% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
+      "Net debt is $3.3B, or 2.5x EBITDA. Return on invested capital was 11.8% and return on equity was 29.7%. That is neither clearly good nor clearly bad without knowing the cost of capital."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.1% a year across the fiscal years in the dataset, and the latest quarter changed +5.2% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 10.4% and return on invested capital of 11.8% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 3.1% a year across the fiscal years in the dataset, and the latest quarter changed +5.2% year over year. Current-year estimates call for $9.4B of revenue and $10.19 of EPS.",
+      "The operating margin of 10.4% and return on invested capital of 11.8% are the filters to watch as revenue scales. Growth of 6.8% against a 10.4% operating margin is the balance the next few quarters have to protect."
     ],
     "bullets": [
       {
         "title": "Volume",
-        "detail": "Shipments show underlying industrial demand. For Avery Dennison Corporation, the relevant evidence is revenue growth of +6.8%. That is the metric to track in the next filing."
+        "detail": "Shipments show underlying industrial demand. Revenue growth is +6.8%."
       },
       {
         "title": "Price and mix",
-        "detail": "Product mix and pricing determine margin per ton. For Avery Dennison Corporation, the relevant evidence is an operating margin of 10.4%. That is the metric to track in the next filing."
+        "detail": "The operating margin is 10.4%. Product mix and pricing determine margin per ton."
       },
       {
         "title": "Cost position",
-        "detail": "Low-cost assets can earn through the cycle. For Avery Dennison Corporation, the relevant evidence is a return on invested capital of 11.8%. That is the metric to track in the next filing."
+        "detail": "Low-cost assets can earn through the cycle. The current reading: return on invested capital is 11.8%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 7.7% in FY2018 to 10.4% in FY2025. The trailing operating margin is 10.4%, the net margin is 7.6% and diluted EPS is $9.24.",
-      "Return on equity was 29.7% and return on invested capital was 11.8%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 29.7% and return on invested capital was 11.8%. Equity returns exceed invested-capital returns by 17.9%, which is more than operating performance alone would explain. A peer median is a useful anchor, but the company's own trajectory is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1B, a 11.1% margin. Net debt is $3.3B, or 2.5x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $169M in the latest fiscal year."
+      "Free cash flow over the trailing period was $1B, an 11.1% margin. Net debt is $3.3B, or 2.5x EBITDA. With capital spending at 1.8% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow was $881.4M, or 128.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $169M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 20.4x trailing earnings, 13.5x EV/EBITDA and 1.9x EV/sales. The free-cash-flow yield is 7.2%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against AEM, ALB and APD; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 20.4x trailing earnings, 13.5x EV/EBITDA and 1.9x EV/sales. The free-cash-flow yield is 7.2%. The trailing earnings yield is 4.9%, against a free-cash-flow yield of 7.2%.",
+      "The peer comparison sets the company against BALL and CCK; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "10 analysts contribute to the third-party consensus. The mean target is $203.30, with a range of $182.00 to $230.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $9.4B of revenue and $10.19 of EPS. The estimate revisions in the dataset are 0.2% over 30 days and 0.3% over 90 days. That implies growth of 0.2% over the trailing twelve months."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
         "title": "Commodity cycle",
@@ -146,9 +146,9 @@ export const AVY: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Avery Dennison Corporation is a Materials & Mining company with $9.4B of trailing revenue, an operating margin of 10.4% and a free-cash-flow margin of 11.1%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with AEM, ALB and APD, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 41/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Avery Dennison Corporation produced $9.4B of trailing revenue at a 10.4% operating margin and an 11.1% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
+      "Third-party analysts put the mean target at $203.30 as of 2026-11-25, 6.2% above the latest close; it is a consensus view, not a recommendation from Stockmonk. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
+      "The factor percentiles put valuation at 66/100 and balance sheet at 21/100, with the composite averaging 41/100. The average hides a strong valuation reading and a weak balance sheet one, which is why the spread is the more useful description."
     ],
     "questions": [
       "What is the mid-cycle margin?",

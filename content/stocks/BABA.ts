@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const BABA: StockStory = {
   "ticker": "BABA",
   "kicker": "Internet Platforms · Internet Retail",
-  "title": "What Alibaba Group Holding Limited's latest filings reveal about growth, margins and cash",
-  "dek": "Alibaba Group Holding Limited generated $148.5B of trailing revenue with an operating margin of 4.9%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Alibaba Group Holding Limited: A Chinese e-commerce and cloud group whose value depends on GMV",
+  "dek": "Alibaba Group Holding Limited reported $148.5B of trailing revenue at a 4.9% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $148.5B trailing twelve months, +8.1% year over year.",
@@ -13,27 +13,27 @@ export const BABA: StockStory = {
     "Valuation: 14.1x trailing earnings and 14.5x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm",
   "irUrl": "https://www.alibabagroup.com",
   "bigPicture": {
     "paragraphs": [
-      "Alibaba Group Holding Limited generated $148.5B of revenue over the last twelve months, +8.1% versus the prior year. A dated quarterly result is not available in the current dataset. The shares closed at $85.19 on Nov 25, 2026, giving a market capitalization of $211.9B.",
-      "The business is judged on whether it can keep converting a technical advantage into recurring revenue. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $211.9B, or 14.1x trailing earnings and 14.5x EV/EBITDA. The shares sit 4% of the way up their 52-week range ($80.96 to $181.10). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Alibaba Group Holding Limited generated $148.5B of revenue over the last twelve months, +8.1% versus the prior year. A current-quarter revenue line is not available in the extract. The shares closed at $85.19 on Nov 25, 2026, giving a market capitalization of $211.9B.",
+      "The largest disclosed segment is International Digital Commerce Group at 97.1% of revenue. A regional breakdown is missing from the current filing extract, so the analysis stays at the consolidated level.",
+      "At the latest close the equity is valued at $211.9B, or 14.1x trailing earnings and 14.5x EV/EBITDA. The shares sit 4% of the way up their 52-week range ($80.96 to $181.10). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
     ],
-    "quote": "BABA is an Internet Platforms business with $148.5B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Alibaba is a Chinese e-commerce and cloud group whose value depends on GMV, take rate, cloud growth and the regulatory environment."
   },
   "whatItDoes": {
     "paragraphs": [
       "Alibaba Group Holding Limited, through its subsidiaries, provides technology infrastructure and marketing reach to help merchants, brands, retailers, and other businesses in the People's Republic of China and internationally. It operates through the Alibaba China E-Commerce Group, Alibaba International Digital Commerce Group, Cloud Intelligence Group, and All Others segments.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 133,073 people, and its coverage group is Internet Platforms.",
-      "The comparison set includes BIDU, CART and CHWY. Alibaba Group Holding Limited is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "There is no separate segment disclosure in the current extract. The company employed 133,073 people at the last reporting date. With $148.5B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "The peer set is AMZN, CART and CHWY; similar businesses can earn very different returns on capital, which is the comparison that matters."
     ],
     "bullets": [
       {
         "title": "Revenue base",
-        "detail": "$148.5B on a trailing-twelve-month basis, with the latest quarter at no dated quarter."
+        "detail": "$148.5B on a trailing-twelve-month basis; a dated quarter is not available in the dataset."
       },
       {
         "title": "Profitability",
@@ -47,114 +47,114 @@ export const BABA: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 39.8%, operating margin is 4.9% and net margin is 10.1%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $33.5B of net cash. Return on invested capital was 3.6% and return on equity was 9.8%."
+      "The company kept 39.8% of revenue after cost of sales, or $59.1B. Operating expenses absorbed 34.9% of revenue, leaving a 4.9% operating margin. The operating layer is where the gross profit is either protected or spent.",
+      "The balance sheet carries $33.5B of net cash. Return on invested capital was 3.6% and return on equity was 9.8%. That is a thin return; without a margin recovery or a different capital allocation, growth is unlikely to create value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 14.9% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 4.9% and return on invested capital of 3.6% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 14.9% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. Current-year estimates point to 8.9% revenue growth, with EPS of 43.69 in the reporting currency.",
+      "The operating margin of 4.9% and return on invested capital of 3.6% are the filters to watch as revenue scales. The 8.1% revenue pace and 4.9% margin have to move together for the earnings path to improve."
     ],
     "bullets": [
       {
-        "title": "Product cycle",
-        "detail": "New products and platform transitions create refresh demand and pricing power. For Alibaba Group Holding Limited, the relevant evidence is revenue growth of +8.1%. That is the metric to track in the next filing."
+        "title": "User and engagement growth",
+        "detail": "More active users and frequency expand the inventory available to monetise. The current reading: revenue growth is +8.1%."
       },
       {
-        "title": "Customer expansion",
-        "detail": "Land-and-expand selling raises revenue per existing customer and lengthens the relationship. For Alibaba Group Holding Limited, the relevant evidence is an operating margin of 4.9%. That is the metric to track in the next filing."
+        "title": "Take rate",
+        "detail": "The operating margin is 4.9%. The next data point will show whether the trend is intact."
       },
       {
-        "title": "Operating leverage",
-        "detail": "Incremental revenue can carry high gross margins once development and sales costs are in place. For Alibaba Group Holding Limited, the relevant evidence is a return on invested capital of 3.6%."
+        "title": "Adjacent services",
+        "detail": "Advertising, logistics, payments and subscriptions can lift revenue per user. Return on invested capital is 3.6%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 15.1% in FY2019 to 4.9% in FY2026. The trailing operating margin is 4.9%, the net margin is 10.1% and diluted EPS is $0.80.",
-      "Return on equity was 9.8% and return on invested capital was 3.6%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 9.8% and return on invested capital was 3.6%. With return on equity at 9.8% and return on invested capital at 3.6%, leverage is not the main driver of the gap."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $10.9B, a 7.4% margin. The balance sheet carries $33.5B of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $126.8M in the latest fiscal year."
+      "Free cash flow over the trailing period was $10.9B, a 7.4% margin. The balance sheet carries $33.5B of net cash. Capex absorbed 0.1% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow was $11.1B, or 73.6% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $126.8M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 14.1x trailing earnings, 14.5x EV/EBITDA and 1.2x EV/sales. The free-cash-flow yield is 5.2%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BIDU, CART and CHWY; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 14.1x trailing earnings, 14.5x EV/EBITDA and 1.2x EV/sales. The free-cash-flow yield is 5.2%. Inverting the P/E gives an earnings yield of 7.1%; the cash-flow yield is 5.2%.",
+      "The peer comparison sets the company against AMZN, CART and CHWY; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "40 analysts contribute to the third-party consensus. The mean target is $157.73, with a range of $78.09 to $205.50. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates point to 8.9% revenue growth, with EPS of 43.69 in the reporting currency. The estimate revisions in the dataset are -1.7% over 30 days and -2.2% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Technology substitution",
+        "title": "Competition for users",
         "severity": "High",
-        "detail": "A faster or cheaper architecture can reset the competitive position quickly.",
-        "watch": "Product roadmaps, design wins and customer concentration."
+        "detail": "Switching costs are low and new formats can take attention quickly.",
+        "watch": "Monthly users, engagement and churn."
       },
       {
-        "title": "Customer concentration",
+        "title": "Take-rate pressure",
         "severity": "High",
-        "detail": "A small number of large buyers can swing revenue and pricing.",
-        "watch": "Top-customer disclosures and order trends."
+        "detail": "Merchants and users can push back on fees.",
+        "watch": "Take rate and merchant retention."
+      },
+      {
+        "title": "Regulation",
+        "severity": "Medium",
+        "detail": "Platform, privacy and gig-labour rules can change the model.",
+        "watch": "Regulatory actions and market-by-market rules."
+      },
+      {
+        "title": "Profitability",
+        "severity": "Medium",
+        "detail": "Growth can be bought with incentives that disappear when spending slows.",
+        "watch": "Contribution margin and sales efficiency."
       },
       {
         "title": "Valuation",
         "severity": "Medium",
-        "detail": "High expectations leave less room for a growth disappointment.",
-        "watch": "Forward estimates versus the current multiple."
-      },
-      {
-        "title": "Supply chain",
-        "severity": "Medium",
-        "detail": "Advanced components and manufacturing capacity can constrain shipments.",
-        "watch": "Lead times, inventory and supplier concentration."
-      },
-      {
-        "title": "Regulation and export controls",
-        "severity": "Medium",
-        "detail": "Cross-border rules can remove addressable market or raise compliance costs.",
-        "watch": "Export-licence changes and geographic mix."
+        "detail": "High multiples assume durable user growth and take rate.",
+        "watch": "Forward revenue and margin guidance."
       }
     ],
     "watchlist": [
       {
-        "title": "Growth durability",
-        "detail": "Compare revenue growth with the prior four quarters."
+        "title": "GMV and take rate",
+        "detail": "Separate transaction growth from the share retained."
       },
       {
-        "title": "Gross margin",
-        "detail": "A falling gross margin can signal pricing pressure or a richer hardware mix."
+        "title": "User growth",
+        "detail": "Net adds and engagement show whether the audience is durable."
       },
       {
-        "title": "Customer concentration",
-        "detail": "Track large-customer disclosures and order momentum."
+        "title": "Contribution margin",
+        "detail": "Unit economics reveal whether growth creates value."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Alibaba Group Holding Limited is an Internet Platforms company with $148.5B of trailing revenue, an operating margin of 4.9% and a free-cash-flow margin of 7.4%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BIDU, CART and CHWY, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 49/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Alibaba Group Holding Limited produced $148.5B of trailing revenue at a 4.9% operating margin and a 7.4% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
+      "The published consensus mean is $157.73 (2026-11-25), 85.2% above the latest close; this report does not publish a target of its own. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put balance sheet at 88/100 and profitability at 24/100, with the composite averaging 49/100. The gap between balance sheet at 88/100 and profitability at 24/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
-      "How much of growth is volume versus price?",
-      "What would a pause in customer spending do to margins?",
-      "Is the product advantage durable or one cycle long?",
-      "How much of the valuation depends on the next product cycle?"
+      "How much growth is users versus take rate?",
+      "What does a slowdown in incentives do to volume?",
+      "How defensible is the audience?",
+      "When does the platform reach durable profit?"
     ]
   }
 };

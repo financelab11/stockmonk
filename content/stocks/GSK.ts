@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const GSK: StockStory = {
   "ticker": "GSK",
   "kicker": "Pharma & Biotech · Drug Manufacturers - General",
-  "title": "GSK plc. at 12.1x earnings: what the filings support",
-  "dek": "GSK plc. generated $44B of trailing revenue with an operating margin of 24.3%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "GSK plc: A vaccines and specialty-medicines company whose value depends on vaccine franchises",
+  "dek": "GSK plc. reported $44B of trailing revenue at a 24.3% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $44B trailing twelve months, +11.7% year over year.",
@@ -13,27 +13,27 @@ export const GSK: StockStory = {
     "Valuation: 12.1x trailing earnings and 8.8x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1131399/000113139926000004/gsk-20251231.htm",
   "irUrl": "https://www.gsk.com",
   "bigPicture": {
     "paragraphs": [
-      "GSK plc. generated $44B of revenue over the last twelve months, +11.7% versus the prior year. A dated quarterly result is not available in the current dataset. The shares closed at $50.88 on Nov 25, 2026, giving a market capitalization of $102.6B.",
-      "The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $102.6B, or 12.1x trailing earnings and 8.8x EV/EBITDA. The shares sit 32% of the way up their 52-week range ($45.83 to $61.70). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "GSK plc. generated $44B of revenue over the last twelve months, +11.7% versus the prior year. The dataset does not carry a dated quarterly result for the latest period. The shares closed at $50.88 on Nov 25, 2026, giving a market capitalization of $102.6B.",
+      "A reportable segment split is not available in the current dataset; the consolidated revenue line is the cleanest unit of analysis. The extract carries a consolidated revenue line without a regional split.",
+      "At the latest close the equity is valued at $102.6B, or 12.1x trailing earnings and 8.8x EV/EBITDA. The shares sit 32% of the way up their 52-week range ($45.83 to $61.70). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
     ],
-    "quote": "GSK is a Pharma & Biotech business with $44B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "GSK is a vaccines and specialty-medicines company whose value depends on vaccine franchises, oncology launches and the patent timetable."
   },
   "whatItDoes": {
     "paragraphs": [
       "GSK plc, together with its subsidiaries, engages in the research, development, and manufacture of vaccines, specialty medicines, and general medicines to prevent and treat disease in the United Kingdom, the United States, and internationally. It operates through Commercial Operations and Total R&D segments.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 66,841 people, and its coverage group is Pharma & Biotech.",
-      "The comparison set includes BIIB, ETON and GILD. GSK plc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "The company reports one consolidated revenue line rather than a segment split. Headcount was 66,841 in the latest filing. With $44B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "Against LLY, JNJ and ABBV, the relevant tests are pricing power, capital intensity and cash conversion."
     ],
     "bullets": [
       {
         "title": "Revenue base",
-        "detail": "$44B on a trailing-twelve-month basis, with the latest quarter at no dated quarter."
+        "detail": "$44B on a trailing-twelve-month basis; a dated quarter is not available in the dataset."
       },
       {
         "title": "Profitability",
@@ -47,114 +47,114 @@ export const GSK: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 72.4%, operating margin is 24.3% and net margin is 19.3%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $19.3B, or 1.4x EBITDA. Return on invested capital was 21.8% and return on equity was 39.4%."
+      "The company kept 72.4% of revenue after cost of sales, or $31.8B. Operating expenses absorbed 48.1% of revenue, leaving a 24.3% operating margin. The operating layer is where the gross profit is either protected or spent.",
+      "Net debt is $19.3B, or 1.4x EBITDA. Return on invested capital was 21.8% and return on equity was 39.4%. That level earns well above a typical cost of capital."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 1.7% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 24.3% and return on invested capital of 21.8% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 1.7% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. Current-year estimates call for $33.8B of revenue and $4.76 of EPS.",
+      "The operating margin of 24.3% and return on invested capital of 21.8% are the filters to watch as revenue scales. The 11.7% revenue pace and 24.3% margin have to move together for the earnings path to improve."
     ],
     "bullets": [
       {
-        "title": "Clinical data",
-        "detail": "Efficacy and safety readouts determine the programme's value. For GSK plc., the relevant evidence is revenue growth of +11.7%. That is the metric to track in the next filing."
+        "title": "Launch execution",
+        "detail": "Revenue growth is +11.7%. New therapies need payer coverage, prescriber adoption and manufacturing scale."
       },
       {
-        "title": "Regulatory path",
-        "detail": "Approval and label scope decide the commercial opportunity. For GSK plc., the relevant evidence is an operating margin of 24.3%. That is the metric to track in the next filing."
+        "title": "Pipeline readouts",
+        "detail": "Late-stage data can extend the growth runway or reset it. The current reading: the operating margin is 24.3%."
       },
       {
-        "title": "Partnerships",
-        "detail": "Collaborations can fund development and validate the science. For GSK plc., the relevant evidence is a return on invested capital of 21.8%. That is the metric to track in the next filing."
+        "title": "Patent duration",
+        "detail": "Return on invested capital is 21.8%. That is the line the next filing has to move."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 17.8% in FY2018 to 24.3% in FY2025. The trailing operating margin is 24.3%, the net margin is 19.3% and diluted EPS is $1.87.",
-      "Return on equity was 39.4% and return on invested capital was 21.8%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 39.4% and return on invested capital was 21.8%. Return on equity of 39.4% is above the 21.8% return on invested capital, a gap that leverage or acquisition goodwill can explain."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $8.6B, a 19.6% margin. Net debt is $19.3B, or 1.4x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.8B in the latest fiscal year."
+      "Free cash flow over the trailing period was $8.6B, a 19.6% margin. Net debt is $19.3B, or 1.4x EBITDA. Capex absorbed 4.1% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow was $10.4B, or 123.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.8B in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 12.1x trailing earnings, 8.8x EV/EBITDA and 2.8x EV/sales. The free-cash-flow yield is 8.4%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BIIB, ETON and GILD; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 12.1x trailing earnings, 8.8x EV/EBITDA and 2.8x EV/sales. The free-cash-flow yield is 8.4%. Inverting the P/E gives an earnings yield of 8.3%; the cash-flow yield is 8.4%.",
+      "The peer comparison sets the company against LLY, JNJ and ABBV; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "9 analysts contribute to the third-party consensus. The mean target is $59.12, with a range of $49.00 to $70.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $33.8B of revenue and $4.76 of EPS. The estimate revisions in the dataset are -0.7% over 30 days and 0.2% over 90 days. Set against trailing revenue, the estimate implies a decline of 23.1%."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Trial failure",
+        "title": "Clinical failure",
         "severity": "High",
-        "detail": "A negative readout can remove most of the equity value.",
+        "detail": "A negative trial can remove most of a programme's value.",
         "watch": "Trial endpoints and readout timing."
       },
       {
-        "title": "Cash runway",
+        "title": "Patent cliff",
         "severity": "High",
-        "detail": "Development costs can force financing.",
-        "watch": "Cash and quarterly burn."
+        "detail": "Loss of exclusivity can reset revenue faster than a new launch replaces it.",
+        "watch": "Patent expiry schedule and generic entry."
       },
       {
-        "title": "Reimbursement",
+        "title": "Pricing and reimbursement",
         "severity": "Medium",
-        "detail": "Payer coverage determines commercial uptake.",
-        "watch": "Pricing and payer decisions."
+        "detail": "Payer coverage and drug-pricing rules can cap revenue per patient.",
+        "watch": "Net price, payer mix and policy changes."
       },
       {
         "title": "Competition",
         "severity": "Medium",
-        "detail": "A better therapy can arrive first or be priced lower.",
+        "detail": "A better or cheaper therapy can take share quickly.",
         "watch": "Competitor data and launch timing."
       },
       {
-        "title": "Dilution",
+        "title": "Manufacturing and safety",
         "severity": "Medium",
-        "detail": "Equity raises fund trials and manufacturing.",
-        "watch": "Share count and financing terms."
+        "detail": "Supply or safety issues can limit a launch.",
+        "watch": "Supply disclosures and adverse events."
       }
     ],
     "watchlist": [
       {
-        "title": "Cash runway",
-        "detail": "The number of quarters funded is a hard constraint."
+        "title": "Launch metrics",
+        "detail": "Prescriptions, payer coverage and inventory reveal the real launch curve."
       },
       {
-        "title": "Trial readouts",
-        "detail": "Binary events drive the equity."
+        "title": "Patent timing",
+        "detail": "The next loss-of-exclusivity date is the hard constraint on the cash flow."
       },
       {
-        "title": "Partner validation",
-        "detail": "A credible partner can de-risk the programme."
+        "title": "Pipeline readouts",
+        "detail": "Late-stage data is the main driver of the out-year value."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "GSK plc. is a Pharma & Biotech company with $44B of trailing revenue, an operating margin of 24.3% and a free-cash-flow margin of 19.6%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BIIB, ETON and GILD, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 67/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "GSK plc. produced $44B of trailing revenue at a 24.3% operating margin and a 19.6% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
+      "The consensus target is $59.12 as of 2026-11-25, 16.2% above the latest close; that is the analysts' view, attributed and dated, not a Stockmonk target. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put valuation at 87/100 and balance sheet at 36/100, with the composite averaging 67/100. The gap between valuation at 87/100 and balance sheet at 36/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
-      "How many quarters of cash remain?",
-      "What is the next binary readout?",
-      "How large is the addressable market?",
-      "What does a failed trial leave behind?"
+      "When does the largest patent expire?",
+      "What does a negative trial leave behind?",
+      "How broad is the reimbursement label?",
+      "How much of the valuation is the pipeline?"
     ]
   }
 };

@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const HEI: StockStory = {
   "ticker": "HEI",
   "kicker": "Aerospace & Defense · Aerospace & Defense",
-  "title": "HEICO Corporation: an aerospace & defense business with +20.7% revenue growth",
-  "dek": "HEICO Corporation generated $5.2B of trailing revenue with an operating margin of 24.0%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "HEICO Corporation: Aftermarket aerospace parts and electronic technologies",
+  "dek": "HEICO Corporation reported $5.2B of trailing revenue at a 24.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $5.2B trailing twelve months, +20.7% year over year.",
@@ -13,22 +13,22 @@ export const HEI: StockStory = {
     "Valuation: 55.1x trailing earnings and 33.5x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/46619/000004661925000082/hei-20251031.htm",
   "irUrl": "https://www.heico.com",
   "bigPicture": {
     "paragraphs": [
       "HEICO Corporation generated $5.2B of revenue over the last twelve months, +20.7% versus the prior year. The latest reported quarter was Q3 FY26, with $1.4B of revenue and a 25.1% operating margin. The shares closed at $334.46 on Nov 25, 2026, giving a market capitalization of $46.7B.",
-      "Revenue is tied to capital spending, backlogs and the ability to pass through input costs. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $46.7B, or 55.1x trailing earnings and 33.5x EV/EBITDA. The shares sit 65% of the way up their 52-week range ($256.11 to $376.86). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The largest disclosed segment is Flight Support Group at 69.5% of revenue. Geographically, North America leads at 61.9% of the disclosed split. HEICO Corporation competes in Aerospace & Defense, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $46.7B, or 55.1x trailing earnings and 33.5x EV/EBITDA. The shares sit 65% of the way up their 52-week range ($256.11 to $376.86). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
     ],
-    "quote": "HEI is an Aerospace & Defense business with $5.2B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "HEICO sells aftermarket aerospace parts and electronic technologies, a niche business where PMA approvals, flight hours and acquisitions drive growth."
   },
   "whatItDoes": {
     "paragraphs": [
       "HEICO Corporation provides aerospace, defense, and electronic related products and services in the United States and internationally. Its Flight Support Group segment offers jet engine and aircraft component replacement parts; thermal insulation blankets and parts; renewable/reusable insulation systems; and specialty components and assemblies.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 11,100 people, and its coverage group is Aerospace & Defense.",
-      "The comparison set includes DRS, GD and HII. HEICO Corporation is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "The disclosed mix runs across Flight Support Group at 69.5% and Electronic Technologies Group at 31.5%. The company employed 11,100 people at the last reporting date. With $5.2B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "The peer set is GE, RTX and HWM; similar businesses can earn very different returns on capital, which is the comparison that matters."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const HEI: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 39.8%, operating margin is 24.0% and net margin is 16.4%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $2.3B, or 1.6x EBITDA. Return on invested capital was 13.6% and return on equity was 17.1%."
+      "The company kept 39.8% of revenue after cost of sales, or $2.1B. Operating expenses absorbed 15.8% of revenue, leaving a 24.0% operating margin. The operating layer is where the gross profit is either protected or spent.",
+      "Net debt is $2.3B, or 1.6x EBITDA. Return on invested capital was 13.6% and return on equity was 17.1%. The return is close enough to the cost of capital that small changes in margin matter."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 14.1% a year across the fiscal years in the dataset, and the latest quarter changed +23.1% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 24.0% and return on invested capital of 13.6% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 14.1% a year across the fiscal years in the dataset, and the latest quarter changed +23.1% year over year. Current-year estimates call for $5.4B of revenue and $6.36 of EPS.",
+      "The operating margin of 24.0% and return on invested capital of 13.6% are the filters to watch as revenue scales. The 20.7% revenue pace and 24.0% margin have to move together for the earnings path to improve."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Orders already booked provide visibility into future revenue. For HEICO Corporation, the relevant evidence is revenue growth of +20.7%. That is the metric to track in the next filing."
+        "detail": "Contracted orders provide visibility into future revenue. The current reading: revenue growth is +20.7%."
       },
       {
-        "title": "Aftermarket and services",
-        "detail": "Recurring service revenue can be more profitable than equipment. For HEICO Corporation, the relevant evidence is an operating margin of 24.0%. That is the metric to track in the next filing."
+        "title": "Budget and supplementals",
+        "detail": "The operating margin is 24.0%. The trend in that figure matters more than its level."
       },
       {
-        "title": "Price and productivity",
-        "detail": "Pricing actions and cost programmes protect margins through cycles. For HEICO Corporation, the relevant evidence is a return on invested capital of 13.6%. That is the metric to track in the next filing."
+        "title": "Programme execution",
+        "detail": "Deliveries, milestones and cost control determine margins on fixed-price work. Return on invested capital is 13.6%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 21.2% in FY2018 to 22.7% in FY2025. The trailing operating margin is 24.0%, the net margin is 16.4% and diluted EPS is $6.01.",
-      "Return on equity was 17.1% and return on invested capital was 13.6%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 17.1% and return on invested capital was 13.6%. With return on equity at 17.1% and return on invested capital at 13.6%, leverage is not the main driver of the gap."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1B, a 19.9% margin. Net debt is $2.3B, or 1.6x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $72.9M in the latest fiscal year."
+      "Free cash flow over the trailing period was $1B, a 19.9% margin. Net debt is $2.3B, or 1.6x EBITDA. Capex absorbed 1.4% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow was $934.3M, or 135.3% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $72.9M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 55.1x trailing earnings, 33.5x EV/EBITDA and 9.5x EV/sales. The free-cash-flow yield is 2.2%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against DRS, GD and HII; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 55.1x trailing earnings, 33.5x EV/EBITDA and 9.5x EV/sales. The free-cash-flow yield is 2.2%. Inverting the P/E gives an earnings yield of 1.8%; the cash-flow yield is 2.2%.",
+      "The peer comparison sets the company against GE, RTX and HWM; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "20 analysts contribute to the third-party consensus. The mean target is $390.70, with a range of $294.00 to $491.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $5.4B of revenue and $6.36 of EPS. The estimate revisions in the dataset are 0.3% over 30 days and 4.1% over 90 days. If met, the estimate would mean growth of 4.4% from the current base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Capital-spending cycle",
+        "title": "Budget cycle",
         "severity": "High",
-        "detail": "Industrial demand falls when customers delay projects.",
-        "watch": "Order trends and backlog conversion."
+        "detail": "Continuing resolutions and priorities can delay awards.",
+        "watch": "Budget markers and supplemental packages."
       },
       {
-        "title": "Input costs",
+        "title": "Contract concentration",
         "severity": "High",
-        "detail": "Steel, freight and labour can outrun price increases.",
-        "watch": "Gross margin and price-cost spread."
+        "detail": "A few programmes or agencies can dominate revenue.",
+        "watch": "Backlog concentration and award timing."
       },
       {
-        "title": "Execution",
+        "title": "Fixed-price execution",
         "severity": "Medium",
-        "detail": "Project delays and cost overruns can hit margins.",
-        "watch": "Segment margins and project disclosures."
+        "detail": "Cost overruns on fixed-price contracts can hit margins.",
+        "watch": "Segment margins and programme charges."
       },
       {
-        "title": "M&A integration",
+        "title": "Supply chain",
         "severity": "Medium",
-        "detail": "Acquisitions can dilute returns if synergies disappoint.",
-        "watch": "Organic growth and acquired-margin trends."
+        "detail": "Specialty components and labor can constrain deliveries.",
+        "watch": "Lead times and supplier concentration."
       },
       {
         "title": "Valuation",
         "severity": "Medium",
-        "detail": "Cyclical earnings can make trough multiples look cheap.",
-        "watch": "Mid-cycle margins and order momentum."
+        "detail": "Defense multiples can compress when budget growth slows.",
+        "watch": "Backlog growth and forward revenue."
       }
     ],
     "watchlist": [
       {
-        "title": "Backlog",
-        "detail": "Bookings and conversion show whether demand is holding."
+        "title": "Book-to-bill",
+        "detail": "A ratio above one shows orders are outpacing revenue."
       },
       {
-        "title": "Price-cost spread",
-        "detail": "Watch whether pricing keeps up with inputs."
+        "title": "Programme milestones",
+        "detail": "Deliveries and reviews determine when backlog becomes cash."
       },
       {
-        "title": "Segment margin",
-        "detail": "Mix and execution can move margins before revenue does."
+        "title": "Budget",
+        "detail": "Appropriations and supplementals are the leading demand signal."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "HEICO Corporation is an Aerospace & Defense company with $5.2B of trailing revenue, an operating margin of 24.0% and a free-cash-flow margin of 19.9%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with DRS, GD and HII, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 49/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "HEICO Corporation produced $5.2B of trailing revenue at a 24.0% operating margin and a 19.9% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
+      "The published consensus mean is $390.70 (2026-11-25), 16.8% above the latest close; this report does not publish a target of its own. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put profitability at 67/100 and valuation at 16/100, with the composite averaging 50/100. The gap between profitability at 67/100 and valuation at 16/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
-      "How much revenue is recurring versus project-based?",
-      "Is the backlog growing or being consumed?",
-      "Can pricing hold if input costs rise?",
-      "What does a trough-cycle margin look like?"
+      "How much backlog converts in the next year?",
+      "Which programmes are fixed-price?",
+      "How dependent is revenue on one agency?",
+      "What does a continuing resolution delay?"
     ]
   }
 };

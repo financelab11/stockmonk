@@ -4,7 +4,7 @@ export const ALNY: StockStory = {
   "ticker": "ALNY",
   "kicker": "Pharma & Biotech · Biotechnology",
   "title": "How Alnylam Pharmaceuticals, Inc. makes money and where the cash goes",
-  "dek": "Alnylam Pharmaceuticals, Inc. generated $3.8B of trailing revenue with an operating margin of 18.4%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "dek": "Alnylam Pharmaceuticals, Inc. reported $3.8B of trailing revenue at an 18.4% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $3.8B trailing twelve months, +19.8% year over year.",
@@ -13,22 +13,22 @@ export const ALNY: StockStory = {
     "Valuation: 8.3x trailing earnings and 37.9x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1178670/000162828026007497/alny-20251231.htm",
   "irUrl": "https://www.alnylam.com",
   "bigPicture": {
     "paragraphs": [
       "Alnylam Pharmaceuticals, Inc. generated $3.8B of revenue over the last twelve months, +19.8% versus the prior year. The latest reported quarter was Q3 FY26, with $1.5B of revenue and a 23.7% operating margin. The shares closed at $164.79 on Nov 25, 2026, giving a market capitalization of $22.1B.",
-      "The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $22.1B, or 8.3x trailing earnings and 37.9x EV/EBITDA. The shares sit 6% of the way up their 52-week range ($143.40 to $479.79). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. United States supplies 46.6% of disclosed revenue, the largest single geography in the filing. The moat is a validated RNAi platform and a pipeline of products that share delivery technology and manufacturing.",
+      "At the latest close the equity is valued at $22.1B, or 8.3x trailing earnings and 37.9x EV/EBITDA. The shares sit 6% of the way up their 52-week range ($143.40 to $479.79). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
     ],
-    "quote": "ALNY is a Pharma & Biotech business with $3.8B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Alnylam is a commercial-stage RNAi company whose value depends on the launch of Amvuttra and the durability of its patent estate. The multiple is a growth-biotech multiple; it assumes the launch curve and pipeline readouts both cooperate."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Alnylam Pharmaceuticals, Inc. discovers, develops, manufactures, and commercializes therapeutics based on ribonucleic acid interference in the United States, Europe, and internationally. Alnylam Pharmaceuticals, Inc. is a Pharma & Biotech company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 2,500 people, and its coverage group is Pharma & Biotech.",
-      "The comparison set includes BIIB, ETON and GILD. Alnylam Pharmaceuticals, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Alnylam Pharmaceuticals, Inc. discovers, develops, manufactures, and commercializes therapeutics based on ribonucleic acid interference in the United States, Europe, and internationally. Alnylam Pharmaceuticals, Inc. sits in the Biotechnology industry, one of the Pharma & Biotech names in this library.",
+      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 2,500 people. Trailing revenue is $3.8B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "The closest listed comparisons are VRTX, REGN and VKTX; the useful question is how Alnylam Pharmaceuticals, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const ALNY: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 75.9%, operating margin is 18.4% and net margin is 68.9%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $2.9B of net cash. Return on invested capital was 16.7% and return on equity was 73.5%."
+      "Of $3.8B of revenue, $2.9B remained after cost of sales. The 57.4% operating-expense load brought that down to an 18.4% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "The balance sheet carries $2.9B of net cash. Return on invested capital was 16.7% and return on equity was 73.5%. The return leaves room above the cost of capital for growth to compound."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 74.7% a year across the fiscal years in the dataset, and the latest quarter changed +16.7% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 18.4% and return on invested capital of 16.7% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 74.7% a year across the fiscal years in the dataset, and the latest quarter changed +16.7% year over year. Current-year estimates call for $5.4B of revenue and $22.72 of EPS.",
+      "The next catalyst is Amvuttra launch metrics and label expansion in transthyretin amyloidosis. The operating margin of 18.4% and return on invested capital of 16.7% are the filters to watch as revenue scales. Neither the 19.8% growth nor the 18.4% margin is extreme; the combination is what matters."
     ],
     "bullets": [
       {
-        "title": "Clinical data",
-        "detail": "Efficacy and safety readouts determine the programme's value. For Alnylam Pharmaceuticals, Inc., the relevant evidence is revenue growth of +19.8%. That is the metric to track in the next filing."
+        "title": "Launch execution",
+        "detail": "New therapies need payer coverage, prescriber adoption and manufacturing scale. Revenue growth is +19.8%."
       },
       {
-        "title": "Regulatory path",
-        "detail": "Approval and label scope decide the commercial opportunity. For Alnylam Pharmaceuticals, Inc., the relevant evidence is an operating margin of 18.4%. That is the metric to track in the next filing."
+        "title": "Pipeline readouts",
+        "detail": "The operating margin is 18.4%. Late-stage data can extend the growth runway or reset it."
       },
       {
-        "title": "Partnerships",
-        "detail": "Collaborations can fund development and validate the science. For Alnylam Pharmaceuticals, Inc., the relevant evidence is a return on invested capital of 16.7%. That is the metric to track in the next filing."
+        "title": "Patent duration",
+        "detail": "The remaining exclusivity period determines how long the cash flow lasts. The current reading: return on invested capital is 16.7%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -1087.6% in FY2018 to 13.5% in FY2025. The trailing operating margin is 18.4%, the net margin is 68.9% and diluted EPS is $17.75.",
-      "Return on equity was 73.5% and return on invested capital was 16.7%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is 18.4%, the net margin is 68.9% and diluted EPS is $17.75.",
+      "Return on equity was 73.5% and return on invested capital was 16.7%. The 56.9% gap between return on equity and return on invested capital points to leverage or goodwill in the capital base, so the equity return overstates the operating return."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $465.6M, a 12.1% margin. The balance sheet carries $2.9B of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $58.7M in the latest fiscal year."
+      "Free cash flow over the trailing period was $465.6M, a 12.1% margin. The balance sheet carries $2.9B of net cash. Capital expenditure was 1.5% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow was $524.1M, or 167.0% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $58.7M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 8.3x trailing earnings, 37.9x EV/EBITDA and 5.0x EV/sales. The free-cash-flow yield is 2.1%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BIIB, ETON and GILD; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 8.3x trailing earnings, 37.9x EV/EBITDA and 5.0x EV/sales. The free-cash-flow yield is 2.1%. The 12.0% earnings yield and 2.1% free-cash-flow yield are the two return measures embedded in the price.",
+      "The multiple is a growth-biotech multiple; it assumes the launch curve and pipeline readouts both cooperate. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "27 analysts contribute to the third-party consensus. The mean target is $285.00, with a range of $180.00 to $410.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $5.4B of revenue and $22.72 of EPS. The estimate revisions in the dataset are 157.4% over 30 days and 154.9% over 90 days. That implies growth of 41.3% over the trailing twelve months."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
     "items": [
       {
-        "title": "Trial failure",
+        "title": "The main risk",
         "severity": "High",
-        "detail": "A negative readout can remove most of the equity value.",
+        "detail": "A clinical or safety setback in the pipeline, or a competitor with a better delivery system, can reset the growth story.",
         "watch": "Trial endpoints and readout timing."
       },
       {
-        "title": "Cash runway",
+        "title": "Patent cliff",
         "severity": "High",
-        "detail": "Development costs can force financing.",
-        "watch": "Cash and quarterly burn."
+        "detail": "Loss of exclusivity can reset revenue faster than a new launch replaces it.",
+        "watch": "Patent expiry schedule and generic entry."
       },
       {
-        "title": "Reimbursement",
+        "title": "Pricing and reimbursement",
         "severity": "Medium",
-        "detail": "Payer coverage determines commercial uptake.",
-        "watch": "Pricing and payer decisions."
+        "detail": "Payer coverage and drug-pricing rules can cap revenue per patient.",
+        "watch": "Net price, payer mix and policy changes."
       },
       {
         "title": "Competition",
         "severity": "Medium",
-        "detail": "A better therapy can arrive first or be priced lower.",
+        "detail": "A better or cheaper therapy can take share quickly.",
         "watch": "Competitor data and launch timing."
       },
       {
-        "title": "Dilution",
+        "title": "Manufacturing and safety",
         "severity": "Medium",
-        "detail": "Equity raises fund trials and manufacturing.",
-        "watch": "Share count and financing terms."
+        "detail": "Supply or safety issues can limit a launch.",
+        "watch": "Supply disclosures and adverse events."
       }
     ],
     "watchlist": [
       {
-        "title": "Cash runway",
-        "detail": "The number of quarters funded is a hard constraint."
+        "title": "Launch metrics",
+        "detail": "Prescriptions, payer coverage and inventory reveal the real launch curve."
       },
       {
-        "title": "Trial readouts",
-        "detail": "Binary events drive the equity."
+        "title": "Patent timing",
+        "detail": "The next loss-of-exclusivity date is the hard constraint on the cash flow."
       },
       {
-        "title": "Partner validation",
-        "detail": "A credible partner can de-risk the programme."
+        "title": "Pipeline readouts",
+        "detail": "Late-stage data is the main driver of the out-year value."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Alnylam Pharmaceuticals, Inc. is a Pharma & Biotech company with $3.8B of trailing revenue, an operating margin of 18.4% and a free-cash-flow margin of 12.1%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BIIB, ETON and GILD, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 68/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Alnylam Pharmaceuticals, Inc. produced $3.8B of trailing revenue at an 18.4% operating margin and a 12.1% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
+      "The third-party consensus mean is $285.00 as of 2026-11-25, 72.9% above the latest close; it should be read as the published consensus, not as this publication's view. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put balance sheet at 94/100 and cash generation at 44/100, with the composite averaging 68/100. A 94/100 balance sheet score against a 44/100 cash generation score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
-      "How many quarters of cash remain?",
-      "What is the next binary readout?",
-      "How large is the addressable market?",
-      "What does a failed trial leave behind?"
+      "When does the largest patent expire?",
+      "What does a negative trial leave behind?",
+      "How broad is the reimbursement label?",
+      "How much of the valuation is the pipeline?"
     ]
   }
 };

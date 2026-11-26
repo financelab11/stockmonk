@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const APPF: StockStory = {
   "ticker": "APPF",
   "kicker": "Enterprise Software · Software - Application",
-  "title": "The financial engine behind AppFolio, Inc.",
-  "dek": "AppFolio, Inc. generated $1.1B of trailing revenue with an operating margin of 18.8%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "AppFolio, Inc: Property-management software to small and mid-sized managers",
+  "dek": "AppFolio, Inc. reported $1.1B of trailing revenue at an 18.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $1.1B trailing twelve months, +20.0% year over year.",
@@ -13,22 +13,22 @@ export const APPF: StockStory = {
     "Valuation: 44.6x trailing earnings and 32.5x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1433195/000143319526000011/appf-20251231.htm",
   "irUrl": "https://www.appfolio.com",
   "bigPicture": {
     "paragraphs": [
       "AppFolio, Inc. generated $1.1B of revenue over the last twelve months, +20.0% versus the prior year. The latest reported quarter was Q3 FY26, with $295.7M of revenue and a 19.4% operating margin. The shares closed at $213.43 on Nov 25, 2026, giving a market capitalization of $7.6B.",
-      "The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $7.6B, or 44.6x trailing earnings and 32.5x EV/EBITDA. The shares sit 72% of the way up their 52-week range ($142.56 to $241.49). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. The filing extract does not break revenue out by geography. The moat is workflow lock-in: leases, payments, maintenance and accounting all run through the platform.",
+      "At the latest close the equity is valued at $7.6B, or 44.6x trailing earnings and 32.5x EV/EBITDA. The shares sit 72% of the way up their 52-week range ($142.56 to $241.49). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "APPF is an Enterprise Software business with $1.1B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "AppFolio sells property-management software to small and mid-sized managers, a vertical SaaS business with a long runway of customer expansion. The multiple assumes durable growth and margin expansion as the customer base scales."
   },
   "whatItDoes": {
     "paragraphs": [
-      "AppFolio, Inc. , together with its subsidiaries, provides cloud-based platform for the real estate industry in the United States. AppFolio, Inc. is an Enterprise Software company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 1,702 people, and its coverage group is Enterprise Software.",
-      "The comparison set includes BILL, BOX and CHKP. AppFolio, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "AppFolio, Inc., together with its subsidiaries, provides cloud-based platform for the real estate industry in the United States. It reports in the Technology sector and is classified in Enterprise Software coverage.",
+      "Revenue is reported at the consolidated level only. Its latest filing lists 1,702 employees. With $1.1B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "CDNS, NOW and INTU provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,61 +47,61 @@ export const APPF: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 18.8% and net margin is 15.6%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $258.5M of net cash. Return on invested capital was 28.1% and return on equity was 29.2%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 18.8% is the first clean profitability line. The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer.",
+      "The balance sheet carries $258.5M of net cash. Return on invested capital was 28.1% and return on equity was 29.2%. That level earns well above a typical cost of capital."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 25.9% a year across the fiscal years in the dataset, and the latest quarter changed +18.6% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 18.8% and return on invested capital of 28.1% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 25.9% a year across the fiscal years in the dataset, and the latest quarter changed +18.6% year over year. Current-year estimates call for $1.1B of revenue and $6.85 of EPS.",
+      "The next catalyst is value-added services and AI features that raise revenue per unit. The operating margin of 18.8% and return on invested capital of 28.1% are the filters to watch as revenue scales. The 20.0% revenue pace and 18.8% margin have to move together for the earnings path to improve."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. For AppFolio, Inc., the relevant evidence is revenue growth of +20.0%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +20.0%. That is the number to compare with the company's own history."
       },
       {
         "title": "New customer adds",
-        "detail": "New logos broaden the base and fund future expansion. For AppFolio, Inc., the relevant evidence is an operating margin of 18.8%. That is the metric to track in the next filing."
+        "detail": "New logos broaden the base and fund future expansion. The operating margin is 18.8%."
       },
       {
         "title": "Operating leverage",
-        "detail": "Scale should improve margins as sales and R&D mature. For AppFolio, Inc., the relevant evidence is a return on invested capital of 28.1%. That is the metric to track in the next filing."
+        "detail": "Return on invested capital is 28.1%. Scale should improve margins as sales and R&D mature."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 10.3% in FY2018 to 16.1% in FY2025. The trailing operating margin is 18.8%, the net margin is 15.6% and diluted EPS is $4.74.",
-      "Return on equity was 29.2% and return on invested capital was 28.1%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 29.2% and return on invested capital was 28.1%. With return on equity at 29.2% and return on invested capital at 28.1%, leverage is not the main driver of the gap."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $282.1M, a 25.9% margin. The balance sheet carries $258.5M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $3.2M in the latest fiscal year."
+      "Free cash flow over the trailing period was $282.1M, a 25.9% margin. The balance sheet carries $258.5M of net cash. Capex absorbed 0.3% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow was $242.1M, or 171.8% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $3.2M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 44.6x trailing earnings, 32.5x EV/EBITDA and 6.7x EV/sales. The free-cash-flow yield is 3.7%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BILL, BOX and CHKP; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 44.6x trailing earnings, 32.5x EV/EBITDA and 6.7x EV/sales. The free-cash-flow yield is 3.7%. Inverting the P/E gives an earnings yield of 2.2%; the cash-flow yield is 3.7%.",
+      "The multiple assumes durable growth and margin expansion as the customer base scales. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "8 analysts contribute to the third-party consensus. The mean target is $245.91, with a range of $217.29 to $280.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $1.1B of revenue and $6.85 of EPS. The estimate revisions in the dataset are -0.8% over 30 days and -0.7% over 90 days. The estimate is consistent with growth of 3.5% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
     "items": [
       {
-        "title": "Competition",
+        "title": "The main risk",
         "severity": "High",
-        "detail": "Feature parity and bundling can pressure pricing.",
+        "detail": "A housing slowdown can reduce property-management customers, and larger competitors can bundle similar features.",
         "watch": "Win rates and average contract value."
       },
       {
@@ -146,9 +146,9 @@ export const APPF: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "AppFolio, Inc. is an Enterprise Software company with $1.1B of trailing revenue, an operating margin of 18.8% and a free-cash-flow margin of 25.9%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BILL, BOX and CHKP, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 60/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "AppFolio, Inc. produced $1.1B of trailing revenue at an 18.8% operating margin and a 25.9% free-cash-flow margin. The free-cash-flow margin is the strongest part of that record; the rest of the report tests whether it can be sustained.",
+      "The consensus target is $245.91 as of 2026-11-25, 15.2% above the latest close; the figure belongs to the analysts who published it, not to this report. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put cash generation at 79/100 and valuation at 19/100, with the composite averaging 60/100. The gap between cash generation at 79/100 and valuation at 19/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
       "How much growth comes from existing customers?",

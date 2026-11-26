@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const LUV: StockStory = {
   "ticker": "LUV",
   "kicker": "Transport & Autonomy · Airlines",
-  "title": "Southwest Airlines Co.: margins, cash conversion and the multiple",
-  "dek": "Southwest Airlines Co. generated $31.5B of trailing revenue with an operating margin of 4.4%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Southwest Airlines Co: A domestic airline with a point-to-point network",
+  "dek": "Southwest Airlines Co. reported $31.5B of trailing revenue at a 4.4% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $31.5B trailing twelve months, +14.5% year over year.",
@@ -13,22 +13,22 @@ export const LUV: StockStory = {
     "Valuation: 21.2x trailing earnings and 7.6x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm",
   "irUrl": "https://www.southwest.com",
   "bigPicture": {
     "paragraphs": [
       "Southwest Airlines Co. generated $31.5B of revenue over the last twelve months, +14.5% versus the prior year. The latest reported quarter was Q3 FY26, with $8.4B of revenue and a 4.5% operating margin. The shares closed at $45.51 on Nov 25, 2026, giving a market capitalization of $22.3B.",
-      "Revenue is tied to capital spending, backlogs and the ability to pass through input costs. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $22.3B, or 21.2x trailing earnings and 7.6x EV/EBITDA. The shares sit 54% of the way up their 52-week range ($34.23 to $55.11). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. By geography, North America is the largest disclosed market at 97.3% of revenue. Southwest Airlines Co. competes in Airlines, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $22.3B, or 21.2x trailing earnings and 7.6x EV/EBITDA. The shares sit 54% of the way up their 52-week range ($34.23 to $55.11). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "LUV is a Transport & Autonomy business with $31.5B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Southwest is a domestic airline with a point-to-point network, so load factors, fare pricing and cost per available seat mile drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Southwest Airlines Co. operates as a passenger airline company that provides scheduled air transportation services in the United States and internationally. Southwest Airlines Co. is a Transport & Autonomy company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 73,092 people, and its coverage group is Transport & Autonomy.",
-      "The comparison set includes ALK, AUR and DAL. Southwest Airlines Co. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Southwest Airlines Co. operates as a passenger airline company that provides scheduled air transportation services in the United States and internationally. It reports in the Industrials sector and is classified in Transport & Autonomy coverage.",
+      "Revenue is reported at the consolidated level only. Its latest filing lists 73,092 employees. With $31.5B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "ALK and DAL provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const LUV: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 4.4% and net margin is 3.3%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $110M, or 0.0x EBITDA. Return on invested capital was 9.7% and return on equity was 14.4%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 4.4% is the first clean profitability line. Revenue depends on demand, pricing and utilisation, while fuel, labour and capacity determine the cost of the next trip.",
+      "Net debt is $110M, or 0.0x EBITDA. Return on invested capital was 9.7% and return on equity was 14.4%. The return is close enough to the cost of capital that small changes in margin matter."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.6% a year across the fiscal years in the dataset, and the latest quarter changed +21.2% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 4.4% and return on invested capital of 9.7% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 3.6% a year across the fiscal years in the dataset, and the latest quarter changed +21.2% year over year. Current-year estimates call for $33.5B of revenue and $2.76 of EPS.",
+      "The operating margin of 4.4% and return on invested capital of 9.7% are the filters to watch as revenue scales. The 14.5% revenue pace and 4.4% margin have to move together for the earnings path to improve."
     ],
     "bullets": [
       {
-        "title": "Backlog",
-        "detail": "Orders already booked provide visibility into future revenue. For Southwest Airlines Co., the relevant evidence is revenue growth of +14.5%. That is the metric to track in the next filing."
+        "title": "Demand and load",
+        "detail": "Revenue growth is +14.5%. That is the metric the thesis depends on."
       },
       {
-        "title": "Aftermarket and services",
-        "detail": "Recurring service revenue can be more profitable than equipment. For Southwest Airlines Co., the relevant evidence is an operating margin of 4.4%. That is the metric to track in the next filing."
+        "title": "Pricing and yield",
+        "detail": "Ticket or contract pricing determines revenue per unit of capacity. The operating margin is 4.4%."
       },
       {
-        "title": "Price and productivity",
-        "detail": "Pricing actions and cost programmes protect margins through cycles. For Southwest Airlines Co., the relevant evidence is a return on invested capital of 9.7%. That is the metric to track in the next filing."
+        "title": "Cost per unit",
+        "detail": "Return on invested capital is 9.7%. Fuel, labour and maintenance decide whether volume growth becomes profit."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 14.6% in FY2018 to 1.5% in FY2025. The trailing operating margin is 4.4%, the net margin is 3.3% and diluted EPS is $2.05.",
-      "Return on equity was 14.4% and return on invested capital was 9.7%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 14.4% and return on invested capital was 9.7%. With return on equity at 14.4% and return on invested capital at 9.7%, leverage is not the main driver of the gap."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$449M, a -1.4% margin. Net debt is $110M, or 0.0x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $2.7B in the latest fiscal year."
+      "Free cash flow over the trailing period was -$449M, a -1.4% margin. Net debt is $110M, or 0.0x EBITDA. Capex absorbed 8.5% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow was $1.8B, or 417.7% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $2.7B in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 21.2x trailing earnings, 7.6x EV/EBITDA and 0.7x EV/sales. The free-cash-flow yield is -2.0%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against ALK, AUR and DAL; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 21.2x trailing earnings, 7.6x EV/EBITDA and 0.7x EV/sales. The free-cash-flow yield is -2.0%. Inverting the P/E gives an earnings yield of 4.7%; the cash-flow yield is -2.0%.",
+      "The peer comparison sets the company against ALK and DAL; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "24 analysts contribute to the third-party consensus. The mean target is $50.22, with a range of $34.00 to $65.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $33.5B of revenue and $2.76 of EPS. The estimate revisions in the dataset are 2.0% over 30 days and -18.8% over 90 days. The estimate is consistent with growth of 6.2% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Capital-spending cycle",
+        "title": "Fuel and labour",
         "severity": "High",
-        "detail": "Industrial demand falls when customers delay projects.",
-        "watch": "Order trends and backlog conversion."
+        "detail": "Input costs can rise faster than pricing.",
+        "watch": "Fuel hedges, wage rates and cost per unit."
       },
       {
-        "title": "Input costs",
+        "title": "Demand cyclicality",
         "severity": "High",
-        "detail": "Steel, freight and labour can outrun price increases.",
-        "watch": "Gross margin and price-cost spread."
+        "detail": "Travel and freight demand can fall quickly in a downturn.",
+        "watch": "Load factors, bookings and volumes."
       },
       {
-        "title": "Execution",
+        "title": "Capacity",
         "severity": "Medium",
-        "detail": "Project delays and cost overruns can hit margins.",
-        "watch": "Segment margins and project disclosures."
+        "detail": "Adding capacity into weak demand destroys pricing.",
+        "watch": "Capacity growth and utilisation."
       },
       {
-        "title": "M&A integration",
+        "title": "Competition",
         "severity": "Medium",
-        "detail": "Acquisitions can dilute returns if synergies disappoint.",
-        "watch": "Organic growth and acquired-margin trends."
+        "detail": "Route or lane competition can cap pricing power.",
+        "watch": "Market share and fare trends."
       },
       {
-        "title": "Valuation",
+        "title": "Regulation",
         "severity": "Medium",
-        "detail": "Cyclical earnings can make trough multiples look cheap.",
-        "watch": "Mid-cycle margins and order momentum."
+        "detail": "Safety, emissions and labour rules can raise costs.",
+        "watch": "Regulatory actions and compliance spend."
       }
     ],
     "watchlist": [
       {
-        "title": "Backlog",
-        "detail": "Bookings and conversion show whether demand is holding."
+        "title": "Load factor",
+        "detail": "Utilisation shows whether capacity is being absorbed."
       },
       {
-        "title": "Price-cost spread",
-        "detail": "Watch whether pricing keeps up with inputs."
+        "title": "Unit revenue",
+        "detail": "Pricing per passenger or ton is the cleanest demand signal."
       },
       {
-        "title": "Segment margin",
-        "detail": "Mix and execution can move margins before revenue does."
+        "title": "Cost per unit",
+        "detail": "Ex-fuel cost trends reveal whether efficiency is improving."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Southwest Airlines Co. is a Transport & Autonomy company with $31.5B of trailing revenue, an operating margin of 4.4% and a free-cash-flow margin of -1.4%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with ALK, AUR and DAL, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 51/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Southwest Airlines Co. produced $31.5B of trailing revenue at a 4.4% operating margin and a -1.4% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
+      "The consensus target is $50.22 as of 2026-11-25, 10.4% above the latest close; the figure belongs to the analysts who published it, not to this report. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put valuation at 76/100 and cash generation at 12/100, with the composite averaging 51/100. The gap between valuation at 76/100 and cash generation at 12/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
-      "How much revenue is recurring versus project-based?",
-      "Is the backlog growing or being consumed?",
-      "Can pricing hold if input costs rise?",
-      "What does a trough-cycle margin look like?"
+      "Is demand growing or is capacity being added?",
+      "How much of the cost base is hedged?",
+      "What happens to pricing in a downturn?",
+      "Can the balance sheet fund the next fleet cycle?"
     ]
   }
 };

@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const FLYW: StockStory = {
   "ticker": "FLYW",
   "kicker": "Enterprise Software · Software - Infrastructure",
-  "title": "What Flywire Corporation's latest filings reveal about growth, margins and cash",
-  "dek": "Flywire Corporation generated $763.7M of trailing revenue with an operating margin of 7.8%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Flywire Corporation: Flywire enables cross-border education and healthcare payments",
+  "dek": "Flywire Corporation reported $763.7M of trailing revenue at a 7.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $763.7M trailing twelve months, +31.0% year over year.",
@@ -13,22 +13,22 @@ export const FLYW: StockStory = {
     "Valuation: 36.3x trailing earnings and 83.6x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1580560/000119312526067540/flyw-20251231.htm",
   "irUrl": "https://www.flywire.com",
   "bigPicture": {
     "paragraphs": [
       "Flywire Corporation generated $763.7M of revenue over the last twelve months, +31.0% versus the prior year. The latest reported quarter was Q3 FY26, with $250.3M of revenue and a 21.1% operating margin. The shares closed at $23.04 on Nov 25, 2026, giving a market capitalization of $2.9B.",
-      "The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $2.9B, or 36.3x trailing earnings and 83.6x EV/EBITDA. The shares sit 100% of the way up their 52-week range ($10.55 to $23.05). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. Geographically, United States & Canada Americas leads at 45.9% of the disclosed split.",
+      "At the latest close the equity is valued at $2.9B, or 36.3x trailing earnings and 83.6x EV/EBITDA. The shares sit 100% of the way up their 52-week range ($10.55 to $23.05). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
     ],
-    "quote": "FLYW is an Enterprise Software business with $763.7M of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Flywire enables cross-border education and healthcare payments, so payment volume, take rate and client growth drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
       "Flywire Corporation, together with its subsidiaries, operates as a payment enablement and software company in the United States, Europe, the Middle East, and Africa and the Asia Pacific. The company provides a payment platform that integrates into existing apps and workflows and have access to solutions, such as tailored invoicing, settlement and reconciliation tools, single sign-on and checkout, recurring payments, and split payouts.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 1,550 people, and its coverage group is Enterprise Software.",
-      "The comparison set includes BILL, BOX and CHKP. Flywire Corporation is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "There is no separate segment disclosure in the current extract. The company employed 1,550 people at the last reporting date. With $763.7M of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "The peer set is MSFT, ORCL and SNPS; similar businesses can earn very different returns on capital, which is the comparison that matters."
     ],
     "bullets": [
       {
@@ -47,56 +47,56 @@ export const FLYW: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 7.8% and net margin is 10.3%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $410.2M of net cash. Return on invested capital was 6.6% and return on equity was 8.7%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 7.8% is the first clean profitability line. The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer.",
+      "The balance sheet carries $410.2M of net cash. Return on invested capital was 6.6% and return on equity was 8.7%. That is a thin return; without a margin recovery or a different capital allocation, growth is unlikely to create value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 36.8% a year across the fiscal years in the dataset, and the latest quarter changed +25.1% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 7.8% and return on invested capital of 6.6% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 36.8% a year across the fiscal years in the dataset, and the latest quarter changed +25.1% year over year. Current-year estimates call for $774.8M of revenue and $1.34 of EPS.",
+      "The operating margin of 7.8% and return on invested capital of 6.6% are the filters to watch as revenue scales. Revenue is growing faster than profit, which means the current margin understates the operating leverage still to come if the model scales."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. For Flywire Corporation, the relevant evidence is revenue growth of +31.0%. That is the metric to track in the next filing."
+        "detail": "Expansion within existing customers compounds revenue. The current reading: revenue growth is +31.0%."
       },
       {
         "title": "New customer adds",
-        "detail": "New logos broaden the base and fund future expansion. For Flywire Corporation, the relevant evidence is an operating margin of 7.8%. That is the metric to track in the next filing."
+        "detail": "The operating margin is 7.8%. The trend in that figure matters more than its level."
       },
       {
         "title": "Operating leverage",
-        "detail": "Scale should improve margins as sales and R&D mature. For Flywire Corporation, the relevant evidence is a return on invested capital of 6.6%. That is the metric to track in the next filing."
+        "detail": "Scale should improve margins as sales and R&D mature. Return on invested capital is 6.6%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from -18.4% in FY2019 to 1.8% in FY2025. The trailing operating margin is 7.8%, the net margin is 10.3% and diluted EPS is $0.60.",
-      "Return on equity was 8.7% and return on invested capital was 6.6%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 8.7% and return on invested capital was 6.6%. With return on equity at 8.7% and return on invested capital at 6.6%, leverage is not the main driver of the gap."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $134.3M, a 17.6% margin. The balance sheet carries $410.2M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.4M in the latest fiscal year."
+      "Free cash flow over the trailing period was $134.3M, a 17.6% margin. The balance sheet carries $410.2M of net cash. Capex absorbed 0.2% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow was $100.2M, or 742.2% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.4M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 36.3x trailing earnings, 83.6x EV/EBITDA and 3.2x EV/sales. The free-cash-flow yield is 4.7%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BILL, BOX and CHKP; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 36.3x trailing earnings, 83.6x EV/EBITDA and 3.2x EV/sales. The free-cash-flow yield is 4.7%. Inverting the P/E gives an earnings yield of 2.8%; the cash-flow yield is 4.7%.",
+      "The peer comparison sets the company against MSFT, ORCL and SNPS; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "14 analysts contribute to the third-party consensus. The mean target is $23.39, with a range of $21.50 to $26.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $774.8M of revenue and $1.34 of EPS. The estimate revisions in the dataset are 27.8% over 30 days and 26.8% over 90 days. If met, the estimate would mean growth of 1.5% from the current base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
         "title": "Competition",
@@ -146,9 +146,9 @@ export const FLYW: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Flywire Corporation is an Enterprise Software company with $763.7M of trailing revenue, an operating margin of 7.8% and a free-cash-flow margin of 17.6%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BILL, BOX and CHKP, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 49/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Flywire Corporation produced $763.7M of trailing revenue at a 7.8% operating margin and a 17.6% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
+      "The published consensus mean is $23.39 (2026-11-25), 1.5% above the latest close; it is included for attribution, not as a Stockmonk call. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put balance sheet at 97/100 and valuation at 17/100, with the composite averaging 49/100. The gap between balance sheet at 97/100 and valuation at 17/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
       "How much growth comes from existing customers?",

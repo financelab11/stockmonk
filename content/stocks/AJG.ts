@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const AJG: StockStory = {
   "ticker": "AJG",
   "kicker": "Banks & Insurance · Insurance Brokers",
-  "title": "Arthur J. Gallagher & Co. earns an operating margin of 13.1% on $16.4B of revenue",
-  "dek": "Arthur J. Gallagher & Co. generated $16.4B of trailing revenue with an operating margin of 13.1%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Arthur J. Gallagher & Co: An insurance broker that grows by acquiring agencies and retaining clients",
+  "dek": "Arthur J. Gallagher & Co. reported $16.4B of trailing revenue at a 13.1% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $16.4B trailing twelve months, +25.6% year over year.",
@@ -13,22 +13,22 @@ export const AJG: StockStory = {
     "Valuation: 44.2x trailing earnings and 24.7x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/354190/000162828026008662/ajg-20251231.htm",
   "irUrl": "https://www.ajg.com",
   "bigPicture": {
     "paragraphs": [
       "Arthur J. Gallagher & Co. generated $16.4B of revenue over the last twelve months, +25.6% versus the prior year. The latest reported quarter was Q3 FY26, with $4B of revenue and a 13.0% operating margin. The shares closed at $293.23 on Nov 25, 2026, giving a market capitalization of $75.2B.",
-      "The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $75.2B, or 44.2x trailing earnings and 24.7x EV/EBITDA. The shares sit 99% of the way up their 52-week range ($190.75 to $294.53). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The largest disclosed segment is Brokerage at 87.4% of revenue. Geographically, United States leads at 67.4% of the disclosed split. The moat is client relationships, specialized expertise and a decentralized operating model that keeps producers close to customers.",
+      "At the latest close the equity is valued at $75.2B, or 44.2x trailing earnings and 24.7x EV/EBITDA. The shares sit 99% of the way up their 52-week range ($190.75 to $294.53). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
     ],
-    "quote": "AJG is a Banks & Insurance business with $16.4B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Arthur J. Gallagher is an insurance broker that grows by acquiring agencies and retaining clients, so organic growth and acquisition multiples matter together. The multiple assumes continued double-digit earnings growth from a mix of organic growth and acquisitions."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Arthur J. Gallagher & Co. operates in Financial Services, within the Banks & Insurance coverage group. It sells to customers in Insurance Brokers and reports under US GAAP or IFRS in its SEC filings.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 69,041 people, and its coverage group is Banks & Insurance.",
-      "The comparison set includes ACGL, AFL and AIZ. Arthur J. Gallagher & Co. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Arthur J. Gallagher & Co. is classified in Insurance Brokers; its financial statements are in USD and it sits in the Banks & Insurance group. Arthur J. Gallagher & Co. is an Insurance Brokers company within the Banks & Insurance coverage group.",
+      "The disclosed mix runs across Brokerage at 87.4%, Risk Management at 12.5% and Corporate at 0.0%. The company employed 69,041 people at the last reporting date. The revenue base is $16.4B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "The peer set is RYAN, AON and BRO; similar businesses can earn very different returns on capital, which is the comparison that matters."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const AJG: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 13.1% and net margin is 10.4%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $12.8B, or 3.6x EBITDA. Return on invested capital was 4.5% and return on equity was 7.1%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 13.1% is the first clean profitability line. The economics are fee-based, so organic growth, client retention and the price paid for acquisitions matter more than premium volume.",
+      "Net debt is $12.8B, or 3.6x EBITDA. Return on invested capital was 4.5% and return on equity was 7.1%. The return suggests the current capital base is earning a modest amount."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.5% a year across the fiscal years in the dataset, and the latest quarter changed +18.2% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 13.1% and return on invested capital of 4.5% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 10.5% a year across the fiscal years in the dataset, and the latest quarter changed +18.2% year over year. Current-year estimates call for $16.6B of revenue and $13.09 of EPS.",
+      "The next catalyst is organic growth in brokerage and the margin contribution from recent acquisitions. The operating margin of 13.1% and return on invested capital of 4.5% are the filters to watch as revenue scales. Growth of 25.6% against a 13.1% operating margin is the balance the next few quarters have to protect."
     ],
     "bullets": [
       {
-        "title": "Net interest income",
-        "detail": "Loan and securities yields less funding costs are the core revenue line. For Arthur J. Gallagher & Co., the relevant evidence is revenue growth of +25.6%. That is the metric to track in the next filing."
+        "title": "Organic growth",
+        "detail": "New clients and increased coverage at existing clients expand commissions without deal spending. The current reading: revenue growth is +25.6%."
       },
       {
-        "title": "Fee income",
-        "detail": "Advisory, asset management and trading diversify the revenue base. For Arthur J. Gallagher & Co., the relevant evidence is an operating margin of 13.1%. That is the metric to track in the next filing."
+        "title": "Retention and pricing",
+        "detail": "The operating margin is 13.1%. That is the metric the thesis depends on."
       },
       {
-        "title": "Capital returns",
-        "detail": "Buybacks and dividends can grow per-share value when capital is abundant. For Arthur J. Gallagher & Co., the relevant evidence is a return on invested capital of 4.5%. That is the metric to track in the next filing."
+        "title": "Acquired growth",
+        "detail": "Agency acquisitions add clients and specialty capabilities, but only create value if the price is sensible. Return on invested capital is 4.5%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 6.9% in FY2018 to 13.4% in FY2025. The trailing operating margin is 13.1%, the net margin is 10.4% and diluted EPS is $6.54.",
-      "Return on equity was 7.1% and return on invested capital was 4.5%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 7.1% and return on invested capital was 4.5%. The two returns are within a few points, at 7.1% on equity and 4.5% on invested capital, so operating performance explains most of the difference."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $2.9B, a 17.6% margin. Net debt is $12.8B, or 3.6x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $145M in the latest fiscal year."
+      "Free cash flow over the trailing period was $2.9B, a 17.6% margin. Net debt is $12.8B, or 3.6x EBITDA. With capital spending at 0.9% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow was $1.9B, or 129.2% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $145M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 44.2x trailing earnings, 24.7x EV/EBITDA and 5.4x EV/sales. The free-cash-flow yield is 3.8%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against ACGL, AFL and AIZ; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 44.2x trailing earnings, 24.7x EV/EBITDA and 5.4x EV/sales. The free-cash-flow yield is 3.8%. The trailing earnings yield is 2.3%, against a free-cash-flow yield of 3.8%.",
+      "The multiple assumes continued double-digit earnings growth from a mix of organic growth and acquisitions. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "18 analysts contribute to the third-party consensus. The mean target is $301.50, with a range of $253.00 to $388.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $16.6B of revenue and $13.09 of EPS. The estimate revisions in the dataset are -0.1% over 30 days and -0.7% over 90 days. If met, the estimate would mean growth of 1.4% from the current base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
     "items": [
       {
-        "title": "Credit cycle",
+        "title": "The main risk",
         "severity": "High",
-        "detail": "Loan losses rise in a downturn and can overwhelm revenue growth.",
-        "watch": "Provisions, charge-offs and non-performing loans."
+        "detail": "A soft commercial-rate market reduces commission growth, and acquisition multiples can make deals less accretive.",
+        "watch": "Commercial rate change and organic growth."
       },
       {
-        "title": "Interest rates",
+        "title": "Acquisition integration",
         "severity": "High",
-        "detail": "Rate changes affect net interest income and deposit repricing.",
-        "watch": "Net interest income guidance and deposit betas."
+        "detail": "Deals can dilute margins if retention slips or synergy targets are missed.",
+        "watch": "Acquisition multiples, retention and margin."
+      },
+      {
+        "title": "Disintermediation",
+        "severity": "Medium",
+        "detail": "Digital placement and direct models can take share in simpler risks.",
+        "watch": "Client retention and new-business mix."
       },
       {
         "title": "Regulation",
         "severity": "Medium",
-        "detail": "Capital and liquidity rules influence returns and buybacks.",
-        "watch": "Stress tests and CET1 requirements."
+        "detail": "Commission disclosure and broker conduct rules can change the model.",
+        "watch": "Regulatory actions and client concentration."
       },
       {
-        "title": "Capital markets cyclicality",
+        "title": "Valuation",
         "severity": "Medium",
-        "detail": "Advisory and trading revenue can fall quickly.",
-        "watch": "Investment banking fees and trading revenue."
-      },
-      {
-        "title": "Competition",
-        "severity": "Medium",
-        "detail": "Deposit and loan pricing competition can compress spreads.",
-        "watch": "Loan and deposit growth relative to peers."
+        "detail": "Brokers trade on organic growth and margin, so a slowdown compresses the multiple quickly.",
+        "watch": "Organic growth, margin and the acquisition pipeline."
       }
     ],
     "watchlist": [
       {
-        "title": "Net interest income",
-        "detail": "The largest revenue line and the most rate-sensitive."
+        "title": "Organic growth",
+        "detail": "Excluding acquisitions and rate, organic growth shows whether the franchise is winning share."
       },
       {
-        "title": "Credit costs",
-        "detail": "Provisioning is the main swing factor in a downturn."
+        "title": "Retention",
+        "detail": "Client retention is the cleanest evidence that the advisory relationship is durable."
       },
       {
-        "title": "Capital returns",
-        "detail": "Buybacks depend on capital ratios and stress-test results."
+        "title": "Margin",
+        "detail": "Operating margin shows whether acquired revenue is being integrated efficiently."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Arthur J. Gallagher & Co. is a Banks & Insurance company with $16.4B of trailing revenue, an operating margin of 13.1% and a free-cash-flow margin of 17.6%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with ACGL, AFL and AIZ, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 38/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Arthur J. Gallagher & Co. produced $16.4B of trailing revenue at a 13.1% operating margin and a 17.6% free-cash-flow margin. Net debt of $12.8B, or 3.6x EBITDA, is the constraint that shapes the equity story.",
+      "Third-party analysts put the mean target at $301.50 as of 2026-11-25, 2.8% above the latest close; it is included for attribution, not as a Stockmonk call. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
+      "The factor percentiles put cash generation at 59/100 and balance sheet at 12/100, with the composite averaging 38/100. The average hides a strong cash generation reading and a weak balance sheet one, which is why the spread is the more useful description."
     ],
     "questions": [
-      "How much of net interest income is rate-sensitive?",
-      "Is credit provisioning normalising or deteriorating?",
-      "What does regulation do to buybacks?",
-      "How sustainable is the current return on equity?"
+      "How much of growth is organic versus acquired?",
+      "What happens to commissions if commercial rates soften?",
+      "Are acquisitions adding margin or just revenue?",
+      "How much of the multiple depends on continued deal-making?"
     ]
   }
 };

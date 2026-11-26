@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const NTES: StockStory = {
   "ticker": "NTES",
   "kicker": "Internet Platforms · Electronic Gaming & Multimedia",
-  "title": "NetEase, Inc.: an internet platforms business with +11.6% revenue growth",
-  "dek": "NetEase, Inc. generated $16.1B of trailing revenue with an operating margin of 31.8%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "NetEase, Inc: A Chinese gaming and music company",
+  "dek": "NetEase, Inc. reported $16.1B of trailing revenue at a 31.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $16.1B trailing twelve months, +11.6% year over year.",
@@ -13,27 +13,27 @@ export const NTES: StockStory = {
     "Valuation: 13.2x trailing earnings and 10.2x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
   "irUrl": "https://ir.netease.com",
   "bigPicture": {
     "paragraphs": [
-      "NetEase, Inc. generated $16.1B of revenue over the last twelve months, +11.6% versus the prior year. A dated quarterly result is not available in the current dataset. The shares closed at $102.57 on Nov 25, 2026, giving a market capitalization of $65.7B.",
-      "The business is judged on whether it can keep converting a technical advantage into recurring revenue. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $65.7B, or 13.2x trailing earnings and 10.2x EV/EBITDA. The shares sit 7% of the way up their 52-week range ($98.83 to $149.11). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "NetEase, Inc. generated $16.1B of revenue over the last twelve months, +11.6% versus the prior year. A current-quarter revenue line is not available in the extract. The shares closed at $102.57 on Nov 25, 2026, giving a market capitalization of $65.7B.",
+      "The largest disclosed segment is Netease Cloud Music at 48.2% of revenue. Geographic revenue detail is not available in the current dataset. NetEase, Inc. competes in Electronic Gaming & Multimedia, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $65.7B, or 13.2x trailing earnings and 10.2x EV/EBITDA. The shares sit 7% of the way up their 52-week range ($98.83 to $149.11). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
     ],
-    "quote": "NTES is an Internet Platforms business with $16.1B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "NetEase is a Chinese gaming and music company, so game launches, licensing and in-game monetisation drive the earnings."
   },
   "whatItDoes": {
     "paragraphs": [
-      "NetEase, Inc. engages in online games, music streaming, online intelligent learning services, and internet content services businesses in China and internationally. NetEase, Inc. is an Internet Platforms company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 25,382 people, and its coverage group is Internet Platforms.",
-      "The comparison set includes BABA, BIDU and CART. NetEase, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "NetEase, Inc. engages in online games, music streaming, online intelligent learning services, and internet content services businesses in China and internationally. NetEase, Inc. is an Electronic Gaming & Multimedia company within the Internet Platforms coverage group.",
+      "The disclosed mix runs across Netease Cloud Music at 48.2%, Innovative Businesses & Others at 42.3% and Corporate / other at 9.5%. The company employed 25,382 people at the last reporting date.",
+      "The peer set is BABA, BIDU and CART; similar businesses can earn very different returns on capital, which is the comparison that matters."
     ],
     "bullets": [
       {
         "title": "Revenue base",
-        "detail": "$16.1B on a trailing-twelve-month basis, with the latest quarter at no dated quarter."
+        "detail": "$16.1B on a trailing-twelve-month basis; a dated quarter is not available in the dataset."
       },
       {
         "title": "Profitability",
@@ -47,114 +47,114 @@ export const NTES: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 64.3%, operating margin is 31.8% and net margin is 30.9%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $10B of net cash. Return on invested capital was 20.8% and return on equity was 21.7%."
+      "Of $16.1B of revenue, $10.3B remained after cost of sales. The 32.5% operating-expense load brought that down to a 31.8% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "The balance sheet carries $10B of net cash. Return on invested capital was 20.8% and return on equity was 21.7%. The return leaves room above the cost of capital for growth to compound."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 11.7% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 31.8% and return on invested capital of 20.8% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 11.7% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. Current-year estimates point to 3.1% revenue growth, with EPS of 58.77 in the reporting currency.",
+      "The operating margin of 31.8% and return on invested capital of 20.8% are the filters to watch as revenue scales. The 31.8% operating margin gives the company room to absorb slower growth without a profit reset."
     ],
     "bullets": [
       {
-        "title": "Product cycle",
-        "detail": "New products and platform transitions create refresh demand and pricing power. For NetEase, Inc., the relevant evidence is revenue growth of +11.6%. That is the metric to track in the next filing."
+        "title": "User and engagement growth",
+        "detail": "More active users and frequency expand the inventory available to monetise. The current reading: revenue growth is +11.6%."
       },
       {
-        "title": "Customer expansion",
-        "detail": "Land-and-expand selling raises revenue per existing customer and lengthens the relationship. For NetEase, Inc., the relevant evidence is an operating margin of 31.8%. That is the metric to track in the next filing."
+        "title": "Take rate",
+        "detail": "The operating margin is 31.8%. Watch whether that reading improves or merely holds."
       },
       {
-        "title": "Operating leverage",
-        "detail": "Incremental revenue can carry high gross margins once development and sales costs are in place. For NetEase, Inc., the relevant evidence is a return on invested capital of 20.8%. That is the metric to track in the next filing."
+        "title": "Adjacent services",
+        "detail": "Advertising, logistics, payments and subscriptions can lift revenue per user. Return on invested capital is 20.8%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 19.5% in FY2018 to 31.8% in FY2025. The trailing operating margin is 31.8%, the net margin is 30.9% and diluted EPS is $1.50.",
-      "Return on equity was 21.7% and return on invested capital was 20.8%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 21.7% and return on invested capital was 20.8%. Return on invested capital of 20.8% is close to the 21.7% equity return, so the balance sheet explains only part of the difference."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $7.1B, a 44.1% margin. The balance sheet carries $10B of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $152.3M in the latest fiscal year."
+      "Free cash flow over the trailing period was $7.1B, a 44.1% margin. The balance sheet carries $10B of net cash. Capital expenditure was 0.9% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow was $7.3B, or 145.8% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $152.3M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 13.2x trailing earnings, 10.2x EV/EBITDA and 3.5x EV/sales. The free-cash-flow yield is 10.8%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BABA, BIDU and CART; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 13.2x trailing earnings, 10.2x EV/EBITDA and 3.5x EV/sales. The free-cash-flow yield is 10.8%. The 7.6% earnings yield and 10.8% free-cash-flow yield are the two return measures embedded in the price.",
+      "The peer comparison sets the company against BABA, BIDU and CART; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "33 analysts contribute to the third-party consensus. The mean target is $153.78, with a range of $111.27 to $186.88. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates point to 3.1% revenue growth, with EPS of 58.77 in the reporting currency. The estimate revisions in the dataset are -4.3% over 30 days and -5.4% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Technology substitution",
+        "title": "Competition for users",
         "severity": "High",
-        "detail": "A faster or cheaper architecture can reset the competitive position quickly.",
-        "watch": "Product roadmaps, design wins and customer concentration."
+        "detail": "Switching costs are low and new formats can take attention quickly.",
+        "watch": "Monthly users, engagement and churn."
       },
       {
-        "title": "Customer concentration",
+        "title": "Take-rate pressure",
         "severity": "High",
-        "detail": "A small number of large buyers can swing revenue and pricing.",
-        "watch": "Top-customer disclosures and order trends."
+        "detail": "Merchants and users can push back on fees.",
+        "watch": "Take rate and merchant retention."
+      },
+      {
+        "title": "Regulation",
+        "severity": "Medium",
+        "detail": "Platform, privacy and gig-labour rules can change the model.",
+        "watch": "Regulatory actions and market-by-market rules."
+      },
+      {
+        "title": "Profitability",
+        "severity": "Medium",
+        "detail": "Growth can be bought with incentives that disappear when spending slows.",
+        "watch": "Contribution margin and sales efficiency."
       },
       {
         "title": "Valuation",
         "severity": "Medium",
-        "detail": "High expectations leave less room for a growth disappointment.",
-        "watch": "Forward estimates versus the current multiple."
-      },
-      {
-        "title": "Supply chain",
-        "severity": "Medium",
-        "detail": "Advanced components and manufacturing capacity can constrain shipments.",
-        "watch": "Lead times, inventory and supplier concentration."
-      },
-      {
-        "title": "Regulation and export controls",
-        "severity": "Medium",
-        "detail": "Cross-border rules can remove addressable market or raise compliance costs.",
-        "watch": "Export-licence changes and geographic mix."
+        "detail": "High multiples assume durable user growth and take rate.",
+        "watch": "Forward revenue and margin guidance."
       }
     ],
     "watchlist": [
       {
-        "title": "Growth durability",
-        "detail": "Compare revenue growth with the prior four quarters."
+        "title": "GMV and take rate",
+        "detail": "Separate transaction growth from the share retained."
       },
       {
-        "title": "Gross margin",
-        "detail": "A falling gross margin can signal pricing pressure or a richer hardware mix."
+        "title": "User growth",
+        "detail": "Net adds and engagement show whether the audience is durable."
       },
       {
-        "title": "Customer concentration",
-        "detail": "Track large-customer disclosures and order momentum."
+        "title": "Contribution margin",
+        "detail": "Unit economics reveal whether growth creates value."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "NetEase, Inc. is an Internet Platforms company with $16.1B of trailing revenue, an operating margin of 31.8% and a free-cash-flow margin of 44.1%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BABA, BIDU and CART, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 79/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "NetEase, Inc. produced $16.1B of trailing revenue at a 31.8% operating margin and a 44.1% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
+      "The third-party consensus mean is $153.78 as of 2026-11-25, 49.9% above the latest close; it is included for attribution, not as a Stockmonk call. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put cash generation at 95/100 and growth at 50/100, with the composite averaging 79/100. A 95/100 cash generation score against a 50/100 growth score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
-      "How much of growth is volume versus price?",
-      "What would a pause in customer spending do to margins?",
-      "Is the product advantage durable or one cycle long?",
-      "How much of the valuation depends on the next product cycle?"
+      "How much growth is users versus take rate?",
+      "What does a slowdown in incentives do to volume?",
+      "How defensible is the audience?",
+      "When does the platform reach durable profit?"
     ]
   }
 };

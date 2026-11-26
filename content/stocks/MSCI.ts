@@ -4,7 +4,7 @@ export const MSCI: StockStory = {
   "ticker": "MSCI",
   "kicker": "Payments & Financial Software · Financial Data & Stock Exchanges",
   "title": "MSCI Inc. earns an operating margin of 55.7% on $3.4B of revenue",
-  "dek": "MSCI Inc. generated $3.4B of trailing revenue with an operating margin of 55.7%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "dek": "MSCI Inc. reported $3.4B of trailing revenue at a 55.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $3.4B trailing twelve months, +12.3% year over year.",
@@ -13,22 +13,22 @@ export const MSCI: StockStory = {
     "Valuation: 32.8x trailing earnings and 26.7x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1408198/000140819826000011/msci-20251231.htm",
   "irUrl": "https://www.msci.com",
   "bigPicture": {
     "paragraphs": [
       "MSCI Inc. generated $3.4B of revenue over the last twelve months, +12.3% versus the prior year. The latest reported quarter was Q3 FY26, with $892M of revenue and a 56.3% operating margin. The shares closed at $634.08 on Nov 25, 2026, giving a market capitalization of $45.3B.",
-      "The economics depend on credit losses, funding costs, take rates and the ability to grow without buying customers. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $45.3B, or 32.8x trailing earnings and 26.7x EV/EBITDA. The shares sit 74% of the way up their 52-week range ($501.08 to $681.04). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. Americas supplies 44.9% of disclosed revenue, the largest single geography in the filing.",
+      "At the latest close the equity is valued at $45.3B, or 32.8x trailing earnings and 26.7x EV/EBITDA. The shares sit 74% of the way up their 52-week range ($501.08 to $681.04). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
     ],
-    "quote": "MSCI is a Payments & Financial Software business with $3.4B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "MSCI sells indexes, analytics and ESG data, a high-margin subscription business where assets under benchmark, retention and pricing drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "MSCI Inc. , together with its subsidiaries, provides research-based data, analytics, and indexes, supported by advanced technology worldwide. MSCI Inc. is a Payments & Financial Software company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 6,259 people, and its coverage group is Payments & Financial Software.",
-      "The comparison set includes ADP, BR and FDS. MSCI Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "MSCI Inc., together with its subsidiaries, provides research-based data, analytics, and indexes, supported by advanced technology worldwide. MSCI Inc. sits in the Financial Data & Stock Exchanges industry, one of the Payments & Financial Software names in this library.",
+      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 6,259 people. The revenue base is $3.4B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "The closest listed comparisons are SPGI, ICE and CME; the useful question is how MSCI Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const MSCI: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 55.7% and net margin is 40.3%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $6.5B, or 3.3x EBITDA. Return on invested capital was 44.0% and return on equity was -45.9%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 55.7% is the first clean profitability line. Revenue depends on activity, client assets and the fee or subscription earned on each interaction.",
+      "Net debt is $6.5B, or 3.3x EBITDA. Return on invested capital was 44.0%, while the reported return on equity is negative because the equity base is negative. The operating return is the one to use when judging reinvestment."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 11.8% a year across the fiscal years in the dataset, and the latest quarter changed +12.4% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 55.7% and return on invested capital of 44.0% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 11.8% a year across the fiscal years in the dataset, and the latest quarter changed +12.4% year over year. Current-year estimates call for $3.5B of revenue and $19.68 of EPS.",
+      "The operating margin of 55.7% and return on invested capital of 44.0% are the filters to watch as revenue scales. With a 55.7% margin, the growth rate matters less than whether the margin is repeatable."
     ],
     "bullets": [
       {
-        "title": "Volume growth",
-        "detail": "Transactions and loans scale revenue. For MSCI Inc., the relevant evidence is revenue growth of +12.3%. That is the metric to track in the next filing."
+        "title": "Volumes and activity",
+        "detail": "Trading, issuance or transaction volumes drive the fee pool. Revenue growth is +12.3%."
       },
       {
-        "title": "Take rate",
-        "detail": "Pricing per transaction determines revenue per unit. For MSCI Inc., the relevant evidence is an operating margin of 55.7%. That is the metric to track in the next filing."
+        "title": "Take rate and pricing",
+        "detail": "The operating margin is 55.7%. The fee per transaction or subscription determines revenue per unit of activity."
       },
       {
-        "title": "Funding and credit",
-        "detail": "Cheaper funding and stable credit improve margins. For MSCI Inc., the relevant evidence is a return on invested capital of 44.0%. That is the metric to track in the next filing."
+        "title": "Recurring data and client assets",
+        "detail": "Subscriptions, benchmarks and client balances add revenue that is less tied to daily volumes. The current reading: return on invested capital is 44.0%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 47.9% in FY2018 to 54.7% in FY2025. The trailing operating margin is 55.7%, the net margin is 40.3% and diluted EPS is $18.90.",
-      "Return on equity was -45.9% and return on invested capital was 44.0%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was -45.9% and return on invested capital was 44.0%. A negative equity base makes the equity return meaningless here; the return on invested capital is the number that matters."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.6B, a 45.9% margin. Net debt is $6.5B, or 3.3x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $39.3M in the latest fiscal year."
+      "Free cash flow over the trailing period was $1.6B, a 45.9% margin. Net debt is $6.5B, or 3.3x EBITDA. With capital spending at 1.1% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow was $1.6B, or 132.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $39.3M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 32.8x trailing earnings, 26.7x EV/EBITDA and 15.1x EV/sales. The free-cash-flow yield is 3.5%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against ADP, BR and FDS; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 32.8x trailing earnings, 26.7x EV/EBITDA and 15.1x EV/sales. The free-cash-flow yield is 3.5%. The trailing earnings yield is 3.1%, against a free-cash-flow yield of 3.5%.",
+      "The peer comparison sets the company against SPGI, ICE and CME; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "17 analysts contribute to the third-party consensus. The mean target is $689.94, with a range of $585.00 to $760.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $3.5B of revenue and $19.68 of EPS. The estimate revisions in the dataset are -0.0% over 30 days and 0.1% over 90 days. That implies growth of 2.7% over the trailing twelve months."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Credit losses",
+        "title": "Market activity",
         "severity": "High",
-        "detail": "A weaker consumer can raise charge-offs.",
-        "watch": "Delinquencies and provision trends."
+        "detail": "A quiet market reduces volumes and the fees earned on them.",
+        "watch": "Volumes, issuance and client activity."
       },
       {
-        "title": "Funding costs",
+        "title": "Fee compression",
         "severity": "High",
-        "detail": "Higher rates can compress spreads.",
-        "watch": "Cost of funds and deposit mix."
+        "detail": "Competition and technology can reduce the fee per transaction.",
+        "watch": "Take rate and revenue per unit."
       },
       {
         "title": "Regulation",
         "severity": "Medium",
-        "detail": "Banking, lending and crypto rules can change the model.",
-        "watch": "Licensing and regulatory actions."
+        "detail": "Market-structure, conduct and crypto rules can change the model.",
+        "watch": "Regulatory actions and licensing."
       },
       {
         "title": "Competition",
         "severity": "Medium",
-        "detail": "Banks and other platforms can match features.",
-        "watch": "Take rate and customer acquisition cost."
+        "detail": "New venues and data providers can take share or undercut pricing.",
+        "watch": "Market share and product adoption."
       },
       {
         "title": "Valuation",
         "severity": "Medium",
-        "detail": "Growth multiples can compress if credit normalises.",
-        "watch": "Forward revenue and credit guidance."
+        "detail": "Activity-linked revenue is cyclical, so multiples move with volumes.",
+        "watch": "Forward activity and recurring-revenue mix."
       }
     ],
     "watchlist": [
       {
-        "title": "Credit quality",
-        "detail": "Delinquencies lead charge-offs."
+        "title": "Volumes",
+        "detail": "Activity is the first driver of transaction revenue."
       },
       {
         "title": "Take rate",
-        "detail": "Revenue per transaction is the unit economics."
+        "detail": "Revenue per unit shows whether pricing is holding."
       },
       {
-        "title": "Funding",
-        "detail": "The cost and stability of funding drive margins."
+        "title": "Recurring mix",
+        "detail": "Subscriptions and data revenue reduce dependence on volumes."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "MSCI Inc. is a Payments & Financial Software company with $3.4B of trailing revenue, an operating margin of 55.7% and a free-cash-flow margin of 45.9%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with ADP, BR and FDS, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 58/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "MSCI Inc. produced $3.4B of trailing revenue at a 55.7% operating margin and a 45.9% free-cash-flow margin. The business converts an unusually large share of revenue into cash, and the multiple depends on that continuing.",
+      "Third-party analysts put the mean target at $689.94 as of 2026-11-25, 8.8% above the latest close; it should be read as the published consensus, not as this publication's view. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
+      "The factor percentiles put cash generation at 97/100 and balance sheet at 14/100, with the composite averaging 58/100. The average hides a strong cash generation reading and a weak balance sheet one, which is why the spread is the more useful description."
     ],
     "questions": [
-      "What happens to losses in a recession?",
-      "How much growth is purchased with marketing?",
-      "Is funding diversified?",
-      "What regulatory change would hurt most?"
+      "How much of revenue is recurring versus activity-linked?",
+      "What happens to fees if volumes fall?",
+      "Is pricing holding as competition increases?",
+      "How much of the multiple depends on market activity?"
     ]
   }
 };

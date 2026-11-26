@@ -3,32 +3,32 @@ import type { StockStory } from "./types";
 export const CCL: StockStory = {
   "ticker": "CCL",
   "kicker": "Consumer Retail & Leisure · Travel Services",
-  "title": "Carnival Corporation Ltd. earns an operating margin of 16.0% on $27.6B of revenue",
-  "dek": "Carnival Corporation Ltd. generated $27.6B of trailing revenue with an operating margin of 16.0%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Carnival Corporation Ltd: A cruise operator",
+  "dek": "Carnival Corporation Ltd. reported $27.6B of trailing revenue at a 16.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $27.6B trailing twelve months, +5.2% year over year.",
     "Profitability: 16.0% operating margin and 11.4% net margin.",
-    "Cash: $3.2B free cash flow, a 11.5% margin, against $23.3B of net debt.",
+    "Cash: $3.2B free cash flow, an 11.5% margin, against $23.3B of net debt.",
     "Valuation: 12.0x trailing earnings and 8.3x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm",
   "irUrl": "https://www.carnivalcorp.com",
   "bigPicture": {
     "paragraphs": [
       "Carnival Corporation Ltd. generated $27.6B of revenue over the last twelve months, +5.2% versus the prior year. The latest reported quarter was Q3 FY26, with $8.4B of revenue and a 26.3% operating margin. The shares closed at $27.98 on Nov 25, 2026, giving a market capitalization of $37.6B.",
-      "The business depends on traffic, basket size and the cost of serving the next customer. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $37.6B, or 12.0x trailing earnings and 8.3x EV/EBITDA. The shares sit 52% of the way up their 52-week range ($21.45 to $34.03). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The largest disclosed segment is North America at 66.1% of revenue. Geographically, United States leads at 55.8% of the disclosed split. Carnival Corporation Ltd. competes in Travel Services, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $37.6B, or 12.0x trailing earnings and 8.3x EV/EBITDA. The shares sit 52% of the way up their 52-week range ($21.45 to $34.03). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
     ],
-    "quote": "CCL is a Consumer Retail & Leisure business with $27.6B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Carnival is a cruise operator, so occupancy, ticket pricing and fuel costs determine the earnings recovery."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Carnival Corporation Ltd. operates in Consumer Cyclical, within the Consumer Retail & Leisure coverage group. It sells to customers in Travel Services and reports under US GAAP or IFRS in its SEC filings.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 160,000 people, and its coverage group is Consumer Retail & Leisure.",
-      "The comparison set includes ANF, SG and SN. Carnival Corporation Ltd. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Carnival Corporation Ltd. is classified in Travel Services; its financial statements are in USD and it sits in the Consumer Retail & Leisure group. Carnival Corporation Ltd. is a Travel Services company within the Consumer Retail & Leisure coverage group.",
+      "The disclosed mix runs across North America at 66.1%, Europe at 31.8% and Cruise at 1.2%. The company employed 160,000 people at the last reporting date. The revenue base is $27.6B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "The peer set is BKNG, RCL and ABNB; similar businesses can earn very different returns on capital, which is the comparison that matters."
     ],
     "bullets": [
       {
@@ -47,113 +47,113 @@ export const CCL: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 16.0% and net margin is 11.4%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $23.3B, or 3.2x EBITDA. Return on invested capital was 11.3% and return on equity was 22.1%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 16.0% is the first clean profitability line. Demand, occupancy and pricing per unit drive revenue, while labor, fuel and property costs determine the margin.",
+      "Net debt is $23.3B, or 3.2x EBITDA. Return on invested capital was 11.3% and return on equity was 22.1%. That is neither clearly good nor clearly bad without knowing the cost of capital."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.0% a year across the fiscal years in the dataset, and the latest quarter changed +3.5% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 16.0% and return on invested capital of 11.3% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 5.0% a year across the fiscal years in the dataset, and the latest quarter changed +3.5% year over year. Current-year estimates call for $27.7B of revenue and $2.26 of EPS.",
+      "The operating margin of 16.0% and return on invested capital of 11.3% are the filters to watch as revenue scales. Growth of 5.2% against a 16.0% operating margin is the balance the next few quarters have to protect."
     ],
     "bullets": [
       {
-        "title": "Comparable sales",
-        "detail": "Same-store or same-customer growth shows demand without new locations. For Carnival Corporation Ltd., the relevant evidence is revenue growth of +5.2%. That is the metric to track in the next filing."
+        "title": "Demand and occupancy",
+        "detail": "Bookings, passenger counts or room nights determine how much capacity is used. The current reading: revenue growth is +5.2%."
       },
       {
-        "title": "Unit growth",
-        "detail": "New stores, products or markets add revenue but also fixed costs. For Carnival Corporation Ltd., the relevant evidence is an operating margin of 16.0%. That is the metric to track in the next filing."
+        "title": "Pricing and yield",
+        "detail": "The operating margin is 16.0%. That is the metric the thesis depends on."
       },
       {
-        "title": "Margin mix",
-        "detail": "Private label, services and digital orders can lift profitability. For Carnival Corporation Ltd., the relevant evidence is a return on invested capital of 11.3%. That is the metric to track in the next filing."
+        "title": "Unit and capacity growth",
+        "detail": "New ships, rooms or restaurants expand the base but carry fixed costs and execution risk. Return on invested capital is 11.3%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 17.6% in FY2018 to 16.8% in FY2025. The trailing operating margin is 16.0%, the net margin is 11.4% and diluted EPS is $2.29.",
-      "Return on equity was 22.1% and return on invested capital was 11.3%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 22.1% and return on invested capital was 11.3%. Equity returns exceed invested-capital returns by 10.8%, which is more than operating performance alone would explain. A peer median is a useful anchor, but the company's own trajectory is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.2B, a 11.5% margin. Net debt is $23.3B, or 3.2x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $3.6B in the latest fiscal year."
+      "Free cash flow over the trailing period was $3.2B, an 11.5% margin. Net debt is $23.3B, or 3.2x EBITDA. With capital spending at 13.1% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow was $6.2B, or 225.3% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $3.6B in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 12.0x trailing earnings, 8.3x EV/EBITDA and 2.2x EV/sales. The free-cash-flow yield is 8.4%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against ANF, SG and SN; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 12.0x trailing earnings, 8.3x EV/EBITDA and 2.2x EV/sales. The free-cash-flow yield is 8.4%. The trailing earnings yield is 8.3%, against a free-cash-flow yield of 8.4%.",
+      "The peer comparison sets the company against BKNG, RCL and ABNB; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "27 analysts contribute to the third-party consensus. The mean target is $33.56, with a range of $23.00 to $43.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $27.7B of revenue and $2.26 of EPS. The estimate revisions in the dataset are -0.0% over 30 days and 0.9% over 90 days. If met, the estimate would mean growth of 0.5% from the current base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Consumer spending",
+        "title": "Consumer cycle",
         "severity": "High",
-        "detail": "Discretionary budgets are sensitive to confidence and rates.",
-        "watch": "Comparable sales and transaction counts."
+        "detail": "Travel, dining and gaming budgets fall quickly when confidence weakens.",
+        "watch": "Bookings, occupancy and average spend."
       },
       {
-        "title": "Input and labour costs",
+        "title": "Cost inflation",
         "severity": "High",
-        "detail": "Food, freight and wages can compress margins.",
-        "watch": "Gross margin and operating cost per unit."
+        "detail": "Labor, fuel and food costs can rise faster than pricing.",
+        "watch": "Unit cost, fuel hedges and wage rates."
+      },
+      {
+        "title": "Capacity",
+        "severity": "Medium",
+        "detail": "New supply can weaken pricing if demand does not keep up.",
+        "watch": "Capacity growth and occupancy."
       },
       {
         "title": "Competition",
         "severity": "Medium",
-        "detail": "Price and convenience competition can erode traffic.",
-        "watch": "Market share and promotional intensity."
+        "detail": "New entrants and alternative destinations or formats can take share.",
+        "watch": "Market share and pricing trends."
       },
       {
-        "title": "Inventory",
+        "title": "Valuation",
         "severity": "Medium",
-        "detail": "Fashion, seasonal and perishable inventory can become markdowns.",
-        "watch": "Inventory days and markdown cadence."
-      },
-      {
-        "title": "Expansion execution",
-        "severity": "Medium",
-        "detail": "New stores or markets may not earn the same returns.",
-        "watch": "New-unit productivity and capex."
+        "detail": "Leisure multiples assume demand holds through the cycle.",
+        "watch": "Forward bookings and margin guidance."
       }
     ],
     "watchlist": [
       {
-        "title": "Comparable sales",
-        "detail": "Track traffic versus ticket size separately."
+        "title": "Occupancy",
+        "detail": "Utilisation shows whether capacity is being absorbed."
       },
       {
-        "title": "Gross margin",
-        "detail": "A mix shift toward lower-margin categories can hide pricing gains."
+        "title": "Pricing",
+        "detail": "Revenue per room, passenger or cover is the cleanest demand signal."
       },
       {
-        "title": "New-unit returns",
-        "detail": "Growth is only valuable if new locations earn their cost of capital."
+        "title": "Unit growth",
+        "detail": "New capacity only creates value if it earns its cost of capital."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Carnival Corporation Ltd. is a Consumer Retail & Leisure company with $27.6B of trailing revenue, an operating margin of 16.0% and a free-cash-flow margin of 11.5%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with ANF, SG and SN, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 47/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Carnival Corporation Ltd. produced $27.6B of trailing revenue at a 16.0% operating margin and an 11.5% free-cash-flow margin. Net debt of $23.3B, or 3.2x EBITDA, is the constraint that shapes the equity story.",
+      "Third-party analysts put the mean target at $33.56 as of 2026-11-25, 20.0% above the latest close; it is included for attribution, not as a Stockmonk call. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
+      "The factor percentiles put valuation at 89/100 and balance sheet at 15/100, with the composite averaging 47/100. The average hides a strong valuation reading and a weak balance sheet one, which is why the spread is the more useful description."
     ],
     "questions": [
-      "Is growth coming from traffic or prices?",
-      "How much of the margin is protected by sourcing scale?",
-      "What happens to inventory if demand slows?",
+      "Is demand growing or is capacity being added?",
+      "How much pricing power remains if the consumer slows?",
+      "What does a higher labor or fuel cost do to the margin?",
       "Do new units earn the same returns as the base?"
     ]
   }

@@ -1366,6 +1366,1206 @@ export const BUCKETS: Record<string, Bucket> = {
       "What does a soft market do to returns?",
     ],
   },
+  insurance: {
+    lens: "Underwriting discipline, reserve adequacy and investment income decide the return, not premium volume on its own.",
+    drivers: [
+      {
+        title: "Rate and exposure",
+        detail:
+          "Pricing and insured exposure determine whether the premium base grows profitably.",
+      },
+      {
+        title: "Underwriting margin",
+        detail:
+          "The combined ratio decides how much of each premium dollar survives claims and expenses.",
+      },
+      {
+        title: "Investment income",
+        detail:
+          "The float earns a yield that becomes more valuable when short rates are high.",
+      },
+    ],
+    risks: [
+      {
+        title: "Catastrophe and loss trends",
+        detail:
+          "Severe weather, social inflation and legal verdicts can overwhelm pricing.",
+        watch: "Combined ratio, catastrophe load and prior-year development.",
+      },
+      {
+        title: "Soft pricing cycle",
+        detail:
+          "Capital entering the market can turn a hard market into a soft one quickly.",
+        watch: "Rate change, retention and new-business competition.",
+      },
+      {
+        title: "Reserve adequacy",
+        detail:
+          "Reserves set today can prove insufficient several years later.",
+        watch: "Prior-year development and loss picks.",
+      },
+      {
+        title: "Regulation",
+        detail:
+          "Solvency, pricing and coverage rules can change the economics of a line.",
+        watch: "Regulatory actions and line-of-business mix.",
+      },
+      {
+        title: "Valuation",
+        detail:
+          "Insurers are priced on book value and normalized returns, which move with the cycle.",
+        watch: "Price/book, ROE and reserve development.",
+      },
+    ],
+    watch: [
+      {
+        title: "Combined ratio",
+        detail:
+          "The cleanest measure of underwriting profitability after claims and expenses.",
+      },
+      {
+        title: "Reserve development",
+        detail:
+          "Releases or charges reveal whether reserves were set conservatively.",
+      },
+      {
+        title: "Rate",
+        detail:
+          "Pricing versus loss trends determines whether growth adds or destroys value.",
+      },
+    ],
+    questions: [
+      "What is the catastrophe loss budget?",
+      "Are reserves redundant or deficient?",
+      "How much of growth is rate versus exposure?",
+      "What does a soft market do to returns?",
+    ],
+  },
+  brokerage: {
+    lens: "The economics are fee-based, so organic growth, client retention and the price paid for acquisitions matter more than premium volume.",
+    drivers: [
+      {
+        title: "Organic growth",
+        detail:
+          "New clients and increased coverage at existing clients expand commissions without deal spending.",
+      },
+      {
+        title: "Retention and pricing",
+        detail:
+          "Client retention and commission rates determine how much of the base survives each renewal.",
+      },
+      {
+        title: "Acquired growth",
+        detail:
+          "Agency acquisitions add clients and specialty capabilities, but only create value if the price is sensible.",
+      },
+    ],
+    risks: [
+      {
+        title: "Soft commercial rates",
+        detail:
+          "Falling premiums reduce commission income even when client counts hold.",
+        watch: "Commercial rate change and organic growth.",
+      },
+      {
+        title: "Acquisition integration",
+        detail:
+          "Deals can dilute margins if retention slips or synergy targets are missed.",
+        watch: "Acquisition multiples, retention and margin.",
+      },
+      {
+        title: "Disintermediation",
+        detail:
+          "Digital placement and direct models can take share in simpler risks.",
+        watch: "Client retention and new-business mix.",
+      },
+      {
+        title: "Regulation",
+        detail:
+          "Commission disclosure and broker conduct rules can change the model.",
+        watch: "Regulatory actions and client concentration.",
+      },
+      {
+        title: "Valuation",
+        detail:
+          "Brokers trade on organic growth and margin, so a slowdown compresses the multiple quickly.",
+        watch: "Organic growth, margin and the acquisition pipeline.",
+      },
+    ],
+    watch: [
+      {
+        title: "Organic growth",
+        detail:
+          "Excluding acquisitions and rate, organic growth shows whether the franchise is winning share.",
+      },
+      {
+        title: "Retention",
+        detail:
+          "Client retention is the cleanest evidence that the advisory relationship is durable.",
+      },
+      {
+        title: "Margin",
+        detail:
+          "Operating margin shows whether acquired revenue is being integrated efficiently.",
+      },
+    ],
+    questions: [
+      "How much of growth is organic versus acquired?",
+      "What happens to commissions if commercial rates soften?",
+      "Are acquisitions adding margin or just revenue?",
+      "How much of the multiple depends on continued deal-making?",
+    ],
+  },
+  capitalmarkets: {
+    lens: "Earnings depend on assets under management, fundraising, fee rates and the carry realised on prior vintages.",
+    drivers: [
+      {
+        title: "Assets under management",
+        detail:
+          "Market appreciation and net inflows compound the fee base.",
+      },
+      {
+        title: "Fundraising",
+        detail:
+          "New commitments convert into management fees and future carry.",
+      },
+      {
+        title: "Realisation",
+        detail:
+          "Exit activity turns unrealised gains into performance fees and cash.",
+      },
+    ],
+    risks: [
+      {
+        title: "Capital markets",
+        detail:
+          "A closed IPO or M&A market delays exits and carry.",
+        watch: "Exit activity, realisations and carry pipeline.",
+      },
+      {
+        title: "Fundraising cycle",
+        detail:
+          "Institutions can slow commitments after a poor vintage.",
+        watch: "Net inflows, dry powder and fundraising targets.",
+      },
+      {
+        title: "Fee compression",
+        detail:
+          "Retail and institutional competition can pressure management fees.",
+        watch: "Fee rate and product mix.",
+      },
+      {
+        title: "Leverage and guarantees",
+        detail:
+          "Insurance balance sheets and fund-level leverage add cyclicality.",
+        watch: "Debt, guarantees and capital intensity.",
+      },
+      {
+        title: "Valuation",
+        detail:
+          "Managers are priced on fee-related earnings and carry, which are cyclical.",
+        watch: "FRE multiple and carried-interest assumptions.",
+      },
+    ],
+    watch: [
+      {
+        title: "Net inflows",
+        detail:
+          "Organic fundraising is the cleanest growth signal.",
+      },
+      {
+        title: "Fee-related earnings",
+        detail:
+          "FRE isolates the recurring management-fee business from carry.",
+      },
+      {
+        title: "Exit pipeline",
+        detail:
+          "Realisation activity determines when carry is recognised.",
+      },
+    ],
+    questions: [
+      "How much of earnings is recurring management fee?",
+      "What vintage is the carry pipeline?",
+      "How sensitive is fundraising to market levels?",
+      "Is the balance sheet being used to manufacture growth?",
+    ],
+  },
+  marketinfra: {
+    lens: "Revenue depends on activity, client assets and the fee or subscription earned on each interaction.",
+    drivers: [
+      {
+        title: "Volumes and activity",
+        detail:
+          "Trading, issuance or transaction volumes drive the fee pool.",
+      },
+      {
+        title: "Take rate and pricing",
+        detail:
+          "The fee per transaction or subscription determines revenue per unit of activity.",
+      },
+      {
+        title: "Recurring data and client assets",
+        detail:
+          "Subscriptions, benchmarks and client balances add revenue that is less tied to daily volumes.",
+      },
+    ],
+    risks: [
+      {
+        title: "Market activity",
+        detail:
+          "A quiet market reduces volumes and the fees earned on them.",
+        watch: "Volumes, issuance and client activity.",
+      },
+      {
+        title: "Fee compression",
+        detail:
+          "Competition and technology can reduce the fee per transaction.",
+        watch: "Take rate and revenue per unit.",
+      },
+      {
+        title: "Regulation",
+        detail:
+          "Market-structure, conduct and crypto rules can change the model.",
+        watch: "Regulatory actions and licensing.",
+      },
+      {
+        title: "Competition",
+        detail:
+          "New venues and data providers can take share or undercut pricing.",
+        watch: "Market share and product adoption.",
+      },
+      {
+        title: "Valuation",
+        detail:
+          "Activity-linked revenue is cyclical, so multiples move with volumes.",
+        watch: "Forward activity and recurring-revenue mix.",
+      },
+    ],
+    watch: [
+      {
+        title: "Volumes",
+        detail:
+          "Activity is the first driver of transaction revenue.",
+      },
+      {
+        title: "Take rate",
+        detail:
+          "Revenue per unit shows whether pricing is holding.",
+      },
+      {
+        title: "Recurring mix",
+        detail:
+          "Subscriptions and data revenue reduce dependence on volumes.",
+      },
+    ],
+    questions: [
+      "How much of revenue is recurring versus activity-linked?",
+      "What happens to fees if volumes fall?",
+      "Is pricing holding as competition increases?",
+      "How much of the multiple depends on market activity?",
+    ],
+  },
+  payments: {
+    lens: "The economics depend on payment volume, take rate, credit losses and the cost of funding the balance sheet.",
+    drivers: [
+      {
+        title: "Payment volume",
+        detail:
+          "Consumer and commercial spending drives transaction revenue.",
+      },
+      {
+        title: "Take rate and mix",
+        detail:
+          "Pricing per transaction and the mix of value-added services determine revenue per dollar processed.",
+      },
+      {
+        title: "Credit and funding",
+        detail:
+          "Stable credit and cheaper funding expand the spread on lending products.",
+      },
+    ],
+    risks: [
+      {
+        title: "Credit losses",
+        detail:
+          "A weaker consumer can raise charge-offs and provisions.",
+        watch: "Delinquencies, charge-offs and provision guidance.",
+      },
+      {
+        title: "Competition and take rate",
+        detail:
+          "Banks, processors and fintechs can compress pricing.",
+        watch: "Take rate and volume growth.",
+      },
+      {
+        title: "Regulation",
+        detail:
+          "Interchange, crypto and consumer-lending rules can change the model.",
+        watch: "Regulatory actions and licensing.",
+      },
+      {
+        title: "Funding costs",
+        detail:
+          "Higher rates can compress spreads on lending and BNPL products.",
+        watch: "Cost of funds and deposit mix.",
+      },
+      {
+        title: "Valuation",
+        detail:
+          "Growth multiples can compress if credit normalises.",
+        watch: "Forward revenue and credit guidance.",
+      },
+    ],
+    watch: [
+      {
+        title: "Volume and take rate",
+        detail:
+          "Separate unit growth from pricing to see the quality of revenue.",
+      },
+      {
+        title: "Credit quality",
+        detail:
+          "Delinquencies lead charge-offs by several quarters.",
+      },
+      {
+        title: "Funding",
+        detail:
+          "The cost and stability of funding drive lending margins.",
+      },
+    ],
+    questions: [
+      "How much revenue is credit-sensitive?",
+      "What happens to losses in a recession?",
+      "Is the take rate holding as volume grows?",
+      "How much growth is bought with incentives?",
+    ],
+  },
+  retail: {
+    lens: "The business depends on traffic, basket size, inventory turns and the cost of opening the next store.",
+    drivers: [
+      {
+        title: "Comparable sales",
+        detail:
+          "Same-store growth shows demand without new square footage.",
+      },
+      {
+        title: "Unit growth",
+        detail:
+          "New stores and markets expand the revenue base but carry fixed costs.",
+      },
+      {
+        title: "Merchandise margin",
+        detail:
+          "Private label, sourcing and markdown discipline determine gross margin.",
+      },
+    ],
+    risks: [
+      {
+        title: "Consumer spending",
+        detail:
+          "Discretionary budgets are sensitive to confidence and rates.",
+        watch: "Comparable sales and transaction counts.",
+      },
+      {
+        title: "Inventory",
+        detail:
+          "Fashion, seasonal and perishable inventory can become markdowns.",
+        watch: "Inventory days and markdown cadence.",
+      },
+      {
+        title: "Input and labour costs",
+        detail:
+          "Freight, wages and rent can compress margins.",
+        watch: "Gross margin and cost per transaction.",
+      },
+      {
+        title: "Competition",
+        detail:
+          "Price, convenience and assortment competition can erode traffic.",
+        watch: "Market share and promotional intensity.",
+      },
+      {
+        title: "Expansion execution",
+        detail:
+          "New units may not earn the same return as the base.",
+        watch: "New-store productivity and payback.",
+      },
+    ],
+    watch: [
+      {
+        title: "Comparable sales",
+        detail:
+          "Split traffic from ticket size to see whether demand is real.",
+      },
+      {
+        title: "Inventory",
+        detail:
+          "Inventory growth faster than sales usually precedes markdowns.",
+      },
+      {
+        title: "New-unit returns",
+        detail:
+          "Growth only creates value if new stores earn their capital.",
+      },
+    ],
+    questions: [
+      "Is growth coming from traffic or price?",
+      "How much of the margin is protected by sourcing scale?",
+      "What happens to inventory if demand slows?",
+      "Do new units earn the same returns as the base?",
+    ],
+  },
+  leisure: {
+    lens: "Demand, occupancy and pricing per unit drive revenue, while labor, fuel and property costs determine the margin.",
+    drivers: [
+      {
+        title: "Demand and occupancy",
+        detail:
+          "Bookings, passenger counts or room nights determine how much capacity is used.",
+      },
+      {
+        title: "Pricing and yield",
+        detail:
+          "Ticket, room or menu pricing determines revenue per unit of capacity.",
+      },
+      {
+        title: "Unit and capacity growth",
+        detail:
+          "New ships, rooms or restaurants expand the base but carry fixed costs and execution risk.",
+      },
+    ],
+    risks: [
+      {
+        title: "Consumer cycle",
+        detail:
+          "Travel, dining and gaming budgets fall quickly when confidence weakens.",
+        watch: "Bookings, occupancy and average spend.",
+      },
+      {
+        title: "Cost inflation",
+        detail:
+          "Labor, fuel and food costs can rise faster than pricing.",
+        watch: "Unit cost, fuel hedges and wage rates.",
+      },
+      {
+        title: "Capacity",
+        detail:
+          "New supply can weaken pricing if demand does not keep up.",
+        watch: "Capacity growth and occupancy.",
+      },
+      {
+        title: "Competition",
+        detail:
+          "New entrants and alternative destinations or formats can take share.",
+        watch: "Market share and pricing trends.",
+      },
+      {
+        title: "Valuation",
+        detail:
+          "Leisure multiples assume demand holds through the cycle.",
+        watch: "Forward bookings and margin guidance.",
+      },
+    ],
+    watch: [
+      {
+        title: "Occupancy",
+        detail:
+          "Utilisation shows whether capacity is being absorbed.",
+      },
+      {
+        title: "Pricing",
+        detail:
+          "Revenue per room, passenger or cover is the cleanest demand signal.",
+      },
+      {
+        title: "Unit growth",
+        detail:
+          "New capacity only creates value if it earns its cost of capital.",
+      },
+    ],
+    questions: [
+      "Is demand growing or is capacity being added?",
+      "How much pricing power remains if the consumer slows?",
+      "What does a higher labor or fuel cost do to the margin?",
+      "Do new units earn the same returns as the base?",
+    ],
+  },
+  healthservices: {
+    lens: "Revenue depends on utilization, reimbursement and payer mix, while labor and capacity determine the cost of serving each patient.",
+    drivers: [
+      {
+        title: "Utilization",
+        detail:
+          "Patient volumes and procedures drive revenue before price.",
+      },
+      {
+        title: "Reimbursement",
+        detail:
+          "Coverage and rate updates determine revenue per patient.",
+      },
+      {
+        title: "Capacity and mix",
+        detail:
+          "Beds, clinicians and service mix determine how much volume can be converted into margin.",
+      },
+    ],
+    risks: [
+      {
+        title: "Reimbursement pressure",
+        detail:
+          "Medicare, Medicaid and commercial rate updates can cap revenue per patient.",
+        watch: "Payer mix and rate updates.",
+      },
+      {
+        title: "Labor costs",
+        detail:
+          "Nursing and clinician shortages can raise wages and contract labor.",
+        watch: "Salaries, benefits and contract labor.",
+      },
+      {
+        title: "Regulation",
+        detail:
+          "Coverage rules, licensure and billing audits can change the model.",
+        watch: "Regulatory and compliance actions.",
+      },
+      {
+        title: "Volume and capacity",
+        detail:
+          "Capacity constraints can cap growth even when demand is strong.",
+        watch: "Admissions, occupancy and bed additions.",
+      },
+      {
+        title: "Valuation",
+        detail:
+          "Multiples can compress when reimbursement or labor trends worsen.",
+        watch: "EBITDA margin and forward guidance.",
+      },
+    ],
+    watch: [
+      {
+        title: "Payer mix",
+        detail:
+          "A shift toward lower-paying payers changes revenue per patient.",
+      },
+      {
+        title: "Labor cost per visit",
+        detail:
+          "Wage inflation is the largest controllable margin variable.",
+      },
+      {
+        title: "Volume growth",
+        detail:
+          "Admissions and procedures show whether demand is translating into revenue.",
+      },
+    ],
+    questions: [
+      "How much of growth is volume versus rate?",
+      "What happens if reimbursement is cut?",
+      "How dependent is the model on labor supply?",
+      "What does a higher-acuity mix do to margins?",
+    ],
+  },
+  managedcare: {
+    lens: "Membership, medical cost trend and premium rates decide the margin, with the medical loss ratio as the central number.",
+    drivers: [
+      {
+        title: "Enrollment",
+        detail:
+          "Membership growth expands the premium base, but only if the risk mix is priced correctly.",
+      },
+      {
+        title: "Premium rates",
+        detail:
+          "Rate filings and renewals determine revenue per member against expected medical cost.",
+      },
+      {
+        title: "Medical cost management",
+        detail:
+          "Network, utilization and pharmacy programmes determine how much of the premium survives claims.",
+      },
+    ],
+    risks: [
+      {
+        title: "Medical cost trend",
+        detail:
+          "Utilization and acuity can rise faster than premiums, compressing the medical loss ratio.",
+        watch: "Medical loss ratio, utilization and acuity.",
+      },
+      {
+        title: "Policy and reimbursement",
+        detail:
+          "ACA subsidies, Medicaid rates and Medicare rules can change membership and revenue per member.",
+        watch: "Rate notices, subsidy policy and enrollment mix.",
+      },
+      {
+        title: "Risk mix",
+        detail:
+          "A sicker or older membership raises claims without a matching rate increase.",
+        watch: "Risk scores, segment mix and renewals.",
+      },
+      {
+        title: "Competition",
+        detail:
+          "Benefit design and provider networks can win or lose members at renewal.",
+        watch: "Retention, membership and bid pricing.",
+      },
+      {
+        title: "Valuation",
+        detail:
+          "Managed-care multiples move with medical cost trend and policy risk.",
+        watch: "Medical loss ratio and forward guidance.",
+      },
+    ],
+    watch: [
+      {
+        title: "Medical loss ratio",
+        detail:
+          "The share of premium paid out in claims is the cleanest margin signal.",
+      },
+      {
+        title: "Membership",
+        detail:
+          "Growth only helps if the new members are priced for their risk.",
+      },
+      {
+        title: "Rate filings",
+        detail:
+          "Approved rates versus cost trend determine next year's margin.",
+      },
+    ],
+    questions: [
+      "Is medical cost trend running above or below premium rates?",
+      "How much of membership growth is lower-margin business?",
+      "What happens if ACA subsidies change?",
+      "How much of the multiple depends on policy stability?",
+    ],
+  },
+  pharma: {
+    lens: "The value sits in a small number of programmes and patents, so clinical data, label scope and loss-of-exclusivity timing matter more than the current quarter.",
+    drivers: [
+      {
+        title: "Launch execution",
+        detail:
+          "New therapies need payer coverage, prescriber adoption and manufacturing scale.",
+      },
+      {
+        title: "Pipeline readouts",
+        detail:
+          "Late-stage data can extend the growth runway or reset it.",
+      },
+      {
+        title: "Patent duration",
+        detail:
+          "The remaining exclusivity period determines how long the cash flow lasts.",
+      },
+    ],
+    risks: [
+      {
+        title: "Clinical failure",
+        detail:
+          "A negative trial can remove most of a programme's value.",
+        watch: "Trial endpoints and readout timing.",
+      },
+      {
+        title: "Patent cliff",
+        detail:
+          "Loss of exclusivity can reset revenue faster than a new launch replaces it.",
+        watch: "Patent expiry schedule and generic entry.",
+      },
+      {
+        title: "Pricing and reimbursement",
+        detail:
+          "Payer coverage and drug-pricing rules can cap revenue per patient.",
+        watch: "Net price, payer mix and policy changes.",
+      },
+      {
+        title: "Competition",
+        detail:
+          "A better or cheaper therapy can take share quickly.",
+        watch: "Competitor data and launch timing.",
+      },
+      {
+        title: "Manufacturing and safety",
+        detail:
+          "Supply or safety issues can limit a launch.",
+        watch: "Supply disclosures and adverse events.",
+      },
+    ],
+    watch: [
+      {
+        title: "Launch metrics",
+        detail:
+          "Prescriptions, payer coverage and inventory reveal the real launch curve.",
+      },
+      {
+        title: "Patent timing",
+        detail:
+          "The next loss-of-exclusivity date is the hard constraint on the cash flow.",
+      },
+      {
+        title: "Pipeline readouts",
+        detail:
+          "Late-stage data is the main driver of the out-year value.",
+      },
+    ],
+    questions: [
+      "When does the largest patent expire?",
+      "What does a negative trial leave behind?",
+      "How broad is the reimbursement label?",
+      "How much of the valuation is the pipeline?",
+    ],
+  },
+  defense: {
+    lens: "Revenue is tied to government budgets, contract awards and the conversion of backlog into deliveries.",
+    drivers: [
+      {
+        title: "Backlog",
+        detail:
+          "Contracted orders provide visibility into future revenue.",
+      },
+      {
+        title: "Budget and supplementals",
+        detail:
+          "Defense budgets and supplemental spending set the addressable market.",
+      },
+      {
+        title: "Programme execution",
+        detail:
+          "Deliveries, milestones and cost control determine margins on fixed-price work.",
+      },
+    ],
+    risks: [
+      {
+        title: "Budget cycle",
+        detail:
+          "Continuing resolutions and priorities can delay awards.",
+        watch: "Budget markers and supplemental packages.",
+      },
+      {
+        title: "Contract concentration",
+        detail:
+          "A few programmes or agencies can dominate revenue.",
+        watch: "Backlog concentration and award timing.",
+      },
+      {
+        title: "Fixed-price execution",
+        detail:
+          "Cost overruns on fixed-price contracts can hit margins.",
+        watch: "Segment margins and programme charges.",
+      },
+      {
+        title: "Supply chain",
+        detail:
+          "Specialty components and labor can constrain deliveries.",
+        watch: "Lead times and supplier concentration.",
+      },
+      {
+        title: "Valuation",
+        detail:
+          "Defense multiples can compress when budget growth slows.",
+        watch: "Backlog growth and forward revenue.",
+      },
+    ],
+    watch: [
+      {
+        title: "Book-to-bill",
+        detail:
+          "A ratio above one shows orders are outpacing revenue.",
+      },
+      {
+        title: "Programme milestones",
+        detail:
+          "Deliveries and reviews determine when backlog becomes cash.",
+      },
+      {
+        title: "Budget",
+        detail:
+          "Appropriations and supplementals are the leading demand signal.",
+      },
+    ],
+    questions: [
+      "How much backlog converts in the next year?",
+      "Which programmes are fixed-price?",
+      "How dependent is revenue on one agency?",
+      "What does a continuing resolution delay?",
+    ],
+  },
+  transport: {
+    lens: "Revenue depends on demand, pricing and utilisation, while fuel, labour and capacity determine the cost of the next trip.",
+    drivers: [
+      {
+        title: "Demand and load",
+        detail:
+          "Passenger or freight volumes determine how much capacity is used.",
+      },
+      {
+        title: "Pricing and yield",
+        detail:
+          "Ticket or contract pricing determines revenue per unit of capacity.",
+      },
+      {
+        title: "Cost per unit",
+        detail:
+          "Fuel, labour and maintenance decide whether volume growth becomes profit.",
+      },
+    ],
+    risks: [
+      {
+        title: "Fuel and labour",
+        detail:
+          "Input costs can rise faster than pricing.",
+        watch: "Fuel hedges, wage rates and cost per unit.",
+      },
+      {
+        title: "Demand cyclicality",
+        detail:
+          "Travel and freight demand can fall quickly in a downturn.",
+        watch: "Load factors, bookings and volumes.",
+      },
+      {
+        title: "Capacity",
+        detail:
+          "Adding capacity into weak demand destroys pricing.",
+        watch: "Capacity growth and utilisation.",
+      },
+      {
+        title: "Competition",
+        detail:
+          "Route or lane competition can cap pricing power.",
+        watch: "Market share and fare trends.",
+      },
+      {
+        title: "Regulation",
+        detail:
+          "Safety, emissions and labour rules can raise costs.",
+        watch: "Regulatory actions and compliance spend.",
+      },
+    ],
+    watch: [
+      {
+        title: "Load factor",
+        detail:
+          "Utilisation shows whether capacity is being absorbed.",
+      },
+      {
+        title: "Unit revenue",
+        detail:
+          "Pricing per passenger or ton is the cleanest demand signal.",
+      },
+      {
+        title: "Cost per unit",
+        detail:
+          "Ex-fuel cost trends reveal whether efficiency is improving.",
+      },
+    ],
+    questions: [
+      "Is demand growing or is capacity being added?",
+      "How much of the cost base is hedged?",
+      "What happens to pricing in a downturn?",
+      "Can the balance sheet fund the next fleet cycle?",
+    ],
+  },
+  autonomy: {
+    lens: "The value depends on design wins, program ramps and the path from development spending to commercial scale.",
+    drivers: [
+      {
+        title: "Design wins",
+        detail:
+          "Nominations and platform awards determine the revenue pipeline years before production.",
+      },
+      {
+        title: "Program ramps",
+        detail:
+          "Production volumes at the automaker determine when awarded business becomes revenue.",
+      },
+      {
+        title: "Content per vehicle",
+        detail:
+          "More sensors, compute or software per vehicle raises revenue without a proportional cost increase.",
+      },
+    ],
+    risks: [
+      {
+        title: "Program delays",
+        detail:
+          "Automaker delays or cancellations push revenue out and strand development spending.",
+        watch: "Program timelines and nomination announcements.",
+      },
+      {
+        title: "Cash burn",
+        detail:
+          "Development spending can outrun revenue before commercial scale arrives.",
+        watch: "Cash runway, operating loss and spending plans.",
+      },
+      {
+        title: "Customer concentration",
+        detail:
+          "A few automakers can dominate the order book.",
+        watch: "Customer disclosures and platform concentration.",
+      },
+      {
+        title: "Technology competition",
+        detail:
+          "A cheaper or better system can displace an incumbent before scale.",
+        watch: "Competitor launches and design-win share.",
+      },
+      {
+        title: "Valuation",
+        detail:
+          "The multiple capitalises future programs that may not reach production.",
+        watch: "Forward revenue and nomination backlog.",
+      },
+    ],
+    watch: [
+      {
+        title: "Design wins",
+        detail:
+          "Nominations are the leading indicator of future revenue.",
+      },
+      {
+        title: "Production ramp",
+        detail:
+          "Awarded programs only matter when vehicles ship.",
+      },
+      {
+        title: "Cash runway",
+        detail:
+          "The balance sheet determines how long the company can fund development.",
+      },
+    ],
+    questions: [
+      "How many programs are in production versus development?",
+      "When does the order book convert into revenue?",
+      "How much cash is needed to reach scale?",
+      "How concentrated is the customer base?",
+    ],
+  },
+  internet: {
+    lens: "The model depends on users, engagement, transaction volume and the take rate earned on each interaction.",
+    drivers: [
+      {
+        title: "User and engagement growth",
+        detail:
+          "More active users and frequency expand the inventory available to monetise.",
+      },
+      {
+        title: "Take rate",
+        detail:
+          "The share of transaction value retained determines revenue per unit of GMV.",
+      },
+      {
+        title: "Adjacent services",
+        detail:
+          "Advertising, logistics, payments and subscriptions can lift revenue per user.",
+      },
+    ],
+    risks: [
+      {
+        title: "Competition for users",
+        detail:
+          "Switching costs are low and new formats can take attention quickly.",
+        watch: "Monthly users, engagement and churn.",
+      },
+      {
+        title: "Take-rate pressure",
+        detail:
+          "Merchants and users can push back on fees.",
+        watch: "Take rate and merchant retention.",
+      },
+      {
+        title: "Regulation",
+        detail:
+          "Platform, privacy and gig-labour rules can change the model.",
+        watch: "Regulatory actions and market-by-market rules.",
+      },
+      {
+        title: "Profitability",
+        detail:
+          "Growth can be bought with incentives that disappear when spending slows.",
+        watch: "Contribution margin and sales efficiency.",
+      },
+      {
+        title: "Valuation",
+        detail:
+          "High multiples assume durable user growth and take rate.",
+        watch: "Forward revenue and margin guidance.",
+      },
+    ],
+    watch: [
+      {
+        title: "GMV and take rate",
+        detail:
+          "Separate transaction growth from the share retained.",
+      },
+      {
+        title: "User growth",
+        detail:
+          "Net adds and engagement show whether the audience is durable.",
+      },
+      {
+        title: "Contribution margin",
+        detail:
+          "Unit economics reveal whether growth creates value.",
+      },
+    ],
+    questions: [
+      "How much growth is users versus take rate?",
+      "What does a slowdown in incentives do to volume?",
+      "How defensible is the audience?",
+      "When does the platform reach durable profit?",
+    ],
+  },
+  labs: {
+    lens: "Revenue depends on test volumes, reimbursement and the mix of routine versus esoteric testing.",
+    drivers: [
+      {
+        title: "Test volumes",
+        detail:
+          "Order volumes from hospitals, physicians and patients drive revenue before price.",
+      },
+      {
+        title: "Reimbursement",
+        detail:
+          "Medicare, Medicaid and commercial rates determine revenue per test.",
+      },
+      {
+        title: "Test mix",
+        detail:
+          "Esoteric and specialty tests carry higher prices and margins than routine panels.",
+      },
+    ],
+    risks: [
+      {
+        title: "Reimbursement pressure",
+        detail:
+          "Rate cuts or coverage changes can lower revenue per test.",
+        watch: "Reimbursement rates and payer mix.",
+      },
+      {
+        title: "Volume",
+        detail:
+          "Utilization can fall if physicians change testing patterns.",
+        watch: "Test volumes and order trends.",
+      },
+      {
+        title: "Competition",
+        detail:
+          "Hospital labs and national chains compete on price and turnaround.",
+        watch: "Market share and pricing.",
+      },
+      {
+        title: "Regulation",
+        detail:
+          "Billing rules and lab licensure can change the operating model.",
+        watch: "Regulatory and compliance actions.",
+      },
+      {
+        title: "Valuation",
+        detail:
+          "Lab multiples move with reimbursement and volume trends.",
+        watch: "Volume growth and margin guidance.",
+      },
+    ],
+    watch: [
+      {
+        title: "Volume growth",
+        detail:
+          "Test counts show whether demand is translating into revenue.",
+      },
+      {
+        title: "Reimbursement",
+        detail:
+          "Price per test is the main swing factor in the margin.",
+      },
+      {
+        title: "Test mix",
+        detail:
+          "A richer mix lifts revenue per order without more volume.",
+      },
+    ],
+    questions: [
+      "How much of growth is volume versus price?",
+      "What happens if reimbursement is cut?",
+      "How much of revenue is esoteric testing?",
+      "Can the lab pass through wage inflation?",
+    ],
+  },
+  medtech: {
+    lens: "The franchise depends on clinical evidence, procedure volumes, reimbursement and the installed base of devices.",
+    drivers: [
+      {
+        title: "Procedure growth",
+        detail:
+          "More procedures expand the consumable and device opportunity.",
+      },
+      {
+        title: "Installed base",
+        detail:
+          "Placed devices create recurring consumable and service revenue.",
+      },
+      {
+        title: "New indications",
+        detail:
+          "Label expansions and clinical data widen the addressable market.",
+      },
+    ],
+    risks: [
+      {
+        title: "Reimbursement",
+        detail:
+          "Coverage and procedure codes determine adoption and price.",
+        watch: "Payer decisions and coding updates.",
+      },
+      {
+        title: "Clinical and regulatory",
+        detail:
+          "Trial data, approvals and recalls can change the franchise.",
+        watch: "Trial readouts, approvals and quality events.",
+      },
+      {
+        title: "Competition",
+        detail:
+          "A better device or a cheaper alternative can take share.",
+        watch: "Procedure share and competitor launches.",
+      },
+      {
+        title: "Hospital capital budgets",
+        detail:
+          "Capex cuts can delay device purchases.",
+        watch: "Hospital capex and order trends.",
+      },
+      {
+        title: "Valuation",
+        detail:
+          "Medtech multiples assume durable procedure growth.",
+        watch: "Forward revenue and margin.",
+      },
+    ],
+    watch: [
+      {
+        title: "Procedure volumes",
+        detail:
+          "The leading indicator for device and consumable demand.",
+      },
+      {
+        title: "Installed base",
+        detail:
+          "Placed units determine the recurring revenue stream.",
+      },
+      {
+        title: "Reimbursement",
+        detail:
+          "Coverage decisions can accelerate or cap adoption.",
+      },
+    ],
+    questions: [
+      "How much revenue is recurring versus capital equipment?",
+      "What does a reimbursement change do to volume?",
+      "How concentrated is the installed base?",
+      "What clinical evidence would expand the label?",
+    ],
+  },
 };
 
 export const GROUP_BUCKET: Record<string, string> = {

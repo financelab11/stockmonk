@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const BURL: StockStory = {
   "ticker": "BURL",
   "kicker": "Consumer Retail & Leisure · Apparel Retail",
-  "title": "Burlington Stores, Inc. at 22.0x earnings: what the filings support",
-  "dek": "Burlington Stores, Inc. generated $12.4B of trailing revenue with an operating margin of 7.6%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Burlington Stores, Inc: An off-price retailer",
+  "dek": "Burlington Stores, Inc. reported $12.4B of trailing revenue at a 7.6% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $12.4B trailing twelve months, +11.1% year over year.",
@@ -13,22 +13,22 @@ export const BURL: StockStory = {
     "Valuation: 22.0x trailing earnings and 12.2x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1579298/000119312526116001/burl-20260131.htm",
   "irUrl": "https://www.burlington.com",
   "bigPicture": {
     "paragraphs": [
       "Burlington Stores, Inc. generated $12.4B of revenue over the last twelve months, +11.1% versus the prior year. The latest reported quarter was Q3 FY27, with $2.9B of revenue and a 4.9% operating margin. The shares closed at $250.90 on Nov 25, 2026, giving a market capitalization of $15.8B.",
-      "The business depends on traffic, basket size and the cost of serving the next customer. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $15.8B, or 22.0x trailing earnings and 12.2x EV/EBITDA. The shares sit 16% of the way up their 52-week range ($226.85 to $378.33). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "A reportable segment split is not available in the current dataset; the consolidated revenue line is the cleanest unit of analysis. Geographic mix is not disclosed in the extract behind this report.",
+      "At the latest close the equity is valued at $15.8B, or 22.0x trailing earnings and 12.2x EV/EBITDA. The shares sit 16% of the way up their 52-week range ($226.85 to $378.33). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
     ],
-    "quote": "BURL is a Consumer Retail & Leisure business with $12.4B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Burlington is an off-price retailer, a traffic-driven model where buying discipline and inventory turns determine margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Burlington Stores, Inc. operates as a retailer of branded merchandise in the United States and Puerto Rico. Burlington Stores, Inc. is a Consumer Retail & Leisure company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 17,495 people, and its coverage group is Consumer Retail & Leisure.",
-      "The comparison set includes ANF, SG and SN. Burlington Stores, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Burlington Stores, Inc. operates as a retailer of branded merchandise in the United States and Puerto Rico. The business is part of the Consumer Retail & Leisure group and reports under Consumer Cyclical in the current classification.",
+      "The company reports one consolidated revenue line rather than a segment split. Headcount was 17,495 in the latest filing. The revenue base is $12.4B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "Against TJX, ANF and LULU, the relevant tests are pricing power, capital intensity and cash conversion."
     ],
     "bullets": [
       {
@@ -47,56 +47,56 @@ export const BURL: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 43.8%, operating margin is 7.6% and net margin is 5.8%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $1.5B, or 1.1x EBITDA. Return on invested capital was 18.1% and return on equity was 34.8%."
+      "Gross margin is 43.8%, operating margin is 7.6% and net margin is 5.8%. Gross profit was $5.4B, and 36.2% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
+      "Net debt is $1.5B, or 1.1x EBITDA. Return on invested capital was 18.1% and return on equity was 34.8%. That is comfortably above most cost-of-capital estimates, which is what lets reinvestment create value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.2% a year across the fiscal years in the dataset, and the latest quarter changed +8.4% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 7.6% and return on invested capital of 18.1% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 8.2% a year across the fiscal years in the dataset, and the latest quarter changed +8.4% year over year. Current-year estimates call for $12.7B of revenue and $11.56 of EPS.",
+      "The operating margin of 7.6% and return on invested capital of 18.1% are the filters to watch as revenue scales. Growth of 11.1% against a 7.6% operating margin is the balance the next few quarters have to protect."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Same-store or same-customer growth shows demand without new locations. For Burlington Stores, Inc., the relevant evidence is revenue growth of +11.1%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +11.1%. Same-store growth shows demand without new square footage."
       },
       {
         "title": "Unit growth",
-        "detail": "New stores, products or markets add revenue but also fixed costs. For Burlington Stores, Inc., the relevant evidence is an operating margin of 7.6%. That is the metric to track in the next filing."
+        "detail": "New stores and markets expand the revenue base but carry fixed costs. The current reading: the operating margin is 7.6%."
       },
       {
-        "title": "Margin mix",
-        "detail": "Private label, services and digital orders can lift profitability. For Burlington Stores, Inc., the relevant evidence is a return on invested capital of 18.1%. That is the metric to track in the next filing."
+        "title": "Merchandise margin",
+        "detail": "Return on invested capital is 18.1%. A change in that figure would be the first signal of a shift."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 7.6% in FY2019 to 7.1% in FY2026. The trailing operating margin is 7.6%, the net margin is 5.8% and diluted EPS is $11.17.",
-      "Return on equity was 34.8% and return on invested capital was 18.1%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 34.8% and return on invested capital was 18.1%. Equity returns exceed invested-capital returns by 16.7%, which is more than operating performance alone would explain. A peer median is a useful anchor, but the company's own trajectory is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $304.8M, a 2.5% margin. Net debt is $1.5B, or 1.1x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.1B in the latest fiscal year."
+      "Free cash flow over the trailing period was $304.8M, a 2.5% margin. Net debt is $1.5B, or 1.1x EBITDA. With capital spending at 8.5% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow was $1.2B, or 201.8% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.1B in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 22.0x trailing earnings, 12.2x EV/EBITDA and 1.4x EV/sales. The free-cash-flow yield is 1.9%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against ANF, SG and SN; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 22.0x trailing earnings, 12.2x EV/EBITDA and 1.4x EV/sales. The free-cash-flow yield is 1.9%. The trailing earnings yield is 4.5%, against a free-cash-flow yield of 1.9%.",
+      "The peer comparison sets the company against TJX, ANF and LULU; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "17 analysts contribute to the third-party consensus. The mean target is $329.59, with a range of $240.00 to $440.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $12.7B of revenue and $11.56 of EPS. The estimate revisions in the dataset are -2.0% over 30 days and -1.8% over 90 days. Set against trailing revenue, the estimate implies growth of 2.6%."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
         "title": "Consumer spending",
@@ -105,53 +105,53 @@ export const BURL: StockStory = {
         "watch": "Comparable sales and transaction counts."
       },
       {
-        "title": "Input and labour costs",
-        "severity": "High",
-        "detail": "Food, freight and wages can compress margins.",
-        "watch": "Gross margin and operating cost per unit."
-      },
-      {
-        "title": "Competition",
-        "severity": "Medium",
-        "detail": "Price and convenience competition can erode traffic.",
-        "watch": "Market share and promotional intensity."
-      },
-      {
         "title": "Inventory",
-        "severity": "Medium",
+        "severity": "High",
         "detail": "Fashion, seasonal and perishable inventory can become markdowns.",
         "watch": "Inventory days and markdown cadence."
       },
       {
+        "title": "Input and labour costs",
+        "severity": "Medium",
+        "detail": "Freight, wages and rent can compress margins.",
+        "watch": "Gross margin and cost per transaction."
+      },
+      {
+        "title": "Competition",
+        "severity": "Medium",
+        "detail": "Price, convenience and assortment competition can erode traffic.",
+        "watch": "Market share and promotional intensity."
+      },
+      {
         "title": "Expansion execution",
         "severity": "Medium",
-        "detail": "New stores or markets may not earn the same returns.",
-        "watch": "New-unit productivity and capex."
+        "detail": "New units may not earn the same return as the base.",
+        "watch": "New-store productivity and payback."
       }
     ],
     "watchlist": [
       {
         "title": "Comparable sales",
-        "detail": "Track traffic versus ticket size separately."
+        "detail": "Split traffic from ticket size to see whether demand is real."
       },
       {
-        "title": "Gross margin",
-        "detail": "A mix shift toward lower-margin categories can hide pricing gains."
+        "title": "Inventory",
+        "detail": "Inventory growth faster than sales usually precedes markdowns."
       },
       {
         "title": "New-unit returns",
-        "detail": "Growth is only valuable if new locations earn their cost of capital."
+        "detail": "Growth only creates value if new stores earn their capital."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Burlington Stores, Inc. is a Consumer Retail & Leisure company with $12.4B of trailing revenue, an operating margin of 7.6% and a free-cash-flow margin of 2.5%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with ANF, SG and SN, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 47/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Burlington Stores, Inc. produced $12.4B of trailing revenue at a 7.6% operating margin and a 2.5% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
+      "Analysts contributing to the third-party consensus carry a $329.59 mean target as of 2026-11-25, 31.4% above the latest close; that is the analysts' view, attributed and dated, not a Stockmonk target.",
+      "The factor percentiles put valuation at 66/100 and cash generation at 18/100, with the composite averaging 47/100. The average hides a strong valuation reading and a weak cash generation one, which is why the spread is the more useful description."
     ],
     "questions": [
-      "Is growth coming from traffic or prices?",
+      "Is growth coming from traffic or price?",
       "How much of the margin is protected by sourcing scale?",
       "What happens to inventory if demand slows?",
       "Do new units earn the same returns as the base?"

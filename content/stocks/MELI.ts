@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const MELI: StockStory = {
   "ticker": "MELI",
   "kicker": "Internet Platforms · Internet Retail",
-  "title": "The financial engine behind MercadoLibre, Inc.",
-  "dek": "MercadoLibre, Inc. generated $26.8B of trailing revenue with an operating margin of 10.7%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "MercadoLibre, Inc: E-commerce and fintech in Latin America",
+  "dek": "MercadoLibre, Inc. reported $26.8B of trailing revenue at a 10.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $26.8B trailing twelve months, +43.6% year over year.",
@@ -13,22 +13,22 @@ export const MELI: StockStory = {
     "Valuation: 39.1x trailing earnings and 20.2x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
   "irUrl": "https://www.mercadolibre.com",
   "bigPicture": {
     "paragraphs": [
       "MercadoLibre, Inc. generated $26.8B of revenue over the last twelve months, +43.6% versus the prior year. The latest reported quarter was Q3 FY26, with $7.5B of revenue and a 9.0% operating margin. The shares closed at $1,457.24 on Nov 25, 2026, giving a market capitalization of $73.9B.",
-      "The business is judged on whether it can keep converting a technical advantage into recurring revenue. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $73.9B, or 39.1x trailing earnings and 20.2x EV/EBITDA. The shares sit 12% of the way up their 52-week range ($1,333.54 to $2,342.00). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Brazil contributes 74.8% of the disclosed revenue mix. By geography, United States is the largest disclosed market at 0.3% of revenue. MercadoLibre, Inc. competes in Internet Retail, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $73.9B, or 39.1x trailing earnings and 20.2x EV/EBITDA. The shares sit 12% of the way up their 52-week range ($1,333.54 to $2,342.00). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "MELI is an Internet Platforms business with $26.8B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "MercadoLibre runs e-commerce and fintech in Latin America, so GMV, take rate, credit growth and logistics density drive the earnings."
   },
   "whatItDoes": {
     "paragraphs": [
-      "MercadoLibre, Inc. operates online commerce platforms in Brazil, Mexico, Argentina, and internationally. MercadoLibre, Inc. is an Internet Platforms company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 123,670 people, and its coverage group is Internet Platforms.",
-      "The comparison set includes BABA, BIDU and CART. MercadoLibre, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "MercadoLibre, Inc. operates online commerce platforms in Brazil, Mexico, Argentina, and internationally. It reports in the Consumer Cyclical sector and is classified in Internet Platforms coverage.",
+      "The disclosed mix runs across Brazil at 74.8% and Argentina at 29.3%. Its latest filing lists 123,670 employees. With $26.8B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "AMZN, BABA and CART provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const MELI: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 60.5%, operating margin is 10.7% and net margin is 7.1%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $5.8B, or 1.5x EBITDA. Return on invested capital was 9.8% and return on equity was 23.0%."
+      "The company kept 60.5% of revenue after cost of sales, or $16.2B. Operating expenses absorbed 49.8% of revenue, leaving a 10.7% operating margin. The operating layer is where the gross profit is either protected or spent.",
+      "Net debt is $5.8B, or 1.5x EBITDA. Return on invested capital was 9.8% and return on equity was 23.0%. The return is close enough to the cost of capital that small changes in margin matter."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 46.0% a year across the fiscal years in the dataset, and the latest quarter changed +44.2% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 10.7% and return on invested capital of 9.8% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 46.0% a year across the fiscal years in the dataset, and the latest quarter changed +44.2% year over year. Current-year estimates call for $41.8B of revenue and $36.59 of EPS.",
+      "The operating margin of 10.7% and return on invested capital of 9.8% are the filters to watch as revenue scales. The 43.6% revenue pace and 10.7% margin have to move together for the earnings path to improve."
     ],
     "bullets": [
       {
-        "title": "Product cycle",
-        "detail": "New products and platform transitions create refresh demand and pricing power. For MercadoLibre, Inc., the relevant evidence is revenue growth of +43.6%. That is the metric to track in the next filing."
+        "title": "User and engagement growth",
+        "detail": "Revenue growth is +43.6%. That is the number to compare with the company's own history."
       },
       {
-        "title": "Customer expansion",
-        "detail": "Land-and-expand selling raises revenue per existing customer and lengthens the relationship. For MercadoLibre, Inc., the relevant evidence is an operating margin of 10.7%. That is the metric to track in the next filing."
+        "title": "Take rate",
+        "detail": "The share of transaction value retained determines revenue per unit of GMV. The operating margin is 10.7%."
       },
       {
-        "title": "Operating leverage",
-        "detail": "Incremental revenue can carry high gross margins once development and sales costs are in place. For MercadoLibre, Inc., the relevant evidence is a return on invested capital of 9.8%. That is the metric to track in the next filing."
+        "title": "Adjacent services",
+        "detail": "Return on invested capital is 9.8%. Advertising, logistics, payments and subscriptions can lift revenue per user."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from -4.8% in FY2018 to 15.7% in FY2025. The trailing operating margin is 10.7%, the net margin is 7.1% and diluted EPS is $37.28.",
-      "Return on equity was 23.0% and return on invested capital was 9.8%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 23.0% and return on invested capital was 9.8%. Return on equity of 23.0% is above the 9.8% return on invested capital, a gap that leverage or acquisition goodwill can explain."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $12.3B, a 45.8% margin. Net debt is $5.8B, or 1.5x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.3B in the latest fiscal year."
+      "Free cash flow over the trailing period was $12.3B, a 45.8% margin. Net debt is $5.8B, or 1.5x EBITDA. Capex absorbed 5.0% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow was $12.1B, or 606.7% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.3B in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 39.1x trailing earnings, 20.2x EV/EBITDA and 3.0x EV/sales. The free-cash-flow yield is 16.6%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BABA, BIDU and CART; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 39.1x trailing earnings, 20.2x EV/EBITDA and 3.0x EV/sales. The free-cash-flow yield is 16.6%. Inverting the P/E gives an earnings yield of 2.6%; the cash-flow yield is 16.6%.",
+      "The peer comparison sets the company against AMZN, BABA and CART; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "26 analysts contribute to the third-party consensus. The mean target is $2,152.76, with a range of $1,600.00 to $2,700.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $41.8B of revenue and $36.59 of EPS. The estimate revisions in the dataset are -4.6% over 30 days and -4.5% over 90 days. The estimate is consistent with growth of 56.2% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Technology substitution",
+        "title": "Competition for users",
         "severity": "High",
-        "detail": "A faster or cheaper architecture can reset the competitive position quickly.",
-        "watch": "Product roadmaps, design wins and customer concentration."
+        "detail": "Switching costs are low and new formats can take attention quickly.",
+        "watch": "Monthly users, engagement and churn."
       },
       {
-        "title": "Customer concentration",
+        "title": "Take-rate pressure",
         "severity": "High",
-        "detail": "A small number of large buyers can swing revenue and pricing.",
-        "watch": "Top-customer disclosures and order trends."
+        "detail": "Merchants and users can push back on fees.",
+        "watch": "Take rate and merchant retention."
+      },
+      {
+        "title": "Regulation",
+        "severity": "Medium",
+        "detail": "Platform, privacy and gig-labour rules can change the model.",
+        "watch": "Regulatory actions and market-by-market rules."
+      },
+      {
+        "title": "Profitability",
+        "severity": "Medium",
+        "detail": "Growth can be bought with incentives that disappear when spending slows.",
+        "watch": "Contribution margin and sales efficiency."
       },
       {
         "title": "Valuation",
         "severity": "Medium",
-        "detail": "High expectations leave less room for a growth disappointment.",
-        "watch": "Forward estimates versus the current multiple."
-      },
-      {
-        "title": "Supply chain",
-        "severity": "Medium",
-        "detail": "Advanced components and manufacturing capacity can constrain shipments.",
-        "watch": "Lead times, inventory and supplier concentration."
-      },
-      {
-        "title": "Regulation and export controls",
-        "severity": "Medium",
-        "detail": "Cross-border rules can remove addressable market or raise compliance costs.",
-        "watch": "Export-licence changes and geographic mix."
+        "detail": "High multiples assume durable user growth and take rate.",
+        "watch": "Forward revenue and margin guidance."
       }
     ],
     "watchlist": [
       {
-        "title": "Growth durability",
-        "detail": "Compare revenue growth with the prior four quarters."
+        "title": "GMV and take rate",
+        "detail": "Separate transaction growth from the share retained."
       },
       {
-        "title": "Gross margin",
-        "detail": "A falling gross margin can signal pricing pressure or a richer hardware mix."
+        "title": "User growth",
+        "detail": "Net adds and engagement show whether the audience is durable."
       },
       {
-        "title": "Customer concentration",
-        "detail": "Track large-customer disclosures and order momentum."
+        "title": "Contribution margin",
+        "detail": "Unit economics reveal whether growth creates value."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "MercadoLibre, Inc. is an Internet Platforms company with $26.8B of trailing revenue, an operating margin of 10.7% and a free-cash-flow margin of 45.8%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BABA, BIDU and CART, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 53/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "MercadoLibre, Inc. produced $26.8B of trailing revenue at a 10.7% operating margin and a 45.8% free-cash-flow margin. The free-cash-flow margin is the strongest part of that record; the rest of the report tests whether it can be sustained.",
+      "The consensus target is $2,152.76 as of 2026-11-25, 47.7% above the latest close; the figure belongs to the analysts who published it, not to this report. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put cash generation at 96/100 and valuation at 33/100, with the composite averaging 53/100. The gap between cash generation at 96/100 and valuation at 33/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
-      "How much of growth is volume versus price?",
-      "What would a pause in customer spending do to margins?",
-      "Is the product advantage durable or one cycle long?",
-      "How much of the valuation depends on the next product cycle?"
+      "How much growth is users versus take rate?",
+      "What does a slowdown in incentives do to volume?",
+      "How defensible is the audience?",
+      "When does the platform reach durable profit?"
     ]
   }
 };

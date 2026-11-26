@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const NDSN: StockStory = {
   "ticker": "NDSN",
   "kicker": "Industrial Automation · Specialty Industrial Machinery",
-  "title": "Nordson Corporation: margins, cash conversion and the multiple",
-  "dek": "Nordson Corporation generated $3B of trailing revenue with an operating margin of 26.9%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Nordson Corporation: Dispensing and precision-flow equipment",
+  "dek": "Nordson Corporation reported $3B of trailing revenue at a 26.9% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $3B trailing twelve months, +7.0% year over year.",
@@ -13,22 +13,22 @@ export const NDSN: StockStory = {
     "Valuation: 32.0x trailing earnings and 22.3x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/72331/000007233125000144/ndsn-20251031.htm",
   "irUrl": "https://www.nordson.com",
   "bigPicture": {
     "paragraphs": [
       "Nordson Corporation generated $3B of revenue over the last twelve months, +7.0% versus the prior year. The latest reported quarter was Q3 FY26, with $817.7M of revenue and a 27.3% operating margin. The shares closed at $318.99 on Nov 25, 2026, giving a market capitalization of $17.8B.",
-      "Revenue is tied to capital spending, backlogs and the ability to pass through input costs. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $17.8B, or 32.0x trailing earnings and 22.3x EV/EBITDA. The shares sit 81% of the way up their 52-week range ($231.39 to $339.12). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Industrial Precisions Solutions contributes 47.7% of the disclosed revenue mix. By geography, Americas is the largest disclosed market at 43.2% of revenue. Nordson Corporation competes in Specialty Industrial Machinery, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $17.8B, or 32.0x trailing earnings and 22.3x EV/EBITDA. The shares sit 81% of the way up their 52-week range ($231.39 to $339.12). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "NDSN is an Industrial Automation business with $3B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Nordson makes dispensing and precision-flow equipment, a niche industrial where aftermarket parts and acquisition integration drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
       "Nordson Corporation engineers, manufactures, and markets products and systems to dispense, apply, and control adhesives, coatings, polymers, sealants, biomaterials, medical components, and other fluids. The Industrial Precision Solutions segment provides dispensing, coating, and laminating systems for adhesives, lotions, liquids, and fibers to disposable products and roll goods; automated adhesive dispensing systems; components and systems for thermoplastic and biopolymer melt stream; fluid components, such as nozzles, pumps, and filters; smart components that measure and control the flow, quantity and location of dispensed fluid; control systems; and product assembly solutions.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 8,200 people, and its coverage group is Industrial Automation.",
-      "The comparison set includes AIT, AME and AZEK. Nordson Corporation is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "The disclosed mix runs across Industrial Precisions Solutions at 47.7%, Medical Fluid Systems at 29.9% and Advanced Technology Systems at 22.4%. Its latest filing lists 8,200 employees. With $3B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "GEV, ETN and PH provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,56 +47,56 @@ export const NDSN: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 55.2%, operating margin is 26.9% and net margin is 18.6%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $1.8B, or 2.1x EBITDA. Return on invested capital was 12.7% and return on equity was 17.0%."
+      "The company kept 55.2% of revenue after cost of sales, or $1.6B. Operating expenses absorbed 28.3% of revenue, leaving a 26.9% operating margin. The operating layer is where the gross profit is either protected or spent.",
+      "Net debt is $1.8B, or 2.1x EBITDA. Return on invested capital was 12.7% and return on equity was 17.0%. The return is close enough to the cost of capital that small changes in margin matter."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.1% a year across the fiscal years in the dataset, and the latest quarter changed +10.3% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 26.9% and return on invested capital of 12.7% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 3.1% a year across the fiscal years in the dataset, and the latest quarter changed +10.3% year over year. Current-year estimates call for $3.1B of revenue and $11.95 of EPS.",
+      "The operating margin of 26.9% and return on invested capital of 12.7% are the filters to watch as revenue scales. Growth of 7.0% on a 26.9% operating margin is a high-quality combination if both hold."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Orders already booked provide visibility into future revenue. For Nordson Corporation, the relevant evidence is revenue growth of +7.0%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +7.0%. The direction of travel matters more than the absolute level."
       },
       {
         "title": "Aftermarket and services",
-        "detail": "Recurring service revenue can be more profitable than equipment. For Nordson Corporation, the relevant evidence is an operating margin of 26.9%. That is the metric to track in the next filing."
+        "detail": "Recurring service revenue can be more profitable than equipment. The operating margin is 26.9%."
       },
       {
         "title": "Price and productivity",
-        "detail": "Pricing actions and cost programmes protect margins through cycles. For Nordson Corporation, the relevant evidence is a return on invested capital of 12.7%. That is the metric to track in the next filing."
+        "detail": "Return on invested capital is 12.7%. Pricing actions and cost programmes protect margins through cycles."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 22.3% in FY2018 to 25.5% in FY2025. The trailing operating margin is 26.9%, the net margin is 18.6% and diluted EPS is $9.88.",
-      "Return on equity was 17.0% and return on invested capital was 12.7%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 17.0% and return on invested capital was 12.7%. With return on equity at 17.0% and return on invested capital at 12.7%, leverage is not the main driver of the gap."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $724M, a 24.3% margin. Net debt is $1.8B, or 2.1x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $58.1M in the latest fiscal year."
+      "Free cash flow over the trailing period was $724M, a 24.3% margin. Net debt is $1.8B, or 2.1x EBITDA. Capex absorbed 1.9% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow was $719.2M, or 148.4% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $58.1M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 32.0x trailing earnings, 22.3x EV/EBITDA and 6.6x EV/sales. The free-cash-flow yield is 4.1%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against AIT, AME and AZEK; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 32.0x trailing earnings, 22.3x EV/EBITDA and 6.6x EV/sales. The free-cash-flow yield is 4.1%. Inverting the P/E gives an earnings yield of 3.1%; the cash-flow yield is 4.1%.",
+      "The peer comparison sets the company against GEV, ETN and PH; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "7 analysts contribute to the third-party consensus. The mean target is $349.71, with a range of $282.00 to $375.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $3.1B of revenue and $11.95 of EPS. The estimate revisions in the dataset are 0.3% over 30 days and 3.1% over 90 days. The estimate is consistent with growth of 2.6% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
         "title": "Capital-spending cycle",
@@ -146,9 +146,9 @@ export const NDSN: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Nordson Corporation is an Industrial Automation company with $3B of trailing revenue, an operating margin of 26.9% and a free-cash-flow margin of 24.3%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with AIT, AME and AZEK, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 50/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Nordson Corporation produced $3B of trailing revenue at a 26.9% operating margin and a 24.3% free-cash-flow margin. The free-cash-flow margin is the strongest part of that record; the rest of the report tests whether it can be sustained.",
+      "The consensus target is $349.71 as of 2026-11-25, 9.6% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put cash generation at 75/100 and balance sheet at 26/100, with the composite averaging 50/100. The gap between cash generation at 75/100 and balance sheet at 26/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
       "How much revenue is recurring versus project-based?",

@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const FAST: StockStory = {
   "ticker": "FAST",
   "kicker": "Industrial Automation · Industrial Distribution",
-  "title": "What Fastenal Company's latest filings reveal about growth, margins and cash",
-  "dek": "Fastenal Company generated $9.1B of trailing revenue with an operating margin of 20.5%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Fastenal Company: Industrial fasteners and supplies",
+  "dek": "Fastenal Company reported $9.1B of trailing revenue at a 20.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $9.1B trailing twelve months, +13.5% year over year.",
@@ -13,22 +13,22 @@ export const FAST: StockStory = {
     "Valuation: 42.6x trailing earnings and 29.6x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/815556/000081555626000009/fast-20251231.htm",
   "irUrl": "https://www.fastenal.com",
   "bigPicture": {
     "paragraphs": [
       "Fastenal Company generated $9.1B of revenue over the last twelve months, +13.5% versus the prior year. The latest reported quarter was Q3 FY26, with $2.5B of revenue and a 21.5% operating margin. The shares closed at $52.62 on Nov 25, 2026, giving a market capitalization of $60.4B.",
-      "Revenue is tied to capital spending, backlogs and the ability to pass through input costs. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $60.4B, or 42.6x trailing earnings and 29.6x EV/EBITDA. The shares sit 78% of the way up their 52-week range ($39.81 to $56.27). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. Geographically, United States leads at 83.2% of the disclosed split.",
+      "At the latest close the equity is valued at $60.4B, or 42.6x trailing earnings and 29.6x EV/EBITDA. The shares sit 78% of the way up their 52-week range ($39.81 to $56.27). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
     ],
-    "quote": "FAST is an Industrial Automation business with $9.1B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Fastenal distributes industrial fasteners and supplies, so industrial demand, onsite penetration and pricing drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
       "Fastenal Company, together with its subsidiaries, engages in the wholesale distribution of industrial and construction supplies in the United States, Canada, Mexico, and internationally. It offers fasteners, and related industrial and construction supplies under the Fastenal name.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 21,749 people, and its coverage group is Industrial Automation.",
-      "The comparison set includes AIT, AME and AZEK. Fastenal Company is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "There is no separate segment disclosure in the current extract. The company employed 21,749 people at the last reporting date. Trailing revenue is $9.1B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "The peer set is AIT and GWW; similar businesses can earn very different returns on capital, which is the comparison that matters."
     ],
     "bullets": [
       {
@@ -47,56 +47,56 @@ export const FAST: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 44.6%, operating margin is 20.5% and net margin is 15.6%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $111.9M of net cash. Return on invested capital was 33.3% and return on equity was 34.2%."
+      "Of $9.1B of revenue, $4B remained after cost of sales. The 24.1% operating-expense load brought that down to a 20.5% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "The balance sheet carries $111.9M of net cash. Return on invested capital was 33.3% and return on equity was 34.2%. The return leaves room above the cost of capital for growth to compound."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 7.4% a year across the fiscal years in the dataset, and the latest quarter changed +15.5% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 20.5% and return on invested capital of 33.3% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 7.4% a year across the fiscal years in the dataset, and the latest quarter changed +15.5% year over year. Current-year estimates call for $9.3B of revenue and $1.27 of EPS.",
+      "The operating margin of 20.5% and return on invested capital of 33.3% are the filters to watch as revenue scales. Neither the 13.5% growth nor the 20.5% margin is extreme; the combination is what matters."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Orders already booked provide visibility into future revenue. For Fastenal Company, the relevant evidence is revenue growth of +13.5%. That is the metric to track in the next filing."
+        "detail": "Orders already booked provide visibility into future revenue. The current reading: revenue growth is +13.5%."
       },
       {
         "title": "Aftermarket and services",
-        "detail": "Recurring service revenue can be more profitable than equipment. For Fastenal Company, the relevant evidence is an operating margin of 20.5%. That is the metric to track in the next filing."
+        "detail": "The operating margin is 20.5%. That is the line the next filing has to move."
       },
       {
         "title": "Price and productivity",
-        "detail": "Pricing actions and cost programmes protect margins through cycles. For Fastenal Company, the relevant evidence is a return on invested capital of 33.3%. That is the metric to track in the next filing."
+        "detail": "Pricing actions and cost programmes protect margins through cycles. Return on invested capital is 33.3%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 20.1% in FY2018 to 20.2% in FY2025. The trailing operating margin is 20.5%, the net margin is 15.6% and diluted EPS is $1.23.",
-      "Return on equity was 34.2% and return on invested capital was 33.3%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 34.2% and return on invested capital was 33.3%. Return on invested capital of 33.3% is close to the 34.2% equity return, so the balance sheet explains only part of the difference."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.2B, a 13.0% margin. The balance sheet carries $111.9M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $245.3M in the latest fiscal year."
+      "Free cash flow over the trailing period was $1.2B, a 13.0% margin. The balance sheet carries $111.9M of net cash. Capital expenditure was 2.7% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow was $1.3B, or 103.0% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $245.3M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 42.6x trailing earnings, 29.6x EV/EBITDA and 6.6x EV/sales. The free-cash-flow yield is 1.9%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against AIT, AME and AZEK; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 42.6x trailing earnings, 29.6x EV/EBITDA and 6.6x EV/sales. The free-cash-flow yield is 1.9%. The 2.3% earnings yield and 1.9% free-cash-flow yield are the two return measures embedded in the price.",
+      "The peer comparison sets the company against AIT and GWW; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "13 analysts contribute to the third-party consensus. The mean target is $50.76, with a range of $39.90 to $60.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $9.3B of revenue and $1.27 of EPS. The estimate revisions in the dataset are 0.2% over 30 days and 1.1% over 90 days. If met, the estimate would mean growth of 2.8% from the current base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
         "title": "Capital-spending cycle",
@@ -146,9 +146,9 @@ export const FAST: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Fastenal Company is an Industrial Automation company with $9.1B of trailing revenue, an operating margin of 20.5% and a free-cash-flow margin of 13.0%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with AIT, AME and AZEK, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 53/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Fastenal Company produced $9.1B of trailing revenue at a 20.5% operating margin and a 13.0% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
+      "The third-party consensus mean is $50.76 as of 2026-11-25, 3.5% below the latest close; this report does not publish a target of its own. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put profitability at 79/100 and valuation at 22/100, with the composite averaging 53/100. A 79/100 profitability score against a 22/100 valuation score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
       "How much revenue is recurring versus project-based?",

@@ -13,13 +13,13 @@ export const DFS: StockStory = {
     "Valuation: final consideration 1.0192 Capital One shares per Discover share; no live multiple or consensus target."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1393612/000139361225000009/dfs-20241231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001393612&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
       "Discover Financial Services last traded at $201.01 on May 18, 2025, when the Capital One transaction closed. The final consideration was 1.0192 Capital One shares per Discover share. The company no longer files current reports, so the figures below are the final SEC statements rather than a live snapshot. Discover Financial Services generated $7B of revenue over the last twelve months, +21.1% versus the prior year. The final reported operating margin was 91.9% and free-cash-flow margin was 121.2%.",
-      "The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
+      "Digital Banking accounts for 74.5% of disclosed revenue. Country-level revenue is not part of the filing extract used here. Discover Financial Services competes in Financials, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
       "The archived valuation has 10.5x trailing earnings and 7.9x EV/EBITDA, based on the final consideration and the last reported statements. It is a historical reference, not a live multiple. The article is retained because the company remains part of the 500-name coverage library."
     ],
     "quote": "Discover Financial Services is no longer a live market, so the useful question is what its final financial record says about the Banks & Insurance business that the acquirer bought."
@@ -27,8 +27,8 @@ export const DFS: StockStory = {
   "whatItDoes": {
     "paragraphs": [
       "Discover Financial Services was acquired by Capital One. The final consideration was 1.0192 Capital One shares per Discover share. The shares last traded on May 18, 2025; the statements below are the final SEC filings and the article is retained as archived coverage.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs an undisclosed number of people, and its coverage group is Banks & Insurance.",
-      "The comparison set includes ACGL, AFL and AIZ. Discover Financial Services is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "The disclosed mix runs across Digital Banking at 74.5% and Payment Services at 25.5%. Headcount is not disclosed in the current dataset. Trailing revenue is $7B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "The peer set is ACGL, AFL and AIZ; net interest margin, provisioning and capital returns are the comparisons that matter."
     ],
     "bullets": [
       {
@@ -47,52 +47,52 @@ export const DFS: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 91.9% and net margin is 68.7%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $2.1B of net cash. Return on invested capital was 14.3% and return on equity was 25.3%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 91.9% is the first clean profitability line. The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns.",
+      "A bank's balance sheet is its product, so net debt is less informative than deposit mix and capital ratios. Return on equity was 25.3%; for a bank, that return is shaped by leverage and credit costs rather than by a product gross margin."
     ]
   },
   "growth": {
     "paragraphs": [
       "Revenue compounded at -16.2% a year across the fiscal years in the dataset, and the latest quarter changed +3.4% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 91.9% and return on invested capital of 14.3% are the filters to watch as revenue scales. The final year in the dataset is FY2024; there is no current guidance because the company no longer trades."
+      "Return on equity of 25.3% is the filter to watch as revenue scales. The final year in the dataset is FY2024; there is no current guidance because the company no longer trades."
     ],
     "bullets": [
       {
         "title": "Net interest income",
-        "detail": "Loan and securities yields less funding costs are the core revenue line. For Discover Financial Services, the relevant evidence is revenue growth of +21.1%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +21.1%. Loan and securities yields less funding costs are the core revenue line."
       },
       {
         "title": "Fee income",
-        "detail": "Advisory, asset management and trading diversify the revenue base. For Discover Financial Services, the relevant evidence is an operating margin of 91.9%. That is the metric to track in the next filing."
+        "detail": "Advisory, asset management and trading diversify the revenue base. The current reading: the operating margin is 91.9%."
       },
       {
         "title": "Capital returns",
-        "detail": "Buybacks and dividends can grow per-share value when capital is abundant. For Discover Financial Services, the relevant evidence is a return on invested capital of 14.3%. That is the metric to track in the next filing."
+        "detail": "Return on equity is 25.3%. That is the number to compare with the company's own history."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 36.7% in FY2017 to 217.2% in FY2024. The trailing operating margin is 91.9%, the net margin is 68.7% and diluted EPS is $18.74.",
-      "Return on equity was 25.3% and return on invested capital was 14.3%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is 91.9%, the net margin is 68.7% and diluted EPS is $18.74.",
+      "Return on equity was 25.3%. For a bank, return on invested capital is distorted by deposit funding, so net interest margin, credit costs and capital ratios are the more useful comparisons."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $8.5B, a 121.2% margin. The balance sheet carries $2.1B of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
+      "Free cash flow over the trailing period was $8.5B, a 121.2% margin. A bank's balance sheet is its product, so net debt is less informative than deposit mix and capital ratios. For a bank, cash flow is shaped by balance-sheet movements, so the margin is less comparable than it is for an industrial.",
       "The final reported balance sheet is the one shown here; it will not update. The company generated positive free cash flow on a trailing basis, and capital expenditure was $268M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 10.5x trailing earnings, 7.9x EV/EBITDA and 7.0x EV/sales. The free-cash-flow yield is 16.7%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
+      "At the latest reference price the shares trade at 10.5x trailing earnings, 7.9x EV/EBITDA and 7.0x EV/sales. The free-cash-flow yield is 16.7%. For a bank, price-to-book and P/E are more relevant than EV/EBITDA.",
       "The final consideration was 1.0192 Capital One shares per Discover share. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades."
     ]
   },
   "analysts": {
     "paragraphs": [
       "A current analyst consensus is not available because Discover Financial Services no longer trades. The final transaction value is the relevant reference, and the archived estimates are shown only where the dataset retains them.",
-      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $7B and the last reported operating margin was 91.9%. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $7B and the last reported operating margin was 91.9%."
     ]
   },
   "risks": {
@@ -147,8 +147,8 @@ export const DFS: StockStory = {
   "bottomLine": {
     "paragraphs": [
       "Discover Financial Services is an archived Banks & Insurance company with $7B of final trailing revenue, a 91.9% operating margin and a 121.2% free-cash-flow margin. The Capital One transaction valued the equity at 1.0192 Capital One shares per Discover share.",
-      "There is no current price, target or rating to update. The archived factor percentiles are a historical description of the business at the point of the transaction. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles place the company at an average of 80/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "There is no current price, target or rating to update. The archived factor percentiles are a historical description of the business at the point of the transaction. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put cash generation at 99/100 and balance sheet at 55/100, with the composite averaging 80/100. A 99/100 cash generation score against a 55/100 balance sheet score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
       "How much of net interest income is rate-sensitive?",

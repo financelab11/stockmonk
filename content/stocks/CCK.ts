@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const CCK: StockStory = {
   "ticker": "CCK",
   "kicker": "Materials & Mining · Packaging & Containers",
-  "title": "Crown Holdings, Inc. at 15.6x earnings: what the filings support",
-  "dek": "Crown Holdings, Inc. generated $13.8B of trailing revenue with an operating margin of 12.0%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Crown Holdings, Inc: Metal packaging for food and beverages",
+  "dek": "Crown Holdings, Inc. reported $13.8B of trailing revenue at a 12.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $13.8B trailing twelve months, +13.4% year over year.",
@@ -13,22 +13,22 @@ export const CCK: StockStory = {
     "Valuation: 15.6x trailing earnings and 9.5x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1219601/000162828026012904/cck-20251231.htm",
   "irUrl": "https://www.crowncork.com",
   "bigPicture": {
     "paragraphs": [
-      "Crown Holdings, Inc. generated $13.8B of revenue over the last twelve months, +13.4% versus the prior year. The latest reported quarter was Q3 FY26, with $3.7B of revenue and a 11.9% operating margin. The shares closed at $124.11 on Nov 25, 2026, giving a market capitalization of $13.4B.",
-      "Revenue and margins move with commodity prices, volumes and the cost of energy and feedstock. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $13.4B, or 15.6x trailing earnings and 9.5x EV/EBITDA. The shares sit 94% of the way up their 52-week range ($91.31 to $126.36). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Crown Holdings, Inc. generated $13.8B of revenue over the last twelve months, +13.4% versus the prior year. The latest reported quarter was Q3 FY26, with $3.7B of revenue and an 11.9% operating margin. The shares closed at $124.11 on Nov 25, 2026, giving a market capitalization of $13.4B.",
+      "A reportable segment split is not available in the current dataset; the consolidated revenue line is the cleanest unit of analysis. Revenue is disclosed across 8 geographies, with United States the largest at 38.9%.",
+      "At the latest close the equity is valued at $13.4B, or 15.6x trailing earnings and 9.5x EV/EBITDA. The shares sit 94% of the way up their 52-week range ($91.31 to $126.36). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
     ],
-    "quote": "CCK is a Materials & Mining business with $13.8B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Crown makes metal packaging for food and beverages, a volume business where capacity utilisation and metal costs determine margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Crown Holdings, Inc. , together with its subsidiaries, engages in the packaging business in the United States and internationally. Crown Holdings, Inc. is a Materials & Mining company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 23,000 people, and its coverage group is Materials & Mining.",
-      "The comparison set includes AEM, ALB and APD. Crown Holdings, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Crown Holdings, Inc., together with its subsidiaries, engages in the packaging business in the United States and internationally. The business is part of the Materials & Mining group and reports under Consumer Cyclical in the current classification.",
+      "The company reports one consolidated revenue line rather than a segment split. Headcount was 23,000 in the latest filing. Trailing revenue is $13.8B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "Against AVY and BALL, the relevant tests are pricing power, capital intensity and cash conversion."
     ],
     "bullets": [
       {
@@ -47,56 +47,56 @@ export const CCK: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 12.0% and net margin is 6.2%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $5.2B, or 2.7x EBITDA. Return on invested capital was 14.0% and return on equity was 29.2%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 12.0% is the first clean profitability line. Revenue and margins move with commodity prices, volumes and the cost of energy and feedstock.",
+      "Net debt is $5.2B, or 2.7x EBITDA. Return on invested capital was 14.0% and return on equity was 29.2%. That sits in the middle of the range; whether it clears the cost of capital is the deciding question."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 1.5% a year across the fiscal years in the dataset, and the latest quarter changed +15.9% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 12.0% and return on invested capital of 14.0% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 1.5% a year across the fiscal years in the dataset, and the latest quarter changed +15.9% year over year. Current-year estimates call for $14B of revenue and $8.41 of EPS.",
+      "The operating margin of 12.0% and return on invested capital of 14.0% are the filters to watch as revenue scales. Neither the 13.4% growth nor the 12.0% margin is extreme; the combination is what matters."
     ],
     "bullets": [
       {
         "title": "Volume",
-        "detail": "Shipments show underlying industrial demand. For Crown Holdings, Inc., the relevant evidence is revenue growth of +13.4%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +13.4%. Shipments show underlying industrial demand."
       },
       {
         "title": "Price and mix",
-        "detail": "Product mix and pricing determine margin per ton. For Crown Holdings, Inc., the relevant evidence is an operating margin of 12.0%. That is the metric to track in the next filing."
+        "detail": "Product mix and pricing determine margin per ton. The current reading: the operating margin is 12.0%."
       },
       {
         "title": "Cost position",
-        "detail": "Low-cost assets can earn through the cycle. For Crown Holdings, Inc., the relevant evidence is a return on invested capital of 14.0%. That is the metric to track in the next filing."
+        "detail": "Return on invested capital is 14.0%. That is the metric the thesis depends on."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 9.8% in FY2018 to 12.6% in FY2025. The trailing operating margin is 12.0%, the net margin is 6.2% and diluted EPS is $7.19.",
-      "Return on equity was 29.2% and return on invested capital was 14.0%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 29.2% and return on invested capital was 14.0%. The 15.2% spread between the two returns suggests some of the equity return comes from the balance sheet rather than operations alone."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1B, a 7.3% margin. Net debt is $5.2B, or 2.7x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $413M in the latest fiscal year."
+      "Free cash flow over the trailing period was $1B, a 7.3% margin. Net debt is $5.2B, or 2.7x EBITDA. Capital expenditure was 3.0% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow was $1.5B, or 207.3% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $413M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 15.6x trailing earnings, 9.5x EV/EBITDA and 1.4x EV/sales. The free-cash-flow yield is 7.5%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against AEM, ALB and APD; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 15.6x trailing earnings, 9.5x EV/EBITDA and 1.4x EV/sales. The free-cash-flow yield is 7.5%. The 6.4% earnings yield and 7.5% free-cash-flow yield are the two return measures embedded in the price.",
+      "The peer comparison sets the company against AVY and BALL; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "13 analysts contribute to the third-party consensus. The mean target is $136.15, with a range of $118.00 to $155.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $14B of revenue and $8.41 of EPS. The estimate revisions in the dataset are 0.2% over 30 days and 0.1% over 90 days. Set against trailing revenue, the estimate implies growth of 1.8%."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
         "title": "Commodity cycle",
@@ -146,9 +146,9 @@ export const CCK: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Crown Holdings, Inc. is a Materials & Mining company with $13.8B of trailing revenue, an operating margin of 12.0% and a free-cash-flow margin of 7.3%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with AEM, ALB and APD, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 44/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Crown Holdings, Inc. produced $13.8B of trailing revenue at a 12.0% operating margin and a 7.3% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
+      "13 analysts in the third-party survey average $136.15 as of 2026-11-25, 9.7% above the latest close; the forecast is theirs, and this report does not adopt it as a target.",
+      "The factor percentiles put valuation at 80/100 and balance sheet at 20/100, with the composite averaging 44/100. A 80/100 valuation score against a 20/100 balance sheet score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
       "What is the mid-cycle margin?",

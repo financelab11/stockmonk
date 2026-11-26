@@ -4,7 +4,7 @@ export const CLX: StockStory = {
   "ticker": "CLX",
   "kicker": "Consumer Staples · Household & Personal Products",
   "title": "The Clorox Company: -6.0% growth, 4.0% free cash flow and the price being paid",
-  "dek": "The Clorox Company generated $6.7B of trailing revenue with an operating margin of 11.8%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "dek": "The Clorox Company reported $6.7B of trailing revenue at an 11.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $6.7B trailing twelve months, -6.0% year over year.",
@@ -13,22 +13,22 @@ export const CLX: StockStory = {
     "Valuation: 22.5x trailing earnings and 17.8x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000034/clx-20260630.htm",
   "irUrl": "https://www.thecloroxcompany.com",
   "bigPicture": {
     "paragraphs": [
       "The Clorox Company generated $6.7B of revenue over the last twelve months, -6.0% versus the prior year. The latest reported quarter was Q4 FY26, with $1.9B of revenue and a 10.9% operating margin. The shares closed at $110.39 on Nov 25, 2026, giving a market capitalization of $13.4B.",
-      "The business depends on traffic, basket size and the cost of serving the next customer. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $13.4B, or 22.5x trailing earnings and 17.8x EV/EBITDA. The shares sit 63% of the way up their 52-week range ($79.12 to $128.90). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Health & Wellness contributes 38.0% of the disclosed revenue mix. By geography, United States is the largest disclosed market at 85.6% of revenue. The Clorox Company competes in Household & Personal Products, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $13.4B, or 22.5x trailing earnings and 17.8x EV/EBITDA. The shares sit 63% of the way up their 52-week range ($79.12 to $128.90). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "CLX is a Consumer Staples business with $6.7B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Clorox sells household staples, a mature consumer business where volume recovery and pricing power determine margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "The Clorox Company manufactures and markets consumer and professional products worldwide. It operates through four segments: Health and Wellness, Household, Lifestyle, and International. The Clorox Company is a Consumer Staples company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 9,200 people, and its coverage group is Consumer Staples.",
-      "The comparison set includes CAG, CHD and HRL. The Clorox Company is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "The Clorox Company manufactures and markets consumer and professional products worldwide. It operates through four segments: Health and Wellness, Household, Lifestyle, and International. It reports in the Consumer Defensive sector and is classified in Consumer Staples coverage.",
+      "The disclosed mix runs across Health & Wellness at 38.0%, Household at 28.2% and Lifestyle at 18.3%. Its latest filing lists 9,200 employees. The revenue base is $6.7B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "PG, CL and ELF provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,62 +47,62 @@ export const CLX: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 42.1%, operating margin is 11.8% and net margin is 8.9%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $5B, or 4.8x EBITDA. Return on invested capital was 11.9% and return on equity was -1523.1%."
+      "Gross margin is 42.1%, operating margin is 11.8% and net margin is 8.9%. Gross profit was $2.8B, and 30.3% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
+      "Net debt is $5B, or 4.8x EBITDA. Return on invested capital was 11.9%, while the reported return on equity is negative because the equity base is negative. The operating return is the one to use when judging reinvestment."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 2.1% a year across the fiscal years in the dataset, and the latest quarter changed -4.2% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 11.8% and return on invested capital of 11.9% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 2.1% a year across the fiscal years in the dataset, and the latest quarter changed -4.2% year over year. Current-year estimates call for $7.6B of revenue and $5.73 of EPS.",
+      "The operating margin of 11.8% and return on invested capital of 11.9% are the filters to watch as revenue scales. Revenue is shrinking at 6.0% a year on a trailing basis, which puts the burden on cost control and capital returns."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Same-store or same-customer growth shows demand without new locations. For The Clorox Company, the relevant evidence is revenue growth of -6.0%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is -6.0%. That is the line the next filing has to move."
       },
       {
         "title": "Unit growth",
-        "detail": "New stores, products or markets add revenue but also fixed costs. For The Clorox Company, the relevant evidence is an operating margin of 11.8%. That is the metric to track in the next filing."
+        "detail": "New stores, products or markets add revenue but also fixed costs. The operating margin is 11.8%."
       },
       {
         "title": "Margin mix",
-        "detail": "Private label, services and digital orders can lift profitability. For The Clorox Company, the relevant evidence is a return on invested capital of 11.9%. That is the metric to track in the next filing."
+        "detail": "Return on invested capital is 11.9%. Private label, services and digital orders can lift profitability."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 17.2% in FY2018 to 15.2% in FY2025. The trailing operating margin is 11.8%, the net margin is 8.9% and diluted EPS is $4.87.",
-      "Return on equity was -1523.1% and return on invested capital was 11.9%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was -1523.1% and return on invested capital was 11.9%. A negative equity base makes the equity return meaningless here; the return on invested capital is the number that matters."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $266M, a 4.0% margin. Net debt is $5B, or 4.8x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $220M in the latest fiscal year."
+      "Free cash flow over the trailing period was $266M, a 4.0% margin. Net debt is $5B, or 4.8x EBITDA. With capital spending at 3.3% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow was $981M, or 121.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $220M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 22.5x trailing earnings, 17.8x EV/EBITDA and 2.7x EV/sales. The free-cash-flow yield is 2.0%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against CAG, CHD and HRL; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 22.5x trailing earnings, 17.8x EV/EBITDA and 2.7x EV/sales. The free-cash-flow yield is 2.0%. The trailing earnings yield is 4.4%, against a free-cash-flow yield of 2.0%.",
+      "The peer comparison sets the company against PG, CL and ELF; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "16 analysts contribute to the third-party consensus. The mean target is $97.69, with a range of $74.00 to $142.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $7.6B of revenue and $5.73 of EPS. The estimate revisions in the dataset are -0.3% over 30 days and -1.6% over 90 days. The estimate is consistent with growth of 14.4% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Consumer spending",
+        "title": "Leverage",
         "severity": "High",
-        "detail": "Discretionary budgets are sensitive to confidence and rates.",
-        "watch": "Comparable sales and transaction counts."
+        "detail": "Net debt is $5B, or 4.8x EBITDA, which leaves the equity sensitive to refinancing costs and a slower cash flow.",
+        "watch": "Leverage, interest cover and the maturity profile."
       },
       {
         "title": "Input and labour costs",
@@ -146,9 +146,9 @@ export const CLX: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "The Clorox Company is a Consumer Staples company with $6.7B of trailing revenue, an operating margin of 11.8% and a free-cash-flow margin of 4.0%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with CAG, CHD and HRL, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 28/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "The Clorox Company produced $6.7B of trailing revenue at an 11.8% operating margin and a 4.0% free-cash-flow margin. Net debt of $5B, or 4.8x EBITDA, is the constraint that shapes the equity story.",
+      "Analysts contributing to the third-party consensus carry a $97.69 mean target as of 2026-11-25, 11.5% below the latest close; the figure belongs to the analysts who published it, not to this report.",
+      "The factor percentiles put valuation at 52/100 and balance sheet at 6/100, with the composite averaging 28/100. The average hides a strong valuation reading and a weak balance sheet one, which is why the spread is the more useful description."
     ],
     "questions": [
       "Is growth coming from traffic or prices?",

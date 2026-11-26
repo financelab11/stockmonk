@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const CASY: StockStory = {
   "ticker": "CASY",
   "kicker": "Consumer Retail & Leisure · Specialty Retail",
-  "title": "Casey's General Stores, Inc.: a consumer retail & leisure business with +13.8% revenue growth",
-  "dek": "Casey's General Stores, Inc. generated $18.7B of trailing revenue with an operating margin of 4.2%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Casey's General Stores, Inc: A convenience-store chain with a fuel and prepared-food mix",
+  "dek": "Casey's General Stores, Inc. reported $18.7B of trailing revenue at a 4.2% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $18.7B trailing twelve months, +13.8% year over year.",
@@ -13,22 +13,22 @@ export const CASY: StockStory = {
     "Valuation: 33.0x trailing earnings and 24.2x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/726958/000072695826000046/casy-20260430.htm",
   "irUrl": "https://www.caseys.com",
   "bigPicture": {
     "paragraphs": [
       "Casey's General Stores, Inc. generated $18.7B of revenue over the last twelve months, +13.8% versus the prior year. The latest reported quarter was Q1 FY27, with $5.7B of revenue and a 6.1% operating margin. The shares closed at $690.62 on Nov 25, 2026, giving a market capitalization of $25.5B.",
-      "The business depends on traffic, basket size and the cost of serving the next customer. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $25.5B, or 33.0x trailing earnings and 24.2x EV/EBITDA. The shares sit 40% of the way up their 52-week range ($529.84 to $927.85). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. The filing extract does not break revenue out by geography. Casey's General Stores, Inc. competes in Specialty Retail, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $25.5B, or 33.0x trailing earnings and 24.2x EV/EBITDA. The shares sit 40% of the way up their 52-week range ($529.84 to $927.85). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
     ],
-    "quote": "CASY is a Consumer Retail & Leisure business with $18.7B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Casey's is a convenience-store chain with a fuel and prepared-food mix, so traffic, cigarette volumes and food margins drive earnings."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Casey's General Stores, Inc. , together with its subsidiaries, operates convenience stores under the Casey's and Casey's General Store names in the United States. Casey's General Stores, Inc. is a Consumer Retail & Leisure company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 23,490 people, and its coverage group is Consumer Retail & Leisure.",
-      "The comparison set includes ANF, SG and SN. Casey's General Stores, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Casey's General Stores, Inc., together with its subsidiaries, operates convenience stores under the Casey's and Casey's General Store names in the United States. Casey's General Stores, Inc. sits in the Specialty Retail industry, one of the Consumer Retail & Leisure names in this library.",
+      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 23,490 people. With $18.7B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "The closest listed comparisons are DKS and FIVE; the useful question is how Casey's General Stores, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
     ],
     "bullets": [
       {
@@ -47,56 +47,56 @@ export const CASY: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 4.2% and net margin is 4.1%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $1.9B, or 1.7x EBITDA. Return on invested capital was 8.6% and return on equity was 18.9%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 4.2% is the first clean profitability line. The business depends on traffic, basket size, inventory turns and the cost of opening the next store.",
+      "Net debt is $1.9B, or 1.7x EBITDA. Return on invested capital was 8.6% and return on equity was 18.9%. The return is close enough to the cost of capital that small changes in margin matter."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 9.4% a year across the fiscal years in the dataset, and the latest quarter changed +24.3% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 4.2% and return on invested capital of 8.6% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 9.4% a year across the fiscal years in the dataset, and the latest quarter changed +24.3% year over year. Current-year estimates call for $21.1B of revenue and $21.35 of EPS.",
+      "The operating margin of 4.2% and return on invested capital of 8.6% are the filters to watch as revenue scales. The 13.8% revenue pace and 4.2% margin have to move together for the earnings path to improve."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Same-store or same-customer growth shows demand without new locations. For Casey's General Stores, Inc., the relevant evidence is revenue growth of +13.8%. That is the metric to track in the next filing."
+        "detail": "Same-store growth shows demand without new square footage. Revenue growth is +13.8%."
       },
       {
         "title": "Unit growth",
-        "detail": "New stores, products or markets add revenue but also fixed costs. For Casey's General Stores, Inc., the relevant evidence is an operating margin of 4.2%. That is the metric to track in the next filing."
+        "detail": "The operating margin is 4.2%. New stores and markets expand the revenue base but carry fixed costs."
       },
       {
-        "title": "Margin mix",
-        "detail": "Private label, services and digital orders can lift profitability. For Casey's General Stores, Inc., the relevant evidence is a return on invested capital of 8.6%. That is the metric to track in the next filing."
+        "title": "Merchandise margin",
+        "detail": "Private label, sourcing and markdown discipline determine gross margin. The current reading: return on invested capital is 8.6%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 2.8% in FY2019 to n/a in FY2026. The trailing operating margin is 4.2%, the net margin is 4.1% and diluted EPS is $20.76.",
-      "Return on equity was 18.9% and return on invested capital was 8.6%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is 4.2%, the net margin is 4.1% and diluted EPS is $20.76.",
+      "Return on equity was 18.9% and return on invested capital was 8.6%. Return on equity of 18.9% is above the 8.6% return on invested capital, a gap that leverage or acquisition goodwill can explain."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $648.9M, a 3.5% margin. Net debt is $1.9B, or 1.7x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $655.9M in the latest fiscal year."
+      "Free cash flow over the trailing period was $648.9M, a 3.5% margin. Net debt is $1.9B, or 1.7x EBITDA. Capex absorbed 3.5% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow was $1.4B, or 192.8% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $655.9M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 33.0x trailing earnings, 24.2x EV/EBITDA and 1.5x EV/sales. The free-cash-flow yield is 2.5%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against ANF, SG and SN; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 33.0x trailing earnings, 24.2x EV/EBITDA and 1.5x EV/sales. The free-cash-flow yield is 2.5%. Inverting the P/E gives an earnings yield of 3.0%; the cash-flow yield is 2.5%.",
+      "The peer comparison sets the company against DKS and FIVE; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "20 analysts contribute to the third-party consensus. The mean target is $790.35, with a range of $709.00 to $933.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $21.1B of revenue and $21.35 of EPS. The estimate revisions in the dataset are 0.2% over 30 days and -0.1% over 90 days. That implies growth of 13.2% over the trailing twelve months."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
         "title": "Consumer spending",
@@ -105,53 +105,53 @@ export const CASY: StockStory = {
         "watch": "Comparable sales and transaction counts."
       },
       {
-        "title": "Input and labour costs",
-        "severity": "High",
-        "detail": "Food, freight and wages can compress margins.",
-        "watch": "Gross margin and operating cost per unit."
-      },
-      {
-        "title": "Competition",
-        "severity": "Medium",
-        "detail": "Price and convenience competition can erode traffic.",
-        "watch": "Market share and promotional intensity."
-      },
-      {
         "title": "Inventory",
-        "severity": "Medium",
+        "severity": "High",
         "detail": "Fashion, seasonal and perishable inventory can become markdowns.",
         "watch": "Inventory days and markdown cadence."
       },
       {
+        "title": "Input and labour costs",
+        "severity": "Medium",
+        "detail": "Freight, wages and rent can compress margins.",
+        "watch": "Gross margin and cost per transaction."
+      },
+      {
+        "title": "Competition",
+        "severity": "Medium",
+        "detail": "Price, convenience and assortment competition can erode traffic.",
+        "watch": "Market share and promotional intensity."
+      },
+      {
         "title": "Expansion execution",
         "severity": "Medium",
-        "detail": "New stores or markets may not earn the same returns.",
-        "watch": "New-unit productivity and capex."
+        "detail": "New units may not earn the same return as the base.",
+        "watch": "New-store productivity and payback."
       }
     ],
     "watchlist": [
       {
         "title": "Comparable sales",
-        "detail": "Track traffic versus ticket size separately."
+        "detail": "Split traffic from ticket size to see whether demand is real."
       },
       {
-        "title": "Gross margin",
-        "detail": "A mix shift toward lower-margin categories can hide pricing gains."
+        "title": "Inventory",
+        "detail": "Inventory growth faster than sales usually precedes markdowns."
       },
       {
         "title": "New-unit returns",
-        "detail": "Growth is only valuable if new locations earn their cost of capital."
+        "detail": "Growth only creates value if new stores earn their capital."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Casey's General Stores, Inc. is a Consumer Retail & Leisure company with $18.7B of trailing revenue, an operating margin of 4.2% and a free-cash-flow margin of 3.5%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with ANF, SG and SN, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 35/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Casey's General Stores, Inc. produced $18.7B of trailing revenue at a 4.2% operating margin and a 3.5% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
+      "The published consensus mean is $790.35 (2026-11-25), 14.4% above the latest close; it is a consensus view, not a recommendation from Stockmonk. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put growth at 60/100 and cash generation at 20/100, with the composite averaging 35/100. The narrow range between growth at 60/100 and cash generation at 20/100 means the average is a fair summary."
     ],
     "questions": [
-      "Is growth coming from traffic or prices?",
+      "Is growth coming from traffic or price?",
       "How much of the margin is protected by sourcing scale?",
       "What happens to inventory if demand slows?",
       "Do new units earn the same returns as the base?"

@@ -13,13 +13,13 @@ export const EA: StockStory = {
     "Valuation: final consideration $210.00 per share in cash; no live multiple or consensus target."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/712515/000162828026033617/ea-20260331.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000712515&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
       "Electronic Arts last traded at $210.00 on Aug 4, 2026, when the PIF, Silver Lake and Affinity Partners transaction closed. The final consideration was $210.00 per share in cash. The company no longer files current reports, so the figures below are the final SEC statements rather than a live snapshot. Electronic Arts generated $5.7B of revenue over the last twelve months, -23.4% versus the prior year. The final reported operating margin was 24.5% and free-cash-flow margin was 36.0%.",
-      "The business is judged on whether it can keep converting a technical advantage into recurring revenue. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
+      "The largest disclosed segment is Live Services & Other Net Revenue at 71.5% of revenue. Geographically, International leads at 59.7% of the disclosed split. Electronic Arts competes in Internet, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
       "The archived valuation has 48.9x trailing earnings and 30.3x EV/EBITDA, based on the final consideration and the last reported statements. It is a historical reference, not a live multiple. The article is retained because the company remains part of the 500-name coverage library."
     ],
     "quote": "Electronic Arts is no longer a live market, so the useful question is what its final financial record says about the Internet Platforms business that the acquirer bought."
@@ -27,8 +27,8 @@ export const EA: StockStory = {
   "whatItDoes": {
     "paragraphs": [
       "Electronic Arts was taken private by PIF, Silver Lake and Affinity Partners. The final consideration was $210.00 per share in cash. The shares last traded on Aug 4, 2026; the statements below are the final SEC filings and the article is retained as archived coverage.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs an undisclosed number of people, and its coverage group is Internet Platforms.",
-      "The comparison set includes BABA, BIDU and CART. Electronic Arts is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "The disclosed mix runs across Live Services & Other Net Revenue at 71.5% and Full Game Net Revenue at 28.5%. Headcount is not disclosed in the current dataset. Trailing revenue is $5.7B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "The peer set is BABA, BIDU and CART; similar businesses can earn very different returns on capital, which is the comparison that matters."
     ],
     "bullets": [
       {
@@ -47,8 +47,8 @@ export const EA: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 109.4%, operating margin is 24.5% and net margin is 18.9%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $802M of net cash. Return on invested capital was 12.4% and return on equity was 15.3%."
+      "Of $5.7B of revenue, $6.3B remained after cost of sales. The 84.9% operating-expense load brought that down to a 24.5% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "The balance sheet carries $802M of net cash. Return on invested capital was 12.4% and return on equity was 15.3%. That sits in the middle of the range; whether it clears the cost of capital is the deciding question."
     ]
   },
   "growth": {
@@ -58,41 +58,41 @@ export const EA: StockStory = {
     ],
     "bullets": [
       {
-        "title": "Product cycle",
-        "detail": "New products and platform transitions create refresh demand and pricing power. For Electronic Arts, the relevant evidence is revenue growth of -23.4%. That is the metric to track in the next filing."
+        "title": "User and engagement growth",
+        "detail": "More active users and frequency expand the inventory available to monetise. The current reading: revenue growth is -23.4%."
       },
       {
-        "title": "Customer expansion",
-        "detail": "Land-and-expand selling raises revenue per existing customer and lengthens the relationship. For Electronic Arts, the relevant evidence is an operating margin of 24.5%. That is the metric to track in the next filing."
+        "title": "Take rate",
+        "detail": "The operating margin is 24.5%. Watch whether that reading improves or merely holds."
       },
       {
-        "title": "Operating leverage",
-        "detail": "Incremental revenue can carry high gross margins once development and sales costs are in place. For Electronic Arts, the relevant evidence is a return on invested capital of 12.4%. That is the metric to track in the next filing."
+        "title": "Adjacent services",
+        "detail": "Advertising, logistics, payments and subscriptions can lift revenue per user. Return on invested capital is 12.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 20.1% in FY2019 to 15.4% in FY2026. The trailing operating margin is 24.5%, the net margin is 18.9% and diluted EPS is $4.28.",
-      "Return on equity was 15.3% and return on invested capital was 12.4%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 15.3% and return on invested capital was 12.4%. Return on invested capital of 12.4% is close to the 15.3% equity return, so the balance sheet explains only part of the difference."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $2.1B, a 36.0% margin. The balance sheet carries $802M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
+      "Free cash flow over the trailing period was $2.1B, a 36.0% margin. The balance sheet carries $802M of net cash. Capital expenditure was 4.0% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
       "The final reported balance sheet is the one shown here; it will not update. The company generated positive free cash flow on a trailing basis, and capital expenditure was $230M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 48.9x trailing earnings, 30.3x EV/EBITDA and 9.1x EV/sales. The free-cash-flow yield is 3.9%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "The final consideration was $210.00 per share in cash. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At the latest reference price the shares trade at 48.9x trailing earnings, 30.3x EV/EBITDA and 9.1x EV/sales. The free-cash-flow yield is 3.9%. The 2.0% earnings yield and 3.9% free-cash-flow yield are the two return measures embedded in the price.",
+      "The final consideration was $210.00 per share in cash. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades."
     ]
   },
   "analysts": {
     "paragraphs": [
       "A current analyst consensus is not available because Electronic Arts no longer trades. The final transaction value is the relevant reference, and the archived estimates are shown only where the dataset retains them.",
-      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $5.7B and the last reported operating margin was 24.5%. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $5.7B and the last reported operating margin was 24.5%."
     ]
   },
   "risks": {
@@ -111,22 +111,22 @@ export const EA: StockStory = {
         "watch": "The archived page is for research continuity; it is not a live quote."
       },
       {
+        "title": "Regulation",
+        "severity": "Medium",
+        "detail": "Platform, privacy and gig-labour rules can change the model.",
+        "watch": "Regulatory actions and market-by-market rules."
+      },
+      {
+        "title": "Profitability",
+        "severity": "Medium",
+        "detail": "Growth can be bought with incentives that disappear when spending slows.",
+        "watch": "Contribution margin and sales efficiency."
+      },
+      {
         "title": "Valuation",
         "severity": "Medium",
-        "detail": "High expectations leave less room for a growth disappointment.",
-        "watch": "Forward estimates versus the current multiple."
-      },
-      {
-        "title": "Supply chain",
-        "severity": "Medium",
-        "detail": "Advanced components and manufacturing capacity can constrain shipments.",
-        "watch": "Lead times, inventory and supplier concentration."
-      },
-      {
-        "title": "Regulation and export controls",
-        "severity": "Medium",
-        "detail": "Cross-border rules can remove addressable market or raise compliance costs.",
-        "watch": "Export-licence changes and geographic mix."
+        "detail": "High multiples assume durable user growth and take rate.",
+        "watch": "Forward revenue and margin guidance."
       }
     ],
     "watchlist": [
@@ -147,14 +147,14 @@ export const EA: StockStory = {
   "bottomLine": {
     "paragraphs": [
       "Electronic Arts is an archived Internet Platforms company with $5.7B of final trailing revenue, a 24.5% operating margin and a 36.0% free-cash-flow margin. The PIF, Silver Lake and Affinity Partners transaction valued the equity at $210.00 per share in cash.",
-      "There is no current price, target or rating to update. The archived factor percentiles are a historical description of the business at the point of the transaction. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles place the company at an average of 53/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "There is no current price, target or rating to update. The archived factor percentiles are a historical description of the business at the point of the transaction. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put cash generation at 90/100 and valuation at 19/100, with the composite averaging 53/100. A 90/100 cash generation score against a 19/100 valuation score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
-      "How much of growth is volume versus price?",
-      "What would a pause in customer spending do to margins?",
-      "Is the product advantage durable or one cycle long?",
-      "How much of the valuation depends on the next product cycle?"
+      "How much growth is users versus take rate?",
+      "What does a slowdown in incentives do to volume?",
+      "How defensible is the audience?",
+      "When does the platform reach durable profit?"
     ]
   }
 };

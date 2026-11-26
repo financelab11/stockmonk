@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const ARM: StockStory = {
   "ticker": "ARM",
   "kicker": "Semiconductors & Hardware · Semiconductors",
-  "title": "Arm Holdings plc.: a semiconductors & hardware business with +23.8% revenue growth",
-  "dek": "Arm Holdings plc. generated $5.5B of trailing revenue with an operating margin of 16.7%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Arm Holdings plc: CPU IP into phones",
+  "dek": "Arm Holdings plc. reported $5.5B of trailing revenue at a 16.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $5.5B trailing twelve months, +23.8% year over year.",
@@ -13,22 +13,22 @@ export const ARM: StockStory = {
     "Valuation: 180.7x trailing earnings and 137.4x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/arm-20260331.htm",
   "irUrl": "https://www.arm.com",
   "bigPicture": {
     "paragraphs": [
       "Arm Holdings plc. generated $5.5B of revenue over the last twelve months, +23.8% versus the prior year. The latest reported quarter was Q2 FY27, with $1.4B of revenue and a 13.9% operating margin. The shares closed at $158.10 on Nov 25, 2026, giving a market capitalization of $169.2B.",
-      "The cycle is driven by inventory, utilisation and the next node or packaging transition. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $169.2B, or 180.7x trailing earnings and 137.4x EV/EBITDA. The shares sit 16% of the way up their 52-week range ($100.02 to $452.70). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. United States supplies 35.8% of disclosed revenue, the largest single geography in the filing.",
+      "At the latest close the equity is valued at $169.2B, or 180.7x trailing earnings and 137.4x EV/EBITDA. The shares sit 16% of the way up their 52-week range ($100.02 to $452.70). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
     ],
-    "quote": "ARM is a Semiconductors & Hardware business with $5.5B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Arm licenses CPU IP into phones, data centers and edge devices, so royalty rates and chip content per device drive the long-run economics."
   },
   "whatItDoes": {
     "paragraphs": [
       "Arm Holdings plc researches, develops, licenses, and markets central processing unit (CPU) intellectual property (IP), graphics processing unit IP, systems IP, compute subsystems (CSS), and associated software, tools and related services. The company provides a product portfolio, including CPU IP, GPU and neural processing unit (NPU) accelerators, system IP such as interconnects, compute platform products including pre-integrated CSSs, and development tools and software.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 9,584 people, and its coverage group is Semiconductors & Hardware.",
-      "The comparison set includes ACLS, ALGM and ASML. Arm Holdings plc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 9,584 people. Trailing revenue is $5.5B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "The closest listed comparisons are NVDA, AVGO and AMD; the useful question is how Arm Holdings plc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
     ],
     "bullets": [
       {
@@ -47,62 +47,62 @@ export const ARM: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 97.4%, operating margin is 16.7% and net margin is 17.1%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $3.6B of net cash. Return on invested capital was 8.1% and return on equity was 10.3%."
+      "Of $5.5B of revenue, $5.3B remained after cost of sales. The 80.7% operating-expense load brought that down to a 16.7% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "The balance sheet carries $3.6B of net cash. Return on invested capital was 8.1% and return on equity was 10.3%. That sits in the middle of the range; whether it clears the cost of capital is the deciding question."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 16.2% a year across the fiscal years in the dataset, and the latest quarter changed +27.1% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 16.7% and return on invested capital of 8.1% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 16.2% a year across the fiscal years in the dataset, and the latest quarter changed +27.1% year over year. Current-year estimates call for $6.1B of revenue and $2.27 of EPS.",
+      "The operating margin of 16.7% and return on invested capital of 8.1% are the filters to watch as revenue scales. Neither the 23.8% growth nor the 16.7% margin is extreme; the combination is what matters."
     ],
     "bullets": [
       {
         "title": "Inventory cycle",
-        "detail": "Inventory restocking and digestion drive near-term orders. For Arm Holdings plc., the relevant evidence is revenue growth of +23.8%. That is the metric to track in the next filing."
+        "detail": "Inventory restocking and digestion drive near-term orders. Revenue growth is +23.8%."
       },
       {
         "title": "Node and packaging transitions",
-        "detail": "New technology raises content per system. For Arm Holdings plc., the relevant evidence is an operating margin of 16.7%. That is the metric to track in the next filing."
+        "detail": "The operating margin is 16.7%. New technology raises content per system."
       },
       {
         "title": "Customer design wins",
-        "detail": "Design wins lock in revenue for multiple product generations. For Arm Holdings plc., the relevant evidence is a return on invested capital of 8.1%. That is the metric to track in the next filing."
+        "detail": "Design wins lock in revenue for multiple product generations. The current reading: return on invested capital is 8.1%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 23.4% in FY2022 to 18.3% in FY2026. The trailing operating margin is 16.7%, the net margin is 17.1% and diluted EPS is $0.88.",
-      "Return on equity was 10.3% and return on invested capital was 8.1%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 10.3% and return on invested capital was 8.1%. Return on invested capital of 8.1% is close to the 10.3% equity return, so the balance sheet explains only part of the difference."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.2B, a 22.2% margin. The balance sheet carries $3.6B of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $545M in the latest fiscal year."
+      "Free cash flow over the trailing period was $1.2B, a 22.2% margin. The balance sheet carries $3.6B of net cash. Capital expenditure was 10.0% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow was $1.5B, or 168.6% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $545M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 180.7x trailing earnings, 137.4x EV/EBITDA and 30.3x EV/sales. The free-cash-flow yield is 0.7%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against ACLS, ALGM and ASML; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 180.7x trailing earnings, 137.4x EV/EBITDA and 30.3x EV/sales. The free-cash-flow yield is 0.7%. The 0.6% earnings yield and 0.7% free-cash-flow yield are the two return measures embedded in the price.",
+      "The peer comparison sets the company against NVDA, AVGO and AMD; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "40 analysts contribute to the third-party consensus. The mean target is $272.43, with a range of $125.00 to $500.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $6.1B of revenue and $2.27 of EPS. The estimate revisions in the dataset are 1.8% over 30 days and 1.8% over 90 days. That implies growth of 11.7% over the trailing twelve months."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Semiconductor cycle",
+        "title": "Valuation",
         "severity": "High",
-        "detail": "Inventory corrections can cut revenue quickly.",
-        "watch": "Inventory days and utilisation."
+        "detail": "At 180.7x trailing earnings and a 0.7% free-cash-flow yield, the price already assumes a long period of strong growth.",
+        "watch": "Forward growth versus the current multiple."
       },
       {
         "title": "Customer concentration",
@@ -146,9 +146,9 @@ export const ARM: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Arm Holdings plc. is a Semiconductors & Hardware company with $5.5B of trailing revenue, an operating margin of 16.7% and a free-cash-flow margin of 22.2%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with ACLS, ALGM and ASML, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 54/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Arm Holdings plc. produced $5.5B of trailing revenue at a 16.7% operating margin and a 22.2% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
+      "The third-party consensus mean is $272.43 as of 2026-11-25, 72.3% above the latest close; it is a consensus view, not a recommendation from Stockmonk. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put balance sheet at 89/100 and valuation at 4/100, with the composite averaging 54/100. A 89/100 balance sheet score against a 4/100 valuation score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
       "Where are we in the inventory cycle?",

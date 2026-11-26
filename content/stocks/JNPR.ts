@@ -13,13 +13,13 @@ export const JNPR: StockStory = {
     "Valuation: final consideration $40.00 per share in cash; no live multiple or consensus target."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1043604/000104360425000025/jnpr-20241231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001043604&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
       "Juniper Networks last traded at $40.00 on Jul 2, 2025, when the Hewlett Packard Enterprise transaction closed. The final consideration was $40.00 per share in cash. The company no longer files current reports, so the figures below are the final SEC statements rather than a live snapshot. Juniper Networks generated $5.2B of revenue over the last twelve months, -2.6% versus the prior year. The final reported operating margin was 7.6% and free-cash-flow margin was 13.0%.",
-      "The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
+      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. Geographically, Americas leads at 61.3% of the disclosed split.",
       "The archived valuation has 37.9x trailing earnings and 25.4x EV/EBITDA, based on the final consideration and the last reported statements. It is a historical reference, not a live multiple. The article is retained because the company remains part of the 500-name coverage library."
     ],
     "quote": "Juniper Networks is no longer a live market, so the useful question is what its final financial record says about the Enterprise Software business that the acquirer bought."
@@ -27,8 +27,8 @@ export const JNPR: StockStory = {
   "whatItDoes": {
     "paragraphs": [
       "Juniper Networks was acquired by Hewlett Packard Enterprise. The final consideration was $40.00 per share in cash. The shares last traded on Jul 2, 2025; the statements below are the final SEC filings and the article is retained as archived coverage.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs an undisclosed number of people, and its coverage group is Enterprise Software.",
-      "The comparison set includes BILL, BOX and CHKP. Juniper Networks is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "There is no separate segment disclosure in the current extract. Headcount is not disclosed in the current dataset. Trailing revenue is $5.2B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "The peer set is CFLT, CYBR and NEWR; similar businesses can earn very different returns on capital, which is the comparison that matters."
     ],
     "bullets": [
       {
@@ -47,8 +47,8 @@ export const JNPR: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 58.7%, operating margin is 7.6% and net margin is 6.8%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $470M, or 0.9x EBITDA. Return on invested capital was 5.1% and return on equity was 7.3%."
+      "Of $5.2B of revenue, $3.1B remained after cost of sales. The 51.1% operating-expense load brought that down to a 7.6% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "Net debt is $470M, or 0.9x EBITDA. Return on invested capital was 5.1% and return on equity was 7.3%. That leaves little room above the cost of capital."
     ]
   },
   "growth": {
@@ -59,40 +59,40 @@ export const JNPR: StockStory = {
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. For Juniper Networks, the relevant evidence is revenue growth of -2.6%. That is the metric to track in the next filing."
+        "detail": "Expansion within existing customers compounds revenue. The current reading: revenue growth is -2.6%."
       },
       {
         "title": "New customer adds",
-        "detail": "New logos broaden the base and fund future expansion. For Juniper Networks, the relevant evidence is an operating margin of 7.6%. That is the metric to track in the next filing."
+        "detail": "The operating margin is 7.6%. Watch whether that reading improves or merely holds."
       },
       {
         "title": "Operating leverage",
-        "detail": "Scale should improve margins as sales and R&D mature. For Juniper Networks, the relevant evidence is a return on invested capital of 5.1%. That is the metric to track in the next filing."
+        "detail": "Scale should improve margins as sales and R&D mature. Return on invested capital is 5.1%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 16.9% in FY2017 to 5.8% in FY2024. The trailing operating margin is 7.6%, the net margin is 6.8% and diluted EPS is $1.05.",
-      "Return on equity was 7.3% and return on invested capital was 5.1%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 7.3% and return on invested capital was 5.1%. Return on invested capital of 5.1% is close to the 7.3% equity return, so the balance sheet explains only part of the difference."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $674.6M, a 13.0% margin. Net debt is $470M, or 0.9x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
+      "Free cash flow over the trailing period was $674.6M, a 13.0% margin. Net debt is $470M, or 0.9x EBITDA. Capital expenditure was 2.2% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
       "The final reported balance sheet is the one shown here; it will not update. The company generated positive free cash flow on a trailing basis, and capital expenditure was $115.5M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 37.9x trailing earnings, 25.4x EV/EBITDA and 2.7x EV/sales. The free-cash-flow yield is 5.0%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "The final consideration was $40.00 per share in cash. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At the latest reference price the shares trade at 37.9x trailing earnings, 25.4x EV/EBITDA and 2.7x EV/sales. The free-cash-flow yield is 5.0%. The 2.6% earnings yield and 5.0% free-cash-flow yield are the two return measures embedded in the price.",
+      "The final consideration was $40.00 per share in cash. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades."
     ]
   },
   "analysts": {
     "paragraphs": [
       "A current analyst consensus is not available because Juniper Networks no longer trades. The final transaction value is the relevant reference, and the archived estimates are shown only where the dataset retains them.",
-      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $5.2B and the last reported operating margin was 7.6%. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $5.2B and the last reported operating margin was 7.6%."
     ]
   },
   "risks": {
@@ -147,8 +147,8 @@ export const JNPR: StockStory = {
   "bottomLine": {
     "paragraphs": [
       "Juniper Networks is an archived Enterprise Software company with $5.2B of final trailing revenue, a 7.6% operating margin and a 13.0% free-cash-flow margin. The Hewlett Packard Enterprise transaction valued the equity at $40.00 per share in cash.",
-      "There is no current price, target or rating to update. The archived factor percentiles are a historical description of the business at the point of the transaction. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles place the company at an average of 38/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "There is no current price, target or rating to update. The archived factor percentiles are a historical description of the business at the point of the transaction. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put cash generation at 47/100 and valuation at 27/100, with the composite averaging 38/100. With cash generation and valuation only 20 points apart, the composite is a reasonable one-line description."
     ],
     "questions": [
       "How much growth comes from existing customers?",

@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const GEN: StockStory = {
   "ticker": "GEN",
   "kicker": "Enterprise Software · Software - Infrastructure",
-  "title": "How Gen Digital Inc. makes money and where the cash goes",
-  "dek": "Gen Digital Inc. generated $5.2B of trailing revenue with an operating margin of 41.8%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Gen Digital Inc: Consumer cyber-safety software",
+  "dek": "Gen Digital Inc. reported $5.2B of trailing revenue at a 41.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $5.2B trailing twelve months, +16.9% year over year.",
@@ -13,22 +13,22 @@ export const GEN: StockStory = {
     "Valuation: 15.0x trailing earnings and 9.6x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/849399/000084939926000017/gen-20260403.htm",
   "irUrl": "https://www.gendigital.com",
   "bigPicture": {
     "paragraphs": [
       "Gen Digital Inc. generated $5.2B of revenue over the last twelve months, +16.9% versus the prior year. The latest reported quarter was Q2 FY27, with $1.4B of revenue and a 37.0% operating margin. The shares closed at $30.42 on Nov 25, 2026, giving a market capitalization of $18B.",
-      "The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $18B, or 15.0x trailing earnings and 9.6x EV/EBITDA. The shares sit 91% of the way up their 52-week range ($17.78 to $31.65). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The largest disclosed segment is Cyber Safety Platform at 66.8% of revenue. Geographically, Americas leads at 70.7% of the disclosed split. Gen Digital Inc. competes in Software - Infrastructure, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $18B, or 15.0x trailing earnings and 9.6x EV/EBITDA. The shares sit 91% of the way up their 52-week range ($17.78 to $31.65). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
     ],
-    "quote": "GEN is an Enterprise Software business with $5.2B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Gen Digital sells consumer cyber-safety software, so subscriptions, bundling and retention drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Gen Digital Inc. engages in the provision of cyber safety and trust-based solutions for individuals, families, and small businesses. Gen Digital Inc. is an Enterprise Software company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 3,900 people, and its coverage group is Enterprise Software.",
-      "The comparison set includes BILL, BOX and CHKP. Gen Digital Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Gen Digital Inc. engages in the provision of cyber safety and trust-based solutions for individuals, families, and small businesses. Gen Digital Inc. is a Software - Infrastructure company within the Enterprise Software coverage group.",
+      "The disclosed mix runs across Cyber Safety Platform at 66.8% and Trust Based Solutions at 33.2%. The company employed 3,900 people at the last reporting date. Trailing revenue is $5.2B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "The peer set is MSFT, ORCL and SNPS; similar businesses can earn very different returns on capital, which is the comparison that matters."
     ],
     "bullets": [
       {
@@ -47,56 +47,56 @@ export const GEN: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 77.4%, operating margin is 41.8% and net margin is 23.1%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $7.5B, or 2.8x EBITDA. Return on invested capital was 14.4% and return on equity was 44.0%."
+      "Of $5.2B of revenue, $4B remained after cost of sales. The 35.6% operating-expense load brought that down to a 41.8% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "Net debt is $7.5B, or 2.8x EBITDA. Return on invested capital was 14.4% and return on equity was 44.0%. That sits in the middle of the range; whether it clears the cost of capital is the deciding question."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.7% a year across the fiscal years in the dataset, and the latest quarter changed +12.2% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 41.8% and return on invested capital of 14.4% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 10.7% a year across the fiscal years in the dataset, and the latest quarter changed +12.2% year over year. Current-year estimates call for $5.5B of revenue and $2.96 of EPS.",
+      "The operating margin of 41.8% and return on invested capital of 14.4% are the filters to watch as revenue scales. The 41.8% operating margin gives the company room to absorb slower growth without a profit reset."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. For Gen Digital Inc., the relevant evidence is revenue growth of +16.9%. That is the metric to track in the next filing."
+        "detail": "Expansion within existing customers compounds revenue. The current reading: revenue growth is +16.9%."
       },
       {
         "title": "New customer adds",
-        "detail": "New logos broaden the base and fund future expansion. For Gen Digital Inc., the relevant evidence is an operating margin of 41.8%. That is the metric to track in the next filing."
+        "detail": "The operating margin is 41.8%. Compare that with the prior year before drawing a conclusion."
       },
       {
         "title": "Operating leverage",
-        "detail": "Scale should improve margins as sales and R&D mature. For Gen Digital Inc., the relevant evidence is a return on invested capital of 14.4%. That is the metric to track in the next filing."
+        "detail": "Scale should improve margins as sales and R&D mature. Return on invested capital is 14.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 6.4% in FY2019 to 42.4% in FY2026. The trailing operating margin is 41.8%, the net margin is 23.1% and diluted EPS is $1.98.",
-      "Return on equity was 44.0% and return on invested capital was 14.4%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 44.0% and return on invested capital was 14.4%. The 29.6% gap between return on equity and return on invested capital points to leverage or goodwill in the capital base, so the equity return overstates the operating return."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.8B, a 33.7% margin. Net debt is $7.5B, or 2.8x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $22M in the latest fiscal year."
+      "Free cash flow over the trailing period was $1.8B, a 33.7% margin. Net debt is $7.5B, or 2.8x EBITDA. Capital expenditure was 0.4% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow was $1.5B, or 158.8% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $22M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 15.0x trailing earnings, 9.6x EV/EBITDA and 4.9x EV/sales. The free-cash-flow yield is 9.8%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BILL, BOX and CHKP; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 15.0x trailing earnings, 9.6x EV/EBITDA and 4.9x EV/sales. The free-cash-flow yield is 9.8%. The 6.7% earnings yield and 9.8% free-cash-flow yield are the two return measures embedded in the price.",
+      "The peer comparison sets the company against MSFT, ORCL and SNPS; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "10 analysts contribute to the third-party consensus. The mean target is $32.28, with a range of $25.00 to $46.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $5.5B of revenue and $2.96 of EPS. The estimate revisions in the dataset are 0.4% over 30 days and 1.3% over 90 days. If met, the estimate would mean growth of 4.9% from the current base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
         "title": "Competition",
@@ -146,9 +146,9 @@ export const GEN: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Gen Digital Inc. is an Enterprise Software company with $5.2B of trailing revenue, an operating margin of 41.8% and a free-cash-flow margin of 33.7%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BILL, BOX and CHKP, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 68/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Gen Digital Inc. produced $5.2B of trailing revenue at a 41.8% operating margin and a 33.7% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
+      "The third-party consensus mean is $32.28 as of 2026-11-25, 6.1% above the latest close; it is included for attribution, not as a Stockmonk call. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put cash generation at 88/100 and balance sheet at 19/100, with the composite averaging 68/100. A 88/100 cash generation score against a 19/100 balance sheet score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
       "How much growth comes from existing customers?",

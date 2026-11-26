@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const ACHC: StockStory = {
   "ticker": "ACHC",
   "kicker": "Healthcare Services & Devices · Medical Care Facilities",
-  "title": "Acadia Healthcare Company, Inc.: +4.5% growth, -0.7% free cash flow and the price being paid",
-  "dek": "Acadia Healthcare Company, Inc. generated $3.4B of trailing revenue with an operating margin of -31.7%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Acadia Healthcare Company, Inc: A behavioral-health operator whose growth comes from beds",
+  "dek": "Acadia Healthcare Company, Inc. reported $3.4B of trailing revenue at a -31.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $3.4B trailing twelve months, +4.5% year over year.",
@@ -13,22 +13,22 @@ export const ACHC: StockStory = {
     "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1520697/000119312526078266/achc-20251231.htm",
   "irUrl": "https://www.acadiahealthcare.com",
   "bigPicture": {
     "paragraphs": [
       "Acadia Healthcare Company, Inc. generated $3.4B of revenue over the last twelve months, +4.5% versus the prior year. The latest reported quarter was Q3 FY26, with $895.3M of revenue and a 6.3% operating margin. The shares closed at $35.35 on Nov 25, 2026, giving a market capitalization of $3.3B.",
-      "The franchise depends on clinical evidence, reimbursement and the duration of patent protection. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $3.3B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 85% of the way up their 52-week range ($11.43 to $39.70). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "United States Facilities contributes 100.0% of the disclosed revenue mix. A regional breakdown is missing from the current filing extract, so the analysis stays at the consolidated level. The moat is local facility density and referral relationships; behavioral health is hard to replicate because licensure, staffing and community trust take years.",
+      "At the latest close the equity is valued at $3.3B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 85% of the way up their 52-week range ($11.43 to $39.70). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "ACHC is a Healthcare Services & Devices business with $3.4B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Acadia is a behavioral-health operator whose growth comes from beds, acquisitions and payer mix rather than from a single blockbuster product. The EBITDA multiple assumes the acquisition pipeline keeps adding beds at similar returns while leverage comes down."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Acadia Healthcare Company, Inc. provides behavioral healthcare services in the United States and Puerto Rico. Acadia Healthcare Company, Inc. is a Healthcare Services & Devices company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 19,000 people, and its coverage group is Healthcare Services & Devices.",
-      "The comparison set includes LH, CI and CNC. Acadia Healthcare Company, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Acadia Healthcare Company, Inc. provides behavioral healthcare services in the United States and Puerto Rico. It reports in the Healthcare sector and is classified in Healthcare Services & Devices coverage.",
+      "Revenue is reported at the consolidated level only. Its latest filing lists 19,000 employees. With $3.4B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "DVA, EHC and HCA provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const ACHC: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is -31.7% and net margin is -33.1%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $2.2B, or n/a EBITDA. Return on invested capital was -19.5% and return on equity was -55.8%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of -31.7% is the first clean profitability line. Revenue depends on utilization, reimbursement and payer mix, while labor and capacity determine the cost of serving each patient.",
+      "Net debt is $2.2B, or n/a EBITDA. Return on invested capital was -19.5% and return on equity was -55.8%. The negative return means the capital base is not earning its cost; the question is whether scale or a margin recovery fixes that."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.2% a year across the fiscal years in the dataset, and the latest quarter changed +5.1% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of -31.7% and return on invested capital of -19.5% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 8.2% a year across the fiscal years in the dataset, and the latest quarter changed +5.1% year over year. Current-year estimates call for $3.5B of revenue and $1.74 of EPS.",
+      "The next catalyst is occupancy and rate improvement at acquired facilities, plus evidence that labor cost per patient is stabilizing. The operating margin of -31.7% and return on invested capital of -19.5% are the filters to watch as revenue scales. The 4.5% revenue pace and -31.7% margin have to move together for the earnings path to improve."
     ],
     "bullets": [
       {
-        "title": "Volume and adoption",
-        "detail": "New patients and procedures drive revenue before price. For Acadia Healthcare Company, Inc., the relevant evidence is revenue growth of +4.5%. That is the metric to track in the next filing."
+        "title": "Utilization",
+        "detail": "Revenue growth is +4.5%. The direction of travel matters more than the absolute level."
       },
       {
         "title": "Reimbursement",
-        "detail": "Coverage decisions determine whether a product is accessible and profitable. For Acadia Healthcare Company, Inc., the relevant evidence is an operating margin of -31.7%. That is the metric to track in the next filing."
+        "detail": "Coverage and rate updates determine revenue per patient. The operating margin is -31.7%."
       },
       {
-        "title": "Pipeline",
-        "detail": "New indications and products extend the growth runway. For Acadia Healthcare Company, Inc., the relevant evidence is a return on invested capital of -19.5%. That is the metric to track in the next filing."
+        "title": "Capacity and mix",
+        "detail": "Return on invested capital is -19.5%. Beds, clinicians and service mix determine how much volume can be converted into margin."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 3.5% in FY2018 to -32.2% in FY2025. The trailing operating margin is -31.7%, the net margin is -33.1% and diluted EPS is -$12.43.",
-      "Return on equity was -55.8% and return on invested capital was -19.5%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was -55.8% and return on invested capital was -19.5%. With negative returns on both equity and invested capital, the business is consuming capital rather than earning on it."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$23.9M, a -0.7% margin. Net debt is $2.2B, or n/a EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $571.8M in the latest fiscal year."
+      "Free cash flow over the trailing period was -$23.9M, a -0.7% margin. Net debt is $2.2B, or n/a EBITDA. Capex absorbed 16.8% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow and net income are not both available on a comparable basis. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $571.8M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 1.6x EV/sales. The free-cash-flow yield is -0.7%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against LH, CI and CNC; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 1.6x EV/sales. The free-cash-flow yield is -0.7%. Earnings are not a useful anchor here, so the free-cash-flow yield is the cleaner valuation reference.",
+      "The EBITDA multiple assumes the acquisition pipeline keeps adding beds at similar returns while leverage comes down. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "14 analysts contribute to the third-party consensus. The mean target is $39.07, with a range of $19.00 to $46.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $3.5B of revenue and $1.74 of EPS. The estimate revisions in the dataset are 12.2% over 30 days and 12.2% over 90 days. The estimate is consistent with growth of 1.2% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
     "items": [
       {
-        "title": "Clinical and regulatory risk",
+        "title": "The main risk",
         "severity": "High",
-        "detail": "Trials and approvals can fail or be delayed.",
-        "watch": "Trial readouts and regulatory decisions."
+        "detail": "Labor shortages and reimbursement pressure can leave new beds understaffed and underpaid.",
+        "watch": "Payer mix and rate updates."
       },
       {
-        "title": "Reimbursement and pricing",
+        "title": "Labor costs",
         "severity": "High",
-        "detail": "Coverage and drug-pricing rules can cap revenue per patient.",
-        "watch": "Net price and payer mix."
+        "detail": "Nursing and clinician shortages can raise wages and contract labor.",
+        "watch": "Salaries, benefits and contract labor."
       },
       {
-        "title": "Competition",
+        "title": "Regulation",
         "severity": "Medium",
-        "detail": "New therapies can take share or force price cuts.",
-        "watch": "Competitor launches and prescription trends."
+        "detail": "Coverage rules, licensure and billing audits can change the model.",
+        "watch": "Regulatory and compliance actions."
       },
       {
-        "title": "Patent expirations",
+        "title": "Volume and capacity",
         "severity": "Medium",
-        "detail": "Loss of exclusivity can reset revenue quickly.",
-        "watch": "Patent-cliff timing and generic entry."
+        "detail": "Capacity constraints can cap growth even when demand is strong.",
+        "watch": "Admissions, occupancy and bed additions."
       },
       {
-        "title": "Manufacturing and supply",
+        "title": "Valuation",
         "severity": "Medium",
-        "detail": "Capacity or quality issues can limit product availability.",
-        "watch": "Supply disclosures and capex."
+        "detail": "Multiples can compress when reimbursement or labor trends worsen.",
+        "watch": "EBITDA margin and forward guidance."
       }
     ],
     "watchlist": [
       {
+        "title": "Payer mix",
+        "detail": "A shift toward lower-paying payers changes revenue per patient."
+      },
+      {
+        "title": "Labor cost per visit",
+        "detail": "Wage inflation is the largest controllable margin variable."
+      },
+      {
         "title": "Volume growth",
-        "detail": "Separate patient growth from price and mix."
-      },
-      {
-        "title": "Reimbursement",
-        "detail": "Coverage decisions are a leading indicator for adoption."
-      },
-      {
-        "title": "Pipeline readouts",
-        "detail": "Late-stage data can change the growth runway."
+        "detail": "Admissions and procedures show whether demand is translating into revenue."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Acadia Healthcare Company, Inc. is a Healthcare Services & Devices company with $3.4B of trailing revenue, an operating margin of -31.7% and a free-cash-flow margin of -0.7%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with LH, CI and CNC, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 38/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Acadia Healthcare Company, Inc. produced $3.4B of trailing revenue at a -31.7% operating margin and a -0.7% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
+      "The consensus target is $39.07 as of 2026-11-25, 10.5% above the latest close; the figure belongs to the analysts who published it, not to this report. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put valuation at 100/100 and profitability at 6/100, with the composite averaging 38/100. The gap between valuation at 100/100 and profitability at 6/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
-      "How much of growth is volume versus price?",
-      "When do the largest patents expire?",
-      "What does a negative reimbursement decision cost?",
-      "How durable is the clinical advantage?"
+      "How much of growth is volume versus rate?",
+      "What happens if reimbursement is cut?",
+      "How dependent is the model on labor supply?",
+      "What does a higher-acuity mix do to margins?"
     ]
   }
 };

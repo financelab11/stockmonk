@@ -4,36 +4,36 @@ export const BIDU: StockStory = {
   "ticker": "BIDU",
   "kicker": "Internet Platforms · Internet Content & Information",
   "title": "What Baidu, Inc.'s latest filings reveal about growth, margins and cash",
-  "dek": "Baidu, Inc. generated $18.5B of trailing revenue with an operating margin of -4.5%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "dek": "Baidu, Inc. reported $18.5B of trailing revenue at a -4.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $18.5B trailing twelve months, +1.1% year over year.",
     "Profitability: -4.5% operating margin and 4.3% net margin.",
-    "Cash: -$2.2B free cash flow, a -11.7% margin, against $9.5B of net cash.",
+    "Cash: -$2.2B free cash flow, an -11.7% margin, against $9.5B of net cash.",
     "Valuation: 26.7x trailing earnings and 52.5x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526109289/d38065d20f.htm",
   "irUrl": "https://ir.baidu.com",
   "bigPicture": {
     "paragraphs": [
-      "Baidu, Inc. generated $18.5B of revenue over the last twelve months, +1.1% versus the prior year. A dated quarterly result is not available in the current dataset. The shares closed at $62.67 on Nov 25, 2026, giving a market capitalization of $21.3B.",
-      "The business is judged on whether it can keep converting a technical advantage into recurring revenue. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $21.3B, or 26.7x trailing earnings and 52.5x EV/EBITDA. The shares sit 2% of the way up their 52-week range ($60.12 to $165.30). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Baidu, Inc. generated $18.5B of revenue over the last twelve months, +1.1% versus the prior year. The latest quarter is not in the dataset; the annual and trailing numbers are the evidence. The shares closed at $62.67 on Nov 25, 2026, giving a market capitalization of $21.3B.",
+      "Baidu Core Business is 555.5% of the disclosed revenue mix. The extract carries a consolidated revenue line without a regional split. Baidu, Inc. competes in Internet Content & Information, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $21.3B, or 26.7x trailing earnings and 52.5x EV/EBITDA. The shares sit 2% of the way up their 52-week range ($60.12 to $165.30). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
     ],
-    "quote": "BIDU is an Internet Platforms business with $18.5B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Baidu is a Chinese search and AI company whose advertising business funds an uncertain but option-rich AI cloud and autonomous-driving portfolio."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Baidu, Inc. provides internet content, value-added telecommunication-based, internet map, and online audio and video services in the People's Republic of China. Baidu, Inc. is an Internet Platforms company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 33,500 people, and its coverage group is Internet Platforms.",
-      "The comparison set includes BABA, CART and CHWY. Baidu, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Baidu, Inc. provides internet content, value-added telecommunication-based, internet map, and online audio and video services in the People's Republic of China. Baidu, Inc. sits in the Internet Content & Information industry, one of the Internet Platforms names in this library.",
+      "Baidu Core Business is 555.5% of the disclosed revenue mix. The last disclosure put headcount at 33,500 people. With $18.5B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "The closest listed comparisons are GOOGL, META and SPOT; the useful question is how Baidu, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
     ],
     "bullets": [
       {
         "title": "Revenue base",
-        "detail": "$18.5B on a trailing-twelve-month basis, with the latest quarter at no dated quarter."
+        "detail": "$18.5B on a trailing-twelve-month basis; a dated quarter is not available in the dataset."
       },
       {
         "title": "Profitability",
@@ -47,114 +47,114 @@ export const BIDU: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 43.9%, operating margin is -4.5% and net margin is 4.3%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $9.5B of net cash. Return on invested capital was -1.5% and return on equity was 2.1%."
+      "The company kept 43.9% of revenue after cost of sales, or $8.1B. Operating expenses absorbed 48.4% of revenue, leaving a -4.5% operating margin. The operating layer is where the gross profit is either protected or spent.",
+      "The balance sheet carries $9.5B of net cash. Return on invested capital was -1.5% and return on equity was 2.1%. The capital base is currently earning less than nothing; scale has to change that."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.1% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of -4.5% and return on invested capital of -1.5% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 3.1% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. Current-year estimates point to -1.8% revenue growth, with EPS of 32.93 in the reporting currency.",
+      "The operating margin of -4.5% and return on invested capital of -1.5% are the filters to watch as revenue scales. The 1.1% revenue pace and -4.5% margin have to move together for the earnings path to improve."
     ],
     "bullets": [
       {
-        "title": "Product cycle",
-        "detail": "New products and platform transitions create refresh demand and pricing power. For Baidu, Inc., the relevant evidence is revenue growth of +1.1%. That is the metric to track in the next filing."
+        "title": "User and engagement growth",
+        "detail": "More active users and frequency expand the inventory available to monetise. Revenue growth is +1.1%."
       },
       {
-        "title": "Customer expansion",
-        "detail": "Land-and-expand selling raises revenue per existing customer and lengthens the relationship. For Baidu, Inc., the relevant evidence is an operating margin of -4.5%. That is the metric to track in the next filing."
+        "title": "Take rate",
+        "detail": "The operating margin is -4.5%. The share of transaction value retained determines revenue per unit of GMV."
       },
       {
-        "title": "Operating leverage",
-        "detail": "Incremental revenue can carry high gross margins once development and sales costs are in place. For Baidu, Inc., the relevant evidence is a return on invested capital of -1.5%. That is the metric to track in the next filing."
+        "title": "Adjacent services",
+        "detail": "Advertising, logistics, payments and subscriptions can lift revenue per user. The current reading: return on invested capital is -1.5%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 15.2% in FY2018 to -4.5% in FY2025. The trailing operating margin is -4.5%, the net margin is 4.3% and diluted EPS is not available.",
-      "Return on equity was 2.1% and return on invested capital was -1.5%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 2.1% and return on invested capital was -1.5%. Both measures sit below zero, so there is no leverage effect to separate out. Both should be read against the company's own history before they are compared with a peer median."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$2.2B, a -11.7% margin. The balance sheet carries $9.5B of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $1.7B in the latest fiscal year."
+      "Free cash flow over the trailing period was -$2.2B, an -11.7% margin. The balance sheet carries $9.5B of net cash. Capex absorbed 9.4% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow was -$430.7M, or -53.9% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $1.7B in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 26.7x trailing earnings, 52.5x EV/EBITDA and 0.6x EV/sales. The free-cash-flow yield is -10.1%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BABA, CART and CHWY; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 26.7x trailing earnings, 52.5x EV/EBITDA and 0.6x EV/sales. The free-cash-flow yield is -10.1%. Inverting the P/E gives an earnings yield of 3.7%; the cash-flow yield is -10.1%.",
+      "The peer comparison sets the company against GOOGL, META and SPOT; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "31 analysts contribute to the third-party consensus. The mean target is $118.16, with a range of $70.12 to $208.24. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates point to -1.8% revenue growth, with EPS of 32.93 in the reporting currency. The estimate revisions in the dataset are -16.8% over 30 days and -18.1% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Technology substitution",
+        "title": "Operating losses",
         "severity": "High",
-        "detail": "A faster or cheaper architecture can reset the competitive position quickly.",
-        "watch": "Product roadmaps, design wins and customer concentration."
+        "detail": "The trailing operating margin is -4.5%, which means the current cost base is not covered by revenue.",
+        "watch": "Path to operating breakeven and cash runway."
       },
       {
-        "title": "Customer concentration",
+        "title": "Take-rate pressure",
         "severity": "High",
-        "detail": "A small number of large buyers can swing revenue and pricing.",
-        "watch": "Top-customer disclosures and order trends."
+        "detail": "Merchants and users can push back on fees.",
+        "watch": "Take rate and merchant retention."
+      },
+      {
+        "title": "Regulation",
+        "severity": "Medium",
+        "detail": "Platform, privacy and gig-labour rules can change the model.",
+        "watch": "Regulatory actions and market-by-market rules."
+      },
+      {
+        "title": "Profitability",
+        "severity": "Medium",
+        "detail": "Growth can be bought with incentives that disappear when spending slows.",
+        "watch": "Contribution margin and sales efficiency."
       },
       {
         "title": "Valuation",
         "severity": "Medium",
-        "detail": "High expectations leave less room for a growth disappointment.",
-        "watch": "Forward estimates versus the current multiple."
-      },
-      {
-        "title": "Supply chain",
-        "severity": "Medium",
-        "detail": "Advanced components and manufacturing capacity can constrain shipments.",
-        "watch": "Lead times, inventory and supplier concentration."
-      },
-      {
-        "title": "Regulation and export controls",
-        "severity": "Medium",
-        "detail": "Cross-border rules can remove addressable market or raise compliance costs.",
-        "watch": "Export-licence changes and geographic mix."
+        "detail": "High multiples assume durable user growth and take rate.",
+        "watch": "Forward revenue and margin guidance."
       }
     ],
     "watchlist": [
       {
-        "title": "Growth durability",
-        "detail": "Compare revenue growth with the prior four quarters."
+        "title": "GMV and take rate",
+        "detail": "Separate transaction growth from the share retained."
       },
       {
-        "title": "Gross margin",
-        "detail": "A falling gross margin can signal pricing pressure or a richer hardware mix."
+        "title": "User growth",
+        "detail": "Net adds and engagement show whether the audience is durable."
       },
       {
-        "title": "Customer concentration",
-        "detail": "Track large-customer disclosures and order momentum."
+        "title": "Contribution margin",
+        "detail": "Unit economics reveal whether growth creates value."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Baidu, Inc. is an Internet Platforms company with $18.5B of trailing revenue, an operating margin of -4.5% and a free-cash-flow margin of -11.7%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BABA, CART and CHWY, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 34/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Baidu, Inc. produced $18.5B of trailing revenue at a -4.5% operating margin and an -11.7% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
+      "The published consensus mean is $118.16 (2026-11-25), 88.5% above the latest close; it should be read as the published consensus, not as this publication's view. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put balance sheet at 99/100 and cash generation at 8/100, with the composite averaging 34/100. The gap between balance sheet at 99/100 and cash generation at 8/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
-      "How much of growth is volume versus price?",
-      "What would a pause in customer spending do to margins?",
-      "Is the product advantage durable or one cycle long?",
-      "How much of the valuation depends on the next product cycle?"
+      "How much growth is users versus take rate?",
+      "What does a slowdown in incentives do to volume?",
+      "How defensible is the audience?",
+      "When does the platform reach durable profit?"
     ]
   }
 };

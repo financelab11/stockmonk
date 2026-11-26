@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const GEO: StockStory = {
   "ticker": "GEO",
   "kicker": "Industrial Automation · Security & Protection Services",
-  "title": "The GEO Group, Inc. at 23.4x earnings: what the filings support",
-  "dek": "The GEO Group, Inc. generated $2.9B of trailing revenue with an operating margin of 13.0%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "The GEO Group, Inc: Secure facilities and monitoring for governments",
+  "dek": "The GEO Group, Inc. reported $2.9B of trailing revenue at a 13.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $2.9B trailing twelve months, +14.8% year over year.",
@@ -13,22 +13,22 @@ export const GEO: StockStory = {
     "Valuation: 23.4x trailing earnings and 7.2x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/923796/000119312526071747/geo-20251231.htm",
   "irUrl": "https://www.geogroup.com",
   "bigPicture": {
     "paragraphs": [
       "The GEO Group, Inc. generated $2.9B of revenue over the last twelve months, +14.8% versus the prior year. The latest reported quarter was Q3 FY26, with $761.1M of revenue and a 13.5% operating margin. The shares closed at $29.63 on Nov 25, 2026, giving a market capitalization of $3.9B.",
-      "Revenue is tied to capital spending, backlogs and the ability to pass through input costs. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $3.9B, or 23.4x trailing earnings and 7.2x EV/EBITDA. The shares sit 81% of the way up their 52-week range ($12.51 to $33.58). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "GEO Secure Services contributes 76.9% of the disclosed revenue mix. By geography, United States is the largest disclosed market at 92.5% of revenue. The GEO Group, Inc. competes in Security & Protection Services, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $3.9B, or 23.4x trailing earnings and 7.2x EV/EBITDA. The shares sit 81% of the way up their 52-week range ($12.51 to $33.58). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "GEO is an Industrial Automation business with $2.9B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "GEO operates secure facilities and monitoring for governments, so contract wins, occupancy and reimbursement drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
       "The GEO Group, Inc. is a leading diversified government service provider, specializing in design, financing, development, and support services for secure facilities, processing centers, and community reentry centers in the United States, Australia, South Africa, and the United Kingdom.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 18,000 people, and its coverage group is Industrial Automation.",
-      "The comparison set includes AIT, AME and AZEK. The GEO Group, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "The disclosed mix runs across GEO Secure Services at 76.9%, Electronic Monitoring & Supervision Services at 12.2% and Reentry Services at 10.9%. Its latest filing lists 18,000 employees. The revenue base is $2.9B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "AIT, AME and AZEK provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,56 +47,56 @@ export const GEO: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 13.0% and net margin is 5.7%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $180.1M of net cash. Return on invested capital was 16.5% and return on equity was 10.6%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 13.0% is the first clean profitability line. Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
+      "The balance sheet carries $180.1M of net cash. Return on invested capital was 16.5% and return on equity was 10.6%. That is comfortably above most cost-of-capital estimates, which is what lets reinvestment create value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 1.7% a year across the fiscal years in the dataset, and the latest quarter changed +11.5% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 13.0% and return on invested capital of 16.5% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 1.7% a year across the fiscal years in the dataset, and the latest quarter changed +11.5% year over year. Current-year estimates call for $3B of revenue and $1.43 of EPS.",
+      "The operating margin of 13.0% and return on invested capital of 16.5% are the filters to watch as revenue scales. Growth of 14.8% against a 13.0% operating margin is the balance the next few quarters have to protect."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Orders already booked provide visibility into future revenue. For The GEO Group, Inc., the relevant evidence is revenue growth of +14.8%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +14.8%. Compare that with the prior year before drawing a conclusion."
       },
       {
         "title": "Aftermarket and services",
-        "detail": "Recurring service revenue can be more profitable than equipment. For The GEO Group, Inc., the relevant evidence is an operating margin of 13.0%. That is the metric to track in the next filing."
+        "detail": "Recurring service revenue can be more profitable than equipment. The operating margin is 13.0%."
       },
       {
         "title": "Price and productivity",
-        "detail": "Pricing actions and cost programmes protect margins through cycles. For The GEO Group, Inc., the relevant evidence is a return on invested capital of 16.5%. That is the metric to track in the next filing."
+        "detail": "Return on invested capital is 16.5%. Pricing actions and cost programmes protect margins through cycles."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 11.4% in FY2018 to 9.8% in FY2025. The trailing operating margin is 13.0%, the net margin is 5.7% and diluted EPS is $1.26.",
-      "Return on equity was 10.6% and return on invested capital was 16.5%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was 10.6% and return on invested capital was 16.5%. The two returns are within a few points, at 10.6% on equity and 16.5% on invested capital, so operating performance explains most of the difference."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $217.2M, a 7.5% margin. The balance sheet carries $180.1M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $197.5M in the latest fiscal year."
+      "Free cash flow over the trailing period was $217.2M, a 7.5% margin. The balance sheet carries $180.1M of net cash. With capital spending at 6.8% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow was $72.6M, or 28.5% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $197.5M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 23.4x trailing earnings, 7.2x EV/EBITDA and 1.3x EV/sales. The free-cash-flow yield is 5.6%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against AIT, AME and AZEK; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 23.4x trailing earnings, 7.2x EV/EBITDA and 1.3x EV/sales. The free-cash-flow yield is 5.6%. The trailing earnings yield is 4.3%, against a free-cash-flow yield of 5.6%.",
+      "The peer comparison sets the company against AIT, AME and AZEK; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "4 analysts contribute to the third-party consensus. The mean target is $40.94, with a range of $40.00 to $42.75. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $3B of revenue and $1.43 of EPS. The estimate revisions in the dataset are 9.7% over 30 days and 9.7% over 90 days. The estimate is consistent with growth of 2.8% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
         "title": "Capital-spending cycle",
@@ -146,9 +146,9 @@ export const GEO: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "The GEO Group, Inc. is an Industrial Automation company with $2.9B of trailing revenue, an operating margin of 13.0% and a free-cash-flow margin of 7.5%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with AIT, AME and AZEK, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 53/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "The GEO Group, Inc. produced $2.9B of trailing revenue at a 13.0% operating margin and a 7.5% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
+      "Analysts contributing to the third-party consensus carry a $40.94 mean target as of 2026-11-25, 38.2% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target.",
+      "The factor percentiles put valuation at 74/100 and cash generation at 30/100, with the composite averaging 54/100. The average hides a strong valuation reading and a weak cash generation one, which is why the spread is the more useful description."
     ],
     "questions": [
       "How much revenue is recurring versus project-based?",

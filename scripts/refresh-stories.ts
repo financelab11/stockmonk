@@ -124,6 +124,12 @@ function buildBundle(
       v: point.v,
     })),
     factors: buildFullFactorScores(companies, ticker),
+    peerCandidates: companies
+      .filter(
+        (company) =>
+          company.ticker !== ticker && company.industry === final.industry,
+      )
+      .map((company) => company.ticker),
     cagr: computeCagr(final.annual),
     latestQYoY: latestQuarterYoY(final),
     rangePosition: rangePosition(

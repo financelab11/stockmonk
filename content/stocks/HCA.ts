@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const HCA: StockStory = {
   "ticker": "HCA",
   "kicker": "Healthcare Services & Devices · Medical Care Facilities",
-  "title": "HCA Healthcare, Inc.: a healthcare services & devices business with +5.8% revenue growth",
-  "dek": "HCA Healthcare, Inc. generated $78.7B of trailing revenue with an operating margin of 12.5%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "HCA Healthcare, Inc: Hospitals and surgery centers",
+  "dek": "HCA Healthcare, Inc. reported $78.7B of trailing revenue at a 12.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $78.7B trailing twelve months, +5.8% year over year.",
@@ -13,22 +13,22 @@ export const HCA: StockStory = {
     "Valuation: 15.1x trailing earnings and 11.8x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/860730/000119312526044769/hca-20251231.htm",
   "irUrl": "https://www.hcahealthcare.com",
   "bigPicture": {
     "paragraphs": [
-      "HCA Healthcare, Inc. generated $78.7B of revenue over the last twelve months, +5.8% versus the prior year. The latest reported quarter was Q3 FY26, with $19.8B of revenue and a 11.9% operating margin. The shares closed at $489.38 on Nov 25, 2026, giving a market capitalization of $102.2B.",
-      "The franchise depends on clinical evidence, reimbursement and the duration of patent protection. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $102.2B, or 15.1x trailing earnings and 11.8x EV/EBITDA. The shares sit 67% of the way up their 52-week range ($353.99 to $556.52). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "HCA Healthcare, Inc. generated $78.7B of revenue over the last twelve months, +5.8% versus the prior year. The latest reported quarter was Q3 FY26, with $19.8B of revenue and an 11.9% operating margin. The shares closed at $489.38 on Nov 25, 2026, giving a market capitalization of $102.2B.",
+      "American Group is 35.0% of the disclosed revenue mix. The company does not disclose revenue by region in the current extract. HCA Healthcare, Inc. competes in Medical Care Facilities, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $102.2B, or 15.1x trailing earnings and 11.8x EV/EBITDA. The shares sit 67% of the way up their 52-week range ($353.99 to $556.52). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
     ],
-    "quote": "HCA is a Healthcare Services & Devices business with $78.7B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "HCA operates hospitals and surgery centers, a volume-driven healthcare business where reimbursement, acuity and labor costs determine margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "HCA Healthcare, Inc. , through its subsidiaries, provides health care services in the United States. HCA Healthcare, Inc. is a Healthcare Services & Devices company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 230,000 people, and its coverage group is Healthcare Services & Devices.",
-      "The comparison set includes LH, ACHC and CI. HCA Healthcare, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "HCA Healthcare, Inc., through its subsidiaries, provides health care services in the United States. HCA Healthcare, Inc. sits in the Medical Care Facilities industry, one of the Healthcare Services & Devices names in this library.",
+      "The disclosed mix runs across American Group at 35.0%, Atlantic Group at 32.7% and National Group at 28.1%. The last disclosure put headcount at 230,000 people. The revenue base is $78.7B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "The closest listed comparisons are ACHC, DVA and EHC; the useful question is how HCA Healthcare, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const HCA: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 12.5% and net margin is 8.6%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $57.2B, or 4.2x EBITDA. Return on invested capital was 15.4% and return on equity was -83.9%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 12.5% is the first clean profitability line. Revenue depends on utilization, reimbursement and payer mix, while labor and capacity determine the cost of serving each patient.",
+      "Net debt is $57.2B, or 4.2x EBITDA. Return on invested capital was 15.4%, while the reported return on equity is negative because the equity base is negative. The operating return is the one to use when judging reinvestment."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 7.1% a year across the fiscal years in the dataset, and the latest quarter changed +3.6% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 12.5% and return on invested capital of 15.4% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 7.1% a year across the fiscal years in the dataset, and the latest quarter changed +3.6% year over year. Current-year estimates call for $79.2B of revenue and $30.08 of EPS.",
+      "The operating margin of 12.5% and return on invested capital of 15.4% are the filters to watch as revenue scales. Growth of 5.8% against a 12.5% operating margin is the balance the next few quarters have to protect."
     ],
     "bullets": [
       {
-        "title": "Volume and adoption",
-        "detail": "New patients and procedures drive revenue before price. For HCA Healthcare, Inc., the relevant evidence is revenue growth of +5.8%. That is the metric to track in the next filing."
+        "title": "Utilization",
+        "detail": "Patient volumes and procedures drive revenue before price. Revenue growth is +5.8%."
       },
       {
         "title": "Reimbursement",
-        "detail": "Coverage decisions determine whether a product is accessible and profitable. For HCA Healthcare, Inc., the relevant evidence is an operating margin of 12.5%. That is the metric to track in the next filing."
+        "detail": "The operating margin is 12.5%. Coverage and rate updates determine revenue per patient."
       },
       {
-        "title": "Pipeline",
-        "detail": "New indications and products extend the growth runway. For HCA Healthcare, Inc., the relevant evidence is a return on invested capital of 15.4%. That is the metric to track in the next filing."
+        "title": "Capacity and mix",
+        "detail": "Beds, clinicians and service mix determine how much volume can be converted into margin. The current reading: return on invested capital is 15.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 11.4% in FY2018 to 13.0% in FY2025. The trailing operating margin is 12.5%, the net margin is 8.6% and diluted EPS is $30.14.",
-      "Return on equity was -83.9% and return on invested capital was 15.4%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was -83.9% and return on invested capital was 15.4%. A negative equity base makes the equity return meaningless here; the return on invested capital is the number that matters."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $6B, a 7.6% margin. Net debt is $57.2B, or 4.2x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $4.9B in the latest fiscal year."
+      "Free cash flow over the trailing period was $6B, a 7.6% margin. Net debt is $57.2B, or 4.2x EBITDA. With capital spending at 6.3% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow was $12.6B, or 186.3% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $4.9B in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 15.1x trailing earnings, 11.8x EV/EBITDA and 2.0x EV/sales. The free-cash-flow yield is 5.8%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against LH, ACHC and CI; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 15.1x trailing earnings, 11.8x EV/EBITDA and 2.0x EV/sales. The free-cash-flow yield is 5.8%. The trailing earnings yield is 6.6%, against a free-cash-flow yield of 5.8%.",
+      "The peer comparison sets the company against ACHC, DVA and EHC; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "22 analysts contribute to the third-party consensus. The mean target is $485.68, with a range of $380.00 to $585.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $79.2B of revenue and $30.08 of EPS. The estimate revisions in the dataset are 2.0% over 30 days and 2.0% over 90 days. That implies growth of 0.6% over the trailing twelve months."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Clinical and regulatory risk",
+        "title": "Leverage",
         "severity": "High",
-        "detail": "Trials and approvals can fail or be delayed.",
-        "watch": "Trial readouts and regulatory decisions."
+        "detail": "Net debt is $57.2B, or 4.2x EBITDA, which leaves the equity sensitive to refinancing costs and a slower cash flow.",
+        "watch": "Leverage, interest cover and the maturity profile."
       },
       {
-        "title": "Reimbursement and pricing",
+        "title": "Labor costs",
         "severity": "High",
-        "detail": "Coverage and drug-pricing rules can cap revenue per patient.",
-        "watch": "Net price and payer mix."
+        "detail": "Nursing and clinician shortages can raise wages and contract labor.",
+        "watch": "Salaries, benefits and contract labor."
       },
       {
-        "title": "Competition",
+        "title": "Regulation",
         "severity": "Medium",
-        "detail": "New therapies can take share or force price cuts.",
-        "watch": "Competitor launches and prescription trends."
+        "detail": "Coverage rules, licensure and billing audits can change the model.",
+        "watch": "Regulatory and compliance actions."
       },
       {
-        "title": "Patent expirations",
+        "title": "Volume and capacity",
         "severity": "Medium",
-        "detail": "Loss of exclusivity can reset revenue quickly.",
-        "watch": "Patent-cliff timing and generic entry."
+        "detail": "Capacity constraints can cap growth even when demand is strong.",
+        "watch": "Admissions, occupancy and bed additions."
       },
       {
-        "title": "Manufacturing and supply",
+        "title": "Valuation",
         "severity": "Medium",
-        "detail": "Capacity or quality issues can limit product availability.",
-        "watch": "Supply disclosures and capex."
+        "detail": "Multiples can compress when reimbursement or labor trends worsen.",
+        "watch": "EBITDA margin and forward guidance."
       }
     ],
     "watchlist": [
       {
+        "title": "Payer mix",
+        "detail": "A shift toward lower-paying payers changes revenue per patient."
+      },
+      {
+        "title": "Labor cost per visit",
+        "detail": "Wage inflation is the largest controllable margin variable."
+      },
+      {
         "title": "Volume growth",
-        "detail": "Separate patient growth from price and mix."
-      },
-      {
-        "title": "Reimbursement",
-        "detail": "Coverage decisions are a leading indicator for adoption."
-      },
-      {
-        "title": "Pipeline readouts",
-        "detail": "Late-stage data can change the growth runway."
+        "detail": "Admissions and procedures show whether demand is translating into revenue."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "HCA Healthcare, Inc. is a Healthcare Services & Devices company with $78.7B of trailing revenue, an operating margin of 12.5% and a free-cash-flow margin of 7.6%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with LH, ACHC and CI, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 42/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "HCA Healthcare, Inc. produced $78.7B of trailing revenue at a 12.5% operating margin and a 7.6% free-cash-flow margin. Net debt of $57.2B, or 4.2x EBITDA, is the constraint that shapes the equity story.",
+      "Third-party analysts put the mean target at $485.68 as of 2026-11-25, 0.8% below the latest close; it should be read as the published consensus, not as this publication's view. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
+      "The factor percentiles put valuation at 78/100 and balance sheet at 9/100, with the composite averaging 42/100. The average hides a strong valuation reading and a weak balance sheet one, which is why the spread is the more useful description."
     ],
     "questions": [
-      "How much of growth is volume versus price?",
-      "When do the largest patents expire?",
-      "What does a negative reimbursement decision cost?",
-      "How durable is the clinical advantage?"
+      "How much of growth is volume versus rate?",
+      "What happens if reimbursement is cut?",
+      "How dependent is the model on labor supply?",
+      "What does a higher-acuity mix do to margins?"
     ]
   }
 };

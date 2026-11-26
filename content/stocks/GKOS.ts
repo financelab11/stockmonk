@@ -4,7 +4,7 @@ export const GKOS: StockStory = {
   "ticker": "GKOS",
   "kicker": "Healthcare Services & Devices · Medical Devices",
   "title": "How Glaukos Corporation makes money and where the cash goes",
-  "dek": "Glaukos Corporation generated $690.3M of trailing revenue with an operating margin of -25.5%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "dek": "Glaukos Corporation reported $690.3M of trailing revenue at a -25.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $690.3M trailing twelve months, +46.9% year over year.",
@@ -13,22 +13,22 @@ export const GKOS: StockStory = {
     "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1192448/000119312526061944/gkos-20251231.htm",
   "irUrl": "https://www.glaukos.com",
   "bigPicture": {
     "paragraphs": [
       "Glaukos Corporation generated $690.3M of revenue over the last twelve months, +46.9% versus the prior year. The latest reported quarter was Q3 FY26, with $211M of revenue and a 0.4% operating margin. The shares closed at $259.28 on Nov 25, 2026, giving a market capitalization of $15.3B.",
-      "The franchise depends on clinical evidence, reimbursement and the duration of patent protection. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $15.3B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 100% of the way up their 52-week range ($93.96 to $259.89). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Development & Commercialization Of Ophthalmic Therapies is 100.0% of the disclosed revenue mix. United States supplies 73.9% of disclosed revenue, the largest single geography in the filing. Glaukos Corporation competes in Medical Devices, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $15.3B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 100% of the way up their 52-week range ($93.96 to $259.89). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
     ],
-    "quote": "GKOS is a Healthcare Services & Devices business with $690.3M of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Glaukos sells ophthalmic devices, so procedure adoption and reimbursement drive growth."
   },
   "whatItDoes": {
     "paragraphs": [
       "Glaukos Corporation, an ophthalmic pharmaceutical and medical technology company, develops therapies for the treatment of glaucoma, corneal disorders, and retinal diseases in the United States and internationally. It offers iStent and iStent inject W micro-bypass stents designed to treat mild-to-moderate open-angle glaucoma through the restoration of the natural physiologic outflow pathways for aqueous humor.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 1,094 people, and its coverage group is Healthcare Services & Devices.",
-      "The comparison set includes LH, ACHC and CI. Glaukos Corporation is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 1,094 people. Trailing revenue is $690.3M, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "The closest listed comparisons are ABT, BSX and SYK; the useful question is how Glaukos Corporation's margin and returns compare with theirs, not how fast the addressable market is growing."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const GKOS: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 64.8%, operating margin is -25.5% and net margin is -24.6%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $162.3M of net cash. Return on invested capital was -19.4% and return on equity was -23.7%."
+      "Of $690.3M of revenue, $447.2M remained after cost of sales. The 90.3% operating-expense load brought that down to a -25.5% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "The balance sheet carries $162.3M of net cash. Return on invested capital was -19.4% and return on equity was -23.7%. A negative return on invested capital means the business is consuming capital rather than earning on it."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 15.8% a year across the fiscal years in the dataset, and the latest quarter changed +58.0% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of -25.5% and return on invested capital of -19.4% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 15.8% a year across the fiscal years in the dataset, and the latest quarter changed +58.0% year over year. Current-year estimates call for $780.5M of revenue and $0.64 of EPS.",
+      "The operating margin of -25.5% and return on invested capital of -19.4% are the filters to watch as revenue scales. Growth of 46.9% is outrunning the -25.5% operating margin, so the question is whether scale eventually pays for itself."
     ],
     "bullets": [
       {
-        "title": "Volume and adoption",
-        "detail": "New patients and procedures drive revenue before price. For Glaukos Corporation, the relevant evidence is revenue growth of +46.9%. That is the metric to track in the next filing."
+        "title": "Procedure growth",
+        "detail": "More procedures expand the consumable and device opportunity. Revenue growth is +46.9%."
       },
       {
-        "title": "Reimbursement",
-        "detail": "Coverage decisions determine whether a product is accessible and profitable. For Glaukos Corporation, the relevant evidence is an operating margin of -25.5%. That is the metric to track in the next filing."
+        "title": "Installed base",
+        "detail": "The operating margin is -25.5%. Placed devices create recurring consumable and service revenue."
       },
       {
-        "title": "Pipeline",
-        "detail": "New indications and products extend the growth runway. For Glaukos Corporation, the relevant evidence is a return on invested capital of -19.4%. That is the metric to track in the next filing."
+        "title": "New indications",
+        "detail": "Label expansions and clinical data widen the addressable market. The current reading: return on invested capital is -19.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from -7.2% in FY2018 to -39.3% in FY2025. The trailing operating margin is -25.5%, the net margin is -24.6% and diluted EPS is -$2.95.",
-      "Return on equity was -23.7% and return on invested capital was -19.4%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was -23.7% and return on invested capital was -19.4%. The negative returns mean leverage is not the issue; the operating model is. The trend in these returns matters more than a single year's level."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $36M, a 5.2% margin. The balance sheet carries $162.3M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $7.7M in the latest fiscal year."
+      "Free cash flow over the trailing period was $36M, a 5.2% margin. The balance sheet carries $162.3M of net cash. Capital expenditure was 1.1% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $7.7M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 22.0x EV/sales. The free-cash-flow yield is 0.2%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against LH, ACHC and CI; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 22.0x EV/sales. The free-cash-flow yield is 0.2%. Without a meaningful earnings multiple, the cash-flow yield and the asset base carry more of the valuation work.",
+      "The peer comparison sets the company against ABT, BSX and SYK; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "13 analysts contribute to the third-party consensus. The mean target is $248.08, with a range of $225.00 to $280.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $780.5M of revenue and $0.64 of EPS. The estimate revisions in the dataset are -314.7% over 30 days and -319.8% over 90 days. That implies growth of 13.1% over the trailing twelve months."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Clinical and regulatory risk",
+        "title": "Operating losses",
         "severity": "High",
-        "detail": "Trials and approvals can fail or be delayed.",
-        "watch": "Trial readouts and regulatory decisions."
+        "detail": "The trailing operating margin is -25.5%, which means the current cost base is not covered by revenue.",
+        "watch": "Path to operating breakeven and cash runway."
       },
       {
-        "title": "Reimbursement and pricing",
+        "title": "Clinical and regulatory",
         "severity": "High",
-        "detail": "Coverage and drug-pricing rules can cap revenue per patient.",
-        "watch": "Net price and payer mix."
+        "detail": "Trial data, approvals and recalls can change the franchise.",
+        "watch": "Trial readouts, approvals and quality events."
       },
       {
         "title": "Competition",
         "severity": "Medium",
-        "detail": "New therapies can take share or force price cuts.",
-        "watch": "Competitor launches and prescription trends."
+        "detail": "A better device or a cheaper alternative can take share.",
+        "watch": "Procedure share and competitor launches."
       },
       {
-        "title": "Patent expirations",
+        "title": "Hospital capital budgets",
         "severity": "Medium",
-        "detail": "Loss of exclusivity can reset revenue quickly.",
-        "watch": "Patent-cliff timing and generic entry."
+        "detail": "Capex cuts can delay device purchases.",
+        "watch": "Hospital capex and order trends."
       },
       {
-        "title": "Manufacturing and supply",
+        "title": "Valuation",
         "severity": "Medium",
-        "detail": "Capacity or quality issues can limit product availability.",
-        "watch": "Supply disclosures and capex."
+        "detail": "Medtech multiples assume durable procedure growth.",
+        "watch": "Forward revenue and margin."
       }
     ],
     "watchlist": [
       {
-        "title": "Volume growth",
-        "detail": "Separate patient growth from price and mix."
+        "title": "Procedure volumes",
+        "detail": "The leading indicator for device and consumable demand."
+      },
+      {
+        "title": "Installed base",
+        "detail": "Placed units determine the recurring revenue stream."
       },
       {
         "title": "Reimbursement",
-        "detail": "Coverage decisions are a leading indicator for adoption."
-      },
-      {
-        "title": "Pipeline readouts",
-        "detail": "Late-stage data can change the growth runway."
+        "detail": "Coverage decisions can accelerate or cap adoption."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Glaukos Corporation is a Healthcare Services & Devices company with $690.3M of trailing revenue, an operating margin of -25.5% and a free-cash-flow margin of 5.2%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with LH, ACHC and CI, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 56/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Glaukos Corporation produced $690.3M of trailing revenue at a -25.5% operating margin and a 5.2% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
+      "The third-party consensus mean is $248.08 as of 2026-11-25, 4.3% below the latest close; it should be read as the published consensus, not as this publication's view. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put valuation at 100/100 and profitability at 6/100, with the composite averaging 56/100. A 100/100 valuation score against a 6/100 profitability score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
-      "How much of growth is volume versus price?",
-      "When do the largest patents expire?",
-      "What does a negative reimbursement decision cost?",
-      "How durable is the clinical advantage?"
+      "How much revenue is recurring versus capital equipment?",
+      "What does a reimbursement change do to volume?",
+      "How concentrated is the installed base?",
+      "What clinical evidence would expand the label?"
     ]
   }
 };

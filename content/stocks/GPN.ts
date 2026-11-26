@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const GPN: StockStory = {
   "ticker": "GPN",
   "kicker": "Payments & Financial Software · Specialty Business Services",
-  "title": "Global Payments Inc. at an incomplete earnings multiple: what the filings support",
-  "dek": "Global Payments Inc. generated $11.5B of trailing revenue with an operating margin of 6.8%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Global Payments Inc: Merchant acquiring and payment software",
+  "dek": "Global Payments Inc. reported $11.5B of trailing revenue at a 6.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $11.5B trailing twelve months, +48.5% year over year.",
@@ -13,22 +13,22 @@ export const GPN: StockStory = {
     "Valuation: no meaningful trailing earnings multiple and 11.3x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000008/gpn-20251231.htm",
   "irUrl": "https://www.globalpayments.com",
   "bigPicture": {
     "paragraphs": [
       "Global Payments Inc. generated $11.5B of revenue over the last twelve months, +48.5% versus the prior year. The latest reported quarter was Q3 FY26, with $3.3B of revenue and a 7.4% operating margin. The shares closed at $96.26 on Nov 25, 2026, giving a market capitalization of $25.5B.",
-      "The economics depend on credit losses, funding costs, take rates and the ability to grow without buying customers. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $25.5B, or no meaningful trailing earnings multiple and 11.3x EV/EBITDA. The shares sit 84% of the way up their 52-week range ($61.16 to $102.91). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Merchant Solutions accounts for 100.0% of disclosed revenue. Revenue is disclosed across 3 geographies, with Americas the largest at 79.7%. Global Payments Inc. competes in Specialty Business Services, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $25.5B, or no meaningful trailing earnings multiple and 11.3x EV/EBITDA. The shares sit 84% of the way up their 52-week range ($61.16 to $102.91). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
     ],
-    "quote": "GPN is a Payments & Financial Software business with $11.5B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Global Payments sells merchant acquiring and payment software, so volume growth, take rate and the integration of acquisitions determine returns."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Global Payments Inc. provides payment technology and software solutions for card, check, and digital-based payments in the Americas, Europe, and the Asia-Pacific. Global Payments Inc. is a Payments & Financial Software company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 26,000 people, and its coverage group is Payments & Financial Software.",
-      "The comparison set includes ADP, BR and FDS. Global Payments Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Global Payments Inc. provides payment technology and software solutions for card, check, and digital-based payments in the Americas, Europe, and the Asia-Pacific. The business is part of the Payments & Financial Software group and reports under Industrials in the current classification.",
+      "The company reports one consolidated revenue line rather than a segment split. Headcount was 26,000 in the latest filing. With $11.5B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "Against CPRT and CTAS, the relevant tests are pricing power, capital intensity and cash conversion."
     ],
     "bullets": [
       {
@@ -47,80 +47,80 @@ export const GPN: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 61.5%, operating margin is 6.8% and net margin is -11.2%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $17B, or 4.5x EBITDA. Return on invested capital was 1.4% and return on equity was -5.6%."
+      "The company kept 61.5% of revenue after cost of sales, or $7.1B. Operating expenses absorbed 54.7% of revenue, leaving a 6.8% operating margin. The operating layer is where the gross profit is either protected or spent.",
+      "Net debt is $17B, or 4.5x EBITDA. Return on invested capital was 1.4%, while the reported return on equity is negative because the equity base is negative. The operating return is the one to use when judging reinvestment."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 12.6% a year across the fiscal years in the dataset, and the latest quarter changed +63.7% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 6.8% and return on invested capital of 1.4% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 12.6% a year across the fiscal years in the dataset, and the latest quarter changed +63.7% year over year. Current-year estimates call for $12.3B of revenue and $13.65 of EPS.",
+      "The operating margin of 6.8% and return on invested capital of 1.4% are the filters to watch as revenue scales. Revenue is growing faster than profit, which means the current margin understates the operating leverage still to come if the model scales."
     ],
     "bullets": [
       {
-        "title": "Volume growth",
-        "detail": "Transactions and loans scale revenue. For Global Payments Inc., the relevant evidence is revenue growth of +48.5%. That is the metric to track in the next filing."
+        "title": "Payment volume",
+        "detail": "Revenue growth is +48.5%. Consumer and commercial spending drives transaction revenue."
       },
       {
-        "title": "Take rate",
-        "detail": "Pricing per transaction determines revenue per unit. For Global Payments Inc., the relevant evidence is an operating margin of 6.8%. That is the metric to track in the next filing."
+        "title": "Take rate and mix",
+        "detail": "Pricing per transaction and the mix of value-added services determine revenue per dollar processed. The current reading: the operating margin is 6.8%."
       },
       {
-        "title": "Funding and credit",
-        "detail": "Cheaper funding and stable credit improve margins. For Global Payments Inc., the relevant evidence is a return on invested capital of 1.4%. That is the metric to track in the next filing."
+        "title": "Credit and funding",
+        "detail": "Return on invested capital is 1.4%. That is the line the next filing has to move."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 21.9% in FY2018 to 22.8% in FY2025. The trailing operating margin is 6.8%, the net margin is -11.2% and diluted EPS is -$4.55.",
-      "Return on equity was -5.6% and return on invested capital was 1.4%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was -5.6% and return on invested capital was 1.4%. The equity return is distorted by negative book equity, so the operating return is the cleaner read. Both should be read against the company's own history before they are compared with a peer median."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$169M, a -1.5% margin. Net debt is $17B, or 4.5x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $617.8M in the latest fiscal year."
+      "Free cash flow over the trailing period was -$169M, a -1.5% margin. Net debt is $17B, or 4.5x EBITDA. Capex absorbed 5.4% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow was $2.7B, or 189.7% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $617.8M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, 11.3x EV/EBITDA and 3.7x EV/sales. The free-cash-flow yield is -0.7%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against ADP, BR and FDS; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, 11.3x EV/EBITDA and 3.7x EV/sales. The free-cash-flow yield is -0.7%. Earnings are not a useful anchor here, so the free-cash-flow yield is the cleaner valuation reference.",
+      "The peer comparison sets the company against CPRT and CTAS; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "33 analysts contribute to the third-party consensus. The mean target is $109.30, with a range of $70.00 to $194.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $12.3B of revenue and $13.65 of EPS. The estimate revisions in the dataset are 0.0% over 30 days and -0.2% over 90 days. Set against trailing revenue, the estimate implies growth of 7.4%."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Credit losses",
+        "title": "Leverage",
         "severity": "High",
-        "detail": "A weaker consumer can raise charge-offs.",
-        "watch": "Delinquencies and provision trends."
+        "detail": "Net debt is $17B, or 4.5x EBITDA, which leaves the equity sensitive to refinancing costs and a slower cash flow.",
+        "watch": "Leverage, interest cover and the maturity profile."
       },
       {
-        "title": "Funding costs",
+        "title": "Competition and take rate",
         "severity": "High",
-        "detail": "Higher rates can compress spreads.",
-        "watch": "Cost of funds and deposit mix."
+        "detail": "Banks, processors and fintechs can compress pricing.",
+        "watch": "Take rate and volume growth."
       },
       {
         "title": "Regulation",
         "severity": "Medium",
-        "detail": "Banking, lending and crypto rules can change the model.",
-        "watch": "Licensing and regulatory actions."
+        "detail": "Interchange, crypto and consumer-lending rules can change the model.",
+        "watch": "Regulatory actions and licensing."
       },
       {
-        "title": "Competition",
+        "title": "Funding costs",
         "severity": "Medium",
-        "detail": "Banks and other platforms can match features.",
-        "watch": "Take rate and customer acquisition cost."
+        "detail": "Higher rates can compress spreads on lending and BNPL products.",
+        "watch": "Cost of funds and deposit mix."
       },
       {
         "title": "Valuation",
@@ -131,30 +131,30 @@ export const GPN: StockStory = {
     ],
     "watchlist": [
       {
-        "title": "Credit quality",
-        "detail": "Delinquencies lead charge-offs."
+        "title": "Volume and take rate",
+        "detail": "Separate unit growth from pricing to see the quality of revenue."
       },
       {
-        "title": "Take rate",
-        "detail": "Revenue per transaction is the unit economics."
+        "title": "Credit quality",
+        "detail": "Delinquencies lead charge-offs by several quarters."
       },
       {
         "title": "Funding",
-        "detail": "The cost and stability of funding drive margins."
+        "detail": "The cost and stability of funding drive lending margins."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Global Payments Inc. is a Payments & Financial Software company with $11.5B of trailing revenue, an operating margin of 6.8% and a free-cash-flow margin of -1.5%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with ADP, BR and FDS, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 36/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Global Payments Inc. produced $11.5B of trailing revenue at a 6.8% operating margin and a -1.5% free-cash-flow margin. With leverage at 4.5x EBITDA, the balance sheet is the first thing the cash flow has to service.",
+      "The consensus target is $109.30 as of 2026-11-25, 13.5% above the latest close; that is the analysts' view, attributed and dated, not a Stockmonk target. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put valuation at 88/100 and balance sheet at 7/100, with the composite averaging 36/100. The gap between valuation at 88/100 and balance sheet at 7/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
+      "How much revenue is credit-sensitive?",
       "What happens to losses in a recession?",
-      "How much growth is purchased with marketing?",
-      "Is funding diversified?",
-      "What regulatory change would hurt most?"
+      "Is the take rate holding as volume grows?",
+      "How much growth is bought with incentives?"
     ]
   }
 };

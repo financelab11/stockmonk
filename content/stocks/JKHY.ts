@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const JKHY: StockStory = {
   "ticker": "JKHY",
   "kicker": "Payments & Financial Software · Information Technology Services",
-  "title": "Jack Henry & Associates, Inc. earns an operating margin of 25.3% on $2.6B of revenue",
-  "dek": "Jack Henry & Associates, Inc. generated $2.6B of trailing revenue with an operating margin of 25.3%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Jack Henry & Associates, Inc: Core banking and payments software to community banks",
+  "dek": "Jack Henry & Associates, Inc. reported $2.6B of trailing revenue at a 25.3% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $2.6B trailing twelve months, +7.5% year over year.",
@@ -13,22 +13,22 @@ export const JKHY: StockStory = {
     "Valuation: 24.4x trailing earnings and 18.2x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000067/jkhy-20260630.htm",
   "irUrl": "https://www.jackhenry.com",
   "bigPicture": {
     "paragraphs": [
       "Jack Henry & Associates, Inc. generated $2.6B of revenue over the last twelve months, +7.5% versus the prior year. The latest reported quarter was Q1 FY27, with $701.5M of revenue and a 29.5% operating margin. The shares closed at $182.01 on Nov 25, 2026, giving a market capitalization of $12.7B.",
-      "The economics depend on credit losses, funding costs, take rates and the ability to grow without buying customers. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $12.7B, or 24.4x trailing earnings and 18.2x EV/EBITDA. The shares sit 84% of the way up their 52-week range ($121.04 to $193.39). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The largest disclosed segment is Payments at 36.8% of revenue. The extract carries a consolidated revenue line without a regional split. Jack Henry & Associates, Inc. competes in Information Technology Services, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $12.7B, or 24.4x trailing earnings and 18.2x EV/EBITDA. The shares sit 84% of the way up their 52-week range ($121.04 to $193.39). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
     ],
-    "quote": "JKHY is a Payments & Financial Software business with $2.6B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Jack Henry sells core banking and payments software to community banks, a recurring-revenue business where renewals and cross-sell drive growth."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Jack Henry & Associates, Inc. operates as a financial technology company that connects people and financial institutions through technology solutions and payment processing services in the United States. Jack Henry & Associates, Inc. is a Payments & Financial Software company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 7,300 people, and its coverage group is Payments & Financial Software.",
-      "The comparison set includes ADP, BR and FDS. Jack Henry & Associates, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Jack Henry & Associates, Inc. operates as a financial technology company that connects people and financial institutions through technology solutions and payment processing services in the United States. Jack Henry & Associates, Inc. is an Information Technology Services company within the Payments & Financial Software coverage group.",
+      "The disclosed mix runs across Payments at 36.8%, Core at 30.2% and Complementary at 29.6%. The company employed 7,300 people at the last reporting date. With $2.6B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "The peer set is IBM, APLD and EPAM; similar businesses can earn very different returns on capital, which is the comparison that matters."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const JKHY: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 25.3% and net margin is 20.0%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $59.6M, or 0.1x EBITDA. Return on invested capital was 23.2% and return on equity was 24.7%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 25.3% is the first clean profitability line. The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer.",
+      "Net debt is $59.6M, or 0.1x EBITDA. Return on invested capital was 23.2% and return on equity was 24.7%. That level earns well above a typical cost of capital."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 7.3% a year across the fiscal years in the dataset, and the latest quarter changed +8.8% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 25.3% and return on invested capital of 23.2% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 7.3% a year across the fiscal years in the dataset, and the latest quarter changed +8.8% year over year. Current-year estimates call for $2.7B of revenue and $7.27 of EPS.",
+      "The operating margin of 25.3% and return on invested capital of 23.2% are the filters to watch as revenue scales. Growth of 7.5% on a 25.3% operating margin is a high-quality combination if both hold."
     ],
     "bullets": [
       {
-        "title": "Volume growth",
-        "detail": "Transactions and loans scale revenue. For Jack Henry & Associates, Inc., the relevant evidence is revenue growth of +7.5%. That is the metric to track in the next filing."
+        "title": "Net revenue retention",
+        "detail": "Expansion within existing customers compounds revenue. The current reading: revenue growth is +7.5%."
       },
       {
-        "title": "Take rate",
-        "detail": "Pricing per transaction determines revenue per unit. For Jack Henry & Associates, Inc., the relevant evidence is an operating margin of 25.3%. That is the metric to track in the next filing."
+        "title": "New customer adds",
+        "detail": "The operating margin is 25.3%. A change in that figure would be the first signal of a shift."
       },
       {
-        "title": "Funding and credit",
-        "detail": "Cheaper funding and stable credit improve margins. For Jack Henry & Associates, Inc., the relevant evidence is a return on invested capital of 23.2%. That is the metric to track in the next filing."
+        "title": "Operating leverage",
+        "detail": "Scale should improve margins as sales and R&D mature. Return on invested capital is 23.2%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 22.4% in FY2019 to 25.0% in FY2026. The trailing operating margin is 25.3%, the net margin is 20.0% and diluted EPS is $7.28.",
-      "Return on equity was 24.7% and return on invested capital was 23.2%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 24.7% and return on invested capital was 23.2%. With return on equity at 24.7% and return on invested capital at 23.2%, leverage is not the main driver of the gap."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $717.4M, a 27.6% margin. Net debt is $59.6M, or 0.1x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $67.1M in the latest fiscal year."
+      "Free cash flow over the trailing period was $717.4M, a 27.6% margin. Net debt is $59.6M, or 0.1x EBITDA. Capex absorbed 2.6% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow was $762M, or 151.6% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $67.1M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 24.4x trailing earnings, 18.2x EV/EBITDA and 4.9x EV/sales. The free-cash-flow yield is 5.7%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against ADP, BR and FDS; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 24.4x trailing earnings, 18.2x EV/EBITDA and 4.9x EV/sales. The free-cash-flow yield is 5.7%. Inverting the P/E gives an earnings yield of 4.1%; the cash-flow yield is 5.7%.",
+      "The peer comparison sets the company against IBM, APLD and EPAM; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "19 analysts contribute to the third-party consensus. The mean target is $200.00, with a range of $168.00 to $220.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $2.7B of revenue and $7.27 of EPS. The estimate revisions in the dataset are 0.5% over 30 days and 2.4% over 90 days. If met, the estimate would mean growth of 4.0% from the current base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Credit losses",
-        "severity": "High",
-        "detail": "A weaker consumer can raise charge-offs.",
-        "watch": "Delinquencies and provision trends."
-      },
-      {
-        "title": "Funding costs",
-        "severity": "High",
-        "detail": "Higher rates can compress spreads.",
-        "watch": "Cost of funds and deposit mix."
-      },
-      {
-        "title": "Regulation",
-        "severity": "Medium",
-        "detail": "Banking, lending and crypto rules can change the model.",
-        "watch": "Licensing and regulatory actions."
-      },
-      {
         "title": "Competition",
+        "severity": "High",
+        "detail": "Feature parity and bundling can pressure pricing.",
+        "watch": "Win rates and average contract value."
+      },
+      {
+        "title": "Retention",
+        "severity": "High",
+        "detail": "Churn or downselling can offset new sales.",
+        "watch": "Net revenue retention and renewal rates."
+      },
+      {
+        "title": "AI disruption",
         "severity": "Medium",
-        "detail": "Banks and other platforms can match features.",
-        "watch": "Take rate and customer acquisition cost."
+        "detail": "AI-native tools can change the software stack.",
+        "watch": "Product adoption and competitive launches."
+      },
+      {
+        "title": "Sales efficiency",
+        "severity": "Medium",
+        "detail": "Growth can become expensive if payback lengthens.",
+        "watch": "CAC payback and sales productivity."
       },
       {
         "title": "Valuation",
         "severity": "Medium",
-        "detail": "Growth multiples can compress if credit normalises.",
-        "watch": "Forward revenue and credit guidance."
+        "detail": "High multiples assume durable growth.",
+        "watch": "Forward ARR and margin estimates."
       }
     ],
     "watchlist": [
       {
-        "title": "Credit quality",
-        "detail": "Delinquencies lead charge-offs."
+        "title": "Net retention",
+        "detail": "The single most important SaaS metric."
       },
       {
-        "title": "Take rate",
-        "detail": "Revenue per transaction is the unit economics."
+        "title": "Sales efficiency",
+        "detail": "Payback shows whether growth creates value."
       },
       {
-        "title": "Funding",
-        "detail": "The cost and stability of funding drive margins."
+        "title": "Free cash flow",
+        "detail": "The bridge from growth to profitability."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Jack Henry & Associates, Inc. is a Payments & Financial Software company with $2.6B of trailing revenue, an operating margin of 25.3% and a free-cash-flow margin of 27.6%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with ADP, BR and FDS, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 61/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Jack Henry & Associates, Inc. produced $2.6B of trailing revenue at a 25.3% operating margin and a 27.6% free-cash-flow margin. The free-cash-flow margin is the strongest part of that record; the rest of the report tests whether it can be sustained.",
+      "The published consensus mean is $200.00 (2026-11-25), 9.9% above the latest close; this report does not publish a target of its own. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put cash generation at 82/100 and growth at 38/100, with the composite averaging 61/100. The gap between cash generation at 82/100 and growth at 38/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
-      "What happens to losses in a recession?",
-      "How much growth is purchased with marketing?",
-      "Is funding diversified?",
-      "What regulatory change would hurt most?"
+      "How much growth comes from existing customers?",
+      "Is AI a tailwind or a substitute?",
+      "When does the business reach durable free cash flow?",
+      "How expensive is the next dollar of growth?"
     ]
   }
 };

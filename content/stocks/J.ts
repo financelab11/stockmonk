@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const J: StockStory = {
   "ticker": "J",
   "kicker": "Industrial Automation · Engineering & Construction",
-  "title": "Jacobs Solutions Inc.: an industrial automation business with +31.1% revenue growth",
-  "dek": "Jacobs Solutions Inc. generated $15.8B of trailing revenue with an operating margin of 4.9%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Jacobs Solutions Inc: An infrastructure and advanced-facilities consultant",
+  "dek": "Jacobs Solutions Inc. reported $15.8B of trailing revenue at a 4.9% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $15.8B trailing twelve months, +31.1% year over year.",
@@ -13,22 +13,22 @@ export const J: StockStory = {
     "Valuation: 43.8x trailing earnings and 22.1x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/52988/000162828026075495/jec-20261002.htm",
   "irUrl": "https://www.jacobs.com",
   "bigPicture": {
     "paragraphs": [
       "Jacobs Solutions Inc. generated $15.8B of revenue over the last twelve months, +31.1% versus the prior year. The latest reported quarter was Q4 FY26, with $4.7B of revenue and a 7.0% operating margin. The shares closed at $143.89 on Nov 25, 2026, giving a market capitalization of $16.7B.",
-      "Revenue is tied to capital spending, backlogs and the ability to pass through input costs. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $16.7B, or 43.8x trailing earnings and 22.1x EV/EBITDA. The shares sit 68% of the way up their 52-week range ($105.68 to $162.00). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The largest disclosed segment is Infrastructure Advanced Facilities at 91.1% of revenue. Geographically, United States leads at 67.7% of the disclosed split. Jacobs Solutions Inc. competes in Engineering & Construction, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $16.7B, or 43.8x trailing earnings and 22.1x EV/EBITDA. The shares sit 68% of the way up their 52-week range ($105.68 to $162.00). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
     ],
-    "quote": "J is an Industrial Automation business with $15.8B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Jacobs is an infrastructure and advanced-facilities consultant, a backlog business tied to government, water and data-center spending."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Jacobs Solutions Inc. engages in the infrastructure and advanced facilities, and consulting businesses in the United States, Europe, Canada, India, Asia, Australia, New Zealand, the Middle East, and Africa. Jacobs Solutions Inc. is an Industrial Automation company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 47,300 people, and its coverage group is Industrial Automation.",
-      "The comparison set includes AIT, AME and AZEK. Jacobs Solutions Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Jacobs Solutions Inc. engages in the infrastructure and advanced facilities, and consulting businesses in the United States, Europe, Canada, India, Asia, Australia, New Zealand, the Middle East, and Africa. Jacobs Solutions Inc. is an Engineering & Construction company within the Industrial Automation coverage group.",
+      "The disclosed mix runs across Infrastructure Advanced Facilities at 91.1% and PA Consulting at 8.9%. The company employed 47,300 people at the last reporting date. Trailing revenue is $15.8B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "The peer set is FIX, STRL and ROAD; similar businesses can earn very different returns on capital, which is the comparison that matters."
     ],
     "bullets": [
       {
@@ -47,56 +47,56 @@ export const J: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 20.8%, operating margin is 4.9% and net margin is 2.4%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $2.3B, or 2.7x EBITDA. Return on invested capital was 6.4% and return on equity was 11.4%."
+      "Of $15.8B of revenue, $3.3B remained after cost of sales. The 16.0% operating-expense load brought that down to a 4.9% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "Net debt is $2.3B, or 2.7x EBITDA. Return on invested capital was 6.4% and return on equity was 11.4%. That leaves little room above the cost of capital."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.1% a year across the fiscal years in the dataset, and the latest quarter changed +49.4% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 4.9% and return on invested capital of 6.4% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 3.1% a year across the fiscal years in the dataset, and the latest quarter changed +49.4% year over year. Current-year estimates call for $17.3B of revenue and $8.23 of EPS.",
+      "The operating margin of 4.9% and return on invested capital of 6.4% are the filters to watch as revenue scales. Growth of 31.1% is outrunning the 4.9% operating margin, so the question is whether scale eventually pays for itself."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Orders already booked provide visibility into future revenue. For Jacobs Solutions Inc., the relevant evidence is revenue growth of +31.1%. That is the metric to track in the next filing."
+        "detail": "Orders already booked provide visibility into future revenue. The current reading: revenue growth is +31.1%."
       },
       {
         "title": "Aftermarket and services",
-        "detail": "Recurring service revenue can be more profitable than equipment. For Jacobs Solutions Inc., the relevant evidence is an operating margin of 4.9%. That is the metric to track in the next filing."
+        "detail": "The operating margin is 4.9%. Compare that with the prior year before drawing a conclusion."
       },
       {
         "title": "Price and productivity",
-        "detail": "Pricing actions and cost programmes protect margins through cycles. For Jacobs Solutions Inc., the relevant evidence is a return on invested capital of 6.4%. That is the metric to track in the next filing."
+        "detail": "Pricing actions and cost programmes protect margins through cycles. Return on invested capital is 6.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 3.2% in FY2019 to 4.9% in FY2026. The trailing operating margin is 4.9%, the net margin is 2.4% and diluted EPS is $3.33.",
-      "Return on equity was 11.4% and return on invested capital was 6.4%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 11.4% and return on invested capital was 6.4%. Return on invested capital of 6.4% is close to the 11.4% equity return, so the balance sheet explains only part of the difference."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $528.5M, a 3.3% margin. Net debt is $2.3B, or 2.7x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $94.1M in the latest fiscal year."
+      "Free cash flow over the trailing period was $528.5M, a 3.3% margin. Net debt is $2.3B, or 2.7x EBITDA. Capital expenditure was 0.6% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow was $622.6M, or 163.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $94.1M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 43.8x trailing earnings, 22.1x EV/EBITDA and 1.2x EV/sales. The free-cash-flow yield is 3.2%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against AIT, AME and AZEK; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 43.8x trailing earnings, 22.1x EV/EBITDA and 1.2x EV/sales. The free-cash-flow yield is 3.2%. The 2.3% earnings yield and 3.2% free-cash-flow yield are the two return measures embedded in the price.",
+      "The peer comparison sets the company against FIX, STRL and ROAD; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "15 analysts contribute to the third-party consensus. The mean target is $172.53, with a range of $144.00 to $205.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $17.3B of revenue and $8.23 of EPS. The estimate revisions in the dataset are 0.3% over 30 days and 0.0% over 90 days. If met, the estimate would mean growth of 9.7% from the current base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
         "title": "Capital-spending cycle",
@@ -146,9 +146,9 @@ export const J: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Jacobs Solutions Inc. is an Industrial Automation company with $15.8B of trailing revenue, an operating margin of 4.9% and a free-cash-flow margin of 3.3%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with AIT, AME and AZEK, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 34/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Jacobs Solutions Inc. produced $15.8B of trailing revenue at a 4.9% operating margin and a 3.3% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
+      "The third-party consensus mean is $172.53 as of 2026-11-25, 19.9% above the latest close; it is included for attribution, not as a Stockmonk call. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put growth at 75/100 and balance sheet at 19/100, with the composite averaging 34/100. A 75/100 growth score against a 19/100 balance sheet score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
       "How much revenue is recurring versus project-based?",

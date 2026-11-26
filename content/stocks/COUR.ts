@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const COUR: StockStory = {
   "ticker": "COUR",
   "kicker": "Enterprise Software · Education & Training Services",
-  "title": "Coursera, Inc. turns $1.1B of revenue into $14.9M of free cash flow",
-  "dek": "Coursera, Inc. generated $1.1B of trailing revenue with an operating margin of -16.0%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Coursera, Inc: An online learning platform",
+  "dek": "Coursera, Inc. reported $1.1B of trailing revenue at a -16.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $1.1B trailing twelve months, +44.3% year over year.",
@@ -13,22 +13,22 @@ export const COUR: StockStory = {
     "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1651562/000165156226000015/cour-20251231.htm",
   "irUrl": "https://www.coursera.org",
   "bigPicture": {
     "paragraphs": [
       "Coursera, Inc. generated $1.1B of revenue over the last twelve months, +44.3% versus the prior year. The latest reported quarter was Q3 FY26, with $376.7M of revenue and a -7.7% operating margin. The shares closed at $3.70 on Nov 25, 2026, giving a market capitalization of $939.7M.",
-      "The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $939.7M, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 6% of the way up their 52-week range ($3.40 to $8.89). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Consumer accounts for 66.3% of disclosed revenue. Revenue is disclosed across 4 geographies, with United States the largest at 50.8%. Coursera, Inc. competes in Education & Training Services, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $939.7M, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 6% of the way up their 52-week range ($3.40 to $8.89). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
     ],
-    "quote": "COUR is an Enterprise Software business with $1.1B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Coursera is an online learning platform, so learner growth, enterprise contracts and content costs drive the path to profit."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Coursera, Inc. operates an online learning platform that provides education and skills training in the United States, Europe, the Middle East, Africa, the Asia Pacific, and internationally. Coursera, Inc. is an Enterprise Software company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 1,307 people, and its coverage group is Enterprise Software.",
-      "The comparison set includes BILL, BOX and CHKP. Coursera, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Coursera, Inc. operates an online learning platform that provides education and skills training in the United States, Europe, the Middle East, Africa, the Asia Pacific, and internationally. The business is part of the Enterprise Software group and reports under Consumer Defensive in the current classification.",
+      "The disclosed mix runs across Consumer at 66.3% and Enterprise at 33.7%. Headcount was 1,307 in the latest filing. With $1.1B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "Against BILL, BOX and CHKP, the relevant tests are pricing power, capital intensity and cash conversion."
     ],
     "bullets": [
       {
@@ -47,62 +47,62 @@ export const COUR: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 57.0%, operating margin is -16.0% and net margin is -14.4%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $775.5M of net cash. Return on invested capital was -12.8% and return on equity was -14.5%."
+      "The company kept 57.0% of revenue after cost of sales, or $608.9M. Operating expenses absorbed 73.0% of revenue, leaving a -16.0% operating margin. The operating layer is where the gross profit is either protected or spent.",
+      "The balance sheet carries $775.5M of net cash. Return on invested capital was -12.8% and return on equity was -14.5%. The negative return means the capital base is not earning its cost; the question is whether scale or a margin recovery fixes that."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 26.6% a year across the fiscal years in the dataset, and the latest quarter changed +94.0% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of -16.0% and return on invested capital of -12.8% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 26.6% a year across the fiscal years in the dataset, and the latest quarter changed +94.0% year over year. Current-year estimates point to 62.8% revenue growth, with EPS of 0.63 in the reporting currency.",
+      "The operating margin of -16.0% and return on invested capital of -12.8% are the filters to watch as revenue scales. Revenue is growing faster than profit, which means the current margin understates the operating leverage still to come if the model scales."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. For Coursera, Inc., the relevant evidence is revenue growth of +44.3%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +44.3%. Expansion within existing customers compounds revenue."
       },
       {
         "title": "New customer adds",
-        "detail": "New logos broaden the base and fund future expansion. For Coursera, Inc., the relevant evidence is an operating margin of -16.0%. That is the metric to track in the next filing."
+        "detail": "New logos broaden the base and fund future expansion. The current reading: the operating margin is -16.0%."
       },
       {
         "title": "Operating leverage",
-        "detail": "Scale should improve margins as sales and R&D mature. For Coursera, Inc., the relevant evidence is a return on invested capital of -12.8%. That is the metric to track in the next filing."
+        "detail": "Return on invested capital is -12.8%. Watch whether that reading improves or merely holds."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from -26.2% in FY2019 to -10.2% in FY2025. The trailing operating margin is -16.0%, the net margin is -14.4% and diluted EPS is -$0.72.",
-      "Return on equity was -14.5% and return on invested capital was -12.8%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was -14.5% and return on invested capital was -12.8%. With negative returns on both equity and invested capital, the business is consuming capital rather than earning on it."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $14.9M, a 1.4% margin. The balance sheet carries $775.5M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.5M in the latest fiscal year."
+      "Free cash flow over the trailing period was $14.9M, a 1.4% margin. The balance sheet carries $775.5M of net cash. Capex absorbed 0.1% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.5M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 0.2x EV/sales. The free-cash-flow yield is 1.6%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BILL, BOX and CHKP; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 0.2x EV/sales. The free-cash-flow yield is 1.6%. Earnings are not a useful anchor here, so the free-cash-flow yield is the cleaner valuation reference.",
+      "The peer comparison sets the company against BILL, BOX and CHKP; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "8 analysts contribute to the third-party consensus. The mean target is $5.56, with a range of $4.50 to $7.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates point to 62.8% revenue growth, with EPS of 0.63 in the reporting currency. The estimate revisions in the dataset are -0.4% over 30 days and -0.4% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Competition",
+        "title": "Operating losses",
         "severity": "High",
-        "detail": "Feature parity and bundling can pressure pricing.",
-        "watch": "Win rates and average contract value."
+        "detail": "The trailing operating margin is -16.0%, which means the current cost base is not covered by revenue.",
+        "watch": "Path to operating breakeven and cash runway."
       },
       {
         "title": "Retention",
@@ -146,9 +146,9 @@ export const COUR: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Coursera, Inc. is an Enterprise Software company with $1.1B of trailing revenue, an operating margin of -16.0% and a free-cash-flow margin of 1.4%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BILL, BOX and CHKP, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 55/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Coursera, Inc. produced $1.1B of trailing revenue at a -16.0% operating margin and a 1.4% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
+      "The consensus target is $5.56 as of 2026-11-25, 50.1% above the latest close; the forecast is theirs, and this report does not adopt it as a target. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put valuation at 100/100 and profitability at 8/100, with the composite averaging 55/100. The gap between valuation at 100/100 and profitability at 8/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
       "How much growth comes from existing customers?",

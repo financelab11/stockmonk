@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const KYMR: StockStory = {
   "ticker": "KYMR",
   "kicker": "Pharma & Biotech · Biotechnology",
-  "title": "Kymera Therapeutics, Inc. turns $102.2M of revenue into -$288.9M of free cash flow",
-  "dek": "Kymera Therapeutics, Inc. generated $102.2M of trailing revenue with an operating margin of -396.0%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Kymera Therapeutics, Inc: A clinical-stage protein-degradation biotech",
+  "dek": "Kymera Therapeutics, Inc. reported $102.2M of trailing revenue at a -396.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $102.2M trailing twelve months, +133.8% year over year.",
@@ -13,22 +13,22 @@ export const KYMR: StockStory = {
     "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526073395/kymr-20251231.htm",
   "irUrl": "https://www.kymeratx.com",
   "bigPicture": {
     "paragraphs": [
       "Kymera Therapeutics, Inc. generated $102.2M of revenue over the last twelve months, +133.8% versus the prior year. The latest reported quarter was Q3 FY26, with $0 of revenue and a n/a operating margin. The shares closed at $171.62 on Nov 25, 2026, giving a market capitalization of $14.7B.",
-      "The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $14.7B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 93% of the way up their 52-week range ($63.69 to $180.00). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. Geographic revenue detail is not available in the current dataset. Kymera Therapeutics, Inc. competes in Biotechnology, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $14.7B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 93% of the way up their 52-week range ($63.69 to $180.00). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "KYMR is a Pharma & Biotech business with $102.2M of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Kymera is a clinical-stage protein-degradation biotech, so the value sits in pipeline readouts and the cash needed to reach them."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Kymera Therapeutics, Inc. , a clinical-stage biopharmaceutical company, focuses on discovering and developing small molecule therapeutics that selectively degrade disease-causing proteins by harnessing the body's own natural protein degradation system. Kymera Therapeutics, Inc. is a Pharma & Biotech company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 285 people, and its coverage group is Pharma & Biotech.",
-      "The comparison set includes BIIB, ETON and GILD. Kymera Therapeutics, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Kymera Therapeutics, Inc., a clinical-stage biopharmaceutical company, focuses on discovering and developing small molecule therapeutics that selectively degrade disease-causing proteins by harnessing the body's own natural protein degradation system. It reports in the Healthcare sector and is classified in Pharma & Biotech coverage.",
+      "Revenue is reported at the consolidated level only. Its latest filing lists 285 employees. Trailing revenue is $102.2M, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "VRTX, REGN and VKTX provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const KYMR: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 0.0%, operating margin is -396.0% and net margin is -341.8%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $1.6B of net cash. Return on invested capital was -19.8% and return on equity was -21.6%."
+      "Of $102.2M of revenue, $0 remained after cost of sales. The 396.0% operating-expense load brought that down to a -396.0% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "The balance sheet carries $1.6B of net cash. Return on invested capital was -19.8% and return on equity was -21.6%. Negative returns make the growth question secondary to the profitability question."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 54.0% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of -396.0% and return on invested capital of -19.8% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 54.0% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. Current-year estimates point to 154.7% revenue growth, with EPS of -3.92 in the reporting currency.",
+      "The operating margin of -396.0% and return on invested capital of -19.8% are the filters to watch as revenue scales. Growth of 133.8% is outrunning the -396.0% operating margin, so the question is whether scale eventually pays for itself."
     ],
     "bullets": [
       {
-        "title": "Clinical data",
-        "detail": "Efficacy and safety readouts determine the programme's value. For Kymera Therapeutics, Inc., the relevant evidence is revenue growth of +133.8%. That is the metric to track in the next filing."
+        "title": "Launch execution",
+        "detail": "Revenue growth is +133.8%. The trend in that figure matters more than its level."
       },
       {
-        "title": "Regulatory path",
-        "detail": "Approval and label scope decide the commercial opportunity. For Kymera Therapeutics, Inc., the relevant evidence is an operating margin of -396.0%. That is the metric to track in the next filing."
+        "title": "Pipeline readouts",
+        "detail": "Late-stage data can extend the growth runway or reset it. The operating margin is -396.0%."
       },
       {
-        "title": "Partnerships",
-        "detail": "Collaborations can fund development and validate the science. For Kymera Therapeutics, Inc., the relevant evidence is a return on invested capital of -19.8%. That is the metric to track in the next filing."
+        "title": "Patent duration",
+        "detail": "Return on invested capital is -19.8%. The remaining exclusivity period determines how long the cash flow lasts."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -1438.5% in FY2019 to -891.1% in FY2025. The trailing operating margin is -396.0%, the net margin is -341.8% and diluted EPS is -$3.63.",
-      "Return on equity was -21.6% and return on invested capital was -19.8%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is -396.0%, the net margin is -341.8% and diluted EPS is -$3.63.",
+      "Return on equity was -21.6% and return on invested capital was -19.8%. The losses show up in both return measures, which points to the income statement rather than the capital structure."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$288.9M, a -282.6% margin. The balance sheet carries $1.6B of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $1.4M in the latest fiscal year."
+      "Free cash flow over the trailing period was -$288.9M, a -282.6% margin. The balance sheet carries $1.6B of net cash. Capital expenditure was 1.4% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow and net income are not both available on a comparable basis. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $1.4M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 127.2x EV/sales. The free-cash-flow yield is -2.0%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BIIB, ETON and GILD; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 127.2x EV/sales. The free-cash-flow yield is -2.0%. Earnings are not a useful anchor here, so the free-cash-flow yield is the cleaner valuation reference.",
+      "The peer comparison sets the company against VRTX, REGN and VKTX; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "23 analysts contribute to the third-party consensus. The mean target is $182.35, with a range of $134.00 to $251.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates point to 154.7% revenue growth, with EPS of -3.92 in the reporting currency. The estimate revisions in the dataset are 1.9% over 30 days and 3.3% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Trial failure",
+        "title": "Operating losses",
         "severity": "High",
-        "detail": "A negative readout can remove most of the equity value.",
-        "watch": "Trial endpoints and readout timing."
+        "detail": "The trailing operating margin is -396.0%, which means the current cost base is not covered by revenue.",
+        "watch": "Path to operating breakeven and cash runway."
       },
       {
-        "title": "Cash runway",
+        "title": "Patent cliff",
         "severity": "High",
-        "detail": "Development costs can force financing.",
-        "watch": "Cash and quarterly burn."
+        "detail": "Loss of exclusivity can reset revenue faster than a new launch replaces it.",
+        "watch": "Patent expiry schedule and generic entry."
       },
       {
-        "title": "Reimbursement",
+        "title": "Pricing and reimbursement",
         "severity": "Medium",
-        "detail": "Payer coverage determines commercial uptake.",
-        "watch": "Pricing and payer decisions."
+        "detail": "Payer coverage and drug-pricing rules can cap revenue per patient.",
+        "watch": "Net price, payer mix and policy changes."
       },
       {
         "title": "Competition",
         "severity": "Medium",
-        "detail": "A better therapy can arrive first or be priced lower.",
+        "detail": "A better or cheaper therapy can take share quickly.",
         "watch": "Competitor data and launch timing."
       },
       {
-        "title": "Dilution",
+        "title": "Manufacturing and safety",
         "severity": "Medium",
-        "detail": "Equity raises fund trials and manufacturing.",
-        "watch": "Share count and financing terms."
+        "detail": "Supply or safety issues can limit a launch.",
+        "watch": "Supply disclosures and adverse events."
       }
     ],
     "watchlist": [
       {
-        "title": "Cash runway",
-        "detail": "The number of quarters funded is a hard constraint."
+        "title": "Launch metrics",
+        "detail": "Prescriptions, payer coverage and inventory reveal the real launch curve."
       },
       {
-        "title": "Trial readouts",
-        "detail": "Binary events drive the equity."
+        "title": "Patent timing",
+        "detail": "The next loss-of-exclusivity date is the hard constraint on the cash flow."
       },
       {
-        "title": "Partner validation",
-        "detail": "A credible partner can de-risk the programme."
+        "title": "Pipeline readouts",
+        "detail": "Late-stage data is the main driver of the out-year value."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Kymera Therapeutics, Inc. is a Pharma & Biotech company with $102.2M of trailing revenue, an operating margin of -396.0% and a free-cash-flow margin of -282.6%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BIIB, ETON and GILD, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 47/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Kymera Therapeutics, Inc. produced $102.2M of trailing revenue at a -396.0% operating margin and a -282.6% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
+      "23 analysts in the third-party survey average $182.35 as of 2026-11-25, 6.3% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put valuation at 100/100 and cash generation at 4/100, with the composite averaging 47/100. A 100/100 valuation score against a 4/100 cash generation score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
-      "How many quarters of cash remain?",
-      "What is the next binary readout?",
-      "How large is the addressable market?",
-      "What does a failed trial leave behind?"
+      "When does the largest patent expire?",
+      "What does a negative trial leave behind?",
+      "How broad is the reimbursement label?",
+      "How much of the valuation is the pipeline?"
     ]
   }
 };

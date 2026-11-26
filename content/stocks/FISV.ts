@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const FISV: StockStory = {
   "ticker": "FISV",
   "kicker": "Payments & Financial Software · Payments",
-  "title": "What Fiserv, Inc.'s latest filings reveal about growth, margins and cash",
-  "dek": "Fiserv, Inc. generated $20.8B of trailing revenue with an operating margin of -10.9%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Fiserv, Inc: Merchant acquiring and banking software",
+  "dek": "Fiserv, Inc. reported $20.8B of trailing revenue at a -10.9% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $20.8B trailing twelve months, -1.7% year over year.",
@@ -13,22 +13,22 @@ export const FISV: StockStory = {
     "Valuation: no meaningful trailing earnings multiple and 9.0x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000009/fi-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000798354&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
       "Fiserv, Inc. generated $20.8B of revenue over the last twelve months, -1.7% versus the prior year. The latest reported quarter was Q3 FY26, with $5.2B of revenue and a -105.7% operating margin. The shares closed at $59.77 on Nov 25, 2026, giving a market capitalization of $31.8B.",
-      "The economics depend on credit losses, funding costs, take rates and the ability to grow without buying customers. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $31.8B, or no meaningful trailing earnings multiple and 9.0x EV/EBITDA. The shares sit 60% of the way up their 52-week range ($43.87 to $70.41). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Merchant Solutions is 47.8% of the disclosed revenue mix. The company does not disclose revenue by region in the current extract. Fiserv, Inc. competes in Payments, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $31.8B, or no meaningful trailing earnings multiple and 9.0x EV/EBITDA. The shares sit 60% of the way up their 52-week range ($43.87 to $70.41). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
     ],
-    "quote": "FISV is a Payments & Financial Software business with $20.8B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Fiserv sells merchant acquiring and banking software, so volume, take rate and integration drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Fiserv, Inc. is a US-listed company in the Payments & Financial Software coverage group. Its statements below come from SEC filings. Fiserv, Inc. is a Payments & Financial Software company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs an undisclosed number of people, and its coverage group is Payments & Financial Software.",
-      "The comparison set includes ADP, BR and FDS. Fiserv, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Fiserv, Inc. is a US-listed company in the Payments & Financial Software coverage group. Its statements below come from SEC filings. Fiserv, Inc. sits in the Payments industry, one of the Payments & Financial Software names in this library.",
+      "The disclosed mix runs across Merchant Solutions at 47.8%, Financial Solutions at 45.6% and Corporate / other at 6.6%. Employee numbers are not part of the extract used here. The revenue base is $20.8B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "The closest listed comparisons are ADP, BR and FDS; the useful question is how Fiserv, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
     ],
     "bullets": [
       {
@@ -47,80 +47,80 @@ export const FISV: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is -10.9% and net margin is -18.9%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $26.5B, or 4.3x EBITDA. Return on invested capital was -3.7% and return on equity was -18.7%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of -10.9% is the first clean profitability line. The economics depend on payment volume, take rate, credit losses and the cost of funding the balance sheet.",
+      "Net debt is $26.5B, or 4.3x EBITDA. Return on invested capital was -3.7% and return on equity was -18.7%. Until the return turns positive, additional capital is a cost rather than an investment."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 20.3% a year across the fiscal years in the dataset, and the latest quarter changed -1.3% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of -10.9% and return on invested capital of -3.7% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 20.3% a year across the fiscal years in the dataset, and the latest quarter changed -1.3% year over year. Current-year estimates call for $19.5B of revenue and $7.28 of EPS.",
+      "The operating margin of -10.9% and return on invested capital of -3.7% are the filters to watch as revenue scales. Revenue is shrinking at 1.7% a year on a trailing basis, which puts the burden on cost control and capital returns."
     ],
     "bullets": [
       {
-        "title": "Volume growth",
-        "detail": "Transactions and loans scale revenue. For Fiserv, Inc., the relevant evidence is revenue growth of -1.7%. That is the metric to track in the next filing."
+        "title": "Payment volume",
+        "detail": "Consumer and commercial spending drives transaction revenue. Revenue growth is -1.7%."
       },
       {
-        "title": "Take rate",
-        "detail": "Pricing per transaction determines revenue per unit. For Fiserv, Inc., the relevant evidence is an operating margin of -10.9%. That is the metric to track in the next filing."
+        "title": "Take rate and mix",
+        "detail": "The operating margin is -10.9%. Pricing per transaction and the mix of value-added services determine revenue per dollar processed."
       },
       {
-        "title": "Funding and credit",
-        "detail": "Cheaper funding and stable credit improve margins. For Fiserv, Inc., the relevant evidence is a return on invested capital of -3.7%. That is the metric to track in the next filing."
+        "title": "Credit and funding",
+        "detail": "Stable credit and cheaper funding expand the spread on lending products. The current reading: return on invested capital is -3.7%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 30.1% in FY2018 to 27.5% in FY2025. The trailing operating margin is -10.9%, the net margin is -18.9% and diluted EPS is -$7.42.",
-      "Return on equity was -18.7% and return on invested capital was -3.7%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was -18.7% and return on invested capital was -3.7%. Both returns are negative, so the question is whether the operating losses are a scale problem or a structural one."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.2B, a 15.2% margin. Net debt is $26.5B, or 4.3x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.8B in the latest fiscal year."
+      "Free cash flow over the trailing period was $3.2B, a 15.2% margin. Net debt is $26.5B, or 4.3x EBITDA. With capital spending at 8.5% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow was $6.1B, or 174.2% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.8B in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, 9.0x EV/EBITDA and 2.8x EV/sales. The free-cash-flow yield is 9.9%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against ADP, BR and FDS; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, 9.0x EV/EBITDA and 2.8x EV/sales. The free-cash-flow yield is 9.9%. Without a meaningful earnings multiple, the cash-flow yield and the asset base carry more of the valuation work.",
+      "The peer comparison sets the company against ADP, BR and FDS; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "28 analysts contribute to the third-party consensus. The mean target is $66.00, with a range of $43.00 to $106.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $19.5B of revenue and $7.28 of EPS. The estimate revisions in the dataset are 0.5% over 30 days and 0.2% over 90 days. That implies a decline of 6.1% over the trailing twelve months."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Credit losses",
+        "title": "Leverage",
         "severity": "High",
-        "detail": "A weaker consumer can raise charge-offs.",
-        "watch": "Delinquencies and provision trends."
+        "detail": "Net debt is $26.5B, or 4.3x EBITDA, which leaves the equity sensitive to refinancing costs and a slower cash flow.",
+        "watch": "Leverage, interest cover and the maturity profile."
       },
       {
-        "title": "Funding costs",
+        "title": "Competition and take rate",
         "severity": "High",
-        "detail": "Higher rates can compress spreads.",
-        "watch": "Cost of funds and deposit mix."
+        "detail": "Banks, processors and fintechs can compress pricing.",
+        "watch": "Take rate and volume growth."
       },
       {
         "title": "Regulation",
         "severity": "Medium",
-        "detail": "Banking, lending and crypto rules can change the model.",
-        "watch": "Licensing and regulatory actions."
+        "detail": "Interchange, crypto and consumer-lending rules can change the model.",
+        "watch": "Regulatory actions and licensing."
       },
       {
-        "title": "Competition",
+        "title": "Funding costs",
         "severity": "Medium",
-        "detail": "Banks and other platforms can match features.",
-        "watch": "Take rate and customer acquisition cost."
+        "detail": "Higher rates can compress spreads on lending and BNPL products.",
+        "watch": "Cost of funds and deposit mix."
       },
       {
         "title": "Valuation",
@@ -131,30 +131,30 @@ export const FISV: StockStory = {
     ],
     "watchlist": [
       {
-        "title": "Credit quality",
-        "detail": "Delinquencies lead charge-offs."
+        "title": "Volume and take rate",
+        "detail": "Separate unit growth from pricing to see the quality of revenue."
       },
       {
-        "title": "Take rate",
-        "detail": "Revenue per transaction is the unit economics."
+        "title": "Credit quality",
+        "detail": "Delinquencies lead charge-offs by several quarters."
       },
       {
         "title": "Funding",
-        "detail": "The cost and stability of funding drive margins."
+        "detail": "The cost and stability of funding drive lending margins."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Fiserv, Inc. is a Payments & Financial Software company with $20.8B of trailing revenue, an operating margin of -10.9% and a free-cash-flow margin of 15.2%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with ADP, BR and FDS, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 34/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Fiserv, Inc. produced $20.8B of trailing revenue at a -10.9% operating margin and a 15.2% free-cash-flow margin. Net debt of $26.5B, or 4.3x EBITDA, is the constraint that shapes the equity story.",
+      "Third-party analysts put the mean target at $66.00 as of 2026-11-25, 10.4% above the latest close; it is a consensus view, not a recommendation from Stockmonk. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
+      "The factor percentiles put valuation at 93/100 and growth at 5/100, with the composite averaging 34/100. The average hides a strong valuation reading and a weak growth one, which is why the spread is the more useful description."
     ],
     "questions": [
+      "How much revenue is credit-sensitive?",
       "What happens to losses in a recession?",
-      "How much growth is purchased with marketing?",
-      "Is funding diversified?",
-      "What regulatory change would hurt most?"
+      "Is the take rate holding as volume grows?",
+      "How much growth is bought with incentives?"
     ]
   }
 };

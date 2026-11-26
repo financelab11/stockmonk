@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const KNSA: StockStory = {
   "ticker": "KNSA",
   "kicker": "Pharma & Biotech · Drug Manufacturers - Specialty & Generic",
-  "title": "Kiniksa Pharmaceuticals International, plc.: +58.2% growth, 20.8% free cash flow and the price being paid",
-  "dek": "Kiniksa Pharmaceuticals International, plc. generated $946M of trailing revenue with an operating margin of 13.8%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Kiniksa Pharmaceuticals International, plc: Kiniksa commercializes ARCALYST and royalty-bearing immunology assets",
+  "dek": "Kiniksa Pharmaceuticals International, plc. reported $946M of trailing revenue at a 13.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $946M trailing twelve months, +58.2% year over year.",
@@ -13,22 +13,22 @@ export const KNSA: StockStory = {
     "Valuation: 72.9x trailing earnings and 56.0x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1730430/000110465926019168/knsa-20251231x10k.htm",
   "irUrl": "https://www.kiniksa.com",
   "bigPicture": {
     "paragraphs": [
       "Kiniksa Pharmaceuticals International, plc. generated $946M of revenue over the last twelve months, +58.2% versus the prior year. The latest reported quarter was Q3 FY26, with $286M of revenue and a 19.0% operating margin. The shares closed at $101.59 on Nov 25, 2026, giving a market capitalization of $8B.",
-      "The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $8B, or 72.9x trailing earnings and 56.0x EV/EBITDA. The shares sit 97% of the way up their 52-week range ($37.02 to $103.37). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Pharmaceutical accounts for 100.0% of disclosed revenue. Revenue is disclosed across 2 geographies, with United States the largest at 99.9%. Kiniksa Pharmaceuticals International, plc. competes in Drug Manufacturers - Specialty & Generic, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $8B, or 72.9x trailing earnings and 56.0x EV/EBITDA. The shares sit 97% of the way up their 52-week range ($37.02 to $103.37). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
     ],
-    "quote": "KNSA is a Pharma & Biotech business with $946M of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Kiniksa commercializes ARCALYST and royalty-bearing immunology assets, a small biopharma where label expansion and partnership revenue drive value."
   },
   "whatItDoes": {
     "paragraphs": [
       "Kiniksa Pharmaceuticals International, plc, a biopharmaceutical company, develops and commercializes medical therapies in the United States, the United Kingdom, and internationally. The company offers ARCALYST, an interleukin-1alpha and 1beta cytokine trap for the treatment of recurrent pericarditis, a chronic autoinflammatory cardiovascular disease and cardiac sarcoidosis.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 366 people, and its coverage group is Pharma & Biotech.",
-      "The comparison set includes BIIB, ETON and GILD. Kiniksa Pharmaceuticals International, plc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "The company reports one consolidated revenue line rather than a segment split. Headcount was 366 in the latest filing. With $946M of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
+      "Against ZTS, HIMS and ETON, the relevant tests are pricing power, capital intensity and cash conversion."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const KNSA: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 90.2%, operating margin is 13.8% and net margin is 11.6%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $568.8M of net cash. Return on invested capital was 13.8% and return on equity was 15.4%."
+      "The company kept 90.2% of revenue after cost of sales, or $852.9M. Operating expenses absorbed 76.4% of revenue, leaving a 13.8% operating margin. The operating layer is where the gross profit is either protected or spent.",
+      "The balance sheet carries $568.8M of net cash. Return on invested capital was 13.8% and return on equity was 15.4%. The return is close enough to the cost of capital that small changes in margin matter."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 104.8% a year across the fiscal years in the dataset, and the latest quarter changed +58.1% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 13.8% and return on invested capital of 13.8% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 104.8% a year across the fiscal years in the dataset, and the latest quarter changed +58.1% year over year. Current-year estimates call for $1B of revenue and $1.47 of EPS.",
+      "The operating margin of 13.8% and return on invested capital of 13.8% are the filters to watch as revenue scales. The 58.2% revenue pace and 13.8% margin have to move together for the earnings path to improve."
     ],
     "bullets": [
       {
-        "title": "Clinical data",
-        "detail": "Efficacy and safety readouts determine the programme's value. For Kiniksa Pharmaceuticals International, plc., the relevant evidence is revenue growth of +58.2%. That is the metric to track in the next filing."
+        "title": "Launch execution",
+        "detail": "Revenue growth is +58.2%. New therapies need payer coverage, prescriber adoption and manufacturing scale."
       },
       {
-        "title": "Regulatory path",
-        "detail": "Approval and label scope decide the commercial opportunity. For Kiniksa Pharmaceuticals International, plc., the relevant evidence is an operating margin of 13.8%. That is the metric to track in the next filing."
+        "title": "Pipeline readouts",
+        "detail": "Late-stage data can extend the growth runway or reset it. The current reading: the operating margin is 13.8%."
       },
       {
-        "title": "Partnerships",
-        "detail": "Collaborations can fund development and validate the science. For Kiniksa Pharmaceuticals International, plc., the relevant evidence is a return on invested capital of 13.8%. That is the metric to track in the next filing."
+        "title": "Patent duration",
+        "detail": "Return on invested capital is 13.8%. That is the line the next filing has to move."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from n/a in FY2018 to 11.4% in FY2025. The trailing operating margin is 13.8%, the net margin is 11.6% and diluted EPS is $1.31.",
-      "Return on equity was 15.4% and return on invested capital was 13.8%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is 13.8%, the net margin is 11.6% and diluted EPS is $1.31.",
+      "Return on equity was 15.4% and return on invested capital was 13.8%. With return on equity at 15.4% and return on invested capital at 13.8%, leverage is not the main driver of the gap."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $197.2M, a 20.8% margin. The balance sheet carries $568.8M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.6M in the latest fiscal year."
+      "Free cash flow over the trailing period was $197.2M, a 20.8% margin. The balance sheet carries $568.8M of net cash. Capex absorbed 0.2% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
+      "Operating cash flow was $138M, or 233.9% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.6M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 72.9x trailing earnings, 56.0x EV/EBITDA and 7.8x EV/sales. The free-cash-flow yield is 2.5%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BIIB, ETON and GILD; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 72.9x trailing earnings, 56.0x EV/EBITDA and 7.8x EV/sales. The free-cash-flow yield is 2.5%. Inverting the P/E gives an earnings yield of 1.4%; the cash-flow yield is 2.5%.",
+      "The peer comparison sets the company against ZTS, HIMS and ETON; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "7 analysts contribute to the third-party consensus. The mean target is $111.57, with a range of $98.00 to $134.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $1B of revenue and $1.47 of EPS. The estimate revisions in the dataset are 27.2% over 30 days and 27.2% over 90 days. Set against trailing revenue, the estimate implies growth of 10.9%."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Trial failure",
+        "title": "Clinical failure",
         "severity": "High",
-        "detail": "A negative readout can remove most of the equity value.",
+        "detail": "A negative trial can remove most of a programme's value.",
         "watch": "Trial endpoints and readout timing."
       },
       {
-        "title": "Cash runway",
+        "title": "Patent cliff",
         "severity": "High",
-        "detail": "Development costs can force financing.",
-        "watch": "Cash and quarterly burn."
+        "detail": "Loss of exclusivity can reset revenue faster than a new launch replaces it.",
+        "watch": "Patent expiry schedule and generic entry."
       },
       {
-        "title": "Reimbursement",
+        "title": "Pricing and reimbursement",
         "severity": "Medium",
-        "detail": "Payer coverage determines commercial uptake.",
-        "watch": "Pricing and payer decisions."
+        "detail": "Payer coverage and drug-pricing rules can cap revenue per patient.",
+        "watch": "Net price, payer mix and policy changes."
       },
       {
         "title": "Competition",
         "severity": "Medium",
-        "detail": "A better therapy can arrive first or be priced lower.",
+        "detail": "A better or cheaper therapy can take share quickly.",
         "watch": "Competitor data and launch timing."
       },
       {
-        "title": "Dilution",
+        "title": "Manufacturing and safety",
         "severity": "Medium",
-        "detail": "Equity raises fund trials and manufacturing.",
-        "watch": "Share count and financing terms."
+        "detail": "Supply or safety issues can limit a launch.",
+        "watch": "Supply disclosures and adverse events."
       }
     ],
     "watchlist": [
       {
-        "title": "Cash runway",
-        "detail": "The number of quarters funded is a hard constraint."
+        "title": "Launch metrics",
+        "detail": "Prescriptions, payer coverage and inventory reveal the real launch curve."
       },
       {
-        "title": "Trial readouts",
-        "detail": "Binary events drive the equity."
+        "title": "Patent timing",
+        "detail": "The next loss-of-exclusivity date is the hard constraint on the cash flow."
       },
       {
-        "title": "Partner validation",
-        "detail": "A credible partner can de-risk the programme."
+        "title": "Pipeline readouts",
+        "detail": "Late-stage data is the main driver of the out-year value."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Kiniksa Pharmaceuticals International, plc. is a Pharma & Biotech company with $946M of trailing revenue, an operating margin of 13.8% and a free-cash-flow margin of 20.8%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BIIB, ETON and GILD, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 64/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Kiniksa Pharmaceuticals International, plc. produced $946M of trailing revenue at a 13.8% operating margin and a 20.8% free-cash-flow margin. The free-cash-flow margin is the strongest part of that record; the rest of the report tests whether it can be sustained.",
+      "The consensus target is $111.57 as of 2026-11-25, 9.8% above the latest close; that is the analysts' view, attributed and dated, not a Stockmonk target. The multiple is a starting point for the durability question, not an answer to it.",
+      "The factor percentiles put growth at 93/100 and valuation at 10/100, with the composite averaging 64/100. The gap between growth at 93/100 and valuation at 10/100 is wide enough that the composite is a balance, not a verdict."
     ],
     "questions": [
-      "How many quarters of cash remain?",
-      "What is the next binary readout?",
-      "How large is the addressable market?",
-      "What does a failed trial leave behind?"
+      "When does the largest patent expire?",
+      "What does a negative trial leave behind?",
+      "How broad is the reimbursement label?",
+      "How much of the valuation is the pipeline?"
     ]
   }
 };

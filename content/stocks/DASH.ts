@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const DASH: StockStory = {
   "ticker": "DASH",
   "kicker": "Internet Platforms · Internet Retail",
-  "title": "How DoorDash, Inc. makes money and where the cash goes",
-  "dek": "DoorDash, Inc. generated $17.1B of trailing revenue with an operating margin of 5.3%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "DoorDash, Inc: A local-delivery marketplace",
+  "dek": "DoorDash, Inc. reported $17.1B of trailing revenue at a 5.3% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $17.1B trailing twelve months, +35.0% year over year.",
@@ -13,22 +13,22 @@ export const DASH: StockStory = {
     "Valuation: 69.0x trailing earnings and 32.6x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1792789/000179278926000013/dash-20251231.htm",
   "irUrl": "https://www.doordash.com",
   "bigPicture": {
     "paragraphs": [
       "DoorDash, Inc. generated $17.1B of revenue over the last twelve months, +35.0% versus the prior year. The latest reported quarter was Q3 FY26, with $4.6B of revenue and a 9.6% operating margin. The shares closed at $168.18 on Nov 25, 2026, giving a market capitalization of $73.3B.",
-      "The business is judged on whether it can keep converting a technical advantage into recurring revenue. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $73.3B, or 69.0x trailing earnings and 32.6x EV/EBITDA. The shares sit 26% of the way up their 52-week range ($143.30 to $239.00). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. United States supplies 83.5% of disclosed revenue, the largest single geography in the filing.",
+      "At the latest close the equity is valued at $73.3B, or 69.0x trailing earnings and 32.6x EV/EBITDA. The shares sit 26% of the way up their 52-week range ($143.30 to $239.00). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
     ],
-    "quote": "DASH is an Internet Platforms business with $17.1B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "DoorDash is a local-delivery marketplace, so order volume, take rate, advertising and courier costs drive profitability."
   },
   "whatItDoes": {
     "paragraphs": [
-      "DoorDash, Inc. , together with its subsidiaries, operates a commerce platform that connects merchants, consumers, and dashers in the United States and internationally. DoorDash, Inc. is an Internet Platforms company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 31,400 people, and its coverage group is Internet Platforms.",
-      "The comparison set includes BABA, BIDU and CART. DoorDash, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "DoorDash, Inc., together with its subsidiaries, operates a commerce platform that connects merchants, consumers, and dashers in the United States and internationally. DoorDash, Inc. sits in the Internet Retail industry, one of the Internet Platforms names in this library.",
+      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 31,400 people. The revenue base is $17.1B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "The closest listed comparisons are AMZN, BABA and CART; the useful question is how DoorDash, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const DASH: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 5.3% and net margin is 6.2%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $6.8B of net cash. Return on invested capital was 8.0% and return on equity was 9.9%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 5.3% is the first clean profitability line. The model depends on users, engagement, transaction volume and the take rate earned on each interaction.",
+      "The balance sheet carries $6.8B of net cash. Return on invested capital was 8.0% and return on equity was 9.9%. That is neither clearly good nor clearly bad without knowing the cost of capital."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 73.4% a year across the fiscal years in the dataset, and the latest quarter changed +34.0% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 5.3% and return on invested capital of 8.0% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 73.4% a year across the fiscal years in the dataset, and the latest quarter changed +34.0% year over year. Current-year estimates call for $17.9B of revenue and $2.80 of EPS.",
+      "The operating margin of 5.3% and return on invested capital of 8.0% are the filters to watch as revenue scales. The 35.0% top-line pace has not yet produced a thick margin; incremental revenue needs to carry more of the cost base."
     ],
     "bullets": [
       {
-        "title": "Product cycle",
-        "detail": "New products and platform transitions create refresh demand and pricing power. For DoorDash, Inc., the relevant evidence is revenue growth of +35.0%. That is the metric to track in the next filing."
+        "title": "User and engagement growth",
+        "detail": "More active users and frequency expand the inventory available to monetise. Revenue growth is +35.0%."
       },
       {
-        "title": "Customer expansion",
-        "detail": "Land-and-expand selling raises revenue per existing customer and lengthens the relationship. For DoorDash, Inc., the relevant evidence is an operating margin of 5.3%. That is the metric to track in the next filing."
+        "title": "Take rate",
+        "detail": "The operating margin is 5.3%. The share of transaction value retained determines revenue per unit of GMV."
       },
       {
-        "title": "Operating leverage",
-        "detail": "Incremental revenue can carry high gross margins once development and sales costs are in place. For DoorDash, Inc., the relevant evidence is a return on invested capital of 8.0%. That is the metric to track in the next filing."
+        "title": "Adjacent services",
+        "detail": "Advertising, logistics, payments and subscriptions can lift revenue per user. The current reading: return on invested capital is 8.0%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from -72.2% in FY2018 to 5.3% in FY2025. The trailing operating margin is 5.3%, the net margin is 6.2% and diluted EPS is $2.42.",
-      "Return on equity was 9.9% and return on invested capital was 8.0%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 9.9% and return on invested capital was 8.0%. The two returns are within a few points, at 9.9% on equity and 8.0% on invested capital, so operating performance explains most of the difference."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $2.7B, a 15.8% margin. The balance sheet carries $6.8B of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $257M in the latest fiscal year."
+      "Free cash flow over the trailing period was $2.7B, a 15.8% margin. The balance sheet carries $6.8B of net cash. With capital spending at 1.5% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow was $2.4B, or 260.0% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $257M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 69.0x trailing earnings, 32.6x EV/EBITDA and 3.9x EV/sales. The free-cash-flow yield is 3.7%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BABA, BIDU and CART; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 69.0x trailing earnings, 32.6x EV/EBITDA and 3.9x EV/sales. The free-cash-flow yield is 3.7%. The trailing earnings yield is 1.4%, against a free-cash-flow yield of 3.7%.",
+      "The peer comparison sets the company against AMZN, BABA and CART; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "38 analysts contribute to the third-party consensus. The mean target is $250.39, with a range of $200.00 to $340.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $17.9B of revenue and $2.80 of EPS. The estimate revisions in the dataset are 8.8% over 30 days and 8.4% over 90 days. That implies growth of 5.2% over the trailing twelve months."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Technology substitution",
+        "title": "Competition for users",
         "severity": "High",
-        "detail": "A faster or cheaper architecture can reset the competitive position quickly.",
-        "watch": "Product roadmaps, design wins and customer concentration."
+        "detail": "Switching costs are low and new formats can take attention quickly.",
+        "watch": "Monthly users, engagement and churn."
       },
       {
-        "title": "Customer concentration",
+        "title": "Take-rate pressure",
         "severity": "High",
-        "detail": "A small number of large buyers can swing revenue and pricing.",
-        "watch": "Top-customer disclosures and order trends."
+        "detail": "Merchants and users can push back on fees.",
+        "watch": "Take rate and merchant retention."
+      },
+      {
+        "title": "Regulation",
+        "severity": "Medium",
+        "detail": "Platform, privacy and gig-labour rules can change the model.",
+        "watch": "Regulatory actions and market-by-market rules."
+      },
+      {
+        "title": "Profitability",
+        "severity": "Medium",
+        "detail": "Growth can be bought with incentives that disappear when spending slows.",
+        "watch": "Contribution margin and sales efficiency."
       },
       {
         "title": "Valuation",
         "severity": "Medium",
-        "detail": "High expectations leave less room for a growth disappointment.",
-        "watch": "Forward estimates versus the current multiple."
-      },
-      {
-        "title": "Supply chain",
-        "severity": "Medium",
-        "detail": "Advanced components and manufacturing capacity can constrain shipments.",
-        "watch": "Lead times, inventory and supplier concentration."
-      },
-      {
-        "title": "Regulation and export controls",
-        "severity": "Medium",
-        "detail": "Cross-border rules can remove addressable market or raise compliance costs.",
-        "watch": "Export-licence changes and geographic mix."
+        "detail": "High multiples assume durable user growth and take rate.",
+        "watch": "Forward revenue and margin guidance."
       }
     ],
     "watchlist": [
       {
-        "title": "Growth durability",
-        "detail": "Compare revenue growth with the prior four quarters."
+        "title": "GMV and take rate",
+        "detail": "Separate transaction growth from the share retained."
       },
       {
-        "title": "Gross margin",
-        "detail": "A falling gross margin can signal pricing pressure or a richer hardware mix."
+        "title": "User growth",
+        "detail": "Net adds and engagement show whether the audience is durable."
       },
       {
-        "title": "Customer concentration",
-        "detail": "Track large-customer disclosures and order momentum."
+        "title": "Contribution margin",
+        "detail": "Unit economics reveal whether growth creates value."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "DoorDash, Inc. is an Internet Platforms company with $17.1B of trailing revenue, an operating margin of 5.3% and a free-cash-flow margin of 15.8%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BABA, BIDU and CART, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 52/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "DoorDash, Inc. produced $17.1B of trailing revenue at a 5.3% operating margin and a 15.8% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
+      "Third-party analysts put the mean target at $250.39 as of 2026-11-25, 48.9% above the latest close; it is a consensus view, not a recommendation from Stockmonk. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
+      "The factor percentiles put balance sheet at 90/100 and valuation at 15/100, with the composite averaging 52/100. The average hides a strong balance sheet reading and a weak valuation one, which is why the spread is the more useful description."
     ],
     "questions": [
-      "How much of growth is volume versus price?",
-      "What would a pause in customer spending do to margins?",
-      "Is the product advantage durable or one cycle long?",
-      "How much of the valuation depends on the next product cycle?"
+      "How much growth is users versus take rate?",
+      "What does a slowdown in incentives do to volume?",
+      "How defensible is the audience?",
+      "When does the platform reach durable profit?"
     ]
   }
 };

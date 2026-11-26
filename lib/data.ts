@@ -220,6 +220,7 @@ export type ResearchBundle = {
   cagr: number | null;
   latestQYoY: number | null;
   rangePosition: number | null;
+  peerCandidates?: string[];
 };
 
 function buildResearchBundle(data: TickerData): ResearchBundle {

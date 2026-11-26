@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const FDS: StockStory = {
   "ticker": "FDS",
   "kicker": "Payments & Financial Software · Financial Data & Stock Exchanges",
-  "title": "FactSet Research Systems Inc.: +6.7% growth, 28.6% free cash flow and the price being paid",
-  "dek": "FactSet Research Systems Inc. generated $2.5B of trailing revenue with an operating margin of 28.3%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "FactSet Research Systems Inc: Financial data and analytics",
+  "dek": "FactSet Research Systems Inc. reported $2.5B of trailing revenue at a 28.3% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $2.5B trailing twelve months, +6.7% year over year.",
@@ -13,22 +13,22 @@ export const FDS: StockStory = {
     "Valuation: 21.4x trailing earnings and 14.2x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1013237/000162828026066391/fds-20260831.htm",
   "irUrl": "https://www.factset.com",
   "bigPicture": {
     "paragraphs": [
       "FactSet Research Systems Inc. generated $2.5B of revenue over the last twelve months, +6.7% versus the prior year. The latest reported quarter was Q4 FY26, with $634.7M of revenue and a 24.7% operating margin. The shares closed at $323.25 on Nov 25, 2026, giving a market capitalization of $11.4B.",
-      "The economics depend on credit losses, funding costs, take rates and the ability to grow without buying customers. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $11.4B, or 21.4x trailing earnings and 14.2x EV/EBITDA. The shares sit 85% of the way up their 52-week range ($185.00 to $348.00). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Americas accounts for 65.3% of disclosed revenue. Revenue is disclosed across 3 geographies, with United States the largest at 61.2%. FactSet Research Systems Inc. competes in Financial Data & Stock Exchanges, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $11.4B, or 21.4x trailing earnings and 14.2x EV/EBITDA. The shares sit 85% of the way up their 52-week range ($185.00 to $348.00). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
     ],
-    "quote": "FDS is a Payments & Financial Software business with $2.5B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "FactSet sells financial data and analytics, so subscriptions, retention and AI products drive growth."
   },
   "whatItDoes": {
     "paragraphs": [
-      "FactSet Research Systems Inc. , together with its subsidiaries, operates as a global data and artificial intelligence solutions provider for the financial markets in the Americas, Europe, the Middle East, Africa, and Asia Pacific.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 12,444 people, and its coverage group is Payments & Financial Software.",
-      "The comparison set includes ADP, BR and FISV. FactSet Research Systems Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "FactSet Research Systems Inc., together with its subsidiaries, operates as a global data and artificial intelligence solutions provider for the financial markets in the Americas, Europe, the Middle East, Africa, and Asia Pacific.",
+      "The disclosed mix runs across Americas at 65.3%, EMEA at 24.4% and Asia Pacific at 10.2%. Headcount was 12,444 in the latest filing. Trailing revenue is $2.5B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
+      "Against SPGI, ICE and CME, the relevant tests are pricing power, capital intensity and cash conversion."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const FDS: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 50.6%, operating margin is 28.3% and net margin is 21.5%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. Net debt is $1.1B, or 1.3x EBITDA. Return on invested capital was 17.0% and return on equity was 26.6%."
+      "Of $2.5B of revenue, $1.3B remained after cost of sales. The 22.3% operating-expense load brought that down to a 28.3% operating margin. That cost load is the lever between gross profit and operating profit.",
+      "Net debt is $1.1B, or 1.3x EBITDA. Return on invested capital was 17.0% and return on equity was 26.6%. The return leaves room above the cost of capital for growth to compound."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.1% a year across the fiscal years in the dataset, and the latest quarter changed +6.3% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 28.3% and return on invested capital of 17.0% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 8.1% a year across the fiscal years in the dataset, and the latest quarter changed +6.3% year over year. Current-year estimates call for $2.6B of revenue and $19.62 of EPS.",
+      "The operating margin of 28.3% and return on invested capital of 17.0% are the filters to watch as revenue scales. The 28.3% operating margin gives the company room to absorb slower growth without a profit reset."
     ],
     "bullets": [
       {
-        "title": "Volume growth",
-        "detail": "Transactions and loans scale revenue. For FactSet Research Systems Inc., the relevant evidence is revenue growth of +6.7%. That is the metric to track in the next filing."
+        "title": "Volumes and activity",
+        "detail": "Revenue growth is +6.7%. Trading, issuance or transaction volumes drive the fee pool."
       },
       {
-        "title": "Take rate",
-        "detail": "Pricing per transaction determines revenue per unit. For FactSet Research Systems Inc., the relevant evidence is an operating margin of 28.3%. That is the metric to track in the next filing."
+        "title": "Take rate and pricing",
+        "detail": "The fee per transaction or subscription determines revenue per unit of activity. The current reading: the operating margin is 28.3%."
       },
       {
-        "title": "Funding and credit",
-        "detail": "Cheaper funding and stable credit improve margins. For FactSet Research Systems Inc., the relevant evidence is a return on invested capital of 17.0%. That is the metric to track in the next filing."
+        "title": "Recurring data and client assets",
+        "detail": "Return on invested capital is 17.0%. That is the number to compare with the company's own history."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 30.5% in FY2019 to 28.3% in FY2026. The trailing operating margin is 28.3%, the net margin is 21.5% and diluted EPS is $14.56.",
-      "Return on equity was 26.6% and return on invested capital was 17.0%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 26.6% and return on invested capital was 17.0%. The 9.6% spread between the two returns suggests some of the equity return comes from the balance sheet rather than operations alone."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $707.5M, a 28.6% margin. Net debt is $1.1B, or 1.3x EBITDA. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $114.7M in the latest fiscal year."
+      "Free cash flow over the trailing period was $707.5M, a 28.6% margin. Net debt is $1.1B, or 1.3x EBITDA. Capital expenditure was 4.6% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
+      "Operating cash flow was $822.2M, or 154.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $114.7M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 21.4x trailing earnings, 14.2x EV/EBITDA and 5.0x EV/sales. The free-cash-flow yield is 6.2%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against ADP, BR and FISV; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 21.4x trailing earnings, 14.2x EV/EBITDA and 5.0x EV/sales. The free-cash-flow yield is 6.2%. The 4.7% earnings yield and 6.2% free-cash-flow yield are the two return measures embedded in the price.",
+      "The peer comparison sets the company against SPGI, ICE and CME; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "16 analysts contribute to the third-party consensus. The mean target is $306.19, with a range of $212.00 to $382.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $2.6B of revenue and $19.62 of EPS. The estimate revisions in the dataset are 0.0% over 30 days and -0.4% over 90 days. Set against trailing revenue, the estimate implies growth of 5.8%."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
-        "title": "Credit losses",
+        "title": "Market activity",
         "severity": "High",
-        "detail": "A weaker consumer can raise charge-offs.",
-        "watch": "Delinquencies and provision trends."
+        "detail": "A quiet market reduces volumes and the fees earned on them.",
+        "watch": "Volumes, issuance and client activity."
       },
       {
-        "title": "Funding costs",
+        "title": "Fee compression",
         "severity": "High",
-        "detail": "Higher rates can compress spreads.",
-        "watch": "Cost of funds and deposit mix."
+        "detail": "Competition and technology can reduce the fee per transaction.",
+        "watch": "Take rate and revenue per unit."
       },
       {
         "title": "Regulation",
         "severity": "Medium",
-        "detail": "Banking, lending and crypto rules can change the model.",
-        "watch": "Licensing and regulatory actions."
+        "detail": "Market-structure, conduct and crypto rules can change the model.",
+        "watch": "Regulatory actions and licensing."
       },
       {
         "title": "Competition",
         "severity": "Medium",
-        "detail": "Banks and other platforms can match features.",
-        "watch": "Take rate and customer acquisition cost."
+        "detail": "New venues and data providers can take share or undercut pricing.",
+        "watch": "Market share and product adoption."
       },
       {
         "title": "Valuation",
         "severity": "Medium",
-        "detail": "Growth multiples can compress if credit normalises.",
-        "watch": "Forward revenue and credit guidance."
+        "detail": "Activity-linked revenue is cyclical, so multiples move with volumes.",
+        "watch": "Forward activity and recurring-revenue mix."
       }
     ],
     "watchlist": [
       {
-        "title": "Credit quality",
-        "detail": "Delinquencies lead charge-offs."
+        "title": "Volumes",
+        "detail": "Activity is the first driver of transaction revenue."
       },
       {
         "title": "Take rate",
-        "detail": "Revenue per transaction is the unit economics."
+        "detail": "Revenue per unit shows whether pricing is holding."
       },
       {
-        "title": "Funding",
-        "detail": "The cost and stability of funding drive margins."
+        "title": "Recurring mix",
+        "detail": "Subscriptions and data revenue reduce dependence on volumes."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "FactSet Research Systems Inc. is a Payments & Financial Software company with $2.5B of trailing revenue, an operating margin of 28.3% and a free-cash-flow margin of 28.6%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with ADP, BR and FISV, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 58/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "FactSet Research Systems Inc. produced $2.5B of trailing revenue at a 28.3% operating margin and a 28.6% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
+      "16 analysts in the third-party survey average $306.19 as of 2026-11-25, 5.3% below the latest close; that is the analysts' view, attributed and dated, not a Stockmonk target. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
+      "The factor percentiles put cash generation at 83/100 and growth at 29/100, with the composite averaging 58/100. A 83/100 cash generation score against a 29/100 growth score is a different business from the reverse, so the spread carries more information than the average."
     ],
     "questions": [
-      "What happens to losses in a recession?",
-      "How much growth is purchased with marketing?",
-      "Is funding diversified?",
-      "What regulatory change would hurt most?"
+      "How much of revenue is recurring versus activity-linked?",
+      "What happens to fees if volumes fall?",
+      "Is pricing holding as competition increases?",
+      "How much of the multiple depends on market activity?"
     ]
   }
 };

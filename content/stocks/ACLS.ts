@@ -4,7 +4,7 @@ export const ACLS: StockStory = {
   "ticker": "ACLS",
   "kicker": "Semiconductors & Hardware · Semiconductor Equipment & Materials",
   "title": "Axcelis Technologies, Inc.: +4.3% growth, 6.7% free cash flow and the price being paid",
-  "dek": "Axcelis Technologies, Inc. generated $890.2M of trailing revenue with an operating margin of 10.3%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "dek": "Axcelis Technologies, Inc. reported $890.2M of trailing revenue at a 10.3% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $890.2M trailing twelve months, +4.3% year over year.",
@@ -13,22 +13,22 @@ export const ACLS: StockStory = {
     "Valuation: 28.1x trailing earnings and 21.2x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1113232/000110465926020461/acls-20251231x10k.htm",
   "irUrl": "https://www.axcelis.com",
   "bigPicture": {
     "paragraphs": [
-      "Axcelis Technologies, Inc. generated $890.2M of revenue over the last twelve months, +4.3% versus the prior year. The latest reported quarter was Q3 FY26, with $237.8M of revenue and a 11.5% operating margin. The shares closed at $95.04 on Nov 25, 2026, giving a market capitalization of $2.9B.",
-      "The cycle is driven by inventory, utilisation and the next node or packaging transition. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $2.9B, or 28.1x trailing earnings and 21.2x EV/EBITDA. The shares sit 17% of the way up their 52-week range ($75.31 to $193.78). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Axcelis Technologies, Inc. generated $890.2M of revenue over the last twelve months, +4.3% versus the prior year. The latest reported quarter was Q3 FY26, with $237.8M of revenue and an 11.5% operating margin. The shares closed at $95.04 on Nov 25, 2026, giving a market capitalization of $2.9B.",
+      "Single Reportable contributes 100.0% of the disclosed revenue mix. By geography, Asia Pacific is the largest disclosed market at 72.7% of revenue. The moat is process know-how in ion implantation and a installed base that generates service revenue through the cycle.",
+      "At the latest close the equity is valued at $2.9B, or 28.1x trailing earnings and 21.2x EV/EBITDA. The shares sit 17% of the way up their 52-week range ($75.31 to $193.78). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "ACLS is a Semiconductors & Hardware business with $890.2M of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Axcelis is a focused ion-implant supplier whose fortunes follow memory and power-semiconductor capital spending. The shares are priced as a cyclical equipment maker; the debate is where the next capex upcycle starts."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Axcelis Technologies, Inc. designs, manufactures, and services ion implantation and other processing equipment used in the fabrication of semiconductor chips in the United States, Europe, and the Asia Pacific. Axcelis Technologies, Inc. is a Semiconductors & Hardware company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 1,465 people, and its coverage group is Semiconductors & Hardware.",
-      "The comparison set includes ALGM, ARM and ASML. Axcelis Technologies, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Axcelis Technologies, Inc. designs, manufactures, and services ion implantation and other processing equipment used in the fabrication of semiconductor chips in the United States, Europe, and the Asia Pacific. It reports in the Technology sector and is classified in Semiconductors & Hardware coverage.",
+      "Revenue is reported at the consolidated level only. Its latest filing lists 1,465 employees. The revenue base is $890.2M on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "AMAT, LRCX and KLAC provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,61 +47,61 @@ export const ACLS: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 42.8%, operating margin is 10.3% and net margin is 11.7%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $615.3M of net cash. Return on invested capital was 7.7% and return on equity was 9.4%."
+      "Gross margin is 42.8%, operating margin is 10.3% and net margin is 11.7%. Gross profit was $381.1M, and 32.5% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
+      "The balance sheet carries $615.3M of net cash. Return on invested capital was 7.7% and return on equity was 9.4%. The return suggests the current capital base is earning a modest amount."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 9.6% a year across the fiscal years in the dataset, and the latest quarter changed +11.3% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 10.3% and return on invested capital of 7.7% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 9.6% a year across the fiscal years in the dataset, and the latest quarter changed +11.3% year over year. Current-year estimates call for $927M of revenue and $4.54 of EPS.",
+      "The next catalyst is orders for silicon-carbide and power devices, which are less tied to the memory cycle. The operating margin of 10.3% and return on invested capital of 7.7% are the filters to watch as revenue scales. Growth of 4.3% against a 10.3% operating margin is the balance the next few quarters have to protect."
     ],
     "bullets": [
       {
         "title": "Inventory cycle",
-        "detail": "Inventory restocking and digestion drive near-term orders. For Axcelis Technologies, Inc., the relevant evidence is revenue growth of +4.3%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +4.3%. Compare that with the prior year before drawing a conclusion."
       },
       {
         "title": "Node and packaging transitions",
-        "detail": "New technology raises content per system. For Axcelis Technologies, Inc., the relevant evidence is an operating margin of 10.3%. That is the metric to track in the next filing."
+        "detail": "New technology raises content per system. The operating margin is 10.3%."
       },
       {
         "title": "Customer design wins",
-        "detail": "Design wins lock in revenue for multiple product generations. For Axcelis Technologies, Inc., the relevant evidence is a return on invested capital of 7.7%. That is the metric to track in the next filing."
+        "detail": "Return on invested capital is 7.7%. Design wins lock in revenue for multiple product generations."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 13.5% in FY2018 to 14.2% in FY2025. The trailing operating margin is 10.3%, the net margin is 11.7% and diluted EPS is $3.36.",
-      "Return on equity was 9.4% and return on invested capital was 7.7%. The gap between the two usually reflects leverage or goodwill sitting in the invested-capital base. Both should be compared with the company's own history before they are compared with a peer median."
+      "Return on equity was 9.4% and return on invested capital was 7.7%. The two returns are within a few points, at 9.4% on equity and 7.7% on invested capital, so operating performance explains most of the difference."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $59.9M, a 6.7% margin. The balance sheet carries $615.3M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $11.3M in the latest fiscal year."
+      "Free cash flow over the trailing period was $59.9M, a 6.7% margin. The balance sheet carries $615.3M of net cash. With capital spending at 1.3% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow was $118.3M, or 98.4% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $11.3M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 28.1x trailing earnings, 21.2x EV/EBITDA and 2.6x EV/sales. The free-cash-flow yield is 2.0%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against ALGM, ARM and ASML; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 28.1x trailing earnings, 21.2x EV/EBITDA and 2.6x EV/sales. The free-cash-flow yield is 2.0%. The trailing earnings yield is 3.6%, against a free-cash-flow yield of 2.0%.",
+      "The shares are priced as a cyclical equipment maker; the debate is where the next capex upcycle starts. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "3 analysts contribute to the third-party consensus. The mean target is $132.00, with a range of $116.00 to $140.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $927M of revenue and $4.54 of EPS. The estimate revisions in the dataset are 10.7% over 30 days and 10.7% over 90 days. The estimate is consistent with growth of 4.1% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
     "items": [
       {
-        "title": "Semiconductor cycle",
+        "title": "The main risk",
         "severity": "High",
-        "detail": "Inventory corrections can cut revenue quickly.",
+        "detail": "Memory capex is cyclical and China exposure adds geopolitical and customer-concentration risk.",
         "watch": "Inventory days and utilisation."
       },
       {
@@ -146,9 +146,9 @@ export const ACLS: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Axcelis Technologies, Inc. is a Semiconductors & Hardware company with $890.2M of trailing revenue, an operating margin of 10.3% and a free-cash-flow margin of 6.7%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with ALGM, ARM and ASML, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 44/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Axcelis Technologies, Inc. produced $890.2M of trailing revenue at a 10.3% operating margin and a 6.7% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
+      "Analysts contributing to the third-party consensus carry a $132.00 mean target as of 2026-11-25, 38.9% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target.",
+      "The factor percentiles put balance sheet at 94/100 and growth at 20/100, with the composite averaging 44/100. The average hides a strong balance sheet reading and a weak growth one, which is why the spread is the more useful description."
     ],
     "questions": [
       "Where are we in the inventory cycle?",

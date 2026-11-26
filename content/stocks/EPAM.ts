@@ -4,31 +4,31 @@ export const EPAM: StockStory = {
   "ticker": "EPAM",
   "kicker": "Enterprise Software · Information Technology Services",
   "title": "EPAM Systems, Inc.: +6.6% growth, 8.3% free cash flow and the price being paid",
-  "dek": "EPAM Systems, Inc. generated $5.6B of trailing revenue with an operating margin of 10.5%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "dek": "EPAM Systems, Inc. reported $5.6B of trailing revenue at a 10.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $5.6B trailing twelve months, +6.6% year over year.",
     "Profitability: 10.5% operating margin and 7.5% net margin.",
-    "Cash: $470.4M free cash flow, a 8.3% margin, against $940.2M of net cash.",
+    "Cash: $470.4M free cash flow, an 8.3% margin, against $940.2M of net cash.",
     "Valuation: 20.0x trailing earnings and 10.5x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000015/epam-20251231.htm",
   "irUrl": "https://www.epam.com",
   "bigPicture": {
     "paragraphs": [
       "EPAM Systems, Inc. generated $5.6B of revenue over the last twelve months, +6.6% versus the prior year. The latest reported quarter was Q3 FY26, with $1.4B of revenue and a 12.3% operating margin. The shares closed at $166.48 on Nov 25, 2026, giving a market capitalization of $8.5B.",
-      "The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $8.5B, or 20.0x trailing earnings and 10.5x EV/EBITDA. The shares sit 63% of the way up their 52-week range ($73.06 to $222.53). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Americas contributes 58.0% of the disclosed revenue mix. By geography, North America is the largest disclosed market at 58.0% of revenue. EPAM Systems, Inc. competes in Information Technology Services, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
+      "At the latest close the equity is valued at $8.5B, or 20.0x trailing earnings and 10.5x EV/EBITDA. The shares sit 63% of the way up their 52-week range ($73.06 to $222.53). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
     ],
-    "quote": "EPAM is an Enterprise Software business with $5.6B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "EPAM provides digital-engineering services, so client spending, headcount and utilisation drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "EPAM Systems, Inc. provides digital platform engineering and software development services worldwide. EPAM Systems, Inc. is an Enterprise Software company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 62,850 people, and its coverage group is Enterprise Software.",
-      "The comparison set includes BILL, BOX and CHKP. EPAM Systems, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "EPAM Systems, Inc. provides digital platform engineering and software development services worldwide. It reports in the Technology sector and is classified in Enterprise Software coverage.",
+      "The disclosed mix runs across Americas at 58.0% and Europe at 42.0%. Its latest filing lists 62,850 employees. The revenue base is $5.6B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "IBM, APLD and GDYN provide the closest reference points for margin, growth and valuation."
     ],
     "bullets": [
       {
@@ -47,56 +47,56 @@ export const EPAM: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 29.9%, operating margin is 10.5% and net margin is 7.5%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $940.2M of net cash. Return on invested capital was 12.0% and return on equity was 11.8%."
+      "Gross margin is 29.9%, operating margin is 10.5% and net margin is 7.5%. Gross profit was $1.7B, and 19.3% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
+      "The balance sheet carries $940.2M of net cash. Return on invested capital was 12.0% and return on equity was 11.8%. That is neither clearly good nor clearly bad without knowing the cost of capital."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 16.8% a year across the fiscal years in the dataset, and the latest quarter changed +2.3% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 10.5% and return on invested capital of 12.0% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 16.8% a year across the fiscal years in the dataset, and the latest quarter changed +2.3% year over year. Current-year estimates call for $5.7B of revenue and $13.28 of EPS.",
+      "The operating margin of 10.5% and return on invested capital of 12.0% are the filters to watch as revenue scales. Growth of 6.6% against a 10.5% operating margin is the balance the next few quarters have to protect."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. For EPAM Systems, Inc., the relevant evidence is revenue growth of +6.6%. That is the metric to track in the next filing."
+        "detail": "Revenue growth is +6.6%. Compare that with the prior year before drawing a conclusion."
       },
       {
         "title": "New customer adds",
-        "detail": "New logos broaden the base and fund future expansion. For EPAM Systems, Inc., the relevant evidence is an operating margin of 10.5%. That is the metric to track in the next filing."
+        "detail": "New logos broaden the base and fund future expansion. The operating margin is 10.5%."
       },
       {
         "title": "Operating leverage",
-        "detail": "Scale should improve margins as sales and R&D mature. For EPAM Systems, Inc., the relevant evidence is a return on invested capital of 12.0%. That is the metric to track in the next filing."
+        "detail": "Return on invested capital is 12.0%. Scale should improve margins as sales and R&D mature."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 13.3% in FY2018 to 9.5% in FY2025. The trailing operating margin is 10.5%, the net margin is 7.5% and diluted EPS is $7.99.",
-      "Return on equity was 11.8% and return on invested capital was 12.0%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was 11.8% and return on invested capital was 12.0%. The two returns are within a few points, at 11.8% on equity and 12.0% on invested capital, so operating performance explains most of the difference."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $470.4M, a 8.3% margin. The balance sheet carries $940.2M of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $42.2M in the latest fiscal year."
+      "Free cash flow over the trailing period was $470.4M, an 8.3% margin. The balance sheet carries $940.2M of net cash. With capital spending at 0.7% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
+      "Operating cash flow was $654.9M, or 173.4% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $42.2M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 20.0x trailing earnings, 10.5x EV/EBITDA and 1.3x EV/sales. The free-cash-flow yield is 5.5%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against BILL, BOX and CHKP; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 20.0x trailing earnings, 10.5x EV/EBITDA and 1.3x EV/sales. The free-cash-flow yield is 5.5%. The trailing earnings yield is 5.0%, against a free-cash-flow yield of 5.5%.",
+      "The peer comparison sets the company against IBM, APLD and GDYN; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "17 analysts contribute to the third-party consensus. The mean target is $172.88, with a range of $138.00 to $215.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $5.7B of revenue and $13.28 of EPS. The estimate revisions in the dataset are 1.0% over 30 days and 1.0% over 90 days. The estimate is consistent with growth of 0.1% on the trailing revenue figure."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
     "items": [
       {
         "title": "Competition",
@@ -146,9 +146,9 @@ export const EPAM: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "EPAM Systems, Inc. is an Enterprise Software company with $5.6B of trailing revenue, an operating margin of 10.5% and a free-cash-flow margin of 8.3%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with BILL, BOX and CHKP, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 55/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "EPAM Systems, Inc. produced $5.6B of trailing revenue at a 10.5% operating margin and an 8.3% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
+      "Analysts contributing to the third-party consensus carry a $172.88 mean target as of 2026-11-25, 3.8% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target.",
+      "The factor percentiles put balance sheet at 81/100 and cash generation at 32/100, with the composite averaging 55/100. The average hides a strong balance sheet reading and a weak cash generation one, which is why the spread is the more useful description."
     ],
     "questions": [
       "How much growth comes from existing customers?",

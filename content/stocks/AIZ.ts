@@ -3,8 +3,8 @@ import type { StockStory } from "./types";
 export const AIZ: StockStory = {
   "ticker": "AIZ",
   "kicker": "Banks & Insurance · Insurance - Property & Casualty",
-  "title": "How Assurant, Inc. makes money and where the cash goes",
-  "dek": "Assurant, Inc. generated $13.8B of trailing revenue with an operating margin of 9.8%. The report walks through the business, the cash flow, the valuation context and the risks that matter most.",
+  "title": "Assurant, Inc: Protection products attached to devices",
+  "dek": "Assurant, Inc. reported $13.8B of trailing revenue at a 9.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
   "readingMinutes": 10,
   "takeaways": [
     "Revenue: $13.8B trailing twelve months, +9.4% year over year.",
@@ -13,22 +13,22 @@ export const AIZ: StockStory = {
     "Valuation: 14.9x trailing earnings and 8.6x EV/EBITDA at the latest close."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-25",
+  "narrativeUpdatedAt": "2026-11-26",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000010/aiz-20251231.htm",
   "irUrl": "https://www.assurant.com",
   "bigPicture": {
     "paragraphs": [
       "Assurant, Inc. generated $13.8B of revenue over the last twelve months, +9.4% versus the prior year. The latest reported quarter was Q3 FY26, with $3.5B of revenue and a 9.9% operating margin. The shares closed at $326.86 on Nov 25, 2026, giving a market capitalization of $16B.",
-      "The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset.",
-      "At the latest close the equity is valued at $16B, or 14.9x trailing earnings and 8.6x EV/EBITDA. The shares sit 100% of the way up their 52-week range ($209.86 to $327.16). That price is the market's estimate of how long the current growth and margin can last, and the rest of this report tests the evidence rather than restates the estimate."
+      "Global Lifestyle is 77.6% of the disclosed revenue mix. United States supplies 82.3% of disclosed revenue, the largest single geography in the filing. The moat is deep integration with carriers, retailers and lenders who bundle protection at the point of sale.",
+      "At the latest close the equity is valued at $16B, or 14.9x trailing earnings and 8.6x EV/EBITDA. The shares sit 100% of the way up their 52-week range ($209.86 to $327.16). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
     ],
-    "quote": "AIZ is a Banks & Insurance business with $13.8B of trailing revenue. The useful question is what the current margin, growth and capital intensity imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Assurant sells protection products attached to devices, homes and autos, a fee-like insurance model that depends on partner relationships and claims costs. The multiple reflects a specialized insurer with recurring, fee-like revenue; claims trends are the swing factor."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Assurant, Inc. provides protection services to connected devices, homes, and automobiles in North America, Latin America, Europe, and the Asia Pacific. Assurant, Inc. is a Banks & Insurance company. The report uses its SEC statements and the latest market-data snapshot to explain how the business earns revenue and where the cash goes.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. A detailed geographic revenue split is not disclosed in the current dataset. The company employs 14,800 people, and its coverage group is Banks & Insurance.",
-      "The comparison set includes ACGL, AFL and AJG. Assurant, Inc. is judged on whether its products or services are specified into customer workflows, whether that position supports pricing, and whether the resulting cash flow covers the capital required to maintain it."
+      "Assurant, Inc. provides protection services to connected devices, homes, and automobiles in North America, Latin America, Europe, and the Asia Pacific. Assurant, Inc. sits in the Insurance - Property & Casualty industry, one of the Banks & Insurance names in this library.",
+      "The disclosed mix runs across Global Lifestyle at 77.6% and Global Housing at 22.7%. The last disclosure put headcount at 14,800 people. The revenue base is $13.8B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
+      "The closest listed comparisons are CB, PGR and KNSL; the useful question is how Assurant, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
     ],
     "bullets": [
       {
@@ -47,114 +47,114 @@ export const AIZ: StockStory = {
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is n/a, operating margin is 9.8% and net margin is 7.8%. The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis.",
-      "A detailed geographic revenue split is not disclosed in the current dataset. The balance sheet carries $2.1B of net cash. Return on invested capital was 17.9% and return on equity was 17.9%."
+      "A gross margin is not available in the dataset for this business, so the operating margin of 9.8% is the first clean profitability line. Underwriting discipline, reserve adequacy and investment income decide the return, not premium volume on its own.",
+      "For an insurer, the investment portfolio and reserve liabilities matter more than a conventional net-debt measure. Return on equity was 17.9%; underwriting results and investment income drive that return."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 6.9% a year across the fiscal years in the dataset, and the latest quarter changed +9.2% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 9.8% and return on invested capital of 17.9% are the filters to watch as revenue scales. If incremental revenue arrives at a lower margin than the base, the consolidated margin will drift down even while the top line grows."
+      "Revenue compounded at 6.9% a year across the fiscal years in the dataset, and the latest quarter changed +9.2% year over year. Current-year estimates call for $14B of revenue and $24.35 of EPS.",
+      "The next catalyst is mobile-device protection growth and global housing margins. The operating margin of 9.8% and return on invested capital of 17.9% are the filters to watch as revenue scales. Growth of 9.4% against a 9.8% operating margin is the balance the next few quarters have to protect."
     ],
     "bullets": [
       {
-        "title": "Net interest income",
-        "detail": "Loan and securities yields less funding costs are the core revenue line. For Assurant, Inc., the relevant evidence is revenue growth of +9.4%. That is the metric to track in the next filing."
+        "title": "Rate and exposure",
+        "detail": "Pricing and insured exposure determine whether the premium base grows profitably. Revenue growth is +9.4%."
       },
       {
-        "title": "Fee income",
-        "detail": "Advisory, asset management and trading diversify the revenue base. For Assurant, Inc., the relevant evidence is an operating margin of 9.8%. That is the metric to track in the next filing."
+        "title": "Underwriting margin",
+        "detail": "The operating margin is 9.8%. The combined ratio decides how much of each premium dollar survives claims and expenses."
       },
       {
-        "title": "Capital returns",
-        "detail": "Buybacks and dividends can grow per-share value when capital is abundant. For Assurant, Inc., the relevant evidence is a return on invested capital of 17.9%. That is the metric to track in the next filing."
+        "title": "Investment income",
+        "detail": "The float earns a yield that becomes more valuable when short rates are high. The current reading: return on invested capital is 17.9%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
       "Over the fiscal years in the dataset, the operating margin moved from 4.1% in FY2018 to 8.5% in FY2025. The trailing operating margin is 9.8%, the net margin is 7.8% and diluted EPS is $21.23.",
-      "Return on equity was 17.9% and return on invested capital was 17.9%. The two measures are close, which suggests the returns are coming from the operating business rather than from financial leverage."
+      "Return on equity was 17.9%. Reserve development and the float explain more about an insurer's return than a conventional capital-return measure. Reserve development and the combined ratio are the trends to follow from here."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.8B, a 13.3% margin. The balance sheet carries $2.1B of net cash. The cash figure is after capital expenditure, so it is the amount available for debt reduction, acquisitions, buybacks or dividends.",
-      "Cash conversion is the bridge from reported earnings to distributable cash. The company generated positive free cash flow on a trailing basis, and capital expenditure was $235.5M in the latest fiscal year."
+      "Free cash flow over the trailing period was $1.8B, a 13.3% margin. For an insurer, the investment portfolio and reserve liabilities matter more than a conventional net-debt measure. For an insurer, cash flow includes investment income and reserve movements, so the margin is not directly comparable to an industrial.",
+      "Operating cash flow was $1.8B, or 210.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $235.5M in the latest fiscal year."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 14.9x trailing earnings, 8.6x EV/EBITDA and 1.0x EV/sales. The free-cash-flow yield is 11.4%. Those multiples are a function of the growth, margin and capital intensity described above; on their own they do not say whether the price is high or low.",
-      "A third-party consensus target is not available in the dataset. The peer comparison sets the company against ACGL, AFL and AJG; the multiple is a starting point for questions, not a verdict."
+      "At the latest reference price the shares trade at 14.9x trailing earnings, 8.6x EV/EBITDA and 1.0x EV/sales. The free-cash-flow yield is 11.4%. For an insurer, price-to-book and return on equity are more relevant than EV/EBITDA.",
+      "The multiple reflects a specialized insurer with recurring, fee-like revenue; claims trends are the swing factor. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A third-party analyst consensus snapshot is not available for this company in the current dataset. The valuation discussion therefore relies on reported multiples and company filings. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "When consensus is unavailable, the report does not invent a target or a rating. The reported financials remain the primary evidence. Estimates are useful for framing expectations, but they are not a substitute for the reported cash flow and balance sheet."
+      "6 analysts contribute to the third-party consensus. The mean target is $355.17, with a range of $338.00 to $377.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
+      "Current-year estimates call for $14B of revenue and $24.35 of EPS. The estimate revisions in the dataset are 8.3% over 30 days and 10.5% over 90 days. That implies growth of 2.1% over the trailing twelve months."
     ]
   },
   "risks": {
-    "intro": "The risks below are the ones that matter most for this business given its financial profile. They are qualitative descriptors, not a rating.",
+    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
     "items": [
       {
-        "title": "Credit cycle",
+        "title": "The main risk",
         "severity": "High",
-        "detail": "Loan losses rise in a downturn and can overwhelm revenue growth.",
-        "watch": "Provisions, charge-offs and non-performing loans."
+        "detail": "Higher claims severity, device inflation and partner concentration can compress the combined ratio.",
+        "watch": "Combined ratio, catastrophe load and prior-year development."
       },
       {
-        "title": "Interest rates",
+        "title": "Soft pricing cycle",
         "severity": "High",
-        "detail": "Rate changes affect net interest income and deposit repricing.",
-        "watch": "Net interest income guidance and deposit betas."
+        "detail": "Capital entering the market can turn a hard market into a soft one quickly.",
+        "watch": "Rate change, retention and new-business competition."
+      },
+      {
+        "title": "Reserve adequacy",
+        "severity": "Medium",
+        "detail": "Reserves set today can prove insufficient several years later.",
+        "watch": "Prior-year development and loss picks."
       },
       {
         "title": "Regulation",
         "severity": "Medium",
-        "detail": "Capital and liquidity rules influence returns and buybacks.",
-        "watch": "Stress tests and CET1 requirements."
+        "detail": "Solvency, pricing and coverage rules can change the economics of a line.",
+        "watch": "Regulatory actions and line-of-business mix."
       },
       {
-        "title": "Capital markets cyclicality",
+        "title": "Valuation",
         "severity": "Medium",
-        "detail": "Advisory and trading revenue can fall quickly.",
-        "watch": "Investment banking fees and trading revenue."
-      },
-      {
-        "title": "Competition",
-        "severity": "Medium",
-        "detail": "Deposit and loan pricing competition can compress spreads.",
-        "watch": "Loan and deposit growth relative to peers."
+        "detail": "Insurers are priced on book value and normalized returns, which move with the cycle.",
+        "watch": "Price/book, ROE and reserve development."
       }
     ],
     "watchlist": [
       {
-        "title": "Net interest income",
-        "detail": "The largest revenue line and the most rate-sensitive."
+        "title": "Combined ratio",
+        "detail": "The cleanest measure of underwriting profitability after claims and expenses."
       },
       {
-        "title": "Credit costs",
-        "detail": "Provisioning is the main swing factor in a downturn."
+        "title": "Reserve development",
+        "detail": "Releases or charges reveal whether reserves were set conservatively."
       },
       {
-        "title": "Capital returns",
-        "detail": "Buybacks depend on capital ratios and stress-test results."
+        "title": "Rate",
+        "detail": "Pricing versus loss trends determines whether growth adds or destroys value."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Assurant, Inc. is a Banks & Insurance company with $13.8B of trailing revenue, an operating margin of 9.8% and a free-cash-flow margin of 13.3%. Those are the facts; the interpretation depends on whether the current growth and margin are durable.",
-      "Stockmonk does not publish a rating or a target. The useful next step is to compare the company's multiples with its own history and with ACGL, AFL and AJG, then decide which risk matters most.",
-      "The factor percentiles place the company at an average of 64/100 across growth, profitability, cash, balance sheet and valuation. A high growth reading with a low balance-sheet reading is a different proposition from the reverse, and neither is automatically good or bad."
+      "Assurant, Inc. produced $13.8B of trailing revenue at a 9.8% operating margin and a 13.3% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
+      "Third-party analysts put the mean target at $355.17 as of 2026-11-25, 8.7% above the latest close; it should be read as the published consensus, not as this publication's view. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
+      "The factor percentiles put valuation at 84/100 and cash generation at 48/100, with the composite averaging 64/100. The readings are close enough together that the average carries most of the information; valuation is the strongest at 84/100."
     ],
     "questions": [
-      "How much of net interest income is rate-sensitive?",
-      "Is credit provisioning normalising or deteriorating?",
-      "What does regulation do to buybacks?",
-      "How sustainable is the current return on equity?"
+      "What is the catastrophe loss budget?",
+      "Are reserves redundant or deficient?",
+      "How much of growth is rate versus exposure?",
+      "What does a soft market do to returns?"
     ]
   }
 };

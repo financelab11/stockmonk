@@ -2,10 +2,11 @@ name: Weekly SEC fundamentals refresh
 
 on:
   schedule:
-    # Saturday 03:00 America/New_York. GitHub cron is UTC, so try both
-    # 07:00 and 08:00 UTC and let the guard pick the 03:00 run.
-    - cron: "0 7 * * 6"
-    - cron: "0 8 * * 6"
+    # Saturday 12:00 America/New_York, after the daily 03:00 run has finished.
+    # GitHub cron is UTC, so try both 16:00 and 17:00 UTC and let the guard
+    # pick the 12:00 run.
+    - cron: "0 16 * * 6"
+    - cron: "0 17 * * 6"
   workflow_dispatch:
 
 permissions:
@@ -22,12 +23,12 @@ jobs:
     outputs:
       run: ${{ steps.clock.outputs.run }}
     steps:
-      - name: Check 3am US Eastern
+      - name: Check noon US Eastern
         id: clock
         run: |
           hour=$(TZ=America/New_York date +%H)
           echo "America/New_York hour: $hour"
-          if [ "$hour" = "03" ]; then
+          if [ "$hour" = "12" ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"

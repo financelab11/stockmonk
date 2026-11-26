@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const ELV: StockStory = {
   "ticker": "ELV",
   "kicker": "Healthcare Services & Devices · Healthcare Plans",
-  "title": "Elevance Health, Inc: A managed-care insurer",
-  "dek": "Elevance Health, Inc. reported $201.8B of trailing revenue at a 2.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Elevance Health: A managed-care insurer",
+  "dek": "Elevance Health's revenue rose 3.6% to $201.8B, at a 2.7% operating margin. The key risk is medical cost trend and policy changes.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $201.8B trailing twelve months, +3.6% year over year.",
+    "Revenue: $201.8B, +3.6% year over year.",
     "Profitability: 2.7% operating margin and 2.5% net margin.",
     "Cash: $6.5B free cash flow, a 3.2% margin, against $6.1B of net cash.",
-    "Valuation: 16.7x trailing earnings and 11.5x EV/EBITDA at the latest close."
+    "Valuation: 16.7x trailing earnings and 11.5x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const ELV: StockStory = {
   "irUrl": "https://www.elevancehealth.com",
   "bigPicture": {
     "paragraphs": [
-      "Elevance Health, Inc. generated $201.8B of revenue over the last twelve months, +3.6% versus the prior year. The latest reported quarter was Q3 FY26, with $51.4B of revenue and a 2.5% operating margin. The shares closed at $395.11 on Nov 25, 2026, giving a market capitalization of $85.4B.",
-      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. The company does not disclose revenue by region in the current extract. Elevance Health, Inc. competes in Healthcare Plans, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $85.4B, or 16.7x trailing earnings and 11.5x EV/EBITDA. The shares sit 68% of the way up their 52-week range ($274.84 to $450.69). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Elevance Health's revenue rose 3.6% to $201.8B at a 2.7% operating margin, generating $6.5B of free cash flow. The latest quarter (Q3 FY26) grew 1.4%.",
+      "Revenue is reported as one consolidated line. The upside is rate filings and margin recovery. What would break it is medical cost trend and policy changes.",
+      "At $395.11, the equity is worth $85.4B, or 16.7x trailing earnings and 11.5x EV/EBITDA. The earnings multiple is 5.7% above the 15.7x peer median. The stock is 68% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Elevance is a managed-care insurer, so medical costs, enrollment and rate updates drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Elevance Health, Inc., together with its subsidiaries, operates as a health benefits company in the United States. It reports in the Healthcare sector and is classified in Healthcare Services & Devices coverage.",
-      "Revenue is reported at the consolidated level only. Its latest filing lists 96,129 employees. The revenue base is $201.8B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "UNH, CI and CNC provide the closest reference points for margin, growth and valuation."
+      "Elevance Health, Inc., together with its subsidiaries, operates as a health benefits company in the United States.",
+      "Medical claims absorb the bulk of premium revenue, leaving a 2.7% operating margin. That is roughly in line with the peer median of 3.4%. A few points of medical-cost trend can wipe out the profit.",
+      "Capital is regulated and held against medical reserves, so the medical loss ratio and reserve development matter more than capex. Return on equity was 11.5%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$201.8B on a trailing-twelve-month basis, with the latest quarter at $51.4B."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 2.7%; free-cash-flow margin 3.2%; net margin 2.5%."
+        "title": "Margin engine",
+        "detail": "Operating margin 2.7%. Medical claims are the main cost line, so the medical loss ratio or combined ratio is the bridge to profit."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $85.4B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Reserves and the investment portfolio are the capital base; ROE 11.5%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 89.0%, operating margin is 2.7% and net margin is 2.5%. Gross profit was $179.7B, and 86.4% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "The balance sheet carries $6.1B of net cash. Return on invested capital was 5.9% and return on equity was 11.5%. The return suggests the current capital base is earning a modest amount."
+      "Premium revenue is set at enrollment; medical claims decide the margin. The edge is managed-care scale and provider networks.",
+      "The insurer keeps the difference between premium revenue and medical claims. The margin is thin enough that a few points of medical-cost trend can wipe out the profit. Membership mix and rate filings are the other variables to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 11.6% a year across the fiscal years in the dataset, and the latest quarter changed +1.4% year over year. Current-year estimates call for $198.8B of revenue and $29.14 of EPS.",
-      "The operating margin of 2.7% and return on invested capital of 5.9% are the filters to watch as revenue scales. Growth of 3.6% against a 2.7% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 11.6% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 1.4% year over year. The current-year consensus looks for $198.8B of revenue and $29.14 of EPS.",
+      "The next leg depends on rate filings and margin recovery. For Elevance Health, growth is only worth paying for if new members are priced above their medical cost trend."
     ],
     "bullets": [
       {
         "title": "Enrollment",
-        "detail": "Revenue growth is +3.6%. That is the line the next filing has to move."
+        "detail": "Membership growth expands the premium base, but only if the risk mix is priced correctly. Revenue growth is 3.6%."
       },
       {
         "title": "Premium rates",
@@ -67,41 +67,41 @@ export const ELV: StockStory = {
       },
       {
         "title": "Medical cost management",
-        "detail": "Return on invested capital is 5.9%. Network, utilization and pharmacy programmes determine how much of the premium survives claims."
+        "detail": "Network, utilization and pharmacy programmes determine how much of the premium survives claims. Return on invested capital is 5.9%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 5.9% in FY2018 to 3.6% in FY2025. The trailing operating margin is 2.7%, the net margin is 2.5% and diluted EPS is $23.52.",
-      "Return on equity was 11.5% and return on invested capital was 5.9%. The two returns are within a few points, at 11.5% on equity and 5.9% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 5.9% in FY2018 to 3.6% in FY2025. The trailing operating margin is 2.7%, the net margin is 2.5%, and diluted EPS is $23.52, down 4.1% year over year.",
+      "Return on equity of 11.5% and return on invested capital of 5.9% are close enough that operating performance explains most of the return. For a managed-care insurer, the medical loss ratio and reserve development are the better tests of return quality."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $6.5B, a 3.2% margin. The balance sheet carries $6.1B of net cash. With capital spending at 0.6% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $4.3B, or 75.8% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.1B in the latest fiscal year."
+      "Free cash flow was $6.5B, or 3.2% of revenue. Operating cash flow covered 75.8% of net income; working capital is absorbing part of the reported profit. Capex absorbed 0.6% of revenue, which is low relative to the revenue base.",
+      "For a managed-care insurer, reserves and investment income matter more than net debt. Management can fund the next phase without needing the capital markets. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 16.7x trailing earnings, 11.5x EV/EBITDA and 0.4x EV/sales. The free-cash-flow yield is 7.6%. The trailing earnings yield is 6.0%, against a free-cash-flow yield of 7.6%.",
-      "The peer comparison sets the company against UNH, CI and CNC; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $395.11, the shares trade at 16.7x trailing earnings and 11.5x EV/EBITDA, with a 7.6% free-cash-flow yield. The earnings yield is 6.0%. The earnings multiple is 5.7% above the 15.7x peer median.",
+      "The multiple is in line with the peer median, so the debate is company-specific. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "21 analysts contribute to the third-party consensus. The mean target is $482.38, with a range of $406.00 to $523.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $198.8B of revenue and $29.14 of EPS. The estimate revisions in the dataset are 7.0% over 30 days and 7.3% over 90 days. The estimate is consistent with a decline of 1.5% on the trailing revenue figure."
+      "21 analysts in the third-party consensus carry a mean target of $482.38, 22.1% above the latest close. The range runs from $406.00 to $523.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $198.8B of revenue and $29.14 of EPS. EPS estimates are up 7.0% over 30 days and up 7.3% over 90 days. That implies a 1.5% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is rate filings and margin recovery versus medical cost trend and policy changes.",
     "items": [
       {
-        "title": "Medical cost trend",
+        "title": "Medical cost trend and policy changes",
         "severity": "High",
-        "detail": "Utilization and acuity can rise faster than premiums, compressing the medical loss ratio.",
+        "detail": "Medical cost trend and policy changes can compress the margin faster than rate filings offset them.",
         "watch": "Medical loss ratio, utilization and acuity."
       },
       {
@@ -146,9 +146,9 @@ export const ELV: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Elevance Health, Inc. produced $201.8B of trailing revenue at a 2.7% operating margin and a 3.2% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Analysts contributing to the third-party consensus carry a $482.38 mean target as of 2026-11-25, 22.1% above the latest close; the figure belongs to the analysts who published it, not to this report.",
-      "The factor percentiles put balance sheet at 76/100 and cash generation at 20/100, with the composite averaging 44/100. The average hides a strong balance sheet reading and a weak cash generation one, which is why the spread is the more useful description."
+      "The investment case rests on balance sheet and the durability of 2.7% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above 6.2%, not a single quarter. The key exposure is medical cost trend and policy changes.",
+      "The scorecard averages 44/100, but the dispersion matters more: balance sheet is 76/100 and cash generation is 20/100."
     ],
     "questions": [
       "Is medical cost trend running above or below premium rates?",

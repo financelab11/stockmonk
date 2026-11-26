@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const HRL: StockStory = {
   "ticker": "HRL",
   "kicker": "Consumer Staples · Packaged Foods",
-  "title": "Hormel Foods Corporation: Branded meat and shelf-stable foods",
-  "dek": "Hormel Foods Corporation reported $12.1B of trailing revenue at a 4.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Hormel Foods: Branded meat and shelf-stable foods",
+  "dek": "Hormel Foods' revenue was flat at $12.1B, at a 4.7% operating margin. The key risk is volume and input costs.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $12.1B trailing twelve months, +0.7% year over year.",
+    "Revenue: $12.1B, +0.7% year over year.",
     "Profitability: 4.7% operating margin and 2.8% net margin.",
     "Cash: $780.9M free cash flow, a 6.4% margin, against $1.5B of net debt.",
-    "Valuation: 36.8x trailing earnings and 16.7x EV/EBITDA at the latest close."
+    "Valuation: 36.8x trailing earnings and 16.7x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const HRL: StockStory = {
   "irUrl": "https://www.hormelfoods.com",
   "bigPicture": {
     "paragraphs": [
-      "Hormel Foods Corporation generated $12.1B of revenue over the last twelve months, +0.7% versus the prior year. The latest reported quarter was Q3 FY26, with $3B of revenue and a 3.7% operating margin. The shares closed at $22.92 on Nov 25, 2026, giving a market capitalization of $12.6B.",
-      "The largest disclosed segment is Retail at 61.6% of revenue. Geographically, United States leads at 94.5% of the disclosed split. Hormel Foods Corporation competes in Packaged Foods, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $12.6B, or 36.8x trailing earnings and 16.7x EV/EBITDA. The shares sit 52% of the way up their 52-week range ($18.96 to $26.60). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Hormel Foods' revenue was flat at $12.1B at a 4.7% operating margin, generating $780.9M of free cash flow. The latest quarter (Q3 FY26) fell 2.4%.",
+      "Retail is 61.6% of revenue and Foodservice is 32.6%. The US is the largest geography at 94.5% of revenue. The near-term driver is brand investment and margin. The risk is volume and input costs.",
+      "At $22.92, the equity is worth $12.6B, or 36.8x trailing earnings and 16.7x EV/EBITDA. The earnings multiple is 29.8% above the 28.4x peer median. The stock is 52% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Hormel sells branded meat and shelf-stable foods, a mature consumer business where volume, input costs and brand investment determine margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Hormel Foods Corporation develops, processes, and distributes various meat, nut, and other food products to foodservice, convenience stores, and commercial customers in the United States and internationally. It operates through three segments: Retail, Foodservice, and International.",
-      "The disclosed mix runs across Retail at 61.6%, Foodservice at 32.6% and International at 5.9%. The company employed 20,000 people at the last reporting date. Trailing revenue is $12.1B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The peer set is CAG, KHC and LW; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Hormel Foods Corporation develops, processes, and distributes various meat, nut, and other food products to foodservice, convenience stores, and commercial customers in the United States and internationally.",
+      "Hormel Foods earned a 15.7% gross margin, and cost of goods, marketing and distribution absorbed 11.0% of revenue, leaving a 4.7% operating margin. That is 18.2 points above the peer median of -13.4%.",
+      "Capital spending runs at 2.6% of revenue, which is low relative to the revenue base. Net debt is $1.5B, or 1.8x EBITDA. Return on invested capital was 3.7%. That is 8.6 points above the peer median of -5.0%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$12.1B on a trailing-twelve-month basis, with the latest quarter at $3B."
+        "title": "Revenue mix",
+        "detail": "Retail at 61.6%, Foodservice at 32.6% and International at 5.9%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 4.7%; free-cash-flow margin 6.4%; net margin 2.8%."
+        "title": "Margin engine",
+        "detail": "Gross margin 15.7%, operating margin 4.7%. Cost of goods, marketing and distribution are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $12.6B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 2.6% of revenue; $1.5B of net debt; ROIC 3.7%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $12.1B of revenue, $1.9B remained after cost of sales. The 11.0% operating-expense load brought that down to a 4.7% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "Net debt is $1.5B, or 1.8x EBITDA. Return on invested capital was 3.7% and return on equity was 4.4%. That leaves little room above the cost of capital."
+      "Volume, price and mix drive revenue; input costs and marketing drive the margin. The edge is branded food and foodservice.",
+      "The operating margin is 4.7%, 18.2 points above the peer median of -13.4%. The next dollar of revenue matters less than the margin it carries."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.5% a year across the fiscal years in the dataset, and the latest quarter changed -2.4% year over year. Current-year estimates call for $12.1B of revenue and $1.48 of EPS.",
-      "The operating margin of 4.7% and return on invested capital of 3.7% are the filters to watch as revenue scales. Neither the 0.7% growth nor the 4.7% margin is extreme; the combination is what matters."
+      "Revenue compounded at 3.5% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) fell 2.4% year over year. The current-year consensus looks for $12.1B of revenue and $1.48 of EPS.",
+      "The next leg depends on brand investment and margin. For Hormel Foods, volume growth is only worth paying for if pricing covers input costs. Growth is only valuable if the new revenue earns a similar return to the existing business."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Same-store or same-customer growth shows demand without new locations. The current reading: revenue growth is +0.7%."
+        "detail": "Same-store or same-customer growth shows demand without new locations. Revenue growth is 0.7%."
       },
       {
         "title": "Unit growth",
-        "detail": "The operating margin is 4.7%. That is the line the next filing has to move."
+        "detail": "New stores, products or markets add revenue but also fixed costs. The operating margin is 4.7%."
       },
       {
         "title": "Margin mix",
@@ -73,35 +73,35 @@ export const HRL: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 12.4% in FY2018 to 5.9% in FY2025. The trailing operating margin is 4.7%, the net margin is 2.8% and diluted EPS is $0.63.",
-      "Return on equity was 4.4% and return on invested capital was 3.7%. Return on invested capital of 3.7% is close to the 4.4% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from 12.4% in FY2018 to 5.9% in FY2025. The trailing operating margin is 4.7%, the net margin is 2.8%, and diluted EPS is $0.63, down 54.0% year over year.",
+      "Return on equity of 4.4% and return on invested capital of 3.7% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $780.9M, a 6.4% margin. Net debt is $1.5B, or 1.8x EBITDA. Capital expenditure was 2.6% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $845.3M, or 176.8% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $310.9M in the latest fiscal year."
+      "Free cash flow was $780.9M, or 6.4% of revenue. Operating cash flow covered 176.8% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 2.6% of revenue, which is low relative to the revenue base.",
+      "Net debt is $1.5B, or 1.8x EBITDA. Interest cover is 7.3x. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 36.8x trailing earnings, 16.7x EV/EBITDA and 1.2x EV/sales. The free-cash-flow yield is 6.2%. The 2.7% earnings yield and 6.2% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against CAG, KHC and LW; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $22.92, the shares trade at 36.8x trailing earnings and 16.7x EV/EBITDA, with a 6.2% free-cash-flow yield. The earnings yield is 2.7%. The earnings multiple is 29.8% above the 28.4x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "8 analysts contribute to the third-party consensus. The mean target is $25.06, with a range of $23.00 to $28.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $12.1B of revenue and $1.48 of EPS. The estimate revisions in the dataset are -0.1% over 30 days and -0.9% over 90 days. If met, the estimate would mean a decline of 0.4% from the current base."
+      "8 analysts in the third-party consensus carry a mean target of $25.06, 9.3% above the latest close. The range runs from $23.00 to $28.00. The range is tight, so the debate is about timing rather than direction. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $12.1B of revenue and $1.48 of EPS. EPS estimates are little changed over 30 days and down 0.9% over 90 days. That implies a 0.4% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is brand investment and margin versus volume and input costs.",
     "items": [
       {
-        "title": "Consumer spending",
+        "title": "Volume and input costs",
         "severity": "High",
-        "detail": "Discretionary budgets are sensitive to confidence and rates.",
+        "detail": "The main risk is volume and input costs.",
         "watch": "Comparable sales and transaction counts."
       },
       {
@@ -146,9 +146,9 @@ export const HRL: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Hormel Foods Corporation produced $12.1B of trailing revenue at a 4.7% operating margin and a 6.4% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "The third-party consensus mean is $25.06 as of 2026-11-25, 9.3% above the latest close; this report does not publish a target of its own. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put valuation at 41/100 and growth at 13/100, with the composite averaging 27/100. With valuation and growth only 28 points apart, the composite is a reasonable one-line description."
+      "The investment case rests on valuation and the durability of 4.7% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 3.7%, not a single quarter. The key exposure is volume and input costs.",
+      "On the scorecard, the composite is 27/100. The spread between valuation and growth is the useful part; the average hides it."
     ],
     "questions": [
       "Is growth coming from traffic or prices?",

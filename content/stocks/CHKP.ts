@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const CHKP: StockStory = {
   "ticker": "CHKP",
   "kicker": "Enterprise Software · Software - Infrastructure",
-  "title": "Check Point Software Technologies Ltd: Network security software",
-  "dek": "Check Point Software Technologies Ltd. reported $2.7B of trailing revenue at a 30.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Check Point Software Technologies: Network security software",
+  "dek": "Check Point Software Technologies' revenue rose 6.3% to $2.7B, at a 30.5% operating margin. The key risk is renewals and cloud competition.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $2.7B trailing twelve months, +6.3% year over year.",
+    "Revenue: $2.7B, +6.3% year over year.",
     "Profitability: 30.5% operating margin and 38.8% net margin.",
     "Cash: $1.2B free cash flow, a 43.0% margin, against $3.8B of net cash.",
-    "Valuation: 15.7x trailing earnings and 14.9x EV/EBITDA at the latest close."
+    "Valuation: 15.7x trailing earnings and 14.9x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const CHKP: StockStory = {
   "irUrl": "https://www.checkpoint.com",
   "bigPicture": {
     "paragraphs": [
-      "Check Point Software Technologies Ltd. generated $2.7B of revenue over the last twelve months, +6.3% versus the prior year. The latest reported quarter was Q4 FY25, with $744.9M of revenue and a 31.3% operating margin. The shares closed at $162.50 on Nov 25, 2026, giving a market capitalization of $16.6B.",
-      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. Geographically, EMEA leads at 43.1% of the disclosed split.",
-      "At the latest close the equity is valued at $16.6B, or 15.7x trailing earnings and 14.9x EV/EBITDA. The shares sit 57% of the way up their 52-week range ($112.23 to $199.90). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Check Point Software Technologies' revenue rose 6.3% to $2.7B at a 30.5% operating margin, generating $1.2B of free cash flow. The latest quarter (Q4 FY25) grew 5.9%.",
+      "Revenue is reported as one consolidated line. EMEA is the largest geography at 43.1% of revenue. The near-term driver is product refresh and cloud security. The risk is renewals and cloud competition.",
+      "At $162.50, the equity is worth $16.6B, or 15.7x trailing earnings and 14.9x EV/EBITDA. The earnings multiple is 82.3% below the 88.7x peer median. The stock is 57% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Check Point sells network security software, a mature franchise where renewals, product refresh and cloud security matter."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Check Point Software Technologies Ltd. develops, markets, and supports a range of products and services for IT security worldwide. Check Point Software Technologies Ltd. is a Software - Infrastructure company within the Enterprise Software coverage group.",
-      "There is no separate segment disclosure in the current extract. The company employed 6,825 people at the last reporting date. The revenue base is $2.7B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The peer set is MSFT, ORCL and SNPS; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Check Point Software Technologies Ltd. develops, markets, and supports a range of products and services for IT security worldwide.",
+      "Check Point Software Technologies earned an 86.7% gross margin, and R&D and sales and marketing absorbed 56.2% of revenue, leaving a 30.5% operating margin. That is 10.2 points above the peer median of 20.3%.",
+      "Capital spending runs at 1.0% of revenue, which is low relative to the revenue base. The balance sheet carries $3.8B of net cash. Return on invested capital was 29.3%. That is 16.3 points above the peer median of 13.0%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$2.7B on a trailing-twelve-month basis, with the latest quarter at $744.9M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 30.5%; free-cash-flow margin 43.0%; net margin 38.8%."
+        "title": "Margin engine",
+        "detail": "Gross margin 86.7%, operating margin 30.5%. R&D and sales and marketing are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $16.6B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 1.0% of revenue; $3.8B of net cash; ROIC 29.3%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 86.7%, operating margin is 30.5% and net margin is 38.8%. Gross profit was $2.4B, and 56.2% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "The balance sheet carries $3.8B of net cash. Return on invested capital was 29.3% and return on equity was 36.7%. That is comfortably above most cost-of-capital estimates, which is what lets reinvestment create value."
+      "Subscriptions and seat or usage growth drive revenue; retention and sales efficiency drive the margin. The edge is network-security installed base.",
+      "The operating margin is 30.5%, 10.2 points above the peer median of 20.3%. Retention and sales efficiency decide whether subscription growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.2% a year across the fiscal years in the dataset, and the latest quarter changed +5.9% year over year. Current-year estimates call for $2.8B of revenue and $10.30 of EPS.",
-      "The operating margin of 30.5% and return on invested capital of 29.3% are the filters to watch as revenue scales. With a 30.5% margin, the growth rate matters less than whether the margin is repeatable."
+      "Revenue compounded at 5.2% a year from FY2018 to FY2025. The latest quarter (Q4 FY25) grew 5.9% year over year. The current-year consensus looks for $2.8B of revenue and $10.30 of EPS.",
+      "The next leg depends on product refresh and cloud security. For Check Point Software Technologies, subscription growth is only worth paying for if retention and sales efficiency hold."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. The current reading: revenue growth is +6.3%."
+        "detail": "Expansion within existing customers compounds revenue. Revenue growth is 6.3%."
       },
       {
         "title": "New customer adds",
-        "detail": "The operating margin is 30.5%. That is the number to compare with the company's own history."
+        "detail": "New logos broaden the base and fund future expansion. The operating margin is 30.5%."
       },
       {
         "title": "Operating leverage",
@@ -73,35 +73,35 @@ export const CHKP: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 47.7% in FY2018 to 30.5% in FY2025. The trailing operating margin is 30.5%, the net margin is 38.8% and diluted EPS is $9.62.",
-      "Return on equity was 36.7% and return on invested capital was 29.3%. The two returns are within a few points, at 36.7% on equity and 29.3% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 47.7% in FY2018 to 30.5% in FY2025. The trailing operating margin is 30.5%, the net margin is 38.8%, and diluted EPS is $9.62, up 29.0% year over year.",
+      "Return on equity of 36.7% and return on invested capital of 29.3% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.2B, a 43.0% margin. The balance sheet carries $3.8B of net cash. With capital spending at 1.0% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $1.2B, or 113.5% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $26.6M in the latest fiscal year."
+      "Free cash flow was $1.2B, or 43.0% of revenue. Operating cash flow covered 113.5% of net income; reported profit is converting into cash cleanly. Capex absorbed 1.0% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $3.8B of net cash. The net cash position is optionality: it can fund investment, acquisitions or returns. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 15.7x trailing earnings, 14.9x EV/EBITDA and 4.7x EV/sales. The free-cash-flow yield is 7.1%. The trailing earnings yield is 6.4%, against a free-cash-flow yield of 7.1%.",
-      "The peer comparison sets the company against MSFT, ORCL and SNPS; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $162.50, the shares trade at 15.7x trailing earnings and 14.9x EV/EBITDA, with a 7.1% free-cash-flow yield. The earnings yield is 6.4%. The earnings multiple is 82.3% below the 88.7x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "30 analysts contribute to the third-party consensus. The mean target is $153.42, with a range of $130.00 to $192.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $2.8B of revenue and $10.30 of EPS. The estimate revisions in the dataset are -1.3% over 30 days and -1.3% over 90 days. If met, the estimate would mean growth of 1.4% from the current base."
+      "30 analysts in the third-party consensus carry a mean target of $153.42, 5.6% below the latest close. The range runs from $130.00 to $192.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $2.8B of revenue and $10.30 of EPS. EPS estimates are down 1.3% over 30 days and down 1.3% over 90 days. That implies 1.4% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is product refresh and cloud security versus renewals and cloud competition.",
     "items": [
       {
-        "title": "Competition",
+        "title": "Renewals and cloud competition",
         "severity": "High",
-        "detail": "Feature parity and bundling can pressure pricing.",
+        "detail": "The main risk is renewals and cloud competition.",
         "watch": "Win rates and average contract value."
       },
       {
@@ -146,9 +146,9 @@ export const CHKP: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Check Point Software Technologies Ltd. produced $2.7B of trailing revenue at a 30.5% operating margin and a 43.0% free-cash-flow margin. The business converts an unusually large share of revenue into cash, and the multiple depends on that continuing.",
-      "Third-party analysts put the mean target at $153.42 as of 2026-11-25, 5.6% below the latest close; this report does not publish a target of its own. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put cash generation at 95/100 and growth at 43/100, with the composite averaging 78/100. The average hides a strong cash generation reading and a weak growth one, which is why the spread is the more useful description."
+      "The investment case rests on cash generation and the durability of 30.5% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 9.3%, not a single quarter. The key exposure is renewals and cloud competition.",
+      "On the scorecard, the composite is 78/100. The spread between cash generation and growth is the useful part; the average hides it."
     ],
     "questions": [
       "How much growth comes from existing customers?",

@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const GD: StockStory = {
   "ticker": "GD",
   "kicker": "Aerospace & Defense · Aerospace & Defense",
-  "title": "General Dynamics Corporation: A defense prime with aerospace and marine franchises",
-  "dek": "General Dynamics Corporation reported $56.5B of trailing revenue at a 10.4% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "General Dynamics: A defense prime with aerospace and marine franchises",
+  "dek": "General Dynamics' revenue rose 9.7% to $56.5B, at a 10.4% operating margin. The key risk is programme execution and budgets.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $56.5B trailing twelve months, +9.7% year over year.",
+    "Revenue: $56.5B, +9.7% year over year.",
     "Profitability: 10.4% operating margin and 8.2% net margin.",
     "Cash: $4.1B free cash flow, a 7.3% margin, against $3.4B of net debt.",
-    "Valuation: 20.9x trailing earnings and 14.8x EV/EBITDA at the latest close."
+    "Valuation: 20.9x trailing earnings and 14.8x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const GD: StockStory = {
   "irUrl": "https://www.gd.com",
   "bigPicture": {
     "paragraphs": [
-      "General Dynamics Corporation generated $56.5B of revenue over the last twelve months, +9.7% versus the prior year. The latest reported quarter was Q3 FY26, with $14.6B of revenue and a 10.5% operating margin. The shares closed at $360.11 on Nov 25, 2026, giving a market capitalization of $97.3B.",
-      "Marine Systems contributes 31.8% of the disclosed revenue mix. By geography, North America is the largest disclosed market at 84.8% of revenue. General Dynamics Corporation competes in Aerospace & Defense, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $97.3B, or 20.9x trailing earnings and 14.8x EV/EBITDA. The shares sit 57% of the way up their 52-week range ($306.77 to $400.00). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "General Dynamics' revenue rose 9.7% to $56.5B at a 10.4% operating margin, generating $4.1B of free cash flow. The latest quarter (Q3 FY26) grew 12.9%.",
+      "Marine Systems is 31.8% of revenue and Technologies is 25.6%. North America is the largest geography at 84.8% of revenue. The upside is gulfstream and backlog. What would break it is programme execution and budgets.",
+      "At $360.11, the equity is worth $97.3B, or 20.9x trailing earnings and 14.8x EV/EBITDA. The earnings multiple is 38.0% below the 33.7x peer median. The stock is 57% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "General Dynamics is a defense prime with aerospace and marine franchises, so backlog and program execution drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "General Dynamics Corporation operates as an aerospace and defense company worldwide. It operates through four segments: Aerospace, Marine Systems, Combat Systems, and Technologies. It reports in the Industrials sector and is classified in Aerospace & Defense coverage.",
-      "The disclosed mix runs across Marine Systems at 31.8%, Technologies at 25.6% and Aerospace at 24.9%. Its latest filing lists 117,000 employees. With $56.5B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "GE, RTX and HWM provide the closest reference points for margin, growth and valuation."
+      "General Dynamics Corporation operates as an aerospace and defense company worldwide.",
+      "General Dynamics does not report a product gross margin; program costs and fixed-price execution sit inside the operating line, leaving a 10.4% operating margin. That is 1.4 points below the peer median of 11.8%.",
+      "Capex is 2.1% of revenue, so the business is asset-light. Net debt is $3.4B, or 0.5x EBITDA. Return on invested capital was 13.7%. That is 5.2 points below the peer median of 18.9%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$56.5B on a trailing-twelve-month basis, with the latest quarter at $14.6B."
+        "title": "Revenue mix",
+        "detail": "Marine Systems at 31.8%, Technologies at 25.6% and Aerospace at 24.9%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 10.4%; free-cash-flow margin 7.3%; net margin 8.2%."
+        "title": "Margin engine",
+        "detail": "Operating margin 10.4%. Program costs and fixed-price execution are the main cost line, so the margin depends on spreading the cost base over more revenue."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $97.3B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 2.1% of revenue; $3.4B of net debt; ROIC 13.7%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 10.4% is the first clean profitability line. Revenue is tied to government budgets, contract awards and the conversion of backlog into deliveries.",
-      "Net debt is $3.4B, or 0.5x EBITDA. Return on invested capital was 13.7% and return on equity was 17.1%. The return is close enough to the cost of capital that small changes in margin matter."
+      "Contracted backlog converts into revenue as programmes deliver; budgets set the addressable market. The edge is defense prime and Gulfstream.",
+      "The operating margin is 10.4%, 1.4 points below the peer median of 11.8%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.5% a year across the fiscal years in the dataset, and the latest quarter changed +12.9% year over year. Current-year estimates call for $56.8B of revenue and $17.36 of EPS.",
-      "The operating margin of 10.4% and return on invested capital of 13.7% are the filters to watch as revenue scales. The 9.7% revenue pace and 10.4% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 5.5% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 12.9% year over year. The current-year consensus looks for $56.8B of revenue and $17.36 of EPS.",
+      "The next leg depends on gulfstream and backlog. For General Dynamics, backlog growth is only worth paying for if it converts into margin, not just revenue."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Revenue growth is +9.7%. That is the metric the thesis depends on."
+        "detail": "Contracted orders provide visibility into future revenue. Revenue growth is 9.7%."
       },
       {
         "title": "Budget and supplementals",
@@ -67,41 +67,41 @@ export const GD: StockStory = {
       },
       {
         "title": "Programme execution",
-        "detail": "Return on invested capital is 13.7%. Deliveries, milestones and cost control determine margins on fixed-price work."
+        "detail": "Deliveries, milestones and cost control determine margins on fixed-price work. Return on invested capital is 13.7%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 12.1% in FY2018 to 10.2% in FY2025. The trailing operating margin is 10.4%, the net margin is 8.2% and diluted EPS is $12.83.",
-      "Return on equity was 17.1% and return on invested capital was 13.7%. With return on equity at 17.1% and return on invested capital at 13.7%, leverage is not the main driver of the gap."
+      "The operating margin moved from 12.1% in FY2018 to 10.2% in FY2025. The trailing operating margin is 10.4%, the net margin is 8.2%, and diluted EPS is $12.83, up 13.7% year over year.",
+      "Return on equity of 17.1% and return on invested capital of 13.7% are close enough that operating performance explains most of the return. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $4.1B, a 7.3% margin. Net debt is $3.4B, or 0.5x EBITDA. Capex absorbed 2.1% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $5.1B, or 121.6% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.2B in the latest fiscal year."
+      "Free cash flow was $4.1B, or 7.3% of revenue. Operating cash flow covered 121.6% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 2.1% of revenue, which is low relative to the revenue base.",
+      "Net debt is $3.4B, or 0.5x EBITDA. Interest cover is 25.9x. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 20.9x trailing earnings, 14.8x EV/EBITDA and 1.8x EV/sales. The free-cash-flow yield is 4.2%. Inverting the P/E gives an earnings yield of 4.8%; the cash-flow yield is 4.2%.",
-      "The peer comparison sets the company against GE, RTX and HWM; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $360.11, the shares trade at 20.9x trailing earnings and 14.8x EV/EBITDA, with a 4.2% free-cash-flow yield. The earnings yield is 4.8%. The earnings multiple is 38.0% below the 33.7x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "22 analysts contribute to the third-party consensus. The mean target is $417.96, with a range of $320.00 to $480.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $56.8B of revenue and $17.36 of EPS. The estimate revisions in the dataset are 2.1% over 30 days and 2.1% over 90 days. The estimate is consistent with growth of 0.5% on the trailing revenue figure."
+      "22 analysts in the third-party consensus carry a mean target of $417.96, 16.1% above the latest close. The range runs from $320.00 to $480.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $56.8B of revenue and $17.36 of EPS. EPS estimates are up 2.1% over 30 days and up 2.1% over 90 days. That implies 0.5% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is gulfstream and backlog versus programme execution and budgets.",
     "items": [
       {
-        "title": "Budget cycle",
+        "title": "Programme execution and budgets",
         "severity": "High",
-        "detail": "Continuing resolutions and priorities can delay awards.",
+        "detail": "The main risk is programme execution and budgets.",
         "watch": "Budget markers and supplemental packages."
       },
       {
@@ -146,9 +146,9 @@ export const GD: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "General Dynamics Corporation produced $56.5B of trailing revenue at a 10.4% operating margin and a 7.3% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The consensus target is $417.96 as of 2026-11-25, 16.1% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 62/100 and cash generation at 29/100, with the composite averaging 47/100. The narrow range between valuation at 62/100 and cash generation at 29/100 means the average is a fair summary."
+      "The investment case rests on valuation and the durability of 10.4% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above 10.3%, not a single quarter. The key exposure is programme execution and budgets.",
+      "The scorecard averages 47/100, but the dispersion matters more: valuation is 62/100 and cash generation is 29/100."
     ],
     "questions": [
       "How much backlog converts in the next year?",

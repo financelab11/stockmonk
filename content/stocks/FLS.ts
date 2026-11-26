@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const FLS: StockStory = {
   "ticker": "FLS",
   "kicker": "Industrial Automation · Specialty Industrial Machinery",
-  "title": "Flowserve Corporation at 40.7x earnings: what the filings support",
-  "dek": "Flowserve Corporation reported $4.7B of trailing revenue at a 10.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Flowserve: margins, cash conversion and the multiple",
+  "dek": "Flowserve's revenue was flat at $4.7B, at a 10.0% operating margin. The key risk is energy capex and aftermarket.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $4.7B trailing twelve months, +0.2% year over year.",
+    "Revenue: $4.7B, +0.2% year over year.",
     "Profitability: 10.0% operating margin and 5.4% net margin.",
     "Cash: $153.7M free cash flow, a 3.3% margin, against $756M of net debt.",
-    "Valuation: 40.7x trailing earnings and 19.3x EV/EBITDA at the latest close."
+    "Valuation: 40.7x trailing earnings and 19.3x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const FLS: StockStory = {
   "irUrl": "https://www.flowserve.com",
   "bigPicture": {
     "paragraphs": [
-      "Flowserve Corporation generated $4.7B of revenue over the last twelve months, +0.2% versus the prior year. The latest reported quarter was Q3 FY26, with $1.2B of revenue and a 12.5% operating margin. The shares closed at $81.71 on Nov 25, 2026, giving a market capitalization of $10.4B.",
-      "FPD accounts for 68.3% of disclosed revenue. Revenue is disclosed across 4 geographies, with United States the largest at 41.6%. Flowserve Corporation competes in Specialty Industrial Machinery, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $10.4B, or 40.7x trailing earnings and 19.3x EV/EBITDA. The shares sit 63% of the way up their 52-week range ($63.27 to $92.41). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "Flowserve's revenue was flat at $4.7B at a 10.0% operating margin, generating $153.7M of free cash flow. The latest quarter (Q3 FY26) grew 5.4%. The consensus estimate and the current multiple frame the near-term debate.",
+      "FPD is 68.3% of revenue and FCD is 31.7%. The US is the largest geography at 41.6% of revenue. What could lift the return is aftermarket and margin. The thing to watch is energy capex and aftermarket.",
+      "At $81.71, the equity is worth $10.4B, or 40.7x trailing earnings and 19.3x EV/EBITDA. The earnings multiple is 35.2% above the 30.1x peer median. The stock is 63% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Flowserve makes flow-control equipment, so aftermarket, backlog and energy capex drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Flowserve Corporation designs, manufactures, distributes, and services industrial flow management equipment in the United States, Canada, Mexico, Europe, the Middle East, Africa, and the Asia Pacific. The company operates in two segments, Flowserve Pumps Division (FPD) and Flow Control Division (FCD).",
-      "The disclosed mix runs across FPD at 68.3% and FCD at 31.7%. Headcount was 16,000 in the latest filing. With $4.7B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "Against GEV, ETN and PH, the relevant tests are pricing power, capital intensity and cash conversion."
+      "Flowserve Corporation designs, manufactures, distributes, and services industrial flow management equipment in the United States, Canada, Mexico, Europe, the Middle East, Africa, and the Asia Pacific.",
+      "Flowserve earned a 34.2% gross margin, and materials, labor and capacity absorbed 24.2% of revenue, leaving a 10.0% operating margin. That is 4.2 points above the peer median of 5.8%.",
+      "Capex is 1.5% of revenue, so the business is asset-light. Net debt is $756M, or 1.3x EBITDA. Return on invested capital was 9.7%. That is 3.4 points above the peer median of 6.3%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$4.7B on a trailing-twelve-month basis, with the latest quarter at $1.2B."
+        "title": "Revenue mix",
+        "detail": "FPD at 68.3% and FCD at 31.7%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 10.0%; free-cash-flow margin 3.3%; net margin 5.4%."
+        "title": "Margin engine",
+        "detail": "Gross margin 34.2%, operating margin 10.0%. Materials, labor and capacity are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $10.4B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 1.5% of revenue; $756M of net debt; ROIC 9.7%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 34.2% of revenue after cost of sales, or $1.6B. Operating expenses absorbed 24.2% of revenue, leaving a 10.0% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $756M, or 1.3x EBITDA. Return on invested capital was 9.7% and return on equity was 11.0%. The return is close enough to the cost of capital that small changes in margin matter."
+      "Industrial production, backlog and pricing drive revenue; utilization drives the margin. The edge is flow-control installed base.",
+      "The operating margin is 10.0%, 4.2 points above the peer median of 5.8%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.0% a year across the fiscal years in the dataset, and the latest quarter changed +5.4% year over year. Current-year estimates call for $4.8B of revenue and $4.16 of EPS.",
-      "The operating margin of 10.0% and return on invested capital of 9.7% are the filters to watch as revenue scales. The 0.2% revenue pace and 10.0% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 3.0% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 5.4% year over year. The current-year consensus looks for $4.8B of revenue and $4.16 of EPS.",
+      "The next leg depends on aftermarket and margin. For Flowserve, volume growth is only worth paying for if pricing covers input costs. The consensus estimate is the first test; the second is whether incremental revenue carries the same margin as the base."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Revenue growth is +0.2%. Orders already booked provide visibility into future revenue."
+        "detail": "Orders already booked provide visibility into future revenue. Revenue growth is 0.2%."
       },
       {
         "title": "Aftermarket and services",
-        "detail": "Recurring service revenue can be more profitable than equipment. The current reading: the operating margin is 10.0%."
+        "detail": "Recurring service revenue can be more profitable than equipment. The operating margin is 10.0%."
       },
       {
         "title": "Price and productivity",
-        "detail": "Return on invested capital is 9.7%. That is the line the next filing has to move."
+        "detail": "Pricing actions and cost programmes protect margins through cycles. Return on invested capital is 9.7%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 5.9% in FY2018 to 8.5% in FY2025. The trailing operating margin is 10.0%, the net margin is 5.4% and diluted EPS is $2.01.",
-      "Return on equity was 11.0% and return on invested capital was 9.7%. With return on equity at 11.0% and return on invested capital at 9.7%, leverage is not the main driver of the gap."
+      "The operating margin moved from 5.9% in FY2018 to 8.5% in FY2025. The trailing operating margin is 10.0%, the net margin is 5.4%, and diluted EPS is $2.01, down 41.6% year over year.",
+      "Return on equity of 11.0% and return on invested capital of 9.7% are close enough that operating performance explains most of the return. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $153.7M, a 3.3% margin. Net debt is $756M, or 1.3x EBITDA. Capex absorbed 1.5% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $505.9M, or 146.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $70.9M in the latest fiscal year."
+      "Free cash flow was $153.7M, or 3.3% of revenue. Operating cash flow covered 146.1% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 1.5% of revenue, which is low relative to the revenue base.",
+      "Net debt is $756M, or 1.3x EBITDA. Interest cover is 5.1x. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 40.7x trailing earnings, 19.3x EV/EBITDA and 2.4x EV/sales. The free-cash-flow yield is 1.5%. Inverting the P/E gives an earnings yield of 2.5%; the cash-flow yield is 1.5%.",
-      "The peer comparison sets the company against GEV, ETN and PH; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $81.71, the shares trade at 40.7x trailing earnings and 19.3x EV/EBITDA, with a 1.5% free-cash-flow yield. The earnings yield is 2.5%. The earnings multiple is 35.2% above the 30.1x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "10 analysts contribute to the third-party consensus. The mean target is $91.20, with a range of $75.00 to $100.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $4.8B of revenue and $4.16 of EPS. The estimate revisions in the dataset are 1.1% over 30 days and 1.0% over 90 days. Set against trailing revenue, the estimate implies growth of 3.1%."
+      "10 analysts in the third-party consensus carry a mean target of $91.20, 11.6% above the latest close. The range runs from $75.00 to $100.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $4.8B of revenue and $4.16 of EPS. EPS estimates are up 1.1% over 30 days and up 1.0% over 90 days. That implies 3.1% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is aftermarket and margin versus energy capex and aftermarket.",
     "items": [
       {
-        "title": "Capital-spending cycle",
+        "title": "Energy capex and aftermarket",
         "severity": "High",
-        "detail": "Industrial demand falls when customers delay projects.",
+        "detail": "The main risk is energy capex and aftermarket.",
         "watch": "Order trends and backlog conversion."
       },
       {
@@ -146,9 +146,9 @@ export const FLS: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Flowserve Corporation produced $4.7B of trailing revenue at a 10.0% operating margin and a 3.3% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The consensus target is $91.20 as of 2026-11-25, 11.6% above the latest close; that is the analysts' view, attributed and dated, not a Stockmonk target. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put profitability at 40/100 and growth at 13/100, with the composite averaging 29/100. The narrow range between profitability at 40/100 and growth at 13/100 means the average is a fair summary."
+      "The investment case rests on profitability and the durability of 10.0% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 3.2%, not a single quarter. The key exposure is energy capex and aftermarket.",
+      "The scorecard puts the composite at 29/100. Focus on the profitability-to-growth spread rather than the average."
     ],
     "questions": [
       "How much revenue is recurring versus project-based?",

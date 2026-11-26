@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const MDLZ: StockStory = {
   "ticker": "MDLZ",
   "kicker": "Consumer Staples · Confectioners",
-  "title": "Mondelez International, Inc: Global snack brands",
-  "dek": "Mondelez International, Inc. reported $39.9B of trailing revenue at a 13.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Mondelez International: Global snack brands",
+  "dek": "Mondelez International's revenue rose 6.0% to $39.9B, at a 13.7% operating margin. The key risk is volume and cocoa costs.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $39.9B trailing twelve months, +6.0% year over year.",
+    "Revenue: $39.9B, +6.0% year over year.",
     "Profitability: 13.7% operating margin and 10.2% net margin.",
     "Cash: $3.7B free cash flow, a 9.2% margin, against $18.3B of net debt.",
-    "Valuation: 21.1x trailing earnings and 15.2x EV/EBITDA at the latest close."
+    "Valuation: 21.1x trailing earnings and 15.2x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const MDLZ: StockStory = {
   "irUrl": "https://www.mondelezinternational.com",
   "bigPicture": {
     "paragraphs": [
-      "Mondelez International, Inc. generated $39.9B of revenue over the last twelve months, +6.0% versus the prior year. The latest reported quarter was Q3 FY26, with $10B of revenue and a 17.6% operating margin. The shares closed at $68.00 on Nov 25, 2026, giving a market capitalization of $86.1B.",
-      "Europe contributes 39.0% of the disclosed revenue mix. By geography, Non-US is the largest disclosed market at 75.8% of revenue. Mondelez International, Inc. competes in Confectioners, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $86.1B, or 21.1x trailing earnings and 15.2x EV/EBITDA. The shares sit 95% of the way up their 52-week range ($51.20 to $68.92). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Mondelez International's revenue rose 6.0% to $39.9B at a 13.7% operating margin, generating $3.7B of free cash flow. The latest quarter (Q3 FY26) grew 2.3%.",
+      "Europe is 39.0% of revenue and North America is 27.7%. Non-US is the largest geography at 75.8% of revenue. The upside is pricing and emerging markets. What would break it is volume and cocoa costs.",
+      "At $68.00, the equity is worth $86.1B, or 21.1x trailing earnings and 15.2x EV/EBITDA. The stock is 95% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Mondelez owns global snack brands, a mature consumer business where volume, pricing and emerging-market growth determine margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Mondelez International, Inc., through its subsidiaries, manufactures, markets, and sells snack food and beverage products in Latin America, North America, Asia, the Middle East, Africa, and Europe. It reports in the Consumer Defensive sector and is classified in Consumer Staples coverage.",
-      "The disclosed mix runs across Europe at 39.0%, North America at 27.7% and Asia Middle East & Africa at 20.6%. Its latest filing lists 91,000 employees. Trailing revenue is $39.9B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "CAG, CHD and CLX provide the closest reference points for margin, growth and valuation."
+      "Mondelez International, Inc., through its subsidiaries, manufactures, markets, and sells snack food and beverage products in Latin America, North America, Asia, the Middle East, Africa, and Europe.",
+      "Mondelez International earned a 34.3% gross margin, and cost of goods, marketing and distribution absorbed 20.6% of revenue, leaving a 13.7% operating margin. ",
+      "Capex is 3.2% of revenue, so the business is asset-light. Net debt is $18.3B, or 2.7x EBITDA. Return on invested capital was 8.9%. "
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$39.9B on a trailing-twelve-month basis, with the latest quarter at $10B."
+        "title": "Revenue mix",
+        "detail": "Europe at 39.0%, North America at 27.7% and Asia Middle East & Africa at 20.6%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 13.7%; free-cash-flow margin 9.2%; net margin 10.2%."
+        "title": "Margin engine",
+        "detail": "Gross margin 34.3%, operating margin 13.7%. Cost of goods, marketing and distribution are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $86.1B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.2% of revenue; $18.3B of net debt; ROIC 8.9%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $39.9B of revenue, $13.7B remained after cost of sales. The 20.6% operating-expense load brought that down to a 13.7% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "Net debt is $18.3B, or 2.7x EBITDA. Return on invested capital was 8.9% and return on equity was 15.3%. That sits in the middle of the range; whether it clears the cost of capital is the deciding question."
+      "Volume, price and mix drive revenue; input costs and marketing drive the margin. The edge is global snack brands.",
+      "The operating margin is 13.7%. The shape of the incremental margin will decide whether growth creates value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.8% a year across the fiscal years in the dataset, and the latest quarter changed +2.3% year over year. Current-year estimates call for $39.9B of revenue and $3.05 of EPS.",
-      "The operating margin of 13.7% and return on invested capital of 8.9% are the filters to watch as revenue scales. Neither the 6.0% growth nor the 13.7% margin is extreme; the combination is what matters."
+      "Revenue compounded at 5.8% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 2.3% year over year. The current-year consensus looks for $39.9B of revenue and $3.05 of EPS.",
+      "The next leg depends on pricing and emerging markets. For Mondelez International, volume growth is only worth paying for if pricing covers input costs. Growth is only valuable if the new revenue earns a similar return to the existing business."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Revenue growth is +6.0%. A change in that figure would be the first signal of a shift."
+        "detail": "Same-store or same-customer growth shows demand without new locations. Revenue growth is 6.0%."
       },
       {
         "title": "Unit growth",
@@ -67,41 +67,41 @@ export const MDLZ: StockStory = {
       },
       {
         "title": "Margin mix",
-        "detail": "Return on invested capital is 8.9%. Private label, services and digital orders can lift profitability."
+        "detail": "Private label, services and digital orders can lift profitability. Return on invested capital is 8.9%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 12.8% in FY2018 to 9.2% in FY2025. The trailing operating margin is 13.7%, the net margin is 10.2% and diluted EPS is $3.18.",
-      "Return on equity was 15.3% and return on invested capital was 8.9%. Return on invested capital of 8.9% is close to the 15.3% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from 12.8% in FY2018 to 9.2% in FY2025. The trailing operating margin is 13.7%, the net margin is 10.2%, and diluted EPS is $3.18, up 19.1% year over year.",
+      "Return on equity of 15.3% and return on invested capital of 8.9% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.7B, a 9.2% margin. Net debt is $18.3B, or 2.7x EBITDA. Capital expenditure was 3.2% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $4.5B, or 184.2% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.3B in the latest fiscal year."
+      "Free cash flow was $3.7B, or 9.2% of revenue. Operating cash flow covered 184.2% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 3.2% of revenue, which is low relative to the revenue base.",
+      "Net debt is $18.3B, or 2.7x EBITDA. Interest cover is 9.2x. The balance sheet is manageable but not a source of upside; debt reduction competes with reinvestment for the cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 21.1x trailing earnings, 15.2x EV/EBITDA and 2.6x EV/sales. The free-cash-flow yield is 4.2%. The 4.7% earnings yield and 4.2% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against CAG, CHD and CLX; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $68.00, the shares trade at 21.1x trailing earnings and 15.2x EV/EBITDA, with a 4.2% free-cash-flow yield. The earnings yield is 4.7%. The multiple is a summary of expectations, not an independent estimate of value.",
+      "The multiple is mid-range for the peer group; the debate is about durability rather than a re-rating. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "22 analysts contribute to the third-party consensus. The mean target is $70.64, with a range of $56.00 to $77.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $39.9B of revenue and $3.05 of EPS. The estimate revisions in the dataset are 0.2% over 30 days and 0.2% over 90 days. The estimate is consistent with growth of 0.1% on the trailing revenue figure."
+      "22 analysts in the third-party consensus carry a mean target of $70.64, 3.9% above the latest close. The range runs from $56.00 to $77.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $39.9B of revenue and $3.05 of EPS. EPS estimates are up 0.2% over 30 days and up 0.2% over 90 days. That implies 0.1% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is pricing and emerging markets versus volume and cocoa costs.",
     "items": [
       {
-        "title": "Consumer spending",
+        "title": "Volume and cocoa costs",
         "severity": "High",
-        "detail": "Discretionary budgets are sensitive to confidence and rates.",
+        "detail": "The main risk is volume and cocoa costs.",
         "watch": "Comparable sales and transaction counts."
       },
       {
@@ -146,9 +146,9 @@ export const MDLZ: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Mondelez International, Inc. produced $39.9B of trailing revenue at a 13.7% operating margin and a 9.2% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "22 analysts in the third-party survey average $70.64 as of 2026-11-25, 3.9% above the latest close; the figure belongs to the analysts who published it, not to this report. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put valuation at 61/100 and balance sheet at 20/100, with the composite averaging 40/100. A 61/100 valuation score against a 20/100 balance sheet score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on valuation and the durability of 13.7% margins. $18.3B of net debt is the weak link.",
+      "What would change the view is leverage falling below 2.2x EBITDA, not a single quarter. The key exposure is volume and cocoa costs.",
+      "The scorecard averages 40/100, but the dispersion matters more: valuation is 61/100 and balance sheet is 20/100."
     ],
     "questions": [
       "Is growth coming from traffic or prices?",

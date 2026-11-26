@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const DHR: StockStory = {
   "ticker": "DHR",
   "kicker": "Healthcare Services & Devices · Diagnostics & Research",
-  "title": "Danaher Corporation: Life-science and diagnostics tools",
-  "dek": "Danaher Corporation reported $25.6B of trailing revenue at a 20.4% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Danaher: Life-science and diagnostics tools",
+  "dek": "Danaher's revenue rose 5.5% to $25.6B, at a 20.4% operating margin. The key risk is bioprocessing demand.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $25.6B trailing twelve months, +5.5% year over year.",
+    "Revenue: $25.6B, +5.5% year over year.",
     "Profitability: 20.4% operating margin and 16.9% net margin.",
     "Cash: $5.7B free cash flow, a 22.4% margin, against $22.9B of net debt.",
-    "Valuation: 37.3x trailing earnings and 30.7x EV/EBITDA at the latest close."
+    "Valuation: 37.3x trailing earnings and 30.7x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const DHR: StockStory = {
   "irUrl": "https://www.danaher.com",
   "bigPicture": {
     "paragraphs": [
-      "Danaher Corporation generated $25.6B of revenue over the last twelve months, +5.5% versus the prior year. The latest reported quarter was Q3 FY26, with $6.6B of revenue and a 19.0% operating margin. The shares closed at $229.35 on Nov 25, 2026, giving a market capitalization of $161.4B.",
-      "The largest disclosed segment is Diagnostics at 40.5% of revenue. Geographically, All Other Countries leads at 48.7% of the disclosed split. Danaher Corporation competes in Diagnostics & Research, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $161.4B, or 37.3x trailing earnings and 30.7x EV/EBITDA. The shares sit 84% of the way up their 52-week range ($160.93 to $242.80). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Danaher's revenue rose 5.5% to $25.6B at a 20.4% operating margin, generating $5.7B of free cash flow. The latest quarter (Q3 FY26) grew 8.3%. The operating margin and cash conversion are the next things to test.",
+      "Diagnostics is 40.5% of revenue and Life Sciences is 29.9%. All Other Countries is the largest geography at 48.7% of revenue. The near-term driver is bioprocessing recovery and margin. The risk is bioprocessing demand.",
+      "At $229.35, the equity is worth $161.4B, or 37.3x trailing earnings and 30.7x EV/EBITDA. The earnings multiple is 16.0% above the 32.1x peer median. The stock is 84% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Danaher sells life-science and diagnostics tools, a portfolio where bioprocessing demand and post-Covid normalisation drive growth."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Danaher Corporation designs, manufactures, and markets professional, medical, research, and industrial products and services in the United States, China, and internationally. The company operates through Biotechnology, Life Sciences, and Diagnostics segments.",
-      "The disclosed mix runs across Diagnostics at 40.5%, Life Sciences at 29.9% and Biotechnology at 29.7%. The company employed 58,000 people at the last reporting date. The revenue base is $25.6B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The peer set is TMO, IDXX and LH; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Danaher Corporation designs, manufactures, and markets professional, medical, research, and industrial products and services in the United States, China, and internationally.",
+      "Danaher earned a 58.6% gross margin, and manufacturing, R&D and hospital selling absorbed 38.2% of revenue, leaving a 20.4% operating margin. That is roughly in line with the peer median of 19.5%.",
+      "Capital spending runs at 4.5% of revenue, which is low relative to the revenue base. Net debt is $22.9B, or 3.8x EBITDA. Return on invested capital was 5.7%. That is 3.4 points below the peer median of 9.1%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$25.6B on a trailing-twelve-month basis, with the latest quarter at $6.6B."
+        "title": "Revenue mix",
+        "detail": "Diagnostics at 40.5%, Life Sciences at 29.9% and Biotechnology at 29.7%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 20.4%; free-cash-flow margin 22.4%; net margin 16.9%."
+        "title": "Margin engine",
+        "detail": "Gross margin 58.6%, operating margin 20.4%. Manufacturing, R&D and hospital selling are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $161.4B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 4.5% of revenue; $22.9B of net debt; ROIC 5.7%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 58.6%, operating margin is 20.4% and net margin is 16.9%. Gross profit was $15B, and 38.2% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "Net debt is $22.9B, or 3.8x EBITDA. Return on invested capital was 5.7% and return on equity was 8.1%. The return suggests the current capital base is earning a modest amount."
+      "Procedure volumes and the installed base drive consumable and device revenue. The edge is life-science and diagnostics tools.",
+      "The operating margin is 20.4%, roughly in line with the peer median of 19.5%. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.4% a year across the fiscal years in the dataset, and the latest quarter changed +8.3% year over year. Current-year estimates call for $26.3B of revenue and $8.59 of EPS.",
-      "The operating margin of 20.4% and return on invested capital of 5.7% are the filters to watch as revenue scales. Growth of 5.5% against a 20.4% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 5.4% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 8.3% year over year. The current-year consensus looks for $26.3B of revenue and $8.59 of EPS.",
+      "The next leg depends on bioprocessing recovery and margin. For Danaher, procedure growth is only worth paying for if the installed base and reimbursement hold."
     ],
     "bullets": [
       {
         "title": "Procedure growth",
-        "detail": "More procedures expand the consumable and device opportunity. The current reading: revenue growth is +5.5%."
+        "detail": "More procedures expand the consumable and device opportunity. Revenue growth is 5.5%."
       },
       {
         "title": "Installed base",
-        "detail": "The operating margin is 20.4%. That is the number to compare with the company's own history."
+        "detail": "Placed devices create recurring consumable and service revenue. The operating margin is 20.4%."
       },
       {
         "title": "New indications",
@@ -73,35 +73,35 @@ export const DHR: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 17.9% in FY2018 to 19.1% in FY2025. The trailing operating margin is 20.4%, the net margin is 16.9% and diluted EPS is $6.11.",
-      "Return on equity was 8.1% and return on invested capital was 5.7%. The two returns are within a few points, at 8.1% on equity and 5.7% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 17.9% in FY2018 to 19.1% in FY2025. The trailing operating margin is 20.4%, the net margin is 16.9%, and diluted EPS is $6.11, up 26.0% year over year.",
+      "Return on equity of 8.1% and return on invested capital of 5.7% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $5.7B, a 22.4% margin. Net debt is $22.9B, or 3.8x EBITDA. With capital spending at 4.5% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $6.4B, or 177.5% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.2B in the latest fiscal year."
+      "Free cash flow was $5.7B, or 22.4% of revenue. Operating cash flow covered 177.5% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 4.5% of revenue, which is low relative to the revenue base.",
+      "Net debt is $22.9B, or 3.8x EBITDA. Interest cover is 14.5x. The balance sheet is manageable but not a source of upside; debt reduction competes with reinvestment for the cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 37.3x trailing earnings, 30.7x EV/EBITDA and 7.2x EV/sales. The free-cash-flow yield is 3.5%. The trailing earnings yield is 2.7%, against a free-cash-flow yield of 3.5%.",
-      "The peer comparison sets the company against TMO, IDXX and LH; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $229.35, the shares trade at 37.3x trailing earnings and 30.7x EV/EBITDA, with a 3.5% free-cash-flow yield. The earnings yield is 2.7%. The earnings multiple is 16.0% above the 32.1x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "21 analysts contribute to the third-party consensus. The mean target is $259.86, with a range of $220.00 to $310.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $26.3B of revenue and $8.59 of EPS. The estimate revisions in the dataset are 0.1% over 30 days and 1.0% over 90 days. If met, the estimate would mean growth of 2.6% from the current base."
+      "21 analysts in the third-party consensus carry a mean target of $259.86, 13.3% above the latest close. The range runs from $220.00 to $310.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $26.3B of revenue and $8.59 of EPS. EPS estimates are little changed over 30 days and up 1.0% over 90 days. That implies 2.6% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is bioprocessing recovery and margin versus bioprocessing demand.",
     "items": [
       {
-        "title": "Reimbursement",
+        "title": "Bioprocessing demand",
         "severity": "High",
-        "detail": "Coverage and procedure codes determine adoption and price.",
+        "detail": "The main risk is bioprocessing demand.",
         "watch": "Payer decisions and coding updates."
       },
       {
@@ -146,9 +146,9 @@ export const DHR: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Danaher Corporation produced $25.6B of trailing revenue at a 20.4% operating margin and a 22.4% free-cash-flow margin. The business converts an unusually large share of revenue into cash, and the multiple depends on that continuing.",
-      "Third-party analysts put the mean target at $259.86 as of 2026-11-25, 13.3% above the latest close; this report does not publish a target of its own. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put cash generation at 71/100 and balance sheet at 11/100, with the composite averaging 39/100. The average hides a strong cash generation reading and a weak balance sheet one, which is why the spread is the more useful description."
+      "The investment case rests on cash generation and the durability of 20.4% margins. $22.9B of net debt is the weak link.",
+      "What would change the view is leverage falling below 3.3x EBITDA, not a single quarter. The key exposure is bioprocessing demand.",
+      "On the scorecard, the composite is 39/100. The spread between cash generation and balance sheet is the useful part; the average hides it."
     ],
     "questions": [
       "How much revenue is recurring versus capital equipment?",

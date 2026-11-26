@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const KMI: StockStory = {
   "ticker": "KMI",
   "kicker": "Energy · Oil & Gas Midstream",
-  "title": "Kinder Morgan, Inc: Natural-gas pipelines and terminals",
-  "dek": "Kinder Morgan, Inc. reported $16.7B of trailing revenue at a 31.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Kinder Morgan: Natural-gas pipelines and terminals",
+  "dek": "Kinder Morgan's revenue rose 13.4% to $16.7B, at a 31.7% operating margin. The key risk is volumes and contract rates.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $16.7B trailing twelve months, +13.4% year over year.",
+    "Revenue: $16.7B, +13.4% year over year.",
     "Profitability: 31.7% operating margin and 21.5% net margin.",
     "Cash: $3.1B free cash flow, an 18.4% margin, against $32.2B of net debt.",
-    "Valuation: 19.5x trailing earnings and 13.1x EV/EBITDA at the latest close."
+    "Valuation: 19.5x trailing earnings and 13.1x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,91 +18,91 @@ export const KMI: StockStory = {
   "irUrl": "https://www.kindermorgan.com",
   "bigPicture": {
     "paragraphs": [
-      "Kinder Morgan, Inc. generated $16.7B of revenue over the last twelve months, +13.4% versus the prior year. The latest reported quarter was Q3 FY26, with $4.2B of revenue and a 27.7% operating margin. The shares closed at $31.60 on Nov 25, 2026, giving a market capitalization of $70.4B.",
-      "Natural Gas Pipelines accounts for 72.3% of disclosed revenue. Revenue is disclosed across 2 geographies, with United States the largest at 111.3%. Kinder Morgan, Inc. competes in Oil & Gas Midstream, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $70.4B, or 19.5x trailing earnings and 13.1x EV/EBITDA. The shares sit 63% of the way up their 52-week range ($26.24 to $34.81). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "Kinder Morgan's revenue rose 13.4% to $16.7B at a 31.7% operating margin, generating $3.1B of free cash flow. The latest quarter (Q3 FY26) grew 12.4%.",
+      "Natural Gas Pipelines is 72.3% of revenue and Products Pipelines is 17.7%. The US is the largest geography at 111.3% of revenue. What could lift the return is gas demand and expansion projects. The thing to watch is volumes and contract rates.",
+      "At $31.60, the equity is worth $70.4B, or 19.5x trailing earnings and 13.1x EV/EBITDA. The earnings multiple is 2.9% below the 20.1x peer median. The stock is 63% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Kinder Morgan owns natural-gas pipelines and terminals, a fee-based midstream business where volumes, contract rates and capex drive cash flow."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Kinder Morgan, Inc. operates as an energy infrastructure company primarily in North America. The business is part of the Energy group and reports under Energy in the current classification.",
-      "The disclosed mix runs across Natural Gas Pipelines at 72.3%, Products Pipelines at 17.7% and Co2 at 7.7%. Headcount was 11,028 in the latest filing. The revenue base is $16.7B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "Against WMB, LNG and OKE, the relevant tests are pricing power, capital intensity and cash conversion."
+      "Kinder Morgan, Inc. operates as an energy infrastructure company primarily in North America.",
+      "Kinder Morgan does not report a product gross margin; lifting costs, royalties and maintenance sit inside the operating line, leaving a 31.7% operating margin. That is 4.3 points above the peer median of 27.5%.",
+      "Capex is 18.1% of revenue, so the business is capital-hungry. Net debt is $32.2B, or 4.1x EBITDA. Return on invested capital was 6.4%. That is 3.5 points below the peer median of 9.9%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$16.7B on a trailing-twelve-month basis, with the latest quarter at $4.2B."
+        "title": "Revenue mix",
+        "detail": "Natural Gas Pipelines at 72.3%, Products Pipelines at 17.7% and Co2 at 7.7%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 31.7%; free-cash-flow margin 18.4%; net margin 21.5%."
+        "title": "Margin engine",
+        "detail": "Operating margin 31.7%. Lifting costs, royalties and maintenance are the main cost line, so the operating margin is the scorecard for cost discipline."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $70.4B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 18.1% of revenue; $32.2B of net debt; ROIC 6.4%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 31.7% is the first clean profitability line. Cash flow is a function of commodity prices, production volumes and capital discipline.",
-      "Net debt is $32.2B, or 4.1x EBITDA. Return on invested capital was 6.4% and return on equity was 11.4%. The return suggests the current capital base is earning a modest amount."
+      "Commodity prices, production volumes and differentials drive revenue and cash flow. The edge is natural-gas pipeline network.",
+      "The operating margin is 31.7%, 4.3 points above the peer median of 27.5%. The next dollar of revenue matters less than the margin it carries."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 1.9% a year across the fiscal years in the dataset, and the latest quarter changed +12.4% year over year. Current-year estimates call for $18.4B of revenue and $1.58 of EPS.",
-      "The operating margin of 31.7% and return on invested capital of 6.4% are the filters to watch as revenue scales. With a 31.7% margin, the growth rate matters less than whether the margin is repeatable."
+      "Revenue compounded at 1.9% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 12.4% year over year. The current-year consensus looks for $18.4B of revenue and $1.58 of EPS.",
+      "The next leg depends on gas demand and expansion projects. For Kinder Morgan, production growth is only worth paying for if the reinvestment return clears the cost of capital."
     ],
     "bullets": [
       {
         "title": "Commodity prices",
-        "detail": "Revenue growth is +13.4%. Oil, gas and power prices flow quickly into revenue and cash flow."
+        "detail": "Oil, gas and power prices flow quickly into revenue and cash flow. Revenue growth is 13.4%."
       },
       {
         "title": "Production growth",
-        "detail": "Volumes from existing and new projects determine the revenue base. The current reading: the operating margin is 31.7%."
+        "detail": "Volumes from existing and new projects determine the revenue base. The operating margin is 31.7%."
       },
       {
         "title": "Capital discipline",
-        "detail": "Return on invested capital is 6.4%. The next data point will show whether the trend is intact."
+        "detail": "Lower reinvestment can lift free cash flow and returns. Return on invested capital is 6.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 28.5% in FY2018 to 31.1% in FY2025. The trailing operating margin is 31.7%, the net margin is 21.5% and diluted EPS is $1.62.",
-      "Return on equity was 11.4% and return on invested capital was 6.4%. The two returns are within a few points, at 11.4% on equity and 6.4% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 28.5% in FY2018 to 31.1% in FY2025. The trailing operating margin is 31.7%, the net margin is 21.5%, and diluted EPS is $1.62, up 32.8% year over year.",
+      "Return on equity of 11.4% and return on invested capital of 6.4% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.1B, an 18.4% margin. Net debt is $32.2B, or 4.1x EBITDA. With capital spending at 18.1% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $5.9B, or 193.6% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $3B in the latest fiscal year."
+      "Free cash flow was $3.1B, or 18.4% of revenue. Operating cash flow covered 193.6% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 18.1% of revenue, which is a meaningful claim on cash.",
+      "Net debt is $32.2B, or 4.1x EBITDA. Leverage is the constraint: the equity is sensitive to refinancing costs and a slower cash flow. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 19.5x trailing earnings, 13.1x EV/EBITDA and 6.1x EV/sales. The free-cash-flow yield is 4.4%. The trailing earnings yield is 5.1%, against a free-cash-flow yield of 4.4%.",
-      "The peer comparison sets the company against WMB, LNG and OKE; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $31.60, the shares trade at 19.5x trailing earnings and 13.1x EV/EBITDA, with a 4.4% free-cash-flow yield. The earnings yield is 5.1%. The earnings multiple is 2.9% below the 20.1x peer median.",
+      "The multiple is in line with the peer median, so the debate is company-specific. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "22 analysts contribute to the third-party consensus. The mean target is $37.36, with a range of $32.00 to $43.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $18.4B of revenue and $1.58 of EPS. The estimate revisions in the dataset are 1.2% over 30 days and 1.9% over 90 days. Set against trailing revenue, the estimate implies growth of 9.6%."
+      "22 analysts in the third-party consensus carry a mean target of $37.36, 18.2% above the latest close. The range runs from $32.00 to $43.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $18.4B of revenue and $1.58 of EPS. EPS estimates are up 1.2% over 30 days and up 1.9% over 90 days. That implies 9.6% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is gas demand and expansion projects versus volumes and contract rates.",
     "items": [
       {
-        "title": "Leverage",
+        "title": "Volumes and contract rates",
         "severity": "High",
-        "detail": "Net debt is $32.2B, or 4.1x EBITDA, which leaves the equity sensitive to refinancing costs and a slower cash flow.",
-        "watch": "Leverage, interest cover and the maturity profile."
+        "detail": "The main risk is volumes and contract rates.",
+        "watch": "Realised prices and hedging."
       },
       {
         "title": "Reserve and project risk",
@@ -146,9 +146,9 @@ export const KMI: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Kinder Morgan, Inc. produced $16.7B of trailing revenue at a 31.7% operating margin and an 18.4% free-cash-flow margin. Net debt of $32.2B, or 4.1x EBITDA, is the constraint that shapes the equity story.",
-      "Analysts contributing to the third-party consensus carry a $37.36 mean target as of 2026-11-25, 18.2% above the latest close; the forecast is theirs, and this report does not adopt it as a target.",
-      "The factor percentiles put valuation at 68/100 and balance sheet at 10/100, with the composite averaging 51/100. The average hides a strong valuation reading and a weak balance sheet one, which is why the spread is the more useful description."
+      "The investment case rests on valuation and the durability of 31.7% margins. $32.2B of net debt is the weak link.",
+      "What would change the view is leverage falling below 3.6x EBITDA, not a single quarter. The key exposure is volumes and contract rates.",
+      "The scorecard puts the composite at 51/100. Focus on the valuation-to-balance sheet spread rather than the average."
     ],
     "questions": [
       "What price is needed to cover capex and the dividend?",

@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const NUE: StockStory = {
   "ticker": "NUE",
   "kicker": "Materials & Mining · Steel",
-  "title": "Nucor Corporation: A steel producer and recycler",
-  "dek": "Nucor Corporation reported $38.8B of trailing revenue at a 13.1% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Nucor: A steel producer and recycler",
+  "dek": "Nucor's revenue rose 21.8% to $38.8B, at a 13.1% operating margin. The key risk is steel prices and utilization.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $38.8B trailing twelve months, +21.8% year over year.",
+    "Revenue: $38.8B, +21.8% year over year.",
     "Profitability: 13.1% operating margin and 9.3% net margin.",
     "Cash: $2.7B free cash flow, a 6.8% margin, against $2.9B of net debt.",
-    "Valuation: 15.5x trailing earnings and 9.2x EV/EBITDA at the latest close."
+    "Valuation: 15.5x trailing earnings and 9.2x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const NUE: StockStory = {
   "irUrl": "https://nucor.com",
   "bigPicture": {
     "paragraphs": [
-      "Nucor Corporation generated $38.8B of revenue over the last twelve months, +21.8% versus the prior year. The latest reported quarter was Q3 FY26, with $11.2B of revenue and a 16.6% operating margin. The shares closed at $248.13 on Nov 25, 2026, giving a market capitalization of $55.8B.",
-      "Steel Mills is 61.6% of the disclosed revenue mix. The filing extract does not break revenue out by geography. Nucor Corporation competes in Steel, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $55.8B, or 15.5x trailing earnings and 9.2x EV/EBITDA. The shares sit 70% of the way up their 52-week range ($155.00 to $287.70). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Nucor's revenue rose 21.8% to $38.8B at a 13.1% operating margin, generating $2.7B of free cash flow. The latest quarter (Q3 FY26) grew 32.0%. The next test is whether the current profitability can be sustained.",
+      "Steel Mills is 61.6% of revenue and Raw Materials is 32.6%. The catalyst is mill utilization and infrastructure demand. The exposure is steel prices and utilization.",
+      "At $248.13, the equity is worth $55.8B, or 15.5x trailing earnings and 9.2x EV/EBITDA. The stock is 70% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Nucor is a steel producer and recycler, a commodity business where mill utilisation, scrap spreads and end-market demand drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Nucor Corporation engages in the manufacture and sale of steel and steel products. The company operates in three segments: Steel Mills, Steel Products, and Raw Materials. Nucor Corporation sits in the Steel industry, one of the Materials & Mining names in this library.",
-      "The disclosed mix runs across Steel Mills at 61.6%, Raw Materials at 32.6% and Corporate / other at 5.8%. The last disclosure put headcount at 33,000 people. With $38.8B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The closest listed comparisons are AEM, ALB and APD; the useful question is how Nucor Corporation's margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Nucor Corporation engages in the manufacture and sale of steel and steel products.",
+      "Nucor earned an 11.9% gross margin, and energy, feedstock and maintenance absorbed -1.2% of revenue, leaving a 13.1% operating margin. ",
+      "Capital spending runs at 8.8% of revenue, which is a meaningful claim on cash flow. Net debt is $2.9B, or 0.5x EBITDA. Return on invested capital was 13.8%. "
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$38.8B on a trailing-twelve-month basis, with the latest quarter at $11.2B."
+        "title": "Revenue mix",
+        "detail": "Steel Mills at 61.6%, Raw Materials at 32.6% and Corporate / other at 5.8%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 13.1%; free-cash-flow margin 6.8%; net margin 9.3%."
+        "title": "Margin engine",
+        "detail": "Gross margin 11.9%, operating margin 13.1%. Energy, feedstock and maintenance are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $55.8B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 8.8% of revenue; $2.9B of net debt; ROIC 13.8%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 11.9% of revenue after cost of sales, or $4.6B. Operating expenses absorbed -1.2% of revenue, leaving a 13.1% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $2.9B, or 0.5x EBITDA. Return on invested capital was 13.8% and return on equity was 15.8%. The return is close enough to the cost of capital that small changes in margin matter."
+      "Commodity prices, volumes and input costs drive revenue and margin. The edge is low-cost steel and recycling.",
+      "The operating margin is 13.1%. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.8% a year across the fiscal years in the dataset, and the latest quarter changed +32.0% year over year. Current-year estimates call for $41.7B of revenue and $19.98 of EPS.",
-      "The operating margin of 13.1% and return on invested capital of 13.8% are the filters to watch as revenue scales. The 21.8% revenue pace and 13.1% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 3.8% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 32.0% year over year. The current-year consensus looks for $41.7B of revenue and $19.98 of EPS.",
+      "The next leg depends on mill utilization and infrastructure demand. For Nucor, volume growth is only worth paying for if the price-cost spread holds. The consensus estimate is the first test; the second is whether incremental revenue carries the same margin as the base."
     ],
     "bullets": [
       {
         "title": "Volume",
-        "detail": "Shipments show underlying industrial demand. Revenue growth is +21.8%."
+        "detail": "Shipments show underlying industrial demand. Revenue growth is 21.8%."
       },
       {
         "title": "Price and mix",
-        "detail": "The operating margin is 13.1%. Product mix and pricing determine margin per ton."
+        "detail": "Product mix and pricing determine margin per ton. The operating margin is 13.1%."
       },
       {
         "title": "Cost position",
-        "detail": "Low-cost assets can earn through the cycle. The current reading: return on invested capital is 13.8%."
+        "detail": "Low-cost assets can earn through the cycle. Return on invested capital is 13.8%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 12.9% in FY2018 to 7.9% in FY2025. The trailing operating margin is 13.1%, the net margin is 9.3% and diluted EPS is $15.71.",
-      "Return on equity was 15.8% and return on invested capital was 13.8%. With return on equity at 15.8% and return on invested capital at 13.8%, leverage is not the main driver of the gap."
+      "The operating margin moved from 12.9% in FY2018 to 7.9% in FY2025. The trailing operating margin is 13.1%, the net margin is 9.3%, and diluted EPS is $15.71, up 120.6% year over year.",
+      "Return on equity of 15.8% and return on invested capital of 13.8% are close enough that operating performance explains most of the return. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $2.7B, a 6.8% margin. Net debt is $2.9B, or 0.5x EBITDA. Capex absorbed 8.8% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $3.2B, or 185.4% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $3.4B in the latest fiscal year."
+      "Free cash flow was $2.7B, or 6.8% of revenue. Operating cash flow covered 185.4% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 8.8% of revenue, which is a meaningful claim on cash.",
+      "Net debt is $2.9B, or 0.5x EBITDA. Interest cover is 36.6x. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 15.5x trailing earnings, 9.2x EV/EBITDA and 1.5x EV/sales. The free-cash-flow yield is 4.8%. Inverting the P/E gives an earnings yield of 6.4%; the cash-flow yield is 4.8%.",
-      "The peer comparison sets the company against AEM, ALB and APD; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $248.13, the shares trade at 15.5x trailing earnings and 9.2x EV/EBITDA, with a 4.8% free-cash-flow yield. The earnings yield is 6.4%. The market's expectation is embedded in the price; the question is whether it is too high or too low.",
+      "The multiple is mid-range for the peer group; the debate is about durability rather than a re-rating. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "16 analysts contribute to the third-party consensus. The mean target is $304.56, with a range of $226.00 to $345.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $41.7B of revenue and $19.98 of EPS. The estimate revisions in the dataset are 2.5% over 30 days and 6.7% over 90 days. That implies growth of 7.5% over the trailing twelve months."
+      "16 analysts in the third-party consensus carry a mean target of $304.56, 22.7% above the latest close. The range runs from $226.00 to $345.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $41.7B of revenue and $19.98 of EPS. EPS estimates are up 2.5% over 30 days and up 6.7% over 90 days. That implies 7.5% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is mill utilization and infrastructure demand versus steel prices and utilization.",
     "items": [
       {
-        "title": "Commodity cycle",
+        "title": "Steel prices and utilization",
         "severity": "High",
-        "detail": "Prices can fall faster than costs.",
+        "detail": "The main risk is steel prices and utilization.",
         "watch": "Realised prices and inventory."
       },
       {
@@ -146,9 +146,9 @@ export const NUE: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Nucor Corporation produced $38.8B of trailing revenue at a 13.1% operating margin and a 6.8% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The published consensus mean is $304.56 (2026-11-25), 22.7% above the latest close; it is a consensus view, not a recommendation from Stockmonk. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 81/100 and cash generation at 28/100, with the composite averaging 59/100. The gap between valuation at 81/100 and cash generation at 28/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on valuation and the durability of 13.1% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above 9.8%, not a single quarter. The key exposure is steel prices and utilization.",
+      "The composite of 59/100 blends a strong valuation reading with a weak cash generation one; the gap is the story."
     ],
     "questions": [
       "What is the mid-cycle margin?",

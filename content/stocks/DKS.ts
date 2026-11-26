@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const DKS: StockStory = {
   "ticker": "DKS",
   "kicker": "Consumer Retail & Leisure · Specialty Retail",
-  "title": "DICK'S Sporting Goods, Inc: A sporting-goods retailer",
-  "dek": "DICK'S Sporting Goods, Inc. reported $21.1B of trailing revenue at a 5.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "DICK'S Sporting Goods: A sporting-goods retailer",
+  "dek": "DICK'S Sporting Goods' revenue rose 53.5% to $21.1B, at a 5.5% operating margin. The key risk is foot Locker integration and consumer demand.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $21.1B trailing twelve months, +53.5% year over year.",
+    "Revenue: $21.1B, +53.5% year over year.",
     "Profitability: 5.5% operating margin and 4.0% net margin.",
     "Cash: $239.4M free cash flow, a 1.1% margin, against $913.7M of net cash.",
-    "Valuation: 17.0x trailing earnings and 7.5x EV/EBITDA at the latest close."
+    "Valuation: 17.0x trailing earnings and 7.5x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const DKS: StockStory = {
   "irUrl": "https://www.dickssportinggoods.com",
   "bigPicture": {
     "paragraphs": [
-      "DICK'S Sporting Goods, Inc. generated $21.1B of revenue over the last twelve months, +53.5% versus the prior year. The latest reported quarter was Q2 FY27, with $5.6B of revenue and a 7.9% operating margin. The shares closed at $160.11 on Nov 25, 2026, giving a market capitalization of $14.2B.",
-      "The largest disclosed segment is DICKS at 82.0% of revenue. Geographically, United States leads at 82.0% of the disclosed split. DICK'S Sporting Goods, Inc. competes in Specialty Retail, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $14.2B, or 17.0x trailing earnings and 7.5x EV/EBITDA. The shares sit 32% of the way up their 52-week range ($120.15 to $244.38). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "DICK'S Sporting Goods' revenue rose 53.5% to $21.1B at a 5.5% operating margin, generating $239.4M of free cash flow. The latest quarter (Q2 FY27) grew 53.2%.",
+      "DICKS is 82.0% of revenue and Foot Locker is 18.0%. The US is the largest geography at 82.0% of revenue. The near-term driver is comparable sales and margin. The risk is foot Locker integration and consumer demand.",
+      "At $160.11, the equity is worth $14.2B, or 17.0x trailing earnings and 7.5x EV/EBITDA. The earnings multiple is 35.4% below the 26.3x peer median. The stock is 32% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Dick's is a sporting-goods retailer, so comparable sales, Foot Locker integration and inventory turns drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "DICK'S Sporting Goods, Inc., together with its subsidiaries, operates as an omni-channel sporting goods retailer primarily in the United States. DICK'S Sporting Goods, Inc. is a Specialty Retail company within the Consumer Retail & Leisure coverage group.",
-      "The disclosed mix runs across DICKS at 82.0% and Foot Locker at 18.0%. The company employed 31,600 people at the last reporting date. With $21.1B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The peer set is CASY and FIVE; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "DICK'S Sporting Goods, Inc., together with its subsidiaries, operates as an omni-channel sporting goods retailer primarily in the United States.",
+      "DICK'S Sporting Goods earned a 32.1% gross margin, and cost of goods, occupancy and labor absorbed 26.5% of revenue, leaving a 5.5% operating margin. That is 4.0 points below the peer median of 9.5%.",
+      "Capital spending runs at 5.4% of revenue, which is low relative to the revenue base. The balance sheet carries $913.7M of net cash. Return on invested capital was 14.6%. That is 1.6 points below the peer median of 16.3%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$21.1B on a trailing-twelve-month basis, with the latest quarter at $5.6B."
+        "title": "Revenue mix",
+        "detail": "DICKS at 82.0% and Foot Locker at 18.0%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 5.5%; free-cash-flow margin 1.1%; net margin 4.0%."
+        "title": "Margin engine",
+        "detail": "Gross margin 32.1%, operating margin 5.5%. Cost of goods, occupancy and labor are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $14.2B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 5.4% of revenue; $913.7M of net cash; ROIC 14.6%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 32.1% of revenue after cost of sales, or $6.8B. Operating expenses absorbed 26.5% of revenue, leaving a 5.5% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "The balance sheet carries $913.7M of net cash. Return on invested capital was 14.6% and return on equity was 14.7%. The return is close enough to the cost of capital that small changes in margin matter."
+      "Traffic, basket size and inventory turns drive revenue; markdowns and occupancy drive the margin. The edge is sporting-goods scale and partnerships.",
+      "The operating margin is 5.5%, 4.0 points below the peer median of 9.5%. Inventory turns and markdown discipline decide whether volume growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.7% a year across the fiscal years in the dataset, and the latest quarter changed +53.2% year over year. Current-year estimates call for $22.1B of revenue and $11.64 of EPS.",
-      "The operating margin of 5.5% and return on invested capital of 14.6% are the filters to watch as revenue scales. Revenue is growing faster than profit, which means the current margin understates the operating leverage still to come if the model scales."
+      "Revenue compounded at 10.7% a year from FY2019 to FY2026. The latest quarter (Q2 FY27) grew 53.2% year over year. The current-year consensus looks for $22.1B of revenue and $11.64 of EPS.",
+      "The next leg depends on comparable sales and margin. The growth rate is doing the work; the margin has to catch up for the model to earn its cost of capital."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Same-store growth shows demand without new square footage. The current reading: revenue growth is +53.5%."
+        "detail": "Same-store growth shows demand without new square footage. Revenue growth is 53.5%."
       },
       {
         "title": "Unit growth",
-        "detail": "The operating margin is 5.5%. The next data point will show whether the trend is intact."
+        "detail": "New stores and markets expand the revenue base but carry fixed costs. The operating margin is 5.5%."
       },
       {
         "title": "Merchandise margin",
@@ -73,35 +73,35 @@ export const DKS: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 5.3% in FY2019 to 6.4% in FY2026. The trailing operating margin is 5.5%, the net margin is 4.0% and diluted EPS is $9.21.",
-      "Return on equity was 14.7% and return on invested capital was 14.6%. With return on equity at 14.7% and return on invested capital at 14.6%, leverage is not the main driver of the gap."
+      "The operating margin moved from 5.3% in FY2019 to 6.4% in FY2026. The trailing operating margin is 5.5%, the net margin is 4.0%, and diluted EPS is $9.21, down 35.7% year over year.",
+      "Return on equity of 14.7% and return on invested capital of 14.6% are close enough that operating performance explains most of the return. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $239.4M, a 1.1% margin. The balance sheet carries $913.7M of net cash. Capex absorbed 5.4% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $1.5B, or 181.0% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.1B in the latest fiscal year."
+      "Free cash flow was $239.4M, or 1.1% of revenue. Operating cash flow covered 181.0% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 5.4% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $913.7M of net cash. Interest cover is 16.4x. The net cash position is optionality: it can fund investment, acquisitions or returns."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 17.0x trailing earnings, 7.5x EV/EBITDA and 0.6x EV/sales. The free-cash-flow yield is 1.7%. Inverting the P/E gives an earnings yield of 5.9%; the cash-flow yield is 1.7%.",
-      "The peer comparison sets the company against CASY and FIVE; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $160.11, the shares trade at 17.0x trailing earnings and 7.5x EV/EBITDA, with a 1.7% free-cash-flow yield. The earnings yield is 5.9%. The earnings multiple is 35.4% below the 26.3x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "24 analysts contribute to the third-party consensus. The mean target is $159.50, with a range of $99.00 to $205.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $22.1B of revenue and $11.64 of EPS. The estimate revisions in the dataset are 1.8% over 30 days and -1.0% over 90 days. If met, the estimate would mean growth of 4.5% from the current base."
+      "24 analysts in the third-party consensus carry a mean target of $159.50, 0.4% below the latest close. The range runs from $99.00 to $205.00. The target range is wide enough that the mean should be read with caution. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $22.1B of revenue and $11.64 of EPS. EPS estimates are up 1.8% over 30 days and down 1.0% over 90 days. That implies 4.5% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is comparable sales and margin versus foot Locker integration and consumer demand.",
     "items": [
       {
-        "title": "Consumer spending",
+        "title": "Foot Locker integration and consumer demand",
         "severity": "High",
-        "detail": "Discretionary budgets are sensitive to confidence and rates.",
+        "detail": "The main risk is foot Locker integration and consumer demand.",
         "watch": "Comparable sales and transaction counts."
       },
       {
@@ -146,9 +146,9 @@ export const DKS: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "DICK'S Sporting Goods, Inc. produced $21.1B of trailing revenue at a 5.5% operating margin and a 1.1% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The published consensus mean is $159.50 (2026-11-25), essentially at the latest close; it is included for attribution, not as a Stockmonk call. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 83/100 and cash generation at 15/100, with the composite averaging 54/100. The gap between valuation at 83/100 and cash generation at 15/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on valuation and the durability of 5.5% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above 4.1%, not a single quarter. The key exposure is foot Locker integration and consumer demand.",
+      "On the scorecard, the composite is 54/100. The spread between valuation and cash generation is the useful part; the average hides it."
     ],
     "questions": [
       "Is growth coming from traffic or price?",

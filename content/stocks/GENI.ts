@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const GENI: StockStory = {
   "ticker": "GENI",
   "kicker": "Internet Platforms · Internet Content & Information",
-  "title": "Genius Sports Limited: Sports data and betting technology",
-  "dek": "Genius Sports Limited reported $669.5M of trailing revenue at a -22.6% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Genius Sports: Sports data and betting technology",
+  "dek": "Genius Sports' revenue rose 31.0% to $669.5M, at a -22.6% operating margin. The key risk is league rights and betting volumes.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $669.5M trailing twelve months, +31.0% year over year.",
+    "Revenue: $669.5M, +31.0% year over year.",
     "Profitability: -22.6% operating margin and -16.7% net margin.",
     "Cash: $64.5M free cash flow, a 9.6% margin, against $280.6M of net cash.",
-    "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
+    "Valuation: no meaningful earnings multiple and no meaningful EV/EBITDA multiple."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const GENI: StockStory = {
   "irUrl": "https://www.geniussports.com",
   "bigPicture": {
     "paragraphs": [
-      "Genius Sports Limited generated $669.5M of revenue over the last twelve months, +31.0% versus the prior year. Quarterly detail is missing, so the trailing figures carry the analysis. The shares closed at $5.70 on Nov 25, 2026, giving a market capitalization of $1.5B.",
-      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. By geography, Americas is the largest disclosed market at 47.2% of revenue. Genius Sports Limited competes in Internet Content & Information, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $1.5B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 24% of the way up their 52-week range ($3.83 to $11.58). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Genius Sports' revenue rose 31.0% to $669.5M at a -22.6% operating margin, generating $64.5M of free cash flow. The margin and the multiple are the two numbers that matter from here.",
+      "Revenue is reported as one consolidated line. Americas is the largest geography at 47.2% of revenue. The upside is new leagues and margin. What would break it is league rights and betting volumes.",
+      "At $5.70, the equity is worth $1.5B, or no meaningful earnings multiple and no meaningful EV/EBITDA multiple. The stock is 24% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Genius Sports provides sports data and betting technology, so league rights, betting volumes and margin mix drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Genius Sports Limited provides technology-led products and services to the sports, sports betting, and sports media industries in the Americas, Europe, and internationally. It offers technology infrastructure for the collection, integration, and distribution of live optical tracking, event data, and video for league's operations; streaming solutions comprising technology, automatic production, and distribution for sports to commercialize video footage of their games; and end-to-end integrity services to sports leagues, such as full-time active monitoring technology, which uses mathematical algorithms to identify and flag suspicious betting activity in global betting markets, as well as a full suite of online and offline educational and consultancy services.",
-      "Revenue is reported at the consolidated level only. Its latest filing lists 2,000 employees. The revenue base is $669.5M on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "GOOGL, META and SPOT provide the closest reference points for margin, growth and valuation."
+      "Genius Sports Limited provides technology-led products and services to the sports, sports betting, and sports media industries in the Americas, Europe, and internationally.",
+      "Genius Sports earned a 23.0% gross margin, and fulfillment, incentives and technology absorbed 45.6% of revenue, leaving a -22.6% operating margin. That is 43.7 points below the peer median of 21.1%.",
+      "Capex is 3.3% of revenue, so the business is asset-light. The balance sheet carries $280.6M of net cash. Return on invested capital was -18.4%. That is 37.1 points below the peer median of 18.6%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$669.5M on a trailing-twelve-month basis; a dated quarter is not available in the dataset."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -22.6%; free-cash-flow margin 9.6%; net margin -16.7%."
+        "title": "Margin engine",
+        "detail": "Gross margin 23.0%, operating margin -22.6%. Fulfillment, incentives and technology are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $1.5B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.3% of revenue; $280.6M of net cash; ROIC -18.4%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 23.0%, operating margin is -22.6% and net margin is -16.7%. Gross profit was $153.8M, and 45.6% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "The balance sheet carries $280.6M of net cash. Return on invested capital was -18.4% and return on equity was -15.4%. With returns below zero, growth only creates value if the model reaches profitability at scale."
+      "User growth, transaction volume and take rate drive revenue. The edge is sports data and betting technology.",
+      "The operating margin is -22.6%, 43.7 points below the peer median of 21.1%. The shape of the incremental margin will decide whether growth creates value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 34.2% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. Current-year estimates call for $1B of revenue and $0.62 of EPS.",
-      "The operating margin of -22.6% and return on invested capital of -18.4% are the filters to watch as revenue scales. The 31.0% top-line pace has not yet produced a thick margin; incremental revenue needs to carry more of the cost base."
+      "Revenue compounded at 34.2% a year from FY2019 to FY2025. The current-year consensus looks for $1B of revenue and $0.62 of EPS. The pace of growth matters less than whether it carries the same margin as the base.",
+      "The next leg depends on new leagues and margin. Growth is outrunning the margin; the question is whether scale eventually pays for itself. The next filing should show whether the pace came from demand, pricing or acquisitions."
     ],
     "bullets": [
       {
         "title": "User and engagement growth",
-        "detail": "Revenue growth is +31.0%. Compare that with the prior year before drawing a conclusion."
+        "detail": "More active users and frequency expand the inventory available to monetise. Revenue growth is 31.0%."
       },
       {
         "title": "Take rate",
@@ -67,42 +67,42 @@ export const GENI: StockStory = {
       },
       {
         "title": "Adjacent services",
-        "detail": "Return on invested capital is -18.4%. Advertising, logistics, payments and subscriptions can lift revenue per user."
+        "detail": "Advertising, logistics, payments and subscriptions can lift revenue per user. Return on invested capital is -18.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -31.6% in FY2019 to -22.6% in FY2025. The trailing operating margin is -22.6%, the net margin is -16.7% and diluted EPS is -$0.44.",
-      "Return on equity was -15.4% and return on invested capital was -18.4%. Negative equity and invested-capital returns mean the loss is operational, not financial engineering. A peer median is a useful anchor, but the company's own trajectory is the better test."
+      "The operating margin moved from -31.6% in FY2019 to -22.6% in FY2025. The trailing operating margin is -22.6%, the net margin is -16.7%, and diluted EPS is -$0.44, up 63.0% year over year.",
+      "With both returns below zero, the thesis depends on reaching profitability, not on financial engineering. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $64.5M, a 9.6% margin. The balance sheet carries $280.6M of net cash. With capital spending at 3.3% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $21.9M in the latest fiscal year."
+      "Free cash flow was $64.5M, or 9.6% of revenue. Capex absorbed 3.3% of revenue, which is low relative to the revenue base. Operating cash flow and the balance sheet are the better tests at this stage.",
+      "The balance sheet carries $280.6M of net cash. Management can fund the next phase without needing the capital markets. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 1.9x EV/sales. The free-cash-flow yield is 4.2%. Earnings are not a useful anchor here, so the free-cash-flow yield is the cleaner valuation reference.",
-      "The peer comparison sets the company against GOOGL, META and SPOT; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $5.70, the shares trade at no meaningful earnings multiple and no meaningful EV/EBITDA multiple, with a 4.2% free-cash-flow yield. A multiple only means something relative to growth, returns and the cost of capital.",
+      "No earnings multiple is meaningful, so the market is valuing the asset base or the pipeline rather than current profit. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "21 analysts contribute to the third-party consensus. The mean target is $10.24, with a range of $6.00 to $15.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $1B of revenue and $0.62 of EPS. The estimate revisions in the dataset are 0.0% over 30 days and 19.2% over 90 days. The estimate is consistent with growth of 53.0% on the trailing revenue figure."
+      "21 analysts in the third-party consensus carry a mean target of $10.24, 79.5% above the latest close. The range runs from $6.00 to $15.00. The target range is wide enough that the mean should be read with caution. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $1B of revenue and $0.62 of EPS. EPS estimates are little changed over 30 days and up 19.2% over 90 days. That implies 53.0% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is new leagues and margin versus league rights and betting volumes.",
     "items": [
       {
-        "title": "Operating losses",
+        "title": "League rights and betting volumes",
         "severity": "High",
-        "detail": "The trailing operating margin is -22.6%, which means the current cost base is not covered by revenue.",
-        "watch": "Path to operating breakeven and cash runway."
+        "detail": "The main risk is league rights and betting volumes.",
+        "watch": "Monthly users, engagement and churn."
       },
       {
         "title": "Take-rate pressure",
@@ -146,9 +146,9 @@ export const GENI: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Genius Sports Limited produced $669.5M of trailing revenue at a -22.6% operating margin and a 9.6% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Analysts contributing to the third-party consensus carry a $10.24 mean target as of 2026-11-25, 79.5% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target.",
-      "The factor percentiles put valuation at 100/100 and profitability at 6/100, with the composite averaging 57/100. The average hides a strong valuation reading and a weak profitability one, which is why the spread is the more useful description."
+      "The investment case rests on valuation and the durability of -22.6% margins. The weak link is profitability.",
+      "What would change the view is return on invested capital rising above -16.4%, not a single quarter. The key exposure is league rights and betting volumes.",
+      "The scorecard averages 57/100, but the dispersion matters more: valuation is 100/100 and profitability is 6/100."
     ],
     "questions": [
       "How much growth is users versus take rate?",

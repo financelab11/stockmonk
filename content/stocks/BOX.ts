@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const BOX: StockStory = {
   "ticker": "BOX",
   "kicker": "Enterprise Software · Software - Infrastructure",
-  "title": "Box, Inc: Cloud content management to enterprises",
-  "dek": "Box, Inc. reported $1.2B of trailing revenue at a 9.4% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Box: Cloud content management to enterprises",
+  "dek": "Box's revenue rose 9.6% to $1.2B, at a 9.4% operating margin. The key risk is competition from Microsoft and slower seat growth.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $1.2B trailing twelve months, +9.6% year over year.",
+    "Revenue: $1.2B, +9.6% year over year.",
     "Profitability: 9.4% operating margin and 10.6% net margin.",
     "Cash: $389.2M free cash flow, a 31.5% margin, against $8.1M of net debt.",
-    "Valuation: 48.2x trailing earnings and 41.0x EV/EBITDA at the latest close."
+    "Valuation: 48.2x trailing earnings and 41.0x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const BOX: StockStory = {
   "irUrl": "https://www.box.com",
   "bigPicture": {
     "paragraphs": [
-      "Box, Inc. generated $1.2B of revenue over the last twelve months, +9.6% versus the prior year. The latest reported quarter was Q2 FY27, with $321.1M of revenue and a 10.2% operating margin. The shares closed at $45.88 on Nov 25, 2026, giving a market capitalization of $6.3B.",
-      "A reportable segment split is not available in the current dataset; the consolidated revenue line is the cleanest unit of analysis. Geographic revenue detail is not available in the current dataset.",
-      "At the latest close the equity is valued at $6.3B, or 48.2x trailing earnings and 41.0x EV/EBITDA. The shares sit 96% of the way up their 52-week range ($21.34 to $46.78). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "Box's revenue rose 9.6% to $1.2B at a 9.4% operating margin, generating $389.2M of free cash flow. The latest quarter (Q2 FY27) grew 9.2%. The market is already paying for a view; the financials are the check.",
+      "Revenue is reported as one consolidated line. What could lift the return is AI content features and margin expansion. The thing to watch is competition from Microsoft and slower seat growth.",
+      "At $45.88, the equity is worth $6.3B, or 48.2x trailing earnings and 41.0x EV/EBITDA. The earnings multiple is 45.7% below the 88.7x peer median. The stock is 96% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Box sells cloud content management to enterprises, a mature SaaS business where retention and margin expansion matter more than logo growth."
   },
   "whatItDoes": {
     "paragraphs": [
       "Box, Inc. provides a cloud content management platform that enables organizations of various sizes to manage cloud content from anywhere and on any device in Poland, Australia, Canada, the European Union, France, Israel, Japan, Singapore, Switzerland, the United Kingdom, and the United States.",
-      "The company reports one consolidated revenue line rather than a segment split. Headcount was 2,912 in the latest filing. Trailing revenue is $1.2B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "Against MSFT, ORCL and SNPS, the relevant tests are pricing power, capital intensity and cash conversion."
+      "Box earned a 79.5% gross margin, and R&D and sales and marketing absorbed 70.1% of revenue, leaving a 9.4% operating margin. That is 10.9 points below the peer median of 20.3%.",
+      "Capex is 0.5% of revenue, so the business is asset-light. Net debt is $8.1M, or 0.1x EBITDA. Return on invested capital was 115.1%. That is 102.1 points above the peer median of 13.0%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$1.2B on a trailing-twelve-month basis, with the latest quarter at $321.1M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 9.4%; free-cash-flow margin 31.5%; net margin 10.6%."
+        "title": "Margin engine",
+        "detail": "Gross margin 79.5%, operating margin 9.4%. R&D and sales and marketing are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $6.3B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 0.5% of revenue; $8.1M of net debt; ROIC 115.1%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $1.2B of revenue, $981.7M remained after cost of sales. The 70.1% operating-expense load brought that down to a 9.4% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "Net debt is $8.1M, or 0.1x EBITDA. Return on invested capital was 115.1%, while the reported return on equity is negative because the equity base is negative. The operating return is the one to use when judging reinvestment."
+      "Subscriptions and seat or usage growth drive revenue; retention and sales efficiency drive the margin. The edge is content management embedded in enterprise workflows.",
+      "The operating margin is 9.4%, 10.9 points below the peer median of 20.3%. Retention and sales efficiency decide whether subscription growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 9.9% a year across the fiscal years in the dataset, and the latest quarter changed +9.2% year over year. Current-year estimates call for $1.3B of revenue and $1.54 of EPS.",
-      "The operating margin of 9.4% and return on invested capital of 115.1% are the filters to watch as revenue scales. Neither the 9.6% growth nor the 9.4% margin is extreme; the combination is what matters."
+      "Revenue compounded at 9.9% a year from FY2019 to FY2026. The latest quarter (Q2 FY27) grew 9.2% year over year. The current-year consensus looks for $1.3B of revenue and $1.54 of EPS.",
+      "The next leg depends on AI content features and margin expansion. For Box, subscription growth is only worth paying for if retention and sales efficiency hold."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Revenue growth is +9.6%. Expansion within existing customers compounds revenue."
+        "detail": "Expansion within existing customers compounds revenue. Revenue growth is 9.6%."
       },
       {
         "title": "New customer adds",
-        "detail": "New logos broaden the base and fund future expansion. The current reading: the operating margin is 9.4%."
+        "detail": "New logos broaden the base and fund future expansion. The operating margin is 9.4%."
       },
       {
         "title": "Operating leverage",
-        "detail": "Return on invested capital is 115.1%. The direction of travel matters more than the absolute level."
+        "detail": "Scale should improve margins as sales and R&D mature. Return on invested capital is 115.1%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -22.1% in FY2019 to 7.1% in FY2026. The trailing operating margin is 9.4%, the net margin is 10.6% and diluted EPS is $0.68.",
-      "Return on equity was -37.2% and return on invested capital was 115.1%. Return on equity is negative because the equity base is negative; the 115.1% return on invested capital is the better measure of the operating business."
+      "The operating margin moved from -22.1% in FY2019 to 7.1% in FY2026. The trailing operating margin is 9.4%, the net margin is 10.6%, and diluted EPS is $0.68, down 45.6% year over year.",
+      "Return on equity is negative because the equity base is negative; the 115.1% return on invested capital is the operating measure that matters. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $389.2M, a 31.5% margin. Net debt is $8.1M, or 0.1x EBITDA. Capital expenditure was 0.5% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $356.5M, or 308.9% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $6.1M in the latest fiscal year."
+      "Free cash flow was $389.2M, or 31.5% of revenue. Operating cash flow covered 308.9% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 0.5% of revenue, which is low relative to the revenue base.",
+      "Net debt is $8.1M, or 0.1x EBITDA. Interest cover is 11.5x. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 48.2x trailing earnings, 41.0x EV/EBITDA and 5.1x EV/sales. The free-cash-flow yield is 6.2%. The 2.1% earnings yield and 6.2% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against MSFT, ORCL and SNPS; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $45.88, the shares trade at 48.2x trailing earnings and 41.0x EV/EBITDA, with a 6.2% free-cash-flow yield. The earnings yield is 2.1%. The earnings multiple is 45.7% below the 88.7x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is below the peer median, so some of the risk is already in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "7 analysts contribute to the third-party consensus. The mean target is $48.00, with a range of $35.00 to $60.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $1.3B of revenue and $1.54 of EPS. The estimate revisions in the dataset are 0.0% over 30 days and -5.7% over 90 days. Set against trailing revenue, the estimate implies growth of 4.5%."
+      "7 analysts in the third-party consensus carry a mean target of $48.00, 4.6% above the latest close. The range runs from $35.00 to $60.00. The wide range shows how divided the published views are. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $1.3B of revenue and $1.54 of EPS. EPS estimates are little changed over 30 days and down 5.7% over 90 days. That implies 4.5% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is AI content features and margin expansion versus competition from Microsoft and slower seat growth.",
     "items": [
       {
-        "title": "Competition",
+        "title": "Competition from Microsoft and slower seat growth",
         "severity": "High",
-        "detail": "Feature parity and bundling can pressure pricing.",
+        "detail": "The main risk is competition from Microsoft and slower seat growth.",
         "watch": "Win rates and average contract value."
       },
       {
@@ -146,9 +146,9 @@ export const BOX: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Box, Inc. produced $1.2B of trailing revenue at a 9.4% operating margin and a 31.5% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
-      "7 analysts in the third-party survey average $48.00 as of 2026-11-25, 4.6% above the latest close; the forecast is theirs, and this report does not adopt it as a target.",
-      "The factor percentiles put cash generation at 86/100 and valuation at 15/100, with the composite averaging 52/100. A 86/100 cash generation score against a 15/100 valuation score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on cash generation and the durability of 9.4% margins. The weak link is valuation.",
+      "What would change the view is the multiple falling below 38.5x earnings, not a single quarter. The key exposure is competition from Microsoft and slower seat growth.",
+      "The scorecard puts the composite at 52/100. Focus on the cash generation-to-valuation spread rather than the average."
     ],
     "questions": [
       "How much growth comes from existing customers?",

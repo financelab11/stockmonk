@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const DVN: StockStory = {
   "ticker": "DVN",
   "kicker": "Energy · Oil & Gas E&P",
-  "title": "Devon Energy Corporation: A shale oil producer",
-  "dek": "Devon Energy Corporation reported $23.2B of trailing revenue at a 19.6% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Devon Energy: A shale oil producer",
+  "dek": "Devon Energy's revenue rose 34.0% to $23.2B, at a 19.6% operating margin. The key risk is oil prices.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $23.2B trailing twelve months, +34.0% year over year.",
+    "Revenue: $23.2B, +34.0% year over year.",
     "Profitability: 19.6% operating margin and 15.5% net margin.",
     "Cash: $5.2B free cash flow, a 22.5% margin, against $11.1B of net debt.",
-    "Valuation: 13.5x trailing earnings and 6.3x EV/EBITDA at the latest close."
+    "Valuation: 13.5x trailing earnings and 6.3x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const DVN: StockStory = {
   "irUrl": "https://www.devonenergy.com",
   "bigPicture": {
     "paragraphs": [
-      "Devon Energy Corporation generated $23.2B of revenue over the last twelve months, +34.0% versus the prior year. The latest reported quarter was Q3 FY26, with $7.8B of revenue and a 16.1% operating margin. The shares closed at $42.59 on Nov 25, 2026, giving a market capitalization of $48.5B.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. The filing extract does not break revenue out by geography. Devon Energy Corporation competes in Oil & Gas E&P, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $48.5B, or 13.5x trailing earnings and 6.3x EV/EBITDA. The shares sit 45% of the way up their 52-week range ($34.23 to $52.71). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Devon Energy's revenue rose 34.0% to $23.2B at a 19.6% operating margin, generating $5.2B of free cash flow. The latest quarter (Q3 FY26) grew 82.9%.",
+      "Revenue is reported as one consolidated line. The catalyst is production and capital returns. The exposure is oil prices. The absence of a segment split puts more weight on the group margin and cash conversion.",
+      "At $42.59, the equity is worth $48.5B, or 13.5x trailing earnings and 6.3x EV/EBITDA. The earnings multiple is 3.6% above the 13.0x peer median. The stock is 45% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Devon is a shale oil producer, so oil prices, Permian inventory and capital discipline drive cash flow."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Devon Energy Corporation, an independent energy company, engages in the exploration, development, and production of oil, natural gas, and natural gas liquids in the United States. The company operates in Delaware Basin located in southeast New Mexico and west Texas, Eagle Ford located in North America, Anadarko Basin located in western Oklahoma, Williston Basin located in North Dakota, and Powder River Basin located in Wyoming.",
-      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 2,200 people. With $23.2B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The closest listed comparisons are COP, EOG and TPL; the useful question is how Devon Energy Corporation's margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Devon Energy Corporation, an independent energy company, engages in the exploration, development, and production of oil, natural gas, and natural gas liquids in the United States.",
+      "Devon Energy does not report a product gross margin; lifting costs, royalties and maintenance sit inside the operating line, leaving a 19.6% operating margin. That is 13.0 points below the peer median of 32.6%.",
+      "Capital spending runs at 15.5% of revenue, which is a meaningful claim on cash flow. Net debt is $11.1B, or 1.2x EBITDA. Return on invested capital was 6.7%. That is 4.7 points below the peer median of 11.4%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$23.2B on a trailing-twelve-month basis, with the latest quarter at $7.8B."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 19.6%; free-cash-flow margin 22.5%; net margin 15.5%."
+        "title": "Margin engine",
+        "detail": "Operating margin 19.6%. Lifting costs, royalties and maintenance are the main cost line, so the margin depends on spreading the cost base over more revenue."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $48.5B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 15.5% of revenue; $11.1B of net debt; ROIC 6.7%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 19.6% is the first clean profitability line. Cash flow is a function of commodity prices, production volumes and capital discipline.",
-      "Net debt is $11.1B, or 1.2x EBITDA. Return on invested capital was 6.7% and return on equity was 8.6%. That is a thin return; without a margin recovery or a different capital allocation, growth is unlikely to create value."
+      "Commodity prices, production volumes and differentials drive revenue and cash flow. The edge is permian inventory.",
+      "The operating margin is 19.6%, 13.0 points below the peer median of 32.6%. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.3% a year across the fiscal years in the dataset, and the latest quarter changed +82.9% year over year. Current-year estimates call for $25.7B of revenue and $5.61 of EPS.",
-      "The operating margin of 19.6% and return on invested capital of 6.7% are the filters to watch as revenue scales. The 34.0% revenue pace and 19.6% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 10.3% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 82.9% year over year. The current-year consensus looks for $25.7B of revenue and $5.61 of EPS.",
+      "The next leg depends on production and capital returns. For Devon Energy, production growth is only worth paying for if the reinvestment return clears the cost of capital."
     ],
     "bullets": [
       {
         "title": "Commodity prices",
-        "detail": "Oil, gas and power prices flow quickly into revenue and cash flow. Revenue growth is +34.0%."
+        "detail": "Oil, gas and power prices flow quickly into revenue and cash flow. Revenue growth is 34.0%."
       },
       {
         "title": "Production growth",
-        "detail": "The operating margin is 19.6%. Volumes from existing and new projects determine the revenue base."
+        "detail": "Volumes from existing and new projects determine the revenue base. The operating margin is 19.6%."
       },
       {
         "title": "Capital discipline",
-        "detail": "Lower reinvestment can lift free cash flow and returns. The current reading: return on invested capital is 6.7%."
+        "detail": "Lower reinvestment can lift free cash flow and returns. Return on invested capital is 6.7%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 11.2% in FY2018 to 20.6% in FY2025. The trailing operating margin is 19.6%, the net margin is 15.5% and diluted EPS is $4.00.",
-      "Return on equity was 8.6% and return on invested capital was 6.7%. With return on equity at 8.6% and return on invested capital at 6.7%, leverage is not the main driver of the gap."
+      "The operating margin moved from 11.2% in FY2018 to 20.6% in FY2025. The trailing operating margin is 19.6%, the net margin is 15.5%, and diluted EPS is $4.00, down 5.7% year over year.",
+      "Return on equity of 8.6% and return on invested capital of 6.7% are close enough that operating performance explains most of the return. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $5.2B, a 22.5% margin. Net debt is $11.1B, or 1.2x EBITDA. Capex absorbed 15.5% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $6.7B, or 254.0% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $3.6B in the latest fiscal year."
+      "Free cash flow was $5.2B, or 22.5% of revenue. Operating cash flow covered 254.0% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 15.5% of revenue, which is a meaningful claim on cash.",
+      "Net debt is $11.1B, or 1.2x EBITDA. Interest cover is 8.6x. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 13.5x trailing earnings, 6.3x EV/EBITDA and 2.6x EV/sales. The free-cash-flow yield is 10.7%. Inverting the P/E gives an earnings yield of 7.4%; the cash-flow yield is 10.7%.",
-      "The peer comparison sets the company against COP, EOG and TPL; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $42.59, the shares trade at 13.5x trailing earnings and 6.3x EV/EBITDA, with a 10.7% free-cash-flow yield. The earnings yield is 7.4%. The earnings multiple is 3.6% above the 13.0x peer median.",
+      "The multiple is in line with the peer median, so the debate is company-specific. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "27 analysts contribute to the third-party consensus. The mean target is $59.81, with a range of $44.00 to $71.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $25.7B of revenue and $5.61 of EPS. The estimate revisions in the dataset are 0.8% over 30 days and 2.3% over 90 days. That implies growth of 10.6% over the trailing twelve months."
+      "27 analysts in the third-party consensus carry a mean target of $59.81, 40.4% above the latest close. The range runs from $44.00 to $71.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $25.7B of revenue and $5.61 of EPS. EPS estimates are up 0.8% over 30 days and up 2.3% over 90 days. That implies 10.6% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is production and capital returns versus oil prices.",
     "items": [
       {
-        "title": "Commodity prices",
+        "title": "Oil prices",
         "severity": "High",
-        "detail": "A price decline can cut revenue and cash flow sharply.",
+        "detail": "The main risk is oil prices.",
         "watch": "Realised prices and hedging."
       },
       {
@@ -146,9 +146,9 @@ export const DVN: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Devon Energy Corporation produced $23.2B of trailing revenue at a 19.6% operating margin and a 22.5% free-cash-flow margin. The free-cash-flow margin is the strongest part of that record; the rest of the report tests whether it can be sustained.",
-      "The published consensus mean is $59.81 (2026-11-25), 40.4% above the latest close; it is a consensus view, not a recommendation from Stockmonk. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 90/100 and balance sheet at 40/100, with the composite averaging 62/100. The gap between valuation at 90/100 and balance sheet at 40/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on valuation and the durability of 19.6% margins. $11.1B of net debt is the weak link.",
+      "What would change the view is leverage falling below 1.0x EBITDA, not a single quarter. The key exposure is oil prices.",
+      "The composite of 62/100 blends a strong valuation reading with a weak balance sheet one; the gap is the story."
     ],
     "questions": [
       "What price is needed to cover capex and the dividend?",

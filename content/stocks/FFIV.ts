@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const FFIV: StockStory = {
   "ticker": "FFIV",
   "kicker": "Enterprise Software · Software - Infrastructure",
-  "title": "F5, Inc: Application delivery and security",
-  "dek": "F5, Inc. reported $3.4B of trailing revenue at a 23.9% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "F5: Application delivery and security",
+  "dek": "F5's revenue rose 10.6% to $3.4B, at a 23.9% operating margin. The key risk is hardware refresh and software transition.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $3.4B trailing twelve months, +10.6% year over year.",
+    "Revenue: $3.4B, +10.6% year over year.",
     "Profitability: 23.9% operating margin and 21.1% net margin.",
     "Cash: $868.9M free cash flow, a 25.4% margin, against $1.6B of net cash.",
-    "Valuation: 24.6x trailing earnings and 17.7x EV/EBITDA at the latest close."
+    "Valuation: 24.6x trailing earnings and 17.7x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const FFIV: StockStory = {
   "irUrl": "https://www.f5.com",
   "bigPicture": {
     "paragraphs": [
-      "F5, Inc. generated $3.4B of revenue over the last twelve months, +10.6% versus the prior year. The latest reported quarter was Q4 FY26, with $917.4M of revenue and a 23.1% operating margin. The shares closed at $311.83 on Nov 25, 2026, giving a market capitalization of $17.8B.",
-      "Single Reportable contributes 100.0% of the disclosed revenue mix. By geography, Americas is the largest disclosed market at 53.1% of revenue. F5, Inc. competes in Software - Infrastructure, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $17.8B, or 24.6x trailing earnings and 17.7x EV/EBITDA. The shares sit 31% of the way up their 52-week range ($233.96 to $483.30). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "F5's revenue rose 10.6% to $3.4B at a 23.9% operating margin, generating $868.9M of free cash flow. The latest quarter (Q4 FY26) grew 13.3%. The market is already paying for a view; the financials are the check.",
+      "Single Reportable is the whole revenue base. Americas is the largest geography at 53.1% of revenue. The upside is software subscription mix. What would break it is hardware refresh and software transition.",
+      "At $311.83, the equity is worth $17.8B, or 24.6x trailing earnings and 17.7x EV/EBITDA. The earnings multiple is 72.3% below the 88.7x peer median. The stock is 31% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "F5 sells application delivery and security, so hardware refresh and software-subscription mix drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "F5, Inc. provides multi-cloud application security and delivery solutions in the United States, Europe, the Middle East, Africa, and the Asia Pacific region. It reports in the Technology sector and is classified in Enterprise Software coverage.",
-      "Revenue is reported at the consolidated level only. Its latest filing lists 6,632 employees. Trailing revenue is $3.4B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "MSFT, ORCL and SNPS provide the closest reference points for margin, growth and valuation."
+      "F5, Inc. provides multi-cloud application security and delivery solutions in the United States, Europe, the Middle East, Africa, and the Asia Pacific region.",
+      "F5 earned an 81.9% gross margin, and R&D and sales and marketing absorbed 57.9% of revenue, leaving a 23.9% operating margin. That is 3.6 points above the peer median of 20.3%.",
+      "Capex is 2.7% of revenue, so the business is asset-light. The balance sheet carries $1.6B of net cash. Return on invested capital was 17.0%. That is 3.9 points above the peer median of 13.0%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$3.4B on a trailing-twelve-month basis, with the latest quarter at $917.4M."
+        "title": "Revenue mix",
+        "detail": "Single Reportable is the consolidated business at 100.0% of revenue."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 23.9%; free-cash-flow margin 25.4%; net margin 21.1%."
+        "title": "Margin engine",
+        "detail": "Gross margin 81.9%, operating margin 23.9%. R&D and sales and marketing are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $17.8B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 2.7% of revenue; $1.6B of net cash; ROIC 17.0%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $3.4B of revenue, $2.8B remained after cost of sales. The 57.9% operating-expense load brought that down to a 23.9% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "The balance sheet carries $1.6B of net cash. Return on invested capital was 17.0% and return on equity was 18.0%. The return leaves room above the cost of capital for growth to compound."
+      "Subscriptions and seat or usage growth drive revenue; retention and sales efficiency drive the margin. The edge is application-delivery installed base.",
+      "The operating margin is 23.9%, 3.6 points above the peer median of 20.3%. Retention and sales efficiency decide whether subscription growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 6.2% a year across the fiscal years in the dataset, and the latest quarter changed +13.3% year over year. Current-year estimates call for $3.7B of revenue and $18.22 of EPS.",
-      "The operating margin of 23.9% and return on invested capital of 17.0% are the filters to watch as revenue scales. Neither the 10.6% growth nor the 23.9% margin is extreme; the combination is what matters."
+      "Revenue compounded at 6.2% a year from FY2019 to FY2026. The latest quarter (Q4 FY26) grew 13.3% year over year. The current-year consensus looks for $3.7B of revenue and $18.22 of EPS.",
+      "The next leg depends on software subscription mix. For F5, subscription growth is only worth paying for if retention and sales efficiency hold. Growth is only valuable if the new revenue earns a similar return to the existing business."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Revenue growth is +10.6%. The next data point will show whether the trend is intact."
+        "detail": "Expansion within existing customers compounds revenue. Revenue growth is 10.6%."
       },
       {
         "title": "New customer adds",
@@ -67,41 +67,41 @@ export const FFIV: StockStory = {
       },
       {
         "title": "Operating leverage",
-        "detail": "Return on invested capital is 17.0%. Scale should improve margins as sales and R&D mature."
+        "detail": "Scale should improve margins as sales and R&D mature. Return on invested capital is 17.0%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 23.1% in FY2019 to 23.9% in FY2026. The trailing operating margin is 23.9%, the net margin is 21.1% and diluted EPS is $12.53.",
-      "Return on equity was 18.0% and return on invested capital was 17.0%. Return on invested capital of 17.0% is close to the 18.0% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from 23.1% in FY2019 to 23.9% in FY2026. The trailing operating margin is 23.9%, the net margin is 21.1%, and diluted EPS is $12.53, up 6.1% year over year.",
+      "Return on equity of 18.0% and return on invested capital of 17.0% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $868.9M, a 25.4% margin. The balance sheet carries $1.6B of net cash. Capital expenditure was 2.7% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $959.5M, or 132.9% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $90.5M in the latest fiscal year."
+      "Free cash flow was $868.9M, or 25.4% of revenue. Operating cash flow covered 132.9% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 2.7% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $1.6B of net cash. Management can fund the next phase without needing the capital markets. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 24.6x trailing earnings, 17.7x EV/EBITDA and 4.7x EV/sales. The free-cash-flow yield is 4.9%. The 4.1% earnings yield and 4.9% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against MSFT, ORCL and SNPS; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $311.83, the shares trade at 24.6x trailing earnings and 17.7x EV/EBITDA, with a 4.9% free-cash-flow yield. The earnings yield is 4.1%. The earnings multiple is 72.3% below the 88.7x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "9 analysts contribute to the third-party consensus. The mean target is $436.33, with a range of $300.00 to $540.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $3.7B of revenue and $18.22 of EPS. The estimate revisions in the dataset are 0.6% over 30 days and 0.6% over 90 days. The estimate is consistent with growth of 8.5% on the trailing revenue figure."
+      "9 analysts in the third-party consensus carry a mean target of $436.33, 39.9% above the latest close. The range runs from $300.00 to $540.00. Analysts disagree on the outcome; the mean is a weak summary of a wide range. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $3.7B of revenue and $18.22 of EPS. EPS estimates are up 0.6% over 30 days and up 0.6% over 90 days. That implies 8.5% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is software subscription mix versus hardware refresh and software transition.",
     "items": [
       {
-        "title": "Competition",
+        "title": "Hardware refresh and software transition",
         "severity": "High",
-        "detail": "Feature parity and bundling can pressure pricing.",
+        "detail": "The main risk is hardware refresh and software transition.",
         "watch": "Win rates and average contract value."
       },
       {
@@ -146,9 +146,9 @@ export const FFIV: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "F5, Inc. produced $3.4B of trailing revenue at a 23.9% operating margin and a 25.4% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
-      "9 analysts in the third-party survey average $436.33 as of 2026-11-25, 39.9% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put balance sheet at 83/100 and growth at 43/100, with the composite averaging 65/100. With balance sheet and growth only 40 points apart, the composite is a reasonable one-line description."
+      "The investment case rests on balance sheet and the durability of 23.9% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 13.6%, not a single quarter. The key exposure is hardware refresh and software transition.",
+      "The scorecard averages 65/100, but the dispersion matters more: balance sheet is 83/100 and growth is 43/100."
     ],
     "questions": [
       "How much growth comes from existing customers?",

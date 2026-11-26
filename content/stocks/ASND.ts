@@ -4,13 +4,13 @@ export const ASND: StockStory = {
   "ticker": "ASND",
   "kicker": "Pharma & Biotech · Biotechnology",
   "title": "Ascendis Pharma A/S: TransCon platform to make long-acting versions of existing drugs",
-  "dek": "Ascendis Pharma A/S reported $837.5M of trailing revenue at an -18.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "dek": "Ascendis Pharma A/S's revenue rose 124.1% to $837.5M, at an -18.0% operating margin. The key risk is launch execution and label expansion.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $837.5M trailing twelve months, +124.1% year over year.",
+    "Revenue: $837.5M, +124.1% year over year.",
     "Profitability: -18.0% operating margin and -31.0% net margin.",
-    "Cash: n/a free cash flow, a n/a margin, against $233.3M of net debt.",
-    "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
+    "Cash: free cash flow is not meaningful at this stage.",
+    "Valuation: no meaningful earnings multiple and no meaningful EV/EBITDA multiple."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const ASND: StockStory = {
   "irUrl": "https://ascendispharma.com",
   "bigPicture": {
     "paragraphs": [
-      "Ascendis Pharma A/S generated $837.5M of revenue over the last twelve months, +124.1% versus the prior year. The latest reported quarter was Q4 FY25, with $291.3M of revenue and a 3.9% operating margin. The shares closed at $273.68 on Nov 25, 2026, giving a market capitalization of $18B.",
-      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. The company does not disclose revenue by region in the current extract.",
-      "At the latest close the equity is valued at $18B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 91% of the way up their 52-week range ($188.08 to $282.15). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Ascendis Pharma A/S's revenue rose 124.1% to $837.5M at an -18.0% operating margin. The latest quarter (Q4 FY25) grew 74.3%. The operating margin and cash conversion are the next things to test.",
+      "Revenue is reported as one consolidated line. The near-term driver is transCon launch metrics and new indications. The risk is launch execution and label expansion.",
+      "At $273.68, the equity is worth $18B, or no meaningful earnings multiple and no meaningful EV/EBITDA multiple. The stock is 91% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Ascendis uses its TransCon platform to make long-acting versions of existing drugs, so label expansion and launch execution are the value drivers."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Ascendis Pharma A/S, operates as a biopharmaceutical company that focuses on developing TransCon-based therapies for unmet medical needs in Europe, the United States, and internationally. The company offers SKYTROFA for treating pediatric patients with growth hormone deficiency; and YORVIPATH, a once-daily subcutaneous injection for the treatment of adults with chronic hypoparathyroidism.",
-      "There is no separate segment disclosure in the current extract. The company employed 1,189 people at the last reporting date. The revenue base is $837.5M on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The peer set is VRTX, REGN and VKTX; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Ascendis Pharma A/S, operates as a biopharmaceutical company that focuses on developing TransCon-based therapies for unmet medical needs in Europe, the United States, and internationally.",
+      "Ascendis Pharma A/S earned an 86.9% gross margin, and R&D, manufacturing and commercial spend absorbed 104.9% of revenue, leaving an -18.0% operating margin. That is 7.3 points below the peer median of -10.7%.",
+      "Capex is not disclosed in the current data. Net debt is $233.3M. Return on invested capital was -15.6%. That is 8.2 points above the peer median of -23.7%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$837.5M on a trailing-twelve-month basis, with the latest quarter at $291.3M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -18.0%; free-cash-flow margin n/a; net margin -31.0%."
+        "title": "Margin engine",
+        "detail": "Gross margin 86.9%, operating margin -18.0%. R&D, manufacturing and commercial spend are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $18B at the latest close."
+        "title": "Capital intensity",
+        "detail": "$233.3M of net debt; ROIC -15.6%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 86.9%, operating margin is -18.0% and net margin is -31.0%. Gross profit was $727.5M, and 104.9% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "Net debt is $233.3M, or n/a EBITDA. Return on invested capital was -15.6% and return on equity was 135.6%. Until the return turns positive, additional capital is a cost rather than an investment."
+      "Revenue depends on a small number of programmes, patent life and payer coverage. TransCon platform creates long-acting versions of validated drugs.",
+      "The operating margin is -18.0%, 7.3 points below the peer median of -10.7%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 83.4% a year across the fiscal years in the dataset, and the latest quarter changed +74.3% year over year. Current-year estimates call for $1.4B of revenue and $12.56 of EPS.",
-      "The operating margin of -18.0% and return on invested capital of -15.6% are the filters to watch as revenue scales. The 124.1% top-line pace has not yet produced a thick margin; incremental revenue needs to carry more of the cost base."
+      "Revenue compounded at 83.4% a year from FY2018 to FY2025. The latest quarter (Q4 FY25) grew 74.3% year over year. The current-year consensus looks for $1.4B of revenue and $12.56 of EPS.",
+      "The next leg depends on transCon launch metrics and new indications. The growth rate is doing the work; the margin has to catch up for the model to earn its cost of capital."
     ],
     "bullets": [
       {
         "title": "Launch execution",
-        "detail": "New therapies need payer coverage, prescriber adoption and manufacturing scale. The current reading: revenue growth is +124.1%."
+        "detail": "New therapies need payer coverage, prescriber adoption and manufacturing scale. Revenue growth is 124.1%."
       },
       {
         "title": "Pipeline readouts",
-        "detail": "The operating margin is -18.0%. That is the number to compare with the company's own history."
+        "detail": "Late-stage data can extend the growth runway or reset it. The operating margin is -18.0%."
       },
       {
         "title": "Patent duration",
@@ -73,36 +73,36 @@ export const ASND: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is -18.0%, the net margin is -31.0% and diluted EPS is -$1.71.",
-      "Return on equity was 135.6% and return on invested capital was -15.6%. Both returns are negative, so the question is whether the operating losses are a scale problem or a structural one."
+      "The reported margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is -18.0%, the net margin is -31.0%, and diluted EPS is -$1.71, down 74.3% year over year.",
+      "Return on equity of 135.6% is well above the -15.6% return on invested capital; leverage or acquisition goodwill explains most of the gap. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was n/a, a n/a margin. Net debt is $233.3M, or n/a EBITDA. With capital spending at n/a of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $0 in the latest fiscal year."
+      "Free cash flow is not meaningful at this stage. Operating cash flow and the balance sheet are the better tests at this stage. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "Net debt is $233.3M. Leverage is only a problem if the cash flow cannot service it through a downturn. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 21.7x EV/sales. The free-cash-flow yield is n/a. Without a meaningful earnings multiple, the cash-flow yield and the asset base carry more of the valuation work.",
-      "The peer comparison sets the company against VRTX, REGN and VKTX; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $273.68, the shares trade at no meaningful earnings multiple and no meaningful EV/EBITDA multiple. What matters is whether the current multiple is above or below the company's own history.",
+      "No earnings multiple is meaningful, so the market is valuing the asset base or the pipeline rather than current profit. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "21 analysts contribute to the third-party consensus. The mean target is $315.47, with a range of $272.31 to $354.55. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $1.4B of revenue and $12.56 of EPS. The estimate revisions in the dataset are -1.8% over 30 days and 10.8% over 90 days. If met, the estimate would mean growth of 64.7% from the current base."
+      "21 analysts in the third-party consensus carry a mean target of $315.47, 15.3% above the latest close. The range runs from $272.31 to $354.55. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $1.4B of revenue and $12.56 of EPS. EPS estimates are down 1.8% over 30 days and up 10.8% over 90 days. That implies 64.7% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is transCon launch metrics and new indications versus launch execution and label expansion.",
     "items": [
       {
-        "title": "Operating losses",
+        "title": "Launch execution and label expansion",
         "severity": "High",
-        "detail": "The trailing operating margin is -18.0%, which means the current cost base is not covered by revenue.",
-        "watch": "Path to operating breakeven and cash runway."
+        "detail": "Launch execution and label expansion may disappoint.",
+        "watch": "Trial endpoints and readout timing."
       },
       {
         "title": "Patent cliff",
@@ -146,9 +146,9 @@ export const ASND: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Ascendis Pharma A/S produced $837.5M of trailing revenue at an -18.0% operating margin and a n/a free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Third-party analysts put the mean target at $315.47 as of 2026-11-25, 15.3% above the latest close; this report does not publish a target of its own. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put valuation at 100/100 and profitability at 7/100, with the composite averaging 47/100. The average hides a strong valuation reading and a weak profitability one, which is why the spread is the more useful description."
+      "The investment case rests on valuation and the durability of -18.0% margins. The weak link is profitability.",
+      "What would change the view is return on invested capital rising above -13.6%, not a single quarter. The key exposure is launch execution and label expansion.",
+      "On the scorecard, the composite is 47/100. The spread between valuation and profitability is the useful part; the average hides it."
     ],
     "questions": [
       "When does the largest patent expire?",

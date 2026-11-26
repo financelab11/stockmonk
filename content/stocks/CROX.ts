@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const CROX: StockStory = {
   "ticker": "CROX",
   "kicker": "Consumer Retail & Leisure · Footwear & Accessories",
-  "title": "Crocs, Inc. and the cost of its next unit of growth",
-  "dek": "Crocs, Inc. reported $4.1B of trailing revenue at a 22.6% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Crocs: growth of 0.7% and an 11.0x earnings multiple",
+  "dek": "Crocs' revenue was flat at $4.1B, at a 22.6% operating margin. The key risk is HEYDUDE integration and consumer demand.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $4.1B trailing twelve months, +0.7% year over year.",
+    "Revenue: $4.1B, +0.7% year over year.",
     "Profitability: 22.6% operating margin and 16.2% net margin.",
     "Cash: $754M free cash flow, an 18.4% margin, against $1.1B of net debt.",
-    "Valuation: 11.0x trailing earnings and 8.4x EV/EBITDA at the latest close."
+    "Valuation: 11.0x trailing earnings and 8.4x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const CROX: StockStory = {
   "irUrl": "https://www.crocs.com",
   "bigPicture": {
     "paragraphs": [
-      "Crocs, Inc. generated $4.1B of revenue over the last twelve months, +0.7% versus the prior year. The latest reported quarter was Q3 FY26, with $1B of revenue and a 28.0% operating margin. The shares closed at $159.77 on Nov 25, 2026, giving a market capitalization of $7.3B.",
-      "Crocs Brand is 82.3% of the disclosed revenue mix. United States supplies 55.9% of disclosed revenue, the largest single geography in the filing. Crocs, Inc. competes in Footwear & Accessories, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $7.3B, or 11.0x trailing earnings and 8.4x EV/EBITDA. The shares sit 95% of the way up their 52-week range ($75.13 to $164.24). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Crocs' revenue was flat at $4.1B at a 22.6% operating margin, generating $754M of free cash flow. The latest quarter (Q3 FY26) grew 4.6%. The next test is whether the current profitability can be sustained.",
+      "Crocs Brand is 82.3% of revenue and HEYDUDE Brand is 17.7%. The US is the largest geography at 55.9% of revenue. The catalyst is international growth and HEYDUDE turnaround. The exposure is HEYDUDE integration and consumer demand.",
+      "At $159.77, the equity is worth $7.3B, or 11.0x trailing earnings and 8.4x EV/EBITDA. The earnings multiple is 92.5% below the 146.1x peer median. The stock is 95% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Crocs sells casual footwear, a brand-driven business where HEYDUDE integration and international growth determine the next leg."
   },
   "whatItDoes": {
     "paragraphs": [
       "Crocs, Inc. together with its subsidiaries, designs, develops, manufactures, markets, distributes, and sells casual lifestyle footwear and accessories for men, women, and kids under the Crocs and HEYDUDE Brands in the United States and internationally.",
-      "The disclosed mix runs across Crocs Brand at 82.3% and HEYDUDE Brand at 17.7%. The last disclosure put headcount at 8,010 people. With $4.1B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The closest listed comparisons are ONON and DECK; the useful question is how Crocs, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Crocs earned a 59.4% gross margin, and cost of goods, occupancy and labor absorbed 36.9% of revenue, leaving a 22.6% operating margin. That is 5.7 points above the peer median of 16.9%.",
+      "Capital spending runs at 1.2% of revenue, which is low relative to the revenue base. Net debt is $1.1B, or 1.1x EBITDA. Return on invested capital was 27.5%. That is roughly in line with the peer median of 27.0%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$4.1B on a trailing-twelve-month basis, with the latest quarter at $1B."
+        "title": "Revenue mix",
+        "detail": "Crocs Brand at 82.3% and HEYDUDE Brand at 17.7%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 22.6%; free-cash-flow margin 18.4%; net margin 16.2%."
+        "title": "Margin engine",
+        "detail": "Gross margin 59.4%, operating margin 22.6%. Cost of goods, occupancy and labor are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $7.3B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 1.2% of revenue; $1.1B of net debt; ROIC 27.5%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 59.4% of revenue after cost of sales, or $2.4B. Operating expenses absorbed 36.9% of revenue, leaving a 22.6% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $1.1B, or 1.1x EBITDA. Return on invested capital was 27.5% and return on equity was 49.4%. That level earns well above a typical cost of capital."
+      "Traffic, basket size and inventory turns drive revenue; markdowns and occupancy drive the margin. The edge is crocs brand and HEYDUDE distribution.",
+      "The operating margin is 22.6%, 5.7 points above the peer median of 16.9%. Inventory turns and markdown discipline decide whether volume growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 20.6% a year across the fiscal years in the dataset, and the latest quarter changed +4.6% year over year. Current-year estimates call for $4.2B of revenue and $14.63 of EPS.",
-      "The operating margin of 22.6% and return on invested capital of 27.5% are the filters to watch as revenue scales. The 0.7% revenue pace and 22.6% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 20.6% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 4.6% year over year. The current-year consensus looks for $4.2B of revenue and $14.63 of EPS.",
+      "The next leg depends on international growth and HEYDUDE turnaround. For Crocs, sales growth is only worth paying for if inventory turns and markdowns stay under control."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Same-store growth shows demand without new square footage. Revenue growth is +0.7%."
+        "detail": "Same-store growth shows demand without new square footage. Revenue growth is 0.7%."
       },
       {
         "title": "Unit growth",
-        "detail": "The operating margin is 22.6%. New stores and markets expand the revenue base but carry fixed costs."
+        "detail": "New stores and markets expand the revenue base but carry fixed costs. The operating margin is 22.6%."
       },
       {
         "title": "Merchandise margin",
-        "detail": "Private label, sourcing and markdown discipline determine gross margin. The current reading: return on invested capital is 27.5%."
+        "detail": "Private label, sourcing and markdown discipline determine gross margin. Return on invested capital is 27.5%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 5.8% in FY2018 to 3.7% in FY2025. The trailing operating margin is 22.6%, the net margin is 16.2% and diluted EPS is $13.24.",
-      "Return on equity was 49.4% and return on invested capital was 27.5%. The equity return is flattered by a thinner capital base: 49.4% versus 27.5% on invested capital. Both should be read against the company's own history before they are compared with a peer median."
+      "The operating margin moved from 5.8% in FY2018 to 3.7% in FY2025. The trailing operating margin is 22.6%, the net margin is 16.2%, and diluted EPS is $13.24.",
+      "Return on equity of 49.4% is well above the 27.5% return on invested capital; leverage or acquisition goodwill explains most of the gap. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $754M, an 18.4% margin. Net debt is $1.1B, or 1.1x EBITDA. Capex absorbed 1.2% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $51.2M in the latest fiscal year."
+      "Free cash flow was $754M, or 18.4% of revenue. Capex absorbed 1.2% of revenue, which is low relative to the revenue base. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "Net debt is $1.1B, or 1.1x EBITDA. Interest cover is 11.5x. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 11.0x trailing earnings, 8.4x EV/EBITDA and 2.1x EV/sales. The free-cash-flow yield is 10.3%. Inverting the P/E gives an earnings yield of 9.1%; the cash-flow yield is 10.3%.",
-      "The peer comparison sets the company against ONON and DECK; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $159.77, the shares trade at 11.0x trailing earnings and 8.4x EV/EBITDA, with a 10.3% free-cash-flow yield. The earnings yield is 9.1%. The earnings multiple is 92.5% below the 146.1x peer median.",
+      "The multiple implies the market expects little growth and assumes the current margin is close to peak. The multiple is below the peer median, so some of the risk is already in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "12 analysts contribute to the third-party consensus. The mean target is $164.67, with a range of $128.00 to $190.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $4.2B of revenue and $14.63 of EPS. The estimate revisions in the dataset are 4.9% over 30 days and 5.0% over 90 days. That implies growth of 1.8% over the trailing twelve months."
+      "12 analysts in the third-party consensus carry a mean target of $164.67, 3.1% above the latest close. The range runs from $128.00 to $190.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $4.2B of revenue and $14.63 of EPS. EPS estimates are up 4.9% over 30 days and up 5.0% over 90 days. That implies 1.8% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is international growth and HEYDUDE turnaround versus HEYDUDE integration and consumer demand.",
     "items": [
       {
-        "title": "Consumer spending",
+        "title": "HEYDUDE integration and consumer demand",
         "severity": "High",
-        "detail": "Discretionary budgets are sensitive to confidence and rates.",
+        "detail": "The main risk is HEYDUDE integration and consumer demand.",
         "watch": "Comparable sales and transaction counts."
       },
       {
@@ -146,9 +146,9 @@ export const CROX: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Crocs, Inc. produced $4.1B of trailing revenue at a 22.6% operating margin and an 18.4% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The published consensus mean is $164.67 (2026-11-25), 3.1% above the latest close; it should be read as the published consensus, not as this publication's view. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 90/100 and balance sheet at 41/100, with the composite averaging 65/100. The gap between valuation at 90/100 and balance sheet at 41/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on valuation and the durability of 22.6% margins. $1.1B of net debt is the weak link.",
+      "What would change the view is leverage falling below 1.0x EBITDA, not a single quarter. The key exposure is HEYDUDE integration and consumer demand.",
+      "The composite of 65/100 blends a strong valuation reading with a weak balance sheet one; the gap is the story."
     ],
     "questions": [
       "Is growth coming from traffic or price?",

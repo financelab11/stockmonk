@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const SG: StockStory = {
   "ticker": "SG",
   "kicker": "Consumer Retail & Leisure · Restaurants",
-  "title": "Sweetgreen, Inc: A fast-casual restaurant chain",
-  "dek": "Sweetgreen, Inc. reported $685.4M of trailing revenue at a -20.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Sweetgreen: A fast-casual restaurant chain",
+  "dek": "Sweetgreen's revenue was flat at $685.4M, at a -20.7% operating margin. The key risk is unit economics and consumer demand.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $685.4M trailing twelve months, +0.0% year over year.",
+    "Revenue: $685.4M, +0.0% year over year.",
     "Profitability: -20.7% operating margin and 2.8% net margin.",
     "Cash: -$101.2M free cash flow, a -14.8% margin, against $119.8M of net cash.",
-    "Valuation: 73.3x trailing earnings and no meaningful EV/EBITDA multiple at the latest close."
+    "Valuation: 73.3x trailing earnings and no meaningful EV/EBITDA multiple."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const SG: StockStory = {
   "irUrl": "https://www.sweetgreen.com",
   "bigPicture": {
     "paragraphs": [
-      "Sweetgreen, Inc. generated $685.4M of revenue over the last twelve months, +0.0% versus the prior year. The latest reported quarter was Q3 FY26, with $176M of revenue and an -18.1% operating margin. The shares closed at $11.72 on Nov 25, 2026, giving a market capitalization of $1.4B.",
-      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. A regional breakdown is missing from the current filing extract, so the analysis stays at the consolidated level.",
-      "At the latest close the equity is valued at $1.4B, or 73.3x trailing earnings and no meaningful EV/EBITDA multiple. The shares sit 77% of the way up their 52-week range ($4.49 to $13.89). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Sweetgreen's revenue was flat at $685.4M at a -20.7% operating margin, burning $101.2M of cash. The latest quarter (Q3 FY26) grew 2.1%. The next test is whether the current profitability can be sustained.",
+      "Revenue is reported as one consolidated line. The near-term driver is same-store sales and new units. The risk is unit economics and consumer demand. The absence of a segment split puts more weight on the group margin and cash conversion.",
+      "At $11.72, the equity is worth $1.4B, or 73.3x trailing earnings and no meaningful EV/EBITDA multiple. The earnings multiple is 111.6% above the 34.6x peer median. The stock is 77% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Sweetgreen is a fast-casual restaurant chain, so same-store sales, new-unit payback and food/labor costs determine the path to profit."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Sweetgreen, Inc., together with its subsidiaries, operates fast food restaurants serving healthy food and beverages in the United States. Sweetgreen, Inc. is a Restaurants company within the Consumer Retail & Leisure coverage group.",
-      "There is no separate segment disclosure in the current extract. The company employed 6,486 people at the last reporting date. With $685.4M of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The peer set is MCD, CMG and CAVA; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Sweetgreen, Inc., together with its subsidiaries, operates fast food restaurants serving healthy food and beverages in the United States.",
+      "Sweetgreen does not report a product gross margin; labor, food, fuel and property costs sit inside the operating line, leaving a -20.7% operating margin. That is 37.6 points below the peer median of 16.9%.",
+      "Capital spending runs at 15.5% of revenue, which is a meaningful claim on cash flow. The balance sheet carries $119.8M of net cash. Return on invested capital was -29.7%. That is 55.8 points below the peer median of 26.1%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$685.4M on a trailing-twelve-month basis, with the latest quarter at $176M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -20.7%; free-cash-flow margin -14.8%; net margin 2.8%."
+        "title": "Margin engine",
+        "detail": "Operating margin -20.7%. Labor, food, fuel and property costs are the main cost line, so the margin depends on spreading the cost base over more revenue."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $1.4B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 15.5% of revenue; $119.8M of net cash; ROIC -29.7%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of -20.7% is the first clean profitability line. Demand, occupancy and pricing per unit drive revenue, while labor, fuel and property costs determine the margin.",
-      "The balance sheet carries $119.8M of net cash. Return on invested capital was -29.7% and return on equity was 4.3%. The capital base is currently earning less than nothing; scale has to change that."
+      "Occupancy, ticket pricing and capacity drive revenue; labor and fuel drive the cost. The edge is fast-casual brand and digital ordering.",
+      "The operating margin is -20.7%, 37.6 points below the peer median of 16.9%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 25.2% a year across the fiscal years in the dataset, and the latest quarter changed +2.1% year over year. Current-year estimates call for $699.9M of revenue and -$0.08 of EPS.",
-      "The operating margin of -20.7% and return on invested capital of -29.7% are the filters to watch as revenue scales. The 0.0% revenue pace and -20.7% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 25.2% a year from FY2020 to FY2025. The latest quarter (Q3 FY26) grew 2.1% year over year. The current-year consensus looks for $699.9M of revenue and -$0.08 of EPS.",
+      "The next leg depends on same-store sales and new units. For Sweetgreen, demand growth is only worth paying for if pricing covers labor and capacity costs."
     ],
     "bullets": [
       {
         "title": "Demand and occupancy",
-        "detail": "Bookings, passenger counts or room nights determine how much capacity is used. The current reading: revenue growth is +0.0%."
+        "detail": "Bookings, passenger counts or room nights determine how much capacity is used. Revenue growth is 0.0%."
       },
       {
         "title": "Pricing and yield",
-        "detail": "The operating margin is -20.7%. The next data point will show whether the trend is intact."
+        "detail": "Ticket, room or menu pricing determines revenue per unit of capacity. The operating margin is -20.7%."
       },
       {
         "title": "Unit and capacity growth",
@@ -73,36 +73,36 @@ export const SG: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -64.2% in FY2020 to -20.5% in FY2025. The trailing operating margin is -20.7%, the net margin is 2.8% and diluted EPS is $0.15.",
-      "Return on equity was 4.3% and return on invested capital was -29.7%. Both measures sit below zero, so there is no leverage effect to separate out. Both should be read against the company's own history before they are compared with a peer median."
+      "The operating margin moved from -64.2% in FY2020 to -20.5% in FY2025. The trailing operating margin is -20.7%, the net margin is 2.8%, and diluted EPS is $0.15, down 115.5% year over year.",
+      "Return on equity of 4.3% is well above the -29.7% return on invested capital; leverage or acquisition goodwill explains most of the gap. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$101.2M, a -14.8% margin. The balance sheet carries $119.8M of net cash. Capex absorbed 15.5% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $106.5M in the latest fiscal year."
+      "Free cash flow was -$101.2M, or -14.8% of revenue. Capex absorbed 15.5% of revenue, which is a meaningful claim on cash. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "The balance sheet carries $119.8M of net cash. Interest cover is -1323.6x. The net cash position is optionality: it can fund investment, acquisitions or returns."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 73.3x trailing earnings, no meaningful EV/EBITDA multiple and 1.9x EV/sales. The free-cash-flow yield is -7.2%. Inverting the P/E gives an earnings yield of 1.4%; the cash-flow yield is -7.2%.",
-      "The peer comparison sets the company against MCD, CMG and CAVA; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $11.72, the shares trade at 73.3x trailing earnings and no meaningful EV/EBITDA multiple, with a -7.2% free-cash-flow yield. The earnings yield is 1.4%. The earnings multiple is 111.6% above the 34.6x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "12 analysts contribute to the third-party consensus. The mean target is $12.18, with a range of $8.10 to $15.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $699.9M of revenue and -$0.08 of EPS. The estimate revisions in the dataset are -58.0% over 30 days and -69.9% over 90 days. If met, the estimate would mean growth of 2.1% from the current base."
+      "12 analysts in the third-party consensus carry a mean target of $12.18, 3.9% above the latest close. The range runs from $8.10 to $15.00. Analysts disagree on the outcome; the mean is a weak summary of a wide range. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $699.9M of revenue and -$0.08 of EPS. EPS estimates are down 58.0% over 30 days and down 69.9% over 90 days. That implies 2.1% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is same-store sales and new units versus unit economics and consumer demand.",
     "items": [
       {
-        "title": "Operating losses",
+        "title": "Unit economics and consumer demand",
         "severity": "High",
-        "detail": "The trailing operating margin is -20.7%, which means the current cost base is not covered by revenue.",
-        "watch": "Path to operating breakeven and cash runway."
+        "detail": "The main risk is unit economics and consumer demand.",
+        "watch": "Bookings, occupancy and average spend."
       },
       {
         "title": "Cost inflation",
@@ -146,9 +146,9 @@ export const SG: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Sweetgreen, Inc. produced $685.4M of trailing revenue at a -20.7% operating margin and a -14.8% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The published consensus mean is $12.18 (2026-11-25), 3.9% above the latest close; it is included for attribution, not as a Stockmonk call. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put balance sheet at 61/100 and profitability at 6/100, with the composite averaging 28/100. The gap between balance sheet at 61/100 and profitability at 6/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on balance sheet and the durability of -20.7% margins. The weak link is profitability.",
+      "What would change the view is return on invested capital rising above -27.7%, not a single quarter. The key exposure is unit economics and consumer demand.",
+      "On the scorecard, the composite is 28/100. The spread between balance sheet and profitability is the useful part; the average hides it."
     ],
     "questions": [
       "Is demand growing or is capacity being added?",

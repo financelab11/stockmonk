@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const OSCR: StockStory = {
   "ticker": "OSCR",
   "kicker": "Healthcare Services & Devices · Healthcare Plans",
-  "title": "Oscar Health, Inc: Individual and small-group insurance",
-  "dek": "Oscar Health, Inc. reported $27.1M of trailing revenue at a 3461.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Oscar Health: Individual and small-group insurance",
+  "dek": "Oscar Health's revenue rose 10.8% to $27.1M. The key risk is medical costs and ACA subsidies.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $27.1M trailing twelve months, +10.8% year over year.",
-    "Profitability: 3461.0% operating margin and 3159.9% net margin.",
-    "Cash: $4.1B free cash flow, a 15298.3% margin, against $8.5B of net cash.",
-    "Valuation: 9.8x trailing earnings and -0.1x EV/EBITDA at the latest close."
+    "Revenue: $27.1M, +10.8% year over year.",
+    "Profitability: operating margin not meaningful; net margin not meaningful.",
+    "Cash: reported free cash flow of $4.1B is not comparable to the reported revenue line.",
+    "Valuation: 9.8x trailing earnings and no meaningful EV/EBITDA multiple."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const OSCR: StockStory = {
   "irUrl": "https://www.hioscar.com",
   "bigPicture": {
     "paragraphs": [
-      "Oscar Health, Inc. generated $27.1M of revenue over the last twelve months, +10.8% versus the prior year. The latest reported quarter was Q3 FY26, with $6.3M of revenue and a 2827.9% operating margin. The shares closed at $27.03 on Nov 25, 2026, giving a market capitalization of $8.4B.",
-      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. Country-level revenue is not part of the filing extract used here. Oscar Health, Inc. competes in Healthcare Plans, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $8.4B, or 9.8x trailing earnings and -0.1x EV/EBITDA. The shares sit 59% of the way up their 52-week range ($10.69 to $38.50). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Oscar Health's revenue rose 10.8% to $27.1M. The latest quarter (Q3 FY26) fell 28.5%. The market is already paying for a view; the financials are the check.",
+      "Revenue is reported as one consolidated line. The upside is membership growth and margin. What would break it is medical costs and ACA subsidies. The business is judged on whether the consolidated margin and returns can improve from here.",
+      "At $27.03, the equity is worth $8.4B, or 9.8x trailing earnings and no meaningful EV/EBITDA multiple. The earnings multiple is 45.7% below the 18.1x peer median. The stock is 59% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Oscar Health sells individual and small-group insurance, a technology-enabled insurer where membership, medical costs and ACA subsidies drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Oscar Health, Inc. operates as a healthcare technology company in the United States. It reports in the Healthcare sector and is classified in Healthcare Services & Devices coverage.",
-      "Revenue is reported at the consolidated level only. Its latest filing lists 2,305 employees. Trailing revenue is $27.1M, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "UNH, CI and CNC provide the closest reference points for margin, growth and valuation."
+      "Oscar Health, Inc. operates as a healthcare technology company in the United States.",
+      "The operating margin is not meaningful on the current data. Medical claims and clinical costs remain the main cost line, so the margin trend is the number to watch.",
+      "Capital is regulated and held against medical reserves, so the medical loss ratio and reserve development matter more than capex. Return on equity was 38.5%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$27.1M on a trailing-twelve-month basis, with the latest quarter at $6.3M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 3461.0%; free-cash-flow margin 15298.3%; net margin 3159.9%."
+        "title": "Margin engine",
+        "detail": "The operating margin is not meaningful on the current data. Medical claims and clinical costs are the cost line to watch."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $8.4B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Reserves and the investment portfolio are the capital base; ROE 38.5%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 3461.0% is the first clean profitability line. Membership, medical cost trend and premium rates decide the margin, with the medical loss ratio as the central number.",
-      "The balance sheet carries $8.5B of net cash. Return on invested capital was 33.4% and return on equity was 38.5%. The return leaves room above the cost of capital for growth to compound."
+      "Premium revenue is set at enrollment; medical claims decide the margin. The edge is technology-enabled individual insurance.",
+      "The insurer keeps the difference between premium revenue and medical claims. The margin is thin enough that a few points of medical-cost trend can wipe out the profit. Membership mix and rate filings are the other variables to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -37.7% a year across the fiscal years in the dataset, and the latest quarter changed -28.5% year over year. Current-year estimates point to 62.9% revenue growth, with EPS of 2.48 in the reporting currency.",
-      "The operating margin of 3461.0% and return on invested capital of 33.4% are the filters to watch as revenue scales. The 3461.0% operating margin gives the company room to absorb slower growth without a profit reset."
+      "Revenue compounded at -37.7% a year from FY2019 to FY2025. The latest quarter (Q3 FY26) fell 28.5% year over year. The current-year consensus looks for 62.9% revenue growth, with EPS of 2.48 in the reporting currency.",
+      "The next leg depends on membership growth and margin. For Oscar Health, growth is only worth paying for if new members are priced above their medical cost trend."
     ],
     "bullets": [
       {
         "title": "Enrollment",
-        "detail": "Revenue growth is +10.8%. A change in that figure would be the first signal of a shift."
+        "detail": "Membership growth expands the premium base, but only if the risk mix is priced correctly. Revenue growth is 10.8%."
       },
       {
         "title": "Premium rates",
-        "detail": "Rate filings and renewals determine revenue per member against expected medical cost. The operating margin is 3461.0%."
+        "detail": "Rate filings and renewals determine revenue per member against expected medical cost. Revenue growth is 10.8%."
       },
       {
         "title": "Medical cost management",
-        "detail": "Return on invested capital is 33.4%. Network, utilization and pharmacy programmes determine how much of the premium survives claims."
+        "detail": "Network, utilization and pharmacy programmes determine how much of the premium survives claims. Return on invested capital is 33.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is 3461.0%, the net margin is 3159.9% and diluted EPS is $2.32.",
-      "Return on equity was 38.5% and return on invested capital was 33.4%. Return on invested capital of 33.4% is close to the 38.5% equity return, so the balance sheet explains only part of the difference."
+      "The reported margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is not meaningful on the current data, the net margin is not meaningful on the current data, and diluted EPS is $2.32.",
+      "Return on equity of 38.5% and return on invested capital of 33.4% are close enough that operating performance explains most of the return. For a managed-care insurer, the medical loss ratio and reserve development are the better tests of return quality."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $4.1B, a 15298.3% margin. The balance sheet carries $8.5B of net cash. Capital expenditure was 134.3% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $36.4M in the latest fiscal year."
+      "Reported free cash flow was $4.1B, but it is not comparable to the reported revenue line in the current data. Capex and working capital are the relevant cash variables here.",
+      "For a managed-care insurer, reserves and investment income matter more than net debt. Management can fund the next phase without needing the capital markets. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 9.8x trailing earnings, -0.1x EV/EBITDA and -3.7x EV/sales. The free-cash-flow yield is 49.3%. The 10.2% earnings yield and 49.3% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against UNH, CI and CNC; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $27.03, the shares trade at 9.8x trailing earnings and no meaningful EV/EBITDA multiple, with a 49.3% free-cash-flow yield. The earnings yield is 10.2%. The earnings multiple is 45.7% below the 18.1x peer median.",
+      "The multiple implies the market expects little growth and assumes the current margin is close to peak. The multiple is below the peer median, so some of the risk is already in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "10 analysts contribute to the third-party consensus. The mean target is $37.00, with a range of $27.00 to $49.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates point to 62.9% revenue growth, with EPS of 2.48 in the reporting currency. The estimate revisions in the dataset are 27.6% over 30 days and 41.7% over 90 days."
+      "10 analysts in the third-party consensus carry a mean target of $37.00, 36.9% above the latest close. The range runs from $27.00 to $49.00. The target range is wide enough that the mean should be read with caution. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for 62.9% revenue growth, with EPS of 2.48 in the reporting currency. EPS estimates are up 27.6% over 30 days and up 41.7% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is membership growth and margin versus medical costs and ACA subsidies.",
     "items": [
       {
-        "title": "Medical cost trend",
+        "title": "Medical costs and ACA subsidies",
         "severity": "High",
-        "detail": "Utilization and acuity can rise faster than premiums, compressing the medical loss ratio.",
+        "detail": "The main risk is medical costs and ACA subsidies.",
         "watch": "Medical loss ratio, utilization and acuity."
       },
       {
@@ -146,9 +146,9 @@ export const OSCR: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Oscar Health, Inc. produced $27.1M of trailing revenue at a 3461.0% operating margin and a 15298.3% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
-      "10 analysts in the third-party survey average $37.00 as of 2026-11-25, 36.9% above the latest close; the figure belongs to the analysts who published it, not to this report. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put cash generation at 100/100 and growth at 25/100, with the composite averaging 83/100. A 100/100 cash generation score against a 25/100 growth score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on cash generation and the durability of the current economics. The weak link is growth.",
+      "What would change the view is organic growth returning above 13.8%, not a single quarter. The key exposure is medical costs and ACA subsidies.",
+      "The scorecard averages 83/100, but the dispersion matters more: cash generation is 100/100 and growth is 25/100."
     ],
     "questions": [
       "Is medical cost trend running above or below premium rates?",

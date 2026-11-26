@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const ALB: StockStory = {
   "ticker": "ALB",
   "kicker": "Materials & Mining · Specialty Chemicals",
-  "title": "Albemarle Corporation: margins, cash conversion and the multiple",
-  "dek": "Albemarle Corporation reported $6.2B of trailing revenue at a 10.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Albemarle: the balance sheet behind $6.2B of revenue",
+  "dek": "Albemarle's revenue rose 24.4% to $6.2B, at a 10.0% operating margin. The key risk is lithium prices.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $6.2B trailing twelve months, +24.4% year over year.",
+    "Revenue: $6.2B, +24.4% year over year.",
     "Profitability: 10.0% operating margin and 11.1% net margin.",
     "Cash: $1.4B free cash flow, a 23.5% margin, against $35.4M of net debt.",
-    "Valuation: 14.0x trailing earnings and 7.6x EV/EBITDA at the latest close."
+    "Valuation: 14.0x trailing earnings and 7.6x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const ALB: StockStory = {
   "irUrl": "https://www.albemarle.com",
   "bigPicture": {
     "paragraphs": [
-      "Albemarle Corporation generated $6.2B of revenue over the last twelve months, +24.4% versus the prior year. The latest reported quarter was Q3 FY26, with $1.6B of revenue and a 9.5% operating margin. The shares closed at $80.71 on Nov 25, 2026, giving a market capitalization of $9.5B.",
-      "Energy Storage contributes 52.7% of the disclosed revenue mix. By geography, China is the largest disclosed market at 39.4% of revenue. The moat is access to low-cost lithium resources and processing capacity, which matters most when prices are weak.",
-      "At the latest close the equity is valued at $9.5B, or 14.0x trailing earnings and 7.6x EV/EBITDA. The shares sit 3% of the way up their 52-week range ($76.46 to $221.00). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Albemarle's revenue rose 24.4% to $6.2B at a 10.0% operating margin, generating $1.4B of free cash flow. The latest quarter (Q3 FY26) grew 18.8%. The margin and the multiple are the two numbers that matter from here.",
+      "Energy Storage is 52.7% of revenue and Specialties is 26.6%. China is the largest geography at 39.4% of revenue. The upside is volume growth from new capacity and the signing of index-linked contracts. What would break it is lithium prices.",
+      "At $80.71, the equity is worth $9.5B, or 14.0x trailing earnings and 7.6x EV/EBITDA. The earnings multiple is 58.3% below the 33.5x peer median. The stock is 3% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
-    "quote": "Albemarle is a lithium producer whose earnings swing with battery-grade lithium prices and the pace of EV demand. The shares trade on mid-cycle lithium prices; the spot earnings multiple is close to meaningless."
+    "quote": "Albemarle is a lithium producer whose earnings swing with battery-grade lithium prices and the pace of EV demand."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Albemarle Corporation provides energy storage solutions worldwide. It operates through three segments: Energy Storage, Specialties, and Ketjen. It reports in the Basic Materials sector and is classified in Materials & Mining coverage.",
-      "The disclosed mix runs across Energy Storage at 52.7%, Specialties at 26.6% and Ketjen at 20.7%. Its latest filing lists 7,800 employees. The revenue base is $6.2B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "LIN, SHW and ECL provide the closest reference points for margin, growth and valuation."
+      "Albemarle Corporation provides energy storage solutions worldwide.",
+      "Albemarle earned a 25.8% gross margin, and energy, feedstock and maintenance absorbed 15.8% of revenue, leaving a 10.0% operating margin. That is 4.5 points below the peer median of 14.6%.",
+      "Capex is 9.6% of revenue, so the business is capital-hungry. Net debt is $35.4M, or 0.0x EBITDA. Return on invested capital was 2.5%. That is 7.4 points below the peer median of 9.9%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$6.2B on a trailing-twelve-month basis, with the latest quarter at $1.6B."
+        "title": "Revenue mix",
+        "detail": "Energy Storage at 52.7%, Specialties at 26.6% and Ketjen at 20.7%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 10.0%; free-cash-flow margin 23.5%; net margin 11.1%."
+        "title": "Margin engine",
+        "detail": "Gross margin 25.8%, operating margin 10.0%. Energy, feedstock and maintenance are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $9.5B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 9.6% of revenue; $35.4M of net debt; ROIC 2.5%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 25.8%, operating margin is 10.0% and net margin is 11.1%. Gross profit was $1.6B, and 15.8% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "Net debt is $35.4M, or 0.0x EBITDA. Return on invested capital was 2.5% and return on equity was 6.5%. The return suggests the current capital base is earning a modest amount."
+      "Commodity prices, volumes and input costs drive revenue and margin. The moat is access to low-cost lithium resources and processing capacity, which matters most when prices are weak.",
+      "The operating margin is 10.0%, 4.5 points below the peer median of 14.6%. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 6.2% a year across the fiscal years in the dataset, and the latest quarter changed +18.8% year over year. Current-year estimates call for $6B of revenue and $10.45 of EPS.",
-      "The next catalyst is volume growth from new capacity and the signing of index-linked contracts. The operating margin of 10.0% and return on invested capital of 2.5% are the filters to watch as revenue scales. Growth of 24.4% against a 10.0% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 6.2% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 18.8% year over year. The current-year consensus looks for $6B of revenue and $10.45 of EPS.",
+      "The next leg depends on volume growth from new capacity and the signing of index-linked contracts. For Albemarle, volume growth is only worth paying for if the price-cost spread holds."
     ],
     "bullets": [
       {
         "title": "Volume",
-        "detail": "Revenue growth is +24.4%. Watch whether that reading improves or merely holds."
+        "detail": "Shipments show underlying industrial demand. Revenue growth is 24.4%."
       },
       {
         "title": "Price and mix",
@@ -67,39 +67,39 @@ export const ALB: StockStory = {
       },
       {
         "title": "Cost position",
-        "detail": "Return on invested capital is 2.5%. Low-cost assets can earn through the cycle."
+        "detail": "Low-cost assets can earn through the cycle. Return on invested capital is 2.5%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 27.0% in FY2018 to -7.1% in FY2025. The trailing operating margin is 10.0%, the net margin is 11.1% and diluted EPS is $4.13.",
-      "Return on equity was 6.5% and return on invested capital was 2.5%. The two returns are within a few points, at 6.5% on equity and 2.5% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 27.0% in FY2018 to -7.1% in FY2025. The trailing operating margin is 10.0%, the net margin is 11.1%, and diluted EPS is $4.13.",
+      "Return on equity of 6.5% and return on invested capital of 2.5% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.4B, a 23.5% margin. Net debt is $35.4M, or 0.0x EBITDA. With capital spending at 9.6% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $589.8M in the latest fiscal year."
+      "Free cash flow was $1.4B, or 23.5% of revenue. Capex absorbed 9.6% of revenue, which is a meaningful claim on cash. Operating cash flow and the balance sheet are the better tests at this stage.",
+      "Net debt is $35.4M, or 0.0x EBITDA. Interest cover is 4.1x. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 14.0x trailing earnings, 7.6x EV/EBITDA and 1.6x EV/sales. The free-cash-flow yield is 15.2%. The trailing earnings yield is 7.2%, against a free-cash-flow yield of 15.2%.",
-      "The shares trade on mid-cycle lithium prices; the spot earnings multiple is close to meaningless. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $80.71, the shares trade at 14.0x trailing earnings and 7.6x EV/EBITDA, with a 15.2% free-cash-flow yield. The earnings yield is 7.2%. The earnings multiple is 58.3% below the 33.5x peer median.",
+      "The shares trade on mid-cycle lithium prices; the spot earnings multiple is close to meaningless. The multiple is below the peer median, so some of the risk is already in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "21 analysts contribute to the third-party consensus. The mean target is $140.55, with a range of $86.00 to $211.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $6B of revenue and $10.45 of EPS. The estimate revisions in the dataset are -7.5% over 30 days and -9.6% over 90 days. The estimate is consistent with a decline of 2.0% on the trailing revenue figure."
+      "21 analysts in the third-party consensus carry a mean target of $140.55, 74.1% above the latest close. The range runs from $86.00 to $211.00. The range is unusually wide, which signals genuine disagreement about the cycle. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $6B of revenue and $10.45 of EPS. EPS estimates are down 7.5% over 30 days and down 9.6% over 90 days. That implies a 2.0% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
+    "intro": "The central tension is volume growth from new capacity and the signing of index-linked contracts versus lithium prices.",
     "items": [
       {
-        "title": "The main risk",
+        "title": "Lithium prices",
         "severity": "High",
         "detail": "Lithium prices can stay below reinvestment economics for longer than the balance sheet expects.",
         "watch": "Realised prices and inventory."
@@ -146,9 +146,9 @@ export const ALB: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Albemarle Corporation produced $6.2B of trailing revenue at a 10.0% operating margin and a 23.5% free-cash-flow margin. The business converts an unusually large share of revenue into cash, and the multiple depends on that continuing.",
-      "Analysts contributing to the third-party consensus carry a $140.55 mean target as of 2026-11-25, 74.1% above the latest close; the figure belongs to the analysts who published it, not to this report.",
-      "The factor percentiles put valuation at 87/100 and profitability at 28/100, with the composite averaging 57/100. The average hides a strong valuation reading and a weak profitability one, which is why the spread is the more useful description."
+      "The investment case rests on valuation and the durability of 10.0% margins. The weak link is profitability.",
+      "What would change the view is return on invested capital rising above 4.5%, not a single quarter. The key exposure is lithium prices.",
+      "The scorecard averages 57/100, but the dispersion matters more: valuation is 87/100 and profitability is 28/100."
     ],
     "questions": [
       "What is the mid-cycle margin?",

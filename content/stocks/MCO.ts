@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const MCO: StockStory = {
   "ticker": "MCO",
   "kicker": "Payments & Financial Software · Financial Data & Stock Exchanges",
-  "title": "Moody's Corporation: Credit ratings and analytics",
-  "dek": "Moody's Corporation reported $8.2B of trailing revenue at a 44.6% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Moody's: Credit ratings and analytics",
+  "dek": "Moody's' revenue rose 9.0% to $8.2B, at a 44.6% operating margin. The key risk is issuance volumes and regulation.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $8.2B trailing twelve months, +9.0% year over year.",
+    "Revenue: $8.2B, +9.0% year over year.",
     "Profitability: 44.6% operating margin and 35.3% net margin.",
     "Cash: $3B free cash flow, a 36.4% margin, against $5.3B of net debt.",
-    "Valuation: 29.2x trailing earnings and 21.6x EV/EBITDA at the latest close."
+    "Valuation: 29.2x trailing earnings and 21.6x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const MCO: StockStory = {
   "irUrl": "https://www.moodys.com",
   "bigPicture": {
     "paragraphs": [
-      "Moody's Corporation generated $8.2B of revenue over the last twelve months, +9.0% versus the prior year. The latest reported quarter was Q3 FY26, with $2B of revenue and a 44.8% operating margin. The shares closed at $488.08 on Nov 25, 2026, giving a market capitalization of $84.2B.",
-      "Moodys Investors Service contributes 55.9% of the disclosed revenue mix. By geography, United States is the largest disclosed market at 54.0% of revenue. Moody's Corporation competes in Financial Data & Stock Exchanges, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $84.2B, or 29.2x trailing earnings and 21.6x EV/EBITDA. The shares sit 59% of the way up their 52-week range ($402.28 to $546.88). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Moody's' revenue rose 9.0% to $8.2B at a 44.6% operating margin, generating $3B of free cash flow. The latest quarter (Q3 FY26) grew 0.8%. The consensus estimate and the current multiple frame the near-term debate.",
+      "Moodys Investors Service is 55.9% of revenue and Moodys Analytics is 46.8%. The US is the largest geography at 54.0% of revenue. The upside is issuance recovery and analytics. What would break it is issuance volumes and regulation.",
+      "At $488.08, the equity is worth $84.2B, or 29.2x trailing earnings and 21.6x EV/EBITDA. The earnings multiple is 19.5% above the 24.4x peer median. The stock is 59% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Moody's sells credit ratings and analytics, a toll-road business where issuance volumes, recurring data subscriptions and pricing drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Moody's Corporation, together with its subsidiaries, operates as an integrated risk assessment firm in the United States, the rest of the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It operates through two segments, Moody's Analytics (MA) and Moody's Investors Service (MIS).",
-      "The disclosed mix runs across Moodys Investors Service at 55.9% and Moodys Analytics at 46.8%. Its latest filing lists 15,636 employees. With $8.2B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "SPGI, ICE and CME provide the closest reference points for margin, growth and valuation."
+      "Moody's Corporation, together with its subsidiaries, operates as an integrated risk assessment firm in the United States, the rest of the Americas, Europe, the Middle East, Africa, and the Asia Pacific.",
+      "Moody's earned a 74.6% gross margin, and technology, data and compensation absorbed 30.1% of revenue, leaving a 44.6% operating margin. That is 1.7 points above the peer median of 42.9%.",
+      "Capex is 4.0% of revenue, so the business is asset-light. Net debt is $5.3B, or 1.3x EBITDA. Return on invested capital was 28.0%. That is 11.0 points above the peer median of 16.9%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$8.2B on a trailing-twelve-month basis, with the latest quarter at $2B."
+        "title": "Revenue mix",
+        "detail": "Moodys Investors Service at 55.9% and Moodys Analytics at 46.8%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 44.6%; free-cash-flow margin 36.4%; net margin 35.3%."
+        "title": "Margin engine",
+        "detail": "Gross margin 74.6%, operating margin 44.6%. Technology, data and compensation are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $84.2B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 4.0% of revenue; $5.3B of net debt; ROIC 28.0%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 74.6% of revenue after cost of sales, or $6.1B. Operating expenses absorbed 30.1% of revenue, leaving a 44.6% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $5.3B, or 1.3x EBITDA. Return on invested capital was 28.0% and return on equity was 88.2%. That level earns well above a typical cost of capital."
+      "Activity, client assets and subscriptions drive revenue; take rate and data pricing drive the margin. The edge is credit-rating franchise and data.",
+      "The operating margin is 44.6%, 1.7 points above the peer median of 42.9%. What matters is whether new revenue carries the same margin as the base."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.2% a year across the fiscal years in the dataset, and the latest quarter changed +0.8% year over year. Current-year estimates call for $8.2B of revenue and $16.76 of EPS.",
-      "The operating margin of 44.6% and return on invested capital of 28.0% are the filters to watch as revenue scales. Growth of 9.0% on a 44.6% operating margin is a high-quality combination if both hold."
+      "Revenue compounded at 8.2% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 0.8% year over year. The current-year consensus looks for $8.2B of revenue and $16.76 of EPS.",
+      "The next leg depends on issuance recovery and analytics. For Moody's, activity growth is only worth paying for if take rate and recurring revenue hold."
     ],
     "bullets": [
       {
         "title": "Volumes and activity",
-        "detail": "Revenue growth is +9.0%. That is the number to compare with the company's own history."
+        "detail": "Trading, issuance or transaction volumes drive the fee pool. Revenue growth is 9.0%."
       },
       {
         "title": "Take rate and pricing",
@@ -67,41 +67,41 @@ export const MCO: StockStory = {
       },
       {
         "title": "Recurring data and client assets",
-        "detail": "Return on invested capital is 28.0%. Subscriptions, benchmarks and client balances add revenue that is less tied to daily volumes."
+        "detail": "Subscriptions, benchmarks and client balances add revenue that is less tied to daily volumes. Return on invested capital is 28.0%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 42.0% in FY2018 to 43.4% in FY2025. The trailing operating margin is 44.6%, the net margin is 35.3% and diluted EPS is $16.41.",
-      "Return on equity was 88.2% and return on invested capital was 28.0%. The equity return is flattered by a thinner capital base: 88.2% versus 28.0% on invested capital. Both should be read against the company's own history before they are compared with a peer median."
+      "The operating margin moved from 42.0% in FY2018 to 43.4% in FY2025. The trailing operating margin is 44.6%, the net margin is 35.3%, and diluted EPS is $16.41, up 31.9% year over year.",
+      "Return on equity of 88.2% is well above the 28.0% return on invested capital; leverage or acquisition goodwill explains most of the gap. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3B, a 36.4% margin. Net debt is $5.3B, or 1.3x EBITDA. Capex absorbed 4.0% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $2.9B, or 118.0% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $326M in the latest fiscal year."
+      "Free cash flow was $3B, or 36.4% of revenue. Operating cash flow covered 118.0% of net income; reported profit is converting into cash cleanly. Capex absorbed 4.0% of revenue, which is low relative to the revenue base.",
+      "Net debt is $5.3B, or 1.3x EBITDA. The test is whether that cash is reinvested at a return above the cost of capital. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 29.2x trailing earnings, 21.6x EV/EBITDA and 10.9x EV/sales. The free-cash-flow yield is 3.5%. Inverting the P/E gives an earnings yield of 3.4%; the cash-flow yield is 3.5%.",
-      "The peer comparison sets the company against SPGI, ICE and CME; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $488.08, the shares trade at 29.2x trailing earnings and 21.6x EV/EBITDA, with a 3.5% free-cash-flow yield. The earnings yield is 3.4%. The earnings multiple is 19.5% above the 24.4x peer median.",
+      "The multiple is above the peer median, leaving less room for disappointment. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "21 analysts contribute to the third-party consensus. The mean target is $553.67, with a range of $480.00 to $600.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $8.2B of revenue and $16.76 of EPS. The estimate revisions in the dataset are -0.3% over 30 days and -1.3% over 90 days. The estimate is consistent with growth of 0.5% on the trailing revenue figure."
+      "21 analysts in the third-party consensus carry a mean target of $553.67, 13.4% above the latest close. The range runs from $480.00 to $600.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $8.2B of revenue and $16.76 of EPS. EPS estimates are down 0.3% over 30 days and down 1.3% over 90 days. That implies 0.5% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is issuance recovery and analytics versus issuance volumes and regulation.",
     "items": [
       {
-        "title": "Market activity",
+        "title": "Issuance volumes and regulation",
         "severity": "High",
-        "detail": "A quiet market reduces volumes and the fees earned on them.",
+        "detail": "The main risk is issuance volumes and regulation.",
         "watch": "Volumes, issuance and client activity."
       },
       {
@@ -146,9 +146,9 @@ export const MCO: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Moody's Corporation produced $8.2B of trailing revenue at a 44.6% operating margin and a 36.4% free-cash-flow margin. The free-cash-flow margin is the strongest part of that record; the rest of the report tests whether it can be sustained.",
-      "The consensus target is $553.67 as of 2026-11-25, 13.4% above the latest close; the figure belongs to the analysts who published it, not to this report. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put profitability at 91/100 and valuation at 39/100, with the composite averaging 62/100. The gap between profitability at 91/100 and valuation at 39/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on profitability and the durability of 44.6% margins. The weak link is valuation.",
+      "What would change the view is the multiple falling below 23.4x earnings, not a single quarter. The key exposure is issuance volumes and regulation.",
+      "The scorecard averages 62/100, but the dispersion matters more: profitability is 91/100 and valuation is 39/100."
     ],
     "questions": [
       "How much of revenue is recurring versus activity-linked?",

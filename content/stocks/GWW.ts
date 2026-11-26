@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const GWW: StockStory = {
   "ticker": "GWW",
   "kicker": "Industrial Automation · Industrial Distribution",
-  "title": "The financial engine behind W.W. Grainger, Inc.",
-  "dek": "W.W. Grainger, Inc. reported $19.4B of trailing revenue at a 15.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "W.W. Grainger: 15.8% margins and the price being paid",
+  "dek": "W.W. Grainger's revenue rose 9.1% to $19.4B, at a 15.8% operating margin. The key risk is industrial demand and pricing.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $19.4B trailing twelve months, +9.1% year over year.",
+    "Revenue: $19.4B, +9.1% year over year.",
     "Profitability: 15.8% operating margin and 11.5% net margin.",
     "Cash: $1.7B free cash flow, an 8.9% margin, against $2.1B of net debt.",
-    "Valuation: 29.8x trailing earnings and 20.1x EV/EBITDA at the latest close."
+    "Valuation: 29.8x trailing earnings and 20.1x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const GWW: StockStory = {
   "irUrl": "https://www.grainger.com",
   "bigPicture": {
     "paragraphs": [
-      "W.W. Grainger, Inc. generated $19.4B of revenue over the last twelve months, +9.1% versus the prior year. The latest reported quarter was Q3 FY26, with $5.2B of revenue and a 16.0% operating margin. The shares closed at $1,410.86 on Nov 25, 2026, giving a market capitalization of $66B.",
-      "High Touch Solutions NA accounts for 78.0% of disclosed revenue. Revenue is disclosed across 4 geographies, with United States the largest at 80.5%. W.W. Grainger, Inc. competes in Industrial Distribution, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $66B, or 29.8x trailing earnings and 20.1x EV/EBITDA. The shares sit 81% of the way up their 52-week range ($933.53 to $1,521.41). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "W.W. Grainger's revenue rose 9.1% to $19.4B at a 15.8% operating margin, generating $1.7B of free cash flow. The latest quarter (Q3 FY26) grew 11.3%.",
+      "High Touch Solutions NA is 78.0% of revenue and Endless Assortment is 20.2%. The US is the largest geography at 80.5% of revenue. What could lift the return is volume growth and margin. The thing to watch is industrial demand and pricing.",
+      "At $1,410.86, the equity is worth $66B, or 29.8x trailing earnings and 20.1x EV/EBITDA. The earnings multiple is 10.9% below the 33.4x peer median. The stock is 81% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Grainger distributes maintenance, repair and operating supplies, a scale distribution business where pricing, availability and customer penetration drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "The company competes in Industrial Distribution and reports its accounts in USD under Industrial Automation coverage. The business is part of the Industrial Automation group and reports under Industrials in the current classification.",
-      "The disclosed mix runs across High Touch Solutions NA at 78.0%, Endless Assortment at 20.2% and Corporate / other at 1.8%. Headcount was 22,100 in the latest filing. Trailing revenue is $19.4B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "Against AIT and FAST, the relevant tests are pricing power, capital intensity and cash conversion."
+      "W.W. Grainger operates in Industrial Distribution.",
+      "W.W. Grainger earned a 39.4% gross margin, and materials, labor and capacity absorbed 23.6% of revenue, leaving a 15.8% operating margin. That is roughly in line with the peer median of 15.8%.",
+      "Capex is 3.5% of revenue, so the business is asset-light. Net debt is $2.1B, or 0.6x EBITDA. Return on invested capital was 32.0%. That is 4.4 points above the peer median of 27.5%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$19.4B on a trailing-twelve-month basis, with the latest quarter at $5.2B."
+        "title": "Revenue mix",
+        "detail": "High Touch Solutions NA at 78.0%, Endless Assortment at 20.2% and Corporate / other at 1.8%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 15.8%; free-cash-flow margin 8.9%; net margin 11.5%."
+        "title": "Margin engine",
+        "detail": "Gross margin 39.4%, operating margin 15.8%. Materials, labor and capacity are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $66B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.5% of revenue; $2.1B of net debt; ROIC 32.0%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $19.4B of revenue, $7.6B remained after cost of sales. The 23.6% operating-expense load brought that down to a 15.8% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "Net debt is $2.1B, or 0.6x EBITDA. Return on invested capital was 32.0% and return on equity was 51.1%. The return leaves room above the cost of capital for growth to compound."
+      "Industrial production, backlog and pricing drive revenue; utilization drives the margin. The edge is distribution scale and product availability.",
+      "The operating margin is 15.8%, roughly in line with the peer median of 15.8%. The next dollar of revenue matters less than the margin it carries."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 6.9% a year across the fiscal years in the dataset, and the latest quarter changed +11.3% year over year. Current-year estimates call for $19.9B of revenue and $47.71 of EPS.",
-      "The operating margin of 15.8% and return on invested capital of 32.0% are the filters to watch as revenue scales. Neither the 9.1% growth nor the 15.8% margin is extreme; the combination is what matters."
+      "Revenue compounded at 6.9% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 11.3% year over year. The current-year consensus looks for $19.9B of revenue and $47.71 of EPS.",
+      "The next leg depends on volume growth and margin. For W.W. Grainger, volume growth is only worth paying for if pricing covers input costs. Growth is only valuable if the new revenue earns a similar return to the existing business."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Revenue growth is +9.1%. Orders already booked provide visibility into future revenue."
+        "detail": "Orders already booked provide visibility into future revenue. Revenue growth is 9.1%."
       },
       {
         "title": "Aftermarket and services",
-        "detail": "Recurring service revenue can be more profitable than equipment. The current reading: the operating margin is 15.8%."
+        "detail": "Recurring service revenue can be more profitable than equipment. The operating margin is 15.8%."
       },
       {
         "title": "Price and productivity",
-        "detail": "Return on invested capital is 32.0%. That is the metric the thesis depends on."
+        "detail": "Pricing actions and cost programmes protect margins through cycles. Return on invested capital is 32.0%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 10.3% in FY2018 to 13.9% in FY2025. The trailing operating margin is 15.8%, the net margin is 11.5% and diluted EPS is $45.51.",
-      "Return on equity was 51.1% and return on invested capital was 32.0%. The 19.2% spread between the two returns suggests some of the equity return comes from the balance sheet rather than operations alone."
+      "The operating margin moved from 10.3% in FY2018 to 13.9% in FY2025. The trailing operating margin is 15.8%, the net margin is 11.5%, and diluted EPS is $45.51, up 27.6% year over year.",
+      "The 19.2-point spread between return on equity and return on invested capital suggests some of the equity return comes from the balance sheet. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.7B, an 8.9% margin. Net debt is $2.1B, or 0.6x EBITDA. Capital expenditure was 3.5% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $2B, or 118.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $684M in the latest fiscal year."
+      "Free cash flow was $1.7B, or 8.9% of revenue. Operating cash flow covered 118.1% of net income; reported profit is converting into cash cleanly. Capex absorbed 3.5% of revenue, which is low relative to the revenue base.",
+      "Net debt is $2.1B, or 0.6x EBITDA. Interest cover is 49.4x. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 29.8x trailing earnings, 20.1x EV/EBITDA and 3.5x EV/sales. The free-cash-flow yield is 2.6%. The 3.4% earnings yield and 2.6% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against AIT and FAST; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $1,410.86, the shares trade at 29.8x trailing earnings and 20.1x EV/EBITDA, with a 2.6% free-cash-flow yield. The earnings yield is 3.4%. The earnings multiple is 10.9% below the 33.4x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "14 analysts contribute to the third-party consensus. The mean target is $1,452.00, with a range of $1,180.00 to $1,645.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $19.9B of revenue and $47.71 of EPS. The estimate revisions in the dataset are 2.7% over 30 days and 2.8% over 90 days. Set against trailing revenue, the estimate implies growth of 2.8%."
+      "14 analysts in the third-party consensus carry a mean target of $1,452.00, 2.9% above the latest close. The range runs from $1,180.00 to $1,645.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $19.9B of revenue and $47.71 of EPS. EPS estimates are up 2.7% over 30 days and up 2.8% over 90 days. That implies 2.8% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is volume growth and margin versus industrial demand and pricing.",
     "items": [
       {
-        "title": "Capital-spending cycle",
+        "title": "Industrial demand and pricing",
         "severity": "High",
-        "detail": "Industrial demand falls when customers delay projects.",
+        "detail": "The main risk is industrial demand and pricing.",
         "watch": "Order trends and backlog conversion."
       },
       {
@@ -146,9 +146,9 @@ export const GWW: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "W.W. Grainger, Inc. produced $19.4B of trailing revenue at a 15.8% operating margin and an 8.9% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "14 analysts in the third-party survey average $1,452.00 as of 2026-11-25, 2.9% above the latest close; that is the analysts' view, attributed and dated, not a Stockmonk target. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put profitability at 72/100 and cash generation at 34/100, with the composite averaging 49/100. With profitability and cash generation only 38 points apart, the composite is a reasonable one-line description."
+      "The investment case rests on profitability and the durability of 15.8% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above 11.9%, not a single quarter. The key exposure is industrial demand and pricing.",
+      "The scorecard puts the composite at 49/100. Focus on the profitability-to-cash generation spread rather than the average."
     ],
     "questions": [
       "How much revenue is recurring versus project-based?",

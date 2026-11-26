@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const KOD: StockStory = {
   "ticker": "KOD",
   "kicker": "Pharma & Biotech · Biotechnology",
-  "title": "Kodiak Sciences Inc: A clinical-stage retinal-disease biotech with no product revenue",
-  "dek": "Kodiak Sciences Inc. reported $0 of trailing revenue at a n/a operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Kodiak Sciences: the cash runway behind durability data and financing",
+  "dek": "Kodiak Sciences has no meaningful product revenue and burned $172.8M over the past year. The equity is an option on durability data and financing, with $87.9M of net cash and less than a year of runway.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: no revenue reported over the trailing twelve months.",
-    "Profitability: n/a operating margin and n/a net margin.",
-    "Cash: -$172.8M free cash flow, a n/a margin, against $87.9M of net cash.",
-    "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
+    "Stage: development-stage Biotechnology company with no product revenue.",
+    "Cash: $87.9M of net cash against $172.8M of annual burn.",
+    "Milestone: durability data and financing.",
+    "Valuation: no meaningful earnings multiple; the equity is an option on the programme."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,85 +18,86 @@ export const KOD: StockStory = {
   "irUrl": "https://kodiak.com",
   "bigPicture": {
     "paragraphs": [
-      "Kodiak Sciences Inc. reported no revenue over the last twelve months. The latest reported quarter was Q3 FY26, with $0 of revenue and a n/a operating margin. The shares closed at $109.99 on Nov 25, 2026, giving a market capitalization of $7.2B.",
-      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. The company does not disclose revenue by region in the current extract.",
-      "At the latest close the equity is valued at $7.2B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 94% of the way up their 52-week range ($20.88 to $115.91). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Kodiak Sciences Inc., a clinical stage biopharmaceutical company, engages in the research, development, and commercialization of therapeutics to treat retinal diseases. Kodiak Sciences burned $172.8M over the past year and carries $87.9M of net cash. Less than a year of runway is the first thing to understand about the equity.",
+      "Kodiak is a clinical-stage retinal-disease biotech with no product revenue, so the investment case is a binary bet on its durability data and cash runway. The next milestone is durability data and financing. The main risk is binary trial readouts and cash runway.",
+      "At $109.99, the equity is worth $7.2B. There is no meaningful earnings multiple; the market is valuing the programme rather than current cash flow. The stock is 94% of the way up its 52-week range."
     ],
     "quote": "Kodiak is a clinical-stage retinal-disease biotech with no product revenue, so the investment case is a binary bet on its durability data and cash runway."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Kodiak Sciences Inc., a clinical stage biopharmaceutical company, engages in the research, development, and commercialization of therapeutics to treat retinal diseases. Kodiak Sciences Inc. is a Biotechnology company within the Pharma & Biotech coverage group.",
-      "There is no separate segment disclosure in the current extract. The company employed 144 people at the last reporting date. The revenue base is $0 on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The peer set is VRTX, REGN and VKTX; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Kodiak Sciences is developing Biotechnology technology; revenue today is negligible. The current P&L is a development budget rather than a production economics story.",
+      "The edge is clinical-stage retinal-disease platform. The path to revenue runs through durability data and financing.",
+      "Cash burn and financing matter more than margins at this stage. $87.9M of net cash against $172.8M of annual burn gives less than a year of runway."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$0 on a trailing-twelve-month basis, with the latest quarter at $0."
+        "title": "Stage",
+        "detail": "Development-stage Biotechnology company with no product revenue."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin n/a; free-cash-flow margin n/a; net margin n/a."
+        "title": "Cash",
+        "detail": "$87.9M of net cash against $172.8M of annual burn."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $7.2B at the latest close."
+        "title": "Milestone",
+        "detail": "The next value inflection is durability data and financing."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of n/a is the first clean profitability line. The value sits in a small number of programmes and patents, so clinical data, label scope and loss-of-exclusivity timing matter more than the current quarter.",
-      "The balance sheet carries $87.9M of net cash. Return on invested capital was -1481.0% and return on equity was -1962.8%. Until the return turns positive, additional capital is a cost rather than an investment."
+      "There is no product revenue to analyse. The value comes from durability data and financing, not from the current revenue line.",
+      "Until commercialisation, spending is an investment in the programme. R&D and development costs are the relevant cost lines, not a product gross margin.",
+      "The balance sheet and burn rate determine how much time the company has. $87.9M of net cash against $172.8M of annual burn gives less than a year."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at n/a a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. Current-year estimates call for $0 of revenue and -$4.00 of EPS.",
-      "The operating margin of n/a and return on invested capital of -1481.0% are the filters to watch as revenue scales. The dataset does not carry a clean trailing growth rate, so the annual record is the better guide."
+      "Revenue is not the right growth metric at this stage. The milestones are durability data and financing, and the company needs to reach them before the cash runs out.",
+      "The equity is a binary option: success depends on hitting those milestones before the cash runs out. Less than a year of runway is the constraint, so financing is part of the thesis rather than a footnote."
     ],
     "bullets": [
       {
         "title": "Launch execution",
-        "detail": "New therapies need payer coverage, prescriber adoption and manufacturing scale. The current reading: revenue growth is not available."
+        "detail": "New therapies need payer coverage, prescriber adoption and manufacturing scale. The next milestone is durability data and financing."
       },
       {
         "title": "Pipeline readouts",
-        "detail": "The operating margin is n/a. That is the number to compare with the company's own history."
+        "detail": "Late-stage data can extend the growth runway or reset it. Cash burn is $172.8M a year."
       },
       {
         "title": "Patent duration",
-        "detail": "The remaining exclusivity period determines how long the cash flow lasts. Return on invested capital is -1481.0%."
+        "detail": "The remaining exclusivity period determines how long the cash flow lasts. Net cash is $87.9M of net cash."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is n/a, the net margin is n/a and diluted EPS is -$4.08.",
-      "Return on equity was -1962.8% and return on invested capital was -1481.0%. Both returns are negative, so the question is whether the operating losses are a scale problem or a structural one."
+      "The company is pre-revenue. Operating loss and cash burn are the relevant performance measures, not margins or EPS; the current P&L should be read as a development budget.",
+      "Margins and ROIC are not meaningful before scale. The balance sheet and spending rate determine runway; $87.9M of net cash against $172.8M of annual burn gives less than a year."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$172.8M, a n/a margin. The balance sheet carries $87.9M of net cash. With capital spending at n/a of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $506K in the latest fiscal year."
+      "Cash burn was $172.8M. $87.9M of net cash. Less than a year of runway is the binding constraint on the investment case, so financing is part of the thesis.",
+      "The financing risk is central: the company needs to reach the next milestone before it needs to raise again. The main risk is binary trial readouts and cash runway. That makes dilution a live question, not a tail risk."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and no meaningful EV/sales multiple. The free-cash-flow yield is -2.4%. Without a meaningful earnings multiple, the cash-flow yield and the asset base carry more of the valuation work.",
-      "The peer comparison sets the company against VRTX, REGN and VKTX; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "There is no meaningful earnings multiple. At $109.99, the equity is worth $7.2B; the market is valuing the programme rather than current profit. The stock is 94% of the way up its 52-week range.",
+      "The valuation is an option on durability data and financing. A re-rating needs milestone evidence, not a near-term earnings beat, and the cash runway sets the timetable."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "6 analysts contribute to the third-party consensus. The mean target is $130.17, with a range of $103.00 to $150.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $0 of revenue and -$4.00 of EPS. The estimate revisions in the dataset are 0.5% over 30 days and 1.3% over 90 days. If met, the estimate would mean growth of 0.0% from the current base."
+      "6 analysts in the third-party consensus carry a mean target of $130.17, 18.3% above the latest close. The range runs from $103.00 to $150.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $0 of revenue and -$4.00 of EPS. Consensus revenue and EPS estimates are not a useful anchor at this stage; the target is a milestone-based view, not an earnings forecast."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The thesis is binary: it depends on durability data and financing and enough cash to get there.",
     "items": [
       {
         "title": "Clinical failure",
@@ -146,9 +147,9 @@ export const KOD: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Kodiak Sciences Inc. produced $0 of trailing revenue at a n/a operating margin and a n/a free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Third-party analysts put the mean target at $130.17 as of 2026-11-25, 18.3% above the latest close; this report does not publish a target of its own. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put valuation at 100/100 and profitability at 8/100, with the composite averaging 41/100. The average hides a strong valuation reading and a weak profitability one, which is why the spread is the more useful description."
+      "The equity is an option on durability data and financing. $87.9M of net cash against $172.8M of annual burn gives less than a year of runway.",
+      "What would change the view is a commercial launch and a financing plan that funds the next phase. The main risk is binary trial readouts and cash runway.",
+      "The scorecard is less useful before revenue; cash runway and milestone progress are the real tests."
     ],
     "questions": [
       "When does the largest patent expire?",

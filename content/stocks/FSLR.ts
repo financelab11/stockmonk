@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const FSLR: StockStory = {
   "ticker": "FSLR",
   "kicker": "Power & Renewables · Solar",
-  "title": "First Solar, Inc: Thin-film solar modules",
-  "dek": "First Solar, Inc. reported $5B of trailing revenue at a 37.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "First Solar: Thin-film solar modules",
+  "dek": "First Solar's revenue was flat at $5B, at a 37.7% operating margin. The key risk is policy credits and bookings.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $5B trailing twelve months, -0.7% year over year.",
+    "Revenue: $5B, -0.7% year over year.",
     "Profitability: 37.7% operating margin and 37.1% net margin.",
     "Cash: $232.8M free cash flow, a 4.6% margin, against $1.4B of net cash.",
-    "Valuation: 8.5x trailing earnings and 5.8x EV/EBITDA at the latest close."
+    "Valuation: 8.5x trailing earnings and 5.8x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const FSLR: StockStory = {
   "irUrl": "https://www.firstsolar.com",
   "bigPicture": {
     "paragraphs": [
-      "First Solar, Inc. generated $5B of revenue over the last twelve months, -0.7% versus the prior year. The latest reported quarter was Q3 FY26, with $1.2B of revenue and a 44.4% operating margin. The shares closed at $147.46 on Nov 25, 2026, giving a market capitalization of $15.8B.",
-      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. By geography, United States is the largest disclosed market at 95.7% of revenue. First Solar, Inc. competes in Solar, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $15.8B, or 8.5x trailing earnings and 5.8x EV/EBITDA. The shares sit 6% of the way up their 52-week range ($136.71 to $320.95). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "First Solar's revenue was flat at $5B at a 37.7% operating margin, generating $232.8M of free cash flow. The latest quarter (Q3 FY26) fell 22.8%.",
+      "Revenue is reported as one consolidated line. The US is the largest geography at 95.7% of revenue. The upside is bookings and capacity. What would break it is policy credits and bookings.",
+      "At $147.46, the equity is worth $15.8B, or 8.5x trailing earnings and 5.8x EV/EBITDA. The earnings multiple is 63.9% below the 23.6x peer median. The stock is 6% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "First Solar makes thin-film solar modules, so bookings, manufacturing capacity and policy credits drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "First Solar, Inc., a solar technology company, provides photovoltaic (PV) solar energy solutions in the United States, France, India, Chile, and internationally. It reports in the Technology sector and is classified in Power & Renewables coverage.",
-      "Revenue is reported at the consolidated level only. Its latest filing lists 7,900 employees. Trailing revenue is $5B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "ARRY, ENPH and NXT provide the closest reference points for margin, growth and valuation."
+      "First Solar, Inc., a solar technology company, provides photovoltaic (PV) solar energy solutions in the United States, France, India, Chile, and internationally.",
+      "First Solar earned a 49.3% gross margin, and fuel, operations and capital absorbed 11.6% of revenue, leaving a 37.7% operating margin. That is 33.5 points above the peer median of 4.2%.",
+      "Capex is 17.3% of revenue, so the business is capital-hungry. The balance sheet carries $1.4B of net cash. Return on invested capital was 16.4%. That is 13.6 points above the peer median of 2.8%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$5B on a trailing-twelve-month basis, with the latest quarter at $1.2B."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 37.7%; free-cash-flow margin 4.6%; net margin 37.1%."
+        "title": "Margin engine",
+        "detail": "Gross margin 49.3%, operating margin 37.7%. Fuel, operations and capital are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $15.8B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 17.3% of revenue; $1.4B of net cash; ROIC 16.4%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $5B of revenue, $2.5B remained after cost of sales. The 11.6% operating-expense load brought that down to a 37.7% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "The balance sheet carries $1.4B of net cash. Return on invested capital was 16.4% and return on equity was 17.1%. The return leaves room above the cost of capital for growth to compound."
+      "Regulated rate base and allowed returns drive revenue; fuel and capital costs drive the margin. The edge is thin-film module technology and capacity.",
+      "The operating margin is 37.7%, 33.5 points above the peer median of 4.2%. The shape of the incremental margin will decide whether growth creates value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 12.8% a year across the fiscal years in the dataset, and the latest quarter changed -22.8% year over year. Current-year estimates call for $4.8B of revenue and $17.59 of EPS.",
-      "The operating margin of 37.7% and return on invested capital of 16.4% are the filters to watch as revenue scales. With revenue down 0.7%, the operating plan is as much about cost as about demand."
+      "Revenue compounded at 12.8% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) fell 22.8% year over year. The current-year consensus looks for $4.8B of revenue and $17.59 of EPS.",
+      "The next leg depends on bookings and capacity. The top line is shrinking, so the margin has to be defended on a smaller base. Growth is only valuable if the new revenue earns a similar return to the existing business."
     ],
     "bullets": [
       {
         "title": "Rate base growth",
-        "detail": "Revenue growth is -0.7%. A change in that figure would be the first signal of a shift."
+        "detail": "Approved capital investment earns a regulated return over time. Revenue growth is -0.7%."
       },
       {
         "title": "Load growth",
@@ -67,41 +67,41 @@ export const FSLR: StockStory = {
       },
       {
         "title": "Cost recovery",
-        "detail": "Return on invested capital is 16.4%. Rate cases determine whether higher costs are passed through."
+        "detail": "Rate cases determine whether higher costs are passed through. Return on invested capital is 16.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 1.8% in FY2018 to 30.6% in FY2025. The trailing operating margin is 37.7%, the net margin is 37.1% and diluted EPS is $17.28.",
-      "Return on equity was 17.1% and return on invested capital was 16.4%. Return on invested capital of 16.4% is close to the 17.1% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from 1.8% in FY2018 to 30.6% in FY2025. The trailing operating margin is 37.7%, the net margin is 37.1%, and diluted EPS is $17.28, up 32.6% year over year.",
+      "Return on equity of 17.1% and return on invested capital of 16.4% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $232.8M, a 4.6% margin. The balance sheet carries $1.4B of net cash. Capital expenditure was 17.3% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $2.1B, or 134.6% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $869.9M in the latest fiscal year."
+      "Free cash flow was $232.8M, or 4.6% of revenue. Operating cash flow covered 134.6% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 17.3% of revenue, which is a meaningful claim on cash.",
+      "The balance sheet carries $1.4B of net cash. Interest cover is 70.3x. Management can fund the next phase without needing the capital markets. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 8.5x trailing earnings, 5.8x EV/EBITDA and 2.9x EV/sales. The free-cash-flow yield is 1.5%. The 11.7% earnings yield and 1.5% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against ARRY, ENPH and NXT; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $147.46, the shares trade at 8.5x trailing earnings and 5.8x EV/EBITDA, with a 1.5% free-cash-flow yield. The earnings yield is 11.7%. The earnings multiple is 63.9% below the 23.6x peer median.",
+      "The multiple implies the market expects little growth and assumes the current margin is close to peak. The multiple is below the peer median, so some of the risk is already in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "30 analysts contribute to the third-party consensus. The mean target is $250.67, with a range of $169.00 to $328.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $4.8B of revenue and $17.59 of EPS. The estimate revisions in the dataset are 0.7% over 30 days and 0.6% over 90 days. The estimate is consistent with a decline of 4.3% on the trailing revenue figure."
+      "30 analysts in the third-party consensus carry a mean target of $250.67, 70.0% above the latest close. The range runs from $169.00 to $328.00. The target range is wide enough that the mean should be read with caution. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $4.8B of revenue and $17.59 of EPS. EPS estimates are up 0.7% over 30 days and up 0.6% over 90 days. That implies a 4.3% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is bookings and capacity versus policy credits and bookings.",
     "items": [
       {
-        "title": "Regulatory outcomes",
+        "title": "Policy credits and bookings",
         "severity": "High",
-        "detail": "Rate cases can disallow costs or reduce allowed returns.",
+        "detail": "The main risk is policy credits and bookings.",
         "watch": "Rate-case filings and commission decisions."
       },
       {
@@ -146,9 +146,9 @@ export const FSLR: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "First Solar, Inc. produced $5B of trailing revenue at a 37.7% operating margin and a 4.6% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "30 analysts in the third-party survey average $250.67 as of 2026-11-25, 70.0% above the latest close; the figure belongs to the analysts who published it, not to this report. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put valuation at 96/100 and cash generation at 23/100, with the composite averaging 61/100. A 96/100 valuation score against a 23/100 cash generation score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on valuation and the durability of 37.7% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above 7.6%, not a single quarter. The key exposure is policy credits and bookings.",
+      "The scorecard averages 61/100, but the dispersion matters more: valuation is 96/100 and cash generation is 23/100."
     ],
     "questions": [
       "How much of the capex plan is already approved?",

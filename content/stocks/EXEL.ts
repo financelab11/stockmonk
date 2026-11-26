@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const EXEL: StockStory = {
   "ticker": "EXEL",
   "kicker": "Pharma & Biotech · Biotechnology",
-  "title": "What Exelixis, Inc.'s latest filings reveal about growth, margins and cash",
-  "dek": "Exelixis, Inc. reported $2.5B of trailing revenue at a 40.2% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Exelixis: the balance sheet behind $2.5B of revenue",
+  "dek": "Exelixis' revenue rose 9.1% to $2.5B, at a 40.2% operating margin. The key risk is patent timing and pipeline.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $2.5B trailing twelve months, +9.1% year over year.",
+    "Revenue: $2.5B, +9.1% year over year.",
     "Profitability: 40.2% operating margin and 35.5% net margin.",
     "Cash: $1.2B free cash flow, a 46.5% margin, against $1.4B of net cash.",
-    "Valuation: 18.5x trailing earnings and 14.5x EV/EBITDA at the latest close."
+    "Valuation: 18.5x trailing earnings and 14.5x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const EXEL: StockStory = {
   "irUrl": "https://www.exelixis.com",
   "bigPicture": {
     "paragraphs": [
-      "Exelixis, Inc. generated $2.5B of revenue over the last twelve months, +9.1% versus the prior year. The latest reported quarter was Q3 FY27, with $658.7M of revenue and a 40.8% operating margin. The shares closed at $67.05 on Nov 25, 2026, giving a market capitalization of $16.4B.",
-      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. Geographically, United States leads at 92.3% of the disclosed split.",
-      "At the latest close the equity is valued at $16.4B, or 18.5x trailing earnings and 14.5x EV/EBITDA. The shares sit 80% of the way up their 52-week range ($39.71 to $73.69). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Exelixis' revenue rose 9.1% to $2.5B at a 40.2% operating margin, generating $1.2B of free cash flow. The latest quarter (Q3 FY27) grew 10.2%. The scale of the revenue base matters less than the margin it earns.",
+      "Revenue is reported as one consolidated line. The US is the largest geography at 92.3% of revenue. The near-term driver is pipeline readouts and label expansion. The risk is patent timing and pipeline.",
+      "At $67.05, the equity is worth $16.4B, or 18.5x trailing earnings and 14.5x EV/EBITDA. The earnings multiple is 35.1% below the 28.5x peer median. The stock is 80% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Exelixis sells oncology therapies, so cabozantinib franchise durability and pipeline readouts drive value."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Exelixis, Inc., an oncology company, focuses on the discovery, development, and commercialization of new medicines for difficult-to-treat cancers in the United States. Exelixis, Inc. is a Biotechnology company within the Pharma & Biotech coverage group.",
-      "There is no separate segment disclosure in the current extract. The company employed 1,077 people at the last reporting date. Trailing revenue is $2.5B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The peer set is VRTX, REGN and VKTX; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Exelixis, Inc., an oncology company, focuses on the discovery, development, and commercialization of new medicines for difficult-to-treat cancers in the United States.",
+      "Exelixis earned a 96.4% gross margin, and R&D, manufacturing and commercial spend absorbed 56.2% of revenue, leaving a 40.2% operating margin. That is 50.9 points above the peer median of -10.7%.",
+      "Capital spending runs at 0.3% of revenue, which is low relative to the revenue base. The balance sheet carries $1.4B of net cash. Return on invested capital was 43.2%. That is 67.0 points above the peer median of -23.7%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$2.5B on a trailing-twelve-month basis, with the latest quarter at $658.7M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 40.2%; free-cash-flow margin 46.5%; net margin 35.5%."
+        "title": "Margin engine",
+        "detail": "Gross margin 96.4%, operating margin 40.2%. R&D, manufacturing and commercial spend are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $16.4B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 0.3% of revenue; $1.4B of net cash; ROIC 43.2%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $2.5B of revenue, $2.4B remained after cost of sales. The 56.2% operating-expense load brought that down to a 40.2% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "The balance sheet carries $1.4B of net cash. Return on invested capital was 43.2% and return on equity was 48.3%. The return leaves room above the cost of capital for growth to compound."
+      "Revenue depends on a small number of programmes, patent life and payer coverage. The edge is cabozantinib franchise.",
+      "The operating margin is 40.2%, 50.9 points above the peer median of -10.7%. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 13.3% a year across the fiscal years in the dataset, and the latest quarter changed +10.2% year over year. Current-year estimates call for $2.6B of revenue and $3.75 of EPS.",
-      "The operating margin of 40.2% and return on invested capital of 43.2% are the filters to watch as revenue scales. The 40.2% operating margin gives the company room to absorb slower growth without a profit reset."
+      "Revenue compounded at 13.3% a year from FY2018 to FY2026. The latest quarter (Q3 FY27) grew 10.2% year over year. The current-year consensus looks for $2.6B of revenue and $3.75 of EPS.",
+      "The next leg depends on pipeline readouts and label expansion. For Exelixis, revenue growth is only worth paying for if the patent runway and launch curve support it."
     ],
     "bullets": [
       {
         "title": "Launch execution",
-        "detail": "New therapies need payer coverage, prescriber adoption and manufacturing scale. The current reading: revenue growth is +9.1%."
+        "detail": "New therapies need payer coverage, prescriber adoption and manufacturing scale. Revenue growth is 9.1%."
       },
       {
         "title": "Pipeline readouts",
-        "detail": "The operating margin is 40.2%. That is the line the next filing has to move."
+        "detail": "Late-stage data can extend the growth runway or reset it. The operating margin is 40.2%."
       },
       {
         "title": "Patent duration",
@@ -73,35 +73,35 @@ export const EXEL: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 51.4% in FY2018 to 37.6% in FY2026. The trailing operating margin is 40.2%, the net margin is 35.5% and diluted EPS is $3.34.",
-      "Return on equity was 48.3% and return on invested capital was 43.2%. Return on invested capital of 43.2% is close to the 48.3% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from 51.4% in FY2018 to 37.6% in FY2026. The trailing operating margin is 40.2%, the net margin is 35.5%, and diluted EPS is $3.34, up 40.9% year over year.",
+      "Return on equity of 48.3% and return on invested capital of 43.2% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.2B, a 46.5% margin. The balance sheet carries $1.4B of net cash. Capital expenditure was 0.3% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $884.3M, or 113.0% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $8.4M in the latest fiscal year."
+      "Free cash flow was $1.2B, or 46.5% of revenue. Operating cash flow covered 113.0% of net income; reported profit is converting into cash cleanly. Capex absorbed 0.3% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $1.4B of net cash. The net cash position is optionality: it can fund investment, acquisitions or returns. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 18.5x trailing earnings, 14.5x EV/EBITDA and 6.0x EV/sales. The free-cash-flow yield is 7.1%. The 5.4% earnings yield and 7.1% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against VRTX, REGN and VKTX; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $67.05, the shares trade at 18.5x trailing earnings and 14.5x EV/EBITDA, with a 7.1% free-cash-flow yield. The earnings yield is 5.4%. The earnings multiple is 35.1% below the 28.5x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "14 analysts contribute to the third-party consensus. The mean target is $61.36, with a range of $41.00 to $78.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $2.6B of revenue and $3.75 of EPS. The estimate revisions in the dataset are 4.5% over 30 days and 6.1% over 90 days. If met, the estimate would mean growth of 2.3% from the current base."
+      "14 analysts in the third-party consensus carry a mean target of $61.36, 8.5% below the latest close. The range runs from $41.00 to $78.00. The range is unusually wide, which signals genuine disagreement about the cycle. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $2.6B of revenue and $3.75 of EPS. EPS estimates are up 4.5% over 30 days and up 6.1% over 90 days. That implies 2.3% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is pipeline readouts and label expansion versus patent timing and pipeline.",
     "items": [
       {
-        "title": "Clinical failure",
+        "title": "Patent timing and pipeline",
         "severity": "High",
-        "detail": "A negative trial can remove most of a programme's value.",
+        "detail": "The main risk is patent timing and pipeline.",
         "watch": "Trial endpoints and readout timing."
       },
       {
@@ -146,9 +146,9 @@ export const EXEL: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Exelixis, Inc. produced $2.5B of trailing revenue at a 40.2% operating margin and a 46.5% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
-      "The third-party consensus mean is $61.36 as of 2026-11-25, 8.5% below the latest close; this report does not publish a target of its own. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put cash generation at 97/100 and growth at 55/100, with the composite averaging 79/100. A 97/100 cash generation score against a 55/100 growth score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on cash generation and the durability of 40.2% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 12.1%, not a single quarter. The key exposure is patent timing and pipeline.",
+      "On the scorecard, the composite is 79/100. The spread between cash generation and growth is the useful part; the average hides it."
     ],
     "questions": [
       "When does the largest patent expire?",

@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const AXGN: StockStory = {
   "ticker": "AXGN",
   "kicker": "Pharma & Biotech · Medical Devices",
-  "title": "Axogen, Inc: Peripheral-nerve repair products",
-  "dek": "Axogen, Inc. reported $266.9M of trailing revenue at a -5.2% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Axogen: Peripheral-nerve repair products",
+  "dek": "Axogen's revenue rose 24.3% to $266.9M, at a -5.2% operating margin. The key risk is procedure adoption and reimbursement.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $266.9M trailing twelve months, +24.3% year over year.",
+    "Revenue: $266.9M, +24.3% year over year.",
     "Profitability: -5.2% operating margin and -12.0% net margin.",
     "Cash: $22M free cash flow, an 8.3% margin, against $348.1M of net cash.",
-    "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
+    "Valuation: no meaningful earnings multiple and no meaningful EV/EBITDA multiple."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const AXGN: StockStory = {
   "irUrl": "https://www.axogeninc.com",
   "bigPicture": {
     "paragraphs": [
-      "Axogen, Inc. generated $266.9M of revenue over the last twelve months, +24.3% versus the prior year. The latest reported quarter was Q3 FY26, with $75.8M of revenue and a 1.3% operating margin. The shares closed at $59.77 on Nov 25, 2026, giving a market capitalization of $3.6B.",
-      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. Geographically, United States leads at 98.8% of the disclosed split.",
-      "At the latest close the equity is valued at $3.6B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 99% of the way up their 52-week range ($27.50 to $60.00). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Axogen's revenue rose 24.3% to $266.9M at a -5.2% operating margin, generating $22M of free cash flow. The latest quarter (Q3 FY26) grew 26.2%. The scale of the revenue base matters less than the margin it earns.",
+      "Revenue is reported as one consolidated line. The US is the largest geography at 98.8% of revenue. The near-term driver is new indication data and sales-force expansion. The risk is procedure adoption and reimbursement.",
+      "At $59.77, the equity is worth $3.6B, or no meaningful earnings multiple and no meaningful EV/EBITDA multiple. The stock is 99% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Axogen sells peripheral-nerve repair products, a small medtech franchise where procedure adoption and reimbursement are the gating factors."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Axogen, Inc., together with its subsidiaries, engages in the development and commercialization of the technologies used for peripheral nerve regeneration and repair worldwide. Axogen, Inc. is a Medical Devices company within the Pharma & Biotech coverage group.",
-      "There is no separate segment disclosure in the current extract. The company employed 622 people at the last reporting date. Trailing revenue is $266.9M, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The peer set is ABT, BSX and SYK; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Axogen, Inc., together with its subsidiaries, engages in the development and commercialization of the technologies used for peripheral nerve regeneration and repair worldwide.",
+      "Axogen earned a 74.2% gross margin, and R&D, manufacturing and commercial spend absorbed 79.4% of revenue, leaving a -5.2% operating margin. That is 21.3 points below the peer median of 16.1%.",
+      "Capital spending runs at 1.4% of revenue, which is low relative to the revenue base. The balance sheet carries $348.1M of net cash. Return on invested capital was -2.2%. That is 11.5 points below the peer median of 9.3%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$266.9M on a trailing-twelve-month basis, with the latest quarter at $75.8M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -5.2%; free-cash-flow margin 8.3%; net margin -12.0%."
+        "title": "Margin engine",
+        "detail": "Gross margin 74.2%, operating margin -5.2%. R&D, manufacturing and commercial spend are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $3.6B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 1.4% of revenue; $348.1M of net cash; ROIC -2.2%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $266.9M of revenue, $198M remained after cost of sales. The 79.4% operating-expense load brought that down to a -5.2% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "The balance sheet carries $348.1M of net cash. Return on invested capital was -2.2% and return on equity was -6.4%. A negative return on invested capital means the business is consuming capital rather than earning on it."
+      "Revenue depends on a small number of programmes, patent life and payer coverage. The edge is peripheral nerve repair products with clinical evidence and surgeon relationships.",
+      "The operating margin is -5.2%, 21.3 points below the peer median of 16.1%. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 15.1% a year across the fiscal years in the dataset, and the latest quarter changed +26.2% year over year. Current-year estimates call for $290.3M of revenue and $0.55 of EPS.",
-      "The operating margin of -5.2% and return on invested capital of -2.2% are the filters to watch as revenue scales. Growth of 24.3% is outrunning the -5.2% operating margin, so the question is whether scale eventually pays for itself."
+      "Revenue compounded at 15.1% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 26.2% year over year. The current-year consensus looks for $290.3M of revenue and $0.55 of EPS.",
+      "The next leg depends on new indication data and sales-force expansion. The growth rate is doing the work; the margin has to catch up for the model to earn its cost of capital."
     ],
     "bullets": [
       {
         "title": "Launch execution",
-        "detail": "New therapies need payer coverage, prescriber adoption and manufacturing scale. The current reading: revenue growth is +24.3%."
+        "detail": "New therapies need payer coverage, prescriber adoption and manufacturing scale. Revenue growth is 24.3%."
       },
       {
         "title": "Pipeline readouts",
-        "detail": "The operating margin is -5.2%. That is the line the next filing has to move."
+        "detail": "Late-stage data can extend the growth runway or reset it. The operating margin is -5.2%."
       },
       {
         "title": "Patent duration",
@@ -73,36 +73,36 @@ export const AXGN: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -24.4% in FY2018 to -3.5% in FY2025. The trailing operating margin is -5.2%, the net margin is -12.0% and diluted EPS is -$0.65.",
-      "Return on equity was -6.4% and return on invested capital was -2.2%. The negative returns mean leverage is not the issue; the operating model is. The trend in these returns matters more than a single year's level."
+      "The operating margin moved from -24.4% in FY2018 to -3.5% in FY2025. The trailing operating margin is -5.2%, the net margin is -12.0%, and diluted EPS is -$0.65.",
+      "The business is consuming capital rather than earning on it; scale has to change that. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $22M, an 8.3% margin. The balance sheet carries $348.1M of net cash. Capital expenditure was 1.4% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $3.7M in the latest fiscal year."
+      "Free cash flow was $22M, or 8.3% of revenue. Capex absorbed 1.4% of revenue, which is low relative to the revenue base. Capex and working capital are the relevant cash variables here.",
+      "The balance sheet carries $348.1M of net cash. Interest cover is -5.7x. The net cash position is optionality: it can fund investment, acquisitions or returns."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 12.1x EV/sales. The free-cash-flow yield is 0.6%. Without a meaningful earnings multiple, the cash-flow yield and the asset base carry more of the valuation work.",
-      "The peer comparison sets the company against ABT, BSX and SYK; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $59.77, the shares trade at no meaningful earnings multiple and no meaningful EV/EBITDA multiple, with a 0.6% free-cash-flow yield. The peer comparison is a starting point; the company's own history is the second reference.",
+      "No earnings multiple is meaningful, so the market is valuing the asset base or the pipeline rather than current profit. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "11 analysts contribute to the third-party consensus. The mean target is $60.09, with a range of $56.00 to $65.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $290.3M of revenue and $0.55 of EPS. The estimate revisions in the dataset are 15.9% over 30 days and 20.9% over 90 days. If met, the estimate would mean growth of 8.8% from the current base."
+      "11 analysts in the third-party consensus carry a mean target of $60.09, 0.5% above the latest close. The range runs from $56.00 to $65.00. The range is tight, so the debate is about timing rather than direction. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $290.3M of revenue and $0.55 of EPS. EPS estimates are up 15.9% over 30 days and up 20.9% over 90 days. That implies 8.8% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is new indication data and sales-force expansion versus procedure adoption and reimbursement.",
     "items": [
       {
-        "title": "Operating losses",
+        "title": "Procedure adoption and reimbursement",
         "severity": "High",
-        "detail": "The trailing operating margin is -5.2%, which means the current cost base is not covered by revenue.",
-        "watch": "Path to operating breakeven and cash runway."
+        "detail": "The main risk is procedure adoption and reimbursement.",
+        "watch": "Trial endpoints and readout timing."
       },
       {
         "title": "Patent cliff",
@@ -146,9 +146,9 @@ export const AXGN: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Axogen, Inc. produced $266.9M of trailing revenue at a -5.2% operating margin and an 8.3% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "The third-party consensus mean is $60.09 as of 2026-11-25, 0.5% above the latest close; this report does not publish a target of its own. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put valuation at 100/100 and profitability at 12/100, with the composite averaging 58/100. A 100/100 valuation score against a 12/100 profitability score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on valuation and the durability of -5.2% margins. The weak link is profitability.",
+      "What would change the view is return on invested capital rising above -0.2%, not a single quarter. The key exposure is procedure adoption and reimbursement.",
+      "On the scorecard, the composite is 58/100. The spread between valuation and profitability is the useful part; the average hides it."
     ],
     "questions": [
       "When does the largest patent expire?",

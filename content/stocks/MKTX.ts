@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const MKTX: StockStory = {
   "ticker": "MKTX",
   "kicker": "Capital Markets · Capital Markets",
-  "title": "MarketAxess Holdings Inc: An electronic corporate-bond trading platform",
-  "dek": "MarketAxess Holdings Inc. reported $871.6M of trailing revenue at a 39.1% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "MarketAxess Holdings: An electronic corporate-bond trading platform",
+  "dek": "MarketAxess Holdings' revenue rose 3.9% to $871.6M, at a 39.1% operating margin. The key risk is volumes and fee compression.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $871.6M trailing twelve months, +3.9% year over year.",
+    "Revenue: $871.6M, +3.9% year over year.",
     "Profitability: 39.1% operating margin and 33.5% net margin.",
     "Cash: $352.4M free cash flow, a 40.4% margin, against $289.1M of net cash.",
-    "Valuation: 20.0x trailing earnings and 13.2x EV/EBITDA at the latest close."
+    "Valuation: 20.0x trailing earnings and 13.2x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const MKTX: StockStory = {
   "irUrl": "https://www.marketaxess.com",
   "bigPicture": {
     "paragraphs": [
-      "MarketAxess Holdings Inc. generated $871.6M of revenue over the last twelve months, +3.9% versus the prior year. The latest reported quarter was Q3 FY26, with $210.4M of revenue and a 35.4% operating margin. The shares closed at $165.54 on Nov 25, 2026, giving a market capitalization of $5.8B.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. United States supplies 67.2% of disclosed revenue, the largest single geography in the filing.",
-      "At the latest close the equity is valued at $5.8B, or 20.0x trailing earnings and 13.2x EV/EBITDA. The shares sit 65% of the way up their 52-week range ($108.75 to $195.97). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "MarketAxess Holdings' revenue rose 3.9% to $871.6M at a 39.1% operating margin, generating $352.4M of free cash flow. The latest quarter (Q3 FY26) grew 0.8%.",
+      "Revenue is reported as one consolidated line. The US is the largest geography at 67.2% of revenue. The catalyst is dealer participation and new products. The exposure is volumes and fee compression.",
+      "At $165.54, the equity is worth $5.8B, or 20.0x trailing earnings and 13.2x EV/EBITDA. The earnings multiple is 31.8% above the 15.1x peer median. The stock is 65% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "MarketAxess runs an electronic corporate-bond trading platform, a network business where volumes, dealer participation and take rate drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "MarketAxess Holdings Inc., together with its subsidiaries, operates an electronic trading platform for institutional investor and broker-dealer firms in the United States, the United Kingdom, and internationally. MarketAxess Holdings Inc. sits in the Capital Markets industry, one of the Capital Markets names in this library.",
-      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 858 people. The revenue base is $871.6M on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The closest listed comparisons are GS, MS and SCHW; the useful question is how MarketAxess Holdings Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "MarketAxess Holdings Inc., together with its subsidiaries, operates an electronic trading platform for institutional investor and broker-dealer firms in the United States, the United Kingdom, and internationally.",
+      "MarketAxess Holdings does not report a product gross margin; technology, data and compensation sit inside the operating line, leaving a 39.1% operating margin. That is 4.5 points below the peer median of 43.7%.",
+      "Capital spending runs at 0.9% of revenue, which is low relative to the revenue base. The balance sheet carries $289.1M of net cash. Return on invested capital was 21.0%. That is 14.6 points above the peer median of 6.3%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$871.6M on a trailing-twelve-month basis, with the latest quarter at $210.4M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 39.1%; free-cash-flow margin 40.4%; net margin 33.5%."
+        "title": "Margin engine",
+        "detail": "Operating margin 39.1%. Technology, data and compensation are the main cost line, so the operating margin is the scorecard for cost discipline."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $5.8B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 0.9% of revenue; $289.1M of net cash; ROIC 21.0%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 39.1% is the first clean profitability line. Revenue depends on activity, client assets and the fee or subscription earned on each interaction.",
-      "The balance sheet carries $289.1M of net cash. Return on invested capital was 21.0% and return on equity was 22.9%. That is comfortably above most cost-of-capital estimates, which is what lets reinvestment create value."
+      "Activity, client assets and subscriptions drive revenue; take rate and data pricing drive the margin. The edge is electronic bond-trading network.",
+      "The operating margin is 39.1%, 4.5 points below the peer median of 43.7%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.0% a year across the fiscal years in the dataset, and the latest quarter changed +0.8% year over year. Current-year estimates call for $887.8M of revenue and $7.85 of EPS.",
-      "The operating margin of 39.1% and return on invested capital of 21.0% are the filters to watch as revenue scales. With a 39.1% margin, the growth rate matters less than whether the margin is repeatable."
+      "Revenue compounded at 10.0% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 0.8% year over year. The current-year consensus looks for $887.8M of revenue and $7.85 of EPS.",
+      "The next leg depends on dealer participation and new products. For MarketAxess Holdings, activity growth is only worth paying for if take rate and recurring revenue hold."
     ],
     "bullets": [
       {
         "title": "Volumes and activity",
-        "detail": "Trading, issuance or transaction volumes drive the fee pool. Revenue growth is +3.9%."
+        "detail": "Trading, issuance or transaction volumes drive the fee pool. Revenue growth is 3.9%."
       },
       {
         "title": "Take rate and pricing",
-        "detail": "The operating margin is 39.1%. The fee per transaction or subscription determines revenue per unit of activity."
+        "detail": "The fee per transaction or subscription determines revenue per unit of activity. The operating margin is 39.1%."
       },
       {
         "title": "Recurring data and client assets",
-        "detail": "Subscriptions, benchmarks and client balances add revenue that is less tied to daily volumes. The current reading: return on invested capital is 21.0%."
+        "detail": "Subscriptions, benchmarks and client balances add revenue that is less tied to daily volumes. Return on invested capital is 21.0%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 48.8% in FY2018 to 40.4% in FY2025. The trailing operating margin is 39.1%, the net margin is 33.5% and diluted EPS is $8.16.",
-      "Return on equity was 22.9% and return on invested capital was 21.0%. The two returns are within a few points, at 22.9% on equity and 21.0% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 48.8% in FY2018 to 40.4% in FY2025. The trailing operating margin is 39.1%, the net margin is 33.5%, and diluted EPS is $8.16, up 38.8% year over year.",
+      "Return on equity of 22.9% and return on invested capital of 21.0% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $352.4M, a 40.4% margin. The balance sheet carries $289.1M of net cash. With capital spending at 0.9% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $382.1M, or 154.9% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $8.2M in the latest fiscal year."
+      "Free cash flow was $352.4M, or 40.4% of revenue. Operating cash flow covered 154.9% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 0.9% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $289.1M of net cash. Interest cover is 47.6x. The balance sheet is a source of flexibility rather than a constraint. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 20.0x trailing earnings, 13.2x EV/EBITDA and 6.4x EV/sales. The free-cash-flow yield is 6.0%. The trailing earnings yield is 5.0%, against a free-cash-flow yield of 6.0%.",
-      "The peer comparison sets the company against GS, MS and SCHW; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $165.54, the shares trade at 20.0x trailing earnings and 13.2x EV/EBITDA, with a 6.0% free-cash-flow yield. The earnings yield is 5.0%. The earnings multiple is 31.8% above the 15.1x peer median.",
+      "The multiple is above the peer median, leaving less room for disappointment. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "9 analysts contribute to the third-party consensus. The mean target is $162.22, with a range of $124.00 to $167.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $887.8M of revenue and $7.85 of EPS. The estimate revisions in the dataset are -1.6% over 30 days and -1.6% over 90 days. That implies growth of 1.9% over the trailing twelve months."
+      "9 analysts in the third-party consensus carry a mean target of $162.22, 2.0% below the latest close. The range runs from $124.00 to $167.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $887.8M of revenue and $7.85 of EPS. EPS estimates are down 1.6% over 30 days and down 1.6% over 90 days. That implies 1.9% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is dealer participation and new products versus volumes and fee compression.",
     "items": [
       {
-        "title": "Market activity",
+        "title": "Volumes and fee compression",
         "severity": "High",
-        "detail": "A quiet market reduces volumes and the fees earned on them.",
+        "detail": "The main risk is volumes and fee compression.",
         "watch": "Volumes, issuance and client activity."
       },
       {
@@ -146,9 +146,9 @@ export const MKTX: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "MarketAxess Holdings Inc. produced $871.6M of trailing revenue at a 39.1% operating margin and a 40.4% free-cash-flow margin. The business converts an unusually large share of revenue into cash, and the multiple depends on that continuing.",
-      "Third-party analysts put the mean target at $162.22 as of 2026-11-25, 2.0% below the latest close; it should be read as the published consensus, not as this publication's view. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put cash generation at 93/100 and growth at 43/100, with the composite averaging 72/100. The average hides a strong cash generation reading and a weak growth one, which is why the spread is the more useful description."
+      "The investment case rests on cash generation and the durability of 39.1% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 6.9%, not a single quarter. The key exposure is volumes and fee compression.",
+      "The composite of 72/100 blends a strong cash generation reading with a weak growth one; the gap is the story."
     ],
     "questions": [
       "How much of revenue is recurring versus activity-linked?",

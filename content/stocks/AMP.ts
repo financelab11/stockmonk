@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const AMP: StockStory = {
   "ticker": "AMP",
   "kicker": "Capital Markets · Asset Management",
-  "title": "What Ameriprise Financial, Inc.'s latest filings reveal about growth, margins and cash",
-  "dek": "Ameriprise Financial, Inc. reported $20.1B of trailing revenue at a 26.3% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Ameriprise Financial: the balance sheet behind $20.1B of revenue",
+  "dek": "Ameriprise Financial's revenue rose 8.8% to $20.1B, at a 26.3% operating margin. The key risk is market declines.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $20.1B trailing twelve months, +8.8% year over year.",
+    "Revenue: $20.1B, +8.8% year over year.",
     "Profitability: 26.3% operating margin and 20.7% net margin.",
     "Cash: $7.3B free cash flow, a 36.4% margin, against $10.1B of net cash.",
-    "Valuation: 10.5x trailing earnings and 6.4x EV/EBITDA at the latest close."
+    "Valuation: 10.5x trailing earnings and 6.4x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const AMP: StockStory = {
   "irUrl": "https://www.ameriprise.com",
   "bigPicture": {
     "paragraphs": [
-      "Ameriprise Financial, Inc. generated $20.1B of revenue over the last twelve months, +8.8% versus the prior year. The latest reported quarter was Q3 FY26, with $5.2B of revenue and a 27.5% operating margin. The shares closed at $501.46 on Nov 25, 2026, giving a market capitalization of $43.5B.",
-      "The largest disclosed segment is Advice & Wealth Management at 57.1% of revenue. The company does not disclose revenue by region in the current extract. The moat is a large advisor network and a planning-led client relationship that keeps assets sticky.",
-      "At the latest close the equity is valued at $43.5B, or 10.5x trailing earnings and 6.4x EV/EBITDA. The shares sit 53% of the way up their 52-week range ($422.37 to $572.56). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Ameriprise Financial's revenue rose 8.8% to $20.1B at a 26.3% operating margin, generating $7.3B of free cash flow. The latest quarter (Q3 FY26) grew 6.1%.",
+      "Advice & Wealth Management is 57.1% of revenue and Asset Management is 18.7%. The near-term driver is advisor recruiting, client net flows and margin in the advice segment. The risk is market declines.",
+      "At $501.46, the equity is worth $43.5B, or 10.5x trailing earnings and 6.4x EV/EBITDA. The earnings multiple is 72.9% below the 38.7x peer median. The stock is 53% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
-    "quote": "Ameriprise is a wealth-management and asset-management business whose earnings depend on advisor productivity, client assets and markets. The multiple is a wealth-manager multiple; it assumes steady net flows and market-level returns."
+    "quote": "Ameriprise is a wealth-management and asset-management business whose earnings depend on advisor productivity, client assets and markets."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Ameriprise Financial, Inc., together with its subsidiaries, operates as a diversified financial services company in the United States and internationally. Ameriprise Financial, Inc. is an Asset Management company within the Capital Markets coverage group.",
-      "The disclosed mix runs across Advice & Wealth Management at 57.1%, Asset Management at 18.7% and Retirement & Protection Solutions at 18.6%. The company employed 13,600 people at the last reporting date.",
-      "The peer set is BLK, APO and ARES; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Ameriprise Financial, Inc., together with its subsidiaries, operates as a diversified financial services company in the United States and internationally.",
+      "Ameriprise Financial does not report a product gross margin; technology, data and compensation sit inside the operating line, leaving a 26.3% operating margin. That is 1.8 points above the peer median of 24.6%.",
+      "Capital spending runs at 0.8% of revenue, which is low relative to the revenue base. The balance sheet carries $10.1B of net cash. Return on invested capital was 81.4%. That is 68.3 points above the peer median of 13.1%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$20.1B on a trailing-twelve-month basis, with the latest quarter at $5.2B."
+        "title": "Revenue mix",
+        "detail": "Advice & Wealth Management at 57.1%, Asset Management at 18.7% and Retirement & Protection Solutions at 18.6%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 26.3%; free-cash-flow margin 36.4%; net margin 20.7%."
+        "title": "Margin engine",
+        "detail": "Operating margin 26.3%. Technology, data and compensation are the main cost line, so the operating margin is the scorecard for cost discipline."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $43.5B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 0.8% of revenue; $10.1B of net cash; ROIC 81.4%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 26.3% is the first clean profitability line. Revenue depends on activity, client assets and the fee or subscription earned on each interaction.",
-      "The balance sheet carries $10.1B of net cash. Return on invested capital was 81.4% and return on equity was 81.4%. That is comfortably above most cost-of-capital estimates, which is what lets reinvestment create value."
+      "Activity, client assets and subscriptions drive revenue; take rate and data pricing drive the margin. The moat is a large advisor network and a planning-led client relationship that keeps assets sticky.",
+      "The operating margin is 26.3%, 1.8 points above the peer median of 24.6%. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.6% a year across the fiscal years in the dataset, and the latest quarter changed +6.1% year over year. Current-year estimates call for $19.9B of revenue and $46.06 of EPS.",
-      "The next catalyst is advisor recruiting, client net flows and margin in the advice segment. The operating margin of 26.3% and return on invested capital of 81.4% are the filters to watch as revenue scales. With a 26.3% margin, the growth rate matters less than whether the margin is repeatable."
+      "Revenue compounded at 5.6% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 6.1% year over year. The current-year consensus looks for $19.9B of revenue and $46.06 of EPS.",
+      "The next leg depends on advisor recruiting, client net flows and margin in the advice segment. For Ameriprise Financial, activity growth is only worth paying for if take rate and recurring revenue hold."
     ],
     "bullets": [
       {
         "title": "Volumes and activity",
-        "detail": "Trading, issuance or transaction volumes drive the fee pool. The current reading: revenue growth is +8.8%."
+        "detail": "Trading, issuance or transaction volumes drive the fee pool. Revenue growth is 8.8%."
       },
       {
         "title": "Take rate and pricing",
-        "detail": "The operating margin is 26.3%. That is the number to compare with the company's own history."
+        "detail": "The fee per transaction or subscription determines revenue per unit of activity. The operating margin is 26.3%."
       },
       {
         "title": "Recurring data and client assets",
@@ -73,33 +73,33 @@ export const AMP: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 19.2% in FY2018 to 23.8% in FY2025. The trailing operating margin is 26.3%, the net margin is 20.7% and diluted EPS is $44.43.",
-      "Return on equity was 81.4% and return on invested capital was 81.4%. The two returns are within a few points, at 81.4% on equity and 81.4% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 19.2% in FY2018 to 23.8% in FY2025. The trailing operating margin is 26.3%, the net margin is 20.7%, and diluted EPS is $44.43, up 22.0% year over year.",
+      "Return on equity of 81.4% and return on invested capital of 81.4% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $7.3B, a 36.4% margin. The balance sheet carries $10.1B of net cash. With capital spending at 0.8% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $8.3B, or 233.6% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $162M in the latest fiscal year."
+      "Free cash flow was $7.3B, or 36.4% of revenue. Operating cash flow covered 233.6% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 0.8% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $10.1B of net cash. The net cash position is optionality: it can fund investment, acquisitions or returns. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 10.5x trailing earnings, 6.4x EV/EBITDA and 1.7x EV/sales. The free-cash-flow yield is 16.8%. The trailing earnings yield is 9.6%, against a free-cash-flow yield of 16.8%.",
-      "The multiple is a wealth-manager multiple; it assumes steady net flows and market-level returns. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $501.46, the shares trade at 10.5x trailing earnings and 6.4x EV/EBITDA, with a 16.8% free-cash-flow yield. The earnings yield is 9.6%. The earnings multiple is 72.9% below the 38.7x peer median.",
+      "The multiple is a wealth-manager multiple; it assumes steady net flows and market-level returns. The multiple is below the peer median, so some of the risk is already in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "11 analysts contribute to the third-party consensus. The mean target is $545.18, with a range of $447.00 to $638.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $19.9B of revenue and $46.06 of EPS. The estimate revisions in the dataset are -0.8% over 30 days and -0.8% over 90 days. If met, the estimate would mean a decline of 1.0% from the current base."
+      "11 analysts in the third-party consensus carry a mean target of $545.18, 8.7% above the latest close. The range runs from $447.00 to $638.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $19.9B of revenue and $46.06 of EPS. EPS estimates are down 0.8% over 30 days and down 0.8% over 90 days. That implies a 1.0% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
+    "intro": "The central tension is advisor recruiting, client net flows and margin in the advice segment versus market declines.",
     "items": [
       {
-        "title": "The main risk",
+        "title": "Market declines",
         "severity": "High",
         "detail": "Market declines reduce fee revenue, and advisor attrition can slow net flows.",
         "watch": "Volumes, issuance and client activity."
@@ -146,9 +146,9 @@ export const AMP: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Ameriprise Financial, Inc. produced $20.1B of trailing revenue at a 26.3% operating margin and a 36.4% free-cash-flow margin. The business converts an unusually large share of revenue into cash, and the multiple depends on that continuing.",
-      "Third-party analysts put the mean target at $545.18 as of 2026-11-25, 8.7% above the latest close; this report does not publish a target of its own. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put valuation at 93/100 and growth at 47/100, with the composite averaging 81/100. The average hides a strong valuation reading and a weak growth one, which is why the spread is the more useful description."
+      "The investment case rests on valuation and the durability of 26.3% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 11.8%, not a single quarter. The key exposure is market declines.",
+      "On the scorecard, the composite is 81/100. The spread between valuation and growth is the useful part; the average hides it."
     ],
     "questions": [
       "How much of revenue is recurring versus activity-linked?",

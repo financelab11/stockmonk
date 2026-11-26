@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const AZO: StockStory = {
   "ticker": "AZO",
   "kicker": "Consumer Retail & Leisure · Auto Parts",
-  "title": "AutoZone, Inc: An aftermarket retailer with a mature store base",
-  "dek": "AutoZone, Inc. reported $20.3B of trailing revenue at an 18.3% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "AutoZone: An aftermarket retailer with a mature store base",
+  "dek": "AutoZone's revenue rose 7.4% to $20.3B, at an 18.3% operating margin. The key risk is DIY demand and inventory turns.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $20.3B trailing twelve months, +7.4% year over year.",
+    "Revenue: $20.3B, +7.4% year over year.",
     "Profitability: 18.3% operating margin and 12.6% net margin.",
     "Cash: $1.8B free cash flow, an 8.9% margin, against $8.8B of net debt.",
-    "Valuation: 21.3x trailing earnings and 14.4x EV/EBITDA at the latest close."
+    "Valuation: 21.3x trailing earnings and 14.4x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const AZO: StockStory = {
   "irUrl": "https://www.autozone.com",
   "bigPicture": {
     "paragraphs": [
-      "AutoZone, Inc. generated $20.3B of revenue over the last twelve months, +7.4% versus the prior year. The latest reported quarter was Q4 FY26, with $6.6B of revenue and a 20.0% operating margin. The shares closed at $3,402.48 on Nov 25, 2026, giving a market capitalization of $54.8B.",
-      "The largest disclosed segment is Auto Parts Locations at 100.0% of revenue. Geographically, United States leads at 86.6% of the disclosed split. AutoZone, Inc. competes in Auto Parts, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $54.8B, or 21.3x trailing earnings and 14.4x EV/EBITDA. The shares sit 53% of the way up their 52-week range ($2,730.65 to $3,996.25). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "AutoZone's revenue rose 7.4% to $20.3B at an 18.3% operating margin, generating $1.8B of free cash flow. The latest quarter (Q4 FY26) grew 5.6%. The operating margin and cash conversion are the next things to test.",
+      "Auto Parts Locations is the whole revenue base. The US is the largest geography at 86.6% of revenue. The near-term driver is commercial programme growth and buybacks. The risk is DIY demand and inventory turns.",
+      "At $3,402.48, the equity is worth $54.8B, or 21.3x trailing earnings and 14.4x EV/EBITDA. The earnings multiple is 42.3% below the 36.9x peer median. The stock is 53% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "AutoZone is an aftermarket retailer with a mature store base, so same-store sales, inventory turns and buybacks drive per-share value."
   },
   "whatItDoes": {
     "paragraphs": [
-      "AutoZone, Inc. operates as a retailer and distributor of automotive replacement parts and accessories in the Americas. AutoZone, Inc. is an Auto Parts company within the Consumer Retail & Leisure coverage group.",
-      "There is no separate segment disclosure in the current extract. The company employed 79,200 people at the last reporting date. The revenue base is $20.3B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The peer set is ORLY, AUR and MBLY; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "AutoZone, Inc. operates as a retailer and distributor of automotive replacement parts and accessories in the Americas.",
+      "AutoZone earned a 52.3% gross margin, and cost of goods, occupancy and labor absorbed 34.0% of revenue, leaving an 18.3% operating margin. That is 18.4 points above the peer median of -0.0%.",
+      "Capital spending runs at 7.0% of revenue, which is low relative to the revenue base. Net debt is $8.8B, or 2.0x EBITDA. Return on invested capital was 44.5%. That is 44.6 points above the peer median of -0.1%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$20.3B on a trailing-twelve-month basis, with the latest quarter at $6.6B."
+        "title": "Revenue mix",
+        "detail": "Auto Parts Locations is the consolidated business at 100.0% of revenue."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 18.3%; free-cash-flow margin 8.9%; net margin 12.6%."
+        "title": "Margin engine",
+        "detail": "Gross margin 52.3%, operating margin 18.3%. Cost of goods, occupancy and labor are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $54.8B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 7.0% of revenue; $8.8B of net debt; ROIC 44.5%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 52.3%, operating margin is 18.3% and net margin is 12.6%. Gross profit was $10.6B, and 34.0% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "Net debt is $8.8B, or 2.0x EBITDA. Return on invested capital was 44.5%, while the reported return on equity is negative because the equity base is negative. The operating return is the one to use when judging reinvestment."
+      "Traffic, basket size and inventory turns drive revenue; markdowns and occupancy drive the margin. The edge is aftermarket scale, distribution density and private-label parts.",
+      "The operating margin is 18.3%, 18.4 points above the peer median of -0.0%. Inventory turns and markdown discipline decide whether volume growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.0% a year across the fiscal years in the dataset, and the latest quarter changed +5.6% year over year. Current-year estimates call for $21.8B of revenue and $169.15 of EPS.",
-      "The operating margin of 18.3% and return on invested capital of 44.5% are the filters to watch as revenue scales. Growth of 7.4% against an 18.3% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 8.0% a year from FY2019 to FY2026. The latest quarter (Q4 FY26) grew 5.6% year over year. The current-year consensus looks for $21.8B of revenue and $169.15 of EPS.",
+      "The next leg depends on commercial programme growth and buybacks. For AutoZone, sales growth is only worth paying for if inventory turns and markdowns stay under control."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Same-store growth shows demand without new square footage. The current reading: revenue growth is +7.4%."
+        "detail": "Same-store growth shows demand without new square footage. Revenue growth is 7.4%."
       },
       {
         "title": "Unit growth",
-        "detail": "The operating margin is 18.3%. The direction of travel matters more than the absolute level."
+        "detail": "New stores and markets expand the revenue base but carry fixed costs. The operating margin is 18.3%."
       },
       {
         "title": "Merchandise margin",
@@ -73,35 +73,35 @@ export const AZO: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 18.7% in FY2019 to 18.3% in FY2026. The trailing operating margin is 18.3%, the net margin is 12.6% and diluted EPS is $152.60.",
-      "Return on equity was -102.8% and return on invested capital was 44.5%. A negative equity base makes the equity return meaningless here; the return on invested capital is the number that matters."
+      "The operating margin moved from 18.7% in FY2019 to 18.3% in FY2026. The trailing operating margin is 18.3%, the net margin is 12.6%, and diluted EPS is $152.60, up 5.3% year over year.",
+      "Return on equity is negative because the equity base is negative; the 44.5% return on invested capital is the operating measure that matters. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.8B, an 8.9% margin. Net debt is $8.8B, or 2.0x EBITDA. With capital spending at 7.0% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $3.2B, or 126.3% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.4B in the latest fiscal year."
+      "Free cash flow was $1.8B, or 8.9% of revenue. Operating cash flow covered 126.3% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 7.0% of revenue, which is low relative to the revenue base.",
+      "Net debt is $8.8B, or 2.0x EBITDA. Leverage is only a problem if the cash flow cannot service it through a downturn. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 21.3x trailing earnings, 14.4x EV/EBITDA and 3.1x EV/sales. The free-cash-flow yield is 3.3%. The trailing earnings yield is 4.7%, against a free-cash-flow yield of 3.3%.",
-      "The peer comparison sets the company against ORLY, AUR and MBLY; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $3,402.48, the shares trade at 21.3x trailing earnings and 14.4x EV/EBITDA, with a 3.3% free-cash-flow yield. The earnings yield is 4.7%. The earnings multiple is 42.3% below the 36.9x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "24 analysts contribute to the third-party consensus. The mean target is $3,655.58, with a range of $3,000.00 to $4,450.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $21.8B of revenue and $169.15 of EPS. The estimate revisions in the dataset are -0.2% over 30 days and -3.4% over 90 days. If met, the estimate would mean growth of 7.2% from the current base."
+      "24 analysts in the third-party consensus carry a mean target of $3,655.58, 7.4% above the latest close. The range runs from $3,000.00 to $4,450.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $21.8B of revenue and $169.15 of EPS. EPS estimates are down 0.2% over 30 days and down 3.4% over 90 days. That implies 7.2% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is commercial programme growth and buybacks versus DIY demand and inventory turns.",
     "items": [
       {
-        "title": "Consumer spending",
+        "title": "DIY demand and inventory turns",
         "severity": "High",
-        "detail": "Discretionary budgets are sensitive to confidence and rates.",
+        "detail": "The main risk is DIY demand and inventory turns.",
         "watch": "Comparable sales and transaction counts."
       },
       {
@@ -146,9 +146,9 @@ export const AZO: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "AutoZone, Inc. produced $20.3B of trailing revenue at an 18.3% operating margin and an 8.9% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Third-party analysts put the mean target at $3,655.58 as of 2026-11-25, 7.4% above the latest close; it is included for attribution, not as a Stockmonk call. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put profitability at 78/100 and balance sheet at 26/100, with the composite averaging 47/100. The average hides a strong profitability reading and a weak balance sheet one, which is why the spread is the more useful description."
+      "The investment case rests on profitability and the durability of 18.3% margins. $8.8B of net debt is the weak link.",
+      "What would change the view is leverage falling below 1.5x EBITDA, not a single quarter. The key exposure is DIY demand and inventory turns.",
+      "On the scorecard, the composite is 47/100. The spread between profitability and balance sheet is the useful part; the average hides it."
     ],
     "questions": [
       "Is growth coming from traffic or price?",

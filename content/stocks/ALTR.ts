@@ -3,7 +3,7 @@ import type { StockStory } from "./types";
 export const ALTR: StockStory = {
   "ticker": "ALTR",
   "kicker": "Enterprise Software · Software",
-  "title": "Altair Engineering: the final financial record behind the Siemens deal",
+  "title": "Altair Engineering: the final record behind the Siemens deal",
   "dek": "Altair Engineering last traded on Mar 26, 2025 after the Siemens transaction. The report keeps the final SEC record, the deal terms and the factors that explained the business while it was public.",
   "readingMinutes": 10,
   "takeaways": [
@@ -18,48 +18,48 @@ export const ALTR: StockStory = {
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001701732&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Altair Engineering last traded at $111.85 on Mar 26, 2025, when the Siemens transaction closed. The final consideration was $113.00 per share in cash. The company no longer files current reports, so the figures below are the final SEC statements rather than a live snapshot. Altair Engineering generated $665.8M of revenue over the last twelve months, +8.7% versus the prior year. The final reported operating margin was 2.7% and free-cash-flow margin was 21.0%.",
-      "Software contributes 95.7% of the disclosed revenue mix. By geography, Americas is the largest disclosed market at 51.5% of revenue. The moat was simulation software embedded in engineering workflows, where switching costs are high and design data is sticky.",
-      "The archived valuation has 698.8x trailing earnings and 156.1x EV/EBITDA, based on the final consideration and the last reported statements. It is a historical reference, not a live multiple. The article is retained because the company remains part of the 500-name coverage library."
+      "Altair Engineering last traded at $111.85 on Mar 26, 2025, when the Siemens transaction closed. The final consideration was $113.00 per share in cash. The figures below are the last reported record, not a live quote.",
+      "The final reported mix was Software at 95.7%, Client Engineering Services at 3.8% and Other Bets at 0.5%, with Americas the largest geography at 51.5%. The business no longer sets its own capital allocation or pricing; it sits inside Siemens.",
+      "The archived valuation is 698.8x trailing earnings and 156.1x EV/EBITDA, based on the final consideration and the last statements. It is a historical reference, not a current multiple."
     ],
-    "quote": "Altair Engineering is no longer a live market, so the useful question is what its final financial record says about the Enterprise Software business that the acquirer bought."
+    "quote": "Altair Engineering is no longer a live market; the useful question is what its final record says about the business Siemens bought."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Altair Engineering was acquired by Siemens. The final consideration was $113.00 per share in cash. The shares last traded on Mar 26, 2025; the statements below are the final SEC filings and the article is retained as archived coverage.",
-      "The disclosed mix runs across Software at 95.7%, Client Engineering Services at 3.8% and Other Bets at 0.5%. The filing extract does not include a headcount figure. With $665.8M of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "CFLT, CYBR and NEWR provide the closest reference points for margin, growth and valuation."
+      "Altair Engineering was a Software business. Altair is an archived industrial-software company, and the useful question is what its simulation and data-analytics franchise was worth to Siemens.",
+      "At the last report, the operating margin was 2.7% and the free-cash-flow margin was 21.0%. The record is closed; there is no current guidance.",
+      "The final balance sheet carried -$561.9M of net debt, and the equity no longer trades independently."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$665.8M on a trailing-twelve-month basis, with the latest quarter at $192.6M."
+        "title": "Revenue mix",
+        "detail": "Software at 95.7%, Client Engineering Services at 3.8% and Other Bets at 0.5%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 2.7%; free-cash-flow margin 21.0%; net margin 2.1%."
+        "title": "Margin engine",
+        "detail": "Gross margin 81.3%, operating margin 2.7%. R&D and sales and marketing are the bridge between the two."
       },
       {
-        "title": "Final status",
-        "detail": "Last traded Mar 26, 2025 after the Siemens transaction."
+        "title": "Capital intensity",
+        "detail": "Capex 2.1% of revenue; $561.9M of net cash; ROIC 1.0%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 81.3% of revenue after cost of sales, or $541M. Operating expenses absorbed 78.6% of revenue, leaving a 2.7% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "The balance sheet carries $561.9M of net cash. Return on invested capital was 1.0% and return on equity was 1.7%. That is a thin return; without a margin recovery or a different capital allocation, growth is unlikely to create value."
+      "Subscriptions and seat or usage growth drive revenue; retention and sales efficiency drive the margin. The moat was simulation software embedded in engineering workflows, where switching costs are high and design data is sticky.",
+      "The operating margin is 2.7%, 13.4 points above the peer median of -10.8%. Retention and sales efficiency decide whether subscription growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.4% a year across the fiscal years in the dataset, and the latest quarter changed +12.3% year over year. A current-year consensus estimate is not available in the dataset.",
-      "There is no live catalyst; the final consideration was $113 per share in cash. The operating margin of 2.7% and return on invested capital of 1.0% are the filters to watch as revenue scales. The final year in the dataset is FY2024; there is no current guidance because the company no longer trades."
+      "Revenue compounded at 10.4% a year across the reported fiscal years. The final year is FY2024 and there is no current guidance. The market already has a growth expectation; the filings are the test.",
+      "The archive is a record of what the business earned before the deal, not a forecast. The final operating margin was 2.7%. The consensus estimate is the first test; the second is whether incremental revenue carries the same margin as the base."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Revenue growth is +8.7%. The direction of travel matters more than the absolute level."
+        "detail": "Expansion within existing customers compounds revenue. Revenue growth is 8.7%."
       },
       {
         "title": "New customer adds",
@@ -67,41 +67,41 @@ export const ALTR: StockStory = {
       },
       {
         "title": "Operating leverage",
-        "detail": "Return on invested capital is 1.0%. Scale should improve margins as sales and R&D mature."
+        "detail": "Scale should improve margins as sales and R&D mature. Return on invested capital is 1.0%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -10.0% in FY2017 to 2.7% in FY2024. The trailing operating margin is 2.7%, the net margin is 2.1% and diluted EPS is $0.17.",
-      "Return on equity was 1.7% and return on invested capital was 1.0%. With return on equity at 1.7% and return on invested capital at 1.0%, leverage is not the main driver of the gap."
+      "The final operating margin was 2.7%, the net margin was 2.1%, and diluted EPS was $0.17. The record will not update. A single year of returns is less informative than the direction of margins and capital intensity.",
+      "The archived returns are a historical description of the business at the time of the transaction. They are not a current measure of capital allocation."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $140M, a 21.0% margin. The balance sheet carries $561.9M of net cash. Capex absorbed 2.1% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "The final reported balance sheet is the one shown here; it will not update. The company generated positive free cash flow on a trailing basis, and capital expenditure was $14.1M in the latest fiscal year."
+      "The final reported free cash flow was $140M, a 21.0% margin. The balance sheet is the last reported one and will not update. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "The final consideration was $113.00 per share in cash; there is no current price, target or capital-return policy to assess. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 698.8x trailing earnings, 156.1x EV/EBITDA and 14.0x EV/sales. The free-cash-flow yield is 1.4%. Inverting the P/E gives an earnings yield of 0.1%; the cash-flow yield is 1.4%.",
-      "The final consideration was $113.00 per share in cash. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades."
+      "The final consideration was $113.00 per share in cash. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades.",
+      "The final consideration is the only relevant reference. There is no live multiple to compare with the peer group. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A current analyst consensus is not available because Altair Engineering no longer trades. The final transaction value is the relevant reference, and the archived estimates are shown only where the dataset retains them.",
-      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $665.8M and the last reported operating margin was 2.7%."
+      "There is no current analyst consensus because Altair Engineering no longer trades. The final transaction value is the reference, and the archived estimates are shown only where they were retained.",
+      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $665.8M and the last operating margin was 2.7%."
     ]
   },
   "risks": {
-    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
+    "intro": "The risks below are the historical risks that mattered before the Siemens transaction, plus the limitation that the record is closed.",
     "items": [
       {
         "title": "Archived coverage",
         "severity": "High",
-        "detail": "Altair Engineering no longer trades. The final consideration was $113.00 per share in cash, and the financial statements will not be updated with new quarters.",
+        "detail": "Altair Engineering no longer trades. The final consideration was $113.00 per share in cash, and the statements will not be updated with new quarters.",
         "watch": "Treat every figure as the final reported record, not as a current market snapshot."
       },
       {
@@ -146,15 +146,14 @@ export const ALTR: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Altair Engineering is an archived Enterprise Software company with $665.8M of final trailing revenue, a 2.7% operating margin and a 21.0% free-cash-flow margin. The Siemens transaction valued the equity at $113.00 per share in cash.",
-      "There is no current price, target or rating to update. The archived factor percentiles are a historical description of the business at the point of the transaction. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put balance sheet at 96/100 and valuation at 2/100, with the composite averaging 41/100. The gap between balance sheet at 96/100 and valuation at 2/100 is wide enough that the composite is a balance, not a verdict."
+      "Altair Engineering is an archived Software company with $665.8M of final revenue, a 2.7% operating margin and a 21.0% free-cash-flow margin. The Siemens transaction valued the equity at $113.00 per share in cash.",
+      "There is no current price, target or rating to update. The archived factor scores are a historical description of the business at the point of the transaction.",
+      "The scorecard averages 41/100, but the dispersion matters more: balance sheet is 96/100 and valuation is 2/100."
     ],
     "questions": [
-      "How much growth comes from existing customers?",
-      "Is AI a tailwind or a substitute?",
-      "When does the business reach durable free cash flow?",
-      "How expensive is the next dollar of growth?"
+      "What did the final financial record show?",
+      "What did the acquirer pay for?",
+      "Which figures will never update?"
     ]
   }
 };

@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const DBX: StockStory = {
   "ticker": "DBX",
   "kicker": "Enterprise Software · Software - Infrastructure",
-  "title": "Dropbox, Inc: Cloud content collaboration",
-  "dek": "Dropbox, Inc. reported $2.5B of trailing revenue at a 26.6% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Dropbox: Cloud content collaboration",
+  "dek": "Dropbox's revenue was flat at $2.5B, at a 26.6% operating margin. The key risk is seat growth and competition.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $2.5B trailing twelve months, +0.2% year over year.",
+    "Revenue: $2.5B, +0.2% year over year.",
     "Profitability: 26.6% operating margin and 17.2% net margin.",
     "Cash: $915.2M free cash flow, a 36.1% margin, against $1.4B of net debt.",
-    "Valuation: 18.5x trailing earnings and 11.8x EV/EBITDA at the latest close."
+    "Valuation: 18.5x trailing earnings and 11.8x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const DBX: StockStory = {
   "irUrl": "https://www.dropbox.com",
   "bigPicture": {
     "paragraphs": [
-      "Dropbox, Inc. generated $2.5B of revenue over the last twelve months, +0.2% versus the prior year. The latest reported quarter was Q3 FY26, with $637.3M of revenue and a 27.5% operating margin. The shares closed at $37.41 on Nov 25, 2026, giving a market capitalization of $8.1B.",
-      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. Geographically, United States leads at 56.4% of the disclosed split.",
-      "At the latest close the equity is valued at $8.1B, or 18.5x trailing earnings and 11.8x EV/EBITDA. The shares sit 95% of the way up their 52-week range ($21.70 to $38.22). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Dropbox's revenue was flat at $2.5B at a 26.6% operating margin, generating $915.2M of free cash flow. The latest quarter (Q3 FY26) was flat. The operating margin and cash conversion are the next things to test.",
+      "Revenue is reported as one consolidated line. The US is the largest geography at 56.4% of revenue. The near-term driver is AI features and margin. The risk is seat growth and competition.",
+      "At $37.41, the equity is worth $8.1B, or 18.5x trailing earnings and 11.8x EV/EBITDA. The earnings multiple is 79.1% below the 88.7x peer median. The stock is 95% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Dropbox sells cloud content collaboration, a mature SaaS business where retention and margin expansion matter more than logo growth."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Dropbox, Inc. provides a content collaboration platform in the United States and internationally. Dropbox, Inc. is a Software - Infrastructure company within the Enterprise Software coverage group.",
-      "There is no separate segment disclosure in the current extract. The company employed 2,113 people at the last reporting date. The revenue base is $2.5B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The peer set is MSFT, ORCL and SNPS; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Dropbox, Inc. provides a content collaboration platform in the United States and internationally.",
+      "Dropbox earned a 79.9% gross margin, and R&D and sales and marketing absorbed 53.3% of revenue, leaving a 26.6% operating margin. That is 6.3 points above the peer median of 20.3%.",
+      "Capital spending runs at 0.8% of revenue, which is low relative to the revenue base. Net debt is $1.4B, or 1.8x EBITDA. Return on invested capital was 140.6%. That is 127.5 points above the peer median of 13.0%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$2.5B on a trailing-twelve-month basis, with the latest quarter at $637.3M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 26.6%; free-cash-flow margin 36.1%; net margin 17.2%."
+        "title": "Margin engine",
+        "detail": "Gross margin 79.9%, operating margin 26.6%. R&D and sales and marketing are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $8.1B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 0.8% of revenue; $1.4B of net debt; ROIC 140.6%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 79.9%, operating margin is 26.6% and net margin is 17.2%. Gross profit was $2B, and 53.3% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "Net debt is $1.4B, or 1.8x EBITDA. Return on invested capital was 140.6%, while the reported return on equity is negative because the equity base is negative. The operating return is the one to use when judging reinvestment."
+      "Subscriptions and seat or usage growth drive revenue; retention and sales efficiency drive the margin. The edge is content collaboration.",
+      "The operating margin is 26.6%, 6.3 points above the peer median of 20.3%. Retention and sales efficiency decide whether subscription growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.9% a year across the fiscal years in the dataset, and the latest quarter changed +0.5% year over year. Current-year estimates call for $2.5B of revenue and $3.17 of EPS.",
-      "The operating margin of 26.6% and return on invested capital of 140.6% are the filters to watch as revenue scales. With a 26.6% margin, the growth rate matters less than whether the margin is repeatable."
+      "Revenue compounded at 8.9% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) was flat year over year. The current-year consensus looks for $2.5B of revenue and $3.17 of EPS.",
+      "The next leg depends on AI features and margin. For Dropbox, subscription growth is only worth paying for if retention and sales efficiency hold. The next filing should show whether the pace came from demand, pricing or acquisitions."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. The current reading: revenue growth is +0.2%."
+        "detail": "Expansion within existing customers compounds revenue. Revenue growth is 0.2%."
       },
       {
         "title": "New customer adds",
-        "detail": "The operating margin is 26.6%. That is the number to compare with the company's own history."
+        "detail": "New logos broaden the base and fund future expansion. The operating margin is 26.6%."
       },
       {
         "title": "Operating leverage",
@@ -73,35 +73,35 @@ export const DBX: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -35.5% in FY2018 to 27.3% in FY2025. The trailing operating margin is 26.6%, the net margin is 17.2% and diluted EPS is $1.85.",
-      "Return on equity was -19.9% and return on invested capital was 140.6%. A negative equity base makes the equity return meaningless here; the return on invested capital is the number that matters."
+      "The operating margin moved from -35.5% in FY2018 to 27.3% in FY2025. The trailing operating margin is 26.6%, the net margin is 17.2%, and diluted EPS is $1.85, up 5.1% year over year.",
+      "Return on equity is negative because the equity base is negative; the 140.6% return on invested capital is the operating measure that matters. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $915.2M, a 36.1% margin. Net debt is $1.4B, or 1.8x EBITDA. With capital spending at 0.8% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $951.8M, or 187.2% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $21M in the latest fiscal year."
+      "Free cash flow was $915.2M, or 36.1% of revenue. Operating cash flow covered 187.2% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 0.8% of revenue, which is low relative to the revenue base.",
+      "Net debt is $1.4B, or 1.8x EBITDA. Leverage is only a problem if the cash flow cannot service it through a downturn. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 18.5x trailing earnings, 11.8x EV/EBITDA and 3.7x EV/sales. The free-cash-flow yield is 11.4%. The trailing earnings yield is 5.4%, against a free-cash-flow yield of 11.4%.",
-      "The peer comparison sets the company against MSFT, ORCL and SNPS; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $37.41, the shares trade at 18.5x trailing earnings and 11.8x EV/EBITDA, with an 11.4% free-cash-flow yield. The earnings yield is 5.4%. The earnings multiple is 79.1% below the 88.7x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "6 analysts contribute to the third-party consensus. The mean target is $35.00, with a range of $26.00 to $48.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $2.5B of revenue and $3.17 of EPS. The estimate revisions in the dataset are 3.5% over 30 days and 3.9% over 90 days. If met, the estimate would mean a decline of 0.2% from the current base."
+      "6 analysts in the third-party consensus carry a mean target of $35.00, 6.4% below the latest close. The range runs from $26.00 to $48.00. The range is unusually wide, which signals genuine disagreement about the cycle. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $2.5B of revenue and $3.17 of EPS. EPS estimates are up 3.5% over 30 days and up 3.9% over 90 days. That implies a 0.2% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is AI features and margin versus seat growth and competition.",
     "items": [
       {
-        "title": "Competition",
+        "title": "Seat growth and competition",
         "severity": "High",
-        "detail": "Feature parity and bundling can pressure pricing.",
+        "detail": "The main risk is seat growth and competition.",
         "watch": "Win rates and average contract value."
       },
       {
@@ -146,9 +146,9 @@ export const DBX: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Dropbox, Inc. produced $2.5B of trailing revenue at a 26.6% operating margin and a 36.1% free-cash-flow margin. The business converts an unusually large share of revenue into cash, and the multiple depends on that continuing.",
-      "Third-party analysts put the mean target at $35.00 as of 2026-11-25, 6.4% below the latest close; this report does not publish a target of its own. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put cash generation at 91/100 and growth at 23/100, with the composite averaging 61/100. The average hides a strong cash generation reading and a weak growth one, which is why the spread is the more useful description."
+      "The investment case rests on cash generation and the durability of 26.6% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 3.2%, not a single quarter. The key exposure is seat growth and competition.",
+      "On the scorecard, the composite is 61/100. The spread between cash generation and growth is the useful part; the average hides it."
     ],
     "questions": [
       "How much growth comes from existing customers?",

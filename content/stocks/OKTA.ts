@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const OKTA: StockStory = {
   "ticker": "OKTA",
   "kicker": "Enterprise Software · Software - Infrastructure",
-  "title": "Okta, Inc: Identity and access management",
-  "dek": "Okta, Inc. reported $3.1B of trailing revenue at a 7.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Okta: Identity and access management",
+  "dek": "Okta's revenue rose 11.2% to $3.1B, at a 7.5% operating margin. The key risk is seat growth and competition.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $3.1B trailing twelve months, +11.2% year over year.",
+    "Revenue: $3.1B, +11.2% year over year.",
     "Profitability: 7.5% operating margin and 9.6% net margin.",
     "Cash: $979M free cash flow, a 31.9% margin, against $2.3B of net cash.",
-    "Valuation: 115.2x trailing earnings and 196.3x EV/EBITDA at the latest close."
+    "Valuation: 115.2x trailing earnings and 196.3x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const OKTA: StockStory = {
   "irUrl": "https://www.okta.com",
   "bigPicture": {
     "paragraphs": [
-      "Okta, Inc. generated $3.1B of revenue over the last twelve months, +11.2% versus the prior year. The latest reported quarter was Q2 FY27, with $805M of revenue and a 13.3% operating margin. The shares closed at $195.04 on Nov 25, 2026, giving a market capitalization of $34.1B.",
-      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. By geography, United States is the largest disclosed market at 79.5% of revenue. Okta, Inc. competes in Software - Infrastructure, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $34.1B, or 115.2x trailing earnings and 196.3x EV/EBITDA. The shares sit 77% of the way up their 52-week range ($62.66 to $235.00). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Okta's revenue rose 11.2% to $3.1B at a 7.5% operating margin, generating $979M of free cash flow. The latest quarter (Q2 FY27) grew 10.6%. The margin and the multiple are the two numbers that matter from here.",
+      "Revenue is reported as one consolidated line. The US is the largest geography at 79.5% of revenue. The upside is large-enterprise adoption and AI. What would break it is seat growth and competition.",
+      "At $195.04, the equity is worth $34.1B, or 115.2x trailing earnings and 196.3x EV/EBITDA. The earnings multiple is 29.9% above the 88.7x peer median. The stock is 77% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Okta sells identity and access management, a security platform where seat growth, retention and large-enterprise adoption drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Okta, Inc. operates as an identity partner in the United States and internationally. It reports in the Technology sector and is classified in Enterprise Software coverage.",
-      "Revenue is reported at the consolidated level only. Its latest filing lists 6,366 employees. The revenue base is $3.1B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "MSFT, ORCL and SNPS provide the closest reference points for margin, growth and valuation."
+      "Okta, Inc. operates as an identity partner in the United States and internationally.",
+      "Okta earned a 78.1% gross margin, and R&D and sales and marketing absorbed 70.6% of revenue, leaving a 7.5% operating margin. That is 12.8 points below the peer median of 20.3%.",
+      "Capex is 0.3% of revenue, so the business is asset-light. The balance sheet carries $2.3B of net cash. Return on invested capital was 3.0%. That is 10.0 points below the peer median of 13.0%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$3.1B on a trailing-twelve-month basis, with the latest quarter at $805M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 7.5%; free-cash-flow margin 31.9%; net margin 9.6%."
+        "title": "Margin engine",
+        "detail": "Gross margin 78.1%, operating margin 7.5%. R&D and sales and marketing are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $34.1B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 0.3% of revenue; $2.3B of net cash; ROIC 3.0%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 78.1%, operating margin is 7.5% and net margin is 9.6%. Gross profit was $2.4B, and 70.6% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "The balance sheet carries $2.3B of net cash. Return on invested capital was 3.0% and return on equity was 4.2%. The return suggests the current capital base is earning a modest amount."
+      "Subscriptions and seat or usage growth drive revenue; retention and sales efficiency drive the margin. The edge is identity and access management.",
+      "The operating margin is 7.5%, 12.8 points below the peer median of 20.3%. Retention and sales efficiency decide whether subscription growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 32.9% a year across the fiscal years in the dataset, and the latest quarter changed +10.6% year over year. Current-year estimates call for $3.2B of revenue and $3.93 of EPS.",
-      "The operating margin of 7.5% and return on invested capital of 3.0% are the filters to watch as revenue scales. Growth of 11.2% against a 7.5% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 32.9% a year from FY2019 to FY2026. The latest quarter (Q2 FY27) grew 10.6% year over year. The current-year consensus looks for $3.2B of revenue and $3.93 of EPS.",
+      "The next leg depends on large-enterprise adoption and AI. For Okta, subscription growth is only worth paying for if retention and sales efficiency hold. The next filing should show whether the pace came from demand, pricing or acquisitions."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Revenue growth is +11.2%. That is the line the next filing has to move."
+        "detail": "Expansion within existing customers compounds revenue. Revenue growth is 11.2%."
       },
       {
         "title": "New customer adds",
@@ -67,41 +67,41 @@ export const OKTA: StockStory = {
       },
       {
         "title": "Operating leverage",
-        "detail": "Return on invested capital is 3.0%. Scale should improve margins as sales and R&D mature."
+        "detail": "Scale should improve margins as sales and R&D mature. Return on invested capital is 3.0%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -30.0% in FY2019 to 5.1% in FY2026. The trailing operating margin is 7.5%, the net margin is 9.6% and diluted EPS is $1.66.",
-      "Return on equity was 4.2% and return on invested capital was 3.0%. The two returns are within a few points, at 4.2% on equity and 3.0% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from -30.0% in FY2019 to 5.1% in FY2026. The trailing operating margin is 7.5%, the net margin is 9.6%, and diluted EPS is $1.66, up 93.0% year over year.",
+      "Return on equity of 4.2% and return on invested capital of 3.0% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $979M, a 31.9% margin. The balance sheet carries $2.3B of net cash. With capital spending at 0.3% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $884M, or 376.2% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $9M in the latest fiscal year."
+      "Free cash flow was $979M, or 31.9% of revenue. Operating cash flow covered 376.2% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 0.3% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $2.3B of net cash. Interest cover is 77.3x. Management can fund the next phase without needing the capital markets. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 115.2x trailing earnings, 196.3x EV/EBITDA and 10.3x EV/sales. The free-cash-flow yield is 2.9%. The trailing earnings yield is 0.9%, against a free-cash-flow yield of 2.9%.",
-      "The peer comparison sets the company against MSFT, ORCL and SNPS; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $195.04, the shares trade at 115.2x trailing earnings and 196.3x EV/EBITDA, with a 2.9% free-cash-flow yield. The earnings yield is 0.9%. The earnings multiple is 29.9% above the 88.7x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "42 analysts contribute to the third-party consensus. The mean target is $217.16, with a range of $150.00 to $250.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $3.2B of revenue and $3.93 of EPS. The estimate revisions in the dataset are 0.0% over 30 days and 2.2% over 90 days. The estimate is consistent with growth of 4.9% on the trailing revenue figure."
+      "42 analysts in the third-party consensus carry a mean target of $217.16, 11.3% above the latest close. The range runs from $150.00 to $250.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $3.2B of revenue and $3.93 of EPS. EPS estimates are little changed over 30 days and up 2.2% over 90 days. That implies 4.9% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is large-enterprise adoption and AI versus seat growth and competition.",
     "items": [
       {
-        "title": "Competition",
+        "title": "Seat growth and competition",
         "severity": "High",
-        "detail": "Feature parity and bundling can pressure pricing.",
+        "detail": "The main risk is seat growth and competition.",
         "watch": "Win rates and average contract value."
       },
       {
@@ -146,9 +146,9 @@ export const OKTA: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Okta, Inc. produced $3.1B of trailing revenue at a 7.5% operating margin and a 31.9% free-cash-flow margin. The business converts an unusually large share of revenue into cash, and the multiple depends on that continuing.",
-      "Analysts contributing to the third-party consensus carry a $217.16 mean target as of 2026-11-25, 11.3% above the latest close; the figure belongs to the analysts who published it, not to this report.",
-      "The factor percentiles put balance sheet at 98/100 and valuation at 5/100, with the composite averaging 56/100. The average hides a strong balance sheet reading and a weak valuation one, which is why the spread is the more useful description."
+      "The investment case rests on balance sheet and the durability of 7.5% margins. The weak link is valuation.",
+      "What would change the view is the multiple falling below 92.2x earnings, not a single quarter. The key exposure is seat growth and competition.",
+      "The scorecard averages 56/100, but the dispersion matters more: balance sheet is 98/100 and valuation is 5/100."
     ],
     "questions": [
       "How much growth comes from existing customers?",

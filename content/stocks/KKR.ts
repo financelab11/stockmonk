@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const KKR: StockStory = {
   "ticker": "KKR",
   "kicker": "Capital Markets · Asset Management",
-  "title": "KKR & Co. Inc: An alternative manager with private equity",
-  "dek": "KKR & Co. Inc. reported $20.3B of trailing revenue at a 29.2% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "KKR & Co: An alternative manager with private equity",
+  "dek": "KKR & Co's revenue rose 19.8% to $20.3B, at a 29.2% operating margin. The key risk is fundraising and credit markets.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $20.3B trailing twelve months, +19.8% year over year.",
+    "Revenue: $20.3B, +19.8% year over year.",
     "Profitability: 29.2% operating margin and 16.8% net margin.",
-    "Cash: n/a free cash flow, a n/a margin, against $22.6B of net cash.",
-    "Valuation: 25.1x trailing earnings and 11.0x EV/EBITDA at the latest close."
+    "Cash: free cash flow is not meaningful at this stage.",
+    "Valuation: 25.1x trailing earnings and 11.0x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const KKR: StockStory = {
   "irUrl": "https://www.kkr.com",
   "bigPicture": {
     "paragraphs": [
-      "KKR & Co. Inc. generated $20.3B of revenue over the last twelve months, +19.8% versus the prior year. The latest reported quarter was Q3 FY26, with $4.6B of revenue and a 33.1% operating margin. The shares closed at $93.13 on Nov 25, 2026, giving a market capitalization of $85.5B.",
-      "Insurance is 59.7% of the disclosed revenue mix. Americas supplies 12.8% of disclosed revenue, the largest single geography in the filing. KKR & Co. Inc. competes in Asset Management, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $85.5B, or 25.1x trailing earnings and 11.0x EV/EBITDA. The shares sit 17% of the way up their 52-week range ($82.67 to $144.84). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "KKR & Co's revenue rose 19.8% to $20.3B at a 29.2% operating margin. The latest quarter (Q3 FY26) fell 17.4%. The next test is whether the current profitability can be sustained.",
+      "Insurance is 59.7% of revenue and Asset Management is 21.1%. Americas is the largest geography at 12.8% of revenue. The catalyst is fundraising and carried interest. The exposure is fundraising and credit markets.",
+      "At $93.13, the equity is worth $85.5B, or 25.1x trailing earnings and 11.0x EV/EBITDA. The earnings multiple is 35.2% below the 38.7x peer median. The stock is 17% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "KKR is an alternative manager with private equity, credit, real assets and an insurance balance sheet, so fundraising and spread income both matter."
   },
   "whatItDoes": {
     "paragraphs": [
-      "KKR & Co. Inc. sits in Asset Management, one of the Capital Markets names in this library. KKR & Co. Inc. sits in the Asset Management industry, one of the Capital Markets names in this library.",
-      "The disclosed mix runs across Insurance at 59.7%, Asset Management at 21.1% and Asset Management & Strategic Holdings Segments at 20.9%. The last disclosure put headcount at 5,043 people. With $20.3B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The closest listed comparisons are BLK, AMP and APO; the useful question is how KKR & Co. Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "KKR & Co operates in Asset Management.",
+      "Compensation is the largest cost, so operating leverage depends on fee growth per employee. The operating margin was 29.2%. That is 6.1 points above the peer median of 23.1%.",
+      "The balance sheet supports the funds rather than a product business. Return on equity was 11.3%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$20.3B on a trailing-twelve-month basis, with the latest quarter at $4.6B."
+        "title": "Revenue mix",
+        "detail": "Insurance at 59.7%, Asset Management at 21.1% and Asset Management & Strategic Holdings Segments at 20.9%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 29.2%; free-cash-flow margin n/a; net margin 16.8%."
+        "title": "Margin engine",
+        "detail": "Operating margin 29.2%. Compensation and fund expenses are the main cost line, so the margin depends on spreading the cost base over more revenue."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $85.5B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Fee-related earnings and fund balances are the capital base; ROE 11.3%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 29.2% is the first clean profitability line. Earnings depend on assets under management, fundraising, fee rates and the carry realised on prior vintages.",
-      "The balance sheet supports the funds rather than a product business, which makes net debt less informative than fee streams. Return on equity was 11.3%; fee-related earnings and carried interest drive that return."
+      "Assets under management, fundraising and carry drive revenue. The edge is global alternatives platform and insurance capital.",
+      "The manager earns fees on assets under management and performance fees on carried interest. For an asset manager, fee-related earnings and fund balances matter more than net debt. Return on equity was 11.3%; fundraising, fee rates and realisations drive the model."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 40.1% a year across the fiscal years in the dataset, and the latest quarter changed -17.4% year over year. Current-year estimates point to 56.4% revenue growth, with EPS of 8.42 in the reporting currency.",
-      "The operating margin of 29.2% and return on invested capital of 16.2% are the filters to watch as revenue scales. Growth of 19.8% on a 29.2% operating margin is a high-quality combination if both hold."
+      "Revenue compounded at 40.1% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) fell 17.4% year over year. The current-year consensus looks for 56.4% revenue growth, with EPS of 8.42 in the reporting currency.",
+      "The next leg depends on fundraising and carried interest. For KKR & Co, asset growth is only worth paying for if fee rates and fundraising hold."
     ],
     "bullets": [
       {
         "title": "Assets under management",
-        "detail": "Market appreciation and net inflows compound the fee base. Revenue growth is +19.8%."
+        "detail": "Market appreciation and net inflows compound the fee base. Revenue growth is 19.8%."
       },
       {
         "title": "Fundraising",
-        "detail": "The operating margin is 29.2%. New commitments convert into management fees and future carry."
+        "detail": "New commitments convert into management fees and future carry. The operating margin is 29.2%."
       },
       {
         "title": "Realisation",
-        "detail": "Exit activity turns unrealised gains into performance fees and cash. The current reading: return on invested capital is 16.2%."
+        "detail": "Exit activity turns unrealised gains into performance fees and cash. Return on invested capital is 16.2%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 122.6% in FY2018 to 36.5% in FY2025. The trailing operating margin is 29.2%, the net margin is 16.8% and diluted EPS is not available.",
-      "Return on equity was 11.3%. Fundraising and carry drive the equity return, so ROIC is a secondary measure for this model. Fundraising and realisations are the trends to follow from here."
+      "The operating margin moved from 122.6% in FY2018 to 36.5% in FY2025. The trailing operating margin is 29.2%, the net margin is 16.8%, and diluted EPS is not meaningful on the current data.",
+      "Return on equity was 11.3%. For an asset manager, fee-related earnings and carried interest explain that return better than return on invested capital. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was n/a, a n/a margin. The balance sheet supports the funds rather than a product business, which makes net debt less informative than fee streams. For an asset manager, consolidated cash flow includes fund-level balances, so the margin is not directly comparable to an operating company.",
-      "Operating cash flow was $477.8M, or 20.2% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $0 in the latest fiscal year."
+      "Free cash flow is not meaningful at this stage. The cash profile is better judged through the balance sheet than the free-cash-flow margin. Capex and working capital are the relevant cash variables here.",
+      "For an asset manager, fee-related earnings and fund balances matter more than net debt. Consolidated cash flow includes fund-level balances, so the margin is not directly comparable to an operating company."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 25.1x trailing earnings, 11.0x EV/EBITDA and 3.1x EV/sales. The free-cash-flow yield is n/a. For an asset manager, fee-related earnings and distributable earnings are more relevant than EV/EBITDA.",
-      "The peer comparison sets the company against BLK, AMP and APO; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $93.13, the shares trade at 25.1x trailing earnings and 11.0x EV/EBITDA. The earnings yield is 4.0%. The earnings multiple is 35.2% below the 38.7x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. For an asset manager, fee-related earnings and distributable earnings are more relevant than EV/EBITDA."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "22 analysts contribute to the third-party consensus. The mean target is $122.54, with a range of $103.00 to $156.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates point to 56.4% revenue growth, with EPS of 8.42 in the reporting currency. The estimate revisions in the dataset are 9.2% over 30 days and 33.3% over 90 days."
+      "22 analysts in the third-party consensus carry a mean target of $122.54, 31.6% above the latest close. The range runs from $103.00 to $156.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for 56.4% revenue growth, with EPS of 8.42 in the reporting currency. EPS estimates are up 9.2% over 30 days and up 33.3% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is fundraising and carried interest versus fundraising and credit markets.",
     "items": [
       {
-        "title": "Capital markets",
+        "title": "Fundraising and credit markets",
         "severity": "High",
-        "detail": "A closed IPO or M&A market delays exits and carry.",
+        "detail": "The main risk is fundraising and credit markets.",
         "watch": "Exit activity, realisations and carry pipeline."
       },
       {
@@ -146,9 +146,9 @@ export const KKR: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "KKR & Co. Inc. produced $20.3B of trailing revenue at a 29.2% operating margin and a n/a free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The published consensus mean is $122.54 (2026-11-25), 31.6% above the latest close; it is a consensus view, not a recommendation from Stockmonk. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put balance sheet at 92/100 and cash generation at 14/100, with the composite averaging 59/100. The gap between balance sheet at 92/100 and cash generation at 14/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on balance sheet and the durability of 29.2% margins. The weak link is cash generation.",
+      "What would change the view is return on invested capital rising above 18.2%, not a single quarter. The key exposure is fundraising and credit markets.",
+      "The composite of 59/100 blends a strong balance sheet reading with a weak cash generation one; the gap is the story."
     ],
     "questions": [
       "How much of earnings is recurring management fee?",

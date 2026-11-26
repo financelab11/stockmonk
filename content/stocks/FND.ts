@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const FND: StockStory = {
   "ticker": "FND",
   "kicker": "Consumer Retail & Leisure · Home Improvement Retail",
-  "title": "Floor & Decor Holdings, Inc. and the cost of its next unit of growth",
-  "dek": "Floor & Decor Holdings, Inc. reported $4.7B of trailing revenue at a 6.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Floor & Decor Holdings: growth of 1.8% and a 22.1x earnings multiple",
+  "dek": "Floor & Decor Holdings' revenue was flat at $4.7B, at a 6.5% operating margin. The key risk is housing turnover and consumer demand.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $4.7B trailing twelve months, +1.8% year over year.",
+    "Revenue: $4.7B, +1.8% year over year.",
     "Profitability: 6.5% operating margin and 5.1% net margin.",
     "Cash: $342.5M free cash flow, a 7.2% margin, against $197M of net cash.",
-    "Valuation: 22.1x trailing earnings and 9.2x EV/EBITDA at the latest close."
+    "Valuation: 22.1x trailing earnings and 9.2x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const FND: StockStory = {
   "irUrl": "https://www.flooranddecor.com",
   "bigPicture": {
     "paragraphs": [
-      "Floor & Decor Holdings, Inc. generated $4.7B of revenue over the last twelve months, +1.8% versus the prior year. The latest reported quarter was Q3 FY26, with $1.2B of revenue and a 6.4% operating margin. The shares closed at $50.81 on Nov 25, 2026, giving a market capitalization of $5.3B.",
-      "Retail is 94.8% of the disclosed revenue mix. No country-level revenue split is carried in the data used here. Floor & Decor Holdings, Inc. competes in Home Improvement Retail, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $5.3B, or 22.1x trailing earnings and 9.2x EV/EBITDA. The shares sit 23% of the way up their 52-week range ($42.64 to $77.46). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Floor & Decor Holdings' revenue was flat at $4.7B at a 6.5% operating margin, generating $342.5M of free cash flow. The latest quarter (Q3 FY26) grew 3.0%.",
+      "Retail is 94.8% of revenue and Other Bets is 5.2%. The catalyst is comparable sales and new stores. The exposure is housing turnover and consumer demand.",
+      "At $50.81, the equity is worth $5.3B, or 22.1x trailing earnings and 9.2x EV/EBITDA. The earnings multiple is 2.3% below the 22.6x peer median. The stock is 23% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Floor & Decor sells hard-surface flooring, so housing turnover, comparable sales and new stores drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Floor & Decor Holdings, Inc., together with its subsidiaries, operates as a multi-channel specialty retailer of hard surface flooring and related accessories, and commercial surfaces seller in the United States. Floor & Decor Holdings, Inc. sits in the Home Improvement Retail industry, one of the Consumer Retail & Leisure names in this library.",
-      "The disclosed mix runs across Retail at 94.8% and Other Bets at 5.2%. The last disclosure put headcount at 10,469 people. The revenue base is $4.7B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The closest listed comparisons are HD and LOW; the useful question is how Floor & Decor Holdings, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Floor & Decor Holdings, Inc., together with its subsidiaries, operates as a multi-channel specialty retailer of hard surface flooring and related accessories, and commercial surfaces seller in the United States.",
+      "Floor & Decor Holdings earned a 44.9% gross margin, and cost of goods, occupancy and labor absorbed 38.5% of revenue, leaving a 6.5% operating margin. That is 5.5 points below the peer median of 11.9%.",
+      "Capital spending runs at 6.7% of revenue, which is low relative to the revenue base. The balance sheet carries $197M of net cash. Return on invested capital was 8.9%. That is 17.4 points below the peer median of 26.4%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$4.7B on a trailing-twelve-month basis, with the latest quarter at $1.2B."
+        "title": "Revenue mix",
+        "detail": "Retail at 94.8% and Other Bets at 5.2%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 6.5%; free-cash-flow margin 7.2%; net margin 5.1%."
+        "title": "Margin engine",
+        "detail": "Gross margin 44.9%, operating margin 6.5%. Cost of goods, occupancy and labor are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $5.3B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 6.7% of revenue; $197M of net cash; ROIC 8.9%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 44.9%, operating margin is 6.5% and net margin is 5.1%. Gross profit was $2.1B, and 38.5% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "The balance sheet carries $197M of net cash. Return on invested capital was 8.9% and return on equity was 9.6%. That is neither clearly good nor clearly bad without knowing the cost of capital."
+      "Traffic, basket size and inventory turns drive revenue; markdowns and occupancy drive the margin. The edge is hard-surface flooring assortment.",
+      "The operating margin is 6.5%, 5.5 points below the peer median of 11.9%. Inventory turns and markdown discipline decide whether volume growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 15.5% a year across the fiscal years in the dataset, and the latest quarter changed +3.0% year over year. Current-year estimates call for $4.8B of revenue and $1.91 of EPS.",
-      "The operating margin of 6.5% and return on invested capital of 8.9% are the filters to watch as revenue scales. Growth of 1.8% against a 6.5% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 15.5% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 3.0% year over year. The current-year consensus looks for $4.8B of revenue and $1.91 of EPS.",
+      "The next leg depends on comparable sales and new stores. For Floor & Decor Holdings, sales growth is only worth paying for if inventory turns and markdowns stay under control."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Same-store growth shows demand without new square footage. Revenue growth is +1.8%."
+        "detail": "Same-store growth shows demand without new square footage. Revenue growth is 1.8%."
       },
       {
         "title": "Unit growth",
-        "detail": "The operating margin is 6.5%. New stores and markets expand the revenue base but carry fixed costs."
+        "detail": "New stores and markets expand the revenue base but carry fixed costs. The operating margin is 6.5%."
       },
       {
         "title": "Merchandise margin",
-        "detail": "Private label, sourcing and markdown discipline determine gross margin. The current reading: return on invested capital is 8.9%."
+        "detail": "Private label, sourcing and markdown discipline determine gross margin. Return on invested capital is 8.9%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 7.7% in FY2018 to 5.8% in FY2025. The trailing operating margin is 6.5%, the net margin is 5.1% and diluted EPS is $2.23.",
-      "Return on equity was 9.6% and return on invested capital was 8.9%. The two returns are within a few points, at 9.6% on equity and 8.9% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 7.7% in FY2018 to 5.8% in FY2025. The trailing operating margin is 6.5%, the net margin is 5.1%, and diluted EPS is $2.23, up 11.5% year over year.",
+      "Return on equity of 9.6% and return on invested capital of 8.9% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $342.5M, a 7.2% margin. The balance sheet carries $197M of net cash. With capital spending at 6.7% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $381.8M, or 183.0% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $317.8M in the latest fiscal year."
+      "Free cash flow was $342.5M, or 7.2% of revenue. Operating cash flow covered 183.0% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 6.7% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $197M of net cash. Interest cover is 230.8x. The balance sheet is a source of flexibility rather than a constraint. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 22.1x trailing earnings, 9.2x EV/EBITDA and 1.1x EV/sales. The free-cash-flow yield is 6.5%. The trailing earnings yield is 4.5%, against a free-cash-flow yield of 6.5%.",
-      "The peer comparison sets the company against HD and LOW; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $50.81, the shares trade at 22.1x trailing earnings and 9.2x EV/EBITDA, with a 6.5% free-cash-flow yield. The earnings yield is 4.5%. The earnings multiple is 2.3% below the 22.6x peer median.",
+      "The multiple is in line with the peer median, so the debate is company-specific. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "22 analysts contribute to the third-party consensus. The mean target is $50.00, with a range of $34.00 to $65.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $4.8B of revenue and $1.91 of EPS. The estimate revisions in the dataset are -3.3% over 30 days and -3.3% over 90 days. That implies growth of 1.5% over the trailing twelve months."
+      "22 analysts in the third-party consensus carry a mean target of $50.00, 1.6% below the latest close. The range runs from $34.00 to $65.00. The target range is wide enough that the mean should be read with caution. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $4.8B of revenue and $1.91 of EPS. EPS estimates are down 3.3% over 30 days and down 3.3% over 90 days. That implies 1.5% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is comparable sales and new stores versus housing turnover and consumer demand.",
     "items": [
       {
-        "title": "Consumer spending",
+        "title": "Housing turnover and consumer demand",
         "severity": "High",
-        "detail": "Discretionary budgets are sensitive to confidence and rates.",
+        "detail": "The main risk is housing turnover and consumer demand.",
         "watch": "Comparable sales and transaction counts."
       },
       {
@@ -146,9 +146,9 @@ export const FND: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Floor & Decor Holdings, Inc. produced $4.7B of trailing revenue at a 6.5% operating margin and a 7.2% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Third-party analysts put the mean target at $50.00 as of 2026-11-25, 1.6% below the latest close; it is a consensus view, not a recommendation from Stockmonk. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put valuation at 71/100 and cash generation at 29/100, with the composite averaging 46/100. The average hides a strong valuation reading and a weak cash generation one, which is why the spread is the more useful description."
+      "The investment case rests on valuation and the durability of 6.5% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above 10.2%, not a single quarter. The key exposure is housing turnover and consumer demand.",
+      "The composite of 46/100 blends a strong valuation reading with a weak cash generation one; the gap is the story."
     ],
     "questions": [
       "Is growth coming from traffic or price?",

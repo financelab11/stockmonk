@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const NTSK: StockStory = {
   "ticker": "NTSK",
   "kicker": "Enterprise Software · Software - Infrastructure",
-  "title": "Netskope, Inc: Cloud security and network analytics",
-  "dek": "Netskope, Inc. reported $802.6M of trailing revenue at a -94.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Netskope: Cloud security and network analytics",
+  "dek": "Netskope's revenue rose 30.4% to $802.6M, at a -94.7% operating margin. The key risk is competition and cash burn.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $802.6M trailing twelve months, +30.4% year over year.",
+    "Revenue: $802.6M, +30.4% year over year.",
     "Profitability: -94.7% operating margin and -91.8% net margin.",
     "Cash: -$70.1M free cash flow, an -8.7% margin, against $1.1B of net cash.",
-    "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
+    "Valuation: no meaningful earnings multiple and no meaningful EV/EBITDA multiple."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,91 +18,91 @@ export const NTSK: StockStory = {
   "irUrl": "https://www.netskope.com",
   "bigPicture": {
     "paragraphs": [
-      "Netskope, Inc. generated $802.6M of revenue over the last twelve months, +30.4% versus the prior year. The latest reported quarter was Q2 FY27, with $220.5M of revenue and a -40.7% operating margin. The shares closed at $25.23 on Nov 25, 2026, giving a market capitalization of $10.3B.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. Americas supplies 56.5% of disclosed revenue, the largest single geography in the filing.",
-      "At the latest close the equity is valued at $10.3B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 92% of the way up their 52-week range ($7.67 to $26.71). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Netskope's revenue rose 30.4% to $802.6M at a -94.7% operating margin, burning $70.1M of cash. The latest quarter (Q2 FY27) grew 29.2%. The scale of the revenue base matters less than the margin it earns.",
+      "Revenue is reported as one consolidated line. Americas is the largest geography at 56.5% of revenue. The catalyst is platform consolidation and ARR growth. The exposure is competition and cash burn.",
+      "At $25.23, the equity is worth $10.3B, or no meaningful earnings multiple and no meaningful EV/EBITDA multiple. The stock is 92% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Netskope sells cloud security and network analytics, a high-growth cybersecurity business where platform consolidation and retention drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Netskope, Inc., a cybersecurity company, provides security, networking, and analytics solutions to largest enterprises to mid-sized companies worldwide. Netskope, Inc. sits in the Software - Infrastructure industry, one of the Enterprise Software names in this library.",
-      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 3,281 people. Trailing revenue is $802.6M, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The closest listed comparisons are MSFT, ORCL and SNPS; the useful question is how Netskope, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Netskope, Inc., a cybersecurity company, provides security, networking, and analytics solutions to largest enterprises to mid-sized companies worldwide.",
+      "Netskope earned a 69.9% gross margin, and R&D and sales and marketing absorbed 164.6% of revenue, leaving a -94.7% operating margin. That is 115.0 points below the peer median of 20.3%.",
+      "Capital spending runs at 2.9% of revenue, which is low relative to the revenue base. The balance sheet carries $1.1B of net cash. Return on invested capital was -382.8%. That is 395.9 points below the peer median of 13.0%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$802.6M on a trailing-twelve-month basis, with the latest quarter at $220.5M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -94.7%; free-cash-flow margin -8.7%; net margin -91.8%."
+        "title": "Margin engine",
+        "detail": "Gross margin 69.9%, operating margin -94.7%. R&D and sales and marketing are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $10.3B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 2.9% of revenue; $1.1B of net cash; ROIC -382.8%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $802.6M of revenue, $561.2M remained after cost of sales. The 164.6% operating-expense load brought that down to a -94.7% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "The balance sheet carries $1.1B of net cash. Return on invested capital was -382.8% and return on equity was -470.2%. A negative return on invested capital means the business is consuming capital rather than earning on it."
+      "Subscriptions and seat or usage growth drive revenue; retention and sales efficiency drive the margin. The edge is cloud security and network analytics.",
+      "The operating margin is -94.7%, 115.0 points below the peer median of 20.3%. Retention and sales efficiency decide whether subscription growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 32.0% a year across the fiscal years in the dataset, and the latest quarter changed +29.2% year over year. Current-year estimates call for $890.5M of revenue and -$0.15 of EPS.",
-      "The operating margin of -94.7% and return on invested capital of -382.8% are the filters to watch as revenue scales. Growth of 30.4% is outrunning the -94.7% operating margin, so the question is whether scale eventually pays for itself."
+      "Revenue compounded at 32.0% a year from FY2024 to FY2026. The latest quarter (Q2 FY27) grew 29.2% year over year. The current-year consensus looks for $890.5M of revenue and -$0.15 of EPS.",
+      "The next leg depends on platform consolidation and ARR growth. The top line is growing faster than profit, so operating leverage is the thing to prove."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. Revenue growth is +30.4%."
+        "detail": "Expansion within existing customers compounds revenue. Revenue growth is 30.4%."
       },
       {
         "title": "New customer adds",
-        "detail": "The operating margin is -94.7%. New logos broaden the base and fund future expansion."
+        "detail": "New logos broaden the base and fund future expansion. The operating margin is -94.7%."
       },
       {
         "title": "Operating leverage",
-        "detail": "Scale should improve margins as sales and R&D mature. The current reading: return on invested capital is -382.8%."
+        "detail": "Scale should improve margins as sales and R&D mature. Return on invested capital is -382.8%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -76.9% in FY2024 to -92.0% in FY2026. The trailing operating margin is -94.7%, the net margin is -91.8% and diluted EPS is -$1.52.",
-      "Return on equity was -470.2% and return on invested capital was -382.8%. The negative returns mean leverage is not the issue; the operating model is. The trend in these returns matters more than a single year's level."
+      "The operating margin moved from -76.9% in FY2024 to -92.0% in FY2026. The trailing operating margin is -94.7%, the net margin is -91.8%, and diluted EPS is -$1.52, down 50.5% year over year.",
+      "Both returns are negative. The question is whether the losses are a scale problem or a structural one. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$70.1M, an -8.7% margin. The balance sheet carries $1.1B of net cash. Capital expenditure was 2.9% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $22.9M in the latest fiscal year."
+      "Free cash flow was -$70.1M, or -8.7% of revenue. Capex absorbed 2.9% of revenue, which is low relative to the revenue base. Capex and working capital are the relevant cash variables here.",
+      "The balance sheet carries $1.1B of net cash. The balance sheet is a source of flexibility rather than a constraint. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 11.5x EV/sales. The free-cash-flow yield is -0.7%. Without a meaningful earnings multiple, the cash-flow yield and the asset base carry more of the valuation work.",
-      "The peer comparison sets the company against MSFT, ORCL and SNPS; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $25.23, the shares trade at no meaningful earnings multiple and no meaningful EV/EBITDA multiple, with a -0.7% free-cash-flow yield. The peer comparison is a starting point; the company's own history is the second reference.",
+      "No earnings multiple is meaningful, so the market is valuing the asset base or the pipeline rather than current profit. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "19 analysts contribute to the third-party consensus. The mean target is $23.87, with a range of $17.00 to $30.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $890.5M of revenue and -$0.15 of EPS. The estimate revisions in the dataset are -0.7% over 30 days and -17.4% over 90 days. That implies growth of 10.9% over the trailing twelve months."
+      "19 analysts in the third-party consensus carry a mean target of $23.87, 5.4% below the latest close. The range runs from $17.00 to $30.00. The spread between the high and low target is unusually wide. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $890.5M of revenue and -$0.15 of EPS. EPS estimates are down 0.7% over 30 days and down 17.4% over 90 days. That implies 10.9% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is platform consolidation and ARR growth versus competition and cash burn.",
     "items": [
       {
-        "title": "Operating losses",
+        "title": "Competition and cash burn",
         "severity": "High",
-        "detail": "The trailing operating margin is -94.7%, which means the current cost base is not covered by revenue.",
-        "watch": "Path to operating breakeven and cash runway."
+        "detail": "The main risk is competition and cash burn.",
+        "watch": "Win rates and average contract value."
       },
       {
         "title": "Retention",
@@ -146,9 +146,9 @@ export const NTSK: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Netskope, Inc. produced $802.6M of trailing revenue at a -94.7% operating margin and an -8.7% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "The third-party consensus mean is $23.87 as of 2026-11-25, 5.4% below the latest close; it is a consensus view, not a recommendation from Stockmonk. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put valuation at 100/100 and profitability at 2/100, with the composite averaging 44/100. A 100/100 valuation score against a 2/100 profitability score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on valuation and the durability of -94.7% margins. The weak link is profitability.",
+      "What would change the view is return on invested capital rising above -380.8%, not a single quarter. The key exposure is competition and cash burn.",
+      "The composite of 44/100 blends a strong valuation reading with a weak profitability one; the gap is the story."
     ],
     "questions": [
       "How much growth comes from existing customers?",

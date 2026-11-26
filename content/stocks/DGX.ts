@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const DGX: StockStory = {
   "ticker": "DGX",
   "kicker": "Healthcare Services & Devices · Diagnostics & Research",
-  "title": "Quest Diagnostics Incorporated: margins, cash conversion and the multiple",
-  "dek": "Quest Diagnostics Incorporated reported $11.8B of trailing revenue at a 14.6% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Quest Diagnostics: the balance sheet behind $11.8B of revenue",
+  "dek": "Quest Diagnostics' revenue rose 9.1% to $11.8B, at a 14.6% operating margin. The key risk is reimbursement and volume.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $11.8B trailing twelve months, +9.1% year over year.",
+    "Revenue: $11.8B, +9.1% year over year.",
     "Profitability: 14.6% operating margin and 9.5% net margin.",
     "Cash: $1.4B free cash flow, an 11.6% margin, against $4.8B of net debt.",
-    "Valuation: 26.0x trailing earnings and 14.8x EV/EBITDA at the latest close."
+    "Valuation: 26.0x trailing earnings and 14.8x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const DGX: StockStory = {
   "irUrl": "https://www.questdiagnostics.com",
   "bigPicture": {
     "paragraphs": [
-      "Quest Diagnostics Incorporated generated $11.8B of revenue over the last twelve months, +9.1% versus the prior year. The latest reported quarter was Q3 FY26, with $3.1B of revenue and a 15.5% operating margin. The shares closed at $267.14 on Nov 25, 2026, giving a market capitalization of $29.4B.",
-      "Diagnostic Information Services Business contributes 97.7% of the disclosed revenue mix. The dataset does not include a geographic revenue split for this company. Quest Diagnostics Incorporated competes in Diagnostics & Research, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $29.4B, or 26.0x trailing earnings and 14.8x EV/EBITDA. The shares sit 99% of the way up their 52-week range ($171.18 to $268.37). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Quest Diagnostics' revenue rose 9.1% to $11.8B at a 14.6% operating margin, generating $1.4B of free cash flow. The latest quarter (Q3 FY26) grew 10.0%.",
+      "Diagnostic Information Services Business is 97.7% of revenue and Other Bets is 2.3%. The upside is margin and esoteric mix. What would break it is reimbursement and volume.",
+      "At $267.14, the equity is worth $29.4B, or 26.0x trailing earnings and 14.8x EV/EBITDA. The earnings multiple is 25.7% below the 35.1x peer median. The stock is 99% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Quest Diagnostics runs diagnostic labs, a volume business where reimbursement, test mix and lab efficiency drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Quest Diagnostics Incorporated provides diagnostic testing and services in the United States. The company develops and delivers diagnostic information services, such as routine, non-routine and advanced clinical testing, anatomic pathology testing, and other diagnostic information services.",
-      "The disclosed mix runs across Diagnostic Information Services Business at 97.7% and Other Bets at 2.3%. Its latest filing lists 60,000 employees. Trailing revenue is $11.8B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "TMO, IDXX and LH provide the closest reference points for margin, growth and valuation."
+      "Quest Diagnostics Incorporated provides diagnostic testing and services in the United States.",
+      "Quest Diagnostics does not report a product gross margin; lab supplies, labor and logistics sit inside the operating line, leaving a 14.6% operating margin. That is 6.2 points below the peer median of 20.8%.",
+      "Capex is 4.5% of revenue, so the business is asset-light. Net debt is $4.8B, or 2.1x EBITDA. Return on invested capital was 10.1%. That is 2.1 points above the peer median of 7.9%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$11.8B on a trailing-twelve-month basis, with the latest quarter at $3.1B."
+        "title": "Revenue mix",
+        "detail": "Diagnostic Information Services Business at 97.7% and Other Bets at 2.3%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 14.6%; free-cash-flow margin 11.6%; net margin 9.5%."
+        "title": "Margin engine",
+        "detail": "Operating margin 14.6%. Lab supplies, labor and logistics are the main cost line, so incremental revenue matters more than product mix."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $29.4B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 4.5% of revenue; $4.8B of net debt; ROIC 10.1%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 14.6% is the first clean profitability line. Revenue depends on test volumes, reimbursement and the mix of routine versus esoteric testing.",
-      "Net debt is $4.8B, or 2.1x EBITDA. Return on invested capital was 10.1% and return on equity was 14.8%. That sits in the middle of the range; whether it clears the cost of capital is the deciding question."
+      "Test volume and reimbursement per test drive revenue; mix toward esoteric testing lifts price. The edge is lab network and test menu.",
+      "Volume and reimbursement per test drive revenue, while lab supplies and labor drive the cost base. Esoteric testing carries higher prices than routine panels, so mix matters as much as volume."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.6% a year across the fiscal years in the dataset, and the latest quarter changed +10.0% year over year. Current-year estimates call for $12.1B of revenue and $11.32 of EPS.",
-      "The operating margin of 14.6% and return on invested capital of 10.1% are the filters to watch as revenue scales. Neither the 9.1% growth nor the 14.6% margin is extreme; the combination is what matters."
+      "Revenue compounded at 5.6% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 10.0% year over year. The current-year consensus looks for $12.1B of revenue and $11.32 of EPS.",
+      "The next leg depends on margin and esoteric mix. For Quest Diagnostics, volume growth is only worth paying for if reimbursement per test holds. Growth is only valuable if the new revenue earns a similar return to the existing business."
     ],
     "bullets": [
       {
         "title": "Test volumes",
-        "detail": "Revenue growth is +9.1%. The next data point will show whether the trend is intact."
+        "detail": "Order volumes from hospitals, physicians and patients drive revenue before price. Revenue growth is 9.1%."
       },
       {
         "title": "Reimbursement",
@@ -67,41 +67,41 @@ export const DGX: StockStory = {
       },
       {
         "title": "Test mix",
-        "detail": "Return on invested capital is 10.1%. Esoteric and specialty tests carry higher prices and margins than routine panels."
+        "detail": "Esoteric and specialty tests carry higher prices and margins than routine panels. Return on invested capital is 10.1%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 14.6% in FY2018 to 14.1% in FY2025. The trailing operating margin is 14.6%, the net margin is 9.5% and diluted EPS is $10.04.",
-      "Return on equity was 14.8% and return on invested capital was 10.1%. Return on invested capital of 10.1% is close to the 14.8% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from 14.6% in FY2018 to 14.1% in FY2025. The trailing operating margin is 14.6%, the net margin is 9.5%, and diluted EPS is $10.04, up 17.8% year over year.",
+      "Return on equity of 14.8% and return on invested capital of 10.1% are close enough that operating performance explains most of the return. For a lab operator, volume growth and reimbursement per test explain more than a capital-return measure."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.4B, an 11.6% margin. Net debt is $4.8B, or 2.1x EBITDA. Capital expenditure was 4.5% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $1.9B, or 190.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $527M in the latest fiscal year."
+      "Free cash flow was $1.4B, or 11.6% of revenue. Operating cash flow covered 190.1% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 4.5% of revenue, which is low relative to the revenue base.",
+      "Net debt is $4.8B, or 2.1x EBITDA. Interest cover is 6.9x. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 26.0x trailing earnings, 14.8x EV/EBITDA and 2.9x EV/sales. The free-cash-flow yield is 4.7%. The 3.8% earnings yield and 4.7% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against TMO, IDXX and LH; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $267.14, the shares trade at 26.0x trailing earnings and 14.8x EV/EBITDA, with a 4.7% free-cash-flow yield. The earnings yield is 3.8%. The earnings multiple is 25.7% below the 35.1x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "15 analysts contribute to the third-party consensus. The mean target is $257.27, with a range of $235.00 to $279.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $12.1B of revenue and $11.32 of EPS. The estimate revisions in the dataset are 0.2% over 30 days and 1.1% over 90 days. The estimate is consistent with growth of 2.1% on the trailing revenue figure."
+      "15 analysts in the third-party consensus carry a mean target of $257.27, 3.7% below the latest close. The range runs from $235.00 to $279.00. The clustered targets suggest the market is close to the analysts' central case. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $12.1B of revenue and $11.32 of EPS. EPS estimates are up 0.2% over 30 days and up 1.1% over 90 days. That implies 2.1% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is margin and esoteric mix versus reimbursement and volume.",
     "items": [
       {
-        "title": "Reimbursement pressure",
+        "title": "Reimbursement and volume",
         "severity": "High",
-        "detail": "Rate cuts or coverage changes can lower revenue per test.",
+        "detail": "The main risk is reimbursement and volume.",
         "watch": "Reimbursement rates and payer mix."
       },
       {
@@ -146,9 +146,9 @@ export const DGX: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Quest Diagnostics Incorporated produced $11.8B of trailing revenue at a 14.6% operating margin and an 11.6% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "15 analysts in the third-party survey average $257.27 as of 2026-11-25, 3.7% below the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put valuation at 55/100 and balance sheet at 26/100, with the composite averaging 43/100. With valuation and balance sheet only 29 points apart, the composite is a reasonable one-line description."
+      "The investment case rests on valuation and the durability of 14.6% margins. $4.8B of net debt is the weak link.",
+      "What would change the view is leverage falling below 1.6x EBITDA, not a single quarter. The key exposure is reimbursement and volume.",
+      "The scorecard averages 43/100, but the dispersion matters more: valuation is 55/100 and balance sheet is 26/100."
     ],
     "questions": [
       "How much of growth is volume versus price?",

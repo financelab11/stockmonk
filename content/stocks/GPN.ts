@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const GPN: StockStory = {
   "ticker": "GPN",
   "kicker": "Payments & Financial Software · Specialty Business Services",
-  "title": "Global Payments Inc: Merchant acquiring and payment software",
-  "dek": "Global Payments Inc. reported $11.5B of trailing revenue at a 6.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Global Payments: Merchant acquiring and payment software",
+  "dek": "Global Payments' revenue rose 48.5% to $11.5B, at a 6.8% operating margin. The key risk is take rate and acquisition integration.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $11.5B trailing twelve months, +48.5% year over year.",
+    "Revenue: $11.5B, +48.5% year over year.",
     "Profitability: 6.8% operating margin and -11.2% net margin.",
     "Cash: -$169M free cash flow, a -1.5% margin, against $17B of net debt.",
-    "Valuation: no meaningful trailing earnings multiple and 11.3x EV/EBITDA at the latest close."
+    "Valuation: no meaningful earnings multiple and 11.3x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,91 +18,91 @@ export const GPN: StockStory = {
   "irUrl": "https://www.globalpayments.com",
   "bigPicture": {
     "paragraphs": [
-      "Global Payments Inc. generated $11.5B of revenue over the last twelve months, +48.5% versus the prior year. The latest reported quarter was Q3 FY26, with $3.3B of revenue and a 7.4% operating margin. The shares closed at $96.26 on Nov 25, 2026, giving a market capitalization of $25.5B.",
-      "Merchant Solutions accounts for 100.0% of disclosed revenue. Revenue is disclosed across 3 geographies, with Americas the largest at 79.7%. Global Payments Inc. competes in Specialty Business Services, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $25.5B, or no meaningful trailing earnings multiple and 11.3x EV/EBITDA. The shares sit 84% of the way up their 52-week range ($61.16 to $102.91). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "Global Payments' revenue rose 48.5% to $11.5B at a 6.8% operating margin, burning $169M of cash. The latest quarter (Q3 FY26) grew 63.7%. The consensus estimate and the current multiple frame the near-term debate.",
+      "Merchant Solutions is the whole revenue base. Americas is the largest geography at 79.7% of revenue. What could lift the return is worldpay integration and margin. The thing to watch is take rate and acquisition integration.",
+      "At $96.26, the equity is worth $25.5B, or no meaningful earnings multiple and 11.3x EV/EBITDA. The stock is 84% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Global Payments sells merchant acquiring and payment software, so volume growth, take rate and the integration of acquisitions determine returns."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Global Payments Inc. provides payment technology and software solutions for card, check, and digital-based payments in the Americas, Europe, and the Asia-Pacific. The business is part of the Payments & Financial Software group and reports under Industrials in the current classification.",
-      "The company reports one consolidated revenue line rather than a segment split. Headcount was 26,000 in the latest filing. With $11.5B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "Against CPRT and CTAS, the relevant tests are pricing power, capital intensity and cash conversion."
+      "Global Payments Inc. provides payment technology and software solutions for card, check, and digital-based payments in the Americas, Europe, and the Asia-Pacific.",
+      "Global Payments earned a 61.5% gross margin, and processing, credit and funding costs absorbed 54.7% of revenue, leaving a 6.8% operating margin. That is 22.6 points below the peer median of 29.4%.",
+      "Capex is 5.4% of revenue, so the business is asset-light. Net debt is $17B, or 4.5x EBITDA. Return on invested capital was 1.4%. That is 20.0 points below the peer median of 21.3%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$11.5B on a trailing-twelve-month basis, with the latest quarter at $3.3B."
+        "title": "Revenue mix",
+        "detail": "Merchant Solutions is the consolidated business at 100.0% of revenue."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 6.8%; free-cash-flow margin -1.5%; net margin -11.2%."
+        "title": "Margin engine",
+        "detail": "Gross margin 61.5%, operating margin 6.8%. Processing, credit and funding costs are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $25.5B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 5.4% of revenue; $17B of net debt; ROIC 1.4%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 61.5% of revenue after cost of sales, or $7.1B. Operating expenses absorbed 54.7% of revenue, leaving a 6.8% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $17B, or 4.5x EBITDA. Return on invested capital was 1.4%, while the reported return on equity is negative because the equity base is negative. The operating return is the one to use when judging reinvestment."
+      "Payment volume and take rate drive revenue; credit losses and funding costs drive the margin. The edge is merchant-acquiring scale and payment software.",
+      "The operating margin is 6.8%, 22.6 points below the peer median of 29.4%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 12.6% a year across the fiscal years in the dataset, and the latest quarter changed +63.7% year over year. Current-year estimates call for $12.3B of revenue and $13.65 of EPS.",
-      "The operating margin of 6.8% and return on invested capital of 1.4% are the filters to watch as revenue scales. Revenue is growing faster than profit, which means the current margin understates the operating leverage still to come if the model scales."
+      "Revenue compounded at 12.6% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 63.7% year over year. The current-year consensus looks for $12.3B of revenue and $13.65 of EPS.",
+      "The next leg depends on worldpay integration and margin. Revenue is scaling ahead of the margin, which makes cost discipline the next test. The consensus estimate is the first test; the second is whether incremental revenue carries the same margin as the base."
     ],
     "bullets": [
       {
         "title": "Payment volume",
-        "detail": "Revenue growth is +48.5%. Consumer and commercial spending drives transaction revenue."
+        "detail": "Consumer and commercial spending drives transaction revenue. Revenue growth is 48.5%."
       },
       {
         "title": "Take rate and mix",
-        "detail": "Pricing per transaction and the mix of value-added services determine revenue per dollar processed. The current reading: the operating margin is 6.8%."
+        "detail": "Pricing per transaction and the mix of value-added services determine revenue per dollar processed. The operating margin is 6.8%."
       },
       {
         "title": "Credit and funding",
-        "detail": "Return on invested capital is 1.4%. That is the line the next filing has to move."
+        "detail": "Stable credit and cheaper funding expand the spread on lending products. Return on invested capital is 1.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 21.9% in FY2018 to 22.8% in FY2025. The trailing operating margin is 6.8%, the net margin is -11.2% and diluted EPS is -$4.55.",
-      "Return on equity was -5.6% and return on invested capital was 1.4%. The equity return is distorted by negative book equity, so the operating return is the cleaner read. Both should be read against the company's own history before they are compared with a peer median."
+      "The operating margin moved from 21.9% in FY2018 to 22.8% in FY2025. The trailing operating margin is 6.8%, the net margin is -11.2%, and diluted EPS is -$4.55, down 164.0% year over year.",
+      "Return on equity is negative because the equity base is negative; the 1.4% return on invested capital is the operating measure that matters. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$169M, a -1.5% margin. Net debt is $17B, or 4.5x EBITDA. Capex absorbed 5.4% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $2.7B, or 189.7% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $617.8M in the latest fiscal year."
+      "Free cash flow was -$169M, or -1.5% of revenue. Operating cash flow covered 189.7% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 5.4% of revenue, which is low relative to the revenue base.",
+      "Net debt is $17B, or 4.5x EBITDA. Interest cover is 0.8x. Leverage is the constraint: the equity is sensitive to refinancing costs and a slower cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, 11.3x EV/EBITDA and 3.7x EV/sales. The free-cash-flow yield is -0.7%. Earnings are not a useful anchor here, so the free-cash-flow yield is the cleaner valuation reference.",
-      "The peer comparison sets the company against CPRT and CTAS; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $96.26, the shares trade at no meaningful earnings multiple and 11.3x EV/EBITDA, with a -0.7% free-cash-flow yield. The valuation debate is about durability, not the next quarter.",
+      "No earnings multiple is meaningful, so the market is valuing the asset base or the pipeline rather than current profit. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "33 analysts contribute to the third-party consensus. The mean target is $109.30, with a range of $70.00 to $194.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $12.3B of revenue and $13.65 of EPS. The estimate revisions in the dataset are 0.0% over 30 days and -0.2% over 90 days. Set against trailing revenue, the estimate implies growth of 7.4%."
+      "33 analysts in the third-party consensus carry a mean target of $109.30, 13.5% above the latest close. The range runs from $70.00 to $194.00. Analysts disagree on the outcome; the mean is a weak summary of a wide range. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $12.3B of revenue and $13.65 of EPS. EPS estimates are little changed over 30 days and down 0.2% over 90 days. That implies 7.4% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is worldpay integration and margin versus take rate and acquisition integration.",
     "items": [
       {
-        "title": "Leverage",
+        "title": "Take rate and acquisition integration",
         "severity": "High",
-        "detail": "Net debt is $17B, or 4.5x EBITDA, which leaves the equity sensitive to refinancing costs and a slower cash flow.",
-        "watch": "Leverage, interest cover and the maturity profile."
+        "detail": "The main risk is take rate and acquisition integration.",
+        "watch": "Delinquencies, charge-offs and provision guidance."
       },
       {
         "title": "Competition and take rate",
@@ -146,9 +146,9 @@ export const GPN: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Global Payments Inc. produced $11.5B of trailing revenue at a 6.8% operating margin and a -1.5% free-cash-flow margin. With leverage at 4.5x EBITDA, the balance sheet is the first thing the cash flow has to service.",
-      "The consensus target is $109.30 as of 2026-11-25, 13.5% above the latest close; that is the analysts' view, attributed and dated, not a Stockmonk target. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 88/100 and balance sheet at 7/100, with the composite averaging 36/100. The gap between valuation at 88/100 and balance sheet at 7/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on valuation and the durability of 6.8% margins. $17B of net debt is the weak link.",
+      "What would change the view is leverage falling below 4.0x EBITDA, not a single quarter. The key exposure is take rate and acquisition integration.",
+      "The scorecard puts the composite at 36/100. Focus on the valuation-to-balance sheet spread rather than the average."
     ],
     "questions": [
       "How much revenue is credit-sensitive?",

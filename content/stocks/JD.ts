@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const JD: StockStory = {
   "ticker": "JD",
   "kicker": "Internet Platforms · Internet Retail",
-  "title": "JD.com, Inc: A Chinese direct-retail and logistics platform",
-  "dek": "JD.com, Inc. reported $187.1B of trailing revenue at a 0.2% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "JD.com: A Chinese direct-retail and logistics platform",
+  "dek": "JD.com's revenue rose 17.8% to $187.1B, at a 0.2% operating margin. The key risk is consumer weakness and competition.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $187.1B trailing twelve months, +17.8% year over year.",
+    "Revenue: $187.1B, +17.8% year over year.",
     "Profitability: 0.2% operating margin and 1.8% net margin.",
     "Cash: $1.6B free cash flow, a 0.9% margin, against $30.8B of net cash.",
-    "Valuation: 10.7x trailing earnings and 2.5x EV/EBITDA at the latest close."
+    "Valuation: 10.7x trailing earnings and 2.5x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const JD: StockStory = {
   "irUrl": "https://www.jd.com",
   "bigPicture": {
     "paragraphs": [
-      "JD.com, Inc. generated $187.1B of revenue over the last twelve months, +17.8% versus the prior year. A current-quarter revenue line is not available in the extract. The shares closed at $26.17 on Nov 25, 2026, giving a market capitalization of $35.3B.",
-      "The largest disclosed segment is Jd Logistics at 116.0% of revenue. The filing extract does not break revenue out by geography. JD.com, Inc. competes in Internet Retail, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $35.3B, or 10.7x trailing earnings and 2.5x EV/EBITDA. The shares sit 17% of the way up their 52-week range ($24.51 to $34.30). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "JD.com's revenue rose 17.8% to $187.1B at a 0.2% operating margin, generating $1.6B of free cash flow. The next test is whether the current profitability can be sustained.",
+      "Jd Logistics is 116.0% of revenue and New Business is 26.3%. The near-term driver is margin and category mix. The risk is consumer weakness and competition.",
+      "At $26.17, the equity is worth $35.3B, or 10.7x trailing earnings and 2.5x EV/EBITDA. The earnings multiple is 62.3% below the 28.3x peer median. The stock is 17% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "JD.com is a Chinese direct-retail and logistics platform, so active customers, category mix and fulfillment efficiency drive the thin margin."
   },
   "whatItDoes": {
     "paragraphs": [
-      "JD.com, Inc. is classified in Internet Retail; its financial statements are in USD and it sits in the Internet Platforms group. JD.com, Inc. is an Internet Retail company within the Internet Platforms coverage group.",
-      "The largest disclosed segment is Jd Logistics at 116.0% of revenue. The company employed 900,000 people at the last reporting date. With $187.1B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The peer set is AMZN, BABA and CART; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "JD.com operates in Internet Retail.",
+      "JD.com earned a 16.0% gross margin, and fulfillment, incentives and technology absorbed 15.8% of revenue, leaving a 0.2% operating margin. That is 4.9 points below the peer median of 5.1%.",
+      "Capital spending runs at 0.6% of revenue, which is low relative to the revenue base. The balance sheet carries $30.8B of net cash. Return on invested capital was 0.9%. That is 8.2 points below the peer median of 9.1%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$187.1B on a trailing-twelve-month basis; a dated quarter is not available in the dataset."
+        "title": "Revenue mix",
+        "detail": "Jd Logistics at 116.0% and New Business at 26.3%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 0.2%; free-cash-flow margin 0.9%; net margin 1.8%."
+        "title": "Margin engine",
+        "detail": "Gross margin 16.0%, operating margin 0.2%. Fulfillment, incentives and technology are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $35.3B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 0.6% of revenue; $30.8B of net cash; ROIC 0.9%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 16.0% of revenue after cost of sales, or $30B. Operating expenses absorbed 15.8% of revenue, leaving a 0.2% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "The balance sheet carries $30.8B of net cash. Return on invested capital was 0.9% and return on equity was 10.3%. That is a thin return; without a margin recovery or a different capital allocation, growth is unlikely to create value."
+      "User growth, transaction volume and take rate drive revenue. The edge is direct retail and logistics network.",
+      "The operating margin is 0.2%, 4.9 points below the peer median of 5.1%. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 15.8% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. Current-year estimates point to 4.0% revenue growth, with EPS of 20.59 in the reporting currency.",
-      "The operating margin of 0.2% and return on invested capital of 0.9% are the filters to watch as revenue scales. Revenue is growing faster than profit, which means the current margin understates the operating leverage still to come if the model scales."
+      "Revenue compounded at 15.8% a year from FY2018 to FY2025. The current-year consensus looks for 4.0% revenue growth, with EPS of 20.59 in the reporting currency.",
+      "The next leg depends on margin and category mix. The growth rate is doing the work; the margin has to catch up for the model to earn its cost of capital."
     ],
     "bullets": [
       {
         "title": "User and engagement growth",
-        "detail": "More active users and frequency expand the inventory available to monetise. The current reading: revenue growth is +17.8%."
+        "detail": "More active users and frequency expand the inventory available to monetise. Revenue growth is 17.8%."
       },
       {
         "title": "Take rate",
-        "detail": "The operating margin is 0.2%. The trend in that figure matters more than its level."
+        "detail": "The share of transaction value retained determines revenue per unit of GMV. The operating margin is 0.2%."
       },
       {
         "title": "Adjacent services",
@@ -73,35 +73,35 @@ export const JD: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -0.6% in FY2018 to 0.2% in FY2025. The trailing operating margin is 0.2%, the net margin is 1.8% and diluted EPS is $0.92.",
-      "Return on equity was 10.3% and return on invested capital was 0.9%. Return on equity of 10.3% is above the 0.9% return on invested capital, a gap that leverage or acquisition goodwill can explain."
+      "The operating margin moved from -0.6% in FY2018 to 0.2% in FY2025. The trailing operating margin is 0.2%, the net margin is 1.8%, and diluted EPS is $0.92, down 49.9% year over year.",
+      "The 9.3-point spread between return on equity and return on invested capital suggests some of the equity return comes from the balance sheet. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.6B, a 0.9% margin. The balance sheet carries $30.8B of net cash. Capex absorbed 0.6% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $2.7B, or 82.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.1B in the latest fiscal year."
+      "Free cash flow was $1.6B, or 0.9% of revenue. Operating cash flow covered 82.1% of net income; reported profit is converting into cash cleanly. Capex absorbed 0.6% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $30.8B of net cash. The net cash position is optionality: it can fund investment, acquisitions or returns. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 10.7x trailing earnings, 2.5x EV/EBITDA and 0.0x EV/sales. The free-cash-flow yield is 4.5%. Inverting the P/E gives an earnings yield of 9.4%; the cash-flow yield is 4.5%.",
-      "The peer comparison sets the company against AMZN, BABA and CART; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $26.17, the shares trade at 10.7x trailing earnings and 2.5x EV/EBITDA, with a 4.5% free-cash-flow yield. The earnings yield is 9.4%. The earnings multiple is 62.3% below the 28.3x peer median.",
+      "The multiple implies the market expects little growth and assumes the current margin is close to peak. The multiple is below the peer median, so some of the risk is already in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "35 analysts contribute to the third-party consensus. The mean target is $36.82, with a range of $23.04 to $49.06. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates point to 4.0% revenue growth, with EPS of 20.59 in the reporting currency. The estimate revisions in the dataset are -4.7% over 30 days and -8.6% over 90 days."
+      "35 analysts in the third-party consensus carry a mean target of $36.82, 40.7% above the latest close. The range runs from $23.04 to $49.06. The range is unusually wide, which signals genuine disagreement about the cycle. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for 4.0% revenue growth, with EPS of 20.59 in the reporting currency. EPS estimates are down 4.7% over 30 days and down 8.6% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is margin and category mix versus consumer weakness and competition.",
     "items": [
       {
-        "title": "Competition for users",
+        "title": "Consumer weakness and competition",
         "severity": "High",
-        "detail": "Switching costs are low and new formats can take attention quickly.",
+        "detail": "The main risk is consumer weakness and competition.",
         "watch": "Monthly users, engagement and churn."
       },
       {
@@ -146,9 +146,9 @@ export const JD: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "JD.com, Inc. produced $187.1B of trailing revenue at a 0.2% operating margin and a 0.9% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The published consensus mean is $36.82 (2026-11-25), 40.7% above the latest close; this report does not publish a target of its own. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put balance sheet at 98/100 and cash generation at 15/100, with the composite averaging 53/100. The gap between balance sheet at 98/100 and cash generation at 15/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on balance sheet and the durability of 0.2% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above 3.9%, not a single quarter. The key exposure is consumer weakness and competition.",
+      "On the scorecard, the composite is 53/100. The spread between balance sheet and cash generation is the useful part; the average hides it."
     ],
     "questions": [
       "How much growth is users versus take rate?",

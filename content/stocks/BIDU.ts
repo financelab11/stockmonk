@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const BIDU: StockStory = {
   "ticker": "BIDU",
   "kicker": "Internet Platforms · Internet Content & Information",
-  "title": "What Baidu, Inc.'s latest filings reveal about growth, margins and cash",
-  "dek": "Baidu, Inc. reported $18.5B of trailing revenue at a -4.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Baidu: the balance sheet behind $18.5B of revenue",
+  "dek": "Baidu's revenue was flat at $18.5B, at a -4.5% operating margin. The key risk is advertising weakness and AI monetisation.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $18.5B trailing twelve months, +1.1% year over year.",
+    "Revenue: $18.5B, +1.1% year over year.",
     "Profitability: -4.5% operating margin and 4.3% net margin.",
     "Cash: -$2.2B free cash flow, an -11.7% margin, against $9.5B of net cash.",
-    "Valuation: 26.7x trailing earnings and 52.5x EV/EBITDA at the latest close."
+    "Valuation: 26.7x trailing earnings and 52.5x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,91 +18,91 @@ export const BIDU: StockStory = {
   "irUrl": "https://ir.baidu.com",
   "bigPicture": {
     "paragraphs": [
-      "Baidu, Inc. generated $18.5B of revenue over the last twelve months, +1.1% versus the prior year. The latest quarter is not in the dataset; the annual and trailing numbers are the evidence. The shares closed at $62.67 on Nov 25, 2026, giving a market capitalization of $21.3B.",
-      "Baidu Core Business is 555.5% of the disclosed revenue mix. The extract carries a consolidated revenue line without a regional split. Baidu, Inc. competes in Internet Content & Information, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $21.3B, or 26.7x trailing earnings and 52.5x EV/EBITDA. The shares sit 2% of the way up their 52-week range ($60.12 to $165.30). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Baidu's revenue was flat at $18.5B at a -4.5% operating margin, burning $2.2B of cash. The next test is whether the current profitability can be sustained.",
+      "Baidu Core Business is 555.5% of revenue and i QIYI is 147.9%. The catalyst is ERNIE adoption and robotaxi progress. The exposure is advertising weakness and AI monetisation.",
+      "At $62.67, the equity is worth $21.3B, or 26.7x trailing earnings and 52.5x EV/EBITDA. The earnings multiple is 23.1% below the 34.7x peer median. The stock is 2% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Baidu is a Chinese search and AI company whose advertising business funds an uncertain but option-rich AI cloud and autonomous-driving portfolio."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Baidu, Inc. provides internet content, value-added telecommunication-based, internet map, and online audio and video services in the People's Republic of China. Baidu, Inc. sits in the Internet Content & Information industry, one of the Internet Platforms names in this library.",
-      "Baidu Core Business is 555.5% of the disclosed revenue mix. The last disclosure put headcount at 33,500 people. With $18.5B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The closest listed comparisons are GOOGL, META and SPOT; the useful question is how Baidu, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Baidu, Inc. provides internet content, value-added telecommunication-based, internet map, and online audio and video services in the People's Republic of China.",
+      "Baidu earned a 43.9% gross margin, and fulfillment, incentives and technology absorbed 48.4% of revenue, leaving a -4.5% operating margin. That is 25.6 points below the peer median of 21.1%.",
+      "Capital spending runs at 9.4% of revenue, which is a meaningful claim on cash flow. The balance sheet carries $9.5B of net cash. Return on invested capital was -1.5%. That is 20.2 points below the peer median of 18.6%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$18.5B on a trailing-twelve-month basis; a dated quarter is not available in the dataset."
+        "title": "Revenue mix",
+        "detail": "Baidu Core Business at 555.5% and i QIYI at 147.9%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -4.5%; free-cash-flow margin -11.7%; net margin 4.3%."
+        "title": "Margin engine",
+        "detail": "Gross margin 43.9%, operating margin -4.5%. Fulfillment, incentives and technology are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $21.3B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 9.4% of revenue; $9.5B of net cash; ROIC -1.5%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 43.9% of revenue after cost of sales, or $8.1B. Operating expenses absorbed 48.4% of revenue, leaving a -4.5% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "The balance sheet carries $9.5B of net cash. Return on invested capital was -1.5% and return on equity was 2.1%. The capital base is currently earning less than nothing; scale has to change that."
+      "User growth, transaction volume and take rate drive revenue. The edge is search data and AI capability in China.",
+      "The operating margin is -4.5%, 25.6 points below the peer median of 21.1%. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.1% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. Current-year estimates point to -1.8% revenue growth, with EPS of 32.93 in the reporting currency.",
-      "The operating margin of -4.5% and return on invested capital of -1.5% are the filters to watch as revenue scales. The 1.1% revenue pace and -4.5% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 3.1% a year from FY2018 to FY2025. The current-year consensus looks for -1.8% revenue growth, with EPS of 32.93 in the reporting currency.",
+      "The next leg depends on ERNIE adoption and robotaxi progress. For Baidu, user growth is only worth paying for if take rate and contribution margin hold."
     ],
     "bullets": [
       {
         "title": "User and engagement growth",
-        "detail": "More active users and frequency expand the inventory available to monetise. Revenue growth is +1.1%."
+        "detail": "More active users and frequency expand the inventory available to monetise. Revenue growth is 1.1%."
       },
       {
         "title": "Take rate",
-        "detail": "The operating margin is -4.5%. The share of transaction value retained determines revenue per unit of GMV."
+        "detail": "The share of transaction value retained determines revenue per unit of GMV. The operating margin is -4.5%."
       },
       {
         "title": "Adjacent services",
-        "detail": "Advertising, logistics, payments and subscriptions can lift revenue per user. The current reading: return on invested capital is -1.5%."
+        "detail": "Advertising, logistics, payments and subscriptions can lift revenue per user. Return on invested capital is -1.5%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 15.2% in FY2018 to -4.5% in FY2025. The trailing operating margin is -4.5%, the net margin is 4.3% and diluted EPS is not available.",
-      "Return on equity was 2.1% and return on invested capital was -1.5%. Both measures sit below zero, so there is no leverage effect to separate out. Both should be read against the company's own history before they are compared with a peer median."
+      "The operating margin moved from 15.2% in FY2018 to -4.5% in FY2025. The trailing operating margin is -4.5%, the net margin is 4.3%, and diluted EPS is not meaningful on the current data.",
+      "Return on equity of 2.1% and return on invested capital of -1.5% are close enough that operating performance explains most of the return. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$2.2B, an -11.7% margin. The balance sheet carries $9.5B of net cash. Capex absorbed 9.4% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was -$430.7M, or -53.9% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $1.7B in the latest fiscal year."
+      "Free cash flow was -$2.2B, or -11.7% of revenue. Operating cash flow covered -53.9% of net income; working capital is absorbing part of the reported profit. Capex absorbed 9.4% of revenue, which is a meaningful claim on cash.",
+      "The balance sheet carries $9.5B of net cash. The balance sheet is a source of flexibility rather than a constraint. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 26.7x trailing earnings, 52.5x EV/EBITDA and 0.6x EV/sales. The free-cash-flow yield is -10.1%. Inverting the P/E gives an earnings yield of 3.7%; the cash-flow yield is -10.1%.",
-      "The peer comparison sets the company against GOOGL, META and SPOT; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $62.67, the shares trade at 26.7x trailing earnings and 52.5x EV/EBITDA, with a -10.1% free-cash-flow yield. The earnings yield is 3.7%. The earnings multiple is 23.1% below the 34.7x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "31 analysts contribute to the third-party consensus. The mean target is $118.16, with a range of $70.12 to $208.24. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates point to -1.8% revenue growth, with EPS of 32.93 in the reporting currency. The estimate revisions in the dataset are -16.8% over 30 days and -18.1% over 90 days."
+      "31 analysts in the third-party consensus carry a mean target of $118.16, 88.5% above the latest close. The range runs from $70.12 to $208.24. The range is unusually wide, which signals genuine disagreement about the cycle. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for -1.8% revenue growth, with EPS of 32.93 in the reporting currency. EPS estimates are down 16.8% over 30 days and down 18.1% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is ERNIE adoption and robotaxi progress versus advertising weakness and AI monetisation.",
     "items": [
       {
-        "title": "Operating losses",
+        "title": "Advertising weakness and AI monetisation",
         "severity": "High",
-        "detail": "The trailing operating margin is -4.5%, which means the current cost base is not covered by revenue.",
-        "watch": "Path to operating breakeven and cash runway."
+        "detail": "The main risk is advertising weakness and AI monetisation.",
+        "watch": "Monthly users, engagement and churn."
       },
       {
         "title": "Take-rate pressure",
@@ -146,9 +146,9 @@ export const BIDU: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Baidu, Inc. produced $18.5B of trailing revenue at a -4.5% operating margin and an -11.7% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The published consensus mean is $118.16 (2026-11-25), 88.5% above the latest close; it should be read as the published consensus, not as this publication's view. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put balance sheet at 99/100 and cash generation at 8/100, with the composite averaging 34/100. The gap between balance sheet at 99/100 and cash generation at 8/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on balance sheet and the durability of -4.5% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above -8.7%, not a single quarter. The key exposure is advertising weakness and AI monetisation.",
+      "The composite of 34/100 blends a strong balance sheet reading with a weak cash generation one; the gap is the story."
     ],
     "questions": [
       "How much growth is users versus take rate?",

@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const BRO: StockStory = {
   "ticker": "BRO",
   "kicker": "Banks & Insurance · Insurance Brokers",
-  "title": "Brown & Brown, Inc: An insurance broker growing through acquisitions and organic retention",
-  "dek": "Brown & Brown, Inc. reported $6.9B of trailing revenue at a 22.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Brown & Brown: An insurance broker growing through acquisitions and organic retention",
+  "dek": "Brown & Brown's revenue rose 26.1% to $6.9B, at a 22.5% operating margin. The key risk is commercial rates and acquisition integration.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $6.9B trailing twelve months, +26.1% year over year.",
+    "Revenue: $6.9B, +26.1% year over year.",
     "Profitability: 22.5% operating margin and 17.7% net margin.",
     "Cash: $1.5B free cash flow, a 21.5% margin, against $6.7B of net debt.",
-    "Valuation: 21.3x trailing earnings and 20.1x EV/EBITDA at the latest close."
+    "Valuation: 21.3x trailing earnings and 20.1x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const BRO: StockStory = {
   "irUrl": "https://www.bbrown.com",
   "bigPicture": {
     "paragraphs": [
-      "Brown & Brown, Inc. generated $6.9B of revenue over the last twelve months, +26.1% versus the prior year. The latest reported quarter was Q3 FY26, with $1.7B of revenue and an 18.6% operating margin. The shares closed at $78.43 on Nov 25, 2026, giving a market capitalization of $26B.",
-      "Retail contributes 57.7% of the disclosed revenue mix. By geography, United States is the largest disclosed market at 85.7% of revenue. Brown & Brown, Inc. competes in Insurance Brokers, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $26B, or 21.3x trailing earnings and 20.1x EV/EBITDA. The shares sit 86% of the way up their 52-week range ($53.81 to $82.58). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Brown & Brown's revenue rose 26.1% to $6.9B at a 22.5% operating margin, generating $1.5B of free cash flow. The latest quarter (Q3 FY26) grew 7.4%.",
+      "Retail is 57.7% of revenue and Specialty Distribution is 40.8%. The US is the largest geography at 85.7% of revenue. The upside is organic growth and acquired revenue. What would break it is commercial rates and acquisition integration.",
+      "At $78.43, the equity is worth $26B, or 21.3x trailing earnings and 20.1x EV/EBITDA. The earnings multiple is 17.0% below the 25.7x peer median. The stock is 86% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Brown & Brown is an insurance broker growing through acquisitions and organic retention, so local market density and producer productivity drive returns."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Brown & Brown, Inc. markets and sells insurance products and services in the United States, the United Kingdom, and internationally. It reports in the Financial Services sector and is classified in Banks & Insurance coverage.",
-      "The disclosed mix runs across Retail at 57.7%, Specialty Distribution at 40.8% and Corporate / other at 1.5%. Its latest filing lists 22,888 employees. Trailing revenue is $6.9B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "RYAN, AJG and AON provide the closest reference points for margin, growth and valuation."
+      "Brown & Brown, Inc. markets and sells insurance products and services in the United States, the United Kingdom, and internationally.",
+      "Brown & Brown does not report a product gross margin; compensation and placement costs sit inside the operating line, leaving a 22.5% operating margin. That is 4.7 points above the peer median of 17.9%.",
+      "Capex is 1.0% of revenue, so the business is asset-light. Net debt is $6.7B, or 4.1x EBITDA. Return on invested capital was 6.0%. That is 4.2 points below the peer median of 10.3%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$6.9B on a trailing-twelve-month basis, with the latest quarter at $1.7B."
+        "title": "Revenue mix",
+        "detail": "Retail at 57.7%, Specialty Distribution at 40.8% and Corporate / other at 1.5%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 22.5%; free-cash-flow margin 21.5%; net margin 17.7%."
+        "title": "Margin engine",
+        "detail": "Operating margin 22.5%. Compensation and placement costs are the main cost line, so incremental revenue matters more than product mix."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $26B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 1.0% of revenue; $6.7B of net debt; ROIC 6.0%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 22.5% is the first clean profitability line. The economics are fee-based, so organic growth, client retention and the price paid for acquisitions matter more than premium volume.",
-      "Net debt is $6.7B, or 4.1x EBITDA. Return on invested capital was 6.0% and return on equity was 9.7%. That leaves little room above the cost of capital."
+      "Fees are tied to placement volume and commercial rates; retention and organic growth matter more than exposure to any single carrier. The edge is decentralised agency network and local relationships.",
+      "Compensation is the largest cost, so operating leverage depends on revenue per producer and on integrating acquisitions without losing clients."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 16.6% a year across the fiscal years in the dataset, and the latest quarter changed +7.4% year over year. Current-year estimates call for $6.9B of revenue and $4.43 of EPS.",
-      "The operating margin of 22.5% and return on invested capital of 6.0% are the filters to watch as revenue scales. Neither the 26.1% growth nor the 22.5% margin is extreme; the combination is what matters."
+      "Revenue compounded at 16.6% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 7.4% year over year. The current-year consensus looks for $6.9B of revenue and $4.43 of EPS.",
+      "The next leg depends on organic growth and acquired revenue. For Brown & Brown, growth is only worth paying for if retention holds and acquired revenue earns its price."
     ],
     "bullets": [
       {
         "title": "Organic growth",
-        "detail": "Revenue growth is +26.1%. The next data point will show whether the trend is intact."
+        "detail": "New clients and increased coverage at existing clients expand commissions without deal spending. Revenue growth is 26.1%."
       },
       {
         "title": "Retention and pricing",
@@ -67,42 +67,42 @@ export const BRO: StockStory = {
       },
       {
         "title": "Acquired growth",
-        "detail": "Return on invested capital is 6.0%. Agency acquisitions add clients and specialty capabilities, but only create value if the price is sensible."
+        "detail": "Agency acquisitions add clients and specialty capabilities, but only create value if the price is sensible. Return on invested capital is 6.0%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 23.0% in FY2018 to 23.2% in FY2025. The trailing operating margin is 22.5%, the net margin is 17.7% and diluted EPS is $3.16.",
-      "Return on equity was 9.7% and return on invested capital was 6.0%. Return on invested capital of 6.0% is close to the 9.7% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from 23.0% in FY2018 to 23.2% in FY2025. The trailing operating margin is 22.5%, the net margin is 17.7%, and diluted EPS is $3.16, down 5.4% year over year.",
+      "Return on equity of 9.7% and return on invested capital of 6.0% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.5B, a 21.5% margin. Net debt is $6.7B, or 4.1x EBITDA. Capital expenditure was 1.0% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $1.5B, or 137.6% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $68M in the latest fiscal year."
+      "Free cash flow was $1.5B, or 21.5% of revenue. Operating cash flow covered 137.6% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 1.0% of revenue, which is low relative to the revenue base.",
+      "Net debt is $6.7B, or 4.1x EBITDA. Interest cover is 3.9x. Leverage is the constraint: the equity is sensitive to refinancing costs and a slower cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 21.3x trailing earnings, 20.1x EV/EBITDA and 4.7x EV/sales. The free-cash-flow yield is 5.7%. The 4.7% earnings yield and 5.7% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against RYAN, AJG and AON; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $78.43, the shares trade at 21.3x trailing earnings and 20.1x EV/EBITDA, with a 5.7% free-cash-flow yield. The earnings yield is 4.7%. The earnings multiple is 17.0% below the 25.7x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "18 analysts contribute to the third-party consensus. The mean target is $76.00, with a range of $60.00 to $85.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $6.9B of revenue and $4.43 of EPS. The estimate revisions in the dataset are -1.1% over 30 days and -1.1% over 90 days. The estimate is consistent with a decline of 0.1% on the trailing revenue figure."
+      "18 analysts in the third-party consensus carry a mean target of $76.00, 3.1% below the latest close. The range runs from $60.00 to $85.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $6.9B of revenue and $4.43 of EPS. EPS estimates are down 1.1% over 30 days and down 1.1% over 90 days. That implies a 0.1% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is organic growth and acquired revenue versus commercial rates and acquisition integration.",
     "items": [
       {
-        "title": "Leverage",
+        "title": "Commercial rates and acquisition integration",
         "severity": "High",
-        "detail": "Net debt is $6.7B, or 4.1x EBITDA, which leaves the equity sensitive to refinancing costs and a slower cash flow.",
-        "watch": "Leverage, interest cover and the maturity profile."
+        "detail": "The main risk is commercial rates and acquisition integration.",
+        "watch": "Commercial rate change and organic growth."
       },
       {
         "title": "Acquisition integration",
@@ -146,9 +146,9 @@ export const BRO: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Brown & Brown, Inc. produced $6.9B of trailing revenue at a 22.5% operating margin and a 21.5% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
-      "18 analysts in the third-party survey average $76.00 as of 2026-11-25, 3.1% below the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put cash generation at 69/100 and balance sheet at 10/100, with the composite averaging 47/100. A 69/100 cash generation score against a 10/100 balance sheet score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on cash generation and the durability of 22.5% margins. $6.7B of net debt is the weak link.",
+      "What would change the view is leverage falling below 3.6x EBITDA, not a single quarter. The key exposure is commercial rates and acquisition integration.",
+      "The scorecard averages 47/100, but the dispersion matters more: cash generation is 69/100 and balance sheet is 10/100."
     ],
     "questions": [
       "How much of growth is organic versus acquired?",

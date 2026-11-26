@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const AAP: StockStory = {
   "ticker": "AAP",
   "kicker": "Consumer Retail & Leisure · Auto Parts",
-  "title": "Advance Auto Parts, Inc: A turnaround story in a mature aftermarket",
-  "dek": "Advance Auto Parts, Inc. reported $8B of trailing revenue at a 2.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Advance Auto Parts: A turnaround story in a mature aftermarket",
+  "dek": "Advance Auto Parts' revenue fell 3.7% to $8B, at a 2.7% operating margin. The key risk is the DIY customer.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $8B trailing twelve months, -3.7% year over year.",
+    "Revenue: $8B, -3.7% year over year.",
     "Profitability: 2.7% operating margin and 0.9% net margin.",
     "Cash: -$108M free cash flow, a -1.3% margin, against $303M of net debt.",
-    "Valuation: 36.9x trailing earnings and 10.3x EV/EBITDA at the latest close."
+    "Valuation: 36.9x trailing earnings and 10.3x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const AAP: StockStory = {
   "irUrl": "https://www.AdvanceAutoParts.com",
   "bigPicture": {
     "paragraphs": [
-      "Advance Auto Parts, Inc. generated $8B of revenue over the last twelve months, -3.7% versus the prior year. The latest reported quarter was Q3 FY27, with $2B of revenue and a 2.3% operating margin. The shares closed at $45.79 on Nov 25, 2026, giving a market capitalization of $2.8B.",
-      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. Geographically, United States leads at 96.6% of the disclosed split. The moat is local convenience and same-day availability, not brand pricing power; scale in distribution and private-label parts is what protects the gross margin.",
-      "At the latest close the equity is valued at $2.8B, or 36.9x trailing earnings and 10.3x EV/EBITDA. The shares sit 29% of the way up their 52-week range ($37.89 to $65.20). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Advance Auto Parts' revenue fell 3.7% to $8B at a 2.7% operating margin, burning $108M of cash. The latest quarter (Q3 FY27) fell 1.2%. The operating margin and cash conversion are the next things to test.",
+      "Revenue is reported as one consolidated line. The US is the largest geography at 96.6% of revenue. The near-term driver is evidence that store closures, distribution changes and SG&A cuts are lifting operating margin without losing professional customers. The risk is the DIY customer.",
+      "At $45.79, the equity is worth $2.8B, or 36.9x trailing earnings and 10.3x EV/EBITDA. The earnings multiple is 28.5% above the 28.7x peer median. The stock is 29% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
-    "quote": "Advance Auto is a turnaround story in a mature aftermarket, where the question is whether a smaller, better-run store base can earn a normal margin again. The multiple looks low against trailing earnings because the earnings base is depressed; the real question is what mid-cycle margin the chain can earn."
+    "quote": "Advance Auto is a turnaround story in a mature aftermarket, where the question is whether a smaller, better-run store base can earn a normal margin again."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Advance Auto Parts, Inc. is classified in Auto Parts; its financial statements are in USD and it sits in the Consumer Retail & Leisure group. Advance Auto Parts, Inc. is an Auto Parts company within the Consumer Retail & Leisure coverage group.",
-      "There is no separate segment disclosure in the current extract. The company employed 28,274 people at the last reporting date. The revenue base is $8B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The peer set is ORLY, AUR and MBLY; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Advance Auto Parts operates in Auto Parts.",
+      "Advance Auto Parts earned a 44.5% gross margin, and cost of goods, occupancy and labor absorbed 41.8% of revenue, leaving a 2.7% operating margin. That is 2.7 points above the peer median of -0.0%.",
+      "Capital spending runs at 3.1% of revenue, which is low relative to the revenue base. Net debt is $303M, or 1.0x EBITDA. Return on invested capital was 3.2%. That is 3.3 points above the peer median of -0.1%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$8B on a trailing-twelve-month basis, with the latest quarter at $2B."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 2.7%; free-cash-flow margin -1.3%; net margin 0.9%."
+        "title": "Margin engine",
+        "detail": "Gross margin 44.5%, operating margin 2.7%. Cost of goods, occupancy and labor are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $2.8B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.1% of revenue; $303M of net debt; ROIC 3.2%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 44.5%, operating margin is 2.7% and net margin is 0.9%. Gross profit was $3.6B, and 41.8% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "Net debt is $303M, or 1.0x EBITDA. Return on invested capital was 3.2% and return on equity was 3.3%. The return suggests the current capital base is earning a modest amount."
+      "Traffic, basket size and inventory turns drive revenue; markdowns and occupancy drive the margin. The moat is local convenience and same-day availability, not brand pricing power; scale in distribution and private-label parts is what protects the gross margin.",
+      "The operating margin is 2.7%, 2.7 points above the peer median of -0.0%. Inventory turns and markdown discipline decide whether volume growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -1.3% a year across the fiscal years in the dataset, and the latest quarter changed -1.2% year over year. Current-year estimates call for $8.5B of revenue and $2.89 of EPS.",
-      "The next catalyst is evidence that store closures, distribution changes and SG&A cuts are lifting operating margin without losing professional customers. The operating margin of 2.7% and return on invested capital of 3.2% are the filters to watch as revenue scales. Revenue is shrinking at 3.7% a year on a trailing basis, which puts the burden on cost control and capital returns."
+      "Revenue compounded at -1.3% a year from FY2018 to FY2026. The latest quarter (Q3 FY27) fell 1.2% year over year. The current-year consensus looks for $8.5B of revenue and $2.89 of EPS.",
+      "The next leg depends on evidence that store closures, distribution changes and SG&A cuts are lifting operating margin without losing professional customers. The top line is shrinking, so the margin has to be defended on a smaller base."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Same-store growth shows demand without new square footage. The current reading: revenue growth is -3.7%."
+        "detail": "Same-store growth shows demand without new square footage. Revenue growth is -3.7%."
       },
       {
         "title": "Unit growth",
-        "detail": "The operating margin is 2.7%. That is the metric the thesis depends on."
+        "detail": "New stores and markets expand the revenue base but carry fixed costs. The operating margin is 2.7%."
       },
       {
         "title": "Merchandise margin",
@@ -73,33 +73,33 @@ export const AAP: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 6.3% in FY2018 to -0.5% in FY2026. The trailing operating margin is 2.7%, the net margin is 0.9% and diluted EPS is $1.23.",
-      "Return on equity was 3.3% and return on invested capital was 3.2%. The two returns are within a few points, at 3.3% on equity and 3.2% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 6.3% in FY2018 to -0.5% in FY2026. The trailing operating margin is 2.7%, the net margin is 0.9%, and diluted EPS is $1.23, down 120.4% year over year.",
+      "Return on equity of 3.3% and return on invested capital of 3.2% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$108M, a -1.3% margin. Net debt is $303M, or 1.0x EBITDA. With capital spending at 3.1% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was -$46M, or -104.5% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $252M in the latest fiscal year."
+      "Free cash flow was -$108M, or -1.3% of revenue. Operating cash flow covered -104.5% of net income; working capital is absorbing part of the reported profit. Capex absorbed 3.1% of revenue, which is low relative to the revenue base.",
+      "Net debt is $303M, or 1.0x EBITDA. Leverage is only a problem if the cash flow cannot service it through a downturn. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 36.9x trailing earnings, 10.3x EV/EBITDA and 0.4x EV/sales. The free-cash-flow yield is -3.9%. The trailing earnings yield is 2.7%, against a free-cash-flow yield of -3.9%.",
-      "The multiple looks low against trailing earnings because the earnings base is depressed; the real question is what mid-cycle margin the chain can earn. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $45.79, the shares trade at 36.9x trailing earnings and 10.3x EV/EBITDA, with a -3.9% free-cash-flow yield. The earnings yield is 2.7%. The earnings multiple is 28.5% above the 28.7x peer median.",
+      "The multiple looks low against trailing earnings because the earnings base is depressed; the real question is what mid-cycle margin the chain can earn. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "21 analysts contribute to the third-party consensus. The mean target is $48.48, with a range of $32.00 to $70.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $8.5B of revenue and $2.89 of EPS. The estimate revisions in the dataset are -3.0% over 30 days and -3.5% over 90 days. If met, the estimate would mean growth of 5.8% from the current base."
+      "21 analysts in the third-party consensus carry a mean target of $48.48, 5.9% above the latest close. The range runs from $32.00 to $70.00. The spread between the high and low target is unusually wide. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $8.5B of revenue and $2.89 of EPS. EPS estimates are down 3.0% over 30 days and down 3.5% over 90 days. That implies 5.8% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
+    "intro": "The central tension is evidence that store closures, distribution changes and SG&A cuts are lifting operating margin without losing professional customers versus the DIY customer.",
     "items": [
       {
-        "title": "The main risk",
+        "title": "The DIY customer",
         "severity": "High",
         "detail": "The DIY customer is trading down and the professional channel is under-served, so sales and margin can keep falling together.",
         "watch": "Comparable sales and transaction counts."
@@ -146,9 +146,9 @@ export const AAP: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Advance Auto Parts, Inc. produced $8B of trailing revenue at a 2.7% operating margin and a -1.3% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Third-party analysts put the mean target at $48.48 as of 2026-11-25, 5.9% above the latest close; it is included for attribution, not as a Stockmonk call. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put valuation at 54/100 and growth at 7/100, with the composite averaging 28/100. The average hides a strong valuation reading and a weak growth one, which is why the spread is the more useful description."
+      "The investment case rests on valuation and the durability of 2.7% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 3.0%, not a single quarter. The key exposure is the DIY customer.",
+      "On the scorecard, the composite is 28/100. The spread between valuation and growth is the useful part; the average hides it."
     ],
     "questions": [
       "Is growth coming from traffic or price?",

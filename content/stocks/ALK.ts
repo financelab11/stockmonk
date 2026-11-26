@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const ALK: StockStory = {
   "ticker": "ALK",
   "kicker": "Transport & Autonomy · Airlines",
-  "title": "Alaska Air Group, Inc: A premium-leisure airline integrating Hawaiian",
-  "dek": "Alaska Air Group, Inc. reported $15.3B of trailing revenue at a -1.9% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Alaska Air Group: A premium-leisure airline integrating Hawaiian",
+  "dek": "Alaska Air Group's revenue rose 8.2% to $15.3B, at a -1.9% operating margin. The key risk is integration disruption, fuel prices and a leisure-demand slowdown.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $15.3B trailing twelve months, +8.2% year over year.",
+    "Revenue: $15.3B, +8.2% year over year.",
     "Profitability: -1.9% operating margin and -2.6% net margin.",
     "Cash: $675M free cash flow, a 4.4% margin, against $3.7B of net debt.",
-    "Valuation: no meaningful trailing earnings multiple and 14.6x EV/EBITDA at the latest close."
+    "Valuation: no meaningful earnings multiple and 14.6x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,88 +18,88 @@ export const ALK: StockStory = {
   "irUrl": "https://www.alaskaair.com",
   "bigPicture": {
     "paragraphs": [
-      "Alaska Air Group, Inc. generated $15.3B of revenue over the last twelve months, +8.2% versus the prior year. The latest reported quarter was Q3 FY26, with $4.3B of revenue and a 1.9% operating margin. The shares closed at $36.07 on Nov 25, 2026, giving a market capitalization of $4.1B.",
-      "Alaska Airlines is 63.8% of the disclosed revenue mix. North America supplies 81.7% of disclosed revenue, the largest single geography in the filing. The moat is a West Coast network, a loyal co-brand card and a cost structure that has historically been below the large network carriers.",
-      "At the latest close the equity is valued at $4.1B, or no meaningful trailing earnings multiple and 14.6x EV/EBITDA. The shares sit 13% of the way up their 52-week range ($32.33 to $60.63). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Alaska Air Group's revenue rose 8.2% to $15.3B at a -1.9% operating margin, generating $675M of free cash flow. The latest quarter (Q3 FY26) grew 14.4%.",
+      "Alaska Airlines is 63.8% of revenue and Hawaiian Airlines is 23.1%. North America is the largest geography at 81.7% of revenue. The catalyst is hawaiian integration, corporate travel recovery and premium-seat growth. The exposure is integration disruption, fuel prices and a leisure-demand slowdown.",
+      "At $36.07, the equity is worth $4.1B, or no meaningful earnings multiple and 14.6x EV/EBITDA. The stock is 13% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
-    "quote": "Alaska Air is a premium-leisure airline integrating Hawaiian, so the question is whether network synergies can offset integration and fuel costs. The multiple is an airline multiple; it assumes integration synergies and mid-cycle margins."
+    "quote": "Alaska Air is a premium-leisure airline integrating Hawaiian, so the question is whether network synergies can offset integration and fuel costs."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Alaska Air Group, Inc. sits in Airlines, one of the Transport & Autonomy names in this library. Alaska Air Group, Inc. sits in the Airlines industry, one of the Transport & Autonomy names in this library.",
-      "The disclosed mix runs across Alaska Airlines at 63.8%, Hawaiian Airlines at 23.1% and Regional at 13.0%. The last disclosure put headcount at 31,787 people. The revenue base is $15.3B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The closest listed comparisons are DAL and LUV; the useful question is how Alaska Air Group, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Alaska Air Group operates in Airlines.",
+      "Alaska Air Group does not report a product gross margin; fuel, labor and maintenance sit inside the operating line, leaving a -1.9% operating margin. That is 7.8 points below the peer median of 5.9%.",
+      "Capital spending runs at 2.0% of revenue, which is low relative to the revenue base. Net debt is $3.7B, or 7.0x EBITDA. Return on invested capital was -2.4%. That is 13.0 points below the peer median of 10.6%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$15.3B on a trailing-twelve-month basis, with the latest quarter at $4.3B."
+        "title": "Revenue mix",
+        "detail": "Alaska Airlines at 63.8%, Hawaiian Airlines at 23.1% and Regional at 13.0%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -1.9%; free-cash-flow margin 4.4%; net margin -2.6%."
+        "title": "Margin engine",
+        "detail": "Operating margin -1.9%. Fuel, labor and maintenance are the main cost line, so the operating margin is the scorecard for cost discipline."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $4.1B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 2.0% of revenue; $3.7B of net debt; ROIC -2.4%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of -1.9% is the first clean profitability line. Revenue depends on demand, pricing and utilisation, while fuel, labour and capacity determine the cost of the next trip.",
-      "Net debt is $3.7B, or 7.0x EBITDA. Return on invested capital was -2.4% and return on equity was -11.2%. Until the return turns positive, additional capital is a cost rather than an investment."
+      "Passenger or freight volumes and pricing per unit drive revenue; fuel and labor drive the cost. The moat is a West Coast network, a loyal co-brand card and a cost structure that has historically been below the large network carriers.",
+      "The operating margin is -1.9%, 7.8 points below the peer median of 5.9%. The shape of the incremental margin will decide whether growth creates value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.1% a year across the fiscal years in the dataset, and the latest quarter changed +14.4% year over year. Current-year estimates call for $15.8B of revenue and -$4.75 of EPS.",
-      "The next catalyst is Hawaiian integration, corporate travel recovery and premium-seat growth. The operating margin of -1.9% and return on invested capital of -2.4% are the filters to watch as revenue scales. Growth of 8.2% against a -1.9% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 8.1% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 14.4% year over year. The current-year consensus looks for $15.8B of revenue and -$4.75 of EPS.",
+      "The next leg depends on hawaiian integration, corporate travel recovery and premium-seat growth. For Alaska Air Group, traffic growth is only worth paying for if pricing covers fuel and labor."
     ],
     "bullets": [
       {
         "title": "Demand and load",
-        "detail": "Passenger or freight volumes determine how much capacity is used. Revenue growth is +8.2%."
+        "detail": "Passenger or freight volumes determine how much capacity is used. Revenue growth is 8.2%."
       },
       {
         "title": "Pricing and yield",
-        "detail": "The operating margin is -1.9%. Ticket or contract pricing determines revenue per unit of capacity."
+        "detail": "Ticket or contract pricing determines revenue per unit of capacity. The operating margin is -1.9%."
       },
       {
         "title": "Cost per unit",
-        "detail": "Fuel, labour and maintenance decide whether volume growth becomes profit. The current reading: return on invested capital is -2.4%."
+        "detail": "Fuel, labour and maintenance decide whether volume growth becomes profit. Return on invested capital is -2.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 7.8% in FY2018 to 2.1% in FY2025. The trailing operating margin is -1.9%, the net margin is -2.6% and diluted EPS is -$3.51.",
-      "Return on equity was -11.2% and return on invested capital was -2.4%. Both returns are negative, so the question is whether the operating losses are a scale problem or a structural one."
+      "The operating margin moved from 7.8% in FY2018 to 2.1% in FY2025. The trailing operating margin is -1.9%, the net margin is -2.6%, and diluted EPS is -$3.51.",
+      "Both returns are negative. The question is whether the losses are a scale problem or a structural one. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $675M, a 4.4% margin. Net debt is $3.7B, or 7.0x EBITDA. With capital spending at 2.0% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $1.2B, or 1249.0% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $309M in the latest fiscal year."
+      "Free cash flow was $675M, or 4.4% of revenue. Operating cash flow covered 1249.0% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 2.0% of revenue, which is low relative to the revenue base.",
+      "Net debt is $3.7B, or 7.0x EBITDA. Interest cover is -0.9x. Leverage is the constraint: the equity is sensitive to refinancing costs and a slower cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, 14.6x EV/EBITDA and 0.5x EV/sales. The free-cash-flow yield is 16.6%. Without a meaningful earnings multiple, the cash-flow yield and the asset base carry more of the valuation work.",
-      "The multiple is an airline multiple; it assumes integration synergies and mid-cycle margins. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $36.07, the shares trade at no meaningful earnings multiple and 14.6x EV/EBITDA, with a 16.6% free-cash-flow yield. What matters is whether the current multiple is above or below the company's own history.",
+      "The multiple is an airline multiple; it assumes integration synergies and mid-cycle margins. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "16 analysts contribute to the third-party consensus. The mean target is $52.13, with a range of $33.00 to $78.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $15.8B of revenue and -$4.75 of EPS. The estimate revisions in the dataset are 36.9% over 30 days and 221.8% over 90 days. That implies growth of 3.1% over the trailing twelve months."
+      "16 analysts in the third-party consensus carry a mean target of $52.13, 44.5% above the latest close. The range runs from $33.00 to $78.00. The target range is wide enough that the mean should be read with caution. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $15.8B of revenue and -$4.75 of EPS. EPS estimates are up 36.9% over 30 days and up 221.8% over 90 days. That implies 3.1% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
+    "intro": "The central tension is hawaiian integration, corporate travel recovery and premium-seat growth versus integration disruption, fuel prices and a leisure-demand slowdown.",
     "items": [
       {
-        "title": "The main risk",
+        "title": "Integration disruption, fuel prices and a leisure-demand slowdown",
         "severity": "High",
         "detail": "Integration disruption, fuel prices and a leisure-demand slowdown can hit margins at the same time.",
         "watch": "Fuel hedges, wage rates and cost per unit."
@@ -146,9 +146,9 @@ export const ALK: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Alaska Air Group, Inc. produced $15.3B of trailing revenue at a -1.9% operating margin and a 4.4% free-cash-flow margin. Net debt of $3.7B, or 7.0x EBITDA, is the constraint that shapes the equity story.",
-      "Third-party analysts put the mean target at $52.13 as of 2026-11-25, 44.5% above the latest close; it is a consensus view, not a recommendation from Stockmonk. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put valuation at 82/100 and balance sheet at 3/100, with the composite averaging 28/100. The average hides a strong valuation reading and a weak balance sheet one, which is why the spread is the more useful description."
+      "The investment case rests on valuation and the durability of -1.9% margins. $3.7B of net debt is the weak link.",
+      "What would change the view is leverage falling below 6.5x EBITDA, not a single quarter. The key exposure is integration disruption, fuel prices and a leisure-demand slowdown.",
+      "The composite of 28/100 blends a strong valuation reading with a weak balance sheet one; the gap is the story."
     ],
     "questions": [
       "Is demand growing or is capacity being added?",

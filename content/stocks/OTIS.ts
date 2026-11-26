@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const OTIS: StockStory = {
   "ticker": "OTIS",
   "kicker": "Industrial Automation · Specialty Industrial Machinery",
-  "title": "Otis Worldwide Corporation: Services elevators and escalators",
-  "dek": "Otis Worldwide Corporation reported $15.1B of trailing revenue at a 15.3% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Otis Worldwide: Services elevators and escalators",
+  "dek": "Otis Worldwide's revenue rose 5.8% to $15.1B, at a 15.3% operating margin. The key risk is construction and China.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $15.1B trailing twelve months, +5.8% year over year.",
+    "Revenue: $15.1B, +5.8% year over year.",
     "Profitability: 15.3% operating margin and 10.3% net margin.",
     "Cash: $1.7B free cash flow, an 11.1% margin, against $7.4B of net debt.",
-    "Valuation: 19.4x trailing earnings and 15.1x EV/EBITDA at the latest close."
+    "Valuation: 19.4x trailing earnings and 15.1x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const OTIS: StockStory = {
   "irUrl": "https://www.otis.com",
   "bigPicture": {
     "paragraphs": [
-      "Otis Worldwide Corporation generated $15.1B of revenue over the last twelve months, +5.8% versus the prior year. The latest reported quarter was Q3 FY26, with $3.9B of revenue and a 15.8% operating margin. The shares closed at $79.17 on Nov 25, 2026, giving a market capitalization of $30.1B.",
-      "Services contributes 65.4% of the disclosed revenue mix. By geography, Other is the largest disclosed market at 59.5% of revenue. Otis Worldwide Corporation competes in Specialty Industrial Machinery, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $30.1B, or 19.4x trailing earnings and 15.1x EV/EBITDA. The shares sit 50% of the way up their 52-week range ($63.58 to $94.57). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Otis Worldwide's revenue rose 5.8% to $15.1B at a 15.3% operating margin, generating $1.7B of free cash flow. The latest quarter (Q3 FY26) grew 6.1%.",
+      "Services is 65.4% of revenue and New Equipment is 34.6%. Other is the largest geography at 59.5% of revenue. The upside is service growth and margin. What would break it is construction and China.",
+      "At $79.17, the equity is worth $30.1B, or 19.4x trailing earnings and 15.1x EV/EBITDA. The earnings multiple is 35.6% below the 30.1x peer median. The stock is 50% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Otis makes and services elevators and escalators, an installed-base business where service contracts and new-equipment cycles drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Otis Worldwide Corporation engages in manufacturing, installation, and servicing of elevators and escalators in the United States, China, and internationally. The company operates in two segments, New Equipment and Service.",
-      "The disclosed mix runs across Services at 65.4% and New Equipment at 34.6%. Its latest filing lists 72,000 employees. With $15.1B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "GEV, ETN and PH provide the closest reference points for margin, growth and valuation."
+      "Otis Worldwide Corporation engages in manufacturing, installation, and servicing of elevators and escalators in the United States, China, and internationally.",
+      "Otis Worldwide does not report a product gross margin; materials, labor and capacity sit inside the operating line, leaving a 15.3% operating margin. That is 9.6 points above the peer median of 5.8%.",
+      "Capex is 1.0% of revenue, so the business is asset-light. Net debt is $7.4B, or 3.0x EBITDA. Return on invested capital was 62.5%. That is 56.2 points above the peer median of 6.3%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$15.1B on a trailing-twelve-month basis, with the latest quarter at $3.9B."
+        "title": "Revenue mix",
+        "detail": "Services at 65.4% and New Equipment at 34.6%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 15.3%; free-cash-flow margin 11.1%; net margin 10.3%."
+        "title": "Margin engine",
+        "detail": "Operating margin 15.3%. Materials, labor and capacity are the main cost line, so the margin depends on spreading the cost base over more revenue."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $30.1B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 1.0% of revenue; $7.4B of net debt; ROIC 62.5%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 15.3% is the first clean profitability line. Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
-      "Net debt is $7.4B, or 3.0x EBITDA. Return on invested capital was 62.5%, while the reported return on equity is negative because the equity base is negative. The operating return is the one to use when judging reinvestment."
+      "Industrial production, backlog and pricing drive revenue; utilization drives the margin. The edge is elevator installed base and service.",
+      "The operating margin is 15.3%, 9.6 points above the peer median of 5.8%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 1.6% a year across the fiscal years in the dataset, and the latest quarter changed +6.1% year over year. Current-year estimates call for $15.4B of revenue and $4.07 of EPS.",
-      "The operating margin of 15.3% and return on invested capital of 62.5% are the filters to watch as revenue scales. The 5.8% revenue pace and 15.3% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 1.6% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 6.1% year over year. The current-year consensus looks for $15.4B of revenue and $4.07 of EPS.",
+      "The next leg depends on service growth and margin. For Otis Worldwide, volume growth is only worth paying for if pricing covers input costs. The consensus estimate is the first test; the second is whether incremental revenue carries the same margin as the base."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Revenue growth is +5.8%. That is the metric the thesis depends on."
+        "detail": "Orders already booked provide visibility into future revenue. Revenue growth is 5.8%."
       },
       {
         "title": "Aftermarket and services",
@@ -67,41 +67,41 @@ export const OTIS: StockStory = {
       },
       {
         "title": "Price and productivity",
-        "detail": "Return on invested capital is 62.5%. Pricing actions and cost programmes protect margins through cycles."
+        "detail": "Pricing actions and cost programmes protect margins through cycles. Return on invested capital is 62.5%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 14.2% in FY2018 to 14.8% in FY2025. The trailing operating margin is 15.3%, the net margin is 10.3% and diluted EPS is $4.02.",
-      "Return on equity was -28.7% and return on invested capital was 62.5%. The equity return is distorted by negative book equity, so the operating return is the cleaner read. Both should be read against the company's own history before they are compared with a peer median."
+      "The operating margin moved from 14.2% in FY2018 to 14.8% in FY2025. The trailing operating margin is 15.3%, the net margin is 10.3%, and diluted EPS is $4.02, up 18.6% year over year.",
+      "Return on equity is negative because the equity base is negative; the 62.5% return on invested capital is the operating measure that matters. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.7B, an 11.1% margin. Net debt is $7.4B, or 3.0x EBITDA. Capex absorbed 1.0% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $1.6B, or 115.3% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $152M in the latest fiscal year."
+      "Free cash flow was $1.7B, or 11.1% of revenue. Operating cash flow covered 115.3% of net income; reported profit is converting into cash cleanly. Capex absorbed 1.0% of revenue, which is low relative to the revenue base.",
+      "Net debt is $7.4B, or 3.0x EBITDA. Interest cover is 9.6x. The balance sheet is manageable but not a source of upside; debt reduction competes with reinvestment for the cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 19.4x trailing earnings, 15.1x EV/EBITDA and 2.5x EV/sales. The free-cash-flow yield is 5.6%. Inverting the P/E gives an earnings yield of 5.2%; the cash-flow yield is 5.6%.",
-      "The peer comparison sets the company against GEV, ETN and PH; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $79.17, the shares trade at 19.4x trailing earnings and 15.1x EV/EBITDA, with a 5.6% free-cash-flow yield. The earnings yield is 5.2%. The earnings multiple is 35.6% below the 30.1x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "13 analysts contribute to the third-party consensus. The mean target is $86.31, with a range of $73.00 to $96.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $15.4B of revenue and $4.07 of EPS. The estimate revisions in the dataset are 0.6% over 30 days and 0.2% over 90 days. The estimate is consistent with growth of 1.5% on the trailing revenue figure."
+      "13 analysts in the third-party consensus carry a mean target of $86.31, 9.0% above the latest close. The range runs from $73.00 to $96.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $15.4B of revenue and $4.07 of EPS. EPS estimates are up 0.6% over 30 days and up 0.2% over 90 days. That implies 1.5% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is service growth and margin versus construction and China.",
     "items": [
       {
-        "title": "Capital-spending cycle",
+        "title": "Construction and China",
         "severity": "High",
-        "detail": "Industrial demand falls when customers delay projects.",
+        "detail": "The main risk is construction and China.",
         "watch": "Order trends and backlog conversion."
       },
       {
@@ -146,9 +146,9 @@ export const OTIS: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Otis Worldwide Corporation produced $15.1B of trailing revenue at a 15.3% operating margin and an 11.1% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The consensus target is $86.31 as of 2026-11-25, 9.0% above the latest close; the figure belongs to the analysts who published it, not to this report. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put profitability at 75/100 and balance sheet at 17/100, with the composite averaging 47/100. The gap between profitability at 75/100 and balance sheet at 17/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on profitability and the durability of 15.3% margins. $7.4B of net debt is the weak link.",
+      "What would change the view is leverage falling below 2.5x EBITDA, not a single quarter. The key exposure is construction and China.",
+      "The scorecard averages 47/100, but the dispersion matters more: profitability is 75/100 and balance sheet is 17/100."
     ],
     "questions": [
       "How much revenue is recurring versus project-based?",

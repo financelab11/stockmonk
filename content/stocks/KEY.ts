@@ -4,13 +4,13 @@ export const KEY: StockStory = {
   "ticker": "KEY",
   "kicker": "Banks & Insurance · Banks - Regional",
   "title": "KeyCorp: A regional bank",
-  "dek": "KeyCorp reported $1.9B of trailing revenue at a 142.1% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "dek": "KeyCorp's revenue rose 10.3% to $1.9B. The key risk is credit and net interest margin.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $1.9B trailing twelve months, +10.3% year over year.",
-    "Profitability: 142.1% operating margin and 111.9% net margin.",
+    "Revenue: $1.9B, +10.3% year over year.",
+    "Profitability: operating margin not meaningful; net margin not meaningful.",
     "Cash: $1.5B free cash flow, an 80.0% margin, against $2.1B of net debt.",
-    "Valuation: 10.0x trailing earnings and 5.9x EV/EBITDA at the latest close."
+    "Valuation: 10.0x trailing earnings and 5.9x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const KEY: StockStory = {
   "irUrl": "https://www.key.com",
   "bigPicture": {
     "paragraphs": [
-      "KeyCorp generated $1.9B of revenue over the last twelve months, +10.3% versus the prior year. The latest reported quarter was Q3 FY26, with $506M of revenue and a 145.8% operating margin. The shares closed at $20.13 on Nov 25, 2026, giving a market capitalization of $21.3B.",
-      "Commercial Bank accounts for 53.7% of disclosed revenue. Geographic revenue detail is not available in the current dataset. KeyCorp competes in Banks - Regional, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $21.3B, or 10.0x trailing earnings and 5.9x EV/EBITDA. The shares sit 32% of the way up their 52-week range ($18.26 to $24.07). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "KeyCorp's revenue rose 10.3% to $1.9B, with an 11.9% return on equity, generating $1.5B of free cash flow. The latest quarter (Q3 FY26) grew 16.9%.",
+      "Commercial Bank is 53.7% of revenue and Consumer Bank is 46.3%. What could lift the return is deposit growth and capital returns. The thing to watch is credit and net interest margin.",
+      "At $20.13, the equity is worth $21.3B, or 10.0x trailing earnings and 5.9x EV/EBITDA. The earnings multiple is 16.6% below the 12.0x peer median. The stock is 32% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "KeyCorp is a regional bank, so net interest margin, credit quality and fee income drive earnings through the rate cycle."
   },
   "whatItDoes": {
     "paragraphs": [
-      "KeyCorp operates as the holding company for KeyBank National Association that provides various retail and commercial banking products and services in the United States. It operates in two segments, Consumer Bank and Commercial Bank.",
-      "The disclosed mix runs across Commercial Bank at 53.7% and Consumer Bank at 46.3%. Headcount was 17,562 in the latest filing. Trailing revenue is $1.9B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The peer set is NU, FITB and HBAN; net interest margin, provisioning and capital returns are the comparisons that matter."
+      "KeyCorp operates as the holding company for KeyBank National Association that provides various retail and commercial banking products and services in the United States.",
+      "The operating margin is not meaningful on the current data. Funding costs and credit losses remain the main cost line, so the margin trend is the number to watch.",
+      "Capital is regulatory rather than physical: CET1, deposit funding and book value matter more than capex. Return on equity was 11.9%, and the relevant comparison is with other regional banks."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$1.9B on a trailing-twelve-month basis, with the latest quarter at $506M."
+        "title": "Revenue mix",
+        "detail": "Commercial Bank at 53.7% and Consumer Bank at 46.3%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 142.1%; free-cash-flow margin 80.0%; net margin 111.9%."
+        "title": "Margin engine",
+        "detail": "The operating margin is not meaningful on the current data. Funding costs and credit losses are the cost line to watch."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $21.3B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Deposits and CET1 are the capital base; ROE 11.9%, ROIC 6.1%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 142.1% is the first clean profitability line. The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns.",
-      "A bank's balance sheet is its product, so net debt is less informative than deposit mix and capital ratios. Return on equity was 11.9%; for a bank, that return is shaped by leverage and credit costs rather than by a product gross margin."
+      "Net interest income, fees and credit costs drive revenue and margin. The edge is regional banking relationships.",
+      "The bank earns a spread between asset yields and deposit costs. For a bank, deposits and regulatory capital matter more than a conventional net-debt figure. Return on equity was 11.9%; the key variables are net interest margin, credit costs and capital returns."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -17.0% a year across the fiscal years in the dataset, and the latest quarter changed +16.9% year over year. Current-year estimates point to 7.8% revenue growth, with EPS of 1.89 in the reporting currency.",
-      "Return on equity of 11.9% is the filter to watch as revenue scales. The 10.3% revenue pace is the headline; net interest margin and provisions will decide how much reaches the bottom line."
+      "Reported revenue growth is not a clean like-for-like measure for a bank because the revenue line moves with rates and balance-sheet mix. The latest quarter (Q3 FY26) grew 16.9% year over year. The current-year consensus looks for 7.8% revenue growth, with EPS of 1.89 in the reporting currency.",
+      "The next leg depends on deposit growth and capital returns. For KeyCorp, top-line growth only matters if it is priced above funding costs and credit losses."
     ],
     "bullets": [
       {
         "title": "Net interest income",
-        "detail": "Revenue growth is +10.3%. Loan and securities yields less funding costs are the core revenue line."
+        "detail": "Loan and securities yields less funding costs are the core revenue line. Revenue growth is 10.3%."
       },
       {
         "title": "Fee income",
-        "detail": "Advisory, asset management and trading diversify the revenue base. The current reading: the operating margin is 142.1%."
+        "detail": "Advisory, asset management and trading diversify the revenue base. Net interest margin and credit costs are the key variables; revenue growth is 10.3%."
       },
       {
         "title": "Capital returns",
-        "detail": "Return on equity is 11.9%. The direction of travel matters more than the absolute level."
+        "detail": "Buybacks and dividends can grow per-share value when capital is abundant. Return on equity is 11.9%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 34.1% in FY2018 to 131.7% in FY2025. The trailing operating margin is 142.1%, the net margin is 111.9% and diluted EPS is $1.82.",
-      "Return on equity was 11.9%. For a bank, return on invested capital is distorted by deposit funding, so net interest margin, credit costs and capital ratios are the more useful comparisons."
+      "For a bank, the operating margin is a spread measure and the reported history is not comparable across rate cycles. Return on equity was 11.9%, and diluted EPS was $1.82.",
+      "Return on equity was 11.9%. For a bank, return on invested capital is distorted by deposit funding; net interest margin, credit costs and capital ratios are the more useful comparisons."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.5B, an 80.0% margin. A bank's balance sheet is its product, so net debt is less informative than deposit mix and capital ratios. For a bank, cash flow is shaped by balance-sheet movements, so the margin is less comparable than it is for an industrial.",
-      "Operating cash flow was $2.2B, or 120.7% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $107M in the latest fiscal year."
+      "Free cash flow was $1.5B, or 80.0% of revenue. Operating cash flow covered 120.7% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 5.6% of revenue, which is low relative to the revenue base.",
+      "For a bank, deposits and regulatory capital matter more than a conventional net-debt figure. Cash flow is shaped by balance-sheet movements, so the free-cash-flow margin is less comparable than it is for an industrial."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 10.0x trailing earnings, 5.9x EV/EBITDA and 12.4x EV/sales. The free-cash-flow yield is 7.1%. For a bank, price-to-book and P/E are more relevant than EV/EBITDA.",
-      "The peer comparison sets the company against NU, FITB and HBAN; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $20.13, the shares trade at 10.0x trailing earnings and 5.9x EV/EBITDA, with a 7.1% free-cash-flow yield. The earnings yield is 10.0%. The earnings multiple is 16.6% below the 12.0x peer median.",
+      "The multiple implies the market expects little growth and assumes the current margin is close to peak. The multiple is below the peer median, so some of the risk is already in the price. For a bank, price-to-book and P/E are more relevant than EV/EBITDA."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "20 analysts contribute to the third-party consensus. The mean target is $25.15, with a range of $22.00 to $43.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates point to 7.8% revenue growth, with EPS of 1.89 in the reporting currency. The estimate revisions in the dataset are 0.3% over 30 days and 3.2% over 90 days."
+      "20 analysts in the third-party consensus carry a mean target of $25.15, 24.9% above the latest close. The range runs from $22.00 to $43.00. The wide range shows how divided the published views are. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for 7.8% revenue growth, with EPS of 1.89 in the reporting currency. EPS estimates are up 0.3% over 30 days and up 3.2% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is deposit growth and capital returns versus credit and net interest margin.",
     "items": [
       {
-        "title": "Credit cycle",
+        "title": "Credit and net interest margin",
         "severity": "High",
-        "detail": "Loan losses rise in a downturn and can overwhelm revenue growth.",
+        "detail": "The main risk is credit and net interest margin.",
         "watch": "Provisions, charge-offs and non-performing loans."
       },
       {
@@ -146,9 +146,9 @@ export const KEY: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "KeyCorp produced $1.9B of trailing revenue at a 142.1% operating margin and an 80.0% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
-      "20 analysts in the third-party survey average $25.15 as of 2026-11-25, 24.9% above the latest close; the forecast is theirs, and this report does not adopt it as a target.",
-      "The factor percentiles put cash generation at 99/100 and balance sheet at 52/100, with the composite averaging 76/100. A 99/100 cash generation score against a 52/100 balance sheet score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on cash generation and the durability of 11.9% returns on equity. $2.1B of net debt is the weak link.",
+      "What would change the view is leverage falling below 1.0x EBITDA, not a single quarter. The key exposure is credit and net interest margin.",
+      "The scorecard puts the composite at 76/100. Focus on the cash generation-to-balance sheet spread rather than the average."
     ],
     "questions": [
       "How much of net interest income is rate-sensitive?",

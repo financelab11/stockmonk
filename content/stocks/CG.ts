@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const CG: StockStory = {
   "ticker": "CG",
   "kicker": "Capital Markets · Asset Management",
-  "title": "The Carlyle Group Inc: An alternative manager with private equity",
-  "dek": "The Carlyle Group Inc. reported $3.6B of trailing revenue at a 13.3% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "The Carlyle Group: An alternative manager with private equity",
+  "dek": "The Carlyle Group's revenue fell 7.6% to $3.6B, at a 13.3% operating margin. The key risk is fundraising and carry timing.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $3.6B trailing twelve months, -7.6% year over year.",
+    "Revenue: $3.6B, -7.6% year over year.",
     "Profitability: 13.3% operating margin and 9.8% net margin.",
     "Cash: -$2.2B free cash flow, a -61.1% margin, against $1.6B of net cash.",
-    "Valuation: 38.7x trailing earnings and 17.8x EV/EBITDA at the latest close."
+    "Valuation: 38.7x trailing earnings and 17.8x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const CG: StockStory = {
   "irUrl": "https://www.carlyle.com",
   "bigPicture": {
     "paragraphs": [
-      "The Carlyle Group Inc. generated $3.6B of revenue over the last twelve months, -7.6% versus the prior year. The latest reported quarter was Q3 FY26, with $334.1M of revenue and a -23.0% operating margin. The shares closed at $38.82 on Nov 25, 2026, giving a market capitalization of $13.7B.",
-      "The largest disclosed segment is Global Segments at 55.3% of revenue. Geographically, Americas leads at 68.7% of the disclosed split. The Carlyle Group Inc. competes in Asset Management, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $13.7B, or 38.7x trailing earnings and 17.8x EV/EBITDA. The shares sit 11% of the way up their 52-week range ($35.41 to $67.30). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "The Carlyle Group's revenue fell 7.6% to $3.6B at a 13.3% operating margin, burning $2.2B of cash. The latest quarter (Q3 FY26) was flat. The operating margin and cash conversion are the next things to test.",
+      "Global Segments is 55.3% of revenue and Global Private Equity is 25.4%. Americas is the largest geography at 68.7% of revenue. The near-term driver is credit fundraising and realisations. The risk is fundraising and carry timing.",
+      "At $38.82, the equity is worth $13.7B, or 38.7x trailing earnings and 17.8x EV/EBITDA. The earnings multiple is 53.1% above the 25.3x peer median. The stock is 11% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Carlyle is an alternative manager with private equity, credit and real-asset funds, so fundraising and carry realisations drive earnings."
   },
   "whatItDoes": {
     "paragraphs": [
-      "The Carlyle Group Inc. is an investment firm specializing in direct and fund of fund investments. The Carlyle Group Inc. is an Asset Management company within the Capital Markets coverage group.",
-      "The disclosed mix runs across Global Segments at 55.3%, Global Private Equity at 25.4% and Global Credit at 19.0%. The company employed 2,500 people at the last reporting date. The revenue base is $3.6B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The peer set is BLK, AMP and APO; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "The Carlyle Group Inc. is an investment firm specializing in direct and fund of fund investments.",
+      "Compensation is the largest cost, so operating leverage depends on fee growth per employee. The operating margin was 13.3%. That is 14.5 points below the peer median of 27.8%.",
+      "The balance sheet supports the funds rather than a product business. Return on equity was 5.4%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$3.6B on a trailing-twelve-month basis, with the latest quarter at $334.1M."
+        "title": "Revenue mix",
+        "detail": "Global Segments at 55.3%, Global Private Equity at 25.4% and Global Credit at 19.0%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 13.3%; free-cash-flow margin -61.1%; net margin 9.8%."
+        "title": "Margin engine",
+        "detail": "Operating margin 13.3%. Compensation and fund expenses are the main cost line, so the operating margin is the scorecard for cost discipline."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $13.7B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Fee-related earnings and fund balances are the capital base; ROE 5.4%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 13.3% is the first clean profitability line. Earnings depend on assets under management, fundraising, fee rates and the carry realised on prior vintages.",
-      "Management fees and carried interest drive the economics, so net debt is a secondary measure. Return on equity was 5.4%; fee-related earnings and carried interest drive that return."
+      "Assets under management, fundraising and carry drive revenue. The edge is global private-equity and credit platform.",
+      "The manager earns fees on assets under management and performance fees on carried interest. For an asset manager, fee-related earnings and fund balances matter more than net debt. Return on equity was 5.4%; fundraising, fee rates and realisations drive the model."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.2% a year across the fiscal years in the dataset, and the latest quarter changed +0.4% year over year. Current-year estimates call for $3.7B of revenue and $3.63 of EPS.",
-      "The operating margin of 13.3% and return on invested capital of 5.3% are the filters to watch as revenue scales. Revenue is shrinking at 7.6% a year on a trailing basis, which puts the burden on cost control and capital returns."
+      "Revenue compounded at 10.2% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) was flat year over year. The current-year consensus looks for $3.7B of revenue and $3.63 of EPS.",
+      "The next leg depends on credit fundraising and realisations. The top line is shrinking, so the margin has to be defended on a smaller base."
     ],
     "bullets": [
       {
         "title": "Assets under management",
-        "detail": "Market appreciation and net inflows compound the fee base. The current reading: revenue growth is -7.6%."
+        "detail": "Market appreciation and net inflows compound the fee base. Revenue growth is -7.6%."
       },
       {
         "title": "Fundraising",
-        "detail": "The operating margin is 13.3%. That is the metric the thesis depends on."
+        "detail": "New commitments convert into management fees and future carry. The operating margin is 13.3%."
       },
       {
         "title": "Realisation",
@@ -73,36 +73,36 @@ export const CG: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 14.8% in FY2018 to 24.3% in FY2025. The trailing operating margin is 13.3%, the net margin is 9.8% and diluted EPS is $0.94.",
-      "Return on equity was 5.4%. For an asset manager, fee-related earnings and carried interest explain that return better than return on invested capital. Fundraising and realisations are the trends to follow from here."
+      "The operating margin moved from 14.8% in FY2018 to 24.3% in FY2025. The trailing operating margin is 13.3%, the net margin is 9.8%, and diluted EPS is $0.94, down 47.2% year over year.",
+      "Return on equity was 5.4%. For an asset manager, fee-related earnings and carried interest explain that return better than return on invested capital. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$2.2B, a -61.1% margin. Management fees and carried interest drive the economics, so net debt is a secondary measure. For an asset manager, consolidated cash flow includes fund-level balances, so the margin is not directly comparable to an operating company.",
-      "Operating cash flow was -$3.3B, or -405.0% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $99.4M in the latest fiscal year."
+      "Free cash flow was -$2.2B, or -61.1% of revenue. Operating cash flow covered -405.0% of net income; working capital is absorbing part of the reported profit. Capex absorbed 2.8% of revenue, which is low relative to the revenue base.",
+      "For an asset manager, fee-related earnings and fund balances matter more than net debt. Consolidated cash flow includes fund-level balances, so the margin is not directly comparable to an operating company."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 38.7x trailing earnings, 17.8x EV/EBITDA and 3.4x EV/sales. The free-cash-flow yield is -16.1%. For an asset manager, fee-related earnings and distributable earnings are more relevant than EV/EBITDA.",
-      "The peer comparison sets the company against BLK, AMP and APO; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $38.82, the shares trade at 38.7x trailing earnings and 17.8x EV/EBITDA, with a -16.1% free-cash-flow yield. The earnings yield is 2.6%. The earnings multiple is 53.1% above the 25.3x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment. For an asset manager, fee-related earnings and distributable earnings are more relevant than EV/EBITDA."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "19 analysts contribute to the third-party consensus. The mean target is $49.32, with a range of $40.00 to $73.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $3.7B of revenue and $3.63 of EPS. The estimate revisions in the dataset are 2.5% over 30 days and -0.6% over 90 days. If met, the estimate would mean growth of 2.2% from the current base."
+      "19 analysts in the third-party consensus carry a mean target of $49.32, 27.1% above the latest close. The range runs from $40.00 to $73.00. The wide range shows how divided the published views are. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $3.7B of revenue and $3.63 of EPS. EPS estimates are up 2.5% over 30 days and down 0.6% over 90 days. That implies 2.2% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is credit fundraising and realisations versus fundraising and carry timing.",
     "items": [
       {
-        "title": "Revenue decline",
+        "title": "Fundraising and carry timing",
         "severity": "High",
-        "detail": "Trailing revenue fell 7.6%, so the margin has to be defended on a shrinking base.",
-        "watch": "Organic growth, retention and pricing."
+        "detail": "The main risk is fundraising and carry timing.",
+        "watch": "Exit activity, realisations and carry pipeline."
       },
       {
         "title": "Fundraising cycle",
@@ -146,9 +146,9 @@ export const CG: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "The Carlyle Group Inc. produced $3.6B of trailing revenue at a 13.3% operating margin and a -61.1% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Third-party analysts put the mean target at $49.32 as of 2026-11-25, 27.1% above the latest close; it is included for attribution, not as a Stockmonk call. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put balance sheet at 86/100 and cash generation at 6/100, with the composite averaging 36/100. The average hides a strong balance sheet reading and a weak cash generation one, which is why the spread is the more useful description."
+      "The investment case rests on balance sheet and the durability of 13.3% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above -58.1%, not a single quarter. The key exposure is fundraising and carry timing.",
+      "On the scorecard, the composite is 36/100. The spread between balance sheet and cash generation is the useful part; the average hides it."
     ],
     "questions": [
       "How much of earnings is recurring management fee?",

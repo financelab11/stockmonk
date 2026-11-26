@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const HUBS: StockStory = {
   "ticker": "HUBS",
   "kicker": "Enterprise Software · Software - Application",
-  "title": "HubSpot, Inc: CRM and marketing software to small and mid-sized businesses",
-  "dek": "HubSpot, Inc. reported $3.6B of trailing revenue at a 5.3% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "HubSpot: CRM and marketing software to small and mid-sized businesses",
+  "dek": "HubSpot's revenue rose 20.1% to $3.6B, at a 5.3% operating margin. The key risk is seat growth and retention.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $3.6B trailing twelve months, +20.1% year over year.",
+    "Revenue: $3.6B, +20.1% year over year.",
     "Profitability: 5.3% operating margin and 5.9% net margin.",
     "Cash: $842.5M free cash flow, a 23.5% margin, against $1.3B of net cash.",
-    "Valuation: 48.6x trailing earnings and 25.1x EV/EBITDA at the latest close."
+    "Valuation: 48.6x trailing earnings and 25.1x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const HUBS: StockStory = {
   "irUrl": "https://www.hubspot.com",
   "bigPicture": {
     "paragraphs": [
-      "HubSpot, Inc. generated $3.6B of revenue over the last twelve months, +20.1% versus the prior year. The latest reported quarter was Q3 FY26, with $947.6M of revenue and a 7.6% operating margin. The shares closed at $212.45 on Nov 25, 2026, giving a market capitalization of $10.4B.",
-      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. Geographically, Americas leads at 59.8% of the disclosed split.",
-      "At the latest close the equity is valued at $10.4B, or 48.6x trailing earnings and 25.1x EV/EBITDA. The shares sit 18% of the way up their 52-week range ($169.63 to $406.94). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "HubSpot's revenue rose 20.1% to $3.6B at a 5.3% operating margin, generating $842.5M of free cash flow. The latest quarter (Q3 FY26) grew 17.1%. The operating margin and cash conversion are the next things to test.",
+      "Revenue is reported as one consolidated line. Americas is the largest geography at 59.8% of revenue. The near-term driver is multi-hub adoption and AI. The risk is seat growth and retention.",
+      "At $212.45, the equity is worth $10.4B, or 48.6x trailing earnings and 25.1x EV/EBITDA. The earnings multiple is 180.8% above the 17.3x peer median. The stock is 18% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "HubSpot sells CRM and marketing software to small and mid-sized businesses, so seat growth, retention and multi-hub adoption drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "HubSpot, Inc., together with its subsidiaries, provides a cloud-based customer relationship management (CRM) platform for businesses in the Americas, Europe, and the Asia Pacific. HubSpot, Inc. is a Software - Application company within the Enterprise Software coverage group.",
-      "There is no separate segment disclosure in the current extract. The company employed 8,882 people at the last reporting date. The revenue base is $3.6B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The peer set is CDNS, NOW and INTU; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "HubSpot, Inc., together with its subsidiaries, provides a cloud-based customer relationship management (CRM) platform for businesses in the Americas, Europe, and the Asia Pacific.",
+      "HubSpot earned an 83.0% gross margin, and R&D and sales and marketing absorbed 77.7% of revenue, leaving a 5.3% operating margin. That is 22.8 points below the peer median of 28.2%.",
+      "Capital spending runs at 1.5% of revenue, which is low relative to the revenue base. The balance sheet carries $1.3B of net cash. Return on invested capital was 10.4%. That is 5.1 points below the peer median of 15.5%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$3.6B on a trailing-twelve-month basis, with the latest quarter at $947.6M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 5.3%; free-cash-flow margin 23.5%; net margin 5.9%."
+        "title": "Margin engine",
+        "detail": "Gross margin 83.0%, operating margin 5.3%. R&D and sales and marketing are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $10.4B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 1.5% of revenue; $1.3B of net cash; ROIC 10.4%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 83.0%, operating margin is 5.3% and net margin is 5.9%. Gross profit was $3B, and 77.7% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "The balance sheet carries $1.3B of net cash. Return on invested capital was 10.4% and return on equity was 13.1%. That is neither clearly good nor clearly bad without knowing the cost of capital."
+      "Subscriptions and seat or usage growth drive revenue; retention and sales efficiency drive the margin. The edge is CRM platform for small and mid-sized businesses.",
+      "The operating margin is 5.3%, 22.8 points below the peer median of 28.2%. Retention and sales efficiency decide whether subscription growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 29.5% a year across the fiscal years in the dataset, and the latest quarter changed +17.1% year over year. Current-year estimates call for $3.7B of revenue and $13.62 of EPS.",
-      "The operating margin of 5.3% and return on invested capital of 10.4% are the filters to watch as revenue scales. The 20.1% top-line pace has not yet produced a thick margin; incremental revenue needs to carry more of the cost base."
+      "Revenue compounded at 29.5% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 17.1% year over year. The current-year consensus looks for $3.7B of revenue and $13.62 of EPS.",
+      "The next leg depends on multi-hub adoption and AI. The growth rate is doing the work; the margin has to catch up for the model to earn its cost of capital."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. The current reading: revenue growth is +20.1%."
+        "detail": "Expansion within existing customers compounds revenue. Revenue growth is 20.1%."
       },
       {
         "title": "New customer adds",
-        "detail": "The operating margin is 5.3%. The direction of travel matters more than the absolute level."
+        "detail": "New logos broaden the base and fund future expansion. The operating margin is 5.3%."
       },
       {
         "title": "Operating leverage",
@@ -73,35 +73,35 @@ export const HUBS: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -9.4% in FY2018 to 0.2% in FY2025. The trailing operating margin is 5.3%, the net margin is 5.9% and diluted EPS is $4.17.",
-      "Return on equity was 13.1% and return on invested capital was 10.4%. The two returns are within a few points, at 13.1% on equity and 10.4% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from -9.4% in FY2018 to 0.2% in FY2025. The trailing operating margin is 5.3%, the net margin is 5.9%, and diluted EPS is $4.17.",
+      "Return on equity of 13.1% and return on invested capital of 10.4% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $842.5M, a 23.5% margin. The balance sheet carries $1.3B of net cash. With capital spending at 1.5% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $760.7M, or 1656.9% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $53.2M in the latest fiscal year."
+      "Free cash flow was $842.5M, or 23.5% of revenue. Operating cash flow covered 1656.9% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 1.5% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $1.3B of net cash. Interest cover is 180.1x. The net cash position is optionality: it can fund investment, acquisitions or returns."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 48.6x trailing earnings, 25.1x EV/EBITDA and 2.5x EV/sales. The free-cash-flow yield is 8.1%. The trailing earnings yield is 2.1%, against a free-cash-flow yield of 8.1%.",
-      "The peer comparison sets the company against CDNS, NOW and INTU; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $212.45, the shares trade at 48.6x trailing earnings and 25.1x EV/EBITDA, with an 8.1% free-cash-flow yield. The earnings yield is 2.1%. The earnings multiple is 180.8% above the 17.3x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "27 analysts contribute to the third-party consensus. The mean target is $225.53, with a range of $170.00 to $300.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $3.7B of revenue and $13.62 of EPS. The estimate revisions in the dataset are 2.4% over 30 days and 2.8% over 90 days. If met, the estimate would mean growth of 2.8% from the current base."
+      "27 analysts in the third-party consensus carry a mean target of $225.53, 6.2% above the latest close. The range runs from $170.00 to $300.00. The target range is wide enough that the mean should be read with caution. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $3.7B of revenue and $13.62 of EPS. EPS estimates are up 2.4% over 30 days and up 2.8% over 90 days. That implies 2.8% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is multi-hub adoption and AI versus seat growth and retention.",
     "items": [
       {
-        "title": "Competition",
+        "title": "Seat growth and retention",
         "severity": "High",
-        "detail": "Feature parity and bundling can pressure pricing.",
+        "detail": "The main risk is seat growth and retention.",
         "watch": "Win rates and average contract value."
       },
       {
@@ -146,9 +146,9 @@ export const HUBS: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "HubSpot, Inc. produced $3.6B of trailing revenue at a 5.3% operating margin and a 23.5% free-cash-flow margin. The business converts an unusually large share of revenue into cash, and the multiple depends on that continuing.",
-      "Third-party analysts put the mean target at $225.53 as of 2026-11-25, 6.2% above the latest close; it is included for attribution, not as a Stockmonk call. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put balance sheet at 91/100 and valuation at 23/100, with the composite averaging 52/100. The average hides a strong balance sheet reading and a weak valuation one, which is why the spread is the more useful description."
+      "The investment case rests on balance sheet and the durability of 5.3% margins. The weak link is valuation.",
+      "What would change the view is the multiple falling below 38.9x earnings, not a single quarter. The key exposure is seat growth and retention.",
+      "On the scorecard, the composite is 52/100. The spread between balance sheet and valuation is the useful part; the average hides it."
     ],
     "questions": [
       "How much growth comes from existing customers?",

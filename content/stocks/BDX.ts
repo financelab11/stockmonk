@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const BDX: StockStory = {
   "ticker": "BDX",
   "kicker": "Healthcare Services & Devices · Medical Instruments & Supplies",
-  "title": "Becton, Dickinson and Company: Medical devices and lab equipment",
-  "dek": "Becton, Dickinson and Company reported $20.2B of trailing revenue at an 11.6% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Becton, Dickinson and: Medical devices and lab equipment",
+  "dek": "Becton, Dickinson and's revenue rose 4.4% to $20.2B, at an 11.6% operating margin. The key risk is hospital capex and procedure volumes.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $20.2B trailing twelve months, +4.4% year over year.",
+    "Revenue: $20.2B, +4.4% year over year.",
     "Profitability: 11.6% operating margin and 5.7% net margin.",
     "Cash: $2.4B free cash flow, an 11.8% margin, against $15.6B of net debt.",
-    "Valuation: 52.9x trailing earnings and 16.5x EV/EBITDA at the latest close."
+    "Valuation: 52.9x trailing earnings and 16.5x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const BDX: StockStory = {
   "irUrl": "https://www.bd.com",
   "bigPicture": {
     "paragraphs": [
-      "Becton, Dickinson and Company generated $20.2B of revenue over the last twelve months, +4.4% versus the prior year. The latest reported quarter was Q4 FY26, with $5.3B of revenue and a 19.6% operating margin. The shares closed at $222.04 on Nov 25, 2026, giving a market capitalization of $60.5B.",
-      "The largest disclosed segment is Medical Essentials at 34.5% of revenue. Geographically, United States leads at 62.0% of the disclosed split. Becton, Dickinson and Company competes in Medical Instruments & Supplies, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $60.5B, or 52.9x trailing earnings and 16.5x EV/EBITDA. The shares sit 100% of the way up their 52-week range ($140.11 to $222.25). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Becton, Dickinson and's revenue rose 4.4% to $20.2B at an 11.6% operating margin, generating $2.4B of free cash flow. The latest quarter (Q4 FY26) grew 5.4%.",
+      "Medical Essentials is 34.5% of revenue and Interventional is 28.6%. The US is the largest geography at 62.0% of revenue. The near-term driver is BD Alaris remediation and biosciences recovery. The risk is hospital capex and procedure volumes.",
+      "At $222.04, the equity is worth $60.5B, or 52.9x trailing earnings and 16.5x EV/EBITDA. The earnings multiple is 6.1% above the 49.8x peer median. The stock is 100% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Becton Dickinson sells medical devices and lab equipment, a broad medtech franchise where hospital capex and procedure volumes drive growth."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Becton, Dickinson and Company develops, manufactures, and sells medical supplies, devices, laboratory equipment, and diagnostic products for healthcare institutions, physicians, clinical laboratories, reference laboratories, pharmaceutical industry, and the general public worldwide. It operates through Medical Essentials, Connected Care, BioPharma Systems, and Interventional segments.",
-      "The disclosed mix runs across Medical Essentials at 34.5%, Interventional at 28.6% and Connected Care at 24.4%. The company employed 60,000 people at the last reporting date. The revenue base is $20.2B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The peer set is ISRG and BAX; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Becton, Dickinson and Company develops, manufactures, and sells medical supplies, devices, laboratory equipment, and diagnostic products for healthcare institutions, physicians, clinical laboratories, reference laboratories, pharmaceutical industry, and the general public worldwide.",
+      "Becton, Dickinson and does not report a product gross margin; manufacturing, R&D and hospital selling sit inside the operating line, leaving an 11.6% operating margin. That is 1.7 points below the peer median of 13.2%.",
+      "Capital spending runs at 3.3% of revenue, which is low relative to the revenue base. Net debt is $15.6B, or 3.4x EBITDA. Return on invested capital was 4.5%. That is 2.7 points below the peer median of 7.3%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$20.2B on a trailing-twelve-month basis, with the latest quarter at $5.3B."
+        "title": "Revenue mix",
+        "detail": "Medical Essentials at 34.5%, Interventional at 28.6% and Connected Care at 24.4%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 11.6%; free-cash-flow margin 11.8%; net margin 5.7%."
+        "title": "Margin engine",
+        "detail": "Operating margin 11.6%. Manufacturing, R&D and hospital selling are the main cost line, so the operating margin is the scorecard for cost discipline."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $60.5B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.3% of revenue; $15.6B of net debt; ROIC 4.5%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 11.6% is the first clean profitability line. The franchise depends on clinical evidence, procedure volumes, reimbursement and the installed base of devices.",
-      "Net debt is $15.6B, or 3.4x EBITDA. Return on invested capital was 4.5% and return on equity was 4.6%. The return suggests the current capital base is earning a modest amount."
+      "Procedure volumes and the installed base drive consumable and device revenue. The edge is installed base of medical devices and hospital relationships.",
+      "The operating margin is 11.6%, 1.7 points below the peer median of 13.2%. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 1.7% a year across the fiscal years in the dataset, and the latest quarter changed +5.4% year over year. Current-year estimates call for $19.8B of revenue and $13.22 of EPS.",
-      "The operating margin of 11.6% and return on invested capital of 4.5% are the filters to watch as revenue scales. Growth of 4.4% against an 11.6% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 1.7% a year from FY2019 to FY2026. The latest quarter (Q4 FY26) grew 5.4% year over year. The current-year consensus looks for $19.8B of revenue and $13.22 of EPS.",
+      "The next leg depends on BD Alaris remediation and biosciences recovery. For Becton, Dickinson and, procedure growth is only worth paying for if the installed base and reimbursement hold."
     ],
     "bullets": [
       {
         "title": "Procedure growth",
-        "detail": "More procedures expand the consumable and device opportunity. The current reading: revenue growth is +4.4%."
+        "detail": "More procedures expand the consumable and device opportunity. Revenue growth is 4.4%."
       },
       {
         "title": "Installed base",
-        "detail": "The operating margin is 11.6%. That is the number to compare with the company's own history."
+        "detail": "Placed devices create recurring consumable and service revenue. The operating margin is 11.6%."
       },
       {
         "title": "New indications",
@@ -73,35 +73,35 @@ export const BDX: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 10.2% in FY2019 to 11.6% in FY2026. The trailing operating margin is 11.6%, the net margin is 5.7% and diluted EPS is $4.10.",
-      "Return on equity was 4.6% and return on invested capital was 4.5%. The two returns are within a few points, at 4.6% on equity and 4.5% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 10.2% in FY2019 to 11.6% in FY2026. The trailing operating margin is 11.6%, the net margin is 5.7%, and diluted EPS is $4.10, down 29.7% year over year.",
+      "Return on equity of 4.6% and return on invested capital of 4.5% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $2.4B, an 11.8% margin. Net debt is $15.6B, or 3.4x EBITDA. With capital spending at 3.3% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $3.6B, or 314.8% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $672M in the latest fiscal year."
+      "Free cash flow was $2.4B, or 11.8% of revenue. Operating cash flow covered 314.8% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 3.3% of revenue, which is low relative to the revenue base.",
+      "Net debt is $15.6B, or 3.4x EBITDA. Interest cover is 5.4x. The balance sheet is manageable but not a source of upside; debt reduction competes with reinvestment for the cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 52.9x trailing earnings, 16.5x EV/EBITDA and 3.8x EV/sales. The free-cash-flow yield is 3.9%. The trailing earnings yield is 1.9%, against a free-cash-flow yield of 3.9%.",
-      "The peer comparison sets the company against ISRG and BAX; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $222.04, the shares trade at 52.9x trailing earnings and 16.5x EV/EBITDA, with a 3.9% free-cash-flow yield. The earnings yield is 1.9%. The earnings multiple is 6.1% above the 49.8x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is in line with the peer median, so the debate is company-specific."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "14 analysts contribute to the third-party consensus. The mean target is $226.14, with a range of $195.00 to $242.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $19.8B of revenue and $13.22 of EPS. The estimate revisions in the dataset are -0.7% over 30 days and -0.6% over 90 days. If met, the estimate would mean a decline of 2.2% from the current base."
+      "14 analysts in the third-party consensus carry a mean target of $226.14, 1.8% above the latest close. The range runs from $195.00 to $242.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $19.8B of revenue and $13.22 of EPS. EPS estimates are down 0.7% over 30 days and down 0.6% over 90 days. That implies a 2.2% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is BD Alaris remediation and biosciences recovery versus hospital capex and procedure volumes.",
     "items": [
       {
-        "title": "Reimbursement",
+        "title": "Hospital capex and procedure volumes",
         "severity": "High",
-        "detail": "Coverage and procedure codes determine adoption and price.",
+        "detail": "The main risk is hospital capex and procedure volumes.",
         "watch": "Payer decisions and coding updates."
       },
       {
@@ -146,9 +146,9 @@ export const BDX: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Becton, Dickinson and Company produced $20.2B of trailing revenue at an 11.6% operating margin and an 11.8% free-cash-flow margin. Net debt of $15.6B, or 3.4x EBITDA, is the constraint that shapes the equity story.",
-      "Third-party analysts put the mean target at $226.14 as of 2026-11-25, 1.8% above the latest close; this report does not publish a target of its own. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put cash generation at 43/100 and balance sheet at 14/100, with the composite averaging 29/100. The readings are close enough together that the average carries most of the information; cash generation is the strongest at 43/100."
+      "The investment case rests on cash generation and the durability of 11.6% margins. $15.6B of net debt is the weak link.",
+      "What would change the view is leverage falling below 2.9x EBITDA, not a single quarter. The key exposure is hospital capex and procedure volumes.",
+      "On the scorecard, the composite is 29/100. The spread between cash generation and balance sheet is the useful part; the average hides it."
     ],
     "questions": [
       "How much revenue is recurring versus capital equipment?",

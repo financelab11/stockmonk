@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const MTCH: StockStory = {
   "ticker": "MTCH",
   "kicker": "Internet Platforms · Internet Content & Information",
-  "title": "Match Group, Inc. earns an operating margin of 29.7% on $3.5B of revenue",
-  "dek": "Match Group, Inc. reported $3.5B of trailing revenue at a 29.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Match Group: 29.7% margins and the price being paid",
+  "dek": "Match Group's revenue was flat at $3.5B, at a 29.7% operating margin. The key risk is paying users and ARPU.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $3.5B trailing twelve months, +0.5% year over year.",
+    "Revenue: $3.5B, +0.5% year over year.",
     "Profitability: 29.7% operating margin and 20.7% net margin.",
     "Cash: $1.1B free cash flow, a 32.7% margin, against $2.8B of net debt.",
-    "Valuation: 12.9x trailing earnings and 11.1x EV/EBITDA at the latest close."
+    "Valuation: 12.9x trailing earnings and 11.1x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const MTCH: StockStory = {
   "irUrl": "https://mtch.com",
   "bigPicture": {
     "paragraphs": [
-      "Match Group, Inc. generated $3.5B of revenue over the last twelve months, +0.5% versus the prior year. The latest reported quarter was Q3 FY26, with $891.2M of revenue and a 30.1% operating margin. The shares closed at $41.02 on Nov 25, 2026, giving a market capitalization of $9.3B.",
-      "Tinder is 55.2% of the disclosed revenue mix. Non-US supplies 56.1% of disclosed revenue, the largest single geography in the filing. Match Group, Inc. competes in Internet Content & Information, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $9.3B, or 12.9x trailing earnings and 11.1x EV/EBITDA. The shares sit 68% of the way up their 52-week range ($28.81 to $46.67). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Match Group's revenue was flat at $3.5B at a 29.7% operating margin, generating $1.1B of free cash flow. The latest quarter (Q3 FY26) fell 2.5%.",
+      "Tinder is 55.2% of revenue and Hinge is 19.8%. Non-US is the largest geography at 56.1% of revenue. The catalyst is product innovation and international. The exposure is paying users and ARPU.",
+      "At $41.02, the equity is worth $9.3B, or 12.9x trailing earnings and 11.1x EV/EBITDA. The earnings multiple is 62.7% below the 34.7x peer median. The stock is 68% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Match Group owns dating apps, a consumer-subscription business where paying users, ARPU and product innovation determine growth."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Match Group, Inc. provides digital technologies in the United States and internationally. Match Group, Inc. sits in the Internet Content & Information industry, one of the Internet Platforms names in this library.",
-      "The disclosed mix runs across Tinder at 55.2%, Hinge at 19.8% and Evergreen & Emerging at 17.4%. The last disclosure put headcount at 2,200 people. The revenue base is $3.5B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The closest listed comparisons are GOOGL, META and SPOT; the useful question is how Match Group, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Match Group, Inc. provides digital technologies in the United States and internationally.",
+      "Match Group earned a 75.8% gross margin, and fulfillment, incentives and technology absorbed 46.1% of revenue, leaving a 29.7% operating margin. That is 8.6 points above the peer median of 21.1%.",
+      "Capital spending runs at 1.6% of revenue, which is low relative to the revenue base. Net debt is $2.8B, or 2.6x EBITDA. Return on invested capital was 24.4%. That is 5.8 points above the peer median of 18.6%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$3.5B on a trailing-twelve-month basis, with the latest quarter at $891.2M."
+        "title": "Revenue mix",
+        "detail": "Tinder at 55.2%, Hinge at 19.8% and Evergreen & Emerging at 17.4%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 29.7%; free-cash-flow margin 32.7%; net margin 20.7%."
+        "title": "Margin engine",
+        "detail": "Gross margin 75.8%, operating margin 29.7%. Fulfillment, incentives and technology are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $9.3B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 1.6% of revenue; $2.8B of net debt; ROIC 24.4%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 75.8%, operating margin is 29.7% and net margin is 20.7%. Gross profit was $2.6B, and 46.1% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "Net debt is $2.8B, or 2.6x EBITDA. Return on invested capital was 24.4%, while the reported return on equity is negative because the equity base is negative. The operating return is the one to use when judging reinvestment."
+      "User growth, transaction volume and take rate drive revenue. The edge is dating-app portfolio and network effects.",
+      "The operating margin is 29.7%, 8.6 points above the peer median of 21.1%. The next dollar of revenue matters less than the margin it carries."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.5% a year across the fiscal years in the dataset, and the latest quarter changed -2.5% year over year. Current-year estimates call for $3.5B of revenue and $3.85 of EPS.",
-      "The operating margin of 29.7% and return on invested capital of 24.4% are the filters to watch as revenue scales. With a 29.7% margin, the growth rate matters less than whether the margin is repeatable."
+      "Revenue compounded at 10.5% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) fell 2.5% year over year. The current-year consensus looks for $3.5B of revenue and $3.85 of EPS.",
+      "The next leg depends on product innovation and international. For Match Group, user growth is only worth paying for if take rate and contribution margin hold."
     ],
     "bullets": [
       {
         "title": "User and engagement growth",
-        "detail": "More active users and frequency expand the inventory available to monetise. Revenue growth is +0.5%."
+        "detail": "More active users and frequency expand the inventory available to monetise. Revenue growth is 0.5%."
       },
       {
         "title": "Take rate",
-        "detail": "The operating margin is 29.7%. The share of transaction value retained determines revenue per unit of GMV."
+        "detail": "The share of transaction value retained determines revenue per unit of GMV. The operating margin is 29.7%."
       },
       {
         "title": "Adjacent services",
-        "detail": "Advertising, logistics, payments and subscriptions can lift revenue per user. The current reading: return on invested capital is 24.4%."
+        "detail": "Advertising, logistics, payments and subscriptions can lift revenue per user. Return on invested capital is 24.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 31.8% in FY2018 to 25.0% in FY2025. The trailing operating margin is 29.7%, the net margin is 20.7% and diluted EPS is $2.94.",
-      "Return on equity was -517.2% and return on invested capital was 24.4%. A negative equity base makes the equity return meaningless here; the return on invested capital is the number that matters."
+      "The operating margin moved from 31.8% in FY2018 to 25.0% in FY2025. The trailing operating margin is 29.7%, the net margin is 20.7%, and diluted EPS is $2.94, up 37.4% year over year.",
+      "Return on equity is negative because the equity base is negative; the 24.4% return on invested capital is the operating measure that matters. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.1B, a 32.7% margin. Net debt is $2.8B, or 2.6x EBITDA. With capital spending at 1.6% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $1.1B, or 176.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $56.8M in the latest fiscal year."
+      "Free cash flow was $1.1B, or 32.7% of revenue. Operating cash flow covered 176.1% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 1.6% of revenue, which is low relative to the revenue base.",
+      "Net debt is $2.8B, or 2.6x EBITDA. Interest cover is 6.1x. The balance sheet is manageable but not a source of upside; debt reduction competes with reinvestment for the cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 12.9x trailing earnings, 11.1x EV/EBITDA and 3.5x EV/sales. The free-cash-flow yield is 12.2%. The trailing earnings yield is 7.7%, against a free-cash-flow yield of 12.2%.",
-      "The peer comparison sets the company against GOOGL, META and SPOT; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $41.02, the shares trade at 12.9x trailing earnings and 11.1x EV/EBITDA, with a 12.2% free-cash-flow yield. The earnings yield is 7.7%. The earnings multiple is 62.7% below the 34.7x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "17 analysts contribute to the third-party consensus. The mean target is $45.00, with a range of $36.00 to $52.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $3.5B of revenue and $3.85 of EPS. The estimate revisions in the dataset are -2.5% over 30 days and -4.0% over 90 days. That implies a decline of 0.2% over the trailing twelve months."
+      "17 analysts in the third-party consensus carry a mean target of $45.00, 9.7% above the latest close. The range runs from $36.00 to $52.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $3.5B of revenue and $3.85 of EPS. EPS estimates are down 2.5% over 30 days and down 4.0% over 90 days. That implies a 0.2% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is product innovation and international versus paying users and ARPU.",
     "items": [
       {
-        "title": "Competition for users",
+        "title": "Paying users and ARPU",
         "severity": "High",
-        "detail": "Switching costs are low and new formats can take attention quickly.",
+        "detail": "The main risk is paying users and ARPU.",
         "watch": "Monthly users, engagement and churn."
       },
       {
@@ -146,9 +146,9 @@ export const MTCH: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Match Group, Inc. produced $3.5B of trailing revenue at a 29.7% operating margin and a 32.7% free-cash-flow margin. The business converts an unusually large share of revenue into cash, and the multiple depends on that continuing.",
-      "Third-party analysts put the mean target at $45.00 as of 2026-11-25, 9.7% above the latest close; it should be read as the published consensus, not as this publication's view. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put cash generation at 87/100 and balance sheet at 21/100, with the composite averaging 62/100. The average hides a strong cash generation reading and a weak balance sheet one, which is why the spread is the more useful description."
+      "The investment case rests on cash generation and the durability of 29.7% margins. $2.8B of net debt is the weak link.",
+      "What would change the view is leverage falling below 2.1x EBITDA, not a single quarter. The key exposure is paying users and ARPU.",
+      "The composite of 62/100 blends a strong cash generation reading with a weak balance sheet one; the gap is the story."
     ],
     "questions": [
       "How much growth is users versus take rate?",

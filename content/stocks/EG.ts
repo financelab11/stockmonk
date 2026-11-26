@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const EG: StockStory = {
   "ticker": "EG",
   "kicker": "Banks & Insurance · Insurance - Reinsurance",
-  "title": "Everest Group, Ltd. earns an operating margin of 13.9% on $16.2B of revenue",
-  "dek": "Everest Group, Ltd. reported $16.2B of trailing revenue at a 13.9% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Everest Group: 13.9% margins and the price being paid",
+  "dek": "Everest Group's revenue fell 8.7% to $16.2B, at a 13.9% operating margin. The key risk is catastrophes and reserves.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $16.2B trailing twelve months, -8.7% year over year.",
+    "Revenue: $16.2B, -8.7% year over year.",
     "Profitability: 13.9% operating margin and 11.7% net margin.",
-    "Cash: n/a free cash flow, a n/a margin, against $1.7B of net cash.",
-    "Valuation: 8.5x trailing earnings and no meaningful EV/EBITDA multiple at the latest close."
+    "Cash: free cash flow is not meaningful at this stage.",
+    "Valuation: 8.5x trailing earnings and no meaningful EV/EBITDA multiple."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,43 +18,43 @@ export const EG: StockStory = {
   "irUrl": "https://www.everestglobal.com",
   "bigPicture": {
     "paragraphs": [
-      "Everest Group, Ltd. generated $16.2B of revenue over the last twelve months, -8.7% versus the prior year. The latest reported quarter was Q3 FY26, with $3.7B of revenue and a 7.2% operating margin. The shares closed at $434.87 on Nov 25, 2026, giving a market capitalization of $16.1B.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. Country-level revenue is not part of the filing extract used here.",
-      "At the latest close the equity is valued at $16.1B, or 8.5x trailing earnings and no meaningful EV/EBITDA multiple. The shares sit 98% of the way up their 52-week range ($306.09 to $437.77). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Everest Group's revenue fell 8.7% to $16.2B, with a 13.3% return on equity. The latest quarter (Q3 FY26) fell 14.0%. The multiple and the capital return are the two numbers that matter from here.",
+      "Revenue is reported as one consolidated line. The catalyst is pricing and reserve development. The exposure is catastrophes and reserves. The business is judged on whether the consolidated margin and returns can improve from here.",
+      "At $434.87, the equity is worth $16.1B, or 8.5x trailing earnings and no meaningful EV/EBITDA multiple. The stock is 98% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Everest is a reinsurer, so catastrophe losses, reserve development and pricing drive returns."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Everest Group, Ltd., together with subsidiaries, provides reinsurance and insurance products in the United States, Europe, and internationally. Everest Group, Ltd. sits in the Insurance - Reinsurance industry, one of the Banks & Insurance names in this library.",
-      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 3,064 people. Trailing revenue is $16.2B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The closest listed comparisons are ACGL, AFL and AIZ; the useful question is how Everest Group, Ltd.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Everest Group, Ltd., together with subsidiaries, provides reinsurance and insurance products in the United States, Europe, and internationally.",
+      "Claims and expenses consume most of premium revenue, so the combined ratio and investment income decide the operating result. That makes the combined ratio and reserve development the numbers to watch, not the reported operating margin.",
+      "Capital is held against reserves and the investment portfolio, so book value and the combined ratio matter more than capex. Return on equity was 13.3%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$16.2B on a trailing-twelve-month basis, with the latest quarter at $3.7B."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 13.9%; free-cash-flow margin n/a; net margin 11.7%."
+        "title": "Margin engine",
+        "detail": "The combined ratio and investment income are the bridge to profit; the reported operating margin is not a useful comparison for an insurer."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $16.1B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Reserves and the investment portfolio are the capital base; ROE 13.3%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 13.9% is the first clean profitability line. Underwriting discipline, reserve adequacy and investment income decide the return, not premium volume on its own.",
-      "The balance sheet is a pool of reserves and investments, so net debt says less than reserve adequacy and book value. Return on equity was 13.3%; underwriting results and investment income drive that return."
+      "Premiums are fixed at underwriting; the combined ratio and investment income decide the profit. The edge is reinsurance underwriting.",
+      "The insurer earns underwriting profit when premiums exceed claims and expenses, plus investment income on the float. For an insurer, reserves and the investment portfolio matter more than net debt. Return on equity was 13.3%; reserve development and the combined ratio are the variables that matter."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 13.2% a year across the fiscal years in the dataset, and the latest quarter changed -14.0% year over year. Current-year estimates call for $12.3B of revenue and $54.23 of EPS.",
-      "The operating margin of 13.9% and return on invested capital of 11.4% are the filters to watch as revenue scales. With revenue down 8.7%, the operating plan is as much about cost as about demand."
+      "Revenue compounded at 13.2% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) fell 14.0% year over year. The current-year consensus looks for $12.3B of revenue and $54.23 of EPS.",
+      "The next leg depends on pricing and reserve development. The top line is shrinking, so the margin has to be defended on a smaller base."
     ],
     "bullets": [
       {
@@ -63,46 +63,46 @@ export const EG: StockStory = {
       },
       {
         "title": "Underwriting margin",
-        "detail": "The operating margin is 13.9%. The combined ratio decides how much of each premium dollar survives claims and expenses."
+        "detail": "The combined ratio decides how much of each premium dollar survives claims and expenses. The combined ratio and investment income are the key variables; revenue growth is -8.7%."
       },
       {
         "title": "Investment income",
-        "detail": "The float earns a yield that becomes more valuable when short rates are high. The current reading: return on invested capital is 11.4%."
+        "detail": "The float earns a yield that becomes more valuable when short rates are high. Return on invested capital is 11.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -3.3% in FY2018 to 10.8% in FY2025. The trailing operating margin is 13.9%, the net margin is 11.7% and diluted EPS is $47.29.",
-      "Return on equity was 13.3%. Underwriting discipline and the investment portfolio drive the equity return, so ROIC is a secondary measure. Reserve development and the combined ratio are the trends to follow from here."
+      "For an insurer, the combined ratio and investment income drive earnings rather than a product margin. Return on equity was 13.3%, and diluted EPS was $47.29.",
+      "Return on equity was 13.3%. For an insurer, the combined ratio and investment income explain that return better than return on invested capital. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was n/a, a n/a margin. The balance sheet is a pool of reserves and investments, so net debt says less than reserve adequacy and book value. For an insurer, cash flow includes investment income and reserve movements, so the margin is not directly comparable to an industrial.",
-      "Operating cash flow was $3.1B, or 192.8% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $0 in the latest fiscal year."
+      "Free cash flow is not meaningful at this stage. Capex and working capital are the relevant cash variables here. Operating cash flow and the balance sheet are the better tests at this stage.",
+      "For an insurer, reserves and the investment portfolio matter more than net debt. For an insurer, cash flow includes investment income and reserve movements, so the margin is not directly comparable to an industrial."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 8.5x trailing earnings, no meaningful EV/EBITDA multiple and 0.9x EV/sales. The free-cash-flow yield is n/a. For an insurer, price-to-book and return on equity are more relevant than EV/EBITDA.",
-      "The peer comparison sets the company against ACGL, AFL and AIZ; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $434.87, the shares trade at 8.5x trailing earnings and no meaningful EV/EBITDA multiple. The earnings yield is 11.7%. The peer comparison is a starting point; the company's own history is the second reference.",
+      "The multiple implies the market expects little growth and assumes the current margin is close to peak. For an insurer, price-to-book and return on equity are more relevant than EV/EBITDA."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "16 analysts contribute to the third-party consensus. The mean target is $440.31, with a range of $378.00 to $530.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $12.3B of revenue and $54.23 of EPS. The estimate revisions in the dataset are 0.1% over 30 days and 0.9% over 90 days. That implies a decline of 24.1% over the trailing twelve months."
+      "16 analysts in the third-party consensus carry a mean target of $440.31, 1.3% above the latest close. The range runs from $378.00 to $530.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $12.3B of revenue and $54.23 of EPS. EPS estimates are up 0.1% over 30 days and up 0.9% over 90 days. That implies a 24.1% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is pricing and reserve development versus catastrophes and reserves.",
     "items": [
       {
-        "title": "Revenue decline",
+        "title": "Catastrophes and reserves",
         "severity": "High",
-        "detail": "Trailing revenue fell 8.7%, so the margin has to be defended on a shrinking base.",
-        "watch": "Organic growth, retention and pricing."
+        "detail": "The main risk is catastrophes and reserves.",
+        "watch": "Combined ratio, catastrophe load and prior-year development."
       },
       {
         "title": "Soft pricing cycle",
@@ -146,9 +146,9 @@ export const EG: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Everest Group, Ltd. produced $16.2B of trailing revenue at a 13.9% operating margin and a n/a free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "The third-party consensus mean is $440.31 as of 2026-11-25, 1.3% above the latest close; it should be read as the published consensus, not as this publication's view. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put valuation at 98/100 and cash generation at 14/100, with the composite averaging 54/100. A 98/100 valuation score against a 14/100 cash generation score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on valuation and the durability of 13.3% returns on equity. The weak link is cash generation.",
+      "What would change the view is return on invested capital rising above 13.4%, not a single quarter. The key exposure is catastrophes and reserves.",
+      "The composite of 54/100 blends a strong valuation reading with a weak cash generation one; the gap is the story."
     ],
     "questions": [
       "What is the catastrophe loss budget?",

@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const ACM: StockStory = {
   "ticker": "ACM",
   "kicker": "Industrial Automation · Engineering & Construction",
-  "title": "Aecom at 36.3x earnings: what the filings support",
-  "dek": "Aecom reported $15.1B of trailing revenue at a 4.1% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Aecom: margins, cash conversion and the multiple",
+  "dek": "Aecom's revenue fell 6.5% to $15.1B, at a 4.1% operating margin. The key risk is government budget delays and fixed-price project execution.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $15.1B trailing twelve months, -6.5% year over year.",
+    "Revenue: $15.1B, -6.5% year over year.",
     "Profitability: 4.1% operating margin and 1.9% net margin.",
     "Cash: $343.5M free cash flow, a 2.3% margin, against $1.4B of net debt.",
-    "Valuation: 36.3x trailing earnings and 14.3x EV/EBITDA at the latest close."
+    "Valuation: 36.3x trailing earnings and 14.3x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,88 +18,88 @@ export const ACM: StockStory = {
   "irUrl": "https://aecom.com",
   "bigPicture": {
     "paragraphs": [
-      "Aecom generated $15.1B of revenue over the last twelve months, -6.5% versus the prior year. The latest reported quarter was Q4 FY26, with $3.9B of revenue and a 5.8% operating margin. The shares closed at $82.86 on Nov 25, 2026, giving a market capitalization of $10.7B.",
-      "Americas accounts for 76.0% of disclosed revenue. Revenue is disclosed across 3 geographies, with Americas the largest at 76.0%. The moat is technical expertise, long-standing agency relationships and a global delivery network that few competitors can match on large projects.",
-      "At the latest close the equity is valued at $10.7B, or 36.3x trailing earnings and 14.3x EV/EBITDA. The shares sit 50% of the way up their 52-week range ($56.39 to $109.00). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "Aecom's revenue fell 6.5% to $15.1B at a 4.1% operating margin, generating $343.5M of free cash flow. The latest quarter (Q4 FY26) fell 7.1%. The market is already paying for a view; the financials are the check.",
+      "Americas is 76.0% of revenue and International is 24.0%. Americas is the largest geography at 76.0% of revenue. What could lift the return is backlog conversion in water, transportation and data-center work, plus margin improvement in the Americas. The thing to watch is government budget delays and fixed-price project execution.",
+      "At $82.86, the equity is worth $10.7B, or 36.3x trailing earnings and 14.3x EV/EBITDA. The earnings multiple is 58.2% above the 23.0x peer median. The stock is 50% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
-    "quote": "AECOM is an infrastructure consultant whose revenue follows government and private construction budgets, with a backlog that is longer than a typical industrial order book. The multiple assumes steady backlog growth and mid-single-digit margins; a budget slowdown would compress both."
+    "quote": "AECOM is an infrastructure consultant whose revenue follows government and private construction budgets, with a backlog that is longer than a typical industrial order book."
   },
   "whatItDoes": {
     "paragraphs": [
-      "AECOM, together with its subsidiaries, provides professional infrastructure consulting services for governments, businesses, and organizations internationally. The company operates in three segments: Americas, International, and AECOM Capital. The business is part of the Industrial Automation group and reports under Industrials in the current classification.",
-      "The disclosed mix runs across Americas at 76.0%, International at 24.0% and AECOM Capital at 0.0%. Headcount was 52,000 in the latest filing. Trailing revenue is $15.1B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "Against FIX, STRL and ROAD, the relevant tests are pricing power, capital intensity and cash conversion."
+      "AECOM, together with its subsidiaries, provides professional infrastructure consulting services for governments, businesses, and organizations internationally.",
+      "Aecom earned a 5.8% gross margin, and materials, labor and capacity absorbed 1.7% of revenue, leaving a 4.1% operating margin. That is 4.5 points below the peer median of 8.6%.",
+      "Capex is 1.3% of revenue, so the business is asset-light. Net debt is $1.4B, or 1.7x EBITDA. Return on invested capital was 10.4%. That is 2.4 points above the peer median of 7.9%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$15.1B on a trailing-twelve-month basis, with the latest quarter at $3.9B."
+        "title": "Revenue mix",
+        "detail": "Americas at 76.0%, International at 24.0% and AECOM Capital at 0.0%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 4.1%; free-cash-flow margin 2.3%; net margin 1.9%."
+        "title": "Margin engine",
+        "detail": "Gross margin 5.8%, operating margin 4.1%. Materials, labor and capacity are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $10.7B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 1.3% of revenue; $1.4B of net debt; ROIC 10.4%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $15.1B of revenue, $878.9M remained after cost of sales. The 1.7% operating-expense load brought that down to a 4.1% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "Net debt is $1.4B, or 1.7x EBITDA. Return on invested capital was 10.4% and return on equity was 12.8%. That sits in the middle of the range; whether it clears the cost of capital is the deciding question."
+      "Industrial production, backlog and pricing drive revenue; utilization drives the margin. The moat is technical expertise, long-standing agency relationships and a global delivery network that few competitors can match on large projects.",
+      "The operating margin is 4.1%, 4.5 points below the peer median of 8.6%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 1.5% a year across the fiscal years in the dataset, and the latest quarter changed -7.1% year over year. Current-year estimates call for $16.5B of revenue and $6.25 of EPS.",
-      "The next catalyst is backlog conversion in water, transportation and data-center work, plus margin improvement in the Americas. The operating margin of 4.1% and return on invested capital of 10.4% are the filters to watch as revenue scales. With revenue down 6.5%, the operating plan is as much about cost as about demand."
+      "Revenue compounded at 1.5% a year from FY2019 to FY2026. The latest quarter (Q4 FY26) fell 7.1% year over year. The current-year consensus looks for $16.5B of revenue and $6.25 of EPS.",
+      "The next leg depends on backlog conversion in water, transportation and data-center work, plus margin improvement in the Americas. The top line is shrinking, so the margin has to be defended on a smaller base."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Revenue growth is -6.5%. Orders already booked provide visibility into future revenue."
+        "detail": "Orders already booked provide visibility into future revenue. Revenue growth is -6.5%."
       },
       {
         "title": "Aftermarket and services",
-        "detail": "Recurring service revenue can be more profitable than equipment. The current reading: the operating margin is 4.1%."
+        "detail": "Recurring service revenue can be more profitable than equipment. The operating margin is 4.1%."
       },
       {
         "title": "Price and productivity",
-        "detail": "Return on invested capital is 10.4%. That is the metric the thesis depends on."
+        "detail": "Pricing actions and cost programmes protect margins through cycles. Return on invested capital is 10.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 2.9% in FY2019 to 4.1% in FY2026. The trailing operating margin is 4.1%, the net margin is 1.9% and diluted EPS is $2.25.",
-      "Return on equity was 12.8% and return on invested capital was 10.4%. Return on invested capital of 10.4% is close to the 12.8% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from 2.9% in FY2019 to 4.1% in FY2026. The trailing operating margin is 4.1%, the net margin is 1.9%, and diluted EPS is $2.25, down 46.6% year over year.",
+      "Return on equity of 12.8% and return on invested capital of 10.4% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $343.5M, a 2.3% margin. Net debt is $1.4B, or 1.7x EBITDA. Capital expenditure was 1.3% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $535.7M, or 182.2% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $192.1M in the latest fiscal year."
+      "Free cash flow was $343.5M, or 2.3% of revenue. Operating cash flow covered 182.2% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 1.3% of revenue, which is low relative to the revenue base.",
+      "Net debt is $1.4B, or 1.7x EBITDA. Interest cover is 3.2x. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 36.3x trailing earnings, 14.3x EV/EBITDA and 0.8x EV/sales. The free-cash-flow yield is 3.2%. The 2.8% earnings yield and 3.2% free-cash-flow yield are the two return measures embedded in the price.",
-      "The multiple assumes steady backlog growth and mid-single-digit margins; a budget slowdown would compress both. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $82.86, the shares trade at 36.3x trailing earnings and 14.3x EV/EBITDA, with a 3.2% free-cash-flow yield. The earnings yield is 2.8%. The earnings multiple is 58.2% above the 23.0x peer median.",
+      "The multiple assumes steady backlog growth and mid-single-digit margins; a budget slowdown would compress both. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "12 analysts contribute to the third-party consensus. The mean target is $96.71, with a range of $86.00 to $110.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $16.5B of revenue and $6.25 of EPS. The estimate revisions in the dataset are 0.1% over 30 days and -2.3% over 90 days. Set against trailing revenue, the estimate implies growth of 9.4%."
+      "12 analysts in the third-party consensus carry a mean target of $96.71, 16.7% above the latest close. The range runs from $86.00 to $110.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $16.5B of revenue and $6.25 of EPS. EPS estimates are up 0.1% over 30 days and down 2.3% over 90 days. That implies 9.4% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
+    "intro": "The central tension is backlog conversion in water, transportation and data-center work, plus margin improvement in the Americas versus government budget delays and fixed-price project execution.",
     "items": [
       {
-        "title": "The main risk",
+        "title": "Government budget delays and fixed-price project execution",
         "severity": "High",
         "detail": "Government budget delays and fixed-price project execution can hit revenue and margin at the same time.",
         "watch": "Order trends and backlog conversion."
@@ -146,9 +146,9 @@ export const ACM: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Aecom produced $15.1B of trailing revenue at a 4.1% operating margin and a 2.3% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "12 analysts in the third-party survey average $96.71 as of 2026-11-25, 16.7% above the latest close; the forecast is theirs, and this report does not adopt it as a target.",
-      "The factor percentiles put valuation at 47/100 and growth at 11/100, with the composite averaging 28/100. With valuation and growth only 36 points apart, the composite is a reasonable one-line description."
+      "The investment case rests on valuation and the durability of 4.1% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 3.0%, not a single quarter. The key exposure is government budget delays and fixed-price project execution.",
+      "The scorecard puts the composite at 28/100. Focus on the valuation-to-growth spread rather than the average."
     ],
     "questions": [
       "How much revenue is recurring versus project-based?",

@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const MDB: StockStory = {
   "ticker": "MDB",
   "kicker": "Enterprise Software · Software - Infrastructure",
-  "title": "MongoDB, Inc: A general-purpose document database",
-  "dek": "MongoDB, Inc. reported $2.8B of trailing revenue at a -0.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "MongoDB: A general-purpose document database",
+  "dek": "MongoDB's revenue rose 25.5% to $2.8B, at a -0.5% operating margin. The key risk is workload growth and competition.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $2.8B trailing twelve months, +25.5% year over year.",
+    "Revenue: $2.8B, +25.5% year over year.",
     "Profitability: -0.5% operating margin and 2.1% net margin.",
     "Cash: $659M free cash flow, a 23.7% margin, against $2.4B of net cash.",
-    "Valuation: 421.0x trailing earnings and 2671.3x EV/EBITDA at the latest close."
+    "Valuation: 421.0x trailing earnings and 2671.3x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const MDB: StockStory = {
   "irUrl": "https://www.mongodb.com",
   "bigPicture": {
     "paragraphs": [
-      "MongoDB, Inc. generated $2.8B of revenue over the last twelve months, +25.5% versus the prior year. The latest reported quarter was Q2 FY27, with $771.8M of revenue and a 3.7% operating margin. The shares closed at $307.79 on Nov 25, 2026, giving a market capitalization of $24.8B.",
-      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. By geography, Americas is the largest disclosed market at 60.8% of revenue. MongoDB, Inc. competes in Software - Infrastructure, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $24.8B, or 421.0x trailing earnings and 2671.3x EV/EBITDA. The shares sit 36% of the way up their 52-week range ($215.68 to $473.10). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "MongoDB's revenue rose 25.5% to $2.8B at a -0.5% operating margin, generating $659M of free cash flow. The latest quarter (Q2 FY27) grew 30.5%. The consensus estimate and the current multiple frame the near-term debate.",
+      "Revenue is reported as one consolidated line. Americas is the largest geography at 60.8% of revenue. The upside is atlas consumption and AI. What would break it is workload growth and competition.",
+      "At $307.79, the equity is worth $24.8B, or 421.0x trailing earnings and 2671.3x EV/EBITDA. The earnings multiple is 374.7% above the 88.7x peer median. The stock is 36% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "MongoDB sells a general-purpose document database, a developer-led business where workload growth, Atlas consumption and retention drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "MongoDB, Inc., together with its subsidiaries, provides general purpose database platform worldwide. It reports in the Technology sector and is classified in Enterprise Software coverage.",
-      "Revenue is reported at the consolidated level only. Its latest filing lists 5,783 employees. With $2.8B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "MSFT, ORCL and SNPS provide the closest reference points for margin, growth and valuation."
+      "MongoDB, Inc., together with its subsidiaries, provides general purpose database platform worldwide.",
+      "MongoDB earned a 72.7% gross margin, and R&D and sales and marketing absorbed 73.2% of revenue, leaving a -0.5% operating margin. That is 20.8 points below the peer median of 20.3%.",
+      "Capex is 0.2% of revenue, so the business is asset-light. The balance sheet carries $2.4B of net cash. Return on invested capital was -0.4%. That is 13.4 points below the peer median of 13.0%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$2.8B on a trailing-twelve-month basis, with the latest quarter at $771.8M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -0.5%; free-cash-flow margin 23.7%; net margin 2.1%."
+        "title": "Margin engine",
+        "detail": "Gross margin 72.7%, operating margin -0.5%. R&D and sales and marketing are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $24.8B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 0.2% of revenue; $2.4B of net cash; ROIC -0.4%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 72.7% of revenue after cost of sales, or $2B. Operating expenses absorbed 73.2% of revenue, leaving a -0.5% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "The balance sheet carries $2.4B of net cash. Return on invested capital was -0.4% and return on equity was 2.0%. The negative return means the capital base is not earning its cost; the question is whether scale or a margin recovery fixes that."
+      "Subscriptions and seat or usage growth drive revenue; retention and sales efficiency drive the margin. The edge is document database and developer adoption.",
+      "The operating margin is -0.5%, 20.8 points below the peer median of 20.3%. Retention and sales efficiency decide whether subscription growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 37.4% a year across the fiscal years in the dataset, and the latest quarter changed +30.5% year over year. Current-year estimates call for $3B of revenue and $6.55 of EPS.",
-      "The operating margin of -0.5% and return on invested capital of -0.4% are the filters to watch as revenue scales. Revenue is growing faster than profit, which means the current margin understates the operating leverage still to come if the model scales."
+      "Revenue compounded at 37.4% a year from FY2019 to FY2026. The latest quarter (Q2 FY27) grew 30.5% year over year. The current-year consensus looks for $3B of revenue and $6.55 of EPS.",
+      "The next leg depends on atlas consumption and AI. Growth is outrunning the margin; the question is whether scale eventually pays for itself. The consensus estimate is the first test; the second is whether incremental revenue carries the same margin as the base."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Revenue growth is +25.5%. That is the metric the thesis depends on."
+        "detail": "Expansion within existing customers compounds revenue. Revenue growth is 25.5%."
       },
       {
         "title": "New customer adds",
@@ -67,42 +67,42 @@ export const MDB: StockStory = {
       },
       {
         "title": "Operating leverage",
-        "detail": "Return on invested capital is -0.4%. Scale should improve margins as sales and R&D mature."
+        "detail": "Scale should improve margins as sales and R&D mature. Return on invested capital is -0.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -36.6% in FY2019 to -5.6% in FY2026. The trailing operating margin is -0.5%, the net margin is 2.1% and diluted EPS is $0.53.",
-      "Return on equity was 2.0% and return on invested capital was -0.4%. With negative returns on both equity and invested capital, the business is consuming capital rather than earning on it."
+      "The operating margin moved from -36.6% in FY2019 to -5.6% in FY2026. The trailing operating margin is -0.5%, the net margin is 2.1%, and diluted EPS is $0.53, down 144.8% year over year.",
+      "Return on equity of 2.0% and return on invested capital of -0.4% are close enough that operating performance explains most of the return. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $659M, a 23.7% margin. The balance sheet carries $2.4B of net cash. Capex absorbed 0.2% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $5M in the latest fiscal year."
+      "Free cash flow was $659M, or 23.7% of revenue. Capex absorbed 0.2% of revenue, which is low relative to the revenue base. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "The balance sheet carries $2.4B of net cash. Interest cover is -6.1x. Management can fund the next phase without needing the capital markets. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 421.0x trailing earnings, 2671.3x EV/EBITDA and 8.0x EV/sales. The free-cash-flow yield is 2.7%. Inverting the P/E gives an earnings yield of 0.2%; the cash-flow yield is 2.7%.",
-      "The peer comparison sets the company against MSFT, ORCL and SNPS; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $307.79, the shares trade at 421.0x trailing earnings and 2671.3x EV/EBITDA, with a 2.7% free-cash-flow yield. The earnings yield is 0.2%. The earnings multiple is 374.7% above the 88.7x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "38 analysts contribute to the third-party consensus. The mean target is $450.19, with a range of $335.00 to $560.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $3B of revenue and $6.55 of EPS. The estimate revisions in the dataset are 0.2% over 30 days and 7.0% over 90 days. The estimate is consistent with growth of 8.8% on the trailing revenue figure."
+      "38 analysts in the third-party consensus carry a mean target of $450.19, 46.3% above the latest close. The range runs from $335.00 to $560.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $3B of revenue and $6.55 of EPS. EPS estimates are up 0.2% over 30 days and up 7.0% over 90 days. That implies 8.8% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is atlas consumption and AI versus workload growth and competition.",
     "items": [
       {
-        "title": "Operating losses",
+        "title": "Workload growth and competition",
         "severity": "High",
-        "detail": "The trailing operating margin is -0.5%, which means the current cost base is not covered by revenue.",
-        "watch": "Path to operating breakeven and cash runway."
+        "detail": "The main risk is workload growth and competition.",
+        "watch": "Win rates and average contract value."
       },
       {
         "title": "Retention",
@@ -146,9 +146,9 @@ export const MDB: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "MongoDB, Inc. produced $2.8B of trailing revenue at a -0.5% operating margin and a 23.7% free-cash-flow margin. The free-cash-flow margin is the strongest part of that record; the rest of the report tests whether it can be sustained.",
-      "The consensus target is $450.19 as of 2026-11-25, 46.3% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put balance sheet at 100/100 and valuation at 1/100, with the composite averaging 46/100. The gap between balance sheet at 100/100 and valuation at 1/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on balance sheet and the durability of -0.5% margins. The weak link is valuation.",
+      "What would change the view is the multiple falling below 336.8x earnings, not a single quarter. The key exposure is workload growth and competition.",
+      "The scorecard averages 46/100, but the dispersion matters more: balance sheet is 100/100 and valuation is 1/100."
     ],
     "questions": [
       "How much growth comes from existing customers?",

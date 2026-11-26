@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const CRUS: StockStory = {
   "ticker": "CRUS",
   "kicker": "Semiconductors & Hardware · Semiconductors",
-  "title": "Cirrus Logic, Inc: Audio and mixed-signal chips",
-  "dek": "Cirrus Logic, Inc. reported $2B of trailing revenue at a 22.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Cirrus Logic: Audio and mixed-signal chips",
+  "dek": "Cirrus Logic's revenue rose 5.1% to $2B, at a 22.5% operating margin. The key risk is customer concentration and smartphone cycles.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $2B trailing twelve months, +5.1% year over year.",
+    "Revenue: $2B, +5.1% year over year.",
     "Profitability: 22.5% operating margin and 20.2% net margin.",
     "Cash: $526.2M free cash flow, a 25.7% margin, against $720.1M of net cash.",
-    "Valuation: 13.8x trailing earnings and 9.7x EV/EBITDA at the latest close."
+    "Valuation: 13.8x trailing earnings and 9.7x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const CRUS: StockStory = {
   "irUrl": "https://www.cirrus.com",
   "bigPicture": {
     "paragraphs": [
-      "Cirrus Logic, Inc. generated $2B of revenue over the last twelve months, +5.1% versus the prior year. The latest reported quarter was Q2 FY27, with $559.5M of revenue and a 23.7% operating margin. The shares closed at $114.34 on Nov 25, 2026, giving a market capitalization of $5.7B.",
-      "A reportable segment split is not available in the current dataset; the consolidated revenue line is the cleanest unit of analysis. Revenue is disclosed across 3 geographies, with China the largest at 53.4%.",
-      "At the latest close the equity is valued at $5.7B, or 13.8x trailing earnings and 9.7x EV/EBITDA. The shares sit 12% of the way up their 52-week range ($105.10 to $180.42). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "Cirrus Logic's revenue rose 5.1% to $2B at a 22.5% operating margin, generating $526.2M of free cash flow. The latest quarter (Q2 FY27) was flat.",
+      "Revenue is reported as one consolidated line. China is the largest geography at 53.4% of revenue. What could lift the return is content per device and Android diversification. The thing to watch is customer concentration and smartphone cycles.",
+      "At $114.34, the equity is worth $5.7B, or 13.8x trailing earnings and 9.7x EV/EBITDA. The earnings multiple is 61.8% below the 36.1x peer median. The stock is 12% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Cirrus Logic sells audio and mixed-signal chips, a concentrated customer base where content per device and smartphone cycles drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Cirrus Logic, Inc., a fabless semiconductor company, develops mixed-signal processing solutions and audio products in China, the United States, and internationally. The business is part of the Semiconductors & Hardware group and reports under Technology in the current classification.",
-      "The company reports one consolidated revenue line rather than a segment split. Headcount was 1,651 in the latest filing. Trailing revenue is $2B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "Against NVDA, AVGO and AMD, the relevant tests are pricing power, capital intensity and cash conversion."
+      "Cirrus Logic, Inc., a fabless semiconductor company, develops mixed-signal processing solutions and audio products in China, the United States, and internationally.",
+      "Cirrus Logic earned a 53.1% gross margin, and materials, manufacturing and design absorbed 30.7% of revenue, leaving a 22.5% operating margin. That is 19.3 points below the peer median of 41.8%.",
+      "Capex is 0.7% of revenue, so the business is asset-light. The balance sheet carries $720.1M of net cash. Return on invested capital was 17.4%. That is roughly in line with the peer median of 17.5%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$2B on a trailing-twelve-month basis, with the latest quarter at $559.5M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 22.5%; free-cash-flow margin 25.7%; net margin 20.2%."
+        "title": "Margin engine",
+        "detail": "Gross margin 53.1%, operating margin 22.5%. Materials, manufacturing and design are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $5.7B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 0.7% of revenue; $720.1M of net cash; ROIC 17.4%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $2B of revenue, $1.1B remained after cost of sales. The 30.7% operating-expense load brought that down to a 22.5% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "The balance sheet carries $720.1M of net cash. Return on invested capital was 17.4% and return on equity was 18.9%. The return leaves room above the cost of capital for growth to compound."
+      "Unit volumes, content per device and utilization drive revenue and margin. The edge is audio and mixed-signal design wins with Apple.",
+      "The operating margin is 22.5%, 19.3 points below the peer median of 41.8%. Utilization and mix decide whether volume growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 7.7% a year across the fiscal years in the dataset, and the latest quarter changed -0.3% year over year. Current-year estimates call for $2B of revenue and $7.83 of EPS.",
-      "The operating margin of 22.5% and return on invested capital of 17.4% are the filters to watch as revenue scales. Neither the 5.1% growth nor the 22.5% margin is extreme; the combination is what matters."
+      "Revenue compounded at 7.7% a year from FY2019 to FY2026. The latest quarter (Q2 FY27) was flat year over year. The current-year consensus looks for $2B of revenue and $7.83 of EPS.",
+      "The next leg depends on content per device and Android diversification. For Cirrus Logic, volume growth is only worth paying for if utilization and mix hold."
     ],
     "bullets": [
       {
         "title": "Inventory cycle",
-        "detail": "Revenue growth is +5.1%. Inventory restocking and digestion drive near-term orders."
+        "detail": "Inventory restocking and digestion drive near-term orders. Revenue growth is 5.1%."
       },
       {
         "title": "Node and packaging transitions",
-        "detail": "New technology raises content per system. The current reading: the operating margin is 22.5%."
+        "detail": "New technology raises content per system. The operating margin is 22.5%."
       },
       {
         "title": "Customer design wins",
-        "detail": "Return on invested capital is 17.4%. That is the metric the thesis depends on."
+        "detail": "Design wins lock in revenue for multiple product generations. Return on invested capital is 17.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 8.5% in FY2019 to 23.0% in FY2026. The trailing operating margin is 22.5%, the net margin is 20.2% and diluted EPS is $7.94.",
-      "Return on equity was 18.9% and return on invested capital was 17.4%. Return on invested capital of 17.4% is close to the 18.9% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from 8.5% in FY2019 to 23.0% in FY2026. The trailing operating margin is 22.5%, the net margin is 20.2%, and diluted EPS is $7.94, up 12.8% year over year.",
+      "Return on equity of 18.9% and return on invested capital of 17.4% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $526.2M, a 25.7% margin. The balance sheet carries $720.1M of net cash. Capital expenditure was 0.7% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $650.6M, or 157.0% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $14M in the latest fiscal year."
+      "Free cash flow was $526.2M, or 25.7% of revenue. Operating cash flow covered 157.0% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 0.7% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $720.1M of net cash. Interest cover is 452.3x. That gives management room to invest or return capital without leaning on the balance sheet."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 13.8x trailing earnings, 9.7x EV/EBITDA and 2.4x EV/sales. The free-cash-flow yield is 9.2%. The 7.3% earnings yield and 9.2% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against NVDA, AVGO and AMD; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $114.34, the shares trade at 13.8x trailing earnings and 9.7x EV/EBITDA, with a 9.2% free-cash-flow yield. The earnings yield is 7.3%. The earnings multiple is 61.8% below the 36.1x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "3 analysts contribute to the third-party consensus. The mean target is $136.67, with a range of $95.00 to $170.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $2B of revenue and $7.83 of EPS. The estimate revisions in the dataset are -7.2% over 30 days and -7.2% over 90 days. Set against trailing revenue, the estimate implies a decline of 4.2%."
+      "3 analysts in the third-party consensus carry a mean target of $136.67, 19.5% above the latest close. The range runs from $95.00 to $170.00. The range is unusually wide, which signals genuine disagreement about the cycle. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $2B of revenue and $7.83 of EPS. EPS estimates are down 7.2% over 30 days and down 7.2% over 90 days. That implies a 4.2% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is content per device and Android diversification versus customer concentration and smartphone cycles.",
     "items": [
       {
-        "title": "Semiconductor cycle",
+        "title": "Customer concentration and smartphone cycles",
         "severity": "High",
-        "detail": "Inventory corrections can cut revenue quickly.",
+        "detail": "The main risk is customer concentration and smartphone cycles.",
         "watch": "Inventory days and utilisation."
       },
       {
@@ -146,9 +146,9 @@ export const CRUS: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Cirrus Logic, Inc. produced $2B of trailing revenue at a 22.5% operating margin and a 25.7% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
-      "3 analysts in the third-party survey average $136.67 as of 2026-11-25, 19.5% above the latest close; that is the analysts' view, attributed and dated, not a Stockmonk target. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put valuation at 82/100 and growth at 32/100, with the composite averaging 69/100. A 82/100 valuation score against a 32/100 growth score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on valuation and the durability of 22.5% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 8.1%, not a single quarter. The key exposure is customer concentration and smartphone cycles.",
+      "The scorecard puts the composite at 69/100. Focus on the valuation-to-growth spread rather than the average."
     ],
     "questions": [
       "Where are we in the inventory cycle?",

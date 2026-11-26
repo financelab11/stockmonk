@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const APD: StockStory = {
   "ticker": "APD",
   "kicker": "Materials & Mining · Specialty Chemicals",
-  "title": "Air Products and Chemicals, Inc: An industrial-gas producer with a large clean-hydrogen bet",
-  "dek": "Air Products and Chemicals, Inc. reported $13B of trailing revenue at a 0.2% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Air Products and Chemicals: An industrial-gas producer with a large clean-hydrogen bet",
+  "dek": "Air Products and Chemicals' revenue rose 7.9% to $13B, at a 0.2% operating margin. The key risk is large hydrogen projects.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $13B trailing twelve months, +7.9% year over year.",
+    "Revenue: $13B, +7.9% year over year.",
     "Profitability: 0.2% operating margin and 4.1% net margin.",
     "Cash: $476.8M free cash flow, a 3.7% margin, against $333M of net cash.",
-    "Valuation: 130.8x trailing earnings and 44.8x EV/EBITDA at the latest close."
+    "Valuation: 130.8x trailing earnings and 44.8x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,88 +18,88 @@ export const APD: StockStory = {
   "irUrl": "https://www.airproducts.com",
   "bigPicture": {
     "paragraphs": [
-      "Air Products and Chemicals, Inc. generated $13B of revenue over the last twelve months, +7.9% versus the prior year. The latest reported quarter was Q4 FY26, with $3.6B of revenue and a 17.8% operating margin. The shares closed at $312.55 on Nov 25, 2026, giving a market capitalization of $69.6B.",
-      "Americas accounts for 43.7% of disclosed revenue. Revenue is disclosed across 3 geographies, with Other Foreign Operations the largest at 44.6%. The moat is long-term take-or-pay contracts and on-site plants that make the gas supplier part of the customer's process.",
-      "At the latest close the equity is valued at $69.6B, or 130.8x trailing earnings and 44.8x EV/EBITDA. The shares sit 88% of the way up their 52-week range ($229.11 to $324.00). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "Air Products and Chemicals' revenue rose 7.9% to $13B at a 0.2% operating margin, generating $476.8M of free cash flow. The latest quarter (Q4 FY26) grew 12.3%.",
+      "Americas is 43.7% of revenue and Asia is 26.6%. Other Foreign Operations is the largest geography at 44.6% of revenue. What could lift the return is final investment decisions and partner commitments on clean-hydrogen projects. The thing to watch is large hydrogen projects.",
+      "At $312.55, the equity is worth $69.6B, or 130.8x trailing earnings and 44.8x EV/EBITDA. The earnings multiple is 423.1% above the 25.0x peer median. The stock is 88% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
-    "quote": "Air Products is an industrial-gas producer with a large clean-hydrogen bet, so project execution and capital discipline matter more than the base gas business. The multiple reflects the base gas business plus a hydrogen option; the option is only worth what the projects earn."
+    "quote": "Air Products is an industrial-gas producer with a large clean-hydrogen bet, so project execution and capital discipline matter more than the base gas business."
   },
   "whatItDoes": {
     "paragraphs": [
       "Air Products and Chemicals, Inc., an industrial gases company, provides industrial gases, related equipment, and applications to the energy, environmental, and other markets in the Americas, Asia, Europe, the Middle East, India, and internationally.",
-      "The disclosed mix runs across Americas at 43.7%, Asia at 26.6% and Europe at 25.0%. Headcount was 19,404 in the latest filing. The revenue base is $13B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "Against LIN, SHW and ECL, the relevant tests are pricing power, capital intensity and cash conversion."
+      "Air Products and Chemicals does not report a product gross margin; energy, feedstock and maintenance sit inside the operating line, leaving a 0.2% operating margin. That is 14.4 points below the peer median of 14.6%.",
+      "Capex is 32.4% of revenue, so the business is capital-hungry. The balance sheet carries $333M of net cash. Return on invested capital was 0.2%. That is 9.8 points below the peer median of 9.9%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$13B on a trailing-twelve-month basis, with the latest quarter at $3.6B."
+        "title": "Revenue mix",
+        "detail": "Americas at 43.7%, Asia at 26.6% and Europe at 25.0%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 0.2%; free-cash-flow margin 3.7%; net margin 4.1%."
+        "title": "Margin engine",
+        "detail": "Operating margin 0.2%. Energy, feedstock and maintenance are the main cost line, so the operating margin is the scorecard for cost discipline."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $69.6B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 32.4% of revenue; $333M of net cash; ROIC 0.2%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 0.2% is the first clean profitability line. Revenue and margins move with commodity prices, volumes and the cost of energy and feedstock.",
-      "The balance sheet carries $333M of net cash. Return on invested capital was 0.2% and return on equity was 3.7%. The return suggests the current capital base is earning a modest amount."
+      "Commodity prices, volumes and input costs drive revenue and margin. The moat is long-term take-or-pay contracts and on-site plants that make the gas supplier part of the customer's process.",
+      "The operating margin is 0.2%, 14.4 points below the peer median of 14.6%. What matters is whether new revenue carries the same margin as the base."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.5% a year across the fiscal years in the dataset, and the latest quarter changed +12.3% year over year. Current-year estimates call for $13.5B of revenue and $14.37 of EPS.",
-      "The next catalyst is final investment decisions and partner commitments on clean-hydrogen projects. The operating margin of 0.2% and return on invested capital of 0.2% are the filters to watch as revenue scales. Growth of 7.9% against a 0.2% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 5.5% a year from FY2019 to FY2026. The latest quarter (Q4 FY26) grew 12.3% year over year. The current-year consensus looks for $13.5B of revenue and $14.37 of EPS.",
+      "The next leg depends on final investment decisions and partner commitments on clean-hydrogen projects. For Air Products and Chemicals, volume growth is only worth paying for if the price-cost spread holds."
     ],
     "bullets": [
       {
         "title": "Volume",
-        "detail": "Revenue growth is +7.9%. Shipments show underlying industrial demand."
+        "detail": "Shipments show underlying industrial demand. Revenue growth is 7.9%."
       },
       {
         "title": "Price and mix",
-        "detail": "Product mix and pricing determine margin per ton. The current reading: the operating margin is 0.2%."
+        "detail": "Product mix and pricing determine margin per ton. The operating margin is 0.2%."
       },
       {
         "title": "Cost position",
-        "detail": "Return on invested capital is 0.2%. The trend in that figure matters more than its level."
+        "detail": "Low-cost assets can earn through the cycle. Return on invested capital is 0.2%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 24.0% in FY2019 to 0.2% in FY2026. The trailing operating margin is 0.2%, the net margin is 4.1% and diluted EPS is $2.38.",
-      "Return on equity was 3.7% and return on invested capital was 0.2%. The two returns are within a few points, at 3.7% on equity and 0.2% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 24.0% in FY2019 to 0.2% in FY2026. The trailing operating margin is 0.2%, the net margin is 4.1%, and diluted EPS is $2.38.",
+      "Return on equity of 3.7% and return on invested capital of 0.2% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $476.8M, a 3.7% margin. The balance sheet carries $333M of net cash. With capital spending at 32.4% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $4.7B, or 879.7% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $4.2B in the latest fiscal year."
+      "Free cash flow was $476.8M, or 3.7% of revenue. Operating cash flow covered 879.7% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 32.4% of revenue, which is a meaningful claim on cash.",
+      "The balance sheet carries $333M of net cash. Interest cover is 0.1x. That gives management room to invest or return capital without leaning on the balance sheet."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 130.8x trailing earnings, 44.8x EV/EBITDA and 5.3x EV/sales. The free-cash-flow yield is 0.7%. The trailing earnings yield is 0.8%, against a free-cash-flow yield of 0.7%.",
-      "The multiple reflects the base gas business plus a hydrogen option; the option is only worth what the projects earn. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $312.55, the shares trade at 130.8x trailing earnings and 44.8x EV/EBITDA, with a 0.7% free-cash-flow yield. The earnings yield is 0.8%. The earnings multiple is 423.1% above the 25.0x peer median.",
+      "The multiple reflects the base gas business plus a hydrogen option; the option is only worth what the projects earn. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "21 analysts contribute to the third-party consensus. The mean target is $346.95, with a range of $320.00 to $375.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $13.5B of revenue and $14.37 of EPS. The estimate revisions in the dataset are -0.5% over 30 days and -0.4% over 90 days. Set against trailing revenue, the estimate implies growth of 4.3%."
+      "21 analysts in the third-party consensus carry a mean target of $346.95, 11.0% above the latest close. The range runs from $320.00 to $375.00. The targets are tightly grouped, which reduces the information in the mean. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $13.5B of revenue and $14.37 of EPS. EPS estimates are down 0.5% over 30 days and down 0.4% over 90 days. That implies 4.3% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
+    "intro": "The central tension is final investment decisions and partner commitments on clean-hydrogen projects versus large hydrogen projects.",
     "items": [
       {
-        "title": "The main risk",
+        "title": "Large hydrogen projects",
         "severity": "High",
         "detail": "Large hydrogen projects can cost more and take longer than planned, and the CEO transition adds execution risk.",
         "watch": "Realised prices and inventory."
@@ -146,9 +146,9 @@ export const APD: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Air Products and Chemicals, Inc. produced $13B of trailing revenue at a 0.2% operating margin and a 3.7% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Analysts contributing to the third-party consensus carry a $346.95 mean target as of 2026-11-25, 11.0% above the latest close; that is the analysts' view, attributed and dated, not a Stockmonk target.",
-      "The factor percentiles put balance sheet at 65/100 and valuation at 8/100, with the composite averaging 26/100. The average hides a strong balance sheet reading and a weak valuation one, which is why the spread is the more useful description."
+      "The investment case rests on balance sheet and the durability of 0.2% margins. The weak link is valuation.",
+      "What would change the view is the multiple falling below 104.6x earnings, not a single quarter. The key exposure is large hydrogen projects.",
+      "The scorecard puts the composite at 26/100. Focus on the balance sheet-to-valuation spread rather than the average."
     ],
     "questions": [
       "What is the mid-cycle margin?",

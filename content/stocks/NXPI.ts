@@ -4,13 +4,13 @@ export const NXPI: StockStory = {
   "ticker": "NXPI",
   "kicker": "Semiconductors & Hardware · Semiconductors",
   "title": "NXP Semiconductors N.V: Automotive and industrial semiconductors",
-  "dek": "NXP Semiconductors N.V. reported $13.8B of trailing revenue at a 33.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "dek": "NXP Semiconductors N.V's revenue rose 14.6% to $13.8B, at a 33.0% operating margin. The key risk is auto production and inventory.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $13.8B trailing twelve months, +14.6% year over year.",
+    "Revenue: $13.8B, +14.6% year over year.",
     "Profitability: 33.0% operating margin and 23.6% net margin.",
     "Cash: $3.5B free cash flow, a 25.4% margin, against $8B of net debt.",
-    "Valuation: 18.4x trailing earnings and 12.8x EV/EBITDA at the latest close."
+    "Valuation: 18.4x trailing earnings and 12.8x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const NXPI: StockStory = {
   "irUrl": "https://www.nxp.com",
   "bigPicture": {
     "paragraphs": [
-      "NXP Semiconductors N.V. generated $13.8B of revenue over the last twelve months, +14.6% versus the prior year. The latest reported quarter was Q3 FY26, with $3.8B of revenue and a 32.4% operating margin. The shares closed at $237.81 on Nov 25, 2026, giving a market capitalization of $59.9B.",
-      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. By geography, United States is the largest disclosed market at 26.3% of revenue. NXP Semiconductors N.V. competes in Semiconductors, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $59.9B, or 18.4x trailing earnings and 12.8x EV/EBITDA. The shares sit 34% of the way up their 52-week range ($184.68 to $339.95). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "NXP Semiconductors N.V's revenue rose 14.6% to $13.8B at a 33.0% operating margin, generating $3.5B of free cash flow. The latest quarter (Q3 FY26) grew 19.3%.",
+      "Revenue is reported as one consolidated line. The US is the largest geography at 26.3% of revenue. The upside is electrification and connectivity content. What would break it is auto production and inventory.",
+      "At $237.81, the equity is worth $59.9B, or 18.4x trailing earnings and 12.8x EV/EBITDA. The earnings multiple is 48.9% below the 36.1x peer median. The stock is 34% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "NXP sells automotive and industrial semiconductors, a content-growth business tied to vehicle electrification, connectivity and factory automation."
   },
   "whatItDoes": {
     "paragraphs": [
-      "NXP Semiconductors N.V. operates in the Semiconductors industry and reports in USD, within the Semiconductors & Hardware coverage group. It reports in the Technology sector and is classified in Semiconductors & Hardware coverage.",
-      "Revenue is reported at the consolidated level only. Its latest filing lists 32,169 employees. With $13.8B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "NVDA, AVGO and AMD provide the closest reference points for margin, growth and valuation."
+      "NXP Semiconductors N.V operates in Semiconductors.",
+      "NXP Semiconductors N.V earned a 56.4% gross margin, and materials, manufacturing and design absorbed 23.5% of revenue, leaving a 33.0% operating margin. That is 8.8 points below the peer median of 41.8%.",
+      "Capex is 2.9% of revenue, so the business is asset-light. Net debt is $8B, or 1.5x EBITDA. Return on invested capital was 15.2%. That is 2.3 points below the peer median of 17.5%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$13.8B on a trailing-twelve-month basis, with the latest quarter at $3.8B."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 33.0%; free-cash-flow margin 25.4%; net margin 23.6%."
+        "title": "Margin engine",
+        "detail": "Gross margin 56.4%, operating margin 33.0%. Materials, manufacturing and design are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $59.9B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 2.9% of revenue; $8B of net debt; ROIC 15.2%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 56.4% of revenue after cost of sales, or $7.8B. Operating expenses absorbed 23.5% of revenue, leaving a 33.0% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $8B, or 1.5x EBITDA. Return on invested capital was 15.2% and return on equity was 26.9%. That level earns well above a typical cost of capital."
+      "Unit volumes, content per device and utilization drive revenue and margin. The edge is auto and industrial chip content.",
+      "The operating margin is 33.0%, 8.8 points below the peer median of 41.8%. Utilization and mix decide whether volume growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.9% a year across the fiscal years in the dataset, and the latest quarter changed +19.3% year over year. Current-year estimates call for $14.3B of revenue and $15.18 of EPS.",
-      "The operating margin of 33.0% and return on invested capital of 15.2% are the filters to watch as revenue scales. Growth of 14.6% on a 33.0% operating margin is a high-quality combination if both hold."
+      "Revenue compounded at 3.9% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 19.3% year over year. The current-year consensus looks for $14.3B of revenue and $15.18 of EPS.",
+      "The next leg depends on electrification and connectivity content. For NXP Semiconductors N.V, volume growth is only worth paying for if utilization and mix hold."
     ],
     "bullets": [
       {
         "title": "Inventory cycle",
-        "detail": "Revenue growth is +14.6%. That is the metric the thesis depends on."
+        "detail": "Inventory restocking and digestion drive near-term orders. Revenue growth is 14.6%."
       },
       {
         "title": "Node and packaging transitions",
@@ -67,41 +67,41 @@ export const NXPI: StockStory = {
       },
       {
         "title": "Customer design wins",
-        "detail": "Return on invested capital is 15.2%. Design wins lock in revenue for multiple product generations."
+        "detail": "Design wins lock in revenue for multiple product generations. Return on invested capital is 15.2%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 28.8% in FY2018 to 24.8% in FY2025. The trailing operating margin is 33.0%, the net margin is 23.6% and diluted EPS is $12.72.",
-      "Return on equity was 26.9% and return on invested capital was 15.2%. Return on equity of 26.9% is above the 15.2% return on invested capital, a gap that leverage or acquisition goodwill can explain."
+      "The operating margin moved from 28.8% in FY2018 to 24.8% in FY2025. The trailing operating margin is 33.0%, the net margin is 23.6%, and diluted EPS is $12.72, up 57.4% year over year.",
+      "The 11.8-point spread between return on equity and return on invested capital suggests some of the equity return comes from the balance sheet. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.5B, a 25.4% margin. Net debt is $8B, or 1.5x EBITDA. Capex absorbed 2.9% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $2.8B, or 139.5% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $397M in the latest fiscal year."
+      "Free cash flow was $3.5B, or 25.4% of revenue. Operating cash flow covered 139.5% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 2.9% of revenue, which is low relative to the revenue base.",
+      "Net debt is $8B, or 1.5x EBITDA. Interest cover is 9.9x. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 18.4x trailing earnings, 12.8x EV/EBITDA and 4.9x EV/sales. The free-cash-flow yield is 5.8%. Inverting the P/E gives an earnings yield of 5.4%; the cash-flow yield is 5.8%.",
-      "The peer comparison sets the company against NVDA, AVGO and AMD; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $237.81, the shares trade at 18.4x trailing earnings and 12.8x EV/EBITDA, with a 5.8% free-cash-flow yield. The earnings yield is 5.4%. The earnings multiple is 48.9% below the 36.1x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "30 analysts contribute to the third-party consensus. The mean target is $301.80, with a range of $175.00 to $400.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $14.3B of revenue and $15.18 of EPS. The estimate revisions in the dataset are 0.4% over 30 days and 0.8% over 90 days. The estimate is consistent with growth of 3.7% on the trailing revenue figure."
+      "30 analysts in the third-party consensus carry a mean target of $301.80, 26.9% above the latest close. The range runs from $175.00 to $400.00. Analysts disagree on the outcome; the mean is a weak summary of a wide range. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $14.3B of revenue and $15.18 of EPS. EPS estimates are up 0.4% over 30 days and up 0.8% over 90 days. That implies 3.7% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is electrification and connectivity content versus auto production and inventory.",
     "items": [
       {
-        "title": "Semiconductor cycle",
+        "title": "Auto production and inventory",
         "severity": "High",
-        "detail": "Inventory corrections can cut revenue quickly.",
+        "detail": "The main risk is auto production and inventory.",
         "watch": "Inventory days and utilisation."
       },
       {
@@ -146,9 +146,9 @@ export const NXPI: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "NXP Semiconductors N.V. produced $13.8B of trailing revenue at a 33.0% operating margin and a 25.4% free-cash-flow margin. The free-cash-flow margin is the strongest part of that record; the rest of the report tests whether it can be sustained.",
-      "The consensus target is $301.80 as of 2026-11-25, 26.9% above the latest close; the figure belongs to the analysts who published it, not to this report. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put profitability at 77/100 and balance sheet at 33/100, with the composite averaging 65/100. The gap between profitability at 77/100 and balance sheet at 33/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on profitability and the durability of 33.0% margins. $8B of net debt is the weak link.",
+      "What would change the view is leverage falling below 1.0x EBITDA, not a single quarter. The key exposure is auto production and inventory.",
+      "The scorecard averages 65/100, but the dispersion matters more: profitability is 77/100 and balance sheet is 33/100."
     ],
     "questions": [
       "Where are we in the inventory cycle?",

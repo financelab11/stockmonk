@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const LYV: StockStory = {
   "ticker": "LYV",
   "kicker": "Internet Platforms · Entertainment",
-  "title": "Live Nation Entertainment, Inc.: +13.5% growth, 3.2% free cash flow and the price being paid",
-  "dek": "Live Nation Entertainment, Inc. reported $27.9B of trailing revenue at a 3.2% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Live Nation Entertainment: growth of 13.5% and a 283.4x earnings multiple",
+  "dek": "Live Nation Entertainment's revenue rose 13.5% to $27.9B, at a 3.2% operating margin. The key risk is event attendance and regulation.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $27.9B trailing twelve months, +13.5% year over year.",
+    "Revenue: $27.9B, +13.5% year over year.",
     "Profitability: 3.2% operating margin and 0.5% net margin.",
     "Cash: $893M free cash flow, a 3.2% margin, against $1.5B of net debt.",
-    "Valuation: 283.4x trailing earnings and 27.6x EV/EBITDA at the latest close."
+    "Valuation: 283.4x trailing earnings and 27.6x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const LYV: StockStory = {
   "irUrl": "https://www.livenationentertainment.com",
   "bigPicture": {
     "paragraphs": [
-      "Live Nation Entertainment, Inc. generated $27.9B of revenue over the last twelve months, +13.5% versus the prior year. The latest reported quarter was Q3 FY26, with $10.1B of revenue and an 8.8% operating margin. The shares closed at $181.64 on Nov 25, 2026, giving a market capitalization of $42.8B.",
-      "Concerts contributes 82.8% of the disclosed revenue mix. By geography, Total Domestic Operations is the largest disclosed market at 56.9% of revenue. Live Nation Entertainment, Inc. competes in Entertainment, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $42.8B, or 283.4x trailing earnings and 27.6x EV/EBITDA. The shares sit 87% of the way up their 52-week range ($128.50 to $189.25). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Live Nation Entertainment's revenue rose 13.5% to $27.9B at a 3.2% operating margin, generating $893M of free cash flow. The latest quarter (Q3 FY26) grew 18.9%.",
+      "Concerts is 82.8% of revenue and Ticketing is 12.2%. Total Domestic Operations is the largest geography at 56.9% of revenue. The upside is ticket pricing and venue growth. What would break it is event attendance and regulation.",
+      "At $181.64, the equity is worth $42.8B, or 283.4x trailing earnings and 27.6x EV/EBITDA. The earnings multiple is 1281.1% above the 20.5x peer median. The stock is 87% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Live Nation runs concerts, ticketing and sponsorship, a scale business where event attendance, ticket pricing and venue economics drive profit."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Live Nation Entertainment, Inc. operates as a live entertainment company worldwide. It reports in the Communication Services sector and is classified in Internet Platforms coverage.",
-      "The disclosed mix runs across Concerts at 82.8%, Ticketing at 12.2% and Sponsorship & Advertising at 5.3%. Its latest filing lists 17,700 employees. Trailing revenue is $27.9B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "NFLX and DIS provide the closest reference points for margin, growth and valuation."
+      "Live Nation Entertainment, Inc. operates as a live entertainment company worldwide.",
+      "Live Nation Entertainment does not report a product gross margin; fulfillment, incentives and technology sit inside the operating line, leaving a 3.2% operating margin. That is 21.6 points below the peer median of 24.9%.",
+      "Capex is 3.8% of revenue, so the business is asset-light. Net debt is $1.5B, or 0.9x EBITDA. Return on invested capital was 5.4%. That is 15.3 points below the peer median of 20.6%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$27.9B on a trailing-twelve-month basis, with the latest quarter at $10.1B."
+        "title": "Revenue mix",
+        "detail": "Concerts at 82.8%, Ticketing at 12.2% and Sponsorship & Advertising at 5.3%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 3.2%; free-cash-flow margin 3.2%; net margin 0.5%."
+        "title": "Margin engine",
+        "detail": "Operating margin 3.2%. Fulfillment, incentives and technology are the main cost line, so incremental revenue matters more than product mix."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $42.8B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.8% of revenue; $1.5B of net debt; ROIC 5.4%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 3.2% is the first clean profitability line. The model depends on users, engagement, transaction volume and the take rate earned on each interaction.",
-      "Net debt is $1.5B, or 0.9x EBITDA. Return on invested capital was 5.4% and return on equity was 33.1%. That leaves little room above the cost of capital."
+      "User growth, transaction volume and take rate drive revenue. The edge is concert promotion and ticketing scale.",
+      "The operating margin is 3.2%, 21.6 points below the peer median of 24.9%. The shape of the incremental margin will decide whether growth creates value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 12.9% a year across the fiscal years in the dataset, and the latest quarter changed +18.9% year over year. Current-year estimates call for $28.5B of revenue and -$0.43 of EPS.",
-      "The operating margin of 3.2% and return on invested capital of 5.4% are the filters to watch as revenue scales. Neither the 13.5% growth nor the 3.2% margin is extreme; the combination is what matters."
+      "Revenue compounded at 12.9% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 18.9% year over year. The current-year consensus looks for $28.5B of revenue and -$0.43 of EPS.",
+      "The next leg depends on ticket pricing and venue growth. For Live Nation Entertainment, user growth is only worth paying for if take rate and contribution margin hold."
     ],
     "bullets": [
       {
         "title": "User and engagement growth",
-        "detail": "Revenue growth is +13.5%. The trend in that figure matters more than its level."
+        "detail": "More active users and frequency expand the inventory available to monetise. Revenue growth is 13.5%."
       },
       {
         "title": "Take rate",
@@ -67,41 +67,41 @@ export const LYV: StockStory = {
       },
       {
         "title": "Adjacent services",
-        "detail": "Return on invested capital is 5.4%. Advertising, logistics, payments and subscriptions can lift revenue per user."
+        "detail": "Advertising, logistics, payments and subscriptions can lift revenue per user. Return on invested capital is 5.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 2.5% in FY2018 to 5.0% in FY2025. The trailing operating margin is 3.2%, the net margin is 0.5% and diluted EPS is -$0.17.",
-      "Return on equity was 33.1% and return on invested capital was 5.4%. The 27.7% gap between return on equity and return on invested capital points to leverage or goodwill in the capital base, so the equity return overstates the operating return."
+      "The operating margin moved from 2.5% in FY2018 to 5.0% in FY2025. The trailing operating margin is 3.2%, the net margin is 0.5%, and diluted EPS is -$0.17, down 112.3% year over year.",
+      "Return on equity of 33.1% is well above the 5.4% return on invested capital; leverage or acquisition goodwill explains most of the gap. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $893M, a 3.2% margin. Net debt is $1.5B, or 0.9x EBITDA. Capital expenditure was 3.8% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $1.4B, or 281.3% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.1B in the latest fiscal year."
+      "Free cash flow was $893M, or 3.2% of revenue. Operating cash flow covered 281.3% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 3.8% of revenue, which is low relative to the revenue base.",
+      "Net debt is $1.5B, or 0.9x EBITDA. Interest cover is 2.4x. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 283.4x trailing earnings, 27.6x EV/EBITDA and 1.6x EV/sales. The free-cash-flow yield is 2.1%. The 0.4% earnings yield and 2.1% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against NFLX and DIS; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $181.64, the shares trade at 283.4x trailing earnings and 27.6x EV/EBITDA, with a 2.1% free-cash-flow yield. The earnings yield is 0.4%. The earnings multiple is 1281.1% above the 20.5x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "24 analysts contribute to the third-party consensus. The mean target is $203.96, with a range of $145.00 to $221.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $28.5B of revenue and -$0.43 of EPS. The estimate revisions in the dataset are -4.7% over 30 days and -1.9% over 90 days. The estimate is consistent with growth of 2.3% on the trailing revenue figure."
+      "24 analysts in the third-party consensus carry a mean target of $203.96, 12.3% above the latest close. The range runs from $145.00 to $221.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $28.5B of revenue and -$0.43 of EPS. EPS estimates are down 4.7% over 30 days and down 1.9% over 90 days. That implies 2.3% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is ticket pricing and venue growth versus event attendance and regulation.",
     "items": [
       {
-        "title": "Competition for users",
+        "title": "Event attendance and regulation",
         "severity": "High",
-        "detail": "Switching costs are low and new formats can take attention quickly.",
+        "detail": "The main risk is event attendance and regulation.",
         "watch": "Monthly users, engagement and churn."
       },
       {
@@ -146,9 +146,9 @@ export const LYV: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Live Nation Entertainment, Inc. produced $27.9B of trailing revenue at a 3.2% operating margin and a 3.2% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "24 analysts in the third-party survey average $203.96 as of 2026-11-25, 12.3% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put balance sheet at 45/100 and valuation at 14/100, with the composite averaging 27/100. With balance sheet and valuation only 31 points apart, the composite is a reasonable one-line description."
+      "The investment case rests on balance sheet and the durability of 3.2% margins. The weak link is valuation.",
+      "What would change the view is the multiple falling below 226.7x earnings, not a single quarter. The key exposure is event attendance and regulation.",
+      "The scorecard averages 27/100, but the dispersion matters more: balance sheet is 45/100 and valuation is 14/100."
     ],
     "questions": [
       "How much growth is users versus take rate?",

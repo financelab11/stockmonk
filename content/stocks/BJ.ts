@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const BJ: StockStory = {
   "ticker": "BJ",
   "kicker": "Consumer Retail & Leisure · Discount Stores",
-  "title": "BJ's Wholesale Club Holdings, Inc: A membership warehouse club",
-  "dek": "BJ's Wholesale Club Holdings, Inc. reported $23.7B of trailing revenue at a 4.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "BJ's Wholesale Club Holdings: A membership warehouse club",
+  "dek": "BJ's Wholesale Club Holdings' revenue rose 12.2% to $23.7B, at a 4.0% operating margin. The key risk is traffic and grocery competition.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $23.7B trailing twelve months, +12.2% year over year.",
+    "Revenue: $23.7B, +12.2% year over year.",
     "Profitability: 4.0% operating margin and 2.8% net margin.",
     "Cash: $531.5M free cash flow, a 2.2% margin, against $440.2M of net debt.",
-    "Valuation: 19.7x trailing earnings and 10.7x EV/EBITDA at the latest close."
+    "Valuation: 19.7x trailing earnings and 10.7x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const BJ: StockStory = {
   "irUrl": "https://www.bjs.com",
   "bigPicture": {
     "paragraphs": [
-      "BJ's Wholesale Club Holdings, Inc. generated $23.7B of revenue over the last twelve months, +12.2% versus the prior year. The latest reported quarter was Q3 FY27, with $6.3B of revenue and a 5.0% operating margin. The shares closed at $103.37 on Nov 25, 2026, giving a market capitalization of $13.1B.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. Country-level revenue is not part of the filing extract used here.",
-      "At the latest close the equity is valued at $13.1B, or 19.7x trailing earnings and 10.7x EV/EBITDA. The shares sit 67% of the way up their 52-week range ($83.21 to $113.35). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "BJ's Wholesale Club Holdings' revenue rose 12.2% to $23.7B at a 4.0% operating margin, generating $531.5M of free cash flow. The latest quarter (Q3 FY27) grew 17.5%.",
+      "Revenue is reported as one consolidated line. The catalyst is membership income and new clubs. The exposure is traffic and grocery competition. The business is judged on whether the consolidated margin and returns can improve from here.",
+      "At $103.37, the equity is worth $13.1B, or 19.7x trailing earnings and 10.7x EV/EBITDA. The earnings multiple is 58.2% below the 47.2x peer median. The stock is 67% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "BJ's is a membership warehouse club, a low-margin retail model where membership income, traffic and private-label mix drive returns."
   },
   "whatItDoes": {
     "paragraphs": [
-      "BJ's Wholesale Club Holdings, Inc., together with its subsidiaries, operates membership warehouse clubs on the eastern half of the United States. BJ's Wholesale Club Holdings, Inc. sits in the Discount Stores industry, one of the Consumer Retail & Leisure names in this library.",
-      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 35,000 people. Trailing revenue is $23.7B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The closest listed comparisons are COST, WMT and TGT; the useful question is how BJ's Wholesale Club Holdings, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "BJ's Wholesale Club Holdings, Inc., together with its subsidiaries, operates membership warehouse clubs on the eastern half of the United States.",
+      "BJ's Wholesale Club Holdings earned an 18.6% gross margin, and cost of goods, occupancy and labor absorbed 14.6% of revenue, leaving a 4.0% operating margin. That is roughly in line with the peer median of 4.4%.",
+      "Capital spending runs at 3.0% of revenue, which is low relative to the revenue base. Net debt is $440.2M, or 0.3x EBITDA. Return on invested capital was 24.2%. That is 7.5 points above the peer median of 16.7%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$23.7B on a trailing-twelve-month basis, with the latest quarter at $6.3B."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 4.0%; free-cash-flow margin 2.2%; net margin 2.8%."
+        "title": "Margin engine",
+        "detail": "Gross margin 18.6%, operating margin 4.0%. Cost of goods, occupancy and labor are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $13.1B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.0% of revenue; $440.2M of net debt; ROIC 24.2%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $23.7B of revenue, $4.4B remained after cost of sales. The 14.6% operating-expense load brought that down to a 4.0% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "Net debt is $440.2M, or 0.3x EBITDA. Return on invested capital was 24.2% and return on equity was 27.5%. The return leaves room above the cost of capital for growth to compound."
+      "Traffic, basket size and inventory turns drive revenue; markdowns and occupancy drive the margin. The edge is membership model and private-label mix.",
+      "The operating margin is 4.0%, roughly in line with the peer median of 4.4%. Inventory turns and markdown discipline decide whether volume growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 7.4% a year across the fiscal years in the dataset, and the latest quarter changed +17.5% year over year. Current-year estimates call for $24.4B of revenue and $4.73 of EPS.",
-      "The operating margin of 4.0% and return on invested capital of 24.2% are the filters to watch as revenue scales. Neither the 12.2% growth nor the 4.0% margin is extreme; the combination is what matters."
+      "Revenue compounded at 7.4% a year from FY2019 to FY2026. The latest quarter (Q3 FY27) grew 17.5% year over year. The current-year consensus looks for $24.4B of revenue and $4.73 of EPS.",
+      "The next leg depends on membership income and new clubs. For BJ's Wholesale Club Holdings, sales growth is only worth paying for if inventory turns and markdowns stay under control."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Same-store growth shows demand without new square footage. Revenue growth is +12.2%."
+        "detail": "Same-store growth shows demand without new square footage. Revenue growth is 12.2%."
       },
       {
         "title": "Unit growth",
-        "detail": "The operating margin is 4.0%. New stores and markets expand the revenue base but carry fixed costs."
+        "detail": "New stores and markets expand the revenue base but carry fixed costs. The operating margin is 4.0%."
       },
       {
         "title": "Merchandise margin",
-        "detail": "Private label, sourcing and markdown discipline determine gross margin. The current reading: return on invested capital is 24.2%."
+        "detail": "Private label, sourcing and markdown discipline determine gross margin. Return on invested capital is 24.2%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 2.3% in FY2019 to 3.8% in FY2026. The trailing operating margin is 4.0%, the net margin is 2.8% and diluted EPS is $5.15.",
-      "Return on equity was 27.5% and return on invested capital was 24.2%. Return on invested capital of 24.2% is close to the 27.5% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from 2.3% in FY2019 to 3.8% in FY2026. The trailing operating margin is 4.0%, the net margin is 2.8%, and diluted EPS is $5.15, up 18.7% year over year.",
+      "Return on equity of 27.5% and return on invested capital of 24.2% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $531.5M, a 2.2% margin. Net debt is $440.2M, or 0.3x EBITDA. Capital expenditure was 3.0% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $1B, or 178.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $702M in the latest fiscal year."
+      "Free cash flow was $531.5M, or 2.2% of revenue. Operating cash flow covered 178.1% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 3.0% of revenue, which is low relative to the revenue base.",
+      "Net debt is $440.2M, or 0.3x EBITDA. Interest cover is 20.1x. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 19.7x trailing earnings, 10.7x EV/EBITDA and 0.6x EV/sales. The free-cash-flow yield is 4.1%. The 5.1% earnings yield and 4.1% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against COST, WMT and TGT; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $103.37, the shares trade at 19.7x trailing earnings and 10.7x EV/EBITDA, with a 4.1% free-cash-flow yield. The earnings yield is 5.1%. The earnings multiple is 58.2% below the 47.2x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "21 analysts contribute to the third-party consensus. The mean target is $110.95, with a range of $82.00 to $130.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $24.4B of revenue and $4.73 of EPS. The estimate revisions in the dataset are 0.4% over 30 days and 4.0% over 90 days. That implies growth of 2.7% over the trailing twelve months."
+      "21 analysts in the third-party consensus carry a mean target of $110.95, 7.3% above the latest close. The range runs from $82.00 to $130.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $24.4B of revenue and $4.73 of EPS. EPS estimates are up 0.4% over 30 days and up 4.0% over 90 days. That implies 2.7% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is membership income and new clubs versus traffic and grocery competition.",
     "items": [
       {
-        "title": "Consumer spending",
+        "title": "Traffic and grocery competition",
         "severity": "High",
-        "detail": "Discretionary budgets are sensitive to confidence and rates.",
+        "detail": "The main risk is traffic and grocery competition.",
         "watch": "Comparable sales and transaction counts."
       },
       {
@@ -146,9 +146,9 @@ export const BJ: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "BJ's Wholesale Club Holdings, Inc. produced $23.7B of trailing revenue at a 4.0% operating margin and a 2.2% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "The third-party consensus mean is $110.95 as of 2026-11-25, 7.3% above the latest close; it should be read as the published consensus, not as this publication's view. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put valuation at 73/100 and cash generation at 17/100, with the composite averaging 50/100. A 73/100 valuation score against a 17/100 cash generation score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on valuation and the durability of 4.0% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above 5.2%, not a single quarter. The key exposure is traffic and grocery competition.",
+      "The composite of 50/100 blends a strong valuation reading with a weak cash generation one; the gap is the story."
     ],
     "questions": [
       "Is growth coming from traffic or price?",

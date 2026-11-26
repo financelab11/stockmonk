@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const HEI: StockStory = {
   "ticker": "HEI",
   "kicker": "Aerospace & Defense · Aerospace & Defense",
-  "title": "HEICO Corporation: Aftermarket aerospace parts and electronic technologies",
-  "dek": "HEICO Corporation reported $5.2B of trailing revenue at a 24.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "HEICO: Aftermarket aerospace parts and electronic technologies",
+  "dek": "HEICO's revenue rose 20.7% to $5.2B, at a 24.0% operating margin. The key risk is flight hours and acquisition multiples.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $5.2B trailing twelve months, +20.7% year over year.",
+    "Revenue: $5.2B, +20.7% year over year.",
     "Profitability: 24.0% operating margin and 16.4% net margin.",
     "Cash: $1B free cash flow, a 19.9% margin, against $2.3B of net debt.",
-    "Valuation: 55.1x trailing earnings and 33.5x EV/EBITDA at the latest close."
+    "Valuation: 55.1x trailing earnings and 33.5x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const HEI: StockStory = {
   "irUrl": "https://www.heico.com",
   "bigPicture": {
     "paragraphs": [
-      "HEICO Corporation generated $5.2B of revenue over the last twelve months, +20.7% versus the prior year. The latest reported quarter was Q3 FY26, with $1.4B of revenue and a 25.1% operating margin. The shares closed at $334.46 on Nov 25, 2026, giving a market capitalization of $46.7B.",
-      "The largest disclosed segment is Flight Support Group at 69.5% of revenue. Geographically, North America leads at 61.9% of the disclosed split. HEICO Corporation competes in Aerospace & Defense, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $46.7B, or 55.1x trailing earnings and 33.5x EV/EBITDA. The shares sit 65% of the way up their 52-week range ($256.11 to $376.86). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "HEICO's revenue rose 20.7% to $5.2B at a 24.0% operating margin, generating $1B of free cash flow. The latest quarter (Q3 FY26) grew 23.1%. The next test is whether the current profitability can be sustained.",
+      "Flight Support Group is 69.5% of revenue and Electronic Technologies Group is 31.5%. North America is the largest geography at 61.9% of revenue. The near-term driver is aftermarket growth and acquisitions. The risk is flight hours and acquisition multiples.",
+      "At $334.46, the equity is worth $46.7B, or 55.1x trailing earnings and 33.5x EV/EBITDA. The earnings multiple is 63.7% above the 33.7x peer median. The stock is 65% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "HEICO sells aftermarket aerospace parts and electronic technologies, a niche business where PMA approvals, flight hours and acquisitions drive growth."
   },
   "whatItDoes": {
     "paragraphs": [
-      "HEICO Corporation provides aerospace, defense, and electronic related products and services in the United States and internationally. Its Flight Support Group segment offers jet engine and aircraft component replacement parts; thermal insulation blankets and parts; renewable/reusable insulation systems; and specialty components and assemblies.",
-      "The disclosed mix runs across Flight Support Group at 69.5% and Electronic Technologies Group at 31.5%. The company employed 11,100 people at the last reporting date. With $5.2B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The peer set is GE, RTX and HWM; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "HEICO Corporation provides aerospace, defense, and electronic related products and services in the United States and internationally.",
+      "HEICO earned a 39.8% gross margin, and program costs and fixed-price execution absorbed 15.8% of revenue, leaving a 24.0% operating margin. That is 12.3 points above the peer median of 11.8%.",
+      "Capital spending runs at 1.4% of revenue, which is low relative to the revenue base. Net debt is $2.3B, or 1.6x EBITDA. Return on invested capital was 13.6%. That is 5.3 points below the peer median of 18.9%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$5.2B on a trailing-twelve-month basis, with the latest quarter at $1.4B."
+        "title": "Revenue mix",
+        "detail": "Flight Support Group at 69.5% and Electronic Technologies Group at 31.5%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 24.0%; free-cash-flow margin 19.9%; net margin 16.4%."
+        "title": "Margin engine",
+        "detail": "Gross margin 39.8%, operating margin 24.0%. Program costs and fixed-price execution are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $46.7B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 1.4% of revenue; $2.3B of net debt; ROIC 13.6%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 39.8% of revenue after cost of sales, or $2.1B. Operating expenses absorbed 15.8% of revenue, leaving a 24.0% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $2.3B, or 1.6x EBITDA. Return on invested capital was 13.6% and return on equity was 17.1%. The return is close enough to the cost of capital that small changes in margin matter."
+      "Contracted backlog converts into revenue as programmes deliver; budgets set the addressable market. The edge is PMA parts and aerospace aftermarket.",
+      "The operating margin is 24.0%, 12.3 points above the peer median of 11.8%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 14.1% a year across the fiscal years in the dataset, and the latest quarter changed +23.1% year over year. Current-year estimates call for $5.4B of revenue and $6.36 of EPS.",
-      "The operating margin of 24.0% and return on invested capital of 13.6% are the filters to watch as revenue scales. The 20.7% revenue pace and 24.0% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 14.1% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 23.1% year over year. The current-year consensus looks for $5.4B of revenue and $6.36 of EPS.",
+      "The next leg depends on aftermarket growth and acquisitions. For HEICO, backlog growth is only worth paying for if it converts into margin, not just revenue."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Contracted orders provide visibility into future revenue. The current reading: revenue growth is +20.7%."
+        "detail": "Contracted orders provide visibility into future revenue. Revenue growth is 20.7%."
       },
       {
         "title": "Budget and supplementals",
-        "detail": "The operating margin is 24.0%. The trend in that figure matters more than its level."
+        "detail": "Defense budgets and supplemental spending set the addressable market. The operating margin is 24.0%."
       },
       {
         "title": "Programme execution",
@@ -73,35 +73,35 @@ export const HEI: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 21.2% in FY2018 to 22.7% in FY2025. The trailing operating margin is 24.0%, the net margin is 16.4% and diluted EPS is $6.01.",
-      "Return on equity was 17.1% and return on invested capital was 13.6%. With return on equity at 17.1% and return on invested capital at 13.6%, leverage is not the main driver of the gap."
+      "The operating margin moved from 21.2% in FY2018 to 22.7% in FY2025. The trailing operating margin is 24.0%, the net margin is 16.4%, and diluted EPS is $6.01, up 31.2% year over year.",
+      "Return on equity of 17.1% and return on invested capital of 13.6% are close enough that operating performance explains most of the return. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1B, a 19.9% margin. Net debt is $2.3B, or 1.6x EBITDA. Capex absorbed 1.4% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $934.3M, or 135.3% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $72.9M in the latest fiscal year."
+      "Free cash flow was $1B, or 19.9% of revenue. Operating cash flow covered 135.3% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 1.4% of revenue, which is low relative to the revenue base.",
+      "Net debt is $2.3B, or 1.6x EBITDA. Interest cover is 9.4x. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 55.1x trailing earnings, 33.5x EV/EBITDA and 9.5x EV/sales. The free-cash-flow yield is 2.2%. Inverting the P/E gives an earnings yield of 1.8%; the cash-flow yield is 2.2%.",
-      "The peer comparison sets the company against GE, RTX and HWM; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $334.46, the shares trade at 55.1x trailing earnings and 33.5x EV/EBITDA, with a 2.2% free-cash-flow yield. The earnings yield is 1.8%. The earnings multiple is 63.7% above the 33.7x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "20 analysts contribute to the third-party consensus. The mean target is $390.70, with a range of $294.00 to $491.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $5.4B of revenue and $6.36 of EPS. The estimate revisions in the dataset are 0.3% over 30 days and 4.1% over 90 days. If met, the estimate would mean growth of 4.4% from the current base."
+      "20 analysts in the third-party consensus carry a mean target of $390.70, 16.8% above the latest close. The range runs from $294.00 to $491.00. Analysts disagree on the outcome; the mean is a weak summary of a wide range. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $5.4B of revenue and $6.36 of EPS. EPS estimates are up 0.3% over 30 days and up 4.1% over 90 days. That implies 4.4% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is aftermarket growth and acquisitions versus flight hours and acquisition multiples.",
     "items": [
       {
-        "title": "Budget cycle",
+        "title": "Flight hours and acquisition multiples",
         "severity": "High",
-        "detail": "Continuing resolutions and priorities can delay awards.",
+        "detail": "The main risk is flight hours and acquisition multiples.",
         "watch": "Budget markers and supplemental packages."
       },
       {
@@ -146,9 +146,9 @@ export const HEI: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "HEICO Corporation produced $5.2B of trailing revenue at a 24.0% operating margin and a 19.9% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The published consensus mean is $390.70 (2026-11-25), 16.8% above the latest close; this report does not publish a target of its own. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put profitability at 67/100 and valuation at 16/100, with the composite averaging 50/100. The gap between profitability at 67/100 and valuation at 16/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on profitability and the durability of 24.0% margins. The weak link is valuation.",
+      "What would change the view is the multiple falling below 44.1x earnings, not a single quarter. The key exposure is flight hours and acquisition multiples.",
+      "On the scorecard, the composite is 50/100. The spread between profitability and valuation is the useful part; the average hides it."
     ],
     "questions": [
       "How much backlog converts in the next year?",

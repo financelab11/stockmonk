@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const GDDY: StockStory = {
   "ticker": "GDDY",
   "kicker": "Enterprise Software · Software - Infrastructure",
-  "title": "GoDaddy Inc: Domains and small-business tools",
-  "dek": "GoDaddy Inc. reported $5.2B of trailing revenue at a 25.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "GoDaddy: Domains and small-business tools",
+  "dek": "GoDaddy's revenue rose 6.4% to $5.2B, at a 25.7% operating margin. The key risk is ARPU and retention.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $5.2B trailing twelve months, +6.4% year over year.",
+    "Revenue: $5.2B, +6.4% year over year.",
     "Profitability: 25.7% operating margin and 18.6% net margin.",
     "Cash: $1.7B free cash flow, a 33.7% margin, against $2.7B of net debt.",
-    "Valuation: 13.4x trailing earnings and 11.0x EV/EBITDA at the latest close."
+    "Valuation: 13.4x trailing earnings and 11.0x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const GDDY: StockStory = {
   "irUrl": "https://www.godaddy.com",
   "bigPicture": {
     "paragraphs": [
-      "GoDaddy Inc. generated $5.2B of revenue over the last twelve months, +6.4% versus the prior year. The latest reported quarter was Q3 FY26, with $1.3B of revenue and a 27.0% operating margin. The shares closed at $106.41 on Nov 25, 2026, giving a market capitalization of $12.9B.",
-      "Core Platform is 61.8% of the disclosed revenue mix. United States supplies 67.1% of disclosed revenue, the largest single geography in the filing. GoDaddy Inc. competes in Software - Infrastructure, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $12.9B, or 13.4x trailing earnings and 11.0x EV/EBITDA. The shares sit 58% of the way up their 52-week range ($71.59 to $131.74). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "GoDaddy's revenue rose 6.4% to $5.2B at a 25.7% operating margin, generating $1.7B of free cash flow. The latest quarter (Q3 FY26) grew 6.0%. The scale of the revenue base matters less than the margin it earns.",
+      "Core Platform is 61.8% of revenue and Applications & Commerce is 38.2%. The US is the largest geography at 67.1% of revenue. The catalyst is payments and AI. The exposure is ARPU and retention.",
+      "At $106.41, the equity is worth $12.9B, or 13.4x trailing earnings and 11.0x EV/EBITDA. The earnings multiple is 84.9% below the 88.7x peer median. The stock is 58% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "GoDaddy sells domains and small-business tools, so ARPU, payments and retention drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "GoDaddy Inc. engages in the design and development of cloud-based products in the United States and internationally. GoDaddy Inc. sits in the Software - Infrastructure industry, one of the Enterprise Software names in this library.",
-      "The disclosed mix runs across Core Platform at 61.8% and Applications & Commerce at 38.2%. The last disclosure put headcount at 5,845 people. Trailing revenue is $5.2B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The closest listed comparisons are MSFT, ORCL and SNPS; the useful question is how GoDaddy Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "GoDaddy Inc. engages in the design and development of cloud-based products in the United States and internationally.",
+      "GoDaddy does not report a product gross margin; R&D and sales and marketing sit inside the operating line, leaving a 25.7% operating margin. That is 5.4 points above the peer median of 20.3%.",
+      "Capital spending runs at 0.5% of revenue, which is low relative to the revenue base. Net debt is $2.7B, or 1.9x EBITDA. Return on invested capital was 28.8%. That is 15.7 points above the peer median of 13.0%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$5.2B on a trailing-twelve-month basis, with the latest quarter at $1.3B."
+        "title": "Revenue mix",
+        "detail": "Core Platform at 61.8% and Applications & Commerce at 38.2%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 25.7%; free-cash-flow margin 33.7%; net margin 18.6%."
+        "title": "Margin engine",
+        "detail": "Operating margin 25.7%. R&D and sales and marketing are the main cost line, so incremental revenue matters more than product mix."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $12.9B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 0.5% of revenue; $2.7B of net debt; ROIC 28.8%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 25.7% is the first clean profitability line. The model depends on net revenue retention, sales efficiency and the cost of acquiring the next customer.",
-      "Net debt is $2.7B, or 1.9x EBITDA. Return on invested capital was 28.8%, while the reported return on equity is negative because the equity base is negative. The operating return is the one to use when judging reinvestment."
+      "Subscriptions and seat or usage growth drive revenue; retention and sales efficiency drive the margin. The edge is domain and small-business tools.",
+      "The operating margin is 25.7%, 5.4 points above the peer median of 20.3%. Retention and sales efficiency decide whether subscription growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 9.3% a year across the fiscal years in the dataset, and the latest quarter changed +6.0% year over year. Current-year estimates call for $5.3B of revenue and $7.55 of EPS.",
-      "The operating margin of 25.7% and return on invested capital of 28.8% are the filters to watch as revenue scales. The 25.7% operating margin gives the company room to absorb slower growth without a profit reset."
+      "Revenue compounded at 9.3% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 6.0% year over year. The current-year consensus looks for $5.3B of revenue and $7.55 of EPS.",
+      "The next leg depends on payments and AI. For GoDaddy, subscription growth is only worth paying for if retention and sales efficiency hold. Growth is only valuable if the new revenue earns a similar return to the existing business."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. Revenue growth is +6.4%."
+        "detail": "Expansion within existing customers compounds revenue. Revenue growth is 6.4%."
       },
       {
         "title": "New customer adds",
-        "detail": "The operating margin is 25.7%. New logos broaden the base and fund future expansion."
+        "detail": "New logos broaden the base and fund future expansion. The operating margin is 25.7%."
       },
       {
         "title": "Operating leverage",
-        "detail": "Scale should improve margins as sales and R&D mature. The current reading: return on invested capital is 28.8%."
+        "detail": "Scale should improve margins as sales and R&D mature. Return on invested capital is 28.8%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 5.6% in FY2018 to 22.8% in FY2025. The trailing operating margin is 25.7%, the net margin is 18.6% and diluted EPS is $7.29.",
-      "Return on equity was -692.8% and return on invested capital was 28.8%. Return on equity is negative because the equity base is negative; the 28.8% return on invested capital is the better measure of the operating business."
+      "The operating margin moved from 5.6% in FY2018 to 22.8% in FY2025. The trailing operating margin is 25.7%, the net margin is 18.6%, and diluted EPS is $7.29, up 25.9% year over year.",
+      "Return on equity is negative because the equity base is negative; the 28.8% return on invested capital is the operating measure that matters. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.7B, a 33.7% margin. Net debt is $2.7B, or 1.9x EBITDA. Capital expenditure was 0.5% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $1.6B, or 182.8% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $23.9M in the latest fiscal year."
+      "Free cash flow was $1.7B, or 33.7% of revenue. Operating cash flow covered 182.8% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 0.5% of revenue, which is low relative to the revenue base.",
+      "Net debt is $2.7B, or 1.9x EBITDA. Interest cover is 8.9x. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 13.4x trailing earnings, 11.0x EV/EBITDA and 3.0x EV/sales. The free-cash-flow yield is 13.5%. The 7.5% earnings yield and 13.5% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against MSFT, ORCL and SNPS; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $106.41, the shares trade at 13.4x trailing earnings and 11.0x EV/EBITDA, with a 13.5% free-cash-flow yield. The earnings yield is 7.5%. The earnings multiple is 84.9% below the 88.7x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "16 analysts contribute to the third-party consensus. The mean target is $118.94, with a range of $76.00 to $170.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $5.3B of revenue and $7.55 of EPS. The estimate revisions in the dataset are 2.1% over 30 days and 2.0% over 90 days. That implies growth of 1.5% over the trailing twelve months."
+      "16 analysts in the third-party consensus carry a mean target of $118.94, 11.8% above the latest close. The range runs from $76.00 to $170.00. The target range is wide enough that the mean should be read with caution. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $5.3B of revenue and $7.55 of EPS. EPS estimates are up 2.1% over 30 days and up 2.0% over 90 days. That implies 1.5% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is payments and AI versus ARPU and retention.",
     "items": [
       {
-        "title": "Competition",
+        "title": "ARPU and retention",
         "severity": "High",
-        "detail": "Feature parity and bundling can pressure pricing.",
+        "detail": "The main risk is ARPU and retention.",
         "watch": "Win rates and average contract value."
       },
       {
@@ -146,9 +146,9 @@ export const GDDY: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "GoDaddy Inc. produced $5.2B of trailing revenue at a 25.7% operating margin and a 33.7% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
-      "The third-party consensus mean is $118.94 as of 2026-11-25, 11.8% above the latest close; it is a consensus view, not a recommendation from Stockmonk. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put cash generation at 88/100 and balance sheet at 27/100, with the composite averaging 64/100. A 88/100 cash generation score against a 27/100 balance sheet score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on cash generation and the durability of 25.7% margins. $2.7B of net debt is the weak link.",
+      "What would change the view is leverage falling below 1.4x EBITDA, not a single quarter. The key exposure is ARPU and retention.",
+      "The composite of 64/100 blends a strong cash generation reading with a weak balance sheet one; the gap is the story."
     ],
     "questions": [
       "How much growth comes from existing customers?",

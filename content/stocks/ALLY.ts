@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const ALLY: StockStory = {
   "ticker": "ALLY",
   "kicker": "Banks & Insurance · Credit Services",
-  "title": "Ally Financial Inc: A digital bank with a large auto-finance book",
-  "dek": "Ally Financial Inc. reported $1.2B of trailing revenue at a 153.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Ally Financial: A digital bank with a large auto-finance book",
+  "dek": "Ally Financial's revenue was flat at $1.2B. The key risk is a weaker used-car market and higher charge-offs.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $1.2B trailing twelve months, -2.0% year over year.",
-    "Profitability: 153.8% operating margin and 121.2% net margin.",
-    "Cash: n/a free cash flow, a n/a margin, against $17.2B of net debt.",
-    "Valuation: 7.6x trailing earnings and 8.4x EV/EBITDA at the latest close."
+    "Revenue: $1.2B, -2.0% year over year.",
+    "Profitability: operating margin not meaningful; net margin not meaningful.",
+    "Cash: free cash flow is not meaningful at this stage.",
+    "Valuation: 7.6x trailing earnings and 8.4x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const ALLY: StockStory = {
   "irUrl": "https://www.ally.com",
   "bigPicture": {
     "paragraphs": [
-      "Ally Financial Inc. generated $1.2B of revenue over the last twelve months, -2.0% versus the prior year. The latest reported quarter was Q3 FY26, with $311M of revenue and an 182.3% operating margin. The shares closed at $37.94 on Nov 25, 2026, giving a market capitalization of $11.4B.",
-      "The largest disclosed segment is Insurance Operations at 78.9% of revenue. No country-level revenue split is carried in the data used here. The moat is a low-cost digital deposit franchise and dealer relationships in auto lending.",
-      "At the latest close the equity is valued at $11.4B, or 7.6x trailing earnings and 8.4x EV/EBITDA. The shares sit 18% of the way up their 52-week range ($35.92 to $47.29). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Ally Financial's revenue was flat at $1.2B, with a 9.9% return on equity. The latest quarter (Q3 FY26) grew 1.0%. The return on equity and credit costs are the next things to test.",
+      "Insurance Operations is 78.9% of revenue and Automotive Finance Operations is 11.1%. The near-term driver is deposit growth, credit normalization and the trajectory of the auto book. The risk is a weaker used-car market and higher charge-offs.",
+      "At $37.94, the equity is worth $11.4B, or 7.6x trailing earnings and 8.4x EV/EBITDA. The earnings multiple is 68.9% below the 24.5x peer median. The stock is 18% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
-    "quote": "Ally is a digital bank with a large auto-finance book, so deposits, credit losses and used-car values drive the earnings. The shares trade below book because the market is pricing credit risk; the debate is whether losses are peaking."
+    "quote": "Ally is a digital bank with a large auto-finance book, so deposits, credit losses and used-car values drive the earnings."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Ally Financial Inc., a digital financial-services company, provides various digital financial products and services in the United States and Canada. Ally Financial Inc. is a Credit Services company within the Banks & Insurance coverage group.",
-      "The disclosed mix runs across Insurance Operations at 78.9%, Automotive Finance Operations at 11.1% and Corporate / other at 10.0%. The company employed 10,300 people at the last reporting date. The revenue base is $1.2B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "V, MA and AXP provide the closest reference points on net interest margin, credit quality and capital returns."
+      "Ally Financial Inc., a digital financial-services company, provides various digital financial products and services in the United States and Canada.",
+      "The operating margin is not meaningful on the current data. Funding costs and credit losses remain the main cost line, so the margin trend is the number to watch.",
+      "Capital is regulatory rather than physical: CET1, deposit funding and book value matter more than capex. Return on equity was 9.9%, and the relevant comparison is with other regional banks."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$1.2B on a trailing-twelve-month basis, with the latest quarter at $311M."
+        "title": "Revenue mix",
+        "detail": "Insurance Operations at 78.9%, Automotive Finance Operations at 11.1% and Corporate / other at 10.0%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 153.8%; free-cash-flow margin n/a; net margin 121.2%."
+        "title": "Margin engine",
+        "detail": "The operating margin is not meaningful on the current data. Funding costs and credit losses are the cost line to watch."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $11.4B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Deposits and CET1 are the capital base; ROE 9.9%, ROIC 3.7%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 153.8% is the first clean profitability line. The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns.",
-      "For a bank, deposit funding and capital ratios matter more than a conventional net-debt measure. Return on equity was 9.9%; for a bank, that return is shaped by leverage and credit costs rather than by a product gross margin."
+      "Net interest income, fees and credit costs drive revenue and margin. The moat is a low-cost digital deposit franchise and dealer relationships in auto lending.",
+      "The bank earns a spread between asset yields and deposit costs. For a bank, deposits and regulatory capital matter more than a conventional net-debt figure. Return on equity was 9.9%; the key variables are net interest margin, credit costs and capital returns."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -19.8% a year across the fiscal years in the dataset, and the latest quarter changed +1.0% year over year. Current-year estimates point to 14.5% revenue growth, with EPS of 5.00 in the reporting currency.",
-      "Return on equity of 9.9% is the filter to watch as revenue scales. Revenue growth of -2.0% is the top-line signal; the quality of that growth depends on net interest margin and credit costs."
+      "Reported revenue growth is not a clean like-for-like measure for a bank because the revenue line moves with rates and balance-sheet mix. The latest quarter (Q3 FY26) grew 1.0% year over year. The current-year consensus looks for 14.5% revenue growth, with EPS of 5.00 in the reporting currency.",
+      "The next leg depends on deposit growth, credit normalization and the trajectory of the auto book. The top line is shrinking, so the margin has to be defended on a smaller base."
     ],
     "bullets": [
       {
         "title": "Net interest income",
-        "detail": "Loan and securities yields less funding costs are the core revenue line. The current reading: revenue growth is -2.0%."
+        "detail": "Loan and securities yields less funding costs are the core revenue line. Revenue growth is -2.0%."
       },
       {
         "title": "Fee income",
-        "detail": "The operating margin is 153.8%. The direction of travel matters more than the absolute level."
+        "detail": "Advisory, asset management and trading diversify the revenue base. Net interest margin and credit costs are the key variables; revenue growth is -2.0%."
       },
       {
         "title": "Capital returns",
@@ -73,33 +73,33 @@ export const ALLY: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 27.9% in FY2018 to 84.5% in FY2025. The trailing operating margin is 153.8%, the net margin is 121.2% and diluted EPS is $4.37.",
-      "Return on equity was 9.9%. A bank's equity return is shaped by leverage and credit costs; the operating margin is not the right yardstick. The trend in return on equity and the path of credit costs matter more than a single quarter."
+      "For a bank, the operating margin is a spread measure and the reported history is not comparable across rate cycles. Return on equity was 9.9%, and diluted EPS was $4.37.",
+      "Return on equity was 9.9%. For a bank, return on invested capital is distorted by deposit funding; net interest margin, credit costs and capital ratios are the more useful comparisons."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was n/a, a n/a margin. For a bank, deposit funding and capital ratios matter more than a conventional net-debt measure. For a bank, cash flow is shaped by balance-sheet movements, so the margin is less comparable than it is for an industrial.",
-      "Operating cash flow was $3.7B, or 437.7% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $0 in the latest fiscal year."
+      "Free cash flow is not meaningful for a bank; operating cash flow and balance-sheet movements are the better indicators. Operating cash flow and the balance sheet are the better tests at this stage.",
+      "For a bank, deposits and regulatory capital matter more than a conventional net-debt figure. Cash flow is shaped by balance-sheet movements, so the free-cash-flow margin is less comparable than it is for an industrial."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 7.6x trailing earnings, 8.4x EV/EBITDA and 23.2x EV/sales. The free-cash-flow yield is n/a. For a bank, price-to-book and P/E are more relevant than EV/EBITDA.",
-      "The shares trade below book because the market is pricing credit risk; the debate is whether losses are peaking. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $37.94, the shares trade at 7.6x trailing earnings and 8.4x EV/EBITDA. The earnings yield is 13.1%. The earnings multiple is 68.9% below the 24.5x peer median.",
+      "The shares trade below book because the market is pricing credit risk; the debate is whether losses are peaking. The multiple is below the peer median, so some of the risk is already in the price. For a bank, price-to-book and P/E are more relevant than EV/EBITDA."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "18 analysts contribute to the third-party consensus. The mean target is $47.34, with a range of $40.00 to $56.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates point to 14.5% revenue growth, with EPS of 5.00 in the reporting currency. The estimate revisions in the dataset are -1.0% over 30 days and -4.7% over 90 days."
+      "18 analysts in the third-party consensus carry a mean target of $47.34, 24.8% above the latest close. The range runs from $40.00 to $56.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for 14.5% revenue growth, with EPS of 5.00 in the reporting currency. EPS estimates are down 1.0% over 30 days and down 4.7% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
+    "intro": "The central tension is deposit growth, credit normalization and the trajectory of the auto book versus a weaker used-car market and higher charge-offs.",
     "items": [
       {
-        "title": "The main risk",
+        "title": "A weaker used-car market and higher charge-offs",
         "severity": "High",
         "detail": "A weaker used-car market and higher charge-offs can force provisions that overwhelm net interest income.",
         "watch": "Provisions, charge-offs and non-performing loans."
@@ -146,9 +146,9 @@ export const ALLY: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Ally Financial Inc. produced $1.2B of trailing revenue at a 153.8% operating margin and a n/a free-cash-flow margin. Net debt of $17.2B, or 5.1x EBITDA, is the constraint that shapes the equity story.",
-      "Third-party analysts put the mean target at $47.34 as of 2026-11-25, 24.8% above the latest close; it is included for attribution, not as a Stockmonk call. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put valuation at 93/100 and balance sheet at 6/100, with the composite averaging 45/100. The average hides a strong valuation reading and a weak balance sheet one, which is why the spread is the more useful description."
+      "The investment case rests on valuation and the durability of 9.9% returns on equity. $17.2B of net debt is the weak link.",
+      "What would change the view is leverage falling below 4.6x EBITDA, not a single quarter. The key exposure is a weaker used-car market and higher charge-offs.",
+      "On the scorecard, the composite is 45/100. The spread between valuation and balance sheet is the useful part; the average hides it."
     ],
     "questions": [
       "How much of net interest income is rate-sensitive?",

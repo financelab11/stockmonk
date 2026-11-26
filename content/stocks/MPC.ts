@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const MPC: StockStory = {
   "ticker": "MPC",
   "kicker": "Energy · Oil & Gas Refining & Marketing",
-  "title": "Marathon Petroleum Corporation: Marathon Petroleum refines and markets fuel",
-  "dek": "Marathon Petroleum Corporation reported $174.8B of trailing revenue at a 12.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Marathon Petroleum: Marathon Petroleum refines and markets fuel",
+  "dek": "Marathon Petroleum's revenue rose 31.2% to $174.8B, at a 12.5% operating margin. The key risk is crack spreads and crude differentials.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $174.8B trailing twelve months, +31.2% year over year.",
+    "Revenue: $174.8B, +31.2% year over year.",
     "Profitability: 12.5% operating margin and 8.4% net margin.",
     "Cash: $20.8B free cash flow, an 11.9% margin, against $19.4B of net debt.",
-    "Valuation: 6.4x trailing earnings and 4.5x EV/EBITDA at the latest close."
+    "Valuation: 6.4x trailing earnings and 4.5x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const MPC: StockStory = {
   "irUrl": "https://www.marathonpetroleum.com",
   "bigPicture": {
     "paragraphs": [
-      "Marathon Petroleum Corporation generated $174.8B of revenue over the last twelve months, +31.2% versus the prior year. The latest reported quarter was Q3 FY26, with $56B of revenue and an 18.7% operating margin. The shares closed at $346.08 on Nov 25, 2026, giving a market capitalization of $94.3B.",
-      "Refining & Marketing is 93.7% of the disclosed revenue mix. Geographic revenue detail is not available in the current dataset. Marathon Petroleum Corporation competes in Oil & Gas Refining & Marketing, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $94.3B, or 6.4x trailing earnings and 4.5x EV/EBITDA. The shares sit 55% of the way up their 52-week range ($161.93 to $493.98). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Marathon Petroleum's revenue rose 31.2% to $174.8B at a 12.5% operating margin, generating $20.8B of free cash flow. The latest quarter (Q3 FY26) grew 61.0%.",
+      "Refining & Marketing is 93.7% of revenue and Midstream is 8.7%. The catalyst is utilization and capital returns. The exposure is crack spreads and crude differentials.",
+      "At $346.08, the equity is worth $94.3B, or 6.4x trailing earnings and 4.5x EV/EBITDA. The stock is 55% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Marathon Petroleum refines and markets fuel, a crack-spread business where utilisation, crude differentials and midstream integration drive cash flow."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Marathon Petroleum Corporation, together with its subsidiaries, operates as an integrated downstream energy company in the United States. The company operates through three segments: Refining & Marketing; Midstream; and Renewable Diesel.",
-      "The disclosed mix runs across Refining & Marketing at 93.7% and Midstream at 8.7%. The last disclosure put headcount at 18,500 people. Trailing revenue is $174.8B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The closest listed comparisons are BKR, CTRA and DVN; the useful question is how Marathon Petroleum Corporation's margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Marathon Petroleum Corporation, together with its subsidiaries, operates as an integrated downstream energy company in the United States.",
+      "Marathon Petroleum earned a 15.9% gross margin, and lifting costs, royalties and maintenance absorbed 3.4% of revenue, leaving a 12.5% operating margin. ",
+      "Capital spending runs at 2.0% of revenue, which is low relative to the revenue base. Net debt is $19.4B, or 0.8x EBITDA. Return on invested capital was 30.8%. "
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$174.8B on a trailing-twelve-month basis, with the latest quarter at $56B."
+        "title": "Revenue mix",
+        "detail": "Refining & Marketing at 93.7% and Midstream at 8.7%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 12.5%; free-cash-flow margin 11.9%; net margin 8.4%."
+        "title": "Margin engine",
+        "detail": "Gross margin 15.9%, operating margin 12.5%. Lifting costs, royalties and maintenance are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $94.3B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 2.0% of revenue; $19.4B of net debt; ROIC 30.8%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $174.8B of revenue, $27.8B remained after cost of sales. The 3.4% operating-expense load brought that down to a 12.5% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "Net debt is $19.4B, or 0.8x EBITDA. Return on invested capital was 30.8% and return on equity was 63.0%. The return leaves room above the cost of capital for growth to compound."
+      "Commodity prices, production volumes and differentials drive revenue and cash flow. The edge is refining scale and midstream integration.",
+      "The operating margin is 12.5%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 6.4% a year across the fiscal years in the dataset, and the latest quarter changed +61.0% year over year. Current-year estimates call for $184.3B of revenue and $67.53 of EPS.",
-      "The operating margin of 12.5% and return on invested capital of 30.8% are the filters to watch as revenue scales. Neither the 31.2% growth nor the 12.5% margin is extreme; the combination is what matters."
+      "Revenue compounded at 6.4% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 61.0% year over year. The current-year consensus looks for $184.3B of revenue and $67.53 of EPS.",
+      "The next leg depends on utilization and capital returns. For Marathon Petroleum, production growth is only worth paying for if the reinvestment return clears the cost of capital."
     ],
     "bullets": [
       {
         "title": "Commodity prices",
-        "detail": "Oil, gas and power prices flow quickly into revenue and cash flow. Revenue growth is +31.2%."
+        "detail": "Oil, gas and power prices flow quickly into revenue and cash flow. Revenue growth is 31.2%."
       },
       {
         "title": "Production growth",
-        "detail": "The operating margin is 12.5%. Volumes from existing and new projects determine the revenue base."
+        "detail": "Volumes from existing and new projects determine the revenue base. The operating margin is 12.5%."
       },
       {
         "title": "Capital discipline",
-        "detail": "Lower reinvestment can lift free cash flow and returns. The current reading: return on invested capital is 30.8%."
+        "detail": "Lower reinvestment can lift free cash flow and returns. Return on invested capital is 30.8%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 5.4% in FY2018 to 6.2% in FY2025. The trailing operating margin is 12.5%, the net margin is 8.4% and diluted EPS is $51.12.",
-      "Return on equity was 63.0% and return on invested capital was 30.8%. The 32.3% gap between return on equity and return on invested capital points to leverage or goodwill in the capital base, so the equity return overstates the operating return."
+      "The operating margin moved from 5.4% in FY2018 to 6.2% in FY2025. The trailing operating margin is 12.5%, the net margin is 8.4%, and diluted EPS is $51.12.",
+      "Return on equity of 63.0% is well above the 30.8% return on invested capital; leverage or acquisition goodwill explains most of the gap. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $20.8B, an 11.9% margin. Net debt is $19.4B, or 0.8x EBITDA. Capital expenditure was 2.0% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $8.3B, or 203.9% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $3.5B in the latest fiscal year."
+      "Free cash flow was $20.8B, or 11.9% of revenue. Operating cash flow covered 203.9% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 2.0% of revenue, which is low relative to the revenue base.",
+      "Net debt is $19.4B, or 0.8x EBITDA. Interest cover is 12.9x. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 6.4x trailing earnings, 4.5x EV/EBITDA and 0.7x EV/sales. The free-cash-flow yield is 22.1%. The 15.5% earnings yield and 22.1% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against BKR, CTRA and DVN; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $346.08, the shares trade at 6.4x trailing earnings and 4.5x EV/EBITDA, with a 22.1% free-cash-flow yield. The earnings yield is 15.5%. The peer comparison is a starting point; the company's own history is the second reference.",
+      "The multiple implies the market expects little growth and assumes the current margin is close to peak. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "17 analysts contribute to the third-party consensus. The mean target is $447.18, with a range of $236.00 to $564.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $184.3B of revenue and $67.53 of EPS. The estimate revisions in the dataset are 1.6% over 30 days and 33.0% over 90 days. That implies growth of 5.5% over the trailing twelve months."
+      "17 analysts in the third-party consensus carry a mean target of $447.18, 29.2% above the latest close. The range runs from $236.00 to $564.00. Analysts disagree on the outcome; the mean is a weak summary of a wide range. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $184.3B of revenue and $67.53 of EPS. EPS estimates are up 1.6% over 30 days and up 33.0% over 90 days. That implies 5.5% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is utilization and capital returns versus crack spreads and crude differentials.",
     "items": [
       {
-        "title": "Commodity prices",
+        "title": "Crack spreads and crude differentials",
         "severity": "High",
-        "detail": "A price decline can cut revenue and cash flow sharply.",
+        "detail": "The main risk is crack spreads and crude differentials.",
         "watch": "Realised prices and hedging."
       },
       {
@@ -146,9 +146,9 @@ export const MPC: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Marathon Petroleum Corporation produced $174.8B of trailing revenue at a 12.5% operating margin and an 11.9% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "The third-party consensus mean is $447.18 as of 2026-11-25, 29.2% above the latest close; it is a consensus view, not a recommendation from Stockmonk. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put valuation at 99/100 and cash generation at 44/100, with the composite averaging 70/100. A 99/100 valuation score against a 44/100 cash generation score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on valuation and the durability of 12.5% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above 14.9%, not a single quarter. The key exposure is crack spreads and crude differentials.",
+      "The composite of 70/100 blends a strong valuation reading with a weak cash generation one; the gap is the story."
     ],
     "questions": [
       "What price is needed to cover capex and the dividend?",

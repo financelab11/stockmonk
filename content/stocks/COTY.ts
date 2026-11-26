@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const COTY: StockStory = {
   "ticker": "COTY",
   "kicker": "Consumer Retail & Leisure · Household & Personal Products",
-  "title": "Coty Inc: Prestige and consumer beauty brands",
-  "dek": "Coty Inc. reported $5.8B of trailing revenue at a -1.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Coty: Prestige and consumer beauty brands",
+  "dek": "Coty's revenue was flat at $5.8B, at a -1.7% operating margin. The key risk is travel retail and brand momentum.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $5.8B trailing twelve months, -0.2% year over year.",
+    "Revenue: $5.8B, -0.2% year over year.",
     "Profitability: -1.7% operating margin and -9.7% net margin.",
     "Cash: $421.6M free cash flow, a 7.3% margin, against $2.5B of net debt.",
-    "Valuation: no meaningful trailing earnings multiple and 16.6x EV/EBITDA at the latest close."
+    "Valuation: no meaningful earnings multiple and 16.6x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const COTY: StockStory = {
   "irUrl": "https://www.coty.com",
   "bigPicture": {
     "paragraphs": [
-      "Coty Inc. generated $5.8B of revenue over the last twelve months, -0.2% versus the prior year. The latest reported quarter was Q1 FY27, with $1.6B of revenue and an 11.0% operating margin. The shares closed at $4.24 on Nov 25, 2026, giving a market capitalization of $3.7B.",
-      "Prestige contributes 65.5% of the disclosed revenue mix. By geography, United States is the largest disclosed market at 24.6% of revenue. Coty Inc. competes in Household & Personal Products, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $3.7B, or no meaningful trailing earnings multiple and 16.6x EV/EBITDA. The shares sit 95% of the way up their 52-week range ($1.82 to $4.37). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Coty's revenue was flat at $5.8B at a -1.7% operating margin, generating $421.6M of free cash flow. The latest quarter (Q1 FY27) fell 1.4%. The consensus estimate and the current multiple frame the near-term debate.",
+      "Prestige is 65.5% of revenue and Consumer Beauty is 34.5%. The US is the largest geography at 24.6% of revenue. The upside is prestige growth and margin expansion. What would break it is travel retail and brand momentum.",
+      "At $4.24, the equity is worth $3.7B, or no meaningful earnings multiple and 16.6x EV/EBITDA. The stock is 95% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Coty sells prestige and consumer beauty brands, a brand portfolio where pricing, innovation and channel mix determine margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Coty Inc., together with its subsidiaries, manufactures, markets, distributes, and sells branded beauty products in the United States and internationally. It reports in the Consumer Defensive sector and is classified in Consumer Retail & Leisure coverage.",
-      "The disclosed mix runs across Prestige at 65.5% and Consumer Beauty at 34.5%. Its latest filing lists 11,335 employees. With $5.8B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "PG, CL and ELF provide the closest reference points for margin, growth and valuation."
+      "Coty Inc., together with its subsidiaries, manufactures, markets, distributes, and sells branded beauty products in the United States and internationally.",
+      "Coty earned a 62.6% gross margin, and cost of goods, occupancy and labor absorbed 64.2% of revenue, leaving a -1.7% operating margin. That is 15.0 points below the peer median of 13.3%.",
+      "Capex is 3.3% of revenue, so the business is asset-light. Net debt is $2.5B, or 6.7x EBITDA. Return on invested capital was -1.3%. That is 13.8 points below the peer median of 12.5%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$5.8B on a trailing-twelve-month basis, with the latest quarter at $1.6B."
+        "title": "Revenue mix",
+        "detail": "Prestige at 65.5% and Consumer Beauty at 34.5%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -1.7%; free-cash-flow margin 7.3%; net margin -9.7%."
+        "title": "Margin engine",
+        "detail": "Gross margin 62.6%, operating margin -1.7%. Cost of goods, occupancy and labor are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $3.7B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.3% of revenue; $2.5B of net debt; ROIC -1.3%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 62.6% of revenue after cost of sales, or $3.6B. Operating expenses absorbed 64.2% of revenue, leaving a -1.7% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $2.5B, or 6.7x EBITDA. Return on invested capital was -1.3% and return on equity was -18.1%. The negative return means the capital base is not earning its cost; the question is whether scale or a margin recovery fixes that."
+      "Traffic, basket size and inventory turns drive revenue; markdowns and occupancy drive the margin. The edge is prestige beauty brands and licences.",
+      "The operating margin is -1.7%, 15.0 points below the peer median of 13.3%. Inventory turns and markdown discipline decide whether volume growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -1.1% a year across the fiscal years in the dataset, and the latest quarter changed -1.4% year over year. Current-year estimates call for $5.7B of revenue and $0.36 of EPS.",
-      "The operating margin of -1.7% and return on invested capital of -1.3% are the filters to watch as revenue scales. The trailing decline of 0.2% means the margin has to be defended on a smaller base."
+      "Revenue compounded at -1.1% a year from FY2019 to FY2026. The latest quarter (Q1 FY27) fell 1.4% year over year. The current-year consensus looks for $5.7B of revenue and $0.36 of EPS.",
+      "The next leg depends on prestige growth and margin expansion. The top line is shrinking, so the margin has to be defended on a smaller base."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Revenue growth is -0.2%. That is the metric the thesis depends on."
+        "detail": "Same-store growth shows demand without new square footage. Revenue growth is -0.2%."
       },
       {
         "title": "Unit growth",
@@ -67,42 +67,42 @@ export const COTY: StockStory = {
       },
       {
         "title": "Merchandise margin",
-        "detail": "Return on invested capital is -1.3%. Private label, sourcing and markdown discipline determine gross margin."
+        "detail": "Private label, sourcing and markdown discipline determine gross margin. Return on invested capital is -1.3%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -58.7% in FY2019 to -1.4% in FY2026. The trailing operating margin is -1.7%, the net margin is -9.7% and diluted EPS is -$0.65.",
-      "Return on equity was -18.1% and return on invested capital was -1.3%. With negative returns on both equity and invested capital, the business is consuming capital rather than earning on it."
+      "The operating margin moved from -58.7% in FY2019 to -1.4% in FY2026. The trailing operating margin is -1.7%, the net margin is -9.7%, and diluted EPS is -$0.65, up 41.3% year over year.",
+      "With both returns below zero, the thesis depends on reaching profitability, not on financial engineering. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $421.6M, a 7.3% margin. Net debt is $2.5B, or 6.7x EBITDA. Capex absorbed 3.3% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $189.6M in the latest fiscal year."
+      "Free cash flow was $421.6M, or 7.3% of revenue. Capex absorbed 3.3% of revenue, which is low relative to the revenue base. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "Net debt is $2.5B, or 6.7x EBITDA. Interest cover is -0.6x. Leverage is the constraint: the equity is sensitive to refinancing costs and a slower cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, 16.6x EV/EBITDA and 1.1x EV/sales. The free-cash-flow yield is 11.3%. Earnings are not a useful anchor here, so the free-cash-flow yield is the cleaner valuation reference.",
-      "The peer comparison sets the company against PG, CL and ELF; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $4.24, the shares trade at no meaningful earnings multiple and 16.6x EV/EBITDA, with an 11.3% free-cash-flow yield. The valuation debate is about durability, not the next quarter.",
+      "No earnings multiple is meaningful, so the market is valuing the asset base or the pipeline rather than current profit. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "14 analysts contribute to the third-party consensus. The mean target is $3.41, with a range of $1.50 to $4.50. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $5.7B of revenue and $0.36 of EPS. The estimate revisions in the dataset are 8.6% over 30 days and 3.5% over 90 days. The estimate is consistent with a decline of 1.0% on the trailing revenue figure."
+      "14 analysts in the third-party consensus carry a mean target of $3.41, 19.7% below the latest close. The range runs from $1.50 to $4.50. Analysts disagree on the outcome; the mean is a weak summary of a wide range. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $5.7B of revenue and $0.36 of EPS. EPS estimates are up 8.6% over 30 days and up 3.5% over 90 days. That implies a 1.0% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is prestige growth and margin expansion versus travel retail and brand momentum.",
     "items": [
       {
-        "title": "Leverage",
+        "title": "Travel retail and brand momentum",
         "severity": "High",
-        "detail": "Net debt is $2.5B, or 6.7x EBITDA, which leaves the equity sensitive to refinancing costs and a slower cash flow.",
-        "watch": "Leverage, interest cover and the maturity profile."
+        "detail": "The main risk is travel retail and brand momentum.",
+        "watch": "Comparable sales and transaction counts."
       },
       {
         "title": "Inventory",
@@ -146,9 +146,9 @@ export const COTY: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Coty Inc. produced $5.8B of trailing revenue at a -1.7% operating margin and a 7.3% free-cash-flow margin. With leverage at 6.7x EBITDA, the balance sheet is the first thing the cash flow has to service.",
-      "The consensus target is $3.41 as of 2026-11-25, 19.7% below the latest close; the figure belongs to the analysts who published it, not to this report. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 77/100 and balance sheet at 3/100, with the composite averaging 32/100. The gap between valuation at 77/100 and balance sheet at 3/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on valuation and the durability of -1.7% margins. $2.5B of net debt is the weak link.",
+      "What would change the view is leverage falling below 6.2x EBITDA, not a single quarter. The key exposure is travel retail and brand momentum.",
+      "The scorecard averages 32/100, but the dispersion matters more: valuation is 77/100 and balance sheet is 3/100."
     ],
     "questions": [
       "Is growth coming from traffic or price?",

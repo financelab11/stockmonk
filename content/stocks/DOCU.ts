@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const DOCU: StockStory = {
   "ticker": "DOCU",
   "kicker": "Enterprise Software · Software - Application",
-  "title": "DocuSign, Inc: E-signature and agreement software",
-  "dek": "DocuSign, Inc. reported $3.4B of trailing revenue at a 12.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "DocuSign: E-signature and agreement software",
+  "dek": "DocuSign's revenue rose 8.6% to $3.4B, at a 12.0% operating margin. The key risk is seat growth and competition.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $3.4B trailing twelve months, +8.6% year over year.",
+    "Revenue: $3.4B, +8.6% year over year.",
     "Profitability: 12.0% operating margin and 9.8% net margin.",
     "Cash: $1.2B free cash flow, a 35.7% margin, against $528.2M of net cash.",
-    "Valuation: 45.5x trailing earnings and 27.6x EV/EBITDA at the latest close."
+    "Valuation: 45.5x trailing earnings and 27.6x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const DOCU: StockStory = {
   "irUrl": "https://www.docusign.com",
   "bigPicture": {
     "paragraphs": [
-      "DocuSign, Inc. generated $3.4B of revenue over the last twelve months, +8.6% versus the prior year. The latest reported quarter was Q2 FY27, with $875.7M of revenue and a 13.4% operating margin. The shares closed at $80.26 on Nov 25, 2026, giving a market capitalization of $15B.",
-      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. By geography, United States is the largest disclosed market at 70.6% of revenue. DocuSign, Inc. competes in Software - Application, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $15B, or 45.5x trailing earnings and 27.6x EV/EBITDA. The shares sit 88% of the way up their 52-week range ($40.16 to $85.90). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "DocuSign's revenue rose 8.6% to $3.4B at a 12.0% operating margin, generating $1.2B of free cash flow. The latest quarter (Q2 FY27) grew 9.4%. The market is already paying for a view; the financials are the check.",
+      "Revenue is reported as one consolidated line. The US is the largest geography at 70.6% of revenue. The upside is IAM and margin. What would break it is seat growth and competition.",
+      "At $80.26, the equity is worth $15B, or 45.5x trailing earnings and 27.6x EV/EBITDA. The earnings multiple is 162.4% above the 17.3x peer median. The stock is 88% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "DocuSign sells e-signature and agreement software, a mature SaaS business where retention and expansion matter."
   },
   "whatItDoes": {
     "paragraphs": [
-      "DocuSign, Inc. provides electronic signature solution in the United States and internationally. It reports in the Technology sector and is classified in Enterprise Software coverage.",
-      "Revenue is reported at the consolidated level only. Its latest filing lists 7,044 employees. Trailing revenue is $3.4B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "CDNS, NOW and INTU provide the closest reference points for margin, growth and valuation."
+      "DocuSign, Inc. provides electronic signature solution in the United States and internationally.",
+      "DocuSign earned a 79.5% gross margin, and R&D and sales and marketing absorbed 67.5% of revenue, leaving a 12.0% operating margin. That is 16.2 points below the peer median of 28.2%.",
+      "Capex is 3.2% of revenue, so the business is asset-light. The balance sheet carries $528.2M of net cash. Return on invested capital was 17.5%. That is 2.1 points above the peer median of 15.5%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$3.4B on a trailing-twelve-month basis, with the latest quarter at $875.7M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 12.0%; free-cash-flow margin 35.7%; net margin 9.8%."
+        "title": "Margin engine",
+        "detail": "Gross margin 79.5%, operating margin 12.0%. R&D and sales and marketing are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $15B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.2% of revenue; $528.2M of net cash; ROIC 17.5%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $3.4B of revenue, $2.7B remained after cost of sales. The 67.5% operating-expense load brought that down to a 12.0% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "The balance sheet carries $528.2M of net cash. Return on invested capital was 17.5% and return on equity was 19.2%. The return leaves room above the cost of capital for growth to compound."
+      "Subscriptions and seat or usage growth drive revenue; retention and sales efficiency drive the margin. The edge is e-signature installed base.",
+      "The operating margin is 12.0%, 16.2 points below the peer median of 28.2%. Retention and sales efficiency decide whether subscription growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 24.3% a year across the fiscal years in the dataset, and the latest quarter changed +9.4% year over year. Current-year estimates call for $3.5B of revenue and $4.62 of EPS.",
-      "The operating margin of 12.0% and return on invested capital of 17.5% are the filters to watch as revenue scales. Neither the 8.6% growth nor the 12.0% margin is extreme; the combination is what matters."
+      "Revenue compounded at 24.3% a year from FY2019 to FY2026. The latest quarter (Q2 FY27) grew 9.4% year over year. The current-year consensus looks for $3.5B of revenue and $4.62 of EPS.",
+      "The next leg depends on IAM and margin. For DocuSign, subscription growth is only worth paying for if retention and sales efficiency hold. Growth is only valuable if the new revenue earns a similar return to the existing business."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Revenue growth is +8.6%. The next data point will show whether the trend is intact."
+        "detail": "Expansion within existing customers compounds revenue. Revenue growth is 8.6%."
       },
       {
         "title": "New customer adds",
@@ -67,41 +67,41 @@ export const DOCU: StockStory = {
       },
       {
         "title": "Operating leverage",
-        "detail": "Return on invested capital is 17.5%. Scale should improve margins as sales and R&D mature."
+        "detail": "Scale should improve margins as sales and R&D mature. Return on invested capital is 17.5%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -60.8% in FY2019 to 9.3% in FY2026. The trailing operating margin is 12.0%, the net margin is 9.8% and diluted EPS is $1.64.",
-      "Return on equity was 19.2% and return on invested capital was 17.5%. Return on invested capital of 17.5% is close to the 19.2% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from -60.8% in FY2019 to 9.3% in FY2026. The trailing operating margin is 12.0%, the net margin is 9.8%, and diluted EPS is $1.64, up 23.3% year over year.",
+      "Return on equity of 19.2% and return on invested capital of 17.5% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.2B, a 35.7% margin. The balance sheet carries $528.2M of net cash. Capital expenditure was 3.2% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $1.2B, or 376.9% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $106.4M in the latest fiscal year."
+      "Free cash flow was $1.2B, or 35.7% of revenue. Operating cash flow covered 376.9% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 3.2% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $528.2M of net cash. Interest cover is 170.4x. Management can fund the next phase without needing the capital markets. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 45.5x trailing earnings, 27.6x EV/EBITDA and 4.3x EV/sales. The free-cash-flow yield is 8.0%. The 2.2% earnings yield and 8.0% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against CDNS, NOW and INTU; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $80.26, the shares trade at 45.5x trailing earnings and 27.6x EV/EBITDA, with an 8.0% free-cash-flow yield. The earnings yield is 2.2%. The earnings multiple is 162.4% above the 17.3x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "15 analysts contribute to the third-party consensus. The mean target is $73.93, with a range of $60.00 to $90.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $3.5B of revenue and $4.62 of EPS. The estimate revisions in the dataset are 0.0% over 30 days and 2.2% over 90 days. The estimate is consistent with growth of 4.3% on the trailing revenue figure."
+      "15 analysts in the third-party consensus carry a mean target of $73.93, 7.9% below the latest close. The range runs from $60.00 to $90.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $3.5B of revenue and $4.62 of EPS. EPS estimates are little changed over 30 days and up 2.2% over 90 days. That implies 4.3% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is IAM and margin versus seat growth and competition.",
     "items": [
       {
-        "title": "Competition",
+        "title": "Seat growth and competition",
         "severity": "High",
-        "detail": "Feature parity and bundling can pressure pricing.",
+        "detail": "The main risk is seat growth and competition.",
         "watch": "Win rates and average contract value."
       },
       {
@@ -146,9 +146,9 @@ export const DOCU: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "DocuSign, Inc. produced $3.4B of trailing revenue at a 12.0% operating margin and a 35.7% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
-      "15 analysts in the third-party survey average $73.93 as of 2026-11-25, 7.9% below the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put cash generation at 90/100 and valuation at 22/100, with the composite averaging 59/100. A 90/100 cash generation score against a 22/100 valuation score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on cash generation and the durability of 12.0% margins. The weak link is valuation.",
+      "What would change the view is the multiple falling below 36.4x earnings, not a single quarter. The key exposure is seat growth and competition.",
+      "The scorecard averages 59/100, but the dispersion matters more: cash generation is 90/100 and valuation is 22/100."
     ],
     "questions": [
       "How much growth comes from existing customers?",

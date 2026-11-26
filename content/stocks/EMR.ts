@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const EMR: StockStory = {
   "ticker": "EMR",
   "kicker": "Industrial Automation · Specialty Industrial Machinery",
-  "title": "Emerson Electric Co: Automation and software",
-  "dek": "Emerson Electric Co. reported $19B of trailing revenue at an 18.4% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Emerson Electric: Automation and software",
+  "dek": "Emerson Electric's revenue rose 5.4% to $19B, at an 18.4% operating margin. The key risk is process capex.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $19B trailing twelve months, +5.4% year over year.",
+    "Revenue: $19B, +5.4% year over year.",
     "Profitability: 18.4% operating margin and 14.2% net margin.",
     "Cash: $3.5B free cash flow, an 18.6% margin, against $10.4B of net debt.",
-    "Valuation: 31.8x trailing earnings and 19.3x EV/EBITDA at the latest close."
+    "Valuation: 31.8x trailing earnings and 19.3x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const EMR: StockStory = {
   "irUrl": "https://www.emerson.com",
   "bigPicture": {
     "paragraphs": [
-      "Emerson Electric Co. generated $19B of revenue over the last twelve months, +5.4% versus the prior year. The latest reported quarter was Q4 FY26, with $5.2B of revenue and a 19.3% operating margin. The shares closed at $155.93 on Nov 25, 2026, giving a market capitalization of $85.5B.",
-      "Final Control is 32.6% of the disclosed revenue mix. United States supplies 42.5% of disclosed revenue, the largest single geography in the filing. Emerson Electric Co. competes in Specialty Industrial Machinery, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $85.5B, or 31.8x trailing earnings and 19.3x EV/EBITDA. The shares sit 67% of the way up their 52-week range ($122.64 to $172.00). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Emerson Electric's revenue rose 5.4% to $19B at an 18.4% operating margin, generating $3.5B of free cash flow. The latest quarter (Q4 FY26) grew 7.1%.",
+      "Final Control is 32.6% of revenue and Control Systems & Software is 24.1%. The US is the largest geography at 42.5% of revenue. The catalyst is software mix and margin. The exposure is process capex.",
+      "At $155.93, the equity is worth $85.5B, or 31.8x trailing earnings and 19.3x EV/EBITDA. The earnings multiple is 5.7% above the 30.1x peer median. The stock is 67% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Emerson sells automation and software, so process-industry capex and software mix drive growth."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Emerson Electric Co., a technology and software company, provides various solutions in the Americas, Asia, the Middle East, Africa, and Europe. Emerson Electric Co. sits in the Specialty Industrial Machinery industry, one of the Industrial Automation names in this library.",
-      "The disclosed mix runs across Final Control at 32.6%, Control Systems & Software at 24.1% and Sensors at 22.7%. The last disclosure put headcount at 70,000 people. The revenue base is $19B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The closest listed comparisons are GEV, ETN and PH; the useful question is how Emerson Electric Co.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Emerson Electric Co., a technology and software company, provides various solutions in the Americas, Asia, the Middle East, Africa, and Europe.",
+      "Emerson Electric earned a 53.4% gross margin, and materials, labor and capacity absorbed 35.0% of revenue, leaving an 18.4% operating margin. That is 12.6 points above the peer median of 5.8%.",
+      "Capital spending runs at 2.3% of revenue, which is low relative to the revenue base. Net debt is $10.4B, or 2.1x EBITDA. Return on invested capital was 8.2%. That is 1.9 points above the peer median of 6.3%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$19B on a trailing-twelve-month basis, with the latest quarter at $5.2B."
+        "title": "Revenue mix",
+        "detail": "Final Control at 32.6%, Control Systems & Software at 24.1% and Sensors at 22.7%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 18.4%; free-cash-flow margin 18.6%; net margin 14.2%."
+        "title": "Margin engine",
+        "detail": "Gross margin 53.4%, operating margin 18.4%. Materials, labor and capacity are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $85.5B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 2.3% of revenue; $10.4B of net debt; ROIC 8.2%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 53.4%, operating margin is 18.4% and net margin is 14.2%. Gross profit was $10.1B, and 35.0% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "Net debt is $10.4B, or 2.1x EBITDA. Return on invested capital was 8.2% and return on equity was 13.0%. That is neither clearly good nor clearly bad without knowing the cost of capital."
+      "Industrial production, backlog and pricing drive revenue; utilization drives the margin. The edge is automation installed base.",
+      "The operating margin is 18.4%, 12.6 points above the peer median of 5.8%. What matters is whether new revenue carries the same margin as the base."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 0.5% a year across the fiscal years in the dataset, and the latest quarter changed +7.1% year over year. Current-year estimates call for $20B of revenue and $7.31 of EPS.",
-      "The operating margin of 18.4% and return on invested capital of 8.2% are the filters to watch as revenue scales. Growth of 5.4% against an 18.4% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 0.5% a year from FY2019 to FY2026. The latest quarter (Q4 FY26) grew 7.1% year over year. The current-year consensus looks for $20B of revenue and $7.31 of EPS.",
+      "The next leg depends on software mix and margin. For Emerson Electric, volume growth is only worth paying for if pricing covers input costs. The next filing should show whether the pace came from demand, pricing or acquisitions."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Orders already booked provide visibility into future revenue. Revenue growth is +5.4%."
+        "detail": "Orders already booked provide visibility into future revenue. Revenue growth is 5.4%."
       },
       {
         "title": "Aftermarket and services",
-        "detail": "The operating margin is 18.4%. Recurring service revenue can be more profitable than equipment."
+        "detail": "Recurring service revenue can be more profitable than equipment. The operating margin is 18.4%."
       },
       {
         "title": "Price and productivity",
-        "detail": "Pricing actions and cost programmes protect margins through cycles. The current reading: return on invested capital is 8.2%."
+        "detail": "Pricing actions and cost programmes protect margins through cycles. Return on invested capital is 8.2%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 15.6% in FY2019 to 18.4% in FY2026. The trailing operating margin is 18.4%, the net margin is 14.2% and diluted EPS is $4.79.",
-      "Return on equity was 13.0% and return on invested capital was 8.2%. The two returns are within a few points, at 13.0% on equity and 8.2% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 15.6% in FY2019 to 18.4% in FY2026. The trailing operating margin is 18.4%, the net margin is 14.2%, and diluted EPS is $4.79, up 19.5% year over year.",
+      "Return on equity of 13.0% and return on invested capital of 8.2% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.5B, an 18.6% margin. Net debt is $10.4B, or 2.1x EBITDA. With capital spending at 2.3% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $4B, or 147.8% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $443M in the latest fiscal year."
+      "Free cash flow was $3.5B, or 18.6% of revenue. Operating cash flow covered 147.8% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 2.3% of revenue, which is low relative to the revenue base.",
+      "Net debt is $10.4B, or 2.1x EBITDA. Leverage is only a problem if the cash flow cannot service it through a downturn. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 31.8x trailing earnings, 19.3x EV/EBITDA and 5.1x EV/sales. The free-cash-flow yield is 4.1%. The trailing earnings yield is 3.1%, against a free-cash-flow yield of 4.1%.",
-      "The peer comparison sets the company against GEV, ETN and PH; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $155.93, the shares trade at 31.8x trailing earnings and 19.3x EV/EBITDA, with a 4.1% free-cash-flow yield. The earnings yield is 3.1%. The earnings multiple is 5.7% above the 30.1x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is in line with the peer median, so the debate is company-specific."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "28 analysts contribute to the third-party consensus. The mean target is $183.11, with a range of $113.00 to $209.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $20B of revenue and $7.31 of EPS. The estimate revisions in the dataset are 0.3% over 30 days and 0.9% over 90 days. That implies growth of 5.3% over the trailing twelve months."
+      "28 analysts in the third-party consensus carry a mean target of $183.11, 17.4% above the latest close. The range runs from $113.00 to $209.00. The wide range shows how divided the published views are. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $20B of revenue and $7.31 of EPS. EPS estimates are up 0.3% over 30 days and up 0.9% over 90 days. That implies 5.3% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is software mix and margin versus process capex.",
     "items": [
       {
-        "title": "Capital-spending cycle",
+        "title": "Process capex",
         "severity": "High",
-        "detail": "Industrial demand falls when customers delay projects.",
+        "detail": "The main risk is process capex.",
         "watch": "Order trends and backlog conversion."
       },
       {
@@ -146,9 +146,9 @@ export const EMR: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Emerson Electric Co. produced $19B of trailing revenue at an 18.4% operating margin and an 18.6% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Third-party analysts put the mean target at $183.11 as of 2026-11-25, 17.4% above the latest close; it should be read as the published consensus, not as this publication's view. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put cash generation at 63/100 and balance sheet at 25/100, with the composite averaging 43/100. The readings are close enough together that the average carries most of the information; cash generation is the strongest at 63/100."
+      "The investment case rests on cash generation and the durability of 18.4% margins. $10.4B of net debt is the weak link.",
+      "What would change the view is leverage falling below 1.6x EBITDA, not a single quarter. The key exposure is process capex.",
+      "The composite of 43/100 blends a strong cash generation reading with a weak balance sheet one; the gap is the story."
     ],
     "questions": [
       "How much revenue is recurring versus project-based?",

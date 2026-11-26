@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const LH: StockStory = {
   "ticker": "LH",
   "kicker": "Healthcare Services & Devices · Diagnostics & Research",
-  "title": "Labcorp Holdings Inc: Diagnostic labs and biopharma research services",
-  "dek": "Labcorp Holdings Inc. reported $14.6B of trailing revenue at a 10.3% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Labcorp Holdings: Diagnostic labs and biopharma research services",
+  "dek": "Labcorp Holdings' revenue rose 6.0% to $14.6B, at a 10.3% operating margin. The key risk is reimbursement and volume.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $14.6B trailing twelve months, +6.0% year over year.",
+    "Revenue: $14.6B, +6.0% year over year.",
     "Profitability: 10.3% operating margin and 6.9% net margin.",
     "Cash: $1.3B free cash flow, an 8.8% margin, against $5.6B of net debt.",
-    "Valuation: 30.1x trailing earnings and 16.2x EV/EBITDA at the latest close."
+    "Valuation: 30.1x trailing earnings and 16.2x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const LH: StockStory = {
   "irUrl": "https://www.labcorp.com",
   "bigPicture": {
     "paragraphs": [
-      "Labcorp Holdings Inc. generated $14.6B of revenue over the last twelve months, +6.0% versus the prior year. The latest reported quarter was Q3 FY26, with $3.8B of revenue and a 10.6% operating margin. The shares closed at $371.67 on Nov 25, 2026, giving a market capitalization of $30.2B.",
-      "Diagnostics is 78.0% of the disclosed revenue mix. The extract carries a consolidated revenue line without a regional split. Labcorp Holdings Inc. competes in Diagnostics & Research, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $30.2B, or 30.1x trailing earnings and 16.2x EV/EBITDA. The shares sit 95% of the way up their 52-week range ($245.00 to $378.88). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Labcorp Holdings' revenue rose 6.0% to $14.6B at a 10.3% operating margin, generating $1.3B of free cash flow. The latest quarter (Q3 FY26) grew 6.9%.",
+      "Diagnostics is 78.0% of revenue and Biopharma Laboratory Services is 22.2%. The catalyst is margin and esoteric mix. The exposure is reimbursement and volume. The business is not a single homogeneous pool; the segment weights explain most of the margin difference.",
+      "At $371.67, the equity is worth $30.2B, or 30.1x trailing earnings and 16.2x EV/EBITDA. The earnings multiple is 14.3% below the 35.1x peer median. The stock is 95% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Labcorp runs diagnostic labs and biopharma research services, a volume business where reimbursement, test mix and lab efficiency drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Labcorp Holdings Inc. sits in Diagnostics & Research, one of the Healthcare Services & Devices names in this library. Labcorp Holdings Inc. sits in the Diagnostics & Research industry, one of the Healthcare Services & Devices names in this library.",
-      "The disclosed mix runs across Diagnostics at 78.0% and Biopharma Laboratory Services at 22.2%. The last disclosure put headcount at 71,000 people. With $14.6B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The closest listed comparisons are TMO, IDXX and DGX; the useful question is how Labcorp Holdings Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Labcorp Holdings operates in Diagnostics & Research.",
+      "Labcorp Holdings earned a 29.0% gross margin, and lab supplies, labor and logistics absorbed 18.7% of revenue, leaving a 10.3% operating margin. That is 10.5 points below the peer median of 20.8%.",
+      "Capital spending runs at 3.0% of revenue, which is low relative to the revenue base. Net debt is $5.6B, or 2.5x EBITDA. Return on invested capital was 8.1%. That is roughly in line with the peer median of 8.9%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$14.6B on a trailing-twelve-month basis, with the latest quarter at $3.8B."
+        "title": "Revenue mix",
+        "detail": "Diagnostics at 78.0% and Biopharma Laboratory Services at 22.2%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 10.3%; free-cash-flow margin 8.8%; net margin 6.9%."
+        "title": "Margin engine",
+        "detail": "Gross margin 29.0%, operating margin 10.3%. Lab supplies, labor and logistics are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $30.2B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.0% of revenue; $5.6B of net debt; ROIC 8.1%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 29.0% of revenue after cost of sales, or $4.2B. Operating expenses absorbed 18.7% of revenue, leaving a 10.3% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $5.6B, or 2.5x EBITDA. Return on invested capital was 8.1% and return on equity was 11.3%. The return is close enough to the cost of capital that small changes in margin matter."
+      "Test volume and reimbursement per test drive revenue; mix toward esoteric testing lifts price. The edge is lab network and test menu.",
+      "Volume and reimbursement per test drive revenue, while lab supplies and labor drive the cost base. Esoteric testing carries higher prices than routine panels, so mix matters as much as volume."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.0% a year across the fiscal years in the dataset, and the latest quarter changed +6.9% year over year. Current-year estimates call for $14.8B of revenue and $18.49 of EPS.",
-      "The operating margin of 10.3% and return on invested capital of 8.1% are the filters to watch as revenue scales. The 6.0% revenue pace and 10.3% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 3.0% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 6.9% year over year. The current-year consensus looks for $14.8B of revenue and $18.49 of EPS.",
+      "The next leg depends on margin and esoteric mix. For Labcorp Holdings, volume growth is only worth paying for if reimbursement per test holds. The consensus estimate is the first test; the second is whether incremental revenue carries the same margin as the base."
     ],
     "bullets": [
       {
         "title": "Test volumes",
-        "detail": "Order volumes from hospitals, physicians and patients drive revenue before price. Revenue growth is +6.0%."
+        "detail": "Order volumes from hospitals, physicians and patients drive revenue before price. Revenue growth is 6.0%."
       },
       {
         "title": "Reimbursement",
-        "detail": "The operating margin is 10.3%. Medicare, Medicaid and commercial rates determine revenue per test."
+        "detail": "Medicare, Medicaid and commercial rates determine revenue per test. The operating margin is 10.3%."
       },
       {
         "title": "Test mix",
-        "detail": "Esoteric and specialty tests carry higher prices and margins than routine panels. The current reading: return on invested capital is 8.1%."
+        "detail": "Esoteric and specialty tests carry higher prices and margins than routine panels. Return on invested capital is 8.1%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 11.7% in FY2018 to 9.9% in FY2025. The trailing operating margin is 10.3%, the net margin is 6.9% and diluted EPS is $12.19.",
-      "Return on equity was 11.3% and return on invested capital was 8.1%. With return on equity at 11.3% and return on invested capital at 8.1%, leverage is not the main driver of the gap."
+      "The operating margin moved from 11.7% in FY2018 to 9.9% in FY2025. The trailing operating margin is 10.3%, the net margin is 6.9%, and diluted EPS is $12.19, up 19.6% year over year.",
+      "Return on equity of 11.3% and return on invested capital of 8.1% are close enough that operating performance explains most of the return. For a lab operator, volume growth and reimbursement per test explain more than a capital-return measure."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.3B, an 8.8% margin. Net debt is $5.6B, or 2.5x EBITDA. Capex absorbed 3.0% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $1.6B, or 187.2% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $434.5M in the latest fiscal year."
+      "Free cash flow was $1.3B, or 8.8% of revenue. Operating cash flow covered 187.2% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 3.0% of revenue, which is low relative to the revenue base.",
+      "Net debt is $5.6B, or 2.5x EBITDA. Interest cover is 6.5x. The balance sheet is manageable but not a source of upside; debt reduction competes with reinvestment for the cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 30.1x trailing earnings, 16.2x EV/EBITDA and 2.5x EV/sales. The free-cash-flow yield is 4.3%. Inverting the P/E gives an earnings yield of 3.3%; the cash-flow yield is 4.3%.",
-      "The peer comparison sets the company against TMO, IDXX and DGX; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $371.67, the shares trade at 30.1x trailing earnings and 16.2x EV/EBITDA, with a 4.3% free-cash-flow yield. The earnings yield is 3.3%. The earnings multiple is 14.3% below the 35.1x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is below the peer median, so some of the risk is already in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "16 analysts contribute to the third-party consensus. The mean target is $391.00, with a range of $347.00 to $420.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $14.8B of revenue and $18.49 of EPS. The estimate revisions in the dataset are 0.7% over 30 days and 0.7% over 90 days. That implies growth of 1.6% over the trailing twelve months."
+      "16 analysts in the third-party consensus carry a mean target of $391.00, 5.2% above the latest close. The range runs from $347.00 to $420.00. The narrow range means the published views differ mainly on timing. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $14.8B of revenue and $18.49 of EPS. EPS estimates are up 0.7% over 30 days and up 0.7% over 90 days. That implies 1.6% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is margin and esoteric mix versus reimbursement and volume.",
     "items": [
       {
-        "title": "Reimbursement pressure",
+        "title": "Reimbursement and volume",
         "severity": "High",
-        "detail": "Rate cuts or coverage changes can lower revenue per test.",
+        "detail": "The main risk is reimbursement and volume.",
         "watch": "Reimbursement rates and payer mix."
       },
       {
@@ -146,9 +146,9 @@ export const LH: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Labcorp Holdings Inc. produced $14.6B of trailing revenue at a 10.3% operating margin and an 8.8% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The published consensus mean is $391.00 (2026-11-25), 5.2% above the latest close; it should be read as the published consensus, not as this publication's view. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 48/100 and balance sheet at 22/100, with the composite averaging 36/100. The narrow range between valuation at 48/100 and balance sheet at 22/100 means the average is a fair summary."
+      "The investment case rests on valuation and the durability of 10.3% margins. $5.6B of net debt is the weak link.",
+      "What would change the view is leverage falling below 2.0x EBITDA, not a single quarter. The key exposure is reimbursement and volume.",
+      "The composite of 36/100 blends a strong valuation reading with a weak balance sheet one; the gap is the story."
     ],
     "questions": [
       "How much of growth is volume versus price?",

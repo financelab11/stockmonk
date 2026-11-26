@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const CFG: StockStory = {
   "ticker": "CFG",
   "kicker": "Banks & Insurance · Banks - Regional",
-  "title": "Citizens Financial Group, Inc: A regional bank",
-  "dek": "Citizens Financial Group, Inc. reported $1.8B of trailing revenue at a 163.9% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Citizens Financial Group: A regional bank",
+  "dek": "Citizens Financial Group's revenue rose 10.1% to $1.8B. The key risk is credit and net interest margin.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $1.8B trailing twelve months, +10.1% year over year.",
-    "Profitability: 163.9% operating margin and 128.8% net margin.",
-    "Cash: n/a free cash flow, a n/a margin, against $4.9B of net debt.",
-    "Valuation: 11.4x trailing earnings and 9.3x EV/EBITDA at the latest close."
+    "Revenue: $1.8B, +10.1% year over year.",
+    "Profitability: operating margin not meaningful; net margin not meaningful.",
+    "Cash: free cash flow is not meaningful at this stage.",
+    "Valuation: 11.4x trailing earnings and 9.3x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const CFG: StockStory = {
   "irUrl": "https://www.citizensbank.com",
   "bigPicture": {
     "paragraphs": [
-      "Citizens Financial Group, Inc. generated $1.8B of revenue over the last twelve months, +10.1% versus the prior year. The latest reported quarter was Q3 FY26, with $462M of revenue and a 174.0% operating margin. The shares closed at $61.51 on Nov 25, 2026, giving a market capitalization of $25.8B.",
-      "Consumer Banking is 58.4% of the disclosed revenue mix. A regional breakdown is missing from the current filing extract, so the analysis stays at the consolidated level. Citizens Financial Group, Inc. competes in Banks - Regional, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $25.8B, or 11.4x trailing earnings and 9.3x EV/EBITDA. The shares sit 36% of the way up their 52-week range ($53.78 to $75.33). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Citizens Financial Group's revenue rose 10.1% to $1.8B, with a 9.0% return on equity. The latest quarter (Q3 FY26) grew 2.2%. The multiple and the capital return are the two numbers that matter from here.",
+      "Consumer Banking is 58.4% of revenue and Commercial Banking is 41.6%. The catalyst is deposit growth and capital returns. The exposure is credit and net interest margin.",
+      "At $61.51, the equity is worth $25.8B, or 11.4x trailing earnings and 9.3x EV/EBITDA. The earnings multiple is 5.4% below the 12.0x peer median. The stock is 36% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Citizens is a regional bank, so net interest margin, credit costs and capital returns drive earnings."
   },
   "whatItDoes": {
     "paragraphs": [
       "Citizens Financial Group, Inc. operates as the bank holding company that provides retail and commercial banking products and services to individuals, small businesses, middle-market companies, large corporations, and institutions in the United States.",
-      "The disclosed mix runs across Consumer Banking at 58.4% and Commercial Banking at 41.6%. The last disclosure put headcount at 17,609 people. With $1.8B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "Against NU, FITB and HBAN, the relevant tests are net interest margin, credit quality and capital returns."
+      "The operating margin is not meaningful on the current data. Funding costs and credit losses remain the main cost line, so the margin trend is the number to watch.",
+      "Capital is regulatory rather than physical: CET1, deposit funding and book value matter more than capex. Return on equity was 9.0%, and the relevant comparison is with other regional banks."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$1.8B on a trailing-twelve-month basis, with the latest quarter at $462M."
+        "title": "Revenue mix",
+        "detail": "Consumer Banking at 58.4% and Commercial Banking at 41.6%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 163.9%; free-cash-flow margin n/a; net margin 128.8%."
+        "title": "Margin engine",
+        "detail": "The operating margin is not meaningful on the current data. Funding costs and credit losses are the cost line to watch."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $25.8B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Deposits and CET1 are the capital base; ROE 9.0%, ROIC 5.3%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 163.9% is the first clean profitability line. The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns.",
-      "Deposits and regulatory capital are the relevant funding measures for a bank, not net debt. Return on equity was 9.0%; for a bank, that return is shaped by leverage and credit costs rather than by a product gross margin."
+      "Net interest income, fees and credit costs drive revenue and margin. The edge is regional banking relationships.",
+      "The bank earns a spread between asset yields and deposit costs. For a bank, deposits and regulatory capital matter more than a conventional net-debt figure. Return on equity was 9.0%; the key variables are net interest margin, credit costs and capital returns."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -17.2% a year across the fiscal years in the dataset, and the latest quarter changed +2.2% year over year. Current-year estimates point to 11.1% revenue growth, with EPS of 5.30 in the reporting currency.",
-      "Return on equity of 9.0% is the filter to watch as revenue scales. For a bank, growth of 10.1% matters only if the new business is priced above funding costs and credit losses."
+      "Reported revenue growth is not a clean like-for-like measure for a bank because the revenue line moves with rates and balance-sheet mix. The latest quarter (Q3 FY26) grew 2.2% year over year. The current-year consensus looks for 11.1% revenue growth, with EPS of 5.30 in the reporting currency.",
+      "The next leg depends on deposit growth and capital returns. For Citizens Financial Group, top-line growth only matters if it is priced above funding costs and credit losses."
     ],
     "bullets": [
       {
         "title": "Net interest income",
-        "detail": "Loan and securities yields less funding costs are the core revenue line. Revenue growth is +10.1%."
+        "detail": "Loan and securities yields less funding costs are the core revenue line. Revenue growth is 10.1%."
       },
       {
         "title": "Fee income",
-        "detail": "The operating margin is 163.9%. Advisory, asset management and trading diversify the revenue base."
+        "detail": "Advisory, asset management and trading diversify the revenue base. Net interest margin and credit costs are the key variables; revenue growth is 10.1%."
       },
       {
         "title": "Capital returns",
-        "detail": "Buybacks and dividends can grow per-share value when capital is abundant. The current reading: return on equity is 9.0%."
+        "detail": "Buybacks and dividends can grow per-share value when capital is abundant. Return on equity is 9.0%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 35.6% in FY2018 to 142.4% in FY2025. The trailing operating margin is 163.9%, the net margin is 128.8% and diluted EPS is $4.96.",
-      "Return on equity was 9.0%. Deposits fund most of the balance sheet, which makes return on invested capital a less informative measure than return on equity and capital ratios. The trend in return on equity and the path of credit costs matter more than a single quarter."
+      "For a bank, the operating margin is a spread measure and the reported history is not comparable across rate cycles. Return on equity was 9.0%, and diluted EPS was $4.96.",
+      "Return on equity was 9.0%. For a bank, return on invested capital is distorted by deposit funding; net interest margin, credit costs and capital ratios are the more useful comparisons."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was n/a, a n/a margin. Deposits and regulatory capital are the relevant funding measures for a bank, not net debt. For a bank, cash flow is shaped by balance-sheet movements, so the margin is less comparable than it is for an industrial.",
-      "Operating cash flow was $2.2B, or 120.8% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $0 in the latest fiscal year."
+      "Free cash flow is not meaningful for a bank; operating cash flow and balance-sheet movements are the better indicators. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "For a bank, deposits and regulatory capital matter more than a conventional net-debt figure. Cash flow is shaped by balance-sheet movements, so the free-cash-flow margin is less comparable than it is for an industrial."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 11.4x trailing earnings, 9.3x EV/EBITDA and 17.4x EV/sales. The free-cash-flow yield is n/a. For a bank, price-to-book and P/E are more relevant than EV/EBITDA.",
-      "The peer comparison sets the company against NU, FITB and HBAN; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $61.51, the shares trade at 11.4x trailing earnings and 9.3x EV/EBITDA. The earnings yield is 8.8%. The earnings multiple is 5.4% below the 12.0x peer median.",
+      "The multiple implies the market expects little growth and assumes the current margin is close to peak. The multiple is in line with the peer median, so the debate is company-specific. For a bank, price-to-book and P/E are more relevant than EV/EBITDA."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "19 analysts contribute to the third-party consensus. The mean target is $76.50, with a range of $65.00 to $87.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates point to 11.1% revenue growth, with EPS of 5.30 in the reporting currency. The estimate revisions in the dataset are -0.0% over 30 days and -0.1% over 90 days."
+      "19 analysts in the third-party consensus carry a mean target of $76.50, 24.4% above the latest close. The range runs from $65.00 to $87.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for 11.1% revenue growth, with EPS of 5.30 in the reporting currency. EPS estimates are little changed over 30 days and little changed over 90 days."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is deposit growth and capital returns versus credit and net interest margin.",
     "items": [
       {
-        "title": "Credit cycle",
+        "title": "Credit and net interest margin",
         "severity": "High",
-        "detail": "Loan losses rise in a downturn and can overwhelm revenue growth.",
+        "detail": "The main risk is credit and net interest margin.",
         "watch": "Provisions, charge-offs and non-performing loans."
       },
       {
@@ -146,9 +146,9 @@ export const CFG: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Citizens Financial Group, Inc. produced $1.8B of trailing revenue at a 163.9% operating margin and a n/a free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The published consensus mean is $76.50 (2026-11-25), 24.4% above the latest close; it is a consensus view, not a recommendation from Stockmonk. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 87/100 and cash generation at 14/100, with the composite averaging 51/100. The gap between valuation at 87/100 and cash generation at 14/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on valuation and the durability of 9.0% returns on equity. The weak link is cash generation.",
+      "What would change the view is return on invested capital rising above 7.3%, not a single quarter. The key exposure is credit and net interest margin.",
+      "The composite of 51/100 blends a strong valuation reading with a weak cash generation one; the gap is the story."
     ],
     "questions": [
       "How much of net interest income is rate-sensitive?",

@@ -3,7 +3,7 @@ import type { StockStory } from "./types";
 export const HOUS: StockStory = {
   "ticker": "HOUS",
   "kicker": "Consumer Retail & Leisure · Consumer",
-  "title": "Anywhere Real Estate: the final financial record behind the Compass deal",
+  "title": "Anywhere Real Estate: the final record behind the Compass deal",
   "dek": "Anywhere Real Estate last traded on Jan 9, 2026 after the Compass transaction. The report keeps the final SEC record, the deal terms and the factors that explained the business while it was public.",
   "readingMinutes": 10,
   "takeaways": [
@@ -18,48 +18,48 @@ export const HOUS: StockStory = {
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001398987&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Anywhere Real Estate last traded at $17.61 on Jan 9, 2026, when the Compass transaction closed. The final consideration was 1.436 Compass Class A shares per Anywhere share. The company no longer files current reports, so the figures below are the final SEC statements rather than a live snapshot. Anywhere Real Estate generated $5.9B of revenue over the last twelve months, +5.3% versus the prior year. The final reported operating margin was -2.3% and free-cash-flow margin was -0.7%.",
-      "Owned Brokerage Group contributes 82.4% of the disclosed revenue mix. By geography, United States is the largest disclosed market at 98.8% of revenue. Anywhere Real Estate competes in Consumer, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "The archived valuation has no meaningful trailing earnings multiple and 80.2x EV/EBITDA, based on the final consideration and the last reported statements. It is a historical reference, not a live multiple. The article is retained because the company remains part of the 500-name coverage library."
+      "Anywhere Real Estate last traded at $17.61 on Jan 9, 2026, when the Compass transaction closed. The final consideration was 1.436 Compass Class A shares per Anywhere share. The figures below are the last reported record, not a live quote.",
+      "The final reported mix was Owned Brokerage Group at 82.4%, Franchise Group at 16.9% and Corporate / other at 0.8%, with the US the largest geography at 98.8%. The business no longer sets its own capital allocation or pricing; it sits inside Compass.",
+      "The archived valuation is n/a trailing earnings and 80.2x EV/EBITDA, based on the final consideration and the last statements. It is a historical reference, not a current multiple."
     ],
-    "quote": "Anywhere Real Estate is no longer a live market, so the useful question is what its final financial record says about the Consumer Retail & Leisure business that the acquirer bought."
+    "quote": "Anywhere Real Estate is no longer a live market; the useful question is what its final record says about the business Compass bought."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Anywhere Real Estate was acquired by Compass. The final consideration was 1.436 Compass Class A shares per Anywhere share. The shares last traded on Jan 9, 2026; the statements below are the final SEC filings and the article is retained as archived coverage.",
-      "The disclosed mix runs across Owned Brokerage Group at 82.4%, Franchise Group at 16.9% and Corporate / other at 0.8%. The filing extract does not include a headcount figure. With $5.9B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "ANF, SG and SN provide the closest reference points for margin, growth and valuation."
+      "Anywhere Real Estate was a Consumer business. Anywhere is an archived real-estate brokerage, and the useful question is what its franchise and owned-brokerage network was worth to Compass.",
+      "At the last report, the operating margin was -2.3% and the free-cash-flow margin was -0.7%. The record is closed; there is no current guidance.",
+      "The final balance sheet carried $2.4B of net debt, and the equity no longer trades independently."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$5.9B on a trailing-twelve-month basis, with the latest quarter at $1.6B."
+        "title": "Revenue mix",
+        "detail": "Owned Brokerage Group at 82.4%, Franchise Group at 16.9% and Corporate / other at 0.8%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -2.3%; free-cash-flow margin -0.7%; net margin -2.2%."
+        "title": "Margin engine",
+        "detail": "Operating margin -2.3%. Cost of goods, occupancy and labor are the main cost line, so the margin depends on spreading the cost base over more revenue."
       },
       {
-        "title": "Final status",
-        "detail": "Last traded Jan 9, 2026 after the Compass transaction."
+        "title": "Capital intensity",
+        "detail": "Capex 1.3% of revenue; $2.4B of net debt; ROIC -2.6%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of -2.3% is the first clean profitability line. The business depends on traffic, basket size, inventory turns and the cost of opening the next store.",
-      "Net debt is $2.4B, or 44.3x EBITDA. Return on invested capital was -2.6% and return on equity was -8.4%. The negative return means the capital base is not earning its cost; the question is whether scale or a margin recovery fixes that."
+      "Traffic, basket size and inventory turns drive revenue; markdowns and occupancy drive the margin. Same-store growth shows demand without new square footage.",
+      "The operating margin is -2.3%. Inventory turns and markdown discipline decide whether volume growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -0.3% a year across the fiscal years in the dataset, and the latest quarter changed +5.9% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of -2.3% and return on invested capital of -2.6% are the filters to watch as revenue scales. The final year in the dataset is FY2024; there is no current guidance because the company no longer trades."
+      "Revenue compounded at -0.3% a year across the reported fiscal years. The final year is FY2024 and there is no current guidance. The market already has a growth expectation; the filings are the test.",
+      "The archive is a record of what the business earned before the deal, not a forecast. The final operating margin was -2.3%. The consensus estimate is the first test; the second is whether incremental revenue carries the same margin as the base."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Revenue growth is +5.3%. That is the metric the thesis depends on."
+        "detail": "Same-store growth shows demand without new square footage. Revenue growth is 5.3%."
       },
       {
         "title": "Unit growth",
@@ -67,41 +67,41 @@ export const HOUS: StockStory = {
       },
       {
         "title": "Merchandise margin",
-        "detail": "Return on invested capital is -2.6%. Private label, sourcing and markdown discipline determine gross margin."
+        "detail": "Private label, sourcing and markdown discipline determine gross margin. Return on invested capital is -2.6%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 6.2% in FY2017 to -2.4% in FY2024. The trailing operating margin is -2.3%, the net margin is -2.2% and diluted EPS is -$1.15.",
-      "Return on equity was -8.4% and return on invested capital was -2.6%. With negative returns on both equity and invested capital, the business is consuming capital rather than earning on it."
+      "The final operating margin was -2.3%, the net margin was -2.2%, and diluted EPS was -$1.15. The record will not update. A single year of returns is less informative than the direction of margins and capital intensity.",
+      "The archived returns are a historical description of the business at the time of the transaction. They are not a current measure of capital allocation."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$40M, a -0.7% margin. Net debt is $2.4B, or 44.3x EBITDA. Capex absorbed 1.3% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "The final reported balance sheet is the one shown here; it will not update. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $78M in the latest fiscal year."
+      "The final reported free cash flow was -$40M, a -0.7% margin. The balance sheet is the last reported one and will not update. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "The final consideration was 1.436 Compass Class A shares per Anywhere share; there is no current price, target or capital-return policy to assess. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, 80.2x EV/EBITDA and 0.8x EV/sales. The free-cash-flow yield is -2.0%. Earnings are not a useful anchor here, so the free-cash-flow yield is the cleaner valuation reference.",
-      "The final consideration was 1.436 Compass Class A shares per Anywhere share. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades."
+      "The final consideration was 1.436 Compass Class A shares per Anywhere share. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades.",
+      "The final consideration is the only relevant reference. There is no live multiple to compare with the peer group. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A current analyst consensus is not available because Anywhere Real Estate no longer trades. The final transaction value is the relevant reference, and the archived estimates are shown only where the dataset retains them.",
-      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $5.9B and the last reported operating margin was -2.3%."
+      "There is no current analyst consensus because Anywhere Real Estate no longer trades. The final transaction value is the reference, and the archived estimates are shown only where they were retained.",
+      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $5.9B and the last operating margin was -2.3%."
     ]
   },
   "risks": {
-    "intro": "The risks below are the historical risks that mattered before the Compass transaction, plus the limitation that the record is now closed. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the historical risks that mattered before the Compass transaction, plus the limitation that the record is closed.",
     "items": [
       {
         "title": "Archived coverage",
         "severity": "High",
-        "detail": "Anywhere Real Estate no longer trades. The final consideration was 1.436 Compass Class A shares per Anywhere share, and the financial statements will not be updated with new quarters.",
+        "detail": "Anywhere Real Estate no longer trades. The final consideration was 1.436 Compass Class A shares per Anywhere share, and the statements will not be updated with new quarters.",
         "watch": "Treat every figure as the final reported record, not as a current market snapshot."
       },
       {
@@ -146,15 +146,14 @@ export const HOUS: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Anywhere Real Estate is an archived Consumer Retail & Leisure company with $5.9B of final trailing revenue, a -2.3% operating margin and a -0.7% free-cash-flow margin. The Compass transaction valued the equity at 1.436 Compass Class A shares per Anywhere share.",
-      "There is no current price, target or rating to update. The archived factor percentiles are a historical description of the business at the point of the transaction. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 53/100 and balance sheet at 0/100, with the composite averaging 20/100. The gap between valuation at 53/100 and balance sheet at 0/100 is wide enough that the composite is a balance, not a verdict."
+      "Anywhere Real Estate is an archived Consumer company with $5.9B of final revenue, a -2.3% operating margin and a -0.7% free-cash-flow margin. The Compass transaction valued the equity at 1.436 Compass Class A shares per Anywhere share.",
+      "There is no current price, target or rating to update. The archived factor scores are a historical description of the business at the point of the transaction.",
+      "The scorecard averages 20/100, but the dispersion matters more: valuation is 53/100 and balance sheet is 0/100."
     ],
     "questions": [
-      "Is growth coming from traffic or price?",
-      "How much of the margin is protected by sourcing scale?",
-      "What happens to inventory if demand slows?",
-      "Do new units earn the same returns as the base?"
+      "What did the final financial record show?",
+      "What did the acquirer pay for?",
+      "Which figures will never update?"
     ]
   }
 };

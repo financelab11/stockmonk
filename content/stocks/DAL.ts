@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const DAL: StockStory = {
   "ticker": "DAL",
   "kicker": "Transport & Autonomy · Airlines",
-  "title": "Delta Air Lines, Inc: A network airline with premium and loyalty revenue",
-  "dek": "Delta Air Lines, Inc. reported $71.8B of trailing revenue at a 7.4% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Delta Air Lines: A network airline with premium and loyalty revenue",
+  "dek": "Delta Air Lines' revenue rose 14.1% to $71.8B, at a 7.4% operating margin. The key risk is corporate travel and fuel.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $71.8B trailing twelve months, +14.1% year over year.",
+    "Revenue: $71.8B, +14.1% year over year.",
     "Profitability: 7.4% operating margin and 4.6% net margin.",
     "Cash: $2.6B free cash flow, a 3.6% margin, against $8.3B of net debt.",
-    "Valuation: 16.5x trailing earnings and 7.9x EV/EBITDA at the latest close."
+    "Valuation: 16.5x trailing earnings and 7.9x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const DAL: StockStory = {
   "irUrl": "https://www.delta.com",
   "bigPicture": {
     "paragraphs": [
-      "Delta Air Lines, Inc. generated $71.8B of revenue over the last twelve months, +14.1% versus the prior year. The latest reported quarter was Q3 FY26, with $20.2B of revenue and a 7.2% operating margin. The shares closed at $82.34 on Nov 25, 2026, giving a market capitalization of $54.2B.",
-      "Airline accounts for 92.0% of disclosed revenue. The dataset does not include a geographic revenue split for this company. Delta Air Lines, Inc. competes in Airlines, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $54.2B, or 16.5x trailing earnings and 7.9x EV/EBITDA. The shares sit 67% of the way up their 52-week range ($55.28 to $95.68). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "Delta Air Lines' revenue rose 14.1% to $71.8B at a 7.4% operating margin, generating $2.6B of free cash flow. The latest quarter (Q3 FY26) grew 21.1%.",
+      "Airline is 92.0% of revenue and Refinery is 11.0%. What could lift the return is premium seats and international. The thing to watch is corporate travel and fuel.",
+      "At $82.34, the equity is worth $54.2B, or 16.5x trailing earnings and 7.9x EV/EBITDA. The earnings multiple is 22.2% below the 21.2x peer median. The stock is 67% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Delta is a network airline with premium and loyalty revenue, so corporate travel recovery, premium mix and fuel costs drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Delta Air Lines, Inc. provides scheduled air transportation for passengers and cargo in the United States and internationally. The business is part of the Transport & Autonomy group and reports under Industrials in the current classification.",
-      "The disclosed mix runs across Airline at 92.0% and Refinery at 11.0%. Headcount was 100,000 in the latest filing. Trailing revenue is $71.8B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "Against ALK and LUV, the relevant tests are pricing power, capital intensity and cash conversion."
+      "Delta Air Lines, Inc. provides scheduled air transportation for passengers and cargo in the United States and internationally.",
+      "Delta Air Lines does not report a product gross margin; fuel, labor and maintenance sit inside the operating line, leaving a 7.4% operating margin. That is 6.1 points above the peer median of 1.2%.",
+      "Capex is 6.3% of revenue, so the business is asset-light. Net debt is $8.3B, or 1.1x EBITDA. Return on invested capital was 11.5%. That is 7.8 points above the peer median of 3.7%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$71.8B on a trailing-twelve-month basis, with the latest quarter at $20.2B."
+        "title": "Revenue mix",
+        "detail": "Airline at 92.0% and Refinery at 11.0%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 7.4%; free-cash-flow margin 3.6%; net margin 4.6%."
+        "title": "Margin engine",
+        "detail": "Operating margin 7.4%. Fuel, labor and maintenance are the main cost line, so incremental revenue matters more than product mix."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $54.2B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 6.3% of revenue; $8.3B of net debt; ROIC 11.5%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 7.4% is the first clean profitability line. Revenue depends on demand, pricing and utilisation, while fuel, labour and capacity determine the cost of the next trip.",
-      "Net debt is $8.3B, or 1.1x EBITDA. Return on invested capital was 11.5% and return on equity was 14.6%. That sits in the middle of the range; whether it clears the cost of capital is the deciding question."
+      "Passenger or freight volumes and pricing per unit drive revenue; fuel and labor drive the cost. The edge is network and loyalty.",
+      "The operating margin is 7.4%, 6.1 points above the peer median of 1.2%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.2% a year across the fiscal years in the dataset, and the latest quarter changed +21.1% year over year. Current-year estimates call for $75.2B of revenue and $5.36 of EPS.",
-      "The operating margin of 7.4% and return on invested capital of 11.5% are the filters to watch as revenue scales. Neither the 14.1% growth nor the 7.4% margin is extreme; the combination is what matters."
+      "Revenue compounded at 5.2% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 21.1% year over year. The current-year consensus looks for $75.2B of revenue and $5.36 of EPS.",
+      "The next leg depends on premium seats and international. For Delta Air Lines, traffic growth is only worth paying for if pricing covers fuel and labor."
     ],
     "bullets": [
       {
         "title": "Demand and load",
-        "detail": "Revenue growth is +14.1%. Passenger or freight volumes determine how much capacity is used."
+        "detail": "Passenger or freight volumes determine how much capacity is used. Revenue growth is 14.1%."
       },
       {
         "title": "Pricing and yield",
-        "detail": "Ticket or contract pricing determines revenue per unit of capacity. The current reading: the operating margin is 7.4%."
+        "detail": "Ticket or contract pricing determines revenue per unit of capacity. The operating margin is 7.4%."
       },
       {
         "title": "Cost per unit",
-        "detail": "Return on invested capital is 11.5%. That is the metric the thesis depends on."
+        "detail": "Fuel, labour and maintenance decide whether volume growth becomes profit. Return on invested capital is 11.5%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 11.8% in FY2018 to 9.2% in FY2025. The trailing operating margin is 7.4%, the net margin is 4.6% and diluted EPS is $5.01.",
-      "Return on equity was 14.6% and return on invested capital was 11.5%. Return on invested capital of 11.5% is close to the 14.6% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from 11.8% in FY2018 to 9.2% in FY2025. The trailing operating margin is 7.4%, the net margin is 4.6%, and diluted EPS is $5.01, down 29.4% year over year.",
+      "Return on equity of 14.6% and return on invested capital of 11.5% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $2.6B, a 3.6% margin. Net debt is $8.3B, or 1.1x EBITDA. Capital expenditure was 6.3% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $8.3B, or 166.7% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $4.5B in the latest fiscal year."
+      "Free cash flow was $2.6B, or 3.6% of revenue. Operating cash flow covered 166.7% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 6.3% of revenue, which is low relative to the revenue base.",
+      "Net debt is $8.3B, or 1.1x EBITDA. The maturity profile and interest cover determine how much flexibility the balance sheet leaves. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 16.5x trailing earnings, 7.9x EV/EBITDA and 0.9x EV/sales. The free-cash-flow yield is 4.8%. The 6.1% earnings yield and 4.8% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against ALK and LUV; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $82.34, the shares trade at 16.5x trailing earnings and 7.9x EV/EBITDA, with a 4.8% free-cash-flow yield. The earnings yield is 6.1%. The earnings multiple is 22.2% below the 21.2x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "24 analysts contribute to the third-party consensus. The mean target is $101.65, with a range of $53.00 to $125.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $75.2B of revenue and $5.36 of EPS. The estimate revisions in the dataset are -0.5% over 30 days and -18.4% over 90 days. Set against trailing revenue, the estimate implies growth of 4.7%."
+      "24 analysts in the third-party consensus carry a mean target of $101.65, 23.5% above the latest close. The range runs from $53.00 to $125.00. Analysts disagree on the outcome; the mean is a weak summary of a wide range. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $75.2B of revenue and $5.36 of EPS. EPS estimates are down 0.5% over 30 days and down 18.4% over 90 days. That implies 4.7% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is premium seats and international versus corporate travel and fuel.",
     "items": [
       {
-        "title": "Fuel and labour",
+        "title": "Corporate travel and fuel",
         "severity": "High",
-        "detail": "Input costs can rise faster than pricing.",
+        "detail": "The main risk is corporate travel and fuel.",
         "watch": "Fuel hedges, wage rates and cost per unit."
       },
       {
@@ -146,9 +146,9 @@ export const DAL: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Delta Air Lines, Inc. produced $71.8B of trailing revenue at a 7.4% operating margin and a 3.6% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "24 analysts in the third-party survey average $101.65 as of 2026-11-25, 23.5% above the latest close; the forecast is theirs, and this report does not adopt it as a target.",
-      "The factor percentiles put valuation at 82/100 and cash generation at 20/100, with the composite averaging 45/100. A 82/100 valuation score against a 20/100 cash generation score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on valuation and the durability of 7.4% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above 6.6%, not a single quarter. The key exposure is corporate travel and fuel.",
+      "The scorecard puts the composite at 45/100. Focus on the valuation-to-cash generation spread rather than the average."
     ],
     "questions": [
       "Is demand growing or is capacity being added?",

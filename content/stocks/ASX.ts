@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const ASX: StockStory = {
   "ticker": "ASX",
   "kicker": "Semiconductors & Hardware · Semiconductors",
-  "title": "ASE Technology Holding Co., Ltd: The world's largest chip packaging and test house",
-  "dek": "ASE Technology Holding Co., Ltd. reported $20.7B of trailing revenue at an 8.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "ASE Technology Holding Co.: The world's largest chip packaging and test house",
+  "dek": "ASE Technology Holding Co.'s revenue rose 13.7% to $20.7B, at an 8.0% operating margin. The key risk is utilization and the semiconductor cycle.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $20.7B trailing twelve months, +13.7% year over year.",
+    "Revenue: $20.7B, +13.7% year over year.",
     "Profitability: 8.0% operating margin and 6.4% net margin.",
     "Cash: -$716.7M free cash flow, a -3.5% margin, against $4.2B of net debt.",
-    "Valuation: 47.5x trailing earnings and 17.6x EV/EBITDA at the latest close."
+    "Valuation: 47.5x trailing earnings and 17.6x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,91 +18,91 @@ export const ASX: StockStory = {
   "irUrl": "https://www.aseglobal.com",
   "bigPicture": {
     "paragraphs": [
-      "ASE Technology Holding Co., Ltd. generated $20.7B of revenue over the last twelve months, +13.7% versus the prior year. The latest quarter is not in the dataset; the annual and trailing numbers are the evidence. The shares closed at $28.38 on Nov 25, 2026, giving a market capitalization of $62.7B.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. The dataset does not include a geographic revenue split for this company.",
-      "At the latest close the equity is valued at $62.7B, or 47.5x trailing earnings and 17.6x EV/EBITDA. The shares sit 42% of the way up their 52-week range ($14.30 to $47.93). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "ASE Technology Holding Co.'s revenue rose 13.7% to $20.7B at an 8.0% operating margin, burning $716.7M of cash. The scale of the revenue base matters less than the margin it earns.",
+      "Revenue is reported as one consolidated line. The catalyst is advanced packaging demand from AI chips. The exposure is utilization and the semiconductor cycle. The business is judged on whether the consolidated margin and returns can improve from here.",
+      "At $28.38, the equity is worth $62.7B, or 47.5x trailing earnings and 17.6x EV/EBITDA. The earnings multiple is 31.8% above the 36.1x peer median. The stock is 42% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "ASE is the world's largest chip packaging and test house, a scale business whose margins follow utilisation and advanced-packaging mix."
   },
   "whatItDoes": {
     "paragraphs": [
-      "ASE Technology Holding Co., Ltd. sits in Semiconductors, one of the Semiconductors & Hardware names in this library. ASE Technology Holding Co., Ltd. sits in the Semiconductors industry, one of the Semiconductors & Hardware names in this library.",
-      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 119,346 people. Trailing revenue is $20.7B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The closest listed comparisons are NVDA, AVGO and AMD; the useful question is how ASE Technology Holding Co., Ltd.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "ASE Technology Holding Co. operates in Semiconductors.",
+      "ASE Technology Holding Co. earned a 17.7% gross margin, and materials, manufacturing and design absorbed 9.7% of revenue, leaving an 8.0% operating margin. That is 33.8 points below the peer median of 41.8%.",
+      "Capital spending runs at 25.5% of revenue, which is a meaningful claim on cash flow. Net debt is $4.2B, or 1.1x EBITDA. Return on invested capital was 7.7%. That is 9.8 points below the peer median of 17.5%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$20.7B on a trailing-twelve-month basis; a dated quarter is not available in the dataset."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 8.0%; free-cash-flow margin -3.5%; net margin 6.4%."
+        "title": "Margin engine",
+        "detail": "Gross margin 17.7%, operating margin 8.0%. Materials, manufacturing and design are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $62.7B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 25.5% of revenue; $4.2B of net debt; ROIC 7.7%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $20.7B of revenue, $3.7B remained after cost of sales. The 9.7% operating-expense load brought that down to an 8.0% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "Net debt is $4.2B, or 1.1x EBITDA. Return on invested capital was 7.7% and return on equity was 11.2%. That leaves little room above the cost of capital."
+      "Unit volumes, content per device and utilization drive revenue and margin. The edge is scale in chip packaging and test, with advanced-packaging know-how.",
+      "The operating margin is 8.0%, 33.8 points below the peer median of 41.8%. Utilization and mix decide whether volume growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 7.9% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. Current-year estimates point to 34.7% revenue growth, with EPS of 1.25 in the reporting currency.",
-      "The operating margin of 8.0% and return on invested capital of 7.7% are the filters to watch as revenue scales. Neither the 13.7% growth nor the 8.0% margin is extreme; the combination is what matters."
+      "Revenue compounded at 7.9% a year from FY2018 to FY2025. The current-year consensus looks for 34.7% revenue growth, with EPS of 1.25 in the reporting currency.",
+      "The next leg depends on advanced packaging demand from AI chips. For ASE Technology Holding Co., volume growth is only worth paying for if utilization and mix hold."
     ],
     "bullets": [
       {
         "title": "Inventory cycle",
-        "detail": "Inventory restocking and digestion drive near-term orders. Revenue growth is +13.7%."
+        "detail": "Inventory restocking and digestion drive near-term orders. Revenue growth is 13.7%."
       },
       {
         "title": "Node and packaging transitions",
-        "detail": "The operating margin is 8.0%. New technology raises content per system."
+        "detail": "New technology raises content per system. The operating margin is 8.0%."
       },
       {
         "title": "Customer design wins",
-        "detail": "Design wins lock in revenue for multiple product generations. The current reading: return on invested capital is 7.7%."
+        "detail": "Design wins lock in revenue for multiple product generations. Return on invested capital is 7.7%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 7.3% in FY2018 to 8.0% in FY2025. The trailing operating margin is 8.0%, the net margin is 6.4% and diluted EPS is $0.28.",
-      "Return on equity was 11.2% and return on invested capital was 7.7%. Return on invested capital of 7.7% is close to the 11.2% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from 7.3% in FY2018 to 8.0% in FY2025. The trailing operating margin is 8.0%, the net margin is 6.4%, and diluted EPS is $0.28, up 27.4% year over year.",
+      "Return on equity of 11.2% and return on invested capital of 7.7% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$716.7M, a -3.5% margin. Net debt is $4.2B, or 1.1x EBITDA. Capital expenditure was 25.5% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $4.6B, or 345.3% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $5.3B in the latest fiscal year."
+      "Free cash flow was -$716.7M, or -3.5% of revenue. Operating cash flow covered 345.3% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 25.5% of revenue, which is a meaningful claim on cash.",
+      "Net debt is $4.2B, or 1.1x EBITDA. The maturity profile and interest cover determine how much flexibility the balance sheet leaves. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 47.5x trailing earnings, 17.6x EV/EBITDA and 3.2x EV/sales. The free-cash-flow yield is -1.1%. The 2.1% earnings yield and -1.1% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against NVDA, AVGO and AMD; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $28.38, the shares trade at 47.5x trailing earnings and 17.6x EV/EBITDA, with a -1.1% free-cash-flow yield. The earnings yield is 2.1%. The earnings multiple is 31.8% above the 36.1x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "2 analysts contribute to the third-party consensus. The mean target is $54.94, with a range of $51.88 to $58.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates point to 34.7% revenue growth, with EPS of 1.25 in the reporting currency. The estimate revisions in the dataset are 8.9% over 30 days and 11.4% over 90 days."
+      "2 analysts in the third-party consensus carry a mean target of $54.94, 93.6% above the latest close. The range runs from $51.88 to $58.00. The narrow range means the published views differ mainly on timing. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for 34.7% revenue growth, with EPS of 1.25 in the reporting currency. EPS estimates are up 8.9% over 30 days and up 11.4% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is advanced packaging demand from AI chips versus utilization and the semiconductor cycle.",
     "items": [
       {
-        "title": "Valuation",
+        "title": "Utilization and the semiconductor cycle",
         "severity": "High",
-        "detail": "At 47.5x trailing earnings and a -1.1% free-cash-flow yield, the price already assumes a long period of strong growth.",
-        "watch": "Forward growth versus the current multiple."
+        "detail": "Utilization and the semiconductor cycle drive margins.",
+        "watch": "Inventory days and utilisation."
       },
       {
         "title": "Customer concentration",
@@ -146,9 +146,9 @@ export const ASX: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "ASE Technology Holding Co., Ltd. produced $20.7B of trailing revenue at an 8.0% operating margin and a -3.5% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "The third-party consensus mean is $54.94 as of 2026-11-25, 93.6% above the latest close; it should be read as the published consensus, not as this publication's view. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put growth at 57/100 and cash generation at 11/100, with the composite averaging 36/100. A 57/100 growth score against a 11/100 cash generation score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on growth and the durability of 8.0% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above -0.5%, not a single quarter. The key exposure is utilization and the semiconductor cycle.",
+      "The composite of 36/100 blends a strong growth reading with a weak cash generation one; the gap is the story."
     ],
     "questions": [
       "Where are we in the inventory cycle?",

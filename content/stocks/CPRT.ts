@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const CPRT: StockStory = {
   "ticker": "CPRT",
   "kicker": "Industrial Automation · Specialty Business Services",
-  "title": "Copart, Inc: Online vehicle auctions",
-  "dek": "Copart, Inc. reported $4.7B of trailing revenue at a 35.4% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Copart: Online vehicle auctions",
+  "dek": "Copart's revenue was flat at $4.7B, at a 35.4% operating margin. The key risk is vehicle volumes and international growth.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $4.7B trailing twelve months, +0.4% year over year.",
+    "Revenue: $4.7B, +0.4% year over year.",
     "Profitability: 35.4% operating margin and 31.8% net margin.",
     "Cash: $1.3B free cash flow, a 27.2% margin, against $1.9B of net cash.",
-    "Valuation: 20.5x trailing earnings and 15.6x EV/EBITDA at the latest close."
+    "Valuation: 20.5x trailing earnings and 15.6x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const CPRT: StockStory = {
   "irUrl": "https://www.copart.com",
   "bigPicture": {
     "paragraphs": [
-      "Copart, Inc. generated $4.7B of revenue over the last twelve months, +0.4% versus the prior year. The latest reported quarter was Q4 FY26, with $1.2B of revenue and a 32.0% operating margin. The shares closed at $32.90 on Nov 25, 2026, giving a market capitalization of $30.5B.",
-      "US accounts for 81.6% of disclosed revenue. Revenue is disclosed across 2 geographies, with United States the largest at 81.6%. Copart, Inc. competes in Specialty Business Services, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $30.5B, or 20.5x trailing earnings and 15.6x EV/EBITDA. The shares sit 45% of the way up their 52-week range ($25.72 to $41.79). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "Copart's revenue was flat at $4.7B at a 35.4% operating margin, generating $1.3B of free cash flow. The latest quarter (Q4 FY26) grew 2.4%. The consensus estimate and the current multiple frame the near-term debate.",
+      "US is 81.6% of revenue and International is 18.4%. The US is the largest geography at 81.6% of revenue. What could lift the return is international expansion and fee per unit. The thing to watch is vehicle volumes and international growth.",
+      "At $32.90, the equity is worth $30.5B, or 20.5x trailing earnings and 15.6x EV/EBITDA. The earnings multiple is 53.3% below the 43.9x peer median. The stock is 45% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Copart runs online vehicle auctions, a high-margin marketplace where salvage volumes, international growth and fee per unit drive returns."
   },
   "whatItDoes": {
     "paragraphs": [
       "Copart, Inc. provides online auctions and vehicle remarketing services in the United States, the United Kingdom, Germany, Brazil, Canada, the United Arab Emirates, Spain, Finland, Oman, the Republic of Ireland, and Bahrain.",
-      "The disclosed mix runs across US at 81.6% and International at 18.4%. Headcount was 21,000 in the latest filing. With $4.7B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "Against GPN and CTAS, the relevant tests are pricing power, capital intensity and cash conversion."
+      "Copart does not report a product gross margin; materials, labor and capacity sit inside the operating line, leaving a 35.4% operating margin. That is 20.3 points above the peer median of 15.1%.",
+      "Capex is 7.2% of revenue, so the business is asset-light. The balance sheet carries $1.9B of net cash. Return on invested capital was 14.7%. That is roughly in line with the peer median of 14.7%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$4.7B on a trailing-twelve-month basis, with the latest quarter at $1.2B."
+        "title": "Revenue mix",
+        "detail": "US at 81.6% and International at 18.4%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 35.4%; free-cash-flow margin 27.2%; net margin 31.8%."
+        "title": "Margin engine",
+        "detail": "Operating margin 35.4%. Materials, labor and capacity are the main cost line, so the margin depends on spreading the cost base over more revenue."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $30.5B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 7.2% of revenue; $1.9B of net cash; ROIC 14.7%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 35.4% is the first clean profitability line. Revenue is tied to capital spending, backlogs and the ability to pass through input costs.",
-      "The balance sheet carries $1.9B of net cash. Return on invested capital was 14.7% and return on equity was 16.3%. The return is close enough to the cost of capital that small changes in margin matter."
+      "Industrial production, backlog and pricing drive revenue; utilization drives the margin. The edge is salvage auction network and yard density.",
+      "The operating margin is 35.4%, 20.3 points above the peer median of 15.1%. What matters is whether new revenue carries the same margin as the base."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 12.5% a year across the fiscal years in the dataset, and the latest quarter changed +2.4% year over year. Current-year estimates call for $5.5B of revenue and $1.60 of EPS.",
-      "The operating margin of 35.4% and return on invested capital of 14.7% are the filters to watch as revenue scales. Growth of 0.4% on a 35.4% operating margin is a high-quality combination if both hold."
+      "Revenue compounded at 12.5% a year from FY2019 to FY2026. The latest quarter (Q4 FY26) grew 2.4% year over year. The current-year consensus looks for $5.5B of revenue and $1.60 of EPS.",
+      "The next leg depends on international expansion and fee per unit. For Copart, volume growth is only worth paying for if pricing covers input costs."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Revenue growth is +0.4%. Orders already booked provide visibility into future revenue."
+        "detail": "Orders already booked provide visibility into future revenue. Revenue growth is 0.4%."
       },
       {
         "title": "Aftermarket and services",
-        "detail": "Recurring service revenue can be more profitable than equipment. The current reading: the operating margin is 35.4%."
+        "detail": "Recurring service revenue can be more profitable than equipment. The operating margin is 35.4%."
       },
       {
         "title": "Price and productivity",
-        "detail": "Return on invested capital is 14.7%. Watch whether that reading improves or merely holds."
+        "detail": "Pricing actions and cost programmes protect margins through cycles. Return on invested capital is 14.7%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 35.1% in FY2019 to 35.4% in FY2026. The trailing operating margin is 35.4%, the net margin is 31.8% and diluted EPS is $1.55.",
-      "Return on equity was 16.3% and return on invested capital was 14.7%. With return on equity at 16.3% and return on invested capital at 14.7%, leverage is not the main driver of the gap."
+      "The operating margin moved from 35.1% in FY2019 to 35.4% in FY2026. The trailing operating margin is 35.4%, the net margin is 31.8%, and diluted EPS is $1.55, down 3.1% year over year.",
+      "Return on equity of 16.3% and return on invested capital of 14.7% are close enough that operating performance explains most of the return. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.3B, a 27.2% margin. The balance sheet carries $1.9B of net cash. Capex absorbed 7.2% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $1.6B, or 108.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $337.4M in the latest fiscal year."
+      "Free cash flow was $1.3B, or 27.2% of revenue. Operating cash flow covered 108.1% of net income; reported profit is converting into cash cleanly. Capex absorbed 7.2% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $1.9B of net cash. That gives management room to invest or return capital without leaning on the balance sheet. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 20.5x trailing earnings, 15.6x EV/EBITDA and 6.1x EV/sales. The free-cash-flow yield is 4.2%. Inverting the P/E gives an earnings yield of 4.9%; the cash-flow yield is 4.2%.",
-      "The peer comparison sets the company against GPN and CTAS; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $32.90, the shares trade at 20.5x trailing earnings and 15.6x EV/EBITDA, with a 4.2% free-cash-flow yield. The earnings yield is 4.9%. The earnings multiple is 53.3% below the 43.9x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "11 analysts contribute to the third-party consensus. The mean target is $38.73, with a range of $25.00 to $55.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $5.5B of revenue and $1.60 of EPS. The estimate revisions in the dataset are -1.4% over 30 days and -4.3% over 90 days. Set against trailing revenue, the estimate implies growth of 17.8%."
+      "11 analysts in the third-party consensus carry a mean target of $38.73, 17.7% above the latest close. The range runs from $25.00 to $55.00. The wide range shows how divided the published views are. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $5.5B of revenue and $1.60 of EPS. EPS estimates are down 1.4% over 30 days and down 4.3% over 90 days. That implies 17.8% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is international expansion and fee per unit versus vehicle volumes and international growth.",
     "items": [
       {
-        "title": "Capital-spending cycle",
+        "title": "Vehicle volumes and international growth",
         "severity": "High",
-        "detail": "Industrial demand falls when customers delay projects.",
+        "detail": "The main risk is vehicle volumes and international growth.",
         "watch": "Order trends and backlog conversion."
       },
       {
@@ -146,9 +146,9 @@ export const CPRT: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Copart, Inc. produced $4.7B of trailing revenue at a 35.4% operating margin and a 27.2% free-cash-flow margin. The free-cash-flow margin is the strongest part of that record; the rest of the report tests whether it can be sustained.",
-      "The consensus target is $38.73 as of 2026-11-25, 17.7% above the latest close; the forecast is theirs, and this report does not adopt it as a target. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put cash generation at 81/100 and growth at 21/100, with the composite averaging 64/100. The gap between cash generation at 81/100 and growth at 21/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on cash generation and the durability of 35.4% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 3.4%, not a single quarter. The key exposure is vehicle volumes and international growth.",
+      "The scorecard puts the composite at 64/100. Focus on the cash generation-to-growth spread rather than the average."
     ],
     "questions": [
       "How much revenue is recurring versus project-based?",

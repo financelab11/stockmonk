@@ -4,13 +4,13 @@ export const NVS: StockStory = {
   "ticker": "NVS",
   "kicker": "Pharma & Biotech · Drug Manufacturers - General",
   "title": "Novartis AG: A global pharma focused on innovative medicines",
-  "dek": "Novartis AG reported $0 of trailing revenue at a n/a operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "dek": "Novartis AG's reported revenue is not available in the current extract. The key risk is patent cliff and pipeline.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: no revenue reported over the trailing twelve months.",
-    "Profitability: n/a operating margin and n/a net margin.",
-    "Cash: $17.8B free cash flow, a n/a margin, against $4.8B of net cash.",
-    "Valuation: 26.1x trailing earnings and no meaningful EV/EBITDA multiple at the latest close."
+    "Revenue: $0.",
+    "Profitability: operating margin not meaningful; net margin not meaningful.",
+    "Cash: reported free cash flow of $17.8B is not comparable to the reported revenue line.",
+    "Valuation: 26.1x trailing earnings and no meaningful EV/EBITDA multiple."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const NVS: StockStory = {
   "irUrl": "https://www.novartis.com",
   "bigPicture": {
     "paragraphs": [
-      "Novartis AG reported no revenue over the last twelve months. The latest reported quarter was Q2 FY25, with $0 of revenue and a n/a operating margin. The shares closed at $155.69 on Nov 25, 2026, giving a market capitalization of $294B.",
-      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. The extract carries a consolidated revenue line without a regional split. Novartis AG competes in Drug Manufacturers - General, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $294B, or 26.1x trailing earnings and no meaningful EV/EBITDA multiple. The shares sit 64% of the way up their 52-week range ($128.91 to $170.46). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Novartis AG's reported revenue is not available in the current extract. Free cash flow was $17.8B. The consensus estimate and the current multiple frame the near-term debate.",
+      "Revenue is reported as one consolidated line. The upside is launch execution and pipeline data. What would break it is patent cliff and pipeline. The absence of a segment split puts more weight on the group margin and cash conversion.",
+      "At $155.69, the equity is worth $294B, or 26.1x trailing earnings and no meaningful EV/EBITDA multiple. The earnings multiple is 45.5% below the 47.9x peer median. The stock is 64% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Novartis is a global pharma focused on innovative medicines, so patent timing, launch execution and pipeline readouts drive the out-year."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Novartis AG researches, develops, manufactures, distributes, markets, and sells pharmaceutical medicines in Switzerland and internationally. The company offers Entresto, an angiotensin receptorneprilysin inhibitor to treat symptomatic chronic heart failure; Cosentyx to treat plaque psoriasis, pso riatic arthritis, ankylosing spondylitis, and nonradiographic axial spondy loarthritis; Kisqali, a selective oral cyclin dependent inhibitor of kinases 4 and 6; Promacta/Revolade for immune thrombocytopenia (ITP), thrombocytopenia, and aplastic anemia patients; Tafinlar+Mekinist, an oral combination therapy to treat cancer patients; and Jakavi for treating myelofibrosis, polycythemia vera, and acute or chronic graftversushost disease.",
-      "Revenue is reported at the consolidated level only. Its latest filing lists 75,267 employees. With $0 of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "LLY, JNJ and ABBV provide the closest reference points for margin, growth and valuation."
+      "Novartis AG researches, develops, manufactures, distributes, markets, and sells pharmaceutical medicines in Switzerland and internationally.",
+      "The operating margin is not meaningful on the current data. R&D, manufacturing and commercial spend remain the main cost line, so the margin trend is the number to watch.",
+      "Capex is not disclosed in the current data. The balance sheet carries $4.8B of net cash. Return on invested capital was 27.2%. That is 19.5 points above the peer median of 7.7%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$0 on a trailing-twelve-month basis, with the latest quarter at $0."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin n/a; free-cash-flow margin n/a; net margin n/a."
+        "title": "Margin engine",
+        "detail": "The operating margin is not meaningful on the current data. R&D, manufacturing and commercial spend are the cost line to watch."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $294B at the latest close."
+        "title": "Capital intensity",
+        "detail": "$4.8B of net cash; ROIC 27.2%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of n/a is the first clean profitability line. The value sits in a small number of programmes and patents, so clinical data, label scope and loss-of-exclusivity timing matter more than the current quarter.",
-      "The balance sheet carries $4.8B of net cash. Return on invested capital was 27.2% and return on equity was 26.8%. That level earns well above a typical cost of capital."
+      "Revenue depends on a small number of programmes, patent life and payer coverage. The edge is innovative-medicines portfolio.",
+      "The operating margin is not meaningful on the current data. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at n/a a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. Current-year estimates call for $57.9B of revenue and $9.11 of EPS.",
-      "The operating margin of n/a and return on invested capital of 27.2% are the filters to watch as revenue scales. Without a trailing growth figure, the fiscal-year revenue path is the evidence to use."
+      "Reported revenue is not available in the current extract. The current-year consensus looks for $57.9B of revenue and $9.11 of EPS. The market already has a growth expectation; the filings are the test.",
+      "The next leg depends on launch execution and pipeline data. For Novartis AG, revenue growth is only worth paying for if the patent runway and launch curve support it."
     ],
     "bullets": [
       {
         "title": "Launch execution",
-        "detail": "Revenue growth is not available. That is the metric the thesis depends on."
+        "detail": "New therapies need payer coverage, prescriber adoption and manufacturing scale. Reported revenue is not available in the extract."
       },
       {
         "title": "Pipeline readouts",
-        "detail": "Late-stage data can extend the growth runway or reset it. The operating margin is n/a."
+        "detail": "Late-stage data can extend the growth runway or reset it. Revenue growth is n/a."
       },
       {
         "title": "Patent duration",
-        "detail": "Return on invested capital is 27.2%. The remaining exclusivity period determines how long the cash flow lasts."
+        "detail": "The remaining exclusivity period determines how long the cash flow lasts. Return on invested capital is 27.2%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is n/a, the net margin is n/a and diluted EPS is $5.53.",
-      "Return on equity was 26.8% and return on invested capital was 27.2%. With return on equity at 26.8% and return on invested capital at 27.2%, leverage is not the main driver of the gap."
+      "The reported margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is not meaningful on the current data, the net margin is not meaningful on the current data, and diluted EPS is $5.53, down 33.5% year over year.",
+      "Return on equity of 26.8% and return on invested capital of 27.2% are close enough that operating performance explains most of the return. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $17.8B, a n/a margin. The balance sheet carries $4.8B of net cash. Capex absorbed n/a of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $19.1B, or 137.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.5B in the latest fiscal year."
+      "Reported free cash flow was $17.8B, but it is not comparable to the reported revenue line in the current data. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "The balance sheet carries $4.8B of net cash. Interest cover is 14.6x. Management can fund the next phase without needing the capital markets. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 26.1x trailing earnings, no meaningful EV/EBITDA multiple and no meaningful EV/sales multiple. The free-cash-flow yield is 6.1%. Inverting the P/E gives an earnings yield of 3.8%; the cash-flow yield is 6.1%.",
-      "The peer comparison sets the company against LLY, JNJ and ABBV; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $155.69, the shares trade at 26.1x trailing earnings and no meaningful EV/EBITDA multiple, with a 6.1% free-cash-flow yield. The earnings yield is 3.8%. The earnings multiple is 45.5% below the 47.9x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "10 analysts contribute to the third-party consensus. The mean target is $157.10, with a range of $130.00 to $185.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $57.9B of revenue and $9.11 of EPS. The estimate revisions in the dataset are 3.1% over 30 days and 3.4% over 90 days. The estimate is consistent with growth of 2.1% on the trailing revenue figure."
+      "10 analysts in the third-party consensus carry a mean target of $157.10, 0.9% above the latest close. The range runs from $130.00 to $185.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $57.9B of revenue and $9.11 of EPS. EPS estimates are up 3.1% over 30 days and up 3.4% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is launch execution and pipeline data versus patent cliff and pipeline.",
     "items": [
       {
-        "title": "Clinical failure",
+        "title": "Patent cliff and pipeline",
         "severity": "High",
-        "detail": "A negative trial can remove most of a programme's value.",
+        "detail": "The main risk is patent cliff and pipeline.",
         "watch": "Trial endpoints and readout timing."
       },
       {
@@ -146,9 +146,9 @@ export const NVS: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Novartis AG produced $0 of trailing revenue at a n/a operating margin and a n/a free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The consensus target is $157.10 as of 2026-11-25, 0.9% above the latest close; the figure belongs to the analysts who published it, not to this report. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 74/100 and cash generation at 14/100, with the composite averaging 43/100. The gap between valuation at 74/100 and cash generation at 14/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on valuation and the durability of the current economics. The weak link is cash generation.",
+      "What would change the view is return on invested capital rising above 29.2%, not a single quarter. The key exposure is patent cliff and pipeline.",
+      "The scorecard averages 43/100, but the dispersion matters more: valuation is 74/100 and cash generation is 14/100."
     ],
     "questions": [
       "When does the largest patent expire?",

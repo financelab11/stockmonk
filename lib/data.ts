@@ -210,6 +210,16 @@ export const getResearchCompanies = cache((): TickerData[] => {
   );
 });
 
+export type PeerStat = {
+  ticker: string;
+  revenueGrowth: number | null;
+  operatingMargin: number | null;
+  roic: number | null;
+  pe: number | null;
+  evEbitda: number | null;
+  fcfMargin: number | null;
+};
+
 export type ResearchBundle = {
   data: TickerData;
   consensus: Consensus | null;
@@ -221,6 +231,7 @@ export type ResearchBundle = {
   latestQYoY: number | null;
   rangePosition: number | null;
   peerCandidates?: string[];
+  peerStats?: PeerStat[];
 };
 
 function buildResearchBundle(data: TickerData): ResearchBundle {

@@ -22,7 +22,7 @@ import {
   latestQuarterYoY,
   rangePosition,
 } from "../lib/analytics";
-import { generateStockStoryV2 } from "../lib/generated-story-v2";
+import { generateAnalystStory } from "../lib/analyst-story";
 import type { ResearchBundle } from "../lib/data";
 import {
   consensusSchema,
@@ -130,6 +130,21 @@ function buildBundle(
           company.ticker !== ticker && company.industry === final.industry,
       )
       .map((company) => company.ticker),
+    peerStats: companies
+      .filter(
+        (company) =>
+          company.ticker !== ticker && company.industry === final.industry,
+      )
+      .slice(0, 6)
+      .map((company) => ({
+        ticker: company.ticker,
+        revenueGrowth: company.metrics.revenueGrowthTtm ?? null,
+        operatingMargin: company.metrics.operatingMargin ?? null,
+        roic: company.metrics.roic ?? null,
+        pe: company.metrics.pe ?? null,
+        evEbitda: company.metrics.evEbitda ?? null,
+        fcfMargin: company.metrics.fcfMargin ?? null,
+      })),
     cagr: computeCagr(final.annual),
     latestQYoY: latestQuarterYoY(final),
     rangePosition: rangePosition(
@@ -176,7 +191,7 @@ function ensureLength(paragraphs: string[], fallback: string): string[] {
 }
 
 function refreshStory(story: StockStory, bundle: ResearchBundle): StockStory {
-  const generated = generateStockStoryV2(bundle);
+  const generated = generateAnalystStory(bundle);
   const data = bundle.data;
   const currency = data.currency ?? "USD";
   const money = (value: number | null | undefined) =>

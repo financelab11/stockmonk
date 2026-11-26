@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const MOH: StockStory = {
   "ticker": "MOH",
   "kicker": "Healthcare Services & Devices · Healthcare Plans",
-  "title": "Molina Healthcare, Inc: A managed-care company focused on Medicaid and Medicare",
-  "dek": "Molina Healthcare, Inc. reported $44.1B of trailing revenue at a 0.4% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Molina Healthcare: A managed-care company focused on Medicaid and Medicare",
+  "dek": "Molina Healthcare's revenue was flat at $44.1B, at a 0.4% operating margin. The key risk is acuity and rate updates.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $44.1B trailing twelve months, -0.9% year over year.",
+    "Revenue: $44.1B, -0.9% year over year.",
     "Profitability: 0.4% operating margin and -0.1% net margin.",
     "Cash: $236M free cash flow, a 0.5% margin, against $4.8B of net cash.",
-    "Valuation: no meaningful trailing earnings multiple and 18.2x EV/EBITDA at the latest close."
+    "Valuation: no meaningful earnings multiple and 18.2x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,43 +18,43 @@ export const MOH: StockStory = {
   "irUrl": "https://www.molinahealthcare.com",
   "bigPicture": {
     "paragraphs": [
-      "Molina Healthcare, Inc. generated $44.1B of revenue over the last twelve months, -0.9% versus the prior year. The latest reported quarter was Q3 FY26, with $11.1B of revenue and a 1.0% operating margin. The shares closed at $208.39 on Nov 25, 2026, giving a market capitalization of $10.9B.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. Geographic mix is not disclosed in the extract behind this report.",
-      "At the latest close the equity is valued at $10.9B, or no meaningful trailing earnings multiple and 18.2x EV/EBITDA. The shares sit 71% of the way up their 52-week range ($121.06 to $244.89). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Molina Healthcare's revenue was flat at $44.1B at a 0.4% operating margin, generating $236M of free cash flow. The latest quarter (Q3 FY26) fell 3.4%.",
+      "Revenue is reported as one consolidated line. The catalyst is membership and margin. The exposure is acuity and rate updates. Without a segment split, the consolidated margin is the cleanest unit of analysis.",
+      "At $208.39, the equity is worth $10.9B, or no meaningful earnings multiple and 18.2x EV/EBITDA. The stock is 71% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Molina is a managed-care company focused on Medicaid and Medicare, so enrollment, acuity and state rate updates drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Molina Healthcare, Inc. provides managed healthcare services to low-income families and individuals under the Medicaid and Medicare programs and through the state insurance marketplaces in the United States. Molina Healthcare, Inc. sits in the Healthcare Plans industry, one of the Healthcare Services & Devices names in this library.",
-      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 19,000 people. The revenue base is $44.1B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The closest listed comparisons are UNH, CI and CNC; the useful question is how Molina Healthcare, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Molina Healthcare, Inc. provides managed healthcare services to low-income families and individuals under the Medicaid and Medicare programs and through the state insurance marketplaces in the United States.",
+      "Medical claims absorb the bulk of premium revenue, leaving a 0.4% operating margin. That is 3.0 points below the peer median of 3.4%. A few points of medical-cost trend can wipe out the profit.",
+      "Capital is regulated and held against medical reserves, so the medical loss ratio and reserve development matter more than capex. Return on equity was -1.2%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$44.1B on a trailing-twelve-month basis, with the latest quarter at $11.1B."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 0.4%; free-cash-flow margin 0.5%; net margin -0.1%."
+        "title": "Margin engine",
+        "detail": "Operating margin 0.4%. Medical claims are the main cost line, so the medical loss ratio or combined ratio is the bridge to profit."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $10.9B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Reserves and the investment portfolio are the capital base; ROE -1.2%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 0.4% is the first clean profitability line. Membership, medical cost trend and premium rates decide the margin, with the medical loss ratio as the central number.",
-      "The balance sheet carries $4.8B of net cash. Return on invested capital was 1.7%, while the reported return on equity is negative because the equity base is negative. The operating return is the one to use when judging reinvestment."
+      "Premium revenue is set at enrollment; medical claims decide the margin. The edge is medicaid managed-care footprint.",
+      "The insurer keeps the difference between premium revenue and medical claims. The margin is thin enough that a few points of medical-cost trend can wipe out the profit. Membership mix and rate filings are the other variables to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 13.4% a year across the fiscal years in the dataset, and the latest quarter changed -3.4% year over year. Current-year estimates call for $44.7B of revenue and $5.27 of EPS.",
-      "The operating margin of 0.4% and return on invested capital of 1.7% are the filters to watch as revenue scales. Revenue is shrinking at 0.9% a year on a trailing basis, which puts the burden on cost control and capital returns."
+      "Revenue compounded at 13.4% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) fell 3.4% year over year. The current-year consensus looks for $44.7B of revenue and $5.27 of EPS.",
+      "The next leg depends on membership and margin. The top line is shrinking, so the margin has to be defended on a smaller base. The next filing should show whether the pace came from demand, pricing or acquisitions."
     ],
     "bullets": [
       {
@@ -63,45 +63,45 @@ export const MOH: StockStory = {
       },
       {
         "title": "Premium rates",
-        "detail": "The operating margin is 0.4%. Rate filings and renewals determine revenue per member against expected medical cost."
+        "detail": "Rate filings and renewals determine revenue per member against expected medical cost. The operating margin is 0.4%."
       },
       {
         "title": "Medical cost management",
-        "detail": "Network, utilization and pharmacy programmes determine how much of the premium survives claims. The current reading: return on invested capital is 1.7%."
+        "detail": "Network, utilization and pharmacy programmes determine how much of the premium survives claims. Return on invested capital is 1.7%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 6.0% in FY2018 to 1.7% in FY2025. The trailing operating margin is 0.4%, the net margin is -0.1% and diluted EPS is -$0.68.",
-      "Return on equity was -1.2% and return on invested capital was 1.7%. A negative equity base makes the equity return meaningless here; the return on invested capital is the number that matters."
+      "The operating margin moved from 6.0% in FY2018 to 1.7% in FY2025. The trailing operating margin is 0.4%, the net margin is -0.1%, and diluted EPS is -$0.68, down 104.2% year over year.",
+      "Return on equity is negative because the equity base is negative; the 1.7% return on invested capital is the operating measure that matters. For a managed-care insurer, the medical loss ratio and reserve development are the better tests of return quality."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $236M, a 0.5% margin. The balance sheet carries $4.8B of net cash. With capital spending at 0.2% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was -$535M, or -113.3% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $101M in the latest fiscal year."
+      "Free cash flow was $236M, or 0.5% of revenue. Operating cash flow covered -113.3% of net income; working capital is absorbing part of the reported profit. Capex absorbed 0.2% of revenue, which is low relative to the revenue base.",
+      "For a managed-care insurer, reserves and investment income matter more than net debt. The balance sheet is a source of flexibility rather than a constraint."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, 18.2x EV/EBITDA and 0.1x EV/sales. The free-cash-flow yield is 2.2%. Without a meaningful earnings multiple, the cash-flow yield and the asset base carry more of the valuation work.",
-      "The peer comparison sets the company against UNH, CI and CNC; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $208.39, the shares trade at no meaningful earnings multiple and 18.2x EV/EBITDA, with a 2.2% free-cash-flow yield. What matters is whether the current multiple is above or below the company's own history.",
+      "No earnings multiple is meaningful, so the market is valuing the asset base or the pipeline rather than current profit. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "17 analysts contribute to the third-party consensus. The mean target is $219.53, with a range of $163.00 to $266.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $44.7B of revenue and $5.27 of EPS. The estimate revisions in the dataset are -0.0% over 30 days and 0.6% over 90 days. That implies growth of 1.4% over the trailing twelve months."
+      "17 analysts in the third-party consensus carry a mean target of $219.53, 5.3% above the latest close. The range runs from $163.00 to $266.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $44.7B of revenue and $5.27 of EPS. EPS estimates are little changed over 30 days and up 0.6% over 90 days. That implies 1.4% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is membership and margin versus acuity and rate updates.",
     "items": [
       {
-        "title": "Medical cost trend",
+        "title": "Acuity and rate updates",
         "severity": "High",
-        "detail": "Utilization and acuity can rise faster than premiums, compressing the medical loss ratio.",
+        "detail": "The main risk is acuity and rate updates.",
         "watch": "Medical loss ratio, utilization and acuity."
       },
       {
@@ -146,9 +146,9 @@ export const MOH: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Molina Healthcare, Inc. produced $44.1B of trailing revenue at a 0.4% operating margin and a 0.5% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Third-party analysts put the mean target at $219.53 as of 2026-11-25, 5.3% above the latest close; it should be read as the published consensus, not as this publication's view. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put balance sheet at 97/100 and growth at 9/100, with the composite averaging 42/100. The average hides a strong balance sheet reading and a weak growth one, which is why the spread is the more useful description."
+      "The investment case rests on balance sheet and the durability of 0.4% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 3.0%, not a single quarter. The key exposure is acuity and rate updates.",
+      "The composite of 42/100 blends a strong balance sheet reading with a weak growth one; the gap is the story."
     ],
     "questions": [
       "Is medical cost trend running above or below premium rates?",

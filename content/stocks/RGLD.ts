@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const RGLD: StockStory = {
   "ticker": "RGLD",
   "kicker": "Materials & Mining · Gold",
-  "title": "Royal Gold, Inc: Precious-metal streams and royalties",
-  "dek": "Royal Gold, Inc. reported $1.8B of trailing revenue at a 62.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Royal Gold: Precious-metal streams and royalties",
+  "dek": "Royal Gold's revenue rose 105.2% to $1.8B, at a 62.0% operating margin. The key risk is gold prices and production.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $1.8B trailing twelve months, +105.2% year over year.",
+    "Revenue: $1.8B, +105.2% year over year.",
     "Profitability: 62.0% operating margin and 47.7% net margin.",
-    "Cash: n/a free cash flow, a n/a margin, against $38.4M of net cash.",
-    "Valuation: 24.0x trailing earnings and 13.9x EV/EBITDA at the latest close."
+    "Cash: free cash flow is not meaningful at this stage.",
+    "Valuation: 24.0x trailing earnings and 13.9x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const RGLD: StockStory = {
   "irUrl": "https://www.royalgold.com",
   "bigPicture": {
     "paragraphs": [
-      "Royal Gold, Inc. generated $1.8B of revenue over the last twelve months, +105.2% versus the prior year. The latest reported quarter was Q3 FY26, with $464.8M of revenue and a 65.4% operating margin. The shares closed at $237.59 on Nov 25, 2026, giving a market capitalization of $20.1B.",
-      "Stream Interest accounts for 66.6% of disclosed revenue. Revenue is disclosed across 4 geographies, with North America the largest at 42.8%. Royal Gold, Inc. competes in Gold, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $20.1B, or 24.0x trailing earnings and 13.9x EV/EBITDA. The shares sit 43% of the way up their 52-week range ($186.33 to $306.25). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "Royal Gold's revenue rose 105.2% to $1.8B at a 62.0% operating margin. The latest quarter (Q3 FY26) grew 84.4%. The margin and the multiple are the two numbers that matter from here.",
+      "Stream Interest is 66.6% of revenue and Royalty Interest is 33.4%. North America is the largest geography at 42.8% of revenue. What could lift the return is stream acquisitions and production. The thing to watch is gold prices and production.",
+      "At $237.59, the equity is worth $20.1B, or 24.0x trailing earnings and 13.9x EV/EBITDA. The earnings multiple is 113.8% above the 11.2x peer median. The stock is 43% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Royal Gold owns precious-metal streams and royalties, a high-margin financing model where production volumes and gold prices drive cash flow."
   },
   "whatItDoes": {
     "paragraphs": [
       "Royal Gold, Inc., together with its subsidiaries, acquires and manages precious metal streams, royalties, and related interests in North America, South and Central America, Europe, the Middle East, Africa, and the Australia Pacific.",
-      "The disclosed mix runs across Stream Interest at 66.6% and Royalty Interest at 33.4%. Headcount was 39 in the latest filing. The revenue base is $1.8B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "Against CDE, IDR and AEM, the relevant tests are pricing power, capital intensity and cash conversion."
+      "Royal Gold earned a 66.2% gross margin, and energy, feedstock and maintenance absorbed 4.2% of revenue, leaving a 62.0% operating margin. That is 17.0 points above the peer median of 45.1%.",
+      "Capex is not disclosed in the current data. The balance sheet carries $38.4M of net cash. Return on invested capital was 11.3%. That is roughly in line with the peer median of 11.0%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$1.8B on a trailing-twelve-month basis, with the latest quarter at $464.8M."
+        "title": "Revenue mix",
+        "detail": "Stream Interest at 66.6% and Royalty Interest at 33.4%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 62.0%; free-cash-flow margin n/a; net margin 47.7%."
+        "title": "Margin engine",
+        "detail": "Gross margin 66.2%, operating margin 62.0%. Energy, feedstock and maintenance are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $20.1B at the latest close."
+        "title": "Capital intensity",
+        "detail": "$38.4M of net cash; ROIC 11.3%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 66.2%, operating margin is 62.0% and net margin is 47.7%. Gross profit was $1.2B, and 4.2% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "The balance sheet carries $38.4M of net cash. Return on invested capital was 11.3% and return on equity was 10.8%. That is neither clearly good nor clearly bad without knowing the cost of capital."
+      "Commodity prices, volumes and input costs drive revenue and margin. The edge is precious-metal streams and royalties.",
+      "The operating margin is 62.0%, 17.0 points above the peer median of 45.1%. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 16.0% a year across the fiscal years in the dataset, and the latest quarter changed +84.4% year over year. Current-year estimates point to 81.7% revenue growth, with EPS of 10.68 in the reporting currency.",
-      "The operating margin of 62.0% and return on invested capital of 11.3% are the filters to watch as revenue scales. With a 62.0% margin, the growth rate matters less than whether the margin is repeatable."
+      "Revenue compounded at 16.0% a year from FY2019 to FY2025. The latest quarter (Q3 FY26) grew 84.4% year over year. The current-year consensus looks for 81.7% revenue growth, with EPS of 10.68 in the reporting currency.",
+      "The next leg depends on stream acquisitions and production. For Royal Gold, volume growth is only worth paying for if the price-cost spread holds. The next filing should show whether the pace came from demand, pricing or acquisitions."
     ],
     "bullets": [
       {
         "title": "Volume",
-        "detail": "Revenue growth is +105.2%. Shipments show underlying industrial demand."
+        "detail": "Shipments show underlying industrial demand. Revenue growth is 105.2%."
       },
       {
         "title": "Price and mix",
-        "detail": "Product mix and pricing determine margin per ton. The current reading: the operating margin is 62.0%."
+        "detail": "Product mix and pricing determine margin per ton. The operating margin is 62.0%."
       },
       {
         "title": "Cost position",
-        "detail": "Return on invested capital is 11.3%. The next data point will show whether the trend is intact."
+        "detail": "Low-cost assets can earn through the cycle. Return on invested capital is 11.3%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 33.3% in FY2019 to 61.9% in FY2025. The trailing operating margin is 62.0%, the net margin is 47.7% and diluted EPS is $9.80.",
-      "Return on equity was 10.8% and return on invested capital was 11.3%. The two returns are within a few points, at 10.8% on equity and 11.3% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 33.3% in FY2019 to 61.9% in FY2025. The trailing operating margin is 62.0%, the net margin is 47.7%, and diluted EPS is $9.80, up 34.6% year over year.",
+      "Return on equity of 10.8% and return on invested capital of 11.3% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was n/a, a n/a margin. The balance sheet carries $38.4M of net cash. With capital spending at n/a of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $704.8M, or 151.2% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $0 in the latest fiscal year."
+      "Free cash flow is not meaningful at this stage. Operating cash flow and the balance sheet are the better tests at this stage. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "The balance sheet carries $38.4M of net cash. That gives management room to invest or return capital without leaning on the balance sheet. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 24.0x trailing earnings, 13.9x EV/EBITDA and 11.4x EV/sales. The free-cash-flow yield is n/a. The trailing earnings yield is 4.2%, against a free-cash-flow yield of n/a.",
-      "The peer comparison sets the company against CDE, IDR and AEM; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $237.59, the shares trade at 24.0x trailing earnings and 13.9x EV/EBITDA. The earnings yield is 4.2%. The earnings multiple is 113.8% above the 11.2x peer median.",
+      "The multiple is above the peer median, leaving less room for disappointment. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "12 analysts contribute to the third-party consensus. The mean target is $313.50, with a range of $222.00 to $380.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates point to 81.7% revenue growth, with EPS of 10.68 in the reporting currency. The estimate revisions in the dataset are 1.9% over 30 days and 1.6% over 90 days."
+      "12 analysts in the third-party consensus carry a mean target of $313.50, 31.9% above the latest close. The range runs from $222.00 to $380.00. The range is unusually wide, which signals genuine disagreement about the cycle. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for 81.7% revenue growth, with EPS of 10.68 in the reporting currency. EPS estimates are up 1.9% over 30 days and up 1.6% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is stream acquisitions and production versus gold prices and production.",
     "items": [
       {
-        "title": "Commodity cycle",
+        "title": "Gold prices and production",
         "severity": "High",
-        "detail": "Prices can fall faster than costs.",
+        "detail": "The main risk is gold prices and production.",
         "watch": "Realised prices and inventory."
       },
       {
@@ -146,9 +146,9 @@ export const RGLD: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Royal Gold, Inc. produced $1.8B of trailing revenue at a 62.0% operating margin and a n/a free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Analysts contributing to the third-party consensus carry a $313.50 mean target as of 2026-11-25, 31.9% above the latest close; the forecast is theirs, and this report does not adopt it as a target.",
-      "The factor percentiles put growth at 82/100 and cash generation at 14/100, with the composite averaging 58/100. The average hides a strong growth reading and a weak cash generation one, which is why the spread is the more useful description."
+      "The investment case rests on growth and the durability of 62.0% margins. The weak link is cash generation.",
+      "What would change the view is return on invested capital rising above 13.3%, not a single quarter. The key exposure is gold prices and production.",
+      "The scorecard puts the composite at 58/100. Focus on the growth-to-cash generation spread rather than the average."
     ],
     "questions": [
       "What is the mid-cycle margin?",

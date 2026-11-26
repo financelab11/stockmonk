@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const CHWY: StockStory = {
   "ticker": "CHWY",
   "kicker": "Internet Platforms · Internet Retail",
-  "title": "Chewy, Inc: An online pet retailer",
-  "dek": "Chewy, Inc. reported $13.1B of trailing revenue at a 2.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Chewy: An online pet retailer",
+  "dek": "Chewy's revenue rose 5.9% to $13.1B, at a 2.5% operating margin. The key risk is active customers and fulfilment costs.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $13.1B trailing twelve months, +5.9% year over year.",
+    "Revenue: $13.1B, +5.9% year over year.",
     "Profitability: 2.5% operating margin and 2.1% net margin.",
     "Cash: $568.1M free cash flow, a 4.3% margin, against $20.5M of net cash.",
-    "Valuation: 29.8x trailing earnings and 17.2x EV/EBITDA at the latest close."
+    "Valuation: 29.8x trailing earnings and 17.2x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const CHWY: StockStory = {
   "irUrl": "https://www.chewy.com",
   "bigPicture": {
     "paragraphs": [
-      "Chewy, Inc. generated $13.1B of revenue over the last twelve months, +5.9% versus the prior year. The latest reported quarter was Q2 FY27, with $3.3B of revenue and a 2.8% operating margin. The shares closed at $20.30 on Nov 25, 2026, giving a market capitalization of $8.2B.",
-      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. No country-level revenue split is carried in the data used here. Chewy, Inc. competes in Internet Retail, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $8.2B, or 29.8x trailing earnings and 17.2x EV/EBITDA. The shares sit 15% of the way up their 52-week range ($17.40 to $37.34). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Chewy's revenue rose 5.9% to $13.1B at a 2.5% operating margin, generating $568.1M of free cash flow. The latest quarter (Q2 FY27) grew 7.3%. The margin and the multiple are the two numbers that matter from here.",
+      "Revenue is reported as one consolidated line. The upside is autoship growth and margin. What would break it is active customers and fulfilment costs. Without a segment split, the consolidated margin is the cleanest unit of analysis.",
+      "At $20.30, the equity is worth $8.2B, or 29.8x trailing earnings and 17.2x EV/EBITDA. The earnings multiple is 24.5% above the 23.9x peer median. The stock is 15% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Chewy is an online pet retailer, so active customers, autoship retention and fulfilment costs drive the path to margin."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Chewy, Inc., together with its subsidiaries, engages in the e-commerce business in the United States. It reports in the Consumer Cyclical sector and is classified in Internet Platforms coverage.",
-      "Revenue is reported at the consolidated level only. Its latest filing lists 18,000 employees. The revenue base is $13.1B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "AMZN, BABA and CART provide the closest reference points for margin, growth and valuation."
+      "Chewy, Inc., together with its subsidiaries, engages in the e-commerce business in the United States.",
+      "Chewy earned a 29.9% gross margin, and fulfillment, incentives and technology absorbed 27.4% of revenue, leaving a 2.5% operating margin. That is 6.7 points below the peer median of 9.2%.",
+      "Capex is 1.0% of revenue, so the business is asset-light. The balance sheet carries $20.5M of net cash. Return on invested capital was 26.3%. That is 17.2 points above the peer median of 9.1%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$13.1B on a trailing-twelve-month basis, with the latest quarter at $3.3B."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 2.5%; free-cash-flow margin 4.3%; net margin 2.1%."
+        "title": "Margin engine",
+        "detail": "Gross margin 29.9%, operating margin 2.5%. Fulfillment, incentives and technology are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $8.2B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 1.0% of revenue; $20.5M of net cash; ROIC 26.3%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 29.9%, operating margin is 2.5% and net margin is 2.1%. Gross profit was $3.9B, and 27.4% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "The balance sheet carries $20.5M of net cash. Return on invested capital was 26.3% and return on equity was 73.9%. That is comfortably above most cost-of-capital estimates, which is what lets reinvestment create value."
+      "User growth, transaction volume and take rate drive revenue. The edge is pet e-commerce and Autoship retention.",
+      "The operating margin is 2.5%, 6.7 points below the peer median of 9.2%. The next dollar of revenue matters less than the margin it carries."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 19.9% a year across the fiscal years in the dataset, and the latest quarter changed +7.3% year over year. Current-year estimates call for $13.5B of revenue and $1.54 of EPS.",
-      "The operating margin of 2.5% and return on invested capital of 26.3% are the filters to watch as revenue scales. Growth of 5.9% against a 2.5% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 19.9% a year from FY2019 to FY2026. The latest quarter (Q2 FY27) grew 7.3% year over year. The current-year consensus looks for $13.5B of revenue and $1.54 of EPS.",
+      "The next leg depends on autoship growth and margin. For Chewy, user growth is only worth paying for if take rate and contribution margin hold."
     ],
     "bullets": [
       {
         "title": "User and engagement growth",
-        "detail": "Revenue growth is +5.9%. Watch whether that reading improves or merely holds."
+        "detail": "More active users and frequency expand the inventory available to monetise. Revenue growth is 5.9%."
       },
       {
         "title": "Take rate",
@@ -67,41 +67,41 @@ export const CHWY: StockStory = {
       },
       {
         "title": "Adjacent services",
-        "detail": "Return on invested capital is 26.3%. Advertising, logistics, payments and subscriptions can lift revenue per user."
+        "detail": "Advertising, logistics, payments and subscriptions can lift revenue per user. Return on invested capital is 26.3%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -7.6% in FY2019 to 2.0% in FY2026. The trailing operating margin is 2.5%, the net margin is 2.1% and diluted EPS is $0.66.",
-      "Return on equity was 73.9% and return on invested capital was 26.3%. Return on equity of 73.9% is well above the 26.3% return on invested capital; the difference is the balance sheet, not the business."
+      "The operating margin moved from -7.6% in FY2019 to 2.0% in FY2026. The trailing operating margin is 2.5%, the net margin is 2.1%, and diluted EPS is $0.66, up 83.3% year over year.",
+      "Return on equity of 73.9% is well above the 26.3% return on invested capital; leverage or acquisition goodwill explains most of the gap. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $568.1M, a 4.3% margin. The balance sheet carries $20.5M of net cash. With capital spending at 1.0% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $691.6M, or 310.4% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $129.2M in the latest fiscal year."
+      "Free cash flow was $568.1M, or 4.3% of revenue. Operating cash flow covered 310.4% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 1.0% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $20.5M of net cash. Interest cover is 28.5x. Management can fund the next phase without needing the capital markets. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 29.8x trailing earnings, 17.2x EV/EBITDA and 0.6x EV/sales. The free-cash-flow yield is 7.0%. The trailing earnings yield is 3.4%, against a free-cash-flow yield of 7.0%.",
-      "The peer comparison sets the company against AMZN, BABA and CART; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $20.30, the shares trade at 29.8x trailing earnings and 17.2x EV/EBITDA, with a 7.0% free-cash-flow yield. The earnings yield is 3.4%. The earnings multiple is 24.5% above the 23.9x peer median.",
+      "The multiple is above the peer median, leaving less room for disappointment. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "23 analysts contribute to the third-party consensus. The mean target is $28.35, with a range of $21.00 to $36.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $13.5B of revenue and $1.54 of EPS. The estimate revisions in the dataset are -0.1% over 30 days and 0.6% over 90 days. The estimate is consistent with growth of 3.5% on the trailing revenue figure."
+      "23 analysts in the third-party consensus carry a mean target of $28.35, 39.6% above the latest close. The range runs from $21.00 to $36.00. The spread between the high and low target is unusually wide. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $13.5B of revenue and $1.54 of EPS. EPS estimates are down 0.1% over 30 days and up 0.6% over 90 days. That implies 3.5% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is autoship growth and margin versus active customers and fulfilment costs.",
     "items": [
       {
-        "title": "Competition for users",
+        "title": "Active customers and fulfilment costs",
         "severity": "High",
-        "detail": "Switching costs are low and new formats can take attention quickly.",
+        "detail": "The main risk is active customers and fulfilment costs.",
         "watch": "Monthly users, engagement and churn."
       },
       {
@@ -146,9 +146,9 @@ export const CHWY: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Chewy, Inc. produced $13.1B of trailing revenue at a 2.5% operating margin and a 4.3% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Analysts contributing to the third-party consensus carry a $28.35 mean target as of 2026-11-25, 39.6% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target.",
-      "The factor percentiles put balance sheet at 62/100 and cash generation at 22/100, with the composite averaging 47/100. The readings are close enough together that the average carries most of the information; balance sheet is the strongest at 62/100."
+      "The investment case rests on balance sheet and the durability of 2.5% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above 7.3%, not a single quarter. The key exposure is active customers and fulfilment costs.",
+      "The scorecard averages 47/100, but the dispersion matters more: balance sheet is 62/100 and cash generation is 22/100."
     ],
     "questions": [
       "How much growth is users versus take rate?",

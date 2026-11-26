@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const FMC: StockStory = {
   "ticker": "FMC",
   "kicker": "Materials & Mining · Agricultural Inputs",
-  "title": "FMC Corporation: a materials & mining business with -22.0% revenue growth",
-  "dek": "FMC Corporation reported $2.8B of trailing revenue at a -97.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "FMC: margins, cash conversion and the multiple",
+  "dek": "FMC's revenue fell 22.0% to $2.8B, at a -97.0% operating margin. The key risk is channel inventory and pricing.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $2.8B trailing twelve months, -22.0% year over year.",
-    "Profitability: -97.0% operating margin and -151.2% net margin.",
+    "Revenue: $2.8B, -22.0% year over year.",
+    "Profitability: -97.0% operating margin and a net margin that is not meaningful on the current data.",
     "Cash: $370.1M free cash flow, a 13.1% margin, against $3.7B of net debt.",
-    "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
+    "Valuation: no meaningful earnings multiple and no meaningful EV/EBITDA multiple."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const FMC: StockStory = {
   "irUrl": "https://www.fmc.com",
   "bigPicture": {
     "paragraphs": [
-      "FMC Corporation generated $2.8B of revenue over the last twelve months, -22.0% versus the prior year. The latest reported quarter was Q3 FY26, with $105.9M of revenue and a -1050.2% operating margin. The shares closed at $4.09 on Nov 25, 2026, giving a market capitalization of $637M.",
-      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. Geographically, Latin America leads at 39.0% of the disclosed split.",
-      "At the latest close the equity is valued at $637M, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 1% of the way up their 52-week range ($3.89 to $18.29). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "FMC's revenue fell 22.0% to $2.8B at a -97.0% operating margin, generating $370.1M of free cash flow. The latest quarter (Q3 FY26) fell 80.5%. The next test is whether the current profitability can be sustained.",
+      "Revenue is reported as one consolidated line. Latin America is the largest geography at 39.0% of revenue. The near-term driver is volume recovery and new products. The risk is channel inventory and pricing.",
+      "At $4.09, the equity is worth $637M, or no meaningful earnings multiple and no meaningful EV/EBITDA multiple. The stock is 1% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "FMC sells crop-protection chemicals, so volume, pricing and channel inventory drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "FMC Corporation, an agricultural sciences company, develops, markets, and sells crop protection chemicals in Latin America, North America, Europe, the Middle East, Africa, and Asia. The company offers crop protection chemicals, including insecticides, herbicides, and fungicides.",
-      "There is no separate segment disclosure in the current extract. The company employed 5,500 people at the last reporting date. With $2.8B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The peer set is CF, CTVA and MOS; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "FMC Corporation, an agricultural sciences company, develops, markets, and sells crop protection chemicals in Latin America, North America, Europe, the Middle East, Africa, and Asia.",
+      "FMC earned a 22.0% gross margin, and energy, feedstock and maintenance absorbed 118.9% of revenue, leaving a -97.0% operating margin. That is 104.7 points below the peer median of 7.7%.",
+      "Capital spending runs at 3.4% of revenue, which is low relative to the revenue base. Net debt is $3.7B. Return on invested capital was -49.3%. That is 52.1 points below the peer median of 2.7%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$2.8B on a trailing-twelve-month basis, with the latest quarter at $105.9M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -97.0%; free-cash-flow margin 13.1%; net margin -151.2%."
+        "title": "Margin engine",
+        "detail": "Gross margin 22.0%, operating margin -97.0%. Energy, feedstock and maintenance are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $637M at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.4% of revenue; $3.7B of net debt; ROIC -49.3%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 22.0% of revenue after cost of sales, or $618.2M. Operating expenses absorbed 118.9% of revenue, leaving a -97.0% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $3.7B, or n/a EBITDA. Return on invested capital was -49.3% and return on equity was 21934.0%. The capital base is currently earning less than nothing; scale has to change that."
+      "Commodity prices, volumes and input costs drive revenue and margin. The edge is crop-protection portfolio.",
+      "The operating margin is -97.0%, 104.7 points below the peer median of 7.7%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -3.0% a year across the fiscal years in the dataset, and the latest quarter changed -80.5% year over year. Current-year estimates call for $2.8B of revenue and -$3.63 of EPS.",
-      "The operating margin of -97.0% and return on invested capital of -49.3% are the filters to watch as revenue scales. The trailing decline of 22.0% means the margin has to be defended on a smaller base."
+      "Revenue compounded at -3.0% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) fell 80.5% year over year. The current-year consensus looks for $2.8B of revenue and -$3.63 of EPS.",
+      "The next leg depends on volume recovery and new products. The top line is shrinking, so the margin has to be defended on a smaller base."
     ],
     "bullets": [
       {
         "title": "Volume",
-        "detail": "Shipments show underlying industrial demand. The current reading: revenue growth is -22.0%."
+        "detail": "Shipments show underlying industrial demand. Revenue growth is -22.0%."
       },
       {
         "title": "Price and mix",
-        "detail": "The operating margin is -97.0%. The trend in that figure matters more than its level."
+        "detail": "Product mix and pricing determine margin per ton. The operating margin is -97.0%."
       },
       {
         "title": "Cost position",
@@ -73,36 +73,36 @@ export const FMC: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 17.3% in FY2018 to -47.0% in FY2025. The trailing operating margin is -97.0%, the net margin is -151.2% and diluted EPS is -$33.02.",
-      "Return on equity was 21934.0% and return on invested capital was -49.3%. Both measures sit below zero, so there is no leverage effect to separate out. Both should be read against the company's own history before they are compared with a peer median."
+      "The operating margin moved from 17.3% in FY2018 to -47.0% in FY2025. The trailing operating margin is -97.0%, the net margin is not meaningful on the current data, and diluted EPS is -$33.02.",
+      "Return on equity of 21934.0% is well above the -49.3% return on invested capital; leverage or acquisition goodwill explains most of the gap. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $370.1M, a 13.1% margin. Net debt is $3.7B, or n/a EBITDA. Capex absorbed 3.4% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $96.3M in the latest fiscal year."
+      "Free cash flow was $370.1M, or 13.1% of revenue. Capex absorbed 3.4% of revenue, which is low relative to the revenue base. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "Net debt is $3.7B. Interest cover is -10.0x. The test is whether that cash is reinvested at a return above the cost of capital. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 1.5x EV/sales. The free-cash-flow yield is 58.1%. Without a meaningful earnings multiple, the cash-flow yield and the asset base carry more of the valuation work.",
-      "The peer comparison sets the company against CF, CTVA and MOS; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $4.09, the shares trade at no meaningful earnings multiple and no meaningful EV/EBITDA multiple, with a 58.1% free-cash-flow yield. The market's expectation is embedded in the price; the question is whether it is too high or too low.",
+      "No earnings multiple is meaningful, so the market is valuing the asset base or the pipeline rather than current profit. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "14 analysts contribute to the third-party consensus. The mean target is $7.55, with a range of $4.00 to $18.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $2.8B of revenue and -$3.63 of EPS. The estimate revisions in the dataset are -649.5% over 30 days and -381.5% over 90 days. If met, the estimate would mean a decline of 1.7% from the current base."
+      "14 analysts in the third-party consensus carry a mean target of $7.55, 84.4% above the latest close. The range runs from $4.00 to $18.00. Analysts disagree on the outcome; the mean is a weak summary of a wide range. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $2.8B of revenue and -$3.63 of EPS. EPS estimates are down 649.5% over 30 days and down 381.5% over 90 days. That implies a 1.7% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is volume recovery and new products versus channel inventory and pricing.",
     "items": [
       {
-        "title": "Revenue decline",
+        "title": "Channel inventory and pricing",
         "severity": "High",
-        "detail": "Trailing revenue fell 22.0%, so the margin has to be defended on a shrinking base.",
-        "watch": "Organic growth, retention and pricing."
+        "detail": "The main risk is channel inventory and pricing.",
+        "watch": "Realised prices and inventory."
       },
       {
         "title": "Input costs",
@@ -146,9 +146,9 @@ export const FMC: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "FMC Corporation produced $2.8B of trailing revenue at a -97.0% operating margin and a 13.1% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The published consensus mean is $7.55 (2026-11-25), 84.4% above the latest close; this report does not publish a target of its own. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 100/100 and profitability at 3/100, with the composite averaging 52/100. The gap between valuation at 100/100 and profitability at 3/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on valuation and the durability of -97.0% margins. The weak link is profitability.",
+      "What would change the view is return on invested capital rising above -47.3%, not a single quarter. The key exposure is channel inventory and pricing.",
+      "On the scorecard, the composite is 52/100. The spread between valuation and profitability is the useful part; the average hides it."
     ],
     "questions": [
       "What is the mid-cycle margin?",

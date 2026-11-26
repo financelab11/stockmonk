@@ -3,7 +3,7 @@ import type { StockStory } from "./types";
 export const CYBR: StockStory = {
   "ticker": "CYBR",
   "kicker": "Enterprise Software · Software",
-  "title": "CyberArk Software: the final financial record behind the Palo Alto Networks deal",
+  "title": "CyberArk Software: the final record behind the Palo Alto Networks deal",
   "dek": "CyberArk Software last traded on Feb 11, 2026 after the Palo Alto Networks transaction. The report keeps the final SEC record, the deal terms and the factors that explained the business while it was public.",
   "readingMinutes": 10,
   "takeaways": [
@@ -18,90 +18,90 @@ export const CYBR: StockStory = {
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001598110&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "CyberArk Software last traded at $409.20 on Feb 11, 2026, when the Palo Alto Networks transaction closed. The final consideration was $45.00 in cash plus 2.2005 PANW shares per CYBR share. The company no longer files current reports, so the figures below are the final SEC statements rather than a live snapshot. CyberArk Software generated $1B of revenue over the last twelve months, +33.1% versus the prior year. The final reported operating margin was -7.3% and free-cash-flow margin was 22.1%.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. United States supplies 50.3% of disclosed revenue, the largest single geography in the filing.",
-      "The archived valuation has no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple, based on the final consideration and the last reported statements. It is a historical reference, not a live multiple. The article is retained because the company remains part of the 500-name coverage library."
+      "CyberArk Software last traded at $409.20 on Feb 11, 2026, when the Palo Alto Networks transaction closed. The final consideration was $45.00 in cash plus 2.2005 PANW shares per CYBR share. The figures below are the last reported record, not a live quote.",
+      "The final reported mix was a single consolidated revenue line, with the US the largest geography at 50.3%. The business no longer sets its own capital allocation or pricing; it sits inside Palo Alto Networks.",
+      "The archived valuation is n/a trailing earnings and n/a EV/EBITDA, based on the final consideration and the last statements. It is a historical reference, not a current multiple."
     ],
-    "quote": "CyberArk Software is no longer a live market, so the useful question is what its final financial record says about the Enterprise Software business that the acquirer bought."
+    "quote": "CyberArk Software is no longer a live market; the useful question is what its final record says about the business Palo Alto Networks bought."
   },
   "whatItDoes": {
     "paragraphs": [
-      "CyberArk Software was acquired by Palo Alto Networks. The final consideration was $45.00 in cash plus 2.2005 PANW shares per CYBR share. The shares last traded on Feb 11, 2026; the statements below are the final SEC filings and the article is retained as archived coverage.",
-      "The filing extract carries no product-line revenue split. The filing extract does not include a headcount figure. With $1B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The closest listed comparisons are CFLT, NEWR and ALTR; the useful question is how CyberArk Software's margin and returns compare with theirs, not how fast the addressable market is growing."
+      "CyberArk Software was a Software business. CyberArk is an archived identity-security company, and the useful question is what its privileged-access franchise was worth to Palo Alto Networks.",
+      "At the last report, the operating margin was -7.3% and the free-cash-flow margin was 22.1%. The record is closed; there is no current guidance.",
+      "The final balance sheet carried -$584.2M of net debt, and the equity no longer trades independently."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$1B on a trailing-twelve-month basis; a dated quarter is not available in the dataset."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -7.3%; free-cash-flow margin 22.1%; net margin -9.3%."
+        "title": "Margin engine",
+        "detail": "Gross margin 79.2%, operating margin -7.3%. R&D and sales and marketing are the bridge between the two."
       },
       {
-        "title": "Final status",
-        "detail": "Last traded Feb 11, 2026 after the Palo Alto Networks transaction."
+        "title": "Capital intensity",
+        "detail": "Capex 1.1% of revenue; $584.2M of net cash; ROIC -3.6%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 79.2% of revenue after cost of sales, or $792.4M. Operating expenses absorbed 86.5% of revenue, leaving a -7.3% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "The balance sheet carries $584.2M of net cash. Return on invested capital was -3.6% and return on equity was -3.9%. The capital base is currently earning less than nothing; scale has to change that."
+      "Subscriptions and seat or usage growth drive revenue; retention and sales efficiency drive the margin. Expansion within existing customers compounds revenue.",
+      "The operating margin is -7.3%, 1.5 points below the peer median of -5.8%. Retention and sales efficiency decide whether subscription growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 21.1% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of -7.3% and return on invested capital of -3.6% are the filters to watch as revenue scales. The final year in the dataset is FY2024; there is no current guidance because the company no longer trades."
+      "Revenue compounded at 21.1% a year across the reported fiscal years. The final year is FY2024 and there is no current guidance. The next data point is the quarterly growth rate against the consensus.",
+      "The archive is a record of what the business earned before the deal, not a forecast. The final operating margin was -7.3%. The consensus estimate is the first test; the second is whether incremental revenue carries the same margin as the base."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. Revenue growth is +33.1%."
+        "detail": "Expansion within existing customers compounds revenue. Revenue growth is 33.1%."
       },
       {
         "title": "New customer adds",
-        "detail": "The operating margin is -7.3%. New logos broaden the base and fund future expansion."
+        "detail": "New logos broaden the base and fund future expansion. The operating margin is -7.3%."
       },
       {
         "title": "Operating leverage",
-        "detail": "Scale should improve margins as sales and R&D mature. The current reading: return on invested capital is -3.6%."
+        "detail": "Scale should improve margins as sales and R&D mature. Return on invested capital is -3.6%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 7.8% in FY2017 to -7.3% in FY2024. The trailing operating margin is -7.3%, the net margin is -9.3% and diluted EPS is -$2.12.",
-      "Return on equity was -3.9% and return on invested capital was -3.6%. Both measures sit below zero, so there is no leverage effect to separate out. Both should be read against the company's own history before they are compared with a peer median."
+      "The final operating margin was -7.3%, the net margin was -9.3%, and diluted EPS was -$2.12. The record will not update. A single year of returns is less informative than the direction of margins and capital intensity.",
+      "The archived returns are a historical description of the business at the time of the transaction. They are not a current measure of capital allocation."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $220.8M, a 22.1% margin. The balance sheet carries $584.2M of net cash. Capex absorbed 1.1% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "The final reported balance sheet is the one shown here; it will not update. The company generated positive free cash flow on a trailing basis, and capital expenditure was $11.1M in the latest fiscal year."
+      "The final reported free cash flow was $220.8M, a 22.1% margin. The balance sheet is the last reported one and will not update. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "The final consideration was $45.00 in cash plus 2.2005 PANW shares per CYBR share; there is no current price, target or capital-return policy to assess."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 19.6x EV/sales. The free-cash-flow yield is 1.1%. Without a meaningful earnings multiple, the cash-flow yield and the asset base carry more of the valuation work.",
-      "The final consideration was $45.00 in cash plus 2.2005 PANW shares per CYBR share. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades."
+      "The final consideration was $45.00 in cash plus 2.2005 PANW shares per CYBR share. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades.",
+      "The final consideration is the only relevant reference. There is no live multiple to compare with the peer group. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A current analyst consensus is not available because CyberArk Software no longer trades. The final transaction value is the relevant reference, and the archived estimates are shown only where the dataset retains them.",
-      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $1B and the last reported operating margin was -7.3%."
+      "There is no current analyst consensus because CyberArk Software no longer trades. The final transaction value is the reference, and the archived estimates are shown only where they were retained.",
+      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $1B and the last operating margin was -7.3%."
     ]
   },
   "risks": {
-    "intro": "The risks below are the historical risks that mattered before the Palo Alto Networks transaction, plus the limitation that the record is now closed. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the historical risks that mattered before the Palo Alto Networks transaction, plus the limitation that the record is closed.",
     "items": [
       {
         "title": "Archived coverage",
         "severity": "High",
-        "detail": "CyberArk Software no longer trades. The final consideration was $45.00 in cash plus 2.2005 PANW shares per CYBR share, and the financial statements will not be updated with new quarters.",
+        "detail": "CyberArk Software no longer trades. The final consideration was $45.00 in cash plus 2.2005 PANW shares per CYBR share, and the statements will not be updated with new quarters.",
         "watch": "Treat every figure as the final reported record, not as a current market snapshot."
       },
       {
@@ -146,15 +146,14 @@ export const CYBR: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "CyberArk Software is an archived Enterprise Software company with $1B of final trailing revenue, a -7.3% operating margin and a 22.1% free-cash-flow margin. The Palo Alto Networks transaction valued the equity at $45.00 in cash plus 2.2005 PANW shares per CYBR share.",
-      "There is no current price, target or rating to update. The archived factor percentiles are a historical description of the business at the point of the transaction. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 100/100 and profitability at 12/100, with the composite averaging 63/100. The gap between valuation at 100/100 and profitability at 12/100 is wide enough that the composite is a balance, not a verdict."
+      "CyberArk Software is an archived Software company with $1B of final revenue, a -7.3% operating margin and a 22.1% free-cash-flow margin. The Palo Alto Networks transaction valued the equity at $45.00 in cash plus 2.2005 PANW shares per CYBR share.",
+      "There is no current price, target or rating to update. The archived factor scores are a historical description of the business at the point of the transaction.",
+      "The composite of 63/100 blends a strong valuation reading with a weak profitability one; the gap is the story."
     ],
     "questions": [
-      "How much growth comes from existing customers?",
-      "Is AI a tailwind or a substitute?",
-      "When does the business reach durable free cash flow?",
-      "How expensive is the next dollar of growth?"
+      "What did the final financial record show?",
+      "What did the acquirer pay for?",
+      "Which figures will never update?"
     ]
   }
 };

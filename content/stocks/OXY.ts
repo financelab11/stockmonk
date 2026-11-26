@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const OXY: StockStory = {
   "ticker": "OXY",
   "kicker": "Energy · Oil & Gas E&P",
-  "title": "Occidental Petroleum Corporation: An oil and gas producer with a large Permian position and a chemicals arm",
-  "dek": "Occidental Petroleum Corporation reported $24.7B of trailing revenue at a 28.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Occidental Petroleum: An oil and gas producer with a large Permian position and a chemicals arm",
+  "dek": "Occidental Petroleum's revenue rose 32.1% to $24.7B, at a 28.8% operating margin. The key risk is oil prices and debt.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $24.7B trailing twelve months, +32.1% year over year.",
+    "Revenue: $24.7B, +32.1% year over year.",
     "Profitability: 28.8% operating margin and 33.5% net margin.",
     "Cash: $5.9B free cash flow, a 23.7% margin, against $7B of net debt.",
-    "Valuation: 6.6x trailing earnings and 4.2x EV/EBITDA at the latest close."
+    "Valuation: 6.6x trailing earnings and 4.2x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const OXY: StockStory = {
   "irUrl": "https://www.oxy.com",
   "bigPicture": {
     "paragraphs": [
-      "Occidental Petroleum Corporation generated $24.7B of revenue over the last twelve months, +32.1% versus the prior year. The latest reported quarter was Q3 FY26, with $7.1B of revenue and a 33.8% operating margin. The shares closed at $54.33 on Nov 25, 2026, giving a market capitalization of $54.3B.",
-      "Oil & Gas is 96.9% of the disclosed revenue mix. United States supplies 83.6% of disclosed revenue, the largest single geography in the filing. Occidental Petroleum Corporation competes in Oil & Gas E&P, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $54.3B, or 6.6x trailing earnings and 4.2x EV/EBITDA. The shares sit 54% of the way up their 52-week range ($38.80 to $67.45). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Occidental Petroleum's revenue rose 32.1% to $24.7B at a 28.8% operating margin, generating $5.9B of free cash flow. The latest quarter (Q3 FY26) grew 26.9%.",
+      "Oil & Gas is 96.9% of revenue and Midstream & Marketing is 5.9%. The US is the largest geography at 83.6% of revenue. The catalyst is debt reduction and production. The exposure is oil prices and debt.",
+      "At $54.33, the equity is worth $54.3B, or 6.6x trailing earnings and 4.2x EV/EBITDA. The earnings multiple is 52.1% below the 13.7x peer median. The stock is 54% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Occidental is an oil and gas producer with a large Permian position and a chemicals arm, so oil prices, production and debt reduction drive the equity."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Occidental Petroleum Corporation, together with its subsidiaries, engages in the acquisition, exploration, and development of oil and gas properties in the United States and internationally. It operates through Oil and Gas and Midstream and Marketing.",
-      "The disclosed mix runs across Oil & Gas at 96.9% and Midstream & Marketing at 5.9%. The last disclosure put headcount at 10,412 people. With $24.7B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The closest listed comparisons are COP, EOG and TPL; the useful question is how Occidental Petroleum Corporation's margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Occidental Petroleum Corporation, together with its subsidiaries, engages in the acquisition, exploration, and development of oil and gas properties in the United States and internationally.",
+      "Occidental Petroleum does not report a product gross margin; lifting costs, royalties and maintenance sit inside the operating line, leaving a 28.8% operating margin. That is 3.9 points below the peer median of 32.6%.",
+      "Capital spending runs at 26.0% of revenue, which is a meaningful claim on cash flow. Net debt is $7B, or 0.5x EBITDA. Return on invested capital was 9.8%. That is 1.6 points below the peer median of 11.4%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$24.7B on a trailing-twelve-month basis, with the latest quarter at $7.1B."
+        "title": "Revenue mix",
+        "detail": "Oil & Gas at 96.9% and Midstream & Marketing at 5.9%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 28.8%; free-cash-flow margin 23.7%; net margin 33.5%."
+        "title": "Margin engine",
+        "detail": "Operating margin 28.8%. Lifting costs, royalties and maintenance are the main cost line, so the margin depends on spreading the cost base over more revenue."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $54.3B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 26.0% of revenue; $7B of net debt; ROIC 9.8%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 28.8% is the first clean profitability line. Cash flow is a function of commodity prices, production volumes and capital discipline.",
-      "Net debt is $7B, or 0.5x EBITDA. Return on invested capital was 9.8% and return on equity was 19.2%. The return is close enough to the cost of capital that small changes in margin matter."
+      "Commodity prices, production volumes and differentials drive revenue and cash flow. The edge is permian inventory and chemicals.",
+      "The operating margin is 28.8%, 3.9 points below the peer median of 32.6%. The shape of the incremental margin will decide whether growth creates value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 2.8% a year across the fiscal years in the dataset, and the latest quarter changed +26.9% year over year. Current-year estimates call for $27.9B of revenue and $7.32 of EPS.",
-      "The operating margin of 28.8% and return on invested capital of 9.8% are the filters to watch as revenue scales. Growth of 32.1% on a 28.8% operating margin is a high-quality combination if both hold."
+      "Revenue compounded at 2.8% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 26.9% year over year. The current-year consensus looks for $27.9B of revenue and $7.32 of EPS.",
+      "The next leg depends on debt reduction and production. For Occidental Petroleum, production growth is only worth paying for if the reinvestment return clears the cost of capital."
     ],
     "bullets": [
       {
         "title": "Commodity prices",
-        "detail": "Oil, gas and power prices flow quickly into revenue and cash flow. Revenue growth is +32.1%."
+        "detail": "Oil, gas and power prices flow quickly into revenue and cash flow. Revenue growth is 32.1%."
       },
       {
         "title": "Production growth",
-        "detail": "The operating margin is 28.8%. Volumes from existing and new projects determine the revenue base."
+        "detail": "Volumes from existing and new projects determine the revenue base. The operating margin is 28.8%."
       },
       {
         "title": "Capital discipline",
-        "detail": "Lower reinvestment can lift free cash flow and returns. The current reading: return on invested capital is 9.8%."
+        "detail": "Lower reinvestment can lift free cash flow and returns. Return on invested capital is 9.8%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 31.5% in FY2018 to 14.5% in FY2025. The trailing operating margin is 28.8%, the net margin is 33.5% and diluted EPS is $7.42.",
-      "Return on equity was 19.2% and return on invested capital was 9.8%. Return on equity of 19.2% is above the 9.8% return on invested capital, a gap that leverage or acquisition goodwill can explain."
+      "The operating margin moved from 31.5% in FY2018 to 14.5% in FY2025. The trailing operating margin is 28.8%, the net margin is 33.5%, and diluted EPS is $7.42.",
+      "The 9.4-point spread between return on equity and return on invested capital suggests some of the equity return comes from the balance sheet. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $5.9B, a 23.7% margin. Net debt is $7B, or 0.5x EBITDA. Capex absorbed 26.0% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $10.5B, or 444.6% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $6.4B in the latest fiscal year."
+      "Free cash flow was $5.9B, or 23.7% of revenue. Operating cash flow covered 444.6% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 26.0% of revenue, which is a meaningful claim on cash.",
+      "Net debt is $7B, or 0.5x EBITDA. Interest cover is 8.4x. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 6.6x trailing earnings, 4.2x EV/EBITDA and 2.5x EV/sales. The free-cash-flow yield is 10.8%. Inverting the P/E gives an earnings yield of 15.3%; the cash-flow yield is 10.8%.",
-      "The peer comparison sets the company against COP, EOG and TPL; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $54.33, the shares trade at 6.6x trailing earnings and 4.2x EV/EBITDA, with a 10.8% free-cash-flow yield. The earnings yield is 15.3%. The earnings multiple is 52.1% below the 13.7x peer median.",
+      "The multiple implies the market expects little growth and assumes the current margin is close to peak. The multiple is below the peer median, so some of the risk is already in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "27 analysts contribute to the third-party consensus. The mean target is $70.63, with a range of $60.00 to $80.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $27.9B of revenue and $7.32 of EPS. The estimate revisions in the dataset are 6.7% over 30 days and 25.5% over 90 days. That implies growth of 12.9% over the trailing twelve months."
+      "27 analysts in the third-party consensus carry a mean target of $70.63, 30.0% above the latest close. The range runs from $60.00 to $80.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $27.9B of revenue and $7.32 of EPS. EPS estimates are up 6.7% over 30 days and up 25.5% over 90 days. That implies 12.9% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is debt reduction and production versus oil prices and debt.",
     "items": [
       {
-        "title": "Commodity prices",
+        "title": "Oil prices and debt",
         "severity": "High",
-        "detail": "A price decline can cut revenue and cash flow sharply.",
+        "detail": "The main risk is oil prices and debt.",
         "watch": "Realised prices and hedging."
       },
       {
@@ -146,9 +146,9 @@ export const OXY: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Occidental Petroleum Corporation produced $24.7B of trailing revenue at a 28.8% operating margin and a 23.7% free-cash-flow margin. The free-cash-flow margin is the strongest part of that record; the rest of the report tests whether it can be sustained.",
-      "The published consensus mean is $70.63 (2026-11-25), 30.0% above the latest close; it is a consensus view, not a recommendation from Stockmonk. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 99/100 and balance sheet at 53/100, with the composite averaging 76/100. The gap between valuation at 99/100 and balance sheet at 53/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on valuation and the durability of 28.8% margins. $7B of net debt is the weak link.",
+      "What would change the view is leverage falling below 1.0x EBITDA, not a single quarter. The key exposure is oil prices and debt.",
+      "The composite of 76/100 blends a strong valuation reading with a weak balance sheet one; the gap is the story."
     ],
     "questions": [
       "What price is needed to cover capex and the dividend?",

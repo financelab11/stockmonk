@@ -4,13 +4,13 @@ export const ASML: StockStory = {
   "ticker": "ASML",
   "kicker": "Semiconductors & Hardware · Semiconductor Equipment & Materials",
   "title": "ASML Holding N.V: The monopoly supplier of EUV lithography",
-  "dek": "ASML Holding N.V. reported $38.4B of trailing revenue at a 34.6% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "dek": "ASML Holding N.V's revenue rose 30.5% to $38.4B, at a 34.6% operating margin. The key risk is leading-edge fab capex and export controls.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $38.4B trailing twelve months, +30.5% year over year.",
+    "Revenue: $38.4B, +30.5% year over year.",
     "Profitability: 34.6% operating margin and 29.4% net margin.",
     "Cash: $13B free cash flow, a 33.9% margin, against $12.5B of net cash.",
-    "Valuation: 43.7x trailing earnings and 33.2x EV/EBITDA at the latest close."
+    "Valuation: 43.7x trailing earnings and 33.2x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const ASML: StockStory = {
   "irUrl": "https://www.asml.com",
   "bigPicture": {
     "paragraphs": [
-      "ASML Holding N.V. generated $38.4B of revenue over the last twelve months, +30.5% versus the prior year. The dataset does not carry a dated quarterly result for the latest period. The shares closed at $1,280.73 on Nov 25, 2026, giving a market capitalization of $493.6B.",
-      "New Systems accounts for 62.3% of disclosed revenue. Revenue is disclosed across 9 geographies, with China the largest at 24.8%. ASML Holding N.V. competes in Semiconductor Equipment & Materials, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $493.6B, or 43.7x trailing earnings and 33.2x EV/EBITDA. The shares sit 27% of the way up their 52-week range ($1,010.01 to $1,999.96). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "ASML Holding N.V's revenue rose 30.5% to $38.4B at a 34.6% operating margin, generating $13B of free cash flow. The consensus estimate and the current multiple frame the near-term debate.",
+      "New Systems is 62.3% of revenue and Corporate / other is 36.2%. China is the largest geography at 24.8% of revenue. What could lift the return is high-NA EUV adoption and memory capex recovery. The thing to watch is leading-edge fab capex and export controls.",
+      "At $1,280.73, the equity is worth $493.6B, or 43.7x trailing earnings and 33.2x EV/EBITDA. The earnings multiple is 37.0% above the 31.9x peer median. The stock is 27% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "ASML is the monopoly supplier of EUV lithography, so revenue is tied to leading-edge fab capex and the pace of the next node transition."
   },
   "whatItDoes": {
     "paragraphs": [
-      "The company competes in Semiconductor Equipment & Materials and reports its accounts in USD under Semiconductors & Hardware coverage. The business is part of the Semiconductors & Hardware group and reports under Technology in the current classification.",
-      "The disclosed mix runs across New Systems at 62.3%, Corporate / other at 36.2% and Used Systems at 1.5%. Headcount was 44,681 in the latest filing. With $38.4B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "Against AMAT, LRCX and KLAC, the relevant tests are pricing power, capital intensity and cash conversion."
+      "ASML Holding N.V operates in Semiconductor Equipment & Materials.",
+      "ASML Holding N.V earned a 52.8% gross margin, and materials, manufacturing and design absorbed 18.2% of revenue, leaving a 34.6% operating margin. That is 6.9 points above the peer median of 27.7%.",
+      "Capex is 4.8% of revenue, so the business is asset-light. The balance sheet carries $12.5B of net cash. Return on invested capital was 44.4%. That is 25.9 points above the peer median of 18.4%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$38.4B on a trailing-twelve-month basis; a dated quarter is not available in the dataset."
+        "title": "Revenue mix",
+        "detail": "New Systems at 62.3%, Corporate / other at 36.2% and Used Systems at 1.5%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 34.6%; free-cash-flow margin 33.9%; net margin 29.4%."
+        "title": "Margin engine",
+        "detail": "Gross margin 52.8%, operating margin 34.6%. Materials, manufacturing and design are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $493.6B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 4.8% of revenue; $12.5B of net cash; ROIC 44.4%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 52.8% of revenue after cost of sales, or $20.3B. Operating expenses absorbed 18.2% of revenue, leaving a 34.6% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "The balance sheet carries $12.5B of net cash. Return on invested capital was 44.4% and return on equity was 49.0%. That level earns well above a typical cost of capital."
+      "Unit volumes, content per device and utilization drive revenue and margin. The edge is monopoly in EUV lithography with decades of process know-how.",
+      "The operating margin is 34.6%, 6.9 points above the peer median of 27.7%. Utilization and mix decide whether volume growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 17.4% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. Current-year estimates call for $44.5B of revenue and $41.41 of EPS.",
-      "The operating margin of 34.6% and return on invested capital of 44.4% are the filters to watch as revenue scales. Growth of 30.5% on a 34.6% operating margin is a high-quality combination if both hold."
+      "Revenue compounded at 17.4% a year from FY2018 to FY2025. The current-year consensus looks for $44.5B of revenue and $41.41 of EPS. The market already has a growth expectation; the filings are the test.",
+      "The next leg depends on high-NA EUV adoption and memory capex recovery. For ASML Holding N.V, volume growth is only worth paying for if utilization and mix hold."
     ],
     "bullets": [
       {
         "title": "Inventory cycle",
-        "detail": "Revenue growth is +30.5%. Inventory restocking and digestion drive near-term orders."
+        "detail": "Inventory restocking and digestion drive near-term orders. Revenue growth is 30.5%."
       },
       {
         "title": "Node and packaging transitions",
-        "detail": "New technology raises content per system. The current reading: the operating margin is 34.6%."
+        "detail": "New technology raises content per system. The operating margin is 34.6%."
       },
       {
         "title": "Customer design wins",
-        "detail": "Return on invested capital is 44.4%. That is the line the next filing has to move."
+        "detail": "Design wins lock in revenue for multiple product generations. Return on invested capital is 44.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 27.1% in FY2018 to 34.6% in FY2025. The trailing operating margin is 34.6%, the net margin is 29.4% and diluted EPS is $29.03.",
-      "Return on equity was 49.0% and return on invested capital was 44.4%. With return on equity at 49.0% and return on invested capital at 44.4%, leverage is not the main driver of the gap."
+      "The operating margin moved from 27.1% in FY2018 to 34.6% in FY2025. The trailing operating margin is 34.6%, the net margin is 29.4%, and diluted EPS is $29.03, up 45.0% year over year.",
+      "Return on equity of 49.0% and return on invested capital of 44.4% are close enough that operating performance explains most of the return. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $13B, a 33.9% margin. The balance sheet carries $12.5B of net cash. Capex absorbed 4.8% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $14.9B, or 131.7% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.8B in the latest fiscal year."
+      "Free cash flow was $13B, or 33.9% of revenue. Operating cash flow covered 131.7% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 4.8% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $12.5B of net cash. That gives management room to invest or return capital without leaning on the balance sheet. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 43.7x trailing earnings, 33.2x EV/EBITDA and 12.5x EV/sales. The free-cash-flow yield is 2.6%. Inverting the P/E gives an earnings yield of 2.3%; the cash-flow yield is 2.6%.",
-      "The peer comparison sets the company against AMAT, LRCX and KLAC; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $1,280.73, the shares trade at 43.7x trailing earnings and 33.2x EV/EBITDA, with a 2.6% free-cash-flow yield. The earnings yield is 2.3%. The earnings multiple is 37.0% above the 31.9x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "17 analysts contribute to the third-party consensus. The mean target is $2,109.94, with a range of $850.06 to $2,792.40. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $44.5B of revenue and $41.41 of EPS. The estimate revisions in the dataset are 8.0% over 30 days and 8.8% over 90 days. Set against trailing revenue, the estimate implies growth of 15.9%."
+      "17 analysts in the third-party consensus carry a mean target of $2,109.94, 64.7% above the latest close. The range runs from $850.06 to $2,792.40. The target range is wide enough that the mean should be read with caution. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $44.5B of revenue and $41.41 of EPS. EPS estimates are up 8.0% over 30 days and up 8.8% over 90 days. That implies 15.9% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is high-NA EUV adoption and memory capex recovery versus leading-edge fab capex and export controls.",
     "items": [
       {
-        "title": "Semiconductor cycle",
+        "title": "Leading-edge fab capex and export controls",
         "severity": "High",
-        "detail": "Inventory corrections can cut revenue quickly.",
+        "detail": "Leading-edge fab capex and export controls drive the cycle.",
         "watch": "Inventory days and utilisation."
       },
       {
@@ -146,9 +146,9 @@ export const ASML: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "ASML Holding N.V. produced $38.4B of trailing revenue at a 34.6% operating margin and a 33.9% free-cash-flow margin. The free-cash-flow margin is the strongest part of that record; the rest of the report tests whether it can be sustained.",
-      "The consensus target is $2,109.94 as of 2026-11-25, 64.7% above the latest close; that is the analysts' view, attributed and dated, not a Stockmonk target. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put profitability at 92/100 and valuation at 19/100, with the composite averaging 70/100. The gap between profitability at 92/100 and valuation at 19/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on profitability and the durability of 34.6% margins. The weak link is valuation.",
+      "What would change the view is the multiple falling below 35.0x earnings, not a single quarter. The key exposure is leading-edge fab capex and export controls.",
+      "The scorecard puts the composite at 70/100. Focus on the profitability-to-valuation spread rather than the average."
     ],
     "questions": [
       "Where are we in the inventory cycle?",

@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const MAR: StockStory = {
   "ticker": "MAR",
   "kicker": "Consumer Retail & Leisure · Lodging",
-  "title": "Marriott International, Inc: An asset-light hotel franchisor",
-  "dek": "Marriott International, Inc. reported $27.4B of trailing revenue at a 15.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Marriott International: An asset-light hotel franchisor",
+  "dek": "Marriott International's revenue rose 5.8% to $27.4B, at a 15.8% operating margin. The key risk is revPAR and unit growth.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $27.4B trailing twelve months, +5.8% year over year.",
+    "Revenue: $27.4B, +5.8% year over year.",
     "Profitability: 15.8% operating margin and 9.7% net margin.",
     "Cash: $2.8B free cash flow, a 10.3% margin, against $430M of net cash.",
-    "Valuation: 40.3x trailing earnings and 24.9x EV/EBITDA at the latest close."
+    "Valuation: 40.3x trailing earnings and 24.9x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const MAR: StockStory = {
   "irUrl": "https://www.marriott.com",
   "bigPicture": {
     "paragraphs": [
-      "Marriott International, Inc. generated $27.4B of revenue over the last twelve months, +5.8% versus the prior year. The latest reported quarter was Q3 FY26, with $7B of revenue and an 18.2% operating margin. The shares closed at $415.69 on Nov 25, 2026, giving a market capitalization of $107B.",
-      "US & Canada is 73.9% of the disclosed revenue mix. Non-US supplies 21.7% of disclosed revenue, the largest single geography in the filing. Marriott International, Inc. competes in Lodging, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $107B, or 40.3x trailing earnings and 24.9x EV/EBITDA. The shares sit 88% of the way up their 52-week range ($282.03 to $433.30). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Marriott International's revenue rose 5.8% to $27.4B at a 15.8% operating margin, generating $2.8B of free cash flow. The latest quarter (Q3 FY26) grew 8.0%.",
+      "US & Canada is 73.9% of revenue and Corporate / other is 10.6%. Non-US is the largest geography at 21.7% of revenue. The catalyst is system growth and loyalty. The exposure is revPAR and unit growth.",
+      "At $415.69, the equity is worth $107B, or 40.3x trailing earnings and 24.9x EV/EBITDA. The earnings multiple is 15.7% below the 47.8x peer median. The stock is 88% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Marriott is an asset-light hotel franchisor, so system growth, revenue per available room and loyalty economics drive fee income."
   },
   "whatItDoes": {
     "paragraphs": [
       "Marriott International, Inc. engages in the operation, franchising, and licensing of hotel, residential, timeshare, and other lodging properties in the United States, Canada, Europe, the Middle East, Africa, Greater China, the Asia-Pacific, and internationally.",
-      "The disclosed mix runs across US & Canada at 73.9%, Corporate / other at 10.6% and EMEA at 9.2%. The last disclosure put headcount at 414,000 people. Trailing revenue is $27.4B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The closest listed comparisons are ANF, SG and SN; the useful question is how Marriott International, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Marriott International does not report a product gross margin; labor, food, fuel and property costs sit inside the operating line, leaving a 15.8% operating margin. That is 8.2 points below the peer median of 24.0%.",
+      "Capital spending runs at 2.2% of revenue, which is low relative to the revenue base. The balance sheet carries $430M of net cash. Return on invested capital is not meaningful on the current data."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$27.4B on a trailing-twelve-month basis, with the latest quarter at $7B."
+        "title": "Revenue mix",
+        "detail": "US & Canada at 73.9%, Corporate / other at 10.6% and EMEA at 9.2%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 15.8%; free-cash-flow margin 10.3%; net margin 9.7%."
+        "title": "Margin engine",
+        "detail": "Operating margin 15.8%. Labor, food, fuel and property costs are the main cost line, so incremental revenue matters more than product mix."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $107B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 2.2% of revenue; $430M of net cash."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 15.8% is the first clean profitability line. Demand, occupancy and pricing per unit drive revenue, while labor, fuel and property costs determine the margin.",
-      "The balance sheet carries $430M of net cash. Return on invested capital was n/a and return on equity was -52.2%. The dataset does not include a usable return on invested capital, leaving margin and cash conversion as the quality tests."
+      "Occupancy, ticket pricing and capacity drive revenue; labor and fuel drive the cost. The edge is marriott brand and loyalty.",
+      "The operating margin is 15.8%, 8.2 points below the peer median of 24.0%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.4% a year across the fiscal years in the dataset, and the latest quarter changed +8.0% year over year. Current-year estimates call for $28B of revenue and $12.12 of EPS.",
-      "The operating margin of 15.8% and return on invested capital of n/a are the filters to watch as revenue scales. Neither the 5.8% growth nor the 15.8% margin is extreme; the combination is what matters."
+      "Revenue compounded at 3.4% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 8.0% year over year. The current-year consensus looks for $28B of revenue and $12.12 of EPS.",
+      "The next leg depends on system growth and loyalty. For Marriott International, demand growth is only worth paying for if pricing covers labor and capacity costs."
     ],
     "bullets": [
       {
         "title": "Demand and occupancy",
-        "detail": "Bookings, passenger counts or room nights determine how much capacity is used. Revenue growth is +5.8%."
+        "detail": "Bookings, passenger counts or room nights determine how much capacity is used. Revenue growth is 5.8%."
       },
       {
         "title": "Pricing and yield",
-        "detail": "The operating margin is 15.8%. Ticket, room or menu pricing determines revenue per unit of capacity."
+        "detail": "Ticket, room or menu pricing determines revenue per unit of capacity. The operating margin is 15.8%."
       },
       {
         "title": "Unit and capacity growth",
-        "detail": "New ships, rooms or restaurants expand the base but carry fixed costs and execution risk. The current reading: return on invested capital is n/a."
+        "detail": "New ships, rooms or restaurants expand the base but carry fixed costs and execution risk. The balance sheet carries $430M of net cash."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 11.4% in FY2018 to 15.8% in FY2025. The trailing operating margin is 15.8%, the net margin is 9.7% and diluted EPS is $10.04.",
-      "Return on equity was -52.2% and return on invested capital was n/a. Both return measures are not available on a comparable basis, so the margin and cash record carry the quality assessment."
+      "The operating margin moved from 11.4% in FY2018 to 15.8% in FY2025. The trailing operating margin is 15.8%, the net margin is 9.7%, and diluted EPS is $10.04, up 5.9% year over year.",
+      "Both return measures are not available on a comparable basis, so margin and cash conversion carry the quality assessment. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $2.8B, a 10.3% margin. The balance sheet carries $430M of net cash. Capital expenditure was 2.2% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $3.2B, or 123.5% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $604M in the latest fiscal year."
+      "Free cash flow was $2.8B, or 10.3% of revenue. Operating cash flow covered 123.5% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 2.2% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $430M of net cash. Interest cover is 5.0x. The balance sheet is a source of flexibility rather than a constraint. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 40.3x trailing earnings, 24.9x EV/EBITDA and 3.9x EV/sales. The free-cash-flow yield is 2.6%. The 2.5% earnings yield and 2.6% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against ANF, SG and SN; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $415.69, the shares trade at 40.3x trailing earnings and 24.9x EV/EBITDA, with a 2.6% free-cash-flow yield. The earnings yield is 2.5%. The earnings multiple is 15.7% below the 47.8x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is below the peer median, so some of the risk is already in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "26 analysts contribute to the third-party consensus. The mean target is $422.81, with a range of $302.00 to $479.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $28B of revenue and $12.12 of EPS. The estimate revisions in the dataset are 3.3% over 30 days and 3.4% over 90 days. That implies growth of 2.0% over the trailing twelve months."
+      "26 analysts in the third-party consensus carry a mean target of $422.81, 1.7% above the latest close. The range runs from $302.00 to $479.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $28B of revenue and $12.12 of EPS. EPS estimates are up 3.3% over 30 days and up 3.4% over 90 days. That implies 2.0% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is system growth and loyalty versus revPAR and unit growth.",
     "items": [
       {
-        "title": "Consumer cycle",
+        "title": "RevPAR and unit growth",
         "severity": "High",
-        "detail": "Travel, dining and gaming budgets fall quickly when confidence weakens.",
+        "detail": "The main risk is revPAR and unit growth.",
         "watch": "Bookings, occupancy and average spend."
       },
       {
@@ -146,9 +146,9 @@ export const MAR: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Marriott International, Inc. produced $27.4B of trailing revenue at a 15.8% operating margin and a 10.3% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "The third-party consensus mean is $422.81 as of 2026-11-25, 1.7% above the latest close; it is a consensus view, not a recommendation from Stockmonk. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put balance sheet at 63/100 and valuation at 26/100, with the composite averaging 38/100. With balance sheet and valuation only 37 points apart, the composite is a reasonable one-line description."
+      "The investment case rests on balance sheet and the durability of 15.8% margins. The weak link is valuation.",
+      "What would change the view is the multiple falling below 32.3x earnings, not a single quarter. The key exposure is revPAR and unit growth.",
+      "The composite of 38/100 blends a strong balance sheet reading with a weak valuation one; the gap is the story."
     ],
     "questions": [
       "Is demand growing or is capacity being added?",

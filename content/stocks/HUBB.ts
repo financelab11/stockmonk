@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const HUBB: StockStory = {
   "ticker": "HUBB",
   "kicker": "Industrial Automation · Electrical Equipment & Parts",
-  "title": "Hubbell Incorporated: Electrical and utility equipment",
-  "dek": "Hubbell Incorporated reported $6.6B of trailing revenue at a 20.2% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Hubbell: Electrical and utility equipment",
+  "dek": "Hubbell's revenue rose 16.0% to $6.6B, at a 20.2% operating margin. The key risk is utility capex and industrial demand.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $6.6B trailing twelve months, +16.0% year over year.",
+    "Revenue: $6.6B, +16.0% year over year.",
     "Profitability: 20.2% operating margin and 13.8% net margin.",
     "Cash: $928M free cash flow, a 14.1% margin, against $4.7B of net debt.",
-    "Valuation: 24.8x trailing earnings and 16.8x EV/EBITDA at the latest close."
+    "Valuation: 24.8x trailing earnings and 16.8x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const HUBB: StockStory = {
   "irUrl": "https://www.hubbell.com",
   "bigPicture": {
     "paragraphs": [
-      "Hubbell Incorporated generated $6.6B of revenue over the last twelve months, +16.0% versus the prior year. The latest reported quarter was Q3 FY26, with $1.9B of revenue and a 21.8% operating margin. The shares closed at $426.52 on Nov 25, 2026, giving a market capitalization of $22.5B.",
-      "Utility Solutions accounts for 62.8% of disclosed revenue. Revenue is disclosed across 2 geographies, with United States the largest at 92.6%. Hubbell Incorporated competes in Electrical Equipment & Parts, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $22.5B, or 24.8x trailing earnings and 16.8x EV/EBITDA. The shares sit 15% of the way up their 52-week range ($401.54 to $565.50). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "Hubbell's revenue rose 16.0% to $6.6B at a 20.2% operating margin, generating $928M of free cash flow. The latest quarter (Q3 FY26) grew 24.6%. The consensus estimate and the current multiple frame the near-term debate.",
+      "Utility Solutions is 62.8% of revenue and Electrical is 37.2%. The US is the largest geography at 92.6% of revenue. What could lift the return is grid investment and pricing. The thing to watch is utility capex and industrial demand.",
+      "At $426.52, the equity is worth $22.5B, or 24.8x trailing earnings and 16.8x EV/EBITDA. The earnings multiple is 15.3% below the 29.3x peer median. The stock is 15% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Hubbell sells electrical and utility equipment, a grid-infrastructure business tied to utility capex, electrification and replacement demand."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Hubbell Incorporated, together with its subsidiaries, manufactures and sells electrical and utility solutions in the United States and internationally. It operates through two segments, Electrical Solutions and Utility Solutions. The business is part of the Industrial Automation group and reports under Industrials in the current classification.",
-      "The disclosed mix runs across Utility Solutions at 62.8% and Electrical at 37.2%. Headcount was 19,600 in the latest filing. With $6.6B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "Against VRT, POWL and NVT, the relevant tests are pricing power, capital intensity and cash conversion."
+      "Hubbell Incorporated, together with its subsidiaries, manufactures and sells electrical and utility solutions in the United States and internationally.",
+      "Hubbell earned a 35.4% gross margin, and materials, labor and capacity absorbed 15.2% of revenue, leaving a 20.2% operating margin. That is 3.3 points above the peer median of 16.9%.",
+      "Capex is 2.4% of revenue, so the business is asset-light. Net debt is $4.7B, or 2.9x EBITDA. Return on invested capital was 11.3%. That is roughly in line with the peer median of 12.2%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$6.6B on a trailing-twelve-month basis, with the latest quarter at $1.9B."
+        "title": "Revenue mix",
+        "detail": "Utility Solutions at 62.8% and Electrical at 37.2%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 20.2%; free-cash-flow margin 14.1%; net margin 13.8%."
+        "title": "Margin engine",
+        "detail": "Gross margin 35.4%, operating margin 20.2%. Materials, labor and capacity are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $22.5B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 2.4% of revenue; $4.7B of net debt; ROIC 11.3%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 35.4% of revenue after cost of sales, or $2.3B. Operating expenses absorbed 15.2% of revenue, leaving a 20.2% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $4.7B, or 2.9x EBITDA. Return on invested capital was 11.3% and return on equity was 22.1%. The return is close enough to the cost of capital that small changes in margin matter."
+      "Industrial production, backlog and pricing drive revenue; utilization drives the margin. The edge is utility and electrical specification.",
+      "The operating margin is 20.2%, 3.3 points above the peer median of 16.9%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 3.9% a year across the fiscal years in the dataset, and the latest quarter changed +24.6% year over year. Current-year estimates call for $6.9B of revenue and $20.59 of EPS.",
-      "The operating margin of 20.2% and return on invested capital of 11.3% are the filters to watch as revenue scales. The 16.0% revenue pace and 20.2% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 3.9% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 24.6% year over year. The current-year consensus looks for $6.9B of revenue and $20.59 of EPS.",
+      "The next leg depends on grid investment and pricing. For Hubbell, volume growth is only worth paying for if pricing covers input costs. The consensus estimate is the first test; the second is whether incremental revenue carries the same margin as the base."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Revenue growth is +16.0%. Orders already booked provide visibility into future revenue."
+        "detail": "Orders already booked provide visibility into future revenue. Revenue growth is 16.0%."
       },
       {
         "title": "Aftermarket and services",
-        "detail": "Recurring service revenue can be more profitable than equipment. The current reading: the operating margin is 20.2%."
+        "detail": "Recurring service revenue can be more profitable than equipment. The operating margin is 20.2%."
       },
       {
         "title": "Price and productivity",
-        "detail": "Return on invested capital is 11.3%. Compare that with the prior year before drawing a conclusion."
+        "detail": "Pricing actions and cost programmes protect margins through cycles. Return on invested capital is 11.3%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 12.4% in FY2018 to 20.7% in FY2025. The trailing operating margin is 20.2%, the net margin is 13.8% and diluted EPS is $17.06.",
-      "Return on equity was 22.1% and return on invested capital was 11.3%. Return on equity of 22.1% is above the 11.3% return on invested capital, a gap that leverage or acquisition goodwill can explain."
+      "The operating margin moved from 12.4% in FY2018 to 20.7% in FY2025. The trailing operating margin is 20.2%, the net margin is 13.8%, and diluted EPS is $17.06, up 6.5% year over year.",
+      "The 10.8-point spread between return on equity and return on invested capital suggests some of the equity return comes from the balance sheet. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $928M, a 14.1% margin. Net debt is $4.7B, or 2.9x EBITDA. Capex absorbed 2.4% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $1B, or 116.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $155.1M in the latest fiscal year."
+      "Free cash flow was $928M, or 14.1% of revenue. Operating cash flow covered 116.1% of net income; reported profit is converting into cash cleanly. Capex absorbed 2.4% of revenue, which is low relative to the revenue base.",
+      "Net debt is $4.7B, or 2.9x EBITDA. The balance sheet is manageable but not a source of upside; debt reduction competes with reinvestment for the cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 24.8x trailing earnings, 16.8x EV/EBITDA and 4.1x EV/sales. The free-cash-flow yield is 4.1%. Inverting the P/E gives an earnings yield of 4.0%; the cash-flow yield is 4.1%.",
-      "The peer comparison sets the company against VRT, POWL and NVT; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $426.52, the shares trade at 24.8x trailing earnings and 16.8x EV/EBITDA, with a 4.1% free-cash-flow yield. The earnings yield is 4.0%. The earnings multiple is 15.3% below the 29.3x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "13 analysts contribute to the third-party consensus. The mean target is $533.62, with a range of $470.00 to $600.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $6.9B of revenue and $20.59 of EPS. The estimate revisions in the dataset are 0.4% over 30 days and 0.6% over 90 days. Set against trailing revenue, the estimate implies growth of 5.0%."
+      "13 analysts in the third-party consensus carry a mean target of $533.62, 25.1% above the latest close. The range runs from $470.00 to $600.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $6.9B of revenue and $20.59 of EPS. EPS estimates are up 0.4% over 30 days and up 0.6% over 90 days. That implies 5.0% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is grid investment and pricing versus utility capex and industrial demand.",
     "items": [
       {
-        "title": "Capital-spending cycle",
+        "title": "Utility capex and industrial demand",
         "severity": "High",
-        "detail": "Industrial demand falls when customers delay projects.",
+        "detail": "The main risk is utility capex and industrial demand.",
         "watch": "Order trends and backlog conversion."
       },
       {
@@ -146,9 +146,9 @@ export const HUBB: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Hubbell Incorporated produced $6.6B of trailing revenue at a 20.2% operating margin and a 14.1% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The consensus target is $533.62 as of 2026-11-25, 25.1% above the latest close; the forecast is theirs, and this report does not adopt it as a target. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put profitability at 58/100 and balance sheet at 18/100, with the composite averaging 46/100. The narrow range between profitability at 58/100 and balance sheet at 18/100 means the average is a fair summary."
+      "The investment case rests on profitability and the durability of 20.2% margins. $4.7B of net debt is the weak link.",
+      "What would change the view is leverage falling below 2.4x EBITDA, not a single quarter. The key exposure is utility capex and industrial demand.",
+      "The scorecard puts the composite at 46/100. Focus on the profitability-to-balance sheet spread rather than the average."
     ],
     "questions": [
       "How much revenue is recurring versus project-based?",

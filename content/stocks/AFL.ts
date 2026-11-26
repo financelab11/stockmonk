@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const AFL: StockStory = {
   "ticker": "AFL",
   "kicker": "Banks & Insurance · Insurance - Life",
-  "title": "Aflac Incorporated: Supplemental health insurance in Japan and the US",
-  "dek": "Aflac Incorporated reported $16.6B of trailing revenue at a 25.9% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Aflac: Supplemental health insurance in Japan and the US",
+  "dek": "Aflac's revenue fell 6.2% to $16.6B, at a 25.9% operating margin. The key risk is a stronger yen or higher yen rates.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $16.6B trailing twelve months, -6.2% year over year.",
+    "Revenue: $16.6B, -6.2% year over year.",
     "Profitability: 25.9% operating margin and 21.2% net margin.",
-    "Cash: n/a free cash flow, a n/a margin, against $5.6B of net cash.",
-    "Valuation: 17.9x trailing earnings and 12.5x EV/EBITDA at the latest close."
+    "Cash: free cash flow is not meaningful at this stage.",
+    "Valuation: 17.9x trailing earnings and 12.5x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,88 +18,88 @@ export const AFL: StockStory = {
   "irUrl": "https://www.aflac.com",
   "bigPicture": {
     "paragraphs": [
-      "Aflac Incorporated generated $16.6B of revenue over the last twelve months, -6.2% versus the prior year. The latest reported quarter was Q3 FY26, with $3.3B of revenue and a 15.3% operating margin. The shares closed at $127.29 on Nov 25, 2026, giving a market capitalization of $63B.",
-      "Aflac Japan contributes 54.5% of the disclosed revenue mix. The extract carries a consolidated revenue line without a regional split. The moat is brand recognition, agent relationships and a product design that pays cash when a policyholder is diagnosed.",
-      "At the latest close the equity is valued at $63B, or 17.9x trailing earnings and 12.5x EV/EBITDA. The shares sit 85% of the way up their 52-week range ($105.76 to $131.19). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Aflac's revenue fell 6.2% to $16.6B, with a 12.0% return on equity. The latest quarter (Q3 FY26) fell 31.0%. The spread between asset yields and funding costs is the core variable.",
+      "Aflac Japan is 54.5% of revenue and Aflac US is 40.2%. The upside is Japan sales through new channels and US benefit enrollment. What would break it is a stronger yen or higher yen rates.",
+      "At $127.29, the equity is worth $63B, or 17.9x trailing earnings and 12.5x EV/EBITDA. The earnings multiple is 61.6% above the 11.1x peer median. The stock is 85% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
-    "quote": "Aflac sells supplemental health insurance in Japan and the US, a mature business where sales, persistency and investment yield drive earnings. The multiple reflects a mature insurer with a high dividend; the debate is currency and persistency, not growth."
+    "quote": "Aflac sells supplemental health insurance in Japan and the US, a mature business where sales, persistency and investment yield drive earnings."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Aflac Incorporated, through its subsidiaries, provides supplemental health and life insurance products. It operates in two segments, Aflac Japan and Aflac U. It reports in the Financial Services sector and is classified in Banks & Insurance coverage.",
-      "The disclosed mix runs across Aflac Japan at 54.5%, Aflac US at 40.2% and Corporate & Other at 7.4%. Its latest filing lists 12,716 employees. With $16.6B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "GL and MET provide the closest reference points for margin, growth and valuation."
+      "Aflac Incorporated, through its subsidiaries, provides supplemental health and life insurance products.",
+      "Claims and expenses consume most of premium revenue, so the combined ratio and investment income decide the operating result. That makes the combined ratio and reserve development the numbers to watch, not the reported operating margin.",
+      "Capital is held against reserves and the investment portfolio, so book value and the combined ratio matter more than capex. Return on equity was 12.0%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$16.6B on a trailing-twelve-month basis, with the latest quarter at $3.3B."
+        "title": "Revenue mix",
+        "detail": "Aflac Japan at 54.5%, Aflac US at 40.2% and Corporate & Other at 7.4%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 25.9%; free-cash-flow margin n/a; net margin 21.2%."
+        "title": "Margin engine",
+        "detail": "The combined ratio and investment income are the bridge to profit; the reported operating margin is not a useful comparison for an insurer."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $63B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Reserves and the investment portfolio are the capital base; ROE 12.0%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 25.9% is the first clean profitability line. Underwriting discipline, reserve adequacy and investment income decide the return, not premium volume on its own.",
-      "Insurance economics are driven by reserves and the investment portfolio, not by net debt. Return on equity was 12.0%; underwriting results and investment income drive that return."
+      "Premiums are fixed at underwriting; the combined ratio and investment income decide the profit. The moat is brand recognition, agent relationships and a product design that pays cash when a policyholder is diagnosed.",
+      "The insurer earns underwriting profit when premiums exceed claims and expenses, plus investment income on the float. For an insurer, reserves and the investment portfolio matter more than net debt. Return on equity was 12.0%; reserve development and the combined ratio are the variables that matter."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -3.3% a year across the fiscal years in the dataset, and the latest quarter changed -31.0% year over year. Current-year estimates call for $17B of revenue and $7.58 of EPS.",
-      "The next catalyst is Japan sales through new channels and US benefit enrollment. The operating margin of 25.9% and return on invested capital of 12.0% are the filters to watch as revenue scales. The trailing decline of 6.2% means the margin has to be defended on a smaller base."
+      "Revenue compounded at -3.3% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) fell 31.0% year over year. The current-year consensus looks for $17B of revenue and $7.58 of EPS.",
+      "The next leg depends on Japan sales through new channels and US benefit enrollment. The top line is shrinking, so the margin has to be defended on a smaller base."
     ],
     "bullets": [
       {
         "title": "Rate and exposure",
-        "detail": "Revenue growth is -6.2%. That is the metric the thesis depends on."
+        "detail": "Pricing and insured exposure determine whether the premium base grows profitably. Revenue growth is -6.2%."
       },
       {
         "title": "Underwriting margin",
-        "detail": "The combined ratio decides how much of each premium dollar survives claims and expenses. The operating margin is 25.9%."
+        "detail": "The combined ratio decides how much of each premium dollar survives claims and expenses. The combined ratio and investment income are the key variables; revenue growth is -6.2%."
       },
       {
         "title": "Investment income",
-        "detail": "Return on invested capital is 12.0%. The float earns a yield that becomes more valuable when short rates are high."
+        "detail": "The float earns a yield that becomes more valuable when short rates are high. Return on invested capital is 12.0%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 20.0% in FY2018 to 26.4% in FY2025. The trailing operating margin is 25.9%, the net margin is 21.2% and diluted EPS is $6.83.",
-      "Return on equity was 12.0%. For an insurer, the combined ratio and investment income explain that return better than return on invested capital. Reserve development and the combined ratio are the trends to follow from here."
+      "For an insurer, the combined ratio and investment income drive earnings rather than a product margin. Return on equity was 12.0%, and diluted EPS was $6.83.",
+      "Return on equity was 12.0%. For an insurer, the combined ratio and investment income explain that return better than return on invested capital. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was n/a, a n/a margin. Insurance economics are driven by reserves and the investment portfolio, not by net debt. For an insurer, cash flow includes investment income and reserve movements, so the margin is not directly comparable to an industrial.",
-      "Operating cash flow was $2.6B, or 70.1% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $0 in the latest fiscal year."
+      "Free cash flow is not meaningful at this stage. The cash profile is better judged through the balance sheet than the free-cash-flow margin. Capex and working capital are the relevant cash variables here.",
+      "For an insurer, reserves and the investment portfolio matter more than net debt. For an insurer, cash flow includes investment income and reserve movements, so the margin is not directly comparable to an industrial."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 17.9x trailing earnings, 12.5x EV/EBITDA and 3.5x EV/sales. The free-cash-flow yield is n/a. For an insurer, price-to-book and return on equity are more relevant than EV/EBITDA.",
-      "The multiple reflects a mature insurer with a high dividend; the debate is currency and persistency, not growth. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $127.29, the shares trade at 17.9x trailing earnings and 12.5x EV/EBITDA. The earnings yield is 5.6%. The earnings multiple is 61.6% above the 11.1x peer median.",
+      "The multiple reflects a mature insurer with a high dividend; the debate is currency and persistency, not growth. The multiple is above the peer median, leaving less room for disappointment. For an insurer, price-to-book and return on equity are more relevant than EV/EBITDA."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "15 analysts contribute to the third-party consensus. The mean target is $120.60, with a range of $101.00 to $143.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $17B of revenue and $7.58 of EPS. The estimate revisions in the dataset are 7.9% over 30 days and 7.9% over 90 days. The estimate is consistent with growth of 2.6% on the trailing revenue figure."
+      "15 analysts in the third-party consensus carry a mean target of $120.60, 5.3% below the latest close. The range runs from $101.00 to $143.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $17B of revenue and $7.58 of EPS. EPS estimates are up 7.9% over 30 days and up 7.9% over 90 days. That implies 2.6% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
+    "intro": "The central tension is Japan sales through new channels and US benefit enrollment versus a stronger yen or higher yen rates.",
     "items": [
       {
-        "title": "The main risk",
+        "title": "A stronger yen or higher yen rates",
         "severity": "High",
         "detail": "A stronger yen or higher yen rates can change the value of the Japanese earnings stream, while US competition limits growth.",
         "watch": "Combined ratio, catastrophe load and prior-year development."
@@ -146,9 +146,9 @@ export const AFL: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Aflac Incorporated produced $16.6B of trailing revenue at a 25.9% operating margin and a n/a free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The consensus target is $120.60 as of 2026-11-25, 5.3% below the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put balance sheet at 81/100 and cash generation at 14/100, with the composite averaging 50/100. The gap between balance sheet at 81/100 and cash generation at 14/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on balance sheet and the durability of 12.0% returns on equity. The weak link is cash generation.",
+      "What would change the view is return on invested capital rising above 14.0%, not a single quarter. The key exposure is a stronger yen or higher yen rates.",
+      "The scorecard averages 50/100, but the dispersion matters more: balance sheet is 81/100 and cash generation is 14/100."
     ],
     "questions": [
       "What is the catastrophe loss budget?",

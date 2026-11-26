@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const NRG: StockStory = {
   "ticker": "NRG",
   "kicker": "Power & Renewables · Utilities - Independent Power Producers",
-  "title": "NRG Energy, Inc: Electricity and home services",
-  "dek": "NRG Energy, Inc. reported $34.5B of trailing revenue at a 7.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "NRG Energy: Electricity and home services",
+  "dek": "NRG Energy's revenue rose 17.2% to $34.5B, at a 7.8% operating margin. The key risk is power prices and customer growth.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $34.5B trailing twelve months, +17.2% year over year.",
+    "Revenue: $34.5B, +17.2% year over year.",
     "Profitability: 7.8% operating margin and 3.6% net margin.",
     "Cash: $689M free cash flow, a 2.0% margin, against $22.9B of net debt.",
-    "Valuation: 15.1x trailing earnings and 9.3x EV/EBITDA at the latest close."
+    "Valuation: 15.1x trailing earnings and 9.3x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const NRG: StockStory = {
   "irUrl": "https://www.nrg.com",
   "bigPicture": {
     "paragraphs": [
-      "NRG Energy, Inc. generated $34.5B of revenue over the last twelve months, +17.2% versus the prior year. The latest reported quarter was Q3 FY26, with $9.3B of revenue and an 11.6% operating margin. The shares closed at $90.65 on Nov 25, 2026, giving a market capitalization of $19B.",
-      "East contributes 47.0% of the disclosed revenue mix. The company does not disclose revenue by region in the current extract. NRG Energy, Inc. competes in Utilities - Independent Power Producers, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $19B, or 15.1x trailing earnings and 9.3x EV/EBITDA. The shares sit 10% of the way up their 52-week range ($79.65 to $189.96). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "NRG Energy's revenue rose 17.2% to $34.5B at a 7.8% operating margin, generating $689M of free cash flow. The latest quarter (Q3 FY26) grew 24.5%.",
+      "East is 47.0% of revenue and Texas is 36.7%. The upside is home services and hedging. What would break it is power prices and customer growth.",
+      "At $90.65, the equity is worth $19B, or 15.1x trailing earnings and 9.3x EV/EBITDA. The earnings multiple is 28.5% below the 21.2x peer median. The stock is 10% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "NRG sells electricity and home services, a retail-and-generation business where customer growth, power prices and hedging drive earnings."
   },
   "whatItDoes": {
     "paragraphs": [
-      "NRG Energy, Inc., together with its subsidiaries, operates as an energy and home services company in the United States and Canada. It reports in the Utilities sector and is classified in Power & Renewables coverage.",
-      "The disclosed mix runs across East at 47.0%, Texas at 36.7% and West Services & Other at 10.6%. Its latest filing lists 16,702 employees. The revenue base is $34.5B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "CEG, VST and OKLO provide the closest reference points for margin, growth and valuation."
+      "NRG Energy, Inc., together with its subsidiaries, operates as an energy and home services company in the United States and Canada.",
+      "NRG Energy does not report a product gross margin; fuel, operations and capital sit inside the operating line, leaving a 7.8% operating margin. That is 10.8 points below the peer median of 18.5%.",
+      "Capex is 3.3% of revenue, so the business is asset-light. Net debt is $22.9B, or 5.1x EBITDA. Return on invested capital was 7.5%. That is roughly in line with the peer median of 8.2%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$34.5B on a trailing-twelve-month basis, with the latest quarter at $9.3B."
+        "title": "Revenue mix",
+        "detail": "East at 47.0%, Texas at 36.7% and West Services & Other at 10.6%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 7.8%; free-cash-flow margin 2.0%; net margin 3.6%."
+        "title": "Margin engine",
+        "detail": "Operating margin 7.8%. Fuel, operations and capital are the main cost line, so the operating margin is the scorecard for cost discipline."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $19B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.3% of revenue; $22.9B of net debt; ROIC 7.5%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 7.8% is the first clean profitability line. Returns depend on regulated rates, capital investment and the cost of financing the asset base.",
-      "Net debt is $22.9B, or 5.1x EBITDA. Return on invested capital was 7.5% and return on equity was 23.9%. The return suggests the current capital base is earning a modest amount."
+      "Regulated rate base and allowed returns drive revenue; fuel and capital costs drive the margin. The edge is retail electricity and generation.",
+      "The operating margin is 7.8%, 10.8 points below the peer median of 18.5%. The shape of the incremental margin will decide whether growth creates value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 20.7% a year across the fiscal years in the dataset, and the latest quarter changed +24.5% year over year. Current-year estimates call for $35.4B of revenue and $8.82 of EPS.",
-      "The operating margin of 7.8% and return on invested capital of 7.5% are the filters to watch as revenue scales. The 17.2% top-line pace has not yet produced a thick margin; incremental revenue needs to carry more of the cost base."
+      "Revenue compounded at 20.7% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 24.5% year over year. The current-year consensus looks for $35.4B of revenue and $8.82 of EPS.",
+      "The next leg depends on home services and hedging. Growth is outrunning the margin; the question is whether scale eventually pays for itself. The next filing should show whether the pace came from demand, pricing or acquisitions."
     ],
     "bullets": [
       {
         "title": "Rate base growth",
-        "detail": "Revenue growth is +17.2%. That is the line the next filing has to move."
+        "detail": "Approved capital investment earns a regulated return over time. Revenue growth is 17.2%."
       },
       {
         "title": "Load growth",
@@ -67,42 +67,42 @@ export const NRG: StockStory = {
       },
       {
         "title": "Cost recovery",
-        "detail": "Return on invested capital is 7.5%. Rate cases determine whether higher costs are passed through."
+        "detail": "Rate cases determine whether higher costs are passed through. Return on invested capital is 7.5%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 12.1% in FY2018 to 6.1% in FY2025. The trailing operating margin is 7.8%, the net margin is 3.6% and diluted EPS is $5.71.",
-      "Return on equity was 23.9% and return on invested capital was 7.5%. Equity returns exceed invested-capital returns by 16.4%, which is more than operating performance alone would explain. A peer median is a useful anchor, but the company's own trajectory is the better test."
+      "The operating margin moved from 12.1% in FY2018 to 6.1% in FY2025. The trailing operating margin is 7.8%, the net margin is 3.6%, and diluted EPS is $5.71, down 14.1% year over year.",
+      "The 16.4-point spread between return on equity and return on invested capital suggests some of the equity return comes from the balance sheet. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $689M, a 2.0% margin. Net debt is $22.9B, or 5.1x EBITDA. With capital spending at 3.3% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $1.9B, or 221.4% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.1B in the latest fiscal year."
+      "Free cash flow was $689M, or 2.0% of revenue. Operating cash flow covered 221.4% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 3.3% of revenue, which is low relative to the revenue base.",
+      "Net debt is $22.9B, or 5.1x EBITDA. Interest cover is 2.4x. Leverage is the constraint: the equity is sensitive to refinancing costs and a slower cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 15.1x trailing earnings, 9.3x EV/EBITDA and 1.2x EV/sales. The free-cash-flow yield is 3.6%. The trailing earnings yield is 6.6%, against a free-cash-flow yield of 3.6%.",
-      "The peer comparison sets the company against CEG, VST and OKLO; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $90.65, the shares trade at 15.1x trailing earnings and 9.3x EV/EBITDA, with a 3.6% free-cash-flow yield. The earnings yield is 6.6%. The earnings multiple is 28.5% below the 21.2x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "16 analysts contribute to the third-party consensus. The mean target is $156.63, with a range of $104.00 to $221.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $35.4B of revenue and $8.82 of EPS. The estimate revisions in the dataset are 0.5% over 30 days and -0.2% over 90 days. The estimate is consistent with growth of 2.7% on the trailing revenue figure."
+      "16 analysts in the third-party consensus carry a mean target of $156.63, 72.8% above the latest close. The range runs from $104.00 to $221.00. The target range is wide enough that the mean should be read with caution. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $35.4B of revenue and $8.82 of EPS. EPS estimates are up 0.5% over 30 days and down 0.2% over 90 days. That implies 2.7% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is home services and hedging versus power prices and customer growth.",
     "items": [
       {
-        "title": "Leverage",
+        "title": "Power prices and customer growth",
         "severity": "High",
-        "detail": "Net debt is $22.9B, or 5.1x EBITDA, which leaves the equity sensitive to refinancing costs and a slower cash flow.",
-        "watch": "Leverage, interest cover and the maturity profile."
+        "detail": "The main risk is power prices and customer growth.",
+        "watch": "Rate-case filings and commission decisions."
       },
       {
         "title": "Interest rates",
@@ -146,9 +146,9 @@ export const NRG: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "NRG Energy, Inc. produced $34.5B of trailing revenue at a 7.8% operating margin and a 2.0% free-cash-flow margin. Net debt of $22.9B, or 5.1x EBITDA, is the constraint that shapes the equity story.",
-      "Analysts contributing to the third-party consensus carry a $156.63 mean target as of 2026-11-25, 72.8% above the latest close; the figure belongs to the analysts who published it, not to this report.",
-      "The factor percentiles put valuation at 82/100 and balance sheet at 5/100, with the composite averaging 36/100. The average hides a strong valuation reading and a weak balance sheet one, which is why the spread is the more useful description."
+      "The investment case rests on valuation and the durability of 7.8% margins. $22.9B of net debt is the weak link.",
+      "What would change the view is leverage falling below 4.6x EBITDA, not a single quarter. The key exposure is power prices and customer growth.",
+      "The scorecard averages 36/100, but the dispersion matters more: valuation is 82/100 and balance sheet is 5/100."
     ],
     "questions": [
       "How much of the capex plan is already approved?",

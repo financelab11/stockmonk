@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const GFL: StockStory = {
   "ticker": "GFL",
   "kicker": "Industrial Automation · Waste Management",
-  "title": "GFL Environmental Inc.: margins, cash conversion and the multiple",
-  "dek": "GFL Environmental Inc. reported $4.8B of trailing revenue at a n/a operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "GFL Environmental: the balance sheet behind $4.8B of revenue",
+  "dek": "GFL Environmental's revenue rose 12.9% to $4.8B. The key risk is volume and pricing.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $4.8B trailing twelve months, +12.9% year over year.",
-    "Profitability: n/a operating margin and 57.6% net margin.",
-    "Cash: n/a free cash flow, a n/a margin, against $5.4B of net debt.",
-    "Valuation: 6.9x trailing earnings and no meaningful EV/EBITDA multiple at the latest close."
+    "Revenue: $4.8B, +12.9% year over year.",
+    "Profitability: operating margin not meaningful; net margin 57.6%; gross margin 20.7%.",
+    "Cash: free cash flow is not meaningful at this stage.",
+    "Valuation: 6.9x trailing earnings and no meaningful EV/EBITDA multiple."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const GFL: StockStory = {
   "irUrl": "https://gflenv.com",
   "bigPicture": {
     "paragraphs": [
-      "GFL Environmental Inc. generated $4.8B of revenue over the last twelve months, +12.9% versus the prior year. The dataset does not carry a dated quarterly result for the latest period. The shares closed at $43.19 on Nov 25, 2026, giving a market capitalization of $19.1B.",
-      "A reportable segment split is not available in the current dataset; the consolidated revenue line is the cleanest unit of analysis. A regional breakdown is missing from the current filing extract, so the analysis stays at the consolidated level.",
-      "At the latest close the equity is valued at $19.1B, or 6.9x trailing earnings and no meaningful EV/EBITDA multiple. The shares sit 74% of the way up their 52-week range ($33.33 to $46.60). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "GFL Environmental's revenue rose 12.9% to $4.8B. The consensus estimate and the current multiple frame the near-term debate. The scale of the revenue base matters less than the margin it earns.",
+      "Revenue is reported as one consolidated line. What could lift the return is pricing and acquisitions. The thing to watch is volume and pricing. The absence of a segment split puts more weight on the group margin and cash conversion.",
+      "At $43.19, the equity is worth $19.1B, or 6.9x trailing earnings and no meaningful EV/EBITDA multiple. The earnings multiple is 78.7% below the 32.2x peer median. The stock is 74% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "GFL provides waste management, so volume, pricing and acquisition integration drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "GFL Environmental Inc. provides non-hazardous solid waste management services in Canada and the United States. The business is part of the Industrial Automation group and reports under Industrials in the current classification.",
-      "The company reports one consolidated revenue line rather than a segment split. Headcount was 17,000 in the latest filing. With $4.8B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "Against AIT, AME and AZEK, the relevant tests are pricing power, capital intensity and cash conversion."
+      "GFL Environmental Inc. provides non-hazardous solid waste management services in Canada and the United States.",
+      "The operating margin is not meaningful on the current data, although the gross margin is 20.7%. Materials, labor and capacity remain the main cost line, so the margin trend is the number to watch.",
+      "Capex is not disclosed in the current data. Net debt is $5.4B. Return on invested capital is not meaningful on the current data."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$4.8B on a trailing-twelve-month basis; a dated quarter is not available in the dataset."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin n/a; free-cash-flow margin n/a; net margin 57.6%."
+        "title": "Margin engine",
+        "detail": "The operating margin is not meaningful on the current data, although the gross margin is 20.7%. Materials, labor and capacity are the cost line to watch."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $19.1B at the latest close."
+        "title": "Capital intensity",
+        "detail": "$5.4B of net debt."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 20.7% of revenue after cost of sales, or $998.4M. Operating expenses absorbed n/a of revenue, leaving a n/a operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $5.4B, or n/a EBITDA. Return on invested capital was n/a and return on equity was 50.9%. A return on invested capital is not available in the dataset, so margin and cash conversion carry the quality assessment."
+      "Industrial production, backlog and pricing drive revenue; utilization drives the margin. The edge is waste collection routes.",
+      "The operating margin is not meaningful on the current data. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 11.1% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. Current-year estimates call for $8.1B of revenue and $0.81 of EPS.",
-      "The operating margin of n/a and return on invested capital of n/a are the filters to watch as revenue scales. The 12.9% revenue pace and n/a margin have to move together for the earnings path to improve."
+      "Revenue compounded at 11.1% a year from FY2019 to FY2025. The current-year consensus looks for $8.1B of revenue and $0.81 of EPS. The market already has a growth expectation; the filings are the test.",
+      "The next leg depends on pricing and acquisitions. For GFL Environmental, volume growth is only worth paying for if pricing covers input costs. The consensus estimate is the first test; the second is whether incremental revenue carries the same margin as the base."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Revenue growth is +12.9%. Orders already booked provide visibility into future revenue."
+        "detail": "Orders already booked provide visibility into future revenue. Revenue growth is 12.9%."
       },
       {
         "title": "Aftermarket and services",
-        "detail": "Recurring service revenue can be more profitable than equipment. The current reading: the operating margin is n/a."
+        "detail": "Recurring service revenue can be more profitable than equipment. Revenue growth is 12.9%."
       },
       {
         "title": "Price and productivity",
-        "detail": "Return on invested capital is n/a. Compare that with the prior year before drawing a conclusion."
+        "detail": "Pricing actions and cost programmes protect margins through cycles. The balance sheet carries $5.4B of net debt."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is n/a, the net margin is 57.6% and diluted EPS is $7.29.",
-      "Return on equity was 50.9% and return on invested capital was n/a. The dataset does not carry both return measures, leaving margin and cash conversion as the comparison. Both should be read against the company's own history before they are compared with a peer median."
+      "The reported margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is not meaningful on the current data, the net margin is 57.6%, and diluted EPS is $7.29.",
+      "Both return measures are not available on a comparable basis, so margin and cash conversion carry the quality assessment. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was n/a, a n/a margin. Net debt is $5.4B, or n/a EBITDA. Capex absorbed n/a of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $961M, or 34.5% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $0 in the latest fiscal year."
+      "Free cash flow is not meaningful at this stage. The cash profile is better judged through the balance sheet than the free-cash-flow margin. Capex and working capital are the relevant cash variables here.",
+      "Net debt is $5.4B. The test is whether that cash is reinvested at a return above the cost of capital. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 6.9x trailing earnings, no meaningful EV/EBITDA multiple and 5.1x EV/sales. The free-cash-flow yield is n/a. Inverting the P/E gives an earnings yield of 14.6%; the cash-flow yield is n/a.",
-      "The peer comparison sets the company against AIT, AME and AZEK; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $43.19, the shares trade at 6.9x trailing earnings and no meaningful EV/EBITDA multiple. The earnings yield is 14.6%. The earnings multiple is 78.7% below the 32.2x peer median.",
+      "The multiple implies the market expects little growth and assumes the current margin is close to peak. The multiple is below the peer median, so some of the risk is already in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "13 analysts contribute to the third-party consensus. The mean target is $51.39, with a range of $40.06 to $65.58. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $8.1B of revenue and $0.81 of EPS. The estimate revisions in the dataset are -4.7% over 30 days and -1.7% over 90 days. Set against trailing revenue, the estimate implies growth of 67.1%."
+      "13 analysts in the third-party consensus carry a mean target of $51.39, 19.0% above the latest close. The range runs from $40.06 to $65.58. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $8.1B of revenue and $0.81 of EPS. EPS estimates are down 4.7% over 30 days and down 1.7% over 90 days. That implies 67.1% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is pricing and acquisitions versus volume and pricing.",
     "items": [
       {
-        "title": "Capital-spending cycle",
+        "title": "Volume and pricing",
         "severity": "High",
-        "detail": "Industrial demand falls when customers delay projects.",
+        "detail": "The main risk is volume and pricing.",
         "watch": "Order trends and backlog conversion."
       },
       {
@@ -146,9 +146,9 @@ export const GFL: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "GFL Environmental Inc. produced $4.8B of trailing revenue at a n/a operating margin and a n/a free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The consensus target is $51.39 as of 2026-11-25, 19.0% above the latest close; the forecast is theirs, and this report does not adopt it as a target. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 100/100 and cash generation at 14/100, with the composite averaging 43/100. The gap between valuation at 100/100 and cash generation at 14/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on valuation and the durability of the current economics. The weak link is cash generation.",
+      "What would change the view is cash conversion improving, not a single quarter. The key exposure is volume and pricing.",
+      "The scorecard puts the composite at 43/100. Focus on the valuation-to-cash generation spread rather than the average."
     ],
     "questions": [
       "How much revenue is recurring versus project-based?",

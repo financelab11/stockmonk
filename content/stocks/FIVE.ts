@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const FIVE: StockStory = {
   "ticker": "FIVE",
   "kicker": "Consumer Retail & Leisure · Specialty Retail",
-  "title": "Five Below, Inc: A value retailer",
-  "dek": "Five Below, Inc. reported $5.3B of trailing revenue at a 14.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Five Below: A value retailer",
+  "dek": "Five Below's revenue rose 25.6% to $5.3B, at a 14.7% operating margin. The key risk is comparable sales and shrink.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $5.3B trailing twelve months, +25.6% year over year.",
+    "Revenue: $5.3B, +25.6% year over year.",
     "Profitability: 14.7% operating margin and 11.7% net margin.",
     "Cash: $599.3M free cash flow, an 11.3% margin, against $1.2B of net cash.",
-    "Valuation: 19.5x trailing earnings and 11.1x EV/EBITDA at the latest close."
+    "Valuation: 19.5x trailing earnings and 11.1x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const FIVE: StockStory = {
   "irUrl": "https://www.fivebelow.com",
   "bigPicture": {
     "paragraphs": [
-      "Five Below, Inc. generated $5.3B of revenue over the last twelve months, +25.6% versus the prior year. The latest reported quarter was Q2 FY27, with $1.3B of revenue and a 21.8% operating margin. The shares closed at $219.28 on Nov 25, 2026, giving a market capitalization of $12.1B.",
-      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. A regional breakdown is missing from the current filing extract, so the analysis stays at the consolidated level.",
-      "At the latest close the equity is valued at $12.1B, or 19.5x trailing earnings and 11.1x EV/EBITDA. The shares sit 58% of the way up their 52-week range ($158.86 to $263.88). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Five Below's revenue rose 25.6% to $5.3B at a 14.7% operating margin, generating $599.3M of free cash flow. The latest quarter (Q2 FY27) grew 22.9%.",
+      "Revenue is reported as one consolidated line. The near-term driver is store growth and margin. The risk is comparable sales and shrink. The absence of a segment split puts more weight on the group margin and cash conversion.",
+      "At $219.28, the equity is worth $12.1B, or 19.5x trailing earnings and 11.1x EV/EBITDA. The earnings multiple is 22.0% below the 25.0x peer median. The stock is 58% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Five Below is a value retailer, so comparable sales, new stores and shrink drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Five Below, Inc. is classified in Specialty Retail; its financial statements are in USD and it sits in the Consumer Retail & Leisure group. Five Below, Inc. is a Specialty Retail company within the Consumer Retail & Leisure coverage group.",
-      "There is no separate segment disclosure in the current extract. The company employed 7,800 people at the last reporting date. With $5.3B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The peer set is CASY and DKS; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Five Below, Inc. operates as a specialty value retailer in the United States.",
+      "Five Below does not report a product gross margin; cost of goods, occupancy and labor sit inside the operating line, leaving a 14.7% operating margin. That is 9.9 points above the peer median of 4.9%.",
+      "Capital spending runs at 3.3% of revenue, which is low relative to the revenue base. The balance sheet carries $1.2B of net cash. Return on invested capital was 23.9%. That is 12.3 points above the peer median of 11.6%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$5.3B on a trailing-twelve-month basis, with the latest quarter at $1.3B."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 14.7%; free-cash-flow margin 11.3%; net margin 11.7%."
+        "title": "Margin engine",
+        "detail": "Operating margin 14.7%. Cost of goods, occupancy and labor are the main cost line, so the margin depends on spreading the cost base over more revenue."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $12.1B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.3% of revenue; $1.2B of net cash; ROIC 23.9%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 14.7% is the first clean profitability line. The business depends on traffic, basket size, inventory turns and the cost of opening the next store.",
-      "The balance sheet carries $1.2B of net cash. Return on invested capital was 23.9% and return on equity was 25.0%. That level earns well above a typical cost of capital."
+      "Traffic, basket size and inventory turns drive revenue; markdowns and occupancy drive the margin. The edge is value retail and new stores.",
+      "The operating margin is 14.7%, 9.9 points above the peer median of 4.9%. Inventory turns and markdown discipline decide whether volume growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 17.3% a year across the fiscal years in the dataset, and the latest quarter changed +22.9% year over year. Current-year estimates call for $5.7B of revenue and $10.34 of EPS.",
-      "The operating margin of 14.7% and return on invested capital of 23.9% are the filters to watch as revenue scales. The 25.6% revenue pace and 14.7% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 17.3% a year from FY2019 to FY2026. The latest quarter (Q2 FY27) grew 22.9% year over year. The current-year consensus looks for $5.7B of revenue and $10.34 of EPS.",
+      "The next leg depends on store growth and margin. For Five Below, sales growth is only worth paying for if inventory turns and markdowns stay under control."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Same-store growth shows demand without new square footage. The current reading: revenue growth is +25.6%."
+        "detail": "Same-store growth shows demand without new square footage. Revenue growth is 25.6%."
       },
       {
         "title": "Unit growth",
-        "detail": "The operating margin is 14.7%. The next data point will show whether the trend is intact."
+        "detail": "New stores and markets expand the revenue base but carry fixed costs. The operating margin is 14.7%."
       },
       {
         "title": "Merchandise margin",
@@ -73,35 +73,35 @@ export const FIVE: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 12.0% in FY2019 to 9.6% in FY2026. The trailing operating margin is 14.7%, the net margin is 11.7% and diluted EPS is $11.16.",
-      "Return on equity was 25.0% and return on invested capital was 23.9%. With return on equity at 25.0% and return on invested capital at 23.9%, leverage is not the main driver of the gap."
+      "The operating margin moved from 12.0% in FY2019 to 9.6% in FY2026. The trailing operating margin is 14.7%, the net margin is 11.7%, and diluted EPS is $11.16, up 125.9% year over year.",
+      "Return on equity of 25.0% and return on invested capital of 23.9% are close enough that operating performance explains most of the return. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $599.3M, an 11.3% margin. The balance sheet carries $1.2B of net cash. Capex absorbed 3.3% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $586.4M, or 163.5% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $174.7M in the latest fiscal year."
+      "Free cash flow was $599.3M, or 11.3% of revenue. Operating cash flow covered 163.5% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 3.3% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $1.2B of net cash. The net cash position is optionality: it can fund investment, acquisitions or returns. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 19.5x trailing earnings, 11.1x EV/EBITDA and 2.0x EV/sales. The free-cash-flow yield is 5.0%. Inverting the P/E gives an earnings yield of 5.1%; the cash-flow yield is 5.0%.",
-      "The peer comparison sets the company against CASY and DKS; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $219.28, the shares trade at 19.5x trailing earnings and 11.1x EV/EBITDA, with a 5.0% free-cash-flow yield. The earnings yield is 5.1%. The earnings multiple is 22.0% below the 25.0x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "23 analysts contribute to the third-party consensus. The mean target is $301.00, with a range of $226.00 to $420.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $5.7B of revenue and $10.34 of EPS. The estimate revisions in the dataset are 0.9% over 30 days and 12.1% over 90 days. If met, the estimate would mean growth of 7.9% from the current base."
+      "23 analysts in the third-party consensus carry a mean target of $301.00, 37.3% above the latest close. The range runs from $226.00 to $420.00. The wide range shows how divided the published views are. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $5.7B of revenue and $10.34 of EPS. EPS estimates are up 0.9% over 30 days and up 12.1% over 90 days. That implies 7.9% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is store growth and margin versus comparable sales and shrink.",
     "items": [
       {
-        "title": "Consumer spending",
+        "title": "Comparable sales and shrink",
         "severity": "High",
-        "detail": "Discretionary budgets are sensitive to confidence and rates.",
+        "detail": "The main risk is comparable sales and shrink.",
         "watch": "Comparable sales and transaction counts."
       },
       {
@@ -146,9 +146,9 @@ export const FIVE: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Five Below, Inc. produced $5.3B of trailing revenue at a 14.7% operating margin and an 11.3% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The published consensus mean is $301.00 (2026-11-25), 37.3% above the latest close; it is included for attribution, not as a Stockmonk call. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put growth at 83/100 and cash generation at 42/100, with the composite averaging 69/100. The gap between growth at 83/100 and cash generation at 42/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on growth and the durability of 14.7% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above 14.3%, not a single quarter. The key exposure is comparable sales and shrink.",
+      "On the scorecard, the composite is 69/100. The spread between growth and cash generation is the useful part; the average hides it."
     ],
     "questions": [
       "Is growth coming from traffic or price?",

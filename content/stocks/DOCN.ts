@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const DOCN: StockStory = {
   "ticker": "DOCN",
   "kicker": "Enterprise Software · Software - Infrastructure",
-  "title": "DigitalOcean Holdings, Inc: Cloud infrastructure to developers",
-  "dek": "DigitalOcean Holdings, Inc. reported $1.1B of trailing revenue at a 12.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "DigitalOcean Holdings: Cloud infrastructure to developers",
+  "dek": "DigitalOcean Holdings' revenue rose 27.6% to $1.1B, at a 12.5% operating margin. The key risk is AI competition and retention.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $1.1B trailing twelve months, +27.6% year over year.",
+    "Revenue: $1.1B, +27.6% year over year.",
     "Profitability: 12.5% operating margin and 3.1% net margin.",
     "Cash: $244.1M free cash flow, a 22.1% margin, against $204.5M of net cash.",
-    "Valuation: 238.2x trailing earnings and 22.7x EV/EBITDA at the latest close."
+    "Valuation: 238.2x trailing earnings and 22.7x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const DOCN: StockStory = {
   "irUrl": "https://www.digitalocean.com",
   "bigPicture": {
     "paragraphs": [
-      "DigitalOcean Holdings, Inc. generated $1.1B of revenue over the last twelve months, +27.6% versus the prior year. The latest reported quarter was Q3 FY26, with $321.2M of revenue and a 10.3% operating margin. The shares closed at $69.16 on Nov 25, 2026, giving a market capitalization of $8.2B.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. North America supplies 38.4% of disclosed revenue, the largest single geography in the filing.",
-      "At the latest close the equity is valued at $8.2B, or 238.2x trailing earnings and 22.7x EV/EBITDA. The shares sit 18% of the way up their 52-week range ($42.77 to $187.50). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "DigitalOcean Holdings' revenue rose 27.6% to $1.1B at a 12.5% operating margin, generating $244.1M of free cash flow. The latest quarter (Q3 FY26) grew 39.9%.",
+      "Revenue is reported as one consolidated line. North America is the largest geography at 38.4% of revenue. The catalyst is AI inference demand. The exposure is AI competition and retention.",
+      "At $69.16, the equity is worth $8.2B, or 238.2x trailing earnings and 22.7x EV/EBITDA. The earnings multiple is 168.6% above the 88.7x peer median. The stock is 18% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "DigitalOcean sells cloud infrastructure to developers, so customer growth, AI inference demand and net retention drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "DigitalOcean Holdings, Inc., through its subsidiaries, operates an agentic inference cloud platform in North America, Europe, Asia, and internationally. DigitalOcean Holdings, Inc. sits in the Software - Infrastructure industry, one of the Enterprise Software names in this library.",
-      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 1,462 people. With $1.1B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The closest listed comparisons are MSFT, ORCL and SNPS; the useful question is how DigitalOcean Holdings, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "DigitalOcean Holdings, Inc., through its subsidiaries, operates an agentic inference cloud platform in North America, Europe, Asia, and internationally.",
+      "DigitalOcean Holdings earned a 54.7% gross margin, and R&D and sales and marketing absorbed 42.2% of revenue, leaving a 12.5% operating margin. That is 7.8 points below the peer median of 20.3%.",
+      "Capital spending runs at 11.7% of revenue, which is a meaningful claim on cash flow. The balance sheet carries $204.5M of net cash. Return on invested capital was 5.3%. That is 7.8 points below the peer median of 13.0%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$1.1B on a trailing-twelve-month basis, with the latest quarter at $321.2M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 12.5%; free-cash-flow margin 22.1%; net margin 3.1%."
+        "title": "Margin engine",
+        "detail": "Gross margin 54.7%, operating margin 12.5%. R&D and sales and marketing are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $8.2B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 11.7% of revenue; $204.5M of net cash; ROIC 5.3%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 54.7% of revenue after cost of sales, or $602.7M. Operating expenses absorbed 42.2% of revenue, leaving a 12.5% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "The balance sheet carries $204.5M of net cash. Return on invested capital was 5.3% and return on equity was 2.4%. That is a thin return; without a margin recovery or a different capital allocation, growth is unlikely to create value."
+      "Subscriptions and seat or usage growth drive revenue; retention and sales efficiency drive the margin. The edge is developer cloud platform.",
+      "The operating margin is 12.5%, 7.8 points below the peer median of 20.3%. Retention and sales efficiency decide whether subscription growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 23.4% a year across the fiscal years in the dataset, and the latest quarter changed +39.9% year over year. Current-year estimates call for $1.2B of revenue and $1.63 of EPS.",
-      "The operating margin of 12.5% and return on invested capital of 5.3% are the filters to watch as revenue scales. The 27.6% revenue pace and 12.5% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 23.4% a year from FY2019 to FY2025. The latest quarter (Q3 FY26) grew 39.9% year over year. The current-year consensus looks for $1.2B of revenue and $1.63 of EPS.",
+      "The next leg depends on AI inference demand. For DigitalOcean Holdings, subscription growth is only worth paying for if retention and sales efficiency hold. The consensus estimate is the first test; the second is whether incremental revenue carries the same margin as the base."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. Revenue growth is +27.6%."
+        "detail": "Expansion within existing customers compounds revenue. Revenue growth is 27.6%."
       },
       {
         "title": "New customer adds",
-        "detail": "The operating margin is 12.5%. New logos broaden the base and fund future expansion."
+        "detail": "New logos broaden the base and fund future expansion. The operating margin is 12.5%."
       },
       {
         "title": "Operating leverage",
-        "detail": "Scale should improve margins as sales and R&D mature. The current reading: return on invested capital is 5.3%."
+        "detail": "Scale should improve margins as sales and R&D mature. Return on invested capital is 5.3%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -11.7% in FY2019 to 17.4% in FY2025. The trailing operating margin is 12.5%, the net margin is 3.1% and diluted EPS is $0.28.",
-      "Return on equity was 2.4% and return on invested capital was 5.3%. With return on equity at 2.4% and return on invested capital at 5.3%, leverage is not the main driver of the gap."
+      "The operating margin moved from -11.7% in FY2019 to 17.4% in FY2025. The trailing operating margin is 12.5%, the net margin is 3.1%, and diluted EPS is $0.28, down 88.7% year over year.",
+      "Return on equity of 2.4% and return on invested capital of 5.3% are close enough that operating performance explains most of the return. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $244.1M, a 22.1% margin. The balance sheet carries $204.5M of net cash. Capex absorbed 11.7% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $309.6M, or 119.4% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $129.1M in the latest fiscal year."
+      "Free cash flow was $244.1M, or 22.1% of revenue. Operating cash flow covered 119.4% of net income; reported profit is converting into cash cleanly. Capex absorbed 11.7% of revenue, which is a meaningful claim on cash.",
+      "The balance sheet carries $204.5M of net cash. Interest cover is 11.5x. The balance sheet is a source of flexibility rather than a constraint. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 238.2x trailing earnings, 22.7x EV/EBITDA and 7.2x EV/sales. The free-cash-flow yield is 3.0%. Inverting the P/E gives an earnings yield of 0.4%; the cash-flow yield is 3.0%.",
-      "The peer comparison sets the company against MSFT, ORCL and SNPS; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $69.16, the shares trade at 238.2x trailing earnings and 22.7x EV/EBITDA, with a 3.0% free-cash-flow yield. The earnings yield is 0.4%. The earnings multiple is 168.6% above the 88.7x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "15 analysts contribute to the third-party consensus. The mean target is $159.93, with a range of $100.00 to $220.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $1.2B of revenue and $1.63 of EPS. The estimate revisions in the dataset are 12.4% over 30 days and 12.3% over 90 days. That implies growth of 9.8% over the trailing twelve months."
+      "15 analysts in the third-party consensus carry a mean target of $159.93, 131.3% above the latest close. The range runs from $100.00 to $220.00. The range is unusually wide, which signals genuine disagreement about the cycle. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $1.2B of revenue and $1.63 of EPS. EPS estimates are up 12.4% over 30 days and up 12.3% over 90 days. That implies 9.8% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is AI inference demand versus AI competition and retention.",
     "items": [
       {
-        "title": "Competition",
+        "title": "AI competition and retention",
         "severity": "High",
-        "detail": "Feature parity and bundling can pressure pricing.",
+        "detail": "The main risk is AI competition and retention.",
         "watch": "Win rates and average contract value."
       },
       {
@@ -146,9 +146,9 @@ export const DOCN: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "DigitalOcean Holdings, Inc. produced $1.1B of trailing revenue at a 12.5% operating margin and a 22.1% free-cash-flow margin. The free-cash-flow margin is the strongest part of that record; the rest of the report tests whether it can be sustained.",
-      "The published consensus mean is $159.93 (2026-11-25), 131.3% above the latest close; it should be read as the published consensus, not as this publication's view. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put balance sheet at 71/100 and valuation at 18/100, with the composite averaging 48/100. The gap between balance sheet at 71/100 and valuation at 18/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on balance sheet and the durability of 12.5% margins. The weak link is valuation.",
+      "What would change the view is the multiple falling below 190.6x earnings, not a single quarter. The key exposure is AI competition and retention.",
+      "The composite of 48/100 blends a strong balance sheet reading with a weak valuation one; the gap is the story."
     ],
     "questions": [
       "How much growth comes from existing customers?",

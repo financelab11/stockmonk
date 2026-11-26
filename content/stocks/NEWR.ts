@@ -3,7 +3,7 @@ import type { StockStory } from "./types";
 export const NEWR: StockStory = {
   "ticker": "NEWR",
   "kicker": "Enterprise Software · Software",
-  "title": "New Relic: the final financial record behind the Francisco Partners and TPG deal",
+  "title": "New Relic: the final record behind the Francisco Partners and TPG deal",
   "dek": "New Relic last traded on Nov 8, 2023 after the Francisco Partners and TPG transaction. The report keeps the final SEC record, the deal terms and the factors that explained the business while it was public.",
   "readingMinutes": 10,
   "takeaways": [
@@ -18,90 +18,90 @@ export const NEWR: StockStory = {
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001448056&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "New Relic last traded at $87.00 on Nov 8, 2023, when the Francisco Partners and TPG transaction closed. The final consideration was $87.00 per share in cash. The company no longer files current reports, so the figures below are the final SEC statements rather than a live snapshot. New Relic generated $967.6M of revenue over the last twelve months, +13.5% versus the prior year. The final reported operating margin was -14.2% and free-cash-flow margin was 9.6%.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. United States supplies 64.6% of disclosed revenue, the largest single geography in the filing.",
-      "The archived valuation has no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple, based on the final consideration and the last reported statements. It is a historical reference, not a live multiple. The article is retained because the company remains part of the 500-name coverage library."
+      "New Relic last traded at $87.00 on Nov 8, 2023, when the Francisco Partners and TPG transaction closed. The final consideration was $87.00 per share in cash. The figures below are the last reported record, not a live quote.",
+      "The final reported mix was a single consolidated revenue line, with the US the largest geography at 64.6%. The business no longer sets its own capital allocation or pricing; it sits inside Francisco Partners and TPG.",
+      "The archived valuation is n/a trailing earnings and n/a EV/EBITDA, based on the final consideration and the last statements. It is a historical reference, not a current multiple."
     ],
-    "quote": "New Relic is no longer a live market, so the useful question is what its final financial record says about the Enterprise Software business that the acquirer bought."
+    "quote": "New Relic is no longer a live market; the useful question is what its final record says about the business Francisco Partners and TPG bought."
   },
   "whatItDoes": {
     "paragraphs": [
-      "New Relic was taken private by Francisco Partners and TPG. The final consideration was $87.00 per share in cash. The shares last traded on Nov 8, 2023; the statements below are the final SEC filings and the article is retained as archived coverage.",
-      "The filing extract carries no product-line revenue split. The filing extract does not include a headcount figure. With $967.6M of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The closest listed comparisons are CFLT, CYBR and ALTR; the useful question is how New Relic's margin and returns compare with theirs, not how fast the addressable market is growing."
+      "New Relic was a Software business. New Relic is an archived observability company, and the useful question is what its telemetry platform was worth to Francisco Partners and TPG.",
+      "At the last report, the operating margin was -14.2% and the free-cash-flow margin was 9.6%. The record is closed; there is no current guidance.",
+      "The final balance sheet carried -$436.6M of net debt, and the equity no longer trades independently."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$967.6M on a trailing-twelve-month basis, with the latest quarter at $242.8M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -14.2%; free-cash-flow margin 9.6%; net margin -14.9%."
+        "title": "Margin engine",
+        "detail": "Gross margin 76.8%, operating margin -14.2%. R&D and sales and marketing are the bridge between the two."
       },
       {
-        "title": "Final status",
-        "detail": "Last traded Nov 8, 2023 after the Francisco Partners and TPG transaction."
+        "title": "Capital intensity",
+        "detail": "Capex 0.3% of revenue; $436.6M of net cash; ROIC -28.1%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 76.8% of revenue after cost of sales, or $742.8M. Operating expenses absorbed 91.0% of revenue, leaving a -14.2% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "The balance sheet carries $436.6M of net cash. Return on invested capital was -28.1% and return on equity was -37.3%. The capital base is currently earning less than nothing; scale has to change that."
+      "Subscriptions and seat or usage growth drive revenue; retention and sales efficiency drive the margin. Expansion within existing customers compounds revenue.",
+      "The operating margin is -14.2%, 11.9 points below the peer median of -2.3%. Retention and sales efficiency decide whether subscription growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 26.2% a year across the fiscal years in the dataset, and the latest quarter changed +7.0% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of -14.2% and return on invested capital of -28.1% are the filters to watch as revenue scales. The final year in the dataset is FY2023; there is no current guidance because the company no longer trades."
+      "Revenue compounded at 26.2% a year across the reported fiscal years. The final year is FY2023 and there is no current guidance. The next data point is the quarterly growth rate against the consensus.",
+      "The archive is a record of what the business earned before the deal, not a forecast. The final operating margin was -14.2%. The consensus estimate is the first test; the second is whether incremental revenue carries the same margin as the base."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Expansion within existing customers compounds revenue. Revenue growth is +13.5%."
+        "detail": "Expansion within existing customers compounds revenue. Revenue growth is 13.5%."
       },
       {
         "title": "New customer adds",
-        "detail": "The operating margin is -14.2%. New logos broaden the base and fund future expansion."
+        "detail": "New logos broaden the base and fund future expansion. The operating margin is -14.2%."
       },
       {
         "title": "Operating leverage",
-        "detail": "Scale should improve margins as sales and R&D mature. The current reading: return on invested capital is -28.1%."
+        "detail": "Scale should improve margins as sales and R&D mature. Return on invested capital is -28.1%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -37.3% in FY2016 to -20.0% in FY2023. The trailing operating margin is -14.2%, the net margin is -14.9% and diluted EPS is -$2.10.",
-      "Return on equity was -37.3% and return on invested capital was -28.1%. Both measures sit below zero, so there is no leverage effect to separate out. Both should be read against the company's own history before they are compared with a peer median."
+      "The final operating margin was -14.2%, the net margin was -14.9%, and diluted EPS was -$2.10. The record will not update. A single year of returns is less informative than the direction of margins and capital intensity.",
+      "The archived returns are a historical description of the business at the time of the transaction. They are not a current measure of capital allocation."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $92.9M, a 9.6% margin. The balance sheet carries $436.6M of net cash. Capex absorbed 0.3% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "The final reported balance sheet is the one shown here; it will not update. The company generated positive free cash flow on a trailing basis, and capital expenditure was $3.1M in the latest fiscal year."
+      "The final reported free cash flow was $92.9M, a 9.6% margin. The balance sheet is the last reported one and will not update. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "The final consideration was $87.00 per share in cash; there is no current price, target or capital-return policy to assess. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 5.9x EV/sales. The free-cash-flow yield is 1.5%. Without a meaningful earnings multiple, the cash-flow yield and the asset base carry more of the valuation work.",
-      "The final consideration was $87.00 per share in cash. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades."
+      "The final consideration was $87.00 per share in cash. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades.",
+      "The final consideration is the only relevant reference. There is no live multiple to compare with the peer group. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A current analyst consensus is not available because New Relic no longer trades. The final transaction value is the relevant reference, and the archived estimates are shown only where the dataset retains them.",
-      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $967.6M and the last reported operating margin was -14.2%."
+      "There is no current analyst consensus because New Relic no longer trades. The final transaction value is the reference, and the archived estimates are shown only where they were retained.",
+      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $967.6M and the last operating margin was -14.2%."
     ]
   },
   "risks": {
-    "intro": "The risks below are the historical risks that mattered before the Francisco Partners and TPG transaction, plus the limitation that the record is now closed. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the historical risks that mattered before the Francisco Partners and TPG transaction, plus the limitation that the record is closed.",
     "items": [
       {
         "title": "Archived coverage",
         "severity": "High",
-        "detail": "New Relic no longer trades. The final consideration was $87.00 per share in cash, and the financial statements will not be updated with new quarters.",
+        "detail": "New Relic no longer trades. The final consideration was $87.00 per share in cash, and the statements will not be updated with new quarters.",
         "watch": "Treat every figure as the final reported record, not as a current market snapshot."
       },
       {
@@ -146,15 +146,14 @@ export const NEWR: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "New Relic is an archived Enterprise Software company with $967.6M of final trailing revenue, a -14.2% operating margin and a 9.6% free-cash-flow margin. The Francisco Partners and TPG transaction valued the equity at $87.00 per share in cash.",
-      "There is no current price, target or rating to update. The archived factor percentiles are a historical description of the business at the point of the transaction. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 100/100 and profitability at 7/100, with the composite averaging 48/100. The gap between valuation at 100/100 and profitability at 7/100 is wide enough that the composite is a balance, not a verdict."
+      "New Relic is an archived Software company with $967.6M of final revenue, a -14.2% operating margin and a 9.6% free-cash-flow margin. The Francisco Partners and TPG transaction valued the equity at $87.00 per share in cash.",
+      "There is no current price, target or rating to update. The archived factor scores are a historical description of the business at the point of the transaction.",
+      "The composite of 48/100 blends a strong valuation reading with a weak profitability one; the gap is the story."
     ],
     "questions": [
-      "How much growth comes from existing customers?",
-      "Is AI a tailwind or a substitute?",
-      "When does the business reach durable free cash flow?",
-      "How expensive is the next dollar of growth?"
+      "What did the final financial record show?",
+      "What did the acquirer pay for?",
+      "Which figures will never update?"
     ]
   }
 };

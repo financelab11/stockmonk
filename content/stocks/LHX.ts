@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const LHX: StockStory = {
   "ticker": "LHX",
   "kicker": "Aerospace & Defense · Aerospace & Defense",
-  "title": "L3Harris Technologies, Inc: Defense electronics and mission systems",
-  "dek": "L3Harris Technologies, Inc. reported $39.6B of trailing revenue at a 10.6% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "L3Harris Technologies: Defense electronics and mission systems",
+  "dek": "L3Harris Technologies' revenue rose 5.3% to $39.6B, at a 10.6% operating margin. The key risk is programme execution and budgets.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $39.6B trailing twelve months, +5.3% year over year.",
+    "Revenue: $39.6B, +5.3% year over year.",
     "Profitability: 10.6% operating margin and 5.2% net margin.",
     "Cash: $3.6B free cash flow, a 9.2% margin, against $6.2B of net debt.",
-    "Valuation: 23.9x trailing earnings and 10.3x EV/EBITDA at the latest close."
+    "Valuation: 23.9x trailing earnings and 10.3x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const LHX: StockStory = {
   "irUrl": "https://www.l3harris.com",
   "bigPicture": {
     "paragraphs": [
-      "L3Harris Technologies, Inc. generated $39.6B of revenue over the last twelve months, +5.3% versus the prior year. The latest reported quarter was Q3 FY27, with $6.1B of revenue and a 13.0% operating margin. The shares closed at $261.95 on Nov 25, 2026, giving a market capitalization of $48.8B.",
-      "The filing does not disclose a reportable segment split, so the consolidated revenue line is the unit of analysis. The dataset does not include a geographic revenue split for this company.",
-      "At the latest close the equity is valued at $48.8B, or 23.9x trailing earnings and 10.3x EV/EBITDA. The shares sit 20% of the way up their 52-week range ($232.34 to $379.23). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "L3Harris Technologies' revenue rose 5.3% to $39.6B at a 10.6% operating margin, generating $3.6B of free cash flow. The latest quarter (Q3 FY27) grew 7.1%.",
+      "Revenue is reported as one consolidated line. The catalyst is backlog and margin. The exposure is programme execution and budgets. The business is judged on whether the consolidated margin and returns can improve from here.",
+      "At $261.95, the equity is worth $48.8B, or 23.9x trailing earnings and 10.3x EV/EBITDA. The earnings multiple is 29.2% below the 33.7x peer median. The stock is 20% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "L3Harris sells defense electronics and mission systems, a backlog business where program execution and defense budgets drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "L3Harris Technologies, Inc. provides mission-critical solutions for government and commercial customers worldwide. L3Harris Technologies, Inc. sits in the Aerospace & Defense industry, one of the Aerospace & Defense names in this library.",
-      "The filing extract carries no product-line revenue split. The last disclosure put headcount at 45,000 people. Trailing revenue is $39.6B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The closest listed comparisons are GE, RTX and HWM; the useful question is how L3Harris Technologies, Inc.'s margin and returns compare with theirs, not how fast the addressable market is growing."
+      "L3Harris Technologies, Inc. provides mission-critical solutions for government and commercial customers worldwide.",
+      "L3Harris Technologies does not report a product gross margin; program costs and fixed-price execution sit inside the operating line, leaving a 10.6% operating margin. That is 1.1 points below the peer median of 11.8%.",
+      "Capital spending runs at 1.1% of revenue, which is low relative to the revenue base. Net debt is $6.2B, or 1.2x EBITDA. Return on invested capital was 12.9%. That is 6.0 points below the peer median of 18.9%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$39.6B on a trailing-twelve-month basis, with the latest quarter at $6.1B."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 10.6%; free-cash-flow margin 9.2%; net margin 5.2%."
+        "title": "Margin engine",
+        "detail": "Operating margin 10.6%. Program costs and fixed-price execution are the main cost line, so incremental revenue matters more than product mix."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $48.8B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 1.1% of revenue; $6.2B of net debt; ROIC 12.9%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 10.6% is the first clean profitability line. Revenue is tied to government budgets, contract awards and the conversion of backlog into deliveries.",
-      "Net debt is $6.2B, or 1.2x EBITDA. Return on invested capital was 12.9% and return on equity was 10.1%. That sits in the middle of the range; whether it clears the cost of capital is the deciding question."
+      "Contracted backlog converts into revenue as programmes deliver; budgets set the addressable market. The edge is defense electronics and mission systems.",
+      "The operating margin is 10.6%, 1.1 points below the peer median of 11.8%. The shape of the incremental margin will decide whether growth creates value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 21.0% a year across the fiscal years in the dataset, and the latest quarter changed +7.1% year over year. Current-year estimates point to 8.2% revenue growth, with EPS of 12.33 in the reporting currency.",
-      "The operating margin of 10.6% and return on invested capital of 12.9% are the filters to watch as revenue scales. Neither the 5.3% growth nor the 10.6% margin is extreme; the combination is what matters."
+      "Revenue compounded at 21.0% a year from FY2019 to FY2026. The latest quarter (Q3 FY27) grew 7.1% year over year. The current-year consensus looks for 8.2% revenue growth, with EPS of 12.33 in the reporting currency.",
+      "The next leg depends on backlog and margin. For L3Harris Technologies, backlog growth is only worth paying for if it converts into margin, not just revenue."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Contracted orders provide visibility into future revenue. Revenue growth is +5.3%."
+        "detail": "Contracted orders provide visibility into future revenue. Revenue growth is 5.3%."
       },
       {
         "title": "Budget and supplementals",
-        "detail": "The operating margin is 10.6%. Defense budgets and supplemental spending set the addressable market."
+        "detail": "Defense budgets and supplemental spending set the addressable market. The operating margin is 10.6%."
       },
       {
         "title": "Programme execution",
-        "detail": "Deliveries, milestones and cost control determine margins on fixed-price work. The current reading: return on invested capital is 12.9%."
+        "detail": "Deliveries, milestones and cost control determine margins on fixed-price work. Return on invested capital is 12.9%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is 10.6%, the net margin is 5.2% and diluted EPS is $10.74.",
-      "Return on equity was 10.1% and return on invested capital was 12.9%. Return on invested capital of 12.9% is close to the 10.1% equity return, so the balance sheet explains only part of the difference."
+      "The reported margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is 10.6%, the net margin is 5.2%, and diluted EPS is $10.74, up 15.4% year over year.",
+      "Return on equity of 10.1% and return on invested capital of 12.9% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.6B, a 9.2% margin. Net debt is $6.2B, or 1.2x EBITDA. Capital expenditure was 1.1% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $3.1B, or 193.4% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $424M in the latest fiscal year."
+      "Free cash flow was $3.6B, or 9.2% of revenue. Operating cash flow covered 193.4% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 1.1% of revenue, which is low relative to the revenue base.",
+      "Net debt is $6.2B, or 1.2x EBITDA. The maturity profile and interest cover determine how much flexibility the balance sheet leaves. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 23.9x trailing earnings, 10.3x EV/EBITDA and 1.4x EV/sales. The free-cash-flow yield is 7.5%. The 4.2% earnings yield and 7.5% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against GE, RTX and HWM; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $261.95, the shares trade at 23.9x trailing earnings and 10.3x EV/EBITDA, with a 7.5% free-cash-flow yield. The earnings yield is 4.2%. The earnings multiple is 29.2% below the 33.7x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "22 analysts contribute to the third-party consensus. The mean target is $332.86, with a range of $252.00 to $402.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates point to 8.2% revenue growth, with EPS of 12.33 in the reporting currency. The estimate revisions in the dataset are 3.3% over 30 days and 2.7% over 90 days."
+      "22 analysts in the third-party consensus carry a mean target of $332.86, 27.1% above the latest close. The range runs from $252.00 to $402.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for 8.2% revenue growth, with EPS of 12.33 in the reporting currency. EPS estimates are up 3.3% over 30 days and up 2.7% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is backlog and margin versus programme execution and budgets.",
     "items": [
       {
-        "title": "Budget cycle",
+        "title": "Programme execution and budgets",
         "severity": "High",
-        "detail": "Continuing resolutions and priorities can delay awards.",
+        "detail": "The main risk is programme execution and budgets.",
         "watch": "Budget markers and supplemental packages."
       },
       {
@@ -146,9 +146,9 @@ export const LHX: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "L3Harris Technologies, Inc. produced $39.6B of trailing revenue at a 10.6% operating margin and a 9.2% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "The third-party consensus mean is $332.86 as of 2026-11-25, 27.1% above the latest close; it should be read as the published consensus, not as this publication's view. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put valuation at 67/100 and growth at 34/100, with the composite averaging 45/100. With valuation and growth only 33 points apart, the composite is a reasonable one-line description."
+      "The investment case rests on valuation and the durability of 10.6% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 8.3%, not a single quarter. The key exposure is programme execution and budgets.",
+      "The composite of 45/100 blends a strong valuation reading with a weak growth one; the gap is the story."
     ],
     "questions": [
       "How much backlog converts in the next year?",

@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const ENPH: StockStory = {
   "ticker": "ENPH",
   "kicker": "Power & Renewables · Solar",
-  "title": "Enphase Energy, Inc: Solar microinverters and storage",
-  "dek": "Enphase Energy, Inc. reported $1.2B of trailing revenue at a 4.2% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Enphase Energy: Solar microinverters and storage",
+  "dek": "Enphase Energy's revenue fell 19.9% to $1.2B, at a 4.2% operating margin. The key risk is residential solar demand.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $1.2B trailing twelve months, -19.9% year over year.",
+    "Revenue: $1.2B, -19.9% year over year.",
     "Profitability: 4.2% operating margin and 7.5% net margin.",
     "Cash: $135.4M free cash flow, an 11.2% margin, against $358.7M of net cash.",
-    "Valuation: 30.4x trailing earnings and 18.1x EV/EBITDA at the latest close."
+    "Valuation: 30.4x trailing earnings and 18.1x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const ENPH: StockStory = {
   "irUrl": "https://www.enphase.com",
   "bigPicture": {
     "paragraphs": [
-      "Enphase Energy, Inc. generated $1.2B of revenue over the last twelve months, -19.9% versus the prior year. The latest reported quarter was Q3 FY26, with $293.3M of revenue and a 2.2% operating margin. The shares closed at $20.85 on Nov 25, 2026, giving a market capitalization of $2.8B.",
-      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. By geography, United States is the largest disclosed market at 80.7% of revenue. Enphase Energy, Inc. competes in Solar, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $2.8B, or 30.4x trailing earnings and 18.1x EV/EBITDA. The shares sit 3% of the way up their 52-week range ($19.08 to $73.74). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Enphase Energy's revenue fell 19.9% to $1.2B at a 4.2% operating margin, generating $135.4M of free cash flow. The latest quarter (Q3 FY26) fell 28.5%.",
+      "Revenue is reported as one consolidated line. The US is the largest geography at 80.7% of revenue. The upside is storage and international. What would break it is residential solar demand.",
+      "At $20.85, the equity is worth $2.8B, or 30.4x trailing earnings and 18.1x EV/EBITDA. The earnings multiple is 140.0% above the 12.7x peer median. The stock is 3% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Enphase sells solar microinverters and storage, so residential solar demand, channel inventory and competition drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Enphase Energy, Inc., together with its subsidiaries, designs, develops, manufactures, and sells home energy solutions for the solar photovoltaic industry in the United States and internationally. It reports in the Technology sector and is classified in Power & Renewables coverage.",
-      "Revenue is reported at the consolidated level only. Its latest filing lists 2,872 employees. Trailing revenue is $1.2B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "ARRY, FSLR and NXT provide the closest reference points for margin, growth and valuation."
+      "Enphase Energy, Inc., together with its subsidiaries, designs, develops, manufactures, and sells home energy solutions for the solar photovoltaic industry in the United States and internationally.",
+      "Enphase Energy earned a 45.8% gross margin, and fuel, operations and capital absorbed 41.6% of revenue, leaving a 4.2% operating margin. That is 14.8 points below the peer median of 19.0%.",
+      "Capex is 3.4% of revenue, so the business is asset-light. The balance sheet carries $358.7M of net cash. Return on invested capital was 2.8%. That is 13.6 points below the peer median of 16.4%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$1.2B on a trailing-twelve-month basis, with the latest quarter at $293.3M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 4.2%; free-cash-flow margin 11.2%; net margin 7.5%."
+        "title": "Margin engine",
+        "detail": "Gross margin 45.8%, operating margin 4.2%. Fuel, operations and capital are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $2.8B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.4% of revenue; $358.7M of net cash; ROIC 2.8%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $1.2B of revenue, $554.6M remained after cost of sales. The 41.6% operating-expense load brought that down to a 4.2% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "The balance sheet carries $358.7M of net cash. Return on invested capital was 2.8% and return on equity was 7.3%. That leaves little room above the cost of capital."
+      "Regulated rate base and allowed returns drive revenue; fuel and capital costs drive the margin. The edge is microinverter installed base.",
+      "The operating margin is 4.2%, 14.8 points below the peer median of 19.0%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 24.6% a year across the fiscal years in the dataset, and the latest quarter changed -28.5% year over year. Current-year estimates call for $1.1B of revenue and $1.66 of EPS.",
-      "The operating margin of 4.2% and return on invested capital of 2.8% are the filters to watch as revenue scales. With revenue down 19.9%, the operating plan is as much about cost as about demand."
+      "Revenue compounded at 24.6% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) fell 28.5% year over year. The current-year consensus looks for $1.1B of revenue and $1.66 of EPS.",
+      "The next leg depends on storage and international. The top line is shrinking, so the margin has to be defended on a smaller base. Growth is only valuable if the new revenue earns a similar return to the existing business."
     ],
     "bullets": [
       {
         "title": "Rate base growth",
-        "detail": "Revenue growth is -19.9%. The next data point will show whether the trend is intact."
+        "detail": "Approved capital investment earns a regulated return over time. Revenue growth is -19.9%."
       },
       {
         "title": "Load growth",
@@ -67,42 +67,42 @@ export const ENPH: StockStory = {
       },
       {
         "title": "Cost recovery",
-        "detail": "Return on invested capital is 2.8%. Rate cases determine whether higher costs are passed through."
+        "detail": "Rate cases determine whether higher costs are passed through. Return on invested capital is 2.8%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 0.5% in FY2018 to 10.7% in FY2025. The trailing operating margin is 4.2%, the net margin is 7.5% and diluted EPS is $0.66.",
-      "Return on equity was 7.3% and return on invested capital was 2.8%. Return on invested capital of 2.8% is close to the 7.3% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from 0.5% in FY2018 to 10.7% in FY2025. The trailing operating margin is 4.2%, the net margin is 7.5%, and diluted EPS is $0.66, down 54.5% year over year.",
+      "Return on equity of 7.3% and return on invested capital of 2.8% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $135.4M, an 11.2% margin. The balance sheet carries $358.7M of net cash. Capital expenditure was 3.4% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $136.5M, or 79.3% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $40.6M in the latest fiscal year."
+      "Free cash flow was $135.4M, or 11.2% of revenue. Operating cash flow covered 79.3% of net income; working capital is absorbing part of the reported profit. Capex absorbed 3.4% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $358.7M of net cash. Interest cover is 24.0x. Management can fund the next phase without needing the capital markets. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 30.4x trailing earnings, 18.1x EV/EBITDA and 2.0x EV/sales. The free-cash-flow yield is 4.9%. The 3.3% earnings yield and 4.9% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against ARRY, FSLR and NXT; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $20.85, the shares trade at 30.4x trailing earnings and 18.1x EV/EBITDA, with a 4.9% free-cash-flow yield. The earnings yield is 3.3%. The earnings multiple is 140.0% above the 12.7x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "25 analysts contribute to the third-party consensus. The mean target is $39.26, with a range of $16.00 to $212.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $1.1B of revenue and $1.66 of EPS. The estimate revisions in the dataset are -16.2% over 30 days and -17.9% over 90 days. The estimate is consistent with a decline of 8.6% on the trailing revenue figure."
+      "25 analysts in the third-party consensus carry a mean target of $39.26, 88.3% above the latest close. The range runs from $16.00 to $212.00. Analysts disagree on the outcome; the mean is a weak summary of a wide range. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $1.1B of revenue and $1.66 of EPS. EPS estimates are down 16.2% over 30 days and down 17.9% over 90 days. That implies an 8.6% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is storage and international versus residential solar demand.",
     "items": [
       {
-        "title": "Revenue decline",
+        "title": "Residential solar demand",
         "severity": "High",
-        "detail": "Trailing revenue fell 19.9%, so the margin has to be defended on a shrinking base.",
-        "watch": "Organic growth, retention and pricing."
+        "detail": "The main risk is residential solar demand.",
+        "watch": "Rate-case filings and commission decisions."
       },
       {
         "title": "Interest rates",
@@ -146,9 +146,9 @@ export const ENPH: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Enphase Energy, Inc. produced $1.2B of trailing revenue at a 4.2% operating margin and an 11.2% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "25 analysts in the third-party survey average $39.26 as of 2026-11-25, 88.3% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put balance sheet at 88/100 and growth at 9/100, with the composite averaging 40/100. A 88/100 balance sheet score against a 9/100 growth score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on balance sheet and the durability of 4.2% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 3.0%, not a single quarter. The key exposure is residential solar demand.",
+      "The scorecard averages 40/100, but the dispersion matters more: balance sheet is 88/100 and growth is 9/100."
     ],
     "questions": [
       "How much of the capex plan is already approved?",

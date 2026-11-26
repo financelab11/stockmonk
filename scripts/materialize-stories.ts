@@ -19,7 +19,7 @@ import {
   latestQuarterYoY,
   rangePosition,
 } from "../lib/analytics";
-import { generateStockStoryV2 } from "../lib/generated-story-v2";
+import { generateAnalystStory } from "../lib/analyst-story";
 
 const STOCKS = path.join(process.cwd(), "content", "stocks");
 const PROCESSED = path.join(process.cwd(), "data", "processed");
@@ -56,7 +56,7 @@ function main() {
     const segments = segmentMixSchema.safeParse(
       readJson(path.join(process.cwd(), "data", "segments", `${ticker}.json`)),
     );
-    const story = generateStockStoryV2({
+    const story = generateAnalystStory({
       data,
       consensus: consensus.success ? consensus.data : null,
       segments: segments.success ? segments.data : null,
@@ -69,6 +69,21 @@ function main() {
             company.ticker !== ticker && company.industry === data.industry,
         )
         .map((company) => company.ticker),
+      peerStats: companies
+        .filter(
+          (company) =>
+            company.ticker !== ticker && company.industry === data.industry,
+        )
+        .slice(0, 6)
+        .map((company) => ({
+          ticker: company.ticker,
+          revenueGrowth: company.metrics.revenueGrowthTtm ?? null,
+          operatingMargin: company.metrics.operatingMargin ?? null,
+          roic: company.metrics.roic ?? null,
+          pe: company.metrics.pe ?? null,
+          evEbitda: company.metrics.evEbitda ?? null,
+          fcfMargin: company.metrics.fcfMargin ?? null,
+        })),
       cagr: computeCagr(data.annual),
       latestQYoY: latestQuarterYoY(data),
       rangePosition: rangePosition(

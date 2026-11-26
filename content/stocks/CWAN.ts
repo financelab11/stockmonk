@@ -3,7 +3,7 @@ import type { StockStory } from "./types";
 export const CWAN: StockStory = {
   "ticker": "CWAN",
   "kicker": "Payments & Financial Software · Payments",
-  "title": "Clearwater Analytics: the final financial record behind the Permira and Warburg Pincus deal",
+  "title": "Clearwater Analytics: the final record behind the Permira and Warburg Pincus deal",
   "dek": "Clearwater Analytics last traded on Jun 25, 2026 after the Permira and Warburg Pincus transaction. The report keeps the final SEC record, the deal terms and the factors that explained the business while it was public.",
   "readingMinutes": 10,
   "takeaways": [
@@ -18,90 +18,90 @@ export const CWAN: StockStory = {
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001866368&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Clearwater Analytics last traded at $24.55 on Jun 25, 2026, when the Permira and Warburg Pincus transaction closed. The final consideration was $24.55 per share in cash. The company no longer files current reports, so the figures below are the final SEC statements rather than a live snapshot. Clearwater Analytics generated $825.7M of revenue over the last twelve months, +73.5% versus the prior year. The final reported operating margin was -0.7% and free-cash-flow margin was 18.5%.",
-      "A reportable segment split is not available in the current dataset; the consolidated revenue line is the cleanest unit of analysis. Revenue is disclosed across 2 geographies, with United States the largest at 74.6%.",
-      "The archived valuation has no meaningful trailing earnings multiple and 75.1x EV/EBITDA, based on the final consideration and the last reported statements. It is a historical reference, not a live multiple. The article is retained because the company remains part of the 500-name coverage library."
+      "Clearwater Analytics last traded at $24.55 on Jun 25, 2026, when the Permira and Warburg Pincus transaction closed. The final consideration was $24.55 per share in cash. The figures below are the last reported record, not a live quote.",
+      "The final reported mix was a single consolidated revenue line, with the US the largest geography at 74.6%. The business no longer sets its own capital allocation or pricing; it sits inside Permira and Warburg Pincus.",
+      "The archived valuation is n/a trailing earnings and 75.1x EV/EBITDA, based on the final consideration and the last statements. It is a historical reference, not a current multiple."
     ],
-    "quote": "Clearwater Analytics is no longer a live market, so the useful question is what its final financial record says about the Payments & Financial Software business that the acquirer bought."
+    "quote": "Clearwater Analytics is no longer a live market; the useful question is what its final record says about the business Permira and Warburg Pincus bought."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Clearwater Analytics was taken private by Permira and Warburg Pincus. The final consideration was $24.55 per share in cash. The shares last traded on Jun 25, 2026; the statements below are the final SEC filings and the article is retained as archived coverage.",
-      "The company reports one consolidated revenue line rather than a segment split. Employee numbers are not part of the extract used here. The revenue base is $825.7M on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "Against ADP, BR and FDS, the relevant tests are pricing power, capital intensity and cash conversion."
+      "Clearwater Analytics was a Payments business. Clearwater is an archived investment-accounting platform, and the useful question is what its recurring data franchise was worth to Permira and Warburg Pincus.",
+      "At the last report, the operating margin was -0.7% and the free-cash-flow margin was 18.5%. The record is closed; there is no current guidance.",
+      "The final balance sheet carried $732.9M of net debt, and the equity no longer trades independently."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$825.7M on a trailing-twelve-month basis, with the latest quarter at $221.2M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -0.7%; free-cash-flow margin 18.5%; net margin -6.0%."
+        "title": "Margin engine",
+        "detail": "Gross margin 66.0%, operating margin -0.7%. Processing, credit and funding costs are the bridge between the two."
       },
       {
-        "title": "Final status",
-        "detail": "Last traded Jun 25, 2026 after the Permira and Warburg Pincus transaction."
+        "title": "Capital intensity",
+        "detail": "Capex 1.4% of revenue; $732.9M of net debt; ROIC -0.2%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 66.0%, operating margin is -0.7% and net margin is -6.0%. Gross profit was $544.8M, and 66.7% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "Net debt is $732.9M, or 6.9x EBITDA. Return on invested capital was -0.2% and return on equity was -2.4%. With returns below zero, growth only creates value if the model reaches profitability at scale."
+      "Payment volume and take rate drive revenue; credit losses and funding costs drive the margin. Consumer and commercial spending drives transaction revenue.",
+      "The operating margin is -0.7%, 10.2 points above the peer median of -10.9%. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 27.8% a year across the fiscal years in the dataset, and the latest quarter changed +74.4% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of -0.7% and return on invested capital of -0.2% are the filters to watch as revenue scales. The final year in the dataset is FY2025; there is no current guidance because the company no longer trades."
+      "Revenue compounded at 27.8% a year across the reported fiscal years. The final year is FY2025 and there is no current guidance. The pace of growth matters less than whether it carries the same margin as the base.",
+      "The archive is a record of what the business earned before the deal, not a forecast. The final operating margin was -0.7%. The next filing should show whether the pace came from demand, pricing or acquisitions."
     ],
     "bullets": [
       {
         "title": "Payment volume",
-        "detail": "Revenue growth is +73.5%. Consumer and commercial spending drives transaction revenue."
+        "detail": "Consumer and commercial spending drives transaction revenue. Revenue growth is 73.5%."
       },
       {
         "title": "Take rate and mix",
-        "detail": "Pricing per transaction and the mix of value-added services determine revenue per dollar processed. The current reading: the operating margin is -0.7%."
+        "detail": "Pricing per transaction and the mix of value-added services determine revenue per dollar processed. The operating margin is -0.7%."
       },
       {
         "title": "Credit and funding",
-        "detail": "Return on invested capital is -0.2%. The next data point will show whether the trend is intact."
+        "detail": "Stable credit and cheaper funding expand the spread on lending products. Return on invested capital is -0.2%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 15.3% in FY2019 to -1.1% in FY2025. The trailing operating margin is -0.7%, the net margin is -6.0% and diluted EPS is -$0.18.",
-      "Return on equity was -2.4% and return on invested capital was -0.2%. Negative equity and invested-capital returns mean the loss is operational, not financial engineering. A peer median is a useful anchor, but the company's own trajectory is the better test."
+      "The final operating margin was -0.7%, the net margin was -6.0%, and diluted EPS was -$0.18. The record will not update. Comparisons with peers are useful, but the company's own history is the better test.",
+      "The archived returns are a historical description of the business at the time of the transaction. They are not a current measure of capital allocation."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $152.5M, an 18.5% margin. Net debt is $732.9M, or 6.9x EBITDA. With capital spending at 1.4% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "The final reported balance sheet is the one shown here; it will not update. The company generated positive free cash flow on a trailing basis, and capital expenditure was $11.6M in the latest fiscal year."
+      "The final reported free cash flow was $152.5M, an 18.5% margin. The balance sheet is the last reported one and will not update. Operating cash flow and the balance sheet are the better tests at this stage.",
+      "The final consideration was $24.55 per share in cash; there is no current price, target or capital-return policy to assess. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, 75.1x EV/EBITDA and 9.7x EV/sales. The free-cash-flow yield is 2.1%. Earnings are not a useful anchor here, so the free-cash-flow yield is the cleaner valuation reference.",
-      "The final consideration was $24.55 per share in cash. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades."
+      "The final consideration was $24.55 per share in cash. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades.",
+      "The final consideration is the only relevant reference. There is no live multiple to compare with the peer group. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A current analyst consensus is not available because Clearwater Analytics no longer trades. The final transaction value is the relevant reference, and the archived estimates are shown only where the dataset retains them.",
-      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $825.7M and the last reported operating margin was -0.7%."
+      "There is no current analyst consensus because Clearwater Analytics no longer trades. The final transaction value is the reference, and the archived estimates are shown only where they were retained.",
+      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $825.7M and the last operating margin was -0.7%."
     ]
   },
   "risks": {
-    "intro": "The risks below are the historical risks that mattered before the Permira and Warburg Pincus transaction, plus the limitation that the record is now closed. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the historical risks that mattered before the Permira and Warburg Pincus transaction, plus the limitation that the record is closed.",
     "items": [
       {
         "title": "Archived coverage",
         "severity": "High",
-        "detail": "Clearwater Analytics no longer trades. The final consideration was $24.55 per share in cash, and the financial statements will not be updated with new quarters.",
+        "detail": "Clearwater Analytics no longer trades. The final consideration was $24.55 per share in cash, and the statements will not be updated with new quarters.",
         "watch": "Treat every figure as the final reported record, not as a current market snapshot."
       },
       {
@@ -146,15 +146,14 @@ export const CWAN: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Clearwater Analytics is an archived Payments & Financial Software company with $825.7M of final trailing revenue, a -0.7% operating margin and an 18.5% free-cash-flow margin. The Permira and Warburg Pincus transaction valued the equity at $24.55 per share in cash.",
-      "There is no current price, target or rating to update. The archived factor percentiles are a historical description of the business at the point of the transaction. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put cash generation at 62/100 and balance sheet at 3/100, with the composite averaging 37/100. The average hides a strong cash generation reading and a weak balance sheet one, which is why the spread is the more useful description."
+      "Clearwater Analytics is an archived Payments company with $825.7M of final revenue, a -0.7% operating margin and an 18.5% free-cash-flow margin. The Permira and Warburg Pincus transaction valued the equity at $24.55 per share in cash.",
+      "There is no current price, target or rating to update. The archived factor scores are a historical description of the business at the point of the transaction.",
+      "The scorecard puts the composite at 37/100. Focus on the cash generation-to-balance sheet spread rather than the average."
     ],
     "questions": [
-      "How much revenue is credit-sensitive?",
-      "What happens to losses in a recession?",
-      "Is the take rate holding as volume grows?",
-      "How much growth is bought with incentives?"
+      "What did the final financial record show?",
+      "What did the acquirer pay for?",
+      "Which figures will never update?"
     ]
   }
 };

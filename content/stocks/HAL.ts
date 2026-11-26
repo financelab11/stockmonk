@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const HAL: StockStory = {
   "ticker": "HAL",
   "kicker": "Energy · Oil & Gas Equipment & Services",
-  "title": "Halliburton Company: Oilfield services and equipment",
-  "dek": "Halliburton Company reported $22.5B of trailing revenue at a 12.6% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Halliburton: Oilfield services and equipment",
+  "dek": "Halliburton's revenue was flat at $22.5B, at a 12.6% operating margin. The key risk is drilling activity and capex.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $22.5B trailing twelve months, +1.5% year over year.",
+    "Revenue: $22.5B, +1.5% year over year.",
     "Profitability: 12.6% operating margin and 8.9% net margin.",
     "Cash: $1.6B free cash flow, a 7.1% margin, against $5.2B of net debt.",
-    "Valuation: 13.0x trailing earnings and 7.8x EV/EBITDA at the latest close."
+    "Valuation: 13.0x trailing earnings and 7.8x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const HAL: StockStory = {
   "irUrl": "https://www.halliburton.com",
   "bigPicture": {
     "paragraphs": [
-      "Halliburton Company generated $22.5B of revenue over the last twelve months, +1.5% versus the prior year. The latest reported quarter was Q3 FY26, with $5.7B of revenue and a 10.9% operating margin. The shares closed at $31.53 on Nov 25, 2026, giving a market capitalization of $26.1B.",
-      "Completion & Production accounts for 57.6% of disclosed revenue. Revenue is disclosed across 4 geographies, with North America the largest at 40.9%. Halliburton Company competes in Oil & Gas Equipment & Services, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $26.1B, or 13.0x trailing earnings and 7.8x EV/EBITDA. The shares sit 33% of the way up their 52-week range ($25.59 to $43.59). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "Halliburton's revenue was flat at $22.5B at a 12.6% operating margin, generating $1.6B of free cash flow. The latest quarter (Q3 FY26) grew 1.8%. The margin and the multiple are the two numbers that matter from here.",
+      "Completion & Production is 57.6% of revenue and Drilling & Evaluation is 42.4%. North America is the largest geography at 40.9% of revenue. What could lift the return is international growth and completion intensity. The thing to watch is drilling activity and capex.",
+      "At $31.53, the equity is worth $26.1B, or 13.0x trailing earnings and 7.8x EV/EBITDA. The earnings multiple is 18.2% below the 15.9x peer median. The stock is 33% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Halliburton sells oilfield services and equipment, so drilling activity, completion intensity and international capex drive the cycle."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Halliburton Company provides products and services to the energy industry worldwide. It operates in two segments, Completion and Production, and Drilling and Evaluation. The business is part of the Energy group and reports under Energy in the current classification.",
-      "The disclosed mix runs across Completion & Production at 57.6% and Drilling & Evaluation at 42.4%. Headcount was 46,000 in the latest filing. The revenue base is $22.5B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "Against BKR, CTRA and DVN, the relevant tests are pricing power, capital intensity and cash conversion."
+      "Halliburton Company provides products and services to the energy industry worldwide.",
+      "Halliburton does not report a product gross margin; lifting costs, royalties and maintenance sit inside the operating line, leaving a 12.6% operating margin. That is 1.4 points above the peer median of 11.2%.",
+      "Capex is 5.6% of revenue, so the business is asset-light. Net debt is $5.2B, or 1.3x EBITDA. Return on invested capital was 13.1%. That is 5.6 points above the peer median of 7.5%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$22.5B on a trailing-twelve-month basis, with the latest quarter at $5.7B."
+        "title": "Revenue mix",
+        "detail": "Completion & Production at 57.6% and Drilling & Evaluation at 42.4%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 12.6%; free-cash-flow margin 7.1%; net margin 8.9%."
+        "title": "Margin engine",
+        "detail": "Operating margin 12.6%. Lifting costs, royalties and maintenance are the main cost line, so the operating margin is the scorecard for cost discipline."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $26.1B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 5.6% of revenue; $5.2B of net debt; ROIC 13.1%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 12.6% is the first clean profitability line. Cash flow is a function of commodity prices, production volumes and capital discipline.",
-      "Net debt is $5.2B, or 1.3x EBITDA. Return on invested capital was 13.1% and return on equity was 18.1%. That is neither clearly good nor clearly bad without knowing the cost of capital."
+      "Commodity prices, production volumes and differentials drive revenue and cash flow. The edge is oilfield-service technology and international footprint.",
+      "The operating margin is 12.6%, 1.4 points above the peer median of 11.2%. What matters is whether new revenue carries the same margin as the base."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -1.1% a year across the fiscal years in the dataset, and the latest quarter changed +1.8% year over year. Current-year estimates call for $22.5B of revenue and $2.33 of EPS.",
-      "The operating margin of 12.6% and return on invested capital of 13.1% are the filters to watch as revenue scales. Growth of 1.5% against a 12.6% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at -1.1% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 1.8% year over year. The current-year consensus looks for $22.5B of revenue and $2.33 of EPS.",
+      "The next leg depends on international growth and completion intensity. For Halliburton, production growth is only worth paying for if the reinvestment return clears the cost of capital."
     ],
     "bullets": [
       {
         "title": "Commodity prices",
-        "detail": "Revenue growth is +1.5%. Oil, gas and power prices flow quickly into revenue and cash flow."
+        "detail": "Oil, gas and power prices flow quickly into revenue and cash flow. Revenue growth is 1.5%."
       },
       {
         "title": "Production growth",
-        "detail": "Volumes from existing and new projects determine the revenue base. The current reading: the operating margin is 12.6%."
+        "detail": "Volumes from existing and new projects determine the revenue base. The operating margin is 12.6%."
       },
       {
         "title": "Capital discipline",
-        "detail": "Return on invested capital is 13.1%. The trend in that figure matters more than its level."
+        "detail": "Lower reinvestment can lift free cash flow and returns. Return on invested capital is 13.1%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 10.3% in FY2018 to 10.2% in FY2025. The trailing operating margin is 12.6%, the net margin is 8.9% and diluted EPS is $1.69.",
-      "Return on equity was 18.1% and return on invested capital was 13.1%. The two returns are within a few points, at 18.1% on equity and 13.1% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 10.3% in FY2018 to 10.2% in FY2025. The trailing operating margin is 12.6%, the net margin is 8.9%, and diluted EPS is $1.69, up 108.6% year over year.",
+      "Return on equity of 18.1% and return on invested capital of 13.1% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.6B, a 7.1% margin. Net debt is $5.2B, or 1.3x EBITDA. With capital spending at 5.6% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $2.9B, or 228.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.3B in the latest fiscal year."
+      "Free cash flow was $1.6B, or 7.1% of revenue. Operating cash flow covered 228.1% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 5.6% of revenue, which is low relative to the revenue base.",
+      "Net debt is $5.2B, or 1.3x EBITDA. Leverage is only a problem if the cash flow cannot service it through a downturn. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 13.0x trailing earnings, 7.8x EV/EBITDA and 1.4x EV/sales. The free-cash-flow yield is 6.1%. The trailing earnings yield is 7.7%, against a free-cash-flow yield of 6.1%.",
-      "The peer comparison sets the company against BKR, CTRA and DVN; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $31.53, the shares trade at 13.0x trailing earnings and 7.8x EV/EBITDA, with a 6.1% free-cash-flow yield. The earnings yield is 7.7%. The earnings multiple is 18.2% below the 15.9x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "25 analysts contribute to the third-party consensus. The mean target is $43.56, with a range of $29.00 to $51.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $22.5B of revenue and $2.33 of EPS. The estimate revisions in the dataset are -0.5% over 30 days and -0.7% over 90 days. Set against trailing revenue, the estimate implies growth of 0.3%."
+      "25 analysts in the third-party consensus carry a mean target of $43.56, 38.2% above the latest close. The range runs from $29.00 to $51.00. The wide range shows how divided the published views are. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $22.5B of revenue and $2.33 of EPS. EPS estimates are down 0.5% over 30 days and down 0.7% over 90 days. That implies 0.3% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is international growth and completion intensity versus drilling activity and capex.",
     "items": [
       {
-        "title": "Commodity prices",
+        "title": "Drilling activity and capex",
         "severity": "High",
-        "detail": "A price decline can cut revenue and cash flow sharply.",
+        "detail": "The main risk is drilling activity and capex.",
         "watch": "Realised prices and hedging."
       },
       {
@@ -146,9 +146,9 @@ export const HAL: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Halliburton Company produced $22.5B of trailing revenue at a 12.6% operating margin and a 7.1% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Analysts contributing to the third-party consensus carry a $43.56 mean target as of 2026-11-25, 38.2% above the latest close; that is the analysts' view, attributed and dated, not a Stockmonk target.",
-      "The factor percentiles put valuation at 88/100 and cash generation at 28/100, with the composite averaging 51/100. The average hides a strong valuation reading and a weak cash generation one, which is why the spread is the more useful description."
+      "The investment case rests on valuation and the durability of 12.6% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above 10.1%, not a single quarter. The key exposure is drilling activity and capex.",
+      "The scorecard puts the composite at 51/100. Focus on the valuation-to-cash generation spread rather than the average."
     ],
     "questions": [
       "What price is needed to cover capex and the dividend?",

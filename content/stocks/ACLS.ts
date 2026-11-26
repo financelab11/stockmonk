@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const ACLS: StockStory = {
   "ticker": "ACLS",
   "kicker": "Semiconductors & Hardware · Semiconductor Equipment & Materials",
-  "title": "Axcelis Technologies, Inc.: +4.3% growth, 6.7% free cash flow and the price being paid",
-  "dek": "Axcelis Technologies, Inc. reported $890.2M of trailing revenue at a 10.3% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Axcelis Technologies: growth of 4.3% and a 28.1x earnings multiple",
+  "dek": "Axcelis Technologies' revenue rose 4.3% to $890.2M, at a 10.3% operating margin. The key risk is memory capex.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $890.2M trailing twelve months, +4.3% year over year.",
+    "Revenue: $890.2M, +4.3% year over year.",
     "Profitability: 10.3% operating margin and 11.7% net margin.",
     "Cash: $59.9M free cash flow, a 6.7% margin, against $615.3M of net cash.",
-    "Valuation: 28.1x trailing earnings and 21.2x EV/EBITDA at the latest close."
+    "Valuation: 28.1x trailing earnings and 21.2x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const ACLS: StockStory = {
   "irUrl": "https://www.axcelis.com",
   "bigPicture": {
     "paragraphs": [
-      "Axcelis Technologies, Inc. generated $890.2M of revenue over the last twelve months, +4.3% versus the prior year. The latest reported quarter was Q3 FY26, with $237.8M of revenue and an 11.5% operating margin. The shares closed at $95.04 on Nov 25, 2026, giving a market capitalization of $2.9B.",
-      "Single Reportable contributes 100.0% of the disclosed revenue mix. By geography, Asia Pacific is the largest disclosed market at 72.7% of revenue. The moat is process know-how in ion implantation and a installed base that generates service revenue through the cycle.",
-      "At the latest close the equity is valued at $2.9B, or 28.1x trailing earnings and 21.2x EV/EBITDA. The shares sit 17% of the way up their 52-week range ($75.31 to $193.78). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Axcelis Technologies' revenue rose 4.3% to $890.2M at a 10.3% operating margin, generating $59.9M of free cash flow. The latest quarter (Q3 FY26) grew 11.3%.",
+      "Single Reportable is the whole revenue base. Asia Pacific is the largest geography at 72.7% of revenue. The upside is orders for silicon-carbide and power devices, which are less tied to the memory cycle. What would break it is memory capex.",
+      "At $95.04, the equity is worth $2.9B, or 28.1x trailing earnings and 21.2x EV/EBITDA. The earnings multiple is 12.0% below the 31.9x peer median. The stock is 17% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
-    "quote": "Axcelis is a focused ion-implant supplier whose fortunes follow memory and power-semiconductor capital spending. The shares are priced as a cyclical equipment maker; the debate is where the next capex upcycle starts."
+    "quote": "Axcelis is a focused ion-implant supplier whose fortunes follow memory and power-semiconductor capital spending."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Axcelis Technologies, Inc. designs, manufactures, and services ion implantation and other processing equipment used in the fabrication of semiconductor chips in the United States, Europe, and the Asia Pacific. It reports in the Technology sector and is classified in Semiconductors & Hardware coverage.",
-      "Revenue is reported at the consolidated level only. Its latest filing lists 1,465 employees. The revenue base is $890.2M on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "AMAT, LRCX and KLAC provide the closest reference points for margin, growth and valuation."
+      "Axcelis Technologies, Inc. designs, manufactures, and services ion implantation and other processing equipment used in the fabrication of semiconductor chips in the United States, Europe, and the Asia Pacific.",
+      "Axcelis Technologies earned a 42.8% gross margin, and materials, manufacturing and design absorbed 32.5% of revenue, leaving a 10.3% operating margin. That is 17.4 points below the peer median of 27.7%.",
+      "Capex is 1.3% of revenue, so the business is asset-light. The balance sheet carries $615.3M of net cash. Return on invested capital was 7.7%. That is 10.7 points below the peer median of 18.4%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$890.2M on a trailing-twelve-month basis, with the latest quarter at $237.8M."
+        "title": "Revenue mix",
+        "detail": "Single Reportable is the consolidated business at 100.0% of revenue."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 10.3%; free-cash-flow margin 6.7%; net margin 11.7%."
+        "title": "Margin engine",
+        "detail": "Gross margin 42.8%, operating margin 10.3%. Materials, manufacturing and design are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $2.9B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 1.3% of revenue; $615.3M of net cash; ROIC 7.7%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 42.8%, operating margin is 10.3% and net margin is 11.7%. Gross profit was $381.1M, and 32.5% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "The balance sheet carries $615.3M of net cash. Return on invested capital was 7.7% and return on equity was 9.4%. The return suggests the current capital base is earning a modest amount."
+      "Unit volumes, content per device and utilization drive revenue and margin. The moat is process know-how in ion implantation and a installed base that generates service revenue through the cycle.",
+      "The operating margin is 10.3%, 17.4 points below the peer median of 27.7%. Utilization and mix decide whether volume growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 9.6% a year across the fiscal years in the dataset, and the latest quarter changed +11.3% year over year. Current-year estimates call for $927M of revenue and $4.54 of EPS.",
-      "The next catalyst is orders for silicon-carbide and power devices, which are less tied to the memory cycle. The operating margin of 10.3% and return on invested capital of 7.7% are the filters to watch as revenue scales. Growth of 4.3% against a 10.3% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 9.6% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 11.3% year over year. The current-year consensus looks for $927M of revenue and $4.54 of EPS.",
+      "The next leg depends on orders for silicon-carbide and power devices, which are less tied to the memory cycle. For Axcelis Technologies, volume growth is only worth paying for if utilization and mix hold."
     ],
     "bullets": [
       {
         "title": "Inventory cycle",
-        "detail": "Revenue growth is +4.3%. Compare that with the prior year before drawing a conclusion."
+        "detail": "Inventory restocking and digestion drive near-term orders. Revenue growth is 4.3%."
       },
       {
         "title": "Node and packaging transitions",
@@ -67,39 +67,39 @@ export const ACLS: StockStory = {
       },
       {
         "title": "Customer design wins",
-        "detail": "Return on invested capital is 7.7%. Design wins lock in revenue for multiple product generations."
+        "detail": "Design wins lock in revenue for multiple product generations. Return on invested capital is 7.7%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 13.5% in FY2018 to 14.2% in FY2025. The trailing operating margin is 10.3%, the net margin is 11.7% and diluted EPS is $3.36.",
-      "Return on equity was 9.4% and return on invested capital was 7.7%. The two returns are within a few points, at 9.4% on equity and 7.7% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 13.5% in FY2018 to 14.2% in FY2025. The trailing operating margin is 10.3%, the net margin is 11.7%, and diluted EPS is $3.36, down 20.6% year over year.",
+      "Return on equity of 9.4% and return on invested capital of 7.7% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $59.9M, a 6.7% margin. The balance sheet carries $615.3M of net cash. With capital spending at 1.3% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $118.3M, or 98.4% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $11.3M in the latest fiscal year."
+      "Free cash flow was $59.9M, or 6.7% of revenue. Operating cash flow covered 98.4% of net income; reported profit is converting into cash cleanly. Capex absorbed 1.3% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $615.3M of net cash. Interest cover is 15.7x. Management can fund the next phase without needing the capital markets. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 28.1x trailing earnings, 21.2x EV/EBITDA and 2.6x EV/sales. The free-cash-flow yield is 2.0%. The trailing earnings yield is 3.6%, against a free-cash-flow yield of 2.0%.",
-      "The shares are priced as a cyclical equipment maker; the debate is where the next capex upcycle starts. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $95.04, the shares trade at 28.1x trailing earnings and 21.2x EV/EBITDA, with a 2.0% free-cash-flow yield. The earnings yield is 3.6%. The earnings multiple is 12.0% below the 31.9x peer median.",
+      "The shares are priced as a cyclical equipment maker; the debate is where the next capex upcycle starts. The multiple is below the peer median, so some of the risk is already in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "3 analysts contribute to the third-party consensus. The mean target is $132.00, with a range of $116.00 to $140.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $927M of revenue and $4.54 of EPS. The estimate revisions in the dataset are 10.7% over 30 days and 10.7% over 90 days. The estimate is consistent with growth of 4.1% on the trailing revenue figure."
+      "3 analysts in the third-party consensus carry a mean target of $132.00, 38.9% above the latest close. The range runs from $116.00 to $140.00. The clustered targets suggest the market is close to the analysts' central case. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $927M of revenue and $4.54 of EPS. EPS estimates are up 10.7% over 30 days and up 10.7% over 90 days. That implies 4.1% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
+    "intro": "The central tension is orders for silicon-carbide and power devices, which are less tied to the memory cycle versus memory capex.",
     "items": [
       {
-        "title": "The main risk",
+        "title": "Memory capex",
         "severity": "High",
         "detail": "Memory capex is cyclical and China exposure adds geopolitical and customer-concentration risk.",
         "watch": "Inventory days and utilisation."
@@ -146,9 +146,9 @@ export const ACLS: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Axcelis Technologies, Inc. produced $890.2M of trailing revenue at a 10.3% operating margin and a 6.7% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Analysts contributing to the third-party consensus carry a $132.00 mean target as of 2026-11-25, 38.9% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target.",
-      "The factor percentiles put balance sheet at 94/100 and growth at 20/100, with the composite averaging 44/100. The average hides a strong balance sheet reading and a weak growth one, which is why the spread is the more useful description."
+      "The investment case rests on balance sheet and the durability of 10.3% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 7.3%, not a single quarter. The key exposure is memory capex.",
+      "The scorecard averages 44/100, but the dispersion matters more: balance sheet is 94/100 and growth is 20/100."
     ],
     "questions": [
       "Where are we in the inventory cycle?",

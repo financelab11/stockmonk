@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const ETON: StockStory = {
   "ticker": "ETON",
   "kicker": "Pharma & Biotech · Drug Manufacturers - Specialty & Generic",
-  "title": "Eton Pharmaceuticals, Inc. earns an operating margin of 28.8% on $141.1M of revenue",
-  "dek": "Eton Pharmaceuticals, Inc. reported $141.1M of trailing revenue at a 28.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Eton Pharmaceuticals: 28.8% margins and the price being paid",
+  "dek": "Eton Pharmaceuticals' revenue rose 100.6% to $141.1M, at a 28.8% operating margin. The key risk is launch execution and competition.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $141.1M trailing twelve months, +100.6% year over year.",
+    "Revenue: $141.1M, +100.6% year over year.",
     "Profitability: 28.8% operating margin and 35.3% net margin.",
     "Cash: $38.2M free cash flow, a 27.1% margin, against $32.6M of net cash.",
-    "Valuation: 37.3x trailing earnings and 40.0x EV/EBITDA at the latest close."
+    "Valuation: 37.3x trailing earnings and 40.0x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const ETON: StockStory = {
   "irUrl": "https://www.etonpharma.com",
   "bigPicture": {
     "paragraphs": [
-      "Eton Pharmaceuticals, Inc. generated $141.1M of revenue over the last twelve months, +100.6% versus the prior year. The latest reported quarter was Q3 FY26, with $57.9M of revenue and a 39.7% operating margin. The shares closed at $64.43 on Nov 25, 2026, giving a market capitalization of $1.9B.",
-      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. The extract carries a consolidated revenue line without a regional split.",
-      "At the latest close the equity is valued at $1.9B, or 37.3x trailing earnings and 40.0x EV/EBITDA. The shares sit 89% of the way up their 52-week range ($14.27 to $70.64). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Eton Pharmaceuticals' revenue rose 100.6% to $141.1M at a 28.8% operating margin, generating $38.2M of free cash flow. The latest quarter (Q3 FY26) grew 157.9%.",
+      "Revenue is reported as one consolidated line. The near-term driver is product launches and acquisitions. The risk is launch execution and competition. The absence of a segment split puts more weight on the group margin and cash conversion.",
+      "At $64.43, the equity is worth $1.9B, or 37.3x trailing earnings and 40.0x EV/EBITDA. The earnings multiple is 56.6% above the 23.8x peer median. The stock is 89% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Eton sells rare-disease pharmaceuticals, so product launches and acquisitions drive growth."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Eton Pharmaceuticals, Inc., a pharmaceutical company, focuses on developing and commercializing treatments for rare diseases. Eton Pharmaceuticals, Inc. is a Drug Manufacturers - Specialty & Generic company within the Pharma & Biotech coverage group.",
-      "There is no separate segment disclosure in the current extract. The company employed 44 people at the last reporting date. With $141.1M of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The peer set is ZTS, HIMS and KNSA; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Eton Pharmaceuticals, Inc., a pharmaceutical company, focuses on developing and commercializing treatments for rare diseases.",
+      "Eton Pharmaceuticals earned a 69.2% gross margin, and R&D, manufacturing and commercial spend absorbed 40.3% of revenue, leaving a 28.8% operating margin. That is 10.0 points above the peer median of 18.9%.",
+      "Capital spending runs at 0.2% of revenue, which is low relative to the revenue base. The balance sheet carries $32.6M of net cash. Return on invested capital was 37.0%. That is 21.5 points above the peer median of 15.5%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$141.1M on a trailing-twelve-month basis, with the latest quarter at $57.9M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 28.8%; free-cash-flow margin 27.1%; net margin 35.3%."
+        "title": "Margin engine",
+        "detail": "Gross margin 69.2%, operating margin 28.8%. R&D, manufacturing and commercial spend are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $1.9B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 0.2% of revenue; $32.6M of net cash; ROIC 37.0%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 69.2% of revenue after cost of sales, or $97.5M. Operating expenses absorbed 40.3% of revenue, leaving a 28.8% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "The balance sheet carries $32.6M of net cash. Return on invested capital was 37.0% and return on equity was 57.4%. That level earns well above a typical cost of capital."
+      "Revenue depends on a small number of programmes, patent life and payer coverage. The edge is rare-disease products.",
+      "The operating margin is 28.8%, 10.0 points above the peer median of 18.9%. The next dollar of revenue matters less than the margin it carries."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 109.0% a year across the fiscal years in the dataset, and the latest quarter changed +157.9% year over year. Current-year estimates point to 125.0% revenue growth, with EPS of 1.78 in the reporting currency.",
-      "The operating margin of 28.8% and return on invested capital of 37.0% are the filters to watch as revenue scales. Growth of 100.6% on a 28.8% operating margin is a high-quality combination if both hold."
+      "Revenue compounded at 109.0% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 157.9% year over year. The current-year consensus looks for 125.0% revenue growth, with EPS of 1.78 in the reporting currency.",
+      "The next leg depends on product launches and acquisitions. For Eton Pharmaceuticals, revenue growth is only worth paying for if the patent runway and launch curve support it."
     ],
     "bullets": [
       {
         "title": "Launch execution",
-        "detail": "New therapies need payer coverage, prescriber adoption and manufacturing scale. The current reading: revenue growth is +100.6%."
+        "detail": "New therapies need payer coverage, prescriber adoption and manufacturing scale. Revenue growth is 100.6%."
       },
       {
         "title": "Pipeline readouts",
-        "detail": "The operating margin is 28.8%. A change in that figure would be the first signal of a shift."
+        "detail": "Late-stage data can extend the growth runway or reset it. The operating margin is 28.8%."
       },
       {
         "title": "Patent duration",
@@ -73,35 +73,35 @@ export const ETON: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is 28.8%, the net margin is 35.3% and diluted EPS is $1.46.",
-      "Return on equity was 57.4% and return on invested capital was 37.0%. The equity return is flattered by a thinner capital base: 57.4% versus 37.0% on invested capital. Both should be read against the company's own history before they are compared with a peer median."
+      "The reported margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is 28.8%, the net margin is 35.3%, and diluted EPS is $1.46.",
+      "Return on equity of 57.4% is well above the 37.0% return on invested capital; leverage or acquisition goodwill explains most of the gap. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $38.2M, a 27.1% margin. The balance sheet carries $32.6M of net cash. Capex absorbed 0.2% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $333K in the latest fiscal year."
+      "Free cash flow was $38.2M, or 27.1% of revenue. Capex absorbed 0.2% of revenue, which is low relative to the revenue base. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "The balance sheet carries $32.6M of net cash. Interest cover is 18.9x. The net cash position is optionality: it can fund investment, acquisitions or returns."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 37.3x trailing earnings, 40.0x EV/EBITDA and 12.9x EV/sales. The free-cash-flow yield is 2.1%. Inverting the P/E gives an earnings yield of 2.7%; the cash-flow yield is 2.1%.",
-      "The peer comparison sets the company against ZTS, HIMS and KNSA; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $64.43, the shares trade at 37.3x trailing earnings and 40.0x EV/EBITDA, with a 2.1% free-cash-flow yield. The earnings yield is 2.7%. The earnings multiple is 56.6% above the 23.8x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "4 analysts contribute to the third-party consensus. The mean target is $80.75, with a range of $80.00 to $82.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates point to 125.0% revenue growth, with EPS of 1.78 in the reporting currency. The estimate revisions in the dataset are 26.8% over 30 days and 26.8% over 90 days."
+      "4 analysts in the third-party consensus carry a mean target of $80.75, 25.3% above the latest close. The range runs from $80.00 to $82.00. The range is tight, so the debate is about timing rather than direction. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for 125.0% revenue growth, with EPS of 1.78 in the reporting currency. EPS estimates are up 26.8% over 30 days and up 26.8% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is product launches and acquisitions versus launch execution and competition.",
     "items": [
       {
-        "title": "Clinical failure",
+        "title": "Launch execution and competition",
         "severity": "High",
-        "detail": "A negative trial can remove most of a programme's value.",
+        "detail": "The main risk is launch execution and competition.",
         "watch": "Trial endpoints and readout timing."
       },
       {
@@ -146,9 +146,9 @@ export const ETON: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Eton Pharmaceuticals, Inc. produced $141.1M of trailing revenue at a 28.8% operating margin and a 27.1% free-cash-flow margin. The free-cash-flow margin is the strongest part of that record; the rest of the report tests whether it can be sustained.",
-      "The published consensus mean is $80.75 (2026-11-25), 25.3% above the latest close; this report does not publish a target of its own. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put profitability at 88/100 and valuation at 20/100, with the composite averaging 62/100. The gap between profitability at 88/100 and valuation at 20/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on profitability and the durability of 28.8% margins. The weak link is valuation.",
+      "What would change the view is the multiple falling below 29.8x earnings, not a single quarter. The key exposure is launch execution and competition.",
+      "On the scorecard, the composite is 62/100. The spread between profitability and valuation is the useful part; the average hides it."
     ],
     "questions": [
       "When does the largest patent expire?",

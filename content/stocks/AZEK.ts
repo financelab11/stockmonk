@@ -3,7 +3,7 @@ import type { StockStory } from "./types";
 export const AZEK: StockStory = {
   "ticker": "AZEK",
   "kicker": "Industrial Automation · Industrials",
-  "title": "The AZEK Company: the final financial record behind the James Hardie deal",
+  "title": "The AZEK Company: the final record behind the James Hardie deal",
   "dek": "The AZEK Company last traded on Jul 1, 2025 after the James Hardie transaction. The report keeps the final SEC record, the deal terms and the factors that explained the business while it was public.",
   "readingMinutes": 10,
   "takeaways": [
@@ -18,48 +18,48 @@ export const AZEK: StockStory = {
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001782754&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "The AZEK Company last traded at $54.25 on Jul 1, 2025, when the James Hardie transaction closed. The final consideration was $26.45 in cash plus 1.0340 James Hardie shares per AZEK share. The company no longer files current reports, so the figures below are the final SEC statements rather than a live snapshot. The AZEK Company generated $1.5B of revenue over the last twelve months, +5.9% versus the prior year. The final reported operating margin was 15.4% and free-cash-flow margin was 13.7%.",
-      "Residential contributes 95.0% of the disclosed revenue mix. The dataset does not include a geographic revenue split for this company. The AZEK Company competes in Industrials, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "The archived valuation has 52.3x trailing earnings and 22.4x EV/EBITDA, based on the final consideration and the last reported statements. It is a historical reference, not a live multiple. The article is retained because the company remains part of the 500-name coverage library."
+      "The AZEK Company last traded at $54.25 on Jul 1, 2025, when the James Hardie transaction closed. The final consideration was $26.45 in cash plus 1.0340 James Hardie shares per AZEK share. The figures below are the last reported record, not a live quote.",
+      "The final reported mix was Residential at 95.0% and Commercial at 5.0%. The business no longer sets its own capital allocation or pricing; it sits inside James Hardie.",
+      "The archived valuation is 52.3x trailing earnings and 22.4x EV/EBITDA, based on the final consideration and the last statements. It is a historical reference, not a current multiple."
     ],
-    "quote": "The AZEK Company is no longer a live market, so the useful question is what its final financial record says about the Industrial Automation business that the acquirer bought."
+    "quote": "The AZEK Company is no longer a live market; the useful question is what its final record says about the business James Hardie bought."
   },
   "whatItDoes": {
     "paragraphs": [
-      "The AZEK Company was acquired by James Hardie. The final consideration was $26.45 in cash plus 1.0340 James Hardie shares per AZEK share. The shares last traded on Jul 1, 2025; the statements below are the final SEC filings and the article is retained as archived coverage.",
-      "The disclosed mix runs across Residential at 95.0% and Commercial at 5.0%. Headcount is not disclosed in the current dataset. Trailing revenue is $1.5B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "AIT, AME and BLDR provide the closest reference points for margin, growth and valuation."
+      "The AZEK Company was an Industrials business. AZEK is an archived building-products company, and the useful question is what its composite-decking franchise was worth to James Hardie.",
+      "At the last report, the operating margin was 15.4% and the free-cash-flow margin was 13.7%. The record is closed; there is no current guidance.",
+      "The final balance sheet carried $285.7M of net debt, and the equity no longer trades independently."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$1.5B on a trailing-twelve-month basis, with the latest quarter at $452.2M."
+        "title": "Revenue mix",
+        "detail": "Residential at 95.0% and Commercial at 5.0%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 15.4%; free-cash-flow margin 13.7%; net margin 9.9%."
+        "title": "Margin engine",
+        "detail": "Gross margin 37.2%, operating margin 15.4%. Materials, labor and capacity are the bridge between the two."
       },
       {
-        "title": "Final status",
-        "detail": "Last traded Jul 1, 2025 after the James Hardie transaction."
+        "title": "Capital intensity",
+        "detail": "Capex 5.1% of revenue; $285.7M of net debt; ROIC 9.6%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $1.5B of revenue, $565.3M remained after cost of sales. The 21.8% operating-expense load brought that down to a 15.4% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "Net debt is $285.7M, or 0.8x EBITDA. Return on invested capital was 9.6% and return on equity was 10.4%. That sits in the middle of the range; whether it clears the cost of capital is the deciding question."
+      "Industrial production, backlog and pricing drive revenue; utilization drives the margin. Orders already booked provide visibility into future revenue.",
+      "The operating margin is 15.4%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 13.3% a year across the fiscal years in the dataset, and the latest quarter changed +8.1% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 15.4% and return on invested capital of 9.6% are the filters to watch as revenue scales. The final year in the dataset is FY2024; there is no current guidance because the company no longer trades."
+      "Revenue compounded at 13.3% a year across the reported fiscal years. The final year is FY2024 and there is no current guidance. The growth rate is only useful if the incremental margin holds.",
+      "The archive is a record of what the business earned before the deal, not a forecast. The final operating margin was 15.4%. Growth is only valuable if the new revenue earns a similar return to the existing business."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Revenue growth is +5.9%. The next data point will show whether the trend is intact."
+        "detail": "Orders already booked provide visibility into future revenue. Revenue growth is 5.9%."
       },
       {
         "title": "Aftermarket and services",
@@ -67,41 +67,41 @@ export const AZEK: StockStory = {
       },
       {
         "title": "Price and productivity",
-        "detail": "Return on invested capital is 9.6%. Pricing actions and cost programmes protect margins through cycles."
+        "detail": "Pricing actions and cost programmes protect margins through cycles. Return on invested capital is 9.6%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 7.7% in FY2018 to 14.7% in FY2024. The trailing operating margin is 15.4%, the net margin is 9.9% and diluted EPS is $1.03.",
-      "Return on equity was 10.4% and return on invested capital was 9.6%. Return on invested capital of 9.6% is close to the 10.4% equity return, so the balance sheet explains only part of the difference."
+      "The final operating margin was 15.4%, the net margin was 9.9%, and diluted EPS was $1.03. The record will not update. The trend in returns matters more than the level, especially for a business with cyclical end markets.",
+      "The archived returns are a historical description of the business at the time of the transaction. They are not a current measure of capital allocation."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $207.9M, a 13.7% margin. Net debt is $285.7M, or 0.8x EBITDA. Capital expenditure was 5.1% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "The final reported balance sheet is the one shown here; it will not update. The company generated positive free cash flow on a trailing basis, and capital expenditure was $77.1M in the latest fiscal year."
+      "The final reported free cash flow was $207.9M, a 13.7% margin. The balance sheet is the last reported one and will not update. Capex and working capital are the relevant cash variables here.",
+      "The final consideration was $26.45 in cash plus 1.0340 James Hardie shares per AZEK share; there is no current price, target or capital-return policy to assess."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 52.3x trailing earnings, 22.4x EV/EBITDA and 5.4x EV/sales. The free-cash-flow yield is 2.6%. The 1.9% earnings yield and 2.6% free-cash-flow yield are the two return measures embedded in the price.",
-      "The final consideration was $26.45 in cash plus 1.0340 James Hardie shares per AZEK share. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades."
+      "The final consideration was $26.45 in cash plus 1.0340 James Hardie shares per AZEK share. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades.",
+      "The final consideration is the only relevant reference. There is no live multiple to compare with the peer group. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A current analyst consensus is not available because The AZEK Company no longer trades. The final transaction value is the relevant reference, and the archived estimates are shown only where the dataset retains them.",
-      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $1.5B and the last reported operating margin was 15.4%."
+      "There is no current analyst consensus because The AZEK Company no longer trades. The final transaction value is the reference, and the archived estimates are shown only where they were retained.",
+      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $1.5B and the last operating margin was 15.4%."
     ]
   },
   "risks": {
-    "intro": "The risks below are the historical risks that mattered before the James Hardie transaction, plus the limitation that the record is now closed. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the historical risks that mattered before the James Hardie transaction, plus the limitation that the record is closed.",
     "items": [
       {
         "title": "Archived coverage",
         "severity": "High",
-        "detail": "The AZEK Company no longer trades. The final consideration was $26.45 in cash plus 1.0340 James Hardie shares per AZEK share, and the financial statements will not be updated with new quarters.",
+        "detail": "The AZEK Company no longer trades. The final consideration was $26.45 in cash plus 1.0340 James Hardie shares per AZEK share, and the statements will not be updated with new quarters.",
         "watch": "Treat every figure as the final reported record, not as a current market snapshot."
       },
       {
@@ -146,15 +146,14 @@ export const AZEK: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "The AZEK Company is an archived Industrial Automation company with $1.5B of final trailing revenue, a 15.4% operating margin and a 13.7% free-cash-flow margin. The James Hardie transaction valued the equity at $26.45 in cash plus 1.0340 James Hardie shares per AZEK share.",
-      "There is no current price, target or rating to update. The archived factor percentiles are a historical description of the business at the point of the transaction. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put cash generation at 49/100 and valuation at 25/100, with the composite averaging 40/100. With cash generation and valuation only 24 points apart, the composite is a reasonable one-line description."
+      "The AZEK Company is an archived Industrials company with $1.5B of final revenue, a 15.4% operating margin and a 13.7% free-cash-flow margin. The James Hardie transaction valued the equity at $26.45 in cash plus 1.0340 James Hardie shares per AZEK share.",
+      "There is no current price, target or rating to update. The archived factor scores are a historical description of the business at the point of the transaction.",
+      "The scorecard averages 40/100, but the dispersion matters more: cash generation is 49/100 and valuation is 25/100."
     ],
     "questions": [
-      "How much revenue is recurring versus project-based?",
-      "Is the backlog growing or being consumed?",
-      "Can pricing hold if input costs rise?",
-      "What does a trough-cycle margin look like?"
+      "What did the final financial record show?",
+      "What did the acquirer pay for?",
+      "Which figures will never update?"
     ]
   }
 };

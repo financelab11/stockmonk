@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const AEM: StockStory = {
   "ticker": "AEM",
   "kicker": "Materials & Mining · Gold",
-  "title": "Agnico Eagle Mines Limited: A senior gold miner whose cash flow is geared to the gold price",
-  "dek": "Agnico Eagle Mines Limited reported $15B of trailing revenue at a n/a operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Agnico Eagle Mines: A senior gold miner whose cash flow is geared to the gold price",
+  "dek": "Agnico Eagle Mines' revenue rose 17.1% to $15B. The key risk is gold-price weakness or cost inflation.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $15B trailing twelve months, +17.1% year over year.",
-    "Profitability: n/a operating margin and n/a net margin.",
-    "Cash: n/a free cash flow, a n/a margin, against $1.1B of net debt.",
-    "Valuation: no meaningful trailing earnings multiple and 110.1x EV/EBITDA at the latest close."
+    "Revenue: $15B, +17.1% year over year.",
+    "Profitability: operating margin not meaningful; net margin not meaningful.",
+    "Cash: free cash flow is not meaningful at this stage.",
+    "Valuation: no meaningful earnings multiple and 110.1x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,88 +18,88 @@ export const AEM: StockStory = {
   "irUrl": "https://www.agnicoeagle.com",
   "bigPicture": {
     "paragraphs": [
-      "Agnico Eagle Mines Limited generated $15B of revenue over the last twelve months, +17.1% versus the prior year. The latest reported quarter was Q2 FY14, with n/a of revenue and a n/a operating margin. The shares closed at $158.16 on Nov 25, 2026, giving a market capitalization of $80B.",
-      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. The extract carries a consolidated revenue line without a regional split. The moat is a portfolio of long-life, low-cost mines in stable jurisdictions, which lets it earn through the gold cycle.",
-      "At the latest close the equity is valued at $80B, or no meaningful trailing earnings multiple and 110.1x EV/EBITDA. The shares sit 20% of the way up their 52-week range ($134.38 to $255.24). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Agnico Eagle Mines' revenue rose 17.1% to $15B. The latest quarter (Q2 FY14) grew 116.1%. The consensus estimate and the current multiple frame the near-term debate.",
+      "Revenue is reported as one consolidated line. The upside is production growth from Canadian and Australian assets and the pace of cost inflation. What would break it is gold-price weakness or cost inflation.",
+      "At $158.16, the equity is worth $80B, or no meaningful earnings multiple and 110.1x EV/EBITDA. The stock is 20% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
-    "quote": "Agnico Eagle is a senior gold miner whose cash flow is geared to the gold price, production volumes and cost inflation. The shares trade on free-cash-flow yield and net asset value, so the gold-price assumption matters more than the trailing P/E."
+    "quote": "Agnico Eagle is a senior gold miner whose cash flow is geared to the gold price, production volumes and cost inflation."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Agnico Eagle Mines Limited, a gold mining company, engages in the exploration, development, and production of precious metals. It explores for gold, silver, copper, and zinc. It reports in the Basic Materials sector and is classified in Materials & Mining coverage.",
-      "Revenue is reported at the consolidated level only. The filing extract does not include a headcount figure. With $15B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "CDE, IDR and NEM provide the closest reference points for margin, growth and valuation."
+      "Agnico Eagle Mines Limited, a gold mining company, engages in the exploration, development, and production of precious metals.",
+      "The operating margin is not meaningful on the current data. Energy, feedstock and maintenance remain the main cost line, so the margin trend is the number to watch.",
+      "Capex is not disclosed in the current data. Net debt is $1.1B, or 1.5x EBITDA. Return on invested capital was 6.0%. That is 7.3 points below the peer median of 13.3%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$15B on a trailing-twelve-month basis, with the latest quarter at n/a."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin n/a; free-cash-flow margin n/a; net margin n/a."
+        "title": "Margin engine",
+        "detail": "The operating margin is not meaningful on the current data. Energy, feedstock and maintenance are the cost line to watch."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $80B at the latest close."
+        "title": "Capital intensity",
+        "detail": "$1.1B of net debt; ROIC 6.0%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of n/a is the first clean profitability line. Revenue and margins move with commodity prices, volumes and the cost of energy and feedstock.",
-      "Net debt is $1.1B, or 1.5x EBITDA. Return on invested capital was 6.0%, while the reported return on equity is negative because the equity base is negative. The operating return is the one to use when judging reinvestment."
+      "Commodity prices, volumes and input costs drive revenue and margin. The moat is a portfolio of long-life, low-cost mines in stable jurisdictions, which lets it earn through the gold cycle.",
+      "The operating margin is not meaningful on the current data. The shape of the incremental margin will decide whether growth creates value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 17.8% a year across the fiscal years in the dataset, and the latest quarter changed +116.1% year over year. Current-year estimates call for $15B of revenue and $11.54 of EPS.",
-      "The next catalyst is production growth from Canadian and Australian assets and the pace of cost inflation. The operating margin of n/a and return on invested capital of 6.0% are the filters to watch as revenue scales. The 17.1% revenue pace and n/a margin have to move together for the earnings path to improve."
+      "Revenue compounded at 17.8% a year from FY2007 to FY2013. The latest quarter (Q2 FY14) grew 116.1% year over year. The current-year consensus looks for $15B of revenue and $11.54 of EPS.",
+      "The next leg depends on production growth from Canadian and Australian assets and the pace of cost inflation. For Agnico Eagle Mines, volume growth is only worth paying for if the price-cost spread holds."
     ],
     "bullets": [
       {
         "title": "Volume",
-        "detail": "Revenue growth is +17.1%. That is the metric the thesis depends on."
+        "detail": "Shipments show underlying industrial demand. Revenue growth is 17.1%."
       },
       {
         "title": "Price and mix",
-        "detail": "Product mix and pricing determine margin per ton. The operating margin is n/a."
+        "detail": "Product mix and pricing determine margin per ton. Revenue growth is 17.1%."
       },
       {
         "title": "Cost position",
-        "detail": "Return on invested capital is 6.0%. Low-cost assets can earn through the cycle."
+        "detail": "Low-cost assets can earn through the cycle. Return on invested capital is 6.0%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is n/a, the net margin is n/a and diluted EPS is -$1.53.",
-      "Return on equity was -6.0% and return on invested capital was 6.0%. The equity return is distorted by negative book equity, so the operating return is the cleaner read. Both should be read against the company's own history before they are compared with a peer median."
+      "The reported margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is not meaningful on the current data, the net margin is not meaningful on the current data, and diluted EPS is -$1.53.",
+      "Return on equity is negative because the equity base is negative; the 6.0% return on invested capital is the operating measure that matters. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was n/a, a n/a margin. Net debt is $1.1B, or 1.5x EBITDA. Capex absorbed n/a of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $0 in the latest fiscal year."
+      "Free cash flow is not meaningful at this stage. The cash profile is better judged through the balance sheet than the free-cash-flow margin. Capex and working capital are the relevant cash variables here.",
+      "Net debt is $1.1B, or 1.5x EBITDA. Interest cover is 6.9x. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, 110.1x EV/EBITDA and no meaningful EV/sales multiple. The free-cash-flow yield is n/a. Earnings are not a useful anchor here, so the free-cash-flow yield is the cleaner valuation reference.",
-      "The shares trade on free-cash-flow yield and net asset value, so the gold-price assumption matters more than the trailing P/E. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $158.16, the shares trade at no meaningful earnings multiple and 110.1x EV/EBITDA. The valuation debate is about durability, not the next quarter. The peer comparison is a starting point; the company's own history is the second reference.",
+      "The shares trade on free-cash-flow yield and net asset value, so the gold-price assumption matters more than the trailing P/E. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "14 analysts contribute to the third-party consensus. The mean target is $207.87, with a range of $90.00 to $253.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $15B of revenue and $11.54 of EPS. The estimate revisions in the dataset are -0.5% over 30 days and -4.9% over 90 days. The estimate is consistent with a decline of 0.4% on the trailing revenue figure."
+      "14 analysts in the third-party consensus carry a mean target of $207.87, 31.4% above the latest close. The range runs from $90.00 to $253.00. The target range is wide enough that the mean should be read with caution. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $15B of revenue and $11.54 of EPS. EPS estimates are down 0.5% over 30 days and down 4.9% over 90 days. That implies a 0.4% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
+    "intro": "The central tension is production growth from Canadian and Australian assets and the pace of cost inflation versus gold-price weakness or cost inflation.",
     "items": [
       {
-        "title": "The main risk",
+        "title": "Gold-price weakness or cost inflation",
         "severity": "High",
         "detail": "Gold-price weakness or cost inflation can compress margins even when production is on plan.",
         "watch": "Realised prices and inventory."
@@ -146,9 +146,9 @@ export const AEM: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Agnico Eagle Mines Limited produced $15B of trailing revenue at a n/a operating margin and a n/a free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The consensus target is $207.87 as of 2026-11-25, 31.4% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 53/100 and cash generation at 14/100, with the composite averaging 32/100. The narrow range between valuation at 53/100 and cash generation at 14/100 means the average is a fair summary."
+      "The investment case rests on valuation and the durability of the current economics. The weak link is cash generation.",
+      "What would change the view is return on invested capital rising above 8.0%, not a single quarter. The key exposure is gold-price weakness or cost inflation.",
+      "The scorecard averages 32/100, but the dispersion matters more: valuation is 53/100 and cash generation is 14/100."
     ],
     "questions": [
       "What is the mid-cycle margin?",

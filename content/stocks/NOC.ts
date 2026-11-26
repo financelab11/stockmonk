@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const NOC: StockStory = {
   "ticker": "NOC",
   "kicker": "Aerospace & Defense · Aerospace & Defense",
-  "title": "Northrop Grumman Corporation: A defense prime with aerospace",
-  "dek": "Northrop Grumman Corporation reported $43.6B of trailing revenue at a 10.6% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Northrop Grumman: A defense prime with aerospace",
+  "dek": "Northrop Grumman's revenue rose 6.5% to $43.6B, at a 10.6% operating margin. The key risk is programme execution and budgets.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $43.6B trailing twelve months, +6.5% year over year.",
+    "Revenue: $43.6B, +6.5% year over year.",
     "Profitability: 10.6% operating margin and 10.4% net margin.",
     "Cash: $3.8B free cash flow, an 8.8% margin, against $11.5B of net debt.",
-    "Valuation: 17.5x trailing earnings and 14.7x EV/EBITDA at the latest close."
+    "Valuation: 17.5x trailing earnings and 14.7x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const NOC: StockStory = {
   "irUrl": "https://www.northropgrumman.com",
   "bigPicture": {
     "paragraphs": [
-      "Northrop Grumman Corporation generated $43.6B of revenue over the last twelve months, +6.5% versus the prior year. The latest reported quarter was Q3 FY26, with $11.1B of revenue and an 11.4% operating margin. The shares closed at $555.78 on Nov 25, 2026, giving a market capitalization of $79B.",
-      "Aeronautics Systems is 31.0% of the disclosed revenue mix. United States supplies 85.7% of disclosed revenue, the largest single geography in the filing. Northrop Grumman Corporation competes in Aerospace & Defense, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $79B, or 17.5x trailing earnings and 14.7x EV/EBITDA. The shares sit 28% of the way up their 52-week range ($470.06 to $774.00). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Northrop Grumman's revenue rose 6.5% to $43.6B at a 10.6% operating margin, generating $3.8B of free cash flow. The latest quarter (Q3 FY26) grew 6.7%.",
+      "Aeronautics Systems is 31.0% of revenue and Mission Systems is 29.8%. The US is the largest geography at 85.7% of revenue. The catalyst is backlog and space programmes. The exposure is programme execution and budgets.",
+      "At $555.78, the equity is worth $79B, or 17.5x trailing earnings and 14.7x EV/EBITDA. The earnings multiple is 48.2% below the 33.7x peer median. The stock is 28% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Northrop Grumman is a defense prime with aerospace, mission and space franchises, so backlog, program execution and budget priorities drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Northrop Grumman Corporation operates as an aerospace and defense technology company in the United States, Asia/Pacific, Europe, and internationally. It operates through four segments: Aeronautics Systems, Defense Systems, Mission Systems and Space Systems.",
-      "The disclosed mix runs across Aeronautics Systems at 31.0%, Mission Systems at 29.8% and Space Systems at 25.7%. The last disclosure put headcount at 95,000 people. Trailing revenue is $43.6B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The closest listed comparisons are GE, RTX and HWM; the useful question is how Northrop Grumman Corporation's margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Northrop Grumman Corporation operates as an aerospace and defense technology company in the United States, Asia/Pacific, Europe, and internationally.",
+      "Northrop Grumman does not report a product gross margin; program costs and fixed-price execution sit inside the operating line, leaving a 10.6% operating margin. That is 1.2 points below the peer median of 11.8%.",
+      "Capital spending runs at 3.3% of revenue, which is low relative to the revenue base. Net debt is $11.5B, or 1.9x EBITDA. Return on invested capital was 11.8%. That is 7.1 points below the peer median of 18.9%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$43.6B on a trailing-twelve-month basis, with the latest quarter at $11.1B."
+        "title": "Revenue mix",
+        "detail": "Aeronautics Systems at 31.0%, Mission Systems at 29.8% and Space Systems at 25.7%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 10.6%; free-cash-flow margin 8.8%; net margin 10.4%."
+        "title": "Margin engine",
+        "detail": "Operating margin 10.6%. Program costs and fixed-price execution are the main cost line, so incremental revenue matters more than product mix."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $79B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.3% of revenue; $11.5B of net debt; ROIC 11.8%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 10.6% is the first clean profitability line. Revenue is tied to government budgets, contract awards and the conversion of backlog into deliveries.",
-      "Net debt is $11.5B, or 1.9x EBITDA. Return on invested capital was 11.8% and return on equity was 24.2%. That sits in the middle of the range; whether it clears the cost of capital is the deciding question."
+      "Contracted backlog converts into revenue as programmes deliver; budgets set the addressable market. The edge is defense prime and space franchise.",
+      "The operating margin is 10.6%, 1.2 points below the peer median of 11.8%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 4.9% a year across the fiscal years in the dataset, and the latest quarter changed +6.7% year over year. Current-year estimates call for $44.1B of revenue and $29.75 of EPS.",
-      "The operating margin of 10.6% and return on invested capital of 11.8% are the filters to watch as revenue scales. Neither the 6.5% growth nor the 10.6% margin is extreme; the combination is what matters."
+      "Revenue compounded at 4.9% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 6.7% year over year. The current-year consensus looks for $44.1B of revenue and $29.75 of EPS.",
+      "The next leg depends on backlog and space programmes. For Northrop Grumman, backlog growth is only worth paying for if it converts into margin, not just revenue."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Contracted orders provide visibility into future revenue. Revenue growth is +6.5%."
+        "detail": "Contracted orders provide visibility into future revenue. Revenue growth is 6.5%."
       },
       {
         "title": "Budget and supplementals",
-        "detail": "The operating margin is 10.6%. Defense budgets and supplemental spending set the addressable market."
+        "detail": "Defense budgets and supplemental spending set the addressable market. The operating margin is 10.6%."
       },
       {
         "title": "Programme execution",
-        "detail": "Deliveries, milestones and cost control determine margins on fixed-price work. The current reading: return on invested capital is 11.8%."
+        "detail": "Deliveries, milestones and cost control determine margins on fixed-price work. Return on invested capital is 11.8%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 12.6% in FY2018 to 10.8% in FY2025. The trailing operating margin is 10.6%, the net margin is 10.4% and diluted EPS is $31.67.",
-      "Return on equity was 24.2% and return on invested capital was 11.8%. The 12.4% spread between the two returns suggests some of the equity return comes from the balance sheet rather than operations alone."
+      "The operating margin moved from 12.6% in FY2018 to 10.8% in FY2025. The trailing operating margin is 10.6%, the net margin is 10.4%, and diluted EPS is $31.67, up 14.0% year over year.",
+      "The 12.4-point spread between return on equity and return on invested capital suggests some of the equity return comes from the balance sheet. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.8B, an 8.8% margin. Net debt is $11.5B, or 1.9x EBITDA. Capital expenditure was 3.3% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $4.8B, or 113.7% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.5B in the latest fiscal year."
+      "Free cash flow was $3.8B, or 8.8% of revenue. Operating cash flow covered 113.7% of net income; reported profit is converting into cash cleanly. Capex absorbed 3.3% of revenue, which is low relative to the revenue base.",
+      "Net debt is $11.5B, or 1.9x EBITDA. Interest cover is 7.1x. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 17.5x trailing earnings, 14.7x EV/EBITDA and 2.1x EV/sales. The free-cash-flow yield is 4.8%. The 5.7% earnings yield and 4.8% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against GE, RTX and HWM; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $555.78, the shares trade at 17.5x trailing earnings and 14.7x EV/EBITDA, with a 4.8% free-cash-flow yield. The earnings yield is 5.7%. The earnings multiple is 48.2% below the 33.7x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "25 analysts contribute to the third-party consensus. The mean target is $638.24, with a range of $430.00 to $815.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $44.1B of revenue and $29.75 of EPS. The estimate revisions in the dataset are 2.7% over 30 days and 2.6% over 90 days. That implies growth of 1.1% over the trailing twelve months."
+      "25 analysts in the third-party consensus carry a mean target of $638.24, 14.8% above the latest close. The range runs from $430.00 to $815.00. Analysts disagree on the outcome; the mean is a weak summary of a wide range. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $44.1B of revenue and $29.75 of EPS. EPS estimates are up 2.7% over 30 days and up 2.6% over 90 days. That implies 1.1% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is backlog and space programmes versus programme execution and budgets.",
     "items": [
       {
-        "title": "Budget cycle",
+        "title": "Programme execution and budgets",
         "severity": "High",
-        "detail": "Continuing resolutions and priorities can delay awards.",
+        "detail": "The main risk is programme execution and budgets.",
         "watch": "Budget markers and supplemental packages."
       },
       {
@@ -146,9 +146,9 @@ export const NOC: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Northrop Grumman Corporation produced $43.6B of trailing revenue at a 10.6% operating margin and an 8.8% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "The third-party consensus mean is $638.24 as of 2026-11-25, 14.8% above the latest close; it is a consensus view, not a recommendation from Stockmonk. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put valuation at 68/100 and balance sheet at 28/100, with the composite averaging 43/100. With valuation and balance sheet only 40 points apart, the composite is a reasonable one-line description."
+      "The investment case rests on valuation and the durability of 10.6% margins. $11.5B of net debt is the weak link.",
+      "What would change the view is leverage falling below 1.4x EBITDA, not a single quarter. The key exposure is programme execution and budgets.",
+      "The composite of 43/100 blends a strong valuation reading with a weak balance sheet one; the gap is the story."
     ],
     "questions": [
       "How much backlog converts in the next year?",

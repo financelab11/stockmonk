@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const NICE: StockStory = {
   "ticker": "NICE",
   "kicker": "Enterprise Software · Software - Application",
-  "title": "NICE Ltd: Customer-engagement and financial-crime software",
-  "dek": "NICE Ltd. reported $2.9B of trailing revenue at a 21.9% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "NICE: Customer-engagement and financial-crime software",
+  "dek": "NICE's revenue rose 7.7% to $2.9B, at a 21.9% operating margin. The key risk is cloud migration and competition.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $2.9B trailing twelve months, +7.7% year over year.",
+    "Revenue: $2.9B, +7.7% year over year.",
     "Profitability: 21.9% operating margin and 20.8% net margin.",
     "Cash: $697.6M free cash flow, a 23.7% margin, against $417.4M of net cash.",
-    "Valuation: 8.7x trailing earnings and 5.8x EV/EBITDA at the latest close."
+    "Valuation: 8.7x trailing earnings and 5.8x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const NICE: StockStory = {
   "irUrl": "https://www.nice.com",
   "bigPicture": {
     "paragraphs": [
-      "NICE Ltd. generated $2.9B of revenue over the last twelve months, +7.7% versus the prior year. Quarterly detail is missing, so the trailing figures carry the analysis. The shares closed at $92.47 on Nov 25, 2026, giving a market capitalization of $5.3B.",
-      "Customer Engagement contributes 83.5% of the disclosed revenue mix. By geography, Americas is the largest disclosed market at 83.7% of revenue. NICE Ltd. competes in Software - Application, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $5.3B, or 8.7x trailing earnings and 5.8x EV/EBITDA. The shares sit 18% of the way up their 52-week range ($83.10 to $135.55). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "NICE's revenue rose 7.7% to $2.9B at a 21.9% operating margin, generating $697.6M of free cash flow. The market is already paying for a view; the financials are the check.",
+      "Customer Engagement is 83.5% of revenue and Financial Crime & Compliance Solutions is 16.5%. Americas is the largest geography at 83.7% of revenue. The upside is AI products and cloud growth. What would break it is cloud migration and competition.",
+      "At $92.47, the equity is worth $5.3B, or 8.7x trailing earnings and 5.8x EV/EBITDA. The earnings multiple is 50.0% below the 17.3x peer median. The stock is 18% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "NICE sells customer-engagement and financial-crime software, a recurring-revenue business where cloud migrations and analytics attach drive growth."
   },
   "whatItDoes": {
     "paragraphs": [
       "NICE Ltd., together with its subsidiaries, provides AI-powered cloud platforms for customer engagement, and financial crime and compliance in the United States, Europe, the Middle East, Africa, and the Asia Pacific.",
-      "The disclosed mix runs across Customer Engagement at 83.5% and Financial Crime & Compliance Solutions at 16.5%. Its latest filing lists 9,626 employees. Trailing revenue is $2.9B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "CDNS, NOW and INTU provide the closest reference points for margin, growth and valuation."
+      "NICE earned a 66.4% gross margin, and R&D and sales and marketing absorbed 44.5% of revenue, leaving a 21.9% operating margin. That is 6.3 points below the peer median of 28.2%.",
+      "Capex is 0.6% of revenue, so the business is asset-light. The balance sheet carries $417.4M of net cash. Return on invested capital was 14.2%. That is 1.3 points below the peer median of 15.5%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$2.9B on a trailing-twelve-month basis; a dated quarter is not available in the dataset."
+        "title": "Revenue mix",
+        "detail": "Customer Engagement at 83.5% and Financial Crime & Compliance Solutions at 16.5%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 21.9%; free-cash-flow margin 23.7%; net margin 20.8%."
+        "title": "Margin engine",
+        "detail": "Gross margin 66.4%, operating margin 21.9%. R&D and sales and marketing are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $5.3B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 0.6% of revenue; $417.4M of net cash; ROIC 14.2%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $2.9B of revenue, $2B remained after cost of sales. The 44.5% operating-expense load brought that down to a 21.9% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "The balance sheet carries $417.4M of net cash. Return on invested capital was 14.2% and return on equity was 15.8%. That sits in the middle of the range; whether it clears the cost of capital is the deciding question."
+      "Subscriptions and seat or usage growth drive revenue; retention and sales efficiency drive the margin. The edge is customer-engagement and financial-crime software.",
+      "The operating margin is 21.9%, 6.3 points below the peer median of 28.2%. Retention and sales efficiency decide whether subscription growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.7% a year across the fiscal years in the dataset, and the latest quarter growth rate is not available. Current-year estimates call for $3.2B of revenue and $11.22 of EPS.",
-      "The operating margin of 21.9% and return on invested capital of 14.2% are the filters to watch as revenue scales. Neither the 7.7% growth nor the 21.9% margin is extreme; the combination is what matters."
+      "Revenue compounded at 10.7% a year from FY2018 to FY2025. The current-year consensus looks for $3.2B of revenue and $11.22 of EPS. The growth rate is only useful if the incremental margin holds.",
+      "The next leg depends on AI products and cloud growth. For NICE, subscription growth is only worth paying for if retention and sales efficiency hold."
     ],
     "bullets": [
       {
         "title": "Net revenue retention",
-        "detail": "Revenue growth is +7.7%. The trend in that figure matters more than its level."
+        "detail": "Expansion within existing customers compounds revenue. Revenue growth is 7.7%."
       },
       {
         "title": "New customer adds",
@@ -67,41 +67,41 @@ export const NICE: StockStory = {
       },
       {
         "title": "Operating leverage",
-        "detail": "Return on invested capital is 14.2%. Scale should improve margins as sales and R&D mature."
+        "detail": "Scale should improve margins as sales and R&D mature. Return on invested capital is 14.2%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 13.7% in FY2018 to 21.9% in FY2025. The trailing operating margin is 21.9%, the net margin is 20.8% and diluted EPS is $9.67.",
-      "Return on equity was 15.8% and return on invested capital was 14.2%. Return on invested capital of 14.2% is close to the 15.8% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from 13.7% in FY2018 to 21.9% in FY2025. The trailing operating margin is 21.9%, the net margin is 20.8%, and diluted EPS is $9.67, up 43.0% year over year.",
+      "Return on equity of 15.8% and return on invested capital of 14.2% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $697.6M, a 23.7% margin. The balance sheet carries $417.4M of net cash. Capital expenditure was 0.6% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $716.5M, or 117.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $18.9M in the latest fiscal year."
+      "Free cash flow was $697.6M, or 23.7% of revenue. Operating cash flow covered 117.1% of net income; reported profit is converting into cash cleanly. Capex absorbed 0.6% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $417.4M of net cash. Management can fund the next phase without needing the capital markets. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 8.7x trailing earnings, 5.8x EV/EBITDA and 1.7x EV/sales. The free-cash-flow yield is 13.2%. The 11.5% earnings yield and 13.2% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against CDNS, NOW and INTU; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $92.47, the shares trade at 8.7x trailing earnings and 5.8x EV/EBITDA, with a 13.2% free-cash-flow yield. The earnings yield is 11.5%. The earnings multiple is 50.0% below the 17.3x peer median.",
+      "The multiple implies the market expects little growth and assumes the current margin is close to peak. The multiple is below the peer median, so some of the risk is already in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "13 analysts contribute to the third-party consensus. The mean target is $127.54, with a range of $100.00 to $165.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $3.2B of revenue and $11.22 of EPS. The estimate revisions in the dataset are 0.4% over 30 days and 0.5% over 90 days. The estimate is consistent with growth of 7.9% on the trailing revenue figure."
+      "13 analysts in the third-party consensus carry a mean target of $127.54, 37.9% above the latest close. The range runs from $100.00 to $165.00. The range is unusually wide, which signals genuine disagreement about the cycle. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $3.2B of revenue and $11.22 of EPS. EPS estimates are up 0.4% over 30 days and up 0.5% over 90 days. That implies 7.9% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is AI products and cloud growth versus cloud migration and competition.",
     "items": [
       {
-        "title": "Competition",
+        "title": "Cloud migration and competition",
         "severity": "High",
-        "detail": "Feature parity and bundling can pressure pricing.",
+        "detail": "The main risk is cloud migration and competition.",
         "watch": "Win rates and average contract value."
       },
       {
@@ -146,9 +146,9 @@ export const NICE: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "NICE Ltd. produced $2.9B of trailing revenue at a 21.9% operating margin and a 23.7% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
-      "13 analysts in the third-party survey average $127.54 as of 2026-11-25, 37.9% above the latest close; the figure belongs to the analysts who published it, not to this report. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put valuation at 96/100 and growth at 52/100, with the composite averaging 72/100. A 96/100 valuation score against a 52/100 growth score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on valuation and the durability of 21.9% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 10.7%, not a single quarter. The key exposure is cloud migration and competition.",
+      "The scorecard averages 72/100, but the dispersion matters more: valuation is 96/100 and growth is 52/100."
     ],
     "questions": [
       "How much growth comes from existing customers?",

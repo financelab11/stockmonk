@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const MET: StockStory = {
   "ticker": "MET",
   "kicker": "Banks & Insurance · Insurance - Life",
-  "title": "MetLife, Inc: Life insurance and employee benefits",
-  "dek": "MetLife, Inc. reported $2.8B of trailing revenue at a 241.9% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "MetLife: Life insurance and employee benefits",
+  "dek": "MetLife's revenue rose 16.5% to $2.8B. The key risk is investment spreads and reserves.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $2.8B trailing twelve months, +16.5% year over year.",
-    "Profitability: 241.9% operating margin and 184.0% net margin.",
-    "Cash: n/a free cash flow, a n/a margin, against $27.4B of net cash.",
-    "Valuation: 12.2x trailing earnings and 5.1x EV/EBITDA at the latest close."
+    "Revenue: $2.8B, +16.5% year over year.",
+    "Profitability: operating margin not meaningful; net margin not meaningful.",
+    "Cash: free cash flow is not meaningful at this stage.",
+    "Valuation: 12.2x trailing earnings and 5.1x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const MET: StockStory = {
   "irUrl": "https://www.metlife.com",
   "bigPicture": {
     "paragraphs": [
-      "MetLife, Inc. generated $2.8B of revenue over the last twelve months, +16.5% versus the prior year. The latest reported quarter was Q3 FY26, with $728M of revenue and a 250.8% operating margin. The shares closed at $99.65 on Nov 25, 2026, giving a market capitalization of $62.6B.",
-      "The largest disclosed segment is EMEA at 129.5% of revenue. Country-level revenue is not part of the filing extract used here. MetLife, Inc. competes in Insurance - Life, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $62.6B, or 12.2x trailing earnings and 5.1x EV/EBITDA. The shares sit 82% of the way up their 52-week range ($67.33 to $106.72). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "MetLife's revenue rose 16.5% to $2.8B, with a 23.1% return on equity. The latest quarter (Q3 FY26) grew 17.2%. The return on equity and credit costs are the next things to test.",
+      "EMEA is 129.5% of revenue and Met Life Investment Management is 38.5%. The near-term driver is group benefits and capital returns. The risk is investment spreads and reserves.",
+      "At $99.65, the equity is worth $62.6B, or 12.2x trailing earnings and 5.1x EV/EBITDA. The earnings multiple is 11.9% below the 13.9x peer median. The stock is 82% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "MetLife sells life insurance and employee benefits, a spread business where underwriting, investment income and capital returns drive value."
   },
   "whatItDoes": {
     "paragraphs": [
-      "MetLife, Inc., a financial services company, provides insurance, annuities, employee benefits, and asset management services worldwide. MetLife, Inc. is an Insurance - Life company within the Banks & Insurance coverage group.",
-      "The largest disclosed segment is EMEA at 129.5% of revenue. The company employed 46,000 people at the last reporting date. Trailing revenue is $2.8B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The peer set is AFL and GL; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "MetLife, Inc., a financial services company, provides insurance, annuities, employee benefits, and asset management services worldwide.",
+      "The operating margin is not meaningful on the current data. Claims, reserves and acquisition costs remain the main cost line, so the margin trend is the number to watch.",
+      "Capital is held against reserves and the investment portfolio, so book value and the combined ratio matter more than capex. Return on equity was 23.1%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$2.8B on a trailing-twelve-month basis, with the latest quarter at $728M."
+        "title": "Revenue mix",
+        "detail": "EMEA at 129.5% and Met Life Investment Management at 38.5%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 241.9%; free-cash-flow margin n/a; net margin 184.0%."
+        "title": "Margin engine",
+        "detail": "The operating margin is not meaningful on the current data. Claims, reserves and acquisition costs are the cost line to watch."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $62.6B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Reserves and the investment portfolio are the capital base; ROE 23.1%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 241.9% is the first clean profitability line. Underwriting discipline, reserve adequacy and investment income decide the return, not premium volume on its own.",
-      "The balance sheet is a pool of reserves and investments, so net debt says less than reserve adequacy and book value. Return on equity was 23.1%; underwriting results and investment income drive that return."
+      "Premiums are fixed at underwriting; the combined ratio and investment income decide the profit. The edge is global insurance and benefits franchise.",
+      "The insurer earns underwriting profit when premiums exceed claims and expenses, plus investment income on the float. For an insurer, reserves and the investment portfolio matter more than net debt. Return on equity was 23.1%; reserve development and the combined ratio are the variables that matter."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 9.9% a year across the fiscal years in the dataset, and the latest quarter changed +17.2% year over year. Current-year estimates point to 0.7% revenue growth, with EPS of 10.25 in the reporting currency.",
-      "The operating margin of 241.9% and return on invested capital of 23.2% are the filters to watch as revenue scales. The 241.9% operating margin gives the company room to absorb slower growth without a profit reset."
+      "Revenue compounded at 9.9% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 17.2% year over year. The current-year consensus looks for 0.7% revenue growth, with EPS of 10.25 in the reporting currency.",
+      "The next leg depends on group benefits and capital returns. For MetLife, premium growth is only worth paying for if the combined ratio holds. Growth is only valuable if the new revenue earns a similar return to the existing business."
     ],
     "bullets": [
       {
         "title": "Rate and exposure",
-        "detail": "Pricing and insured exposure determine whether the premium base grows profitably. The current reading: revenue growth is +16.5%."
+        "detail": "Pricing and insured exposure determine whether the premium base grows profitably. Revenue growth is 16.5%."
       },
       {
         "title": "Underwriting margin",
-        "detail": "The operating margin is 241.9%. That is the line the next filing has to move."
+        "detail": "The combined ratio decides how much of each premium dollar survives claims and expenses. The combined ratio and investment income are the key variables; revenue growth is 16.5%."
       },
       {
         "title": "Investment income",
@@ -73,35 +73,35 @@ export const MET: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is 241.9%, the net margin is 184.0% and diluted EPS is $7.67.",
-      "Return on equity was 23.1%. Underwriting discipline and the investment portfolio drive the equity return, so ROIC is a secondary measure. Reserve development and the combined ratio are the trends to follow from here."
+      "For an insurer, the combined ratio and investment income drive earnings rather than a product margin. Return on equity was 23.1%, and diluted EPS was $7.67.",
+      "Return on equity was 23.1%. For an insurer, the combined ratio and investment income explain that return better than return on invested capital. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was n/a, a n/a margin. The balance sheet is a pool of reserves and investments, so net debt says less than reserve adequacy and book value. For an insurer, cash flow includes investment income and reserve movements, so the margin is not directly comparable to an industrial.",
-      "Operating cash flow was $17.1B, or 505.8% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $0 in the latest fiscal year."
+      "Free cash flow is not meaningful at this stage. Capex and working capital are the relevant cash variables here. Operating cash flow and the balance sheet are the better tests at this stage.",
+      "For an insurer, reserves and the investment portfolio matter more than net debt. For an insurer, cash flow includes investment income and reserve movements, so the margin is not directly comparable to an industrial."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 12.2x trailing earnings, 5.1x EV/EBITDA and 12.7x EV/sales. The free-cash-flow yield is n/a. For an insurer, price-to-book and return on equity are more relevant than EV/EBITDA.",
-      "The peer comparison sets the company against AFL and GL; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $99.65, the shares trade at 12.2x trailing earnings and 5.1x EV/EBITDA. The earnings yield is 8.2%. The earnings multiple is 11.9% below the 13.9x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. For an insurer, price-to-book and return on equity are more relevant than EV/EBITDA."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "17 analysts contribute to the third-party consensus. The mean target is $111.71, with a range of $84.00 to $131.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates point to 0.7% revenue growth, with EPS of 10.25 in the reporting currency. The estimate revisions in the dataset are 0.3% over 30 days and 2.8% over 90 days."
+      "17 analysts in the third-party consensus carry a mean target of $111.71, 12.1% above the latest close. The range runs from $84.00 to $131.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for 0.7% revenue growth, with EPS of 10.25 in the reporting currency. EPS estimates are up 0.3% over 30 days and up 2.8% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is group benefits and capital returns versus investment spreads and reserves.",
     "items": [
       {
-        "title": "Catastrophe and loss trends",
+        "title": "Investment spreads and reserves",
         "severity": "High",
-        "detail": "Severe weather, social inflation and legal verdicts can overwhelm pricing.",
+        "detail": "The main risk is investment spreads and reserves.",
         "watch": "Combined ratio, catastrophe load and prior-year development."
       },
       {
@@ -146,9 +146,9 @@ export const MET: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "MetLife, Inc. produced $2.8B of trailing revenue at a 241.9% operating margin and a n/a free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "The third-party consensus mean is $111.71 as of 2026-11-25, 12.1% above the latest close; this report does not publish a target of its own. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put valuation at 93/100 and cash generation at 14/100, with the composite averaging 71/100. A 93/100 valuation score against a 14/100 cash generation score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on valuation and the durability of 23.1% returns on equity. The weak link is cash generation.",
+      "What would change the view is return on invested capital rising above 25.2%, not a single quarter. The key exposure is investment spreads and reserves.",
+      "On the scorecard, the composite is 71/100. The spread between valuation and cash generation is the useful part; the average hides it."
     ],
     "questions": [
       "What is the catastrophe loss budget?",

@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const INCY: StockStory = {
   "ticker": "INCY",
   "kicker": "Pharma & Biotech · Biotechnology",
-  "title": "Incyte Corporation: A commercial biopharma with a JAKAFI base and a pipeline in oncology and inflammation",
-  "dek": "Incyte Corporation reported $6B of trailing revenue at a 10.4% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Incyte: A commercial biopharma with a JAKAFI base and a pipeline in oncology and inflammation",
+  "dek": "Incyte's revenue rose 24.9% to $6B, at a 10.4% operating margin. The key risk is patent timing and launches.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $6B trailing twelve months, +24.9% year over year.",
+    "Revenue: $6B, +24.9% year over year.",
     "Profitability: 10.4% operating margin and 6.7% net margin.",
     "Cash: $740M free cash flow, a 12.3% margin, against $3.3B of net cash.",
-    "Valuation: 61.9x trailing earnings and 30.0x EV/EBITDA at the latest close."
+    "Valuation: 61.9x trailing earnings and 30.0x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const INCY: StockStory = {
   "irUrl": "https://www.incyte.com",
   "bigPicture": {
     "paragraphs": [
-      "Incyte Corporation generated $6B of revenue over the last twelve months, +24.9% versus the prior year. The latest reported quarter was Q3 FY26, with $1.6B of revenue and a -45.5% operating margin. The shares closed at $122.60 on Nov 25, 2026, giving a market capitalization of $25B.",
-      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. By geography, United States is the largest disclosed market at 93.4% of revenue. Incyte Corporation competes in Biotechnology, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $25B, or 61.9x trailing earnings and 30.0x EV/EBITDA. The shares sit 77% of the way up their 52-week range ($89.25 to $132.60). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Incyte's revenue rose 24.9% to $6B at a 10.4% operating margin, generating $740M of free cash flow. The latest quarter (Q3 FY26) grew 14.0%. The consensus estimate and the current multiple frame the near-term debate.",
+      "Revenue is reported as one consolidated line. The US is the largest geography at 93.4% of revenue. The upside is pipeline readouts and label expansion. What would break it is patent timing and launches.",
+      "At $122.60, the equity is worth $25B, or 61.9x trailing earnings and 30.0x EV/EBITDA. The earnings multiple is 117.5% above the 28.5x peer median. The stock is 77% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Incyte is a commercial biopharma with a JAKAFI base and a pipeline in oncology and inflammation, so patent timing and new launches matter."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Incyte Corporation, a biopharmaceutical company, engages in the discovery, development, and commercialization of therapeutics in the United States, Europe, Canada, and Japan. The company offers JAKAFI for the treatment of myelofibrosis (MF), polycythemia vera, and steroid-refractory acute graft-versus-host disease; ICLUSIG, a kinase inhibitor to treat chronic myeloid leukemia and Philadelphia-chromosome positive acute lymphoblastic leukemia; MONJUVI/MINJUVI for the treatment of diffuse large B-cell lymphoma and Follicular Lymphoma; NIKTIMVO for the treatment of chronic graft-versus-host disease.",
-      "Revenue is reported at the consolidated level only. Its latest filing lists 2,844 employees. With $6B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "VRTX, REGN and VKTX provide the closest reference points for margin, growth and valuation."
+      "Incyte Corporation, a biopharmaceutical company, engages in the discovery, development, and commercialization of therapeutics in the United States, Europe, Canada, and Japan.",
+      "Incyte earned a 92.7% gross margin, and R&D, manufacturing and commercial spend absorbed 82.3% of revenue, leaving a 10.4% operating margin. That is 21.1 points above the peer median of -10.7%.",
+      "Capex is 0.4% of revenue, so the business is asset-light. The balance sheet carries $3.3B of net cash. Return on invested capital was 5.6%. That is 29.4 points above the peer median of -23.7%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$6B on a trailing-twelve-month basis, with the latest quarter at $1.6B."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 10.4%; free-cash-flow margin 12.3%; net margin 6.7%."
+        "title": "Margin engine",
+        "detail": "Gross margin 92.7%, operating margin 10.4%. R&D, manufacturing and commercial spend are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $25B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 0.4% of revenue; $3.3B of net cash; ROIC 5.6%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 92.7% of revenue after cost of sales, or $5.6B. Operating expenses absorbed 82.3% of revenue, leaving a 10.4% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "The balance sheet carries $3.3B of net cash. Return on invested capital was 5.6% and return on equity was 7.1%. That is a thin return; without a margin recovery or a different capital allocation, growth is unlikely to create value."
+      "Revenue depends on a small number of programmes, patent life and payer coverage. The edge is JAKAFI franchise and oncology pipeline.",
+      "The operating margin is 10.4%, 21.1 points above the peer median of -10.7%. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 15.4% a year across the fiscal years in the dataset, and the latest quarter changed +14.0% year over year. Current-year estimates call for $6.1B of revenue and $3.37 of EPS.",
-      "The operating margin of 10.4% and return on invested capital of 5.6% are the filters to watch as revenue scales. The 24.9% revenue pace and 10.4% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 15.4% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 14.0% year over year. The current-year consensus looks for $6.1B of revenue and $3.37 of EPS.",
+      "The next leg depends on pipeline readouts and label expansion. For Incyte, revenue growth is only worth paying for if the patent runway and launch curve support it."
     ],
     "bullets": [
       {
         "title": "Launch execution",
-        "detail": "Revenue growth is +24.9%. The direction of travel matters more than the absolute level."
+        "detail": "New therapies need payer coverage, prescriber adoption and manufacturing scale. Revenue growth is 24.9%."
       },
       {
         "title": "Pipeline readouts",
@@ -67,41 +67,41 @@ export const INCY: StockStory = {
       },
       {
         "title": "Patent duration",
-        "detail": "Return on invested capital is 5.6%. The remaining exclusivity period determines how long the cash flow lasts."
+        "detail": "The remaining exclusivity period determines how long the cash flow lasts. Return on invested capital is 5.6%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 6.9% in FY2018 to 29.5% in FY2025. The trailing operating margin is 10.4%, the net margin is 6.7% and diluted EPS is $1.88.",
-      "Return on equity was 7.1% and return on invested capital was 5.6%. With return on equity at 7.1% and return on invested capital at 5.6%, leverage is not the main driver of the gap."
+      "The operating margin moved from 6.9% in FY2018 to 29.5% in FY2025. The trailing operating margin is 10.4%, the net margin is 6.7%, and diluted EPS is $1.88, down 68.1% year over year.",
+      "Return on equity of 7.1% and return on invested capital of 5.6% are close enough that operating performance explains most of the return. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $740M, a 12.3% margin. The balance sheet carries $3.3B of net cash. Capex absorbed 0.4% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $1.4B, or 109.9% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $25M in the latest fiscal year."
+      "Free cash flow was $740M, or 12.3% of revenue. Operating cash flow covered 109.9% of net income; reported profit is converting into cash cleanly. Capex absorbed 0.4% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $3.3B of net cash. Interest cover is 268.0x. Management can fund the next phase without needing the capital markets. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 61.9x trailing earnings, 30.0x EV/EBITDA and 3.6x EV/sales. The free-cash-flow yield is 3.0%. Inverting the P/E gives an earnings yield of 1.6%; the cash-flow yield is 3.0%.",
-      "The peer comparison sets the company against VRTX, REGN and VKTX; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $122.60, the shares trade at 61.9x trailing earnings and 30.0x EV/EBITDA, with a 3.0% free-cash-flow yield. The earnings yield is 1.6%. The earnings multiple is 117.5% above the 28.5x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "24 analysts contribute to the third-party consensus. The mean target is $132.63, with a range of $100.00 to $157.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $6.1B of revenue and $3.37 of EPS. The estimate revisions in the dataset are 8.6% over 30 days and -3.7% over 90 days. The estimate is consistent with growth of 0.7% on the trailing revenue figure."
+      "24 analysts in the third-party consensus carry a mean target of $132.63, 8.2% above the latest close. The range runs from $100.00 to $157.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $6.1B of revenue and $3.37 of EPS. EPS estimates are up 8.6% over 30 days and down 3.7% over 90 days. That implies 0.7% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is pipeline readouts and label expansion versus patent timing and launches.",
     "items": [
       {
-        "title": "Clinical failure",
+        "title": "Patent timing and launches",
         "severity": "High",
-        "detail": "A negative trial can remove most of a programme's value.",
+        "detail": "The main risk is patent timing and launches.",
         "watch": "Trial endpoints and readout timing."
       },
       {
@@ -146,9 +146,9 @@ export const INCY: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Incyte Corporation produced $6B of trailing revenue at a 10.4% operating margin and a 12.3% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The consensus target is $132.63 as of 2026-11-25, 8.2% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put balance sheet at 93/100 and valuation at 17/100, with the composite averaging 47/100. The gap between balance sheet at 93/100 and valuation at 17/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on balance sheet and the durability of 10.4% margins. The weak link is valuation.",
+      "What would change the view is the multiple falling below 49.6x earnings, not a single quarter. The key exposure is patent timing and launches.",
+      "The scorecard averages 47/100, but the dispersion matters more: balance sheet is 93/100 and valuation is 17/100."
     ],
     "questions": [
       "When does the largest patent expire?",

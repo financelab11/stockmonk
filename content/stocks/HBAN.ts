@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const HBAN: StockStory = {
   "ticker": "HBAN",
   "kicker": "Banks & Insurance · Banks - Regional",
-  "title": "Huntington Bancshares Incorporated: A regional bank",
-  "dek": "Huntington Bancshares Incorporated reported $1.9B of trailing revenue at a 164.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Huntington Bancshares: A regional bank",
+  "dek": "Huntington Bancshares' revenue rose 19.6% to $1.9B. The key risk is credit and net interest margin.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $1.9B trailing twelve months, +19.6% year over year.",
-    "Profitability: 164.0% operating margin and 133.3% net margin.",
-    "Cash: $2.9B free cash flow, a 156.3% margin, against $6.6B of net debt.",
-    "Valuation: 12.0x trailing earnings and 9.6x EV/EBITDA at the latest close."
+    "Revenue: $1.9B, +19.6% year over year.",
+    "Profitability: operating margin not meaningful; net margin not meaningful.",
+    "Cash: $2.9B free cash flow, against $6.6B of net debt.",
+    "Valuation: 12.0x trailing earnings and 9.6x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const HBAN: StockStory = {
   "irUrl": "https://www.huntington.com",
   "bigPicture": {
     "paragraphs": [
-      "Huntington Bancshares Incorporated generated $1.9B of revenue over the last twelve months, +19.6% versus the prior year. The latest reported quarter was Q3 FY26, with $484M of revenue and an 185.1% operating margin. The shares closed at $14.85 on Nov 25, 2026, giving a market capitalization of $29.9B.",
-      "Consumer & Business Banking accounts for 77.3% of disclosed revenue. The dataset does not include a geographic revenue split for this company. Huntington Bancshares Incorporated competes in Banks - Regional, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $29.9B, or 12.0x trailing earnings and 9.6x EV/EBITDA. The shares sit 12% of the way up their 52-week range ($14.23 to $19.46). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "Huntington Bancshares' revenue rose 19.6% to $1.9B, with a 7.7% return on equity, generating $2.9B of free cash flow. The latest quarter (Q3 FY26) grew 14.2%.",
+      "Consumer & Business Banking is 77.3% of revenue and Commercial Banking is 22.9%. What could lift the return is deposit growth and capital. The thing to watch is credit and net interest margin.",
+      "At $14.85, the equity is worth $29.9B, or 12.0x trailing earnings and 9.6x EV/EBITDA. The earnings multiple is 5.8% above the 11.4x peer median. The stock is 12% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Huntington is a regional bank, so net interest margin, credit costs and fee income drive returns through the rate cycle."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Huntington Bancshares Incorporated operates as the bank holding company for The Huntington National Bank that provides commercial, consumer, and mortgage banking services. It offers financial products and services to consumer and business customers, including deposits, lending, payments, mortgage banking, dealer financing, investment management, trust, brokerage, insurance, and other financial products and services.",
-      "The disclosed mix runs across Consumer & Business Banking at 77.3% and Commercial Banking at 22.9%. Headcount was 25,898 in the latest filing. Trailing revenue is $1.9B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The peer set is NU, FITB and KEY; net interest margin, provisioning and capital returns are the comparisons that matter."
+      "Huntington Bancshares Incorporated operates as the bank holding company for The Huntington National Bank that provides commercial, consumer, and mortgage banking services.",
+      "The operating margin is not meaningful on the current data. Funding costs and credit losses remain the main cost line, so the margin trend is the number to watch.",
+      "Capital is regulatory rather than physical: CET1, deposit funding and book value matter more than capex. Return on equity was 7.7%, and the relevant comparison is with other regional banks."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$1.9B on a trailing-twelve-month basis, with the latest quarter at $484M."
+        "title": "Revenue mix",
+        "detail": "Consumer & Business Banking at 77.3% and Commercial Banking at 22.9%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 164.0%; free-cash-flow margin 156.3%; net margin 133.3%."
+        "title": "Margin engine",
+        "detail": "The operating margin is not meaningful on the current data. Funding costs and credit losses are the cost line to watch."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $29.9B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Deposits and CET1 are the capital base; ROE 7.7%, ROIC 4.5%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 164.0% is the first clean profitability line. The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns.",
-      "A bank's balance sheet is its product, so net debt is less informative than deposit mix and capital ratios. Return on equity was 7.7%; for a bank, that return is shaped by leverage and credit costs rather than by a product gross margin."
+      "Net interest income, fees and credit costs drive revenue and margin. The edge is regional banking relationships.",
+      "The bank earns a spread between asset yields and deposit costs. For a bank, deposits and regulatory capital matter more than a conventional net-debt figure. Return on equity was 7.7%; the key variables are net interest margin, credit costs and capital returns."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.5% a year across the fiscal years in the dataset, and the latest quarter changed +14.2% year over year. Current-year estimates point to 35.1% revenue growth, with EPS of 1.54 in the reporting currency.",
-      "Return on equity of 7.7% is the filter to watch as revenue scales. The 19.6% revenue pace is the headline; net interest margin and provisions will decide how much reaches the bottom line."
+      "Reported revenue growth is not a clean like-for-like measure for a bank because the revenue line moves with rates and balance-sheet mix. The latest quarter (Q3 FY26) grew 14.2% year over year. The current-year consensus looks for 35.1% revenue growth, with EPS of 1.54 in the reporting currency.",
+      "The next leg depends on deposit growth and capital. For Huntington Bancshares, top-line growth only matters if it is priced above funding costs and credit losses."
     ],
     "bullets": [
       {
         "title": "Net interest income",
-        "detail": "Revenue growth is +19.6%. Loan and securities yields less funding costs are the core revenue line."
+        "detail": "Loan and securities yields less funding costs are the core revenue line. Revenue growth is 19.6%."
       },
       {
         "title": "Fee income",
-        "detail": "Advisory, asset management and trading diversify the revenue base. The current reading: the operating margin is 164.0%."
+        "detail": "Advisory, asset management and trading diversify the revenue base. Net interest margin and credit costs are the key variables; revenue growth is 19.6%."
       },
       {
         "title": "Capital returns",
-        "detail": "Return on equity is 7.7%. That is the metric the thesis depends on."
+        "detail": "Buybacks and dividends can grow per-share value when capital is abundant. Return on equity is 7.7%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is 164.0%, the net margin is 133.3% and diluted EPS is $1.21.",
-      "Return on equity was 7.7%. For a bank, return on invested capital is distorted by deposit funding, so net interest margin, credit costs and capital ratios are the more useful comparisons."
+      "For a bank, the operating margin is a spread measure and the reported history is not comparable across rate cycles. Return on equity was 7.7%, and diluted EPS was $1.21.",
+      "Return on equity was 7.7%. For a bank, return on invested capital is distorted by deposit funding; net interest margin, credit costs and capital ratios are the more useful comparisons."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $2.9B, a 156.3% margin. A bank's balance sheet is its product, so net debt is less informative than deposit mix and capital ratios. For a bank, cash flow is shaped by balance-sheet movements, so the margin is less comparable than it is for an industrial.",
-      "Operating cash flow was $2.5B, or 112.3% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $267M in the latest fiscal year."
+      "Free cash flow was $2.9B. Operating cash flow covered 112.3% of net income; reported profit is converting into cash cleanly. Capex absorbed 14.3% of revenue, which is a meaningful claim on cash.",
+      "For a bank, deposits and regulatory capital matter more than a conventional net-debt figure. Cash flow is shaped by balance-sheet movements, so the free-cash-flow margin is less comparable than it is for an industrial."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 12.0x trailing earnings, 9.6x EV/EBITDA and 19.6x EV/sales. The free-cash-flow yield is 9.8%. For a bank, price-to-book and P/E are more relevant than EV/EBITDA.",
-      "The peer comparison sets the company against NU, FITB and KEY; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $14.85, the shares trade at 12.0x trailing earnings and 9.6x EV/EBITDA, with a 9.8% free-cash-flow yield. The earnings yield is 8.3%. The earnings multiple is 5.8% above the 11.4x peer median.",
+      "The multiple is in line with the peer median, so the debate is company-specific. For a bank, price-to-book and P/E are more relevant than EV/EBITDA."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "19 analysts contribute to the third-party consensus. The mean target is $18.82, with a range of $17.00 to $22.50. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates point to 35.1% revenue growth, with EPS of 1.54 in the reporting currency. The estimate revisions in the dataset are 0.3% over 30 days and -3.3% over 90 days."
+      "19 analysts in the third-party consensus carry a mean target of $18.82, 26.7% above the latest close. The range runs from $17.00 to $22.50. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for 35.1% revenue growth, with EPS of 1.54 in the reporting currency. EPS estimates are up 0.3% over 30 days and down 3.3% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is deposit growth and capital versus credit and net interest margin.",
     "items": [
       {
-        "title": "Credit cycle",
+        "title": "Credit and net interest margin",
         "severity": "High",
-        "detail": "Loan losses rise in a downturn and can overwhelm revenue growth.",
+        "detail": "The main risk is credit and net interest margin.",
         "watch": "Provisions, charge-offs and non-performing loans."
       },
       {
@@ -146,9 +146,9 @@ export const HBAN: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Huntington Bancshares Incorporated produced $1.9B of trailing revenue at a 164.0% operating margin and a 156.3% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
-      "19 analysts in the third-party survey average $18.82 as of 2026-11-25, 26.7% above the latest close; the forecast is theirs, and this report does not adopt it as a target.",
-      "The factor percentiles put cash generation at 100/100 and balance sheet at 30/100, with the composite averaging 65/100. A 100/100 cash generation score against a 30/100 balance sheet score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on cash generation and the durability of 7.7% returns on equity. $6.6B of net debt is the weak link.",
+      "What would change the view is leverage falling below 1.2x EBITDA, not a single quarter. The key exposure is credit and net interest margin.",
+      "The scorecard puts the composite at 65/100. Focus on the cash generation-to-balance sheet spread rather than the average."
     ],
     "questions": [
       "How much of net interest income is rate-sensitive?",

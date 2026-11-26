@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const JCI: StockStory = {
   "ticker": "JCI",
   "kicker": "Industrial Automation · Building Products & Equipment",
-  "title": "Johnson Controls International plc: Building equipment and services",
-  "dek": "Johnson Controls International plc. reported $25.7B of trailing revenue at a 13.3% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Johnson Controls International: Building equipment and services",
+  "dek": "Johnson Controls International's revenue rose 8.8% to $25.7B, at a 13.3% operating margin. The key risk is construction and retrofit demand.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $25.7B trailing twelve months, +8.8% year over year.",
+    "Revenue: $25.7B, +8.8% year over year.",
     "Profitability: 13.3% operating margin and 11.1% net margin.",
     "Cash: $3.4B free cash flow, a 13.3% margin, against $8.7B of net debt.",
-    "Valuation: 28.5x trailing earnings and 22.1x EV/EBITDA at the latest close."
+    "Valuation: 28.5x trailing earnings and 22.1x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const JCI: StockStory = {
   "irUrl": "https://www.johnsoncontrols.com",
   "bigPicture": {
     "paragraphs": [
-      "Johnson Controls International plc. generated $25.7B of revenue over the last twelve months, +8.8% versus the prior year. The latest reported quarter was Q4 FY26, with $7.1B of revenue and a 14.9% operating margin. The shares closed at $135.52 on Nov 25, 2026, giving a market capitalization of $81.3B.",
-      "The largest disclosed segment is Americas at 67.8% of revenue. Geographically, United States leads at 57.5% of the disclosed split. Johnson Controls International plc. competes in Building Products & Equipment, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $81.3B, or 28.5x trailing earnings and 22.1x EV/EBITDA. The shares sit 52% of the way up their 52-week range ($108.41 to $160.41). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Johnson Controls International's revenue rose 8.8% to $25.7B at a 13.3% operating margin, generating $3.4B of free cash flow. The latest quarter (Q4 FY26) grew 10.4%.",
+      "Americas is 67.8% of revenue and EMEA is 19.9%. The US is the largest geography at 57.5% of revenue. The near-term driver is service growth and margin. The risk is construction and retrofit demand.",
+      "At $135.52, the equity is worth $81.3B, or 28.5x trailing earnings and 22.1x EV/EBITDA. The earnings multiple is 27.2% below the 39.2x peer median. The stock is 52% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Johnson Controls sells building equipment and services, a installation-and-aftermarket business tied to construction, efficiency retrofits and service contracts."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Johnson Controls International plc, together with its subsidiaries, engages in engineering, manufacturing, commissioning, and retrofitting building products and systems in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. The company designs, manufactures, sells, installs, and services heating, ventilating, air conditioning, controls, building management, refrigeration, integrated electronic security, integrated fire detection and suppression systems, and digital solutions.",
-      "The disclosed mix runs across Americas at 67.8%, EMEA at 19.9% and APAC at 12.3%. The company employed 84,000 people at the last reporting date. With $25.7B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The peer set is TT, AAON and BLDR; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Johnson Controls International plc, together with its subsidiaries, engages in engineering, manufacturing, commissioning, and retrofitting building products and systems in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific.",
+      "Johnson Controls International earned a 37.1% gross margin, and materials, labor and capacity absorbed 23.7% of revenue, leaving a 13.3% operating margin. That is 6.8 points above the peer median of 6.6%.",
+      "Capital spending runs at 1.8% of revenue, which is low relative to the revenue base. Net debt is $8.7B, or 2.1x EBITDA. Return on invested capital was 12.6%. That is 4.7 points above the peer median of 7.9%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$25.7B on a trailing-twelve-month basis, with the latest quarter at $7.1B."
+        "title": "Revenue mix",
+        "detail": "Americas at 67.8%, EMEA at 19.9% and APAC at 12.3%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 13.3%; free-cash-flow margin 13.3%; net margin 11.1%."
+        "title": "Margin engine",
+        "detail": "Gross margin 37.1%, operating margin 13.3%. Materials, labor and capacity are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $81.3B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 1.8% of revenue; $8.7B of net debt; ROIC 12.6%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 37.1% of revenue after cost of sales, or $9.5B. Operating expenses absorbed 23.7% of revenue, leaving a 13.3% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $8.7B, or 2.1x EBITDA. Return on invested capital was 12.6% and return on equity was 21.0%. The return is close enough to the cost of capital that small changes in margin matter."
+      "Industrial production, backlog and pricing drive revenue; utilization drives the margin. The edge is building-equipment installed base and service.",
+      "The operating margin is 13.3%, 6.8 points above the peer median of 6.6%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 1.0% a year across the fiscal years in the dataset, and the latest quarter changed +10.4% year over year. Current-year estimates call for $28.4B of revenue and $6.32 of EPS.",
-      "The operating margin of 13.3% and return on invested capital of 12.6% are the filters to watch as revenue scales. The 8.8% revenue pace and 13.3% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 1.0% a year from FY2019 to FY2026. The latest quarter (Q4 FY26) grew 10.4% year over year. The current-year consensus looks for $28.4B of revenue and $6.32 of EPS.",
+      "The next leg depends on service growth and margin. For Johnson Controls International, volume growth is only worth paying for if pricing covers input costs."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Orders already booked provide visibility into future revenue. The current reading: revenue growth is +8.8%."
+        "detail": "Orders already booked provide visibility into future revenue. Revenue growth is 8.8%."
       },
       {
         "title": "Aftermarket and services",
-        "detail": "The operating margin is 13.3%. The trend in that figure matters more than its level."
+        "detail": "Recurring service revenue can be more profitable than equipment. The operating margin is 13.3%."
       },
       {
         "title": "Price and productivity",
@@ -73,35 +73,35 @@ export const JCI: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 4.4% in FY2019 to 13.3% in FY2026. The trailing operating margin is 13.3%, the net margin is 11.1% and diluted EPS is $4.68.",
-      "Return on equity was 21.0% and return on invested capital was 12.6%. Return on equity of 21.0% is above the 12.6% return on invested capital, a gap that leverage or acquisition goodwill can explain."
+      "The operating margin moved from 4.4% in FY2019 to 13.3% in FY2026. The trailing operating margin is 13.3%, the net margin is 11.1%, and diluted EPS is $4.68, down 7.0% year over year.",
+      "The 8.4-point spread between return on equity and return on invested capital suggests some of the equity return comes from the balance sheet. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.4B, a 13.3% margin. Net debt is $8.7B, or 2.1x EBITDA. Capex absorbed 1.8% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $3.9B, or 135.7% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $465M in the latest fiscal year."
+      "Free cash flow was $3.4B, or 13.3% of revenue. Operating cash flow covered 135.7% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 1.8% of revenue, which is low relative to the revenue base.",
+      "Net debt is $8.7B, or 2.1x EBITDA. Interest cover is 15.4x. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 28.5x trailing earnings, 22.1x EV/EBITDA and 3.5x EV/sales. The free-cash-flow yield is 4.2%. Inverting the P/E gives an earnings yield of 3.5%; the cash-flow yield is 4.2%.",
-      "The peer comparison sets the company against TT, AAON and BLDR; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $135.52, the shares trade at 28.5x trailing earnings and 22.1x EV/EBITDA, with a 4.2% free-cash-flow yield. The earnings yield is 3.5%. The earnings multiple is 27.2% below the 39.2x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "21 analysts contribute to the third-party consensus. The mean target is $174.90, with a range of $136.00 to $201.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $28.4B of revenue and $6.32 of EPS. The estimate revisions in the dataset are 3.2% over 30 days and 4.8% over 90 days. If met, the estimate would mean growth of 10.8% from the current base."
+      "21 analysts in the third-party consensus carry a mean target of $174.90, 29.1% above the latest close. The range runs from $136.00 to $201.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $28.4B of revenue and $6.32 of EPS. EPS estimates are up 3.2% over 30 days and up 4.8% over 90 days. That implies 10.8% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is service growth and margin versus construction and retrofit demand.",
     "items": [
       {
-        "title": "Capital-spending cycle",
+        "title": "Construction and retrofit demand",
         "severity": "High",
-        "detail": "Industrial demand falls when customers delay projects.",
+        "detail": "The main risk is construction and retrofit demand.",
         "watch": "Order trends and backlog conversion."
       },
       {
@@ -146,9 +146,9 @@ export const JCI: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Johnson Controls International plc. produced $25.7B of trailing revenue at a 13.3% operating margin and a 13.3% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The published consensus mean is $174.90 (2026-11-25), 29.1% above the latest close; this report does not publish a target of its own. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put profitability at 52/100 and balance sheet at 24/100, with the composite averaging 39/100. The narrow range between profitability at 52/100 and balance sheet at 24/100 means the average is a fair summary."
+      "The investment case rests on profitability and the durability of 13.3% margins. $8.7B of net debt is the weak link.",
+      "What would change the view is leverage falling below 1.6x EBITDA, not a single quarter. The key exposure is construction and retrofit demand.",
+      "On the scorecard, the composite is 39/100. The spread between profitability and balance sheet is the useful part; the average hides it."
     ],
     "questions": [
       "How much revenue is recurring versus project-based?",

@@ -4,13 +4,13 @@ export const FITB: StockStory = {
   "ticker": "FITB",
   "kicker": "Banks & Insurance · Banks - Regional",
   "title": "Fifth Third Bancorp: A regional bank",
-  "dek": "Fifth Third Bancorp reported $12.3B of trailing revenue at a 26.5% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "dek": "Fifth Third Bancorp's revenue rose 23.5% to $12.3B, at a 26.5% operating margin. The key risk is credit losses or a compression in net interest margin.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $12.3B trailing twelve months, +23.5% year over year.",
+    "Revenue: $12.3B, +23.5% year over year.",
     "Profitability: 26.5% operating margin and 20.8% net margin.",
     "Cash: $2.8B free cash flow, a 22.6% margin, against $2.5B of net cash.",
-    "Valuation: 18.1x trailing earnings and 11.0x EV/EBITDA at the latest close."
+    "Valuation: 18.1x trailing earnings and 11.0x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const FITB: StockStory = {
   "irUrl": "https://www.53.com",
   "bigPicture": {
     "paragraphs": [
-      "Fifth Third Bancorp generated $12.3B of revenue over the last twelve months, +23.5% versus the prior year. The latest reported quarter was Q3 FY26, with $3.5B of revenue and a 31.7% operating margin. The shares closed at $51.40 on Nov 25, 2026, giving a market capitalization of $46.4B.",
-      "A reportable segment split is not available in the current dataset; the consolidated revenue line is the cleanest unit of analysis. Country-level revenue is not part of the filing extract used here.",
-      "At the latest close the equity is valued at $46.4B, or 18.1x trailing earnings and 11.0x EV/EBITDA. The shares sit 51% of the way up their 52-week range ($42.94 to $59.50). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "Fifth Third Bancorp's revenue rose 23.5% to $12.3B, with a 7.7% return on equity, generating $2.8B of free cash flow. The latest quarter (Q3 FY26) grew 38.9%.",
+      "Revenue is reported as one consolidated line. What could lift the return is deposit growth and capital. The thing to watch is credit losses or a compression in net interest margin.",
+      "At $51.40, the equity is worth $46.4B, or 18.1x trailing earnings and 11.0x EV/EBITDA. The earnings multiple is 59.4% above the 11.4x peer median. The stock is 51% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Fifth Third is a regional bank, so net interest margin, credit and fees drive earnings."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Fifth Third Bancorp operates as the bank holding company for Fifth Third Bank, National Association that provides a range of financial products and services in the United States. It operates through three segments: Commercial Banking, Consumer and Small Business Banking, and Wealth and Asset Management.",
-      "The company reports one consolidated revenue line rather than a segment split. Headcount was 25,069 in the latest filing. Trailing revenue is $12.3B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The peer set is NU, HBAN and KEY; net interest margin, provisioning and capital returns are the comparisons that matter."
+      "Fifth Third Bancorp operates as the bank holding company for Fifth Third Bank, National Association that provides a range of financial products and services in the United States.",
+      "The operating margin is a spread measure rather than a product margin: it reflects the difference between asset yields and funding costs after expenses. The relevant drivers are the loan book, deposit costs and credit losses rather than product pricing.",
+      "Capital is regulatory rather than physical: CET1, deposit funding and book value matter more than capex. Return on equity was 7.7%, and the relevant comparison is with other regional banks."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$12.3B on a trailing-twelve-month basis, with the latest quarter at $3.5B."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 26.5%; free-cash-flow margin 22.6%; net margin 20.8%."
+        "title": "Margin engine",
+        "detail": "Net interest margin and credit costs are the bridge between revenue and profit; the reported operating margin is a spread measure."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $46.4B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Deposits and CET1 are the capital base; ROE 7.7%, ROIC 5.0%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 26.5% is the first clean profitability line. The earnings cycle is driven by net interest income, credit costs, capital markets activity and capital returns.",
-      "A bank's balance sheet is its product, so net debt is less informative than deposit mix and capital ratios. Return on equity was 7.7%; for a bank, that return is shaped by leverage and credit costs rather than by a product gross margin."
+      "Net interest income, fees and credit costs drive revenue and margin. The edge is regional banking relationships.",
+      "The bank earns a spread between asset yields and deposit costs. For a bank, deposits and regulatory capital matter more than a conventional net-debt figure. Return on equity was 7.7%; the key variables are net interest margin, credit costs and capital returns."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 51.2% a year across the fiscal years in the dataset, and the latest quarter changed +38.9% year over year. Current-year estimates call for $12.9B of revenue and $3.03 of EPS.",
-      "Return on equity of 7.7% is the filter to watch as revenue scales. The 23.5% revenue pace is the headline; net interest margin and provisions will decide how much reaches the bottom line."
+      "Reported revenue growth is not a clean like-for-like measure for a bank because the revenue line moves with rates and balance-sheet mix. The latest quarter (Q3 FY26) grew 38.9% year over year. The current-year consensus looks for $12.9B of revenue and $3.03 of EPS.",
+      "The next leg depends on deposit growth and capital. For Fifth Third Bancorp, top-line growth only matters if it is priced above funding costs and credit losses."
     ],
     "bullets": [
       {
         "title": "Net interest income",
-        "detail": "Revenue growth is +23.5%. Loan and securities yields less funding costs are the core revenue line."
+        "detail": "Loan and securities yields less funding costs are the core revenue line. Revenue growth is 23.5%."
       },
       {
         "title": "Fee income",
-        "detail": "Advisory, asset management and trading diversify the revenue base. The current reading: the operating margin is 26.5%."
+        "detail": "Advisory, asset management and trading diversify the revenue base. Net interest margin and credit costs are the key variables; revenue growth is 23.5%."
       },
       {
         "title": "Capital returns",
-        "detail": "Return on equity is 7.7%. That is the number to compare with the company's own history."
+        "detail": "Buybacks and dividends can grow per-share value when capital is abundant. Return on equity is 7.7%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The reported operating margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is 26.5%, the net margin is 20.8% and diluted EPS is $2.92.",
-      "Return on equity was 7.7%. For a bank, return on invested capital is distorted by deposit funding, so net interest margin, credit costs and capital ratios are the more useful comparisons."
+      "For a bank, the operating margin is a spread measure and the reported history is not comparable across rate cycles. Return on equity was 7.7%, and diluted EPS was $2.92.",
+      "Return on equity was 7.7%. For a bank, return on invested capital is distorted by deposit funding; net interest margin, credit costs and capital ratios are the more useful comparisons."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $2.8B, a 22.6% margin. A bank's balance sheet is its product, so net debt is less informative than deposit mix and capital ratios. For a bank, cash flow is shaped by balance-sheet movements, so the margin is less comparable than it is for an industrial.",
-      "Operating cash flow was $4.5B, or 179.0% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $584M in the latest fiscal year."
+      "Free cash flow was $2.8B, or 22.6% of revenue. Operating cash flow covered 179.0% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 4.7% of revenue, which is low relative to the revenue base.",
+      "For a bank, deposits and regulatory capital matter more than a conventional net-debt figure. Cash flow is shaped by balance-sheet movements, so the free-cash-flow margin is less comparable than it is for an industrial."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 18.1x trailing earnings, 11.0x EV/EBITDA and 3.6x EV/sales. The free-cash-flow yield is 6.0%. For a bank, price-to-book and P/E are more relevant than EV/EBITDA.",
-      "The peer comparison sets the company against NU, HBAN and KEY; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $51.40, the shares trade at 18.1x trailing earnings and 11.0x EV/EBITDA, with a 6.0% free-cash-flow yield. The earnings yield is 5.5%. The earnings multiple is 59.4% above the 11.4x peer median.",
+      "The multiple is above the peer median, leaving less room for disappointment. For a bank, price-to-book and P/E are more relevant than EV/EBITDA. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "21 analysts contribute to the third-party consensus. The mean target is $61.54, with a range of $55.00 to $67.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $12.9B of revenue and $3.03 of EPS. The estimate revisions in the dataset are -0.6% over 30 days and -1.4% over 90 days. Set against trailing revenue, the estimate implies growth of 4.4%."
+      "21 analysts in the third-party consensus carry a mean target of $61.54, 19.7% above the latest close. The range runs from $55.00 to $67.00. The targets are tightly grouped, which reduces the information in the mean. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $12.9B of revenue and $3.03 of EPS. EPS estimates are down 0.6% over 30 days and down 1.4% over 90 days. That implies 4.4% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is deposit growth and capital versus credit losses or a compression in net interest margin.",
     "items": [
       {
-        "title": "Credit cycle",
+        "title": "Credit losses or a compression in net interest margin",
         "severity": "High",
-        "detail": "Loan losses rise in a downturn and can overwhelm revenue growth.",
+        "detail": "Credit losses or a compression in net interest margin would hit earnings.",
         "watch": "Provisions, charge-offs and non-performing loans."
       },
       {
@@ -146,9 +146,9 @@ export const FITB: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Fifth Third Bancorp produced $12.3B of trailing revenue at a 26.5% operating margin and a 22.6% free-cash-flow margin. Cash generation is the standout number, which makes the durability of the margin the central question.",
-      "21 analysts in the third-party survey average $61.54 as of 2026-11-25, 19.7% above the latest close; that is the analysts' view, attributed and dated, not a Stockmonk target. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put valuation at 74/100 and growth at 50/100, with the composite averaging 64/100. With valuation and growth only 24 points apart, the composite is a reasonable one-line description."
+      "The investment case rests on valuation and the durability of 7.7% returns on equity. The weak link is growth.",
+      "What would change the view is organic growth returning above 26.5%, not a single quarter. The key exposure is credit losses or a compression in net interest margin.",
+      "The scorecard puts the composite at 64/100. Focus on the valuation-to-growth spread rather than the average."
     ],
     "questions": [
       "How much of net interest income is rate-sensitive?",

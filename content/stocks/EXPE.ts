@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const EXPE: StockStory = {
   "ticker": "EXPE",
   "kicker": "Internet Platforms · Travel Services",
-  "title": "Expedia Group, Inc: An online travel agency",
-  "dek": "Expedia Group, Inc. reported $16.2B of trailing revenue at a 17.2% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Expedia Group: An online travel agency",
+  "dek": "Expedia Group's revenue rose 12.9% to $16.2B, at a 17.2% operating margin. The key risk is bookings and marketing efficiency.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $16.2B trailing twelve months, +12.9% year over year.",
+    "Revenue: $16.2B, +12.9% year over year.",
     "Profitability: 17.2% operating margin and 13.0% net margin.",
     "Cash: $3.7B free cash flow, a 23.1% margin, against $107M of net cash.",
-    "Valuation: 13.7x trailing earnings and 7.8x EV/EBITDA at the latest close."
+    "Valuation: 13.7x trailing earnings and 7.8x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const EXPE: StockStory = {
   "irUrl": "https://www.expediagroup.com",
   "bigPicture": {
     "paragraphs": [
-      "Expedia Group, Inc. generated $16.2B of revenue over the last twelve months, +12.9% versus the prior year. The latest reported quarter was Q3 FY26, with $4.9B of revenue and a 26.9% operating margin. The shares closed at $243.62 on Nov 25, 2026, giving a market capitalization of $28.9B.",
-      "The largest disclosed segment is B2 C at 64.3% of revenue. Geographically, United States leads at 59.1% of the disclosed split. Expedia Group, Inc. competes in Travel Services, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $28.9B, or 13.7x trailing earnings and 7.8x EV/EBITDA. The shares sit 37% of the way up their 52-week range ($185.34 to $342.00). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Expedia Group's revenue rose 12.9% to $16.2B at a 17.2% operating margin, generating $3.7B of free cash flow. The latest quarter (Q3 FY26) grew 11.9%.",
+      "B2 C is 64.3% of revenue and Business To Business is 32.9%. The US is the largest geography at 59.1% of revenue. The near-term driver is b2B and advertising. The risk is bookings and marketing efficiency.",
+      "At $243.62, the equity is worth $28.9B, or 13.7x trailing earnings and 7.8x EV/EBITDA. The earnings multiple is 19.3% below the 17.0x peer median. The stock is 37% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Expedia is an online travel agency, so bookings, take rate and marketing efficiency drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Expedia Group, Inc. operates as an online travel company in the United States and internationally. Expedia Group, Inc. is a Travel Services company within the Internet Platforms coverage group.",
-      "The disclosed mix runs across B2 C at 64.3%, Business To Business at 32.9% and Trivago at 4.2%. The company employed 16,000 people at the last reporting date. The revenue base is $16.2B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The peer set is BKNG, RCL and ABNB; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Expedia Group, Inc. operates as an online travel company in the United States and internationally.",
+      "Expedia Group does not report a product gross margin; fulfillment, incentives and technology sit inside the operating line, leaving a 17.2% operating margin. That is 7.8 points below the peer median of 25.0%.",
+      "Capital spending runs at 4.7% of revenue, which is low relative to the revenue base. The balance sheet carries $107M of net cash. Return on invested capital was 31.9%. That is 13.2 points above the peer median of 18.6%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$16.2B on a trailing-twelve-month basis, with the latest quarter at $4.9B."
+        "title": "Revenue mix",
+        "detail": "B2 C at 64.3%, Business To Business at 32.9% and Trivago at 4.2%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 17.2%; free-cash-flow margin 23.1%; net margin 13.0%."
+        "title": "Margin engine",
+        "detail": "Operating margin 17.2%. Fulfillment, incentives and technology are the main cost line, so the operating margin is the scorecard for cost discipline."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $28.9B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 4.7% of revenue; $107M of net cash; ROIC 31.9%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 17.2% is the first clean profitability line. The model depends on users, engagement, transaction volume and the take rate earned on each interaction.",
-      "The balance sheet carries $107M of net cash. Return on invested capital was 31.9% and return on equity was 127.5%. That is comfortably above most cost-of-capital estimates, which is what lets reinvestment create value."
+      "User growth, transaction volume and take rate drive revenue. The edge is travel demand and brand portfolio.",
+      "The operating margin is 17.2%, 7.8 points below the peer median of 25.0%. The shape of the incremental margin will decide whether growth creates value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 4.0% a year across the fiscal years in the dataset, and the latest quarter changed +11.9% year over year. Current-year estimates call for $16.4B of revenue and $21.36 of EPS.",
-      "The operating margin of 17.2% and return on invested capital of 31.9% are the filters to watch as revenue scales. Growth of 12.9% against a 17.2% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 4.0% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 11.9% year over year. The current-year consensus looks for $16.4B of revenue and $21.36 of EPS.",
+      "The next leg depends on b2B and advertising. For Expedia Group, user growth is only worth paying for if take rate and contribution margin hold."
     ],
     "bullets": [
       {
         "title": "User and engagement growth",
-        "detail": "More active users and frequency expand the inventory available to monetise. The current reading: revenue growth is +12.9%."
+        "detail": "More active users and frequency expand the inventory available to monetise. Revenue growth is 12.9%."
       },
       {
         "title": "Take rate",
-        "detail": "The operating margin is 17.2%. The direction of travel matters more than the absolute level."
+        "detail": "The share of transaction value retained determines revenue per unit of GMV. The operating margin is 17.2%."
       },
       {
         "title": "Adjacent services",
@@ -73,35 +73,35 @@ export const EXPE: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 6.4% in FY2018 to 12.7% in FY2025. The trailing operating margin is 17.2%, the net margin is 13.0% and diluted EPS is $17.16.",
-      "Return on equity was 127.5% and return on invested capital was 31.9%. Return on equity of 127.5% is well above the 31.9% return on invested capital; the difference is the balance sheet, not the business."
+      "The operating margin moved from 6.4% in FY2018 to 12.7% in FY2025. The trailing operating margin is 17.2%, the net margin is 13.0%, and diluted EPS is $17.16, up 64.2% year over year.",
+      "Return on equity of 127.5% is well above the 31.9% return on invested capital; leverage or acquisition goodwill explains most of the gap. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.7B, a 23.1% margin. The balance sheet carries $107M of net cash. With capital spending at 4.7% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $3.9B, or 299.8% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $770M in the latest fiscal year."
+      "Free cash flow was $3.7B, or 23.1% of revenue. Operating cash flow covered 299.8% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 4.7% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $107M of net cash. Interest cover is 7.9x. The net cash position is optionality: it can fund investment, acquisitions or returns."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 13.7x trailing earnings, 7.8x EV/EBITDA and 1.8x EV/sales. The free-cash-flow yield is 13.0%. The trailing earnings yield is 7.3%, against a free-cash-flow yield of 13.0%.",
-      "The peer comparison sets the company against BKNG, RCL and ABNB; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $243.62, the shares trade at 13.7x trailing earnings and 7.8x EV/EBITDA, with a 13.0% free-cash-flow yield. The earnings yield is 7.3%. The earnings multiple is 19.3% below the 17.0x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "33 analysts contribute to the third-party consensus. The mean target is $332.03, with a range of $235.00 to $430.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $16.4B of revenue and $21.36 of EPS. The estimate revisions in the dataset are 2.3% over 30 days and 3.1% over 90 days. If met, the estimate would mean growth of 1.1% from the current base."
+      "33 analysts in the third-party consensus carry a mean target of $332.03, 36.3% above the latest close. The range runs from $235.00 to $430.00. The target range is wide enough that the mean should be read with caution. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $16.4B of revenue and $21.36 of EPS. EPS estimates are up 2.3% over 30 days and up 3.1% over 90 days. That implies 1.1% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is b2B and advertising versus bookings and marketing efficiency.",
     "items": [
       {
-        "title": "Competition for users",
+        "title": "Bookings and marketing efficiency",
         "severity": "High",
-        "detail": "Switching costs are low and new formats can take attention quickly.",
+        "detail": "The main risk is bookings and marketing efficiency.",
         "watch": "Monthly users, engagement and churn."
       },
       {
@@ -146,9 +146,9 @@ export const EXPE: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Expedia Group, Inc. produced $16.2B of trailing revenue at a 17.2% operating margin and a 23.1% free-cash-flow margin. The business converts an unusually large share of revenue into cash, and the multiple depends on that continuing.",
-      "Third-party analysts put the mean target at $332.03 as of 2026-11-25, 36.3% above the latest close; it is included for attribution, not as a Stockmonk call. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put valuation at 87/100 and balance sheet at 62/100, with the composite averaging 72/100. The readings are close enough together that the average carries most of the information; valuation is the strongest at 87/100."
+      "The investment case rests on valuation and the durability of 17.2% margins. $107M of net cash is the weak link.",
+      "What would change the view is leverage falling below 1.0x EBITDA, not a single quarter. The key exposure is bookings and marketing efficiency.",
+      "On the scorecard, the composite is 72/100. The spread between valuation and balance sheet is the useful part; the average hides it."
     ],
     "questions": [
       "How much growth is users versus take rate?",

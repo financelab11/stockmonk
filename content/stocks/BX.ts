@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const BX: StockStory = {
   "ticker": "BX",
   "kicker": "Capital Markets · Asset Management",
-  "title": "Blackstone Inc: The largest alternative manager",
-  "dek": "Blackstone Inc. reported $16.1B of trailing revenue at a 50.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Blackstone: The largest alternative manager",
+  "dek": "Blackstone's revenue rose 22.1% to $16.1B, at a 50.7% operating margin. The key risk is fundraising and real-estate valuations.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $16.1B trailing twelve months, +22.1% year over year.",
+    "Revenue: $16.1B, +22.1% year over year.",
     "Profitability: 50.7% operating margin and 22.1% net margin.",
     "Cash: $5.8B free cash flow, a 36.2% margin, against $10.5B of net debt.",
-    "Valuation: 41.2x trailing earnings and 21.6x EV/EBITDA at the latest close."
+    "Valuation: 41.2x trailing earnings and 21.6x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const BX: StockStory = {
   "irUrl": "https://www.blackstone.com",
   "bigPicture": {
     "paragraphs": [
-      "Blackstone Inc. generated $16.1B of revenue over the last twelve months, +22.1% versus the prior year. The latest reported quarter was Q3 FY26, with $3.1B of revenue and a 50.0% operating margin. The shares closed at $118.60 on Nov 25, 2026, giving a market capitalization of $146.4B.",
-      "The company reports one consolidated revenue line rather than a segment split, so the total is the base for the analysis. A regional breakdown is missing from the current filing extract, so the analysis stays at the consolidated level.",
-      "At the latest close the equity is valued at $146.4B, or 41.2x trailing earnings and 21.6x EV/EBITDA. The shares sit 27% of the way up their 52-week range ($101.73 to $165.14). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Blackstone's revenue rose 22.1% to $16.1B at a 50.7% operating margin, generating $5.8B of free cash flow. The latest quarter (Q3 FY26) fell 0.8%. The next test is whether the current profitability can be sustained.",
+      "Revenue is reported as one consolidated line. The near-term driver is fundraising and carry realisations. The risk is fundraising and real-estate valuations. The absence of a segment split puts more weight on the group margin and cash conversion.",
+      "At $118.60, the equity is worth $146.4B, or 41.2x trailing earnings and 21.6x EV/EBITDA. The earnings multiple is 63.0% above the 25.3x peer median. The stock is 27% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Blackstone is the largest alternative manager, so fundraising, real-estate valuations and carry realisations drive earnings."
   },
   "whatItDoes": {
     "paragraphs": [
       "Blackstone Inc. is an alternative asset management firm specializing in private equity, venture capital, real estate, hedge fund solutions, credit, secondary funds of funds, public debt and equity and multi-asset class strategies.",
-      "There is no separate segment disclosure in the current extract. The company employed 5,285 people at the last reporting date. With $16.1B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The peer set is BLK, AMP and APO; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Compensation is the largest cost, so operating leverage depends on fee growth per employee. The operating margin was 50.7%. That is 27.6 points above the peer median of 23.1%.",
+      "The balance sheet supports the funds rather than a product business. Return on equity was 40.2%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$16.1B on a trailing-twelve-month basis, with the latest quarter at $3.1B."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 50.7%; free-cash-flow margin 36.2%; net margin 22.1%."
+        "title": "Margin engine",
+        "detail": "Operating margin 50.7%. Compensation and fund expenses are the main cost line, so the margin depends on spreading the cost base over more revenue."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $146.4B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Fee-related earnings and fund balances are the capital base; ROE 40.2%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 50.7% is the first clean profitability line. Earnings depend on assets under management, fundraising, fee rates and the carry realised on prior vintages.",
-      "The balance sheet supports the funds rather than a product business, which makes net debt less informative than fee streams. Return on equity was 40.2%; fee-related earnings and carried interest drive that return."
+      "Assets under management, fundraising and carry drive revenue. The edge is scale in alternatives and a real-estate franchise.",
+      "The manager earns fees on assets under management and performance fees on carried interest. For an asset manager, fee-related earnings and fund balances matter more than net debt. Return on equity was 40.2%; fundraising, fee rates and realisations drive the model."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 11.3% a year across the fiscal years in the dataset, and the latest quarter changed -0.8% year over year. Current-year estimates call for $14.8B of revenue and $5.93 of EPS.",
-      "The operating margin of 50.7% and return on invested capital of 30.7% are the filters to watch as revenue scales. Growth of 22.1% on a 50.7% operating margin is a high-quality combination if both hold."
+      "Revenue compounded at 11.3% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) fell 0.8% year over year. The current-year consensus looks for $14.8B of revenue and $5.93 of EPS.",
+      "The next leg depends on fundraising and carry realisations. For Blackstone, asset growth is only worth paying for if fee rates and fundraising hold. The consensus estimate is the first test; the second is whether incremental revenue carries the same margin as the base."
     ],
     "bullets": [
       {
         "title": "Assets under management",
-        "detail": "Market appreciation and net inflows compound the fee base. The current reading: revenue growth is +22.1%."
+        "detail": "Market appreciation and net inflows compound the fee base. Revenue growth is 22.1%."
       },
       {
         "title": "Fundraising",
-        "detail": "The operating margin is 50.7%. The next data point will show whether the trend is intact."
+        "detail": "New commitments convert into management fees and future carry. The operating margin is 50.7%."
       },
       {
         "title": "Realisation",
@@ -73,35 +73,35 @@ export const BX: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 51.4% in FY2018 to 49.6% in FY2025. The trailing operating margin is 50.7%, the net margin is 22.1% and diluted EPS is $4.50.",
-      "Return on equity was 40.2%. Fundraising and carry drive the equity return, so ROIC is a secondary measure for this model. Fundraising and realisations are the trends to follow from here."
+      "The operating margin moved from 51.4% in FY2018 to 49.6% in FY2025. The trailing operating margin is 50.7%, the net margin is 22.1%, and diluted EPS is $4.50, up 28.9% year over year.",
+      "Return on equity was 40.2%. For an asset manager, fee-related earnings and carried interest explain that return better than return on invested capital. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $5.8B, a 36.2% margin. The balance sheet supports the funds rather than a product business, which makes net debt less informative than fee streams. For an asset manager, consolidated cash flow includes fund-level balances, so the margin is not directly comparable to an operating company.",
-      "Operating cash flow was $4.7B, or 154.4% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $115.7M in the latest fiscal year."
+      "Free cash flow was $5.8B, or 36.2% of revenue. Operating cash flow covered 154.4% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 0.7% of revenue, which is low relative to the revenue base.",
+      "For an asset manager, fee-related earnings and fund balances matter more than net debt. Consolidated cash flow includes fund-level balances, so the margin is not directly comparable to an operating company."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 41.2x trailing earnings, 21.6x EV/EBITDA and 9.8x EV/sales. The free-cash-flow yield is 4.0%. For an asset manager, fee-related earnings and distributable earnings are more relevant than EV/EBITDA.",
-      "The peer comparison sets the company against BLK, AMP and APO; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $118.60, the shares trade at 41.2x trailing earnings and 21.6x EV/EBITDA, with a 4.0% free-cash-flow yield. The earnings yield is 2.4%. The earnings multiple is 63.0% above the 25.3x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment. For an asset manager, fee-related earnings and distributable earnings are more relevant than EV/EBITDA."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "23 analysts contribute to the third-party consensus. The mean target is $139.04, with a range of $118.00 to $169.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $14.8B of revenue and $5.93 of EPS. The estimate revisions in the dataset are 0.3% over 30 days and -1.4% over 90 days. If met, the estimate would mean a decline of 8.1% from the current base."
+      "23 analysts in the third-party consensus carry a mean target of $139.04, 17.2% above the latest close. The range runs from $118.00 to $169.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $14.8B of revenue and $5.93 of EPS. EPS estimates are up 0.3% over 30 days and down 1.4% over 90 days. That implies an 8.1% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is fundraising and carry realisations versus fundraising and real-estate valuations.",
     "items": [
       {
-        "title": "Capital markets",
+        "title": "Fundraising and real-estate valuations",
         "severity": "High",
-        "detail": "A closed IPO or M&A market delays exits and carry.",
+        "detail": "The main risk is fundraising and real-estate valuations.",
         "watch": "Exit activity, realisations and carry pipeline."
       },
       {
@@ -146,9 +146,9 @@ export const BX: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Blackstone Inc. produced $16.1B of trailing revenue at a 50.7% operating margin and a 36.2% free-cash-flow margin. The free-cash-flow margin is the strongest part of that record; the rest of the report tests whether it can be sustained.",
-      "The published consensus mean is $139.04 (2026-11-25), 17.2% above the latest close; it is included for attribution, not as a Stockmonk call. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put profitability at 93/100 and valuation at 30/100, with the composite averaging 63/100. The gap between profitability at 93/100 and valuation at 30/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on profitability and the durability of 50.7% margins. The weak link is valuation.",
+      "What would change the view is the multiple falling below 32.9x earnings, not a single quarter. The key exposure is fundraising and real-estate valuations.",
+      "On the scorecard, the composite is 63/100. The spread between profitability and valuation is the useful part; the average hides it."
     ],
     "questions": [
       "How much of earnings is recurring management fee?",

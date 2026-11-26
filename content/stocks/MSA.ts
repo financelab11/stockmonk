@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const MSA: StockStory = {
   "ticker": "MSA",
   "kicker": "Industrial Automation · Security & Protection Services",
-  "title": "The financial engine behind MSA Safety Incorporated",
-  "dek": "MSA Safety Incorporated reported $2B of trailing revenue at a 20.2% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "MSA Safety: 20.2% margins and the price being paid",
+  "dek": "MSA Safety's revenue rose 8.1% to $2B, at a 20.2% operating margin. The key risk is industrial capex and regulation.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $2B trailing twelve months, +8.1% year over year.",
+    "Revenue: $2B, +8.1% year over year.",
     "Profitability: 20.2% operating margin and 15.0% net margin.",
     "Cash: $322M free cash flow, a 16.0% margin, against $967.1M of net debt.",
-    "Valuation: 22.2x trailing earnings and 15.8x EV/EBITDA at the latest close."
+    "Valuation: 22.2x trailing earnings and 15.8x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const MSA: StockStory = {
   "irUrl": "https://www.msasafety.com",
   "bigPicture": {
     "paragraphs": [
-      "MSA Safety Incorporated generated $2B of revenue over the last twelve months, +8.1% versus the prior year. The latest reported quarter was Q3 FY26, with $536.4M of revenue and a 16.4% operating margin. The shares closed at $174.48 on Nov 25, 2026, giving a market capitalization of $6.7B.",
-      "Americas accounts for 67.3% of disclosed revenue. Revenue is disclosed across 2 geographies, with United States the largest at 50.3%. MSA Safety Incorporated competes in Security & Protection Services, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $6.7B, or 22.2x trailing earnings and 15.8x EV/EBITDA. The shares sit 35% of the way up their 52-week range ($155.78 to $208.92). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "MSA Safety's revenue rose 8.1% to $2B at a 20.2% operating margin, generating $322M of free cash flow. The latest quarter (Q3 FY26) grew 14.5%.",
+      "Americas is 67.3% of revenue and International is 32.7%. The US is the largest geography at 50.3% of revenue. What could lift the return is new products and margin. The thing to watch is industrial capex and regulation.",
+      "At $174.48, the equity is worth $6.7B, or 22.2x trailing earnings and 15.8x EV/EBITDA. The earnings multiple is 5.1% below the 23.4x peer median. The stock is 35% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "MSA Safety sells breathing apparatus, gas detection and fall protection, a safety-equipment business where industrial capex and regulation drive demand."
   },
   "whatItDoes": {
     "paragraphs": [
-      "MSA Safety Incorporated develops, manufactures, and supplies safety products and technology solutions that protect workers and facility infrastructures worldwide. The company offers breathing apparatus products, including self-contained breathing apparatus; firefighter helmets and protective apparel; and fixed gas and flame detection systems, such as fixed gas detection monitoring systems, flame detectors and open-path infrared gas detectors, and refrigerant detection and identification solution, as well as hand-held portable gas detection instruments to detect the presence or absence of various gases in the air.",
-      "The disclosed mix runs across Americas at 67.3% and International at 32.7%. Headcount was 5,300 in the latest filing. The revenue base is $2B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "Against AIT, AME and AZEK, the relevant tests are pricing power, capital intensity and cash conversion."
+      "MSA Safety Incorporated develops, manufactures, and supplies safety products and technology solutions that protect workers and facility infrastructures worldwide.",
+      "MSA Safety earned a 47.3% gross margin, and materials, labor and capacity absorbed 27.1% of revenue, leaving a 20.2% operating margin. That is 7.2 points above the peer median of 13.0%.",
+      "Capex is 3.4% of revenue, so the business is asset-light. Net debt is $967.1M, or 2.0x EBITDA. Return on invested capital was 11.9%. That is 4.6 points below the peer median of 16.5%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$2B on a trailing-twelve-month basis, with the latest quarter at $536.4M."
+        "title": "Revenue mix",
+        "detail": "Americas at 67.3% and International at 32.7%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 20.2%; free-cash-flow margin 16.0%; net margin 15.0%."
+        "title": "Margin engine",
+        "detail": "Gross margin 47.3%, operating margin 20.2%. Materials, labor and capacity are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $6.7B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.4% of revenue; $967.1M of net debt; ROIC 11.9%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 47.3%, operating margin is 20.2% and net margin is 15.0%. Gross profit was $952.5M, and 27.1% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "Net debt is $967.1M, or 2.0x EBITDA. Return on invested capital was 11.9% and return on equity was 21.1%. That is neither clearly good nor clearly bad without knowing the cost of capital."
+      "Industrial production, backlog and pricing drive revenue; utilization drives the margin. The edge is safety-equipment brand and specification.",
+      "The operating margin is 20.2%, 7.2 points above the peer median of 13.0%. The next dollar of revenue matters less than the margin it carries."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 4.7% a year across the fiscal years in the dataset, and the latest quarter changed +14.5% year over year. Current-year estimates call for $2.1B of revenue and $9.08 of EPS.",
-      "The operating margin of 20.2% and return on invested capital of 11.9% are the filters to watch as revenue scales. Growth of 8.1% against a 20.2% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 4.7% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 14.5% year over year. The current-year consensus looks for $2.1B of revenue and $9.08 of EPS.",
+      "The next leg depends on new products and margin. For MSA Safety, volume growth is only worth paying for if pricing covers input costs. The next filing should show whether the pace came from demand, pricing or acquisitions."
     ],
     "bullets": [
       {
         "title": "Backlog",
-        "detail": "Revenue growth is +8.1%. Orders already booked provide visibility into future revenue."
+        "detail": "Orders already booked provide visibility into future revenue. Revenue growth is 8.1%."
       },
       {
         "title": "Aftermarket and services",
-        "detail": "Recurring service revenue can be more profitable than equipment. The current reading: the operating margin is 20.2%."
+        "detail": "Recurring service revenue can be more profitable than equipment. The operating margin is 20.2%."
       },
       {
         "title": "Price and productivity",
-        "detail": "Return on invested capital is 11.9%. The next data point will show whether the trend is intact."
+        "detail": "Pricing actions and cost programmes protect margins through cycles. Return on invested capital is 11.9%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 12.8% in FY2018 to 19.8% in FY2025. The trailing operating margin is 20.2%, the net margin is 15.0% and diluted EPS is $7.78.",
-      "Return on equity was 21.1% and return on invested capital was 11.9%. Equity returns exceed invested-capital returns by 9.2%, which is more than operating performance alone would explain. A peer median is a useful anchor, but the company's own trajectory is the better test."
+      "The operating margin moved from 12.8% in FY2018 to 19.8% in FY2025. The trailing operating margin is 20.2%, the net margin is 15.0%, and diluted EPS is $7.78, up 9.7% year over year.",
+      "The 9.2-point spread between return on equity and return on invested capital suggests some of the equity return comes from the balance sheet. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $322M, a 16.0% margin. Net debt is $967.1M, or 2.0x EBITDA. With capital spending at 3.4% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $363.9M, or 130.5% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $68.4M in the latest fiscal year."
+      "Free cash flow was $322M, or 16.0% of revenue. Operating cash flow covered 130.5% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 3.4% of revenue, which is low relative to the revenue base.",
+      "Net debt is $967.1M, or 2.0x EBITDA. Interest cover is 10.8x. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 22.2x trailing earnings, 15.8x EV/EBITDA and 3.8x EV/sales. The free-cash-flow yield is 4.8%. The trailing earnings yield is 4.5%, against a free-cash-flow yield of 4.8%.",
-      "The peer comparison sets the company against AIT, AME and AZEK; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $174.48, the shares trade at 22.2x trailing earnings and 15.8x EV/EBITDA, with a 4.8% free-cash-flow yield. The earnings yield is 4.5%. The earnings multiple is 5.1% below the 23.4x peer median.",
+      "The multiple is in line with the peer median, so the debate is company-specific. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "6 analysts contribute to the third-party consensus. The mean target is $205.50, with a range of $190.00 to $220.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $2.1B of revenue and $9.08 of EPS. The estimate revisions in the dataset are -0.2% over 30 days and -1.1% over 90 days. Set against trailing revenue, the estimate implies growth of 3.8%."
+      "6 analysts in the third-party consensus carry a mean target of $205.50, 17.8% above the latest close. The range runs from $190.00 to $220.00. The targets are tightly grouped, which reduces the information in the mean. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $2.1B of revenue and $9.08 of EPS. EPS estimates are down 0.2% over 30 days and down 1.1% over 90 days. That implies 3.8% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is new products and margin versus industrial capex and regulation.",
     "items": [
       {
-        "title": "Capital-spending cycle",
+        "title": "Industrial capex and regulation",
         "severity": "High",
-        "detail": "Industrial demand falls when customers delay projects.",
+        "detail": "The main risk is industrial capex and regulation.",
         "watch": "Order trends and backlog conversion."
       },
       {
@@ -146,9 +146,9 @@ export const MSA: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "MSA Safety Incorporated produced $2B of trailing revenue at a 20.2% operating margin and a 16.0% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Analysts contributing to the third-party consensus carry a $205.50 mean target as of 2026-11-25, 17.8% above the latest close; the forecast is theirs, and this report does not adopt it as a target.",
-      "The factor percentiles put profitability at 60/100 and balance sheet at 27/100, with the composite averaging 48/100. The readings are close enough together that the average carries most of the information; profitability is the strongest at 60/100."
+      "The investment case rests on profitability and the durability of 20.2% margins. $967.1M of net debt is the weak link.",
+      "What would change the view is leverage falling below 1.5x EBITDA, not a single quarter. The key exposure is industrial capex and regulation.",
+      "The scorecard puts the composite at 48/100. Focus on the profitability-to-balance sheet spread rather than the average."
     ],
     "questions": [
       "How much revenue is recurring versus project-based?",

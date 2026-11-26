@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const CNC: StockStory = {
   "ticker": "CNC",
   "kicker": "Healthcare Services & Devices · Healthcare Plans",
-  "title": "Centene Corporation: A managed-care company focused on Medicaid",
-  "dek": "Centene Corporation reported $178.9B of trailing revenue at a 0.6% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Centene: A managed-care company focused on Medicaid",
+  "dek": "Centene's revenue rose 7.7% to $178.9B, at a 0.6% operating margin. The key risk is medicaid redeterminations and acuity.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $178.9B trailing twelve months, +7.7% year over year.",
+    "Revenue: $178.9B, +7.7% year over year.",
     "Profitability: 0.6% operating margin and 0.8% net margin.",
     "Cash: $3.9B free cash flow, a 2.2% margin, against $8B of net cash.",
-    "Valuation: 22.2x trailing earnings and 10.9x EV/EBITDA at the latest close."
+    "Valuation: 22.2x trailing earnings and 10.9x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const CNC: StockStory = {
   "irUrl": "https://www.centene.com",
   "bigPicture": {
     "paragraphs": [
-      "Centene Corporation generated $178.9B of revenue over the last twelve months, +7.7% versus the prior year. The latest reported quarter was Q3 FY26, with $45.1B of revenue and a -0.7% operating margin. The shares closed at $65.53 on Nov 25, 2026, giving a market capitalization of $32.4B.",
-      "Medicaid is 63.3% of the disclosed revenue mix. Country-level revenue is not part of the filing extract used here. Centene Corporation competes in Healthcare Plans, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $32.4B, or 22.2x trailing earnings and 10.9x EV/EBITDA. The shares sit 73% of the way up their 52-week range ($31.63 to $78.08). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Centene's revenue rose 7.7% to $178.9B at a 0.6% operating margin, generating $3.9B of free cash flow. The latest quarter (Q3 FY26) was flat. The scale of the revenue base matters less than the margin it earns.",
+      "Medicaid is 63.3% of revenue and Commercial is 24.1%. The catalyst is rate updates and membership stabilisation. The exposure is medicaid redeterminations and acuity. The mix matters because the segments earn different margins and grow at different rates.",
+      "At $65.53, the equity is worth $32.4B, or 22.2x trailing earnings and 10.9x EV/EBITDA. The earnings multiple is 55.1% above the 14.3x peer median. The stock is 73% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Centene is a managed-care company focused on Medicaid, so enrollment, acuity and state rate updates drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Centene Corporation operates as a managed care company that provides programs and services to under-insured families, and commercial organizations in the United States. It operates through four segments: Medicaid, Medicare, Commercial, and Other.",
-      "The disclosed mix runs across Medicaid at 63.3%, Commercial at 24.1% and Other Bets at 9.7%. The last disclosure put headcount at 61,100 people. Trailing revenue is $178.9B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The closest listed comparisons are UNH, CI and ELV; the useful question is how Centene Corporation's margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Centene Corporation operates as a managed care company that provides programs and services to under-insured families, and commercial organizations in the United States.",
+      "Medical claims absorb the bulk of premium revenue, leaving a 0.6% operating margin. That is 2.9 points below the peer median of 3.4%. A few points of medical-cost trend can wipe out the profit.",
+      "Capital is regulated and held against medical reserves, so the medical loss ratio and reserve development matter more than capex. Return on equity was 6.6%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$178.9B on a trailing-twelve-month basis, with the latest quarter at $45.1B."
+        "title": "Revenue mix",
+        "detail": "Medicaid at 63.3%, Commercial at 24.1% and Other Bets at 9.7%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 0.6%; free-cash-flow margin 2.2%; net margin 0.8%."
+        "title": "Margin engine",
+        "detail": "Operating margin 0.6%. Medical claims are the main cost line, so the medical loss ratio or combined ratio is the bridge to profit."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $32.4B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Reserves and the investment portfolio are the capital base; ROE 6.6%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $178.9B of revenue, $16.1B remained after cost of sales. The 8.5% operating-expense load brought that down to a 0.6% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "The balance sheet carries $8B of net cash. Return on invested capital was 2.0% and return on equity was 6.6%. That leaves little room above the cost of capital."
+      "Premium revenue is set at enrollment; medical claims decide the margin. The edge is medicaid footprint and government relationships.",
+      "The insurer keeps the difference between premium revenue and medical claims. The margin is thin enough that a few points of medical-cost trend can wipe out the profit. Membership mix and rate filings are the other variables to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 17.5% a year across the fiscal years in the dataset, and the latest quarter changed +0.5% year over year. Current-year estimates call for $200.2B of revenue and $5.29 of EPS.",
-      "The operating margin of 0.6% and return on invested capital of 2.0% are the filters to watch as revenue scales. Neither the 7.7% growth nor the 0.6% margin is extreme; the combination is what matters."
+      "Revenue compounded at 17.5% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) was flat year over year. The current-year consensus looks for $200.2B of revenue and $5.29 of EPS.",
+      "The next leg depends on rate updates and membership stabilisation. For Centene, growth is only worth paying for if new members are priced above their medical cost trend."
     ],
     "bullets": [
       {
         "title": "Enrollment",
-        "detail": "Membership growth expands the premium base, but only if the risk mix is priced correctly. Revenue growth is +7.7%."
+        "detail": "Membership growth expands the premium base, but only if the risk mix is priced correctly. Revenue growth is 7.7%."
       },
       {
         "title": "Premium rates",
-        "detail": "The operating margin is 0.6%. Rate filings and renewals determine revenue per member against expected medical cost."
+        "detail": "Rate filings and renewals determine revenue per member against expected medical cost. The operating margin is 0.6%."
       },
       {
         "title": "Medical cost management",
-        "detail": "Network, utilization and pharmacy programmes determine how much of the premium survives claims. The current reading: return on invested capital is 2.0%."
+        "detail": "Network, utilization and pharmacy programmes determine how much of the premium survives claims. Return on invested capital is 2.0%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 2.6% in FY2018 to -4.4% in FY2025. The trailing operating margin is 0.6%, the net margin is 0.8% and diluted EPS is $2.92.",
-      "Return on equity was 6.6% and return on invested capital was 2.0%. Return on invested capital of 2.0% is close to the 6.6% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from 2.6% in FY2018 to -4.4% in FY2025. The trailing operating margin is 0.6%, the net margin is 0.8%, and diluted EPS is $2.92, down 127.1% year over year.",
+      "Return on equity of 6.6% and return on invested capital of 2.0% are close enough that operating performance explains most of the return. For a managed-care insurer, the medical loss ratio and reserve development are the better tests of return quality."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.9B, a 2.2% margin. The balance sheet carries $8B of net cash. Capital expenditure was 0.4% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $767M in the latest fiscal year."
+      "Free cash flow was $3.9B, or 2.2% of revenue. Capex absorbed 0.4% of revenue, which is low relative to the revenue base. Capex and working capital are the relevant cash variables here.",
+      "For a managed-care insurer, reserves and investment income matter more than net debt. The balance sheet is a source of flexibility rather than a constraint."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 22.2x trailing earnings, 10.9x EV/EBITDA and 0.1x EV/sales. The free-cash-flow yield is 12.2%. The 4.5% earnings yield and 12.2% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against UNH, CI and ELV; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $65.53, the shares trade at 22.2x trailing earnings and 10.9x EV/EBITDA, with a 12.2% free-cash-flow yield. The earnings yield is 4.5%. The earnings multiple is 55.1% above the 14.3x peer median.",
+      "The multiple is above the peer median, leaving less room for disappointment. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "18 analysts contribute to the third-party consensus. The mean target is $76.11, with a range of $62.00 to $90.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $200.2B of revenue and $5.29 of EPS. The estimate revisions in the dataset are 8.4% over 30 days and 8.3% over 90 days. That implies growth of 11.9% over the trailing twelve months."
+      "18 analysts in the third-party consensus carry a mean target of $76.11, 16.1% above the latest close. The range runs from $62.00 to $90.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $200.2B of revenue and $5.29 of EPS. EPS estimates are up 8.4% over 30 days and up 8.3% over 90 days. That implies 11.9% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is rate updates and membership stabilisation versus medicaid redeterminations and acuity.",
     "items": [
       {
-        "title": "Medical cost trend",
+        "title": "Medicaid redeterminations and acuity",
         "severity": "High",
-        "detail": "Utilization and acuity can rise faster than premiums, compressing the medical loss ratio.",
+        "detail": "The main risk is medicaid redeterminations and acuity.",
         "watch": "Medical loss ratio, utilization and acuity."
       },
       {
@@ -146,9 +146,9 @@ export const CNC: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Centene Corporation produced $178.9B of trailing revenue at a 0.6% operating margin and a 2.2% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "The third-party consensus mean is $76.11 as of 2026-11-25, 16.1% above the latest close; it should be read as the published consensus, not as this publication's view. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put balance sheet at 90/100 and cash generation at 16/100, with the composite averaging 43/100. A 90/100 balance sheet score against a 16/100 cash generation score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on balance sheet and the durability of 0.6% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above 5.2%, not a single quarter. The key exposure is medicaid redeterminations and acuity.",
+      "The composite of 43/100 blends a strong balance sheet reading with a weak cash generation one; the gap is the story."
     ],
     "questions": [
       "Is medical cost trend running above or below premium rates?",

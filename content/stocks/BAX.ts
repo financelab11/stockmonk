@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const BAX: StockStory = {
   "ticker": "BAX",
   "kicker": "Healthcare Services & Devices · Medical Instruments & Supplies",
-  "title": "Baxter International Inc: Hospital equipment and supplies",
-  "dek": "Baxter International Inc. reported $11.6B of trailing revenue at a -1.9% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Baxter International: Hospital equipment and supplies",
+  "dek": "Baxter International's revenue rose 5.3% to $11.6B, at a -1.9% operating margin. The key risk is margin recovery and integration execution.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $11.6B trailing twelve months, +5.3% year over year.",
+    "Revenue: $11.6B, +5.3% year over year.",
     "Profitability: -1.9% operating margin and -6.2% net margin.",
     "Cash: $558M free cash flow, a 4.8% margin, against $1.1B of net cash.",
-    "Valuation: no meaningful trailing earnings multiple and 17.8x EV/EBITDA at the latest close."
+    "Valuation: no meaningful earnings multiple and 17.8x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const BAX: StockStory = {
   "irUrl": "https://www.baxter.com",
   "bigPicture": {
     "paragraphs": [
-      "Baxter International Inc. generated $11.6B of revenue over the last twelve months, +5.3% versus the prior year. The latest reported quarter was Q3 FY26, with $3B of revenue and a 7.6% operating margin. The shares closed at $27.48 on Nov 25, 2026, giving a market capitalization of $14.2B.",
-      "Medical Products & Therapies contributes 47.1% of the disclosed revenue mix. By geography, United States is the largest disclosed market at 54.4% of revenue. Baxter International Inc. competes in Medical Instruments & Supplies, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $14.2B, or no meaningful trailing earnings multiple and 17.8x EV/EBITDA. The shares sit 82% of the way up their 52-week range ($15.73 to $30.00). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Baxter International's revenue rose 5.3% to $11.6B at a -1.9% operating margin, generating $558M of free cash flow. The latest quarter (Q3 FY26) grew 5.0%.",
+      "Medical Products & Therapies is 47.1% of revenue and Healthcare Systems & Technologies is 27.3%. The US is the largest geography at 54.4% of revenue. The upside is portfolio simplification and margin programme. What would break it is margin recovery and integration execution.",
+      "At $27.48, the equity is worth $14.2B, or no meaningful earnings multiple and 17.8x EV/EBITDA. The stock is 82% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Baxter sells hospital equipment and supplies, a medtech business rebuilding margins after portfolio changes and operational setbacks."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Baxter International Inc., through its subsidiaries, provides a portfolio of healthcare products in the United States. It reports in the Healthcare sector and is classified in Healthcare Services & Devices coverage.",
-      "The disclosed mix runs across Medical Products & Therapies at 47.1%, Healthcare Systems & Technologies at 27.3% and Pharmaceuticals at 22.2%. Its latest filing lists 37,500 employees. The revenue base is $11.6B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "ISRG and BDX provide the closest reference points for margin, growth and valuation."
+      "Baxter International Inc., through its subsidiaries, provides a portfolio of healthcare products in the United States.",
+      "Baxter International earned a 30.1% gross margin, and manufacturing, R&D and hospital selling absorbed 32.0% of revenue, leaving a -1.9% operating margin. That is 21.9 points below the peer median of 20.0%.",
+      "Capex is 4.4% of revenue, so the business is asset-light. The balance sheet carries $1.1B of net cash. Return on invested capital was -2.4%. That is 13.1 points below the peer median of 10.7%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$11.6B on a trailing-twelve-month basis, with the latest quarter at $3B."
+        "title": "Revenue mix",
+        "detail": "Medical Products & Therapies at 47.1%, Healthcare Systems & Technologies at 27.3% and Pharmaceuticals at 22.2%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -1.9%; free-cash-flow margin 4.8%; net margin -6.2%."
+        "title": "Margin engine",
+        "detail": "Gross margin 30.1%, operating margin -1.9%. Manufacturing, R&D and hospital selling are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $14.2B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 4.4% of revenue; $1.1B of net cash; ROIC -2.4%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 30.1%, operating margin is -1.9% and net margin is -6.2%. Gross profit was $3.5B, and 32.0% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "The balance sheet carries $1.1B of net cash. Return on invested capital was -2.4% and return on equity was -11.1%. With returns below zero, growth only creates value if the model reaches profitability at scale."
+      "Procedure volumes and the installed base drive consumable and device revenue. The edge is hospital relationships and a broad medical-products portfolio.",
+      "The operating margin is -1.9%, 21.9 points below the peer median of 20.0%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 0.2% a year across the fiscal years in the dataset, and the latest quarter changed +5.0% year over year. Current-year estimates call for $11.7B of revenue and $2.11 of EPS.",
-      "The operating margin of -1.9% and return on invested capital of -2.4% are the filters to watch as revenue scales. Growth of 5.3% against a -1.9% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 0.2% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 5.0% year over year. The current-year consensus looks for $11.7B of revenue and $2.11 of EPS.",
+      "The next leg depends on portfolio simplification and margin programme. For Baxter International, procedure growth is only worth paying for if the installed base and reimbursement hold."
     ],
     "bullets": [
       {
         "title": "Procedure growth",
-        "detail": "Revenue growth is +5.3%. Compare that with the prior year before drawing a conclusion."
+        "detail": "More procedures expand the consumable and device opportunity. Revenue growth is 5.3%."
       },
       {
         "title": "Installed base",
@@ -67,42 +67,42 @@ export const BAX: StockStory = {
       },
       {
         "title": "New indications",
-        "detail": "Return on invested capital is -2.4%. Label expansions and clinical data widen the addressable market."
+        "detail": "Label expansions and clinical data widen the addressable market. Return on invested capital is -2.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 14.3% in FY2018 to -2.7% in FY2025. The trailing operating margin is -1.9%, the net margin is -6.2% and diluted EPS is -$1.42.",
-      "Return on equity was -11.1% and return on invested capital was -2.4%. Negative equity and invested-capital returns mean the loss is operational, not financial engineering. A peer median is a useful anchor, but the company's own trajectory is the better test."
+      "The operating margin moved from 14.3% in FY2018 to -2.7% in FY2025. The trailing operating margin is -1.9%, the net margin is -6.2%, and diluted EPS is -$1.42, up 115.2% year over year.",
+      "With both returns below zero, the thesis depends on reaching profitability, not on financial engineering. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $558M, a 4.8% margin. The balance sheet carries $1.1B of net cash. With capital spending at 4.4% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $513M in the latest fiscal year."
+      "Free cash flow was $558M, or 4.8% of revenue. Capex absorbed 4.4% of revenue, which is low relative to the revenue base. Operating cash flow and the balance sheet are the better tests at this stage.",
+      "The balance sheet carries $1.1B of net cash. Interest cover is -5.8x. Management can fund the next phase without needing the capital markets. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, 17.8x EV/EBITDA and 1.1x EV/sales. The free-cash-flow yield is 3.9%. Earnings are not a useful anchor here, so the free-cash-flow yield is the cleaner valuation reference.",
-      "The peer comparison sets the company against ISRG and BDX; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $27.48, the shares trade at no meaningful earnings multiple and 17.8x EV/EBITDA, with a 3.9% free-cash-flow yield. A multiple only means something relative to growth, returns and the cost of capital.",
+      "No earnings multiple is meaningful, so the market is valuing the asset base or the pipeline rather than current profit. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "12 analysts contribute to the third-party consensus. The mean target is $27.25, with a range of $23.00 to $40.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $11.7B of revenue and $2.11 of EPS. The estimate revisions in the dataset are 2.9% over 30 days and 2.8% over 90 days. The estimate is consistent with growth of 1.0% on the trailing revenue figure."
+      "12 analysts in the third-party consensus carry a mean target of $27.25, 0.8% below the latest close. The range runs from $23.00 to $40.00. Analysts disagree on the outcome; the mean is a weak summary of a wide range. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $11.7B of revenue and $2.11 of EPS. EPS estimates are up 2.9% over 30 days and up 2.8% over 90 days. That implies 1.0% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is portfolio simplification and margin programme versus margin recovery and integration execution.",
     "items": [
       {
-        "title": "Operating losses",
+        "title": "Margin recovery and integration execution",
         "severity": "High",
-        "detail": "The trailing operating margin is -1.9%, which means the current cost base is not covered by revenue.",
-        "watch": "Path to operating breakeven and cash runway."
+        "detail": "The main risk is margin recovery and integration execution.",
+        "watch": "Payer decisions and coding updates."
       },
       {
         "title": "Clinical and regulatory",
@@ -146,9 +146,9 @@ export const BAX: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Baxter International Inc. produced $11.6B of trailing revenue at a -1.9% operating margin and a 4.8% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Analysts contributing to the third-party consensus carry a $27.25 mean target as of 2026-11-25, 0.8% below the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target.",
-      "The factor percentiles put balance sheet at 82/100 and profitability at 14/100, with the composite averaging 49/100. The average hides a strong balance sheet reading and a weak profitability one, which is why the spread is the more useful description."
+      "The investment case rests on balance sheet and the durability of -1.9% margins. The weak link is profitability.",
+      "What would change the view is return on invested capital rising above -0.4%, not a single quarter. The key exposure is margin recovery and integration execution.",
+      "The scorecard averages 49/100, but the dispersion matters more: balance sheet is 82/100 and profitability is 14/100."
     ],
     "questions": [
       "How much revenue is recurring versus capital equipment?",

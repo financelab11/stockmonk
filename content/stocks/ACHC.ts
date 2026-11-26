@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const ACHC: StockStory = {
   "ticker": "ACHC",
   "kicker": "Healthcare Services & Devices · Medical Care Facilities",
-  "title": "Acadia Healthcare Company, Inc: A behavioral-health operator whose growth comes from beds",
-  "dek": "Acadia Healthcare Company, Inc. reported $3.4B of trailing revenue at a -31.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Acadia Healthcare Company: A behavioral-health operator whose growth comes from beds",
+  "dek": "Acadia Healthcare Company's revenue rose 4.5% to $3.4B, at a -31.7% operating margin. The key risk is labor shortages and reimbursement pressure.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $3.4B trailing twelve months, +4.5% year over year.",
+    "Revenue: $3.4B, +4.5% year over year.",
     "Profitability: -31.7% operating margin and -33.1% net margin.",
     "Cash: -$23.9M free cash flow, a -0.7% margin, against $2.2B of net debt.",
-    "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
+    "Valuation: no meaningful earnings multiple and no meaningful EV/EBITDA multiple."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const ACHC: StockStory = {
   "irUrl": "https://www.acadiahealthcare.com",
   "bigPicture": {
     "paragraphs": [
-      "Acadia Healthcare Company, Inc. generated $3.4B of revenue over the last twelve months, +4.5% versus the prior year. The latest reported quarter was Q3 FY26, with $895.3M of revenue and a 6.3% operating margin. The shares closed at $35.35 on Nov 25, 2026, giving a market capitalization of $3.3B.",
-      "United States Facilities contributes 100.0% of the disclosed revenue mix. A regional breakdown is missing from the current filing extract, so the analysis stays at the consolidated level. The moat is local facility density and referral relationships; behavioral health is hard to replicate because licensure, staffing and community trust take years.",
-      "At the latest close the equity is valued at $3.3B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 85% of the way up their 52-week range ($11.43 to $39.70). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Acadia Healthcare Company's revenue rose 4.5% to $3.4B at a -31.7% operating margin, burning $23.9M of cash. The latest quarter (Q3 FY26) grew 5.1%. The consensus estimate and the current multiple frame the near-term debate.",
+      "United States Facilities is the whole revenue base. The upside is occupancy and rate improvement at acquired facilities, plus evidence that labor cost per patient is stabilizing. What would break it is labor shortages and reimbursement pressure.",
+      "At $35.35, the equity is worth $3.3B, or no meaningful earnings multiple and no meaningful EV/EBITDA multiple. The stock is 85% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
-    "quote": "Acadia is a behavioral-health operator whose growth comes from beds, acquisitions and payer mix rather than from a single blockbuster product. The EBITDA multiple assumes the acquisition pipeline keeps adding beds at similar returns while leverage comes down."
+    "quote": "Acadia is a behavioral-health operator whose growth comes from beds, acquisitions and payer mix rather than from a single blockbuster product."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Acadia Healthcare Company, Inc. provides behavioral healthcare services in the United States and Puerto Rico. It reports in the Healthcare sector and is classified in Healthcare Services & Devices coverage.",
-      "Revenue is reported at the consolidated level only. Its latest filing lists 19,000 employees. With $3.4B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "DVA, EHC and HCA provide the closest reference points for margin, growth and valuation."
+      "Acadia Healthcare Company, Inc. provides behavioral healthcare services in the United States and Puerto Rico.",
+      "Acadia Healthcare Company does not report a product gross margin; operating costs sit inside the operating line, leaving a -31.7% operating margin. That is 46.6 points below the peer median of 15.0%.",
+      "Capex is 16.8% of revenue, so the business is capital-hungry. Net debt is $2.2B. Return on invested capital was -19.5%. That is 35.7 points below the peer median of 16.2%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$3.4B on a trailing-twelve-month basis, with the latest quarter at $895.3M."
+        "title": "Revenue mix",
+        "detail": "United States Facilities is the consolidated business at 100.0% of revenue."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -31.7%; free-cash-flow margin -0.7%; net margin -33.1%."
+        "title": "Margin engine",
+        "detail": "Operating margin -31.7%. Operating costs are the main cost line, so the margin depends on spreading the cost base over more revenue."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $3.3B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 16.8% of revenue; $2.2B of net debt; ROIC -19.5%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of -31.7% is the first clean profitability line. Revenue depends on utilization, reimbursement and payer mix, while labor and capacity determine the cost of serving each patient.",
-      "Net debt is $2.2B, or n/a EBITDA. Return on invested capital was -19.5% and return on equity was -55.8%. The negative return means the capital base is not earning its cost; the question is whether scale or a margin recovery fixes that."
+      "Revenue is converted into profit after operating costs; the mix between recurring and transactional revenue decides how much of the margin is repeatable. The moat is local facility density and referral relationships; behavioral health is hard to replicate because licensure, staffing and community trust take years.",
+      "The operating margin is -31.7%, 46.6 points below the peer median of 15.0%. The shape of the incremental margin will decide whether growth creates value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.2% a year across the fiscal years in the dataset, and the latest quarter changed +5.1% year over year. Current-year estimates call for $3.5B of revenue and $1.74 of EPS.",
-      "The next catalyst is occupancy and rate improvement at acquired facilities, plus evidence that labor cost per patient is stabilizing. The operating margin of -31.7% and return on invested capital of -19.5% are the filters to watch as revenue scales. The 4.5% revenue pace and -31.7% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 8.2% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 5.1% year over year. The current-year consensus looks for $3.5B of revenue and $1.74 of EPS.",
+      "The next leg depends on occupancy and rate improvement at acquired facilities, plus evidence that labor cost per patient is stabilizing. For Acadia Healthcare Company, the quality of growth depends on how much comes from volume, price and acquisitions rather than from buying revenue."
     ],
     "bullets": [
       {
         "title": "Utilization",
-        "detail": "Revenue growth is +4.5%. The direction of travel matters more than the absolute level."
+        "detail": "Patient volumes and procedures drive revenue before price. Revenue growth is 4.5%."
       },
       {
         "title": "Reimbursement",
@@ -67,39 +67,39 @@ export const ACHC: StockStory = {
       },
       {
         "title": "Capacity and mix",
-        "detail": "Return on invested capital is -19.5%. Beds, clinicians and service mix determine how much volume can be converted into margin."
+        "detail": "Beds, clinicians and service mix determine how much volume can be converted into margin. Return on invested capital is -19.5%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 3.5% in FY2018 to -32.2% in FY2025. The trailing operating margin is -31.7%, the net margin is -33.1% and diluted EPS is -$12.43.",
-      "Return on equity was -55.8% and return on invested capital was -19.5%. With negative returns on both equity and invested capital, the business is consuming capital rather than earning on it."
+      "The operating margin moved from 3.5% in FY2018 to -32.2% in FY2025. The trailing operating margin is -31.7%, the net margin is -33.1%, and diluted EPS is -$12.43.",
+      "With both returns below zero, the thesis depends on reaching profitability, not on financial engineering. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$23.9M, a -0.7% margin. Net debt is $2.2B, or n/a EBITDA. Capex absorbed 16.8% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $571.8M in the latest fiscal year."
+      "Free cash flow was -$23.9M, or -0.7% of revenue. Capex absorbed 16.8% of revenue, which is a meaningful claim on cash. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "Net debt is $2.2B. Interest cover is -7.1x. The test is whether that cash is reinvested at a return above the cost of capital. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 1.6x EV/sales. The free-cash-flow yield is -0.7%. Earnings are not a useful anchor here, so the free-cash-flow yield is the cleaner valuation reference.",
-      "The EBITDA multiple assumes the acquisition pipeline keeps adding beds at similar returns while leverage comes down. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $35.35, the shares trade at no meaningful earnings multiple and no meaningful EV/EBITDA multiple, with a -0.7% free-cash-flow yield. The valuation debate is about durability, not the next quarter.",
+      "The EBITDA multiple assumes the acquisition pipeline keeps adding beds at similar returns while leverage comes down. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "14 analysts contribute to the third-party consensus. The mean target is $39.07, with a range of $19.00 to $46.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $3.5B of revenue and $1.74 of EPS. The estimate revisions in the dataset are 12.2% over 30 days and 12.2% over 90 days. The estimate is consistent with growth of 1.2% on the trailing revenue figure."
+      "14 analysts in the third-party consensus carry a mean target of $39.07, 10.5% above the latest close. The range runs from $19.00 to $46.00. The target range is wide enough that the mean should be read with caution. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $3.5B of revenue and $1.74 of EPS. EPS estimates are up 12.2% over 30 days and up 12.2% over 90 days. That implies 1.2% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is the one that matters most for the current thesis; the rest are the sector risks that would change the earnings path.",
+    "intro": "The central tension is occupancy and rate improvement at acquired facilities, plus evidence that labor cost per patient is stabilizing versus labor shortages and reimbursement pressure.",
     "items": [
       {
-        "title": "The main risk",
+        "title": "Labor shortages and reimbursement pressure",
         "severity": "High",
         "detail": "Labor shortages and reimbursement pressure can leave new beds understaffed and underpaid.",
         "watch": "Payer mix and rate updates."
@@ -146,9 +146,9 @@ export const ACHC: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Acadia Healthcare Company, Inc. produced $3.4B of trailing revenue at a -31.7% operating margin and a -0.7% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The consensus target is $39.07 as of 2026-11-25, 10.5% above the latest close; the figure belongs to the analysts who published it, not to this report. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 100/100 and profitability at 6/100, with the composite averaging 38/100. The gap between valuation at 100/100 and profitability at 6/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on valuation and the durability of -31.7% margins. The weak link is profitability.",
+      "What would change the view is return on invested capital rising above -17.5%, not a single quarter. The key exposure is labor shortages and reimbursement pressure.",
+      "The scorecard averages 38/100, but the dispersion matters more: valuation is 100/100 and profitability is 6/100."
     ],
     "questions": [
       "How much of growth is volume versus rate?",

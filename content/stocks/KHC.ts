@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const KHC: StockStory = {
   "ticker": "KHC",
   "kicker": "Consumer Staples · Packaged Foods",
-  "title": "The Kraft Heinz Company: Mature food brands",
-  "dek": "The Kraft Heinz Company reported $24.8B of trailing revenue at a -13.4% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "The Kraft Heinz: Mature food brands",
+  "dek": "The Kraft Heinz's revenue was flat at $24.8B, at a -13.4% operating margin. The key risk is volume pressure and brand relevance.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $24.8B trailing twelve months, -1.5% year over year.",
+    "Revenue: $24.8B, -1.5% year over year.",
     "Profitability: -13.4% operating margin and -14.0% net margin.",
     "Cash: $3.5B free cash flow, a 14.3% margin, against $15.2B of net debt.",
-    "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
+    "Valuation: no meaningful earnings multiple and no meaningful EV/EBITDA multiple."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const KHC: StockStory = {
   "irUrl": "https://www.kraftheinzcompany.com",
   "bigPicture": {
     "paragraphs": [
-      "The Kraft Heinz Company generated $24.8B of revenue over the last twelve months, -1.5% versus the prior year. The latest reported quarter was Q3 FY26, with $6.1B of revenue and a 14.3% operating margin. The shares closed at $26.26 on Nov 25, 2026, giving a market capitalization of $31.1B.",
-      "The largest disclosed segment is North America at 74.5% of revenue. Geographically, United States leads at 67.3% of the disclosed split. The Kraft Heinz Company competes in Packaged Foods, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $31.1B, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 74% of the way up their 52-week range ($21.04 to $28.09). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "The Kraft Heinz's revenue was flat at $24.8B at a -13.4% operating margin, generating $3.5B of free cash flow. The latest quarter (Q3 FY26) fell 2.0%.",
+      "North America is 74.5% of revenue and International is 14.2%. The US is the largest geography at 67.3% of revenue. The near-term driver is pricing and brand reinvestment. The risk is volume pressure and brand relevance.",
+      "At $26.26, the equity is worth $31.1B, or no meaningful earnings multiple and no meaningful EV/EBITDA multiple. The stock is 74% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Kraft Heinz owns mature food brands, so volume recovery, pricing and brand reinvestment determine whether the portfolio can grow again."
   },
   "whatItDoes": {
     "paragraphs": [
-      "The Kraft Heinz Company, together with its subsidiaries, manufactures and markets food and beverage products in North America and internationally. Its products include condiments, sauces, dressings, and spreads; cheese, frozen potato products, and other frozen meals; meal kits, frozen snacks, and pickles; dry packaged desserts, refrigerated ready to eat desserts, and other dessert toppings; ready to drink and powdered beverages, and liquid concentrates; American sliced and recipe cheeses; mainstream coffee, coffee pods, and premium coffee; and cold cuts, bacon, and hot dogs.",
-      "The disclosed mix runs across North America at 74.5%, International at 14.2% and Emerging Markets at 11.3%. The company employed 35,000 people at the last reporting date. With $24.8B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The peer set is CAG, HRL and LW; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "The Kraft Heinz Company, together with its subsidiaries, manufactures and markets food and beverage products in North America and internationally.",
+      "The Kraft Heinz earned a 33.5% gross margin, and cost of goods, marketing and distribution absorbed 47.0% of revenue, leaving a -13.4% operating margin. That is 18.2 points below the peer median of 4.7%.",
+      "Capital spending runs at 3.2% of revenue, which is low relative to the revenue base. Net debt is $15.2B. Return on invested capital was -5.0%. That is 8.6 points below the peer median of 3.7%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$24.8B on a trailing-twelve-month basis, with the latest quarter at $6.1B."
+        "title": "Revenue mix",
+        "detail": "North America at 74.5%, International at 14.2% and Emerging Markets at 11.3%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -13.4%; free-cash-flow margin 14.3%; net margin -14.0%."
+        "title": "Margin engine",
+        "detail": "Gross margin 33.5%, operating margin -13.4%. Cost of goods, marketing and distribution are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $31.1B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.2% of revenue; $15.2B of net debt; ROIC -5.0%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 33.5% of revenue after cost of sales, or $8.3B. Operating expenses absorbed 47.0% of revenue, leaving a -13.4% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $15.2B, or n/a EBITDA. Return on invested capital was -5.0% and return on equity was -9.6%. The capital base is currently earning less than nothing; scale has to change that."
+      "Volume, price and mix drive revenue; input costs and marketing drive the margin. The edge is brand portfolio and shelf space.",
+      "The operating margin is -13.4%, 18.2 points below the peer median of 4.7%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -0.7% a year across the fiscal years in the dataset, and the latest quarter changed -2.0% year over year. Current-year estimates call for $24.7B of revenue and $2.09 of EPS.",
-      "The operating margin of -13.4% and return on invested capital of -5.0% are the filters to watch as revenue scales. The trailing decline of 1.5% means the margin has to be defended on a smaller base."
+      "Revenue compounded at -0.7% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) fell 2.0% year over year. The current-year consensus looks for $24.7B of revenue and $2.09 of EPS.",
+      "The next leg depends on pricing and brand reinvestment. The top line is shrinking, so the margin has to be defended on a smaller base."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Same-store or same-customer growth shows demand without new locations. The current reading: revenue growth is -1.5%."
+        "detail": "Same-store or same-customer growth shows demand without new locations. Revenue growth is -1.5%."
       },
       {
         "title": "Unit growth",
-        "detail": "The operating margin is -13.4%. The trend in that figure matters more than its level."
+        "detail": "New stores, products or markets add revenue but also fixed costs. The operating margin is -13.4%."
       },
       {
         "title": "Margin mix",
@@ -73,36 +73,36 @@ export const KHC: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -38.8% in FY2018 to -18.7% in FY2025. The trailing operating margin is -13.4%, the net margin is -14.0% and diluted EPS is -$2.93.",
-      "Return on equity was -9.6% and return on invested capital was -5.0%. Both measures sit below zero, so there is no leverage effect to separate out. Both should be read against the company's own history before they are compared with a peer median."
+      "The operating margin moved from -38.8% in FY2018 to -18.7% in FY2025. The trailing operating margin is -13.4%, the net margin is -14.0%, and diluted EPS is -$2.93, down 21.4% year over year.",
+      "The business is consuming capital rather than earning on it; scale has to change that. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $3.5B, a 14.3% margin. Net debt is $15.2B, or n/a EBITDA. Capex absorbed 3.2% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $801M in the latest fiscal year."
+      "Free cash flow was $3.5B, or 14.3% of revenue. Capex absorbed 3.2% of revenue, which is low relative to the revenue base. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "Net debt is $15.2B. Interest cover is -5.1x. The test is whether that cash is reinvested at a return above the cost of capital. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 1.9x EV/sales. The free-cash-flow yield is 11.4%. Without a meaningful earnings multiple, the cash-flow yield and the asset base carry more of the valuation work.",
-      "The peer comparison sets the company against CAG, HRL and LW; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $26.26, the shares trade at no meaningful earnings multiple and no meaningful EV/EBITDA multiple, with an 11.4% free-cash-flow yield. The market's expectation is embedded in the price; the question is whether it is too high or too low.",
+      "No earnings multiple is meaningful, so the market is valuing the asset base or the pipeline rather than current profit. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "17 analysts contribute to the third-party consensus. The mean target is $25.15, with a range of $20.00 to $41.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $24.7B of revenue and $2.09 of EPS. The estimate revisions in the dataset are 2.2% over 30 days and 2.0% over 90 days. If met, the estimate would mean a decline of 0.4% from the current base."
+      "17 analysts in the third-party consensus carry a mean target of $25.15, 4.3% below the latest close. The range runs from $20.00 to $41.00. Analysts disagree on the outcome; the mean is a weak summary of a wide range. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $24.7B of revenue and $2.09 of EPS. EPS estimates are up 2.2% over 30 days and up 2.0% over 90 days. That implies a 0.4% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is pricing and brand reinvestment versus volume pressure and brand relevance.",
     "items": [
       {
-        "title": "Operating losses",
+        "title": "Volume pressure and brand relevance",
         "severity": "High",
-        "detail": "The trailing operating margin is -13.4%, which means the current cost base is not covered by revenue.",
-        "watch": "Path to operating breakeven and cash runway."
+        "detail": "The main risk is volume pressure and brand relevance.",
+        "watch": "Comparable sales and transaction counts."
       },
       {
         "title": "Input and labour costs",
@@ -146,9 +146,9 @@ export const KHC: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "The Kraft Heinz Company produced $24.8B of trailing revenue at a -13.4% operating margin and a 14.3% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The published consensus mean is $25.15 (2026-11-25), 4.3% below the latest close; this report does not publish a target of its own. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 100/100 and profitability at 10/100, with the composite averaging 47/100. The gap between valuation at 100/100 and profitability at 10/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on valuation and the durability of -13.4% margins. The weak link is profitability.",
+      "What would change the view is return on invested capital rising above -3.0%, not a single quarter. The key exposure is volume pressure and brand relevance.",
+      "On the scorecard, the composite is 47/100. The spread between valuation and profitability is the useful part; the average hides it."
     ],
     "questions": [
       "Is growth coming from traffic or prices?",

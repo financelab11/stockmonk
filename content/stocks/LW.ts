@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const LW: StockStory = {
   "ticker": "LW",
   "kicker": "Consumer Staples · Packaged Foods",
-  "title": "Lamb Weston Holdings, Inc: Frozen potato products",
-  "dek": "Lamb Weston Holdings, Inc. reported $6.6B of trailing revenue at a 7.8% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Lamb Weston Holdings: Frozen potato products",
+  "dek": "Lamb Weston Holdings' revenue rose 2.6% to $6.6B, at a 7.8% operating margin. The key risk is restaurant traffic and capacity.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $6.6B trailing twelve months, +2.6% year over year.",
+    "Revenue: $6.6B, +2.6% year over year.",
     "Profitability: 7.8% operating margin and 3.8% net margin.",
     "Cash: $411.9M free cash flow, a 6.2% margin, against $3.7B of net debt.",
-    "Valuation: 28.4x trailing earnings and 11.9x EV/EBITDA at the latest close."
+    "Valuation: 28.4x trailing earnings and 11.9x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const LW: StockStory = {
   "irUrl": "https://www.lambweston.com",
   "bigPicture": {
     "paragraphs": [
-      "Lamb Weston Holdings, Inc. generated $6.6B of revenue over the last twelve months, +2.6% versus the prior year. The latest reported quarter was Q1 FY27, with $1.7B of revenue and a 4.9% operating margin. The shares closed at $52.47 on Nov 25, 2026, giving a market capitalization of $7.2B.",
-      "Segments North America contributes 66.5% of the disclosed revenue mix. By geography, United States is the largest disclosed market at 64.9% of revenue. Lamb Weston Holdings, Inc. competes in Packaged Foods, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $7.2B, or 28.4x trailing earnings and 11.9x EV/EBITDA. The shares sit 64% of the way up their 52-week range ($37.62 to $61.00). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Lamb Weston Holdings' revenue rose 2.6% to $6.6B at a 7.8% operating margin, generating $411.9M of free cash flow. The latest quarter (Q1 FY27) grew 0.7%.",
+      "Segments North America is 66.5% of revenue and Segments International is 33.5%. The US is the largest geography at 64.9% of revenue. The upside is pricing and capacity utilization. What would break it is restaurant traffic and capacity.",
+      "At $52.47, the equity is worth $7.2B, or 28.4x trailing earnings and 11.9x EV/EBITDA. The earnings multiple is 22.9% below the 36.8x peer median. The stock is 64% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Lamb Weston makes frozen potato products, a volume food business where restaurant traffic, pricing and capacity utilization determine margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Lamb Weston Holdings, Inc. engages in the production, distribution, and marketing of frozen potato products in the United States, Canada, Mexico, and internationally. It reports in the Consumer Defensive sector and is classified in Consumer Staples coverage.",
-      "The disclosed mix runs across Segments North America at 66.5% and Segments International at 33.5%. Its latest filing lists 10,000 employees. With $6.6B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "CAG, HRL and KHC provide the closest reference points for margin, growth and valuation."
+      "Lamb Weston Holdings, Inc. engages in the production, distribution, and marketing of frozen potato products in the United States, Canada, Mexico, and internationally.",
+      "Lamb Weston Holdings earned a 19.4% gross margin, and cost of goods, marketing and distribution absorbed 11.6% of revenue, leaving a 7.8% operating margin. That is 21.2 points above the peer median of -13.4%.",
+      "Capex is 6.1% of revenue, so the business is asset-light. Net debt is $3.7B, or 4.0x EBITDA. Return on invested capital was 6.6%. That is 11.6 points above the peer median of -5.0%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$6.6B on a trailing-twelve-month basis, with the latest quarter at $1.7B."
+        "title": "Revenue mix",
+        "detail": "Segments North America at 66.5% and Segments International at 33.5%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 7.8%; free-cash-flow margin 6.2%; net margin 3.8%."
+        "title": "Margin engine",
+        "detail": "Gross margin 19.4%, operating margin 7.8%. Cost of goods, marketing and distribution are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $7.2B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 6.1% of revenue; $3.7B of net debt; ROIC 6.6%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 19.4% of revenue after cost of sales, or $1.3B. Operating expenses absorbed 11.6% of revenue, leaving a 7.8% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $3.7B, or 4.0x EBITDA. Return on invested capital was 6.6% and return on equity was 14.1%. That is a thin return; without a margin recovery or a different capital allocation, growth is unlikely to create value."
+      "Volume, price and mix drive revenue; input costs and marketing drive the margin. The edge is frozen-potato scale and foodservice relationships.",
+      "The operating margin is 7.8%, 21.2 points above the peer median of -13.4%. What matters is whether new revenue carries the same margin as the base."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.4% a year across the fiscal years in the dataset, and the latest quarter changed +0.7% year over year. Current-year estimates call for $6.6B of revenue and $3.22 of EPS.",
-      "The operating margin of 7.8% and return on invested capital of 6.6% are the filters to watch as revenue scales. The 2.6% revenue pace and 7.8% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 8.4% a year from FY2019 to FY2026. The latest quarter (Q1 FY27) grew 0.7% year over year. The current-year consensus looks for $6.6B of revenue and $3.22 of EPS.",
+      "The next leg depends on pricing and capacity utilization. For Lamb Weston Holdings, volume growth is only worth paying for if pricing covers input costs."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Revenue growth is +2.6%. The direction of travel matters more than the absolute level."
+        "detail": "Same-store or same-customer growth shows demand without new locations. Revenue growth is 2.6%."
       },
       {
         "title": "Unit growth",
@@ -67,42 +67,42 @@ export const LW: StockStory = {
       },
       {
         "title": "Margin mix",
-        "detail": "Return on invested capital is 6.6%. Private label, services and digital orders can lift profitability."
+        "detail": "Private label, services and digital orders can lift profitability. Return on invested capital is 6.6%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 17.8% in FY2019 to 8.9% in FY2026. The trailing operating margin is 7.8%, the net margin is 3.8% and diluted EPS is $1.83.",
-      "Return on equity was 14.1% and return on invested capital was 6.6%. With return on equity at 14.1% and return on invested capital at 6.6%, leverage is not the main driver of the gap."
+      "The operating margin moved from 17.8% in FY2019 to 8.9% in FY2026. The trailing operating margin is 7.8%, the net margin is 3.8%, and diluted EPS is $1.83, down 12.0% year over year.",
+      "Return on equity of 14.1% and return on invested capital of 6.6% are close enough that operating performance explains most of the return. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $411.9M, a 6.2% margin. Net debt is $3.7B, or 4.0x EBITDA. Capex absorbed 6.1% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $942.9M, or 325.1% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $402.7M in the latest fiscal year."
+      "Free cash flow was $411.9M, or 6.2% of revenue. Operating cash flow covered 325.1% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 6.1% of revenue, which is low relative to the revenue base.",
+      "Net debt is $3.7B, or 4.0x EBITDA. Leverage is the constraint: the equity is sensitive to refinancing costs and a slower cash flow. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 28.4x trailing earnings, 11.9x EV/EBITDA and 1.6x EV/sales. The free-cash-flow yield is 5.7%. Inverting the P/E gives an earnings yield of 3.5%; the cash-flow yield is 5.7%.",
-      "The peer comparison sets the company against CAG, HRL and KHC; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $52.47, the shares trade at 28.4x trailing earnings and 11.9x EV/EBITDA, with a 5.7% free-cash-flow yield. The earnings yield is 3.5%. The earnings multiple is 22.9% below the 36.8x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "13 analysts contribute to the third-party consensus. The mean target is $55.69, with a range of $52.00 to $65.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $6.6B of revenue and $3.22 of EPS. The estimate revisions in the dataset are 0.1% over 30 days and 5.7% over 90 days. The estimate is consistent with a decline of 0.2% on the trailing revenue figure."
+      "13 analysts in the third-party consensus carry a mean target of $55.69, 6.1% above the latest close. The range runs from $52.00 to $65.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $6.6B of revenue and $3.22 of EPS. EPS estimates are up 0.1% over 30 days and up 5.7% over 90 days. That implies a 0.2% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is pricing and capacity utilization versus restaurant traffic and capacity.",
     "items": [
       {
-        "title": "Leverage",
+        "title": "Restaurant traffic and capacity",
         "severity": "High",
-        "detail": "Net debt is $3.7B, or 4.0x EBITDA, which leaves the equity sensitive to refinancing costs and a slower cash flow.",
-        "watch": "Leverage, interest cover and the maturity profile."
+        "detail": "The main risk is restaurant traffic and capacity.",
+        "watch": "Comparable sales and transaction counts."
       },
       {
         "title": "Input and labour costs",
@@ -146,9 +146,9 @@ export const LW: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Lamb Weston Holdings, Inc. produced $6.6B of trailing revenue at a 7.8% operating margin and a 6.2% free-cash-flow margin. With leverage at 4.0x EBITDA, the balance sheet is the first thing the cash flow has to service.",
-      "The consensus target is $55.69 as of 2026-11-25, 6.1% above the latest close; the number is third-party work, dated and attributed, not a Stockmonk price target. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 58/100 and balance sheet at 10/100, with the composite averaging 30/100. The gap between valuation at 58/100 and balance sheet at 10/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on valuation and the durability of 7.8% margins. $3.7B of net debt is the weak link.",
+      "What would change the view is leverage falling below 3.5x EBITDA, not a single quarter. The key exposure is restaurant traffic and capacity.",
+      "The scorecard averages 30/100, but the dispersion matters more: valuation is 58/100 and balance sheet is 10/100."
     ],
     "questions": [
       "Is growth coming from traffic or prices?",

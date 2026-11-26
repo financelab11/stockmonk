@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const COIN: StockStory = {
   "ticker": "COIN",
   "kicker": "Capital Markets · Financial Data & Stock Exchanges",
-  "title": "Coinbase Global, Inc: A crypto exchange and custodian",
-  "dek": "Coinbase Global, Inc. reported $5.6B of trailing revenue at a 3.6% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Coinbase Global: A crypto exchange and custodian",
+  "dek": "Coinbase Global's revenue fell 26.6% to $5.6B, at a 3.6% operating margin. The key risk is crypto volumes and regulation.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $5.6B trailing twelve months, -26.6% year over year.",
+    "Revenue: $5.6B, -26.6% year over year.",
     "Profitability: 3.6% operating margin and -12.5% net margin.",
-    "Cash: n/a free cash flow, a n/a margin, against $2.2B of net cash.",
-    "Valuation: no meaningful trailing earnings multiple and 53.1x EV/EBITDA at the latest close."
+    "Cash: free cash flow is not meaningful at this stage.",
+    "Valuation: no meaningful earnings multiple and 53.1x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,91 +18,91 @@ export const COIN: StockStory = {
   "irUrl": "https://www.coinbase.com",
   "bigPicture": {
     "paragraphs": [
-      "Coinbase Global, Inc. generated $5.6B of revenue over the last twelve months, -26.6% versus the prior year. The latest reported quarter was Q3 FY26, with $1.2B of revenue and a 5.1% operating margin. The shares closed at $101.55 on Nov 25, 2026, giving a market capitalization of $26.9B.",
-      "A reportable segment split is not available in the current dataset; the consolidated revenue line is the cleanest unit of analysis. Revenue is disclosed across 2 geographies, with United States the largest at 83.7%.",
-      "At the latest close the equity is valued at $26.9B, or no meaningful trailing earnings multiple and 53.1x EV/EBITDA. The shares sit 4% of the way up their 52-week range ($94.88 to $284.74). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "Coinbase Global's revenue fell 26.6% to $5.6B at a 3.6% operating margin. The latest quarter (Q3 FY26) fell 35.0%. The margin and the multiple are the two numbers that matter from here.",
+      "Revenue is reported as one consolidated line. The US is the largest geography at 83.7% of revenue. What could lift the return is institutional adoption and regulatory clarity. The thing to watch is crypto volumes and regulation.",
+      "At $101.55, the equity is worth $26.9B, or no meaningful earnings multiple and 53.1x EV/EBITDA. The stock is 4% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Coinbase is a crypto exchange and custodian, so trading volume, take rate and regulatory clarity drive earnings."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Coinbase Global, Inc. operates platform for crypto assets in the United States and internationally. The business is part of the Capital Markets group and reports under Financial Services in the current classification.",
-      "The company reports one consolidated revenue line rather than a segment split. Headcount was 4,951 in the latest filing. The revenue base is $5.6B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "Against SPGI, ICE and CME, the relevant tests are pricing power, capital intensity and cash conversion."
+      "Coinbase Global, Inc. operates platform for crypto assets in the United States and internationally.",
+      "Coinbase Global does not report a product gross margin; technology, data and compensation sit inside the operating line, leaving a 3.6% operating margin. That is 41.3 points below the peer median of 44.9%.",
+      "Capex is not disclosed in the current data. The balance sheet carries $2.2B of net cash. Return on invested capital was 0.8%. That is 16.2 points below the peer median of 16.9%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$5.6B on a trailing-twelve-month basis, with the latest quarter at $1.2B."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 3.6%; free-cash-flow margin n/a; net margin -12.5%."
+        "title": "Margin engine",
+        "detail": "Operating margin 3.6%. Technology, data and compensation are the main cost line, so the operating margin is the scorecard for cost discipline."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $26.9B at the latest close."
+        "title": "Capital intensity",
+        "detail": "$2.2B of net cash; ROIC 0.8%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 3.6% is the first clean profitability line. Revenue depends on activity, client assets and the fee or subscription earned on each interaction.",
-      "The balance sheet carries $2.2B of net cash. Return on invested capital was 0.8%, while the reported return on equity is negative because the equity base is negative. The operating return is the one to use when judging reinvestment."
+      "Activity, client assets and subscriptions drive revenue; take rate and data pricing drive the margin. The edge is crypto exchange liquidity and custody.",
+      "The operating margin is 3.6%, 41.3 points below the peer median of 44.9%. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 54.2% a year across the fiscal years in the dataset, and the latest quarter changed -35.0% year over year. Current-year estimates call for $5.2B of revenue and -$0.28 of EPS.",
-      "The operating margin of 3.6% and return on invested capital of 0.8% are the filters to watch as revenue scales. Revenue is shrinking at 26.6% a year on a trailing basis, which puts the burden on cost control and capital returns."
+      "Revenue compounded at 54.2% a year from FY2019 to FY2025. The latest quarter (Q3 FY26) fell 35.0% year over year. The current-year consensus looks for $5.2B of revenue and -$0.28 of EPS.",
+      "The next leg depends on institutional adoption and regulatory clarity. The top line is shrinking, so the margin has to be defended on a smaller base."
     ],
     "bullets": [
       {
         "title": "Volumes and activity",
-        "detail": "Revenue growth is -26.6%. Trading, issuance or transaction volumes drive the fee pool."
+        "detail": "Trading, issuance or transaction volumes drive the fee pool. Revenue growth is -26.6%."
       },
       {
         "title": "Take rate and pricing",
-        "detail": "The fee per transaction or subscription determines revenue per unit of activity. The current reading: the operating margin is 3.6%."
+        "detail": "The fee per transaction or subscription determines revenue per unit of activity. The operating margin is 3.6%."
       },
       {
         "title": "Recurring data and client assets",
-        "detail": "Return on invested capital is 0.8%. The next data point will show whether the trend is intact."
+        "detail": "Subscriptions, benchmarks and client balances add revenue that is less tied to daily volumes. Return on invested capital is 0.8%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -8.6% in FY2019 to 20.0% in FY2025. The trailing operating margin is 3.6%, the net margin is -12.5% and diluted EPS is -$2.74.",
-      "Return on equity was -5.0% and return on invested capital was 0.8%. A negative equity base makes the equity return meaningless here; the return on invested capital is the number that matters."
+      "The operating margin moved from -8.6% in FY2019 to 20.0% in FY2025. The trailing operating margin is 3.6%, the net margin is -12.5%, and diluted EPS is -$2.74, down 123.6% year over year.",
+      "Return on equity is negative because the equity base is negative; the 0.8% return on invested capital is the operating measure that matters. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was n/a, a n/a margin. The balance sheet carries $2.2B of net cash. With capital spending at n/a of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $2.4B, or 192.5% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $0 in the latest fiscal year."
+      "Free cash flow is not meaningful at this stage. Operating cash flow and the balance sheet are the better tests at this stage. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "The balance sheet carries $2.2B of net cash. Interest cover is 2.3x. That gives management room to invest or return capital without leaning on the balance sheet."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, 53.1x EV/EBITDA and 4.4x EV/sales. The free-cash-flow yield is n/a. Earnings are not a useful anchor here, so the free-cash-flow yield is the cleaner valuation reference.",
-      "The peer comparison sets the company against SPGI, ICE and CME; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $101.55, the shares trade at no meaningful earnings multiple and 53.1x EV/EBITDA. A multiple only means something relative to growth, returns and the cost of capital.",
+      "No earnings multiple is meaningful, so the market is valuing the asset base or the pipeline rather than current profit. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "34 analysts contribute to the third-party consensus. The mean target is $191.78, with a range of $110.00 to $280.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $5.2B of revenue and -$0.28 of EPS. The estimate revisions in the dataset are -84.3% over 30 days and -86.3% over 90 days. Set against trailing revenue, the estimate implies a decline of 8.4%."
+      "34 analysts in the third-party consensus carry a mean target of $191.78, 88.9% above the latest close. The range runs from $110.00 to $280.00. The range is unusually wide, which signals genuine disagreement about the cycle. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $5.2B of revenue and -$0.28 of EPS. EPS estimates are down 84.3% over 30 days and down 86.3% over 90 days. That implies an 8.4% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is institutional adoption and regulatory clarity versus crypto volumes and regulation.",
     "items": [
       {
-        "title": "Revenue decline",
+        "title": "Crypto volumes and regulation",
         "severity": "High",
-        "detail": "Trailing revenue fell 26.6%, so the margin has to be defended on a shrinking base.",
-        "watch": "Organic growth, retention and pricing."
+        "detail": "The main risk is crypto volumes and regulation.",
+        "watch": "Volumes, issuance and client activity."
       },
       {
         "title": "Fee compression",
@@ -146,9 +146,9 @@ export const COIN: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Coinbase Global, Inc. produced $5.6B of trailing revenue at a 3.6% operating margin and a n/a free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Analysts contributing to the third-party consensus carry a $191.78 mean target as of 2026-11-25, 88.9% above the latest close; the forecast is theirs, and this report does not adopt it as a target.",
-      "The factor percentiles put balance sheet at 94/100 and growth at 5/100, with the composite averaging 37/100. The average hides a strong balance sheet reading and a weak growth one, which is why the spread is the more useful description."
+      "The investment case rests on balance sheet and the durability of 3.6% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 3.0%, not a single quarter. The key exposure is crypto volumes and regulation.",
+      "The scorecard puts the composite at 37/100. Focus on the balance sheet-to-growth spread rather than the average."
     ],
     "questions": [
       "How much of revenue is recurring versus activity-linked?",

@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const CTVA: StockStory = {
   "ticker": "CTVA",
   "kicker": "Materials & Mining · Agricultural Inputs",
-  "title": "Corteva, Inc: Seeds and crop protection",
-  "dek": "Corteva, Inc. reported $17.7B of trailing revenue at a 7.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Corteva: Seeds and crop protection",
+  "dek": "Corteva's revenue was flat at $17.7B, at a 7.7% operating margin. The key risk is crop prices and channel inventory.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $17.7B trailing twelve months, +1.0% year over year.",
+    "Revenue: $17.7B, +1.0% year over year.",
     "Profitability: 7.7% operating margin and 4.3% net margin.",
     "Cash: -$149M free cash flow, a -0.8% margin, against $3.5B of net debt.",
-    "Valuation: 7.1x trailing earnings and 3.4x EV/EBITDA at the latest close."
+    "Valuation: 7.1x trailing earnings and 3.4x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const CTVA: StockStory = {
   "irUrl": "https://www.corteva.com",
   "bigPicture": {
     "paragraphs": [
-      "Corteva, Inc. generated $17.7B of revenue over the last twelve months, +1.0% versus the prior year. The latest reported quarter was Q3 FY26, with $2.5B of revenue and a -24.0% operating margin. The shares closed at $8.15 on Nov 25, 2026, giving a market capitalization of $5.4B.",
-      "The largest disclosed segment is Seed at 56.9% of revenue. Geographically, United States leads at 47.5% of the disclosed split. Corteva, Inc. competes in Agricultural Inputs, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $5.4B, or 7.1x trailing earnings and 3.4x EV/EBITDA. The shares sit 5% of the way up their 52-week range ($7.82 to $14.62). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Corteva's revenue was flat at $17.7B at a 7.7% operating margin, burning $149M of cash. The latest quarter (Q3 FY26) fell 6.1%. The scale of the revenue base matters less than the margin it earns.",
+      "Seed is 56.9% of revenue and Crop Protection is 43.1%. The US is the largest geography at 47.5% of revenue. The near-term driver is new trait launches and pricing. The risk is crop prices and channel inventory.",
+      "At $8.15, the equity is worth $5.4B, or 7.1x trailing earnings and 3.4x EV/EBITDA. The earnings multiple is 6.1% above the 6.7x peer median. The stock is 5% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Corteva sells seeds and crop protection, an agricultural-input business where volume, pricing and trait royalties drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Corteva, Inc. operates as a pure-play agriculture company in the United States, Canada, the Middle East, Africa, Europe, Latin America, and Asia. Corteva, Inc. is an Agricultural Inputs company within the Materials & Mining coverage group.",
-      "The disclosed mix runs across Seed at 56.9% and Crop Protection at 43.1%. Headcount is not disclosed in the current dataset. Trailing revenue is $17.7B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The peer set is CF, FMC and MOS; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Corteva, Inc. operates as a pure-play agriculture company in the United States, Canada, the Middle East, Africa, Europe, Latin America, and Asia.",
+      "Corteva earned a 49.7% gross margin, and energy, feedstock and maintenance absorbed 42.0% of revenue, leaving a 7.7% operating margin. That is 12.8 points above the peer median of -5.1%.",
+      "Capital spending runs at 3.3% of revenue, which is low relative to the revenue base. Net debt is $3.5B, or 1.3x EBITDA. Return on invested capital was 2.7%. That is 5.5 points above the peer median of -2.8%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$17.7B on a trailing-twelve-month basis, with the latest quarter at $2.5B."
+        "title": "Revenue mix",
+        "detail": "Seed at 56.9% and Crop Protection at 43.1%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 7.7%; free-cash-flow margin -0.8%; net margin 4.3%."
+        "title": "Margin engine",
+        "detail": "Gross margin 49.7%, operating margin 7.7%. Energy, feedstock and maintenance are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $5.4B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.3% of revenue; $3.5B of net debt; ROIC 2.7%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $17.7B of revenue, $8.8B remained after cost of sales. The 42.0% operating-expense load brought that down to a 7.7% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "Net debt is $3.5B, or 1.3x EBITDA. Return on invested capital was 2.7% and return on equity was 3.1%. That leaves little room above the cost of capital."
+      "Commodity prices, volumes and input costs drive revenue and margin. The edge is seed genetics and crop-protection portfolio.",
+      "The operating margin is 7.7%, 12.8 points above the peer median of -5.1%. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 2.9% a year across the fiscal years in the dataset, and the latest quarter changed -6.1% year over year. Current-year estimates call for $7.4B of revenue and $1.15 of EPS.",
-      "The operating margin of 7.7% and return on invested capital of 2.7% are the filters to watch as revenue scales. Neither the 1.0% growth nor the 7.7% margin is extreme; the combination is what matters."
+      "Revenue compounded at 2.9% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) fell 6.1% year over year. The current-year consensus looks for $7.4B of revenue and $1.15 of EPS.",
+      "The next leg depends on new trait launches and pricing. For Corteva, volume growth is only worth paying for if the price-cost spread holds. Growth is only valuable if the new revenue earns a similar return to the existing business."
     ],
     "bullets": [
       {
         "title": "Volume",
-        "detail": "Shipments show underlying industrial demand. The current reading: revenue growth is +1.0%."
+        "detail": "Shipments show underlying industrial demand. Revenue growth is 1.0%."
       },
       {
         "title": "Price and mix",
-        "detail": "The operating margin is 7.7%. That is the line the next filing has to move."
+        "detail": "Product mix and pricing determine margin per ton. The operating margin is 7.7%."
       },
       {
         "title": "Cost position",
@@ -73,35 +73,35 @@ export const CTVA: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -47.6% in FY2018 to 9.7% in FY2025. The trailing operating margin is 7.7%, the net margin is 4.3% and diluted EPS is $1.14.",
-      "Return on equity was 3.1% and return on invested capital was 2.7%. Return on invested capital of 2.7% is close to the 3.1% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from -47.6% in FY2018 to 9.7% in FY2025. The trailing operating margin is 7.7%, the net margin is 4.3%, and diluted EPS is $1.14, down 51.5% year over year.",
+      "Return on equity of 3.1% and return on invested capital of 2.7% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was -$149M, a -0.8% margin. Net debt is $3.5B, or 1.3x EBITDA. Capital expenditure was 3.3% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $3.4B, or 311.3% of net income. The company did not generate positive free cash flow on a trailing basis, and capital expenditure was $591M in the latest fiscal year."
+      "Free cash flow was -$149M, or -0.8% of revenue. Operating cash flow covered 311.3% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 3.3% of revenue, which is low relative to the revenue base.",
+      "Net debt is $3.5B, or 1.3x EBITDA. Interest cover is 6.7x. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 7.1x trailing earnings, 3.4x EV/EBITDA and 0.5x EV/sales. The free-cash-flow yield is -2.7%. The 14.1% earnings yield and -2.7% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against CF, FMC and MOS; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $8.15, the shares trade at 7.1x trailing earnings and 3.4x EV/EBITDA, with a -2.7% free-cash-flow yield. The earnings yield is 14.1%. The earnings multiple is 6.1% above the 6.7x peer median.",
+      "The multiple implies the market expects little growth and assumes the current margin is close to peak. The multiple is in line with the peer median, so the debate is company-specific."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "17 analysts contribute to the third-party consensus. The mean target is $12.91, with a range of $10.00 to $16.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $7.4B of revenue and $1.15 of EPS. The estimate revisions in the dataset are 7.2% over 30 days and n/a over 90 days. If met, the estimate would mean a decline of 58.3% from the current base."
+      "17 analysts in the third-party consensus carry a mean target of $12.91, 58.5% above the latest close. The range runs from $10.00 to $16.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $7.4B of revenue and $1.15 of EPS. EPS estimates are up 7.2% over 30 days and n/a over 90 days. That implies a 58.3% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is new trait launches and pricing versus crop prices and channel inventory.",
     "items": [
       {
-        "title": "Commodity cycle",
+        "title": "Crop prices and channel inventory",
         "severity": "High",
-        "detail": "Prices can fall faster than costs.",
+        "detail": "The main risk is crop prices and channel inventory.",
         "watch": "Realised prices and inventory."
       },
       {
@@ -146,9 +146,9 @@ export const CTVA: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Corteva, Inc. produced $17.7B of trailing revenue at a 7.7% operating margin and a -0.8% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "The third-party consensus mean is $12.91 as of 2026-11-25, 58.5% above the latest close; this report does not publish a target of its own. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put valuation at 99/100 and cash generation at 13/100, with the composite averaging 38/100. A 99/100 valuation score against a 13/100 cash generation score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on valuation and the durability of 7.7% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above 2.2%, not a single quarter. The key exposure is crop prices and channel inventory.",
+      "On the scorecard, the composite is 38/100. The spread between valuation and cash generation is the useful part; the average hides it."
     ],
     "questions": [
       "What is the mid-cycle margin?",

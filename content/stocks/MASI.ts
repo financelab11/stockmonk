@@ -3,7 +3,7 @@ import type { StockStory } from "./types";
 export const MASI: StockStory = {
   "ticker": "MASI",
   "kicker": "Healthcare Services & Devices · Healthcare",
-  "title": "Masimo: the final financial record behind the Danaher deal",
+  "title": "Masimo: the final record behind the Danaher deal",
   "dek": "Masimo last traded on Jun 10, 2026 after the Danaher transaction. The report keeps the final SEC record, the deal terms and the factors that explained the business while it was public.",
   "readingMinutes": 10,
   "takeaways": [
@@ -18,52 +18,52 @@ export const MASI: StockStory = {
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000937556&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Masimo last traded at $180.00 on Jun 10, 2026, when the Danaher transaction closed. The final consideration was $180.00 per share in cash. The company no longer files current reports, so the figures below are the final SEC statements rather than a live snapshot. Masimo generated $1.6B of revenue over the last twelve months, +9.2% versus the prior year. The final reported operating margin was 19.9% and free-cash-flow margin was 13.5%.",
-      "The largest disclosed segment is Health Care at 99.8% of revenue. A regional breakdown is missing from the current filing extract, so the analysis stays at the consolidated level. Masimo competes in Healthcare, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "The archived valuation has 123.5x trailing earnings and 28.1x EV/EBITDA, based on the final consideration and the last reported statements. It is a historical reference, not a live multiple. The article is retained because the company remains part of the 500-name coverage library."
+      "Masimo last traded at $180.00 on Jun 10, 2026, when the Danaher transaction closed. The final consideration was $180.00 per share in cash. The figures below are the last reported record, not a live quote.",
+      "The final reported mix was Health Care at 99.8% and Corporate / other at 0.2%. The business no longer sets its own capital allocation or pricing; it sits inside Danaher.",
+      "The archived valuation is 123.5x trailing earnings and 28.1x EV/EBITDA, based on the final consideration and the last statements. It is a historical reference, not a current multiple."
     ],
-    "quote": "Masimo is no longer a live market, so the useful question is what its final financial record says about the Healthcare Services & Devices business that the acquirer bought."
+    "quote": "Masimo is no longer a live market; the useful question is what its final record says about the business Danaher bought."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Masimo was acquired by Danaher. The final consideration was $180.00 per share in cash. The shares last traded on Jun 10, 2026; the statements below are the final SEC filings and the article is retained as archived coverage.",
-      "The disclosed mix runs across Health Care at 99.8% and Corporate / other at 0.2%. The filing extract does not include a headcount figure. With $1.6B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The peer set is CRNX, ACLX and HOLX; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Masimo was a Healthcare business. Masimo is an archived medical-device company, and the useful question is what its pulse-oximetry and hospital-monitoring franchise was worth to Danaher.",
+      "At the last report, the operating margin was 19.9% and the free-cash-flow margin was 13.5%. The record is closed; there is no current guidance.",
+      "The final balance sheet carried $333.7M of net debt, and the equity no longer trades independently."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$1.6B on a trailing-twelve-month basis, with the latest quarter at $403.6M."
+        "title": "Revenue mix",
+        "detail": "Health Care at 99.8% and Corporate / other at 0.2%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 19.9%; free-cash-flow margin 13.5%; net margin 4.9%."
+        "title": "Margin engine",
+        "detail": "Gross margin 61.7%, operating margin 19.9%. Operating costs are the bridge between the two."
       },
       {
-        "title": "Final status",
-        "detail": "Last traded Jun 10, 2026 after the Danaher transaction."
+        "title": "Capital intensity",
+        "detail": "Capex 1.2% of revenue; $333.7M of net debt; ROIC 19.5%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 61.7% of revenue after cost of sales, or $962M. Operating expenses absorbed 41.9% of revenue, leaving a 19.9% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $333.7M, or 1.0x EBITDA. Return on invested capital was 19.5% and return on equity was 9.7%. That level earns well above a typical cost of capital."
+      "Revenue is converted into profit after operating costs; the mix between recurring and transactional revenue decides how much of the margin is repeatable. Patient volumes and procedures drive revenue before price.",
+      "The operating margin is 19.9%, 1155.5 points above the peer median of -1135.6%. What matters is whether new revenue carries the same margin as the base."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 7.5% a year across the fiscal years in the dataset, and the latest quarter changed +8.5% year over year. A current-year consensus estimate is not available in the dataset.",
-      "The operating margin of 19.9% and return on invested capital of 19.5% are the filters to watch as revenue scales. The final year in the dataset is FY2026; there is no current guidance because the company no longer trades."
+      "Revenue compounded at 7.5% a year across the reported fiscal years. The final year is FY2026 and there is no current guidance. The next data point is the quarterly growth rate against the consensus.",
+      "The archive is a record of what the business earned before the deal, not a forecast. The final operating margin was 19.9%. The consensus estimate is the first test; the second is whether incremental revenue carries the same margin as the base."
     ],
     "bullets": [
       {
         "title": "Utilization",
-        "detail": "Patient volumes and procedures drive revenue before price. The current reading: revenue growth is +9.2%."
+        "detail": "Patient volumes and procedures drive revenue before price. Revenue growth is 9.2%."
       },
       {
         "title": "Reimbursement",
-        "detail": "The operating margin is 19.9%. The next data point will show whether the trend is intact."
+        "detail": "Coverage and rate updates determine revenue per patient. The operating margin is 19.9%."
       },
       {
         "title": "Capacity and mix",
@@ -73,35 +73,35 @@ export const MASI: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 24.2% in FY2018 to 20.3% in FY2026. The trailing operating margin is 19.9%, the net margin is 4.9% and diluted EPS is $1.40.",
-      "Return on equity was 9.7% and return on invested capital was 19.5%. With return on equity at 9.7% and return on invested capital at 19.5%, leverage is not the main driver of the gap."
+      "The final operating margin was 19.9%, the net margin was 4.9%, and diluted EPS was $1.40. The record will not update. A single year of returns is less informative than the direction of margins and capital intensity.",
+      "The archived returns are a historical description of the business at the time of the transaction. They are not a current measure of capital allocation."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $210.9M, a 13.5% margin. Net debt is $333.7M, or 1.0x EBITDA. Capex absorbed 1.2% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "The final reported balance sheet is the one shown here; it will not update. The company generated positive free cash flow on a trailing basis, and capital expenditure was $19.4M in the latest fiscal year."
+      "The final reported free cash flow was $210.9M, a 13.5% margin. The balance sheet is the last reported one and will not update. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "The final consideration was $180.00 per share in cash; there is no current price, target or capital-return policy to assess. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 123.5x trailing earnings, 28.1x EV/EBITDA and 6.3x EV/sales. The free-cash-flow yield is 2.2%. Inverting the P/E gives an earnings yield of 0.8%; the cash-flow yield is 2.2%.",
-      "The final consideration was $180.00 per share in cash. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades."
+      "The final consideration was $180.00 per share in cash. The archived multiple is not a live valuation, and no current consensus target exists because the company no longer trades.",
+      "The final consideration is the only relevant reference. There is no live multiple to compare with the peer group. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "A current analyst consensus is not available because Masimo no longer trades. The final transaction value is the relevant reference, and the archived estimates are shown only where the dataset retains them.",
-      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $1.6B and the last reported operating margin was 19.9%."
+      "There is no current analyst consensus because Masimo no longer trades. The final transaction value is the reference, and the archived estimates are shown only where they were retained.",
+      "There is no current-year estimate to compare with the final reported year. The last reported revenue was $1.6B and the last operating margin was 19.9%."
     ]
   },
   "risks": {
-    "intro": "The risks below are the historical risks that mattered before the Danaher transaction, plus the limitation that the record is now closed. They are qualitative descriptors, not a rating.",
+    "intro": "The risks below are the historical risks that mattered before the Danaher transaction, plus the limitation that the record is closed.",
     "items": [
       {
         "title": "Archived coverage",
         "severity": "High",
-        "detail": "Masimo no longer trades. The final consideration was $180.00 per share in cash, and the financial statements will not be updated with new quarters.",
+        "detail": "Masimo no longer trades. The final consideration was $180.00 per share in cash, and the statements will not be updated with new quarters.",
         "watch": "Treat every figure as the final reported record, not as a current market snapshot."
       },
       {
@@ -146,15 +146,14 @@ export const MASI: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Masimo is an archived Healthcare Services & Devices company with $1.6B of final trailing revenue, a 19.9% operating margin and a 13.5% free-cash-flow margin. The Danaher transaction valued the equity at $180.00 per share in cash.",
-      "There is no current price, target or rating to update. The archived factor percentiles are a historical description of the business at the point of the transaction. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put profitability at 70/100 and valuation at 15/100, with the composite averaging 41/100. The gap between profitability at 70/100 and valuation at 15/100 is wide enough that the composite is a balance, not a verdict."
+      "Masimo is an archived Healthcare company with $1.6B of final revenue, a 19.9% operating margin and a 13.5% free-cash-flow margin. The Danaher transaction valued the equity at $180.00 per share in cash.",
+      "There is no current price, target or rating to update. The archived factor scores are a historical description of the business at the point of the transaction.",
+      "On the scorecard, the composite is 41/100. The spread between profitability and valuation is the useful part; the average hides it."
     ],
     "questions": [
-      "How much of growth is volume versus rate?",
-      "What happens if reimbursement is cut?",
-      "How dependent is the model on labor supply?",
-      "What does a higher-acuity mix do to margins?"
+      "What did the final financial record show?",
+      "What did the acquirer pay for?",
+      "Which figures will never update?"
     ]
   }
 };

@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const EW: StockStory = {
   "ticker": "EW",
   "kicker": "Healthcare Services & Devices · Medical Devices",
-  "title": "Edwards Lifesciences Corporation: Heart valves and critical-care devices",
-  "dek": "Edwards Lifesciences Corporation reported $6.7B of trailing revenue at a 21.6% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Edwards Lifesciences: Heart valves and critical-care devices",
+  "dek": "Edwards Lifesciences' revenue rose 13.4% to $6.7B, at a 21.6% operating margin. The key risk is procedure growth and competition.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $6.7B trailing twelve months, +13.4% year over year.",
+    "Revenue: $6.7B, +13.4% year over year.",
     "Profitability: 21.6% operating margin and 15.3% net margin.",
     "Cash: $1.4B free cash flow, a 21.3% margin, against $4B of net cash.",
-    "Valuation: 59.9x trailing earnings and 35.4x EV/EBITDA at the latest close."
+    "Valuation: 59.9x trailing earnings and 35.4x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const EW: StockStory = {
   "irUrl": "https://www.edwards.com",
   "bigPicture": {
     "paragraphs": [
-      "Edwards Lifesciences Corporation generated $6.7B of revenue over the last twelve months, +13.4% versus the prior year. The latest reported quarter was Q3 FY26, with $1.7B of revenue and a 17.4% operating margin. The shares closed at $106.39 on Nov 25, 2026, giving a market capitalization of $61.2B.",
-      "United States is 58.4% of the disclosed revenue mix. Geographic mix is not disclosed in the extract behind this report. Edwards Lifesciences Corporation competes in Medical Devices, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $61.2B, or 59.9x trailing earnings and 35.4x EV/EBITDA. The shares sit 95% of the way up their 52-week range ($74.66 to $108.00). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Edwards Lifesciences' revenue rose 13.4% to $6.7B at a 21.6% operating margin, generating $1.4B of free cash flow. The latest quarter (Q3 FY26) grew 10.5%.",
+      "United States is 58.4% of revenue and Europe is 25.0%. The catalyst is TAVR and TMTT launches. The exposure is procedure growth and competition. That mix is the first thing to understand: it drives both the consolidated margin and the risk.",
+      "At $106.39, the equity is worth $61.2B, or 59.9x trailing earnings and 35.4x EV/EBITDA. The earnings multiple is 161.1% above the 23.0x peer median. The stock is 95% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Edwards sells heart valves and critical-care devices, so procedure growth and TAVR adoption drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Edwards Lifesciences Corporation provides products and technologies to treat advanced cardiovascular diseases in the United States, Europe, Japan, and internationally. It offers transcatheter heart valve replacement products for minimally invasive replacement of aortic heart valves under the Edwards SAPIEN family of valves system; and transcatheter heart valve repair and replacement products to treat mitral and tricuspid valve diseases under the PASCAL and EVOQUE brands.",
-      "The disclosed mix runs across United States at 58.4%, Europe at 25.0% and Rest Of World at 10.8%. The last disclosure put headcount at 16,000 people. The revenue base is $6.7B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The closest listed comparisons are ABT, BSX and SYK; the useful question is how Edwards Lifesciences Corporation's margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Edwards Lifesciences Corporation provides products and technologies to treat advanced cardiovascular diseases in the United States, Europe, Japan, and internationally.",
+      "Edwards Lifesciences earned a 78.0% gross margin, and manufacturing, R&D and hospital selling absorbed 56.4% of revenue, leaving a 21.6% operating margin. That is 5.5 points above the peer median of 16.1%.",
+      "Capital spending runs at 3.9% of revenue, which is low relative to the revenue base. The balance sheet carries $4B of net cash. Return on invested capital was 8.7%. That is roughly in line with the peer median of 9.3%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$6.7B on a trailing-twelve-month basis, with the latest quarter at $1.7B."
+        "title": "Revenue mix",
+        "detail": "United States at 58.4%, Europe at 25.0% and Rest Of World at 10.8%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 21.6%; free-cash-flow margin 21.3%; net margin 15.3%."
+        "title": "Margin engine",
+        "detail": "Gross margin 78.0%, operating margin 21.6%. Manufacturing, R&D and hospital selling are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $61.2B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.9% of revenue; $4B of net cash; ROIC 8.7%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 78.0%, operating margin is 21.6% and net margin is 15.3%. Gross profit was $5.2B, and 56.4% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "The balance sheet carries $4B of net cash. Return on invested capital was 8.7% and return on equity was 9.4%. That is neither clearly good nor clearly bad without knowing the cost of capital."
+      "Procedure volumes and the installed base drive consumable and device revenue. The edge is heart-valve franchise and clinical data.",
+      "The operating margin is 21.6%, 5.5 points above the peer median of 16.1%. The shape of the incremental margin will decide whether growth creates value."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 7.2% a year across the fiscal years in the dataset, and the latest quarter changed +10.5% year over year. Current-year estimates call for $6.8B of revenue and $3.01 of EPS.",
-      "The operating margin of 21.6% and return on invested capital of 8.7% are the filters to watch as revenue scales. Growth of 13.4% against a 21.6% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 7.2% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 10.5% year over year. The current-year consensus looks for $6.8B of revenue and $3.01 of EPS.",
+      "The next leg depends on TAVR and TMTT launches. For Edwards Lifesciences, procedure growth is only worth paying for if the installed base and reimbursement hold."
     ],
     "bullets": [
       {
         "title": "Procedure growth",
-        "detail": "More procedures expand the consumable and device opportunity. Revenue growth is +13.4%."
+        "detail": "More procedures expand the consumable and device opportunity. Revenue growth is 13.4%."
       },
       {
         "title": "Installed base",
-        "detail": "The operating margin is 21.6%. Placed devices create recurring consumable and service revenue."
+        "detail": "Placed devices create recurring consumable and service revenue. The operating margin is 21.6%."
       },
       {
         "title": "New indications",
-        "detail": "Label expansions and clinical data widen the addressable market. The current reading: return on invested capital is 8.7%."
+        "detail": "Label expansions and clinical data widen the addressable market. Return on invested capital is 8.7%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 20.1% in FY2018 to 20.8% in FY2025. The trailing operating margin is 21.6%, the net margin is 15.3% and diluted EPS is $1.77.",
-      "Return on equity was 9.4% and return on invested capital was 8.7%. The two returns are within a few points, at 9.4% on equity and 8.7% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 20.1% in FY2018 to 20.8% in FY2025. The trailing operating margin is 21.6%, the net margin is 15.3%, and diluted EPS is $1.77, down 23.7% year over year.",
+      "Return on equity of 9.4% and return on invested capital of 8.7% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.4B, a 21.3% margin. The balance sheet carries $4B of net cash. With capital spending at 3.9% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $1.6B, or 148.6% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $260.2M in the latest fiscal year."
+      "Free cash flow was $1.4B, or 21.3% of revenue. Operating cash flow covered 148.6% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 3.9% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $4B of net cash. Interest cover is 43.8x. The balance sheet is a source of flexibility rather than a constraint. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 59.9x trailing earnings, 35.4x EV/EBITDA and 8.6x EV/sales. The free-cash-flow yield is 2.3%. The trailing earnings yield is 1.7%, against a free-cash-flow yield of 2.3%.",
-      "The peer comparison sets the company against ABT, BSX and SYK; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $106.39, the shares trade at 59.9x trailing earnings and 35.4x EV/EBITDA, with a 2.3% free-cash-flow yield. The earnings yield is 1.7%. The earnings multiple is 161.1% above the 23.0x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "27 analysts contribute to the third-party consensus. The mean target is $114.02, with a range of $84.00 to $126.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $6.8B of revenue and $3.01 of EPS. The estimate revisions in the dataset are 0.5% over 30 days and 0.5% over 90 days. That implies growth of 2.0% over the trailing twelve months."
+      "27 analysts in the third-party consensus carry a mean target of $114.02, 7.2% above the latest close. The range runs from $84.00 to $126.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $6.8B of revenue and $3.01 of EPS. EPS estimates are up 0.5% over 30 days and up 0.5% over 90 days. That implies 2.0% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is TAVR and TMTT launches versus procedure growth and competition.",
     "items": [
       {
-        "title": "Reimbursement",
+        "title": "Procedure growth and competition",
         "severity": "High",
-        "detail": "Coverage and procedure codes determine adoption and price.",
+        "detail": "The main risk is procedure growth and competition.",
         "watch": "Payer decisions and coding updates."
       },
       {
@@ -146,9 +146,9 @@ export const EW: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Edwards Lifesciences Corporation produced $6.7B of trailing revenue at a 21.6% operating margin and a 21.3% free-cash-flow margin. The business converts an unusually large share of revenue into cash, and the multiple depends on that continuing.",
-      "Third-party analysts put the mean target at $114.02 as of 2026-11-25, 7.2% above the latest close; it should be read as the published consensus, not as this publication's view. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put balance sheet at 86/100 and valuation at 14/100, with the composite averaging 52/100. The average hides a strong balance sheet reading and a weak valuation one, which is why the spread is the more useful description."
+      "The investment case rests on balance sheet and the durability of 21.6% margins. The weak link is valuation.",
+      "What would change the view is the multiple falling below 47.9x earnings, not a single quarter. The key exposure is procedure growth and competition.",
+      "The composite of 52/100 blends a strong balance sheet reading with a weak valuation one; the gap is the story."
     ],
     "questions": [
       "How much revenue is recurring versus capital equipment?",

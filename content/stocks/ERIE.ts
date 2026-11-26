@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const ERIE: StockStory = {
   "ticker": "ERIE",
   "kicker": "Banks & Insurance · Insurance Brokers",
-  "title": "Erie Indemnity Company: Erie Indemnity manages the Erie Insurance Exchange",
-  "dek": "Erie Indemnity Company reported $4.1B of trailing revenue at a 17.9% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Erie Indemnity: Erie Indemnity manages the Erie Insurance Exchange",
+  "dek": "Erie Indemnity's revenue rose 2.0% to $4.1B, at a 17.9% operating margin. The key risk is policy growth and fee rates.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $4.1B trailing twelve months, +2.0% year over year.",
+    "Revenue: $4.1B, +2.0% year over year.",
     "Profitability: 17.9% operating margin and 14.0% net margin.",
     "Cash: $554M free cash flow, a 13.4% margin, against $1.7B of net cash.",
-    "Valuation: 25.4x trailing earnings and 16.4x EV/EBITDA at the latest close."
+    "Valuation: 25.4x trailing earnings and 16.4x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const ERIE: StockStory = {
   "irUrl": "https://www.erieinsurance.com",
   "bigPicture": {
     "paragraphs": [
-      "Erie Indemnity Company generated $4.1B of revenue over the last twelve months, +2.0% versus the prior year. The latest reported quarter was Q3 FY26, with $1.1B of revenue and a 19.4% operating margin. The shares closed at $279.90 on Nov 25, 2026, giving a market capitalization of $14.6B.",
-      "Management Operations accounts for 100.0% of disclosed revenue. Country-level revenue is not part of the filing extract used here. Erie Indemnity Company competes in Insurance Brokers, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $14.6B, or 25.4x trailing earnings and 16.4x EV/EBITDA. The shares sit 78% of the way up their 52-week range ($204.63 to $301.14). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "Erie Indemnity's revenue rose 2.0% to $4.1B at a 17.9% operating margin, generating $554M of free cash flow. The latest quarter (Q3 FY26) was flat.",
+      "Management Operations is the whole revenue base. What could lift the return is policy growth and management fee. The thing to watch is policy growth and fee rates.",
+      "At $279.90, the equity is worth $14.6B, or 25.4x trailing earnings and 16.4x EV/EBITDA. The earnings multiple is 1.1% below the 25.7x peer median. The stock is 78% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Erie Indemnity manages the Erie Insurance Exchange, so policy growth and management-fee rates drive revenue."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Erie Indemnity Company operates as a managing attorney-in-fact for the subscribers at the Erie Insurance Exchange in the United States. It provides issuance and renewal services; sales related services, including agent compensation and sales and advertising support services; underwriting services that include underwriting and policy processing; and other services consist of customer services and administrative support services, as well as information technology services.",
-      "The company reports one consolidated revenue line rather than a segment split. Headcount was 6,667 in the latest filing. Trailing revenue is $4.1B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "Against RYAN, AJG and AON, the relevant tests are pricing power, capital intensity and cash conversion."
+      "Erie Indemnity Company operates as a managing attorney-in-fact for the subscribers at the Erie Insurance Exchange in the United States.",
+      "Erie Indemnity does not report a product gross margin; compensation and placement costs sit inside the operating line, leaving a 17.9% operating margin. That is 3.5 points below the peer median of 21.4%.",
+      "Capex is 2.8% of revenue, so the business is asset-light. The balance sheet carries $1.7B of net cash. Return on invested capital was 22.6%. That is 13.1 points above the peer median of 9.5%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$4.1B on a trailing-twelve-month basis, with the latest quarter at $1.1B."
+        "title": "Revenue mix",
+        "detail": "Management Operations is the consolidated business at 100.0% of revenue."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 17.9%; free-cash-flow margin 13.4%; net margin 14.0%."
+        "title": "Margin engine",
+        "detail": "Operating margin 17.9%. Compensation and placement costs are the main cost line, so incremental revenue matters more than product mix."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $14.6B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 2.8% of revenue; $1.7B of net cash; ROIC 22.6%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 17.9% is the first clean profitability line. The economics are fee-based, so organic growth, client retention and the price paid for acquisitions matter more than premium volume.",
-      "The balance sheet carries $1.7B of net cash. Return on invested capital was 22.6% and return on equity was 22.6%. The return leaves room above the cost of capital for growth to compound."
+      "Fees are tied to placement volume and commercial rates; retention and organic growth matter more than exposure to any single carrier. The edge is erie Insurance Exchange relationship.",
+      "Compensation is the largest cost, so operating leverage depends on revenue per producer and on integrating acquisitions without losing clients."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 7.9% a year across the fiscal years in the dataset, and the latest quarter changed +0.3% year over year. Current-year estimates call for $4.1B of revenue and $12.86 of EPS.",
-      "The operating margin of 17.9% and return on invested capital of 22.6% are the filters to watch as revenue scales. Neither the 2.0% growth nor the 17.9% margin is extreme; the combination is what matters."
+      "Revenue compounded at 7.9% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) was flat year over year. The current-year consensus looks for $4.1B of revenue and $12.86 of EPS.",
+      "The next leg depends on policy growth and management fee. For Erie Indemnity, growth is only worth paying for if retention holds and acquired revenue earns its price."
     ],
     "bullets": [
       {
         "title": "Organic growth",
-        "detail": "Revenue growth is +2.0%. New clients and increased coverage at existing clients expand commissions without deal spending."
+        "detail": "New clients and increased coverage at existing clients expand commissions without deal spending. Revenue growth is 2.0%."
       },
       {
         "title": "Retention and pricing",
-        "detail": "Client retention and commission rates determine how much of the base survives each renewal. The current reading: the operating margin is 17.9%."
+        "detail": "Client retention and commission rates determine how much of the base survives each renewal. The operating margin is 17.9%."
       },
       {
         "title": "Acquired growth",
-        "detail": "Return on invested capital is 22.6%. That is the number to compare with the company's own history."
+        "detail": "Agency acquisitions add clients and specialty capabilities, but only create value if the price is sensible. Return on invested capital is 22.6%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 14.5% in FY2018 to 17.6% in FY2025. The trailing operating margin is 17.9%, the net margin is 14.0% and diluted EPS is not available.",
-      "Return on equity was 22.6% and return on invested capital was 22.6%. Return on invested capital of 22.6% is close to the 22.6% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from 14.5% in FY2018 to 17.6% in FY2025. The trailing operating margin is 17.9%, the net margin is 14.0%, and diluted EPS is not meaningful on the current data.",
+      "Return on equity of 22.6% and return on invested capital of 22.6% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $554M, a 13.4% margin. The balance sheet carries $1.7B of net cash. Capital expenditure was 2.8% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $686.7M, or 122.8% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $115.7M in the latest fiscal year."
+      "Free cash flow was $554M, or 13.4% of revenue. Operating cash flow covered 122.8% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 2.8% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $1.7B of net cash. That gives management room to invest or return capital without leaning on the balance sheet. The maturity profile and interest cover determine how much flexibility the balance sheet leaves."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 25.4x trailing earnings, 16.4x EV/EBITDA and 3.1x EV/sales. The free-cash-flow yield is 3.8%. The 3.9% earnings yield and 3.8% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against RYAN, AJG and AON; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $279.90, the shares trade at 25.4x trailing earnings and 16.4x EV/EBITDA, with a 3.8% free-cash-flow yield. The earnings yield is 3.9%. The earnings multiple is 1.1% below the 25.7x peer median.",
+      "The multiple is in line with the peer median, so the debate is company-specific. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "1 analysts contribute to the third-party consensus. The mean target is n/a, with a range of n/a to n/a. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $4.1B of revenue and $12.86 of EPS. The estimate revisions in the dataset are 1.3% over 30 days and 1.3% over 90 days. Set against trailing revenue, the estimate implies growth of 0.2%."
+      "No third-party consensus target is available. The consensus is a useful benchmark, but it is a lagging summary of published views. The target is an output of the analysts' models, not an independent estimate of value.",
+      "The current-year consensus looks for $4.1B of revenue and $12.86 of EPS. EPS estimates are up 1.3% over 30 days and up 1.3% over 90 days. That implies 0.2% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is policy growth and management fee versus policy growth and fee rates.",
     "items": [
       {
-        "title": "Soft commercial rates",
+        "title": "Policy growth and fee rates",
         "severity": "High",
-        "detail": "Falling premiums reduce commission income even when client counts hold.",
+        "detail": "The main risk is policy growth and fee rates.",
         "watch": "Commercial rate change and organic growth."
       },
       {
@@ -146,9 +146,9 @@ export const ERIE: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Erie Indemnity Company produced $4.1B of trailing revenue at a 17.9% operating margin and a 13.4% free-cash-flow margin. The record is neither obviously cheap nor obviously expensive without a view on whether the current margin is repeatable.",
-      "Without a consensus target, the multiples and the free-cash-flow yield are the only valuation references in the report. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put balance sheet at 85/100 and growth at 24/100, with the composite averaging 56/100. A 85/100 balance sheet score against a 24/100 growth score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on balance sheet and the durability of 17.9% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 5.0%, not a single quarter. The key exposure is policy growth and fee rates.",
+      "The scorecard puts the composite at 56/100. Focus on the balance sheet-to-growth spread rather than the average."
     ],
     "questions": [
       "How much of growth is organic versus acquired?",

@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const GMAB: StockStory = {
   "ticker": "GMAB",
   "kicker": "Pharma & Biotech · Biotechnology",
-  "title": "Genmab A/S at 34.9x earnings: what the filings support",
-  "dek": "Genmab A/S reported $2.8B of trailing revenue at a 35.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Genmab A/S: margins, cash conversion and the multiple",
+  "dek": "Genmab A/S's revenue rose 106.9% to $2.8B, at a 35.7% operating margin. The key risk is clinical failure and patent timing.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $2.8B trailing twelve months, +106.9% year over year.",
+    "Revenue: $2.8B, +106.9% year over year.",
     "Profitability: 35.7% operating margin and 36.3% net margin.",
     "Cash: $1.1B free cash flow, a 30.9% margin, against $1.1B of net cash.",
-    "Valuation: 34.9x trailing earnings and no meaningful EV/EBITDA multiple at the latest close."
+    "Valuation: 34.9x trailing earnings and no meaningful EV/EBITDA multiple."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const GMAB: StockStory = {
   "irUrl": "https://www.genmab.com",
   "bigPicture": {
     "paragraphs": [
-      "Genmab A/S generated $2.8B of revenue over the last twelve months, +106.9% versus the prior year. The latest reported quarter was Q2 FY25, with $925M of revenue and a 38.9% operating margin. The shares closed at $56.67 on Nov 25, 2026, giving a market capitalization of $34.9B.",
-      "No segment disclosure is available, which means the consolidated revenue line carries the analysis. No country-level revenue split is carried in the data used here. Genmab A/S competes in Biotechnology, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $34.9B, or 34.9x trailing earnings and no meaningful EV/EBITDA multiple. The shares sit 91% of the way up their 52-week range ($23.62 to $59.97). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Genmab A/S's revenue rose 106.9% to $2.8B at a 35.7% operating margin, generating $1.1B of free cash flow. The latest quarter (Q2 FY25) grew 18.7%.",
+      "Revenue is reported as one consolidated line. The upside is pipeline readouts and royalties. What would break it is clinical failure and patent timing. Without a segment split, the consolidated margin is the cleanest unit of analysis.",
+      "At $56.67, the equity is worth $34.9B, or 34.9x trailing earnings and no meaningful EV/EBITDA multiple. The earnings multiple is 22.7% above the 28.5x peer median. The stock is 91% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Genmab develops antibody therapeutics, so royalty streams and pipeline readouts drive value."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Genmab A/S, a biotechnology company, develops antibody-based products and product candidates for the treatment of cancer and other diseases in Denmark. The company markets EPKINLY and TEPKINLY for adult patients with relapsed or refractory (R/R) diffuse large b-cell lymphoma (DLBCL), large B-cell lymphoma, and follicular lymphoma (FL); and Tivdak for adult patients with recurrent/metastatic cervical cancer with disease progression on or after chemotherapy.",
-      "Revenue is reported at the consolidated level only. Its latest filing lists 3,244 employees. The revenue base is $2.8B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "VRTX, REGN and VKTX provide the closest reference points for margin, growth and valuation."
+      "Genmab A/S, a biotechnology company, develops antibody-based products and product candidates for the treatment of cancer and other diseases in Denmark.",
+      "Genmab A/S earned an 80.7% gross margin, and R&D, manufacturing and commercial spend absorbed 44.9% of revenue, leaving a 35.7% operating margin. That is 46.4 points above the peer median of -10.7%.",
+      "Capex is 1.3% of revenue, so the business is asset-light. The balance sheet carries $1.1B of net cash. Return on invested capital was 13.6%. That is 37.4 points above the peer median of -23.7%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$2.8B on a trailing-twelve-month basis, with the latest quarter at $925M."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 35.7%; free-cash-flow margin 30.9%; net margin 36.3%."
+        "title": "Margin engine",
+        "detail": "Gross margin 80.7%, operating margin 35.7%. R&D, manufacturing and commercial spend are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $34.9B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 1.3% of revenue; $1.1B of net cash; ROIC 13.6%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 80.7%, operating margin is 35.7% and net margin is 36.3%. Gross profit was $2.2B, and 44.9% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "The balance sheet carries $1.1B of net cash. Return on invested capital was 13.6% and return on equity was 18.9%. That is neither clearly good nor clearly bad without knowing the cost of capital."
+      "Revenue depends on a small number of programmes, patent life and payer coverage. The edge is antibody platform and royalties.",
+      "The operating margin is 35.7%, 46.4 points above the peer median of -10.7%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 34.7% a year across the fiscal years in the dataset, and the latest quarter changed +18.7% year over year. Current-year estimates point to 28.1% revenue growth, with EPS of 1.26 in the reporting currency.",
-      "The operating margin of 35.7% and return on invested capital of 13.6% are the filters to watch as revenue scales. With a 35.7% margin, the growth rate matters less than whether the margin is repeatable."
+      "Revenue compounded at 34.7% a year from FY2018 to FY2025. The latest quarter (Q2 FY25) grew 18.7% year over year. The current-year consensus looks for 28.1% revenue growth, with EPS of 1.26 in the reporting currency.",
+      "The next leg depends on pipeline readouts and royalties. For Genmab A/S, revenue growth is only worth paying for if the patent runway and launch curve support it."
     ],
     "bullets": [
       {
         "title": "Launch execution",
-        "detail": "Revenue growth is +106.9%. Watch whether that reading improves or merely holds."
+        "detail": "New therapies need payer coverage, prescriber adoption and manufacturing scale. Revenue growth is 106.9%."
       },
       {
         "title": "Pipeline readouts",
@@ -67,41 +67,41 @@ export const GMAB: StockStory = {
       },
       {
         "title": "Patent duration",
-        "detail": "Return on invested capital is 13.6%. The remaining exclusivity period determines how long the cash flow lasts."
+        "detail": "The remaining exclusivity period determines how long the cash flow lasts. Return on invested capital is 13.6%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 45.6% in FY2018 to 28.6% in FY2025. The trailing operating margin is 35.7%, the net margin is 36.3% and diluted EPS is $15.54.",
-      "Return on equity was 18.9% and return on invested capital was 13.6%. The two returns are within a few points, at 18.9% on equity and 13.6% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 45.6% in FY2018 to 28.6% in FY2025. The trailing operating margin is 35.7%, the net margin is 36.3%, and diluted EPS is $15.54, up 66.4% year over year.",
+      "Return on equity of 18.9% and return on invested capital of 13.6% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.1B, a 30.9% margin. The balance sheet carries $1.1B of net cash. With capital spending at 1.3% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $1.2B, or 123.2% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $37M in the latest fiscal year."
+      "Free cash flow was $1.1B, or 30.9% of revenue. Operating cash flow covered 123.2% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 1.3% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $1.1B of net cash. Management can fund the next phase without needing the capital markets. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 34.9x trailing earnings, no meaningful EV/EBITDA multiple and 12.3x EV/sales. The free-cash-flow yield is 3.3%. The trailing earnings yield is 2.9%, against a free-cash-flow yield of 3.3%.",
-      "The peer comparison sets the company against VRTX, REGN and VKTX; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $56.67, the shares trade at 34.9x trailing earnings and no meaningful EV/EBITDA multiple, with a 3.3% free-cash-flow yield. The earnings yield is 2.9%. The earnings multiple is 22.7% above the 28.5x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "11 analysts contribute to the third-party consensus. The mean target is $66.15, with a range of $56.00 to $80.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates point to 28.1% revenue growth, with EPS of 1.26 in the reporting currency. The estimate revisions in the dataset are 13.4% over 30 days and 8.9% over 90 days."
+      "11 analysts in the third-party consensus carry a mean target of $66.15, 16.7% above the latest close. The range runs from $56.00 to $80.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for 28.1% revenue growth, with EPS of 1.26 in the reporting currency. EPS estimates are up 13.4% over 30 days and up 8.9% over 90 days."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is pipeline readouts and royalties versus clinical failure and patent timing.",
     "items": [
       {
-        "title": "Clinical failure",
+        "title": "Clinical failure and patent timing",
         "severity": "High",
-        "detail": "A negative trial can remove most of a programme's value.",
+        "detail": "The main risk is clinical failure and patent timing.",
         "watch": "Trial endpoints and readout timing."
       },
       {
@@ -146,9 +146,9 @@ export const GMAB: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Genmab A/S produced $2.8B of trailing revenue at a 35.7% operating margin and a 30.9% free-cash-flow margin. The business converts an unusually large share of revenue into cash, and the multiple depends on that continuing.",
-      "Analysts contributing to the third-party consensus carry a $66.15 mean target as of 2026-11-25, 16.7% above the latest close; the figure belongs to the analysts who published it, not to this report.",
-      "The factor percentiles put growth at 88/100 and balance sheet at 61/100, with the composite averaging 75/100. The readings are close enough together that the average carries most of the information; growth is the strongest at 88/100."
+      "The investment case rests on growth and the durability of 35.7% margins. $1.1B of net cash is the weak link.",
+      "What would change the view is return on invested capital rising above 15.6%, not a single quarter. The key exposure is clinical failure and patent timing.",
+      "The scorecard averages 75/100, but the dispersion matters more: growth is 88/100 and balance sheet is 61/100."
     ],
     "questions": [
       "When does the largest patent expire?",

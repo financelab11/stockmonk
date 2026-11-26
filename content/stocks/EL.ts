@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const EL: StockStory = {
   "ticker": "EL",
   "kicker": "Consumer Retail & Leisure · Household & Personal Products",
-  "title": "The financial engine behind The Estée Lauder Companies Inc.",
-  "dek": "The Estée Lauder Companies Inc. reported $15.3B of trailing revenue at a 6.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "The Estée Lauder Companies: 6.7% margins and the price being paid",
+  "dek": "The Estée Lauder Companies' revenue rose 5.8% to $15.3B, at a 6.7% operating margin. The key risk is travel retail and China.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $15.3B trailing twelve months, +5.8% year over year.",
+    "Revenue: $15.3B, +5.8% year over year.",
     "Profitability: 6.7% operating margin and 2.4% net margin.",
     "Cash: $1.5B free cash flow, a 9.9% margin, against $3.6B of net debt.",
-    "Valuation: 107.5x trailing earnings and 23.9x EV/EBITDA at the latest close."
+    "Valuation: 107.5x trailing earnings and 23.9x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const EL: StockStory = {
   "irUrl": "https://www.elcompanies.com",
   "bigPicture": {
     "paragraphs": [
-      "The Estée Lauder Companies Inc. generated $15.3B of revenue over the last twelve months, +5.8% versus the prior year. The latest reported quarter was Q1 FY27, with $3.7B of revenue and an 11.0% operating margin. The shares closed at $109.21 on Nov 25, 2026, giving a market capitalization of $39.6B.",
-      "A reportable segment split is not available in the current dataset; the consolidated revenue line is the cleanest unit of analysis. Revenue is disclosed across 3 geographies, with Other Countries the largest at 49.0%.",
-      "At the latest close the equity is valued at $39.6B, or 107.5x trailing earnings and 23.9x EV/EBITDA. The shares sit 78% of the way up their 52-week range ($66.22 to $121.64). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "The Estée Lauder Companies' revenue rose 5.8% to $15.3B at a 6.7% operating margin, generating $1.5B of free cash flow. The latest quarter (Q1 FY27) grew 6.7%.",
+      "Revenue is reported as one consolidated line. Other Countries is the largest geography at 49.0% of revenue. What could lift the return is brand innovation and margin. The thing to watch is travel retail and China.",
+      "At $109.21, the equity is worth $39.6B, or 107.5x trailing earnings and 23.9x EV/EBITDA. The earnings multiple is 208.9% above the 34.8x peer median. The stock is 78% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Estee Lauder sells prestige beauty, so travel retail, China and brand innovation drive growth."
   },
   "whatItDoes": {
     "paragraphs": [
-      "The Estée Lauder Companies Inc. manufactures, markets, and sells skin care, makeup, fragrance, and hair care products worldwide. The business is part of the Consumer Retail & Leisure group and reports under Consumer Defensive in the current classification.",
-      "The company reports one consolidated revenue line rather than a segment split. Headcount was 37,950 in the latest filing. With $15.3B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "Against PG, CL and ELF, the relevant tests are pricing power, capital intensity and cash conversion."
+      "The Estée Lauder Companies Inc. manufactures, markets, and sells skin care, makeup, fragrance, and hair care products worldwide.",
+      "The Estée Lauder Companies earned a 76.0% gross margin, and cost of goods, occupancy and labor absorbed 69.4% of revenue, leaving a 6.7% operating margin. That is 6.6 points below the peer median of 13.3%.",
+      "Capex is 3.0% of revenue, so the business is asset-light. Net debt is $3.6B, or 2.0x EBITDA. Return on invested capital was 4.7%. That is 7.8 points below the peer median of 12.5%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$15.3B on a trailing-twelve-month basis, with the latest quarter at $3.7B."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 6.7%; free-cash-flow margin 9.9%; net margin 2.4%."
+        "title": "Margin engine",
+        "detail": "Gross margin 76.0%, operating margin 6.7%. Cost of goods, occupancy and labor are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $39.6B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 3.0% of revenue; $3.6B of net debt; ROIC 4.7%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 76.0% of revenue after cost of sales, or $11.6B. Operating expenses absorbed 69.4% of revenue, leaving a 6.7% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $3.6B, or 2.0x EBITDA. Return on invested capital was 4.7% and return on equity was 9.1%. That is a thin return; without a margin recovery or a different capital allocation, growth is unlikely to create value."
+      "Traffic, basket size and inventory turns drive revenue; markdowns and occupancy drive the margin. The edge is prestige beauty brands.",
+      "The operating margin is 6.7%, 6.6 points below the peer median of 13.3%. Inventory turns and markdown discipline decide whether volume growth reaches the operating line."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 0.2% a year across the fiscal years in the dataset, and the latest quarter changed +6.7% year over year. Current-year estimates call for $15.9B of revenue and $3.43 of EPS.",
-      "The operating margin of 6.7% and return on invested capital of 4.7% are the filters to watch as revenue scales. The 5.8% revenue pace and 6.7% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 0.2% a year from FY2019 to FY2026. The latest quarter (Q1 FY27) grew 6.7% year over year. The current-year consensus looks for $15.9B of revenue and $3.43 of EPS.",
+      "The next leg depends on brand innovation and margin. For The Estée Lauder Companies, sales growth is only worth paying for if inventory turns and markdowns stay under control."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Revenue growth is +5.8%. Same-store growth shows demand without new square footage."
+        "detail": "Same-store growth shows demand without new square footage. Revenue growth is 5.8%."
       },
       {
         "title": "Unit growth",
-        "detail": "New stores and markets expand the revenue base but carry fixed costs. The current reading: the operating margin is 6.7%."
+        "detail": "New stores and markets expand the revenue base but carry fixed costs. The operating margin is 6.7%."
       },
       {
         "title": "Merchandise margin",
-        "detail": "Return on invested capital is 4.7%. Compare that with the prior year before drawing a conclusion."
+        "detail": "Private label, sourcing and markdown discipline determine gross margin. Return on invested capital is 4.7%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 15.6% in FY2019 to 5.2% in FY2026. The trailing operating margin is 6.7%, the net margin is 2.4% and diluted EPS is $1.00.",
-      "Return on equity was 9.1% and return on invested capital was 4.7%. With return on equity at 9.1% and return on invested capital at 4.7%, leverage is not the main driver of the gap."
+      "The operating margin moved from 15.6% in FY2019 to 5.2% in FY2026. The trailing operating margin is 6.7%, the net margin is 2.4%, and diluted EPS is $1.00, down 138.6% year over year.",
+      "Return on equity of 9.1% and return on invested capital of 4.7% are close enough that operating performance explains most of the return. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.5B, a 9.9% margin. Net debt is $3.6B, or 2.0x EBITDA. Capex absorbed 3.0% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $1.8B, or 974.2% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $457M in the latest fiscal year."
+      "Free cash flow was $1.5B, or 9.9% of revenue. Operating cash flow covered 974.2% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 3.0% of revenue, which is low relative to the revenue base.",
+      "Net debt is $3.6B, or 2.0x EBITDA. Interest cover is 3.1x. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 107.5x trailing earnings, 23.9x EV/EBITDA and 2.8x EV/sales. The free-cash-flow yield is 3.8%. Inverting the P/E gives an earnings yield of 0.9%; the cash-flow yield is 3.8%.",
-      "The peer comparison sets the company against PG, CL and ELF; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $109.21, the shares trade at 107.5x trailing earnings and 23.9x EV/EBITDA, with a 3.8% free-cash-flow yield. The earnings yield is 0.9%. The earnings multiple is 208.9% above the 34.8x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "28 analysts contribute to the third-party consensus. The mean target is $116.49, with a range of $70.00 to $132.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $15.9B of revenue and $3.43 of EPS. The estimate revisions in the dataset are 3.2% over 30 days and 7.6% over 90 days. Set against trailing revenue, the estimate implies growth of 3.9%."
+      "28 analysts in the third-party consensus carry a mean target of $116.49, 6.7% above the latest close. The range runs from $70.00 to $132.00. The spread between the high and low target is unusually wide. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $15.9B of revenue and $3.43 of EPS. EPS estimates are up 3.2% over 30 days and up 7.6% over 90 days. That implies 3.9% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is brand innovation and margin versus travel retail and China.",
     "items": [
       {
-        "title": "Consumer spending",
+        "title": "Travel retail and China",
         "severity": "High",
-        "detail": "Discretionary budgets are sensitive to confidence and rates.",
+        "detail": "The main risk is travel retail and China.",
         "watch": "Comparable sales and transaction counts."
       },
       {
@@ -146,9 +146,9 @@ export const EL: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "The Estée Lauder Companies Inc. produced $15.3B of trailing revenue at a 6.7% operating margin and a 9.9% free-cash-flow margin. Nothing in the record is extreme; the debate is about the durability of the current growth and margin.",
-      "The consensus target is $116.49 as of 2026-11-25, 6.7% above the latest close; the forecast is theirs, and this report does not adopt it as a target. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put cash generation at 37/100 and growth at 15/100, with the composite averaging 25/100. The narrow range between cash generation at 37/100 and growth at 15/100 means the average is a fair summary."
+      "The investment case rests on cash generation and the durability of 6.7% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 8.8%, not a single quarter. The key exposure is travel retail and China.",
+      "The scorecard puts the composite at 25/100. Focus on the cash generation-to-growth spread rather than the average."
     ],
     "questions": [
       "Is growth coming from traffic or price?",

@@ -4,13 +4,13 @@ export const MGM: StockStory = {
   "ticker": "MGM",
   "kicker": "Consumer Retail & Leisure · Resorts & Casinos",
   "title": "MGM Resorts International: Casinos and entertainment resorts",
-  "dek": "MGM Resorts International reported $17.7B of trailing revenue at a 7.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "dek": "MGM Resorts International's revenue rose 2.6% to $17.7B, at a 7.0% operating margin. The key risk is gaming volumes and capex.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $17.7B trailing twelve months, +2.6% year over year.",
+    "Revenue: $17.7B, +2.6% year over year.",
     "Profitability: 7.0% operating margin and 3.9% net margin.",
     "Cash: $1.4B free cash flow, a 7.9% margin, against $3.3B of net debt.",
-    "Valuation: 12.7x trailing earnings and 5.1x EV/EBITDA at the latest close."
+    "Valuation: 12.7x trailing earnings and 5.1x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const MGM: StockStory = {
   "irUrl": "https://www.mgmresorts.com",
   "bigPicture": {
     "paragraphs": [
-      "MGM Resorts International generated $17.7B of revenue over the last twelve months, +2.6% versus the prior year. The latest reported quarter was Q3 FY26, with $4.2B of revenue and a 2.8% operating margin. The shares closed at $34.72 on Nov 25, 2026, giving a market capitalization of $8.8B.",
-      "Las Vegas Strip Resorts accounts for 48.1% of disclosed revenue. Revenue is disclosed across 3 geographies, with United States the largest at 70.8%. MGM Resorts International competes in Resorts & Casinos, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $8.8B, or 12.7x trailing earnings and 5.1x EV/EBITDA. The shares sit 32% of the way up their 52-week range ($26.71 to $51.59). The multiple embeds a view on durability, and the rest of the report tests that view against the reported record."
+      "MGM Resorts International's revenue rose 2.6% to $17.7B at a 7.0% operating margin, generating $1.4B of free cash flow. The latest quarter (Q3 FY26) fell 0.9%.",
+      "Las Vegas Strip Resorts is 48.1% of revenue and MGM China is 25.4%. The US is the largest geography at 70.8% of revenue. What could lift the return is macao recovery and Las Vegas events. The thing to watch is gaming volumes and capex.",
+      "At $34.72, the equity is worth $8.8B, or 12.7x trailing earnings and 5.1x EV/EBITDA. The earnings multiple is 18.3% below the 15.5x peer median. The stock is 32% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "MGM operates casinos and entertainment resorts, so gaming volumes, hotel occupancy and Macao/Strip capex determine cash flow."
   },
   "whatItDoes": {
     "paragraphs": [
-      "MGM Resorts International, through its subsidiaries, operates as a gaming and entertainment company in the United States, China, and internationally. It operates through four segments: Las Vegas Strip Resorts, Regional Operations, MGM China, and MGM Digital.",
-      "The disclosed mix runs across Las Vegas Strip Resorts at 48.1%, MGM China at 25.4% and Regional Operations at 21.5%. Headcount was 60,000 in the latest filing. The revenue base is $17.7B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "Against ANF, SG and SN, the relevant tests are pricing power, capital intensity and cash conversion."
+      "MGM Resorts International, through its subsidiaries, operates as a gaming and entertainment company in the United States, China, and internationally.",
+      "MGM Resorts International does not report a product gross margin; labor, food, fuel and property costs sit inside the operating line, leaving a 7.0% operating margin. That is 13.9 points below the peer median of 20.9%.",
+      "Capex is 6.0% of revenue, so the business is asset-light. Net debt is $3.3B, or 1.4x EBITDA. Return on invested capital was 15.3%. That is 2.0 points below the peer median of 17.2%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$17.7B on a trailing-twelve-month basis, with the latest quarter at $4.2B."
+        "title": "Revenue mix",
+        "detail": "Las Vegas Strip Resorts at 48.1%, MGM China at 25.4% and Regional Operations at 21.5%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 7.0%; free-cash-flow margin 7.9%; net margin 3.9%."
+        "title": "Margin engine",
+        "detail": "Operating margin 7.0%. Labor, food, fuel and property costs are the main cost line, so the operating margin is the scorecard for cost discipline."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $8.8B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 6.0% of revenue; $3.3B of net debt; ROIC 15.3%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "A gross margin is not available in the dataset for this business, so the operating margin of 7.0% is the first clean profitability line. Demand, occupancy and pricing per unit drive revenue, while labor, fuel and property costs determine the margin.",
-      "Net debt is $3.3B, or 1.4x EBITDA. Return on invested capital was 15.3% and return on equity was 27.7%. That is comfortably above most cost-of-capital estimates, which is what lets reinvestment create value."
+      "Occupancy, ticket pricing and capacity drive revenue; labor and fuel drive the cost. The edge is las Vegas Strip and Macao resorts.",
+      "The operating margin is 7.0%, 13.9 points below the peer median of 20.9%. The next dollar of revenue matters less than the margin it carries."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.9% a year across the fiscal years in the dataset, and the latest quarter changed -0.9% year over year. Current-year estimates call for $17.5B of revenue and $1.47 of EPS.",
-      "The operating margin of 7.0% and return on invested capital of 15.3% are the filters to watch as revenue scales. Growth of 2.6% against a 7.0% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 5.9% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) fell 0.9% year over year. The current-year consensus looks for $17.5B of revenue and $1.47 of EPS.",
+      "The next leg depends on macao recovery and Las Vegas events. For MGM Resorts International, demand growth is only worth paying for if pricing covers labor and capacity costs."
     ],
     "bullets": [
       {
         "title": "Demand and occupancy",
-        "detail": "Revenue growth is +2.6%. Bookings, passenger counts or room nights determine how much capacity is used."
+        "detail": "Bookings, passenger counts or room nights determine how much capacity is used. Revenue growth is 2.6%."
       },
       {
         "title": "Pricing and yield",
-        "detail": "Ticket, room or menu pricing determines revenue per unit of capacity. The current reading: the operating margin is 7.0%."
+        "detail": "Ticket, room or menu pricing determines revenue per unit of capacity. The operating margin is 7.0%."
       },
       {
         "title": "Unit and capacity growth",
-        "detail": "Return on invested capital is 15.3%. The next data point will show whether the trend is intact."
+        "detail": "New ships, rooms or restaurants expand the base but carry fixed costs and execution risk. Return on invested capital is 15.3%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 12.5% in FY2018 to 5.7% in FY2025. The trailing operating margin is 7.0%, the net margin is 3.9% and diluted EPS is $2.60.",
-      "Return on equity was 27.7% and return on invested capital was 15.3%. Equity returns exceed invested-capital returns by 12.4%, which is more than operating performance alone would explain. A peer median is a useful anchor, but the company's own trajectory is the better test."
+      "The operating margin moved from 12.5% in FY2018 to 5.7% in FY2025. The trailing operating margin is 7.0%, the net margin is 3.9%, and diluted EPS is $2.60.",
+      "The 12.4-point spread between return on equity and return on invested capital suggests some of the equity return comes from the balance sheet. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.4B, a 7.9% margin. Net debt is $3.3B, or 1.4x EBITDA. With capital spending at 6.0% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $2.5B, or 1228.7% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $1.1B in the latest fiscal year."
+      "Free cash flow was $1.4B, or 7.9% of revenue. Operating cash flow covered 1228.7% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 6.0% of revenue, which is low relative to the revenue base.",
+      "Net debt is $3.3B, or 1.4x EBITDA. Interest cover is 3.1x. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 12.7x trailing earnings, 5.1x EV/EBITDA and 0.7x EV/sales. The free-cash-flow yield is 15.9%. The trailing earnings yield is 7.9%, against a free-cash-flow yield of 15.9%.",
-      "The peer comparison sets the company against ANF, SG and SN; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $34.72, the shares trade at 12.7x trailing earnings and 5.1x EV/EBITDA, with a 15.9% free-cash-flow yield. The earnings yield is 7.9%. The earnings multiple is 18.3% below the 15.5x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "19 analysts contribute to the third-party consensus. The mean target is $37.84, with a range of $26.00 to $57.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $17.5B of revenue and $1.47 of EPS. The estimate revisions in the dataset are -11.5% over 30 days and -18.9% over 90 days. Set against trailing revenue, the estimate implies a decline of 1.0%."
+      "19 analysts in the third-party consensus carry a mean target of $37.84, 9.0% above the latest close. The range runs from $26.00 to $57.00. The spread between the high and low target is unusually wide. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $17.5B of revenue and $1.47 of EPS. EPS estimates are down 11.5% over 30 days and down 18.9% over 90 days. That implies a 1.0% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is macao recovery and Las Vegas events versus gaming volumes and capex.",
     "items": [
       {
-        "title": "Consumer cycle",
+        "title": "Gaming volumes and capex",
         "severity": "High",
-        "detail": "Travel, dining and gaming budgets fall quickly when confidence weakens.",
+        "detail": "The main risk is gaming volumes and capex.",
         "watch": "Bookings, occupancy and average spend."
       },
       {
@@ -146,9 +146,9 @@ export const MGM: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "MGM Resorts International produced $17.7B of trailing revenue at a 7.0% operating margin and a 7.9% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Analysts contributing to the third-party consensus carry a $37.84 mean target as of 2026-11-25, 9.0% above the latest close; the forecast is theirs, and this report does not adopt it as a target.",
-      "The factor percentiles put valuation at 93/100 and cash generation at 31/100, with the composite averaging 53/100. The average hides a strong valuation reading and a weak cash generation one, which is why the spread is the more useful description."
+      "The investment case rests on valuation and the durability of 7.0% margins. The weak link is cash generation.",
+      "What would change the view is the free-cash-flow margin rising above 10.9%, not a single quarter. The key exposure is gaming volumes and capex.",
+      "The scorecard puts the composite at 53/100. Focus on the valuation-to-cash generation spread rather than the average."
     ],
     "questions": [
       "Is demand growing or is capacity being added?",

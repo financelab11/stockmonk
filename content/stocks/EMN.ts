@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const EMN: StockStory = {
   "ticker": "EMN",
   "kicker": "Materials & Mining · Specialty Chemicals",
-  "title": "Eastman Chemical Company: a materials & mining business with +0.3% revenue growth",
-  "dek": "Eastman Chemical Company reported $9B of trailing revenue at a 7.2% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Eastman Chemical: margins, cash conversion and the multiple",
+  "dek": "Eastman Chemical's revenue was flat at $9B, at a 7.2% operating margin. The key risk is industrial demand and feedstock.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $9B trailing twelve months, +0.3% year over year.",
+    "Revenue: $9B, +0.3% year over year.",
     "Profitability: 7.2% operating margin and 6.9% net margin.",
     "Cash: $469M free cash flow, a 5.2% margin, against $5.2B of net debt.",
-    "Valuation: 11.2x trailing earnings and 10.3x EV/EBITDA at the latest close."
+    "Valuation: 11.2x trailing earnings and 10.3x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,91 +18,91 @@ export const EMN: StockStory = {
   "irUrl": "https://www.eastman.com",
   "bigPicture": {
     "paragraphs": [
-      "Eastman Chemical Company generated $9B of revenue over the last twelve months, +0.3% versus the prior year. The latest reported quarter was Q3 FY26, with $2.4B of revenue and a 10.4% operating margin. The shares closed at $61.26 on Nov 25, 2026, giving a market capitalization of $7B.",
-      "Advanced Materials is 32.9% of the disclosed revenue mix. All Foreign Countries supplies 47.3% of disclosed revenue, the largest single geography in the filing. Eastman Chemical Company competes in Specialty Chemicals, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $7B, or 11.2x trailing earnings and 10.3x EV/EBITDA. The shares sit 11% of the way up their 52-week range ($58.51 to $83.47). That price is the market's estimate of how long the current growth and margin can last; the rest of this report tests the evidence rather than restates the estimate."
+      "Eastman Chemical's revenue was flat at $9B at a 7.2% operating margin, generating $469M of free cash flow. The latest quarter (Q3 FY26) grew 8.3%.",
+      "Advanced Materials is 32.9% of revenue and Chemical Intermediates is 22.0%. All Foreign Countries is the largest geography at 47.3% of revenue. The catalyst is pricing and volume. The exposure is industrial demand and feedstock.",
+      "At $61.26, the equity is worth $7B, or 11.2x trailing earnings and 10.3x EV/EBITDA. The earnings multiple is 66.6% below the 33.5x peer median. The stock is 11% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
     "quote": "Eastman makes specialty chemicals, so volume, pricing and feedstock costs drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Eastman Chemical Company operates as a specialty materials company in the United States, China, and internationally. The company's Additives & Functional Products segment offers amine derivative-based building blocks, intermediates for surfactants, metam-based soil fumigants, and organic acid-based solutions; specialty coalescent and solvents, paint additives, and specialty polymers; and heat transfer and aviation fluids.",
-      "The disclosed mix runs across Advanced Materials at 32.9%, Chemical Intermediates at 22.0% and Fibers at 12.0%. The last disclosure put headcount at 13,000 people. Trailing revenue is $9B, and the split between recurring and transactional revenue is the first thing to establish before comparing margins with peers.",
-      "The closest listed comparisons are LIN, SHW and ECL; the useful question is how Eastman Chemical Company's margin and returns compare with theirs, not how fast the addressable market is growing."
+      "Eastman Chemical Company operates as a specialty materials company in the United States, China, and internationally.",
+      "Eastman Chemical earned a 20.6% gross margin, and energy, feedstock and maintenance absorbed 13.4% of revenue, leaving a 7.2% operating margin. That is 7.4 points below the peer median of 14.6%.",
+      "Capital spending runs at 6.0% of revenue, which is low relative to the revenue base. Net debt is $5.2B, or 4.4x EBITDA. Return on invested capital was 5.1%. That is 4.8 points below the peer median of 9.9%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$9B on a trailing-twelve-month basis, with the latest quarter at $2.4B."
+        "title": "Revenue mix",
+        "detail": "Advanced Materials at 32.9%, Chemical Intermediates at 22.0% and Fibers at 12.0%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 7.2%; free-cash-flow margin 5.2%; net margin 6.9%."
+        "title": "Margin engine",
+        "detail": "Gross margin 20.6%, operating margin 7.2%. Energy, feedstock and maintenance are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $7B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 6.0% of revenue; $5.2B of net debt; ROIC 5.1%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Of $9B of revenue, $1.9B remained after cost of sales. The 13.4% operating-expense load brought that down to a 7.2% operating margin. That cost load is the lever between gross profit and operating profit.",
-      "Net debt is $5.2B, or 4.4x EBITDA. Return on invested capital was 5.1% and return on equity was 10.0%. That leaves little room above the cost of capital."
+      "Commodity prices, volumes and input costs drive revenue and margin. The edge is specialty chemicals and circular economy.",
+      "The operating margin is 7.2%, 7.4 points below the peer median of 14.6%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at -2.1% a year across the fiscal years in the dataset, and the latest quarter changed +8.3% year over year. Current-year estimates call for $9.2B of revenue and $6.11 of EPS.",
-      "The operating margin of 7.2% and return on invested capital of 5.1% are the filters to watch as revenue scales. Neither the 0.3% growth nor the 7.2% margin is extreme; the combination is what matters."
+      "Revenue compounded at -2.1% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 8.3% year over year. The current-year consensus looks for $9.2B of revenue and $6.11 of EPS.",
+      "The next leg depends on pricing and volume. For Eastman Chemical, volume growth is only worth paying for if the price-cost spread holds. Growth is only valuable if the new revenue earns a similar return to the existing business."
     ],
     "bullets": [
       {
         "title": "Volume",
-        "detail": "Shipments show underlying industrial demand. Revenue growth is +0.3%."
+        "detail": "Shipments show underlying industrial demand. Revenue growth is 0.3%."
       },
       {
         "title": "Price and mix",
-        "detail": "The operating margin is 7.2%. Product mix and pricing determine margin per ton."
+        "detail": "Product mix and pricing determine margin per ton. The operating margin is 7.2%."
       },
       {
         "title": "Cost position",
-        "detail": "Low-cost assets can earn through the cycle. The current reading: return on invested capital is 5.1%."
+        "detail": "Low-cost assets can earn through the cycle. Return on invested capital is 5.1%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 12.9% in FY2018 to 6.5% in FY2025. The trailing operating margin is 7.2%, the net margin is 6.9% and diluted EPS is $5.43.",
-      "Return on equity was 10.0% and return on invested capital was 5.1%. Return on invested capital of 5.1% is close to the 10.0% equity return, so the balance sheet explains only part of the difference."
+      "The operating margin moved from 12.9% in FY2018 to 6.5% in FY2025. The trailing operating margin is 7.2%, the net margin is 6.9%, and diluted EPS is $5.43, down 12.1% year over year.",
+      "Return on equity of 10.0% and return on invested capital of 5.1% are close enough that operating performance explains most of the return. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $469M, a 5.2% margin. Net debt is $5.2B, or 4.4x EBITDA. Capital expenditure was 6.0% of revenue, so the free-cash-flow margin is the cash left for debt, acquisitions, buybacks or dividends.",
-      "Operating cash flow was $970M, or 204.6% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $546M in the latest fiscal year."
+      "Free cash flow was $469M, or 5.2% of revenue. Operating cash flow covered 204.6% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 6.0% of revenue, which is low relative to the revenue base.",
+      "Net debt is $5.2B, or 4.4x EBITDA. Interest cover is 3.0x. Leverage is the constraint: the equity is sensitive to refinancing costs and a slower cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 11.2x trailing earnings, 10.3x EV/EBITDA and 1.4x EV/sales. The free-cash-flow yield is 6.7%. The 8.9% earnings yield and 6.7% free-cash-flow yield are the two return measures embedded in the price.",
-      "The peer comparison sets the company against LIN, SHW and ECL; the multiple is a starting point for questions, not a verdict. What would justify a higher multiple is evidence that growth and returns are durable; what would break it is a slower growth rate or a lower margin on incremental revenue."
+      "At $61.26, the shares trade at 11.2x trailing earnings and 10.3x EV/EBITDA, with a 6.7% free-cash-flow yield. The earnings yield is 8.9%. The earnings multiple is 66.6% below the 33.5x peer median.",
+      "The multiple implies the market expects little growth and assumes the current margin is close to peak. The multiple is below the peer median, so some of the risk is already in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "16 analysts contribute to the third-party consensus. The mean target is $74.94, with a range of $62.00 to $84.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $9.2B of revenue and $6.11 of EPS. The estimate revisions in the dataset are -3.0% over 30 days and -4.4% over 90 days. That implies growth of 1.9% over the trailing twelve months."
+      "16 analysts in the third-party consensus carry a mean target of $74.94, 22.3% above the latest close. The range runs from $62.00 to $84.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $9.2B of revenue and $6.11 of EPS. EPS estimates are down 3.0% over 30 days and down 4.4% over 90 days. That implies 1.9% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is pricing and volume versus industrial demand and feedstock.",
     "items": [
       {
-        "title": "Leverage",
+        "title": "Industrial demand and feedstock",
         "severity": "High",
-        "detail": "Net debt is $5.2B, or 4.4x EBITDA, which leaves the equity sensitive to refinancing costs and a slower cash flow.",
-        "watch": "Leverage, interest cover and the maturity profile."
+        "detail": "The main risk is industrial demand and feedstock.",
+        "watch": "Realised prices and inventory."
       },
       {
         "title": "Input costs",
@@ -146,9 +146,9 @@ export const EMN: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Eastman Chemical Company produced $9B of trailing revenue at a 7.2% operating margin and a 5.2% free-cash-flow margin. The 4.4x EBITDA leverage means debt reduction competes with reinvestment for the cash flow.",
-      "The third-party consensus mean is $74.94 as of 2026-11-25, 22.3% above the latest close; it is a consensus view, not a recommendation from Stockmonk. Valuation only becomes a conclusion once the growth and returns behind it are tested.",
-      "The factor percentiles put valuation at 85/100 and balance sheet at 8/100, with the composite averaging 33/100. A 85/100 valuation score against a 8/100 balance sheet score is a different business from the reverse, so the spread carries more information than the average."
+      "The investment case rests on valuation and the durability of 7.2% margins. $5.2B of net debt is the weak link.",
+      "What would change the view is leverage falling below 3.9x EBITDA, not a single quarter. The key exposure is industrial demand and feedstock.",
+      "The composite of 33/100 blends a strong valuation reading with a weak balance sheet one; the gap is the story."
     ],
     "questions": [
       "What is the mid-cycle margin?",

@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const CHD: StockStory = {
   "ticker": "CHD",
   "kicker": "Consumer Staples · Household & Personal Products",
-  "title": "Church & Dwight Co., Inc: Value brands in household and personal care",
-  "dek": "Church & Dwight Co., Inc. reported $6.2B of trailing revenue at an 18.0% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Church & Dwight Co.: Value brands in household and personal care",
+  "dek": "Church & Dwight Co.'s revenue was flat at $6.2B, at an 18.0% operating margin. The key risk is volume and input costs.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $6.2B trailing twelve months, +1.7% year over year.",
+    "Revenue: $6.2B, +1.7% year over year.",
     "Profitability: 18.0% operating margin and 12.4% net margin.",
     "Cash: $1.1B free cash flow, a 16.9% margin, against $1.8B of net debt.",
-    "Valuation: 34.8x trailing earnings and 22.2x EV/EBITDA at the latest close."
+    "Valuation: 34.8x trailing earnings and 22.2x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,48 +18,48 @@ export const CHD: StockStory = {
   "irUrl": "https://www.churchdwight.com",
   "bigPicture": {
     "paragraphs": [
-      "Church & Dwight Co., Inc. generated $6.2B of revenue over the last twelve months, +1.7% versus the prior year. The latest reported quarter was Q3 FY26, with $1.6B of revenue and an 18.2% operating margin. The shares closed at $114.29 on Nov 25, 2026, giving a market capitalization of $27B.",
-      "Consumer Domestic contributes 77.0% of the disclosed revenue mix. No country-level revenue split is carried in the data used here. Church & Dwight Co., Inc. competes in Household & Personal Products, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $27B, or 34.8x trailing earnings and 22.2x EV/EBITDA. The shares sit 97% of the way up their 52-week range ($81.49 to $115.46). The market has already formed a view; the useful work is checking it against the filings rather than repeating it."
+      "Church & Dwight Co.'s revenue was flat at $6.2B at an 18.0% operating margin, generating $1.1B of free cash flow. The latest quarter (Q3 FY26) grew 1.0%.",
+      "Consumer Domestic is 77.0% of revenue and Consumer International is 18.2%. The upside is pricing and innovation. What would break it is volume and input costs.",
+      "At $114.29, the equity is worth $27B, or 34.8x trailing earnings and 22.2x EV/EBITDA. The earnings multiple is 10.3% below the 38.8x peer median. The stock is 97% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Church & Dwight owns value brands in household and personal care, a steady consumer business where volume, pricing and gross margin matter."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Church & Dwight Co., Inc. operates in the Household & Personal Products industry and reports in USD, within the Consumer Staples coverage group. It reports in the Consumer Defensive sector and is classified in Consumer Staples coverage.",
-      "The disclosed mix runs across Consumer Domestic at 77.0%, Consumer International at 18.2% and Specialty Products Division at 4.8%. Its latest filing lists 5,550 employees. The revenue base is $6.2B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "PG, CL and ELF provide the closest reference points for margin, growth and valuation."
+      "Church & Dwight Co. operates in Household & Personal Products.",
+      "Church & Dwight Co. earned a 46.1% gross margin, and cost of goods, marketing and distribution absorbed 28.1% of revenue, leaving an 18.0% operating margin. That is 7.7 points above the peer median of 10.3%.",
+      "Capex is 2.0% of revenue, so the business is asset-light. Net debt is $1.8B, or 1.4x EBITDA. Return on invested capital was 13.2%. That is 4.5 points above the peer median of 8.7%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$6.2B on a trailing-twelve-month basis, with the latest quarter at $1.6B."
+        "title": "Revenue mix",
+        "detail": "Consumer Domestic at 77.0%, Consumer International at 18.2% and Specialty Products Division at 4.8%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 18.0%; free-cash-flow margin 16.9%; net margin 12.4%."
+        "title": "Margin engine",
+        "detail": "Gross margin 46.1%, operating margin 18.0%. Cost of goods, marketing and distribution are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $27B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 2.0% of revenue; $1.8B of net debt; ROIC 13.2%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 46.1%, operating margin is 18.0% and net margin is 12.4%. Gross profit was $2.9B, and 28.1% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "Net debt is $1.8B, or 1.4x EBITDA. Return on invested capital was 13.2% and return on equity was 17.3%. That is neither clearly good nor clearly bad without knowing the cost of capital."
+      "Volume, price and mix drive revenue; input costs and marketing drive the margin. The edge is value brands and household penetration.",
+      "The operating margin is 18.0%, 7.7 points above the peer median of 10.3%. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.9% a year across the fiscal years in the dataset, and the latest quarter changed +1.0% year over year. Current-year estimates call for $6.2B of revenue and $3.77 of EPS.",
-      "The operating margin of 18.0% and return on invested capital of 13.2% are the filters to watch as revenue scales. Growth of 1.7% against an 18.0% operating margin is the balance the next few quarters have to protect."
+      "Revenue compounded at 5.9% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 1.0% year over year. The current-year consensus looks for $6.2B of revenue and $3.77 of EPS.",
+      "The next leg depends on pricing and innovation. For Church & Dwight Co., volume growth is only worth paying for if pricing covers input costs. The next filing should show whether the pace came from demand, pricing or acquisitions."
     ],
     "bullets": [
       {
         "title": "Comparable sales",
-        "detail": "Revenue growth is +1.7%. Watch whether that reading improves or merely holds."
+        "detail": "Same-store or same-customer growth shows demand without new locations. Revenue growth is 1.7%."
       },
       {
         "title": "Unit growth",
@@ -67,41 +67,41 @@ export const CHD: StockStory = {
       },
       {
         "title": "Margin mix",
-        "detail": "Return on invested capital is 13.2%. Private label, services and digital orders can lift profitability."
+        "detail": "Private label, services and digital orders can lift profitability. Return on invested capital is 13.2%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 19.1% in FY2018 to 17.4% in FY2025. The trailing operating margin is 18.0%, the net margin is 12.4% and diluted EPS is $3.26.",
-      "Return on equity was 17.3% and return on invested capital was 13.2%. The two returns are within a few points, at 17.3% on equity and 13.2% on invested capital, so operating performance explains most of the difference."
+      "The operating margin moved from 19.1% in FY2018 to 17.4% in FY2025. The trailing operating margin is 18.0%, the net margin is 12.4%, and diluted EPS is $3.26, up 2.5% year over year.",
+      "Return on equity of 17.3% and return on invested capital of 13.2% are close enough that operating performance explains most of the return. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $1.1B, a 16.9% margin. Net debt is $1.8B, or 1.4x EBITDA. With capital spending at 2.0% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow was $1.2B, or 165.0% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $122.4M in the latest fiscal year."
+      "Free cash flow was $1.1B, or 16.9% of revenue. Operating cash flow covered 165.0% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 2.0% of revenue, which is low relative to the revenue base.",
+      "Net debt is $1.8B, or 1.4x EBITDA. Interest cover is 11.6x. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 34.8x trailing earnings, 22.2x EV/EBITDA and 4.6x EV/sales. The free-cash-flow yield is 3.9%. The trailing earnings yield is 2.9%, against a free-cash-flow yield of 3.9%.",
-      "The peer comparison sets the company against PG, CL and ELF; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $114.29, the shares trade at 34.8x trailing earnings and 22.2x EV/EBITDA, with a 3.9% free-cash-flow yield. The earnings yield is 2.9%. The earnings multiple is 10.3% below the 38.8x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is below the peer median, so some of the risk is already in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "18 analysts contribute to the third-party consensus. The mean target is $111.61, with a range of $78.00 to $125.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $6.2B of revenue and $3.77 of EPS. The estimate revisions in the dataset are 0.0% over 30 days and -0.1% over 90 days. The estimate is consistent with a decline of 0.0% on the trailing revenue figure."
+      "18 analysts in the third-party consensus carry a mean target of $111.61, 2.3% below the latest close. The range runs from $78.00 to $125.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $6.2B of revenue and $3.77 of EPS. EPS estimates are little changed over 30 days and down 0.1% over 90 days. That implies a 0.0% decline from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is pricing and innovation versus volume and input costs.",
     "items": [
       {
-        "title": "Consumer spending",
+        "title": "Volume and input costs",
         "severity": "High",
-        "detail": "Discretionary budgets are sensitive to confidence and rates.",
+        "detail": "The main risk is volume and input costs.",
         "watch": "Comparable sales and transaction counts."
       },
       {
@@ -146,9 +146,9 @@ export const CHD: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Church & Dwight Co., Inc. produced $6.2B of trailing revenue at an 18.0% operating margin and a 16.9% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Analysts contributing to the third-party consensus carry a $111.61 mean target as of 2026-11-25, 2.3% below the latest close; the figure belongs to the analysts who published it, not to this report.",
-      "The factor percentiles put profitability at 59/100 and growth at 24/100, with the composite averaging 42/100. The readings are close enough together that the average carries most of the information; profitability is the strongest at 59/100."
+      "The investment case rests on profitability and the durability of 18.0% margins. The weak link is growth.",
+      "What would change the view is organic growth returning above 4.7%, not a single quarter. The key exposure is volume and input costs.",
+      "The scorecard averages 42/100, but the dispersion matters more: profitability is 59/100 and growth is 24/100."
     ],
     "questions": [
       "Is growth coming from traffic or prices?",

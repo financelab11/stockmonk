@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const ARRY: StockStory = {
   "ticker": "ARRY",
   "kicker": "Power & Renewables · Solar",
-  "title": "How Array Technologies, Inc. makes money and where the cash goes",
-  "dek": "Array Technologies, Inc. reported $1.1B of trailing revenue at an -8.2% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Array Technologies: cash generation and the multiple",
+  "dek": "Array Technologies' revenue fell 15.9% to $1.1B, at an -8.2% operating margin. The key risk is utility-scale solar demand and steel costs.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $1.1B trailing twelve months, -15.9% year over year.",
+    "Revenue: $1.1B, -15.9% year over year.",
     "Profitability: -8.2% operating margin and -9.9% net margin.",
     "Cash: $111.8M free cash flow, a 10.0% margin, against $518.5M of net debt.",
-    "Valuation: no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple at the latest close."
+    "Valuation: no meaningful earnings multiple and no meaningful EV/EBITDA multiple."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,52 +18,52 @@ export const ARRY: StockStory = {
   "irUrl": "https://arraytechinc.com",
   "bigPicture": {
     "paragraphs": [
-      "Array Technologies, Inc. generated $1.1B of revenue over the last twelve months, -15.9% versus the prior year. The latest reported quarter was Q3 FY26, with $330.2M of revenue and a 4.2% operating margin. The shares closed at $4.14 on Nov 25, 2026, giving a market capitalization of $638.7M.",
-      "The largest disclosed segment is Array Legacy Operations at 83.4% of revenue. Geographically, United States leads at 81.1% of the disclosed split. Array Technologies, Inc. competes in Solar, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $638.7M, or no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The shares sit 11% of the way up their 52-week range ($3.09 to $12.23). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Array Technologies' revenue fell 15.9% to $1.1B at an -8.2% operating margin, generating $111.8M of free cash flow. The latest quarter (Q3 FY26) fell 16.1%.",
+      "Array Legacy Operations is 83.4% of revenue and STI Operations is 16.6%. The US is the largest geography at 81.1% of revenue. The near-term driver is utility bookings and international project wins. The risk is utility-scale solar demand and steel costs.",
+      "At $4.14, the equity is worth $638.7M, or no meaningful earnings multiple and no meaningful EV/EBITDA multiple. The stock is 11% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Array makes solar trackers, a project-driven business where utility-scale installations, steel costs and customer concentration drive margins."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Array Technologies, Inc. engages in the manufacture and sale of solar tracking technology products in the United States, Spain, Brazil, Australia, and internationally. Array Technologies, Inc. is a Solar company within the Power & Renewables coverage group.",
-      "The disclosed mix runs across Array Legacy Operations at 83.4% and STI Operations at 16.6%. The company employed 1,200 people at the last reporting date. The revenue base is $1.1B on a trailing basis; how much of that is recurring is the key question for the margin comparison.",
-      "The peer set is ENPH, FSLR and NXT; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Array Technologies, Inc. engages in the manufacture and sale of solar tracking technology products in the United States, Spain, Brazil, Australia, and internationally.",
+      "Array Technologies earned a 22.4% gross margin, and fuel, operations and capital absorbed 30.6% of revenue, leaving an -8.2% operating margin. That is 27.2 points below the peer median of 19.0%.",
+      "Capital spending runs at 2.0% of revenue, which is low relative to the revenue base. Net debt is $518.5M. Return on invested capital was -16.1%. That is 32.5 points below the peer median of 16.4%."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$1.1B on a trailing-twelve-month basis, with the latest quarter at $330.2M."
+        "title": "Revenue mix",
+        "detail": "Array Legacy Operations at 83.4% and STI Operations at 16.6%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin -8.2%; free-cash-flow margin 10.0%; net margin -9.9%."
+        "title": "Margin engine",
+        "detail": "Gross margin 22.4%, operating margin -8.2%. Fuel, operations and capital are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $638.7M at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 2.0% of revenue; $518.5M of net debt; ROIC -16.1%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Gross margin is 22.4%, operating margin is -8.2% and net margin is -9.9%. Gross profit was $251.2M, and 30.6% of revenue went to operating expenses. Every point of operating expense on that gross margin moves the operating result.",
-      "Net debt is $518.5M, or n/a EBITDA. Return on invested capital was -16.1% and return on equity was 53.4%. Until the return turns positive, additional capital is a cost rather than an investment."
+      "Regulated rate base and allowed returns drive revenue; fuel and capital costs drive the margin. The edge is tracker design and utility relationships in a project-based market.",
+      "The operating margin is -8.2%, 27.2 points below the peer median of 19.0%. What matters is whether new revenue carries the same margin as the base."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 23.6% a year across the fiscal years in the dataset, and the latest quarter changed -16.1% year over year. Current-year estimates call for $1.4B of revenue and $0.63 of EPS.",
-      "The operating margin of -8.2% and return on invested capital of -16.1% are the filters to watch as revenue scales. Revenue is shrinking at 15.9% a year on a trailing basis, which puts the burden on cost control and capital returns."
+      "Revenue compounded at 23.6% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) fell 16.1% year over year. The current-year consensus looks for $1.4B of revenue and $0.63 of EPS.",
+      "The next leg depends on utility bookings and international project wins. The top line is shrinking, so the margin has to be defended on a smaller base."
     ],
     "bullets": [
       {
         "title": "Rate base growth",
-        "detail": "Approved capital investment earns a regulated return over time. The current reading: revenue growth is -15.9%."
+        "detail": "Approved capital investment earns a regulated return over time. Revenue growth is -15.9%."
       },
       {
         "title": "Load growth",
-        "detail": "The operating margin is -8.2%. That is the metric the thesis depends on."
+        "detail": "Data centers and electrification can raise long-run demand. The operating margin is -8.2%."
       },
       {
         "title": "Cost recovery",
@@ -73,36 +73,36 @@ export const ARRY: StockStory = {
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from -21.0% in FY2018 to -2.3% in FY2025. The trailing operating margin is -8.2%, the net margin is -9.9% and diluted EPS is -$1.14.",
-      "Return on equity was 53.4% and return on invested capital was -16.1%. Both returns are negative, so the question is whether the operating losses are a scale problem or a structural one."
+      "The operating margin moved from -21.0% in FY2018 to -2.3% in FY2025. The trailing operating margin is -8.2%, the net margin is -9.9%, and diluted EPS is -$1.14, up 90.0% year over year.",
+      "Return on equity of 53.4% is well above the -16.1% return on invested capital; leverage or acquisition goodwill explains most of the gap. Comparisons with peers are useful, but the company's own history is the better test."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $111.8M, a 10.0% margin. Net debt is $518.5M, or n/a EBITDA. With capital spending at 2.0% of revenue, the remaining cash flow is what funds the balance sheet and shareholder returns.",
-      "Operating cash flow and net income are not both available on a comparable basis. The company generated positive free cash flow on a trailing basis, and capital expenditure was $22M in the latest fiscal year."
+      "Free cash flow was $111.8M, or 10.0% of revenue. Capex absorbed 2.0% of revenue, which is low relative to the revenue base. Operating cash flow and the balance sheet are the better tests at this stage.",
+      "Net debt is $518.5M. Interest cover is -4.1x. Leverage is only a problem if the cash flow cannot service it through a downturn. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at no meaningful trailing earnings multiple, no meaningful EV/EBITDA multiple and 1.0x EV/sales. The free-cash-flow yield is 17.5%. Without a meaningful earnings multiple, the cash-flow yield and the asset base carry more of the valuation work.",
-      "The peer comparison sets the company against ENPH, FSLR and NXT; the multiple is a starting point for questions, not a verdict. A higher multiple needs proof that the current growth and margin can persist; a lower one follows from either fading."
+      "At $4.14, the shares trade at no meaningful earnings multiple and no meaningful EV/EBITDA multiple, with a 17.5% free-cash-flow yield. What matters is whether the current multiple is above or below the company's own history.",
+      "No earnings multiple is meaningful, so the market is valuing the asset base or the pipeline rather than current profit. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "19 analysts contribute to the third-party consensus. The mean target is $7.06, with a range of $4.00 to $12.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $1.4B of revenue and $0.63 of EPS. The estimate revisions in the dataset are -15.9% over 30 days and -15.3% over 90 days. If met, the estimate would mean growth of 23.5% from the current base."
+      "19 analysts in the third-party consensus carry a mean target of $7.06, 70.5% above the latest close. The range runs from $4.00 to $12.00. The wide range shows how divided the published views are. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $1.4B of revenue and $0.63 of EPS. EPS estimates are down 15.9% over 30 days and down 15.3% over 90 days. That implies 23.5% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The first risk is drawn from the current financial profile; the rest are the sector risks that would change the earnings path. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is utility bookings and international project wins versus utility-scale solar demand and steel costs.",
     "items": [
       {
-        "title": "Revenue decline",
+        "title": "Utility-scale solar demand and steel costs",
         "severity": "High",
-        "detail": "Trailing revenue fell 15.9%, so the margin has to be defended on a shrinking base.",
-        "watch": "Organic growth, retention and pricing."
+        "detail": "Utility-scale solar demand and steel costs can swing margins.",
+        "watch": "Rate-case filings and commission decisions."
       },
       {
         "title": "Interest rates",
@@ -146,9 +146,9 @@ export const ARRY: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Array Technologies, Inc. produced $1.1B of trailing revenue at an -8.2% operating margin and a 10.0% free-cash-flow margin. The numbers describe a business whose value depends on the next few years looking like the last few.",
-      "Third-party analysts put the mean target at $7.06 as of 2026-11-25, 70.5% above the latest close; this report does not publish a target of its own. A single multiple is not a conclusion; it is a question about the durability of the underlying cash flow.",
-      "The factor percentiles put valuation at 100/100 and profitability at 8/100, with the composite averaging 50/100. The average hides a strong valuation reading and a weak profitability one, which is why the spread is the more useful description."
+      "The investment case rests on valuation and the durability of -8.2% margins. The weak link is profitability.",
+      "What would change the view is return on invested capital rising above -14.1%, not a single quarter. The key exposure is utility-scale solar demand and steel costs.",
+      "On the scorecard, the composite is 50/100. The spread between valuation and profitability is the useful part; the average hides it."
     ],
     "questions": [
       "How much of the capex plan is already approved?",

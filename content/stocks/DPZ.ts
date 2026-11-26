@@ -3,14 +3,14 @@ import type { StockStory } from "./types";
 export const DPZ: StockStory = {
   "ticker": "DPZ",
   "kicker": "Consumer Retail & Leisure · Restaurants",
-  "title": "Domino's Pizza, Inc: A global pizza franchisor",
-  "dek": "Domino's Pizza, Inc. reported $5.1B of trailing revenue at a 19.7% operating margin, and this report tests whether the current growth, cash conversion and valuation are consistent with that record.",
+  "title": "Domino's Pizza: A global pizza franchisor",
+  "dek": "Domino's Pizza's revenue rose 4.5% to $5.1B, at a 19.7% operating margin. The key risk is same-store sales and franchisee economics.",
   "readingMinutes": 10,
   "takeaways": [
-    "Revenue: $5.1B trailing twelve months, +4.5% year over year.",
+    "Revenue: $5.1B, +4.5% year over year.",
     "Profitability: 19.7% operating margin and 12.0% net margin.",
     "Cash: $635.7M free cash flow, a 12.5% margin, against $3.3B of net debt.",
-    "Valuation: 19.6x trailing earnings and 14.0x EV/EBITDA at the latest close."
+    "Valuation: 19.6x trailing earnings and 14.0x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
   "narrativeUpdatedAt": "2026-11-26",
@@ -18,90 +18,90 @@ export const DPZ: StockStory = {
   "irUrl": "https://biz.dominos.com",
   "bigPicture": {
     "paragraphs": [
-      "Domino's Pizza, Inc. generated $5.1B of revenue over the last twelve months, +4.5% versus the prior year. The latest reported quarter was Q3 FY26, with $1.2B of revenue and a 20.4% operating margin. The shares closed at $362.42 on Nov 25, 2026, giving a market capitalization of $11.9B.",
-      "The largest disclosed segment is Supply Chain at 62.9% of revenue. The extract carries a consolidated revenue line without a regional split. Domino's Pizza, Inc. competes in Restaurants, where scale, pricing and capital intensity decide the return on the next dollar of revenue.",
-      "At the latest close the equity is valued at $11.9B, or 19.6x trailing earnings and 14.0x EV/EBITDA. The shares sit 50% of the way up their 52-week range ($282.00 to $442.35). Whether the price is right depends on how long the current economics persist, which is what the rest of the report examines."
+      "Domino's Pizza's revenue rose 4.5% to $5.1B at a 19.7% operating margin, generating $635.7M of free cash flow. The latest quarter (Q3 FY26) grew 3.4%.",
+      "Supply Chain is 62.9% of revenue and US Stores is 32.6%. The near-term driver is store growth and supply chain. The risk is same-store sales and franchisee economics.",
+      "At $362.42, the equity is worth $11.9B, or 19.6x trailing earnings and 14.0x EV/EBITDA. The earnings multiple is 53.1% below the 41.7x peer median. The stock is 50% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Domino's is a global pizza franchisor, so same-store sales, store growth and supply-chain margins drive earnings."
   },
   "whatItDoes": {
     "paragraphs": [
-      "Domino's Pizza, Inc. is classified in Restaurants; its financial statements are in USD and it sits in the Consumer Retail & Leisure group. Domino's Pizza, Inc. is a Restaurants company within the Consumer Retail & Leisure coverage group.",
-      "The disclosed mix runs across Supply Chain at 62.9%, US Stores at 32.6% and International Franchise at 6.9%. The company employed 6,200 people at the last reporting date. With $5.1B of trailing revenue, the mix of repeatable and one-off sales decides how much of the margin deserves a premium.",
-      "The peer set is MCD, CMG and CAVA; similar businesses can earn very different returns on capital, which is the comparison that matters."
+      "Domino's Pizza operates in Restaurants.",
+      "Domino's Pizza earned a 40.0% gross margin, and labor, food, fuel and property costs absorbed 20.3% of revenue, leaving a 19.7% operating margin. That is 7.9 points above the peer median of 11.8%.",
+      "Capital spending runs at 2.4% of revenue, which is low relative to the revenue base. Net debt is $3.3B, or 3.0x EBITDA. Return on invested capital is not meaningful on the current data."
     ],
     "bullets": [
       {
-        "title": "Revenue base",
-        "detail": "$5.1B on a trailing-twelve-month basis, with the latest quarter at $1.2B."
+        "title": "Revenue mix",
+        "detail": "Supply Chain at 62.9%, US Stores at 32.6% and International Franchise at 6.9%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Profitability",
-        "detail": "Operating margin 19.7%; free-cash-flow margin 12.5%; net margin 12.0%."
+        "title": "Margin engine",
+        "detail": "Gross margin 40.0%, operating margin 19.7%. Labor, food, fuel and property costs are the bridge between the two."
       },
       {
-        "title": "Scale",
-        "detail": "Market capitalization $11.9B at the latest close."
+        "title": "Capital intensity",
+        "detail": "Capex 2.4% of revenue; $3.3B of net debt."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "The company kept 40.0% of revenue after cost of sales, or $2B. Operating expenses absorbed 20.3% of revenue, leaving a 19.7% operating margin. The operating layer is where the gross profit is either protected or spent.",
-      "Net debt is $3.3B, or 3.0x EBITDA. Return on invested capital was n/a and return on equity was -15.4%. A return on invested capital is not available in the dataset, so margin and cash conversion carry the quality assessment."
+      "Occupancy, ticket pricing and capacity drive revenue; labor and fuel drive the cost. The edge is global franchise and delivery.",
+      "The operating margin is 19.7%, 7.9 points above the peer median of 11.8%. What matters is whether new revenue carries the same margin as the base."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.3% a year across the fiscal years in the dataset, and the latest quarter changed +3.4% year over year. Current-year estimates call for $5.2B of revenue and $19.13 of EPS.",
-      "The operating margin of 19.7% and return on invested capital of n/a are the filters to watch as revenue scales. The 4.5% revenue pace and 19.7% margin have to move together for the earnings path to improve."
+      "Revenue compounded at 5.3% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 3.4% year over year. The current-year consensus looks for $5.2B of revenue and $19.13 of EPS.",
+      "The next leg depends on store growth and supply chain. For Domino's Pizza, demand growth is only worth paying for if pricing covers labor and capacity costs."
     ],
     "bullets": [
       {
         "title": "Demand and occupancy",
-        "detail": "Bookings, passenger counts or room nights determine how much capacity is used. The current reading: revenue growth is +4.5%."
+        "detail": "Bookings, passenger counts or room nights determine how much capacity is used. Revenue growth is 4.5%."
       },
       {
         "title": "Pricing and yield",
-        "detail": "The operating margin is 19.7%. A change in that figure would be the first signal of a shift."
+        "detail": "Ticket, room or menu pricing determines revenue per unit of capacity. The operating margin is 19.7%."
       },
       {
         "title": "Unit and capacity growth",
-        "detail": "New ships, rooms or restaurants expand the base but carry fixed costs and execution risk. Return on invested capital is n/a."
+        "detail": "New ships, rooms or restaurants expand the base but carry fixed costs and execution risk. The balance sheet carries $3.3B of net debt."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "Over the fiscal years in the dataset, the operating margin moved from 16.7% in FY2018 to 19.3% in FY2025. The trailing operating margin is 19.7%, the net margin is 12.0% and diluted EPS is $18.15.",
-      "Return on equity was -15.4% and return on invested capital was n/a. Both return measures are not available on a comparable basis, so the margin and cash record carry the quality assessment."
+      "The operating margin moved from 16.7% in FY2018 to 19.3% in FY2025. The trailing operating margin is 19.7%, the net margin is 12.0%, and diluted EPS is $18.15, up 6.1% year over year.",
+      "Both return measures are not available on a comparable basis, so margin and cash conversion carry the quality assessment. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow over the trailing period was $635.7M, a 12.5% margin. Net debt is $3.3B, or 3.0x EBITDA. Capex absorbed 2.4% of revenue, leaving the rest of the cash flow available for debt, deals or distributions.",
-      "Operating cash flow was $792.1M, or 131.6% of net income. The company generated positive free cash flow on a trailing basis, and capital expenditure was $120.6M in the latest fiscal year."
+      "Free cash flow was $635.7M, or 12.5% of revenue. Operating cash flow covered 131.6% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 2.4% of revenue, which is low relative to the revenue base.",
+      "Net debt is $3.3B, or 3.0x EBITDA. Interest cover is 5.0x. The balance sheet is manageable but not a source of upside; debt reduction competes with reinvestment for the cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest reference price the shares trade at 19.6x trailing earnings, 14.0x EV/EBITDA and 3.0x EV/sales. The free-cash-flow yield is 5.3%. Inverting the P/E gives an earnings yield of 5.1%; the cash-flow yield is 5.3%.",
-      "The peer comparison sets the company against MCD, CMG and CAVA; the multiple is a starting point for questions, not a verdict. The multiple holds if growth and returns stay durable, and compresses if either one slips."
+      "At $362.42, the shares trade at 19.6x trailing earnings and 14.0x EV/EBITDA, with a 5.3% free-cash-flow yield. The earnings yield is 5.1%. The earnings multiple is 53.1% below the 41.7x peer median.",
+      "The multiple is below the peer median, so some of the risk is already in the price. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "28 analysts contribute to the third-party consensus. The mean target is $357.07, with a range of $257.00 to $425.00. The consensus is a snapshot of published views, not a Stockmonk forecast, and it can change without notice.",
-      "Current-year estimates call for $5.2B of revenue and $19.13 of EPS. The estimate revisions in the dataset are 0.1% over 30 days and 0.5% over 90 days. If met, the estimate would mean growth of 2.4% from the current base."
+      "28 analysts in the third-party consensus carry a mean target of $357.07, 1.5% below the latest close. The range runs from $257.00 to $425.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $5.2B of revenue and $19.13 of EPS. EPS estimates are little changed over 30 days and up 0.5% over 90 days. That implies 2.4% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "The risks below are the sector risks that matter most for this business. They are qualitative descriptors, not a rating.",
+    "intro": "The central tension is store growth and supply chain versus same-store sales and franchisee economics.",
     "items": [
       {
-        "title": "Consumer cycle",
+        "title": "Same-store sales and franchisee economics",
         "severity": "High",
-        "detail": "Travel, dining and gaming budgets fall quickly when confidence weakens.",
+        "detail": "The main risk is same-store sales and franchisee economics.",
         "watch": "Bookings, occupancy and average spend."
       },
       {
@@ -146,9 +146,9 @@ export const DPZ: StockStory = {
   },
   "bottomLine": {
     "paragraphs": [
-      "Domino's Pizza, Inc. produced $5.1B of trailing revenue at a 19.7% operating margin and a 12.5% free-cash-flow margin. With leverage at 3.0x EBITDA, the balance sheet is the first thing the cash flow has to service.",
-      "The published consensus mean is $357.07 (2026-11-25), 1.5% below the latest close; this report does not publish a target of its own. The multiple is a starting point for the durability question, not an answer to it.",
-      "The factor percentiles put valuation at 67/100 and balance sheet at 17/100, with the composite averaging 39/100. The gap between valuation at 67/100 and balance sheet at 17/100 is wide enough that the composite is a balance, not a verdict."
+      "The investment case rests on valuation and the durability of 19.7% margins. $3.3B of net debt is the weak link.",
+      "What would change the view is leverage falling below 2.5x EBITDA, not a single quarter. The key exposure is same-store sales and franchisee economics.",
+      "On the scorecard, the composite is 39/100. The spread between valuation and balance sheet is the useful part; the average hides it."
     ],
     "questions": [
       "Is demand growing or is capacity being added?",

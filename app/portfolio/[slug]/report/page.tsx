@@ -9,6 +9,7 @@ import {
   FileText,
 } from "lucide-react";
 import { JsonLd } from "@/components/seo/json-ld";
+import { PortfolioLogo } from "@/components/portfolios/portfolio-logo";
 import { StockLogo } from "@/components/stock-logo";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { getPortfolio, getPortfolioSlugs } from "@/lib/portfolios/data";
@@ -118,10 +119,21 @@ export default async function PortfolioReportPage({
         </nav>
 
         <header className="mt-4 border-b border-line pb-5">
-          <p className="kicker">Portfolio research report</p>
-          <h1 className="display mt-2 max-w-4xl text-[30px] leading-[1.08] tracking-[-0.03em] text-ink sm:text-[40px]">
-            {portfolio.name}
-          </h1>
+          <div className="flex items-start gap-3.5">
+            <PortfolioLogo
+              slug={portfolio.slug}
+              category={portfolio.primaryCategory}
+              size={50}
+              priority
+              className="mt-0.5"
+            />
+            <div>
+              <p className="kicker">Portfolio research report</p>
+              <h1 className="display mt-1 max-w-4xl text-[30px] leading-[1.08] tracking-[-0.03em] text-ink sm:text-[40px]">
+                {portfolio.name}
+              </h1>
+            </div>
+          </div>
           <p className="mt-2 max-w-3xl text-[13px] leading-relaxed text-ink-soft">
             {portfolio.report.dek}
           </p>

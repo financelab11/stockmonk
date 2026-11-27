@@ -310,7 +310,7 @@ async function main() {
       ) {
         rebalanceRows.push({
           portfolio_id: portfolioId,
-          rebalance_date: detail.review.asOf,
+          rebalance_date: detail.rebalance.nextRebalance,
           next_rebalance_date: detail.rebalance.nextRebalance,
           frequency: detail.rebalance.frequency,
           changes_summary: detail.review.note,
@@ -389,7 +389,7 @@ async function main() {
       const portfolioId = portfolioIds.get(detail.slug);
       if (!portfolioId || detail.review.status !== "proposed") continue;
       const rebalanceId = rebalanceIds.get(
-        `${portfolioId}|${detail.review.asOf}|proposed`,
+        `${portfolioId}|${detail.rebalance.nextRebalance}|proposed`,
       );
       if (!rebalanceId) continue;
       await client.query(

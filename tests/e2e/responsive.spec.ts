@@ -4,6 +4,10 @@ test.describe("responsive layout", () => {
   test("no horizontal page overflow on key routes", async ({ page }) => {
     for (const route of [
       "/",
+      "/portfolio",
+      "/portfolio/ai-infrastructure-leaders?tab=overview",
+      "/portfolio/ai-infrastructure-leaders?tab=constituents",
+      "/portfolio/ai-infrastructure-leaders/report",
       "/discover",
       "/discover/all-stocks",
       "/framework",

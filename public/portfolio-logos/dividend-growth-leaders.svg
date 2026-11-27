@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img">
+  <title>Dividend Growth Leaders</title>
+  <defs>
+    <linearGradient id="bg-dividendgrowthleaders" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c62f3e"/>
+      <stop offset="100%" stop-color="#6b1020"/>
+    </linearGradient>
+    <linearGradient id="sheen-dividendgrowthleaders" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg-dividendgrowthleaders)"/>
+  <circle cx="22" cy="10" r="34" fill="#ffffff" opacity="0.06"/>
+  <circle cx="85" cy="102" r="46" fill="#ffffff" opacity="0.05"/>
+  <circle cx="79" cy="34" r="2.2" fill="#ffffff" opacity="0.55"/>
+  <circle cx="32" cy="94" r="1.7" fill="#ffffff" opacity="0.4"/>
+  <rect x="0" y="0" width="128" height="128" rx="28" fill="url(#sheen-dividendgrowthleaders)"/>
+  <g transform="translate(34 25)">
+    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-coins" aria-hidden="true"><path d="M13.744 17.736a6 6 0 1 1-7.48-7.48"></path><path d="M15 6h1v4"></path><path d="m6.134 14.768.866-.5 2 3.464"></path><circle cx="16" cy="8" r="6"></circle></svg>
+  </g>
+  <text x="64" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2.2" fill="#ffffff" fill-opacity="0.9">DIV</text>
+</svg>

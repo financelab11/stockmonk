@@ -2,6 +2,11 @@ import { expect, test } from "@playwright/test";
 
 const ROUTES = [
   "/",
+  "/portfolio",
+  "/portfolio/ai-infrastructure-leaders",
+  "/portfolio/ai-infrastructure-leaders?tab=overview",
+  "/portfolio/ai-infrastructure-leaders?tab=constituents",
+  "/portfolio/ai-infrastructure-leaders/report",
   "/discover",
   "/discover/all-stocks",
   "/screener",
@@ -48,6 +53,16 @@ test.describe("route smoke tests", () => {
     });
     expect(response?.status()).toBe(404);
     await expect(page.getByText(/not in the library/i)).toBeVisible();
+  });
+
+  test("unknown portfolio returns a real 404", async ({ page }) => {
+    const response = await page.goto("/portfolio/not-a-real-portfolio", {
+      waitUntil: "networkidle",
+    });
+    expect(response?.status()).toBe(404);
+    await expect(
+      page.getByText(/model portfolio is not in the library/i),
+    ).toBeVisible();
   });
 
   test("data health endpoint reports the freshness manifest", async ({

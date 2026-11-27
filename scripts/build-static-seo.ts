@@ -22,6 +22,7 @@ const staticRoutes: Array<{
   priority: string;
 }> = [
   { path: "/", changeFrequency: "daily", priority: "1" },
+  { path: "/portfolio", changeFrequency: "weekly", priority: "0.9" },
   { path: "/discover", changeFrequency: "daily", priority: "0.9" },
   { path: "/discover/all-stocks", changeFrequency: "daily", priority: "0.8" },
   { path: "/screener", changeFrequency: "daily", priority: "0.9" },
@@ -49,7 +50,38 @@ const scoreRoutes = SCORE_TICKERS.map((ticker) => ({
   priority: "0.7",
 }));
 
-const urls = [...staticRoutes, ...stockRoutes, ...scoreRoutes]
+type PortfolioIndexFile = {
+  portfolios?: Array<{ slug: string }>;
+};
+
+let portfolioSummaries: PortfolioIndexFile = {};
+try {
+  portfolioSummaries = JSON.parse(
+    fs.readFileSync(
+      path.join(PUBLIC, "data", "portfolios", "index.json"),
+      "utf8",
+    ),
+  ) as PortfolioIndexFile;
+} catch {
+  portfolioSummaries = {};
+}
+
+const portfolioRoutes = (portfolioSummaries.portfolios ?? []).flatMap(
+  (portfolio) => [
+    {
+      path: `/portfolio/${portfolio.slug}`,
+      changeFrequency: "weekly",
+      priority: "0.8",
+    },
+    {
+      path: `/portfolio/${portfolio.slug}/report`,
+      changeFrequency: "monthly",
+      priority: "0.6",
+    },
+  ],
+);
+
+const urls = [...staticRoutes, ...stockRoutes, ...scoreRoutes, ...portfolioRoutes]
   .map(
     (route) =>
       `  <url><loc>${SITE.url}${route.path}</loc><lastmod>${now}</lastmod><changefreq>${route.changeFrequency}</changefreq><priority>${route.priority}</priority></url>`,
@@ -74,5 +106,10 @@ fs.mkdirSync(PUBLIC, { recursive: true });
 fs.writeFileSync(path.join(PUBLIC, "sitemap.xml"), sitemap, "utf8");
 fs.writeFileSync(path.join(PUBLIC, "robots.txt"), robots, "utf8");
 console.log(
-  `[seo] wrote ${staticRoutes.length + stockRoutes.length + scoreRoutes.length} URLs`,
+  `[seo] wrote ${
+    staticRoutes.length +
+    stockRoutes.length +
+    scoreRoutes.length +
+    portfolioRoutes.length
+  } URLs`,
 );

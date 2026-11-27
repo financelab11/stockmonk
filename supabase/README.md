@@ -96,6 +96,23 @@ consensus and snapshots. Run `pnpm sync:supabase:direct` to refresh the counts.
 - `research_scores`, `research_evidence`, `company_kpis` and `research_articles`
   hold the normalized score, evidence, sector KPI and publication records.
   `pnpm sync:v2` refreshes them from `public/data/v2`.
+- `202611270001_portfolios.sql` adds the portfolio module: categories,
+  portfolios, constituents, methodology versions, performance series,
+  rebalance reviews, reports, universe/score snapshots and owner-only
+  bookmarks. The migration is applied to the current project. The public app
+  renders generated artifacts from `public/data/portfolios`; `pnpm
+  sync:portfolios` keeps the relational tables in sync. Portfolio bookmarks in
+  the web app use local-first storage (`stockmonk:portfolios:v1`) until
+  auth-backed bookmarks are enabled.
+
+```bash
+pnpm db:migrate:portfolios  # apply the portfolio migration directly
+pnpm sync:portfolios        # upsert 105 portfolios and their relational rows
+```
+
+Current portfolio table load: 105 portfolios, 2,234 constituents, 24,960
+simulated benchmark performance rows, 157 construction/proposed-review events,
+76 review changes, 105 reports and 2,234 score snapshots.
 
 ## Verify
 

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img">
+  <title>Genomics Revolution</title>
+  <defs>
+    <linearGradient id="bg-genomicsrevolution" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e7490"/>
+      <stop offset="100%" stop-color="#1b1464"/>
+    </linearGradient>
+    <linearGradient id="sheen-genomicsrevolution" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg-genomicsrevolution)"/>
+  <circle cx="23" cy="25" r="34" fill="#ffffff" opacity="0.06"/>
+  <circle cx="101" cy="97" r="46" fill="#ffffff" opacity="0.05"/>
+  <circle cx="95" cy="49" r="2.2" fill="#ffffff" opacity="0.55"/>
+  <circle cx="33" cy="89" r="1.7" fill="#ffffff" opacity="0.4"/>
+  <rect x="0" y="0" width="128" height="128" rx="28" fill="url(#sheen-genomicsrevolution)"/>
+  <g transform="translate(34 25)">
+    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dna" aria-hidden="true"><path d="m10 16 1.5 1.5"></path><path d="m14 8-1.5-1.5"></path><path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993"></path><path d="m16.5 10.5 1 1"></path><path d="m17 6-2.891-2.891"></path><path d="M2 15c6.667-6 13.333 0 20-6"></path><path d="m20 9 .891.891"></path><path d="M3.109 14.109 4 15"></path><path d="m6.5 12.5 1 1"></path><path d="m7 18 2.891 2.891"></path><path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993"></path></svg>
+  </g>
+  <text x="64" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2.2" fill="#ffffff" fill-opacity="0.9">DNA</text>
+</svg>

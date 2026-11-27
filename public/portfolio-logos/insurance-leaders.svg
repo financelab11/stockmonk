@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img">
+  <title>Insurance Leaders</title>
+  <defs>
+    <linearGradient id="bg-insuranceleaders" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2456d8"/>
+      <stop offset="100%" stop-color="#12122b"/>
+    </linearGradient>
+    <linearGradient id="sheen-insuranceleaders" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg-insuranceleaders)"/>
+  <circle cx="27" cy="-10" r="34" fill="#ffffff" opacity="0.06"/>
+  <circle cx="84" cy="61" r="46" fill="#ffffff" opacity="0.05"/>
+  <circle cx="78" cy="14" r="2.2" fill="#ffffff" opacity="0.55"/>
+  <circle cx="37" cy="53" r="1.7" fill="#ffffff" opacity="0.4"/>
+  <rect x="0" y="0" width="128" height="128" rx="28" fill="url(#sheen-insuranceleaders)"/>
+  <g transform="translate(34 25)">
+    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-umbrella" aria-hidden="true"><path d="M12 13v7a2 2 0 0 0 4 0"></path><path d="M12 2v2"></path><path d="M20.992 13a1 1 0 0 0 .97-1.274 10.284 10.284 0 0 0-19.923 0A1 1 0 0 0 3 13z"></path></svg>
+  </g>
+  <text x="64" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2.2" fill="#ffffff" fill-opacity="0.9">INS</text>
+</svg>

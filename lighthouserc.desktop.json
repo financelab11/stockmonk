@@ -6,6 +6,10 @@
       "startServerReadyTimeout": 90000,
       "url": [
         "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/portfolio",
+        "http://127.0.0.1:3000/portfolio/ai-infrastructure-leaders",
+        "http://127.0.0.1:3000/portfolio/ai-infrastructure-leaders?tab=constituents",
+        "http://127.0.0.1:3000/portfolio/ai-infrastructure-leaders/report",
         "http://127.0.0.1:3000/discover",
         "http://127.0.0.1:3000/discover/all-stocks",
         "http://127.0.0.1:3000/watchlist",

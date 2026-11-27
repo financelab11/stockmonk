@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img">
+  <title>Digital Payments Revolution</title>
+  <defs>
+    <linearGradient id="bg-digitalpaymentsrevolution" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b3dff"/>
+      <stop offset="100%" stop-color="#2456d8"/>
+    </linearGradient>
+    <linearGradient id="sheen-digitalpaymentsrevolution" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg-digitalpaymentsrevolution)"/>
+  <circle cx="16" cy="8" r="34" fill="#ffffff" opacity="0.06"/>
+  <circle cx="65" cy="67" r="46" fill="#ffffff" opacity="0.05"/>
+  <circle cx="59" cy="32" r="2.2" fill="#ffffff" opacity="0.55"/>
+  <circle cx="26" cy="59" r="1.7" fill="#ffffff" opacity="0.4"/>
+  <rect x="0" y="0" width="128" height="128" rx="28" fill="url(#sheen-digitalpaymentsrevolution)"/>
+  <g transform="translate(34 25)">
+    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card" aria-hidden="true"><rect width="20" height="14" x="2" y="5" rx="2"></rect><line x1="2" x2="22" y1="10" y2="10"></line><path d="M6 14h2"></path></svg>
+  </g>
+  <text x="64" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2.2" fill="#ffffff" fill-opacity="0.9">FIN</text>
+</svg>

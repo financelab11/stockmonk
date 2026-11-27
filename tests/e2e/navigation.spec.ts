@@ -8,6 +8,9 @@ test.describe("navigation", () => {
     if (width >= 1024) {
       const primary = page.getByRole("navigation", { name: "Primary" });
       await expect(
+        primary.getByRole("link", { name: "Portfolio" }),
+      ).toBeVisible();
+      await expect(
         primary.getByRole("link", { name: "Discover" }),
       ).toBeVisible();
       await expect(
@@ -17,7 +20,7 @@ test.describe("navigation", () => {
     } else {
       await page
         .getByRole("navigation", { name: "Mobile" })
-        .locator("summary")
+        .getByRole("button", { name: "More" })
         .click();
     }
 
@@ -34,7 +37,7 @@ test.describe("navigation", () => {
   test("global search finds US companies", async ({ page }) => {
     await page.goto("/", { waitUntil: "networkidle" });
     const openSearch = page.getByRole("button", {
-      name: /Search US companies/,
+      name: /Search companies/,
     });
     await openSearch.first().click();
 
@@ -44,9 +47,9 @@ test.describe("navigation", () => {
     );
 
     await input.fill("MSFT");
-    await expect(dialog.getByText(/MSFT/).first()).toBeVisible({
-      timeout: 15_000,
-    });
+    await expect(
+      dialog.getByRole("button", { name: /Microsoft Corporation/ }).first(),
+    ).toBeVisible({ timeout: 15_000 });
     await input.press("Enter");
     await expect(page).toHaveURL(/\/stocks\/MSFT/, { timeout: 15_000 });
 
@@ -56,14 +59,14 @@ test.describe("navigation", () => {
       /Search companies, tickers or sectors/i,
     );
     await inputAgain.fill("NVDA");
-    await expect(dialogAgain.getByText(/NVDA/).first()).toBeVisible({
-      timeout: 15_000,
-    });
+    await expect(
+      dialogAgain.getByRole("button", { name: /NVIDIA Corporation/ }).first(),
+    ).toBeVisible({ timeout: 15_000 });
     await inputAgain.press("Enter");
     await expect(page).toHaveURL(/\/stocks\/NVDA/, { timeout: 15_000 });
   });
 
-  test("mobile bar starts with Discover, Screener and Watchlist", async ({
+  test("mobile bar starts with Portfolio, Discover and Screener", async ({
     page,
   }) => {
     const width = page.viewportSize()?.width ?? 1280;
@@ -72,13 +75,18 @@ test.describe("navigation", () => {
       "bottom bar only renders below the desktop breakpoint",
     );
 
-    await page.goto("/discover", { waitUntil: "networkidle" });
+    await page.goto("/portfolio", { waitUntil: "networkidle" });
     const nav = page.getByRole("navigation", { name: "Mobile" });
     await expect(nav.getByRole("link")).toHaveText([
+      "Portfolio",
       "Discover",
       "Screener",
-      "Watchlist",
     ]);
-    await expect(nav.locator("summary")).toContainText("More");
+
+    const more = nav.getByRole("button", { name: "More" });
+    await expect(more).toBeVisible();
+    await more.click();
+    const dialog = page.getByRole("dialog", { name: "More navigation" });
+    await expect(dialog.getByRole("link", { name: "Watchlist" })).toBeVisible();
   });
 });

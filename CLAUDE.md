@@ -32,14 +32,18 @@ fundamentals and Yahoo Finance supplies prices, market data and company profiles
 
 ```bash
 pnpm dev                 # local dev
-pnpm build               # content validator + scores + screener + Next build
-pnpm build:web           # Vercel build; reuses committed score artifacts
+pnpm build               # content validator + scores + screener + portfolios + Next build
+pnpm build:web           # Vercel build; reuses committed score/portfolio artifacts
 pnpm start
 pnpm typecheck
 pnpm lint
 pnpm test
 pnpm e2e
 pnpm lhci
+pnpm build:portfolios    # rebuild public/data/portfolios from the 3,696-name screen
+pnpm build:portfolio-logos # regenerate the 105 name-relevant SVG logos
+pnpm validate:portfolios # weights, universe, ETF, research-link and logo gate
+pnpm sync:portfolios     # upsert portfolio tables (database password required)
 pnpm sync:supabase       # push file datasets to Supabase (service role required)
 pnpm ingest:edgar        # SEC XBRL fundamentals for the research names
 pnpm ingest:fundamentals # Yahoo prices, market data and profiles
@@ -65,6 +69,10 @@ pnpm audit:numbers       # advisory numeric-drift report
 | `components/`                                         | Server/client components; design tokens from `globals.css` |
 | `lib/data.ts`                                         | US data access (server-only, cached)                       |
 | `lib/schemas.ts`                                      | Zod schemas for processed company data                     |
+| `lib/portfolios/`                                     | Portfolio contracts, schemas, categories and data loader   |
+| `config/portfolio-specs.ts`                           | 105 model-portfolio definitions and strategy rules         |
+| `config/portfolio-themes.ts`                          | Curated theme membership from the coverage universe        |
+| `public/data/portfolios/`                             | Generated index and one JSON file per model portfolio      |
 | `config/universe.ts`                                  | US research universe and ticker aliases                    |
 | `data/{processed,consensus,prices,segments,earnings}` | US file datasets                                           |
 | `public/data/`                                        | Browser-served JSON, search index and price history        |
@@ -77,6 +85,9 @@ pnpm audit:numbers       # advisory numeric-drift report
 ## Routes
 
 - `/`, `/discover`, `/discover/all-stocks`, `/screener`
+- `/portfolio` - model-portfolio discovery, search, filters and sorting
+- `/portfolio/[slug]` - overview/constituents tabs via `?tab=overview|constituents`
+- `/portfolio/[slug]/report` - long-form portfolio research report
 - `/stocks/[ticker]` - US report, 10 sections
 - `/stocks/[ticker]/scores` - per-company score evidence
 - `/watchlist`, `/about`, `/framework`, `/framework/scores`, `/data-sources`, legal pages
@@ -113,17 +124,18 @@ pnpm build:screener`.
   operating margin, growth percentile, revenue, name and the four V2
   component scores plus the V2 composite. Data quality is a 14-point coverage
   score: High is 14, Moderate 11–13, Limited 10 or fewer.
-- Navigation: primary nav is Discover and Screener. Watchlist, methodology and
-  company pages live under More. The mobile bar is Discover, Screener,
-  Watchlist, More. Header search is a US-only global overlay (`/` or
-  Cmd/Ctrl+K).
+- Navigation: primary nav is Portfolio, Discover and Screener. Watchlist,
+  methodology and company pages live under More. The mobile bar is Portfolio,
+  Discover, Screener, More; Watchlist is inside More. Header search is a US-only
+  global overlay (`/` or Cmd/Ctrl+K).
 
 ## Refreshing the datasets
 
 ```bash
 FORCE_REFRESH=1 pnpm refresh      # EDGAR, Yahoo fundamentals, consensus, segments, benchmark
 pnpm refresh:prices               # Yahoo closes for all 500 US names
-pnpm build:data && pnpm build:scores && pnpm build:screener
+pnpm build:data && pnpm build:scores && pnpm build:screener && pnpm build:portfolios
+pnpm validate:portfolios
 pnpm audit:freshness              # fails if the US price snapshot is older than 3 days
 ```
 
@@ -166,7 +178,8 @@ periods.
   The public pages show the provisional/incomplete state and the formula, but
   not numeric coverage percentages or per-metric source labels.
 - Technical scores use SPY and sector ETFs. `pnpm ingest:benchmark` refreshes
-  SPY plus XLK, XLC, XLY, XLP, XLV, XLF, XLI, XLE, XLU, XLB and XLRE.
+  SPY, QQQ, IWM, DIA plus XLK, XLC, XLY, XLP, XLV, XLF, XLI, XLE, XLU, XLB and
+  XLRE. Portfolio comparisons use the same benchmark files.
 - The methodology is documented at `/framework/scores`; the article scorecard links
   to it. Scores are descriptive, not ratings or recommendations.
 - Every company article follows the 10-section structure: investment snapshot,
@@ -177,6 +190,41 @@ periods.
   `/stocks/{ticker}/scores`.
 - `pnpm build:scores` must run after `pnpm build:data` and before
   `pnpm build:screener` so the score fields reach the universe and the screener.
+
+## Portfolio module
+
+- `config/portfolio-specs.ts` defines 105 distinct strategies: 10 quantitative,
+  15 thematic, 15 sector, 10 fundamental, 10 technical, 10 single-factor, 10
+  multi-factor, 5 growth, 5 value, 5 quality/dividend, 5 defensive and 5
+  small/mid-cap. Names, slugs, theses, factor weights, filters and benchmarks
+  are explicit; do not generate superficial variants from the same holdings.
+- `pnpm build:portfolios` ranks the existing 3,696-name screener rows with the
+  existing V2 Growth/Quality/Valuation/Technical scores, applies strategy
+  filters, selects and caps weights, verifies 100% totals, and writes
+  `public/data/portfolios/index.json` plus one file per strategy.
+- Thematic and narrow sector strategies use `config/portfolio-themes.ts`
+  membership or precise industry labels. Never fill a theme with unrelated
+  sector names. Every constituent must exist in the screener universe; ETFs,
+  mutual funds and invented tickers are rejected by `pnpm validate:portfolios`.
+- The 500 research-covered names link to `/stocks/{ticker}`; other names link
+  to `/stocks/{ticker}/scores`. Missing research is shown, not hidden or
+  duplicated.
+- Performance is a clearly labelled **current-constituent simulation** from
+  actual Yahoo price history, price-only and before fees. It is not a live
+  track record. Rebalance events are only recorded events; review proposals are
+  rules-based, dated, explainable and explicitly "proposed - not executed".
+- Portfolio bookmarks are local-first under `stockmonk:portfolios:v1` and appear
+  in `/watchlist`. `202611270001_portfolios.sql` defines the relational
+  persistence shape; no server sync is required for the current UI.
+- Regenerate after changing the screener, scores, benchmark history or any
+  portfolio spec: `pnpm build:portfolios && pnpm build:portfolio-logos &&
+  pnpm validate:portfolios`. `build:web` consumes committed portfolio artifacts
+  and does not need `data/score-inputs` on Vercel.
+- `scripts/apply-portfolio-migration` is applied via Supabase; `pnpm
+  sync:portfolios` upserts categories, portfolios, methodology, constituents,
+  simulated performance, reports, review proposals and score snapshots.
+  Bookmarks stay owner-only and local-first in the web UI until auth-backed
+  bookmarks are enabled.
 
 ## Research report freshness
 

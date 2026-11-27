@@ -107,7 +107,9 @@ test.describe("research article", () => {
     await expect(page.getByText("NVDA", { exact: true }).first()).toBeVisible();
 
     await page.getByRole("link", { name: "Details" }).first().click();
-    await expect(page.getByText(/Parameter coverage:/i).first()).toBeVisible();
+    await expect(
+      page.getByRole("link", { name: "Close details" }),
+    ).toBeVisible();
   });
 
   test("screener quick screens and filter chips stay in sync", async ({

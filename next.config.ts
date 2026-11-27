@@ -39,6 +39,9 @@ const nextConfig: NextConfig = {
       "./public/data/screener.json",
       "./public/data/screener-factors.json",
     ],
+    "/portfolio": ["./public/data/portfolios/index.json"],
+    "/portfolio/[slug]": ["./public/data/portfolios/**"],
+    "/portfolio/[slug]/report": ["./public/data/portfolios/**"],
   },
   async redirects() {
     return [

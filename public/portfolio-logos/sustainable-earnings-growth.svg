@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img">
+  <title>Sustainable Earnings Growth</title>
+  <defs>
+    <linearGradient id="bg-sustainableearningsgrowth" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d6b4d"/>
+      <stop offset="100%" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="sheen-sustainableearningsgrowth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg-sustainableearningsgrowth)"/>
+  <circle cx="15" cy="-5" r="34" fill="#ffffff" opacity="0.06"/>
+  <circle cx="84" cy="63" r="46" fill="#ffffff" opacity="0.05"/>
+  <circle cx="78" cy="19" r="2.2" fill="#ffffff" opacity="0.55"/>
+  <circle cx="25" cy="55" r="1.7" fill="#ffffff" opacity="0.4"/>
+  <rect x="0" y="0" width="128" height="128" rx="28" fill="url(#sheen-sustainableearningsgrowth)"/>
+  <g transform="translate(34 25)">
+    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket" aria-hidden="true"><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"></path><path d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05"></path></svg>
+  </g>
+  <text x="64" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2.2" fill="#ffffff" fill-opacity="0.9">SEG</text>
+</svg>

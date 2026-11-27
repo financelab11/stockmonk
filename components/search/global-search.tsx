@@ -62,7 +62,11 @@ function loadIndex(): Promise<FuseLike | null> {
       threshold: 0.34,
       ignoreLocation: true,
     }) as FuseLike;
-  })();
+  })().catch(() => null);
+  void indexPromise.then((value) => {
+    // A failed fetch should not permanently disable search for the session.
+    if (!value) indexPromise = null;
+  });
   return indexPromise;
 }
 
@@ -72,15 +76,32 @@ export function GlobalSearch() {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<Entry[]>([]);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [indexLoading, setIndexLoading] = useState(false);
   const fuseRef = useRef<FuseLike | null>(null);
+  const queryRef = useRef("");
   const inputRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
 
   const close = useCallback(() => {
     setOpen(false);
     setQuery("");
+    queryRef.current = "";
     setResults([]);
     setActiveIndex(0);
+    setIndexLoading(false);
+  }, []);
+
+  const applyResults = useCallback((fuse: FuseLike, value: string) => {
+    if (!value.trim()) {
+      setResults([]);
+      return;
+    }
+    setResults(
+      fuse
+        .search(value)
+        .slice(0, 8)
+        .map((result) => result.item),
+    );
   }, []);
 
   const go = useCallback(
@@ -125,28 +146,35 @@ export function GlobalSearch() {
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     const timer = window.setTimeout(() => inputRef.current?.focus(), 30);
+    setIndexLoading(true);
     void loadIndex().then((fuse) => {
       fuseRef.current = fuse;
+      setIndexLoading(false);
+      if (fuse) applyResults(fuse, queryRef.current);
     });
     return () => {
       window.clearTimeout(timer);
       document.body.style.overflow = previousOverflow;
     };
-  }, [open]);
+  }, [open, applyResults]);
 
   const runSearch = (value: string) => {
+    queryRef.current = value;
     setQuery(value);
     setActiveIndex(0);
-    if (!fuseRef.current || !value.trim()) {
-      setResults([]);
+    const fuse = fuseRef.current;
+    if (fuse) {
+      applyResults(fuse, value);
       return;
     }
-    setResults(
-      fuseRef.current
-        .search(value)
-        .slice(0, 8)
-        .map((result) => result.item),
-    );
+    setResults([]);
+    if (!value.trim()) return;
+    setIndexLoading(true);
+    void loadIndex().then((loaded) => {
+      setIndexLoading(false);
+      fuseRef.current = loaded;
+      if (loaded) applyResults(loaded, queryRef.current);
+    });
   };
 
   return (
@@ -155,7 +183,7 @@ export function GlobalSearch() {
         type="button"
         onClick={() => setOpen(true)}
         className="group hidden h-10 items-center gap-2 rounded-full border border-line bg-surface px-3.5 text-sm text-muted transition-colors hover:border-line-strong hover:text-ink md:inline-flex"
-        aria-label="Search US companies"
+        aria-keyshortcuts="/"
       >
         <Search aria-hidden="true" className="size-4" />
         <span>Search companies</span>
@@ -167,7 +195,7 @@ export function GlobalSearch() {
         type="button"
         onClick={() => setOpen(true)}
         className="inline-flex size-10 items-center justify-center rounded-full border border-line bg-surface text-ink-soft md:hidden"
-        aria-label="Search US companies"
+        aria-label="Search companies"
       >
         <Search aria-hidden="true" className="size-4" />
       </button>
@@ -234,12 +262,24 @@ export function GlobalSearch() {
                     by name, ticker or sector.
                   </p>
                 )}
-                {query.trim() !== "" && results.length === 0 && (
-                  <p className="px-3 py-6 text-center text-[11.5px] text-muted">
-                    No company matches “{query.trim()}”. Try a ticker or a
-                    broader term.
-                  </p>
-                )}
+                {query.trim() !== "" &&
+                  indexLoading &&
+                  results.length === 0 && (
+                    <p
+                      className="px-3 py-6 text-center text-[11.5px] text-muted"
+                      role="status"
+                    >
+                      Loading the company index…
+                    </p>
+                  )}
+                {query.trim() !== "" &&
+                  !indexLoading &&
+                  results.length === 0 && (
+                    <p className="px-3 py-6 text-center text-[11.5px] text-muted">
+                      No company matches “{query.trim()}”. Try a ticker or a
+                      broader term.
+                    </p>
+                  )}
                 {results.map((entry, index) => (
                   <button
                     key={`${entry.market}-${entry.ticker}`}

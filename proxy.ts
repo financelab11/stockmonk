@@ -1,5 +1,8 @@
 ﻿import { NextResponse, type NextRequest } from "next/server";
 import { isScoreTicker, RESEARCH_TICKERS } from "@/config/universe";
+import { PORTFOLIO_SPECS } from "@/config/portfolio-specs";
+
+const PORTFOLIO_SLUGS = new Set(PORTFOLIO_SPECS.map((spec) => spec.slug));
 
 /**
  * The stock report route is intentionally dynamic so 500 pages share one
@@ -7,6 +10,23 @@ import { isScoreTicker, RESEARCH_TICKERS } from "@/config/universe";
  * response that only contains the not-found UI.
  */
 export function proxy(request: NextRequest) {
+  const portfolioMatch = /^\/portfolio\/([^/]+)/.exec(
+    request.nextUrl.pathname,
+  );
+  if (portfolioMatch) {
+    let slug = portfolioMatch[1];
+    try {
+      slug = decodeURIComponent(slug);
+    } catch {
+      // keep the raw value
+    }
+    if (PORTFOLIO_SLUGS.has(slug)) return NextResponse.next();
+    return new NextResponse(
+      `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Portfolio not found | Stockmonk</title></head><body style="font-family:Georgia,serif;max-width:40rem;margin:4rem auto;padding:0 1.5rem;color:#12122b"><p style="font-size:.75rem;letter-spacing:.08em;color:#6b6b83">Stockmonk</p><h1 style="font-size:2rem;line-height:1.15">This model portfolio is not in the library</h1><p style="line-height:1.6;color:#3f3f5a">The portfolio you requested does not exist or has been retired. Browse the Portfolio library to find another strategy.</p><p><a href="/portfolio" style="color:#e4572e">Browse model portfolios</a></p></body></html>`,
+      { status: 404, headers: { "content-type": "text/html; charset=utf-8" } },
+    );
+  }
+
   const match = /^\/stocks\/([^/]+)\/?$/.exec(request.nextUrl.pathname);
   if (!match) return NextResponse.next();
 
@@ -33,5 +53,5 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/stocks/:path*"],
+  matcher: ["/stocks/:path*", "/portfolio/:path*"],
 };

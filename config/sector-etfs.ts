@@ -47,5 +47,5 @@ export function sectorEtf(groupId: string | null | undefined): string {
 }
 
 export const BENCHMARK_ETFS = [
-  ...new Set(["SPY", ...Object.values(SECTOR_ETFS)]),
+  ...new Set(["SPY", "QQQ", "IWM", "DIA", ...Object.values(SECTOR_ETFS)]),
 ];

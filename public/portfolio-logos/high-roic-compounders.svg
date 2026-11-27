@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img">
+  <title>High ROIC Compounders</title>
+  <defs>
+    <linearGradient id="bg-highroiccompounders" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b6b53"/>
+      <stop offset="100%" stop-color="#1b1464"/>
+    </linearGradient>
+    <linearGradient id="sheen-highroiccompounders" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg-highroiccompounders)"/>
+  <circle cx="28" cy="30" r="34" fill="#ffffff" opacity="0.06"/>
+  <circle cx="99" cy="93" r="46" fill="#ffffff" opacity="0.05"/>
+  <circle cx="93" cy="54" r="2.2" fill="#ffffff" opacity="0.55"/>
+  <circle cx="38" cy="85" r="1.7" fill="#ffffff" opacity="0.4"/>
+  <rect x="0" y="0" width="128" height="128" rx="28" fill="url(#sheen-highroiccompounders)"/>
+  <g transform="translate(34 25)">
+    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-percent" aria-hidden="true"><line x1="19" x2="5" y1="5" y2="19"></line><circle cx="6.5" cy="6.5" r="2.5"></circle><circle cx="17.5" cy="17.5" r="2.5"></circle></svg>
+  </g>
+  <text x="64" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2.2" fill="#ffffff" fill-opacity="0.9">HRC</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img">
+  <title>Global AI &amp; Data Centre Ecosystem</title>
+  <defs>
+    <linearGradient id="bg-globalaidatacentreecosystem" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff7a45"/>
+      <stop offset="100%" stop-color="#b21f4a"/>
+    </linearGradient>
+    <linearGradient id="sheen-globalaidatacentreecosystem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg-globalaidatacentreecosystem)"/>
+  <circle cx="18" cy="0" r="34" fill="#ffffff" opacity="0.06"/>
+  <circle cx="78" cy="72" r="46" fill="#ffffff" opacity="0.05"/>
+  <circle cx="72" cy="24" r="2.2" fill="#ffffff" opacity="0.55"/>
+  <circle cx="28" cy="64" r="1.7" fill="#ffffff" opacity="0.4"/>
+  <rect x="0" y="0" width="128" height="128" rx="28" fill="url(#sheen-globalaidatacentreecosystem)"/>
+  <g transform="translate(34 25)">
+    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-server" aria-hidden="true"><rect width="20" height="8" x="2" y="2" rx="2" ry="2"></rect><rect width="20" height="8" x="2" y="14" rx="2" ry="2"></rect><line x1="6" x2="6.01" y1="6" y2="6"></line><line x1="6" x2="6.01" y1="18" y2="18"></line></svg>
+  </g>
+  <text x="64" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2.2" fill="#ffffff" fill-opacity="0.9">GAD</text>
+</svg>

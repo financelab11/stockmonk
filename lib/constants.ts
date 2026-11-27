@@ -16,6 +16,7 @@ export const DISCLAIMER_SHORT =
   "Informational and educational only. Not investment advice.";
 
 export const NAV_LINKS = [
+  { href: "/portfolio", label: "Portfolio" },
   { href: "/discover", label: "Discover" },
   { href: "/screener", label: "Screener" },
 ] as const;
@@ -24,6 +25,7 @@ export const FOOTER_COLUMNS = [
   {
     title: "Research",
     links: [
+      { href: "/portfolio", label: "Model portfolios" },
       { href: "/discover", label: "Discover" },
       { href: "/discover/all-stocks", label: "All stocks" },
       { href: "/screener", label: "US screener" },

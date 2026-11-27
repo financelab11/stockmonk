@@ -99,7 +99,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           Skip to content
         </a>
         <SiteHeader />
-        <main id="main" className="min-h-[60vh] pb-16 lg:pb-0">
+        <main
+          id="main"
+          className="min-h-[60vh] pb-[calc(72px+env(safe-area-inset-bottom))] lg:pb-0"
+        >
           {children}
         </main>
         <SiteFooter />
